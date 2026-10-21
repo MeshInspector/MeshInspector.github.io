@@ -14206,6 +14206,7 @@
   </compound>
   <compound refid="MRMeshBoolean_8h" kind="file"><name>MRMeshBoolean.h</name>
     <member refid="MRMeshBoolean_8h_1af7f7ea1a320c24c6e4922bc0b5a41edf" kind="typedef"><name>MR_expected_MR_BooleanResultPoints_std_string</name></member>
+    <member refid="MRMeshBoolean_8h_1a0487608acfac1b24d7ade7443d82d166" kind="typedef"><name>MR_std_optional_MR_AffineXf3f</name></member>
     <member refid="MRMeshBoolean_8h_1aac6c23cacaf5f96e13501fde30d1c95e" kind="typedef"><name>MR_BooleanResult</name></member>
     <member refid="MRMeshBoolean_8h_1acc4c51e5805fb2a6c37dbc760971c879" kind="typedef"><name>MR_BooleanPreCutResult</name></member>
     <member refid="MRMeshBoolean_8h_1aa07e15a41ee4329505dc93bc343e1a73" kind="typedef"><name>MR_BooleanParameters</name></member>
@@ -14244,15 +14245,31 @@
     <member refid="MRMeshBoolean_8h_1aa22eae89e047943c8d7e79c1dc61f00e" kind="function"><name>MR_BooleanPreCutResult_Get_contours</name></member>
     <member refid="MRMeshBoolean_8h_1a64ac83145c3086c796fa115a14db4ef1" kind="function"><name>MR_BooleanPreCutResult_Set_contours</name></member>
     <member refid="MRMeshBoolean_8h_1aae377ff386492522ccb48b7c5cbefb00" kind="function"><name>MR_BooleanPreCutResult_GetMutable_contours</name></member>
+    <member refid="MRMeshBoolean_8h_1afbe4161e22c2ac8a0727ede90ee5e4ca" kind="function"><name>MR_BooleanPreCutResult_Get_intersections</name></member>
+    <member refid="MRMeshBoolean_8h_1abea0615d438186ea073d614bda099b76" kind="function"><name>MR_BooleanPreCutResult_Set_intersections</name></member>
+    <member refid="MRMeshBoolean_8h_1a5fb77d03f7b5ec758b086d32490ef61d" kind="function"><name>MR_BooleanPreCutResult_GetMutable_intersections</name></member>
+    <member refid="MRMeshBoolean_8h_1a099e495e4daa3dc19e5ae0b8c032a023" kind="function"><name>MR_BooleanPreCutResult_Get_toInt</name></member>
+    <member refid="MRMeshBoolean_8h_1a48bd3c6c1b4bd9dfb53cc167cab78528" kind="function"><name>MR_BooleanPreCutResult_Set_toInt</name></member>
+    <member refid="MRMeshBoolean_8h_1aeaac05f7e059d808e9632820c062b9e7" kind="function"><name>MR_BooleanPreCutResult_GetMutable_toInt</name></member>
+    <member refid="MRMeshBoolean_8h_1a37d3acc4bb91cf2c403e237889afa11f" kind="function"><name>MR_BooleanPreCutResult_Get_rigidB2A</name></member>
+    <member refid="MRMeshBoolean_8h_1ac87bd3e94d27ef3950ba65b4afc9f7e2" kind="function"><name>MR_BooleanPreCutResult_Set_rigidB2A</name></member>
+    <member refid="MRMeshBoolean_8h_1ae31bbe7d9cb23fb08e51bfbf3f1aa750" kind="function"><name>MR_BooleanPreCutResult_GetMutable_rigidB2A</name></member>
+    <member refid="MRMeshBoolean_8h_1a897a960973f7688547e6b34d59bcc926" kind="function"><name>MR_BooleanPreCutResult_Get_meshAVertsNum</name></member>
+    <member refid="MRMeshBoolean_8h_1ace2dfeb1c1747635ae3a34d965c4c95c" kind="function"><name>MR_BooleanPreCutResult_Set_meshAVertsNum</name></member>
+    <member refid="MRMeshBoolean_8h_1a7640c22d219c1aa3a3af8dd1fab767d6" kind="function"><name>MR_BooleanPreCutResult_GetMutable_meshAVertsNum</name></member>
+    <member refid="MRMeshBoolean_8h_1af005af49289c374a28f259cae5b7dfe7" kind="function"><name>MR_BooleanPreCutResult_Get_isMeshA</name></member>
+    <member refid="MRMeshBoolean_8h_1ab774b1ee79046fb405e2459993b8001b" kind="function"><name>MR_BooleanPreCutResult_Set_isMeshA</name></member>
+    <member refid="MRMeshBoolean_8h_1a4ee83586e06802dc1c793092bb833402" kind="function"><name>MR_BooleanPreCutResult_GetMutable_isMeshA</name></member>
     <member refid="MRMeshBoolean_8h_1ae8f5aa8e0198115e9a02f03199c79d7f" kind="function"><name>MR_BooleanPreCutResult_DefaultConstruct</name></member>
     <member refid="MRMeshBoolean_8h_1aab60eb7acfa2ecfc1fcfe025cb93fc99" kind="function"><name>MR_BooleanPreCutResult_DefaultConstructArray</name></member>
-    <member refid="MRMeshBoolean_8h_1ac74272e9c0d34f22b8cc586d738b9eba" kind="function"><name>MR_BooleanPreCutResult_ConstructFrom</name></member>
+    <member refid="MRMeshBoolean_8h_1a9168b8caf268af0e49935ee44080120a" kind="function"><name>MR_BooleanPreCutResult_ConstructFrom</name></member>
     <member refid="MRMeshBoolean_8h_1a4561c33d83954c6d729ff9e1b0152678" kind="function"><name>MR_BooleanPreCutResult_OffsetPtr</name></member>
     <member refid="MRMeshBoolean_8h_1a1493a303d406b107cf01020efa238f17" kind="function"><name>MR_BooleanPreCutResult_OffsetMutablePtr</name></member>
     <member refid="MRMeshBoolean_8h_1a564b95b0eb8ccfb6b9f7e36e272f54cd" kind="function"><name>MR_BooleanPreCutResult_ConstructFromAnother</name></member>
     <member refid="MRMeshBoolean_8h_1ab8b2f9a803670c813cdc0cf693346754" kind="function"><name>MR_BooleanPreCutResult_Destroy</name></member>
     <member refid="MRMeshBoolean_8h_1a5cc15d94e0b54dab366ceeaf1740f0be" kind="function"><name>MR_BooleanPreCutResult_DestroyArray</name></member>
     <member refid="MRMeshBoolean_8h_1a21fa7c236d26828952ce330b06301713" kind="function"><name>MR_BooleanPreCutResult_AssignFromAnother</name></member>
+    <member refid="MRMeshBoolean_8h_1a12930666a32ce7369227babeeed7e877" kind="function"><name>MR_BooleanPreCutResult_sortData</name></member>
     <member refid="MRMeshBoolean_8h_1a7f0b24b32861f64936c3a72b62cadfde" kind="function"><name>MR_BooleanParameters_Get_rigidB2A</name></member>
     <member refid="MRMeshBoolean_8h_1a2aae9807f49b9a95ebc8ea2345b5b0e2" kind="function"><name>MR_BooleanParameters_Set_rigidB2A</name></member>
     <member refid="MRMeshBoolean_8h_1aca11ef84d4f8c3659385d21cc54e6819" kind="function"><name>MR_BooleanParameters_GetMutable_rigidB2A</name></member>
@@ -35988,6 +36005,21 @@
     <member refid="std__optional__float_8h_1a8604aa1a483cf4491733d6ee3ab7eb94" kind="function"><name>MR_std_optional_float_has_value</name></member>
     <member refid="std__optional__float_8h_1a34d0d2ea07f0e12a274efbaa6e1b69b4" kind="function"><name>MR_std_optional_float_value</name></member>
     <member refid="std__optional__float_8h_1a952d38c51b1a4bc1d15fc4cf6fc1f9b0" kind="function"><name>MR_std_optional_float_value_mut</name></member>
+  </compound>
+  <compound refid="std__optional__MR__AffineXf3f_8h" kind="file"><name>std_optional_MR_AffineXf3f.h</name>
+    <member refid="std__optional__MR__AffineXf3f_8h_1acb7acc181694b7882aec96dc26166fe9" kind="function"><name>MR_std_optional_MR_AffineXf3f_DefaultConstruct</name></member>
+    <member refid="std__optional__MR__AffineXf3f_8h_1a90b2929727db7c0bc4dcac80999e9b04" kind="function"><name>MR_std_optional_MR_AffineXf3f_DefaultConstructArray</name></member>
+    <member refid="std__optional__MR__AffineXf3f_8h_1aef246959e260367538b29afdfcf7fef4" kind="function"><name>MR_std_optional_MR_AffineXf3f_ConstructFromAnother</name></member>
+    <member refid="std__optional__MR__AffineXf3f_8h_1ae9efc8c4468df03207d77963c5f8e7bb" kind="function"><name>MR_std_optional_MR_AffineXf3f_ConstructFrom</name></member>
+    <member refid="std__optional__MR__AffineXf3f_8h_1ac8bbd81bb103a2ed132061cb75e3a567" kind="function"><name>MR_std_optional_MR_AffineXf3f_AssignFromAnother</name></member>
+    <member refid="std__optional__MR__AffineXf3f_8h_1ae01d3bcbdceea4de1c47369a248dfaca" kind="function"><name>MR_std_optional_MR_AffineXf3f_AssignFrom</name></member>
+    <member refid="std__optional__MR__AffineXf3f_8h_1ac45ca1af50ddfc2f0248d49e6b01308f" kind="function"><name>MR_std_optional_MR_AffineXf3f_Destroy</name></member>
+    <member refid="std__optional__MR__AffineXf3f_8h_1aabb3fa5722c2b051fad01e220695efe8" kind="function"><name>MR_std_optional_MR_AffineXf3f_DestroyArray</name></member>
+    <member refid="std__optional__MR__AffineXf3f_8h_1a5d6544a35acdd4b72bd15354477558ce" kind="function"><name>MR_std_optional_MR_AffineXf3f_OffsetPtr</name></member>
+    <member refid="std__optional__MR__AffineXf3f_8h_1ae1546f763f95f400fb68d2c4794cddaa" kind="function"><name>MR_std_optional_MR_AffineXf3f_OffsetMutablePtr</name></member>
+    <member refid="std__optional__MR__AffineXf3f_8h_1a2c1317d0838436015dce2e82d3284192" kind="function"><name>MR_std_optional_MR_AffineXf3f_has_value</name></member>
+    <member refid="std__optional__MR__AffineXf3f_8h_1adc611118820abe0f79e9f0a65b7d92e3" kind="function"><name>MR_std_optional_MR_AffineXf3f_value</name></member>
+    <member refid="std__optional__MR__AffineXf3f_8h_1a3aa013e08a7c545fd48a72d8c54cc9df" kind="function"><name>MR_std_optional_MR_AffineXf3f_value_mut</name></member>
   </compound>
   <compound refid="std__optional__MR__AllLocalTriangulations_8h" kind="file"><name>std_optional_MR_AllLocalTriangulations.h</name>
     <member refid="std__optional__MR__AllLocalTriangulations_8h_1a4122cc7a4fefb0782738431f1a0baadf" kind="function"><name>MR_std_optional_MR_AllLocalTriangulations_DefaultConstruct</name></member>

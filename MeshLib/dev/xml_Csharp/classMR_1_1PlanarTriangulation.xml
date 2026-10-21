@@ -361,7 +361,7 @@
 <parametername>loops</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>one closed EdgeLoop of at least 3 edges per boundary of one region, bounding holes of <computeroutput>mesh</computeroutput> as trackRightBoundaryLoop returns them; which way round a loop runs does not matter </para>
+<para>one closed EdgeLoop per boundary of one region, bounding holes of <computeroutput>mesh</computeroutput> as trackRightBoundaryLoop returns them (a slit of one edge is a loop of 2 edges, and a loop of one edge is skipped); which way round a loop runs does not matter; the holes can be several parts of one region split by edges between them, as all the holes of a face cut along contours (the parts between the contours that cross its sides, and both sides of every island), since an edge taken both ways adds zero winding </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -379,7 +379,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1576" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1576" bodyend="1582"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1579" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="1579" bodyend="1585"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -407,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1587" column="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1590" column="70"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1aec8758a4e876d341528dd8b33627323c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Mesh._Underlying *</type>
@@ -433,7 +433,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1590" column="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1593" column="48"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a99727bf81a2d5e395be4f5be72ca1941" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Mesh._Underlying *</type>
@@ -459,7 +459,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1593" column="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1596" column="48"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1adccb70002cca57514e7cc1ec20e9d65e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector2f._Underlying *</type>
@@ -481,7 +481,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1596" column="73"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1599" column="73"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a30aa23d62a990ff06e8a1a7adf4a2931" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector2f._Underlying *</type>
@@ -503,7 +503,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1599" column="73"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1602" column="73"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a9e5f2e4f849677de30957a2e81e4e5dd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void *</type>
@@ -517,7 +517,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1602" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1605" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1ad5fa13a00fb6125793f4ba818d9739d8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Mesh._Underlying *</type>
@@ -539,7 +539,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1605" column="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1608" column="48"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a74a0d9c67f8bc8ee2328d99ace74cd9c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Mesh._Underlying *</type>
@@ -561,7 +561,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1608" column="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1611" column="48"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a7d0e6cb09d0253ceeaf3b1ba4ac0d6ce" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRMesh._Underlying *</type>
@@ -583,7 +583,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1611" column="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1614" column="62"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1a17459a967c3e034ba6915924f8f5f86d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRMesh._Underlying *</type>
@@ -605,7 +605,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1614" column="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1617" column="62"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1af1ad1c6cb234d54de347f9e459439585" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRMesh._Underlying *</type>
@@ -639,14 +639,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1617" column="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="1620" column="62"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="4" bodyend="1618"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="4" bodyend="1621"/>
     <listofallmembers>
       <member refid="classMR_1_1PlanarTriangulation_1aef1954c13ef1be33dda45aef7b22478f" prot="private" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>__MR_PlanarTriangulation_getMonotonePlan</name></member>
       <member refid="classMR_1_1PlanarTriangulation_1adccb70002cca57514e7cc1ec20e9d65e" prot="private" virt="non-virtual"><scope>MR::PlanarTriangulation</scope><name>__MR_PlanarTriangulation_getOutline_std_vector_std_vector_MR_Vector2d</name></member>

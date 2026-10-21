@@ -3703,7 +3703,7 @@
 <parametername>new2Old</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>maps every face appeared after the splits to the face it was split from (as filled by splitFace() and splitEdge()); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several calls (like new2oldMap of subdivideLoneContours in the iterations of boolean) would add the earlier faces to the tree once more Generated from method <computeroutput>MR::Mesh::updateCachesAfterSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new2Old</computeroutput> can not be null. It is a single object. </para>
+<para>maps every face appeared after the splits to the face it was split from (as filled by splitFace() and splitEdge()); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several updates would add the earlier faces to the tree once more Generated from method <computeroutput>MR::Mesh::updateCachesAfterSplits</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new2Old</computeroutput> can not be null. It is a single object. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

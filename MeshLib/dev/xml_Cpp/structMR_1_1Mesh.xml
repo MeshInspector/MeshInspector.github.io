@@ -3175,7 +3175,7 @@
 <parametername>new2Old</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>maps every face appeared after the splits to the face it was split from (as filled by <ref refid="structMR_1_1Mesh_1a9f365e654b9b4a4584293c3add2fdb05" kindref="member">splitFace()</ref> and <ref refid="structMR_1_1Mesh_1a0426a1ac11c53b02a2756afa0c205105" kindref="member">splitEdge()</ref>); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several calls (like new2oldMap of subdivideLoneContours in the iterations of boolean) would add the earlier faces to the tree once more </para>
+<para>maps every face appeared after the splits to the face it was split from (as filled by <ref refid="structMR_1_1Mesh_1a9f365e654b9b4a4584293c3add2fdb05" kindref="member">splitFace()</ref> and <ref refid="structMR_1_1Mesh_1a0426a1ac11c53b02a2756afa0c205105" kindref="member">splitEdge()</ref>); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several updates would add the earlier faces to the tree once more </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

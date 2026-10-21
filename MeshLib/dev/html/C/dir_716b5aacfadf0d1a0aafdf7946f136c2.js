@@ -206,6 +206,7 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "std_function_void_from_MR_VertId_const_MR_Vector3f_ref.h", "std__function__void__from__MR__VertId__const__MR__Vector3f__ref_8h.html", "std__function__void__from__MR__VertId__const__MR__Vector3f__ref_8h" ],
     [ "std_optional_double.h", "std__optional__double_8h.html", "std__optional__double_8h" ],
     [ "std_optional_float.h", "std__optional__float_8h.html", "std__optional__float_8h" ],
+    [ "std_optional_MR_AffineXf3f.h", "std__optional__MR__AffineXf3f_8h.html", "std__optional__MR__AffineXf3f_8h" ],
     [ "std_optional_MR_AllLocalTriangulations.h", "std__optional__MR__AllLocalTriangulations_8h.html", "std__optional__MR__AllLocalTriangulations_8h" ],
     [ "std_optional_MR_Box1f.h", "std__optional__MR__Box1f_8h.html", "std__optional__MR__Box1f_8h" ],
     [ "std_optional_MR_Box3f.h", "std__optional__MR__Box3f_8h.html", "std__optional__MR__Box3f_8h" ],

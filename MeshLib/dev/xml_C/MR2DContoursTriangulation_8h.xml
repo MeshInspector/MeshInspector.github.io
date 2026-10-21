@@ -2461,7 +2461,7 @@
 <parametername>loops</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>one closed EdgeLoop of at least 3 edges per boundary of one region, bounding holes of <computeroutput>mesh</computeroutput> as trackRightBoundaryLoop returns them; which way round a loop runs does not matter </para>
+<para>one closed EdgeLoop per boundary of one region, bounding holes of <computeroutput>mesh</computeroutput> as trackRightBoundaryLoop returns them (a slit of one edge is a loop of 2 edges, and a loop of one edge is skipped); which way round a loop runs does not matter; the holes can be several parts of one region split by edges between them, as all the holes of a face cut along contours (the parts between the contours that cross its sides, and both sides of every island), since an edge taken both ways adds zero winding </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -2479,7 +2479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MR2DContoursTriangulation.h" line="721" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MR2DContoursTriangulation.h" declline="721" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MR2DContoursTriangulation.h" line="724" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MR2DContoursTriangulation.h" declline="724" declcolumn="41"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2751,11 +2751,11 @@
 <codeline lineno="686"><highlight class="normal"></highlight></codeline>
 <codeline lineno="703" refid="MR2DContoursTriangulation_8h_1ad5c5858ec84c8fcfc4d2443564262f09" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a3bbe7529fd9a3b454d1fe7040289bf3c" kindref="member">MR_std_optional_MR_Mesh</ref><sp/>*<ref refid="MR2DContoursTriangulation_8h_1ad5c5858ec84c8fcfc4d2443564262f09" kindref="member">MR_PlanarTriangulation_triangulateDisjointContours_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*loops,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*normal,<sp/><ref refid="MR2DContoursTriangulation_8h_1a50066b58d97b0be73d826cfdcc9eb188" kindref="member">MR_WholeEdgeMap</ref><sp/>*outPatchMap,<sp/><ref refid="MR2DContoursTriangulation_8h_1aa3e2d47169e39ff9786e16d91f8f703c" kindref="member">MR_PlanarTriangulation_ISweepLineCache</ref><sp/>*cache);</highlight></codeline>
 <codeline lineno="704"><highlight class="normal"></highlight></codeline>
-<codeline lineno="721" refid="MR2DContoursTriangulation_8h_1a096c2450a4ec19741e247bb38d87de95" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ab9ea483d49601b3017056ba3df23921e" kindref="member">MR_std_optional_MR_HoleFillPlan</ref><sp/>*<ref refid="MR2DContoursTriangulation_8h_1a096c2450a4ec19741e247bb38d87de95" kindref="member">MR_PlanarTriangulation_getMonotonePlan</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*loops,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*normal);</highlight></codeline>
-<codeline lineno="722"><highlight class="normal"></highlight></codeline>
-<codeline lineno="723"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="724"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="725"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="724" refid="MR2DContoursTriangulation_8h_1a096c2450a4ec19741e247bb38d87de95" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ab9ea483d49601b3017056ba3df23921e" kindref="member">MR_std_optional_MR_HoleFillPlan</ref><sp/>*<ref refid="MR2DContoursTriangulation_8h_1a096c2450a4ec19741e247bb38d87de95" kindref="member">MR_PlanarTriangulation_getMonotonePlan</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ab5de264b6065dbf84f6b3fa0f6530592" kindref="member">MR_std_vector_std_vector_MR_EdgeId</ref><sp/>*loops,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*normal);</highlight></codeline>
+<codeline lineno="725"><highlight class="normal"></highlight></codeline>
+<codeline lineno="726"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="727"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="728"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MR2DContoursTriangulation.h"/>
   </compounddef>

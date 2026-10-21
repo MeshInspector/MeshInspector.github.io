@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="454" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="454" bodyend="454"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="456" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="456" bodyend="456"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__BooleanPreCutResult_1ab9a5dbe7c87a2c9da0f89a48cb4d6328" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Vector_MROneMeshContour</type>
@@ -32,7 +32,112 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="456" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="456" bodyend="456"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="458" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="458" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__BooleanPreCutResult_1a87e962698ee0ca7791e7e5efa001a8f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_StdVectorMRVarEdgeTri</type>
+        <definition>unsafe MR.Std.Const_Vector_StdVectorMRVarEdgeTri MR.Const_BooleanPreCutResult.intersections</definition>
+        <argsstring></argsstring>
+        <name>intersections</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.intersections</qualifiedname>
+        <briefdescription>
+<para>the boolean's ordered intersections of both meshes, without the closed contours of two points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="463" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="463" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__BooleanPreCutResult_1ab0979c76e1d2403b85241082f6114fc1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__ConvertToIntVector" kindref="compound">MR.Const_ConvertToIntVector</ref></type>
+        <definition>unsafe MR.Const_ConvertToIntVector MR.Const_BooleanPreCutResult.toInt</definition>
+        <argsstring></argsstring>
+        <name>toInt</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.toInt</qualifiedname>
+        <briefdescription>
+<para>the boolean's conversion of the coordinates of both meshes to integers </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="468" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="468" bodyend="468"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__BooleanPreCutResult_1aef06323af4de6938d398928ae4107023" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Optional_MRAffineXf3f</type>
+        <definition>unsafe MR.Std.Const_Optional_MRAffineXf3f MR.Const_BooleanPreCutResult.rigidB2A</definition>
+        <argsstring></argsstring>
+        <name>rigidB2A</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.rigidB2A</qualifiedname>
+        <briefdescription>
+<para>a copy of the boolean's transformation from mesh B to mesh A </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="473" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="473" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__BooleanPreCutResult_1a3b1e88bc3f8593fc4dfa95373b58c49e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_BooleanPreCutResult.meshAVertsNum</definition>
+        <argsstring></argsstring>
+        <name>meshAVertsNum</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.meshAVertsNum</qualifiedname>
+        <briefdescription>
+<para>the number of vertices of mesh A before any cut </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="478" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="478" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__BooleanPreCutResult_1ac17fae34f5c872eb5b83ac587b28513b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_BooleanPreCutResult.isMeshA</definition>
+        <argsstring></argsstring>
+        <name>isMeshA</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.isMeshA</qualifiedname>
+        <briefdescription>
+<para>whether mesh is mesh A of the boolean </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="484" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="484" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__BooleanPreCutResult_1af0fd6e1ffa3b3e1f1edf8fbf531b45ba" prot="protected" static="no" mutable="no">
+        <type>unsafe nuint *</type>
+        <definition>unsafe nuint* MR.Const_BooleanPreCutResult.__ref_storage_meshAVertsNum</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_meshAVertsNum</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.__ref_storage_meshAVertsNum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="479" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="479" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__BooleanPreCutResult_1af9245444ca0cce3b24828db8378cf224" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_BooleanPreCutResult.__ref_storage_isMeshA</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_isMeshA</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.__ref_storage_isMeshA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="485" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="485" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -52,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="444" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="444" bodyend="450"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="446" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="446" bodyend="452"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -68,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="451" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="451" bodyend="451"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="453" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="453" bodyend="453"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1a96703be45f17d2c131ebd8dfa16478d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -83,12 +188,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="487" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="487" bodyend="491"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="539" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="539" bodyend="543"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1ad359bc35237df735250c717ffb171778" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1a31c2d1cb650eedfa237092f0a172975a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_BooleanPreCutResult.Const_BooleanPreCutResult</definition>
-        <argsstring>(MR._ByValue_Mesh mesh, MR.Std._ByValue_Vector_MROneMeshContour contours)</argsstring>
+        <argsstring>(MR._ByValue_Mesh mesh, MR.Std._ByValue_Vector_MROneMeshContour contours, MR.Std._ByValue_Vector_StdVectorMRVarEdgeTri intersections, MR.Const_ConvertToIntVector toInt, MR._InOpt_AffineXf3f rigidB2A, nuint meshAVertsNum, bool isMeshA)</argsstring>
         <name>Const_BooleanPreCutResult</name>
         <qualifiedname>MR.Const_BooleanPreCutResult.Const_BooleanPreCutResult</qualifiedname>
         <param>
@@ -99,6 +204,26 @@
           <type>MR.Std._ByValue_Vector_MROneMeshContour</type>
           <declname>contours</declname>
         </param>
+        <param>
+          <type>MR.Std._ByValue_Vector_StdVectorMRVarEdgeTri</type>
+          <declname>intersections</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ConvertToIntVector" kindref="compound">MR.Const_ConvertToIntVector</ref></type>
+          <declname>toInt</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_AffineXf3f</type>
+          <declname>rigidB2A</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>meshAVertsNum</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isMeshA</declname>
+        </param>
         <briefdescription>
 <para>Constructs <computeroutput><ref refid="classMR_1_1BooleanPreCutResult" kindref="compound">MR.BooleanPreCutResult</ref></computeroutput> elementwise. </para>
         </briefdescription>
@@ -106,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="496" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="496" bodyend="502"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="548" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="548" bodyend="556"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1ac5f6336bbeea85c865a65960ed28fee9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -125,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="507" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="507" bodyend="512"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="561" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="561" bodyend="566"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1a900c93e8427de4b8f059c88afe36fb44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -144,7 +269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="517" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="517" bodyend="517"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="571" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="571" bodyend="571"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1adc462e98edff664992f36e5cdd1b33a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -163,7 +288,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="522" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="522" bodyend="522"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="576" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="576" bodyend="576"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1acf38ba3469d87aaee0fb3ea71ac2d972" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SortIntersectionsData" kindref="compound">MR.SortIntersectionsData</ref></type>
+        <definition>unsafe MR.SortIntersectionsData MR.Const_BooleanPreCutResult.sortData</definition>
+        <argsstring>(MR.Const_Mesh otherMesh)</argsstring>
+        <name>sortData</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.sortData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>otherMesh</declname>
+        </param>
+        <briefdescription>
+<para>the data to pass cutMesh( mesh, contours ) in <ref refid="classMR_1_1CutMeshParameters_1a6180e9d8a2a74ed1ffa2c9805d694ff6" kindref="member">CutMeshParameters.sortData</ref> for the boolean's exact cut, where otherMesh is the other mesh of the boolean as it was passed to it; the result points into this struct and otherMesh, so both must outlive its use Generated from method <computeroutput><ref refid="classMR_1_1Const__BooleanPreCutResult_1acf38ba3469d87aaee0fb3ea71ac2d972" kindref="member">MR.BooleanPreCutResult.sortData</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="583" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="583" bodyend="586"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -179,7 +323,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="452" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="452" bodyend="452"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="454" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="454" bodyend="454"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -203,14 +347,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="476" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="476" bodyend="481"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="528" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="528" bodyend="533"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1af333b118fec3846c1ca454fc22b0dbe9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1a166d42368dbf8bcfaa0b868a34cc3415" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.BooleanPreCutResult._Underlying *</type>
         <definition>static unsafe MR.BooleanPreCutResult._Underlying * MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_ConstructFrom</definition>
-        <argsstring>(MR.Misc._PassBy mesh_pass_by, MR.Mesh._Underlying *mesh, MR.Misc._PassBy contours_pass_by, MR.Std.Vector_MROneMeshContour._Underlying *contours)</argsstring>
+        <argsstring>(MR.Misc._PassBy mesh_pass_by, MR.Mesh._Underlying *mesh, MR.Misc._PassBy contours_pass_by, MR.Std.Vector_MROneMeshContour._Underlying *contours, MR.Misc._PassBy intersections_pass_by, MR.Std.Vector_StdVectorMRVarEdgeTri._Underlying *intersections, MR.ConvertToIntVector._Underlying *toInt, MR.AffineXf3f *rigidB2A, nuint meshAVertsNum, byte isMeshA)</argsstring>
         <name>__MR_BooleanPreCutResult_ConstructFrom</name>
         <qualifiedname>MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_ConstructFrom</qualifiedname>
         <param>
@@ -229,13 +373,37 @@
           <type>MR.Std.Vector_MROneMeshContour._Underlying *</type>
           <declname>contours</declname>
         </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>intersections_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdVectorMRVarEdgeTri._Underlying *</type>
+          <declname>intersections</declname>
+        </param>
+        <param>
+          <type>MR.ConvertToIntVector._Underlying *</type>
+          <declname>toInt</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
+          <declname>rigidB2A</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>meshAVertsNum</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>isMeshA</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="527" column="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="591" column="63"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1ad7c28b05f79fdbcc22a25d551c67632b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.BooleanPreCutResult._Underlying *</type>
@@ -257,7 +425,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="530" column="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="594" column="63"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1a98f2ada498a2ee6ee1c32f164742906e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.BooleanPreCutResult._Underlying *</type>
@@ -271,7 +439,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="533" column="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="597" column="63"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1a412c8ccc5a0c326190991b345fd9bd53" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -289,7 +457,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="536" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="600" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1afc9a7bb62115d1e33fc930f940438a02" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MROneMeshContour._Underlying *</type>
@@ -307,7 +475,43 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="539" column="76"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="603" column="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1af9717d429e426c374345da5125c82c2e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_StdVectorMRVarEdgeTri._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Vector_StdVectorMRVarEdgeTri._Underlying * MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_Get_intersections</definition>
+        <argsstring>(MR.Const_BooleanPreCutResult._Underlying *_this)</argsstring>
+        <name>__MR_BooleanPreCutResult_Get_intersections</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_Get_intersections</qualifiedname>
+        <param>
+          <type>MR.Const_BooleanPreCutResult._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="606" column="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1a6bfeb067451475273d38b2ee697b64e1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe bool *</type>
+        <definition>static unsafe bool * MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_Get_isMeshA</definition>
+        <argsstring>(MR.Const_BooleanPreCutResult._Underlying *_this)</argsstring>
+        <name>__MR_BooleanPreCutResult_Get_isMeshA</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_Get_isMeshA</qualifiedname>
+        <param>
+          <type>MR.Const_BooleanPreCutResult._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="609" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1a9e3545e279e5d878b65adad2a246e55c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Const_Mesh._Underlying *</type>
@@ -325,11 +529,87 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="542" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="612" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1a1daf7a0f5cf9e4d50286edcd5406da7d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint *</type>
+        <definition>static unsafe nuint * MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_Get_meshAVertsNum</definition>
+        <argsstring>(MR.Const_BooleanPreCutResult._Underlying *_this)</argsstring>
+        <name>__MR_BooleanPreCutResult_Get_meshAVertsNum</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_Get_meshAVertsNum</qualifiedname>
+        <param>
+          <type>MR.Const_BooleanPreCutResult._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="615" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1a7675fa79cc33e6df7000e0becd63b814" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Optional_MRAffineXf3f._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Optional_MRAffineXf3f._Underlying * MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_Get_rigidB2A</definition>
+        <argsstring>(MR.Const_BooleanPreCutResult._Underlying *_this)</argsstring>
+        <name>__MR_BooleanPreCutResult_Get_rigidB2A</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_Get_rigidB2A</qualifiedname>
+        <param>
+          <type>MR.Const_BooleanPreCutResult._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="618" column="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1adf40ed291876ad210fa99f3ec08f7075" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_ConvertToIntVector._Underlying *</type>
+        <definition>static unsafe MR.Const_ConvertToIntVector._Underlying * MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_Get_toInt</definition>
+        <argsstring>(MR.Const_BooleanPreCutResult._Underlying *_this)</argsstring>
+        <name>__MR_BooleanPreCutResult_Get_toInt</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_Get_toInt</qualifiedname>
+        <param>
+          <type>MR.Const_BooleanPreCutResult._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="621" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanPreCutResult_1adadcd6ac52a7d30233ba8cd1ef83128f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.SortIntersectionsData._Underlying *</type>
+        <definition>static unsafe MR.SortIntersectionsData._Underlying * MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_sortData</definition>
+        <argsstring>(_Underlying *_this, MR.Const_Mesh._Underlying *otherMesh)</argsstring>
+        <name>__MR_BooleanPreCutResult_sortData</name>
+        <qualifiedname>MR.Const_BooleanPreCutResult.__MR_BooleanPreCutResult_sortData</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>otherMesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="624" column="65"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput><ref refid="classMR_1_1BooleanPreCutResult" kindref="compound">MR.BooleanPreCutResult</ref></computeroutput>. This is the const half of the class. </para>
+<para>a mesh of the boolean and its contours of intersection with the other mesh before the cut, with the boolean's data for an exact cut; the contours can include lone ones (inside one face, crossing none of its edges), which cutMesh connects exactly only given the boolean's sorting data, see sortData Generated from class <computeroutput><ref refid="classMR_1_1BooleanPreCutResult" kindref="compound">MR.BooleanPreCutResult</ref></computeroutput>. This is the const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -371,24 +651,38 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="438" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="439" bodyend="543"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="440" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="441" bodyend="625"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__BooleanPreCutResult_1af333b118fec3846c1ca454fc22b0dbe9" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__MR_BooleanPreCutResult_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1a166d42368dbf8bcfaa0b868a34cc3415" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__MR_BooleanPreCutResult_ConstructFrom</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1ad7c28b05f79fdbcc22a25d551c67632b" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__MR_BooleanPreCutResult_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1a98f2ada498a2ee6ee1c32f164742906e" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__MR_BooleanPreCutResult_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1a412c8ccc5a0c326190991b345fd9bd53" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__MR_BooleanPreCutResult_Destroy</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1afc9a7bb62115d1e33fc930f940438a02" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__MR_BooleanPreCutResult_Get_contours</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1af9717d429e426c374345da5125c82c2e" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__MR_BooleanPreCutResult_Get_intersections</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1a6bfeb067451475273d38b2ee697b64e1" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__MR_BooleanPreCutResult_Get_isMeshA</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1a9e3545e279e5d878b65adad2a246e55c" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__MR_BooleanPreCutResult_Get_mesh</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1a1daf7a0f5cf9e4d50286edcd5406da7d" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__MR_BooleanPreCutResult_Get_meshAVertsNum</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1a7675fa79cc33e6df7000e0becd63b814" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__MR_BooleanPreCutResult_Get_rigidB2A</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1adf40ed291876ad210fa99f3ec08f7075" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__MR_BooleanPreCutResult_Get_toInt</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1adadcd6ac52a7d30233ba8cd1ef83128f" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__MR_BooleanPreCutResult_sortData</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1af9245444ca0cce3b24828db8378cf224" prot="protected" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__ref_storage_isMeshA</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1af0fd6e1ffa3b3e1f1edf8fbf531b45ba" prot="protected" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>__ref_storage_meshAVertsNum</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1af3a61bc319ba0b786a81a20f6a2a9bb6" prot="package" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1a96703be45f17d2c131ebd8dfa16478d4" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
-      <member refid="classMR_1_1Const__BooleanPreCutResult_1ad359bc35237df735250c717ffb171778" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1a31c2d1cb650eedfa237092f0a172975a" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1ac5f6336bbeea85c865a65960ed28fee9" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1a900c93e8427de4b8f059c88afe36fb44" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1adc462e98edff664992f36e5cdd1b33a1" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1ab9a5dbe7c87a2c9da0f89a48cb4d6328" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>contours</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1a3962bc1a34ef5f4c851661cc31fb0125" prot="protected" virt="virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1ac2528e2c7d51f2225833e15d9de32a38" prot="public" virt="virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1a87e962698ee0ca7791e7e5efa001a8f0" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>intersections</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1ac17fae34f5c872eb5b83ac587b28513b" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>isMeshA</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1afd83a90d147daba7e45e4a8238ade346" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>mesh</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1a3b1e88bc3f8593fc4dfa95373b58c49e" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>meshAVertsNum</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1aef06323af4de6938d398928ae4107023" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>rigidB2A</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1acf38ba3469d87aaee0fb3ea71ac2d972" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>sortData</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1ab0979c76e1d2403b85241082f6114fc1" prot="public" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>toInt</name></member>
       <member refid="classMR_1_1Const__BooleanPreCutResult_1a5f19a02cdae9d516c19f66efea5fa187" prot="private" virt="non-virtual"><scope>MR::Const_BooleanPreCutResult</scope><name>~Const_BooleanPreCutResult</name></member>
     </listofallmembers>
   </compounddef>

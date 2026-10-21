@@ -34,6 +34,21 @@
         </inbodydescription>
         <location file="MRMesh/MRCutTrianglePredicates.h" line="26" column="16" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="26" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PreciseCutPoint_1a11f572416abc57b91657513e1531cf49" prot="public" static="no" mutable="no">
+        <type>std::array&lt; <ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref>, 2 &gt;</type>
+        <definition>std::array&lt;PreciseVertCoords, 2&gt; MR::PreciseCutPoint::wedge</definition>
+        <argsstring></argsstring>
+        <name>wedge</name>
+        <qualifiedname>MR::PreciseCutPoint::wedge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional for a segment that is an edge of another mesh crossing the triangle: the third vertices of the two triangles of that edge, in any order, with invalid ids if not given (as for a boundary edge); they tell apart the crossings of the edges of a multiple edge, which are defined alike otherwise (see <ref refid="classMR_1_1CutTrianglePredicates" kindref="compound">CutTrianglePredicates</ref>) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="31" column="16" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="structMR_1_1PreciseCutPoint_1a38110f3393d6264ef6ef771ef5c9f01b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
@@ -48,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="28" column="11" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="28" bodyend="28"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="33" column="11" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="33" bodyend="33"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -56,11 +71,12 @@
     <detaileddescription>
 <para>a point inside a triangle of a mesh cut along its intersections with other triangles, defined by mesh vertices in the exact coordinates that the boolean&apos;s predicates take, with the same ids: either a vertex, or the point where a segment crosses the plane of a triangle (an edge-triangle intersection found by <ref refid="group__MathGroup_1ga4b162fc9a97cef14dfdf9a7dfc6bf34f" kindref="member">doTriangleSegmentIntersect</ref>); the coordinates are below 2^30 by absolute value, as <ref refid="group__MathGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" kindref="member">getToIntConverter</ref> makes them, which the widths of the exact integers and the error bounds of the predicates rely on, and an id stands for one vertex with the same coordinates in every point </para>
     </detaileddescription>
-    <location file="MRMesh/MRCutTrianglePredicates.h" line="20" column="1" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="21" bodyend="29"/>
+    <location file="MRMesh/MRCutTrianglePredicates.h" line="20" column="1" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="21" bodyend="34"/>
     <listofallmembers>
       <member refid="structMR_1_1PreciseCutPoint_1a38110f3393d6264ef6ef771ef5c9f01b" prot="public" virt="non-virtual"><scope>MR::PreciseCutPoint</scope><name>isVertex</name></member>
       <member refid="structMR_1_1PreciseCutPoint_1a00d67e208d245c5ddd9f144d0bd78590" prot="public" virt="non-virtual"><scope>MR::PreciseCutPoint</scope><name>seg</name></member>
       <member refid="structMR_1_1PreciseCutPoint_1a8a92fbd8e3905e3e715622593fd712c9" prot="public" virt="non-virtual"><scope>MR::PreciseCutPoint</scope><name>tri</name></member>
+      <member refid="structMR_1_1PreciseCutPoint_1a11f572416abc57b91657513e1531cf49" prot="public" virt="non-virtual"><scope>MR::PreciseCutPoint</scope><name>wedge</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

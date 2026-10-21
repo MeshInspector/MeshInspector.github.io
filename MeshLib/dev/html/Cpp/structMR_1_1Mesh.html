@@ -3914,7 +3914,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>updates existing caches after some faces were split into parts (e.g. by <a class="el" href="#a9f365e654b9b4a4584293c3add2fdb05">splitFace()</a> or <a class="el" href="#a0426a1ac11c53b02a2756afa0c205105">splitEdge()</a>) with no other changes in the mesh; it shall be considered as a faster alternative to <a class="el" href="#a47afb5a6c704c55128ab6c07680ebaf4">invalidateCaches()</a> and following rebuild of AABB tree </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">new2Old</td><td>maps every face appeared after the splits to the face it was split from (as filled by <a class="el" href="#a9f365e654b9b4a4584293c3add2fdb05">splitFace()</a> and <a class="el" href="#a0426a1ac11c53b02a2756afa0c205105">splitEdge()</a>); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several calls (like new2oldMap of subdivideLoneContours in the iterations of boolean) would add the earlier faces to the tree once more </td></tr>
+    <tr><td class="paramname">new2Old</td><td>maps every face appeared after the splits to the face it was split from (as filled by <a class="el" href="#a9f365e654b9b4a4584293c3add2fdb05">splitFace()</a> and <a class="el" href="#a0426a1ac11c53b02a2756afa0c205105">splitEdge()</a>); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several updates would add the earlier faces to the tree once more </td></tr>
   </table>
   </dd>
 </dl>

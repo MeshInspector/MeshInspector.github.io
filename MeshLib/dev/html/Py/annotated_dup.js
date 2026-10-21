@@ -922,6 +922,7 @@ var annotated_dup =
       [ "std_array_WeightedVertexT_float_3", "classmrmeshpy_1_1std__array__WeightedVertexT__float__3.html", "classmrmeshpy_1_1std__array__WeightedVertexT__float__3" ],
       [ "std_greater_float", "classmrmeshpy_1_1std__greater__float.html", null ],
       [ "std_monostate", "classmrmeshpy_1_1std__monostate.html", null ],
+      [ "std_optional_AffineXf_Vector3_float", "classmrmeshpy_1_1std__optional__AffineXf__Vector3__float.html", "classmrmeshpy_1_1std__optional__AffineXf__Vector3__float" ],
       [ "std_optional_Box_float", "classmrmeshpy_1_1std__optional__Box__float.html", "classmrmeshpy_1_1std__optional__Box__float" ],
       [ "std_optional_Box_Vector3_float", "classmrmeshpy_1_1std__optional__Box__Vector3__float.html", "classmrmeshpy_1_1std__optional__Box__Vector3__float" ],
       [ "std_optional_Color", "classmrmeshpy_1_1std__optional__Color.html", "classmrmeshpy_1_1std__optional__Color" ],

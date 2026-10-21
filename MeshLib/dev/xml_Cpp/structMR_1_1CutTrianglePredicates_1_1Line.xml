@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="109" column="13" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="109" bodyend="-1"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="125" column="13" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="125" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1CutTrianglePredicates_1_1Line_1ab0ecfb3b949c4fdd47dff0e6d0bd69de" prot="public" static="no" mutable="no">
         <type>std::array&lt; <ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref>, 3 &gt;</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="110" column="20" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="110" bodyend="-1"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="126" column="20" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="126" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -39,7 +39,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRCutTrianglePredicates.h" line="107" column="5" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="108" bodyend="111"/>
+    <location file="MRMesh/MRCutTrianglePredicates.h" line="123" column="5" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="124" bodyend="127"/>
     <listofallmembers>
       <member refid="structMR_1_1CutTrianglePredicates_1_1Line_1ab0ecfb3b949c4fdd47dff0e6d0bd69de" prot="public" virt="non-virtual"><scope>MR::CutTrianglePredicates::Line</scope><name>plane</name></member>
       <member refid="structMR_1_1CutTrianglePredicates_1_1Line_1a6b8ce3dfbd8397fd09ffd0bdd27bda35" prot="public" virt="non-virtual"><scope>MR::CutTrianglePredicates::Line</scope><name>side</name></member>

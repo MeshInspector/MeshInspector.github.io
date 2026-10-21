@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshBoolean.h" line="69" column="10" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="69" bodyend="-1"/>
+        <location file="MRMesh/MRMeshBoolean.h" line="73" column="10" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanPreCutResult_1afaca754878c1a03d1db3e1b2e6933dfc" prot="public" static="no" mutable="no">
         <type><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref></type>
@@ -30,13 +30,112 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshBoolean.h" line="70" column="21" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="70" bodyend="-1"/>
+        <location file="MRMesh/MRMeshBoolean.h" line="74" column="21" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanPreCutResult_1af90a3dcc1980520fca2189a42e7b7511" prot="public" static="no" mutable="no">
+        <type><ref refid="group__GeneralGroup_1ga9f26ad2470dbd62255be7fc1cab2b503" kindref="member">ContinuousContours</ref></type>
+        <definition>ContinuousContours MR::BooleanPreCutResult::intersections</definition>
+        <argsstring></argsstring>
+        <name>intersections</name>
+        <qualifiedname>MR::BooleanPreCutResult::intersections</qualifiedname>
+        <briefdescription>
+<para>the boolean&apos;s ordered intersections of both meshes, without the closed contours of two points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="77" column="24" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanPreCutResult_1ae858ab4e2d1023a676825cb80aee65a7" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1ConvertToIntVector" kindref="compound">ConvertToIntVector</ref></type>
+        <definition>ConvertToIntVector MR::BooleanPreCutResult::toInt</definition>
+        <argsstring></argsstring>
+        <name>toInt</name>
+        <qualifiedname>MR::BooleanPreCutResult::toInt</qualifiedname>
+        <briefdescription>
+<para>the boolean&apos;s conversion of the coordinates of both meshes to integers </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="80" column="24" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanPreCutResult_1a280ab48ae9fd32915e474952558ff157" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; AffineXf3f &gt;</type>
+        <definition>std::optional&lt;AffineXf3f&gt; MR::BooleanPreCutResult::rigidB2A</definition>
+        <argsstring></argsstring>
+        <name>rigidB2A</name>
+        <qualifiedname>MR::BooleanPreCutResult::rigidB2A</qualifiedname>
+        <briefdescription>
+<para>a copy of the boolean&apos;s transformation from mesh B to mesh A </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="83" column="19" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanPreCutResult_1a16235a0591e2098384fc5980ae07dc63" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::BooleanPreCutResult::meshAVertsNum</definition>
+        <argsstring></argsstring>
+        <name>meshAVertsNum</name>
+        <qualifiedname>MR::BooleanPreCutResult::meshAVertsNum</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the number of vertices of mesh A before any cut </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="86" column="12" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanPreCutResult_1af00c8c39cbf86dcef322af81a66195b1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::BooleanPreCutResult::isMeshA</definition>
+        <argsstring></argsstring>
+        <name>isMeshA</name>
+        <qualifiedname>MR::BooleanPreCutResult::isMeshA</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>whether mesh is mesh A of the boolean </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="89" column="10" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1BooleanPreCutResult_1a312e3c6e2a9e1b26cac0374ec54fb6ee" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1SortIntersectionsData" kindref="compound">SortIntersectionsData</ref></type>
+        <definition>SortIntersectionsData MR::BooleanPreCutResult::sortData</definition>
+        <argsstring>(const Mesh &amp;otherMesh) const</argsstring>
+        <name>sortData</name>
+        <qualifiedname>MR::BooleanPreCutResult::sortData</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
+          <declname>otherMesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the data to pass cutMesh( mesh, contours ) in <ref refid="group__GeneralGroup_1ga3aaef62dde9c7e4727195071089e409f" kindref="member">CutMeshParameters::sortData</ref> for the boolean&apos;s exact cut, where otherMesh is the other mesh of the boolean as it was passed to it; the result points into this struct and otherMesh, so both must outlive its use </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="93" column="28" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="93" bodyend="94"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
 <para>no version of the function with rvalue-referenced meshes, because meshes&apos; copies are currently used for sorting intersections </para>
     </briefdescription>
     <detaileddescription>
+<para>a mesh of the boolean and its contours of intersection with the other mesh before the cut, with the boolean&apos;s data for an exact cut; the contours can include lone ones (inside one face, crossing none of its edges), which cutMesh connects exactly only given the boolean&apos;s sorting data, see sortData </para>
     </detaileddescription>
     <collaborationgraph>
       <node id="1">
@@ -45,6 +144,13 @@
         <childnode refid="2" relation="usage">
           <edgelabel>mesh</edgelabel>
         </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>toInt</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::ConvertToIntVector</label>
+        <link refid="structMR_1_1ConvertToIntVector"/>
       </node>
       <node id="5">
         <label>MR::MapOrHashMap&lt; FaceId, FaceId &gt;</label>
@@ -91,10 +197,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRMeshBoolean.h" line="67" column="1" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="68" bodyend="71"/>
+    <location file="MRMesh/MRMeshBoolean.h" line="71" column="1" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="72" bodyend="95"/>
     <listofallmembers>
       <member refid="structMR_1_1BooleanPreCutResult_1afaca754878c1a03d1db3e1b2e6933dfc" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>contours</name></member>
+      <member refid="structMR_1_1BooleanPreCutResult_1af90a3dcc1980520fca2189a42e7b7511" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>intersections</name></member>
+      <member refid="structMR_1_1BooleanPreCutResult_1af00c8c39cbf86dcef322af81a66195b1" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>isMeshA</name></member>
       <member refid="structMR_1_1BooleanPreCutResult_1ac3043629b51e619f82eddefaa9e678fb" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>mesh</name></member>
+      <member refid="structMR_1_1BooleanPreCutResult_1a16235a0591e2098384fc5980ae07dc63" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>meshAVertsNum</name></member>
+      <member refid="structMR_1_1BooleanPreCutResult_1a280ab48ae9fd32915e474952558ff157" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>rigidB2A</name></member>
+      <member refid="structMR_1_1BooleanPreCutResult_1a312e3c6e2a9e1b26cac0374ec54fb6ee" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>sortData</name></member>
+      <member refid="structMR_1_1BooleanPreCutResult_1ae858ab4e2d1023a676825cb80aee65a7" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>toInt</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

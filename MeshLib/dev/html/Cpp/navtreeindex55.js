@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"group__GeneralGroup.html#ggac5bfae9a55e1ae115c09b2b2364ca037ac3d2f5d37334dc978fd8b17fc77408a1":[9,0,0,20,1545,1],
 "group__GeneralGroup.html#ggac62f55dffb41437f678f5417604d361fa06b9281e396db002010bde1de57262eb":[9,0,0,20,1570,3],
 "group__GeneralGroup.html#ggac62f55dffb41437f678f5417604d361fa6adf97f83acf6453d4a6a4b1070f3754":[9,0,0,20,1570,0],
 "group__GeneralGroup.html#ggac62f55dffb41437f678f5417604d361fa729fb415472b2cb38cf56f33a887f406":[9,0,0,20,1570,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "group__HighPrecisionGroup.html#ga03afccb56b1bcb89b74a55f6cac19618":[9,0,0,0,5,6],
 "group__HighPrecisionGroup.html#ga069a4cfb1c909d7c7e32d575dac759cf":[9,0,0,0,5,10],
 "group__HighPrecisionGroup.html#ga096c2c7825f1a47993ae9d976bacd68d":[9,0,0,0,5,18],
-"group__HighPrecisionGroup.html#ga15464bb6e2f869d91cb4a1583d4af1d4":[9,0,0,0,5,15],
-"group__HighPrecisionGroup.html#ga2290828b1eb673ce78c350b8c3b2b6cb":[9,0,0,0,5,13]
+"group__HighPrecisionGroup.html#ga15464bb6e2f869d91cb4a1583d4af1d4":[9,0,0,0,5,15]
 };

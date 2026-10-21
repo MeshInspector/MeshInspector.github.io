@@ -3889,7 +3889,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>updates existing caches after some faces were split into parts (e.g. by splitFace() or splitEdge()) with no other changes in the mesh; it shall be considered as a faster alternative to invalidateCaches() and following rebuild of AABB tree </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">new2Old</td><td>maps every face appeared after the splits to the face it was split from (as filled by splitFace() and splitEdge()); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several calls (like new2oldMap of subdivideLoneContours in the iterations of boolean) would add the earlier faces to the tree once more Generated from method <span class="tt">MR::Mesh::updateCachesAfterSplits</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">new2Old</span> can not be null. It is a single object. </td></tr>
+    <tr><td class="paramname">new2Old</td><td>maps every face appeared after the splits to the face it was split from (as filled by splitFace() and splitEdge()); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several updates would add the earlier faces to the tree once more Generated from method <span class="tt">MR::Mesh::updateCachesAfterSplits</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">new2Old</span> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>

@@ -1434,13 +1434,29 @@
   </compound>
   <compound refid="classmrmeshpy_1_1BooleanPreCutResult" kind="class"><name>mrmeshpy::BooleanPreCutResult</name>
     <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a0e9930e2d4a29cdb0a04d07ba0fce9b3" kind="variable"><name>_offsetof_contours</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1ab435dee89f480be7f470dc2ec6b124d2" kind="variable"><name>_offsetof_intersections</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1aefa66d6fc0d1372d685ef4c6b619970f" kind="variable"><name>_offsetof_isMeshA</name></member>
     <member refid="classmrmeshpy_1_1BooleanPreCutResult_1afc69b1ad076d7cfcc5e1c827a7a22234" kind="variable"><name>_offsetof_mesh</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a6becff8587a931d861f17c111346bcf6" kind="variable"><name>_offsetof_meshAVertsNum</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1abe38c28688708f3a2672759fae4152a6" kind="variable"><name>_offsetof_rigidB2A</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a0fff12afca5dd808a8eec272f45d496c" kind="variable"><name>_offsetof_toInt</name></member>
     <member refid="classmrmeshpy_1_1BooleanPreCutResult_1ae8493473eb50e7189b41afd546bd510e" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a446b29def2afb1f4c2b05f37f8c8a66a" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a446b29def2afb1f4c2b05f37f8c8a66a" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a414b24d8b6724d528c194f2dc9199ddc" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a6c5bca6c764fe73539c0d2e2eb8e7cf2" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a596dde28b32e73bac1463a720b08d22f" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a86286191c2146037c3d17d7e7579950c" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a4b33fe0a439926aed9038f847b14ada2" kind="function"><name>sortData</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1aef6ea0ab1188109dfc75c451a3cb7a76" kind="function"><name>intersections</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1ac55ccf9aaa73040111bbc0267a41e1d4" kind="function"><name>intersections</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a6b9466443cfff88dd03d61816edbf550" kind="function"><name>isMeshA</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a8cb8f88826a5771134472e96767babd4" kind="function"><name>isMeshA</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a1b8f57fd0fdff031aae92e13f98afd87" kind="function"><name>meshAVertsNum</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a051020557a58eee0dccc875a6aa971ec" kind="function"><name>meshAVertsNum</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1ab367badbdf15cad536a5ccd165a8a75a" kind="function"><name>rigidB2A</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a49bb3373a90d7c6e42fbcdfe2fa4a5fd" kind="function"><name>rigidB2A</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a0e8626c05b648782b984de4add5feb8c" kind="function"><name>toInt</name></member>
+    <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a44030de91dd1f5c4e0e3cc8be9ab9e73" kind="function"><name>toInt</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1BooleanResult" kind="class"><name>mrmeshpy::BooleanResult</name>
     <member refid="classmrmeshpy_1_1BooleanResult_1af9a46001de89e266fc1d9439d0702fee" kind="variable"><name>_offsetof_errorString</name></member>
@@ -18768,6 +18784,14 @@
   </compound>
   <compound refid="classmrmeshpy_1_1std__monostate" kind="class"><name>mrmeshpy::std_monostate</name>
   </compound>
+  <compound refid="classmrmeshpy_1_1std__optional__AffineXf__Vector3__float" kind="class"><name>mrmeshpy::std_optional_AffineXf_Vector3_float</name>
+    <member refid="classmrmeshpy_1_1std__optional__AffineXf__Vector3__float_1afeaf7a666745c1efc04f4e4610e05495" kind="function"><name>__bool__</name></member>
+    <member refid="classmrmeshpy_1_1std__optional__AffineXf__Vector3__float_1af5745fd7cd3fe016e7fff9381d58bcae" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1std__optional__AffineXf__Vector3__float_1a324ef799d287d4b34fe349830d4d11f8" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1std__optional__AffineXf__Vector3__float_1a9d17bc01468f3a1876799731901939ed" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1std__optional__AffineXf__Vector3__float_1a3ab25610c0b292198d284e9aac778488" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1std__optional__AffineXf__Vector3__float_1af7387cd3e2744e04852dabc6d47b768c" kind="function"><name>value</name></member>
+  </compound>
   <compound refid="classmrmeshpy_1_1std__optional__Box__float" kind="class"><name>mrmeshpy::std_optional_Box_float</name>
     <member refid="classmrmeshpy_1_1std__optional__Box__float_1a6a20ec07123b9dec3938103b17fea7dd" kind="function"><name>__bool__</name></member>
     <member refid="classmrmeshpy_1_1std__optional__Box__float_1a9239d725cea0108473659f6d1e88ff56" kind="function"><name>__init__</name></member>
@@ -31903,7 +31927,7 @@
     <member refid="namespacemrmeshnumpy_1a8e8e47650184d24fb7a11395f14fe8b1" kind="variable"><name>__all__</name></member>
     <member refid="namespacemrmeshnumpy_1a4c856fa3511daab45f4c4996e4d48f62" kind="function"><name>edgeBitSetFromBools</name></member>
     <member refid="namespacemrmeshnumpy_1a0eb7da152334eb8272d6ddf545189b6a" kind="function"><name>faceBitSetFromBools</name></member>
-    <member refid="namespacemrmeshnumpy_1a436f15df78cab87872b198370b097c0e" kind="function"><name>fromNumpyArray</name></member>
+    <member refid="namespacemrmeshnumpy_1a307332033a1da3abfe38eb3ce7df8dbe" kind="function"><name>fromNumpyArray</name></member>
     <member refid="namespacemrmeshnumpy_1a30039e3551018d198a5a42bd480744cd" kind="function"><name>getNumpy3Darray</name></member>
     <member refid="namespacemrmeshnumpy_1afcef0e62a701539ab3eccfd15999f2e9" kind="function"><name>getNumpy3Darray</name></member>
     <member refid="namespacemrmeshnumpy_1a99acb9582fb6b8f20b4c8352a9943d6b" kind="function"><name>getNumpyBitSet</name></member>
@@ -32387,6 +32411,7 @@
     <member refid="namespacemrmeshpy_1abfc890f1c7b6a26f36a4760afaadf7ac" kind="variable"><name>std_array_std_filesystem_path_size_t_SystemFontType_Count</name></member>
     <member refid="namespacemrmeshpy_1ad0bb8038159f5118283da199b3b8e0cb" kind="variable"><name>std_enable_if_t_std_is_floating_point_v_double_InSphereResult</name></member>
     <member refid="namespacemrmeshpy_1a24e17aa42f1a017fc59ee8b708324a33" kind="variable"><name>std_enable_if_t_std_is_floating_point_v_float_InSphereResult</name></member>
+    <member refid="namespacemrmeshpy_1af09540691d73ca126d9dbd1766787fab" kind="variable"><name>std_optional_AffineXf3f</name></member>
     <member refid="namespacemrmeshpy_1a3c9f51911703961e475488e8930b27e0" kind="variable"><name>std_optional_Box1f</name></member>
     <member refid="namespacemrmeshpy_1a4c64a31d97ce364315614893e9940a57" kind="variable"><name>std_optional_Box3f</name></member>
     <member refid="namespacemrmeshpy_1a0e3bacf88e3903b10cea1b07a9337809" kind="variable"><name>std_optional_Edges</name></member>

@@ -131,6 +131,7 @@ $(function(){initNavTree('structMR_1_1BooleanPreCutResult.html','','structMR_1_1
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1BooleanPreCutResult-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::BooleanPreCutResult Struct Reference</div></div>
@@ -142,14 +143,56 @@ $(function(){initNavTree('structMR_1_1BooleanPreCutResult.html','','structMR_1_1
 
 <p><code>#include &lt;<a class="el" href="MRMeshBoolean_8h_source.html">MRMesh/MRMeshBoolean.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a312e3c6e2a9e1b26cac0374ec54fb6ee" id="r_a312e3c6e2a9e1b26cac0374ec54fb6ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SortIntersectionsData.html">SortIntersectionsData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a312e3c6e2a9e1b26cac0374ec54fb6ee">sortData</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;otherMesh) const</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ac3043629b51e619f82eddefaa9e678fb" id="r_ac3043629b51e619f82eddefaa9e678fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3043629b51e619f82eddefaa9e678fb">mesh</a></td></tr>
 <tr class="memitem:afaca754878c1a03d1db3e1b2e6933dfc" id="r_afaca754878c1a03d1db3e1b2e6933dfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaca754878c1a03d1db3e1b2e6933dfc">contours</a></td></tr>
+<tr class="memitem:af90a3dcc1980520fca2189a42e7b7511" id="r_af90a3dcc1980520fca2189a42e7b7511"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af90a3dcc1980520fca2189a42e7b7511">intersections</a></td></tr>
+<tr class="memdesc:af90a3dcc1980520fca2189a42e7b7511"><td class="mdescLeft">&#160;</td><td class="mdescRight">the boolean's ordered intersections of both meshes, without the closed contours of two points  <br /></td></tr>
+<tr class="memitem:ae858ab4e2d1023a676825cb80aee65a7" id="r_ae858ab4e2d1023a676825cb80aee65a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae858ab4e2d1023a676825cb80aee65a7">toInt</a></td></tr>
+<tr class="memdesc:ae858ab4e2d1023a676825cb80aee65a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">the boolean's conversion of the coordinates of both meshes to integers  <br /></td></tr>
+<tr class="memitem:a280ab48ae9fd32915e474952558ff157" id="r_a280ab48ae9fd32915e474952558ff157"><td class="memItemLeft" align="right" valign="top">std::optional&lt; AffineXf3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a280ab48ae9fd32915e474952558ff157">rigidB2A</a></td></tr>
+<tr class="memdesc:a280ab48ae9fd32915e474952558ff157"><td class="mdescLeft">&#160;</td><td class="mdescRight">a copy of the boolean's transformation from mesh B to mesh A  <br /></td></tr>
+<tr class="memitem:a16235a0591e2098384fc5980ae07dc63" id="r_a16235a0591e2098384fc5980ae07dc63"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16235a0591e2098384fc5980ae07dc63">meshAVertsNum</a> = 0</td></tr>
+<tr class="memdesc:a16235a0591e2098384fc5980ae07dc63"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of vertices of mesh A before any cut  <br /></td></tr>
+<tr class="memitem:af00c8c39cbf86dcef322af81a66195b1" id="r_af00c8c39cbf86dcef322af81a66195b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af00c8c39cbf86dcef322af81a66195b1">isMeshA</a> = false</td></tr>
+<tr class="memdesc:af00c8c39cbf86dcef322af81a66195b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether mesh is mesh A of the boolean  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>no version of the function with rvalue-referenced meshes, because meshes' copies are currently used for sorting intersections </p>
-</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<p>a mesh of the boolean and its contours of intersection with the other mesh before the cut, with the boolean's data for an exact cut; the contours can include lone ones (inside one face, crossing none of its edges), which cutMesh connects exactly only given the boolean's sorting data, see sortData </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a312e3c6e2a9e1b26cac0374ec54fb6ee" name="a312e3c6e2a9e1b26cac0374ec54fb6ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a312e3c6e2a9e1b26cac0374ec54fb6ee">&#9670;&#160;</a></span>sortData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1SortIntersectionsData.html">SortIntersectionsData</a> MR::BooleanPreCutResult::sortData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>otherMesh</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>the data to pass cutMesh( mesh, contours ) in <a class="el" href="group__GeneralGroup.html#ga3aaef62dde9c7e4727195071089e409f">CutMeshParameters::sortData</a> for the boolean's exact cut, where otherMesh is the other mesh of the boolean as it was passed to it; the result points into this struct and otherMesh, so both must outlive its use </p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="afaca754878c1a03d1db3e1b2e6933dfc" name="afaca754878c1a03d1db3e1b2e6933dfc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afaca754878c1a03d1db3e1b2e6933dfc">&#9670;&#160;</a></span>contours</h2>
 
@@ -164,6 +207,38 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af90a3dcc1980520fca2189a42e7b7511" name="af90a3dcc1980520fca2189a42e7b7511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af90a3dcc1980520fca2189a42e7b7511">&#9670;&#160;</a></span>intersections</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a> MR::BooleanPreCutResult::intersections</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the boolean's ordered intersections of both meshes, without the closed contours of two points </p>
+
+</div>
+</div>
+<a id="af00c8c39cbf86dcef322af81a66195b1" name="af00c8c39cbf86dcef322af81a66195b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af00c8c39cbf86dcef322af81a66195b1">&#9670;&#160;</a></span>isMeshA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::BooleanPreCutResult::isMeshA = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>whether mesh is mesh A of the boolean </p>
+
+</div>
+</div>
 <a id="ac3043629b51e619f82eddefaa9e678fb" name="ac3043629b51e619f82eddefaa9e678fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3043629b51e619f82eddefaa9e678fb">&#9670;&#160;</a></span>mesh</h2>
 
@@ -175,6 +250,54 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16235a0591e2098384fc5980ae07dc63" name="a16235a0591e2098384fc5980ae07dc63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16235a0591e2098384fc5980ae07dc63">&#9670;&#160;</a></span>meshAVertsNum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::BooleanPreCutResult::meshAVertsNum = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the number of vertices of mesh A before any cut </p>
+
+</div>
+</div>
+<a id="a280ab48ae9fd32915e474952558ff157" name="a280ab48ae9fd32915e474952558ff157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a280ab48ae9fd32915e474952558ff157">&#9670;&#160;</a></span>rigidB2A</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt;AffineXf3f&gt; MR::BooleanPreCutResult::rigidB2A</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>a copy of the boolean's transformation from mesh B to mesh A </p>
+
+</div>
+</div>
+<a id="ae858ab4e2d1023a676825cb80aee65a7" name="ae858ab4e2d1023a676825cb80aee65a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae858ab4e2d1023a676825cb80aee65a7">&#9670;&#160;</a></span>toInt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1ConvertToIntVector.html">ConvertToIntVector</a> MR::BooleanPreCutResult::toInt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the boolean's conversion of the coordinates of both meshes to integers </p>
 
 </div>
 </div>

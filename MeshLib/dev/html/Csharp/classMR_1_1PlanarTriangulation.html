@@ -283,7 +283,7 @@ Static Public Member Functions</h2></td></tr>
 <p>splits the near-planar region bounded by <code class="param">loops</code> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">loops</td><td>one closed EdgeLoop of at least 3 edges per boundary of one region, bounding holes of <code class="param">mesh</code> as trackRightBoundaryLoop returns them; which way round a loop runs does not matter </td></tr>
+    <tr><td class="paramname">loops</td><td>one closed EdgeLoop per boundary of one region, bounding holes of <code class="param">mesh</code> as trackRightBoundaryLoop returns them (a slit of one edge is a loop of 2 edges, and a loop of one edge is skipped); which way round a loop runs does not matter; the holes can be several parts of one region split by edges between them, as all the holes of a face cut along contours (the parts between the contours that cross its sides, and both sides of every island), since an edge taken both ways adds zero winding </td></tr>
     <tr><td class="paramname">normal</td><td>the orientation the region is monotone around, see <a class="el" href="#ad635cafea2c2834c0679bd865982b6a1">triangulateDisjointContours</a> </td></tr>
   </table>
   </dd>

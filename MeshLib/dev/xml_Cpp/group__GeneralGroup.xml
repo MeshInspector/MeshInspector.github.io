@@ -6877,7 +6877,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="18" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="19" bodyend="23"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="21" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="22" bodyend="26"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga05195fdcf0d1d90b73a5d24b11150005" prot="public" static="no" strong="yes">
         <type></type>
@@ -14136,7 +14136,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="44" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="44" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="47" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga2861b59a4ea1236fc77b874053b4245a" prot="public" static="no">
         <type>std::vector&lt; ContourIdMap &gt;</type>
@@ -14150,7 +14150,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="45" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="45" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="48" column="1" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga66e27ff8d7cb865904647479f715a7f3" prot="public" static="no">
         <type>T</type>
@@ -17606,7 +17606,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="74" column="1" bodyfile="MRMesh/MROneMeshContours.h" bodystart="74" bodyend="-1"/>
+        <location file="MRMesh/MROneMeshContours.h" line="75" column="1" bodyfile="MRMesh/MROneMeshContours.h" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" prot="public" static="no">
         <type>std::variant&lt; std::monostate, MeshTriPoint, EdgePoint, VertId &gt;</type>
@@ -23442,7 +23442,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="30" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="30" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="33" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1ba150196ca38c47b298c26615eab80e" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -23456,7 +23456,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="30" column="17" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="30" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="33" column="17" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8b5c188731f0cecbac0ccc0fd4a6bfb7" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -23471,7 +23471,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="32" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="32" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="35" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga317063d55c098c2ef928c24f84e7d072" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -23485,7 +23485,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="32" column="17" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="32" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="35" column="17" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga71da63d690481e338c26321212fbdb4b" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -23501,7 +23501,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="37" column="11" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="37" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="40" column="11" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga486648a6478caadcce4b7e8b5ccfe262" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -23517,7 +23517,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="40" column="11" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="40" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="43" column="11" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9e57510cc8b745dcfbbf6e04c6fba846" prot="public" static="no" mutable="no">
         <type>size_t</type>
@@ -23533,7 +23533,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="51" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="51" bodyend="51"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="54" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="54" bodyend="54"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2c09afe7b89e565c7c7549b9cbabf2f0" prot="public" static="no" mutable="no">
         <type>ContourIdMap</type>
@@ -23548,7 +23548,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="53" column="18" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="53" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="56" column="18" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6f9aeb8021200fb928ae34fe6ab4c932" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -23564,7 +23564,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="58" column="10" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="58" bodyend="58"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="61" column="10" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="61" bodyend="61"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga96cc494dbae32854400a1fc481ea09b4" prot="public" static="no" mutable="no">
         <type>WindingMode</type>
@@ -23580,7 +23580,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="59" column="17" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="59" bodyend="59"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="62" column="17" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="62" bodyend="62"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad009c4928ad149dd5ce93232c4d495f2" prot="public" static="no" mutable="no">
         <type>ContoursIdMap *</type>
@@ -23596,7 +23596,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="69" column="19" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="69" bodyend="69"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="72" column="19" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="72" bodyend="72"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga528577df88b99d1a7703da3953605d11" prot="public" static="no" mutable="no">
         <type>BaseOutlineParameters</type>
@@ -23610,7 +23610,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="70" column="27" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="70" bodyend="-1"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="73" column="27" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga88fb9da2e4331eeb528a75fd0e4d78ad" prot="public" static="no" mutable="no">
         <type>Vector&lt; int, FaceId &gt; *</type>
@@ -23626,7 +23626,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="81" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="81" bodyend="81"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="84" column="12" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="84" bodyend="84"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae9a3578068a8a12a4e3f251b9f2824e3" prot="public" static="no" mutable="no">
         <type>IntersectionsMap *</type>
@@ -23642,7 +23642,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="85" column="22" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="85" bodyend="85"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="88" column="22" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="88" bodyend="88"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga11f524576ba6c686729f0173615bc190" prot="protected" static="no" mutable="no">
         <type>NodeVec</type>
@@ -27209,7 +27209,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="119" column="14" bodyfile="MRMesh/MRContoursCut.h" bodystart="119" bodyend="-1"/>
+        <location file="MRMesh/MRContoursCut.h" line="120" column="14" bodyfile="MRMesh/MRContoursCut.h" bodystart="120" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1e498975d50ae1790f29c924362e4261" prot="public" static="no" mutable="no">
         <type>const AffineXf3f *</type>
@@ -27225,7 +27225,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="122" column="22" bodyfile="MRMesh/MRContoursCut.h" bodystart="122" bodyend="122"/>
+        <location file="MRMesh/MRContoursCut.h" line="123" column="22" bodyfile="MRMesh/MRContoursCut.h" bodystart="123" bodyend="123"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa66dd8795ad06b100b6b27009f406df5" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -40693,7 +40693,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="89" column="24" bodyfile="MRMesh/MROneMeshContours.h" bodystart="89" bodyend="89"/>
+        <location file="MRMesh/MROneMeshContours.h" line="90" column="24" bodyfile="MRMesh/MROneMeshContours.h" bodystart="90" bodyend="90"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa176e79c6812cb52b0c1dabdaa2e61c3" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -40709,7 +40709,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="90" column="9" bodyfile="MRMesh/MROneMeshContours.h" bodystart="90" bodyend="90"/>
+        <location file="MRMesh/MROneMeshContours.h" line="91" column="9" bodyfile="MRMesh/MROneMeshContours.h" bodystart="91" bodyend="91"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae7fcf0f64db2a7e109689f6722285abd" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -82134,7 +82134,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="41" column="10" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="41" bodyend="41"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="44" column="10" bodyfile="MRMesh/MR2DContoursTriangulation.h" bodystart="44" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5e8af5982b8fe271a4ec768cd30c61f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>
@@ -82163,7 +82163,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="64" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="64" declcolumn="7"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="67" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="67" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4fea26f1468d4845a5875d3c87cd890f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>
@@ -82191,7 +82191,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="65" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="65" declcolumn="7"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="68" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="68" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5dfad7ab63723534d37d1d91f48fa1a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Contours2f</type>
@@ -82215,7 +82215,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="74" column="13" declfile="MRMesh/MR2DContoursTriangulation.h" declline="74" declcolumn="13"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="77" column="13" declfile="MRMesh/MR2DContoursTriangulation.h" declline="77" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4e98690acecec7a927c64053f5b86d80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Contours2f</type>
@@ -82238,7 +82238,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="75" column="13" declfile="MRMesh/MR2DContoursTriangulation.h" declline="75" declcolumn="13"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="78" column="13" declfile="MRMesh/MR2DContoursTriangulation.h" declline="78" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga161bba00aa938095d492c1a6a2e5ac70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>
@@ -82265,7 +82265,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="93" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="93" declcolumn="7"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="96" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="96" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf8916398a1df6d3844748b9d3d06c877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>
@@ -82288,7 +82288,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="94" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="94" declcolumn="7"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="97" column="7" declfile="MRMesh/MR2DContoursTriangulation.h" declline="97" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac7ed44839b1ca7e7617e7fa3515aab8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -82302,7 +82302,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="104" column="5"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="107" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga751f460bcb903fdc8e863f6a1681e1b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -82320,7 +82320,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="107" column="5"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="110" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9380ca590b2600cc64a333d4892f2ef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ISweepLineCache &amp;</type>
@@ -82337,7 +82337,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="108" column="22"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="111" column="22"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7515177ffb82bd098525ebe56ec7e05b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type></type>
@@ -82352,7 +82352,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="110" column="14"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="113" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6aa55c423349c3200c91a32652683cca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::unique_ptr&lt; ISweepLineCache &gt;</type>
@@ -82367,7 +82367,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="114" column="18" declfile="MRMesh/MR2DContoursTriangulation.h" declline="114" declcolumn="18"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="117" column="18" declfile="MRMesh/MR2DContoursTriangulation.h" declline="117" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf1407ed99d00015ef1fed87faa3d5d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Mesh &gt;</type>
@@ -82394,7 +82394,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="121" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="121" declcolumn="16"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="124" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="124" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga818dcd39c8d72c4d2a32fc940d6ad524" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Mesh &gt;</type>
@@ -82417,7 +82417,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="122" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="122" declcolumn="16"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="125" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="125" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3b3c6c939868a97b44c3b77793d46515" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Mesh &gt;</type>
@@ -82474,7 +82474,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="133" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="133" declcolumn="16"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="136" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="136" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2f9e9b49c88ebf29c5a8a41b0659b9a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE MeshTopology *</type>
@@ -82511,7 +82511,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="140" column="30" declfile="MRMesh/MR2DContoursTriangulation.h" declline="140" declcolumn="30"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="143" column="30" declfile="MRMesh/MR2DContoursTriangulation.h" declline="143" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6bf92ff9850bc3bd73ec9926a31dcfed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; HoleFillPlan &gt;</type>
@@ -82540,7 +82540,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
 <parametername>loops</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>one closed <ref refid="group__GeneralGroup_1ga099da1b4cb4b8348ee3fed0588b01aa3" kindref="member">EdgeLoop</ref> of at least 3 edges per boundary of one region, bounding holes of <computeroutput>mesh</computeroutput> as trackRightBoundaryLoop returns them; which way round a loop runs does not matter </para>
+<para>one closed <ref refid="group__GeneralGroup_1ga099da1b4cb4b8348ee3fed0588b01aa3" kindref="member">EdgeLoop</ref> per boundary of one region, bounding holes of <computeroutput>mesh</computeroutput> as trackRightBoundaryLoop returns them (a slit of one edge is a loop of 2 edges, and a loop of one edge is skipped); which way round a loop runs does not matter; the holes can be several parts of one region split by edges between them, as all the holes of a face cut along contours (the parts between the contours that cross its sides, and both sides of every island), since an edge taken both ways adds zero winding </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -82558,7 +82558,57 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MR2DContoursTriangulation.h" line="153" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="153" declcolumn="16"/>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="159" column="16" declfile="MRMesh/MR2DContoursTriangulation.h" declline="159" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaa5caa2dc67571dc86450fb74f4c4fc76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE std::optional&lt; HoleFillPlan &gt;</type>
+        <definition>MR_BIND_IGNORE std::optional&lt; HoleFillPlan &gt; MR::PlanarTriangulation::getMonotonePlan</definition>
+        <argsstring>(const Mesh &amp;mesh, const EdgeLoops &amp;loops, const std::array&lt; PreciseVertCoords, 3 &gt; &amp;tri, const std::function&lt; PreciseCutPoint(VertId)&gt; &amp;pointOf)</argsstring>
+        <name>getMonotonePlan</name>
+        <qualifiedname>MR::PlanarTriangulation::getMonotonePlan</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const EdgeLoops &amp;</type>
+          <declname>loops</declname>
+        </param>
+        <param>
+          <type>const std::array&lt; PreciseVertCoords, 3 &gt; &amp;</type>
+          <declname>tri</declname>
+        </param>
+        <param>
+          <type>const std::function&lt; PreciseCutPoint(VertId)&gt; &amp;</type>
+          <declname>pointOf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>same as above for the region of one triangle of a mesh cut by the boolean (the loops of all the holes of the triangle), on the exact predicates of <ref refid="classMR_1_1CutTrianglePredicates" kindref="compound">CutTrianglePredicates</ref>, which never contradict the boolean&apos;s ones, so the loops are disjoint whenever the boolean&apos;s contours are <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tri</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the triangle, counterclockwise around its normal </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pointOf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the definition of every vertex on the loops, valid as <ref refid="classMR_1_1CutTrianglePredicates_1a661ec89d00d2e2dca4b101ffef4f1987" kindref="member">CutTrianglePredicates::addPoint</ref> requires </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>std::nullopt also if two vertices on the loops are defined alike and their wedges do not tell them apart, or the predicates fail on the points </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MR2DContoursTriangulation.h" line="168" column="31" declfile="MRMesh/MR2DContoursTriangulation.h" declline="168" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga58f8dd538965bde14c46c2ed60aac1f9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const NodeVec &amp;</type>
@@ -91733,7 +91783,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="105" column="12" declfile="MRMesh/MRContoursCut.h" declline="105" declcolumn="12"/>
+        <location file="MRMesh/MRContoursCut.h" line="106" column="12" declfile="MRMesh/MRContoursCut.h" declline="106" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8471f2a87338254b2c1d8a0790776f0e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; FaceBitSet &gt;</type>
@@ -91776,7 +91826,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="112" column="12" declfile="MRMesh/MRContoursCut.h" declline="112" declcolumn="12"/>
+        <location file="MRMesh/MRContoursCut.h" line="113" column="12" declfile="MRMesh/MRContoursCut.h" declline="113" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga66c0157a15c650c2df28de17df4c485c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::vector&lt; EdgePath &gt; &gt;</type>
@@ -91833,7 +91883,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="134" column="12" declfile="MRMesh/MRContoursCut.h" declline="134" declcolumn="12"/>
+        <location file="MRMesh/MRContoursCut.h" line="135" column="12" declfile="MRMesh/MRContoursCut.h" declline="135" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaccf79b17bf64faa5454a116f768def33" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Expected&lt; OneMeshContours &gt;</type>
@@ -91865,7 +91915,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="166" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="166" bodyend="170"/>
+        <location file="MRMesh/MRContoursCut.h" line="167" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="167" bodyend="171"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8f2f47f6c859930c9c0252e4bc28944e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Expected&lt; OneMeshContours &gt;</type>
@@ -91896,7 +91946,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="173" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="173" bodyend="177"/>
+        <location file="MRMesh/MRContoursCut.h" line="174" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="174" bodyend="178"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga41199d0cddfedc2e7a079524081c570e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; FaceBitSet &gt;</type>
@@ -106968,7 +107018,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRIntersectionContour.h" line="61" column="14" declfile="MRMesh/MRIntersectionContour.h" declline="61" declcolumn="14"/>
+        <location file="MRMesh/MRIntersectionContour.h" line="62" column="14" declfile="MRMesh/MRIntersectionContour.h" declline="62" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8c3b5f550ca42c127bd13cffb6993d49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -106995,7 +107045,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRIntersectionContour.h" line="67" column="7" declfile="MRMesh/MRIntersectionContour.h" declline="67" declcolumn="7"/>
+        <location file="MRMesh/MRIntersectionContour.h" line="69" column="7" declfile="MRMesh/MRIntersectionContour.h" declline="69" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3b4b14ed0aff6c8a322aa8c0b4741d96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -107019,7 +107069,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRIntersectionContour.h" line="72" column="7" declfile="MRMesh/MRIntersectionContour.h" declline="72" declcolumn="7"/>
+        <location file="MRMesh/MRIntersectionContour.h" line="75" column="7" declfile="MRMesh/MRIntersectionContour.h" declline="75" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac58a900748c7113700c6e1aa36ecde61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -132258,7 +132308,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="52" column="7" declfile="MRMesh/MROneMeshContours.h" declline="52" declcolumn="7"/>
+        <location file="MRMesh/MROneMeshContours.h" line="53" column="7" declfile="MRMesh/MROneMeshContours.h" declline="53" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6c2a8d613e29f26fcbbfaad5c43205a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -132313,7 +132363,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="58" column="7" declfile="MRMesh/MROneMeshContours.h" declline="58" declcolumn="7"/>
+        <location file="MRMesh/MROneMeshContours.h" line="59" column="7" declfile="MRMesh/MROneMeshContours.h" declline="59" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga57f74cde60c66eebd3b6f0076937f2c8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>OneMeshContours</type>
@@ -132345,7 +132395,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="67" column="18" declfile="MRMesh/MROneMeshContours.h" declline="67" declcolumn="18"/>
+        <location file="MRMesh/MROneMeshContours.h" line="68" column="18" declfile="MRMesh/MROneMeshContours.h" declline="68" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1d82174091ef8dac35de35e5b472b0fe" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Contours3f</type>
@@ -132364,7 +132414,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="72" column="13" declfile="MRMesh/MROneMeshContours.h" declline="72" declcolumn="13"/>
+        <location file="MRMesh/MROneMeshContours.h" line="73" column="13" declfile="MRMesh/MROneMeshContours.h" declline="73" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga86ca2da82f81a72954e27baf0e31fbd8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE Expected&lt; OneMeshContour &gt;</type>
@@ -132396,7 +132446,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="149" column="32" bodyfile="MRMesh/MROneMeshContours.h" bodystart="149" bodyend="153"/>
+        <location file="MRMesh/MROneMeshContours.h" line="150" column="32" bodyfile="MRMesh/MROneMeshContours.h" bodystart="150" bodyend="154"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1038937a987d09a86802e694724e7aa7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Expected&lt; OneMeshContour &gt;</type>
@@ -132428,7 +132478,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="156" column="17" bodyfile="MRMesh/MROneMeshContours.h" bodystart="156" bodyend="160"/>
+        <location file="MRMesh/MROneMeshContours.h" line="157" column="17" bodyfile="MRMesh/MROneMeshContours.h" bodystart="157" bodyend="161"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9b27124d1aee7872d4ac97a96ef4fee2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Expected&lt; OneMeshContour &gt;</type>
@@ -132460,7 +132510,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="163" column="17" bodyfile="MRMesh/MROneMeshContours.h" bodystart="163" bodyend="167"/>
+        <location file="MRMesh/MROneMeshContours.h" line="164" column="17" bodyfile="MRMesh/MROneMeshContours.h" bodystart="164" bodyend="168"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga84ad133112b40770a9311344d2bbfdde" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>OneMeshContour</type>
@@ -132490,7 +132540,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="170" column="23" bodyfile="MRMesh/MROneMeshContours.h" bodystart="170" bodyend="173"/>
+        <location file="MRMesh/MROneMeshContours.h" line="171" column="23" bodyfile="MRMesh/MROneMeshContours.h" bodystart="171" bodyend="174"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga60c552ace8de5755edd7e5a28dd4dc6b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>OneMeshContours</type>
@@ -132512,7 +132562,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="176" column="24" bodyfile="MRMesh/MROneMeshContours.h" bodystart="176" bodyend="179"/>
+        <location file="MRMesh/MROneMeshContours.h" line="177" column="24" bodyfile="MRMesh/MROneMeshContours.h" bodystart="177" bodyend="180"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga23e34559729eb030740a98ba96839023" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBMap</type>

@@ -150,6 +150,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a00d67e208d245c5ddd9f144d0bd78590"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertex in seg[0] if seg[1].id is invalid; otherwise the ends of the segment  <br /></td></tr>
 <tr class="memitem:a8a92fbd8e3905e3e715622593fd712c9" id="r_a8a92fbd8e3905e3e715622593fd712c9"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a92fbd8e3905e3e715622593fd712c9">tri</a></td></tr>
 <tr class="memdesc:a8a92fbd8e3905e3e715622593fd712c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">the triangle whose plane the segment crosses; not used for a vertex  <br /></td></tr>
+<tr class="memitem:a11f572416abc57b91657513e1531cf49" id="r_a11f572416abc57b91657513e1531cf49"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11f572416abc57b91657513e1531cf49">wedge</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>a point inside a triangle of a mesh cut along its intersections with other triangles, defined by mesh vertices in the exact coordinates that the boolean's predicates take, with the same ids: either a vertex, or the point where a segment crosses the plane of a triangle (an edge-triangle intersection found by <a class="el" href="group__MathGroup.html#ga4b162fc9a97cef14dfdf9a7dfc6bf34f">doTriangleSegmentIntersect</a>); the coordinates are below 2^30 by absolute value, as <a class="el" href="group__MathGroup.html#ga1d477d2bd0d97e5a7ee1a9b3e62d06cc">getToIntConverter</a> makes them, which the widths of the exact integers and the error bounds of the predicates rely on, and an id stands for one vertex with the same coordinates in every point </p>
@@ -209,6 +210,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>the triangle whose plane the segment crosses; not used for a vertex </p>
+
+</div>
+</div>
+<a id="a11f572416abc57b91657513e1531cf49" name="a11f572416abc57b91657513e1531cf49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11f572416abc57b91657513e1531cf49">&#9670;&#160;</a></span>wedge</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;<a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 2&gt; MR::PreciseCutPoint::wedge</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional for a segment that is an edge of another mesh crossing the triangle: the third vertices of the two triangles of that edge, in any order, with invalid ids if not given (as for a boundary edge); they tell apart the crossings of the edges of a multiple edge, which are defined alike otherwise (see <a class="el" href="classMR_1_1CutTrianglePredicates.html">CutTrianglePredicates</a>) </p>
 
 </div>
 </div>

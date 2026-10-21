@@ -2417,7 +2417,7 @@
 <para>Cuts mesh by given contours. </para>
         </briefdescription>
         <detaileddescription>
-<para>This function cuts mesh making new edges paths on place of input contours<parameterlist kind="param"><parameteritem>
+<para>This function cuts mesh making new edges paths on place of input contours; a contour inside one face is connected with the rest of the face by new edges<parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>mesh</parametername>
 </parameternamelist>

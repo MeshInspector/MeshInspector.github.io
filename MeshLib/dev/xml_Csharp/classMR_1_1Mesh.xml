@@ -839,7 +839,7 @@
 <parametername>new2Old</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>maps every face appeared after the splits to the face it was split from (as filled by <ref refid="classMR_1_1Mesh_1a7047e329fbec57254356a66c56e303a5" kindref="member">splitFace()</ref> and <ref refid="classMR_1_1Mesh_1a6c3397a5f9b167c21f2ef11cdc2714bb" kindref="member">splitEdge()</ref>); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several calls (like new2oldMap of subdivideLoneContours in the iterations of boolean) would add the earlier faces to the tree once more Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1aec3c07c4daca1f2cebe67ed88eba9652" kindref="member">MR.Mesh.updateCachesAfterSplits</ref></computeroutput>. </para>
+<para>maps every face appeared after the splits to the face it was split from (as filled by <ref refid="classMR_1_1Mesh_1a7047e329fbec57254356a66c56e303a5" kindref="member">splitFace()</ref> and <ref refid="classMR_1_1Mesh_1a6c3397a5f9b167c21f2ef11cdc2714bb" kindref="member">splitEdge()</ref>); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several updates would add the earlier faces to the tree once more Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1aec3c07c4daca1f2cebe67ed88eba9652" kindref="member">MR.Mesh.updateCachesAfterSplits</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
