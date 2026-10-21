@@ -1,7 +1,5 @@
 var NAVTREEINDEX25 =
 {
-"classmrmeshpy_1_1DistanceVolumeParams.html#a74ae0c8dee23d66279a17c11e8e76e6c":[9,1,0,0,2,232,8],
-"classmrmeshpy_1_1DistanceVolumeParams.html#a74ae0c8dee23d66279a17c11e8e76e6c":[9,1,1,0,1,232,8],
 "classmrmeshpy_1_1DistanceVolumeParams.html#a74ffcc80a803bc40786ac4fe3250ddbb":[9,1,0,0,2,232,10],
 "classmrmeshpy_1_1DistanceVolumeParams.html#a74ffcc80a803bc40786ac4fe3250ddbb":[9,1,1,0,1,232,10],
 "classmrmeshpy_1_1DistanceVolumeParams.html#a801ce93d0335580484fba7db8d16a7dc":[9,1,0,0,2,232,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX25 =
 "classmrmeshpy_1_1EdgeBitSet.html#ae94fad4319808db0e78a07d60ec7d370":[9,1,0,0,2,239,2],
 "classmrmeshpy_1_1EdgeBitSet.html#ae94fad4319808db0e78a07d60ec7d370":[9,1,0,0,2,239,3],
 "classmrmeshpy_1_1EdgeBitSet.html#ae94fad4319808db0e78a07d60ec7d370":[9,1,1,0,1,239,2],
-"classmrmeshpy_1_1EdgeBitSet.html#ae94fad4319808db0e78a07d60ec7d370":[9,1,1,0,1,239,3]
+"classmrmeshpy_1_1EdgeBitSet.html#ae94fad4319808db0e78a07d60ec7d370":[9,1,1,0,1,239,3],
+"classmrmeshpy_1_1EdgeBitSet.html#af18d089eec2ad1d214fba1b526c34ee0":[9,1,0,0,2,239,36],
+"classmrmeshpy_1_1EdgeBitSet.html#af18d089eec2ad1d214fba1b526c34ee0":[9,1,1,0,1,239,36]
 };

@@ -256,7 +256,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">    <span class="comment"># the global registration can be applied to meshes and point clouds</span></div>
 <div class="line">    <span class="comment"># to simplify the sample app, we will work with point clouds only</span></div>
 <div class="line">    input_clouds_num = len(file_args) - 1</div>
-<div class="line">    inputs = []</div>
+<div class="line">    inputs = mrmeshpy.Vector_MeshOrPointsXf_ObjId()</div>
 <div class="line">    <span class="comment"># as ICP and MultiwayICP classes accept both meshes and point clouds,</span></div>
 <div class="line">    <span class="comment"># the input data must be converted to special wrapper objects</span></div>
 <div class="line">    <span class="comment"># NB: the wrapper objects hold *references* to the source data, NOT their copies</span></div>
@@ -264,7 +264,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">    <span class="keywordflow">for</span> i <span class="keywordflow">in</span> range(input_clouds_num):</div>
 <div class="line">        points = mrmeshpy.loadPoints(file_args[i])</div>
 <div class="line">        <span class="comment"># you may also set an affine transformation for each input as a second argument</span></div>
-<div class="line">        inputs.append(mrmeshpy.MeshOrPointsXf(points, mrmeshpy.AffineXf3f()))</div>
+<div class="line">        inputs.push_back(mrmeshpy.MeshOrPointsXf(points, mrmeshpy.AffineXf3f()))</div>
 <div class="line"> </div>
 <div class="line">        bbox = points.getBoundingBox()</div>
 <div class="line">        <span class="keywordflow">if</span> <span class="keywordflow">not</span> max_bbox <span class="keywordflow">or</span> bbox.volume() &gt; max_bbox.volume():</div>
@@ -275,7 +275,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">    <span class="comment"># set sampling voxel size</span></div>
 <div class="line">    sampling_params.samplingVoxelSize = max_bbox.diagonal() * 0.03</div>
 <div class="line"> </div>
-<div class="line">    icp = mrmeshpy.MultiwayICP(mrmeshpy.Vector_MeshOrPointsXf_ObjId(inputs), sampling_params)</div>
+<div class="line">    icp = mrmeshpy.MultiwayICP(inputs, sampling_params)</div>
 <div class="line">    icp.setParams(mrmeshpy.ICPProperties())</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment"># gather statistics</span></div>
@@ -289,7 +289,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">    output = mrmeshpy.PointCloud()</div>
 <div class="line">    <span class="keywordflow">for</span> i <span class="keywordflow">in</span> range(input_clouds_num):</div>
 <div class="line">        xf = xfs.vec[i]</div>
-<div class="line">        <span class="keywordflow">for</span> point <span class="keywordflow">in</span> inputs[i].obj.points():</div>
+<div class="line">        <span class="keywordflow">for</span> point <span class="keywordflow">in</span> inputs.vec[i].obj.points():</div>
 <div class="line">            output.addPoint(xf(point))</div>
 <div class="line"> </div>
 <div class="line">    mrmeshpy.PointsSave.toAnySupportedFormat(output, file_args[-1])</div>

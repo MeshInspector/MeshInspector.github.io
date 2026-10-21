@@ -3,7 +3,6 @@ var classmrmeshpy_1_1Triangulation =
     [ "__init__", "classmrmeshpy_1_1Triangulation.html#a122af967d382a95e5eaf702b740af358", null ],
     [ "__init__", "classmrmeshpy_1_1Triangulation.html#a0a08e4006ce95cac612f3729dce9d08c", null ],
     [ "__init__", "classmrmeshpy_1_1Triangulation.html#a0658cf7372b2710ac06d22e11966b10d", null ],
-    [ "__init__", "classmrmeshpy_1_1Triangulation.html#a39f3e75652974926fea6385229bfce5c", null ],
     [ "__init__", "classmrmeshpy_1_1Triangulation.html#a6424be3cb7c5cb200b7db2c6065aab12", null ],
     [ "__eq__", "classmrmeshpy_1_1Triangulation.html#af2ec51c1016d4be8dd7c588d830f76b8", null ],
     [ "__getitem__", "classmrmeshpy_1_1Triangulation.html#a80fb40819167353bc7e5cdd27742bfd7", null ],

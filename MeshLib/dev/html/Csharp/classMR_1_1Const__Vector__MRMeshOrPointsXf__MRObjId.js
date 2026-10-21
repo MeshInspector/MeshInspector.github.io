@@ -5,7 +5,6 @@ var classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId =
     [ "Const_Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#ab16ee53ed3fff20644483627fe0f3749", null ],
     [ "Const_Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#abd812612eedc87f39912160b9822e5f6", null ],
     [ "Const_Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#a3032dd928edf676245642ccee340d524", null ],
-    [ "Const_Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#a4c819a41f8d32d607ebc79928ac7d6f7", null ],
     [ "back", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#a7f0f22c2bd96cbdeaa75fbd594751ca0", null ],
     [ "backId", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#a7a2b0de13368620e6d9b7966ec0cd07f", null ],
     [ "beginId", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#a87a4e705e80b6e39c75e5675820ed4aa", null ],
@@ -18,7 +17,6 @@ var classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId =
     [ "front", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#a9a5b39e4612b1eb4b518b90b8cfe90b9", null ],
     [ "GetEnumerator", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#a248f8d4085c5120072cb2f994ce5c2ea", null ],
     [ "heapBytes", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#a45ab1707d5081fe4415e5eb34ce150e7", null ],
-    [ "operator Const_Vector_MRMeshOrPointsXf_MRObjId", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#ab2a169f2534357bac3f67bed9623f4d2", null ],
     [ "size", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#a5271efd29a7eb1d2ade30e0a3c8e1110", null ],
     [ "this[MR.ObjId i]", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#a762ba38bc687fa54baa636065a649f41", null ],
     [ "vec", "classMR_1_1Const__Vector__MRMeshOrPointsXf__MRObjId.html#a2c588c47bd0ae633ad48cdf3e4331d07", null ]

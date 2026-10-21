@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2236" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2236" bodyend="2236"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2100" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2100" bodyend="2100"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TriCornerUVCoords_1ac7fb60636037f415aed5b69ef38e04b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe new ref MR.Std.Array_MRVector2f_3</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2385" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2386" bodyend="2391"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2232" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2233" bodyend="2238"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2223" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2223" bodyend="2226"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2087" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2087" bodyend="2090"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2263" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2263" bodyend="2267"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2127" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2127" bodyend="2131"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ae179b8b4660efc07ed83c0e33138dd5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2272" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2272" bodyend="2277"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2136" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2136" bodyend="2141"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a975082f9f5ddae52095b53405eb73f27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2282" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2282" bodyend="2282"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2146" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2146" bodyend="2146"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a348ee133c4b9faea0a661fedb002e638" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2287" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2287" bodyend="2287"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2151" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2151" bodyend="2151"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a62f228ead5f164e80a2c3b9a863cf05f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2293" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2293" bodyend="2297"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2157" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2157" bodyend="2161"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1aef667bb93df4d4bb6090bcd1144ddf8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -163,26 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2303" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2303" bodyend="2310"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a314036dae8d3ee4c513fe4d584999a05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.TriCornerUVCoords.TriCornerUVCoords</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt; v)</argsstring>
-        <name>TriCornerUVCoords</name>
-        <qualifiedname>MR.TriCornerUVCoords.TriCornerUVCoords</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt;</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" kindref="member">MR.TriCornerUVCoords.TriCornerUVCoords</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2316" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2316" bodyend="2321"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2167" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2167" bodyend="2174"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a3a7235ae3497f146b4faebe4fb2eec9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1TriCornerUVCoords" kindref="compound">MR.TriCornerUVCoords</ref></type>
@@ -201,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2332" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2332" bodyend="2337"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2179" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2179" bodyend="2184"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a9442177a350258d8117611e634f3ace4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -216,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2342" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2342" bodyend="2345"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2189" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2189" bodyend="2192"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a13391c4416fac487ca4ef0bdc2c78535" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -235,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2350" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2350" bodyend="2353"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2197" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2197" bodyend="2200"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ac4f6e3042c30840ca61f9827d984f129" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -258,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2358" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2358" bodyend="2364"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2205" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2205" bodyend="2211"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1aaf26b1dc8eccfe557a123720465ea365" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -277,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2369" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2369" bodyend="2372"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2216" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2216" bodyend="2219"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ae093d81b40e4cf00359a7860634d682f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -292,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2377" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2377" bodyend="2380"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2224" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2224" bodyend="2227"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a378f8f6366d84b90ac5219281b7c7400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -311,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2398" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2398" bodyend="2401"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2245" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2245" bodyend="2248"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a2a8dc265fea9c2e004ae053b8fb0107e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -334,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2408" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2408" bodyend="2414"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2255" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2255" bodyend="2261"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a883b011819ef9f800c573c68e6be5368" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -361,7 +342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2421" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2421" bodyend="2424"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2268" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2268" bodyend="2271"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1acbcf27342913f9e4b3b3e4762ed3bb8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -384,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2430" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2430" bodyend="2433"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2277" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2277" bodyend="2280"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a4ae3bb0175f1482a50049508bfb719f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref MR.Std.Array_MRVector2f_3</type>
@@ -403,7 +384,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2439" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2439" bodyend="2442"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2286" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2286" bodyend="2289"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ab530ae3a43066af7c6bf019a535aa940" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -422,7 +403,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2447" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2447" bodyend="2453"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2294" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2294" bodyend="2300"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a9279ee03d6ccd8f781b249291750a1a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -445,7 +426,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2458" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2458" bodyend="2464"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2305" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2305" bodyend="2311"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a9eea1e5692e1da0d6f13d34021c91a3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -460,7 +441,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2469" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2469" bodyend="2472"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2316" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2316" bodyend="2319"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a1383c4d6342d8d156fdc2a511ed3948a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new ref MR.Std.Array_MRVector2f_3</type>
@@ -475,7 +456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2477" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2477" bodyend="2480"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2324" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2324" bodyend="2327"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a053fbe841b32758e638e476439906fa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new ref MR.Std.Array_MRVector2f_3</type>
@@ -490,7 +471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2485" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2485" bodyend="2488"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2332" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2332" bodyend="2335"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a8d56ec5a98b571b50191090d0df56d5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new MR.Misc.? Ref&lt; MR.Std.Array_MRVector2f_3 &gt;</type>
@@ -505,7 +486,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2493" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2493" bodyend="2497"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2340" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2340" bodyend="2344"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a1938d28dd9c467a2367145b8d47f5e70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -524,7 +505,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2502" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2502" bodyend="2505"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2349" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2349" bodyend="2352"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -540,7 +521,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2228" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2228" bodyend="2231"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2092" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2092" bodyend="2095"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -564,28 +545,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2253" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2253" bodyend="2257"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ade97c3cbd387ce0da1e0173a0555e366" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe implicit</type>
-        <definition>static unsafe implicit MR.TriCornerUVCoords.operator TriCornerUVCoords</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt; v)</argsstring>
-        <name>operator TriCornerUVCoords</name>
-        <qualifiedname>MR.TriCornerUVCoords.operator TriCornerUVCoords</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt;</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" kindref="member">MR.TriCornerUVCoords.TriCornerUVCoords</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2327" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2327" bodyend="2327"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2117" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2117" bodyend="2121"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -613,7 +573,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2510" column="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2357" column="61"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a27db7982926712415327bed1766c5fde" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TriCornerUVCoords._Underlying *</type>
@@ -631,7 +591,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2513" column="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2360" column="61"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a3a9d931501152b67d61321975b6291bf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TriCornerUVCoords._Underlying *</type>
@@ -653,7 +613,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2516" column="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2363" column="61"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a4216710ea099a42d01914975595247cc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TriCornerUVCoords._Underlying *</type>
@@ -675,25 +635,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2519" column="61"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1afa59cd61e30015d16a10155b41e360d2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.TriCornerUVCoords._Underlying *</type>
-        <definition>static unsafe MR.TriCornerUVCoords._Underlying * MR.TriCornerUVCoords.__MR_TriCornerUVCoords_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_StdArrayMRVector2f3._Underlying *v)</argsstring>
-        <name>__MR_TriCornerUVCoords_Construct_stdVector</name>
-        <qualifiedname>MR.TriCornerUVCoords.__MR_TriCornerUVCoords_Construct_stdVector</qualifiedname>
-        <param>
-          <type>MR.Std.Vector_StdArrayMRVector2f3._Underlying *</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2522" column="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2366" column="61"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a27165664fe3d67785e17f3f0c48f09f6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TriCornerUVCoords._Underlying *</type>
@@ -707,7 +649,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2525" column="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2369" column="61"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a8b91649f5177876eaa3d04b932fdba9d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdArrayMRVector2f3._Underlying *</type>
@@ -725,7 +667,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2528" column="73"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2372" column="73"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ad52fc510b1249720c5eb16d1f833a99d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Array_MRVector2f_3 *</type>
@@ -747,7 +689,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2531" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2375" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a974668b97ef129a5faa2a976be36108b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -773,7 +715,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2534" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2378" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ac1f74fc9223e5167edbc6abbc1232601" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -803,7 +745,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2537" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2381" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a306f571b8fc5bcaa5932b9c0e5e9d94e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Array_MRVector2f_3 *</type>
@@ -821,7 +763,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2540" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2384" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a4f50778e33ced3a6b557a6919e3ca3df" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -839,7 +781,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2543" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2387" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ac8e6d30610efd1144e32323dc5e133a3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Array_MRVector2f_3 *</type>
@@ -857,7 +799,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2546" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2390" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a6144394b1eea5a73c24edd2b82578472" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Array_MRVector2f_3 *</type>
@@ -875,7 +817,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2549" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2393" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a29d8b491026ae617ba28183949675c5c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Array_MRVector2f_3 *</type>
@@ -897,7 +839,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2552" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2396" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a9fad907339ca74401566a68d9998a83a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -915,7 +857,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2555" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2399" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a75366e9577064f5546d3cf79564d807f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -937,7 +879,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2558" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2402" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1ad4744d9e09bba0f4f01125da2d076e2a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -959,7 +901,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2561" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2405" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1aaca63f76c9f403bee9005a2f5b234718" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -981,7 +923,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2564" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2408" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a978a14abaeee9f5a72a728faf1a97e0b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -1003,7 +945,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2567" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2411" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a38af1d4175b4a34d645968b598e4fa14" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -1029,7 +971,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2570" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2414" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a74744ae3fb417fe0e879795c9d9ab2f9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -1051,7 +993,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2573" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2417" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1abac9a523073578816481bfba4191add0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -1077,7 +1019,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2576" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2420" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a1c8efd0d2386f255f0aac283af76503a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -1095,7 +1037,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2579" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2423" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriCornerUVCoords_1a7e0113468c69bfe20c46fdcb3d68174d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -1117,7 +1059,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2582" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2426" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1211,7 +1153,7 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2167" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2168" bodyend="2583"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2031" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2032" bodyend="2427"/>
     <listofallmembers>
       <member refid="classMR_1_1TriCornerUVCoords_1abfbc258bd79e239b8b00ab04f5b24381" prot="private" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_AssignFromAnother</name></member>
       <member refid="classMR_1_1TriCornerUVCoords_1ad52fc510b1249720c5eb16d1f833a99d" prot="private" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_autoResizeAt</name></member>
@@ -1221,7 +1163,6 @@
       <member refid="classMR_1_1TriCornerUVCoords_1a4f50778e33ced3a6b557a6919e3ca3df" prot="private" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_clear</name></member>
       <member refid="classMR_1_1TriCornerUVCoords_1a27db7982926712415327bed1766c5fde" prot="private" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_Construct</name></member>
       <member refid="classMR_1_1TriCornerUVCoords_1a4216710ea099a42d01914975595247cc" prot="private" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_Construct_fill</name></member>
-      <member refid="classMR_1_1TriCornerUVCoords_1afa59cd61e30015d16a10155b41e360d2" prot="private" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_Construct_stdVector</name></member>
       <member refid="classMR_1_1TriCornerUVCoords_1a3a9d931501152b67d61321975b6291bf" prot="private" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_ConstructFromAnother</name></member>
       <member refid="classMR_1_1TriCornerUVCoords_1ac8e6d30610efd1144e32323dc5e133a3" prot="private" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_data_mut</name></member>
       <member refid="classMR_1_1TriCornerUVCoords_1a27165664fe3d67785e17f3f0c48f09f6" prot="private" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_DefaultConstruct</name></member>
@@ -1254,7 +1195,6 @@
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a1805d5ccc1f249ff123e5ea55a0cc5e5" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>Const_TriCornerUVCoords</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a41bc99f703e09017a8b13bac112a4ea1" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>Const_TriCornerUVCoords</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1aaf5f14570074b97ae63acfcbaceea4c1" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>Const_TriCornerUVCoords</name></member>
-      <member refid="classMR_1_1Const__TriCornerUVCoords_1a219d8b4227056bab291963a4d515bb4f" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>Const_TriCornerUVCoords</name></member>
       <member refid="classMR_1_1TriCornerUVCoords_1a8d56ec5a98b571b50191090d0df56d5d" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>data</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a8f27456a3b6bd00cd79dbed3a4d3cdad" prot="protected" virt="virtual"><scope>MR::TriCornerUVCoords</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a41e276166af153c697f269cc25000ef3" prot="public" virt="virtual"><scope>MR::TriCornerUVCoords</scope><name>Dispose</name></member>
@@ -1266,8 +1206,6 @@
       <member refid="classMR_1_1TriCornerUVCoords_1a48aa5db52075294539414c963e2544e7" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1TriCornerUVCoords_1a3333c4d85c3e881a6cc0b508b5acfe70" prot="private" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a02fb73653c2523b0618678e12896cf31" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__TriCornerUVCoords_1afd5876727550120785d0633c8f6b5071" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>operator Const_TriCornerUVCoords</name></member>
-      <member refid="classMR_1_1TriCornerUVCoords_1ade97c3cbd387ce0da1e0173a0555e366" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>operator TriCornerUVCoords</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1add192d2dc00fd65fe7381cb4726f95b5" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a759ff63a7d9732f5096d88bf2046b963" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>operator==</name></member>
       <member refid="classMR_1_1TriCornerUVCoords_1a9eea1e5692e1da0d6f13d34021c91a3b" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>popBack</name></member>
@@ -1289,7 +1227,6 @@
       <member refid="classMR_1_1TriCornerUVCoords_1a348ee133c4b9faea0a661fedb002e638" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>TriCornerUVCoords</name></member>
       <member refid="classMR_1_1TriCornerUVCoords_1a62f228ead5f164e80a2c3b9a863cf05f" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>TriCornerUVCoords</name></member>
       <member refid="classMR_1_1TriCornerUVCoords_1aef667bb93df4d4bb6090bcd1144ddf8c" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>TriCornerUVCoords</name></member>
-      <member refid="classMR_1_1TriCornerUVCoords_1a314036dae8d3ee4c513fe4d584999a05" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>TriCornerUVCoords</name></member>
       <member refid="classMR_1_1TriCornerUVCoords_1aeec0dabd0a1de9ae09a0fb1294252d41" prot="public" virt="non-virtual"><scope>MR::TriCornerUVCoords</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>

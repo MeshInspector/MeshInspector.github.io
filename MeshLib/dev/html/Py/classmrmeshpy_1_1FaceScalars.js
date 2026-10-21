@@ -3,7 +3,6 @@ var classmrmeshpy_1_1FaceScalars =
     [ "__init__", "classmrmeshpy_1_1FaceScalars.html#ad5329c575d7ad53dc70ba21e726466af", null ],
     [ "__init__", "classmrmeshpy_1_1FaceScalars.html#aeda25794e4695eed982c135c979c322a", null ],
     [ "__init__", "classmrmeshpy_1_1FaceScalars.html#a50c5209e75e59f748423a09024ca3c57", null ],
-    [ "__init__", "classmrmeshpy_1_1FaceScalars.html#ab7d89370b637697c7df4183df40e0b53", null ],
     [ "__init__", "classmrmeshpy_1_1FaceScalars.html#a3c881244616d42326e412ad0bb8a0aa5", null ],
     [ "__eq__", "classmrmeshpy_1_1FaceScalars.html#a29277a43abd432052f83789bbcaea04f", null ],
     [ "__getitem__", "classmrmeshpy_1_1FaceScalars.html#abd86bcc54821424717ceb7e04e2f6dd3", null ],

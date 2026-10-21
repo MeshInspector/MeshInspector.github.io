@@ -3,7 +3,6 @@ var classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId =
     [ "__init__", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#a821a721577f5e719acaef5e363643297", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#a80491e2ed627e56d251a4013b4a97dd6", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#ad93a6b6c09f0421dd3548caa69f46f36", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#aac49427c82f4d3586846c60fed38dbf7", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#a2ed937c6ca1b80832f5b0286530dd2da", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#a7599c2054ab029da175f50682656159e", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#a7599c2054ab029da175f50682656159e", null ],

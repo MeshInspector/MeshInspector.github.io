@@ -3,7 +3,6 @@ var classmrmeshpy_1_1Vector__int__VertId =
     [ "__init__", "classmrmeshpy_1_1Vector__int__VertId.html#a4f3d464ab17d651619a328a499e6e82b", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__VertId.html#a8ac0f6861abfb5e77d21b0fc0dcffcef", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__VertId.html#a13091bcf7bf5cf31c4bb48ad092a5b11", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__int__VertId.html#aff9478cebdc3e512aa4643d459427d5a", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__VertId.html#afb8fdfeac2d8a4e9774b8ae5776a0271", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__int__VertId.html#a397a31e006678c2f40cd33acf834c066", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__int__VertId.html#aabf6dc031b68c8d346e5c315b4f3b3ed", null ],

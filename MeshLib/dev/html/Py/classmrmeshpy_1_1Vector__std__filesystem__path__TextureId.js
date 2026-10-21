@@ -3,7 +3,6 @@ var classmrmeshpy_1_1Vector__std__filesystem__path__TextureId =
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a39dffe501cb9c1f12e6d269c56da1454", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a0a374724ce5794029693fc366a5bdf22", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a4abe31a9b966ada0219b9f0b169e6ed3", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a62ad668421b6188da01249c70641acc7", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a91789358846daeecf963381f75b16a45", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#ae62277285df162ea7678e3f89e31590c", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a96a9ae7fff26c1811f304c0ceae76975", null ],

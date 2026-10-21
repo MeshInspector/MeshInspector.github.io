@@ -6,7 +6,6 @@ var classMR_1_1Const__Dipoles =
     [ "Const_Dipoles", "classMR_1_1Const__Dipoles.html#a697922f1704095a6f95586ff3a033cd1", null ],
     [ "Const_Dipoles", "classMR_1_1Const__Dipoles.html#a5e09db7aea5c61ba2aa80b7a092dbf16", null ],
     [ "Const_Dipoles", "classMR_1_1Const__Dipoles.html#a8a7b843a40d0886c1115f927cb0191c3", null ],
-    [ "Const_Dipoles", "classMR_1_1Const__Dipoles.html#a07487123fa3333f1f3d6625bb5ed9cdb", null ],
     [ "back", "classMR_1_1Const__Dipoles.html#af68ededddea7a353279e3bde78bf03ea", null ],
     [ "backId", "classMR_1_1Const__Dipoles.html#ab55480471162b203498f372d3cd1ac22", null ],
     [ "beginId", "classMR_1_1Const__Dipoles.html#a60c5b32c2b9a163bdaa5c2e3059e5e4d", null ],
@@ -19,7 +18,6 @@ var classMR_1_1Const__Dipoles =
     [ "front", "classMR_1_1Const__Dipoles.html#afbcaeb3cec17950a1589ca113f30e985", null ],
     [ "GetEnumerator", "classMR_1_1Const__Dipoles.html#a7037da7c126ef6457004549d7424c62d", null ],
     [ "heapBytes", "classMR_1_1Const__Dipoles.html#ac7158fb56571747424dff75532f24dad", null ],
-    [ "operator Const_Dipoles", "classMR_1_1Const__Dipoles.html#ae5ef5ee28f1d71be8736d29777d571fb", null ],
     [ "size", "classMR_1_1Const__Dipoles.html#ad2a291bc9afcea9fe9ece8c48402baba", null ],
     [ "this[MR.NodeId i]", "classMR_1_1Const__Dipoles.html#a12ba4135bd9836483687c8180e8350d8", null ],
     [ "vec", "classMR_1_1Const__Dipoles.html#a8cb87de067bda82efe9b501942508f66", null ]

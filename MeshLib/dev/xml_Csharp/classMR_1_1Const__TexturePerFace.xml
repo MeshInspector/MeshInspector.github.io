@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14165" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14165" bodyend="14165"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13303" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13303" bodyend="13303"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__TexturePerFace_1a992fdd0d6008c1f2540f24a12ce4e670" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14297" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14298" bodyend="14303"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13418" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13419" bodyend="13424"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14088" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14088" bodyend="14094"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13226" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13226" bodyend="13232"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14095" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14095" bodyend="14095"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13233" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13233" bodyend="13233"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a4eb61039f105ac2557df9e247b0f26f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref> &gt; &gt;</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14152" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14152" bodyend="14155"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13290" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13290" bodyend="13293"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a2f5fd79be006bf890cf679fc0b16888a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14191" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14191" bodyend="14195"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13329" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13329" bodyend="13333"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a2b70846cd87ad44a7606a59ad665d90c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14200" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14200" bodyend="14205"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13338" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13338" bodyend="13343"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1ae855165c82cd2b3d3ef5357eec1259ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14210" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14210" bodyend="14210"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13348" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13348" bodyend="13348"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a896a6796b3a959985b0438d7ef4de9a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14215" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14215" bodyend="14215"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13353" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13353" bodyend="13353"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a0ef3d5739464f55632b93a61e8416d99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14221" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14221" bodyend="14225"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13359" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13359" bodyend="13363"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a7f837cb165ff4b34def146f9f80b07ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -200,26 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14231" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14231" bodyend="14238"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a1bf5c321c0095c200e5a501e009c6db2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Const_TexturePerFace.Const_TexturePerFace</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRTextureId &gt; v)</argsstring>
-        <name>Const_TexturePerFace</name>
-        <qualifiedname>MR.Const_TexturePerFace.Const_TexturePerFace</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRTextureId &gt;</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1TexturePerFace_1ac6f7f3429fc913d4f574436660e2947d" kindref="member">MR.TexturePerFace.TexturePerFace</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14244" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14244" bodyend="14249"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13369" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13369" bodyend="13376"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a4ae077eb98f9fe3fab1b13cb80fe1576" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -234,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14273" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14273" bodyend="14276"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13394" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13394" bodyend="13397"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1af010444b5648263feb0a00c62951b6ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -249,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14281" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14281" bodyend="14284"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13402" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13402" bodyend="13405"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1ab18e4fcf43da76cd0b45711d5c09453f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -264,7 +245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14289" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14289" bodyend="14292"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13410" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13410" bodyend="13413"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1afd6e4e8c936f13e9cff41c4e1f7c4550" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
@@ -279,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14308" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14308" bodyend="14311"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13429" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13429" bodyend="13432"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a6ac6fa484a79c833186ff02f7020fdd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
@@ -294,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14316" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14316" bodyend="14319"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13437" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13437" bodyend="13440"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1acd3a55a100ff566a92dfc18a6d564410" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -309,7 +290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14325" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14325" bodyend="14328"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13446" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13446" bodyend="13449"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1aad45b2f47a5a5ef2fe416849046df826" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -324,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14334" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14334" bodyend="14337"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13455" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13455" bodyend="13458"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1aef4038c9ba297c680a85d487fa1f7433" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -339,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14343" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14343" bodyend="14346"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13464" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13464" bodyend="13467"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1ac4b343531d4f52eb7e9b4f48e471c4d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.? <ref refid="structMR_1_1TextureId" kindref="compound">TextureId</ref></type>
@@ -354,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14351" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14351" bodyend="14355"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13472" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13472" bodyend="13476"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1af82a08da62517ba970ef8ec5b85c3571" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -369,7 +350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14361" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14361" bodyend="14364"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13482" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13482" bodyend="13485"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1aed0edf05243d33a804a4292f44d883c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -387,7 +368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14368" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14368" bodyend="14373"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13489" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13489" bodyend="13494"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a92da021fe7579f361ade4c0b4c2dfa46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -405,7 +386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14375" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14375" bodyend="14382"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13496" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13496" bodyend="13503"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -421,7 +402,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14096" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14096" bodyend="14096"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13234" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13234" bodyend="13234"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1af9a8795654434f31e6da6495f52753e2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
@@ -435,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14157" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14157" bodyend="14160"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13295" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13295" bodyend="13298"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -459,29 +440,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14180" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14180" bodyend="14185"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13318" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13318" bodyend="13323"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a59ab45daa354bc6504fd80ce3261b57c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe implicit</type>
-        <definition>static unsafe implicit MR.Const_TexturePerFace.operator Const_TexturePerFace</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRTextureId &gt; v)</argsstring>
-        <name>operator Const_TexturePerFace</name>
-        <qualifiedname>MR.Const_TexturePerFace.operator Const_TexturePerFace</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRTextureId &gt;</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1TexturePerFace_1ac6f7f3429fc913d4f574436660e2947d" kindref="member">MR.TexturePerFace.TexturePerFace</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14255" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14255" bodyend="14255"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a990b1345b4771c94125cc9e9c14f4b8a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>static unsafe bool MR.Const_TexturePerFace.operator==</definition>
@@ -503,7 +465,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14260" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14260" bodyend="14263"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13381" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13381" bodyend="13384"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1af30a8ccaaeed0ade6a2d66f05da267b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -525,7 +487,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14265" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14265" bodyend="14268"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13386" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13386" bodyend="13389"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -545,7 +507,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14387" column="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13508" column="58"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a9f34a2abcbbc5fdbddcc6608f36e62ad" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TexturePerFace._Underlying *</type>
@@ -567,7 +529,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14390" column="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13511" column="58"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a6b065abd95f7c2c9406d4740630c3b5f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TexturePerFace._Underlying *</type>
@@ -589,25 +551,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14393" column="58"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a2f1a9296b6a6fa11974eaa3422fe253c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.TexturePerFace._Underlying *</type>
-        <definition>static unsafe MR.TexturePerFace._Underlying * MR.Const_TexturePerFace.__MR_TexturePerFace_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRTextureId._Underlying *v)</argsstring>
-        <name>__MR_TexturePerFace_Construct_stdVector</name>
-        <qualifiedname>MR.Const_TexturePerFace.__MR_TexturePerFace_Construct_stdVector</qualifiedname>
-        <param>
-          <type>MR.Std.Vector_MRTextureId._Underlying *</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14396" column="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13514" column="58"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a88bf0b4aee0d21f0c23133a342979081" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TexturePerFace._Underlying *</type>
@@ -621,7 +565,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14399" column="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13517" column="58"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1ae4d9f8fa14598ffe2d92b47bfe102767" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -639,7 +583,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14402" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13520" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a77ed926874574a52968f0e1d222f718f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MRTextureId._Underlying *</type>
@@ -657,7 +601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14405" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13523" column="71"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a02da43956c80731877355e08bc9c7516" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref> *</type>
@@ -675,7 +619,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14408" column="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13526" column="42"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a427952080e1944f2481b852f84bb7854" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -693,7 +637,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14411" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13529" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a8cb127663b73a5142dc02648987ce9e7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -711,7 +655,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14414" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13532" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a6d740de46e2d894e04f58e0eadaeb707" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -729,7 +673,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14417" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13535" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a53cc49d6a3ec2dab862eb2013645c908" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref> *</type>
@@ -747,7 +691,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14420" column="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13538" column="42"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a3772918ef4ac5d9d836ed6992b432e41" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -765,7 +709,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14423" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13541" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1ac8a9cfe46896c720a886abdf0631f8db" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -783,7 +727,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14426" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13544" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a3113ba08939077cb763b5877844776ff" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref> *</type>
@@ -801,7 +745,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14429" column="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13547" column="42"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a7032c7f2c4f18f74609543f88497f6f2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -819,7 +763,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14432" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13550" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1ac8ebcb67c93deb41dad05936cb8a5646" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref> *</type>
@@ -841,7 +785,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14435" column="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13553" column="42"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a5332488b04f2593ca3dc3b7b11d833a4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -859,7 +803,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14438" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13556" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a05d6499002ba008e5547915b65a88ada" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -881,7 +825,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14441" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13559" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -965,7 +909,7 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14082" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14083" bodyend="14442"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13220" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13221" bodyend="13560"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__TexturePerFace_1a05d6499002ba008e5547915b65a88ada" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_equal_MR_TexturePerFace</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a02da43956c80731877355e08bc9c7516" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_back</name></member>
@@ -974,7 +918,6 @@
       <member refid="classMR_1_1Const__TexturePerFace_1a6d740de46e2d894e04f58e0eadaeb707" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_capacity</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a6608af57ee1658a09015ced0fbe72c8e" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_Construct</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a6b065abd95f7c2c9406d4740630c3b5f" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__TexturePerFace_1a2f1a9296b6a6fa11974eaa3422fe253c" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a9f34a2abcbbc5fdbddcc6608f36e62ad" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a53cc49d6a3ec2dab862eb2013645c908" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_data</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a88bf0b4aee0d21f0c23133a342979081" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_DefaultConstruct</name></member>
@@ -997,7 +940,6 @@
       <member refid="classMR_1_1Const__TexturePerFace_1a896a6796b3a959985b0438d7ef4de9a2" prot="public" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>Const_TexturePerFace</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a0ef3d5739464f55632b93a61e8416d99" prot="public" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>Const_TexturePerFace</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a7f837cb165ff4b34def146f9f80b07ce" prot="public" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>Const_TexturePerFace</name></member>
-      <member refid="classMR_1_1Const__TexturePerFace_1a1bf5c321c0095c200e5a501e009c6db2" prot="public" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>Const_TexturePerFace</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1ac4b343531d4f52eb7e9b4f48e471c4d3" prot="public" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>data</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a5996f1b03981f83ef820ca2f68246552" prot="protected" virt="virtual"><scope>MR::Const_TexturePerFace</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1aec426953f98ee25d134809ed8f3e3618" prot="public" virt="virtual"><scope>MR::Const_TexturePerFace</scope><name>Dispose</name></member>
@@ -1009,7 +951,6 @@
       <member refid="classMR_1_1Const__TexturePerFace_1a4eb61039f105ac2557df9e247b0f26f5" prot="public" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1af9a8795654434f31e6da6495f52753e2" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1af82a08da62517ba970ef8ec5b85c3571" prot="public" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__TexturePerFace_1a59ab45daa354bc6504fd80ce3261b57c" prot="public" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>operator Const_TexturePerFace</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1af30a8ccaaeed0ade6a2d66f05da267b2" prot="public" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a990b1345b4771c94125cc9e9c14f4b8a" prot="public" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1af010444b5648263feb0a00c62951b6ac" prot="public" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>size</name></member>

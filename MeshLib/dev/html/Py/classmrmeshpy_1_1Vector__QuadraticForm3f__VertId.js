@@ -3,7 +3,6 @@ var classmrmeshpy_1_1Vector__QuadraticForm3f__VertId =
     [ "__init__", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a28f13bfc963c6ead49bd7fdcdc2a71f6", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a846560f9db0ae3969b95068be89b8c10", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a83681333e9802fbfa3fc5f8ab4a84532", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a0027c3c9c0cf6b372896995d90b1b42f", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#aceac97a6183f8ce2c0e65f2aae1e9ba7", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a81aa7ddfaa4d5ee9adfede2bdb7900f7", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a81aa7ddfaa4d5ee9adfede2bdb7900f7", null ],

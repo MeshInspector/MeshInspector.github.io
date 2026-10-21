@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7983" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7983" bodyend="7983"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7497" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7497" bodyend="7497"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__WholeEdgeMap_1a79b49f05759ce90af215181d10570c34" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8115" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8116" bodyend="8121"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7612" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7613" bodyend="7618"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7906" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7906" bodyend="7912"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7420" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7420" bodyend="7426"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7913" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7913" bodyend="7913"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7427" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7427" bodyend="7427"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1aa44c24cbcdd3ab6d2d5d98c11c37e145" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> &gt; &gt;</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7970" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7970" bodyend="7973"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7484" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7484" bodyend="7487"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a9cb7934a3f293fc9c90d78c146f24c4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8009" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8009" bodyend="8013"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7523" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7523" bodyend="7527"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1aedb4919fd9049a977cf70c410706af10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8018" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8018" bodyend="8023"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7532" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7532" bodyend="7537"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a9d78b5c5f2432384f745b11e45bb4f6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8028" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8028" bodyend="8028"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7542" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7542" bodyend="7542"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a131fba26df9a7ea9c93b5bf05db7d81b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8033" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8033" bodyend="8033"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7547" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7547" bodyend="7547"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a3665808e7b59fb294949b9fdd066c5ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8039" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8039" bodyend="8043"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7553" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7553" bodyend="7557"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1ac40530ef1948738dbaefd570a5ce3e7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -200,26 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8049" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8049" bodyend="8056"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1ad4a4df12feaf5b6f3437461221a12da2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.Const_WholeEdgeMap.Const_WholeEdgeMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; v)</argsstring>
-        <name>Const_WholeEdgeMap</name>
-        <qualifiedname>MR.Const_WholeEdgeMap.Const_WholeEdgeMap</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt;</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a501b0bc673152b4ea8b565a549a79576" kindref="member">MR.WholeEdgeMap.WholeEdgeMap</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8062" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8062" bodyend="8067"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7563" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7563" bodyend="7570"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a7dcf1f4502600bf784b52e6e067a4815" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -234,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8091" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8091" bodyend="8094"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7588" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7588" bodyend="7591"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a2a967d3df8ac4f16987d3537ea638bbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -249,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8099" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8099" bodyend="8102"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7596" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7596" bodyend="7599"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a93d0eeb0f9c23bf57324bba29f2fef0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -264,7 +245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8107" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8107" bodyend="8110"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7604" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7604" bodyend="7607"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a3c79a730b602e13e7b86b8da81a95529" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -279,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8126" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8126" bodyend="8129"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7623" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7623" bodyend="7626"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1ad64f1de2b4e71a8f1b69173074367274" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -294,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8134" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8134" bodyend="8137"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7631" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7631" bodyend="7634"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1af0b98ae7007c2253b3b2f1175260bfc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
@@ -309,7 +290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8143" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8143" bodyend="8146"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7640" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7640" bodyend="7643"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1afbe8717d5e5469130271bb3b3ff982af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
@@ -324,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8152" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8152" bodyend="8155"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7649" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7649" bodyend="7652"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1abf065206ac2a5c7aa5dc2cd929b85d06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
@@ -339,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8161" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8161" bodyend="8164"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7658" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7658" bodyend="7661"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1ae52860420681932a7411d933985e3211" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.? <ref refid="structMR_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -354,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8169" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8169" bodyend="8173"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7666" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7666" bodyend="7670"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1acb4882e147aa6939a7fc363f5a781953" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -369,7 +350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8179" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8179" bodyend="8182"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7676" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7676" bodyend="7679"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1ab6e7d20e553bafdbebb8a16eaaca7007" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -387,7 +368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8186" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8186" bodyend="8191"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7683" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7683" bodyend="7688"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1aaee6e167f00b60127d6d75b6dc973896" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -405,7 +386,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8193" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8193" bodyend="8200"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7690" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7690" bodyend="7697"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -421,7 +402,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7914" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7914" bodyend="7914"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7428" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7428" bodyend="7428"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a096c7900ef97e2fccc93c52b3e2f4634" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
@@ -435,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7975" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7975" bodyend="7978"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7489" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7489" bodyend="7492"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -459,29 +440,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7998" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7998" bodyend="8003"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7512" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7512" bodyend="7517"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1abcb0ccc6076757722fbd0c3d2ab3101f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe implicit</type>
-        <definition>static unsafe implicit MR.Const_WholeEdgeMap.operator Const_WholeEdgeMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; v)</argsstring>
-        <name>operator Const_WholeEdgeMap</name>
-        <qualifiedname>MR.Const_WholeEdgeMap.operator Const_WholeEdgeMap</qualifiedname>
-        <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt;</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a501b0bc673152b4ea8b565a549a79576" kindref="member">MR.WholeEdgeMap.WholeEdgeMap</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8073" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8073" bodyend="8073"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a6cef7865d8131ba3f9e66db600f5b3f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>static unsafe bool MR.Const_WholeEdgeMap.operator==</definition>
@@ -503,7 +465,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8078" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8078" bodyend="8081"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7575" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7575" bodyend="7578"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a18d54500ba6c35deec91ab4c70a9b320" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -525,7 +487,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8083" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8083" bodyend="8086"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7580" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7580" bodyend="7583"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -545,7 +507,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8205" column="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7702" column="56"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1aa2279faecf8d997085d3d671b9419367" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.WholeEdgeMap._Underlying *</type>
@@ -567,7 +529,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8208" column="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7705" column="56"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a211b5d8d3a7c5af5400fc49c70bc47da" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.WholeEdgeMap._Underlying *</type>
@@ -589,25 +551,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8211" column="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a19198561ffdc94432c3aec6f1d832c0b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.WholeEdgeMap._Underlying *</type>
-        <definition>static unsafe MR.WholeEdgeMap._Underlying * MR.Const_WholeEdgeMap.__MR_WholeEdgeMap_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MREdgeId._Underlying *v)</argsstring>
-        <name>__MR_WholeEdgeMap_Construct_stdVector</name>
-        <qualifiedname>MR.Const_WholeEdgeMap.__MR_WholeEdgeMap_Construct_stdVector</qualifiedname>
-        <param>
-          <type>MR.Std.Vector_MREdgeId._Underlying *</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8214" column="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7708" column="56"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a184797581370a2d45a604fbc8a0a5407" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.WholeEdgeMap._Underlying *</type>
@@ -621,7 +565,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8217" column="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7711" column="56"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1afeeed7fbbdc6789cd8374e00c6f7ed2f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -639,7 +583,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8220" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7714" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a47be5cf650373da6372b2b64893c3102" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MREdgeId._Underlying *</type>
@@ -657,7 +601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8223" column="68"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7717" column="68"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a9978345a0e048458b2b204602d2e3d5c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
@@ -675,7 +619,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8226" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7720" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a4f043b810dd5cdea3ea3f8f10cd5cea7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
@@ -693,7 +637,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8229" column="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7723" column="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a0f8a84b4b9cb23fd07662072ef8fa362" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
@@ -711,7 +655,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8232" column="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7726" column="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1aecd15d68b7b76fcad191902856051e30" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -729,7 +673,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8235" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7729" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a3c4ace8e07f31e2ff5e922f91da3cbd5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
@@ -747,7 +691,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8238" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7732" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a7a20c4cb61e370fdf8306168dd05f443" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -765,7 +709,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8241" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7735" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1ac476621191f15862d4d5faf1c6cb3f9c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
@@ -783,7 +727,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8244" column="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7738" column="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a1e862765015e69338395abb2705189cf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
@@ -801,7 +745,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8247" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7741" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1af0f075e12f66df4247ad42e466cb8b3b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -819,7 +763,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8250" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7744" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a82e70420a842a0b3a0b4d3b728671dde" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
@@ -841,7 +785,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8253" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7747" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a55a6eef4add375e35ec5a91881a38ee0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -859,7 +803,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8256" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7750" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a7cee0e0c35c2b7bc4ef4cc9487d52533" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -881,7 +825,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8259" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7753" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -965,7 +909,7 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7900" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7901" bodyend="8260"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7414" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7415" bodyend="7754"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a7cee0e0c35c2b7bc4ef4cc9487d52533" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_equal_MR_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a9978345a0e048458b2b204602d2e3d5c" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_back</name></member>
@@ -974,7 +918,6 @@
       <member refid="classMR_1_1Const__WholeEdgeMap_1aecd15d68b7b76fcad191902856051e30" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_capacity</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a7e44627effc3fc9186e916a9659adbff" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Construct</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a211b5d8d3a7c5af5400fc49c70bc47da" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__WholeEdgeMap_1a19198561ffdc94432c3aec6f1d832c0b" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1aa2279faecf8d997085d3d671b9419367" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a3c4ace8e07f31e2ff5e922f91da3cbd5" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_data</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a184797581370a2d45a604fbc8a0a5407" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_DefaultConstruct</name></member>
@@ -997,7 +940,6 @@
       <member refid="classMR_1_1Const__WholeEdgeMap_1a131fba26df9a7ea9c93b5bf05db7d81b" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a3665808e7b59fb294949b9fdd066c5ff" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1ac40530ef1948738dbaefd570a5ce3e7e" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
-      <member refid="classMR_1_1Const__WholeEdgeMap_1ad4a4df12feaf5b6f3437461221a12da2" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1ae52860420681932a7411d933985e3211" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a3df9ebc95d914a5ea8c962ff127f7896" prot="protected" virt="virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1acd489f5caf37311c5deaef1ad9353c07" prot="public" virt="virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Dispose</name></member>
@@ -1009,7 +951,6 @@
       <member refid="classMR_1_1Const__WholeEdgeMap_1aa44c24cbcdd3ab6d2d5d98c11c37e145" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a096c7900ef97e2fccc93c52b3e2f4634" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1acb4882e147aa6939a7fc363f5a781953" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__WholeEdgeMap_1abcb0ccc6076757722fbd0c3d2ab3101f" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>operator Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a18d54500ba6c35deec91ab4c70a9b320" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a6cef7865d8131ba3f9e66db600f5b3f8" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a2a967d3df8ac4f16987d3537ea638bbd" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>size</name></member>

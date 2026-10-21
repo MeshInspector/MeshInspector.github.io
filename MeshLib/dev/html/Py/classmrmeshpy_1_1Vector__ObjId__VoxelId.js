@@ -3,7 +3,6 @@ var classmrmeshpy_1_1Vector__ObjId__VoxelId =
     [ "__init__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#ab0fb3f4ac002a1a4347636e5cdd3e986", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#ac326512d7b496f7fe8c3c76e3f551aba", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#ae8a7f438b065d8886fd5086ceebbbe91", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#a72c485efe1377cffea70cff0aeceefff", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#ac345ed2c64e2c4cefb25aab101eb3556", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#aed3a60967faa7758a6b5ecf2be7da0b9", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#a8a62bfc279d375894b1a14636b50d764", null ],
