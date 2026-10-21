@@ -1,5 +1,11 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1ObjVertId.html":[9,0,0,20,282],
+"structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html":[9,0,0,20,405],
+"structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html":[9,0,0,20,407],
+"structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html":[9,0,0,20,406],
+"structMR_1_1ObjectMeshData.html":[9,0,0,20,418],
+"structMR_1_1ObjectMeshMergeOptions.html":[9,0,0,20,417],
 "structMR_1_1ObjectSave_1_1Settings.html":[9,0,1,0,1,31,0],
 "structMR_1_1ObjectSave_1_1Settings.html":[9,0,2,0,2,19,0],
 "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html":[9,0,0,20,870],
@@ -243,11 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1RasterInfo.html#a36f891c8cd22da0d525bbbff20782d0f":[9,0,0,18,0,0,4],
 "structMR_1_1RasterInfo.html#a88d0fd0db990df1d00fb625ccfb8fdcf":[9,0,0,18,0,0,1],
 "structMR_1_1RasterInfo.html#a8c02308e5d77f79bb7b5d6e2090a6273":[9,0,0,18,0,0,2],
-"structMR_1_1RasterInfo.html#ae6e6b33190a6ad4ff0fc9af5e2664d4d":[9,0,0,18,0,0,3],
-"structMR_1_1RasterLoadSettings.html":[9,0,0,18,0,2],
-"structMR_1_1RasterLoadSettings.html#a1489b5970837ecb1c1e1d14e59dcd27c":[9,0,0,18,0,2,0],
-"structMR_1_1RasterLoadSettings.html#ac90b0db79dd8dbe777a53e0e10528860":[9,0,0,18,0,2,1],
-"structMR_1_1RasterLoad_1_1RasterLoader.html":[9,0,1,0,1,40,0],
-"structMR_1_1RasterLoad_1_1RasterLoader.html":[9,0,2,0,2,25,0],
-"structMR_1_1RasterLoad_1_1RasterLoader.html#a1144daaa14a34e9a7eb038d91217c799":[9,0,1,0,1,40,0,1]
+"structMR_1_1RasterInfo.html#ae6e6b33190a6ad4ff0fc9af5e2664d4d":[9,0,0,18,0,0,3]
 };

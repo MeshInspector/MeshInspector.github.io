@@ -173,6 +173,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a522013cfd85ccf7b683aa24a32c86556"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a211dfd68e26313760d65585cc9cbf19f" title="Constructs an empty (default-constructed) instance.">MR.Triangulation.Triangulation</a></span>.  <br /></td></tr>
 <tr class="memitem:af3773cdc1e54e4e0f8e878c6f0553286" id="r_af3773cdc1e54e4e0f8e878c6f0553286"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Triangulation.html">MR.Triangulation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3773cdc1e54e4e0f8e878c6f0553286">assign</a> (MR._ByValue_Triangulation _other)</td></tr>
 <tr class="memdesc:af3773cdc1e54e4e0f8e878c6f0553286"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Triangulation::operator=</span>.  <br /></td></tr>
+<tr class="memitem:aa803a7c2217062567af715d77eb9cdb6" id="r_aa803a7c2217062567af715d77eb9cdb6"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa803a7c2217062567af715d77eb9cdb6">assign</a> (nuint count, in MR.Std.Array_MRVertId_3 val)</td></tr>
+<tr class="memdesc:aa803a7c2217062567af715d77eb9cdb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#af3773cdc1e54e4e0f8e878c6f0553286" title="Generated from method MR.Triangulation.operator=.">MR.Triangulation.assign</a></span>.  <br /></td></tr>
 <tr class="memitem:adbc8a3e665e881c44012bd6fedd994a9" id="r_adbc8a3e665e881c44012bd6fedd994a9"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbc8a3e665e881c44012bd6fedd994a9">clear</a> ()</td></tr>
 <tr class="memdesc:adbc8a3e665e881c44012bd6fedd994a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#adbc8a3e665e881c44012bd6fedd994a9" title="Generated from method MR.Triangulation.clear.">MR.Triangulation.clear</a></span>.  <br /></td></tr>
 <tr class="memitem:a9af2387707597bdcfc511276c817f752" id="r_a9af2387707597bdcfc511276c817f752"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9af2387707597bdcfc511276c817f752">resize</a> (nuint newSize)</td></tr>
@@ -199,12 +201,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a82c4e01775a7e3bba729c5cb189154d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Triangulation::push_back</span>.  <br /></td></tr>
 <tr class="memitem:a05b6d0e3e6f7959f0e5806d45edeafb5" id="r_a05b6d0e3e6f7959f0e5806d45edeafb5"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05b6d0e3e6f7959f0e5806d45edeafb5">popBack</a> ()</td></tr>
 <tr class="memdesc:a05b6d0e3e6f7959f0e5806d45edeafb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Triangulation::pop_back</span>.  <br /></td></tr>
+<tr class="memitem:a556e9615f9f52136d8a25fd68189af3f" id="r_a556e9615f9f52136d8a25fd68189af3f"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_StdArrayMRVertId3.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a556e9615f9f52136d8a25fd68189af3f">insert</a> (MR.Std.Vector_StdArrayMRVertId3.Const_ConstIterator pos, in MR.Std.Array_MRVertId_3 t)</td></tr>
+<tr class="memdesc:a556e9615f9f52136d8a25fd68189af3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">inserts <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#a556e9615f9f52136d8a25fd68189af3f" title="inserts t before pos Generated from method MR.Triangulation.insert.">MR.Triangulation.insert</a></span>.  <br /></td></tr>
+<tr class="memitem:adf03eb8815fb5dbf2762eb7fb06b9ebb" id="r_adf03eb8815fb5dbf2762eb7fb06b9ebb"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_StdArrayMRVertId3.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf03eb8815fb5dbf2762eb7fb06b9ebb">insert</a> (MR.Std.Vector_StdArrayMRVertId3.Const_ConstIterator pos, MR.Misc._MoveRef _move_t, in MR.Std.Array_MRVertId_3 t)</td></tr>
+<tr class="memdesc:adf03eb8815fb5dbf2762eb7fb06b9ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a556e9615f9f52136d8a25fd68189af3f" title="inserts t before pos Generated from method MR.Triangulation.insert.">MR.Triangulation.insert</a></span>.  <br /></td></tr>
+<tr class="memitem:acfe6b12dd8b42f14004f5bb91155a3bd" id="r_acfe6b12dd8b42f14004f5bb91155a3bd"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_StdArrayMRVertId3.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfe6b12dd8b42f14004f5bb91155a3bd">insert</a> (MR.Std.Vector_StdArrayMRVertId3.Const_ConstIterator pos, nuint count, in MR.Std.Array_MRVertId_3 t)</td></tr>
+<tr class="memdesc:acfe6b12dd8b42f14004f5bb91155a3bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">inserts <code class="param">count</code> copies of <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#a556e9615f9f52136d8a25fd68189af3f" title="inserts t before pos Generated from method MR.Triangulation.insert.">MR.Triangulation.insert</a></span>.  <br /></td></tr>
+<tr class="memitem:a33744240e3d27229912eb9de6a6766cf" id="r_a33744240e3d27229912eb9de6a6766cf"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_StdArrayMRVertId3.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33744240e3d27229912eb9de6a6766cf">erase</a> (MR.Std.Vector_StdArrayMRVertId3.Const_ConstIterator pos)</td></tr>
+<tr class="memdesc:a33744240e3d27229912eb9de6a6766cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the element at <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#a33744240e3d27229912eb9de6a6766cf" title="removes the element at pos Generated from method MR.Triangulation.erase.">MR.Triangulation.erase</a></span>.  <br /></td></tr>
+<tr class="memitem:a1e15ed7034fa08cf48b7d0b652c9158b" id="r_a1e15ed7034fa08cf48b7d0b652c9158b"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_StdArrayMRVertId3.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e15ed7034fa08cf48b7d0b652c9158b">erase</a> (MR.Std.Vector_StdArrayMRVertId3.Const_ConstIterator first, MR.Std.Vector_StdArrayMRVertId3.Const_ConstIterator last)</td></tr>
+<tr class="memdesc:a1e15ed7034fa08cf48b7d0b652c9158b"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the elements in range [first, last) Generated from method <span class="tt"><a class="el" href="#a33744240e3d27229912eb9de6a6766cf" title="removes the element at pos Generated from method MR.Triangulation.erase.">MR.Triangulation.erase</a></span>.  <br /></td></tr>
 <tr class="memitem:afb73ceaa588c35df81c37b0c3d9392e7" id="r_afb73ceaa588c35df81c37b0c3d9392e7"><td class="memItemLeft" align="right" valign="top">unsafe new ref MR.Std.Array_MRVertId_3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb73ceaa588c35df81c37b0c3d9392e7">front</a> ()</td></tr>
 <tr class="memdesc:afb73ceaa588c35df81c37b0c3d9392e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#afb73ceaa588c35df81c37b0c3d9392e7" title="Generated from method MR.Triangulation.front.">MR.Triangulation.front</a></span>.  <br /></td></tr>
 <tr class="memitem:a87c15e79c4b75b38fd508e2991ed92ed" id="r_a87c15e79c4b75b38fd508e2991ed92ed"><td class="memItemLeft" align="right" valign="top">unsafe new ref MR.Std.Array_MRVertId_3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87c15e79c4b75b38fd508e2991ed92ed">back</a> ()</td></tr>
 <tr class="memdesc:a87c15e79c4b75b38fd508e2991ed92ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a87c15e79c4b75b38fd508e2991ed92ed" title="Generated from method MR.Triangulation.back.">MR.Triangulation.back</a></span>.  <br /></td></tr>
 <tr class="memitem:a509d2efa68cf3f0b726ab85689607c6e" id="r_a509d2efa68cf3f0b726ab85689607c6e"><td class="memItemLeft" align="right" valign="top">unsafe new MR.Misc.? Ref&lt; MR.Std.Array_MRVertId_3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a509d2efa68cf3f0b726ab85689607c6e">data</a> ()</td></tr>
 <tr class="memdesc:a509d2efa68cf3f0b726ab85689607c6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a509d2efa68cf3f0b726ab85689607c6e" title="Generated from method MR.Triangulation.data.">MR.Triangulation.data</a></span>.  <br /></td></tr>
+<tr class="memitem:ad46dd34a31d5d8604501dbbf7ac669ea" id="r_ad46dd34a31d5d8604501dbbf7ac669ea"><td class="memItemLeft" align="right" valign="top">unsafe new MR.Std.Vector_StdArrayMRVertId3.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad46dd34a31d5d8604501dbbf7ac669ea">begin</a> ()</td></tr>
+<tr class="memdesc:ad46dd34a31d5d8604501dbbf7ac669ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ad46dd34a31d5d8604501dbbf7ac669ea" title="Generated from method MR.Triangulation.begin.">MR.Triangulation.begin</a></span>.  <br /></td></tr>
+<tr class="memitem:a4e066a0c90222bdb7b92230553d02a0e" id="r_a4e066a0c90222bdb7b92230553d02a0e"><td class="memItemLeft" align="right" valign="top">unsafe new MR.Std.Vector_StdArrayMRVertId3.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e066a0c90222bdb7b92230553d02a0e">end</a> ()</td></tr>
+<tr class="memdesc:a4e066a0c90222bdb7b92230553d02a0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a4e066a0c90222bdb7b92230553d02a0e" title="Generated from method MR.Triangulation.end.">MR.Triangulation.end</a></span>.  <br /></td></tr>
 <tr class="memitem:adefb8a21ca6123e4215c2a9e18e9a61a" id="r_adefb8a21ca6123e4215c2a9e18e9a61a"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adefb8a21ca6123e4215c2a9e18e9a61a">swap</a> (<a class="el" href="classMR_1_1Triangulation.html">MR.Triangulation</a> b)</td></tr>
 <tr class="memdesc:adefb8a21ca6123e4215c2a9e18e9a61a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#adefb8a21ca6123e4215c2a9e18e9a61a" title="Generated from method MR.Triangulation.swap.">MR.Triangulation.swap</a></span>.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1Const__Triangulation"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1Const__Triangulation')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1Const__Triangulation.html">MR.Const_Triangulation</a></td></tr>
@@ -226,6 +242,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a95ebe235d988e0d0a789cd66bc92b8f4 inherit pub_methods_classMR_1_1Const__Triangulation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__Triangulation.html#a95ebe235d988e0d0a789cd66bc92b8f4" title="Generated from method MR.Triangulation.empty.">MR.Triangulation.empty</a></span>.  <br /></td></tr>
 <tr class="memitem:a2fdc6fff56bfe359e919939dab0dc3a4 inherit pub_methods_classMR_1_1Const__Triangulation" id="r_a2fdc6fff56bfe359e919939dab0dc3a4"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Triangulation.html#a2fdc6fff56bfe359e919939dab0dc3a4">size</a> ()</td></tr>
 <tr class="memdesc:a2fdc6fff56bfe359e919939dab0dc3a4 inherit pub_methods_classMR_1_1Const__Triangulation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__Triangulation.html#a2fdc6fff56bfe359e919939dab0dc3a4" title="Generated from method MR.Triangulation.size.">MR.Triangulation.size</a></span>.  <br /></td></tr>
+<tr class="memitem:a9287d86a43b68b491cf9707c089153b8 inherit pub_methods_classMR_1_1Const__Triangulation" id="r_a9287d86a43b68b491cf9707c089153b8"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Triangulation.html#a9287d86a43b68b491cf9707c089153b8">maxSize</a> ()</td></tr>
+<tr class="memdesc:a9287d86a43b68b491cf9707c089153b8 inherit pub_methods_classMR_1_1Const__Triangulation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Triangulation::max_size</span>.  <br /></td></tr>
 <tr class="memitem:ac29890b89fca2c6f233aa9830fc33225 inherit pub_methods_classMR_1_1Const__Triangulation" id="r_ac29890b89fca2c6f233aa9830fc33225"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Triangulation.html#ac29890b89fca2c6f233aa9830fc33225">capacity</a> ()</td></tr>
 <tr class="memdesc:ac29890b89fca2c6f233aa9830fc33225 inherit pub_methods_classMR_1_1Const__Triangulation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__Triangulation.html#ac29890b89fca2c6f233aa9830fc33225" title="Generated from method MR.Triangulation.capacity.">MR.Triangulation.capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:a4b50d26fd62467b2f1ee275d2383cf96 inherit pub_methods_classMR_1_1Const__Triangulation" id="r_a4b50d26fd62467b2f1ee275d2383cf96"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly MR.Std.Array_MRVertId_3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Triangulation.html#a4b50d26fd62467b2f1ee275d2383cf96">front</a> ()</td></tr>
@@ -240,6 +258,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac79e0ddef93511c73f5fb54c0cb4264e inherit pub_methods_classMR_1_1Const__Triangulation"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="classMR_1_1Const__Triangulation.html#a86d458fb73ad93939df866eda7eda4f6" title="returns the identifier of the back() element Generated from method MR.Triangulation....">backId()</a> + 1 Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__Triangulation.html#ac79e0ddef93511c73f5fb54c0cb4264e" title="returns backId() + 1 Generated from method MR.Triangulation.endId.">MR.Triangulation.endId</a></span>.  <br /></td></tr>
 <tr class="memitem:a56a2ee4a68191de116aba5b0274ade20 inherit pub_methods_classMR_1_1Const__Triangulation" id="r_a56a2ee4a68191de116aba5b0274ade20"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.? Array_MRVertId_3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Triangulation.html#a56a2ee4a68191de116aba5b0274ade20">data</a> ()</td></tr>
 <tr class="memdesc:a56a2ee4a68191de116aba5b0274ade20 inherit pub_methods_classMR_1_1Const__Triangulation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a509d2efa68cf3f0b726ab85689607c6e" title="Generated from method MR.Triangulation.data.">MR.Triangulation.data</a></span>.  <br /></td></tr>
+<tr class="memitem:af7fa8c506e9d6679cf81106219285eab inherit pub_methods_classMR_1_1Const__Triangulation" id="r_af7fa8c506e9d6679cf81106219285eab"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_StdArrayMRVertId3.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Triangulation.html#af7fa8c506e9d6679cf81106219285eab">begin</a> ()</td></tr>
+<tr class="memdesc:af7fa8c506e9d6679cf81106219285eab inherit pub_methods_classMR_1_1Const__Triangulation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ad46dd34a31d5d8604501dbbf7ac669ea" title="Generated from method MR.Triangulation.begin.">MR.Triangulation.begin</a></span>.  <br /></td></tr>
+<tr class="memitem:a50a59ab655d4c057ca872596abe0ab70 inherit pub_methods_classMR_1_1Const__Triangulation" id="r_a50a59ab655d4c057ca872596abe0ab70"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_StdArrayMRVertId3.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Triangulation.html#a50a59ab655d4c057ca872596abe0ab70">cbegin</a> ()</td></tr>
+<tr class="memdesc:a50a59ab655d4c057ca872596abe0ab70 inherit pub_methods_classMR_1_1Const__Triangulation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__Triangulation.html#a50a59ab655d4c057ca872596abe0ab70" title="Generated from method MR.Triangulation.cbegin.">MR.Triangulation.cbegin</a></span>.  <br /></td></tr>
+<tr class="memitem:a7cffcf0657a8ade75a333d1481b56fe5 inherit pub_methods_classMR_1_1Const__Triangulation" id="r_a7cffcf0657a8ade75a333d1481b56fe5"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_StdArrayMRVertId3.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Triangulation.html#a7cffcf0657a8ade75a333d1481b56fe5">end</a> ()</td></tr>
+<tr class="memdesc:a7cffcf0657a8ade75a333d1481b56fe5 inherit pub_methods_classMR_1_1Const__Triangulation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a4e066a0c90222bdb7b92230553d02a0e" title="Generated from method MR.Triangulation.end.">MR.Triangulation.end</a></span>.  <br /></td></tr>
+<tr class="memitem:af8076e56cd3ce639d9382a5b24903796 inherit pub_methods_classMR_1_1Const__Triangulation" id="r_af8076e56cd3ce639d9382a5b24903796"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_StdArrayMRVertId3.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Triangulation.html#af8076e56cd3ce639d9382a5b24903796">cend</a> ()</td></tr>
+<tr class="memdesc:af8076e56cd3ce639d9382a5b24903796 inherit pub_methods_classMR_1_1Const__Triangulation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__Triangulation.html#af8076e56cd3ce639d9382a5b24903796" title="Generated from method MR.Triangulation.cend.">MR.Triangulation.cend</a></span>.  <br /></td></tr>
 <tr class="memitem:aad841c052f78d6bd218b54c815a5ffc7 inherit pub_methods_classMR_1_1Const__Triangulation" id="r_aad841c052f78d6bd218b54c815a5ffc7"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Triangulation.html#aad841c052f78d6bd218b54c815a5ffc7">heapBytes</a> ()</td></tr>
 <tr class="memdesc:aad841c052f78d6bd218b54c815a5ffc7 inherit pub_methods_classMR_1_1Const__Triangulation"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__Triangulation.html#aad841c052f78d6bd218b54c815a5ffc7" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.Triangulation.heapBytes</a></span>.  <br /></td></tr>
 <tr class="memitem:ab7fedf775219eb938851b8462c2a9048 inherit pub_methods_classMR_1_1Const__Triangulation" id="r_ab7fedf775219eb938851b8462c2a9048"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Triangulation.html#ab7fedf775219eb938851b8462c2a9048">Equals</a> (<a class="el" href="classMR_1_1Const__Triangulation.html">MR.Const_Triangulation</a>? b)</td></tr>
@@ -444,7 +470,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="af3773cdc1e54e4e0f8e878c6f0553286" name="af3773cdc1e54e4e0f8e878c6f0553286"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3773cdc1e54e4e0f8e878c6f0553286">&#9670;&#160;</a></span>assign()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af3773cdc1e54e4e0f8e878c6f0553286">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -467,6 +493,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::Triangulation::operator=</span>. </p>
+
+</div>
+</div>
+<a id="aa803a7c2217062567af715d77eb9cdb6" name="aa803a7c2217062567af715d77eb9cdb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa803a7c2217062567af715d77eb9cdb6">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.Triangulation.assign </td>
+          <td>(</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in MR.Std.Array_MRVertId_3</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#af3773cdc1e54e4e0f8e878c6f0553286" title="Generated from method MR.Triangulation.operator=.">MR.Triangulation.assign</a></span>. </p>
 
 </div>
 </div>
@@ -591,6 +648,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ad46dd34a31d5d8604501dbbf7ac669ea" name="ad46dd34a31d5d8604501dbbf7ac669ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad46dd34a31d5d8604501dbbf7ac669ea">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe new MR.Std.Vector_StdArrayMRVertId3.Iterator MR.Triangulation.begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt"><a class="el" href="#ad46dd34a31d5d8604501dbbf7ac669ea" title="Generated from method MR.Triangulation.begin.">MR.Triangulation.begin</a></span>. </p>
+
+</div>
+</div>
 <a id="adbc8a3e665e881c44012bd6fedd994a9" name="adbc8a3e665e881c44012bd6fedd994a9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adbc8a3e665e881c44012bd6fedd994a9">&#9670;&#160;</a></span>clear()</h2>
 
@@ -645,6 +729,91 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a4e066a0c90222bdb7b92230553d02a0e" name="a4e066a0c90222bdb7b92230553d02a0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e066a0c90222bdb7b92230553d02a0e">&#9670;&#160;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe new MR.Std.Vector_StdArrayMRVertId3.Iterator MR.Triangulation.end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt"><a class="el" href="#a4e066a0c90222bdb7b92230553d02a0e" title="Generated from method MR.Triangulation.end.">MR.Triangulation.end</a></span>. </p>
+
+</div>
+</div>
+<a id="a1e15ed7034fa08cf48b7d0b652c9158b" name="a1e15ed7034fa08cf48b7d0b652c9158b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e15ed7034fa08cf48b7d0b652c9158b">&#9670;&#160;</a></span>erase() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_StdArrayMRVertId3.Iterator MR.Triangulation.erase </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_StdArrayMRVertId3.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Vector_StdArrayMRVertId3.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>last</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes the elements in range [first, last) Generated from method <span class="tt"><a class="el" href="#a33744240e3d27229912eb9de6a6766cf" title="removes the element at pos Generated from method MR.Triangulation.erase.">MR.Triangulation.erase</a></span>. </p>
+
+</div>
+</div>
+<a id="a33744240e3d27229912eb9de6a6766cf" name="a33744240e3d27229912eb9de6a6766cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33744240e3d27229912eb9de6a6766cf">&#9670;&#160;</a></span>erase() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_StdArrayMRVertId3.Iterator MR.Triangulation.erase </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_StdArrayMRVertId3.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes the element at <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#a33744240e3d27229912eb9de6a6766cf" title="removes the element at pos Generated from method MR.Triangulation.erase.">MR.Triangulation.erase</a></span>. </p>
+
+</div>
+</div>
 <a id="afb73ceaa588c35df81c37b0c3d9392e7" name="afb73ceaa588c35df81c37b0c3d9392e7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afb73ceaa588c35df81c37b0c3d9392e7">&#9670;&#160;</a></span>front()</h2>
 
@@ -694,6 +863,109 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a556e9615f9f52136d8a25fd68189af3f" name="a556e9615f9f52136d8a25fd68189af3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a556e9615f9f52136d8a25fd68189af3f">&#9670;&#160;</a></span>insert() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_StdArrayMRVertId3.Iterator MR.Triangulation.insert </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_StdArrayMRVertId3.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in MR.Std.Array_MRVertId_3</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>inserts <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#a556e9615f9f52136d8a25fd68189af3f" title="inserts t before pos Generated from method MR.Triangulation.insert.">MR.Triangulation.insert</a></span>. </p>
+
+</div>
+</div>
+<a id="adf03eb8815fb5dbf2762eb7fb06b9ebb" name="adf03eb8815fb5dbf2762eb7fb06b9ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf03eb8815fb5dbf2762eb7fb06b9ebb">&#9670;&#160;</a></span>insert() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_StdArrayMRVertId3.Iterator MR.Triangulation.insert </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_StdArrayMRVertId3.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Misc._MoveRef</td>          <td class="paramname"><span class="paramname"><em>_move_t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in MR.Std.Array_MRVertId_3</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt"><a class="el" href="#a556e9615f9f52136d8a25fd68189af3f" title="inserts t before pos Generated from method MR.Triangulation.insert.">MR.Triangulation.insert</a></span>. </p>
+
+</div>
+</div>
+<a id="acfe6b12dd8b42f14004f5bb91155a3bd" name="acfe6b12dd8b42f14004f5bb91155a3bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfe6b12dd8b42f14004f5bb91155a3bd">&#9670;&#160;</a></span>insert() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_StdArrayMRVertId3.Iterator MR.Triangulation.insert </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_StdArrayMRVertId3.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in MR.Std.Array_MRVertId_3</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>inserts <code class="param">count</code> copies of <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#a556e9615f9f52136d8a25fd68189af3f" title="inserts t before pos Generated from method MR.Triangulation.insert.">MR.Triangulation.insert</a></span>. </p>
 
 </div>
 </div>

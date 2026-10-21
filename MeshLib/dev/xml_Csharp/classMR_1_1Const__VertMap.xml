@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4183" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4183" bodyend="4183"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5065" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5065" bodyend="5065"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__VertMap_1afd72136e0d6547fbabf39ad504fd3d6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4298" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4299" bodyend="4304"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5188" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5189" bodyend="5194"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4106" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4106" bodyend="4112"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4988" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4988" bodyend="4994"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4113" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4113" bodyend="4113"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4995" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4995" bodyend="4995"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1abf779cc145a625bf7845799480dd3fe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> &gt; &gt;</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4170" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4170" bodyend="4173"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5052" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5052" bodyend="5055"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1acec8d39f802a5bd538ab4a10b9f98121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4209" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4209" bodyend="4213"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5091" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5091" bodyend="5095"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1ace7c865d0d7a3b9f8fa231620146f19c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4218" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4218" bodyend="4223"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5100" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5100" bodyend="5105"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a6ab53f826b744d1b58bb5a5f34bfec0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4228" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4228" bodyend="4228"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5110" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5110" bodyend="5110"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a2e1c4af561f70f33eb353e95a948148e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4233" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4233" bodyend="4233"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5115" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5115" bodyend="5115"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a37b1b62e6e689c7c2bcb1b86359b59ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4239" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4239" bodyend="4243"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5121" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5121" bodyend="5125"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a813e3ac5a2d6b85b9588f595955fb61e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4249" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4249" bodyend="4256"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5131" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5131" bodyend="5138"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a13080a3ee8d15715a75e1c4e778a5277" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -215,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4274" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4274" bodyend="4277"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5156" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5156" bodyend="5159"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1ab78fdf8907848042a0b2442348d02bf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -230,7 +230,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4282" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4282" bodyend="4285"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5164" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5164" bodyend="5167"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1ace0e1c6225f7f894540a41cf1a7a1d7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_VertMap.maxSize</definition>
+        <argsstring>()</argsstring>
+        <name>maxSize</name>
+        <qualifiedname>MR.Const_VertMap.maxSize</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VertMap::max_size</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5172" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5172" bodyend="5175"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a8264d8cf13ae4810d7a110707a23e492" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -245,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4290" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4290" bodyend="4293"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5180" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5180" bodyend="5183"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1afa76033715eff2905577c7da3f895371" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -260,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4309" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4309" bodyend="4312"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5199" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5199" bodyend="5202"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a5fc2a00f8672dfacdbd3a043814233b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -275,7 +290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4317" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4317" bodyend="4320"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5207" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5207" bodyend="5210"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a21c116ca03a80416c1899f88a4ea4176" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -290,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4326" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4326" bodyend="4329"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5216" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5216" bodyend="5219"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a35ae652ddf4af50c0221221374f5e3da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -305,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4335" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4335" bodyend="4338"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5225" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5225" bodyend="5228"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a11c2e90acdf43dd0d185bf1780e3eb83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -320,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4344" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4344" bodyend="4347"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5234" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5234" bodyend="5237"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1ac5b06c910ff7245545a064d109f6badd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.? <ref refid="structMR_1_1VertId" kindref="compound">VertId</ref></type>
@@ -335,7 +350,67 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4352" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4352" bodyend="4356"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5242" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5242" bodyend="5246"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a7d329a9e2cf5f1347eadf9b40479b090" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVertId.ConstIterator</type>
+        <definition>unsafe MR.Std.Vector_MRVertId.ConstIterator MR.Const_VertMap.begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR.Const_VertMap.begin</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertMap_1a05cd04848ecff81e04220b9d9cda21d2" kindref="member">MR.VertMap.begin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5251" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5251" bodyend="5257"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1aa5bfa5aac36a94cfb2cbc0ad83485a77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVertId.ConstIterator</type>
+        <definition>unsafe MR.Std.Vector_MRVertId.ConstIterator MR.Const_VertMap.cbegin</definition>
+        <argsstring>()</argsstring>
+        <name>cbegin</name>
+        <qualifiedname>MR.Const_VertMap.cbegin</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1aa5bfa5aac36a94cfb2cbc0ad83485a77" kindref="member">MR.VertMap.cbegin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5262" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5262" bodyend="5268"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1ad425970481a43bf996f0acf02188e7da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVertId.ConstIterator</type>
+        <definition>unsafe MR.Std.Vector_MRVertId.ConstIterator MR.Const_VertMap.end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <qualifiedname>MR.Const_VertMap.end</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertMap_1a4f862d157e534a037a3a2108b676a904" kindref="member">MR.VertMap.end</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5273" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5273" bodyend="5279"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a397320afc24de7958da710ed3e387030" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVertId.ConstIterator</type>
+        <definition>unsafe MR.Std.Vector_MRVertId.ConstIterator MR.Const_VertMap.cend</definition>
+        <argsstring>()</argsstring>
+        <name>cend</name>
+        <qualifiedname>MR.Const_VertMap.cend</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1a397320afc24de7958da710ed3e387030" kindref="member">MR.VertMap.cend</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5284" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5284" bodyend="5290"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a52d248d5543e99e904c1372ff58831f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -350,7 +425,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4362" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4362" bodyend="4365"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5296" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5296" bodyend="5299"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a5413dfcdba1f71b9aca80e55647880c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -368,7 +443,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4369" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4369" bodyend="4374"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5303" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5303" bodyend="5308"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1ab4a08557fb262260a79f9103140088d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -386,7 +461,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4376" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4376" bodyend="4383"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5310" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5310" bodyend="5317"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -402,7 +477,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4114" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4114" bodyend="4114"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4996" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4996" bodyend="4996"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1af4d6b080c133ec7274059def256c0026" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
@@ -416,7 +491,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4175" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4175" bodyend="4178"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5057" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5057" bodyend="5060"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -440,7 +515,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4198" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4198" bodyend="4203"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5080" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5080" bodyend="5085"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -465,7 +540,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4261" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4261" bodyend="4264"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5143" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5143" bodyend="5146"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a3233a5a27da5738b761137fe0a78c4c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -487,7 +562,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4266" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4266" bodyend="4269"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5148" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5148" bodyend="5151"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -507,7 +582,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4388" column="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5322" column="51"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a9c9e49d44f567f49e5eb483a225e924a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertMap._Underlying *</type>
@@ -529,7 +604,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4391" column="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5325" column="51"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a7feb9d039a14bc82093f5493c17bab9c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertMap._Underlying *</type>
@@ -551,7 +626,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4394" column="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5328" column="51"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a8363350170fa5132845c8a3877d6708b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertMap._Underlying *</type>
@@ -565,7 +640,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4397" column="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5331" column="51"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a4ef99cb640a64a279dc857a3fe87444d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -583,7 +658,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4400" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5334" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a8436963a9458d800f225914bd09b4d8d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MRVertId._Underlying *</type>
@@ -601,7 +676,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4403" column="68"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5337" column="68"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a42081550533c283a819be246b1d90d06" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> *</type>
@@ -619,7 +694,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4406" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5340" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a32e8980b8a72515480005c140b0d2206" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -637,7 +712,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4409" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5343" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1aa603b209d7ebcbd5d4acd5e46f2f0b23" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVertId.ConstIterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_MRVertId.ConstIterator._Underlying * MR.Const_VertMap.__MR_VertMap_begin</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VertMap_begin</name>
+        <qualifiedname>MR.Const_VertMap.__MR_VertMap_begin</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5346" column="75"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1aafbd1a885a73c116629a1875bfde1cd1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -655,7 +748,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4412" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5349" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a3b4ee8c59bd52b64868c15a69d19fbd4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -673,7 +766,43 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4415" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5352" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1aa534deb8827d5bdd6a9f1e306567c418" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVertId.ConstIterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_MRVertId.ConstIterator._Underlying * MR.Const_VertMap.__MR_VertMap_cbegin</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VertMap_cbegin</name>
+        <qualifiedname>MR.Const_VertMap.__MR_VertMap_cbegin</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5355" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a3ce7851b6b49745aa72d4187253245d0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVertId.ConstIterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_MRVertId.ConstIterator._Underlying * MR.Const_VertMap.__MR_VertMap_cend</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VertMap_cend</name>
+        <qualifiedname>MR.Const_VertMap.__MR_VertMap_cend</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5358" column="75"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a3e63eab8daf4fb87ca0dde617925548b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> *</type>
@@ -691,7 +820,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4418" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5361" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a2ea584cf4b25a08b73f781bf0b1f0bb0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -709,7 +838,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4421" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5364" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a3ba3bbc9492b24572166d016f3a7149c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVertId.ConstIterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_MRVertId.ConstIterator._Underlying * MR.Const_VertMap.__MR_VertMap_end</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VertMap_end</name>
+        <qualifiedname>MR.Const_VertMap.__MR_VertMap_end</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5367" column="75"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1ac1c31a7bc4a229e6ff220e1381470119" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -727,7 +874,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4424" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5370" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1aca25fe2b5018818a0a3c48147b51a9b0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> *</type>
@@ -745,7 +892,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4427" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5373" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a5665494fbcba8a7f0b2ba2107ef0a9b2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -763,7 +910,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4430" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5376" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a9fa5fbba4ad1ccebc84eaa6ece60a7d3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> *</type>
@@ -785,7 +932,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4433" column="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5379" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a8717505d19579f0f2298b8a7c5cb1e90" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Const_VertMap.__MR_VertMap_max_size</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VertMap_max_size</name>
+        <qualifiedname>MR.Const_VertMap.__MR_VertMap_max_size</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5382" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1acae048a4a30d1530186f15bf8edeb75c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -803,7 +968,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4436" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5385" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertMap_1a8f994ac06d0eadb8fca981b8b7734a46" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -825,7 +990,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4439" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5388" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -909,13 +1074,16 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4100" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4101" bodyend="4440"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4982" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4983" bodyend="5389"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__VertMap_1a8f994ac06d0eadb8fca981b8b7734a46" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_equal_MR_VertMap</name></member>
       <member refid="classMR_1_1Const__VertMap_1a42081550533c283a819be246b1d90d06" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_back</name></member>
       <member refid="classMR_1_1Const__VertMap_1a32e8980b8a72515480005c140b0d2206" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_backId</name></member>
+      <member refid="classMR_1_1Const__VertMap_1aa603b209d7ebcbd5d4acd5e46f2f0b23" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_begin</name></member>
       <member refid="classMR_1_1Const__VertMap_1aafbd1a885a73c116629a1875bfde1cd1" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_beginId</name></member>
       <member refid="classMR_1_1Const__VertMap_1a3b4ee8c59bd52b64868c15a69d19fbd4" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_capacity</name></member>
+      <member refid="classMR_1_1Const__VertMap_1aa534deb8827d5bdd6a9f1e306567c418" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_cbegin</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a3ce7851b6b49745aa72d4187253245d0" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_cend</name></member>
       <member refid="classMR_1_1Const__VertMap_1a764ce3bec4302c0fdb1b620a88197387" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_Construct</name></member>
       <member refid="classMR_1_1Const__VertMap_1a7feb9d039a14bc82093f5493c17bab9c" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_Construct_fill</name></member>
       <member refid="classMR_1_1Const__VertMap_1a9c9e49d44f567f49e5eb483a225e924a" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_ConstructFromAnother</name></member>
@@ -923,16 +1091,21 @@
       <member refid="classMR_1_1Const__VertMap_1a8363350170fa5132845c8a3877d6708b" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__VertMap_1a4ef99cb640a64a279dc857a3fe87444d" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_Destroy</name></member>
       <member refid="classMR_1_1Const__VertMap_1a2ea584cf4b25a08b73f781bf0b1f0bb0" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_empty</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a3ba3bbc9492b24572166d016f3a7149c" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_end</name></member>
       <member refid="classMR_1_1Const__VertMap_1ac1c31a7bc4a229e6ff220e1381470119" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_endId</name></member>
       <member refid="classMR_1_1Const__VertMap_1aca25fe2b5018818a0a3c48147b51a9b0" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_front</name></member>
       <member refid="classMR_1_1Const__VertMap_1a8436963a9458d800f225914bd09b4d8d" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_Get_vec</name></member>
       <member refid="classMR_1_1Const__VertMap_1a5665494fbcba8a7f0b2ba2107ef0a9b2" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_heapBytes</name></member>
       <member refid="classMR_1_1Const__VertMap_1a9fa5fbba4ad1ccebc84eaa6ece60a7d3" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_index</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a8717505d19579f0f2298b8a7c5cb1e90" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_max_size</name></member>
       <member refid="classMR_1_1Const__VertMap_1acae048a4a30d1530186f15bf8edeb75c" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>__MR_VertMap_size</name></member>
       <member refid="classMR_1_1Const__VertMap_1a5fc2a00f8672dfacdbd3a043814233b0" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>back</name></member>
       <member refid="classMR_1_1Const__VertMap_1a35ae652ddf4af50c0221221374f5e3da" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a7d329a9e2cf5f1347eadf9b40479b090" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>begin</name></member>
       <member refid="classMR_1_1Const__VertMap_1a21c116ca03a80416c1899f88a4ea4176" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>beginId</name></member>
       <member refid="classMR_1_1Const__VertMap_1a8264d8cf13ae4810d7a110707a23e492" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__VertMap_1aa5bfa5aac36a94cfb2cbc0ad83485a77" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>cbegin</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a397320afc24de7958da710ed3e387030" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>cend</name></member>
       <member refid="classMR_1_1Const__VertMap_1a823fc2f63052ded4cfc686ae5ff2c661" prot="package" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
       <member refid="classMR_1_1Const__VertMap_1acec8d39f802a5bd538ab4a10b9f98121" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
       <member refid="classMR_1_1Const__VertMap_1ace7c865d0d7a3b9f8fa231620146f19c" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
@@ -944,6 +1117,7 @@
       <member refid="classMR_1_1Const__VertMap_1af98c747f484c0af7a31d0f1085110882" prot="protected" virt="virtual"><scope>MR::Const_VertMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__VertMap_1aaa7eb415d1a8dfd34934b156b3c2529b" prot="public" virt="virtual"><scope>MR::Const_VertMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__VertMap_1a13080a3ee8d15715a75e1c4e778a5277" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__VertMap_1ad425970481a43bf996f0acf02188e7da" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>end</name></member>
       <member refid="classMR_1_1Const__VertMap_1a11c2e90acdf43dd0d185bf1780e3eb83" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>endId</name></member>
       <member refid="classMR_1_1Const__VertMap_1a5413dfcdba1f71b9aca80e55647880c6" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Equals</name></member>
       <member refid="classMR_1_1Const__VertMap_1ab4a08557fb262260a79f9103140088d2" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Equals</name></member>
@@ -951,6 +1125,7 @@
       <member refid="classMR_1_1Const__VertMap_1abf779cc145a625bf7845799480dd3fe7" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__VertMap_1af4d6b080c133ec7274059def256c0026" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__VertMap_1a52d248d5543e99e904c1372ff58831f7" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VertMap_1ace0e1c6225f7f894540a41cf1a7a1d7f" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>maxSize</name></member>
       <member refid="classMR_1_1Const__VertMap_1a3233a5a27da5738b761137fe0a78c4c1" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__VertMap_1af2d45f39af84d36e17eb2f0649ad1e7f" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__VertMap_1ab78fdf8907848042a0b2442348d02bf9" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>size</name></member>

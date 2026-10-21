@@ -18296,6 +18296,90 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRVector.h" line="29" column="5" bodyfile="MRMesh/MRVector.h" bodystart="29" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga164ed43e5c980e1bda2239cb1d2726df" prot="public" static="no">
+        <type>typename std::vector&lt; T &gt;::reverse_iterator</type>
+        <definition>using MR::Vector&lt; T, I &gt;::MR_BIND_IGNORE =  typename std::vector&lt;T&gt;::reverse_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_BIND_IGNORE</name>
+        <qualifiedname>MR::Vector::MR_BIND_IGNORE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector.h" line="30" column="1" bodyfile="MRMesh/MRVector.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga096127c915684746dfc79bfa3a271451" prot="public" static="no">
+        <type>typename std::vector&lt; T &gt;::const_reverse_iterator</type>
+        <definition>using MR::Vector&lt; T, I &gt;::MR_BIND_IGNORE =  typename std::vector&lt;T&gt;::const_reverse_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_BIND_IGNORE</name>
+        <qualifiedname>MR::Vector::MR_BIND_IGNORE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector.h" line="31" column="1" bodyfile="MRMesh/MRVector.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga793de9c60b3410c88e0c86d5862f515c" prot="public" static="no">
+        <type>typename std::vector&lt; T &gt;::size_type</type>
+        <definition>using MR::Vector&lt; T, I &gt;::size_type =  typename std::vector&lt;T&gt;::size_type</definition>
+        <argsstring></argsstring>
+        <name>size_type</name>
+        <qualifiedname>MR::Vector::size_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector.h" line="32" column="5" bodyfile="MRMesh/MRVector.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga835bcf13b39e3e4005180528bf105a10" prot="public" static="no">
+        <type>typename std::vector&lt; T &gt;::difference_type</type>
+        <definition>using MR::Vector&lt; T, I &gt;::difference_type =  typename std::vector&lt;T&gt;::difference_type</definition>
+        <argsstring></argsstring>
+        <name>difference_type</name>
+        <qualifiedname>MR::Vector::difference_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector.h" line="33" column="5" bodyfile="MRMesh/MRVector.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga703b590f205a6d5c74f5dc5ca1574ecb" prot="public" static="no">
+        <type>typename std::vector&lt; T &gt;::pointer</type>
+        <definition>using MR::Vector&lt; T, I &gt;::pointer =  typename std::vector&lt;T&gt;::pointer</definition>
+        <argsstring></argsstring>
+        <name>pointer</name>
+        <qualifiedname>MR::Vector::pointer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector.h" line="34" column="5" bodyfile="MRMesh/MRVector.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1gaf647d2414cbca8ec3143a19dc1e1dc30" prot="public" static="no">
+        <type>typename std::vector&lt; T &gt;::const_pointer</type>
+        <definition>using MR::Vector&lt; T, I &gt;::const_pointer =  typename std::vector&lt;T&gt;::const_pointer</definition>
+        <argsstring></argsstring>
+        <name>const_pointer</name>
+        <qualifiedname>MR::Vector::const_pointer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector.h" line="35" column="5" bodyfile="MRMesh/MRVector.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga8ecb748650561c957b8b73afd24288cb" prot="public" static="no">
         <type>T</type>
         <definition>using MR::Vector3&lt; T &gt;::ValueType =  T</definition>
@@ -46105,7 +46189,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="38" column="42" bodyfile="MRMesh/MRVector.h" bodystart="38" bodyend="-1"/>
+        <location file="MRMesh/MRVector.h" line="44" column="42" bodyfile="MRMesh/MRVector.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga82fa3e637184fa5213f3203525fa9ada" prot="public" static="no" nodiscard="yes" mutable="no">
         <type>const T</type>
@@ -46119,7 +46203,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="38" column="48" bodyfile="MRMesh/MRVector.h" bodystart="38" bodyend="161"/>
+        <location file="MRMesh/MRVector.h" line="44" column="48" bodyfile="MRMesh/MRVector.h" bodystart="44" bodyend="218"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5f40bccc013c893ac7558c2262a6eff1" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>int</type>
@@ -151523,7 +151607,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="32" column="5"/>
+        <location file="MRMesh/MRVector.h" line="38" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2cfec5e1584dd9df4e72448620afecd6" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
         <type></type>
@@ -151538,7 +151622,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="35" column="5" bodyfile="MRMesh/MRVector.h" bodystart="35" bodyend="35"/>
+        <location file="MRMesh/MRVector.h" line="41" column="5" bodyfile="MRMesh/MRVector.h" bodystart="41" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3b3384c862003a03c5a0c42f19d8df77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -151556,7 +151640,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="38" column="5"/>
+        <location file="MRMesh/MRVector.h" line="44" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6e1f5a59f99a789757cac0330d67bf79" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -151589,7 +151673,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="173" column="11" bodyfile="MRMesh/MRVector.h" bodystart="173" bodyend="176"/>
+        <location file="MRMesh/MRVector.h" line="230" column="11" bodyfile="MRMesh/MRVector.h" bodystart="230" bodyend="233"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacc5ecd2826659aa256d0bb1b168cc3bc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -151625,7 +151709,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="180" column="11" bodyfile="MRMesh/MRVector.h" bodystart="180" bodyend="183"/>
+        <location file="MRMesh/MRVector.h" line="237" column="11" bodyfile="MRMesh/MRVector.h" bodystart="237" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad8b62d7466c2f210d9618cc9c3fe555f" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>constexpr</type>

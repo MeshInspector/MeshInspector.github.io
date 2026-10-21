@@ -151,6 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae18f3282879030521987e84da5075cef" id="r_ae18f3282879030521987e84da5075cef"><td class="memItemLeft" align="right" valign="top">typing.Iterator[float]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae18f3282879030521987e84da5075cef">__iter__</a> (self)</td></tr>
 <tr class="memitem:a74c1e5732f8e7256204b485e38c0ef96" id="r_a74c1e5732f8e7256204b485e38c0ef96"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74c1e5732f8e7256204b485e38c0ef96">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1Vector__float__VoxelId.html">Vector_float_VoxelId</a> b)</td></tr>
 <tr class="memitem:ab089ce082cc33946478ad7630322b6f3" id="r_ab089ce082cc33946478ad7630322b6f3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab089ce082cc33946478ad7630322b6f3">__setitem__</a> (self, <a class="el" href="classmrmeshpy_1_1VoxelId.html">VoxelId</a> arg0, float arg1)</td></tr>
+<tr class="memitem:ac7c411d82cff1130e1f47f807d3bd436" id="r_ac7c411d82cff1130e1f47f807d3bd436"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7c411d82cff1130e1f47f807d3bd436">assign</a> (self, int count, float val)</td></tr>
 <tr class="memitem:a9a47ee05f9562ec91ff93c059acb3433" id="r_a9a47ee05f9562ec91ff93c059acb3433"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a47ee05f9562ec91ff93c059acb3433">autoResizeAt</a> (self, <a class="el" href="classmrmeshpy_1_1VoxelId.html">VoxelId</a> i)</td></tr>
 <tr class="memitem:a9ff08c36dc98dcd700586095c6eee73a" id="r_a9ff08c36dc98dcd700586095c6eee73a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ff08c36dc98dcd700586095c6eee73a">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1VoxelId.html">VoxelId</a> pos, int len, float val)</td></tr>
 <tr class="memitem:af51ec405aa52a88fb33a1aa39a382b69" id="r_af51ec405aa52a88fb33a1aa39a382b69"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af51ec405aa52a88fb33a1aa39a382b69">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1VoxelId.html">VoxelId</a> i, float val)</td></tr>
@@ -167,6 +168,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a089ddf6162f896239760684e2c95f92c" id="r_a089ddf6162f896239760684e2c95f92c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a089ddf6162f896239760684e2c95f92c">front</a> (self)</td></tr>
 <tr class="memitem:a089ddf6162f896239760684e2c95f92c" id="r_a089ddf6162f896239760684e2c95f92c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a089ddf6162f896239760684e2c95f92c">front</a> (self)</td></tr>
 <tr class="memitem:a3a6aec76b752ea2d435665099a5a5838" id="r_a3a6aec76b752ea2d435665099a5a5838"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a6aec76b752ea2d435665099a5a5838">heapBytes</a> (self)</td></tr>
+<tr class="memitem:a7773ee301bc1234c6293d8e4e7e8be14" id="r_a7773ee301bc1234c6293d8e4e7e8be14"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7773ee301bc1234c6293d8e4e7e8be14">max_size</a> (self)</td></tr>
 <tr class="memitem:adb0c157713a078db7c0821b3cc55aa48" id="r_adb0c157713a078db7c0821b3cc55aa48"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb0c157713a078db7c0821b3cc55aa48">pop_back</a> (self)</td></tr>
 <tr class="memitem:a034532c6426b52b5c74b6521a1d00ad4" id="r_a034532c6426b52b5c74b6521a1d00ad4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a034532c6426b52b5c74b6521a1d00ad4">push_back</a> (self, float t)</td></tr>
 <tr class="memitem:a034532c6426b52b5c74b6521a1d00ad4" id="r_a034532c6426b52b5c74b6521a1d00ad4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a034532c6426b52b5c74b6521a1d00ad4">push_back</a> (self, float t)</td></tr>
@@ -444,6 +446,33 @@ Aliases:  Vector_float_Id_VoxelTag, Vector_float_Id_VoxelTag, Vector_float_Id_Vo
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="ac7c411d82cff1130e1f47f807d3bd436" name="ac7c411d82cff1130e1f47f807d3bd436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7c411d82cff1130e1f47f807d3bd436">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Vector_float_VoxelId.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">replaces the contents with \\p count copies of \\p val
+</pre> 
 </div>
 </div>
 <a id="a9a47ee05f9562ec91ff93c059acb3433" name="a9a47ee05f9562ec91ff93c059acb3433"></a>
@@ -751,6 +780,23 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
 </div><div class="memdoc">
 <pre class="fragment">returns the amount of memory this object occupies on heap
 </pre> 
+</div>
+</div>
+<a id="a7773ee301bc1234c6293d8e4e7e8be14" name="a7773ee301bc1234c6293d8e4e7e8be14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7773ee301bc1234c6293d8e4e7e8be14">&#9670;&#160;</a></span>max_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.Vector_float_VoxelId.max_size </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="a16d4cc4dee5e09b7a17e933020663f93" name="a16d4cc4dee5e09b7a17e933020663f93"></a>

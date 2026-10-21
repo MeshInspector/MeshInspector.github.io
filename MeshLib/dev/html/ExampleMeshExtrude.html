@@ -207,7 +207,7 @@ $(function(){initNavTree('ExampleMeshExtrude.html','',''); });
 <div class="line"><span class="comment"># Move each vertex</span></div>
 <div class="line"><span class="keywordflow">for</span> v <span class="keywordflow">in</span> range(verts_for_move.size()):</div>
 <div class="line">    <span class="keywordflow">if</span> verts_for_move.test(mrmeshpy.VertId(v)):</div>
-<div class="line">        mesh.points.vec[v] += mrmeshpy.Vector3f(0.0, 0.0, 1.0)</div>
+<div class="line">        mesh.points[mrmeshpy.VertId(v)] += mrmeshpy.Vector3f(0.0, 0.0, 1.0)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Invalidate internal caches after manual changing</span></div>
 <div class="line">mesh.invalidateCaches()</div>

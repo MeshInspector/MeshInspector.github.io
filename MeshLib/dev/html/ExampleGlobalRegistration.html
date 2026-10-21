@@ -288,8 +288,8 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line"> </div>
 <div class="line">    output = mrmeshpy.PointCloud()</div>
 <div class="line">    <span class="keywordflow">for</span> i <span class="keywordflow">in</span> range(input_clouds_num):</div>
-<div class="line">        xf = xfs.vec[i]</div>
-<div class="line">        <span class="keywordflow">for</span> point <span class="keywordflow">in</span> inputs.vec[i].obj.points():</div>
+<div class="line">        xf = xfs[mrmeshpy.ObjId(i)]</div>
+<div class="line">        <span class="keywordflow">for</span> point <span class="keywordflow">in</span> inputs[mrmeshpy.ObjId(i)].obj.points():</div>
 <div class="line">            output.addPoint(xf(point))</div>
 <div class="line"> </div>
 <div class="line">    mrmeshpy.PointsSave.toAnySupportedFormat(output, file_args[-1])</div>

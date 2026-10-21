@@ -173,6 +173,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aacb9461d3e06aac176cb6d772cfa6b6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#a17d2cf5ae63b450645b98d17a8c6f587" title="Constructs an empty (default-constructed) instance.">MR.VertCoords.VertCoords</a></span>.  <br /></td></tr>
 <tr class="memitem:a06fbd4c0fbdac0e8a5ba29fbe3587bca" id="r_a06fbd4c0fbdac0e8a5ba29fbe3587bca"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1VertCoords.html">MR.VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06fbd4c0fbdac0e8a5ba29fbe3587bca">assign</a> (MR._ByValue_VertCoords _other)</td></tr>
 <tr class="memdesc:a06fbd4c0fbdac0e8a5ba29fbe3587bca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::VertCoords::operator=</span>.  <br /></td></tr>
+<tr class="memitem:a7949ed0438352b527f450f1e435e5a58" id="r_a7949ed0438352b527f450f1e435e5a58"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7949ed0438352b527f450f1e435e5a58">assign</a> (nuint count, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> val)</td></tr>
+<tr class="memdesc:a7949ed0438352b527f450f1e435e5a58"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#a06fbd4c0fbdac0e8a5ba29fbe3587bca" title="Generated from method MR.VertCoords.operator=.">MR.VertCoords.assign</a></span>.  <br /></td></tr>
 <tr class="memitem:ab5d5ae4b8cfe09f947d7174788b2f879" id="r_ab5d5ae4b8cfe09f947d7174788b2f879"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5d5ae4b8cfe09f947d7174788b2f879">clear</a> ()</td></tr>
 <tr class="memdesc:ab5d5ae4b8cfe09f947d7174788b2f879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ab5d5ae4b8cfe09f947d7174788b2f879" title="Generated from method MR.VertCoords.clear.">MR.VertCoords.clear</a></span>.  <br /></td></tr>
 <tr class="memitem:a427c2c96aee52dc9c207a9a8207d0ab8" id="r_a427c2c96aee52dc9c207a9a8207d0ab8"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a427c2c96aee52dc9c207a9a8207d0ab8">resize</a> (nuint newSize)</td></tr>
@@ -201,12 +203,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a30f65da31f5a367ee9ee4a96bb51e342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::VertCoords::push_back</span>.  <br /></td></tr>
 <tr class="memitem:a8e160cf2265ab9beeb163b80423a09a2" id="r_a8e160cf2265ab9beeb163b80423a09a2"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e160cf2265ab9beeb163b80423a09a2">popBack</a> ()</td></tr>
 <tr class="memdesc:a8e160cf2265ab9beeb163b80423a09a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::VertCoords::pop_back</span>.  <br /></td></tr>
+<tr class="memitem:ac0950ceb4117769c08e164dd1492dd5f" id="r_ac0950ceb4117769c08e164dd1492dd5f"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRVector3f.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0950ceb4117769c08e164dd1492dd5f">insert</a> (MR.Std.Vector_MRVector3f.Const_ConstIterator pos, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> t)</td></tr>
+<tr class="memdesc:ac0950ceb4117769c08e164dd1492dd5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">inserts <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#ac0950ceb4117769c08e164dd1492dd5f" title="inserts t before pos Generated from method MR.VertCoords.insert.">MR.VertCoords.insert</a></span>.  <br /></td></tr>
+<tr class="memitem:af8c7efad68a3b4b006009ff02a15cb0a" id="r_af8c7efad68a3b4b006009ff02a15cb0a"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRVector3f.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8c7efad68a3b4b006009ff02a15cb0a">insert</a> (MR.Std.Vector_MRVector3f.Const_ConstIterator pos, MR.Misc._MoveRef _move_t, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> t)</td></tr>
+<tr class="memdesc:af8c7efad68a3b4b006009ff02a15cb0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ac0950ceb4117769c08e164dd1492dd5f" title="inserts t before pos Generated from method MR.VertCoords.insert.">MR.VertCoords.insert</a></span>.  <br /></td></tr>
+<tr class="memitem:a83badeed133648746146e733c4f84a9e" id="r_a83badeed133648746146e733c4f84a9e"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRVector3f.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83badeed133648746146e733c4f84a9e">insert</a> (MR.Std.Vector_MRVector3f.Const_ConstIterator pos, nuint count, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> t)</td></tr>
+<tr class="memdesc:a83badeed133648746146e733c4f84a9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">inserts <code class="param">count</code> copies of <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#ac0950ceb4117769c08e164dd1492dd5f" title="inserts t before pos Generated from method MR.VertCoords.insert.">MR.VertCoords.insert</a></span>.  <br /></td></tr>
+<tr class="memitem:a8e21fc116000633c1c998f5573792f3a" id="r_a8e21fc116000633c1c998f5573792f3a"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRVector3f.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e21fc116000633c1c998f5573792f3a">erase</a> (MR.Std.Vector_MRVector3f.Const_ConstIterator pos)</td></tr>
+<tr class="memdesc:a8e21fc116000633c1c998f5573792f3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the element at <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#a8e21fc116000633c1c998f5573792f3a" title="removes the element at pos Generated from method MR.VertCoords.erase.">MR.VertCoords.erase</a></span>.  <br /></td></tr>
+<tr class="memitem:a851f86926aac35f9f9526bd924110ad5" id="r_a851f86926aac35f9f9526bd924110ad5"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRVector3f.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a851f86926aac35f9f9526bd924110ad5">erase</a> (MR.Std.Vector_MRVector3f.Const_ConstIterator first, MR.Std.Vector_MRVector3f.Const_ConstIterator last)</td></tr>
+<tr class="memdesc:a851f86926aac35f9f9526bd924110ad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the elements in range [first, last) Generated from method <span class="tt"><a class="el" href="#a8e21fc116000633c1c998f5573792f3a" title="removes the element at pos Generated from method MR.VertCoords.erase.">MR.VertCoords.erase</a></span>.  <br /></td></tr>
 <tr class="memitem:afc0c4940ff9169622bf196e88c4b5e8c" id="r_afc0c4940ff9169622bf196e88c4b5e8c"><td class="memItemLeft" align="right" valign="top">unsafe new ref <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc0c4940ff9169622bf196e88c4b5e8c">front</a> ()</td></tr>
 <tr class="memdesc:afc0c4940ff9169622bf196e88c4b5e8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#afc0c4940ff9169622bf196e88c4b5e8c" title="Generated from method MR.VertCoords.front.">MR.VertCoords.front</a></span>.  <br /></td></tr>
 <tr class="memitem:a071f4992f0b8f19e38ed4a84eddac978" id="r_a071f4992f0b8f19e38ed4a84eddac978"><td class="memItemLeft" align="right" valign="top">unsafe new ref <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a071f4992f0b8f19e38ed4a84eddac978">back</a> ()</td></tr>
 <tr class="memdesc:a071f4992f0b8f19e38ed4a84eddac978"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a071f4992f0b8f19e38ed4a84eddac978" title="Generated from method MR.VertCoords.back.">MR.VertCoords.back</a></span>.  <br /></td></tr>
 <tr class="memitem:accc1e4248c939c10dd20d9c87133f6fd" id="r_accc1e4248c939c10dd20d9c87133f6fd"><td class="memItemLeft" align="right" valign="top">unsafe new MR.Misc.? Ref&lt; <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accc1e4248c939c10dd20d9c87133f6fd">data</a> ()</td></tr>
 <tr class="memdesc:accc1e4248c939c10dd20d9c87133f6fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#accc1e4248c939c10dd20d9c87133f6fd" title="Generated from method MR.VertCoords.data.">MR.VertCoords.data</a></span>.  <br /></td></tr>
+<tr class="memitem:af647d30a40c83b886b282db4e4aca457" id="r_af647d30a40c83b886b282db4e4aca457"><td class="memItemLeft" align="right" valign="top">unsafe new MR.Std.Vector_MRVector3f.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af647d30a40c83b886b282db4e4aca457">begin</a> ()</td></tr>
+<tr class="memdesc:af647d30a40c83b886b282db4e4aca457"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#af647d30a40c83b886b282db4e4aca457" title="Generated from method MR.VertCoords.begin.">MR.VertCoords.begin</a></span>.  <br /></td></tr>
+<tr class="memitem:a385b8b6f0a2d607c754f697184489fe8" id="r_a385b8b6f0a2d607c754f697184489fe8"><td class="memItemLeft" align="right" valign="top">unsafe new MR.Std.Vector_MRVector3f.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a385b8b6f0a2d607c754f697184489fe8">end</a> ()</td></tr>
+<tr class="memdesc:a385b8b6f0a2d607c754f697184489fe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a385b8b6f0a2d607c754f697184489fe8" title="Generated from method MR.VertCoords.end.">MR.VertCoords.end</a></span>.  <br /></td></tr>
 <tr class="memitem:adc93aecbb432141b1c26858eae294989" id="r_adc93aecbb432141b1c26858eae294989"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc93aecbb432141b1c26858eae294989">swap</a> (<a class="el" href="classMR_1_1VertCoords.html">MR.VertCoords</a> b)</td></tr>
 <tr class="memdesc:adc93aecbb432141b1c26858eae294989"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#adc93aecbb432141b1c26858eae294989" title="Generated from method MR.VertCoords.swap.">MR.VertCoords.swap</a></span>.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1Const__VertCoords"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1Const__VertCoords')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td></tr>
@@ -228,6 +244,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aad16662b3ad1a87baa21a1147f4bbe93 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__VertCoords.html#aad16662b3ad1a87baa21a1147f4bbe93" title="Generated from method MR.VertCoords.empty.">MR.VertCoords.empty</a></span>.  <br /></td></tr>
 <tr class="memitem:a7fc4d081ab3e09cf87f9d95e559ea724 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_a7fc4d081ab3e09cf87f9d95e559ea724"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a7fc4d081ab3e09cf87f9d95e559ea724">size</a> ()</td></tr>
 <tr class="memdesc:a7fc4d081ab3e09cf87f9d95e559ea724 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__VertCoords.html#a7fc4d081ab3e09cf87f9d95e559ea724" title="Generated from method MR.VertCoords.size.">MR.VertCoords.size</a></span>.  <br /></td></tr>
+<tr class="memitem:af703824548c261c38dea073f24a82aa9 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_af703824548c261c38dea073f24a82aa9"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#af703824548c261c38dea073f24a82aa9">maxSize</a> ()</td></tr>
+<tr class="memdesc:af703824548c261c38dea073f24a82aa9 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::VertCoords::max_size</span>.  <br /></td></tr>
 <tr class="memitem:a2d68ecc99d7e8d5bed481197468af041 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_a2d68ecc99d7e8d5bed481197468af041"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a2d68ecc99d7e8d5bed481197468af041">capacity</a> ()</td></tr>
 <tr class="memdesc:a2d68ecc99d7e8d5bed481197468af041 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__VertCoords.html#a2d68ecc99d7e8d5bed481197468af041" title="Generated from method MR.VertCoords.capacity.">MR.VertCoords.capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:a37a2d5ebc8b907c9f060987c49a9fc91 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_a37a2d5ebc8b907c9f060987c49a9fc91"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a37a2d5ebc8b907c9f060987c49a9fc91">front</a> ()</td></tr>
@@ -242,6 +260,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0b70512a4f6473cdb590292f2f556a07 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="classMR_1_1Const__VertCoords.html#a9497107704521a9cc5dfbafc673d38fc" title="returns the identifier of the back() element Generated from method MR.VertCoords.backId.">backId()</a> + 1 Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__VertCoords.html#a0b70512a4f6473cdb590292f2f556a07" title="returns backId() + 1 Generated from method MR.VertCoords.endId.">MR.VertCoords.endId</a></span>.  <br /></td></tr>
 <tr class="memitem:ad05d647c9dd6ae6dac0b6e0d6b0f9052 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_ad05d647c9dd6ae6dac0b6e0d6b0f9052"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="structMR_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#ad05d647c9dd6ae6dac0b6e0d6b0f9052">data</a> ()</td></tr>
 <tr class="memdesc:ad05d647c9dd6ae6dac0b6e0d6b0f9052 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#accc1e4248c939c10dd20d9c87133f6fd" title="Generated from method MR.VertCoords.data.">MR.VertCoords.data</a></span>.  <br /></td></tr>
+<tr class="memitem:ab4d147629de30b02e307416b5afa3540 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_ab4d147629de30b02e307416b5afa3540"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRVector3f.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#ab4d147629de30b02e307416b5afa3540">begin</a> ()</td></tr>
+<tr class="memdesc:ab4d147629de30b02e307416b5afa3540 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#af647d30a40c83b886b282db4e4aca457" title="Generated from method MR.VertCoords.begin.">MR.VertCoords.begin</a></span>.  <br /></td></tr>
+<tr class="memitem:a66ae1ef48837a60a8889becbd7b34b9b inherit pub_methods_classMR_1_1Const__VertCoords" id="r_a66ae1ef48837a60a8889becbd7b34b9b"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRVector3f.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#a66ae1ef48837a60a8889becbd7b34b9b">cbegin</a> ()</td></tr>
+<tr class="memdesc:a66ae1ef48837a60a8889becbd7b34b9b inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__VertCoords.html#a66ae1ef48837a60a8889becbd7b34b9b" title="Generated from method MR.VertCoords.cbegin.">MR.VertCoords.cbegin</a></span>.  <br /></td></tr>
+<tr class="memitem:afdda652646f58a199bf134235d7824c1 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_afdda652646f58a199bf134235d7824c1"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRVector3f.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#afdda652646f58a199bf134235d7824c1">end</a> ()</td></tr>
+<tr class="memdesc:afdda652646f58a199bf134235d7824c1 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a385b8b6f0a2d607c754f697184489fe8" title="Generated from method MR.VertCoords.end.">MR.VertCoords.end</a></span>.  <br /></td></tr>
+<tr class="memitem:ac4a49b02dbfad5948a115077cf8e09bd inherit pub_methods_classMR_1_1Const__VertCoords" id="r_ac4a49b02dbfad5948a115077cf8e09bd"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRVector3f.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#ac4a49b02dbfad5948a115077cf8e09bd">cend</a> ()</td></tr>
+<tr class="memdesc:ac4a49b02dbfad5948a115077cf8e09bd inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__VertCoords.html#ac4a49b02dbfad5948a115077cf8e09bd" title="Generated from method MR.VertCoords.cend.">MR.VertCoords.cend</a></span>.  <br /></td></tr>
 <tr class="memitem:ab7db4900b18d8f2fb7f065f80a72c3d0 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_ab7db4900b18d8f2fb7f065f80a72c3d0"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#ab7db4900b18d8f2fb7f065f80a72c3d0">heapBytes</a> ()</td></tr>
 <tr class="memdesc:ab7db4900b18d8f2fb7f065f80a72c3d0 inherit pub_methods_classMR_1_1Const__VertCoords"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__VertCoords.html#ab7db4900b18d8f2fb7f065f80a72c3d0" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.VertCoords.heapBytes</a></span>.  <br /></td></tr>
 <tr class="memitem:ae325552947e651f32f3b175ecd031775 inherit pub_methods_classMR_1_1Const__VertCoords" id="r_ae325552947e651f32f3b175ecd031775"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__VertCoords.html#ae325552947e651f32f3b175ecd031775">Equals</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a>? b)</td></tr>
@@ -446,7 +472,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a06fbd4c0fbdac0e8a5ba29fbe3587bca" name="a06fbd4c0fbdac0e8a5ba29fbe3587bca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06fbd4c0fbdac0e8a5ba29fbe3587bca">&#9670;&#160;</a></span>assign()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a06fbd4c0fbdac0e8a5ba29fbe3587bca">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -469,6 +495,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::VertCoords::operator=</span>. </p>
+
+</div>
+</div>
+<a id="a7949ed0438352b527f450f1e435e5a58" name="a7949ed0438352b527f450f1e435e5a58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7949ed0438352b527f450f1e435e5a58">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.VertCoords.assign </td>
+          <td>(</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#a06fbd4c0fbdac0e8a5ba29fbe3587bca" title="Generated from method MR.VertCoords.operator=.">MR.VertCoords.assign</a></span>. </p>
 
 </div>
 </div>
@@ -593,6 +650,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="af647d30a40c83b886b282db4e4aca457" name="af647d30a40c83b886b282db4e4aca457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af647d30a40c83b886b282db4e4aca457">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe new MR.Std.Vector_MRVector3f.Iterator MR.VertCoords.begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt"><a class="el" href="#af647d30a40c83b886b282db4e4aca457" title="Generated from method MR.VertCoords.begin.">MR.VertCoords.begin</a></span>. </p>
+
+</div>
+</div>
 <a id="ab5d5ae4b8cfe09f947d7174788b2f879" name="ab5d5ae4b8cfe09f947d7174788b2f879"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab5d5ae4b8cfe09f947d7174788b2f879">&#9670;&#160;</a></span>clear()</h2>
 
@@ -647,6 +731,91 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a385b8b6f0a2d607c754f697184489fe8" name="a385b8b6f0a2d607c754f697184489fe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a385b8b6f0a2d607c754f697184489fe8">&#9670;&#160;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe new MR.Std.Vector_MRVector3f.Iterator MR.VertCoords.end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt"><a class="el" href="#a385b8b6f0a2d607c754f697184489fe8" title="Generated from method MR.VertCoords.end.">MR.VertCoords.end</a></span>. </p>
+
+</div>
+</div>
+<a id="a851f86926aac35f9f9526bd924110ad5" name="a851f86926aac35f9f9526bd924110ad5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a851f86926aac35f9f9526bd924110ad5">&#9670;&#160;</a></span>erase() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MRVector3f.Iterator MR.VertCoords.erase </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MRVector3f.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Vector_MRVector3f.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>last</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes the elements in range [first, last) Generated from method <span class="tt"><a class="el" href="#a8e21fc116000633c1c998f5573792f3a" title="removes the element at pos Generated from method MR.VertCoords.erase.">MR.VertCoords.erase</a></span>. </p>
+
+</div>
+</div>
+<a id="a8e21fc116000633c1c998f5573792f3a" name="a8e21fc116000633c1c998f5573792f3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e21fc116000633c1c998f5573792f3a">&#9670;&#160;</a></span>erase() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MRVector3f.Iterator MR.VertCoords.erase </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MRVector3f.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes the element at <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#a8e21fc116000633c1c998f5573792f3a" title="removes the element at pos Generated from method MR.VertCoords.erase.">MR.VertCoords.erase</a></span>. </p>
+
+</div>
+</div>
 <a id="afc0c4940ff9169622bf196e88c4b5e8c" name="afc0c4940ff9169622bf196e88c4b5e8c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc0c4940ff9169622bf196e88c4b5e8c">&#9670;&#160;</a></span>front()</h2>
 
@@ -696,6 +865,109 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0950ceb4117769c08e164dd1492dd5f" name="ac0950ceb4117769c08e164dd1492dd5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0950ceb4117769c08e164dd1492dd5f">&#9670;&#160;</a></span>insert() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MRVector3f.Iterator MR.VertCoords.insert </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MRVector3f.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>inserts <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#ac0950ceb4117769c08e164dd1492dd5f" title="inserts t before pos Generated from method MR.VertCoords.insert.">MR.VertCoords.insert</a></span>. </p>
+
+</div>
+</div>
+<a id="af8c7efad68a3b4b006009ff02a15cb0a" name="af8c7efad68a3b4b006009ff02a15cb0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8c7efad68a3b4b006009ff02a15cb0a">&#9670;&#160;</a></span>insert() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MRVector3f.Iterator MR.VertCoords.insert </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MRVector3f.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Misc._MoveRef</td>          <td class="paramname"><span class="paramname"><em>_move_t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt"><a class="el" href="#ac0950ceb4117769c08e164dd1492dd5f" title="inserts t before pos Generated from method MR.VertCoords.insert.">MR.VertCoords.insert</a></span>. </p>
+
+</div>
+</div>
+<a id="a83badeed133648746146e733c4f84a9e" name="a83badeed133648746146e733c4f84a9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83badeed133648746146e733c4f84a9e">&#9670;&#160;</a></span>insert() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MRVector3f.Iterator MR.VertCoords.insert </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MRVector3f.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>inserts <code class="param">count</code> copies of <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#ac0950ceb4117769c08e164dd1492dd5f" title="inserts t before pos Generated from method MR.VertCoords.insert.">MR.VertCoords.insert</a></span>. </p>
 
 </div>
 </div>

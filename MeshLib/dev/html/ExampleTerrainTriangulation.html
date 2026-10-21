@@ -186,7 +186,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">terrain_mesh = mm.delaunayTriangulationXY(pc)</div>
 <div class="line"> </div>
 <div class="line">mss = mm.SaveSettings()</div>
-<div class="line"><span class="keywordflow">if</span> (pc.points.vec.size() == colors.size()):</div>
+<div class="line"><span class="keywordflow">if</span> (pc.points.size() == colors.size()):</div>
 <div class="line">    mss.colors = colors</div>
 <div class="line">mm.saveMesh(terrain_mesh, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>,mss)</div>
 </div><!-- fragment --></li>
@@ -233,9 +233,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    MR_SaveSettings* ss = MR_SaveSettings_DefaultConstruct();</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_std_vector_MR_Color_size( MR_VertColors_Get_vec( colors ) ) ==</div>
-<div class="line">         MR_std_vector_MR_Vector3f_size( MR_VertCoords_Get_vec( MR_PointCloud_Get_points( pc ) ) )</div>
-<div class="line">         )</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_VertColors_size( colors ) == MR_VertCoords_size( MR_PointCloud_Get_points( pc ) ) )</div>
 <div class="line">    {</div>
 <div class="line">        MR_SaveSettings_Set_colors( ss, colors );</div>
 <div class="line">    }</div>
