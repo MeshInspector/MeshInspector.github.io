@@ -1,7 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"classmrmeshpy_1_1GcodeProcessor.html#ab816e88711e9a634e5cdc3aa2a03cc0e":[9,1,0,0,2,400,4],
-"classmrmeshpy_1_1GcodeProcessor.html#ab816e88711e9a634e5cdc3aa2a03cc0e":[9,1,1,0,1,400,4],
 "classmrmeshpy_1_1GcodeProcessor.html#accbe507a40401eefa8f347281323a035":[9,1,0,0,2,400,6],
 "classmrmeshpy_1_1GcodeProcessor.html#accbe507a40401eefa8f347281323a035":[9,1,1,0,1,400,6],
 "classmrmeshpy_1_1GcodeProcessor_1_1BaseAction__Vector2f.html":[9,1,0,0,2,400,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX38 =
 "classmrmeshpy_1_1GraphEdgeBitSet.html#ae7a682d8744a980d567533397d2b2aaf":[9,1,0,0,2,406,26],
 "classmrmeshpy_1_1GraphEdgeBitSet.html#ae7a682d8744a980d567533397d2b2aaf":[9,1,1,0,1,406,26],
 "classmrmeshpy_1_1GraphEdgeBitSet.html#af40a7ffbd973eebaa9993ebbdb2fd078":[9,1,0,0,2,406,41],
-"classmrmeshpy_1_1GraphEdgeBitSet.html#af40a7ffbd973eebaa9993ebbdb2fd078":[9,1,1,0,1,406,41]
+"classmrmeshpy_1_1GraphEdgeBitSet.html#af40a7ffbd973eebaa9993ebbdb2fd078":[9,1,1,0,1,406,41],
+"classmrmeshpy_1_1GraphEdgeId.html":[9,1,0,0,2,407],
+"classmrmeshpy_1_1GraphEdgeId.html":[9,1,1,0,1,407]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"classMR_1_1ChangeVertsColorMapAction.html":[9,0,0,4,34],
 "classMR_1_1ChangeVertsColorMapAction.html":[9,0,0,20,170],
 "classMR_1_1ChangeVisualizePropertyAction.html":[9,0,0,4,14],
 "classMR_1_1ChangeVisualizePropertyAction.html":[9,0,0,20,158],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "classMR_1_1HistoryAction.html":[9,0,0,4,37],
 "classMR_1_1HistoryAction.html":[9,0,0,20,286],
 "classMR_1_1HistoryStore.html":[9,0,0,4,43],
-"classMR_1_1HistoryStore.html#a011909b9aa7a4cba9468e81a690b817f":[9,0,0,4,43,0],
-"classMR_1_1HistoryStore.html#a36060c54f1f5175ea61611c5be4330f3":[9,0,0,4,43,3]
+"classMR_1_1HistoryStore.html#a011909b9aa7a4cba9468e81a690b817f":[9,0,0,4,43,0]
 };

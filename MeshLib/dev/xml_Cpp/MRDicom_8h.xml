@@ -51,6 +51,8 @@
         </childnode>
         <childnode refid="47" relation="include">
         </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
       </node>
       <node id="30">
         <label>MRMesh/MRBox.h</label>
@@ -126,16 +128,16 @@
         <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="49">
         <label>MRMesh/MRLoadedObjects.h</label>
         <link refid="MRLoadedObjects_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
         <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -206,7 +208,7 @@
         <childnode refid="42" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="50">
         <label>MRUnitInfo.h</label>
         <link refid="MRUnitInfo_8h"/>
         <childnode refid="34" relation="include">
@@ -215,7 +217,7 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
       <node id="23">
@@ -289,11 +291,11 @@
         </childnode>
         <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
         </childnode>
         <childnode refid="51" relation="include">
-        </childnode>
-        <childnode refid="50" relation="include">
         </childnode>
       </node>
       <node id="17">
@@ -374,7 +376,7 @@
       <node id="28">
         <label>cstring</label>
       </node>
-      <node id="51">
+      <node id="52">
         <label>filesystem</label>
       </node>
       <node id="13">
@@ -392,7 +394,10 @@
       <node id="37">
         <label>memory</label>
       </node>
-      <node id="50">
+      <node id="48">
+        <label>mimalloc.h</label>
+      </node>
+      <node id="51">
         <label>optional</label>
       </node>
       <node id="12">

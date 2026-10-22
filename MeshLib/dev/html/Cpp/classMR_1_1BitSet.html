@@ -164,6 +164,8 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ace77355bd95e75d56e1bfab444eefb3e" id="r_ace77355bd95e75d56e1bfab444eefb3e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">block_type</a> = std::uint64_t</td></tr>
+<tr class="memitem:adb9bff198d5b5413e5ed59bed7396828" id="r_adb9bff198d5b5413e5ed59bed7396828"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb9bff198d5b5413e5ed59bed7396828">Blocks</a> = std::vector&lt;<a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">block_type</a>, mi_stl_allocator&lt;<a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">block_type</a>&gt;&gt;</td></tr>
+<tr class="memdesc:adb9bff198d5b5413e5ed59bed7396828"><td class="mdescLeft">&#160;</td><td class="mdescRight">mrbind ignores custom allocators, so the members exposing <a class="el" href="#adb9bff198d5b5413e5ed59bed7396828" title="mrbind ignores custom allocators, so the members exposing Blocks are hidden from the bindings">Blocks</a> are hidden from the bindings  <br /></td></tr>
 <tr class="memitem:a029565ede6f02c029a79d6821794eca3" id="r_a029565ede6f02c029a79d6821794eca3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> = size_t</td></tr>
 <tr class="memitem:a0427884dece1dde1fa25caaa7b2aaba9" id="r_a0427884dece1dde1fa25caaa7b2aaba9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> = size_t</td></tr>
 </table><table class="memberdecls">
@@ -205,8 +207,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acfad508aa764e014db0ace9f3fc05f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds one more bit with the given value in the container, increasing its size on 1  <br /></td></tr>
 <tr class="memitem:af4799e91aeb36deab4540ac14bf16e98" id="r_af4799e91aeb36deab4540ac14bf16e98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4799e91aeb36deab4540ac14bf16e98">pop_back</a> ()</td></tr>
 <tr class="memdesc:af4799e91aeb36deab4540ac14bf16e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes last bit from the container, decreasing its size on 1  <br /></td></tr>
-<tr class="memitem:ae109ea3b45a9d42a26687dadfc85f936" id="r_ae109ea3b45a9d42a26687dadfc85f936"><td class="memItemLeft" align="right" valign="top">const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae109ea3b45a9d42a26687dadfc85f936">bits</a> () const</td></tr>
-<tr class="memdesc:ae109ea3b45a9d42a26687dadfc85f936"><td class="mdescLeft">&#160;</td><td class="mdescRight">read-only access to all bits stored as a vector of uint64 blocks  <br /></td></tr>
+<tr class="memitem:adf3fcb2d65abe13621a686d2f854206c" id="r_adf3fcb2d65abe13621a686d2f854206c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const <a class="el" href="#adb9bff198d5b5413e5ed59bed7396828">Blocks</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf3fcb2d65abe13621a686d2f854206c">bits</a> () const</td></tr>
+<tr class="memdesc:adf3fcb2d65abe13621a686d2f854206c"><td class="mdescLeft">&#160;</td><td class="mdescRight">read-only access to all bits stored as a vector of uint64 blocks  <br /></td></tr>
 <tr class="memitem:aea4f222fe2df7d81d416a55fc7a589f4" id="r_aea4f222fe2df7d81d416a55fc7a589f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea4f222fe2df7d81d416a55fc7a589f4">operator&amp;=</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
 <tr class="memitem:a627357e95c82ecc40d8d2d35e2d9dee6" id="r_a627357e95c82ecc40d8d2d35e2d9dee6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a627357e95c82ecc40d8d2d35e2d9dee6">operator|=</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
 <tr class="memitem:afc982ba4c4d3131098dc2fd20f779177" id="r_afc982ba4c4d3131098dc2fd20f779177"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc982ba4c4d3131098dc2fd20f779177">operator^=</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
@@ -255,8 +257,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8bb32afb9d02a11bf7c980344babc472" id="r_a8bb32afb9d02a11bf7c980344babc472"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bb32afb9d02a11bf7c980344babc472">fromBlocks</a> (std::vector&lt; <a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">block_type</a> &gt; &amp;&amp;blocks)</td></tr>
-<tr class="memdesc:a8bb32afb9d02a11bf7c980344babc472"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates bitset from the given blocks of bits  <br /></td></tr>
+<tr class="memitem:a8f5f8c62aef94b18b6602545f74ceef9" id="r_a8f5f8c62aef94b18b6602545f74ceef9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f5f8c62aef94b18b6602545f74ceef9">fromBlocks</a> (<a class="el" href="#adb9bff198d5b5413e5ed59bed7396828">Blocks</a> &amp;&amp;blocks)</td></tr>
+<tr class="memdesc:a8f5f8c62aef94b18b6602545f74ceef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates bitset from the given blocks of bits  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -290,6 +292,22 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb9bff198d5b5413e5ed59bed7396828" name="adb9bff198d5b5413e5ed59bed7396828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb9bff198d5b5413e5ed59bed7396828">&#9670;&#160;</a></span>Blocks</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#adb9bff198d5b5413e5ed59bed7396828">MR::BitSet::Blocks</a> = std::vector&lt;<a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">block_type</a>, mi_stl_allocator&lt;<a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">block_type</a>&gt;&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>mrbind ignores custom allocators, so the members exposing <a class="el" href="#adb9bff198d5b5413e5ed59bed7396828" title="mrbind ignores custom allocators, so the members exposing Blocks are hidden from the bindings">Blocks</a> are hidden from the bindings </p>
 
 </div>
 </div>
@@ -461,8 +479,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ae109ea3b45a9d42a26687dadfc85f936" name="ae109ea3b45a9d42a26687dadfc85f936"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae109ea3b45a9d42a26687dadfc85f936">&#9670;&#160;</a></span>bits()</h2>
+<a id="adf3fcb2d65abe13621a686d2f854206c" name="adf3fcb2d65abe13621a686d2f854206c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf3fcb2d65abe13621a686d2f854206c">&#9670;&#160;</a></span>bits()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -471,7 +489,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const auto &amp; MR::BitSet::bits </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const <a class="el" href="#adb9bff198d5b5413e5ed59bed7396828">Blocks</a> &amp; MR::BitSet::bits </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -879,8 +897,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a8bb32afb9d02a11bf7c980344babc472" name="a8bb32afb9d02a11bf7c980344babc472"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bb32afb9d02a11bf7c980344babc472">&#9670;&#160;</a></span>fromBlocks()</h2>
+<a id="a8f5f8c62aef94b18b6602545f74ceef9" name="a8f5f8c62aef94b18b6602545f74ceef9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f5f8c62aef94b18b6602545f74ceef9">&#9670;&#160;</a></span>fromBlocks()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -889,9 +907,9 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::BitSet::fromBlocks </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::BitSet::fromBlocks </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">block_type</a> &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>blocks</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#adb9bff198d5b5413e5ed59bed7396828">Blocks</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>blocks</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

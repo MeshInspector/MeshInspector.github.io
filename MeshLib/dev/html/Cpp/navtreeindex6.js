@@ -247,7 +247,7 @@ var NAVTREEINDEX6 =
 "classMR_1_1BestFitPolynomial.html":[9,0,0,20,137],
 "classMR_1_1BinaryOperations.html":[9,0,0,20,87],
 "classMR_1_1BitSet.html":[9,0,0,3,3],
-"classMR_1_1BitSet.html#a029565ede6f02c029a79d6821794eca3":[9,0,0,3,3,3],
-"classMR_1_1BitSet.html#a02e640e7a4515ab2199d48683590e1cd":[9,0,0,3,3,30],
-"classMR_1_1BitSet.html#a0344c4c74d9b9a4ff11bdeae69c2ddb9":[9,0,0,3,3,16]
+"classMR_1_1BitSet.html#a029565ede6f02c029a79d6821794eca3":[9,0,0,3,3,4],
+"classMR_1_1BitSet.html#a02e640e7a4515ab2199d48683590e1cd":[9,0,0,3,3,31],
+"classMR_1_1BitSet.html#a0344c4c74d9b9a4ff11bdeae69c2ddb9":[9,0,0,3,3,17]
 };

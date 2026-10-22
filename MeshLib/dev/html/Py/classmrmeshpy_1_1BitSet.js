@@ -24,7 +24,6 @@ var classmrmeshpy_1_1BitSet =
     [ "autoResizeSet", "classmrmeshpy_1_1BitSet.html#acab8dde45127ba4019a41145736df7e0", null ],
     [ "autoResizeTestSet", "classmrmeshpy_1_1BitSet.html#ad1d43b5793a3dce9511fd445d695aa83", null ],
     [ "backId", "classmrmeshpy_1_1BitSet.html#a71d144899c501363ec1fc3aa7f745b2d", null ],
-    [ "bits", "classmrmeshpy_1_1BitSet.html#ab1c92776adea9f7d4a8aa71b4db8585e", null ],
     [ "capacity", "classmrmeshpy_1_1BitSet.html#a2335e90bc299cbaa4f87a7e2157f869a", null ],
     [ "clear", "classmrmeshpy_1_1BitSet.html#a640d1f443a7ea30d50a532de2cdf90b4", null ],
     [ "count", "classmrmeshpy_1_1BitSet.html#a4b8a47eb3cd9dc19a7448b1a3b1765e2", null ],

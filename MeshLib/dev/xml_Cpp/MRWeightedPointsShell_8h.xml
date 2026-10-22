@@ -53,6 +53,8 @@
         </childnode>
         <childnode refid="49" relation="include">
         </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
       </node>
       <node id="35">
         <label>MRMesh/MRBox.h</label>
@@ -82,28 +84,28 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="52">
+      <node id="53">
         <label>MRMesh/MRClosestWeightedPoint.h</label>
         <link refid="MRClosestWeightedPoint_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="57" relation="include">
+        <childnode refid="58" relation="include">
         </childnode>
       </node>
       <node id="21">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="56">
+      <node id="57">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
       </node>
       <node id="40">
@@ -190,14 +192,14 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="53">
+      <node id="54">
         <label>MRMeshTriPoint.h</label>
         <link refid="MRMeshTriPoint_8h"/>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="55" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="57" relation="include">
         </childnode>
       </node>
       <node id="27">
@@ -226,7 +228,7 @@
         <childnode refid="44" relation="include">
         </childnode>
       </node>
-      <node id="55">
+      <node id="56">
         <label>MRSegmPoint.h</label>
         <link refid="MRSegmPoint_8h"/>
         <childnode refid="4" relation="include">
@@ -234,18 +236,18 @@
         <childnode refid="37" relation="include">
         </childnode>
       </node>
-      <node id="50">
+      <node id="51">
         <label>MRMesh/MRSignDetectionMode.h</label>
         <link refid="MRSignDetectionMode_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="54">
+      <node id="55">
         <label>MRTriPoint.h</label>
         <link refid="MRTriPoint_8h"/>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -339,11 +341,11 @@
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -389,7 +391,7 @@
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
         <childnode refid="45" relation="include">
         </childnode>
@@ -423,10 +425,10 @@
       <node id="15">
         <label>cassert</label>
       </node>
-      <node id="57">
+      <node id="58">
         <label>cfloat</label>
       </node>
-      <node id="51">
+      <node id="52">
         <label>climits</label>
       </node>
       <node id="23">
@@ -458,6 +460,9 @@
       </node>
       <node id="39">
         <label>memory</label>
+      </node>
+      <node id="50">
+        <label>mimalloc.h</label>
       </node>
       <node id="12">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>
