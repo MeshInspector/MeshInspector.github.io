@@ -1,5 +1,6 @@
 var NAVTREEINDEX113 =
 {
+"classMR_1_1LoadedObjectT__MRObjectPoints.html#af7dc46c5ee2d0fdb265090db8637477f":[9,3,0,0,0,1336,7],
 "classMR_1_1LoadedObjectT__MRObjectVoxels.html":[9,3,0,0,0,1337],
 "classMR_1_1LoadedObjectT__MRObjectVoxels.html#a0a240e0942b154e4effcb1264fcaa814":[9,3,0,0,0,1337,4],
 "classMR_1_1LoadedObjectT__MRObjectVoxels.html#a1fe2db2b7df755d19dad25f61c4a5763":[9,3,0,0,0,1337,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX113 =
 "classMR_1_1Matrix3__Int64T_1_1__InOptConst__QR.html#ab60e20c3a31498f4bae4b5c068513c89":[9,3,0,0,0,1360,0,0],
 "classMR_1_1Matrix3__Int64T_1_1__InOptMut__QR.html":[9,3,0,0,0,1360,1],
 "classMR_1_1Matrix3__Int64T_1_1__InOptMut__QR.html#a582feb6da88f9144a51161178b3d196c":[9,3,0,0,0,1360,1,0],
-"classMR_1_1Matrix3__Int_1_1Const__QR.html":[9,3,0,0,0,1359,2],
-"classMR_1_1Matrix3__Int_1_1Const__QR.html#a03d633d19d7b25fb96e361694c7e8ee8":[9,3,0,0,0,1359,2,3]
+"classMR_1_1Matrix3__Int_1_1Const__QR.html":[9,3,0,0,0,1359,2]
 };

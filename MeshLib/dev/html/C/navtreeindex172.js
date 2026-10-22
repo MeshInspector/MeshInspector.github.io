@@ -1,5 +1,6 @@
 var NAVTREEINDEX172 =
 {
+"std__shared__ptr__const__void_8h.html#a4597567c2c16096d46cc1b20939d5b9f":[9,2,2,0,0,0,0,2,302,17],
 "std__shared__ptr__const__void_8h.html#a6be5fe2e9ec857446007396ad0dfcc2d":[9,2,2,0,0,0,0,2,302,13],
 "std__shared__ptr__const__void_8h.html#a72ecd40cc21861923965148fd782317e":[9,2,2,0,0,0,0,2,302,0],
 "std__shared__ptr__const__void_8h.html#a85062496d54fa046e99545f2599547c6":[9,2,2,0,0,0,0,2,302,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX172 =
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#a4aad9d4c2052948ec6cfda43ae38d83d":[9,2,2,0,0,0,0,2,411,11],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#a553fabb0ae175f767b1ccc879e0bdecd":[9,2,2,0,0,0,0,2,411,4],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#a62e273d2bef35f13dd386beb2d25ae49":[9,2,2,0,0,0,0,2,411,26],
-"std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#a673d9ab11d8276c2701c6c82218264d2":[9,2,2,0,0,0,0,2,411,16],
-"std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#a6f23727b4678ea764ee46d3e2828e68c":[9,2,2,0,0,0,0,2,411,13]
+"std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#a673d9ab11d8276c2701c6c82218264d2":[9,2,2,0,0,0,0,2,411,16]
 };

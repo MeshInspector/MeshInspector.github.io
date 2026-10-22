@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"group__TunnelDetectorGroup.html#gad80f5e7adc96e38d732502162f37feb8":[9,0,0,16,4,2],
 "group__TunnelDetectorGroup.html#ggacccbea38b20861c2c61da78579acad05aa1684698ac3d8ffda353d0458c30b1e7":[9,0,0,16,4,1,2],
 "group__TunnelDetectorGroup.html#ggacccbea38b20861c2c61da78579acad05ae6e36dccbeaf26fca4a6813bf2e83a28":[9,0,0,16,4,1,1],
 "group__TunnelDetectorGroup.html#ggacccbea38b20861c2c61da78579acad05aed36a1ef76a59ee3f15180e0441188ad":[9,0,0,16,4,1,0],
@@ -205,16 +206,16 @@ var NAVTREEINDEX59 =
 "namespaceMR.html#a03d4bc2fa6d66cfcaa8ed9d0b124e863":[9,0,1,0,1,1056],
 "namespaceMR.html#a0df0f857bd84e84b19954332c9dcfae5":[9,0,1,0,1,1059],
 "namespaceMR.html#a180687f93fbe5cc6216008e26099f5f8":[9,0,1,0,1,1057],
-"namespaceMR.html#a4c95ee49f1806c7573241fe7617401c9":[9,0,1,0,1,2457],
-"namespaceMR.html#a90e7a361537bcd60aa55bcec6cc4ffb1":[9,0,1,0,1,2346],
+"namespaceMR.html#a4c95ee49f1806c7573241fe7617401c9":[9,0,1,0,1,2458],
+"namespaceMR.html#a90e7a361537bcd60aa55bcec6cc4ffb1":[9,0,1,0,1,2347],
 "namespaceMR.html#a9381161a7388eeabb33982f4df1cf1c3":[9,0,1,0,1,1060],
 "namespaceMR.html#a93836181db6f59783ce1351a98d59cb8":[9,0,1,0,1,1058],
 "namespaceMR.html#a93bff7f59121c9c61175744b11326824":[9,0,1,0,1,1002],
 "namespaceMR.html#a94d7093d57cb27ac9abdfb241ddb6bc0":[9,0,1,0,1,1061],
-"namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2456],
-"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3161],
-"namespaceMR.html#adc6c309b18d3d1c442591ea06f9cb26c":[9,0,1,0,1,2338],
-"namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2455],
+"namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2457],
+"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3162],
+"namespaceMR.html#adc6c309b18d3d1c442591ea06f9cb26c":[9,0,1,0,1,2339],
+"namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2456],
 "namespaceMR_1_1AsyncObjectLoad.html":[9,0,1,0,1,0],
 "namespaceMR_1_1AsyncObjectLoad.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[9,0,1,0,1,0,1],
 "namespaceMR_1_1AsyncObjectLoad.html#a5be8803f8be8c57d2ec98589759c0507":[9,0,1,0,1,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1DistanceMapLoad.html#af1f62813f68011847bea88c8d3bfe7bb":[9,0,1,0,1,4,0],
 "namespaceMR_1_1DistanceMapSave.html":[9,0,0,20,11],
 "namespaceMR_1_1DistanceMapSave.html#aac7825149eb9a0b19702af74fa42f45e":[9,0,1,0,1,5,0],
-"namespaceMR_1_1Features.html":[9,0,1,0,1,6],
-"namespaceMR_1_1Features.html#a2cc22f65100a51a32afed2acf0c837b4":[9,0,1,0,1,6,6]
+"namespaceMR_1_1Features.html":[9,0,1,0,1,6]
 };

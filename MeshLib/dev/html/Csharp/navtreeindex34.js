@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"classMR_1_1Const__BitSet_1_1Counts.html#a5f6779ab0ce18ffa1afa012fa1942975":[9,3,0,0,0,268,1,3],
 "classMR_1_1Const__BitSet_1_1Counts.html#ac7c3b50380e98d4542d2c1005700ab1e":[9,3,0,0,0,268,1,5],
 "classMR_1_1Const__BitSet_1_1Counts.html#aca910e28d283fa4017ccb75c4468532e":[9,3,0,0,0,268,1,1],
 "classMR_1_1Const__BooleanInternalParameters.html":[9,3,0,0,0,281],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html#abe991d09d95a76d3463b64e03dd42c52":[9,3,0,0,0,292,12],
 "classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html#ad331ca867d9bcfa9e90dff8865b4ddcd":[9,3,0,0,0,292,13],
 "classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html#ae06333b536316fce6cfb9a4ef2e12efe":[9,3,0,0,0,292,1],
-"classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html#ae1abc609cb205ebd5eb658f132b522df":[9,3,0,0,0,292,7],
-"classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId.html":[9,3,0,0,0,293]
+"classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html#ae1abc609cb205ebd5eb658f132b522df":[9,3,0,0,0,292,7]
 };

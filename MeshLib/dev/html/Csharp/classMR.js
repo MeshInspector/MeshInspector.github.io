@@ -3380,6 +3380,7 @@ var classMR =
     [ "findExtremeEdges", "classMR.html#a9a8600205e933491a3b631af0eacac92", null ],
     [ "findFewClosestPoints", "classMR.html#a34ace263cc7717193368b5feb88f40fd", null ],
     [ "findFilter", "classMR.html#a5262d17d096102f5f297ab164a5bb838", null ],
+    [ "findFPFHMatches", "classMR.html#aad3f7c0c6345b68a807f5fd9fe840147", null ],
     [ "findGridPointsInsidePolyline", "classMR.html#a122851184065b72e8bbf3e7cdc368459", null ],
     [ "findHalfSpacePoints", "classMR.html#ae44ec97ad6e13dfea392e02f962c1cb9", null ],
     [ "findHoleComplicatingFaces", "classMR.html#affd314e05844616b16c9fcca2dd95f65", null ],

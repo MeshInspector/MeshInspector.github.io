@@ -10923,6 +10923,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:a3eca8c9ccc48ab9c8eb65bf75b25dd35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the points with unique descriptors, which are less likely to be matched ambiguously: the points whose distance from the mean descriptor of all given points is outside the interval mu +- beta * sigma, where mu and sigma are the mean and the standard deviation of these distances.  <br /></td></tr>
 <tr class="memitem:a55a855a432f6bf973e56e13779c139a5" id="r_a55a855a432f6bf973e56e13779c139a5"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55a855a432f6bf973e56e13779c139a5">findUniqueFPFHPoints</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> pointCloud, float radius, float beta, MR.Std.Const_Function_Bool_From_Float? progress=null)</td></tr>
 <tr class="memdesc:a55a855a432f6bf973e56e13779c139a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes FPFH descriptors of all valid points of given point cloud and finds the points with unique descriptors among them.  <br /></td></tr>
+<tr class="memitem:aad3f7c0c6345b68a807f5fd9fe840147" id="r_aad3f7c0c6345b68a807f5fd9fe840147"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_StdPairMRVertIdMRVertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad3f7c0c6345b68a807f5fd9fe840147">findFPFHMatches</a> (<a class="el" href="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId.html">MR.Const_Vector_StdArrayFloat33_MRVertId</a> srcDescriptors, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> srcPoints, <a class="el" href="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId.html">MR.Const_Vector_StdArrayFloat33_MRVertId</a> tgtDescriptors, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> tgtPoints, bool? mutual=null, MR.Std.Const_Function_Bool_From_Float? progress=null)</td></tr>
+<tr class="memdesc:aad3f7c0c6345b68a807f5fd9fe840147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds for every source point the target point with the closest descriptor (in Euclidean distance) by comparing all pairs of points, which is fast enough for clouds of several thousand points.  <br /></td></tr>
 <tr class="memitem:a9908eb5b4eb89b642d01b772e648d8a2" id="r_a9908eb5b4eb89b642d01b772e648d8a2"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRVertCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9908eb5b4eb89b642d01b772e648d8a2">makeUnorientedNormals</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> pointCloud, float radius, MR.Std.Const_Function_Bool_From_Float? progress=null, <a class="el" href="#ad0f6ea3aa4937d3c311b441344576dab">MR.OrientNormals</a>? orient=null)</td></tr>
 <tr class="memdesc:a9908eb5b4eb89b642d01b772e648d8a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by directing them along the normal of best plane through the neighbours.  <br /></td></tr>
 <tr class="memitem:a61e1a7a7886272b6fcb125f9844c5f3d" id="r_a61e1a7a7886272b6fcb125f9844c5f3d"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRVertCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61e1a7a7886272b6fcb125f9844c5f3d">makeUnorientedNormals</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> pointCloud, <a class="el" href="classMR_1_1Const__AllLocalTriangulations.html">MR.Const_AllLocalTriangulations</a> triangs, MR.Std.Const_Function_Bool_From_Float? progress=null, <a class="el" href="#ad0f6ea3aa4937d3c311b441344576dab">MR.OrientNormals</a>? orient=null)</td></tr>
@@ -46834,6 +46836,64 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div><div class="memdoc">
 
 <p>find a corresponding filter for a given extension Generated from function <span class="tt"><a class="el" href="#a5262d17d096102f5f297ab164a5bb838" title="find a corresponding filter for a given extension Generated from function MR.findFilter.">MR.findFilter</a></span>. </p>
+
+</div>
+</div>
+<a id="aad3f7c0c6345b68a807f5fd9fe840147" name="aad3f7c0c6345b68a807f5fd9fe840147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad3f7c0c6345b68a807f5fd9fe840147">&#9670;&#160;</a></span>findFPFHMatches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_StdPairMRVertIdMRVertId MR.findFPFHMatches </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId.html">MR.Const_Vector_StdArrayFloat33_MRVertId</a></td>          <td class="paramname"><span class="paramname"><em>srcDescriptors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>srcPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId.html">MR.Const_Vector_StdArrayFloat33_MRVertId</a></td>          <td class="paramname"><span class="paramname"><em>tgtDescriptors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>tgtPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>mutual</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds for every source point the target point with the closest descriptor (in Euclidean distance) by comparing all pairs of points, which is fast enough for clouds of several thousand points. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mutual</td><td>if true, keeps only the pairs where the source point is also the closest one to the target point </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(source point, target point) pairs ordered by source point, or error if progress returned false Generated from function <span class="tt"><a class="el" href="#aad3f7c0c6345b68a807f5fd9fe840147" title="Finds for every source point the target point with the closest descriptor (in Euclidean distance) by ...">MR.findFPFHMatches</a></span>. Parameter <span class="tt">mutual</span> defaults to <span class="tt">true</span>. Parameter <span class="tt">progress</span> defaults to <span class="tt">{}</span>. </dd></dl>
 
 </div>
 </div>

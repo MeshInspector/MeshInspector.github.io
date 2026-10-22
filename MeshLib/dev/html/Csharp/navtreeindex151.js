@@ -1,5 +1,6 @@
 var NAVTREEINDEX151 =
 {
+"classMR_1_1VolumeToMeshByPartsSettings.html#a2bf3c77f8a2e3e8d91daed6dcd4804f3":[9,3,0,0,0,1864,3],
 "classMR_1_1VolumeToMeshByPartsSettings.html#a6454695412cd97936453f13bac1be30d":[9,3,0,0,0,1864,4],
 "classMR_1_1VolumeToMeshByPartsSettings.html#a8f4d7d86fce662df10ada73e96beef38":[9,3,0,0,0,1864,2],
 "classMR_1_1VolumeToMeshByPartsSettings.html#a929e3c17d8d3b7483359cf9259c83631":[9,3,0,0,0,1864,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX151 =
 "classMR_1_1VoxelsLoad_1_1DicomVolume.html#a8286e133990e0a3b26f4085baebe9a49":[9,3,0,0,0,1870,6,0],
 "classMR_1_1VoxelsLoad_1_1DicomVolume.html#aafe236ba8ce9ba482959c6e2c498a324":[9,3,0,0,0,1870,6,5],
 "classMR_1_1VoxelsLoad_1_1DicomVolume.html#ab2af87955f85db2837ee20c2695f000a":[9,3,0,0,0,1870,6,1],
-"classMR_1_1VoxelsLoad_1_1DicomVolume.html#abd7c795158f6de08b4970e0d8058b628":[9,3,0,0,0,1870,6,3],
-"classMR_1_1VoxelsLoad_1_1DicomVolume.html#abe0d90be31b0c0bf151c7448dfd5893b":[9,3,0,0,0,1870,6,4]
+"classMR_1_1VoxelsLoad_1_1DicomVolume.html#abd7c795158f6de08b4970e0d8058b628":[9,3,0,0,0,1870,6,3]
 };

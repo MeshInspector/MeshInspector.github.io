@@ -44,6 +44,7 @@ var group__PointCloudGroup =
     ] ],
     [ "MR::computeFPFH", "group__PointCloudGroup.html#ga4e33b70d66490482edd3fef7120b0a04", null ],
     [ "MR::findAvgPointsRadius", "group__PointCloudGroup.html#gad170a186634adcea1422a0bcb701584d", null ],
+    [ "MR::findFPFHMatches", "group__PointCloudGroup.html#gabcec15ad6215343b3e74c4a213f6e8a1", null ],
     [ "MR::findUniqueFPFHPoints", "group__PointCloudGroup.html#ga70346bb651583d4cbde24b58798afb7b", null ],
     [ "MR::findUniqueFPFHPoints", "group__PointCloudGroup.html#ga4d9ae8f046bb54aa45a5eda1dc0a24e1", null ],
     [ "MR::improveSampling", "group__PointCloudGroup.html#gaac1c0003890912dca03aafa624951ad4", null ],

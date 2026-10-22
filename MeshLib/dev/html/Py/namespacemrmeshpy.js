@@ -1924,6 +1924,7 @@ var namespacemrmeshpy =
     [ "findExtremeEdges", "namespacemrmeshpy.html#a6a62c5b32f5ac65ca9928a212557a4c2", null ],
     [ "findFewClosestPoints", "namespacemrmeshpy.html#abce8e1364d46e55049fdd87ed5b57677", null ],
     [ "findFilter", "namespacemrmeshpy.html#a08a218c08d671e98c55fc85ad7d7a345", null ],
+    [ "findFPFHMatches", "namespacemrmeshpy.html#a8944675df9deabafe0eebaf0522ece25", null ],
     [ "findGridPointsInsidePolyline", "namespacemrmeshpy.html#a5f492a1c22f015dcc12ec7300fc28ab2", null ],
     [ "findHalfSpacePoints", "namespacemrmeshpy.html#a072aa6e599d37be45a8d8f3ed3cd8cc7", null ],
     [ "findHoleComplicatingFaces", "namespacemrmeshpy.html#a43ef311355a01333a0e3abeb1420dd1d", null ],

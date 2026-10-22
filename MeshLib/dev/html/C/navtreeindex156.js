@@ -1,5 +1,6 @@
 var NAVTREEINDEX156 =
 {
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#add99c5fbc5af88e7985a688a0bd5568a":[9,2,2,0,0,0,0,2,201,3],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#adf5a3f25806c1b76f55e5f8bd7dc2e06":[9,2,2,0,0,0,0,2,201,7],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h_source.html":[9,2,2,0,0,0,0,2,201],
 "std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector2f__ref_8h.html":[9,2,2,0,0,0,0,2,202],
@@ -248,6 +249,5 @@ var NAVTREEINDEX156 =
 "std__optional__MR__Color_8h.html#adf3b0e282d95d0ac0ee88c6a53937da8":[9,2,2,0,0,0,0,2,212,0],
 "std__optional__MR__Color_8h.html#afa5f94d36e9ec4a86aeabcc6e7542a3b":[9,2,2,0,0,0,0,2,212,6],
 "std__optional__MR__Color_8h_source.html":[9,2,2,0,0,0,0,2,212],
-"std__optional__MR__DentalId_8h.html":[9,2,2,0,0,0,0,2,213],
-"std__optional__MR__DentalId_8h.html#a0cb575c3a7a6c498597f31f58abb4053":[9,2,2,0,0,0,0,2,213,6]
+"std__optional__MR__DentalId_8h.html":[9,2,2,0,0,0,0,2,213]
 };

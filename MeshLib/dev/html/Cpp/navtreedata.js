@@ -212,20 +212,20 @@ var NAVTREEINDEX =
 "group__GeneralGroup.html#ggac2d45830eaf9a922d7a6977cab60b79aa0d61f8370cad1d412f80b84d143e1257",
 "group__GeneralGroup.html#ggafeeff27006fc4c615527cbd2c08c552bae498749f3c42246d50b15c81c101d988",
 "group__MeshComponentsGroup.html#gad1f06f5521d13b8e679953ce57f4e690",
-"group__SerializerGroup.html#ga1edcbab8181af7aca7d614a91965677c",
-"group__TunnelDetectorGroup.html#ggacccbea38b20861c2c61da78579acad05aa1684698ac3d8ffda353d0458c30b1e7",
-"namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209",
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a74d0cc8d7c6f77b21299297bf1209a48",
-"namespacemembers_vars_c.html",
-"structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d",
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html",
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html#a400a2b9d56be1cc23d10368dd6ef6e36",
+"group__SerializerGroup.html#ga1c5d353ea01e4b63754235c1a6cc967f",
+"group__TunnelDetectorGroup.html#gad80f5e7adc96e38d732502162f37feb8",
+"namespaceMR_1_1Features.html#a2cc22f65100a51a32afed2acf0c837b4",
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a70b22cb58952dd71245928ab25162601",
+"namespacemembers_vars_b.html",
+"structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5",
+"structMR_1_1Features_1_1Traits_1_1Binary.html",
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html",
 "structMR_1_1IntersectionPrecomputes2.html#a802abc712cfba3867b04a4f8a9ba4f60",
-"structMR_1_1Mesh.html#a76cd30890d96aba180bc7680067a1227",
-"structMR_1_1Nesting_1_1TetrisDensifyParams.html",
-"structMR_1_1PreciseCutPoint.html#a38110f3393d6264ef6ef771ef5c9f01b",
-"structMR_1_1TimeRecord.html#aa4ecd25889d637813c8abcc75610cf51",
-"structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d"
+"structMR_1_1Mesh.html#a757524ab0b73b9ef9256daca95b55540",
+"structMR_1_1Nesting_1_1TetrisDensifyOptions.html",
+"structMR_1_1PreciseCutPoint.html#a11f572416abc57b91657513e1531cf49",
+"structMR_1_1TimeRecord.html#aa1636ed4f889fa0058dc49ddbf33c8ff",
+"structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

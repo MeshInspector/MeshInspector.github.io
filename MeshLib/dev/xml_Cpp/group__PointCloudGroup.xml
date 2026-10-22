@@ -181,6 +181,59 @@
         </inbodydescription>
         <location file="MRMesh/MRPointCloudFPFH.h" line="48" column="12" declfile="MRMesh/MRPointCloudFPFH.h" declline="48" declcolumn="12"/>
       </memberdef>
+      <memberdef kind="function" id="group__PointCloudGroup_1gabcec15ad6215343b3e74c4a213f6e8a1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::vector&lt; VertPair &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; VertPair &gt; &gt; MR::findFPFHMatches</definition>
+        <argsstring>(const FPFHDescriptors &amp;srcDescriptors, const VertBitSet &amp;srcPoints, const FPFHDescriptors &amp;tgtDescriptors, const VertBitSet &amp;tgtPoints, bool mutual=true, const ProgressCallback &amp;progress={})</argsstring>
+        <name>findFPFHMatches</name>
+        <qualifiedname>MR::findFPFHMatches</qualifiedname>
+        <param>
+          <type>const FPFHDescriptors &amp;</type>
+          <declname>srcDescriptors</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>srcPoints</declname>
+        </param>
+        <param>
+          <type>const FPFHDescriptors &amp;</type>
+          <declname>tgtDescriptors</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>tgtPoints</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>mutual</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>progress</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Finds for every source point the target point with the closest descriptor (in Euclidean distance) by comparing all pairs of points, which is fast enough for clouds of several thousand points. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mutual</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true, keeps only the pairs where the source point is also the closest one to the target point </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>(source point, target point) pairs ordered by source point, or error if progress returned false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloudFPFH.h" line="56" column="12" declfile="MRMesh/MRPointCloudFPFH.h" declline="56" declcolumn="12"/>
+      </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1gabbad18eed929fbd7bec2afad0b91541d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; VertNormals &gt;</type>
         <definition>std::optional&lt; VertNormals &gt; MR::makeUnorientedNormals</definition>

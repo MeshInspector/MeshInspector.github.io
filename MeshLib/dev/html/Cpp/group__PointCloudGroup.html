@@ -154,6 +154,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga70346bb651583d4cbde24b58798afb7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the points with unique descriptors, which are less likely to be matched ambiguously: the points whose distance from the mean descriptor of all given points is outside the interval mu +- beta * sigma, where mu and sigma are the mean and the standard deviation of these distances.  <br /></td></tr>
 <tr class="memitem:ga4d9ae8f046bb54aa45a5eda1dc0a24e1" id="r_ga4d9ae8f046bb54aa45a5eda1dc0a24e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4d9ae8f046bb54aa45a5eda1dc0a24e1">MR::findUniqueFPFHPoints</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, float radius, float beta, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
 <tr class="memdesc:ga4d9ae8f046bb54aa45a5eda1dc0a24e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes FPFH descriptors of all valid points of given point cloud and finds the points with unique descriptors among them.  <br /></td></tr>
+<tr class="memitem:gabcec15ad6215343b3e74c4a213f6e8a1" id="r_gabcec15ad6215343b3e74c4a213f6e8a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="group__GeneralGroup.html#gad75ce80ca78d38bd524b9c4ccd7a520d">VertPair</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabcec15ad6215343b3e74c4a213f6e8a1">MR::findFPFHMatches</a> (const <a class="el" href="group__GeneralGroup.html#ga40b00a4d33abffac48088bf156d86028">FPFHDescriptors</a> &amp;srcDescriptors, const VertBitSet &amp;srcPoints, const <a class="el" href="group__GeneralGroup.html#ga40b00a4d33abffac48088bf156d86028">FPFHDescriptors</a> &amp;tgtDescriptors, const VertBitSet &amp;tgtPoints, bool mutual=true, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="memdesc:gabcec15ad6215343b3e74c4a213f6e8a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds for every source point the target point with the closest descriptor (in Euclidean distance) by comparing all pairs of points, which is fast enough for clouds of several thousand points.  <br /></td></tr>
 <tr class="memitem:gabbad18eed929fbd7bec2afad0b91541d" id="r_gabbad18eed929fbd7bec2afad0b91541d"><td class="memItemLeft" align="right" valign="top">std::optional&lt; VertNormals &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabbad18eed929fbd7bec2afad0b91541d">MR::makeUnorientedNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, float radius, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={}, <a class="el" href="group__GeneralGroup.html#gaf24a4564a6b209f61d84fd30c8c71a8b">OrientNormals</a> orient=<a class="el" href="group__GeneralGroup.html#ggaf24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666">OrientNormals::Smart</a>)</td></tr>
 <tr class="memdesc:gabbad18eed929fbd7bec2afad0b91541d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by directing them along the normal of best plane through the neighbours.  <br /></td></tr>
 <tr class="memitem:gabc9d6a3d4680264055d93f5039ee962e" id="r_gabc9d6a3d4680264055d93f5039ee962e"><td class="memItemLeft" align="right" valign="top">std::optional&lt; VertNormals &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabc9d6a3d4680264055d93f5039ee962e">MR::makeUnorientedNormals</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const <a class="el" href="structMR_1_1AllLocalTriangulations.html">AllLocalTriangulations</a> &amp;triangs, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={}, <a class="el" href="group__GeneralGroup.html#gaf24a4564a6b209f61d84fd30c8c71a8b">OrientNormals</a> orient=<a class="el" href="group__GeneralGroup.html#ggaf24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666">OrientNormals::Smart</a>)</td></tr>
@@ -260,6 +262,66 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="gabcec15ad6215343b3e74c4a213f6e8a1" name="gabcec15ad6215343b3e74c4a213f6e8a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabcec15ad6215343b3e74c4a213f6e8a1">&#9670;&#160;</a></span>findFPFHMatches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="group__GeneralGroup.html#gad75ce80ca78d38bd524b9c4ccd7a520d">VertPair</a> &gt; &gt; MR::findFPFHMatches </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga40b00a4d33abffac48088bf156d86028">FPFHDescriptors</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>srcDescriptors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>srcPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga40b00a4d33abffac48088bf156d86028">FPFHDescriptors</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tgtDescriptors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>tgtPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>mutual</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointCloudFPFH_8h.html">MRMesh/MRPointCloudFPFH.h</a>&gt;</code></p>
+
+<p>Finds for every source point the target point with the closest descriptor (in Euclidean distance) by comparing all pairs of points, which is fast enough for clouds of several thousand points. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mutual</td><td>if true, keeps only the pairs where the source point is also the closest one to the target point </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(source point, target point) pairs ordered by source point, or error if progress returned false </dd></dl>
 
 </div>
 </div>

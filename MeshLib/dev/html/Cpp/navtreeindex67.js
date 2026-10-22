@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1Mesh.html#a757524ab0b73b9ef9256daca95b55540":[9,0,0,7,1,108],
 "structMR_1_1Mesh.html#a76cd30890d96aba180bc7680067a1227":[9,0,0,7,1,68],
 "structMR_1_1Mesh.html#a780f0833527417e641ebbbd9ea27b39a":[9,0,0,7,1,75],
 "structMR_1_1Mesh.html#a794228b9596c5ff43f76dc8654d1545f":[9,0,0,7,1,58],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1Nesting_1_1MeshXf.html":[9,0,0,20,397],
 "structMR_1_1Nesting_1_1Nesting3mfParams.html":[9,0,0,20,98],
 "structMR_1_1Nesting_1_1NestingBaseParams.html":[9,0,0,20,398],
-"structMR_1_1Nesting_1_1NestingResult.html":[9,0,0,20,396],
-"structMR_1_1Nesting_1_1TetrisDensifyOptions.html":[9,0,0,20,900]
+"structMR_1_1Nesting_1_1NestingResult.html":[9,0,0,20,396]
 };

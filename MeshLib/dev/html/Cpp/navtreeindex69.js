@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1PreciseCutPoint.html#a11f572416abc57b91657513e1531cf49":[9,0,0,0,15,5],
 "structMR_1_1PreciseCutPoint.html#a38110f3393d6264ef6ef771ef5c9f01b":[9,0,0,0,15,1],
 "structMR_1_1PreciseCutPoint.html#a59bae2c82eba05713f1c6e0501eeaa63":[9,0,0,0,15,4],
 "structMR_1_1PreciseCutPoint.html#a8a92fbd8e3905e3e715622593fd712c9":[9,0,0,0,15,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1ThreadRootTimeRecord.html#afcc5ed565036ccc1c8fb6062fe2b4405":[9,0,0,3,14,4],
 "structMR_1_1TiffSaveSettings.html":[9,0,0,20,109],
 "structMR_1_1TimeRecord.html":[9,0,0,3,13],
-"structMR_1_1TimeRecord.html#a80d3da8e260d6c62716855a674a2bc46":[9,0,0,3,13,1],
-"structMR_1_1TimeRecord.html#aa1636ed4f889fa0058dc49ddbf33c8ff":[9,0,0,3,13,0]
+"structMR_1_1TimeRecord.html#a80d3da8e260d6c62716855a674a2bc46":[9,0,0,3,13,1]
 };

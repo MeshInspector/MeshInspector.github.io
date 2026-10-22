@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1Const__Ball2f.html#ae2a48d96bbed30410875ef0d8c43d7af":[9,3,0,0,0,253,7],
 "classMR_1_1Const__Ball2f.html#af6a74d238b63fc0afb50deadd764211f":[9,3,0,0,0,253,11],
 "classMR_1_1Const__Ball2f.html#afa1948c9bc4b7c88b8c3940888c0185e":[9,3,0,0,0,253,0],
 "classMR_1_1Const__Ball3d.html":[9,3,0,0,0,254],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1Const__BitSet_1_1Counts.html#a245ddc2db1e2394d22327d24ef5c0b8b":[9,3,0,0,0,268,1,0],
 "classMR_1_1Const__BitSet_1_1Counts.html#a255185c6b0b702f9d29ce2bebd1b13fc":[9,3,0,0,0,268,1,2],
 "classMR_1_1Const__BitSet_1_1Counts.html#a4cebf276bdd8f31fafd2797a892a3096":[9,3,0,0,0,268,1,4],
-"classMR_1_1Const__BitSet_1_1Counts.html#a51b8fc42ba00e61473dfc46027dcf742":[9,3,0,0,0,268,1,6],
-"classMR_1_1Const__BitSet_1_1Counts.html#a5f6779ab0ce18ffa1afa012fa1942975":[9,3,0,0,0,268,1,3]
+"classMR_1_1Const__BitSet_1_1Counts.html#a51b8fc42ba00e61473dfc46027dcf742":[9,3,0,0,0,268,1,6]
 };
