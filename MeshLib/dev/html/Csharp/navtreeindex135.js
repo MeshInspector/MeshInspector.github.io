@@ -1,5 +1,7 @@
 var NAVTREEINDEX135 =
 {
+"classMR_1_1Sphere2f.html#ad11950bcf5515f5843eb24b123395e00":[9,3,0,0,0,1673,1],
+"classMR_1_1Sphere3d.html":[9,3,0,0,0,1674],
 "classMR_1_1Sphere3d.html#a15e76a74cc21b8e2d338798d4c66f11b":[9,3,0,0,0,1674,3],
 "classMR_1_1Sphere3d.html#a42064ec0fc825fc169d766d78dbfec74":[9,3,0,0,0,1674,5],
 "classMR_1_1Sphere3d.html#a4ccbdcdadcd03f1128ca45e85743d091":[9,3,0,0,0,1674,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX135 =
 "classMR_1_1SubdivideSettings.html#a9cf86e36b3e6f9a951e3b6295ac62b33":[9,3,0,0,0,1683,15],
 "classMR_1_1SubdivideSettings.html#aa5445d7f8ce4e44a479be885013f10db":[9,3,0,0,0,1683,1],
 "classMR_1_1SubdivideSettings.html#aad4ac8496e56009514d91ed76ed5f65a":[9,3,0,0,0,1683,26],
-"classMR_1_1SubdivideSettings.html#ac0725c0a8ca1e72ee28c30686ef32d02":[9,3,0,0,0,1683,5],
-"classMR_1_1SubdivideSettings.html#acd71f5be2f9bd3b9345e3afe51716ffb":[9,3,0,0,0,1683,14],
-"classMR_1_1SubdivideSettings.html#adac3f7ef12797af17a598221cbcdb3de":[9,3,0,0,0,1683,6]
+"classMR_1_1SubdivideSettings.html#ac0725c0a8ca1e72ee28c30686ef32d02":[9,3,0,0,0,1683,5]
 };

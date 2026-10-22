@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209":[9,0,1,0,1,6,5],
+"namespaceMR_1_1Features.html#a91acadf34447ca8b79061efb805693dc":[9,0,1,0,1,6,7],
+"namespaceMR_1_1Features_1_1Primitives.html":[9,0,0,20,13],
 "namespaceMR_1_1Features_1_1Traits.html":[9,0,0,20,14],
 "namespaceMR_1_1FileDialog.html":[9,0,0,20,25],
 "namespaceMR_1_1FillingSurface.html":[9,0,1,0,1,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a5193f3c136e1dd90d3667140abe07142":[9,0,1,0,1,48,9,16],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a62b6b78ca42168fc955fdefacf122dbc":[9,0,1,0,1,48,9,21],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a67fe3715dd2312900f17fdaef28f483d":[9,0,1,0,1,48,9,28],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a70b22cb58952dd71245928ab25162601":[9,0,1,0,1,48,9,7],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a74d0cc8d7c6f77b21299297bf1209a48":[9,0,1,0,1,48,9,31],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a7d68c8f781e3418af969004dbd04dda9":[9,0,1,0,1,48,9,6],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a7fb2e55ac07a2151186d49e1b6401351":[9,0,1,0,1,48,9,10]
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a70b22cb58952dd71245928ab25162601":[9,0,1,0,1,48,9,7]
 };

@@ -1930,7 +1930,7 @@ var searchData=
   ['std_5farray_5fcubicbeziercurve_5fvector2f_5ft_5f4_50',['std_array_CubicBezierCurve_Vector2f_T_4',['../namespacemrmeshpy.html#aec35360d2c25bb5970695b239f26ea43',1,'mrmeshpy']]],
   ['std_5farray_5fcubicbeziercurve_5fvector3d_5ft_5f4_51',['std_array_CubicBezierCurve_Vector3d_T_4',['../namespacemrmeshpy.html#abc1f9952551d1606d33a04d5a9a1bd72',1,'mrmeshpy']]],
   ['std_5farray_5fcubicbeziercurve_5fvector3f_5ft_5f4_52',['std_array_CubicBezierCurve_Vector3f_T_4',['../namespacemrmeshpy.html#aa7ad831194317d57627da8c15c8cc5a4',1,'mrmeshpy']]],
-  ['std_5farray_5ffloat_5f3_5fptr_5ffpfhbins_53',['std_array_float_3_ptr_FPFHBins',['../namespacemrmeshpy.html#a0f2205ee287da0d5208277b0631f0e95',1,'mrmeshpy']]],
+  ['std_5farray_5ffloat_5ffpfhdescriptorsize_53',['std_array_float_FPFHDescriptorSize',['../namespacemrmeshpy.html#a51e68cb6b9253242906d7cd3f6bfed81',1,'mrmeshpy']]],
   ['std_5farray_5fsimplevolumeminmax_5f3_54',['std_array_SimpleVolumeMinMax_3',['../namespacemrmeshpy.html#af1304a431a579d04573de79f79f03485',1,'mrmeshpy']]],
   ['std_5farray_5fstd_5ffilesystem_5fpath_5fsize_5ft_5fsystemfonttype_5fcount_55',['std_array_std_filesystem_path_size_t_SystemFontType_Count',['../namespacemrmeshpy.html#abfc890f1c7b6a26f36a4760afaadf7ac',1,'mrmeshpy']]],
   ['std_5farray_5fvector2f_5f3_56',['std_array_Vector2f_3',['../namespacemrmeshpy.html#a6f3d280345d51597747e9940062c3bef',1,'mrmeshpy']]],

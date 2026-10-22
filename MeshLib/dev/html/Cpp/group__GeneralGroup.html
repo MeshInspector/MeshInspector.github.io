@@ -1755,8 +1755,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga19cb89c4b7c5582f2215200a5b0755af" id="r_ga19cb89c4b7c5582f2215200a5b0755af"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga19cb89c4b7c5582f2215200a5b0755af">MR::ContoursVariableOffset</a> = std::function&lt;float( int, int )&gt;</td></tr>
 <tr class="memitem:ga1b3a2ad8c458d6b108bfb101240d3d2c" id="r_ga1b3a2ad8c458d6b108bfb101240d3d2c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1b3a2ad8c458d6b108bfb101240d3d2c">MR::OffsetContoursRestoreZParams::OriginZCallback</a> = std::function&lt;float( const <a class="el" href="#ga8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a>&amp; offsetCont, const <a class="el" href="structMR_1_1OffsetContourIndex.html">OffsetContourIndex</a>&amp; offsetIndex, const <a class="el" href="structMR_1_1OffsetContoursOrigins.html">OffsetContoursOrigins</a>&amp; origingContourMapoing)&gt;</td></tr>
 <tr class="memitem:ga217b7a3f4fc9168e09f3d423beb790e5" id="r_ga217b7a3f4fc9168e09f3d423beb790e5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga217b7a3f4fc9168e09f3d423beb790e5">MR::MeshTriPointsConnector</a> = std::function&lt;<a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;<a class="el" href="#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>&gt;( const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a>&amp; start, const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a>&amp; <a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, int startIndex, int endIndex )&gt;</td></tr>
-<tr class="memitem:gadc35d96252f2f4e46b31ee7da4bc96d0" id="r_gadc35d96252f2f4e46b31ee7da4bc96d0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadc35d96252f2f4e46b31ee7da4bc96d0">MR::FPFHDescriptor</a> = std::array&lt;float, 3 * <a class="el" href="#ga3b90c83e8a1db82d0270a879f9d3bd16">FPFHBins</a>&gt;</td></tr>
-<tr class="memitem:ga40b00a4d33abffac48088bf156d86028" id="r_ga40b00a4d33abffac48088bf156d86028"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga40b00a4d33abffac48088bf156d86028">MR::FPFHDescriptors</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="#gadc35d96252f2f4e46b31ee7da4bc96d0">FPFHDescriptor</a>, VertId&gt;</td></tr>
+<tr class="memitem:gac8edd2f74c83902049883d385b91f3ac" id="r_gac8edd2f74c83902049883d385b91f3ac"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac8edd2f74c83902049883d385b91f3ac">MR::FPFHDescriptor</a> = std::array&lt;float, <a class="el" href="#ga49041d4755e77f85aa99eeedc68678c9">FPFHDescriptorSize</a>&gt;</td></tr>
+<tr class="memitem:ga40b00a4d33abffac48088bf156d86028" id="r_ga40b00a4d33abffac48088bf156d86028"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga40b00a4d33abffac48088bf156d86028">MR::FPFHDescriptors</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="#gac8edd2f74c83902049883d385b91f3ac">FPFHDescriptor</a>, VertId&gt;</td></tr>
 <tr class="memitem:ga3c6c4a3a98a6d5a53b51d05984395fa3" id="r_ga3c6c4a3a98a6d5a53b51d05984395fa3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3c6c4a3a98a6d5a53b51d05984395fa3">MR::PickedPoint</a> = std::variant&lt;std::monostate, <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a>, <a class="el" href="#ga2184a4ebcef7a214ba981313f3637935">EdgePoint</a>, VertId&gt;</td></tr>
 <tr class="memitem:ga30cd2d38272cf5fb35c10a421b4d2045" id="r_ga30cd2d38272cf5fb35c10a421b4d2045"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga30cd2d38272cf5fb35c10a421b4d2045">MR::FoundPointCallback</a> = std::function&lt;void( VertId, const Vector3f&amp; )&gt;</td></tr>
 <tr class="memitem:ga421af22aea174a88968edea770000bbc" id="r_ga421af22aea174a88968edea770000bbc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga421af22aea174a88968edea770000bbc">MR::OnPointInBallFound</a> = std::function&lt;<a class="el" href="#gae9fc4543eb3302ae33b7843707485149">Processing</a>( const <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a> &amp; found, const Vector3f &amp; foundXfPos, Ball3f &amp; ball )&gt;</td></tr>
@@ -13230,6 +13230,8 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga8b9684f693bcbb8c4f778a2250ab9b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional out map from input points to other part output  <br /></td></tr>
 <tr class="memitem:ga3b90c83e8a1db82d0270a879f9d3bd16" id="r_ga3b90c83e8a1db82d0270a879f9d3bd16"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3b90c83e8a1db82d0270a879f9d3bd16">MR::FPFHBins</a> = 11</td></tr>
 <tr class="memdesc:ga3b90c83e8a1db82d0270a879f9d3bd16"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of bins in each of three angular histograms of FPFH descriptor  <br /></td></tr>
+<tr class="memitem:ga49041d4755e77f85aa99eeedc68678c9" id="r_ga49041d4755e77f85aa99eeedc68678c9"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga49041d4755e77f85aa99eeedc68678c9">MR::FPFHDescriptorSize</a> = 3 * <a class="el" href="#ga3b90c83e8a1db82d0270a879f9d3bd16">FPFHBins</a></td></tr>
+<tr class="memdesc:ga49041d4755e77f85aa99eeedc68678c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of values in FPFH descriptor  <br /></td></tr>
 <tr class="memitem:ga85d4aad70140445a8b9ebadbc4382363" id="r_ga85d4aad70140445a8b9ebadbc4382363"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga85d4aad70140445a8b9ebadbc4382363">MR::PointCloudPart::cloud</a></td></tr>
 <tr class="memitem:gadb49365fb60e376e6302ffa62d2b534a" id="r_gadb49365fb60e376e6302ffa62d2b534a"><td class="memItemLeft" align="right" valign="top">const VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadb49365fb60e376e6302ffa62d2b534a">MR::PointCloudPart::region</a> = nullptr</td></tr>
 <tr class="memitem:ga322f3bf83bb9a37355ec261f5a5a2933" id="r_ga322f3bf83bb9a37355ec261f5a5a2933"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga322f3bf83bb9a37355ec261f5a5a2933">CapVisibility</a></td></tr>
@@ -18379,14 +18381,14 @@ template&lt;class T, class E = std::string&gt; </div>
 
 </div>
 </div>
-<a id="gadc35d96252f2f4e46b31ee7da4bc96d0" name="gadc35d96252f2f4e46b31ee7da4bc96d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadc35d96252f2f4e46b31ee7da4bc96d0">&#9670;&#160;</a></span>FPFHDescriptor</h2>
+<a id="gac8edd2f74c83902049883d385b91f3ac" name="gac8edd2f74c83902049883d385b91f3ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac8edd2f74c83902049883d385b91f3ac">&#9670;&#160;</a></span>FPFHDescriptor</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#gadc35d96252f2f4e46b31ee7da4bc96d0">MR::FPFHDescriptor</a> = std::array&lt;float, 3 * <a class="el" href="#ga3b90c83e8a1db82d0270a879f9d3bd16">FPFHBins</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#gac8edd2f74c83902049883d385b91f3ac">MR::FPFHDescriptor</a> = std::array&lt;float, <a class="el" href="#ga49041d4755e77f85aa99eeedc68678c9">FPFHDescriptorSize</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -18403,7 +18405,7 @@ template&lt;class T, class E = std::string&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ga40b00a4d33abffac48088bf156d86028">MR::FPFHDescriptors</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="#gadc35d96252f2f4e46b31ee7da4bc96d0">FPFHDescriptor</a>, VertId&gt;</td>
+          <td class="memname">using <a class="el" href="#ga40b00a4d33abffac48088bf156d86028">MR::FPFHDescriptors</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="#gac8edd2f74c83902049883d385b91f3ac">FPFHDescriptor</a>, VertId&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -215602,6 +215604,32 @@ not recommended in most cases </dd></dl>
 <p><code>#include &lt;<a class="el" href="MRPointCloudFPFH_8h.html">MRMesh/MRPointCloudFPFH.h</a>&gt;</code></p>
 
 <p>number of bins in each of three angular histograms of FPFH descriptor </p>
+
+</div>
+</div>
+<a id="ga49041d4755e77f85aa99eeedc68678c9" name="ga49041d4755e77f85aa99eeedc68678c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga49041d4755e77f85aa99eeedc68678c9">&#9670;&#160;</a></span>FPFHDescriptorSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::FPFHDescriptorSize = 3 * <a class="el" href="#ga3b90c83e8a1db82d0270a879f9d3bd16">FPFHBins</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPointCloudFPFH_8h.html">MRMesh/MRPointCloudFPFH.h</a>&gt;</code></p>
+
+<p>number of values in FPFH descriptor </p>
 
 </div>
 </div>

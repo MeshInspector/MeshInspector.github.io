@@ -92,7 +92,94 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointCloudFPFH.h" line="30" column="12" declfile="MRMesh/MRPointCloudFPFH.h" declline="30" declcolumn="12"/>
+        <location file="MRMesh/MRPointCloudFPFH.h" line="34" column="12" declfile="MRMesh/MRPointCloudFPFH.h" declline="34" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="group__PointCloudGroup_1ga70346bb651583d4cbde24b58798afb7b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::findUniqueFPFHPoints</definition>
+        <argsstring>(const FPFHDescriptors &amp;descriptors, const VertBitSet &amp;points, float beta)</argsstring>
+        <name>findUniqueFPFHPoints</name>
+        <qualifiedname>MR::findUniqueFPFHPoints</qualifiedname>
+        <param>
+          <type>const FPFHDescriptors &amp;</type>
+          <declname>descriptors</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <briefdescription>
+<para>Finds the points with unique descriptors, which are less likely to be matched ambiguously: the points whose distance from the mean descriptor of all given points is outside the interval mu +- beta * sigma, where mu and sigma are the mean and the standard deviation of these distances. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the half-width of the interval in standard deviations, usually 1..2 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloudFPFH.h" line="42" column="14" declfile="MRMesh/MRPointCloudFPFH.h" declline="42" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="group__PointCloudGroup_1ga4d9ae8f046bb54aa45a5eda1dc0a24e1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; VertBitSet &gt;</type>
+        <definition>Expected&lt; VertBitSet &gt; MR::findUniqueFPFHPoints</definition>
+        <argsstring>(const PointCloud &amp;pointCloud, float radius, float beta, const ProgressCallback &amp;progress={})</argsstring>
+        <name>findUniqueFPFHPoints</name>
+        <qualifiedname>MR::findUniqueFPFHPoints</qualifiedname>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>progress</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Computes FPFH descriptors of all valid points of given point cloud and finds the points with unique descriptors among them. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of neighborhood to consider in computeFPFH(...) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the half-width of the interval in standard deviations in findUniqueFPFHPoints(...), usually 1..2 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloudFPFH.h" line="48" column="12" declfile="MRMesh/MRPointCloudFPFH.h" declline="48" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1gabbad18eed929fbd7bec2afad0b91541d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; VertNormals &gt;</type>

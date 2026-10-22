@@ -1,5 +1,7 @@
 var NAVTREEINDEX157 =
 {
+"std__optional__MR__DentalId_8h.html#a2ef1f290c904a8e51dafa9b52c43bcf2":[9,2,2,0,0,0,0,2,213,9],
+"std__optional__MR__DentalId_8h.html#a70e90e25000fe83f068e20390c444a01":[9,2,2,0,0,0,0,2,213,1],
 "std__optional__MR__DentalId_8h.html#a767e86332b6a2186f3165682f5e6b2d7":[9,2,2,0,0,0,0,2,213,12],
 "std__optional__MR__DentalId_8h.html#a7d4a8b5b0b534e30d35f223682683dbe":[9,2,2,0,0,0,0,2,213,5],
 "std__optional__MR__DentalId_8h.html#a8146a1e0bae9c2c45834adcc8c2d4c4a":[9,2,2,0,0,0,0,2,213,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX157 =
 "std__optional__MR__PolylineIntersectionResult2_8h.html#aab8ca47902d7c4c1ac19071c75ac56d3":[9,2,2,0,0,0,0,2,229,4],
 "std__optional__MR__PolylineIntersectionResult2_8h.html#ad3264ceeed199d92fdebc3fa148a4cc7":[9,2,2,0,0,0,0,2,229,1],
 "std__optional__MR__PolylineIntersectionResult2_8h_source.html":[9,2,2,0,0,0,0,2,229],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html":[9,2,2,0,0,0,0,2,230],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a161d8e449886927b2605d802e650e616":[9,2,2,0,0,0,0,2,230,4],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a2fe07979d378f2957cd1e14dedb59b8e":[9,2,2,0,0,0,0,2,230,12]
+"std__optional__MR__SignedDistanceToMeshResult_8h.html":[9,2,2,0,0,0,0,2,230]
 };

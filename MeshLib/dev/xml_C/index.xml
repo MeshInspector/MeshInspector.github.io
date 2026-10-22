@@ -20401,8 +20401,11 @@
     <member refid="MRPointCloudDivideWithPlane_8h_1afb4666a02cb50a0dc71479d823772243" kind="function"><name>MR_divideWithPlane</name></member>
   </compound>
   <compound refid="MRPointCloudFPFH_8h" kind="file"><name>MRPointCloudFPFH.h</name>
+    <member refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kind="typedef"><name>MR_Vector_std_array_float_33_MR_VertId</name></member>
     <member refid="MRPointCloudFPFH_8h_1ad3806067dc6876f7a7ca7d6c8182fad0" kind="typedef"><name>MR_expected_MR_Vector_std_array_float_33_MR_VertId_std_string</name></member>
     <member refid="MRPointCloudFPFH_8h_1ae733c8a6dd2220b1e8847c9e48312b8d" kind="function"><name>MR_computeFPFH</name></member>
+    <member refid="MRPointCloudFPFH_8h_1a2aebd08e960491f9c84389668727a35c" kind="function"><name>MR_findUniqueFPFHPoints_3</name></member>
+    <member refid="MRPointCloudFPFH_8h_1aa65acdcecca98b84cfcb5b29bdf29c72" kind="function"><name>MR_findUniqueFPFHPoints_4</name></member>
   </compound>
   <compound refid="MRPointCloudMakeNormals_8h" kind="file"><name>MRPointCloudMakeNormals.h</name>
     <member refid="MRPointCloudMakeNormals_8h_1a27f61d56563234036fdbc292028e5ded" kind="function"><name>MR_makeUnorientedNormals_4_float</name></member>
@@ -25745,7 +25748,6 @@
     <member refid="MRVector_8h_1a0c0dd16249d38af8e7b594328132dbd6" kind="typedef"><name>MR_Vector_MR_VertBitSet_MR_ObjId</name></member>
     <member refid="MRVector_8h_1a90d2205356f441602a2ca190bd6d68e9" kind="typedef"><name>MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag</name></member>
     <member refid="MRVector_8h_1a4f148d063f550fb446ee93479092c41f" kind="typedef"><name>MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int</name></member>
-    <member refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kind="typedef"><name>MR_Vector_std_array_float_33_MR_VertId</name></member>
     <member refid="MRVector_8h_1a20be991f8f7af11e159fe34bfdd468b0" kind="typedef"><name>MR_Vector_int_MR_GraphVertId</name></member>
     <member refid="MRVector_8h_1a8d22a9c2e6c35d860a73c9d165ae88a7" kind="typedef"><name>MR_Vector_char_MR_VertId</name></member>
     <member refid="MRVector_8h_1a4e5a7cc8670588a2b2921a48cd85beee" kind="typedef"><name>MR_Vector_MR_FaceBitSet_MR_GraphVertId</name></member>

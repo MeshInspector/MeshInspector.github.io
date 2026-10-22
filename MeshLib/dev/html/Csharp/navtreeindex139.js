@@ -1,5 +1,7 @@
 var NAVTREEINDEX139 =
 {
+"classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[9,3,0,0,0,1722,3],
+"classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a0578186ad11d0a1e8a861d72ddc2e269":[9,3,0,0,0,1722,3,6],
 "classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a4de2f0629fe0e24244d1f70ac8435835":[9,3,0,0,0,1722,3,1],
 "classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a60ad9673510b4fbc8c8628dbc5f9cf39":[9,3,0,0,0,1722,3,4],
 "classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a63bc49ce930867100df4a9f996a112dd":[9,3,0,0,0,1722,3,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX139 =
 "classMR_1_1UndirectedEdgeBitSet.html#aee30e67af2c0533c6ccf097b90ecffcd":[9,3,0,0,0,1742,30],
 "classMR_1_1UndirectedEdgeBitSet.html#aee87d70a957a8c06178c0d31d378f665":[9,3,0,0,0,1742,2],
 "classMR_1_1UndirectedEdgeBitSet.html#af6d835a154736aca4567ad3a6f76fbcf":[9,3,0,0,0,1742,23],
-"classMR_1_1UndirectedEdgeBitSet.html#afa8fbf564b358a38ba65ebef43c403f8":[9,3,0,0,0,1742,18],
-"classMR_1_1UndirectedEdgeBitSet.html#aff05670041ac411b5158fe1f34d93305":[9,3,0,0,0,1742,31],
-"classMR_1_1UndirectedEdgeColors.html":[9,3,0,0,0,1744]
+"classMR_1_1UndirectedEdgeBitSet.html#afa8fbf564b358a38ba65ebef43c403f8":[9,3,0,0,0,1742,18]
 };

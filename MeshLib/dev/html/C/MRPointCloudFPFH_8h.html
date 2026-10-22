@@ -142,12 +142,18 @@ $(function(){initNavTree('MRPointCloudFPFH_8h.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a32d38a423bcf60099702534c8eca375c" id="r_a32d38a423bcf60099702534c8eca375c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a32d38a423bcf60099702534c8eca375c">MR_Vector_std_array_float_33_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32d38a423bcf60099702534c8eca375c">MR_Vector_std_array_float_33_MR_VertId</a></td></tr>
+<tr class="memdesc:a32d38a423bcf60099702534c8eca375c"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:ad3806067dc6876f7a7ca7d6c8182fad0" id="r_ad3806067dc6876f7a7ca7d6c8182fad0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad3806067dc6876f7a7ca7d6c8182fad0">MR_expected_MR_Vector_std_array_float_33_MR_VertId_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3806067dc6876f7a7ca7d6c8182fad0">MR_expected_MR_Vector_std_array_float_33_MR_VertId_std_string</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ae733c8a6dd2220b1e8847c9e48312b8d" id="r_ae733c8a6dd2220b1e8847c9e48312b8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad3806067dc6876f7a7ca7d6c8182fad0">MR_expected_MR_Vector_std_array_float_33_MR_VertId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae733c8a6dd2220b1e8847c9e48312b8d">MR_computeFPFH</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, float radius, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
 <tr class="memdesc:ae733c8a6dd2220b1e8847c9e48312b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes Fast Point Feature Histograms for all valid points of given point cloud, which can be compared to find corresponding points in two clouds independently of their relative position; the descriptors do not change under rigid motions and uniform scaling of the cloud (if radius is scaled as well)  <br /></td></tr>
+<tr class="memitem:a2aebd08e960491f9c84389668727a35c" id="r_a2aebd08e960491f9c84389668727a35c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aebd08e960491f9c84389668727a35c">MR_findUniqueFPFHPoints_3</a> (const <a class="el" href="#a32d38a423bcf60099702534c8eca375c">MR_Vector_std_array_float_33_MR_VertId</a> *descriptors, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *points, float beta)</td></tr>
+<tr class="memdesc:a2aebd08e960491f9c84389668727a35c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the points with unique descriptors, which are less likely to be matched ambiguously: the points whose distance from the mean descriptor of all given points is outside the interval mu +- beta * sigma, where mu and sigma are the mean and the standard deviation of these distances.  <br /></td></tr>
+<tr class="memitem:aa65acdcecca98b84cfcb5b29bdf29c72" id="r_aa65acdcecca98b84cfcb5b29bdf29c72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa65acdcecca98b84cfcb5b29bdf29c72">MR_findUniqueFPFHPoints_4</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, float radius, float beta, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
+<tr class="memdesc:aa65acdcecca98b84cfcb5b29bdf29c72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes FPFH descriptors of all valid points of given point cloud and finds the points with unique descriptors among them.  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="ad3806067dc6876f7a7ca7d6c8182fad0" name="ad3806067dc6876f7a7ca7d6c8182fad0"></a>
@@ -162,6 +168,29 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Stores either a <span class="tt">MR::Vector&lt;std::array&lt;float, 33&gt;, MR::VertId&gt;</span> that represents success or a <span class="tt">std::string</span> that represents an error. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a32d38a423bcf60099702534c8eca375c" name="a32d38a423bcf60099702534c8eca375c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32d38a423bcf60099702534c8eca375c">&#9670;&#160;</a></span>MR_Vector_std_array_float_33_MR_VertId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a32d38a423bcf60099702534c8eca375c">MR_Vector_std_array_float_33_MR_VertId</a> <a class="el" href="#a32d38a423bcf60099702534c8eca375c">MR_Vector_std_array_float_33_MR_VertId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
+    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;std::array&lt;float, 33&gt;, MR::VertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -198,6 +227,80 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>error if the cloud has no normals or progress returned false; the normals must be oriented consistently, e.g. by makeOrientedNormals(...) Generated from function <span class="tt">MR::computeFPFH</span>. Parameter <span class="tt">pointCloud</span> can not be null. It is a single object. Parameter <span class="tt">progress</span> is a single object. Parameter <span class="tt">progress</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Vector__std__array__float__33__MR__VertId__std__string_8h.html#a7b649ad6e08c12cc07c67182a31c8926" title="Destroys a heap-allocated instance of MR_expected_MR_Vector_std_array_float_33_MR_VertId_std_string....">MR_expected_MR_Vector_std_array_float_33_MR_VertId_std_string_Destroy()</a></span> to free it when you're done using it. </dd></dl>
+
+</div>
+</div>
+<a id="a2aebd08e960491f9c84389668727a35c" name="a2aebd08e960491f9c84389668727a35c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aebd08e960491f9c84389668727a35c">&#9670;&#160;</a></span>MR_findUniqueFPFHPoints_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_findUniqueFPFHPoints_3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a32d38a423bcf60099702534c8eca375c">MR_Vector_std_array_float_33_MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>descriptors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>beta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds the points with unique descriptors, which are less likely to be matched ambiguously: the points whose distance from the mean descriptor of all given points is outside the interval mu +- beta * sigma, where mu and sigma are the mean and the standard deviation of these distances. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">beta</td><td>the half-width of the interval in standard deviations, usually 1..2 Generated from function <span class="tt">MR::findUniqueFPFHPoints</span>. Parameter <span class="tt">descriptors</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></span> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa65acdcecca98b84cfcb5b29bdf29c72" name="aa65acdcecca98b84cfcb5b29bdf29c72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa65acdcecca98b84cfcb5b29bdf29c72">&#9670;&#160;</a></span>MR_findUniqueFPFHPoints_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a> * MR_findUniqueFPFHPoints_4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>pointCloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>beta</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>progress</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Computes FPFH descriptors of all valid points of given point cloud and finds the points with unique descriptors among them. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radius</td><td>of neighborhood to consider in computeFPFH(...) </td></tr>
+    <tr><td class="paramname">beta</td><td>the half-width of the interval in standard deviations in findUniqueFPFHPoints(...), usually 1..2 Generated from function <span class="tt">MR::findUniqueFPFHPoints</span>. Parameter <span class="tt">pointCloud</span> can not be null. It is a single object. Parameter <span class="tt">progress</span> is a single object. Parameter <span class="tt">progress</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__VertBitSet__std__string_8h.html#a4a84f59db0dc8928f0e7d694f796d982" title="Destroys a heap-allocated instance of MR_expected_MR_VertBitSet_std_string. Does nothing if the point...">MR_expected_MR_VertBitSet_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

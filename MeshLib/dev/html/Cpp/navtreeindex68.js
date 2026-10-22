@@ -1,5 +1,8 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Nesting_1_1TetrisDensifyParams.html":[9,0,0,20,901],
+"structMR_1_1NewEdgesMap.html":[9,0,0,8,2],
+"structMR_1_1NewEdgesMap.html":[9,0,0,20,191],
 "structMR_1_1NoCtor.html":[9,0,0,20,145],
 "structMR_1_1NoCtor_3_01T_01_4.html":[9,0,0,20,146],
 "structMR_1_1NoDefInit.html":[9,0,0,20,399],
@@ -246,8 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html":[9,0,0,20,477],
 "structMR_1_1PreciseCutPoint.html":[9,0,0,0,15],
 "structMR_1_1PreciseCutPoint.html#a00d67e208d245c5ddd9f144d0bd78590":[9,0,0,0,15,2],
-"structMR_1_1PreciseCutPoint.html#a11f572416abc57b91657513e1531cf49":[9,0,0,0,15,5],
-"structMR_1_1PreciseCutPoint.html#a38110f3393d6264ef6ef771ef5c9f01b":[9,0,0,0,15,1],
-"structMR_1_1PreciseCutPoint.html#a59bae2c82eba05713f1c6e0501eeaa63":[9,0,0,0,15,4],
-"structMR_1_1PreciseCutPoint.html#a8a92fbd8e3905e3e715622593fd712c9":[9,0,0,0,15,3]
+"structMR_1_1PreciseCutPoint.html#a11f572416abc57b91657513e1531cf49":[9,0,0,0,15,5]
 };

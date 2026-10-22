@@ -3483,6 +3483,8 @@ var classMR =
     [ "findTwoLineSegmClosestPoints", "classMR.html#a3f1e5567a27578661dbd4706b5cad24d", null ],
     [ "findTwoLineSegmClosestPoints", "classMR.html#a0b9ac4317cf9636d119985beda098d55", null ],
     [ "findTwoSegmentsIntersection", "classMR.html#a83e0b345b01c84fd05648c47894e2c0e", null ],
+    [ "findUniqueFPFHPoints", "classMR.html#a55a855a432f6bf973e56e13779c139a5", null ],
+    [ "findUniqueFPFHPoints", "classMR.html#a3eca8c9ccc48ab9c8eb65bf75b25dd35", null ],
     [ "findVertexUV", "classMR.html#a7cd260780645bc9fb94b14b47ca7ca10", null ],
     [ "findVertexUVs", "classMR.html#aa7880a792cc8204ab77e68904f70fb26", null ],
     [ "findZcompensatedPositions", "classMR.html#a59b5946af39a0b8810e3a690020d4e5d", null ],

@@ -17622,9 +17622,9 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MROneMeshContours.h" line="75" column="1" bodyfile="MRMesh/MROneMeshContours.h" bodystart="75" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="group__GeneralGroup_1gadc35d96252f2f4e46b31ee7da4bc96d0" prot="public" static="no">
-        <type>std::array&lt; float, 3 *FPFHBins &gt;</type>
-        <definition>using MR::FPFHDescriptor =  std::array&lt;float, 3 * FPFHBins&gt;</definition>
+      <memberdef kind="typedef" id="group__GeneralGroup_1gac8edd2f74c83902049883d385b91f3ac" prot="public" static="no">
+        <type>std::array&lt; float, FPFHDescriptorSize &gt;</type>
+        <definition>using MR::FPFHDescriptor =  std::array&lt;float, FPFHDescriptorSize&gt;</definition>
         <argsstring></argsstring>
         <name>FPFHDescriptor</name>
         <qualifiedname>MR::FPFHDescriptor</qualifiedname>
@@ -17635,7 +17635,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointCloudFPFH.h" line="20" column="1" bodyfile="MRMesh/MRPointCloudFPFH.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudFPFH.h" line="24" column="1" bodyfile="MRMesh/MRPointCloudFPFH.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga40b00a4d33abffac48088bf156d86028" prot="public" static="no">
         <type>Vector&lt; FPFHDescriptor, VertId &gt;</type>
@@ -17649,7 +17649,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointCloudFPFH.h" line="21" column="1" bodyfile="MRMesh/MRPointCloudFPFH.h" bodystart="21" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudFPFH.h" line="25" column="1" bodyfile="MRMesh/MRPointCloudFPFH.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" prot="public" static="no">
         <type>std::variant&lt; std::monostate, MeshTriPoint, EdgePoint, VertId &gt;</type>
@@ -41895,7 +41895,23 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointCloudFPFH.h" line="15" column="22" bodyfile="MRMesh/MRPointCloudFPFH.h" bodystart="15" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloudFPFH.h" line="16" column="22" bodyfile="MRMesh/MRPointCloudFPFH.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga49041d4755e77f85aa99eeedc68678c9" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::FPFHDescriptorSize</definition>
+        <argsstring></argsstring>
+        <name>FPFHDescriptorSize</name>
+        <qualifiedname>MR::FPFHDescriptorSize</qualifiedname>
+        <initializer>= 3 * FPFHBins</initializer>
+        <briefdescription>
+<para>number of values in FPFH descriptor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloudFPFH.h" line="19" column="22" bodyfile="MRMesh/MRPointCloudFPFH.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga85d4aad70140445a8b9ebadbc4382363" prot="public" static="no" mutable="no">
         <type>const PointCloud &amp;</type>

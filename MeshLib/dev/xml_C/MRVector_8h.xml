@@ -2810,38 +2810,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="819" column="83" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" bodystart="819" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" prot="public" static="no">
-        <type>struct <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref></type>
-        <definition>typedef struct MR_Vector_std_array_float_33_MR_VertId MR_Vector_std_array_float_33_MR_VertId</definition>
-        <argsstring></argsstring>
-        <name>MR_Vector_std_array_float_33_MR_VertId</name>
-        <briefdescription>
-<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="templateparam"><parameteritem>
-<parameternamelist>
-<parametername>T</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>type of stored elements </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>I</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;std::array&lt;float, 33&gt;, MR::VertId&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="829" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" bodystart="829" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRVector_8h_1a20be991f8f7af11e159fe34bfdd468b0" prot="public" static="no">
         <type>struct <ref refid="MRVector_8h_1a20be991f8f7af11e159fe34bfdd468b0" kindref="member">MR_Vector_int_MR_GraphVertId</ref></type>
         <definition>typedef struct MR_Vector_int_MR_GraphVertId MR_Vector_int_MR_GraphVertId</definition>
@@ -78550,7 +78518,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_Get_vec</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -78568,7 +78536,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, MR_PassBy value_pass_by, MR_std_vector_std_array_float_33 *value)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_Set_vec</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -78594,7 +78562,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_GetMutable_vec</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -78607,7 +78575,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="21817" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="21817" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a6eeacbf66ef52ec9d7354198bbb6f2f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
         <definition>MRC_API MR_Vector_std_array_float_33_MR_VertId * MR_Vector_std_array_float_33_MR_VertId_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_DefaultConstruct</name>
@@ -78624,7 +78592,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="21821" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="21821" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1afd1468f8b0520d4e048ea0cdde5c8c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
         <definition>MRC_API MR_Vector_std_array_float_33_MR_VertId * MR_Vector_std_array_float_33_MR_VertId_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_DefaultConstructArray</name>
@@ -78642,12 +78610,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="21826" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="21826" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a1e99983d09c265a4fbe2cfe58cca1fa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
         <definition>MRC_API const MR_Vector_std_array_float_33_MR_VertId * MR_Vector_std_array_float_33_MR_VertId_OffsetPtr</definition>
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -78664,12 +78632,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="21830" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="21830" declcolumn="54"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a6c024a40902d72b37279970177e09e0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
         <definition>MRC_API MR_Vector_std_array_float_33_MR_VertId * MR_Vector_std_array_float_33_MR_VertId_OffsetMutablePtr</definition>
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -78686,7 +78654,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="21834" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="21834" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a313c5e0835e11477c949d6ef58a32a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
         <definition>MRC_API MR_Vector_std_array_float_33_MR_VertId * MR_Vector_std_array_float_33_MR_VertId_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_Vector_std_array_float_33_MR_VertId *_other)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_ConstructFromAnother</name>
@@ -78695,7 +78663,7 @@
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -78708,7 +78676,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="21839" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="21839" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a42836c401925f3447cd4aab53eadda18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
         <definition>MRC_API MR_Vector_std_array_float_33_MR_VertId * MR_Vector_std_array_float_33_MR_VertId_Construct</definition>
         <argsstring>(size_t size)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_Construct</name>
@@ -78726,7 +78694,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="21845" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="21845" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a5f1aca28ceaa772eb599eb0b98df2695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
         <definition>MRC_API MR_Vector_std_array_float_33_MR_VertId * MR_Vector_std_array_float_33_MR_VertId_Construct_fill</definition>
         <argsstring>(size_t size, const MR_std_array_float_33 *val)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_Construct_fill</name>
@@ -78753,11 +78721,11 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_Destroy</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -78771,11 +78739,11 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -78784,12 +78752,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" line="21859" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector.h" declline="21859" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRVector_8h_1a424f4681f86f2b1661e5d4a311917d18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
         <definition>MRC_API MR_Vector_std_array_float_33_MR_VertId * MR_Vector_std_array_float_33_MR_VertId_AssignFromAnother</definition>
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, MR_PassBy _other_pass_by, MR_Vector_std_array_float_33_MR_VertId *_other)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -78797,7 +78765,7 @@
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -78815,7 +78783,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, size_t count, const MR_std_array_float_33 *val)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_assign</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -78841,11 +78809,11 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this, const MR_Vector_std_array_float_33_MR_VertId *b)</argsstring>
         <name>MR_equal_MR_Vector_std_array_float_33_MR_VertId</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -78863,11 +78831,11 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this, const MR_Vector_std_array_float_33_MR_VertId *b)</argsstring>
         <name>MR_not_equal_MR_Vector_std_array_float_33_MR_VertId</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -78885,7 +78853,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_clear</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -78903,7 +78871,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_empty</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -78921,7 +78889,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_size</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -78939,7 +78907,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_max_size</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -78957,7 +78925,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, size_t newSize)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_resize_1</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -78979,7 +78947,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, size_t newSize, const MR_std_array_float_33 *t)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_resize_2</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79005,7 +78973,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_capacity</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79023,7 +78991,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, size_t capacity)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_reserve</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79045,7 +79013,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_shrink_to_fit</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79063,7 +79031,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this, MR_VertId i)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_index</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79085,7 +79053,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, MR_VertId i)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_index_mut</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79107,7 +79075,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, size_t newSize)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_1</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79129,7 +79097,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, size_t newSize, const MR_std_array_float_33 *value)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_2</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79155,7 +79123,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, MR_VertId pos, size_t len, MR_std_array_float_33 val)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_3</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79185,7 +79153,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, MR_VertId i, MR_std_array_float_33 val)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_2</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79211,7 +79179,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, MR_VertId i)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_autoResizeAt</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79233,7 +79201,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, const MR_std_array_float_33 *t)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_push_back_const_std_array_float_33_ref</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79255,7 +79223,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, MR_std_array_float_33 *t)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_push_back_std_array_float_33_rvalue_ref</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79277,7 +79245,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_pop_back</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79295,7 +79263,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, const MR_std_vector_std_array_float_33_const_iterator *pos, const MR_std_array_float_33 *t)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_insert_2_const_std_array_float_33_ref</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79321,7 +79289,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, const MR_std_vector_std_array_float_33_const_iterator *pos, MR_std_array_float_33 *t)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_insert_2_std_array_float_33_rvalue_ref</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79347,7 +79315,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, const MR_std_vector_std_array_float_33_const_iterator *pos, size_t count, const MR_std_array_float_33 *t)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_insert_3</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79377,7 +79345,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, const MR_std_vector_std_array_float_33_const_iterator *pos)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_erase_1</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79399,7 +79367,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, const MR_std_vector_std_array_float_33_const_iterator *first, const MR_std_vector_std_array_float_33_const_iterator *last)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_erase_2</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -79425,7 +79393,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_front</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79443,7 +79411,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_front_mut</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79461,7 +79429,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_back</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79479,7 +79447,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_back_mut</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79497,7 +79465,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_beginId</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79515,7 +79483,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_backId</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79533,7 +79501,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_endId</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79551,7 +79519,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_data_mut</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79569,7 +79537,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_data</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79587,7 +79555,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_begin_mut</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79605,7 +79573,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_begin</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79623,7 +79591,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_cbegin</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79641,7 +79609,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_end_mut</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79659,7 +79627,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_end</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79677,7 +79645,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_cend</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79695,11 +79663,11 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *_this, MR_Vector_std_array_float_33_MR_VertId *b)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_swap</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -79717,7 +79685,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *_this)</argsstring>
         <name>MR_Vector_std_array_float_33_MR_VertId_heapBytes</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -79735,7 +79703,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *a)</argsstring>
         <name>MR_begin_const_MR_Vector_std_array_float_33_MR_VertId_ref</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -79753,7 +79721,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *a)</argsstring>
         <name>MR_begin_MR_Vector_std_array_float_33_MR_VertId_ref</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -79771,7 +79739,7 @@
         <argsstring>(const MR_Vector_std_array_float_33_MR_VertId *a)</argsstring>
         <name>MR_end_const_MR_Vector_std_array_float_33_MR_VertId_ref</name>
         <param>
-          <type>const <ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type>const <ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -79789,7 +79757,7 @@
         <argsstring>(MR_Vector_std_array_float_33_MR_VertId *a)</argsstring>
         <name>MR_end_MR_Vector_std_array_float_33_MR_VertId_ref</name>
         <param>
-          <type><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
+          <type><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref> *</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -102781,7 +102749,7 @@
 <codeline lineno="810"><highlight class="normal"></highlight></codeline>
 <codeline lineno="819" refid="MRVector_8h_1a4f148d063f550fb446ee93479092c41f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a4f148d063f550fb446ee93479092c41f" kindref="member">MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int</ref><sp/><ref refid="MRVector_8h_1a4f148d063f550fb446ee93479092c41f" kindref="member">MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int</ref>;</highlight></codeline>
 <codeline lineno="820"><highlight class="normal"></highlight></codeline>
-<codeline lineno="829" refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref>;</highlight></codeline>
+<codeline lineno="829"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref>;</highlight></codeline>
 <codeline lineno="830"><highlight class="normal"></highlight></codeline>
 <codeline lineno="839"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineDecimate_8h_1a9f177a2dfee438db08a5310661f61785" kindref="member">MR_Vector_MR_QuadraticForm2f_MR_VertId</ref><sp/><ref refid="MRPolylineDecimate_8h_1a9f177a2dfee438db08a5310661f61785" kindref="member">MR_Vector_MR_QuadraticForm2f_MR_VertId</ref>;</highlight></codeline>
 <codeline lineno="840"><highlight class="normal"></highlight></codeline>
@@ -110277,129 +110245,129 @@
 <codeline lineno="21791"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21796" refid="MRVector_8h_1a991017014de5b098e594f38454eb1e45" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a794801f4e8530f2ab2cd8bceaac2251b" kindref="member">MR_std_vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_iterator</ref><sp/>*<ref refid="MRVector_8h_1a991017014de5b098e594f38454eb1e45" kindref="member">MR_end_MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int_ref</ref>(<ref refid="MRVector_8h_1a4f148d063f550fb446ee93479092c41f" kindref="member">MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int</ref><sp/>*a);</highlight></codeline>
 <codeline lineno="21797"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21803" refid="MRVector_8h_1af26ecdb9afe44b57f5f7e1db67928f74" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="MRVector_8h_1a1201d57bda2c347f5bdaf68be2486467" kindref="member">MR_std_vector_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1af26ecdb9afe44b57f5f7e1db67928f74" kindref="member">MR_Vector_std_array_float_33_MR_VertId_Get_vec</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="21803" refid="MRVector_8h_1af26ecdb9afe44b57f5f7e1db67928f74" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="MRVector_8h_1a1201d57bda2c347f5bdaf68be2486467" kindref="member">MR_std_vector_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1af26ecdb9afe44b57f5f7e1db67928f74" kindref="member">MR_Vector_std_array_float_33_MR_VertId_Get_vec</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="21804"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21810" refid="MRVector_8h_1a0eaec88fa8e4bf4535cbf8a0a56c6121" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eaec88fa8e4bf4535cbf8a0a56c6121" kindref="member">MR_Vector_std_array_float_33_MR_VertId_Set_vec</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRVector_8h_1a1201d57bda2c347f5bdaf68be2486467" kindref="member">MR_std_vector_std_array_float_33</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="21810" refid="MRVector_8h_1a0eaec88fa8e4bf4535cbf8a0a56c6121" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eaec88fa8e4bf4535cbf8a0a56c6121" kindref="member">MR_Vector_std_array_float_33_MR_VertId_Set_vec</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRVector_8h_1a1201d57bda2c347f5bdaf68be2486467" kindref="member">MR_std_vector_std_array_float_33</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="21811"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21817" refid="MRVector_8h_1a91f1e96bb8eae959715771d18ed49f6e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1201d57bda2c347f5bdaf68be2486467" kindref="member">MR_std_vector_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1a91f1e96bb8eae959715771d18ed49f6e" kindref="member">MR_Vector_std_array_float_33_MR_VertId_GetMutable_vec</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="21817" refid="MRVector_8h_1a91f1e96bb8eae959715771d18ed49f6e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1201d57bda2c347f5bdaf68be2486467" kindref="member">MR_std_vector_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1a91f1e96bb8eae959715771d18ed49f6e" kindref="member">MR_Vector_std_array_float_33_MR_VertId_GetMutable_vec</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="21818"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21821" refid="MRVector_8h_1a6eeacbf66ef52ec9d7354198bbb6f2f2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a6eeacbf66ef52ec9d7354198bbb6f2f2" kindref="member">MR_Vector_std_array_float_33_MR_VertId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21821" refid="MRVector_8h_1a6eeacbf66ef52ec9d7354198bbb6f2f2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a6eeacbf66ef52ec9d7354198bbb6f2f2" kindref="member">MR_Vector_std_array_float_33_MR_VertId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="21822"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21826" refid="MRVector_8h_1afd1468f8b0520d4e048ea0cdde5c8c41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1afd1468f8b0520d4e048ea0cdde5c8c41" kindref="member">MR_Vector_std_array_float_33_MR_VertId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="21826" refid="MRVector_8h_1afd1468f8b0520d4e048ea0cdde5c8c41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1afd1468f8b0520d4e048ea0cdde5c8c41" kindref="member">MR_Vector_std_array_float_33_MR_VertId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="21827"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21830" refid="MRVector_8h_1a1e99983d09c265a4fbe2cfe58cca1fa8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a1e99983d09c265a4fbe2cfe58cca1fa8" kindref="member">MR_Vector_std_array_float_33_MR_VertId_OffsetPtr</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="21830" refid="MRVector_8h_1a1e99983d09c265a4fbe2cfe58cca1fa8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a1e99983d09c265a4fbe2cfe58cca1fa8" kindref="member">MR_Vector_std_array_float_33_MR_VertId_OffsetPtr</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="21831"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21834" refid="MRVector_8h_1a6c024a40902d72b37279970177e09e0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a6c024a40902d72b37279970177e09e0b" kindref="member">MR_Vector_std_array_float_33_MR_VertId_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="21834" refid="MRVector_8h_1a6c024a40902d72b37279970177e09e0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a6c024a40902d72b37279970177e09e0b" kindref="member">MR_Vector_std_array_float_33_MR_VertId_OffsetMutablePtr</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="21835"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21839" refid="MRVector_8h_1a313c5e0835e11477c949d6ef58a32a1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a313c5e0835e11477c949d6ef58a32a1a" kindref="member">MR_Vector_std_array_float_33_MR_VertId_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="21839" refid="MRVector_8h_1a313c5e0835e11477c949d6ef58a32a1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a313c5e0835e11477c949d6ef58a32a1a" kindref="member">MR_Vector_std_array_float_33_MR_VertId_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="21840"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21845" refid="MRVector_8h_1a42836c401925f3447cd4aab53eadda18" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a42836c401925f3447cd4aab53eadda18" kindref="member">MR_Vector_std_array_float_33_MR_VertId_Construct</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="21845" refid="MRVector_8h_1a42836c401925f3447cd4aab53eadda18" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a42836c401925f3447cd4aab53eadda18" kindref="member">MR_Vector_std_array_float_33_MR_VertId_Construct</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
 <codeline lineno="21846"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21853" refid="MRVector_8h_1a5f1aca28ceaa772eb599eb0b98df2695" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a5f1aca28ceaa772eb599eb0b98df2695" kindref="member">MR_Vector_std_array_float_33_MR_VertId_Construct_fill</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*val);</highlight></codeline>
+<codeline lineno="21853" refid="MRVector_8h_1a5f1aca28ceaa772eb599eb0b98df2695" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a5f1aca28ceaa772eb599eb0b98df2695" kindref="member">MR_Vector_std_array_float_33_MR_VertId_Construct_fill</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*val);</highlight></codeline>
 <codeline lineno="21854"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21856" refid="MRVector_8h_1a5328278ecc87c82853a7094a9720bc24" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5328278ecc87c82853a7094a9720bc24" kindref="member">MR_Vector_std_array_float_33_MR_VertId_Destroy</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="21856" refid="MRVector_8h_1a5328278ecc87c82853a7094a9720bc24" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5328278ecc87c82853a7094a9720bc24" kindref="member">MR_Vector_std_array_float_33_MR_VertId_Destroy</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="21857"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21859" refid="MRVector_8h_1acf5366d5f66c988773b70112844ef27c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1acf5366d5f66c988773b70112844ef27c" kindref="member">MR_Vector_std_array_float_33_MR_VertId_DestroyArray</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="21859" refid="MRVector_8h_1acf5366d5f66c988773b70112844ef27c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1acf5366d5f66c988773b70112844ef27c" kindref="member">MR_Vector_std_array_float_33_MR_VertId_DestroyArray</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="21860"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21866" refid="MRVector_8h_1a424f4681f86f2b1661e5d4a311917d18" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a424f4681f86f2b1661e5d4a311917d18" kindref="member">MR_Vector_std_array_float_33_MR_VertId_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="21866" refid="MRVector_8h_1a424f4681f86f2b1661e5d4a311917d18" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*<ref refid="MRVector_8h_1a424f4681f86f2b1661e5d4a311917d18" kindref="member">MR_Vector_std_array_float_33_MR_VertId_AssignFromAnother</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="21867"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21873" refid="MRVector_8h_1a53d1382bde635d875e3d463325c097bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a53d1382bde635d875e3d463325c097bf" kindref="member">MR_Vector_std_array_float_33_MR_VertId_assign</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>count,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*val);</highlight></codeline>
+<codeline lineno="21873" refid="MRVector_8h_1a53d1382bde635d875e3d463325c097bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a53d1382bde635d875e3d463325c097bf" kindref="member">MR_Vector_std_array_float_33_MR_VertId_assign</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>count,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*val);</highlight></codeline>
 <codeline lineno="21874"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21878" refid="MRVector_8h_1a1b87c6eec9be6f158d8cedfdd8b43d6a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1b87c6eec9be6f158d8cedfdd8b43d6a" kindref="member">MR_equal_MR_Vector_std_array_float_33_MR_VertId</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="21878" refid="MRVector_8h_1a1b87c6eec9be6f158d8cedfdd8b43d6a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1b87c6eec9be6f158d8cedfdd8b43d6a" kindref="member">MR_equal_MR_Vector_std_array_float_33_MR_VertId</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="21879"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21883" refid="MRVector_8h_1a46f4bf43d78b44b03b4cb20efb61ed92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a46f4bf43d78b44b03b4cb20efb61ed92" kindref="member">MR_not_equal_MR_Vector_std_array_float_33_MR_VertId</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="21883" refid="MRVector_8h_1a46f4bf43d78b44b03b4cb20efb61ed92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a46f4bf43d78b44b03b4cb20efb61ed92" kindref="member">MR_not_equal_MR_Vector_std_array_float_33_MR_VertId</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="21884"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21887" refid="MRVector_8h_1ac5d2941f93e2c814d5411607350ac3b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ac5d2941f93e2c814d5411607350ac3b8" kindref="member">MR_Vector_std_array_float_33_MR_VertId_clear</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="21887" refid="MRVector_8h_1ac5d2941f93e2c814d5411607350ac3b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ac5d2941f93e2c814d5411607350ac3b8" kindref="member">MR_Vector_std_array_float_33_MR_VertId_clear</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="21888"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21891" refid="MRVector_8h_1a2e4fe1af985e62d570f46881fd02b081" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2e4fe1af985e62d570f46881fd02b081" kindref="member">MR_Vector_std_array_float_33_MR_VertId_empty</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="21891" refid="MRVector_8h_1a2e4fe1af985e62d570f46881fd02b081" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2e4fe1af985e62d570f46881fd02b081" kindref="member">MR_Vector_std_array_float_33_MR_VertId_empty</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="21892"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21895" refid="MRVector_8h_1ab78c4b522c23b4552ef18702bff6a6bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab78c4b522c23b4552ef18702bff6a6bc" kindref="member">MR_Vector_std_array_float_33_MR_VertId_size</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="21895" refid="MRVector_8h_1ab78c4b522c23b4552ef18702bff6a6bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab78c4b522c23b4552ef18702bff6a6bc" kindref="member">MR_Vector_std_array_float_33_MR_VertId_size</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="21896"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21899" refid="MRVector_8h_1af7f38e26dc12714de7de7ba2b6afb53e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af7f38e26dc12714de7de7ba2b6afb53e" kindref="member">MR_Vector_std_array_float_33_MR_VertId_max_size</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="21899" refid="MRVector_8h_1af7f38e26dc12714de7de7ba2b6afb53e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af7f38e26dc12714de7de7ba2b6afb53e" kindref="member">MR_Vector_std_array_float_33_MR_VertId_max_size</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="21900"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21903" refid="MRVector_8h_1a939ad051c409d7a2570be9cd580574dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a939ad051c409d7a2570be9cd580574dd" kindref="member">MR_Vector_std_array_float_33_MR_VertId_resize_1</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize);</highlight></codeline>
+<codeline lineno="21903" refid="MRVector_8h_1a939ad051c409d7a2570be9cd580574dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a939ad051c409d7a2570be9cd580574dd" kindref="member">MR_Vector_std_array_float_33_MR_VertId_resize_1</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize);</highlight></codeline>
 <codeline lineno="21904"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21908" refid="MRVector_8h_1ad33eeb9f0b93d2f3bbd7b2ca05b2a0dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33eeb9f0b93d2f3bbd7b2ca05b2a0dd" kindref="member">MR_Vector_std_array_float_33_MR_VertId_resize_2</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*t);</highlight></codeline>
+<codeline lineno="21908" refid="MRVector_8h_1ad33eeb9f0b93d2f3bbd7b2ca05b2a0dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33eeb9f0b93d2f3bbd7b2ca05b2a0dd" kindref="member">MR_Vector_std_array_float_33_MR_VertId_resize_2</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*t);</highlight></codeline>
 <codeline lineno="21909"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21912" refid="MRVector_8h_1a4ca5eb875d548c8455187fabf9191d9b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a4ca5eb875d548c8455187fabf9191d9b" kindref="member">MR_Vector_std_array_float_33_MR_VertId_capacity</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="21912" refid="MRVector_8h_1a4ca5eb875d548c8455187fabf9191d9b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a4ca5eb875d548c8455187fabf9191d9b" kindref="member">MR_Vector_std_array_float_33_MR_VertId_capacity</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="21913"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21916" refid="MRVector_8h_1a89361904eecc0506aa3fd4e26f06cffa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a89361904eecc0506aa3fd4e26f06cffa" kindref="member">MR_Vector_std_array_float_33_MR_VertId_reserve</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>capacity);</highlight></codeline>
+<codeline lineno="21916" refid="MRVector_8h_1a89361904eecc0506aa3fd4e26f06cffa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a89361904eecc0506aa3fd4e26f06cffa" kindref="member">MR_Vector_std_array_float_33_MR_VertId_reserve</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>capacity);</highlight></codeline>
 <codeline lineno="21917"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21920" refid="MRVector_8h_1a718ae58145fcf2d96add12ce49994f55" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a718ae58145fcf2d96add12ce49994f55" kindref="member">MR_Vector_std_array_float_33_MR_VertId_shrink_to_fit</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="21920" refid="MRVector_8h_1a718ae58145fcf2d96add12ce49994f55" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a718ae58145fcf2d96add12ce49994f55" kindref="member">MR_Vector_std_array_float_33_MR_VertId_shrink_to_fit</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="21921"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21926" refid="MRVector_8h_1aa86dc8c588d9fe514f0b705a66937135" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1aa86dc8c588d9fe514f0b705a66937135" kindref="member">MR_Vector_std_array_float_33_MR_VertId_index</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>i);</highlight></codeline>
+<codeline lineno="21926" refid="MRVector_8h_1aa86dc8c588d9fe514f0b705a66937135" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1aa86dc8c588d9fe514f0b705a66937135" kindref="member">MR_Vector_std_array_float_33_MR_VertId_index</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>i);</highlight></codeline>
 <codeline lineno="21927"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21932" refid="MRVector_8h_1ac5975325315fc80057461cfa269469ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1ac5975325315fc80057461cfa269469ed" kindref="member">MR_Vector_std_array_float_33_MR_VertId_index_mut</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>i);</highlight></codeline>
+<codeline lineno="21932" refid="MRVector_8h_1ac5975325315fc80057461cfa269469ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1ac5975325315fc80057461cfa269469ed" kindref="member">MR_Vector_std_array_float_33_MR_VertId_index_mut</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>i);</highlight></codeline>
 <codeline lineno="21933"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21937"><highlight class="normal"><ref refid="common_8h_1a8c3610f371eccf54a150a4e60a5f5878" kindref="member">MRC_DEPRECATED_REASON</ref>(</highlight><highlight class="stringliteral">&quot;use<sp/>resize()<sp/>instead&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="21938" refid="MRVector_8h_1a36e6a1053181da46ade6ff0968184e23" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a36e6a1053181da46ade6ff0968184e23" kindref="member">MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_1</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize);</highlight></codeline>
+<codeline lineno="21938" refid="MRVector_8h_1a36e6a1053181da46ade6ff0968184e23" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a36e6a1053181da46ade6ff0968184e23" kindref="member">MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_1</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize);</highlight></codeline>
 <codeline lineno="21939"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21944"><highlight class="normal"><ref refid="common_8h_1a8c3610f371eccf54a150a4e60a5f5878" kindref="member">MRC_DEPRECATED_REASON</ref>(</highlight><highlight class="stringliteral">&quot;use<sp/>resize()<sp/>instead&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="21945" refid="MRVector_8h_1a53ec1f58d53db215392d38f2d84fdc67" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a53ec1f58d53db215392d38f2d84fdc67" kindref="member">MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_2</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="21945" refid="MRVector_8h_1a53ec1f58d53db215392d38f2d84fdc67" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a53ec1f58d53db215392d38f2d84fdc67" kindref="member">MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_2</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>newSize,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="21946"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21951" refid="MRVector_8h_1adfa5df55ded40445075db9c13e503eca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1adfa5df55ded40445075db9c13e503eca" kindref="member">MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_3</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>pos,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len,<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>val);</highlight></codeline>
+<codeline lineno="21951" refid="MRVector_8h_1adfa5df55ded40445075db9c13e503eca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1adfa5df55ded40445075db9c13e503eca" kindref="member">MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_3</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>pos,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len,<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>val);</highlight></codeline>
 <codeline lineno="21952"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21956" refid="MRVector_8h_1ad40ffb0c45340421e5e607ca734e6634" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad40ffb0c45340421e5e607ca734e6634" kindref="member">MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_2</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>i,<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>val);</highlight></codeline>
+<codeline lineno="21956" refid="MRVector_8h_1ad40ffb0c45340421e5e607ca734e6634" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad40ffb0c45340421e5e607ca734e6634" kindref="member">MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_2</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>i,<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>val);</highlight></codeline>
 <codeline lineno="21957"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21962" refid="MRVector_8h_1af96b04abcf1c2ea6c9c6bdd93a76833a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1af96b04abcf1c2ea6c9c6bdd93a76833a" kindref="member">MR_Vector_std_array_float_33_MR_VertId_autoResizeAt</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>i);</highlight></codeline>
+<codeline lineno="21962" refid="MRVector_8h_1af96b04abcf1c2ea6c9c6bdd93a76833a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1af96b04abcf1c2ea6c9c6bdd93a76833a" kindref="member">MR_Vector_std_array_float_33_MR_VertId_autoResizeAt</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>i);</highlight></codeline>
 <codeline lineno="21963"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21968" refid="MRVector_8h_1a3b79c93e9041ce825c6002d694208007" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3b79c93e9041ce825c6002d694208007" kindref="member">MR_Vector_std_array_float_33_MR_VertId_push_back_const_std_array_float_33_ref</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*t);</highlight></codeline>
+<codeline lineno="21968" refid="MRVector_8h_1a3b79c93e9041ce825c6002d694208007" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a3b79c93e9041ce825c6002d694208007" kindref="member">MR_Vector_std_array_float_33_MR_VertId_push_back_const_std_array_float_33_ref</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*t);</highlight></codeline>
 <codeline lineno="21969"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21976" refid="MRVector_8h_1a1899262350b16d14d3a679031ed361fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1899262350b16d14d3a679031ed361fd" kindref="member">MR_Vector_std_array_float_33_MR_VertId_push_back_std_array_float_33_rvalue_ref</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*t);</highlight></codeline>
+<codeline lineno="21976" refid="MRVector_8h_1a1899262350b16d14d3a679031ed361fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1899262350b16d14d3a679031ed361fd" kindref="member">MR_Vector_std_array_float_33_MR_VertId_push_back_std_array_float_33_rvalue_ref</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*t);</highlight></codeline>
 <codeline lineno="21977"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21980" refid="MRVector_8h_1ae51673fc4969b4635cd19beb26110600" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae51673fc4969b4635cd19beb26110600" kindref="member">MR_Vector_std_array_float_33_MR_VertId_pop_back</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="21980" refid="MRVector_8h_1ae51673fc4969b4635cd19beb26110600" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae51673fc4969b4635cd19beb26110600" kindref="member">MR_Vector_std_array_float_33_MR_VertId_pop_back</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="21981"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21989" refid="MRVector_8h_1a25ce86671fa13c0fac84133fd3e50f38" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1a25ce86671fa13c0fac84133fd3e50f38" kindref="member">MR_Vector_std_array_float_33_MR_VertId_insert_2_const_std_array_float_33_ref</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*pos,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*t);</highlight></codeline>
+<codeline lineno="21989" refid="MRVector_8h_1a25ce86671fa13c0fac84133fd3e50f38" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1a25ce86671fa13c0fac84133fd3e50f38" kindref="member">MR_Vector_std_array_float_33_MR_VertId_insert_2_const_std_array_float_33_ref</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*pos,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*t);</highlight></codeline>
 <codeline lineno="21990"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21999" refid="MRVector_8h_1aac59c56cdc1bd3fe747400185eef4e50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1aac59c56cdc1bd3fe747400185eef4e50" kindref="member">MR_Vector_std_array_float_33_MR_VertId_insert_2_std_array_float_33_rvalue_ref</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*pos,<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*t);</highlight></codeline>
+<codeline lineno="21999" refid="MRVector_8h_1aac59c56cdc1bd3fe747400185eef4e50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1aac59c56cdc1bd3fe747400185eef4e50" kindref="member">MR_Vector_std_array_float_33_MR_VertId_insert_2_std_array_float_33_rvalue_ref</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*pos,<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*t);</highlight></codeline>
 <codeline lineno="22000"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22008" refid="MRVector_8h_1a2b355d4ae51f401ac129f6d1c9cc1385" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1a2b355d4ae51f401ac129f6d1c9cc1385" kindref="member">MR_Vector_std_array_float_33_MR_VertId_insert_3</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*pos,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>count,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*t);</highlight></codeline>
+<codeline lineno="22008" refid="MRVector_8h_1a2b355d4ae51f401ac129f6d1c9cc1385" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1a2b355d4ae51f401ac129f6d1c9cc1385" kindref="member">MR_Vector_std_array_float_33_MR_VertId_insert_3</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*pos,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>count,<sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*t);</highlight></codeline>
 <codeline lineno="22009"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22015" refid="MRVector_8h_1abe57079802cecc377811cd1abf83d18d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1abe57079802cecc377811cd1abf83d18d" kindref="member">MR_Vector_std_array_float_33_MR_VertId_erase_1</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="22015" refid="MRVector_8h_1abe57079802cecc377811cd1abf83d18d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1abe57079802cecc377811cd1abf83d18d" kindref="member">MR_Vector_std_array_float_33_MR_VertId_erase_1</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*pos);</highlight></codeline>
 <codeline lineno="22016"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22023" refid="MRVector_8h_1a2a34171dadfc2fcccba01c132b91d89e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1a2a34171dadfc2fcccba01c132b91d89e" kindref="member">MR_Vector_std_array_float_33_MR_VertId_erase_2</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*first,<sp/>const<sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*last);</highlight></codeline>
+<codeline lineno="22023" refid="MRVector_8h_1a2a34171dadfc2fcccba01c132b91d89e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1a2a34171dadfc2fcccba01c132b91d89e" kindref="member">MR_Vector_std_array_float_33_MR_VertId_erase_2</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/>const<sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*first,<sp/>const<sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*last);</highlight></codeline>
 <codeline lineno="22024"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22029" refid="MRVector_8h_1ae1dbba97c36b90e0e799662a7bb53a1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1ae1dbba97c36b90e0e799662a7bb53a1e" kindref="member">MR_Vector_std_array_float_33_MR_VertId_front</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22029" refid="MRVector_8h_1ae1dbba97c36b90e0e799662a7bb53a1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1ae1dbba97c36b90e0e799662a7bb53a1e" kindref="member">MR_Vector_std_array_float_33_MR_VertId_front</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22030"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22035" refid="MRVector_8h_1af12001be5edea77830b892d568d4da0f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1af12001be5edea77830b892d568d4da0f" kindref="member">MR_Vector_std_array_float_33_MR_VertId_front_mut</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22035" refid="MRVector_8h_1af12001be5edea77830b892d568d4da0f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1af12001be5edea77830b892d568d4da0f" kindref="member">MR_Vector_std_array_float_33_MR_VertId_front_mut</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22036"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22041" refid="MRVector_8h_1af6cec6702134a12bb41b7d9168fa8d8c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1af6cec6702134a12bb41b7d9168fa8d8c" kindref="member">MR_Vector_std_array_float_33_MR_VertId_back</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22041" refid="MRVector_8h_1af6cec6702134a12bb41b7d9168fa8d8c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1af6cec6702134a12bb41b7d9168fa8d8c" kindref="member">MR_Vector_std_array_float_33_MR_VertId_back</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22042"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22047" refid="MRVector_8h_1a36cb33e6bcadc81ae8513d91afe5e3ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1a36cb33e6bcadc81ae8513d91afe5e3ce" kindref="member">MR_Vector_std_array_float_33_MR_VertId_back_mut</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22047" refid="MRVector_8h_1a36cb33e6bcadc81ae8513d91afe5e3ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1a36cb33e6bcadc81ae8513d91afe5e3ce" kindref="member">MR_Vector_std_array_float_33_MR_VertId_back_mut</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22048"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22052" refid="MRVector_8h_1a74475e54e486f525223c7472701d1ac0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRVector_8h_1a74475e54e486f525223c7472701d1ac0" kindref="member">MR_Vector_std_array_float_33_MR_VertId_beginId</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22052" refid="MRVector_8h_1a74475e54e486f525223c7472701d1ac0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRVector_8h_1a74475e54e486f525223c7472701d1ac0" kindref="member">MR_Vector_std_array_float_33_MR_VertId_beginId</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22053"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22057" refid="MRVector_8h_1ae14e1eb5d780c091036f8c93c103bed5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRVector_8h_1ae14e1eb5d780c091036f8c93c103bed5" kindref="member">MR_Vector_std_array_float_33_MR_VertId_backId</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22057" refid="MRVector_8h_1ae14e1eb5d780c091036f8c93c103bed5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRVector_8h_1ae14e1eb5d780c091036f8c93c103bed5" kindref="member">MR_Vector_std_array_float_33_MR_VertId_backId</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22058"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22062" refid="MRVector_8h_1a361d5394f50ca2a3be37b0567bba7fed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRVector_8h_1a361d5394f50ca2a3be37b0567bba7fed" kindref="member">MR_Vector_std_array_float_33_MR_VertId_endId</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22062" refid="MRVector_8h_1a361d5394f50ca2a3be37b0567bba7fed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRVector_8h_1a361d5394f50ca2a3be37b0567bba7fed" kindref="member">MR_Vector_std_array_float_33_MR_VertId_endId</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22063"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22067" refid="MRVector_8h_1ad32a401bcb142f22bad09d38591e84c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1ad32a401bcb142f22bad09d38591e84c8" kindref="member">MR_Vector_std_array_float_33_MR_VertId_data_mut</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22067" refid="MRVector_8h_1ad32a401bcb142f22bad09d38591e84c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1ad32a401bcb142f22bad09d38591e84c8" kindref="member">MR_Vector_std_array_float_33_MR_VertId_data_mut</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22068"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22072" refid="MRVector_8h_1a8e21158ecb18dc683f87ea1e3d201b72" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1a8e21158ecb18dc683f87ea1e3d201b72" kindref="member">MR_Vector_std_array_float_33_MR_VertId_data</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22072" refid="MRVector_8h_1a8e21158ecb18dc683f87ea1e3d201b72" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="structMR__std__array__float__33" kindref="compound">MR_std_array_float_33</ref><sp/>*<ref refid="MRVector_8h_1a8e21158ecb18dc683f87ea1e3d201b72" kindref="member">MR_Vector_std_array_float_33_MR_VertId_data</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22073"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22078" refid="MRVector_8h_1a64eeebe7e2898900a635be6b8587546c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1a64eeebe7e2898900a635be6b8587546c" kindref="member">MR_Vector_std_array_float_33_MR_VertId_begin_mut</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22078" refid="MRVector_8h_1a64eeebe7e2898900a635be6b8587546c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1a64eeebe7e2898900a635be6b8587546c" kindref="member">MR_Vector_std_array_float_33_MR_VertId_begin_mut</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22079"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22084" refid="MRVector_8h_1a8170a92e88b2a41ead29542322e1b9c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1a8170a92e88b2a41ead29542322e1b9c1" kindref="member">MR_Vector_std_array_float_33_MR_VertId_begin</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22084" refid="MRVector_8h_1a8170a92e88b2a41ead29542322e1b9c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1a8170a92e88b2a41ead29542322e1b9c1" kindref="member">MR_Vector_std_array_float_33_MR_VertId_begin</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22085"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22090" refid="MRVector_8h_1a11bfc3260e2a88a9a380c5f89bde86f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1a11bfc3260e2a88a9a380c5f89bde86f4" kindref="member">MR_Vector_std_array_float_33_MR_VertId_cbegin</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22090" refid="MRVector_8h_1a11bfc3260e2a88a9a380c5f89bde86f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1a11bfc3260e2a88a9a380c5f89bde86f4" kindref="member">MR_Vector_std_array_float_33_MR_VertId_cbegin</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22091"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22096" refid="MRVector_8h_1ab07a8e7d1367984d9af0b61f295257c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1ab07a8e7d1367984d9af0b61f295257c8" kindref="member">MR_Vector_std_array_float_33_MR_VertId_end_mut</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22096" refid="MRVector_8h_1ab07a8e7d1367984d9af0b61f295257c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1ab07a8e7d1367984d9af0b61f295257c8" kindref="member">MR_Vector_std_array_float_33_MR_VertId_end_mut</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22097"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22102" refid="MRVector_8h_1aa729ed9c8a3a5d77d3a63b23b3f0074f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1aa729ed9c8a3a5d77d3a63b23b3f0074f" kindref="member">MR_Vector_std_array_float_33_MR_VertId_end</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22102" refid="MRVector_8h_1aa729ed9c8a3a5d77d3a63b23b3f0074f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1aa729ed9c8a3a5d77d3a63b23b3f0074f" kindref="member">MR_Vector_std_array_float_33_MR_VertId_end</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22108" refid="MRVector_8h_1a3e823f1949feb45f3d91f925d38355ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1a3e823f1949feb45f3d91f925d38355ed" kindref="member">MR_Vector_std_array_float_33_MR_VertId_cend</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22108" refid="MRVector_8h_1a3e823f1949feb45f3d91f925d38355ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1a3e823f1949feb45f3d91f925d38355ed" kindref="member">MR_Vector_std_array_float_33_MR_VertId_cend</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22113" refid="MRVector_8h_1afc7e65d56508a0f1c8b8179b3604808d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1afc7e65d56508a0f1c8b8179b3604808d" kindref="member">MR_Vector_std_array_float_33_MR_VertId_swap</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="22113" refid="MRVector_8h_1afc7e65d56508a0f1c8b8179b3604808d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1afc7e65d56508a0f1c8b8179b3604808d" kindref="member">MR_Vector_std_array_float_33_MR_VertId_swap</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this,<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="22114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22118" refid="MRVector_8h_1af3e27f9a05bc4e3a4d241458c45d6771" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af3e27f9a05bc4e3a4d241458c45d6771" kindref="member">MR_Vector_std_array_float_33_MR_VertId_heapBytes</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="22118" refid="MRVector_8h_1af3e27f9a05bc4e3a4d241458c45d6771" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af3e27f9a05bc4e3a4d241458c45d6771" kindref="member">MR_Vector_std_array_float_33_MR_VertId_heapBytes</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22124" refid="MRVector_8h_1a05e54c780d0a7fe7f69000df0fc7f6ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1a05e54c780d0a7fe7f69000df0fc7f6ac" kindref="member">MR_begin_const_MR_Vector_std_array_float_33_MR_VertId_ref</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*a);</highlight></codeline>
+<codeline lineno="22124" refid="MRVector_8h_1a05e54c780d0a7fe7f69000df0fc7f6ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1a05e54c780d0a7fe7f69000df0fc7f6ac" kindref="member">MR_begin_const_MR_Vector_std_array_float_33_MR_VertId_ref</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*a);</highlight></codeline>
 <codeline lineno="22125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22130" refid="MRVector_8h_1ab0c69ddffbe6f980f8cdc7c95a2441be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1ab0c69ddffbe6f980f8cdc7c95a2441be" kindref="member">MR_begin_MR_Vector_std_array_float_33_MR_VertId_ref</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*a);</highlight></codeline>
+<codeline lineno="22130" refid="MRVector_8h_1ab0c69ddffbe6f980f8cdc7c95a2441be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1ab0c69ddffbe6f980f8cdc7c95a2441be" kindref="member">MR_begin_MR_Vector_std_array_float_33_MR_VertId_ref</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*a);</highlight></codeline>
 <codeline lineno="22131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22136" refid="MRVector_8h_1aaa7a001c390a86445e03e228c26a1e5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1aaa7a001c390a86445e03e228c26a1e5b" kindref="member">MR_end_const_MR_Vector_std_array_float_33_MR_VertId_ref</ref>(const<sp/><ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*a);</highlight></codeline>
+<codeline lineno="22136" refid="MRVector_8h_1aaa7a001c390a86445e03e228c26a1e5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeba42363321e512b5aeeff8bf4e449cd" kindref="member">MR_std_vector_std_array_float_33_const_iterator</ref><sp/>*<ref refid="MRVector_8h_1aaa7a001c390a86445e03e228c26a1e5b" kindref="member">MR_end_const_MR_Vector_std_array_float_33_MR_VertId_ref</ref>(const<sp/><ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*a);</highlight></codeline>
 <codeline lineno="22137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22142" refid="MRVector_8h_1a1b70f34d1518da3cc172a9b6c203907f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1a1b70f34d1518da3cc172a9b6c203907f" kindref="member">MR_end_MR_Vector_std_array_float_33_MR_VertId_ref</ref>(<ref refid="MRVector_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*a);</highlight></codeline>
+<codeline lineno="22142" refid="MRVector_8h_1a1b70f34d1518da3cc172a9b6c203907f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5de742dfb2177f39aabbd6eb674ba27f" kindref="member">MR_std_vector_std_array_float_33_iterator</ref><sp/>*<ref refid="MRVector_8h_1a1b70f34d1518da3cc172a9b6c203907f" kindref="member">MR_end_MR_Vector_std_array_float_33_MR_VertId_ref</ref>(<ref refid="MRPointCloudFPFH_8h_1a32d38a423bcf60099702534c8eca375c" kindref="member">MR_Vector_std_array_float_33_MR_VertId</ref><sp/>*a);</highlight></codeline>
 <codeline lineno="22143"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22149" refid="MRVector_8h_1a0811e8440004a92b4e52158101adcc1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*<ref refid="MRVector_8h_1a0811e8440004a92b4e52158101adcc1a" kindref="member">MR_Vector_MR_QuadraticForm2f_MR_VertId_Get_vec</ref>(const<sp/><ref refid="MRPolylineDecimate_8h_1a9f177a2dfee438db08a5310661f61785" kindref="member">MR_Vector_MR_QuadraticForm2f_MR_VertId</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="22150"><highlight class="normal"></highlight></codeline>

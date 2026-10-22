@@ -373,33 +373,6 @@ SaveSettings::onlyValidPoints = false is ignored
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1941" bodyend="1942"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1a61c651290268cb267274e0418e1e6823" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.MeshSave.toDrc</definition>
-        <argsstring>(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
-        <name>toDrc</name>
-        <qualifiedname>mrmeshpy.MeshSave.toDrc</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>os.PathLike|str|bytes</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
-          <declname>settings</declname>
-          <defval>...</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1945" bodyend="1946"/>
-      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1aee6ede3b78e3c783067af74e12369df0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MeshSave.toDrc</definition>
@@ -426,7 +399,34 @@ SaveSettings::onlyValidPoints = false is ignored
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1949" bodyend="1952"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1945" bodyend="1948"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1a61c651290268cb267274e0418e1e6823" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.toDrc</definition>
+        <argsstring>(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
+        <name>toDrc</name>
+        <qualifiedname>mrmeshpy.MeshSave.toDrc</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1951" bodyend="1952"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1a96edab7da0b88d2e617fb61d73859dbb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -902,8 +902,8 @@ independently of SaveSettings::onlyValidPoints and SaveSettings::packPrimitives
       <member refid="classmrmeshpy_1_1MeshSave_1a63761b5b2b28178b40bb49919a97da9b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toCtm</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1af0df600484370e9d78b7d8fb1383f43f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toCtm</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1acd5d2ad479c9b03a03c2f2553c81cb66" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toCtm</name></member>
-      <member refid="classmrmeshpy_1_1MeshSave_1a61c651290268cb267274e0418e1e6823" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toDrc</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1aee6ede3b78e3c783067af74e12369df0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toDrc</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1a61c651290268cb267274e0418e1e6823" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toDrc</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1a96edab7da0b88d2e617fb61d73859dbb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toDrc</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1a75fd8fbf3eb2cec28ef6e82ae9254b9a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toDrc</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1ab0d43742784f3b4419db1c696fdca3c0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toModel3mf</name></member>

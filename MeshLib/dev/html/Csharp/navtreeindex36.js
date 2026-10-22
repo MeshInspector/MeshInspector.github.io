@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1Const__CNCMachineSettings.html#a9e44b4f5d7dada9588191e6f4660697d":[9,3,0,0,0,355,4],
+"classMR_1_1Const__CNCMachineSettings.html#ab6b8f2fb1d5a02ca7a4f722c9bb4564b":[9,3,0,0,0,355,8],
 "classMR_1_1Const__CNCMachineSettings.html#ad10baedf4aeab435b20a77c80609b9bf":[9,3,0,0,0,355,11],
 "classMR_1_1Const__CNCMachineSettings.html#adac848440e55dd7f1e81119c82fa739a":[9,3,0,0,0,355,10],
 "classMR_1_1Const__CNCMachineSettings.html#adb2c2c37f93c216bfadeee4a0abcfd37":[9,3,0,0,0,355,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1Const__ChangeMeshUVCoordsAction.html#a35a8739d63d19731df1085e557704f2c":[9,3,0,0,0,325,6],
 "classMR_1_1Const__ChangeMeshUVCoordsAction.html#a51f0764dd60ba0b7a4ff55476968e6f4":[9,3,0,0,0,325,4],
 "classMR_1_1Const__ChangeMeshUVCoordsAction.html#a61c188607bd4e9e958a27f2a082ba953":[9,3,0,0,0,325,11],
-"classMR_1_1Const__ChangeMeshUVCoordsAction.html#a77a64dc62a63e22d240ea84b9d691060":[9,3,0,0,0,325,2],
-"classMR_1_1Const__ChangeMeshUVCoordsAction.html#a8af455ca2e6af2a30bd3588d61b96a3c":[9,3,0,0,0,325,10],
-"classMR_1_1Const__ChangeMeshUVCoordsAction.html#a91bedd4ade53b0df2b6e1bf82568d03f":[9,3,0,0,0,325,3]
+"classMR_1_1Const__ChangeMeshUVCoordsAction.html#a77a64dc62a63e22d240ea84b9d691060":[9,3,0,0,0,325,2]
 };

@@ -14670,7 +14670,7 @@
     <member refid="group__GeneralGroup_1ga3f87a9abf93ab132bc1ea3f939459b37" kind="typedef"><name>OffsetContoursVertMaps</name></member>
     <member refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" kind="typedef"><name>ContoursVariableOffset</name></member>
     <member refid="group__GeneralGroup_1ga217b7a3f4fc9168e09f3d423beb790e5" kind="typedef"><name>MeshTriPointsConnector</name></member>
-    <member refid="group__GeneralGroup_1gadc35d96252f2f4e46b31ee7da4bc96d0" kind="typedef"><name>FPFHDescriptor</name></member>
+    <member refid="group__GeneralGroup_1gac8edd2f74c83902049883d385b91f3ac" kind="typedef"><name>FPFHDescriptor</name></member>
     <member refid="group__GeneralGroup_1ga40b00a4d33abffac48088bf156d86028" kind="typedef"><name>FPFHDescriptors</name></member>
     <member refid="namespaceMR_1a93bff7f59121c9c61175744b11326824" kind="typedef"><name>FillHolesWithExtraPointsParams</name></member>
     <member refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kind="typedef"><name>PickedPoint</name></member>
@@ -14849,6 +14849,7 @@
     <member refid="group__HistoryGroup_1gad99fa852d419f9e626ea9fa47d4c7884" kind="variable"><name>cmpOld</name></member>
     <member refid="group__HistoryGroup_1ga66d1f6caeb3fa983f8d823d501d10cc3" kind="variable"><name>setNew</name></member>
     <member refid="group__GeneralGroup_1ga3b90c83e8a1db82d0270a879f9d3bd16" kind="variable"><name>FPFHBins</name></member>
+    <member refid="group__GeneralGroup_1ga49041d4755e77f85aa99eeedc68678c9" kind="variable"><name>FPFHDescriptorSize</name></member>
     <member refid="group__GeneralGroup_1gab30b2cff28d4af1589761e19ac9019fa" kind="variable"><name>testPoints</name></member>
     <member refid="group__GeneralGroup_1gad0626776a19c450dc06af751d1bd6b56" kind="variable"><name>validTestPoints</name></member>
     <member refid="group__GeneralGroup_1gacad7dea69af1314dca455d10ae162e3f" kind="variable"><name>projector</name></member>
@@ -15792,6 +15793,8 @@
     <member refid="group__GeneralGroup_1ga947a6bad93f0eb336d355ab0497b7dbd" kind="function"><name>findHalfSpacePoints</name></member>
     <member refid="group__GeneralGroup_1ga6d7f1057abe62b822b7c51220cdcb574" kind="function"><name>divideWithPlane</name></member>
     <member refid="group__PointCloudGroup_1ga4e33b70d66490482edd3fef7120b0a04" kind="function"><name>computeFPFH</name></member>
+    <member refid="group__PointCloudGroup_1ga70346bb651583d4cbde24b58798afb7b" kind="function"><name>findUniqueFPFHPoints</name></member>
+    <member refid="group__PointCloudGroup_1ga4d9ae8f046bb54aa45a5eda1dc0a24e1" kind="function"><name>findUniqueFPFHPoints</name></member>
     <member refid="group__PointCloudGroup_1gabbad18eed929fbd7bec2afad0b91541d" kind="function"><name>makeUnorientedNormals</name></member>
     <member refid="group__PointCloudGroup_1gabc9d6a3d4680264055d93f5039ee962e" kind="function"><name>makeUnorientedNormals</name></member>
     <member refid="group__PointCloudGroup_1ga864b89267ca9c36845aa4bda529ea85e" kind="function"><name>makeUnorientedNormals</name></member>
@@ -20193,6 +20196,8 @@
   <compound refid="group__PointCloudGroup" kind="group"><name>PointCloudGroup</name>
     <member refid="group__PointCloudGroup_1gaac1c0003890912dca03aafa624951ad4" kind="function"><name>improveSampling</name></member>
     <member refid="group__PointCloudGroup_1ga4e33b70d66490482edd3fef7120b0a04" kind="function"><name>computeFPFH</name></member>
+    <member refid="group__PointCloudGroup_1ga70346bb651583d4cbde24b58798afb7b" kind="function"><name>findUniqueFPFHPoints</name></member>
+    <member refid="group__PointCloudGroup_1ga4d9ae8f046bb54aa45a5eda1dc0a24e1" kind="function"><name>findUniqueFPFHPoints</name></member>
     <member refid="group__PointCloudGroup_1gabbad18eed929fbd7bec2afad0b91541d" kind="function"><name>makeUnorientedNormals</name></member>
     <member refid="group__PointCloudGroup_1gabc9d6a3d4680264055d93f5039ee962e" kind="function"><name>makeUnorientedNormals</name></member>
     <member refid="group__PointCloudGroup_1ga864b89267ca9c36845aa4bda529ea85e" kind="function"><name>makeUnorientedNormals</name></member>
@@ -22052,7 +22057,7 @@
     <member refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" kind="typedef"><name>ContoursVariableOffset</name></member>
     <member refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" kind="typedef"><name>OriginZCallback</name></member>
     <member refid="group__GeneralGroup_1ga217b7a3f4fc9168e09f3d423beb790e5" kind="typedef"><name>MeshTriPointsConnector</name></member>
-    <member refid="group__GeneralGroup_1gadc35d96252f2f4e46b31ee7da4bc96d0" kind="typedef"><name>FPFHDescriptor</name></member>
+    <member refid="group__GeneralGroup_1gac8edd2f74c83902049883d385b91f3ac" kind="typedef"><name>FPFHDescriptor</name></member>
     <member refid="group__GeneralGroup_1ga40b00a4d33abffac48088bf156d86028" kind="typedef"><name>FPFHDescriptors</name></member>
     <member refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kind="typedef"><name>PickedPoint</name></member>
     <member refid="group__GeneralGroup_1ga30cd2d38272cf5fb35c10a421b4d2045" kind="typedef"><name>FoundPointCallback</name></member>
@@ -23686,6 +23691,7 @@
     <member refid="group__GeneralGroup_1gabf7d2f349e450a24bc74e71d1de3d1bc" kind="variable"><name>otherPart</name></member>
     <member refid="group__GeneralGroup_1ga8b9684f693bcbb8c4f778a2250ab9b5a" kind="variable"><name>otherOutVmap</name></member>
     <member refid="group__GeneralGroup_1ga3b90c83e8a1db82d0270a879f9d3bd16" kind="variable"><name>FPFHBins</name></member>
+    <member refid="group__GeneralGroup_1ga49041d4755e77f85aa99eeedc68678c9" kind="variable"><name>FPFHDescriptorSize</name></member>
     <member refid="group__GeneralGroup_1ga85d4aad70140445a8b9ebadbc4382363" kind="variable"><name>cloud</name></member>
     <member refid="group__GeneralGroup_1gadb49365fb60e376e6302ffa62d2b534a" kind="variable"><name>region</name></member>
     <member refid="group__GeneralGroup_1ga322f3bf83bb9a37355ec261f5a5a2933" kind="variable"><name>CapVisibility</name></member>

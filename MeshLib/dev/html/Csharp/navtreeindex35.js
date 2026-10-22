@@ -1,5 +1,7 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId.html#a01294d7336bdc6dd52435eed35b5d985":[9,3,0,0,0,293,1],
+"classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId.html#a2f742615b0a1d97444197406ea7ceb03":[9,3,0,0,0,293,3],
 "classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId.html#a57a02d8ef8f2347fafdf51fb49892816":[9,3,0,0,0,293,13],
 "classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId.html#a5f4dd352a2539a015f54dd221c3ed4f5":[9,3,0,0,0,293,6],
 "classMR_1_1Const__Buffer__MRGraphEdgeId__MRGraphEdgeId.html#a6db430d681336dc038aeaa4e40cf43c1":[9,3,0,0,0,293,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1Const__CNCMachineSettings.html#a41e8d8f18b7750ff08576785b0266fd2":[9,3,0,0,0,355,2],
 "classMR_1_1Const__CNCMachineSettings.html#a61c5e53033d50ed711c0ce217172190d":[9,3,0,0,0,355,6],
 "classMR_1_1Const__CNCMachineSettings.html#a69c99d26d6ecb9cd73208f08a5f875bb":[9,3,0,0,0,355,5],
-"classMR_1_1Const__CNCMachineSettings.html#a75e9c393463ac8d3ffc30b7f251ee328":[9,3,0,0,0,355,1],
-"classMR_1_1Const__CNCMachineSettings.html#a9e44b4f5d7dada9588191e6f4660697d":[9,3,0,0,0,355,4],
-"classMR_1_1Const__CNCMachineSettings.html#ab6b8f2fb1d5a02ca7a4f722c9bb4564b":[9,3,0,0,0,355,8]
+"classMR_1_1Const__CNCMachineSettings.html#a75e9c393463ac8d3ffc30b7f251ee328":[9,3,0,0,0,355,1]
 };

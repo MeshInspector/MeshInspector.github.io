@@ -1,5 +1,8 @@
 var NAVTREEINDEX58 =
 {
+"group__SerializerGroup.html#ga1edcbab8181af7aca7d614a91965677c":[9,0,0,2,17,33],
+"group__SerializerGroup.html#ga1f6407e1b88df7f3eac9f06c8a777f2e":[9,0,0,2,17,37],
+"group__SerializerGroup.html#ga2198fc24f7029799a5fad3c9daa3ae08":[9,0,0,2,17,11],
 "group__SerializerGroup.html#ga249e465132da4ac77fb5762b4e701b82":[9,0,0,2,17,14],
 "group__SerializerGroup.html#ga2b394d3aa0c69081d4bcb11804d390c0":[9,0,0,2,17,1],
 "group__SerializerGroup.html#ga2d2bfffd8ea520a7eb58c0c7132868a5":[9,0,0,2,17,17],
@@ -246,8 +249,5 @@ var NAVTREEINDEX58 =
 "group__TunnelDetectorGroup.html#ga9c2c318e4e6ea35933bf2653c0bdf2ae":[9,0,0,16,4,3],
 "group__TunnelDetectorGroup.html#gaacda8ac164232c8d91b8801a72a192f5":[9,0,0,16,4,9],
 "group__TunnelDetectorGroup.html#gacccbea38b20861c2c61da78579acad05":[9,0,0,16,4,1],
-"group__TunnelDetectorGroup.html#gad80f5e7adc96e38d732502162f37feb8":[9,0,0,16,4,2],
-"group__TunnelDetectorGroup.html#ggacccbea38b20861c2c61da78579acad05aa1684698ac3d8ffda353d0458c30b1e7":[9,0,0,16,4,1,2],
-"group__TunnelDetectorGroup.html#ggacccbea38b20861c2c61da78579acad05ae6e36dccbeaf26fca4a6813bf2e83a28":[9,0,0,16,4,1,1],
-"group__TunnelDetectorGroup.html#ggacccbea38b20861c2c61da78579acad05aed36a1ef76a59ee3f15180e0441188ad":[9,0,0,16,4,1,0]
+"group__TunnelDetectorGroup.html#gad80f5e7adc96e38d732502162f37feb8":[9,0,0,16,4,2]
 };
