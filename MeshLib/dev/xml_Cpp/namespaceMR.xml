@@ -1880,6 +1880,8 @@
       <member refid="group__GeneralGroup_1ga3f87a9abf93ab132bc1ea3f939459b37" kind="typedef"><name>OffsetContoursVertMaps</name></member>
       <member refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" kind="typedef"><name>ContoursVariableOffset</name></member>
       <member refid="group__GeneralGroup_1ga217b7a3f4fc9168e09f3d423beb790e5" kind="typedef"><name>MeshTriPointsConnector</name></member>
+      <member refid="group__GeneralGroup_1gadc35d96252f2f4e46b31ee7da4bc96d0" kind="typedef"><name>FPFHDescriptor</name></member>
+      <member refid="group__GeneralGroup_1ga40b00a4d33abffac48088bf156d86028" kind="typedef"><name>FPFHDescriptors</name></member>
       <memberdef kind="typedef" id="namespaceMR_1a93bff7f59121c9c61175744b11326824" prot="public" static="no">
         <type><ref refid="structMR_1_1TriangulateHolesParams" kindref="compound">TriangulateHolesParams</ref></type>
         <definition>using MR::FillHolesWithExtraPointsParams =  TriangulateHolesParams</definition>
@@ -2084,6 +2086,7 @@
       <member refid="group__GeneralGroup_1ga351ee7aaab2fab7deb7b0aed319437f4" kind="variable"><name>settings</name></member>
       <member refid="group__HistoryGroup_1gad99fa852d419f9e626ea9fa47d4c7884" kind="variable"><name>cmpOld</name></member>
       <member refid="group__HistoryGroup_1ga66d1f6caeb3fa983f8d823d501d10cc3" kind="variable"><name>setNew</name></member>
+      <member refid="group__GeneralGroup_1ga3b90c83e8a1db82d0270a879f9d3bd16" kind="variable"><name>FPFHBins</name></member>
       <member refid="group__GeneralGroup_1gab30b2cff28d4af1589761e19ac9019fa" kind="variable"><name>testPoints</name></member>
       <member refid="group__GeneralGroup_1gad0626776a19c450dc06af751d1bd6b56" kind="variable"><name>validTestPoints</name></member>
       <member refid="group__GeneralGroup_1gacad7dea69af1314dca455d10ae162e3f" kind="variable"><name>projector</name></member>
@@ -3028,6 +3031,7 @@
       <member refid="group__GeneralGroup_1ga45ef807278427b9788f95a292ff236be" kind="function"><name>findMaxDistanceSq</name></member>
       <member refid="group__GeneralGroup_1ga947a6bad93f0eb336d355ab0497b7dbd" kind="function"><name>findHalfSpacePoints</name></member>
       <member refid="group__GeneralGroup_1ga6d7f1057abe62b822b7c51220cdcb574" kind="function"><name>divideWithPlane</name></member>
+      <member refid="group__PointCloudGroup_1ga4e33b70d66490482edd3fef7120b0a04" kind="function"><name>computeFPFH</name></member>
       <member refid="group__PointCloudGroup_1gabbad18eed929fbd7bec2afad0b91541d" kind="function"><name>makeUnorientedNormals</name></member>
       <member refid="group__PointCloudGroup_1gabc9d6a3d4680264055d93f5039ee962e" kind="function"><name>makeUnorientedNormals</name></member>
       <member refid="group__PointCloudGroup_1ga864b89267ca9c36845aa4bda529ea85e" kind="function"><name>makeUnorientedNormals</name></member>

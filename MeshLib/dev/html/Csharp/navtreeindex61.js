@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"classMR_1_1Const__MultiRayMeshIntersectResult.html#adb26b7f987a9e0bc3ae56f3013ed7632":[9,3,0,0,0,631,8],
+"classMR_1_1Const__MultiRayMeshIntersectResult.html#adb41c6e109e72b4b2571061d0b081bb3":[9,3,0,0,0,631,9],
+"classMR_1_1Const__MultiRayMeshIntersectResult.html#afb278623a519da5c90dff265837ae7af":[9,3,0,0,0,631,7],
+"classMR_1_1Const__MultiRayMeshIntersectResult.html#afdddec1a71aae97e50e4c8a9185f614c":[9,3,0,0,0,631,13],
+"classMR_1_1Const__MultiwayAligningTransform.html":[9,3,0,0,0,632],
+"classMR_1_1Const__MultiwayAligningTransform.html#a268a750747b13031ddb55f0d25faddb1":[9,3,0,0,0,632,5],
 "classMR_1_1Const__MultiwayAligningTransform.html#a61d663328bb2d436a672a348bd7667cd":[9,3,0,0,0,632,2],
 "classMR_1_1Const__MultiwayAligningTransform.html#a61d672bd8ae895e6e06bc0a6a393d4a3":[9,3,0,0,0,632,8],
 "classMR_1_1Const__MultiwayAligningTransform.html#a624bf1ff1a1568c133ebb6fbe6ae9bcf":[9,3,0,0,0,632,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX61 =
 "classMR_1_1Const__NoDefInit__MRGraphEdgeId.html#ac28df036628e1b29dbea6946a708955e":[9,3,0,0,0,658,2],
 "classMR_1_1Const__NoDefInit__MRGraphEdgeId.html#af1605d8ae139364a65e19d6bcc8ef689":[9,3,0,0,0,658,7],
 "classMR_1_1Const__NoDefInit__MRGraphVertId.html":[9,3,0,0,0,659],
-"classMR_1_1Const__NoDefInit__MRGraphVertId.html#a0427739988fdd17516a869d873861d5d":[9,3,0,0,0,659,5],
-"classMR_1_1Const__NoDefInit__MRGraphVertId.html#a1a74a3a6509ac295c2f80a0ee1f72c38":[9,3,0,0,0,659,2],
-"classMR_1_1Const__NoDefInit__MRGraphVertId.html#a334b06735d0a8d54d045fd8ea61e59f1":[9,3,0,0,0,659,6],
-"classMR_1_1Const__NoDefInit__MRGraphVertId.html#a4751c267caeb7ce5390526aa6a14b72d":[9,3,0,0,0,659,9],
-"classMR_1_1Const__NoDefInit__MRGraphVertId.html#a5c38c51661ab2376692ac89bd65d768c":[9,3,0,0,0,659,15],
-"classMR_1_1Const__NoDefInit__MRGraphVertId.html#a6aa7ebc889879f1e23949c53015642cc":[9,3,0,0,0,659,14],
-"classMR_1_1Const__NoDefInit__MRGraphVertId.html#a8091d6f61887054b9ac00f35f535643b":[9,3,0,0,0,659,1]
+"classMR_1_1Const__NoDefInit__MRGraphVertId.html#a0427739988fdd17516a869d873861d5d":[9,3,0,0,0,659,5]
 };

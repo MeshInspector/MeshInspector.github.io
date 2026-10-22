@@ -1,5 +1,11 @@
 var NAVTREEINDEX87 =
 {
+"classMR_1_1Const__UiRenderParams.html#a74539ca33c478b1f242f093a840a2af3":[9,3,0,0,0,923,9],
+"classMR_1_1Const__UiRenderParams.html#a8fb8238d2deab5ce13b6170552b5baff":[9,3,0,0,0,923,14],
+"classMR_1_1Const__UiRenderParams.html#a974e6ae635cbbfa8cf21e8bc6cfb5e04":[9,3,0,0,0,923,12],
+"classMR_1_1Const__UiRenderParams.html#ad6aa54affa08367f439fae04d01ff56c":[9,3,0,0,0,923,6],
+"classMR_1_1Const__UiRenderParams.html#adb1058e161b5e4b69a5fa19178bb906f":[9,3,0,0,0,923,10],
+"classMR_1_1Const__UiRenderParams.html#ae4852596a280281eff4d90966060daeb":[9,3,0,0,0,923,4],
 "classMR_1_1Const__UiRenderParams.html#afeed344b045b2afe7accd804f5aa9bb6":[9,3,0,0,0,923,0],
 "classMR_1_1Const__UndirEdgeColorMapAggregator.html":[9,3,0,0,0,933],
 "classMR_1_1Const__UndirEdgeColorMapAggregator.html#a443958c4c21c753228e1993a11878b81":[9,3,0,0,0,933,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX87 =
 "classMR_1_1Const__UniformSamplingSettings.html#a5fb05e2851c565d4663fcfa39b1515b6":[9,3,0,0,0,934,12],
 "classMR_1_1Const__UniformSamplingSettings.html#a748c08aff42122564e39195263c5b012":[9,3,0,0,0,934,5],
 "classMR_1_1Const__UniformSamplingSettings.html#a7c27dfa81f7136e37a24755f9aaf69f7":[9,3,0,0,0,934,14],
-"classMR_1_1Const__UniformSamplingSettings.html#a82e60de6008227c9001f31e1bf8dd684":[9,3,0,0,0,934,7],
-"classMR_1_1Const__UniformSamplingSettings.html#a8da64fe1e5248a061b92f1fd7d7d6e3b":[9,3,0,0,0,934,6],
-"classMR_1_1Const__UniformSamplingSettings.html#a973bbc424f510160bf913bdde08e59de":[9,3,0,0,0,934,10],
-"classMR_1_1Const__UniformSamplingSettings.html#ab17034cb55cbff26615cbc6208cc5454":[9,3,0,0,0,934,13],
-"classMR_1_1Const__UniformSamplingSettings.html#ac4ce8187c4fb00d8118c9f81b584fe86":[9,3,0,0,0,934,11],
-"classMR_1_1Const__UniformSamplingSettings.html#ad911ab2f34c577b61f1555f25af16ce0":[9,3,0,0,0,934,4],
-"classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html":[9,3,0,0,0,935]
+"classMR_1_1Const__UniformSamplingSettings.html#a82e60de6008227c9001f31e1bf8dd684":[9,3,0,0,0,934,7]
 };

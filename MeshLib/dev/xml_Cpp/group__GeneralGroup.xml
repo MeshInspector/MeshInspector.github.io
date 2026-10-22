@@ -17622,6 +17622,35 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MROneMeshContours.h" line="75" column="1" bodyfile="MRMesh/MROneMeshContours.h" bodystart="75" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1gadc35d96252f2f4e46b31ee7da4bc96d0" prot="public" static="no">
+        <type>std::array&lt; float, 3 *FPFHBins &gt;</type>
+        <definition>using MR::FPFHDescriptor =  std::array&lt;float, 3 * FPFHBins&gt;</definition>
+        <argsstring></argsstring>
+        <name>FPFHDescriptor</name>
+        <qualifiedname>MR::FPFHDescriptor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fast Point Feature <ref refid="classMR_1_1Histogram" kindref="compound">Histogram</ref> of a point: three concatenated histograms of FPFHBins bins each, describing the angles between the normals of nearby points and the directions between them; each histogram sums to 1 (or to 0 for a point without neighbours) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloudFPFH.h" line="20" column="1" bodyfile="MRMesh/MRPointCloudFPFH.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga40b00a4d33abffac48088bf156d86028" prot="public" static="no">
+        <type>Vector&lt; FPFHDescriptor, VertId &gt;</type>
+        <definition>using MR::FPFHDescriptors =  Vector&lt;FPFHDescriptor, VertId&gt;</definition>
+        <argsstring></argsstring>
+        <name>FPFHDescriptors</name>
+        <qualifiedname>MR::FPFHDescriptors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloudFPFH.h" line="21" column="1" bodyfile="MRMesh/MRPointCloudFPFH.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" prot="public" static="no">
         <type>std::variant&lt; std::monostate, MeshTriPoint, EdgePoint, VertId &gt;</type>
         <definition>using MR::PickedPoint =  std::variant&lt;std::monostate, MeshTriPoint, EdgePoint, VertId&gt;</definition>
@@ -41851,6 +41880,22 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRPointCloudDivideWithPlane.h" line="22" column="13" bodyfile="MRMesh/MRPointCloudDivideWithPlane.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga3b90c83e8a1db82d0270a879f9d3bd16" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::FPFHBins</definition>
+        <argsstring></argsstring>
+        <name>FPFHBins</name>
+        <qualifiedname>MR::FPFHBins</qualifiedname>
+        <initializer>= 11</initializer>
+        <briefdescription>
+<para>number of bins in each of three angular histograms of FPFH descriptor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloudFPFH.h" line="15" column="22" bodyfile="MRMesh/MRPointCloudFPFH.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga85d4aad70140445a8b9ebadbc4382363" prot="public" static="no" mutable="no">
         <type>const PointCloud &amp;</type>

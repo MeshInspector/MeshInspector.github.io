@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__array__float__33" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_array_float_33</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__float__33_1a76237588fe73195b3f04f4258b4c8012" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.std_array_float_33.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_array_float_33.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68172" bodyend="68173"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__float__33_1ad31d3e89ad2628a864ee54c9dd5fbab4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_float_33.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_float_33.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68175" bodyend="68176"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__float__33_1a588a771e50e129200ad0010c11009c97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_float_33.__init__</definition>
+        <argsstring>(self, std_array_float_33 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_float_33.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__float__33" kindref="compound">std_array_float_33</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68178" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68178" bodyend="68179"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__float__33_1a4100c728adc2df7554429320ee1da7cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_float_33.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_float_33.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialize from a list of 33elements.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68181" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68181" bodyend="68184"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__float__33_1a2a0f25a51714fb1c68ff60f6c74c9605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[float]</type>
+        <definition> typing.Iterator[float] mrmeshpy.std_array_float_33.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_array_float_33.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68185" bodyend="68186"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__float__33_1a02d1d745f017654d16e1c9ad7078cda0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_array_float_33.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_array_float_33.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68187" bodyend="68188"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__float__33_1ae0cc020b765f3a5eeeed1474f83b6d77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_array_float_33.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.std_array_float_33.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68189" bodyend="68190"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__float__33_1acc69c0f5e4e338289156a562c9350003" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_float_33.__setitem__</definition>
+        <argsstring>(self, int arg0, float arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_array_float_33.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68191" bodyend="68192"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  FPFHDescriptor, Vector_std_array_float_33_VertId.const_pointer, Vector_std_array_float_33_VertId.const_reference, Vector_std_array_float_33_VertId.pointer, Vector_std_array_float_33_VertId.reference, Vector_std_array_float_33_VertId.value_type, std_array_float_3_ptr_FPFHBins, std_vector_std_array_float_33_const_pointer, std_vector_std_array_float_33_const_reference, std_vector_std_array_float_33_pointer, std_vector_std_array_float_33_reference, std_vector_std_array_float_33_value_type
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68168" bodyend="68192"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__array__float__33_1a76237588fe73195b3f04f4258b4c8012" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_float_33</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__float__33_1ad31d3e89ad2628a864ee54c9dd5fbab4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_float_33</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__float__33_1a588a771e50e129200ad0010c11009c97" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_float_33</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__float__33_1a4100c728adc2df7554429320ee1da7cd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_float_33</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__float__33_1a2a0f25a51714fb1c68ff60f6c74c9605" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_float_33</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__float__33_1a02d1d745f017654d16e1c9ad7078cda0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_float_33</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__float__33_1ae0cc020b765f3a5eeeed1474f83b6d77" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_float_33</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__float__33_1acc69c0f5e4e338289156a562c9350003" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_float_33</scope><name>__setitem__</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

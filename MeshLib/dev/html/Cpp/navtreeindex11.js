@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html#a0623cf78d38d71dc0772b8cf9cf19016":[9,0,2,0,2,27,2,0],
+"classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html#a571e78bc27746920b4648ad1a754ef08":[9,0,1,0,1,43,2,1],
 "classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html#a571e78bc27746920b4648ad1a754ef08":[9,0,2,0,2,27,2,1],
 "classMR_1_1RenderFeatures_1_1RenderCylinderFeatureObject.html":[9,0,1,0,1,43,3],
 "classMR_1_1RenderFeatures_1_1RenderCylinderFeatureObject.html":[9,0,2,0,2,27,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "classMR_1_1SpaceMouse_1_1Controller.html#ae8826c26d7999552582481a659b7eed7":[9,0,1,0,1,48,1,3],
 "classMR_1_1SpaceMouse_1_1Controller.html#ae8826c26d7999552582481a659b7eed7":[9,0,2,0,2,32,1,3],
 "classMR_1_1SpaceMouse_1_1Device.html":[9,0,1,0,1,48,2],
-"classMR_1_1SpaceMouse_1_1Device.html":[9,0,2,0,2,32,2],
-"classMR_1_1SpaceMouse_1_1Device.html#a1e84419b5a55d15608dce2aa9a257691":[9,0,1,0,1,48,2,0],
-"classMR_1_1SpaceMouse_1_1Device.html#a1e84419b5a55d15608dce2aa9a257691":[9,0,2,0,2,32,2,0]
+"classMR_1_1SpaceMouse_1_1Device.html":[9,0,2,0,2,32,2]
 };

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRPointCloudFPFH_8cs" kind="file" language="C#">
+    <compoundname>MRPointCloudFPFH.cs</compoundname>
+    <innerclass refid="classMR" prot="public">MR</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">partial<sp/>class<sp/></highlight><highlight class="normal"><ref refid="classMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>unsafe<sp/>MR.Vector_StdArrayFloat33_MRVertId<sp/><ref refid="classMR_1a7889afd71e9b2308ffbad7b8cce86680" kindref="member">computeFPFH</ref>(MR.Const_PointCloud<sp/>pointCloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/>MR.Std.Const_Function_Bool_From_Float?<sp/>progress<sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MR.Expected_MRVectorStdArrayFloat33MRVertId_StdString<sp/>__expected_ret;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__expected_ret<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">(__MR_computeFPFH(pointCloud._UnderlyingPtr,<sp/>radius,<sp/>progress<sp/>is<sp/>not<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal"><sp/>?<sp/>progress._UnderlyingPtr<sp/>:<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">),<sp/>is_owning:<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__expected_ret.error()<sp/>is<sp/>var<sp/>__expected_error<sp/>and<sp/>not<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>MR.Misc.UnexpectedResultException($</highlight><highlight class="stringliteral">&quot;{__expected_error}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>__expected_ret.value()!;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>DllImport:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>[System.Runtime.InteropServices.DllImport(</highlight><highlight class="stringliteral">&quot;MeshLibC2&quot;</highlight><highlight class="normal">,<sp/>EntryPoint<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;MR_computeFPFH&quot;</highlight><highlight class="normal">,<sp/>ExactSpelling<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>unsafe<sp/>MR.Expected_MRVectorStdArrayFloat33MRVertId_StdString._Underlying<sp/>*__MR_computeFPFH(MR.Const_PointCloud._Underlying<sp/>*pointCloud,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/>MR.Std.Const_Function_Bool_From_Float._Underlying<sp/>*progress);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudFPFH.cs"/>
+  </compounddef>
+</doxygen>

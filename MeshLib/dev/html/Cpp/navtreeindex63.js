@@ -1,5 +1,12 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1Chunk.html":[9,0,0,20,172],
+"structMR_1_1ChunkIterator.html":[9,0,0,20,173],
+"structMR_1_1CloseToMeshVolumeParams.html":[9,0,0,20,867],
+"structMR_1_1CloudPartMapping.html":[9,0,0,20,178],
+"structMR_1_1CmpOld.html":[9,0,0,4,38],
+"structMR_1_1Color.html":[9,0,0,20,180],
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[9,0,0,20,182],
 "structMR_1_1CompensateRadiusParams.html":[9,0,0,20,491],
 "structMR_1_1CompressZipSettings.html":[9,0,0,2,17,0],
 "structMR_1_1CompressZipSettings.html#a081a0d03fa07baae69e080a91f1aa61d":[9,0,0,2,17,0,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1Features_1_1Traits_1_1Binary.html":[9,0,0,20,255],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,20,259],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html":[9,0,0,20,257],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,20,260],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[9,0,0,20,261],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html":[9,0,0,20,258],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html":[9,0,0,20,256],
-"structMR_1_1Features_1_1Traits_1_1Unary.html":[9,0,0,20,251],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,20,253],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[9,0,0,20,254],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[9,0,0,20,252]
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,20,260]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX78 =
 {
+"classMR_1_1Const__SaveSettings.html#aad1a8adc37e02df28d1bedfa4427e65d":[9,3,0,0,0,817,20],
+"classMR_1_1Const__SaveSettings.html#aafa05cfac60283d1f9d7aab90303711b":[9,3,0,0,0,817,4],
+"classMR_1_1Const__SaveSettings.html#abb442483fd854830392f030c2d8178df":[9,3,0,0,0,817,5],
+"classMR_1_1Const__SaveSettings.html#ac6458550b586645841d71c61ebe3bd0a":[9,3,0,0,0,817,13],
+"classMR_1_1Const__SaveSettings.html#ac84bcefa0757fda0fdd96544a4a22348":[9,3,0,0,0,817,14],
+"classMR_1_1Const__SaveSettings.html#ac8feb660e0942efa5d66f5368b2ad63c":[9,3,0,0,0,817,1],
 "classMR_1_1Const__SaveSettings.html#adb3a4884ed904a5de17afb6315e13cdd":[9,3,0,0,0,817,11],
 "classMR_1_1Const__SaveSettings.html#ae240a083e37e263d752acb670e6ce52a":[9,3,0,0,0,817,19],
 "classMR_1_1Const__SaveSettings.html#aee56c53cf4f101b9e1871da4bedbfb5d":[9,3,0,0,0,817,28],
@@ -243,11 +249,5 @@ var NAVTREEINDEX78 =
 "classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html#a915645c649283e1183064756552d5c92":[9,3,0,0,0,826,1,12],
 "classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html#a97cbe86e1d870a7811c4f45f41916719":[9,3,0,0,0,826,1,6],
 "classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html#aa89ede08d57acb62d184eb29c13bc4c4":[9,3,0,0,0,826,1,9],
-"classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html#aaabca1b17418b4cd02b5c7bde34415f9":[9,3,0,0,0,826,1,0],
-"classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html#ab24bde7b3ac46ac1ca8daf613a581754":[9,3,0,0,0,826,1,1],
-"classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html#ab4d32443d0a49b3ff7f1b21299755f57":[9,3,0,0,0,826,1,2],
-"classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html#adf4661484466246a8f4df9a251e73ee3":[9,3,0,0,0,826,1,4],
-"classMR_1_1Const__SetBitIterator.html":[9,3,0,0,0,827],
-"classMR_1_1Const__SetBitIterator.html#a1d3e90a777481dc51b3a9537aa3e7f11":[9,3,0,0,0,827,7],
-"classMR_1_1Const__SetBitIterator.html#a263c7fd254b6b6a8342a0e3ed55a405b":[9,3,0,0,0,827,6]
+"classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html#aaabca1b17418b4cd02b5c7bde34415f9":[9,3,0,0,0,826,1,0]
 };

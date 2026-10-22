@@ -54,6 +54,46 @@
         </inbodydescription>
         <location file="MRMesh/MRImproveSampling.h" line="44" column="7" declfile="MRMesh/MRImproveSampling.h" declline="44" declcolumn="7"/>
       </memberdef>
+      <memberdef kind="function" id="group__PointCloudGroup_1ga4e33b70d66490482edd3fef7120b0a04" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; FPFHDescriptors &gt;</type>
+        <definition>Expected&lt; FPFHDescriptors &gt; MR::computeFPFH</definition>
+        <argsstring>(const PointCloud &amp;pointCloud, float radius, const ProgressCallback &amp;progress={})</argsstring>
+        <name>computeFPFH</name>
+        <qualifiedname>MR::computeFPFH</qualifiedname>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>progress</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Computes Fast Point Feature Histograms for all valid points of given point cloud, which can be compared to find corresponding points in two clouds independently of their relative position; the descriptors do not change under rigid motions and uniform scaling of the cloud (if radius is scaled as well) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of neighborhood to consider, usually about 5 times larger than the distance between neighbour points </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>error if the cloud has no normals or progress returned false; the normals must be oriented consistently, e.g. by makeOrientedNormals(...) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloudFPFH.h" line="30" column="12" declfile="MRMesh/MRPointCloudFPFH.h" declline="30" declcolumn="12"/>
+      </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1gabbad18eed929fbd7bec2afad0b91541d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; VertNormals &gt;</type>
         <definition>std::optional&lt; VertNormals &gt; MR::makeUnorientedNormals</definition>

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="154" column="16" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="154" bodyend="-1"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="184" column="16" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="184" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1CutTrianglePredicates_1a9dadc77ed7d98116db4f85699f69d24b" prot="private" static="no" mutable="no">
         <type>Vector3i64</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="155" column="16" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="155" bodyend="-1"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="185" column="16" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="185" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1CutTrianglePredicates_1a6f976b378c3d5ad7d613671990698dd3" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="156" column="9" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="156" bodyend="-1"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="186" column="9" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="186" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1CutTrianglePredicates_1a3ba82086109c579524fd1c0499cc4b19" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="156" column="14" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="156" bodyend="-1"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="186" column="14" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="186" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1CutTrianglePredicates_1a5fdb70a8801938196db397b5a8694242" prot="private" static="no" mutable="no">
         <type>std::array&lt; Vector2i, 3 &gt;</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="157" column="16" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="157" bodyend="-1"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="187" column="16" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="187" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1CutTrianglePredicates_1a35839ccb3c9ce2124171a877ef2f44c0" prot="private" static="no" mutable="no">
         <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; Vector2d, VertId &gt;</type>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="158" column="12" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="158" bodyend="-1"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="188" column="12" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="188" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1CutTrianglePredicates_1abf707f589f4e28137a5a6b85e9de58d8" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; Impl &gt;</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="159" column="21" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="159" bodyend="-1"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="189" column="21" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="189" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="53" column="6"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="61" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a4500970485aa3bf3e731668027af09ce" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="54" column="6"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="62" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1ac1fa9abfc24eae4a86033e3998dbca54" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1CutTrianglePredicates" kindref="compound">CutTrianglePredicates</ref> &amp;</type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="55" column="29"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="63" column="29"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1ae21cdea75229d206fa3a99d2924ae072" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="56" column="6"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="64" column="6"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1aace7f230a0e5dd3c987f3c8276145254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="62" column="11"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="70" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a661ec89d00d2e2dca4b101ffef4f1987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -208,11 +208,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>sets point v: a vertex of the triangle, or a crossing of one of its sides with another triangle, or a crossing of an edge of another triangle with this triangle (whose tri is then the triangle of reset); v indexes a vector of the points, resized to the largest v + 1, so the points take small local ids, not those of the mesh vertices; a crossing is inside the triangle it crosses, as <ref refid="group__MathGroup_1ga4b162fc9a97cef14dfdf9a7dfc6bf34f" kindref="member">doTriangleSegmentIntersect</ref> finds them, which only Debug checks, since it takes several orient3d per point; a segment in the plane of its triangle crosses it after the perturbation, at a point that tends to an end of the segment or to a point inside it; setting a point again forgets the orders found for its old definition, but not a failure, and so does setting one with a wedge after points defined alike were compared, since it may change their shifts; a vertex point that is not a corner of the triangle, repeated ids, a segment with an end on a vertex of its own triangle, a segment off the sides with a triangle other than this one (as one with a single end at a corner), or a segment that does not cross the plane of its triangle are failures (see failed) </para>
+<para>sets point v: a vertex of the triangle, or a crossing of one of its sides with another triangle, or a crossing of an edge of another triangle with this triangle (whose tri is then the triangle of reset), or a crossing of two cuts of this triangle by the planes of tri and tri2 (a valid tri2 makes it one, and its seg and wedge are ignored then); v indexes a vector of the points, resized to the largest v + 1, so the points take small local ids, not those of the mesh vertices; a crossing is inside the triangle it crosses, as <ref refid="group__MathGroup_1ga4b162fc9a97cef14dfdf9a7dfc6bf34f" kindref="member">doTriangleSegmentIntersect</ref> finds them, which only Debug checks, since it takes several orient3d per point, and a crossing of two cuts is where the segments of the cuts in this triangle cross, of which Debug checks only that it is not outside this triangle; a segment in the plane of its triangle crosses it after the perturbation, at a point that tends to an end of the segment or to a point inside it, and two cuts parallel before the perturbation cross after it, at a point that tends to a point of both; setting a point again forgets the orders found for its old definition, but not a failure, and so does setting one with a wedge after points defined alike were compared, since it may change their shifts; a vertex point that is not a corner of the triangle, repeated ids, a segment with an end on a vertex of its own triangle, a segment off the sides with a triangle other than this one (as one with a single end at a corner), a segment that does not cross the plane of its triangle, two cuts by the same triangle (with three common vertex ids, while distinct triangles in one plane give two parallel cuts, which cross as said above), a cut along a side or by this triangle (by a triangle with two or three corners of this triangle), two cuts whose crossing is another point also after the perturbation (by triangles with a common corner of this triangle, or with two common vertices, whose edge they cross where it crosses this triangle), and two cuts that stay parallel after the perturbation or whose crossing goes to infinity as it vanishes are failures (see failed) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="74" column="11"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="90" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a8940fbe891dac60e2b76367ed51541e7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -235,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="77" column="12"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="93" column="12"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a28e0d102798c6d4261575febd294a07f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Vector2i &gt;</type>
@@ -258,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="83" column="21"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="99" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a80c7ddb711b4217de9ca3e3ad1cf9534" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -285,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="89" column="12"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="105" column="12"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a336e7ace670af86d9a104113b19559f1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; bool &gt;</type>
@@ -308,11 +308,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the same as ccw, decided by a line through two of the points known from their definitions, as the ends of every edge of the cut triangle are: one side of the triangle, or the plane of another triangle (by which the cut along the line goes, also from a vertex of both at selfBoolean&apos;s folds), or the plane vcd through a vertex v of the triangle and an edge cd of another one (for v and the crossing of cd with this triangle, at every vertex), or the plane through two edges with a common vertex (for their crossings with this triangle), which ccw needs only for points on one line before the perturbation; the points on one side stay on one line after the perturbation, and they are taken as bulging inward a little, so three of them make a counterclockwise triangle if they come in the order from vertex i+1 to vertex i of side i, up to a cyclic shift; where the line has the third point too, two of the points are defined alike in valid input, and the shifts of their edges decide; nullopt if no two of the points are on a known line </para>
+<para>the same as ccw, decided by a line through two of the points known from their definitions, as the ends of every edge of the cut triangle are: one side of the triangle, or the plane of another triangle (by which the cut along the line goes, also from a vertex of both at selfBoolean&apos;s folds), or the plane vcd through a vertex v of the triangle and an edge cd of another one (for v and the crossing of cd with this triangle, at every vertex), or the plane through two edges with a common vertex (for their crossings with this triangle), which ccw needs only for points on one line before the perturbation; a crossing of two cuts is on both of them; the points on one side stay on one line after the perturbation, and they are taken as bulging inward a little, so three of them make a counterclockwise triangle if they come in the order from vertex i+1 to vertex i of side i, up to a cyclic shift; so are the points on a cut with a crossing of two cuts among them, as the pieces of a cut split at its crossings are, bulging to the left of the cut in the direction that the sweep goes along it; where the line has the third point too otherwise, two of the points are defined alike in valid input, and the shifts of their edges decide; with a crossing of two cuts among the points, the first-order term of the shifts decides before the bulge, since only the shifts move those two apart (a failure if that term is zero, as with the difference of the shifts along the cut also after the perturbation, and so for a third point that is not a crossing of two cuts too, if a crossing of two cuts is on the line); nullopt if no two of the points are on a known line </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="101" column="21"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="122" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1acb61f77fdfe6efd12ce218a3c49e8a67" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; bool &gt;</type>
@@ -335,11 +335,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the same as ccw found by expanding the perturbation alone, which is slow, while ccw decides most triangles by faster rules; nullopt if the points are on one line after the perturbation too, as the points of one side are, and two points defined alike </para>
+<para>the same as ccw found by expanding the perturbation alone, which is slow, while ccw decides most triangles by faster rules; nullopt if the points are on one line after the perturbation too, as the points of one side are, and two points defined alike, or if the expansion reaches a stage whose degrees do not fit in int64, which only crossings of two cuts with many vertices can give (as three crossings with no common plane take 21 vertices) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="105" column="21"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="128" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1aa3c3493c621e80218c80dd01775485eb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -362,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="108" column="12"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="131" column="12"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a53146af4ffe7ef0fc5d3ad4cd26a1c17" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -373,14 +373,54 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>whether the input broke a precondition that reset or addPoint checks, or a predicate met points it cannot tell apart: two points defined alike that the shifts of their edges do not tell apart (a vertex twice, crossings of a side, crossings without wedges or with the same one, or with the segment parallel to the triangle before the perturbation, as with a zero normal), three points defined alike with their shifts on one line, or three points off the sides on one line also after the perturbation (as three crossings of one cut, while valid input has two at most, apart from points defined alike); it stays set till reset; the caller checks it after the addPoint calls and calls no predicate if it is set, since they take the points as valid (less may be cyclic then, and Debug asserts may fire); a failure that a predicate finds leaves the predicates callable, with arbitrary answers that the caller discards, and less a strict total order (points defined alike compare alike with every other point, and by their ids with one another if their shifts do not tell them apart) </para>
+<para>whether the input broke a precondition that reset or addPoint checks, or a predicate met points it cannot tell apart: two points defined alike that the shifts of their edges do not tell apart (a vertex twice, crossings of a side, crossings without wedges or with the same one, or with the segment parallel to the triangle before the perturbation, as with a zero normal, or crossings of the same two cuts), three points defined alike with their shifts on one line, two points defined alike on a known line (see ccwByLines) with a crossing of two cuts, among the points of the triangle or not, with the difference of their shifts along the line also after the perturbation, three points off the sides on one line also after the perturbation and without a crossing of two cuts among them (as three crossings of one cut by edges, while valid input has two at most, apart from points defined alike), or points whose expansion of the perturbation reaches a stage whose degrees do not fit in int64 (see ccwByPerturbation); it stays set till reset; the caller checks it after the addPoint calls and calls no predicate if it is set, since they take the points as valid (less may be cyclic then, and Debug asserts may fire); a failure that a predicate finds leaves the predicates callable, with arbitrary answers that the caller discards, and less a strict total order (points defined alike compare alike with every other point, and by their ids with one another if their shifts do not tell them apart) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="119" column="12"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="145" column="12"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1ad99a08f58d72b3281a075fdc9d42aff4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::CutTrianglePredicates::addCrossing_</definition>
+        <argsstring>(VertId v, const PreciseCutPoint &amp;p)</argsstring>
+        <name>addCrossing_</name>
+        <qualifiedname>MR::CutTrianglePredicates::addCrossing_</qualifiedname>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1PreciseCutPoint" kindref="compound">PreciseCutPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="162" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1aa57f5f82b78e8f3ce7476fde543eb925" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::CutTrianglePredicates::isCrossing_</definition>
+        <argsstring>(VertId v) const</argsstring>
+        <name>isCrossing_</name>
+        <qualifiedname>MR::CutTrianglePredicates::isCrossing_</qualifiedname>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="163" column="10"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a6627543626b962e434fc7421e2ebd06a" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int MR::CutTrianglePredicates::compareExact_</definition>
@@ -405,7 +445,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="136" column="9"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="164" column="9"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a046b29e35fb5cd03ca8cf4d2e0596612" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -431,7 +471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="137" column="9"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="165" column="9"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a20878b1d2f513b6c65b7c0690d09bbc9" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -457,7 +497,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="138" column="10"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="166" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a5d36399b67d1f5918c92da114f61f2dc" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -483,7 +523,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="139" column="9"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="167" column="9"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1abc2e03be3e9fe0a1a1d977f66ee86c1f" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; bool &gt;</type>
@@ -509,7 +549,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="140" column="19"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="168" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a890a67ad3e30c437a49805904d590ac1" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; bool &gt;</type>
@@ -535,12 +575,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="141" column="19"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="169" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a48aa3bc685005c8af7876eaa701a47ed" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a1f5bc8041a0849718b5a876aa065f603" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; bool &gt;</type>
         <definition>std::optional&lt; bool &gt; MR::CutTrianglePredicates::ccwByShifts_</definition>
-        <argsstring>(VertId a, VertId b, VertId c) const</argsstring>
+        <argsstring>(VertId a, VertId b, VertId c, const Line *line) const</argsstring>
         <name>ccwByShifts_</name>
         <qualifiedname>MR::CutTrianglePredicates::ccwByShifts_</qualifiedname>
         <param>
@@ -555,13 +595,17 @@
           <type>VertId</type>
           <declname>c</declname>
         </param>
+        <param>
+          <type>const Line *</type>
+          <declname>line</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="142" column="19"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="170" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a892bf5614d5b8c538b3181aae932cbeb" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Vector2i &gt;</type>
@@ -583,7 +627,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="143" column="19"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="171" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1aaf0b3280796c0f1d582354d4738af55e" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Vector2i &gt;</type>
@@ -605,7 +649,29 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="144" column="19"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="172" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1af356016363370428f1e61bde2109e164" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; Vector2i &gt;</type>
+        <definition>std::optional&lt; Vector2i &gt; MR::CutTrianglePredicates::directionAlongCut_</definition>
+        <argsstring>(VertId p, VertId q) const</argsstring>
+        <name>directionAlongCut_</name>
+        <qualifiedname>MR::CutTrianglePredicates::directionAlongCut_</qualifiedname>
+        <param>
+          <type>VertId</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="173" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a2d96e79529bd1b43a6f9f1791bfa4c87" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Vector2i &gt;</type>
@@ -631,7 +697,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="145" column="19"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="174" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1aa12a421fb8d3e32204b8152613f60130" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Vector2i &gt;</type>
@@ -653,7 +719,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="146" column="19"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="175" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1ab7f3269d569c1a41f9d4d1254486e191" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Shift &gt;</type>
@@ -671,7 +737,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="147" column="19"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="176" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a7365327a8110af4d2abcdf5109156920" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Line &gt;</type>
@@ -697,7 +763,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="148" column="19"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="177" column="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1ad7a691e387c80fb8493686f0e562aef9" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Vector2i</type>
@@ -715,7 +781,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="149" column="14"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="178" column="14"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a6bae63b9eb37c3b2e1cfa36602121512" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -741,7 +807,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="150" column="10"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="179" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1af91ad57a053019c291c40a73da9887e9" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -763,7 +829,29 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="151" column="9"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="180" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a07310d2a06ed33630b347015c36135a9" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::CutTrianglePredicates::crossingSideOfPlane_</definition>
+        <argsstring>(const std::array&lt; PreciseVertCoords, 3 &gt; &amp;plane, VertId x) const</argsstring>
+        <name>crossingSideOfPlane_</name>
+        <qualifiedname>MR::CutTrianglePredicates::crossingSideOfPlane_</qualifiedname>
+        <param>
+          <type>const std::array&lt; <ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref>, 3 &gt; &amp;</type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="181" column="9"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutTrianglePredicates_1a5204d1e237133971341ed506a9c3ed27" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -777,16 +865,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCutTrianglePredicates.h" line="152" column="10"/>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="182" column="10"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>exact predicates on the points inside one triangle cut along its intersections with other triangles, for a sweep line over the triangle; they never contradict the boolean&apos;s exact predicates, because every point gets the same simulation-of-simplicity perturbation by vertex ids as in <ref refid="group__MathGroup_1ga343b0de4b65432a92901c76af4024b57" kindref="member">orient3d</ref>, and a point is on the side of a cut where the boolean&apos;s predicates put it; the crossings of a segment with the triangle defined alike (the edges of a multiple edge of another mesh), which that perturbation cannot tell apart and the boolean&apos;s predicates never compare, are told apart by the triangles of their edges: each edge is shifted by an amount infinitely smaller than every term of the perturbation, toward the third vertices of its triangles (<ref refid="structMR_1_1PreciseCutPoint_1a11f572416abc57b91657513e1531cf49" kindref="member">PreciseCutPoint::wedge</ref>), or away from them if the triangles of another edge defined alike are in the angle between its own ones, so that the contours of two edges whose sheets touch along the segment without crossing do not cross either, while those of crossing sheets do; the sweep goes over the projection of the perturbed triangle on the plane of the two axes least aligned with its normal (dropping the axis of the largest component of the normal, the first one of equal components, or the axis of the leading term of the perturbed normal if the exact one is zero), meeting the points in the order of one linear functional, which is nearly the first projected coordinate; the const members may be called concurrently (less from a parallel sort), while reset and addPoint must not run together with any other member </para>
+<para>exact predicates on the points inside one triangle cut along its intersections with other triangles, for a sweep line over the triangle; they never contradict the boolean&apos;s exact predicates, because every point gets the same simulation-of-simplicity perturbation by vertex ids as in <ref refid="group__MathGroup_1ga343b0de4b65432a92901c76af4024b57" kindref="member">orient3d</ref>, and a point is on the side of a cut where the boolean&apos;s predicates put it; the crossings of a segment with the triangle defined alike (the edges of a multiple edge of another mesh), which that perturbation cannot tell apart and the boolean&apos;s predicates never compare, are told apart by the triangles of their edges: each edge is shifted by an amount infinitely smaller than every term of the perturbation, toward the third vertices of its triangles (<ref refid="structMR_1_1PreciseCutPoint_1a11f572416abc57b91657513e1531cf49" kindref="member">PreciseCutPoint::wedge</ref>), or away from them if the triangles of another edge defined alike are in the angle between its own ones, so that the contours of two edges whose sheets touch along the segment without crossing do not cross either, while those of crossing sheets do; a crossing of two cuts is the point where the perturbed planes of the triangle and of the two cuts meet, so it is on the side of every other plane that the perturbation puts it on, as a vertex is; the sweep goes over the projection of the perturbed triangle on the plane of the two axes least aligned with its normal (dropping the axis of the largest component of the normal, the first one of equal components, or the axis of the leading term of the perturbed normal if the exact one is zero), meeting the points in the order of one linear functional, which is nearly the first projected coordinate; the const members may be called concurrently (less from a parallel sort), while reset and addPoint must not run together with any other member </para>
     </detaileddescription>
-    <location file="MRMesh/MRCutTrianglePredicates.h" line="50" column="1" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="51" bodyend="160"/>
+    <location file="MRMesh/MRCutTrianglePredicates.h" line="58" column="1" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="59" bodyend="190"/>
     <listofallmembers>
+      <member refid="classMR_1_1CutTrianglePredicates_1ad99a08f58d72b3281a075fdc9d42aff4" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>addCrossing_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a661ec89d00d2e2dca4b101ffef4f1987" prot="public" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>addPoint</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a6bae63b9eb37c3b2e1cfa36602121512" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>along_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a35839ccb3c9ce2124171a877ef2f44c0" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>approx_</name></member>
@@ -794,21 +883,24 @@
       <member refid="classMR_1_1CutTrianglePredicates_1a336e7ace670af86d9a104113b19559f1" prot="public" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>ccwByLines</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1acb61f77fdfe6efd12ce218a3c49e8a67" prot="public" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>ccwByPerturbation</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a890a67ad3e30c437a49805904d590ac1" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>ccwByPlanes_</name></member>
-      <member refid="classMR_1_1CutTrianglePredicates_1a48aa3bc685005c8af7876eaa701a47ed" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>ccwByShifts_</name></member>
+      <member refid="classMR_1_1CutTrianglePredicates_1a1f5bc8041a0849718b5a876aa065f603" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>ccwByShifts_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1abc2e03be3e9fe0a1a1d977f66ee86c1f" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>ccwBySides_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a20878b1d2f513b6c65b7c0690d09bbc9" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>ccwExact_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1aa3c3493c621e80218c80dd01775485eb" prot="public" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>ccwFromBehind</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a892bf5614d5b8c538b3181aae932cbeb" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>coincidentDirection_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a7365327a8110af4d2abcdf5109156920" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>commonLine_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a6627543626b962e434fc7421e2ebd06a" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>compareExact_</name></member>
+      <member refid="classMR_1_1CutTrianglePredicates_1a07310d2a06ed33630b347015c36135a9" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>crossingSideOfPlane_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1ae4677716e42b887e7fec0ac0a6cb4715" prot="public" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>CutTrianglePredicates</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a4500970485aa3bf3e731668027af09ce" prot="public" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>CutTrianglePredicates</name></member>
+      <member refid="classMR_1_1CutTrianglePredicates_1af356016363370428f1e61bde2109e164" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>directionAlongCut_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a28e0d102798c6d4261575febd294a07f" prot="public" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>directionByPerturbation</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1aaf0b3280796c0f1d582354d4738af55e" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>directionFromSide_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a046b29e35fb5cd03ca8cf4d2e0596612" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>exactOrient_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a5204d1e237133971341ed506a9c3ed27" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>fail_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a53146af4ffe7ef0fc5d3ad4cd26a1c17" prot="public" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>failed</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1abf707f589f4e28137a5a6b85e9de58d8" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>impl_</name></member>
+      <member refid="classMR_1_1CutTrianglePredicates_1aa57f5f82b78e8f3ce7476fde543eb925" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>isCrossing_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a6f976b378c3d5ad7d613671990698dd3" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>kx_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a3ba82086109c579524fd1c0499cc4b19" prot="private" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>ky_</name></member>
       <member refid="classMR_1_1CutTrianglePredicates_1a8940fbe891dac60e2b76367ed51541e7" prot="public" virt="non-virtual"><scope>MR::CutTrianglePredicates</scope><name>less</name></member>

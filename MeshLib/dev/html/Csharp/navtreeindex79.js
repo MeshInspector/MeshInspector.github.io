@@ -1,5 +1,11 @@
 var NAVTREEINDEX79 =
 {
+"classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html#ab24bde7b3ac46ac1ca8daf613a581754":[9,3,0,0,0,826,1,1],
+"classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html#ab4d32443d0a49b3ff7f1b21299755f57":[9,3,0,0,0,826,1,2],
+"classMR_1_1Const__SeparationPointStorage_1_1Const__Block.html#adf4661484466246a8f4df9a251e73ee3":[9,3,0,0,0,826,1,4],
+"classMR_1_1Const__SetBitIterator.html":[9,3,0,0,0,827],
+"classMR_1_1Const__SetBitIterator.html#a1d3e90a777481dc51b3a9537aa3e7f11":[9,3,0,0,0,827,7],
+"classMR_1_1Const__SetBitIterator.html#a263c7fd254b6b6a8342a0e3ed55a405b":[9,3,0,0,0,827,6],
 "classMR_1_1Const__SetBitIterator.html#a2be928a97d73a58e410e3f88a6da0b77":[9,3,0,0,0,827,11],
 "classMR_1_1Const__SetBitIterator.html#a2c62b1d1dfb75c2efc049916186367a1":[9,3,0,0,0,827,1],
 "classMR_1_1Const__SetBitIterator.html#a49cc21cc7bd2c6ccf757c3d15d0a3668":[9,3,0,0,0,827,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX79 =
 "classMR_1_1Const__ShrinkwrapParameters.html#a7e1bd336bb36f5eb3f6e0188b77526e6":[9,3,0,0,0,841,18],
 "classMR_1_1Const__ShrinkwrapParameters.html#a812bd2cb49c73e4a472a75b455f569d1":[9,3,0,0,0,841,9],
 "classMR_1_1Const__ShrinkwrapParameters.html#a87fbbb0cb100631f8765e3ca3e458c87":[9,3,0,0,0,841,14],
-"classMR_1_1Const__ShrinkwrapParameters.html#a9dfb110c43fbbcaf8eb421febb9cd10c":[9,3,0,0,0,841,7],
-"classMR_1_1Const__ShrinkwrapParameters.html#aa52ae7dedb146e8adc743f1148ffb260":[9,3,0,0,0,841,12],
-"classMR_1_1Const__ShrinkwrapParameters.html#aaafca933af4c96adb3f6d76ba49d37c4":[9,3,0,0,0,841,0],
-"classMR_1_1Const__ShrinkwrapParameters.html#ac4093a3c4ac1b73c480984e6a668786e":[9,3,0,0,0,841,17],
-"classMR_1_1Const__ShrinkwrapParameters.html#acb02e7ebe2032b7ba32a371957b51c8f":[9,3,0,0,0,841,3],
-"classMR_1_1Const__ShrinkwrapParameters.html#ad1368e16d8023c79c156ac692b7baa9b":[9,3,0,0,0,841,4],
-"classMR_1_1Const__ShrinkwrapParameters.html#ae3b0bfa00578aeaf914981aa57135805":[9,3,0,0,0,841,16]
+"classMR_1_1Const__ShrinkwrapParameters.html#a9dfb110c43fbbcaf8eb421febb9cd10c":[9,3,0,0,0,841,7]
 };

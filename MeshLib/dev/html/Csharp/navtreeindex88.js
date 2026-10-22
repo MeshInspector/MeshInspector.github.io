@@ -1,5 +1,11 @@
 var NAVTREEINDEX88 =
 {
+"classMR_1_1Const__UniformSamplingSettings.html#a8da64fe1e5248a061b92f1fd7d7d6e3b":[9,3,0,0,0,934,6],
+"classMR_1_1Const__UniformSamplingSettings.html#a973bbc424f510160bf913bdde08e59de":[9,3,0,0,0,934,10],
+"classMR_1_1Const__UniformSamplingSettings.html#ab17034cb55cbff26615cbc6208cc5454":[9,3,0,0,0,934,13],
+"classMR_1_1Const__UniformSamplingSettings.html#ac4ce8187c4fb00d8118c9f81b584fe86":[9,3,0,0,0,934,11],
+"classMR_1_1Const__UniformSamplingSettings.html#ad911ab2f34c577b61f1555f25af16ce0":[9,3,0,0,0,934,4],
+"classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html":[9,3,0,0,0,935],
 "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a17c8c27d59a506b5f67386a82699b5bc":[9,3,0,0,0,935,3],
 "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a1bea22f78ec56a3893b5328337ad007b":[9,3,0,0,0,935,4],
 "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html#a4bdab7ab58212d587550f927d6bfd036":[9,3,0,0,0,935,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX88 =
 "classMR_1_1Const__Vector4__UnsignedChar.html#a126561ea5257762f689c078a7b4987ce":[9,3,0,0,0,948,3],
 "classMR_1_1Const__Vector4__UnsignedChar.html#a1ba8397e016ed09798959d8aa2e1a591":[9,3,0,0,0,948,11],
 "classMR_1_1Const__Vector4__UnsignedChar.html#a2003afde627a56f108e712c28213fc8f":[9,3,0,0,0,948,14],
-"classMR_1_1Const__Vector4__UnsignedChar.html#a298188c9fd32ab3c4bcc49cad5840ebc":[9,3,0,0,0,948,6],
-"classMR_1_1Const__Vector4__UnsignedChar.html#a33b0d662655c71967d44bbeda29719e5":[9,3,0,0,0,948,4],
-"classMR_1_1Const__Vector4__UnsignedChar.html#a43b54d089bae7077afb8b65967b288eb":[9,3,0,0,0,948,30],
-"classMR_1_1Const__Vector4__UnsignedChar.html#a4fc4da5393c6856699705193972d5416":[9,3,0,0,0,948,29],
-"classMR_1_1Const__Vector4__UnsignedChar.html#a5082e21de56a225670e1ae9a842d156a":[9,3,0,0,0,948,5],
-"classMR_1_1Const__Vector4__UnsignedChar.html#a56be296dc594f6b3852d817a1fc276cb":[9,3,0,0,0,948,13],
-"classMR_1_1Const__Vector4__UnsignedChar.html#a57c3fc2aa06d5523ce1a8736458dacc0":[9,3,0,0,0,948,0]
+"classMR_1_1Const__Vector4__UnsignedChar.html#a298188c9fd32ab3c4bcc49cad5840ebc":[9,3,0,0,0,948,6]
 };

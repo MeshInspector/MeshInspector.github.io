@@ -46,6 +46,7 @@ var annotated_dup =
     [ "MR_PixelId", "structMR__PixelId.html", "structMR__PixelId" ],
     [ "MR_RegionId", "structMR__RegionId.html", "structMR__RegionId" ],
     [ "MR_std_array_double_4", "structMR__std__array__double__4.html", "structMR__std__array__double__4" ],
+    [ "MR_std_array_float_33", "structMR__std__array__float__33.html", "structMR__std__array__float__33" ],
     [ "MR_std_array_float_4", "structMR__std__array__float__4.html", "structMR__std__array__float__4" ],
     [ "MR_std_array_int_4", "structMR__std__array__int__4.html", "structMR__std__array__int__4" ],
     [ "MR_std_array_MR_AffineXf3d_4", "structMR__std__array__MR__AffineXf3d__4.html", "structMR__std__array__MR__AffineXf3d__4" ],

@@ -260,6 +260,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRPointCloud.cs", "MRPointCloud_8cs.html", "MRPointCloud_8cs" ],
     [ "MRPointCloudDistance.cs", "MRPointCloudDistance_8cs.html", "MRPointCloudDistance_8cs" ],
     [ "MRPointCloudDivideWithPlane.cs", "MRPointCloudDivideWithPlane_8cs.html", "MRPointCloudDivideWithPlane_8cs" ],
+    [ "MRPointCloudFPFH.cs", "MRPointCloudFPFH_8cs.html", "MRPointCloudFPFH_8cs" ],
     [ "MRPointCloudMakeNormals.cs", "MRPointCloudMakeNormals_8cs.html", "MRPointCloudMakeNormals_8cs" ],
     [ "MRPointCloudPart.cs", "MRPointCloudPart_8cs.html", "MRPointCloudPart_8cs" ],
     [ "MRPointCloudRadius.cs", "MRPointCloudRadius_8cs.html", "MRPointCloudRadius_8cs" ],

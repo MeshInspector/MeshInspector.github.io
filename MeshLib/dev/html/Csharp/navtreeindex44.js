@@ -1,5 +1,11 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1Const__DividePointCloudOptionalOutput.html#a0898c909eff1a2bc7a3d16d7f46254d1":[9,3,0,0,0,415,3],
+"classMR_1_1Const__DividePointCloudOptionalOutput.html#a157f07653ff632a3017d2711dda004ee":[9,3,0,0,0,415,2],
+"classMR_1_1Const__DividePointCloudOptionalOutput.html#a29776891891e2aceb832e9f476fe30b3":[9,3,0,0,0,415,4],
+"classMR_1_1Const__DividePointCloudOptionalOutput.html#a5f83de4284329c21ef9503d9e623af99":[9,3,0,0,0,415,8],
+"classMR_1_1Const__DividePointCloudOptionalOutput.html#a67aef001a90e2f6590341d9f2fd76a7a":[9,3,0,0,0,415,7],
+"classMR_1_1Const__DividePointCloudOptionalOutput.html#a67b6f2a72167910ea3505b009e7b5f38":[9,3,0,0,0,415,0],
 "classMR_1_1Const__DividePointCloudOptionalOutput.html#a752ddf08d49916a65e40392f0af0d8cd":[9,3,0,0,0,415,11],
 "classMR_1_1Const__DividePointCloudOptionalOutput.html#a7fc43e2de30a983a093768d8a0651c21":[9,3,0,0,0,415,9],
 "classMR_1_1Const__DividePointCloudOptionalOutput.html#a8bf24a7d1113f862b5e8f5aaabc577f3":[9,3,0,0,0,415,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1Const__EdgePathsAStarBuilder.html#a5c6713087b5fdbefd968f76e3c40ffb8":[9,3,0,0,0,424,6],
 "classMR_1_1Const__EdgePathsAStarBuilder.html#a7f48a4de9023c59029c18b10f7126452":[9,3,0,0,0,424,13],
 "classMR_1_1Const__EdgePathsAStarBuilder.html#a82d337366ae14c9feaaf07c0ecac01f1":[9,3,0,0,0,424,4],
-"classMR_1_1Const__EdgePathsAStarBuilder.html#a857d21ce9ccb8fda653b114a66b48651":[9,3,0,0,0,424,1],
-"classMR_1_1Const__EdgePathsAStarBuilder.html#aa51e4949e032b5d808c7b12d47bf30fd":[9,3,0,0,0,424,0],
-"classMR_1_1Const__EdgePathsAStarBuilder.html#adede0a26a12c792d1dec3423793c0944":[9,3,0,0,0,424,12],
-"classMR_1_1Const__EdgePathsAStarBuilder.html#ae9bbcf006153a23303d5ac62d5522870":[9,3,0,0,0,424,10],
-"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html":[9,3,0,0,0,425],
-"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#a084501c0a9365f45f33d3b89861a0650":[9,3,0,0,0,425,6],
-"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty.html#a233b28f8aae3b1e886714abd8686a700":[9,3,0,0,0,425,10]
+"classMR_1_1Const__EdgePathsAStarBuilder.html#a857d21ce9ccb8fda653b114a66b48651":[9,3,0,0,0,424,1]
 };

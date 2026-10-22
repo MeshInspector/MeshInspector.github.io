@@ -152,14 +152,16 @@ Namespaces</h2></td></tr>
 Classes</h2></td></tr>
 <tr class="memitem:FuncCallHelper" id="r_FuncCallHelper"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1detail_1_1FuncCallHelper.html">FuncCallHelper</a></td></tr>
 <tr class="memitem:MakeScopeGuard" id="r_MakeScopeGuard"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1detail_1_1MakeScopeGuard.html">MakeScopeGuard</a></td></tr>
-<tr class="memitem:PerturbationStages" id="r_PerturbationStages"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1detail_1_1PerturbationStages.html">PerturbationStages</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">segmentIntersectionTriPlaneOrder: it reaches the polynomial path with all three largest ids in the plane  <a href="classMR_1_1detail_1_1PerturbationStages.html#details">More...</a><br /></td></tr>
+<tr class="memitem:PerturbationStagesOf" id="r_PerturbationStagesOf"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1detail_1_1PerturbationStagesOf.html">PerturbationStagesOf</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">segmentIntersectionTriPlaneOrder: it reaches the polynomial path with all three largest ids in the plane  <a href="classMR_1_1detail_1_1PerturbationStagesOf.html#details">More...</a><br /></td></tr>
 <tr class="memitem:PointDegree" id="r_PointDegree"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a point with the degree of its perturbation: its coordinates z, y, x get eps^d, eps^(3*d), eps^(9*d)  <a href="structMR_1_1detail_1_1PointDegree.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ScopeGuard" id="r_ScopeGuard"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1detail_1_1ScopeGuard.html">ScopeGuard</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a92c86287dc5036d235dd025e24861f4b" id="r_a92c86287dc5036d235dd025e24861f4b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92c86287dc5036d235dd025e24861f4b">PerturbationStages</a> = <a class="el" href="classMR_1_1detail_1_1PerturbationStagesOf.html">PerturbationStagesOf</a>&lt;<a class="el" href="#a82fcd377947914c7a39781e66672c4d8">cMaxPerturbedPoints</a>, false&gt;</td></tr>
+<tr class="memdesc:a92c86287dc5036d235dd025e24861f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the stages of at most cMaxPerturbedPoints points, whose degrees the caller makes fit in int64  <br /></td></tr>
 <tr class="memitem:a38adfe3c74506871e3e2af9c3c598c75" id="r_a38adfe3c74506871e3e2af9c3c598c75"><td class="memTemplParams" colspan="2">template&lt;std::int64_t M&gt; </td></tr>
 <tr class="memitem:a38adfe3c74506871e3e2af9c3c598c75 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38adfe3c74506871e3e2af9c3c598c75">VolumePoly</a> = <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt;<a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>, std::int64_t, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a>&gt;</td></tr>
 </table><table class="memberdecls">
@@ -179,7 +181,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a0c3c7fc10991c0eb99094bb42d438de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the words of a multiplier of <a class="el" href="classMR_1_1FastInt.html">FastInt</a>, sign-extended if it is signed  <br /></td></tr>
 <tr class="memitem:a642d79bba1a218c9810ee5a91c1362b9" id="r_a642d79bba1a218c9810ee5a91c1362b9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a642d79bba1a218c9810ee5a91c1362b9">doubleFromWords</a> (const std::uint64_t *w, int n) noexcept</td></tr>
 <tr class="memitem:ab652e2278f32034e7f2aa5960239c222" id="r_ab652e2278f32034e7f2aa5960239c222"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab652e2278f32034e7f2aa5960239c222">orient3dVolume</a> (const Vector3i &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const Vector3i &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>, const Vector3i &amp;c, const Vector3i &amp;d)</td></tr>
-<tr class="memitem:a2d09b58c9b2d6864a0c30dbe13540b62" id="r_a2d09b58c9b2d6864a0c30dbe13540b62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d09b58c9b2d6864a0c30dbe13540b62">getPointDegrees</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> *vs, const std::int64_t *radices, int n, <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> *res, std::int64_t *places=nullptr)</td></tr>
+<tr class="memitem:aa0d575ca9be16ac96f646ddd488eb50a" id="r_aa0d575ca9be16ac96f646ddd488eb50a"><td class="memTemplParams" colspan="2">template&lt;int N = cMaxPerturbedPoints, bool Bounded = false&gt; </td></tr>
+<tr class="memitem:aa0d575ca9be16ac96f646ddd488eb50a template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0d575ca9be16ac96f646ddd488eb50a">getPointDegrees</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> *vs, const std::int64_t *radices, int n, <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> *res, std::int64_t *places=nullptr)</td></tr>
 <tr class="memitem:a349b4ff5760953282c595de0b6c3e1ab" id="r_a349b4ff5760953282c595de0b6c3e1ab"><td class="memTemplParams" colspan="2">template&lt;std::int64_t M&gt; </td></tr>
 <tr class="memitem:a349b4ff5760953282c595de0b6c3e1ab template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a38adfe3c74506871e3e2af9c3c598c75">VolumePoly</a>&lt; <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a349b4ff5760953282c595de0b6c3e1ab">orient3dPoly</a> (const <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>, const <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> &amp;c, const <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> &amp;d)</td></tr>
 <tr class="memdesc:a349b4ff5760953282c595de0b6c3e1ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">the volume of tetrahedron abcd (see orient3dVolume) of the perturbed points as a polynomial of eps, without the terms of degrees above M  <br /></td></tr>
@@ -198,7 +201,7 @@ Variables</h2></td></tr>
 <tr class="memitem:a7fc2a0ff5839e59c72d8681e50b67fdc" id="r_a7fc2a0ff5839e59c72d8681e50b67fdc"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a7fc2a0ff5839e59c72d8681e50b67fdc template"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fc2a0ff5839e59c72d8681e50b67fdc">cMulBits</a> = std::is_same_v&lt;T, <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt; || ( std::is_unsigned_v&lt;T&gt; &amp;&amp; sizeof( T ) &gt;= 8 ) ? 128 : 64</td></tr>
 <tr class="memitem:a82fcd377947914c7a39781e66672c4d8" id="r_a82fcd377947914c7a39781e66672c4d8"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82fcd377947914c7a39781e66672c4d8">cMaxPerturbedPoints</a> = 16</td></tr>
-<tr class="memdesc:a82fcd377947914c7a39781e66672c4d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">the largest number of points of one predicate that getPointDegrees and <a class="el" href="classMR_1_1detail_1_1PerturbationStages.html" title="segmentIntersectionTriPlaneOrder: it reaches the polynomial path with all three largest ids in the pl...">PerturbationStages</a> take  <br /></td></tr>
+<tr class="memdesc:a82fcd377947914c7a39781e66672c4d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">the largest number of points of one predicate that getPointDegrees and <a class="el" href="#a92c86287dc5036d235dd025e24861f4b" title="the stages of at most cMaxPerturbedPoints points, whose degrees the caller makes fit in int64">PerturbationStages</a> take by default  <br /></td></tr>
 <tr class="memitem:acba423b3c3de9931068347f0f0d091d2" id="r_acba423b3c3de9931068347f0f0d091d2"><td class="memItemLeft" align="right" valign="top">constexpr std::int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acba423b3c3de9931068347f0f0d091d2">cMaxPolyDAll</a> = std::numeric_limits&lt;std::int64_t&gt;::max()</td></tr>
 <tr class="memdesc:acba423b3c3de9931068347f0f0d091d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the largest degree that no term exceeds: a polynomial with it keeps all its terms  <br /></td></tr>
 <tr class="memitem:aea8ae9fea302c32cf51613ff45883cbd" id="r_aea8ae9fea302c32cf51613ff45883cbd"><td class="memItemLeft" align="right" valign="top">constexpr std::int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea8ae9fea302c32cf51613ff45883cbd">cMaxPolyDTriTri</a> = 15'943'959</td></tr>
@@ -208,6 +211,22 @@ Variables</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>for internal use: namespace detail is not bound to other languages </p>
 </div><a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="a92c86287dc5036d235dd025e24861f4b" name="a92c86287dc5036d235dd025e24861f4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92c86287dc5036d235dd025e24861f4b">&#9670;&#160;</a></span>PerturbationStages</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a92c86287dc5036d235dd025e24861f4b">MR::detail::PerturbationStages</a> = <a class="el" href="classMR_1_1detail_1_1PerturbationStagesOf.html">PerturbationStagesOf</a>&lt;<a class="el" href="#a82fcd377947914c7a39781e66672c4d8">cMaxPerturbedPoints</a>, false&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the stages of at most cMaxPerturbedPoints points, whose degrees the caller makes fit in int64 </p>
+
+</div>
+</div>
 <a id="a38adfe3c74506871e3e2af9c3c598c75" name="a38adfe3c74506871e3e2af9c3c598c75"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38adfe3c74506871e3e2af9c3c598c75">&#9670;&#160;</a></span>VolumePoly</h2>
 
@@ -293,11 +312,13 @@ template&lt;std::int64_t M&gt; </div>
 
 </div>
 </div>
-<a id="a2d09b58c9b2d6864a0c30dbe13540b62" name="a2d09b58c9b2d6864a0c30dbe13540b62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d09b58c9b2d6864a0c30dbe13540b62">&#9670;&#160;</a></span>getPointDegrees()</h2>
+<a id="aa0d575ca9be16ac96f646ddd488eb50a" name="aa0d575ca9be16ac96f646ddd488eb50a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0d575ca9be16ac96f646ddd488eb50a">&#9670;&#160;</a></span>getPointDegrees()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;int N = cMaxPerturbedPoints, bool Bounded = false&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> int MR::detail::getPointDegrees </td>
@@ -326,7 +347,8 @@ template&lt;std::int64_t M&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds the degrees of the perturbation of points vs[0..n-1] and writes them in res[0..n-1]: sorted by ids, the points get the degrees 1, r_0, r_0 * r_1, ..., where r_k is the radix of the k-th id, given in radices[] of every point with that id, and points with equal ids get equal degrees; the smallest id moves most, as in orient3d, and the radix of a point must exceed its weight in every term of the polynomials of the predicate (the sum of 9, 3, 1 over its coordinates in the term), so that the degrees order the terms as the perturbation of orient3d does: by the weights of the points from the largest id down; returns the number of different ids, and writes their degrees in ascending order in places[] if it is not null </p>
+<p>finds the degrees of the perturbation of points vs[0..n-1] and writes them in res[0..n-1]: sorted by ids, the points get the degrees 1, r_0, r_0 * r_1, ..., where r_k is the radix of the k-th id, given in radices[] of every point with that id, and points with equal ids get equal degrees; the smallest id moves most, as in orient3d, and the radix of a point must exceed its weight in every term of the polynomials of the predicate (the sum of 9, 3, 1 over its coordinates in the term), so that the degrees order the terms as the perturbation of orient3d does: by the weights of the points from the largest id down; returns the number of different ids, and writes their degrees in ascending order in places[] if it is not null; n is at most N; the caller makes the degrees fit in int64, unless Bounded: then only the first ids whose terms fit count, since the terms with the k-th id and smaller ones have degrees below r_0 * ... * r_k, and the points of the other ids get the degree 0, which leaves them unperturbed at every stage (see <a class="el" href="classMR_1_1detail_1_1PerturbationStagesOf.html" title="segmentIntersectionTriPlaneOrder: it reaches the polynomial path with all three largest ids in the pl...">PerturbationStagesOf</a>) </p>
+<p>the degrees of the terms with this id do not fit: the ids before it count, and the points of the others stay unperturbed</p>
 <p>skip to support triangles with shared vertices</p>
 
 </div>
@@ -652,7 +674,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>the largest number of points of one predicate that getPointDegrees and <a class="el" href="classMR_1_1detail_1_1PerturbationStages.html" title="segmentIntersectionTriPlaneOrder: it reaches the polynomial path with all three largest ids in the pl...">PerturbationStages</a> take </p>
+<p>the largest number of points of one predicate that getPointDegrees and <a class="el" href="#a92c86287dc5036d235dd025e24861f4b" title="the stages of at most cMaxPerturbedPoints points, whose degrees the caller makes fit in int64">PerturbationStages</a> take by default </p>
 
 </div>
 </div>

@@ -321,33 +321,6 @@ triangulation is modified to introduce duplicates;
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3304" bodyend="3305"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1af2a4f9f7bde1a12adc0140bb4329dc26" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition> int mrmeshpy.MeshBuilder.uniteCloseVertices</definition>
-        <argsstring>(Mesh mesh, MeshBuilder.UniteCloseParams params=...)</argsstring>
-        <name>uniteCloseVertices</name>
-        <qualifiedname>mrmeshpy.MeshBuilder.uniteCloseVertices</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams" kindref="compound">MeshBuilder.UniteCloseParams</ref></type>
-          <declname>params</declname>
-          <defval>...</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>the function finds groups of mesh vertices located closer to each other than \\param params.closeDist, and unites such vertices in one;
-then the mesh is rebuilt from the remaining triangles
-\\return the number of vertices united, 0 means no change in the mesh
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3308" bodyend="3313"/>
-      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1ac457f5461aa9c10d42bef00c650d7e51" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition> int mrmeshpy.MeshBuilder.uniteCloseVertices</definition>
@@ -384,7 +357,34 @@ then the mesh is rebuilt from the remaining triangles
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3316" bodyend="3323"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3308" bodyend="3315"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1af2a4f9f7bde1a12adc0140bb4329dc26" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshBuilder.uniteCloseVertices</definition>
+        <argsstring>(Mesh mesh, MeshBuilder.UniteCloseParams params=...)</argsstring>
+        <name>uniteCloseVertices</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.uniteCloseVertices</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams" kindref="compound">MeshBuilder.UniteCloseParams</ref></type>
+          <declname>params</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the function finds groups of mesh vertices located closer to each other than \\param params.closeDist, and unites such vertices in one;
+then the mesh is rebuilt from the remaining triangles
+\\return the number of vertices united, 0 means no change in the mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3318" bodyend="3323"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -405,8 +405,8 @@ then the mesh is rebuilt from the remaining triangles
       <member refid="classmrmeshpy_1_1MeshBuilder_1aa4bd5d4b091729150a600561887c409b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>fromTriangles</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1a0452c4d89d63512e9982e32ecd49690a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1a26fce56be7eaf72d3b57db97d6228139" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>operator</name></member>
-      <member refid="classmrmeshpy_1_1MeshBuilder_1af2a4f9f7bde1a12adc0140bb4329dc26" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>uniteCloseVertices</name></member>
       <member refid="classmrmeshpy_1_1MeshBuilder_1ac457f5461aa9c10d42bef00c650d7e51" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>uniteCloseVertices</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1af2a4f9f7bde1a12adc0140bb4329dc26" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder</scope><name>uniteCloseVertices</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

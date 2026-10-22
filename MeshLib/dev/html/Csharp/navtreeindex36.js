@@ -1,5 +1,11 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1Const__CNCMachineSettings.html#ad10baedf4aeab435b20a77c80609b9bf":[9,3,0,0,0,355,11],
+"classMR_1_1Const__CNCMachineSettings.html#adac848440e55dd7f1e81119c82fa739a":[9,3,0,0,0,355,10],
+"classMR_1_1Const__CNCMachineSettings.html#adb2c2c37f93c216bfadeee4a0abcfd37":[9,3,0,0,0,355,3],
+"classMR_1_1Const__CNCMachineSettings.html#af2824d9cd018a0ecedba27c811d34f9f":[9,3,0,0,0,355,12],
+"classMR_1_1Const__CameraPointsTriangulationSettings.html":[9,3,0,0,0,308],
+"classMR_1_1Const__CameraPointsTriangulationSettings.html#a00d330d7976a458d56bbd26ad1c82d38":[9,3,0,0,0,308,9],
 "classMR_1_1Const__CameraPointsTriangulationSettings.html#a0a377ba24f0c1b643898d57ce0f0fc14":[9,3,0,0,0,308,12],
 "classMR_1_1Const__CameraPointsTriangulationSettings.html#a0b81644a972d0296cb7055b65bcbd7bd":[9,3,0,0,0,308,7],
 "classMR_1_1Const__CameraPointsTriangulationSettings.html#a0e407c36fa78469fe1ca7aa78250aec3":[9,3,0,0,0,308,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1Const__ChangeMeshUVCoordsAction.html#a61c188607bd4e9e958a27f2a082ba953":[9,3,0,0,0,325,11],
 "classMR_1_1Const__ChangeMeshUVCoordsAction.html#a77a64dc62a63e22d240ea84b9d691060":[9,3,0,0,0,325,2],
 "classMR_1_1Const__ChangeMeshUVCoordsAction.html#a8af455ca2e6af2a30bd3588d61b96a3c":[9,3,0,0,0,325,10],
-"classMR_1_1Const__ChangeMeshUVCoordsAction.html#a91bedd4ade53b0df2b6e1bf82568d03f":[9,3,0,0,0,325,3],
-"classMR_1_1Const__ChangeMeshUVCoordsAction.html#ab30df7e5dfb25337f992ed0f649b4fa8":[9,3,0,0,0,325,0],
-"classMR_1_1Const__ChangeMeshUVCoordsAction.html#ab390a2ac340fcdee12ee899e38e51878":[9,3,0,0,0,325,9],
-"classMR_1_1Const__ChangeMeshUVCoordsAction.html#acb7d56ecf60e6ee88177361a7b282ff7":[9,3,0,0,0,325,7],
-"classMR_1_1Const__ChangeMeshUVCoordsAction.html#adde5b5866b19437f50678e9890139f7b":[9,3,0,0,0,325,5],
-"classMR_1_1Const__ChangeMeshUVCoordsAction.html#ae0a585b8276783a977211d9564550761":[9,3,0,0,0,325,1],
-"classMR_1_1Const__ChangeNameAction.html":[9,3,0,0,0,326]
+"classMR_1_1Const__ChangeMeshUVCoordsAction.html#a91bedd4ade53b0df2b6e1bf82568d03f":[9,3,0,0,0,325,3]
 };

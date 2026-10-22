@@ -1,5 +1,11 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1Const__DecimateSettings.html#a50fb3d6707eee2ab4cf5889637fcb15b":[9,3,0,0,0,393,31],
+"classMR_1_1Const__DecimateSettings.html#a5b44c6180de01bed11c517db1abbc1af":[9,3,0,0,0,393,14],
+"classMR_1_1Const__DecimateSettings.html#a5b98104d4d0ce4400db01ab16d5d758a":[9,3,0,0,0,393,38],
+"classMR_1_1Const__DecimateSettings.html#a5c89d42a5816063cbdc9d31f3043eb6d":[9,3,0,0,0,393,49],
+"classMR_1_1Const__DecimateSettings.html#a5e638e1c19fcda4de3de47a0c6ded0ad":[9,3,0,0,0,393,36],
+"classMR_1_1Const__DecimateSettings.html#a6a03ed8def8566d99f1e710ff4218d1d":[9,3,0,0,0,393,19],
 "classMR_1_1Const__DecimateSettings.html#a82a3938a0cd518ef898b258fddfb8c93":[9,3,0,0,0,393,24],
 "classMR_1_1Const__DecimateSettings.html#a83c76ac708a9d5812c0ba6e30f276881":[9,3,0,0,0,393,60],
 "classMR_1_1Const__DecimateSettings.html#a848193fe93368a106d3f52dde320ebe4":[9,3,0,0,0,393,13],
@@ -243,11 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1Const__DistanceFromWeightedPointsComputeParams.html#ac8947cb4a539f59a185ffb0be50fb7cd":[9,3,0,0,0,405,9],
 "classMR_1_1Const__DistanceFromWeightedPointsComputeParams.html#af2c1845f631fde9e1d53a153b72be4f0":[9,3,0,0,0,405,11],
 "classMR_1_1Const__DistanceFromWeightedPointsParams.html":[9,3,0,0,0,406],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#a02cd0fd9c05d91da8779f528262914e8":[9,3,0,0,0,406,14],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#a062674aae2ec7c77a00f791cacc6466d":[9,3,0,0,0,406,1],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#a090c95b97e84dfabb539f1253393f01a":[9,3,0,0,0,406,6],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#a09498abcda8232f5e840e33c78ac4916":[9,3,0,0,0,406,10],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#a0bb7cb9c93b3d8825c29f78d953596a1":[9,3,0,0,0,406,9],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#a17eb17774c94d0349b8b771a14ef1711":[9,3,0,0,0,406,5],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#a21ed4d7aab7a7b81f3bddce7e2f70336":[9,3,0,0,0,406,3]
+"classMR_1_1Const__DistanceFromWeightedPointsParams.html#a02cd0fd9c05d91da8779f528262914e8":[9,3,0,0,0,406,14]
 };

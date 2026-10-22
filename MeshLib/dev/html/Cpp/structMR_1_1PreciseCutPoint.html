@@ -142,19 +142,46 @@ $(function(){initNavTree('structMR_1_1PreciseCutPoint.html','','structMR_1_1Prec
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a9e387bdf21acfb67f979c94f79db10e4" id="r_a9e387bdf21acfb67f979c94f79db10e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e387bdf21acfb67f979c94f79db10e4">isCrossing</a> () const</td></tr>
 <tr class="memitem:a38110f3393d6264ef6ef771ef5c9f01b" id="r_a38110f3393d6264ef6ef771ef5c9f01b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38110f3393d6264ef6ef771ef5c9f01b">isVertex</a> () const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a00d67e208d245c5ddd9f144d0bd78590" id="r_a00d67e208d245c5ddd9f144d0bd78590"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00d67e208d245c5ddd9f144d0bd78590">seg</a></td></tr>
-<tr class="memdesc:a00d67e208d245c5ddd9f144d0bd78590"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertex in seg[0] if seg[1].id is invalid; otherwise the ends of the segment  <br /></td></tr>
+<tr class="memdesc:a00d67e208d245c5ddd9f144d0bd78590"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertex in seg[0] if seg[1].id is invalid; otherwise the ends of the segment; ignored for a crossing of two cuts (see tri2)  <br /></td></tr>
 <tr class="memitem:a8a92fbd8e3905e3e715622593fd712c9" id="r_a8a92fbd8e3905e3e715622593fd712c9"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a92fbd8e3905e3e715622593fd712c9">tri</a></td></tr>
-<tr class="memdesc:a8a92fbd8e3905e3e715622593fd712c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">the triangle whose plane the segment crosses; not used for a vertex  <br /></td></tr>
+<tr class="memdesc:a8a92fbd8e3905e3e715622593fd712c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">the triangle whose plane the segment crosses, or the plane of the first cut of a crossing of two cuts; not used for a vertex  <br /></td></tr>
 <tr class="memitem:a11f572416abc57b91657513e1531cf49" id="r_a11f572416abc57b91657513e1531cf49"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11f572416abc57b91657513e1531cf49">wedge</a></td></tr>
+<tr class="memitem:a59bae2c82eba05713f1c6e0501eeaa63" id="r_a59bae2c82eba05713f1c6e0501eeaa63"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59bae2c82eba05713f1c6e0501eeaa63">tri2</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>a point inside a triangle of a mesh cut along its intersections with other triangles, defined by mesh vertices in the exact coordinates that the boolean's predicates take, with the same ids: either a vertex, or the point where a segment crosses the plane of a triangle (an edge-triangle intersection found by <a class="el" href="group__MathGroup.html#ga4b162fc9a97cef14dfdf9a7dfc6bf34f">doTriangleSegmentIntersect</a>); the coordinates are below 2^30 by absolute value, as <a class="el" href="group__MathGroup.html#ga1d477d2bd0d97e5a7ee1a9b3e62d06cc">getToIntConverter</a> makes them, which the widths of the exact integers and the error bounds of the predicates rely on, and an id stands for one vertex with the same coordinates in every point </p>
+<div class="textblock"><p>a point inside a triangle of a mesh cut along its intersections with other triangles, defined by mesh vertices in the exact coordinates that the boolean's predicates take, with the same ids: either a vertex, or the point where a segment crosses the plane of a triangle (an edge-triangle intersection found by <a class="el" href="group__MathGroup.html#ga4b162fc9a97cef14dfdf9a7dfc6bf34f">doTriangleSegmentIntersect</a>), or the crossing of two cuts of the triangle, where the planes of two other triangles and its own one meet; the coordinates are below 2^30 by absolute value, as <a class="el" href="group__MathGroup.html#ga1d477d2bd0d97e5a7ee1a9b3e62d06cc">getToIntConverter</a> makes them, which the widths of the exact integers and the error bounds of the predicates rely on, and an id stands for one vertex with the same coordinates in every point </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a9e387bdf21acfb67f979c94f79db10e4" name="a9e387bdf21acfb67f979c94f79db10e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e387bdf21acfb67f979c94f79db10e4">&#9670;&#160;</a></span>isCrossing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::PreciseCutPoint::isCrossing </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a38110f3393d6264ef6ef771ef5c9f01b" name="a38110f3393d6264ef6ef771ef5c9f01b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38110f3393d6264ef6ef771ef5c9f01b">&#9670;&#160;</a></span>isVertex()</h2>
 
@@ -193,7 +220,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>the vertex in seg[0] if seg[1].id is invalid; otherwise the ends of the segment </p>
+<p>the vertex in seg[0] if seg[1].id is invalid; otherwise the ends of the segment; ignored for a crossing of two cuts (see tri2) </p>
 
 </div>
 </div>
@@ -209,7 +236,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>the triangle whose plane the segment crosses; not used for a vertex </p>
+<p>the triangle whose plane the segment crosses, or the plane of the first cut of a crossing of two cuts; not used for a vertex </p>
+
+</div>
+</div>
+<a id="a59bae2c82eba05713f1c6e0501eeaa63" name="a59bae2c82eba05713f1c6e0501eeaa63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59bae2c82eba05713f1c6e0501eeaa63">&#9670;&#160;</a></span>tri2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;<a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 3&gt; MR::PreciseCutPoint::tri2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the plane of the second cut of a crossing of two cuts, with invalid ids for the other points: a valid tri2[0].id makes the point a crossing of two cuts, whatever seg and wedge hold </p>
 
 </div>
 </div>
@@ -224,7 +266,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional for a segment that is an edge of another mesh crossing the triangle: the third vertices of the two triangles of that edge, in any order, with invalid ids if not given (as for a boundary edge); they tell apart the crossings of the edges of a multiple edge, which are defined alike otherwise (see <a class="el" href="classMR_1_1CutTrianglePredicates.html">CutTrianglePredicates</a>) </p>
+<p>optional for a segment that is an edge of another mesh crossing the triangle: the third vertices of the two triangles of that edge, in any order, with invalid ids if not given (as for a boundary edge); they tell apart the crossings of the edges of a multiple edge, which are defined alike otherwise (see <a class="el" href="classMR_1_1CutTrianglePredicates.html">CutTrianglePredicates</a>); ignored for a crossing of two cuts (see tri2) </p>
 
 </div>
 </div>

@@ -2329,15 +2329,18 @@
     <member refid="classMR_1_1CutTrianglePredicates_1acb61f77fdfe6efd12ce218a3c49e8a67" kind="function"><name>ccwByPerturbation</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1aa3c3493c621e80218c80dd01775485eb" kind="function"><name>ccwFromBehind</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1a53146af4ffe7ef0fc5d3ad4cd26a1c17" kind="function"><name>failed</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1ad99a08f58d72b3281a075fdc9d42aff4" kind="function"><name>addCrossing_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1aa57f5f82b78e8f3ce7476fde543eb925" kind="function"><name>isCrossing_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1a6627543626b962e434fc7421e2ebd06a" kind="function"><name>compareExact_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1a046b29e35fb5cd03ca8cf4d2e0596612" kind="function"><name>exactOrient_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1a20878b1d2f513b6c65b7c0690d09bbc9" kind="function"><name>ccwExact_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1a5d36399b67d1f5918c92da114f61f2dc" kind="function"><name>orientSlow_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1abc2e03be3e9fe0a1a1d977f66ee86c1f" kind="function"><name>ccwBySides_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1a890a67ad3e30c437a49805904d590ac1" kind="function"><name>ccwByPlanes_</name></member>
-    <member refid="classMR_1_1CutTrianglePredicates_1a48aa3bc685005c8af7876eaa701a47ed" kind="function"><name>ccwByShifts_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a1f5bc8041a0849718b5a876aa065f603" kind="function"><name>ccwByShifts_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1a892bf5614d5b8c538b3181aae932cbeb" kind="function"><name>coincidentDirection_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1aaf0b3280796c0f1d582354d4738af55e" kind="function"><name>directionFromSide_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1af356016363370428f1e61bde2109e164" kind="function"><name>directionAlongCut_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1a2d96e79529bd1b43a6f9f1791bfa4c87" kind="function"><name>perturbedDirection_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1aa12a421fb8d3e32204b8152613f60130" kind="function"><name>shiftDirection_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1ab7f3269d569c1a41f9d4d1254486e191" kind="function"><name>shift_</name></member>
@@ -2345,6 +2348,7 @@
     <member refid="classMR_1_1CutTrianglePredicates_1ad7a691e387c80fb8493686f0e562aef9" kind="function"><name>lineDirection_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1a6bae63b9eb37c3b2e1cfa36602121512" kind="function"><name>along_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1af91ad57a053019c291c40a73da9887e9" kind="function"><name>sideOfPlane_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a07310d2a06ed33630b347015c36135a9" kind="function"><name>crossingSideOfPlane_</name></member>
     <member refid="classMR_1_1CutTrianglePredicates_1a5204d1e237133971341ed506a9c3ed27" kind="function"><name>fail_</name></member>
   </compound>
   <compound refid="classMR_1_1Cylinder3" kind="class"><name>MR::Cylinder3</name>
@@ -8207,17 +8211,17 @@
     <member refid="group__GeneralGroup_1ga8a3bbfef3276f1831b2a645909a93a94" kind="variable"><name>task_</name></member>
     <member refid="group__GeneralGroup_1ga86ddf92193dd592a4f6b78b9df17f094" kind="function"><name>operator()</name></member>
   </compound>
-  <compound refid="classMR_1_1detail_1_1PerturbationStages" kind="class"><name>MR::detail::PerturbationStages</name>
-    <member refid="classMR_1_1detail_1_1PerturbationStages_1a233d7ea702b327a0dce9b35bfc1c6eaf" kind="variable"><name>points_</name></member>
-    <member refid="classMR_1_1detail_1_1PerturbationStages_1ae67ecb8d180f7e304b15289891c1cfdf" kind="variable"><name>places_</name></member>
-    <member refid="classMR_1_1detail_1_1PerturbationStages_1a6fcaaeebdc387d5ef951ac9ad3235982" kind="variable"><name>numStages_</name></member>
-    <member refid="classMR_1_1detail_1_1PerturbationStages_1a42bd47428e12dd23d0d9506c23069a10" kind="function"><name>PerturbationStages</name></member>
-    <member refid="classMR_1_1detail_1_1PerturbationStages_1a703fc73b301b3862535a5f24f658acda" kind="function"><name>numStages</name></member>
-    <member refid="classMR_1_1detail_1_1PerturbationStages_1a85dbebd3f3ec1516ab281af66a9f7846" kind="function"><name>place</name></member>
-    <member refid="classMR_1_1detail_1_1PerturbationStages_1a27a21179b8378063d695dc3ea4ce1513" kind="function"><name>operator[]</name></member>
-    <member refid="classMR_1_1detail_1_1PerturbationStages_1a842249174d8b0012c69cd20261fe084d" kind="function"><name>at</name></member>
-    <member refid="classMR_1_1detail_1_1PerturbationStages_1ad8d14e37017868728e75ddb67a88bad5" kind="function"><name>startsAt</name></member>
-    <member refid="classMR_1_1detail_1_1PerturbationStages_1adabf7d755d7291635f11b881da45440d" kind="function"><name>firstStage</name></member>
+  <compound refid="classMR_1_1detail_1_1PerturbationStagesOf" kind="class"><name>MR::detail::PerturbationStagesOf</name>
+    <member refid="classMR_1_1detail_1_1PerturbationStagesOf_1ae9ececc99cbf0a52ced2e2b08b8ada34" kind="variable"><name>points_</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStagesOf_1a7ffa8b4f356851455e5d8e3410559cfa" kind="variable"><name>places_</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStagesOf_1a962d041ea91099a50e551b05510e666f" kind="variable"><name>numStages_</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStagesOf_1abf213e6daba28b07ec0d772bd183e632" kind="function"><name>PerturbationStagesOf</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStagesOf_1af0f5ed2681c5000e65613394313bcfc2" kind="function"><name>numStages</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStagesOf_1aea7abbdc4ea6e7376104c9556b101c2c" kind="function"><name>place</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStagesOf_1a0a0e0603b34dd99df69dad552e2554ba" kind="function"><name>operator[]</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStagesOf_1a4f9c25da365d602c23af121d9311161c" kind="function"><name>at</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStagesOf_1a8ab56291ba6f42fe7c876a363fcde0eb" kind="function"><name>startsAt</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStagesOf_1ae88d203cc5421f7014137970f49f0d8b" kind="function"><name>firstStage</name></member>
   </compound>
   <compound refid="structMR_1_1ViewportGL_1_1PickColor" kind="struct"><name>MR::ViewportGL::PickColor</name>
     <member refid="group__GeneralGroup_1gaa3b4158113bf9222c85c1bbe85c1433a" kind="variable"><name>color</name></member>
@@ -9041,6 +9045,8 @@
     <member refid="structMR_1_1PreciseCutPoint_1a00d67e208d245c5ddd9f144d0bd78590" kind="variable"><name>seg</name></member>
     <member refid="structMR_1_1PreciseCutPoint_1a8a92fbd8e3905e3e715622593fd712c9" kind="variable"><name>tri</name></member>
     <member refid="structMR_1_1PreciseCutPoint_1a11f572416abc57b91657513e1531cf49" kind="variable"><name>wedge</name></member>
+    <member refid="structMR_1_1PreciseCutPoint_1a59bae2c82eba05713f1c6e0501eeaa63" kind="variable"><name>tri2</name></member>
+    <member refid="structMR_1_1PreciseCutPoint_1a9e387bdf21acfb67f979c94f79db10e4" kind="function"><name>isCrossing</name></member>
     <member refid="structMR_1_1PreciseCutPoint_1a38110f3393d6264ef6ef771ef5c9f01b" kind="function"><name>isVertex</name></member>
   </compound>
   <compound refid="structMR_1_1PreciseVertCoord" kind="struct"><name>MR::PreciseVertCoord</name>
@@ -14664,6 +14670,8 @@
     <member refid="group__GeneralGroup_1ga3f87a9abf93ab132bc1ea3f939459b37" kind="typedef"><name>OffsetContoursVertMaps</name></member>
     <member refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" kind="typedef"><name>ContoursVariableOffset</name></member>
     <member refid="group__GeneralGroup_1ga217b7a3f4fc9168e09f3d423beb790e5" kind="typedef"><name>MeshTriPointsConnector</name></member>
+    <member refid="group__GeneralGroup_1gadc35d96252f2f4e46b31ee7da4bc96d0" kind="typedef"><name>FPFHDescriptor</name></member>
+    <member refid="group__GeneralGroup_1ga40b00a4d33abffac48088bf156d86028" kind="typedef"><name>FPFHDescriptors</name></member>
     <member refid="namespaceMR_1a93bff7f59121c9c61175744b11326824" kind="typedef"><name>FillHolesWithExtraPointsParams</name></member>
     <member refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kind="typedef"><name>PickedPoint</name></member>
     <member refid="group__GeneralGroup_1ga30cd2d38272cf5fb35c10a421b4d2045" kind="typedef"><name>FoundPointCallback</name></member>
@@ -14840,6 +14848,7 @@
     <member refid="group__GeneralGroup_1ga351ee7aaab2fab7deb7b0aed319437f4" kind="variable"><name>settings</name></member>
     <member refid="group__HistoryGroup_1gad99fa852d419f9e626ea9fa47d4c7884" kind="variable"><name>cmpOld</name></member>
     <member refid="group__HistoryGroup_1ga66d1f6caeb3fa983f8d823d501d10cc3" kind="variable"><name>setNew</name></member>
+    <member refid="group__GeneralGroup_1ga3b90c83e8a1db82d0270a879f9d3bd16" kind="variable"><name>FPFHBins</name></member>
     <member refid="group__GeneralGroup_1gab30b2cff28d4af1589761e19ac9019fa" kind="variable"><name>testPoints</name></member>
     <member refid="group__GeneralGroup_1gad0626776a19c450dc06af751d1bd6b56" kind="variable"><name>validTestPoints</name></member>
     <member refid="group__GeneralGroup_1gacad7dea69af1314dca455d10ae162e3f" kind="variable"><name>projector</name></member>
@@ -15782,6 +15791,7 @@
     <member refid="group__GeneralGroup_1ga45ef807278427b9788f95a292ff236be" kind="function"><name>findMaxDistanceSq</name></member>
     <member refid="group__GeneralGroup_1ga947a6bad93f0eb336d355ab0497b7dbd" kind="function"><name>findHalfSpacePoints</name></member>
     <member refid="group__GeneralGroup_1ga6d7f1057abe62b822b7c51220cdcb574" kind="function"><name>divideWithPlane</name></member>
+    <member refid="group__PointCloudGroup_1ga4e33b70d66490482edd3fef7120b0a04" kind="function"><name>computeFPFH</name></member>
     <member refid="group__PointCloudGroup_1gabbad18eed929fbd7bec2afad0b91541d" kind="function"><name>makeUnorientedNormals</name></member>
     <member refid="group__PointCloudGroup_1gabc9d6a3d4680264055d93f5039ee962e" kind="function"><name>makeUnorientedNormals</name></member>
     <member refid="group__PointCloudGroup_1ga864b89267ca9c36845aa4bda529ea85e" kind="function"><name>makeUnorientedNormals</name></member>
@@ -16630,6 +16640,7 @@
     <member refid="group__GeneralGroup_1ga5caa3c21e1c35ac6d6dd2eb125484783" kind="function"><name>loadMRCudaDll</name></member>
   </compound>
   <compound refid="namespaceMR_1_1detail" kind="namespace"><name>MR::detail</name>
+    <member refid="namespaceMR_1_1detail_1a92c86287dc5036d235dd025e24861f4b" kind="typedef"><name>PerturbationStages</name></member>
     <member refid="namespaceMR_1_1detail_1a38adfe3c74506871e3e2af9c3c598c75" kind="typedef"><name>VolumePoly</name></member>
     <member refid="namespaceMR_1_1detail_1af6206848d5379160c8a8684d2c76593f" kind="variable"><name>cFitsFastInt128</name></member>
     <member refid="namespaceMR_1_1detail_1a7fc2a0ff5839e59c72d8681e50b67fdc" kind="variable"><name>cMulBits</name></member>
@@ -16644,7 +16655,7 @@
     <member refid="namespaceMR_1_1detail_1a0c3c7fc10991c0eb99094bb42d438de2" kind="function"><name>mulWordsOf</name></member>
     <member refid="namespaceMR_1_1detail_1a642d79bba1a218c9810ee5a91c1362b9" kind="function"><name>doubleFromWords</name></member>
     <member refid="namespaceMR_1_1detail_1ab652e2278f32034e7f2aa5960239c222" kind="function"><name>orient3dVolume</name></member>
-    <member refid="namespaceMR_1_1detail_1a2d09b58c9b2d6864a0c30dbe13540b62" kind="function"><name>getPointDegrees</name></member>
+    <member refid="namespaceMR_1_1detail_1aa0d575ca9be16ac96f646ddd488eb50a" kind="function"><name>getPointDegrees</name></member>
     <member refid="namespaceMR_1_1detail_1a349b4ff5760953282c595de0b6c3e1ab" kind="function"><name>orient3dPoly</name></member>
     <member refid="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" kind="function"><name>runCocoaFileDialog</name></member>
     <member refid="namespaceMR_1_1detail_1a4b40e1222b8df2660b25e4942deb39fb" kind="function"><name>isPortalFileDialogSupported</name></member>
@@ -18431,6 +18442,8 @@
   </compound>
   <compound refid="MRPointCloudDivideWithPlane_8h" kind="file"><name>MRPointCloudDivideWithPlane.h</name>
   </compound>
+  <compound refid="MRPointCloudFPFH_8h" kind="file"><name>MRPointCloudFPFH.h</name>
+  </compound>
   <compound refid="MRPointCloudMakeNormals_8h" kind="file"><name>MRPointCloudMakeNormals.h</name>
   </compound>
   <compound refid="MRPointCloudPart_8h" kind="file"><name>MRPointCloudPart.h</name>
@@ -20179,6 +20192,7 @@
   </compound>
   <compound refid="group__PointCloudGroup" kind="group"><name>PointCloudGroup</name>
     <member refid="group__PointCloudGroup_1gaac1c0003890912dca03aafa624951ad4" kind="function"><name>improveSampling</name></member>
+    <member refid="group__PointCloudGroup_1ga4e33b70d66490482edd3fef7120b0a04" kind="function"><name>computeFPFH</name></member>
     <member refid="group__PointCloudGroup_1gabbad18eed929fbd7bec2afad0b91541d" kind="function"><name>makeUnorientedNormals</name></member>
     <member refid="group__PointCloudGroup_1gabc9d6a3d4680264055d93f5039ee962e" kind="function"><name>makeUnorientedNormals</name></member>
     <member refid="group__PointCloudGroup_1ga864b89267ca9c36845aa4bda529ea85e" kind="function"><name>makeUnorientedNormals</name></member>
@@ -22038,6 +22052,8 @@
     <member refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" kind="typedef"><name>ContoursVariableOffset</name></member>
     <member refid="group__GeneralGroup_1ga1b3a2ad8c458d6b108bfb101240d3d2c" kind="typedef"><name>OriginZCallback</name></member>
     <member refid="group__GeneralGroup_1ga217b7a3f4fc9168e09f3d423beb790e5" kind="typedef"><name>MeshTriPointsConnector</name></member>
+    <member refid="group__GeneralGroup_1gadc35d96252f2f4e46b31ee7da4bc96d0" kind="typedef"><name>FPFHDescriptor</name></member>
+    <member refid="group__GeneralGroup_1ga40b00a4d33abffac48088bf156d86028" kind="typedef"><name>FPFHDescriptors</name></member>
     <member refid="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" kind="typedef"><name>PickedPoint</name></member>
     <member refid="group__GeneralGroup_1ga30cd2d38272cf5fb35c10a421b4d2045" kind="typedef"><name>FoundPointCallback</name></member>
     <member refid="group__GeneralGroup_1ga421af22aea174a88968edea770000bbc" kind="typedef"><name>OnPointInBallFound</name></member>
@@ -23669,6 +23685,7 @@
     <member refid="group__GeneralGroup_1ga8f57623cee5e4db20049f8d9d6dff9cf" kind="variable"><name>outVmap</name></member>
     <member refid="group__GeneralGroup_1gabf7d2f349e450a24bc74e71d1de3d1bc" kind="variable"><name>otherPart</name></member>
     <member refid="group__GeneralGroup_1ga8b9684f693bcbb8c4f778a2250ab9b5a" kind="variable"><name>otherOutVmap</name></member>
+    <member refid="group__GeneralGroup_1ga3b90c83e8a1db82d0270a879f9d3bd16" kind="variable"><name>FPFHBins</name></member>
     <member refid="group__GeneralGroup_1ga85d4aad70140445a8b9ebadbc4382363" kind="variable"><name>cloud</name></member>
     <member refid="group__GeneralGroup_1gadb49365fb60e376e6302ffa62d2b534a" kind="variable"><name>region</name></member>
     <member refid="group__GeneralGroup_1ga322f3bf83bb9a37355ec261f5a5a2933" kind="variable"><name>CapVisibility</name></member>

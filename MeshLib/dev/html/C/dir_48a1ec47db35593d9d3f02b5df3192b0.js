@@ -260,6 +260,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRPointCloud.h", "MRPointCloud_8h.html", "MRPointCloud_8h" ],
     [ "MRPointCloudDistance.h", "MRPointCloudDistance_8h.html", "MRPointCloudDistance_8h" ],
     [ "MRPointCloudDivideWithPlane.h", "MRPointCloudDivideWithPlane_8h.html", "MRPointCloudDivideWithPlane_8h" ],
+    [ "MRPointCloudFPFH.h", "MRPointCloudFPFH_8h.html", "MRPointCloudFPFH_8h" ],
     [ "MRPointCloudMakeNormals.h", "MRPointCloudMakeNormals_8h.html", "MRPointCloudMakeNormals_8h" ],
     [ "MRPointCloudPart.h", "MRPointCloudPart_8h.html", "MRPointCloudPart_8h" ],
     [ "MRPointCloudRadius.h", "MRPointCloudRadius_8h.html", "MRPointCloudRadius_8h" ],

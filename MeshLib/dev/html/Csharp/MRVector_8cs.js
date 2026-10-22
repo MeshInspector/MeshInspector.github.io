@@ -125,6 +125,8 @@ var MRVector_8cs =
     [ "MR.Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag", "classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag.html", "classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag" ],
     [ "MR.Const_Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", "classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int" ],
     [ "MR.Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int", "classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html", "classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int" ],
+    [ "MR.Const_Vector_StdArrayFloat33_MRVertId", "classMR_1_1Const__Vector__StdArrayFloat33__MRVertId.html", "classMR_1_1Const__Vector__StdArrayFloat33__MRVertId" ],
+    [ "MR.Vector_StdArrayFloat33_MRVertId", "classMR_1_1Vector__StdArrayFloat33__MRVertId.html", "classMR_1_1Vector__StdArrayFloat33__MRVertId" ],
     [ "MR.Const_Vector_MRQuadraticForm2f_MRVertId", "classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId.html", "classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId" ],
     [ "MR.Vector_MRQuadraticForm2f_MRVertId", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId" ],
     [ "MR.Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html", "classMR_1_1Const__Vector__Int__MRGraphVertId" ],

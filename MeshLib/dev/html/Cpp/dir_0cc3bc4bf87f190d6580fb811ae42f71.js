@@ -304,6 +304,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRPointCloud.h", "MRPointCloud_8h.html", null ],
     [ "MRPointCloudDistance.h", "MRPointCloudDistance_8h.html", "MRPointCloudDistance_8h" ],
     [ "MRPointCloudDivideWithPlane.h", "MRPointCloudDivideWithPlane_8h.html", "MRPointCloudDivideWithPlane_8h" ],
+    [ "MRPointCloudFPFH.h", "MRPointCloudFPFH_8h.html", "MRPointCloudFPFH_8h" ],
     [ "MRPointCloudMakeNormals.h", "MRPointCloudMakeNormals_8h.html", "MRPointCloudMakeNormals_8h" ],
     [ "MRPointCloudPart.h", "MRPointCloudPart_8h.html", null ],
     [ "MRPointCloudRadius.h", "MRPointCloudRadius_8h.html", "MRPointCloudRadius_8h" ],

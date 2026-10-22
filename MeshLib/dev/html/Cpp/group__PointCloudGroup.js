@@ -42,6 +42,7 @@ var group__PointCloudGroup =
       [ "setDistances", "group__GeneralGroup.html#ga90ece5219c787eed6781187069122d11", null ],
       [ "setSurfacePC", "group__GeneralGroup.html#gacd2901166038dd400decaf6d3dac1bb9", null ]
     ] ],
+    [ "MR::computeFPFH", "group__PointCloudGroup.html#ga4e33b70d66490482edd3fef7120b0a04", null ],
     [ "MR::findAvgPointsRadius", "group__PointCloudGroup.html#gad170a186634adcea1422a0bcb701584d", null ],
     [ "MR::improveSampling", "group__PointCloudGroup.html#gaac1c0003890912dca03aafa624951ad4", null ],
     [ "MR::makeNormals", "group__PointCloudGroup.html#ga15578cc0c068a55121b279b4d0b9e7cb", null ],
