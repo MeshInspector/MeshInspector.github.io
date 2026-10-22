@@ -51,6 +51,8 @@
         </childnode>
         <childnode refid="31" relation="include">
         </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
       </node>
       <node id="45">
         <label>MRBox.h</label>
@@ -126,7 +128,7 @@
         <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="65">
+      <node id="66">
         <label>MRHeapBytes.h</label>
         <link refid="MRHeapBytes_8h"/>
         <childnode refid="13" relation="include">
@@ -156,7 +158,7 @@
         <childnode refid="28" relation="include">
         </childnode>
       </node>
-      <node id="67">
+      <node id="68">
         <label>MRImage.h</label>
         <link refid="MRImage_8h"/>
         <childnode refid="48" relation="include">
@@ -165,7 +167,7 @@
         </childnode>
         <childnode refid="51" relation="include">
         </childnode>
-        <childnode refid="65" relation="include">
+        <childnode refid="66" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
@@ -220,10 +222,10 @@
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="66">
+      <node id="67">
         <label>MRMeshTexture.h</label>
         <link refid="MRMeshTexture_8h"/>
-        <childnode refid="67" relation="include">
+        <childnode refid="68" relation="include">
         </childnode>
         <childnode refid="49" relation="include">
         </childnode>
@@ -291,9 +293,9 @@
         </childnode>
         <childnode refid="56" relation="include">
         </childnode>
-        <childnode refid="65" relation="include">
-        </childnode>
         <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
         </childnode>
       </node>
       <node id="35">
@@ -536,6 +538,9 @@
       </node>
       <node id="32">
         <label>memory</label>
+      </node>
+      <node id="65">
+        <label>mimalloc.h</label>
       </node>
       <node id="52">
         <label>optional</label>

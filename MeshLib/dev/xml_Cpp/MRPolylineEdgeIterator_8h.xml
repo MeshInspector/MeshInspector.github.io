@@ -27,6 +27,8 @@
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
       </node>
       <node id="6">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -52,7 +54,7 @@
         <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="27">
+      <node id="28">
         <label>MRIteratorRange.h</label>
         <link refid="MRIteratorRange_8h"/>
       </node>
@@ -91,7 +93,7 @@
         <link refid="MRPolylineEdgeIterator_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
@@ -168,6 +170,9 @@
       </node>
       <node id="26">
         <label>iterator</label>
+      </node>
+      <node id="27">
+        <label>mimalloc.h</label>
       </node>
       <node id="11">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>

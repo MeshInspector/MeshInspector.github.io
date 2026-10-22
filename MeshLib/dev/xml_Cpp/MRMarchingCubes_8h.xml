@@ -53,6 +53,8 @@
         </childnode>
         <childnode refid="47" relation="include">
         </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
       </node>
       <node id="33">
         <label>MRMesh/MRBox.h</label>
@@ -196,7 +198,7 @@
         <childnode refid="42" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="49">
         <label>MRMesh/MRSignDetectionMode.h</label>
         <link refid="MRSignDetectionMode_8h"/>
         <childnode refid="4" relation="include">
@@ -281,11 +283,11 @@
         </childnode>
         <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -343,7 +345,7 @@
       <node id="15">
         <label>cassert</label>
       </node>
-      <node id="49">
+      <node id="50">
         <label>climits</label>
       </node>
       <node id="24">
@@ -375,6 +377,9 @@
       </node>
       <node id="37">
         <label>memory</label>
+      </node>
+      <node id="48">
+        <label>mimalloc.h</label>
       </node>
       <node id="12">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>

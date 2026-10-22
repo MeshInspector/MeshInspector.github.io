@@ -26,6 +26,8 @@
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
       </node>
       <node id="7">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -33,16 +35,16 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="35">
+      <node id="36">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="41">
+      <node id="42">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -71,12 +73,12 @@
         <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="39">
+      <node id="40">
         <label>MRLineSegm.h</label>
         <link refid="MRLineSegm_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -109,10 +111,10 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="33">
         <label>MRPlane3.h</label>
         <link refid="MRPlane3_8h"/>
-        <childnode refid="33" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
@@ -122,13 +124,13 @@
         <link refid="MRPolyline_8h"/>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -161,15 +163,15 @@
         <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="42">
+      <node id="43">
         <label>MRSegmPoint.h</label>
         <link refid="MRSegmPoint_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
       </node>
-      <node id="30">
+      <node id="31">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="4" relation="include">
@@ -178,10 +180,10 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="35">
         <label>MRMesh/MRUnsigned.h</label>
         <link refid="MRUnsigned_8h"/>
         <childnode refid="16" relation="include">
@@ -203,46 +205,46 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="40">
+      <node id="41">
         <label>MRVector2.h</label>
         <link refid="MRVector2_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
-        </childnode>
         <childnode refid="37" relation="include">
         </childnode>
         <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="33">
+      <node id="34">
         <label>MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="37" relation="include">
         </childnode>
         <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
@@ -259,7 +261,7 @@
       <node id="26">
         <label>MRphmap.h</label>
       </node>
-      <node id="36">
+      <node id="37">
         <label>algorithm</label>
       </node>
       <node id="9">
@@ -271,7 +273,7 @@
       <node id="15">
         <label>cassert</label>
       </node>
-      <node id="37">
+      <node id="38">
         <label>cmath</label>
       </node>
       <node id="19">
@@ -286,7 +288,7 @@
       <node id="14">
         <label>cstdint</label>
       </node>
-      <node id="38">
+      <node id="39">
         <label>cstring</label>
       </node>
       <node id="13">
@@ -298,11 +300,14 @@
       <node id="29">
         <label>iterator</label>
       </node>
-      <node id="43">
+      <node id="44">
         <label>limits</label>
       </node>
-      <node id="31">
+      <node id="32">
         <label>memory</label>
+      </node>
+      <node id="30">
+        <label>mimalloc.h</label>
       </node>
       <node id="12">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>
