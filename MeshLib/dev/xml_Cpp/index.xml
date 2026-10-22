@@ -640,7 +640,6 @@
   </compound>
   <compound refid="classMR_1_1BitSet" kind="class"><name>MR::BitSet</name>
     <member refid="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" kind="typedef"><name>block_type</name></member>
-    <member refid="classMR_1_1BitSet_1adb9bff198d5b5413e5ed59bed7396828" kind="typedef"><name>Blocks</name></member>
     <member refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kind="typedef"><name>size_type</name></member>
     <member refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kind="typedef"><name>IndexType</name></member>
     <member refid="classMR_1_1BitSet_1a1f620464c1c261bfb83432e57b5312a5" kind="variable"><name>bits_per_block</name></member>
@@ -648,7 +647,7 @@
     <member refid="classMR_1_1BitSet_1a558654932f4220ca7207e0dfb1beb50d" kind="variable"><name>len</name></member>
     <member refid="classMR_1_1BitSet_1a3b4b70d31b0c6c39871acf55556f4ad5" kind="variable"><name>val</name></member>
     <member refid="classMR_1_1BitSet_1a9d8f5e32b8b114a48ccb34a54e4aeec2" kind="variable"><name>val</name></member>
-    <member refid="classMR_1_1BitSet_1aa041e2cbd926373892c868c5fe9c344a" kind="variable"><name>blocks_</name></member>
+    <member refid="classMR_1_1BitSet_1aacb06419123b86b604f5b183e3714bad" kind="variable"><name>blocks_</name></member>
     <member refid="classMR_1_1BitSet_1a6d276e8dbb191806b7696d0a0886ffd0" kind="variable"><name>numBits_</name></member>
     <member refid="classMR_1_1BitSet_1a466f41a196180947a6b55ce01eb5f761" kind="function"><name>BitSet</name></member>
     <member refid="classMR_1_1BitSet_1afab07406cee38429e04894dd1de6f202" kind="function"><name>BitSet</name></member>
@@ -678,7 +677,7 @@
     <member refid="classMR_1_1BitSet_1ab21cd56d68b78fe434b450e0edbc8a52" kind="function"><name>reverse</name></member>
     <member refid="classMR_1_1BitSet_1acfad508aa764e014db0ace9f3fc05f93" kind="function"><name>push_back</name></member>
     <member refid="classMR_1_1BitSet_1af4799e91aeb36deab4540ac14bf16e98" kind="function"><name>pop_back</name></member>
-    <member refid="classMR_1_1BitSet_1adf3fcb2d65abe13621a686d2f854206c" kind="function"><name>bits</name></member>
+    <member refid="classMR_1_1BitSet_1ae109ea3b45a9d42a26687dadfc85f936" kind="function"><name>bits</name></member>
     <member refid="classMR_1_1BitSet_1aea4f222fe2df7d81d416a55fc7a589f4" kind="function"><name>operator&amp;=</name></member>
     <member refid="classMR_1_1BitSet_1a627357e95c82ecc40d8d2d35e2d9dee6" kind="function"><name>operator|=</name></member>
     <member refid="classMR_1_1BitSet_1afc982ba4c4d3131098dc2fd20f779177" kind="function"><name>operator^=</name></member>
@@ -704,7 +703,7 @@
     <member refid="classMR_1_1BitSet_1a75ca80bcdd7e22824f3e5f189e337f79" kind="function"><name>rangeOp_</name></member>
     <member refid="classMR_1_1BitSet_1a782fcf4be895063694c85917cf0adc2c" kind="function"><name>findSetBitAfter_</name></member>
     <member refid="classMR_1_1BitSet_1ad9e0a275c5788e83a990cca3d5b88b3e" kind="function"><name>findNonSetBitAfter_</name></member>
-    <member refid="classMR_1_1BitSet_1a8f5f8c62aef94b18b6602545f74ceef9" kind="function"><name>fromBlocks</name></member>
+    <member refid="classMR_1_1BitSet_1a8bb32afb9d02a11bf7c980344babc472" kind="function"><name>fromBlocks</name></member>
     <member refid="classMR_1_1BitSet_1a6a67416a17d4bee21a1d349ba0e9b7f1" kind="friend"><name>operator&lt;&lt;</name></member>
     <member refid="classMR_1_1BitSet_1aadab48850b173a8c3542b620d35b4960" kind="friend"><name>operator&gt;&gt;</name></member>
     <member refid="classMR_1_1BitSet_1ad10eef891e591ca10e1d3328b630615b" kind="friend"><name>begin</name></member>

@@ -27,8 +27,6 @@
         </childnode>
         <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
       </node>
       <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -269,9 +267,6 @@
       </node>
       <node id="36">
         <label>iterator</label>
-      </node>
-      <node id="37">
-        <label>mimalloc.h</label>
       </node>
       <node id="10">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>

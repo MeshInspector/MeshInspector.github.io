@@ -575,6 +575,7 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "std_vector_std_vector_MR_Vector3d.h", "std__vector__std__vector__MR__Vector3d_8h.html", "std__vector__std__vector__MR__Vector3d_8h" ],
     [ "std_vector_std_vector_MR_Vector3f.h", "std__vector__std__vector__MR__Vector3f_8h.html", "std__vector__std__vector__MR__Vector3f_8h" ],
     [ "std_vector_std_vector_MR_VertId.h", "std__vector__std__vector__MR__VertId_8h.html", "std__vector__std__vector__MR__VertId_8h" ],
+    [ "std_vector_uint64_t.h", "std__vector__uint64__t_8h.html", "std__vector__uint64__t_8h" ],
     [ "std_vector_unsigned_char.h", "std__vector__unsigned__char_8h.html", "std__vector__unsigned__char_8h" ],
     [ "std_vector_unsigned_short.h", "std__vector__unsigned__short_8h.html", "std__vector__unsigned__short_8h" ]
 ];

@@ -1,6 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"group__TunnelDetectorGroup.html#gacccbea38b20861c2c61da78579acad05":[9,0,0,16,4,1],
 "group__TunnelDetectorGroup.html#gad80f5e7adc96e38d732502162f37feb8":[9,0,0,16,4,2],
 "group__TunnelDetectorGroup.html#ggacccbea38b20861c2c61da78579acad05aa1684698ac3d8ffda353d0458c30b1e7":[9,0,0,16,4,1,2],
 "group__TunnelDetectorGroup.html#ggacccbea38b20861c2c61da78579acad05ae6e36dccbeaf26fca4a6813bf2e83a28":[9,0,0,16,4,1,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1DistanceMapLoad.html":[9,0,0,20,10],
 "namespaceMR_1_1DistanceMapLoad.html#af1f62813f68011847bea88c8d3bfe7bb":[9,0,1,0,1,4,0],
 "namespaceMR_1_1DistanceMapSave.html":[9,0,0,20,11],
-"namespaceMR_1_1DistanceMapSave.html#aac7825149eb9a0b19702af74fa42f45e":[9,0,1,0,1,5,0]
+"namespaceMR_1_1DistanceMapSave.html#aac7825149eb9a0b19702af74fa42f45e":[9,0,1,0,1,5,0],
+"namespaceMR_1_1Features.html":[9,0,1,0,1,6]
 };

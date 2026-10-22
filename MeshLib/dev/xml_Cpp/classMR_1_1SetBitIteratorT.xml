@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="38" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="38" bodyend="-1"/>
+        <location file="MRMesh/MRBitSet.h" line="27" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classMR_1_1SetBitIteratorT_1a3ead9e2691fedc1c67d1212721d3a157" prot="public" static="no">
         <type>std::forward_iterator_tag</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="40" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="40" bodyend="-1"/>
+        <location file="MRMesh/MRBitSet.h" line="29" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classMR_1_1SetBitIteratorT_1a65326d51ccb6cea126d404534ea2a329" prot="public" static="no">
         <type><ref refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" kindref="member">IndexType</ref></type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="41" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="41" bodyend="-1"/>
+        <location file="MRMesh/MRBitSet.h" line="30" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classMR_1_1SetBitIteratorT_1af520ca8fde7b2302d963bb596a4e326b" prot="public" static="no">
         <type>std::ptrdiff_t</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="42" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="42" bodyend="-1"/>
+        <location file="MRMesh/MRBitSet.h" line="31" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classMR_1_1SetBitIteratorT_1aced05ebc6333620dcadd87af14a3f610" prot="public" static="no">
         <type><ref refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" kindref="member">IndexType</ref></type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="43" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="43" bodyend="-1"/>
+        <location file="MRMesh/MRBitSet.h" line="32" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classMR_1_1SetBitIteratorT_1a22e03a8a13140a2e652009346c41c0ba" prot="public" static="no">
         <type>const <ref refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" kindref="member">IndexType</ref> *</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="44" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="44" bodyend="-1"/>
+        <location file="MRMesh/MRBitSet.h" line="33" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="33" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="74" column="14" bodyfile="MRMesh/MRBitSet.h" bodystart="74" bodyend="-1"/>
+        <location file="MRMesh/MRBitSet.h" line="63" column="14" bodyfile="MRMesh/MRBitSet.h" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1SetBitIteratorT_1ae5f73e4d6a549f48f71c4a59ee714b6a" prot="private" static="no" mutable="no">
         <type><ref refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" kindref="member">IndexType</ref></type>
@@ -124,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="75" column="15" bodyfile="MRMesh/MRBitSet.h" bodystart="75" bodyend="-1"/>
+        <location file="MRMesh/MRBitSet.h" line="64" column="15" bodyfile="MRMesh/MRBitSet.h" bodystart="64" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="47" column="5"/>
+        <location file="MRMesh/MRBitSet.h" line="36" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SetBitIteratorT_1ab6e4b92cd100336048e5869d8fadc6ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="50" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="50" bodyend="53"/>
+        <location file="MRMesh/MRBitSet.h" line="39" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="39" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SetBitIteratorT_1aad821003890f84db390e9a4011c8d37d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1SetBitIteratorT" kindref="compound">SetBitIteratorT</ref> &amp;</type>
@@ -174,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="55" column="22" bodyfile="MRMesh/MRBitSet.h" bodystart="55" bodyend="59"/>
+        <location file="MRMesh/MRBitSet.h" line="44" column="22" bodyfile="MRMesh/MRBitSet.h" bodystart="44" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SetBitIteratorT_1a18f2206478b0e1495f2ebbd017d41ff2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1SetBitIteratorT" kindref="compound">SetBitIteratorT</ref></type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="61" column="22" bodyfile="MRMesh/MRBitSet.h" bodystart="61" bodyend="66"/>
+        <location file="MRMesh/MRBitSet.h" line="50" column="22" bodyfile="MRMesh/MRBitSet.h" bodystart="50" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SetBitIteratorT_1a4462188d7adb7134739834723a0e405e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const T *</type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="68" column="15" bodyfile="MRMesh/MRBitSet.h" bodystart="68" bodyend="68"/>
+        <location file="MRMesh/MRBitSet.h" line="57" column="15" bodyfile="MRMesh/MRBitSet.h" bodystart="57" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SetBitIteratorT_1aa231d32ed4abe7e732adfff36d5e267b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1SetBitIteratorT_1aced05ebc6333620dcadd87af14a3f610" kindref="member">reference</ref></type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="69" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="69" bodyend="69"/>
+        <location file="MRMesh/MRBitSet.h" line="58" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="58" bodyend="58"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -243,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="71" column="18" bodyfile="MRMesh/MRBitSet.h" bodystart="71" bodyend="71"/>
+        <location file="MRMesh/MRBitSet.h" line="60" column="18" bodyfile="MRMesh/MRBitSet.h" bodystart="60" bodyend="60"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -251,7 +251,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRBitSet.h" line="35" column="1" bodyfile="MRMesh/MRBitSet.h" bodystart="36" bodyend="76"/>
+    <location file="MRMesh/MRBitSet.h" line="24" column="1" bodyfile="MRMesh/MRBitSet.h" bodystart="25" bodyend="65"/>
     <listofallmembers>
       <member refid="classMR_1_1SetBitIteratorT_1a4462188d7adb7134739834723a0e405e" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>bitset</name></member>
       <member refid="classMR_1_1SetBitIteratorT_1a2ff5d3c64ad7c473b2c2edd0fa67ea55" prot="private" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>bitset_</name></member>
