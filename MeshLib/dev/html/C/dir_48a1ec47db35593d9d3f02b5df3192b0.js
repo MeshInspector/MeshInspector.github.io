@@ -318,6 +318,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRRenderModelParameters.h", "MRRenderModelParameters_8h.html", "MRRenderModelParameters_8h" ],
     [ "MRRigidScaleXf3.h", "MRRigidScaleXf3_8h.html", "MRRigidScaleXf3_8h" ],
     [ "MRRigidXf3.h", "MRRigidXf3_8h.html", "MRRigidXf3_8h" ],
+    [ "MRRigidXfRansac.h", "MRRigidXfRansac_8h.html", "MRRigidXfRansac_8h" ],
     [ "MRRingIterator.h", "MRRingIterator_8h.html", "MRRingIterator_8h" ],
     [ "MRRound.h", "MRRound_8h.html", "MRRound_8h" ],
     [ "MRSaveSettings.h", "MRSaveSettings_8h.html", "MRSaveSettings_8h" ],

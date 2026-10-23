@@ -1,5 +1,10 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a36179f2fecec1b832c63860ca016b6e1":[9,0,1,0,1,48,9,4],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a3ce86375f3fa56f1154df92dcdae7e15":[9,0,1,0,1,48,9,9],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a4c6e9e262634a1d3d373cda545f26c8a":[9,0,1,0,1,48,9,8],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a4d9c5d17e18eddc0250a2891edbaaa95":[9,0,1,0,1,48,9,24],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a50faca3ede80078a742d8d38dc4aecab":[9,0,1,0,1,48,9,14],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a51051623b92f12d20be6b1cb0b6415b7":[9,0,1,0,1,48,9,17],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a5193f3c136e1dd90d3667140abe07142":[9,0,1,0,1,48,9,16],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a62b6b78ca42168fc955fdefacf122dbc":[9,0,1,0,1,48,9,21],
@@ -244,10 +249,5 @@ var NAVTREEINDEX61 =
 "namespacemembers_type_p.html":[9,0,1,1,3,13],
 "namespacemembers_type_q.html":[9,0,1,1,3,14],
 "namespacemembers_type_r.html":[9,0,1,1,3,15],
-"namespacemembers_type_s.html":[9,0,1,1,3,16],
-"namespacemembers_type_t.html":[9,0,1,1,3,17],
-"namespacemembers_type_u.html":[9,0,1,1,3,18],
-"namespacemembers_type_v.html":[9,0,1,1,3,19],
-"namespacemembers_type_w.html":[9,0,1,1,3,20],
-"namespacemembers_type_z.html":[9,0,1,1,3,21]
+"namespacemembers_type_s.html":[9,0,1,1,3,16]
 };

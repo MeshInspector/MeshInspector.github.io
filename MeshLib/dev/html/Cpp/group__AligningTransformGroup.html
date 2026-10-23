@@ -131,7 +131,8 @@ $(function(){initNavTree('group__AligningTransformGroup.html','',''); });
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Aligning Transform <div class="ingroups"><a class="el" href="group__MathGroup.html">Math group</a></div></div></div>
 </div><!--header-->
 <div class="contents">
@@ -141,8 +142,117 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AMultiwayAligningTransform" id="r_MR_3A_3AMultiwayAligningTransform"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MultiwayAligningTransform.html">MR::MultiwayAligningTransform</a></td></tr>
 <tr class="memitem:MR_3A_3APointToPlaneAligningTransform" id="r_MR_3A_3APointToPlaneAligningTransform"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PointToPlaneAligningTransform.html">MR::PointToPlaneAligningTransform</a></td></tr>
 <tr class="memitem:MR_3A_3APointToPointAligningTransform" id="r_MR_3A_3APointToPointAligningTransform"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PointToPointAligningTransform.html">MR::PointToPointAligningTransform</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga97c6edd2712ff8f245e7897e16710f96" id="r_ga97c6edd2712ff8f245e7897e16710f96"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga97c6edd2712ff8f245e7897e16710f96">MR::countInliers</a> (const VertCoords &amp;srcPoints, const VertCoords &amp;tgtPoints, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#gad75ce80ca78d38bd524b9c4ccd7a520d">VertPair</a> &gt; &amp;matches, const AffineXf3f &amp;xf, float inlierDistance)</td></tr>
+<tr class="memitem:gaa4a6bdae3405260137daec6f7eda2ede" id="r_gaa4a6bdae3405260137daec6f7eda2ede"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; AffineXf3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa4a6bdae3405260137daec6f7eda2ede">MR::findRigidXfRansac</a> (const VertCoords &amp;srcPoints, const VertCoords &amp;tgtPoints, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#gad75ce80ca78d38bd524b9c4ccd7a520d">VertPair</a> &gt; &amp;matches, const <a class="el" href="structMR_1_1RigidXfRansacParams.html">RigidXfRansacParams</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="memdesc:gaa4a6bdae3405260137daec6f7eda2ede"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the rigid transformation of source points to target points from given matches, many of which can be wrong: tests the transformations through random samples of three matches and keeps the one with most inliers, then refines it by least squares fitting on all its inliers.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="ga97c6edd2712ff8f245e7897e16710f96" name="ga97c6edd2712ff8f245e7897e16710f96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga97c6edd2712ff8f245e7897e16710f96">&#9670;&#160;</a></span>countInliers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::countInliers </td>
+          <td>(</td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>srcPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>tgtPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#gad75ce80ca78d38bd524b9c4ccd7a520d">VertPair</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>matches</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>inlierDistance</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRRigidXfRansac_8h.html">MRMesh/MRRigidXfRansac.h</a>&gt;</code></p>
+<p>counts the matches (source point, target point) that given transformation maps within given distance from their target points </p>
+
+</div>
+</div>
+<a id="gaa4a6bdae3405260137daec6f7eda2ede" name="gaa4a6bdae3405260137daec6f7eda2ede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa4a6bdae3405260137daec6f7eda2ede">&#9670;&#160;</a></span>findRigidXfRansac()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; AffineXf3f &gt; MR::findRigidXfRansac </td>
+          <td>(</td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>srcPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>tgtPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#gad75ce80ca78d38bd524b9c4ccd7a520d">VertPair</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>matches</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1RigidXfRansacParams.html">RigidXfRansacParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRRigidXfRansac_8h.html">MRMesh/MRRigidXfRansac.h</a>&gt;</code></p>
+
+<p>Finds the rigid transformation of source points to target points from given matches, many of which can be wrong: tests the transformations through random samples of three matches and keeps the one with most inliers, then refines it by least squares fitting on all its inliers. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">matches</td><td>(source point, target point) pairs, e.g. from findFPFHMatches(...) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>rigid transformation of source points to target points, or error if there are less than three matches, no consistent sample was found or progress returned false </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

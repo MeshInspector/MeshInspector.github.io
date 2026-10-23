@@ -818,6 +818,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">struct to determine transparent rendering mode  <a href="structMR_1_1TransparencyMode.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ARigidScaleXf3_3C_20T_20_3E" id="r_MR_3A_3ARigidScaleXf3_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RigidScaleXf3.html">MR::RigidScaleXf3&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3ARigidXf3_3C_20T_20_3E" id="r_MR_3A_3ARigidXf3_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RigidXf3.html">MR::RigidXf3&lt; T &gt;</a></td></tr>
+<tr class="memitem:MR_3A_3ARigidXfRansacParams" id="r_MR_3A_3ARigidXfRansacParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RigidXfRansacParams.html">MR::RigidXfRansacParams</a></td></tr>
 <tr class="memitem:MR_3A_3ARingIterator_3C_20N_20_3E" id="r_MR_3A_3ARingIterator_3C_20N_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RingIterator.html">MR::RingIterator&lt; N &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The iterator to find all edges in a ring of edges (e.g. all edges with same origin or all edges with same left face)  <a href="classMR_1_1RingIterator.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ANextEdgeSameOrigin" id="r_MR_3A_3ANextEdgeSameOrigin"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1NextEdgeSameOrigin.html">MR::NextEdgeSameOrigin</a></td></tr>
@@ -1490,8 +1491,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga5517b355b3a51538470f957d6a23bff1" id="r_ga5517b355b3a51538470f957d6a23bff1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5517b355b3a51538470f957d6a23bff1">MR::ObjTreeTraits::LeafTag</a> = <a class="el" href="#ga2690a70b32cd0408ea2263bfc9a9f436">ObjTag</a></td></tr>
 <tr class="memitem:ga7208b3ed4cbf6a7db7c03785856d5131" id="r_ga7208b3ed4cbf6a7db7c03785856d5131"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7208b3ed4cbf6a7db7c03785856d5131">MR::ObjTreeTraits::LeafId</a> = ObjId</td></tr>
 <tr class="memitem:gae8c8c6d7c93de2cba91378f547c50a8e" id="r_gae8c8c6d7c93de2cba91378f547c50a8e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae8c8c6d7c93de2cba91378f547c50a8e">MR::ObjTreeTraits::BoxT</a> = Box3f</td></tr>
-<tr class="memitem:gae52f88b1bf8c3f6f4be260612d836725" id="r_gae52f88b1bf8c3f6f4be260612d836725"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:gae52f88b1bf8c3f6f4be260612d836725 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae52f88b1bf8c3f6f4be260612d836725">MR::Allocator</a> = mi_stl_allocator&lt;T&gt;</td></tr>
 <tr class="memitem:gab29b342345673c2ab559f44111f75bdd" id="r_gab29b342345673c2ab559f44111f75bdd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab29b342345673c2ab559f44111f75bdd">MR::Ball&lt; V &gt;::VTraits</a> = <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;V&gt;</td></tr>
 <tr class="memitem:gaad1f3f595e73be14324c1ad3964ab4fd" id="r_gaad1f3f595e73be14324c1ad3964ab4fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaad1f3f595e73be14324c1ad3964ab4fd">MR::Ball&lt; V &gt;::T</a> = typename <a class="el" href="#gadbadae2704ad269b8d78edbb0f2faa93">VTraits::BaseType</a></td></tr>
 <tr class="memitem:gaede2a83d70208855b602da974aafc690" id="r_gaede2a83d70208855b602da974aafc690"><td class="memTemplParams" colspan="2">template&lt;size_t degree&gt; </td></tr>
@@ -13449,6 +13448,15 @@ Variables</h2></td></tr>
 <tr class="memdesc:gad344bdee6f6f01c79ad1f21d6ee2e283"><td class="mdescLeft">&#160;</td><td class="mdescRight">rotation angles relative to x,y,z axes  <br /></td></tr>
 <tr class="memitem:ga1c18eb2cefaafa045ec3e26dc9948f71" id="r_ga1c18eb2cefaafa045ec3e26dc9948f71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga68f57db94c4696c100a2c8272465e168">V</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1c18eb2cefaafa045ec3e26dc9948f71">MR::RigidXf3&lt; T &gt;::b</a></td></tr>
 <tr class="memdesc:ga1c18eb2cefaafa045ec3e26dc9948f71"><td class="mdescLeft">&#160;</td><td class="mdescRight">shift  <br /></td></tr>
+<tr class="memitem:gaaa395925f32b2296a6a40cc7e8a3572e" id="r_gaaa395925f32b2296a6a40cc7e8a3572e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaa395925f32b2296a6a40cc7e8a3572e">MR::RigidXfRansacParams::inlierDistance</a> = 0</td></tr>
+<tr class="memdesc:gaaa395925f32b2296a6a40cc7e8a3572e"><td class="mdescLeft">&#160;</td><td class="mdescRight">a match is an inlier of a transformation if it maps the source point within this distance from the target point  <br /></td></tr>
+<tr class="memitem:gab8deb1046f4927b43f8a1374522cd774" id="r_gab8deb1046f4927b43f8a1374522cd774"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab8deb1046f4927b43f8a1374522cd774">MR::RigidXfRansacParams::maxIterations</a> = 100000</td></tr>
+<tr class="memdesc:gab8deb1046f4927b43f8a1374522cd774"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximal number of random samples of three matches to test  <br /></td></tr>
+<tr class="memitem:gafaab4c1c5e6dfe001b1d0c04bce8f521" id="r_gafaab4c1c5e6dfe001b1d0c04bce8f521"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafaab4c1c5e6dfe001b1d0c04bce8f521">MR::RigidXfRansacParams::confidence</a> = 0.999f</td></tr>
+<tr class="memdesc:gafaab4c1c5e6dfe001b1d0c04bce8f521"><td class="mdescLeft">&#160;</td><td class="mdescRight">the search stops earlier when the probability to have tested at least one sample of three inliers reaches this value  <br /></td></tr>
+<tr class="memitem:ga6201d7e151563e0a5420c459a767d125" id="r_ga6201d7e151563e0a5420c459a767d125"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6201d7e151563e0a5420c459a767d125">MR::RigidXfRansacParams::edgeLengthRatio</a> = 0.9f</td></tr>
+<tr class="memitem:ga76a52c0e197711d2950d36811b992c65" id="r_ga76a52c0e197711d2950d36811b992c65"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga76a52c0e197711d2950d36811b992c65">MR::RigidXfRansacParams::seed</a> = 0</td></tr>
+<tr class="memdesc:ga76a52c0e197711d2950d36811b992c65"><td class="mdescLeft">&#160;</td><td class="mdescRight">seed of pseudo-random sampling; the result depends on it but not on the number of threads  <br /></td></tr>
 <tr class="memitem:ga88539fbafc85e15a6dbc49b2b3144a15" id="r_ga88539fbafc85e15a6dbc49b2b3144a15"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga88539fbafc85e15a6dbc49b2b3144a15">MR::SaveSettings::onlyValidPoints</a> = true</td></tr>
 <tr class="memitem:gaf59abe4d1987a4ccd1c117cfe7f3c160" id="r_gaf59abe4d1987a4ccd1c117cfe7f3c160"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf59abe4d1987a4ccd1c117cfe7f3c160">MR::SaveSettings::packPrimitives</a> = true</td></tr>
 <tr class="memitem:ga6aa78ab8ac3342aaeb267aa07e82721a" id="r_ga6aa78ab8ac3342aaeb267aa07e82721a"><td class="memItemLeft" align="right" valign="top">const VertColors *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6aa78ab8ac3342aaeb267aa07e82721a">MR::SaveSettings::colors</a> = nullptr</td></tr>
@@ -16382,25 +16390,6 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&gt;</code></p>
-
-</div>
-</div>
-<a id="gae52f88b1bf8c3f6f4be260612d836725" name="gae52f88b1bf8c3f6f4be260612d836725"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae52f88b1bf8c3f6f4be260612d836725">&#9670;&#160;</a></span>Allocator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#gae52f88b1bf8c3f6f4be260612d836725">MR::Allocator</a> = mi_stl_allocator&lt;T&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRAllocator_8h.html">MRMesh/MRAllocator.h</a>&gt;</code></p>
-<p>allocator of MeshLib containers that benefit from mimalloc: mimalloc explicitly in MeshLib's own builds, std::allocator where malloc is mimalloc already (Emscripten's -sMALLOC=mimalloc, MR_MIMALLOC_OVERRIDE executables) </p>
 
 </div>
 </div>
@@ -209126,6 +209115,22 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="gafaab4c1c5e6dfe001b1d0c04bce8f521" name="gafaab4c1c5e6dfe001b1d0c04bce8f521"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafaab4c1c5e6dfe001b1d0c04bce8f521">&#9670;&#160;</a></span>confidence</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::RigidXfRansacParams::confidence = 0.999f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the search stops earlier when the probability to have tested at least one sample of three inliers reaches this value </p>
+
+</div>
+</div>
 <a id="ga70a9bbad22124d697e18eee72f3f9c6c" name="ga70a9bbad22124d697e18eee72f3f9c6c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga70a9bbad22124d697e18eee72f3f9c6c">&#9670;&#160;</a></span>configDirectory</h2>
 
@@ -212893,6 +212898,21 @@ template&lt;typename L&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga6201d7e151563e0a5420c459a767d125" name="ga6201d7e151563e0a5420c459a767d125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6201d7e151563e0a5420c459a767d125">&#9670;&#160;</a></span>edgeLengthRatio</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::RigidXfRansacParams::edgeLengthRatio = 0.9f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>a sample is skipped without fitting if the distances between its source points and between its target points differ more than this ratio, since a rigid motion keeps distances </p>
 
 </div>
 </div>
@@ -217351,6 +217371,22 @@ template&lt;typename Accessor&gt; </div>
 
 </div>
 </div>
+<a id="gaaa395925f32b2296a6a40cc7e8a3572e" name="gaaa395925f32b2296a6a40cc7e8a3572e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaa395925f32b2296a6a40cc7e8a3572e">&#9670;&#160;</a></span>inlierDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::RigidXfRansacParams::inlierDistance = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>a match is an inlier of a transformation if it maps the source point within this distance from the target point </p>
+
+</div>
+</div>
 <a id="ga65a668f1e1faafa952d137a44c9e598e" name="ga65a668f1e1faafa952d137a44c9e598e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga65a668f1e1faafa952d137a44c9e598e">&#9670;&#160;</a></span>innerStabilizer</h2>
 
@@ -220447,7 +220483,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga3becc371ebe70ab58e91982390945d41" name="ga3becc371ebe70ab58e91982390945d41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3becc371ebe70ab58e91982390945d41">&#9670;&#160;</a></span>maxIterations <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3becc371ebe70ab58e91982390945d41">&#9670;&#160;</a></span>maxIterations <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -220463,7 +220499,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga808c9f463fc7c33c8d774a3638ebca29" name="ga808c9f463fc7c33c8d774a3638ebca29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga808c9f463fc7c33c8d774a3638ebca29">&#9670;&#160;</a></span>maxIterations <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga808c9f463fc7c33c8d774a3638ebca29">&#9670;&#160;</a></span>maxIterations <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -220475,6 +220511,22 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p>Maximum amount of iterations performed until a stable set of points is found. </p>
+
+</div>
+</div>
+<a id="gab8deb1046f4927b43f8a1374522cd774" name="gab8deb1046f4927b43f8a1374522cd774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab8deb1046f4927b43f8a1374522cd774">&#9670;&#160;</a></span>maxIterations <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::RigidXfRansacParams::maxIterations = 100000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the maximal number of random samples of three matches to test </p>
 
 </div>
 </div>
@@ -232132,7 +232184,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga81d588d7442ccd8974d74cb6dbaca36d" name="ga81d588d7442ccd8974d74cb6dbaca36d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga81d588d7442ccd8974d74cb6dbaca36d">&#9670;&#160;</a></span>seed</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga81d588d7442ccd8974d74cb6dbaca36d">&#9670;&#160;</a></span>seed <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -232144,6 +232196,22 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>start state of the generator engine </p>
+
+</div>
+</div>
+<a id="ga76a52c0e197711d2950d36811b992c65" name="ga76a52c0e197711d2950d36811b992c65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga76a52c0e197711d2950d36811b992c65">&#9670;&#160;</a></span>seed <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uint32_t MR::RigidXfRansacParams::seed = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>seed of pseudo-random sampling; the result depends on it but not on the number of threads </p>
 
 </div>
 </div>

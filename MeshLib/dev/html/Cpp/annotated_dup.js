@@ -983,6 +983,7 @@ var annotated_dup =
       [ "RibbonTab", "structMR_1_1RibbonTab.html", "structMR_1_1RibbonTab" ],
       [ "RigidScaleXf3", "structMR_1_1RigidScaleXf3.html", "structMR_1_1RigidScaleXf3" ],
       [ "RigidXf3", "structMR_1_1RigidXf3.html", "structMR_1_1RigidXf3" ],
+      [ "RigidXfRansacParams", "structMR_1_1RigidXfRansacParams.html", "structMR_1_1RigidXfRansacParams" ],
       [ "RingIterator", "classMR_1_1RingIterator.html", "classMR_1_1RingIterator" ],
       [ "SaveObjectMenuItem", "classMR_1_1SaveObjectMenuItem.html", "classMR_1_1SaveObjectMenuItem" ],
       [ "SaveObjectSettings", "structMR_1_1SaveObjectSettings.html", "structMR_1_1SaveObjectSettings" ],

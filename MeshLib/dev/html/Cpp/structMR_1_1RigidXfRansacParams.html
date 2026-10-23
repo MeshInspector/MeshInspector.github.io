@@ -22,7 +22,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MeshLib C++ Docs: MRMesh/MRAllocator.h File Reference</title>
+<title>MeshLib C++ Docs: MR::RigidXfRansacParams Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -104,7 +104,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(function(){initNavTree('MRAllocator_8h.html','',''); });
+$(function(){initNavTree('structMR_1_1RigidXfRansacParams.html','','structMR_1_1RigidXfRansacParams-members'); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -131,27 +131,29 @@ $(function(){initNavTree('MRAllocator_8h.html','',''); });
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
-  <div class="headertitle"><div class="title">MRAllocator.h File Reference</div></div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="structMR_1_1RigidXfRansacParams-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">MR::RigidXfRansacParams Struct Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
-<code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;mimalloc.h&gt;</code><br />
-</div>
-<p><a href="MRAllocator_8h_source.html">Go to the source code of this file.</a></p>
+
+<p><code>#include &lt;<a class="el" href="MRRigidXfRansac_8h_source.html">MRMesh/MRRigidXfRansac.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:gae52f88b1bf8c3f6f4be260612d836725" id="r_gae52f88b1bf8c3f6f4be260612d836725"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:gae52f88b1bf8c3f6f4be260612d836725 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae52f88b1bf8c3f6f4be260612d836725">MR::Allocator</a> = mi_stl_allocator&lt;T&gt;</td></tr>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:gaaa395925f32b2296a6a40cc7e8a3572e" id="r_gaaa395925f32b2296a6a40cc7e8a3572e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaaa395925f32b2296a6a40cc7e8a3572e">inlierDistance</a> = 0</td></tr>
+<tr class="memdesc:gaaa395925f32b2296a6a40cc7e8a3572e"><td class="mdescLeft">&#160;</td><td class="mdescRight">a match is an inlier of a transformation if it maps the source point within this distance from the target point  <br /></td></tr>
+<tr class="memitem:gab8deb1046f4927b43f8a1374522cd774" id="r_gab8deb1046f4927b43f8a1374522cd774"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab8deb1046f4927b43f8a1374522cd774">maxIterations</a> = 100000</td></tr>
+<tr class="memdesc:gab8deb1046f4927b43f8a1374522cd774"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximal number of random samples of three matches to test  <br /></td></tr>
+<tr class="memitem:gafaab4c1c5e6dfe001b1d0c04bce8f521" id="r_gafaab4c1c5e6dfe001b1d0c04bce8f521"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gafaab4c1c5e6dfe001b1d0c04bce8f521">confidence</a> = 0.999f</td></tr>
+<tr class="memdesc:gafaab4c1c5e6dfe001b1d0c04bce8f521"><td class="mdescLeft">&#160;</td><td class="mdescRight">the search stops earlier when the probability to have tested at least one sample of three inliers reaches this value  <br /></td></tr>
+<tr class="memitem:ga6201d7e151563e0a5420c459a767d125" id="r_ga6201d7e151563e0a5420c459a767d125"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6201d7e151563e0a5420c459a767d125">edgeLengthRatio</a> = 0.9f</td></tr>
+<tr class="memitem:ga76a52c0e197711d2950d36811b992c65" id="r_ga76a52c0e197711d2950d36811b992c65"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga76a52c0e197711d2950d36811b992c65">seed</a> = 0</td></tr>
+<tr class="memdesc:ga76a52c0e197711d2950d36811b992c65"><td class="mdescLeft">&#160;</td><td class="mdescRight">seed of pseudo-random sampling; the result depends on it but not on the number of threads  <br /></td></tr>
 </table>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>MRMesh/<a class="el" href="MRRigidXfRansac_8h_source.html">MRRigidXfRansac.h</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
@@ -159,7 +161,7 @@ Typedefs</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_0cc3bc4bf87f190d6580fb811ae42f71.html">MRMesh</a></li><li class="navelem"><a href="MRAllocator_8h.html">MRAllocator.h</a></li>
+    <li class="navelem"><a href="namespaceMR.html">MR</a></li><li class="navelem"><a href="structMR_1_1RigidXfRansacParams.html">RigidXfRansacParams</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

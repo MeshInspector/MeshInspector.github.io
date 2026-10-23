@@ -1212,6 +1212,7 @@ var hierarchy =
     [ "MR::RibbonTab", "structMR_1_1RibbonTab.html", null ],
     [ "MR::RigidScaleXf3< T >", "structMR_1_1RigidScaleXf3.html", null ],
     [ "MR::RigidXf3< T >", "structMR_1_1RigidXf3.html", null ],
+    [ "MR::RigidXfRansacParams", "structMR_1_1RigidXfRansacParams.html", null ],
     [ "MR::UI::SaveChangesPopupSettings", "structMR_1_1UI_1_1SaveChangesPopupSettings.html", null ],
     [ "ImGui::SavedWindowPosParams", "structImGui_1_1SavedWindowPosParams.html", null ],
     [ "MR::SaveObjectSettings", "structMR_1_1SaveObjectSettings.html", null ],

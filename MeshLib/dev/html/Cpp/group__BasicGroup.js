@@ -23,7 +23,6 @@ var group__BasicGroup =
         [ "blocks", "structMR_1_1BitSet_1_1Counts.html#a0776e6d306c72a973806858bb91e4004", null ]
       ] ],
       [ "block_type", "classMR_1_1BitSet.html#ace77355bd95e75d56e1bfab444eefb3e", null ],
-      [ "Blocks", "classMR_1_1BitSet.html#aaf7f9f34876917a42537ea9da0d7be57", null ],
       [ "IndexType", "classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9", null ],
       [ "size_type", "classMR_1_1BitSet.html#a029565ede6f02c029a79d6821794eca3", null ],
       [ "BitSet", "classMR_1_1BitSet.html#a466f41a196180947a6b55ce01eb5f761", null ],
@@ -31,7 +30,7 @@ var group__BasicGroup =
       [ "all", "classMR_1_1BitSet.html#a112ab209d0b98ba80237157538fe4f30", null ],
       [ "any", "classMR_1_1BitSet.html#a51f26b5e2a5f81eed95766439f200000", null ],
       [ "atomicTestSet", "classMR_1_1BitSet.html#a2681ea331742547c197cd373884d917c", null ],
-      [ "bits", "classMR_1_1BitSet.html#a677f1f7f34912a79056abe6a6878e89c", null ],
+      [ "bits", "classMR_1_1BitSet.html#ae109ea3b45a9d42a26687dadfc85f936", null ],
       [ "capacity", "classMR_1_1BitSet.html#ad5356319788e20bd77294c90f6b72ea1", null ],
       [ "clear", "classMR_1_1BitSet.html#a911e2daac2bf0277dfa9759afa552795", null ],
       [ "count", "classMR_1_1BitSet.html#afc187206a3427ae8c94638dd893f922a", null ],

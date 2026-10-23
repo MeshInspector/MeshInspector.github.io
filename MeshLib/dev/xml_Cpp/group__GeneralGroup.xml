@@ -461,6 +461,7 @@
     <innerclass refid="structMR_1_1TransparencyMode" prot="public">MR::TransparencyMode</innerclass>
     <innerclass refid="structMR_1_1RigidScaleXf3" prot="public">MR::RigidScaleXf3</innerclass>
     <innerclass refid="structMR_1_1RigidXf3" prot="public">MR::RigidXf3</innerclass>
+    <innerclass refid="structMR_1_1RigidXfRansacParams" prot="public">MR::RigidXfRansacParams</innerclass>
     <innerclass refid="classMR_1_1RingIterator" prot="public">MR::RingIterator</innerclass>
     <innerclass refid="classMR_1_1NextEdgeSameOrigin" prot="public">MR::NextEdgeSameOrigin</innerclass>
     <innerclass refid="classMR_1_1NextEdgeSameLeft" prot="public">MR::NextEdgeSameLeft</innerclass>
@@ -14305,26 +14306,6 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRAABBTreeObjects.h" line="16" column="5" bodyfile="MRMesh/MRAABBTreeObjects.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group__GeneralGroup_1gae52f88b1bf8c3f6f4be260612d836725" prot="public" static="no">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>mi_stl_allocator&lt; T &gt;</type>
-        <definition>using MR::Allocator =  mi_stl_allocator&lt;T&gt;</definition>
-        <argsstring></argsstring>
-        <name>Allocator</name>
-        <qualifiedname>MR::Allocator</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>allocator of MeshLib containers that benefit from mimalloc: mimalloc explicitly in MeshLib&apos;s own builds, std::allocator where malloc is mimalloc already (Emscripten&apos;s -sMALLOC=mimalloc, MR_MIMALLOC_OVERRIDE executables) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRAllocator.h" line="28" column="1" bodyfile="MRMesh/MRAllocator.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gab29b342345673c2ab559f44111f75bdd" prot="public" static="no">
         <type>VectorTraits&lt; V &gt;</type>
@@ -44374,6 +44355,86 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRRigidXf3.h" line="20" column="7" bodyfile="MRMesh/MRRigidXf3.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaaa395925f32b2296a6a40cc7e8a3572e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RigidXfRansacParams::inlierDistance</definition>
+        <argsstring></argsstring>
+        <name>inlierDistance</name>
+        <qualifiedname>MR::RigidXfRansacParams::inlierDistance</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>a match is an inlier of a transformation if it maps the source point within this distance from the target point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRigidXfRansac.h" line="19" column="11" bodyfile="MRMesh/MRRigidXfRansac.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gab8deb1046f4927b43f8a1374522cd774" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RigidXfRansacParams::maxIterations</definition>
+        <argsstring></argsstring>
+        <name>maxIterations</name>
+        <qualifiedname>MR::RigidXfRansacParams::maxIterations</qualifiedname>
+        <initializer>= 100000</initializer>
+        <briefdescription>
+<para>the maximal number of random samples of three matches to test </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRigidXfRansac.h" line="22" column="9" bodyfile="MRMesh/MRRigidXfRansac.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gafaab4c1c5e6dfe001b1d0c04bce8f521" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RigidXfRansacParams::confidence</definition>
+        <argsstring></argsstring>
+        <name>confidence</name>
+        <qualifiedname>MR::RigidXfRansacParams::confidence</qualifiedname>
+        <initializer>= 0.999f</initializer>
+        <briefdescription>
+<para>the search stops earlier when the probability to have tested at least one sample of three inliers reaches this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRigidXfRansac.h" line="25" column="11" bodyfile="MRMesh/MRRigidXfRansac.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga6201d7e151563e0a5420c459a767d125" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::RigidXfRansacParams::edgeLengthRatio</definition>
+        <argsstring></argsstring>
+        <name>edgeLengthRatio</name>
+        <qualifiedname>MR::RigidXfRansacParams::edgeLengthRatio</qualifiedname>
+        <initializer>= 0.9f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a sample is skipped without fitting if the distances between its source points and between its target points differ more than this ratio, since a rigid motion keeps distances </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRigidXfRansac.h" line="29" column="11" bodyfile="MRMesh/MRRigidXfRansac.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga76a52c0e197711d2950d36811b992c65" prot="public" static="no" mutable="no">
+        <type>std::uint32_t</type>
+        <definition>std::uint32_t MR::RigidXfRansacParams::seed</definition>
+        <argsstring></argsstring>
+        <name>seed</name>
+        <qualifiedname>MR::RigidXfRansacParams::seed</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>seed of pseudo-random sampling; the result depends on it but not on the number of threads </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRigidXfRansac.h" line="32" column="19" bodyfile="MRMesh/MRRigidXfRansac.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6de13f447b24f9581605e81b8daee05b" prot="private" static="no" mutable="no">
         <type>EdgeId</type>

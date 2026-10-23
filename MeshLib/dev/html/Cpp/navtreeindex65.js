@@ -1,5 +1,10 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[9,0,1,0,1,16,5,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[9,0,2,0,2,7,5,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a3e5d9aec94bcefc9114f7d79bb08f798":[9,0,1,0,1,16,5,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a3e5d9aec94bcefc9114f7d79bb08f798":[9,0,2,0,2,7,5,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#adc065c4e3c818063a10bda461010f5e1":[9,0,1,0,1,16,5,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#adc065c4e3c818063a10bda461010f5e1":[9,0,2,0,2,7,5,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#ae5a6e80b6daf5b70eef380922553c871":[9,0,1,0,1,16,5,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#ae5a6e80b6daf5b70eef380922553c871":[9,0,2,0,2,7,5,2],
@@ -211,9 +216,9 @@ var NAVTREEINDEX65 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#acd9bfcf665d2d28338f5b05410ff74ac":[9,0,2,0,2,7,10,2,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#afe94adb4124bcf030097542c1e07c91f":[9,0,1,0,1,16,10,2,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#afe94adb4124bcf030097542c1e07c91f":[9,0,2,0,2,7,10,2,1],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html":[9,0,0,20,572],
-"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html":[9,0,0,20,574],
-"structMR_1_1ImGuiMenu_1_1TagEditorState.html":[9,0,0,20,573],
+"structMR_1_1ImGuiMenu_1_1LabelParams.html":[9,0,0,20,573],
+"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html":[9,0,0,20,575],
+"structMR_1_1ImGuiMenu_1_1TagEditorState.html":[9,0,0,20,574],
 "structMR_1_1Image.html":[9,0,0,18,1],
 "structMR_1_1Image.html":[9,0,0,20,303],
 "structMR_1_1ImproveSamplingSettings.html":[9,0,0,20,304],
@@ -221,7 +226,7 @@ var NAVTREEINDEX65 =
 "structMR_1_1InSphereSearchSettings.html":[9,0,0,20,379],
 "structMR_1_1InflateSettings.html":[9,0,0,20,475],
 "structMR_1_1InterpolateScalarsParams.html":[9,0,0,20,473],
-"structMR_1_1InterruptCloseListener.html":[9,0,0,20,812],
+"structMR_1_1InterruptCloseListener.html":[9,0,0,20,813],
 "structMR_1_1IntersectionPrecomputes.html":[9,0,0,1,15],
 "structMR_1_1IntersectionPrecomputes.html":[9,0,0,20,363],
 "structMR_1_1IntersectionPrecomputes.html#a18e2b9f640d3aab9e4db07a72514384b":[9,0,0,1,15,6],
@@ -244,10 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1IntersectionPrecomputes.html#af95502c89221bba3187782d4ed18199b":[9,0,0,20,363,8],
 "structMR_1_1IntersectionPrecomputes.html#affa5bcb7a516c4dda421ace86e2597c2":[9,0,0,1,15,5],
 "structMR_1_1IntersectionPrecomputes.html#affa5bcb7a516c4dda421ace86e2597c2":[9,0,0,20,363,5],
-"structMR_1_1IntersectionPrecomputes2.html":[9,0,0,1,16],
-"structMR_1_1IntersectionPrecomputes2.html":[9,0,0,20,369],
-"structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8":[9,0,0,1,16,2],
-"structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8":[9,0,0,20,369,2],
-"structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de":[9,0,0,1,16,7],
-"structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de":[9,0,0,20,369,7]
+"structMR_1_1IntersectionPrecomputes2.html":[9,0,0,1,16]
 };

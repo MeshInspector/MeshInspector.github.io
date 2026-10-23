@@ -28,32 +28,20 @@
         <childnode refid="31" relation="include">
         </childnode>
       </node>
-      <node id="65">
-        <label>MRAllocator.h</label>
-        <link refid="MRAllocator_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="66" relation="include">
-        </childnode>
-      </node>
       <node id="64">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="65" relation="include">
-        </childnode>
         <childnode refid="63" relation="include">
         </childnode>
-        <childnode refid="67" relation="include">
+        <childnode refid="65" relation="include">
         </childnode>
         <childnode refid="58" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="68" relation="include">
+        <childnode refid="66" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
@@ -132,12 +120,12 @@
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="73">
+      <node id="71">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
         <childnode refid="63" relation="include">
         </childnode>
-        <childnode refid="74" relation="include">
+        <childnode refid="72" relation="include">
         </childnode>
       </node>
       <node id="53">
@@ -198,12 +186,12 @@
         <childnode refid="30" relation="include">
         </childnode>
       </node>
-      <node id="71">
+      <node id="69">
         <label>MRLineSegm.h</label>
         <link refid="MRLineSegm_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="72" relation="include">
+        <childnode refid="70" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -294,7 +282,7 @@
         <childnode refid="58" relation="include">
         </childnode>
       </node>
-      <node id="70">
+      <node id="68">
         <label>MRPlane3.h</label>
         <link refid="MRPlane3_8h"/>
         <childnode refid="21" relation="include">
@@ -307,13 +295,13 @@
         <link refid="MRPolyline_8h"/>
         <childnode refid="62" relation="include">
         </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
         <childnode refid="69" relation="include">
         </childnode>
-        <childnode refid="70" relation="include">
-        </childnode>
         <childnode refid="71" relation="include">
-        </childnode>
-        <childnode refid="73" relation="include">
         </childnode>
       </node>
       <node id="62">
@@ -354,7 +342,7 @@
         <childnode refid="60" relation="include">
         </childnode>
       </node>
-      <node id="74">
+      <node id="72">
         <label>MRSegmPoint.h</label>
         <link refid="MRSegmPoint_8h"/>
         <childnode refid="3" relation="include">
@@ -362,7 +350,7 @@
         <childnode refid="49" relation="include">
         </childnode>
       </node>
-      <node id="69">
+      <node id="67">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="3" relation="include">
@@ -408,7 +396,7 @@
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="72">
+      <node id="70">
         <label>MRVector2.h</label>
         <link refid="MRVector2_8h"/>
         <childnode refid="5" relation="include">
@@ -532,7 +520,7 @@
       <node id="36">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="67">
+      <node id="65">
         <label>MRphmap.h</label>
       </node>
       <node id="26">
@@ -541,7 +529,7 @@
       <node id="8">
         <label>array</label>
       </node>
-      <node id="68">
+      <node id="66">
         <label>atomic</label>
       </node>
       <node id="40">
@@ -588,9 +576,6 @@
       </node>
       <node id="34">
         <label>memory</label>
-      </node>
-      <node id="66">
-        <label>mimalloc.h</label>
       </node>
       <node id="54">
         <label>optional</label>

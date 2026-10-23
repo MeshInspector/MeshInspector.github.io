@@ -1,5 +1,10 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1Cuda.html#ad3376b68fd0e9661c0072bf92dd704a3":[9,0,1,0,1,2,9],
+"namespaceMR_1_1Cuda.html#ad903c7645148d442eed7b3be6f4b0da7":[9,0,1,0,1,2,13],
+"namespaceMR_1_1Cuda.html#ae00800a975100101a6b94ad8c6c4c817":[9,0,1,0,1,2,8],
+"namespaceMR_1_1Cuda.html#ae65f347287f9c0ba39f2cc533c51582e":[9,0,1,0,1,2,11],
+"namespaceMR_1_1DistanceMapLoad.html":[9,0,0,20,10],
 "namespaceMR_1_1DistanceMapLoad.html#af1f62813f68011847bea88c8d3bfe7bb":[9,0,1,0,1,4,0],
 "namespaceMR_1_1DistanceMapSave.html":[9,0,0,20,11],
 "namespaceMR_1_1DistanceMapSave.html#aac7825149eb9a0b19702af74fa42f45e":[9,0,1,0,1,5,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a045cc455f7698a9ccdf262bde6183cb1":[9,0,1,0,1,48,9,18],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a0d2387373cd1f88af245ff8a45265edc":[9,0,1,0,1,48,9,27],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a176c5b2ad8eb21c6d5933cabdbbd5568":[9,0,1,0,1,48,9,29],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a28ca45022d33f2817d3af8e5d4768e7e":[9,0,1,0,1,48,9,19],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a36179f2fecec1b832c63860ca016b6e1":[9,0,1,0,1,48,9,4],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a3ce86375f3fa56f1154df92dcdae7e15":[9,0,1,0,1,48,9,9],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a4c6e9e262634a1d3d373cda545f26c8a":[9,0,1,0,1,48,9,8],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a4d9c5d17e18eddc0250a2891edbaaa95":[9,0,1,0,1,48,9,24],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a50faca3ede80078a742d8d38dc4aecab":[9,0,1,0,1,48,9,14]
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a28ca45022d33f2817d3af8e5d4768e7e":[9,0,1,0,1,48,9,19]
 };

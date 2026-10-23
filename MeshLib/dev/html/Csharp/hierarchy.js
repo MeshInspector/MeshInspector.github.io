@@ -2080,6 +2080,9 @@ var hierarchy =
       [ "MR.Const_RigidXf3f", "classMR_1_1Const__RigidXf3f.html", [
         [ "MR.RigidXf3f", "classMR_1_1RigidXf3f.html", null ]
       ] ],
+      [ "MR.Const_RigidXfRansacParams", "classMR_1_1Const__RigidXfRansacParams.html", [
+        [ "MR.RigidXfRansacParams", "classMR_1_1RigidXfRansacParams.html", null ]
+      ] ],
       [ "MR.Const_RingIterator_MRNextEdgeSameLeft", "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html", [
         [ "MR.RingIterator_MRNextEdgeSameLeft", "classMR_1_1RingIterator__MRNextEdgeSameLeft.html", null ]
       ] ],
@@ -4337,6 +4340,7 @@ var hierarchy =
       [ "MR.Const_RigidScaleXf3f", "classMR_1_1Const__RigidScaleXf3f.html", null ],
       [ "MR.Const_RigidXf3d", "classMR_1_1Const__RigidXf3d.html", null ],
       [ "MR.Const_RigidXf3f", "classMR_1_1Const__RigidXf3f.html", null ],
+      [ "MR.Const_RigidXfRansacParams", "classMR_1_1Const__RigidXfRansacParams.html", null ],
       [ "MR.Const_RingIterator_MRNextEdgeSameLeft", "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html", null ],
       [ "MR.Const_RingIterator_MRNextEdgeSameOrigin", "classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html", null ],
       [ "MR.Const_SaveSettings", "classMR_1_1Const__SaveSettings.html", null ],

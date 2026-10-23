@@ -1,5 +1,10 @@
 var NAVTREEINDEX58 =
 {
+"group__RayBoxIntersectionGroup.html":[9,0,0,0,9],
+"group__RayBoxIntersectionGroup.html#ga710fb3f98b472e45efdd6c3671f90581":[9,0,0,0,9,1],
+"group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9":[9,0,0,0,9,2],
+"group__SerializerGroup.html":[9,0,0,2,17],
+"group__SerializerGroup.html#ga0554aaf11fa5c4fa1b0a2c12a280c591":[9,0,0,2,17,16],
 "group__SerializerGroup.html#ga088ca803854aa288993f4398ac0d329d":[9,0,0,2,17,50],
 "group__SerializerGroup.html#ga0976e55e1f829c8d93c9fa0b7385b554":[9,0,0,2,17,8],
 "group__SerializerGroup.html#ga0cb60ec747bba72d5988e66da53bdb86":[9,0,0,2,17,32],
@@ -244,10 +249,5 @@ var NAVTREEINDEX58 =
 "group__TriangulationHelpersGroup.html#ga9f026bf1ef8ed09a14cc5012fe92d8fc":[9,0,0,13,0,3],
 "group__TriangulationHelpersGroup.html#gab7b3e43bb16453b2202ab3e82d052488":[9,0,0,13,0,2],
 "group__TriangulationHelpersGroup.html#gaf72ca8f1d6497ca42e99d5884312305c":[9,0,0,13,0,5],
-"group__TunnelDetectorGroup.html":[9,0,0,16,4],
-"group__TunnelDetectorGroup.html#ga002f332a7657596c6a7a3db1e4b3dc71":[9,0,0,16,4,10],
-"group__TunnelDetectorGroup.html#ga135a3163af766566666c69ac52f98a9d":[9,0,0,16,4,8],
-"group__TunnelDetectorGroup.html#ga40474d64aa8fbdd33ab7ba70b9970bec":[9,0,0,16,4,6],
-"group__TunnelDetectorGroup.html#ga557063bbcff132d2836603e69593b565":[9,0,0,16,4,7],
-"group__TunnelDetectorGroup.html#ga7149b047e2243e29ce78bff353b75189":[9,0,0,16,4,5]
+"group__TunnelDetectorGroup.html":[9,0,0,16,4]
 };

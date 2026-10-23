@@ -1065,6 +1065,7 @@ var hierarchy =
     [ "mrmeshpy.RigidScaleXf3f", "classmrmeshpy_1_1RigidScaleXf3f.html", null ],
     [ "mrmeshpy.RigidXf3d", "classmrmeshpy_1_1RigidXf3d.html", null ],
     [ "mrmeshpy.RigidXf3f", "classmrmeshpy_1_1RigidXf3f.html", null ],
+    [ "mrmeshpy.RigidXfRansacParams", "classmrmeshpy_1_1RigidXfRansacParams.html", null ],
     [ "mrmeshpy.CNCMachineSettings.RotationAxisName", "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html", null ],
     [ "mrmeshpy.SaveSettings", "classmrmeshpy_1_1SaveSettings.html", [
       [ "mrmeshpy.DracoSaveOptions", "classmrmeshpy_1_1DracoSaveOptions.html", null ],
@@ -1333,7 +1334,6 @@ var hierarchy =
     [ "mrmeshpy.std_vector_UnorientedTriangle", "classmrmeshpy_1_1std__vector__UnorientedTriangle.html", null ],
     [ "mrmeshpy.std_vector_unsigned_char", "classmrmeshpy_1_1std__vector__unsigned__char.html", null ],
     [ "mrmeshpy.std_vector_unsigned_long", "classmrmeshpy_1_1std__vector__unsigned__long.html", null ],
-    [ "mrmeshpy.std_vector_unsigned_long_mi_stl_allocator_unsigned_long", "classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long.html", null ],
     [ "mrmeshpy.std_vector_unsigned_short", "classmrmeshpy_1_1std__vector__unsigned__short.html", null ],
     [ "mrmeshpy.std_vector_VarEdgeTri", "classmrmeshpy_1_1std__vector__VarEdgeTri.html", null ],
     [ "mrmeshpy.std_vector_Vector2_double", "classmrmeshpy_1_1std__vector__Vector2__double.html", null ],

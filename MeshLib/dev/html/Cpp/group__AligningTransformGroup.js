@@ -49,5 +49,7 @@ var group__AligningTransformGroup =
       [ "findBestRigidXfOrthogonalRotationAxis", "classMR_1_1PointToPointAligningTransform.html#ac0d25befa3ce9b9ac11852c66c0b9def", null ],
       [ "findBestTranslation", "classMR_1_1PointToPointAligningTransform.html#a4e2b650956d9ae729830232e6464e313", null ],
       [ "totalWeight", "classMR_1_1PointToPointAligningTransform.html#a36c54b01cd263e2fd5108051a8588576", null ]
-    ] ]
+    ] ],
+    [ "MR::countInliers", "group__AligningTransformGroup.html#ga97c6edd2712ff8f245e7897e16710f96", null ],
+    [ "MR::findRigidXfRansac", "group__AligningTransformGroup.html#gaa4a6bdae3405260137daec6f7eda2ede", null ]
 ];

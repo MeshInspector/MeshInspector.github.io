@@ -318,6 +318,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRRenderModelParameters.cs", "MRRenderModelParameters_8cs.html", "MRRenderModelParameters_8cs" ],
     [ "MRRigidScaleXf3.cs", "MRRigidScaleXf3_8cs.html", "MRRigidScaleXf3_8cs" ],
     [ "MRRigidXf3.cs", "MRRigidXf3_8cs.html", "MRRigidXf3_8cs" ],
+    [ "MRRigidXfRansac.cs", "MRRigidXfRansac_8cs.html", "MRRigidXfRansac_8cs" ],
     [ "MRRingIterator.cs", "MRRingIterator_8cs.html", "MRRingIterator_8cs" ],
     [ "MRRound.cs", "MRRound_8cs.html", "MRRound_8cs" ],
     [ "MRSaveSettings.cs", "MRSaveSettings_8cs.html", "MRSaveSettings_8cs" ],

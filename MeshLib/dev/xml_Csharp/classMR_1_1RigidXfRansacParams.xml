@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RigidXfRansacParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::RigidXfRansacParams</compoundname>
+    <basecompoundref refid="classMR_1_1Const__RigidXfRansacParams" prot="public" virt="non-virtual">MR.Const_RigidXfRansacParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1RigidXfRansacParams_1a6753429b8ef882d10c8658ce4c82b391" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.RigidXfRansacParams.inlierDistance</definition>
+        <argsstring></argsstring>
+        <name>inlierDistance</name>
+        <qualifiedname>MR.RigidXfRansacParams.inlierDistance</qualifiedname>
+        <briefdescription>
+<para>a match is an inlier of a transformation if it maps the source point within this distance from the target point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="162" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RigidXfRansacParams_1a8285ce64b79aeb31846eb7d64aedb10e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.RigidXfRansacParams.maxIterations</definition>
+        <argsstring></argsstring>
+        <name>maxIterations</name>
+        <qualifiedname>MR.RigidXfRansacParams.maxIterations</qualifiedname>
+        <briefdescription>
+<para>the maximal number of random samples of three matches to test </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="167" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RigidXfRansacParams_1a6baf2aae79e911a2204937117a34e581" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.RigidXfRansacParams.confidence</definition>
+        <argsstring></argsstring>
+        <name>confidence</name>
+        <qualifiedname>MR.RigidXfRansacParams.confidence</qualifiedname>
+        <briefdescription>
+<para>the search stops earlier when the probability to have tested at least one sample of three inliers reaches this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="172" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RigidXfRansacParams_1a689a391568789b6f910786ada8859325" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.RigidXfRansacParams.edgeLengthRatio</definition>
+        <argsstring></argsstring>
+        <name>edgeLengthRatio</name>
+        <qualifiedname>MR.RigidXfRansacParams.edgeLengthRatio</qualifiedname>
+        <briefdescription>
+<para>a sample is skipped without fitting if the distances between its source points and between its target points differ more than this ratio, since a rigid motion keeps distances </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="178" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RigidXfRansacParams_1a0ea79647116e9ba89e4d311b516a26cb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref uint</type>
+        <definition>new unsafe ref uint MR.RigidXfRansacParams.seed</definition>
+        <argsstring></argsstring>
+        <name>seed</name>
+        <qualifiedname>MR.RigidXfRansacParams.seed</qualifiedname>
+        <briefdescription>
+<para>seed of pseudo-random sampling; the result depends on it but not on the number of threads </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="183" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" bodystart="183" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1RigidXfRansacParams_1a08559f8b413490790bd72a7da006ab82" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RigidXfRansacParams.RigidXfRansacParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>RigidXfRansacParams</name>
+        <qualifiedname>MR.RigidXfRansacParams.RigidXfRansacParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="187" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" bodystart="187" bodyend="191"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RigidXfRansacParams_1a6a2ea31733f22a931d594705d67c116f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RigidXfRansacParams.RigidXfRansacParams</definition>
+        <argsstring>()</argsstring>
+        <name>RigidXfRansacParams</name>
+        <qualifiedname>MR.RigidXfRansacParams.RigidXfRansacParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="197" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" bodystart="197" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RigidXfRansacParams_1aa328f68f64a170a674d03b0ca1c20a45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RigidXfRansacParams.RigidXfRansacParams</definition>
+        <argsstring>(float inlierDistance, int maxIterations, float confidence, float edgeLengthRatio, uint seed)</argsstring>
+        <name>RigidXfRansacParams</name>
+        <qualifiedname>MR.RigidXfRansacParams.RigidXfRansacParams</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>inlierDistance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIterations</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>confidence</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>edgeLengthRatio</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1RigidXfRansacParams" kindref="compound">MR.RigidXfRansacParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="206" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" bodystart="206" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RigidXfRansacParams_1a74b957ce1930772a3a02785884fc0206" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RigidXfRansacParams.RigidXfRansacParams</definition>
+        <argsstring>(MR.Const_RigidXfRansacParams _other)</argsstring>
+        <name>RigidXfRansacParams</name>
+        <qualifiedname>MR.RigidXfRansacParams.RigidXfRansacParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__RigidXfRansacParams" kindref="compound">MR.Const_RigidXfRansacParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RigidXfRansacParams_1a6a2ea31733f22a931d594705d67c116f" kindref="member">MR.RigidXfRansacParams.RigidXfRansacParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="215" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" bodystart="215" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RigidXfRansacParams_1a31dd1a1506892a03ca41ba05b6be03c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.RigidXfRansacParams.RigidXfRansacParams</definition>
+        <argsstring>(RigidXfRansacParams _other)</argsstring>
+        <name>RigidXfRansacParams</name>
+        <qualifiedname>MR.RigidXfRansacParams.RigidXfRansacParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RigidXfRansacParams" kindref="compound">RigidXfRansacParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RigidXfRansacParams_1a6a2ea31733f22a931d594705d67c116f" kindref="member">MR.RigidXfRansacParams.RigidXfRansacParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="225" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" bodystart="225" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RigidXfRansacParams_1af46e139953efba676d3253975adcfa7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1RigidXfRansacParams" kindref="compound">MR.RigidXfRansacParams</ref></type>
+        <definition>unsafe MR.RigidXfRansacParams MR.RigidXfRansacParams.assign</definition>
+        <argsstring>(MR.Const_RigidXfRansacParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.RigidXfRansacParams.assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__RigidXfRansacParams" kindref="compound">MR.Const_RigidXfRansacParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::RigidXfRansacParams::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="230" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" bodystart="230" bodyend="235"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1RigidXfRansacParams_1a07d0a6456475b6f8ea2bdbac66660707" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.RigidXfRansacParams._Underlying *</type>
+        <definition>static unsafe MR.RigidXfRansacParams._Underlying * MR.RigidXfRansacParams.__MR_RigidXfRansacParams_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.RigidXfRansacParams._Underlying *_other)</argsstring>
+        <name>__MR_RigidXfRansacParams_AssignFromAnother</name>
+        <qualifiedname>MR.RigidXfRansacParams.__MR_RigidXfRansacParams_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.RigidXfRansacParams._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="240" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RigidXfRansacParams_1a1619bfac45d7b43c027994c8faa8d24d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.RigidXfRansacParams._Underlying *</type>
+        <definition>static unsafe MR.RigidXfRansacParams._Underlying * MR.RigidXfRansacParams.__MR_RigidXfRansacParams_ConstructFrom</definition>
+        <argsstring>(float inlierDistance, int maxIterations, float confidence, float edgeLengthRatio, uint seed)</argsstring>
+        <name>__MR_RigidXfRansacParams_ConstructFrom</name>
+        <qualifiedname>MR.RigidXfRansacParams.__MR_RigidXfRansacParams_ConstructFrom</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>inlierDistance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIterations</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>confidence</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>edgeLengthRatio</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="243" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RigidXfRansacParams_1a3933cd7ea5b0542e6e5cbbc1507aaf1a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.RigidXfRansacParams._Underlying *</type>
+        <definition>static unsafe MR.RigidXfRansacParams._Underlying * MR.RigidXfRansacParams.__MR_RigidXfRansacParams_ConstructFromAnother</definition>
+        <argsstring>(MR.RigidXfRansacParams._Underlying *_other)</argsstring>
+        <name>__MR_RigidXfRansacParams_ConstructFromAnother</name>
+        <qualifiedname>MR.RigidXfRansacParams.__MR_RigidXfRansacParams_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.RigidXfRansacParams._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="246" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RigidXfRansacParams_1a3b5062dd0b126c419b0d7baddb66a39b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.RigidXfRansacParams._Underlying *</type>
+        <definition>static unsafe MR.RigidXfRansacParams._Underlying * MR.RigidXfRansacParams.__MR_RigidXfRansacParams_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_RigidXfRansacParams_DefaultConstruct</name>
+        <qualifiedname>MR.RigidXfRansacParams.__MR_RigidXfRansacParams_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="249" column="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1RigidXfRansacParams" kindref="compound">MR.RigidXfRansacParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.RigidXfRansacParams</label>
+        <link refid="classMR_1_1RigidXfRansacParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_RigidXfRansacParams</label>
+        <link refid="classMR_1_1Const__RigidXfRansacParams"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.RigidXfRansacParams</label>
+        <link refid="classMR_1_1RigidXfRansacParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_RigidXfRansacParams</label>
+        <link refid="classMR_1_1Const__RigidXfRansacParams"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" line="157" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidXfRansac.cs" bodystart="158" bodyend="250"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RigidXfRansacParams_1a07d0a6456475b6f8ea2bdbac66660707" prot="private" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>__MR_RigidXfRansacParams_AssignFromAnother</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1a1619bfac45d7b43c027994c8faa8d24d" prot="private" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>__MR_RigidXfRansacParams_ConstructFrom</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1a3933cd7ea5b0542e6e5cbbc1507aaf1a" prot="private" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>__MR_RigidXfRansacParams_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1a3b5062dd0b126c419b0d7baddb66a39b" prot="private" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>__MR_RigidXfRansacParams_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__RigidXfRansacParams_1a78e88bc7fad87206383da09314462008" prot="protected" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>__ref_storage_confidence</name></member>
+      <member refid="classMR_1_1Const__RigidXfRansacParams_1af8869937266b5f1a93e0bad4d1348da0" prot="protected" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>__ref_storage_edgeLengthRatio</name></member>
+      <member refid="classMR_1_1Const__RigidXfRansacParams_1a99568e32d83cc69328f8615434ec89ee" prot="protected" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>__ref_storage_inlierDistance</name></member>
+      <member refid="classMR_1_1Const__RigidXfRansacParams_1a962fd94edfe0098d710fc490c97b5e4d" prot="protected" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>__ref_storage_maxIterations</name></member>
+      <member refid="classMR_1_1Const__RigidXfRansacParams_1a4f0e9a446b40615457f18135e6fd9c01" prot="protected" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>__ref_storage_seed</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1af46e139953efba676d3253975adcfa7d" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1a6baf2aae79e911a2204937117a34e581" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>confidence</name></member>
+      <member refid="classMR_1_1Const__RigidXfRansacParams_1a3db39f53c674add3d8d9d7433cf31125" prot="package" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>Const_RigidXfRansacParams</name></member>
+      <member refid="classMR_1_1Const__RigidXfRansacParams_1adf67f6460db55d8fa169621fe4d4c6d2" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>Const_RigidXfRansacParams</name></member>
+      <member refid="classMR_1_1Const__RigidXfRansacParams_1a83e01d6496ab70c3cb87da3ee5ebe6d3" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>Const_RigidXfRansacParams</name></member>
+      <member refid="classMR_1_1Const__RigidXfRansacParams_1af84d1c3215de626c75df0eaa058ccb15" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>Const_RigidXfRansacParams</name></member>
+      <member refid="classMR_1_1Const__RigidXfRansacParams_1a6ffa458d5cf5c3857db71621bf824d04" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>Const_RigidXfRansacParams</name></member>
+      <member refid="classMR_1_1Const__RigidXfRansacParams_1a45419450bac684afe248f9e6a5455b85" prot="protected" virt="virtual"><scope>MR::RigidXfRansacParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RigidXfRansacParams_1a3b9b2ca0c7b04b153b5045342aa056a2" prot="public" virt="virtual"><scope>MR::RigidXfRansacParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1a689a391568789b6f910786ada8859325" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>edgeLengthRatio</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1a6753429b8ef882d10c8658ce4c82b391" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>inlierDistance</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1a8285ce64b79aeb31846eb7d64aedb10e" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>maxIterations</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1a08559f8b413490790bd72a7da006ab82" prot="package" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>RigidXfRansacParams</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1a6a2ea31733f22a931d594705d67c116f" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>RigidXfRansacParams</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1aa328f68f64a170a674d03b0ca1c20a45" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>RigidXfRansacParams</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1a74b957ce1930772a3a02785884fc0206" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>RigidXfRansacParams</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1a31dd1a1506892a03ca41ba05b6be03c8" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>RigidXfRansacParams</name></member>
+      <member refid="classMR_1_1RigidXfRansacParams_1a0ea79647116e9ba89e4d311b516a26cb" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>seed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

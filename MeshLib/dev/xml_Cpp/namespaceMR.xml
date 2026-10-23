@@ -654,6 +654,7 @@
     <innerclass refid="structMR_1_1RibbonTab" prot="public">MR::RibbonTab</innerclass>
     <innerclass refid="structMR_1_1RigidScaleXf3" prot="public">MR::RigidScaleXf3</innerclass>
     <innerclass refid="structMR_1_1RigidXf3" prot="public">MR::RigidXf3</innerclass>
+    <innerclass refid="structMR_1_1RigidXfRansacParams" prot="public">MR::RigidXfRansacParams</innerclass>
     <innerclass refid="classMR_1_1RingIterator" prot="public">MR::RingIterator</innerclass>
     <innerclass refid="classMR_1_1SaveObjectMenuItem" prot="public">MR::SaveObjectMenuItem</innerclass>
     <innerclass refid="structMR_1_1SaveObjectSettings" prot="public">MR::SaveObjectSettings</innerclass>
@@ -1730,7 +1731,6 @@
       <member refid="group__AABBTreeGroup_1ga346d2e7774495e3e4ca05a2325f11aaf" kind="typedef"><name>LineTreeTraits2</name></member>
       <member refid="group__AABBTreeGroup_1gacf6e57b5e87718397acc1762969ad77a" kind="typedef"><name>LineTreeTraits3</name></member>
       <member refid="group__AABBTreeGroup_1ga01c75e3c26967a90edbe075a77cb2ca9" kind="typedef"><name>AABBTreeNodeVec</name></member>
-      <member refid="group__GeneralGroup_1gae52f88b1bf8c3f6f4be260612d836725" kind="typedef"><name>Allocator</name></member>
       <member refid="group__GeneralGroup_1gaede2a83d70208855b602da974aafc690" kind="typedef"><name>Polynomialf</name></member>
       <member refid="group__GeneralGroup_1gabef34e50f0274ffd602098869fffd461" kind="typedef"><name>Polynomiald</name></member>
       <member refid="group__GeneralGroup_1gac2fd3accc312c98127c44a0460f5af5d" kind="typedef"><name>Polynomialx</name></member>
@@ -3207,6 +3207,8 @@
       <member refid="group__GeneralGroup_1gab3c3135929071104083ade4ce59d105d" kind="function"><name>getLimitedPos</name></member>
       <member refid="group__GeneralGroup_1gad4c1d1b7c1a447ffccea9b5d867ef98b" kind="function"><name>resizeNoInit</name></member>
       <member refid="group__BasicGroup_1ga1e63dfb18218fef322b65d26f8c4e2c9" kind="function"><name>redirectSTDStreamsToLogger</name></member>
+      <member refid="group__AligningTransformGroup_1ga97c6edd2712ff8f245e7897e16710f96" kind="function"><name>countInliers</name></member>
+      <member refid="group__AligningTransformGroup_1gaa4a6bdae3405260137daec6f7eda2ede" kind="function"><name>findRigidXfRansac</name></member>
       <member refid="group__GeneralGroup_1gab302d013b154c9d7f02b52fa128806af" kind="function"><name>orgRing</name></member>
       <member refid="group__GeneralGroup_1gaee44286b022aaaa8435db2725e448b38" kind="function"><name>orgRing</name></member>
       <member refid="group__GeneralGroup_1gac0fbbb1a0891fb178057f88b2bb392ff" kind="function"><name>orgRing0</name></member>

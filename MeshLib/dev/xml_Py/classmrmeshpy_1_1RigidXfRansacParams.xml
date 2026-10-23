@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RigidXfRansacParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RigidXfRansacParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RigidXfRansacParams_1a39b7633068128f472eff29dda5590c40" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RigidXfRansacParams::_offsetof_confidence</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_confidence</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams._offsetof_confidence</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43888" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RigidXfRansacParams_1ac42d3c63f7ef507025bb7e767360d523" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RigidXfRansacParams::_offsetof_edgeLengthRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edgeLengthRatio</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams._offsetof_edgeLengthRatio</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43889" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RigidXfRansacParams_1a5de4612160be7c0e9a983a2b61223676" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RigidXfRansacParams::_offsetof_inlierDistance</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_inlierDistance</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams._offsetof_inlierDistance</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43890" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RigidXfRansacParams_1a841763fab1863161dcc68b24fc7283d6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RigidXfRansacParams::_offsetof_maxIterations</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxIterations</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams._offsetof_maxIterations</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RigidXfRansacParams_1a89c471bd1d554f89074054067d924890" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RigidXfRansacParams::_offsetof_seed</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_seed</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams._offsetof_seed</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43892" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1ae7d2199785bfe07caecf2c70740aa354" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidXfRansacParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43895" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43895" bodyend="43896"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1a6f86ee450f574fe5b5222030b6d7fdac" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RigidXfRansacParams" kindref="compound">RigidXfRansacParams</ref></type>
+        <definition> RigidXfRansacParams mrmeshpy.RigidXfRansacParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43899" bodyend="43900"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1a6f86ee450f574fe5b5222030b6d7fdac" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RigidXfRansacParams" kindref="compound">RigidXfRansacParams</ref></type>
+        <definition> RigidXfRansacParams mrmeshpy.RigidXfRansacParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43903" bodyend="43904"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1a1d36bdf1fc89f82a04ca5585582872ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidXfRansacParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43906" bodyend="43907"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1a384e63b436ee7e72a7bc9202c49210ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidXfRansacParams.__init__</definition>
+        <argsstring>(self, RigidXfRansacParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RigidXfRansacParams" kindref="compound">RigidXfRansacParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43909" bodyend="43912"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1a85949c363410a587ab95f8508f738dcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidXfRansacParams.__init__</definition>
+        <argsstring>(self, float inlierDistance, int maxIterations, float confidence, float edgeLengthRatio, int seed)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inlierDistance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIterations</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>confidence</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>edgeLengthRatio</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43914" bodyend="43917"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1a8b8f150013d824bbd0993fe8339636f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RigidXfRansacParams.confidence</definition>
+        <argsstring>(self)</argsstring>
+        <name>confidence</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.confidence</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the search stops earlier when the probability to have tested at least one sample of three inliers reaches this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43919" bodyend="43922"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1a1dd1de6d656a90c5c179cf27aebbad7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidXfRansacParams.confidence</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>confidence</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.confidence</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43924" bodyend="43925"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1a48f4033c491f95d79d7060ca584e3a40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RigidXfRansacParams.edgeLengthRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgeLengthRatio</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.edgeLengthRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>a sample is skipped without fitting if the distances between its source points and between its target points
+differ more than this ratio, since a rigid motion keeps distances
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43927" bodyend="43931"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1ae51f1e2faa9d5e4c3b828394aceab6eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidXfRansacParams.edgeLengthRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>edgeLengthRatio</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.edgeLengthRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43933" bodyend="43934"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1a92b9249d329a8582a14fc629433aec28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RigidXfRansacParams.inlierDistance</definition>
+        <argsstring>(self)</argsstring>
+        <name>inlierDistance</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.inlierDistance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>a match is an inlier of a transformation if it maps the source point within this distance from the target point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43936" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43936" bodyend="43939"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1a519c5153fb5c8baa6067552bc929f4ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidXfRansacParams.inlierDistance</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>inlierDistance</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.inlierDistance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43941" bodyend="43942"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1a1c15c154c0ea2a939f301f04bc6a45a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RigidXfRansacParams.maxIterations</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxIterations</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.maxIterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the maximal number of random samples of three matches to test
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43944" bodyend="43947"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1ae51b6af0458e08015d2486d9c715dce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidXfRansacParams.maxIterations</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxIterations</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.maxIterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43949" bodyend="43950"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1a241ab0bef65a12e8b3c6f2f01fcaf16f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RigidXfRansacParams.seed</definition>
+        <argsstring>(self)</argsstring>
+        <name>seed</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.seed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>seed of pseudo-random sampling; the result depends on it but not on the number of threads
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43952" bodyend="43955"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RigidXfRansacParams_1ada8acb58e89c06b2351403c6974931df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RigidXfRansacParams.seed</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>seed</name>
+        <qualifiedname>mrmeshpy.RigidXfRansacParams.seed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43957" bodyend="43958"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RigidXfRansacParams
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43884" bodyend="43958"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1ae7d2199785bfe07caecf2c70740aa354" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a1d36bdf1fc89f82a04ca5585582872ff" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a384e63b436ee7e72a7bc9202c49210ba" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a85949c363410a587ab95f8508f738dcf" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a39b7633068128f472eff29dda5590c40" prot="protected" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>_offsetof_confidence</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1ac42d3c63f7ef507025bb7e767360d523" prot="protected" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>_offsetof_edgeLengthRatio</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a5de4612160be7c0e9a983a2b61223676" prot="protected" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>_offsetof_inlierDistance</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a841763fab1863161dcc68b24fc7283d6" prot="protected" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>_offsetof_maxIterations</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a89c471bd1d554f89074054067d924890" prot="protected" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>_offsetof_seed</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a8b8f150013d824bbd0993fe8339636f7" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>confidence</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a1dd1de6d656a90c5c179cf27aebbad7b" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>confidence</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a48f4033c491f95d79d7060ca584e3a40" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>edgeLengthRatio</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1ae51f1e2faa9d5e4c3b828394aceab6eb" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>edgeLengthRatio</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a92b9249d329a8582a14fc629433aec28" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>inlierDistance</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a519c5153fb5c8baa6067552bc929f4ed" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>inlierDistance</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a1c15c154c0ea2a939f301f04bc6a45a7" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>maxIterations</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1ae51b6af0458e08015d2486d9c715dce4" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>maxIterations</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a6f86ee450f574fe5b5222030b6d7fdac" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a6f86ee450f574fe5b5222030b6d7fdac" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1a241ab0bef65a12e8b3c6f2f01fcaf16f" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>seed</name></member>
+      <member refid="classmrmeshpy_1_1RigidXfRansacParams_1ada8acb58e89c06b2351403c6974931df" prot="public" virt="non-virtual"><scope>mrmeshpy::RigidXfRansacParams</scope><name>seed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

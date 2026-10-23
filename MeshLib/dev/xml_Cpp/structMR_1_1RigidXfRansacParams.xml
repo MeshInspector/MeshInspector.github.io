@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RigidXfRansacParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RigidXfRansacParams</compoundname>
+    <includes refid="MRRigidXfRansac_8h" local="no">MRMesh/MRRigidXfRansac.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaaa395925f32b2296a6a40cc7e8a3572e" kind="variable"><name>inlierDistance</name></member>
+      <member refid="group__GeneralGroup_1gab8deb1046f4927b43f8a1374522cd774" kind="variable"><name>maxIterations</name></member>
+      <member refid="group__GeneralGroup_1gafaab4c1c5e6dfe001b1d0c04bce8f521" kind="variable"><name>confidence</name></member>
+      <member refid="group__GeneralGroup_1ga6201d7e151563e0a5420c459a767d125" kind="variable"><name>edgeLengthRatio</name></member>
+      <member refid="group__GeneralGroup_1ga76a52c0e197711d2950d36811b992c65" kind="variable"><name>seed</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRRigidXfRansac.h" line="16" column="1" bodyfile="MRMesh/MRRigidXfRansac.h" bodystart="17" bodyend="33"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gafaab4c1c5e6dfe001b1d0c04bce8f521" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>confidence</name></member>
+      <member refid="group__GeneralGroup_1ga6201d7e151563e0a5420c459a767d125" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>edgeLengthRatio</name></member>
+      <member refid="group__GeneralGroup_1gaaa395925f32b2296a6a40cc7e8a3572e" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>inlierDistance</name></member>
+      <member refid="group__GeneralGroup_1gab8deb1046f4927b43f8a1374522cd774" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>maxIterations</name></member>
+      <member refid="group__GeneralGroup_1ga76a52c0e197711d2950d36811b992c65" prot="public" virt="non-virtual"><scope>MR::RigidXfRansacParams</scope><name>seed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
