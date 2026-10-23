@@ -1,7 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"classmrmeshpy_1_1DetectTunnelSettings.html#a3793d92955cebfc52e5703a3b362415d":[9,1,0,0,2,215,11],
-"classmrmeshpy_1_1DetectTunnelSettings.html#a3793d92955cebfc52e5703a3b362415d":[9,1,1,0,1,215,11],
 "classmrmeshpy_1_1DetectTunnelSettings.html#a4780f054b8c777b9fc1023365b0a2954":[9,1,0,0,2,215,0],
 "classmrmeshpy_1_1DetectTunnelSettings.html#a4780f054b8c777b9fc1023365b0a2954":[9,1,1,0,1,215,0],
 "classmrmeshpy_1_1DetectTunnelSettings.html#a4cc87e8cc6903205f7e0419e8f0ada2e":[9,1,0,0,2,215,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX23 =
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ae54b3244e79b03312e1ad53027edf850":[9,1,0,0,2,223,10],
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#ae54b3244e79b03312e1ad53027edf850":[9,1,1,0,1,223,10],
 "classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#aeab96b75f8f798f379599b98cefbb8c0":[9,1,0,0,2,223,9],
-"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#aeab96b75f8f798f379599b98cefbb8c0":[9,1,1,0,1,223,9]
+"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#aeab96b75f8f798f379599b98cefbb8c0":[9,1,1,0,1,223,9],
+"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#af11ba51d74b0430cf3f82e00a2d1a57d":[9,1,0,0,2,223,0],
+"classmrmeshpy_1_1DistanceFromWeightedPointsParams.html#af11ba51d74b0430cf3f82e00a2d1a57d":[9,1,1,0,1,223,0]
 };

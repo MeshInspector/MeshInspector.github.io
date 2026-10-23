@@ -1,7 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"classmrmeshpy_1_1ShellVertexInfo.html":[9,1,0,0,2,860],
-"classmrmeshpy_1_1ShellVertexInfo.html":[9,1,1,0,1,860],
 "classmrmeshpy_1_1ShellVertexInfo.html#a0a240e1e487b84daf187c42c80eb0cdd":[9,1,0,0,2,860,1],
 "classmrmeshpy_1_1ShellVertexInfo.html#a0a240e1e487b84daf187c42c80eb0cdd":[9,1,1,0,1,860,1],
 "classmrmeshpy_1_1ShellVertexInfo.html#a21430aef6dbe2062c076e1d22d4ef605":[9,1,0,0,2,860,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX89 =
 "classmrmeshpy_1_1SlicePlane.html#a5ad2d55919b48d14b157587a997749da":[9,1,0,0,2,875,1],
 "classmrmeshpy_1_1SlicePlane.html#a5ad2d55919b48d14b157587a997749da":[9,1,1,0,1,875,1],
 "classmrmeshpy_1_1SlicePlane.html#a613e36cd5503916af1fcc3c3a1793191":[9,1,0,0,2,875,6],
-"classmrmeshpy_1_1SlicePlane.html#a613e36cd5503916af1fcc3c3a1793191":[9,1,1,0,1,875,6]
+"classmrmeshpy_1_1SlicePlane.html#a613e36cd5503916af1fcc3c3a1793191":[9,1,1,0,1,875,6],
+"classmrmeshpy_1_1SlicePlane.html#a6aa7e9bad8add1ab92ea57227756e10e":[9,1,0,0,2,875,10],
+"classmrmeshpy_1_1SlicePlane.html#a6aa7e9bad8add1ab92ea57227756e10e":[9,1,1,0,1,875,10]
 };
