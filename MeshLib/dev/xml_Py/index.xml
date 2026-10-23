@@ -1162,9 +1162,9 @@
   </compound>
   <compound refid="classmrmeshpy_1_1BitSet" kind="class"><name>mrmeshpy::BitSet</name>
     <member refid="classmrmeshpy_1_1BitSet_1aa0a7d1ede8a4702ab5421d151412dfc9" kind="variable"><name>npos</name></member>
-    <member refid="classmrmeshpy_1_1BitSet_1a82ae465b729d7b3cef8c2177d5ee38e6" kind="variable"><name>Blocks</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1ae529e168da2a1905ad02819146ae8274" kind="function"><name>beginId</name></member>
+    <member refid="classmrmeshpy_1_1BitSet_1ab52de9f1462e6d83e5b7191d4396df74" kind="function"><name>fromBlocks</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2" kind="function"><name>__and__</name></member>
@@ -1190,6 +1190,7 @@
     <member refid="classmrmeshpy_1_1BitSet_1a0416156b4269add8c1fb14d531b3f9e5" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1ad1d43b5793a3dce9511fd445d695aa83" kind="function"><name>autoResizeTestSet</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1a71d144899c501363ec1fc3aa7f745b2d" kind="function"><name>backId</name></member>
+    <member refid="classmrmeshpy_1_1BitSet_1ab1c92776adea9f7d4a8aa71b4db8585e" kind="function"><name>bits</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1a2335e90bc299cbaa4f87a7e2157f869a" kind="function"><name>capacity</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1a640d1f443a7ea30d50a532de2cdf90b4" kind="function"><name>clear</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1a4b8a47eb3cd9dc19a7448b1a3b1765e2" kind="function"><name>count</name></member>
@@ -23652,40 +23653,6 @@
     <member refid="classmrmeshpy_1_1std__vector__unsigned__long_1a78ce7c8c9a80ed75aeb8b0e3a11a09fb" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1std__vector__unsigned__long_1acd5c56545dafbaf345a8b99cf5518ac7" kind="function"><name>size</name></member>
   </compound>
-  <compound refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long" kind="class"><name>mrmeshpy::std_vector_unsigned_long_mi_stl_allocator_unsigned_long</name>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1ad94ab2aafeade799002d3e490d9102cd" kind="variable"><name>__hash__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a96d8019e159e68af57f5b86add918f9f" kind="variable"><name>element_type_byte_size</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a50374d41a6573e9dbfa9efe195d2ed3c" kind="function"><name>__bool__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a7408bde2042e2daa89850ff77265f3ca" kind="function"><name>__contains__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a052e7ddb80c1b9a2006599061bc0c8c8" kind="function"><name>__delitem__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1aac6e1c13a61017f1090be8dba705080f" kind="function"><name>__delitem__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a3814f0bd7ef41c255e70ebc708d7c3cc" kind="function"><name>__eq__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1aeaeeaeb5c57aba6e7eb648bbcf4e4529" kind="function"><name>__getitem__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a1ff75aead599294090435e6a238e6aa2" kind="function"><name>__getitem__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a18702468b45cbe3f8b700c6309135dd3" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1af474adf0f963e6a22ed92aa4568696d4" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a58a097a438c4ea7d9680833c94adbaf3" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a6b877b726a05f2d00d04f2bb479a3928" kind="function"><name>__iter__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1aafc4906bce2102d0e1378a120c513489" kind="function"><name>__len__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1ae01d615bb8f41e22f62954811bd641c2" kind="function"><name>__ne__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a96c366a12693912e8cc6180c89f886e1" kind="function"><name>__repr__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a3b0f1a6bbb59d9a23a048fdcd702ab2a" kind="function"><name>__setitem__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a41f21d24e637420fc1cdf519f301a2bd" kind="function"><name>__setitem__</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1ab0ca5372b113a00172c987e5aadb51ec" kind="function"><name>append</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a4141ef9f76e1879d1dc3ce1352937778" kind="function"><name>clear</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1ab1be61a4600693f4a6e9cbfcabec4924" kind="function"><name>count</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a723c656b6a6e6f04ebb02ca5dd5da436" kind="function"><name>data_pointer</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a08e3b4a3d64490b97f88b1b1ba267dd7" kind="function"><name>empty</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a4e81a5e5c72891373f076186192b029e" kind="function"><name>extend</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1ad6fd3fb29148a15cfbfe43e59dd2f415" kind="function"><name>extend</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1ad3760f616a63a5b36e717187e1229432" kind="function"><name>insert</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1ad67def3c4021f84b81cac66514f9dd1a" kind="function"><name>pop</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a8905c805e03e2faf8b0116ac53edf575" kind="function"><name>pop</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a24c63c17d423f6534a629553170d8a13" kind="function"><name>remove</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1a46b4d011911ae7966db797da8f21d852" kind="function"><name>resize</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1aa7e2023d8a334b0333a50a2f6ecf7b3c" kind="function"><name>resize</name></member>
-    <member refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long_1adb85a56389eb09e76221b09b389d31e3" kind="function"><name>size</name></member>
-  </compound>
   <compound refid="classmrmeshpy_1_1std__vector__unsigned__short" kind="class"><name>mrmeshpy::std_vector_unsigned_short</name>
     <member refid="classmrmeshpy_1_1std__vector__unsigned__short_1ab83c966c5045e2a7689b2e70ed914073" kind="variable"><name>__hash__</name></member>
     <member refid="classmrmeshpy_1_1std__vector__unsigned__short_1ace2c26bc472326d0e68d7a9aa7f80ad3" kind="variable"><name>element_type_byte_size</name></member>
@@ -32760,7 +32727,7 @@
     <member refid="namespacemrmeshpy_1ab5a63a3f9e3d300c85e17b1ede46ead6" kind="variable"><name>std_vector_AABBTreePoints_Node_reference</name></member>
     <member refid="namespacemrmeshpy_1a398af658c47784b65c091cfebac2a1a1" kind="variable"><name>std_vector_AABBTreePoints_Node_value_type</name></member>
     <member refid="namespacemrmeshpy_1a61e1753bf67c96323353be6cf847c26a" kind="variable"><name>std_vector_AffineXf3f</name></member>
-    <member refid="namespacemrmeshpy_1a674a25499fc1952531e1219fd3f9a3f9" kind="variable"><name>std_vector_BitSet_block_type_mi_stl_allocator_BitSet_block_type</name></member>
+    <member refid="namespacemrmeshpy_1a8d5c3ed15beaa2ce37864efcd9eff17a" kind="variable"><name>std_vector_BitSet_block_type</name></member>
     <member refid="namespacemrmeshpy_1a460c3cc39f6fe4e2b47a110c438bb680" kind="variable"><name>std_vector_Box3f</name></member>
     <member refid="namespacemrmeshpy_1a6d7de8f969c7d88002c116c85623e76d" kind="variable"><name>std_vector_Color_const_pointer</name></member>
     <member refid="namespacemrmeshpy_1a2bb86f0e54c9e71f633f28978c7c3581" kind="variable"><name>std_vector_Color_const_reference</name></member>

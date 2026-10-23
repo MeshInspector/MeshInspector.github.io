@@ -30,8 +30,6 @@
         </childnode>
         <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
-        </childnode>
       </node>
       <node id="7">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -39,7 +37,7 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="43">
+      <node id="42">
         <label>MRCloudPartMapping.h</label>
         <link refid="MRCloudPartMapping_8h"/>
         <childnode refid="4" relation="include">
@@ -120,9 +118,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
       <node id="27">
@@ -151,7 +149,7 @@
         <childnode refid="34" relation="include">
         </childnode>
       </node>
-      <node id="41">
+      <node id="40">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="4" relation="include">
@@ -160,7 +158,7 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
       </node>
       <node id="18">
@@ -292,11 +290,8 @@
       <node id="39">
         <label>iterator</label>
       </node>
-      <node id="42">
+      <node id="41">
         <label>memory</label>
-      </node>
-      <node id="40">
-        <label>mimalloc.h</label>
       </node>
       <node id="12">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>

@@ -16,7 +16,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -64,8 +64,6 @@
         </childnode>
         <childnode refid="49" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
-        </childnode>
       </node>
       <node id="32">
         <label>MRMesh/MRBox.h</label>
@@ -95,7 +93,7 @@
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="55">
+      <node id="54">
         <label>MRCloudPartMapping.h</label>
         <link refid="MRCloudPartMapping_8h"/>
         <childnode refid="7" relation="include">
@@ -189,7 +187,7 @@
         <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="53">
+      <node id="52">
         <label>MRMesh/MRPointCloud.h</label>
         <link refid="MRPointCloud_8h"/>
         <childnode refid="42" relation="include">
@@ -200,9 +198,9 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
       </node>
       <node id="20">
@@ -231,7 +229,7 @@
         <childnode refid="44" relation="include">
         </childnode>
       </node>
-      <node id="54">
+      <node id="53">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="7" relation="include">
@@ -303,7 +301,7 @@
         <label>config.h</label>
         <link refid="MRMesh_2config_8h"/>
       </node>
-      <node id="52">
+      <node id="51">
         <label>MRDistanceVolumeParams.h</label>
         <link refid="MRDistanceVolumeParams_8h"/>
         <childnode refid="24" relation="include">
@@ -319,16 +317,16 @@
         <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="51">
+      <node id="50">
         <label>MRVoxels/MRPointsToDistanceVolume.h</label>
         <link refid="MRPointsToDistanceVolume_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
@@ -420,9 +418,6 @@
       </node>
       <node id="39">
         <label>memory</label>
-      </node>
-      <node id="50">
-        <label>mimalloc.h</label>
       </node>
       <node id="15">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>

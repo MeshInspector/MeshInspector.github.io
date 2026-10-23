@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"classmrmeshpy_1_1RegionId.html#afcbcbca7d56e63f4f41ff22a31a283cd":[9,1,0,0,2,827,8],
+"classmrmeshpy_1_1RegionId.html#afcbcbca7d56e63f4f41ff22a31a283cd":[9,1,1,0,1,827,8],
 "classmrmeshpy_1_1RegularMapMesher.html":[9,1,0,0,2,828],
 "classmrmeshpy_1_1RegularMapMesher.html":[9,1,1,0,1,828],
 "classmrmeshpy_1_1RegularMapMesher.html#a22a2a81ac3370a493343abc35f05f10d":[9,1,0,0,2,828,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "classmrmeshpy_1_1ResolveMeshDegenSettings.html#a042fe95f7c2e619aa1081869e59c15b2":[9,1,0,0,2,835,2],
 "classmrmeshpy_1_1ResolveMeshDegenSettings.html#a042fe95f7c2e619aa1081869e59c15b2":[9,1,1,0,1,835,2],
 "classmrmeshpy_1_1ResolveMeshDegenSettings.html#a1455498de539355c9510349113d75ffe":[9,1,0,0,2,835,8],
-"classmrmeshpy_1_1ResolveMeshDegenSettings.html#a1455498de539355c9510349113d75ffe":[9,1,1,0,1,835,8],
-"classmrmeshpy_1_1ResolveMeshDegenSettings.html#a194234d33977f99ae06e6f1cddbfe173":[9,1,0,0,2,835,11],
-"classmrmeshpy_1_1ResolveMeshDegenSettings.html#a194234d33977f99ae06e6f1cddbfe173":[9,1,1,0,1,835,11]
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#a1455498de539355c9510349113d75ffe":[9,1,1,0,1,835,8]
 };

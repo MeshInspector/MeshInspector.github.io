@@ -1,5 +1,7 @@
 var NAVTREEINDEX169 =
 {
+"classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#aff00fe23b885773f475b9cc6e4206c5b":[9,1,0,0,2,1084,27],
+"classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#aff00fe23b885773f475b9cc6e4206c5b":[9,1,1,0,1,1084,27],
 "classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html":[9,1,0,0,2,1085],
 "classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html":[9,1,1,0,1,1085],
 "classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html#a009222ab18cb34a123526b103312321d":[9,1,0,0,2,1085,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX169 =
 "classmrmeshpy_1_1std__vector__UndirectedEdgeUndirectedEdge.html#afd15194c63ad68f54eac975f70f45e9f":[9,1,0,0,2,1088,18],
 "classmrmeshpy_1_1std__vector__UndirectedEdgeUndirectedEdge.html#afd15194c63ad68f54eac975f70f45e9f":[9,1,1,0,1,1088,18],
 "classmrmeshpy_1_1std__vector__UnorientedTriangle.html":[9,1,0,0,2,1089],
-"classmrmeshpy_1_1std__vector__UnorientedTriangle.html":[9,1,1,0,1,1089],
-"classmrmeshpy_1_1std__vector__UnorientedTriangle.html#a005aa310d567bb0f6ce1e12e31d40d03":[9,1,0,0,2,1089,17],
-"classmrmeshpy_1_1std__vector__UnorientedTriangle.html#a005aa310d567bb0f6ce1e12e31d40d03":[9,1,1,0,1,1089,17]
+"classmrmeshpy_1_1std__vector__UnorientedTriangle.html":[9,1,1,0,1,1089]
 };
