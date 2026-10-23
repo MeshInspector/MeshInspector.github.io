@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"group__DistanceMapGroup.html#ga0c9486d9b44ae47b12824b99e28b0a93":[9,0,0,5,19],
 "group__DistanceMapGroup.html#ga0e9d54f285f78c5e6229ed9cc17a9ab6":[9,0,0,5,14],
 "group__DistanceMapGroup.html#ga1ceb255a1de1a49e02ff03c17ec71350":[9,0,0,5,43],
 "group__DistanceMapGroup.html#ga239b9939936c38ad89df91dd649ab13d":[9,0,0,5,34],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "group__GeneralGroup.html#ga03a66144cc6fd6086f2415c0771f77c4":[9,0,0,20,5872],
 "group__GeneralGroup.html#ga03a8c271c0681ce20d9510255ef66d78":[9,0,0,20,8387],
 "group__GeneralGroup.html#ga03a98a1c9695b0ef4243961f9ad3b59e":[9,0,0,20,9294],
-"group__GeneralGroup.html#ga03ac32b61f9c93a1a780e490c999ad0d":[9,0,0,20,1079],
-"group__GeneralGroup.html#ga03b89c7f5f3a6ea810077d91c14c98b5":[9,0,0,20,4643]
+"group__GeneralGroup.html#ga03ac32b61f9c93a1a780e490c999ad0d":[9,0,0,20,1079]
 };

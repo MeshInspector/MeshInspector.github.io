@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"group__TriangleIntersectionGroup.html#gaffaaca67b2b029641abd64350b3c1959":[9,0,0,0,10,13],
 "group__TriangulationHelpersGroup.html":[9,0,0,13,0],
 "group__TriangulationHelpersGroup.html#ga379ef6cfbe1df486c3b9baf10d186c0b":[9,0,0,13,0,4],
 "group__TriangulationHelpersGroup.html#ga8a151252bffbc3c9b6cf56c1a45292f0":[9,0,0,13,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1BitSetParallel.html#ac80c10d3cdd20520fd097aa56cfa8f1c":[9,0,1,0,1,1,10],
 "namespaceMR_1_1BitSetParallel.html#ac886c0876beae880356ab560e584b63e":[9,0,1,0,1,1,2],
 "namespaceMR_1_1Cuda.html":[9,0,0,20,0],
-"namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579":[9,0,1,0,1,2,20],
-"namespaceMR_1_1Cuda.html#a3847533ea91606e4e7a4068edd599d86":[9,0,1,0,1,2,19]
+"namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579":[9,0,1,0,1,2,20]
 };

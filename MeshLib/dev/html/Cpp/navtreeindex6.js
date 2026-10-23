@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRTouchpadWin32Handler_8h.html":[9,0,3,0,11,145],
 "MRTouchpadWin32Handler_8h_source.html":[9,0,3,0,11,145],
 "MRTriDist_8h.html":[9,0,3,0,7,421],
 "MRTriDist_8h_source.html":[9,0,3,0,7,421],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "classMR_1_1BasicClickableRectUiRenderTask.html":[9,0,0,20,650],
 "classMR_1_1BasinVolumeCalculator.html":[9,0,0,20,133],
 "classMR_1_1BestFitParabola.html":[9,0,0,20,134],
-"classMR_1_1BestFitPolynomial.html":[9,0,0,20,137],
-"classMR_1_1BinaryOperations.html":[9,0,0,20,87]
+"classMR_1_1BestFitPolynomial.html":[9,0,0,20,137]
 };

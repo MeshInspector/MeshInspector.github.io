@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"MRMapOrHashMap_8h.html":[9,0,3,0,7,193],
 "MRMapOrHashMap_8h_source.html":[9,0,3,0,7,193],
 "MRMapping_8h.html":[9,0,3,0,7,194],
 "MRMapping_8h_source.html":[9,0,3,0,7,194],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "MROffset_8h.html":[9,0,3,0,12,16],
 "MROffset_8h_source.html":[9,0,3,0,12,16],
 "MROnInit_8h.html":[9,0,3,0,7,287],
-"MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227":[9,0,3,0,7,287,1],
-"MROnInit_8h_source.html":[9,0,3,0,7,287]
+"MROnInit_8h.html#a97d3ce2d47b8492d5aee0f258780b227":[9,0,3,0,7,287,1]
 };

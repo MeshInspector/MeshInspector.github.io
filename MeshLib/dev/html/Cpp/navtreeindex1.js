@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"MRClosestWeightedPoint_8h_source.html":[9,0,3,0,7,61],
 "MRCloudPartMapping_8h.html":[9,0,3,0,7,63],
 "MRCloudPartMapping_8h_source.html":[9,0,3,0,7,63],
 "MRColorMapAggregator_8h.html":[9,0,3,0,7,66],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRFreeFormDeformer_8h_source.html":[9,0,3,0,7,135],
 "MRFunctional_8h.html":[9,0,3,0,7,136],
 "MRFunctional_8h_source.html":[9,0,3,0,7,136],
-"MRGLDriverKnownIssues_8h.html":[9,0,3,0,11,31],
-"MRGLDriverKnownIssues_8h_source.html":[9,0,3,0,11,31]
+"MRGLDriverKnownIssues_8h.html":[9,0,3,0,11,31]
 };

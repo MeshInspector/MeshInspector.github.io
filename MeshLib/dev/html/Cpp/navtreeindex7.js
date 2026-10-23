@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"classMR_1_1BinaryOperations.html":[9,0,0,20,87],
 "classMR_1_1BitSet.html":[9,0,0,3,3],
 "classMR_1_1BitSet.html#a029565ede6f02c029a79d6821794eca3":[9,0,0,3,3,4],
 "classMR_1_1BitSet.html#a02e640e7a4515ab2199d48683590e1cd":[9,0,0,3,3,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangeTextureAction.html":[9,0,0,4,6],
 "classMR_1_1ChangeTextureAction.html#a1079ab459c62474b522dc9249a6d4a4c":[9,0,0,4,6,0],
 "classMR_1_1ChangeTextureAction.html#a146619ea49b7b8835a4f37f1a13cbb8e":[9,0,0,4,6,2],
-"classMR_1_1ChangeTextureAction.html#a6415831fcd79f6104620dcc3ae8b96a6":[9,0,0,4,6,3],
-"classMR_1_1ChangeTextureAction.html#ac85c185778438e863240862dbd46a152":[9,0,0,4,6,1]
+"classMR_1_1ChangeTextureAction.html#a6415831fcd79f6104620dcc3ae8b96a6":[9,0,0,4,6,3]
 };

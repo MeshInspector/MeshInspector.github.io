@@ -16413,7 +16413,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRAllocator_8h.html">MRMesh/MRAllocator.h</a>&gt;</code></p>
-<p>allocator of MeshLib containers that benefit from mimalloc: mimalloc explicitly in MeshLib's own builds, std::allocator where malloc is mimalloc already (Emscripten's -sMALLOC=mimalloc, MR_MIMALLOC_OVERRIDE executables) </p>
+<p>allocator of MeshLib containers that benefit from mimalloc: mimalloc explicitly, std::allocator in Emscripten builds, where malloc is mimalloc already (-sMALLOC=mimalloc), and in macOS Homebrew builds </p>
 
 </div>
 </div>

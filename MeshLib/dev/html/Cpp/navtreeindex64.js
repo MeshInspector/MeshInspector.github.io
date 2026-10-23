@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1FanRecordWithCenter.html":[9,0,0,20,332],
 "structMR_1_1FeatureObjectProjectPointResult.html":[9,0,0,20,241],
 "structMR_1_1FeatureObjectSharedProperty.html":[9,0,0,20,240],
 "structMR_1_1Features_1_1MeasureResult.html":[9,0,0,20,247],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#aea62b88f0b395d2c8a051864f80e62f9":[9,0,1,0,1,16,3,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#aea62b88f0b395d2c8a051864f80e62f9":[9,0,2,0,2,7,3,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[9,0,1,0,1,16,4],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[9,0,2,0,2,7,4],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a410882924f1531864aeae4b56402feca":[9,0,1,0,1,16,4,2]
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[9,0,2,0,2,7,4]
 };

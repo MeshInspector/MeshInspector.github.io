@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"classMR_1_1Historian.html":[9,0,0,20,584],
 "classMR_1_1HistoryAction.html":[9,0,0,4,37],
 "classMR_1_1HistoryAction.html":[9,0,0,20,286],
 "classMR_1_1HistoryStore.html":[9,0,0,4,43],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "classMR_1_1Object.html#a56371d5594dc04ece2f123377835e11d":[9,0,0,11,4,9],
 "classMR_1_1Object.html#a5ad7a9244371a01ba7538ff24ce15165":[9,0,0,11,4,22],
 "classMR_1_1Object.html#a5f512c4898f6a69b782b8647109ff8e0":[9,0,0,11,4,98],
-"classMR_1_1Object.html#a603c094ba75fe76c397b93e84d1cb129":[9,0,0,11,4,87],
-"classMR_1_1Object.html#a61f69554fe584800b9f60fac7e7f2200":[9,0,0,11,4,74]
+"classMR_1_1Object.html#a603c094ba75fe76c397b93e84d1cb129":[9,0,0,11,4,87]
 };
