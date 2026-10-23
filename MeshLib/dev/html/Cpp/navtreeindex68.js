@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Nesting_1_1MeshXf.html":[9,0,0,20,397],
+"structMR_1_1Nesting_1_1Nesting3mfParams.html":[9,0,0,20,98],
+"structMR_1_1Nesting_1_1NestingBaseParams.html":[9,0,0,20,398],
+"structMR_1_1Nesting_1_1NestingResult.html":[9,0,0,20,396],
 "structMR_1_1Nesting_1_1TetrisDensifyOptions.html":[9,0,0,20,900],
 "structMR_1_1Nesting_1_1TetrisDensifyParams.html":[9,0,0,20,901],
 "structMR_1_1NewEdgesMap.html":[9,0,0,8,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1PostFocusListener.html":[9,0,0,20,829],
 "structMR_1_1PostRescaleListener.html":[9,0,0,20,813],
 "structMR_1_1PostResizeListener.html":[9,0,0,20,811],
-"structMR_1_1PreDrawListener.html":[9,0,0,20,805],
-"structMR_1_1PreSetupViewListener.html":[9,0,0,20,804],
-"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html":[9,0,0,20,477],
-"structMR_1_1PreciseCutPoint.html":[9,0,0,0,15],
-"structMR_1_1PreciseCutPoint.html#a00d67e208d245c5ddd9f144d0bd78590":[9,0,0,0,15,2]
+"structMR_1_1PreDrawListener.html":[9,0,0,20,805]
 };

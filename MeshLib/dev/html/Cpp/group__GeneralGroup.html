@@ -1490,6 +1490,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga5517b355b3a51538470f957d6a23bff1" id="r_ga5517b355b3a51538470f957d6a23bff1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5517b355b3a51538470f957d6a23bff1">MR::ObjTreeTraits::LeafTag</a> = <a class="el" href="#ga2690a70b32cd0408ea2263bfc9a9f436">ObjTag</a></td></tr>
 <tr class="memitem:ga7208b3ed4cbf6a7db7c03785856d5131" id="r_ga7208b3ed4cbf6a7db7c03785856d5131"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7208b3ed4cbf6a7db7c03785856d5131">MR::ObjTreeTraits::LeafId</a> = ObjId</td></tr>
 <tr class="memitem:gae8c8c6d7c93de2cba91378f547c50a8e" id="r_gae8c8c6d7c93de2cba91378f547c50a8e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae8c8c6d7c93de2cba91378f547c50a8e">MR::ObjTreeTraits::BoxT</a> = Box3f</td></tr>
+<tr class="memitem:gae52f88b1bf8c3f6f4be260612d836725" id="r_gae52f88b1bf8c3f6f4be260612d836725"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:gae52f88b1bf8c3f6f4be260612d836725 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae52f88b1bf8c3f6f4be260612d836725">MR::Allocator</a> = mi_stl_allocator&lt;T&gt;</td></tr>
 <tr class="memitem:gab29b342345673c2ab559f44111f75bdd" id="r_gab29b342345673c2ab559f44111f75bdd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab29b342345673c2ab559f44111f75bdd">MR::Ball&lt; V &gt;::VTraits</a> = <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;V&gt;</td></tr>
 <tr class="memitem:gaad1f3f595e73be14324c1ad3964ab4fd" id="r_gaad1f3f595e73be14324c1ad3964ab4fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaad1f3f595e73be14324c1ad3964ab4fd">MR::Ball&lt; V &gt;::T</a> = typename <a class="el" href="#gadbadae2704ad269b8d78edbb0f2faa93">VTraits::BaseType</a></td></tr>
 <tr class="memitem:gaede2a83d70208855b602da974aafc690" id="r_gaede2a83d70208855b602da974aafc690"><td class="memTemplParams" colspan="2">template&lt;size_t degree&gt; </td></tr>
@@ -16380,6 +16382,25 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gae52f88b1bf8c3f6f4be260612d836725" name="gae52f88b1bf8c3f6f4be260612d836725"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae52f88b1bf8c3f6f4be260612d836725">&#9670;&#160;</a></span>Allocator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#gae52f88b1bf8c3f6f4be260612d836725">MR::Allocator</a> = mi_stl_allocator&lt;T&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRAllocator_8h.html">MRMesh/MRAllocator.h</a>&gt;</code></p>
+<p>allocator of MeshLib containers that benefit from mimalloc: mimalloc explicitly in MeshLib's own builds, std::allocator where malloc is mimalloc already (Emscripten's -sMALLOC=mimalloc, MR_MIMALLOC_OVERRIDE executables) </p>
 
 </div>
 </div>

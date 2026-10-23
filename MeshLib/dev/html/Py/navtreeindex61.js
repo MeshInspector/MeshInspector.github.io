@@ -1,7 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"classmrmeshpy_1_1MeshVoxelsConverter.html#ac1ccc37ac815c57ba8272919f3218acb":[9,1,0,0,2,585,5],
-"classmrmeshpy_1_1MeshVoxelsConverter.html#ac1ccc37ac815c57ba8272919f3218acb":[9,1,1,0,1,585,5],
 "classmrmeshpy_1_1MeshVoxelsConverter.html#ad2f0c782b238e1c2211ca4d682220e87":[9,1,0,0,2,585,2],
 "classmrmeshpy_1_1MeshVoxelsConverter.html#ad2f0c782b238e1c2211ca4d682220e87":[9,1,1,0,1,585,2],
 "classmrmeshpy_1_1MeshVoxelsConverter.html#af5e15f2d0601730acc8ef2877b7df923":[9,1,0,0,2,585,11],
@@ -249,5 +247,7 @@ var NAVTREEINDEX61 =
 "classmrmeshpy_1_1MultiwayAligningTransform.html#a05b5f27e3d0e4cba6f6a0bf1e5e6b035":[9,1,0,0,2,597,5],
 "classmrmeshpy_1_1MultiwayAligningTransform.html#a05b5f27e3d0e4cba6f6a0bf1e5e6b035":[9,1,1,0,1,597,5],
 "classmrmeshpy_1_1MultiwayAligningTransform.html#a2db343f946a5b354781a0f30a6581534":[9,1,0,0,2,597,1],
-"classmrmeshpy_1_1MultiwayAligningTransform.html#a2db343f946a5b354781a0f30a6581534":[9,1,1,0,1,597,1]
+"classmrmeshpy_1_1MultiwayAligningTransform.html#a2db343f946a5b354781a0f30a6581534":[9,1,1,0,1,597,1],
+"classmrmeshpy_1_1MultiwayAligningTransform.html#a4a84d364392ffbfc62a812f368fe365b":[9,1,0,0,2,597,9],
+"classmrmeshpy_1_1MultiwayAligningTransform.html#a4a84d364392ffbfc62a812f368fe365b":[9,1,1,0,1,597,9]
 };

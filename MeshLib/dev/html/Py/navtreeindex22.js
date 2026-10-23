@@ -1,7 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"classmrmeshpy_1_1DecimateSettings.html#aea89ba800db3673e987ec71d4be04c79":[9,1,0,0,2,206,30],
-"classmrmeshpy_1_1DecimateSettings.html#aea89ba800db3673e987ec71d4be04c79":[9,1,1,0,1,206,30],
 "classmrmeshpy_1_1DecimateSettings.html#aef406f827ad416d3d4a437a23acc0034":[9,1,0,0,2,206,46],
 "classmrmeshpy_1_1DecimateSettings.html#aef406f827ad416d3d4a437a23acc0034":[9,1,1,0,1,206,46],
 "classmrmeshpy_1_1DecimateSettings.html#aefdcc080b05fe8eb05dcfa7f68a46510":[9,1,0,0,2,206,34],
@@ -249,5 +247,7 @@ var NAVTREEINDEX22 =
 "classmrmeshpy_1_1DetectTunnelSettings.html#a1a75084bcb5c8f6f85abf2219b25c192":[9,1,0,0,2,215,7],
 "classmrmeshpy_1_1DetectTunnelSettings.html#a1a75084bcb5c8f6f85abf2219b25c192":[9,1,1,0,1,215,7],
 "classmrmeshpy_1_1DetectTunnelSettings.html#a317de0ed166625210cc55aa260efd286":[9,1,0,0,2,215,1],
-"classmrmeshpy_1_1DetectTunnelSettings.html#a317de0ed166625210cc55aa260efd286":[9,1,1,0,1,215,1]
+"classmrmeshpy_1_1DetectTunnelSettings.html#a317de0ed166625210cc55aa260efd286":[9,1,1,0,1,215,1],
+"classmrmeshpy_1_1DetectTunnelSettings.html#a3793d92955cebfc52e5703a3b362415d":[9,1,0,0,2,215,11],
+"classmrmeshpy_1_1DetectTunnelSettings.html#a3793d92955cebfc52e5703a3b362415d":[9,1,1,0,1,215,11]
 };
