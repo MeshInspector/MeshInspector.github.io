@@ -8512,6 +8512,7 @@
     <member refid="classmrmeshpy_1_1ICP_1a37edf5cdda1dbaf284a40a1995366e17" kind="function"><name>autoSelectFloatXf</name></member>
     <member refid="classmrmeshpy_1_1ICP_1a8b197b26b518c037cf7a7d78854f966e" kind="function"><name>calculateTransformation</name></member>
     <member refid="classmrmeshpy_1_1ICP_1af30ef0b9eabdfdb42ae92dffe12f8e53" kind="function"><name>getFlt2RefPairs</name></member>
+    <member refid="classmrmeshpy_1_1ICP_1ad2d7b379075f62a7a93c7cb0dba740bc" kind="function"><name>getFltSamplesCloud</name></member>
     <member refid="classmrmeshpy_1_1ICP_1a3012e91ef09c7d311868b8085f54f02a" kind="function"><name>getLastICPInfo</name></member>
     <member refid="classmrmeshpy_1_1ICP_1a1c0eeefafeb368191a0e6562c8419ea2" kind="function"><name>getMeanSqDistToPlane</name></member>
     <member refid="classmrmeshpy_1_1ICP_1a415cadec9cd861b0c2d1e73cb0dd823c" kind="function"><name>getMeanSqDistToPoint</name></member>
@@ -8519,6 +8520,7 @@
     <member refid="classmrmeshpy_1_1ICP_1a8ab6db5ee41b97dc8901fe2912c12f89" kind="function"><name>getNumSamples</name></member>
     <member refid="classmrmeshpy_1_1ICP_1a277d781cbf6564b7391a9f999d13589d" kind="function"><name>getParams</name></member>
     <member refid="classmrmeshpy_1_1ICP_1a9417ab6b0f89eb260cb193ff61fcceb2" kind="function"><name>getRef2FltPairs</name></member>
+    <member refid="classmrmeshpy_1_1ICP_1ad758f861542f9f7663d5e12c64207aa8" kind="function"><name>getRefSamplesCloud</name></member>
     <member refid="classmrmeshpy_1_1ICP_1a4b3d3a4629f37f9e36c389b8743ede91" kind="function"><name>getStatusInfo</name></member>
     <member refid="classmrmeshpy_1_1ICP_1a4d96212e6b333f3935e9afa8256b5d98" kind="function"><name>sampleFltPoints</name></member>
     <member refid="classmrmeshpy_1_1ICP_1a77e6ff8e013d3298e963dd4971c29d2b" kind="function"><name>samplePoints</name></member>
@@ -11800,6 +11802,7 @@
     <member refid="classmrmeshpy_1_1MeshOrPoints_1a32fdab3bb62afa29832325596ba3ea00" kind="function"><name>points</name></member>
     <member refid="classmrmeshpy_1_1MeshOrPoints_1ad0edfc28be50624e66c349250be3241b" kind="function"><name>pointsGridSampling</name></member>
     <member refid="classmrmeshpy_1_1MeshOrPoints_1a7bd4b7d07e74169d40671ac4b628505c" kind="function"><name>projector</name></member>
+    <member refid="classmrmeshpy_1_1MeshOrPoints_1ae8cdeb8f8ddc8999a7409c6af37157e9" kind="function"><name>surfaceGridSampling</name></member>
     <member refid="classmrmeshpy_1_1MeshOrPoints_1a9e0c25958ddefe312e973a4dfc23af8f" kind="function"><name>validPoints</name></member>
     <member refid="classmrmeshpy_1_1MeshOrPoints_1a90ba976e42cc24eb8a2ef004ece7876a" kind="function"><name>weights</name></member>
   </compound>

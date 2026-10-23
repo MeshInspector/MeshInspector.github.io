@@ -1,5 +1,8 @@
 var NAVTREEINDEX167 =
 {
+"std__shared__ptr__MR__Cuda__FastWindingNumber_8h.html#a1190bf5f8ef1c63daeb6ee2195cfe5ec":[9,2,2,0,0,1,0,0,13,14],
+"std__shared__ptr__MR__Cuda__FastWindingNumber_8h.html#a1419b27766797da1fea93c3874d62c53":[9,2,2,0,0,1,0,0,13,17],
+"std__shared__ptr__MR__Cuda__FastWindingNumber_8h.html#a174749851cacc330c8ee5e56b480ad7b":[9,2,2,0,0,1,0,0,13,0],
 "std__shared__ptr__MR__Cuda__FastWindingNumber_8h.html#a285d34f1f15d51496ce398152e9651cb":[9,2,2,0,0,1,0,0,13,18],
 "std__shared__ptr__MR__Cuda__FastWindingNumber_8h.html#a2c9ac4fa1aa79b58e377bb8cea51e420":[9,2,2,0,0,1,0,0,13,12],
 "std__shared__ptr__MR__Cuda__FastWindingNumber_8h.html#a37f8eb2281b9fd2ff5950d0ffc0568e2":[9,2,2,0,0,1,0,0,13,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX167 =
 "std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#ab2817d71e533dc7253e4aa1f6e65a212":[9,2,2,0,0,0,0,2,359,17],
 "std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#ab4064d319e785c34064a6803ab7b5d83":[9,2,2,0,0,0,0,2,359,5],
 "std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#abff0bf86c8e6cc4b2c7fad5d8aa3dff7":[9,2,2,0,0,0,0,2,359,8],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#accd6093fe0d921b48ea999cba6ae0975":[9,2,2,0,0,0,0,2,359,4],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#acf468fbd4cef3c609b04434158720c10":[9,2,2,0,0,0,0,2,359,19],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#ad325c9fe1c51de69cbb56b9ca321fbb6":[9,2,2,0,0,0,0,2,359,20],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#ae72b01fa27908bfd1c34b33ca28d8b38":[9,2,2,0,0,0,0,2,359,10]
+"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#accd6093fe0d921b48ea999cba6ae0975":[9,2,2,0,0,0,0,2,359,4]
 };

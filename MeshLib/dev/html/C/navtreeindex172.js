@@ -1,5 +1,8 @@
 var NAVTREEINDEX172 =
 {
+"std__shared__ptr__const__MR__SceneRootObject_8h.html":[9,2,2,0,0,0,0,2,301],
+"std__shared__ptr__const__MR__SceneRootObject_8h.html#a074a1fadc9f5f1e910f707efb549376e":[9,2,2,0,0,0,0,2,301,12],
+"std__shared__ptr__const__MR__SceneRootObject_8h.html#a07625858975427cb0fbea3559b286797":[9,2,2,0,0,0,0,2,301,11],
 "std__shared__ptr__const__MR__SceneRootObject_8h.html#a0ab592d30e47971eb072afbe94361c8a":[9,2,2,0,0,0,0,2,301,2],
 "std__shared__ptr__const__MR__SceneRootObject_8h.html#a2c9d411bd8e61bd684fdca8f003915bf":[9,2,2,0,0,0,0,2,301,22],
 "std__shared__ptr__const__MR__SceneRootObject_8h.html#a3b629bb15e8cd789d4f40579b7d7d144":[9,2,2,0,0,0,0,2,301,17],
@@ -246,8 +249,5 @@ var NAVTREEINDEX172 =
 "std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a5046d713ac12ca3bff94a41b0e7eceab":[9,2,2,0,0,0,0,2,410,6],
 "std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a516336d868ea9d4e869855d57eb794a6":[9,2,2,0,0,0,0,2,410,2],
 "std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a540140a6bb28da73702dc8c0a5f2e797":[9,2,2,0,0,0,0,2,410,11],
-"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a58240894f8847b09a694540c1b23c505":[9,2,2,0,0,0,0,2,410,12],
-"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a6a5c547c4930f3f47d7a630dcda1364c":[9,2,2,0,0,0,0,2,410,30],
-"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a78ed76c38e88be533ceee72b778f02e0":[9,2,2,0,0,0,0,2,410,33],
-"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a82c8cdbe807d25187dc47bd634e570cc":[9,2,2,0,0,0,0,2,410,28]
+"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a58240894f8847b09a694540c1b23c505":[9,2,2,0,0,0,0,2,410,12]
 };

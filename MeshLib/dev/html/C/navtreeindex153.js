@@ -1,5 +1,8 @@
 var NAVTREEINDEX153 =
 {
+"std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h.html#a54f750521a089bcadaac5f3556b3faf8":[9,2,2,0,0,0,0,2,124,0],
+"std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h.html#a7619d4f693834166baee8c4453b1526c":[9,2,2,0,0,0,0,2,124,13],
+"std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h.html#aa6de1f279001a02f4e6c2cb07be37bc3":[9,2,2,0,0,0,0,2,124,9],
 "std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h.html#aadccec95fc744ea198609f4f1c4df470":[9,2,2,0,0,0,0,2,124,14],
 "std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h.html#ac26072c0054e95bfd0237f67d96d76d4":[9,2,2,0,0,0,0,2,124,2],
 "std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h.html#adb56c7c26a7aadd3e13b1793698c9722":[9,2,2,0,0,0,0,2,124,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX153 =
 "std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h.html#ae71aa36df5be958dea6eda7b94851b4d":[9,2,2,0,0,0,0,2,147,10],
 "std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h.html#aec8d58051ee27b9bc9acd39fb6fd1ec8":[9,2,2,0,0,0,0,2,147,5],
 "std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h.html#afe6cc9b52bfc95ac337810da50c0ca64":[9,2,2,0,0,0,0,2,147,12],
-"std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_source.html":[9,2,2,0,0,0,0,2,147],
-"std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h.html":[9,2,2,0,0,0,0,2,145],
-"std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h.html#a2558d1f8323761079bfe171c2d6b9c4b":[9,2,2,0,0,0,0,2,145,12],
-"std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h.html#a3767457f05a917b7fc879e9ee37a81b2":[9,2,2,0,0,0,0,2,145,15]
+"std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_source.html":[9,2,2,0,0,0,0,2,147]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX102 =
 {
+"classmrmeshpy_1_1UndirectedEdgeColors.html#ad16d90f2f3b99130c4289eb3671dc1cb":[9,1,0,0,2,1177,22],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#ad16d90f2f3b99130c4289eb3671dc1cb":[9,1,0,0,2,1177,23],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#ad16d90f2f3b99130c4289eb3671dc1cb":[9,1,1,0,1,1177,22],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#ad16d90f2f3b99130c4289eb3671dc1cb":[9,1,1,0,1,1177,23],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#ad19562897f81e1e3a5d83708843a72a6":[9,1,0,0,2,1177,28],
+"classmrmeshpy_1_1UndirectedEdgeColors.html#ad19562897f81e1e3a5d83708843a72a6":[9,1,1,0,1,1177,28],
 "classmrmeshpy_1_1UndirectedEdgeColors.html#adbd920bab359615aea9b44eab6e9832c":[9,1,0,0,2,1177,24],
 "classmrmeshpy_1_1UndirectedEdgeColors.html#adbd920bab359615aea9b44eab6e9832c":[9,1,1,0,1,1177,24],
 "classmrmeshpy_1_1UndirectedEdgeColors.html#ae45d3496cb9cbc6f6b3a6724db60c8db":[9,1,0,0,2,1177,18],
@@ -243,11 +249,5 @@ var NAVTREEINDEX102 =
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#adc6de4cda92e6983f0f8aa2e3323fb90":[9,1,0,0,2,1181,21],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#adc6de4cda92e6983f0f8aa2e3323fb90":[9,1,1,0,1,1181,21],
 "classmrmeshpy_1_1UndirectedEdgeScalars.html#adfccfa5dfa3e2d2122b28bf319c71f39":[9,1,0,0,2,1181,28],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#adfccfa5dfa3e2d2122b28bf319c71f39":[9,1,1,0,1,1181,28],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#af679bd0bc855dd4edbf143e2565cf3f0":[9,1,0,0,2,1181,29],
-"classmrmeshpy_1_1UndirectedEdgeScalars.html#af679bd0bc855dd4edbf143e2565cf3f0":[9,1,1,0,1,1181,29],
-"classmrmeshpy_1_1UndirectedEdgeUndirectedEdge.html":[9,1,0,0,2,1182],
-"classmrmeshpy_1_1UndirectedEdgeUndirectedEdge.html":[9,1,1,0,1,1182],
-"classmrmeshpy_1_1UndirectedEdgeUndirectedEdge.html#a542c18d0d3ff7b9665b0d2e901134d30":[9,1,0,0,2,1182,0],
-"classmrmeshpy_1_1UndirectedEdgeUndirectedEdge.html#a542c18d0d3ff7b9665b0d2e901134d30":[9,1,1,0,1,1182,0]
+"classmrmeshpy_1_1UndirectedEdgeScalars.html#adfccfa5dfa3e2d2122b28bf319c71f39":[9,1,1,0,1,1181,28]
 };

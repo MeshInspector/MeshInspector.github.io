@@ -1,5 +1,8 @@
 var NAVTREEINDEX79 =
 {
+"classMR_1_1Const__SeparationPointStorage.html#aead903649c827402761093796cb8a930":[9,3,0,0,0,827,3],
+"classMR_1_1Const__SeparationPointStorage.html#afe766af366d4cac1fdc382da0f5c6401":[9,3,0,0,0,827,9],
+"classMR_1_1Const__SeparationPointStorage_1_1Block.html":[9,3,0,0,0,827,0],
 "classMR_1_1Const__SeparationPointStorage_1_1Block.html#a14b58fe86c56fe340a8f1d0798a43d0f":[9,3,0,0,0,827,0,0],
 "classMR_1_1Const__SeparationPointStorage_1_1Block.html#a3750028467a249e6b5292f4cbffbd799":[9,3,0,0,0,827,0,10],
 "classMR_1_1Const__SeparationPointStorage_1_1Block.html#a3d977dd240573a9f54bb7a884fec01fc":[9,3,0,0,0,827,0,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX79 =
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#ad6c706e4fd6458771d0b89b0f0162eb3":[9,3,0,0,0,839,8],
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#adfd9566f65b8214c509a353415bd92e5":[9,3,0,0,0,839,7],
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#af794b0b801f4ff549383bccf54ab74fc":[9,3,0,0,0,839,15],
-"classMR_1_1Const__ShellVertexInfo.html":[9,3,0,0,0,841],
-"classMR_1_1Const__ShellVertexInfo.html#a166eb0e4e4c69bda7a1024325f444657":[9,3,0,0,0,841,5],
-"classMR_1_1Const__ShellVertexInfo.html#a1b29d0a0696c3e977c2659b785bb0d0b":[9,3,0,0,0,841,7],
-"classMR_1_1Const__ShellVertexInfo.html#a2ce1df189c5ae6c45e4d2ecf36d94c10":[9,3,0,0,0,841,0]
+"classMR_1_1Const__ShellVertexInfo.html":[9,3,0,0,0,841]
 };

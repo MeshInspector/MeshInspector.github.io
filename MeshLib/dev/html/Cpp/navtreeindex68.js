@@ -1,5 +1,8 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b":[9,0,0,0,8,0,0,1],
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136":[9,0,0,0,8,0,0,0],
+"structMR_1_1MultiwayICPSamplingParameters.html":[9,0,0,20,393],
 "structMR_1_1MutexOwner.html":[9,0,0,20,395],
 "structMR_1_1NameTagClickListener.html":[9,0,0,20,613],
 "structMR_1_1Nesting_1_1BoxNestingCorner.html":[9,0,0,20,140],
@@ -246,8 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[9,0,0,1,9,0],
 "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[9,0,0,1,10],
 "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[9,0,0,1,10,0],
-"structMR_1_1Polynomial.html":[9,0,0,20,135],
-"structMR_1_1PolynomialWrapper.html":[9,0,0,20,136],
-"structMR_1_1PositionVertsSmoothlyParams.html":[9,0,0,20,472],
-"structMR_1_1PositionedText.html":[9,0,0,20,471]
+"structMR_1_1Polynomial.html":[9,0,0,20,135]
 };

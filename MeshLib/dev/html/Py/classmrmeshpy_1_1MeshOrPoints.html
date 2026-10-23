@@ -161,6 +161,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a32fdab3bb62afa29832325596ba3ea00" id="r_a32fdab3bb62afa29832325596ba3ea00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32fdab3bb62afa29832325596ba3ea00">points</a> (self)</td></tr>
 <tr class="memitem:ad0edfc28be50624e66c349250be3241b" id="r_ad0edfc28be50624e66c349250be3241b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0edfc28be50624e66c349250be3241b">pointsGridSampling</a> (self, float voxelSize, int maxVoxels=500000, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="memitem:a7bd4b7d07e74169d40671ac4b628505c" id="r_a7bd4b7d07e74169d40671ac4b628505c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html">func_MeshOrPoints_ProjectionResult_from_Vector3_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bd4b7d07e74169d40671ac4b628505c">projector</a> (self)</td></tr>
+<tr class="memitem:ae8cdeb8f8ddc8999a7409c6af37157e9" id="r_ae8cdeb8f8ddc8999a7409c6af37157e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8cdeb8f8ddc8999a7409c6af37157e9">surfaceGridSampling</a> (self, float voxelSize, <a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a> cloud)</td></tr>
 <tr class="memitem:a9e0c25958ddefe312e973a4dfc23af8f" id="r_a9e0c25958ddefe312e973a4dfc23af8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e0c25958ddefe312e973a4dfc23af8f">validPoints</a> (self)</td></tr>
 <tr class="memitem:a90ba976e42cc24eb8a2ef004ece7876a" id="r_a90ba976e42cc24eb8a2ef004ece7876a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__float__from__Id__VertTag.html">func_float_from_Id_VertTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90ba976e42cc24eb8a2ef004ece7876a">weights</a> (self)</td></tr>
 </table><table class="memberdecls">
@@ -601,6 +602,35 @@ returns std::nullopt if it was terminated by the callback
       </table>
 </div><div class="memdoc">
 <pre class="fragment">returns a function that finds projection (closest) points on this: Vector3f-&gt;ProjectionResult
+</pre> 
+</div>
+</div>
+<a id="ae8cdeb8f8ddc8999a7409c6af37157e9" name="ae8cdeb8f8ddc8999a7409c6af37157e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8cdeb8f8ddc8999a7409c6af37157e9">&#9670;&#160;</a></span>surfaceGridSampling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> mrmeshpy.MeshOrPoints.surfaceGridSampling </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a></td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">performs grid sampling as pointsGridSampling, but a mesh with triangles too big for the sampling is sampled from its dense point cloud
+(see meshToDensePointCloud) returned in (cloud) with Mesh::pseudonormal in every point, and then the ids refer to the points of that cloud;
+otherwise (cloud) is reset and the ids refer to the points of this object
 </pre> 
 </div>
 </div>

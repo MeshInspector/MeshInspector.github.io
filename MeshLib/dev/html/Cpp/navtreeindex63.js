@@ -1,5 +1,8 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1Box.html#acd003ee915daffe1dccdfe6bec573abc":[9,0,0,0,2,0,22],
+"structMR_1_1Box.html#ad11edd7dcd9aece9bebc0a2c388015b5":[9,0,0,0,2,0,33],
+"structMR_1_1Box.html#ad7f75d672fee1cd837085bd09be3c66e":[9,0,0,0,2,0,9],
 "structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598":[9,0,0,0,2,0,10],
 "structMR_1_1Box.html#adcbce4d705b1bf09dd04c5023fe58ec3":[9,0,0,0,2,0,21],
 "structMR_1_1Box.html#ae8181cac57d5ff92d32bfa86bdc5caf3":[9,0,0,0,2,0,30],
@@ -246,8 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1FeatureObjectProjectPointResult.html":[9,0,0,20,241],
 "structMR_1_1FeatureObjectSharedProperty.html":[9,0,0,20,240],
 "structMR_1_1Features_1_1MeasureResult.html":[9,0,0,20,247],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[9,0,0,20,250],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[9,0,0,20,248],
-"structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[9,0,0,20,249],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[9,0,0,20,246]
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[9,0,0,20,250]
 };

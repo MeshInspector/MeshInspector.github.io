@@ -17235,6 +17235,8 @@
     <member refid="classMR_1_1Const__ICP_1a5c8306778695bf55ac7849b7da18f407" kind="function"><name>getMeanSqDistToPlane</name></member>
     <member refid="classMR_1_1Const__ICP_1a05dbf3f2b64df3b8431e5104d5432f9c" kind="function"><name>getFlt2RefPairs</name></member>
     <member refid="classMR_1_1Const__ICP_1a9475a4521a6429f4615e87572bc7ace6" kind="function"><name>getRef2FltPairs</name></member>
+    <member refid="classMR_1_1Const__ICP_1acc50ba1552d8b26b6f1d005c9c37d7d9" kind="function"><name>getFltSamplesCloud</name></member>
+    <member refid="classMR_1_1Const__ICP_1a05575d29d7dc572d86ed8407ccfda8ed" kind="function"><name>getRefSamplesCloud</name></member>
     <member refid="classMR_1_1Const__ICP_1a2885ac72721e6d9d6b3d1d0e19940af9" kind="function"><name>~Const_ICP</name></member>
     <member refid="classMR_1_1Const__ICP_1ab603b5e56dcf99db5b753b78933dfabd" kind="function"><name>Const_ICP</name></member>
     <member refid="classMR_1_1Const__ICP_1a43c13e0d08af3ef2e22e9fde6478f6b2" kind="function"><name>__MR_ICP_Construct</name></member>
@@ -17246,12 +17248,14 @@
     <member refid="classMR_1_1Const__ICP_1a7ce4e8b526d175e1e90438ba31d3d5a8" kind="function"><name>__MR_ICP_Construct_weightedSamples</name></member>
     <member refid="classMR_1_1Const__ICP_1a0bd72f3ad4e0973990df8401d026509d" kind="function"><name>__MR_ICP_Destroy</name></member>
     <member refid="classMR_1_1Const__ICP_1a0bea029946e6bee2b47fa6f2ad2ef9f2" kind="function"><name>__MR_ICP_getFlt2RefPairs</name></member>
+    <member refid="classMR_1_1Const__ICP_1ab44fb52de036a22f45bef723bccd8936" kind="function"><name>__MR_ICP_getFltSamplesCloud</name></member>
     <member refid="classMR_1_1Const__ICP_1a9067ceffbbd83df56b87e85c71437d7c" kind="function"><name>__MR_ICP_getMeanSqDistToPlane</name></member>
     <member refid="classMR_1_1Const__ICP_1a40f87e9ea1b2a70058a4ca178c63cd95" kind="function"><name>__MR_ICP_getMeanSqDistToPoint</name></member>
     <member refid="classMR_1_1Const__ICP_1acb4544383939e0bb7bf1201e3479f7b0" kind="function"><name>__MR_ICP_getNumActivePairs</name></member>
     <member refid="classMR_1_1Const__ICP_1a3ce1262e659c6181e0ba3a6a40f16cb6" kind="function"><name>__MR_ICP_getNumSamples</name></member>
     <member refid="classMR_1_1Const__ICP_1a99167e446f9c91337aaaaf0094db1b63" kind="function"><name>__MR_ICP_getParams</name></member>
     <member refid="classMR_1_1Const__ICP_1a2ae1347b08fa4f14210e3bb0d2a6d2c4" kind="function"><name>__MR_ICP_getRef2FltPairs</name></member>
+    <member refid="classMR_1_1Const__ICP_1ab152c4deca1b5d66b049134b27ea3795" kind="function"><name>__MR_ICP_getRefSamplesCloud</name></member>
     <member refid="classMR_1_1Const__ICP_1a808feafb846f60d6674e00174e9bc0bf" kind="function"><name>__MR_ICP_getStatusInfo</name></member>
   </compound>
   <compound refid="classMR_1_1Const__ICPGroupPair" kind="class"><name>MR::Const_ICPGroupPair</name>
@@ -20649,6 +20653,7 @@
     <member refid="classMR_1_1Const__MeshOrPoints_1a2cf9162dd055ed8f2141f99ed6caf2c7" kind="function"><name>computeBoundingBox</name></member>
     <member refid="classMR_1_1Const__MeshOrPoints_1a79d16ca829db12713a6d77b6085acf72" kind="function"><name>accumulate</name></member>
     <member refid="classMR_1_1Const__MeshOrPoints_1a83452a7bd4ab7450f942749ff662ba93" kind="function"><name>pointsGridSampling</name></member>
+    <member refid="classMR_1_1Const__MeshOrPoints_1a741dcb1a2c87f4e8f338daac03f399f5" kind="function"><name>surfaceGridSampling</name></member>
     <member refid="classMR_1_1Const__MeshOrPoints_1a6d9acc448c20db29b26fc93f84c564a4" kind="function"><name>points</name></member>
     <member refid="classMR_1_1Const__MeshOrPoints_1aa72a88f95c5a208823ac37a33353d1ab" kind="function"><name>validPoints</name></member>
     <member refid="classMR_1_1Const__MeshOrPoints_1af47a683e736fbfd54c75108ca7637d70" kind="function"><name>normals</name></member>
@@ -20678,6 +20683,7 @@
     <member refid="classMR_1_1Const__MeshOrPoints_1a4a49744db7b22fb7f2ba9b566fc6d49d" kind="function"><name>__MR_MeshOrPoints_points</name></member>
     <member refid="classMR_1_1Const__MeshOrPoints_1afe0389ae10ac324737a9156f8c69b8a2" kind="function"><name>__MR_MeshOrPoints_pointsGridSampling</name></member>
     <member refid="classMR_1_1Const__MeshOrPoints_1ae56fe25da2689f3524c43fd255effc82" kind="function"><name>__MR_MeshOrPoints_projector</name></member>
+    <member refid="classMR_1_1Const__MeshOrPoints_1acc3d8d0ba71d70ebbafdc7b8a02c4781" kind="function"><name>__MR_MeshOrPoints_surfaceGridSampling</name></member>
     <member refid="classMR_1_1Const__MeshOrPoints_1aa0f783ba9d5fbd72bc6e0329070cc486" kind="function"><name>__MR_MeshOrPoints_validPoints</name></member>
     <member refid="classMR_1_1Const__MeshOrPoints_1a3be8b9fbfa60a45e20f7b728f7195f69" kind="function"><name>__MR_MeshOrPoints_weights</name></member>
   </compound>

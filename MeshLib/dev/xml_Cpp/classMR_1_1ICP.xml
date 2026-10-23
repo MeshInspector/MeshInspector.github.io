@@ -52,6 +52,8 @@
       <member refid="group__GeneralGroup_1gadfc6f0e8d0d390d67b27d3182f5dfd51" kind="function"><name>getMeanSqDistToPlane</name></member>
       <member refid="group__GeneralGroup_1ga615de191aaa0811f84bcd43de0798d0d" kind="function"><name>getFlt2RefPairs</name></member>
       <member refid="group__GeneralGroup_1ga5ae6b714ad76474375e6365bb6a882a6" kind="function"><name>getRef2FltPairs</name></member>
+      <member refid="group__GeneralGroup_1gaba21f4a51a548428b37dc92f13188bed" kind="function"><name>getFltSamplesCloud</name></member>
+      <member refid="group__GeneralGroup_1gab898a956031fcc7b71e2207779144aef" kind="function"><name>getRefSamplesCloud</name></member>
       <member refid="group__GeneralGroup_1gaf4d26a79ea3d3839ee76658eda157b6f" kind="function"><name>calculateTransformation</name></member>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -91,7 +93,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRICP.h" line="198" column="1" bodyfile="MRMesh/MRICP.h" bodystart="199" bodyend="321"/>
+    <location file="MRMesh/MRICP.h" line="199" column="1" bodyfile="MRMesh/MRICP.h" bodystart="200" bodyend="330"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae6979d6159d128afbd42cd9efe9774ae" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>autoSelectFloatXf</name></member>
       <member refid="group__GeneralGroup_1ga2919e6c1f1b78a1b0e6e9513744013bd" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>calcCombined_</name></member>
@@ -106,12 +108,14 @@
       <member refid="group__GeneralGroup_1gaabd0ec37eec618bd9268a836dd613d9c" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>fltSamples</name></member>
       <member refid="group__GeneralGroup_1gaabb907b9fe22046611ad6261575d9282" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>fltSamplesCloud_</name></member>
       <member refid="group__GeneralGroup_1ga615de191aaa0811f84bcd43de0798d0d" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getFlt2RefPairs</name></member>
+      <member refid="group__GeneralGroup_1gaba21f4a51a548428b37dc92f13188bed" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getFltSamplesCloud</name></member>
       <member refid="group__GeneralGroup_1gadfc6f0e8d0d390d67b27d3182f5dfd51" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getMeanSqDistToPlane</name></member>
       <member refid="group__GeneralGroup_1gadd96602ef2f4214943001ed7d428f400" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getMeanSqDistToPoint</name></member>
       <member refid="group__GeneralGroup_1ga65b7b6725dccffc2b4ed1ff739c1b43c" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getNumActivePairs</name></member>
       <member refid="group__GeneralGroup_1ga13f3b74f82ce6db64eeb57d6a5c043e5" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getNumSamples</name></member>
       <member refid="group__GeneralGroup_1ga3b44361c18aeb9ceab9d26c86c5939ef" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getParams</name></member>
       <member refid="group__GeneralGroup_1ga5ae6b714ad76474375e6365bb6a882a6" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getRef2FltPairs</name></member>
+      <member refid="group__GeneralGroup_1gab898a956031fcc7b71e2207779144aef" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getRefSamplesCloud</name></member>
       <member refid="group__GeneralGroup_1ga4ae3f70fc9c4fc7ffbcdb0f43eae2421" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getStatusInfo</name></member>
       <member refid="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
       <member refid="group__GeneralGroup_1ga95a8266663f52f5442b8b30c105495e5" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>

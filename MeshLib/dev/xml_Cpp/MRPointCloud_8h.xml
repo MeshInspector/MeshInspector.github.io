@@ -12,6 +12,7 @@
     <includedby refid="MRChangePointCloudAction_8h" local="yes">MRMesh/MRChangePointCloudAction.h</includedby>
     <includedby refid="MRChangePointCloudNormalsAction_8h" local="yes">MRMesh/MRChangePointCloudNormalsAction.h</includedby>
     <includedby refid="MRDenseBox_8h" local="yes">MRMesh/MRDenseBox.h</includedby>
+    <includedby refid="MRICP_8h" local="yes">MRMesh/MRICP.h</includedby>
     <includedby refid="MRMeshToPointCloud_8h" local="yes">MRMesh/MRMeshToPointCloud.h</includedby>
     <includedby refid="MRPointsSave_8h" local="yes">MRMesh/MRPointsSave.h</includedby>
     <includedby refid="MRRegularMapMesher_8h" local="yes">MRMesh/MRRegularMapMesher.h</includedby>
@@ -253,7 +254,7 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="10">
+      <node id="12">
         <label>MRCuda/MRCudaPointsToDistanceVolume.h</label>
         <link refid="MRCudaPointsToDistanceVolume_8h"/>
       </node>
@@ -274,8 +275,18 @@
         <link refid="MRDenseBox_8h"/>
       </node>
       <node id="6">
+        <label>MRMesh/MRICP.h</label>
+        <link refid="MRICP_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
         <label>MRMesh/MRMeshToPointCloud.h</label>
         <link refid="MRMeshToPointCloud_8h"/>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMultiwayICP.h</label>
+        <link refid="MRMultiwayICP_8h"/>
       </node>
       <node id="1">
         <label>MRMesh/MRPointCloud.h</label>
@@ -290,25 +301,27 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
       </node>
-      <node id="7">
+      <node id="9">
         <label>MRMesh/MRPointsSave.h</label>
         <link refid="MRPointsSave_8h"/>
       </node>
-      <node id="8">
+      <node id="10">
         <label>MRMesh/MRRegularMapMesher.h</label>
         <link refid="MRRegularMapMesher_8h"/>
       </node>
-      <node id="9">
+      <node id="11">
         <label>MRVoxels/MRPointsToDistanceVolume.h</label>
         <link refid="MRPointsToDistanceVolume_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
     </invincdepgraph>

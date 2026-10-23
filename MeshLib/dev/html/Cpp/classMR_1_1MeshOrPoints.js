@@ -16,6 +16,7 @@ var classMR_1_1MeshOrPoints =
     [ "points", "group__GeneralGroup.html#ga449336329b4606d9496c0291e7d86419", null ],
     [ "pointsGridSampling", "group__GeneralGroup.html#ga3b2775877211c45066393b07b37cda63", null ],
     [ "projector", "group__GeneralGroup.html#ga3c922a641e90d28cb3f15ae22be9e9ab", null ],
+    [ "surfaceGridSampling", "group__GeneralGroup.html#gaab6678f9beb50335d2ae11772ce80c28", null ],
     [ "validPoints", "group__GeneralGroup.html#gab3512b34b63e78729e1b0a920c815092", null ],
     [ "weights", "group__GeneralGroup.html#gae604be3427d8215284155fd6fe154f08", null ]
 ];

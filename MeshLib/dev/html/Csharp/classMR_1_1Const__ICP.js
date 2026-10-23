@@ -12,11 +12,13 @@ var classMR_1_1Const__ICP =
     [ "Dispose", "classMR_1_1Const__ICP.html#a890e6b3bc494a5b4834c7935a4018f82", null ],
     [ "Dispose", "classMR_1_1Const__ICP.html#a18e996a748ba8e06e58ddfc34919d4f9", null ],
     [ "getFlt2RefPairs", "classMR_1_1Const__ICP.html#a05dbf3f2b64df3b8431e5104d5432f9c", null ],
+    [ "getFltSamplesCloud", "classMR_1_1Const__ICP.html#acc50ba1552d8b26b6f1d005c9c37d7d9", null ],
     [ "getMeanSqDistToPlane", "classMR_1_1Const__ICP.html#a5c8306778695bf55ac7849b7da18f407", null ],
     [ "getMeanSqDistToPoint", "classMR_1_1Const__ICP.html#a993bf9b5b54573888c0fb8463adb44d0", null ],
     [ "getNumActivePairs", "classMR_1_1Const__ICP.html#ad8e61a2723afb0bf47271ea8acad76b1", null ],
     [ "getNumSamples", "classMR_1_1Const__ICP.html#a3baa6f9cac2dfe5e582a7ac7a576a86f", null ],
     [ "getParams", "classMR_1_1Const__ICP.html#a4f2d5578d6e08ec63100e0f35f919a97", null ],
     [ "getRef2FltPairs", "classMR_1_1Const__ICP.html#a9475a4521a6429f4615e87572bc7ace6", null ],
+    [ "getRefSamplesCloud", "classMR_1_1Const__ICP.html#a05575d29d7dc572d86ed8407ccfda8ed", null ],
     [ "getStatusInfo", "classMR_1_1Const__ICP.html#aecf1cb14aecbb61d3167462f1931f215", null ]
 ];

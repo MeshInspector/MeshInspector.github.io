@@ -5040,6 +5040,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga615de191aaa0811f84bcd43de0798d0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns current pairs formed from samples on floating object and projections on reference object  <br /></td></tr>
 <tr class="memitem:ga5ae6b714ad76474375e6365bb6a882a6" id="r_ga5ae6b714ad76474375e6365bb6a882a6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1PointPairs.html">PointPairs</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5ae6b714ad76474375e6365bb6a882a6">MR::ICP::getRef2FltPairs</a> () const</td></tr>
 <tr class="memdesc:ga5ae6b714ad76474375e6365bb6a882a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns current pairs formed from samples on reference object and projections on floating object  <br /></td></tr>
+<tr class="memitem:gaba21f4a51a548428b37dc92f13188bed" id="r_gaba21f4a51a548428b37dc92f13188bed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba21f4a51a548428b37dc92f13188bed">MR::ICP::getFltSamplesCloud</a> () const</td></tr>
+<tr class="memitem:gab898a956031fcc7b71e2207779144aef" id="r_gab898a956031fcc7b71e2207779144aef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab898a956031fcc7b71e2207779144aef">MR::ICP::getRefSamplesCloud</a> () const</td></tr>
 <tr class="memitem:gaf4d26a79ea3d3839ee76658eda157b6f" id="r_gaf4d26a79ea3d3839ee76658eda157b6f"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf4d26a79ea3d3839ee76658eda157b6f">MR::ICP::calculateTransformation</a> ()</td></tr>
 <tr class="memitem:gab0e4ef6dbed8084af5b947ea4f8152e4" id="r_gab0e4ef6dbed8084af5b947ea4f8152e4"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab0e4ef6dbed8084af5b947ea4f8152e4">MR::Id&lt; T &gt;::Id</a> () noexcept</td></tr>
 <tr class="memdesc:gab0e4ef6dbed8084af5b947ea4f8152e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the type used for internal representation of <a class="el" href="classMR_1_1Id.html" title="stores index of some element, it is made as template class to avoid mixing faces, edges and vertices">Id</a>  <br /></td></tr>
@@ -5877,6 +5879,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga16a856ae65c5d9209685c97037e9af9a" id="r_ga16a856ae65c5d9209685c97037e9af9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga16a856ae65c5d9209685c97037e9af9a">MR::MeshOrPoints::accumulate</a> (<a class="el" href="classMR_1_1PointAccumulator.html">PointAccumulator</a> &amp;accum, const AffineXf3f *xf=nullptr) const</td></tr>
 <tr class="memdesc:ga16a856ae65c5d9209685c97037e9af9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds in existing <a class="el" href="classMR_1_1PointAccumulator.html" title="Class to accumulate points and make best line / plane approximation.">PointAccumulator</a> the elements of the contained object.  <br /></td></tr>
 <tr class="memitem:ga3b2775877211c45066393b07b37cda63" id="r_ga3b2775877211c45066393b07b37cda63"><td class="memItemLeft" align="right" valign="top">std::optional&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3b2775877211c45066393b07b37cda63">MR::MeshOrPoints::pointsGridSampling</a> (float voxelSize, size_t maxVoxels=500000, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={}) const</td></tr>
+<tr class="memitem:gaab6678f9beb50335d2ae11772ce80c28" id="r_gaab6678f9beb50335d2ae11772ce80c28"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab6678f9beb50335d2ae11772ce80c28">MR::MeshOrPoints::surfaceGridSampling</a> (float voxelSize, std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; &amp;cloud) const</td></tr>
 <tr class="memitem:ga449336329b4606d9496c0291e7d86419" id="r_ga449336329b4606d9496c0291e7d86419"><td class="memItemLeft" align="right" valign="top">const VertCoords &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga449336329b4606d9496c0291e7d86419">MR::MeshOrPoints::points</a> () const</td></tr>
 <tr class="memdesc:ga449336329b4606d9496c0291e7d86419"><td class="mdescLeft">&#160;</td><td class="mdescRight">gives access to points-vector (which can include invalid points as well)  <br /></td></tr>
 <tr class="memitem:gab3512b34b63e78729e1b0a920c815092" id="r_gab3512b34b63e78729e1b0a920c815092"><td class="memItemLeft" align="right" valign="top">const VertBitSet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab3512b34b63e78729e1b0a920c815092">MR::MeshOrPoints::validPoints</a> () const</td></tr>
@@ -85594,6 +85597,34 @@ template&lt;typename U&gt; </div>
 
 </div>
 </div>
+<a id="gaba21f4a51a548428b37dc92f13188bed" name="gaba21f4a51a548428b37dc92f13188bed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba21f4a51a548428b37dc92f13188bed">&#9670;&#160;</a></span>getFltSamplesCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> MR::ICP::getFltSamplesCloud </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRICP_8h.html">MRMesh/MRICP.h</a>&gt;</code></p>
+<p>returns the samples on floating object in its local space, with normals if the object has them; i-th point of the cloud is the source of i-th pair in <a class="el" href="#ga615de191aaa0811f84bcd43de0798d0d" title="returns current pairs formed from samples on floating object and projections on reference object">getFlt2RefPairs()</a> </p>
+
+</div>
+</div>
 <a id="ga506a448723b22b85582a4fb8e1748483" name="ga506a448723b22b85582a4fb8e1748483"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga506a448723b22b85582a4fb8e1748483">&#9670;&#160;</a></span>getFontAndSizeByTypeStatic()</h2>
 
@@ -93714,6 +93745,34 @@ template&lt;typename V&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRFreeFormDeformer_8h.html">MRMesh/MRFreeFormDeformer.h</a>&gt;</code></p>
 
 <p>Gets ref grid point position. </p>
+
+</div>
+</div>
+<a id="gab898a956031fcc7b71e2207779144aef" name="gab898a956031fcc7b71e2207779144aef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab898a956031fcc7b71e2207779144aef">&#9670;&#160;</a></span>getRefSamplesCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> MR::ICP::getRefSamplesCloud </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRICP_8h.html">MRMesh/MRICP.h</a>&gt;</code></p>
+<p>returns the samples on reference object in its local space, with normals if the object has them; i-th point of the cloud is the source of i-th pair in <a class="el" href="#ga5ae6b714ad76474375e6365bb6a882a6" title="returns current pairs formed from samples on reference object and projections on floating object">getRef2FltPairs()</a> </p>
 
 </div>
 </div>
@@ -183117,6 +183176,38 @@ template&lt;typename BaseObjectType, auto ... Properties&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRObjectVoxels_8h.html">MRVoxels/MRObjectVoxels.h</a>&gt;</code></p>
 
 <p>Returns iso surface, empty if iso value is not set. </p>
+
+</div>
+</div>
+<a id="gaab6678f9beb50335d2ae11772ce80c28" name="gaab6678f9beb50335d2ae11772ce80c28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaab6678f9beb50335d2ae11772ce80c28">&#9670;&#160;</a></span>surfaceGridSampling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertBitSet MR::MeshOrPoints::surfaceGridSampling </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshOrPoints_8h.html">MRMesh/MRMeshOrPoints.h</a>&gt;</code></p>
+<p>performs grid sampling as pointsGridSampling, but a mesh with triangles too big for the sampling is sampled from its dense point cloud (see meshToDensePointCloud) returned in (cloud) with <a class="el" href="structMR_1_1Mesh.html#a0362095ba2aeef52de9f42ffa78756a0">Mesh::pseudonormal</a> in every point, and then the ids refer to the points of that cloud; otherwise (cloud) is reset and the ids refer to the points of this object </p>
 
 </div>
 </div>

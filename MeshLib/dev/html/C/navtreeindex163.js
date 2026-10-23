@@ -1,5 +1,8 @@
 var NAVTREEINDEX163 =
 {
+"std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h.html#aa985ebf4af0b6e66540c97dc74e884c5":[9,2,2,0,0,0,0,2,310,21],
+"std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h.html#aaa4fbcbd2fef4342e124a8ed3559a7a1":[9,2,2,0,0,0,0,2,310,22],
+"std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h.html#ab3cc1572feedbc55b688a687a4400914":[9,2,2,0,0,0,0,2,310,5],
 "std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h.html#ac4ccc053fb0e73d3b9abe1bf1118ffc8":[9,2,2,0,0,0,0,2,310,15],
 "std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h.html#acc2bd7aff21aa792d0a049da49569fcb":[9,2,2,0,0,0,0,2,310,10],
 "std__shared__ptr__MR__ChangeDualMarchingCubesAction_8h.html#ad661a46a18143d5e18723b12e3536ea7":[9,2,2,0,0,0,0,2,310,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX163 =
 "std__shared__ptr__MR__ChangeMeshFaceSelectionAction_8h.html#ae889f110ebff36e3c7557006eee0b5eb":[9,2,2,0,0,0,0,2,320,9],
 "std__shared__ptr__MR__ChangeMeshFaceSelectionAction_8h.html#aec2696bf06abdb0005b19c223d1a1b5e":[9,2,2,0,0,0,0,2,320,4],
 "std__shared__ptr__MR__ChangeMeshFaceSelectionAction_8h.html#af8fafe756217560f3273be0e672a0de2":[9,2,2,0,0,0,0,2,320,14],
-"std__shared__ptr__MR__ChangeMeshFaceSelectionAction_8h_source.html":[9,2,2,0,0,0,0,2,320],
-"std__shared__ptr__MR__ChangeMeshPointsAction_8h.html":[9,2,2,0,0,0,0,2,321],
-"std__shared__ptr__MR__ChangeMeshPointsAction_8h.html#a070e8c552f5b66a74cdf2f4a559df876":[9,2,2,0,0,0,0,2,321,8],
-"std__shared__ptr__MR__ChangeMeshPointsAction_8h.html#a09c3543923115181adc8754dc4392c0f":[9,2,2,0,0,0,0,2,321,14]
+"std__shared__ptr__MR__ChangeMeshFaceSelectionAction_8h_source.html":[9,2,2,0,0,0,0,2,320]
 };

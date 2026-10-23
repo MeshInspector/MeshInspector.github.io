@@ -4287,6 +4287,8 @@
     <member refid="group__GeneralGroup_1gadfc6f0e8d0d390d67b27d3182f5dfd51" kind="function"><name>getMeanSqDistToPlane</name></member>
     <member refid="group__GeneralGroup_1ga615de191aaa0811f84bcd43de0798d0d" kind="function"><name>getFlt2RefPairs</name></member>
     <member refid="group__GeneralGroup_1ga5ae6b714ad76474375e6365bb6a882a6" kind="function"><name>getRef2FltPairs</name></member>
+    <member refid="group__GeneralGroup_1gaba21f4a51a548428b37dc92f13188bed" kind="function"><name>getFltSamplesCloud</name></member>
+    <member refid="group__GeneralGroup_1gab898a956031fcc7b71e2207779144aef" kind="function"><name>getRefSamplesCloud</name></member>
     <member refid="group__GeneralGroup_1gaf4d26a79ea3d3839ee76658eda157b6f" kind="function"><name>calculateTransformation</name></member>
     <member refid="group__GeneralGroup_1gaa8b47068555e697a4aa11d9d09b42d48" kind="function"><name>deactivatefarDistPairs_</name></member>
     <member refid="group__GeneralGroup_1ga07fa3e5142a0e6d3bfdd592d7a04eb8a" kind="function"><name>p2ptIter_</name></member>
@@ -5885,6 +5887,7 @@
     <member refid="group__GeneralGroup_1gae39e25d2f6a1e52e1f3d0a95a1169d0e" kind="function"><name>computeBoundingBox</name></member>
     <member refid="group__GeneralGroup_1ga16a856ae65c5d9209685c97037e9af9a" kind="function"><name>accumulate</name></member>
     <member refid="group__GeneralGroup_1ga3b2775877211c45066393b07b37cda63" kind="function"><name>pointsGridSampling</name></member>
+    <member refid="group__GeneralGroup_1gaab6678f9beb50335d2ae11772ce80c28" kind="function"><name>surfaceGridSampling</name></member>
     <member refid="group__GeneralGroup_1ga449336329b4606d9496c0291e7d86419" kind="function"><name>points</name></member>
     <member refid="group__GeneralGroup_1gab3512b34b63e78729e1b0a920c815092" kind="function"><name>validPoints</name></member>
     <member refid="group__GeneralGroup_1ga85e8e11b8e3e8fe593d22d8639a8efaf" kind="function"><name>normals</name></member>
@@ -27293,6 +27296,8 @@
     <member refid="group__GeneralGroup_1gadfc6f0e8d0d390d67b27d3182f5dfd51" kind="function"><name>getMeanSqDistToPlane</name></member>
     <member refid="group__GeneralGroup_1ga615de191aaa0811f84bcd43de0798d0d" kind="function"><name>getFlt2RefPairs</name></member>
     <member refid="group__GeneralGroup_1ga5ae6b714ad76474375e6365bb6a882a6" kind="function"><name>getRef2FltPairs</name></member>
+    <member refid="group__GeneralGroup_1gaba21f4a51a548428b37dc92f13188bed" kind="function"><name>getFltSamplesCloud</name></member>
+    <member refid="group__GeneralGroup_1gab898a956031fcc7b71e2207779144aef" kind="function"><name>getRefSamplesCloud</name></member>
     <member refid="group__GeneralGroup_1gaf4d26a79ea3d3839ee76658eda157b6f" kind="function"><name>calculateTransformation</name></member>
     <member refid="group__GeneralGroup_1gaa8b47068555e697a4aa11d9d09b42d48" kind="function"><name>deactivatefarDistPairs_</name></member>
     <member refid="group__GeneralGroup_1ga07fa3e5142a0e6d3bfdd592d7a04eb8a" kind="function"><name>p2ptIter_</name></member>
@@ -27882,6 +27887,7 @@
     <member refid="group__GeneralGroup_1gae39e25d2f6a1e52e1f3d0a95a1169d0e" kind="function"><name>computeBoundingBox</name></member>
     <member refid="group__GeneralGroup_1ga16a856ae65c5d9209685c97037e9af9a" kind="function"><name>accumulate</name></member>
     <member refid="group__GeneralGroup_1ga3b2775877211c45066393b07b37cda63" kind="function"><name>pointsGridSampling</name></member>
+    <member refid="group__GeneralGroup_1gaab6678f9beb50335d2ae11772ce80c28" kind="function"><name>surfaceGridSampling</name></member>
     <member refid="group__GeneralGroup_1ga449336329b4606d9496c0291e7d86419" kind="function"><name>points</name></member>
     <member refid="group__GeneralGroup_1gab3512b34b63e78729e1b0a920c815092" kind="function"><name>validPoints</name></member>
     <member refid="group__GeneralGroup_1ga85e8e11b8e3e8fe593d22d8639a8efaf" kind="function"><name>normals</name></member>

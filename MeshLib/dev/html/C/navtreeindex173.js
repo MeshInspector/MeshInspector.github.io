@@ -1,5 +1,8 @@
 var NAVTREEINDEX173 =
 {
+"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a6a5c547c4930f3f47d7a630dcda1364c":[9,2,2,0,0,0,0,2,410,30],
+"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a78ed76c38e88be533ceee72b778f02e0":[9,2,2,0,0,0,0,2,410,33],
+"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a82c8cdbe807d25187dc47bd634e570cc":[9,2,2,0,0,0,0,2,410,28],
 "std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a842d7a198cb26ef93830ee6d7637841d":[9,2,2,0,0,0,0,2,410,29],
 "std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a98c2c110c14246b57432d1f24508994d":[9,2,2,0,0,0,0,2,410,0],
 "std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a9937b63994c49339eaed611301506d70":[9,2,2,0,0,0,0,2,410,17],
@@ -246,8 +249,5 @@ var NAVTREEINDEX173 =
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#a649618f1d9c12d6bed26c027864cc10b":[9,2,2,0,0,0,0,2,424,12],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#a6531d811389e1a3f96438268e58ab524":[9,2,2,0,0,0,0,2,424,8],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#a670f8749add7411b001f13a5c6cf113f":[9,2,2,0,0,0,0,2,424,62],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#a672b4c7a35ca1dcb3a0fb1a66b30644d":[9,2,2,0,0,0,0,2,424,33],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#a709b87e77e7153ca6f901ec961315334":[9,2,2,0,0,0,0,2,424,32],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#a73f7fc25c03791cf0c02eada84529f0c":[9,2,2,0,0,0,0,2,424,56],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#a75ce8645b38f8b226d0a18d898d15fd0":[9,2,2,0,0,0,0,2,424,13]
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#a672b4c7a35ca1dcb3a0fb1a66b30644d":[9,2,2,0,0,0,0,2,424,33]
 };

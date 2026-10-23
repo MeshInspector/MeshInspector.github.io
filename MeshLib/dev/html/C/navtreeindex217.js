@@ -1,5 +1,8 @@
 var NAVTREEINDEX217 =
 {
+"std__vector__std__vector__MR__EdgePoint_8h.html#a3cf7f37934e01b753d794d75ab67a851":[9,2,2,0,0,0,0,2,564,23],
+"std__vector__std__vector__MR__EdgePoint_8h.html#a416734063a8a15ca4c40b284a09f4d83":[9,2,2,0,0,0,0,2,564,6],
+"std__vector__std__vector__MR__EdgePoint_8h.html#a4960faf75ec44fa41113e662cd9ff3d8":[9,2,2,0,0,0,0,2,564,24],
 "std__vector__std__vector__MR__EdgePoint_8h.html#a4b19f959318754a47d2fdb16bdd40818":[9,2,2,0,0,0,0,2,564,37],
 "std__vector__std__vector__MR__EdgePoint_8h.html#a4ee98cfc1ea2862ea62623c02bcba79f":[9,2,2,0,0,0,0,2,564,66],
 "std__vector__std__vector__MR__EdgePoint_8h.html#a529f2188ed3346090f16705d8a81dee6":[9,2,2,0,0,0,0,2,564,16],
@@ -246,8 +249,5 @@ var NAVTREEINDEX217 =
 "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#abb83d0f49a6a1d9a7de65ba2b2f57f4b":[9,2,2,0,0,0,0,2,567,9],
 "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#abfcbef77709d21b647a5f4601577e80c":[9,2,2,0,0,0,0,2,567,66],
 "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#acca10694fd05bf9ced89800619e6a5ad":[9,2,2,0,0,0,0,2,567,63],
-"std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#acdf2d4c3f1adc0cef7d7f011a6517fea":[9,2,2,0,0,0,0,2,567,17],
-"std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#ad1fa67c9b385f1ce8f9617edc3380aa5":[9,2,2,0,0,0,0,2,567,54],
-"std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#ad665ec120927c91d86b1c5f8e328aea4":[9,2,2,0,0,0,0,2,567,0],
-"std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#adb41ef0090fb4f6c40819a34bddb7301":[9,2,2,0,0,0,0,2,567,3]
+"std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#acdf2d4c3f1adc0cef7d7f011a6517fea":[9,2,2,0,0,0,0,2,567,17]
 };

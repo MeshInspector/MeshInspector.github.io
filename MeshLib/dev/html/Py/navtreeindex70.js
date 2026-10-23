@@ -1,5 +1,11 @@
 var NAVTREEINDEX70 =
 {
+"classmrmeshpy_1_1ObjectSave_1_1Settings.html#aa1e4d992214ce3d7da33c093f96f9874":[9,1,0,0,2,661,0,1],
+"classmrmeshpy_1_1ObjectSave_1_1Settings.html#aa1e4d992214ce3d7da33c093f96f9874":[9,1,1,0,1,661,0,1],
+"classmrmeshpy_1_1ObjectSelectivityType.html":[9,1,0,0,2,662],
+"classmrmeshpy_1_1ObjectSelectivityType.html":[9,1,1,0,1,662],
+"classmrmeshpy_1_1ObjectSelectivityType.html#a36c5fc92fe89d06c70a3aefec4abcf34":[9,1,0,0,2,662,8],
+"classmrmeshpy_1_1ObjectSelectivityType.html#a36c5fc92fe89d06c70a3aefec4abcf34":[9,1,1,0,1,662,8],
 "classmrmeshpy_1_1ObjectSelectivityType.html#a4d1a01a7b76003471262a68fe01ff704":[9,1,0,0,2,662,6],
 "classmrmeshpy_1_1ObjectSelectivityType.html#a4d1a01a7b76003471262a68fe01ff704":[9,1,1,0,1,662,6],
 "classmrmeshpy_1_1ObjectSelectivityType.html#a750717e39e741618c66fcc961adc658a":[9,1,0,0,2,662,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX70 =
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a973da088226c02569d16de400f2d424c":[9,1,0,0,2,664,0,2,10],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#a973da088226c02569d16de400f2d424c":[9,1,1,0,1,664,0,2,10],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aa008b81a3c830681d9c77e85ba6778f5":[9,1,0,0,2,664,0,2,1],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aa008b81a3c830681d9c77e85ba6778f5":[9,1,1,0,1,664,0,2,1],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aa44f709357c35177e30bf2f6b145ff88":[9,1,0,0,2,664,0,2,7],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aa44f709357c35177e30bf2f6b145ff88":[9,1,1,0,1,664,0,2,7],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#acbc1541fc9c73bd6de471d57d70ddcd4":[9,1,0,0,2,664,0,2,6],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#acbc1541fc9c73bd6de471d57d70ddcd4":[9,1,1,0,1,664,0,2,6],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#ada57dcf647fc1fcbe0f1cc84cea6cffe":[9,1,0,0,2,664,0,2,4],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#ada57dcf647fc1fcbe0f1cc84cea6cffe":[9,1,1,0,1,664,0,2,4]
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aa008b81a3c830681d9c77e85ba6778f5":[9,1,1,0,1,664,0,2,1]
 };

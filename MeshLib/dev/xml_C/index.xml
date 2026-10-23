@@ -11149,6 +11149,8 @@
     <member refid="MRICP_8h_1a4a87c79758bf32143a4f1c9a4a523c93" kind="function"><name>MR_ICP_getMeanSqDistToPlane</name></member>
     <member refid="MRICP_8h_1ad21add88e385664eafd5d9c02da0aa2c" kind="function"><name>MR_ICP_getFlt2RefPairs</name></member>
     <member refid="MRICP_8h_1a649b14e7bde0e98c944d1da67a748579" kind="function"><name>MR_ICP_getRef2FltPairs</name></member>
+    <member refid="MRICP_8h_1a464280a302d6aac132e58d82e365829b" kind="function"><name>MR_ICP_getFltSamplesCloud</name></member>
+    <member refid="MRICP_8h_1ad5d078f52ade94b8245d8439a6c37c03" kind="function"><name>MR_ICP_getRefSamplesCloud</name></member>
     <member refid="MRICP_8h_1a9cd10312ad72efcd82754cf809aee98f" kind="function"><name>MR_ICP_calculateTransformation</name></member>
   </compound>
   <compound refid="MRICPEnums_8h" kind="file"><name>MRICPEnums.h</name>
@@ -15878,6 +15880,7 @@
     <member refid="MRMeshOrPoints_8h_1a346372914923cc2862b30f818511d98e" kind="function"><name>MR_MeshOrPoints_computeBoundingBox</name></member>
     <member refid="MRMeshOrPoints_8h_1adbe10a5d8ccbafd5c76c149847215e8b" kind="function"><name>MR_MeshOrPoints_accumulate</name></member>
     <member refid="MRMeshOrPoints_8h_1aae4795ce91b0cf5fa724b2ccf70a5681" kind="function"><name>MR_MeshOrPoints_pointsGridSampling</name></member>
+    <member refid="MRMeshOrPoints_8h_1a7790646a31a3020404c099910cebf9d6" kind="function"><name>MR_MeshOrPoints_surfaceGridSampling</name></member>
     <member refid="MRMeshOrPoints_8h_1a92f16c1e7a7a197d500de7ef8a051d3d" kind="function"><name>MR_MeshOrPoints_points</name></member>
     <member refid="MRMeshOrPoints_8h_1a39f07a45a112efe3cd3eaa13237c7160" kind="function"><name>MR_MeshOrPoints_validPoints</name></member>
     <member refid="MRMeshOrPoints_8h_1a48f0d41fd24a41a90de9eaac622e65ed" kind="function"><name>MR_MeshOrPoints_normals</name></member>

@@ -1,5 +1,8 @@
 var NAVTREEINDEX59 =
 {
+"group__TriangulationHelpersGroup.html#gab7b3e43bb16453b2202ab3e82d052488":[9,0,0,13,0,2],
+"group__TriangulationHelpersGroup.html#gaf72ca8f1d6497ca42e99d5884312305c":[9,0,0,13,0,5],
+"group__TunnelDetectorGroup.html":[9,0,0,16,4],
 "group__TunnelDetectorGroup.html#ga002f332a7657596c6a7a3db1e4b3dc71":[9,0,0,16,4,10],
 "group__TunnelDetectorGroup.html#ga135a3163af766566666c69ac52f98a9d":[9,0,0,16,4,8],
 "group__TunnelDetectorGroup.html#ga40474d64aa8fbdd33ab7ba70b9970bec":[9,0,0,16,4,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1Cuda.html#a57e91a18687a893997356f499e9a7e94":[9,0,1,0,1,2,14],
 "namespaceMR_1_1Cuda.html#a770259831b49f60068c30df5121056c9":[9,0,1,0,1,2,34],
 "namespaceMR_1_1Cuda.html#aaa9aa568ce6f99642f04342760455a3f":[9,0,1,0,1,2,30],
-"namespaceMR_1_1Cuda.html#ab0b0e3af6fadf0842bbaef360071ea8e":[9,0,1,0,1,2,12],
-"namespaceMR_1_1Cuda.html#ab6752d5a8d11db60ba3b3c7cd333658d":[9,0,1,0,1,2,16],
-"namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155":[9,0,1,0,1,2,18],
-"namespaceMR_1_1Cuda.html#acdd0eaf7b314f1758bf6e417ad1f3795":[9,0,1,0,1,2,15]
+"namespaceMR_1_1Cuda.html#ab0b0e3af6fadf0842bbaef360071ea8e":[9,0,1,0,1,2,12]
 };

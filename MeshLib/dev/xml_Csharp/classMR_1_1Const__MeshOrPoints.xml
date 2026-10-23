@@ -299,6 +299,29 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="169" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="169" bodyend="173"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a741dcb1a2c87f4e8f338daac03f399f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
+        <definition>unsafe MR.VertBitSet MR.Const_MeshOrPoints.surfaceGridSampling</definition>
+        <argsstring>(float voxelSize, MR.Std.SharedPtr_MRPointCloud cloud)</argsstring>
+        <name>surfaceGridSampling</name>
+        <qualifiedname>MR.Const_MeshOrPoints.surfaceGridSampling</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>MR.Std.SharedPtr_MRPointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <briefdescription>
+<para>performs grid sampling as pointsGridSampling, but a mesh with triangles too big for the sampling is sampled from its dense point cloud (see meshToDensePointCloud) returned in (cloud) with <ref refid="classMR_1_1Const__Mesh_1a9a109d9bd5548a2f55b21b667e8b68b9" kindref="member">Mesh.pseudonormal</ref> in every point, and then the ids refer to the points of that cloud; otherwise (cloud) is reset and the ids refer to the points of this object Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshOrPoints_1a741dcb1a2c87f4e8f338daac03f399f5" kindref="member">MR.MeshOrPoints.surfaceGridSampling</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="181" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="181" bodyend="184"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a6d9acc448c20db29b26fc93f84c564a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
         <definition>unsafe MR.Const_VertCoords MR.Const_MeshOrPoints.points</definition>
@@ -312,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="179" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="179" bodyend="182"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="190" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="190" bodyend="193"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1aa72a88f95c5a208823ac37a33353d1ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
@@ -327,7 +350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="188" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="188" bodyend="191"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="199" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="199" bodyend="202"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1af47a683e736fbfd54c75108ca7637d70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_MRVector3f_From_MRVertId</type>
@@ -342,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="197" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="197" bodyend="200"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="208" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="208" bodyend="211"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a4b155f1b2ffc4f006b80a730baf82d67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_MRVertId</type>
@@ -357,7 +380,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="207" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="207" bodyend="210"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="218" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="218" bodyend="221"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a87e38afc4fed3ec778f4d5b8c7ae8d2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_MRMeshOrPointsProjectionResult_From_ConstMRVector3fRef</type>
@@ -372,7 +395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="216" column="92" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="216" bodyend="219"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="227" column="92" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="227" bodyend="230"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1aa25031906e0f0286c88fd5d478328028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Bool_From_ConstMRVector3fRef_MRMeshOrPointsProjectionResultRef</type>
@@ -387,7 +410,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="227" column="100" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="227" bodyend="230"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="238" column="100" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="238" bodyend="241"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -525,7 +548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="558" column="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="569" column="56"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1af4eef1f596305d6ff7c4a61f9cd841fc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.MeshOrPoints._Underlying *</type>
@@ -543,7 +566,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="561" column="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="572" column="56"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a868b931d766b84b237cc570d91a4da95" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.MeshOrPoints._Underlying *</type>
@@ -561,7 +584,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="564" column="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="575" column="56"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a434d10da7d2c73672a37429260a3e071" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.MeshOrPoints._Underlying *</type>
@@ -579,7 +602,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="567" column="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="578" column="56"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1ae062aa2dab6276635226d6d0289e46e4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.MeshOrPoints._Underlying *</type>
@@ -597,7 +620,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="570" column="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="581" column="56"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1ac099f17a6171bc8cb0e3ec00717edcec" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -615,7 +638,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="573" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="584" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a690312a7a43e110cb9298781a2ca3e12" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -641,7 +664,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="576" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="587" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a353b759dbddaaf59b0e2f200e5998d3b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Const_MeshPart._Underlying *</type>
@@ -659,7 +682,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="579" column="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="590" column="58"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a9ae12b43f9814d7e3fab944af9c3e6be" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Const_PointCloudPart._Underlying *</type>
@@ -677,7 +700,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="582" column="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="593" column="64"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a759c5232e48e1d8c1993c1fbe0d55e6c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -695,7 +718,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="585" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="596" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1aa0ea20bd8b7f79a16d3069865a9d818b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -717,7 +740,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="588" column="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="599" column="38"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a6384aef8caf3b5ab92553459fedd0a1e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -735,7 +758,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="591" column="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="602" column="38"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a66a9ca1355f5b389831dfe063f7fe6cd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Function_Bool_From_ConstMRVector3fRef_MRMeshOrPointsProjectionResultRef._Underlying *</type>
@@ -753,7 +776,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="594" column="118"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="605" column="118"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1ad70f249db65bb5231a143d1f42bd17b3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Function_MRVector3f_From_MRVertId._Underlying *</type>
@@ -771,7 +794,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="597" column="80"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="608" column="80"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a4a49744db7b22fb7f2ba9b566fc6d49d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Const_VertCoords._Underlying *</type>
@@ -789,7 +812,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="600" column="60"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="611" column="60"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1afe0389ae10ac324737a9156f8c69b8a2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRVertBitSet._Underlying *</type>
@@ -819,7 +842,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="603" column="68"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="614" column="68"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1ae56fe25da2689f3524c43fd255effc82" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Function_MRMeshOrPointsProjectionResult_From_ConstMRVector3fRef._Underlying *</type>
@@ -837,7 +860,33 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="606" column="110"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="617" column="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1acc3d8d0ba71d70ebbafdc7b8a02c4781" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VertBitSet._Underlying *</type>
+        <definition>static unsafe MR.VertBitSet._Underlying * MR.Const_MeshOrPoints.__MR_MeshOrPoints_surfaceGridSampling</definition>
+        <argsstring>(_Underlying *_this, float voxelSize, MR.Std.SharedPtr_MRPointCloud._Underlying *cloud)</argsstring>
+        <name>__MR_MeshOrPoints_surfaceGridSampling</name>
+        <qualifiedname>MR.Const_MeshOrPoints.__MR_MeshOrPoints_surfaceGridSampling</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>MR.Std.SharedPtr_MRPointCloud._Underlying *</type>
+          <declname>cloud</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="620" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1aa0f783ba9d5fbd72bc6e0329070cc486" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Const_VertBitSet._Underlying *</type>
@@ -855,7 +904,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="609" column="60"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="623" column="60"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1a3be8b9fbfa60a45e20f7b728f7195f69" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_MRVertId._Underlying *</type>
@@ -873,7 +922,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="612" column="75"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="626" column="75"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -919,7 +968,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="10" bodyend="613"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="10" bodyend="627"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__MeshOrPoints_1a690312a7a43e110cb9298781a2ca3e12" prot="private" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>__MR_MeshOrPoints_accumulate</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1a353b759dbddaaf59b0e2f200e5998d3b" prot="private" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>__MR_MeshOrPoints_asMeshPart</name></member>
@@ -938,6 +987,7 @@
       <member refid="classMR_1_1Const__MeshOrPoints_1a4a49744db7b22fb7f2ba9b566fc6d49d" prot="private" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>__MR_MeshOrPoints_points</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1afe0389ae10ac324737a9156f8c69b8a2" prot="private" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>__MR_MeshOrPoints_pointsGridSampling</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1ae56fe25da2689f3524c43fd255effc82" prot="private" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>__MR_MeshOrPoints_projector</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1acc3d8d0ba71d70ebbafdc7b8a02c4781" prot="private" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>__MR_MeshOrPoints_surfaceGridSampling</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1aa0f783ba9d5fbd72bc6e0329070cc486" prot="private" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>__MR_MeshOrPoints_validPoints</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1a3be8b9fbfa60a45e20f7b728f7195f69" prot="private" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>__MR_MeshOrPoints_weights</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1a79d16ca829db12713a6d77b6085acf72" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>accumulate</name></member>
@@ -964,6 +1014,7 @@
       <member refid="classMR_1_1Const__MeshOrPoints_1a6d9acc448c20db29b26fc93f84c564a4" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>points</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1a83452a7bd4ab7450f942749ff662ba93" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>pointsGridSampling</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1a87e38afc4fed3ec778f4d5b8c7ae8d2a" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>projector</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1a741dcb1a2c87f4e8f338daac03f399f5" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>surfaceGridSampling</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1aa72a88f95c5a208823ac37a33353d1ab" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>validPoints</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1a4b155f1b2ffc4f006b80a730baf82d67" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>weights</name></member>
       <member refid="classMR_1_1Const__MeshOrPoints_1a3cf2e2c7940f392c51ebdeb0db3d0577" prot="private" virt="non-virtual"><scope>MR::Const_MeshOrPoints</scope><name>~Const_MeshOrPoints</name></member>

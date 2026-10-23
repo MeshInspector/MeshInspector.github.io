@@ -1,5 +1,8 @@
 var NAVTREEINDEX99 =
 {
+"MRScanHelpers_8h.html#ae5af1264fe9225e8fe4512e291b724d0":[9,2,2,0,0,0,0,4,21,11],
+"MRScanHelpers_8h.html#ae7aeadd3b94242cae353b3d35b0df0e5":[9,2,2,0,0,0,0,4,21,39],
+"MRScanHelpers_8h.html#aec2a789aa34631c3d6a6df5b19b2e583":[9,2,2,0,0,0,0,4,21,37],
 "MRScanHelpers_8h.html#afc2c5117f334acffa6d9d453b942c1ee":[9,2,2,0,0,0,0,4,21,33],
 "MRScanHelpers_8h_source.html":[9,2,2,0,0,0,0,4,21],
 "MRSceneColors_8h.html":[9,2,2,0,0,0,0,1,323],
@@ -246,8 +249,5 @@ var NAVTREEINDEX99 =
 "MRSceneSettings_8h_source.html":[9,2,2,0,0,0,0,1,326],
 "MRSegmPoint_8h.html":[9,2,2,0,0,0,0,1,328],
 "MRSegmPoint_8h.html#a0035133af66b9b6f91c2eabf9f6a4432":[9,2,2,0,0,0,0,1,328,31],
-"MRSegmPoint_8h.html#a007859ad1020a3b630176f108927c36c":[9,2,2,0,0,0,0,1,328,24],
-"MRSegmPoint_8h.html#a026633425e2739ec558b8689fd20ba9c":[9,2,2,0,0,0,0,1,328,30],
-"MRSegmPoint_8h.html#a0724cc5d4bdd2ed4e34e8e0e3da7d1cd":[9,2,2,0,0,0,0,1,328,5],
-"MRSegmPoint_8h.html#a1280b37763fd00e2888efa33023a44a2":[9,2,2,0,0,0,0,1,328,19]
+"MRSegmPoint_8h.html#a007859ad1020a3b630176f108927c36c":[9,2,2,0,0,0,0,1,328,24]
 };

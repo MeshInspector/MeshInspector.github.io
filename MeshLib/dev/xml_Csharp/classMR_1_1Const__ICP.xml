@@ -515,6 +515,36 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2178" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2178" bodyend="2181"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ICP_1acc50ba1552d8b26b6f1d005c9c37d7d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
+        <definition>unsafe MR.PointCloud MR.Const_ICP.getFltSamplesCloud</definition>
+        <argsstring>()</argsstring>
+        <name>getFltSamplesCloud</name>
+        <qualifiedname>MR.Const_ICP.getFltSamplesCloud</qualifiedname>
+        <briefdescription>
+<para>returns the samples on floating object in its local space, with normals if the object has them; i-th point of the cloud is the source of i-th pair in <ref refid="classMR_1_1Const__ICP_1a05dbf3f2b64df3b8431e5104d5432f9c" kindref="member">getFlt2RefPairs()</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__ICP_1acc50ba1552d8b26b6f1d005c9c37d7d9" kindref="member">MR.ICP.getFltSamplesCloud</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2188" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2188" bodyend="2191"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ICP_1a05575d29d7dc572d86ed8407ccfda8ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
+        <definition>unsafe MR.PointCloud MR.Const_ICP.getRefSamplesCloud</definition>
+        <argsstring>()</argsstring>
+        <name>getRefSamplesCloud</name>
+        <qualifiedname>MR.Const_ICP.getRefSamplesCloud</qualifiedname>
+        <briefdescription>
+<para>returns the samples on reference object in its local space, with normals if the object has them; i-th point of the cloud is the source of i-th pair in <ref refid="classMR_1_1Const__ICP_1a9475a4521a6429f4615e87572bc7ace6" kindref="member">getRef2FltPairs()</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__ICP_1a05575d29d7dc572d86ed8407ccfda8ed" kindref="member">MR.ICP.getRefSamplesCloud</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2198" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="2198" bodyend="2201"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
       <memberdef kind="function" id="classMR_1_1Const__ICP_1a2885ac72721e6d9d6b3d1d0e19940af9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -581,7 +611,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2186" column="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2206" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1a98cb51132fa57227e6ecb2b69c67dd67" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ICP._Underlying *</type>
@@ -603,7 +633,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2189" column="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2209" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1af00bcf0420ff8e91577638c800891ea1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ICP._Underlying *</type>
@@ -637,7 +667,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2192" column="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2212" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1aa9fc81d1a78470e063cadbe17e0db219" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ICP._Underlying *</type>
@@ -675,7 +705,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2195" column="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2215" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1ac10207a71136f2a8e6f105d2977c347f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ICP._Underlying *</type>
@@ -713,7 +743,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2198" column="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2218" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1a9471f8e09d2929d8c754a7ed6f9db197" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ICP._Underlying *</type>
@@ -743,7 +773,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2201" column="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2221" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1a7ce4e8b526d175e1e90438ba31d3d5a8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ICP._Underlying *</type>
@@ -773,7 +803,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2204" column="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2224" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1a0bd72f3ad4e0973990df8401d026509d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -791,7 +821,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2207" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2227" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1a0bea029946e6bee2b47fa6f2ad2ef9f2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Const_PointPairs._Underlying *</type>
@@ -809,7 +839,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2210" column="60"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2230" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ICP_1ab44fb52de036a22f45bef723bccd8936" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.PointCloud._Underlying *</type>
+        <definition>static unsafe MR.PointCloud._Underlying * MR.Const_ICP.__MR_ICP_getFltSamplesCloud</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_ICP_getFltSamplesCloud</name>
+        <qualifiedname>MR.Const_ICP.__MR_ICP_getFltSamplesCloud</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2233" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1a9067ceffbbd83df56b87e85c71437d7c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -827,7 +875,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2213" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2236" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1a40f87e9ea1b2a70058a4ca178c63cd95" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float</type>
@@ -845,7 +893,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2216" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2239" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1acb4544383939e0bb7bf1201e3479f7b0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -863,7 +911,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2219" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2242" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1a3ce1262e659c6181e0ba3a6a40f16cb6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe nuint</type>
@@ -881,7 +929,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2222" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2245" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1a99167e446f9c91337aaaaf0094db1b63" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Const_ICPProperties._Underlying *</type>
@@ -899,7 +947,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2225" column="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2248" column="63"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1a2ae1347b08fa4f14210e3bb0d2a6d2c4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Const_PointPairs._Underlying *</type>
@@ -917,7 +965,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2228" column="60"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2251" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ICP_1ab152c4deca1b5d66b049134b27ea3795" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.PointCloud._Underlying *</type>
+        <definition>static unsafe MR.PointCloud._Underlying * MR.Const_ICP.__MR_ICP_getRefSamplesCloud</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_ICP_getRefSamplesCloud</name>
+        <qualifiedname>MR.Const_ICP.__MR_ICP_getRefSamplesCloud</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2254" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1a808feafb846f60d6674e00174e9bc0bf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.String._Underlying *</type>
@@ -935,7 +1001,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2231" column="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2257" column="53"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -982,7 +1048,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1969" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1970" bodyend="2232"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1969" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1970" bodyend="2258"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__ICP_1a43c13e0d08af3ef2e22e9fde6478f6b2" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_Construct</name></member>
       <member refid="classMR_1_1Const__ICP_1af00bcf0420ff8e91577638c800891ea1" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_Construct_5</name></member>
@@ -993,12 +1059,14 @@
       <member refid="classMR_1_1Const__ICP_1a98cb51132fa57227e6ecb2b69c67dd67" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__ICP_1a0bd72f3ad4e0973990df8401d026509d" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_Destroy</name></member>
       <member refid="classMR_1_1Const__ICP_1a0bea029946e6bee2b47fa6f2ad2ef9f2" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_getFlt2RefPairs</name></member>
+      <member refid="classMR_1_1Const__ICP_1ab44fb52de036a22f45bef723bccd8936" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_getFltSamplesCloud</name></member>
       <member refid="classMR_1_1Const__ICP_1a9067ceffbbd83df56b87e85c71437d7c" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_getMeanSqDistToPlane</name></member>
       <member refid="classMR_1_1Const__ICP_1a40f87e9ea1b2a70058a4ca178c63cd95" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_getMeanSqDistToPoint</name></member>
       <member refid="classMR_1_1Const__ICP_1acb4544383939e0bb7bf1201e3479f7b0" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_getNumActivePairs</name></member>
       <member refid="classMR_1_1Const__ICP_1a3ce1262e659c6181e0ba3a6a40f16cb6" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_getNumSamples</name></member>
       <member refid="classMR_1_1Const__ICP_1a99167e446f9c91337aaaaf0094db1b63" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_getParams</name></member>
       <member refid="classMR_1_1Const__ICP_1a2ae1347b08fa4f14210e3bb0d2a6d2c4" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_getRef2FltPairs</name></member>
+      <member refid="classMR_1_1Const__ICP_1ab152c4deca1b5d66b049134b27ea3795" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_getRefSamplesCloud</name></member>
       <member refid="classMR_1_1Const__ICP_1a808feafb846f60d6674e00174e9bc0bf" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_getStatusInfo</name></member>
       <member refid="classMR_1_1Const__ICP_1ab603b5e56dcf99db5b753b78933dfabd" prot="package" virt="non-virtual"><scope>MR::Const_ICP</scope><name>Const_ICP</name></member>
       <member refid="classMR_1_1Const__ICP_1a961c5f91b15a68810f74575816e56681" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>Const_ICP</name></member>
@@ -1013,12 +1081,14 @@
       <member refid="classMR_1_1Const__ICP_1a18e996a748ba8e06e58ddfc34919d4f9" prot="protected" virt="virtual"><scope>MR::Const_ICP</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ICP_1a890e6b3bc494a5b4834c7935a4018f82" prot="public" virt="virtual"><scope>MR::Const_ICP</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ICP_1a05dbf3f2b64df3b8431e5104d5432f9c" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getFlt2RefPairs</name></member>
+      <member refid="classMR_1_1Const__ICP_1acc50ba1552d8b26b6f1d005c9c37d7d9" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getFltSamplesCloud</name></member>
       <member refid="classMR_1_1Const__ICP_1a5c8306778695bf55ac7849b7da18f407" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getMeanSqDistToPlane</name></member>
       <member refid="classMR_1_1Const__ICP_1a993bf9b5b54573888c0fb8463adb44d0" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getMeanSqDistToPoint</name></member>
       <member refid="classMR_1_1Const__ICP_1ad8e61a2723afb0bf47271ea8acad76b1" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getNumActivePairs</name></member>
       <member refid="classMR_1_1Const__ICP_1a3baa6f9cac2dfe5e582a7ac7a576a86f" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getNumSamples</name></member>
       <member refid="classMR_1_1Const__ICP_1a4f2d5578d6e08ec63100e0f35f919a97" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getParams</name></member>
       <member refid="classMR_1_1Const__ICP_1a9475a4521a6429f4615e87572bc7ace6" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getRef2FltPairs</name></member>
+      <member refid="classMR_1_1Const__ICP_1a05575d29d7dc572d86ed8407ccfda8ed" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getRefSamplesCloud</name></member>
       <member refid="classMR_1_1Const__ICP_1aecf1cb14aecbb61d3167462f1931f215" prot="public" virt="non-virtual"><scope>MR::Const_ICP</scope><name>getStatusInfo</name></member>
       <member refid="classMR_1_1Const__ICP_1a2885ac72721e6d9d6b3d1d0e19940af9" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>~Const_ICP</name></member>
     </listofallmembers>

@@ -1,5 +1,8 @@
 var NAVTREEINDEX177 =
 {
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#ac096b208fef74977e26073e7f2507f57":[9,2,2,0,0,0,0,2,434,21],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#ac56a6009198f591bf5cee164091aeb18":[9,2,2,0,0,0,0,2,434,17],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#ac6af6d9775997630018d8be1d93e6acf":[9,2,2,0,0,0,0,2,434,26],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#ac7a53f3cbcb579ca068bdaa22c2efe70":[9,2,2,0,0,0,0,2,434,22],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#ac9be6333237ff436c5c9a430b08bf1e8":[9,2,2,0,0,0,0,2,434,51],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#acbb3231229797eb0ac318212060894c7":[9,2,2,0,0,0,0,2,434,25],
@@ -246,8 +249,5 @@ var NAVTREEINDEX177 =
 "std__vector__MR__EdgeBitSet_8h.html#a3396a84b6d0deb4b5b4047404f3b4613":[9,2,2,0,0,0,0,2,438,5],
 "std__vector__MR__EdgeBitSet_8h.html#a3413c445d2b38bfae364af10c1c32c80":[9,2,2,0,0,0,0,2,438,39],
 "std__vector__MR__EdgeBitSet_8h.html#a34bc9f0cac3fd490d322261e826c2e38":[9,2,2,0,0,0,0,2,438,25],
-"std__vector__MR__EdgeBitSet_8h.html#a36f7d8f65bbf5703b28ca21639a31b54":[9,2,2,0,0,0,0,2,438,37],
-"std__vector__MR__EdgeBitSet_8h.html#a3bd4ad53d091089149a76a70614386ec":[9,2,2,0,0,0,0,2,438,11],
-"std__vector__MR__EdgeBitSet_8h.html#a3e7062a5259696fc064f7f582a68ebf5":[9,2,2,0,0,0,0,2,438,64],
-"std__vector__MR__EdgeBitSet_8h.html#a3fc3f8b1541e24bae6450e4632401a1b":[9,2,2,0,0,0,0,2,438,58]
+"std__vector__MR__EdgeBitSet_8h.html#a36f7d8f65bbf5703b28ca21639a31b54":[9,2,2,0,0,0,0,2,438,37]
 };

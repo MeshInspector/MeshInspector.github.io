@@ -17276,7 +17276,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="97" column="5" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="97" bodyend="-1"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="103" column="5" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga51c5c9bdf012ab12e360b5e161bb378e" prot="public" static="no">
         <type>std::function&lt; void(ObjId, MeshOrPoints::ProjectionResult)&gt;</type>
@@ -17291,7 +17291,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="126" column="1" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="126" bodyend="-1"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="132" column="1" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gacc39cd0582abbbb48612bd904fe74210" prot="public" static="no">
         <type>Vector&lt; MeshOrPointsXf, ObjId &gt;</type>
@@ -31465,7 +31465,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="24" column="14" bodyfile="MRMesh/MRICP.h" bodystart="24" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="25" column="14" bodyfile="MRMesh/MRICP.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga26326a83f053dc2e5ea6f564143ac410" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -31480,7 +31480,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="27" column="14" bodyfile="MRMesh/MRICP.h" bodystart="27" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="28" column="14" bodyfile="MRMesh/MRICP.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5a8aa18bdc6d6ceb392dafa06cbf3ba7" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -31495,7 +31495,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="30" column="14" bodyfile="MRMesh/MRICP.h" bodystart="30" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="31" column="14" bodyfile="MRMesh/MRICP.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7f615835e680ec678113e7e2367e3a09" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -31510,7 +31510,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="33" column="14" bodyfile="MRMesh/MRICP.h" bodystart="33" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="34" column="14" bodyfile="MRMesh/MRICP.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafe05b997a712f074a3053f11dab0a7eb" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -31526,7 +31526,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="36" column="11" bodyfile="MRMesh/MRICP.h" bodystart="36" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="37" column="11" bodyfile="MRMesh/MRICP.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacade73682f0a4e356ccf90131e1a5fa2" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -31542,7 +31542,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="39" column="11" bodyfile="MRMesh/MRICP.h" bodystart="39" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="40" column="11" bodyfile="MRMesh/MRICP.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0be978719b10258123e31ffe3413c532" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -31557,7 +31557,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="49" column="12" bodyfile="MRMesh/MRICP.h" bodystart="49" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="50" column="12" bodyfile="MRMesh/MRICP.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6e96779ac71de15fae84c9c1dee17cb7" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -31572,7 +31572,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="53" column="12" bodyfile="MRMesh/MRICP.h" bodystart="53" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="54" column="12" bodyfile="MRMesh/MRICP.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga087147661647b219169ee6e63da113fd" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -31588,7 +31588,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="56" column="11" bodyfile="MRMesh/MRICP.h" bodystart="56" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="57" column="11" bodyfile="MRMesh/MRICP.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae8d7edf5f01746179a2eb12b3e66b1d0" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -31604,7 +31604,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="59" column="10" bodyfile="MRMesh/MRICP.h" bodystart="59" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="60" column="10" bodyfile="MRMesh/MRICP.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab838ce7cceeb506514a4124c9587f032" prot="public" static="no" mutable="no">
         <type>BitSet</type>
@@ -31619,7 +31619,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="78" column="12" bodyfile="MRMesh/MRICP.h" bodystart="78" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="79" column="12" bodyfile="MRMesh/MRICP.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa5242248a93789d989a923092a5d7592" prot="public" static="no" mutable="no">
         <type>std::vector&lt; PointPair &gt;</type>
@@ -31634,7 +31634,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="86" column="17" bodyfile="MRMesh/MRICP.h" bodystart="86" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="87" column="17" bodyfile="MRMesh/MRICP.h" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafd716f4242e9554e7900e18a890be1fa" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -31649,7 +31649,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="97" column="9" bodyfile="MRMesh/MRICP.h" bodystart="97" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="98" column="9" bodyfile="MRMesh/MRICP.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gadab70c85e9a40a08c221e2a031274326" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -31664,7 +31664,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="98" column="12" bodyfile="MRMesh/MRICP.h" bodystart="98" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="99" column="12" bodyfile="MRMesh/MRICP.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaaebab641b9a81a0d03d0a64d155ea22f" prot="public" static="no" mutable="no">
         <type>ICPMethod</type>
@@ -31680,7 +31680,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="130" column="15" bodyfile="MRMesh/MRICP.h" bodystart="130" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="131" column="15" bodyfile="MRMesh/MRICP.h" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaea1145693fe2129927a24c786165f31f" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -31696,7 +31696,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="134" column="11" bodyfile="MRMesh/MRICP.h" bodystart="134" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="135" column="11" bodyfile="MRMesh/MRICP.h" bodystart="135" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf5cb06bed691cb37cc63ad3e96ebc6f2" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -31713,7 +31713,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="138" column="11" bodyfile="MRMesh/MRICP.h" bodystart="138" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="139" column="11" bodyfile="MRMesh/MRICP.h" bodystart="139" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga828450fb0e2950414bdd2ad602fd6b6c" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -31729,7 +31729,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="142" column="11" bodyfile="MRMesh/MRICP.h" bodystart="142" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="143" column="11" bodyfile="MRMesh/MRICP.h" bodystart="143" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga108845995db78805f41524217e474500" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -31745,7 +31745,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="147" column="11" bodyfile="MRMesh/MRICP.h" bodystart="147" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="148" column="11" bodyfile="MRMesh/MRICP.h" bodystart="148" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga43460c0d16c0f302226c8e09b6b98811" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -31762,7 +31762,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="152" column="11" bodyfile="MRMesh/MRICP.h" bodystart="152" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="153" column="11" bodyfile="MRMesh/MRICP.h" bodystart="153" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa4083e706852873ed258324b8d2b6626" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -31779,7 +31779,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="158" column="11" bodyfile="MRMesh/MRICP.h" bodystart="158" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="159" column="11" bodyfile="MRMesh/MRICP.h" bodystart="159" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga77f672ea419da2fb458fb981c25d5be2" prot="public" static="no" mutable="no">
         <type>ICPMode</type>
@@ -31796,7 +31796,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="162" column="13" bodyfile="MRMesh/MRICP.h" bodystart="162" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="163" column="13" bodyfile="MRMesh/MRICP.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1fe34b378f38697c828575c8204e7b57" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -31811,7 +31811,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="165" column="14" bodyfile="MRMesh/MRICP.h" bodystart="165" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="166" column="14" bodyfile="MRMesh/MRICP.h" bodystart="166" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4b5daff61d36ce0e211995eee0f2507f" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -31827,7 +31827,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="169" column="9" bodyfile="MRMesh/MRICP.h" bodystart="169" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="170" column="9" bodyfile="MRMesh/MRICP.h" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga242dd3555fcbbe8a0857210ed77ff1fe" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -31843,7 +31843,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="173" column="9" bodyfile="MRMesh/MRICP.h" bodystart="173" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="174" column="9" bodyfile="MRMesh/MRICP.h" bodystart="174" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafe075e9e4944999f30c142f357d071d7" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -31859,7 +31859,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="177" column="11" bodyfile="MRMesh/MRICP.h" bodystart="177" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="178" column="11" bodyfile="MRMesh/MRICP.h" bodystart="178" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga229d248012276b39cb1c7102f4184f4c" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -31876,7 +31876,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="181" column="10" bodyfile="MRMesh/MRICP.h" bodystart="181" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="182" column="10" bodyfile="MRMesh/MRICP.h" bodystart="182" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8efa777933097be92b2e442ee0962d0c" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -31892,7 +31892,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="184" column="10" bodyfile="MRMesh/MRICP.h" bodystart="184" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="185" column="10" bodyfile="MRMesh/MRICP.h" bodystart="185" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga65fa806f871737d772315ea28a9de0ce" prot="public" static="no" mutable="no">
         <type>const MeshOrPointsXf &amp;</type>
@@ -31906,7 +31906,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="211" column="60" bodyfile="MRMesh/MRICP.h" bodystart="211" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="212" column="60" bodyfile="MRMesh/MRICP.h" bodystart="212" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaebf36c716f0957f8e60b7b84df532ccf" prot="public" static="no" mutable="no">
         <type>const MeshOrPointsXf const VertBitSet &amp;</type>
@@ -31921,7 +31921,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="211" column="81" bodyfile="MRMesh/MRICP.h" bodystart="211" bodyend="211"/>
+        <location file="MRMesh/MRICP.h" line="212" column="81" bodyfile="MRMesh/MRICP.h" bodystart="212" bodyend="212"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga886c36f8281c5a2a8181e4042a51366d" prot="public" static="no" mutable="no">
         <type>const MeshOrPointsXf const VertBitSet const VertBitSet &amp;</type>
@@ -31936,7 +31936,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="211" column="110" bodyfile="MRMesh/MRICP.h" bodystart="211" bodyend="211"/>
+        <location file="MRMesh/MRICP.h" line="212" column="110" bodyfile="MRMesh/MRICP.h" bodystart="212" bodyend="212"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaabd0ec37eec618bd9268a836dd613d9c" prot="public" static="no" mutable="no">
         <type>const MeshOrPointsXf const std::vector&lt; WeightedVertexf &gt; &amp;</type>
@@ -31950,7 +31950,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="217" column="82" bodyfile="MRMesh/MRICP.h" bodystart="217" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="218" column="82" bodyfile="MRMesh/MRICP.h" bodystart="218" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae0fc293d759e349e030e83f637b6673e" prot="public" static="no" mutable="no">
         <type>const MeshOrPointsXf const std::vector&lt; WeightedVertexf &gt; const std::vector&lt; WeightedVertexf &gt; &amp;</type>
@@ -31964,7 +31964,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="217" column="111" bodyfile="MRMesh/MRICP.h" bodystart="217" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="218" column="111" bodyfile="MRMesh/MRICP.h" bodystart="218" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafabb42cb0c084223533a643bb600e0c4" prot="public" static="no" mutable="no">
         <type>const MeshOrPointsXf float</type>
@@ -31978,7 +31978,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="228" column="70" bodyfile="MRMesh/MRICP.h" bodystart="228" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="229" column="70" bodyfile="MRMesh/MRICP.h" bodystart="229" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab6fc4b50aa9caa98755ba4e1b62e3f2d" prot="private" static="no" mutable="no">
         <type>MeshOrPointsXf</type>
@@ -31992,7 +31992,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="296" column="20" bodyfile="MRMesh/MRICP.h" bodystart="296" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="305" column="20" bodyfile="MRMesh/MRICP.h" bodystart="305" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4b0a185c72915330bc57a2aa250e5bd8" prot="private" static="no" mutable="no">
         <type>MeshOrPointsXf</type>
@@ -32006,7 +32006,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="297" column="20" bodyfile="MRMesh/MRICP.h" bodystart="297" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="306" column="20" bodyfile="MRMesh/MRICP.h" bodystart="306" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7548578d38592d23a3c0058a10c5ca86" prot="private" static="no" mutable="no">
         <type>ICPProperties</type>
@@ -32020,7 +32020,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="299" column="19" bodyfile="MRMesh/MRICP.h" bodystart="299" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="308" column="19" bodyfile="MRMesh/MRICP.h" bodystart="308" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac9ea5c5be89d6d0ac867a3c800b3d576" prot="private" static="no" mutable="no">
         <type>PointPairs</type>
@@ -32034,7 +32034,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="301" column="16" bodyfile="MRMesh/MRICP.h" bodystart="301" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="310" column="16" bodyfile="MRMesh/MRICP.h" bodystart="310" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaba64c8a5a357b2f567a3318251ca1efc" prot="private" static="no" mutable="no">
         <type>PointPairs</type>
@@ -32048,7 +32048,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="302" column="16" bodyfile="MRMesh/MRICP.h" bodystart="302" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="311" column="16" bodyfile="MRMesh/MRICP.h" bodystart="311" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaabb907b9fe22046611ad6261575d9282" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; PointCloud &gt;</type>
@@ -32063,7 +32063,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="305" column="21" bodyfile="MRMesh/MRICP.h" bodystart="305" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="314" column="21" bodyfile="MRMesh/MRICP.h" bodystart="314" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2ddb4bf28f18ebfa84539617a8f16e83" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; PointCloud &gt;</type>
@@ -32077,7 +32077,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="306" column="21" bodyfile="MRMesh/MRICP.h" bodystart="306" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="315" column="21" bodyfile="MRMesh/MRICP.h" bodystart="315" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga875ef39dad82165cac8ec237876a1b5c" prot="private" static="no" mutable="no">
         <type>ICPExitType</type>
@@ -32092,7 +32092,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="308" column="17" bodyfile="MRMesh/MRICP.h" bodystart="308" bodyend="308"/>
+        <location file="MRMesh/MRICP.h" line="317" column="17" bodyfile="MRMesh/MRICP.h" bodystart="317" bodyend="317"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa764e0eb401923bc323db14e29174fc6" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -32107,7 +32107,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="313" column="9" bodyfile="MRMesh/MRICP.h" bodystart="313" bodyend="-1"/>
+        <location file="MRMesh/MRICP.h" line="322" column="9" bodyfile="MRMesh/MRICP.h" bodystart="322" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab442087e0c922ef9c3246e9c1bd35bec" prot="private" static="no" mutable="no">
         <type>ValueType</type>
@@ -36475,7 +36475,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="74" column="18" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="74" bodyend="-1"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="80" column="18" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1da43d795c49a78d26d63c9f1f90bdae" prot="public" static="no" mutable="no">
         <type>std::optional&lt; Vector3f &gt;</type>
@@ -36490,7 +36490,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="78" column="23" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="78" bodyend="-1"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="84" column="23" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac1e15a8f200cad28d7b9d7c56757eee4" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -36506,7 +36506,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="81" column="14" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="81" bodyend="-1"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="87" column="14" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab04e26fe4503fb08898aaeccad548f71" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -36522,7 +36522,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="84" column="15" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="84" bodyend="-1"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="90" column="15" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacd151f3c2558f8dc870aa2172d32a00e" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -36537,7 +36537,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="88" column="16" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="88" bodyend="-1"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="94" column="16" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf2ba45f302b3ec1eb683fd80dee114cc" prot="private" static="no" mutable="no">
         <type>std::variant&lt; MeshPart, PointCloudPart &gt;</type>
@@ -36551,7 +36551,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="104" column="18" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="104" bodyend="-1"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="110" column="18" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="110" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga64a929bd548c696b451590ec6b2465bb" prot="public" static="no" mutable="no">
         <type>MeshOrPoints</type>
@@ -36565,7 +36565,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="110" column="18" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="110" bodyend="-1"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="116" column="18" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafea52861c699700de59ff6307740c6b7" prot="public" static="no" mutable="no">
         <type>AffineXf3f</type>
@@ -36579,7 +36579,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="111" column="16" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="111" bodyend="-1"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="117" column="16" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf9aa4d4c9090c0bf06c81836cb73cd67" prot="private" static="no" mutable="no">
         <type>std::variant&lt; ObjectMesh *, ObjectPoints * &gt;</type>
@@ -73758,7 +73758,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="41" column="17"/>
+        <location file="MRMesh/MRICP.h" line="42" column="17"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1ga5f761c6549a8d74c43a943993e9f7426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -73778,7 +73778,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="61" column="17"/>
+        <location file="MRMesh/MRICP.h" line="62" column="17"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1ga0fe6b707b49d42eb921bab61a351f02f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>NumSum</type>
@@ -73800,7 +73800,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="100" column="19" bodyfile="MRMesh/MRICP.h" bodystart="100" bodyend="100"/>
+        <location file="MRMesh/MRICP.h" line="101" column="19" bodyfile="MRMesh/MRICP.h" bodystart="101" bodyend="101"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1ga5dc2100d7d78aa2c5c2326d5f29e3e07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::ostream &amp;</type>
@@ -103506,7 +103506,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="68" column="5"/>
+        <location file="MRMesh/MRICP.h" line="69" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3fcd8de5d97b49b84e9c984b494f10dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -103523,7 +103523,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="69" column="5"/>
+        <location file="MRMesh/MRICP.h" line="70" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabb689ad7795aaeb7236800bec89a0cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>IPointPairs &amp;</type>
@@ -103540,7 +103540,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="70" column="17"/>
+        <location file="MRMesh/MRICP.h" line="71" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga995abf137ecf1f8e0771844779cc9405" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -103557,7 +103557,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="71" column="5"/>
+        <location file="MRMesh/MRICP.h" line="72" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab45a73b14fac3dc080a3e99e4070de26" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type>IPointPairs &amp;</type>
@@ -103574,7 +103574,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="72" column="17"/>
+        <location file="MRMesh/MRICP.h" line="73" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae584abe0ef15be5d6f3fc244f176751b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -103588,7 +103588,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="73" column="13"/>
+        <location file="MRMesh/MRICP.h" line="74" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3dd0343a154cad09f33735a106dcc64b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>const ICPPairData &amp;</type>
@@ -103607,7 +103607,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="75" column="31"/>
+        <location file="MRMesh/MRICP.h" line="76" column="31"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafcac114c6d43447ea0cae96eb9270de8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>ICPPairData &amp;</type>
@@ -103626,7 +103626,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="76" column="25"/>
+        <location file="MRMesh/MRICP.h" line="77" column="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga21b4f073206e446af1e8c0c8895e56a8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>size_t</type>
@@ -103642,7 +103642,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="77" column="20"/>
+        <location file="MRMesh/MRICP.h" line="78" column="20"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab99f3e132fe375fd87cd27dafb991537" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>const ICPPairData &amp;</type>
@@ -103661,7 +103661,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="83" column="31" bodyfile="MRMesh/MRICP.h" bodystart="83" bodyend="83"/>
+        <location file="MRMesh/MRICP.h" line="84" column="31" bodyfile="MRMesh/MRICP.h" bodystart="84" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf0bfe85ad789f3bba2ddfb104733e314" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>ICPPairData &amp;</type>
@@ -103680,7 +103680,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="84" column="25" bodyfile="MRMesh/MRICP.h" bodystart="84" bodyend="84"/>
+        <location file="MRMesh/MRICP.h" line="85" column="25" bodyfile="MRMesh/MRICP.h" bodystart="85" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga57a171fbd5024682750b723475ed0c7b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -103695,7 +103695,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="85" column="20" bodyfile="MRMesh/MRICP.h" bodystart="85" bodyend="85"/>
+        <location file="MRMesh/MRICP.h" line="86" column="20" bodyfile="MRMesh/MRICP.h" bodystart="86" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6bc994c1ebf7a119332f7d7a212cdd5e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -103714,7 +103714,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="90" column="16" bodyfile="MRMesh/MRICP.h" bodystart="90" bodyend="90"/>
+        <location file="MRMesh/MRICP.h" line="91" column="16" bodyfile="MRMesh/MRICP.h" bodystart="91" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2a5d3a2f7c92a6b8c0c35cd269530356" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -103733,7 +103733,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="93" column="10" declfile="MRMesh/MRICP.h" declline="93" declcolumn="10"/>
+        <location file="MRMesh/MRICP.h" line="94" column="10" declfile="MRMesh/MRICP.h" declline="94" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6e4c85d138945344d45fda05ab558710" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -103747,7 +103747,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="102" column="12" bodyfile="MRMesh/MRICP.h" bodystart="102" bodyend="102"/>
+        <location file="MRMesh/MRICP.h" line="103" column="12" bodyfile="MRMesh/MRICP.h" bodystart="103" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2390825211c2304048bd52145af1b176" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>NumSum</type>
@@ -103771,7 +103771,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="107" column="10" declfile="MRMesh/MRICP.h" declline="107" declcolumn="10"/>
+        <location file="MRMesh/MRICP.h" line="108" column="10" declfile="MRMesh/MRICP.h" declline="108" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacb20afcbbb9d7555d6abbdc5e3b50a7e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>NumSum</type>
@@ -103795,7 +103795,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="111" column="10" declfile="MRMesh/MRICP.h" declline="111" declcolumn="10"/>
+        <location file="MRMesh/MRICP.h" line="112" column="10" declfile="MRMesh/MRICP.h" declline="112" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8fac39607138c4e9d594cffbdf5f28d7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -103814,7 +103814,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="114" column="15" bodyfile="MRMesh/MRICP.h" bodystart="114" bodyend="114"/>
+        <location file="MRMesh/MRICP.h" line="115" column="15" bodyfile="MRMesh/MRICP.h" bodystart="115" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2f004671404b2a06e56c484d5e5a3e40" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -103833,7 +103833,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="117" column="15" bodyfile="MRMesh/MRICP.h" bodystart="117" bodyend="117"/>
+        <location file="MRMesh/MRICP.h" line="118" column="15" bodyfile="MRMesh/MRICP.h" bodystart="118" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga906c4c943a7359b75228e06b81ce6e11" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -103856,7 +103856,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="120" column="15" declfile="MRMesh/MRICP.h" declline="120" declcolumn="15"/>
+        <location file="MRMesh/MRICP.h" line="121" column="15" declfile="MRMesh/MRICP.h" declline="121" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab9437f710e465bc98981efae3890aee0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>AffineXf3d</type>
@@ -103891,7 +103891,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="123" column="14" declfile="MRMesh/MRICP.h" declline="123" declcolumn="14"/>
+        <location file="MRMesh/MRICP.h" line="124" column="14" declfile="MRMesh/MRICP.h" declline="124" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9381989fd9c2bfbded47dacbf86d0aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -103914,7 +103914,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="188" column="9" declfile="MRMesh/MRICP.h" declline="188" declcolumn="9"/>
+        <location file="MRMesh/MRICP.h" line="189" column="9" declfile="MRMesh/MRICP.h" declline="189" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1301b1c633de237705ebc76fcbd215df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -103957,7 +103957,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="191" column="7" declfile="MRMesh/MRICP.h" declline="191" declcolumn="7"/>
+        <location file="MRMesh/MRICP.h" line="192" column="7" declfile="MRMesh/MRICP.h" declline="192" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -104047,7 +104047,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="209" column="5" bodyfile="MRMesh/MRICP.h" bodystart="209" bodyend="210"/>
+        <location file="MRMesh/MRICP.h" line="210" column="5" bodyfile="MRMesh/MRICP.h" bodystart="210" bodyend="211"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad91f5ed97435e251629b58c1d4d48ebe" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
         <type></type>
@@ -104064,7 +104064,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="211" column="5"/>
+        <location file="MRMesh/MRICP.h" line="212" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga95a8266663f52f5442b8b30c105495e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -104103,7 +104103,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="215" column="5" bodyfile="MRMesh/MRICP.h" bodystart="215" bodyend="216"/>
+        <location file="MRMesh/MRICP.h" line="216" column="5" bodyfile="MRMesh/MRICP.h" bodystart="216" bodyend="217"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf4e277621b4076612a9c2c951ecd5615" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
         <type></type>
@@ -104120,7 +104120,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="217" column="5"/>
+        <location file="MRMesh/MRICP.h" line="218" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga78b77e51102c8f0da1a67c2f90dd0449" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -104196,7 +104196,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="226" column="6" bodyfile="MRMesh/MRICP.h" bodystart="226" bodyend="227"/>
+        <location file="MRMesh/MRICP.h" line="227" column="6" bodyfile="MRMesh/MRICP.h" bodystart="227" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5b060cd68f7edaee14673276f8b3c42a" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
         <type></type>
@@ -104210,7 +104210,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="228" column="5"/>
+        <location file="MRMesh/MRICP.h" line="229" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga432cc96b69c08b035a5c6bf6bf8919da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -104229,7 +104229,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="231" column="10" bodyfile="MRMesh/MRICP.h" bodystart="231" bodyend="231"/>
+        <location file="MRMesh/MRICP.h" line="232" column="10" bodyfile="MRMesh/MRICP.h" bodystart="232" bodyend="232"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga529477c3f55443aaefc9c0feedd0a100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104247,7 +104247,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="232" column="11"/>
+        <location file="MRMesh/MRICP.h" line="233" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad23d220ed5d22716a483aba0bdb8fb98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104265,7 +104265,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="233" column="11"/>
+        <location file="MRMesh/MRICP.h" line="234" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga88482e98d2aeaf3ce210222c82b564c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104283,7 +104283,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="234" column="11"/>
+        <location file="MRMesh/MRICP.h" line="235" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6fcc01ef678556ea9ba8a4afdb839374" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104301,7 +104301,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="235" column="11"/>
+        <location file="MRMesh/MRICP.h" line="236" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa6195ab12431f72e5d49e783f2411c81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104329,7 +104329,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="242" column="11"/>
+        <location file="MRMesh/MRICP.h" line="243" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab34beaf329dc6198fe7d028dd9ddccbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104352,7 +104352,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="243" column="11"/>
+        <location file="MRMesh/MRICP.h" line="244" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga033946f0665c58cf3f65b7bdd9732679" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104371,7 +104371,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="246" column="11"/>
+        <location file="MRMesh/MRICP.h" line="247" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafc0b8391f6d7cff0770e87055906cf2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104394,7 +104394,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="247" column="11"/>
+        <location file="MRMesh/MRICP.h" line="248" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga64b2b6e88452dd7ef588e0f2533beeee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -104418,7 +104418,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="250" column="10" bodyfile="MRMesh/MRICP.h" bodystart="250" bodyend="251"/>
+        <location file="MRMesh/MRICP.h" line="251" column="10" bodyfile="MRMesh/MRICP.h" bodystart="251" bodyend="252"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabd481b32d31b8f82a05f815143b28820" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE void</type>
@@ -104436,7 +104436,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="253" column="26" bodyfile="MRMesh/MRICP.h" bodystart="253" bodyend="253"/>
+        <location file="MRMesh/MRICP.h" line="254" column="26" bodyfile="MRMesh/MRICP.h" bodystart="254" bodyend="254"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac6e52fe345c88a831ba23619cd352e47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104459,7 +104459,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="256" column="11"/>
+        <location file="MRMesh/MRICP.h" line="257" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5202fb23e45467915bb51d0923b9caaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104478,7 +104478,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="259" column="11"/>
+        <location file="MRMesh/MRICP.h" line="260" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae6979d6159d128afbd42cd9efe9774ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>AffineXf3f</type>
@@ -104493,7 +104493,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="264" column="17"/>
+        <location file="MRMesh/MRICP.h" line="265" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafd50cf7357b6599704f31b3c1dcde7ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104508,7 +104508,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="267" column="11"/>
+        <location file="MRMesh/MRICP.h" line="268" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3b44361c18aeb9ceab9d26c86c5939ef" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const ICPProperties &amp;</type>
@@ -104522,7 +104522,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="269" column="26" bodyfile="MRMesh/MRICP.h" bodystart="269" bodyend="269"/>
+        <location file="MRMesh/MRICP.h" line="270" column="26" bodyfile="MRMesh/MRICP.h" bodystart="270" bodyend="270"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4ae3f70fc9c4fc7ffbcdb0f43eae2421" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -104536,7 +104536,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="271" column="19"/>
+        <location file="MRMesh/MRICP.h" line="272" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga13f3b74f82ce6db64eeb57d6a5c043e5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -104552,7 +104552,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="274" column="13" bodyfile="MRMesh/MRICP.h" bodystart="274" bodyend="274"/>
+        <location file="MRMesh/MRICP.h" line="275" column="13" bodyfile="MRMesh/MRICP.h" bodystart="275" bodyend="275"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga65b7b6725dccffc2b4ed1ff739c1b43c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -104567,7 +104567,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="277" column="13" bodyfile="MRMesh/MRICP.h" bodystart="277" bodyend="277"/>
+        <location file="MRMesh/MRICP.h" line="278" column="13" bodyfile="MRMesh/MRICP.h" bodystart="278" bodyend="278"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadd96602ef2f4214943001ed7d428f400" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -104582,7 +104582,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="280" column="13"/>
+        <location file="MRMesh/MRICP.h" line="281" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadfc6f0e8d0d390d67b27d3182f5dfd51" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -104597,7 +104597,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="283" column="13"/>
+        <location file="MRMesh/MRICP.h" line="284" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga615de191aaa0811f84bcd43de0798d0d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const PointPairs &amp;</type>
@@ -104612,7 +104612,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="286" column="24" bodyfile="MRMesh/MRICP.h" bodystart="286" bodyend="286"/>
+        <location file="MRMesh/MRICP.h" line="287" column="24" bodyfile="MRMesh/MRICP.h" bodystart="287" bodyend="287"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5ae6b714ad76474375e6365bb6a882a6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const PointPairs &amp;</type>
@@ -104627,7 +104627,37 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="289" column="24" bodyfile="MRMesh/MRICP.h" bodystart="289" bodyend="289"/>
+        <location file="MRMesh/MRICP.h" line="290" column="24" bodyfile="MRMesh/MRICP.h" bodystart="290" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaba21f4a51a548428b37dc92f13188bed" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>PointCloud</type>
+        <definition>PointCloud MR::ICP::getFltSamplesCloud</definition>
+        <argsstring>() const</argsstring>
+        <name>getFltSamplesCloud</name>
+        <qualifiedname>MR::ICP::getFltSamplesCloud</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the samples on floating object in its local space, with normals if the object has them; i-th point of the cloud is the source of i-th pair in <ref refid="group__GeneralGroup_1ga615de191aaa0811f84bcd43de0798d0d" kindref="member">getFlt2RefPairs()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRICP.h" line="294" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gab898a956031fcc7b71e2207779144aef" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>PointCloud</type>
+        <definition>PointCloud MR::ICP::getRefSamplesCloud</definition>
+        <argsstring>() const</argsstring>
+        <name>getRefSamplesCloud</name>
+        <qualifiedname>MR::ICP::getRefSamplesCloud</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the samples on reference object in its local space, with normals if the object has them; i-th point of the cloud is the source of i-th pair in <ref refid="group__GeneralGroup_1ga5ae6b714ad76474375e6365bb6a882a6" kindref="member">getRef2FltPairs()</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRICP.h" line="298" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf4d26a79ea3d3839ee76658eda157b6f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>AffineXf3f</type>
@@ -104644,7 +104674,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="293" column="18"/>
+        <location file="MRMesh/MRICP.h" line="302" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa8b47068555e697a4aa11d9d09b42d48" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104659,7 +104689,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="311" column="10"/>
+        <location file="MRMesh/MRICP.h" line="320" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga07fa3e5142a0e6d3bfdd592d7a04eb8a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -104673,7 +104703,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="314" column="10"/>
+        <location file="MRMesh/MRICP.h" line="323" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga14578981138986a9062afaaa0424635e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -104687,7 +104717,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="315" column="10"/>
+        <location file="MRMesh/MRICP.h" line="324" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga22fe04dcfe683298b72ffe3e5609fa3a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104709,7 +104739,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="317" column="10"/>
+        <location file="MRMesh/MRICP.h" line="326" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf5bac876a2c70d546bd3172d0c819ced" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104723,7 +104753,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="318" column="10"/>
+        <location file="MRMesh/MRICP.h" line="327" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga59fb7b1c85f1d625049062ede2237ed4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104737,7 +104767,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="319" column="10"/>
+        <location file="MRMesh/MRICP.h" line="328" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2919e6c1f1b78a1b0e6e9513744013bd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -104751,7 +104781,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="320" column="10"/>
+        <location file="MRMesh/MRICP.h" line="329" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab0e4ef6dbed8084af5b947ea4f8152e4" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>constexpr</type>
@@ -117235,7 +117265,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="23" column="5" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="23" bodyend="23"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="24" column="5" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="24" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1ef5bfca52ac8e1892322d7cf4585b5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -117253,7 +117283,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="24" column="5" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="24" bodyend="24"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="25" column="5" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="25" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf9cbf91d93d22bcc4e487a573b2b8067" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -117272,7 +117302,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="27" column="5" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="27" bodyend="27"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="28" column="5" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="28" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabe1af15504d425b2e6633291ccae6828" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -117290,7 +117320,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="28" column="5" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="28" bodyend="28"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="29" column="5" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="29" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga058b67c8a42bd8837a6bbe4be06bd4cf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const MeshPart *</type>
@@ -117305,7 +117335,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="31" column="21" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="156" bodyend="162"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="32" column="21" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="162" bodyend="168"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga309a7ce32b89e73177a05d07a93d3103" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const PointCloudPart *</type>
@@ -117320,7 +117350,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="34" column="27" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="164" bodyend="170"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="35" column="27" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="170" bodyend="176"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga95332399d23d48455d443fe886e2d182" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Box3f</type>
@@ -117335,7 +117365,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="38" column="13"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="39" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga53548c1592a1cf4ca3d5ada70ea4b2b4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -117350,7 +117380,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="41" column="11"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="42" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae39e25d2f6a1e52e1f3d0a95a1169d0e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Box3f</type>
@@ -117370,7 +117400,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="45" column="13"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="46" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga16a856ae65c5d9209685c97037e9af9a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -117394,7 +117424,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="48" column="11"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="49" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3b2775877211c45066393b07b37cda63" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; VertBitSet &gt;</type>
@@ -117432,7 +117462,30 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="55" column="21"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="56" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaab6678f9beb50335d2ae11772ce80c28" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>VertBitSet</type>
+        <definition>VertBitSet MR::MeshOrPoints::surfaceGridSampling</definition>
+        <argsstring>(float voxelSize, std::shared_ptr&lt; PointCloud &gt; &amp;cloud) const</argsstring>
+        <name>surfaceGridSampling</name>
+        <qualifiedname>MR::MeshOrPoints::surfaceGridSampling</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; PointCloud &gt; &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>performs grid sampling as pointsGridSampling, but a mesh with triangles too big for the sampling is sampled from its dense point cloud (see meshToDensePointCloud) returned in (cloud) with <ref refid="structMR_1_1Mesh_1a0362095ba2aeef52de9f42ffa78756a0" kindref="member">Mesh::pseudonormal</ref> in every point, and then the ids refer to the points of that cloud; otherwise (cloud) is reset and the ids refer to the points of this object </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshOrPoints.h" line="62" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga449336329b4606d9496c0291e7d86419" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const VertCoords &amp;</type>
@@ -117447,7 +117500,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="59" column="25"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="65" column="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab3512b34b63e78729e1b0a920c815092" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const VertBitSet &amp;</type>
@@ -117462,7 +117515,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="62" column="24"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="68" column="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga85e8e11b8e3e8fe593d22d8639a8efaf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::function&lt; Vector3f(VertId)&gt;</type>
@@ -117477,7 +117530,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="65" column="21"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="71" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae604be3427d8215284155fd6fe154f08" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::function&lt; float(VertId)&gt;</type>
@@ -117492,7 +117545,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="69" column="21"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="75" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad96f5e58f9ab65b5b186ccd7d330c64d" prot="public" static="no" nodiscard="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -117506,7 +117559,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="90" column="19" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="90" bodyend="90"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="96" column="19" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="96" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga799a4d75cde699ab800ef755c3201cf6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -117520,7 +117573,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="91" column="15" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="91" bodyend="91"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="97" column="15" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="97" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3c922a641e90d28cb3f15ae22be9e9ab" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::function&lt; ProjectionResult(const Vector3f &amp;)&gt;</type>
@@ -117535,7 +117588,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="95" column="21"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="101" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac3df7c9f813232be1ba7ffbb861f6728" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>LimitedProjectorFunc</type>
@@ -117550,7 +117603,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="101" column="28"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="107" column="28"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa954d0a246cd2230883502c00689e25b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::function&lt; MeshOrPoints::ProjectionResult(const Vector3f &amp;)&gt;</type>
@@ -117565,7 +117618,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="114" column="21"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="120" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0d7468f56842cdd248afdc82b07e6d29" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>MeshOrPoints::LimitedProjectorFunc</type>
@@ -117580,7 +117633,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="118" column="42"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="124" column="42"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacce53a7adfbc5a9d74d90df2d92b4abe" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; MeshOrPoints &gt;</type>
@@ -117599,7 +117652,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="122" column="17" declfile="MRMesh/MRMeshOrPoints.h" declline="122" declcolumn="17"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="128" column="17" declfile="MRMesh/MRMeshOrPoints.h" declline="128" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae2003372e3c109e622d0a728cd5deaf9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; MeshOrPointsXf &gt;</type>
@@ -117617,7 +117670,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="123" column="17" declfile="MRMesh/MRMeshOrPoints.h" declline="123" declcolumn="17"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="129" column="17" declfile="MRMesh/MRMeshOrPoints.h" declline="129" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga935f4bd296bc132f4fa4525ef92a4d56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -117662,7 +117715,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="129" column="7" declfile="MRMesh/MRMeshOrPoints.h" declline="129" declcolumn="7"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="135" column="7" declfile="MRMesh/MRMeshOrPoints.h" declline="135" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1cee1396ff421f318ed16ffb3a40bcb3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MeshOrPoints::ProjectionResult</type>
@@ -117685,7 +117738,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="137" column="40" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="137" bodyend="143"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="143" column="40" bodyfile="MRMesh/MRMeshOrPoints.h" bodystart="143" bodyend="149"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga59ffc7bf41b2002b89e68d941a46b0c1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshOrPoints::ProjectionResult</type>
@@ -117719,7 +117772,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshOrPoints.h" line="149" column="34" declfile="MRMesh/MRMeshOrPoints.h" declline="149" declcolumn="34"/>
+        <location file="MRMesh/MRMeshOrPoints.h" line="155" column="34" declfile="MRMesh/MRMeshOrPoints.h" declline="155" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac8508f73963cbf0f41996e64e54b0024" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
