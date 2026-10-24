@@ -32,20 +32,32 @@
         <childnode refid="38" relation="include">
         </childnode>
       </node>
+      <node id="92">
+        <label>MRAllocator.h</label>
+        <link refid="MRAllocator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+      </node>
       <node id="91">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
         <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="92" relation="include">
+        <childnode refid="94" relation="include">
         </childnode>
         <childnode refid="88" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="93" relation="include">
+        <childnode refid="95" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
@@ -142,7 +154,7 @@
         <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="94">
+      <node id="96">
         <label>MRHeapBytes.h</label>
         <link refid="MRHeapBytes_8h"/>
         <childnode refid="6" relation="include">
@@ -208,7 +220,7 @@
         <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="96">
+      <node id="98">
         <label>MRImage.h</label>
         <link refid="MRImage_8h"/>
         <childnode refid="42" relation="include">
@@ -217,7 +229,7 @@
         </childnode>
         <childnode refid="84" relation="include">
         </childnode>
-        <childnode refid="94" relation="include">
+        <childnode refid="96" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
@@ -286,10 +298,10 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="95">
+      <node id="97">
         <label>MRMeshTexture.h</label>
         <link refid="MRMeshTexture_8h"/>
-        <childnode refid="96" relation="include">
+        <childnode refid="98" relation="include">
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
@@ -361,9 +373,9 @@
         </childnode>
         <childnode refid="87" relation="include">
         </childnode>
-        <childnode refid="94" relation="include">
+        <childnode refid="96" relation="include">
         </childnode>
-        <childnode refid="95" relation="include">
+        <childnode refid="97" relation="include">
         </childnode>
       </node>
       <node id="41">
@@ -655,7 +667,7 @@
         </childnode>
         <childnode refid="70" relation="include">
         </childnode>
-        <childnode refid="97" relation="include">
+        <childnode refid="99" relation="include">
         </childnode>
         <childnode refid="65" relation="include">
         </childnode>
@@ -768,7 +780,7 @@
         <label>config.h</label>
         <link refid="MRViewer_2config_8h"/>
       </node>
-      <node id="97">
+      <node id="99">
         <label>MRMesh/MRphmap.h</label>
       </node>
       <node id="10">
@@ -783,7 +795,7 @@
       <node id="69">
         <label>MRViewer/MRGladGlfw.h</label>
       </node>
-      <node id="92">
+      <node id="94">
         <label>MRphmap.h</label>
       </node>
       <node id="23">
@@ -792,7 +804,7 @@
       <node id="11">
         <label>array</label>
       </node>
-      <node id="93">
+      <node id="95">
         <label>atomic</label>
       </node>
       <node id="29">
@@ -845,6 +857,9 @@
       </node>
       <node id="48">
         <label>memory</label>
+      </node>
+      <node id="93">
+        <label>mimalloc.h</label>
       </node>
       <node id="58">
         <label>optional</label>

@@ -1,7 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"classMR_1_1Const__BitSet_1_1Counts.html#a255185c6b0b702f9d29ce2bebd1b13fc":[9,3,0,0,0,268,1,2],
-"classMR_1_1Const__BitSet_1_1Counts.html#a4cebf276bdd8f31fafd2797a892a3096":[9,3,0,0,0,268,1,4],
 "classMR_1_1Const__BitSet_1_1Counts.html#a51b8fc42ba00e61473dfc46027dcf742":[9,3,0,0,0,268,1,6],
 "classMR_1_1Const__BitSet_1_1Counts.html#a5f6779ab0ce18ffa1afa012fa1942975":[9,3,0,0,0,268,1,3],
 "classMR_1_1Const__BitSet_1_1Counts.html#ac7c3b50380e98d4542d2c1005700ab1e":[9,3,0,0,0,268,1,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX34 =
 "classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html#aa86ceb5f77f0c122dd2cd30b3e66634d":[9,3,0,0,0,292,8],
 "classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html#aae8d2c1e838234221daf3d072d05c853":[9,3,0,0,0,292,2],
 "classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html#ab1ac3cf16405c9a85be4471d0a1e41e3":[9,3,0,0,0,292,3],
-"classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html#abe991d09d95a76d3463b64e03dd42c52":[9,3,0,0,0,292,12]
+"classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html#abe991d09d95a76d3463b64e03dd42c52":[9,3,0,0,0,292,12],
+"classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html#ad331ca867d9bcfa9e90dff8865b4ddcd":[9,3,0,0,0,292,13],
+"classMR_1_1Const__Buffer__MRFaceId__MRFaceId.html#ae06333b536316fce6cfb9a4ef2e12efe":[9,3,0,0,0,292,1]
 };

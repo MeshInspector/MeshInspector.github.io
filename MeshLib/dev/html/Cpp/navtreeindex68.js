@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1MultiRayMeshIntersectResult.html#a9a3654ac0ded1bdf4d07ac43e5c5e085":[9,0,0,1,20,4],
+"structMR_1_1MultiRayMeshIntersectResult.html#ab49b37818f779af102184978ebe758fc":[9,0,0,1,20,2],
+"structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15":[9,0,0,1,20,1],
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html":[9,0,0,0,8,0,0],
 "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b":[9,0,0,0,8,0,0,1],
 "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136":[9,0,0,0,8,0,0,0],
 "structMR_1_1MultiwayICPSamplingParameters.html":[9,0,0,20,393],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1PolylineToDistanceVolumeParams.html":[9,0,0,20,889],
 "structMR_1_1PolylineToVolumeParams.html":[9,0,0,20,890],
 "structMR_1_1PolylineTraits.html":[9,0,0,1,8],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[9,0,0,1,9],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[9,0,0,1,9,0],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[9,0,0,1,10],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[9,0,0,1,10,0],
-"structMR_1_1Polynomial.html":[9,0,0,20,135]
+"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[9,0,0,1,9]
 };
