@@ -1067,6 +1067,7 @@ var namespaceMR =
     [ "AffineXf2OrPlaceholder", "group__GeneralGroup.html#ga3f1bf05cffb6426258d558c4159e11bc", null ],
     [ "AffineXf3", "group__GeneralGroup.html#gac964d34e63e2bd23c8ab1e4cea68ae71", null ],
     [ "AffineXf3OrPlaceholder", "group__GeneralGroup.html#gae2856f9003f11adc4d85d9befcb2f442", null ],
+    [ "Allocator", "group__GeneralGroup.html#gae52f88b1bf8c3f6f4be260612d836725", null ],
     [ "AllVisualizeProperties", "group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f", null ],
     [ "Ball1", "group__GeneralGroup.html#ga6b2740bc7a2aefd66a0f1aa6d5411fb3", null ],
     [ "Ball2", "group__GeneralGroup.html#ga576c35058503c0c22a7d4e8846efd1b6", null ],

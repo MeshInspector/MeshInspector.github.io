@@ -28,11 +28,11 @@
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
@@ -61,6 +61,16 @@
         <childnode refid="28" relation="include">
         </childnode>
       </node>
+      <node id="38">
+        <label>MRAllocator.h</label>
+        <link refid="MRAllocator_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
       <node id="37">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
@@ -68,19 +78,21 @@
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
         </childnode>
         <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
       </node>
       <node id="13">
@@ -89,7 +101,7 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="44">
+      <node id="46">
         <label>MRCloudPartMapping.h</label>
         <link refid="MRCloudPartMapping_8h"/>
         <childnode refid="11" relation="include">
@@ -121,7 +133,7 @@
         <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="41">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="11" relation="include">
@@ -139,16 +151,16 @@
         <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="48">
         <label>MRMesh/MRLoadedObjects.h</label>
         <link refid="MRLoadedObjects_8h"/>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
         <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -204,12 +216,12 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="45">
+      <node id="47">
         <label>MRMesh/MRPointsLoadSettings.h</label>
         <link refid="MRPointsLoadSettings_8h"/>
         <childnode refid="11" relation="include">
@@ -225,7 +237,7 @@
         <childnode refid="36" relation="include">
         </childnode>
       </node>
-      <node id="42">
+      <node id="45">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="11" relation="include">
@@ -234,19 +246,19 @@
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="49">
         <label>MRUnitInfo.h</label>
         <link refid="MRUnitInfo_8h"/>
-        <childnode refid="48" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
       <node id="8">
@@ -311,7 +323,7 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="50">
         <label>MRVectorTraits.h</label>
         <link refid="MRMesh_2MRVectorTraits_8h"/>
         <childnode refid="11" relation="include">
@@ -331,7 +343,7 @@
       <node id="32">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="39">
+      <node id="42">
         <label>MRphmap.h</label>
       </node>
       <node id="23">
@@ -340,7 +352,7 @@
       <node id="15">
         <label>array</label>
       </node>
-      <node id="40">
+      <node id="43">
         <label>atomic</label>
       </node>
       <node id="21">
@@ -364,7 +376,7 @@
       <node id="3">
         <label>exports.h</label>
       </node>
-      <node id="50">
+      <node id="52">
         <label>filesystem</label>
       </node>
       <node id="19">
@@ -373,13 +385,16 @@
       <node id="26">
         <label>iosfwd</label>
       </node>
-      <node id="41">
+      <node id="44">
         <label>iterator</label>
       </node>
-      <node id="43">
+      <node id="39">
         <label>memory</label>
       </node>
-      <node id="49">
+      <node id="40">
+        <label>mimalloc.h</label>
+      </node>
+      <node id="51">
         <label>optional</label>
       </node>
       <node id="18">

@@ -6,6 +6,16 @@
     <includes refid="MRMinMaxArg_8h" local="yes">MRMinMaxArg.h</includes>
     <includes refid="MRBitSet_8h" local="yes">MRBitSet.h</includes>
     <incdepgraph>
+      <node id="32">
+        <label>MRAllocator.h</label>
+        <link refid="MRAllocator_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
       <node id="31">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
@@ -15,6 +25,8 @@
         </childnode>
         <childnode refid="35" relation="include">
         </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
         <childnode refid="26" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
@@ -23,9 +35,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
       </node>
       <node id="12">
@@ -42,7 +54,7 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="35">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="9" relation="include">
@@ -53,9 +65,9 @@
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -194,7 +206,7 @@
       <node id="7">
         <label>MRPch/MRTBB.h</label>
       </node>
-      <node id="35">
+      <node id="38">
         <label>MRphmap.h</label>
       </node>
       <node id="14">
@@ -212,7 +224,7 @@
       <node id="28">
         <label>concepts</label>
       </node>
-      <node id="33">
+      <node id="36">
         <label>cstddef</label>
       </node>
       <node id="18">
@@ -221,14 +233,20 @@
       <node id="4">
         <label>functional</label>
       </node>
-      <node id="36">
+      <node id="39">
         <label>iosfwd</label>
       </node>
-      <node id="37">
+      <node id="40">
         <label>iterator</label>
       </node>
       <node id="30">
         <label>limits</label>
+      </node>
+      <node id="33">
+        <label>memory</label>
+      </node>
+      <node id="34">
+        <label>mimalloc.h</label>
       </node>
       <node id="24">
         <label>optional</label>
@@ -245,7 +263,7 @@
       <node id="21">
         <label>tuple</label>
       </node>
-      <node id="34">
+      <node id="37">
         <label>type_traits</label>
       </node>
       <node id="5">
