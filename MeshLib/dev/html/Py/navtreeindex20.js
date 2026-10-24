@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classmrmeshpy_1_1CurvePoint.html#a1d6e4c070a71aeee55539390231cd8d0":[9,1,0,0,2,193,5],
+"classmrmeshpy_1_1CurvePoint.html#a1d6e4c070a71aeee55539390231cd8d0":[9,1,1,0,1,193,5],
 "classmrmeshpy_1_1CurvePoint.html#a2756f92d9e7081e63ec5e5af492d3638":[9,1,0,0,2,193,8],
 "classmrmeshpy_1_1CurvePoint.html#a2756f92d9e7081e63ec5e5af492d3638":[9,1,1,0,1,193,8],
 "classmrmeshpy_1_1CurvePoint.html#a3995e1696f7809e35b92bb9e2864ba02":[9,1,0,0,2,193,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classmrmeshpy_1_1DecimatePolylineResult.html#ad521b16cfeb877a7e727b009848030a8":[9,1,0,0,2,202,3],
 "classmrmeshpy_1_1DecimatePolylineResult.html#ad521b16cfeb877a7e727b009848030a8":[9,1,1,0,1,202,3],
 "classmrmeshpy_1_1DecimatePolylineResult.html#adf5b213c3a7aa27f31f35e37f1ad2837":[9,1,0,0,2,202,4],
-"classmrmeshpy_1_1DecimatePolylineResult.html#adf5b213c3a7aa27f31f35e37f1ad2837":[9,1,1,0,1,202,4],
-"classmrmeshpy_1_1DecimatePolylineResult.html#aebd6a5d97460cd2621c69014b1b69965":[9,1,0,0,2,202,6],
-"classmrmeshpy_1_1DecimatePolylineResult.html#aebd6a5d97460cd2621c69014b1b69965":[9,1,1,0,1,202,6]
+"classmrmeshpy_1_1DecimatePolylineResult.html#adf5b213c3a7aa27f31f35e37f1ad2837":[9,1,1,0,1,202,4]
 };
