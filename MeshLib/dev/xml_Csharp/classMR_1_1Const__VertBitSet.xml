@@ -462,14 +462,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="1404" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="1404" bodyend="1407"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertBitSet_1ab4d8faad1468e57f95b3ce7eafe88222" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertBitSet_1a68ca073d4903195871f261e54ec63539" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
         <definition>unsafe MR.VertBitSet MR.Const_VertBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId map)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertId map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_VertBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertId</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -504,14 +504,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="1420" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="1420" bodyend="1423"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertBitSet_1a3e21002aa46112b07668d4ef8be8cc72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertBitSet_1a46c474587c185e1d261a3a4810d56c67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
         <definition>unsafe MR.VertBitSet MR.Const_VertBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId map, nuint resSize)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertId map, nuint resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_VertBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertId</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1465,18 +1465,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="1697" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertBitSet_1a9912d40ab0381097467a7a12ab3f8cf0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertBitSet_1af6ea50712ac9d173908550682e11ed19" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertBitSet._Underlying *</type>
-        <definition>static unsafe MR.VertBitSet._Underlying * MR.Const_VertBitSet.__MR_VertBitSet_getMapping_1_phmap_flat_hash_map_MR_VertId_MR_VertId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId._Underlying *map)</argsstring>
-        <name>__MR_VertBitSet_getMapping_1_phmap_flat_hash_map_MR_VertId_MR_VertId</name>
-        <qualifiedname>MR.Const_VertBitSet.__MR_VertBitSet_getMapping_1_phmap_flat_hash_map_MR_VertId_MR_VertId</qualifiedname>
+        <definition>static unsafe MR.VertBitSet._Underlying * MR.Const_VertBitSet.__MR_VertBitSet_getMapping_1_phmap_flat_hash_map_MR_VertId_MR_VertId_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_MR_VertId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertId._Underlying *map)</argsstring>
+        <name>__MR_VertBitSet_getMapping_1_phmap_flat_hash_map_MR_VertId_MR_VertId_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_MR_VertId</name>
+        <qualifiedname>MR.Const_VertBitSet.__MR_VertBitSet_getMapping_1_phmap_flat_hash_map_MR_VertId_MR_VertId_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_MR_VertId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertId._Underlying *</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -1513,18 +1513,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="1703" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertBitSet_1abc2aa4b4a8e95906291a82c7b4374aac" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertBitSet_1a5cf76347406b9cc9b8e223c8ab78af34" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertBitSet._Underlying *</type>
-        <definition>static unsafe MR.VertBitSet._Underlying * MR.Const_VertBitSet.__MR_VertBitSet_getMapping_2_phmap_flat_hash_map_MR_VertId_MR_VertId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId._Underlying *map, nuint resSize)</argsstring>
-        <name>__MR_VertBitSet_getMapping_2_phmap_flat_hash_map_MR_VertId_MR_VertId</name>
-        <qualifiedname>MR.Const_VertBitSet.__MR_VertBitSet_getMapping_2_phmap_flat_hash_map_MR_VertId_MR_VertId</qualifiedname>
+        <definition>static unsafe MR.VertBitSet._Underlying * MR.Const_VertBitSet.__MR_VertBitSet_getMapping_2_phmap_flat_hash_map_MR_VertId_MR_VertId_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_MR_VertId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertId._Underlying *map, nuint resSize)</argsstring>
+        <name>__MR_VertBitSet_getMapping_2_phmap_flat_hash_map_MR_VertId_MR_VertId_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_MR_VertId</name>
+        <qualifiedname>MR.Const_VertBitSet.__MR_VertBitSet_getMapping_2_phmap_flat_hash_map_MR_VertId_MR_VertId_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_MR_VertId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertId._Underlying *</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1950,9 +1950,9 @@
       <member refid="classMR_1_1Const__VertBitSet_1a0fe836e1f932170482bd89ef1d436dce" prot="private" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>__MR_VertBitSet_Get_npos</name></member>
       <member refid="classMR_1_1Const__VertBitSet_1a851d840f2f5eeb5a41e5de4e8f722e56" prot="private" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>__MR_VertBitSet_getMapping_1_MR_VertBMap</name></member>
       <member refid="classMR_1_1Const__VertBitSet_1a9a2494e34ae04fdaa8bf6c43f656cbfc" prot="private" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>__MR_VertBitSet_getMapping_1_MR_VertMap</name></member>
-      <member refid="classMR_1_1Const__VertBitSet_1a9912d40ab0381097467a7a12ab3f8cf0" prot="private" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>__MR_VertBitSet_getMapping_1_phmap_flat_hash_map_MR_VertId_MR_VertId</name></member>
+      <member refid="classMR_1_1Const__VertBitSet_1af6ea50712ac9d173908550682e11ed19" prot="private" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>__MR_VertBitSet_getMapping_1_phmap_flat_hash_map_MR_VertId_MR_VertId_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_MR_VertId</name></member>
       <member refid="classMR_1_1Const__VertBitSet_1a25a73971ddba925a0eaa9bcafd86a348" prot="private" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>__MR_VertBitSet_getMapping_2_MR_VertMap</name></member>
-      <member refid="classMR_1_1Const__VertBitSet_1abc2aa4b4a8e95906291a82c7b4374aac" prot="private" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>__MR_VertBitSet_getMapping_2_phmap_flat_hash_map_MR_VertId_MR_VertId</name></member>
+      <member refid="classMR_1_1Const__VertBitSet_1a5cf76347406b9cc9b8e223c8ab78af34" prot="private" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>__MR_VertBitSet_getMapping_2_phmap_flat_hash_map_MR_VertId_MR_VertId_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_MR_VertId</name></member>
       <member refid="classMR_1_1Const__VertBitSet_1a24e8410175cfaf5d25c8d608de7a5473" prot="private" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>__MR_VertBitSet_heapBytes</name></member>
       <member refid="classMR_1_1Const__VertBitSet_1a51b3839dcd408c9bdb880fbd00ae85a4" prot="private" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>__MR_VertBitSet_intersects</name></member>
       <member refid="classMR_1_1Const__VertBitSet_1a275903b654563b1d1bdcc1e9c0283d3f" prot="private" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>__MR_VertBitSet_is_subset_of</name></member>
@@ -1999,9 +1999,9 @@
       <member refid="classMR_1_1Const__VertBitSet_1a56dbd43088caa6c38251a3f18f376105" prot="private" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__VertBitSet_1ad09d09f1b96333030c45feed8afa99a3" prot="public" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__VertBitSet_1ada83c9fe39f080c688208222b3454cd4" prot="public" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__VertBitSet_1ab4d8faad1468e57f95b3ce7eafe88222" prot="public" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__VertBitSet_1a68ca073d4903195871f261e54ec63539" prot="public" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__VertBitSet_1a42a4c2ee50467d1ded0264be9e417b10" prot="public" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__VertBitSet_1a3e21002aa46112b07668d4ef8be8cc72" prot="public" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__VertBitSet_1a46c474587c185e1d261a3a4810d56c67" prot="public" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__VertBitSet_1a14516cb723dd0ec2a3a74c2efd4bd073" prot="public" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__VertBitSet_1a9fd4d760bd36e67d6fd9a098f56a4b5a" prot="public" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1Const__VertBitSet_1aa65d312729c3ca3d6c085c00d812d5b1" prot="public" virt="non-virtual"><scope>MR::Const_VertBitSet</scope><name>isSubsetOf</name></member>

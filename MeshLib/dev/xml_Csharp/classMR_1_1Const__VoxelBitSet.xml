@@ -461,14 +461,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5860" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5860" bodyend="5863"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1aeb8622d978bef1a68fafafe13ba6a8c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1ab8053d2f32db9c9420b1b3f142d6191a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
         <definition>unsafe MR.VoxelBitSet MR.Const_VoxelBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId map)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId_PhmapHashMRVoxelId_PhmapEqualToMRVoxelId_MRAllocatorStdPairConstMRVoxelIdMRVoxelId map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_VoxelBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId_PhmapHashMRVoxelId_PhmapEqualToMRVoxelId_MRAllocatorStdPairConstMRVoxelIdMRVoxelId</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -503,14 +503,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5876" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="5876" bodyend="5879"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a93f4a53f28df295d61471f0c2ea6bd89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a3f408c7c60d9915ccbd89e34e224d63f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
         <definition>unsafe MR.VoxelBitSet MR.Const_VoxelBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId map, nuint resSize)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId_PhmapHashMRVoxelId_PhmapEqualToMRVoxelId_MRAllocatorStdPairConstMRVoxelIdMRVoxelId map, nuint resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_VoxelBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId_PhmapHashMRVoxelId_PhmapEqualToMRVoxelId_MRAllocatorStdPairConstMRVoxelIdMRVoxelId</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1383,18 +1383,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6122" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a818d08a93f215f06ac405993c94cde79" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a84bb8054524d911750697c74fcdf192d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VoxelBitSet._Underlying *</type>
-        <definition>static unsafe MR.VoxelBitSet._Underlying * MR.Const_VoxelBitSet.__MR_VoxelBitSet_getMapping_1_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId._Underlying *map)</argsstring>
-        <name>__MR_VoxelBitSet_getMapping_1_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</name>
-        <qualifiedname>MR.Const_VoxelBitSet.__MR_VoxelBitSet_getMapping_1_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</qualifiedname>
+        <definition>static unsafe MR.VoxelBitSet._Underlying * MR.Const_VoxelBitSet.__MR_VoxelBitSet_getMapping_1_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_phmap_Hash_MR_VoxelId_phmap_EqualTo_MR_VoxelId_MR_Allocator_std_pair_const_MR_VoxelId_MR_VoxelId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId_PhmapHashMRVoxelId_PhmapEqualToMRVoxelId_MRAllocatorStdPairConstMRVoxelIdMRVoxelId._Underlying *map)</argsstring>
+        <name>__MR_VoxelBitSet_getMapping_1_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_phmap_Hash_MR_VoxelId_phmap_EqualTo_MR_VoxelId_MR_Allocator_std_pair_const_MR_VoxelId_MR_VoxelId</name>
+        <qualifiedname>MR.Const_VoxelBitSet.__MR_VoxelBitSet_getMapping_1_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_phmap_Hash_MR_VoxelId_phmap_EqualTo_MR_VoxelId_MR_Allocator_std_pair_const_MR_VoxelId_MR_VoxelId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId_PhmapHashMRVoxelId_PhmapEqualToMRVoxelId_MRAllocatorStdPairConstMRVoxelIdMRVoxelId._Underlying *</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -1431,18 +1431,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6128" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1ad9ad32d9f09652c16e2e1bcc74f0f30d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelBitSet_1a54edf7d4be8778f5c37ea71c491fc8d7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VoxelBitSet._Underlying *</type>
-        <definition>static unsafe MR.VoxelBitSet._Underlying * MR.Const_VoxelBitSet.__MR_VoxelBitSet_getMapping_2_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId._Underlying *map, nuint resSize)</argsstring>
-        <name>__MR_VoxelBitSet_getMapping_2_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</name>
-        <qualifiedname>MR.Const_VoxelBitSet.__MR_VoxelBitSet_getMapping_2_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</qualifiedname>
+        <definition>static unsafe MR.VoxelBitSet._Underlying * MR.Const_VoxelBitSet.__MR_VoxelBitSet_getMapping_2_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_phmap_Hash_MR_VoxelId_phmap_EqualTo_MR_VoxelId_MR_Allocator_std_pair_const_MR_VoxelId_MR_VoxelId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId_PhmapHashMRVoxelId_PhmapEqualToMRVoxelId_MRAllocatorStdPairConstMRVoxelIdMRVoxelId._Underlying *map, nuint resSize)</argsstring>
+        <name>__MR_VoxelBitSet_getMapping_2_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_phmap_Hash_MR_VoxelId_phmap_EqualTo_MR_VoxelId_MR_Allocator_std_pair_const_MR_VoxelId_MR_VoxelId</name>
+        <qualifiedname>MR.Const_VoxelBitSet.__MR_VoxelBitSet_getMapping_2_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_phmap_Hash_MR_VoxelId_phmap_EqualTo_MR_VoxelId_MR_Allocator_std_pair_const_MR_VoxelId_MR_VoxelId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRVoxelId_MRVoxelId_PhmapHashMRVoxelId_PhmapEqualToMRVoxelId_MRAllocatorStdPairConstMRVoxelIdMRVoxelId._Underlying *</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1835,9 +1835,9 @@
       <member refid="classMR_1_1Const__VoxelBitSet_1a8a4c6008851e8bd7e00f7f565abccf0b" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>__MR_VoxelBitSet_Get_npos</name></member>
       <member refid="classMR_1_1Const__VoxelBitSet_1ac9bc4f5cdc2fe46dd217d6a82939918f" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>__MR_VoxelBitSet_getMapping_1_MR_BMap_MR_VoxelId_MR_VoxelId</name></member>
       <member refid="classMR_1_1Const__VoxelBitSet_1abd6ec3d26d204f70218750a4b5f3a4ed" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>__MR_VoxelBitSet_getMapping_1_MR_Vector_MR_VoxelId_MR_VoxelId</name></member>
-      <member refid="classMR_1_1Const__VoxelBitSet_1a818d08a93f215f06ac405993c94cde79" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>__MR_VoxelBitSet_getMapping_1_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a84bb8054524d911750697c74fcdf192d" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>__MR_VoxelBitSet_getMapping_1_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_phmap_Hash_MR_VoxelId_phmap_EqualTo_MR_VoxelId_MR_Allocator_std_pair_const_MR_VoxelId_MR_VoxelId</name></member>
       <member refid="classMR_1_1Const__VoxelBitSet_1a86e4b85c4418241f69329b22e92bb7c2" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>__MR_VoxelBitSet_getMapping_2_MR_Vector_MR_VoxelId_MR_VoxelId</name></member>
-      <member refid="classMR_1_1Const__VoxelBitSet_1ad9ad32d9f09652c16e2e1bcc74f0f30d" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>__MR_VoxelBitSet_getMapping_2_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a54edf7d4be8778f5c37ea71c491fc8d7" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>__MR_VoxelBitSet_getMapping_2_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_phmap_Hash_MR_VoxelId_phmap_EqualTo_MR_VoxelId_MR_Allocator_std_pair_const_MR_VoxelId_MR_VoxelId</name></member>
       <member refid="classMR_1_1Const__VoxelBitSet_1ad648d26f6ed9b98366ef260835e11dd2" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>__MR_VoxelBitSet_heapBytes</name></member>
       <member refid="classMR_1_1Const__VoxelBitSet_1a55dcfa5323860219fc704d4b02a420b8" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>__MR_VoxelBitSet_intersects</name></member>
       <member refid="classMR_1_1Const__VoxelBitSet_1a96b207fd58e38b06cdf4bcc8cdca99e9" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>__MR_VoxelBitSet_is_subset_of</name></member>
@@ -1882,9 +1882,9 @@
       <member refid="classMR_1_1Const__VoxelBitSet_1ab7bb53ae062c810a2150db0f47a2032a" prot="private" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__VoxelBitSet_1afc47ad5a31dcee608c8926853741dd2b" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__VoxelBitSet_1aa2c5918d769527a4c08da27c30f98f65" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__VoxelBitSet_1aeb8622d978bef1a68fafafe13ba6a8c4" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1ab8053d2f32db9c9420b1b3f142d6191a" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__VoxelBitSet_1a4516d121ee76232629fe3b5c2e3245f3" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__VoxelBitSet_1a93f4a53f28df295d61471f0c2ea6bd89" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__VoxelBitSet_1a3f408c7c60d9915ccbd89e34e224d63f" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__VoxelBitSet_1a878929c91328ab62547d66a91c6c9e8c" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__VoxelBitSet_1a0b3522f54cdd74a72044a0b79c6e4241" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1Const__VoxelBitSet_1a63c95e040ce8ea1cd1fb9e7c64f97ca9" prot="public" virt="non-virtual"><scope>MR::Const_VoxelBitSet</scope><name>isSubsetOf</name></member>

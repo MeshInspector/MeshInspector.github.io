@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a070e3745f221b7c9a9778fa12a2d0a06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the map is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97038" bodyend="97041"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a330480141c44358b357bc6828e24a9fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__contains__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97043" bodyend="97044"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a544befb03913e67e4d10a8a5e6462731" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__contains__</definition>
+        <argsstring>(self, typing.Any arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97046" bodyend="97047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1ada71998531587ba9dd723b8aa251ee9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97048" bodyend="97049"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1acce75ad0e822e0f035b1aa4d32adb00f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3i" kindref="compound">Box3i</ref></type>
+        <definition> Box3i mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97050" bodyend="97051"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1ab332ff47fd1038f6e847b3553c7a42be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97053" bodyend="97054"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a048ef3c62512484f0cf0e6f68e04d225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__init__</definition>
+        <argsstring>(self, phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24" kindref="compound">phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97056" bodyend="97057"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a08595aee2968acccd823c246a2f25281" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[int]</type>
+        <definition> typing.Iterator[int] mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97058" bodyend="97059"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a6e6a3f8a818047614c6bc4f726807800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97060" bodyend="97061"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a086243e2f3d7f05920f46390a5a7d617" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97062" bodyend="97065"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1ac89dd66c9853e3d28bec2268b282cd63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__setitem__</definition>
+        <argsstring>(self, int arg0, Box3i arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box3i" kindref="compound">Box3i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97066" bodyend="97067"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a322fb9cf37a47f3fe20b602f422650a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ItemsView</type>
+        <definition> typing.ItemsView mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.items</definition>
+        <argsstring>(self)</argsstring>
+        <name>items</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.items</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97068" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97068" bodyend="97069"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a6775877c61790a835d5388cc4e4d80f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.KeysView</type>
+        <definition> typing.KeysView mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.keys</definition>
+        <argsstring>(self)</argsstring>
+        <name>keys</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.keys</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97070" bodyend="97071"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a87ca1e002cff6d91a2a330f7f25b391d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97072" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97072" bodyend="97073"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a1bfcbe6b261b65f94861ddebfa9ecb47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ValuesView</type>
+        <definition> typing.ValuesView mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.values</definition>
+        <argsstring>(self)</argsstring>
+        <name>values</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int.values</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97074" bodyend="97075"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  phmap_flat_hash_map_int_Box3i_phmap_Hash_int32_t_phmap_EqualTo_int_Allocator_std_pair_const_int_Box3i
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97034" bodyend="97075"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a070e3745f221b7c9a9778fa12a2d0a06" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a330480141c44358b357bc6828e24a9fb" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a544befb03913e67e4d10a8a5e6462731" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1ada71998531587ba9dd723b8aa251ee9b" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1acce75ad0e822e0f035b1aa4d32adb00f" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1ab332ff47fd1038f6e847b3553c7a42be" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a048ef3c62512484f0cf0e6f68e04d225" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a08595aee2968acccd823c246a2f25281" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a6e6a3f8a818047614c6bc4f726807800" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a086243e2f3d7f05920f46390a5a7d617" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1ac89dd66c9853e3d28bec2268b282cd63" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a322fb9cf37a47f3fe20b602f422650a7" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>items</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a6775877c61790a835d5388cc4e4d80f2" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>keys</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a87ca1e002cff6d91a2a330f7f25b391d" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int__phmap__Hash__int__phmap__EqualTe2fe8e435124f1c67a9db90506557d24_1a1bfcbe6b261b65f94861ddebfa9ecb47" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_int_Box_Vector3_int_phmap_Hash_int_phmap_EqualTo_int_Allocator_std_pair_int_const_Box_Vector3_int</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -461,14 +461,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9157" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9157" bodyend="9160"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjBitSet_1a6b8c2274979ba0707a51045a1ec51d51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__ObjBitSet_1ab653fba40f00a8167df3993c592d3451" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
         <definition>unsafe MR.ObjBitSet MR.Const_ObjBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId map)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId_PhmapHashMRObjId_PhmapEqualToMRObjId_MRAllocatorStdPairConstMRObjIdMRObjId map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_ObjBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId_PhmapHashMRObjId_PhmapEqualToMRObjId_MRAllocatorStdPairConstMRObjIdMRObjId</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -503,14 +503,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9173" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="9173" bodyend="9176"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjBitSet_1ad929ff378b3522172d5fe8469ddc8506" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__ObjBitSet_1a1c3e3ea1bb3d62a37bc2bf1de706fa5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
         <definition>unsafe MR.ObjBitSet MR.Const_ObjBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId map, nuint resSize)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId_PhmapHashMRObjId_PhmapEqualToMRObjId_MRAllocatorStdPairConstMRObjIdMRObjId map, nuint resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_ObjBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId_PhmapHashMRObjId_PhmapEqualToMRObjId_MRAllocatorStdPairConstMRObjIdMRObjId</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1383,18 +1383,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9419" column="53"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjBitSet_1a8d4cb0e38ece38d5b615be939d11c6b8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__ObjBitSet_1a1743c7c972760ca32e3ca57591c7de37" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ObjBitSet._Underlying *</type>
-        <definition>static unsafe MR.ObjBitSet._Underlying * MR.Const_ObjBitSet.__MR_ObjBitSet_getMapping_1_phmap_flat_hash_map_MR_ObjId_MR_ObjId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId._Underlying *map)</argsstring>
-        <name>__MR_ObjBitSet_getMapping_1_phmap_flat_hash_map_MR_ObjId_MR_ObjId</name>
-        <qualifiedname>MR.Const_ObjBitSet.__MR_ObjBitSet_getMapping_1_phmap_flat_hash_map_MR_ObjId_MR_ObjId</qualifiedname>
+        <definition>static unsafe MR.ObjBitSet._Underlying * MR.Const_ObjBitSet.__MR_ObjBitSet_getMapping_1_phmap_flat_hash_map_MR_ObjId_MR_ObjId_phmap_Hash_MR_ObjId_phmap_EqualTo_MR_ObjId_MR_Allocator_std_pair_const_MR_ObjId_MR_ObjId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId_PhmapHashMRObjId_PhmapEqualToMRObjId_MRAllocatorStdPairConstMRObjIdMRObjId._Underlying *map)</argsstring>
+        <name>__MR_ObjBitSet_getMapping_1_phmap_flat_hash_map_MR_ObjId_MR_ObjId_phmap_Hash_MR_ObjId_phmap_EqualTo_MR_ObjId_MR_Allocator_std_pair_const_MR_ObjId_MR_ObjId</name>
+        <qualifiedname>MR.Const_ObjBitSet.__MR_ObjBitSet_getMapping_1_phmap_flat_hash_map_MR_ObjId_MR_ObjId_phmap_Hash_MR_ObjId_phmap_EqualTo_MR_ObjId_MR_Allocator_std_pair_const_MR_ObjId_MR_ObjId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId_PhmapHashMRObjId_PhmapEqualToMRObjId_MRAllocatorStdPairConstMRObjIdMRObjId._Underlying *</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -1431,18 +1431,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9425" column="53"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ObjBitSet_1a5365c17f25726a0d85af8394419fcf75" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__ObjBitSet_1af9404e7e5d5106c7defbd2a32b7b28b1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ObjBitSet._Underlying *</type>
-        <definition>static unsafe MR.ObjBitSet._Underlying * MR.Const_ObjBitSet.__MR_ObjBitSet_getMapping_2_phmap_flat_hash_map_MR_ObjId_MR_ObjId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId._Underlying *map, nuint resSize)</argsstring>
-        <name>__MR_ObjBitSet_getMapping_2_phmap_flat_hash_map_MR_ObjId_MR_ObjId</name>
-        <qualifiedname>MR.Const_ObjBitSet.__MR_ObjBitSet_getMapping_2_phmap_flat_hash_map_MR_ObjId_MR_ObjId</qualifiedname>
+        <definition>static unsafe MR.ObjBitSet._Underlying * MR.Const_ObjBitSet.__MR_ObjBitSet_getMapping_2_phmap_flat_hash_map_MR_ObjId_MR_ObjId_phmap_Hash_MR_ObjId_phmap_EqualTo_MR_ObjId_MR_Allocator_std_pair_const_MR_ObjId_MR_ObjId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId_PhmapHashMRObjId_PhmapEqualToMRObjId_MRAllocatorStdPairConstMRObjIdMRObjId._Underlying *map, nuint resSize)</argsstring>
+        <name>__MR_ObjBitSet_getMapping_2_phmap_flat_hash_map_MR_ObjId_MR_ObjId_phmap_Hash_MR_ObjId_phmap_EqualTo_MR_ObjId_MR_Allocator_std_pair_const_MR_ObjId_MR_ObjId</name>
+        <qualifiedname>MR.Const_ObjBitSet.__MR_ObjBitSet_getMapping_2_phmap_flat_hash_map_MR_ObjId_MR_ObjId_phmap_Hash_MR_ObjId_phmap_EqualTo_MR_ObjId_MR_Allocator_std_pair_const_MR_ObjId_MR_ObjId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRObjId_MRObjId_PhmapHashMRObjId_PhmapEqualToMRObjId_MRAllocatorStdPairConstMRObjIdMRObjId._Underlying *</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1834,9 +1834,9 @@
       <member refid="classMR_1_1Const__ObjBitSet_1a88f0473efa3f49ea6863c2504f5a46f6" prot="private" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>__MR_ObjBitSet_Get_npos</name></member>
       <member refid="classMR_1_1Const__ObjBitSet_1ac9aa5d79795413417e904c2df631626f" prot="private" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>__MR_ObjBitSet_getMapping_1_MR_BMap_MR_ObjId_MR_ObjId</name></member>
       <member refid="classMR_1_1Const__ObjBitSet_1ade765a1c046ea0237d3f03b5c79c3284" prot="private" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>__MR_ObjBitSet_getMapping_1_MR_ObjMap</name></member>
-      <member refid="classMR_1_1Const__ObjBitSet_1a8d4cb0e38ece38d5b615be939d11c6b8" prot="private" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>__MR_ObjBitSet_getMapping_1_phmap_flat_hash_map_MR_ObjId_MR_ObjId</name></member>
+      <member refid="classMR_1_1Const__ObjBitSet_1a1743c7c972760ca32e3ca57591c7de37" prot="private" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>__MR_ObjBitSet_getMapping_1_phmap_flat_hash_map_MR_ObjId_MR_ObjId_phmap_Hash_MR_ObjId_phmap_EqualTo_MR_ObjId_MR_Allocator_std_pair_const_MR_ObjId_MR_ObjId</name></member>
       <member refid="classMR_1_1Const__ObjBitSet_1aaf0c250cc41e81353f234b3aa7fc574f" prot="private" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>__MR_ObjBitSet_getMapping_2_MR_ObjMap</name></member>
-      <member refid="classMR_1_1Const__ObjBitSet_1a5365c17f25726a0d85af8394419fcf75" prot="private" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>__MR_ObjBitSet_getMapping_2_phmap_flat_hash_map_MR_ObjId_MR_ObjId</name></member>
+      <member refid="classMR_1_1Const__ObjBitSet_1af9404e7e5d5106c7defbd2a32b7b28b1" prot="private" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>__MR_ObjBitSet_getMapping_2_phmap_flat_hash_map_MR_ObjId_MR_ObjId_phmap_Hash_MR_ObjId_phmap_EqualTo_MR_ObjId_MR_Allocator_std_pair_const_MR_ObjId_MR_ObjId</name></member>
       <member refid="classMR_1_1Const__ObjBitSet_1a3a27de20130c491601819f57ee01f923" prot="private" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>__MR_ObjBitSet_heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjBitSet_1a69cfee27e18978e0cfe53b1cd6fe4e57" prot="private" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>__MR_ObjBitSet_intersects</name></member>
       <member refid="classMR_1_1Const__ObjBitSet_1ac6de1664166a85bac80fa07d357fa535" prot="private" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>__MR_ObjBitSet_is_subset_of</name></member>
@@ -1882,9 +1882,9 @@
       <member refid="classMR_1_1Const__ObjBitSet_1a12fbfa5f196ac0471e201732901dc075" prot="private" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__ObjBitSet_1af8fef86d4c90c89a3958f01894cfd6a9" prot="public" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__ObjBitSet_1ad78ce4e10662bb67f5bdd2c865fc4658" prot="public" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__ObjBitSet_1a6b8c2274979ba0707a51045a1ec51d51" prot="public" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__ObjBitSet_1ab653fba40f00a8167df3993c592d3451" prot="public" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__ObjBitSet_1a424366cf13998ce83963a5b27d681f3c" prot="public" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__ObjBitSet_1ad929ff378b3522172d5fe8469ddc8506" prot="public" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__ObjBitSet_1a1c3e3ea1bb3d62a37bc2bf1de706fa5a" prot="public" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__ObjBitSet_1a3ce5fee738be5a3f4753e2a521520054" prot="public" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__ObjBitSet_1a0111d372209cd266303abf36678fefc7" prot="public" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1Const__ObjBitSet_1a274b999dc622f66c2d1dadb381ec3ceb" prot="public" virt="non-virtual"><scope>MR::Const_ObjBitSet</scope><name>isSubsetOf</name></member>

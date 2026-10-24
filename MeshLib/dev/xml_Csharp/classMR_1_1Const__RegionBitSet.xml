@@ -461,14 +461,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6959" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="6959" bodyend="6962"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__RegionBitSet_1a0e5cff6494861e2d10180cff81960668" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__RegionBitSet_1a8360f0a5e63f898bed581ebf41ec8180" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref></type>
         <definition>unsafe MR.RegionBitSet MR.Const_RegionBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId map)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId_PhmapHashMRRegionId_PhmapEqualToMRRegionId_MRAllocatorStdPairConstMRRegionIdMRRegionId map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_RegionBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId_PhmapHashMRRegionId_PhmapEqualToMRRegionId_MRAllocatorStdPairConstMRRegionIdMRRegionId</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -503,14 +503,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6975" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="6975" bodyend="6978"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__RegionBitSet_1a214fc3b3d60fa33bc5ee61daa58c19ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__RegionBitSet_1aef5b5e983f61dc8c2f4deb090e72b8e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref></type>
         <definition>unsafe MR.RegionBitSet MR.Const_RegionBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId map, nuint resSize)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId_PhmapHashMRRegionId_PhmapEqualToMRRegionId_MRAllocatorStdPairConstMRRegionIdMRRegionId map, nuint resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_RegionBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId_PhmapHashMRRegionId_PhmapEqualToMRRegionId_MRAllocatorStdPairConstMRRegionIdMRRegionId</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1383,18 +1383,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="7221" column="56"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__RegionBitSet_1a62594820aee63236b5ff95efa0277a2d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__RegionBitSet_1a0de63fc4f04dc7aa7efbcd2502650544" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.RegionBitSet._Underlying *</type>
-        <definition>static unsafe MR.RegionBitSet._Underlying * MR.Const_RegionBitSet.__MR_RegionBitSet_getMapping_1_phmap_flat_hash_map_MR_RegionId_MR_RegionId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId._Underlying *map)</argsstring>
-        <name>__MR_RegionBitSet_getMapping_1_phmap_flat_hash_map_MR_RegionId_MR_RegionId</name>
-        <qualifiedname>MR.Const_RegionBitSet.__MR_RegionBitSet_getMapping_1_phmap_flat_hash_map_MR_RegionId_MR_RegionId</qualifiedname>
+        <definition>static unsafe MR.RegionBitSet._Underlying * MR.Const_RegionBitSet.__MR_RegionBitSet_getMapping_1_phmap_flat_hash_map_MR_RegionId_MR_RegionId_phmap_Hash_MR_RegionId_phmap_EqualTo_MR_RegionId_MR_Allocator_std_pair_const_MR_RegionId_MR_RegionId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId_PhmapHashMRRegionId_PhmapEqualToMRRegionId_MRAllocatorStdPairConstMRRegionIdMRRegionId._Underlying *map)</argsstring>
+        <name>__MR_RegionBitSet_getMapping_1_phmap_flat_hash_map_MR_RegionId_MR_RegionId_phmap_Hash_MR_RegionId_phmap_EqualTo_MR_RegionId_MR_Allocator_std_pair_const_MR_RegionId_MR_RegionId</name>
+        <qualifiedname>MR.Const_RegionBitSet.__MR_RegionBitSet_getMapping_1_phmap_flat_hash_map_MR_RegionId_MR_RegionId_phmap_Hash_MR_RegionId_phmap_EqualTo_MR_RegionId_MR_Allocator_std_pair_const_MR_RegionId_MR_RegionId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId_PhmapHashMRRegionId_PhmapEqualToMRRegionId_MRAllocatorStdPairConstMRRegionIdMRRegionId._Underlying *</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -1431,18 +1431,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="7227" column="56"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__RegionBitSet_1ac97e2836245f36eda984e0325cfd2331" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__RegionBitSet_1aa69c3d2108d25b489713bc2dbf474a50" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.RegionBitSet._Underlying *</type>
-        <definition>static unsafe MR.RegionBitSet._Underlying * MR.Const_RegionBitSet.__MR_RegionBitSet_getMapping_2_phmap_flat_hash_map_MR_RegionId_MR_RegionId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId._Underlying *map, nuint resSize)</argsstring>
-        <name>__MR_RegionBitSet_getMapping_2_phmap_flat_hash_map_MR_RegionId_MR_RegionId</name>
-        <qualifiedname>MR.Const_RegionBitSet.__MR_RegionBitSet_getMapping_2_phmap_flat_hash_map_MR_RegionId_MR_RegionId</qualifiedname>
+        <definition>static unsafe MR.RegionBitSet._Underlying * MR.Const_RegionBitSet.__MR_RegionBitSet_getMapping_2_phmap_flat_hash_map_MR_RegionId_MR_RegionId_phmap_Hash_MR_RegionId_phmap_EqualTo_MR_RegionId_MR_Allocator_std_pair_const_MR_RegionId_MR_RegionId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId_PhmapHashMRRegionId_PhmapEqualToMRRegionId_MRAllocatorStdPairConstMRRegionIdMRRegionId._Underlying *map, nuint resSize)</argsstring>
+        <name>__MR_RegionBitSet_getMapping_2_phmap_flat_hash_map_MR_RegionId_MR_RegionId_phmap_Hash_MR_RegionId_phmap_EqualTo_MR_RegionId_MR_Allocator_std_pair_const_MR_RegionId_MR_RegionId</name>
+        <qualifiedname>MR.Const_RegionBitSet.__MR_RegionBitSet_getMapping_2_phmap_flat_hash_map_MR_RegionId_MR_RegionId_phmap_Hash_MR_RegionId_phmap_EqualTo_MR_RegionId_MR_Allocator_std_pair_const_MR_RegionId_MR_RegionId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRRegionId_MRRegionId_PhmapHashMRRegionId_PhmapEqualToMRRegionId_MRAllocatorStdPairConstMRRegionIdMRRegionId._Underlying *</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1834,9 +1834,9 @@
       <member refid="classMR_1_1Const__RegionBitSet_1a847bb00bd3b45c90b7fba58e1192c6e0" prot="private" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>__MR_RegionBitSet_Get_npos</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a1a57c332f8a8a0051c5f28a3d8621c7b" prot="private" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>__MR_RegionBitSet_getMapping_1_MR_BMap_MR_RegionId_MR_RegionId</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1afa40d000b5bc125cc650247f6c56c950" prot="private" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>__MR_RegionBitSet_getMapping_1_MR_Vector_MR_RegionId_MR_RegionId</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1a62594820aee63236b5ff95efa0277a2d" prot="private" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>__MR_RegionBitSet_getMapping_1_phmap_flat_hash_map_MR_RegionId_MR_RegionId</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1a0de63fc4f04dc7aa7efbcd2502650544" prot="private" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>__MR_RegionBitSet_getMapping_1_phmap_flat_hash_map_MR_RegionId_MR_RegionId_phmap_Hash_MR_RegionId_phmap_EqualTo_MR_RegionId_MR_Allocator_std_pair_const_MR_RegionId_MR_RegionId</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a9ae9437fa36cc01d557640ec9d810da7" prot="private" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>__MR_RegionBitSet_getMapping_2_MR_Vector_MR_RegionId_MR_RegionId</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1ac97e2836245f36eda984e0325cfd2331" prot="private" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>__MR_RegionBitSet_getMapping_2_phmap_flat_hash_map_MR_RegionId_MR_RegionId</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1aa69c3d2108d25b489713bc2dbf474a50" prot="private" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>__MR_RegionBitSet_getMapping_2_phmap_flat_hash_map_MR_RegionId_MR_RegionId_phmap_Hash_MR_RegionId_phmap_EqualTo_MR_RegionId_MR_Allocator_std_pair_const_MR_RegionId_MR_RegionId</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a10d5e19a25b27d491aa6f553b12a8a46" prot="private" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>__MR_RegionBitSet_heapBytes</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1aaf599662bce339859013d9f084a61612" prot="private" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>__MR_RegionBitSet_intersects</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1abc800e2f4022d2afb8e0ce7a662702e0" prot="private" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>__MR_RegionBitSet_is_subset_of</name></member>
@@ -1882,9 +1882,9 @@
       <member refid="classMR_1_1Const__RegionBitSet_1aa8ff720c845bce15e49a794e9ca54e64" prot="private" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a635531a6655ec6f351e56b46de3021d4" prot="public" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1ae582a3f1f916218587e293ada51c99f0" prot="public" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1a0e5cff6494861e2d10180cff81960668" prot="public" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1a8360f0a5e63f898bed581ebf41ec8180" prot="public" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a34c87c93b255fec759d3d9524995c982" prot="public" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__RegionBitSet_1a214fc3b3d60fa33bc5ee61daa58c19ca" prot="public" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__RegionBitSet_1aef5b5e983f61dc8c2f4deb090e72b8e1" prot="public" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a3299eac68af153bbe86fb06b04885a8d" prot="public" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1acafce64c8cbc7193830997ba2803a781" prot="public" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1Const__RegionBitSet_1a9ee0950c861c2cb3c0bbe19e05373ffc" prot="public" virt="non-virtual"><scope>MR::Const_RegionBitSet</scope><name>isSubsetOf</name></member>

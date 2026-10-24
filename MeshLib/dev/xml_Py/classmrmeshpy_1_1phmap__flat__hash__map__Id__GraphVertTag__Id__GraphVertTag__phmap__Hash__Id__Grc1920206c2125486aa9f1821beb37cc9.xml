@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1aac186cac1158318cfc19f9551c8f240a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the map is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92688" bodyend="92691"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a4429041f984be802b0f75ce96ed42a3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__contains__</definition>
+        <argsstring>(self, GraphVertId arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92693" bodyend="92694"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a4615bd87e76d920f45d862e8135d00f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__contains__</definition>
+        <argsstring>(self, typing.Any arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92696" bodyend="92697"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a52dbe416fa019960a53d96d8fefb7c4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__delitem__</definition>
+        <argsstring>(self, GraphVertId arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92698" bodyend="92699"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1aedf58ac4219fd623cd84a86b46d444a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__getitem__</definition>
+        <argsstring>(self, GraphVertId arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92700" bodyend="92701"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a8269c7efda35ef26bad387f3cb2c575f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92703" bodyend="92704"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a618cc29fc11c5a49cefb1c1532876e96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__init__</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9" kindref="compound">phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92706" bodyend="92707"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a097e17b6a19032e8103734e06c226ff6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref>]</type>
+        <definition> typing.Iterator[GraphVertId] mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92708" bodyend="92709"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a7d999bf4cb68d79c8ff14699efab7771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92710" bodyend="92711"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a14911ec4e67651d65e7aff594f5ed712" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92712" bodyend="92715"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1afe555a700df8dc14ee0b1964f94f6a63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__setitem__</definition>
+        <argsstring>(self, GraphVertId arg0, GraphVertId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92716" bodyend="92717"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1aba15571ded90138ff4e8a0e5ab5ad606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ItemsView</type>
+        <definition> typing.ItemsView mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.items</definition>
+        <argsstring>(self)</argsstring>
+        <name>items</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.items</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92718" bodyend="92719"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a234d302e91a77b9ae6ecdcde8bcc590e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.KeysView</type>
+        <definition> typing.KeysView mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.keys</definition>
+        <argsstring>(self)</argsstring>
+        <name>keys</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.keys</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92720" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92720" bodyend="92721"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a0fce60a2ced084aed49a423e95aaec52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92722" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92722" bodyend="92723"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a3cb47cf337314e62a02d6277b6a5db4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ValuesView</type>
+        <definition> typing.ValuesView mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.values</definition>
+        <argsstring>(self)</argsstring>
+        <name>values</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag.values</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92724" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92724" bodyend="92725"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  phmap_flat_hash_map_GraphVertId_GraphVertId_phmap_Hash_GraphVertId_phmap_EqualTo_GraphVertId_Allocator_std_pair_const_GraphVertId_GraphVertId
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="92684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="92684" bodyend="92725"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1aac186cac1158318cfc19f9551c8f240a" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a4429041f984be802b0f75ce96ed42a3b" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a4615bd87e76d920f45d862e8135d00f4" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a52dbe416fa019960a53d96d8fefb7c4f" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1aedf58ac4219fd623cd84a86b46d444a3" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a8269c7efda35ef26bad387f3cb2c575f" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a618cc29fc11c5a49cefb1c1532876e96" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a097e17b6a19032e8103734e06c226ff6" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a7d999bf4cb68d79c8ff14699efab7771" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a14911ec4e67651d65e7aff594f5ed712" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1afe555a700df8dc14ee0b1964f94f6a63" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1aba15571ded90138ff4e8a0e5ab5ad606" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>items</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a234d302e91a77b9ae6ecdcde8bcc590e" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>keys</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a0fce60a2ced084aed49a423e95aaec52" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9_1a3cb47cf337314e62a02d6277b6a5db4b" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

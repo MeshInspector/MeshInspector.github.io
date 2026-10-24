@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a6a096abce9d57d2ec8aae4be65508628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the map is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72956" bodyend="72959"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a549f62b628c66abfcf64c0e6fcccfb24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__contains__</definition>
+        <argsstring>(self, VoxelId arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72961" bodyend="72962"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a0df162c3c370fadc74c1677c5e1059ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__contains__</definition>
+        <argsstring>(self, typing.Any arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72964" bodyend="72965"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1aa052498fb1dc932dcb7a9bdedbdaae86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__delitem__</definition>
+        <argsstring>(self, VoxelId arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72966" bodyend="72967"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a5b423cc8cdba7719f15c063875428c8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__getitem__</definition>
+        <argsstring>(self, VoxelId arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72968" bodyend="72969"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1ad40b71be8b74ee44b4fb67bea72f22b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72971" bodyend="72972"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a740e9b0898b93572b9f42db21eba0f7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__init__</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e" kindref="compound">phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72974" bodyend="72975"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a9baefc4a135e6cbd8dadcebb7a6f09f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref>]</type>
+        <definition> typing.Iterator[VoxelId] mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72976" bodyend="72977"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a1f2bbc6bf44074a390c06b4d664a59cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72978" bodyend="72979"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1ab14cc9bc741c43c70d418b74c4bad460" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72980" bodyend="72983"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1aaaf41493bcf4fd0d6ff543d19ddbbb31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__setitem__</definition>
+        <argsstring>(self, VoxelId arg0, VoxelId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72984" bodyend="72985"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1ac9dbe9f102ba6b85c7b2105cf195b16d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ItemsView</type>
+        <definition> typing.ItemsView mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.items</definition>
+        <argsstring>(self)</argsstring>
+        <name>items</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.items</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72986" bodyend="72987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a37d82e8e2e3ba7fd231907e1eab046d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.KeysView</type>
+        <definition> typing.KeysView mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.keys</definition>
+        <argsstring>(self)</argsstring>
+        <name>keys</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.keys</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72988" bodyend="72989"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a4b8d41d49e882bbaf5a129b6a4913e18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72990" bodyend="72991"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a4bda948e61331ac2fb6b37222baa6e02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ValuesView</type>
+        <definition> typing.ValuesView mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.values</definition>
+        <argsstring>(self)</argsstring>
+        <name>values</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag.values</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72992" bodyend="72993"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  HashMap_TypedBitSet_Id_VoxelTag_IndexType_TypedBitSet_Id_VoxelTag_IndexType, phmap_flat_hash_map_VoxelId_VoxelId_phmap_Hash_VoxelId_phmap_EqualTo_VoxelId_Allocator_std_pair_const_VoxelId_VoxelId
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72952" bodyend="72993"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a6a096abce9d57d2ec8aae4be65508628" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a549f62b628c66abfcf64c0e6fcccfb24" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a0df162c3c370fadc74c1677c5e1059ad" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1aa052498fb1dc932dcb7a9bdedbdaae86" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a5b423cc8cdba7719f15c063875428c8c" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1ad40b71be8b74ee44b4fb67bea72f22b8" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a740e9b0898b93572b9f42db21eba0f7c" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a9baefc4a135e6cbd8dadcebb7a6f09f0" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a1f2bbc6bf44074a390c06b4d664a59cd" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1ab14cc9bc741c43c70d418b74c4bad460" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1aaaf41493bcf4fd0d6ff543d19ddbbb31" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1ac9dbe9f102ba6b85c7b2105cf195b16d" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>items</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a37d82e8e2e3ba7fd231907e1eab046d8" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>keys</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a4b8d41d49e882bbaf5a129b6a4913e18" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e_1a4bda948e61331ac2fb6b37222baa6e02" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

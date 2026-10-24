@@ -461,14 +461,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="4761" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="4761" bodyend="4764"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PixelBitSet_1af98c029ef62a605bef547f77c7c59af3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__PixelBitSet_1af1bbe9660f77869b1424d8609f4a355d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref></type>
         <definition>unsafe MR.PixelBitSet MR.Const_PixelBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId map)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId_PhmapHashMRPixelId_PhmapEqualToMRPixelId_MRAllocatorStdPairConstMRPixelIdMRPixelId map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_PixelBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId_PhmapHashMRPixelId_PhmapEqualToMRPixelId_MRAllocatorStdPairConstMRPixelIdMRPixelId</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -503,14 +503,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="4777" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="4777" bodyend="4780"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PixelBitSet_1a0b32597f7bed0a60f038b88e33c163c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__PixelBitSet_1ae7861ee16093497e83b4d65f2ac3f1f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref></type>
         <definition>unsafe MR.PixelBitSet MR.Const_PixelBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId map, nuint resSize)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId_PhmapHashMRPixelId_PhmapEqualToMRPixelId_MRAllocatorStdPairConstMRPixelIdMRPixelId map, nuint resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_PixelBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId_PhmapHashMRPixelId_PhmapEqualToMRPixelId_MRAllocatorStdPairConstMRPixelIdMRPixelId</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1383,18 +1383,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5023" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PixelBitSet_1af99beae9885a387bcf3dfc4cfa8b612c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__PixelBitSet_1aaf27e2e9afed0fc3727ccf1e731b214e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.PixelBitSet._Underlying *</type>
-        <definition>static unsafe MR.PixelBitSet._Underlying * MR.Const_PixelBitSet.__MR_PixelBitSet_getMapping_1_phmap_flat_hash_map_MR_PixelId_MR_PixelId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId._Underlying *map)</argsstring>
-        <name>__MR_PixelBitSet_getMapping_1_phmap_flat_hash_map_MR_PixelId_MR_PixelId</name>
-        <qualifiedname>MR.Const_PixelBitSet.__MR_PixelBitSet_getMapping_1_phmap_flat_hash_map_MR_PixelId_MR_PixelId</qualifiedname>
+        <definition>static unsafe MR.PixelBitSet._Underlying * MR.Const_PixelBitSet.__MR_PixelBitSet_getMapping_1_phmap_flat_hash_map_MR_PixelId_MR_PixelId_phmap_Hash_MR_PixelId_phmap_EqualTo_MR_PixelId_MR_Allocator_std_pair_const_MR_PixelId_MR_PixelId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId_PhmapHashMRPixelId_PhmapEqualToMRPixelId_MRAllocatorStdPairConstMRPixelIdMRPixelId._Underlying *map)</argsstring>
+        <name>__MR_PixelBitSet_getMapping_1_phmap_flat_hash_map_MR_PixelId_MR_PixelId_phmap_Hash_MR_PixelId_phmap_EqualTo_MR_PixelId_MR_Allocator_std_pair_const_MR_PixelId_MR_PixelId</name>
+        <qualifiedname>MR.Const_PixelBitSet.__MR_PixelBitSet_getMapping_1_phmap_flat_hash_map_MR_PixelId_MR_PixelId_phmap_Hash_MR_PixelId_phmap_EqualTo_MR_PixelId_MR_Allocator_std_pair_const_MR_PixelId_MR_PixelId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId_PhmapHashMRPixelId_PhmapEqualToMRPixelId_MRAllocatorStdPairConstMRPixelIdMRPixelId._Underlying *</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -1431,18 +1431,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5029" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PixelBitSet_1abbec1dcff69ada1f1a4d5e5e3b9ecd09" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__PixelBitSet_1a55c550c42334f42ae404fc493faec445" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.PixelBitSet._Underlying *</type>
-        <definition>static unsafe MR.PixelBitSet._Underlying * MR.Const_PixelBitSet.__MR_PixelBitSet_getMapping_2_phmap_flat_hash_map_MR_PixelId_MR_PixelId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId._Underlying *map, nuint resSize)</argsstring>
-        <name>__MR_PixelBitSet_getMapping_2_phmap_flat_hash_map_MR_PixelId_MR_PixelId</name>
-        <qualifiedname>MR.Const_PixelBitSet.__MR_PixelBitSet_getMapping_2_phmap_flat_hash_map_MR_PixelId_MR_PixelId</qualifiedname>
+        <definition>static unsafe MR.PixelBitSet._Underlying * MR.Const_PixelBitSet.__MR_PixelBitSet_getMapping_2_phmap_flat_hash_map_MR_PixelId_MR_PixelId_phmap_Hash_MR_PixelId_phmap_EqualTo_MR_PixelId_MR_Allocator_std_pair_const_MR_PixelId_MR_PixelId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId_PhmapHashMRPixelId_PhmapEqualToMRPixelId_MRAllocatorStdPairConstMRPixelIdMRPixelId._Underlying *map, nuint resSize)</argsstring>
+        <name>__MR_PixelBitSet_getMapping_2_phmap_flat_hash_map_MR_PixelId_MR_PixelId_phmap_Hash_MR_PixelId_phmap_EqualTo_MR_PixelId_MR_Allocator_std_pair_const_MR_PixelId_MR_PixelId</name>
+        <qualifiedname>MR.Const_PixelBitSet.__MR_PixelBitSet_getMapping_2_phmap_flat_hash_map_MR_PixelId_MR_PixelId_phmap_Hash_MR_PixelId_phmap_EqualTo_MR_PixelId_MR_Allocator_std_pair_const_MR_PixelId_MR_PixelId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRPixelId_MRPixelId_PhmapHashMRPixelId_PhmapEqualToMRPixelId_MRAllocatorStdPairConstMRPixelIdMRPixelId._Underlying *</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1834,9 +1834,9 @@
       <member refid="classMR_1_1Const__PixelBitSet_1ace12b127c58a693fb22aa1735bfba641" prot="private" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>__MR_PixelBitSet_Get_npos</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1ad89949a852b6c6dcf197466503c394c2" prot="private" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>__MR_PixelBitSet_getMapping_1_MR_BMap_MR_PixelId_MR_PixelId</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a052fe90eb8b8201a087ca3268a56c54b" prot="private" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>__MR_PixelBitSet_getMapping_1_MR_Vector_MR_PixelId_MR_PixelId</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1af99beae9885a387bcf3dfc4cfa8b612c" prot="private" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>__MR_PixelBitSet_getMapping_1_phmap_flat_hash_map_MR_PixelId_MR_PixelId</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1aaf27e2e9afed0fc3727ccf1e731b214e" prot="private" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>__MR_PixelBitSet_getMapping_1_phmap_flat_hash_map_MR_PixelId_MR_PixelId_phmap_Hash_MR_PixelId_phmap_EqualTo_MR_PixelId_MR_Allocator_std_pair_const_MR_PixelId_MR_PixelId</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a866c80bafc78c1f905d6f873d67ff60e" prot="private" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>__MR_PixelBitSet_getMapping_2_MR_Vector_MR_PixelId_MR_PixelId</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1abbec1dcff69ada1f1a4d5e5e3b9ecd09" prot="private" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>__MR_PixelBitSet_getMapping_2_phmap_flat_hash_map_MR_PixelId_MR_PixelId</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1a55c550c42334f42ae404fc493faec445" prot="private" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>__MR_PixelBitSet_getMapping_2_phmap_flat_hash_map_MR_PixelId_MR_PixelId_phmap_Hash_MR_PixelId_phmap_EqualTo_MR_PixelId_MR_Allocator_std_pair_const_MR_PixelId_MR_PixelId</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a94a42950a397ce0291ce957d92e5c90f" prot="private" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>__MR_PixelBitSet_heapBytes</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1aeecf73b9eb03d0351de37f18aa1c94d4" prot="private" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>__MR_PixelBitSet_intersects</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1ad8f8dd8fbe64322793d1b1a1eb1586e0" prot="private" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>__MR_PixelBitSet_is_subset_of</name></member>
@@ -1882,9 +1882,9 @@
       <member refid="classMR_1_1Const__PixelBitSet_1a861920b5031cfc789c12272610543df1" prot="private" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1aec7ebb8e7a336200dad2c9b4ec74acef" prot="public" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a261f7eed7a737b1732984dd786537e57" prot="public" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1af98c029ef62a605bef547f77c7c59af3" prot="public" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1af1bbe9660f77869b1424d8609f4a355d" prot="public" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a7cfb57262caa5445a08ce90a916ef3c7" prot="public" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__PixelBitSet_1a0b32597f7bed0a60f038b88e33c163c8" prot="public" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__PixelBitSet_1ae7861ee16093497e83b4d65f2ac3f1f3" prot="public" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a3f653684afe0e7442612aa7ddf1b1d51" prot="public" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1a62dd00bc30b47cfce52feaa145fcbecd" prot="public" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1Const__PixelBitSet_1aca3eb7f59fc4c72d96ca75ea75fce6a7" prot="public" virt="non-virtual"><scope>MR::Const_PixelBitSet</scope><name>isSubsetOf</name></member>

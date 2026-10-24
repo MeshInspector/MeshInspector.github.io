@@ -41,7 +41,7 @@
         <argsstring></argsstring>
         <name>Hash</name>
         <qualifiedname>mrmeshpy.MapOrHashMap_VertId_VertId.Hash</qualifiedname>
-        <initializer>=  <ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></initializer>
+        <initializer>=  <ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag__phmap__Hash__Id__VertTag__phm00f40942631704a5358ceae733fe21e3" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -200,10 +200,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73487" bodyend="73490"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a8293c5009765b1a4f2edc97741783b85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a27961bd1ec5b9ae81e232aef9ab6f510" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MapOrHashMap_VertId_VertId.__init__</definition>
-        <argsstring>(self, std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag var)</argsstring>
+        <argsstring>(self, std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag var)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MapOrHashMap_VertId_VertId.__init__</qualifiedname>
         <param>
@@ -211,7 +211,7 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3" kindref="compound">std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</ref></type>
           <declname>var</declname>
         </param>
         <briefdescription>
@@ -242,9 +242,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73496" bodyend="73497"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1ab8b8a0711ec27876df0d7d8c85e4efed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></type>
-        <definition> phmap_flat_hash_map_Id_VertTag_Id_VertTag mrmeshpy.MapOrHashMap_VertId_VertId.getHashMap</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1af73a79d5d0a59c6038f31f950c14463f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag__phmap__Hash__Id__VertTag__phm00f40942631704a5358ceae733fe21e3" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag mrmeshpy.MapOrHashMap_VertId_VertId.getHashMap</definition>
         <argsstring>(self)</argsstring>
         <name>getHashMap</name>
         <qualifiedname>mrmeshpy.MapOrHashMap_VertId_VertId.getHashMap</qualifiedname>
@@ -260,9 +260,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73499" bodyend="73500"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1ab8b8a0711ec27876df0d7d8c85e4efed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></type>
-        <definition> phmap_flat_hash_map_Id_VertTag_Id_VertTag mrmeshpy.MapOrHashMap_VertId_VertId.getHashMap</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1af73a79d5d0a59c6038f31f950c14463f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag__phmap__Hash__Id__VertTag__phm00f40942631704a5358ceae733fe21e3" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag mrmeshpy.MapOrHashMap_VertId_VertId.getHashMap</definition>
         <argsstring>(self)</argsstring>
         <name>getHashMap</name>
         <qualifiedname>mrmeshpy.MapOrHashMap_VertId_VertId.getHashMap</qualifiedname>
@@ -372,10 +372,10 @@ if this stores hash map then sets its capacity to size()+hashAdditionalCapacity
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73515" bodyend="73519"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1ad24db6641c02284a320d4e16b96e2d6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a2e0b2adc2055c4367627c49f7dcaf50c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MapOrHashMap_VertId_VertId.setHashMap</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_Id_VertTag m)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag m)</argsstring>
         <name>setHashMap</name>
         <qualifiedname>mrmeshpy.MapOrHashMap_VertId_VertId.setHashMap</qualifiedname>
         <param>
@@ -383,7 +383,7 @@ if this stores hash map then sets its capacity to size()+hashAdditionalCapacity
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag__phmap__Hash__Id__VertTag__phm00f40942631704a5358ceae733fe21e3" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</ref></type>
           <declname>m</declname>
         </param>
         <briefdescription>
@@ -416,9 +416,9 @@ if this stores hash map then sets its capacity to size()+hashAdditionalCapacity
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73522" bodyend="73523"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1aea921d6dbbc1265ae7cfdfa7d9dac1eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></type>
-        <definition> std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag mrmeshpy.MapOrHashMap_VertId_VertId.var</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a6b69bd39b73b53ceb771bfdecba2dfa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3" kindref="compound">std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</ref></type>
+        <definition> std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag mrmeshpy.MapOrHashMap_VertId_VertId.var</definition>
         <argsstring>(self)</argsstring>
         <name>var</name>
         <qualifiedname>mrmeshpy.MapOrHashMap_VertId_VertId.var</qualifiedname>
@@ -436,10 +436,10 @@ if this stores hash map then sets its capacity to size()+hashAdditionalCapacity
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73525" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73525" bodyend="73528"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1afb0644d04b602187e238df7f676280da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a6dace7c630867bd6a02f7c901f97b51a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MapOrHashMap_VertId_VertId.var</definition>
-        <argsstring>(self, std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag arg1)</argsstring>
+        <argsstring>(self, std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag arg1)</argsstring>
         <name>var</name>
         <qualifiedname>mrmeshpy.MapOrHashMap_VertId_VertId.var</qualifiedname>
         <param>
@@ -447,7 +447,7 @@ if this stores hash map then sets its capacity to size()+hashAdditionalCapacity
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3" kindref="compound">std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</ref></type>
           <declname>arg1</declname>
         </param>
         <briefdescription>
@@ -475,14 +475,14 @@ stores a mapping from keys K to values V in one of two forms:
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a64c8054d8f06d67d19b0d45a20469365" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1adca10f24b8b5d5e1e50bc44fec6c4eaf" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a2d2504255c09695c2deb68650668cf9e" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a8293c5009765b1a4f2edc97741783b85" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a27961bd1ec5b9ae81e232aef9ab6f510" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a83630bccb10765b80ab2761c2d1eddfe" prot="protected" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>_offsetof_var</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1ad2b7cb9afc458979433e37ed87e932e8" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>clear</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a3160e1bc067d1e5d57924ce2ef4f1239" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>createHashMap</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a760a3f9e34ad4091d6f0c71603314264" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>createMap</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a2ceef8d7e42d1930cbcb006980198d89" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>Dense</name></member>
-      <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1ab8b8a0711ec27876df0d7d8c85e4efed" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>getHashMap</name></member>
-      <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1ab8b8a0711ec27876df0d7d8c85e4efed" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>getHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1af73a79d5d0a59c6038f31f950c14463f" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>getHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1af73a79d5d0a59c6038f31f950c14463f" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>getHashMap</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1aab45a15dc0dd8dba83de99bd0723b856" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>getMap</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1aab45a15dc0dd8dba83de99bd0723b856" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>getMap</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a45ea0a220e57bfe7289778d2c23d1aca" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>Hash</name></member>
@@ -490,10 +490,10 @@ stores a mapping from keys K to values V in one of two forms:
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1ac130f154229272c0dd8d8a634c38f527" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a031ddc57b4e873f4a68cee525267e766" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>pushBack</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a616ab8fbf5af3a661fa0e6d79ee4d30d" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>resizeReserve</name></member>
-      <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1ad24db6641c02284a320d4e16b96e2d6d" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>setHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a2e0b2adc2055c4367627c49f7dcaf50c" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>setHashMap</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1afc3651609b537e2e18f4f3813a236a04" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>setMap</name></member>
-      <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1aea921d6dbbc1265ae7cfdfa7d9dac1eb" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>var</name></member>
-      <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1afb0644d04b602187e238df7f676280da" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>var</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a6b69bd39b73b53ceb771bfdecba2dfa6" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>var</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId_1a6dace7c630867bd6a02f7c901f97b51a" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_VertId_VertId</scope><name>var</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -158,18 +158,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="416" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="416" bodyend="419"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1aa81a04b73d010dc88d1e51138e9e6bfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1abe9b4b183ec78546c41e105850bd5557" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.SurfaceDistanceBuilder.addStartVertices</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRVertId_Float startVertices)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRVertId_Float_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdFloat startVertices)</argsstring>
         <name>addStartVertices</name>
         <qualifiedname>MR.SurfaceDistanceBuilder.addStartVertices</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRVertId_Float</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRVertId_Float_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdFloat</type>
           <declname>startVertices</declname>
         </param>
         <briefdescription>
-<para>initiates distance construction from given start vertices with values in them (these vertices will NOT be returned by growOne if values in them are not decreased) Generated from method <computeroutput><ref refid="classMR_1_1SurfaceDistanceBuilder_1aa81a04b73d010dc88d1e51138e9e6bfe" kindref="member">MR.SurfaceDistanceBuilder.addStartVertices</ref></computeroutput>. </para>
+<para>initiates distance construction from given start vertices with values in them (these vertices will NOT be returned by growOne if values in them are not decreased) Generated from method <computeroutput><ref refid="classMR_1_1SurfaceDistanceBuilder_1abe9b4b183ec78546c41e105850bd5557" kindref="member">MR.SurfaceDistanceBuilder.addStartVertices</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -365,10 +365,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="482" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1ae88944b74f5d793bdf83f9bf4acafc56" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1SurfaceDistanceBuilder_1a27f473c91b9f20dd59f1af0fe01fba5e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.SurfaceDistanceBuilder.__MR_SurfaceDistanceBuilder_addStartVertices</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRVertId_Float._Underlying *startVertices)</argsstring>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRVertId_Float_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdFloat._Underlying *startVertices)</argsstring>
         <name>__MR_SurfaceDistanceBuilder_addStartVertices</name>
         <qualifiedname>MR.SurfaceDistanceBuilder.__MR_SurfaceDistanceBuilder_addStartVertices</qualifiedname>
         <param>
@@ -376,7 +376,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRVertId_Float._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRVertId_Float_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdFloat._Underlying *</type>
           <declname>startVertices</declname>
         </param>
         <briefdescription>
@@ -499,7 +499,7 @@
     <listofallmembers>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a910a863274cfe210f031c949cad15e6e" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>__MR_SurfaceDistanceBuilder_addStart</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a2392c5cf03ed5e37df0d061b3aef29f0" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>__MR_SurfaceDistanceBuilder_addStartRegion</name></member>
-      <member refid="classMR_1_1SurfaceDistanceBuilder_1ae88944b74f5d793bdf83f9bf4acafc56" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>__MR_SurfaceDistanceBuilder_addStartVertices</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1a27f473c91b9f20dd59f1af0fe01fba5e" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>__MR_SurfaceDistanceBuilder_addStartVertices</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a308b33eb2dd56b69d6c1d1c6b3039f20" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>__MR_SurfaceDistanceBuilder_Construct_2</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a938704a6c855454721a7724742f90176" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>__MR_SurfaceDistanceBuilder_Construct_3</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1af478e0352a09cf2b621428275766121e" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>__MR_SurfaceDistanceBuilder_ConstructFromAnother</name></member>
@@ -508,7 +508,7 @@
       <member refid="classMR_1_1SurfaceDistanceBuilder_1a7e1a26c11a039853c0991bed43a27467" prot="private" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>__MR_SurfaceDistanceBuilder_takeDistanceMap</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1ac143451e18c893f7e2fe051a14bcdd10" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStart</name></member>
       <member refid="classMR_1_1SurfaceDistanceBuilder_1ac7b35a0449debbc29aacef0410c9edc7" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStartRegion</name></member>
-      <member refid="classMR_1_1SurfaceDistanceBuilder_1aa81a04b73d010dc88d1e51138e9e6bfe" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStartVertices</name></member>
+      <member refid="classMR_1_1SurfaceDistanceBuilder_1abe9b4b183ec78546c41e105850bd5557" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>addStartVertices</name></member>
       <member refid="classMR_1_1Const__SurfaceDistanceBuilder_1a99b0341ec88e7ef80ffc1de2c42be811" prot="package" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>Const_SurfaceDistanceBuilder</name></member>
       <member refid="classMR_1_1Const__SurfaceDistanceBuilder_1a39deef10f397eefc69d032bfa39ec6cf" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>Const_SurfaceDistanceBuilder</name></member>
       <member refid="classMR_1_1Const__SurfaceDistanceBuilder_1ad60694713d832e686b4e0ee78e1388d9" prot="public" virt="non-virtual"><scope>MR::SurfaceDistanceBuilder</scope><name>Const_SurfaceDistanceBuilder</name></member>

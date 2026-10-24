@@ -861,10 +861,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99370" bodyend="99371"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1af99a44c0bfeee00cef0498be889b590c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a4bd950bdb26a634e0196cba323b886a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag" kindref="compound">TypedBitSet_Id_ICPElemtTag</ref></type>
         <definition> TypedBitSet_Id_ICPElemtTag mrmeshpy.TypedBitSet_Id_ICPElemtTag.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_ICPElemtTag_Id_ICPElemtTag map)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_ICPElemtTag_Id_ICPElemtTag_phmap_Hash_Id_ICPElemtTag_phmap_EqualTo_Id_ICPElemtTag_Allocator_std_pair_Id_ICPElemtTag_const_Id_ICPElemtTag map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.getMapping</qualifiedname>
         <param>
@@ -872,7 +872,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__ICPElemtTag__Id__ICPElemtTag" kindref="compound">phmap_flat_hash_map_Id_ICPElemtTag_Id_ICPElemtTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__ICPElemtTag__Id__ICPElemtTag__phmap__Hash__Id__ICPE9c422f9a77e7137e1a9f96a33a98e8a7" kindref="compound">phmap_flat_hash_map_Id_ICPElemtTag_Id_ICPElemtTag_phmap_Hash_Id_ICPElemtTag_phmap_EqualTo_Id_ICPElemtTag_Allocator_std_pair_Id_ICPElemtTag_const_Id_ICPElemtTag</ref></type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -909,10 +909,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99376" bodyend="99377"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ad1d70cf1b4aa9a9d5b937aaafdf7f864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a3ce120b411a4e7d40bffe7858a8e2f7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag" kindref="compound">TypedBitSet_Id_ICPElemtTag</ref></type>
         <definition> TypedBitSet_Id_ICPElemtTag mrmeshpy.TypedBitSet_Id_ICPElemtTag.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_ICPElemtTag_Id_ICPElemtTag map, int resSize)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_ICPElemtTag_Id_ICPElemtTag_phmap_Hash_Id_ICPElemtTag_phmap_EqualTo_Id_ICPElemtTag_Allocator_std_pair_Id_ICPElemtTag_const_Id_ICPElemtTag map, int resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.TypedBitSet_Id_ICPElemtTag.getMapping</qualifiedname>
         <param>
@@ -920,7 +920,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__ICPElemtTag__Id__ICPElemtTag" kindref="compound">phmap_flat_hash_map_Id_ICPElemtTag_Id_ICPElemtTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__ICPElemtTag__Id__ICPElemtTag__phmap__Hash__Id__ICPE9c422f9a77e7137e1a9f96a33a98e8a7" kindref="compound">phmap_flat_hash_map_Id_ICPElemtTag_Id_ICPElemtTag_phmap_Hash_Id_ICPElemtTag_phmap_EqualTo_Id_ICPElemtTag_Allocator_std_pair_Id_ICPElemtTag_const_Id_ICPElemtTag</ref></type>
           <declname>map</declname>
         </param>
         <param>
@@ -1344,9 +1344,9 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a920aca7c9c08719062e76a1508c94063" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a4e1c3ff37653282424c6de60521931b5" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ad382f127595efbfe279487303e1c14e9" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1af99a44c0bfeee00cef0498be889b590c" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a4bd950bdb26a634e0196cba323b886a1" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a756dcd259d56fe1ea3d9ebae3cbc3ab8" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ad1d70cf1b4aa9a9d5b937aaafdf7f864" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a3ce120b411a4e7d40bffe7858a8e2f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a609a7ce47fe0bc9f61b78fd7b2fe4691" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>IndexType</name></member>
       <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1aeb407dd49988a3d3609cd8b1ada60828" prot="public" virt="non-virtual"><scope>mrmeshpy::TypedBitSet_Id_ICPElemtTag</scope><name>intersects</name></member>

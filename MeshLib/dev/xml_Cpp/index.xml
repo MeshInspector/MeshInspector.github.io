@@ -135,6 +135,12 @@
     <member refid="group__GeneralGroup_1ga37b85e8c82a4f3cc21ee54015ba67cbb" kind="variable"><name>neighbors</name></member>
     <member refid="group__GeneralGroup_1ga63033f3b2a1d4be33d6fc4e3d709a2cf" kind="variable"><name>fanRecords</name></member>
   </compound>
+  <compound refid="structMR_1_1Allocator" kind="struct"><name>MR::Allocator</name>
+    <member refid="group__GeneralGroup_1ga8bd4851a1bc8ceaf4d330842802e0317" kind="typedef"><name>value_type</name></member>
+    <member refid="group__GeneralGroup_1ga88f01e137229318830157a8e775cb9cf" kind="function"><name>Allocator</name></member>
+    <member refid="group__GeneralGroup_1ga7d80cc8e2dbd0182e93b88770c40f5fa" kind="function"><name>Allocator</name></member>
+    <member refid="group__GeneralGroup_1gaf3830354fc012518a41ad7c79e6d66ef" kind="function"><name>select_on_container_copy_construction</name></member>
+  </compound>
   <compound refid="structMR_1_1AlphaShapeData" kind="struct"><name>MR::AlphaShapeData</name>
     <member refid="group__GeneralGroup_1ga7644918118a8c385b1e65af953cbb4f7" kind="variable"><name>toInt</name></member>
     <member refid="group__GeneralGroup_1ga83480f95b9e1d4f1069a44ea03726ea8" kind="variable"><name>intPoints</name></member>
@@ -9424,6 +9430,9 @@
     <member refid="group__GeneralGroup_1ga0e59111b442fc3dcfc4cfc089a0972ec" kind="variable"><name>penalty</name></member>
     <member refid="group__GeneralGroup_1ga86bbb1910bc530c8f88287ede3605c5f" kind="variable"><name>metric</name></member>
   </compound>
+  <compound refid="structMR_1_1Allocator_1_1rebind" kind="struct"><name>MR::Allocator::rebind</name>
+    <member refid="group__GeneralGroup_1gae1ad72005968102151033273381f1bf3" kind="typedef"><name>other</name></member>
+  </compound>
   <compound refid="structMR_1_1RebuildMeshSettings" kind="struct"><name>MR::RebuildMeshSettings</name>
     <member refid="group__GeneralGroup_1gaedf85a579696f897a9cd4c1c719059b8" kind="variable"><name>preSubdivide</name></member>
     <member refid="group__GeneralGroup_1ga277cd0e4fca4f06fd90dd9977ec8a418" kind="variable"><name>voxelSize</name></member>
@@ -14531,7 +14540,7 @@
     <member refid="group__AABBTreeGroup_1ga346d2e7774495e3e4ca05a2325f11aaf" kind="typedef"><name>LineTreeTraits2</name></member>
     <member refid="group__AABBTreeGroup_1gacf6e57b5e87718397acc1762969ad77a" kind="typedef"><name>LineTreeTraits3</name></member>
     <member refid="group__AABBTreeGroup_1ga01c75e3c26967a90edbe075a77cb2ca9" kind="typedef"><name>AABBTreeNodeVec</name></member>
-    <member refid="group__GeneralGroup_1gae52f88b1bf8c3f6f4be260612d836725" kind="typedef"><name>Allocator</name></member>
+    <member refid="group__GeneralGroup_1ga4ed067eb120da131493c19909b1503bb" kind="typedef"><name>AllocatorBase</name></member>
     <member refid="group__GeneralGroup_1gaede2a83d70208855b602da974aafc690" kind="typedef"><name>Polynomialf</name></member>
     <member refid="group__GeneralGroup_1gabef34e50f0274ffd602098869fffd461" kind="typedef"><name>Polynomiald</name></member>
     <member refid="group__GeneralGroup_1gac2fd3accc312c98127c44a0460f5af5d" kind="typedef"><name>Polynomialx</name></member>
@@ -14642,11 +14651,12 @@
     <member refid="group__GeneralGroup_1ga964a181b4bf9b03b222d6e2ad3529487" kind="typedef"><name>FaceMetric</name></member>
     <member refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kind="typedef"><name>EdgeMetric</name></member>
     <member refid="group__GeneralGroup_1gab7a3fa3c0bf9137f59a3a494350314d1" kind="typedef"><name>UndirectedEdgeMetric</name></member>
+    <member refid="group__GeneralGroup_1ga73743648f725f7a8ba67d01ae0e466d5" kind="typedef"><name>HashSet</name></member>
     <member refid="group__GeneralGroup_1gad321412e874739790b445adf4bbb1139" kind="typedef"><name>ParallelHashSet</name></member>
     <member refid="group__GeneralGroup_1ga9c13b23a521cbb81b2b70d44c1d2251e" kind="typedef"><name>FaceHashSet</name></member>
     <member refid="group__GeneralGroup_1ga38a7dfd218690048dcae5c9a85647bc6" kind="typedef"><name>VertHashSet</name></member>
     <member refid="group__GeneralGroup_1gaab2dff43553ca83a7047da7cf31b3c1b" kind="typedef"><name>EdgeHashSet</name></member>
-    <member refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kind="typedef"><name>HashMap</name></member>
+    <member refid="group__GeneralGroup_1ga9dfad208b725d59063370f3881b40552" kind="typedef"><name>HashMap</name></member>
     <member refid="group__GeneralGroup_1ga05d4e4903837647940c265c6939dcfdf" kind="typedef"><name>ParallelHashMap</name></member>
     <member refid="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" kind="typedef"><name>FaceHashMap</name></member>
     <member refid="group__GeneralGroup_1ga5f073f01bf5ba45cd1ca11d8507f494d" kind="typedef"><name>VertHashMap</name></member>
@@ -14834,8 +14844,6 @@
     <member refid="group__GeneralGroup_1ga1b6eaab878e011b609b556f10ce4e7d5" kind="variable"><name>WeightedVertexT</name></member>
     <member refid="group__GeneralGroup_1ga00f8fdc0cbbc74e9d3b0a0b79023f922" kind="variable"><name>WeightedVertex</name></member>
     <member refid="group__GeneralGroup_1gad199d60177879413c7ab7c1b24e30a54" kind="variable"><name>Dipole</name></member>
-    <member refid="group__GeneralGroup_1gad18d27e1aa8c9210d5b1086a3615644e" kind="variable"><name>Hash</name></member>
-    <member refid="group__GeneralGroup_1ga328a03eeb36433aa99e9d41822a84272" kind="variable"><name>Eq</name></member>
     <member refid="group__GeneralGroup_1ga70998e19114b7179469682c1c31c77ae" kind="variable"><name>MeshTopology</name></member>
     <member refid="group__GeneralGroup_1ga49165bcb87a59752b8f02f19ea7f2424" kind="variable"><name>Mesh</name></member>
     <member refid="group__GeneralGroup_1ga1b27efcf0bc43958ffdc2474a71d7730" kind="variable"><name>EdgeLengthMesh</name></member>
@@ -14958,6 +14966,7 @@
     <member refid="group__GeneralGroup_1ga34fb9dd014b4a3bc1bfad3872b89652c" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="group__GeneralGroup_1gab0d30a64fff13912b6a95a78291ba1ea" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="group__GeneralGroup_1gac55797411aface5733212df942d0a0af" kind="function"><name>addBaseToPlanarMesh</name></member>
+    <member refid="group__GeneralGroup_1ga069c10cc19da139f913e3cd6f507b76f" kind="function"><name>operator==</name></member>
     <member refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" kind="function"><name>getAlphaShapeData</name></member>
     <member refid="group__GeneralGroup_1ga6518dbc6c7ff8ff9c2d5eee997acd766" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
     <member refid="group__GeneralGroup_1ga80bd80deacec22067d4234718870c035" kind="function"><name>findBallPivotVertex</name></member>
@@ -15522,7 +15531,7 @@
     <member refid="group__GeneralGroup_1ga0e69561d8c59d6cbfe5db9199465db72" kind="function"><name>contains</name></member>
     <member refid="group__GeneralGroup_1ga1d5cc23c99d2f46783d60010d13d31f9" kind="function"><name>BMap</name></member>
     <member refid="group__GeneralGroup_1gabf67c17ae441516a38345057213cc4c9" kind="function"><name>BMap&lt; VertId, VertId &gt;</name></member>
-    <member refid="group__GeneralGroup_1ga7352d9729644e3fd4d02dd5131bdc652" kind="function"><name>BMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</name></member>
+    <member refid="group__GeneralGroup_1ga319a2f002504047503054ad533abf690" kind="function"><name>BMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</name></member>
     <member refid="group__GeneralGroup_1gac2467062511884bec34fc4442102c639" kind="function"><name>MeshRegion</name></member>
     <member refid="group__GeneralGroup_1ga1e15a094341523800c2e66c4b9d0fff6" kind="function"><name>Polyline&lt; Vector2f &gt;</name></member>
     <member refid="group__GeneralGroup_1ga14ff904b44efe8d73deea9652e3f2713" kind="function"><name>AABBTreePolyline&lt; Vector2f &gt;</name></member>
@@ -21863,7 +21872,9 @@
     <member refid="group__GeneralGroup_1ga5517b355b3a51538470f957d6a23bff1" kind="typedef"><name>LeafTag</name></member>
     <member refid="group__GeneralGroup_1ga7208b3ed4cbf6a7db7c03785856d5131" kind="typedef"><name>LeafId</name></member>
     <member refid="group__GeneralGroup_1gae8c8c6d7c93de2cba91378f547c50a8e" kind="typedef"><name>BoxT</name></member>
-    <member refid="group__GeneralGroup_1gae52f88b1bf8c3f6f4be260612d836725" kind="typedef"><name>Allocator</name></member>
+    <member refid="group__GeneralGroup_1ga4ed067eb120da131493c19909b1503bb" kind="typedef"><name>AllocatorBase</name></member>
+    <member refid="group__GeneralGroup_1ga8bd4851a1bc8ceaf4d330842802e0317" kind="typedef"><name>value_type</name></member>
+    <member refid="group__GeneralGroup_1gae1ad72005968102151033273381f1bf3" kind="typedef"><name>other</name></member>
     <member refid="group__GeneralGroup_1gab29b342345673c2ab559f44111f75bdd" kind="typedef"><name>VTraits</name></member>
     <member refid="group__GeneralGroup_1gaad1f3f595e73be14324c1ad3964ab4fd" kind="typedef"><name>T</name></member>
     <member refid="group__GeneralGroup_1gaede2a83d70208855b602da974aafc690" kind="typedef"><name>Polynomialf</name></member>
@@ -22039,11 +22050,12 @@
     <member refid="group__GeneralGroup_1ga964a181b4bf9b03b222d6e2ad3529487" kind="typedef"><name>FaceMetric</name></member>
     <member refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kind="typedef"><name>EdgeMetric</name></member>
     <member refid="group__GeneralGroup_1gab7a3fa3c0bf9137f59a3a494350314d1" kind="typedef"><name>UndirectedEdgeMetric</name></member>
+    <member refid="group__GeneralGroup_1ga73743648f725f7a8ba67d01ae0e466d5" kind="typedef"><name>HashSet</name></member>
     <member refid="group__GeneralGroup_1gad321412e874739790b445adf4bbb1139" kind="typedef"><name>ParallelHashSet</name></member>
     <member refid="group__GeneralGroup_1ga9c13b23a521cbb81b2b70d44c1d2251e" kind="typedef"><name>FaceHashSet</name></member>
     <member refid="group__GeneralGroup_1ga38a7dfd218690048dcae5c9a85647bc6" kind="typedef"><name>VertHashSet</name></member>
     <member refid="group__GeneralGroup_1gaab2dff43553ca83a7047da7cf31b3c1b" kind="typedef"><name>EdgeHashSet</name></member>
-    <member refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kind="typedef"><name>HashMap</name></member>
+    <member refid="group__GeneralGroup_1ga9dfad208b725d59063370f3881b40552" kind="typedef"><name>HashMap</name></member>
     <member refid="group__GeneralGroup_1ga05d4e4903837647940c265c6939dcfdf" kind="typedef"><name>ParallelHashMap</name></member>
     <member refid="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" kind="typedef"><name>FaceHashMap</name></member>
     <member refid="group__GeneralGroup_1ga5f073f01bf5ba45cd1ca11d8507f494d" kind="typedef"><name>VertHashMap</name></member>
@@ -23317,8 +23329,6 @@
     <member refid="group__GeneralGroup_1ga1b6eaab878e011b609b556f10ce4e7d5" kind="variable"><name>WeightedVertexT</name></member>
     <member refid="group__GeneralGroup_1ga00f8fdc0cbbc74e9d3b0a0b79023f922" kind="variable"><name>WeightedVertex</name></member>
     <member refid="group__GeneralGroup_1gad199d60177879413c7ab7c1b24e30a54" kind="variable"><name>Dipole</name></member>
-    <member refid="group__GeneralGroup_1gad18d27e1aa8c9210d5b1086a3615644e" kind="variable"><name>Hash</name></member>
-    <member refid="group__GeneralGroup_1ga328a03eeb36433aa99e9d41822a84272" kind="variable"><name>Eq</name></member>
     <member refid="group__GeneralGroup_1ga70998e19114b7179469682c1c31c77ae" kind="variable"><name>MeshTopology</name></member>
     <member refid="group__GeneralGroup_1ga49165bcb87a59752b8f02f19ea7f2424" kind="variable"><name>Mesh</name></member>
     <member refid="group__GeneralGroup_1ga1b27efcf0bc43958ffdc2474a71d7730" kind="variable"><name>EdgeLengthMesh</name></member>
@@ -26327,6 +26337,10 @@
     <member refid="group__GeneralGroup_1ga34fb9dd014b4a3bc1bfad3872b89652c" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="group__GeneralGroup_1gab0d30a64fff13912b6a95a78291ba1ea" kind="function"><name>meshPathCurvePoints</name></member>
     <member refid="group__GeneralGroup_1gac55797411aface5733212df942d0a0af" kind="function"><name>addBaseToPlanarMesh</name></member>
+    <member refid="group__GeneralGroup_1ga88f01e137229318830157a8e775cb9cf" kind="function"><name>Allocator</name></member>
+    <member refid="group__GeneralGroup_1ga7d80cc8e2dbd0182e93b88770c40f5fa" kind="function"><name>Allocator</name></member>
+    <member refid="group__GeneralGroup_1gaf3830354fc012518a41ad7c79e6d66ef" kind="function"><name>select_on_container_copy_construction</name></member>
+    <member refid="group__GeneralGroup_1ga069c10cc19da139f913e3cd6f507b76f" kind="function"><name>operator==</name></member>
     <member refid="group__GeneralGroup_1gab027a43036b782d7ea846bda9372d022" kind="function"><name>coords</name></member>
     <member refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" kind="function"><name>getAlphaShapeData</name></member>
     <member refid="group__GeneralGroup_1ga878fb317a1812fcecb1a38141767edce" kind="function"><name>operator+=</name></member>
@@ -27792,7 +27806,7 @@
     <member refid="group__GeneralGroup_1ga0e69561d8c59d6cbfe5db9199465db72" kind="function"><name>contains</name></member>
     <member refid="group__GeneralGroup_1ga1d5cc23c99d2f46783d60010d13d31f9" kind="function"><name>BMap</name></member>
     <member refid="group__GeneralGroup_1gabf67c17ae441516a38345057213cc4c9" kind="function"><name>BMap&lt; VertId, VertId &gt;</name></member>
-    <member refid="group__GeneralGroup_1ga7352d9729644e3fd4d02dd5131bdc652" kind="function"><name>BMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</name></member>
+    <member refid="group__GeneralGroup_1ga319a2f002504047503054ad533abf690" kind="function"><name>BMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</name></member>
     <member refid="group__GeneralGroup_1gac2467062511884bec34fc4442102c639" kind="function"><name>MeshRegion</name></member>
     <member refid="group__GeneralGroup_1ga1e15a094341523800c2e66c4b9d0fff6" kind="function"><name>Polyline&lt; Vector2f &gt;</name></member>
     <member refid="group__GeneralGroup_1ga14ff904b44efe8d73deea9652e3f2713" kind="function"><name>AABBTreePolyline&lt; Vector2f &gt;</name></member>

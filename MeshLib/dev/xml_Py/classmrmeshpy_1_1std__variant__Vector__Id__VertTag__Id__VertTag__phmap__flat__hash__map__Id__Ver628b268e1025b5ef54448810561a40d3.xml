@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1a0e89cf52aead08464ca6b121f7c104f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69097" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69097" bodyend="69098"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1a75b4d16de9edf6a7d93adede5cecf379" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.__init__</definition>
+        <argsstring>(self, std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3" kindref="compound">std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69100" bodyend="69101"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1adda72588596584faf30e3dec8836b1ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.__init__</definition>
+        <argsstring>(self, VertMap arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69103" bodyend="69104"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1a7c8ac0f1dc4de32885b58a5ca5cb75ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.__init__</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag__phmap__Hash__Id__VertTag__phm00f40942631704a5358ceae733fe21e3" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69106" bodyend="69107"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1a111ddcc7c33748ccaa97be8eeeb3b96f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.current_type</definition>
+        <argsstring>(self)</argsstring>
+        <name>current_type</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.current_type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the current type name as a string. Call `get_&lt;TypeName&gt;()` to get the value.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69108" bodyend="69111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1af81c423db168717e065f7c55cf79289d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition> VertMap mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.get_Vector_Id_VertTag_Id_VertTag</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_Vector_Id_VertTag_Id_VertTag</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.get_Vector_Id_VertTag_Id_VertTag</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69112" bodyend="69115"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1a171beb7be9c3fc7a91f6b51b7083ffb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag__phmap__Hash__Id__VertTag__phm00f40942631704a5358ceae733fe21e3" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.get_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag.get_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69116" bodyend="69119"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_variant_VertMap_phmap_flat_hash_map_VertId_VertId_phmap_Hash_VertId_phmap_EqualTo_VertId_Allocator_std_pair_const_VertId_VertId
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69092" bodyend="69119"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1a0e89cf52aead08464ca6b121f7c104f3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1a75b4d16de9edf6a7d93adede5cecf379" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1adda72588596584faf30e3dec8836b1ad" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1a7c8ac0f1dc4de32885b58a5ca5cb75ba" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1a111ddcc7c33748ccaa97be8eeeb3b96f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</scope><name>current_type</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1a171beb7be9c3fc7a91f6b51b7083ffb5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</scope><name>get_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__VertTag__Id__VertTag__phmap__flat__hash__map__Id__Ver628b268e1025b5ef54448810561a40d3_1af81c423db168717e065f7c55cf79289d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_VertTag_Id_VertTag_phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</scope><name>get_Vector_Id_VertTag_Id_VertTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

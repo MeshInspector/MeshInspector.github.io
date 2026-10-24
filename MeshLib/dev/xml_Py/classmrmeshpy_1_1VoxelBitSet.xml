@@ -829,10 +829,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="100183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="100183" bodyend="100184"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a3250d95c6673b873c503d819ca10cfb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a6090fff7fa37e962ead1856041f45c01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
         <definition> VoxelBitSet mrmeshpy.VoxelBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag map)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.VoxelBitSet.getMapping</qualifiedname>
         <param>
@@ -840,7 +840,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag" kindref="compound">phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e" kindref="compound">phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</ref></type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -877,10 +877,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="100189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="100189" bodyend="100190"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a2329b19e1da525ec7ab1390ba223adf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelBitSet_1a5267e1fae773fef71c7cf184e0990e2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
         <definition> VoxelBitSet mrmeshpy.VoxelBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag map, int resSize)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag map, int resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.VoxelBitSet.getMapping</qualifiedname>
         <param>
@@ -888,7 +888,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag" kindref="compound">phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VoxelTag__Id__VoxelTag__phmap__Hash__Id__VoxelTag__524c235f171f4541658799586e344e4e" kindref="compound">phmap_flat_hash_map_Id_VoxelTag_Id_VoxelTag_phmap_Hash_Id_VoxelTag_phmap_EqualTo_Id_VoxelTag_Allocator_std_pair_Id_VoxelTag_const_Id_VoxelTag</ref></type>
           <declname>map</declname>
         </param>
         <param>
@@ -1310,9 +1310,9 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1VoxelBitSet_1abfb6019c01800f2ac3f9fd608d2c139d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1VoxelBitSet_1a1e77208f52a7fcc05796496b73340c37" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1VoxelBitSet_1ab95c6373ec6b1605b296e4f83be7bee8" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1VoxelBitSet_1a3250d95c6673b873c503d819ca10cfb7" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a6090fff7fa37e962ead1856041f45c01" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1VoxelBitSet_1aee0157cfbd5a8e52e3a681abfb9f7f91" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1VoxelBitSet_1a2329b19e1da525ec7ab1390ba223adf4" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VoxelBitSet_1a5267e1fae773fef71c7cf184e0990e2c" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1VoxelBitSet_1a4c8aebbf55fb9eb02c2ed478c6816c2e" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1VoxelBitSet_1a6b5a68d538548712878dcc05c735f60d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelBitSet</scope><name>is_subset_of</name></member>

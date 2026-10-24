@@ -1,7 +1,7 @@
 var classMR_1_1Const__DecimateSettings =
 [
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a3a3dde2ea4cfeb3893a023c4ad3769fa", null ],
-    [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a2a89cca368f1baeb9fb66aac27561819", null ],
+    [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a3183d68ebbeed51b585bb98bc6177249", null ],
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a416cbe92341394d850efa8a7306a0d67", null ],
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a476b386045686fc33af580f15bf4fd1c", null ],
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#aed5f611167dc3065bea632c41eb1e2d8", null ],
@@ -13,7 +13,7 @@ var classMR_1_1Const__DecimateSettings =
     [ "__ptr_storage_partFaces", "classMR_1_1Const__DecimateSettings.html#a17351744d3e46ac91aeb7be1e3052a28", null ],
     [ "__ptr_storage_region", "classMR_1_1Const__DecimateSettings.html#a3e442e0e6b96b9c62c50ddcb526ead72", null ],
     [ "__ptr_storage_regionEdges", "classMR_1_1Const__DecimateSettings.html#a9f9a5b2b79b1bfc14c3570811bd98b42", null ],
-    [ "__ptr_storage_twinMap", "classMR_1_1Const__DecimateSettings.html#a848193fe93368a106d3f52dde320ebe4", null ],
+    [ "__ptr_storage_twinMap", "classMR_1_1Const__DecimateSettings.html#a542d8ae23994679805cbba8e25f02c74", null ],
     [ "__ptr_storage_vertForms", "classMR_1_1Const__DecimateSettings.html#a5b44c6180de01bed11c517db1abbc1af", null ],
     [ "__ref_storage_angleWeightedDistToPlane", "classMR_1_1Const__DecimateSettings.html#a1c294ea457892ee12391778669fc91d9", null ],
     [ "__ref_storage_collapseNearNotFlippable", "classMR_1_1Const__DecimateSettings.html#a0c4b9a990c58f13bf69fd2092bdd4709", null ],
@@ -69,6 +69,6 @@ var classMR_1_1Const__DecimateSettings =
     [ "tinyEdgeLength", "classMR_1_1Const__DecimateSettings.html#a849c5886afce8ef09720bf5caad2e18b", null ],
     [ "touchBdVerts", "classMR_1_1Const__DecimateSettings.html#a1680839f94bd1935aa03f0d2c577693a", null ],
     [ "touchNearBdEdges", "classMR_1_1Const__DecimateSettings.html#a34798cc3e7ea63add5d391ccf3032c61", null ],
-    [ "twinMap", "classMR_1_1Const__DecimateSettings.html#ad4e4fad4a276646ec24438bcb8411e51", null ],
+    [ "twinMap", "classMR_1_1Const__DecimateSettings.html#aa07a4410f188bbc1af8b3b55218232ab", null ],
     [ "vertForms", "classMR_1_1Const__DecimateSettings.html#aa88d919e73cd061d59f0e0ea5b7a23eb", null ]
 ];

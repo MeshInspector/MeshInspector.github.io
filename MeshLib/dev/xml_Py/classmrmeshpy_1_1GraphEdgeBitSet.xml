@@ -829,10 +829,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98164" bodyend="98165"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1ae55bce77c01ab51ff370e4a51bb42efb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1ac8493e12b1dac43cffb8b2fd5be72621" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
         <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_GraphEdgeTag_Id_GraphEdgeTag map)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_GraphEdgeTag_Id_GraphEdgeTag_phmap_Hash_Id_GraphEdgeTag_phmap_EqualTo_Id_GraphEdgeTag_Allocator_std_pair_Id_GraphEdgeTag_const_Id_GraphEdgeTag map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.getMapping</qualifiedname>
         <param>
@@ -840,7 +840,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag" kindref="compound">phmap_flat_hash_map_Id_GraphEdgeTag_Id_GraphEdgeTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag__phmap__Hash__Id__Gr8509e72707d59f4aed31f5925792525e" kindref="compound">phmap_flat_hash_map_Id_GraphEdgeTag_Id_GraphEdgeTag_phmap_Hash_Id_GraphEdgeTag_phmap_EqualTo_Id_GraphEdgeTag_Allocator_std_pair_Id_GraphEdgeTag_const_Id_GraphEdgeTag</ref></type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -877,10 +877,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98170" bodyend="98171"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a71895041f014a328541c883d476b69c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a3b4dd607006cd1ab4d9aaf10c0ec4034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
         <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_GraphEdgeTag_Id_GraphEdgeTag map, int resSize)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_GraphEdgeTag_Id_GraphEdgeTag_phmap_Hash_Id_GraphEdgeTag_phmap_EqualTo_Id_GraphEdgeTag_Allocator_std_pair_Id_GraphEdgeTag_const_Id_GraphEdgeTag map, int resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.GraphEdgeBitSet.getMapping</qualifiedname>
         <param>
@@ -888,7 +888,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag" kindref="compound">phmap_flat_hash_map_Id_GraphEdgeTag_Id_GraphEdgeTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag__phmap__Hash__Id__Gr8509e72707d59f4aed31f5925792525e" kindref="compound">phmap_flat_hash_map_Id_GraphEdgeTag_Id_GraphEdgeTag_phmap_Hash_Id_GraphEdgeTag_phmap_EqualTo_Id_GraphEdgeTag_Allocator_std_pair_Id_GraphEdgeTag_const_Id_GraphEdgeTag</ref></type>
           <declname>map</declname>
         </param>
         <param>
@@ -1311,9 +1311,9 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ac8b3e38465415b5bb9c6d6b8e51746e1" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a580a8c1818089d87cf43cba1375b4d55" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1abdce625404d9cd03da73b4bf1a1c1ba0" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ae55bce77c01ab51ff370e4a51bb42efb" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ac8493e12b1dac43cffb8b2fd5be72621" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ac2e79500d3d2076ebf242d437a880c21" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a71895041f014a328541c883d476b69c3" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a3b4dd607006cd1ab4d9aaf10c0ec4034" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a84bd9b4d677aca3f4e720b871ab894d3" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a4b37819366e4c3ab65824621c4a42586" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>is_subset_of</name></member>

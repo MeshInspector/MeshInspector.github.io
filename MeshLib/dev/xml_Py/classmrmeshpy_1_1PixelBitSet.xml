@@ -829,10 +829,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98887" bodyend="98888"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a1274b92a5e1aaf94f5badc815ce0a9e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1af31bcc35d6e1647a9efaef716eb6ffc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
         <definition> PixelBitSet mrmeshpy.PixelBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_PixelTag_Id_PixelTag map)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.PixelBitSet.getMapping</qualifiedname>
         <param>
@@ -840,7 +840,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag" kindref="compound">phmap_flat_hash_map_Id_PixelTag_Id_PixelTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e" kindref="compound">phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</ref></type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -877,10 +877,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98893" bodyend="98894"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1ae09eab22df06f055336868efe8e08ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a383e87803b2c1e8ed1ebf8cef8b5aa6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
         <definition> PixelBitSet mrmeshpy.PixelBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_PixelTag_Id_PixelTag map, int resSize)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag map, int resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.PixelBitSet.getMapping</qualifiedname>
         <param>
@@ -888,7 +888,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag" kindref="compound">phmap_flat_hash_map_Id_PixelTag_Id_PixelTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e" kindref="compound">phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</ref></type>
           <declname>map</declname>
         </param>
         <param>
@@ -1310,9 +1310,9 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1PixelBitSet_1ae7d80bc31699fd8fe1e836fe74067ebc" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1PixelBitSet_1a0bc623b11caef7f964bee3676e239fa3" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1PixelBitSet_1aa7f11ddf61236a74574e149a2de2a64d" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1PixelBitSet_1a1274b92a5e1aaf94f5badc815ce0a9e3" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1af31bcc35d6e1647a9efaef716eb6ffc3" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1PixelBitSet_1a6cc03e0d590648ecabebe3de22f9bd12" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1PixelBitSet_1ae09eab22df06f055336868efe8e08ab3" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a383e87803b2c1e8ed1ebf8cef8b5aa6b" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1PixelBitSet_1a52ab623a5d126cb25290252bc6c1929a" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1PixelBitSet_1a24f4a9a782e907e21f11eac0e443b6c3" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>is_subset_of</name></member>

@@ -461,14 +461,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12454" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12454" bodyend="12457"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a460f04c8003f108837f0aebe03e50481" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ab62a91f0b9b3be3543e004350a19c01b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
         <definition>unsafe MR.GraphEdgeBitSet MR.Const_GraphEdgeBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId map)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId_PhmapHashMRGraphEdgeId_PhmapEqualToMRGraphEdgeId_MRAllocatorStdPairConstMRGraphEdgeIdMRGraphEdgeId map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_GraphEdgeBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId_PhmapHashMRGraphEdgeId_PhmapEqualToMRGraphEdgeId_MRAllocatorStdPairConstMRGraphEdgeIdMRGraphEdgeId</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -503,14 +503,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12470" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="12470" bodyend="12473"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1abc5efa84b71efedb4d0c32ab2b711a64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a9688b75d3669d1b7cf4c2569c10ff334" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
         <definition>unsafe MR.GraphEdgeBitSet MR.Const_GraphEdgeBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId map, nuint resSize)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId_PhmapHashMRGraphEdgeId_PhmapEqualToMRGraphEdgeId_MRAllocatorStdPairConstMRGraphEdgeIdMRGraphEdgeId map, nuint resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_GraphEdgeBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId_PhmapHashMRGraphEdgeId_PhmapEqualToMRGraphEdgeId_MRAllocatorStdPairConstMRGraphEdgeIdMRGraphEdgeId</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1383,18 +1383,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12716" column="59"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ad8a7201f460a68b841e67963674e5dc6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1aa4b7f9ef7f6e38adb664e781899b730a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.GraphEdgeBitSet._Underlying *</type>
-        <definition>static unsafe MR.GraphEdgeBitSet._Underlying * MR.Const_GraphEdgeBitSet.__MR_GraphEdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId._Underlying *map)</argsstring>
-        <name>__MR_GraphEdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId</name>
-        <qualifiedname>MR.Const_GraphEdgeBitSet.__MR_GraphEdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId</qualifiedname>
+        <definition>static unsafe MR.GraphEdgeBitSet._Underlying * MR.Const_GraphEdgeBitSet.__MR_GraphEdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId_phmap_Hash_MR_GraphEdgeId_phmap_EqualTo_MR_GraphEdgeId_MR_Allocator_std_pair_const_MR_GraphEdgeId_MR_GraphEdgeId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId_PhmapHashMRGraphEdgeId_PhmapEqualToMRGraphEdgeId_MRAllocatorStdPairConstMRGraphEdgeIdMRGraphEdgeId._Underlying *map)</argsstring>
+        <name>__MR_GraphEdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId_phmap_Hash_MR_GraphEdgeId_phmap_EqualTo_MR_GraphEdgeId_MR_Allocator_std_pair_const_MR_GraphEdgeId_MR_GraphEdgeId</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.__MR_GraphEdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId_phmap_Hash_MR_GraphEdgeId_phmap_EqualTo_MR_GraphEdgeId_MR_Allocator_std_pair_const_MR_GraphEdgeId_MR_GraphEdgeId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId_PhmapHashMRGraphEdgeId_PhmapEqualToMRGraphEdgeId_MRAllocatorStdPairConstMRGraphEdgeIdMRGraphEdgeId._Underlying *</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -1431,18 +1431,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="12722" column="59"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1aaa1ac7e5a1c46023bbb030a413db8d89" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a8debdb25e1a9f25e7bca81aa5eb1d4db" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.GraphEdgeBitSet._Underlying *</type>
-        <definition>static unsafe MR.GraphEdgeBitSet._Underlying * MR.Const_GraphEdgeBitSet.__MR_GraphEdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId._Underlying *map, nuint resSize)</argsstring>
-        <name>__MR_GraphEdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId</name>
-        <qualifiedname>MR.Const_GraphEdgeBitSet.__MR_GraphEdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId</qualifiedname>
+        <definition>static unsafe MR.GraphEdgeBitSet._Underlying * MR.Const_GraphEdgeBitSet.__MR_GraphEdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId_phmap_Hash_MR_GraphEdgeId_phmap_EqualTo_MR_GraphEdgeId_MR_Allocator_std_pair_const_MR_GraphEdgeId_MR_GraphEdgeId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId_PhmapHashMRGraphEdgeId_PhmapEqualToMRGraphEdgeId_MRAllocatorStdPairConstMRGraphEdgeIdMRGraphEdgeId._Underlying *map, nuint resSize)</argsstring>
+        <name>__MR_GraphEdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId_phmap_Hash_MR_GraphEdgeId_phmap_EqualTo_MR_GraphEdgeId_MR_Allocator_std_pair_const_MR_GraphEdgeId_MR_GraphEdgeId</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.__MR_GraphEdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId_phmap_Hash_MR_GraphEdgeId_phmap_EqualTo_MR_GraphEdgeId_MR_Allocator_std_pair_const_MR_GraphEdgeId_MR_GraphEdgeId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId_PhmapHashMRGraphEdgeId_PhmapEqualToMRGraphEdgeId_MRAllocatorStdPairConstMRGraphEdgeIdMRGraphEdgeId._Underlying *</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1834,9 +1834,9 @@
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1afb76127bd00240783db781b906f0de11" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>__MR_GraphEdgeBitSet_Get_npos</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a631d87042a1a038ba43736f91de2dfee" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>__MR_GraphEdgeBitSet_getMapping_1_MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a1b6cd1ef1b1882f8a2c2352fa30bfd1b" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>__MR_GraphEdgeBitSet_getMapping_1_MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ad8a7201f460a68b841e67963674e5dc6" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>__MR_GraphEdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1aa4b7f9ef7f6e38adb664e781899b730a" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>__MR_GraphEdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId_phmap_Hash_MR_GraphEdgeId_phmap_EqualTo_MR_GraphEdgeId_MR_Allocator_std_pair_const_MR_GraphEdgeId_MR_GraphEdgeId</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a3d991af9cc3d93bec427a28bec8c69ca" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>__MR_GraphEdgeBitSet_getMapping_2_MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1aaa1ac7e5a1c46023bbb030a413db8d89" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>__MR_GraphEdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a8debdb25e1a9f25e7bca81aa5eb1d4db" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>__MR_GraphEdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId_phmap_Hash_MR_GraphEdgeId_phmap_EqualTo_MR_GraphEdgeId_MR_Allocator_std_pair_const_MR_GraphEdgeId_MR_GraphEdgeId</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a46751769843476cfe0ba70f0414c67f3" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>__MR_GraphEdgeBitSet_heapBytes</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a10586fc7ab5c291a2179a4ecf715cba8" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>__MR_GraphEdgeBitSet_intersects</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1aef22b3d0e58d50da72260c8e40cfe78e" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>__MR_GraphEdgeBitSet_is_subset_of</name></member>
@@ -1882,9 +1882,9 @@
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1af0b1bc3a4ba49e2e5273ec316746066c" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1aa440be6276827f3cfb6de2446d149bb6" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a75b56c6385d89ea91a6546c649b6517c" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a460f04c8003f108837f0aebe03e50481" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab62a91f0b9b3be3543e004350a19c01b" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1aa4c330e8a5770a35b8005c3533fbbe46" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__GraphEdgeBitSet_1abc5efa84b71efedb4d0c32ab2b711a64" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a9688b75d3669d1b7cf4c2569c10ff334" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1abf3e5975d2fe8189e3e5634ae31fc954" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1a367aee18e62506c8754b74ff82c4e7f1" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1Const__GraphEdgeBitSet_1ad5bbc494baa45ee6a04e40b367dfb629" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>isSubsetOf</name></member>

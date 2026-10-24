@@ -36,7 +36,9 @@
       <node id="25">
         <label>MRAllocator.h</label>
         <link refid="MRAllocator_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
@@ -688,7 +690,7 @@
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36" refid="group__MeshLoadObjGroup_1ga84ada408307af26a9c2f008bedd2a4fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__MeshLoadObjGroup_1ga84ada408307af26a9c2f008bedd2a4fc" kindref="member">telemetrySignal</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="group__MeshLoadObjGroup_1ga621099b9262cff03b62381068e4dd3c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;std::filesystem::path, std::string&gt;</ref>*<sp/><ref refid="group__MeshLoadObjGroup_1ga621099b9262cff03b62381068e4dd3c3" kindref="member">mtlErrors</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40" refid="group__MeshLoadObjGroup_1ga621099b9262cff03b62381068e4dd3c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9dfad208b725d59063370f3881b40552" kindref="member">HashMap&lt;std::filesystem::path, std::string&gt;</ref>*<sp/><ref refid="group__MeshLoadObjGroup_1ga621099b9262cff03b62381068e4dd3c3" kindref="member">mtlErrors</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43" refid="structMR_1_1MeshLoad_1_1NamedMesh" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MeshLoad_1_1NamedMesh" kindref="compound">NamedMesh</ref></highlight></codeline>

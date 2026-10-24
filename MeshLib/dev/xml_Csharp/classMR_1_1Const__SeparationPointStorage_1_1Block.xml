@@ -4,9 +4,9 @@
     <compoundname>MR::Const_SeparationPointStorage::Block</compoundname>
     <basecompoundref refid="classMR_1_1Const__SeparationPointStorage_1_1Const__Block" prot="public" virt="non-virtual">MR.Const_SeparationPointStorage.Const_Block</basecompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1Const__SeparationPointStorage_1_1Block_1a3d977dd240573a9f54bb7a884fec01fc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Phmap.FlatHashMap_SizeT_StdArrayMRVertId3</type>
-        <definition>new unsafe MR.Phmap.FlatHashMap_SizeT_StdArrayMRVertId3 MR.Const_SeparationPointStorage.Block.smap</definition>
+      <memberdef kind="property" id="classMR_1_1Const__SeparationPointStorage_1_1Block_1a740b836752b764abef78daac74b57c5d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Phmap.FlatHashMap_SizeT_StdArrayMRVertId3_PhmapHashSizeT_PhmapEqualToSizeT_MRAllocatorStdPairConstSizeTStdArrayMRVertId3</type>
+        <definition>new unsafe MR.Phmap.FlatHashMap_SizeT_StdArrayMRVertId3_PhmapHashSizeT_PhmapEqualToSizeT_MRAllocatorStdPairConstSizeTStdArrayMRVertId3 MR.Const_SeparationPointStorage.Block.smap</definition>
         <argsstring></argsstring>
         <name>smap</name>
         <qualifiedname>MR.Const_SeparationPointStorage.Block.smap</qualifiedname>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="253" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="253" bodyend="253"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="253" column="153" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="253" bodyend="253"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SeparationPointStorage_1_1Block_1a611dbf2384e5678fdda11283cac4288f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRVector3f</type>
@@ -116,14 +116,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="306" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="306" bodyend="310"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1_1Block_1ac649a99d00f1eee01e1a51d3e519a0e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1_1Block_1a51c2654648269848d4243ada380cb1e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_SeparationPointStorage.Block.Block</definition>
-        <argsstring>(MR.Phmap._ByValue_FlatHashMap_SizeT_StdArrayMRVertId3 smap, MR.Std._ByValue_Vector_MRVector3f coords, MR.VertId shift, MR._ByValue_Triangulation tris, MR._ByValue_Vector_MRVoxelId_MRFaceId faceMap)</argsstring>
+        <argsstring>(MR.Phmap._ByValue_FlatHashMap_SizeT_StdArrayMRVertId3_PhmapHashSizeT_PhmapEqualToSizeT_MRAllocatorStdPairConstSizeTStdArrayMRVertId3 smap, MR.Std._ByValue_Vector_MRVector3f coords, MR.VertId shift, MR._ByValue_Triangulation tris, MR._ByValue_Vector_MRVoxelId_MRFaceId faceMap)</argsstring>
         <name>Block</name>
         <qualifiedname>MR.Const_SeparationPointStorage.Block.Block</qualifiedname>
         <param>
-          <type>MR.Phmap._ByValue_FlatHashMap_SizeT_StdArrayMRVertId3</type>
+          <type>MR.Phmap._ByValue_FlatHashMap_SizeT_StdArrayMRVertId3_PhmapHashSizeT_PhmapEqualToSizeT_MRAllocatorStdPairConstSizeTStdArrayMRVertId3</type>
           <declname>smap</declname>
         </param>
         <param>
@@ -255,10 +255,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="358" column="75"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1_1Block_1a64e3df4227d90662f0400bd95031c904" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1_1Block_1ac882f97000f9035776baca24897c4154" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.SeparationPointStorage.Block._Underlying *</type>
         <definition>static unsafe MR.SeparationPointStorage.Block._Underlying * MR.Const_SeparationPointStorage.Block.__MR_SeparationPointStorage_Block_ConstructFrom</definition>
-        <argsstring>(MR.Misc._PassBy smap_pass_by, MR.Phmap.FlatHashMap_SizeT_StdArrayMRVertId3._Underlying *smap, MR.Misc._PassBy coords_pass_by, MR.Std.Vector_MRVector3f._Underlying *coords, MR.VertId shift, MR.Misc._PassBy tris_pass_by, MR.Triangulation._Underlying *tris, MR.Misc._PassBy faceMap_pass_by, MR.Vector_MRVoxelId_MRFaceId._Underlying *faceMap)</argsstring>
+        <argsstring>(MR.Misc._PassBy smap_pass_by, MR.Phmap.FlatHashMap_SizeT_StdArrayMRVertId3_PhmapHashSizeT_PhmapEqualToSizeT_MRAllocatorStdPairConstSizeTStdArrayMRVertId3._Underlying *smap, MR.Misc._PassBy coords_pass_by, MR.Std.Vector_MRVector3f._Underlying *coords, MR.VertId shift, MR.Misc._PassBy tris_pass_by, MR.Triangulation._Underlying *tris, MR.Misc._PassBy faceMap_pass_by, MR.Vector_MRVoxelId_MRFaceId._Underlying *faceMap)</argsstring>
         <name>__MR_SeparationPointStorage_Block_ConstructFrom</name>
         <qualifiedname>MR.Const_SeparationPointStorage.Block.__MR_SeparationPointStorage_Block_ConstructFrom</qualifiedname>
         <param>
@@ -266,7 +266,7 @@
           <declname>smap_pass_by</declname>
         </param>
         <param>
-          <type>MR.Phmap.FlatHashMap_SizeT_StdArrayMRVertId3._Underlying *</type>
+          <type>MR.Phmap.FlatHashMap_SizeT_StdArrayMRVertId3_PhmapHashSizeT_PhmapEqualToSizeT_MRAllocatorStdPairConstSizeTStdArrayMRVertId3._Underlying *</type>
           <declname>smap</declname>
         </param>
         <param>
@@ -377,9 +377,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="373" column="73"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1_1Block_1a2852bcbd01528ab26e54623bdc6aa58d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Phmap.FlatHashMap_SizeT_StdArrayMRVertId3._Underlying *</type>
-        <definition>static unsafe MR.Phmap.FlatHashMap_SizeT_StdArrayMRVertId3._Underlying * MR.Const_SeparationPointStorage.Block.__MR_SeparationPointStorage_Block_GetMutable_smap</definition>
+      <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1_1Block_1a0f68ba087a18762408d11a2ffd77fca3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Phmap.FlatHashMap_SizeT_StdArrayMRVertId3_PhmapHashSizeT_PhmapEqualToSizeT_MRAllocatorStdPairConstSizeTStdArrayMRVertId3._Underlying *</type>
+        <definition>static unsafe MR.Phmap.FlatHashMap_SizeT_StdArrayMRVertId3_PhmapHashSizeT_PhmapEqualToSizeT_MRAllocatorStdPairConstSizeTStdArrayMRVertId3._Underlying * MR.Const_SeparationPointStorage.Block.__MR_SeparationPointStorage_Block_GetMutable_smap</definition>
         <argsstring>(MR.SeparationPointStorage.Block._Underlying *_this)</argsstring>
         <name>__MR_SeparationPointStorage_Block_GetMutable_smap</name>
         <qualifiedname>MR.Const_SeparationPointStorage.Block.__MR_SeparationPointStorage_Block_GetMutable_smap</qualifiedname>
@@ -393,7 +393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="376" column="88"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="376" column="167"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SeparationPointStorage_1_1Block_1a65214257d9451998ebc2ea123602c970" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Triangulation._Underlying *</type>
@@ -473,24 +473,24 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="251" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="252" bodyend="380"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a2d75cb54a127219121b855942e536d34" prot="private" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>__MR_SeparationPointStorage_Block_AssignFromAnother</name></member>
-      <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a64e3df4227d90662f0400bd95031c904" prot="private" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>__MR_SeparationPointStorage_Block_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1ac882f97000f9035776baca24897c4154" prot="private" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>__MR_SeparationPointStorage_Block_ConstructFrom</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a755bcbdb84828b7b0cb5cb2605971de3" prot="private" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>__MR_SeparationPointStorage_Block_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a7e49a03c54e56af28de304c1c86043cd" prot="private" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>__MR_SeparationPointStorage_Block_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1af8b3d7201ab4a9bf00110f6f1e55b9b5" prot="private" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>__MR_SeparationPointStorage_Block_GetMutable_coords</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a719405bbd831fc09152536b027012a06" prot="private" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>__MR_SeparationPointStorage_Block_GetMutable_faceMap</name></member>
-      <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a2852bcbd01528ab26e54623bdc6aa58d" prot="private" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>__MR_SeparationPointStorage_Block_GetMutable_smap</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a0f68ba087a18762408d11a2ffd77fca3" prot="private" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>__MR_SeparationPointStorage_Block_GetMutable_smap</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a65214257d9451998ebc2ea123602c970" prot="private" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>__MR_SeparationPointStorage_Block_GetMutable_tris</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Const__Block_1a779579867215f49ea76a3b546792bdc2" prot="protected" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>__ref_storage_shift</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1abc7bf5c4a823b6b717ab01828d6576e9" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a909c70b398c5546367fca37dabf86f86" prot="package" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Block</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a14b58fe86c56fe340a8f1d0798a43d0f" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Block</name></member>
-      <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1ac649a99d00f1eee01e1a51d3e519a0e2" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Block</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a51c2654648269848d4243ada380cb1e5" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Block</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1af34a70dc4bf26d01775340d68db16477" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Block</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1ae396b748dbcd557e94d00bfe70f76469" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Block</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1aafb92041c9a6f8a0bad385400c8e625b" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Block</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Const__Block_1a2bb0005634899a86665674e9b225d299" prot="package" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Const_Block</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Const__Block_1aaabca1b17418b4cd02b5c7bde34415f9" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Const_Block</name></member>
-      <member refid="classMR_1_1Const__SeparationPointStorage_1_1Const__Block_1ab24bde7b3ac46ac1ca8daf613a581754" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Const_Block</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1_1Const__Block_1a9b89aeaf804e395fc48cd75b0b13ee2c" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Const_Block</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Const__Block_1ab4d32443d0a49b3ff7f1b21299755f57" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Const_Block</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Const__Block_1a8f74d01a60eb10fa2b81155256730764" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Const_Block</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Const__Block_1adf4661484466246a8f4df9a251e73ee3" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>Const_Block</name></member>
@@ -500,7 +500,7 @@
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1aed25afc5118aca360cdb5d663ed1c3a2" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>faceMap</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Const__Block_1a0e10c447766a8de7bccf9d530fbed403" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>nextVid</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a7d1c9d3256a95bc1f3f8e8051366fa6a" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>shift</name></member>
-      <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a3d977dd240573a9f54bb7a884fec01fc" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>smap</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a740b836752b764abef78daac74b57c5d" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>smap</name></member>
       <member refid="classMR_1_1Const__SeparationPointStorage_1_1Block_1a3750028467a249e6b5292f4cbffbd799" prot="public" virt="non-virtual"><scope>MR::Const_SeparationPointStorage::Block</scope><name>tris</name></member>
     </listofallmembers>
   </compounddef>

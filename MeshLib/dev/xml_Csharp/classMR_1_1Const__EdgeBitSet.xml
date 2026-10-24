@@ -462,14 +462,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2563" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="2563" bodyend="2566"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__EdgeBitSet_1a6425ddc85b5e4f95a4a54cbb51bfbad7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeBitSet_1a7214eee87d3e8630f999531e4ccae115" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1EdgeBitSet" kindref="compound">MR.EdgeBitSet</ref></type>
         <definition>unsafe MR.EdgeBitSet MR.Const_EdgeBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId map)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId_PhmapHashMREdgeId_PhmapEqualToMREdgeId_MRAllocatorStdPairConstMREdgeIdMREdgeId map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_EdgeBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId_PhmapHashMREdgeId_PhmapEqualToMREdgeId_MRAllocatorStdPairConstMREdgeIdMREdgeId</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -504,14 +504,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2579" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="2579" bodyend="2582"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__EdgeBitSet_1a2c53f920bc2de01fba70cd6c60b6966e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeBitSet_1a58a5ad40f483f2177bd7b9ded0b863e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1EdgeBitSet" kindref="compound">MR.EdgeBitSet</ref></type>
         <definition>unsafe MR.EdgeBitSet MR.Const_EdgeBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId map, nuint resSize)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId_PhmapHashMREdgeId_PhmapEqualToMREdgeId_MRAllocatorStdPairConstMREdgeIdMREdgeId map, nuint resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_EdgeBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId_PhmapHashMREdgeId_PhmapEqualToMREdgeId_MRAllocatorStdPairConstMREdgeIdMREdgeId</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1384,18 +1384,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2825" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__EdgeBitSet_1afdbb1b5ecec780d15c614e509279147e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeBitSet_1aed67aa997622de98acf525ee72763600" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.EdgeBitSet._Underlying *</type>
-        <definition>static unsafe MR.EdgeBitSet._Underlying * MR.Const_EdgeBitSet.__MR_EdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId._Underlying *map)</argsstring>
-        <name>__MR_EdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId</name>
-        <qualifiedname>MR.Const_EdgeBitSet.__MR_EdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId</qualifiedname>
+        <definition>static unsafe MR.EdgeBitSet._Underlying * MR.Const_EdgeBitSet.__MR_EdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId_phmap_Hash_MR_EdgeId_phmap_EqualTo_MR_EdgeId_MR_Allocator_std_pair_const_MR_EdgeId_MR_EdgeId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId_PhmapHashMREdgeId_PhmapEqualToMREdgeId_MRAllocatorStdPairConstMREdgeIdMREdgeId._Underlying *map)</argsstring>
+        <name>__MR_EdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId_phmap_Hash_MR_EdgeId_phmap_EqualTo_MR_EdgeId_MR_Allocator_std_pair_const_MR_EdgeId_MR_EdgeId</name>
+        <qualifiedname>MR.Const_EdgeBitSet.__MR_EdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId_phmap_Hash_MR_EdgeId_phmap_EqualTo_MR_EdgeId_MR_Allocator_std_pair_const_MR_EdgeId_MR_EdgeId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId_PhmapHashMREdgeId_PhmapEqualToMREdgeId_MRAllocatorStdPairConstMREdgeIdMREdgeId._Underlying *</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -1432,18 +1432,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2831" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__EdgeBitSet_1a7b6cbd653d60b96574ea2562a38b6149" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeBitSet_1a057d32025fb6f43049f620f837894a99" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.EdgeBitSet._Underlying *</type>
-        <definition>static unsafe MR.EdgeBitSet._Underlying * MR.Const_EdgeBitSet.__MR_EdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId._Underlying *map, nuint resSize)</argsstring>
-        <name>__MR_EdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId</name>
-        <qualifiedname>MR.Const_EdgeBitSet.__MR_EdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId</qualifiedname>
+        <definition>static unsafe MR.EdgeBitSet._Underlying * MR.Const_EdgeBitSet.__MR_EdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId_phmap_Hash_MR_EdgeId_phmap_EqualTo_MR_EdgeId_MR_Allocator_std_pair_const_MR_EdgeId_MR_EdgeId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId_PhmapHashMREdgeId_PhmapEqualToMREdgeId_MRAllocatorStdPairConstMREdgeIdMREdgeId._Underlying *map, nuint resSize)</argsstring>
+        <name>__MR_EdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId_phmap_Hash_MR_EdgeId_phmap_EqualTo_MR_EdgeId_MR_Allocator_std_pair_const_MR_EdgeId_MR_EdgeId</name>
+        <qualifiedname>MR.Const_EdgeBitSet.__MR_EdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId_phmap_Hash_MR_EdgeId_phmap_EqualTo_MR_EdgeId_MR_Allocator_std_pair_const_MR_EdgeId_MR_EdgeId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MREdgeId_MREdgeId_PhmapHashMREdgeId_PhmapEqualToMREdgeId_MRAllocatorStdPairConstMREdgeIdMREdgeId._Underlying *</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1835,9 +1835,9 @@
       <member refid="classMR_1_1Const__EdgeBitSet_1a10859637db113483d6453168f1ee7a49" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>__MR_EdgeBitSet_Get_npos</name></member>
       <member refid="classMR_1_1Const__EdgeBitSet_1aa5937af146e2561cdb4b403d9b2f8dea" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>__MR_EdgeBitSet_getMapping_1_MR_EdgeBMap</name></member>
       <member refid="classMR_1_1Const__EdgeBitSet_1a0eae8e7f342f2e568338924cefff30f2" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>__MR_EdgeBitSet_getMapping_1_MR_EdgeMap</name></member>
-      <member refid="classMR_1_1Const__EdgeBitSet_1afdbb1b5ecec780d15c614e509279147e" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>__MR_EdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId</name></member>
+      <member refid="classMR_1_1Const__EdgeBitSet_1aed67aa997622de98acf525ee72763600" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>__MR_EdgeBitSet_getMapping_1_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId_phmap_Hash_MR_EdgeId_phmap_EqualTo_MR_EdgeId_MR_Allocator_std_pair_const_MR_EdgeId_MR_EdgeId</name></member>
       <member refid="classMR_1_1Const__EdgeBitSet_1ab76e34a35a67afa038c36298fd0a497a" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>__MR_EdgeBitSet_getMapping_2_MR_EdgeMap</name></member>
-      <member refid="classMR_1_1Const__EdgeBitSet_1a7b6cbd653d60b96574ea2562a38b6149" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>__MR_EdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId</name></member>
+      <member refid="classMR_1_1Const__EdgeBitSet_1a057d32025fb6f43049f620f837894a99" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>__MR_EdgeBitSet_getMapping_2_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId_phmap_Hash_MR_EdgeId_phmap_EqualTo_MR_EdgeId_MR_Allocator_std_pair_const_MR_EdgeId_MR_EdgeId</name></member>
       <member refid="classMR_1_1Const__EdgeBitSet_1af7117df39b0fada84c0725f459023649" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>__MR_EdgeBitSet_heapBytes</name></member>
       <member refid="classMR_1_1Const__EdgeBitSet_1a2f662c668b95e91a10874650dd8587ba" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>__MR_EdgeBitSet_intersects</name></member>
       <member refid="classMR_1_1Const__EdgeBitSet_1a726401ee16af474f13dd9cd54ceab39a" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>__MR_EdgeBitSet_is_subset_of</name></member>
@@ -1883,9 +1883,9 @@
       <member refid="classMR_1_1Const__EdgeBitSet_1a141431492903e6071969e514c644fac4" prot="private" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__EdgeBitSet_1a73f60cdd1c22089f48e107b53684852a" prot="public" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__EdgeBitSet_1ae527a99bfc360fbebe4791787e9820f7" prot="public" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__EdgeBitSet_1a6425ddc85b5e4f95a4a54cbb51bfbad7" prot="public" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__EdgeBitSet_1a7214eee87d3e8630f999531e4ccae115" prot="public" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__EdgeBitSet_1a6086e92637d7a8edfaf28d0952e0af47" prot="public" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__EdgeBitSet_1a2c53f920bc2de01fba70cd6c60b6966e" prot="public" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__EdgeBitSet_1a58a5ad40f483f2177bd7b9ded0b863e0" prot="public" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__EdgeBitSet_1a2eeb920652260f5327851a9c2444f09f" prot="public" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__EdgeBitSet_1a23f6f42e078717a714a8ebefa5d80c0e" prot="public" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1Const__EdgeBitSet_1a6c29ad81734d4ad5cb91fb639a6723cb" prot="public" virt="non-virtual"><scope>MR::Const_EdgeBitSet</scope><name>isSubsetOf</name></member>

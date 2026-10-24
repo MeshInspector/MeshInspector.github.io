@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1ac571cd2fd76bd22c6e98a5a362905584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the map is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94621" bodyend="94624"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a32ab7fb63c8e6a0a30cec8c841c4e839" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__contains__</definition>
+        <argsstring>(self, FaceId arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94626" bodyend="94627"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a28f49d2cb64f8dcfdc95894ac16c89b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__contains__</definition>
+        <argsstring>(self, typing.Any arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94629" bodyend="94630"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1aa26f4adb29efc8389c977f39b3fc25f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__delitem__</definition>
+        <argsstring>(self, FaceId arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94631" bodyend="94632"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1ac82e230c4a252ff05041ee3bc09cd825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__getitem__</definition>
+        <argsstring>(self, FaceId arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94633" bodyend="94634"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1af0aaf0c5e5ba79e6a1942e24fe56153e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94636" bodyend="94637"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1ac94c463de49001b49fdf7d436727273b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__init__</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94639" bodyend="94640"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1abfb204e8324927424e4f04686a5b0989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref>]</type>
+        <definition> typing.Iterator[FaceId] mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94641" bodyend="94642"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a7bb5c32343415b7b7a6cb35ac43a25f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94643" bodyend="94644"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a39dd716c0dd7c19d8215b746e4386e38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94645" bodyend="94648"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a32285cf90172cc0822d8805c66075f08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__setitem__</definition>
+        <argsstring>(self, FaceId arg0, FaceId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94649" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94649" bodyend="94650"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a96c9d2d0beb46e05b5c91b431e913eb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ItemsView</type>
+        <definition> typing.ItemsView mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.items</definition>
+        <argsstring>(self)</argsstring>
+        <name>items</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.items</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94651" bodyend="94652"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a50e9747a96eb85e8001ce84adc5d4277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.KeysView</type>
+        <definition> typing.KeysView mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.keys</definition>
+        <argsstring>(self)</argsstring>
+        <name>keys</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.keys</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94653" bodyend="94654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a976ec36178946f1e48d862f12a4c6fdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94655" bodyend="94656"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a1cac823728d1ad563d503e4651483b38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ValuesView</type>
+        <definition> typing.ValuesView mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.values</definition>
+        <argsstring>(self)</argsstring>
+        <name>values</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag.values</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94657" bodyend="94658"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  FaceHashMap, MapOrHashMap_FaceId_FaceId.Hash, phmap_flat_hash_map_FaceId_FaceId_phmap_Hash_FaceId_phmap_EqualTo_FaceId_Allocator_std_pair_const_FaceId_FaceId
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="94617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="94617" bodyend="94658"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1ac571cd2fd76bd22c6e98a5a362905584" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a32ab7fb63c8e6a0a30cec8c841c4e839" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a28f49d2cb64f8dcfdc95894ac16c89b5" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1aa26f4adb29efc8389c977f39b3fc25f8" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1ac82e230c4a252ff05041ee3bc09cd825" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1af0aaf0c5e5ba79e6a1942e24fe56153e" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1ac94c463de49001b49fdf7d436727273b" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1abfb204e8324927424e4f04686a5b0989" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a7bb5c32343415b7b7a6cb35ac43a25f2" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a39dd716c0dd7c19d8215b746e4386e38" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a32285cf90172cc0822d8805c66075f08" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a96c9d2d0beb46e05b5c91b431e913eb8" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>items</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a50e9747a96eb85e8001ce84adc5d4277" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>keys</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a976ec36178946f1e48d862f12a4c6fdc" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8_1a1cac823728d1ad563d503e4651483b38" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

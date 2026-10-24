@@ -46,10 +46,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="102295" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="102295" bodyend="102298"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1AABBTree_1a9b992ca3f90afb46c8b53abb6a38cf82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTree_1a8f7a25bf7b3cc33221fbe6f92e0cfc43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.AABBTree.addSplitFaces</definition>
-        <argsstring>(self, Mesh mesh, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag new2Old)</argsstring>
+        <argsstring>(self, Mesh mesh, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag new2Old)</argsstring>
         <name>addSplitFaces</name>
         <qualifiedname>mrmeshpy.AABBTree.addSplitFaces</qualifiedname>
         <param>
@@ -61,7 +61,7 @@
           <declname>mesh</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</ref></type>
           <declname>new2Old</declname>
         </param>
         <briefdescription>
@@ -149,7 +149,7 @@ bounding volume hierarchy
       <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a53d6bbe90c9939f33d3b31dbd5f7bb88" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>__getitem__</name></member>
       <member refid="classmrmeshpy_1_1AABBTree_1a31df616df8ebd38c2ca94d5994b10c59" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1AABBTree_1a61d53bd98bc1f2e15dd8e60b2fbb0cbb" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1AABBTree_1a9b992ca3f90afb46c8b53abb6a38cf82" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>addSplitFaces</name></member>
+      <member refid="classmrmeshpy_1_1AABBTree_1a8f7a25bf7b3cc33221fbe6f92e0cfc43" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>addSplitFaces</name></member>
       <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a62aa4a237234ee6e4240611c4d4b20f7" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>BoxT</name></member>
       <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1af474e7aa575461debc92925add9a2002" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>getBoundingBox</name></member>
       <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a267bb32c343cad4671760c34b65f612c" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>getLeafOrder</name></member>

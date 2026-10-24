@@ -461,14 +461,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11355" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11355" bodyend="11358"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__GraphVertBitSet_1a120126c571c859a2f54aac7d4a94c35c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__GraphVertBitSet_1a343c873bb6b3b97b0d92651981a83deb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
         <definition>unsafe MR.GraphVertBitSet MR.Const_GraphVertBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId map)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId_PhmapHashMRGraphVertId_PhmapEqualToMRGraphVertId_MRAllocatorStdPairConstMRGraphVertIdMRGraphVertId map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_GraphVertBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId_PhmapHashMRGraphVertId_PhmapEqualToMRGraphVertId_MRAllocatorStdPairConstMRGraphVertIdMRGraphVertId</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -503,14 +503,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11371" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11371" bodyend="11374"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__GraphVertBitSet_1a6f49870f05fae455e3376ea69143d736" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__GraphVertBitSet_1ad87e8442b795c664c7bbbc15d8267190" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></type>
         <definition>unsafe MR.GraphVertBitSet MR.Const_GraphVertBitSet.getMapping</definition>
-        <argsstring>(MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId map, nuint resSize)</argsstring>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId_PhmapHashMRGraphVertId_PhmapEqualToMRGraphVertId_MRAllocatorStdPairConstMRGraphVertIdMRGraphVertId map, nuint resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>MR.Const_GraphVertBitSet.getMapping</qualifiedname>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId_PhmapHashMRGraphVertId_PhmapEqualToMRGraphVertId_MRAllocatorStdPairConstMRGraphVertIdMRGraphVertId</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1383,18 +1383,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11617" column="59"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__GraphVertBitSet_1ac0dd87709bd5f3516355f7e24b9bec41" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__GraphVertBitSet_1aa455b9b37cb712cd95a37f783431a0e5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.GraphVertBitSet._Underlying *</type>
-        <definition>static unsafe MR.GraphVertBitSet._Underlying * MR.Const_GraphVertBitSet.__MR_GraphVertBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId._Underlying *map)</argsstring>
-        <name>__MR_GraphVertBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId</name>
-        <qualifiedname>MR.Const_GraphVertBitSet.__MR_GraphVertBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId</qualifiedname>
+        <definition>static unsafe MR.GraphVertBitSet._Underlying * MR.Const_GraphVertBitSet.__MR_GraphVertBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId_phmap_Hash_MR_GraphVertId_phmap_EqualTo_MR_GraphVertId_MR_Allocator_std_pair_const_MR_GraphVertId_MR_GraphVertId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId_PhmapHashMRGraphVertId_PhmapEqualToMRGraphVertId_MRAllocatorStdPairConstMRGraphVertIdMRGraphVertId._Underlying *map)</argsstring>
+        <name>__MR_GraphVertBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId_phmap_Hash_MR_GraphVertId_phmap_EqualTo_MR_GraphVertId_MR_Allocator_std_pair_const_MR_GraphVertId_MR_GraphVertId</name>
+        <qualifiedname>MR.Const_GraphVertBitSet.__MR_GraphVertBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId_phmap_Hash_MR_GraphVertId_phmap_EqualTo_MR_GraphVertId_MR_Allocator_std_pair_const_MR_GraphVertId_MR_GraphVertId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId_PhmapHashMRGraphVertId_PhmapEqualToMRGraphVertId_MRAllocatorStdPairConstMRGraphVertIdMRGraphVertId._Underlying *</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -1431,18 +1431,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11623" column="59"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__GraphVertBitSet_1abd9796ae93df8686699caecd899115b4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__GraphVertBitSet_1a38bc01bb8d0f283abcfffd90734315ae" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.GraphVertBitSet._Underlying *</type>
-        <definition>static unsafe MR.GraphVertBitSet._Underlying * MR.Const_GraphVertBitSet.__MR_GraphVertBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId</definition>
-        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId._Underlying *map, nuint resSize)</argsstring>
-        <name>__MR_GraphVertBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId</name>
-        <qualifiedname>MR.Const_GraphVertBitSet.__MR_GraphVertBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId</qualifiedname>
+        <definition>static unsafe MR.GraphVertBitSet._Underlying * MR.Const_GraphVertBitSet.__MR_GraphVertBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId_phmap_Hash_MR_GraphVertId_phmap_EqualTo_MR_GraphVertId_MR_Allocator_std_pair_const_MR_GraphVertId_MR_GraphVertId</definition>
+        <argsstring>(_Underlying *_this, MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId_PhmapHashMRGraphVertId_PhmapEqualToMRGraphVertId_MRAllocatorStdPairConstMRGraphVertIdMRGraphVertId._Underlying *map, nuint resSize)</argsstring>
+        <name>__MR_GraphVertBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId_phmap_Hash_MR_GraphVertId_phmap_EqualTo_MR_GraphVertId_MR_Allocator_std_pair_const_MR_GraphVertId_MR_GraphVertId</name>
+        <qualifiedname>MR.Const_GraphVertBitSet.__MR_GraphVertBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId_phmap_Hash_MR_GraphVertId_phmap_EqualTo_MR_GraphVertId_MR_Allocator_std_pair_const_MR_GraphVertId_MR_GraphVertId</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId._Underlying *</type>
+          <type>MR.Phmap.Const_FlatHashMap_MRGraphVertId_MRGraphVertId_PhmapHashMRGraphVertId_PhmapEqualToMRGraphVertId_MRAllocatorStdPairConstMRGraphVertIdMRGraphVertId._Underlying *</type>
           <declname>map</declname>
         </param>
         <param>
@@ -1834,9 +1834,9 @@
       <member refid="classMR_1_1Const__GraphVertBitSet_1af12e3fc89f668746ef97c2169835488a" prot="private" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>__MR_GraphVertBitSet_Get_npos</name></member>
       <member refid="classMR_1_1Const__GraphVertBitSet_1ad623a1702272e55942debdd17be78ba0" prot="private" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>__MR_GraphVertBitSet_getMapping_1_MR_BMap_MR_GraphVertId_MR_GraphVertId</name></member>
       <member refid="classMR_1_1Const__GraphVertBitSet_1a903c931c1c4e10347c92ebef61318820" prot="private" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>__MR_GraphVertBitSet_getMapping_1_MR_Vector_MR_GraphVertId_MR_GraphVertId</name></member>
-      <member refid="classMR_1_1Const__GraphVertBitSet_1ac0dd87709bd5f3516355f7e24b9bec41" prot="private" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>__MR_GraphVertBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1aa455b9b37cb712cd95a37f783431a0e5" prot="private" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>__MR_GraphVertBitSet_getMapping_1_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId_phmap_Hash_MR_GraphVertId_phmap_EqualTo_MR_GraphVertId_MR_Allocator_std_pair_const_MR_GraphVertId_MR_GraphVertId</name></member>
       <member refid="classMR_1_1Const__GraphVertBitSet_1a8d680df534d194e29986444889bcf434" prot="private" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>__MR_GraphVertBitSet_getMapping_2_MR_Vector_MR_GraphVertId_MR_GraphVertId</name></member>
-      <member refid="classMR_1_1Const__GraphVertBitSet_1abd9796ae93df8686699caecd899115b4" prot="private" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>__MR_GraphVertBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a38bc01bb8d0f283abcfffd90734315ae" prot="private" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>__MR_GraphVertBitSet_getMapping_2_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId_phmap_Hash_MR_GraphVertId_phmap_EqualTo_MR_GraphVertId_MR_Allocator_std_pair_const_MR_GraphVertId_MR_GraphVertId</name></member>
       <member refid="classMR_1_1Const__GraphVertBitSet_1a1a459521109050a6a60896fd766cfa63" prot="private" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>__MR_GraphVertBitSet_heapBytes</name></member>
       <member refid="classMR_1_1Const__GraphVertBitSet_1a90aff9aa1d78cefe73909107b3626f0a" prot="private" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>__MR_GraphVertBitSet_intersects</name></member>
       <member refid="classMR_1_1Const__GraphVertBitSet_1a2c1adc57bc878b8f689be4321345eb9d" prot="private" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>__MR_GraphVertBitSet_is_subset_of</name></member>
@@ -1882,9 +1882,9 @@
       <member refid="classMR_1_1Const__GraphVertBitSet_1a1df4ef56247ce1647319f5cadddb5a57" prot="private" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__GraphVertBitSet_1aa4c88dc24a35d30187fbe29fac3a8538" prot="public" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__GraphVertBitSet_1a75ebbdf35f3ba38d93a6a76de6f3637f" prot="public" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__GraphVertBitSet_1a120126c571c859a2f54aac7d4a94c35c" prot="public" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a343c873bb6b3b97b0d92651981a83deb" prot="public" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__GraphVertBitSet_1adbdaffa8ed8773e59e4e2efa8a0388c8" prot="public" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1Const__GraphVertBitSet_1a6f49870f05fae455e3376ea69143d736" prot="public" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1ad87e8442b795c664c7bbbc15d8267190" prot="public" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1Const__GraphVertBitSet_1a2b7ffe026dbf92061fbb6d0f077e6cc2" prot="public" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Const__GraphVertBitSet_1a50e74f78973c3f6e36e5269ab5a407bb" prot="public" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1Const__GraphVertBitSet_1ae670459d50b797a775625d4e3b779670" prot="public" virt="non-virtual"><scope>MR::Const_GraphVertBitSet</scope><name>isSubsetOf</name></member>

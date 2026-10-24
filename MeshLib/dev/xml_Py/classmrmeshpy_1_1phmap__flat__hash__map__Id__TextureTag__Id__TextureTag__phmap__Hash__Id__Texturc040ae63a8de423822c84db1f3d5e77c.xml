@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1a642583cec7593253b28eac637d21dde1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the map is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76724" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76724" bodyend="76727"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1ab6261bae2ad3bfbfc0083cfb8e574e3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__contains__</definition>
+        <argsstring>(self, TextureId arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76729" bodyend="76730"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1aa26a653e7942d1c969572a360be57b9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__contains__</definition>
+        <argsstring>(self, typing.Any arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76732" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76732" bodyend="76733"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1ae19f3316abbdbe0e003b07f9454b596d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__delitem__</definition>
+        <argsstring>(self, TextureId arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76734" bodyend="76735"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1a5e9773ee8d9c87fa895fc1e5af62e242" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+        <definition> TextureId mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__getitem__</definition>
+        <argsstring>(self, TextureId arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76736" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76736" bodyend="76737"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1aec60561d3d38efb83710288400a4e549" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76739" bodyend="76740"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1aa90d4f72d4f4632c150e44dff6b7b695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__init__</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c" kindref="compound">phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76742" bodyend="76743"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1acd2ae5d1249305195ecaa46bd90187da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref>]</type>
+        <definition> typing.Iterator[TextureId] mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76744" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76744" bodyend="76745"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1af3ec9e30a792c3f895a4eeaf20960eb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76746" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76746" bodyend="76747"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1a0524a98fb7ef66c6ebb47a2dd8bbb536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76748" bodyend="76751"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1af9c6c8c210a874ceb60ee69a32e9e82b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__setitem__</definition>
+        <argsstring>(self, TextureId arg0, TextureId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76752" bodyend="76753"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1a7d654af1b5e22479685a0ea5162be74c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ItemsView</type>
+        <definition> typing.ItemsView mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.items</definition>
+        <argsstring>(self)</argsstring>
+        <name>items</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.items</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76754" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76754" bodyend="76755"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1aae7d2dddb195d4cea9063f5a39d8b8f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.KeysView</type>
+        <definition> typing.KeysView mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.keys</definition>
+        <argsstring>(self)</argsstring>
+        <name>keys</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.keys</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76756" bodyend="76757"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1a8f5e6eebc49d698fce8d19e31dedff8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76758" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76758" bodyend="76759"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1a16452fa9b081d645b67ca934f149612e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ValuesView</type>
+        <definition> typing.ValuesView mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.values</definition>
+        <argsstring>(self)</argsstring>
+        <name>values</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag.values</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76760" bodyend="76761"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  phmap_flat_hash_map_TextureId_TextureId_phmap_Hash_TextureId_phmap_EqualTo_TextureId_Allocator_std_pair_const_TextureId_TextureId
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76720" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76720" bodyend="76761"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1a642583cec7593253b28eac637d21dde1" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1ab6261bae2ad3bfbfc0083cfb8e574e3f" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1aa26a653e7942d1c969572a360be57b9d" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1ae19f3316abbdbe0e003b07f9454b596d" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1a5e9773ee8d9c87fa895fc1e5af62e242" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1aec60561d3d38efb83710288400a4e549" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1aa90d4f72d4f4632c150e44dff6b7b695" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1acd2ae5d1249305195ecaa46bd90187da" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1af3ec9e30a792c3f895a4eeaf20960eb4" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1a0524a98fb7ef66c6ebb47a2dd8bbb536" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1af9c6c8c210a874ceb60ee69a32e9e82b" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1a7d654af1b5e22479685a0ea5162be74c" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>items</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1aae7d2dddb195d4cea9063f5a39d8b8f8" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>keys</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1a8f5e6eebc49d698fce8d19e31dedff8a" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c_1a16452fa9b081d645b67ca934f149612e" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
