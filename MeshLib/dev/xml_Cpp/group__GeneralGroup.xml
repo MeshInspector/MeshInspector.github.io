@@ -14321,11 +14321,11 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>allocator of MeshLib containers that benefit from mimalloc: mimalloc explicitly, std::allocator in Emscripten builds, where malloc is mimalloc already (-sMALLOC=mimalloc), and in macOS Homebrew builds </para>
+<para>allocator of MeshLib containers that benefit from mimalloc: mimalloc explicitly, std::allocator in Emscripten builds, where malloc is mimalloc already (-sMALLOC=mimalloc), and with MRMESH_NO_MIMALLOC </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRAllocator.h" line="34" column="1" bodyfile="MRMesh/MRAllocator.h" bodystart="34" bodyend="-1"/>
+        <location file="MRMesh/MRAllocator.h" line="33" column="1" bodyfile="MRMesh/MRAllocator.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gab29b342345673c2ab559f44111f75bdd" prot="public" static="no">
         <type>VectorTraits&lt; V &gt;</type>
