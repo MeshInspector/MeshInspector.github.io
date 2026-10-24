@@ -15,6 +15,15 @@ fi
 # Use "MeshLib/local" as default if $1 is not provided
 TARGET_DIR="${1:-MeshLib/local}"
 
+# Doxygen XML is consumed only by show_statistics() below. Keep it (and the
+# metrics it produces) outside the published tree and out of git, so the
+# deploy step's `git add -A` cannot commit it. Absolute paths on purpose:
+# a relative XML_OUTPUT is resolved against Doxygen's OUTPUT_DIRECTORY,
+# which is the published directory.
+REPO_ROOT="$(realpath .)"
+DOXYSTAT_XML_DIR="$REPO_ROOT/doxystat-xml"
+DOXYSTAT_METRICS_FILE="$REPO_ROOT/doxystat-metrics.txt"
+
 prepare_source_files() {
     CURRENT_DIR=$(pwd)
     cd ../MeshLib/
@@ -38,6 +47,9 @@ prepare_output_directory() {
     mkdir -p ${TARGET_DIR}/html
     # clear output directory
     rm -rf ${TARGET_DIR}/html/*
+    # drop XML from a previous run so stale modules cannot skew the metrics
+    rm -rf "$DOXYSTAT_XML_DIR"
+    mkdir -p "$DOXYSTAT_XML_DIR"
 }
 
 clear_log_files() {
@@ -53,7 +65,7 @@ generate_documentation_simple() {
         cp Doxyfile${MODULE} Doxyfile${MODULE}Tag
         if [ "$MODULE" != "Main" ]; then
             echo "GENERATE_XML = YES" >> Doxyfile${MODULE}Tag
-            echo "XML_OUTPUT = ./xml_${MODULE}" >> Doxyfile${MODULE}Tag
+            echo "XML_OUTPUT = ${DOXYSTAT_XML_DIR}/xml_${MODULE}" >> Doxyfile${MODULE}Tag
         fi
         if [ "$MODULE" = "Cpp" ]; then
             echo "STRIP_FROM_INC_PATH = $(realpath ../MeshLib/source)" >> Doxyfile${MODULE}Tag
@@ -126,7 +138,7 @@ generate_documentation() {
         done
         if [ "$MODULE" = "Cpp" ]; then
             echo "GENERATE_XML = YES" >> Doxyfile${MODULE}Tag
-            echo "XML_OUTPUT = ./xml" >> Doxyfile${MODULE}Tag
+            echo "XML_OUTPUT = ${DOXYSTAT_XML_DIR}/xml_${MODULE}" >> Doxyfile${MODULE}Tag
         fi
         echo "========== ${MODULE}" >> log.txt
         echo "========== ${MODULE}" >> log_error.txt
@@ -163,14 +175,35 @@ post_processing() {
 }
 
 show_statistics() {
+    echo "7.show_statistics"
+    # doxystat's generateDS-produced parsers need third-party modules that are
+    # absent from some runner images; keep this check in sync with requirements.txt.
+    if ! python3 -c 'import lxml, six' 2>/dev/null; then
+        python3 -m pip install --quiet --disable-pip-version-check -r ./scripts/doxystat/requirements.txt || {
+            echo "[WARN] could not install doxystat dependencies, skipping metrics"
+            return 0
+        }
+    fi
+    : > "$DOXYSTAT_METRICS_FILE"
     for MODULE in ${MODULES[*]}
     do
-        if [ "$MODULE" != "Main" ]; then
-            echo "Module ${MODULE}"
-            python3 ./scripts/doxystat/metrics.py ${TARGET_DIR}/xml_${MODULE}
+        if [ "$MODULE" = "Main" ]; then
+            continue
         fi
+        if [ ! -f "${DOXYSTAT_XML_DIR}/xml_${MODULE}/index.xml" ]; then
+            echo "[WARN] no doxygen XML for ${MODULE}, skipping its metrics"
+            continue
+        fi
+        echo "Module ${MODULE}" | tee -a "$DOXYSTAT_METRICS_FILE"
+        # metrics.py writes its undocumented-class list to stats.txt in the
+        # current directory, so run it from inside the XML dir to keep that
+        # out of the published tree as well.
+        ( cd "${DOXYSTAT_XML_DIR}/xml_${MODULE}" && python3 "$REPO_ROOT/scripts/doxystat/metrics.py" . ) \
+            | tee -a "$DOXYSTAT_METRICS_FILE"
     done
-    cat log_time.txt
+    [[ -f log_time.txt ]] && tee -a "$DOXYSTAT_METRICS_FILE" < log_time.txt
+    # metrics are informational: never fail the docs run over them
+    return 0
 }
 
 check_links() {
@@ -192,5 +225,5 @@ if [[ $exit_code -ne 0 ]]; then
 fi
 post_processing
 check_links
-#show_statistics
+show_statistics
 
