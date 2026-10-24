@@ -1,8 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#ad6c9725291a5290f3753907ffc489015":[9,0,1,0,1,43,1,0],
-"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#ad6c9725291a5290f3753907ffc489015":[9,0,2,0,2,27,1,0],
-"classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html":[9,0,1,0,1,43,2],
 "classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html":[9,0,2,0,2,27,2],
 "classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html#a0623cf78d38d71dc0772b8cf9cf19016":[9,0,1,0,1,43,2,0],
 "classMR_1_1RenderFeatures_1_1RenderConeFeatureObject.html#a0623cf78d38d71dc0772b8cf9cf19016":[9,0,2,0,2,27,2,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX11 =
 "classMR_1_1SpaceMouse_1_1Controller.html#a5d0877131419a2bd47589b86fd17469a":[9,0,2,0,2,32,1,4],
 "classMR_1_1SpaceMouse_1_1Controller.html#a681fa85509ccb8cb010bf04d0b33a2a0":[9,0,1,0,1,48,1,1],
 "classMR_1_1SpaceMouse_1_1Controller.html#a681fa85509ccb8cb010bf04d0b33a2a0":[9,0,2,0,2,32,1,1],
-"classMR_1_1SpaceMouse_1_1Controller.html#aaa34dd39dfd69309293fc8871f7378b1":[9,0,1,0,1,48,1,0]
+"classMR_1_1SpaceMouse_1_1Controller.html#aaa34dd39dfd69309293fc8871f7378b1":[9,0,1,0,1,48,1,0],
+"classMR_1_1SpaceMouse_1_1Controller.html#aaa34dd39dfd69309293fc8871f7378b1":[9,0,2,0,2,32,1,0],
+"classMR_1_1SpaceMouse_1_1Controller.html#ae8826c26d7999552582481a659b7eed7":[9,0,1,0,1,48,1,3],
+"classMR_1_1SpaceMouse_1_1Controller.html#ae8826c26d7999552582481a659b7eed7":[9,0,2,0,2,32,1,3]
 };

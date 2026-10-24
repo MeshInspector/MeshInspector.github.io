@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"classmrmeshpy_1_1SegmPointd.html#a3318efed86387d4503a846a235a5e9cf":[9,1,0,0,2,853,11],
+"classmrmeshpy_1_1SegmPointd.html#a3318efed86387d4503a846a235a5e9cf":[9,1,1,0,1,853,11],
 "classmrmeshpy_1_1SegmPointd.html#a367168893bab885f794c627589193a4f":[9,1,0,0,2,853,9],
 "classmrmeshpy_1_1SegmPointd.html#a367168893bab885f794c627589193a4f":[9,1,1,0,1,853,9],
 "classmrmeshpy_1_1SegmPointd.html#a4fa87077c486b4dd2b99c98e08c87f7c":[9,1,0,0,2,853,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#afc1144032d4fc1610cab3ac00c78986c":[9,1,0,0,2,858,10],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#afc1144032d4fc1610cab3ac00c78986c":[9,1,1,0,1,858,10],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#afc304e46ecd87100ea82676b6c2a7707":[9,1,0,0,2,858,22],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#afc304e46ecd87100ea82676b6c2a7707":[9,1,1,0,1,858,22],
-"classmrmeshpy_1_1ShellVertexInfo.html":[9,1,0,0,2,860],
-"classmrmeshpy_1_1ShellVertexInfo.html":[9,1,1,0,1,860]
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#afc304e46ecd87100ea82676b6c2a7707":[9,1,1,0,1,858,22]
 };

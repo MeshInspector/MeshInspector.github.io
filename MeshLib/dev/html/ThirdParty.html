@@ -317,7 +317,7 @@ MRMCPGateway</h3>
 </table>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md211"></a>
 Bundled executables</h3>
-<p>MeshLib libraries allocate some containers (e.g. BitSet) with the mimalloc allocator explicitly and leave the system allocator in place; the distributions ship it as a shared library (MRMimalloc on Linux and macOS), and WebAssembly builds embed Emscripten's bundled copy of it instead.</p>
+<p>The Windows distribution ships its executables (MeshViewer, meshconv, MRTest) with the mimalloc allocator enabled, and the Linux one ships it as a shared library replacing the system allocator in MeshViewer and MRTest; WebAssembly builds embed Emscripten's bundled copy of it.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Name  </th><th class="markdownTableHeadNone">Description  </th><th class="markdownTableHeadNone">License  </th></tr>
