@@ -27,6 +27,16 @@
         <childnode refid="31" relation="include">
         </childnode>
       </node>
+      <node id="64">
+        <label>MRAllocator.h</label>
+        <link refid="MRAllocator_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+      </node>
       <node id="63">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
@@ -34,13 +44,15 @@
         </childnode>
         <childnode refid="64" relation="include">
         </childnode>
-        <childnode refid="65" relation="include">
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
         </childnode>
         <childnode refid="59" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="66" relation="include">
+        <childnode refid="68" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
@@ -84,9 +96,9 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="70" relation="include">
+        <childnode refid="72" relation="include">
         </childnode>
-        <childnode refid="67" relation="include">
+        <childnode refid="69" relation="include">
         </childnode>
       </node>
       <node id="50">
@@ -135,7 +147,7 @@
         <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="67">
+      <node id="69">
         <label>MRHeapBytes.h</label>
         <link refid="MRHeapBytes_8h"/>
         <childnode refid="3" relation="include">
@@ -157,7 +169,7 @@
         <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="64">
+      <node id="66">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="3" relation="include">
@@ -175,7 +187,7 @@
         <childnode refid="30" relation="include">
         </childnode>
       </node>
-      <node id="69">
+      <node id="71">
         <label>MRImage.h</label>
         <link refid="MRImage_8h"/>
         <childnode refid="50" relation="include">
@@ -184,7 +196,7 @@
         </childnode>
         <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="67" relation="include">
+        <childnode refid="69" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
@@ -239,10 +251,10 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="68">
+      <node id="70">
         <label>MRMeshTexture.h</label>
         <link refid="MRMeshTexture_8h"/>
-        <childnode refid="69" relation="include">
+        <childnode refid="71" relation="include">
         </childnode>
         <childnode refid="51" relation="include">
         </childnode>
@@ -310,18 +322,18 @@
         </childnode>
         <childnode refid="58" relation="include">
         </childnode>
-        <childnode refid="67" relation="include">
+        <childnode refid="69" relation="include">
         </childnode>
-        <childnode refid="68" relation="include">
+        <childnode refid="70" relation="include">
         </childnode>
       </node>
-      <node id="70">
+      <node id="72">
         <label>MRObjectPoints.h</label>
         <link refid="MRObjectPoints_8h"/>
-        <childnode refid="71" relation="include">
+        <childnode refid="73" relation="include">
         </childnode>
       </node>
-      <node id="71">
+      <node id="73">
         <label>MRObjectPointsHolder.h</label>
         <link refid="MRObjectPointsHolder_8h"/>
         <childnode refid="7" relation="include">
@@ -332,12 +344,12 @@
         </childnode>
         <childnode refid="56" relation="include">
         </childnode>
-        <childnode refid="72" relation="include">
+        <childnode refid="74" relation="include">
         </childnode>
-        <childnode refid="67" relation="include">
+        <childnode refid="69" relation="include">
         </childnode>
       </node>
-      <node id="72">
+      <node id="74">
         <label>MRPointCloudPart.h</label>
         <link refid="MRPointCloudPart_8h"/>
         <childnode refid="3" relation="include">
@@ -527,7 +539,7 @@
       <node id="36">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="65">
+      <node id="67">
         <label>MRphmap.h</label>
       </node>
       <node id="26">
@@ -536,7 +548,7 @@
       <node id="8">
         <label>array</label>
       </node>
-      <node id="66">
+      <node id="68">
         <label>atomic</label>
       </node>
       <node id="40">
@@ -583,6 +595,9 @@
       </node>
       <node id="34">
         <label>memory</label>
+      </node>
+      <node id="65">
+        <label>mimalloc.h</label>
       </node>
       <node id="54">
         <label>optional</label>

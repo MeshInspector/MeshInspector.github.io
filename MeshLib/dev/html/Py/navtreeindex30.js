@@ -1,7 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"classmrmeshpy_1_1Face2RegionMap.html#afd4d6f9ee5f25571d83bdda76e7593d4":[9,1,1,0,1,266,31],
-"classmrmeshpy_1_1Face2RegionMap.html#afd4d6f9ee5f25571d83bdda76e7593d4":[9,1,1,0,1,266,32],
 "classmrmeshpy_1_1FaceBMap.html":[9,1,0,0,2,268],
 "classmrmeshpy_1_1FaceBMap.html":[9,1,1,0,1,268],
 "classmrmeshpy_1_1FaceBMap.html#a091e92efc929d456d95480a56714cb4f":[9,1,0,0,2,268,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX30 =
 "classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html#a56fe134c9adfb3835e24d9f6d05b78d9":[9,1,0,0,2,271,0,11],
 "classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html#a56fe134c9adfb3835e24d9f6d05b78d9":[9,1,1,0,1,271,0,11],
 "classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html#a66791b84364c9c082852d872956e1c2c":[9,1,0,0,2,271,0,7],
-"classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html#a66791b84364c9c082852d872956e1c2c":[9,1,1,0,1,271,0,7]
+"classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html#a66791b84364c9c082852d872956e1c2c":[9,1,1,0,1,271,0,7],
+"classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html#a96305c1b69fc021c719ffb3fe592ce06":[9,1,0,0,2,271,0,10],
+"classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html#a96305c1b69fc021c719ffb3fe592ce06":[9,1,1,0,1,271,0,10]
 };

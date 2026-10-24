@@ -1,7 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"classmrmeshpy_1_1CompressZipSettings.html#a0fe89d4d4f1d76c7e03d083926e96bdf":[9,1,0,0,2,169,4],
-"classmrmeshpy_1_1CompressZipSettings.html#a0fe89d4d4f1d76c7e03d083926e96bdf":[9,1,1,0,1,169,4],
 "classmrmeshpy_1_1CompressZipSettings.html#a2bd127315cf88d377a8d3146b8b99145":[9,1,0,0,2,169,8],
 "classmrmeshpy_1_1CompressZipSettings.html#a2bd127315cf88d377a8d3146b8b99145":[9,1,1,0,1,169,8],
 "classmrmeshpy_1_1CompressZipSettings.html#a2c748a838dfe9d4454b3d47b37ab2b65":[9,1,0,0,2,169,7],
@@ -249,5 +247,7 @@ var NAVTREEINDEX18 =
 "classmrmeshpy_1_1ConstantCuspParams.html#ad9ec31ce3f7e8f21a871be44a61010f3":[9,1,0,0,2,178,0],
 "classmrmeshpy_1_1ConstantCuspParams.html#ad9ec31ce3f7e8f21a871be44a61010f3":[9,1,1,0,1,178,0],
 "classmrmeshpy_1_1ConstantCuspParams.html#af369e04250172ff9de58dc69d37e7e45":[9,1,0,0,2,178,1],
-"classmrmeshpy_1_1ConstantCuspParams.html#af369e04250172ff9de58dc69d37e7e45":[9,1,1,0,1,178,1]
+"classmrmeshpy_1_1ConstantCuspParams.html#af369e04250172ff9de58dc69d37e7e45":[9,1,1,0,1,178,1],
+"classmrmeshpy_1_1ContourToDistanceMapParams.html":[9,1,0,0,2,183],
+"classmrmeshpy_1_1ContourToDistanceMapParams.html":[9,1,1,0,1,183]
 };
