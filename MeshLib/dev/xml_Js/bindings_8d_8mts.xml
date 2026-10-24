@@ -2446,13 +2446,15 @@
 </simplesect>
 <simplesect kind="warning"><para>Input contours should have no intersections, faces where contours intersects (<computeroutput>bad faces</computeroutput>) will not be allowed for fill</para>
 </simplesect>
+<simplesect kind="warning"><para>Every two consecutive intersections of a contour should lie in one face, and a contour should not fold back at a point inside an edge: a mesh vertex next to such a point is the third vertex of the face the contour goes in there</para>
+</simplesect>
 <simplesect kind="warning"><para>Input mesh will be changed in any case, if <computeroutput>bad faces</computeroutput> are in mesh, mesh will be spoiled, so if you cannot guarantee contours without intersections better make copy of mesh, before using this function </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1940" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1940" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1942" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1942" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1aa41147fbc4f361bfcdfe874d4168c2c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
@@ -2469,7 +2471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1941" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1941" declcolumn="6"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1943" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1943" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a8b3e64d110b67faa202430249169f65d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classPointCloud" kindref="compound">PointCloud</ref></type>
@@ -2491,7 +2493,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1945" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1945" declcolumn="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1947" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1947" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1aabda6c1ad94c0040bbe67f763f31a2da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -2523,7 +2525,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1951" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1951" declcolumn="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1953" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1953" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a7c41c102e364f9b0bf64b74f70e780e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -2559,7 +2561,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1957" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1957" declcolumn="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1959" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1959" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1ab2b87c2317cb2ec5c0d23944a7c7bb8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
@@ -2581,7 +2583,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1961" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1961" declcolumn="6"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1963" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1963" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a0e12a935ff0173aee290a111b77e8945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
@@ -2603,7 +2605,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1965" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1965" declcolumn="6"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1967" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1967" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a88872d4be7b467af91cb25470bc76be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Float32Array</type>
@@ -2628,7 +2630,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1966" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1966" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1968" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1968" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a704d85c4a403c2bcaf0a14d1b0b1090b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>CoordinateConverters</type>
@@ -2649,7 +2651,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1967" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1967" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1969" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1969" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a0d0585b55754284e85a7fab464501cae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classPreciseCollisionResult" kindref="compound">PreciseCollisionResult</ref></type>
@@ -2674,7 +2676,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1968" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1968" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1970" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1970" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1abbab2cfd94d01caa096faeb16ea74390" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>OneMeshContours</type>
@@ -2709,7 +2711,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1974" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1974" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1976" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1976" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1ac5fd2a346f753556275fddc902960491" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -2730,7 +2732,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1975" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1975" declcolumn="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1977" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1977" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a4672ddb1086959dda1b6591c994b0059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -2751,7 +2753,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1976" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1976" declcolumn="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1978" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1978" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a3901c986f38495d31a21a191511f6ce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -2772,7 +2774,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1977" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1977" declcolumn="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1979" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1979" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a666b60a1ccc106c543f58fc62dc2acdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -2793,7 +2795,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1978" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1978" declcolumn="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1980" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1980" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a2944173fe810881fed32e1bdf3bea7e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classUndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -2814,7 +2816,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1979" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1979" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1981" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1981" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1ac33990a500114a0645c8fc359c84680e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classUndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -2835,7 +2837,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1980" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1980" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1982" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1982" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1adcd3bd814b821c7862bf08d761663b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -2856,7 +2858,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1981" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1981" declcolumn="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1983" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1983" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a0f97257b5287a202ab92e310addc6f71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -2877,7 +2879,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1982" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1982" declcolumn="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1984" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1984" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a2a9cf571b8ec815c2aeb0897dcf2bba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classFaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -2899,7 +2901,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1986" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1986" declcolumn="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1988" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1988" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a857cecb984377033cca07838d7b1d392" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classUndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -2920,7 +2922,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1987" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1987" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1989" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1989" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1ae4b973fcfa520ece361141bc0be236dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classUndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -2941,7 +2943,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1988" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1988" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1990" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1990" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1ae82accaa12c2fb234a7f8642239a6f7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -2963,7 +2965,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1992" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1992" declcolumn="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1994" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1994" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a43fe41780d340b0dea9727f39804d27a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Uint32Array</type>
@@ -2985,7 +2987,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1996" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1996" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="1998" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="1998" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a289bf2e5c4ae87fcab17199aa9f759e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Uint32Array</type>
@@ -3003,7 +3005,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2000" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2000" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2002" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2002" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a975864482fee8d32ac918a4d185601c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
@@ -3016,7 +3018,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2001" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2001" declcolumn="6"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2003" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2003" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a9fb988c916e7d330cd176f5156045f62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
@@ -3033,7 +3035,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2002" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2002" declcolumn="6"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2004" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2004" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1ad55ceb3c6879cbfa1a27d5ae64ad99c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
@@ -3054,7 +3056,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2003" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2003" declcolumn="6"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2005" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2005" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a1e68a21a7f4a16775bf5f84a9ede1b8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
@@ -3079,7 +3081,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2004" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2004" declcolumn="6"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2006" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2006" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1ac2b02a1b78517d2f1ff6e3e15fe44b5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
@@ -3108,7 +3110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2005" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2005" declcolumn="6"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2007" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2007" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1accb80e13f3567dbcb438b53d773733fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
@@ -3137,7 +3139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2006" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2006" declcolumn="6"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2008" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2008" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a24d5c888d3bb8eafc8a7117b8d15a353" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -3159,7 +3161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2010" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2010" declcolumn="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2012" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2012" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a87c257b3854ae325b89402c24834baa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classGridMinMax" kindref="compound">GridMinMax</ref></type>
@@ -3176,7 +3178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2011" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2011" declcolumn="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2013" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2013" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a7abd80be6a440920a7aae1226141cc9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
@@ -3198,7 +3200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2015" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2015" declcolumn="6"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2017" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2017" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a4f4146119813c6f4bb5727dfb871546c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -3220,7 +3222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2019" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2019" declcolumn="11"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2021" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2021" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a51588049a36a597f4a6f49d408c5a665" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -3242,7 +3244,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2023" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2023" declcolumn="11"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2025" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2025" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a57642651df2d15199d51a248245329f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVdbVolume" kindref="compound">VdbVolume</ref></type>
@@ -3259,7 +3261,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2024" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2024" declcolumn="11"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2026" column="11" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2026" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a0f2b375b88caa40460c9d930bee99833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classVertCoords" kindref="compound">VertCoords</ref></type>
@@ -3277,7 +3279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2028" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2028" declcolumn="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2030" column="12" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2030" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a198fde9c306b5fa6066f3ee6bd17963c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classFaceNormals" kindref="compound">FaceNormals</ref></type>
@@ -3294,7 +3296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2029" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2029" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2031" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2031" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1af8c8a3557b68661eb16c357817cd311f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
@@ -3312,7 +3314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2033" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2033" declcolumn="6"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2035" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2035" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a29a6da1cabbce9f8f0ae30c26faab411" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMesh" kindref="compound">Mesh</ref></type>
@@ -3334,7 +3336,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2037" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2037" declcolumn="6"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2039" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2039" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1ab0bcc0c88fd4529b6a30825a63c9834e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
@@ -3398,7 +3400,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2047" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2047" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2049" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2049" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1a51bcabb0591363bf0d2ce8f941ec6181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classSignedMeshProjectionResult" kindref="compound">SignedMeshProjectionResult</ref></type>
@@ -3419,7 +3421,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2048" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2048" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2050" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2050" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1abe09b84369253a3baa5f3261d3f9684e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -3441,7 +3443,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2052" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2052" declcolumn="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2054" column="8" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2054" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="bindings_8d_8mts_1ab1ab7d2660d6ccde8e5e5b821f2d3631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3469,7 +3471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2056" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2056" declcolumn="6"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="2058" column="6" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" declline="2058" declcolumn="6"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -4444,131 +4446,131 @@
 <codeline lineno="2076"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1aa205b54286cf0e4ca27adf6bb4a35dbf" kindref="member">generalOffsetMesh</ref>(mp:<sp/>Mesh<sp/>|<sp/>null,<sp/>offset:<sp/>number,<sp/>params:<sp/>GeneralOffsetParameters):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
 <codeline lineno="2082"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a47469e024e102bf53ab0eeac1829a914" kindref="member">thickenMesh</ref>(mesh:<sp/>Mesh<sp/>|<sp/>null,<sp/>offset:<sp/>number,<sp/>params:<sp/>GeneralOffsetParameters):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
 <codeline lineno="2083"><highlight class="normal"><sp/><sp/>OneMeshContours:<sp/>{};</highlight></codeline>
-<codeline lineno="2098"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a12acc9cca325bd22c0eb3f01315c7403" kindref="member">cutMesh</ref>(mesh:<sp/>Mesh<sp/>|<sp/>null,<sp/>contours:<sp/>OneMeshContours,<sp/>params:<sp/>CutMeshParameters):<sp/>CutMeshResult;</highlight></codeline>
-<codeline lineno="2099"><highlight class="normal"><sp/><sp/>PointCloud:<sp/>{</highlight></codeline>
-<codeline lineno="2100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>PointCloud;</highlight></codeline>
-<codeline lineno="2101"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2102"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1aa41147fbc4f361bfcdfe874d4168c2c1" kindref="member">makeConvexHullFromPoints</ref>(pointCloud:<sp/>PointCloud):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
-<codeline lineno="2106"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a8b3e64d110b67faa202430249169f65d" kindref="member">meshToPointCloud</ref>(mesh:<sp/>Mesh<sp/>|<sp/>null,<sp/>saveNormals:<sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal">):<sp/>PointCloud;</highlight></codeline>
-<codeline lineno="2112"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1aabda6c1ad94c0040bbe67f763f31a2da" kindref="member">findAvgPointsRadius</ref>(pointCloud:<sp/>PointCloud,<sp/>avgPoints:<sp/>number):<sp/>number;</highlight></codeline>
-<codeline lineno="2118"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1aabda6c1ad94c0040bbe67f763f31a2da" kindref="member">findAvgPointsRadius</ref>(pointCloud:<sp/>PointCloud,<sp/>avgPoints:<sp/>number,<sp/>samples:<sp/>number):<sp/>number;</highlight></codeline>
-<codeline lineno="2119"><highlight class="normal"><sp/><sp/>TriangulationParameters:<sp/>{</highlight></codeline>
-<codeline lineno="2120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>TriangulationParameters;</highlight></codeline>
-<codeline lineno="2121"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2125"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ab2b87c2317cb2ec5c0d23944a7c7bb8f" kindref="member">triangulatePointCloud</ref>(pointCloud:<sp/>PointCloud,<sp/>params:<sp/>TriangulationParameters):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
-<codeline lineno="2126"><highlight class="normal"><sp/><sp/>PointsLoad:<sp/>{</highlight></codeline>
-<codeline lineno="2127"><highlight class="normal"><sp/><sp/><sp/><sp/>fromAnySupportedFormat(path:<sp/>EmbindString):<sp/>PointCloud;</highlight></codeline>
-<codeline lineno="2128"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2129"><highlight class="normal"><sp/><sp/>PointsSave:<sp/>{</highlight></codeline>
-<codeline lineno="2130"><highlight class="normal"><sp/><sp/><sp/><sp/>toAnySupportedFormat(points:<sp/>PointCloud,<sp/>path:<sp/>EmbindString):<sp/>void;</highlight></codeline>
-<codeline lineno="2131"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2132"><highlight class="normal"><sp/><sp/>PointsToMeshParameters:<sp/>{</highlight></codeline>
-<codeline lineno="2133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>PointsToMeshParameters;</highlight></codeline>
-<codeline lineno="2134"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2138"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a0e12a935ff0173aee290a111b77e8945" kindref="member">pointsToMeshFusion</ref>(cloud:<sp/>PointCloud,<sp/>params:<sp/>PointsToMeshParameters):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
-<codeline lineno="2139"><highlight class="normal"><sp/><sp/>MeshProjectionParameters:<sp/>{</highlight></codeline>
-<codeline lineno="2140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>MeshProjectionParameters;</highlight></codeline>
-<codeline lineno="2141"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2142"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a88872d4be7b467af91cb25470bc76be2" kindref="member">findSignedDistances</ref>(refMesh:<sp/>Mesh<sp/>|<sp/>null,<sp/>mesh:<sp/>Mesh<sp/>|<sp/>null,<sp/>params:<sp/>MeshProjectionParameters):<sp/>Float32Array;</highlight></codeline>
-<codeline lineno="2143"><highlight class="normal"><sp/><sp/>CoordinateConverters:<sp/>{};</highlight></codeline>
-<codeline lineno="2144"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a704d85c4a403c2bcaf0a14d1b0b1090b" kindref="member">getVectorConverters</ref>(a:<sp/>Mesh,<sp/>b:<sp/>Mesh):<sp/>CoordinateConverters;</highlight></codeline>
-<codeline lineno="2145"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a0d0585b55754284e85a7fab464501cae" kindref="member">findCollidingEdgeTrisPrecise</ref>(a:<sp/>Mesh,<sp/>b:<sp/>Mesh,<sp/>conv:<sp/>CoordinateConverters):<sp/>PreciseCollisionResult;</highlight></codeline>
-<codeline lineno="2151"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1abbab2cfd94d01caa096faeb16ea74390" kindref="member">getOneMeshIntersectionContours</ref>(meshA:<sp/>Mesh,<sp/>meshB:<sp/>Mesh,<sp/>contours:<sp/>ContinuousContours,<sp/>getMeshAIntersections:<sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal">,<sp/>converters:<sp/>CoordinateConverters):<sp/>OneMeshContours;</highlight></codeline>
-<codeline lineno="2152"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ac5fd2a346f753556275fddc902960491" kindref="member">getIncidentVertsFromFaces</ref>(topology:<sp/>MeshTopology,<sp/>faces:<sp/>FaceBitSet):<sp/>VertBitSet;</highlight></codeline>
-<codeline lineno="2153"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a4672ddb1086959dda1b6591c994b0059" kindref="member">getIncidentVertsFromEdges</ref>(topology:<sp/>MeshTopology,<sp/>edges:<sp/>UndirectedEdgeBitSet):<sp/>VertBitSet;</highlight></codeline>
-<codeline lineno="2154"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a3901c986f38495d31a21a191511f6ce1" kindref="member">getIncidentFacesFromVerts</ref>(topology:<sp/>MeshTopology,<sp/>verts:<sp/>VertBitSet):<sp/>FaceBitSet;</highlight></codeline>
-<codeline lineno="2155"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a666b60a1ccc106c543f58fc62dc2acdf" kindref="member">getIncidentFacesFromEdges</ref>(topology:<sp/>MeshTopology,<sp/>edges:<sp/>UndirectedEdgeBitSet):<sp/>FaceBitSet;</highlight></codeline>
-<codeline lineno="2156"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a2944173fe810881fed32e1bdf3bea7e2" kindref="member">getIncidentEdgesFromFaces</ref>(topology:<sp/>MeshTopology,<sp/>faces:<sp/>FaceBitSet):<sp/>UndirectedEdgeBitSet;</highlight></codeline>
-<codeline lineno="2157"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ac33990a500114a0645c8fc359c84680e" kindref="member">getIncidentEdgesFromEdges</ref>(topology:<sp/>MeshTopology,<sp/>edges:<sp/>UndirectedEdgeBitSet):<sp/>UndirectedEdgeBitSet;</highlight></codeline>
-<codeline lineno="2158"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1adcd3bd814b821c7862bf08d761663b0e" kindref="member">getInnerVertsFromFaces</ref>(topology:<sp/>MeshTopology,<sp/>region:<sp/>FaceBitSet):<sp/>VertBitSet;</highlight></codeline>
-<codeline lineno="2159"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a0f97257b5287a202ab92e310addc6f71" kindref="member">getInnerVertsFromEdges</ref>(topology:<sp/>MeshTopology,<sp/>edges:<sp/>UndirectedEdgeBitSet):<sp/>VertBitSet;</highlight></codeline>
-<codeline lineno="2163"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a2a9cf571b8ec815c2aeb0897dcf2bba7" kindref="member">getInnerFaces</ref>(topology:<sp/>MeshTopology,<sp/>verts:<sp/>VertBitSet):<sp/>FaceBitSet;</highlight></codeline>
-<codeline lineno="2164"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a857cecb984377033cca07838d7b1d392" kindref="member">getInnerEdgesFromVerts</ref>(topology:<sp/>MeshTopology,<sp/>verts:<sp/>VertBitSet):<sp/>UndirectedEdgeBitSet;</highlight></codeline>
-<codeline lineno="2165"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ae4b973fcfa520ece361141bc0be236dd" kindref="member">getInnerEdgesFromFaces</ref>(topology:<sp/>MeshTopology,<sp/>region:<sp/>FaceBitSet):<sp/>UndirectedEdgeBitSet;</highlight></codeline>
-<codeline lineno="2169"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ae82accaa12c2fb234a7f8642239a6f7b" kindref="member">getBoundaryVerts</ref>(topology:<sp/>MeshTopology,<sp/>region:<sp/>FaceBitSet):<sp/>VertBitSet;</highlight></codeline>
-<codeline lineno="2173"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a43fe41780d340b0dea9727f39804d27a" kindref="member">trackRightBoundaryLoop</ref>(topology:<sp/>MeshTopology,<sp/>e0:<sp/>number):<sp/>Uint32Array;</highlight></codeline>
-<codeline lineno="2177"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a289bf2e5c4ae87fcab17199aa9f759e3" kindref="member">findRightBoundary</ref>(topology:<sp/>MeshTopology):<sp/>Uint32Array[];</highlight></codeline>
-<codeline lineno="2181"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085ae" kindref="member">SignDetectionMode</ref>:<sp/>{<ref refid="bindings_8d_8mts_1ad995f406d908cf33a64c3a0da079f906a37795ea23b5d1837d4f1915d0bc99e38" kindref="member">Unsigned</ref>:<sp/>SignDetectionModeValue&lt;0&gt;,<sp/><ref refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aeafb35f6b4995c1c5fcf308006ac31f7b1" kindref="member">OpenVDB</ref>:<sp/>SignDetectionModeValue&lt;1&gt;,<sp/><ref refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aea89aba2570635eeaf58b335fcd90407bf" kindref="member">ProjectionNormal</ref>:<sp/>SignDetectionModeValue&lt;2&gt;,<sp/><ref refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aea5f44b72607792afaa4a0175adb4d929c" kindref="member">WindingRule</ref>:<sp/>SignDetectionModeValue&lt;3&gt;,<sp/><ref refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aea7aed141052e1150ff2a1060fd6fb8734" kindref="member">OddCrossings</ref>:<sp/>SignDetectionModeValue&lt;3&gt;,<sp/><ref refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aea831fd92e27f978a1573736876e7b0aa7" kindref="member">HoleWindingRule</ref>:<sp/>SignDetectionModeValue&lt;4&gt;};</highlight></codeline>
-<codeline lineno="2182"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a975864482fee8d32ac918a4d185601c2" kindref="member">makeTorus</ref>():<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
-<codeline lineno="2183"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a975864482fee8d32ac918a4d185601c2" kindref="member">makeTorus</ref>(primaryRadius:<sp/>number):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
-<codeline lineno="2184"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a975864482fee8d32ac918a4d185601c2" kindref="member">makeTorus</ref>(primaryRadius:<sp/>number,<sp/>secondaryRadius:<sp/>number):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
-<codeline lineno="2185"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a975864482fee8d32ac918a4d185601c2" kindref="member">makeTorus</ref>(primaryRadius:<sp/>number,<sp/>secondaryRadius:<sp/>number,<sp/>primaryResolution:<sp/>number):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
-<codeline lineno="2186"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a975864482fee8d32ac918a4d185601c2" kindref="member">makeTorus</ref>(primaryRadius:<sp/>number,<sp/>secondaryRadius:<sp/>number,<sp/>primaryResolution:<sp/>number,<sp/>secondaryResolution:<sp/>number):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
-<codeline lineno="2187"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1accb80e13f3567dbcb438b53d773733fc" kindref="member">makeTorusWithSelfIntersections</ref>(primaryRadius:<sp/>number,<sp/>secondaryRadius:<sp/>number,<sp/>primaryResolution:<sp/>number,<sp/>secondaryResolution:<sp/>number):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
-<codeline lineno="2188"><highlight class="normal"><sp/><sp/>UniformSamplingSettings:<sp/>{</highlight></codeline>
-<codeline lineno="2189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>UniformSamplingSettings;</highlight></codeline>
-<codeline lineno="2190"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2194"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a24d5c888d3bb8eafc8a7117b8d15a353" kindref="member">pointUniformSampling</ref>(pointCloud:<sp/>PointCloud,<sp/>settings:<sp/>UniformSamplingSettings):<sp/>VertBitSet;</highlight></codeline>
-<codeline lineno="2195"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ad995f406d908cf33a64c3a0da079f906" kindref="member">MeshToVolumeType</ref>:<sp/>{<ref refid="bindings_8d_8mts_1ad995f406d908cf33a64c3a0da079f906aed3fa7a5efe80dad3ea3d86cc14be246" kindref="member">Signed</ref>:<sp/>MeshToVolumeTypeValue&lt;0&gt;,<sp/><ref refid="bindings_8d_8mts_1ad995f406d908cf33a64c3a0da079f906a37795ea23b5d1837d4f1915d0bc99e38" kindref="member">Unsigned</ref>:<sp/>MeshToVolumeTypeValue&lt;1&gt;};</highlight></codeline>
-<codeline lineno="2196"><highlight class="normal"><sp/><sp/>MeshToVolumeParams:<sp/>{</highlight></codeline>
-<codeline lineno="2197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>MeshToVolumeParams;</highlight></codeline>
-<codeline lineno="2198"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2199"><highlight class="normal"><sp/><sp/>GridToMeshSettings:<sp/>{</highlight></codeline>
-<codeline lineno="2200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>GridToMeshSettings;</highlight></codeline>
-<codeline lineno="2201"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2202"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a87c257b3854ae325b89402c24834baa2" kindref="member">evalGridMinMax</ref>(grid:<sp/>FloatGrid):<sp/>GridMinMax;</highlight></codeline>
-<codeline lineno="2206"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a7abd80be6a440920a7aae1226141cc9c" kindref="member">gridToMesh</ref>(grid:<sp/>FloatGrid,<sp/>settings:<sp/>GridToMeshSettings):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
-<codeline lineno="2207"><highlight class="normal"><sp/><sp/>VdbVolume:<sp/>{};</highlight></codeline>
-<codeline lineno="2211"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a4f4146119813c6f4bb5727dfb871546c" kindref="member">meshToVolume</ref>(mp:<sp/>Mesh<sp/>|<sp/>null,<sp/>params:<sp/>MeshToVolumeParams):<sp/>VdbVolume;</highlight></codeline>
-<codeline lineno="2215"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a51588049a36a597f4a6f49d408c5a665" kindref="member">meshToDistanceVdbVolume</ref>(mp:<sp/>Mesh<sp/>|<sp/>null,<sp/>params:<sp/>MeshToVolumeParams):<sp/>VdbVolume;</highlight></codeline>
-<codeline lineno="2216"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a57642651df2d15199d51a248245329f7" kindref="member">floatGridToVdbVolume</ref>(grid:<sp/>FloatGrid):<sp/>VdbVolume;</highlight></codeline>
-<codeline lineno="2217"><highlight class="normal"><sp/><sp/>VertCoords:<sp/>{</highlight></codeline>
-<codeline lineno="2218"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Float32Array):<sp/>VertCoords;</highlight></codeline>
-<codeline lineno="2219"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2223"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a0f2b375b88caa40460c9d930bee99833" kindref="member">computePerVertNormals</ref>(mesh:<sp/>Mesh<sp/>|<sp/>null):<sp/>VertCoords;</highlight></codeline>
-<codeline lineno="2224"><highlight class="normal"><sp/><sp/>VertScalars:<sp/>{</highlight></codeline>
-<codeline lineno="2225"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Float32Array):<sp/>VertScalars;</highlight></codeline>
-<codeline lineno="2226"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2227"><highlight class="normal"><sp/><sp/>Triangulation:<sp/>{</highlight></codeline>
-<codeline lineno="2228"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Uint32Array):<sp/>Triangulation;</highlight></codeline>
-<codeline lineno="2229"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2230"><highlight class="normal"><sp/><sp/>FaceNormals:<sp/>{</highlight></codeline>
-<codeline lineno="2231"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Float32Array):<sp/>FaceNormals;</highlight></codeline>
-<codeline lineno="2232"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2233"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a198fde9c306b5fa6066f3ee6bd17963c" kindref="member">computePerFaceNormals</ref>(mesh:<sp/>Mesh<sp/>|<sp/>null):<sp/>FaceNormals;</highlight></codeline>
-<codeline lineno="2234"><highlight class="normal"><sp/><sp/>VertMap:<sp/>{</highlight></codeline>
-<codeline lineno="2235"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Uint32Array):<sp/>VertMap;</highlight></codeline>
-<codeline lineno="2236"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2237"><highlight class="normal"><sp/><sp/>FaceMap:<sp/>{</highlight></codeline>
-<codeline lineno="2238"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Uint32Array):<sp/>FaceMap;</highlight></codeline>
-<codeline lineno="2239"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2240"><highlight class="normal"><sp/><sp/>Face2RegionMap:<sp/>{</highlight></codeline>
-<codeline lineno="2241"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Uint32Array):<sp/>Face2RegionMap;</highlight></codeline>
-<codeline lineno="2242"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2243"><highlight class="normal"><sp/><sp/>VertColors:<sp/>{</highlight></codeline>
-<codeline lineno="2244"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Uint8Array):<sp/>VertColors;</highlight></codeline>
-<codeline lineno="2245"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2249"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a84558bd7f71879b765c19fb0d4ad6275" kindref="member">makeCube</ref>(size:<sp/>Vector3f):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
-<codeline lineno="2253"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a84558bd7f71879b765c19fb0d4ad6275" kindref="member">makeCube</ref>(size:<sp/>Vector3f,<sp/>base:<sp/>Vector3f):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
-<codeline lineno="2263"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ab0bcc0c88fd4529b6a30825a63c9834e" kindref="member">findProjection</ref>(pt:<sp/>Vector3f,<sp/>mp:<sp/>Mesh<sp/>|<sp/>null):<sp/>MeshProjectionResult;</highlight></codeline>
-<codeline lineno="2264"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a51bcabb0591363bf0d2ce8f941ec6181" kindref="member">findSignedDistanceFromPoint</ref>(pt:<sp/>Vector3f,<sp/>mp:<sp/>Mesh<sp/>|<sp/>null):<sp/>SignedMeshProjectionResult;</highlight></codeline>
-<codeline lineno="2268"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1abe09b84369253a3baa5f3261d3f9684e" kindref="member">getValue</ref>(grid:<sp/>FloatGrid,<sp/>p:<sp/>Vector3i):<sp/>number;</highlight></codeline>
-<codeline lineno="2272"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ab1ab7d2660d6ccde8e5e5b821f2d3631" kindref="member">setValue</ref>(grid:<sp/>FloatGrid,<sp/>p:<sp/>Vector3i,<sp/>value:<sp/>number):<sp/>void;</highlight></codeline>
-<codeline lineno="2273"><highlight class="normal"><sp/><sp/>Vector3:<sp/>{</highlight></codeline>
-<codeline lineno="2274"><highlight class="normal"><sp/><sp/><sp/><sp/>plusZ():<sp/>Vector3f;</highlight></codeline>
-<codeline lineno="2275"><highlight class="normal"><sp/><sp/><sp/><sp/>diagonal(a:<sp/>number):<sp/>Vector3f;</highlight></codeline>
-<codeline lineno="2276"><highlight class="normal"><sp/><sp/><sp/><sp/>add(a:<sp/>Vector3f,<sp/>b:<sp/>Vector3f):<sp/>Vector3f;</highlight></codeline>
-<codeline lineno="2277"><highlight class="normal"><sp/><sp/><sp/><sp/>mulScalar(v:<sp/>Vector3f,<sp/>s:<sp/>number):<sp/>Vector3f;</highlight></codeline>
-<codeline lineno="2278"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2279"><highlight class="normal"><sp/><sp/>VoxelsLoad:<sp/>{</highlight></codeline>
-<codeline lineno="2283"><highlight class="normal"><sp/><sp/><sp/><sp/>fromAnySupportedFormat(path:<sp/>EmbindString):<sp/>VdbVolume[];</highlight></codeline>
-<codeline lineno="2284"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2285"><highlight class="normal"><sp/><sp/>VoxelsSave:<sp/>{</highlight></codeline>
-<codeline lineno="2286"><highlight class="normal"><sp/><sp/><sp/><sp/>toAnySupportedFormat(volume:<sp/>VdbVolume,<sp/>path:<sp/>EmbindString):<sp/>void;</highlight></codeline>
-<codeline lineno="2287"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2288"><highlight class="normal"><sp/><sp/>WeightedShellParametersBase:<sp/>{</highlight></codeline>
-<codeline lineno="2289"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>WeightedShellParametersBase;</highlight></codeline>
-<codeline lineno="2290"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2291"><highlight class="normal"><sp/><sp/>WeightedShellParametersMetric:<sp/>{</highlight></codeline>
-<codeline lineno="2292"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>WeightedShellParametersMetric;</highlight></codeline>
-<codeline lineno="2293"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2294"><highlight class="normal"><sp/><sp/>WeightedShell:<sp/>{</highlight></codeline>
-<codeline lineno="2298"><highlight class="normal"><sp/><sp/><sp/><sp/>meshShell(mesh:<sp/>Mesh<sp/>|<sp/>null,<sp/>vertWeights:<sp/>VertScalars,<sp/>params:<sp/>WeightedShellParametersMetric):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
-<codeline lineno="2299"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
-<codeline lineno="2300"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="2301"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2302"><highlight class="normal"></highlight><highlight class="keyword">export</highlight><highlight class="normal"><sp/>type<sp/>MainModule<sp/>=<sp/>WasmModule<sp/>&amp;<sp/>EmbindModule;</highlight></codeline>
-<codeline lineno="2303"><highlight class="normal"></highlight><highlight class="keyword">export</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal"><sp/>function<sp/>MainModuleFactory<sp/>(options?:<sp/>unknown):<sp/>Promise&lt;MainModule&gt;;</highlight></codeline>
+<codeline lineno="2100"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a12acc9cca325bd22c0eb3f01315c7403" kindref="member">cutMesh</ref>(mesh:<sp/>Mesh<sp/>|<sp/>null,<sp/>contours:<sp/>OneMeshContours,<sp/>params:<sp/>CutMeshParameters):<sp/>CutMeshResult;</highlight></codeline>
+<codeline lineno="2101"><highlight class="normal"><sp/><sp/>PointCloud:<sp/>{</highlight></codeline>
+<codeline lineno="2102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>PointCloud;</highlight></codeline>
+<codeline lineno="2103"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2104"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1aa41147fbc4f361bfcdfe874d4168c2c1" kindref="member">makeConvexHullFromPoints</ref>(pointCloud:<sp/>PointCloud):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
+<codeline lineno="2108"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a8b3e64d110b67faa202430249169f65d" kindref="member">meshToPointCloud</ref>(mesh:<sp/>Mesh<sp/>|<sp/>null,<sp/>saveNormals:<sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal">):<sp/>PointCloud;</highlight></codeline>
+<codeline lineno="2114"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1aabda6c1ad94c0040bbe67f763f31a2da" kindref="member">findAvgPointsRadius</ref>(pointCloud:<sp/>PointCloud,<sp/>avgPoints:<sp/>number):<sp/>number;</highlight></codeline>
+<codeline lineno="2120"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1aabda6c1ad94c0040bbe67f763f31a2da" kindref="member">findAvgPointsRadius</ref>(pointCloud:<sp/>PointCloud,<sp/>avgPoints:<sp/>number,<sp/>samples:<sp/>number):<sp/>number;</highlight></codeline>
+<codeline lineno="2121"><highlight class="normal"><sp/><sp/>TriangulationParameters:<sp/>{</highlight></codeline>
+<codeline lineno="2122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>TriangulationParameters;</highlight></codeline>
+<codeline lineno="2123"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2127"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ab2b87c2317cb2ec5c0d23944a7c7bb8f" kindref="member">triangulatePointCloud</ref>(pointCloud:<sp/>PointCloud,<sp/>params:<sp/>TriangulationParameters):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
+<codeline lineno="2128"><highlight class="normal"><sp/><sp/>PointsLoad:<sp/>{</highlight></codeline>
+<codeline lineno="2129"><highlight class="normal"><sp/><sp/><sp/><sp/>fromAnySupportedFormat(path:<sp/>EmbindString):<sp/>PointCloud;</highlight></codeline>
+<codeline lineno="2130"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2131"><highlight class="normal"><sp/><sp/>PointsSave:<sp/>{</highlight></codeline>
+<codeline lineno="2132"><highlight class="normal"><sp/><sp/><sp/><sp/>toAnySupportedFormat(points:<sp/>PointCloud,<sp/>path:<sp/>EmbindString):<sp/>void;</highlight></codeline>
+<codeline lineno="2133"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2134"><highlight class="normal"><sp/><sp/>PointsToMeshParameters:<sp/>{</highlight></codeline>
+<codeline lineno="2135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>PointsToMeshParameters;</highlight></codeline>
+<codeline lineno="2136"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2140"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a0e12a935ff0173aee290a111b77e8945" kindref="member">pointsToMeshFusion</ref>(cloud:<sp/>PointCloud,<sp/>params:<sp/>PointsToMeshParameters):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
+<codeline lineno="2141"><highlight class="normal"><sp/><sp/>MeshProjectionParameters:<sp/>{</highlight></codeline>
+<codeline lineno="2142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>MeshProjectionParameters;</highlight></codeline>
+<codeline lineno="2143"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2144"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a88872d4be7b467af91cb25470bc76be2" kindref="member">findSignedDistances</ref>(refMesh:<sp/>Mesh<sp/>|<sp/>null,<sp/>mesh:<sp/>Mesh<sp/>|<sp/>null,<sp/>params:<sp/>MeshProjectionParameters):<sp/>Float32Array;</highlight></codeline>
+<codeline lineno="2145"><highlight class="normal"><sp/><sp/>CoordinateConverters:<sp/>{};</highlight></codeline>
+<codeline lineno="2146"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a704d85c4a403c2bcaf0a14d1b0b1090b" kindref="member">getVectorConverters</ref>(a:<sp/>Mesh,<sp/>b:<sp/>Mesh):<sp/>CoordinateConverters;</highlight></codeline>
+<codeline lineno="2147"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a0d0585b55754284e85a7fab464501cae" kindref="member">findCollidingEdgeTrisPrecise</ref>(a:<sp/>Mesh,<sp/>b:<sp/>Mesh,<sp/>conv:<sp/>CoordinateConverters):<sp/>PreciseCollisionResult;</highlight></codeline>
+<codeline lineno="2153"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1abbab2cfd94d01caa096faeb16ea74390" kindref="member">getOneMeshIntersectionContours</ref>(meshA:<sp/>Mesh,<sp/>meshB:<sp/>Mesh,<sp/>contours:<sp/>ContinuousContours,<sp/>getMeshAIntersections:<sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal">,<sp/>converters:<sp/>CoordinateConverters):<sp/>OneMeshContours;</highlight></codeline>
+<codeline lineno="2154"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ac5fd2a346f753556275fddc902960491" kindref="member">getIncidentVertsFromFaces</ref>(topology:<sp/>MeshTopology,<sp/>faces:<sp/>FaceBitSet):<sp/>VertBitSet;</highlight></codeline>
+<codeline lineno="2155"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a4672ddb1086959dda1b6591c994b0059" kindref="member">getIncidentVertsFromEdges</ref>(topology:<sp/>MeshTopology,<sp/>edges:<sp/>UndirectedEdgeBitSet):<sp/>VertBitSet;</highlight></codeline>
+<codeline lineno="2156"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a3901c986f38495d31a21a191511f6ce1" kindref="member">getIncidentFacesFromVerts</ref>(topology:<sp/>MeshTopology,<sp/>verts:<sp/>VertBitSet):<sp/>FaceBitSet;</highlight></codeline>
+<codeline lineno="2157"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a666b60a1ccc106c543f58fc62dc2acdf" kindref="member">getIncidentFacesFromEdges</ref>(topology:<sp/>MeshTopology,<sp/>edges:<sp/>UndirectedEdgeBitSet):<sp/>FaceBitSet;</highlight></codeline>
+<codeline lineno="2158"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a2944173fe810881fed32e1bdf3bea7e2" kindref="member">getIncidentEdgesFromFaces</ref>(topology:<sp/>MeshTopology,<sp/>faces:<sp/>FaceBitSet):<sp/>UndirectedEdgeBitSet;</highlight></codeline>
+<codeline lineno="2159"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ac33990a500114a0645c8fc359c84680e" kindref="member">getIncidentEdgesFromEdges</ref>(topology:<sp/>MeshTopology,<sp/>edges:<sp/>UndirectedEdgeBitSet):<sp/>UndirectedEdgeBitSet;</highlight></codeline>
+<codeline lineno="2160"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1adcd3bd814b821c7862bf08d761663b0e" kindref="member">getInnerVertsFromFaces</ref>(topology:<sp/>MeshTopology,<sp/>region:<sp/>FaceBitSet):<sp/>VertBitSet;</highlight></codeline>
+<codeline lineno="2161"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a0f97257b5287a202ab92e310addc6f71" kindref="member">getInnerVertsFromEdges</ref>(topology:<sp/>MeshTopology,<sp/>edges:<sp/>UndirectedEdgeBitSet):<sp/>VertBitSet;</highlight></codeline>
+<codeline lineno="2165"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a2a9cf571b8ec815c2aeb0897dcf2bba7" kindref="member">getInnerFaces</ref>(topology:<sp/>MeshTopology,<sp/>verts:<sp/>VertBitSet):<sp/>FaceBitSet;</highlight></codeline>
+<codeline lineno="2166"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a857cecb984377033cca07838d7b1d392" kindref="member">getInnerEdgesFromVerts</ref>(topology:<sp/>MeshTopology,<sp/>verts:<sp/>VertBitSet):<sp/>UndirectedEdgeBitSet;</highlight></codeline>
+<codeline lineno="2167"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ae4b973fcfa520ece361141bc0be236dd" kindref="member">getInnerEdgesFromFaces</ref>(topology:<sp/>MeshTopology,<sp/>region:<sp/>FaceBitSet):<sp/>UndirectedEdgeBitSet;</highlight></codeline>
+<codeline lineno="2171"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ae82accaa12c2fb234a7f8642239a6f7b" kindref="member">getBoundaryVerts</ref>(topology:<sp/>MeshTopology,<sp/>region:<sp/>FaceBitSet):<sp/>VertBitSet;</highlight></codeline>
+<codeline lineno="2175"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a43fe41780d340b0dea9727f39804d27a" kindref="member">trackRightBoundaryLoop</ref>(topology:<sp/>MeshTopology,<sp/>e0:<sp/>number):<sp/>Uint32Array;</highlight></codeline>
+<codeline lineno="2179"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a289bf2e5c4ae87fcab17199aa9f759e3" kindref="member">findRightBoundary</ref>(topology:<sp/>MeshTopology):<sp/>Uint32Array[];</highlight></codeline>
+<codeline lineno="2183"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085ae" kindref="member">SignDetectionMode</ref>:<sp/>{<ref refid="bindings_8d_8mts_1ad995f406d908cf33a64c3a0da079f906a37795ea23b5d1837d4f1915d0bc99e38" kindref="member">Unsigned</ref>:<sp/>SignDetectionModeValue&lt;0&gt;,<sp/><ref refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aeafb35f6b4995c1c5fcf308006ac31f7b1" kindref="member">OpenVDB</ref>:<sp/>SignDetectionModeValue&lt;1&gt;,<sp/><ref refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aea89aba2570635eeaf58b335fcd90407bf" kindref="member">ProjectionNormal</ref>:<sp/>SignDetectionModeValue&lt;2&gt;,<sp/><ref refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aea5f44b72607792afaa4a0175adb4d929c" kindref="member">WindingRule</ref>:<sp/>SignDetectionModeValue&lt;3&gt;,<sp/><ref refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aea7aed141052e1150ff2a1060fd6fb8734" kindref="member">OddCrossings</ref>:<sp/>SignDetectionModeValue&lt;3&gt;,<sp/><ref refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aea831fd92e27f978a1573736876e7b0aa7" kindref="member">HoleWindingRule</ref>:<sp/>SignDetectionModeValue&lt;4&gt;};</highlight></codeline>
+<codeline lineno="2184"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a975864482fee8d32ac918a4d185601c2" kindref="member">makeTorus</ref>():<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
+<codeline lineno="2185"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a975864482fee8d32ac918a4d185601c2" kindref="member">makeTorus</ref>(primaryRadius:<sp/>number):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
+<codeline lineno="2186"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a975864482fee8d32ac918a4d185601c2" kindref="member">makeTorus</ref>(primaryRadius:<sp/>number,<sp/>secondaryRadius:<sp/>number):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
+<codeline lineno="2187"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a975864482fee8d32ac918a4d185601c2" kindref="member">makeTorus</ref>(primaryRadius:<sp/>number,<sp/>secondaryRadius:<sp/>number,<sp/>primaryResolution:<sp/>number):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
+<codeline lineno="2188"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a975864482fee8d32ac918a4d185601c2" kindref="member">makeTorus</ref>(primaryRadius:<sp/>number,<sp/>secondaryRadius:<sp/>number,<sp/>primaryResolution:<sp/>number,<sp/>secondaryResolution:<sp/>number):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
+<codeline lineno="2189"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1accb80e13f3567dbcb438b53d773733fc" kindref="member">makeTorusWithSelfIntersections</ref>(primaryRadius:<sp/>number,<sp/>secondaryRadius:<sp/>number,<sp/>primaryResolution:<sp/>number,<sp/>secondaryResolution:<sp/>number):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
+<codeline lineno="2190"><highlight class="normal"><sp/><sp/>UniformSamplingSettings:<sp/>{</highlight></codeline>
+<codeline lineno="2191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>UniformSamplingSettings;</highlight></codeline>
+<codeline lineno="2192"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2196"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a24d5c888d3bb8eafc8a7117b8d15a353" kindref="member">pointUniformSampling</ref>(pointCloud:<sp/>PointCloud,<sp/>settings:<sp/>UniformSamplingSettings):<sp/>VertBitSet;</highlight></codeline>
+<codeline lineno="2197"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ad995f406d908cf33a64c3a0da079f906" kindref="member">MeshToVolumeType</ref>:<sp/>{<ref refid="bindings_8d_8mts_1ad995f406d908cf33a64c3a0da079f906aed3fa7a5efe80dad3ea3d86cc14be246" kindref="member">Signed</ref>:<sp/>MeshToVolumeTypeValue&lt;0&gt;,<sp/><ref refid="bindings_8d_8mts_1ad995f406d908cf33a64c3a0da079f906a37795ea23b5d1837d4f1915d0bc99e38" kindref="member">Unsigned</ref>:<sp/>MeshToVolumeTypeValue&lt;1&gt;};</highlight></codeline>
+<codeline lineno="2198"><highlight class="normal"><sp/><sp/>MeshToVolumeParams:<sp/>{</highlight></codeline>
+<codeline lineno="2199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>MeshToVolumeParams;</highlight></codeline>
+<codeline lineno="2200"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2201"><highlight class="normal"><sp/><sp/>GridToMeshSettings:<sp/>{</highlight></codeline>
+<codeline lineno="2202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>GridToMeshSettings;</highlight></codeline>
+<codeline lineno="2203"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2204"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a87c257b3854ae325b89402c24834baa2" kindref="member">evalGridMinMax</ref>(grid:<sp/>FloatGrid):<sp/>GridMinMax;</highlight></codeline>
+<codeline lineno="2208"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a7abd80be6a440920a7aae1226141cc9c" kindref="member">gridToMesh</ref>(grid:<sp/>FloatGrid,<sp/>settings:<sp/>GridToMeshSettings):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
+<codeline lineno="2209"><highlight class="normal"><sp/><sp/>VdbVolume:<sp/>{};</highlight></codeline>
+<codeline lineno="2213"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a4f4146119813c6f4bb5727dfb871546c" kindref="member">meshToVolume</ref>(mp:<sp/>Mesh<sp/>|<sp/>null,<sp/>params:<sp/>MeshToVolumeParams):<sp/>VdbVolume;</highlight></codeline>
+<codeline lineno="2217"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a51588049a36a597f4a6f49d408c5a665" kindref="member">meshToDistanceVdbVolume</ref>(mp:<sp/>Mesh<sp/>|<sp/>null,<sp/>params:<sp/>MeshToVolumeParams):<sp/>VdbVolume;</highlight></codeline>
+<codeline lineno="2218"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a57642651df2d15199d51a248245329f7" kindref="member">floatGridToVdbVolume</ref>(grid:<sp/>FloatGrid):<sp/>VdbVolume;</highlight></codeline>
+<codeline lineno="2219"><highlight class="normal"><sp/><sp/>VertCoords:<sp/>{</highlight></codeline>
+<codeline lineno="2220"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Float32Array):<sp/>VertCoords;</highlight></codeline>
+<codeline lineno="2221"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2225"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a0f2b375b88caa40460c9d930bee99833" kindref="member">computePerVertNormals</ref>(mesh:<sp/>Mesh<sp/>|<sp/>null):<sp/>VertCoords;</highlight></codeline>
+<codeline lineno="2226"><highlight class="normal"><sp/><sp/>VertScalars:<sp/>{</highlight></codeline>
+<codeline lineno="2227"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Float32Array):<sp/>VertScalars;</highlight></codeline>
+<codeline lineno="2228"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2229"><highlight class="normal"><sp/><sp/>Triangulation:<sp/>{</highlight></codeline>
+<codeline lineno="2230"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Uint32Array):<sp/>Triangulation;</highlight></codeline>
+<codeline lineno="2231"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2232"><highlight class="normal"><sp/><sp/>FaceNormals:<sp/>{</highlight></codeline>
+<codeline lineno="2233"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Float32Array):<sp/>FaceNormals;</highlight></codeline>
+<codeline lineno="2234"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2235"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a198fde9c306b5fa6066f3ee6bd17963c" kindref="member">computePerFaceNormals</ref>(mesh:<sp/>Mesh<sp/>|<sp/>null):<sp/>FaceNormals;</highlight></codeline>
+<codeline lineno="2236"><highlight class="normal"><sp/><sp/>VertMap:<sp/>{</highlight></codeline>
+<codeline lineno="2237"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Uint32Array):<sp/>VertMap;</highlight></codeline>
+<codeline lineno="2238"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2239"><highlight class="normal"><sp/><sp/>FaceMap:<sp/>{</highlight></codeline>
+<codeline lineno="2240"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Uint32Array):<sp/>FaceMap;</highlight></codeline>
+<codeline lineno="2241"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2242"><highlight class="normal"><sp/><sp/>Face2RegionMap:<sp/>{</highlight></codeline>
+<codeline lineno="2243"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Uint32Array):<sp/>Face2RegionMap;</highlight></codeline>
+<codeline lineno="2244"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2245"><highlight class="normal"><sp/><sp/>VertColors:<sp/>{</highlight></codeline>
+<codeline lineno="2246"><highlight class="normal"><sp/><sp/><sp/><sp/>fromArray(array:<sp/>Uint8Array):<sp/>VertColors;</highlight></codeline>
+<codeline lineno="2247"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2251"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a84558bd7f71879b765c19fb0d4ad6275" kindref="member">makeCube</ref>(size:<sp/>Vector3f):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
+<codeline lineno="2255"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a84558bd7f71879b765c19fb0d4ad6275" kindref="member">makeCube</ref>(size:<sp/>Vector3f,<sp/>base:<sp/>Vector3f):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
+<codeline lineno="2265"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ab0bcc0c88fd4529b6a30825a63c9834e" kindref="member">findProjection</ref>(pt:<sp/>Vector3f,<sp/>mp:<sp/>Mesh<sp/>|<sp/>null):<sp/>MeshProjectionResult;</highlight></codeline>
+<codeline lineno="2266"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1a51bcabb0591363bf0d2ce8f941ec6181" kindref="member">findSignedDistanceFromPoint</ref>(pt:<sp/>Vector3f,<sp/>mp:<sp/>Mesh<sp/>|<sp/>null):<sp/>SignedMeshProjectionResult;</highlight></codeline>
+<codeline lineno="2270"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1abe09b84369253a3baa5f3261d3f9684e" kindref="member">getValue</ref>(grid:<sp/>FloatGrid,<sp/>p:<sp/>Vector3i):<sp/>number;</highlight></codeline>
+<codeline lineno="2274"><highlight class="normal"><sp/><sp/><ref refid="bindings_8d_8mts_1ab1ab7d2660d6ccde8e5e5b821f2d3631" kindref="member">setValue</ref>(grid:<sp/>FloatGrid,<sp/>p:<sp/>Vector3i,<sp/>value:<sp/>number):<sp/>void;</highlight></codeline>
+<codeline lineno="2275"><highlight class="normal"><sp/><sp/>Vector3:<sp/>{</highlight></codeline>
+<codeline lineno="2276"><highlight class="normal"><sp/><sp/><sp/><sp/>plusZ():<sp/>Vector3f;</highlight></codeline>
+<codeline lineno="2277"><highlight class="normal"><sp/><sp/><sp/><sp/>diagonal(a:<sp/>number):<sp/>Vector3f;</highlight></codeline>
+<codeline lineno="2278"><highlight class="normal"><sp/><sp/><sp/><sp/>add(a:<sp/>Vector3f,<sp/>b:<sp/>Vector3f):<sp/>Vector3f;</highlight></codeline>
+<codeline lineno="2279"><highlight class="normal"><sp/><sp/><sp/><sp/>mulScalar(v:<sp/>Vector3f,<sp/>s:<sp/>number):<sp/>Vector3f;</highlight></codeline>
+<codeline lineno="2280"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2281"><highlight class="normal"><sp/><sp/>VoxelsLoad:<sp/>{</highlight></codeline>
+<codeline lineno="2285"><highlight class="normal"><sp/><sp/><sp/><sp/>fromAnySupportedFormat(path:<sp/>EmbindString):<sp/>VdbVolume[];</highlight></codeline>
+<codeline lineno="2286"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2287"><highlight class="normal"><sp/><sp/>VoxelsSave:<sp/>{</highlight></codeline>
+<codeline lineno="2288"><highlight class="normal"><sp/><sp/><sp/><sp/>toAnySupportedFormat(volume:<sp/>VdbVolume,<sp/>path:<sp/>EmbindString):<sp/>void;</highlight></codeline>
+<codeline lineno="2289"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2290"><highlight class="normal"><sp/><sp/>WeightedShellParametersBase:<sp/>{</highlight></codeline>
+<codeline lineno="2291"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>WeightedShellParametersBase;</highlight></codeline>
+<codeline lineno="2292"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2293"><highlight class="normal"><sp/><sp/>WeightedShellParametersMetric:<sp/>{</highlight></codeline>
+<codeline lineno="2294"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">():<sp/>WeightedShellParametersMetric;</highlight></codeline>
+<codeline lineno="2295"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2296"><highlight class="normal"><sp/><sp/>WeightedShell:<sp/>{</highlight></codeline>
+<codeline lineno="2300"><highlight class="normal"><sp/><sp/><sp/><sp/>meshShell(mesh:<sp/>Mesh<sp/>|<sp/>null,<sp/>vertWeights:<sp/>VertScalars,<sp/>params:<sp/>WeightedShellParametersMetric):<sp/>Mesh<sp/>|<sp/>null;</highlight></codeline>
+<codeline lineno="2301"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="2302"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="2303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2304"><highlight class="normal"></highlight><highlight class="keyword">export</highlight><highlight class="normal"><sp/>type<sp/>MainModule<sp/>=<sp/>WasmModule<sp/>&amp;<sp/>EmbindModule;</highlight></codeline>
+<codeline lineno="2305"><highlight class="normal"></highlight><highlight class="keyword">export</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal"><sp/>function<sp/>MainModuleFactory<sp/>(options?:<sp/>unknown):<sp/>Promise&lt;MainModule&gt;;</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts"/>
   </compounddef>

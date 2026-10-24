@@ -1,10 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"namespaceMR_1_1Cuda.html#a3847533ea91606e4e7a4068edd599d86":[9,0,1,0,1,2,19],
-"namespaceMR_1_1Cuda.html#a57e91a18687a893997356f499e9a7e94":[9,0,1,0,1,2,14],
-"namespaceMR_1_1Cuda.html#a770259831b49f60068c30df5121056c9":[9,0,1,0,1,2,34],
-"namespaceMR_1_1Cuda.html#aaa9aa568ce6f99642f04342760455a3f":[9,0,1,0,1,2,30],
-"namespaceMR_1_1Cuda.html#ab0b0e3af6fadf0842bbaef360071ea8e":[9,0,1,0,1,2,12],
 "namespaceMR_1_1Cuda.html#ab6752d5a8d11db60ba3b3c7cd333658d":[9,0,1,0,1,2,16],
 "namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155":[9,0,1,0,1,2,18],
 "namespaceMR_1_1Cuda.html#acdd0eaf7b314f1758bf6e417ad1f3795":[9,0,1,0,1,2,15],
@@ -249,5 +244,10 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1SceneLoad.html#ad9301168bfb0258833ac6729cfb138a9":[9,0,1,0,1,45,2],
 "namespaceMR_1_1SceneSave.html":[9,0,0,20,24],
 "namespaceMR_1_1SceneSave.html#a2c6d3ab6c6b433b7958ebb92cb464f02":[9,0,1,0,1,46,1],
-"namespaceMR_1_1SelfIntersections.html":[9,0,0,20,15]
+"namespaceMR_1_1SelfIntersections.html":[9,0,0,20,15],
+"namespaceMR_1_1SpaceMouse.html":[9,0,0,20,36],
+"namespaceMR_1_1SpaceMouse.html#a0125a493583e2d875e2b9cb7607f9ef0":[9,0,1,0,1,48,7],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191":[9,0,1,0,1,48,9],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a0449de604a44d5f7f5e7807469982f24":[9,0,1,0,1,48,9,22],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a045cc455f7698a9ccdf262bde6183cb1":[9,0,1,0,1,48,9,18]
 };

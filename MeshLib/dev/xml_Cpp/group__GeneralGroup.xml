@@ -14307,26 +14307,6 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRAABBTreeObjects.h" line="16" column="5" bodyfile="MRMesh/MRAABBTreeObjects.h" bodystart="16" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="group__GeneralGroup_1gae52f88b1bf8c3f6f4be260612d836725" prot="public" static="no">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>mi_stl_allocator&lt; T &gt;</type>
-        <definition>using MR::Allocator =  mi_stl_allocator&lt;T&gt;</definition>
-        <argsstring></argsstring>
-        <name>Allocator</name>
-        <qualifiedname>MR::Allocator</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>allocator of MeshLib containers that benefit from mimalloc: mimalloc explicitly, std::allocator in Emscripten builds, where malloc is mimalloc already (-sMALLOC=mimalloc), and with MRMESH_NO_MIMALLOC </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRAllocator.h" line="33" column="1" bodyfile="MRMesh/MRAllocator.h" bodystart="33" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gab29b342345673c2ab559f44111f75bdd" prot="public" static="no">
         <type>VectorTraits&lt; V &gt;</type>
         <definition>using MR::Ball&lt; V &gt;::VTraits =  VectorTraits&lt;V&gt;</definition>
@@ -27235,13 +27215,13 @@ it provides additional info from other mesh used in boolean operation, useful to
         <name>resultCut</name>
         <qualifiedname>MR::CutMeshResult::resultCut</qualifiedname>
         <briefdescription>
-<para>Paths of new edges on mesh, they represent same contours as input, but already cut. </para>
         </briefdescription>
         <detaileddescription>
+<para>Paths of new edges on mesh, they represent same contours as input, but already cut; a contour going from a mesh vertex to a point and back has an edge followed by its sym there </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="75" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="75" bodyend="-1"/>
+        <location file="MRMesh/MRContoursCut.h" line="76" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaca01891e95be4a6f3cb7168e88a33aac" prot="public" static="no" mutable="no">
         <type>FaceBitSet</type>
@@ -27258,7 +27238,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="78" column="16" bodyfile="MRMesh/MRContoursCut.h" bodystart="78" bodyend="-1"/>
+        <location file="MRMesh/MRContoursCut.h" line="79" column="16" bodyfile="MRMesh/MRContoursCut.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga789a41f7dc3d705c8ee83ea3c207ef9e" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -27273,7 +27253,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="120" column="14" bodyfile="MRMesh/MRContoursCut.h" bodystart="120" bodyend="-1"/>
+        <location file="MRMesh/MRContoursCut.h" line="125" column="14" bodyfile="MRMesh/MRContoursCut.h" bodystart="125" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1e498975d50ae1790f29c924362e4261" prot="public" static="no" mutable="no">
         <type>const AffineXf3f *</type>
@@ -27289,7 +27269,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="123" column="22" bodyfile="MRMesh/MRContoursCut.h" bodystart="123" bodyend="123"/>
+        <location file="MRMesh/MRContoursCut.h" line="128" column="22" bodyfile="MRMesh/MRContoursCut.h" bodystart="128" bodyend="128"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa66dd8795ad06b100b6b27009f406df5" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -91959,7 +91939,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="106" column="12" declfile="MRMesh/MRContoursCut.h" declline="106" declcolumn="12"/>
+        <location file="MRMesh/MRContoursCut.h" line="111" column="12" declfile="MRMesh/MRContoursCut.h" declline="111" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8471f2a87338254b2c1d8a0790776f0e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; FaceBitSet &gt;</type>
@@ -92002,7 +91982,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="113" column="12" declfile="MRMesh/MRContoursCut.h" declline="113" declcolumn="12"/>
+        <location file="MRMesh/MRContoursCut.h" line="118" column="12" declfile="MRMesh/MRContoursCut.h" declline="118" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga66c0157a15c650c2df28de17df4c485c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::vector&lt; EdgePath &gt; &gt;</type>
@@ -92059,7 +92039,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="135" column="12" declfile="MRMesh/MRContoursCut.h" declline="135" declcolumn="12"/>
+        <location file="MRMesh/MRContoursCut.h" line="140" column="12" declfile="MRMesh/MRContoursCut.h" declline="140" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaccf79b17bf64faa5454a116f768def33" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Expected&lt; OneMeshContours &gt;</type>
@@ -92091,7 +92071,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="167" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="167" bodyend="171"/>
+        <location file="MRMesh/MRContoursCut.h" line="172" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="172" bodyend="176"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8f2f47f6c859930c9c0252e4bc28944e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Expected&lt; OneMeshContours &gt;</type>
@@ -92122,7 +92102,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="174" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="174" bodyend="178"/>
+        <location file="MRMesh/MRContoursCut.h" line="179" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="179" bodyend="183"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga41199d0cddfedc2e7a079524081c570e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; FaceBitSet &gt;</type>

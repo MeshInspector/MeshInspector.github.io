@@ -7,40 +7,30 @@
     <includes refid="MROneMeshContours_8h" local="yes">MROneMeshContours.h</includes>
     <includedby refid="MRMeshBoolean_8h" local="yes">MRMesh/MRMeshBoolean.h</includedby>
     <incdepgraph>
-      <node id="37">
+      <node id="34">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="29">
-        <label>MRAffineXf3.h</label>
-        <link refid="MRAffineXf3_8h"/>
-        <childnode refid="30" relation="include">
-        </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
-      </node>
-      <node id="15">
-        <label>MRAllocator.h</label>
-        <link refid="MRAllocator_8h"/>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="41">
+      <node id="26">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
         <label>MRBitCast.h</label>
         <link refid="MRBitCast_8h"/>
-        <childnode refid="42" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -50,21 +40,19 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -73,7 +61,7 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="33">
+      <node id="30">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
@@ -82,30 +70,30 @@
         <link refid="MRContoursCut_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="46">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="44">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="18">
+      <node id="15">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="3" relation="include">
@@ -116,17 +104,17 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="44">
+      <node id="41">
         <label>MRIntersectionContour.h</label>
         <link refid="MRIntersectionContour_8h"/>
-        <childnode refid="45" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -135,26 +123,26 @@
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="30">
+      <node id="27">
         <label>MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="45">
+      <node id="42">
         <label>MRMeshCollidePrecise.h</label>
         <link refid="MRMeshCollidePrecise_8h"/>
-        <childnode refid="18" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
@@ -185,104 +173,104 @@
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="43">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="35">
         <label>MROneMeshContours.h</label>
         <link refid="MROneMeshContours_8h"/>
-        <childnode refid="39" relation="include">
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
         </childnode>
         <childnode refid="44" relation="include">
         </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
         <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
-        </childnode>
-        <childnode refid="50" relation="include">
-        </childnode>
       </node>
-      <node id="39">
+      <node id="36">
         <label>MRPrecisePredicates3.h</label>
         <link refid="MRPrecisePredicates3_8h"/>
-        <childnode refid="31" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
       </node>
-      <node id="24">
+      <node id="21">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="40">
+      <node id="37">
         <label>MRRound.h</label>
         <link refid="MRRound_8h"/>
-        <childnode refid="41" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="29">
         <label>MRMesh/MRUnsigned.h</label>
         <link refid="MRUnsigned_8h"/>
-        <childnode refid="19" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="23">
+      <node id="20">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="28">
         <label>MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -292,55 +280,49 @@
       <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="48">
+      <node id="45">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="22">
+      <node id="19">
         <label>MRphmap.h</label>
       </node>
-      <node id="34">
+      <node id="31">
         <label>algorithm</label>
       </node>
       <node id="8">
         <label>array</label>
       </node>
-      <node id="26">
+      <node id="23">
         <label>atomic</label>
       </node>
       <node id="14">
         <label>cassert</label>
       </node>
-      <node id="35">
+      <node id="32">
         <label>cmath</label>
       </node>
-      <node id="25">
+      <node id="22">
         <label>concepts</label>
       </node>
-      <node id="19">
+      <node id="16">
         <label>cstddef</label>
       </node>
       <node id="13">
         <label>cstdint</label>
       </node>
-      <node id="36">
+      <node id="33">
         <label>cstring</label>
       </node>
       <node id="12">
         <label>functional</label>
       </node>
-      <node id="27">
+      <node id="24">
         <label>iosfwd</label>
       </node>
-      <node id="28">
+      <node id="25">
         <label>iterator</label>
       </node>
-      <node id="16">
-        <label>memory</label>
-      </node>
-      <node id="17">
-        <label>mimalloc.h</label>
-      </node>
-      <node id="43">
+      <node id="40">
         <label>optional</label>
       </node>
       <node id="11">
@@ -349,19 +331,19 @@
       <node id="10">
         <label>string</label>
       </node>
-      <node id="20">
+      <node id="17">
         <label>type_traits</label>
       </node>
-      <node id="21">
+      <node id="18">
         <label>utility</label>
       </node>
-      <node id="50">
+      <node id="47">
         <label>variant</label>
       </node>
       <node id="9">
         <label>vector</label>
       </node>
-      <node id="42">
+      <node id="39">
         <label>version</label>
       </node>
     </incdepgraph>
@@ -429,50 +411,50 @@
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
 <codeline lineno="72" refid="structMR_1_1CutMeshResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CutMeshResult" kindref="compound">CutMeshResult</ref></highlight></codeline>
 <codeline lineno="73"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="75" refid="group__GeneralGroup_1ga5fd92baa79aac5e503e3310ab91fb400" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;EdgePath&gt;<sp/><ref refid="group__GeneralGroup_1ga5fd92baa79aac5e503e3310ab91fb400" kindref="member">resultCut</ref>;</highlight></codeline>
-<codeline lineno="78" refid="group__GeneralGroup_1gaca01891e95be4a6f3cb7168e88a33aac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1gaca01891e95be4a6f3cb7168e88a33aac" kindref="member">fbsWithContourIntersections</ref>;</highlight></codeline>
-<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1CutMeshResult" kindref="compound">CutMeshResult</ref><sp/><ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">cutMesh</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CutMeshParameters" kindref="compound">CutMeshParameters</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1ga5eb87f0ab1d7fca53c85caa95f287e69" kindref="member">params</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="group__GeneralGroup_1gaf5b396c08011572eef5659ca9b84f37a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;FaceBitSet&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaf5b396c08011572eef5659ca9b84f37a" kindref="member">cutMeshByContour</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref>&amp;<sp/>contour,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="group__GeneralGroup_1ga8471f2a87338254b2c1d8a0790776f0e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;FaceBitSet&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8471f2a87338254b2c1d8a0790776f0e" kindref="member">cutMeshByContours</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="structMR_1_1CutByProjectionSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CutByProjectionSettings" kindref="compound">CutByProjectionSettings</ref></highlight></codeline>
-<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="120" refid="group__GeneralGroup_1ga789a41f7dc3d705c8ee83ea3c207ef9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga789a41f7dc3d705c8ee83ea3c207ef9e" kindref="member">direction</ref>;</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="group__GeneralGroup_1ga1e498975d50ae1790f29c924362e4261" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/><ref refid="group__GeneralGroup_1ga1e498975d50ae1790f29c924362e4261" kindref="member">cont2mesh</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
-<codeline lineno="124"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135" refid="group__GeneralGroup_1ga66c0157a15c650c2df28de17df4c485c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;std::vector&lt;EdgePath&gt;</ref>&gt;<sp/><ref refid="group__GeneralGroup_1ga66c0157a15c650c2df28de17df4c485c" kindref="member">cutMeshByProjection</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CutByProjectionSettings" kindref="compound">CutByProjectionSettings</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga351ee7aaab2fab7deb7b0aed319437f4" kindref="member">settings</ref><sp/>);</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147"><highlight class="normal">[[nodiscard]]</highlight></codeline>
-<codeline lineno="148" refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContours&gt;</ref><sp/><ref refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kindref="member">offsetSurfaceLineToMeshContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref><sp/>searchSettings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161"><highlight class="normal">[[nodiscard]]</highlight></codeline>
-<codeline lineno="162" refid="group__BooleanGroup_1gac67a5b20bb2312590785d6dca7473866" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContours&gt;</ref><sp/><ref refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kindref="member">offsetSurfaceLineToMeshContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)&gt;&amp;<sp/>offsetAtPoint,<sp/><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref><sp/>searchSettings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;use<sp/>offsetSurfaceLineToMeshContours&quot;</highlight><highlight class="normal"><sp/>)]]<sp/>[[nodiscard]]</highlight></codeline>
-<codeline lineno="167" refid="group__GeneralGroup_1gaccf79b17bf64faa5454a116f768def33" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContours&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaccf79b17bf64faa5454a116f768def33" kindref="member">convertMeshTriPointsSurfaceOffsetToMeshContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref><sp/>searchSettings<sp/>=<sp/>{}<sp/>)</highlight></codeline>
-<codeline lineno="169"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kindref="member">offsetSurfaceLineToMeshContours</ref>(<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/>surfaceLine,<sp/>offset,<sp/>searchSettings<sp/>);</highlight></codeline>
-<codeline lineno="171"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;use<sp/>offsetSurfaceLineToMeshContours&quot;</highlight><highlight class="normal"><sp/>)]]<sp/>[[nodiscard]]</highlight></codeline>
-<codeline lineno="174" refid="group__GeneralGroup_1ga8f2f47f6c859930c9c0252e4bc28944e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContours&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaccf79b17bf64faa5454a116f768def33" kindref="member">convertMeshTriPointsSurfaceOffsetToMeshContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)&gt;&amp;<sp/>offsetAtPoint,<sp/><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref><sp/>searchSettings<sp/>=<sp/>{}<sp/>)</highlight></codeline>
-<codeline lineno="176"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kindref="member">offsetSurfaceLineToMeshContours</ref>(<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/>surfaceLine,<sp/>offsetAtPoint,<sp/>searchSettings<sp/>);</highlight></codeline>
-<codeline lineno="178"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76" refid="group__GeneralGroup_1ga5fd92baa79aac5e503e3310ab91fb400" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;EdgePath&gt;<sp/><ref refid="group__GeneralGroup_1ga5fd92baa79aac5e503e3310ab91fb400" kindref="member">resultCut</ref>;</highlight></codeline>
+<codeline lineno="79" refid="group__GeneralGroup_1gaca01891e95be4a6f3cb7168e88a33aac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1gaca01891e95be4a6f3cb7168e88a33aac" kindref="member">fbsWithContourIntersections</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="structMR_1_1CutMeshResult" kindref="compound">CutMeshResult</ref><sp/><ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">cutMesh</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CutMeshParameters" kindref="compound">CutMeshParameters</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1ga5eb87f0ab1d7fca53c85caa95f287e69" kindref="member">params</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="group__GeneralGroup_1gaf5b396c08011572eef5659ca9b84f37a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;FaceBitSet&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaf5b396c08011572eef5659ca9b84f37a" kindref="member">cutMeshByContour</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga19c0568c2b8f7fe1df67adc9cf370bc0" kindref="member">Contour3f</ref>&amp;<sp/>contour,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="group__GeneralGroup_1ga8471f2a87338254b2c1d8a0790776f0e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;FaceBitSet&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga8471f2a87338254b2c1d8a0790776f0e" kindref="member">cutMeshByContours</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>xf<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="structMR_1_1CutByProjectionSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CutByProjectionSettings" kindref="compound">CutByProjectionSettings</ref></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="125" refid="group__GeneralGroup_1ga789a41f7dc3d705c8ee83ea3c207ef9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga789a41f7dc3d705c8ee83ea3c207ef9e" kindref="member">direction</ref>;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="group__GeneralGroup_1ga1e498975d50ae1790f29c924362e4261" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/><ref refid="group__GeneralGroup_1ga1e498975d50ae1790f29c924362e4261" kindref="member">cont2mesh</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="group__GeneralGroup_1ga66c0157a15c650c2df28de17df4c485c" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;std::vector&lt;EdgePath&gt;</ref>&gt;<sp/><ref refid="group__GeneralGroup_1ga66c0157a15c650c2df28de17df4c485c" kindref="member">cutMeshByProjection</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref>&amp;<sp/>contours,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CutByProjectionSettings" kindref="compound">CutByProjectionSettings</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga351ee7aaab2fab7deb7b0aed319437f4" kindref="member">settings</ref><sp/>);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal">[[nodiscard]]</highlight></codeline>
+<codeline lineno="153" refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContours&gt;</ref><sp/><ref refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kindref="member">offsetSurfaceLineToMeshContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref><sp/>searchSettings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal">[[nodiscard]]</highlight></codeline>
+<codeline lineno="167" refid="group__BooleanGroup_1gac67a5b20bb2312590785d6dca7473866" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContours&gt;</ref><sp/><ref refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kindref="member">offsetSurfaceLineToMeshContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)&gt;&amp;<sp/>offsetAtPoint,<sp/><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref><sp/>searchSettings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;use<sp/>offsetSurfaceLineToMeshContours&quot;</highlight><highlight class="normal"><sp/>)]]<sp/>[[nodiscard]]</highlight></codeline>
+<codeline lineno="172" refid="group__GeneralGroup_1gaccf79b17bf64faa5454a116f768def33" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContours&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaccf79b17bf64faa5454a116f768def33" kindref="member">convertMeshTriPointsSurfaceOffsetToMeshContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref><sp/>searchSettings<sp/>=<sp/>{}<sp/>)</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kindref="member">offsetSurfaceLineToMeshContours</ref>(<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/>surfaceLine,<sp/>offset,<sp/>searchSettings<sp/>);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal">[[deprecated(<sp/></highlight><highlight class="stringliteral">&quot;use<sp/>offsetSurfaceLineToMeshContours&quot;</highlight><highlight class="normal"><sp/>)]]<sp/>[[nodiscard]]</highlight></codeline>
+<codeline lineno="179" refid="group__GeneralGroup_1ga8f2f47f6c859930c9c0252e4bc28944e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;OneMeshContours&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaccf79b17bf64faa5454a116f768def33" kindref="member">convertMeshTriPointsSurfaceOffsetToMeshContours</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;&amp;<sp/>surfaceLine,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)&gt;&amp;<sp/>offsetAtPoint,<sp/><ref refid="structMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref><sp/>searchSettings<sp/>=<sp/>{}<sp/>)</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kindref="member">offsetSurfaceLineToMeshContours</ref>(<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/>surfaceLine,<sp/>offsetAtPoint,<sp/>searchSettings<sp/>);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRContoursCut.h"/>
   </compounddef>

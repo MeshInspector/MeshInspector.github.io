@@ -914,6 +914,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>New edges that correspond to given contours, find more MR::CutMeshResult </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Input contours should have no intersections, faces where contours intersects (<span class="tt">bad faces</span>) will not be allowed for fill </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Every two consecutive intersections of a contour should lie in one face, and a contour should not fold back at a point inside an edge: a mesh vertex next to such a point is the third vertex of the face the contour goes in there </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Input mesh will be changed in any case, if <span class="tt">bad faces</span> are in mesh, mesh will be spoiled, <br  />
 so if you cannot guarantee contours without intersections better make copy of mesh, before using this function </dd></dl>
 <p>Generated from function <span class="tt">MR::cutMesh</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">contours</span> can not be null. It is a single object. Parameter <span class="tt">params</span> is a single object. Parameter <span class="tt">params</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a0f22861356c77dbfd0cdfdee67c3d793" title="Destroys a heap-allocated instance of MR_CutMeshResult. Does nothing if the pointer is null.">MR_CutMeshResult_Destroy()</a></span> to free it when you're done using it. </p>
@@ -1706,7 +1707,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Paths of new edges on mesh, they represent same contours as input, but already cut Returns a pointer to a member variable of class <span class="tt">MR::CutMeshResult</span> named <span class="tt">resultCut</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>Paths of new edges on mesh, they represent same contours as input, but already cut; a contour going from a mesh vertex to a point and back has an edge followed by its sym there Returns a pointer to a member variable of class <span class="tt">MR::CutMeshResult</span> named <span class="tt">resultCut</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1742,7 +1743,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Paths of new edges on mesh, they represent same contours as input, but already cut Returns a mutable pointer to a member variable of class <span class="tt">MR::CutMeshResult</span> named <span class="tt">resultCut</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>Paths of new edges on mesh, they represent same contours as input, but already cut; a contour going from a mesh vertex to a point and back has an edge followed by its sym there Returns a mutable pointer to a member variable of class <span class="tt">MR::CutMeshResult</span> named <span class="tt">resultCut</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1840,7 +1841,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Paths of new edges on mesh, they represent same contours as input, but already cut Modifies a member variable of class <span class="tt">MR::CutMeshResult</span> named <span class="tt">resultCut</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">resultCut</span>. When this function is called, this object will drop object references it held previously in <span class="tt">resultCut</span>. </p>
+<p>Paths of new edges on mesh, they represent same contours as input, but already cut; a contour going from a mesh vertex to a point and back has an edge followed by its sym there Modifies a member variable of class <span class="tt">MR::CutMeshResult</span> named <span class="tt">resultCut</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">resultCut</span>. When this function is called, this object will drop object references it held previously in <span class="tt">resultCut</span>. </p>
 
 </div>
 </div>

@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17231" bodyend="17232"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17506" bodyend="17507"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17234" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17234" bodyend="17235"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17509" bodyend="17510"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a06803e372cd69911665787f48bc15940" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17237" bodyend="17238"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17512" bodyend="17513"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a74e5a445b77884ae813fd319bf9dea68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17240" bodyend="17243"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17515" bodyend="17518"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1adbabf07f473d945ab10e69f1c10e0769" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -124,7 +124,7 @@ returns true if at least one step was added
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17244" bodyend="17248"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17519" bodyend="17523"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1aa0cf6fedf311764be141be0b7b69e9c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -153,7 +153,7 @@ if proposed metric is smaller then adds it in the queue and returns true
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17249" bodyend="17253"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17524" bodyend="17528"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a49c3a3acee2b66bceca63e6d2738d4e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -173,7 +173,7 @@ if proposed metric is smaller then adds it in the queue and returns true
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17254" bodyend="17257"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17529" bodyend="17532"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a598fe7b72e973724960202cb90d0b9aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -193,7 +193,7 @@ if proposed metric is smaller then adds it in the queue and returns true
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17258" bodyend="17261"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17533" bodyend="17536"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a7443336979d1371c20b3fa6d50bb8781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__Id__EdgeTag" kindref="compound">std_vector_Id_EdgeTag</ref></type>
@@ -217,7 +217,7 @@ if proposed metric is smaller then adds it in the queue and returns true
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17262" bodyend="17265"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17537" bodyend="17540"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a476bbb4ec6b298d434f7af0ad50ec583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertPathInfo" kindref="compound">VertPathInfo</ref></type>
@@ -241,7 +241,7 @@ if proposed metric is smaller then adds it in the queue and returns true
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17266" bodyend="17269"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17541" bodyend="17544"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1abed6904ca5288887ae179610944a100d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert" kindref="compound">EdgePathsBuilderT_MetricToAStarPenalty.ReachedVert</ref></type>
@@ -261,7 +261,7 @@ if proposed metric is smaller then adds it in the queue and returns true
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17270" bodyend="17273"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17545" bodyend="17548"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a773bd57d763d0fa5dca8b1c8f54b3c62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert" kindref="compound">EdgePathsBuilderT_MetricToAStarPenalty.ReachedVert</ref></type>
@@ -282,7 +282,7 @@ returns invalid VertId in v-field if no more vertices left
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17274" bodyend="17278"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17549" bodyend="17553"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a3b670650a5cf7b6f27a81b0482f47e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -306,7 +306,7 @@ returns invalid VertId in v-field if no more vertices left
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17279" bodyend="17282"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17554" bodyend="17557"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a3f91f8742501b045c0b06e8c80a4142c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
@@ -336,7 +336,7 @@ optionally appends tracked path (res)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17283" bodyend="17287"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17558" bodyend="17562"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a1a8dda29273c4a6a22c9d454a6783247" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__VertPathInfo" kindref="compound">phmap_flat_hash_map_Id_VertTag_VertPathInfo</ref></type>
@@ -356,7 +356,7 @@ optionally appends tracked path (res)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17288" bodyend="17291"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17563" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17563" bodyend="17566"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -379,7 +379,7 @@ the class is responsible for finding smallest metric edge paths on a mesh
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17162" bodyend="17291"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17437" bodyend="17566"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1abcb5845f1133a2471bb9e863352e4fd7" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsBuilderT_MetricToAStarPenalty</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1ab8cdd0a1c20cb7c9187c1c39da310a49" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsBuilderT_MetricToAStarPenalty</scope><name>__init__</name></member>

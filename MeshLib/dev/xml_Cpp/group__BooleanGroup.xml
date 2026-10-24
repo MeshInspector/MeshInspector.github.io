@@ -373,6 +373,10 @@
 <simplesect kind="warning"><para>Input contours should have no intersections, faces where contours intersects (<computeroutput>bad faces</computeroutput>) will not be allowed for fill </para>
 </simplesect>
 </para>
+<para><parblock><para><simplesect kind="warning"><para>Every two consecutive intersections of a contour should lie in one face, and a contour should not fold back at a point inside an edge: a mesh vertex next to such a point is the third vertex of the face the contour goes in there </para>
+</simplesect>
+</para>
+</parblock></para>
 <para><parblock><para><simplesect kind="warning"><para>Input mesh will be changed in any case, if <computeroutput>bad faces</computeroutput> are in mesh, mesh will be spoiled, <linebreak/>
 so if you cannot guarantee contours without intersections better make copy of mesh, before using this function </para>
 </simplesect>
@@ -381,7 +385,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="98" column="16" declfile="MRMesh/MRContoursCut.h" declline="98" declcolumn="16"/>
+        <location file="MRMesh/MRContoursCut.h" line="103" column="16" declfile="MRMesh/MRContoursCut.h" declline="103" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; OneMeshContours &gt;</type>
@@ -433,7 +437,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="148" column="11" declfile="MRMesh/MRContoursCut.h" declline="148" declcolumn="11"/>
+        <location file="MRMesh/MRContoursCut.h" line="153" column="11" declfile="MRMesh/MRContoursCut.h" declline="153" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__BooleanGroup_1gac67a5b20bb2312590785d6dca7473866" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; OneMeshContours &gt;</type>
@@ -485,7 +489,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="162" column="11" declfile="MRMesh/MRContoursCut.h" declline="162" declcolumn="11"/>
+        <location file="MRMesh/MRContoursCut.h" line="167" column="11" declfile="MRMesh/MRContoursCut.h" declline="167" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__BooleanGroup_1ga123f4e8e51dc1696e7db2ff8fc233bd2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE Expected&lt; OneMeshContour &gt;</type>

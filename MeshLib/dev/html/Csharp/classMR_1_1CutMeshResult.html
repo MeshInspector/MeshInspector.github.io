@@ -181,12 +181,12 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a6036b98bf53e8905006d57b198d2add3" id="r_a6036b98bf53e8905006d57b198d2add3"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Vector_StdVectorMREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6036b98bf53e8905006d57b198d2add3">resultCut</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a6036b98bf53e8905006d57b198d2add3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paths of new edges on mesh, they represent same contours as input, but already cut.  <br /></td></tr>
+<tr class="memdesc:a6036b98bf53e8905006d57b198d2add3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paths of new edges on mesh, they represent same contours as input, but already cut; a contour going from a mesh vertex to a point and back has an edge followed by its sym there.  <br /></td></tr>
 <tr class="memitem:a2e672df7679e0f058dcbba30529bc43a" id="r_a2e672df7679e0f058dcbba30529bc43a"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e672df7679e0f058dcbba30529bc43a">fbsWithContourIntersections</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a2e672df7679e0f058dcbba30529bc43a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way.  <br /></td></tr>
 <tr class="inherit_header properties_classMR_1_1Const__CutMeshResult"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Const__CutMeshResult')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Properties inherited from <a class="el" href="classMR_1_1Const__CutMeshResult.html">MR.Const_CutMeshResult</a></td></tr>
 <tr class="memitem:a49e5b0124634b1a23614053384ed995e inherit properties_classMR_1_1Const__CutMeshResult" id="r_a49e5b0124634b1a23614053384ed995e"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_StdVectorMREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__CutMeshResult.html#a49e5b0124634b1a23614053384ed995e">resultCut</a><code> [get, protected set]</code></td></tr>
-<tr class="memdesc:a49e5b0124634b1a23614053384ed995e inherit properties_classMR_1_1Const__CutMeshResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paths of new edges on mesh, they represent same contours as input, but already cut.  <br /></td></tr>
+<tr class="memdesc:a49e5b0124634b1a23614053384ed995e inherit properties_classMR_1_1Const__CutMeshResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Paths of new edges on mesh, they represent same contours as input, but already cut; a contour going from a mesh vertex to a point and back has an edge followed by its sym there.  <br /></td></tr>
 <tr class="memitem:a5fc79654027775cbb94c63bbf16bbdde inherit properties_classMR_1_1Const__CutMeshResult" id="r_a5fc79654027775cbb94c63bbf16bbdde"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__CutMeshResult.html#a5fc79654027775cbb94c63bbf16bbdde">fbsWithContourIntersections</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:a5fc79654027775cbb94c63bbf16bbdde inherit properties_classMR_1_1Const__CutMeshResult"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -412,7 +412,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Paths of new edges on mesh, they represent same contours as input, but already cut. </p>
+<p>Paths of new edges on mesh, they represent same contours as input, but already cut; a contour going from a mesh vertex to a point and back has an edge followed by its sym there. </p>
 
 </div>
 </div>
