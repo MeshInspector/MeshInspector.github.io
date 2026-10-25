@@ -126,10 +126,10 @@ var MRMesh_8h =
     [ "MR_Mesh_signedDistance_1", "MRMesh_8h.html#aef544e1964b438485f0f09808df93660", null ],
     [ "MR_Mesh_signedDistance_3_float", "MRMesh_8h.html#a6b1d8a3544e976e7caeae5c977c3ebfb", null ],
     [ "MR_Mesh_signedDistance_3_MR_MeshProjectionResult", "MRMesh_8h.html#a445f150396a71139039a0a3f63ac248a", null ],
-    [ "MR_Mesh_splitEdge_3", "MRMesh_8h.html#a0d5a43cd9f9d8df7016fb1f3f61e5d43", null ],
-    [ "MR_Mesh_splitEdge_4", "MRMesh_8h.html#a453258e607edeb738faa22d9b18a72f5", null ],
-    [ "MR_Mesh_splitFace_3", "MRMesh_8h.html#a0fd084806d293b44fecd9f10812beb84", null ],
-    [ "MR_Mesh_splitFace_4", "MRMesh_8h.html#aeab3f199d5e9abce5de5777234cdada0", null ],
+    [ "MR_Mesh_splitEdge_3", "MRMesh_8h.html#a7d5a31a4b2cdcede02094f9c646983b9", null ],
+    [ "MR_Mesh_splitEdge_4", "MRMesh_8h.html#a79be9afbfe2e487d71f3c3c316eee6fd", null ],
+    [ "MR_Mesh_splitFace_3", "MRMesh_8h.html#adc3622a7365a5c265cd49d820fc6e34e", null ],
+    [ "MR_Mesh_splitFace_4", "MRMesh_8h.html#a3c8bba4e392e580b241bc50769fb1ddd", null ],
     [ "MR_Mesh_sumAngles", "MRMesh_8h.html#a996d7d4d6b5b8576c04389a7521fa907", null ],
     [ "MR_Mesh_toEdgePoint_1", "MRMesh_8h.html#a5217312b0ba2271d02273e3dc91281b5", null ],
     [ "MR_Mesh_toEdgePoint_2", "MRMesh_8h.html#a6dea26ec7d7d991b12890fd7e0105290", null ],
@@ -141,7 +141,7 @@ var MRMesh_8h =
     [ "MR_Mesh_triCenter", "MRMesh_8h.html#afd9a5a04df354435d727caa9fb9bccf3", null ],
     [ "MR_Mesh_triPoint", "MRMesh_8h.html#a7c4419a1fe6b8000bd5d992d5ba338b6", null ],
     [ "MR_Mesh_updateCaches", "MRMesh_8h.html#a21ed6ff7557adf4ba0fa4efd52bb38c9", null ],
-    [ "MR_Mesh_updateCachesAfterSplits", "MRMesh_8h.html#a05e4c66aa50b651c29a788585b00e313", null ],
+    [ "MR_Mesh_updateCachesAfterSplits", "MRMesh_8h.html#a0808c721348661ec9c201a1664611ee6", null ],
     [ "MR_Mesh_volume", "MRMesh_8h.html#a9947ce49e209c6d1b9b517cc729c706d", null ],
     [ "MR_Mesh_zeroUnusedPoints", "MRMesh_8h.html#aeaaaacfbe283dcc72b4d746621ecc651", null ]
 ];

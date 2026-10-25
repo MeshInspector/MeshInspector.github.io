@@ -16,7 +16,7 @@ var MRTeethMaskToDirectionVolume_8h =
     [ "MR_TeethMaskToDirectionVolumeConvertor_create", "MRTeethMaskToDirectionVolume_8h.html#aa87cf57106258aaed08fd78bee36d581", null ],
     [ "MR_TeethMaskToDirectionVolumeConvertor_Destroy", "MRTeethMaskToDirectionVolume_8h.html#a4b9acf6979daf99cb75ea2e73bc8dfef", null ],
     [ "MR_TeethMaskToDirectionVolumeConvertor_DestroyArray", "MRTeethMaskToDirectionVolume_8h.html#ad1b5431a034c576f358fbea02d4ee2f5", null ],
-    [ "MR_TeethMaskToDirectionVolumeConvertor_getObjectBounds", "MRTeethMaskToDirectionVolume_8h.html#ad5b60aa480fc53fb2a2d760032912c30", null ],
+    [ "MR_TeethMaskToDirectionVolumeConvertor_getObjectBounds", "MRTeethMaskToDirectionVolume_8h.html#a3cf2d5f2f322ee7750fc8b5a0d372542", null ],
     [ "MR_TeethMaskToDirectionVolumeConvertor_OffsetMutablePtr", "MRTeethMaskToDirectionVolume_8h.html#a136a72576e83d6a34e74867679ea5482", null ],
     [ "MR_TeethMaskToDirectionVolumeConvertor_OffsetPtr", "MRTeethMaskToDirectionVolume_8h.html#adc3a55e0d776abdc696afd67f2205340", null ],
     [ "MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_AssignFromAnother", "MRTeethMaskToDirectionVolume_8h.html#a6bc762bc101073a24ee3b8c0c41e119b", null ],

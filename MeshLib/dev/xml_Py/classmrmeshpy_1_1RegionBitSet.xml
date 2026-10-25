@@ -829,10 +829,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99047" bodyend="99048"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1ae910a422b9ebc124cc17371423db9d3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a31c2a8134685f367503b47bc67c5938b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
         <definition> RegionBitSet mrmeshpy.RegionBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag map)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_RegionTag_Id_RegionTag map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.RegionBitSet.getMapping</qualifiedname>
         <param>
@@ -840,7 +840,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6" kindref="compound">phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag" kindref="compound">phmap_flat_hash_map_Id_RegionTag_Id_RegionTag</ref></type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -877,10 +877,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99053" bodyend="99054"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a16a7364c31f7071d4bca6873920e10e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a3df5e67545023ea40b3761cd3e6465a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
         <definition> RegionBitSet mrmeshpy.RegionBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag map, int resSize)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_RegionTag_Id_RegionTag map, int resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.RegionBitSet.getMapping</qualifiedname>
         <param>
@@ -888,7 +888,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6" kindref="compound">phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag" kindref="compound">phmap_flat_hash_map_Id_RegionTag_Id_RegionTag</ref></type>
           <declname>map</declname>
         </param>
         <param>
@@ -1310,9 +1310,9 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1RegionBitSet_1a4fde3c09eee409dcd546a7873b1db8e3" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a6b6bd2f5cdc5144eabfe138253e267e7" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1abcd69690eff4ca1bac418d4b99367ccf" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1RegionBitSet_1ae910a422b9ebc124cc17371423db9d3c" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a31c2a8134685f367503b47bc67c5938b" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a8055182a404c3ad1a83f003475116f82" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1RegionBitSet_1a16a7364c31f7071d4bca6873920e10e1" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a3df5e67545023ea40b3761cd3e6465a0" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a07dcb7b6a37fba61f1afca6ce0d199e1" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1RegionBitSet_1a073e500b5dd574982e909a3cd93e0c83" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>is_subset_of</name></member>

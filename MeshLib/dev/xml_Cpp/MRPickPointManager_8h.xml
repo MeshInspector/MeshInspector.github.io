@@ -35,9 +35,7 @@
       <node id="92">
         <label>MRAllocator.h</label>
         <link refid="MRAllocator_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="48" relation="include">
         </childnode>
@@ -1056,14 +1054,14 @@
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
 <codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga517842afda1f1c9d0c1487829fb09fb4" kindref="member">SurfaceContours</ref><sp/>pickedPoints_;</highlight></codeline>
 <codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga73743648f725f7a8ba67d01ae0e466d5" kindref="member">HashSet&lt;const VisualObject*&gt;</ref><sp/>myPickSpheres_;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>HashSet&lt;const<sp/>VisualObject*&gt;<sp/>myPickSpheres_;</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"></highlight></codeline>
 <codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">ConnectionHolder</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="218" refid="group__GeneralGroup_1ga3a8d9ea3e08f8b49801f1611d4ef25d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::signals2::scoped_connection<sp/><ref refid="group__GeneralGroup_1ga3a8d9ea3e08f8b49801f1611d4ef25d2" kindref="member">onMeshChanged</ref>;</highlight></codeline>
 <codeline lineno="219" refid="group__GeneralGroup_1ga22c0325308831c188403d0937c0d7574" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::signals2::scoped_connection<sp/><ref refid="group__GeneralGroup_1ga22c0325308831c188403d0937c0d7574" kindref="member">onPointsChanged</ref>;</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9dfad208b725d59063370f3881b40552" kindref="member">HashMap&lt;std::shared_ptr&lt;VisualObject&gt;</ref>,<sp/>ConnectionHolder&gt;<sp/>connectionHolders_;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;std::shared_ptr&lt;VisualObject&gt;</ref>,<sp/>ConnectionHolder&gt;<sp/>connectionHolders_;</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"></highlight></codeline>
 <codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">SetStateHistoryAction;</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">AddRemovePointHistoryAction;</highlight></codeline>

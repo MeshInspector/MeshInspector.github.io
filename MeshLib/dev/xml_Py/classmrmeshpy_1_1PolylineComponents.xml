@@ -4,6 +4,27 @@
     <compoundname>mrmeshpy::PolylineComponents</compoundname>
     <innerclass refid="classmrmeshpy_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" prot="public">mrmeshpy::PolylineComponents::LargeByLengthComponentsSettings</innerclass>
     <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1ae4c0e5485d9ae94c5311c9ff3751789f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag" kindref="compound">std_vector_TypedBitSet_Id_UndirectedEdgeTag</ref></type>
+        <definition> std_vector_TypedBitSet_Id_UndirectedEdgeTag mrmeshpy.PolylineComponents.getAllComponents</definition>
+        <argsstring>(PolylineTopology topology)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>mrmeshpy.PolylineComponents.getAllComponents</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PolylineTopology" kindref="compound">PolylineTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets all connected components of polyline topology
+\\note be careful, if mesh is large enough and has many components, the memory overflow will occur
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6217" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6217" bodyend="6221"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1a9ac8e17e32d9f8be8ed437ba481b2c9c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>tuple[<ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag" kindref="compound">std_vector_TypedBitSet_Id_UndirectedEdgeTag</ref>, int]</type>
         <definition> tuple[std_vector_TypedBitSet_Id_UndirectedEdgeTag, int] mrmeshpy.PolylineComponents.getAllComponents</definition>
@@ -29,28 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6217" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6217" bodyend="6223"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1ae4c0e5485d9ae94c5311c9ff3751789f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag" kindref="compound">std_vector_TypedBitSet_Id_UndirectedEdgeTag</ref></type>
-        <definition> std_vector_TypedBitSet_Id_UndirectedEdgeTag mrmeshpy.PolylineComponents.getAllComponents</definition>
-        <argsstring>(PolylineTopology topology)</argsstring>
-        <name>getAllComponents</name>
-        <qualifiedname>mrmeshpy.PolylineComponents.getAllComponents</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1PolylineTopology" kindref="compound">PolylineTopology</ref></type>
-          <declname>topology</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>gets all connected components of polyline topology
-\\note be careful, if mesh is large enough and has many components, the memory overflow will occur
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6226" bodyend="6230"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6224" bodyend="6230"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PolylineComponents_1a0751b2be93de2423443acd3ebbc742a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -234,8 +234,8 @@ not effective to call more than once, if several components are needed use getAl
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6155" bodyend="6270"/>
     <listofallmembers>
-      <member refid="classmrmeshpy_1_1PolylineComponents_1a9ac8e17e32d9f8be8ed437ba481b2c9c" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1PolylineComponents_1ae4c0e5485d9ae94c5311c9ff3751789f" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineComponents</scope><name>getAllComponents</name></member>
+      <member refid="classmrmeshpy_1_1PolylineComponents_1a9ac8e17e32d9f8be8ed437ba481b2c9c" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1PolylineComponents_1a0751b2be93de2423443acd3ebbc742a6" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineComponents</scope><name>getComponent</name></member>
       <member refid="classmrmeshpy_1_1PolylineComponents_1a25a2c10c91f10d11c42c4512d1a9b3bf" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineComponents</scope><name>getLargestComponent</name></member>
       <member refid="classmrmeshpy_1_1PolylineComponents_1a99488fcfbe9e63b90b9ee7c64be319b4" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineComponents</scope><name>getLargestComponent</name></member>

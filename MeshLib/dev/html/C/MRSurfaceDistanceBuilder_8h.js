@@ -6,7 +6,7 @@ var MRSurfaceDistanceBuilder_8h =
     [ "MR_less_MR_VertDistance", "MRSurfaceDistanceBuilder_8h.html#acf99680cd852e320d9031be69414c2b2", null ],
     [ "MR_SurfaceDistanceBuilder_addStart", "MRSurfaceDistanceBuilder_8h.html#a715f015deeb1227fe9733fb9a1e17bcd", null ],
     [ "MR_SurfaceDistanceBuilder_addStartRegion", "MRSurfaceDistanceBuilder_8h.html#ab58cf65f768a2d4960105f48fc269e71", null ],
-    [ "MR_SurfaceDistanceBuilder_addStartVertices", "MRSurfaceDistanceBuilder_8h.html#aefd3cb7abf15c35f81889c11b0b26f33", null ],
+    [ "MR_SurfaceDistanceBuilder_addStartVertices", "MRSurfaceDistanceBuilder_8h.html#a53e0522c371c5a5e806c57070cc8dad4", null ],
     [ "MR_SurfaceDistanceBuilder_Construct_2", "MRSurfaceDistanceBuilder_8h.html#ad027c90406b8610e6092ccd743739add", null ],
     [ "MR_SurfaceDistanceBuilder_Construct_3", "MRSurfaceDistanceBuilder_8h.html#aa1c73c6a98897f20620d37af30c837cb", null ],
     [ "MR_SurfaceDistanceBuilder_ConstructFromAnother", "MRSurfaceDistanceBuilder_8h.html#adfa2e516065b4aa7fe69bc05d7cfedc9", null ],

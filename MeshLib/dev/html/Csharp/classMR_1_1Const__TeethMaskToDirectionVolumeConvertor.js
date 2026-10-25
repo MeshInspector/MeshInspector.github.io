@@ -10,5 +10,5 @@ var classMR_1_1Const__TeethMaskToDirectionVolumeConvertor =
     [ "create", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a0ef3cf0a6f7269bb6eeee3636178dfb3", null ],
     [ "Dispose", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a94632b17b0d54d7cbe3d40f3a732ce2a", null ],
     [ "Dispose", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a0d0a9d375ec9c0c8c67407eb803fb0dd", null ],
-    [ "getObjectBounds", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a3da6016458ef7c89e7a56d0aac3c95ba", null ]
+    [ "getObjectBounds", "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a58bf4e1392e7c3aaf00dc179b7bd45c9", null ]
 ];

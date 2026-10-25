@@ -625,10 +625,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14485" bodyend="14488"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1ac9065464e80dee52dc9a1ac60afbdb42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a13f0a8afa12b1ec34d48663ed66fcf14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.DecimateSettings.__init__</definition>
-        <argsstring>(self, DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, bool preventNormalFlips, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, FaceBitSet region, UndirectedEdgeBitSet notFlippable, bool collapseNearNotFlippable, UndirectedEdgeBitSet edgesToCollapse, phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag_phmap_Hash_Id_UndirectedEdgeTag_phmap_EqualTo_Id_UndirectedEdgeTag_Allocator_std_pair_Id_UndirectedEdgeTag_const_Id_UndirectedEdgeTag twinMap, bool touchNearBdEdges, bool touchBdVerts, VertBitSet bdVerts, UndirectedEdgeBitSet regionEdges, float maxAngleChange, func_bool_from_Id_EdgeTag_Vector3_float preCollapse, func_void_from_Id_UndirectedEdgeTag_float_Vector3_float adjustCollapse, func_void_from_Id_EdgeTag_Id_EdgeTag onEdgeDel, Vector_QuadraticForm3f_VertId vertForms, bool packMesh, func_bool_from_float progressCallback, int subdivideParts, DecimatePartsMode partsMode, bool decimateBetweenParts, std_vector_TypedBitSet_Id_FaceTag partFaces, int minFacesInPart)</argsstring>
+        <argsstring>(self, DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, bool preventNormalFlips, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, FaceBitSet region, UndirectedEdgeBitSet notFlippable, bool collapseNearNotFlippable, UndirectedEdgeBitSet edgesToCollapse, phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag twinMap, bool touchNearBdEdges, bool touchBdVerts, VertBitSet bdVerts, UndirectedEdgeBitSet regionEdges, float maxAngleChange, func_bool_from_Id_EdgeTag_Vector3_float preCollapse, func_void_from_Id_UndirectedEdgeTag_float_Vector3_float adjustCollapse, func_void_from_Id_EdgeTag_Id_EdgeTag onEdgeDel, Vector_QuadraticForm3f_VertId vertForms, bool packMesh, func_bool_from_float progressCallback, int subdivideParts, DecimatePartsMode partsMode, bool decimateBetweenParts, std_vector_TypedBitSet_Id_FaceTag partFaces, int minFacesInPart)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.DecimateSettings.__init__</qualifiedname>
         <param>
@@ -704,7 +704,7 @@
           <declname>edgesToCollapse</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__Haf6bf4aa74823fc64e1189f138ce8e1fe" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag_phmap_Hash_Id_UndirectedEdgeTag_phmap_EqualTo_Id_UndirectedEdgeTag_Allocator_std_pair_Id_UndirectedEdgeTag_const_Id_UndirectedEdgeTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</ref></type>
           <declname>twinMap</declname>
         </param>
         <param>
@@ -2113,9 +2113,9 @@ this setting is ignored if touchNearBdEdges=false
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14770" bodyend="14771"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a2d6e3e86f052025dd4ac8a0847c2135a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__Haf6bf4aa74823fc64e1189f138ce8e1fe" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag_phmap_Hash_Id_UndirectedEdgeTag_phmap_EqualTo_Id_UndirectedEdgeTag_Allocator_std_pair_Id_UndirectedEdgeTag_const_Id_UndirectedEdgeTag</ref></type>
-        <definition> phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag_phmap_Hash_Id_UndirectedEdgeTag_phmap_EqualTo_Id_UndirectedEdgeTag_Allocator_std_pair_Id_UndirectedEdgeTag_const_Id_UndirectedEdgeTag mrmeshpy.DecimateSettings.twinMap</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1aaf870573d8c5610a06fa3e9f97b05f51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag mrmeshpy.DecimateSettings.twinMap</definition>
         <argsstring>(self)</argsstring>
         <name>twinMap</name>
         <qualifiedname>mrmeshpy.DecimateSettings.twinMap</qualifiedname>
@@ -2134,10 +2134,10 @@ the algorithm updates this map during collapses, removing or replacing elements
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14773" bodyend="14777"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a0e600270b8c9baec05df4960b81097e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateSettings_1a1dbce075df190b02eebae30f13f907ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.DecimateSettings.twinMap</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag_phmap_Hash_Id_UndirectedEdgeTag_phmap_EqualTo_Id_UndirectedEdgeTag_Allocator_std_pair_Id_UndirectedEdgeTag_const_Id_UndirectedEdgeTag arg1)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag arg1)</argsstring>
         <name>twinMap</name>
         <qualifiedname>mrmeshpy.DecimateSettings.twinMap</qualifiedname>
         <param>
@@ -2145,7 +2145,7 @@ the algorithm updates this map during collapses, removing or replacing elements
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag__phmap__Haf6bf4aa74823fc64e1189f138ce8e1fe" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag_phmap_Hash_Id_UndirectedEdgeTag_phmap_EqualTo_Id_UndirectedEdgeTag_Allocator_std_pair_Id_UndirectedEdgeTag_const_Id_UndirectedEdgeTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</ref></type>
           <declname>arg1</declname>
         </param>
         <briefdescription>
@@ -2218,7 +2218,7 @@ the algorithm updates this map during collapses, removing or replacing elements
       <member refid="classmrmeshpy_1_1DecimateSettings_1a8eefabc49f8bf96e43216fde22f38ba0" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1DecimateSettings_1adc864beb92ab0473ec0a508b57b3f3f8" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1DecimateSettings_1a051ad80dd4673ad4e825bdef48419f87" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1DecimateSettings_1ac9065464e80dee52dc9a1ac60afbdb42" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a13f0a8afa12b1ec34d48663ed66fcf14" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1DecimateSettings_1a1827a87929243373a4f3a8120b598376" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_adjustCollapse</name></member>
       <member refid="classmrmeshpy_1_1DecimateSettings_1af43d3e4ca17cf0a68d69afc41ba2c3f2" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_angleWeightedDistToPlane</name></member>
       <member refid="classmrmeshpy_1_1DecimateSettings_1afdd4a263fd390dbb22392099afeb5a88" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>_offsetof_bdVerts</name></member>
@@ -2317,8 +2317,8 @@ the algorithm updates this map during collapses, removing or replacing elements
       <member refid="classmrmeshpy_1_1DecimateSettings_1a6f07b5b8fbd78e624b3bb0ec715a95e4" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>touchBdVerts</name></member>
       <member refid="classmrmeshpy_1_1DecimateSettings_1a0c79c096795323dc4262076eb6547f31" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>touchNearBdEdges</name></member>
       <member refid="classmrmeshpy_1_1DecimateSettings_1a994c9f0e2127807836d9b063b0d48f8f" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>touchNearBdEdges</name></member>
-      <member refid="classmrmeshpy_1_1DecimateSettings_1a2d6e3e86f052025dd4ac8a0847c2135a" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>twinMap</name></member>
-      <member refid="classmrmeshpy_1_1DecimateSettings_1a0e600270b8c9baec05df4960b81097e2" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>twinMap</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1aaf870573d8c5610a06fa3e9f97b05f51" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>twinMap</name></member>
+      <member refid="classmrmeshpy_1_1DecimateSettings_1a1dbce075df190b02eebae30f13f907ec" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>twinMap</name></member>
       <member refid="classmrmeshpy_1_1DecimateSettings_1a0770a638d8fc5b0b48774cdc9f9ddd0e" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>vertForms</name></member>
       <member refid="classmrmeshpy_1_1DecimateSettings_1ae397e340cb3c4eb644495809dc004b1a" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateSettings</scope><name>vertForms</name></member>
     </listofallmembers>

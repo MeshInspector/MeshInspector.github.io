@@ -6,9 +6,9 @@
     <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId" prot="public" virt="non-virtual">MR.MapOrHashMap_MRVertId_MRVertId</derivedcompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1afe17fd7a998ffb266a53fa04b22950db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>unsafe MR.Std.Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertIdPhmapHashMRVertIdPhmapEqualToMRVertIdMRAllocatorStdPairConstMRVertIdMRVertId</type>
-        <definition>unsafe MR.Std.Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertIdPhmapHashMRVertIdPhmapEqualToMRVertIdMRAllocatorStdPairConstMRVertIdMRVertId MR.Const_MapOrHashMap_MRVertId_MRVertId.var</definition>
+      <memberdef kind="property" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a33a5ef6b3b4e81bd237ae6c3eb0287c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId</type>
+        <definition>unsafe MR.Std.Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId MR.Const_MapOrHashMap_MRVertId_MRVertId.var</definition>
         <argsstring></argsstring>
         <name>var</name>
         <qualifiedname>MR.Const_MapOrHashMap_MRVertId_MRVertId.var</qualifiedname>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="435" column="161" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="435" bodyend="435"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="435" column="85" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="435" bodyend="435"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -71,14 +71,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="461" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="461" bodyend="465"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a70e2557388215118b3ad6f055ed535df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a464a5fc4003e93bccea47ce7bb63623a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_MapOrHashMap_MRVertId_MRVertId.Const_MapOrHashMap_MRVertId_MRVertId</definition>
-        <argsstring>(MR.Std._ByValue_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertIdPhmapHashMRVertIdPhmapEqualToMRVertIdMRAllocatorStdPairConstMRVertIdMRVertId var)</argsstring>
+        <argsstring>(MR.Std._ByValue_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId var)</argsstring>
         <name>Const_MapOrHashMap_MRVertId_MRVertId</name>
         <qualifiedname>MR.Const_MapOrHashMap_MRVertId_MRVertId.Const_MapOrHashMap_MRVertId_MRVertId</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertIdPhmapHashMRVertIdPhmapEqualToMRVertIdMRAllocatorStdPairConstMRVertIdMRVertId</type>
+          <type>MR.Std._ByValue_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId</type>
           <declname>var</declname>
         </param>
         <briefdescription>
@@ -162,20 +162,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="520" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="520" bodyend="527"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ab655ad063f4c32d6215bcfdc840b42fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Phmap.? Const_FlatHashMap_MRVertId_MRVertId_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertId</type>
-        <definition>unsafe MR.Phmap.? Const_FlatHashMap_MRVertId_MRVertId_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertId MR.Const_MapOrHashMap_MRVertId_MRVertId.getHashMap</definition>
+      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ac562b8299270aa9d7bae2600499926dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Phmap.? Const_FlatHashMap_MRVertId_MRVertId</type>
+        <definition>unsafe MR.Phmap.? Const_FlatHashMap_MRVertId_MRVertId MR.Const_MapOrHashMap_MRVertId_MRVertId.getHashMap</definition>
         <argsstring>()</argsstring>
         <name>getHashMap</name>
         <qualifiedname>MR.Const_MapOrHashMap_MRVertId_MRVertId.getHashMap</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ab655ad063f4c32d6215bcfdc840b42fc" kindref="member">getHashMap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ac562b8299270aa9d7bae2600499926dc" kindref="member">getHashMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="532" column="145" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="532" bodyend="539"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="532" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="532" bodyend="539"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -261,10 +261,10 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a99097683d00954f979e01b2a8d17ab24" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a14663ea06b3d26a5bbe87b0fcff93489" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.MapOrHashMap_MRVertId_MRVertId._Underlying *</type>
         <definition>static unsafe MR.MapOrHashMap_MRVertId_MRVertId._Underlying * MR.Const_MapOrHashMap_MRVertId_MRVertId.__MR_MapOrHashMap_MR_VertId_MR_VertId_ConstructFrom</definition>
-        <argsstring>(MR.Misc._PassBy var_pass_by, MR.Std.Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertIdPhmapHashMRVertIdPhmapEqualToMRVertIdMRAllocatorStdPairConstMRVertIdMRVertId._Underlying *var)</argsstring>
+        <argsstring>(MR.Misc._PassBy var_pass_by, MR.Std.Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId._Underlying *var)</argsstring>
         <name>__MR_MapOrHashMap_MR_VertId_MR_VertId_ConstructFrom</name>
         <qualifiedname>MR.Const_MapOrHashMap_MRVertId_MRVertId.__MR_MapOrHashMap_MR_VertId_MR_VertId_ConstructFrom</qualifiedname>
         <param>
@@ -272,7 +272,7 @@
           <declname>var_pass_by</declname>
         </param>
         <param>
-          <type>MR.Std.Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertIdPhmapHashMRVertIdPhmapEqualToMRVertIdMRAllocatorStdPairConstMRVertIdMRVertId._Underlying *</type>
+          <type>MR.Std.Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId._Underlying *</type>
           <declname>var</declname>
         </param>
         <briefdescription>
@@ -337,9 +337,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="553" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ac9a424af4c285d1f64d93186b0b1af08" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertIdPhmapHashMRVertIdPhmapEqualToMRVertIdMRAllocatorStdPairConstMRVertIdMRVertId._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertIdPhmapHashMRVertIdPhmapEqualToMRVertIdMRAllocatorStdPairConstMRVertIdMRVertId._Underlying * MR.Const_MapOrHashMap_MRVertId_MRVertId.__MR_MapOrHashMap_MR_VertId_MR_VertId_Get_var</definition>
+      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ac6b36e6999a6a8f5897780f17207ba5c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Variant_MRVertMap_PhmapFlatHashMapMRVertIdMRVertId._Underlying * MR.Const_MapOrHashMap_MRVertId_MRVertId.__MR_MapOrHashMap_MR_VertId_MR_VertId_Get_var</definition>
         <argsstring>(MR.Const_MapOrHashMap_MRVertId_MRVertId._Underlying *_this)</argsstring>
         <name>__MR_MapOrHashMap_MR_VertId_MR_VertId_Get_var</name>
         <qualifiedname>MR.Const_MapOrHashMap_MRVertId_MRVertId.__MR_MapOrHashMap_MR_VertId_MR_VertId_Get_var</qualifiedname>
@@ -353,7 +353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="556" column="179"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="556" column="103"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a85c4ef75752b73784447d8256a033218" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.MapOrHashMap_MRVertId_MRVertId._Underlying *</type>
@@ -391,9 +391,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="562" column="74"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ad11e664ea1547c99bd80810ce7252121" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertId._Underlying *</type>
-        <definition>static unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertId._Underlying * MR.Const_MapOrHashMap_MRVertId_MRVertId.__MR_MapOrHashMap_MR_VertId_MR_VertId_getHashMap</definition>
+      <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1abcf81548c79942f67ee455154c443869" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId._Underlying *</type>
+        <definition>static unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertId._Underlying * MR.Const_MapOrHashMap_MRVertId_MRVertId.__MR_MapOrHashMap_MR_VertId_MR_VertId_getHashMap</definition>
         <argsstring>(_Underlying *_this)</argsstring>
         <name>__MR_MapOrHashMap_MR_VertId_MR_VertId_getHashMap</name>
         <qualifiedname>MR.Const_MapOrHashMap_MRVertId_MRVertId.__MR_MapOrHashMap_MR_VertId_MR_VertId_getHashMap</qualifiedname>
@@ -407,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="565" column="163"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="565" column="84"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a36776bf7eb9b729ac40ac0633671b5d3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Const_VertMap._Underlying *</type>
@@ -473,18 +473,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="418" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="419" bodyend="569"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a99097683d00954f979e01b2a8d17ab24" prot="private" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>__MR_MapOrHashMap_MR_VertId_MR_VertId_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a14663ea06b3d26a5bbe87b0fcff93489" prot="private" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>__MR_MapOrHashMap_MR_VertId_MR_VertId_ConstructFrom</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1aaca91de9f509f1945e9352313d665e67" prot="private" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>__MR_MapOrHashMap_MR_VertId_MR_VertId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a85c4ef75752b73784447d8256a033218" prot="private" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>__MR_MapOrHashMap_MR_VertId_MR_VertId_createHashMap</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1aaaf1631257fc231e379bbf24fbdf6aa2" prot="private" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>__MR_MapOrHashMap_MR_VertId_MR_VertId_createMap</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a09a047ba8eeea3f358c524d15f68cfea" prot="private" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>__MR_MapOrHashMap_MR_VertId_MR_VertId_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1aa06130c059c14f508a61e34d4623bcb2" prot="private" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>__MR_MapOrHashMap_MR_VertId_MR_VertId_Destroy</name></member>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ac9a424af4c285d1f64d93186b0b1af08" prot="private" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>__MR_MapOrHashMap_MR_VertId_MR_VertId_Get_var</name></member>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ad11e664ea1547c99bd80810ce7252121" prot="private" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>__MR_MapOrHashMap_MR_VertId_MR_VertId_getHashMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ac6b36e6999a6a8f5897780f17207ba5c" prot="private" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>__MR_MapOrHashMap_MR_VertId_MR_VertId_Get_var</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1abcf81548c79942f67ee455154c443869" prot="private" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>__MR_MapOrHashMap_MR_VertId_MR_VertId_getHashMap</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a36776bf7eb9b729ac40ac0633671b5d3" prot="private" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>__MR_MapOrHashMap_MR_VertId_MR_VertId_getMap</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a129fc965cfaf9b2d6783ddd29d1cfb12" prot="package" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>Const_MapOrHashMap_MRVertId_MRVertId</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a504e1fef2581b136fdee76226949a44e" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>Const_MapOrHashMap_MRVertId_MRVertId</name></member>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a70e2557388215118b3ad6f055ed535df" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>Const_MapOrHashMap_MRVertId_MRVertId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a464a5fc4003e93bccea47ce7bb63623a" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>Const_MapOrHashMap_MRVertId_MRVertId</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a8ffdf4ee47d53f0ef3742879167a4625" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>Const_MapOrHashMap_MRVertId_MRVertId</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a7a97cbafc42cc304f620797455042ddd" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>Const_MapOrHashMap_MRVertId_MRVertId</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1af201a30e6109971bcae849f89407bdc0" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>Const_MapOrHashMap_MRVertId_MRVertId</name></member>
@@ -492,9 +492,9 @@
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a39916c8cb38d47a90f7159b1c7b011ba" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>createMap</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a4a476e1b69d39f2f3011c46200a5bebd" prot="protected" virt="virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a606d694650fe3597124723d763fb1132" prot="public" virt="virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ab655ad063f4c32d6215bcfdc840b42fc" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>getHashMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1ac562b8299270aa9d7bae2600499926dc" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>getHashMap</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a3a4eb582e981451121adb8ab61941644" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>getMap</name></member>
-      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1afe17fd7a998ffb266a53fa04b22950db" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>var</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a33a5ef6b3b4e81bd237ae6c3eb0287c4" prot="public" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>var</name></member>
       <member refid="classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId_1a772394b851fee4ada4d2861bcc41e6e0" prot="private" virt="non-virtual"><scope>MR::Const_MapOrHashMap_MRVertId_MRVertId</scope><name>~Const_MapOrHashMap_MRVertId_MRVertId</name></member>
     </listofallmembers>
   </compounddef>

@@ -15,10 +15,6 @@ var hierarchy =
     [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", null ],
     [ "MR::SpaceMouse::Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
     [ "MR::AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", null ],
-    [ "AllocatorBase", null, [
-      [ "MR::Allocator< U >", "structMR_1_1Allocator.html", null ],
-      [ "MR::Allocator< T >", "structMR_1_1Allocator.html", null ]
-    ] ],
     [ "MR::AlphaShapeData", "structMR_1_1AlphaShapeData.html", null ],
     [ "MR::AlphaShapeNei", "structMR_1_1AlphaShapeNei.html", null ],
     [ "MR::AlphaShapeStats", "structMR_1_1AlphaShapeStats.html", null ],
@@ -1148,7 +1144,6 @@ var hierarchy =
     [ "MR::VoxelsLoad::RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", null ],
     [ "MR::RayOrigin< T >", "structMR_1_1RayOrigin.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToPenalty >::ReachedVert", "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html", null ],
-    [ "MR::Allocator< T >::rebind< U >", "structMR_1_1Allocator_1_1rebind.html", null ],
     [ "MR::RebuildMeshSettings", "structMR_1_1RebuildMeshSettings.html", null ],
     [ "MR::RecentFilesStore", "classMR_1_1RecentFilesStore.html", null ],
     [ "MR::UI::RectAllocator", "classMR_1_1UI_1_1RectAllocator.html", [

@@ -829,10 +829,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98325" bodyend="98326"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a6539a25f6a69451fe06394caf7685efc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1a2b9e2020a6f03f2e284324617d88e160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
         <definition> GraphVertBitSet mrmeshpy.GraphVertBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag map)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.getMapping</qualifiedname>
         <param>
@@ -840,7 +840,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9" kindref="compound">phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag" kindref="compound">phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag</ref></type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -877,10 +877,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98331" bodyend="98332"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ad41ad4fc91ac5fec2c5171c0012cae6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphVertBitSet_1ad6738bcc739ff6ee6933396beb9bf99f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertBitSet" kindref="compound">GraphVertBitSet</ref></type>
         <definition> GraphVertBitSet mrmeshpy.GraphVertBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag map, int resSize)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag map, int resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.GraphVertBitSet.getMapping</qualifiedname>
         <param>
@@ -888,7 +888,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag__phmap__Hash__Id__Grc1920206c2125486aa9f1821beb37cc9" kindref="compound">phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag_phmap_Hash_Id_GraphVertTag_phmap_EqualTo_Id_GraphVertTag_Allocator_std_pair_Id_GraphVertTag_const_Id_GraphVertTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphVertTag__Id__GraphVertTag" kindref="compound">phmap_flat_hash_map_Id_GraphVertTag_Id_GraphVertTag</ref></type>
           <declname>map</declname>
         </param>
         <param>
@@ -1311,9 +1311,9 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1ac2b89910dc691cb54fb45b582ecb4479" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a5c3871a65d3da2b2920dc499923feb05" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a4cd0201dc8bf0c7acc6ce82cd68c0e9d" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1GraphVertBitSet_1a6539a25f6a69451fe06394caf7685efc" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertBitSet_1a2b9e2020a6f03f2e284324617d88e160" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a523acc86619193559facb6e47e4b6103" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1GraphVertBitSet_1ad41ad4fc91ac5fec2c5171c0012cae6e" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1GraphVertBitSet_1ad6738bcc739ff6ee6933396beb9bf99f" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a08791cac9afc384e0ccbeb2e15d14c9d" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1GraphVertBitSet_1a2c7deb1da06e051622b50ddcc392a3a9" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphVertBitSet</scope><name>is_subset_of</name></member>

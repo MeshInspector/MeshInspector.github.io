@@ -829,10 +829,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97591" bodyend="97592"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a79347bf7cb770c3f7a590564a4c64ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a98ba5256522047d802f2a29c537a7767" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
         <definition> EdgeBitSet mrmeshpy.EdgeBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag map)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.EdgeBitSet.getMapping</qualifiedname>
         <param>
@@ -840,7 +840,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag__phmap__Hash__Id__EdgeTag__phmf9fb577a2cc1502da5e848adc2093165" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</ref></type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -877,10 +877,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97597" bodyend="97598"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1afbac78f9e94f50843b10b0f90f83532f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1ac1b902bf5bc0ef41d47916311753523b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
         <definition> EdgeBitSet mrmeshpy.EdgeBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag map, int resSize)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag map, int resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.EdgeBitSet.getMapping</qualifiedname>
         <param>
@@ -888,7 +888,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag__phmap__Hash__Id__EdgeTag__phmf9fb577a2cc1502da5e848adc2093165" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</ref></type>
           <declname>map</declname>
         </param>
         <param>
@@ -1310,9 +1310,9 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1EdgeBitSet_1a447f7df17b352098b643d3b106a137a0" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1EdgeBitSet_1aa5f88268a9c5ccb918ea5a1fed62e084" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1EdgeBitSet_1a7a43427d1a3c8b9eaf2438c556daa0a0" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1EdgeBitSet_1a79347bf7cb770c3f7a590564a4c64ffb" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a98ba5256522047d802f2a29c537a7767" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1EdgeBitSet_1a368b78d4ab5f3eb24a65b6c09ba23523" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1EdgeBitSet_1afbac78f9e94f50843b10b0f90f83532f" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1ac1b902bf5bc0ef41d47916311753523b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1EdgeBitSet_1a5ad873893e7aea0472b72b6b2b767471" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1EdgeBitSet_1af18d089eec2ad1d214fba1b526c34ee0" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>is_subset_of</name></member>

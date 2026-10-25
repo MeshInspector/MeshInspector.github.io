@@ -22,7 +22,7 @@
         <location file="MRMesh/MRBitSet.h" line="73" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classMR_1_1BitSet_1aaf7f9f34876917a42537ea9da0d7be57" prot="public" static="no">
-        <type>std::vector&lt; <ref refid="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" kindref="member">block_type</ref>, <ref refid="structMR_1_1Allocator" kindref="compound">Allocator</ref>&lt; <ref refid="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" kindref="member">block_type</ref> &gt; &gt;</type>
+        <type>std::vector&lt; <ref refid="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" kindref="member">block_type</ref>, <ref refid="group__GeneralGroup_1gae52f88b1bf8c3f6f4be260612d836725" kindref="member">Allocator</ref>&lt; <ref refid="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" kindref="member">block_type</ref> &gt; &gt;</type>
         <definition>using MR::BitSet::Blocks =  std::vector&lt;block_type, Allocator&lt;block_type&gt;&gt;</definition>
         <argsstring></argsstring>
         <name>Blocks</name>

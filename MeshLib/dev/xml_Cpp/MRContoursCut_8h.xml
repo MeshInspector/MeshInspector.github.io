@@ -30,9 +30,7 @@
       <node id="15">
         <label>MRAllocator.h</label>
         <link refid="MRAllocator_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
@@ -403,7 +401,7 @@
 <codeline lineno="16"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga3af4a8bfbe6579dc273d0b9f368f77aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1ga3af4a8bfbe6579dc273d0b9f368f77aa" kindref="member">splitEdges</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="group__GeneralGroup_1ga1d44ed6247b64a9007baa4bbbf2903aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9dfad208b725d59063370f3881b40552" kindref="member">HashMap&lt;UndirectedEdgeId, int&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga1d44ed6247b64a9007baa4bbbf2903aa" kindref="member">map</ref>;</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1ga1d44ed6247b64a9007baa4bbbf2903aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;UndirectedEdgeId, int&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga1d44ed6247b64a9007baa4bbbf2903aa" kindref="member">map</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34" refid="structMR_1_1CutMeshParameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1CutMeshParameters" kindref="compound">CutMeshParameters</ref></highlight></codeline>

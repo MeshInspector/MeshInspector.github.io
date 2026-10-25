@@ -14,5 +14,5 @@ var classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty =
     [ "reachNext", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a7133d23695f2ea4e087363c30f1f520b", null ],
     [ "reset", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#ad050002bc0510480f1c959c1c08c2368", null ],
     [ "trackPathBack", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a8bef0c58341bdf91a1060abe6f7581c3", null ],
-    [ "vertPathInfoMap", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a15c9805a520d6e53a93137121ec1d816", null ]
+    [ "vertPathInfoMap", "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#ae0c9dbfb0a8cb299e167cda3969df143", null ]
 ];

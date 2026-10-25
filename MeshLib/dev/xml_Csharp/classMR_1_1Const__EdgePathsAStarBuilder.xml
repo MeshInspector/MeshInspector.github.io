@@ -181,20 +181,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1911" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1911" bodyend="1914"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__EdgePathsAStarBuilder_1a61eea7143a42ba7c4487928c8bcbba93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertPathInfo</type>
-        <definition>unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertPathInfo MR.Const_EdgePathsAStarBuilder.vertPathInfoMap</definition>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePathsAStarBuilder_1a7f48a4de9023c59029c18b10f7126452" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo</type>
+        <definition>unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo MR.Const_EdgePathsAStarBuilder.vertPathInfoMap</definition>
         <argsstring>()</argsstring>
         <name>vertPathInfoMap</name>
         <qualifiedname>MR.Const_EdgePathsAStarBuilder.vertPathInfoMap</qualifiedname>
         <briefdescription>
-<para>gives read access to the map from vertex to path to it Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgePathsAStarBuilder_1a61eea7143a42ba7c4487928c8bcbba93" kindref="member">MR.EdgePathsAStarBuilder.vertPathInfoMap</ref></computeroutput>. </para>
+<para>gives read access to the map from vertex to path to it Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgePathsAStarBuilder_1a7f48a4de9023c59029c18b10f7126452" kindref="member">MR.EdgePathsAStarBuilder.vertPathInfoMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1920" column="157" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1920" bodyend="1923"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1920" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1920" bodyend="1923"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__EdgePathsAStarBuilder_1ae9bbcf006153a23303d5ac62d5522870" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.? <ref refid="classMR_1_1Const__VertPathInfo" kindref="compound">Const_VertPathInfo</ref></type>
@@ -536,9 +536,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1984" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__EdgePathsAStarBuilder_1aad6b6eb75150a324e7c5786c845d841d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertPathInfo._Underlying *</type>
-        <definition>static unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertPathInfo._Underlying * MR.Const_EdgePathsAStarBuilder.__MR_EdgePathsAStarBuilder_vertPathInfoMap</definition>
+      <memberdef kind="function" id="classMR_1_1Const__EdgePathsAStarBuilder_1ad6f98398e6d5148630237a2f6ceeddf3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo._Underlying *</type>
+        <definition>static unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo._Underlying * MR.Const_EdgePathsAStarBuilder.__MR_EdgePathsAStarBuilder_vertPathInfoMap</definition>
         <argsstring>(_Underlying *_this)</argsstring>
         <name>__MR_EdgePathsAStarBuilder_vertPathInfoMap</name>
         <qualifiedname>MR.Const_EdgePathsAStarBuilder.__MR_EdgePathsAStarBuilder_vertPathInfoMap</qualifiedname>
@@ -552,7 +552,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1987" column="175"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1987" column="90"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -610,7 +610,7 @@
       <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a163d746d7df299a8c45e7398694ab4a4" prot="private" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>__MR_EdgePathsAStarBuilder_getVertInfo</name></member>
       <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a83532c4cff01f4bcae89f2d2de1c1459" prot="private" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>__MR_EdgePathsAStarBuilder_trackPathBack</name></member>
       <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1aade416846e37b94a43afff50e3277843" prot="private" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>__MR_EdgePathsAStarBuilder_UpcastTo_MR_EdgePathsBuilderT_MR_MetricToAStarPenalty</name></member>
-      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1aad6b6eb75150a324e7c5786c845d841d" prot="private" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>__MR_EdgePathsAStarBuilder_vertPathInfoMap</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1ad6f98398e6d5148630237a2f6ceeddf3" prot="private" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>__MR_EdgePathsAStarBuilder_vertPathInfoMap</name></member>
       <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a96eb9a13ee94d76bc2f25e0404e6bf8d" prot="package" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>Const_EdgePathsAStarBuilder</name></member>
       <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1aa51e4949e032b5d808c7b12d47bf30fd" prot="public" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>Const_EdgePathsAStarBuilder</name></member>
       <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a857d21ce9ccb8fda653b114a66b48651" prot="public" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>Const_EdgePathsAStarBuilder</name></member>
@@ -625,7 +625,7 @@
       <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1ae9bbcf006153a23303d5ac62d5522870" prot="public" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>getVertInfo</name></member>
       <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a592e8beb3e70e7763dba69593daf8bb1" prot="public" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>operator MR.Const_EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
       <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1adede0a26a12c792d1dec3423793c0944" prot="public" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>trackPathBack</name></member>
-      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a61eea7143a42ba7c4487928c8bcbba93" prot="public" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>vertPathInfoMap</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a7f48a4de9023c59029c18b10f7126452" prot="public" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>vertPathInfoMap</name></member>
       <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a3007ed984c5064117d38e8e4d12787cc" prot="private" virt="non-virtual"><scope>MR::Const_EdgePathsAStarBuilder</scope><name>~Const_EdgePathsAStarBuilder</name></member>
     </listofallmembers>
   </compounddef>

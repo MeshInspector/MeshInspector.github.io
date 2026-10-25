@@ -33,9 +33,7 @@
       <node id="44">
         <label>MRAllocator.h</label>
         <link refid="MRAllocator_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="39" relation="include">
         </childnode>
@@ -479,7 +477,7 @@
 <codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="76" refid="group__GeneralGroup_1ga86cdc2e00499df25638534bb56f12b9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;TeethMaskToDirectionVolumeConvertor&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga86cdc2e00499df25638534bb56f12b9c" kindref="member">create</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/><ref refid="group__GeneralGroup_1ga20e9ae03dbf954625936ada6b2cbcf60" kindref="member">volume</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;int&gt;&amp;<sp/>additionalIds<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="group__GeneralGroup_1gaae1f8760bff729cb95d3768407df334d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9dfad208b725d59063370f3881b40552" kindref="member">HashMap&lt;int, Box3i&gt;</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gaae1f8760bff729cb95d3768407df334d" kindref="member">getObjectBounds</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79" refid="group__GeneralGroup_1gaae1f8760bff729cb95d3768407df334d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;int, Box3i&gt;</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gaae1f8760bff729cb95d3768407df334d" kindref="member">getObjectBounds</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82" refid="group__GeneralGroup_1ga4aa7048d9cefc5a963d3583190bea7e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga4aa7048d9cefc5a963d3583190bea7e1" kindref="member">DirectionVolume</ref><sp/>=<sp/>std::array&lt;SimpleVolumeMinMax,<sp/>3&gt;;</highlight></codeline>
 <codeline lineno="83" refid="structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" kindref="compound">ProcessResult</ref></highlight></codeline>
@@ -495,7 +493,7 @@
 <codeline lineno="95"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>TeethMaskToDirectionVolumeConvertor();</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga9dfad208b725d59063370f3881b40552" kindref="member">HashMap&lt;int, Box3i&gt;</ref><sp/>presentObjects_;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;int, Box3i&gt;</ref><sp/>presentObjects_;</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>SimpleVolume<sp/>mask_;</highlight></codeline>
 <codeline lineno="100"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>

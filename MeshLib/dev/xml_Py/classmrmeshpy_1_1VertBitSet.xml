@@ -851,10 +851,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99854" bodyend="99855"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a75584bcc69d64a75600390af75037cf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1a6fbf25408f9a3ab6d9ace0759d5d8c46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
         <definition> VertBitSet mrmeshpy.VertBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag map)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_Id_VertTag map)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.VertBitSet.getMapping</qualifiedname>
         <param>
@@ -862,7 +862,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag__phmap__Hash__Id__VertTag__phm00f40942631704a5358ceae733fe21e3" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -899,10 +899,10 @@ provided no other modification of the bitset (including resizing) is performed i
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99860" bodyend="99861"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1ad3fb2129f9ff527af99839592a56e3cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertBitSet_1ab72b94e7c26240ed7ed6036513b35a2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
         <definition> VertBitSet mrmeshpy.VertBitSet.getMapping</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag map, int resSize)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_Id_VertTag map, int resSize)</argsstring>
         <name>getMapping</name>
         <qualifiedname>mrmeshpy.VertBitSet.getMapping</qualifiedname>
         <param>
@@ -910,7 +910,7 @@ provided no other modification of the bitset (including resizing) is performed i
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag__phmap__Hash__Id__VertTag__phm00f40942631704a5358ceae733fe21e3" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_Id_VertTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></type>
           <declname>map</declname>
         </param>
         <param>
@@ -1333,9 +1333,9 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1VertBitSet_1a1451203822d962e43430fcb158262ffc" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a37f41cbcfb20d51c5e7d62fc48863620" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a928e80730c3c91bfc5fa63d712b00067" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1VertBitSet_1a75584bcc69d64a75600390af75037cf4" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1a6fbf25408f9a3ab6d9ace0759d5d8c46" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a0dd6727dddb55c9c3e0ff75e94165d55" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
-      <member refid="classmrmeshpy_1_1VertBitSet_1ad3fb2129f9ff527af99839592a56e3cd" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1VertBitSet_1ab72b94e7c26240ed7ed6036513b35a2e" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>getMapping</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a72aaf506df1eb81e3ed3d5d901ee5735" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1VertBitSet_1a38bc9eaf27d3493ec525b62f183f85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::VertBitSet</scope><name>is_subset_of</name></member>

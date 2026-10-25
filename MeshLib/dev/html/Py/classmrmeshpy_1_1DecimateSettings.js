@@ -2,7 +2,7 @@ var classmrmeshpy_1_1DecimateSettings =
 [
     [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#adc864beb92ab0473ec0a508b57b3f3f8", null ],
     [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#a051ad80dd4673ad4e825bdef48419f87", null ],
-    [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#ac9065464e80dee52dc9a1ac60afbdb42", null ],
+    [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#a13f0a8afa12b1ec34d48663ed66fcf14", null ],
     [ "adjustCollapse", "classmrmeshpy_1_1DecimateSettings.html#ad23e1338af289f8942bea68e493a1c69", null ],
     [ "adjustCollapse", "classmrmeshpy_1_1DecimateSettings.html#acc3cfe893142f2e7424ac9f6d07c5285", null ],
     [ "angleWeightedDistToPlane", "classmrmeshpy_1_1DecimateSettings.html#ad18aacdc6d0ce2b4f8b4fa982d1a1560", null ],
@@ -65,8 +65,8 @@ var classmrmeshpy_1_1DecimateSettings =
     [ "touchBdVerts", "classmrmeshpy_1_1DecimateSettings.html#a6f07b5b8fbd78e624b3bb0ec715a95e4", null ],
     [ "touchNearBdEdges", "classmrmeshpy_1_1DecimateSettings.html#a0c79c096795323dc4262076eb6547f31", null ],
     [ "touchNearBdEdges", "classmrmeshpy_1_1DecimateSettings.html#a994c9f0e2127807836d9b063b0d48f8f", null ],
-    [ "twinMap", "classmrmeshpy_1_1DecimateSettings.html#a2d6e3e86f052025dd4ac8a0847c2135a", null ],
-    [ "twinMap", "classmrmeshpy_1_1DecimateSettings.html#a0e600270b8c9baec05df4960b81097e2", null ],
+    [ "twinMap", "classmrmeshpy_1_1DecimateSettings.html#aaf870573d8c5610a06fa3e9f97b05f51", null ],
+    [ "twinMap", "classmrmeshpy_1_1DecimateSettings.html#a1dbce075df190b02eebae30f13f907ec", null ],
     [ "vertForms", "classmrmeshpy_1_1DecimateSettings.html#a0770a638d8fc5b0b48774cdc9f9ddd0e", null ],
     [ "vertForms", "classmrmeshpy_1_1DecimateSettings.html#ae397e340cb3c4eb644495809dc004b1a", null ]
 ];

@@ -518,10 +518,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1818" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1818" bodyend="1821"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1a33454645af914d0d3744b30d52c5157a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1accac8bee9be72acc01f545bfc8ac80dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
         <definition>unsafe MR.EdgeId MR.MeshTopology.splitEdge</definition>
-        <argsstring>(MR.EdgeId e, MR.FaceBitSet? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId? new2Old=null)</argsstring>
+        <argsstring>(MR.EdgeId e, MR.FaceBitSet? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</argsstring>
         <name>splitEdge</name>
         <qualifiedname>MR.MeshTopology.splitEdge</qualifiedname>
         <param>
@@ -534,7 +534,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId?</type>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</type>
           <declname>new2Old</declname>
           <defval>null</defval>
         </param>
@@ -547,7 +547,7 @@
 <parametername>new2Old</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a33454645af914d0d3744b30d52c5157a" kindref="member">MR.MeshTopology.splitEdge</ref></computeroutput>. </para>
+<para>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1accac8bee9be72acc01f545bfc8ac80dc" kindref="member">MR.MeshTopology.splitEdge</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -557,10 +557,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1834" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1834" bodyend="1837"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1a4393549de5b59da6fc57ead0b3bf6b26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1ae265d8dd6027ad38480282b747075ea9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
         <definition>unsafe MR.VertId MR.MeshTopology.splitFace</definition>
-        <argsstring>(MR.FaceId f, MR.FaceBitSet? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId? new2Old=null)</argsstring>
+        <argsstring>(MR.FaceId f, MR.FaceBitSet? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</argsstring>
         <name>splitFace</name>
         <qualifiedname>MR.MeshTopology.splitFace</qualifiedname>
         <param>
@@ -573,7 +573,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId?</type>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</type>
           <declname>new2Old</declname>
           <defval>null</defval>
         </param>
@@ -586,7 +586,7 @@
 <parametername>new2Old</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a4393549de5b59da6fc57ead0b3bf6b26" kindref="member">MR.MeshTopology.splitFace</ref></computeroutput>. </para>
+<para>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ae265d8dd6027ad38480282b747075ea9" kindref="member">MR.MeshTopology.splitFace</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1993,10 +1993,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="2140" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1a3d9ebf3ebe41a3b950e58fc804f7f6b9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1acd7e8f06258ec0823c4b1b218cfe2b31" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
         <definition>static unsafe MR.EdgeId MR.MeshTopology.__MR_MeshTopology_splitEdge</definition>
-        <argsstring>(_Underlying *_this, MR.EdgeId e, MR.FaceBitSet._Underlying *region, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId._Underlying *new2Old)</argsstring>
+        <argsstring>(_Underlying *_this, MR.EdgeId e, MR.FaceBitSet._Underlying *region, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId._Underlying *new2Old)</argsstring>
         <name>__MR_MeshTopology_splitEdge</name>
         <qualifiedname>MR.MeshTopology.__MR_MeshTopology_splitEdge</qualifiedname>
         <param>
@@ -2012,7 +2012,7 @@
           <declname>region</declname>
         </param>
         <param>
-          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId._Underlying *</type>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId._Underlying *</type>
           <declname>new2Old</declname>
         </param>
         <briefdescription>
@@ -2023,10 +2023,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="2143" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1afca039a407aaac3551ac3d4f84cebac4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a09877970991a74cd44530c4506b9321e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
         <definition>static unsafe MR.VertId MR.MeshTopology.__MR_MeshTopology_splitFace</definition>
-        <argsstring>(_Underlying *_this, MR.FaceId f, MR.FaceBitSet._Underlying *region, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId._Underlying *new2Old)</argsstring>
+        <argsstring>(_Underlying *_this, MR.FaceId f, MR.FaceBitSet._Underlying *region, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId._Underlying *new2Old)</argsstring>
         <name>__MR_MeshTopology_splitFace</name>
         <qualifiedname>MR.MeshTopology.__MR_MeshTopology_splitFace</qualifiedname>
         <param>
@@ -2042,7 +2042,7 @@
           <declname>region</declname>
         </param>
         <param>
-          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId._Underlying *</type>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId._Underlying *</type>
           <declname>new2Old</declname>
         </param>
         <briefdescription>
@@ -2233,8 +2233,8 @@
       <member refid="classMR_1_1MeshTopology_1aa3e954dff936baab9d9e0bbe4369f630" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_setOrg</name></member>
       <member refid="classMR_1_1MeshTopology_1a5beb371f307d1f0b60cf3055e2dd3e23" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_shrinkToFit</name></member>
       <member refid="classMR_1_1MeshTopology_1a1a796ca32f43dc1d01124095f11fa4d1" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_splice</name></member>
-      <member refid="classMR_1_1MeshTopology_1a3d9ebf3ebe41a3b950e58fc804f7f6b9" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_splitEdge</name></member>
-      <member refid="classMR_1_1MeshTopology_1afca039a407aaac3551ac3d4f84cebac4" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_splitFace</name></member>
+      <member refid="classMR_1_1MeshTopology_1acd7e8f06258ec0823c4b1b218cfe2b31" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_splitEdge</name></member>
+      <member refid="classMR_1_1MeshTopology_1a09877970991a74cd44530c4506b9321e" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_splitFace</name></member>
       <member refid="classMR_1_1MeshTopology_1a9d6ea0fbcd52a68e8a9185ffed2c2166" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_stopUpdatingValids</name></member>
       <member refid="classMR_1_1MeshTopology_1a0d4b885166b48be311656acf7859b001" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_vertReserve</name></member>
       <member refid="classMR_1_1MeshTopology_1aa253f08ba6c9ad1e22f0134cf81c2996" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_vertResize</name></member>
@@ -2375,8 +2375,8 @@
       <member refid="classMR_1_1Const__MeshTopology_1a2f4e9c335bf4b924e1534699be7c1f04" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>sharedVertInOrg</name></member>
       <member refid="classMR_1_1MeshTopology_1a61c0a1cc8ebd1f01b921acf88eb43df7" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>shrinkToFit</name></member>
       <member refid="classMR_1_1MeshTopology_1a08126f32bb3b4d9f2a75a8f0e142f0c2" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>splice</name></member>
-      <member refid="classMR_1_1MeshTopology_1a33454645af914d0d3744b30d52c5157a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>splitEdge</name></member>
-      <member refid="classMR_1_1MeshTopology_1a4393549de5b59da6fc57ead0b3bf6b26" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>splitFace</name></member>
+      <member refid="classMR_1_1MeshTopology_1accac8bee9be72acc01f545bfc8ac80dc" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>splitEdge</name></member>
+      <member refid="classMR_1_1MeshTopology_1ae265d8dd6027ad38480282b747075ea9" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>splitFace</name></member>
       <member refid="classMR_1_1MeshTopology_1ad936295832388c4a9949f2fb85a0afb8" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>stopUpdatingValids</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1ad4e52d6d60d91c3a47fad336b07617ea" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>undirectedEdgeCapacity</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a176161cedd21f99c42748aafe702ea45" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>undirectedEdgeSize</name></member>

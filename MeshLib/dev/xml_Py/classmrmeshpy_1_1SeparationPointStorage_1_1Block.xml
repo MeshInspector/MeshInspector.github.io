@@ -190,10 +190,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44623" bodyend="44626"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1SeparationPointStorage_1_1Block_1a18fadeebafa8e3a7c3f5228c39802673" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1SeparationPointStorage_1_1Block_1ab78030fa4840386c4c0457de72b81b0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.SeparationPointStorage.Block.__init__</definition>
-        <argsstring>(self, phmap_flat_hash_map_unsigned_long_std_array_Id_VertTag_3ul_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_std_array_Id_VertTag_3ul smap, std_vector_Vector3_float coords, VertId shift, Triangulation tris, Vector_VoxelId_FaceId faceMap)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_unsigned_long_std_array_Id_VertTag_3ul smap, std_vector_Vector3_float coords, VertId shift, Triangulation tris, Vector_VoxelId_FaceId faceMap)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SeparationPointStorage.Block.__init__</qualifiedname>
         <param>
@@ -201,7 +201,7 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__std__array__Id__VertTag__3ul__phmap__Ha1c8b379c95149b718eca944ae48c5cb5" kindref="compound">phmap_flat_hash_map_unsigned_long_std_array_Id_VertTag_3ul_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_std_array_Id_VertTag_3ul</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__std__array__Id__VertTag__3ul" kindref="compound">phmap_flat_hash_map_unsigned_long_std_array_Id_VertTag_3ul</ref></type>
           <declname>smap</declname>
         </param>
         <param>
@@ -304,7 +304,7 @@
       <member refid="classmrmeshpy_1_1SeparationPointStorage_1_1Block_1a153cbf991cbf3f92f55138712ad5fd94" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage::Block</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SeparationPointStorage_1_1Block_1a35f20eb6ceb2aa2e11bcbc26b1cacb69" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage::Block</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SeparationPointStorage_1_1Block_1a1e376b85a3ebe20983413ae25fb0fce0" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage::Block</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1SeparationPointStorage_1_1Block_1a18fadeebafa8e3a7c3f5228c39802673" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage::Block</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SeparationPointStorage_1_1Block_1ab78030fa4840386c4c0457de72b81b0d" prot="public" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage::Block</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SeparationPointStorage_1_1Block_1a79391cc9bf0dd46f6ed213bb1ebab3d3" prot="protected" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage::Block</scope><name>_offsetof_coords</name></member>
       <member refid="classmrmeshpy_1_1SeparationPointStorage_1_1Block_1ae9f624aea039fb9070111be1b649e5f5" prot="protected" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage::Block</scope><name>_offsetof_faceMap</name></member>
       <member refid="classmrmeshpy_1_1SeparationPointStorage_1_1Block_1ad8e2093773abfc8f20f8c4a41d67a2ba" prot="protected" virt="non-virtual"><scope>mrmeshpy::SeparationPointStorage::Block</scope><name>_offsetof_shift</name></member>
