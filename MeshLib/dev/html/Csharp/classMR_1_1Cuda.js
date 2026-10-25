@@ -17,7 +17,7 @@ var classMR_1_1Cuda =
     [ "computeSkyViewFactor", "classMR_1_1Cuda.html#a0ea88f5709a51086f7724af94d64e56c", null ],
     [ "distanceMapFromContours", "classMR_1_1Cuda.html#ad3e17c83bdc91cabccc103c84ee2652c", null ],
     [ "distanceMapFromContoursHeapBytes", "classMR_1_1Cuda.html#a4f9a9652de05efaa486dd7ccd6bcf858", null ],
-    [ "findProjectionOnPoints", "classMR_1_1Cuda.html#aee867626f86b200ed06a17c2e7298049", null ],
+    [ "findProjectionOnPoints", "classMR_1_1Cuda.html#aac8223a07f9e9a983c6bef664fd86fd1", null ],
     [ "findProjectionOnPointsHeapBytes", "classMR_1_1Cuda.html#a07a7240cdbac3fd2437a2d72b15e4020", null ],
     [ "findSkyRays", "classMR_1_1Cuda.html#acd8af53537c95be1eac56310bc9cd725", null ],
     [ "getCudaAvailableMemory", "classMR_1_1Cuda.html#a28af47bcf240e73dba6089da5350cef0", null ],

@@ -40,10 +40,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="651" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="651" bodyend="651"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__IPointsProjector_1a3844568c46ff6a673f8dbe057a7838b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__IPointsProjector_1a4966dbc99d6454662304faa0fe85c1cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Const_IPointsProjector.findProjections</definition>
-        <argsstring>(MR.Std.Vector_MRPointsProjectionResult results, MR.Std.Const_Vector_MRVector3f points, MR.Const_FindProjectionOnPointsSettings settings)</argsstring>
+        <argsstring>(MR.Std.Vector_MRPointsProjectionResult results, MR.Const_VertCoords points, MR.Const_FindProjectionOnPointsSettings settings)</argsstring>
         <name>findProjections</name>
         <qualifiedname>MR.Const_IPointsProjector.findProjections</qualifiedname>
         <param>
@@ -51,7 +51,7 @@
           <declname>results</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -59,7 +59,7 @@
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>computes the closest points on point cloud to given points Generated from method <computeroutput><ref refid="classMR_1_1Const__IPointsProjector_1a3844568c46ff6a673f8dbe057a7838b0" kindref="member">MR.IPointsProjector.findProjections</ref></computeroutput>. </para>
+<para>computes the closest points on point cloud to given points Generated from method <computeroutput><ref refid="classMR_1_1Const__IPointsProjector_1a4966dbc99d6454662304faa0fe85c1cf" kindref="member">MR.IPointsProjector.findProjections</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -146,10 +146,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="679" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__IPointsProjector_1a7c94790e23035bf5e0e21564fa66b47e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__IPointsProjector_1a041c6d0f863a6a6aae5c04ac668db208" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
         <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.Const_IPointsProjector.__MR_IPointsProjector_findProjections</definition>
-        <argsstring>(_Underlying *_this, MR.Std.Vector_MRPointsProjectionResult._Underlying *results, MR.Std.Const_Vector_MRVector3f._Underlying *points, MR.Const_FindProjectionOnPointsSettings._Underlying *settings)</argsstring>
+        <argsstring>(_Underlying *_this, MR.Std.Vector_MRPointsProjectionResult._Underlying *results, MR.Const_VertCoords._Underlying *points, MR.Const_FindProjectionOnPointsSettings._Underlying *settings)</argsstring>
         <name>__MR_IPointsProjector_findProjections</name>
         <qualifiedname>MR.Const_IPointsProjector.__MR_IPointsProjector_findProjections</qualifiedname>
         <param>
@@ -161,7 +161,7 @@
           <declname>results</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Vector_MRVector3f._Underlying *</type>
+          <type>MR.Const_VertCoords._Underlying *</type>
           <declname>points</declname>
         </param>
         <param>
@@ -245,12 +245,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="638" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="639" bodyend="686"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__IPointsProjector_1aad38e2d8c1b8da6ac80ac25069528e6b" prot="private" virt="non-virtual"><scope>MR::Const_IPointsProjector</scope><name>__MR_IPointsProjector_Destroy</name></member>
-      <member refid="classMR_1_1Const__IPointsProjector_1a7c94790e23035bf5e0e21564fa66b47e" prot="private" virt="non-virtual"><scope>MR::Const_IPointsProjector</scope><name>__MR_IPointsProjector_findProjections</name></member>
+      <member refid="classMR_1_1Const__IPointsProjector_1a041c6d0f863a6a6aae5c04ac668db208" prot="private" virt="non-virtual"><scope>MR::Const_IPointsProjector</scope><name>__MR_IPointsProjector_findProjections</name></member>
       <member refid="classMR_1_1Const__IPointsProjector_1ab7125e54d16d91e9e94309ff0b6ee842" prot="private" virt="non-virtual"><scope>MR::Const_IPointsProjector</scope><name>__MR_IPointsProjector_projectionsHeapBytes</name></member>
       <member refid="classMR_1_1Const__IPointsProjector_1ac4ece63022427e858081183f3105a374" prot="package" virt="non-virtual"><scope>MR::Const_IPointsProjector</scope><name>Const_IPointsProjector</name></member>
       <member refid="classMR_1_1Const__IPointsProjector_1a854dcd9e42d9f2a3f322ac8875ce8583" prot="protected" virt="virtual"><scope>MR::Const_IPointsProjector</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__IPointsProjector_1a670fc8014f959ec15483b64f0990d0b1" prot="public" virt="virtual"><scope>MR::Const_IPointsProjector</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Const__IPointsProjector_1a3844568c46ff6a673f8dbe057a7838b0" prot="public" virt="non-virtual"><scope>MR::Const_IPointsProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1Const__IPointsProjector_1a4966dbc99d6454662304faa0fe85c1cf" prot="public" virt="non-virtual"><scope>MR::Const_IPointsProjector</scope><name>findProjections</name></member>
       <member refid="classMR_1_1Const__IPointsProjector_1a0ba4eb566c01a96effc4e89b9d585cfd" prot="public" virt="non-virtual"><scope>MR::Const_IPointsProjector</scope><name>projectionsHeapBytes</name></member>
       <member refid="classMR_1_1Const__IPointsProjector_1a5030114a582a2c20a25a9cf487daac3c" prot="private" virt="non-virtual"><scope>MR::Const_IPointsProjector</scope><name>~Const_IPointsProjector</name></member>
     </listofallmembers>

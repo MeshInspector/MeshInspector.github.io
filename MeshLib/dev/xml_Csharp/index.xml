@@ -18054,12 +18054,12 @@
   <compound refid="classMR_1_1Const__IPointsProjector" kind="class"><name>MR::Const_IPointsProjector</name>
     <member refid="classMR_1_1Const__IPointsProjector_1a854dcd9e42d9f2a3f322ac8875ce8583" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__IPointsProjector_1a670fc8014f959ec15483b64f0990d0b1" kind="function"><name>Dispose</name></member>
-    <member refid="classMR_1_1Const__IPointsProjector_1a3844568c46ff6a673f8dbe057a7838b0" kind="function"><name>findProjections</name></member>
+    <member refid="classMR_1_1Const__IPointsProjector_1a4966dbc99d6454662304faa0fe85c1cf" kind="function"><name>findProjections</name></member>
     <member refid="classMR_1_1Const__IPointsProjector_1a0ba4eb566c01a96effc4e89b9d585cfd" kind="function"><name>projectionsHeapBytes</name></member>
     <member refid="classMR_1_1Const__IPointsProjector_1a5030114a582a2c20a25a9cf487daac3c" kind="function"><name>~Const_IPointsProjector</name></member>
     <member refid="classMR_1_1Const__IPointsProjector_1ac4ece63022427e858081183f3105a374" kind="function"><name>Const_IPointsProjector</name></member>
     <member refid="classMR_1_1Const__IPointsProjector_1aad38e2d8c1b8da6ac80ac25069528e6b" kind="function"><name>__MR_IPointsProjector_Destroy</name></member>
-    <member refid="classMR_1_1Const__IPointsProjector_1a7c94790e23035bf5e0e21564fa66b47e" kind="function"><name>__MR_IPointsProjector_findProjections</name></member>
+    <member refid="classMR_1_1Const__IPointsProjector_1a041c6d0f863a6a6aae5c04ac668db208" kind="function"><name>__MR_IPointsProjector_findProjections</name></member>
     <member refid="classMR_1_1Const__IPointsProjector_1ab7125e54d16d91e9e94309ff0b6ee842" kind="function"><name>__MR_IPointsProjector_projectionsHeapBytes</name></member>
   </compound>
   <compound refid="classMR_1_1Const__IPointsToMeshProjector" kind="class"><name>MR::Const_IPointsToMeshProjector</name>
@@ -27598,7 +27598,7 @@
     <member refid="classMR_1_1Const__PointsProjector_1a6f7f2a1898730ba19b4a29466a02f09f" kind="function"><name>Const_PointsProjector</name></member>
     <member refid="classMR_1_1Const__PointsProjector_1aa45dcda1e4d52607b88abe21323fd717" kind="function"><name>Const_PointsProjector</name></member>
     <member refid="classMR_1_1Const__PointsProjector_1a5d1e0e418b4c2be74fd261fca1e7166a" kind="function"><name>Const_PointsProjector</name></member>
-    <member refid="classMR_1_1Const__PointsProjector_1aad2be78ec7e5941b88ef149bea6c731b" kind="function"><name>findProjections</name></member>
+    <member refid="classMR_1_1Const__PointsProjector_1a44c24f54c885f68a3aa63933b25efffa" kind="function"><name>findProjections</name></member>
     <member refid="classMR_1_1Const__PointsProjector_1ae83b56528aaa362a3e2ac6ff0b09b0fe" kind="function"><name>projectionsHeapBytes</name></member>
     <member refid="classMR_1_1Const__PointsProjector_1ad5bebda1b7c5292c18fce7b9d0fe48c0" kind="function"><name>~Const_PointsProjector</name></member>
     <member refid="classMR_1_1Const__PointsProjector_1a4ac5bdcf36d705539e23318321fcfe27" kind="function"><name>operator MR.Const_IPointsProjector</name></member>
@@ -27609,7 +27609,7 @@
     <member refid="classMR_1_1Const__PointsProjector_1a2f04ec832a62a85719bcb6538648648a" kind="function"><name>__MR_PointsProjector_Destroy</name></member>
     <member refid="classMR_1_1Const__PointsProjector_1a5719b576fcb97440751a3b4937b6f3b7" kind="function"><name>__MR_PointsProjector_DynamicDowncastFrom_MR_IPointsProjector</name></member>
     <member refid="classMR_1_1Const__PointsProjector_1a26090a7cbcd3bb5345aebaeddd9d1c39" kind="function"><name>__MR_PointsProjector_UpcastTo_MR_IPointsProjector</name></member>
-    <member refid="classMR_1_1Const__PointsProjector_1a4c947915933d28964e8daf4260ad4875" kind="function"><name>__MR_PointsProjector_findProjections</name></member>
+    <member refid="classMR_1_1Const__PointsProjector_1a48fcacc0206f3f533b3c7d650da3b835" kind="function"><name>__MR_PointsProjector_findProjections</name></member>
     <member refid="classMR_1_1Const__PointsProjector_1a8535de20f4c33258f50ed17a75b25bfb" kind="function"><name>__MR_PointsProjector_projectionsHeapBytes</name></member>
   </compound>
   <compound refid="classMR_1_1Cuda_1_1Const__PointsProjector" kind="class"><name>MR::Cuda::Const_PointsProjector</name>
@@ -27619,7 +27619,7 @@
     <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1acbf4b7287e50b6493b15475dafea6fba" kind="function"><name>Const_PointsProjector</name></member>
     <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a5fd1dca44ddf29010552a2262c3541a3" kind="function"><name>Const_PointsProjector</name></member>
     <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a153dda8b94491c98bf120fe4ac26ac0e" kind="function"><name>Const_PointsProjector</name></member>
-    <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a47733f6ab0d29e59e230078cf2aca3cb" kind="function"><name>findProjections</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a942a9e0d1a0030c1af2f7cb51552a929" kind="function"><name>findProjections</name></member>
     <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1aef7afd0014618ac03eee242e4379147f" kind="function"><name>projectionsHeapBytes</name></member>
     <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a32dba84cd0d7a36829595d33ed09d0b6" kind="function"><name>~Const_PointsProjector</name></member>
     <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1ac1abec6fcfd8a08a693c2102326ca36f" kind="function"><name>operator MR.Const_IPointsProjector</name></member>
@@ -27630,7 +27630,7 @@
     <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a571e507a842135eee83631be89ed9fb5" kind="function"><name>__MR_Cuda_PointsProjector_Destroy</name></member>
     <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a53fcb1b7f31a223a365402aa5b2ecee0" kind="function"><name>__MR_Cuda_PointsProjector_DynamicDowncastFrom_MR_IPointsProjector</name></member>
     <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a0d389c5ba401e8d378d058dbffcf2c84" kind="function"><name>__MR_Cuda_PointsProjector_UpcastTo_MR_IPointsProjector</name></member>
-    <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1af22cf8650c1137da7c075985e28641e6" kind="function"><name>__MR_Cuda_PointsProjector_findProjections</name></member>
+    <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a321c7effaf6adc6e19278b620209b12b" kind="function"><name>__MR_Cuda_PointsProjector_findProjections</name></member>
     <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a9d5f988392cab37d3c5dcf02cab62ab9" kind="function"><name>__MR_Cuda_PointsProjector_projectionsHeapBytes</name></member>
   </compound>
   <compound refid="classMR_1_1Const__PointsToDistanceVolumeParams" kind="class"><name>MR::Const_PointsToDistanceVolumeParams</name>
@@ -44429,7 +44429,7 @@
     <member refid="classMR_1_1Cuda_1a4f9a9652de05efaa486dd7ccd6bcf858" kind="function"><name>distanceMapFromContoursHeapBytes</name></member>
     <member refid="classMR_1_1Cuda_1a672eb663ba302d642c6f967c77a11bdc" kind="function"><name>computeDistanceMap</name></member>
     <member refid="classMR_1_1Cuda_1a55def268c9241c47c216170ba0752b6d" kind="function"><name>computeDistanceMapHeapBytes</name></member>
-    <member refid="classMR_1_1Cuda_1aee867626f86b200ed06a17c2e7298049" kind="function"><name>findProjectionOnPoints</name></member>
+    <member refid="classMR_1_1Cuda_1aac8223a07f9e9a983c6bef664fd86fd1" kind="function"><name>findProjectionOnPoints</name></member>
     <member refid="classMR_1_1Cuda_1a07a7240cdbac3fd2437a2d72b15e4020" kind="function"><name>findProjectionOnPointsHeapBytes</name></member>
     <member refid="classMR_1_1Cuda_1ada48bf1cb30a1dd5423bcb0d29c6b1d2" kind="function"><name>pointsToDistanceVolume</name></member>
     <member refid="classMR_1_1Cuda_1ac41726497d51f9764c2d9c2c2e9db105" kind="function"><name>pointsToDistanceVolumeByParts</name></member>
@@ -44449,7 +44449,7 @@
     <member refid="classMR_1_1Cuda_1a6592650567ac9c5e912c5b63e1b871cd" kind="function"><name>__MR_Cuda_distanceMapFromContoursHeapBytes</name></member>
     <member refid="classMR_1_1Cuda_1a3bcfdfdb222e40762d8540b1af6e7c59" kind="function"><name>__MR_Cuda_computeDistanceMap</name></member>
     <member refid="classMR_1_1Cuda_1a239071799b172d5ca4ca2998f1e04c72" kind="function"><name>__MR_Cuda_computeDistanceMapHeapBytes</name></member>
-    <member refid="classMR_1_1Cuda_1ae0a4f26a9a230f4c9f21730f8ac48d02" kind="function"><name>__MR_Cuda_findProjectionOnPoints</name></member>
+    <member refid="classMR_1_1Cuda_1affb8c6eac497dd3d6f026f63f7de7308" kind="function"><name>__MR_Cuda_findProjectionOnPoints</name></member>
     <member refid="classMR_1_1Cuda_1ae024b84b7d29afc8a703a0744488f9a0" kind="function"><name>__MR_Cuda_findProjectionOnPointsHeapBytes</name></member>
     <member refid="classMR_1_1Cuda_1a2eb0bd439885c34e12596efd9435111c" kind="function"><name>__MR_Cuda_pointsToDistanceVolume</name></member>
     <member refid="classMR_1_1Cuda_1a0987975f565d77725bcbd5c0abdf0f98" kind="function"><name>__MR_Cuda_pointsToDistanceVolumeByParts</name></member>
@@ -48946,8 +48946,8 @@
   <compound refid="classMR_1_1IPointsToMeshProjector" kind="class"><name>MR::IPointsToMeshProjector</name>
     <member refid="classMR_1_1IPointsToMeshProjector_1a92aaa33d689a7d7e32883dec5718b07d" kind="function"><name>IPointsToMeshProjector</name></member>
     <member refid="classMR_1_1IPointsToMeshProjector_1ab7fcb6b2a80777e1adbdcde0cd71cf93" kind="function"><name>updateMeshData</name></member>
-    <member refid="classMR_1_1IPointsToMeshProjector_1a082e1c63993f0db3e6f7b0545b3b386e" kind="function"><name>findProjections</name></member>
-    <member refid="classMR_1_1IPointsToMeshProjector_1a2f2bd90036d8d6eb1a3c69b18fa07fcc" kind="function"><name>__MR_IPointsToMeshProjector_findProjections</name></member>
+    <member refid="classMR_1_1IPointsToMeshProjector_1ace8598319077e39e552223a7c3c26389" kind="function"><name>findProjections</name></member>
+    <member refid="classMR_1_1IPointsToMeshProjector_1ad68b8578640ad376e9edbf2b0bd4e544" kind="function"><name>__MR_IPointsToMeshProjector_findProjections</name></member>
     <member refid="classMR_1_1IPointsToMeshProjector_1a4398685033ee7f130fd55a1e3076c413" kind="function"><name>__MR_IPointsToMeshProjector_updateMeshData</name></member>
   </compound>
   <compound refid="classMR_1_1IRenderObject" kind="class"><name>MR::IRenderObject</name>
@@ -61423,12 +61423,12 @@
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a2f4b72901c08c20ff897d5e159f1707e" kind="function"><name>PointsToMeshProjector</name></member>
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a858ac968d4f39307c071fe428a6876b1" kind="function"><name>PointsToMeshProjector</name></member>
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a815104f321881eb9a84153195b94f856" kind="function"><name>updateMeshData</name></member>
-    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a4cdb027ba3ed627a414c6d88168b96b2" kind="function"><name>findProjections</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1ae732f973b3a838afdbeba546de657921" kind="function"><name>findProjections</name></member>
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a7d5e53ff30729a75d38ce8f9870535a2" kind="function"><name>__MR_Cuda_PointsToMeshProjector_ConstructFromAnother</name></member>
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1adcb2c01f4e4b9d699ac03f9da2d9870b" kind="function"><name>__MR_Cuda_PointsToMeshProjector_DefaultConstruct</name></member>
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a385cdc2f886c894c902d26cd35be0ff2" kind="function"><name>__MR_Cuda_PointsToMeshProjector_DynamicDowncastFrom_MR_IPointsToMeshProjector</name></member>
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1ab5025f0179e8225b777a0c34f4c4c774" kind="function"><name>__MR_Cuda_PointsToMeshProjector_UpcastTo_MR_IPointsToMeshProjector</name></member>
-    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a71463775a7757761cfc21e32e457f7dd" kind="function"><name>__MR_Cuda_PointsToMeshProjector_findProjections</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a1254a99b4681a7e90008f86255e22244" kind="function"><name>__MR_Cuda_PointsToMeshProjector_findProjections</name></member>
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1ab87693c8b8d85d29e007b9fd414a6116" kind="function"><name>__MR_Cuda_PointsToMeshProjector_updateMeshData</name></member>
   </compound>
   <compound refid="classMR_1_1PointsToMeshProjector" kind="class"><name>MR::PointsToMeshProjector</name>
@@ -61440,12 +61440,12 @@
     <member refid="classMR_1_1PointsToMeshProjector_1ae6f30d8ed3644fccc82ecee448675a00" kind="function"><name>PointsToMeshProjector</name></member>
     <member refid="classMR_1_1PointsToMeshProjector_1a698956a04242d5c1041a17e1404355d6" kind="function"><name>PointsToMeshProjector</name></member>
     <member refid="classMR_1_1PointsToMeshProjector_1a2df58658050abb7b4ee0857112ea8139" kind="function"><name>updateMeshData</name></member>
-    <member refid="classMR_1_1PointsToMeshProjector_1a29369000efd674585234824e3bf04f44" kind="function"><name>findProjections</name></member>
+    <member refid="classMR_1_1PointsToMeshProjector_1aa409bee5e32c29e2cf43f98a50b031fd" kind="function"><name>findProjections</name></member>
     <member refid="classMR_1_1PointsToMeshProjector_1aeba9e8aaf487302b4d42db7ba06b0d51" kind="function"><name>__MR_PointsToMeshProjector_ConstructFromAnother</name></member>
     <member refid="classMR_1_1PointsToMeshProjector_1a767d715da0329b10596c4de330dee1e6" kind="function"><name>__MR_PointsToMeshProjector_DefaultConstruct</name></member>
     <member refid="classMR_1_1PointsToMeshProjector_1abfa3af858c77295aa9f397ae6dc2393c" kind="function"><name>__MR_PointsToMeshProjector_DynamicDowncastFrom_MR_IPointsToMeshProjector</name></member>
     <member refid="classMR_1_1PointsToMeshProjector_1a09080c7cb9f3325c014e448e3cb46db0" kind="function"><name>__MR_PointsToMeshProjector_UpcastTo_MR_IPointsToMeshProjector</name></member>
-    <member refid="classMR_1_1PointsToMeshProjector_1a2ffc278cba1408730dc74a7cd87801d1" kind="function"><name>__MR_PointsToMeshProjector_findProjections</name></member>
+    <member refid="classMR_1_1PointsToMeshProjector_1a6dabfa6a4e8d1fa1c8d2c2a74e5036e9" kind="function"><name>__MR_PointsToMeshProjector_findProjections</name></member>
     <member refid="classMR_1_1PointsToMeshProjector_1a093008e6b79b9f4c587abefc4c89ff89" kind="function"><name>__MR_PointsToMeshProjector_updateMeshData</name></member>
   </compound>
   <compound refid="classMR_1_1PointToPlaneAligningTransform" kind="class"><name>MR::PointToPlaneAligningTransform</name>

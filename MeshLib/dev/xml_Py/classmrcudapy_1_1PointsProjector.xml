@@ -114,10 +114,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="215" bodyend="218"/>
       </memberdef>
-      <memberdef kind="function" id="classmrcudapy_1_1PointsProjector_1a286ebbeab37105ece05ef2c54ece644e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrcudapy_1_1PointsProjector_1a80931d81b1029a6eafceb63de9cfc5b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrcudapy.PointsProjector.findProjections</definition>
-        <argsstring>(self, meshlib.mrmeshpy.std_vector_PointsProjectionResult results, meshlib.mrmeshpy.std_vector_Vector3_float points, meshlib.mrmeshpy.FindProjectionOnPointsSettings settings)</argsstring>
+        <argsstring>(self, meshlib.mrmeshpy.std_vector_PointsProjectionResult results, meshlib.mrmeshpy.VertCoords points, meshlib.mrmeshpy.FindProjectionOnPointsSettings settings)</argsstring>
         <name>findProjections</name>
         <qualifiedname>mrcudapy.PointsProjector.findProjections</qualifiedname>
         <param>
@@ -129,7 +129,7 @@
           <declname>results</declname>
         </param>
         <param>
-          <type>meshlib.mrmeshpy.std_vector_Vector3_float</type>
+          <type>meshlib.mrmeshpy.VertCoords</type>
           <declname>points</declname>
         </param>
         <param>
@@ -230,7 +230,7 @@ CUDA-backed implementation of IPointsProjector
       <member refid="classmrcudapy_1_1PointsProjector_1a19974e0e55f0b1221476977f6db2a17c" prot="public" virt="non-virtual"><scope>mrcudapy::PointsProjector</scope><name>__init__</name></member>
       <member refid="classmrcudapy_1_1PointsProjector_1a4faf6d47c7ab595671f7f74689036976" prot="public" virt="non-virtual"><scope>mrcudapy::PointsProjector</scope><name>__init__</name></member>
       <member refid="classmrcudapy_1_1PointsProjector_1a5d6e15e47d97e3f6a7612f65ec1ddace" prot="public" virt="non-virtual"><scope>mrcudapy::PointsProjector</scope><name>__init__</name></member>
-      <member refid="classmrcudapy_1_1PointsProjector_1a286ebbeab37105ece05ef2c54ece644e" prot="public" virt="non-virtual"><scope>mrcudapy::PointsProjector</scope><name>findProjections</name></member>
+      <member refid="classmrcudapy_1_1PointsProjector_1a80931d81b1029a6eafceb63de9cfc5b5" prot="public" virt="non-virtual"><scope>mrcudapy::PointsProjector</scope><name>findProjections</name></member>
       <member refid="classmrcudapy_1_1PointsProjector_1aceac9321f0c42415f6ab514c1f21201b" prot="public" virt="non-virtual"><scope>mrcudapy::PointsProjector</scope><name>operator</name></member>
       <member refid="classmrcudapy_1_1PointsProjector_1aceac9321f0c42415f6ab514c1f21201b" prot="public" virt="non-virtual"><scope>mrcudapy::PointsProjector</scope><name>operator</name></member>
       <member refid="classmrcudapy_1_1PointsProjector_1a39192af03da3022f26ba647553954d77" prot="public" virt="non-virtual"><scope>mrcudapy::PointsProjector</scope><name>projectionsHeapBytes</name></member>

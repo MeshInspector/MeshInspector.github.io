@@ -15,7 +15,7 @@ var namespaceMR_1_1Cuda =
     [ "cudaPipeline", "namespaceMR_1_1Cuda.html#ab0b0e3af6fadf0842bbaef360071ea8e", null ],
     [ "distanceMapFromContours", "namespaceMR_1_1Cuda.html#ad903c7645148d442eed7b3be6f4b0da7", null ],
     [ "distanceMapFromContoursHeapBytes", "namespaceMR_1_1Cuda.html#a57e91a18687a893997356f499e9a7e94", null ],
-    [ "findProjectionOnPoints", "namespaceMR_1_1Cuda.html#acdd0eaf7b314f1758bf6e417ad1f3795", null ],
+    [ "findProjectionOnPoints", "namespaceMR_1_1Cuda.html#ac0f5929f4af15aed8c11ff5232d4f6ff", null ],
     [ "findProjectionOnPointsHeapBytes", "namespaceMR_1_1Cuda.html#ab6752d5a8d11db60ba3b3c7cd333658d", null ],
     [ "findSkyRays", "group__GeneralGroup.html#gaf763aea7896baa102ab7715278d93231", null ],
     [ "fromVec", "namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155", null ],

@@ -70,13 +70,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89294" bodyend="89297"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshProjector_1afcbbf3f879f29430a90ba32c9d220ed5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsToMeshProjector_1a7c28c17be78f4f7fe4e6e3b4a0789d90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.PointsToMeshProjector.findProjections</definition>
-        <argsstring>(self, std_vector_MeshProjectionResult result, std_vector_Vector3_float points, AffineXf3f objXf, AffineXf3f refObjXf, float upDistLimitSq, float loDistLimitSq)</argsstring>
+        <argsstring>(self, std_vector_MeshProjectionResult result, VertCoords points, AffineXf3f objXf, AffineXf3f refObjXf, float upDistLimitSq, float loDistLimitSq)</argsstring>
         <name>findProjections</name>
         <qualifiedname>mrmeshpy.PointsToMeshProjector.findProjections</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1IPointsToMeshProjector_1abde909341f45cefaf5a8e331819186b4">findProjections</reimplements>
+        <reimplements refid="classmrmeshpy_1_1IPointsToMeshProjector_1a6e9941b6dcb24a01882d41c6c864a5b4">findProjections</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -86,7 +86,7 @@
           <declname>result</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -211,7 +211,7 @@ Computes the closest point on mesh to each of given points on CPU
       <member refid="classmrmeshpy_1_1PointsToMeshProjector_1a25294b697d4aad59bf82887ee38eb337" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshProjector</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshProjector_1aa18d73ebbb9e5b140c709475a4e561e9" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshProjector</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshProjector_1aa7afced4ed401a1700fe1f433420aeb1" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshProjector</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1PointsToMeshProjector_1afcbbf3f879f29430a90ba32c9d220ed5" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshProjector</scope><name>findProjections</name></member>
+      <member refid="classmrmeshpy_1_1PointsToMeshProjector_1a7c28c17be78f4f7fe4e6e3b4a0789d90" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshProjector</scope><name>findProjections</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshProjector_1a1db672bd6d6d71063be5778bdd9d51a8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
       <member refid="classmrmeshpy_1_1PointsToMeshProjector_1aad49862b70b7ab73d5a70574f7c68a48" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsToMeshProjector</scope><name>updateMeshData</name></member>
     </listofallmembers>

@@ -112,10 +112,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="74" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="74" bodyend="74"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsProjector_1a47733f6ab0d29e59e230078cf2aca3cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsProjector_1a942a9e0d1a0030c1af2f7cb51552a929" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Cuda.Const_PointsProjector.findProjections</definition>
-        <argsstring>(MR.Std.Vector_MRPointsProjectionResult results, MR.Std.Const_Vector_MRVector3f points, MR.Const_FindProjectionOnPointsSettings settings)</argsstring>
+        <argsstring>(MR.Std.Vector_MRPointsProjectionResult results, MR.Const_VertCoords points, MR.Const_FindProjectionOnPointsSettings settings)</argsstring>
         <name>findProjections</name>
         <qualifiedname>MR.Cuda.Const_PointsProjector.findProjections</qualifiedname>
         <param>
@@ -123,7 +123,7 @@
           <declname>results</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -131,7 +131,7 @@
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>computes the closest points on point cloud to given points Generated from method <computeroutput><ref refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a47733f6ab0d29e59e230078cf2aca3cb" kindref="member">MR.Cuda.PointsProjector.findProjections</ref></computeroutput>. </para>
+<para>computes the closest points on point cloud to given points Generated from method <computeroutput><ref refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a942a9e0d1a0030c1af2f7cb51552a929" kindref="member">MR.Cuda.PointsProjector.findProjections</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -328,10 +328,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="111" column="70"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsProjector_1af22cf8650c1137da7c075985e28641e6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsProjector_1a321c7effaf6adc6e19278b620209b12b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
         <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.Cuda.Const_PointsProjector.__MR_Cuda_PointsProjector_findProjections</definition>
-        <argsstring>(_Underlying *_this, MR.Std.Vector_MRPointsProjectionResult._Underlying *results, MR.Std.Const_Vector_MRVector3f._Underlying *points, MR.Const_FindProjectionOnPointsSettings._Underlying *settings)</argsstring>
+        <argsstring>(_Underlying *_this, MR.Std.Vector_MRPointsProjectionResult._Underlying *results, MR.Const_VertCoords._Underlying *points, MR.Const_FindProjectionOnPointsSettings._Underlying *settings)</argsstring>
         <name>__MR_Cuda_PointsProjector_findProjections</name>
         <qualifiedname>MR.Cuda.Const_PointsProjector.__MR_Cuda_PointsProjector_findProjections</qualifiedname>
         <param>
@@ -343,7 +343,7 @@
           <declname>results</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Vector_MRVector3f._Underlying *</type>
+          <type>MR.Const_VertCoords._Underlying *</type>
           <declname>points</declname>
         </param>
         <param>
@@ -430,7 +430,7 @@
       <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a446ba90bb0fcdfa331478fc1c67a0c34" prot="private" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>__MR_Cuda_PointsProjector_DefaultConstruct</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a571e507a842135eee83631be89ed9fb5" prot="private" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>__MR_Cuda_PointsProjector_Destroy</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a53fcb1b7f31a223a365402aa5b2ecee0" prot="private" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>__MR_Cuda_PointsProjector_DynamicDowncastFrom_MR_IPointsProjector</name></member>
-      <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1af22cf8650c1137da7c075985e28641e6" prot="private" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>__MR_Cuda_PointsProjector_findProjections</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a321c7effaf6adc6e19278b620209b12b" prot="private" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>__MR_Cuda_PointsProjector_findProjections</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a9d5f988392cab37d3c5dcf02cab62ab9" prot="private" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>__MR_Cuda_PointsProjector_projectionsHeapBytes</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a0d389c5ba401e8d378d058dbffcf2c84" prot="private" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>__MR_Cuda_PointsProjector_UpcastTo_MR_IPointsProjector</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1ac972a74387484f82531e8a3224f1627a" prot="package" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>Const_PointsProjector</name></member>
@@ -440,7 +440,7 @@
       <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a153dda8b94491c98bf120fe4ac26ac0e" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>Const_PointsProjector</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a5d40a2dbefdb0cddb2a9b2c15943b67b" prot="protected" virt="virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a77fcbb4414ad6a3f1511e9a27462ab5f" prot="public" virt="virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a47733f6ab0d29e59e230078cf2aca3cb" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1a942a9e0d1a0030c1af2f7cb51552a929" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>findProjections</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1aa35635920c4405e21b1954836c06f6d5" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>operator Const_PointsProjector?</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1ac1abec6fcfd8a08a693c2102326ca36f" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>operator MR.Const_IPointsProjector</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__PointsProjector_1aef7afd0014618ac03eee242e4379147f" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsProjector</scope><name>projectionsHeapBytes</name></member>

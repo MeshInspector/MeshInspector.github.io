@@ -153,7 +153,7 @@ Functions</h2></td></tr>
 <tr class="memitem:acd91e89fc658222b8fe9768b542f21bd" id="r_acd91e89fc658222b8fe9768b542f21bd"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd91e89fc658222b8fe9768b542f21bd">computeSkyViewFactor</a> (meshlib.mrmeshpy.Mesh terrain, meshlib.mrmeshpy.VertCoords samples, meshlib.mrmeshpy.VertBitSet validSamples, meshlib.mrmeshpy.std_vector_SkyPatch skyPatches, meshlib.mrmeshpy.BitSet outSkyRays=None, meshlib.mrmeshpy.std_vector_MeshIntersectionResult outIntersections=None)</td></tr>
 <tr class="memitem:a9279d8b3b9636326c4f24d472afdff1d" id="r_a9279d8b3b9636326c4f24d472afdff1d"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.DistanceMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9279d8b3b9636326c4f24d472afdff1d">distanceMapFromContours</a> (meshlib.mrmeshpy.Polyline2 polyline, meshlib.mrmeshpy.ContourToDistanceMapParams params)</td></tr>
 <tr class="memitem:aa2b49002b37ad8f472a8719e6159e44b" id="r_aa2b49002b37ad8f472a8719e6159e44b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2b49002b37ad8f472a8719e6159e44b">distanceMapFromContoursHeapBytes</a> (meshlib.mrmeshpy.Polyline2 polyline, meshlib.mrmeshpy.ContourToDistanceMapParams params)</td></tr>
-<tr class="memitem:a59989212e13f232a4b791e381d5a15a0" id="r_a59989212e13f232a4b791e381d5a15a0"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.std_vector_PointsProjectionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59989212e13f232a4b791e381d5a15a0">findProjectionOnPoints</a> (meshlib.mrmeshpy.PointCloud pointCloud, meshlib.mrmeshpy.std_vector_Vector3_float points, meshlib.mrmeshpy.FindProjectionOnPointsSettings settings='{}')</td></tr>
+<tr class="memitem:a1dd2cfcfb74f39e467f7b955667311b9" id="r_a1dd2cfcfb74f39e467f7b955667311b9"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.std_vector_PointsProjectionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dd2cfcfb74f39e467f7b955667311b9">findProjectionOnPoints</a> (meshlib.mrmeshpy.PointCloud pointCloud, meshlib.mrmeshpy.VertCoords points, meshlib.mrmeshpy.FindProjectionOnPointsSettings settings='{}')</td></tr>
 <tr class="memitem:a09d73a60abca6c21fb5ef173a46f3158" id="r_a09d73a60abca6c21fb5ef173a46f3158"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09d73a60abca6c21fb5ef173a46f3158">findProjectionOnPointsHeapBytes</a> (meshlib.mrmeshpy.PointCloud pointCloud, int pointsCount)</td></tr>
 <tr class="memitem:a331da1fe9e3cbd4669da50a822548ca3" id="r_a331da1fe9e3cbd4669da50a822548ca3"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.BitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a331da1fe9e3cbd4669da50a822548ca3">findSkyRays</a> (meshlib.mrmeshpy.Mesh terrain, meshlib.mrmeshpy.VertCoords samples, meshlib.mrmeshpy.VertBitSet validSamples, meshlib.mrmeshpy.std_vector_SkyPatch skyPatches, meshlib.mrmeshpy.std_vector_MeshIntersectionResult outIntersections=None)</td></tr>
 <tr class="memitem:aa0b99ba36260a5a8fb0925f8dc79d28a" id="r_aa0b99ba36260a5a8fb0925f8dc79d28a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0b99ba36260a5a8fb0925f8dc79d28a">getCudaAvailableMemory</a> ()</td></tr>
@@ -321,8 +321,8 @@ the radiation is 0.0f if all rays do not reach the sky because they are intercep
 </pre> 
 </div>
 </div>
-<a id="a59989212e13f232a4b791e381d5a15a0" name="a59989212e13f232a4b791e381d5a15a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59989212e13f232a4b791e381d5a15a0">&#9670;&#160;</a></span>findProjectionOnPoints()</h2>
+<a id="a1dd2cfcfb74f39e467f7b955667311b9" name="a1dd2cfcfb74f39e467f7b955667311b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dd2cfcfb74f39e467f7b955667311b9">&#9670;&#160;</a></span>findProjectionOnPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -335,7 +335,7 @@ the radiation is 0.0f if all rays do not reach the sky because they are intercep
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.std_vector_Vector3_float</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.VertCoords</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

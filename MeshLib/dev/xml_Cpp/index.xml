@@ -4866,7 +4866,7 @@
     <member refid="classMR_1_1IPointsProjector_1ab2756b25207ca6b23055f6f1ec5c045a" kind="function"><name>operator=</name></member>
     <member refid="classMR_1_1IPointsProjector_1a29ce251481d5cecc23a88a19a389df7b" kind="function"><name>operator=</name></member>
     <member refid="classMR_1_1IPointsProjector_1ae6ae7b291953d433a794999d25ef10df" kind="function"><name>setPointCloud</name></member>
-    <member refid="classMR_1_1IPointsProjector_1a73d0b887b876f110e3fb6554422f9a31" kind="function"><name>findProjections</name></member>
+    <member refid="classMR_1_1IPointsProjector_1ab55d9f3ad796f98b2fb49a11850282b2" kind="function"><name>findProjections</name></member>
     <member refid="classMR_1_1IPointsProjector_1a4125cb715c028facd258f35767e5c66c" kind="function"><name>projectionsHeapBytes</name></member>
   </compound>
   <compound refid="classMR_1_1IPointsToMeshProjector" kind="class"><name>MR::IPointsToMeshProjector</name>
@@ -4875,7 +4875,7 @@
     <member refid="group__GeneralGroup_1gaa38e9b719876265280a8e6044e889b2f" kind="function"><name>IPointsToMeshProjector</name></member>
     <member refid="group__GeneralGroup_1gac1a1633695c8776296054f81942a84dc" kind="function"><name>~IPointsToMeshProjector</name></member>
     <member refid="group__GeneralGroup_1ga8386d444f8e600bb3fe67a31fc2c04f3" kind="function"><name>updateMeshData</name></member>
-    <member refid="group__GeneralGroup_1gaffb7ba1779ad577458ada7ad99f578ce" kind="function"><name>findProjections</name></member>
+    <member refid="group__GeneralGroup_1ga5d0b9eb7552990bcbed98faae8de8ff7" kind="function"><name>findProjections</name></member>
     <member refid="group__GeneralGroup_1ga2743e8821707c1810ac41b5918b2613c" kind="function"><name>projectionsHeapBytes</name></member>
   </compound>
   <compound refid="classMR_1_1IRenderObject" kind="class"><name>MR::IRenderObject</name>
@@ -8699,13 +8699,13 @@
   <compound refid="classMR_1_1Cuda_1_1PointsProjector" kind="class"><name>MR::Cuda::PointsProjector</name>
     <member refid="classMR_1_1Cuda_1_1PointsProjector_1ae9ed3916c35d6b39835985b3af78b687" kind="variable"><name>data_</name></member>
     <member refid="classMR_1_1Cuda_1_1PointsProjector_1ae5f97af32e2a2a8898a3063117312160" kind="function"><name>setPointCloud</name></member>
-    <member refid="classMR_1_1Cuda_1_1PointsProjector_1ad0cebe62c8c8a4ef6fb8cf7799844112" kind="function"><name>findProjections</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsProjector_1a5cd1baad6e96108e4b6acc6983c51997" kind="function"><name>findProjections</name></member>
     <member refid="classMR_1_1Cuda_1_1PointsProjector_1acc3b795a692a05aa71390db850bb9ff4" kind="function"><name>projectionsHeapBytes</name></member>
   </compound>
   <compound refid="classMR_1_1PointsProjector" kind="class"><name>MR::PointsProjector</name>
     <member refid="classMR_1_1PointsProjector_1af503176a71b03a96bc6b4a3d19da6364" kind="variable"><name>pointCloud_</name></member>
     <member refid="classMR_1_1PointsProjector_1a6e8b40dd14c3c9f33f62f7e0f8e2cadd" kind="function"><name>setPointCloud</name></member>
-    <member refid="classMR_1_1PointsProjector_1a8176e657fa7d5a4b859318c91de2bd91" kind="function"><name>findProjections</name></member>
+    <member refid="classMR_1_1PointsProjector_1a05889fb4233b1773659a86039054ee8a" kind="function"><name>findProjections</name></member>
     <member refid="classMR_1_1PointsProjector_1aeb970ece1c2d3764ce6369fc07d74181" kind="function"><name>projectionsHeapBytes</name></member>
   </compound>
   <compound refid="structMR_1_1PointsSave_1_1PointsSaver" kind="struct"><name>MR::PointsSave::PointsSaver</name>
@@ -8735,13 +8735,13 @@
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a3aeb5a1696989b8910c908bb8df1f215" kind="variable"><name>mesh_</name></member>
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1ac217c2f9f716d994aa1c0ab98369dc95" kind="function"><name>PointsToMeshProjector</name></member>
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1acea486c98480ff347d65eaed201897c2" kind="function"><name>updateMeshData</name></member>
-    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a393b65262243753c160a11f48d57c301" kind="function"><name>findProjections</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a75f7a7a77a76ffb50d4a4ea9a1c40ec3" kind="function"><name>findProjections</name></member>
     <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a01151649b364309dda94e8170e3e10f3" kind="function"><name>projectionsHeapBytes</name></member>
   </compound>
   <compound refid="classMR_1_1PointsToMeshProjector" kind="class"><name>MR::PointsToMeshProjector</name>
     <member refid="group__GeneralGroup_1gac83a7b047702654dffccadc7acdc6941" kind="variable"><name>mesh_</name></member>
     <member refid="group__GeneralGroup_1ga3c206247fe6e6ed0dd78c5f4defe0892" kind="function"><name>updateMeshData</name></member>
-    <member refid="group__GeneralGroup_1gae94bc431332d412f6a094093e77ed8d9" kind="function"><name>findProjections</name></member>
+    <member refid="group__GeneralGroup_1ga222d17861741ced123f7a1a8488f40fa" kind="function"><name>findProjections</name></member>
     <member refid="group__GeneralGroup_1ga9b64899affd5b03d593b17336d91bddf" kind="function"><name>projectionsHeapBytes</name></member>
   </compound>
   <compound refid="classMR_1_1RenderDimensions_1_1PointTask" kind="class"><name>MR::RenderDimensions::PointTask</name>
@@ -16656,7 +16656,7 @@
     <member refid="namespaceMR_1_1Cuda_1ab0b0e3af6fadf0842bbaef360071ea8e" kind="function"><name>cudaPipeline</name></member>
     <member refid="namespaceMR_1_1Cuda_1ae65f347287f9c0ba39f2cc533c51582e" kind="function"><name>copyDataFrom</name></member>
     <member refid="namespaceMR_1_1Cuda_1aaa9aa568ce6f99642f04342760455a3f" kind="function"><name>pointCloudHeapBytes</name></member>
-    <member refid="namespaceMR_1_1Cuda_1acdd0eaf7b314f1758bf6e417ad1f3795" kind="function"><name>findProjectionOnPoints</name></member>
+    <member refid="namespaceMR_1_1Cuda_1ac0f5929f4af15aed8c11ff5232d4f6ff" kind="function"><name>findProjectionOnPoints</name></member>
     <member refid="namespaceMR_1_1Cuda_1ab6752d5a8d11db60ba3b3c7cd333658d" kind="function"><name>findProjectionOnPointsHeapBytes</name></member>
     <member refid="group__GeneralGroup_1ga76d46e2388018a2bca5a72dfaefd30e9" kind="function"><name>pointsToDistanceVolume</name></member>
     <member refid="group__GeneralGroup_1ga2ca6e42153313ca635d7ea3e12d19bf0" kind="function"><name>pointsToDistanceVolumeByParts</name></member>
@@ -28829,11 +28829,11 @@
     <member refid="group__GeneralGroup_1gaa38e9b719876265280a8e6044e889b2f" kind="function"><name>IPointsToMeshProjector</name></member>
     <member refid="group__GeneralGroup_1gac1a1633695c8776296054f81942a84dc" kind="function"><name>~IPointsToMeshProjector</name></member>
     <member refid="group__GeneralGroup_1ga8386d444f8e600bb3fe67a31fc2c04f3" kind="function"><name>updateMeshData</name></member>
-    <member refid="group__GeneralGroup_1gaffb7ba1779ad577458ada7ad99f578ce" kind="function"><name>findProjections</name></member>
+    <member refid="group__GeneralGroup_1ga5d0b9eb7552990bcbed98faae8de8ff7" kind="function"><name>findProjections</name></member>
     <member refid="group__GeneralGroup_1ga2743e8821707c1810ac41b5918b2613c" kind="function"><name>projectionsHeapBytes</name></member>
     <member refid="group__GeneralGroup_1ga1de7b11758eb43eb8c68a66149c3c14e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga3c206247fe6e6ed0dd78c5f4defe0892" kind="function"><name>updateMeshData</name></member>
-    <member refid="group__GeneralGroup_1gae94bc431332d412f6a094093e77ed8d9" kind="function"><name>findProjections</name></member>
+    <member refid="group__GeneralGroup_1ga222d17861741ced123f7a1a8488f40fa" kind="function"><name>findProjections</name></member>
     <member refid="group__GeneralGroup_1ga9b64899affd5b03d593b17336d91bddf" kind="function"><name>projectionsHeapBytes</name></member>
     <member refid="group__GeneralGroup_1gabec2d7d813f0159e3532c158410ca712" kind="function"><name>getNumComponents</name></member>
     <member refid="group__GeneralGroup_1ga8184701aebff355e04a3f2f5e218a81f" kind="function"><name>decimatePolyline</name></member>

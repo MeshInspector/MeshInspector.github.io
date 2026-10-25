@@ -152,7 +152,7 @@ $(function(){initNavTree('classmrmeshpy_1_1PointsToMeshProjector.html','','class
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa18d73ebbb9e5b140c709475a4e561e9" id="r_aa18d73ebbb9e5b140c709475a4e561e9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa18d73ebbb9e5b140c709475a4e561e9">__init__</a> (self)</td></tr>
 <tr class="memitem:aa7afced4ed401a1700fe1f433420aeb1" id="r_aa7afced4ed401a1700fe1f433420aeb1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7afced4ed401a1700fe1f433420aeb1">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1PointsToMeshProjector.html">PointsToMeshProjector</a> arg0)</td></tr>
-<tr class="memitem:afcbbf3f879f29430a90ba32c9d220ed5" id="r_afcbbf3f879f29430a90ba32c9d220ed5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcbbf3f879f29430a90ba32c9d220ed5">findProjections</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__MeshProjectionResult.html">std_vector_MeshProjectionResult</a> result, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> points, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> objXf, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> refObjXf, float upDistLimitSq, float loDistLimitSq)</td></tr>
+<tr class="memitem:a7c28c17be78f4f7fe4e6e3b4a0789d90" id="r_a7c28c17be78f4f7fe4e6e3b4a0789d90"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c28c17be78f4f7fe4e6e3b4a0789d90">findProjections</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__MeshProjectionResult.html">std_vector_MeshProjectionResult</a> result, <a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> points, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> objXf, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> refObjXf, float upDistLimitSq, float loDistLimitSq)</td></tr>
 <tr class="memitem:a1db672bd6d6d71063be5778bdd9d51a8" id="r_a1db672bd6d6d71063be5778bdd9d51a8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1db672bd6d6d71063be5778bdd9d51a8">projectionsHeapBytes</a> (self, int numProjections)</td></tr>
 <tr class="memitem:aad49862b70b7ab73d5a70574f7c68a48" id="r_aad49862b70b7ab73d5a70574f7c68a48"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad49862b70b7ab73d5a70574f7c68a48">updateMeshData</a> (self, <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh)</td></tr>
 </table><table class="memberdecls">
@@ -234,8 +234,8 @@ Computes the closest point on mesh to each of given points on CPU
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="afcbbf3f879f29430a90ba32c9d220ed5" name="afcbbf3f879f29430a90ba32c9d220ed5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcbbf3f879f29430a90ba32c9d220ed5">&#9670;&#160;</a></span>findProjections()</h2>
+<a id="a7c28c17be78f4f7fe4e6e3b4a0789d90" name="a7c28c17be78f4f7fe4e6e3b4a0789d90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c28c17be78f4f7fe4e6e3b4a0789d90">&#9670;&#160;</a></span>findProjections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -253,7 +253,7 @@ Computes the closest point on mesh to each of given points on CPU
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -287,7 +287,7 @@ Computes the closest point on mesh to each of given points
 &lt;param name="upDistLimitSq"&gt;maximal squared distance from point to mesh&lt;/param&gt;
 &lt;param name="loDistLimitSq"&gt;minimal squared distance from point to mesh&lt;/param&gt;
 </pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1IPointsToMeshProjector.html#abde909341f45cefaf5a8e331819186b4">mrmeshpy.IPointsToMeshProjector</a>.</p>
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1IPointsToMeshProjector.html#a6e9941b6dcb24a01882d41c6c864a5b4">mrmeshpy.IPointsToMeshProjector</a>.</p>
 
 </div>
 </div>

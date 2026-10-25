@@ -3995,7 +3995,7 @@ var group__GeneralGroup =
       [ "IPointsToMeshProjector", "group__GeneralGroup.html#ga6536d27d13221f6b39d282c975088718", null ],
       [ "IPointsToMeshProjector", "group__GeneralGroup.html#gaa38e9b719876265280a8e6044e889b2f", null ],
       [ "~IPointsToMeshProjector", "group__GeneralGroup.html#gac1a1633695c8776296054f81942a84dc", null ],
-      [ "findProjections", "group__GeneralGroup.html#gaffb7ba1779ad577458ada7ad99f578ce", null ],
+      [ "findProjections", "group__GeneralGroup.html#ga5d0b9eb7552990bcbed98faae8de8ff7", null ],
       [ "projectionsHeapBytes", "group__GeneralGroup.html#ga2743e8821707c1810ac41b5918b2613c", null ],
       [ "updateMeshData", "group__GeneralGroup.html#ga8386d444f8e600bb3fe67a31fc2c04f3", null ]
     ] ],
@@ -4006,7 +4006,7 @@ var group__GeneralGroup =
       [ "xf", "group__GeneralGroup.html#ga7ce5f16c30935b50d1c953fc917000dc", null ]
     ] ],
     [ "MR::PointsToMeshProjector", "classMR_1_1PointsToMeshProjector.html", [
-      [ "findProjections", "group__GeneralGroup.html#gae94bc431332d412f6a094093e77ed8d9", null ],
+      [ "findProjections", "group__GeneralGroup.html#ga222d17861741ced123f7a1a8488f40fa", null ],
       [ "projectionsHeapBytes", "group__GeneralGroup.html#ga9b64899affd5b03d593b17336d91bddf", null ],
       [ "updateMeshData", "group__GeneralGroup.html#ga3c206247fe6e6ed0dd78c5f4defe0892", null ]
     ] ],
@@ -12168,8 +12168,8 @@ var group__GeneralGroup =
     [ "MR::findOverlappingTris", "group__GeneralGroup.html#ga82e6843a66b16ee1912ffa7d48bd7c34", null ],
     [ "MR::findPartialLens", "group__GeneralGroup.html#ga90ef4b288f6ecb86d70d6880f84c64b5", null ],
     [ "MR::findPathWithExtension", "group__GeneralGroup.html#gaf2e1ccdd324b3b749a67c4cb570b80a3", null ],
-    [ "MR::IPointsToMeshProjector::findProjections", "group__GeneralGroup.html#gaffb7ba1779ad577458ada7ad99f578ce", null ],
-    [ "MR::PointsToMeshProjector::findProjections", "group__GeneralGroup.html#gae94bc431332d412f6a094093e77ed8d9", null ],
+    [ "MR::IPointsToMeshProjector::findProjections", "group__GeneralGroup.html#ga5d0b9eb7552990bcbed98faae8de8ff7", null ],
+    [ "MR::PointsToMeshProjector::findProjections", "group__GeneralGroup.html#ga222d17861741ced123f7a1a8488f40fa", null ],
     [ "MR::findRegionBoundaryUndirectedEdgesInsideMesh", "group__GeneralGroup.html#gad3a38eb65db7e1c0b80715ca70e92e5c", null ],
     [ "MR::findRegionOuterFaces", "group__GeneralGroup.html#gad1af449d1fe41126018652d521b145e4", null ],
     [ "MR::findRepeatedOrientedTriangles", "group__GeneralGroup.html#gaef144aa4430effb527153589ec292535", null ],

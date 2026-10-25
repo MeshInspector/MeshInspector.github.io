@@ -11,7 +11,7 @@ var mrcudapy_8pyi =
     [ "mrcudapy.computeSkyViewFactor", "namespacemrcudapy.html#acd91e89fc658222b8fe9768b542f21bd", null ],
     [ "mrcudapy.distanceMapFromContours", "namespacemrcudapy.html#a9279d8b3b9636326c4f24d472afdff1d", null ],
     [ "mrcudapy.distanceMapFromContoursHeapBytes", "namespacemrcudapy.html#aa2b49002b37ad8f472a8719e6159e44b", null ],
-    [ "mrcudapy.findProjectionOnPoints", "namespacemrcudapy.html#a59989212e13f232a4b791e381d5a15a0", null ],
+    [ "mrcudapy.findProjectionOnPoints", "namespacemrcudapy.html#a1dd2cfcfb74f39e467f7b955667311b9", null ],
     [ "mrcudapy.findProjectionOnPointsHeapBytes", "namespacemrcudapy.html#a09d73a60abca6c21fb5ef173a46f3158", null ],
     [ "mrcudapy.findSkyRays", "namespacemrcudapy.html#a331da1fe9e3cbd4669da50a822548ca3", null ],
     [ "mrcudapy.getCudaAvailableMemory", "namespacemrcudapy.html#aa0b99ba36260a5a8fb0925f8dc79d28a", null ],

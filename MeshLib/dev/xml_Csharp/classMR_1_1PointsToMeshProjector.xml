@@ -157,10 +157,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="611" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" bodystart="611" bodyend="614"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointsToMeshProjector_1a29369000efd674585234824e3bf04f44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointsToMeshProjector_1aa409bee5e32c29e2cf43f98a50b031fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.PointsToMeshProjector.findProjections</definition>
-        <argsstring>(MR.Std.Vector_MRMeshProjectionResult result, MR.Std.Const_Vector_MRVector3f points, MR.AffineXf3f? objXf, MR.AffineXf3f? refObjXf, float upDistLimitSq, float loDistLimitSq)</argsstring>
+        <argsstring>(MR.Std.Vector_MRMeshProjectionResult result, MR.Const_VertCoords points, MR.AffineXf3f? objXf, MR.AffineXf3f? refObjXf, float upDistLimitSq, float loDistLimitSq)</argsstring>
         <name>findProjections</name>
         <qualifiedname>MR.PointsToMeshProjector.findProjections</qualifiedname>
         <param>
@@ -168,7 +168,7 @@
           <declname>result</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -240,7 +240,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from method <computeroutput><ref refid="classMR_1_1PointsToMeshProjector_1a29369000efd674585234824e3bf04f44" kindref="member">MR.PointsToMeshProjector.findProjections</ref></computeroutput>. </para>
+Generated from method <computeroutput><ref refid="classMR_1_1PointsToMeshProjector_1aa409bee5e32c29e2cf43f98a50b031fd" kindref="member">MR.PointsToMeshProjector.findProjections</ref></computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -320,10 +320,10 @@ Generated from method <computeroutput><ref refid="classMR_1_1PointsToMeshProject
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="645" column="66"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointsToMeshProjector_1a2ffc278cba1408730dc74a7cd87801d1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointsToMeshProjector_1a6dabfa6a4e8d1fa1c8d2c2a74e5036e9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.PointsToMeshProjector.__MR_PointsToMeshProjector_findProjections</definition>
-        <argsstring>(_Underlying *_this, MR.Std.Vector_MRMeshProjectionResult._Underlying *result, MR.Std.Const_Vector_MRVector3f._Underlying *points, MR.AffineXf3f *objXf, MR.AffineXf3f *refObjXf, float upDistLimitSq, float loDistLimitSq)</argsstring>
+        <argsstring>(_Underlying *_this, MR.Std.Vector_MRMeshProjectionResult._Underlying *result, MR.Const_VertCoords._Underlying *points, MR.AffineXf3f *objXf, MR.AffineXf3f *refObjXf, float upDistLimitSq, float loDistLimitSq)</argsstring>
         <name>__MR_PointsToMeshProjector_findProjections</name>
         <qualifiedname>MR.PointsToMeshProjector.__MR_PointsToMeshProjector_findProjections</qualifiedname>
         <param>
@@ -335,7 +335,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1PointsToMeshProject
           <declname>result</declname>
         </param>
         <param>
-          <type>MR.Std.Const_Vector_MRVector3f._Underlying *</type>
+          <type>MR.Const_VertCoords._Underlying *</type>
           <declname>points</declname>
         </param>
         <param>
@@ -439,7 +439,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1PointsToMeshProject
       <member refid="classMR_1_1PointsToMeshProjector_1aeba9e8aaf487302b4d42db7ba06b0d51" prot="private" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>__MR_PointsToMeshProjector_ConstructFromAnother</name></member>
       <member refid="classMR_1_1PointsToMeshProjector_1a767d715da0329b10596c4de330dee1e6" prot="private" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>__MR_PointsToMeshProjector_DefaultConstruct</name></member>
       <member refid="classMR_1_1PointsToMeshProjector_1abfa3af858c77295aa9f397ae6dc2393c" prot="private" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>__MR_PointsToMeshProjector_DynamicDowncastFrom_MR_IPointsToMeshProjector</name></member>
-      <member refid="classMR_1_1PointsToMeshProjector_1a2ffc278cba1408730dc74a7cd87801d1" prot="private" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>__MR_PointsToMeshProjector_findProjections</name></member>
+      <member refid="classMR_1_1PointsToMeshProjector_1a6dabfa6a4e8d1fa1c8d2c2a74e5036e9" prot="private" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>__MR_PointsToMeshProjector_findProjections</name></member>
       <member refid="classMR_1_1PointsToMeshProjector_1a09080c7cb9f3325c014e448e3cb46db0" prot="private" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>__MR_PointsToMeshProjector_UpcastTo_MR_IPointsToMeshProjector</name></member>
       <member refid="classMR_1_1PointsToMeshProjector_1a093008e6b79b9f4c587abefc4c89ff89" prot="private" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>__MR_PointsToMeshProjector_updateMeshData</name></member>
       <member refid="classMR_1_1Const__PointsToMeshProjector_1a94d919765b6f17c63e493c24d87f90d9" prot="package" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>Const_PointsToMeshProjector</name></member>
@@ -449,7 +449,7 @@ Generated from method <computeroutput><ref refid="classMR_1_1PointsToMeshProject
       <member refid="classMR_1_1Const__PointsToMeshProjector_1a1aac3a9b143a09b220be8490a132d2ba" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>Const_PointsToMeshProjector</name></member>
       <member refid="classMR_1_1Const__PointsToMeshProjector_1a3a0ab182e0842ac441f59824f4eb2635" prot="protected" virt="virtual"><scope>MR::PointsToMeshProjector</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__PointsToMeshProjector_1a00a06e3674a77d50ebd9d3095a4e667a" prot="public" virt="virtual"><scope>MR::PointsToMeshProjector</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1PointsToMeshProjector_1a29369000efd674585234824e3bf04f44" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1PointsToMeshProjector_1aa409bee5e32c29e2cf43f98a50b031fd" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>findProjections</name></member>
       <member refid="classMR_1_1Const__PointsToMeshProjector_1a96ed7ca4369db6c94d1706e1e43ee9b0" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>operator Const_PointsToMeshProjector?</name></member>
       <member refid="classMR_1_1Const__PointsToMeshProjector_1ac4016e7c0e7785c112b4ca7de1b2c33c" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>operator MR.Const_IPointsToMeshProjector</name></member>
       <member refid="classMR_1_1PointsToMeshProjector_1a7929091fbf4e2be6421d75c643857d45" prot="public" virt="non-virtual"><scope>MR::PointsToMeshProjector</scope><name>operator MR.IPointsToMeshProjector</name></member>

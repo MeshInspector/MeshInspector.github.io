@@ -21176,7 +21176,7 @@
     <member refid="MRPointsProject_8h_1a6bf1fa9c67b669d447080dd26893145e" kind="function"><name>MR_IPointsProjector_Destroy</name></member>
     <member refid="MRPointsProject_8h_1a2c14152dba66ebd0ace2b518ba28ca5f" kind="function"><name>MR_IPointsProjector_DestroyArray</name></member>
     <member refid="MRPointsProject_8h_1a7af4a6a7ad9b86d226b593fc94d4d440" kind="function"><name>MR_IPointsProjector_setPointCloud</name></member>
-    <member refid="MRPointsProject_8h_1a12ae3e223c9689fd5c97433bde7516e8" kind="function"><name>MR_IPointsProjector_findProjections</name></member>
+    <member refid="MRPointsProject_8h_1a541c75d3775ecd627fffcbca8acec01a" kind="function"><name>MR_IPointsProjector_findProjections</name></member>
     <member refid="MRPointsProject_8h_1a7f40c184a1889f7cb6231c201790a015" kind="function"><name>MR_IPointsProjector_projectionsHeapBytes</name></member>
     <member refid="MRPointsProject_8h_1aea50dac3a2b2a3a038d3ac0b56aac051" kind="function"><name>MR_IPointsProjector_OffsetPtr</name></member>
     <member refid="MRPointsProject_8h_1af0baabd67bd90f42879bbfa85dc77f79" kind="function"><name>MR_IPointsProjector_OffsetMutablePtr</name></member>
@@ -21197,7 +21197,7 @@
     <member refid="MRPointsProject_8h_1aee5308e747ede15e90165d59013c6403" kind="function"><name>MR_PointsProjector_DestroyArray</name></member>
     <member refid="MRPointsProject_8h_1a5113b6885ff329e15a21351369812d65" kind="function"><name>MR_PointsProjector_AssignFromAnother</name></member>
     <member refid="MRPointsProject_8h_1a21e0b13da46a87a5ec86ffb01310db3c" kind="function"><name>MR_PointsProjector_setPointCloud</name></member>
-    <member refid="MRPointsProject_8h_1a371a2c6769a76c67c97f7dc9139a1075" kind="function"><name>MR_PointsProjector_findProjections</name></member>
+    <member refid="MRPointsProject_8h_1a75f54b58c556f7526a423674d0b77f94" kind="function"><name>MR_PointsProjector_findProjections</name></member>
     <member refid="MRPointsProject_8h_1a853b19f525098a1651d2d69133001b42" kind="function"><name>MR_PointsProjector_projectionsHeapBytes</name></member>
   </compound>
   <compound refid="MRPointsSave_8h" kind="file"><name>MRPointsSave.h</name>
@@ -21220,7 +21220,7 @@
     <member refid="MRPointsToMeshProjector_8h_1a2a5088044848ec455716db598f152e25" kind="function"><name>MR_IPointsToMeshProjector_Destroy</name></member>
     <member refid="MRPointsToMeshProjector_8h_1a6fdb5256b04fd153d80c290c7d1b6bef" kind="function"><name>MR_IPointsToMeshProjector_DestroyArray</name></member>
     <member refid="MRPointsToMeshProjector_8h_1a7382108615ea1583d446ff2623db7a37" kind="function"><name>MR_IPointsToMeshProjector_updateMeshData</name></member>
-    <member refid="MRPointsToMeshProjector_8h_1afb6dc53bdd0b027020b65c86fa378c17" kind="function"><name>MR_IPointsToMeshProjector_findProjections</name></member>
+    <member refid="MRPointsToMeshProjector_8h_1a94091c29929bad6708edd554627d6d96" kind="function"><name>MR_IPointsToMeshProjector_findProjections</name></member>
     <member refid="MRPointsToMeshProjector_8h_1a1f878e9e207728e031085d3201c967b9" kind="function"><name>MR_IPointsToMeshProjector_projectionsHeapBytes</name></member>
     <member refid="MRPointsToMeshProjector_8h_1a0049e057e050de61fa36314d7ead4a71" kind="function"><name>MR_IPointsToMeshProjector_OffsetPtr</name></member>
     <member refid="MRPointsToMeshProjector_8h_1a2655161ae6961ded56211981a17303d3" kind="function"><name>MR_IPointsToMeshProjector_OffsetMutablePtr</name></member>
@@ -21263,7 +21263,7 @@
     <member refid="MRPointsToMeshProjector_8h_1ae3637aa059c9ce75ae106ae6799a744a" kind="function"><name>MR_PointsToMeshProjector_Destroy</name></member>
     <member refid="MRPointsToMeshProjector_8h_1ab9c692127de502a4a65453964036a693" kind="function"><name>MR_PointsToMeshProjector_DestroyArray</name></member>
     <member refid="MRPointsToMeshProjector_8h_1ab5421556ff66c471791e7c429d16c7c1" kind="function"><name>MR_PointsToMeshProjector_updateMeshData</name></member>
-    <member refid="MRPointsToMeshProjector_8h_1a916ffab0a0020668741408d720afcb0e" kind="function"><name>MR_PointsToMeshProjector_findProjections</name></member>
+    <member refid="MRPointsToMeshProjector_8h_1af7d250bb4d21e1f15b0bd864a7f700a7" kind="function"><name>MR_PointsToMeshProjector_findProjections</name></member>
     <member refid="MRPointsToMeshProjector_8h_1a72495bdcd88140d250544af7735a08a6" kind="function"><name>MR_PointsToMeshProjector_projectionsHeapBytes</name></member>
   </compound>
   <compound refid="MRPointToPlaneAligningTransform_8h" kind="file"><name>MRPointToPlaneAligningTransform.h</name>
@@ -55354,9 +55354,9 @@
     <member refid="MRCudaPointsProject_8h_1a5e61848edbef91d747743beb8a5db53e" kind="function"><name>MR_Cuda_PointsProjector_DestroyArray</name></member>
     <member refid="MRCudaPointsProject_8h_1ae0f8fb242af0fd8dd457e51a129f4967" kind="function"><name>MR_Cuda_PointsProjector_AssignFromAnother</name></member>
     <member refid="MRCudaPointsProject_8h_1ac8cbc1843cadfbe887280ccacafb149d" kind="function"><name>MR_Cuda_PointsProjector_setPointCloud</name></member>
-    <member refid="MRCudaPointsProject_8h_1ad8936e5b16d5343f0d45c5d71e4f9f50" kind="function"><name>MR_Cuda_PointsProjector_findProjections</name></member>
+    <member refid="MRCudaPointsProject_8h_1a196a4d94a0fcb17fac0056cfba63e6ec" kind="function"><name>MR_Cuda_PointsProjector_findProjections</name></member>
     <member refid="MRCudaPointsProject_8h_1a95280bcf113a4a9fb1506ed05584d267" kind="function"><name>MR_Cuda_PointsProjector_projectionsHeapBytes</name></member>
-    <member refid="MRCudaPointsProject_8h_1a580ee1e77eea192f95e70b37acf776ae" kind="function"><name>MR_Cuda_findProjectionOnPoints</name></member>
+    <member refid="MRCudaPointsProject_8h_1ab636c891335c3ccaadad970738b6a1bb" kind="function"><name>MR_Cuda_findProjectionOnPoints</name></member>
     <member refid="MRCudaPointsProject_8h_1a430207eb413fe194ab9aec58fac9d04f" kind="function"><name>MR_Cuda_findProjectionOnPointsHeapBytes</name></member>
   </compound>
   <compound refid="MRCudaPointsToDistanceVolume_8h" kind="file"><name>MRCudaPointsToDistanceVolume.h</name>
@@ -55410,7 +55410,7 @@
     <member refid="MRCudaPointsToMeshProjector_8h_1aed634e87388f0c4eeadefe919a4ff8d2" kind="function"><name>MR_Cuda_PointsToMeshProjector_Destroy</name></member>
     <member refid="MRCudaPointsToMeshProjector_8h_1a7ebaefffa0e3c2d62d2675bcb83fb496" kind="function"><name>MR_Cuda_PointsToMeshProjector_DestroyArray</name></member>
     <member refid="MRCudaPointsToMeshProjector_8h_1a6c22a793b4156f172d4d2be359a3da3d" kind="function"><name>MR_Cuda_PointsToMeshProjector_updateMeshData</name></member>
-    <member refid="MRCudaPointsToMeshProjector_8h_1ac8303a76dc5a91d8bfbdbf5160735627" kind="function"><name>MR_Cuda_PointsToMeshProjector_findProjections</name></member>
+    <member refid="MRCudaPointsToMeshProjector_8h_1a323ad3b76d512d2efb2f65964838fde1" kind="function"><name>MR_Cuda_PointsToMeshProjector_findProjections</name></member>
     <member refid="MRCudaPointsToMeshProjector_8h_1a0ab3ae102eba6c594e10af3601f0882a" kind="function"><name>MR_Cuda_PointsToMeshProjector_projectionsHeapBytes</name></member>
   </compound>
   <compound refid="MRCudaSolarRadiation_8h" kind="file"><name>MRCudaSolarRadiation.h</name>

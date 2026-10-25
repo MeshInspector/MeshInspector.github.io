@@ -9235,12 +9235,12 @@
   </compound>
   <compound refid="classmrmeshpy_1_1IPointsProjector" kind="class"><name>mrmeshpy::IPointsProjector</name>
     <member refid="classmrmeshpy_1_1IPointsProjector_1ac9d015cf001df2028964388903336979" kind="function"><name>operator</name></member>
-    <member refid="classmrmeshpy_1_1IPointsProjector_1afa2c9b10c80adcfb5b8c46413cc05cf1" kind="function"><name>findProjections</name></member>
+    <member refid="classmrmeshpy_1_1IPointsProjector_1a8679cd3a78ac779052ccb81c62abc9c8" kind="function"><name>findProjections</name></member>
     <member refid="classmrmeshpy_1_1IPointsProjector_1a409289cddaaa02441fec92e9fb683666" kind="function"><name>projectionsHeapBytes</name></member>
     <member refid="classmrmeshpy_1_1IPointsProjector_1a11ed9978b0a9f609e8429b731e9391a6" kind="function"><name>setPointCloud</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1IPointsToMeshProjector" kind="class"><name>mrmeshpy::IPointsToMeshProjector</name>
-    <member refid="classmrmeshpy_1_1IPointsToMeshProjector_1abde909341f45cefaf5a8e331819186b4" kind="function"><name>findProjections</name></member>
+    <member refid="classmrmeshpy_1_1IPointsToMeshProjector_1a6e9941b6dcb24a01882d41c6c864a5b4" kind="function"><name>findProjections</name></member>
     <member refid="classmrmeshpy_1_1IPointsToMeshProjector_1a183a14af5ae991355ca023b734c99f12" kind="function"><name>projectionsHeapBytes</name></member>
     <member refid="classmrmeshpy_1_1IPointsToMeshProjector_1aaf02b6f2d268f959073790823847b960" kind="function"><name>updateMeshData</name></member>
   </compound>
@@ -15797,7 +15797,7 @@
     <member refid="classmrcudapy_1_1PointsProjector_1aceac9321f0c42415f6ab514c1f21201b" kind="function"><name>operator</name></member>
     <member refid="classmrcudapy_1_1PointsProjector_1a4faf6d47c7ab595671f7f74689036976" kind="function"><name>__init__</name></member>
     <member refid="classmrcudapy_1_1PointsProjector_1a5d6e15e47d97e3f6a7612f65ec1ddace" kind="function"><name>__init__</name></member>
-    <member refid="classmrcudapy_1_1PointsProjector_1a286ebbeab37105ece05ef2c54ece644e" kind="function"><name>findProjections</name></member>
+    <member refid="classmrcudapy_1_1PointsProjector_1a80931d81b1029a6eafceb63de9cfc5b5" kind="function"><name>findProjections</name></member>
     <member refid="classmrcudapy_1_1PointsProjector_1a39192af03da3022f26ba647553954d77" kind="function"><name>projectionsHeapBytes</name></member>
     <member refid="classmrcudapy_1_1PointsProjector_1ae3e9a27dcdc7b0c3261bb48fa07cd3c5" kind="function"><name>setPointCloud</name></member>
   </compound>
@@ -15807,7 +15807,7 @@
     <member refid="classmrmeshpy_1_1PointsProjector_1aee1c60fccd39b50b6999f02fce775da3" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1PointsProjector_1a85ee0edf4bf96dd07748942a997a7e68" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1PointsProjector_1a77086b11972ae7a15d95d931e7083143" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1PointsProjector_1af6a72bb3f39a828aea1904803d3c4160" kind="function"><name>findProjections</name></member>
+    <member refid="classmrmeshpy_1_1PointsProjector_1a66d3ec2b1b64a5412f405407094ea078" kind="function"><name>findProjections</name></member>
     <member refid="classmrmeshpy_1_1PointsProjector_1ab198042c549452e08b3c932983a57c40" kind="function"><name>projectionsHeapBytes</name></member>
     <member refid="classmrmeshpy_1_1PointsProjector_1ad7f2ecd90b73bc4336ba80fdae720af3" kind="function"><name>setPointCloud</name></member>
   </compound>
@@ -15892,7 +15892,7 @@
     <member refid="classmrcudapy_1_1PointsToMeshProjector_1a7ae6595cb54aa911885983066ee012ed" kind="function"><name>__init__</name></member>
     <member refid="classmrcudapy_1_1PointsToMeshProjector_1a38354a6476dde3ae844cefe7aad70127" kind="function"><name>__init__</name></member>
     <member refid="classmrcudapy_1_1PointsToMeshProjector_1ae74a98f239b0bbab89a61687fa5c64bb" kind="function"><name>__init__</name></member>
-    <member refid="classmrcudapy_1_1PointsToMeshProjector_1af9e3d2f29deef64bceb77f8039a2f552" kind="function"><name>findProjections</name></member>
+    <member refid="classmrcudapy_1_1PointsToMeshProjector_1a260f82b56894a059a313cbff93509395" kind="function"><name>findProjections</name></member>
     <member refid="classmrcudapy_1_1PointsToMeshProjector_1ade7dcf8286fd3ca24929e74e8255b32c" kind="function"><name>projectionsHeapBytes</name></member>
     <member refid="classmrcudapy_1_1PointsToMeshProjector_1ab45dc281f3953a6c454876694c6557bf" kind="function"><name>updateMeshData</name></member>
   </compound>
@@ -15900,7 +15900,7 @@
     <member refid="classmrmeshpy_1_1PointsToMeshProjector_1a25294b697d4aad59bf82887ee38eb337" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1PointsToMeshProjector_1aa18d73ebbb9e5b140c709475a4e561e9" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1PointsToMeshProjector_1aa7afced4ed401a1700fe1f433420aeb1" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1PointsToMeshProjector_1afcbbf3f879f29430a90ba32c9d220ed5" kind="function"><name>findProjections</name></member>
+    <member refid="classmrmeshpy_1_1PointsToMeshProjector_1a7c28c17be78f4f7fe4e6e3b4a0789d90" kind="function"><name>findProjections</name></member>
     <member refid="classmrmeshpy_1_1PointsToMeshProjector_1a1db672bd6d6d71063be5778bdd9d51a8" kind="function"><name>projectionsHeapBytes</name></member>
     <member refid="classmrmeshpy_1_1PointsToMeshProjector_1aad49862b70b7ab73d5a70574f7c68a48" kind="function"><name>updateMeshData</name></member>
   </compound>
@@ -32222,7 +32222,7 @@
     <member refid="namespacemrcudapy_1acd91e89fc658222b8fe9768b542f21bd" kind="function"><name>computeSkyViewFactor</name></member>
     <member refid="namespacemrcudapy_1a9279d8b3b9636326c4f24d472afdff1d" kind="function"><name>distanceMapFromContours</name></member>
     <member refid="namespacemrcudapy_1aa2b49002b37ad8f472a8719e6159e44b" kind="function"><name>distanceMapFromContoursHeapBytes</name></member>
-    <member refid="namespacemrcudapy_1a59989212e13f232a4b791e381d5a15a0" kind="function"><name>findProjectionOnPoints</name></member>
+    <member refid="namespacemrcudapy_1a1dd2cfcfb74f39e467f7b955667311b9" kind="function"><name>findProjectionOnPoints</name></member>
     <member refid="namespacemrcudapy_1a09d73a60abca6c21fb5ef173a46f3158" kind="function"><name>findProjectionOnPointsHeapBytes</name></member>
     <member refid="namespacemrcudapy_1a331da1fe9e3cbd4669da50a822548ca3" kind="function"><name>findSkyRays</name></member>
     <member refid="namespacemrcudapy_1aa0b99ba36260a5a8fb0925f8dc79d28a" kind="function"><name>getCudaAvailableMemory</name></member>

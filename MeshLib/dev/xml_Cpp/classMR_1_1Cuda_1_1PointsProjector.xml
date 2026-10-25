@@ -41,10 +41,10 @@
         </inbodydescription>
         <location file="MRCuda/MRCudaPointsProject.h" line="19" column="25"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1ad0cebe62c8c8a4ef6fb8cf7799844112" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1a5cd1baad6e96108e4b6acc6983c51997" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
         <definition>MRCUDA_API Expected&lt; void &gt; MR::Cuda::PointsProjector::findProjections</definition>
-        <argsstring>(std::vector&lt; MR::PointsProjectionResult &gt; &amp;results, const std::vector&lt; Vector3f &gt; &amp;points, const FindProjectionOnPointsSettings &amp;settings) const override</argsstring>
+        <argsstring>(std::vector&lt; MR::PointsProjectionResult &gt; &amp;results, const VertCoords &amp;points, const FindProjectionOnPointsSettings &amp;settings) const override</argsstring>
         <name>findProjections</name>
         <qualifiedname>MR::Cuda::PointsProjector::findProjections</qualifiedname>
         <param>
@@ -52,7 +52,7 @@
           <declname>results</declname>
         </param>
         <param>
-          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <type>const VertCoords &amp;</type>
           <declname>points</declname>
         </param>
         <param>
@@ -121,8 +121,8 @@
     <location file="MRCuda/MRCudaPointsProject.h" line="15" column="1" bodyfile="MRCuda/MRCudaPointsProject.h" bodystart="16" bodyend="30"/>
     <listofallmembers>
       <member refid="classMR_1_1Cuda_1_1PointsProjector_1ae9ed3916c35d6b39835985b3af78b687" prot="private" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>data_</name></member>
-      <member refid="classMR_1_1Cuda_1_1PointsProjector_1ad0cebe62c8c8a4ef6fb8cf7799844112" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>findProjections</name></member>
-      <member refid="classMR_1_1IPointsProjector_1a73d0b887b876f110e3fb6554422f9a31" prot="public" virt="pure-virtual" ambiguityscope="MR::IPointsProjector::"><scope>MR::Cuda::PointsProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1a5cd1baad6e96108e4b6acc6983c51997" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1IPointsProjector_1ab55d9f3ad796f98b2fb49a11850282b2" prot="public" virt="pure-virtual" ambiguityscope="MR::IPointsProjector::"><scope>MR::Cuda::PointsProjector</scope><name>findProjections</name></member>
       <member refid="classMR_1_1IPointsProjector_1a5a3f74ffe976079b82511c3381ef3cf1" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>IPointsProjector</name></member>
       <member refid="classMR_1_1IPointsProjector_1ad662f0a8c6d8fd6376e2551303f5874a" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>IPointsProjector</name></member>
       <member refid="classMR_1_1IPointsProjector_1ab26cafb526f8cd9801cad266deaadc32" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>IPointsProjector</name></member>

@@ -30,13 +30,13 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classmrmeshpy_1_1IPointsProjector_1afa2c9b10c80adcfb5b8c46413cc05cf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1IPointsProjector_1a8679cd3a78ac779052ccb81c62abc9c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.IPointsProjector.findProjections</definition>
-        <argsstring>(self, std_vector_PointsProjectionResult results, std_vector_Vector3_float points, FindProjectionOnPointsSettings settings)</argsstring>
+        <argsstring>(self, std_vector_PointsProjectionResult results, VertCoords points, FindProjectionOnPointsSettings settings)</argsstring>
         <name>findProjections</name>
         <qualifiedname>mrmeshpy.IPointsProjector.findProjections</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1PointsProjector_1af6a72bb3f39a828aea1904803d3c4160">findProjections</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsProjector_1a66d3ec2b1b64a5412f405407094ea078">findProjections</reimplementedby>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -46,7 +46,7 @@
           <declname>results</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -136,7 +136,7 @@ abstract class for computing the closest points of point clouds
     </inheritancegraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23628" bodyend="23648"/>
     <listofallmembers>
-      <member refid="classmrmeshpy_1_1IPointsProjector_1afa2c9b10c80adcfb5b8c46413cc05cf1" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointsProjector</scope><name>findProjections</name></member>
+      <member refid="classmrmeshpy_1_1IPointsProjector_1a8679cd3a78ac779052ccb81c62abc9c8" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointsProjector</scope><name>findProjections</name></member>
       <member refid="classmrmeshpy_1_1IPointsProjector_1ac9d015cf001df2028964388903336979" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointsProjector</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1IPointsProjector_1a409289cddaaa02441fec92e9fb683666" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointsProjector</scope><name>projectionsHeapBytes</name></member>
       <member refid="classmrmeshpy_1_1IPointsProjector_1a11ed9978b0a9f609e8429b731e9391a6" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointsProjector</scope><name>setPointCloud</name></member>

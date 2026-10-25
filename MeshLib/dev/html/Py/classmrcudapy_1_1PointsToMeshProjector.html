@@ -149,7 +149,7 @@ $(function(){initNavTree('classmrcudapy_1_1PointsToMeshProjector.html','','class
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a38354a6476dde3ae844cefe7aad70127" id="r_a38354a6476dde3ae844cefe7aad70127"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38354a6476dde3ae844cefe7aad70127">__init__</a> (self)</td></tr>
 <tr class="memitem:ae74a98f239b0bbab89a61687fa5c64bb" id="r_ae74a98f239b0bbab89a61687fa5c64bb"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae74a98f239b0bbab89a61687fa5c64bb">__init__</a> (self, <a class="el" href="classmrcudapy_1_1PointsToMeshProjector.html">PointsToMeshProjector</a> arg0)</td></tr>
-<tr class="memitem:af9e3d2f29deef64bceb77f8039a2f552" id="r_af9e3d2f29deef64bceb77f8039a2f552"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9e3d2f29deef64bceb77f8039a2f552">findProjections</a> (self, meshlib.mrmeshpy.std_vector_MeshProjectionResult res, meshlib.mrmeshpy.std_vector_Vector3_float points, meshlib.mrmeshpy.AffineXf3f objXf, meshlib.mrmeshpy.AffineXf3f refObjXf, float upDistLimitSq, float loDistLimitSq)</td></tr>
+<tr class="memitem:a260f82b56894a059a313cbff93509395" id="r_a260f82b56894a059a313cbff93509395"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a260f82b56894a059a313cbff93509395">findProjections</a> (self, meshlib.mrmeshpy.std_vector_MeshProjectionResult res, meshlib.mrmeshpy.VertCoords points, meshlib.mrmeshpy.AffineXf3f objXf, meshlib.mrmeshpy.AffineXf3f refObjXf, float upDistLimitSq, float loDistLimitSq)</td></tr>
 <tr class="memitem:ade7dcf8286fd3ca24929e74e8255b32c" id="r_ade7dcf8286fd3ca24929e74e8255b32c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade7dcf8286fd3ca24929e74e8255b32c">projectionsHeapBytes</a> (self, int numProjections)</td></tr>
 <tr class="memitem:ab45dc281f3953a6c454876694c6557bf" id="r_ab45dc281f3953a6c454876694c6557bf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab45dc281f3953a6c454876694c6557bf">updateMeshData</a> (self, meshlib.mrmeshpy.Mesh mesh)</td></tr>
 </table><table class="memberdecls">
@@ -231,8 +231,8 @@ Computes the closest point on mesh to each of given points on GPU. It caches dat
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="af9e3d2f29deef64bceb77f8039a2f552" name="af9e3d2f29deef64bceb77f8039a2f552"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9e3d2f29deef64bceb77f8039a2f552">&#9670;&#160;</a></span>findProjections()</h2>
+<a id="a260f82b56894a059a313cbff93509395" name="a260f82b56894a059a313cbff93509395"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a260f82b56894a059a313cbff93509395">&#9670;&#160;</a></span>findProjections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,7 +250,7 @@ Computes the closest point on mesh to each of given points on GPU. It caches dat
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">meshlib.mrmeshpy.std_vector_Vector3_float</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">meshlib.mrmeshpy.VertCoords</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

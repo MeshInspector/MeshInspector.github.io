@@ -136684,19 +136684,19 @@ element fields:<linebreak/>
         </inbodydescription>
         <location file="MRMesh/MRPointsToMeshProjector.h" line="25" column="18"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaffb7ba1779ad577458ada7ad99f578ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga5d0b9eb7552990bcbed98faae8de8ff7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>void</type>
         <definition>virtual void MR::IPointsToMeshProjector::findProjections</definition>
-        <argsstring>(std::vector&lt; MeshProjectionResult &gt; &amp;result, const std::vector&lt; Vector3f &gt; &amp;points, const AffineXf3f *worldXf=nullptr, const AffineXf3f *worldRefXf=nullptr, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0.0f)=0</argsstring>
+        <argsstring>(std::vector&lt; MeshProjectionResult &gt; &amp;result, const VertCoords &amp;points, const AffineXf3f *worldXf=nullptr, const AffineXf3f *worldRefXf=nullptr, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0.0f)=0</argsstring>
         <name>findProjections</name>
         <qualifiedname>MR::IPointsToMeshProjector::findProjections</qualifiedname>
-        <reimplementedby refid="group__GeneralGroup_1gae94bc431332d412f6a094093e77ed8d9">findProjections</reimplementedby>
+        <reimplementedby refid="group__GeneralGroup_1ga222d17861741ced123f7a1a8488f40fa">findProjections</reimplementedby>
         <param>
           <type>std::vector&lt; MeshProjectionResult &gt; &amp;</type>
           <declname>result</declname>
         </param>
         <param>
-          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <type>const VertCoords &amp;</type>
           <declname>points</declname>
         </param>
         <param>
@@ -136787,19 +136787,19 @@ element fields:<linebreak/>
         </inbodydescription>
         <location file="MRMesh/MRPointsToMeshProjector.h" line="76" column="19"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae94bc431332d412f6a094093e77ed8d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga222d17861741ced123f7a1a8488f40fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>virtual void MR::PointsToMeshProjector::findProjections</definition>
-        <argsstring>(std::vector&lt; MeshProjectionResult &gt; &amp;result, const std::vector&lt; Vector3f &gt; &amp;points, const AffineXf3f *objXf, const AffineXf3f *refObjXf, float upDistLimitSq, float loDistLimitSq) override</argsstring>
+        <argsstring>(std::vector&lt; MeshProjectionResult &gt; &amp;result, const VertCoords &amp;points, const AffineXf3f *objXf, const AffineXf3f *refObjXf, float upDistLimitSq, float loDistLimitSq) override</argsstring>
         <name>findProjections</name>
         <qualifiedname>MR::PointsToMeshProjector::findProjections</qualifiedname>
-        <reimplements refid="group__GeneralGroup_1gaffb7ba1779ad577458ada7ad99f578ce">findProjections</reimplements>
+        <reimplements refid="group__GeneralGroup_1ga5d0b9eb7552990bcbed98faae8de8ff7">findProjections</reimplements>
         <param>
           <type>std::vector&lt; MeshProjectionResult &gt; &amp;</type>
           <declname>result</declname>
         </param>
         <param>
-          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <type>const VertCoords &amp;</type>
           <declname>points</declname>
         </param>
         <param>

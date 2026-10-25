@@ -304,10 +304,10 @@
         </inbodydescription>
         <location file="MRCuda/MRCudaPointCloud.h" line="19" column="19" declfile="MRCuda/MRCudaPointCloud.h" declline="19" declcolumn="19"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1acdd0eaf7b314f1758bf6e417ad1f3795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1Cuda_1ac0f5929f4af15aed8c11ff5232d4f6ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; <ref refid="structMR_1_1PointsProjectionResult" kindref="compound">MR::PointsProjectionResult</ref> &gt; &gt;</type>
         <definition>MRCUDA_API Expected&lt; std::vector&lt; MR::PointsProjectionResult &gt; &gt; MR::Cuda::findProjectionOnPoints</definition>
-        <argsstring>(const PointCloud &amp;pointCloud, const std::vector&lt; Vector3f &gt; &amp;points, const FindProjectionOnPointsSettings &amp;settings={})</argsstring>
+        <argsstring>(const PointCloud &amp;pointCloud, const VertCoords &amp;points, const FindProjectionOnPointsSettings &amp;settings={})</argsstring>
         <name>findProjectionOnPoints</name>
         <qualifiedname>MR::Cuda::findProjectionOnPoints</qualifiedname>
         <param>
@@ -315,7 +315,7 @@
           <declname>pointCloud</declname>
         </param>
         <param>
-          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <type>const VertCoords &amp;</type>
           <declname>points</declname>
         </param>
         <param>
@@ -347,7 +347,7 @@
           <declname>pointsCount</declname>
         </param>
         <briefdescription>
-<para>returns the minimal amount of free GPU memory required for <ref refid="namespaceMR_1_1Cuda_1acdd0eaf7b314f1758bf6e417ad1f3795" kindref="member">MR::Cuda::findProjectionOnPoints</ref> </para>
+<para>returns the minimal amount of free GPU memory required for <ref refid="namespaceMR_1_1Cuda_1ac0f5929f4af15aed8c11ff5232d4f6ff" kindref="member">MR::Cuda::findProjectionOnPoints</ref> </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

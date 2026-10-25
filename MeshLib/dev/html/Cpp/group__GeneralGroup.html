@@ -7161,15 +7161,15 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gac1a1633695c8776296054f81942a84dc" id="r_gac1a1633695c8776296054f81942a84dc"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac1a1633695c8776296054f81942a84dc">MR::IPointsToMeshProjector::~IPointsToMeshProjector</a> ()=default</td></tr>
 <tr class="memitem:ga8386d444f8e600bb3fe67a31fc2c04f3" id="r_ga8386d444f8e600bb3fe67a31fc2c04f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8386d444f8e600bb3fe67a31fc2c04f3">MR::IPointsToMeshProjector::updateMeshData</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> *<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>)=0</td></tr>
 <tr class="memdesc:ga8386d444f8e600bb3fe67a31fc2c04f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates all data related to the referencing mesh.  <br /></td></tr>
-<tr class="memitem:gaffb7ba1779ad577458ada7ad99f578ce" id="r_gaffb7ba1779ad577458ada7ad99f578ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaffb7ba1779ad577458ada7ad99f578ce">MR::IPointsToMeshProjector::findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt; &amp;result, const std::vector&lt; Vector3f &gt; &amp;<a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, const AffineXf3f *worldXf=nullptr, const AffineXf3f *worldRefXf=nullptr, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0.0f)=0</td></tr>
-<tr class="memdesc:gaffb7ba1779ad577458ada7ad99f578ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
+<tr class="memitem:ga5d0b9eb7552990bcbed98faae8de8ff7" id="r_ga5d0b9eb7552990bcbed98faae8de8ff7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5d0b9eb7552990bcbed98faae8de8ff7">MR::IPointsToMeshProjector::findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt; &amp;result, const VertCoords &amp;<a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, const AffineXf3f *worldXf=nullptr, const AffineXf3f *worldRefXf=nullptr, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0.0f)=0</td></tr>
+<tr class="memdesc:ga5d0b9eb7552990bcbed98faae8de8ff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
 <tr class="memitem:ga2743e8821707c1810ac41b5918b2613c" id="r_ga2743e8821707c1810ac41b5918b2613c"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2743e8821707c1810ac41b5918b2613c">MR::IPointsToMeshProjector::projectionsHeapBytes</a> (size_t numProjections) const =0</td></tr>
 <tr class="memdesc:ga2743e8821707c1810ac41b5918b2613c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns amount of memory needed to compute projections.  <br /></td></tr>
 <tr class="memitem:ga1de7b11758eb43eb8c68a66149c3c14e" id="r_ga1de7b11758eb43eb8c68a66149c3c14e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1de7b11758eb43eb8c68a66149c3c14e">MR::MR_BIND_OVERLOAD_SUFFIX</a> (<a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>) 1 VertScalars findSignedDistances(const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;refMesh</td></tr>
 <tr class="memitem:ga3c206247fe6e6ed0dd78c5f4defe0892" id="r_ga3c206247fe6e6ed0dd78c5f4defe0892"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3c206247fe6e6ed0dd78c5f4defe0892">MR::PointsToMeshProjector::updateMeshData</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> *<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>) override</td></tr>
 <tr class="memdesc:ga3c206247fe6e6ed0dd78c5f4defe0892"><td class="mdescLeft">&#160;</td><td class="mdescRight">update all data related to the referencing mesh  <br /></td></tr>
-<tr class="memitem:gae94bc431332d412f6a094093e77ed8d9" id="r_gae94bc431332d412f6a094093e77ed8d9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae94bc431332d412f6a094093e77ed8d9">MR::PointsToMeshProjector::findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt; &amp;result, const std::vector&lt; Vector3f &gt; &amp;<a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, const AffineXf3f *objXf, const AffineXf3f *refObjXf, float upDistLimitSq, float loDistLimitSq) override</td></tr>
-<tr class="memdesc:gae94bc431332d412f6a094093e77ed8d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
+<tr class="memitem:ga222d17861741ced123f7a1a8488f40fa" id="r_ga222d17861741ced123f7a1a8488f40fa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga222d17861741ced123f7a1a8488f40fa">MR::PointsToMeshProjector::findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt; &amp;result, const VertCoords &amp;<a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, const AffineXf3f *objXf, const AffineXf3f *refObjXf, float upDistLimitSq, float loDistLimitSq) override</td></tr>
+<tr class="memdesc:ga222d17861741ced123f7a1a8488f40fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
 <tr class="memitem:ga9b64899affd5b03d593b17336d91bddf" id="r_ga9b64899affd5b03d593b17336d91bddf"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9b64899affd5b03d593b17336d91bddf">MR::PointsToMeshProjector::projectionsHeapBytes</a> (size_t numProjections) const override</td></tr>
 <tr class="memdesc:ga9b64899affd5b03d593b17336d91bddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns amount of additional memory needed to compute projections.  <br /></td></tr>
 <tr class="memitem:gabec2d7d813f0159e3532c158410ca712" id="r_gabec2d7d813f0159e3532c158410ca712"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabec2d7d813f0159e3532c158410ca712">MR::PolylineComponents::getNumComponents</a> (const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;topology)</td></tr>
@@ -72821,8 +72821,8 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
-<a id="gaffb7ba1779ad577458ada7ad99f578ce" name="gaffb7ba1779ad577458ada7ad99f578ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaffb7ba1779ad577458ada7ad99f578ce">&#9670;&#160;</a></span>findProjections() <span class="overload">[1/2]</span></h2>
+<a id="ga5d0b9eb7552990bcbed98faae8de8ff7" name="ga5d0b9eb7552990bcbed98faae8de8ff7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5d0b9eb7552990bcbed98faae8de8ff7">&#9670;&#160;</a></span>findProjections() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -72838,7 +72838,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; Vector3f &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -72872,12 +72872,12 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 <p>Computes the closest point on mesh to each of given points. </p>
 
-<p>Implemented in <a class="el" href="#gae94bc431332d412f6a094093e77ed8d9">MR::PointsToMeshProjector</a>.</p>
+<p>Implemented in <a class="el" href="#ga222d17861741ced123f7a1a8488f40fa">MR::PointsToMeshProjector</a>.</p>
 
 </div>
 </div>
-<a id="gae94bc431332d412f6a094093e77ed8d9" name="gae94bc431332d412f6a094093e77ed8d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae94bc431332d412f6a094093e77ed8d9">&#9670;&#160;</a></span>findProjections() <span class="overload">[2/2]</span></h2>
+<a id="ga222d17861741ced123f7a1a8488f40fa" name="ga222d17861741ced123f7a1a8488f40fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga222d17861741ced123f7a1a8488f40fa">&#9670;&#160;</a></span>findProjections() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -72893,7 +72893,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; Vector3f &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -72938,7 +72938,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="#gaffb7ba1779ad577458ada7ad99f578ce">MR::IPointsToMeshProjector</a>.</p>
+<p>Implements <a class="el" href="#ga5d0b9eb7552990bcbed98faae8de8ff7">MR::IPointsToMeshProjector</a>.</p>
 
 </div>
 </div>
