@@ -32,6 +32,7 @@ var group__SerializerGroup =
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#ga572d20520171401a50e9f6a678d9f6f7", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#ga8fec83e42dbf1eafa88e248f04084ec3", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#ga8fa1e442b24962ea35467b9f00ebc3c3", null ],
+    [ "MR::deserializeFromJson", "group__SerializerGroup.html#gafdcdea244bf637efde6c08d3bec13cbc", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#ga71738630f5412b9a1fa5cf71086d6857", null ],
     [ "MR::deserializeJsonValue", "group__SerializerGroup.html#gac0f762bfae301303b158a3660b2c22c7", null ],
     [ "MR::deserializeJsonValue", "group__SerializerGroup.html#ga35f9a96437bbef69b8ce40feb17eedd4", null ],
@@ -64,5 +65,6 @@ var group__SerializerGroup =
     [ "MR::serializeToJson", "group__SerializerGroup.html#gacbdc25612bacee827ee57b24ba6d5b9b", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#gaff43d6038d63bac26080d08d71953dd3", null ],
     [ "MR::serializeToJson", "group__SerializerGroup.html#gaa5564af068b62ce39b20ca1dc9721502", null ],
+    [ "MR::serializeToJson", "group__SerializerGroup.html#ga67ea1bcc7dd4c8f81dea2de988020614", null ],
     [ "MR::serializeViaVerticesToJson", "group__SerializerGroup.html#ga1c20f47d5cb885a2af93ba685c25aebb", null ]
 ];

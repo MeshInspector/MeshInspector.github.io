@@ -213,19 +213,19 @@ var NAVTREEINDEX =
 "group__GeneralGroup.html#ggafb89f8ecc2e2d580f7447ab6d7fb0bf7a4425e9774bb85a89fd5f3ef9868071a3",
 "group__MeshComponentsGroup.html#ga7bf3e0737aecb4b63a527d014b0bea83",
 "group__PolylineGroup.html#gaf8d65b66fff9354b3bc66388ced2283c",
-"group__TriangleIntersectionGroup.html#gacaf1c69550575145e170779a5d620b42",
-"namespaceMR_1_1BitSetParallel.html#ab05fc848939177c9fd25511b45bf05c3",
-"namespaceMR_1_1SceneLoad.html#ace59001f56846dcae763df3dd8b2df6c",
-"namespacemembers_type_e.html",
-"structMR_1_1Box.html#a6fa5434776a3bb7b53014edc67295ec8",
-"structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc",
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a64963bd2f3582a91eab34d7a28323d5f",
-"structMR_1_1IntersectionPrecomputes.html#a21465bc7d67177777744f39ac171940c",
-"structMR_1_1Mesh.html#a5234fc402df7b5912834413c90f4dd10",
-"structMR_1_1MruFormatParameters.html",
-"structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3",
-"structMR_1_1SymMatrix2.html",
-"structMR_1_1UniteManyMeshesParams.html"
+"group__TriangleIntersectionGroup.html#gab7bfc61216e86c7e985c25378fcc7bdb",
+"namespaceMR_1_1BitSetParallel.html#a8f2ddae24bfbab61698167d301e96307",
+"namespaceMR_1_1SceneLoad.html#a0b87b3918d63624f559f15d25ecb9c3a",
+"namespacemembers_type_c.html",
+"structMR_1_1Box.html#a58367ea0fa34d4b4d1009044564aded9",
+"structMR_1_1FaceFace.html",
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a4c52dc063bae4dcacd4b598c59cc3be2",
+"structMR_1_1IntersectionPrecomputes.html#a20bce157ca3d8b30509d233be68639ec",
+"structMR_1_1Mesh.html#a4e632453870de6742cfb3ae37491a6b4",
+"structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#ad4bdf9eb1e55187c89fd477134219680",
+"structMR_1_1PolylineSubdivideSettings.html#a90d24e3763062fee365e69daf9f74b23",
+"structMR_1_1SurfacePointWidget_1_1Parameters.html",
+"structMR_1_1UnitInfo.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
