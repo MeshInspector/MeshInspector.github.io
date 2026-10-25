@@ -1,5 +1,7 @@
 var NAVTREEINDEX35 =
 {
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a44f28162ca8c4545149ef27b8c75bba2":[9,1,0,0,2,294,0,2],
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a44f28162ca8c4545149ef27b8c75bba2":[9,1,1,0,1,294,0,2],
 "classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a4e138b27cd2858793201c7c5b09e8d6a":[9,1,0,0,2,294,0,7],
 "classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a4e138b27cd2858793201c7c5b09e8d6a":[9,1,1,0,1,294,0,7],
 "classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a5b8c088f39ed0d21457a8ce430cff005":[9,1,0,0,2,294,0,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX35 =
 "classmrmeshpy_1_1FindInnerShellSettings.html#ade8ea2080817a17ce2cd55d0efd639c6":[9,1,0,0,2,298,6],
 "classmrmeshpy_1_1FindInnerShellSettings.html#ade8ea2080817a17ce2cd55d0efd639c6":[9,1,1,0,1,298,6],
 "classmrmeshpy_1_1FindInnerShellSettings.html#ae6828d8824070b532776bcfff6bb52c8":[9,1,0,0,2,298,0],
-"classmrmeshpy_1_1FindInnerShellSettings.html#ae6828d8824070b532776bcfff6bb52c8":[9,1,1,0,1,298,0],
-"classmrmeshpy_1_1FindInnerShellSettings.html#aeaaadc7bd6b656f89d9e865afed4f4a8":[9,1,0,0,2,298,11],
-"classmrmeshpy_1_1FindInnerShellSettings.html#aeaaadc7bd6b656f89d9e865afed4f4a8":[9,1,1,0,1,298,11]
+"classmrmeshpy_1_1FindInnerShellSettings.html#ae6828d8824070b532776bcfff6bb52c8":[9,1,1,0,1,298,0]
 };

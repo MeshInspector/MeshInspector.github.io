@@ -3005,10 +3005,10 @@ this method can return wrong sign if the closest point is located on self-inters
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30428" bodyend="30434"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1a0d69fc1e01412433c83f1d0626875818" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1a0563101f39734175abeceada3dea91c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
         <definition> EdgeId mrmeshpy.Mesh.splitEdge</definition>
-        <argsstring>(self, EdgeId e, Vector3f newVertPos, FaceBitSet region=None, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag new2Old=None)</argsstring>
+        <argsstring>(self, EdgeId e, Vector3f newVertPos, FaceBitSet region=None, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag new2Old=None)</argsstring>
         <name>splitEdge</name>
         <qualifiedname>mrmeshpy.Mesh.splitEdge</qualifiedname>
         <param>
@@ -3029,7 +3029,7 @@ this method can return wrong sign if the closest point is located on self-inters
           <defval>None</defval>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</ref></type>
           <declname>new2Old</declname>
           <defval>None</defval>
         </param>
@@ -3050,10 +3050,10 @@ if left or right faces of the original edge were in the region, then include new
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30436" bodyend="30446"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1af369fc656c67b7a4ab5ffa52cc04b805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1a62cfe1ec7176136e83e5d881e19d07b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
         <definition> EdgeId mrmeshpy.Mesh.splitEdge</definition>
-        <argsstring>(self, EdgeId e, FaceBitSet region=None, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag new2Old=None)</argsstring>
+        <argsstring>(self, EdgeId e, FaceBitSet region=None, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag new2Old=None)</argsstring>
         <name>splitEdge</name>
         <qualifiedname>mrmeshpy.Mesh.splitEdge</qualifiedname>
         <param>
@@ -3070,7 +3070,7 @@ if left or right faces of the original edge were in the region, then include new
           <defval>None</defval>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</ref></type>
           <declname>new2Old</declname>
           <defval>None</defval>
         </param>
@@ -3084,10 +3084,10 @@ if left or right faces of the original edge were in the region, then include new
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30448" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30448" bodyend="30451"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1a10d16aa25d9e5c1f12d2ff51451e9606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1a3800189280acdcea4c08c8edf92e5855" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
         <definition> VertId mrmeshpy.Mesh.splitFace</definition>
-        <argsstring>(self, FaceId f, Vector3f newVertPos, FaceBitSet region=None, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag new2Old=None)</argsstring>
+        <argsstring>(self, FaceId f, Vector3f newVertPos, FaceBitSet region=None, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag new2Old=None)</argsstring>
         <name>splitFace</name>
         <qualifiedname>mrmeshpy.Mesh.splitFace</qualifiedname>
         <param>
@@ -3108,7 +3108,7 @@ if left or right faces of the original edge were in the region, then include new
           <defval>None</defval>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</ref></type>
           <declname>new2Old</declname>
           <defval>None</defval>
         </param>
@@ -3124,10 +3124,10 @@ if region is given, then it must include (f) and new faces will be added there a
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30453" bodyend="30458"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1a559bb495e39d12270ae5c5a639ed4f20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1a0c2ab3e93dd3225a4b582b8edfdea1c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
         <definition> VertId mrmeshpy.Mesh.splitFace</definition>
-        <argsstring>(self, FaceId f, FaceBitSet region=None, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag new2Old=None)</argsstring>
+        <argsstring>(self, FaceId f, FaceBitSet region=None, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag new2Old=None)</argsstring>
         <name>splitFace</name>
         <qualifiedname>mrmeshpy.Mesh.splitFace</qualifiedname>
         <param>
@@ -3144,7 +3144,7 @@ if region is given, then it must include (f) and new faces will be added there a
           <defval>None</defval>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</ref></type>
           <declname>new2Old</declname>
           <defval>None</defval>
         </param>
@@ -3445,10 +3445,10 @@ it shall be considered as a faster alternative to invalidateCaches() and followi
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30511" bodyend="30517"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1a744a601401c3c9dd0ba9eb65d768ddd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1a76465d1705d6b35701f45605d6166458" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Mesh.updateCachesAfterSplits</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag new2Old)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag new2Old)</argsstring>
         <name>updateCachesAfterSplits</name>
         <qualifiedname>mrmeshpy.Mesh.updateCachesAfterSplits</qualifiedname>
         <param>
@@ -3456,7 +3456,7 @@ it shall be considered as a faster alternative to invalidateCaches() and followi
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</ref></type>
           <declname>new2Old</declname>
         </param>
         <briefdescription>
@@ -3642,10 +3642,10 @@ as well as some caches to accelerate search algorithms
       <member refid="classmrmeshpy_1_1Mesh_1a46543299c08d8ed0e033bd822cba2188" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>signedDistance</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1ad563425da23f9f6255231366e7d533e0" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>signedDistance</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1ad072f83dfa5c4417ba09bae6ebc91714" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>signedDistance</name></member>
-      <member refid="classmrmeshpy_1_1Mesh_1a0d69fc1e01412433c83f1d0626875818" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>splitEdge</name></member>
-      <member refid="classmrmeshpy_1_1Mesh_1af369fc656c67b7a4ab5ffa52cc04b805" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>splitEdge</name></member>
-      <member refid="classmrmeshpy_1_1Mesh_1a10d16aa25d9e5c1f12d2ff51451e9606" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>splitFace</name></member>
-      <member refid="classmrmeshpy_1_1Mesh_1a559bb495e39d12270ae5c5a639ed4f20" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>splitFace</name></member>
+      <member refid="classmrmeshpy_1_1Mesh_1a0563101f39734175abeceada3dea91c9" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>splitEdge</name></member>
+      <member refid="classmrmeshpy_1_1Mesh_1a62cfe1ec7176136e83e5d881e19d07b9" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>splitEdge</name></member>
+      <member refid="classmrmeshpy_1_1Mesh_1a3800189280acdcea4c08c8edf92e5855" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>splitFace</name></member>
+      <member refid="classmrmeshpy_1_1Mesh_1a0c2ab3e93dd3225a4b582b8edfdea1c0" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>splitFace</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1a6d2427008890a133ab15d2361dd31f83" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>sumAngles</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1a4055d158e8fb340093bf8a2e01a1fd04" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>toEdgePoint</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1a32777fd189fe8b5ec8d2feead243b81e" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>toEdgePoint</name></member>
@@ -3657,7 +3657,7 @@ as well as some caches to accelerate search algorithms
       <member refid="classmrmeshpy_1_1Mesh_1a7f72d8d7a286e5d23451c3f234e12add" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>triCenter</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1a9386837c14764124fc2b283abb1f73d2" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>triPoint</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1a50620cd3a4364a60b1c2af2eb2e464de" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>updateCaches</name></member>
-      <member refid="classmrmeshpy_1_1Mesh_1a744a601401c3c9dd0ba9eb65d768ddd8" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>updateCachesAfterSplits</name></member>
+      <member refid="classmrmeshpy_1_1Mesh_1a76465d1705d6b35701f45605d6166458" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>updateCachesAfterSplits</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1a323fc8be238ad636a64a24571367e745" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>volume</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1ab8cdd0778f5e0b1600eaeca76f4dd961" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>zeroUnusedPoints</name></member>
     </listofallmembers>

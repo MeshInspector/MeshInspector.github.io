@@ -337,9 +337,9 @@ optionally appends tracked path (res)
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17415" bodyend="17419"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1ae0c9dbfb0a8cb299e167cda3969df143" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__VertPathInfo" kindref="compound">phmap_flat_hash_map_Id_VertTag_VertPathInfo</ref></type>
-        <definition> phmap_flat_hash_map_Id_VertTag_VertPathInfo mrmeshpy.EdgePathsBuilderT_TrivialMetricToPenalty.vertPathInfoMap</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1a15c9805a520d6e53a93137121ec1d816" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__VertPathInfo__phmap__Hash__Id__VertTag__ph0b68f7f3ae05fe3937b15a76ead045ca" kindref="compound">phmap_flat_hash_map_Id_VertTag_VertPathInfo_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_VertPathInfo</ref></type>
+        <definition> phmap_flat_hash_map_Id_VertTag_VertPathInfo_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_VertPathInfo mrmeshpy.EdgePathsBuilderT_TrivialMetricToPenalty.vertPathInfoMap</definition>
         <argsstring>(self)</argsstring>
         <name>vertPathInfoMap</name>
         <qualifiedname>mrmeshpy.EdgePathsBuilderT_TrivialMetricToPenalty.vertPathInfoMap</qualifiedname>
@@ -383,7 +383,7 @@ the class is responsible for finding smallest metric edge paths on a mesh
       <member refid="classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1a7133d23695f2ea4e087363c30f1f520b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsBuilderT_TrivialMetricToPenalty</scope><name>reachNext</name></member>
       <member refid="classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1ad050002bc0510480f1c959c1c08c2368" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsBuilderT_TrivialMetricToPenalty</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1a8bef0c58341bdf91a1060abe6f7581c3" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsBuilderT_TrivialMetricToPenalty</scope><name>trackPathBack</name></member>
-      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1ae0c9dbfb0a8cb299e167cda3969df143" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsBuilderT_TrivialMetricToPenalty</scope><name>vertPathInfoMap</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty_1a15c9805a520d6e53a93137121ec1d816" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsBuilderT_TrivialMetricToPenalty</scope><name>vertPathInfoMap</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

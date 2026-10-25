@@ -3315,10 +3315,10 @@ the cut in rings in both cases is made after a and b
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33264" bodyend="33270"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1afd45f82152182991dfa6abc231bed2cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a6c53e60a9b3d57c52a7c51d0fbcdf895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
         <definition> EdgeId mrmeshpy.MeshTopology.splitEdge</definition>
-        <argsstring>(self, EdgeId e, FaceBitSet region=None, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag new2Old=None)</argsstring>
+        <argsstring>(self, EdgeId e, FaceBitSet region=None, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag new2Old=None)</argsstring>
         <name>splitEdge</name>
         <qualifiedname>mrmeshpy.MeshTopology.splitEdge</qualifiedname>
         <param>
@@ -3335,7 +3335,7 @@ the cut in rings in both cases is made after a and b
           <defval>None</defval>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</ref></type>
           <declname>new2Old</declname>
           <defval>None</defval>
         </param>
@@ -3356,10 +3356,10 @@ if left or right faces of the original edge were in the region, then include new
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33271" bodyend="33281"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a3cd6d94cad80393db5510b4a9b494181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a64ba1f095e6e601a48056da84d2ef5a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
         <definition> VertId mrmeshpy.MeshTopology.splitFace</definition>
-        <argsstring>(self, FaceId f, FaceBitSet region=None, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag new2Old=None)</argsstring>
+        <argsstring>(self, FaceId f, FaceBitSet region=None, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag new2Old=None)</argsstring>
         <name>splitFace</name>
         <qualifiedname>mrmeshpy.MeshTopology.splitFace</qualifiedname>
         <param>
@@ -3376,7 +3376,7 @@ if left or right faces of the original edge were in the region, then include new
           <defval>None</defval>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</ref></type>
           <declname>new2Old</declname>
           <defval>None</defval>
         </param>
@@ -3745,8 +3745,8 @@ Mesh Topology
       <member refid="classmrmeshpy_1_1MeshTopology_1a57bb76308a917ac13b6c24738b574707" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>sharedVertInOrg</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a09011c28f81dcbd11e04eeb1ffa16392" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>shrinkToFit</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a04cb2a1c2072498ba3d63da4944db0d4" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>splice</name></member>
-      <member refid="classmrmeshpy_1_1MeshTopology_1afd45f82152182991dfa6abc231bed2cd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>splitEdge</name></member>
-      <member refid="classmrmeshpy_1_1MeshTopology_1a3cd6d94cad80393db5510b4a9b494181" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>splitFace</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1a6c53e60a9b3d57c52a7c51d0fbcdf895" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>splitEdge</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1a64ba1f095e6e601a48056da84d2ef5a7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>splitFace</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1ae18c1c41db218368e11ddef2a0e76530" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>stopUpdatingValids</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1ab1bcf41bf1b9155775aeccb2f1dbbd0e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>undirectedEdgeCapacity</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a1e650cbd8f4f715307648520de177b6f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>undirectedEdgeSize</name></member>

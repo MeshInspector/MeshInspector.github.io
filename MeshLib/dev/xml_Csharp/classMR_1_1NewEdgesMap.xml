@@ -19,9 +19,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="135" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="135" bodyend="135"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1NewEdgesMap_1ab7172e3d43dfedf26185e4da95d335d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>new unsafe MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int</type>
-        <definition>new unsafe MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int MR.NewEdgesMap.map</definition>
+      <memberdef kind="property" id="classMR_1_1NewEdgesMap_1ab11d4f67053f35e14bf946906d117e51" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdInt</type>
+        <definition>new unsafe MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdInt MR.NewEdgesMap.map</definition>
         <argsstring></argsstring>
         <name>map</name>
         <qualifiedname>MR.NewEdgesMap.map</qualifiedname>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="142" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="142" bodyend="142"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="142" column="173" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="142" bodyend="142"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -75,10 +75,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="174" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="174" bodyend="178"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1NewEdgesMap_1ae54495bbb37a19315a597b57fcf968e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1NewEdgesMap_1aaae5096e4beaa5bfdd5ff36f2ad30b37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.NewEdgesMap.NewEdgesMap</definition>
-        <argsstring>(MR._ByValue_UndirectedEdgeBitSet splitEdges, MR.Phmap._ByValue_FlatHashMap_MRUndirectedEdgeId_Int map)</argsstring>
+        <argsstring>(MR._ByValue_UndirectedEdgeBitSet splitEdges, MR.Phmap._ByValue_FlatHashMap_MRUndirectedEdgeId_Int_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdInt map)</argsstring>
         <name>NewEdgesMap</name>
         <qualifiedname>MR.NewEdgesMap.NewEdgesMap</qualifiedname>
         <param>
@@ -86,7 +86,7 @@
           <declname>splitEdges</declname>
         </param>
         <param>
-          <type>MR.Phmap._ByValue_FlatHashMap_MRUndirectedEdgeId_Int</type>
+          <type>MR.Phmap._ByValue_FlatHashMap_MRUndirectedEdgeId_Int_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdInt</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -202,10 +202,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="224" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1NewEdgesMap_1a1e1215c1b35f2448181340f40247d43c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1NewEdgesMap_1a64f281538e83b6726dc43a2225e1f00a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.NewEdgesMap._Underlying *</type>
         <definition>static unsafe MR.NewEdgesMap._Underlying * MR.NewEdgesMap.__MR_NewEdgesMap_ConstructFrom</definition>
-        <argsstring>(MR.Misc._PassBy splitEdges_pass_by, MR.UndirectedEdgeBitSet._Underlying *splitEdges, MR.Misc._PassBy map_pass_by, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int._Underlying *map)</argsstring>
+        <argsstring>(MR.Misc._PassBy splitEdges_pass_by, MR.UndirectedEdgeBitSet._Underlying *splitEdges, MR.Misc._PassBy map_pass_by, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdInt._Underlying *map)</argsstring>
         <name>__MR_NewEdgesMap_ConstructFrom</name>
         <qualifiedname>MR.NewEdgesMap.__MR_NewEdgesMap_ConstructFrom</qualifiedname>
         <param>
@@ -221,7 +221,7 @@
           <declname>map_pass_by</declname>
         </param>
         <param>
-          <type>MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int._Underlying *</type>
+          <type>MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdInt._Underlying *</type>
           <declname>map</declname>
         </param>
         <briefdescription>
@@ -268,9 +268,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="233" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1NewEdgesMap_1a5100bc8ede9cce1de5a355f219e5c42e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int._Underlying *</type>
-        <definition>static unsafe MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int._Underlying * MR.NewEdgesMap.__MR_NewEdgesMap_GetMutable_map</definition>
+      <memberdef kind="function" id="classMR_1_1NewEdgesMap_1a4c2d3b8175af4ed739202b6f3a76f799" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdInt._Underlying *</type>
+        <definition>static unsafe MR.Phmap.FlatHashMap_MRUndirectedEdgeId_Int_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdInt._Underlying * MR.NewEdgesMap.__MR_NewEdgesMap_GetMutable_map</definition>
         <argsstring>(MR.NewEdgesMap._Underlying *_this)</argsstring>
         <name>__MR_NewEdgesMap_GetMutable_map</name>
         <qualifiedname>MR.NewEdgesMap.__MR_NewEdgesMap_GetMutable_map</qualifiedname>
@@ -284,7 +284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="236" column="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="236" column="187"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NewEdgesMap_1af9c251055cb174c23209cfb17e7194c1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeBitSet._Underlying *</type>
@@ -357,24 +357,24 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="129" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="130" bodyend="240"/>
     <listofallmembers>
       <member refid="classMR_1_1NewEdgesMap_1a791f011ae8a830ab5e9360ed54dca6a2" prot="private" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>__MR_NewEdgesMap_AssignFromAnother</name></member>
-      <member refid="classMR_1_1NewEdgesMap_1a1e1215c1b35f2448181340f40247d43c" prot="private" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>__MR_NewEdgesMap_ConstructFrom</name></member>
+      <member refid="classMR_1_1NewEdgesMap_1a64f281538e83b6726dc43a2225e1f00a" prot="private" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>__MR_NewEdgesMap_ConstructFrom</name></member>
       <member refid="classMR_1_1NewEdgesMap_1ad85593272027860fbd37af2c33bd3f72" prot="private" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>__MR_NewEdgesMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1NewEdgesMap_1a059741dd93f04ea651731df97f1a5ecb" prot="private" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>__MR_NewEdgesMap_DefaultConstruct</name></member>
-      <member refid="classMR_1_1NewEdgesMap_1a5100bc8ede9cce1de5a355f219e5c42e" prot="private" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>__MR_NewEdgesMap_GetMutable_map</name></member>
+      <member refid="classMR_1_1NewEdgesMap_1a4c2d3b8175af4ed739202b6f3a76f799" prot="private" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>__MR_NewEdgesMap_GetMutable_map</name></member>
       <member refid="classMR_1_1NewEdgesMap_1af9c251055cb174c23209cfb17e7194c1" prot="private" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>__MR_NewEdgesMap_GetMutable_splitEdges</name></member>
       <member refid="classMR_1_1NewEdgesMap_1acd090fcf0bc89fe7e27bf8330cb0ea35" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__NewEdgesMap_1ab732c20d028b69f6469a1f6a71e549c7" prot="package" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>Const_NewEdgesMap</name></member>
       <member refid="classMR_1_1Const__NewEdgesMap_1adfa1eef68043ec8e543bf69b9b309eca" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>Const_NewEdgesMap</name></member>
-      <member refid="classMR_1_1Const__NewEdgesMap_1a0550a951ade927b7a40ef828d88f4741" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>Const_NewEdgesMap</name></member>
+      <member refid="classMR_1_1Const__NewEdgesMap_1a3e15369ade8b92afd4c8b64916959956" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>Const_NewEdgesMap</name></member>
       <member refid="classMR_1_1Const__NewEdgesMap_1a31fd09eeea3ff3d383be42e40d950f55" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>Const_NewEdgesMap</name></member>
       <member refid="classMR_1_1Const__NewEdgesMap_1a71d273bc39a84e27d8914a7bad63182e" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>Const_NewEdgesMap</name></member>
       <member refid="classMR_1_1Const__NewEdgesMap_1a9fbff18d6e955fdcbaca833c210f2af0" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>Const_NewEdgesMap</name></member>
       <member refid="classMR_1_1Const__NewEdgesMap_1a32ab90c9c75516de8dd54885b43ac5e1" prot="protected" virt="virtual"><scope>MR::NewEdgesMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__NewEdgesMap_1a244bd67ae8939185abfeefc82b5f0ad1" prot="public" virt="virtual"><scope>MR::NewEdgesMap</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1NewEdgesMap_1ab7172e3d43dfedf26185e4da95d335d6" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>map</name></member>
+      <member refid="classMR_1_1NewEdgesMap_1ab11d4f67053f35e14bf946906d117e51" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>map</name></member>
       <member refid="classMR_1_1NewEdgesMap_1a0923f73d1f69c0d63f6e58bba3825f68" prot="package" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>
       <member refid="classMR_1_1NewEdgesMap_1af1c83868539c57eaeeecccf03ff26738" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>
-      <member refid="classMR_1_1NewEdgesMap_1ae54495bbb37a19315a597b57fcf968e7" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>
+      <member refid="classMR_1_1NewEdgesMap_1aaae5096e4beaa5bfdd5ff36f2ad30b37" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>
       <member refid="classMR_1_1NewEdgesMap_1acb304b62495c8212feca48ee1ba8d101" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>
       <member refid="classMR_1_1NewEdgesMap_1aa4832d1260cb9bdb36d049f4c28cb518" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>
       <member refid="classMR_1_1NewEdgesMap_1a4d500b96c8a39d7e009ee25a9e1f8c36" prot="public" virt="non-virtual"><scope>MR::NewEdgesMap</scope><name>NewEdgesMap</name></member>

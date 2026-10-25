@@ -258,9 +258,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="825" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="826" bodyend="835"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a19366c7241619dce5318daee1720b2a2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.Phmap.? FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId</type>
-        <definition>new unsafe MR.Phmap.? FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId MR.DecimateSettings.twinMap</definition>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1aa092a2efac8afc1823545c48d528b39b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Phmap.? FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdMRUndirectedEdgeId</type>
+        <definition>new unsafe MR.Phmap.? FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdMRUndirectedEdgeId MR.DecimateSettings.twinMap</definition>
         <argsstring></argsstring>
         <name>twinMap</name>
         <qualifiedname>MR.DecimateSettings.twinMap</qualifiedname>
@@ -271,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="841" column="84" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="842" bodyend="851"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="841" column="203" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="842" bodyend="851"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DecimateSettings_1a07b555009b336d2c01e32bff7b384259" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -556,10 +556,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1035" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1035" bodyend="1039"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DecimateSettings_1ab243894db2748d3cbc0ec811028e1d6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DecimateSettings_1a206339784cbaca204787e53322fcf9e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.DecimateSettings.DecimateSettings</definition>
-        <argsstring>(MR.DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, bool preventNormalFlips, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, MR.FaceBitSet? region, MR.UndirectedEdgeBitSet? notFlippable, bool collapseNearNotFlippable, MR.UndirectedEdgeBitSet? edgesToCollapse, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId? twinMap, bool touchNearBdEdges, bool touchBdVerts, MR.VertBitSet? bdVerts, MR.Const_UndirectedEdgeBitSet? regionEdges, float maxAngleChange, MR.Std._ByValue_Function_Bool_From_MREdgeId_ConstMRVector3fRef preCollapse, MR.Std._ByValue_Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef adjustCollapse, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeDel, MR.Vector_MRQuadraticForm3f_MRVertId? vertForms, bool packMesh, MR.Std._ByValue_Function_Bool_From_Float progressCallback, int subdivideParts, MR.DecimatePartsMode partsMode, bool decimateBetweenParts, MR.Std.Vector_MRFaceBitSet? partFaces, int minFacesInPart)</argsstring>
+        <argsstring>(MR.DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, bool preventNormalFlips, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, MR.FaceBitSet? region, MR.UndirectedEdgeBitSet? notFlippable, bool collapseNearNotFlippable, MR.UndirectedEdgeBitSet? edgesToCollapse, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdMRUndirectedEdgeId? twinMap, bool touchNearBdEdges, bool touchBdVerts, MR.VertBitSet? bdVerts, MR.Const_UndirectedEdgeBitSet? regionEdges, float maxAngleChange, MR.Std._ByValue_Function_Bool_From_MREdgeId_ConstMRVector3fRef preCollapse, MR.Std._ByValue_Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef adjustCollapse, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeDel, MR.Vector_MRQuadraticForm3f_MRVertId? vertForms, bool packMesh, MR.Std._ByValue_Function_Bool_From_Float progressCallback, int subdivideParts, MR.DecimatePartsMode partsMode, bool decimateBetweenParts, MR.Std.Vector_MRFaceBitSet? partFaces, int minFacesInPart)</argsstring>
         <name>DecimateSettings</name>
         <qualifiedname>MR.DecimateSettings.DecimateSettings</qualifiedname>
         <param>
@@ -631,7 +631,7 @@
           <declname>edgesToCollapse</declname>
         </param>
         <param>
-          <type>MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId?</type>
+          <type>MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdMRUndirectedEdgeId?</type>
           <declname>twinMap</declname>
         </param>
         <param>
@@ -811,10 +811,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1095" column="60"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DecimateSettings_1a2564de20a62b52a9b05d4cf2f8abaa8a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DecimateSettings_1ae5a2670e5b18b5da8379261dacb6e79e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.DecimateSettings._Underlying *</type>
         <definition>static unsafe MR.DecimateSettings._Underlying * MR.DecimateSettings.__MR_DecimateSettings_ConstructFrom</definition>
-        <argsstring>(MR.DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, byte preventNormalFlips, float tinyEdgeLength, float stabilizer, byte angleWeightedDistToPlane, byte optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, MR.FaceBitSet._Underlying *region, MR.UndirectedEdgeBitSet._Underlying *notFlippable, byte collapseNearNotFlippable, MR.UndirectedEdgeBitSet._Underlying *edgesToCollapse, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId._Underlying *twinMap, byte touchNearBdEdges, byte touchBdVerts, MR.VertBitSet._Underlying *bdVerts, MR.Const_UndirectedEdgeBitSet._Underlying *regionEdges, float maxAngleChange, MR.Misc._PassBy preCollapse_pass_by, MR.Std.Function_Bool_From_MREdgeId_ConstMRVector3fRef._Underlying *preCollapse, MR.Misc._PassBy adjustCollapse_pass_by, MR.Std.Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef._Underlying *adjustCollapse, MR.Misc._PassBy onEdgeDel_pass_by, MR.Std.Function_Void_From_MREdgeId_MREdgeId._Underlying *onEdgeDel, MR.Vector_MRQuadraticForm3f_MRVertId._Underlying *vertForms, byte packMesh, MR.Misc._PassBy progressCallback_pass_by, MR.Std.Function_Bool_From_Float._Underlying *progressCallback, int subdivideParts, MR.DecimatePartsMode partsMode, byte decimateBetweenParts, MR.Std.Vector_MRFaceBitSet._Underlying *partFaces, int minFacesInPart)</argsstring>
+        <argsstring>(MR.DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, byte preventNormalFlips, float tinyEdgeLength, float stabilizer, byte angleWeightedDistToPlane, byte optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, MR.FaceBitSet._Underlying *region, MR.UndirectedEdgeBitSet._Underlying *notFlippable, byte collapseNearNotFlippable, MR.UndirectedEdgeBitSet._Underlying *edgesToCollapse, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdMRUndirectedEdgeId._Underlying *twinMap, byte touchNearBdEdges, byte touchBdVerts, MR.VertBitSet._Underlying *bdVerts, MR.Const_UndirectedEdgeBitSet._Underlying *regionEdges, float maxAngleChange, MR.Misc._PassBy preCollapse_pass_by, MR.Std.Function_Bool_From_MREdgeId_ConstMRVector3fRef._Underlying *preCollapse, MR.Misc._PassBy adjustCollapse_pass_by, MR.Std.Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef._Underlying *adjustCollapse, MR.Misc._PassBy onEdgeDel_pass_by, MR.Std.Function_Void_From_MREdgeId_MREdgeId._Underlying *onEdgeDel, MR.Vector_MRQuadraticForm3f_MRVertId._Underlying *vertForms, byte packMesh, MR.Misc._PassBy progressCallback_pass_by, MR.Std.Function_Bool_From_Float._Underlying *progressCallback, int subdivideParts, MR.DecimatePartsMode partsMode, byte decimateBetweenParts, MR.Std.Vector_MRFaceBitSet._Underlying *partFaces, int minFacesInPart)</argsstring>
         <name>__MR_DecimateSettings_ConstructFrom</name>
         <qualifiedname>MR.DecimateSettings.__MR_DecimateSettings_ConstructFrom</qualifiedname>
         <param>
@@ -886,7 +886,7 @@
           <declname>edgesToCollapse</declname>
         </param>
         <param>
-          <type>MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId._Underlying *</type>
+          <type>MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId_PhmapHashMRUndirectedEdgeId_PhmapEqualToMRUndirectedEdgeId_MRAllocatorStdPairConstMRUndirectedEdgeIdMRUndirectedEdgeId._Underlying *</type>
           <declname>twinMap</declname>
         </param>
         <param>
@@ -1160,7 +1160,7 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="713" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="714" bodyend="1117"/>
     <listofallmembers>
       <member refid="classMR_1_1DecimateSettings_1a0e1a40236689fd5ed673832de09997f3" prot="private" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__MR_DecimateSettings_AssignFromAnother</name></member>
-      <member refid="classMR_1_1DecimateSettings_1a2564de20a62b52a9b05d4cf2f8abaa8a" prot="private" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__MR_DecimateSettings_ConstructFrom</name></member>
+      <member refid="classMR_1_1DecimateSettings_1ae5a2670e5b18b5da8379261dacb6e79e" prot="private" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__MR_DecimateSettings_ConstructFrom</name></member>
       <member refid="classMR_1_1DecimateSettings_1a18110ef280c45719c7a3976e862b5a53" prot="private" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__MR_DecimateSettings_ConstructFromAnother</name></member>
       <member refid="classMR_1_1DecimateSettings_1a5e0381cb70ce5a75f2216d2c4e240c2d" prot="private" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__MR_DecimateSettings_DefaultConstruct</name></member>
       <member refid="classMR_1_1DecimateSettings_1a8aa907c678fa21f882cca9f38e1e8089" prot="private" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__MR_DecimateSettings_GetMutable_adjustCollapse</name></member>
@@ -1173,7 +1173,7 @@
       <member refid="classMR_1_1Const__DecimateSettings_1a17351744d3e46ac91aeb7be1e3052a28" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ptr_storage_partFaces</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a3e442e0e6b96b9c62c50ddcb526ead72" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ptr_storage_region</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a9f9a5b2b79b1bfc14c3570811bd98b42" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ptr_storage_regionEdges</name></member>
-      <member refid="classMR_1_1Const__DecimateSettings_1a848193fe93368a106d3f52dde320ebe4" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ptr_storage_twinMap</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a542d8ae23994679805cbba8e25f02c74" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ptr_storage_twinMap</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a5b44c6180de01bed11c517db1abbc1af" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ptr_storage_vertForms</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a1c294ea457892ee12391778669fc91d9" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_angleWeightedDistToPlane</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a0c4b9a990c58f13bf69fd2092bdd4709" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_collapseNearNotFlippable</name></member>
@@ -1204,7 +1204,7 @@
       <member refid="classMR_1_1DecimateSettings_1a1895e45baef40c594f71539eee3ef9fb" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>collapseNearNotFlippable</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a963114c1aa5a10572ef7da09a6c1488f" prot="package" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>Const_DecimateSettings</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a3a3dde2ea4cfeb3893a023c4ad3769fa" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>Const_DecimateSettings</name></member>
-      <member refid="classMR_1_1Const__DecimateSettings_1a2a89cca368f1baeb9fb66aac27561819" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>Const_DecimateSettings</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a3183d68ebbeed51b585bb98bc6177249" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>Const_DecimateSettings</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a416cbe92341394d850efa8a7306a0d67" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>Const_DecimateSettings</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a476b386045686fc33af580f15bf4fd1c" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>Const_DecimateSettings</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1aed5f611167dc3065bea632c41eb1e2d8" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>Const_DecimateSettings</name></member>
@@ -1212,7 +1212,7 @@
       <member refid="classMR_1_1DecimateSettings_1a06306ed033b5ccfa3237dab3fb1c3a61" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>decimateBetweenParts</name></member>
       <member refid="classMR_1_1DecimateSettings_1a29c5319a7e8deee2d7f4a7ae75c69233" prot="package" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
       <member refid="classMR_1_1DecimateSettings_1ab67032cee10cf045f9a4cee048756b24" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
-      <member refid="classMR_1_1DecimateSettings_1ab243894db2748d3cbc0ec811028e1d6a" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a206339784cbaca204787e53322fcf9e3" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
       <member refid="classMR_1_1DecimateSettings_1a99a889cfdc331349b8e18b3b2fc5d088" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
       <member refid="classMR_1_1DecimateSettings_1aa705d47a48108e8562a3cd9a12128b6d" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
       <member refid="classMR_1_1DecimateSettings_1a07505c08c620c736e4f5041c08418e2d" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
@@ -1244,7 +1244,7 @@
       <member refid="classMR_1_1DecimateSettings_1a5e9863ef259f30192b2acbc1b3a78ec6" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>tinyEdgeLength</name></member>
       <member refid="classMR_1_1DecimateSettings_1a24e37817f6c0a3ec00b7241e98ae75a3" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>touchBdVerts</name></member>
       <member refid="classMR_1_1DecimateSettings_1a07b555009b336d2c01e32bff7b384259" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>touchNearBdEdges</name></member>
-      <member refid="classMR_1_1DecimateSettings_1a19366c7241619dce5318daee1720b2a2" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>twinMap</name></member>
+      <member refid="classMR_1_1DecimateSettings_1aa092a2efac8afc1823545c48d528b39b" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>twinMap</name></member>
       <member refid="classMR_1_1DecimateSettings_1a2e6ecb0db6897dc915a800fc726f449a" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>vertForms</name></member>
     </listofallmembers>
   </compounddef>

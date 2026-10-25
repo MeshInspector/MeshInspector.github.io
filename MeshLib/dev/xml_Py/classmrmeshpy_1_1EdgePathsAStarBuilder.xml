@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95885" bodyend="95886"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95894" bodyend="95895"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95888" bodyend="95889"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95897" bodyend="95898"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsAStarBuilder_1a9d1028e0e041097e13f18d108d6089b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95891" bodyend="95892"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95900" bodyend="95901"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1EdgePathsAStarBuilder_1a68438cc7012b1c89ba3857306c4d0941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95894" bodyend="95897"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95903" bodyend="95906"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -146,7 +146,7 @@ using A* heuristics
         <link refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95876" bodyend="95897"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95885" bodyend="95906"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1EdgePathsAStarBuilder_1ae29345f6a720297aaee20b521547094d" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1EdgePathsAStarBuilder_1abc66149b3356cc5985bc981077f66742" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>__init__</name></member>
@@ -162,7 +162,7 @@ using A* heuristics
       <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a773bd57d763d0fa5dca8b1c8f54b3c62" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>reachNext</name></member>
       <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a3b670650a5cf7b6f27a81b0482f47e6b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a3f91f8742501b045c0b06e8c80a4142c" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>trackPathBack</name></member>
-      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a1a8dda29273c4a6a22c9d454a6783247" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>vertPathInfoMap</name></member>
+      <member refid="classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1a0c0e1930f709080030af8e08aac1795f" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgePathsAStarBuilder</scope><name>vertPathInfoMap</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

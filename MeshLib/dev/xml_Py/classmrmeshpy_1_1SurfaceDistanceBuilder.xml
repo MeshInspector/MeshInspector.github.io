@@ -159,10 +159,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46439" bodyend="46442"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1a91258a202e454588b189efb3aeb48881" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1SurfaceDistanceBuilder_1a0cfc5fb548b3bf366846b2a786ef47d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.SurfaceDistanceBuilder.addStartVertices</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_float startVertices)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_float_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_float startVertices)</argsstring>
         <name>addStartVertices</name>
         <qualifiedname>mrmeshpy.SurfaceDistanceBuilder.addStartVertices</qualifiedname>
         <param>
@@ -170,7 +170,7 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float" kindref="compound">phmap_flat_hash_map_Id_VertTag_float</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__float__phmap__Hash__Id__VertTag__phmap__Eqa2602eb04b9fd6088d1ed78a26238f37" kindref="compound">phmap_flat_hash_map_Id_VertTag_float_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_float</ref></type>
           <declname>startVertices</declname>
         </param>
         <briefdescription>
@@ -305,7 +305,7 @@ this class is responsible for iterative construction of distance map along the s
       <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a7908c48c27aaea3d5eacd2f7220a7c87" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a899ecce4a68cb83a247d44e4a0920bba" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>addStart</name></member>
       <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a706065fc4de0683ac42ed595eca30cd0" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>addStartRegion</name></member>
-      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a91258a202e454588b189efb3aeb48881" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>addStartVertices</name></member>
+      <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a0cfc5fb548b3bf366846b2a786ef47d2" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>addStartVertices</name></member>
       <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a4be43df4f4a1263b879a7093232ef735" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>done</name></member>
       <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a118fd53e95258820d0c8e6998f32401a" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>doneDistance</name></member>
       <member refid="classmrmeshpy_1_1SurfaceDistanceBuilder_1a2bb2a7e3dbffedf2935ab9b42fa502c4" prot="public" virt="non-virtual"><scope>mrmeshpy::SurfaceDistanceBuilder</scope><name>growOne</name></member>

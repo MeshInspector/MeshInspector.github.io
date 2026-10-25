@@ -1,7 +1,7 @@
 var classMR_1_1DecimateSettings =
 [
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#ab67032cee10cf045f9a4cee048756b24", null ],
-    [ "DecimateSettings", "classMR_1_1DecimateSettings.html#ab243894db2748d3cbc0ec811028e1d6a", null ],
+    [ "DecimateSettings", "classMR_1_1DecimateSettings.html#a206339784cbaca204787e53322fcf9e3", null ],
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#a99a889cfdc331349b8e18b3b2fc5d088", null ],
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#aa705d47a48108e8562a3cd9a12128b6d", null ],
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#a07505c08c620c736e4f5041c08418e2d", null ],
@@ -38,6 +38,6 @@ var classMR_1_1DecimateSettings =
     [ "tinyEdgeLength", "classMR_1_1DecimateSettings.html#a5e9863ef259f30192b2acbc1b3a78ec6", null ],
     [ "touchBdVerts", "classMR_1_1DecimateSettings.html#a24e37817f6c0a3ec00b7241e98ae75a3", null ],
     [ "touchNearBdEdges", "classMR_1_1DecimateSettings.html#a07b555009b336d2c01e32bff7b384259", null ],
-    [ "twinMap", "classMR_1_1DecimateSettings.html#a19366c7241619dce5318daee1720b2a2", null ],
+    [ "twinMap", "classMR_1_1DecimateSettings.html#aa092a2efac8afc1823545c48d528b39b", null ],
     [ "vertForms", "classMR_1_1DecimateSettings.html#a2e6ecb0db6897dc915a800fc726f449a", null ]
 ];

@@ -218,9 +218,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="621" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="621" bodyend="624"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1aa14d913917824917cc86636d3715353e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows</type>
-        <definition>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows MR.Const_FlowAggregator.computeFlowsPerBasin</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1ad9d062b26d0b16bf6cf7cb13eb122a89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRFlowAggregatorFlows</type>
+        <definition>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRFlowAggregatorFlows MR.Const_FlowAggregator.computeFlowsPerBasin</definition>
         <argsstring>(MR.Std.Const_Vector_MRFlowOrigin starts)</argsstring>
         <name>computeFlowsPerBasin</name>
         <qualifiedname>MR.Const_FlowAggregator.computeFlowsPerBasin</qualifiedname>
@@ -241,17 +241,17 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>the flows grouped by the final destination vertex Generated from method <computeroutput><ref refid="classMR_1_1Const__FlowAggregator_1aa14d913917824917cc86636d3715353e" kindref="member">MR.FlowAggregator.computeFlowsPerBasin</ref></computeroutput>. </para>
+<simplesect kind="return"><para>the flows grouped by the final destination vertex Generated from method <computeroutput><ref refid="classMR_1_1Const__FlowAggregator_1ad9d062b26d0b16bf6cf7cb13eb122a89" kindref="member">MR.FlowAggregator.computeFlowsPerBasin</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="632" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="632" bodyend="635"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="632" column="165" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="632" bodyend="635"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1a7e10e1c4fdfd6c13f97451b512894b22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows</type>
-        <definition>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows MR.Const_FlowAggregator.computeFlowsPerBasin</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1a5539902bb611b9dc87bac587995de200" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRFlowAggregatorFlows</type>
+        <definition>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRFlowAggregatorFlows MR.Const_FlowAggregator.computeFlowsPerBasin</definition>
         <argsstring>(MR.Std.Const_Vector_MRMeshTriPoint starts)</argsstring>
         <name>computeFlowsPerBasin</name>
         <qualifiedname>MR.Const_FlowAggregator.computeFlowsPerBasin</qualifiedname>
@@ -260,17 +260,17 @@
           <declname>starts</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FlowAggregator_1aa14d913917824917cc86636d3715353e" kindref="member">MR.FlowAggregator.computeFlowsPerBasin</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FlowAggregator_1ad9d062b26d0b16bf6cf7cb13eb122a89" kindref="member">MR.FlowAggregator.computeFlowsPerBasin</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="641" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="641" bodyend="644"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="641" column="165" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="641" bodyend="644"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1a72148b1c2a00f9f0c6417fc6b7fac027" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows</type>
-        <definition>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows MR.Const_FlowAggregator.computeFlowsPerBasin</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1a814578b7a62e7ffce72494a811900dc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRFlowAggregatorFlows</type>
+        <definition>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRFlowAggregatorFlows MR.Const_FlowAggregator.computeFlowsPerBasin</definition>
         <argsstring>(nuint numStarts, MR.Std.Const_Function_MRMeshTriPoint_From_SizeT startById, MR.Std.Const_Function_Float_From_SizeT amountById)</argsstring>
         <name>computeFlowsPerBasin</name>
         <qualifiedname>MR.Const_FlowAggregator.computeFlowsPerBasin</qualifiedname>
@@ -287,13 +287,13 @@
           <declname>amountById</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FlowAggregator_1aa14d913917824917cc86636d3715353e" kindref="member">MR.FlowAggregator.computeFlowsPerBasin</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FlowAggregator_1ad9d062b26d0b16bf6cf7cb13eb122a89" kindref="member">MR.FlowAggregator.computeFlowsPerBasin</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="650" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="650" bodyend="653"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="650" column="165" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="650" bodyend="653"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1abbd6da02e1b7471e023765f0c0cb920a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
@@ -522,9 +522,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="961" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1ab5e77cafbe2045fcd8ec15ac7da77db2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows._Underlying *</type>
-        <definition>static unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows._Underlying * MR.Const_FlowAggregator.__MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_FlowOrigin</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1a04f72334d6d0edf2d33ea7e390cef0e7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRFlowAggregatorFlows._Underlying *</type>
+        <definition>static unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRFlowAggregatorFlows._Underlying * MR.Const_FlowAggregator.__MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_FlowOrigin</definition>
         <argsstring>(_Underlying *_this, MR.Std.Const_Vector_MRFlowOrigin._Underlying *starts)</argsstring>
         <name>__MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_FlowOrigin</name>
         <qualifiedname>MR.Const_FlowAggregator.__MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_FlowOrigin</qualifiedname>
@@ -542,11 +542,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="964" column="91"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="964" column="183"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1abf37feed486e6fbb5808f1da935fc900" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows._Underlying *</type>
-        <definition>static unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows._Underlying * MR.Const_FlowAggregator.__MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_MeshTriPoint</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1adb25015e0589661a7e52f8ea61c67280" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRFlowAggregatorFlows._Underlying *</type>
+        <definition>static unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRFlowAggregatorFlows._Underlying * MR.Const_FlowAggregator.__MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_MeshTriPoint</definition>
         <argsstring>(_Underlying *_this, MR.Std.Const_Vector_MRMeshTriPoint._Underlying *starts)</argsstring>
         <name>__MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_MeshTriPoint</name>
         <qualifiedname>MR.Const_FlowAggregator.__MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_MeshTriPoint</qualifiedname>
@@ -564,11 +564,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="967" column="91"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="967" column="183"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1a7a9003fcdc45161463c1589f56f42b4e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows._Underlying *</type>
-        <definition>static unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows._Underlying * MR.Const_FlowAggregator.__MR_FlowAggregator_computeFlowsPerBasin_3</definition>
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1a4b483caec556012b112fe2ed11cdaf86" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRFlowAggregatorFlows._Underlying *</type>
+        <definition>static unsafe MR.Phmap.FlatHashMap_MRVertId_MRFlowAggregatorFlows_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRFlowAggregatorFlows._Underlying * MR.Const_FlowAggregator.__MR_FlowAggregator_computeFlowsPerBasin_3</definition>
         <argsstring>(_Underlying *_this, nuint numStarts, MR.Std.Const_Function_MRMeshTriPoint_From_SizeT._Underlying *startById, MR.Std.Const_Function_Float_From_SizeT._Underlying *amountById)</argsstring>
         <name>__MR_FlowAggregator_computeFlowsPerBasin_3</name>
         <qualifiedname>MR.Const_FlowAggregator.__MR_FlowAggregator_computeFlowsPerBasin_3</qualifiedname>
@@ -594,7 +594,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="970" column="91"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="970" column="183"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -646,9 +646,9 @@
       <member refid="classMR_1_1Const__FlowAggregator_1ab6995a531772a589814aa31b07f0c77d" prot="private" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>__MR_FlowAggregator_computeFlow_2_std_vector_MR_FlowOrigin</name></member>
       <member refid="classMR_1_1Const__FlowAggregator_1aa015a51d296666e2f4a06164afb4d830" prot="private" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>__MR_FlowAggregator_computeFlow_2_std_vector_MR_MeshTriPoint</name></member>
       <member refid="classMR_1_1Const__FlowAggregator_1a18228fbf4c3cb1b2f0c165bd851c9d53" prot="private" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>__MR_FlowAggregator_computeFlow_5</name></member>
-      <member refid="classMR_1_1Const__FlowAggregator_1ab5e77cafbe2045fcd8ec15ac7da77db2" prot="private" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>__MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_FlowOrigin</name></member>
-      <member refid="classMR_1_1Const__FlowAggregator_1abf37feed486e6fbb5808f1da935fc900" prot="private" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>__MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_MeshTriPoint</name></member>
-      <member refid="classMR_1_1Const__FlowAggregator_1a7a9003fcdc45161463c1589f56f42b4e" prot="private" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>__MR_FlowAggregator_computeFlowsPerBasin_3</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a04f72334d6d0edf2d33ea7e390cef0e7" prot="private" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>__MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_FlowOrigin</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1adb25015e0589661a7e52f8ea61c67280" prot="private" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>__MR_FlowAggregator_computeFlowsPerBasin_1_std_vector_MR_MeshTriPoint</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a4b483caec556012b112fe2ed11cdaf86" prot="private" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>__MR_FlowAggregator_computeFlowsPerBasin_3</name></member>
       <member refid="classMR_1_1Const__FlowAggregator_1aca415ddded452587d17de465b7a24f5d" prot="private" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>__MR_FlowAggregator_Construct</name></member>
       <member refid="classMR_1_1Const__FlowAggregator_1abb786dfb5d68a4175308529510024052" prot="private" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>__MR_FlowAggregator_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__FlowAggregator_1aeb855991d6f867560650be9ce287988c" prot="private" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>__MR_FlowAggregator_Destroy</name></member>
@@ -656,9 +656,9 @@
       <member refid="classMR_1_1Const__FlowAggregator_1a4179a8e86e6b26b558584461faf6cf5f" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>computeFlow</name></member>
       <member refid="classMR_1_1Const__FlowAggregator_1a890c564a04f2ae65f1bef7c10c3486fe" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>computeFlow</name></member>
       <member refid="classMR_1_1Const__FlowAggregator_1a5050bc8fcc1df630e98e4050ef17f7c5" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>computeFlow</name></member>
-      <member refid="classMR_1_1Const__FlowAggregator_1aa14d913917824917cc86636d3715353e" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
-      <member refid="classMR_1_1Const__FlowAggregator_1a7e10e1c4fdfd6c13f97451b512894b22" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
-      <member refid="classMR_1_1Const__FlowAggregator_1a72148b1c2a00f9f0c6417fc6b7fac027" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1ad9d062b26d0b16bf6cf7cb13eb122a89" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a5539902bb611b9dc87bac587995de200" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1a814578b7a62e7ffce72494a811900dc9" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
       <member refid="classMR_1_1Const__FlowAggregator_1ac27178295fcdf889dacf53be88b29f24" prot="package" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>Const_FlowAggregator</name></member>
       <member refid="classMR_1_1Const__FlowAggregator_1a546e21e371eb42325e3d4963620fbcb2" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>Const_FlowAggregator</name></member>
       <member refid="classMR_1_1Const__FlowAggregator_1ad6b152a881e078f4c1c8fb37f20ba723" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator</scope><name>Const_FlowAggregator</name></member>

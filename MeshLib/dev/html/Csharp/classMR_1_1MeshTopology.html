@@ -200,10 +200,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a42e7fea85e7c738b78b659b88b67f65b"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of faces vector Generated from method <span class="tt"><a class="el" href="#a42e7fea85e7c738b78b659b88b67f65b" title="sets the capacity of faces vector Generated from method MR.MeshTopology.faceReserve.">MR.MeshTopology.faceReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a25e95a43b3bb1714ad2d8576540387e6" id="r_a25e95a43b3bb1714ad2d8576540387e6"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25e95a43b3bb1714ad2d8576540387e6">flipEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e)</td></tr>
 <tr class="memdesc:a25e95a43b3bb1714ad2d8576540387e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">given the edge with left and right triangular faces, which form together a quadrangle, rotates the edge counter-clockwise inside the quadrangle Generated from method <span class="tt"><a class="el" href="#a25e95a43b3bb1714ad2d8576540387e6" title="given the edge with left and right triangular faces, which form together a quadrangle,...">MR.MeshTopology.flipEdge</a></span>.  <br /></td></tr>
-<tr class="memitem:accac8bee9be72acc01f545bfc8ac80dc" id="r_accac8bee9be72acc01f545bfc8ac80dc"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accac8bee9be72acc01f545bfc8ac80dc">splitEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</td></tr>
-<tr class="memdesc:accac8bee9be72acc01f545bfc8ac80dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split)  <br /></td></tr>
-<tr class="memitem:ae265d8dd6027ad38480282b747075ea9" id="r_ae265d8dd6027ad38480282b747075ea9"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1VertId.html">MR.VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae265d8dd6027ad38480282b747075ea9">splitFace</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> f, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</td></tr>
-<tr class="memdesc:ae265d8dd6027ad38480282b747075ea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">split given triangle on three triangles, introducing new vertex (which is returned) inside original triangle and connecting it to its vertices  <br /></td></tr>
+<tr class="memitem:a33454645af914d0d3744b30d52c5157a" id="r_a33454645af914d0d3744b30d52c5157a"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33454645af914d0d3744b30d52c5157a">splitEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId? new2Old=null)</td></tr>
+<tr class="memdesc:a33454645af914d0d3744b30d52c5157a"><td class="mdescLeft">&#160;</td><td class="mdescRight">split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split)  <br /></td></tr>
+<tr class="memitem:a4393549de5b59da6fc57ead0b3bf6b26" id="r_a4393549de5b59da6fc57ead0b3bf6b26"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1VertId.html">MR.VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4393549de5b59da6fc57ead0b3bf6b26">splitFace</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> f, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId? new2Old=null)</td></tr>
+<tr class="memdesc:a4393549de5b59da6fc57ead0b3bf6b26"><td class="mdescLeft">&#160;</td><td class="mdescRight">split given triangle on three triangles, introducing new vertex (which is returned) inside original triangle and connecting it to its vertices  <br /></td></tr>
 <tr class="memitem:aa8f93500c5a7191443286a5d8bddba59" id="r_aa8f93500c5a7191443286a5d8bddba59"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8f93500c5a7191443286a5d8bddba59">flipOrientation</a> (<a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? fullComponents=null)</td></tr>
 <tr class="memdesc:aa8f93500c5a7191443286a5d8bddba59"><td class="mdescLeft">&#160;</td><td class="mdescRight">flip orientation (normals) of  <br /></td></tr>
 <tr class="memitem:ad4bde8ebc39bc224e43fe0913982be6d" id="r_ad4bde8ebc39bc224e43fe0913982be6d"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4bde8ebc39bc224e43fe0913982be6d">addPart</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, bool? rearrangeTriangles=null)</td></tr>
@@ -1630,8 +1630,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="accac8bee9be72acc01f545bfc8ac80dc" name="accac8bee9be72acc01f545bfc8ac80dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accac8bee9be72acc01f545bfc8ac80dc">&#9670;&#160;</a></span>splitEdge()</h2>
+<a id="a33454645af914d0d3744b30d52c5157a" name="a33454645af914d0d3744b30d52c5157a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33454645af914d0d3744b30d52c5157a">&#9670;&#160;</a></span>splitEdge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1652,7 +1652,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1665,15 +1665,15 @@ Additional Inherited Members</h2></td></tr>
 <p>split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split) </p>
 <p>left and right faces of given edge if valid are also subdivided on two parts each; the split edge will keep both face IDs and their degrees, and the new edge will have new face IDs and new faces are triangular; if left or right faces of the original edge were in the region, then include new parts of these faces in the region </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <span class="tt"><a class="el" href="#accac8bee9be72acc01f545bfc8ac80dc" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">MR.MeshTopology.splitEdge</a></span>. </td></tr>
+    <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <span class="tt"><a class="el" href="#a33454645af914d0d3744b30d52c5157a" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">MR.MeshTopology.splitEdge</a></span>. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ae265d8dd6027ad38480282b747075ea9" name="ae265d8dd6027ad38480282b747075ea9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae265d8dd6027ad38480282b747075ea9">&#9670;&#160;</a></span>splitFace()</h2>
+<a id="a4393549de5b59da6fc57ead0b3bf6b26" name="a4393549de5b59da6fc57ead0b3bf6b26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4393549de5b59da6fc57ead0b3bf6b26">&#9670;&#160;</a></span>splitFace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1694,7 +1694,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1707,7 +1707,7 @@ Additional Inherited Members</h2></td></tr>
 <p>split given triangle on three triangles, introducing new vertex (which is returned) inside original triangle and connecting it to its vertices </p>
 <p>if region is given, then it must include (f) and new faces will be added there as well </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <span class="tt"><a class="el" href="#ae265d8dd6027ad38480282b747075ea9" title="split given triangle on three triangles, introducing new vertex (which is returned) inside original t...">MR.MeshTopology.splitFace</a></span>. </td></tr>
+    <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <span class="tt"><a class="el" href="#a4393549de5b59da6fc57ead0b3bf6b26" title="split given triangle on three triangles, introducing new vertex (which is returned) inside original t...">MR.MeshTopology.splitFace</a></span>. </td></tr>
   </table>
   </dd>
 </dl>

@@ -168,10 +168,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26944" bodyend="26947"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1ab441724163b6ff1da64ed3c8f722f3c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a83cc48f5dbf98026e4df26c17c7b9dd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MapOrHashMap_EdgeId_EdgeId.__init__</definition>
-        <argsstring>(self, std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag var)</argsstring>
+        <argsstring>(self, std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag var)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MapOrHashMap_EdgeId_EdgeId.__init__</qualifiedname>
         <param>
@@ -179,7 +179,7 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kindref="compound">std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__Edg99f3e964628d2f39819882b44bbf17a4" kindref="compound">std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag</ref></type>
           <declname>var</declname>
         </param>
         <briefdescription>
@@ -210,9 +210,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26953" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26953" bodyend="26954"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a07c05d8222e3e6e156096bafeb8ce8d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</ref></type>
-        <definition> phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag mrmeshpy.MapOrHashMap_EdgeId_EdgeId.getHashMap</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1abb22430c648a9f02e7499b0986af29e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag__phmap__Hash__Id__EdgeTag__phmf9fb577a2cc1502da5e848adc2093165" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag mrmeshpy.MapOrHashMap_EdgeId_EdgeId.getHashMap</definition>
         <argsstring>(self)</argsstring>
         <name>getHashMap</name>
         <qualifiedname>mrmeshpy.MapOrHashMap_EdgeId_EdgeId.getHashMap</qualifiedname>
@@ -228,9 +228,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26956" bodyend="26957"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a07c05d8222e3e6e156096bafeb8ce8d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</ref></type>
-        <definition> phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag mrmeshpy.MapOrHashMap_EdgeId_EdgeId.getHashMap</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1abb22430c648a9f02e7499b0986af29e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag__phmap__Hash__Id__EdgeTag__phmf9fb577a2cc1502da5e848adc2093165" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag mrmeshpy.MapOrHashMap_EdgeId_EdgeId.getHashMap</definition>
         <argsstring>(self)</argsstring>
         <name>getHashMap</name>
         <qualifiedname>mrmeshpy.MapOrHashMap_EdgeId_EdgeId.getHashMap</qualifiedname>
@@ -340,10 +340,10 @@ if this stores hash map then sets its capacity to size()+hashAdditionalCapacity
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26972" bodyend="26976"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a3efa8cc7ffce0b97a1b771844afa9ae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1ace0bb7ea746d2e54753d7df646a8bf6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MapOrHashMap_EdgeId_EdgeId.setHashMap</definition>
-        <argsstring>(self, phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag m)</argsstring>
+        <argsstring>(self, phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag m)</argsstring>
         <name>setHashMap</name>
         <qualifiedname>mrmeshpy.MapOrHashMap_EdgeId_EdgeId.setHashMap</qualifiedname>
         <param>
@@ -351,7 +351,7 @@ if this stores hash map then sets its capacity to size()+hashAdditionalCapacity
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag__phmap__Hash__Id__EdgeTag__phmf9fb577a2cc1502da5e848adc2093165" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag</ref></type>
           <declname>m</declname>
         </param>
         <briefdescription>
@@ -384,9 +384,9 @@ if this stores hash map then sets its capacity to size()+hashAdditionalCapacity
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26979" bodyend="26980"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1af31e2e9284a069d7ec515daefccfe159" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kindref="compound">std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</ref></type>
-        <definition> std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag mrmeshpy.MapOrHashMap_EdgeId_EdgeId.var</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1aec9a6f1c2707ac4b1710aa5bea5cde71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__Edg99f3e964628d2f39819882b44bbf17a4" kindref="compound">std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag</ref></type>
+        <definition> std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag mrmeshpy.MapOrHashMap_EdgeId_EdgeId.var</definition>
         <argsstring>(self)</argsstring>
         <name>var</name>
         <qualifiedname>mrmeshpy.MapOrHashMap_EdgeId_EdgeId.var</qualifiedname>
@@ -404,10 +404,10 @@ if this stores hash map then sets its capacity to size()+hashAdditionalCapacity
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26982" bodyend="26985"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1ac81127d9cee42d6209f40dc881776eec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a29956a0789f39f935202227da3220fc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MapOrHashMap_EdgeId_EdgeId.var</definition>
-        <argsstring>(self, std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag arg1)</argsstring>
+        <argsstring>(self, std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag arg1)</argsstring>
         <name>var</name>
         <qualifiedname>mrmeshpy.MapOrHashMap_EdgeId_EdgeId.var</qualifiedname>
         <param>
@@ -415,7 +415,7 @@ if this stores hash map then sets its capacity to size()+hashAdditionalCapacity
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kindref="compound">std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__Edg99f3e964628d2f39819882b44bbf17a4" kindref="compound">std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag_phmap_Hash_Id_EdgeTag_phmap_EqualTo_Id_EdgeTag_Allocator_std_pair_Id_EdgeTag_const_Id_EdgeTag</ref></type>
           <declname>arg1</declname>
         </param>
         <briefdescription>
@@ -443,23 +443,23 @@ stores a mapping from keys K to values V in one of two forms:
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a5a0d28f10376ba2b8fc2563226292abb" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a52ab9f7c6082cd14a34f9c06385a6d1e" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a42234cdc25671173318b835526bc9bfb" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1ab441724163b6ff1da64ed3c8f722f3c5" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a83cc48f5dbf98026e4df26c17c7b9dd7" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a8a655a57d8b84861a025d037ac2ae098" prot="protected" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>_offsetof_var</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1aaea0ea852739152d3c0516c53e01a28d" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>clear</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1aaa1862b52d57f010b441033fdb555334" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>createHashMap</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a3c445a801409c5cbe6106d59a8246ed3" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>createMap</name></member>
-      <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a07c05d8222e3e6e156096bafeb8ce8d8" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>getHashMap</name></member>
-      <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a07c05d8222e3e6e156096bafeb8ce8d8" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>getHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1abb22430c648a9f02e7499b0986af29e5" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>getHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1abb22430c648a9f02e7499b0986af29e5" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>getHashMap</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1aa990180c336aede5965a1d458ff5e3e3" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>getMap</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1aa990180c336aede5965a1d458ff5e3e3" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>getMap</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1afe94d9e0390b5c3d7f52a672967817bb" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1afe94d9e0390b5c3d7f52a672967817bb" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1aa139aa0795995498a5ef0616bb832d0d" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>pushBack</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a46fb1894f3ff338d0ddede86e105db0c" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>resizeReserve</name></member>
-      <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a3efa8cc7ffce0b97a1b771844afa9ae6" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>setHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1ace0bb7ea746d2e54753d7df646a8bf6f" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>setHashMap</name></member>
       <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a82287fd2a8cd15c7bdebaabff68563f4" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>setMap</name></member>
-      <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1af31e2e9284a069d7ec515daefccfe159" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>var</name></member>
-      <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1ac81127d9cee42d6209f40dc881776eec" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>var</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1aec9a6f1c2707ac4b1710aa5bea5cde71" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>var</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId_1a29956a0789f39f935202227da3220fc7" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_EdgeId_EdgeId</scope><name>var</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

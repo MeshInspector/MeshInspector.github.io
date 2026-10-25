@@ -39,7 +39,7 @@
         <argsstring></argsstring>
         <name>Blocks</name>
         <qualifiedname>mrmeshpy.BitSet.Blocks</qualifiedname>
-        <initializer>=  <ref refid="classmrmeshpy_1_1std__vector__unsigned__long__mi__stl__allocator__unsigned__long" kindref="compound">std_vector_unsigned_long_mi_stl_allocator_unsigned_long</ref></initializer>
+        <initializer>=  <ref refid="classmrmeshpy_1_1std__vector__unsigned__long__Allocator__unsigned__long" kindref="compound">std_vector_unsigned_long_Allocator_unsigned_long</ref></initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -102,55 +102,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70974" bodyend="70977"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a3c64dedabd9a5f9fab338966869a419f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
-        <definition> BitSet mrmeshpy.BitSet.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.BitSet.operator</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aefba345684d190e2c6acd6fc16693a2f">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aefba345684d190e2c6acd6fc16693a2f">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1ab5da95a8a662cc3623b4f77a2a6063dd">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1ab5da95a8a662cc3623b4f77a2a6063dd">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1aaf07df34c1607d673b0c8270b03b9d72">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1aaf07df34c1607d673b0c8270b03b9d72">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a90ee6054763625140408f132441fec8f">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a90ee6054763625140408f132441fec8f">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ae2fcdc87f5b2e061a1cb0cb49be5cf44">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ae2fcdc87f5b2e061a1cb0cb49be5cf44">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a95cb675ef089058d9d55693f4f8c376a">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a95cb675ef089058d9d55693f4f8c376a">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1add1ab489681f93fe8dae2d51bed7b8ea">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1add1ab489681f93fe8dae2d51bed7b8ea">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1aebb634cf35ae07a51367ad0f5dd5550e">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1aebb634cf35ae07a51367ad0f5dd5550e">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1ab293ad610a97648ec71511daef7510d0">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1ab293ad610a97648ec71511daef7510d0">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a02d19b8c19ad5b3c950e034d1109939c">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a02d19b8c19ad5b3c950e034d1109939c">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1daa34da0a3b3a3ac7590b2ef7288dba">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1daa34da0a3b3a3ac7590b2ef7288dba">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac4b019d722ab7f5fa260f1b681147fae">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac4b019d722ab7f5fa260f1b681147fae">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a533bb6c6331dfa6f7d16a75612ce2ef4">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a533bb6c6331dfa6f7d16a75612ce2ef4">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a25aa23b0670273ff76bdbc50ab77135b">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a25aa23b0670273ff76bdbc50ab77135b">operator</reimplementedby>
+        <definition> BitSet mrmeshpy.BitSet.fromBlocks</definition>
+        <argsstring>(std_vector_unsigned_long_Allocator_unsigned_long blocks)</argsstring>
+        <name>fromBlocks</name>
+        <qualifiedname>mrmeshpy.BitSet.fromBlocks</qualifiedname>
         <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
+          <type><ref refid="classmrmeshpy_1_1std__vector__unsigned__long__Allocator__unsigned__long" kindref="compound">std_vector_unsigned_long_Allocator_unsigned_long</ref></type>
+          <declname>blocks</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><verbatim>creates bitset from the given blocks of bits
+</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70980" bodyend="70981"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70979" bodyend="70982"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -200,7 +170,57 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70984" bodyend="70985"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70985" bodyend="70986"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+        <definition> BitSet mrmeshpy.BitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BitSet.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aefba345684d190e2c6acd6fc16693a2f">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aefba345684d190e2c6acd6fc16693a2f">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1ab5da95a8a662cc3623b4f77a2a6063dd">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1EdgeBitSet_1ab5da95a8a662cc3623b4f77a2a6063dd">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1aaf07df34c1607d673b0c8270b03b9d72">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FaceBitSet_1aaf07df34c1607d673b0c8270b03b9d72">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a90ee6054763625140408f132441fec8f">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GraphEdgeBitSet_1a90ee6054763625140408f132441fec8f">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ae2fcdc87f5b2e061a1cb0cb49be5cf44">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GraphVertBitSet_1ae2fcdc87f5b2e061a1cb0cb49be5cf44">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a95cb675ef089058d9d55693f4f8c376a">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NodeBitSet_1a95cb675ef089058d9d55693f4f8c376a">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1add1ab489681f93fe8dae2d51bed7b8ea">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjBitSet_1add1ab489681f93fe8dae2d51bed7b8ea">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1aebb634cf35ae07a51367ad0f5dd5550e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PixelBitSet_1aebb634cf35ae07a51367ad0f5dd5550e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1ab293ad610a97648ec71511daef7510d0">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RegionBitSet_1ab293ad610a97648ec71511daef7510d0">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a02d19b8c19ad5b3c950e034d1109939c">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TextureBitSet_1a02d19b8c19ad5b3c950e034d1109939c">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1daa34da0a3b3a3ac7590b2ef7288dba">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1daa34da0a3b3a3ac7590b2ef7288dba">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac4b019d722ab7f5fa260f1b681147fae">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac4b019d722ab7f5fa260f1b681147fae">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a533bb6c6331dfa6f7d16a75612ce2ef4">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VertBitSet_1a533bb6c6331dfa6f7d16a75612ce2ef4">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a25aa23b0670273ff76bdbc50ab77135b">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1VoxelBitSet_1a25aa23b0670273ff76bdbc50ab77135b">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70989" bodyend="70990"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -224,7 +244,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70986" bodyend="70987"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70991" bodyend="70992"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1af06e5b8bd598633ae38015e4ef438a97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -248,7 +268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70988" bodyend="70991"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70993" bodyend="70996"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -270,7 +290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70992" bodyend="70993"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70997" bodyend="70998"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a39db448937a80d8ee2b6227341b4108b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -290,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70995" bodyend="70998"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71000" bodyend="71003"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1af2c732bf4be38bf0ad895b491101afb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -319,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71000" bodyend="71003"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71005" bodyend="71008"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a8ce6ced7f4569123c79ba3d86cbb9546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -343,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71005" bodyend="71008"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71010" bodyend="71013"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -365,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71009" bodyend="71010"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71014" bodyend="71015"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -387,7 +407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71011" bodyend="71012"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71016" bodyend="71017"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Iterator[int]</type>
@@ -405,7 +425,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71013" bodyend="71014"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71018" bodyend="71019"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -427,7 +447,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71015" bodyend="71016"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71020" bodyend="71021"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -449,7 +469,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71017" bodyend="71018"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71022" bodyend="71023"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -467,7 +487,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71019" bodyend="71020"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71024" bodyend="71025"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a98282e643a9a65e1c6109bb7e5d7bb0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Any</type>
@@ -489,7 +509,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71021" bodyend="71022"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71026" bodyend="71027"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a180dc7a7e3b1484cbc0655607c27948d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Any</type>
@@ -511,7 +531,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71023" bodyend="71024"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71028" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71028" bodyend="71029"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -533,7 +553,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71025" bodyend="71026"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71030" bodyend="71031"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -555,7 +575,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71027" bodyend="71028"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71032" bodyend="71033"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a7791a54179bcc02c9e8d46ccd467d1df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -575,7 +595,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71029" bodyend="71032"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71034" bodyend="71037"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a72e64427ab6f98e8ffeb422c97588e62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -595,7 +615,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71033" bodyend="71036"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71038" bodyend="71041"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1ab180a8d812e38d6017ae181b145ee402" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -634,7 +654,7 @@ provided no other modification of the bitset (including resizing) is performed i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71037" bodyend="71041"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71042" bodyend="71046"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -695,7 +715,7 @@ provided no other modification of the bitset (including resizing) is performed i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71043" bodyend="71046"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71048" bodyend="71051"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a0416156b4269add8c1fb14d531b3f9e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -750,7 +770,7 @@ provided no other modification of the bitset (including resizing) is performed i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71048" bodyend="71049"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71053" bodyend="71054"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1ad1d43b5793a3dce9511fd445d695aa83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -793,7 +813,7 @@ provided no other modification of the bitset (including resizing) is performed i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71050" bodyend="71053"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71055" bodyend="71058"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a71d144899c501363ec1fc3aa7f745b2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -827,7 +847,27 @@ provided no other modification of the bitset (including resizing) is performed i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71054" bodyend="71057"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71059" bodyend="71062"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a15ad1a1f76c12c3d014a194de63650ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__unsigned__long__Allocator__unsigned__long" kindref="compound">std_vector_unsigned_long_Allocator_unsigned_long</ref></type>
+        <definition> std_vector_unsigned_long_Allocator_unsigned_long mrmeshpy.BitSet.bits</definition>
+        <argsstring>(self)</argsstring>
+        <name>bits</name>
+        <qualifiedname>mrmeshpy.BitSet.bits</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>read-only access to all bits stored as a vector of uint64 blocks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71063" bodyend="71066"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a2335e90bc299cbaa4f87a7e2157f869a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -845,7 +885,7 @@ provided no other modification of the bitset (including resizing) is performed i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71058" bodyend="71059"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71067" bodyend="71068"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a640d1f443a7ea30d50a532de2cdf90b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -863,7 +903,7 @@ provided no other modification of the bitset (including resizing) is performed i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71060" bodyend="71061"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71069" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71069" bodyend="71070"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a4b8a47eb3cd9dc19a7448b1a3b1765e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -883,7 +923,7 @@ provided no other modification of the bitset (including resizing) is performed i
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71062" bodyend="71065"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71071" bodyend="71074"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a46517483fca5921e9b4b1b1abc7e5cac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet_1_1Counts" kindref="compound">BitSet.Counts</ref></type>
@@ -909,7 +949,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71066" bodyend="71070"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71075" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71075" bodyend="71079"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1aab954a31474723788e2aeee311325c15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -927,7 +967,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71071" bodyend="71072"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71080" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71080" bodyend="71081"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a9f71200c981f11d2ec5f7c797de269e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -959,7 +999,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71073" bodyend="71074"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71082" bodyend="71083"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1aac9c41ec6addef5012e587e850a8d006" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -993,7 +1033,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71075" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71075" bodyend="71078"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71084" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71084" bodyend="71087"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a15e32e17fea4f662f8a0f55fd1bcd0b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1027,7 +1067,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71079" bodyend="71082"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71088" bodyend="71091"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a4ab474551b7e0e4e7daab1c8b5eefa77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1061,7 +1101,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71083" bodyend="71086"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71092" bodyend="71095"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1aa50056294318a1e11be2d832bdbd6329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1095,7 +1135,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71087" bodyend="71090"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71096" bodyend="71099"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1acd501b4c783e055396bf0665ead0566f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1133,7 +1173,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71091" bodyend="71094"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71100" bodyend="71103"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1aedde9c4ef90198acb1ddb7874ed1d491" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1171,7 +1211,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71095" bodyend="71098"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71104" bodyend="71107"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -1239,7 +1279,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71100" bodyend="71101"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71109" bodyend="71110"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1aa21f9794df710b7916cb4a61465c926f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -1303,7 +1343,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71103" bodyend="71104"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71112" bodyend="71113"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1aeb59ad7cf15a98df6bbebc30207192ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -1363,7 +1403,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71106" bodyend="71107"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71115" bodyend="71116"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1383,7 +1423,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71108" bodyend="71111"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71117" bodyend="71120"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1ad4b757b117afb3db5c7fca16e82d790a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1421,7 +1461,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71112" bodyend="71115"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71121" bodyend="71124"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a2be8e340e3ee4b2e1fc14c24833d2a99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1459,7 +1499,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71116" bodyend="71119"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71125" bodyend="71128"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1aba96890a6af8d454cea1e755d03af8db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1479,7 +1519,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71120" bodyend="71123"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71129" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71129" bodyend="71132"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1ad25bdd5a49f4648994cef1ae56864c3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1517,7 +1557,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71124" bodyend="71127"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71133" bodyend="71136"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a33fe73fcaf13f4fe52d1fe72379ba764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1535,7 +1575,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71128" bodyend="71129"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71137" bodyend="71138"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a204e188214d1fd66553951c4a6c9888b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1555,7 +1595,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71130" bodyend="71133"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71139" bodyend="71142"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1af016fdece4d1e0fcefadce98dff1b478" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1579,7 +1619,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71134" bodyend="71137"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71143" bodyend="71146"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a289c8f64f552d93f25d60aae2140354a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1601,7 +1641,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71138" bodyend="71139"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71147" bodyend="71148"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -1669,7 +1709,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71141" bodyend="71142"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71150" bodyend="71151"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1ad26de1c874d61f87b11ce29769fd8658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -1733,7 +1773,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71144" bodyend="71145"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71153" bodyend="71154"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a0509d93d19a77846a5c215e3921a072d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -1793,7 +1833,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71147" bodyend="71148"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71156" bodyend="71157"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a9e4c33df165c88226f1105129caa15f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1820,7 +1860,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71149" bodyend="71150"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71158" bodyend="71159"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a8f011a2d79e0769e54a51148de3d2dec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1844,7 +1884,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71151" bodyend="71154"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71160" bodyend="71163"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a6e10a386d264b1d2ac5153c7eda3452e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1864,7 +1904,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71155" bodyend="71158"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71164" bodyend="71167"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -1950,7 +1990,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71160" bodyend="71161"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71169" bodyend="71170"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a8b6af07d3b1b9512fc55f98a04b54661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -2032,7 +2072,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71163" bodyend="71164"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71172" bodyend="71173"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1ae51ee5176b65bf9ea54902fb51e30c58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -2110,7 +2150,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71166" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71166" bodyend="71167"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71175" bodyend="71176"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1ac250fa367c976a310262a1fc3a66b122" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -2184,7 +2224,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71169" bodyend="71170"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71178" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71178" bodyend="71179"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a394f9a9633d44001a7cab69dbd3815e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -2202,7 +2242,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71171" bodyend="71172"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71180" bodyend="71181"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1aae04e046bab014f7e687c1010d5386eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -2220,7 +2260,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71173" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71173" bodyend="71174"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71182" bodyend="71183"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a7435650982cc9c6c561ddf84cccd998d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
@@ -2262,7 +2302,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71175" bodyend="71178"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71184" bodyend="71187"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1afe9b7c78f712014eb7a54b278d4fdc27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2300,7 +2340,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71179" bodyend="71182"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71188" bodyend="71191"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1ad708e93308d23ed9afd87e0f31acfda3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2341,7 +2381,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71183" bodyend="71184"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71192" bodyend="71193"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1aae49ff1ea465f9b7185a328d08806e08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2363,7 +2403,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71185" bodyend="71186"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71194" bodyend="71195"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1BitSet_1a908f2b141bba37ea2f49d8dd1938c711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -2390,7 +2430,7 @@ both numbers are then partial, which makes a size test of a large set cheap
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71187" bodyend="71188"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71196" bodyend="71197"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2493,7 +2533,7 @@ with all bits after size() considered off during testing
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70923" bodyend="71188"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70923" bodyend="71197"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>__and__</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1af06e5b8bd598633ae38015e4ef438a97" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>__eq__</name></member>
@@ -2520,6 +2560,7 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1BitSet_1ad1d43b5793a3dce9511fd445d695aa83" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a71d144899c501363ec1fc3aa7f745b2d" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>backId</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1ae529e168da2a1905ad02819146ae8274" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a15ad1a1f76c12c3d014a194de63650ff" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>bits</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a82ae465b729d7b3cef8c2177d5ee38e6" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>Blocks</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a2335e90bc299cbaa4f87a7e2157f869a" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>capacity</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a640d1f443a7ea30d50a532de2cdf90b4" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>clear</name></member>
@@ -2536,6 +2577,7 @@ with all bits after size() considered off during testing
       <member refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1aa21f9794df710b7916cb4a61465c926f" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>flip</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1aeb59ad7cf15a98df6bbebc30207192ad" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1BitSet_1a3c64dedabd9a5f9fab338966869a419f" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>fromBlocks</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a10adcfbaa8c04e4fbb97920b8a7bd60a" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1ad4b757b117afb3db5c7fca16e82d790a" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>intersects</name></member>
       <member refid="classmrmeshpy_1_1BitSet_1a2be8e340e3ee4b2e1fc14c24833d2a99" prot="public" virt="non-virtual"><scope>mrmeshpy::BitSet</scope><name>is_subset_of</name></member>
