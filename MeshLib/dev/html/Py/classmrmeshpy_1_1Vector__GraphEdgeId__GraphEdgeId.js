@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1_1iterator.html", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#a24af1b110ab0c73e98ee9b29fdfb8fe3", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#aafdbf22b8348db20a83f99d899184fc9", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#a885907dc01b2b1fda1fca9876f2dafcc", null ],

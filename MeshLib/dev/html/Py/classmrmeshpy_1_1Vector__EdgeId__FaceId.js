@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__EdgeId__FaceId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__EdgeId__FaceId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__EdgeId__FaceId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__EdgeId__FaceId_1_1iterator.html", "classmrmeshpy_1_1Vector__EdgeId__FaceId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__EdgeId__FaceId.html#a0b5493acfd510ef3f3fb39962739166b", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__EdgeId__FaceId.html#ad9e25d9fae5094b5ed837e2b4166eb07", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__EdgeId__FaceId.html#a5ac2b6b0de6f6986579b4f2464df156b", null ],

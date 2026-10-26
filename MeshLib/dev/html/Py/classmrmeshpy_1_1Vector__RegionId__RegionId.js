@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__RegionId__RegionId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__RegionId__RegionId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__RegionId__RegionId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__RegionId__RegionId_1_1iterator.html", "classmrmeshpy_1_1Vector__RegionId__RegionId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a9a8212f3975c68c90cda1141a1b8260b", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#aa33588db34b48ed5cc90cadfc263eb4d", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a2a01b06e6867b854f537c71e1ab6c884", null ],

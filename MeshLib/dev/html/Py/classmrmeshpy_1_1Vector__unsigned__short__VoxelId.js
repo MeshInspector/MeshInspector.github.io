@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__unsigned__short__VoxelId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__unsigned__short__VoxelId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__unsigned__short__VoxelId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__unsigned__short__VoxelId_1_1iterator.html", "classmrmeshpy_1_1Vector__unsigned__short__VoxelId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html#a80261613fd73832227c573bf841a2bed", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html#a96ff8a84e85edc9c7f66bd3aba646691", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__unsigned__short__VoxelId.html#a28bd325ec50a558041470a65af12d993", null ],

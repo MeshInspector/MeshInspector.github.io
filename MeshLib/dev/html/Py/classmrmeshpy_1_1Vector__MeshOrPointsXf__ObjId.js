@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId_1_1iterator.html", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a1d8ce87cdec6543cfaea8eedc1168e2f", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#aadedd028bfc33dd3db419e84878dece7", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#ad44115360411780cf7eb916eef804966", null ],

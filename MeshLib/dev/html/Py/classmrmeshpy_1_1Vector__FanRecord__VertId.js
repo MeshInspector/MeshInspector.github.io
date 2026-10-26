@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__FanRecord__VertId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__FanRecord__VertId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__FanRecord__VertId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__FanRecord__VertId_1_1iterator.html", "classmrmeshpy_1_1Vector__FanRecord__VertId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#a8472295a43ede599d6b9498a6313f0fd", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#a651a8982c53454edebb33f9cb78bd819", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#aa7cfcf43cff83ffa5ebc8605675cd056", null ],

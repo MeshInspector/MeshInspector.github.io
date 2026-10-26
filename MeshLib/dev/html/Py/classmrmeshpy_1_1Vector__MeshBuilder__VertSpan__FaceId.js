@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1_1iterator.html", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#a821a721577f5e719acaef5e363643297", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#a80491e2ed627e56d251a4013b4a97dd6", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#ad93a6b6c09f0421dd3548caa69f46f36", null ],

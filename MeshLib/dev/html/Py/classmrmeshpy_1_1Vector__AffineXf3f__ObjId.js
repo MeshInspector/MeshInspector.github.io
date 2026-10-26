@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__AffineXf3f__ObjId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1_1iterator.html", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#ae966452ea554cf63703fdd4d9c5a60e6", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a867d554190ce1d6f4ecd163b0bc2cb80", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#acbd81e09b77c1802576b09f5bf2f5103", null ],

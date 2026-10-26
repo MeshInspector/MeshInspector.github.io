@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__PixelId__PixelId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__PixelId__PixelId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__PixelId__PixelId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__PixelId__PixelId_1_1iterator.html", "classmrmeshpy_1_1Vector__PixelId__PixelId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#aee0c9f92825eeb3eb32e543a9e12dd6b", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a324d62fd54e883a10279d122827f9394", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a3310d2e2349acf69ef2e92e0921a6e63", null ],

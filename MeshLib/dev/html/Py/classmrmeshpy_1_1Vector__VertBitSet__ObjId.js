@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__VertBitSet__ObjId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__VertBitSet__ObjId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__VertBitSet__ObjId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__VertBitSet__ObjId_1_1iterator.html", "classmrmeshpy_1_1Vector__VertBitSet__ObjId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ab8ecee6a626133724a216b5a4faf047e", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ac9489021180a7351b08b2ed84f08e556", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a8158db1dd1978bc14f73d798827ecc2d", null ],

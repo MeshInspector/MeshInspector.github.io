@@ -1,4 +1,0 @@
-var classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1_1__InOptMut__Iterator =
-[
-    [ "Opt", "classMR_1_1Const__Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1_1__InOptMut__Iterator.html#a9619523ba81a50ab8a88fc8b0cd2d8b0", null ]
-];

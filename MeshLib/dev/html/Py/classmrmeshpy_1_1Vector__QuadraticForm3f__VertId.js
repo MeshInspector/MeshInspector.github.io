@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__QuadraticForm3f__VertId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1_1iterator.html", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a28f13bfc963c6ead49bd7fdcdc2a71f6", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a846560f9db0ae3969b95068be89b8c10", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html#a83681333e9802fbfa3fc5f8ab4a84532", null ],

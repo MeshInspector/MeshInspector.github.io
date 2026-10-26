@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1_1iterator.html", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a9aa8dd1ef374dcf60473102ca8e755c7", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a538b08771f19903b4f83b4e654aa0116", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a34a34513d9c87d941d72364a6b2f27ac", null ],

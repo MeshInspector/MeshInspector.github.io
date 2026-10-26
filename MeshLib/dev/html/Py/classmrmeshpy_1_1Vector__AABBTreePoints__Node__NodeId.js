@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId_1_1iterator.html", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#addf9a6a6d99b2eef9a1a30a613839c29", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a0639c00196a7f6b2a474dd5889e6f0d1", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a9a3279455eb4968c92a802a7ba842d04", null ],

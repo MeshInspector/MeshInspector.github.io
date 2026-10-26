@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1_1iterator.html", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#ad3187714ce3e4e88f9a62d2449ee8cf8", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a2d5ea73f05f21903196c641a7946fb2c", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#ab0ed9ac29eed6faeea1d380ae0afd118", null ],

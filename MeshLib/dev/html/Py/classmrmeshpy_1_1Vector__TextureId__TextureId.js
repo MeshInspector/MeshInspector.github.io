@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__TextureId__TextureId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__TextureId__TextureId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__TextureId__TextureId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__TextureId__TextureId_1_1iterator.html", "classmrmeshpy_1_1Vector__TextureId__TextureId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a7e1de1b20aaa1ed5426f72a5fe203c6e", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#aa158bd506562b3569f1b806e39049a6d", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a6a87c1b196dbf84b2c3b68b96611a9b1", null ],

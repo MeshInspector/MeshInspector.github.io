@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1_1iterator.html", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#aa8b9ba3ae514060ce829e89ba11fe8f4", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#ae7aabddef58c7f16ea76fe0b99784e6e", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a8a5887a2dd9211e31687e9ed55432fae", null ],

@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__std__array__float__33__VertId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__std__array__float__33__VertId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__std__array__float__33__VertId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__std__array__float__33__VertId_1_1iterator.html", "classmrmeshpy_1_1Vector__std__array__float__33__VertId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__array__float__33__VertId.html#a1a7930f5eab0c59e5b9bb41b695ee6a7", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__array__float__33__VertId.html#a2772e6751d55e0ef30fad7e63fd24ee0", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__array__float__33__VertId.html#a3aa6bf37f9f930bc46fa8218cf32fd39", null ],

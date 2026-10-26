@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1_1const__iterator.html", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1_1iterator.html", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#ac43ef38f22973354f8c918e7cb5dddfd", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#add1f2bb42ab3e31e65883357f2940c1a", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#aa747abdb705880e371b78670832b3d3d", null ],

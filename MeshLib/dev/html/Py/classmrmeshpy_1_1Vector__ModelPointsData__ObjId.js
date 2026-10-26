@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__ModelPointsData__ObjId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId_1_1iterator.html", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#ace9f282ddfe5adc864fe87ddc8a85f0c", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#aa1aedf8eb2ad1b83fab00e4bf794975c", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a4de8afdf455b25f825d775504a8600cf", null ],

@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId_1_1iterator.html", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#aafccbaf95469536e7c6780ddd554d5df", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a95c6c920e327593eb936862638c9719a", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a98efd3538b44b1580c83fef3e881ee9d", null ],

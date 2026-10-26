@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId_1_1iterator.html", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#aa030f47741a15fff539f303ef22025dd", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#ac7859bf5fb5609f5c40370e1a09a2f14", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#ae1df83e5d76929563783a23f02895f4c", null ],

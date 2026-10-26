@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId_1_1iterator.html", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#a11f2a5a0c7b2144cbb7cfe8df0cb83e2", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#aaffbd1f0749b79ae5737bd079f64bb5d", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#a7b8c87b26d3b96b56ff0447ee1091e6e", null ],

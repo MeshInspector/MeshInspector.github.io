@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__GraphVertId__GraphVertId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId_1_1iterator.html", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a939693f78e35fe6bd06d85ba6716c0c1", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a7ad4fa1d23e30d408a8c15a83f938808", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#af10e9644cdbf087a1bd3089e2ce6ecfa", null ],

@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__int__UndirectedEdgeId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__int__UndirectedEdgeId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__int__UndirectedEdgeId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__int__UndirectedEdgeId_1_1iterator.html", "classmrmeshpy_1_1Vector__int__UndirectedEdgeId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#aff635ef60cc90dcb5bc034843e97b094", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a272f40363ac3817306734f0529efdcc7", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__UndirectedEdgeId.html#a4c41c561700671d0c659509811d5f78b", null ],

@@ -1,7 +1,5 @@
 var classmrmeshpy_1_1Vector__Vector3i__VertId =
 [
-    [ "const_iterator", "classmrmeshpy_1_1Vector__Vector3i__VertId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__Vector3i__VertId_1_1const__iterator" ],
-    [ "iterator", "classmrmeshpy_1_1Vector__Vector3i__VertId_1_1iterator.html", "classmrmeshpy_1_1Vector__Vector3i__VertId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__Vector3i__VertId.html#af449ad41baf050c4fc8571cbf71ee660", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Vector3i__VertId.html#a60e44f5c855e4e30787b641fbc0fcff8", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Vector3i__VertId.html#a88642aa3e720567f11ead23a8dd6c92a", null ],
