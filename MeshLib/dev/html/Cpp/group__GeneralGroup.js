@@ -1156,15 +1156,10 @@ var group__GeneralGroup =
         [ "Left", "group__GeneralGroup.html#ggaeff0ac5efee98dc8fae00a68075ed50fa945d5e233cf7d6240f6b783b36a374ff", null ],
         [ "Right", "group__GeneralGroup.html#ggaeff0ac5efee98dc8fae00a68075ed50fa92b09c7c48c520c3c55e497875da437c", null ]
       ] ],
-      [ "ForceFill", "group__GeneralGroup.html#gae51d141aa40e0f91506f4921b6797a33", [
-        [ "None", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754", null ],
-        [ "Good", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc", null ],
-        [ "All", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
-      ] ],
       [ "Both", "group__GeneralGroup.html#ga50cdc033923c50b23668a35a7b9e0e27", null ],
+      [ "forceFill", "group__GeneralGroup.html#ga6817b50942001ad73fd35fda345bcaf3", null ],
       [ "new2oldEdgesMap", "group__GeneralGroup.html#gae4b1e4cc599311ec4eaa5e0d7f90518b", null ],
       [ "new2OldMap", "group__GeneralGroup.html#ga75222f670fe00aaef7a945b8ccbb3ea9", null ],
-      [ "None", "group__GeneralGroup.html#ga4c3c99dc26d25d555e9ebf6c6dfc5cbf", null ],
       [ "sortData", "group__GeneralGroup.html#ga3aaef62dde9c7e4727195071089e409f", null ]
     ] ],
     [ "MR::CutMeshResult", "structMR_1_1CutMeshResult.html", [
@@ -9883,11 +9878,6 @@ var group__GeneralGroup =
       [ "MR::RibbonFontManager::FontType::Monospace", "group__GeneralGroup.html#ggaba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384", null ],
       [ "MR::RibbonFontManager::FontType::Count", "group__GeneralGroup.html#ggaba42ec493818f2de36d60f069b34cee4ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "MR::CutMeshParameters::ForceFill", "group__GeneralGroup.html#gae51d141aa40e0f91506f4921b6797a33", [
-      [ "MR::CutMeshParameters::ForceFill::None", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754", null ],
-      [ "MR::CutMeshParameters::ForceFill::Good", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc", null ],
-      [ "MR::CutMeshParameters::ForceFill::All", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
-    ] ],
     [ "MR::GeodesicPathApprox", "group__GeneralGroup.html#ga0d52c069a53aab9d22c0f2c4e3f262a2", [
       [ "MR::GeodesicPathApprox::DijkstraBiDir", "group__GeneralGroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2a688de737bb8774938c023e0f0a373184", null ],
       [ "MR::GeodesicPathApprox::DijkstraAStar", "group__GeneralGroup.html#gga0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d", null ],
@@ -17514,6 +17504,7 @@ var group__GeneralGroup =
     [ "MR::RelaxParams::force", "group__GeneralGroup.html#ga7f58a3b0b7e5c09209f53edd90b4371a", null ],
     [ "MR::FontLoadSettings::forceBold", "group__GeneralGroup.html#gacfdb5b481c5283f372c44f834757b47c", null ],
     [ "MR::UniteManyMeshesParams::forceCut", "group__GeneralGroup.html#gac647b8fce386278e1b3407f1b5f314e5", null ],
+    [ "MR::CutMeshParameters::forceFill", "group__GeneralGroup.html#ga6817b50942001ad73fd35fda345bcaf3", null ],
     [ "MR::DrawButtonParams::forceHovered", "group__GeneralGroup.html#gae484e8e2139ec5d170493607d8987a20", null ],
     [ "MR::UI::ButtonCustomizationParams::forceImGuiBackground", "group__GeneralGroup.html#gaa156c6a89d078c902ee22cbfb09bfc42", null ],
     [ "MR::UI::SeparatorParams::forceImGuiSpacing", "group__GeneralGroup.html#ga9b20fca071888883ff3bf93187e13e24", null ],
@@ -18012,7 +18003,6 @@ var group__GeneralGroup =
     [ "MR::Vector3::noexcept", "group__GeneralGroup.html#ga46afea730f507bed70954bbdb3457eb8", null ],
     [ "MR::noInit", "group__GeneralGroup.html#gaaa8f63a4fb4dcabf0f8f1dc79cdeee90", null ],
     [ "MR::LaunchParams::noMSAA", "group__GeneralGroup.html#ga3d73570ea540b87c4e76c06675506b76", null ],
-    [ "MR::CutMeshParameters::None", "group__GeneralGroup.html#ga4c3c99dc26d25d555e9ebf6c6dfc5cbf", null ],
     [ "MR::ObjectVoxels::VolumeRenderingParams::None", "group__GeneralGroup.html#ga4d3b64c3be4b9df2a9728e5a097c8ad9", null ],
     [ "MR::FeatureObjectProjectPointResult::normal", "group__GeneralGroup.html#ga3d380768a51a070f1546207b51956121", null ],
     [ "MR::Features::Primitives::Plane::normal", "group__GeneralGroup.html#gaaef9e3698f1254ac0f28afb12046695d", null ],

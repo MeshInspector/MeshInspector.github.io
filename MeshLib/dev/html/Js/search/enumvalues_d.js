@@ -1,8 +1,12 @@
 var searchData=
 [
-  ['relax_0',['Relax',['../bindings_8d_8mts.html#a4d26d0aad1f3f52c1561995b518db0aaaad005dc0def4b7d034a8aa92ff0d1f4f',1,'bindings.d.mts']]],
-  ['remesh_1',['Remesh',['../bindings_8d_8mts.html#a12672cba35195cdbec04fff4793f7163a1a2060aff8585b4c61d8d4ddd9fa42fd',1,'bindings.d.mts']]],
-  ['remeshpatch_2',['RemeshPatch',['../bindings_8d_8mts.html#a12672cba35195cdbec04fff4793f7163ae3260c46db3e5aa15846720aeaaff6c7',1,'bindings.d.mts']]],
-  ['right_3',['Right',['../bindings_8d_8mts.html#acdfb41a58613cf78584806af888f61c9ad48f7af8c070184f3774c8e85854eb66',1,'bindings.d.mts']]],
-  ['rigidscale_4',['RigidScale',['../bindings_8d_8mts.html#ab0f27a69f0b8e996a72bc43cc628e17eabdfebf53ef4bb49e3de0382f526e8d52',1,'bindings.d.mts']]]
+  ['sequential_0',['Sequential',['../bindings_8d_8mts.html#a70f6b13a312f3117a59433bec8606bf0a3e43c0262698131c52c4f95dbd7f6709',1,'bindings.d.mts']]],
+  ['sharpening_1',['Sharpening',['../bindings_8d_8mts.html#ab19215d002460d80909bd2c8969ecf2ea4b6dd00f852bbdac10ce0b46878b6d31',1,'bindings.d.mts']]],
+  ['shortestedgefirst_2',['ShortestEdgeFirst',['../bindings_8d_8mts.html#aae3b7ed557d4233548d7966f0951e8fba7dd8eb61d5d609641c4916ad48bd3726',1,'bindings.d.mts']]],
+  ['signed_3',['Signed',['../bindings_8d_8mts.html#ad995f406d908cf33a64c3a0da079f906aed3fa7a5efe80dad3ea3d86cc14be246',1,'bindings.d.mts']]],
+  ['simple_4',['Simple',['../bindings_8d_8mts.html#affcedbbb6a1acf807f0cfc008c6dbe11aebfbf7dc5cde0772efb1aa49712bd76b',1,'bindings.d.mts']]],
+  ['smooth_5',['Smooth',['../bindings_8d_8mts.html#ab19215d002460d80909bd2c8969ecf2ea8aa42253b5443483de12bea695191eab',1,'bindings.d.mts']]],
+  ['standard_6',['Standard',['../bindings_8d_8mts.html#ab19215d002460d80909bd2c8969ecf2ea57f9bf199e30a749a03be1dac2f5f624',1,'bindings.d.mts']]],
+  ['stopmsdreached_7',['StopMsdReached',['../bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85a79e353e61e161adcd8a46b6e4849e954',1,'bindings.d.mts']]],
+  ['strong_8',['Strong',['../bindings_8d_8mts.html#affcedbbb6a1acf807f0cfc008c6dbe11a628442936d0c47e692857732a6f040ff',1,'bindings.d.mts']]]
 ];

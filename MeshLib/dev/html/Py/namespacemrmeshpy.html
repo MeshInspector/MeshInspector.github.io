@@ -10838,7 +10838,8 @@ a contour inside one face is connected with the rest of the face by new edges
 \\param params Parameters describing some cut options, find more \\ref MR::CutMeshParameters
 \\return New edges that correspond to given contours, find more \\ref MR::CutMeshResult
 \\parblock
-\\warning Input contours should have no intersections, faces where contours intersects (`bad faces`) will not be allowed for fill
+\\warning Input contours should have no intersections, faces where contours intersects (`bad faces`) will not be allowed for fill,
+unless \\ref CutMeshParameters::forceFill is set
 \\endparblock
 \\parblock
 \\warning Every two consecutive intersections of a contour should lie in one face, and a contour should not fold back

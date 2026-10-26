@@ -257,10 +257,6 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#acdfb41a58613cf78584806af888f61c9a9d4d8b0b72fc2659da772d761a3c5ecb">Left</a>
 , <a class="el" href="#acdfb41a58613cf78584806af888f61c9ad48f7af8c070184f3774c8e85854eb66">Right</a>
  }</td></tr>
-<tr class="memitem:a75f068e980a90347613fde4449884ee4" id="r_a75f068e980a90347613fde4449884ee4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75f068e980a90347613fde4449884ee4">ForceFill</a> { <a class="el" href="#affcedbbb6a1acf807f0cfc008c6dbe11ac7485dcc8d256a6f197ed7802687f252">None</a>
-, <a class="el" href="#a75f068e980a90347613fde4449884ee4aa9e10f610083e262e7aa4004c9b68fe9">Good</a>
-, <a class="el" href="#a75f068e980a90347613fde4449884ee4a54991d225c58ce0af43461d4e9a82312">All</a>
- }</td></tr>
 <tr class="memitem:aba1c5a62af20fbd8e3a9c770bf64b695" id="r_aba1c5a62af20fbd8e3a9c770bf64b695"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba1c5a62af20fbd8e3a9c770bf64b695">EdgeWeights</a> { <a class="el" href="#a82166a6381ef88adc0a9ccac4000cc6babceb2331ad056e3c5ad27894199a49ed">Unit</a>
 , <a class="el" href="#aba1c5a62af20fbd8e3a9c770bf64b695a54e56a6c3afeffc72d10f48bc3a69bb9">Cotan</a>
  }</td></tr>
@@ -332,7 +328,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#ad1b68ac93afc03c8e0d5aae50bf2fa55ac70643a827f9368cbea9120720ba4e2d">AABBTree</a>
  }</td></tr>
 <tr class="memdesc:ad1b68ac93afc03c8e0d5aae50bf2fa55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines how decimation finds the parts of the mesh for parallel processing (<a class="el" href="classDecimateSettings.html#af6b0a7e07c35f8a3d11122338c6df4d8">DecimateSettings::subdivideParts</a> &gt; 1)  <a href="#ad1b68ac93afc03c8e0d5aae50bf2fa55">More...</a><br /></td></tr>
-<tr class="memitem:affcedbbb6a1acf807f0cfc008c6dbe11" id="r_affcedbbb6a1acf807f0cfc008c6dbe11"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affcedbbb6a1acf807f0cfc008c6dbe11">MultipleEdgesResolveMode</a> { <a class="el" href="#affcedbbb6a1acf807f0cfc008c6dbe11ac7485dcc8d256a6f197ed7802687f252">None</a>
+<tr class="memitem:affcedbbb6a1acf807f0cfc008c6dbe11" id="r_affcedbbb6a1acf807f0cfc008c6dbe11"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affcedbbb6a1acf807f0cfc008c6dbe11">MultipleEdgesResolveMode</a> { <a class="el" href="#affcedbbb6a1acf807f0cfc008c6dbe11ac9d3e887722f2bc482bcca9d41c512af">None</a>
 , <a class="el" href="#affcedbbb6a1acf807f0cfc008c6dbe11aebfbf7dc5cde0772efb1aa49712bd76b">Simple</a>
 , <a class="el" href="#affcedbbb6a1acf807f0cfc008c6dbe11a628442936d0c47e692857732a6f040ff">Strong</a>
  }</td></tr>
@@ -676,27 +672,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a75f068e980a90347613fde4449884ee4" name="a75f068e980a90347613fde4449884ee4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75f068e980a90347613fde4449884ee4">&#9670;&#160;</a></span>ForceFill</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#a75f068e980a90347613fde4449884ee4">ForceFill</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>This enum defines the MR::cutMesh behaviour in case of bad faces acure basicaly MR::cutMesh removes all faces which contours pass through, adds new edges to topology and fills all removed parts</p>
-<dl class="section note"><dt>Note</dt><dd>Bad faces here mean faces where contours have intersections and cannot be cut and filled in an good way </dd></dl>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="affcedbbb6a1acf807f0cfc008c6dbe11ac7485dcc8d256a6f197ed7802687f252" name="affcedbbb6a1acf807f0cfc008c6dbe11ac7485dcc8d256a6f197ed7802687f252"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a75f068e980a90347613fde4449884ee4aa9e10f610083e262e7aa4004c9b68fe9" name="a75f068e980a90347613fde4449884ee4aa9e10f610083e262e7aa4004c9b68fe9"></a>Good&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a75f068e980a90347613fde4449884ee4a54991d225c58ce0af43461d4e9a82312" name="a75f068e980a90347613fde4449884ee4a54991d225c58ce0af43461d4e9a82312"></a>All&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <a id="afb516a595abdc79d3a2a2caaf85eeb85" name="afb516a595abdc79d3a2a2caaf85eeb85"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afb516a595abdc79d3a2a2caaf85eeb85">&#9670;&#160;</a></span>ICPExitType</h2>
 
@@ -838,7 +813,7 @@ Functions</h2></td></tr>
 <p>If Simple avoid creating edges that already exist in topology (default)</p>
 <p>If None do not avoid multiple edges </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="affcedbbb6a1acf807f0cfc008c6dbe11ac7485dcc8d256a6f197ed7802687f252" name="affcedbbb6a1acf807f0cfc008c6dbe11ac7485dcc8d256a6f197ed7802687f252"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="affcedbbb6a1acf807f0cfc008c6dbe11ac9d3e887722f2bc482bcca9d41c512af" name="affcedbbb6a1acf807f0cfc008c6dbe11ac9d3e887722f2bc482bcca9d41c512af"></a>None&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="affcedbbb6a1acf807f0cfc008c6dbe11aebfbf7dc5cde0772efb1aa49712bd76b" name="affcedbbb6a1acf807f0cfc008c6dbe11aebfbf7dc5cde0772efb1aa49712bd76b"></a>Simple&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="affcedbbb6a1acf807f0cfc008c6dbe11a628442936d0c47e692857732a6f040ff" name="affcedbbb6a1acf807f0cfc008c6dbe11a628442936d0c47e692857732a6f040ff"></a>Strong&#160;</td><td class="fielddoc"></td></tr>
 </table>
@@ -1146,7 +1121,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>New edges that correspond to given contours, find more MR::CutMeshResult</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>Input contours should have no intersections, faces where contours intersects (<span class="tt">bad faces</span>) will not be allowed for fill</dd>
+<dl class="section warning"><dt>Warning</dt><dd>Input contours should have no intersections, faces where contours intersects (<span class="tt">bad faces</span>) will not be allowed for fill, unless <a class="el" href="classCutMeshParameters.html#a05f66366a5b5e888c52d83b5657a635d">CutMeshParameters::forceFill</a> is set</dd>
 <dd>
 Every two consecutive intersections of a contour should lie in one face, and a contour should not fold back at a point inside an edge: a mesh vertex next to such a point is the third vertex of the face the contour goes in there</dd>
 <dd>

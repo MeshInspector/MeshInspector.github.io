@@ -1,9 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"structMR_1_1UnitInfo.html":[9,0,0,20,541],
-"structMR_1_1UnitToStringParams.html":[9,0,0,20,786],
-"structMR_1_1UniteManyMeshesParams.html":[9,0,0,20,539],
-"structMR_1_1UniteMeshNormalizationParams.html":[9,0,0,20,540],
 "structMR_1_1UnorientedTriangle.html":[9,0,0,20,542],
 "structMR_1_1VacantElements.html":[9,0,0,20,383],
 "structMR_1_1VarEdgeTri.html":[9,0,0,1,18],

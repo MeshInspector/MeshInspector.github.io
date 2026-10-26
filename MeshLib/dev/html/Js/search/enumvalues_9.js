@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['maxbaditerations_0',['MaxBadIterations',['../bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85a1d7f0f88a692b1365f8b567f2d1bd79c',1,'bindings.d.mts']]],
-  ['maxiterations_1',['MaxIterations',['../bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85a20b37b2e9272fbed6fdb605a6804d024',1,'bindings.d.mts']]],
-  ['minimizeerror_2',['MinimizeError',['../bindings_8d_8mts.html#aae3b7ed557d4233548d7966f0951e8fbac9f66cbc4953783cde6144ea9e4ea7fd',1,'bindings.d.mts']]]
+  ['neiarea_0',['NeiArea',['../bindings_8d_8mts.html#a82166a6381ef88adc0a9ccac4000cc6ba389113d0dc77950d2d113c5ed2dbcf4f',1,'bindings.d.mts']]],
+  ['no_1',['No',['../bindings_8d_8mts.html#a198510bc1edecbf93db27fbe2888edbca996e257033c09daf66076efc1ebd3b1c',1,'bindings.d.mts']]],
+  ['none_2',['None',['../bindings_8d_8mts.html#affcedbbb6a1acf807f0cfc008c6dbe11ac9d3e887722f2bc482bcca9d41c512af',1,'bindings.d.mts']]],
+  ['notcolliding_3',['NotColliding',['../bindings_8d_8mts.html#aa4729d84ec574bd0d049d1b98ddd2ad9ab059cc10b1d06bf23387914ec62bb11b',1,'bindings.d.mts']]],
+  ['notfoundsolution_4',['NotFoundSolution',['../bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85a39ed0a53dd7da3e263cdb085b98330e9',1,'bindings.d.mts']]],
+  ['notstarted_5',['NotStarted',['../bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85a4f19a59941d30ed46801ad82c37d19ba',1,'bindings.d.mts']]]
 ];

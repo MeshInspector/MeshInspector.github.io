@@ -140,6 +140,7 @@ $(function(){initNavTree('MRContoursCut_8h.html','',''); });
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRContoursCut_8h_source.html">Go to the source code of this file.</a></p>
@@ -156,7 +157,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a071da9f0f67109f51758510529ba0b5b" id="r_a071da9f0f67109f51758510529ba0b5b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a071da9f0f67109f51758510529ba0b5b">MR_std_vector_MR_OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a071da9f0f67109f51758510529ba0b5b">MR_std_vector_MR_OneMeshContour</a></td></tr>
 <tr class="memitem:a69fca42fce5993f181e99f89af5fa322" id="r_a69fca42fce5993f181e99f89af5fa322"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a69fca42fce5993f181e99f89af5fa322">MR_NewEdgesMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69fca42fce5993f181e99f89af5fa322">MR_NewEdgesMap</a></td></tr>
 <tr class="memitem:a47dc3da15e34c5b8f2432f3754bcf97b" id="r_a47dc3da15e34c5b8f2432f3754bcf97b"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aedd7f25b94f39126435697d2684b1443">MR_CutMeshParameters_FillPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47dc3da15e34c5b8f2432f3754bcf97b">MR_CutMeshParameters_FillPart</a></td></tr>
-<tr class="memitem:a01cedbb1ea06f084ed786c8fea1df019" id="r_a01cedbb1ea06f084ed786c8fea1df019"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ad88711e195698407258d2d46c2a03394">MR_CutMeshParameters_ForceFill</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01cedbb1ea06f084ed786c8fea1df019">MR_CutMeshParameters_ForceFill</a></td></tr>
 <tr class="memitem:a646e06afd435d75b5a8c8d01602aa5eb" id="r_a646e06afd435d75b5a8c8d01602aa5eb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a></td></tr>
 <tr class="memitem:a1ef5cd763a69b557722dd0e3f63df036" id="r_a1ef5cd763a69b557722dd0e3f63df036"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a></td></tr>
 <tr class="memitem:a4b06ea63ec08a6f2c1a5cf99b29cc3ff" id="r_a4b06ea63ec08a6f2c1a5cf99b29cc3ff"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a></td></tr>
@@ -166,10 +166,6 @@ Enumerations</h2></td></tr>
 <tr class="memitem:aedd7f25b94f39126435697d2684b1443" id="r_aedd7f25b94f39126435697d2684b1443"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedd7f25b94f39126435697d2684b1443">MR_CutMeshParameters_FillPart</a> { <a class="el" href="#aedd7f25b94f39126435697d2684b1443a100d2d7ae838115a3cb9eece282c6c40">MR_CutMeshParameters_FillPart_Both</a> = 0
 , <a class="el" href="#aedd7f25b94f39126435697d2684b1443aeac434137387dd8ead0b9d238eb5b514">MR_CutMeshParameters_FillPart_Left</a> = 1
 , <a class="el" href="#aedd7f25b94f39126435697d2684b1443a3f28f83b79de34d3eb0be69f6f2a8404">MR_CutMeshParameters_FillPart_Right</a> = 2
- }</td></tr>
-<tr class="memitem:ad88711e195698407258d2d46c2a03394" id="r_ad88711e195698407258d2d46c2a03394"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad88711e195698407258d2d46c2a03394">MR_CutMeshParameters_ForceFill</a> { <a class="el" href="#ad88711e195698407258d2d46c2a03394afa6fde0595c530e4d65c99b2297f1de9">MR_CutMeshParameters_ForceFill_None</a> = 0
-, <a class="el" href="#ad88711e195698407258d2d46c2a03394ab034421e29b0df398b20c55cf22e0a2b">MR_CutMeshParameters_ForceFill_Good</a> = 1
-, <a class="el" href="#ad88711e195698407258d2d46c2a03394a75d3acb4c28b6624872c1f30ef2aa1f9">MR_CutMeshParameters_ForceFill_All</a> = 2
  }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
@@ -200,15 +196,15 @@ Functions</h2></td></tr>
 <tr class="memitem:adeae1beee5c5a6387e5be4a29d2664b0" id="r_adeae1beee5c5a6387e5be4a29d2664b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aedd7f25b94f39126435697d2684b1443">MR_CutMeshParameters_FillPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeae1beee5c5a6387e5be4a29d2664b0">MR_CutMeshParameters_Get_fillPart</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
 <tr class="memitem:a92e1333f919dcdfbf71c373e3f157c12" id="r_a92e1333f919dcdfbf71c373e3f157c12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92e1333f919dcdfbf71c373e3f157c12">MR_CutMeshParameters_Set_fillPart</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this, <a class="el" href="#aedd7f25b94f39126435697d2684b1443">MR_CutMeshParameters_FillPart</a> value)</td></tr>
 <tr class="memitem:a7607f4826e1f344285af4d69cab57baa" id="r_a7607f4826e1f344285af4d69cab57baa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aedd7f25b94f39126435697d2684b1443">MR_CutMeshParameters_FillPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7607f4826e1f344285af4d69cab57baa">MR_CutMeshParameters_GetMutable_fillPart</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
-<tr class="memitem:a84e8ca262d5fa647b0c0f2258d14840b" id="r_a84e8ca262d5fa647b0c0f2258d14840b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ad88711e195698407258d2d46c2a03394">MR_CutMeshParameters_ForceFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84e8ca262d5fa647b0c0f2258d14840b">MR_CutMeshParameters_Get_forceFillMode</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
-<tr class="memitem:ad4d83d85df3deae9d86a31df8fde85a7" id="r_ad4d83d85df3deae9d86a31df8fde85a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4d83d85df3deae9d86a31df8fde85a7">MR_CutMeshParameters_Set_forceFillMode</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this, <a class="el" href="#ad88711e195698407258d2d46c2a03394">MR_CutMeshParameters_ForceFill</a> value)</td></tr>
-<tr class="memitem:adb3266a5dec2567607979d561c7ea076" id="r_adb3266a5dec2567607979d561c7ea076"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad88711e195698407258d2d46c2a03394">MR_CutMeshParameters_ForceFill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb3266a5dec2567607979d561c7ea076">MR_CutMeshParameters_GetMutable_forceFillMode</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:ab8e199f992ad12c7d993026f995601b3" id="r_ab8e199f992ad12c7d993026f995601b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8e199f992ad12c7d993026f995601b3">MR_CutMeshParameters_Get_forceFill</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:a0c837a7755668ea66e96c3850f73a97c" id="r_a0c837a7755668ea66e96c3850f73a97c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c837a7755668ea66e96c3850f73a97c">MR_CutMeshParameters_Set_forceFill</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this, bool value)</td></tr>
+<tr class="memitem:ad76df8282f0ae9cea2756df73f6f3ffd" id="r_ad76df8282f0ae9cea2756df73f6f3ffd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad76df8282f0ae9cea2756df73f6f3ffd">MR_CutMeshParameters_GetMutable_forceFill</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
 <tr class="memitem:a3324d1131b125816c5b91496d42782c3" id="r_a3324d1131b125816c5b91496d42782c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a69fca42fce5993f181e99f89af5fa322">MR_NewEdgesMap</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3324d1131b125816c5b91496d42782c3">MR_CutMeshParameters_Get_new2oldEdgesMap</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
 <tr class="memitem:a86037f5aeae4b25cd203be86f60300fb" id="r_a86037f5aeae4b25cd203be86f60300fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86037f5aeae4b25cd203be86f60300fb">MR_CutMeshParameters_Set_new2oldEdgesMap</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this, <a class="el" href="#a69fca42fce5993f181e99f89af5fa322">MR_NewEdgesMap</a> *value)</td></tr>
 <tr class="memitem:a276430846cddbf81c1f12cdaf9a867ee" id="r_a276430846cddbf81c1f12cdaf9a867ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a69fca42fce5993f181e99f89af5fa322">MR_NewEdgesMap</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a276430846cddbf81c1f12cdaf9a867ee">MR_CutMeshParameters_GetMutable_new2oldEdgesMap</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_this)</td></tr>
 <tr class="memitem:a3fbb9f74a2e0d04787e5fa2a86864b78" id="r_a3fbb9f74a2e0d04787e5fa2a86864b78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fbb9f74a2e0d04787e5fa2a86864b78">MR_CutMeshParameters_DefaultConstruct</a> (void)</td></tr>
 <tr class="memitem:af15aa4a81442ef4e55993c06195a02d4" id="r_af15aa4a81442ef4e55993c06195a02d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af15aa4a81442ef4e55993c06195a02d4">MR_CutMeshParameters_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:ac1aa28de3bbf1882ae8c0440f16bb9f6" id="r_ac1aa28de3bbf1882ae8c0440f16bb9f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1aa28de3bbf1882ae8c0440f16bb9f6">MR_CutMeshParameters_ConstructFrom</a> (const <a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a> *sortData, <a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *new2OldMap, <a class="el" href="#aedd7f25b94f39126435697d2684b1443">MR_CutMeshParameters_FillPart</a> fillPart, <a class="el" href="#ad88711e195698407258d2d46c2a03394">MR_CutMeshParameters_ForceFill</a> forceFillMode, <a class="el" href="#a69fca42fce5993f181e99f89af5fa322">MR_NewEdgesMap</a> *new2oldEdgesMap)</td></tr>
+<tr class="memitem:a551fd515b815fc79ae2863f57ec2850d" id="r_a551fd515b815fc79ae2863f57ec2850d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a551fd515b815fc79ae2863f57ec2850d">MR_CutMeshParameters_ConstructFrom</a> (const <a class="el" href="#abf340aafe859554b2c4dd858ad318988">MR_SortIntersectionsData</a> *sortData, <a class="el" href="MRBitSet_8h.html#ab809347fd151b45341bc9e7828673eb5">MR_FaceMap</a> *new2OldMap, <a class="el" href="#aedd7f25b94f39126435697d2684b1443">MR_CutMeshParameters_FillPart</a> fillPart, bool forceFill, <a class="el" href="#a69fca42fce5993f181e99f89af5fa322">MR_NewEdgesMap</a> *new2oldEdgesMap)</td></tr>
 <tr class="memitem:a5a298a580f98953164bff4b280d31537" id="r_a5a298a580f98953164bff4b280d31537"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a298a580f98953164bff4b280d31537">MR_CutMeshParameters_OffsetPtr</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a8b0b54e1ecb0887db3bdcc2a9402ac2c" id="r_a8b0b54e1ecb0887db3bdcc2a9402ac2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b0b54e1ecb0887db3bdcc2a9402ac2c">MR_CutMeshParameters_OffsetMutablePtr</a> (<a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a3a4f6c3d559831f591c2f9ae8948954b" id="r_a3a4f6c3d559831f591c2f9ae8948954b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a4f6c3d559831f591c2f9ae8948954b">MR_CutMeshParameters_ConstructFromAnother</a> (const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *_other)</td></tr>
@@ -307,22 +303,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Caller can avoid filling non-needed part of cut faces to speedup cutting still add pseudo FaceId to opposite side to keep connectivity </p>
-
-</div>
-</div>
-<a id="a01cedbb1ea06f084ed786c8fea1df019" name="a01cedbb1ea06f084ed786c8fea1df019"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01cedbb1ea06f084ed786c8fea1df019">&#9670;&#160;</a></span>MR_CutMeshParameters_ForceFill</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef enum <a class="el" href="#ad88711e195698407258d2d46c2a03394">MR_CutMeshParameters_ForceFill</a> <a class="el" href="#ad88711e195698407258d2d46c2a03394">MR_CutMeshParameters_ForceFill</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>This enum defines the MR::cutMesh behaviour in case of bad faces acure basicaly MR::cutMesh removes all faces which contours pass through, adds new edges to topology and fills all removed parts</p>
-<dl class="section note"><dt>Note</dt><dd>Bad faces here mean faces where contours have intersections and cannot be cut and filled in an good way </dd></dl>
 
 </div>
 </div>
@@ -493,27 +473,6 @@ Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aedd7f25b94f39126435697d2684b1443a100d2d7ae838115a3cb9eece282c6c40" name="aedd7f25b94f39126435697d2684b1443a100d2d7ae838115a3cb9eece282c6c40"></a>MR_CutMeshParameters_FillPart_Both&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aedd7f25b94f39126435697d2684b1443aeac434137387dd8ead0b9d238eb5b514" name="aedd7f25b94f39126435697d2684b1443aeac434137387dd8ead0b9d238eb5b514"></a>MR_CutMeshParameters_FillPart_Left&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aedd7f25b94f39126435697d2684b1443a3f28f83b79de34d3eb0be69f6f2a8404" name="aedd7f25b94f39126435697d2684b1443a3f28f83b79de34d3eb0be69f6f2a8404"></a>MR_CutMeshParameters_FillPart_Right&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="ad88711e195698407258d2d46c2a03394" name="ad88711e195698407258d2d46c2a03394"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad88711e195698407258d2d46c2a03394">&#9670;&#160;</a></span>MR_CutMeshParameters_ForceFill</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#ad88711e195698407258d2d46c2a03394">MR_CutMeshParameters_ForceFill</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>This enum defines the MR::cutMesh behaviour in case of bad faces acure basicaly MR::cutMesh removes all faces which contours pass through, adds new edges to topology and fills all removed parts</p>
-<dl class="section note"><dt>Note</dt><dd>Bad faces here mean faces where contours have intersections and cannot be cut and filled in an good way </dd></dl>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad88711e195698407258d2d46c2a03394afa6fde0595c530e4d65c99b2297f1de9" name="ad88711e195698407258d2d46c2a03394afa6fde0595c530e4d65c99b2297f1de9"></a>MR_CutMeshParameters_ForceFill_None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad88711e195698407258d2d46c2a03394ab034421e29b0df398b20c55cf22e0a2b" name="ad88711e195698407258d2d46c2a03394ab034421e29b0df398b20c55cf22e0a2b"></a>MR_CutMeshParameters_ForceFill_Good&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad88711e195698407258d2d46c2a03394a75d3acb4c28b6624872c1f30ef2aa1f9" name="ad88711e195698407258d2d46c2a03394a75d3acb4c28b6624872c1f30ef2aa1f9"></a>MR_CutMeshParameters_ForceFill_All&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -913,7 +872,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>New edges that correspond to given contours, find more MR::CutMeshResult </dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>Input contours should have no intersections, faces where contours intersects (<span class="tt">bad faces</span>) will not be allowed for fill </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Input contours should have no intersections, faces where contours intersects (<span class="tt">bad faces</span>) will not be allowed for fill, unless CutMeshParameters::forceFill is set </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Every two consecutive intersections of a contour should lie in one face, and a contour should not fold back at a point inside an edge: a mesh vertex next to such a point is the third vertex of the face the contour goes in there </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Input mesh will be changed in any case, if <span class="tt">bad faces</span> are in mesh, mesh will be spoiled, <br  />
 so if you cannot guarantee contours without intersections better make copy of mesh, before using this function </dd></dl>
@@ -1054,8 +1013,8 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 
 </div>
 </div>
-<a id="ac1aa28de3bbf1882ae8c0440f16bb9f6" name="ac1aa28de3bbf1882ae8c0440f16bb9f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1aa28de3bbf1882ae8c0440f16bb9f6">&#9670;&#160;</a></span>MR_CutMeshParameters_ConstructFrom()</h2>
+<a id="a551fd515b815fc79ae2863f57ec2850d" name="a551fd515b815fc79ae2863f57ec2850d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a551fd515b815fc79ae2863f57ec2850d">&#9670;&#160;</a></span>MR_CutMeshParameters_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1078,7 +1037,7 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#ad88711e195698407258d2d46c2a03394">MR_CutMeshParameters_ForceFill</a></td>          <td class="paramname"><span class="paramname"><em>forceFillMode</em></span>, </td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>forceFill</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1087,7 +1046,7 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <span class="tt">MR::CutMeshParameters</span> elementwise. The reference to the parameter <span class="tt">sortData</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">new2OldMap</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">fillPart</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">forceFillMode</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">new2oldEdgesMap</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ad3e074f8cc325d2492acc9bec0a386f9" title="Destroys a heap-allocated instance of MR_CutMeshParameters. Does nothing if the pointer is null.">MR_CutMeshParameters_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+<p>Constructs <span class="tt">MR::CutMeshParameters</span> elementwise. The reference to the parameter <span class="tt">sortData</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">new2OldMap</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">fillPart</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">new2oldEdgesMap</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ad3e074f8cc325d2492acc9bec0a386f9" title="Destroys a heap-allocated instance of MR_CutMeshParameters. Does nothing if the pointer is null.">MR_CutMeshParameters_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1201,21 +1160,22 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 
 </div>
 </div>
-<a id="a84e8ca262d5fa647b0c0f2258d14840b" name="a84e8ca262d5fa647b0c0f2258d14840b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84e8ca262d5fa647b0c0f2258d14840b">&#9670;&#160;</a></span>MR_CutMeshParameters_Get_forceFillMode()</h2>
+<a id="ab8e199f992ad12c7d993026f995601b3" name="ab8e199f992ad12c7d993026f995601b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8e199f992ad12c7d993026f995601b3">&#9670;&#160;</a></span>MR_CutMeshParameters_Get_forceFill()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ad88711e195698407258d2d46c2a03394">MR_CutMeshParameters_ForceFill</a> * MR_CutMeshParameters_Get_forceFillMode </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_CutMeshParameters_Get_forceFill </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <span class="tt">MR::CutMeshParameters</span> named <span class="tt">forceFillMode</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>This flag defines the MR::cutMesh behaviour in case bad faces occur: basically MR::cutMesh removes all faces which contours pass through, adds new edges to topology and fills all removed parts. If bad faces occur, nothing is filled unless this flag is set; then bad faces are filled too, but their triangulation can be bad (may have self-intersections or tunnels)</p>
+<dl class="section note"><dt>Note</dt><dd>Bad faces here mean faces where contours have intersections and cannot be cut and filled in a good way Returns a pointer to a member variable of class <span class="tt">MR::CutMeshParameters</span> named <span class="tt">forceFill</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </dd></dl>
 
 </div>
 </div>
@@ -1292,21 +1252,22 @@ it provides additional info from other mesh used in boolean operation, useful to
 
 </div>
 </div>
-<a id="adb3266a5dec2567607979d561c7ea076" name="adb3266a5dec2567607979d561c7ea076"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb3266a5dec2567607979d561c7ea076">&#9670;&#160;</a></span>MR_CutMeshParameters_GetMutable_forceFillMode()</h2>
+<a id="ad76df8282f0ae9cea2756df73f6f3ffd" name="ad76df8282f0ae9cea2756df73f6f3ffd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad76df8282f0ae9cea2756df73f6f3ffd">&#9670;&#160;</a></span>MR_CutMeshParameters_GetMutable_forceFill()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad88711e195698407258d2d46c2a03394">MR_CutMeshParameters_ForceFill</a> * MR_CutMeshParameters_GetMutable_forceFillMode </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_CutMeshParameters_GetMutable_forceFill </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::CutMeshParameters</span> named <span class="tt">forceFillMode</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>This flag defines the MR::cutMesh behaviour in case bad faces occur: basically MR::cutMesh removes all faces which contours pass through, adds new edges to topology and fills all removed parts. If bad faces occur, nothing is filled unless this flag is set; then bad faces are filled too, but their triangulation can be bad (may have self-intersections or tunnels)</p>
+<dl class="section note"><dt>Note</dt><dd>Bad faces here mean faces where contours have intersections and cannot be cut and filled in a good way Returns a mutable pointer to a member variable of class <span class="tt">MR::CutMeshParameters</span> named <span class="tt">forceFill</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </dd></dl>
 
 </div>
 </div>
@@ -1431,25 +1392,26 @@ it provides additional info from other mesh used in boolean operation, useful to
 
 </div>
 </div>
-<a id="ad4d83d85df3deae9d86a31df8fde85a7" name="ad4d83d85df3deae9d86a31df8fde85a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4d83d85df3deae9d86a31df8fde85a7">&#9670;&#160;</a></span>MR_CutMeshParameters_Set_forceFillMode()</h2>
+<a id="a0c837a7755668ea66e96c3850f73a97c" name="a0c837a7755668ea66e96c3850f73a97c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c837a7755668ea66e96c3850f73a97c">&#9670;&#160;</a></span>MR_CutMeshParameters_Set_forceFill()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_CutMeshParameters_Set_forceFillMode </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_CutMeshParameters_Set_forceFill </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a646e06afd435d75b5a8c8d01602aa5eb">MR_CutMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#ad88711e195698407258d2d46c2a03394">MR_CutMeshParameters_ForceFill</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <span class="tt">MR::CutMeshParameters</span> named <span class="tt">forceFillMode</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">forceFillMode</span>. When this function is called, this object will drop object references it held previously in <span class="tt">forceFillMode</span>. </p>
+<p>This flag defines the MR::cutMesh behaviour in case bad faces occur: basically MR::cutMesh removes all faces which contours pass through, adds new edges to topology and fills all removed parts. If bad faces occur, nothing is filled unless this flag is set; then bad faces are filled too, but their triangulation can be bad (may have self-intersections or tunnels)</p>
+<dl class="section note"><dt>Note</dt><dd>Bad faces here mean faces where contours have intersections and cannot be cut and filled in a good way Modifies a member variable of class <span class="tt">MR::CutMeshParameters</span> named <span class="tt">forceFill</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">forceFill</span>. </dd></dl>
 
 </div>
 </div>

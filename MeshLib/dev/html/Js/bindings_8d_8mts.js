@@ -130,11 +130,6 @@ var bindings_8d_8mts =
       [ "Remesh", "bindings_8d_8mts.html#a12672cba35195cdbec04fff4793f7163a1a2060aff8585b4c61d8d4ddd9fa42fd", null ],
       [ "RemeshPatch", "bindings_8d_8mts.html#a12672cba35195cdbec04fff4793f7163ae3260c46db3e5aa15846720aeaaff6c7", null ]
     ] ],
-    [ "ForceFill", "bindings_8d_8mts.html#a75f068e980a90347613fde4449884ee4", [
-      [ "None", "bindings_8d_8mts.html#affcedbbb6a1acf807f0cfc008c6dbe11ac7485dcc8d256a6f197ed7802687f252", null ],
-      [ "Good", "bindings_8d_8mts.html#a75f068e980a90347613fde4449884ee4aa9e10f610083e262e7aa4004c9b68fe9", null ],
-      [ "All", "bindings_8d_8mts.html#a75f068e980a90347613fde4449884ee4a54991d225c58ce0af43461d4e9a82312", null ]
-    ] ],
     [ "ICPExitType", "bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85", [
       [ "NotStarted", "bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85a4f19a59941d30ed46801ad82c37d19ba", null ],
       [ "NotFoundSolution", "bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85a39ed0a53dd7da3e263cdb085b98330e9", null ],
@@ -172,7 +167,7 @@ var bindings_8d_8mts =
       [ "Unsigned", "bindings_8d_8mts.html#ad995f406d908cf33a64c3a0da079f906a37795ea23b5d1837d4f1915d0bc99e38", null ]
     ] ],
     [ "MultipleEdgesResolveMode", "bindings_8d_8mts.html#affcedbbb6a1acf807f0cfc008c6dbe11", [
-      [ "None", "bindings_8d_8mts.html#affcedbbb6a1acf807f0cfc008c6dbe11ac7485dcc8d256a6f197ed7802687f252", null ],
+      [ "None", "bindings_8d_8mts.html#affcedbbb6a1acf807f0cfc008c6dbe11ac9d3e887722f2bc482bcca9d41c512af", null ],
       [ "Simple", "bindings_8d_8mts.html#affcedbbb6a1acf807f0cfc008c6dbe11aebfbf7dc5cde0772efb1aa49712bd76b", null ],
       [ "Strong", "bindings_8d_8mts.html#affcedbbb6a1acf807f0cfc008c6dbe11a628442936d0c47e692857732a6f040ff", null ]
     ] ],

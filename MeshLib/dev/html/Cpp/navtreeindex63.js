@@ -1,9 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"structMR_1_1Box.html#a58367ea0fa34d4b4d1009044564aded9":[9,0,0,0,2,0,11],
-"structMR_1_1Box.html#a5edd7e58dce05a67482b2c179f6abc6e":[9,0,0,0,2,0,8],
-"structMR_1_1Box.html#a6fa5434776a3bb7b53014edc67295ec8":[9,0,0,0,2,0,16],
-"structMR_1_1Box.html#a71c94df372502f935a239c62e591a70c":[9,0,0,0,2,0,29],
 "structMR_1_1Box.html#a72642a4bb313d2774abf257cefe1f2f0":[9,0,0,0,2,0,3],
 "structMR_1_1Box.html#aacbc2c9aca82714d27d007c9cc6aa696":[9,0,0,0,2,0,23],
 "structMR_1_1Box.html#aaf8c494ec86f9a6ef904299b78f1cc23":[9,0,0,0,2,0,31],
@@ -249,5 +245,9 @@ var NAVTREEINDEX63 =
 "structMR_1_1EmbeddedStructureParameters.html":[9,0,0,20,225],
 "structMR_1_1EndMillCutter.html":[9,0,0,20,226],
 "structMR_1_1EndMillTool.html":[9,0,0,20,227],
-"structMR_1_1FaceDistancesSettings.html":[9,0,0,20,230]
+"structMR_1_1FaceDistancesSettings.html":[9,0,0,20,230],
+"structMR_1_1FaceFace.html":[9,0,0,1,12],
+"structMR_1_1FaceFace.html#a8c0ae6c21ae275e2d6d66235d4aa4a3f":[9,0,0,1,12,2],
+"structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc":[9,0,0,1,12,1],
+"structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3":[9,0,0,1,12,0]
 };

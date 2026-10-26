@@ -148,7 +148,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a12040ca8de93a8121a72df1ed5fe765f" id="r_a12040ca8de93a8121a72df1ed5fe765f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bindings_8d_8mts.html#acdfb41a58613cf78584806af888f61c9">FillPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12040ca8de93a8121a72df1ed5fe765f">fillPart</a></td></tr>
-<tr class="memitem:ac2149d6cb594e87dd14e4d2f3c56642d" id="r_ac2149d6cb594e87dd14e4d2f3c56642d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bindings_8d_8mts.html#a75f068e980a90347613fde4449884ee4">ForceFill</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2149d6cb594e87dd14e4d2f3c56642d">forceFillMode</a></td></tr>
+<tr class="memitem:a05f66366a5b5e888c52d83b5657a635d" id="r_a05f66366a5b5e888c52d83b5657a635d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb">boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05f66366a5b5e888c52d83b5657a635d">forceFill</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parameters of MR::cutMesh. </p>
@@ -186,17 +186,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac2149d6cb594e87dd14e4d2f3c56642d" name="ac2149d6cb594e87dd14e4d2f3c56642d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2149d6cb594e87dd14e4d2f3c56642d">&#9670;&#160;</a></span>forceFillMode</h2>
+<a id="a05f66366a5b5e888c52d83b5657a635d" name="a05f66366a5b5e888c52d83b5657a635d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05f66366a5b5e888c52d83b5657a635d">&#9670;&#160;</a></span>forceFill</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="bindings_8d_8mts.html#a75f068e980a90347613fde4449884ee4">ForceFill</a> CutMeshParameters::forceFillMode</td>
+          <td class="memname"><a class="el" href="bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb">boolean</a> CutMeshParameters::forceFill</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>This flag defines the MR::cutMesh behaviour in case bad faces occur: basically MR::cutMesh removes all faces which contours pass through, adds new edges to topology and fills all removed parts. If bad faces occur, nothing is filled unless this flag is set; then bad faces are filled too, but their triangulation can be bad (may have self-intersections or tunnels)</p>
+<dl class="section note"><dt>Note</dt><dd>Bad faces here mean faces where contours have intersections and cannot be cut and filled in a good way </dd></dl>
 
 </div>
 </div>

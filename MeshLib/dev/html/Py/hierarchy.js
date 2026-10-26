@@ -371,7 +371,6 @@ var hierarchy =
     [ "mrmeshpy.FlowAggregator", "classmrmeshpy_1_1FlowAggregator.html", null ],
     [ "mrmeshpy.FlowOrigin", "classmrmeshpy_1_1FlowOrigin.html", null ],
     [ "mrmeshpy.FlowAggregator.Flows", "classmrmeshpy_1_1FlowAggregator_1_1Flows.html", null ],
-    [ "mrmeshpy.CutMeshParameters.ForceFill", "classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html", null ],
     [ "mrmeshpy.FreeFormBestFit", "classmrmeshpy_1_1FreeFormBestFit.html", null ],
     [ "mrmeshpy.FreeFormDeformer", "classmrmeshpy_1_1FreeFormDeformer.html", null ],
     [ "mrmeshpy.func_AABBTree", "classmrmeshpy_1_1func__AABBTree.html", null ],

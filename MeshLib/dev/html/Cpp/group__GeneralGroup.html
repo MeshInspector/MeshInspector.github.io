@@ -2174,10 +2174,6 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#ggaeff0ac5efee98dc8fae00a68075ed50fa945d5e233cf7d6240f6b783b36a374ff">MR::CutMeshParameters::FillPart::Left</a>
 , <a class="el" href="#ggaeff0ac5efee98dc8fae00a68075ed50fa92b09c7c48c520c3c55e497875da437c">MR::CutMeshParameters::FillPart::Right</a>
  }</td></tr>
-<tr class="memitem:gae51d141aa40e0f91506f4921b6797a33" id="r_gae51d141aa40e0f91506f4921b6797a33"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae51d141aa40e0f91506f4921b6797a33">MR::CutMeshParameters::ForceFill</a> { <a class="el" href="#ggae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754">MR::CutMeshParameters::ForceFill::None</a>
-, <a class="el" href="#ggae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc">MR::CutMeshParameters::ForceFill::Good</a>
-, <a class="el" href="#ggae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680">MR::CutMeshParameters::ForceFill::All</a>
- }</td></tr>
 <tr class="memitem:gace9513029904e4f1154117bec80e9e51" id="r_gace9513029904e4f1154117bec80e9e51"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gace9513029904e4f1154117bec80e9e51">MR::DistanceMeasurementObject::DistanceMode</a> { <br />
 &#160;&#160;<a class="el" href="#ggace9513029904e4f1154117bec80e9e51a1edfa114070a90bb762993ab47712d68">MR::DistanceMeasurementObject::DistanceMode::euclidean</a>
 , <a class="el" href="#ggace9513029904e4f1154117bec80e9e51a2fca5f3c7eaf40f769b717bc3ff48eb5">MR::DistanceMeasurementObject::DistanceMode::euclideanWithSignedDeltasPerAxis</a>
@@ -12126,7 +12122,7 @@ Variables</h2></td></tr>
 <tr class="memitem:ga75222f670fe00aaef7a945b8ccbb3ea9" id="r_ga75222f670fe00aaef7a945b8ccbb3ea9"><td class="memItemLeft" align="right" valign="top">FaceMap *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75222f670fe00aaef7a945b8ccbb3ea9">MR::CutMeshParameters::new2OldMap</a> {nullptr}</td></tr>
 <tr class="memdesc:ga75222f670fe00aaef7a945b8ccbb3ea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is optional output - map from newly generated faces to old faces (N-1)  <br /></td></tr>
 <tr class="memitem:ga50cdc033923c50b23668a35a7b9e0e27" id="r_ga50cdc033923c50b23668a35a7b9e0e27"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#gaeff0ac5efee98dc8fae00a68075ed50f">MR::CutMeshParameters::FillPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga50cdc033923c50b23668a35a7b9e0e27">MR::CutMeshParameters::Both</a></td></tr>
-<tr class="memitem:ga4c3c99dc26d25d555e9ebf6c6dfc5cbf" id="r_ga4c3c99dc26d25d555e9ebf6c6dfc5cbf"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#gae51d141aa40e0f91506f4921b6797a33">MR::CutMeshParameters::ForceFill</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4c3c99dc26d25d555e9ebf6c6dfc5cbf">MR::CutMeshParameters::None</a></td></tr>
+<tr class="memitem:ga6817b50942001ad73fd35fda345bcaf3" id="r_ga6817b50942001ad73fd35fda345bcaf3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6817b50942001ad73fd35fda345bcaf3">MR::CutMeshParameters::forceFill</a> { false }</td></tr>
 <tr class="memitem:gae4b1e4cc599311ec4eaa5e0d7f90518b" id="r_gae4b1e4cc599311ec4eaa5e0d7f90518b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1NewEdgesMap.html">NewEdgesMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae4b1e4cc599311ec4eaa5e0d7f90518b">MR::CutMeshParameters::new2oldEdgesMap</a> { nullptr }</td></tr>
 <tr class="memdesc:gae4b1e4cc599311ec4eaa5e0d7f90518b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional output map for each new edge introduced after cut maps edge from old topology or old face.  <br /></td></tr>
 <tr class="memitem:ga5fd92baa79aac5e503e3310ab91fb400" id="r_ga5fd92baa79aac5e503e3310ab91fb400"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5fd92baa79aac5e503e3310ab91fb400">MR::CutMeshResult::resultCut</a></td></tr>
@@ -25396,38 +25392,6 @@ template&lt;typename Tag&gt; </div>
 <tr><td class="fieldname"><a id="ggaba42ec493818f2de36d60f069b34cee4ac6568e77f61109390e82d035aaacaef0" name="ggaba42ec493818f2de36d60f069b34cee4ac6568e77f61109390e82d035aaacaef0"></a>Headline&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ggaba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384" name="ggaba42ec493818f2de36d60f069b34cee4aa3fd27e2bbcda0c7be0037ee70829384"></a>Monospace&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ggaba42ec493818f2de36d60f069b34cee4ae93f994f01c537c4e2f7d8528c3eb5e9" name="ggaba42ec493818f2de36d60f069b34cee4ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="gae51d141aa40e0f91506f4921b6797a33" name="gae51d141aa40e0f91506f4921b6797a33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae51d141aa40e0f91506f4921b6797a33">&#9670;&#160;</a></span>ForceFill</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#gae51d141aa40e0f91506f4921b6797a33">MR::CutMeshParameters::ForceFill</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>This enum defines the <a class="el" href="group__BooleanGroup.html#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> behaviour in case of bad faces acure basicaly <a class="el" href="group__BooleanGroup.html#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> removes all faces which contours pass through, adds new edges to topology and fills all removed parts</p>
-<dl class="section note"><dt>Note</dt><dd>Bad faces here mean faces where contours have intersections and cannot be cut and filled in an good way </dd></dl>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754" name="ggae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ggae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc" name="ggae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc"></a>Good&#160;</td><td class="fielddoc"><p>&lt; if bad faces occur does not fill anything </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680" name="ggae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"><p>&lt; fills all faces except bad ones </p>
-<p>&lt; fills all faces with bad ones, but on bad faces triangulation can also be bad (may have self-intersections or tunnels) </p>
-</td></tr>
 </table>
 
 </div>
@@ -215759,6 +215723,22 @@ not recommended in most cases </dd></dl>
 
 </div>
 </div>
+<a id="ga6817b50942001ad73fd35fda345bcaf3" name="ga6817b50942001ad73fd35fda345bcaf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6817b50942001ad73fd35fda345bcaf3">&#9670;&#160;</a></span>forceFill</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::CutMeshParameters::forceFill { false }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This flag defines the <a class="el" href="group__BooleanGroup.html#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> behaviour in case bad faces occur: basically <a class="el" href="group__BooleanGroup.html#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> removes all faces which contours pass through, adds new edges to topology and fills all removed parts. If bad faces occur, nothing is filled unless this flag is set; then bad faces are filled too, but their triangulation can be bad (may have self-intersections or tunnels)</p>
+<dl class="section note"><dt>Note</dt><dd>Bad faces here mean faces where contours have intersections and cannot be cut and filled in a good way </dd></dl>
+
+</div>
+</div>
 <a id="gae484e8e2139ec5d170493607d8987a20" name="gae484e8e2139ec5d170493607d8987a20"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gae484e8e2139ec5d170493607d8987a20">&#9670;&#160;</a></span>forceHovered</h2>
 
@@ -223964,22 +223944,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga4c3c99dc26d25d555e9ebf6c6dfc5cbf" name="ga4c3c99dc26d25d555e9ebf6c6dfc5cbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4c3c99dc26d25d555e9ebf6c6dfc5cbf">&#9670;&#160;</a></span>None <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#gae51d141aa40e0f91506f4921b6797a33">MR::CutMeshParameters::ForceFill</a> MR::CutMeshParameters::None</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ga4d3b64c3be4b9df2a9728e5a097c8ad9" name="ga4d3b64c3be4b9df2a9728e5a097c8ad9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4d3b64c3be4b9df2a9728e5a097c8ad9">&#9670;&#160;</a></span>None <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4d3b64c3be4b9df2a9728e5a097c8ad9">&#9670;&#160;</a></span>None</h2>
 
 <div class="memitem">
 <div class="memproto">
