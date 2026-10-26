@@ -224,10 +224,10 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31543" bodyend="31546"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax_1a9361d0fbe41ebe025f3673becc0cbdb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax_1a09b3622b3fe6a5d4517994be6ffc336e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MeshOnVoxelsT_const_Mesh_SimpleVolumeMinMax.getPoints</definition>
-        <argsstring>(self, std_vector_Vector3_float result, Vector3f pos, Vector3f offset)</argsstring>
+        <argsstring>(self, VertCoords result, Vector3f pos, Vector3f offset)</argsstring>
         <name>getPoints</name>
         <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_SimpleVolumeMinMax.getPoints</qualifiedname>
         <param>
@@ -235,7 +235,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
           <declname>result</declname>
         </param>
         <param>
@@ -516,7 +516,7 @@ Helper class to organize mesh and voxels volume access and build point sequences
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax_1a9239ecfe7d023d5bf74048f7e0252512" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_SimpleVolumeMinMax</scope><name>getBestPolynomial</name></member>
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax_1a97d6afffddbbabc51dcab313ee32a49c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_SimpleVolumeMinMax</scope><name>getDerivatives</name></member>
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax_1a831e92bc8ac7e92521459852dc445263" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_SimpleVolumeMinMax</scope><name>getOffsetVector</name></member>
-      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax_1a9361d0fbe41ebe025f3673becc0cbdb9" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_SimpleVolumeMinMax</scope><name>getPoints</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax_1a09b3622b3fe6a5d4517994be6ffc336e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_SimpleVolumeMinMax</scope><name>getPoints</name></member>
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax_1a9fd00cf5fea51a2fafde6c16394c727e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_SimpleVolumeMinMax</scope><name>getValue</name></member>
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax_1a5d37cdc8ab4b68a7c4f8c6129c3b0f37" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_SimpleVolumeMinMax</scope><name>getValues</name></member>
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax_1a385fad61d3fe22941308285b5f71c6d9" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_SimpleVolumeMinMax</scope><name>indexFromPseudoIndex</name></member>

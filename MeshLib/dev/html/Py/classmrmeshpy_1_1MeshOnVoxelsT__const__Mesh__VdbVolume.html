@@ -144,7 +144,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab6c2cbb43c6f70279217f3b3fd3955d5" id="r_ab6c2cbb43c6f70279217f3b3fd3955d5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6c2cbb43c6f70279217f3b3fd3955d5">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume.html">MeshOnVoxelsT_const_Mesh_VdbVolume</a> arg0)</td></tr>
 <tr class="memitem:a95a8e872068f9ec61a7d110eb0d1457a" id="r_a95a8e872068f9ec61a7d110eb0d1457a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95a8e872068f9ec61a7d110eb0d1457a">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume.html">MeshOnVoxelsT_const_Mesh_VdbVolume</a> other)</td></tr>
 <tr class="memitem:afa9ec27da4fdba2132e9834525667721" id="r_afa9ec27da4fdba2132e9834525667721"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa9ec27da4fdba2132e9834525667721">getOffsetVector</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v)</td></tr>
-<tr class="memitem:a5835acc6bd5f445d972525b68e47f70e" id="r_a5835acc6bd5f445d972525b68e47f70e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5835acc6bd5f445d972525b68e47f70e">getPoints</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> result, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pos, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> offset)</td></tr>
+<tr class="memitem:a8f93a1e4575b1a3cbfb3d017fc921de5" id="r_a8f93a1e4575b1a3cbfb3d017fc921de5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f93a1e4575b1a3cbfb3d017fc921de5">getPoints</a> (self, <a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> result, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pos, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> offset)</td></tr>
 <tr class="memitem:a66a67f323027b2bfa4fd8e928b02c7c7" id="r_a66a67f323027b2bfa4fd8e928b02c7c7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66a67f323027b2bfa4fd8e928b02c7c7">getValue</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pos)</td></tr>
 <tr class="memitem:a526a63030c8d6456649b004d0d17fe33" id="r_a526a63030c8d6456649b004d0d17fe33"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a526a63030c8d6456649b004d0d17fe33">getValues</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> result, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pos, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> offset)</td></tr>
 <tr class="memitem:a810794ba632c1925e053384da43929aa" id="r_a810794ba632c1925e053384da43929aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a810794ba632c1925e053384da43929aa">mesh</a> (self)</td></tr>
@@ -333,8 +333,8 @@ Helper class to organize mesh and voxels volume access and build point sequences
 </pre> 
 </div>
 </div>
-<a id="a5835acc6bd5f445d972525b68e47f70e" name="a5835acc6bd5f445d972525b68e47f70e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5835acc6bd5f445d972525b68e47f70e">&#9670;&#160;</a></span>getPoints()</h2>
+<a id="a8f93a1e4575b1a3cbfb3d017fc921de5" name="a8f93a1e4575b1a3cbfb3d017fc921de5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f93a1e4575b1a3cbfb3d017fc921de5">&#9670;&#160;</a></span>getPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -347,7 +347,7 @@ Helper class to organize mesh and voxels volume access and build point sequences
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

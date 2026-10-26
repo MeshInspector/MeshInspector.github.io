@@ -161,8 +161,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abdf80c44a70a73db372963471d7ad729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Volume value.  <br /></td></tr>
 <tr class="memitem:a29875bbb25aa6021a264a34721ca973b" id="r_a29875bbb25aa6021a264a34721ca973b"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29875bbb25aa6021a264a34721ca973b">getOffsetVector</a> (VertId v) const</td></tr>
 <tr class="memdesc:a29875bbb25aa6021a264a34721ca973b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get offset vector (mesh normal for a vertex with <span class="tt">voxelSize</span> length)  <br /></td></tr>
-<tr class="memitem:a215560abd21a5fb626da225aae99c716" id="r_a215560abd21a5fb626da225aae99c716"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a215560abd21a5fb626da225aae99c716">getPoints</a> (std::vector&lt; Vector3f &gt; &amp;result, const Vector3f &amp;pos, const Vector3f &amp;offset) const</td></tr>
-<tr class="memdesc:a215560abd21a5fb626da225aae99c716"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get row of points with <span class="tt">offset</span> stride.  <br /></td></tr>
+<tr class="memitem:af58ef77dad414cc3d972d8af48ce149a" id="r_af58ef77dad414cc3d972d8af48ce149a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af58ef77dad414cc3d972d8af48ce149a">getPoints</a> (VertCoords &amp;result, const Vector3f &amp;pos, const Vector3f &amp;offset) const</td></tr>
+<tr class="memdesc:af58ef77dad414cc3d972d8af48ce149a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get row of points with <span class="tt">offset</span> stride.  <br /></td></tr>
 <tr class="memitem:a6f94dc801e80cd28838910efea41b179" id="r_a6f94dc801e80cd28838910efea41b179"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f94dc801e80cd28838910efea41b179">getValues</a> (std::vector&lt; float &gt; &amp;result, const Vector3f &amp;pos, const Vector3f &amp;offset) const</td></tr>
 <tr class="memdesc:a6f94dc801e80cd28838910efea41b179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get volume values for a row of points.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -383,8 +383,8 @@ template&lt;typename MeshType, typename VolumeType&gt; </div>
 
 </div>
 </div>
-<a id="a215560abd21a5fb626da225aae99c716" name="a215560abd21a5fb626da225aae99c716"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a215560abd21a5fb626da225aae99c716">&#9670;&#160;</a></span>getPoints()</h2>
+<a id="af58ef77dad414cc3d972d8af48ce149a" name="af58ef77dad414cc3d972d8af48ce149a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af58ef77dad414cc3d972d8af48ce149a">&#9670;&#160;</a></span>getPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,7 +394,7 @@ template&lt;typename MeshType, typename VolumeType&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT</a>&lt; MeshType, VolumeType &gt;::getPoints </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; Vector3f &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
+          <td class="paramtype">VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

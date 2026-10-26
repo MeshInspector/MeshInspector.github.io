@@ -3573,7 +3573,7 @@ var searchData=
   ['getpointb_522',['getPointB',['../group__GeneralGroup.html#gad51d25240b9f4225f3b4b050775ac95d',1,'MR::LineObject']]],
   ['getpointdegrees_523',['getPointDegrees',['../namespaceMR_1_1detail.html#aa0d575ca9be16ac96f646ddd488eb50a',1,'MR::detail']]],
   ['getpointindex_524',['getPointIndex',['../group__GeneralGroup.html#ga3c5cbd427e263456b880103f824fe8bb',1,'MR::PickPointManager']]],
-  ['getpoints_525',['getPoints',['../group__GeneralGroup.html#gaf97eb847e850b3a2c62e6c2343f5bdd2',1,'MR::SeparationPointStorage::getPoints()'],['../classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent.html#a142237d698d085d466a1d8c2177ddafe',1,'MR::RenderFeatures::RenderFeaturePointsComponent::getPoints()'],['../classMR_1_1MeshOnVoxelsT.html#a215560abd21a5fb626da225aae99c716',1,'MR::MeshOnVoxelsT::getPoints()']]],
+  ['getpoints_525',['getPoints',['../group__GeneralGroup.html#gaf97eb847e850b3a2c62e6c2343f5bdd2',1,'MR::SeparationPointStorage::getPoints()'],['../classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent.html#a142237d698d085d466a1d8c2177ddafe',1,'MR::RenderFeatures::RenderFeaturePointsComponent::getPoints()'],['../classMR_1_1MeshOnVoxelsT.html#af58ef77dad414cc3d972d8af48ce149a',1,'MR::MeshOnVoxelsT::getPoints()']]],
   ['getpointscolor_526',['getPointsColor',['../group__GeneralGroup.html#gac9c4f457b06a88041861aa3e40ea3fc3',1,'MR::ObjectMeshHolder']]],
   ['getpointscolorsforallviewports_527',['getPointsColorsForAllViewports',['../group__GeneralGroup.html#ga6d9cb5e4e391bb6e0f300a7158f42fa1',1,'MR::ObjectMeshHolder']]],
   ['getpointsforselectedhole_528',['getPointsForSelectedHole',['../group__GeneralGroup.html#ga795834d19f3ce86eb27ce6ba2ae9a8b8',1,'MR::BoundarySelectionWidget']]],

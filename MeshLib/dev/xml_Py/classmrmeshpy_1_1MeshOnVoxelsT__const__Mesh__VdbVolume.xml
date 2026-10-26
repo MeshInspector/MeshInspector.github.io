@@ -224,10 +224,10 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31633" bodyend="31636"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume_1a5835acc6bd5f445d972525b68e47f70e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume_1a8f93a1e4575b1a3cbfb3d017fc921de5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MeshOnVoxelsT_const_Mesh_VdbVolume.getPoints</definition>
-        <argsstring>(self, std_vector_Vector3_float result, Vector3f pos, Vector3f offset)</argsstring>
+        <argsstring>(self, VertCoords result, Vector3f pos, Vector3f offset)</argsstring>
         <name>getPoints</name>
         <qualifiedname>mrmeshpy.MeshOnVoxelsT_const_Mesh_VdbVolume.getPoints</qualifiedname>
         <param>
@@ -235,7 +235,7 @@ Pseudo-index is a signed number; for whole index, is is whole or half-whole
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
           <declname>result</declname>
         </param>
         <param>
@@ -516,7 +516,7 @@ Helper class to organize mesh and voxels volume access and build point sequences
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume_1a2da2c8ad999f94e17d39dfc3392eadb9" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_VdbVolume</scope><name>getBestPolynomial</name></member>
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume_1aeb813bca61e8ce7a85cdebb950d45a89" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_VdbVolume</scope><name>getDerivatives</name></member>
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume_1afa9ec27da4fdba2132e9834525667721" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_VdbVolume</scope><name>getOffsetVector</name></member>
-      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume_1a5835acc6bd5f445d972525b68e47f70e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_VdbVolume</scope><name>getPoints</name></member>
+      <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume_1a8f93a1e4575b1a3cbfb3d017fc921de5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_VdbVolume</scope><name>getPoints</name></member>
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume_1a66a67f323027b2bfa4fd8e928b02c7c7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_VdbVolume</scope><name>getValue</name></member>
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume_1a526a63030c8d6456649b004d0d17fe33" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_VdbVolume</scope><name>getValues</name></member>
       <member refid="classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__VdbVolume_1a517b8c609b12f4fe0f0a888d72270b88" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOnVoxelsT_const_Mesh_VdbVolume</scope><name>indexFromPseudoIndex</name></member>

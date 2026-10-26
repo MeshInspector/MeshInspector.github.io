@@ -313,14 +313,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2095" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2095" bodyend="2098"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a58adce096c3208af902ea5186bdde420" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a52c8efe1760ccd1557336dc3dff8faf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume.getPoints</definition>
-        <argsstring>(MR.Std.Vector_MRVector3f result, in MR.Vector3f pos, in MR.Vector3f offset)</argsstring>
+        <argsstring>(MR.VertCoords result, in MR.Vector3f pos, in MR.Vector3f offset)</argsstring>
         <name>getPoints</name>
         <qualifiedname>MR.Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume.getPoints</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRVector3f</type>
+          <type><ref refid="classMR_1_1VertCoords" kindref="compound">MR.VertCoords</ref></type>
           <declname>result</declname>
         </param>
         <param>
@@ -332,7 +332,7 @@
           <declname>offset</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MeshOnVoxelsT&amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;gt;<ref refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a58adce096c3208af902ea5186bdde420" kindref="member">getPoints</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MeshOnVoxelsT&amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;gt;<ref refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a52c8efe1760ccd1557336dc3dff8faf6" kindref="member">getPoints</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -662,10 +662,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2191" column="41"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a562e6d2db2a2cc77f39d49a7e697bb71" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a592b2e04cb56e21b06b6bcfd761f2f04" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume.__MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getPoints</definition>
-        <argsstring>(_Underlying *_this, MR.Std.Vector_MRVector3f._Underlying *result, MR.Vector3f *pos, MR.Vector3f *offset)</argsstring>
+        <argsstring>(_Underlying *_this, MR.VertCoords._Underlying *result, MR.Vector3f *pos, MR.Vector3f *offset)</argsstring>
         <name>__MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getPoints</name>
         <qualifiedname>MR.Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume.__MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getPoints</qualifiedname>
         <param>
@@ -673,7 +673,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Std.Vector_MRVector3f._Underlying *</type>
+          <type>MR.VertCoords._Underlying *</type>
           <declname>result</declname>
         </param>
         <param>
@@ -1039,7 +1039,7 @@
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a772437c4dbcfc08a2d7e9061264fa76e" prot="private" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>__MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getBestPolynomial</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a83c1e320d9adbec1b9c891c27fe04421" prot="private" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>__MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getDerivatives</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1ad6297ad680c9590d909db58e63917a9d" prot="private" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>__MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getOffsetVector</name></member>
-      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a562e6d2db2a2cc77f39d49a7e697bb71" prot="private" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>__MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getPoints</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a592b2e04cb56e21b06b6bcfd761f2f04" prot="private" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>__MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getPoints</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1adde883099fdf33a4026996c5216dd5fa" prot="private" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>__MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getValue</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a57a34ff3e590be2f74df14d26f2d104e" prot="private" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>__MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_getValues</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a9a1e30e2f764c1a4b3e1502384a23c15" prot="private" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>__MR_MeshOnVoxelsT_MR_Mesh_MR_FunctionVolume_indexFromPseudoIndex</name></member>
@@ -1064,7 +1064,7 @@
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a72322a2a33834f616d06bcbc719baceb" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>getBestPolynomial</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a329bf89522d0dea2e5ede267c42828e5" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>getDerivatives</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1aba8365bd69da21755e3b3eccaf8e3a75" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>getOffsetVector</name></member>
-      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a58adce096c3208af902ea5186bdde420" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>getPoints</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a52c8efe1760ccd1557336dc3dff8faf6" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>getPoints</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a512b64936984043837db8c02d42c772e" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>getValue</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a4ec2e3f9e9033efe583e9da4828b43a1" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>getValues</name></member>
       <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a4b5e16e386005769e8f73a80bb8bd221" prot="public" virt="non-virtual"><scope>MR::Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>indexFromPseudoIndex</name></member>
