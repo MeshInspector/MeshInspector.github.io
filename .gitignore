@@ -2,7 +2,10 @@ MeshLib/local*
 .env
 node_modules
 log*
-MeshLib/xml/
-MeshLib/dev/xml/
+MeshLib/xml*/
+MeshLib/dev/xml*/
+doxystat-xml/
+doxystat-metrics.txt
+/stats.txt
 scripts/__pycache__/
 scripts/doxystat/__pycache__/
