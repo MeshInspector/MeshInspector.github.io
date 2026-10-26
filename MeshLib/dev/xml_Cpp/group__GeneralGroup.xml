@@ -196773,18 +196773,18 @@ returns true if load was succeed </para>
         </inbodydescription>
         <location file="MRViewer/MRViewport.h" line="130" column="10" bodyfile="MRViewer/MRViewport.h" bodystart="130" bodyend="131"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga0d9a99f9a43fc70d342a0c3af6763f60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaf1facdba3779e2c1841bf34c746da06c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::Viewport::drawPoints</definition>
-        <argsstring>(const std::vector&lt; Vector3f &gt; &amp;points, const std::vector&lt; Vector4f &gt; &amp;colors, const LinePointImmediateRenderParams &amp;params)</argsstring>
+        <argsstring>(std::span&lt; const Vector3f &gt; points, std::span&lt; const Vector4f &gt; colors, const LinePointImmediateRenderParams &amp;params)</argsstring>
         <name>drawPoints</name>
         <qualifiedname>MR::Viewport::drawPoints</qualifiedname>
         <param>
-          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <type>std::span&lt; const Vector3f &gt;</type>
           <declname>points</declname>
         </param>
         <param>
-          <type>const std::vector&lt; Vector4f &gt; &amp;</type>
+          <type>std::span&lt; const Vector4f &gt;</type>
           <declname>colors</declname>
         </param>
         <param>
@@ -196800,18 +196800,18 @@ returns true if load was succeed </para>
         </inbodydescription>
         <location file="MRViewer/MRViewport.h" line="134" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gad9165dc8844420f9c4824b6acc0e4038" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga7238e1257a90120c137403d3590724bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void MR::Viewport::drawPoints</definition>
-        <argsstring>(const std::vector&lt; Vector3f &gt; &amp;points, const std::vector&lt; Vector4f &gt; &amp;colors, float width=1, bool depthTest=true)</argsstring>
+        <argsstring>(std::span&lt; const Vector3f &gt; points, std::span&lt; const Vector4f &gt; colors, float width=1, bool depthTest=true)</argsstring>
         <name>drawPoints</name>
         <qualifiedname>MR::Viewport::drawPoints</qualifiedname>
         <param>
-          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <type>std::span&lt; const Vector3f &gt;</type>
           <declname>points</declname>
         </param>
         <param>
-          <type>const std::vector&lt; Vector4f &gt; &amp;</type>
+          <type>std::span&lt; const Vector4f &gt;</type>
           <declname>colors</declname>
         </param>
         <param>
