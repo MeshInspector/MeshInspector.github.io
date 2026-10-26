@@ -304,6 +304,9 @@ var hierarchy =
       ] ],
       [ "MR::MultiListener< Connectables >", "structMR_1_1MultiListener.html", null ]
     ] ],
+    [ "StdVector::const_iterator", null, [
+      [ "MR::Vector< T, I >::const_iterator", "structMR_1_1Vector_1_1const__iterator.html", null ]
+    ] ],
     [ "MR::ConstChildren", "classMR_1_1ConstChildren.html", null ],
     [ "MR::ContoursDistanceMapOffset", "structMR_1_1ContoursDistanceMapOffset.html", null ],
     [ "MR::ContoursDistanceMapOptions", "structMR_1_1ContoursDistanceMapOptions.html", null ],
@@ -804,6 +807,9 @@ var hierarchy =
     [ "MR::PlanarTriangulation::ISweepLineCache", "classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html", null ],
     [ "MR::ItemEnabledPerViewport", "classMR_1_1ItemEnabledPerViewport.html", null ],
     [ "MR::ConstChildren::Iterator", "classMR_1_1ConstChildren_1_1Iterator.html", null ],
+    [ "StdVector::iterator", null, [
+      [ "MR::Vector< T, I >::iterator", "structMR_1_1Vector_1_1iterator.html", null ]
+    ] ],
     [ "MR::IteratorRange< I >", "structMR_1_1IteratorRange.html", null ],
     [ "MR::ITransformControls", "classMR_1_1ITransformControls.html", [
       [ "MR::TransformControls", "classMR_1_1TransformControls.html", null ]

@@ -1,5 +1,7 @@
 var std__vector__char_8h =
 [
+    [ "MR_std_vector_char_const_iterator", "std__vector__char_8h.html#ac8a5da38f15434036eb7bed34a6d234c", null ],
+    [ "MR_std_vector_char_iterator", "std__vector__char_8h.html#a50e958bdb7b64bf90d4a01a494f0a049", null ],
     [ "MR_equal_MR_std_vector_char_const_iterator", "std__vector__char_8h.html#a4193cd4065091ee240c144acb1a9f6d9", null ],
     [ "MR_equal_MR_std_vector_char_iterator", "std__vector__char_8h.html#a496ecdeeb9130af82c2595d6d1833cd1", null ],
     [ "MR_std_vector_char_AssignFromAnother", "std__vector__char_8h.html#aa06b7fd7b224bc42df4079aca3a82b8e", null ],

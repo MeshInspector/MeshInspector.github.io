@@ -4,7 +4,7 @@ var group__AABBTreeGroup =
       [ "FastWindingNumber", "group__GeneralGroup.html#gafed4d0df31eef8da93ca2d843c3a8a63", null ],
       [ "calcFromGrid", "group__GeneralGroup.html#gade8474a42b222e2956b6fe29750ac544", null ],
       [ "calcFromGridByParts", "group__GeneralGroup.html#ga2a62210342991fb5c15a7f7627fbbd45", null ],
-      [ "calcFromGridWithDistances", "group__GeneralGroup.html#gaeb495c4eda1b8be00020369fc04f7159", null ],
+      [ "calcFromGridWithDistances", "group__GeneralGroup.html#gab7e3bcd76e8a8c50f8ef5c1bf066bf93", null ],
       [ "calcFromGridWithDistancesByParts", "group__GeneralGroup.html#gaa58e46d5a0d4b887dfc6f4edddafa860", null ],
       [ "calcFromVector", "group__GeneralGroup.html#ga5c175130af9cbdf1fac5b175f1f44ae3", null ],
       [ "calcSelfIntersections", "group__GeneralGroup.html#ga2f11c9de4efd17bdc6ac47d85b97c079", null ]
@@ -118,7 +118,7 @@ var group__AABBTreeGroup =
     [ "MR::FastWindingNumber", "classMR_1_1FastWindingNumber.html", [
       [ "FastWindingNumber", "group__GeneralGroup.html#ga90b9d5c62d0d6463de99213ab8ef902f", null ],
       [ "calcFromGrid", "group__GeneralGroup.html#ga1dfcd2ac54d392958b88fdddedbdfbbc", null ],
-      [ "calcFromGridWithDistances", "group__GeneralGroup.html#ga12359d96784505cbfeca781364a909e6", null ],
+      [ "calcFromGridWithDistances", "group__GeneralGroup.html#gaf482e2b320252c726c7678f7a29b9a39", null ],
       [ "calcFromVector", "group__GeneralGroup.html#ga47037ab20d307d7d5cec6c6ccdfecb2f", null ],
       [ "calcSelfIntersections", "group__GeneralGroup.html#gab4b86b9ac5cf64724d0d5a51eef5905c", null ],
       [ "calcWithDistances", "group__GeneralGroup.html#ga4aa071fd6b623fca1cd12ffefee231a4", null ]

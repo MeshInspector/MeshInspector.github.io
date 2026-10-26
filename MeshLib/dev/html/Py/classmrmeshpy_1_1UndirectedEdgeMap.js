@@ -42,6 +42,6 @@ var classmrmeshpy_1_1UndirectedEdgeMap =
     [ "shrink_to_fit", "classmrmeshpy_1_1UndirectedEdgeMap.html#a9df4ccb70f2b064f139d8ea2de02e9f9", null ],
     [ "size", "classmrmeshpy_1_1UndirectedEdgeMap.html#a94fa9957e6762d9b597a88e55225b0e0", null ],
     [ "swap", "classmrmeshpy_1_1UndirectedEdgeMap.html#a341b63a500b083dc5526a98e84f32303", null ],
-    [ "vec", "classmrmeshpy_1_1UndirectedEdgeMap.html#a533940139830435b17672df9794a1645", null ],
-    [ "vec", "classmrmeshpy_1_1UndirectedEdgeMap.html#ae317c348411201324a2e357e02be4e38", null ]
+    [ "vec", "classmrmeshpy_1_1UndirectedEdgeMap.html#aa6651dc7b609b5aaf46588dfb20140e8", null ],
+    [ "vec", "classmrmeshpy_1_1UndirectedEdgeMap.html#a73704db51f295a6b0664668bcb0ef1d0", null ]
 ];

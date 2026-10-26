@@ -1,5 +1,7 @@
 var classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId =
 [
+    [ "const_iterator", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1_1const__iterator" ],
+    [ "iterator", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1_1iterator.html", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#aa8b9ba3ae514060ce829e89ba11fe8f4", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#ae7aabddef58c7f16ea76fe0b99784e6e", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a8a5887a2dd9211e31687e9ed55432fae", null ],
@@ -41,6 +43,6 @@ var classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#aa1a5b4661de1136754ae3eab973d0a98", null ],
     [ "size", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a03c0006c3df6f2d3cb1fe67c49d357d8", null ],
     [ "swap", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#ad4d23d373a52c5be1ff3227f416f8010", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a67b9e0d993df963f7a3c6c7cb623b382", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a08bb8cc372ce9cbda893f55ecbbf5368", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#aaebc806c2e2efde5bac2c652569cee82", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a46e97a223629b9511cedd16167f647b6", null ]
 ];

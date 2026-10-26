@@ -41,6 +41,6 @@ var classmrmeshpy_1_1Triangulation =
     [ "shrink_to_fit", "classmrmeshpy_1_1Triangulation.html#aad95022f1fe19c8bc7f0845ed5d3038c", null ],
     [ "size", "classmrmeshpy_1_1Triangulation.html#a14e7423ffe04d7ddfd3da5115146a9f9", null ],
     [ "swap", "classmrmeshpy_1_1Triangulation.html#a0118ac93024351a2285467a5f6b0b098", null ],
-    [ "vec", "classmrmeshpy_1_1Triangulation.html#abfb2d240cab03cb909d0cdc9b914384c", null ],
-    [ "vec", "classmrmeshpy_1_1Triangulation.html#a1aa47da400e6cebd47813b191e7f236e", null ]
+    [ "vec", "classmrmeshpy_1_1Triangulation.html#a8bafc4ae22dbc9b70acadeedefb8233d", null ],
+    [ "vec", "classmrmeshpy_1_1Triangulation.html#a1faf2b6ef2be26b22deb97f956522492", null ]
 ];

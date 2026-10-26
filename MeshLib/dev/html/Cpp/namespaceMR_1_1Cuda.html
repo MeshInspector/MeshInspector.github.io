@@ -181,10 +181,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:ad3376b68fd0e9661c0072bf92dd704a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes memory consumption of computeDistanceMap function.  <br /></td></tr>
 <tr class="memitem:ab0b0e3af6fadf0842bbaef360071ea8e" id="r_ab0b0e3af6fadf0842bbaef360071ea8e"><td class="memTemplParams" colspan="2">template&lt;typename BufferType, typename InputIt, typename GPUFunc, typename CPUFunc&gt; </td></tr>
 <tr class="memitem:ab0b0e3af6fadf0842bbaef360071ea8e template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0b0e3af6fadf0842bbaef360071ea8e">cudaPipeline</a> (BufferType init, InputIt <a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, InputIt <a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, GPUFunc gpuFunc, CPUFunc cpuFunc)</td></tr>
-<tr class="memitem:ae65f347287f9c0ba39f2cc533c51582e" id="r_ae65f347287f9c0ba39f2cc533c51582e"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::unique_ptr&lt; <a class="el" href="#a770259831b49f60068c30df5121056c9">PointCloudDataHolder</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae65f347287f9c0ba39f2cc533c51582e">copyDataFrom</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, bool copyNormals=false, const std::vector&lt; Vector3f &gt; *normals=nullptr)</td></tr>
-<tr class="memdesc:ae65f347287f9c0ba39f2cc533c51582e"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy point cloud-related data to the GPU memory  <br /></td></tr>
-<tr class="memitem:aaa9aa568ce6f99642f04342760455a3f" id="r_aaa9aa568ce6f99642f04342760455a3f"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa9aa568ce6f99642f04342760455a3f">pointCloudHeapBytes</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, bool copyNormals=false, const std::vector&lt; Vector3f &gt; *normals=nullptr)</td></tr>
-<tr class="memdesc:aaa9aa568ce6f99642f04342760455a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the amount of GPU memory required for <a class="el" href="#a770259831b49f60068c30df5121056c9">MR::Cuda::PointCloudDataHolder</a>  <br /></td></tr>
+<tr class="memitem:a1f088390e296d9d514e7b33c22680d0d" id="r_a1f088390e296d9d514e7b33c22680d0d"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::unique_ptr&lt; <a class="el" href="#a770259831b49f60068c30df5121056c9">PointCloudDataHolder</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f088390e296d9d514e7b33c22680d0d">copyDataFrom</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, bool copyNormals=false, const VertNormals *normals=nullptr)</td></tr>
+<tr class="memdesc:a1f088390e296d9d514e7b33c22680d0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy point cloud-related data to the GPU memory  <br /></td></tr>
+<tr class="memitem:a47ac8ebb944efae856c2155b44491e14" id="r_a47ac8ebb944efae856c2155b44491e14"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47ac8ebb944efae856c2155b44491e14">pointCloudHeapBytes</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, bool copyNormals=false, const VertNormals *normals=nullptr)</td></tr>
+<tr class="memdesc:a47ac8ebb944efae856c2155b44491e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the amount of GPU memory required for <a class="el" href="#a770259831b49f60068c30df5121056c9">MR::Cuda::PointCloudDataHolder</a>  <br /></td></tr>
 <tr class="memitem:ac0f5929f4af15aed8c11ff5232d4f6ff" id="r_ac0f5929f4af15aed8c11ff5232d4f6ff"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="structMR_1_1PointsProjectionResult.html">MR::PointsProjectionResult</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0f5929f4af15aed8c11ff5232d4f6ff">findProjectionOnPoints</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, const VertCoords &amp;<a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, const <a class="el" href="structMR_1_1FindProjectionOnPointsSettings.html">FindProjectionOnPointsSettings</a> &amp;<a class="el" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a>={})</td></tr>
 <tr class="memdesc:ac0f5929f4af15aed8c11ff5232d4f6ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest points on point cloud to given points  <br /></td></tr>
 <tr class="memitem:ab6752d5a8d11db60ba3b3c7cd333658d" id="r_ab6752d5a8d11db60ba3b3c7cd333658d"><td class="memItemLeft" align="right" valign="top">MRCUDA_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6752d5a8d11db60ba3b3c7cd333658d">findProjectionOnPointsHeapBytes</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, size_t pointsCount)</td></tr>
@@ -267,8 +267,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae65f347287f9c0ba39f2cc533c51582e" name="ae65f347287f9c0ba39f2cc533c51582e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae65f347287f9c0ba39f2cc533c51582e">&#9670;&#160;</a></span>copyDataFrom()</h2>
+<a id="a1f088390e296d9d514e7b33c22680d0d" name="a1f088390e296d9d514e7b33c22680d0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f088390e296d9d514e7b33c22680d0d">&#9670;&#160;</a></span>copyDataFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,7 +286,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; Vector3f &gt; *</td>          <td class="paramname"><span class="paramname"><em>normals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">const VertNormals *</td>          <td class="paramname"><span class="paramname"><em>normals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -484,8 +484,8 @@ template&lt;typename BufferType, typename InputIt, typename GPUFunc, typename CP
 
 </div>
 </div>
-<a id="aaa9aa568ce6f99642f04342760455a3f" name="aaa9aa568ce6f99642f04342760455a3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa9aa568ce6f99642f04342760455a3f">&#9670;&#160;</a></span>pointCloudHeapBytes()</h2>
+<a id="a47ac8ebb944efae856c2155b44491e14" name="a47ac8ebb944efae856c2155b44491e14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ac8ebb944efae856c2155b44491e14">&#9670;&#160;</a></span>pointCloudHeapBytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -503,7 +503,7 @@ template&lt;typename BufferType, typename InputIt, typename GPUFunc, typename CP
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; Vector3f &gt; *</td>          <td class="paramname"><span class="paramname"><em>normals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">const VertNormals *</td>          <td class="paramname"><span class="paramname"><em>normals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

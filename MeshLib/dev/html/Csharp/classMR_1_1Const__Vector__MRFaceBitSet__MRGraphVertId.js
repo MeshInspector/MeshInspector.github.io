@@ -1,5 +1,9 @@
 var classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId =
 [
+    [ "Const_ConstIterator", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1_1Const__ConstIterator.html", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1_1Const__ConstIterator" ],
+    [ "Const_Iterator", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1_1Const__Iterator.html", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1_1Const__Iterator" ],
+    [ "ConstIterator", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1_1ConstIterator.html", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1_1ConstIterator" ],
+    [ "Iterator", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1_1Iterator.html", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1_1Iterator" ],
     [ "Const_Vector_MRFaceBitSet_MRGraphVertId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a0b0450429f62a6fa8868c142c803d046", null ],
     [ "Const_Vector_MRFaceBitSet_MRGraphVertId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#afe2b80c39fa5ad943e11e75d7fa2ede8", null ],
     [ "Const_Vector_MRFaceBitSet_MRGraphVertId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a087e368ffda657a5b9d0f102c7d32d5b", null ],
@@ -8,16 +12,16 @@ var classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId =
     [ "Const_Vector_MRFaceBitSet_MRGraphVertId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a7cc155a20dca20366b528a52d070b86f", null ],
     [ "back", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a6ed9ebc5040fa41f49f21fa4d9069cb5", null ],
     [ "backId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#af2093ec9f07c7f518bd44a7d16aa3636", null ],
-    [ "begin", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a76aff6eac04c557e0932b40725728db2", null ],
+    [ "begin", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a05bb4489909a92eb027f3348f33a0333", null ],
     [ "beginId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a54fa58bb769fe3478b7fe15146ad62ff", null ],
     [ "capacity", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a54f7e0bc06e07bdcc489d3ce62e62e60", null ],
-    [ "cbegin", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a5468157d831ce8841e9391e416e6eb1d", null ],
-    [ "cend", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a676ebaf3f8420ef00fd6673354f34874", null ],
+    [ "cbegin", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#ac782eb220ae8418ccdc2dde3cf1e216a", null ],
+    [ "cend", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a78e51fc6352b9eff29b0e68c1a454196", null ],
     [ "data", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a6d1f2557b54e55981f66a6de007211d0", null ],
     [ "Dispose", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#aaa42ec9d0c430107f647e86bb8d538c9", null ],
     [ "Dispose", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#aa2ec5a1b8eeeddb38396eb6afc219554", null ],
     [ "empty", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a50a41e3e9b8e406d7ab2ac5e99167444", null ],
-    [ "end", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a4d5e924d2eb0909b084b62bab474b467", null ],
+    [ "end", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a51b0066ecfcabda190ef06b72506d824", null ],
     [ "endId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#ac887ff9ed6198f59bcd83fa2ac95002a", null ],
     [ "Equals", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#aeab2cb8f95cd5e858f1aa4d26654aa14", null ],
     [ "Equals", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#ab3d55d2005aa2171de4a5009177f09df", null ],
@@ -29,5 +33,5 @@ var classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId =
     [ "operator==", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a82ea29d02b51ab6c635cd525c78cb043", null ],
     [ "size", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#abe5f05e8d630887a783172877c7be838", null ],
     [ "this[MR.GraphVertId i]", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a5662d62046f36d0e63426e99aaa2c500", null ],
-    [ "vec", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#ab004dee1af6f69b6006b0b9e89e17a01", null ]
+    [ "vec", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#af3e253aa311c87498d6b4ee471404fc0", null ]
 ];

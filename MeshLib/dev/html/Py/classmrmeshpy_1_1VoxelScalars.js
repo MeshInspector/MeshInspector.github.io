@@ -41,6 +41,6 @@ var classmrmeshpy_1_1VoxelScalars =
     [ "shrink_to_fit", "classmrmeshpy_1_1VoxelScalars.html#a2f78789a92e0f5251409ae126f1f621e", null ],
     [ "size", "classmrmeshpy_1_1VoxelScalars.html#a76cff65a57defd3671a28f04287bf6e4", null ],
     [ "swap", "classmrmeshpy_1_1VoxelScalars.html#a0e44fcb2b7e4ecb38313e5f1632e4c6c", null ],
-    [ "vec", "classmrmeshpy_1_1VoxelScalars.html#a929687dd61a88192345ae0364b743f03", null ],
-    [ "vec", "classmrmeshpy_1_1VoxelScalars.html#a0e46f4e9b6da15d8b72beb47051be64d", null ]
+    [ "vec", "classmrmeshpy_1_1VoxelScalars.html#a51466518595f2cbda93c37558ab59c79", null ],
+    [ "vec", "classmrmeshpy_1_1VoxelScalars.html#a0384bed0256e3395e384b1f548382e44", null ]
 ];

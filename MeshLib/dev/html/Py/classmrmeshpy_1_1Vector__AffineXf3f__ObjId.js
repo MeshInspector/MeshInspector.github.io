@@ -1,5 +1,7 @@
 var classmrmeshpy_1_1Vector__AffineXf3f__ObjId =
 [
+    [ "const_iterator", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1_1const__iterator" ],
+    [ "iterator", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1_1iterator.html", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#ae966452ea554cf63703fdd4d9c5a60e6", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a867d554190ce1d6f4ecd163b0bc2cb80", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#acbd81e09b77c1802576b09f5bf2f5103", null ],
@@ -41,6 +43,6 @@ var classmrmeshpy_1_1Vector__AffineXf3f__ObjId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a81ef69ffeb28631fa6aa0b39b1079371", null ],
     [ "size", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a0c5d5d795ea61f4cd4b9121835f0bbea", null ],
     [ "swap", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#ae6204e729384ee9562f0258b489ac637", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a21257bb61496ee548d864e4ea836566e", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#ad06c7451318fe01279dcf567c42ea87e", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a7764dc911f5e7d00782814e4a23df446", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a3335bea01fcc64bd36ff5b40dddff37f", null ]
 ];

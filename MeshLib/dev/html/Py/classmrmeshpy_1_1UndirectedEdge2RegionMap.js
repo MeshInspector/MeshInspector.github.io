@@ -42,6 +42,6 @@ var classmrmeshpy_1_1UndirectedEdge2RegionMap =
     [ "shrink_to_fit", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a084265537555798b16155f858688e94b", null ],
     [ "size", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#aa77810b4e4f137490bb48076abf2abb0", null ],
     [ "swap", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a83b89a77cea55febed365b4a0b4809d5", null ],
-    [ "vec", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#aa878978ff3179b77898c29bae9553181", null ],
-    [ "vec", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a446e44db0154d1a6f21314c661029aa2", null ]
+    [ "vec", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a7632e5ef85740a4b64f606a665b7c5a2", null ],
+    [ "vec", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a3f1c056547bdc2b3c440584287c20b24", null ]
 ];

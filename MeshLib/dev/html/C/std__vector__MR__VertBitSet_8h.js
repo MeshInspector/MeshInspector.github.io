@@ -1,5 +1,7 @@
 var std__vector__MR__VertBitSet_8h =
 [
+    [ "MR_std_vector_MR_VertBitSet_const_iterator", "std__vector__MR__VertBitSet_8h.html#a0bf2b3c87c09b94d69384b51e377ca2e", null ],
+    [ "MR_std_vector_MR_VertBitSet_iterator", "std__vector__MR__VertBitSet_8h.html#aa854b3f59c3d7b5d01fb2614dfbe6f3a", null ],
     [ "MR_equal_MR_std_vector_MR_VertBitSet_const_iterator", "std__vector__MR__VertBitSet_8h.html#a49ab2590e5b72fbb2be64e4737f19fee", null ],
     [ "MR_equal_MR_std_vector_MR_VertBitSet_iterator", "std__vector__MR__VertBitSet_8h.html#af739af4d9f436b0b35c9c7664654d6a4", null ],
     [ "MR_std_vector_MR_VertBitSet_AssignFromAnother", "std__vector__MR__VertBitSet_8h.html#a917219e6054bcae2a7f93016c96005fa", null ],

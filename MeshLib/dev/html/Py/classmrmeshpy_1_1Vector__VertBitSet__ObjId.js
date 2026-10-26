@@ -1,5 +1,7 @@
 var classmrmeshpy_1_1Vector__VertBitSet__ObjId =
 [
+    [ "const_iterator", "classmrmeshpy_1_1Vector__VertBitSet__ObjId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__VertBitSet__ObjId_1_1const__iterator" ],
+    [ "iterator", "classmrmeshpy_1_1Vector__VertBitSet__ObjId_1_1iterator.html", "classmrmeshpy_1_1Vector__VertBitSet__ObjId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ab8ecee6a626133724a216b5a4faf047e", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ac9489021180a7351b08b2ed84f08e556", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a8158db1dd1978bc14f73d798827ecc2d", null ],
@@ -41,6 +43,6 @@ var classmrmeshpy_1_1Vector__VertBitSet__ObjId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a1d36d4db0b469995a88a8f344c8c60ac", null ],
     [ "size", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ab1364c93df4cc8b24fe18fae24729835", null ],
     [ "swap", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ae3219fac9da2c53cc77436b6d3c22ca8", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a2d10230116f08f764328ee8a824959c4", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a7fd16d3b14db7f934e9fba0c9437ab0f", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a4f2459c1973c92ab8947d7309f618b3d", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ab3d7d84b0f757825cfc20a765f62a517", null ]
 ];

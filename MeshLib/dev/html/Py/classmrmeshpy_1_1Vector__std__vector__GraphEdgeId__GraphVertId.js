@@ -1,5 +1,7 @@
 var classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId =
 [
+    [ "const_iterator", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1_1const__iterator" ],
+    [ "iterator", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1_1iterator.html", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a32f79ab7ff3465b01a9aa2e0909d96ce", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#ae8cbe4bf93d72b7c0f27ce1e619148d8", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#af1b656c4367ba886d5ab4186112ae2b5", null ],
@@ -41,6 +43,6 @@ var classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a2dbce66991af31159404f769ebfa5323", null ],
     [ "size", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a350eb18335156863320de456eec84336", null ],
     [ "swap", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#ae0bedc23241d8f7777a2240c3c90e6c9", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a6d6cea1da6cfacddeac039432f7c8351", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a05a4100c4b62e4472348f174b24a3847", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#ab26c9a110571a10712f90b96db77a0ea", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a03c8d047fce41ec402c9370b8f124180", null ]
 ];

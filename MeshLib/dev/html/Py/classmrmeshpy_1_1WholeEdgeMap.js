@@ -42,6 +42,6 @@ var classmrmeshpy_1_1WholeEdgeMap =
     [ "shrink_to_fit", "classmrmeshpy_1_1WholeEdgeMap.html#a790db228291dd6db224404b3700e5c97", null ],
     [ "size", "classmrmeshpy_1_1WholeEdgeMap.html#aeca71a21887e1b28990da74f32c40663", null ],
     [ "swap", "classmrmeshpy_1_1WholeEdgeMap.html#ab0e86cf71ebf5bc05246c7c2a3312f8b", null ],
-    [ "vec", "classmrmeshpy_1_1WholeEdgeMap.html#aa7a9b55a8f7f37a1f5f4a30ecee8e48e", null ],
-    [ "vec", "classmrmeshpy_1_1WholeEdgeMap.html#a7da42af53d87d45c26b3d5ffbc232c0a", null ]
+    [ "vec", "classmrmeshpy_1_1WholeEdgeMap.html#a676e0e4d7b84a33586fd47d8a551be66", null ],
+    [ "vec", "classmrmeshpy_1_1WholeEdgeMap.html#ac1611fc4d6b9f299041db3babb2510bd", null ]
 ];

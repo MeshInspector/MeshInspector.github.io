@@ -42,6 +42,6 @@ var classmrmeshpy_1_1Vert2RegionMap =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vert2RegionMap.html#a4043e10fc11f6ff75c61f2bcacf7619f", null ],
     [ "size", "classmrmeshpy_1_1Vert2RegionMap.html#aa77ae7814130e18e16edff0641d686ed", null ],
     [ "swap", "classmrmeshpy_1_1Vert2RegionMap.html#a22cedc4f13faaa48865b0aefbbeb1f22", null ],
-    [ "vec", "classmrmeshpy_1_1Vert2RegionMap.html#a7da5cb9cc85888cd15c658bebe7d37cc", null ],
-    [ "vec", "classmrmeshpy_1_1Vert2RegionMap.html#af428760b2b01d4a1e1d12f6872faa7e8", null ]
+    [ "vec", "classmrmeshpy_1_1Vert2RegionMap.html#a65d93af0ad1fc1f9ff62503f48f027a9", null ],
+    [ "vec", "classmrmeshpy_1_1Vert2RegionMap.html#ab1f292ac056d558e2bea809beaaa9185", null ]
 ];

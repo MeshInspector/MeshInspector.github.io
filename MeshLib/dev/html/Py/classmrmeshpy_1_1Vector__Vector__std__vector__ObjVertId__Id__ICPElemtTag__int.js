@@ -1,5 +1,7 @@
 var classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int =
 [
+    [ "const_iterator", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int_1_1const__iterator.html", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int_1_1const__iterator" ],
+    [ "iterator", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int_1_1iterator.html", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#aa311bb3b6bad1553960e7eb187944e21", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#aac717240e0f27936babb1ed46d67f152", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a95cb66d231b8b4375a41acb0b1442175", null ],
@@ -41,6 +43,6 @@ var classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__in
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#aded1364fd0e641f46e6c0ecba49c1d5f", null ],
     [ "size", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a1b63ec4463e577aa5b3e5294489cf889", null ],
     [ "swap", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#adbd032ab9e47ce8662da2eb26f27db8b", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#abc38b48d2c556d6d3fdc4a7799bea94a", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#af5cee68c3e2648a5d6a2f927edd5b3ce", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#acb2ca49e979c5646319e89a7be6f4f6b", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#afca1a3d777d3bacb49a4fa037d6264dc", null ]
 ];

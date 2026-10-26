@@ -1,5 +1,7 @@
 var classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId =
 [
+    [ "const_iterator", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1_1const__iterator" ],
+    [ "iterator", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1_1iterator.html", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#ad3187714ce3e4e88f9a62d2449ee8cf8", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a2d5ea73f05f21903196c641a7946fb2c", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#ab0ed9ac29eed6faeea1d380ae0afd118", null ],
@@ -39,6 +41,6 @@ var classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#aa0ec79f753fe48b77d1874153464b672", null ],
     [ "size", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a27b87b5a5abdc95d9a7c13f46e5a654e", null ],
     [ "swap", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#aeddc907da3c24d625a847c803b9908ce", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#ae35dd7464e614a2fc486f43826b525b5", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#afc4b7c1b7eaadf8cc5f20af345a504f6", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a2af7f34e69d2c8b1b7dd837329cdca59", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a868afeedcaa2cb8e7a29c10ca8850309", null ]
 ];

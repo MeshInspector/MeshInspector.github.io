@@ -1,5 +1,7 @@
 var classmrmeshpy_1_1Vector__PixelId__PixelId =
 [
+    [ "const_iterator", "classmrmeshpy_1_1Vector__PixelId__PixelId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__PixelId__PixelId_1_1const__iterator" ],
+    [ "iterator", "classmrmeshpy_1_1Vector__PixelId__PixelId_1_1iterator.html", "classmrmeshpy_1_1Vector__PixelId__PixelId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#aee0c9f92825eeb3eb32e543a9e12dd6b", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a324d62fd54e883a10279d122827f9394", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a3310d2e2349acf69ef2e92e0921a6e63", null ],
@@ -42,6 +44,6 @@ var classmrmeshpy_1_1Vector__PixelId__PixelId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#aada2ff22487b4b4552de564b7af5deed", null ],
     [ "size", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#af6167f2f82b175d5eb75dd9397e9a319", null ],
     [ "swap", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a8eec75cbcb701ba9676684fc78ceb3ac", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a40ccd0b6c372f351a83dc6e41b94759e", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a585b0534160feb39b5bd06cfdab7b659", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#ab0cd5bf618aa61653ef6b9925a192ec3", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a1381babd44f8c9d5b2bf76028e4525e5", null ]
 ];

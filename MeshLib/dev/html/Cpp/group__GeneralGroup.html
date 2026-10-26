@@ -882,6 +882,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AUnorientedTriangle" id="r_MR_3A_3AUnorientedTriangle"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UnorientedTriangle.html">MR::UnorientedTriangle</a></td></tr>
 <tr class="memitem:MR_3A_3AVector_3C_20T_2C_20I_20_3E" id="r_MR_3A_3AVector_3C_20T_2C_20I_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html">MR::Vector&lt; T, I &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <a href="classMR_1_1Vector.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AVector_3C_20T_2C_20I_20_3E_3A_3Aiterator" id="r_MR_3A_3AVector_3C_20T_2C_20I_20_3E_3A_3Aiterator"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Vector_1_1iterator.html">MR::Vector&lt; T, I &gt;::iterator</a></td></tr>
+<tr class="memitem:MR_3A_3AVector_3C_20T_2C_20I_20_3E_3A_3Aconst_5Fiterator" id="r_MR_3A_3AVector_3C_20T_2C_20I_20_3E_3A_3Aconst_5Fiterator"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Vector_1_1const__iterator.html">MR::Vector&lt; T, I &gt;::const_iterator</a></td></tr>
 <tr class="memitem:MR_3A_3AVector3_3C_20T_20_3E" id="r_MR_3A_3AVector3_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Vector3.html">MR::Vector3&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AVector4_3C_20T_20_3E" id="r_MR_3A_3AVector4_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Vector4.html">MR::Vector4&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AVectorTraits_3C_20T_20_3E" id="r_MR_3A_3AVectorTraits_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VectorTraits.html">MR::VectorTraits&lt; T &gt;</a></td></tr>
@@ -1453,6 +1455,7 @@ Macros</h2></td></tr>
 <tr class="memdesc:ga0bd0e9453da08815bd042baada75c822"><td class="mdescLeft">&#160;</td><td class="mdescRight">ignore for bindings to prevent GCC14 error: undefined symbol: <em>ZN2MR11getUnitInfoITkNS_8UnitEnumENS_8TimeUnitEEERKNS_8UnitInfoET</em>  <br /></td></tr>
 <tr class="memitem:ga0bd0e9453da08815bd042baada75c822" id="r_ga0bd0e9453da08815bd042baada75c822"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0bd0e9453da08815bd042baada75c822">MR_X</a>(E)</td></tr>
 <tr class="memdesc:ga0bd0e9453da08815bd042baada75c822"><td class="mdescLeft">&#160;</td><td class="mdescRight">ignore for bindings to prevent GCC14 error: undefined symbol: <em>ZN2MR11getUnitInfoITkNS_8UnitEnumENS_8TimeUnitEEERKNS_8UnitInfoET</em>  <br /></td></tr>
+<tr class="memitem:ga8204ec3bbd9bb583c8f8d36027bfbe39" id="r_ga8204ec3bbd9bb583c8f8d36027bfbe39"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8204ec3bbd9bb583c8f8d36027bfbe39">MR_VECTOR_ITERATOR_OPS</a>(Self,  Base)</td></tr>
 <tr class="memitem:ga76ba7d688be2473881f1f42c2f685060" id="r_ga76ba7d688be2473881f1f42c2f685060"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga76ba7d688be2473881f1f42c2f685060">MR_WRITER</a>(obj)</td></tr>
 <tr class="memitem:gaca0f72584b3dc8e794eda74bce81e2d4" id="r_gaca0f72584b3dc8e794eda74bce81e2d4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaca0f72584b3dc8e794eda74bce81e2d4">SCOPED_HISTORY</a>(...)</td></tr>
 <tr class="memitem:gad1709955819b9d2eb38aa06ebd34272c" id="r_gad1709955819b9d2eb38aa06ebd34272c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad1709955819b9d2eb38aa06ebd34272c">MR_REGISTER_RIBBON_ITEM</a>(pluginType)</td></tr>
@@ -1819,17 +1822,18 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:ga3f12c695d99ddb646e5d824fa7257413"><td class="mdescLeft">&#160;</td><td class="mdescRight">this callback will be called before compression on serialization and after decompression on deserialization  <br /></td></tr>
 <tr class="memitem:gaec57db09655986b2ed959d498edc6f2a" id="r_gaec57db09655986b2ed959d498edc6f2a"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:gaec57db09655986b2ed959d498edc6f2a template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaec57db09655986b2ed959d498edc6f2a">MR::detail::Units::MakeFloatingPoint</a> = std::conditional_t&lt;std::is_integral_v&lt;typename <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;::BaseType&gt;, typename <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;::template ChangeBaseType&lt;float&gt;, T&gt;</td></tr>
-<tr class="memitem:gabd41445fa91a71145e3d65599d21e191" id="r_gabd41445fa91a71145e3d65599d21e191"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabd41445fa91a71145e3d65599d21e191">MR::Vector&lt; T, I &gt;::value_type</a> = typename std::vector&lt;T&gt;::value_type</td></tr>
-<tr class="memitem:ga3e5aedaea3719bcb3fd6e41e9c9225ff" id="r_ga3e5aedaea3719bcb3fd6e41e9c9225ff"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3e5aedaea3719bcb3fd6e41e9c9225ff">MR::Vector&lt; T, I &gt;::reference</a> = typename std::vector&lt;T&gt;::reference</td></tr>
-<tr class="memitem:gaaa0ee5d98cd26c7e6232195bcda2b459" id="r_gaaa0ee5d98cd26c7e6232195bcda2b459"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaa0ee5d98cd26c7e6232195bcda2b459">MR::Vector&lt; T, I &gt;::const_reference</a> = typename std::vector&lt;T&gt;::const_reference</td></tr>
-<tr class="memitem:ga23a39a0e101ba40e7369b90045cb930d" id="r_ga23a39a0e101ba40e7369b90045cb930d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga23a39a0e101ba40e7369b90045cb930d">MR::Vector&lt; T, I &gt;::iterator</a> = typename std::vector&lt;T&gt;::iterator</td></tr>
-<tr class="memitem:gad2ec2e50ffddfcbf6168c243fa2da868" id="r_gad2ec2e50ffddfcbf6168c243fa2da868"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad2ec2e50ffddfcbf6168c243fa2da868">MR::Vector&lt; T, I &gt;::const_iterator</a> = typename std::vector&lt;T&gt;::const_iterator</td></tr>
-<tr class="memitem:ga164ed43e5c980e1bda2239cb1d2726df" id="r_ga164ed43e5c980e1bda2239cb1d2726df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga164ed43e5c980e1bda2239cb1d2726df">MR::Vector&lt; T, I &gt;::MR_BIND_IGNORE</a> = typename std::vector&lt;T&gt;::reverse_iterator</td></tr>
-<tr class="memitem:ga096127c915684746dfc79bfa3a271451" id="r_ga096127c915684746dfc79bfa3a271451"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga096127c915684746dfc79bfa3a271451">MR::Vector&lt; T, I &gt;::MR_BIND_IGNORE</a> = typename std::vector&lt;T&gt;::const_reverse_iterator</td></tr>
-<tr class="memitem:ga793de9c60b3410c88e0c86d5862f515c" id="r_ga793de9c60b3410c88e0c86d5862f515c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga793de9c60b3410c88e0c86d5862f515c">MR::Vector&lt; T, I &gt;::size_type</a> = typename std::vector&lt;T&gt;::size_type</td></tr>
-<tr class="memitem:ga835bcf13b39e3e4005180528bf105a10" id="r_ga835bcf13b39e3e4005180528bf105a10"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga835bcf13b39e3e4005180528bf105a10">MR::Vector&lt; T, I &gt;::difference_type</a> = typename std::vector&lt;T&gt;::difference_type</td></tr>
-<tr class="memitem:ga703b590f205a6d5c74f5dc5ca1574ecb" id="r_ga703b590f205a6d5c74f5dc5ca1574ecb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga703b590f205a6d5c74f5dc5ca1574ecb">MR::Vector&lt; T, I &gt;::pointer</a> = typename std::vector&lt;T&gt;::pointer</td></tr>
-<tr class="memitem:gaf647d2414cbca8ec3143a19dc1e1dc30" id="r_gaf647d2414cbca8ec3143a19dc1e1dc30"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf647d2414cbca8ec3143a19dc1e1dc30">MR::Vector&lt; T, I &gt;::const_pointer</a> = typename std::vector&lt;T&gt;::const_pointer</td></tr>
+<tr class="memitem:ga05d35859197b4d6aee5a40f5298aa396" id="r_ga05d35859197b4d6aee5a40f5298aa396"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga05d35859197b4d6aee5a40f5298aa396">MR::Vector&lt; T, I &gt;::StdVector</a> = std::vector&lt;T, <a class="el" href="structMR_1_1Allocator.html">Allocator</a>&lt;T&gt;&gt;</td></tr>
+<tr class="memitem:ga7be74f23d170f0eb46a13492ccc523b5" id="r_ga7be74f23d170f0eb46a13492ccc523b5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7be74f23d170f0eb46a13492ccc523b5">MR::Vector&lt; T, I &gt;::value_type</a> = typename StdVector::value_type</td></tr>
+<tr class="memitem:ga443ce4a2c3d27c1df0104636182ad94a" id="r_ga443ce4a2c3d27c1df0104636182ad94a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga443ce4a2c3d27c1df0104636182ad94a">MR::Vector&lt; T, I &gt;::reference</a> = typename StdVector::reference</td></tr>
+<tr class="memitem:ga3792df591217f4ccf637d698039d10b0" id="r_ga3792df591217f4ccf637d698039d10b0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3792df591217f4ccf637d698039d10b0">MR::Vector&lt; T, I &gt;::const_reference</a> = typename StdVector::const_reference</td></tr>
+<tr class="memitem:ga77dd2f223314af983b5d7e57de49e677" id="r_ga77dd2f223314af983b5d7e57de49e677"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga77dd2f223314af983b5d7e57de49e677">MR::Vector&lt; T, I &gt;::size_type</a> = typename StdVector::size_type</td></tr>
+<tr class="memitem:gaa3c6eb9e0044b7b65480835b91280618" id="r_gaa3c6eb9e0044b7b65480835b91280618"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa3c6eb9e0044b7b65480835b91280618">MR::Vector&lt; T, I &gt;::difference_type</a> = typename StdVector::difference_type</td></tr>
+<tr class="memitem:gaa18e93612e6dd9b427e2c02e18111935" id="r_gaa18e93612e6dd9b427e2c02e18111935"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa18e93612e6dd9b427e2c02e18111935">MR::Vector&lt; T, I &gt;::iterator::element_type</a> = T</td></tr>
+<tr class="memitem:ga1c5d7fe3fe197547ba67dc079206ce64" id="r_ga1c5d7fe3fe197547ba67dc079206ce64"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1c5d7fe3fe197547ba67dc079206ce64">MR::Vector&lt; T, I &gt;::const_iterator::element_type</a> = const T</td></tr>
+<tr class="memitem:ga56ca900f02012b45e7d0991ebe2c1fe7" id="r_ga56ca900f02012b45e7d0991ebe2c1fe7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga56ca900f02012b45e7d0991ebe2c1fe7">MR::Vector&lt; T, I &gt;::MR_BIND_IGNORE</a> = typename StdVector::reverse_iterator</td></tr>
+<tr class="memitem:gafd2587edb117806a36de1329a2a68463" id="r_gafd2587edb117806a36de1329a2a68463"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafd2587edb117806a36de1329a2a68463">MR::Vector&lt; T, I &gt;::MR_BIND_IGNORE</a> = typename StdVector::const_reverse_iterator</td></tr>
+<tr class="memitem:ga694cfbcc9b638bbbefbce49fca82c9e1" id="r_ga694cfbcc9b638bbbefbce49fca82c9e1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga694cfbcc9b638bbbefbce49fca82c9e1">MR::Vector&lt; T, I &gt;::pointer</a> = typename StdVector::pointer</td></tr>
+<tr class="memitem:gaa9539795e7626234886acf125b3415bd" id="r_gaa9539795e7626234886acf125b3415bd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa9539795e7626234886acf125b3415bd">MR::Vector&lt; T, I &gt;::const_pointer</a> = typename StdVector::const_pointer</td></tr>
 <tr class="memitem:ga8ecb748650561c957b8b73afd24288cb" id="r_ga8ecb748650561c957b8b73afd24288cb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8ecb748650561c957b8b73afd24288cb">MR::Vector3&lt; T &gt;::ValueType</a> = T</td></tr>
 <tr class="memitem:ga7c629d81f031f089ef5fb3ea45689ea5" id="r_ga7c629d81f031f089ef5fb3ea45689ea5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7c629d81f031f089ef5fb3ea45689ea5">MR::Vector3&lt; T &gt;::MatrixType</a> = <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt;T&gt;</td></tr>
 <tr class="memitem:ga1be16f68d003d1fe45b63bd915d50bff" id="r_ga1be16f68d003d1fe45b63bd915d50bff"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1be16f68d003d1fe45b63bd915d50bff">MR::Vector3&lt; T &gt;::SymMatrixType</a> = <a class="el" href="structMR_1_1SymMatrix3.html">SymMatrix3</a>&lt;T&gt;</td></tr>
@@ -3414,7 +3418,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga5c175130af9cbdf1fac5b175f1f44ae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">see methods' descriptions in <a class="el" href="classMR_1_1IFastWindingNumber.html" title="Abstract class for fast approximate computation of generalized winding number for a mesh (using its A...">IFastWindingNumber</a>  <br /></td></tr>
 <tr class="memitem:ga2f11c9de4efd17bdc6ac47d85b97c079" id="r_ga2f11c9de4efd17bdc6ac47d85b97c079"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2f11c9de4efd17bdc6ac47d85b97c079">MR::Cuda::FastWindingNumber::calcSelfIntersections</a> (FaceBitSet &amp;res, float beta, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>) override</td></tr>
 <tr class="memitem:gade8474a42b222e2956b6fe29750ac544" id="r_gade8474a42b222e2956b6fe29750ac544"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gade8474a42b222e2956b6fe29750ac544">MR::Cuda::FastWindingNumber::calcFromGrid</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>) override</td></tr>
-<tr class="memitem:gaeb495c4eda1b8be00020369fc04f7159" id="r_gaeb495c4eda1b8be00020369fc04f7159"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeb495c4eda1b8be00020369fc04f7159">MR::Cuda::FastWindingNumber::calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>) override</td></tr>
+<tr class="memitem:gab7e3bcd76e8a8c50f8ef5c1bf066bf93" id="r_gab7e3bcd76e8a8c50f8ef5c1bf066bf93"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab7e3bcd76e8a8c50f8ef5c1bf066bf93">MR::Cuda::FastWindingNumber::calcFromGridWithDistances</a> (VoxelScalars &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>) override</td></tr>
 <tr class="memitem:ga2a62210342991fb5c15a7f7627fbbd45" id="r_ga2a62210342991fb5c15a7f7627fbbd45"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2a62210342991fb5c15a7f7627fbbd45">MR::Cuda::FastWindingNumber::calcFromGridByParts</a> (<a class="el" href="#ga5c3de03791425a98b64056f1b16f2caa">GridByPartsFunc</a> resFunc, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, int layerOverlap, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>) override</td></tr>
 <tr class="memdesc:ga2a62210342991fb5c15a7f7627fbbd45"><td class="mdescLeft">&#160;</td><td class="mdescRight">see methods' descriptions in <a class="el" href="classMR_1_1IFastWindingNumberByParts.html" title="Abstract class that complements IFastWindingNumber with chunked processing variants of its methods.">IFastWindingNumberByParts</a>  <br /></td></tr>
 <tr class="memitem:gaa58e46d5a0d4b887dfc6f4edddafa860" id="r_gaa58e46d5a0d4b887dfc6f4edddafa860"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa58e46d5a0d4b887dfc6f4edddafa860">MR::Cuda::FastWindingNumber::calcFromGridWithDistancesByParts</a> (<a class="el" href="#ga5c3de03791425a98b64056f1b16f2caa">GridByPartsFunc</a> resFunc, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options, int layerOverlap, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>) override</td></tr>
@@ -4617,14 +4621,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ga44bf69fbb5b7c37e5a0ff132a6137581" id="r_ga44bf69fbb5b7c37e5a0ff132a6137581"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga44bf69fbb5b7c37e5a0ff132a6137581">MR::IFastWindingNumber::calcFromVector</a> (std::vector&lt; float &gt; &amp;res, const std::vector&lt; Vector3f &gt; &amp;<a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, float beta, FaceId skipFace={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})=0</td></tr>
 <tr class="memitem:ga9a9a27eb86c9d023a286bcf963c03cb3" id="r_ga9a9a27eb86c9d023a286bcf963c03cb3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9a9a27eb86c9d023a286bcf963c03cb3">MR::IFastWindingNumber::calcSelfIntersections</a> (FaceBitSet &amp;res, float beta, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})=0</td></tr>
 <tr class="memitem:ga368a1a0534476d08756358a07bcce617" id="r_ga368a1a0534476d08756358a07bcce617"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga368a1a0534476d08756358a07bcce617">MR::IFastWindingNumber::calcFromGrid</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})=0</td></tr>
-<tr class="memitem:gaeb59990afd6d9382244508e9e250972d" id="r_gaeb59990afd6d9382244508e9e250972d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeb59990afd6d9382244508e9e250972d">MR::IFastWindingNumber::calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>)=0</td></tr>
+<tr class="memitem:ga51462e38c8a3a0f48c9e4209227e378a" id="r_ga51462e38c8a3a0f48c9e4209227e378a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga51462e38c8a3a0f48c9e4209227e378a">MR::IFastWindingNumber::calcFromGridWithDistances</a> (VoxelScalars &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>)=0</td></tr>
 <tr class="memitem:ga90b9d5c62d0d6463de99213ab8ef902f" id="r_ga90b9d5c62d0d6463de99213ab8ef902f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga90b9d5c62d0d6463de99213ab8ef902f">MR::FastWindingNumber::FastWindingNumber</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>)</td></tr>
 <tr class="memitem:ga47037ab20d307d7d5cec6c6ccdfecb2f" id="r_ga47037ab20d307d7d5cec6c6ccdfecb2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga47037ab20d307d7d5cec6c6ccdfecb2f">MR::FastWindingNumber::calcFromVector</a> (std::vector&lt; float &gt; &amp;res, const std::vector&lt; Vector3f &gt; &amp;<a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, float beta, FaceId skipFace, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>) override</td></tr>
 <tr class="memdesc:ga47037ab20d307d7d5cec6c6ccdfecb2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">see methods' descriptions in <a class="el" href="classMR_1_1IFastWindingNumber.html" title="Abstract class for fast approximate computation of generalized winding number for a mesh (using its A...">IFastWindingNumber</a>  <br /></td></tr>
 <tr class="memitem:gab4b86b9ac5cf64724d0d5a51eef5905c" id="r_gab4b86b9ac5cf64724d0d5a51eef5905c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab4b86b9ac5cf64724d0d5a51eef5905c">MR::FastWindingNumber::calcSelfIntersections</a> (FaceBitSet &amp;res, float beta, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>) override</td></tr>
 <tr class="memitem:ga1dfcd2ac54d392958b88fdddedbdfbbc" id="r_ga1dfcd2ac54d392958b88fdddedbdfbbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1dfcd2ac54d392958b88fdddedbdfbbc">MR::FastWindingNumber::calcFromGrid</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>) override</td></tr>
 <tr class="memitem:ga4aa071fd6b623fca1cd12ffefee231a4" id="r_ga4aa071fd6b623fca1cd12ffefee231a4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4aa071fd6b623fca1cd12ffefee231a4">MR::FastWindingNumber::calcWithDistances</a> (const Vector3f &amp;p, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options)</td></tr>
-<tr class="memitem:ga12359d96784505cbfeca781364a909e6" id="r_ga12359d96784505cbfeca781364a909e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga12359d96784505cbfeca781364a909e6">MR::FastWindingNumber::calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>) override</td></tr>
+<tr class="memitem:gaf482e2b320252c726c7678f7a29b9a39" id="r_gaf482e2b320252c726c7678f7a29b9a39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf482e2b320252c726c7678f7a29b9a39">MR::FastWindingNumber::calcFromGridWithDistances</a> (VoxelScalars &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>) override</td></tr>
 <tr class="memitem:ga4cc15b56fc662a88628ca1a7de3eb914" id="r_ga4cc15b56fc662a88628ca1a7de3eb914"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4cc15b56fc662a88628ca1a7de3eb914">MR::IFastWindingNumberByParts::IFastWindingNumberByParts</a> ()=default</td></tr>
 <tr class="memdesc:ga4cc15b56fc662a88628ca1a7de3eb914"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly define ctors to avoid warning C5267: definition of implicit copy constructor is deprecated because it has a user-provided destructor  <br /></td></tr>
 <tr class="memitem:ga816ff6662fe8899fac1cddf3084583ca" id="r_ga816ff6662fe8899fac1cddf3084583ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga816ff6662fe8899fac1cddf3084583ca">MR::IFastWindingNumberByParts::IFastWindingNumberByParts</a> (const <a class="el" href="classMR_1_1IFastWindingNumberByParts.html">IFastWindingNumberByParts</a> &amp;)=default</td></tr>
@@ -7561,8 +7565,8 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga65df6f08609eca59bd1831503bf815c5" id="r_ga65df6f08609eca59bd1831503bf815c5"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga65df6f08609eca59bd1831503bf815c5">MR::TransparencyMode::getBGDepthPeelingDepthTextureId</a> () const</td></tr>
 <tr class="memitem:gace104b53c144673ddef1e4151a3a1cf0" id="r_gace104b53c144673ddef1e4151a3a1cf0"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gace104b53c144673ddef1e4151a3a1cf0">MR::TransparencyMode::getFGDepthPeelingColorTextureId</a> () const</td></tr>
 <tr class="memitem:ga4e77adaf3e1aa2e86d6f1158bf0841d6" id="r_ga4e77adaf3e1aa2e86d6f1158bf0841d6"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4e77adaf3e1aa2e86d6f1158bf0841d6">MR::TransparencyMode::getFGDepthPeelingDepthTextureId</a> () const</td></tr>
-<tr class="memitem:gad4c1d1b7c1a447ffccea9b5d867ef98b" id="r_gad4c1d1b7c1a447ffccea9b5d867ef98b"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:gad4c1d1b7c1a447ffccea9b5d867ef98b template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad4c1d1b7c1a447ffccea9b5d867ef98b">MR::resizeNoInit</a> (std::vector&lt; T &gt; &amp;vec, size_t targetSize) <a class="el" href="group__MathGroup.html#gab29a7719b4a571baf6abe4be5d93d4f2">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T) &gt; 0 &amp;&amp;std</td></tr>
+<tr class="memitem:gaf09d34a063be42816df755a058090659" id="r_gaf09d34a063be42816df755a058090659"><td class="memTemplParams" colspan="2">template&lt;typename T, typename A&gt; </td></tr>
+<tr class="memitem:gaf09d34a063be42816df755a058090659 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf09d34a063be42816df755a058090659">MR::resizeNoInit</a> (std::vector&lt; T, A &gt; &amp;vec, size_t targetSize) <a class="el" href="group__MathGroup.html#gab29a7719b4a571baf6abe4be5d93d4f2">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T) &gt; 0 &amp;&amp;std</td></tr>
 <tr class="memitem:ga7a23e297ae39af803b4a249aed7ff8b5" id="r_ga7a23e297ae39af803b4a249aed7ff8b5"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7a23e297ae39af803b4a249aed7ff8b5">MR::RigidScaleXf3&lt; T &gt;::RigidScaleXf3</a> () noexcept=default</td></tr>
 <tr class="memitem:ga997f09f418f6e779a0a511288d316a06" id="r_ga997f09f418f6e779a0a511288d316a06"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga997f09f418f6e779a0a511288d316a06">MR::RigidScaleXf3&lt; T &gt;::RigidScaleXf3</a> (const <a class="el" href="#ga6c4d0f89f0f64deb44bea0f257bbf755">V</a> &amp;<a class="el" href="#gac7250fbdfd02baf9936e263ed527779e">a</a>, const <a class="el" href="#ga6c4d0f89f0f64deb44bea0f257bbf755">V</a> &amp;<a class="el" href="#gaab41cf4d5be1d1a224a24a5b484e3a1d">b</a>, T <a class="el" href="#ga89ce25c6f6b3805955c04f054a2fb0a7">s</a>) noexcept</td></tr>
 <tr class="memitem:gacd29039623f95b68b2c1cdce22cdba76" id="r_gacd29039623f95b68b2c1cdce22cdba76"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
@@ -8188,6 +8192,13 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga45e593296b33c08794467bccc48dc9ef" id="r_ga45e593296b33c08794467bccc48dc9ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga45e593296b33c08794467bccc48dc9ef">MR::UnorientedTriangle::operator const ThreeVertIds &amp;</a> () const</td></tr>
 <tr class="memitem:ga3def19a0ec6d9b753da75d05825e1d0b" id="r_ga3def19a0ec6d9b753da75d05825e1d0b"><td class="memItemLeft" align="right" valign="top">VertId &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3def19a0ec6d9b753da75d05825e1d0b">MR::UnorientedTriangle::operator[]</a> (std::size_t i)</td></tr>
 <tr class="memitem:ga1559dd0f63575b110b6d67c47cd8ca61" id="r_ga1559dd0f63575b110b6d67c47cd8ca61"><td class="memItemLeft" align="right" valign="top">const VertId &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1559dd0f63575b110b6d67c47cd8ca61">MR::UnorientedTriangle::operator[]</a> (std::size_t i) const</td></tr>
+<tr class="memitem:gab5f5800669b7936bbc07be00313c36f5" id="r_gab5f5800669b7936bbc07be00313c36f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab5f5800669b7936bbc07be00313c36f5">MR::Vector&lt; T, I &gt;::iterator::iterator</a> ()=default</td></tr>
+<tr class="memdesc:gab5f5800669b7936bbc07be00313c36f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">for std::pointer_traits, some libc++ versions hard-error without it  <br /></td></tr>
+<tr class="memitem:ga3da262ec62991621ae1cb5edad8156cb" id="r_ga3da262ec62991621ae1cb5edad8156cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga56ca900f02012b45e7d0991ebe2c1fe7">MR_BIND_IGNORE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3da262ec62991621ae1cb5edad8156cb">MR::Vector&lt; T, I &gt;::iterator::iterator</a> (typename StdVector::iterator it)</td></tr>
+<tr class="memitem:gac52211cbf46210a09e45b615da06d15b" id="r_gac52211cbf46210a09e45b615da06d15b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac52211cbf46210a09e45b615da06d15b">MR::Vector&lt; T, I &gt;::const_iterator::const_iterator</a> ()=default</td></tr>
+<tr class="memitem:gac12f202c82f8f7b3efd6a6a334920f6c" id="r_gac12f202c82f8f7b3efd6a6a334920f6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga56ca900f02012b45e7d0991ebe2c1fe7">MR_BIND_IGNORE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac12f202c82f8f7b3efd6a6a334920f6c">MR::Vector&lt; T, I &gt;::const_iterator::const_iterator</a> (typename StdVector::const_iterator it)</td></tr>
+<tr class="memitem:ga15595bafada79ff0bb6fc4bb1b495922" id="r_ga15595bafada79ff0bb6fc4bb1b495922"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga56ca900f02012b45e7d0991ebe2c1fe7">MR_BIND_IGNORE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga15595bafada79ff0bb6fc4bb1b495922">MR::Vector&lt; T, I &gt;::const_iterator::const_iterator</a> (typename StdVector::iterator it)</td></tr>
+<tr class="memitem:ga51cdadacc398bbf8031909aaac008459" id="r_ga51cdadacc398bbf8031909aaac008459"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga51cdadacc398bbf8031909aaac008459">MR::Vector&lt; T, I &gt;::const_iterator::const_iterator</a> (<a class="el" href="structMR_1_1Vector_1_1iterator.html">iterator</a> it)</td></tr>
 <tr class="memitem:ga0c68875da8e1de13eb3033e6dcb33bf3" id="r_ga0c68875da8e1de13eb3033e6dcb33bf3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c68875da8e1de13eb3033e6dcb33bf3">MR::Vector&lt; T, I &gt;::Vector</a> ()=default</td></tr>
 <tr class="memdesc:ga0c68875da8e1de13eb3033e6dcb33bf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="memitem:ga2cfec5e1584dd9df4e72448620afecd6" id="r_ga2cfec5e1584dd9df4e72448620afecd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2cfec5e1584dd9df4e72448620afecd6">MR::Vector&lt; T, I &gt;::MR_BIND_OVERLOAD_SUFFIX</a> () explicit <a class="el" href="classMR_1_1Vector.html">Vector</a>(size_t <a class="el" href="#ga306ff1f62992b3eb33c446913b64188a">size</a>) <a class="el" href="group__MathGroup.html#gab29a7719b4a571baf6abe4be5d93d4f2">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
@@ -11721,8 +11732,8 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="memitem:ga2bb611f9d72c80f0aa38d68e6a008ad0" id="r_ga2bb611f9d72c80f0aa38d68e6a008ad0"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2bb611f9d72c80f0aa38d68e6a008ad0">MR::IComputeToolDistance::~IComputeToolDistance</a> ()=default</td></tr>
 <tr class="memitem:ga8ea4d968e93876e24b36709e9324f596" id="r_ga8ea4d968e93876e24b36709e9324f596"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; Vector3i &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8ea4d968e93876e24b36709e9324f596">MR::IComputeToolDistance::prepare</a> (const Vector3i &amp;dims, const Polyline3 &amp;toolpath, const <a class="el" href="structMR_1_1EndMillTool.html">EndMillTool</a> &amp;toolSpec)=0</td></tr>
 <tr class="memitem:gaf4e1c6d89878989a6012b5d845adcd1a" id="r_gaf4e1c6d89878989a6012b5d845adcd1a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; Vector3i &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf4e1c6d89878989a6012b5d845adcd1a">MR::IComputeToolDistance::prepare</a> (const Vector3i &amp;dims, const Polyline3 &amp;toolpath, const <a class="el" href="#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;toolProfile)=0</td></tr>
-<tr class="memitem:ga0053dac6d78b84037562e955eb49f7bd" id="r_ga0053dac6d78b84037562e955eb49f7bd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0053dac6d78b84037562e955eb49f7bd">MR::IComputeToolDistance::computeToolDistance</a> (std::vector&lt; float &gt; &amp;output, const Vector3i &amp;dims, float voxelSize, const Vector3f &amp;origin, float padding) const =0</td></tr>
-<tr class="memdesc:ga0053dac6d78b84037562e955eb49f7bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute tool distance.  <br /></td></tr>
+<tr class="memitem:ga7de3c227bc305585e2805adbafdf54a2" id="r_ga7de3c227bc305585e2805adbafdf54a2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7de3c227bc305585e2805adbafdf54a2">MR::IComputeToolDistance::computeToolDistance</a> (VoxelScalars &amp;output, const Vector3i &amp;dims, float voxelSize, const Vector3f &amp;origin, float padding) const =0</td></tr>
+<tr class="memdesc:ga7de3c227bc305585e2805adbafdf54a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute tool distance.  <br /></td></tr>
 <tr class="memitem:gaa1659b82dc99e8c5f412e35c7a94b4d7" id="r_gaa1659b82dc99e8c5f412e35c7a94b4d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa1659b82dc99e8c5f412e35c7a94b4d7">MR::computeSweptVolumeWithCustomToolDistance</a> (<a class="el" href="classMR_1_1IComputeToolDistance.html">IComputeToolDistance</a> &amp;comp, const <a class="el" href="structMR_1_1ComputeSweptVolumeParameters.html">ComputeSweptVolumeParameters</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>)</td></tr>
 <tr class="memitem:gac7bbd13981e37cfd5f67ff65e8974d12" id="r_gac7bbd13981e37cfd5f67ff65e8974d12"><td class="memTemplParams" colspan="2">template&lt;int id&gt; </td></tr>
 <tr class="memitem:gac7bbd13981e37cfd5f67ff65e8974d12 template"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classMR_1_1DentalId.html">DentalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac7bbd13981e37cfd5f67ff65e8974d12">MR::DentalId::fromFDI</a> ()</td></tr>
@@ -13472,8 +13483,8 @@ Variables</h2></td></tr>
 <tr class="memitem:gaf59abe4d1987a4ccd1c117cfe7f3c160" id="r_gaf59abe4d1987a4ccd1c117cfe7f3c160"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf59abe4d1987a4ccd1c117cfe7f3c160">MR::SaveSettings::packPrimitives</a> = true</td></tr>
 <tr class="memitem:ga6aa78ab8ac3342aaeb267aa07e82721a" id="r_ga6aa78ab8ac3342aaeb267aa07e82721a"><td class="memItemLeft" align="right" valign="top">const VertColors *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6aa78ab8ac3342aaeb267aa07e82721a">MR::SaveSettings::colors</a> = nullptr</td></tr>
 <tr class="memdesc:ga6aa78ab8ac3342aaeb267aa07e82721a"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional per-vertex color to save with the geometry  <br /></td></tr>
-<tr class="memitem:ga2adbb4514d02bbf6b87e95a090e1a2d9" id="r_ga2adbb4514d02bbf6b87e95a090e1a2d9"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2adbb4514d02bbf6b87e95a090e1a2d9">MR::SaveSettings::primitiveColors</a> = nullptr</td></tr>
-<tr class="memdesc:ga2adbb4514d02bbf6b87e95a090e1a2d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other  <br /></td></tr>
+<tr class="memitem:gae69bdaae52bb72f2d7c23b3d04d9d6d3" id="r_gae69bdaae52bb72f2d7c23b3d04d9d6d3"><td class="memItemLeft" align="right" valign="top">const FaceColors *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae69bdaae52bb72f2d7c23b3d04d9d6d3">MR::SaveSettings::primitiveColors</a> = nullptr</td></tr>
+<tr class="memdesc:gae69bdaae52bb72f2d7c23b3d04d9d6d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other  <br /></td></tr>
 <tr class="memitem:ga71c2ed63cb6a101dbd9b47f8ca9898fd" id="r_ga71c2ed63cb6a101dbd9b47f8ca9898fd"><td class="memItemLeft" align="right" valign="top">const VertUVCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga71c2ed63cb6a101dbd9b47f8ca9898fd">MR::SaveSettings::uvMap</a> = nullptr</td></tr>
 <tr class="memdesc:ga71c2ed63cb6a101dbd9b47f8ca9898fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional per-vertex uv coordinate to save with the geometry  <br /></td></tr>
 <tr class="memitem:gac0798760baa0755ad37dde251b754b9d" id="r_gac0798760baa0755ad37dde251b754b9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac0798760baa0755ad37dde251b754b9d">MR::SaveSettings::saveTriCornerUVCoords</a> = true</td></tr>
@@ -15376,6 +15387,7 @@ Friends</h2></td></tr>
 <tr class="memitem:ga49b96d931ecbe6f88e3b838a6347d14e" id="r_ga49b96d931ecbe6f88e3b838a6347d14e"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga49b96d931ecbe6f88e3b838a6347d14e">MR::TriPoint&lt; T &gt;::operator&lt;&lt;</a> (std::ostream &amp;s, const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a> &amp;tp)</td></tr>
 <tr class="memitem:gaae0ca13e381c0da0a32ffd38d5f8c346" id="r_gaae0ca13e381c0da0a32ffd38d5f8c346"><td class="memItemLeft" align="right" valign="top">std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaae0ca13e381c0da0a32ffd38d5f8c346">MR::TriPoint&lt; T &gt;::operator&gt;&gt;</a> (std::istream &amp;s, <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a> &amp;tp)</td></tr>
 <tr class="memitem:ga612a5709db207a238542c54810f6af4c" id="r_ga612a5709db207a238542c54810f6af4c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga612a5709db207a238542c54810f6af4c">MR::UnorientedTriangle::operator==</a> (const <a class="el" href="structMR_1_1UnorientedTriangle.html">UnorientedTriangle</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="structMR_1_1UnorientedTriangle.html">UnorientedTriangle</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)=default</td></tr>
+<tr class="memitem:ga09dd9d1578d74c92946b3ababee79596" id="r_ga09dd9d1578d74c92946b3ababee79596"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga56ca900f02012b45e7d0991ebe2c1fe7">MR_BIND_IGNORE</a> friend bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga09dd9d1578d74c92946b3ababee79596">MR::Vector&lt; T, I &gt;::const_iterator::operator==</a> (const <a class="el" href="structMR_1_1Vector_1_1const__iterator.html">const_iterator</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="structMR_1_1Vector_1_1iterator.html">iterator</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
 <tr class="memitem:gaa313f8ba832a4b648631b27ecc640444" id="r_gaa313f8ba832a4b648631b27ecc640444"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa313f8ba832a4b648631b27ecc640444">MR::Vector3&lt; T &gt;::operator==</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
 <tr class="memitem:ga21621332debf444906aee7baa46ec9bd" id="r_ga21621332debf444906aee7baa46ec9bd"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga21621332debf444906aee7baa46ec9bd">MR::Vector3&lt; T &gt;::operator!=</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
 <tr class="memitem:ga6ff62d94821680cd4aa78b7f0e9fc08f" id="r_ga6ff62d94821680cd4aa78b7f0e9fc08f"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6ff62d94821680cd4aa78b7f0e9fc08f">MR::Vector3&lt; T &gt;::operator+</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>)</td></tr>
@@ -15995,6 +16007,49 @@ Friends</h2></td></tr>
 <div class="ttc" id="aclassMR_1_1RibbonMenuItemCall_html"><div class="ttname"><a href="classMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall</a></div><div class="ttdef"><b>Definition</b> MRRibbonSchema.h:184</div></div>
 </div><!-- fragment -->
 <p>calls f(const std::shared_ptr&lt;plugin&gt; &amp;) on module loading, and calls g(const std::shared_ptr&lt;plugin&gt; &amp;) on module unloading </p>
+
+</div>
+</div>
+<a id="ga8204ec3bbd9bb583c8f8d36027bfbe39" name="ga8204ec3bbd9bb583c8f8d36027bfbe39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8204ec3bbd9bb583c8f8d36027bfbe39">&#9670;&#160;</a></span>MR_VECTOR_ITERATOR_OPS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_VECTOR_ITERATOR_OPS</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>Self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>Base</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVector_8h.html">MRMesh/MRVector.h</a>&gt;</code></p>
+<b>Value:</b><div class="fragment"><div class="line">    [[nodiscard]] <span class="keyword">typename</span> std::iterator_traits&lt;Base&gt;::reference <a class="code hl_function" href="MRImGuiVectorOperators_8h.html#a6bfc05fae3fc578b2825f581c6f5407f">operator *</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> *<span class="keyword">static_cast&lt;</span><span class="keyword">const </span>Base &amp;<span class="keyword">&gt;</span>( *this ); } \</div>
+<div class="line">    [[nodiscard]] MR_BIND_IGNORE <span class="keyword">typename</span> std::iterator_traits&lt;Base&gt;::pointer operator -&gt;()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> std::to_address( <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>Base &amp;<span class="keyword">&gt;</span>( *<span class="keyword">this</span> ) ); } \</div>
+<div class="line">    [[nodiscard]] <span class="keywordtype">bool</span> <a class="code hl_function" href="MRImGuiVectorOperators_8h.html#a0878630c44dad775e8cc9a8f29109e5b">operator ==</a>( <span class="keyword">const</span> Self &amp; b )<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>Base &amp;<span class="keyword">&gt;</span>( *this ) == <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>Base &amp;<span class="keyword">&gt;</span>( <a class="code hl_variable" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a> ); } \</div>
+<div class="line">    Self &amp; operator ++() { ++<span class="keyword">static_cast&lt;</span>Base &amp;<span class="keyword">&gt;</span>( *this ); <span class="keywordflow">return</span> *<span class="keyword">this</span>; } \</div>
+<div class="line">    Self operator ++( <span class="keywordtype">int</span> ) { Self res = *<span class="keyword">this</span>; ++*<span class="keyword">this</span>; <span class="keywordflow">return</span> res; } \</div>
+<div class="line">    Self &amp; operator --() { --<span class="keyword">static_cast&lt;</span>Base &amp;<span class="keyword">&gt;</span>( *this ); <span class="keywordflow">return</span> *<span class="keyword">this</span>; } \</div>
+<div class="line">    Self operator --( <span class="keywordtype">int</span> ) { Self res = *<span class="keyword">this</span>; --*<span class="keyword">this</span>; <span class="keywordflow">return</span> res; } \</div>
+<div class="line">    Self &amp; <a class="code hl_function" href="MRImGuiVectorOperators_8h.html#ac908840be602197b44593f88841d62fc">operator +=</a>( difference_type n ) { <span class="keyword">static_cast&lt;</span>Base &amp;<span class="keyword">&gt;</span>( *this ) += n; <span class="keywordflow">return</span> *<span class="keyword">this</span>; } \</div>
+<div class="line">    Self &amp; <a class="code hl_function" href="MRImGuiVectorOperators_8h.html#a8556ebd3ff55421b41967bfbdc1e3aba">operator -=</a>( difference_type n ) { <span class="keyword">static_cast&lt;</span>Base &amp;<span class="keyword">&gt;</span>( *this ) -= n; <span class="keywordflow">return</span> *<span class="keyword">this</span>; } \</div>
+<div class="line">    [[nodiscard]] <span class="keyword">friend</span> Self <a class="code hl_function" href="MRImGuiVectorOperators_8h.html#a57c6b7abb0d440f81d2e0e563f66c947">operator +</a>( Self it, difference_type n ) { <span class="keywordflow">return</span> it += n; } \</div>
+<div class="line">    [[nodiscard]] <span class="keyword">friend</span> Self <a class="code hl_function" href="MRImGuiVectorOperators_8h.html#a57c6b7abb0d440f81d2e0e563f66c947">operator +</a>( difference_type n, Self it ) { <span class="keywordflow">return</span> it += n; } \</div>
+<div class="line">    [[nodiscard]] <span class="keyword">friend</span> Self <a class="code hl_function" href="MRImGuiVectorOperators_8h.html#a1bb63ebefff7965e722fdab681030eda">operator -</a>( Self it, difference_type n ) { <span class="keywordflow">return</span> it -= n; }</div>
+<div class="ttc" id="aMRImGuiVectorOperators_8h_html_a0878630c44dad775e8cc9a8f29109e5b"><div class="ttname"><a href="MRImGuiVectorOperators_8h.html#a0878630c44dad775e8cc9a8f29109e5b">operator==</a></div><div class="ttdeci">constexpr bool operator==(ImVec2 a, ImVec2 b)</div><div class="ttdef"><b>Definition</b> MRImGuiVectorOperators.h:117</div></div>
+<div class="ttc" id="aMRImGuiVectorOperators_8h_html_a1bb63ebefff7965e722fdab681030eda"><div class="ttname"><a href="MRImGuiVectorOperators_8h.html#a1bb63ebefff7965e722fdab681030eda">operator-</a></div><div class="ttdeci">constexpr A operator-(A a)</div><div class="ttdef"><b>Definition</b> MRImGuiVectorOperators.h:98</div></div>
+<div class="ttc" id="aMRImGuiVectorOperators_8h_html_a57c6b7abb0d440f81d2e0e563f66c947"><div class="ttname"><a href="MRImGuiVectorOperators_8h.html#a57c6b7abb0d440f81d2e0e563f66c947">operator+</a></div><div class="ttdeci">constexpr A operator+(A a)</div><div class="ttdoc">Operators.</div><div class="ttdef"><b>Definition</b> MRImGuiVectorOperators.h:97</div></div>
+<div class="ttc" id="aMRImGuiVectorOperators_8h_html_a6bfc05fae3fc578b2825f581c6f5407f"><div class="ttname"><a href="MRImGuiVectorOperators_8h.html#a6bfc05fae3fc578b2825f581c6f5407f">operator*</a></div><div class="ttdeci">constexpr auto operator*(A a, B b)</div><div class="ttdef"><b>Definition</b> MRImGuiVectorOperators.h:107</div></div>
+<div class="ttc" id="aMRImGuiVectorOperators_8h_html_a8556ebd3ff55421b41967bfbdc1e3aba"><div class="ttname"><a href="MRImGuiVectorOperators_8h.html#a8556ebd3ff55421b41967bfbdc1e3aba">operator-=</a></div><div class="ttdeci">constexpr A &amp; operator-=(A &amp;a, B b)</div><div class="ttdef"><b>Definition</b> MRImGuiVectorOperators.h:113</div></div>
+<div class="ttc" id="aMRImGuiVectorOperators_8h_html_ac908840be602197b44593f88841d62fc"><div class="ttname"><a href="MRImGuiVectorOperators_8h.html#ac908840be602197b44593f88841d62fc">operator+=</a></div><div class="ttdeci">constexpr A &amp; operator+=(A &amp;a, B b)</div><div class="ttdef"><b>Definition</b> MRImGuiVectorOperators.h:112</div></div>
+<div class="ttc" id="agroup__FillHoleGroup_html_ga18e48630776db875b1a03ec6f89e6edd"><div class="ttname"><a href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">MR::b</a></div><div class="ttdeci">const MeshPart &amp; b</div><div class="ttdef"><b>Definition</b> MRMeshCollidePrecise.h:71</div></div>
+</div><!-- fragment --><p>Operators of <span class="tt">Vector::iterator</span> / <span class="tt">Vector::const_iterator</span> returning the derived type, which C++20 iterator concepts require; <span class="tt">*</span> and <span class="tt">==</span> are repeated for the bindings, <span class="tt">-&gt;</span> avoids MSVC's dereferenceability check in <span class="tt">std::to_address( end )</span> </p>
 
 </div>
 </div>
@@ -17020,7 +17075,7 @@ template&lt;typename Tag&gt; </div>
 </div>
 </div>
 <a id="gae59d432ebfdf2ba3aa9e626357dcc0a3" name="gae59d432ebfdf2ba3aa9e626357dcc0a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae59d432ebfdf2ba3aa9e626357dcc0a3">&#9670;&#160;</a></span>const_iterator <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae59d432ebfdf2ba3aa9e626357dcc0a3">&#9670;&#160;</a></span>const_iterator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -17035,8 +17090,8 @@ template&lt;typename V, typename <a class="el" href="#ga7d89e508205d25559adcd087
 
 </div>
 </div>
-<a id="gad2ec2e50ffddfcbf6168c243fa2da868" name="gad2ec2e50ffddfcbf6168c243fa2da868"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad2ec2e50ffddfcbf6168c243fa2da868">&#9670;&#160;</a></span>const_iterator <span class="overload">[2/2]</span></h2>
+<a id="gaa9539795e7626234886acf125b3415bd" name="gaa9539795e7626234886acf125b3415bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa9539795e7626234886acf125b3415bd">&#9670;&#160;</a></span>const_pointer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -17044,23 +17099,7 @@ template&lt;typename V, typename <a class="el" href="#ga7d89e508205d25559adcd087
 template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::const_iterator = typename std::vector&lt;T&gt;::const_iterator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="gaf647d2414cbca8ec3143a19dc1e1dc30" name="gaf647d2414cbca8ec3143a19dc1e1dc30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf647d2414cbca8ec3143a19dc1e1dc30">&#9670;&#160;</a></span>const_pointer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::const_pointer = typename std::vector&lt;T&gt;::const_pointer</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::const_pointer = typename StdVector::const_pointer</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -17083,8 +17122,8 @@ template&lt;typename V, typename <a class="el" href="#ga7d89e508205d25559adcd087
 
 </div>
 </div>
-<a id="gaaa0ee5d98cd26c7e6232195bcda2b459" name="gaaa0ee5d98cd26c7e6232195bcda2b459"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaaa0ee5d98cd26c7e6232195bcda2b459">&#9670;&#160;</a></span>const_reference <span class="overload">[2/2]</span></h2>
+<a id="ga3792df591217f4ccf637d698039d10b0" name="ga3792df591217f4ccf637d698039d10b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3792df591217f4ccf637d698039d10b0">&#9670;&#160;</a></span>const_reference <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -17092,7 +17131,7 @@ template&lt;typename V, typename <a class="el" href="#ga7d89e508205d25559adcd087
 template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::const_reference = typename std::vector&lt;T&gt;::const_reference</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::const_reference = typename StdVector::const_reference</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -17741,8 +17780,8 @@ template&lt;typename N&gt; </div>
 
 </div>
 </div>
-<a id="ga835bcf13b39e3e4005180528bf105a10" name="ga835bcf13b39e3e4005180528bf105a10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga835bcf13b39e3e4005180528bf105a10">&#9670;&#160;</a></span>difference_type <span class="overload">[4/4]</span></h2>
+<a id="gaa3c6eb9e0044b7b65480835b91280618" name="gaa3c6eb9e0044b7b65480835b91280618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa3c6eb9e0044b7b65480835b91280618">&#9670;&#160;</a></span>difference_type <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -17750,7 +17789,7 @@ template&lt;typename N&gt; </div>
 template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::difference_type = typename std::vector&lt;T&gt;::difference_type</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::difference_type = typename StdVector::difference_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -18069,6 +18108,38 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga1c5d7fe3fe197547ba67dc079206ce64" name="ga1c5d7fe3fe197547ba67dc079206ce64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1c5d7fe3fe197547ba67dc079206ce64">&#9670;&#160;</a></span>element_type <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::const_iterator::element_type = const T</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa18e93612e6dd9b427e2c02e18111935" name="gaa18e93612e6dd9b427e2c02e18111935"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa18e93612e6dd9b427e2c02e18111935">&#9670;&#160;</a></span>element_type <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::iterator::element_type = T</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -19069,7 +19140,7 @@ template&lt;typename TreeT&gt; </div>
 </div>
 </div>
 <a id="gafa13cb6ef3db757db3c9c7e75957e061" name="gafa13cb6ef3db757db3c9c7e75957e061"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafa13cb6ef3db757db3c9c7e75957e061">&#9670;&#160;</a></span>iterator <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafa13cb6ef3db757db3c9c7e75957e061">&#9670;&#160;</a></span>iterator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -19078,22 +19149,6 @@ template&lt;typename V, typename <a class="el" href="#ga7d89e508205d25559adcd087
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classMR_1_1Buffer.html">MR::Buffer</a>&lt; V, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::iterator = <a class="el" href="#ga5b6a0d86e31b5f12076c72778352a6a8">T</a>*</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga23a39a0e101ba40e7369b90045cb930d" name="ga23a39a0e101ba40e7369b90045cb930d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga23a39a0e101ba40e7369b90045cb930d">&#9670;&#160;</a></span>iterator <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::iterator = typename std::vector&lt;T&gt;::iterator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -19913,8 +19968,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga164ed43e5c980e1bda2239cb1d2726df" name="ga164ed43e5c980e1bda2239cb1d2726df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga164ed43e5c980e1bda2239cb1d2726df">&#9670;&#160;</a></span>MR_BIND_IGNORE <span class="overload">[2/3]</span></h2>
+<a id="ga56ca900f02012b45e7d0991ebe2c1fe7" name="ga56ca900f02012b45e7d0991ebe2c1fe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga56ca900f02012b45e7d0991ebe2c1fe7">&#9670;&#160;</a></span>MR_BIND_IGNORE <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -19922,15 +19977,15 @@ template&lt;typename T&gt; </div>
 template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::MR_BIND_IGNORE = typename std::vector&lt;T&gt;::reverse_iterator</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::MR_BIND_IGNORE = typename StdVector::reverse_iterator</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ga096127c915684746dfc79bfa3a271451" name="ga096127c915684746dfc79bfa3a271451"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga096127c915684746dfc79bfa3a271451">&#9670;&#160;</a></span>MR_BIND_IGNORE <span class="overload">[3/3]</span></h2>
+<a id="gafd2587edb117806a36de1329a2a68463" name="gafd2587edb117806a36de1329a2a68463"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafd2587edb117806a36de1329a2a68463">&#9670;&#160;</a></span>MR_BIND_IGNORE <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -19938,7 +19993,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::MR_BIND_IGNORE = typename std::vector&lt;T&gt;::const_reverse_iterator</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::MR_BIND_IGNORE = typename StdVector::const_reverse_iterator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -20791,8 +20846,8 @@ template&lt;typename ... Connectables&gt; </div>
 
 </div>
 </div>
-<a id="ga703b590f205a6d5c74f5dc5ca1574ecb" name="ga703b590f205a6d5c74f5dc5ca1574ecb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga703b590f205a6d5c74f5dc5ca1574ecb">&#9670;&#160;</a></span>pointer <span class="overload">[2/2]</span></h2>
+<a id="ga694cfbcc9b638bbbefbce49fca82c9e1" name="ga694cfbcc9b638bbbefbce49fca82c9e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga694cfbcc9b638bbbefbce49fca82c9e1">&#9670;&#160;</a></span>pointer <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -20800,7 +20855,7 @@ template&lt;typename ... Connectables&gt; </div>
 template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::pointer = typename std::vector&lt;T&gt;::pointer</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::pointer = typename StdVector::pointer</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -21137,8 +21192,8 @@ template&lt;typename V, typename <a class="el" href="#ga7d89e508205d25559adcd087
 
 </div>
 </div>
-<a id="ga3e5aedaea3719bcb3fd6e41e9c9225ff" name="ga3e5aedaea3719bcb3fd6e41e9c9225ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3e5aedaea3719bcb3fd6e41e9c9225ff">&#9670;&#160;</a></span>reference <span class="overload">[3/3]</span></h2>
+<a id="ga443ce4a2c3d27c1df0104636182ad94a" name="ga443ce4a2c3d27c1df0104636182ad94a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga443ce4a2c3d27c1df0104636182ad94a">&#9670;&#160;</a></span>reference <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -21146,7 +21201,7 @@ template&lt;typename V, typename <a class="el" href="#ga7d89e508205d25559adcd087
 template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::reference = typename std::vector&lt;T&gt;::reference</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::reference = typename StdVector::reference</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -21584,8 +21639,8 @@ template&lt;typename T, typename P = std::less&lt;T&gt;&gt; </div>
 
 </div>
 </div>
-<a id="ga793de9c60b3410c88e0c86d5862f515c" name="ga793de9c60b3410c88e0c86d5862f515c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga793de9c60b3410c88e0c86d5862f515c">&#9670;&#160;</a></span>size_type <span class="overload">[2/2]</span></h2>
+<a id="ga77dd2f223314af983b5d7e57de49e677" name="ga77dd2f223314af983b5d7e57de49e677"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga77dd2f223314af983b5d7e57de49e677">&#9670;&#160;</a></span>size_type <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -21593,7 +21648,7 @@ template&lt;typename T, typename P = std::less&lt;T&gt;&gt; </div>
 template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::size_type = typename std::vector&lt;T&gt;::size_type</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::size_type = typename StdVector::size_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -21771,6 +21826,22 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRViewerFwd_8h.html">MRViewer/MRViewerFwd.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga05d35859197b4d6aee5a40f5298aa396" name="ga05d35859197b4d6aee5a40f5298aa396"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga05d35859197b4d6aee5a40f5298aa396">&#9670;&#160;</a></span>StdVector</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::StdVector = std::vector&lt;T, <a class="el" href="structMR_1_1Allocator.html">Allocator</a>&lt;T&gt;&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -23075,8 +23146,8 @@ template&lt;typename N&gt; </div>
 
 </div>
 </div>
-<a id="gabd41445fa91a71145e3d65599d21e191" name="gabd41445fa91a71145e3d65599d21e191"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabd41445fa91a71145e3d65599d21e191">&#9670;&#160;</a></span>value_type <span class="overload">[8/8]</span></h2>
+<a id="ga7be74f23d170f0eb46a13492ccc523b5" name="ga7be74f23d170f0eb46a13492ccc523b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7be74f23d170f0eb46a13492ccc523b5">&#9670;&#160;</a></span>value_type <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -23084,7 +23155,7 @@ template&lt;typename N&gt; </div>
 template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::value_type = typename std::vector&lt;T&gt;::value_type</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::value_type = typename StdVector::value_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -40215,8 +40286,8 @@ if all even edges are consistently oriented, then the output contours will be or
 
 </div>
 </div>
-<a id="gaeb495c4eda1b8be00020369fc04f7159" name="gaeb495c4eda1b8be00020369fc04f7159"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeb495c4eda1b8be00020369fc04f7159">&#9670;&#160;</a></span>calcFromGridWithDistances() <span class="overload">[1/3]</span></h2>
+<a id="gab7e3bcd76e8a8c50f8ef5c1bf066bf93" name="gab7e3bcd76e8a8c50f8ef5c1bf066bf93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab7e3bcd76e8a8c50f8ef5c1bf066bf93">&#9670;&#160;</a></span>calcFromGridWithDistances() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -40227,7 +40298,7 @@ if all even edges are consistently oriented, then the output contours will be or
         <tr>
           <td class="memname">MRCUDA_API <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::Cuda::FastWindingNumber::calcFromGridWithDistances </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+          <td class="paramtype">VoxelScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -40266,12 +40337,12 @@ if all even edges are consistently oriented, then the output contours will be or
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="#gaeb59990afd6d9382244508e9e250972d">MR::IFastWindingNumber</a>.</p>
+<p>Implements <a class="el" href="#ga51462e38c8a3a0f48c9e4209227e378a">MR::IFastWindingNumber</a>.</p>
 
 </div>
 </div>
-<a id="ga12359d96784505cbfeca781364a909e6" name="ga12359d96784505cbfeca781364a909e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga12359d96784505cbfeca781364a909e6">&#9670;&#160;</a></span>calcFromGridWithDistances() <span class="overload">[2/3]</span></h2>
+<a id="gaf482e2b320252c726c7678f7a29b9a39" name="gaf482e2b320252c726c7678f7a29b9a39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf482e2b320252c726c7678f7a29b9a39">&#9670;&#160;</a></span>calcFromGridWithDistances() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -40282,7 +40353,7 @@ if all even edges are consistently oriented, then the output contours will be or
         <tr>
           <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::FastWindingNumber::calcFromGridWithDistances </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+          <td class="paramtype">VoxelScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -40321,12 +40392,12 @@ if all even edges are consistently oriented, then the output contours will be or
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="#gaeb59990afd6d9382244508e9e250972d">MR::IFastWindingNumber</a>.</p>
+<p>Implements <a class="el" href="#ga51462e38c8a3a0f48c9e4209227e378a">MR::IFastWindingNumber</a>.</p>
 
 </div>
 </div>
-<a id="gaeb59990afd6d9382244508e9e250972d" name="gaeb59990afd6d9382244508e9e250972d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeb59990afd6d9382244508e9e250972d">&#9670;&#160;</a></span>calcFromGridWithDistances() <span class="overload">[3/3]</span></h2>
+<a id="ga51462e38c8a3a0f48c9e4209227e378a" name="ga51462e38c8a3a0f48c9e4209227e378a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga51462e38c8a3a0f48c9e4209227e378a">&#9670;&#160;</a></span>calcFromGridWithDistances() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -40337,7 +40408,7 @@ if all even edges are consistently oriented, then the output contours will be or
         <tr>
           <td class="memname">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::IFastWindingNumber::calcFromGridWithDistances </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+          <td class="paramtype">VoxelScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -40376,7 +40447,7 @@ if all even edges are consistently oriented, then the output contours will be or
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="#gaeb495c4eda1b8be00020369fc04f7159">MR::Cuda::FastWindingNumber</a>, and <a class="el" href="#ga12359d96784505cbfeca781364a909e6">MR::FastWindingNumber</a>.</p>
+<p>Implemented in <a class="el" href="#gab7e3bcd76e8a8c50f8ef5c1bf066bf93">MR::Cuda::FastWindingNumber</a>, and <a class="el" href="#gaf482e2b320252c726c7678f7a29b9a39">MR::FastWindingNumber</a>.</p>
 
 </div>
 </div>
@@ -49266,8 +49337,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga0053dac6d78b84037562e955eb49f7bd" name="ga0053dac6d78b84037562e955eb49f7bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0053dac6d78b84037562e955eb49f7bd">&#9670;&#160;</a></span>computeToolDistance()</h2>
+<a id="ga7de3c227bc305585e2805adbafdf54a2" name="ga7de3c227bc305585e2805adbafdf54a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7de3c227bc305585e2805adbafdf54a2">&#9670;&#160;</a></span>computeToolDistance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -49278,7 +49349,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::IComputeToolDistance::computeToolDistance </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>output</em></span>, </td>
+          <td class="paramtype">VoxelScalars &amp;</td>          <td class="paramname"><span class="paramname"><em>output</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -49312,7 +49383,7 @@ template&lt;typename T&gt; </div>
 
 <p>Compute tool distance. </p>
 
-<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1ComputeToolDistance.html#a3d1d6250e0a612ff2a778c0b7b00dead">MR::Cuda::ComputeToolDistance</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1ComputeToolDistance.html#ac72cd4ea92fd470cc032d84cb564c612">MR::Cuda::ComputeToolDistance</a>.</p>
 
 </div>
 </div>
@@ -51405,6 +51476,122 @@ template&lt;typename ... Connectables&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRViewerEventsListener_8h.html">MRViewer/MRViewerEventsListener.h</a>&gt;</code></p>
 
 <p>Implements <a class="el" href="#ga2212095d3996892cff578320ac2ce746">MR::IConnectable</a>.</p>
+
+</div>
+</div>
+<a id="gac52211cbf46210a09e45b615da06d15b" name="gac52211cbf46210a09e45b615da06d15b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac52211cbf46210a09e45b615da06d15b">&#9670;&#160;</a></span>const_iterator() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::const_iterator::const_iterator </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVector_8h.html">MRMesh/MRVector.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga51cdadacc398bbf8031909aaac008459" name="ga51cdadacc398bbf8031909aaac008459"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga51cdadacc398bbf8031909aaac008459">&#9670;&#160;</a></span>const_iterator() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::const_iterator::const_iterator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Vector_1_1iterator.html">iterator</a></td>          <td class="paramname"><span class="paramname"><em>it</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVector_8h.html">MRMesh/MRVector.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gac12f202c82f8f7b3efd6a6a334920f6c" name="gac12f202c82f8f7b3efd6a6a334920f6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac12f202c82f8f7b3efd6a6a334920f6c">&#9670;&#160;</a></span>const_iterator() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga56ca900f02012b45e7d0991ebe2c1fe7">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::const_iterator::const_iterator </td>
+          <td>(</td>
+          <td class="paramtype">typename StdVector::const_iterator</td>          <td class="paramname"><span class="paramname"><em>it</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVector_8h.html">MRMesh/MRVector.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga15595bafada79ff0bb6fc4bb1b495922" name="ga15595bafada79ff0bb6fc4bb1b495922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga15595bafada79ff0bb6fc4bb1b495922">&#9670;&#160;</a></span>const_iterator() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga56ca900f02012b45e7d0991ebe2c1fe7">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::const_iterator::const_iterator </td>
+          <td>(</td>
+          <td class="paramtype">typename StdVector::iterator</td>          <td class="paramname"><span class="paramname"><em>it</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVector_8h.html">MRMesh/MRVector.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -112924,6 +113111,66 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
+<a id="gab5f5800669b7936bbc07be00313c36f5" name="gab5f5800669b7936bbc07be00313c36f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab5f5800669b7936bbc07be00313c36f5">&#9670;&#160;</a></span>iterator() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::iterator::iterator </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVector_8h.html">MRMesh/MRVector.h</a>&gt;</code></p>
+
+<p>for std::pointer_traits, some libc++ versions hard-error without it </p>
+
+</div>
+</div>
+<a id="ga3da262ec62991621ae1cb5edad8156cb" name="ga3da262ec62991621ae1cb5edad8156cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3da262ec62991621ae1cb5edad8156cb">&#9670;&#160;</a></span>iterator() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga56ca900f02012b45e7d0991ebe2c1fe7">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::iterator::iterator </td>
+          <td>(</td>
+          <td class="paramtype">typename StdVector::iterator</td>          <td class="paramname"><span class="paramname"><em>it</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVector_8h.html">MRMesh/MRVector.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gad2fbbfb496bbf63f5db4608cd5c1ee61" name="gad2fbbfb496bbf63f5db4608cd5c1ee61"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad2fbbfb496bbf63f5db4608cd5c1ee61">&#9670;&#160;</a></span>join() <span class="overload">[1/3]</span></h2>
 
@@ -158420,18 +158667,18 @@ template&lt;typename V, typename <a class="el" href="#ga7d89e508205d25559adcd087
 
 </div>
 </div>
-<a id="gad4c1d1b7c1a447ffccea9b5d867ef98b" name="gad4c1d1b7c1a447ffccea9b5d867ef98b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad4c1d1b7c1a447ffccea9b5d867ef98b">&#9670;&#160;</a></span>resizeNoInit()</h2>
+<a id="gaf09d34a063be42816df755a058090659" name="gaf09d34a063be42816df755a058090659"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf09d34a063be42816df755a058090659">&#9670;&#160;</a></span>resizeNoInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename A&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void MR::resizeNoInit </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span>, </td>
+          <td class="paramtype">std::vector&lt; T, A &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -203361,7 +203608,6 @@ template&lt;typename V&gt; </div>
 <b>Initial value:</b><div class="fragment"><div class="line">{255} {} </div>
 <div class="line">    <a class="code hl_function" href="#ga7b00119818b1c4042f45fb5f15e69fde">MR_BIND_OVERLOAD_SUFFIX</a>(<span class="keywordtype">float</span>) <span class="keyword">constexpr</span> <a class="code hl_function" href="#ga361e3d7af72254b02de4d5bdf7f08b60">Color</a>( <span class="keywordtype">float</span> <a class="code hl_variable" href="#gaaa379f38f05825d099fa1a11b4fa9b32">r</a>, <span class="keywordtype">float</span> <a class="code hl_variable" href="#ga23be6d1433e113ac1210707ea82270f9">g</a>, <span class="keywordtype">float</span> <a class="code hl_variable" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>, <span class="keywordtype">float</span> <a class="code hl_variable" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a> ) <a class="code hl_variable" href="#gadf0405d1b74590168531c8f591b552ca">noexcept</a> :</div>
 <div class="line">        <a class="code hl_variable" href="#gaaa379f38f05825d099fa1a11b4fa9b32">r</a>{ <a class="code hl_variable" href="#gaaa379f38f05825d099fa1a11b4fa9b32">r</a> &gt; 1 ? uint8_t( 255 ) : ( <a class="code hl_variable" href="#gaaa379f38f05825d099fa1a11b4fa9b32">r</a> &lt; 0 ? uint8_t( 0 ) : uint8_t( <a class="code hl_variable" href="#gaaa379f38f05825d099fa1a11b4fa9b32">r</a> * 255 ) )}</div>
-<div class="ttc" id="agroup__FillHoleGroup_html_ga18e48630776db875b1a03ec6f89e6edd"><div class="ttname"><a href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">MR::b</a></div><div class="ttdeci">const MeshPart &amp; b</div><div class="ttdef"><b>Definition</b> MRMeshCollidePrecise.h:71</div></div>
 <div class="ttc" id="agroup__FillHoleGroup_html_ga8984ec4b8cdb3ebbc09d53f588587d3e"><div class="ttname"><a href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">MR::a</a></div><div class="ttdeci">EdgeId a</div><div class="ttdef"><b>Definition</b> MRMeshFillHole.h:118</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga23be6d1433e113ac1210707ea82270f9"><div class="ttname"><a href="#ga23be6d1433e113ac1210707ea82270f9">MR::Color::g</a></div><div class="ttdeci">uint8_t g</div><div class="ttdef"><b>Definition</b> MRColor.h:13</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga361e3d7af72254b02de4d5bdf7f08b60"><div class="ttname"><a href="#ga361e3d7af72254b02de4d5bdf7f08b60">MR::Color::Color</a></div><div class="ttdeci">constexpr Color() noexcept</div><div class="ttdef"><b>Definition</b> MRColor.h:15</div></div>
@@ -229479,14 +229725,14 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
-<a id="ga2adbb4514d02bbf6b87e95a090e1a2d9" name="ga2adbb4514d02bbf6b87e95a090e1a2d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2adbb4514d02bbf6b87e95a090e1a2d9">&#9670;&#160;</a></span>primitiveColors</h2>
+<a id="gae69bdaae52bb72f2d7c23b3d04d9d6d3" name="gae69bdaae52bb72f2d7c23b3d04d9d6d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae69bdaae52bb72f2d7c23b3d04d9d6d3">&#9670;&#160;</a></span>primitiveColors</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt;<a class="el" href="structMR_1_1Color.html">Color</a>&gt;* MR::SaveSettings::primitiveColors = nullptr</td>
+          <td class="memname">const FaceColors* MR::SaveSettings::primitiveColors = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -246065,7 +246311,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga0a599e730d0a62e6972fecbb9a4e13b1" name="ga0a599e730d0a62e6972fecbb9a4e13b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0a599e730d0a62e6972fecbb9a4e13b1">&#9670;&#160;</a></span>operator== <span class="overload">[1/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0a599e730d0a62e6972fecbb9a4e13b1">&#9670;&#160;</a></span>operator== <span class="overload">[1/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246096,7 +246342,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga8ad7586da649f116dbeefd965f5ff897" name="ga8ad7586da649f116dbeefd965f5ff897"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8ad7586da649f116dbeefd965f5ff897">&#9670;&#160;</a></span>operator== <span class="overload">[2/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ad7586da649f116dbeefd965f5ff897">&#9670;&#160;</a></span>operator== <span class="overload">[2/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246127,7 +246373,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga0769d0c92668ab4c85a05584e5a73b24" name="ga0769d0c92668ab4c85a05584e5a73b24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0769d0c92668ab4c85a05584e5a73b24">&#9670;&#160;</a></span>operator== <span class="overload">[3/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0769d0c92668ab4c85a05584e5a73b24">&#9670;&#160;</a></span>operator== <span class="overload">[3/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246158,7 +246404,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga98cf431db6020f6d2758f7af02d503d5" name="ga98cf431db6020f6d2758f7af02d503d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga98cf431db6020f6d2758f7af02d503d5">&#9670;&#160;</a></span>operator== <span class="overload">[4/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga98cf431db6020f6d2758f7af02d503d5">&#9670;&#160;</a></span>operator== <span class="overload">[4/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246191,7 +246437,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2c1fcd5e43e0c42d16321aef19e66963" name="ga2c1fcd5e43e0c42d16321aef19e66963"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2c1fcd5e43e0c42d16321aef19e66963">&#9670;&#160;</a></span>operator== <span class="overload">[5/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2c1fcd5e43e0c42d16321aef19e66963">&#9670;&#160;</a></span>operator== <span class="overload">[5/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246226,7 +246472,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga25d9e2ebb1b000582d5943ea7f68732d" name="ga25d9e2ebb1b000582d5943ea7f68732d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga25d9e2ebb1b000582d5943ea7f68732d">&#9670;&#160;</a></span>operator== <span class="overload">[6/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga25d9e2ebb1b000582d5943ea7f68732d">&#9670;&#160;</a></span>operator== <span class="overload">[6/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246260,7 +246506,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gadfb5d0c55b1f0308b2b0c4fbac1a6d6b" name="gadfb5d0c55b1f0308b2b0c4fbac1a6d6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadfb5d0c55b1f0308b2b0c4fbac1a6d6b">&#9670;&#160;</a></span>operator== <span class="overload">[7/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadfb5d0c55b1f0308b2b0c4fbac1a6d6b">&#9670;&#160;</a></span>operator== <span class="overload">[7/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246291,7 +246537,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga5f761c6549a8d74c43a943993e9f7426" name="ga5f761c6549a8d74c43a943993e9f7426"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5f761c6549a8d74c43a943993e9f7426">&#9670;&#160;</a></span>operator== <span class="overload">[8/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f761c6549a8d74c43a943993e9f7426">&#9670;&#160;</a></span>operator== <span class="overload">[8/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246322,7 +246568,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gae39ba74351f8aebd9c6861a4d5782a6c" name="gae39ba74351f8aebd9c6861a4d5782a6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae39ba74351f8aebd9c6861a4d5782a6c">&#9670;&#160;</a></span>operator== <span class="overload">[9/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae39ba74351f8aebd9c6861a4d5782a6c">&#9670;&#160;</a></span>operator== <span class="overload">[9/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246355,7 +246601,7 @@ template&lt;typename N&gt; </div>
 </div>
 </div>
 <a id="ga0254f6c6d3b7fbc30e5cb028767d85cf" name="ga0254f6c6d3b7fbc30e5cb028767d85cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0254f6c6d3b7fbc30e5cb028767d85cf">&#9670;&#160;</a></span>operator== <span class="overload">[10/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0254f6c6d3b7fbc30e5cb028767d85cf">&#9670;&#160;</a></span>operator== <span class="overload">[10/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246388,7 +246634,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gae183c6cb52762dc16f91e61c2be6df24" name="gae183c6cb52762dc16f91e61c2be6df24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae183c6cb52762dc16f91e61c2be6df24">&#9670;&#160;</a></span>operator== <span class="overload">[11/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae183c6cb52762dc16f91e61c2be6df24">&#9670;&#160;</a></span>operator== <span class="overload">[11/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246423,7 +246669,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="ga612a5709db207a238542c54810f6af4c" name="ga612a5709db207a238542c54810f6af4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga612a5709db207a238542c54810f6af4c">&#9670;&#160;</a></span>operator== <span class="overload">[12/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga612a5709db207a238542c54810f6af4c">&#9670;&#160;</a></span>operator== <span class="overload">[12/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246454,7 +246700,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="gaa313f8ba832a4b648631b27ecc640444" name="gaa313f8ba832a4b648631b27ecc640444"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa313f8ba832a4b648631b27ecc640444">&#9670;&#160;</a></span>operator== <span class="overload">[13/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa313f8ba832a4b648631b27ecc640444">&#9670;&#160;</a></span>operator== <span class="overload">[13/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246487,7 +246733,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga9e71981dcf9a7450c7078d906aebfaf7" name="ga9e71981dcf9a7450c7078d906aebfaf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9e71981dcf9a7450c7078d906aebfaf7">&#9670;&#160;</a></span>operator== <span class="overload">[14/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9e71981dcf9a7450c7078d906aebfaf7">&#9670;&#160;</a></span>operator== <span class="overload">[14/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246516,6 +246762,39 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRVector4_8h.html">MRMesh/MRVector4.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga09dd9d1578d74c92946b3ababee79596" name="ga09dd9d1578d74c92946b3ababee79596"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga09dd9d1578d74c92946b3ababee79596">&#9670;&#160;</a></span>operator== <span class="overload">[15/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga56ca900f02012b45e7d0991ebe2c1fe7">MR_BIND_IGNORE</a> friend bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector_1_1const__iterator.html">const_iterator</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector_1_1iterator.html">iterator</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel friend">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVector_8h.html">MRMesh/MRVector.h</a>&gt;</code></p>
 
 </div>
 </div>

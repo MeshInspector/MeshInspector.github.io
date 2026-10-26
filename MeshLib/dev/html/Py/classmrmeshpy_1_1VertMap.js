@@ -42,6 +42,6 @@ var classmrmeshpy_1_1VertMap =
     [ "shrink_to_fit", "classmrmeshpy_1_1VertMap.html#aaeabe3be1c9018f7bbdc28b5ae2780ab", null ],
     [ "size", "classmrmeshpy_1_1VertMap.html#adcfafadcb94a66c7fa7acf668f5a4c8e", null ],
     [ "swap", "classmrmeshpy_1_1VertMap.html#a3022de91aaf8531d3611bf5e964e315a", null ],
-    [ "vec", "classmrmeshpy_1_1VertMap.html#a09e07746804f5e3c3a49289410617951", null ],
-    [ "vec", "classmrmeshpy_1_1VertMap.html#abfbfd71139cb502806209de9c44c9f7b", null ]
+    [ "vec", "classmrmeshpy_1_1VertMap.html#a508fc9dc757a77cef5b58b8227a5067f", null ],
+    [ "vec", "classmrmeshpy_1_1VertMap.html#a5d5c690fb94992aef91fa575802e3c40", null ]
 ];

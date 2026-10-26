@@ -1,5 +1,7 @@
 var std__vector__double_8h =
 [
+    [ "MR_std_vector_double_const_iterator", "std__vector__double_8h.html#a2642c947295466f8e4cd6abb33373880", null ],
+    [ "MR_std_vector_double_iterator", "std__vector__double_8h.html#a817d04a756c15d407410c49254848681", null ],
     [ "MR_equal_MR_std_vector_double_const_iterator", "std__vector__double_8h.html#aba34c9ab147283e3aa7c5a6c3414efa5", null ],
     [ "MR_equal_MR_std_vector_double_iterator", "std__vector__double_8h.html#af6b9ec61917886658d61d109bcae338d", null ],
     [ "MR_std_vector_double_AssignFromAnother", "std__vector__double_8h.html#a294db7a11eed39d7d0d4aea0387cdd21", null ],

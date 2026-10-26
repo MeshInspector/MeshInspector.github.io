@@ -196,7 +196,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ad1487e44d58ee48a066c1df37a576368" id="r_ad1487e44d58ee48a066c1df37a576368"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1487e44d58ee48a066c1df37a576368">__ref_storage_onlyValidPoints</a></td></tr>
 <tr class="memitem:aee8f0d3ee1272169d631b292e5cc037b" id="r_aee8f0d3ee1272169d631b292e5cc037b"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee8f0d3ee1272169d631b292e5cc037b">__ref_storage_packPrimitives</a></td></tr>
 <tr class="memitem:a97d0b0ad45fc14ed2b906a27200fd50b" id="r_a97d0b0ad45fc14ed2b906a27200fd50b"><td class="memItemLeft" align="right" valign="top">unsafe MR.Const_VertColors._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97d0b0ad45fc14ed2b906a27200fd50b">__ptr_storage_colors</a></td></tr>
-<tr class="memitem:aca6b4ef682801a91b1e6d5de3bed592f" id="r_aca6b4ef682801a91b1e6d5de3bed592f"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Vector_MRColor._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca6b4ef682801a91b1e6d5de3bed592f">__ptr_storage_primitiveColors</a></td></tr>
+<tr class="memitem:a696e0c26351469995b2bb38196ddf01c" id="r_a696e0c26351469995b2bb38196ddf01c"><td class="memItemLeft" align="right" valign="top">unsafe MR.Const_FaceColors._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a696e0c26351469995b2bb38196ddf01c">__ptr_storage_primitiveColors</a></td></tr>
 <tr class="memitem:a3f0f712c4166eca9f42f2b01f35fe191" id="r_a3f0f712c4166eca9f42f2b01f35fe191"><td class="memItemLeft" align="right" valign="top">unsafe MR.Const_VertCoords2._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f0f712c4166eca9f42f2b01f35fe191">__ptr_storage_uvMap</a></td></tr>
 <tr class="memitem:ae4bdd403c8e69a2e6163a318af112f61" id="r_ae4bdd403c8e69a2e6163a318af112f61"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4bdd403c8e69a2e6163a318af112f61">__ref_storage_saveTriCornerUVCoords</a></td></tr>
 <tr class="memitem:ac8e6bf75b65a77be993e15f2d7a4a0f1" id="r_ac8e6bf75b65a77be993e15f2d7a4a0f1"><td class="memItemLeft" align="right" valign="top">unsafe MR.Const_MeshTexture._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8e6bf75b65a77be993e15f2d7a4a0f1">__ptr_storage_texture</a></td></tr>
@@ -217,8 +217,8 @@ Properties</h2></td></tr>
 <tr class="memdesc:ab2894815ec377fbc9af27ead0b50c883"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only  <br /></td></tr>
 <tr class="memitem:ad09647ea5f4ded6ef5781a9750113fb4" id="r_ad09647ea5f4ded6ef5781a9750113fb4"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__VertColors.html">Const_VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad09647ea5f4ded6ef5781a9750113fb4">colors</a><code> [get]</code></td></tr>
 <tr class="memdesc:ad09647ea5f4ded6ef5781a9750113fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional per-vertex color to save with the geometry  <br /></td></tr>
-<tr class="memitem:a134105fe354f4ef7b4c404c6069ec93f" id="r_a134105fe354f4ef7b4c404c6069ec93f"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.? Const_Vector_MRColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a134105fe354f4ef7b4c404c6069ec93f">primitiveColors</a><code> [get]</code></td></tr>
-<tr class="memdesc:a134105fe354f4ef7b4c404c6069ec93f"><td class="mdescLeft">&#160;</td><td class="mdescRight">per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other  <br /></td></tr>
+<tr class="memitem:acce7e296b6d304662da1fc602c4a1c2a" id="r_acce7e296b6d304662da1fc602c4a1c2a"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__FaceColors.html">Const_FaceColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acce7e296b6d304662da1fc602c4a1c2a">primitiveColors</a><code> [get]</code></td></tr>
+<tr class="memdesc:acce7e296b6d304662da1fc602c4a1c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other  <br /></td></tr>
 <tr class="memitem:a1f0ebd68ab3f526a1ff6b1f533c03312" id="r_a1f0ebd68ab3f526a1ff6b1f533c03312"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__VertCoords2.html">Const_VertCoords2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f0ebd68ab3f526a1ff6b1f533c03312">uvMap</a><code> [get]</code></td></tr>
 <tr class="memdesc:a1f0ebd68ab3f526a1ff6b1f533c03312"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional per-vertex uv coordinate to save with the geometry  <br /></td></tr>
 <tr class="memitem:a89ebc0aa407a521039970d4f98519312" id="r_a89ebc0aa407a521039970d4f98519312"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89ebc0aa407a521039970d4f98519312">saveTriCornerUVCoords</a><code> [get]</code></td></tr>
@@ -493,8 +493,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aca6b4ef682801a91b1e6d5de3bed592f" name="aca6b4ef682801a91b1e6d5de3bed592f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca6b4ef682801a91b1e6d5de3bed592f">&#9670;&#160;</a></span>__ptr_storage_primitiveColors</h2>
+<a id="a696e0c26351469995b2bb38196ddf01c" name="a696e0c26351469995b2bb38196ddf01c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a696e0c26351469995b2bb38196ddf01c">&#9670;&#160;</a></span>__ptr_storage_primitiveColors</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -503,7 +503,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe MR.Std.Const_Vector_MRColor._Underlying** MR.MeshSave.Const_CtmSaveOptions.__ptr_storage_primitiveColors</td>
+          <td class="memname">unsafe MR.Const_FaceColors._Underlying** MR.MeshSave.Const_CtmSaveOptions.__ptr_storage_primitiveColors</td>
         </tr>
       </table>
   </td>
@@ -926,8 +926,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a134105fe354f4ef7b4c404c6069ec93f" name="a134105fe354f4ef7b4c404c6069ec93f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a134105fe354f4ef7b4c404c6069ec93f">&#9670;&#160;</a></span>primitiveColors</h2>
+<a id="acce7e296b6d304662da1fc602c4a1c2a" name="acce7e296b6d304662da1fc602c4a1c2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acce7e296b6d304662da1fc602c4a1c2a">&#9670;&#160;</a></span>primitiveColors</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -936,7 +936,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe MR.Std.? Const_Vector_MRColor MR.MeshSave.Const_CtmSaveOptions.primitiveColors</td>
+          <td class="memname">unsafe MR.? <a class="el" href="classMR_1_1Const__FaceColors.html">Const_FaceColors</a> MR.MeshSave.Const_CtmSaveOptions.primitiveColors</td>
         </tr>
       </table>
   </td>

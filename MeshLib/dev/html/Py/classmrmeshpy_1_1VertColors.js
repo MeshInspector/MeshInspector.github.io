@@ -42,6 +42,6 @@ var classmrmeshpy_1_1VertColors =
     [ "shrink_to_fit", "classmrmeshpy_1_1VertColors.html#a13a245839a8cb6c11b5f5b5766ad83b2", null ],
     [ "size", "classmrmeshpy_1_1VertColors.html#a784748201173e131a42e0d5782caab59", null ],
     [ "swap", "classmrmeshpy_1_1VertColors.html#aa505ed33fd7ded1b8191d0c3bd02846a", null ],
-    [ "vec", "classmrmeshpy_1_1VertColors.html#ae7f7025984c4676cac4c3ec20844b2f8", null ],
-    [ "vec", "classmrmeshpy_1_1VertColors.html#a20a54d7767d3277b481ef2543724f7c3", null ]
+    [ "vec", "classmrmeshpy_1_1VertColors.html#a5eb49da2446ced49c4112a6d1d2c9151", null ],
+    [ "vec", "classmrmeshpy_1_1VertColors.html#a9299305ded9d11f01754633a40547399", null ]
 ];

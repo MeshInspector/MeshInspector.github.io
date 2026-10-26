@@ -39,6 +39,6 @@ var classmrmeshpy_1_1Dipoles =
     [ "shrink_to_fit", "classmrmeshpy_1_1Dipoles.html#ac22a2f20cead20a08b8feca8b0d481c0", null ],
     [ "size", "classmrmeshpy_1_1Dipoles.html#aa86c47fb593f495d63ac3015f80fa8fb", null ],
     [ "swap", "classmrmeshpy_1_1Dipoles.html#ad1d003d5f7724221d603c1edb8505536", null ],
-    [ "vec", "classmrmeshpy_1_1Dipoles.html#a33cb0593959d7554fcecf727c3b9b54a", null ],
-    [ "vec", "classmrmeshpy_1_1Dipoles.html#a7bd8439ec2fae91d9611a49c6511cc7e", null ]
+    [ "vec", "classmrmeshpy_1_1Dipoles.html#a2c96d0a5c505922f46cb207346c9d0aa", null ],
+    [ "vec", "classmrmeshpy_1_1Dipoles.html#a53922574dd6b6e77d1e55d4f679db236", null ]
 ];

@@ -1,5 +1,7 @@
 var classmrmeshpy_1_1Vector__int__GraphVertId =
 [
+    [ "const_iterator", "classmrmeshpy_1_1Vector__int__GraphVertId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__int__GraphVertId_1_1const__iterator" ],
+    [ "iterator", "classmrmeshpy_1_1Vector__int__GraphVertId_1_1iterator.html", "classmrmeshpy_1_1Vector__int__GraphVertId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__GraphVertId.html#adfb33e900c0c6ef2f2b3678f1985c138", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__GraphVertId.html#a906a31c7af3f8f1ba5d086e5d85998b3", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__GraphVertId.html#ab0b731cc1a7840ec062b535e2a276fcb", null ],
@@ -41,6 +43,6 @@ var classmrmeshpy_1_1Vector__int__GraphVertId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__int__GraphVertId.html#a71efab928b369694558dad18d667a35c", null ],
     [ "size", "classmrmeshpy_1_1Vector__int__GraphVertId.html#aacbde1bcb3979831c3ac93b16ffce6d1", null ],
     [ "swap", "classmrmeshpy_1_1Vector__int__GraphVertId.html#a7c5547af1330747e1a68e3856b18d274", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__int__GraphVertId.html#a27681b30d0aa5a92367649c678733e68", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__int__GraphVertId.html#af9883f9d4ba6aea3e27eeac3dbd27b82", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__int__GraphVertId.html#a472613862aea928bfed4a30f854be85f", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__int__GraphVertId.html#ae59be68f0a6767570bcef5ae3f18a7bb", null ]
 ];

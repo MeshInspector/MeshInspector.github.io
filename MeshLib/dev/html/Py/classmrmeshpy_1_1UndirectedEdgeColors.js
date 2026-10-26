@@ -42,6 +42,6 @@ var classmrmeshpy_1_1UndirectedEdgeColors =
     [ "shrink_to_fit", "classmrmeshpy_1_1UndirectedEdgeColors.html#ae6fec26952459b3a9684bb7f7642e2b4", null ],
     [ "size", "classmrmeshpy_1_1UndirectedEdgeColors.html#a0a5e44c672355a6af145aa6d4680413c", null ],
     [ "swap", "classmrmeshpy_1_1UndirectedEdgeColors.html#a6324ad4750ec7921294bedf59cf186bf", null ],
-    [ "vec", "classmrmeshpy_1_1UndirectedEdgeColors.html#aae3edf94e696cda56840fb8e0f81ba5f", null ],
-    [ "vec", "classmrmeshpy_1_1UndirectedEdgeColors.html#a4e5d2f5fe0650a33301b5aa99e8719aa", null ]
+    [ "vec", "classmrmeshpy_1_1UndirectedEdgeColors.html#a51b8a3eb0b9d353ae93f9894f97fc0cf", null ],
+    [ "vec", "classmrmeshpy_1_1UndirectedEdgeColors.html#a030b69819b87ab023592fa35027569e9", null ]
 ];

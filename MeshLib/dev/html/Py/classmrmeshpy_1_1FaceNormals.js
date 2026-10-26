@@ -42,6 +42,6 @@ var classmrmeshpy_1_1FaceNormals =
     [ "shrink_to_fit", "classmrmeshpy_1_1FaceNormals.html#a3c38c1af221615b7407889050a11f52a", null ],
     [ "size", "classmrmeshpy_1_1FaceNormals.html#a33410fb392161ce552ff99207aa42dc7", null ],
     [ "swap", "classmrmeshpy_1_1FaceNormals.html#aee2125e9f9d592e1d0aaae0c2ba41c65", null ],
-    [ "vec", "classmrmeshpy_1_1FaceNormals.html#ac5aa8e147ef14bba573f05a79218009b", null ],
-    [ "vec", "classmrmeshpy_1_1FaceNormals.html#a3b503714971aaebb4c066d7f27722c48", null ]
+    [ "vec", "classmrmeshpy_1_1FaceNormals.html#a8ebd3d8b2102353ef76fda9967d0ac69", null ],
+    [ "vec", "classmrmeshpy_1_1FaceNormals.html#ac7a284d91021b66698a3c7204c1a4cca", null ]
 ];

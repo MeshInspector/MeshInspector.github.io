@@ -1,5 +1,7 @@
 var std__vector__MR__FaceBitSet_8h =
 [
+    [ "MR_std_vector_MR_FaceBitSet_const_iterator", "std__vector__MR__FaceBitSet_8h.html#ada60d7a7281ccbe12fe20549929fa307", null ],
+    [ "MR_std_vector_MR_FaceBitSet_iterator", "std__vector__MR__FaceBitSet_8h.html#a0307d3bcaadffe66273d48f5be3effbc", null ],
     [ "MR_equal_MR_std_vector_MR_FaceBitSet_const_iterator", "std__vector__MR__FaceBitSet_8h.html#ada9139c7511f47ee28811916f1b0f9e6", null ],
     [ "MR_equal_MR_std_vector_MR_FaceBitSet_iterator", "std__vector__MR__FaceBitSet_8h.html#a0e2a7afbde61bbcb34e671a8dd498451", null ],
     [ "MR_std_vector_MR_FaceBitSet_AssignFromAnother", "std__vector__MR__FaceBitSet_8h.html#a8d49a54e06f9d1350bdb349b6acc485c", null ],

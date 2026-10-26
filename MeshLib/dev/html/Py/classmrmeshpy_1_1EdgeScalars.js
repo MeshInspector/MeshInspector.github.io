@@ -41,6 +41,6 @@ var classmrmeshpy_1_1EdgeScalars =
     [ "shrink_to_fit", "classmrmeshpy_1_1EdgeScalars.html#a5ad5ad069d3a45ca9148bcb537180133", null ],
     [ "size", "classmrmeshpy_1_1EdgeScalars.html#afc02e577b3f592073f9a8b0f90153188", null ],
     [ "swap", "classmrmeshpy_1_1EdgeScalars.html#ac53431e824c55e76b6ae13fddd2235d4", null ],
-    [ "vec", "classmrmeshpy_1_1EdgeScalars.html#a3dd398080ef4d94c3bcd68479d6d0de1", null ],
-    [ "vec", "classmrmeshpy_1_1EdgeScalars.html#aa22cda5ae5244324b3b3a8df995243eb", null ]
+    [ "vec", "classmrmeshpy_1_1EdgeScalars.html#a4bef2af2eb48271c88fcd2bc4d6b931d", null ],
+    [ "vec", "classmrmeshpy_1_1EdgeScalars.html#a17c4a4771056de8ae71e397b87093596", null ]
 ];

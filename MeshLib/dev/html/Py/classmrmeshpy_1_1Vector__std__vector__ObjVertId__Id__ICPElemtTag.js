@@ -1,5 +1,7 @@
 var classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag =
 [
+    [ "const_iterator", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1_1const__iterator.html", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1_1const__iterator" ],
+    [ "iterator", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1_1iterator.html", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#ac43ef38f22973354f8c918e7cb5dddfd", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#add1f2bb42ab3e31e65883357f2940c1a", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#aa747abdb705880e371b78670832b3d3d", null ],
@@ -41,6 +43,6 @@ var classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a1f2adcd331b3b13a77f62492489a4c8a", null ],
     [ "size", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a3e8767573ed2d60fd20ab075d90a2006", null ],
     [ "swap", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a36f6c139eb6e127ae784e3703844a030", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a57facfed30622bd601b79843b0fab850", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#ac9f14d1e81054fb5cd52b659b74d1058", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a37873fe0fc0bb9cb5ed236eb02080382", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a94a6a20fe3b846aff011db3c1332b3d8", null ]
 ];

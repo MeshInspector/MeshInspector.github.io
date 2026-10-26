@@ -1,5 +1,7 @@
 var classmrmeshpy_1_1Vector__std__filesystem__path__TextureId =
 [
+    [ "const_iterator", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1_1const__iterator" ],
+    [ "iterator", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1_1iterator.html", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a39dffe501cb9c1f12e6d269c56da1454", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a0a374724ce5794029693fc366a5bdf22", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a4abe31a9b966ada0219b9f0b169e6ed3", null ],
@@ -41,6 +43,6 @@ var classmrmeshpy_1_1Vector__std__filesystem__path__TextureId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#adeec73523df642f92c063f945c8a7f68", null ],
     [ "size", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a406eb0a083ba1e7b89dd0bb954e84c38", null ],
     [ "swap", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a437931c3ff329920c14eecd39e58687e", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a861bdf392a56131dfc64c7b619fe712f", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a53e4cec9272e56e545261ffe7ee45b61", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a6aab7e0387cd5cc135ec07fc537bed84", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#acc0388befc9b455d25607e800acca92c", null ]
 ];

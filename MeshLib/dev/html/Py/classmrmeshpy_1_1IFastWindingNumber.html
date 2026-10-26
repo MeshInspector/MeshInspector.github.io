@@ -150,7 +150,7 @@ $(function(){initNavTree('classmrmeshpy_1_1IFastWindingNumber.html','','classmrm
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5d368442bd4a019e50adacc23099b4ba" id="r_a5d368442bd4a019e50adacc23099b4ba"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d368442bd4a019e50adacc23099b4ba">calcFromGrid</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> dims, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> gridToMeshXf, float beta, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
-<tr class="memitem:a9abbdfdad45943314155c587e2f9c488" id="r_a9abbdfdad45943314155c587e2f9c488"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9abbdfdad45943314155c587e2f9c488">calcFromGridWithDistances</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> dims, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> gridToMeshXf, <a class="el" href="classmrmeshpy_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> options, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb)</td></tr>
+<tr class="memitem:adb283a63c94dfa06c775caf2a254f6fe" id="r_adb283a63c94dfa06c775caf2a254f6fe"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb283a63c94dfa06c775caf2a254f6fe">calcFromGridWithDistances</a> (self, <a class="el" href="classmrmeshpy_1_1VoxelScalars.html">VoxelScalars</a> res, <a class="el" href="classmrmeshpy_1_1Vector3i.html">Vector3i</a> dims, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> gridToMeshXf, <a class="el" href="classmrmeshpy_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> options, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb)</td></tr>
 <tr class="memitem:af8a85c57bc104c36e949eb444c9ca7db" id="r_af8a85c57bc104c36e949eb444c9ca7db"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8a85c57bc104c36e949eb444c9ca7db">calcFromVector</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a> res, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> points, float beta, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> skipFace=..., <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="memitem:a898b12e02f113538c5d54bf9af0d7bd9" id="r_a898b12e02f113538c5d54bf9af0d7bd9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a898b12e02f113538c5d54bf9af0d7bd9">calcSelfIntersections</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> res, float beta, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 </table>
@@ -207,8 +207,8 @@ Abstract class for fast approximate computation of generalized winding number fo
 
 </div>
 </div>
-<a id="a9abbdfdad45943314155c587e2f9c488" name="a9abbdfdad45943314155c587e2f9c488"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9abbdfdad45943314155c587e2f9c488">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
+<a id="adb283a63c94dfa06c775caf2a254f6fe" name="adb283a63c94dfa06c775caf2a254f6fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb283a63c94dfa06c775caf2a254f6fe">&#9670;&#160;</a></span>calcFromGridWithDistances()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +221,7 @@ Abstract class for fast approximate computation of generalized winding number fo
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__float.html">std_vector_float</a></td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VoxelScalars.html">VoxelScalars</a></td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -250,7 +250,7 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
 \\param res resulting signed distances, will be resized automatically
 \\param dims dimensions of the grid
 </pre> 
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a8ef6b7c72e518ec149318e10b52c2517">mrmeshpy.FastWindingNumber</a>.</p>
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1FastWindingNumber.html#a983714d2d732199e76342ce5202621d7">mrmeshpy.FastWindingNumber</a>.</p>
 
 </div>
 </div>

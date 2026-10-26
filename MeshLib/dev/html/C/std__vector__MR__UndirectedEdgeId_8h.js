@@ -1,5 +1,7 @@
 var std__vector__MR__UndirectedEdgeId_8h =
 [
+    [ "MR_std_vector_MR_UndirectedEdgeId_const_iterator", "std__vector__MR__UndirectedEdgeId_8h.html#a26bde0c04dbc719355bad1cac27b99d2", null ],
+    [ "MR_std_vector_MR_UndirectedEdgeId_iterator", "std__vector__MR__UndirectedEdgeId_8h.html#a1de8b898998c68ccaaf7fe135503eaf2", null ],
     [ "MR_equal_MR_std_vector_MR_UndirectedEdgeId_const_iterator", "std__vector__MR__UndirectedEdgeId_8h.html#a9af43a6a15dd6706a33e95f040c59d5e", null ],
     [ "MR_equal_MR_std_vector_MR_UndirectedEdgeId_iterator", "std__vector__MR__UndirectedEdgeId_8h.html#a5f535db2386bfeb8c8412e64a6fc94dd", null ],
     [ "MR_std_vector_MR_UndirectedEdgeId_AssignFromAnother", "std__vector__MR__UndirectedEdgeId_8h.html#ab341084fa9c20d9b26d42547a2eb5b60", null ],

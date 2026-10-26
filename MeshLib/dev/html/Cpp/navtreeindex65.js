@@ -1,5 +1,14 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[9,0,2,0,2,7,0,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[9,0,1,0,1,17,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[9,0,2,0,2,7,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[9,0,1,0,1,17,1,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[9,0,2,0,2,7,1,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[9,0,1,0,1,17,1,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[9,0,2,0,2,7,1,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[9,0,1,0,1,17,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[9,0,2,0,2,7,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1c78e55a9990e6cbd07c33abe73a74ea":[9,0,1,0,1,17,2,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1c78e55a9990e6cbd07c33abe73a74ea":[9,0,2,0,2,7,2,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1e95c8b54a2ebd5b21a285d50c85255c":[9,0,1,0,1,17,2,0],
@@ -238,16 +247,7 @@ var NAVTREEINDEX65 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#acd9bfcf665d2d28338f5b05410ff74ac":[9,0,2,0,2,7,10,2,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#afe94adb4124bcf030097542c1e07c91f":[9,0,1,0,1,17,10,2,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html#afe94adb4124bcf030097542c1e07c91f":[9,0,2,0,2,7,10,2,1],
-"structMR_1_1ImGuiMenu_1_1LabelParams.html":[9,0,0,20,575],
-"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html":[9,0,0,20,577],
-"structMR_1_1ImGuiMenu_1_1TagEditorState.html":[9,0,0,20,576],
-"structMR_1_1Image.html":[9,0,0,18,1],
-"structMR_1_1Image.html":[9,0,0,20,305],
-"structMR_1_1ImproveSamplingSettings.html":[9,0,0,20,306],
-"structMR_1_1InSphere.html":[9,0,0,20,382],
-"structMR_1_1InSphereSearchSettings.html":[9,0,0,20,381],
-"structMR_1_1InflateSettings.html":[9,0,0,20,477],
-"structMR_1_1InterpolateScalarsParams.html":[9,0,0,20,475],
-"structMR_1_1InterruptCloseListener.html":[9,0,0,20,815],
-"structMR_1_1IntersectionPrecomputes.html":[9,0,0,1,15]
+"structMR_1_1ImGuiMenu_1_1LabelParams.html":[9,0,0,20,577],
+"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html":[9,0,0,20,579],
+"structMR_1_1ImGuiMenu_1_1TagEditorState.html":[9,0,0,20,578]
 };

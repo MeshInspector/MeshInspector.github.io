@@ -1,5 +1,7 @@
 var classmrmeshpy_1_1Vector__int__VertId =
 [
+    [ "const_iterator", "classmrmeshpy_1_1Vector__int__VertId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__int__VertId_1_1const__iterator" ],
+    [ "iterator", "classmrmeshpy_1_1Vector__int__VertId_1_1iterator.html", "classmrmeshpy_1_1Vector__int__VertId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__VertId.html#a4f3d464ab17d651619a328a499e6e82b", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__VertId.html#a8ac0f6861abfb5e77d21b0fc0dcffcef", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__VertId.html#a13091bcf7bf5cf31c4bb48ad092a5b11", null ],
@@ -41,6 +43,6 @@ var classmrmeshpy_1_1Vector__int__VertId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__int__VertId.html#a6941fc7cc6c3086bda0e4ec106ccb33f", null ],
     [ "size", "classmrmeshpy_1_1Vector__int__VertId.html#ad39e77a44617df36a9a9484c12c296e4", null ],
     [ "swap", "classmrmeshpy_1_1Vector__int__VertId.html#ad538b85e539ec33cd061db464c51922f", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__int__VertId.html#a9f86e04b8f7391f47e221bfda6bc92cc", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__int__VertId.html#a94ed321905bae86a08f40f66faf431a7", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__int__VertId.html#a907c48cb82b07725b31a8ee880d97fc0", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__int__VertId.html#afc589093b4069e4e8fe9b3a256646243", null ]
 ];

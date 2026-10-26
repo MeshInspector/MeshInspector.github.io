@@ -1,5 +1,6 @@
 var MRHeapBytes_8h =
 [
+    [ "MR_std_vector_MR_Color", "MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51", null ],
     [ "MR_std_vector_size_t", "MRHeapBytes_8h.html#a12c0c2665578dd4a12b184b0e9247713", null ],
     [ "MR_heapBytes_float", "MRHeapBytes_8h.html#af366d379992992056032493a726557f6", null ],
     [ "MR_heapBytes_MR_Color", "MRHeapBytes_8h.html#a1ff304559a28a745c4978271b9390847", null ],

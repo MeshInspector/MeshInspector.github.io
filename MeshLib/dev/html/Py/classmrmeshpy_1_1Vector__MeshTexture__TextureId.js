@@ -1,5 +1,7 @@
 var classmrmeshpy_1_1Vector__MeshTexture__TextureId =
 [
+    [ "const_iterator", "classmrmeshpy_1_1Vector__MeshTexture__TextureId_1_1const__iterator.html", "classmrmeshpy_1_1Vector__MeshTexture__TextureId_1_1const__iterator" ],
+    [ "iterator", "classmrmeshpy_1_1Vector__MeshTexture__TextureId_1_1iterator.html", "classmrmeshpy_1_1Vector__MeshTexture__TextureId_1_1iterator" ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a727473a7a86b24db009bcc82d7b433f1", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a7a7ab74620c9de54ce33f6c4dd39c528", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a3f810c8795bd078f7af0fed58c5251d7", null ],
@@ -40,6 +42,6 @@ var classmrmeshpy_1_1Vector__MeshTexture__TextureId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#ad634fbe0ea7170c4906267340aec2a93", null ],
     [ "size", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a7dc9406048145927ace05e42b16c2d8c", null ],
     [ "swap", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#abc9496b92d4afda524ad0917fe1d316d", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a7bc1ee66ad924b666fdf9e4b3079c40b", null ],
-    [ "vec", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a6bf25c5f98d70c6ff532af36c8c252bd", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a7b5ec9373aff4b4c275d9d236932685f", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a80bf592683ec818068823d7c411c8453", null ]
 ];

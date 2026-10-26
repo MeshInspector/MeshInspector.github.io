@@ -1,5 +1,13 @@
 var classMR_1_1Const__Vector__Int__MRGraphVertId =
 [
+    [ "_InOptConst_ConstIterator", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1__InOptConst__ConstIterator.html", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1__InOptConst__ConstIterator" ],
+    [ "_InOptConst_Iterator", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1__InOptConst__Iterator.html", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1__InOptConst__Iterator" ],
+    [ "_InOptMut_ConstIterator", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1__InOptMut__ConstIterator.html", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1__InOptMut__ConstIterator" ],
+    [ "_InOptMut_Iterator", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1__InOptMut__Iterator.html", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1__InOptMut__Iterator" ],
+    [ "Const_ConstIterator", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1Const__ConstIterator.html", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1Const__ConstIterator" ],
+    [ "Const_Iterator", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1Const__Iterator.html", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1Const__Iterator" ],
+    [ "ConstIterator", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1ConstIterator.html", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1ConstIterator" ],
+    [ "Iterator", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1Iterator.html", "classMR_1_1Const__Vector__Int__MRGraphVertId_1_1Iterator" ],
     [ "Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a196503b83811f41640d321895751e630", null ],
     [ "Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#aa0cc84d5eee5aee1ef6732ff41fc4352", null ],
     [ "Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#aa7f0a40de0e33f60e2716574cb22295e", null ],
@@ -8,16 +16,16 @@ var classMR_1_1Const__Vector__Int__MRGraphVertId =
     [ "Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a769d19bef31460c868797ad531dd4db5", null ],
     [ "back", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a852a5720017807e57697b8bc8c642443", null ],
     [ "backId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#ada2023b64654f4c0aa04024ad9eb4aee", null ],
-    [ "begin", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a750e0e143efe455ea39b7210593ef38e", null ],
+    [ "begin", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a5e9865f52d5ce534f485a6c5568e40d9", null ],
     [ "beginId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a89dec1079ffcd1d4b47b31c4fefe3245", null ],
     [ "capacity", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a4fa063089c376291da752618cae9b554", null ],
-    [ "cbegin", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a59a71a2a58ba0e05f8b5ec9d4d6d033e", null ],
-    [ "cend", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#aa9f628530cc69a7be77cc8231cf6b757", null ],
+    [ "cbegin", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a93d06690c36bfba82ea4b8395832d159", null ],
+    [ "cend", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#ad1aaa1666ce31abbfed148e2bf601795", null ],
     [ "data", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a6f9c3ea22530425e84f5c4881b8cdb37", null ],
     [ "Dispose", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#ad4fad0c3c4797dd9a20b628680b12400", null ],
     [ "Dispose", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a27cb7afc6d08a4832d26a10e19ac8f95", null ],
     [ "empty", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#aee927502d11eb42577166db42edc1168", null ],
-    [ "end", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a95e8420c6914a0277dfe886a0a3e865e", null ],
+    [ "end", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a73f41d0351fa7ef8459c97ce0ff2994b", null ],
     [ "endId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a1b880d220fd3022954fdae1607bcd7e4", null ],
     [ "Equals", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a105e5e1aa1429bdb7a6078f173e0c25c", null ],
     [ "Equals", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#ad6773996d41942a93e12c3b5eed3e504", null ],
@@ -29,5 +37,5 @@ var classMR_1_1Const__Vector__Int__MRGraphVertId =
     [ "operator==", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a259a8a1d623509a5ad6ed5286d60d52b", null ],
     [ "size", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a47c7a470890a22fca12d075b28fb3ca8", null ],
     [ "this[MR.GraphVertId i]", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a30ddc014e6425a1aa8ee657cf0928805", null ],
-    [ "vec", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a04d5ff4621709cf17efb0ff963e291e6", null ]
+    [ "vec", "classMR_1_1Const__Vector__Int__MRGraphVertId.html#a512a84bd5b5b008eb88d80e049a28ca0", null ]
 ];

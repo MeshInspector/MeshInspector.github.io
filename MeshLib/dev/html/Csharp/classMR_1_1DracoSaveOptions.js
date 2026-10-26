@@ -13,7 +13,7 @@ var classMR_1_1DracoSaveOptions =
     [ "onlyValidPoints", "classMR_1_1DracoSaveOptions.html#a4c6ea9cfcb9ea1b04fedad71bca59072", null ],
     [ "packPrimitives", "classMR_1_1DracoSaveOptions.html#a9bbbc3a9324662eecdcafcd088f548d6", null ],
     [ "positionQuantizationBits", "classMR_1_1DracoSaveOptions.html#a9d8ba5094cdb3a6fcb59260cf3252314", null ],
-    [ "primitiveColors", "classMR_1_1DracoSaveOptions.html#a8ea7155bf4641297ae708107236f953e", null ],
+    [ "primitiveColors", "classMR_1_1DracoSaveOptions.html#ac9d3dc362ab3af384bc7bbeb93bce5be", null ],
     [ "progress", "classMR_1_1DracoSaveOptions.html#a366a1a886f247199ed7f0a565767077c", null ],
     [ "saveTriCornerUVCoords", "classMR_1_1DracoSaveOptions.html#a6e61f804fead573508f475a100f91275", null ],
     [ "solidColor", "classMR_1_1DracoSaveOptions.html#a476701de0b3e21f67bf9555fe0ef3349", null ],
