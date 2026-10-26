@@ -1,5 +1,6 @@
 var NAVTREEINDEX151 =
 {
+"classMR_1_1TriangulationParameters.html#a8b69c08d56886775ef13262aeba06920":[9,3,0,0,0,1726,4],
 "classMR_1_1TriangulationParameters.html#ac1e7b272843722118f9a5fde65872993":[9,3,0,0,0,1726,8],
 "classMR_1_1TriangulationParameters.html#ae90e00f10fb269fa23df83335568d939":[9,3,0,0,0,1726,6],
 "classMR_1_1TriangulationParameters.html#af586774143eab94d9defcffbe238ed4f":[9,3,0,0,0,1726,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX151 =
 "classMR_1_1UndirectedEdgeIterator.html#a9e1f81ee6baf3189b15421033f6930f1":[9,3,0,0,0,1749,0],
 "classMR_1_1UndirectedEdgeIterator.html#aa86fb3f350eaadcc6f0f76c17e1873ec":[9,3,0,0,0,1749,6],
 "classMR_1_1UndirectedEdgeIterator.html#ad1ac3fd4dcd0948ce2c62ed878e6e15e":[9,3,0,0,0,1749,3],
-"classMR_1_1UndirectedEdgeIterator.html#ad5dbb51bf3442bd4bfef2460c4592be1":[9,3,0,0,0,1749,2],
-"classMR_1_1UndirectedEdgeMap.html":[9,3,0,0,0,1750]
+"classMR_1_1UndirectedEdgeIterator.html#ad5dbb51bf3442bd4bfef2460c4592be1":[9,3,0,0,0,1749,2]
 };

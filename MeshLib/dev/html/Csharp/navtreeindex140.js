@@ -1,5 +1,6 @@
 var NAVTREEINDEX140 =
 {
+"classMR_1_1PointMeasurementObject.html#a9c3d0a46f31c96bcff31b7e42eb099c6":[9,3,0,0,0,1545,17],
 "classMR_1_1PointMeasurementObject.html#aa1e773aec36a51592b97f13da62fe267":[9,3,0,0,0,1545,8],
 "classMR_1_1PointMeasurementObject.html#aa7a07b88fb01acae8b1d12b63aac369f":[9,3,0,0,0,1545,22],
 "classMR_1_1PointMeasurementObject.html#aab97c952c7fcb2a9d82ef269f7703b98":[9,3,0,0,0,1545,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX140 =
 "classMR_1_1PointsLoad_1_1NamedCloud.html#a2972fbd3dee3dff8c629f823f224d017":[9,3,0,0,0,1551,5,4],
 "classMR_1_1PointsLoad_1_1NamedCloud.html#a7a050d49402551b7022c784bbf2eaacd":[9,3,0,0,0,1551,5,7],
 "classMR_1_1PointsLoad_1_1NamedCloud.html#a99f70c9eef3536803b93d29a5a18987d":[9,3,0,0,0,1551,5,1],
-"classMR_1_1PointsLoad_1_1NamedCloud.html#aa0c228139c2aa45b13e0be0f1079b847":[9,3,0,0,0,1551,5,2],
-"classMR_1_1PointsLoad_1_1NamedCloud.html#abebc748c5a81d837b1ffc3cc7f6080b4":[9,3,0,0,0,1551,5,3]
+"classMR_1_1PointsLoad_1_1NamedCloud.html#aa0c228139c2aa45b13e0be0f1079b847":[9,3,0,0,0,1551,5,2]
 };

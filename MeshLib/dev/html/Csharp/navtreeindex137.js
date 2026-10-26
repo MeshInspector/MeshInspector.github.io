@@ -1,5 +1,6 @@
 var NAVTREEINDEX137 =
 {
+"classMR_1_1ObjectVoxels.html#a1cc31155a4fdd8b2e08970d376871b68":[9,3,0,0,0,1494,11],
 "classMR_1_1ObjectVoxels.html#a1f19f2df8cc3c036103b8200569053ff":[9,3,0,0,0,1494,18],
 "classMR_1_1ObjectVoxels.html#a223cbad1bbc7117a8cf23a4c01951e31":[9,3,0,0,0,1494,96],
 "classMR_1_1ObjectVoxels.html#a2240b24cf28b12200e928d36ca76d2d5":[9,3,0,0,0,1494,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX137 =
 "classMR_1_1Parabolaf.html#af58edd644befad1da27c2b035db48d5a":[9,3,0,0,0,1521,6],
 "classMR_1_1Parallel.html":[9,3,0,0,0,1522],
 "classMR_1_1Parallel_1_1CallSimply.html":[9,3,0,0,0,1522,0],
-"classMR_1_1Parallel_1_1CallSimply.html#a573f9b62dba481f60d1e1b45cc790f15":[9,3,0,0,0,1522,0,0],
-"classMR_1_1Parallel_1_1CallSimply.html#ab8df1c943258af96d8b69d08a9f919b2":[9,3,0,0,0,1522,0,2]
+"classMR_1_1Parallel_1_1CallSimply.html#a573f9b62dba481f60d1e1b45cc790f15":[9,3,0,0,0,1522,0,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX81 =
 {
+"classMR_1_1Const__SmoothFillingSettings.html#af57d37057f8af0e454fd81ef0d85093b":[9,3,0,0,0,854,10],
 "classMR_1_1Const__SomeLocalTriangulations.html":[9,3,0,0,0,855],
 "classMR_1_1Const__SomeLocalTriangulations.html#a2706cf7dbc157f5ed345cae58c3eeea9":[9,3,0,0,0,855,7],
 "classMR_1_1Const__SomeLocalTriangulations.html#a30f241d4c70e85cde7e033be916b3062":[9,3,0,0,0,855,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX81 =
 "classMR_1_1Const__Src2TgtMaps.html#ad58b7765c7eab19f8bf03c52825d6bb8":[9,3,0,0,0,865,1],
 "classMR_1_1Const__Src2TgtMaps.html#adc9f8b445d850ac16b84245089341fac":[9,3,0,0,0,865,3],
 "classMR_1_1Const__Src2TgtMaps.html#af978ae2d560c0ae5e79cc744d5c5bd73":[9,3,0,0,0,865,4],
-"classMR_1_1Const__StitchHolesNicelySettings.html":[9,3,0,0,0,866],
-"classMR_1_1Const__StitchHolesNicelySettings.html#a05d2bb80a30236d70b7bc8ecd8baddd6":[9,3,0,0,0,866,2]
+"classMR_1_1Const__StitchHolesNicelySettings.html":[9,3,0,0,0,866]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX241 =
 {
+"structMR__EdgeId.html":[9,2,1,0,18],
 "structMR__EdgeId.html#a15e0dc8bb877ee01d7cbaf634fd3acff":[9,2,1,0,18,0],
 "structMR__FaceId.html":[9,2,1,0,19],
 "structMR__FaceId.html#a7ae93aa9bc5bb188c24ad26df75f2069":[9,2,1,0,19,0],

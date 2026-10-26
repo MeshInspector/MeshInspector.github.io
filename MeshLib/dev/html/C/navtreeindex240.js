@@ -1,5 +1,6 @@
 var NAVTREEINDEX240 =
 {
+"std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a6c8cb318b18da37c757ae0eadf196c1b":[9,2,2,0,0,0,0,2,597,45],
 "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a715a1d8550bc71ffebfb65e8565b24ed":[9,2,2,0,0,0,0,2,597,57],
 "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a7269e53053bc1189cc1c6e742f63d518":[9,2,2,0,0,0,0,2,597,53],
 "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a74979b8023fe59c3bbb71fa0163246cb":[9,2,2,0,0,0,0,2,597,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX240 =
 "structMR__Color.html#a04e09b02dd7c8077a3425ccfd38f3b07":[9,2,1,0,17,0],
 "structMR__Color.html#a5dea71edd69bdc81ca83d36580a3677b":[9,2,1,0,17,2],
 "structMR__Color.html#aa42eb9bb577b955386e4f8b1cc7e1f25":[9,2,1,0,17,3],
-"structMR__Color.html#aa750e2f6bf418c8ccc3000069caf5b0a":[9,2,1,0,17,1],
-"structMR__EdgeId.html":[9,2,1,0,18]
+"structMR__Color.html#aa750e2f6bf418c8ccc3000069caf5b0a":[9,2,1,0,17,1]
 };

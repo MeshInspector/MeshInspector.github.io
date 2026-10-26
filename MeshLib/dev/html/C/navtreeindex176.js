@@ -1,5 +1,6 @@
 var NAVTREEINDEX176 =
 {
+"std__shared__ptr__MR__ChangeLabelAction_8h.html#afd5730a348dd82e258285bc234e6b520":[9,2,2,0,0,0,0,2,314,17],
 "std__shared__ptr__MR__ChangeLabelAction_8h_source.html":[9,2,2,0,0,0,0,2,314],
 "std__shared__ptr__MR__ChangeLinesColorMapAction_8h.html":[9,2,2,0,0,0,0,2,315],
 "std__shared__ptr__MR__ChangeLinesColorMapAction_8h.html#a034b20aebca3e21066fd3be49981dbe3":[9,2,2,0,0,0,0,2,315,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX176 =
 "std__shared__ptr__MR__ChangeNameAction_8h.html#a3e00ba1039e32c2e0eb86f21bff9211c":[9,2,2,0,0,0,0,2,325,16],
 "std__shared__ptr__MR__ChangeNameAction_8h.html#a51382ffeb7832ebea7b47c6b9de15c74":[9,2,2,0,0,0,0,2,325,6],
 "std__shared__ptr__MR__ChangeNameAction_8h.html#a52646ec74810e699bf6a0e0ef2f41cc7":[9,2,2,0,0,0,0,2,325,2],
-"std__shared__ptr__MR__ChangeNameAction_8h.html#a5453c1aab0644df58e78836ee3eb2d6a":[9,2,2,0,0,0,0,2,325,12],
-"std__shared__ptr__MR__ChangeNameAction_8h.html#a545d13e434160c1ab9584f6344a9242e":[9,2,2,0,0,0,0,2,325,14]
+"std__shared__ptr__MR__ChangeNameAction_8h.html#a5453c1aab0644df58e78836ee3eb2d6a":[9,2,2,0,0,0,0,2,325,12]
 };

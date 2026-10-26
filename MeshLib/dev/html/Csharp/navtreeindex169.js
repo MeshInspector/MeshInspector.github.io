@@ -1,5 +1,6 @@
 var NAVTREEINDEX169 =
 {
+"classMR_1_1VoxelTraits__MRVoxelScalars.html#ab19b4088a6b003c1afe9a64b603ee80c":[9,3,0,0,0,1912,0],
 "classMR_1_1VoxelTraits__MRVoxelScalars.html#ad08cd4fa120f5d601dc18b6ff51cdcfc":[9,3,0,0,0,1912,3],
 "classMR_1_1VoxelTraits__MRVoxelScalars.html#ae75c8419bec3e97209cf9f8b4c9e670f":[9,3,0,0,0,1912,1],
 "classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html":[9,3,0,0,0,1913],
@@ -248,6 +249,5 @@ var NAVTREEINDEX169 =
 "classMR_1_1VoxelsVolume__MRFloatGrid.html#a8bf00afde8726207eb2204d8ceddda5d":[9,3,0,0,0,1901,7],
 "classMR_1_1VoxelsVolume__MRFloatGrid.html#a95ab4e10f04457c3262a1dece0ddfe0a":[9,3,0,0,0,1901,1],
 "classMR_1_1VoxelsVolume__MRFloatGrid.html#a9be548bc83bd384a0da8174d04a5c50e":[9,3,0,0,0,1901,0],
-"classMR_1_1VoxelsVolume__MRFloatGrid.html#ad850cbc6601aa32c956f52baec699362":[9,3,0,0,0,1901,8],
-"classMR_1_1VoxelsVolume__MRFloatGrid.html#aff8a363fdf12469776a5580085626939":[9,3,0,0,0,1901,4]
+"classMR_1_1VoxelsVolume__MRFloatGrid.html#ad850cbc6601aa32c956f52baec699362":[9,3,0,0,0,1901,8]
 };

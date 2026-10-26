@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1_1Const__Iterator.html#ad7c1865186d0142b5312a60d85e2db72":[9,3,0,0,0,972,1,7],
 "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1_1Const__Iterator.html#ad8e4ba4004a7cecdb171befe9297d4e8":[9,3,0,0,0,972,1,10],
 "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1_1Const__Iterator.html#af55ac10aeb615789213ac61a4d9c9e81":[9,3,0,0,0,972,1,8],
 "classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1_1Iterator.html":[9,3,0,0,0,972,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1_1Iterator.html#a0c70d784a694ca09fcc9593d900bfe1f":[9,3,0,0,0,975,3,3],
 "classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1_1Iterator.html#a438b16cfe238a26c124cb0d9bd3b724a":[9,3,0,0,0,975,3,5],
 "classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1_1Iterator.html#a4744b3feaf6c389fee672b932a3199a6":[9,3,0,0,0,975,3,0],
-"classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1_1Iterator.html#a4e6cb47c357e5678bb3aa09aa29052e1":[9,3,0,0,0,975,3,1],
-"classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1_1Iterator.html#ab9b602596d69b1f4c8350914b787ab3e":[9,3,0,0,0,975,3,4]
+"classMR_1_1Const__Vector__MRModelPointsData__MRObjId_1_1Iterator.html#a4e6cb47c357e5678bb3aa09aa29052e1":[9,3,0,0,0,975,3,1]
 };

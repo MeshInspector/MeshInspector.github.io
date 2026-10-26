@@ -1,5 +1,6 @@
 var NAVTREEINDEX166 =
 {
+"classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a7ae8aadd11deb037760ede7bb008c9eb":[9,3,0,0,0,1860,32],
 "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#a99ab7920823df14f8c3dedc7c38ebf42":[9,3,0,0,0,1860,28],
 "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#aa296494ee312b199f6c4fea9f820d449":[9,3,0,0,0,1860,9],
 "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#aa60734e2f5c7fe0170ee8ddd287f9839":[9,3,0,0,0,1860,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX166 =
 "classMR_1_1VertColors.html#a99fdb3645bdad95d77ae16ad041ff500":[9,3,0,0,0,1869,35],
 "classMR_1_1VertColors.html#a9a15ba2d7d4775f0d097bd11f65de788":[9,3,0,0,0,1869,0],
 "classMR_1_1VertColors.html#a9e9268575fec4f4eccaecd7ba17d3beb":[9,3,0,0,0,1869,7],
-"classMR_1_1VertColors.html#aa3af49275ed92626a7771bc8349cd23a":[9,3,0,0,0,1869,34],
-"classMR_1_1VertColors.html#aa3cbbbb7f200f3176133da739be105c1":[9,3,0,0,0,1869,9]
+"classMR_1_1VertColors.html#aa3af49275ed92626a7771bc8349cd23a":[9,3,0,0,0,1869,34]
 };

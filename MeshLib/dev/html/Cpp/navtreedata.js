@@ -212,21 +212,21 @@ var NAVTREEINDEX =
 "group__GeneralGroup.html#ggab6428d5776a040cbc748843edbedfa60a37bef313095e6464a4e99e4a38f4cc8e",
 "group__GeneralGroup.html#ggafb3badbeb3302b38006c0c0bb407057ba59c4ad3f3cb3d812d68fab7a354d4a63",
 "group__MeshComponentsGroup.html#ga291282746acb01b0a8f0add1c741eca7",
-"group__PointsSaveGroup.html#ga143900205dead299f60c684ef6b8817a",
-"group__SurfacePathSubgroup.html#gga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a",
-"namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11",
-"namespaceMR_1_1PolylineComponents.html",
-"namespacemembers_i.html",
-"structMR_1_1Box.html",
+"group__PointsSaveGroup.html#ga0b2da3e6f5f88ee5c6ce8ae396030282",
+"group__SurfacePathSubgroup.html#gga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4",
+"namespaceMR.html#a94d7093d57cb27ac9abdfb241ddb6bc0",
+"namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba",
+"namespacemembers_h.html",
+"structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html",
 "structMR_1_1EdgeLengthMesh.html",
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f",
-"structMR_1_1Image.html",
-"structMR_1_1Mesh.html#a1a6420269a152e58f76f327bc6324f05",
-"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617",
-"structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html",
-"structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8",
+"structMR_1_1ImGuiMenu_1_1TagEditorState.html",
+"structMR_1_1Mesh.html#a195c509bc89bff7c15ae4f20a0659b36",
+"structMR_1_1Meta_1_1SharedPtrTraits.html",
+"structMR_1_1Polyline.html#af24fd643f0d6cd970d26dccd51949a93",
+"structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250",
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#ae87e1750cabd4b10198e82ed353eb4f1",
-"structfmt_1_1formatter_3_01MR_1_1Box_3_01V_01_4_01_4.html#a4fc0e313904dc68d2a620ce664d10542"
+"structfmt_1_1formatter_3_01MR_1_1Box_3_01V_01_4_01_4.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

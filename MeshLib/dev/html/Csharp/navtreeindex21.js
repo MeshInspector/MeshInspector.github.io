@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classMR_1_1CompressZipSettings.html#a2370266c1b9a1ce42ed0ce8e989950fe":[9,3,0,0,0,216,0],
 "classMR_1_1CompressZipSettings.html#a29a93ef8b54061a63a1e48b90f72df3b":[9,3,0,0,0,216,5],
 "classMR_1_1CompressZipSettings.html#a5a3c0f7c66ffa6bea93cbf506d7d7267":[9,3,0,0,0,216,9],
 "classMR_1_1CompressZipSettings.html#a79b7de174cb5512fcbbac3038cc4079b":[9,3,0,0,0,216,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classMR_1_1ConstBox__Box1d.html#a54b6f09a5a14cf2f8835118880cfbc80":[9,3,0,0,0,1065,7],
 "classMR_1_1ConstBox__Box1d.html#a56dd400eb640c7dfc9a75b22b36a75d0":[9,3,0,0,0,1065,12],
 "classMR_1_1ConstBox__Box1d.html#a59b59d5cb30d1f704f056545f5fcf160":[9,3,0,0,0,1065,29],
-"classMR_1_1ConstBox__Box1d.html#a5a7252300b8e7bdca5d6dc57da8d7dfb":[9,3,0,0,0,1065,32],
-"classMR_1_1ConstBox__Box1d.html#a64c45d89bad28618abd238cec8ed72ce":[9,3,0,0,0,1065,14]
+"classMR_1_1ConstBox__Box1d.html#a5a7252300b8e7bdca5d6dc57da8d7dfb":[9,3,0,0,0,1065,32]
 };

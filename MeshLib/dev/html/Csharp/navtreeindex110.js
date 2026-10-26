@@ -1,5 +1,6 @@
 var NAVTREEINDEX110 =
 {
+"classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html#aa70b078aa58d554aa5ad3e8c3410b82e":[9,3,0,0,0,1045,4],
 "classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html#abc5986791ad5cfd7fb4ec8fd4542adbe":[9,3,0,0,0,1045,2],
 "classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html#ac6489a27fab9f5c298c8b6fb1136e88d":[9,3,0,0,0,1045,0],
 "classMR_1_1Const__VoxelTraits__MRVoxelScalars.html":[9,3,0,0,0,1046],
@@ -248,6 +249,5 @@ var NAVTREEINDEX110 =
 "classMR_1_1Const__WholeEdgeMap.html#a79b49f05759ce90af215181d10570c34":[9,3,0,0,0,1053,28],
 "classMR_1_1Const__WholeEdgeMap.html#a7dcf1f4502600bf784b52e6e067a4815":[9,3,0,0,0,1053,16],
 "classMR_1_1Const__WholeEdgeMap.html#a808bb93bc77cefdbe658b63643e7fa80":[9,3,0,0,0,1053,8],
-"classMR_1_1Const__WholeEdgeMap.html#a8baa7e1246d316450861864d83f66027":[9,3,0,0,0,1053,17],
-"classMR_1_1Const__WholeEdgeMap.html#a8c9074f1d5f2f2f22e86002be4d88c2b":[9,3,0,0,0,1053,29]
+"classMR_1_1Const__WholeEdgeMap.html#a8baa7e1246d316450861864d83f66027":[9,3,0,0,0,1053,17]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1Polyline.html#af24fd643f0d6cd970d26dccd51949a93":[9,0,0,14,0,31],
 "structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html":[9,0,0,20,466],
 "structMR_1_1PolylineIntersectionResult2.html":[9,0,0,1,32],
 "structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[9,0,0,1,32,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1StopOnTrueCombiner.html":[9,0,0,20,752],
 "structMR_1_1SubdivideFillingSettings.html":[9,0,0,20,267],
 "structMR_1_1SubdivideSettings.html":[9,0,0,9,7,0],
-"structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1":[9,0,0,9,7,0,9],
-"structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250":[9,0,0,9,7,0,6]
+"structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1":[9,0,0,9,7,0,9]
 };

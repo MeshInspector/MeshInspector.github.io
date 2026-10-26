@@ -2797,6 +2797,7 @@ var classMR =
     [ "computeFormAtVertex", "classMR.html#adaff706b1ad6559988dccaecc02410eb", null ],
     [ "computeFormsAtVertices", "classMR.html#ad8afdff4b57c9e145de327ad497c3fc7", null ],
     [ "computeFPFH", "classMR.html#a7889afd71e9b2308ffbad7b8cce86680", null ],
+    [ "computeFPFHUniqueness", "classMR.html#a30e1d805d11b4f9bdac02c52b325c7d0", null ],
     [ "computeGeodesicPath", "classMR.html#a27d9a189a61a4f008a10861ec891f8f2", null ],
     [ "computeGeodesicPathApprox", "classMR.html#a9c9f9dbac85b22b7e64ee78a83838e9d", null ],
     [ "computeGridBox", "classMR.html#a9623658471711ae1c58641ba5dde3495", null ],

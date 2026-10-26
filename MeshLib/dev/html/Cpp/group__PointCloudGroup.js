@@ -43,6 +43,7 @@ var group__PointCloudGroup =
       [ "setSurfacePC", "group__GeneralGroup.html#gacd2901166038dd400decaf6d3dac1bb9", null ]
     ] ],
     [ "MR::computeFPFH", "group__PointCloudGroup.html#ga4e33b70d66490482edd3fef7120b0a04", null ],
+    [ "MR::computeFPFHUniqueness", "group__PointCloudGroup.html#ga7b87c280e97b75790cecec7202b03c73", null ],
     [ "MR::findAvgPointsRadius", "group__PointCloudGroup.html#gad170a186634adcea1422a0bcb701584d", null ],
     [ "MR::findFPFHMatches", "group__PointCloudGroup.html#gabcec15ad6215343b3e74c4a213f6e8a1", null ],
     [ "MR::findUniqueFPFHPoints", "group__PointCloudGroup.html#ga70346bb651583d4cbde24b58798afb7b", null ],

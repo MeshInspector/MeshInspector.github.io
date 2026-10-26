@@ -1,5 +1,6 @@
 var NAVTREEINDEX138 =
 {
+"classMR_1_1Parallel_1_1CallSimply.html#ab8df1c943258af96d8b69d08a9f919b2":[9,3,0,0,0,1522,0,2],
 "classMR_1_1Parallel_1_1CallSimply.html#ac48ece1173b5a5d8811b223d3d4151ed":[9,3,0,0,0,1522,0,3],
 "classMR_1_1Parallel_1_1CallSimply.html#ad73250759aa3f3aedf9e6bffe2f4f8e9":[9,3,0,0,0,1522,0,1],
 "classMR_1_1Parallel_1_1CallSimplyMaker.html":[9,3,0,0,0,1522,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX138 =
 "classMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a8445aefc1e7845b562530f5a7b748419":[9,3,0,0,0,1532,7,4],
 "classMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#ad37704a7370fed8dee8f2dd344c71bec":[9,3,0,0,0,1532,7,10],
 "classMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#ae74018468179255878caf1109599cc60":[9,3,0,0,0,1532,7,7],
-"classMR_1_1PlanarTriangulation_1_1IntersectionsMap.html":[9,3,0,0,0,1532,8],
-"classMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a378008a3ae4555178d5a93809d7f240f":[9,3,0,0,0,1532,8,7]
+"classMR_1_1PlanarTriangulation_1_1IntersectionsMap.html":[9,3,0,0,0,1532,8]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX139 =
 {
+"classMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a378008a3ae4555178d5a93809d7f240f":[9,3,0,0,0,1532,8,7],
 "classMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a3b7730c1c3f4cc36ea11c9c5ebaa38ed":[9,3,0,0,0,1532,8,2],
 "classMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a4cc08efb4387f3c45fd6b8defcac8830":[9,3,0,0,0,1532,8,3],
 "classMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a867df19fcfb0669fa00c298737946488":[9,3,0,0,0,1532,8,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX139 =
 "classMR_1_1PointMeasurementObject.html#a877da1f2dbf0d0143352f11c70ce17bd":[9,3,0,0,0,1545,47],
 "classMR_1_1PointMeasurementObject.html#a9677dcf503410e396543611a9465bf71":[9,3,0,0,0,1545,11],
 "classMR_1_1PointMeasurementObject.html#a98a32353dfc0a24de617a11f613f9698":[9,3,0,0,0,1545,4],
-"classMR_1_1PointMeasurementObject.html#a99b1d7b175252a2574e7acdb3862d114":[9,3,0,0,0,1545,55],
-"classMR_1_1PointMeasurementObject.html#a9c3d0a46f31c96bcff31b7e42eb099c6":[9,3,0,0,0,1545,17]
+"classMR_1_1PointMeasurementObject.html#a99b1d7b175252a2574e7acdb3862d114":[9,3,0,0,0,1545,55]
 };

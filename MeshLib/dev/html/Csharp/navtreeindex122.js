@@ -1,5 +1,6 @@
 var NAVTREEINDEX122 =
 {
+"classMR_1_1HexPalette.html#afd6a1b79a217dfb555d52f479eee26ca":[9,3,0,0,0,1261,3],
 "classMR_1_1Histogram.html":[9,3,0,0,0,1262],
 "classMR_1_1Histogram.html#a0123c309b452ca8f4c7673a4a623370c":[9,3,0,0,0,1262,3],
 "classMR_1_1Histogram.html#a19fdb1eea0ac2c02e2f14d943dab45db":[9,3,0,0,0,1262,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX122 =
 "classMR_1_1InSphereTester__Int.html#a916175f698f742cd13cf43e45efb4f3a":[9,3,0,0,0,1289,5],
 "classMR_1_1InSphereTester__Int.html#ac95015e926d75693f64898bb7c6a404c":[9,3,0,0,0,1289,0],
 "classMR_1_1InSphereTester__Int.html#ad45de6a154cee77a27ce55b6ee4fa091":[9,3,0,0,0,1289,2],
-"classMR_1_1InSphereTester__Int.html#af0461c7409a009000e192806cbf599d0":[9,3,0,0,0,1289,1],
-"classMR_1_1InTreePathBuilder.html":[9,3,0,0,0,1296]
+"classMR_1_1InSphereTester__Int.html#af0461c7409a009000e192806cbf599d0":[9,3,0,0,0,1289,1]
 };

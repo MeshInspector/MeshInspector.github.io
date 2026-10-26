@@ -2001,6 +2001,7 @@ var namespaceMR =
     [ "computeFormAtVertex", "group__DecimateGroup.html#ga5d60f8aec3ed26e0949d5b97861324e0", null ],
     [ "computeFormsAtVertices", "group__DecimateGroup.html#ga5064016639386ac5440322085837e9da", null ],
     [ "computeFPFH", "group__PointCloudGroup.html#ga4e33b70d66490482edd3fef7120b0a04", null ],
+    [ "computeFPFHUniqueness", "group__PointCloudGroup.html#ga7b87c280e97b75790cecec7202b03c73", null ],
     [ "computeGeodesicPath", "group__SurfacePathSubgroup.html#gacccf351e5720e106bf93cbd71f41cba1", null ],
     [ "computeGeodesicPathApprox", "group__SurfacePathSubgroup.html#ga69ad5976886828ef6adb1cfa8493cf5d", null ],
     [ "computeGridBox", "group__GeneralGroup.html#gad430aa6bda176d93601f5ae0e30b39a2", null ],

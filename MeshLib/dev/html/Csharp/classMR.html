@@ -10954,8 +10954,10 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:ad1fd67c79135fb1e8698c76a510fd471"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function cuts a point cloud with a plane, leaving only the part of mesh that lay in positive direction of normal.  <br /></td></tr>
 <tr class="memitem:a7889afd71e9b2308ffbad7b8cce86680" id="r_a7889afd71e9b2308ffbad7b8cce86680"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Vector__StdArrayFloat33__MRVertId.html">MR.Vector_StdArrayFloat33_MRVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7889afd71e9b2308ffbad7b8cce86680">computeFPFH</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> pointCloud, float radius, MR.Std.Const_Function_Bool_From_Float? progress=null)</td></tr>
 <tr class="memdesc:a7889afd71e9b2308ffbad7b8cce86680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes Fast Point Feature Histograms for all valid points of given point cloud, which can be compared to find corresponding points in two clouds independently of their relative position; the descriptors do not change under rigid motions and uniform scaling of the cloud (if radius is scaled as well)  <br /></td></tr>
+<tr class="memitem:a30e1d805d11b4f9bdac02c52b325c7d0" id="r_a30e1d805d11b4f9bdac02c52b325c7d0"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertScalars.html">MR.VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30e1d805d11b4f9bdac02c52b325c7d0">computeFPFHUniqueness</a> (<a class="el" href="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId.html">MR.Const_Vector_StdArrayFloat33_MRVertId</a> descriptors, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> points)</td></tr>
+<tr class="memdesc:a30e1d805d11b4f9bdac02c52b325c7d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes for each of given points how unusual its descriptor is: (d - mu) / sigma, where d is the distance of the point's descriptor from the mean descriptor of all given points, and mu and sigma are the mean and the standard deviation of these distances; positive for descriptors farther from the mean than average, negative for more typical ones; deviations |d - mu| up to 1e-6, which come from float rounding of equal descriptors, give 0 Generated from function <span class="tt"><a class="el" href="#a30e1d805d11b4f9bdac02c52b325c7d0" title="Computes for each of given points how unusual its descriptor is: (d - mu) / sigma,...">MR.computeFPFHUniqueness</a></span>.  <br /></td></tr>
 <tr class="memitem:a3eca8c9ccc48ab9c8eb65bf75b25dd35" id="r_a3eca8c9ccc48ab9c8eb65bf75b25dd35"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eca8c9ccc48ab9c8eb65bf75b25dd35">findUniqueFPFHPoints</a> (<a class="el" href="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId.html">MR.Const_Vector_StdArrayFloat33_MRVertId</a> descriptors, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> points, float beta)</td></tr>
-<tr class="memdesc:a3eca8c9ccc48ab9c8eb65bf75b25dd35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the points with unique descriptors, which are less likely to be matched ambiguously: the points whose distance from the mean descriptor of all given points is outside the interval mu +- beta * sigma, where mu and sigma are the mean and the standard deviation of these distances.  <br /></td></tr>
+<tr class="memdesc:a3eca8c9ccc48ab9c8eb65bf75b25dd35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the points with unique descriptors, which are less likely to be matched ambiguously: the points whose distance from the mean descriptor of all given points is outside the interval mu +- beta * sigma, where mu and sigma are the mean and the standard deviation of these distances, i.e. |computeFPFHUniqueness(...)| &gt; beta.  <br /></td></tr>
 <tr class="memitem:a55a855a432f6bf973e56e13779c139a5" id="r_a55a855a432f6bf973e56e13779c139a5"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55a855a432f6bf973e56e13779c139a5">findUniqueFPFHPoints</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> pointCloud, float radius, float beta, MR.Std.Const_Function_Bool_From_Float? progress=null)</td></tr>
 <tr class="memdesc:a55a855a432f6bf973e56e13779c139a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes FPFH descriptors of all valid points of given point cloud and finds the points with unique descriptors among them.  <br /></td></tr>
 <tr class="memitem:aad3f7c0c6345b68a807f5fd9fe840147" id="r_aad3f7c0c6345b68a807f5fd9fe840147"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_StdPairMRVertIdMRVertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad3f7c0c6345b68a807f5fd9fe840147">findFPFHMatches</a> (<a class="el" href="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId.html">MR.Const_Vector_StdArrayFloat33_MRVertId</a> srcDescriptors, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> srcPoints, <a class="el" href="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId.html">MR.Const_Vector_StdArrayFloat33_MRVertId</a> tgtDescriptors, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> tgtPoints, bool? mutual=null, MR.Std.Const_Function_Bool_From_Float? progress=null)</td></tr>
@@ -26687,6 +26689,37 @@ If meshes are not closed in intersecting zone some boolean operations are not al
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>error if the cloud has no normals or progress returned false; the normals must be oriented consistently, e.g. by makeOrientedNormals(...) Generated from function <span class="tt"><a class="el" href="#a7889afd71e9b2308ffbad7b8cce86680" title="Computes Fast Point Feature Histograms for all valid points of given point cloud, which can be compar...">MR.computeFPFH</a></span>. Parameter <span class="tt">progress</span> defaults to <span class="tt">{}</span>. </dd></dl>
+
+</div>
+</div>
+<a id="a30e1d805d11b4f9bdac02c52b325c7d0" name="a30e1d805d11b4f9bdac02c52b325c7d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30e1d805d11b4f9bdac02c52b325c7d0">&#9670;&#160;</a></span>computeFPFHUniqueness()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1VertScalars.html">MR.VertScalars</a> MR.computeFPFHUniqueness </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId.html">MR.Const_Vector_StdArrayFloat33_MRVertId</a></td>          <td class="paramname"><span class="paramname"><em>descriptors</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes for each of given points how unusual its descriptor is: (d - mu) / sigma, where d is the distance of the point's descriptor from the mean descriptor of all given points, and mu and sigma are the mean and the standard deviation of these distances; positive for descriptors farther from the mean than average, negative for more typical ones; deviations |d - mu| up to 1e-6, which come from float rounding of equal descriptors, give 0 Generated from function <span class="tt"><a class="el" href="#a30e1d805d11b4f9bdac02c52b325c7d0" title="Computes for each of given points how unusual its descriptor is: (d - mu) / sigma,...">MR.computeFPFHUniqueness</a></span>. </p>
 
 </div>
 </div>
@@ -51309,10 +51342,10 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </table>
 </div><div class="memdoc">
 
-<p>Finds the points with unique descriptors, which are less likely to be matched ambiguously: the points whose distance from the mean descriptor of all given points is outside the interval mu +- beta * sigma, where mu and sigma are the mean and the standard deviation of these distances. </p>
+<p>Finds the points with unique descriptors, which are less likely to be matched ambiguously: the points whose distance from the mean descriptor of all given points is outside the interval mu +- beta * sigma, where mu and sigma are the mean and the standard deviation of these distances, i.e. |computeFPFHUniqueness(...)| &gt; beta. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">beta</td><td>the half-width of the interval in standard deviations, usually 1..2 Generated from function <span class="tt"><a class="el" href="#a3eca8c9ccc48ab9c8eb65bf75b25dd35" title="Finds the points with unique descriptors, which are less likely to be matched ambiguously: the points...">MR.findUniqueFPFHPoints</a></span>. </td></tr>
+    <tr><td class="paramname">beta</td><td>the half-width of the interval in standard deviations, non-negative, usually 1..2 Generated from function <span class="tt"><a class="el" href="#a3eca8c9ccc48ab9c8eb65bf75b25dd35" title="Finds the points with unique descriptors, which are less likely to be matched ambiguously: the points...">MR.findUniqueFPFHPoints</a></span>. </td></tr>
   </table>
   </dd>
 </dl>
