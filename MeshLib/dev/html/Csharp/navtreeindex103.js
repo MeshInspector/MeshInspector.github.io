@@ -1,5 +1,6 @@
 var NAVTREEINDEX103 =
 {
+"classMR_1_1DistanceToMeshOptions.html#a9459969d674d56605f27bfebee9a9e4d":[9,3,0,0,0,1171,4],
 "classMR_1_1DistanceToMeshOptions.html#aa63f6d6e4cefd4dc75885be4d4c244ce":[9,3,0,0,0,1171,9],
 "classMR_1_1DistanceToMeshOptions.html#af4c45321804f7661c5bf87538c01d80c":[9,3,0,0,0,1171,7],
 "classMR_1_1DistanceVolumeParams.html":[9,3,0,0,0,1172],
@@ -248,6 +249,5 @@ var NAVTREEINDEX103 =
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#aa510fa8ba0c864bdc58b314c92bde300":[9,3,0,0,0,1186,7],
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#ad896daa77e2a000d966606c52f18f62c":[9,3,0,0,0,1186,6],
 "classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty.html#afbf7e3e1fcdbe1b5d0d03ed967af8d35":[9,3,0,0,0,1186,9],
-"classMR_1_1EdgePoint.html":[9,3,0,0,0,1187],
-"classMR_1_1EdgePoint.html#a14c52358111de479d6d6dd4ff1e26d54":[9,3,0,0,0,1187,7]
+"classMR_1_1EdgePoint.html":[9,3,0,0,0,1187]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1Const__CompressZipSettings.html#aefbdf690f854470947ac93114522c218":[9,3,0,0,0,358,3],
 "classMR_1_1Const__CompressZipSettings.html#afaeb0c77363d41d2468371ad58fc390a":[9,3,0,0,0,358,0],
 "classMR_1_1Const__ComputePointsToDistanceVolume.html":[9,3,0,0,0,359],
 "classMR_1_1Const__ComputePointsToDistanceVolume.html#a1fe95a92593e00175346f28f602cb2c8":[9,3,0,0,0,359,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1Const__ConstantCuspParams.html#a683a9df158ff84ab8c5969aa46c61182":[9,3,0,0,0,366,24],
 "classMR_1_1Const__ConstantCuspParams.html#a6a50946f96ecab61fc21ba798caa6850":[9,3,0,0,0,366,23],
 "classMR_1_1Const__ConstantCuspParams.html#a6b75618f5c495a5f5203b677419f96a0":[9,3,0,0,0,366,27],
-"classMR_1_1Const__ConstantCuspParams.html#a6ed7a5bb3cb6e416f2a84ef8e67e8888":[9,3,0,0,0,366,41],
-"classMR_1_1Const__ConstantCuspParams.html#a71981b409c93ab3ea0a9edb90adab505":[9,3,0,0,0,366,25]
+"classMR_1_1Const__ConstantCuspParams.html#a6ed7a5bb3cb6e416f2a84ef8e67e8888":[9,3,0,0,0,366,41]
 };

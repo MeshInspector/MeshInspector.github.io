@@ -1866,7 +1866,7 @@ var searchData=
   ['fillcut_36',['fillCut',['../group__GeneralGroup.html#ga6b07f61ba2e62fbea15a71fbc0fb499a',1,'MR::DivideMeshWithPlaneParams']]],
   ['filter_37',['filter',['../structMR_1_1MeshTexture.html#a624eb3f0792caeac64bd958de43405ba',1,'MR::MeshTexture::filter'],['../group__GeneralGroup.html#ga877a27fbb560e4c2b894f410f8d07eaf',1,'MR::GlTexture::Settings::filter'],['../group__GeneralGroup.html#gaf3933a416ea15973b12dec22ee93d2e9',1,'MR::FramebufferData::DrawParams::filter']]],
   ['filterequivalentcoloops_38',['filterEquivalentCoLoops',['../structMR_1_1DetectTunnelSettings.html#a4cf5671891104927d0393e7dd378f34b',1,'MR::DetectTunnelSettings']]],
-  ['filters_39',['Filters',['../group__GcodeLoadGroup.html#gabd47706c7b97898cac1416f8753223c7',1,'MR::GcodeLoad']]],
+  ['filters_39',['Filters',['../group__GcodeLoadGroup.html#gabd47706c7b97898cac1416f8753223c7',1,'MR::GcodeLoad::Filters'],['../group__GcodeSaveGroup.html#ga4dd745c36da2cf679fd4b00fd513ebe4',1,'MR::GcodeSave::Filters']]],
   ['filters_40',['filters',['../group__GeneralGroup.html#gaf94f67fb7131833e77aa1c32e60f68d1',1,'MR::FileParameters']]],
   ['finalrelaxiters_41',['finalRelaxIters',['../structMR_1_1RemeshSettings.html#ad7ab1e7054f884efcbe1327815ffd678',1,'MR::RemeshSettings']]],
   ['finalrelaxnoshrinkage_42',['finalRelaxNoShrinkage',['../structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9',1,'MR::RemeshSettings']]],

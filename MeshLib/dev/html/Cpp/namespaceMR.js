@@ -54,6 +54,13 @@ var namespaceMR =
       [ "fromGcode", "group__GcodeLoadGroup.html#ga9ec4ed07fd9eba700d2b29e209c94a59", null ],
       [ "Filters", "group__GcodeLoadGroup.html#gabd47706c7b97898cac1416f8753223c7", null ]
     ] ],
+    [ "GcodeSave", "namespaceMR_1_1GcodeSave.html", [
+      [ "toAnySupportedFormat", "group__GcodeSaveGroup.html#ga24a9a047504a316dac6118e3b71b8189", null ],
+      [ "toAnySupportedFormat", "group__GcodeSaveGroup.html#ga02e76240c31f2575d60be2d08cc760da", null ],
+      [ "toGcode", "group__GcodeSaveGroup.html#gaab1fbc726014492806ee5fe9779753eb", null ],
+      [ "toGcode", "group__GcodeSaveGroup.html#gaae2edb7d67be4e238fdf2a3e0c029f96", null ],
+      [ "Filters", "group__GcodeSaveGroup.html#ga4dd745c36da2cf679fd4b00fd513ebe4", null ]
+    ] ],
     [ "ImageLoad", "namespaceMR_1_1ImageLoad.html", [
       [ "ImageLoader", "namespaceMR_1_1ImageLoad.html#a13d83aa7ec99dc7a9ae166be69ecac53", null ],
       [ "fromAnySupportedFormat", "group__ImageLoadGroup.html#ga2e9338f4df7d8c383cae3bab2971a671", null ],

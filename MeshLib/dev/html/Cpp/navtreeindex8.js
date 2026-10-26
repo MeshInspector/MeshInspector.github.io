@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"classMR_1_1ChangeTextureAction.html#a146619ea49b7b8835a4f37f1a13cbb8e":[9,0,0,4,6,2],
+"classMR_1_1ChangeTextureAction.html#a6415831fcd79f6104620dcc3ae8b96a6":[9,0,0,4,6,3],
 "classMR_1_1ChangeTextureAction.html#ac85c185778438e863240862dbd46a152":[9,0,0,4,6,1],
 "classMR_1_1ChangeTextureAction.html#ad5e78402371a9402c2bc3e58851fd874":[9,0,0,4,6,5],
 "classMR_1_1ChangeTextureAction.html#add3319a36aa18e770733fef0c61d2f9d":[9,0,0,4,6,4],
@@ -210,7 +212,7 @@ var NAVTREEINDEX8 =
 "classMR_1_1FloatGrid.html#ae1df5fdac1a03f7e347a9b7c48b7229d":[9,0,0,18,5,8],
 "classMR_1_1FloatGrid.html#af8d34216336615815311c279c1f5ea36":[9,0,0,18,5,1],
 "classMR_1_1FlowAggregator.html":[9,0,0,20,123],
-"classMR_1_1FormatRegistry.html":[9,0,1,0,1,306],
+"classMR_1_1FormatRegistry.html":[9,0,1,0,1,307],
 "classMR_1_1FormatRegistry.html":[9,0,2,0,2,287],
 "classMR_1_1FrameCounter.html":[9,0,0,20,608],
 "classMR_1_1FrameRedrawRequest.html":[9,0,0,20,609],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "classMR_1_1Heap.html#af4f46522c9ccfd4ade826452c287a15d":[9,0,0,3,7,7],
 "classMR_1_1Heap.html#af4f46522c9ccfd4ade826452c287a15d":[9,0,0,20,368,7],
 "classMR_1_1Heap.html#afce981f39032a6f40b99a866d858b959":[9,0,0,3,7,1],
-"classMR_1_1Heap.html#afce981f39032a6f40b99a866d858b959":[9,0,0,20,368,1],
-"classMR_1_1Histogram.html":[9,0,0,0,18],
-"classMR_1_1Histogram.html":[9,0,0,20,287]
+"classMR_1_1Heap.html#afce981f39032a6f40b99a866d858b959":[9,0,0,20,368,1]
 };

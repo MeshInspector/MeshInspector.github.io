@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"classMR_1_1Const__TexturePerFace.html#a0ef3d5739464f55632b93a61e8416d99":[9,3,0,0,0,895,4],
 "classMR_1_1Const__TexturePerFace.html#a1c73e55a61a31f65261e135fc3b27ca1":[9,3,0,0,0,895,24],
 "classMR_1_1Const__TexturePerFace.html#a2b70846cd87ad44a7606a59ad665d90c":[9,3,0,0,0,895,1],
 "classMR_1_1Const__TexturePerFace.html#a2f5fd79be006bf890cf679fc0b16888a":[9,3,0,0,0,895,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "classMR_1_1Const__TriPointf.html#aef14ba6aa561eab5a04f972b08c33a99":[9,3,0,0,0,914,20],
 "classMR_1_1Const__TriPointf.html#afb0da3c003a029bc30297ec9dfced5d3":[9,3,0,0,0,914,18],
 "classMR_1_1Const__TriPointf.html#affbe4f931725b12811f79c2ab86cc8d7":[9,3,0,0,0,914,8],
-"classMR_1_1Const__TriPointf.html#affc75d2221ab5fa03d85526a8ba91f76":[9,3,0,0,0,914,15],
-"classMR_1_1Const__TriTriDistanceParams__Double.html":[9,3,0,0,0,915]
+"classMR_1_1Const__TriPointf.html#affc75d2221ab5fa03d85526a8ba91f76":[9,3,0,0,0,914,15]
 };

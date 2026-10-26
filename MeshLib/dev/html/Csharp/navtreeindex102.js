@@ -1,5 +1,6 @@
 var NAVTREEINDEX102 =
 {
+"classMR_1_1DenseBox.html#a799cd412c65c1dfd178508920477a66e":[9,3,0,0,0,1155,2],
 "classMR_1_1DenseBox.html#a94c4d5d35c09fa7915bb32213e57ec37":[9,3,0,0,0,1155,8],
 "classMR_1_1DenseBox.html#a9dccf6744b59fa9f76480f7b31f01426":[9,3,0,0,0,1155,9],
 "classMR_1_1DenseBox.html#abf88ecc9f3cba7c421a52bef0088b5b9":[9,3,0,0,0,1155,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX102 =
 "classMR_1_1DistanceToMeshOptions.html#a377d695db35ca7dd3bb0649a8893c424":[9,3,0,0,0,1171,6],
 "classMR_1_1DistanceToMeshOptions.html#a51bc359b20d8f117af6beb0d45d0a511":[9,3,0,0,0,1171,1],
 "classMR_1_1DistanceToMeshOptions.html#a7378a1501653aa35366dc06b9ca8ce79":[9,3,0,0,0,1171,3],
-"classMR_1_1DistanceToMeshOptions.html#a83c896dde991be5581aec91d7981a31c":[9,3,0,0,0,1171,0],
-"classMR_1_1DistanceToMeshOptions.html#a9459969d674d56605f27bfebee9a9e4d":[9,3,0,0,0,1171,4]
+"classMR_1_1DistanceToMeshOptions.html#a83c896dde991be5581aec91d7981a31c":[9,3,0,0,0,1171,0]
 };

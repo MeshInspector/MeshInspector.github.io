@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1BitSet.html#a90b29c78c8608ceb9ed2611e5e4cd81c":[9,3,0,0,0,48,30],
 "classMR_1_1BitSet.html#a95a194adf502fcdb8ccf1b2ffc6131b4":[9,3,0,0,0,48,6],
 "classMR_1_1BitSet.html#a9a44afa0463df41cbb6bfa29fea93216":[9,3,0,0,0,48,15],
 "classMR_1_1BitSet.html#a9be29d55f98f19cb86e1abb9971e06fa":[9,3,0,0,0,48,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1Box__Box3f.html#ad8760566038b0a0284912467700bb1b5":[9,3,0,0,0,92,0],
 "classMR_1_1Box__Box3f.html#ae0b710338741caf8a1ae5c227e96e61d":[9,3,0,0,0,92,8],
 "classMR_1_1Box__Box3i.html":[9,3,0,0,0,93],
-"classMR_1_1Box__Box3i.html#a01db34322a3637bf192c8e02810418d1":[9,3,0,0,0,93,3],
-"classMR_1_1Box__Box3i.html#a0311595f48dfc00bd35733a421c01ee4":[9,3,0,0,0,93,11]
+"classMR_1_1Box__Box3i.html#a01db34322a3637bf192c8e02810418d1":[9,3,0,0,0,93,3]
 };

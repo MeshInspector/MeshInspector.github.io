@@ -17,6 +17,7 @@ var hierarchy =
     [ "MR.FixUndercuts", "classMR_1_1FixUndercuts.html", null ],
     [ "MR.FloatGridComponents", "classMR_1_1FloatGridComponents.html", null ],
     [ "MR.GcodeLoad", "classMR_1_1GcodeLoad.html", null ],
+    [ "MR.GcodeSave", "classMR_1_1GcodeSave.html", null ],
     [ "System.IDisposable", null, [
       [ "MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap", "classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap.html", [
         [ "MR.ColorMapAggregator_MRFaceTag.PartialColorMap", "classMR_1_1ColorMapAggregator__MRFaceTag_1_1PartialColorMap.html", null ]

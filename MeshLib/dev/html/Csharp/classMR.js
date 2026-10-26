@@ -1249,6 +1249,7 @@ var classMR =
     [ "FunctionVolumeU8", "classMR_1_1FunctionVolumeU8.html", "classMR_1_1FunctionVolumeU8" ],
     [ "GcodeLoad", "classMR_1_1GcodeLoad.html", "classMR_1_1GcodeLoad" ],
     [ "GcodeProcessor", "classMR_1_1GcodeProcessor.html", "classMR_1_1GcodeProcessor" ],
+    [ "GcodeSave", "classMR_1_1GcodeSave.html", "classMR_1_1GcodeSave" ],
     [ "GCommand", "classMR_1_1GCommand.html", "classMR_1_1GCommand" ],
     [ "GeneralOffsetParameters", "classMR_1_1GeneralOffsetParameters.html", "classMR_1_1GeneralOffsetParameters" ],
     [ "GeodesicPath", "classMR_1_1GeodesicPath.html", "classMR_1_1GeodesicPath" ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"classMR_1_1Const__ShellVertexInfo.html#a392b899f75c281057eaa910b51a25a2b":[9,3,0,0,0,841,1],
 "classMR_1_1Const__ShellVertexInfo.html#a396b995d0ca86f26e7e1bd068e1cdc57":[9,3,0,0,0,841,3],
 "classMR_1_1Const__ShellVertexInfo.html#a615744ec6e2354c135338cc4555ffd8b":[9,3,0,0,0,841,12],
 "classMR_1_1Const__ShellVertexInfo.html#a96a8c9c8917fc3107066448240e7719b":[9,3,0,0,0,841,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "classMR_1_1Const__SmoothFillingSettings.html#a849ffef60a634231d6aa9a755bd7cde6":[9,3,0,0,0,854,6],
 "classMR_1_1Const__SmoothFillingSettings.html#a900fb26838e3aa00c6e67ae90bc2f5a9":[9,3,0,0,0,854,2],
 "classMR_1_1Const__SmoothFillingSettings.html#a9119bbfdc26c8b2b9e022cb79cf24598":[9,3,0,0,0,854,8],
-"classMR_1_1Const__SmoothFillingSettings.html#a96e8af00a3f63ec5a23538b5294c27c0":[9,3,0,0,0,854,5],
-"classMR_1_1Const__SmoothFillingSettings.html#aa485beb97a64e8672a7d7ed377b412b3":[9,3,0,0,0,854,4]
+"classMR_1_1Const__SmoothFillingSettings.html#a96e8af00a3f63ec5a23538b5294c27c0":[9,3,0,0,0,854,5]
 };

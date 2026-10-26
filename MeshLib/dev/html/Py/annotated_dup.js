@@ -410,6 +410,7 @@ var annotated_dup =
       [ "FunctionVolumeU8", "classmrmeshpy_1_1FunctionVolumeU8.html", "classmrmeshpy_1_1FunctionVolumeU8" ],
       [ "GcodeLoad", "classmrmeshpy_1_1GcodeLoad.html", null ],
       [ "GcodeProcessor", "classmrmeshpy_1_1GcodeProcessor.html", "classmrmeshpy_1_1GcodeProcessor" ],
+      [ "GcodeSave", "classmrmeshpy_1_1GcodeSave.html", null ],
       [ "GCommand", "classmrmeshpy_1_1GCommand.html", "classmrmeshpy_1_1GCommand" ],
       [ "GeneralOffsetParameters", "classmrmeshpy_1_1GeneralOffsetParameters.html", "classmrmeshpy_1_1GeneralOffsetParameters" ],
       [ "GeodesicPath", "classmrmeshpy_1_1GeodesicPath.html", "classmrmeshpy_1_1GeodesicPath" ],

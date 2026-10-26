@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"classMR_1_1Object.html#a5f512c4898f6a69b782b8647109ff8e0":[9,0,0,11,4,98],
+"classMR_1_1Object.html#a603c094ba75fe76c397b93e84d1cb129":[9,0,0,11,4,87],
 "classMR_1_1Object.html#a61f69554fe584800b9f60fac7e7f2200":[9,0,0,11,4,74],
 "classMR_1_1Object.html#a639d2e0d72c82c1efd9dc00ecaa0d3da":[9,0,0,11,4,26],
 "classMR_1_1Object.html#a64cc87b1de99f84bb49d9e0b0f24d9ea":[9,0,0,11,4,12],
@@ -133,15 +135,15 @@ var NAVTREEINDEX10 =
 "classMR_1_1Pdf.html":[9,0,0,20,100],
 "classMR_1_1PickPointManager.html":[9,0,0,20,645],
 "classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html":[9,0,0,20,115],
-"classMR_1_1PlaneAccumulator.html":[9,0,1,0,1,569],
+"classMR_1_1PlaneAccumulator.html":[9,0,1,0,1,570],
 "classMR_1_1PlaneAccumulator.html":[9,0,2,0,2,550],
-"classMR_1_1PlaneAccumulator.html#a2b607f4cffd555b7c0cdaa488439a986":[9,0,1,0,1,569,0],
+"classMR_1_1PlaneAccumulator.html#a2b607f4cffd555b7c0cdaa488439a986":[9,0,1,0,1,570,0],
 "classMR_1_1PlaneAccumulator.html#a2b607f4cffd555b7c0cdaa488439a986":[9,0,2,0,2,550,0],
-"classMR_1_1PlaneAccumulator.html#ab243bb9c789a839af26cf2ed0972f49e":[9,0,1,0,1,569,3],
+"classMR_1_1PlaneAccumulator.html#ab243bb9c789a839af26cf2ed0972f49e":[9,0,1,0,1,570,3],
 "classMR_1_1PlaneAccumulator.html#ab243bb9c789a839af26cf2ed0972f49e":[9,0,2,0,2,550,3],
-"classMR_1_1PlaneAccumulator.html#ad21706d15535338144b96f1ec664146c":[9,0,1,0,1,569,2],
+"classMR_1_1PlaneAccumulator.html#ad21706d15535338144b96f1ec664146c":[9,0,1,0,1,570,2],
 "classMR_1_1PlaneAccumulator.html#ad21706d15535338144b96f1ec664146c":[9,0,2,0,2,550,2],
-"classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[9,0,1,0,1,569,1],
+"classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[9,0,1,0,1,570,1],
 "classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[9,0,2,0,2,550,1],
 "classMR_1_1PlaneObject.html":[9,0,0,11,0,4],
 "classMR_1_1PlaneObject.html":[9,0,0,20,453],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "classMR_1_1RenderDimensions_1_1PointTask.html":[9,0,0,20,657],
 "classMR_1_1RenderDimensions_1_1RadiusTask.html":[9,0,0,20,659],
 "classMR_1_1RenderDistanceObject.html":[9,0,0,20,678],
-"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html":[9,0,1,0,1,43,1],
-"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html":[9,0,2,0,2,27,1],
-"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#a48bf22a7a30dabdbe6871758c246758d":[9,0,1,0,1,43,1,1]
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html":[9,0,1,0,1,44,1]
 };

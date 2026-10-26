@@ -4,6 +4,7 @@ var group__IOGroup =
     [ "DistanceMap Load", "group__DistanceMapLoadGroup.html", "group__DistanceMapLoadGroup" ],
     [ "DistanceMap Save", "group__DistanceMapSaveGroup.html", "group__DistanceMapSaveGroup" ],
     [ "Gcode Load", "group__GcodeLoadGroup.html", "group__GcodeLoadGroup" ],
+    [ "Gcode Save", "group__GcodeSaveGroup.html", "group__GcodeSaveGroup" ],
     [ "Image Load", "group__ImageLoadGroup.html", "group__ImageLoadGroup" ],
     [ "Image Save", "group__ImageSaveGroup.html", "group__ImageSaveGroup" ],
     [ "IO Filters", "group__IOFiltersGroup.html", "group__IOFiltersGroup" ],

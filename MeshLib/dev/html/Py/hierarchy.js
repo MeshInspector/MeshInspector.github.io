@@ -460,6 +460,7 @@ var hierarchy =
     [ "mrmeshpy.FunctionVolumeU8", "classmrmeshpy_1_1FunctionVolumeU8.html", null ],
     [ "mrmeshpy.GcodeLoad", "classmrmeshpy_1_1GcodeLoad.html", null ],
     [ "mrmeshpy.GcodeProcessor", "classmrmeshpy_1_1GcodeProcessor.html", null ],
+    [ "mrmeshpy.GcodeSave", "classmrmeshpy_1_1GcodeSave.html", null ],
     [ "mrmeshpy.GCommand", "classmrmeshpy_1_1GCommand.html", null ],
     [ "mrmeshpy.GeodesicPath", "classmrmeshpy_1_1GeodesicPath.html", null ],
     [ "mrmeshpy.GeodesicPathApprox", "classmrmeshpy_1_1GeodesicPathApprox.html", null ],

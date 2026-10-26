@@ -8131,6 +8131,7 @@ var group__GeneralGroup =
         [ "Points", "group__GeneralGroup.html#gga0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3", null ],
         [ "Voxels", "group__GeneralGroup.html#gga0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0", null ],
         [ "DistanceMap", "group__GeneralGroup.html#gga0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77", null ],
+        [ "Gcode", "group__GeneralGroup.html#gga0467e77cf6f92e5f94c8d1d75eef8a76aaa627340f0a738168c8e4407d68785f0", null ],
         [ "Count", "group__GeneralGroup.html#gga0467e77cf6f92e5f94c8d1d75eef8a76ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
       ] ],
       [ "ViewerSettingsManager", "group__GeneralGroup.html#ga849eb149986cc55b2cd516550c5bd23b", null ],
@@ -10063,6 +10064,7 @@ var group__GeneralGroup =
       [ "MR::ViewerSettingsManager::ObjType::Points", "group__GeneralGroup.html#gga0467e77cf6f92e5f94c8d1d75eef8a76a75dd5f1160a3f02b6fae89c54361a1b3", null ],
       [ "MR::ViewerSettingsManager::ObjType::Voxels", "group__GeneralGroup.html#gga0467e77cf6f92e5f94c8d1d75eef8a76a59637ce14182065617d85623a588b6f0", null ],
       [ "MR::ViewerSettingsManager::ObjType::DistanceMap", "group__GeneralGroup.html#gga0467e77cf6f92e5f94c8d1d75eef8a76ae76139f4dbe2f91f14577bcccc1baf77", null ],
+      [ "MR::ViewerSettingsManager::ObjType::Gcode", "group__GeneralGroup.html#gga0467e77cf6f92e5f94c8d1d75eef8a76aaa627340f0a738168c8e4407d68785f0", null ],
       [ "MR::ViewerSettingsManager::ObjType::Count", "group__GeneralGroup.html#gga0467e77cf6f92e5f94c8d1d75eef8a76ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "MR::OffsetMode", "group__GeneralGroup.html#gaaa631c02105f2a8fa6fe24c7873e8d98", [

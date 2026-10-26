@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId.html#ae359cb35be99bd9d519672c0a9582b9d":[9,3,0,0,0,50,2],
 "classMR_1_1BMap__MRGraphEdgeId__MRGraphEdgeId.html#ae8e7b5f38b1836094974d1e3a0e5e8b2":[9,3,0,0,0,50,3],
 "classMR_1_1BMap__MRGraphVertId__MRGraphVertId.html":[9,3,0,0,0,51],
 "classMR_1_1BMap__MRGraphVertId__MRGraphVertId.html#a399f434f11e15ac0f8a8fd43699c8f40":[9,3,0,0,0,51,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1BitSet.html#a6f7258f97e87c17a6553ecece544bc1d":[9,3,0,0,0,48,16],
 "classMR_1_1BitSet.html#a7cf9c47c09114e3ecb259192ea2d9880":[9,3,0,0,0,48,33],
 "classMR_1_1BitSet.html#a878f01d1bce3be85f0d1e4bffd94a8b1":[9,3,0,0,0,48,17],
-"classMR_1_1BitSet.html#a8dc4b9d9250e7d35422fa0e178e40190":[9,3,0,0,0,48,13],
-"classMR_1_1BitSet.html#a90b29c78c8608ceb9ed2611e5e4cd81c":[9,3,0,0,0,48,30]
+"classMR_1_1BitSet.html#a8dc4b9d9250e7d35422fa0e178e40190":[9,3,0,0,0,48,13]
 };

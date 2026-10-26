@@ -1,5 +1,7 @@
 var NAVTREEINDEX138 =
 {
+"classmrmeshpy_1_1func__bool__from__Id__FaceTag__Id__FaceTag.html#ad9495e9a8e017851afa72c35d0152251":[9,1,0,0,2,321,4],
+"classmrmeshpy_1_1func__bool__from__Id__FaceTag__Id__FaceTag.html#ad9495e9a8e017851afa72c35d0152251":[9,1,1,0,1,321,4],
 "classmrmeshpy_1_1func__bool__from__Id__FaceTag__Id__FaceTag.html#ae7315a5cf0732313db21ff019ac278f0":[9,1,0,0,2,321,3],
 "classmrmeshpy_1_1func__bool__from__Id__FaceTag__Id__FaceTag.html#ae7315a5cf0732313db21ff019ac278f0":[9,1,1,0,1,321,3],
 "classmrmeshpy_1_1func__bool__from__Id__VertTag.html":[9,1,0,0,2,322],
@@ -247,7 +249,5 @@ var NAVTREEINDEX138 =
 "classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#a7e6cc097acf8847c690f229ec07c0de1":[9,1,0,0,2,336,5],
 "classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#a7e6cc097acf8847c690f229ec07c0de1":[9,1,1,0,1,336,5],
 "classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#a9919a5c97799dc30ee5f923bd57e3305":[9,1,0,0,2,336,6],
-"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#a9919a5c97799dc30ee5f923bd57e3305":[9,1,1,0,1,336,6],
-"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#ab370850d282d3b480cd2c558047b1bf5":[9,1,0,0,2,336,4],
-"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#ab370850d282d3b480cd2c558047b1bf5":[9,1,1,0,1,336,4]
+"classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#a9919a5c97799dc30ee5f923bd57e3305":[9,1,1,0,1,336,6]
 };
