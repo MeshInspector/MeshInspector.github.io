@@ -149,7 +149,6 @@ $(function(){initNavTree('MRLocalTriangulations_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a90582ed1afa2a5795f1fa31bb2ea5a48" id="r_a90582ed1afa2a5795f1fa31bb2ea5a48"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a90582ed1afa2a5795f1fa31bb2ea5a48">MR_Vector_MR_FanRecord_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90582ed1afa2a5795f1fa31bb2ea5a48">MR_Vector_MR_FanRecord_MR_VertId</a></td></tr>
-<tr class="memdesc:a90582ed1afa2a5795f1fa31bb2ea5a48"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:ab54fbd82d863150a94f8351d44c81335" id="r_ab54fbd82d863150a94f8351d44c81335"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab54fbd82d863150a94f8351d44c81335">MR_std_function_MR_Vector3f_from_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab54fbd82d863150a94f8351d44c81335">MR_std_function_MR_Vector3f_from_MR_VertId</a></td></tr>
 <tr class="memitem:a07206f863a7930f17413a0d2e2ad518a" id="r_a07206f863a7930f17413a0d2e2ad518a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a07206f863a7930f17413a0d2e2ad518a">MR_std_optional_MR_AllLocalTriangulations</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07206f863a7930f17413a0d2e2ad518a">MR_std_optional_MR_AllLocalTriangulations</a></td></tr>
 <tr class="memitem:a00316c8d37416e8f17ee112e9f77391d" id="r_a00316c8d37416e8f17ee112e9f77391d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a00316c8d37416e8f17ee112e9f77391d">MR_std_vector_MR_FanRecordWithCenter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00316c8d37416e8f17ee112e9f77391d">MR_std_vector_MR_FanRecordWithCenter</a></td></tr>
@@ -397,15 +396,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;MR::FanRecord, MR::VertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;MR::FanRecord, MR::VertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

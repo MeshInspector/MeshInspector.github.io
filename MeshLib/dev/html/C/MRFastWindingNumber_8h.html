@@ -147,7 +147,6 @@ $(function(){initNavTree('MRFastWindingNumber_8h.html','',''); });
 Typedefs</h2></td></tr>
 <tr class="memitem:ad55ca9af0874ffb89877bad65ae2859d" id="r_ad55ca9af0874ffb89877bad65ae2859d"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad55ca9af0874ffb89877bad65ae2859d">MR_Vector3i</a></td></tr>
 <tr class="memitem:ab840893a8bc03d3ce990a43ef9077f6c" id="r_ab840893a8bc03d3ce990a43ef9077f6c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab840893a8bc03d3ce990a43ef9077f6c">MR_VoxelScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab840893a8bc03d3ce990a43ef9077f6c">MR_VoxelScalars</a></td></tr>
-<tr class="memdesc:ab840893a8bc03d3ce990a43ef9077f6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a73c052dfe667b2a80248f40cb62c6abc" id="r_a73c052dfe667b2a80248f40cb62c6abc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a73c052dfe667b2a80248f40cb62c6abc">MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73c052dfe667b2a80248f40cb62c6abc">MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int</a></td></tr>
 <tr class="memitem:a0ffb387b226b9065fc0db873078ef44a" id="r_a0ffb387b226b9065fc0db873078ef44a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ffb387b226b9065fc0db873078ef44a">MR_IFastWindingNumber</a></td></tr>
 <tr class="memitem:a200243313a8febf0af29cf2af80f94d2" id="r_a200243313a8febf0af29cf2af80f94d2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a200243313a8febf0af29cf2af80f94d2">MR_FastWindingNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a200243313a8febf0af29cf2af80f94d2">MR_FastWindingNumber</a></td></tr>
@@ -281,15 +280,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::VoxelScalars</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::VoxelScalars</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

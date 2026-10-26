@@ -145,10 +145,8 @@ $(function(){initNavTree('MRMeshNormals_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a8adffd0fdf3bafd75f3ddebfbdb22ef5" id="r_a8adffd0fdf3bafd75f3ddebfbdb22ef5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a></td></tr>
-<tr class="memdesc:a8adffd0fdf3bafd75f3ddebfbdb22ef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a3bbb72144be216efbb91200d0fc37f10" id="r_a3bbb72144be216efbb91200d0fc37f10"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector4f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bbb72144be216efbb91200d0fc37f10">MR_Vector4f</a></td></tr>
 <tr class="memitem:a50f94ee230b3b0bffb2b4b0a00986133" id="r_a50f94ee230b3b0bffb2b4b0a00986133"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a50f94ee230b3b0bffb2b4b0a00986133">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50f94ee230b3b0bffb2b4b0a00986133">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</a></td></tr>
-<tr class="memdesc:a50f94ee230b3b0bffb2b4b0a00986133"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a4c404df0e68a9dc60914c3fab1545116" id="r_a4c404df0e68a9dc60914c3fab1545116"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
@@ -190,15 +188,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::FaceNormals</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::FaceNormals</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -242,15 +232,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;std::array&lt;MR::Vector3f, 3&gt;, MR::FaceId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;std::array&lt;MR::Vector3f, 3&gt;, MR::FaceId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

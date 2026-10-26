@@ -147,9 +147,7 @@ $(function(){initNavTree('MRPolylineTopology_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:aef737119b16ccd09a84e3ea8b0a48e4b" id="r_aef737119b16ccd09a84e3ea8b0a48e4b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aef737119b16ccd09a84e3ea8b0a48e4b">MR_Edges</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef737119b16ccd09a84e3ea8b0a48e4b">MR_Edges</a></td></tr>
-<tr class="memdesc:aef737119b16ccd09a84e3ea8b0a48e4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:aec4dbe791edf2e0c0d9a89c6e2065b77" id="r_aec4dbe791edf2e0c0d9a89c6e2065b77"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aec4dbe791edf2e0c0d9a89c6e2065b77">MR_Vector_MR_VertId_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec4dbe791edf2e0c0d9a89c6e2065b77">MR_Vector_MR_VertId_MR_EdgeId</a></td></tr>
-<tr class="memdesc:aec4dbe791edf2e0c0d9a89c6e2065b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a1e0872622d33db158caeb0f6e32a385c" id="r_a1e0872622d33db158caeb0f6e32a385c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1e0872622d33db158caeb0f6e32a385c">MR_PolylineMaker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e0872622d33db158caeb0f6e32a385c">MR_PolylineMaker</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
@@ -243,15 +241,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Edges</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Edges</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -281,15 +271,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;MR::VertId, MR::EdgeId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;MR::VertId, MR::EdgeId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

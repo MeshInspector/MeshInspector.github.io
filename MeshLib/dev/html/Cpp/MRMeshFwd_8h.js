@@ -276,6 +276,7 @@ var MRMeshFwd_8h =
     [ "MR::TriPoint", "group__GeneralGroup.html#gab4b475d1cfb4a2c8cdef119f5570a9d6", null ],
     [ "MR::TriPointf", "group__GeneralGroup.html#ga38bb05d6835471e5cc3352addbd30f02", null ],
     [ "MR::UndirectedEdgeTag", "group__GeneralGroup.html#ga1bbe6aa7d7136f740286af86f591c19b", null ],
+    [ "MR::Vector", "group__GeneralGroup.html#ga6443f2f35b37c75d9872125777f9df18", null ],
     [ "MR::Vector2", "group__GeneralGroup.html#ga867b9f053fc77992f78d2a026c23493b", null ],
     [ "MR::Vector2b", "group__GeneralGroup.html#ga189bdc8575594594c238210424c145f2", null ],
     [ "MR::Vector4", "group__GeneralGroup.html#gabf2b64d81134dc56b5d017eab9836038", null ],

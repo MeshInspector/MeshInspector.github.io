@@ -146,7 +146,6 @@ $(function(){initNavTree('MRMeshCollide_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a241ebc5168b85254384f769ec1b1268e" id="r_a241ebc5168b85254384f769ec1b1268e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a></td></tr>
-<tr class="memdesc:a241ebc5168b85254384f769ec1b1268e"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a74aaa8804e7ff506aeb3bda836914375" id="r_a74aaa8804e7ff506aeb3bda836914375"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a74aaa8804e7ff506aeb3bda836914375">MR_expected_bool_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74aaa8804e7ff506aeb3bda836914375">MR_expected_bool_std_string</a></td></tr>
 <tr class="memitem:aba9a9797e256d419b82e9ab4886546fd" id="r_aba9a9797e256d419b82e9ab4886546fd"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aba9a9797e256d419b82e9ab4886546fd">MR_expected_std_vector_MR_FaceFace_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba9a9797e256d419b82e9ab4886546fd">MR_expected_std_vector_MR_FaceFace_std_string</a></td></tr>
 <tr class="memitem:a8ceedec9dcad3f944edabd2d4d228de7" id="r_a8ceedec9dcad3f944edabd2d4d228de7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8ceedec9dcad3f944edabd2d4d228de7">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ceedec9dcad3f944edabd2d4d228de7">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</a></td></tr>
@@ -211,15 +210,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Face2RegionMap</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Face2RegionMap</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

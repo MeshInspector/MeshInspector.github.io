@@ -147,9 +147,7 @@ $(function(){initNavTree('MRGraph_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:aa587fe38469cba58044669a58438b656" id="r_aa587fe38469cba58044669a58438b656"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa587fe38469cba58044669a58438b656">MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa587fe38469cba58044669a58438b656">MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</a></td></tr>
-<tr class="memdesc:aa587fe38469cba58044669a58438b656"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a4dc64f4d7249dc400451d0a7774feb7a" id="r_a4dc64f4d7249dc400451d0a7774feb7a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4dc64f4d7249dc400451d0a7774feb7a">MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dc64f4d7249dc400451d0a7774feb7a">MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</a></td></tr>
-<tr class="memdesc:a4dc64f4d7249dc400451d0a7774feb7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a036edfb07f39db6a183328939d25f1b5" id="r_a036edfb07f39db6a183328939d25f1b5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a036edfb07f39db6a183328939d25f1b5">MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a036edfb07f39db6a183328939d25f1b5">MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId</a></td></tr>
 <tr class="memitem:a69bf1e3186eb9f5254b48c24d41f5de7" id="r_a69bf1e3186eb9f5254b48c24d41f5de7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a69bf1e3186eb9f5254b48c24d41f5de7">MR_std_vector_MR_GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69bf1e3186eb9f5254b48c24d41f5de7">MR_std_vector_MR_GraphEdgeId</a></td></tr>
 <tr class="memitem:a8c7bacba4378ff403f17cdff39d814a5" id="r_a8c7bacba4378ff403f17cdff39d814a5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a></td></tr>
@@ -273,15 +271,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;MR::Graph::EndVertices, MR::GraphEdgeId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;MR::Graph::EndVertices, MR::GraphEdgeId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -296,15 +286,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;std::vector&lt;MR::GraphEdgeId&gt;, MR::GraphVertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;std::vector&lt;MR::GraphEdgeId&gt;, MR::GraphVertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

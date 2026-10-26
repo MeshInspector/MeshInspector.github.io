@@ -146,9 +146,7 @@ $(function(){initNavTree('MRAggregateFlow_8h.html','',''); });
 Typedefs</h2></td></tr>
 <tr class="memitem:a741f5bb0872ea5dd2506146d0fd1afdc" id="r_a741f5bb0872ea5dd2506146d0fd1afdc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a></td></tr>
 <tr class="memitem:af24d03a25a98fafdbaf79dfeda2fc526" id="r_af24d03a25a98fafdbaf79dfeda2fc526"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af24d03a25a98fafdbaf79dfeda2fc526">MR_UndirectedEdgeScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af24d03a25a98fafdbaf79dfeda2fc526">MR_UndirectedEdgeScalars</a></td></tr>
-<tr class="memdesc:af24d03a25a98fafdbaf79dfeda2fc526"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a6e4bb5e8943c9b1f5d438198404d0bd4" id="r_a6e4bb5e8943c9b1f5d438198404d0bd4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a></td></tr>
-<tr class="memdesc:a6e4bb5e8943c9b1f5d438198404d0bd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a19bab1f7e99afc108ced4e8454dedd7f" id="r_a19bab1f7e99afc108ced4e8454dedd7f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a19bab1f7e99afc108ced4e8454dedd7f">MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19bab1f7e99afc108ced4e8454dedd7f">MR_phmap_flat_hash_map_MR_VertId_MR_FlowAggregator_Flows_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_MR_FlowAggregator_Flows</a></td></tr>
 <tr class="memitem:a1a46978c38c3b19b8a025af58b7e3a7e" id="r_a1a46978c38c3b19b8a025af58b7e3a7e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1a46978c38c3b19b8a025af58b7e3a7e">MR_std_function_MR_MeshTriPoint_from_size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a46978c38c3b19b8a025af58b7e3a7e">MR_std_function_MR_MeshTriPoint_from_size_t</a></td></tr>
 <tr class="memitem:a42836fcece5711f803cdc703890e1f01" id="r_a42836fcece5711f803cdc703890e1f01"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a42836fcece5711f803cdc703890e1f01">MR_std_function_const_MR_FaceBitSet_ptr_from_size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42836fcece5711f803cdc703890e1f01">MR_std_function_const_MR_FaceBitSet_ptr_from_size_t</a></td></tr>
@@ -413,15 +411,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::UndirectedEdgeScalars</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::UndirectedEdgeScalars</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -436,15 +426,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::VertScalars</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::VertScalars</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

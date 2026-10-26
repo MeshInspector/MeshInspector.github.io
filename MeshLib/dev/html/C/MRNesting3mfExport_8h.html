@@ -145,7 +145,6 @@ $(function(){initNavTree('MRNesting3mfExport_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:ad9d1a459f1892b048ab0561ba2797264" id="r_ad9d1a459f1892b048ab0561ba2797264"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad9d1a459f1892b048ab0561ba2797264">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9d1a459f1892b048ab0561ba2797264">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</a></td></tr>
-<tr class="memdesc:ad9d1a459f1892b048ab0561ba2797264"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:acd4ddc2cfe7e9fdedb2f8c06846f05e8" id="r_acd4ddc2cfe7e9fdedb2f8c06846f05e8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#acd4ddc2cfe7e9fdedb2f8c06846f05e8">MR_std_vector_MR_Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd4ddc2cfe7e9fdedb2f8c06846f05e8">MR_std_vector_MR_Image</a></td></tr>
 <tr class="memitem:ab26d333cd7549e6f3f49cc80e3ba5900" id="r_ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td></tr>
 <tr class="memitem:a00ba31354bd84da8afe131439833fbb9" id="r_a00ba31354bd84da8afe131439833fbb9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a00ba31354bd84da8afe131439833fbb9">MR_Nesting_Nesting3mfParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00ba31354bd84da8afe131439833fbb9">MR_Nesting_Nesting3mfParams</a></td></tr>
@@ -243,15 +242,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;MR::Nesting::MeshXf, MR::ObjId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;MR::Nesting::MeshXf, MR::ObjId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

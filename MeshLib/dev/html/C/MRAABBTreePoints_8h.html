@@ -149,10 +149,8 @@ $(function(){initNavTree('MRAABBTreePoints_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:ab2a7de4aa3afd6ac2dbca1388a451783" id="r_ab2a7de4aa3afd6ac2dbca1388a451783"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab2a7de4aa3afd6ac2dbca1388a451783">MR_Vector_MR_AABBTreePoints_Node_MR_NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2a7de4aa3afd6ac2dbca1388a451783">MR_Vector_MR_AABBTreePoints_Node_MR_NodeId</a></td></tr>
-<tr class="memdesc:ab2a7de4aa3afd6ac2dbca1388a451783"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:aa7b9116fbd7f68728817ec9e0d331d91" id="r_aa7b9116fbd7f68728817ec9e0d331d91"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a></td></tr>
 <tr class="memitem:a249fd9254c0c3395567807936ad32641" id="r_a249fd9254c0c3395567807936ad32641"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td></tr>
-<tr class="memdesc:a249fd9254c0c3395567807936ad32641"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a3ad79c88fa1e467d5ccd88cbcf762ae3" id="r_a3ad79c88fa1e467d5ccd88cbcf762ae3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3ad79c88fa1e467d5ccd88cbcf762ae3">MR_std_pair_int_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ad79c88fa1e467d5ccd88cbcf762ae3">MR_std_pair_int_int</a></td></tr>
 <tr class="memitem:a73ecbd814e9edb9c62f4f57cbbf98cb6" id="r_a73ecbd814e9edb9c62f4f57cbbf98cb6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73ecbd814e9edb9c62f4f57cbbf98cb6">MR_std_vector_MR_AABBTreePoints_Point</a></td></tr>
 <tr class="memitem:aed23cf43b6fbab4bac207419ea0d1d7a" id="r_aed23cf43b6fbab4bac207419ea0d1d7a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aed23cf43b6fbab4bac207419ea0d1d7a">MR_AABBTreePoints_Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed23cf43b6fbab4bac207419ea0d1d7a">MR_AABBTreePoints_Node</a></td></tr>
@@ -313,15 +311,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;MR::AABBTreePoints::Node, MR::NodeId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;MR::AABBTreePoints::Node, MR::NodeId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -351,15 +341,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::VertCoords</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::VertCoords</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

@@ -154,9 +154,7 @@ Typedefs</h2></td></tr>
 <tr class="memitem:aae1af1886c1d727925eb39e88e0dfdf9" id="r_aae1af1886c1d727925eb39e88e0dfdf9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aae1af1886c1d727925eb39e88e0dfdf9">MR_UnionFind_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae1af1886c1d727925eb39e88e0dfdf9">MR_UnionFind_MR_VertId</a></td></tr>
 <tr class="memdesc:aae1af1886c1d727925eb39e88e0dfdf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Union-find data structure for representing disjoint sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. Sequential implementation that selects the root of a united pair by set size for best performance.  <br /></td></tr>
 <tr class="memitem:a06306831ace9e501baac05adb1b1eea3" id="r_a06306831ace9e501baac05adb1b1eea3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a06306831ace9e501baac05adb1b1eea3">MR_Vector_double_MR_RegionId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06306831ace9e501baac05adb1b1eea3">MR_Vector_double_MR_RegionId</a></td></tr>
-<tr class="memdesc:a06306831ace9e501baac05adb1b1eea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:ab70c0d5ed81f20ad747b8b50d3adac6e" id="r_ab70c0d5ed81f20ad747b8b50d3adac6e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab70c0d5ed81f20ad747b8b50d3adac6e">MR_Vector_int_MR_RegionId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab70c0d5ed81f20ad747b8b50d3adac6e">MR_Vector_int_MR_RegionId</a></td></tr>
-<tr class="memdesc:ab70c0d5ed81f20ad747b8b50d3adac6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a58650ad196b479b752e724520664c772" id="r_a58650ad196b479b752e724520664c772"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a58650ad196b479b752e724520664c772">MR_std_pair_MR_Face2RegionMap_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58650ad196b479b752e724520664c772">MR_std_pair_MR_Face2RegionMap_int</a></td></tr>
 <tr class="memitem:a6c98ed3d89f5c37c99e7070ffa8acb14" id="r_a6c98ed3d89f5c37c99e7070ffa8acb14"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a6c98ed3d89f5c37c99e7070ffa8acb14">MR_std_pair_MR_FaceBitSet_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c98ed3d89f5c37c99e7070ffa8acb14">MR_std_pair_MR_FaceBitSet_int</a></td></tr>
 <tr class="memitem:a8627fb6dcfa429e140269bee7c3de08f" id="r_a8627fb6dcfa429e140269bee7c3de08f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8627fb6dcfa429e140269bee7c3de08f">MR_std_pair_std_vector_MR_FaceBitSet_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8627fb6dcfa429e140269bee7c3de08f">MR_std_pair_std_vector_MR_FaceBitSet_int</a></td></tr>
@@ -531,15 +529,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;double, MR::RegionId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;double, MR::RegionId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -554,15 +544,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;int, MR::RegionId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;int, MR::RegionId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

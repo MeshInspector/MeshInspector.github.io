@@ -156,7 +156,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ab606653bb9578226f3ddd4aba7a46645" id="r_ab606653bb9578226f3ddd4aba7a46645"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a></td></tr>
 <tr class="memitem:adff90ec5624b225b247349e8f83ddc15" id="r_adff90ec5624b225b247349e8f83ddc15"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#adff90ec5624b225b247349e8f83ddc15">MR_VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adff90ec5624b225b247349e8f83ddc15">MR_VacantElements</a></td></tr>
 <tr class="memitem:a492785e8cc43f73ad55471496f397889" id="r_a492785e8cc43f73ad55471496f397889"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a492785e8cc43f73ad55471496f397889">MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a492785e8cc43f73ad55471496f397889">MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId</a></td></tr>
-<tr class="memdesc:a492785e8cc43f73ad55471496f397889"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:ad0a34dee22bb71b0ac9a64c386bdec3c" id="r_ad0a34dee22bb71b0ac9a64c386bdec3c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad0a34dee22bb71b0ac9a64c386bdec3c">MR_expected_MR_PackMapping_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0a34dee22bb71b0ac9a64c386bdec3c">MR_expected_MR_PackMapping_std_string</a></td></tr>
 <tr class="memitem:ad28f0eefdef309c3ac3580e15985c342" id="r_ad28f0eefdef309c3ac3580e15985c342"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad28f0eefdef309c3ac3580e15985c342">MR_expected_MR_VertBitSet_std_string</a></td></tr>
 <tr class="memitem:a520dd9d9f446585bfc23542b2446d1d3" id="r_a520dd9d9f446585bfc23542b2446d1d3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a520dd9d9f446585bfc23542b2446d1d3">MR_std_function_bool_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a520dd9d9f446585bfc23542b2446d1d3">MR_std_function_bool_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId_MR_VertId</a></td></tr>
@@ -447,15 +446,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;MR::MeshBuilder::VertSpan, MR::FaceId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;MR::MeshBuilder::VertSpan, MR::FaceId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

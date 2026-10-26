@@ -167,8 +167,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ga6536d27d13221f6b39d282c975088718 inherit pub_methods_classMR_1_1IPointsToMeshProjector" id="r_ga6536d27d13221f6b39d282c975088718"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6536d27d13221f6b39d282c975088718">IPointsToMeshProjector</a> (const <a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> &amp;)=default</td></tr>
 <tr class="memitem:gaa38e9b719876265280a8e6044e889b2f inherit pub_methods_classMR_1_1IPointsToMeshProjector" id="r_gaa38e9b719876265280a8e6044e889b2f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa38e9b719876265280a8e6044e889b2f">IPointsToMeshProjector</a> (<a class="el" href="classMR_1_1IPointsToMeshProjector.html">IPointsToMeshProjector</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="memitem:gac1a1633695c8776296054f81942a84dc inherit pub_methods_classMR_1_1IPointsToMeshProjector" id="r_gac1a1633695c8776296054f81942a84dc"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac1a1633695c8776296054f81942a84dc">~IPointsToMeshProjector</a> ()=default</td></tr>
-<tr class="memitem:ga5d0b9eb7552990bcbed98faae8de8ff7 inherit pub_methods_classMR_1_1IPointsToMeshProjector" id="r_ga5d0b9eb7552990bcbed98faae8de8ff7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5d0b9eb7552990bcbed98faae8de8ff7">findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1MeshProjectionResult.html">MeshProjectionResult</a> &gt; &amp;result, const VertCoords &amp;<a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, const AffineXf3f *worldXf=nullptr, const AffineXf3f *worldRefXf=nullptr, float upDistLimitSq=FLT_MAX, float loDistLimitSq=0.0f)=0</td></tr>
-<tr class="memdesc:ga5d0b9eb7552990bcbed98faae8de8ff7 inherit pub_methods_classMR_1_1IPointsToMeshProjector"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Computes the closest point on mesh to each of given points on GPU. It caches data that necessary for computing. </p>
@@ -233,7 +231,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -250,6 +248,8 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Implements <a class="el" href="group__GeneralGroup.html#ga5d0b9eb7552990bcbed98faae8de8ff7">MR::IPointsToMeshProjector</a>.</p>
 
 </div>
 </div>

@@ -148,7 +148,6 @@ $(function(){initNavTree('MRChangeColoringActions_8h.html','',''); });
 Typedefs</h2></td></tr>
 <tr class="memitem:a26fdcccc5668d7a10acc1e27c11d1e56" id="r_a26fdcccc5668d7a10acc1e27c11d1e56"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a></td></tr>
 <tr class="memitem:a63019091c05b8b468f7f88db47cfb0ef" id="r_a63019091c05b8b468f7f88db47cfb0ef"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a63019091c05b8b468f7f88db47cfb0ef">MR_UndirectedEdgeColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63019091c05b8b468f7f88db47cfb0ef">MR_UndirectedEdgeColors</a></td></tr>
-<tr class="memdesc:a63019091c05b8b468f7f88db47cfb0ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:ad458eacc045c043795ff381c6b6455a7" id="r_ad458eacc045c043795ff381c6b6455a7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad458eacc045c043795ff381c6b6455a7">MR_std_shared_ptr_MR_ObjectLinesHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad458eacc045c043795ff381c6b6455a7">MR_std_shared_ptr_MR_ObjectLinesHolder</a></td></tr>
 <tr class="memitem:abd3bb0462953cf0fbf4ae07efee66edb" id="r_abd3bb0462953cf0fbf4ae07efee66edb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abd3bb0462953cf0fbf4ae07efee66edb">MR_std_shared_ptr_MR_ObjectMeshHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd3bb0462953cf0fbf4ae07efee66edb">MR_std_shared_ptr_MR_ObjectMeshHolder</a></td></tr>
 <tr class="memitem:aa4b9828f4113d20d85483568f977c8ff" id="r_aa4b9828f4113d20d85483568f977c8ff"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a></td></tr>
@@ -360,15 +359,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::UndirectedEdgeColors</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::UndirectedEdgeColors</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

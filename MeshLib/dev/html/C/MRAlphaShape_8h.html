@@ -150,9 +150,7 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a109826dd6ebd783e9011351debdab874" id="r_a109826dd6ebd783e9011351debdab874"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a109826dd6ebd783e9011351debdab874">MR_ConvertToIntVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a109826dd6ebd783e9011351debdab874">MR_ConvertToIntVector</a></td></tr>
 <tr class="memitem:acf8295b8fee8090e376d3d1c18eb3356" id="r_acf8295b8fee8090e376d3d1c18eb3356"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf8295b8fee8090e376d3d1c18eb3356">MR_PreciseVertCoords</a></td></tr>
 <tr class="memitem:a33f2cead15f3bf37534d3678feb4af22" id="r_a33f2cead15f3bf37534d3678feb4af22"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a></td></tr>
-<tr class="memdesc:a33f2cead15f3bf37534d3678feb4af22"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a1ee03147697b6ec21996bf4dd7c65823" id="r_a1ee03147697b6ec21996bf4dd7c65823"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1ee03147697b6ec21996bf4dd7c65823">MR_Vector_MR_Vector3i_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ee03147697b6ec21996bf4dd7c65823">MR_Vector_MR_Vector3i_MR_VertId</a></td></tr>
-<tr class="memdesc:a1ee03147697b6ec21996bf4dd7c65823"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:aa870bea258c3c0ee572af5757ab79e2d" id="r_aa870bea258c3c0ee572af5757ab79e2d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa870bea258c3c0ee572af5757ab79e2d">MR_std_optional_MR_Triangulation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa870bea258c3c0ee572af5757ab79e2d">MR_std_optional_MR_Triangulation</a></td></tr>
 <tr class="memitem:a652333db8d301e4fc8331c6c2269ec64" id="r_a652333db8d301e4fc8331c6c2269ec64"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a652333db8d301e4fc8331c6c2269ec64">MR_std_vector_MR_AlphaShapeNei</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a652333db8d301e4fc8331c6c2269ec64">MR_std_vector_MR_AlphaShapeNei</a></td></tr>
 <tr class="memitem:a40d169ae2472d370ae2e339e14e5d0d2" id="r_a40d169ae2472d370ae2e339e14e5d0d2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a40d169ae2472d370ae2e339e14e5d0d2">MR_std_vector_MR_BallPivotCandidate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40d169ae2472d370ae2e339e14e5d0d2">MR_std_vector_MR_BallPivotCandidate</a></td></tr>
@@ -429,15 +427,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Triangulation</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Triangulation</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -452,15 +442,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;MR::Vector3i, MR::VertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;MR::Vector3i, MR::VertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

@@ -149,9 +149,7 @@ $(function(){initNavTree('MR2DContoursTriangulation_8h.html','',''); });
 Typedefs</h2></td></tr>
 <tr class="memitem:a6bf133eda1ec95be202b77c33412bc8e" id="r_a6bf133eda1ec95be202b77c33412bc8e"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf133eda1ec95be202b77c33412bc8e">MR_Vector3f</a></td></tr>
 <tr class="memitem:a4cecbe6d6abe0a304f00ea1990538db2" id="r_a4cecbe6d6abe0a304f00ea1990538db2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4cecbe6d6abe0a304f00ea1990538db2">MR_Vector_int_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cecbe6d6abe0a304f00ea1990538db2">MR_Vector_int_MR_FaceId</a></td></tr>
-<tr class="memdesc:a4cecbe6d6abe0a304f00ea1990538db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a50066b58d97b0be73d826cfdcc9eb188" id="r_a50066b58d97b0be73d826cfdcc9eb188"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50066b58d97b0be73d826cfdcc9eb188">MR_WholeEdgeMap</a></td></tr>
-<tr class="memdesc:a50066b58d97b0be73d826cfdcc9eb188"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:ab9ea483d49601b3017056ba3df23921e" id="r_ab9ea483d49601b3017056ba3df23921e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab9ea483d49601b3017056ba3df23921e">MR_std_optional_MR_HoleFillPlan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9ea483d49601b3017056ba3df23921e">MR_std_optional_MR_HoleFillPlan</a></td></tr>
 <tr class="memitem:a3bbe7529fd9a3b454d1fe7040289bf3c" id="r_a3bbe7529fd9a3b454d1fe7040289bf3c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bbe7529fd9a3b454d1fe7040289bf3c">MR_std_optional_MR_Mesh</a></td></tr>
 <tr class="memitem:af3d746e536136af3a4a530351f5d15e8" id="r_af3d746e536136af3a4a530351f5d15e8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af3d746e536136af3a4a530351f5d15e8">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3d746e536136af3a4a530351f5d15e8">MR_std_vector_MR_PlanarTriangulation_IntersectionInfo</a></td></tr>
@@ -535,15 +533,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;int, MR::FaceId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;int, MR::FaceId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -558,15 +548,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::WholeEdgeMap</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::WholeEdgeMap</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

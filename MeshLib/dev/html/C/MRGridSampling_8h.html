@@ -152,7 +152,6 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:ac02da2bc53860b2b70f391049eac5e2a" id="r_ac02da2bc53860b2b70f391049eac5e2a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac02da2bc53860b2b70f391049eac5e2a">MR_Vector_MR_ModelPointsData_MR_ObjId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac02da2bc53860b2b70f391049eac5e2a">MR_Vector_MR_ModelPointsData_MR_ObjId</a></td></tr>
-<tr class="memdesc:ac02da2bc53860b2b70f391049eac5e2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:ae1286432b335d8b4c779dca862ef8e52" id="r_ae1286432b335d8b4c779dca862ef8e52"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae1286432b335d8b4c779dca862ef8e52">MR_std_optional_std_vector_MR_ObjVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1286432b335d8b4c779dca862ef8e52">MR_std_optional_std_vector_MR_ObjVertId</a></td></tr>
 <tr class="memitem:ae8ceab23dca7dddaf285e74ae09d207c" id="r_ae8ceab23dca7dddaf285e74ae09d207c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a></td></tr>
 <tr class="memitem:a88b00e6d4801cafab9a50d688eeb649d" id="r_a88b00e6d4801cafab9a50d688eeb649d"><td class="memItemLeft" align="right" valign="top">typedef struct MR_ObjVertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88b00e6d4801cafab9a50d688eeb649d">MR_ObjVertId</a></td></tr>
@@ -249,15 +248,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;MR::ModelPointsData, MR::ObjId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;MR::ModelPointsData, MR::ObjId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>

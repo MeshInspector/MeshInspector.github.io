@@ -146,7 +146,6 @@ $(function(){initNavTree('MRPolylineDecimate_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a9f177a2dfee438db08a5310661f61785" id="r_a9f177a2dfee438db08a5310661f61785"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a9f177a2dfee438db08a5310661f61785">MR_Vector_MR_QuadraticForm2f_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f177a2dfee438db08a5310661f61785">MR_Vector_MR_QuadraticForm2f_MR_VertId</a></td></tr>
-<tr class="memdesc:a9f177a2dfee438db08a5310661f61785"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:abf26775576c081a76617e471df1eff4c" id="r_abf26775576c081a76617e471df1eff4c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abf26775576c081a76617e471df1eff4c">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector2f_ref</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf26775576c081a76617e471df1eff4c">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector2f_ref</a></td></tr>
 <tr class="memitem:a017ca0c76d3e31b4298bbcc16468c4cd" id="r_a017ca0c76d3e31b4298bbcc16468c4cd"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a017ca0c76d3e31b4298bbcc16468c4cd">MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector2f_ref</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a017ca0c76d3e31b4298bbcc16468c4cd">MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector2f_ref</a></td></tr>
 <tr class="memitem:ac66cce5b0850ae9b355503447df887fd" id="r_ac66cce5b0850ae9b355503447df887fd"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac66cce5b0850ae9b355503447df887fd">MR_DecimatePolylineSettings_MR_Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac66cce5b0850ae9b355503447df887fd">MR_DecimatePolylineSettings_MR_Vector2f</a></td></tr>
@@ -366,15 +365,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Vector&lt;MR::QuadraticForm2f, MR::VertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Vector&lt;T&gt; is std::vector&lt;T&gt; allocating with MR::Allocator Generated from class <span class="tt">MR::Vector&lt;MR::QuadraticForm2f, MR::VertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
