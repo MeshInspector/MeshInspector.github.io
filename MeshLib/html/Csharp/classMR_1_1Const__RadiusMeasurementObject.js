@@ -7,6 +7,7 @@ var classMR_1_1Const__RadiusMeasurementObject =
     [ "clone", "classMR_1_1Const__RadiusMeasurementObject.html#abdb0bdd686ee31c802f49af5d58e14ae", null ],
     [ "cloneTree", "classMR_1_1Const__RadiusMeasurementObject.html#a868cb00eb70ec0b9703b6730326faea8", null ],
     [ "computeRadiusOrDiameter", "classMR_1_1Const__RadiusMeasurementObject.html#ae4445696ac3905bd9f40f630aec330aa", null ],
+    [ "constChildren", "classMR_1_1Const__RadiusMeasurementObject.html#ae5d6fb236ff6480c11610d433ae0f72b", null ],
     [ "Dispose", "classMR_1_1Const__RadiusMeasurementObject.html#ab465b4e53c15f3c78e02cdd4d7598309", null ],
     [ "Dispose", "classMR_1_1Const__RadiusMeasurementObject.html#a83daf9f33afe3ff03392945eb23bc3ec", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__RadiusMeasurementObject.html#a3bb45920cdd26dbd8d8f52acef994da8", null ],

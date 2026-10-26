@@ -1,6 +1,7 @@
 var MRMeshFixer_8h =
 [
     [ "MR::MultipleEdge", "group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc", null ],
+    [ "MR::deleteFacesWithLongEdges", "group__MeshFixerGroup.html#ga070d3e16e2fb8549c1d840e8595948bd", null ],
     [ "MR::duplicateMultiHoleVertices", "group__MeshFixerGroup.html#ga9f1f866643e15bf1b9d9131f2d6dad0e", null ],
     [ "MR::duplicateMultiHoleVertices", "group__MeshFixerGroup.html#ga900c1c80bfa1ca726e5afe5ccab5b31d", null ],
     [ "MR::eliminateDegree3Dest", "group__MeshFixerGroup.html#ga1a6d31909cb9b003dd59942b58bcdfae", null ],
@@ -16,9 +17,10 @@ var MRMeshFixer_8h =
     [ "MR::findRepeatedVertsOnHoleBd", "group__MeshFixerGroup.html#ga30b08f4167efdcd741cdad4aeaf5d066", null ],
     [ "MR::findShortEdges", "group__MeshFixerGroup.html#ga3d72f926edb3f593c53583fba7398538", null ],
     [ "MR::fixMeshCreases", "group__MeshFixerGroup.html#ga04f842da188886fe7f430e90a6956a06", null ],
+    [ "MR::fixMeshDataDegeneracies", "group__MeshFixerGroup.html#gad1c53f9374cb68d222f9f777a25f964f", null ],
     [ "MR::fixMeshDegeneracies", "group__MeshFixerGroup.html#ga1e63ddf91205ab34304a9ff3b2b550a2", null ],
     [ "MR::fixMultipleEdges", "group__MeshFixerGroup.html#gaa6e120bc37618d508cf410a20edaa787", null ],
-    [ "MR::fixMultipleEdges", "group__MeshFixerGroup.html#ga4b6baaa619201e7e4c135ec4200d38ce", null ],
+    [ "MR::fixMultipleEdges", "group__MeshFixerGroup.html#gaad5217689f3dbf4fefa9827d286a9871", null ],
     [ "MR::hasMultipleEdges", "group__MeshFixerGroup.html#ga1aa9c53dc2ae474fe6c0c6d90d347f3e", null ],
     [ "MR::isDegree3Dest", "group__MeshFixerGroup.html#ga7ed9b863f3586261b7732c0dba013eae", null ],
     [ "MR::isEdgeBetweenDoubleTris", "group__MeshFixerGroup.html#ga754a74fa515375b32aee32394abe05f6", null ],

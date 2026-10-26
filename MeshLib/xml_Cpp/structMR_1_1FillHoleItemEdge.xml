@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FillHoleItemEdge" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FillHoleItemEdge</compoundname>
+    <includes refid="MRHoleFillPlan_8h" local="no">MRMesh/MRHoleFillPlan.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gab8047292c0a65d060fdae0ea066e2888" kind="variable"><name>item</name></member>
+      <member refid="group__GeneralGroup_1ga59f85d6c7ed89fb09b60e7489ebf540b" kind="variable"><name>sym</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga07a54d9fc1277411a84629ef8af1718e" kind="function"><name>encode</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gaca7e1cf40d26625e3f68714cb7cd4150" kind="function"><name>decode</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>an edge created by an item of the plan, given in the same way as EdgeId gives an edge of a mesh: what the edge is, plus which of its two directions is meant </para>
+    </detaileddescription>
+    <location file="MRMesh/MRHoleFillPlan.h" line="21" column="1" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="22" bodyend="42"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaca7e1cf40d26625e3f68714cb7cd4150" prot="public" virt="non-virtual"><scope>MR::FillHoleItemEdge</scope><name>decode</name></member>
+      <member refid="group__GeneralGroup_1ga07a54d9fc1277411a84629ef8af1718e" prot="public" virt="non-virtual"><scope>MR::FillHoleItemEdge</scope><name>encode</name></member>
+      <member refid="group__GeneralGroup_1gab8047292c0a65d060fdae0ea066e2888" prot="public" virt="non-virtual"><scope>MR::FillHoleItemEdge</scope><name>item</name></member>
+      <member refid="group__GeneralGroup_1ga59f85d6c7ed89fb09b60e7489ebf540b" prot="public" virt="non-virtual"><scope>MR::FillHoleItemEdge</scope><name>sym</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

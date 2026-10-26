@@ -140,7 +140,8 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
   <div class="headertitle"><div class="title">Mesh export </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Export example of points and triangles from mesh (e.g. for rendering)</p>
+<div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2MeshExport"></a></p>
+<p>Export example of points and triangles from mesh (e.g. for rendering)</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRCube.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
@@ -164,7 +165,7 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">Python</b> See a more relevant example <a class="el" href="ExampleNumpy.html">Numpy support</a></li>
+<li><b class="tab-title">Python</b> See a more relevant example: <a class="el" href="ExampleNumpy.html">Numpy support</a></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRCube.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshTopology.h&gt;</span></div>
@@ -200,7 +201,7 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 <div class="line">    <span class="keywordtype">size_t</span> facesNum = MR_Triangulation_size( t );</div>
 <div class="line">    <span class="comment">// faces are stored as vertex id triples...</span></div>
 <div class="line">    printf( <span class="stringliteral">&quot;Face vertex IDs:\n&quot;</span> );</div>
-<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; verticesNum; ++i )</div>
+<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; facesNum; ++i )</div>
 <div class="line">        printf( <span class="stringliteral">&quot;  face %d:  %d, %d, %d\n&quot;</span>, (<span class="keywordtype">int</span>)i, faces[i].elems[0].id_, faces[i].elems[1].id_, faces[i].elems[2].id_ );</div>
 <div class="line">    <span class="comment">// ...and can also be cast to an integer array</span></div>
 <div class="line">    <span class="keywordtype">int</span>* faceData = malloc( <span class="keyword">sizeof</span>( <span class="keywordtype">int</span> ) * 3 * facesNum );</div>
@@ -215,7 +216,7 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshExportExample</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
@@ -260,9 +261,10 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 <div class="line"> </div>
 <div class="line">// TODO: export in your format</div>
 <div class="line">console.log(`${vertexCoordinates.length / 3} vertices, ${vertexTriples.length / 3} triangles`);</div>
-</div><!-- fragment --></li>
+</div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
+</li>
 </ul>
-</div><div class="tabbed"></div> </div></div><!-- contents -->
+</div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

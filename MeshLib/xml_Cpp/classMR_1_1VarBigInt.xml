@@ -1,0 +1,678 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VarBigInt" kind="class" language="C++" prot="public">
+    <compoundname>MR::VarBigInt</compoundname>
+    <includes refid="MRVarBigInt_8h" local="no">MRMesh/MRVarBigInt.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1VarBigInt_1adfc6646359195c3fca23c94135a63bc3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::VarBigInt::sign_</definition>
+        <argsstring></argsstring>
+        <name>sign_</name>
+        <qualifiedname>MR::VarBigInt::sign_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>-1, 0 or 1; zero iff len_ == 0 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="150" column="9" bodyfile="MRMesh/MRVarBigInt.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VarBigInt_1a4af66f316db8fdbf499459773851ef66" prot="private" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t MR::VarBigInt::len_</definition>
+        <argsstring></argsstring>
+        <name>len_</name>
+        <qualifiedname>MR::VarBigInt::len_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of significant little-endian magnitude limbs (top limb non-zero) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="151" column="17" bodyfile="MRMesh/MRVarBigInt.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VarBigInt_1ada27e712816a59114226943dcf50ded8" prot="private" static="no" mutable="no">
+        <type>std::variant&lt; <ref refid="classMR_1_1Buffer" kindref="compound">Buffer</ref>&lt; std::uint64_t &gt;, std::array&lt; std::uint64_t, 2 &gt; &gt;</type>
+        <definition>std::variant&lt;Buffer&lt;std::uint64_t&gt;, std::array&lt;std::uint64_t, 2&gt; &gt; MR::VarBigInt::mag_</definition>
+        <argsstring></argsstring>
+        <name>mag_</name>
+        <qualifiedname>MR::VarBigInt::mag_</qualifiedname>
+        <initializer>{ std::array&lt;std::uint64_t, 2&gt;{} }</initializer>
+        <briefdescription>
+<para>little-endian magnitude: heap <ref refid="classMR_1_1Buffer" kindref="compound">Buffer</ref> for &gt; 2 limbs, inline array (small-value optimization) otherwise </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="153" column="18" bodyfile="MRMesh/MRVarBigInt.h" bodystart="153" bodyend="153"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1a6daa558b3b85bf5c900b98188df94d7a" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::VarBigInt::VarBigInt</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>VarBigInt</name>
+        <qualifiedname>MR::VarBigInt::VarBigInt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="37" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1ab75ac807114214cf70e4766d353fd1b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::VarBigInt::VarBigInt</definition>
+        <argsstring>(const VarBigInt &amp;o)</argsstring>
+        <name>VarBigInt</name>
+        <qualifiedname>MR::VarBigInt::VarBigInt</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classMR_1_1Buffer" kindref="compound">Buffer</ref> is move-only, so the copy of the heap-backed alternative is done by hand. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="40" column="5" bodyfile="MRMesh/MRVarBigInt.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1ad462c9e6e50985bbda0b4c4be217be43" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::VarBigInt::VarBigInt</definition>
+        <argsstring>(VarBigInt &amp;&amp;) noexcept=default</argsstring>
+        <name>VarBigInt</name>
+        <qualifiedname>MR::VarBigInt::VarBigInt</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="41" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1abfc2d0c56498c6d85f3877dc1334c1db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+        <definition>VarBigInt &amp; MR::VarBigInt::operator=</definition>
+        <argsstring>(const VarBigInt &amp;o)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::VarBigInt::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="42" column="16" bodyfile="MRMesh/MRVarBigInt.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1a2b20afec11d7cd2ae383f4e3a7c3ff3b" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+        <definition>VarBigInt &amp; MR::VarBigInt::operator=</definition>
+        <argsstring>(VarBigInt &amp;&amp;) noexcept=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::VarBigInt::operator=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="43" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1a13fb159abae086548a2e93918124bc3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::VarBigInt::VarBigInt</definition>
+        <argsstring>(std::int64_t v)</argsstring>
+        <name>VarBigInt</name>
+        <qualifiedname>MR::VarBigInt::VarBigInt</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>from a signed machine integer; non-explicit so that mixed expressions like 2 * x or x + n keep reading naturally, exactly as they did with boost cpp_int </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>magnitude of v as unsigned two&apos;s-complement negation, correct also for INT64_MIN</para>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="47" column="5" bodyfile="MRMesh/MRVarBigInt.h" bodystart="47" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1ab7b9f4291c1de63001796f9dbf0acbc9" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::VarBigInt::VarBigInt</definition>
+        <argsstring>(FastInt128 v)</argsstring>
+        <name>VarBigInt</name>
+        <qualifiedname>MR::VarBigInt::VarBigInt</qualifiedname>
+        <param>
+          <type><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>from a 128-bit integer (explicit to keep int -&gt; <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> unambiguous via the int64 ctor) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="57" column="14" bodyfile="MRMesh/MRVarBigInt.h" bodystart="57" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1a42ba0a145b53afb6f0f8086553bb1ba8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>nBits</declname>
+            <defname>nBits</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::VarBigInt::VarBigInt</definition>
+        <argsstring>(const FastInt&lt; nBits &gt; &amp;v)</argsstring>
+        <name>VarBigInt</name>
+        <qualifiedname>MR::VarBigInt::VarBigInt</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref>&lt; nBits &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>from a fixed-precision integer of the <ref refid="classMR_1_1FastInt" kindref="compound">FastInt</ref> family; mirrors toBoostInt(): takes the magnitude of the two&apos;s-complement words so 2^nBits is never needed </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>two&apos;s-complement words, little-endian</para>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="69" column="14" bodyfile="MRMesh/MRVarBigInt.h" bodystart="69" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1a6d8d4b0cdb865c1a3a377a7f564933bb" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::VarBigInt::sign</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>sign</name>
+        <qualifiedname>MR::VarBigInt::sign</qualifiedname>
+        <briefdescription>
+<para>-1, 0 or 1 if the value is negative, zero or positive respectively </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="85" column="10" bodyfile="MRMesh/MRVarBigInt.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1a876aa3428a58eefbbc59d4bd7b219bff" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref></type>
+        <definition>VarBigInt MR::VarBigInt::operator-</definition>
+        <argsstring>() const</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::VarBigInt::operator-</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="87" column="16" bodyfile="MRMesh/MRVarBigInt.h" bodystart="87" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1ac4d08b145590570a9a82286378a9bf64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+        <definition>VarBigInt &amp; MR::VarBigInt::operator+=</definition>
+        <argsstring>(const VarBigInt &amp;b)</argsstring>
+        <name>operator+=</name>
+        <qualifiedname>MR::VarBigInt::operator+=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="94" column="16" bodyfile="MRMesh/MRVarBigInt.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1a512a8f1b7af491fbd2d5d29786c9b7ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+        <definition>VarBigInt &amp; MR::VarBigInt::operator-=</definition>
+        <argsstring>(const VarBigInt &amp;b)</argsstring>
+        <name>operator-=</name>
+        <qualifiedname>MR::VarBigInt::operator-=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="95" column="16" bodyfile="MRMesh/MRVarBigInt.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classMR_1_1VarBigInt_1a49f73d098f97f93dc16e076e922cd287" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref></type>
+        <definition>VarBigInt operator+</definition>
+        <argsstring>(const VarBigInt &amp;a, const VarBigInt &amp;b)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR::VarBigInt::operator+</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>opposite signs, equal magnitudes =&gt; zero</para>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="97" column="23" bodyfile="MRMesh/MRVarBigInt.h" bodystart="97" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1VarBigInt_1ae794f635c0ea4c5bbe9c804488cc85a4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref></type>
+        <definition>VarBigInt operator-</definition>
+        <argsstring>(const VarBigInt &amp;a, const VarBigInt &amp;b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::VarBigInt::operator-</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="116" column="23" bodyfile="MRMesh/MRVarBigInt.h" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1VarBigInt_1a9928ab8806d0fc8257f49534b1270d4f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref></type>
+        <definition>VarBigInt operator*</definition>
+        <argsstring>(const VarBigInt &amp;a, const VarBigInt &amp;b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::VarBigInt::operator*</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="118" column="23" bodyfile="MRMesh/MRVarBigInt.h" bodystart="118" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1VarBigInt_1a84a58a5c56947b9350e02fa81669a3b6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const VarBigInt &amp;a, const VarBigInt &amp;b) noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::VarBigInt::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="126" column="18" bodyfile="MRMesh/MRVarBigInt.h" bodystart="126" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1VarBigInt_1ab029a72d5a9f6ccfb3964cd80ad164b0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::strong_ordering</type>
+        <definition>std::strong_ordering operator&lt;=&gt;</definition>
+        <argsstring>(const VarBigInt &amp;a, const VarBigInt &amp;b) noexcept</argsstring>
+        <name>operator&lt;=&gt;</name>
+        <qualifiedname>MR::VarBigInt::operator&lt;=&gt;</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>by magnitude</para>
+<para>flip for negatives</para>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="138" column="13" bodyfile="MRMesh/MRVarBigInt.h" bodystart="138" bodyend="147"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1a1780cc4827a94c7c1e0b3858676c9cb5" prot="private" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const std::uint64_t *</type>
+        <definition>const std::uint64_t * MR::VarBigInt::limbs</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>limbs</name>
+        <qualifiedname>MR::VarBigInt::limbs</qualifiedname>
+        <briefdescription>
+<para>pointer to the first magnitude limb, whichever alternative currently holds them </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="156" column="27" bodyfile="MRMesh/MRVarBigInt.h" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1aa2445d4d5551b8d2b56902420c57ca60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::VarBigInt::assignLimbs</definition>
+        <argsstring>(int sign, const std::uint64_t *p, std::size_t n)</argsstring>
+        <name>assignLimbs</name>
+        <qualifiedname>MR::VarBigInt::assignLimbs</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>sign</declname>
+        </param>
+        <param>
+          <type>const std::uint64_t *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stores the normalized magnitude p[0, n) with the given sign, picking the inline array (n &lt;= 2) or the heap <ref refid="classMR_1_1Buffer" kindref="compound">Buffer</ref> (n &gt; 2); n == 0 yields zero </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>inline zero</para>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="163" column="10" bodyfile="MRMesh/MRVarBigInt.h" bodystart="163" bodyend="188"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1aabeedc78c897b4dab560cc339e87f0e0" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Kernel</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classMR_1_1VarBigInt" kindref="compound">VarBigInt</ref></type>
+        <definition>static VarBigInt MR::VarBigInt::make</definition>
+        <argsstring>(int sign, std::size_t ub, bool zeroInit, Kernel kernel)</argsstring>
+        <name>make</name>
+        <qualifiedname>MR::VarBigInt::make</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>sign</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>ub</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>zeroInit</declname>
+        </param>
+        <param>
+          <type>Kernel</type>
+          <declname>kernel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>runs a limb kernel that writes the result magnitude into an output of up to ub limbs and returns its normalized length, keeping small results off the heap (inline array when ub &lt;= 2) </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>ub bounds the kernel&apos;s output length</para>
+<para>exact cancellation =&gt; zero</para>
+<para>tmp is already the inline layout (zero above limb n - 1), so move it in as is: going through assignLimbs() instead would copy limb-by-limb out of a loop whose trip count the optimizer cannot bound by 2, tripping -Warray-bounds at -O3</para>
+<para>rare heavy cancellation: fall back to inline</para>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="193" column="23" bodyfile="MRMesh/MRVarBigInt.h" bodystart="193" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1a6ed01a9c044892b9ddb559fb3b8ed456" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>static std::size_t MR::VarBigInt::magNorm</definition>
+        <argsstring>(const std::uint64_t *p, std::size_t n) noexcept</argsstring>
+        <name>magNorm</name>
+        <qualifiedname>MR::VarBigInt::magNorm</qualifiedname>
+        <param>
+          <type>const std::uint64_t *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>drops trailing zero limbs, returning the significant length of p[0, n) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="231" column="25" bodyfile="MRMesh/MRVarBigInt.h" bodystart="231" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1aa877451e74ad6a5be860d254517a4420" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MR::VarBigInt::magCmp</definition>
+        <argsstring>(const std::uint64_t *a, std::size_t na, const std::uint64_t *b, std::size_t nb) noexcept</argsstring>
+        <name>magCmp</name>
+        <qualifiedname>MR::VarBigInt::magCmp</qualifiedname>
+        <param>
+          <type>const std::uint64_t *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>na</declname>
+        </param>
+        <param>
+          <type>const std::uint64_t *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>compares two normalized magnitudes: -1 if a &lt; b, 0 if equal, 1 if a &gt; b </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="239" column="17" bodyfile="MRMesh/MRVarBigInt.h" bodystart="239" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1a1cb944d9d41936b4b892471b0dd8c350" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>static std::size_t MR::VarBigInt::magAdd</definition>
+        <argsstring>(const std::uint64_t *a, std::size_t na, const std::uint64_t *b, std::size_t nb, std::uint64_t *out)</argsstring>
+        <name>magAdd</name>
+        <qualifiedname>MR::VarBigInt::magAdd</qualifiedname>
+        <param>
+          <type>const std::uint64_t *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>na</declname>
+        </param>
+        <param>
+          <type>const std::uint64_t *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>nb</declname>
+        </param>
+        <param>
+          <type>std::uint64_t *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+<para>out needs room for max( na, nb ) + 1 limbs; returns the normalized length </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>the top limb is non-zero, so the result is already normalized</para>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="250" column="24" bodyfile="MRMesh/MRVarBigInt.h" bodystart="250" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1a505035d6095443890cdd8ee251c1054d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>static std::size_t MR::VarBigInt::magSub</definition>
+        <argsstring>(const std::uint64_t *a, std::size_t na, const std::uint64_t *b, std::size_t nb, std::uint64_t *out)</argsstring>
+        <name>magSub</name>
+        <qualifiedname>MR::VarBigInt::magSub</qualifiedname>
+        <param>
+          <type>const std::uint64_t *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>na</declname>
+        </param>
+        <param>
+          <type>const std::uint64_t *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>nb</declname>
+        </param>
+        <param>
+          <type>std::uint64_t *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+<para>a - b assuming magCmp( a, b ) &gt;= 0; out needs room for na limbs; returns the normalized length </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>borrow is 0 here by the precondition</para>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="267" column="24" bodyfile="MRMesh/MRVarBigInt.h" bodystart="267" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VarBigInt_1aeb0230909ee6cbd17fcca97d13156567" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>static std::size_t MR::VarBigInt::magMul</definition>
+        <argsstring>(const std::uint64_t *a, std::size_t na, const std::uint64_t *b, std::size_t nb, std::uint64_t *out)</argsstring>
+        <name>magMul</name>
+        <qualifiedname>MR::VarBigInt::magMul</qualifiedname>
+        <param>
+          <type>const std::uint64_t *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>na</declname>
+        </param>
+        <param>
+          <type>const std::uint64_t *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>nb</declname>
+        </param>
+        <param>
+          <type>std::uint64_t *</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+<para>out needs room for na + nb limbs and must be zero-initialized; returns the normalized length </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>schoolbook multiplication of magnitudes</para>
+<para>at most ( 2^64 - 1 )^2 + 2 * ( 2^64 - 1 ) &lt; 2^128, so it fits in 128 bits</para>
+<para>out[i + nb] was 0 before, so it cannot overflow</para>
+        </inbodydescription>
+        <location file="MRMesh/MRVarBigInt.h" line="280" column="24" bodyfile="MRMesh/MRVarBigInt.h" bodystart="280" bodyend="296"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>a minimal variable-length signed big integer in sign-magnitude form over base-2^64 limbs, a lightweight replacement for boost::multiprecision::cpp_int in the exact predicates; it implements only what the simulation-of-simplicity inSphere tie resolution needs: construction from machine integers and from fixed-precision <ref refid="classMR_1_1FastInt" kindref="compound">FastInt&lt;N&gt;</ref> / <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref>, addition, subtraction, multiplication, sign, and comparison. There is deliberately no division and no square root: signOf() in MRInSphere.cpp only multiplies, compares and reads the sign. Unlike <ref refid="classMR_1_1FastInt" kindref="compound">FastInt&lt;N&gt;</ref> the width grows with the value, so no per-sub-expression bit-width bounds are needed.</para>
+<para>The magnitude limbs live in a std::variant of two same-size-excluding-heap options: a heap-backed <ref refid="classMR_1_1Buffer" kindref="compound">Buffer&lt;uint64_t&gt;</ref> for really long integers, and an inline std::array&lt;uint64_t,2&gt; giving small-value optimization (values up to 128 bits, e.g. every value in the tiny near-degenerate regime, are stored without touching the heap). </para>
+    </detaileddescription>
+    <location file="MRMesh/MRVarBigInt.h" line="34" column="1" bodyfile="MRMesh/MRVarBigInt.h" bodystart="35" bodyend="297"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VarBigInt_1aa2445d4d5551b8d2b56902420c57ca60" prot="private" virt="non-virtual"><scope>MR::VarBigInt</scope><name>assignLimbs</name></member>
+      <member refid="classMR_1_1VarBigInt_1a4af66f316db8fdbf499459773851ef66" prot="private" virt="non-virtual"><scope>MR::VarBigInt</scope><name>len_</name></member>
+      <member refid="classMR_1_1VarBigInt_1a1780cc4827a94c7c1e0b3858676c9cb5" prot="private" virt="non-virtual"><scope>MR::VarBigInt</scope><name>limbs</name></member>
+      <member refid="classMR_1_1VarBigInt_1ada27e712816a59114226943dcf50ded8" prot="private" virt="non-virtual"><scope>MR::VarBigInt</scope><name>mag_</name></member>
+      <member refid="classMR_1_1VarBigInt_1a1cb944d9d41936b4b892471b0dd8c350" prot="private" virt="non-virtual"><scope>MR::VarBigInt</scope><name>magAdd</name></member>
+      <member refid="classMR_1_1VarBigInt_1aa877451e74ad6a5be860d254517a4420" prot="private" virt="non-virtual"><scope>MR::VarBigInt</scope><name>magCmp</name></member>
+      <member refid="classMR_1_1VarBigInt_1aeb0230909ee6cbd17fcca97d13156567" prot="private" virt="non-virtual"><scope>MR::VarBigInt</scope><name>magMul</name></member>
+      <member refid="classMR_1_1VarBigInt_1a6ed01a9c044892b9ddb559fb3b8ed456" prot="private" virt="non-virtual"><scope>MR::VarBigInt</scope><name>magNorm</name></member>
+      <member refid="classMR_1_1VarBigInt_1a505035d6095443890cdd8ee251c1054d" prot="private" virt="non-virtual"><scope>MR::VarBigInt</scope><name>magSub</name></member>
+      <member refid="classMR_1_1VarBigInt_1aabeedc78c897b4dab560cc339e87f0e0" prot="private" virt="non-virtual"><scope>MR::VarBigInt</scope><name>make</name></member>
+      <member refid="classMR_1_1VarBigInt_1a9928ab8806d0fc8257f49534b1270d4f" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>operator*</name></member>
+      <member refid="classMR_1_1VarBigInt_1a49f73d098f97f93dc16e076e922cd287" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>operator+</name></member>
+      <member refid="classMR_1_1VarBigInt_1ac4d08b145590570a9a82286378a9bf64" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>operator+=</name></member>
+      <member refid="classMR_1_1VarBigInt_1a876aa3428a58eefbbc59d4bd7b219bff" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>operator-</name></member>
+      <member refid="classMR_1_1VarBigInt_1ae794f635c0ea4c5bbe9c804488cc85a4" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>operator-</name></member>
+      <member refid="classMR_1_1VarBigInt_1a512a8f1b7af491fbd2d5d29786c9b7ce" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>operator-=</name></member>
+      <member refid="classMR_1_1VarBigInt_1ab029a72d5a9f6ccfb3964cd80ad164b0" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>operator&lt;=&gt;</name></member>
+      <member refid="classMR_1_1VarBigInt_1abfc2d0c56498c6d85f3877dc1334c1db" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>operator=</name></member>
+      <member refid="classMR_1_1VarBigInt_1a2b20afec11d7cd2ae383f4e3a7c3ff3b" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>operator=</name></member>
+      <member refid="classMR_1_1VarBigInt_1a84a58a5c56947b9350e02fa81669a3b6" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>operator==</name></member>
+      <member refid="classMR_1_1VarBigInt_1a6d8d4b0cdb865c1a3a377a7f564933bb" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>sign</name></member>
+      <member refid="classMR_1_1VarBigInt_1adfc6646359195c3fca23c94135a63bc3" prot="private" virt="non-virtual"><scope>MR::VarBigInt</scope><name>sign_</name></member>
+      <member refid="classMR_1_1VarBigInt_1a6daa558b3b85bf5c900b98188df94d7a" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>VarBigInt</name></member>
+      <member refid="classMR_1_1VarBigInt_1ab75ac807114214cf70e4766d353fd1b3" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>VarBigInt</name></member>
+      <member refid="classMR_1_1VarBigInt_1ad462c9e6e50985bbda0b4c4be217be43" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>VarBigInt</name></member>
+      <member refid="classMR_1_1VarBigInt_1a13fb159abae086548a2e93918124bc3c" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>VarBigInt</name></member>
+      <member refid="classMR_1_1VarBigInt_1ab7b9f4291c1de63001796f9dbf0acbc9" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>VarBigInt</name></member>
+      <member refid="classMR_1_1VarBigInt_1a42ba0a145b53afb6f0f8086553bb1ba8" prot="public" virt="non-virtual"><scope>MR::VarBigInt</scope><name>VarBigInt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

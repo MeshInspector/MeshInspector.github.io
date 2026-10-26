@@ -22,6 +22,50 @@
         <location file="MRVoxels/MRWeightedPointsShell.h" line="28" column="1" bodyfile="MRVoxels/MRWeightedPointsShell.h" bodystart="28" bodyend="-1"/>
       </memberdef>
     </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceMR_1_1WeightedShell_1a0d6f5aa3e2803f42c36c469f54c762bf" prot="public" static="no" mutable="no">
+        <type>const VertScalars &amp;</type>
+        <definition>const VertScalars&amp; MR::WeightedShell::vertWeights</definition>
+        <argsstring></argsstring>
+        <name>vertWeights</name>
+        <qualifiedname>MR::WeightedShell::vertWeights</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="97" column="55" bodyfile="MRVoxels/MRWeightedPointsShell.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1WeightedShell_1a0b2dea08ba80d4e80dcf5be93e0ce706" prot="public" static="no" mutable="no">
+        <type>const VertScalars const <ref refid="structMR_1_1WeightedShell_1_1ParametersMetric" kindref="compound">ParametersMetric</ref> &amp;</type>
+        <definition>const ParametersRegions &amp; MR::WeightedShell::params</definition>
+        <argsstring></argsstring>
+        <name>params</name>
+        <qualifiedname>MR::WeightedShell::params</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="97" column="90" bodyfile="MRVoxels/MRWeightedPointsShell.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1WeightedShell_1aaaf8a52d4a487d149e4ae02a7317ccd8" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structMR_1_1WeightedShell_1_1ParametersRegions" kindref="compound">ParametersRegions</ref> <ref refid="namespaceMR_1_1WeightedShell_1ad2ba4e4f0e0175fc0608e172a0619984" kindref="member">meshToDistanceVolumeT</ref></type>
+        <definition>const ParametersRegions meshToDistanceVolumeT MR::WeightedShell::volumeBuilder</definition>
+        <argsstring></argsstring>
+        <name>volumeBuilder</name>
+        <qualifiedname>MR::WeightedShell::volumeBuilder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="107" column="90" bodyfile="MRVoxels/MRWeightedPointsShell.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1ad1ffa222355f35085c885b87e8d27df8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref></type>
@@ -142,24 +186,12 @@
         </inbodydescription>
         <location file="MRVoxels/MRWeightedPointsShell.h" line="92" column="27" declfile="MRVoxels/MRWeightedPointsShell.h" declline="92" declcolumn="27"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1aa73cc71df322e6863d94e7f237875475" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
-        <definition>Expected&lt; Mesh &gt; MR::WeightedShell::meshShell</definition>
-        <argsstring>(const Mesh &amp;mesh, const VertScalars &amp;vertWeights, const ParametersMetric &amp;params)</argsstring>
-        <name>meshShell</name>
-        <qualifiedname>MR::WeightedShell::meshShell</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const VertScalars &amp;</type>
-          <declname>vertWeights</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1WeightedShell_1_1ParametersMetric" kindref="compound">ParametersMetric</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
+      <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a63de0b6d59010041133de78641678b6d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::WeightedShell::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 Expected&lt; Mesh &gt; meshShell(const Mesh &amp;mesh</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::WeightedShell::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -167,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRWeightedPointsShell.h" line="97" column="12" declfile="MRVoxels/MRWeightedPointsShell.h" declline="97" declcolumn="12"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="97" column="1"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a521af3e40765a04b00069fa14da9a3fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertScalars</type>
@@ -196,19 +228,14 @@
         </inbodydescription>
         <location file="MRVoxels/MRWeightedPointsShell.h" line="100" column="14" declfile="MRVoxels/MRWeightedPointsShell.h" declline="100" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a31f9c85adfd5e2b5553fb5dcb97384f0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
-        <definition>Expected&lt; Mesh &gt; MR::WeightedShell::meshShell</definition>
-        <argsstring>(const Mesh &amp;mesh, const ParametersRegions &amp;params)</argsstring>
-        <name>meshShell</name>
-        <qualifiedname>MR::WeightedShell::meshShell</qualifiedname>
+      <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a738e972170d976f713b039f87d68ad09" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::WeightedShell::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(regions) 1 Expected&lt; Mesh &gt; meshShell(const Mesh &amp;mesh</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::WeightedShell::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1WeightedShell_1_1ParametersRegions" kindref="compound">ParametersRegions</ref> &amp;</type>
-          <declname>params</declname>
+          <type>regions</type>
         </param>
         <briefdescription>
 <para>this overload supports linear interpolation between the regions with different weight </para>
@@ -217,25 +244,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRWeightedPointsShell.h" line="104" column="12" declfile="MRVoxels/MRWeightedPointsShell.h" declline="104" declcolumn="12"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="104" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a8154f94a6793c43fd049a5bf549bf75f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
-        <definition>Expected&lt; Mesh &gt; MR::WeightedShell::meshShell</definition>
-        <argsstring>(const Mesh &amp;mesh, const ParametersRegions &amp;params, meshToDistanceVolumeT volumeBuilder)</argsstring>
-        <name>meshShell</name>
-        <qualifiedname>MR::WeightedShell::meshShell</qualifiedname>
+      <memberdef kind="function" id="namespaceMR_1_1WeightedShell_1a54afa8bb7c49d05901fce752e9cdd510" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::WeightedShell::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(regionsBuilder) 1 Expected&lt; Mesh &gt; meshShell(const Mesh &amp;mesh</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::WeightedShell::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1WeightedShell_1_1ParametersRegions" kindref="compound">ParametersRegions</ref> &amp;</type>
-          <declname>params</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceMR_1_1WeightedShell_1ad2ba4e4f0e0175fc0608e172a0619984" kindref="member">meshToDistanceVolumeT</ref></type>
-          <declname>volumeBuilder</declname>
+          <type>regionsBuilder</type>
         </param>
         <briefdescription>
 <para>this overload allows to control how distance volume is build during the offset </para>
@@ -244,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRWeightedPointsShell.h" line="107" column="12" declfile="MRVoxels/MRWeightedPointsShell.h" declline="107" declcolumn="12"/>
+        <location file="MRVoxels/MRWeightedPointsShell.h" line="107" column="1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

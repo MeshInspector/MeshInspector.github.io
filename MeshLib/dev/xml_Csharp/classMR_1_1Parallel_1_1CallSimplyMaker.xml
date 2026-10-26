@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="204" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="204" bodyend="204"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="220" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="220" bodyend="220"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="209" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="209" bodyend="214"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="225" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="225" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Parallel_1_1CallSimplyMaker_1ad693e6c15d449eb83bee88f362a3a972" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="219" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="219" bodyend="225"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="233" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="233" bodyend="237"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Parallel_1_1CallSimplyMaker_1a4730ba3797bf4e176646749acd92eacf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="230" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="230" bodyend="230"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="242" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="242" bodyend="242"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Parallel_1_1CallSimplyMaker_1acbe38f6d945b374b34b9f97df6a4f09e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Parallel_1_1CallSimplyMaker" kindref="compound">MR.Parallel.CallSimplyMaker</ref></type>
@@ -98,7 +98,63 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="235" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="235" bodyend="242"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="247" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="247" bodyend="252"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Parallel_1_1CallSimplyMaker_1a1d0da24ae586b413f29d916b07b558c8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Parallel.CallSimplyMaker._Underlying *</type>
+        <definition>static unsafe MR.Parallel.CallSimplyMaker._Underlying * MR.Parallel.CallSimplyMaker.__MR_Parallel_CallSimplyMaker_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Parallel.CallSimplyMaker._Underlying *_other)</argsstring>
+        <name>__MR_Parallel_CallSimplyMaker_AssignFromAnother</name>
+        <qualifiedname>MR.Parallel.CallSimplyMaker.__MR_Parallel_CallSimplyMaker_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Parallel.CallSimplyMaker._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="257" column="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Parallel_1_1CallSimplyMaker_1ad9ea85647df9ba428abc13952fd24306" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Parallel.CallSimplyMaker._Underlying *</type>
+        <definition>static unsafe MR.Parallel.CallSimplyMaker._Underlying * MR.Parallel.CallSimplyMaker.__MR_Parallel_CallSimplyMaker_ConstructFromAnother</definition>
+        <argsstring>(MR.Parallel.CallSimplyMaker._Underlying *_other)</argsstring>
+        <name>__MR_Parallel_CallSimplyMaker_ConstructFromAnother</name>
+        <qualifiedname>MR.Parallel.CallSimplyMaker.__MR_Parallel_CallSimplyMaker_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Parallel.CallSimplyMaker._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="260" column="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Parallel_1_1CallSimplyMaker_1abb3a548a6543e8637a272fdae6b15a6d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Parallel.CallSimplyMaker._Underlying *</type>
+        <definition>static unsafe MR.Parallel.CallSimplyMaker._Underlying * MR.Parallel.CallSimplyMaker.__MR_Parallel_CallSimplyMaker_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_Parallel_CallSimplyMaker_DefaultConstruct</name>
+        <qualifiedname>MR.Parallel.CallSimplyMaker.__MR_Parallel_CallSimplyMaker_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="263" column="71"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -150,8 +206,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="202" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="203" bodyend="243"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="218" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="219" bodyend="264"/>
     <listofallmembers>
+      <member refid="classMR_1_1Parallel_1_1CallSimplyMaker_1a1d0da24ae586b413f29d916b07b558c8" prot="private" virt="non-virtual"><scope>MR::Parallel::CallSimplyMaker</scope><name>__MR_Parallel_CallSimplyMaker_AssignFromAnother</name></member>
+      <member refid="classMR_1_1Parallel_1_1CallSimplyMaker_1ad9ea85647df9ba428abc13952fd24306" prot="private" virt="non-virtual"><scope>MR::Parallel::CallSimplyMaker</scope><name>__MR_Parallel_CallSimplyMaker_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Parallel_1_1CallSimplyMaker_1abb3a548a6543e8637a272fdae6b15a6d" prot="private" virt="non-virtual"><scope>MR::Parallel::CallSimplyMaker</scope><name>__MR_Parallel_CallSimplyMaker_DefaultConstruct</name></member>
       <member refid="classMR_1_1Parallel_1_1CallSimplyMaker_1acbe38f6d945b374b34b9f97df6a4f09e" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimplyMaker</scope><name>assign</name></member>
       <member refid="classMR_1_1Parallel_1_1Const__CallSimplyMaker_1acf31f80b8dd640993f8d294caef2a079" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimplyMaker</scope><name>call</name></member>
       <member refid="classMR_1_1Parallel_1_1CallSimplyMaker_1aa2fae98aead33123b4e48148b166705c" prot="package" virt="non-virtual"><scope>MR::Parallel::CallSimplyMaker</scope><name>CallSimplyMaker</name></member>

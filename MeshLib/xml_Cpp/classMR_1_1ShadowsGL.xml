@@ -20,7 +20,9 @@
       <member refid="group__GeneralGroup_1ga69f27dbbbbff85cba2122d43489d3621" kind="variable"><name>enabled_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga41c74b52ccad8c211d2b8e3dc639e4aa" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga7e6bcf6e69dbb71096b7a3168949ac56" kind="function"><name>ShadowsGL</name></member>
+      <member refid="group__GeneralGroup_1ga25146e777f581d9d82c1e4f22d3165c9" kind="function"><name>ShadowsGL</name></member>
+      <member refid="group__GeneralGroup_1ga3e74b18bef132d73cfbd57d646961b95" kind="function"><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga392c155eda51521790918b36d34f7ca1" kind="function"><name>~ShadowsGL</name></member>
       <member refid="group__GeneralGroup_1ga876b1cadd41eef4dda31a23ad2ef09be" kind="function"><name>enable</name></member>
       <member refid="group__GeneralGroup_1gafbfb18c734f6d41741dcdd84a9031e95" kind="function"><name>isEnabled</name></member>
@@ -48,7 +50,7 @@
     <detaileddescription>
 <para>This class allows do draw shadows for objects in scene draws scene into texture buffer, than make shadow from: draw shadow and than draw texture with scene </para>
     </detaileddescription>
-    <location file="MRViewer/MRShadowsGL.h" line="18" column="1" bodyfile="MRViewer/MRShadowsGL.h" bodystart="19" bodyend="74"/>
+    <location file="MRViewer/MRShadowsGL.h" line="18" column="1" bodyfile="MRViewer/MRShadowsGL.h" bodystart="19" bodyend="77"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2d537aa3b471f8a601a2eceac4b2cb72" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>blurRadius_</name></member>
       <member refid="group__GeneralGroup_1gac683fcfed794f34445c1eb39ae01b771" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>convolutionXFramebuffer_</name></member>
@@ -66,7 +68,7 @@
       <member refid="group__GeneralGroup_1gafbfb18c734f6d41741dcdd84a9031e95" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>isEnabled</name></member>
       <member refid="group__GeneralGroup_1gae93de5cb698e8ee6f0e13b2831bb5120" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>lowSize_</name></member>
       <member refid="group__GeneralGroup_1ga8a630feed4b5e16e5388d3dff5f6e515" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>lowSizeFramebuffer_</name></member>
-      <member refid="group__GeneralGroup_1ga41c74b52ccad8c211d2b8e3dc639e4aa" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga3e74b18bef132d73cfbd57d646961b95" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga450bc9a7825ef4cbd4ad5be29ac2ae43" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>postDraw_</name></member>
       <member refid="group__GeneralGroup_1ga19d0519418eb5906b09f3fdefbcdb6fe" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>postDrawConnection_</name></member>
       <member refid="group__GeneralGroup_1ga816e9c2e952853be715efb4d64137812" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>postResize_</name></member>
@@ -82,6 +84,8 @@
       <member refid="group__GeneralGroup_1ga5fc18723f52a72d76d43b900b6a72d4e" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setShadowColor</name></member>
       <member refid="group__GeneralGroup_1gaaedc6c302db8d61a0f156336ff02572b" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setShadowShift</name></member>
       <member refid="group__GeneralGroup_1ga039201a9c846ae2add0583c7e32f5c4b" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>shadowColor_</name></member>
+      <member refid="group__GeneralGroup_1ga7e6bcf6e69dbb71096b7a3168949ac56" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>ShadowsGL</name></member>
+      <member refid="group__GeneralGroup_1ga25146e777f581d9d82c1e4f22d3165c9" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>ShadowsGL</name></member>
       <member refid="group__GeneralGroup_1gab98bf8d9ab5f4a8ee99afa09be05ec3f" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>shadowShift_</name></member>
       <member refid="group__GeneralGroup_1ga392c155eda51521790918b36d34f7ca1" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>~ShadowsGL</name></member>
     </listofallmembers>

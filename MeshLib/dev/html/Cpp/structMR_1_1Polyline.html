@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -167,7 +160,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a29635bdcaade26236bf38e9044e1605a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns coordinates of the edge destination  <br /></td></tr>
 <tr class="memitem:a09efa3e658e95b29f1dea8f362d18289" id="r_a09efa3e658e95b29f1dea8f362d18289"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09efa3e658e95b29f1dea8f362d18289">edgePoint</a> (EdgeId e, float f) const</td></tr>
 <tr class="memdesc:a09efa3e658e95b29f1dea8f362d18289"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a point on the edge: origin point for f=0 and destination point for f=1  <br /></td></tr>
-<tr class="memitem:a0127bea8e352025d57d7b71fccf78b15" id="r_a0127bea8e352025d57d7b71fccf78b15"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0127bea8e352025d57d7b71fccf78b15">edgePoint</a> (const <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> &amp;ep) const</td></tr>
+<tr class="memitem:a0127bea8e352025d57d7b71fccf78b15" id="r_a0127bea8e352025d57d7b71fccf78b15"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0127bea8e352025d57d7b71fccf78b15">edgePoint</a> (const <a class="el" href="group__GeneralGroup.html#ga2184a4ebcef7a214ba981313f3637935">EdgePoint</a> &amp;ep) const</td></tr>
 <tr class="memdesc:a0127bea8e352025d57d7b71fccf78b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes coordinates of point given as edge and relative position on it  <br /></td></tr>
 <tr class="memitem:ad1f0b9ea32808bf20f7aa8c85eb62641" id="r_ad1f0b9ea32808bf20f7aa8c85eb62641"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1f0b9ea32808bf20f7aa8c85eb62641">edgeCenter</a> (EdgeId e) const</td></tr>
 <tr class="memdesc:ad1f0b9ea32808bf20f7aa8c85eb62641"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns edge's centroid  <br /></td></tr>
@@ -175,9 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab9e9cb920eced56be83119d6d268691f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vector equal to edge destination point minus edge origin point  <br /></td></tr>
 <tr class="memitem:ae6187af336b61283c5118d9aca6f0a12" id="r_ae6187af336b61283c5118d9aca6f0a12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1LineSegm.html">LineSegm</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6187af336b61283c5118d9aca6f0a12">edgeSegment</a> (EdgeId e) const</td></tr>
 <tr class="memdesc:ae6187af336b61283c5118d9aca6f0a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns line segment of given edge  <br /></td></tr>
-<tr class="memitem:adcd14ead7b771006dcdc733950976288" id="r_adcd14ead7b771006dcdc733950976288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcd14ead7b771006dcdc733950976288">toEdgePoint</a> (VertId v) const</td></tr>
+<tr class="memitem:adcd14ead7b771006dcdc733950976288" id="r_adcd14ead7b771006dcdc733950976288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga2184a4ebcef7a214ba981313f3637935">EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcd14ead7b771006dcdc733950976288">toEdgePoint</a> (VertId v) const</td></tr>
 <tr class="memdesc:adcd14ead7b771006dcdc733950976288"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts vertex into edge-point representation  <br /></td></tr>
-<tr class="memitem:acddfc9fe7193026b7c731a688f1dc478" id="r_acddfc9fe7193026b7c731a688f1dc478"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acddfc9fe7193026b7c731a688f1dc478">toEdgePoint</a> (EdgeId e, const V &amp;p) const</td></tr>
+<tr class="memitem:acddfc9fe7193026b7c731a688f1dc478" id="r_acddfc9fe7193026b7c731a688f1dc478"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga2184a4ebcef7a214ba981313f3637935">EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acddfc9fe7193026b7c731a688f1dc478">toEdgePoint</a> (EdgeId e, const V &amp;p) const</td></tr>
 <tr class="memdesc:acddfc9fe7193026b7c731a688f1dc478"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts edge and point's coordinates into edge-point representation  <br /></td></tr>
 <tr class="memitem:a2c547895888165d873db848b161cb5c0" id="r_a2c547895888165d873db848b161cb5c0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c547895888165d873db848b161cb5c0">edgeLength</a> (EdgeId e) const</td></tr>
 <tr class="memdesc:a2c547895888165d873db848b161cb5c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Euclidean length of the edge  <br /></td></tr>
@@ -208,9 +201,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4247ea43b01e686c29028046ad50fe6a" id="r_a4247ea43b01e686c29028046ad50fe6a"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
 <tr class="memitem:a4247ea43b01e686c29028046ad50fe6a template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Polyline.html">Polyline</a>&lt; U &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4247ea43b01e686c29028046ad50fe6a">toPolyline</a> () const</td></tr>
 <tr class="memdesc:a4247ea43b01e686c29028046ad50fe6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert Polyline3 to Polyline2 or vice versa  <br /></td></tr>
-<tr class="memitem:a64df04a94a707f0ac6075f909e5e9d2a" id="r_a64df04a94a707f0ac6075f909e5e9d2a"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64df04a94a707f0ac6075f909e5e9d2a">addFromEdgePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;path)</td></tr>
-<tr class="memitem:a97fea45a4170313a719a900d98a1ee7d" id="r_a97fea45a4170313a719a900d98a1ee7d"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97fea45a4170313a719a900d98a1ee7d">addFromSurfacePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path)</td></tr>
-<tr class="memitem:aada00d7c9df4877d4326b22a4ec91d08" id="r_aada00d7c9df4877d4326b22a4ec91d08"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aada00d7c9df4877d4326b22a4ec91d08">addFromGeneralSurfacePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>)</td></tr>
+<tr class="memitem:a64df04a94a707f0ac6075f909e5e9d2a" id="r_a64df04a94a707f0ac6075f909e5e9d2a"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64df04a94a707f0ac6075f909e5e9d2a">addFromEdgePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;path)</td></tr>
+<tr class="memitem:a97fea45a4170313a719a900d98a1ee7d" id="r_a97fea45a4170313a719a900d98a1ee7d"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97fea45a4170313a719a900d98a1ee7d">addFromSurfacePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path)</td></tr>
+<tr class="memitem:aada00d7c9df4877d4326b22a4ec91d08" id="r_aada00d7c9df4877d4326b22a4ec91d08"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aada00d7c9df4877d4326b22a4ec91d08">addFromGeneralSurfacePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;start, const <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path, const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;<a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>)</td></tr>
 <tr class="memitem:ae20e023266eab775d1ee6a336c27d7cd" id="r_ae20e023266eab775d1ee6a336c27d7cd"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae20e023266eab775d1ee6a336c27d7cd">heapBytes</a> () const</td></tr>
 <tr class="memdesc:ae20e023266eab775d1ee6a336c27d7cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:aeaa90b34cd74ab76a35694d438baaf65" id="r_aeaa90b34cd74ab76a35694d438baaf65"><td class="memTemplParams" colspan="2">template&lt;class Q = V&gt; </td></tr>
@@ -366,7 +359,7 @@ template&lt;typename V&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -376,7 +369,7 @@ template&lt;typename V&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -762,7 +755,7 @@ template&lt;typename V&gt; </div>
         <tr>
           <td class="memname">V <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::edgePoint </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ep</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga2184a4ebcef7a214ba981313f3637935">EdgePoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ep</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1211,7 +1204,7 @@ template&lt;typename V&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::toEdgePoint </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga2184a4ebcef7a214ba981313f3637935">EdgePoint</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::toEdgePoint </td>
           <td>(</td>
           <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
         </tr>
@@ -1244,7 +1237,7 @@ template&lt;typename V&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::toEdgePoint </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga2184a4ebcef7a214ba981313f3637935">EdgePoint</a> <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::toEdgePoint </td>
           <td>(</td>
           <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td> const</td>

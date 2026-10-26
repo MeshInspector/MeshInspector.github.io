@@ -62,6 +62,7 @@
       <member refid="group__GeneralGroup_1ga602bbca830ae850c60ff9d98f7316a3b" kind="function"><name>drawTouchpadSettings_</name></member>
       <member refid="group__GeneralGroup_1ga83fb555192dd8d4e2a4b1207c41ba6af" kind="function"><name>drawMcpSettings_</name></member>
       <member refid="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" kind="function"><name>drawMruInnerFormats_</name></member>
+      <member refid="group__GeneralGroup_1ga1da1a93b6d3855c9c749bff9bf97a4aa" kind="function"><name>drawStepImportSettings_</name></member>
       <member refid="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" kind="function"><name>drawGlobalSettings_</name></member>
       <member refid="group__GeneralGroup_1gac234fd8124156d65a822970b7bae04e4" kind="function"><name>drawCustomSettings_</name></member>
       <member refid="group__GeneralGroup_1ga44560a17a160565e9cf3acfe603f0dc4" kind="function"><name>drawSeparator_</name></member>
@@ -197,7 +198,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="18" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="19" bodyend="134"/>
+    <location file="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" line="18" column="1" bodyfile="MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h" bodystart="19" bodyend="135"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gaca69b2de3f466e977b398c0155b02cca" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>activeTab_</name></member>
@@ -233,6 +234,7 @@
       <member refid="group__GeneralGroup_1ga80dda1a25e5eddabe65d33ba1bed73b6" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawShadingModeCombo_</name></member>
       <member refid="group__GeneralGroup_1gaf4cbb91c1e84bebd995c89284084c03d" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawShadowsOptions_</name></member>
       <member refid="group__GeneralGroup_1ga9076c9b9fe889480701ac78798e5d8df" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawSpaceMouseSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga1da1a93b6d3855c9c749bff9bf97a4aa" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawStepImportSettings_</name></member>
       <member refid="group__GeneralGroup_1gad0d7089f5aed92e160f44e7a9ce9202b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawTab_</name></member>
       <member refid="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawThemeSelector_</name></member>
       <member refid="group__GeneralGroup_1ga602bbca830ae850c60ff9d98f7316a3b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawTouchpadSettings_</name></member>

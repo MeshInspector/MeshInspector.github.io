@@ -4,6 +4,7 @@
     <compoundname>MRHoleFillPlan.h</compoundname>
     <includes local="no">cassert</includes>
     <includes local="no">vector</includes>
+    <includedby refid="MR2DContoursTriangulation_8h" local="yes">MRMesh/MR2DContoursTriangulation.h</includedby>
     <includedby refid="MRFillContours2D_8h" local="yes">MRMesh/MRFillContours2D.h</includedby>
     <includedby refid="MRMeshFillHole_8h" local="yes">MRMesh/MRMeshFillHole.h</includedby>
     <incdepgraph>
@@ -24,13 +25,17 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
+        <label>MRMesh/MR2DContoursTriangulation.h</label>
+        <link refid="MR2DContoursTriangulation_8h"/>
+      </node>
+      <node id="3">
         <label>MRMesh/MRFillContours2D.h</label>
         <link refid="MRFillContours2D_8h"/>
       </node>
-      <node id="4">
+      <node id="5">
         <label>MRMesh/MRFillHoleNicely.h</label>
         <link refid="MRFillHoleNicely_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -40,14 +45,16 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-      </node>
-      <node id="3">
-        <label>MRMesh/MRMeshFillHole.h</label>
-        <link refid="MRMeshFillHole_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="5">
+      <node id="4">
+        <label>MRMesh/MRMeshFillHole.h</label>
+        <link refid="MRMeshFillHole_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
         <label>MRMesh/MRMeshPatch.h</label>
         <link refid="MRMeshPatch_8h"/>
       </node>

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -160,8 +153,8 @@ $(function(){initNavTree('classMR_1_1Viewport.html','',''); });
   <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga9ba24a263477563b531e82832c6c0b7e">drawLines</a>(const std::vector&lt; LineSegm3f &gt; &amp;lines, const std::vector&lt; SegmEndColors &gt; &amp;colors, const LinePointImmediateRenderParams &amp;params)</td><td class="entry"><a class="el" href="classMR_1_1Viewport.html">MR::Viewport</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga45b3b12cb1134a17b3a1b92588aeb7b5">drawLines</a>(const std::vector&lt; LineSegm3f &gt; &amp;lines, const std::vector&lt; SegmEndColors &gt; &amp;colors, float width=1, bool depthTest=true)</td><td class="entry"><a class="el" href="classMR_1_1Viewport.html">MR::Viewport</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga0ca49910fb3d31cf47aa072fd3eb769b">drawOrthoFixedPos</a>(const VisualObject &amp;obj, const AffineXf3f &amp;xf, DepthFunction depthFunc=DepthFunction::Default, RenderModelPassMask pass=RenderModelPassMask::All, const TransparencyMode &amp;transparentMode={}) const</td><td class="entry"><a class="el" href="classMR_1_1Viewport.html">MR::Viewport</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga0d9a99f9a43fc70d342a0c3af6763f60">drawPoints</a>(const std::vector&lt; Vector3f &gt; &amp;points, const std::vector&lt; Vector4f &gt; &amp;colors, const LinePointImmediateRenderParams &amp;params)</td><td class="entry"><a class="el" href="classMR_1_1Viewport.html">MR::Viewport</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#gad9165dc8844420f9c4824b6acc0e4038">drawPoints</a>(const std::vector&lt; Vector3f &gt; &amp;points, const std::vector&lt; Vector4f &gt; &amp;colors, float width=1, bool depthTest=true)</td><td class="entry"><a class="el" href="classMR_1_1Viewport.html">MR::Viewport</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#gaf1facdba3779e2c1841bf34c746da06c">drawPoints</a>(std::span&lt; const Vector3f &gt; points, std::span&lt; const Vector4f &gt; colors, const LinePointImmediateRenderParams &amp;params)</td><td class="entry"><a class="el" href="classMR_1_1Viewport.html">MR::Viewport</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga7238e1257a90120c137403d3590724bc">drawPoints</a>(std::span&lt; const Vector3f &gt; points, std::span&lt; const Vector4f &gt; colors, float width=1, bool depthTest=true)</td><td class="entry"><a class="el" href="classMR_1_1Viewport.html">MR::Viewport</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga41fcad2d24840aa9e8ce135b6aaaa6ed">drawTris</a>(const std::vector&lt; Triangle3f &gt; &amp;tris, const std::vector&lt; TriCornerColors &gt; &amp;colors, const ModelRenderParams &amp;params, bool depthTest=true)</td><td class="entry"><a class="el" href="classMR_1_1Viewport.html">MR::Viewport</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga6d31b00b0ded9a5fddc8dd417a3f5f64">drawTris</a>(const std::vector&lt; Triangle3f &gt; &amp;tris, const std::vector&lt; TriCornerColors &gt; &amp;colors, const Matrix4f &amp;modelM={}, bool depthTest=true)</td><td class="entry"><a class="el" href="classMR_1_1Viewport.html">MR::Viewport</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga0d754f9d4f9709be2c4a6cec2795a556">findCameraLookingFaces</a>(const Mesh &amp;mesh, const AffineXf3f &amp;meshToWorld) const</td><td class="entry"><a class="el" href="classMR_1_1Viewport.html">MR::Viewport</a></td><td class="entry"></td></tr>

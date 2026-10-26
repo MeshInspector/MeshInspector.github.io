@@ -33,6 +33,7 @@
     <innerfile refid="MRBox_8cs">MRBox.cs</innerfile>
     <innerfile refid="MRBoxNesting_8cs">MRBoxNesting.cs</innerfile>
     <innerfile refid="MRBuffer_8cs">MRBuffer.cs</innerfile>
+    <innerfile refid="MRCameraPointsTriangulation_8cs">MRCameraPointsTriangulation.cs</innerfile>
     <innerfile refid="MRChangeColoringActions_8cs">MRChangeColoringActions.cs</innerfile>
     <innerfile refid="MRChangeColoringType_8cs">MRChangeColoringType.cs</innerfile>
     <innerfile refid="MRChangeMeshAction_8cs">MRChangeMeshAction.cs</innerfile>
@@ -61,6 +62,7 @@
     <innerfile refid="MRCone3_8cs">MRCone3.cs</innerfile>
     <innerfile refid="MRConeApproximator_8cs">MRConeApproximator.cs</innerfile>
     <innerfile refid="MRConeObject_8cs">MRConeObject.cs</innerfile>
+    <innerfile refid="MRConstChildren_8cs">MRConstChildren.cs</innerfile>
     <innerfile refid="MRContour_8cs">MRContour.cs</innerfile>
     <innerfile refid="MRContoursCut_8cs">MRContoursCut.cs</innerfile>
     <innerfile refid="MRContoursSeparation_8cs">MRContoursSeparation.cs</innerfile>
@@ -68,9 +70,11 @@
     <innerfile refid="MRConvexHull_8cs">MRConvexHull.cs</innerfile>
     <innerfile refid="MRCube_8cs">MRCube.cs</innerfile>
     <innerfile refid="MRCurve_8cs">MRCurve.cs</innerfile>
+    <innerfile refid="MRCutAroundVertSets_8cs">MRCutAroundVertSets.cs</innerfile>
     <innerfile refid="MRCylinder_8cs">MRCylinder.cs</innerfile>
     <innerfile refid="MRCylinder3_8cs">MRCylinder3.cs</innerfile>
     <innerfile refid="MRCylinderObject_8cs">MRCylinderObject.cs</innerfile>
+    <innerfile refid="MRDelaunayTriangulationXY_8cs">MRDelaunayTriangulationXY.cs</innerfile>
     <innerfile refid="MRDenseBox_8cs">MRDenseBox.cs</innerfile>
     <innerfile refid="MRDipole_8cs">MRDipole.cs</innerfile>
     <innerfile refid="MRDirMax_8cs">MRDirMax.cs</innerfile>
@@ -258,6 +262,7 @@
     <innerfile refid="MRPointCloud_8cs">MRPointCloud.cs</innerfile>
     <innerfile refid="MRPointCloudDistance_8cs">MRPointCloudDistance.cs</innerfile>
     <innerfile refid="MRPointCloudDivideWithPlane_8cs">MRPointCloudDivideWithPlane.cs</innerfile>
+    <innerfile refid="MRPointCloudFPFH_8cs">MRPointCloudFPFH.cs</innerfile>
     <innerfile refid="MRPointCloudMakeNormals_8cs">MRPointCloudMakeNormals.cs</innerfile>
     <innerfile refid="MRPointCloudPart_8cs">MRPointCloudPart.cs</innerfile>
     <innerfile refid="MRPointCloudRadius_8cs">MRPointCloudRadius.cs</innerfile>
@@ -303,6 +308,9 @@
     <innerfile refid="MRQuaternion_8cs">MRQuaternion.cs</innerfile>
     <innerfile refid="MRRadiusCompensation_8cs">MRRadiusCompensation.cs</innerfile>
     <innerfile refid="MRRadiusMeasurementObject_8cs">MRRadiusMeasurementObject.cs</innerfile>
+    <innerfile refid="MRRaster_8cs">MRRaster.cs</innerfile>
+    <innerfile refid="MRRasterLoad_8cs">MRRasterLoad.cs</innerfile>
+    <innerfile refid="MRRasterSave_8cs">MRRasterSave.cs</innerfile>
     <innerfile refid="MRRectIndexer_8cs">MRRectIndexer.cs</innerfile>
     <innerfile refid="MRReducePath_8cs">MRReducePath.cs</innerfile>
     <innerfile refid="MRRegionBoundary_8cs">MRRegionBoundary.cs</innerfile>
@@ -312,8 +320,11 @@
     <innerfile refid="MRRenderModelParameters_8cs">MRRenderModelParameters.cs</innerfile>
     <innerfile refid="MRRigidScaleXf3_8cs">MRRigidScaleXf3.cs</innerfile>
     <innerfile refid="MRRigidXf3_8cs">MRRigidXf3.cs</innerfile>
+    <innerfile refid="MRRigidXfRansac_8cs">MRRigidXfRansac.cs</innerfile>
     <innerfile refid="MRRingIterator_8cs">MRRingIterator.cs</innerfile>
+    <innerfile refid="MRRound_8cs">MRRound.cs</innerfile>
     <innerfile refid="MRSaveSettings_8cs">MRSaveSettings.cs</innerfile>
+    <innerfile refid="MRScalarConvert_8cs">MRScalarConvert.cs</innerfile>
     <innerfile refid="MRSceneColors_8cs">MRSceneColors.cs</innerfile>
     <innerfile refid="MRSceneLoad_8cs">MRSceneLoad.cs</innerfile>
     <innerfile refid="MRSceneRoot_8cs">MRSceneRoot.cs</innerfile>
@@ -345,7 +356,6 @@
     <innerfile refid="MRSystem_8cs">MRSystem.cs</innerfile>
     <innerfile refid="MRSystemPath_8cs">MRSystemPath.cs</innerfile>
     <innerfile refid="MRTelemetry_8cs">MRTelemetry.cs</innerfile>
-    <innerfile refid="MRTerrainTriangulation_8cs">MRTerrainTriangulation.cs</innerfile>
     <innerfile refid="MRTextureColors_8cs">MRTextureColors.cs</innerfile>
     <innerfile refid="MRTimer_8cs">MRTimer.cs</innerfile>
     <innerfile refid="MRTorus_8cs">MRTorus.cs</innerfile>

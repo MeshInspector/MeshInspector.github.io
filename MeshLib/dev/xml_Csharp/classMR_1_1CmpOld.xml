@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="62" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="62" bodyend="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="67" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="67" bodyend="67"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="67" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="67" bodyend="72"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="72" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="72" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CmpOld_1a6630134d4e8b0999e1ece83d49333cd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="77" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="77" bodyend="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="80" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="80" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CmpOld_1acb98186615c48bbc26db5634e720f5a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="88" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="88" bodyend="88"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="89" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="89" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CmpOld_1a73142ce0b18c4dc2aaa63eb9006e2a03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1CmpOld" kindref="compound">MR.CmpOld</ref></type>
@@ -98,7 +98,63 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="93" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="93" bodyend="100"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="94" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="94" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1CmpOld_1a41c86a90658020006f55a6cdee99dbc6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.CmpOld._Underlying *</type>
+        <definition>static unsafe MR.CmpOld._Underlying * MR.CmpOld.__MR_CmpOld_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.CmpOld._Underlying *_other)</argsstring>
+        <name>__MR_CmpOld_AssignFromAnother</name>
+        <qualifiedname>MR.CmpOld.__MR_CmpOld_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.CmpOld._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="104" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CmpOld_1a1531dbd77651736abb2b47ea28c4117c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.CmpOld._Underlying *</type>
+        <definition>static unsafe MR.CmpOld._Underlying * MR.CmpOld.__MR_CmpOld_ConstructFromAnother</definition>
+        <argsstring>(MR.CmpOld._Underlying *_other)</argsstring>
+        <name>__MR_CmpOld_ConstructFromAnother</name>
+        <qualifiedname>MR.CmpOld.__MR_CmpOld_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.CmpOld._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="107" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CmpOld_1a4e2b916c35e84060d2cd145951ffacd7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.CmpOld._Underlying *</type>
+        <definition>static unsafe MR.CmpOld._Underlying * MR.CmpOld.__MR_CmpOld_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_CmpOld_DefaultConstruct</name>
+        <qualifiedname>MR.CmpOld.__MR_CmpOld_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="110" column="50"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -150,8 +206,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="60" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="61" bodyend="101"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="65" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="66" bodyend="111"/>
     <listofallmembers>
+      <member refid="classMR_1_1CmpOld_1a41c86a90658020006f55a6cdee99dbc6" prot="private" virt="non-virtual"><scope>MR::CmpOld</scope><name>__MR_CmpOld_AssignFromAnother</name></member>
+      <member refid="classMR_1_1CmpOld_1a1531dbd77651736abb2b47ea28c4117c" prot="private" virt="non-virtual"><scope>MR::CmpOld</scope><name>__MR_CmpOld_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1CmpOld_1a4e2b916c35e84060d2cd145951ffacd7" prot="private" virt="non-virtual"><scope>MR::CmpOld</scope><name>__MR_CmpOld_DefaultConstruct</name></member>
       <member refid="classMR_1_1CmpOld_1a73142ce0b18c4dc2aaa63eb9006e2a03" prot="public" virt="non-virtual"><scope>MR::CmpOld</scope><name>assign</name></member>
       <member refid="classMR_1_1CmpOld_1a93356b70ff6ef57c7ae176594d690eaf" prot="package" virt="non-virtual"><scope>MR::CmpOld</scope><name>CmpOld</name></member>
       <member refid="classMR_1_1CmpOld_1a4d6411890e1690d764794e3c796a3319" prot="public" virt="non-virtual"><scope>MR::CmpOld</scope><name>CmpOld</name></member>

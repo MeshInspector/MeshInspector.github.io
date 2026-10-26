@@ -28,11 +28,11 @@
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
@@ -61,6 +61,18 @@
         <childnode refid="28" relation="include">
         </childnode>
       </node>
+      <node id="38">
+        <label>MRAllocator.h</label>
+        <link refid="MRAllocator_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
       <node id="37">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
@@ -68,17 +80,21 @@
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
         </childnode>
         <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
         <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
       </node>
       <node id="13">
@@ -87,7 +103,7 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="43">
+      <node id="46">
         <label>MRCloudPartMapping.h</label>
         <link refid="MRCloudPartMapping_8h"/>
         <childnode refid="11" relation="include">
@@ -119,7 +135,7 @@
         <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="41">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="11" relation="include">
@@ -137,16 +153,16 @@
         <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="45">
+      <node id="48">
         <label>MRMesh/MRLoadedObjects.h</label>
         <link refid="MRLoadedObjects_8h"/>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -202,12 +218,12 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="44">
+      <node id="47">
         <label>MRMesh/MRPointsLoadSettings.h</label>
         <link refid="MRPointsLoadSettings_8h"/>
         <childnode refid="11" relation="include">
@@ -223,7 +239,7 @@
         <childnode refid="36" relation="include">
         </childnode>
       </node>
-      <node id="41">
+      <node id="45">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="11" relation="include">
@@ -232,19 +248,19 @@
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="49">
         <label>MRUnitInfo.h</label>
         <link refid="MRUnitInfo_8h"/>
-        <childnode refid="47" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
       <node id="8">
@@ -309,7 +325,7 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="50">
         <label>MRVectorTraits.h</label>
         <link refid="MRMesh_2MRVectorTraits_8h"/>
         <childnode refid="11" relation="include">
@@ -329,7 +345,7 @@
       <node id="32">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="39">
+      <node id="42">
         <label>MRphmap.h</label>
       </node>
       <node id="23">
@@ -337,6 +353,9 @@
       </node>
       <node id="15">
         <label>array</label>
+      </node>
+      <node id="43">
+        <label>atomic</label>
       </node>
       <node id="21">
         <label>cassert</label>
@@ -359,7 +378,7 @@
       <node id="3">
         <label>exports.h</label>
       </node>
-      <node id="49">
+      <node id="52">
         <label>filesystem</label>
       </node>
       <node id="19">
@@ -368,13 +387,16 @@
       <node id="26">
         <label>iosfwd</label>
       </node>
-      <node id="40">
+      <node id="44">
         <label>iterator</label>
       </node>
-      <node id="42">
+      <node id="39">
         <label>memory</label>
       </node>
-      <node id="48">
+      <node id="40">
+        <label>mimalloc.h</label>
+      </node>
+      <node id="51">
         <label>optional</label>
       </node>
       <node id="18">
@@ -439,13 +461,13 @@
 <codeline lineno="39"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41" refid="namespaceMR_1_1PointsLoad_1a4e26659cfe9947e314c23ec7aed1a859" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;std::vector&lt;NamedCloud&gt;</ref>&gt;<sp/><ref refid="namespaceMR_1_1PointsLoad_1a4e26659cfe9947e314c23ec7aed1a859" kindref="member">fromSceneE57File</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoad_1_1E57LoadSettings" kindref="compound">E57LoadSettings</ref><sp/>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoad_1_1E57LoadSettings" kindref="compound">E57LoadSettings</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga351ee7aaab2fab7deb7b0aed319437f4" kindref="member">settings</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45" refid="namespaceMR_1_1PointsLoad_1a2375d8a5796d1b39ee7f5f90ef0c6649" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="namespaceMR_1_1PointsLoad_1a2375d8a5796d1b39ee7f5f90ef0c6649" kindref="member">fromE57</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="47" refid="namespaceMR_1_1PointsLoad_1a74d1bdfae49f008619b4a62372672501" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="namespaceMR_1_1PointsLoad_1a2375d8a5796d1b39ee7f5f90ef0c6649" kindref="member">fromE57</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga351ee7aaab2fab7deb7b0aed319437f4" kindref="member">settings</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="47" refid="namespaceMR_1_1PointsLoad_1a74d1bdfae49f008619b4a62372672501" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;PointCloud&gt;</ref><sp/><ref refid="namespaceMR_1_1PointsLoad_1a2375d8a5796d1b39ee7f5f90ef0c6649" kindref="member">fromE57</ref>(<sp/>std::istream&amp;<sp/>in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga351ee7aaab2fab7deb7b0aed319437f4" kindref="member">settings</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="namespaceMR_1_1PointsLoad_1a01b4e00f4add2695b9e1a518880a315a" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObjects&gt;</ref><sp/><ref refid="namespaceMR_1_1PointsLoad_1a01b4e00f4add2695b9e1a518880a315a" kindref="member">loadObjectFromE57</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="49" refid="namespaceMR_1_1PointsLoad_1a01b4e00f4add2695b9e1a518880a315a" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;LoadedObjects&gt;</ref><sp/><ref refid="namespaceMR_1_1PointsLoad_1a01b4e00f4add2695b9e1a518880a315a" kindref="member">loadObjectFromE57</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kindref="member">cb</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>

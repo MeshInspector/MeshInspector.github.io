@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -148,11 +141,11 @@ $(function(){initNavTree('structMR_1_1ComputeSteepestDescentPathSettings.html','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a9c5b63e96c36543a3af9203630d6325c" id="r_a9c5b63e96c36543a3af9203630d6325c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c5b63e96c36543a3af9203630d6325c">end</a></td></tr>
+<tr class="memitem:a9c5b63e96c36543a3af9203630d6325c" id="r_a9c5b63e96c36543a3af9203630d6325c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c5b63e96c36543a3af9203630d6325c">end</a></td></tr>
 <tr class="memdesc:a9c5b63e96c36543a3af9203630d6325c"><td class="mdescLeft">&#160;</td><td class="mdescRight">if valid, then the descent is stopped as soon as same triangle with (end) is reached  <br /></td></tr>
 <tr class="memitem:adb7629a9e4ce0c21efc00fd5f1b3932f" id="r_adb7629a9e4ce0c21efc00fd5f1b3932f"><td class="memItemLeft" align="right" valign="top">VertId *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb7629a9e4ce0c21efc00fd5f1b3932f">outVertexReached</a> = nullptr</td></tr>
 <tr class="memdesc:adb7629a9e4ce0c21efc00fd5f1b3932f"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached  <br /></td></tr>
-<tr class="memitem:a133dd657607eb8f8e2745935031c0ed0" id="r_a133dd657607eb8f8e2745935031c0ed0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a133dd657607eb8f8e2745935031c0ed0">outBdReached</a> = nullptr</td></tr>
+<tr class="memitem:a133dd657607eb8f8e2745935031c0ed0" id="r_a133dd657607eb8f8e2745935031c0ed0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga2184a4ebcef7a214ba981313f3637935">EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a133dd657607eb8f8e2745935031c0ed0">outBdReached</a> = nullptr</td></tr>
 <tr class="memdesc:a133dd657607eb8f8e2745935031c0ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached  <br /></td></tr>
 </table>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
@@ -163,7 +156,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> MR::ComputeSteepestDescentPathSettings::end</td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> MR::ComputeSteepestDescentPathSettings::end</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -179,7 +172,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a>* MR::ComputeSteepestDescentPathSettings::outBdReached = nullptr</td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga2184a4ebcef7a214ba981313f3637935">EdgePoint</a>* MR::ComputeSteepestDescentPathSettings::outBdReached = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">

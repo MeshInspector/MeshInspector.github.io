@@ -1,5 +1,6 @@
 var MRVoxelsLoad_8h =
 [
+    [ "MR::VoxelsLoad::MR_BIND_IGNORE", "group__VoxelsLoadGroup.html#ga707920855f52f8e5871fc6c0056a6002", null ],
     [ "MR::VoxelsLoad::VoxelsLoader", "group__VoxelsLoadGroup.html#gac95950f875729ac15c011d99d4624d96", null ],
     [ "MR::VoxelsLoad::GridType", "group__VoxelsLoadGroup.html#ga5a3e4b96e9ddb9678f554fe8a8d56a19", [
       [ "MR::VoxelsLoad::GridType::DenseGrid", "group__VoxelsLoadGroup.html#gga5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7", null ],
@@ -19,7 +20,8 @@ var MRVoxelsLoad_8h =
     [ "MR::VoxelsLoad::gridsFromAnySupportedFormat", "group__VoxelsLoadGroup.html#gad303045560cb427689099a6b7fd25789", null ],
     [ "MR::VoxelsLoad::gridsFromVdb", "group__VoxelsLoadGroup.html#ga45ad7e33491adf48887a084a760ce0dd", null ],
     [ "MR::VoxelsLoad::gridsFromVdb", "group__VoxelsLoadGroup.html#ga255028947dcc30bbf215b5da697a7e96", null ],
-    [ "MR::VoxelsLoad::loadTiffDir", "group__VoxelsLoadGroup.html#gaa3493438ee99f77d8e1ae26c176c0453", null ],
+    [ "MR::VoxelsLoad::loadRasterFolder", "group__VoxelsLoadGroup.html#ga2b3126db75b88eeee5be2e16619f48be", null ],
+    [ "MR::VoxelsLoad::loadTiffDir", "group__VoxelsLoadGroup.html#ga0960ce4def7ec9ddd1ca37933d82542b", null ],
     [ "MR::makeObjectFromVoxelsFile", "namespaceMR.html#adc6c309b18d3d1c442591ea06f9cb26c", null ],
     [ "MR::makeObjectVoxelsFromFile", "namespaceMR.html#a90e7a361537bcd60aa55bcec6cc4ffb1", null ]
 ];

@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BallPivotCandidate" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BallPivotCandidate</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BallPivotCandidate_1a4c0e556672ec4356843990f2a3fab6a6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BallPivotCandidate::_offsetof_coords</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_coords</name>
+        <qualifiedname>mrmeshpy.BallPivotCandidate._offsetof_coords</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7823" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BallPivotCandidate_1a68cffd2fbd24dff3b5494aefb6c77a9b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BallPivotCandidate::_offsetof_cwFromVk</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cwFromVk</name>
+        <qualifiedname>mrmeshpy.BallPivotCandidate._offsetof_cwFromVk</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7824" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BallPivotCandidate_1a6c356bf692efaad623674ae8220e8057" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BallPivotCandidate.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BallPivotCandidate.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7827" bodyend="7828"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BallPivotCandidate_1a17b4f10a2a6b1baac77a0e964a0a0553" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BallPivotCandidate" kindref="compound">BallPivotCandidate</ref></type>
+        <definition> BallPivotCandidate mrmeshpy.BallPivotCandidate.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BallPivotCandidate.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7831" bodyend="7832"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BallPivotCandidate_1a17b4f10a2a6b1baac77a0e964a0a0553" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BallPivotCandidate" kindref="compound">BallPivotCandidate</ref></type>
+        <definition> BallPivotCandidate mrmeshpy.BallPivotCandidate.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BallPivotCandidate.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7835" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7835" bodyend="7836"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BallPivotCandidate_1a5cba82db80784366f3bd701cda83819d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BallPivotCandidate.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BallPivotCandidate.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7838" bodyend="7839"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BallPivotCandidate_1aa300159f9aebe1396e5b14ec085483e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BallPivotCandidate.__init__</definition>
+        <argsstring>(self, BallPivotCandidate arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BallPivotCandidate.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BallPivotCandidate" kindref="compound">BallPivotCandidate</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7841" bodyend="7844"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BallPivotCandidate_1a71d6f4493bbe2ffc16bae0972d3beb78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BallPivotCandidate.__init__</definition>
+        <argsstring>(self, PreciseVertCoords coords, bool cwFromVk)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BallPivotCandidate.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+          <declname>coords</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cwFromVk</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7846" bodyend="7849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BallPivotCandidate_1a5ba59aae25c52a13ac472b46d0365506" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+        <definition> PreciseVertCoords mrmeshpy.BallPivotCandidate.coords</definition>
+        <argsstring>(self)</argsstring>
+        <name>coords</name>
+        <qualifiedname>mrmeshpy.BallPivotCandidate.coords</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the point&apos;s id together with its integer coordinates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7851" bodyend="7854"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BallPivotCandidate_1a566e7f5646d19a7c14e866370e0e0a83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BallPivotCandidate.coords</definition>
+        <argsstring>(self, PreciseVertCoords arg1)</argsstring>
+        <name>coords</name>
+        <qualifiedname>mrmeshpy.BallPivotCandidate.coords</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7856" bodyend="7857"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BallPivotCandidate_1abeffbe2b3b4a9a20dc16a0948cb6ec40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BallPivotCandidate.cwFromVk</definition>
+        <argsstring>(self)</argsstring>
+        <name>cwFromVk</name>
+        <qualifiedname>mrmeshpy.BallPivotCandidate.cwFromVk</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>orient3d( vi, vj, vk, this point ): whether the rotation around the line from #vi to #vj
+from the half-plane via #vk to the half-plane via this point is clockwise
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7859" bodyend="7863"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BallPivotCandidate_1a3cb25e50297bb23c3b83252aa82177d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BallPivotCandidate.cwFromVk</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>cwFromVk</name>
+        <qualifiedname>mrmeshpy.BallPivotCandidate.cwFromVk</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7865" bodyend="7866"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BallPivotCandidate
+
+a point touchable by a ball together with the edge (vi, vj) in the search of findBallPivotVertex
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7817" bodyend="7866"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BallPivotCandidate_1a6c356bf692efaad623674ae8220e8057" prot="public" virt="non-virtual"><scope>mrmeshpy::BallPivotCandidate</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BallPivotCandidate_1a5cba82db80784366f3bd701cda83819d" prot="public" virt="non-virtual"><scope>mrmeshpy::BallPivotCandidate</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BallPivotCandidate_1aa300159f9aebe1396e5b14ec085483e7" prot="public" virt="non-virtual"><scope>mrmeshpy::BallPivotCandidate</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BallPivotCandidate_1a71d6f4493bbe2ffc16bae0972d3beb78" prot="public" virt="non-virtual"><scope>mrmeshpy::BallPivotCandidate</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BallPivotCandidate_1a4c0e556672ec4356843990f2a3fab6a6" prot="protected" virt="non-virtual"><scope>mrmeshpy::BallPivotCandidate</scope><name>_offsetof_coords</name></member>
+      <member refid="classmrmeshpy_1_1BallPivotCandidate_1a68cffd2fbd24dff3b5494aefb6c77a9b" prot="protected" virt="non-virtual"><scope>mrmeshpy::BallPivotCandidate</scope><name>_offsetof_cwFromVk</name></member>
+      <member refid="classmrmeshpy_1_1BallPivotCandidate_1a5ba59aae25c52a13ac472b46d0365506" prot="public" virt="non-virtual"><scope>mrmeshpy::BallPivotCandidate</scope><name>coords</name></member>
+      <member refid="classmrmeshpy_1_1BallPivotCandidate_1a566e7f5646d19a7c14e866370e0e0a83" prot="public" virt="non-virtual"><scope>mrmeshpy::BallPivotCandidate</scope><name>coords</name></member>
+      <member refid="classmrmeshpy_1_1BallPivotCandidate_1abeffbe2b3b4a9a20dc16a0948cb6ec40" prot="public" virt="non-virtual"><scope>mrmeshpy::BallPivotCandidate</scope><name>cwFromVk</name></member>
+      <member refid="classmrmeshpy_1_1BallPivotCandidate_1a3cb25e50297bb23c3b83252aa82177d5" prot="public" virt="non-virtual"><scope>mrmeshpy::BallPivotCandidate</scope><name>cwFromVk</name></member>
+      <member refid="classmrmeshpy_1_1BallPivotCandidate_1a17b4f10a2a6b1baac77a0e964a0a0553" prot="public" virt="non-virtual"><scope>mrmeshpy::BallPivotCandidate</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BallPivotCandidate_1a17b4f10a2a6b1baac77a0e964a0a0553" prot="public" virt="non-virtual"><scope>mrmeshpy::BallPivotCandidate</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

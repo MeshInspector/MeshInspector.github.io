@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -182,22 +175,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abab1969d565f8218414497a28b157274"><td class="mdescLeft">&#160;</td><td class="mdescRight">append points to mesh and connect them returns first <a class="el" href="structMR_1_1EdgeId.html" title="Generated from class MR.EdgeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">EdgeId</a> of new edges Generated from method <span class="tt"><a class="el" href="#abab1969d565f8218414497a28b157274" title="append points to mesh and connect them returns first EdgeId of new edges Generated from method MR....">MR.Mesh.addSeparateContours</a></span>.  <br /></td></tr>
 <tr class="memitem:ac0eeaab921700a0bb69e1e9f9ac81072" id="r_ac0eeaab921700a0bb69e1e9f9ac81072"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0eeaab921700a0bb69e1e9f9ac81072">attachEdgeLoopPart</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> first, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> last, MR.Std.Const_Vector_MRVector3f contourPoints)</td></tr>
 <tr class="memdesc:ac0eeaab921700a0bb69e1e9f9ac81072"><td class="mdescLeft">&#160;</td><td class="mdescRight">append points to mesh and connect them to given edges making edge loop first point connects with first edge dest last point connects with last edge org note that first and last edge should have no left face Generated from method <span class="tt"><a class="el" href="#ac0eeaab921700a0bb69e1e9f9ac81072" title="append points to mesh and connect them to given edges making edge loop first point connects with firs...">MR.Mesh.attachEdgeLoopPart</a></span>.  <br /></td></tr>
-<tr class="memitem:a6c3397a5f9b167c21f2ef11cdc2714bb" id="r_a6c3397a5f9b167c21f2ef11cdc2714bb"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c3397a5f9b167c21f2ef11cdc2714bb">splitEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> newVertPos, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</td></tr>
-<tr class="memdesc:a6c3397a5f9b167c21f2ef11cdc2714bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split)  <br /></td></tr>
-<tr class="memitem:a8a2afbc970a0f369fc1ce22ecda09d99" id="r_a8a2afbc970a0f369fc1ce22ecda09d99"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a2afbc970a0f369fc1ce22ecda09d99">splitEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</td></tr>
-<tr class="memdesc:a8a2afbc970a0f369fc1ce22ecda09d99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a6c3397a5f9b167c21f2ef11cdc2714bb" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">MR.Mesh.splitEdge</a></span>.  <br /></td></tr>
-<tr class="memitem:a7047e329fbec57254356a66c56e303a5" id="r_a7047e329fbec57254356a66c56e303a5"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1VertId.html">MR.VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7047e329fbec57254356a66c56e303a5">splitFace</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> f, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> newVertPos, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</td></tr>
-<tr class="memdesc:a7047e329fbec57254356a66c56e303a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">split given triangle on three triangles, introducing new vertex with given coordinates and connecting it to original triangle vertices; if region is given, then it must include (f) and new faces will be added there as well  <br /></td></tr>
-<tr class="memitem:afbb50d9e289a891a10226c90dd906a37" id="r_afbb50d9e289a891a10226c90dd906a37"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1VertId.html">MR.VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbb50d9e289a891a10226c90dd906a37">splitFace</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> f, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</td></tr>
-<tr class="memdesc:afbb50d9e289a891a10226c90dd906a37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a7047e329fbec57254356a66c56e303a5" title="split given triangle on three triangles, introducing new vertex with given coordinates and connecting...">MR.Mesh.splitFace</a></span>.  <br /></td></tr>
+<tr class="memitem:ac03ffd6995e96fbdcd46968e3dbe3295" id="r_ac03ffd6995e96fbdcd46968e3dbe3295"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac03ffd6995e96fbdcd46968e3dbe3295">splitEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> newVertPos, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId? new2Old=null)</td></tr>
+<tr class="memdesc:ac03ffd6995e96fbdcd46968e3dbe3295"><td class="mdescLeft">&#160;</td><td class="mdescRight">split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split)  <br /></td></tr>
+<tr class="memitem:a80564e08f476a1b849ca1c291b5e680f" id="r_a80564e08f476a1b849ca1c291b5e680f"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80564e08f476a1b849ca1c291b5e680f">splitEdge</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId? new2Old=null)</td></tr>
+<tr class="memdesc:a80564e08f476a1b849ca1c291b5e680f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ac03ffd6995e96fbdcd46968e3dbe3295" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">MR.Mesh.splitEdge</a></span>.  <br /></td></tr>
+<tr class="memitem:ac415a01baf693c99e421cae57b2ad081" id="r_ac415a01baf693c99e421cae57b2ad081"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1VertId.html">MR.VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac415a01baf693c99e421cae57b2ad081">splitFace</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> f, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> newVertPos, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId? new2Old=null)</td></tr>
+<tr class="memdesc:ac415a01baf693c99e421cae57b2ad081"><td class="mdescLeft">&#160;</td><td class="mdescRight">split given triangle on three triangles, introducing new vertex with given coordinates and connecting it to original triangle vertices; if region is given, then it must include (f) and new faces will be added there as well  <br /></td></tr>
+<tr class="memitem:ade0e38a47c119bcf51e52ec60d1bb9a6" id="r_ade0e38a47c119bcf51e52ec60d1bb9a6"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1VertId.html">MR.VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade0e38a47c119bcf51e52ec60d1bb9a6">splitFace</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> f, <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId? new2Old=null)</td></tr>
+<tr class="memdesc:ade0e38a47c119bcf51e52ec60d1bb9a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ac415a01baf693c99e421cae57b2ad081" title="split given triangle on three triangles, introducing new vertex with given coordinates and connecting...">MR.Mesh.splitFace</a></span>.  <br /></td></tr>
 <tr class="memitem:a466f6cad2b51436a361e61648f2fb865" id="r_a466f6cad2b51436a361e61648f2fb865"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a466f6cad2b51436a361e61648f2fb865">addMesh</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> from, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, bool? rearrangeTriangles=null)</td></tr>
 <tr class="memdesc:a466f6cad2b51436a361e61648f2fb865"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends another mesh as separate connected component(s) to this Generated from method <span class="tt"><a class="el" href="#a466f6cad2b51436a361e61648f2fb865" title="appends another mesh as separate connected component(s) to this Generated from method MR....">MR.Mesh.addMesh</a></span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">rearrangeTriangles</span> defaults to <span class="tt">false</span>.  <br /></td></tr>
 <tr class="memitem:af28122d6c3bcc15f02f009974fe84bf6" id="r_af28122d6c3bcc15f02f009974fe84bf6"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af28122d6c3bcc15f02f009974fe84bf6">addMesh</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> from, <a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? outFmap, <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>? outVmap=null, <a class="el" href="classMR_1_1WholeEdgeMap.html">MR.WholeEdgeMap</a>? outEmap=null, bool? rearrangeTriangles=null)</td></tr>
 <tr class="memdesc:af28122d6c3bcc15f02f009974fe84bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a466f6cad2b51436a361e61648f2fb865" title="appends another mesh as separate connected component(s) to this Generated from method MR....">MR.Mesh.addMesh</a></span>. Parameter <span class="tt">rearrangeTriangles</span> defaults to <span class="tt">false</span>.  <br /></td></tr>
 <tr class="memitem:a1ed5a4757fbcc9ea80e3ed92eff1c33f" id="r_a1ed5a4757fbcc9ea80e3ed92eff1c33f"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ed5a4757fbcc9ea80e3ed92eff1c33f">addMeshPart</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> from, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a> map, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
 <tr class="memdesc:a1ed5a4757fbcc9ea80e3ed92eff1c33f"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends whole or part of another mesh as separate connected component(s) to this optional  <br /></td></tr>
-<tr class="memitem:ac284314390074ac73115177f448a1587" id="r_ac284314390074ac73115177f448a1587"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac284314390074ac73115177f448a1587">addMeshPart</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> from, bool? flipOrientation=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
-<tr class="memdesc:ac284314390074ac73115177f448a1587"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends whole or part of another mesh to this joining added faces with existed ones along given contours  <br /></td></tr>
+<tr class="memitem:a7cc16cd06f46f37d34711f74f5c249f1" id="r_a7cc16cd06f46f37d34711f74f5c249f1"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc16cd06f46f37d34711f74f5c249f1">addMeshPart</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> from, bool? flipOrientation=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
+<tr class="memdesc:a7cc16cd06f46f37d34711f74f5c249f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends whole or part of another mesh to this joining added faces with existed ones along given contours  <br /></td></tr>
 <tr class="memitem:a8ca1dbf25d04ac66213956966250b872" id="r_a8ca1dbf25d04ac66213956966250b872"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ca1dbf25d04ac66213956966250b872">pack</a> (<a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, bool? rearrangeTriangles=null)</td></tr>
 <tr class="memdesc:a8ca1dbf25d04ac66213956966250b872"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid faces, vertices and points Generated from method <span class="tt"><a class="el" href="#a8ca1dbf25d04ac66213956966250b872" title="tightly packs all arrays eliminating lone edges and invalid faces, vertices and points Generated from...">MR.Mesh.pack</a></span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">rearrangeTriangles</span> defaults to <span class="tt">false</span>.  <br /></td></tr>
 <tr class="memitem:a3ca5fa30b57fdada6bfe0aecb9868a7f" id="r_a3ca5fa30b57fdada6bfe0aecb9868a7f"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ca5fa30b57fdada6bfe0aecb9868a7f">pack</a> (<a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? outFmap, <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>? outVmap=null, <a class="el" href="classMR_1_1WholeEdgeMap.html">MR.WholeEdgeMap</a>? outEmap=null, bool? rearrangeTriangles=null)</td></tr>
@@ -212,8 +205,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adad0b8879defc6c7855060282f4e79eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces and not in  <br /></td></tr>
 <tr class="memitem:a2456faa5acbeb85adca2cf5b496df684" id="r_a2456faa5acbeb85adca2cf5b496df684"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2456faa5acbeb85adca2cf5b496df684">invalidateCaches</a> (bool? pointsChanged=null)</td></tr>
 <tr class="memdesc:a2456faa5acbeb85adca2cf5b496df684"><td class="mdescLeft">&#160;</td><td class="mdescRight">invalidates caches (aabb-trees) after any change in mesh geometry or topology  <br /></td></tr>
-<tr class="memitem:aa840c13d73b18aa3014201e05ffaf46e" id="r_aa840c13d73b18aa3014201e05ffaf46e"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa840c13d73b18aa3014201e05ffaf46e">updateCaches</a> (<a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> changedVerts)</td></tr>
-<tr class="memdesc:aa840c13d73b18aa3014201e05ffaf46e"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to <a class="el" href="#a2456faa5acbeb85adca2cf5b496df684" title="invalidates caches (aabb-trees) after any change in mesh geometry or topology">invalidateCaches()</a> and following rebuild of trees Generated from method <span class="tt"><a class="el" href="#aa840c13d73b18aa3014201e05ffaf46e" title="updates existing caches in case of few vertices were changed insignificantly, and topology remained u...">MR.Mesh.updateCaches</a></span>.  <br /></td></tr>
+<tr class="memitem:a82df6cc87a7a9ed397253a2ff13abc44" id="r_a82df6cc87a7a9ed397253a2ff13abc44"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82df6cc87a7a9ed397253a2ff13abc44">updateCaches</a> (<a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? changedVerts)</td></tr>
+<tr class="memdesc:a82df6cc87a7a9ed397253a2ff13abc44"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to <a class="el" href="#a2456faa5acbeb85adca2cf5b496df684" title="invalidates caches (aabb-trees) after any change in mesh geometry or topology">invalidateCaches()</a> and following rebuild of trees  <br /></td></tr>
+<tr class="memitem:a04d3d9d1f6cd6f27e8bbae4fd3182a3d" id="r_a04d3d9d1f6cd6f27e8bbae4fd3182a3d"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d3d9d1f6cd6f27e8bbae4fd3182a3d">updateCachesAfterSplits</a> (MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId new2Old)</td></tr>
+<tr class="memdesc:a04d3d9d1f6cd6f27e8bbae4fd3182a3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates existing caches after some faces were split into parts (e.g. by <a class="el" href="#ac415a01baf693c99e421cae57b2ad081" title="split given triangle on three triangles, introducing new vertex with given coordinates and connecting...">splitFace()</a> or <a class="el" href="#ac03ffd6995e96fbdcd46968e3dbe3295" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">splitEdge()</a>) with no other changes in the mesh; it shall be considered as a faster alternative to <a class="el" href="#a2456faa5acbeb85adca2cf5b496df684" title="invalidates caches (aabb-trees) after any change in mesh geometry or topology">invalidateCaches()</a> and following rebuild of AABB tree  <br /></td></tr>
 <tr class="memitem:a9a5bddf03c626d877f81537eb854307d" id="r_a9a5bddf03c626d877f81537eb854307d"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a5bddf03c626d877f81537eb854307d">shrinkToFit</a> ()</td></tr>
 <tr class="memdesc:a9a5bddf03c626d877f81537eb854307d"><td class="mdescLeft">&#160;</td><td class="mdescRight">requests the removal of unused capacity Generated from method <span class="tt"><a class="el" href="#a9a5bddf03c626d877f81537eb854307d" title="requests the removal of unused capacity Generated from method MR.Mesh.shrinkToFit.">MR.Mesh.shrinkToFit</a></span>.  <br /></td></tr>
 <tr class="memitem:a2716bdfac62a94a52023c065250ba246" id="r_a2716bdfac62a94a52023c065250ba246"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2716bdfac62a94a52023c065250ba246">mirror</a> (<a class="el" href="classMR_1_1Const__Plane3f.html">MR.Const_Plane3f</a> plane)</td></tr>
@@ -356,6 +351,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:add61237bc2a74e12e5be8ab83ac63d6c inherit pub_methods_classMR_1_1Const__Mesh"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes discrete mean curvature in given edge, measures in length^-1; 0 for planar regions, positive for convex surface, negative for concave surface Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__Mesh.html#a1dc6d4be764deabf0008ccc6e05eeb33" title="computes discrete mean curvature in given vertex, measures in length^-1; 0 for planar regions,...">MR.Mesh.discreteMeanCurvature</a></span>.  <br /></td></tr>
 <tr class="memitem:a4cbc3986a13f34d9d4a2cd88e29d71e3 inherit pub_methods_classMR_1_1Const__Mesh" id="r_a4cbc3986a13f34d9d4a2cd88e29d71e3"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Mesh.html#a4cbc3986a13f34d9d4a2cd88e29d71e3">discreteGaussianCurvature</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, MR.Misc.InOut&lt; bool &gt;? outBoundaryVert=null)</td></tr>
 <tr class="memdesc:a4cbc3986a13f34d9d4a2cd88e29d71e3 inherit pub_methods_classMR_1_1Const__Mesh"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes discrete Gaussian curvature (or angle defect) at given vertex, which 0 in inner vertices on planar mesh parts and reaches 2*pi on needle's tip, see <a href="http://math.uchicago.edu/~may/REU2015/REUPapers/Upadhyay.pdf">http://math.uchicago.edu/~may/REU2015/REUPapers/Upadhyay.pdf</a> optionally returns whether the vertex is on boundary Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__Mesh.html#a4cbc3986a13f34d9d4a2cd88e29d71e3" title="computes discrete Gaussian curvature (or angle defect) at given vertex, which 0 in inner vertices on ...">MR.Mesh.discreteGaussianCurvature</a></span>.  <br /></td></tr>
+<tr class="memitem:a4ad52d28f5f3ff1d4add1d39a452f3d2 inherit pub_methods_classMR_1_1Const__Mesh" id="r_a4ad52d28f5f3ff1d4add1d39a452f3d2"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Mesh.html#a4ad52d28f5f3ff1d4add1d39a452f3d2">findSharpEdges</a> (float minSharpCos, float maxSharpCos)</td></tr>
+<tr class="memdesc:a4ad52d28f5f3ff1d4add1d39a452f3d2 inherit pub_methods_classMR_1_1Const__Mesh"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos] Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__Mesh.html#a4ad52d28f5f3ff1d4add1d39a452f3d2" title="finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos,...">MR.Mesh.findSharpEdges</a></span>.  <br /></td></tr>
 <tr class="memitem:acaa1a323b359755f854bacd4b19e17bb inherit pub_methods_classMR_1_1Const__Mesh" id="r_acaa1a323b359755f854bacd4b19e17bb"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Mesh.html#acaa1a323b359755f854bacd4b19e17bb">findCreaseEdges</a> (float angleFromPlanar)</td></tr>
 <tr class="memdesc:acaa1a323b359755f854bacd4b19e17bb inherit pub_methods_classMR_1_1Const__Mesh"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__Mesh.html#acaa1a323b359755f854bacd4b19e17bb" title="finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value Ge...">MR.Mesh.findCreaseEdges</a></span>.  <br /></td></tr>
 <tr class="memitem:a20c8a63eeb72631629308e8cc708af1b inherit pub_methods_classMR_1_1Const__Mesh" id="r_a20c8a63eeb72631629308e8cc708af1b"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__Mesh.html#a20c8a63eeb72631629308e8cc708af1b">leftCotan</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e)</td></tr>
@@ -628,8 +625,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ac284314390074ac73115177f448a1587" name="ac284314390074ac73115177f448a1587"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac284314390074ac73115177f448a1587">&#9670;&#160;</a></span>addMeshPart() <span class="overload">[1/2]</span></h2>
+<a id="a7cc16cd06f46f37d34711f74f5c249f1" name="a7cc16cd06f46f37d34711f74f5c249f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc16cd06f46f37d34711f74f5c249f1">&#9670;&#160;</a></span>addMeshPart() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -638,7 +635,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe void MR.Mesh.addMeshPart </td>
+          <td class="memname">unsafe bool MR.Mesh.addMeshPart </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
         </tr>
@@ -679,10 +676,11 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">flipOrientation</td><td>true means that every (from) triangle is inverted before adding optional</td></tr>
-    <tr><td class="paramname">vacant</td><td>can be passed to copy elements not at the end, but over given ones, which the user guaranties to be free/lone Generated from method <span class="tt"><a class="el" href="#a1ed5a4757fbcc9ea80e3ed92eff1c33f" title="appends whole or part of another mesh as separate connected component(s) to this optional">MR.Mesh.addMeshPart</a></span>. Parameter <span class="tt">flipOrientation</span> defaults to <span class="tt">false</span>. Parameter <span class="tt">thisContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">fromContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </td></tr>
+    <tr><td class="paramname">vacant</td><td>can be passed to copy elements not at the end, but over given ones, which the user guaranties to be free/lone </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>false if the given contours cannot be stitched, and this mesh is left unmodified then (the src2tgt mappings in (map) argument can be partially filled nevertheless) Generated from method <span class="tt"><a class="el" href="#a1ed5a4757fbcc9ea80e3ed92eff1c33f" title="appends whole or part of another mesh as separate connected component(s) to this optional">MR.Mesh.addMeshPart</a></span>. Parameter <span class="tt">flipOrientation</span> defaults to <span class="tt">false</span>. Parameter <span class="tt">thisContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">fromContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </dd></dl>
 
 </div>
 </div>
@@ -1133,7 +1131,7 @@ Additional Inherited Members</h2></td></tr>
 <p>packs tightly and rearranges vertices, triangles and edges to put close in space elements in close indices </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">preserveAABBTree</td><td>whether to keep valid mesh's AABB tree after return (it will take longer to compute and it will occupy more memory) Generated from method <span class="tt"><a class="el" href="#a57a1d23b8ef40eeaf0069cb2e09db3e6" title="packs tightly and rearranges vertices, triangles and edges to put close in space elements in close in...">MR.Mesh.packOptimally</a></span>. Parameter <span class="tt">preserveAABBTree</span> defaults to <span class="tt">true</span>. </td></tr>
+    <tr><td class="paramname">preserveAABBTree</td><td>whether to keep valid mesh's AABB tree after return (it will take longer to compute and it will occupy more memory); an already constructed tree is used for faster ordering of faces in any case Generated from method <span class="tt"><a class="el" href="#a57a1d23b8ef40eeaf0069cb2e09db3e6" title="packs tightly and rearranges vertices, triangles and edges to put close in space elements in close in...">MR.Mesh.packOptimally</a></span>. Parameter <span class="tt">preserveAABBTree</span> defaults to <span class="tt">true</span>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1167,8 +1165,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a6c3397a5f9b167c21f2ef11cdc2714bb" name="a6c3397a5f9b167c21f2ef11cdc2714bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c3397a5f9b167c21f2ef11cdc2714bb">&#9670;&#160;</a></span>splitEdge() <span class="overload">[1/2]</span></h2>
+<a id="ac03ffd6995e96fbdcd46968e3dbe3295" name="ac03ffd6995e96fbdcd46968e3dbe3295"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac03ffd6995e96fbdcd46968e3dbe3295">&#9670;&#160;</a></span>splitEdge() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1194,7 +1192,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1207,15 +1205,15 @@ Additional Inherited Members</h2></td></tr>
 <p>split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split) </p>
 <p>left and right faces of given edge if valid are also subdivided on two parts each; the split edge will keep both face IDs and their degrees, and the new edge will have new face IDs and new faces are triangular; if left or right faces of the original edge were in the region, then include new parts of these faces in the region </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <span class="tt"><a class="el" href="#a6c3397a5f9b167c21f2ef11cdc2714bb" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">MR.Mesh.splitEdge</a></span>. </td></tr>
+    <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <span class="tt"><a class="el" href="#ac03ffd6995e96fbdcd46968e3dbe3295" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">MR.Mesh.splitEdge</a></span>. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a8a2afbc970a0f369fc1ce22ecda09d99" name="a8a2afbc970a0f369fc1ce22ecda09d99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a2afbc970a0f369fc1ce22ecda09d99">&#9670;&#160;</a></span>splitEdge() <span class="overload">[2/2]</span></h2>
+<a id="a80564e08f476a1b849ca1c291b5e680f" name="a80564e08f476a1b849ca1c291b5e680f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80564e08f476a1b849ca1c291b5e680f">&#9670;&#160;</a></span>splitEdge() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1236,7 +1234,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1246,12 +1244,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from method <span class="tt"><a class="el" href="#a6c3397a5f9b167c21f2ef11cdc2714bb" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">MR.Mesh.splitEdge</a></span>. </p>
+<p>Generated from method <span class="tt"><a class="el" href="#ac03ffd6995e96fbdcd46968e3dbe3295" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">MR.Mesh.splitEdge</a></span>. </p>
 
 </div>
 </div>
-<a id="a7047e329fbec57254356a66c56e303a5" name="a7047e329fbec57254356a66c56e303a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7047e329fbec57254356a66c56e303a5">&#9670;&#160;</a></span>splitFace() <span class="overload">[1/2]</span></h2>
+<a id="ac415a01baf693c99e421cae57b2ad081" name="ac415a01baf693c99e421cae57b2ad081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac415a01baf693c99e421cae57b2ad081">&#9670;&#160;</a></span>splitFace() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1277,7 +1275,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1290,15 +1288,15 @@ Additional Inherited Members</h2></td></tr>
 <p>split given triangle on three triangles, introducing new vertex with given coordinates and connecting it to original triangle vertices; if region is given, then it must include (f) and new faces will be added there as well </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <span class="tt"><a class="el" href="#a7047e329fbec57254356a66c56e303a5" title="split given triangle on three triangles, introducing new vertex with given coordinates and connecting...">MR.Mesh.splitFace</a></span>. </td></tr>
+    <tr><td class="paramname">new2Old</td><td>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <span class="tt"><a class="el" href="#ac415a01baf693c99e421cae57b2ad081" title="split given triangle on three triangles, introducing new vertex with given coordinates and connecting...">MR.Mesh.splitFace</a></span>. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="afbb50d9e289a891a10226c90dd906a37" name="afbb50d9e289a891a10226c90dd906a37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbb50d9e289a891a10226c90dd906a37">&#9670;&#160;</a></span>splitFace() <span class="overload">[2/2]</span></h2>
+<a id="ade0e38a47c119bcf51e52ec60d1bb9a6" name="ade0e38a47c119bcf51e52ec60d1bb9a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade0e38a47c119bcf51e52ec60d1bb9a6">&#9670;&#160;</a></span>splitFace() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1319,7 +1317,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1329,7 +1327,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from method <span class="tt"><a class="el" href="#a7047e329fbec57254356a66c56e303a5" title="split given triangle on three triangles, introducing new vertex with given coordinates and connecting...">MR.Mesh.splitFace</a></span>. </p>
+<p>Generated from method <span class="tt"><a class="el" href="#ac415a01baf693c99e421cae57b2ad081" title="split given triangle on three triangles, introducing new vertex with given coordinates and connecting...">MR.Mesh.splitFace</a></span>. </p>
 
 </div>
 </div>
@@ -1365,8 +1363,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aa840c13d73b18aa3014201e05ffaf46e" name="aa840c13d73b18aa3014201e05ffaf46e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa840c13d73b18aa3014201e05ffaf46e">&#9670;&#160;</a></span>updateCaches()</h2>
+<a id="a82df6cc87a7a9ed397253a2ff13abc44" name="a82df6cc87a7a9ed397253a2ff13abc44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82df6cc87a7a9ed397253a2ff13abc44">&#9670;&#160;</a></span>updateCaches()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1377,7 +1375,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.Mesh.updateCaches </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>changedVerts</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>changedVerts</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1388,7 +1386,46 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to <a class="el" href="#a2456faa5acbeb85adca2cf5b496df684" title="invalidates caches (aabb-trees) after any change in mesh geometry or topology">invalidateCaches()</a> and following rebuild of trees Generated from method <span class="tt"><a class="el" href="#aa840c13d73b18aa3014201e05ffaf46e" title="updates existing caches in case of few vertices were changed insignificantly, and topology remained u...">MR.Mesh.updateCaches</a></span>. </p>
+<p>updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to <a class="el" href="#a2456faa5acbeb85adca2cf5b496df684" title="invalidates caches (aabb-trees) after any change in mesh geometry or topology">invalidateCaches()</a> and following rebuild of trees </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">changedVerts</td><td>vertices with modified coordinates, nullptr means all valid vertices Generated from method <span class="tt"><a class="el" href="#a82df6cc87a7a9ed397253a2ff13abc44" title="updates existing caches in case of few vertices were changed insignificantly, and topology remained u...">MR.Mesh.updateCaches</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a04d3d9d1f6cd6f27e8bbae4fd3182a3d" name="a04d3d9d1f6cd6f27e8bbae4fd3182a3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04d3d9d1f6cd6f27e8bbae4fd3182a3d">&#9670;&#160;</a></span>updateCachesAfterSplits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.Mesh.updateCachesAfterSplits </td>
+          <td>(</td>
+          <td class="paramtype">MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>updates existing caches after some faces were split into parts (e.g. by <a class="el" href="#ac415a01baf693c99e421cae57b2ad081" title="split given triangle on three triangles, introducing new vertex with given coordinates and connecting...">splitFace()</a> or <a class="el" href="#ac03ffd6995e96fbdcd46968e3dbe3295" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">splitEdge()</a>) with no other changes in the mesh; it shall be considered as a faster alternative to <a class="el" href="#a2456faa5acbeb85adca2cf5b496df684" title="invalidates caches (aabb-trees) after any change in mesh geometry or topology">invalidateCaches()</a> and following rebuild of AABB tree </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new2Old</td><td>maps every face appeared after the splits to the face it was split from (as filled by <a class="el" href="#ac415a01baf693c99e421cae57b2ad081" title="split given triangle on three triangles, introducing new vertex with given coordinates and connecting...">splitFace()</a> and <a class="el" href="#ac03ffd6995e96fbdcd46968e3dbe3295" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">splitEdge()</a>); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several updates would add the earlier faces to the tree once more Generated from method <span class="tt"><a class="el" href="#a04d3d9d1f6cd6f27e8bbae4fd3182a3d" title="updates existing caches after some faces were split into parts (e.g. by splitFace() or splitEdge()) w...">MR.Mesh.updateCachesAfterSplits</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

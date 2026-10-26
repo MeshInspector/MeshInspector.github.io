@@ -169,39 +169,42 @@ $(function(){initNavTree('index.html','',''); });
   </li>
 </ul>
 </div>
-<div class="textblock"><h2 class="doxsection"><a class="anchor" id="autotoc_md1"></a>
+<div class="textblock"><p><a class="anchor" id="mainpage"></a></p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md1"></a>
 Welcome to MeshLib’s documentation!</h2>
 <p>The MeshLib SDK is an open-source 3D geometry processing library designed to provide developers with a comprehensive toolkit for building robust 3D applications. Whether you are working in C++, Python, C#, or C, MeshLib offers a versatile, cross-platform solution available on Windows, macOS, and Linux, enabling the development of cutting-edge solutions with ease and precision.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md2"></a>
 Key Features</h2>
 <ul>
-<li><b>3D</b> <b>Data</b> <b>Handling:</b> Supports meshes, voxels, and point clouds for creation, modification, and conversion.</li>
-<li><b>Boolean</b> <b>Operations:</b> Fast, highly optimized mesh and voxel-based approaches.</li>
-<li><b>Mesh</b> <b>Fixing:</b> Includes removing self-intersections, filling holes, and component separation.</li>
-<li><b>Simplification</b> <b>&amp;</b> <b>Subdivision:</b> Optimize mesh complexity with decimation, remeshing, and subdivision.</li>
+<li><b>3D Data Handling:</b> Supports meshes, voxels, and point clouds for creation, modification, and conversion.</li>
+<li><b>Boolean Operations:</b> Fast, highly optimized mesh and voxel-based approaches.</li>
+<li><b>Mesh Fixing:</b> Includes removing self-intersections, filling holes, and component separation.</li>
+<li><b>Simplification &amp; Subdivision:</b> Optimize mesh complexity with decimation, remeshing, and subdivision.</li>
 <li><b>Offsets:</b> Multiple modes for precise surface thickness control, ideal for 3D printing and machining.</li>
 <li><b>Triangulation:</b> Accurate, fast conversion of point clouds to meshes with normal creation.</li>
 <li><b>ICP:</b> Precise mesh alignment using point-to-point and point-to-plane transformations.</li>
 <li><b>Segmentation:</b> Semi-automatic segmentation based on curvature for meshes and voxels.</li>
 <li><b>Deformations:</b> Supports Laplacian, freeform, and relax smoothing for fine mesh adjustments.</li>
-<li><b>Distance</b> <b>Maps</b> <b>&amp;</b> <b>Polylines:</b> Generate distance maps, iso-lines, and perform projection and intersection.</li>
+<li><b>Distance Maps &amp; Polylines:</b> Generate distance maps, iso-lines, and perform projection and intersection.</li>
 </ul>
 <p>Features illustration is available in <a href="https://meshlib.io/features/">the features section</a> or in the sections of this documentation.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md3"></a>
 Modern Applications</h2>
 <ul>
-<li><b>Automation</b>, <b>AI</b>, <b>and</b> <b>Robotics</b>. Essential for 3D scanning in robotics, AI, and autonomous systems, MeshLib enables real-time mesh processing for environment mapping, object detection, and path planning. Mesh repair tools prepare models by fixing holes and intersections, ideal for automated systems handling large datasets.</li>
-<li><b>Manufacturing</b> <b>and</b> <b>3D</b> <b>Printing</b>. MeshLib's Boolean operations and mesh offsetting ensure accuracy and manufacturability for 3D prints, optimizing models with decimation for industrial-scale applications.</li>
-<li><b>Dental</b> <b>Applications</b>. MeshLib provides specialized tools for dental workflows, offering precise mesh repair and customization for dental prosthetics, aligners, and implants. These capabilities ensure accurate, patient-specific designs ready for manufacturing.</li>
-<li><b>Game</b> <b>Development</b> <b>and</b> <b>VR</b>. Optimized for real-time rendering, MeshLib's simplification tools maintain visual quality, and Boolean operations allow dynamic model manipulation.</li>
-<li><b>Scientific</b> <b>Visualization</b> <b>and</b> <b>Medical</b> <b>Imaging</b>. MeshLib supports large datasets, crucial for scientific and medical visualization, with mesh repair and simplification for detailed, real-time models in fields like geophysics and medical planning.</li>
+<li><b>Automation, AI, and Robotics.</b> Essential for 3D scanning in robotics, AI, and autonomous systems, MeshLib enables real-time mesh processing for environment mapping, object detection, and path planning. Mesh repair tools prepare models by fixing holes and intersections, ideal for automated systems handling large datasets.</li>
+<li><b>Manufacturing and 3D Printing.</b> MeshLib's Boolean operations and mesh offsetting ensure accuracy and manufacturability for 3D prints, optimizing models with decimation for industrial-scale applications.</li>
+<li><b>Dental Applications.</b> MeshLib provides specialized tools for dental workflows, offering precise mesh repair and customization for dental prosthetics, aligners, and implants. These capabilities ensure accurate, patient-specific designs ready for manufacturing.</li>
+<li><b>Game Development and VR.</b> Optimized for real-time rendering, MeshLib's simplification tools maintain visual quality, and Boolean operations allow dynamic model manipulation.</li>
+<li><b>Scientific Visualization and Medical Imaging.</b> MeshLib supports large datasets, crucial for scientific and medical visualization, with mesh repair and simplification for detailed, real-time models in fields like geophysics and medical planning.</li>
 </ul>
 <p>See more <a href="https://meshlib.io/applications/">application examples</a>.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md4"></a>
 Getting Started</h2>
+<p>Before installing anything, you can try MeshLib in your browser: the <a href="https://demo.meshlib.io/">live demo</a> runs boolean operations, hole filling, decimation, and ICP registration.</p>
 <p>MeshLib SDK offers a simple installation process and extensive documentation to get you up and running quickly. Choose your preferred language, explore the available tutorials, and start creating with MeshLib!</p>
 <p>For Python users, install MeshLib via pip: </p><div class="fragment"><div class="line">pip install meshlib</div>
-</div><!-- fragment --><p>For C++, C#, and C developers, head to our <a class="el" href="InstallationGuide.html">Installation Guide</a> for more details on integrating MeshLib into your environment.</p>
+</div><!-- fragment --><p>For headless environments — servers, docker, CI — <span class="tt">pip install meshlib-core</span> provides everything except the interactive viewer at a about 30% smaller download.</p>
+<p>For C++, C#, and C developers, head to our <a class="el" href="InstallationGuide.html">Installation Guide</a> for more details on integrating MeshLib into your environment.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md5"></a>
 Tutorials</h2>
 <p>Explore <a class="el" href="Tutorials.html">MeshLib's tutorials</a> and <a class="el" href="Examples.html">code samples</a> to get started quickly and master advanced features.</p>

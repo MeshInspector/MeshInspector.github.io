@@ -112,6 +112,7 @@
     <member refid="classDecimateSettings_1ab9624fa8f6934304352dd1ff3911ed70" kind="variable"><name>maxAngleChange</name></member>
     <member refid="classDecimateSettings_1aa96cd5cc66f6d720735be71885284f72" kind="variable"><name>packMesh</name></member>
     <member refid="classDecimateSettings_1af6b0a7e07c35f8a3d11122338c6df4d8" kind="variable"><name>subdivideParts</name></member>
+    <member refid="classDecimateSettings_1a29a631b13da0279a667e3dcd4df1a75b" kind="variable"><name>partsMode</name></member>
     <member refid="classDecimateSettings_1a19532b4b6af7982ecfe4a4791ce59ab2" kind="variable"><name>decimateBetweenParts</name></member>
     <member refid="classDecimateSettings_1a64e16468367498643496bc6c212061bc" kind="variable"><name>minFacesInPart</name></member>
     <member refid="classDecimateSettings_1a52dd0d358a8f27e77b0cac76654357ad" kind="function"><name>DecimateSettings</name></member>
@@ -214,10 +215,11 @@
     <member refid="classGridToMeshSettings_1a67981600eb7dedd7cdff5370e7891543" kind="function"><name>GridToMeshSettings</name></member>
   </compound>
   <compound refid="classICP" kind="class"><name>ICP</name>
-    <member refid="classICP_1a09dbac28a63c296be59f1b6481271e8a" kind="function"><name>ICP</name></member>
-    <member refid="classICP_1a770878be33c4ff48b382d3b260b2eda6" kind="function"><name>ICP</name></member>
+    <member refid="classICP_1a4404c0fbed08c955df9e4b66f040a9d7" kind="function"><name>ICP</name></member>
+    <member refid="classICP_1a3de6447a8a6a272213c908991e2988e9" kind="function"><name>ICP</name></member>
     <member refid="classICP_1afa32833f0273c59aefc35f9257bc2389" kind="function"><name>setParams</name></member>
-    <member refid="classICP_1ab1b81df3f853d4084e5c5f2016c2f127" kind="function"><name>samplePoints</name></member>
+    <member refid="classICP_1a1aa6ac06ab188c6ad5f91c62cd5071be" kind="function"><name>samplePoints</name></member>
+    <member refid="classICP_1a30f002a3aa9c4481b34f432a04cf28cc" kind="function"><name>samplePoints</name></member>
     <member refid="classICP_1ac51b5db8da1b5e9d6768e0911c6bcb75" kind="function"><name>autoSelectFloatXf</name></member>
     <member refid="classICP_1a26937217ceae941d917ba5a0b02dc35c" kind="function"><name>updatePointPairs</name></member>
     <member refid="classICP_1a6b8aaa414a5049987b8d9e8a9b713fbf" kind="function"><name>getStatusInfo</name></member>
@@ -231,6 +233,7 @@
     <member refid="classICPProperties_1acb64007a3da8386169a98ce66b13e42c" kind="variable"><name>method</name></member>
     <member refid="classICPProperties_1a0fc13ba599026819af59e18e1c22e2cf" kind="variable"><name>p2plAngleLimit</name></member>
     <member refid="classICPProperties_1a918a5ac988471269899eb4105c2e10e9" kind="variable"><name>p2plScaleLimit</name></member>
+    <member refid="classICPProperties_1a51b358f243888b6cf83db958e296c41d" kind="variable"><name>p2plStabilizer</name></member>
     <member refid="classICPProperties_1afd4c01aedc5d186d0658cc710b5f6023" kind="variable"><name>cosThreshold</name></member>
     <member refid="classICPProperties_1af1cc741ae6539a672e74e518e433d16c" kind="variable"><name>distThresholdSq</name></member>
     <member refid="classICPProperties_1a64b3624c4ca62cb605f582ef821f815b" kind="variable"><name>farDistFactor</name></member>
@@ -272,6 +275,7 @@
     <member refid="classMesh_1a5405c2248e8f65367d31f253b1883e71" kind="function"><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
     <member refid="classMesh_1ac3c3547ec119da203c626a4aa601bc56" kind="function"><name>pack</name></member>
     <member refid="classMesh_1aed586a2285b09d1dfed0e38590449e7c" kind="function"><name>packOptimally</name></member>
+    <member refid="classMesh_1ae1bc43197a3d4b28091f90acf78cfdff" kind="function"><name>packOptimally</name></member>
     <member refid="classMesh_1a7bce69de1b3b56a1c71d2eaf4cda8c14" kind="function"><name>volume</name></member>
     <member refid="classMesh_1a75fdb3c699d2af450f9e78fb83624151" kind="function"><name>area</name></member>
     <member refid="classMesh_1a2cf432fa536128f395bfa8fb40a96973" kind="function"><name>computeBoundingBox</name></member>
@@ -653,6 +657,9 @@
     <member refid="bindings_8d_8mts_1aae3b7ed557d4233548d7966f0951e8fb" kind="enum"><name>DecimateStrategy</name></member>
     <member refid="bindings_8d_8mts_1aae3b7ed557d4233548d7966f0951e8fbac9f66cbc4953783cde6144ea9e4ea7fd" kind="enumvalue"><name>MinimizeError</name></member>
     <member refid="bindings_8d_8mts_1aae3b7ed557d4233548d7966f0951e8fba7dd8eb61d5d609641c4916ad48bd3726" kind="enumvalue"><name>ShortestEdgeFirst</name></member>
+    <member refid="bindings_8d_8mts_1ad1b68ac93afc03c8e0d5aae50bf2fa55" kind="enum"><name>DecimatePartsMode</name></member>
+    <member refid="bindings_8d_8mts_1ad1b68ac93afc03c8e0d5aae50bf2fa55ac06e02bb0595d709ea6cda74b40c838e" kind="enumvalue"><name>PackedMesh</name></member>
+    <member refid="bindings_8d_8mts_1ad1b68ac93afc03c8e0d5aae50bf2fa55ac70643a827f9368cbea9120720ba4e2d" kind="enumvalue"><name>AABBTree</name></member>
     <member refid="bindings_8d_8mts_1affcedbbb6a1acf807f0cfc008c6dbe11" kind="enum"><name>MultipleEdgesResolveMode</name></member>
     <member refid="bindings_8d_8mts_1affcedbbb6a1acf807f0cfc008c6dbe11ac7485dcc8d256a6f197ed7802687f252" kind="enumvalue"><name>None</name></member>
     <member refid="bindings_8d_8mts_1affcedbbb6a1acf807f0cfc008c6dbe11aebfbf7dc5cde0772efb1aa49712bd76b" kind="enumvalue"><name>Simple</name></member>
@@ -677,6 +684,7 @@
     <member refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aeafb35f6b4995c1c5fcf308006ac31f7b1" kind="enumvalue"><name>OpenVDB</name></member>
     <member refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aea89aba2570635eeaf58b335fcd90407bf" kind="enumvalue"><name>ProjectionNormal</name></member>
     <member refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aea5f44b72607792afaa4a0175adb4d929c" kind="enumvalue"><name>WindingRule</name></member>
+    <member refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aea7aed141052e1150ff2a1060fd6fb8734" kind="enumvalue"><name>OddCrossings</name></member>
     <member refid="bindings_8d_8mts_1a3a1c46c77f4561d4e907577f24e085aea831fd92e27f978a1573736876e7b0aa7" kind="enumvalue"><name>HoleWindingRule</name></member>
     <member refid="bindings_8d_8mts_1ad995f406d908cf33a64c3a0da079f906" kind="enum"><name>MeshToVolumeType</name></member>
     <member refid="bindings_8d_8mts_1ad995f406d908cf33a64c3a0da079f906aed3fa7a5efe80dad3ea3d86cc14be246" kind="enumvalue"><name>Signed</name></member>

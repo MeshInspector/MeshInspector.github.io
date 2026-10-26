@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -221,7 +214,7 @@ $(function(){initNavTree('MRStatePlugin_8h_source.html','',''); });
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga3e0c7bd65afe7b25c1f4be31e13ea0c5">  120</a></span>    std::string <a class="code hl_variable" href="group__GeneralGroup.html#ga3e0c7bd65afe7b25c1f4be31e13ea0c5">plugin_name</a>;</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga4a73edaf848e58004c9362f2ac6df049">  125</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#ga4a73edaf848e58004c9362f2ac6df049">ImGuiBeginWindow_</a>( <a class="code hl_struct" href="structImGui_1_1CustomStatePluginWindowParameters.html">ImGui::CustomStatePluginWindowParameters</a> params );</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga4a73edaf848e58004c9362f2ac6df049">  125</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#ga4a73edaf848e58004c9362f2ac6df049">ImGuiBeginWindow_</a>( <a class="code hl_struct" href="structImGui_1_1CustomStatePluginWindowParameters.html">ImGui::CustomStatePluginWindowParameters</a> <a class="code hl_variable" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a> );</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga9bd3dfb3cd43363f48a6b377b6eb33c9">  127</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#ga9bd3dfb3cd43363f48a6b377b6eb33c9">onEnable_</a>();</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga98563ce099c1b026abb38869a32f443f">  128</a></span>    MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#ga98563ce099c1b026abb38869a32f443f">onDisable_</a>();</div>
@@ -276,6 +269,7 @@ $(function(){initNavTree('MRStatePlugin_8h_source.html','',''); });
 <div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition</b> MRStatePlugin.h:139</div></div>
 <div class="ttc" id="aclassMR_1_1StateListenerPlugin_html_a881049c271f0ed1e696cc1d9dd7b19d9"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html#a881049c271f0ed1e696cc1d9dd7b19d9">MR::StateListenerPlugin::StateBasePlugin</a></div><div class="ttdeci">StateBasePlugin(std::string name, StatePluginTabs tab=StatePluginTabs::Other)</div></div>
 <div class="ttc" id="aclassMR_1_1ViewerPlugin_html"><div class="ttname"><a href="classMR_1_1ViewerPlugin.html">MR::ViewerPlugin</a></div><div class="ttdef"><b>Definition</b> MRViewerPlugin.h:30</div></div>
+<div class="ttc" id="agroup__DistanceMapGroup_html_ga5eb87f0ab1d7fca53c85caa95f287e69"><div class="ttname"><a href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">MR::params</a></div><div class="ttdeci">const ContourToDistanceMapParams &amp; params</div><div class="ttdef"><b>Definition</b> MRDistanceMap.h:254</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga0223aec29e05a326d4505029393e7608"><div class="ttname"><a href="group__GeneralGroup.html#ga0223aec29e05a326d4505029393e7608">MR::StateBasePlugin::setUIName</a></div><div class="ttdeci">void setUIName(std::string name)</div><div class="ttdoc">set plugin name that will be used for dialog in ImGuiBeginWindow_</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga048e8e117342f7faa6b17ef04c26b40d"><div class="ttname"><a href="group__GeneralGroup.html#ga048e8e117342f7faa6b17ef04c26b40d">MR::StateBasePlugin::enable</a></div><div class="ttdeci">virtual bool enable(bool on)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga14f462561c6d7534870cd58ca7bf20fb"><div class="ttname"><a href="group__GeneralGroup.html#ga14f462561c6d7534870cd58ca7bf20fb">MR::StateBasePlugin::UINameSuffix</a></div><div class="ttdeci">static const char * UINameSuffix()</div></div>
@@ -318,7 +312,7 @@ $(function(){initNavTree('MRStatePlugin_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_gga9228096dfb940b935e8dada25c4b0c37a6311ae17c1ee52b36e68aaf4ad066387"><div class="ttname"><a href="group__GeneralGroup.html#gga9228096dfb940b935e8dada25c4b0c37a6311ae17c1ee52b36e68aaf4ad066387">MR::StatePluginTabs::Other</a></div><div class="ttdeci">@ Other</div><div class="ttdef"><b>Definition</b> MRStatePlugin.h:70</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gga9228096dfb940b935e8dada25c4b0c37a739e6d2a73723ec7b1919fa5a51f9b07"><div class="ttname"><a href="group__GeneralGroup.html#gga9228096dfb940b935e8dada25c4b0c37a739e6d2a73723ec7b1919fa5a51f9b07">MR::StatePluginTabs::Analysis</a></div><div class="ttdeci">@ Analysis</div><div class="ttdef"><b>Definition</b> MRStatePlugin.h:68</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gga9228096dfb940b935e8dada25c4b0c37a972e73b7a882d0802a4e3a16946a2f94"><div class="ttname"><a href="group__GeneralGroup.html#gga9228096dfb940b935e8dada25c4b0c37a972e73b7a882d0802a4e3a16946a2f94">MR::StatePluginTabs::Basic</a></div><div class="ttdeci">@ Basic</div><div class="ttdef"><b>Definition</b> MRStatePlugin.h:62</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba6ff9dd0d34f65181173c1e4bc39939de"><div class="ttname"><a href="group__GeneralGroup.html#ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba6ff9dd0d34f65181173c1e4bc39939de">MR::ShortcutCategory::Selection</a></div><div class="ttdeci">@ Selection</div><div class="ttdef"><b>Definition</b> MRShortcutManager.h:37</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba6ff9dd0d34f65181173c1e4bc39939de"><div class="ttname"><a href="group__GeneralGroup.html#ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba6ff9dd0d34f65181173c1e4bc39939de">MR::ShortcutCategory::Selection</a></div><div class="ttdeci">@ Selection</div><div class="ttdef"><b>Definition</b> MRShortcutKey.h:31</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructImGui_1_1CustomStatePluginWindowParameters_html"><div class="ttname"><a href="structImGui_1_1CustomStatePluginWindowParameters.html">ImGui::CustomStatePluginWindowParameters</a></div><div class="ttdoc">Structure that contains parameters for State plugin window with custom style.</div><div class="ttdef"><b>Definition</b> ImGuiHelpers.h:181</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:24</div></div>

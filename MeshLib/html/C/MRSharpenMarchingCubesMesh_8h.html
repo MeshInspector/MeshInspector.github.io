@@ -143,7 +143,10 @@ $(function(){initNavTree('MRSharpenMarchingCubesMesh_8h.html','',''); });
   <div class="headertitle"><div class="title">MRSharpenMarchingCubesMesh.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="MRAffineXf_8h_source.html">MRCMesh/MRAffineXf.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRSharpenMarchingCubesMesh_8h_source.html">Go to the source code of this file.</a></p>
@@ -172,12 +175,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a2192d0e7c211da49081e30287360f01c" id="r_a2192d0e7c211da49081e30287360f01c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2192d0e7c211da49081e30287360f01c">MR_SharpenMarchingCubesMeshSettings_Get_posSelIters</a> (const <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this)</td></tr>
 <tr class="memitem:a3cb836753c677cf3774d22ce0ac7caed" id="r_a3cb836753c677cf3774d22ce0ac7caed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cb836753c677cf3774d22ce0ac7caed">MR_SharpenMarchingCubesMeshSettings_Set_posSelIters</a> (<a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this, int value)</td></tr>
 <tr class="memitem:ab0938d6b37495bd98ce236ab8f3c2e47" id="r_ab0938d6b37495bd98ce236ab8f3c2e47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0938d6b37495bd98ce236ab8f3c2e47">MR_SharpenMarchingCubesMeshSettings_GetMutable_posSelIters</a> (<a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this)</td></tr>
+<tr class="memitem:aef7755b445ea6718b41ca5bc3354e772" id="r_aef7755b445ea6718b41ca5bc3354e772"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef7755b445ea6718b41ca5bc3354e772">MR_SharpenMarchingCubesMeshSettings_Get_voxelClamp</a> (const <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this)</td></tr>
+<tr class="memitem:af6684aab7c01270759a4ff2990671d77" id="r_af6684aab7c01270759a4ff2990671d77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6684aab7c01270759a4ff2990671d77">MR_SharpenMarchingCubesMeshSettings_Set_voxelClamp</a> (<a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this, bool value)</td></tr>
+<tr class="memitem:ae9e7d440a3fb4545e52e1ce1e0e5a024" id="r_ae9e7d440a3fb4545e52e1ce1e0e5a024"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9e7d440a3fb4545e52e1ce1e0e5a024">MR_SharpenMarchingCubesMeshSettings_GetMutable_voxelClamp</a> (<a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this)</td></tr>
+<tr class="memitem:a4ac830d2f1453f1cc3c17811f859a922" id="r_a4ac830d2f1453f1cc3c17811f859a922"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ac830d2f1453f1cc3c17811f859a922">MR_SharpenMarchingCubesMeshSettings_Get_dims</a> (const <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this)</td></tr>
+<tr class="memitem:a5195961e44ecb6f31d198c20d728a633" id="r_a5195961e44ecb6f31d198c20d728a633"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5195961e44ecb6f31d198c20d728a633">MR_SharpenMarchingCubesMeshSettings_Set_dims</a> (<a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this, <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> value)</td></tr>
+<tr class="memitem:af7d1da23654d52f2133c47d5758438c9" id="r_af7d1da23654d52f2133c47d5758438c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7d1da23654d52f2133c47d5758438c9">MR_SharpenMarchingCubesMeshSettings_GetMutable_dims</a> (<a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this)</td></tr>
+<tr class="memitem:a74c766fe8a3050a475879bc7455b2fee" id="r_a74c766fe8a3050a475879bc7455b2fee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74c766fe8a3050a475879bc7455b2fee">MR_SharpenMarchingCubesMeshSettings_Get_gridToMeshXf</a> (const <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this)</td></tr>
+<tr class="memitem:ab4d55b7d4ce198148d20bf26b9b2d292" id="r_ab4d55b7d4ce198148d20bf26b9b2d292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4d55b7d4ce198148d20bf26b9b2d292">MR_SharpenMarchingCubesMeshSettings_Set_gridToMeshXf</a> (<a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> value)</td></tr>
+<tr class="memitem:af38c80c684616ebc562d4ae985f12a05" id="r_af38c80c684616ebc562d4ae985f12a05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af38c80c684616ebc562d4ae985f12a05">MR_SharpenMarchingCubesMeshSettings_GetMutable_gridToMeshXf</a> (<a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this)</td></tr>
 <tr class="memitem:af816b1f84f9f326a46515876615f7ca0" id="r_af816b1f84f9f326a46515876615f7ca0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af816b1f84f9f326a46515876615f7ca0">MR_SharpenMarchingCubesMeshSettings_Get_outSharpEdges</a> (const <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this)</td></tr>
 <tr class="memitem:aa36d0c1f25560e81610b14e380c205be" id="r_aa36d0c1f25560e81610b14e380c205be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa36d0c1f25560e81610b14e380c205be">MR_SharpenMarchingCubesMeshSettings_Set_outSharpEdges</a> (<a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
 <tr class="memitem:a782fe5d8f28da80e703df06548a4e28b" id="r_a782fe5d8f28da80e703df06548a4e28b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a782fe5d8f28da80e703df06548a4e28b">MR_SharpenMarchingCubesMeshSettings_GetMutable_outSharpEdges</a> (<a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_this)</td></tr>
 <tr class="memitem:a49a2aba7e0bb39b07e4e6842a73e44ea" id="r_a49a2aba7e0bb39b07e4e6842a73e44ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49a2aba7e0bb39b07e4e6842a73e44ea">MR_SharpenMarchingCubesMeshSettings_DefaultConstruct</a> (void)</td></tr>
 <tr class="memitem:a444f506eb364ebc9bc475def833c7e2b" id="r_a444f506eb364ebc9bc475def833c7e2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a444f506eb364ebc9bc475def833c7e2b">MR_SharpenMarchingCubesMeshSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a5adb29e31b9e585e4d1334eaf6240e42" id="r_a5adb29e31b9e585e4d1334eaf6240e42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5adb29e31b9e585e4d1334eaf6240e42">MR_SharpenMarchingCubesMeshSettings_ConstructFrom</a> (float minNewVertDev, float maxNewRank2VertDev, float maxNewRank3VertDev, float offset, float maxOldVertPosCorrection, int posSelIters, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *outSharpEdges)</td></tr>
+<tr class="memitem:a90b30a2a8197b29c7677020b805d2b9b" id="r_a90b30a2a8197b29c7677020b805d2b9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90b30a2a8197b29c7677020b805d2b9b">MR_SharpenMarchingCubesMeshSettings_ConstructFrom</a> (float minNewVertDev, float maxNewRank2VertDev, float maxNewRank3VertDev, float offset, float maxOldVertPosCorrection, int posSelIters, bool voxelClamp, <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> dims, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> gridToMeshXf, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *outSharpEdges)</td></tr>
 <tr class="memitem:a587d90e4a3835925acab6105abdbb1d8" id="r_a587d90e4a3835925acab6105abdbb1d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a587d90e4a3835925acab6105abdbb1d8">MR_SharpenMarchingCubesMeshSettings_OffsetPtr</a> (const <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:abcb083740befce324bfa579df104c1b8" id="r_abcb083740befce324bfa579df104c1b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcb083740befce324bfa579df104c1b8">MR_SharpenMarchingCubesMeshSettings_OffsetMutablePtr</a> (<a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a80f6450c6a7a68416aaea24e68568966" id="r_a80f6450c6a7a68416aaea24e68568966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80f6450c6a7a68416aaea24e68568966">MR_SharpenMarchingCubesMeshSettings_ConstructFromAnother</a> (const <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *_other)</td></tr>
@@ -266,8 +278,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5adb29e31b9e585e4d1334eaf6240e42" name="a5adb29e31b9e585e4d1334eaf6240e42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5adb29e31b9e585e4d1334eaf6240e42">&#9670;&#160;</a></span>MR_SharpenMarchingCubesMeshSettings_ConstructFrom()</h2>
+<a id="a90b30a2a8197b29c7677020b805d2b9b" name="a90b30a2a8197b29c7677020b805d2b9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90b30a2a8197b29c7677020b805d2b9b">&#9670;&#160;</a></span>MR_SharpenMarchingCubesMeshSettings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -305,11 +317,26 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>voxelClamp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3i.html">MR_Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>gridToMeshXf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>outSharpEdges</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <span class="tt">MR::SharpenMarchingCubesMeshSettings</span> elementwise. The reference to the parameter <span class="tt">outSharpEdges</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a06ffec8a82c4201715203b92cb01b0f1" title="Destroys a heap-allocated instance of MR_SharpenMarchingCubesMeshSettings. Does nothing if the pointe...">MR_SharpenMarchingCubesMeshSettings_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+<p>Constructs <span class="tt">MR::SharpenMarchingCubesMeshSettings</span> elementwise. The reference to the parameter <span class="tt">dims</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">gridToMeshXf</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">outSharpEdges</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a06ffec8a82c4201715203b92cb01b0f1" title="Destroys a heap-allocated instance of MR_SharpenMarchingCubesMeshSettings. Does nothing if the pointe...">MR_SharpenMarchingCubesMeshSettings_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -402,6 +429,42 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a4ac830d2f1453f1cc3c17811f859a922" name="a4ac830d2f1453f1cc3c17811f859a922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ac830d2f1453f1cc3c17811f859a922">&#9670;&#160;</a></span>MR_SharpenMarchingCubesMeshSettings_Get_dims()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> * MR_SharpenMarchingCubesMeshSettings_Get_dims </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Marching Cubes volume dimensions Returns a pointer to a member variable of class <span class="tt">MR::SharpenMarchingCubesMeshSettings</span> named <span class="tt">dims</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a74c766fe8a3050a475879bc7455b2fee" name="a74c766fe8a3050a475879bc7455b2fee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74c766fe8a3050a475879bc7455b2fee">&#9670;&#160;</a></span>MR_SharpenMarchingCubesMeshSettings_Get_gridToMeshXf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> * MR_SharpenMarchingCubesMeshSettings_Get_gridToMeshXf </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>transform from integer Marching Cubes grid locations to the mesh reference frame: the node with integer coordinates (i,j,k) is located in gridToMeshXf( Vector3f( i, j, k ) ) Returns a pointer to a member variable of class <span class="tt">MR::SharpenMarchingCubesMeshSettings</span> named <span class="tt">gridToMeshXf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -531,6 +594,60 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aef7755b445ea6718b41ca5bc3354e772" name="aef7755b445ea6718b41ca5bc3354e772"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef7755b445ea6718b41ca5bc3354e772">&#9670;&#160;</a></span>MR_SharpenMarchingCubesMeshSettings_Get_voxelClamp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_SharpenMarchingCubesMeshSettings_Get_voxelClamp </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel's box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped; requires dims and gridToMeshXf to be set Returns a pointer to a member variable of class <span class="tt">MR::SharpenMarchingCubesMeshSettings</span> named <span class="tt">voxelClamp</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="af7d1da23654d52f2133c47d5758438c9" name="af7d1da23654d52f2133c47d5758438c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d1da23654d52f2133c47d5758438c9">&#9670;&#160;</a></span>MR_SharpenMarchingCubesMeshSettings_GetMutable_dims()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> * MR_SharpenMarchingCubesMeshSettings_GetMutable_dims </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Marching Cubes volume dimensions Returns a mutable pointer to a member variable of class <span class="tt">MR::SharpenMarchingCubesMeshSettings</span> named <span class="tt">dims</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="af38c80c684616ebc562d4ae985f12a05" name="af38c80c684616ebc562d4ae985f12a05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af38c80c684616ebc562d4ae985f12a05">&#9670;&#160;</a></span>MR_SharpenMarchingCubesMeshSettings_GetMutable_gridToMeshXf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> * MR_SharpenMarchingCubesMeshSettings_GetMutable_gridToMeshXf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>transform from integer Marching Cubes grid locations to the mesh reference frame: the node with integer coordinates (i,j,k) is located in gridToMeshXf( Vector3f( i, j, k ) ) Returns a mutable pointer to a member variable of class <span class="tt">MR::SharpenMarchingCubesMeshSettings</span> named <span class="tt">gridToMeshXf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a9208c856c3d1c30fddc8f9d710e6b73f" name="a9208c856c3d1c30fddc8f9d710e6b73f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9208c856c3d1c30fddc8f9d710e6b73f">&#9670;&#160;</a></span>MR_SharpenMarchingCubesMeshSettings_GetMutable_maxNewRank2VertDev()</h2>
 
@@ -657,6 +774,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae9e7d440a3fb4545e52e1ce1e0e5a024" name="ae9e7d440a3fb4545e52e1ce1e0e5a024"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9e7d440a3fb4545e52e1ce1e0e5a024">&#9670;&#160;</a></span>MR_SharpenMarchingCubesMeshSettings_GetMutable_voxelClamp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_SharpenMarchingCubesMeshSettings_GetMutable_voxelClamp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel's box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped; requires dims and gridToMeshXf to be set Returns a mutable pointer to a member variable of class <span class="tt">MR::SharpenMarchingCubesMeshSettings</span> named <span class="tt">voxelClamp</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="abcb083740befce324bfa579df104c1b8" name="abcb083740befce324bfa579df104c1b8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcb083740befce324bfa579df104c1b8">&#9670;&#160;</a></span>MR_SharpenMarchingCubesMeshSettings_OffsetMutablePtr()</h2>
 
@@ -698,6 +833,50 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a5195961e44ecb6f31d198c20d728a633" name="a5195961e44ecb6f31d198c20d728a633"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5195961e44ecb6f31d198c20d728a633">&#9670;&#160;</a></span>MR_SharpenMarchingCubesMeshSettings_Set_dims()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SharpenMarchingCubesMeshSettings_Set_dims </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3i.html">MR_Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Marching Cubes volume dimensions Modifies a member variable of class <span class="tt">MR::SharpenMarchingCubesMeshSettings</span> named <span class="tt">dims</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">dims</span>. When this function is called, this object will drop object references it held previously in <span class="tt">dims</span>. </p>
+
+</div>
+</div>
+<a id="ab4d55b7d4ce198148d20bf26b9b2d292" name="ab4d55b7d4ce198148d20bf26b9b2d292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4d55b7d4ce198148d20bf26b9b2d292">&#9670;&#160;</a></span>MR_SharpenMarchingCubesMeshSettings_Set_gridToMeshXf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SharpenMarchingCubesMeshSettings_Set_gridToMeshXf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>transform from integer Marching Cubes grid locations to the mesh reference frame: the node with integer coordinates (i,j,k) is located in gridToMeshXf( Vector3f( i, j, k ) ) Modifies a member variable of class <span class="tt">MR::SharpenMarchingCubesMeshSettings</span> named <span class="tt">gridToMeshXf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">gridToMeshXf</span>. When this function is called, this object will drop object references it held previously in <span class="tt">gridToMeshXf</span>. </p>
 
 </div>
 </div>
@@ -852,6 +1031,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the number of iterations to best select positions for new vertices, the probability of self-intersections and spikes are higher if posSelIters = 0 Modifies a member variable of class <span class="tt">MR::SharpenMarchingCubesMeshSettings</span> named <span class="tt">posSelIters</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">posSelIters</span>. </p>
+
+</div>
+</div>
+<a id="af6684aab7c01270759a4ff2990671d77" name="af6684aab7c01270759a4ff2990671d77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6684aab7c01270759a4ff2990671d77">&#9670;&#160;</a></span>MR_SharpenMarchingCubesMeshSettings_Set_voxelClamp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SharpenMarchingCubesMeshSettings_Set_voxelClamp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a021d448f41f915e716465329ede33f3a">MR_SharpenMarchingCubesMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel's box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped; requires dims and gridToMeshXf to be set Modifies a member variable of class <span class="tt">MR::SharpenMarchingCubesMeshSettings</span> named <span class="tt">voxelClamp</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">voxelClamp</span>. </p>
 
 </div>
 </div>

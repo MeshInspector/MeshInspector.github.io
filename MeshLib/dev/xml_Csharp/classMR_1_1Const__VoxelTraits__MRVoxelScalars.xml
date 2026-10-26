@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VoxelTraits__MRVoxelScalars" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VoxelTraits_MRVoxelScalars</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VoxelTraits__MRVoxelScalars" prot="public" virt="non-virtual">MR.VoxelTraits_MRVoxelScalars</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1aff9cbdaf3a139e32c37ae7281ef8bb5d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_VoxelTraits_MRVoxelScalars.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VoxelTraits_MRVoxelScalars.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3531" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3531" bodyend="3537"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1aa7aeee2b9968cb3691256c6d333914fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_VoxelTraits_MRVoxelScalars.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VoxelTraits_MRVoxelScalars.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3538" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3538" bodyend="3538"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1a48c4825e1855a9069d2835ead714cbc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelTraits_MRVoxelScalars.Const_VoxelTraits_MRVoxelScalars</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VoxelTraits_MRVoxelScalars</name>
+        <qualifiedname>MR.Const_VoxelTraits_MRVoxelScalars.Const_VoxelTraits_MRVoxelScalars</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3546" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3546" bodyend="3549"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1af02879b0d4cc25c47b51abc920739a49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelTraits_MRVoxelScalars.Const_VoxelTraits_MRVoxelScalars</definition>
+        <argsstring>(MR.Const_VoxelTraits_MRVoxelScalars _other)</argsstring>
+        <name>Const_VoxelTraits_MRVoxelScalars</name>
+        <qualifiedname>MR.Const_VoxelTraits_MRVoxelScalars.Const_VoxelTraits_MRVoxelScalars</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelTraits__MRVoxelScalars" kindref="compound">MR.Const_VoxelTraits_MRVoxelScalars</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;lt;<ref refid="classMR_1_1VoxelScalars" kindref="compound">MR.VoxelScalars</ref>&amp;gt;::VoxelTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3554" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3554" bodyend="3558"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1a5fe70ad2d018b5c38a1f64e5738de0a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VoxelTraits_MRVoxelScalars.Const_VoxelTraits_MRVoxelScalars</definition>
+        <argsstring>(VoxelTraits_MRVoxelScalars _other)</argsstring>
+        <name>Const_VoxelTraits_MRVoxelScalars</name>
+        <qualifiedname>MR.Const_VoxelTraits_MRVoxelScalars.Const_VoxelTraits_MRVoxelScalars</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelTraits__MRVoxelScalars" kindref="compound">VoxelTraits_MRVoxelScalars</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;lt;<ref refid="classMR_1_1VoxelScalars" kindref="compound">MR.VoxelScalars</ref>&amp;gt;::VoxelTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3563" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3563" bodyend="3563"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1a65207e43829f9b913ab20a3587a4cd0f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VoxelTraits_MRVoxelScalars.~Const_VoxelTraits_MRVoxelScalars</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VoxelTraits_MRVoxelScalars</name>
+        <qualifiedname>MR.Const_VoxelTraits_MRVoxelScalars.~Const_VoxelTraits_MRVoxelScalars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3539" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3539" bodyend="3539"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1a7b58216ff6b4a4f82e02a014daba9424" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelTraits_MRVoxelScalars.Const_VoxelTraits_MRVoxelScalars</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VoxelTraits_MRVoxelScalars</name>
+        <qualifiedname>MR.Const_VoxelTraits_MRVoxelScalars.Const_VoxelTraits_MRVoxelScalars</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3541" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3541" bodyend="3541"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1a95efad2ea1bcac8c1ccc81cce7266c5d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelTraits_MRVoxelScalars._Underlying *</type>
+        <definition>static unsafe MR.VoxelTraits_MRVoxelScalars._Underlying * MR.Const_VoxelTraits_MRVoxelScalars.__MR_VoxelTraits_MR_VoxelScalars_ConstructFromAnother</definition>
+        <argsstring>(MR.VoxelTraits_MRVoxelScalars._Underlying *_other)</argsstring>
+        <name>__MR_VoxelTraits_MR_VoxelScalars_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_VoxelTraits_MRVoxelScalars.__MR_VoxelTraits_MR_VoxelScalars_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.VoxelTraits_MRVoxelScalars._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3568" column="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1afd74ff5f48e9f6698385ae0e86a4f2aa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelTraits_MRVoxelScalars._Underlying *</type>
+        <definition>static unsafe MR.VoxelTraits_MRVoxelScalars._Underlying * MR.Const_VoxelTraits_MRVoxelScalars.__MR_VoxelTraits_MR_VoxelScalars_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_VoxelTraits_MR_VoxelScalars_DefaultConstruct</name>
+        <qualifiedname>MR.Const_VoxelTraits_MRVoxelScalars.__MR_VoxelTraits_MR_VoxelScalars_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3571" column="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1a709920037ac8d9c474651548453e5d90" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_VoxelTraits_MRVoxelScalars.__MR_VoxelTraits_MR_VoxelScalars_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VoxelTraits_MR_VoxelScalars_Destroy</name>
+        <qualifiedname>MR.Const_VoxelTraits_MRVoxelScalars.__MR_VoxelTraits_MR_VoxelScalars_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3574" column="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::VoxelTraits&amp;lt;<ref refid="classMR_1_1VoxelScalars" kindref="compound">MR.VoxelScalars</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_VoxelTraits_MRVoxelScalars</label>
+        <link refid="classMR_1_1Const__VoxelTraits__MRVoxelScalars"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.VoxelTraits_MRVoxelScalars</label>
+        <link refid="classMR_1_1VoxelTraits__MRVoxelScalars"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_VoxelTraits_MRVoxelScalars</label>
+        <link refid="classMR_1_1Const__VoxelTraits__MRVoxelScalars"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3525" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3526" bodyend="3575"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1a95efad2ea1bcac8c1ccc81cce7266c5d" prot="private" virt="non-virtual"><scope>MR::Const_VoxelTraits_MRVoxelScalars</scope><name>__MR_VoxelTraits_MR_VoxelScalars_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1afd74ff5f48e9f6698385ae0e86a4f2aa" prot="private" virt="non-virtual"><scope>MR::Const_VoxelTraits_MRVoxelScalars</scope><name>__MR_VoxelTraits_MR_VoxelScalars_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1a709920037ac8d9c474651548453e5d90" prot="private" virt="non-virtual"><scope>MR::Const_VoxelTraits_MRVoxelScalars</scope><name>__MR_VoxelTraits_MR_VoxelScalars_Destroy</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1a7b58216ff6b4a4f82e02a014daba9424" prot="package" virt="non-virtual"><scope>MR::Const_VoxelTraits_MRVoxelScalars</scope><name>Const_VoxelTraits_MRVoxelScalars</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1a48c4825e1855a9069d2835ead714cbc9" prot="public" virt="non-virtual"><scope>MR::Const_VoxelTraits_MRVoxelScalars</scope><name>Const_VoxelTraits_MRVoxelScalars</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1af02879b0d4cc25c47b51abc920739a49" prot="public" virt="non-virtual"><scope>MR::Const_VoxelTraits_MRVoxelScalars</scope><name>Const_VoxelTraits_MRVoxelScalars</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1a5fe70ad2d018b5c38a1f64e5738de0a2" prot="public" virt="non-virtual"><scope>MR::Const_VoxelTraits_MRVoxelScalars</scope><name>Const_VoxelTraits_MRVoxelScalars</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1aff9cbdaf3a139e32c37ae7281ef8bb5d" prot="protected" virt="virtual"><scope>MR::Const_VoxelTraits_MRVoxelScalars</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1aa7aeee2b9968cb3691256c6d333914fa" prot="public" virt="virtual"><scope>MR::Const_VoxelTraits_MRVoxelScalars</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelScalars_1a65207e43829f9b913ab20a3587a4cd0f" prot="private" virt="non-virtual"><scope>MR::Const_VoxelTraits_MRVoxelScalars</scope><name>~Const_VoxelTraits_MRVoxelScalars</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

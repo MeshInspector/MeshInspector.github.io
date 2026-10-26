@@ -1,0 +1,683 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRRigidXfRansac_8h" kind="file" language="C++">
+    <compoundname>MRRigidXfRansac.h</compoundname>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRRigidXfRansac.h</label>
+        <link refid="MRRigidXfRansac_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" prot="public" static="no">
+        <type>struct <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref></type>
+        <definition>typedef struct MR_RigidXfRansacParams MR_RigidXfRansacParams</definition>
+        <argsstring></argsstring>
+        <name>MR_RigidXfRansacParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::RigidXfRansacParams</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="20" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a0e5e2aedb11cc3df8ffdda1cc7ce63eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_RigidXfRansacParams_Get_inlierDistance</definition>
+        <argsstring>(const MR_RigidXfRansacParams *_this)</argsstring>
+        <name>MR_RigidXfRansacParams_Get_inlierDistance</name>
+        <param>
+          <type>const <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a match is an inlier of a transformation if it maps the source point within this distance from the target point Returns a pointer to a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>inlierDistance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="27" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1aa0bdf206c441e3311e9491cd2edd80e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RigidXfRansacParams_Set_inlierDistance</definition>
+        <argsstring>(MR_RigidXfRansacParams *_this, float value)</argsstring>
+        <name>MR_RigidXfRansacParams_Set_inlierDistance</name>
+        <param>
+          <type><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a match is an inlier of a transformation if it maps the source point within this distance from the target point Modifies a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>inlierDistance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>inlierDistance</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="33" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="33" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a4b05eb0036d297eed0ad6a5bc9efb2ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_RigidXfRansacParams_GetMutable_inlierDistance</definition>
+        <argsstring>(MR_RigidXfRansacParams *_this)</argsstring>
+        <name>MR_RigidXfRansacParams_GetMutable_inlierDistance</name>
+        <param>
+          <type><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a match is an inlier of a transformation if it maps the source point within this distance from the target point Returns a mutable pointer to a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>inlierDistance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="40" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="40" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1ad75f5b6b1d15659ace5af87c096b09fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
+        <definition>MRC_API const int * MR_RigidXfRansacParams_Get_maxIterations</definition>
+        <argsstring>(const MR_RigidXfRansacParams *_this)</argsstring>
+        <name>MR_RigidXfRansacParams_Get_maxIterations</name>
+        <param>
+          <type>const <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the maximal number of random samples of three matches to test Returns a pointer to a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="47" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="47" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1ae0ce613b4de288ca7de1cc14843598cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RigidXfRansacParams_Set_maxIterations</definition>
+        <argsstring>(MR_RigidXfRansacParams *_this, int value)</argsstring>
+        <name>MR_RigidXfRansacParams_Set_maxIterations</name>
+        <param>
+          <type><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the maximal number of random samples of three matches to test Modifies a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxIterations</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1aea1bb551fdd6eeae3bfa271ebbdb9002" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
+        <definition>MRC_API int * MR_RigidXfRansacParams_GetMutable_maxIterations</definition>
+        <argsstring>(MR_RigidXfRansacParams *_this)</argsstring>
+        <name>MR_RigidXfRansacParams_GetMutable_maxIterations</name>
+        <param>
+          <type><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the maximal number of random samples of three matches to test Returns a mutable pointer to a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="60" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="60" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a1e4ba81c5ea61bdf05360b9bd1e85215" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_RigidXfRansacParams_Get_confidence</definition>
+        <argsstring>(const MR_RigidXfRansacParams *_this)</argsstring>
+        <name>MR_RigidXfRansacParams_Get_confidence</name>
+        <param>
+          <type>const <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the search stops earlier when the probability to have tested at least one sample of three inliers reaches this value Returns a pointer to a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>confidence</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="67" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="67" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1ad2d312afe6333f7bc8707c7128da3e68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RigidXfRansacParams_Set_confidence</definition>
+        <argsstring>(MR_RigidXfRansacParams *_this, float value)</argsstring>
+        <name>MR_RigidXfRansacParams_Set_confidence</name>
+        <param>
+          <type><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the search stops earlier when the probability to have tested at least one sample of three inliers reaches this value Modifies a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>confidence</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>confidence</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1ab3811df900491523041aeadfe58dfc8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_RigidXfRansacParams_GetMutable_confidence</definition>
+        <argsstring>(MR_RigidXfRansacParams *_this)</argsstring>
+        <name>MR_RigidXfRansacParams_GetMutable_confidence</name>
+        <param>
+          <type><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the search stops earlier when the probability to have tested at least one sample of three inliers reaches this value Returns a mutable pointer to a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>confidence</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="80" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="80" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a58234b326472933f1f7d10097adbfe9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_RigidXfRansacParams_Get_edgeLengthRatio</definition>
+        <argsstring>(const MR_RigidXfRansacParams *_this)</argsstring>
+        <name>MR_RigidXfRansacParams_Get_edgeLengthRatio</name>
+        <param>
+          <type>const <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a sample is skipped without fitting if the distances between its source points and between its target points differ more than this ratio, since a rigid motion keeps distances Returns a pointer to a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>edgeLengthRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="88" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="88" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1ad5dd21a2d3fa4b5f292a01d16295ad91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RigidXfRansacParams_Set_edgeLengthRatio</definition>
+        <argsstring>(MR_RigidXfRansacParams *_this, float value)</argsstring>
+        <name>MR_RigidXfRansacParams_Set_edgeLengthRatio</name>
+        <param>
+          <type><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a sample is skipped without fitting if the distances between its source points and between its target points differ more than this ratio, since a rigid motion keeps distances Modifies a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>edgeLengthRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>edgeLengthRatio</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a7f2c31aa6fa6eaeb6ae5daa27f31a9b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_RigidXfRansacParams_GetMutable_edgeLengthRatio</definition>
+        <argsstring>(MR_RigidXfRansacParams *_this)</argsstring>
+        <name>MR_RigidXfRansacParams_GetMutable_edgeLengthRatio</name>
+        <param>
+          <type><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a sample is skipped without fitting if the distances between its source points and between its target points differ more than this ratio, since a rigid motion keeps distances Returns a mutable pointer to a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>edgeLengthRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="103" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="103" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a495bb0b8b757fcdbf937df51911caff5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const unsigned int *</type>
+        <definition>MRC_API const unsigned int * MR_RigidXfRansacParams_Get_seed</definition>
+        <argsstring>(const MR_RigidXfRansacParams *_this)</argsstring>
+        <name>MR_RigidXfRansacParams_Get_seed</name>
+        <param>
+          <type>const <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>seed of pseudo-random sampling; the result depends on it but not on the number of threads Returns a pointer to a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>seed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="110" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="110" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1ac1d5e6c87ae646f35a673dbfedee5378" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RigidXfRansacParams_Set_seed</definition>
+        <argsstring>(MR_RigidXfRansacParams *_this, unsigned int value)</argsstring>
+        <name>MR_RigidXfRansacParams_Set_seed</name>
+        <param>
+          <type><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>seed of pseudo-random sampling; the result depends on it but not on the number of threads Modifies a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>seed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>seed</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>seed</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="117" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="117" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1ae8379b8b629abc3b0e783fb2f74ceffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> unsigned int *</type>
+        <definition>MRC_API unsigned int * MR_RigidXfRansacParams_GetMutable_seed</definition>
+        <argsstring>(MR_RigidXfRansacParams *_this)</argsstring>
+        <name>MR_RigidXfRansacParams_GetMutable_seed</name>
+        <param>
+          <type><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>seed of pseudo-random sampling; the result depends on it but not on the number of threads Returns a mutable pointer to a member variable of class <computeroutput>MR::RigidXfRansacParams</computeroutput> named <computeroutput>seed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="124" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="124" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a24d5157e40cbbfd04be43cb4b8aa7a89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+        <definition>MRC_API MR_RigidXfRansacParams * MR_RigidXfRansacParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_RigidXfRansacParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRigidXfRansac_8h_1aac7d55554dbafb23f2396380300c7a34" kindref="member">MR_RigidXfRansacParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="128" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="128" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a477854423b7dc8bc59c6514e407ed498" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+        <definition>MRC_API MR_RigidXfRansacParams * MR_RigidXfRansacParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_RigidXfRansacParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRRigidXfRansac_8h_1a34f6d701e62f7ad7289ba5d3d4fc4b97" kindref="member">MR_RigidXfRansacParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRRigidXfRansac_8h_1a1ef0d0a9072252c5077931d5df549584" kindref="member">MR_RigidXfRansacParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRRigidXfRansac_8h_1adc7855b64c23cd3fda90d91e359b2fe4" kindref="member">MR_RigidXfRansacParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="133" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="133" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a7dd226a1c0f6d036930fad2ef6f513f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+        <definition>MRC_API MR_RigidXfRansacParams * MR_RigidXfRansacParams_ConstructFrom</definition>
+        <argsstring>(float inlierDistance, int maxIterations, float confidence, float edgeLengthRatio, unsigned int seed)</argsstring>
+        <name>MR_RigidXfRansacParams_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>inlierDistance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIterations</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>confidence</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>edgeLengthRatio</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::RigidXfRansacParams</computeroutput> elementwise. The reference to the parameter <computeroutput>seed</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRigidXfRansac_8h_1aac7d55554dbafb23f2396380300c7a34" kindref="member">MR_RigidXfRansacParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="139" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="139" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1adc7855b64c23cd3fda90d91e359b2fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+        <definition>MRC_API const MR_RigidXfRansacParams * MR_RigidXfRansacParams_OffsetPtr</definition>
+        <argsstring>(const MR_RigidXfRansacParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RigidXfRansacParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="143" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="143" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a1ef0d0a9072252c5077931d5df549584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+        <definition>MRC_API MR_RigidXfRansacParams * MR_RigidXfRansacParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_RigidXfRansacParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RigidXfRansacParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="147" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="147" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a207aecec4e76990e5b529934ab615da9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+        <definition>MRC_API MR_RigidXfRansacParams * MR_RigidXfRansacParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_RigidXfRansacParams *_other)</argsstring>
+        <name>MR_RigidXfRansacParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::RigidXfRansacParams::RigidXfRansacParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRigidXfRansac_8h_1aac7d55554dbafb23f2396380300c7a34" kindref="member">MR_RigidXfRansacParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="153" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="153" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1aac7d55554dbafb23f2396380300c7a34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RigidXfRansacParams_Destroy</definition>
+        <argsstring>(const MR_RigidXfRansacParams *_this)</argsstring>
+        <name>MR_RigidXfRansacParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="156" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a34f6d701e62f7ad7289ba5d3d4fc4b97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RigidXfRansacParams_DestroyArray</definition>
+        <argsstring>(const MR_RigidXfRansacParams *_this)</argsstring>
+        <name>MR_RigidXfRansacParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1af607b285305c09bbff1cc5e7fae001e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+        <definition>MRC_API MR_RigidXfRansacParams * MR_RigidXfRansacParams_AssignFromAnother</definition>
+        <argsstring>(MR_RigidXfRansacParams *_this, const MR_RigidXfRansacParams *_other)</argsstring>
+        <name>MR_RigidXfRansacParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RigidXfRansacParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="167" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="167" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a9c69a5612c40f97d1a8523aa5479b60e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_countInliers</definition>
+        <argsstring>(const MR_VertCoords *srcPoints, const MR_VertCoords *tgtPoints, const MR_std_vector_std_pair_MR_VertId_MR_VertId *matches, const MR_AffineXf3f *xf, float inlierDistance)</argsstring>
+        <name>MR_countInliers</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>srcPoints</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>tgtPoints</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshFixer_8h_1a1682e01fece3508ee71854ce279dac6c" kindref="member">MR_std_vector_std_pair_MR_VertId_MR_VertId</ref> *</type>
+          <declname>matches</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inlierDistance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>counts the matches (source point, target point) that given transformation maps within given distance from their target points Generated from function <computeroutput>MR::countInliers</computeroutput>. Parameter <computeroutput>srcPoints</computeroutput> can not be null. It is a single object. Parameter <computeroutput>tgtPoints</computeroutput> can not be null. It is a single object. Parameter <computeroutput>matches</computeroutput> can not be null. It is a single object. Parameter <computeroutput>xf</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="175" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="175" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXfRansac_8h_1a4da3cbda79d0634cd5c70f540e3ca026" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFeatureRefine_8h_1a3cbb89d785ab27152bda514d59009cb5" kindref="member">MR_expected_MR_AffineXf3f_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_AffineXf3f_std_string * MR_findRigidXfRansac</definition>
+        <argsstring>(const MR_VertCoords *srcPoints, const MR_VertCoords *tgtPoints, const MR_std_vector_std_pair_MR_VertId_MR_VertId *matches, const MR_RigidXfRansacParams *params, const MR_std_function_bool_from_float *progress)</argsstring>
+        <name>MR_findRigidXfRansac</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>srcPoints</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>tgtPoints</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshFixer_8h_1a1682e01fece3508ee71854ce279dac6c" kindref="member">MR_std_vector_std_pair_MR_VertId_MR_VertId</ref> *</type>
+          <declname>matches</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Finds the rigid transformation of source points to target points from given matches, many of which can be wrong: tests the transformations through random samples of three matches and keeps the one with most inliers, then refines it by least squares fitting on all its inliers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>matches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(source point, target point) pairs, e.g. from findFPFHMatches(...) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>rigid transformation of source points to target points, or error if there are less than three matches, no consistent sample was found or progress returned false Generated from function <computeroutput>MR::findRigidXfRansac</computeroutput>. Parameter <computeroutput>srcPoints</computeroutput> can not be null. It is a single object. Parameter <computeroutput>tgtPoints</computeroutput> can not be null. It is a single object. Parameter <computeroutput>matches</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Parameter <computeroutput>progress</computeroutput> is a single object. Parameter <computeroutput>progress</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__AffineXf3f__std__string_8h_1ab285d861e8a02dce76b4a9601a1986ad" kindref="member">MR_expected_MR_AffineXf3f_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" line="191" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h" declline="191" declcolumn="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureRefine_8h_1a3cbb89d785ab27152bda514d59009cb5" kindref="member">MR_expected_MR_AffineXf3f_std_string</ref><sp/><ref refid="MRFeatureRefine_8h_1a3cbb89d785ab27152bda514d59009cb5" kindref="member">MR_expected_MR_AffineXf3f_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_AffineXf3f_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshFixer_8h_1a1682e01fece3508ee71854ce279dac6c" kindref="member">MR_std_vector_std_pair_MR_VertId_MR_VertId</ref><sp/><ref refid="MRMeshFixer_8h_1a1682e01fece3508ee71854ce279dac6c" kindref="member">MR_std_vector_std_pair_MR_VertId_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_pair_MR_VertId_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="MRRigidXfRansac_8h_1a0e5e2aedb11cc3df8ffdda1cc7ce63eb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidXfRansac_8h_1a0e5e2aedb11cc3df8ffdda1cc7ce63eb" kindref="member">MR_RigidXfRansacParams_Get_inlierDistance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRRigidXfRansac_8h_1aa0bdf206c441e3311e9491cd2edd80e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1aa0bdf206c441e3311e9491cd2edd80e7" kindref="member">MR_RigidXfRansacParams_Set_inlierDistance</ref>(<ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRRigidXfRansac_8h_1a4b05eb0036d297eed0ad6a5bc9efb2ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidXfRansac_8h_1a4b05eb0036d297eed0ad6a5bc9efb2ac" kindref="member">MR_RigidXfRansacParams_GetMutable_inlierDistance</ref>(<ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRRigidXfRansac_8h_1ad75f5b6b1d15659ace5af87c096b09fe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidXfRansac_8h_1ad75f5b6b1d15659ace5af87c096b09fe" kindref="member">MR_RigidXfRansacParams_Get_maxIterations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRRigidXfRansac_8h_1ae0ce613b4de288ca7de1cc14843598cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1ae0ce613b4de288ca7de1cc14843598cd" kindref="member">MR_RigidXfRansacParams_Set_maxIterations</ref>(<ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRRigidXfRansac_8h_1aea1bb551fdd6eeae3bfa271ebbdb9002" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidXfRansac_8h_1aea1bb551fdd6eeae3bfa271ebbdb9002" kindref="member">MR_RigidXfRansacParams_GetMutable_maxIterations</ref>(<ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="MRRigidXfRansac_8h_1a1e4ba81c5ea61bdf05360b9bd1e85215" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidXfRansac_8h_1a1e4ba81c5ea61bdf05360b9bd1e85215" kindref="member">MR_RigidXfRansacParams_Get_confidence</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRRigidXfRansac_8h_1ad2d312afe6333f7bc8707c7128da3e68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1ad2d312afe6333f7bc8707c7128da3e68" kindref="member">MR_RigidXfRansacParams_Set_confidence</ref>(<ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRRigidXfRansac_8h_1ab3811df900491523041aeadfe58dfc8e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidXfRansac_8h_1ab3811df900491523041aeadfe58dfc8e" kindref="member">MR_RigidXfRansacParams_GetMutable_confidence</ref>(<ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRRigidXfRansac_8h_1a58234b326472933f1f7d10097adbfe9b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidXfRansac_8h_1a58234b326472933f1f7d10097adbfe9b" kindref="member">MR_RigidXfRansacParams_Get_edgeLengthRatio</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRRigidXfRansac_8h_1ad5dd21a2d3fa4b5f292a01d16295ad91" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1ad5dd21a2d3fa4b5f292a01d16295ad91" kindref="member">MR_RigidXfRansacParams_Set_edgeLengthRatio</ref>(<ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRRigidXfRansac_8h_1a7f2c31aa6fa6eaeb6ae5daa27f31a9b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidXfRansac_8h_1a7f2c31aa6fa6eaeb6ae5daa27f31a9b5" kindref="member">MR_RigidXfRansacParams_GetMutable_edgeLengthRatio</ref>(<ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRRigidXfRansac_8h_1a495bb0b8b757fcdbf937df51911caff5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidXfRansac_8h_1a495bb0b8b757fcdbf937df51911caff5" kindref="member">MR_RigidXfRansacParams_Get_seed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRRigidXfRansac_8h_1ac1d5e6c87ae646f35a673dbfedee5378" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1ac1d5e6c87ae646f35a673dbfedee5378" kindref="member">MR_RigidXfRansacParams_Set_seed</ref>(<ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRRigidXfRansac_8h_1ae8379b8b629abc3b0e783fb2f74ceffb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidXfRansac_8h_1ae8379b8b629abc3b0e783fb2f74ceffb" kindref="member">MR_RigidXfRansacParams_GetMutable_seed</ref>(<ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRRigidXfRansac_8h_1a24d5157e40cbbfd04be43cb4b8aa7a89" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*<ref refid="MRRigidXfRansac_8h_1a24d5157e40cbbfd04be43cb4b8aa7a89" kindref="member">MR_RigidXfRansacParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRRigidXfRansac_8h_1a477854423b7dc8bc59c6514e407ed498" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*<ref refid="MRRigidXfRansac_8h_1a477854423b7dc8bc59c6514e407ed498" kindref="member">MR_RigidXfRansacParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRRigidXfRansac_8h_1a7dd226a1c0f6d036930fad2ef6f513f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*<ref refid="MRRigidXfRansac_8h_1a7dd226a1c0f6d036930fad2ef6f513f1" kindref="member">MR_RigidXfRansacParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>inlierDistance,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxIterations,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>confidence,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>edgeLengthRatio,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>seed);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRRigidXfRansac_8h_1adc7855b64c23cd3fda90d91e359b2fe4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*<ref refid="MRRigidXfRansac_8h_1adc7855b64c23cd3fda90d91e359b2fe4" kindref="member">MR_RigidXfRansacParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRRigidXfRansac_8h_1a1ef0d0a9072252c5077931d5df549584" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*<ref refid="MRRigidXfRansac_8h_1a1ef0d0a9072252c5077931d5df549584" kindref="member">MR_RigidXfRansacParams_OffsetMutablePtr</ref>(<ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRRigidXfRansac_8h_1a207aecec4e76990e5b529934ab615da9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*<ref refid="MRRigidXfRansac_8h_1a207aecec4e76990e5b529934ab615da9" kindref="member">MR_RigidXfRansacParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRRigidXfRansac_8h_1aac7d55554dbafb23f2396380300c7a34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1aac7d55554dbafb23f2396380300c7a34" kindref="member">MR_RigidXfRansacParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRRigidXfRansac_8h_1a34f6d701e62f7ad7289ba5d3d4fc4b97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a34f6d701e62f7ad7289ba5d3d4fc4b97" kindref="member">MR_RigidXfRansacParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRRigidXfRansac_8h_1af607b285305c09bbff1cc5e7fae001e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*<ref refid="MRRigidXfRansac_8h_1af607b285305c09bbff1cc5e7fae001e0" kindref="member">MR_RigidXfRansacParams_AssignFromAnother</ref>(<ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="MRRigidXfRansac_8h_1a9c69a5612c40f97d1a8523aa5479b60e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a9c69a5612c40f97d1a8523aa5479b60e" kindref="member">MR_countInliers</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*srcPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*tgtPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFixer_8h_1a1682e01fece3508ee71854ce279dac6c" kindref="member">MR_std_vector_std_pair_MR_VertId_MR_VertId</ref><sp/>*matches,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>inlierDistance);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MRRigidXfRansac_8h_1a4da3cbda79d0634cd5c70f540e3ca026" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFeatureRefine_8h_1a3cbb89d785ab27152bda514d59009cb5" kindref="member">MR_expected_MR_AffineXf3f_std_string</ref><sp/>*<ref refid="MRRigidXfRansac_8h_1a4da3cbda79d0634cd5c70f540e3ca026" kindref="member">MR_findRigidXfRansac</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*srcPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*tgtPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshFixer_8h_1a1682e01fece3508ee71854ce279dac6c" kindref="member">MR_std_vector_std_pair_MR_VertId_MR_VertId</ref><sp/>*matches,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXfRansac_8h_1a5c5e15869ffc7bfaef10e08933a68fa8" kindref="member">MR_RigidXfRansacParams</ref><sp/>*params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidXfRansac.h"/>
+  </compounddef>
+</doxygen>

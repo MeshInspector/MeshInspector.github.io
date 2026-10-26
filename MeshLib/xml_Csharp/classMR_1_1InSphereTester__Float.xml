@@ -131,6 +131,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="167" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="167" bodyend="181"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1InSphereTester__Float_1ad5cfce5d6a7083232ce778f55a097f4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.InSphereTester_Float.flip</definition>
+        <argsstring>()</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR.InSphereTester_Float.flip</qualifiedname>
+        <briefdescription>
+<para>swaps the points b and c, which selects the mirror sphere with the center on the other side of plane abc, and gives exactly the state of reset( a, c, b, rSq ) without recomputing anything: only the normal w changes there, and W, M, E are symmetric in b and c; shall be called only after <ref refid="classMR_1_1InSphereTester__Float_1a9ad2969faf525d22d216027aabfe6560" kindref="member">reset()</ref> returned true Generated from method <computeroutput>MR::InSphereTester&amp;lt;float&amp;gt;<ref refid="classMR_1_1InSphereTester__Float_1ad5cfce5d6a7083232ce778f55a097f4f" kindref="member">flip</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="190" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="190" bodyend="195"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
 <para>accelerates testing of many query points against one sphere given by the same three points and radius, pre-computing all the point-independent quantities once; the primary template works for floating-point T with the same case analysis as the precise specialization for int below, so the answers for the query points near the sphere's surface are subject to rounding errors, and OnSphere is returned only on the exact equality in the comparisons; the products inside have degree 16 in coordinates, so to avoid overflows any difference of two given points' coordinates as well as sqrt(rSq) must be below ~100 for T=float and ~1e18 for T=double; the one-call inSphere functions are implemented via this class Generated from class <computeroutput>MR::InSphereTester&amp;lt;float&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
@@ -181,7 +196,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="117" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="118" bodyend="182"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" line="117" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInSphere.cs" bodystart="118" bodyend="196"/>
     <listofallmembers>
       <member refid="classMR_1_1InSphereTester__Float_1a61f41e7c043e5348588495ba595a6853" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__InSphereTester__Float_1ac098810c57be168e145f148d0093ceee" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>call</name></member>
@@ -191,6 +206,7 @@
       <member refid="classMR_1_1Const__InSphereTester__Float_1a65f3ac1a6e84f3864892c2ce4a74d3d7" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>Const_InSphereTester_Float</name></member>
       <member refid="classMR_1_1Const__InSphereTester__Float_1af11edf499198124d9e84481f3bbad20d" prot="protected" virt="virtual"><scope>MR::InSphereTester_Float</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__InSphereTester__Float_1ad8b358ac77feac8f4b71be75f296ec34" prot="public" virt="virtual"><scope>MR::InSphereTester_Float</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1InSphereTester__Float_1ad5cfce5d6a7083232ce778f55a097f4f" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>flip</name></member>
       <member refid="classMR_1_1InSphereTester__Float_1a80a5c00c5dea8d5cf5e4384eb0651414" prot="package" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>InSphereTester_Float</name></member>
       <member refid="classMR_1_1InSphereTester__Float_1aadd34d466fe42f64435e4d78bd5c9d22" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>InSphereTester_Float</name></member>
       <member refid="classMR_1_1InSphereTester__Float_1a6259859ebb4fa8e0aae41593671393d0" prot="public" virt="non-virtual"><scope>MR::InSphereTester_Float</scope><name>InSphereTester_Float</name></member>

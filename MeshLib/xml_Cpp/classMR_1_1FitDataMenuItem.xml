@@ -3,7 +3,7 @@
   <compounddef id="classMR_1_1FitDataMenuItem" kind="class" language="C++" prot="public">
     <compoundname>MR::FitDataMenuItem</compoundname>
     <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
-    <includes refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includes>
+    <includes refid="MRSceneControlMenuItems_8h" local="no">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga5ece3d38ce2753b84d1bc92efed82fdf" kind="function"><name>FitDataMenuItem</name></member>
       <member refid="group__GeneralGroup_1ga1e842984bba308a1465a05732ef8f5d3" kind="function"><name>action</name></member>

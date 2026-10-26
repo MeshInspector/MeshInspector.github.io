@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -181,8 +174,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a279ff469a91d980e1203fa25f4cea29d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if further edge forest growth is impossible Generated from method <span class="tt"><a class="el" href="#a279ff469a91d980e1203fa25f4cea29d" title="returns true if further edge forest growth is impossible Generated from method MR....">MR.EdgePathsAStarBuilder.done</a></span>.  <br /></td></tr>
 <tr class="memitem:a1a4bad2f611b5a2b5aa574e21e17a25f" id="r_a1a4bad2f611b5a2b5aa574e21e17a25f"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a4bad2f611b5a2b5aa574e21e17a25f">doneDistance</a> ()</td></tr>
 <tr class="memdesc:a1a4bad2f611b5a2b5aa574e21e17a25f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns path length till the next candidate vertex or maximum float value if all vertices have been reached Generated from method <span class="tt"><a class="el" href="#a1a4bad2f611b5a2b5aa574e21e17a25f" title="returns path length till the next candidate vertex or maximum float value if all vertices have been r...">MR.EdgePathsAStarBuilder.doneDistance</a></span>.  <br /></td></tr>
-<tr class="memitem:a7f48a4de9023c59029c18b10f7126452" id="r_a7f48a4de9023c59029c18b10f7126452"><td class="memItemLeft" align="right" valign="top">unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f48a4de9023c59029c18b10f7126452">vertPathInfoMap</a> ()</td></tr>
-<tr class="memdesc:a7f48a4de9023c59029c18b10f7126452"><td class="mdescLeft">&#160;</td><td class="mdescRight">gives read access to the map from vertex to path to it Generated from method <span class="tt"><a class="el" href="#a7f48a4de9023c59029c18b10f7126452" title="gives read access to the map from vertex to path to it Generated from method MR.EdgePathsAStarBuilder...">MR.EdgePathsAStarBuilder.vertPathInfoMap</a></span>.  <br /></td></tr>
+<tr class="memitem:a61eea7143a42ba7c4487928c8bcbba93" id="r_a61eea7143a42ba7c4487928c8bcbba93"><td class="memItemLeft" align="right" valign="top">unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertPathInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61eea7143a42ba7c4487928c8bcbba93">vertPathInfoMap</a> ()</td></tr>
+<tr class="memdesc:a61eea7143a42ba7c4487928c8bcbba93"><td class="mdescLeft">&#160;</td><td class="mdescRight">gives read access to the map from vertex to path to it Generated from method <span class="tt"><a class="el" href="#a61eea7143a42ba7c4487928c8bcbba93" title="gives read access to the map from vertex to path to it Generated from method MR.EdgePathsAStarBuilder...">MR.EdgePathsAStarBuilder.vertPathInfoMap</a></span>.  <br /></td></tr>
 <tr class="memitem:ae9bbcf006153a23303d5ac62d5522870" id="r_ae9bbcf006153a23303d5ac62d5522870"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__VertPathInfo.html">Const_VertPathInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9bbcf006153a23303d5ac62d5522870">getVertInfo</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v)</td></tr>
 <tr class="memdesc:ae9bbcf006153a23303d5ac62d5522870"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns one element from the map (or nullptr if the element is missing) Generated from method <span class="tt"><a class="el" href="#ae9bbcf006153a23303d5ac62d5522870" title="returns one element from the map (or nullptr if the element is missing) Generated from method MR....">MR.EdgePathsAStarBuilder.getVertInfo</a></span>.  <br /></td></tr>
 <tr class="memitem:a1e68bdbfeccdb9c9be22e81408a6aaa3" id="r_a1e68bdbfeccdb9c9be22e81408a6aaa3"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e68bdbfeccdb9c9be22e81408a6aaa3">getPathBack</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> backpathStart)</td></tr>
@@ -569,8 +562,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7f48a4de9023c59029c18b10f7126452" name="a7f48a4de9023c59029c18b10f7126452"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f48a4de9023c59029c18b10f7126452">&#9670;&#160;</a></span>vertPathInfoMap()</h2>
+<a id="a61eea7143a42ba7c4487928c8bcbba93" name="a61eea7143a42ba7c4487928c8bcbba93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61eea7143a42ba7c4487928c8bcbba93">&#9670;&#160;</a></span>vertPathInfoMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -579,7 +572,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo MR.Const_EdgePathsAStarBuilder.vertPathInfoMap </td>
+          <td class="memname">unsafe MR.Phmap.Const_FlatHashMap_MRVertId_MRVertPathInfo_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdMRVertPathInfo MR.Const_EdgePathsAStarBuilder.vertPathInfoMap </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -592,7 +585,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>gives read access to the map from vertex to path to it Generated from method <span class="tt"><a class="el" href="#a7f48a4de9023c59029c18b10f7126452" title="gives read access to the map from vertex to path to it Generated from method MR.EdgePathsAStarBuilder...">MR.EdgePathsAStarBuilder.vertPathInfoMap</a></span>. </p>
+<p>gives read access to the map from vertex to path to it Generated from method <span class="tt"><a class="el" href="#a61eea7143a42ba7c4487928c8bcbba93" title="gives read access to the map from vertex to path to it Generated from method MR.EdgePathsAStarBuilder...">MR.EdgePathsAStarBuilder.vertPathInfoMap</a></span>. </p>
 
 </div>
 </div>

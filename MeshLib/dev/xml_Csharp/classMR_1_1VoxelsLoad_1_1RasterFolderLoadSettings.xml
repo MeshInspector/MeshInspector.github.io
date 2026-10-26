@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::VoxelsLoad::RasterFolderLoadSettings</compoundname>
+    <basecompoundref refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings" prot="public" virt="non-virtual">MR.VoxelsLoad.Const_RasterFolderLoadSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a7f27a0d58f9771b910b1dffe8f6990a9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Filesystem.Path</type>
+        <definition>new unsafe MR.Std.Filesystem.Path MR.VoxelsLoad.RasterFolderLoadSettings.dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.dir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="399" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="399" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a7d66f930142b087c4f589c3bd76f987d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.VoxelsLoad.RasterFolderLoadSettings.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="401" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a3740b71ac6f6e60a1c4cd7b0f197a8f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1_1VoxelsLoad_1af64deb00cdf3c350831376933237e335" kindref="member">MR.VoxelsLoad.GridType</ref></type>
+        <definition>new unsafe ref MR.VoxelsLoad.GridType MR.VoxelsLoad.RasterFolderLoadSettings.gridType</definition>
+        <argsstring></argsstring>
+        <name>gridType</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.gridType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="403" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1afcbe568c71d69df12a955422dcad24a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_Bool_From_Float</type>
+        <definition>new unsafe MR.Std.Function_Bool_From_Float MR.VoxelsLoad.RasterFolderLoadSettings.cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="405" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="405" bodyend="405"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1acf8d19c878132bd1029a668337f90e75" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>RasterFolderLoadSettings</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="427" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="427" bodyend="431"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a385b8f0df5ddd7d48786dde3b18d6408" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</definition>
+        <argsstring>()</argsstring>
+        <name>RasterFolderLoadSettings</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="437" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="437" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a5bdfba9a8b6723df0a17a11228497b16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</definition>
+        <argsstring>(string dir, MR.Vector3f voxelSize, MR.VoxelsLoad.GridType gridType, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
+        <name>RasterFolderLoadSettings</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1af64deb00cdf3c350831376933237e335" kindref="member">MR.VoxelsLoad.GridType</ref></type>
+          <declname>gridType</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" kindref="compound">MR.VoxelsLoad.RasterFolderLoadSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="446" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="446" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a5d87a1d42f0028faace103d60d1b073e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</definition>
+        <argsstring>(MR.VoxelsLoad._ByValue_RasterFolderLoadSettings _other)</argsstring>
+        <name>RasterFolderLoadSettings</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</qualifiedname>
+        <param>
+          <type>MR.VoxelsLoad._ByValue_RasterFolderLoadSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a385b8f0df5ddd7d48786dde3b18d6408" kindref="member">MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="460" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="460" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a985a612759ea77c3fa67ec5afede73d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</definition>
+        <argsstring>(Const_RasterFolderLoadSettings _other)</argsstring>
+        <name>RasterFolderLoadSettings</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings" kindref="compound">Const_RasterFolderLoadSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a385b8f0df5ddd7d48786dde3b18d6408" kindref="member">MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="470" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="470" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a5c1cdf449d83ef1037b04cfb12226019" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</definition>
+        <argsstring>(RasterFolderLoadSettings _other)</argsstring>
+        <name>RasterFolderLoadSettings</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" kindref="compound">RasterFolderLoadSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a385b8f0df5ddd7d48786dde3b18d6408" kindref="member">MR.VoxelsLoad.RasterFolderLoadSettings.RasterFolderLoadSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="475" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="475" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1afcc05302eef1271b27eb884658a89e54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" kindref="compound">MR.VoxelsLoad.RasterFolderLoadSettings</ref></type>
+        <definition>unsafe MR.VoxelsLoad.RasterFolderLoadSettings MR.VoxelsLoad.RasterFolderLoadSettings.assign</definition>
+        <argsstring>(MR.VoxelsLoad._ByValue_RasterFolderLoadSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.assign</qualifiedname>
+        <param>
+          <type>MR.VoxelsLoad._ByValue_RasterFolderLoadSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="480" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="480" bodyend="485"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a048ca302bd7d7570c9de98fcc1976cfa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelsLoad.RasterFolderLoadSettings._Underlying *</type>
+        <definition>static unsafe MR.VoxelsLoad.RasterFolderLoadSettings._Underlying * MR.VoxelsLoad.RasterFolderLoadSettings.__MR_VoxelsLoad_RasterFolderLoadSettings_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.VoxelsLoad.RasterFolderLoadSettings._Underlying *_other)</argsstring>
+        <name>__MR_VoxelsLoad_RasterFolderLoadSettings_AssignFromAnother</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.__MR_VoxelsLoad_RasterFolderLoadSettings_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.VoxelsLoad.RasterFolderLoadSettings._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="490" column="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1ad330ae0a6f785cfc79bf18b92c2ae8c7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelsLoad.RasterFolderLoadSettings._Underlying *</type>
+        <definition>static unsafe MR.VoxelsLoad.RasterFolderLoadSettings._Underlying * MR.VoxelsLoad.RasterFolderLoadSettings.__MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFrom</definition>
+        <argsstring>(byte *dir, byte *dir_end, MR.Vector3f voxelSize, MR.VoxelsLoad.GridType gridType, MR.Misc._PassBy cb_pass_by, MR.Std.Function_Bool_From_Float._Underlying *cb)</argsstring>
+        <name>__MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFrom</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.__MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFrom</qualifiedname>
+        <param>
+          <type>byte *</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>dir_end</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1af64deb00cdf3c350831376933237e335" kindref="member">MR.VoxelsLoad.GridType</ref></type>
+          <declname>gridType</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="493" column="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1af48c8149e105eb26e249783e02ef1761" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelsLoad.RasterFolderLoadSettings._Underlying *</type>
+        <definition>static unsafe MR.VoxelsLoad.RasterFolderLoadSettings._Underlying * MR.VoxelsLoad.RasterFolderLoadSettings.__MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.VoxelsLoad.RasterFolderLoadSettings._Underlying *_other)</argsstring>
+        <name>__MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFromAnother</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.__MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.VoxelsLoad.RasterFolderLoadSettings._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="496" column="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a31653c97cd5ba0063de413a0d72ccbfa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelsLoad.RasterFolderLoadSettings._Underlying *</type>
+        <definition>static unsafe MR.VoxelsLoad.RasterFolderLoadSettings._Underlying * MR.VoxelsLoad.RasterFolderLoadSettings.__MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstruct</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.__MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="499" column="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a3e0acda449b69f20af4b334048cbe688" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Function_Bool_From_Float._Underlying *</type>
+        <definition>static unsafe MR.Std.Function_Bool_From_Float._Underlying * MR.VoxelsLoad.RasterFolderLoadSettings.__MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_cb</definition>
+        <argsstring>(MR.VoxelsLoad.RasterFolderLoadSettings._Underlying *_this)</argsstring>
+        <name>__MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_cb</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.__MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_cb</qualifiedname>
+        <param>
+          <type>MR.VoxelsLoad.RasterFolderLoadSettings._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="502" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a993863c21d3d2d00563770d0ac0b913c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Filesystem.Path._Underlying *</type>
+        <definition>static unsafe MR.Std.Filesystem.Path._Underlying * MR.VoxelsLoad.RasterFolderLoadSettings.__MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_dir</definition>
+        <argsstring>(MR.VoxelsLoad.RasterFolderLoadSettings._Underlying *_this)</argsstring>
+        <name>__MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_dir</name>
+        <qualifiedname>MR.VoxelsLoad.RasterFolderLoadSettings.__MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_dir</qualifiedname>
+        <param>
+          <type>MR.VoxelsLoad.RasterFolderLoadSettings._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="505" column="65"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" kindref="compound">MR.VoxelsLoad.RasterFolderLoadSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.VoxelsLoad.RasterFolderLoadSettings</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.VoxelsLoad.Const_RasterFolderLoadSettings</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.VoxelsLoad.RasterFolderLoadSettings</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="2">
+        <label>MR.VoxelsLoad.Const_RasterFolderLoadSettings</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_gridType</edgelabel>
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="397" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="398" bodyend="506"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a048ca302bd7d7570c9de98fcc1976cfa" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>__MR_VoxelsLoad_RasterFolderLoadSettings_AssignFromAnother</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1ad330ae0a6f785cfc79bf18b92c2ae8c7" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>__MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFrom</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1af48c8149e105eb26e249783e02ef1761" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>__MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a31653c97cd5ba0063de413a0d72ccbfa" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>__MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstruct</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a3e0acda449b69f20af4b334048cbe688" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>__MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_cb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a993863c21d3d2d00563770d0ac0b913c" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>__MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_dir</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a656698790c99b476e68c70398e4f17a0" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>__ref_storage_gridType</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a35093889339a91da761eb4dde0aef03a" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1afcc05302eef1271b27eb884658a89e54" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1afcbe568c71d69df12a955422dcad24a1" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>cb</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a515b1939959b0e17d2e4d52be5a32953" prot="package" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>Const_RasterFolderLoadSettings</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a4d561f3b32f0337fcc43ab2254fb94ca" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>Const_RasterFolderLoadSettings</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a6a9a53a72afc1645722ba7afb3f4a542" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>Const_RasterFolderLoadSettings</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1aea94ff613da658ba097aebf40f87e370" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>Const_RasterFolderLoadSettings</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1abf6c1f13e9e9f7a605a2cfd02a103bb9" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>Const_RasterFolderLoadSettings</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1aba689b9b98504d41a06ea91aafbe1ab0" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>Const_RasterFolderLoadSettings</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a7f27a0d58f9771b910b1dffe8f6990a9" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>dir</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1af3246b142ad4f21dc2bc9a9d51d774ad" prot="protected" virt="virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a90603d32b4d2f1c0d53d658c1f82ff53" prot="public" virt="virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a3740b71ac6f6e60a1c4cd7b0f197a8f7" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>gridType</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1acf8d19c878132bd1029a668337f90e75" prot="package" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>RasterFolderLoadSettings</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a385b8f0df5ddd7d48786dde3b18d6408" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>RasterFolderLoadSettings</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a5bdfba9a8b6723df0a17a11228497b16" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>RasterFolderLoadSettings</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a5d87a1d42f0028faace103d60d1b073e" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>RasterFolderLoadSettings</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a985a612759ea77c3fa67ec5afede73d4" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>RasterFolderLoadSettings</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a5c1cdf449d83ef1037b04cfb12226019" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>RasterFolderLoadSettings</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a7d66f930142b087c4f589c3bd76f987d" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -148,12 +141,19 @@ $(function(){initNavTree('MRPointsToDistanceVolume_8h.html','',''); });
 <code>#include &quot;<a class="el" href="MRDistanceVolumeParams_8h_source.html">MRDistanceVolumeParams.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRMesh/MRExpected.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRPointCloud_8h_source.html">MRMesh/MRPointCloud.h</a>&quot;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 </div>
 <p><a href="MRPointsToDistanceVolume_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3APointsToDistanceVolumeParams" id="r_MR_3A_3APointsToDistanceVolumeParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">MR::PointsToDistanceVolumeParams</a></td></tr>
+<tr class="memitem:MR_3A_3AIComputePointsToDistanceVolume" id="r_MR_3A_3AIComputePointsToDistanceVolume"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">MR::IComputePointsToDistanceVolume</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">abstract class for computing a volume of signed distances to points with normals  <a href="classMR_1_1IComputePointsToDistanceVolume.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AIComputePointsToDistanceVolumeByParts" id="r_MR_3A_3AIComputePointsToDistanceVolumeByParts"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IComputePointsToDistanceVolumeByParts.html">MR::IComputePointsToDistanceVolumeByParts</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">complements <a class="el" href="classMR_1_1IComputePointsToDistanceVolume.html">IComputePointsToDistanceVolume</a> with computation in z-slabs, which needs less memory  <a href="classMR_1_1IComputePointsToDistanceVolumeByParts.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AIComputePointsToDistanceFunctionVolume" id="r_MR_3A_3AIComputePointsToDistanceFunctionVolume"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IComputePointsToDistanceFunctionVolume.html">MR::IComputePointsToDistanceFunctionVolume</a></td></tr>
+<tr class="memitem:MR_3A_3AComputePointsToDistanceVolume" id="r_MR_3A_3AComputePointsToDistanceVolume"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ComputePointsToDistanceVolume.html">MR::ComputePointsToDistanceVolume</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -162,11 +162,11 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga70392e4bbce2674ece793e6e25a120ca" id="r_ga70392e4bbce2674ece793e6e25a120ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga70392e4bbce2674ece793e6e25a120ca">MR::pointsToDistanceVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params)</td></tr>
+<tr class="memitem:ga70392e4bbce2674ece793e6e25a120ca" id="r_ga70392e4bbce2674ece793e6e25a120ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; SimpleVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga70392e4bbce2674ece793e6e25a120ca">MR::pointsToDistanceVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>)</td></tr>
 <tr class="memdesc:ga70392e4bbce2674ece793e6e25a120ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes SimpleVolume filled with signed distances to points with normals  <br /></td></tr>
-<tr class="memitem:ga815886dfa1babcbedc85b059e1e66fec" id="r_ga815886dfa1babcbedc85b059e1e66fec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga5874284dcde0853181cfc5bf3366981d">FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga815886dfa1babcbedc85b059e1e66fec">MR::pointsToDistanceFunctionVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;params)</td></tr>
+<tr class="memitem:ga815886dfa1babcbedc85b059e1e66fec" id="r_ga815886dfa1babcbedc85b059e1e66fec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga5874284dcde0853181cfc5bf3366981d">FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga815886dfa1babcbedc85b059e1e66fec">MR::pointsToDistanceFunctionVolume</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>)</td></tr>
 <tr class="memdesc:ga815886dfa1babcbedc85b059e1e66fec"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes FunctionVolume representing signed distances to points with normals  <br /></td></tr>
-<tr class="memitem:ga43c5eff589bf8b66beca99dac171b10c" id="r_ga43c5eff589bf8b66beca99dac171b10c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertColors &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga43c5eff589bf8b66beca99dac171b10c">MR::calcAvgColors</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const VertColors &amp;colors, const VertCoords &amp;tgtPoints, const VertBitSet &amp;tgtVerts, float sigma, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memitem:ga43c5eff589bf8b66beca99dac171b10c" id="r_ga43c5eff589bf8b66beca99dac171b10c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertColors &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga43c5eff589bf8b66beca99dac171b10c">MR::calcAvgColors</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const VertColors &amp;colors, const VertCoords &amp;tgtPoints, const VertBitSet &amp;tgtVerts, float sigma, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

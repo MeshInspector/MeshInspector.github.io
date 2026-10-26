@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib JavaScript Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -160,7 +153,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a4cc99d5a11ef64f5accb9469688a10b5" id="r_a4cc99d5a11ef64f5accb9469688a10b5"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cc99d5a11ef64f5accb9469688a10b5">critAngle</a></td></tr>
 <tr class="memdesc:a4cc99d5a11ef64f5accb9469688a10b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value)  <br /></td></tr>
 <tr class="memitem:a89820552c5f4f0bbe45a56036c565cf5" id="r_a89820552c5f4f0bbe45a56036c565cf5"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89820552c5f4f0bbe45a56036c565cf5">critHoleLength</a></td></tr>
-<tr class="memdesc:a89820552c5f4f0bbe45a56036c565cf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical length of hole (all holes with length less then this value will be filled)  <br /></td></tr>
+<tr class="memdesc:a89820552c5f4f0bbe45a56036c565cf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical length of hole (all holes with perimeter up to this value will be filled)  <br /></td></tr>
 <tr class="memitem:ae21cb1f67a74087ae9f3e1fddc74d048" id="r_ae21cb1f67a74087ae9f3e1fddc74d048"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb">boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae21cb1f67a74087ae9f3e1fddc74d048">automaticRadiusIncrease</a></td></tr>
 <tr class="memdesc:ae21cb1f67a74087ae9f3e1fddc74d048"><td class="mdescLeft">&#160;</td><td class="mdescRight">automatic increase of the radius if points outside can make triangles from original radius not-Delone  <br /></td></tr>
 </table>
@@ -230,8 +223,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Critical length of hole (all holes with length less then this value will be filled) </p>
-<p>If value is subzero it is set automaticly to 0.7*bbox.diagonal() </p>
+<p>Critical length of hole (all holes with perimeter up to this value will be filled) </p>
+<p>If value is negative, it is set automatically to 0.1 * (bounding box diagonal of the point cloud) </p>
 
 </div>
 </div>

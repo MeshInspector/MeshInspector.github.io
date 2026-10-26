@@ -1,0 +1,1258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__map__std__filesystem__path__std__string_8h" kind="file" language="C++">
+    <compoundname>std_map_std_filesystem_path_std_string.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_map_std_filesystem_path_std_string.h</label>
+        <link refid="std__map__std__filesystem__path__std__string_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__map__std__filesystem__path__std__string_8h_1af60dcc33e537eaac5db7b54cb3ce3b9e" prot="public" static="no">
+        <type>struct <ref refid="std__map__std__filesystem__path__std__string_8h_1af60dcc33e537eaac5db7b54cb3ce3b9e" kindref="member">MR_std_pair_const_std_filesystem_path_std_string</ref></type>
+        <definition>typedef struct MR_std_pair_const_std_filesystem_path_std_string MR_std_pair_const_std_filesystem_path_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_std_pair_const_std_filesystem_path_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores two objects: <computeroutput>const std::filesystem::path</computeroutput> and <computeroutput>const std::filesystem::path</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="14" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" prot="public" static="no">
+        <type>struct <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref></type>
+        <definition>typedef struct MR_std_map_std_filesystem_path_std_string_const_iterator MR_std_map_std_filesystem_path_std_string_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="24" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" prot="public" static="no">
+        <type>struct <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref></type>
+        <definition>typedef struct MR_std_map_std_filesystem_path_std_string_iterator MR_std_map_std_filesystem_path_std_string_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="28" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a535cac814a5d2c7e05304491a73d9b30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string * MR_std_map_std_filesystem_path_std_string_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1ad8b8e1b12bcc635b418575a273901d95" kindref="member">MR_std_map_std_filesystem_path_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="32" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="32" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a7db5e7b8fc903e9c9141093ee7ef8ad8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string * MR_std_map_std_filesystem_path_std_string_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a905aedccb35ff2c145f82f2f7730a3c8" kindref="member">MR_std_map_std_filesystem_path_std_string_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a95d12384b42a49eb2a60cf72f51b23f1" kindref="member">MR_std_map_std_filesystem_path_std_string_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a63c5d06763747761914bfe4a4f1ad12f" kindref="member">MR_std_map_std_filesystem_path_std_string_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="37" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="37" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a3af24dc2e942781d0bcc58d35a3e4f74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string * MR_std_map_std_filesystem_path_std_string_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_map_std_filesystem_path_std_string *other)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1ad8b8e1b12bcc635b418575a273901d95" kindref="member">MR_std_map_std_filesystem_path_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="43" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="43" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a0ab88486891ff0aed9390909059c47aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_AssignFromAnother</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string *_this, MR_PassBy other_pass_by, MR_std_map_std_filesystem_path_std_string *other)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1ad8b8e1b12bcc635b418575a273901d95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_Destroy</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a905aedccb35ff2c145f82f2f7730a3c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_DestroyArray</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="55" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a63c5d06763747761914bfe4a4f1ad12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_map_std_filesystem_path_std_string * MR_std_map_std_filesystem_path_std_string_OffsetPtr</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="59" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="59" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a95d12384b42a49eb2a60cf72f51b23f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string * MR_std_map_std_filesystem_path_std_string_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="63" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="63" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a2ef626dd43b3733d9a2a048fd4137fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_map_std_filesystem_path_std_string_size</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_size</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="67" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="67" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1aecd9c1f7bdf63332056032af93697ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_map_std_filesystem_path_std_string_empty</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_empty</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="71" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a318a3943526b6545a398cc5054dff9fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_clear</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_clear</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="76" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="76" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a683fa023cd964d68bfda33dbfcbd8e05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_std_map_std_filesystem_path_std_string_find_or_construct_elem</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string *_this, const char *key, const char *key_end)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_find_or_construct_elem</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element with the specific key. If it doesn&apos;t exist, creates it first. Acts like map&apos;s <computeroutput>operator[]</computeroutput> in C++. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>key</computeroutput> is a UTF-8 encoded filesystem path. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="83" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="83" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a8f5cf8ac009b9e7b6bdd14135bc02a53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_map_std_filesystem_path_std_string_contains</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string *_this, const char *key, const char *key_end)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_contains</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the contain contains this key. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>key</computeroutput> is a UTF-8 encoded filesystem path. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="88" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="88" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1aa20922401ac4caf9452ad145cbf6618e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_const_iterator * MR_std_map_std_filesystem_path_std_string_find</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string *_this, const char *key, const char *key_end)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_find</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the element by key, or returns the end iterator if no such key. Returns a read-only iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>key</computeroutput> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1aeef648c982cb833f980b807302863c6f" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="95" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="95" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a7e7d5cdd9294fdd2190a7173310a1a2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_iterator * MR_std_map_std_filesystem_path_std_string_find_mut</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string *_this, const char *key, const char *key_end)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_find_mut</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the element by key, or returns the end iterator if no such key. Returns a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>key</computeroutput> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a3d208cae54703858b662a1a8d64232cb" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="102" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="102" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a65a14275f4bc3ba0512bd99378afac11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_const_iterator * MR_std_map_std_filesystem_path_std_string_begin</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_begin</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1aeef648c982cb833f980b807302863c6f" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="108" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="108" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a886b76af45bc3e490b03ecb6834e9ecc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_map_std_filesystem_path_std_string_is_begin</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string *_this, const MR_std_map_std_filesystem_path_std_string_const_iterator *iter)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_is_begin</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="113" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="113" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a15c49b292b1dee5cdd1f51ccc7145700" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_iterator * MR_std_map_std_filesystem_path_std_string_begin_mut</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_begin_mut</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a3d208cae54703858b662a1a8d64232cb" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="119" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="119" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a31c1862c8c09e6f9c6e52c3ca04ba745" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_map_std_filesystem_path_std_string_is_begin_mut</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string *_this, const MR_std_map_std_filesystem_path_std_string_iterator *iter)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="124" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="124" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a017163c8ad1c7c30fb8865e4b84de7d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_const_iterator * MR_std_map_std_filesystem_path_std_string_end</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_end</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1aeef648c982cb833f980b807302863c6f" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="130" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="130" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a4441b9b3fc917ed708b38124e98623cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_map_std_filesystem_path_std_string_is_end</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string *_this, const MR_std_map_std_filesystem_path_std_string_const_iterator *iter)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_is_end</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="135" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="135" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a4bda11da9b8cb092c516ee5b3dfbaa66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_iterator * MR_std_map_std_filesystem_path_std_string_end_mut</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_end_mut</name>
+        <param>
+          <type><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a3d208cae54703858b662a1a8d64232cb" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="141" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="141" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a64b0799e9694e11de9fe38d5fc001db9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_map_std_filesystem_path_std_string_is_end_mut</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string *_this, const MR_std_map_std_filesystem_path_std_string_iterator *iter)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="146" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="146" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a121db33d7e6ac45c15d26c90d78c6fad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_const_iterator * MR_std_map_std_filesystem_path_std_string_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1aeef648c982cb833f980b807302863c6f" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="150" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="150" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a49ca82dc2e3a38cc4467085beac9be1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_const_iterator * MR_std_map_std_filesystem_path_std_string_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1ac7ef6b6aefbb4dc48c77e6f8e7163a34" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a4354c0994ff94c773d1c79b0bd719846" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a5c1afa79542e9bff1bfe050692d94773" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="155" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="155" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a627eb3dd7321b7e196f2f3f592025c5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_const_iterator * MR_std_map_std_filesystem_path_std_string_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_const_iterator *other)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1aeef648c982cb833f980b807302863c6f" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="162" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="162" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1af55e30860ec148a6118fe289d1850537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string_const_iterator *_this, const MR_std_map_std_filesystem_path_std_string_const_iterator *other)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="169" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="169" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1aeef648c982cb833f980b807302863c6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="172" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="172" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1ac7ef6b6aefbb4dc48c77e6f8e7163a34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="175" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="175" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a5c1afa79542e9bff1bfe050692d94773" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_map_std_filesystem_path_std_string_const_iterator * MR_std_map_std_filesystem_path_std_string_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="179" column="72" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="179" declcolumn="72"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a4354c0994ff94c773d1c79b0bd719846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_const_iterator * MR_std_map_std_filesystem_path_std_string_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="183" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="183" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1adc81c24b104f123c3046147bd3bea6bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_const_iterator * MR_std_map_std_filesystem_path_std_string_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_iterator *iter)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1aeef648c982cb833f980b807302863c6f" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="188" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="188" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a457039b06b2627de927c0cd416fad752" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_iterator * MR_std_map_std_filesystem_path_std_string_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a3d208cae54703858b662a1a8d64232cb" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="192" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="192" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a2846b5fa003c46f30768d3cd1116c992" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_iterator * MR_std_map_std_filesystem_path_std_string_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a9d494095ea216ddc8a64eebe4d283f02" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1aa9ef28a85365582f3714c97a812c58db" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a66a992fded4af76b2da37becdcb97800" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="197" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="197" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a9cd9a82829f7e68666702b05885e12a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_iterator * MR_std_map_std_filesystem_path_std_string_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_iterator *other)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1a3d208cae54703858b662a1a8d64232cb" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="204" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="204" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1ada38031527ec4c47195f0ffe8b2ca132" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string_iterator *_this, const MR_std_map_std_filesystem_path_std_string_iterator *other)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="211" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a3d208cae54703858b662a1a8d64232cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_iterator_Destroy</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="214" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="214" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a9d494095ea216ddc8a64eebe4d283f02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="217" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="217" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a66a992fded4af76b2da37becdcb97800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_map_std_filesystem_path_std_string_iterator * MR_std_map_std_filesystem_path_std_string_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="221" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="221" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1aa9ef28a85365582f3714c97a812c58db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+        <definition>MRC_API MR_std_map_std_filesystem_path_std_string_iterator * MR_std_map_std_filesystem_path_std_string_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="225" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="225" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a5eda37cdad88a77ab472486ad010fdd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__map__std__filesystem__path__std__string_8h_1af60dcc33e537eaac5db7b54cb3ce3b9e" kindref="member">MR_std_pair_const_std_filesystem_path_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_pair_const_std_filesystem_path_std_string * MR_std_map_std_filesystem_path_std_string_const_iterator_deref</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="231" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="231" declcolumn="64"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a88dfaf1557db7693d2972cfe22a29340" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
+        <definition>MRC_API const MR_std_filesystem_path * MR_std_map_std_filesystem_path_std_string_const_iterator_deref_key</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_deref_key</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator, returning the key. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="237" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="237" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a1c5561b085b23be177122640bf4300d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_std_map_std_filesystem_path_std_string_const_iterator_deref_value</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_deref_value</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator, returning the mapped value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="243" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="243" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1ad17013247dea1ed0320e8a19364b78fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_const_iterator_incr</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="247" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a707bbf1cd40f6bf33436fb66f85c5928" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_const_iterator_decr</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a7c43776402203c6138ce7a3bc4c1c6b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_map_std_filesystem_path_std_string_const_iterator</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_const_iterator *a, const MR_std_map_std_filesystem_path_std_string_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_map_std_filesystem_path_std_string_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="256" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="256" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1af162601adbb9893625ff9139e082efae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__map__std__filesystem__path__std__string_8h_1af60dcc33e537eaac5db7b54cb3ce3b9e" kindref="member">MR_std_pair_const_std_filesystem_path_std_string</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_std_filesystem_path_std_string * MR_std_map_std_filesystem_path_std_string_iterator_deref</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="262" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="262" declcolumn="58"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a695672ebdd00dc7cb7d165211fdf63e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
+        <definition>MRC_API const MR_std_filesystem_path * MR_std_map_std_filesystem_path_std_string_iterator_deref_key</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator_deref_key</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator, returning the key. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="268" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="268" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1aadb6d3c1fc67d4c1333e2471337f9b2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_std_map_std_filesystem_path_std_string_iterator_deref_value</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator_deref_value</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator, returning the mapped value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="274" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="274" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a6f0973a17e80f836c52ddee2d297ce78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_iterator_incr</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator_incr</name>
+        <param>
+          <type><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="278" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="278" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a84cab0577cf53a3913a7e65bd76c3bef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_map_std_filesystem_path_std_string_iterator_decr</definition>
+        <argsstring>(MR_std_map_std_filesystem_path_std_string_iterator *_this)</argsstring>
+        <name>MR_std_map_std_filesystem_path_std_string_iterator_decr</name>
+        <param>
+          <type><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="282" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="282" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__map__std__filesystem__path__std__string_8h_1a4add5fcd4c7a31c1a117745e74e4ed92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_map_std_filesystem_path_std_string_iterator</definition>
+        <argsstring>(const MR_std_map_std_filesystem_path_std_string_iterator *a, const MR_std_map_std_filesystem_path_std_string_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_map_std_filesystem_path_std_string_iterator</name>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" line="287" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h" declline="287" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="std__map__std__filesystem__path__std__string_8h_1af60dcc33e537eaac5db7b54cb3ce3b9e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__map__std__filesystem__path__std__string_8h_1af60dcc33e537eaac5db7b54cb3ce3b9e" kindref="member">MR_std_pair_const_std_filesystem_path_std_string</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1af60dcc33e537eaac5db7b54cb3ce3b9e" kindref="member">MR_std_pair_const_std_filesystem_path_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_const_std_filesystem_path_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="std__map__std__filesystem__path__std__string_8h_1a535cac814a5d2c7e05304491a73d9b30" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a535cac814a5d2c7e05304491a73d9b30" kindref="member">MR_std_map_std_filesystem_path_std_string_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="std__map__std__filesystem__path__std__string_8h_1a7db5e7b8fc903e9c9141093ee7ef8ad8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a7db5e7b8fc903e9c9141093ee7ef8ad8" kindref="member">MR_std_map_std_filesystem_path_std_string_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="std__map__std__filesystem__path__std__string_8h_1a3af24dc2e942781d0bcc58d35a3e4f74" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a3af24dc2e942781d0bcc58d35a3e4f74" kindref="member">MR_std_map_std_filesystem_path_std_string_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__map__std__filesystem__path__std__string_8h_1a0ab88486891ff0aed9390909059c47aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a0ab88486891ff0aed9390909059c47aa" kindref="member">MR_std_map_std_filesystem_path_std_string_AssignFromAnother</ref>(<ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__map__std__filesystem__path__std__string_8h_1ad8b8e1b12bcc635b418575a273901d95" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1ad8b8e1b12bcc635b418575a273901d95" kindref="member">MR_std_map_std_filesystem_path_std_string_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__map__std__filesystem__path__std__string_8h_1a905aedccb35ff2c145f82f2f7730a3c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a905aedccb35ff2c145f82f2f7730a3c8" kindref="member">MR_std_map_std_filesystem_path_std_string_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__map__std__filesystem__path__std__string_8h_1a63c5d06763747761914bfe4a4f1ad12f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a63c5d06763747761914bfe4a4f1ad12f" kindref="member">MR_std_map_std_filesystem_path_std_string_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__map__std__filesystem__path__std__string_8h_1a95d12384b42a49eb2a60cf72f51b23f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a95d12384b42a49eb2a60cf72f51b23f1" kindref="member">MR_std_map_std_filesystem_path_std_string_OffsetMutablePtr</ref>(<ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="std__map__std__filesystem__path__std__string_8h_1a2ef626dd43b3733d9a2a048fd4137fb5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a2ef626dd43b3733d9a2a048fd4137fb5" kindref="member">MR_std_map_std_filesystem_path_std_string_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="std__map__std__filesystem__path__std__string_8h_1aecd9c1f7bdf63332056032af93697ddf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1aecd9c1f7bdf63332056032af93697ddf" kindref="member">MR_std_map_std_filesystem_path_std_string_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="std__map__std__filesystem__path__std__string_8h_1a318a3943526b6545a398cc5054dff9fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a318a3943526b6545a398cc5054dff9fa" kindref="member">MR_std_map_std_filesystem_path_std_string_clear</ref>(<ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__map__std__filesystem__path__std__string_8h_1a683fa023cd964d68bfda33dbfcbd8e05" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a683fa023cd964d68bfda33dbfcbd8e05" kindref="member">MR_std_map_std_filesystem_path_std_string_find_or_construct_elem</ref>(<ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key_end);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="std__map__std__filesystem__path__std__string_8h_1a8f5cf8ac009b9e7b6bdd14135bc02a53" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a8f5cf8ac009b9e7b6bdd14135bc02a53" kindref="member">MR_std_map_std_filesystem_path_std_string_contains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key_end);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__map__std__filesystem__path__std__string_8h_1aa20922401ac4caf9452ad145cbf6618e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1aa20922401ac4caf9452ad145cbf6618e" kindref="member">MR_std_map_std_filesystem_path_std_string_find</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key_end);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="std__map__std__filesystem__path__std__string_8h_1a7e7d5cdd9294fdd2190a7173310a1a2a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a7e7d5cdd9294fdd2190a7173310a1a2a" kindref="member">MR_std_map_std_filesystem_path_std_string_find_mut</ref>(<ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key_end);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="std__map__std__filesystem__path__std__string_8h_1a65a14275f4bc3ba0512bd99378afac11" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a65a14275f4bc3ba0512bd99378afac11" kindref="member">MR_std_map_std_filesystem_path_std_string_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="std__map__std__filesystem__path__std__string_8h_1a886b76af45bc3e490b03ecb6834e9ecc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a886b76af45bc3e490b03ecb6834e9ecc" kindref="member">MR_std_map_std_filesystem_path_std_string_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="std__map__std__filesystem__path__std__string_8h_1a15c49b292b1dee5cdd1f51ccc7145700" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a15c49b292b1dee5cdd1f51ccc7145700" kindref="member">MR_std_map_std_filesystem_path_std_string_begin_mut</ref>(<ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="std__map__std__filesystem__path__std__string_8h_1a31c1862c8c09e6f9c6e52c3ca04ba745" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a31c1862c8c09e6f9c6e52c3ca04ba745" kindref="member">MR_std_map_std_filesystem_path_std_string_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="std__map__std__filesystem__path__std__string_8h_1a017163c8ad1c7c30fb8865e4b84de7d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a017163c8ad1c7c30fb8865e4b84de7d0" kindref="member">MR_std_map_std_filesystem_path_std_string_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="std__map__std__filesystem__path__std__string_8h_1a4441b9b3fc917ed708b38124e98623cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a4441b9b3fc917ed708b38124e98623cd" kindref="member">MR_std_map_std_filesystem_path_std_string_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="std__map__std__filesystem__path__std__string_8h_1a4bda11da9b8cb092c516ee5b3dfbaa66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a4bda11da9b8cb092c516ee5b3dfbaa66" kindref="member">MR_std_map_std_filesystem_path_std_string_end_mut</ref>(<ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="std__map__std__filesystem__path__std__string_8h_1a64b0799e9694e11de9fe38d5fc001db9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a64b0799e9694e11de9fe38d5fc001db9" kindref="member">MR_std_map_std_filesystem_path_std_string_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kindref="member">MR_std_map_std_filesystem_path_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="std__map__std__filesystem__path__std__string_8h_1a121db33d7e6ac45c15d26c90d78c6fad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a121db33d7e6ac45c15d26c90d78c6fad" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="std__map__std__filesystem__path__std__string_8h_1a49ca82dc2e3a38cc4467085beac9be1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a49ca82dc2e3a38cc4467085beac9be1b" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="std__map__std__filesystem__path__std__string_8h_1a627eb3dd7321b7e196f2f3f592025c5d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a627eb3dd7321b7e196f2f3f592025c5d" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="std__map__std__filesystem__path__std__string_8h_1af55e30860ec148a6118fe289d1850537" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1af55e30860ec148a6118fe289d1850537" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_AssignFromAnother</ref>(<ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="std__map__std__filesystem__path__std__string_8h_1aeef648c982cb833f980b807302863c6f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1aeef648c982cb833f980b807302863c6f" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="std__map__std__filesystem__path__std__string_8h_1ac7ef6b6aefbb4dc48c77e6f8e7163a34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1ac7ef6b6aefbb4dc48c77e6f8e7163a34" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="std__map__std__filesystem__path__std__string_8h_1a5c1afa79542e9bff1bfe050692d94773" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a5c1afa79542e9bff1bfe050692d94773" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="std__map__std__filesystem__path__std__string_8h_1a4354c0994ff94c773d1c79b0bd719846" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a4354c0994ff94c773d1c79b0bd719846" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__map__std__filesystem__path__std__string_8h_1adc81c24b104f123c3046147bd3bea6bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1adc81c24b104f123c3046147bd3bea6bd" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="std__map__std__filesystem__path__std__string_8h_1a457039b06b2627de927c0cd416fad752" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a457039b06b2627de927c0cd416fad752" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="std__map__std__filesystem__path__std__string_8h_1a2846b5fa003c46f30768d3cd1116c992" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a2846b5fa003c46f30768d3cd1116c992" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__map__std__filesystem__path__std__string_8h_1a9cd9a82829f7e68666702b05885e12a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a9cd9a82829f7e68666702b05885e12a1" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="std__map__std__filesystem__path__std__string_8h_1ada38031527ec4c47195f0ffe8b2ca132" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1ada38031527ec4c47195f0ffe8b2ca132" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_AssignFromAnother</ref>(<ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="std__map__std__filesystem__path__std__string_8h_1a3d208cae54703858b662a1a8d64232cb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a3d208cae54703858b662a1a8d64232cb" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="std__map__std__filesystem__path__std__string_8h_1a9d494095ea216ddc8a64eebe4d283f02" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a9d494095ea216ddc8a64eebe4d283f02" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="std__map__std__filesystem__path__std__string_8h_1a66a992fded4af76b2da37becdcb97800" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a66a992fded4af76b2da37becdcb97800" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__map__std__filesystem__path__std__string_8h_1aa9ef28a85365582f3714c97a812c58db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1aa9ef28a85365582f3714c97a812c58db" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_OffsetMutablePtr</ref>(<ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="std__map__std__filesystem__path__std__string_8h_1a5eda37cdad88a77ab472486ad010fdd6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1af60dcc33e537eaac5db7b54cb3ce3b9e" kindref="member">MR_std_pair_const_std_filesystem_path_std_string</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a5eda37cdad88a77ab472486ad010fdd6" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="std__map__std__filesystem__path__std__string_8h_1a88dfaf1557db7693d2972cfe22a29340" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a88dfaf1557db7693d2972cfe22a29340" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_deref_key</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="std__map__std__filesystem__path__std__string_8h_1a1c5561b085b23be177122640bf4300d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a1c5561b085b23be177122640bf4300d6" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_deref_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="std__map__std__filesystem__path__std__string_8h_1ad17013247dea1ed0320e8a19364b78fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1ad17013247dea1ed0320e8a19364b78fa" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_incr</ref>(<ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__map__std__filesystem__path__std__string_8h_1a707bbf1cd40f6bf33436fb66f85c5928" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a707bbf1cd40f6bf33436fb66f85c5928" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator_decr</ref>(<ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="std__map__std__filesystem__path__std__string_8h_1a7c43776402203c6138ce7a3bc4c1c6b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a7c43776402203c6138ce7a3bc4c1c6b6" kindref="member">MR_equal_MR_std_map_std_filesystem_path_std_string_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kindref="member">MR_std_map_std_filesystem_path_std_string_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__map__std__filesystem__path__std__string_8h_1af162601adbb9893625ff9139e082efae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1af60dcc33e537eaac5db7b54cb3ce3b9e" kindref="member">MR_std_pair_const_std_filesystem_path_std_string</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1af162601adbb9893625ff9139e082efae" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="std__map__std__filesystem__path__std__string_8h_1a695672ebdd00dc7cb7d165211fdf63e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1a695672ebdd00dc7cb7d165211fdf63e9" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_deref_key</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="std__map__std__filesystem__path__std__string_8h_1aadb6d3c1fc67d4c1333e2471337f9b2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="std__map__std__filesystem__path__std__string_8h_1aadb6d3c1fc67d4c1333e2471337f9b2c" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_deref_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="std__map__std__filesystem__path__std__string_8h_1a6f0973a17e80f836c52ddee2d297ce78" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a6f0973a17e80f836c52ddee2d297ce78" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_incr</ref>(<ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282" refid="std__map__std__filesystem__path__std__string_8h_1a84cab0577cf53a3913a7e65bd76c3bef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a84cab0577cf53a3913a7e65bd76c3bef" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator_decr</ref>(<ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287" refid="std__map__std__filesystem__path__std__string_8h_1a4add5fcd4c7a31c1a117745e74e4ed92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1a4add5fcd4c7a31c1a117745e74e4ed92" kindref="member">MR_equal_MR_std_map_std_filesystem_path_std_string_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kindref="member">MR_std_map_std_filesystem_path_std_string_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_map_std_filesystem_path_std_string.h"/>
+  </compounddef>
+</doxygen>

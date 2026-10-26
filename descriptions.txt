@@ -1,0 +1,64 @@
+# Meta descriptions for the indexable pages (see whitelist.txt), one per line:
+#   path relative to the html root|description
+# scripts/seo_postprocess.py puts them into the pages. A whitelisted page without a
+# line here gets its first paragraph instead; keep descriptions under 160 characters.
+index.html|MeshLib SDK documentation: open-source 3D mesh and point-cloud processing for C++, Python, C#, C and JavaScript, with setup guides and code samples.
+InstallationGuide.html|Get started with MeshLib SDK: choose the setup guide for C++, Python, C#, C or JavaScript on Windows, Linux or macOS and run your first geometry code.
+MeshLibPythonSetupGuide.html|Install MeshLib for Python on Windows, Linux or macOS: prerequisites, the installation steps and how to import and use the MeshLib Python modules.
+MeshLibCppSetupGuide.html|Set up MeshLib for C++ on Windows, Linux and macOS: prerequisites, installation steps for each system, and WebAssembly modules built with Emscripten.
+MeshLibCSetupGuide.html|Use MeshLib from C: prerequisites, installing binary releases, compiling as C11 with GCC, Clang or MSVC, the C examples and building the C API from source.
+MeshLibCSharpSetupGuide.html|Add MeshLib to a C# project via NuGet, a downloaded NuGet package or the .NET CLI, then run mesh decimation, booleans and other operations from .NET.
+MeshLibCmakeSetupGuide.html|Link MeshLib in a CMake project: native CMake integration on Linux and macOS, example configuration files and a separate integration guide for Windows.
+MeshLibJsSetupGuide.html|Install MeshLib for JavaScript: the WebAssembly build for Node.js and browsers, single- or multi-threaded npm package, and cross-origin isolation setup.
+License.html|MeshLib SDK is dual-licensed: free for non-commercial and educational use, with a commercial license required for business and commercial development.
+Tutorials.html|MeshLib SDK tutorials: guides, examples and step-by-step instructions to get started with MeshLib and explore its 3D geometry processing features.
+FirstPluginTutorial.html|Create your first MeshLib plugin in C++ on Windows: a working plugin in a few minutes, as the starting point for more advanced plugin development.
+Examples.html|MeshLib code samples in C++, Python, C, C# and JavaScript: load and save meshes, booleans, decimation, offsets, hole filling, ICP, triangulation and more.
+BasedApplication.html|Base your own C++ application on MeshLib: a main function that launches the MeshLib viewer, then extend it with state plugins of your own.
+ExampleMeshLoadSave.html|Load and save 3D mesh files with MeshLib: ready-to-run code in C++, Python, C, C# and JavaScript for reading a mesh and writing it back out.
+ExampleMeshExport.html|Export the points and triangles of a mesh with MeshLib, for example to hand them to a renderer. Code samples in C++, Python, C, C# and JavaScript.
+ExampleMeshModification.html|Modify meshes with MeshLib: relax, subdivide and transform a mesh in place. Code samples in C++, Python, C and JavaScript.
+ExampleMeshBoolean.html|Mesh boolean operations with MeshLib: union, intersection and difference of triangle meshes, with code in C++, Python, C, C# and JavaScript.
+ExampleMeshDecimate.html|Mesh decimation with MeshLib: reduce the triangle count of a mesh while keeping its shape, with code in C++, Python, C, C# and JavaScript.
+ExampleMeshOffset.html|Mesh offset with MeshLib: build an offset surface at a given distance from a mesh, with code samples in C++, Python, C, C# and JavaScript.
+ExampleMeshFillHole.html|Fill holes in a mesh with MeshLib: find the hole boundaries and close them using a fill metric. Code in C++, Python, C, C# and JavaScript.
+ExampleMeshStitchHole.html|Stitch two holes of a mesh together with MeshLib, joining their boundaries with a cylinder-like strip. Code in C++, Python, C and JavaScript.
+ExampleGlobalRegistration.html|Global registration with MeshLib: align several point clouds or meshes at once with multiway ICP. Code samples in C++, Python, C, C# and JavaScript.
+ExampleMeshICP.html|Mesh ICP with MeshLib: find the rigid transformation that aligns one mesh to another by iterative closest point. Code in C++, Python, C, C# and JavaScript.
+ExampleMeshExtrude.html|Extrude selected faces of a mesh with MeshLib by building a band around the region and moving its vertices. Code in C++, Python, C and JavaScript.
+ExampleFreeForm.html|Free-form deformation of a mesh with MeshLib: reshape it with a lattice of control points. Code samples in C++, Python, C, C# and JavaScript.
+ExampleLaplacian.html|Laplacian mesh deformation with MeshLib: move selected vertices and let the surface follow smoothly. Code samples in C++, Python, C and JavaScript.
+ExampleNoiseDenoise.html|Add noise to a mesh and remove it again with the normal-based denoising of MeshLib. Code samples in C++, Python, C and JavaScript.
+ExampleTriangulation.html|Triangulate a point cloud into a mesh with MeshLib: sample the points, triangulate them and post-process the result. Code in C++, Python, C and JavaScript.
+ExampleMeshFromText.html|Convert text into a 3D mesh with MeshLib and get solid geometry from a string. Code samples in C++, Python and C.
+ExampleViewer.html|Show meshes in the MeshLib viewer from Python, with or without the scene tree, by launching the viewer and adding a mesh to the scene.
+ExamplePlotly.html|Visualize a MeshLib mesh with Plotly in Python: take the vertices and faces as NumPy arrays and draw an interactive 3D plot.
+ExampleNumpy.html|Use NumPy with MeshLib in Python: create a mesh from NumPy arrays and get its vertices, faces and other primitives back as arrays.
+ExampleNumpyTriangulation.html|Triangulate a regular NumPy grid such as np.mgrid into a mesh with MeshLib in Python, turning the grid points directly into triangles.
+ExampleCudaOffset.html|Use CUDA from Python to offset meshes with MeshLib, including faster healing of meshes with holes on the GPU.
+MeshStructureOverview.html|How MeshLib stores a mesh: topology and vertex coordinates, half-edge navigation and the ids used to walk its vertices, edges and faces.
+BasicMathTypesOverview.html|The basic math types of MeshLib: small vectors and matrices of dimension 2, 3 and 4, affine transformations and other helper types.
+FloatVSDouble.html|Float vs double in C++: how precision, performance and memory trade off in geometry code, and why MeshLib stores mesh coordinates as float.
+DataModel.html|The MeshLib data model: all data lives in objects derived from Object and organised in a scene, with serialization and inheritance explained.
+SpacesHelp.html|Coordinate spaces and transformations in MeshLib, explained with diagrams of how geometry moves between local and world space.
+FileFormatSupport.html|File formats MeshLib reads and writes: mesh, point cloud, voxel, polyline, distance map and G-code formats, with what is supported for each.
+ExamplePluginOverview.html|The C++ example plugin in the MeshLib Windows and WebAssembly distributions: what the example_plugin directory contains and how to use it.
+StatePluginsHelp.html|State plugins in MeshLib: simple objects that work with the scene, built on MR::RibbonMenuItem, their base functions and how to write your first one.
+HowtoAddPluginOverview.html|Add your own plugin to MeshInspector or MeshLib: what a plugin is, what its distribution looks like, how to install it, and trust and safety rules.
+ExampleMeshOffsetWeighted.html|Weighted mesh offset with MeshLib: give each vertex its own offset distance to build a variable-thickness shell. Code in C++, Python, C and JavaScript.
+ExampleMeshFixDegeneracies.html|Fix degenerate faces of a mesh with MeshLib: find and repair tiny or collapsed triangles. Code samples in C++, Python, C, C# and JavaScript.
+ExampleSignedDistance.html|Signed distance between two meshes with MeshLib: compute the minimal signed distance from one mesh to another. Code in C++, Python, C and JavaScript.
+ExampleSignedDistancePointToMesh.html|Signed distance from a point to a mesh with MeshLib: how far the point is and on which side of the surface it lies. Code in C++, Python, C and JavaScript.
+ExampleSignedDistances.html|Signed distances from every vertex of a mesh to a reference mesh with MeshLib, for deviation maps. Code samples in C++, Python, C and JavaScript.
+ExamplePointsToMesh.html|Turn a point cloud into a triangle mesh with MeshLib by generating a triangulation from the points. Code samples in C++, Python, C and JavaScript.
+ExampleContourTriangulation.html|Triangulate a closed contour into a mesh with MeshLib. Code samples in C++, Python and C.
+ExampleTerrainTriangulation.html|Triangulate a terrain scan, a point cloud of a height field, into a mesh with MeshLib. Code samples in C++, Python and C.
+ExampleDicomFiles.html|Open DICOM files in Python with MeshLib: load a CT or MRI series into a voxel volume for further processing.
+PackageOverview.html|An overview of MeshLib: file formats, mesh structure, math types, float vs double, data model, coordinate spaces and the plugin system.
+ExampleFusion.html|Build a mesh from a point cloud with MeshLib by voxel fusion of the points. Code samples in C++, Python, C and JavaScript.
+SwitchingFromOtherLibraries.html|Switching to MeshLib from CGAL, libigl, Open3D, PCL or VTK: side-by-side code for booleans, decimation, connected components and other common tasks.
+Cpp/index.html|MeshLib C++ API reference: the classes, functions and namespaces of the MeshLib SDK for 3D mesh, point cloud and voxel processing.
+Py/index.html|MeshLib Python API reference: the modules, classes and functions of the meshlib package for 3D mesh, point cloud and voxel processing.
+C/index.html|MeshLib C API reference: the functions and types of the C bindings for 3D mesh, point cloud and voxel processing.
+Csharp/index.html|MeshLib C# API reference: the classes and methods of the .NET bindings for 3D mesh, point cloud and voxel processing.
+Js/index.html|MeshLib JavaScript API reference: the WebAssembly bindings for 3D mesh processing in Node.js and in the browser.

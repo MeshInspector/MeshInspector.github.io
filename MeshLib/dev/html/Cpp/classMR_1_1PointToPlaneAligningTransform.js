@@ -12,5 +12,7 @@ var classMR_1_1PointToPlaneAligningTransform =
     [ "findBestRigidXfFixedRotationAxis", "classMR_1_1PointToPlaneAligningTransform.html#a5162299152d3a4f6ae9de54c2a1ccb58", null ],
     [ "findBestRigidXfOrthogonalRotationAxis", "classMR_1_1PointToPlaneAligningTransform.html#af0c4b1002192d03fcf79ae0df032d66e", null ],
     [ "findBestTranslation", "classMR_1_1PointToPlaneAligningTransform.html#ac063a17fa743ac58c5fbc9ad217c5198", null ],
-    [ "prepare", "classMR_1_1PointToPlaneAligningTransform.html#aeefc37b3b3fdedb7a7cfa9c63d2e6712", null ]
+    [ "getStabilizer", "classMR_1_1PointToPlaneAligningTransform.html#a0ef48d320912d233720b2cb2346a0774", null ],
+    [ "prepare", "classMR_1_1PointToPlaneAligningTransform.html#aeefc37b3b3fdedb7a7cfa9c63d2e6712", null ],
+    [ "setStabilizer", "classMR_1_1PointToPlaneAligningTransform.html#a41b9d1c35ce5def32fcc86fad7e5ab06", null ]
 ];

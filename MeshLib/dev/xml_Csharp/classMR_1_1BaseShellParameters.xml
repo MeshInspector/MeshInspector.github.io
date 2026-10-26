@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="134" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="134" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="142" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1BaseShellParameters_1a716f85afb02684c3708c7ff5924fbac7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Bool_From_Float</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="139" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="139" bodyend="139"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="147" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="147" bodyend="147"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="158" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="158" bodyend="162"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="164" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="164" bodyend="168"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="168" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="168" bodyend="174"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="174" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="174" bodyend="178"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BaseShellParameters_1a21147cf96193687086577ce1f644c101" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -96,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="179" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="179" bodyend="186"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="183" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="183" bodyend="188"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BaseShellParameters_1a9b1b0517c195047c0ebdb8eee7b87553" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="191" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="191" bodyend="198"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="193" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="193" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BaseShellParameters_1a8fa47c1084037d2a12e260b647d70408" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -172,7 +172,115 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="213" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="213" bodyend="220"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="213" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="213" bodyend="218"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1afeea44d18bd2f035a3a448b58bf9eb61" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BaseShellParameters._Underlying *</type>
+        <definition>static unsafe MR.BaseShellParameters._Underlying * MR.BaseShellParameters.__MR_BaseShellParameters_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.BaseShellParameters._Underlying *_other)</argsstring>
+        <name>__MR_BaseShellParameters_AssignFromAnother</name>
+        <qualifiedname>MR.BaseShellParameters.__MR_BaseShellParameters_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.BaseShellParameters._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="223" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1a3e3aa3cefb39a10444722287b32437a6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BaseShellParameters._Underlying *</type>
+        <definition>static unsafe MR.BaseShellParameters._Underlying * MR.BaseShellParameters.__MR_BaseShellParameters_ConstructFrom</definition>
+        <argsstring>(float voxelSize, MR.Misc._PassBy callBack_pass_by, MR.Std.Function_Bool_From_Float._Underlying *callBack)</argsstring>
+        <name>__MR_BaseShellParameters_ConstructFrom</name>
+        <qualifiedname>MR.BaseShellParameters.__MR_BaseShellParameters_ConstructFrom</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>callBack_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
+          <declname>callBack</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="226" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1a9fbcb75aa77cbace275e47087f37ff3c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BaseShellParameters._Underlying *</type>
+        <definition>static unsafe MR.BaseShellParameters._Underlying * MR.BaseShellParameters.__MR_BaseShellParameters_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.BaseShellParameters._Underlying *_other)</argsstring>
+        <name>__MR_BaseShellParameters_ConstructFromAnother</name>
+        <qualifiedname>MR.BaseShellParameters.__MR_BaseShellParameters_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.BaseShellParameters._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="229" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1af7926316af01e6a3927b8b5ef0e9446d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BaseShellParameters._Underlying *</type>
+        <definition>static unsafe MR.BaseShellParameters._Underlying * MR.BaseShellParameters.__MR_BaseShellParameters_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_BaseShellParameters_DefaultConstruct</name>
+        <qualifiedname>MR.BaseShellParameters.__MR_BaseShellParameters_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="232" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1ae9fbd6cc3214e6021e93f7028d21a019" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Function_Bool_From_Float._Underlying *</type>
+        <definition>static unsafe MR.Std.Function_Bool_From_Float._Underlying * MR.BaseShellParameters.__MR_BaseShellParameters_GetMutable_callBack</definition>
+        <argsstring>(MR.BaseShellParameters._Underlying *_this)</argsstring>
+        <name>__MR_BaseShellParameters_GetMutable_callBack</name>
+        <qualifiedname>MR.BaseShellParameters.__MR_BaseShellParameters_GetMutable_callBack</qualifiedname>
+        <param>
+          <type>MR.BaseShellParameters._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="235" column="71"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -224,8 +332,13 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="128" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="129" bodyend="221"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="136" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="137" bodyend="236"/>
     <listofallmembers>
+      <member refid="classMR_1_1BaseShellParameters_1afeea44d18bd2f035a3a448b58bf9eb61" prot="private" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>__MR_BaseShellParameters_AssignFromAnother</name></member>
+      <member refid="classMR_1_1BaseShellParameters_1a3e3aa3cefb39a10444722287b32437a6" prot="private" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>__MR_BaseShellParameters_ConstructFrom</name></member>
+      <member refid="classMR_1_1BaseShellParameters_1a9fbcb75aa77cbace275e47087f37ff3c" prot="private" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>__MR_BaseShellParameters_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1BaseShellParameters_1af7926316af01e6a3927b8b5ef0e9446d" prot="private" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>__MR_BaseShellParameters_DefaultConstruct</name></member>
+      <member refid="classMR_1_1BaseShellParameters_1ae9fbd6cc3214e6021e93f7028d21a019" prot="private" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>__MR_BaseShellParameters_GetMutable_callBack</name></member>
       <member refid="classMR_1_1Const__BaseShellParameters_1a765e584036168280e58ff1b4bf2f165a" prot="protected" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1BaseShellParameters_1ac648f6b557eb23825cd17ce101329683" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1BaseShellParameters_1a83dd5aac969b067fc635f3e7956b4f8e" prot="package" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>

@@ -10,7 +10,7 @@
     <includes local="no">filesystem</includes>
     <includes local="no">iosfwd</includes>
     <incdepgraph>
-      <node id="45">
+      <node id="48">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
         <childnode refid="4" relation="include">
@@ -22,12 +22,24 @@
         <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="43">
+      <node id="46">
         <label>MRAffineXf3.h</label>
         <link refid="MRAffineXf3_8h"/>
-        <childnode refid="44" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MRAllocator.h</label>
+        <link refid="MRAllocator_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="30">
@@ -37,17 +49,21 @@
         </childnode>
         <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -56,20 +72,20 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="36">
+      <node id="39">
         <label>MRCloudPartMapping.h</label>
         <link refid="MRCloudPartMapping_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="51">
         <label>MRColor.h</label>
         <link refid="MRColor_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
       </node>
       <node id="24">
@@ -88,21 +104,21 @@
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="37">
+      <node id="40">
         <label>MRIOFilters.h</label>
         <link refid="MRIOFilters_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="34">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
@@ -124,7 +140,7 @@
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
-      <node id="44">
+      <node id="47">
         <label>MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
         <childnode refid="4" relation="include">
@@ -173,9 +189,9 @@
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -187,16 +203,16 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
         <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
       </node>
-      <node id="41">
+      <node id="44">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="2" relation="include">
@@ -207,7 +223,7 @@
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
@@ -222,27 +238,27 @@
         <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="40">
+      <node id="43">
         <label>MRSaveSettings.h</label>
         <link refid="MRSaveSettings_8h"/>
-        <childnode refid="41" relation="include">
-        </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="38">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="2" relation="include">
@@ -251,19 +267,19 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="49">
         <label>MRUnitInfo.h</label>
         <link refid="MRUnitInfo_8h"/>
-        <childnode refid="47" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
       <node id="21">
@@ -312,7 +328,7 @@
         <childnode refid="29" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="52">
         <label>MRVector4.h</label>
         <link refid="MRVector4_8h"/>
         <childnode refid="26" relation="include">
@@ -328,7 +344,7 @@
         <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="50">
         <label>MRVectorTraits.h</label>
         <link refid="MRMesh_2MRVectorTraits_8h"/>
         <childnode refid="2" relation="include">
@@ -348,7 +364,7 @@
       <node id="15">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="32">
+      <node id="35">
         <label>MRphmap.h</label>
       </node>
       <node id="25">
@@ -357,13 +373,16 @@
       <node id="7">
         <label>array</label>
       </node>
+      <node id="36">
+        <label>atomic</label>
+      </node>
       <node id="13">
         <label>cassert</label>
       </node>
       <node id="26">
         <label>cmath</label>
       </node>
-      <node id="38">
+      <node id="41">
         <label>compare</label>
       </node>
       <node id="19">
@@ -378,7 +397,7 @@
       <node id="27">
         <label>cstring</label>
       </node>
-      <node id="50">
+      <node id="53">
         <label>filesystem</label>
       </node>
       <node id="11">
@@ -387,13 +406,16 @@
       <node id="28">
         <label>iosfwd</label>
       </node>
-      <node id="33">
+      <node id="37">
         <label>iterator</label>
       </node>
-      <node id="35">
+      <node id="32">
         <label>memory</label>
       </node>
-      <node id="39">
+      <node id="33">
+        <label>mimalloc.h</label>
+      </node>
+      <node id="42">
         <label>optional</label>
       </node>
       <node id="10">
@@ -402,7 +424,7 @@
       <node id="9">
         <label>string</label>
       </node>
-      <node id="42">
+      <node id="45">
         <label>tuple</label>
       </node>
       <node id="23">
@@ -439,20 +461,20 @@
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="group__PointsSaveGroup_1ga9f5215f345f350ec8c26ea8f8b1b123f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga9f5215f345f350ec8c26ea8f8b1b123f" kindref="member">toXyz</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="24" refid="group__PointsSaveGroup_1ga736ca6d57fbc8d9d4574411f34b2f3ea" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga9f5215f345f350ec8c26ea8f8b1b123f" kindref="member">toXyz</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/>std::ostream&amp;<sp/>out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="23" refid="group__PointsSaveGroup_1ga9f5215f345f350ec8c26ea8f8b1b123f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga9f5215f345f350ec8c26ea8f8b1b123f" kindref="member">toXyz</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/><ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/><ref refid="group__PointsSaveGroup_1gae05aee316e622fc41d2b3e15a7a8ea06" kindref="member">file</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/><ref refid="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" kindref="member">settings</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="24" refid="group__PointsSaveGroup_1ga736ca6d57fbc8d9d4574411f34b2f3ea" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga9f5215f345f350ec8c26ea8f8b1b123f" kindref="member">toXyz</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/><ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref>,<sp/>std::ostream&amp;<sp/><ref refid="group__PointsSaveGroup_1gad6ea70247d37a65b7221d7b923407418" kindref="member">out</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/><ref refid="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" kindref="member">settings</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="group__PointsSaveGroup_1ga2431f9963ccca043cf31d9f5a8e9c98a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga2431f9963ccca043cf31d9f5a8e9c98a" kindref="member">toXyzn</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="29" refid="group__PointsSaveGroup_1ga2d16877da46197b4905448d2c0bc2845" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga2431f9963ccca043cf31d9f5a8e9c98a" kindref="member">toXyzn</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/>std::ostream&amp;<sp/>out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="28" refid="group__PointsSaveGroup_1ga2431f9963ccca043cf31d9f5a8e9c98a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga2431f9963ccca043cf31d9f5a8e9c98a" kindref="member">toXyzn</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/><ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/><ref refid="group__PointsSaveGroup_1gae05aee316e622fc41d2b3e15a7a8ea06" kindref="member">file</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/><ref refid="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" kindref="member">settings</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="29" refid="group__PointsSaveGroup_1ga2d16877da46197b4905448d2c0bc2845" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga2431f9963ccca043cf31d9f5a8e9c98a" kindref="member">toXyzn</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/><ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref>,<sp/>std::ostream&amp;<sp/><ref refid="group__PointsSaveGroup_1gad6ea70247d37a65b7221d7b923407418" kindref="member">out</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/><ref refid="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" kindref="member">settings</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="group__PointsSaveGroup_1ga7635e23017cccd4e952607f125a41aae" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga7635e23017cccd4e952607f125a41aae" kindref="member">toAsc</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="33" refid="group__PointsSaveGroup_1ga0038543a33756a47ca1091efe038b8b6" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga7635e23017cccd4e952607f125a41aae" kindref="member">toAsc</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/>std::ostream&amp;<sp/>out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="32" refid="group__PointsSaveGroup_1ga7635e23017cccd4e952607f125a41aae" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga7635e23017cccd4e952607f125a41aae" kindref="member">toAsc</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/><ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/><ref refid="group__PointsSaveGroup_1gae05aee316e622fc41d2b3e15a7a8ea06" kindref="member">file</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/><ref refid="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" kindref="member">settings</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="33" refid="group__PointsSaveGroup_1ga0038543a33756a47ca1091efe038b8b6" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga7635e23017cccd4e952607f125a41aae" kindref="member">toAsc</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/><ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref>,<sp/>std::ostream&amp;<sp/><ref refid="group__PointsSaveGroup_1gad6ea70247d37a65b7221d7b923407418" kindref="member">out</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/><ref refid="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" kindref="member">settings</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="group__PointsSaveGroup_1ga0b2da3e6f5f88ee5c6ce8ae396030282" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga0b2da3e6f5f88ee5c6ce8ae396030282" kindref="member">toPly</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="37" refid="group__PointsSaveGroup_1ga93de8bb7c42d48456a16be2813cbd14a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga0b2da3e6f5f88ee5c6ce8ae396030282" kindref="member">toPly</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/>std::ostream&amp;<sp/>out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="36" refid="group__PointsSaveGroup_1ga0b2da3e6f5f88ee5c6ce8ae396030282" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga0b2da3e6f5f88ee5c6ce8ae396030282" kindref="member">toPly</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/><ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/><ref refid="group__PointsSaveGroup_1gae05aee316e622fc41d2b3e15a7a8ea06" kindref="member">file</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/><ref refid="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" kindref="member">settings</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="37" refid="group__PointsSaveGroup_1ga93de8bb7c42d48456a16be2813cbd14a" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1ga0b2da3e6f5f88ee5c6ce8ae396030282" kindref="member">toPly</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/><ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref>,<sp/>std::ostream&amp;<sp/><ref refid="group__PointsSaveGroup_1gad6ea70247d37a65b7221d7b923407418" kindref="member">out</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/><ref refid="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" kindref="member">settings</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="group__PointsSaveGroup_1gab9d40fe2ffff1295614436078dc95bb4" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1gab9d40fe2ffff1295614436078dc95bb4" kindref="member">toAnySupportedFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
-<codeline lineno="42" refid="group__PointsSaveGroup_1ga2ecb1b4d166fa4b5d7dcbf7f9b26b50f" refkind="member"><highlight class="normal"><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__PointsSaveGroup_1gab9d40fe2ffff1295614436078dc95bb4" kindref="member">toAnySupportedFormat</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>extension,<sp/>std::ostream&amp;<sp/>out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="40" refid="group__PointsSaveGroup_1gae05aee316e622fc41d2b3e15a7a8ea06" refkind="member"><highlight class="normal"><ref refid="group__PointsSaveGroup_1gaf3db0c1382a48e811765551be79a0a39" kindref="member">MR_BIND_OVERLOAD_SUFFIX</ref>()<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">&gt;<sp/>toAnySupportedFormat(<sp/>const<sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/><ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref>,<sp/>const<sp/>std::filesystem::path&amp;<sp/><ref refid="group__PointsSaveGroup_1gae05aee316e622fc41d2b3e15a7a8ea06" kindref="member">file</ref>,<sp/>const<sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/><ref refid="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" kindref="member">settings</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="42" refid="group__PointsSaveGroup_1ga31507bdc39de3cd5dbe1a0038cd6f56d" refkind="member"><highlight class="normal"><ref refid="group__PointsSaveGroup_1gaf3db0c1382a48e811765551be79a0a39" kindref="member">MR_BIND_OVERLOAD_SUFFIX</ref>(stream)<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/>toAnySupportedFormat(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/><ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__PointsSaveGroup_1ga31507bdc39de3cd5dbe1a0038cd6f56d" kindref="member">extension</ref>,<sp/>std::ostream&amp;<sp/><ref refid="group__PointsSaveGroup_1gad6ea70247d37a65b7221d7b923407418" kindref="member">out</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SaveSettings" kindref="compound">SaveSettings</ref>&amp;<sp/><ref refid="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" kindref="member">settings</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal">}</highlight></codeline>

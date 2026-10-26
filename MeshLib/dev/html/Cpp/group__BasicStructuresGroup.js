@@ -1,5 +1,6 @@
 var group__BasicStructuresGroup =
 [
+    [ "Raster", "group__RasterGroup.html", "group__RasterGroup" ],
     [ "MR::Image", "structMR_1_1Image.html", [
       [ "heapBytes", "group__GeneralGroup.html#gaed3087256e14a389e2e32449eb1233d1", null ],
       [ "operator[]", "group__GeneralGroup.html#ga3b6b9b5bd10ab0b951b4049866cb22fb", null ],
@@ -78,6 +79,12 @@ var group__BasicStructuresGroup =
         [ "AutoDetect", "group__GeneralGroup.html#gga308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf", null ],
         [ "Smooth", "group__GeneralGroup.html#gga308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4", null ],
         [ "Flat", "group__GeneralGroup.html#gga308e72dcfc90ae1a9370ca7c7bc3290ca745e3db6a7ffd50e1a72b39482f0882d", null ]
+      ] ],
+      [ "StringType", "group__GeneralGroup.html#gaca4cbb22b4674eb9de491e91090d5be6", [
+        [ "MeshSerializeFormat", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6a7c7083efbc53c626f151a4d9e7b029bb", null ],
+        [ "PointsSerializeFormat", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6a6aa229db0ba7959da11cbdb84060f3d9", null ],
+        [ "VoxelsSerializeFormat", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6a11502ad3cfb527908a8174aa52271159", null ],
+        [ "Count", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
       ] ]
     ] ],
     [ "MR::FloatGrid", "classMR_1_1FloatGrid.html", [
@@ -118,6 +125,8 @@ var group__BasicStructuresGroup =
     [ "MR::operator-=", "group__BasicStructuresGroup.html#ga2c64eb34f40157199ec9339b67a68c25", null ],
     [ "MR::ovdb", "group__BasicStructuresGroup.html#ga7c6031335bfc2515993437f951485ad1", null ],
     [ "MR::ovdb", "group__BasicStructuresGroup.html#ga12f92e71b639968eb7a4ffb4cbe51291", null ],
+    [ "MR::putSimpleVolumeInDenseGrid", "group__BasicStructuresGroup.html#ga3563bb2455bc4f7c264b52fc67c9eb57", null ],
+    [ "MR::putSimpleVolumeInDenseGrid", "group__BasicStructuresGroup.html#ga9032dad3aaac78372fa711d2dbdac09d", null ],
     [ "MR::resampled", "group__BasicStructuresGroup.html#gaf17bb94ba9fe8bf6f01de2334d8be119", null ],
     [ "MR::resampled", "group__BasicStructuresGroup.html#ga1bfdecc867ada4fd3525c717441a44ce", null ],
     [ "MR::setLevelSetType", "group__BasicStructuresGroup.html#ga9a2627798d685fc7e535ab8f8d9daced", null ],

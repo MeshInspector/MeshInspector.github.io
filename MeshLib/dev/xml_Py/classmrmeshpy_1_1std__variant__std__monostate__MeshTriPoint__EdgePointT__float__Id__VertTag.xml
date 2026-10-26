@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a68912abdf3185c15a443040c0a2132c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67810" bodyend="67811"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a3652d93d0f981eacc747fcfd4bc07d03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.__init__</definition>
+        <argsstring>(self, std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag" kindref="compound">std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67813" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67813" bodyend="67814"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a34aa09c52daa03340ef6d90b74918325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.__init__</definition>
+        <argsstring>(self, std_monostate arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__monostate" kindref="compound">std_monostate</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67816" bodyend="67817"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a4b0c1ccb98ca264b9a7e8864274f4167" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.__init__</definition>
+        <argsstring>(self, MeshTriPoint arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67819" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67819" bodyend="67820"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1aec659655f81013ab0981ec5aee193d12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.__init__</definition>
+        <argsstring>(self, EdgePoint arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67822" bodyend="67823"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a2f9dcdad52398a994c8c110c1da3cf9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.__init__</definition>
+        <argsstring>(self, VertId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67825" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67825" bodyend="67826"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a497e947f75c5b99297b64d6387bfd494" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.current_type</definition>
+        <argsstring>(self)</argsstring>
+        <name>current_type</name>
+        <qualifiedname>mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.current_type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the current type name as a string. Call `get_&lt;TypeName&gt;()` to get the value.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67827" bodyend="67830"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a39b7102c2bd0f36cd5653c0727fce1db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <definition> EdgePoint mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.get_EdgePointT_float</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_EdgePointT_float</name>
+        <qualifiedname>mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.get_EdgePointT_float</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67831" bodyend="67834"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a77fb60fc3f4bc33eaec306c30d47848c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.get_Id_VertTag</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_Id_VertTag</name>
+        <qualifiedname>mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.get_Id_VertTag</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67835" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67835" bodyend="67838"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1ac8201c6f54e4b389dc645130c4083ecc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition> MeshTriPoint mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.get_MeshTriPoint</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_MeshTriPoint</name>
+        <qualifiedname>mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.get_MeshTriPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67839" bodyend="67842"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a20f034dbf86f767e15486c7b4041ce07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__monostate" kindref="compound">std_monostate</ref></type>
+        <definition> std_monostate mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.get_std_monostate</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_std_monostate</name>
+        <qualifiedname>mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag.get_std_monostate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67843" bodyend="67846"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  PickedPoint, std_variant_std_monostate_MeshTriPoint_EdgePoint_VertId
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67805" bodyend="67846"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a68912abdf3185c15a443040c0a2132c8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a3652d93d0f981eacc747fcfd4bc07d03" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a34aa09c52daa03340ef6d90b74918325" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a4b0c1ccb98ca264b9a7e8864274f4167" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1aec659655f81013ab0981ec5aee193d12" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a2f9dcdad52398a994c8c110c1da3cf9b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a497e947f75c5b99297b64d6387bfd494" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag</scope><name>current_type</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a39b7102c2bd0f36cd5653c0727fce1db" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag</scope><name>get_EdgePointT_float</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a77fb60fc3f4bc33eaec306c30d47848c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag</scope><name>get_Id_VertTag</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1ac8201c6f54e4b389dc645130c4083ecc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag</scope><name>get_MeshTriPoint</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePointT__float__Id__VertTag_1a20f034dbf86f767e15486c7b4041ce07" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_std_monostate_MeshTriPoint_EdgePointT_float_Id_VertTag</scope><name>get_std_monostate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

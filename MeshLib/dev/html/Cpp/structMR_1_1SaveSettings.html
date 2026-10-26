@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -155,8 +148,9 @@ $(function(){initNavTree('structMR_1_1SaveSettings.html','','structMR_1_1SaveSet
  <div class="center">
   <img src="structMR_1_1SaveSettings.png" usemap="#MR_3A_3ASaveSettings_map" alt=""/>
   <map id="MR_3A_3ASaveSettings_map" name="MR_3A_3ASaveSettings_map">
-<area href="structMR_1_1MeshSave_1_1CtmSaveOptions.html" alt="MR::MeshSave::CtmSaveOptions" shape="rect" coords="0,56,233,80"/>
-<area href="structMR_1_1PointsSave_1_1CtmSavePointsOptions.html" alt="MR::PointsSave::CtmSavePointsOptions" shape="rect" coords="243,56,476,80"/>
+<area href="structMR_1_1DracoSaveOptions.html" title="options for saving in Google Draco format" alt="MR::DracoSaveOptions" shape="rect" coords="0,56,233,80"/>
+<area href="structMR_1_1MeshSave_1_1CtmSaveOptions.html" alt="MR::MeshSave::CtmSaveOptions" shape="rect" coords="243,56,476,80"/>
+<area href="structMR_1_1PointsSave_1_1CtmSavePointsOptions.html" alt="MR::PointsSave::CtmSavePointsOptions" shape="rect" coords="486,56,719,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -181,6 +175,8 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:ga1b152fd38e636ee6803cabaac71794cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">units of input coordinates and transformation, to be serialized if the format supports it  <br /></td></tr>
 <tr class="memitem:ga127d98f930cd561a8633297e3422f649" id="r_ga127d98f930cd561a8633297e3422f649"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga127d98f930cd561a8633297e3422f649">solidColor</a></td></tr>
 <tr class="memdesc:ga127d98f930cd561a8633297e3422f649"><td class="mdescLeft">&#160;</td><td class="mdescRight">the color of whole object  <br /></td></tr>
+<tr class="memitem:ga61f8231ef54870e7e1fb1335672a25a4" id="r_ga61f8231ef54870e7e1fb1335672a25a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga61f8231ef54870e7e1fb1335672a25a4">telemetrySignal</a> = true</td></tr>
+<tr class="memdesc:ga61f8231ef54870e7e1fb1335672a25a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">permit telemetry signal about saving  <br /></td></tr>
 <tr class="memitem:ga0f2bb31407f2693aa939c47e0052b527" id="r_ga0f2bb31407f2693aa939c47e0052b527"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0f2bb31407f2693aa939c47e0052b527">progress</a></td></tr>
 <tr class="memdesc:ga0f2bb31407f2693aa939c47e0052b527"><td class="mdescLeft">&#160;</td><td class="mdescRight">to report save progress and cancel saving if user desires  <br /></td></tr>
 </table>

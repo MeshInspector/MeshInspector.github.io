@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Int64Mul128" kind="class" language="C++" prot="public">
+    <compoundname>MR::Int64Mul128</compoundname>
+    <includes refid="MRInt64Mul128_8h" local="no">MRMesh/MRInt64Mul128.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Int64Mul128_1a81d393446fdaec82214fbe9b391bfa67" prot="private" static="no" mutable="no">
+        <type>std::int64_t</type>
+        <definition>std::int64_t MR::Int64Mul128::v_</definition>
+        <argsstring></argsstring>
+        <name>v_</name>
+        <qualifiedname>MR::Int64Mul128::v_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInt64Mul128.h" line="54" column="18" bodyfile="MRMesh/MRInt64Mul128.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Int64Mul128_1a0b5862a6f014b0f104f9dbe1fe9928e8" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Int64Mul128::Int64Mul128</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>Int64Mul128</name>
+        <qualifiedname>MR::Int64Mul128::Int64Mul128</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInt64Mul128.h" line="24" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Int64Mul128_1a848062455a350eeb9c9260eb2b001590" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Int64Mul128::Int64Mul128</definition>
+        <argsstring>(std::int64_t v) noexcept</argsstring>
+        <name>Int64Mul128</name>
+        <qualifiedname>MR::Int64Mul128::Int64Mul128</qualifiedname>
+        <param>
+          <type>std::int64_t</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInt64Mul128.h" line="25" column="15" bodyfile="MRMesh/MRInt64Mul128.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classMR_1_1Int64Mul128_1a4b9df52635419e230559a9fb641f6b4c" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t operator+</definition>
+        <argsstring>(Int64Mul128 a) noexcept</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR::Int64Mul128::operator+</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInt64Mul128.h" line="28" column="36" bodyfile="MRMesh/MRInt64Mul128.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int64Mul128_1a9f6ae3e25955d842beb217e7701764fb" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t operator-</definition>
+        <argsstring>(Int64Mul128 a) noexcept</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::Int64Mul128::operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInt64Mul128.h" line="29" column="36" bodyfile="MRMesh/MRInt64Mul128.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int64Mul128_1a1af1aac77c8997edbeff654188086093" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t operator+</definition>
+        <argsstring>(Int64Mul128 a, Int64Mul128 b) noexcept</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR::Int64Mul128::operator+</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInt64Mul128.h" line="31" column="36" bodyfile="MRMesh/MRInt64Mul128.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int64Mul128_1af2b92530475e4f51aaeeb5657c5d0c4b" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t operator-</definition>
+        <argsstring>(Int64Mul128 a, Int64Mul128 b) noexcept</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR::Int64Mul128::operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInt64Mul128.h" line="32" column="36" bodyfile="MRMesh/MRInt64Mul128.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int64Mul128_1a0249fbdcb73732db2d62c881908ce466" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t operator/</definition>
+        <argsstring>(Int64Mul128 a, Int64Mul128 b) noexcept</argsstring>
+        <name>operator/</name>
+        <qualifiedname>MR::Int64Mul128::operator/</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInt64Mul128.h" line="33" column="36" bodyfile="MRMesh/MRInt64Mul128.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int64Mul128_1a164f40553bbc1af59a084d7c4761cc92" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref></type>
+        <definition>FastInt128 operator*</definition>
+        <argsstring>(Int64Mul128 a, Int64Mul128 b) noexcept</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::Int64Mul128::operator*</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>both arguments are extensions of 64-bit values, which the compiler recognizes</para>
+        </inbodydescription>
+        <location file="MRMesh/MRInt64Mul128.h" line="35" column="24" bodyfile="MRMesh/MRInt64Mul128.h" bodystart="35" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int64Mul128_1a379e5c3cea14cadec2f68cc1cb10da2a" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(Int64Mul128 a, Int64Mul128 b) noexcept</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::Int64Mul128::operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInt64Mul128.h" line="50" column="28" bodyfile="MRMesh/MRInt64Mul128.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1Int64Mul128_1a8e0754eb76c2f6c5325072d2e7d64ee4" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto operator&lt;=&gt;</definition>
+        <argsstring>(Int64Mul128 a, Int64Mul128 b) noexcept</argsstring>
+        <name>operator&lt;=&gt;</name>
+        <qualifiedname>MR::Int64Mul128::operator&lt;=&gt;</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRInt64Mul128.h" line="51" column="23" bodyfile="MRMesh/MRInt64Mul128.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>a 64-bit integer, which product with another one is an exact 128-bit integer obtained by a single widening machine multiplication; addition and subtraction stay 64-bit and can overflow just like std::int64_t </para>
+    </detaileddescription>
+    <location file="MRMesh/MRInt64Mul128.h" line="21" column="1" bodyfile="MRMesh/MRInt64Mul128.h" bodystart="22" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Int64Mul128_1a0b5862a6f014b0f104f9dbe1fe9928e8" prot="public" virt="non-virtual"><scope>MR::Int64Mul128</scope><name>Int64Mul128</name></member>
+      <member refid="classMR_1_1Int64Mul128_1a848062455a350eeb9c9260eb2b001590" prot="public" virt="non-virtual"><scope>MR::Int64Mul128</scope><name>Int64Mul128</name></member>
+      <member refid="classMR_1_1Int64Mul128_1a164f40553bbc1af59a084d7c4761cc92" prot="public" virt="non-virtual"><scope>MR::Int64Mul128</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Int64Mul128_1a4b9df52635419e230559a9fb641f6b4c" prot="public" virt="non-virtual"><scope>MR::Int64Mul128</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Int64Mul128_1a1af1aac77c8997edbeff654188086093" prot="public" virt="non-virtual"><scope>MR::Int64Mul128</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Int64Mul128_1a9f6ae3e25955d842beb217e7701764fb" prot="public" virt="non-virtual"><scope>MR::Int64Mul128</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Int64Mul128_1af2b92530475e4f51aaeeb5657c5d0c4b" prot="public" virt="non-virtual"><scope>MR::Int64Mul128</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Int64Mul128_1a0249fbdcb73732db2d62c881908ce466" prot="public" virt="non-virtual"><scope>MR::Int64Mul128</scope><name>operator/</name></member>
+      <member refid="classMR_1_1Int64Mul128_1a8e0754eb76c2f6c5325072d2e7d64ee4" prot="public" virt="non-virtual"><scope>MR::Int64Mul128</scope><name>operator&lt;=&gt;</name></member>
+      <member refid="classMR_1_1Int64Mul128_1a379e5c3cea14cadec2f68cc1cb10da2a" prot="public" virt="non-virtual"><scope>MR::Int64Mul128</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Int64Mul128_1a81d393446fdaec82214fbe9b391bfa67" prot="private" virt="non-virtual"><scope>MR::Int64Mul128</scope><name>v_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

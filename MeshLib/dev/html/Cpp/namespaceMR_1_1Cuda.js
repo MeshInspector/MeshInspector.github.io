@@ -1,5 +1,6 @@
 var namespaceMR_1_1Cuda =
 [
+    [ "ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html", "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" ],
     [ "ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", "classMR_1_1Cuda_1_1ComputeToolDistance" ],
     [ "DeviceInfo", "structMR_1_1Cuda_1_1DeviceInfo.html", "structMR_1_1Cuda_1_1DeviceInfo" ],
     [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
@@ -14,7 +15,7 @@ var namespaceMR_1_1Cuda =
     [ "cudaPipeline", "namespaceMR_1_1Cuda.html#ab0b0e3af6fadf0842bbaef360071ea8e", null ],
     [ "distanceMapFromContours", "namespaceMR_1_1Cuda.html#ad903c7645148d442eed7b3be6f4b0da7", null ],
     [ "distanceMapFromContoursHeapBytes", "namespaceMR_1_1Cuda.html#a57e91a18687a893997356f499e9a7e94", null ],
-    [ "findProjectionOnPoints", "namespaceMR_1_1Cuda.html#acdd0eaf7b314f1758bf6e417ad1f3795", null ],
+    [ "findProjectionOnPoints", "namespaceMR_1_1Cuda.html#ac0f5929f4af15aed8c11ff5232d4f6ff", null ],
     [ "findProjectionOnPointsHeapBytes", "namespaceMR_1_1Cuda.html#ab6752d5a8d11db60ba3b3c7cd333658d", null ],
     [ "findSkyRays", "group__GeneralGroup.html#gaf763aea7896baa102ab7715278d93231", null ],
     [ "fromVec", "namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155", null ],
@@ -32,5 +33,6 @@ var namespaceMR_1_1Cuda =
     [ "pointCloudHeapBytes", "namespaceMR_1_1Cuda.html#aaa9aa568ce6f99642f04342760455a3f", null ],
     [ "pointsToDistanceVolume", "group__GeneralGroup.html#ga76d46e2388018a2bca5a72dfaefd30e9", null ],
     [ "pointsToDistanceVolumeByParts", "group__GeneralGroup.html#ga2ca6e42153313ca635d7ea3e12d19bf0", null ],
+    [ "pointsToDistanceVolumeMemory", "group__GeneralGroup.html#ga5cc55a97b581e01247749d0d7e6697a4", null ],
     [ "PointCloudDataHolder", "namespaceMR_1_1Cuda.html#a770259831b49f60068c30df5121056c9", null ]
 ];

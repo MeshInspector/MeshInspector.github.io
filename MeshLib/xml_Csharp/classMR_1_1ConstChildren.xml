@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ConstChildren" kind="class" language="C#" prot="public">
+    <compoundname>MR::ConstChildren</compoundname>
+    <basecompoundref refid="classMR_1_1Const__ConstChildren" prot="public" virt="non-virtual">MR.Const_ConstChildren</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ConstChildren_1a78722847dd28b4b28b516ce5091abd7c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstChildren.ConstChildren</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ConstChildren</name>
+        <qualifiedname>MR.ConstChildren.ConstChildren</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="434" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="434" bodyend="434"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ConstChildren_1a401a740adfb04e88f09579726a4e8640" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstChildren.ConstChildren</definition>
+        <argsstring>(MR.Const_ConstChildren _other)</argsstring>
+        <name>ConstChildren</name>
+        <qualifiedname>MR.ConstChildren.ConstChildren</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ConstChildren" kindref="compound">MR.Const_ConstChildren</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ConstChildren_1a401a740adfb04e88f09579726a4e8640" kindref="member">MR.ConstChildren.ConstChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="439" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="439" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstChildren_1afdb34629d6f7ea9087b7093b8434a379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ConstChildren.ConstChildren</definition>
+        <argsstring>(ConstChildren _other)</argsstring>
+        <name>ConstChildren</name>
+        <qualifiedname>MR.ConstChildren.ConstChildren</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstChildren" kindref="compound">ConstChildren</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ConstChildren_1a401a740adfb04e88f09579726a4e8640" kindref="member">MR.ConstChildren.ConstChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="450" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="450" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstChildren_1acfd37ea30f48d5a08058ccc2a9df34b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstChildren.ConstChildren</definition>
+        <argsstring>(MR.Std.Const_Vector_StdSharedPtrMRObject children)</argsstring>
+        <name>ConstChildren</name>
+        <qualifiedname>MR.ConstChildren.ConstChildren</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_StdSharedPtrMRObject</type>
+          <declname>children</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ConstChildren_1a401a740adfb04e88f09579726a4e8640" kindref="member">MR.ConstChildren.ConstChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="455" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="455" bodyend="461"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>read-only access to the children of an <ref refid="classMR_1_1Object" kindref="compound">Object</ref>, as returned by <ref refid="classMR_1_1Const__Object_1afde3a957de581e9a0991652214b8eb16" kindref="member">Object.constChildren()</ref> <ref refid="classMR_1_1Object" kindref="compound">Object</ref> stores its children as std::shared_ptr&lt;<ref refid="classMR_1_1Object" kindref="compound">Object</ref>&gt;, and a const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> cannot hand them out directly without either dropping constness or copying the whole vector. This class solves that: it is a lightweight non-owning view on the object's children, which produces std::shared_ptr&lt;const <ref refid="classMR_1_1Object" kindref="compound">Object</ref>&gt; on the fly. Typical use: for ( const auto &amp; child : obj.constChildren() ) processRecursively( *child ); It is also indexable, so a plain loop works too: for ( size_t i = 0; i &lt; obj.constChildren().<ref refid="classMR_1_1Const__ConstChildren_1a26212de102099182f275e0bf8a0f968a" kindref="member">size()</ref>; ++i ) process( *obj.constChildren()[i] ); The view refers to the object's own storage, so use it as a temporary and do not store it: it is invalidated by anything that adds, removes or reorders the object's children, exactly like an iterator of the underlying vector. Generated from class <computeroutput><ref refid="classMR_1_1ConstChildren" kindref="compound">MR.ConstChildren</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.ConstChildren</label>
+        <link refid="classMR_1_1ConstChildren"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_ConstChildren</label>
+        <link refid="classMR_1_1Const__ConstChildren"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.ConstChildren</label>
+        <link refid="classMR_1_1ConstChildren"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_ConstChildren</label>
+        <link refid="classMR_1_1Const__ConstChildren"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" line="432" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConstChildren.cs" bodystart="433" bodyend="462"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ConstChildren_1acde72b2f1e2fee768decdbf1596c574c" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>begin</name></member>
+      <member refid="classMR_1_1Const__ConstChildren_1a628c6cd271710e83870f8030175804bf" prot="package" virt="non-virtual"><scope>MR::ConstChildren</scope><name>Const_ConstChildren</name></member>
+      <member refid="classMR_1_1Const__ConstChildren_1acca71705eacaf837fc38d5c78318cf9a" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>Const_ConstChildren</name></member>
+      <member refid="classMR_1_1Const__ConstChildren_1a7b9ddcd71ef2d030e6974a83b90aaad6" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>Const_ConstChildren</name></member>
+      <member refid="classMR_1_1Const__ConstChildren_1a4535fca5291247eba2ebfb9114eec0dd" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>Const_ConstChildren</name></member>
+      <member refid="classMR_1_1ConstChildren_1a78722847dd28b4b28b516ce5091abd7c" prot="package" virt="non-virtual"><scope>MR::ConstChildren</scope><name>ConstChildren</name></member>
+      <member refid="classMR_1_1ConstChildren_1a401a740adfb04e88f09579726a4e8640" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>ConstChildren</name></member>
+      <member refid="classMR_1_1ConstChildren_1afdb34629d6f7ea9087b7093b8434a379" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>ConstChildren</name></member>
+      <member refid="classMR_1_1ConstChildren_1acfd37ea30f48d5a08058ccc2a9df34b7" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>ConstChildren</name></member>
+      <member refid="classMR_1_1Const__ConstChildren_1a5d57c31c61da3e18db85713687fbec2b" prot="protected" virt="virtual"><scope>MR::ConstChildren</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ConstChildren_1a75f0e66885ee50d087146ce4f96f1b2f" prot="public" virt="virtual"><scope>MR::ConstChildren</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ConstChildren_1a3c653f5b300a6e93bb1542b241eeba05" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__ConstChildren_1ae40665ecf228060a64f60029fba60fc6" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>end</name></member>
+      <member refid="classMR_1_1Const__ConstChildren_1ab73929d9509f68a1f6ae8ed287f8c562" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__ConstChildren_1a26212de102099182f275e0bf8a0f968a" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__ConstChildren_1a763db476205b8b51402f66c582d59894" prot="public" virt="non-virtual"><scope>MR::ConstChildren</scope><name>this[nuint i]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

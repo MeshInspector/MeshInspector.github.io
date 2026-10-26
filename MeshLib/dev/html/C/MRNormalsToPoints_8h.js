@@ -12,11 +12,11 @@ var MRNormalsToPoints_8h =
     [ "MR_NormalsToPoints_ISolver_DestroyArray", "MRNormalsToPoints_8h.html#a16aa7e3ef04d824e77e686cb49c3a5eb", null ],
     [ "MR_NormalsToPoints_ISolver_OffsetMutablePtr", "MRNormalsToPoints_8h.html#ae2378c6430705eaa75bf67903c8c9821", null ],
     [ "MR_NormalsToPoints_ISolver_OffsetPtr", "MRNormalsToPoints_8h.html#a6aab0f481998e21035c9a186ff235b4f", null ],
-    [ "MR_NormalsToPoints_ISolver_prepare", "MRNormalsToPoints_8h.html#ad0f60a185dca1e1f050c6acad5c0bc41", null ],
+    [ "MR_NormalsToPoints_ISolver_prepare", "MRNormalsToPoints_8h.html#a975a13c16c63b4606c81d9189e453dc4", null ],
     [ "MR_NormalsToPoints_ISolver_run", "MRNormalsToPoints_8h.html#aed4c48c1480e2f0bebf63734e5c711a1", null ],
     [ "MR_NormalsToPoints_OffsetMutablePtr", "MRNormalsToPoints_8h.html#abf66ce274cc8fe92ce91936a0bd7706b", null ],
     [ "MR_NormalsToPoints_OffsetPtr", "MRNormalsToPoints_8h.html#a17acd1d4c7c1c3f8c722c22addf106e4", null ],
-    [ "MR_NormalsToPoints_prepare", "MRNormalsToPoints_8h.html#ad578ffc0b107de16780e30715834c8c3", null ],
+    [ "MR_NormalsToPoints_prepare", "MRNormalsToPoints_8h.html#a20397912aabc2b302e6b550eb6eac648", null ],
     [ "MR_NormalsToPoints_run_3", "MRNormalsToPoints_8h.html#aa590376391e40fc6d5acec0148548cdd", null ],
     [ "MR_NormalsToPoints_run_4", "MRNormalsToPoints_8h.html#a0534196421128baab974ea260f5c8f49", null ]
 ];

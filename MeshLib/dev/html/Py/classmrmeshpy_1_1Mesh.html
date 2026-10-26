@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -154,7 +147,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afdf5d70947b1bf879366c1f237434b82" id="r_afdf5d70947b1bf879366c1f237434b82"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdf5d70947b1bf879366c1f237434b82">addMesh</a> (self, <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> from_, <a class="el" href="classmrmeshpy_1_1PartMapping.html">PartMapping</a> map=..., bool rearrangeTriangles=False)</td></tr>
 <tr class="memitem:ae731d56bbdc20ff0d0e51f413aa78a73" id="r_ae731d56bbdc20ff0d0e51f413aa78a73"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae731d56bbdc20ff0d0e51f413aa78a73">addMesh</a> (self, <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> from_, <a class="el" href="classmrmeshpy_1_1FaceMap.html">FaceMap</a> outFmap, <a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a> outVmap=None, <a class="el" href="classmrmeshpy_1_1WholeEdgeMap.html">WholeEdgeMap</a> outEmap=None, bool rearrangeTriangles=False)</td></tr>
 <tr class="memitem:ad69b1d629c26f0c36920b891a7273ba3" id="r_ad69b1d629c26f0c36920b891a7273ba3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad69b1d629c26f0c36920b891a7273ba3">addMeshPart</a> (self, <a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> from_, <a class="el" href="classmrmeshpy_1_1PartMapping.html">PartMapping</a> map, <a class="el" href="classmrmeshpy_1_1VacantElements.html">VacantElements</a> vacant='{}')</td></tr>
-<tr class="memitem:a58da71c41d0bc234617e9ed31980f3e7" id="r_a58da71c41d0bc234617e9ed31980f3e7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58da71c41d0bc234617e9ed31980f3e7">addMeshPart</a> (self, <a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> from_, bool flipOrientation=False, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html">std_vector_std_vector_Id_EdgeTag</a> thisContours=..., <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html">std_vector_std_vector_Id_EdgeTag</a> fromContours=..., <a class="el" href="classmrmeshpy_1_1PartMapping.html">PartMapping</a> map=..., <a class="el" href="classmrmeshpy_1_1VacantElements.html">VacantElements</a> vacant='{}')</td></tr>
+<tr class="memitem:a007e3bcf71f8620611addd6e94c3513b" id="r_a007e3bcf71f8620611addd6e94c3513b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a007e3bcf71f8620611addd6e94c3513b">addMeshPart</a> (self, <a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> from_, bool flipOrientation=False, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html">std_vector_std_vector_Id_EdgeTag</a> thisContours=..., <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Id__EdgeTag.html">std_vector_std_vector_Id_EdgeTag</a> fromContours=..., <a class="el" href="classmrmeshpy_1_1PartMapping.html">PartMapping</a> map=..., <a class="el" href="classmrmeshpy_1_1VacantElements.html">VacantElements</a> vacant='{}')</td></tr>
 <tr class="memitem:aa8168a99fdd72af7ec60c15a351c61c2" id="r_aa8168a99fdd72af7ec60c15a351c61c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8168a99fdd72af7ec60c15a351c61c2">addPoint</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pos)</td></tr>
 <tr class="memitem:a316a091f4a780709586a822fd5075538" id="r_a316a091f4a780709586a822fd5075538"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a316a091f4a780709586a822fd5075538">addSeparateContours</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__Vector3__float.html">std_vector_std_vector_Vector3_float</a> contours, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> xf=None)</td></tr>
 <tr class="memitem:a6fe4759c9412f40d5a10b41ffeeec32b" id="r_a6fe4759c9412f40d5a10b41ffeeec32b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fe4759c9412f40d5a10b41ffeeec32b">addSeparateEdgeLoop</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> contourPoints)</td></tr>
@@ -196,6 +189,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae46252d11a42ac015ed15e5e098bf33f" id="r_ae46252d11a42ac015ed15e5e098bf33f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae46252d11a42ac015ed15e5e098bf33f">findClosestPoint</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> point, <a class="el" href="classmrmeshpy_1_1MeshProjectionResult.html">MeshProjectionResult</a> res, float maxDistSq=3.4028234663852886e+38, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> xf=None)</td></tr>
 <tr class="memitem:abe14f595d2f3d2004db494af6edc2e95" id="r_abe14f595d2f3d2004db494af6edc2e95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshProjectionResult.html">MeshProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe14f595d2f3d2004db494af6edc2e95">findClosestPoint</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> point, float maxDistSq=3.4028234663852886e+38, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> xf=None)</td></tr>
 <tr class="memitem:a536a18423020614c306e0a0bb9aba3b5" id="r_a536a18423020614c306e0a0bb9aba3b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a536a18423020614c306e0a0bb9aba3b5">findCreaseEdges</a> (self, float angleFromPlanar)</td></tr>
+<tr class="memitem:ab9d3c2a6a1c508eebc0891867f65d3cd" id="r_ab9d3c2a6a1c508eebc0891867f65d3cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9d3c2a6a1c508eebc0891867f65d3cd">findSharpEdges</a> (self, float minSharpCos, float maxSharpCos)</td></tr>
 <tr class="memitem:aa3f23f562a5cb9881e99cbfd999e9811" id="r_aa3f23f562a5cb9881e99cbfd999e9811"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3f23f562a5cb9881e99cbfd999e9811">findSpikeVertices</a> (self, float minSumAngle, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="memitem:ade45ed7d511e639f56310f10fc6cacad" id="r_ade45ed7d511e639f56310f10fc6cacad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AABBTree.html">AABBTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade45ed7d511e639f56310f10fc6cacad">getAABBTree</a> (self)</td></tr>
 <tr class="memitem:a8c7be6420379e2a2df06d8d728468cb1" id="r_a8c7be6420379e2a2df06d8d728468cb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1AABBTree.html">AABBTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c7be6420379e2a2df06d8d728468cb1">getAABBTreeNotCreate</a> (self)</td></tr>
@@ -246,10 +240,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a46543299c08d8ed0e033bd822cba2188" id="r_a46543299c08d8ed0e033bd822cba2188"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46543299c08d8ed0e033bd822cba2188">signedDistance</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pt, <a class="el" href="classmrmeshpy_1_1MeshProjectionResult.html">MeshProjectionResult</a> proj, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None)</td></tr>
 <tr class="memitem:ad563425da23f9f6255231366e7d533e0" id="r_ad563425da23f9f6255231366e7d533e0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad563425da23f9f6255231366e7d533e0">signedDistance</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pt)</td></tr>
 <tr class="memitem:ad072f83dfa5c4417ba09bae6ebc91714" id="r_ad072f83dfa5c4417ba09bae6ebc91714"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad072f83dfa5c4417ba09bae6ebc91714">signedDistance</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pt, float maxDistSq, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None)</td></tr>
-<tr class="memitem:a0d69fc1e01412433c83f1d0626875818" id="r_a0d69fc1e01412433c83f1d0626875818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d69fc1e01412433c83f1d0626875818">splitEdge</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> e, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> newVertPos, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</a> new2Old=None)</td></tr>
-<tr class="memitem:af369fc656c67b7a4ab5ffa52cc04b805" id="r_af369fc656c67b7a4ab5ffa52cc04b805"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af369fc656c67b7a4ab5ffa52cc04b805">splitEdge</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> e, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</a> new2Old=None)</td></tr>
-<tr class="memitem:a10d16aa25d9e5c1f12d2ff51451e9606" id="r_a10d16aa25d9e5c1f12d2ff51451e9606"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10d16aa25d9e5c1f12d2ff51451e9606">splitFace</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> newVertPos, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</a> new2Old=None)</td></tr>
-<tr class="memitem:a559bb495e39d12270ae5c5a639ed4f20" id="r_a559bb495e39d12270ae5c5a639ed4f20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a559bb495e39d12270ae5c5a639ed4f20">splitFace</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</a> new2Old=None)</td></tr>
+<tr class="memitem:a0563101f39734175abeceada3dea91c9" id="r_a0563101f39734175abeceada3dea91c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0563101f39734175abeceada3dea91c9">splitEdge</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> e, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> newVertPos, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</a> new2Old=None)</td></tr>
+<tr class="memitem:a62cfe1ec7176136e83e5d881e19d07b9" id="r_a62cfe1ec7176136e83e5d881e19d07b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62cfe1ec7176136e83e5d881e19d07b9">splitEdge</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> e, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</a> new2Old=None)</td></tr>
+<tr class="memitem:a3800189280acdcea4c08c8edf92e5855" id="r_a3800189280acdcea4c08c8edf92e5855"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3800189280acdcea4c08c8edf92e5855">splitFace</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> newVertPos, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</a> new2Old=None)</td></tr>
+<tr class="memitem:a0c2ab3e93dd3225a4b582b8edfdea1c0" id="r_a0c2ab3e93dd3225a4b582b8edfdea1c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c2ab3e93dd3225a4b582b8edfdea1c0">splitFace</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</a> new2Old=None)</td></tr>
 <tr class="memitem:a6d2427008890a133ab15d2361dd31f83" id="r_a6d2427008890a133ab15d2361dd31f83"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d2427008890a133ab15d2361dd31f83">sumAngles</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v, <a class="el" href="classmrmeshpy_1_1bool__output.html">bool_output</a> outBoundaryVert=None)</td></tr>
 <tr class="memitem:a4055d158e8fb340093bf8a2e01a1fd04" id="r_a4055d158e8fb340093bf8a2e01a1fd04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgePoint.html">EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4055d158e8fb340093bf8a2e01a1fd04">toEdgePoint</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v)</td></tr>
 <tr class="memitem:a32777fd189fe8b5ec8d2feead243b81e" id="r_a32777fd189fe8b5ec8d2feead243b81e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgePoint.html">EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32777fd189fe8b5ec8d2feead243b81e">toEdgePoint</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> e, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> p)</td></tr>
@@ -261,6 +255,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9386837c14764124fc2b283abb1f73d2" id="r_a9386837c14764124fc2b283abb1f73d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9386837c14764124fc2b283abb1f73d2">triPoint</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a> p)</td></tr>
 <tr class="memitem:a546355126ec03aafb22ef5a3634f63f4" id="r_a546355126ec03aafb22ef5a3634f63f4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a546355126ec03aafb22ef5a3634f63f4">triangleAspectRatio</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f)</td></tr>
 <tr class="memitem:a50620cd3a4364a60b1c2af2eb2e464de" id="r_a50620cd3a4364a60b1c2af2eb2e464de"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50620cd3a4364a60b1c2af2eb2e464de">updateCaches</a> (self, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> changedVerts)</td></tr>
+<tr class="memitem:a76465d1705d6b35701f45605d6166458" id="r_a76465d1705d6b35701f45605d6166458"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76465d1705d6b35701f45605d6166458">updateCachesAfterSplits</a> (self, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</a> new2Old)</td></tr>
 <tr class="memitem:a323fc8be238ad636a64a24571367e745" id="r_a323fc8be238ad636a64a24571367e745"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a323fc8be238ad636a64a24571367e745">volume</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None)</td></tr>
 <tr class="memitem:ab8cdd0778f5e0b1600eaeca76f4dd961" id="r_ab8cdd0778f5e0b1600eaeca76f4dd961"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8cdd0778f5e0b1600eaeca76f4dd961">zeroUnusedPoints</a> (self)</td></tr>
 </table><table class="memberdecls">
@@ -451,14 +446,14 @@ as well as some caches to accelerate search algorithms
 </pre> 
 </div>
 </div>
-<a id="a58da71c41d0bc234617e9ed31980f3e7" name="a58da71c41d0bc234617e9ed31980f3e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58da71c41d0bc234617e9ed31980f3e7">&#9670;&#160;</a></span>addMeshPart() <span class="overload">[1/2]</span></h2>
+<a id="a007e3bcf71f8620611addd6e94c3513b" name="a007e3bcf71f8620611addd6e94c3513b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a007e3bcf71f8620611addd6e94c3513b">&#9670;&#160;</a></span>addMeshPart() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> None mrmeshpy.Mesh.addMeshPart </td>
+          <td class="memname"> bool mrmeshpy.Mesh.addMeshPart </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -497,6 +492,8 @@ as well as some caches to accelerate search algorithms
 <pre class="fragment">appends whole or part of another mesh to this joining added faces with existed ones along given contours
 \\param flipOrientation true means that every (from) triangle is inverted before adding
 optional \\param vacant can be passed to copy elements not at the end, but over given ones, which the user guaranties to be free/lone
+\\return false if the given contours cannot be stitched, and this mesh is left unmodified then
+        (the src2tgt mappings in (map) argument can be partially filled nevertheless)
 </pre> 
 </div>
 </div>
@@ -1522,6 +1519,33 @@ optionally returns whether the vertex is on boundary
       </table>
 </div><div class="memdoc">
 <pre class="fragment">finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value
+</pre> 
+</div>
+</div>
+<a id="ab9d3c2a6a1c508eebc0891867f65d3cd" name="ab9d3c2a6a1c508eebc0891867f65d3cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9d3c2a6a1c508eebc0891867f65d3cd">&#9670;&#160;</a></span>findSharpEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> mrmeshpy.Mesh.findSharpEdges </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minSharpCos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxSharpCos</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos]
 </pre> 
 </div>
 </div>
@@ -2681,7 +2705,8 @@ reorder all faces, vertices and edges according to given maps, each containing o
       </table>
 </div><div class="memdoc">
 <pre class="fragment">packs tightly and rearranges vertices, triangles and edges to put close in space elements in close indices
-\\param preserveAABBTree whether to keep valid mesh's AABB tree after return (it will take longer to compute and it will occupy more memory)
+\\param preserveAABBTree whether to keep valid mesh's AABB tree after return (it will take longer to compute and it will occupy more memory);
+an already constructed tree is used for faster ordering of faces in any case
 </pre> 
 </div>
 </div>
@@ -3083,8 +3108,8 @@ this method can return wrong sign if the closest point is located on self-inters
 </pre> 
 </div>
 </div>
-<a id="af369fc656c67b7a4ab5ffa52cc04b805" name="af369fc656c67b7a4ab5ffa52cc04b805"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af369fc656c67b7a4ab5ffa52cc04b805">&#9670;&#160;</a></span>splitEdge() <span class="overload">[1/2]</span></h2>
+<a id="a62cfe1ec7176136e83e5d881e19d07b9" name="a62cfe1ec7176136e83e5d881e19d07b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62cfe1ec7176136e83e5d881e19d07b9">&#9670;&#160;</a></span>splitEdge() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3107,7 +3132,7 @@ this method can return wrong sign if the closest point is located on self-inters
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</a> </td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</a> </td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3115,8 +3140,8 @@ this method can return wrong sign if the closest point is located on self-inters
 </pre> 
 </div>
 </div>
-<a id="a0d69fc1e01412433c83f1d0626875818" name="a0d69fc1e01412433c83f1d0626875818"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d69fc1e01412433c83f1d0626875818">&#9670;&#160;</a></span>splitEdge() <span class="overload">[2/2]</span></h2>
+<a id="a0563101f39734175abeceada3dea91c9" name="a0563101f39734175abeceada3dea91c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0563101f39734175abeceada3dea91c9">&#9670;&#160;</a></span>splitEdge() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3144,7 +3169,7 @@ this method can return wrong sign if the closest point is located on self-inters
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</a> </td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</a> </td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3159,8 +3184,8 @@ if left or right faces of the original edge were in the region, then include new
 </pre> 
 </div>
 </div>
-<a id="a559bb495e39d12270ae5c5a639ed4f20" name="a559bb495e39d12270ae5c5a639ed4f20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a559bb495e39d12270ae5c5a639ed4f20">&#9670;&#160;</a></span>splitFace() <span class="overload">[1/2]</span></h2>
+<a id="a0c2ab3e93dd3225a4b582b8edfdea1c0" name="a0c2ab3e93dd3225a4b582b8edfdea1c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c2ab3e93dd3225a4b582b8edfdea1c0">&#9670;&#160;</a></span>splitFace() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3183,7 +3208,7 @@ if left or right faces of the original edge were in the region, then include new
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</a> </td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</a> </td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3191,8 +3216,8 @@ if left or right faces of the original edge were in the region, then include new
 </pre> 
 </div>
 </div>
-<a id="a10d16aa25d9e5c1f12d2ff51451e9606" name="a10d16aa25d9e5c1f12d2ff51451e9606"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10d16aa25d9e5c1f12d2ff51451e9606">&#9670;&#160;</a></span>splitFace() <span class="overload">[2/2]</span></h2>
+<a id="a3800189280acdcea4c08c8edf92e5855" name="a3800189280acdcea4c08c8edf92e5855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3800189280acdcea4c08c8edf92e5855">&#9670;&#160;</a></span>splitFace() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3220,7 +3245,7 @@ if left or right faces of the original edge were in the region, then include new
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</a> </td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</a> </td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3493,6 +3518,33 @@ if region is nullptr, all valid mesh vertices are used
 <pre class="fragment">updates existing caches in case of few vertices were changed insignificantly,
 and topology remained unchanged;
 it shall be considered as a faster alternative to invalidateCaches() and following rebuild of trees
+\\param changedVerts vertices with modified coordinates, nullptr means all valid vertices
+</pre> 
+</div>
+</div>
+<a id="a76465d1705d6b35701f45605d6166458" name="a76465d1705d6b35701f45605d6166458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76465d1705d6b35701f45605d6166458">&#9670;&#160;</a></span>updateCachesAfterSplits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Mesh.updateCachesAfterSplits </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag__phmap__Hash__Id__FaceTag__phm27b173074d0d0c0ff50fe1e8a8aea8a8.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag_phmap_Hash_Id_FaceTag_phmap_EqualTo_Id_FaceTag_Allocator_std_pair_Id_FaceTag_const_Id_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">updates existing caches after some faces were split into parts (e.g. by splitFace() or splitEdge()) with no other changes in the mesh;
+it shall be considered as a faster alternative to invalidateCaches() and following rebuild of AABB tree
+\\param new2Old maps every face appeared after the splits to the face it was split from (as filled by splitFace() and splitEdge());
+it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several updates
+would add the earlier faces to the tree once more
 </pre> 
 </div>
 </div>

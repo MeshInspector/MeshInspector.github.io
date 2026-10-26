@@ -1,7 +1,8 @@
 var namespaceMR_1_1StyleConsts =
 [
     [ "CustomCombo", "namespaceMR_1_1StyleConsts_1_1CustomCombo.html", [
-      [ "framePadding", "group__GeneralGroup.html#ga56058d3872b6d96205debc3305df78a8", null ]
+      [ "framePadding", "group__GeneralGroup.html#ga56058d3872b6d96205debc3305df78a8", null ],
+      [ "popupItemSpacingY", "group__GeneralGroup.html#ga979b60469d45731dad95e4d5b2ba9e23", null ]
     ] ],
     [ "Modal", "namespaceMR_1_1StyleConsts_1_1Modal.html", [
       [ "bigTitlePadding", "group__GeneralGroup.html#ga4004a26198c0d4ee7e9de5004b5c58cf", null ],

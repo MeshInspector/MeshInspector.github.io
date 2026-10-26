@@ -31,6 +31,18 @@
         <childnode refid="43" relation="include">
         </childnode>
       </node>
+      <node id="54">
+        <label>MRAllocator.h</label>
+        <link refid="MRAllocator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
       <node id="53">
         <label>MRMesh/MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
@@ -38,20 +50,24 @@
         </childnode>
         <childnode refid="54" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
-        </childnode>
         <childnode refid="56" relation="include">
         </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
         <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="59" relation="include">
+        <childnode refid="62" relation="include">
         </childnode>
       </node>
-      <node id="60">
+      <node id="63">
         <label>MRMesh/MRBox.h</label>
         <link refid="MRBox_8h"/>
         <childnode refid="7" relation="include">
@@ -60,7 +76,7 @@
         </childnode>
         <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="61" relation="include">
+        <childnode refid="64" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
@@ -68,7 +84,7 @@
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="62" relation="include">
+        <childnode refid="65" relation="include">
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
@@ -151,7 +167,7 @@
         <childnode refid="35" relation="include">
         </childnode>
       </node>
-      <node id="54">
+      <node id="56">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="5" relation="include">
@@ -237,7 +253,7 @@
         <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="66">
+      <node id="69">
         <label>MRMesh/MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="5" relation="include">
@@ -248,7 +264,7 @@
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="67" relation="include">
+        <childnode refid="70" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
@@ -259,14 +275,14 @@
         <childnode refid="38" relation="include">
         </childnode>
       </node>
-      <node id="57">
+      <node id="59">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="58" relation="include">
+        <childnode refid="60" relation="include">
         </childnode>
       </node>
       <node id="22">
@@ -277,14 +293,14 @@
         <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="56">
+      <node id="58">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="57" relation="include">
+        <childnode refid="59" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -353,7 +369,7 @@
         <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="61">
+      <node id="64">
         <label>MRVectorTraits.h</label>
         <link refid="MRMesh_2MRVectorTraits_8h"/>
         <childnode refid="5" relation="include">
@@ -432,11 +448,11 @@
         </childnode>
         <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="60" relation="include">
-        </childnode>
         <childnode refid="63" relation="include">
         </childnode>
-        <childnode refid="68" relation="include">
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
         </childnode>
       </node>
       <node id="36">
@@ -475,35 +491,35 @@
         <label>config.h</label>
         <link refid="MRViewer_2config_8h"/>
       </node>
-      <node id="63">
+      <node id="66">
         <label>MRVoxels/MRFloatGrid.h</label>
         <link refid="MRFloatGrid_8h"/>
-        <childnode refid="64" relation="include">
+        <childnode refid="67" relation="include">
         </childnode>
-        <childnode refid="66" relation="include">
+        <childnode refid="69" relation="include">
         </childnode>
       </node>
-      <node id="68">
+      <node id="71">
         <label>MRVoxels/MRVoxelPath.h</label>
         <link refid="MRVoxelPath_8h"/>
-        <childnode refid="64" relation="include">
+        <childnode refid="67" relation="include">
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="66" relation="include">
+        <childnode refid="69" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="64">
+      <node id="67">
         <label>MRVoxelsFwd.h</label>
         <link refid="MRVoxelsFwd_8h"/>
-        <childnode refid="65" relation="include">
+        <childnode refid="68" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="65">
+      <node id="68">
         <label>config.h</label>
         <link refid="MRVoxels_2config_8h"/>
       </node>
@@ -519,7 +535,7 @@
       <node id="51">
         <label>MRPch/MRSuppressWarning.h</label>
       </node>
-      <node id="55">
+      <node id="57">
         <label>MRphmap.h</label>
       </node>
       <node id="26">
@@ -528,13 +544,16 @@
       <node id="10">
         <label>array</label>
       </node>
+      <node id="61">
+        <label>atomic</label>
+      </node>
       <node id="16">
         <label>cassert</label>
       </node>
       <node id="27">
         <label>cmath</label>
       </node>
-      <node id="58">
+      <node id="60">
         <label>concepts</label>
       </node>
       <node id="23">
@@ -558,14 +577,17 @@
       <node id="29">
         <label>iosfwd</label>
       </node>
-      <node id="59">
+      <node id="62">
         <label>iterator</label>
       </node>
-      <node id="62">
+      <node id="65">
         <label>limits</label>
       </node>
       <node id="35">
         <label>memory</label>
+      </node>
+      <node id="55">
+        <label>mimalloc.h</label>
       </node>
       <node id="13">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>
@@ -573,7 +595,7 @@
       <node id="12">
         <label>string</label>
       </node>
-      <node id="67">
+      <node id="70">
         <label>tuple</label>
       </node>
       <node id="24">
@@ -665,7 +687,7 @@
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
 <codeline lineno="91" refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" kindref="compound">Parameters</ref></highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="94" refid="group__GeneralGroup_1gab01dc48d4adf11728ae3fe0802e1e0dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::array&lt;<ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>,<sp/>size_t(<sp/><ref refid="group__GeneralGroup_1ggaf7c2c434d5b367268f132826d94c9457aa754fdcd470e1658650d8eb977cde96c" kindref="member">MaskType::Count</ref><sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1gab01dc48d4adf11728ae3fe0802e1e0dd" kindref="member">marks</ref><sp/>=<sp/>{<ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>{<ref refid="group__GeneralGroup_1ga9f743712af5597ae9e55d338143d10c6" kindref="member">Color::red</ref>()},<ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>{<ref refid="group__GeneralGroup_1gacd72366575d0f58c29867044c403e34a" kindref="member">Color::blue</ref>()},<ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>{<ref refid="group__GeneralGroup_1ga7a15e2053da20914d242d21eb1486f30" kindref="member">Color::yellow</ref>()}};</highlight></codeline>
+<codeline lineno="94" refid="group__GeneralGroup_1gab01dc48d4adf11728ae3fe0802e1e0dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::array&lt;<ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>,<sp/>size_t(<sp/><ref refid="group__GeneralGroup_1ggaf7c2c434d5b367268f132826d94c9457aa754fdcd470e1658650d8eb977cde96c" kindref="member">MaskType::Count</ref><sp/>)&gt;<sp/><ref refid="group__GeneralGroup_1gab01dc48d4adf11728ae3fe0802e1e0dd" kindref="member">marks</ref><sp/>=<sp/>{<ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>{Color::red()},<ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>{Color::blue()},<ref refid="structMR_1_1MarkedVoxelSlice_1_1Mark" kindref="compound">Mark</ref>{Color::yellow()}};</highlight></codeline>
 <codeline lineno="95" refid="group__GeneralGroup_1gada8d178143f6e08583ce6661e7e48c21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Mark&gt;<sp/><ref refid="group__GeneralGroup_1gada8d178143f6e08583ce6661e7e48c21" kindref="member">customBackgroundMarks</ref>;</highlight></codeline>
 <codeline lineno="96" refid="group__GeneralGroup_1ga791fa5f984772241f082f10270b11f8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Mark&gt;<sp/><ref refid="group__GeneralGroup_1ga791fa5f984772241f082f10270b11f8f" kindref="member">customForegroundMarks</ref>;</highlight></codeline>
 <codeline lineno="98" refid="group__GeneralGroup_1ga835e91b9fdac74516e50eb00d5a582f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3i<sp/><ref refid="group__GeneralGroup_1ga835e91b9fdac74516e50eb00d5a582f0" kindref="member">activeVoxel</ref>;</highlight></codeline>
@@ -677,7 +699,7 @@
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="112" refid="group__GeneralGroup_1gaa967f828058afd78b02970f57f9f96f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" kindref="compound">Parameters</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gaa967f828058afd78b02970f57f9f96f2" kindref="member">getParameters</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_;<sp/>}</highlight></codeline>
-<codeline lineno="114" refid="group__GeneralGroup_1ga1b237098f1645350afbc53876ef3f617" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1b237098f1645350afbc53876ef3f617" kindref="member">setParameters</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" kindref="compound">Parameters</ref>&amp;<sp/>params<sp/>)<sp/>{<sp/>params_<sp/>=<sp/>params;<sp/><ref refid="group__GeneralGroup_1gab8bf2135df35477f4d27ebc4c38d9a84" kindref="member">forceUpdate</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="114" refid="group__GeneralGroup_1ga1b237098f1645350afbc53876ef3f617" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1b237098f1645350afbc53876ef3f617" kindref="member">setParameters</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MarkedVoxelSlice_1_1Parameters" kindref="compound">Parameters</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1ga5eb87f0ab1d7fca53c85caa95f287e69" kindref="member">params</ref><sp/>)<sp/>{<sp/>params_<sp/>=<sp/><ref refid="group__DistanceMapGroup_1ga5eb87f0ab1d7fca53c85caa95f287e69" kindref="member">params</ref>;<sp/><ref refid="group__GeneralGroup_1gab8bf2135df35477f4d27ebc4c38d9a84" kindref="member">forceUpdate</ref>();<sp/>}</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117" refid="group__GeneralGroup_1gab8bf2135df35477f4d27ebc4c38d9a84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab8bf2135df35477f4d27ebc4c38d9a84" kindref="member">forceUpdate</ref>();</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>

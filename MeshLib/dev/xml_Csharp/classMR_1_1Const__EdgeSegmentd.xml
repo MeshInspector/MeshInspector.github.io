@@ -1,0 +1,715 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__EdgeSegmentd" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_EdgeSegmentd</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1EdgeSegmentd" prot="public" virt="non-virtual">MR.EdgeSegmentd</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__EdgeSegmentd_1ab94647cad95ecd8440a43883ecae8a96" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe ref readonly MR.EdgeId MR.Const_EdgeSegmentd.e</definition>
+        <argsstring></argsstring>
+        <name>e</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.e</qualifiedname>
+        <briefdescription>
+<para>id of the edge </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1299" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__EdgeSegmentd_1af0555d8d8f17aff0f2d3dd659c001fe7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__SegmPointd" kindref="compound">MR.Const_SegmPointd</ref></type>
+        <definition>unsafe MR.Const_SegmPointd MR.Const_EdgeSegmentd.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.a</qualifiedname>
+        <briefdescription>
+<para>start of the segment </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1305" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1305" bodyend="1305"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__EdgeSegmentd_1a399568b2630e6c24cf7278f34319ef6a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__SegmPointd" kindref="compound">MR.Const_SegmPointd</ref></type>
+        <definition>unsafe MR.Const_SegmPointd MR.Const_EdgeSegmentd.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.b</qualifiedname>
+        <briefdescription>
+<para>end of the segment </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1310" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1310" bodyend="1310"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__EdgeSegmentd_1a8d4ff75b0f776c88fca55b6f5b2fec38" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
+        <definition>unsafe MR.EdgeId* MR.Const_EdgeSegmentd.__ref_storage_e</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_e</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.__ref_storage_e</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1300" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1300" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a47399bed82138ec67c4b61a4d57a8efb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_EdgeSegmentd.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1286" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1286" bodyend="1292"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1ab5fa5fb7aa9ab5ac3d29ee3cd9f4a003" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_EdgeSegmentd.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1293" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1293" bodyend="1293"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a3ada2aac8b163001590962cb8f710544" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgeSegmentd.Const_EdgeSegmentd</definition>
+        <argsstring>()</argsstring>
+        <name>Const_EdgeSegmentd</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.Const_EdgeSegmentd</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1345" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1345" bodyend="1349"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a5126986ff50f5afc8e9c203f8d94ffa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgeSegmentd.Const_EdgeSegmentd</definition>
+        <argsstring>(MR.Const_EdgeSegmentd _other)</argsstring>
+        <name>Const_EdgeSegmentd</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.Const_EdgeSegmentd</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeSegmentd" kindref="compound">MR.Const_EdgeSegmentd</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeSegmentd_1adb806a1d5810b661529fe24a36d2a118" kindref="member">MR.EdgeSegmentd.EdgeSegmentd</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1354" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1354" bodyend="1359"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a1407f0e676cce0dbd6a612f9f0a1d706" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_EdgeSegmentd.Const_EdgeSegmentd</definition>
+        <argsstring>(EdgeSegmentd _other)</argsstring>
+        <name>Const_EdgeSegmentd</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.Const_EdgeSegmentd</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1EdgeSegmentd" kindref="compound">EdgeSegmentd</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeSegmentd_1adb806a1d5810b661529fe24a36d2a118" kindref="member">MR.EdgeSegmentd.EdgeSegmentd</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1364" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1364" bodyend="1364"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1aef11a05de1689952b6dd0b43a828375f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgeSegmentd.Const_EdgeSegmentd</definition>
+        <argsstring>(MR.EdgeId e, double? a=null, double? b=null)</argsstring>
+        <name>Const_EdgeSegmentd</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.Const_EdgeSegmentd</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>double?</type>
+          <declname>a</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>double?</type>
+          <declname>b</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeSegmentd_1adb806a1d5810b661529fe24a36d2a118" kindref="member">MR.EdgeSegmentd.EdgeSegmentd</ref></computeroutput>. Parameter <computeroutput>a</computeroutput> defaults to <computeroutput>0</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>1</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1371" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1371" bodyend="1377"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1afbacce9e770c7c90296c4209edec6e4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1EdgePointd" kindref="compound">MR.EdgePointd</ref></type>
+        <definition>unsafe MR.EdgePointd MR.Const_EdgeSegmentd.edgePointA</definition>
+        <argsstring>()</argsstring>
+        <name>edgePointA</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.edgePointA</qualifiedname>
+        <briefdescription>
+<para>returns starting <ref refid="classMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeSegmentd_1afbacce9e770c7c90296c4209edec6e4a" kindref="member">MR.EdgeSegmentd.edgePointA</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1390" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1390" bodyend="1393"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a2de555691bc6ee7451b348b0554854fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1EdgePointd" kindref="compound">MR.EdgePointd</ref></type>
+        <definition>unsafe MR.EdgePointd MR.Const_EdgeSegmentd.edgePointB</definition>
+        <argsstring>()</argsstring>
+        <name>edgePointB</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.edgePointB</qualifiedname>
+        <briefdescription>
+<para>returns ending <ref refid="classMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeSegmentd_1a2de555691bc6ee7451b348b0554854fa" kindref="member">MR.EdgeSegmentd.edgePointB</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1399" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1399" bodyend="1402"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a734a33187f49680506415a6fbc9392a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_EdgeSegmentd.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.valid</qualifiedname>
+        <briefdescription>
+<para>returns true if the edge is valid and start point is less than end point Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeSegmentd_1a734a33187f49680506415a6fbc9392a3" kindref="member">MR.EdgeSegmentd.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1408" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1408" bodyend="1411"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a7a006b74193552b857f90fc5f9d69664" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1EdgeSegmentd" kindref="compound">MR.EdgeSegmentd</ref></type>
+        <definition>unsafe MR.EdgeSegmentd MR.Const_EdgeSegmentd.sym</definition>
+        <argsstring>()</argsstring>
+        <name>sym</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.sym</qualifiedname>
+        <briefdescription>
+<para>represents the same segment relative to sym edge in Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeSegmentd_1a7a006b74193552b857f90fc5f9d69664" kindref="member">MR.EdgeSegmentd.sym</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1430" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1430" bodyend="1433"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a90cb7662242e357e014ecf219d7f42a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_EdgeSegmentd.Equals</definition>
+        <argsstring>(MR.Const_EdgeSegmentd? rhs)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeSegmentd" kindref="compound">MR.Const_EdgeSegmentd</ref>?</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1437" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1437" bodyend="1442"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1ac1ef310da1a719b9248a92ce971db2aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_EdgeSegmentd.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1444" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1444" bodyend="1451"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a421a27aa68b30518624007bb29e8f03e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_EdgeSegmentd.~Const_EdgeSegmentd</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_EdgeSegmentd</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.~Const_EdgeSegmentd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1294" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1294" bodyend="1294"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a699289cf2c2570055c2a5f54880d0873" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgeSegmentd.Const_EdgeSegmentd</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_EdgeSegmentd</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.Const_EdgeSegmentd</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1334" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1334" bodyend="1339"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a268db402cab0009b15781009adcbba3d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_EdgeSegmentd.operator Const_EdgeSegmentd</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>operator Const_EdgeSegmentd</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.operator Const_EdgeSegmentd</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeSegmentd_1adb806a1d5810b661529fe24a36d2a118" kindref="member">MR.EdgeSegmentd.EdgeSegmentd</ref></computeroutput>. Parameter <computeroutput>a</computeroutput> defaults to <computeroutput>0</computeroutput>. Parameter <computeroutput>b</computeroutput> defaults to <computeroutput>1</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1384" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1384" bodyend="1384"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1abde4d4d95a7248d0600218fd0a1643bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_EdgeSegmentd.operator==</definition>
+        <argsstring>(MR.Const_EdgeSegmentd _this, MR.Const_EdgeSegmentd rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeSegmentd" kindref="compound">MR.Const_EdgeSegmentd</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeSegmentd" kindref="compound">MR.Const_EdgeSegmentd</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::EdgeSegmentd::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1416" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1416" bodyend="1419"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a22e0f688a06fbb0b03f6d71394f2aa0c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_EdgeSegmentd.operator!=</definition>
+        <argsstring>(MR.Const_EdgeSegmentd _this, MR.Const_EdgeSegmentd rhs)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeSegmentd" kindref="compound">MR.Const_EdgeSegmentd</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeSegmentd" kindref="compound">MR.Const_EdgeSegmentd</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1421" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1421" bodyend="1424"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1aceaff5947321c09763b2ac142eaec110" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgeSegmentd._Underlying *</type>
+        <definition>static unsafe MR.EdgeSegmentd._Underlying * MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_Construct</definition>
+        <argsstring>(MR.EdgeId e, double *a, double *b)</argsstring>
+        <name>__MR_EdgeSegmentd_Construct</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_Construct</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1456" column="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1acb947cd23f10becffdc03afb3c113993" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgeSegmentd._Underlying *</type>
+        <definition>static unsafe MR.EdgeSegmentd._Underlying * MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_ConstructFromAnother</definition>
+        <argsstring>(MR.EdgeSegmentd._Underlying *_other)</argsstring>
+        <name>__MR_EdgeSegmentd_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.EdgeSegmentd._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1459" column="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a8c8d260e12b475849ca712c0447c3182" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgeSegmentd._Underlying *</type>
+        <definition>static unsafe MR.EdgeSegmentd._Underlying * MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_EdgeSegmentd_DefaultConstruct</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1462" column="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1aaa32f289d4903820183883e17b07f451" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeSegmentd_Destroy</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1465" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a551fd9ab1063199a2f76ec86dd6609b6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_SegmPointd._Underlying *</type>
+        <definition>static unsafe MR.Const_SegmPointd._Underlying * MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_Get_a</definition>
+        <argsstring>(MR.Const_EdgeSegmentd._Underlying *_this)</argsstring>
+        <name>__MR_EdgeSegmentd_Get_a</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_Get_a</qualifiedname>
+        <param>
+          <type>MR.Const_EdgeSegmentd._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1468" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1ac039a01208040b35dbe3541ebd571eb5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_SegmPointd._Underlying *</type>
+        <definition>static unsafe MR.Const_SegmPointd._Underlying * MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_Get_b</definition>
+        <argsstring>(MR.Const_EdgeSegmentd._Underlying *_this)</argsstring>
+        <name>__MR_EdgeSegmentd_Get_b</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_Get_b</qualifiedname>
+        <param>
+          <type>MR.Const_EdgeSegmentd._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1471" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a6e1dd9fdf24482cab12da886e51c0397" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
+        <definition>static unsafe MR.EdgeId * MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_Get_e</definition>
+        <argsstring>(MR.Const_EdgeSegmentd._Underlying *_this)</argsstring>
+        <name>__MR_EdgeSegmentd_Get_e</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_Get_e</qualifiedname>
+        <param>
+          <type>MR.Const_EdgeSegmentd._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1474" column="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1adc430da1df0ec067b0ac5e828f911f40" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgePointd._Underlying *</type>
+        <definition>static unsafe MR.EdgePointd._Underlying * MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_edgePointA</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeSegmentd_edgePointA</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_edgePointA</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1477" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a965537ea1f0464b1e7be2f6614adcae3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgePointd._Underlying *</type>
+        <definition>static unsafe MR.EdgePointd._Underlying * MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_edgePointB</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeSegmentd_edgePointB</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_edgePointB</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1480" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a5a8a471dda92b459bb23fc154b8d0524" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgeSegmentd._Underlying *</type>
+        <definition>static unsafe MR.EdgeSegmentd._Underlying * MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_sym</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeSegmentd_sym</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_sym</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1483" column="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1aedb3e96a4f26f148a698f9a6b661031d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_valid</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeSegmentd_valid</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.__MR_EdgeSegmentd_valid</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1486" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeSegmentd_1a784d973409fc4a286f10ab94b1c9dad3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.Const_EdgeSegmentd.__MR_equal_MR_EdgeSegmentd</definition>
+        <argsstring>(MR.Const_EdgeSegmentd._Underlying *_this, MR.Const_EdgeSegmentd._Underlying *rhs)</argsstring>
+        <name>__MR_equal_MR_EdgeSegmentd</name>
+        <qualifiedname>MR.Const_EdgeSegmentd.__MR_equal_MR_EdgeSegmentd</qualifiedname>
+        <param>
+          <type>MR.Const_EdgeSegmentd._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Const_EdgeSegmentd._Underlying *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1489" column="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents a segment on one edge Generated from class <computeroutput><ref refid="classMR_1_1EdgeSegmentd" kindref="compound">MR.EdgeSegmentd</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_EdgeSegmentd</label>
+        <link refid="classMR_1_1Const__EdgeSegmentd"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.EdgeSegmentd</label>
+        <link refid="classMR_1_1EdgeSegmentd"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_EdgeSegmentd</label>
+        <link refid="classMR_1_1Const__EdgeSegmentd"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_e</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1280" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1281" bodyend="1490"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1aceaff5947321c09763b2ac142eaec110" prot="private" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>__MR_EdgeSegmentd_Construct</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1acb947cd23f10becffdc03afb3c113993" prot="private" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>__MR_EdgeSegmentd_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a8c8d260e12b475849ca712c0447c3182" prot="private" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>__MR_EdgeSegmentd_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1aaa32f289d4903820183883e17b07f451" prot="private" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>__MR_EdgeSegmentd_Destroy</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1adc430da1df0ec067b0ac5e828f911f40" prot="private" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>__MR_EdgeSegmentd_edgePointA</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a965537ea1f0464b1e7be2f6614adcae3" prot="private" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>__MR_EdgeSegmentd_edgePointB</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a551fd9ab1063199a2f76ec86dd6609b6" prot="private" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>__MR_EdgeSegmentd_Get_a</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1ac039a01208040b35dbe3541ebd571eb5" prot="private" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>__MR_EdgeSegmentd_Get_b</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a6e1dd9fdf24482cab12da886e51c0397" prot="private" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>__MR_EdgeSegmentd_Get_e</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a5a8a471dda92b459bb23fc154b8d0524" prot="private" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>__MR_EdgeSegmentd_sym</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1aedb3e96a4f26f148a698f9a6b661031d" prot="private" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>__MR_EdgeSegmentd_valid</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a784d973409fc4a286f10ab94b1c9dad3" prot="private" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>__MR_equal_MR_EdgeSegmentd</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a8d4ff75b0f776c88fca55b6f5b2fec38" prot="protected" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>__ref_storage_e</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1af0555d8d8f17aff0f2d3dd659c001fe7" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>a</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a399568b2630e6c24cf7278f34319ef6a" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a699289cf2c2570055c2a5f54880d0873" prot="package" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>Const_EdgeSegmentd</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a3ada2aac8b163001590962cb8f710544" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>Const_EdgeSegmentd</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a5126986ff50f5afc8e9c203f8d94ffa4" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>Const_EdgeSegmentd</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a1407f0e676cce0dbd6a612f9f0a1d706" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>Const_EdgeSegmentd</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1aef11a05de1689952b6dd0b43a828375f" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>Const_EdgeSegmentd</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a47399bed82138ec67c4b61a4d57a8efb" prot="protected" virt="virtual"><scope>MR::Const_EdgeSegmentd</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1ab5fa5fb7aa9ab5ac3d29ee3cd9f4a003" prot="public" virt="virtual"><scope>MR::Const_EdgeSegmentd</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1ab94647cad95ecd8440a43883ecae8a96" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>e</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1afbacce9e770c7c90296c4209edec6e4a" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>edgePointA</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a2de555691bc6ee7451b348b0554854fa" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>edgePointB</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a90cb7662242e357e014ecf219d7f42a1" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1ac1ef310da1a719b9248a92ce971db2aa" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a268db402cab0009b15781009adcbba3d" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>operator Const_EdgeSegmentd</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a22e0f688a06fbb0b03f6d71394f2aa0c" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1abde4d4d95a7248d0600218fd0a1643bb" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a7a006b74193552b857f90fc5f9d69664" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>sym</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a734a33187f49680506415a6fbc9392a3" prot="public" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__EdgeSegmentd_1a421a27aa68b30518624007bb29e8f03e" prot="private" virt="non-virtual"><scope>MR::Const_EdgeSegmentd</scope><name>~Const_EdgeSegmentd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

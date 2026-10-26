@@ -39,6 +39,8 @@
     <sectiondef kind="func">
       <member refid="group__GeneralGroup_1ga8a580b810c0308121d566693f5e196a2" kind="function"><name>fromCtm</name></member>
       <member refid="group__GeneralGroup_1ga1afe750e0a8c61a6730d43d9b071987f" kind="function"><name>fromCtm</name></member>
+      <member refid="group__GeneralGroup_1ga30664957b9e3557712428bd9b5f2d61b" kind="function"><name>fromDrc</name></member>
+      <member refid="group__GeneralGroup_1ga8fd8cc7a4384fd3d832a57241288badf" kind="function"><name>fromDrc</name></member>
       <memberdef kind="function" id="namespaceMR_1_1PointsLoad_1a4e26659cfe9947e314c23ec7aed1a859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; <ref refid="structMR_1_1PointsLoad_1_1NamedCloud" kindref="compound">NamedCloud</ref> &gt; &gt;</type>
         <definition>Expected&lt; std::vector&lt; NamedCloud &gt; &gt; MR::PointsLoad::fromSceneE57File</definition>
@@ -145,8 +147,8 @@
       <member refid="group__IOGroup_1ga80e4f60af0a019706ae5488aa2d1acb2" kind="function"><name>fromObj</name></member>
       <member refid="group__IOGroup_1ga0bcd39338d08939438531f7d5c9d077d" kind="function"><name>fromDxf</name></member>
       <member refid="group__IOGroup_1ga72bf2e744527a6f283dc17ddb3f49317" kind="function"><name>fromDxf</name></member>
-      <member refid="group__IOGroup_1ga7ffd96e7cc233f9a5d99dfc3e8bb0edb" kind="function"><name>fromAnySupportedFormat</name></member>
-      <member refid="group__IOGroup_1gaecd3b7671e06c949d93c808ec95506f7" kind="function"><name>fromAnySupportedFormat</name></member>
+      <member refid="group__IOGroup_1ga211fda8baf23a249ac231793c2848373" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__IOGroup_1ga8aa3f213c68acbefae62997111264010" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__IOGroup_1ga56f3c968fa0da7592fff9bf39304344e" kind="function"><name>telemetryLogSize</name></member>
     </sectiondef>
     <briefdescription>

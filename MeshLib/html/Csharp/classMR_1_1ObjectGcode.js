@@ -63,5 +63,6 @@ var classMR_1_1ObjectGcode =
     [ "switchFeedrateGradient", "classMR_1_1ObjectGcode.html#a1a0ef989688666d25085277499af18b3", null ],
     [ "toggleVisualizeProperty", "classMR_1_1ObjectGcode.html#a374ba288cd3e6e10d60804f94041fa32", null ],
     [ "updateLinesColorMap", "classMR_1_1ObjectGcode.html#a242eb2cdb9394ff5b41743222a5766d0", null ],
-    [ "updateVertsColorMap", "classMR_1_1ObjectGcode.html#a9c1605d9e9740f4184dc398ec5cf2aad", null ]
+    [ "updateVertsColorMap", "classMR_1_1ObjectGcode.html#a9c1605d9e9740f4184dc398ec5cf2aad", null ],
+    [ "varPolylinePtr", "classMR_1_1ObjectGcode.html#a0d5615a53fb078980c8f39523bc5cb01", null ]
 ];

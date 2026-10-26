@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="97" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="97" bodyend="97"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="104" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="104" bodyend="104"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TriIntersectResult_1ac19596207dbd1d0021458e4589392f6f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="100" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="100" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="107" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="107" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="119" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="119" bodyend="123"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="124" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="124" bodyend="128"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="129" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="129" bodyend="136"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="134" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="134" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriIntersectResult_1aab3b402a98f3e5c953dee62f0f23bba6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="141" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="141" bodyend="141"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="144" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="144" bodyend="144"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriIntersectResult_1a29594d31a57c2c211075a6b3fbb7ffbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="146" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="146" bodyend="152"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="149" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="149" bodyend="153"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TriIntersectResult_1ab9405d73aa12df2aaa88a3f4354fca55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1TriIntersectResult" kindref="compound">MR.TriIntersectResult</ref></type>
@@ -140,7 +140,93 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="157" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="157" bodyend="164"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="158" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="158" bodyend="163"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1TriIntersectResult_1a7eb40605a150b3a88a801907af8115a1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TriIntersectResult._Underlying *</type>
+        <definition>static unsafe MR.TriIntersectResult._Underlying * MR.TriIntersectResult.__MR_TriIntersectResult_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.TriIntersectResult._Underlying *_other)</argsstring>
+        <name>__MR_TriIntersectResult_AssignFromAnother</name>
+        <qualifiedname>MR.TriIntersectResult.__MR_TriIntersectResult_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.TriIntersectResult._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="168" column="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriIntersectResult_1ae9cd5e0140f7288a33e0b1b0dbcb96d4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TriIntersectResult._Underlying *</type>
+        <definition>static unsafe MR.TriIntersectResult._Underlying * MR.TriIntersectResult.__MR_TriIntersectResult_Construct</definition>
+        <argsstring>(float U, float V, float dist)</argsstring>
+        <name>__MR_TriIntersectResult_Construct</name>
+        <qualifiedname>MR.TriIntersectResult.__MR_TriIntersectResult_Construct</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>U</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="171" column="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriIntersectResult_1a49c5f7f92c3bc3d9e162533a0d50d577" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TriIntersectResult._Underlying *</type>
+        <definition>static unsafe MR.TriIntersectResult._Underlying * MR.TriIntersectResult.__MR_TriIntersectResult_ConstructFromAnother</definition>
+        <argsstring>(MR.TriIntersectResult._Underlying *_other)</argsstring>
+        <name>__MR_TriIntersectResult_ConstructFromAnother</name>
+        <qualifiedname>MR.TriIntersectResult.__MR_TriIntersectResult_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.TriIntersectResult._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="174" column="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriIntersectResult_1a675212521963f9ee1a499468a894feba" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TriPointf._Underlying *</type>
+        <definition>static unsafe MR.TriPointf._Underlying * MR.TriIntersectResult.__MR_TriIntersectResult_GetMutable_bary</definition>
+        <argsstring>(MR.TriIntersectResult._Underlying *_this)</argsstring>
+        <name>__MR_TriIntersectResult_GetMutable_bary</name>
+        <qualifiedname>MR.TriIntersectResult.__MR_TriIntersectResult_GetMutable_bary</qualifiedname>
+        <param>
+          <type>MR.TriIntersectResult._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="177" column="53"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -192,8 +278,12 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="94" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="95" bodyend="165"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="101" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="102" bodyend="178"/>
     <listofallmembers>
+      <member refid="classMR_1_1TriIntersectResult_1a7eb40605a150b3a88a801907af8115a1" prot="private" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>__MR_TriIntersectResult_AssignFromAnother</name></member>
+      <member refid="classMR_1_1TriIntersectResult_1ae9cd5e0140f7288a33e0b1b0dbcb96d4" prot="private" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>__MR_TriIntersectResult_Construct</name></member>
+      <member refid="classMR_1_1TriIntersectResult_1a49c5f7f92c3bc3d9e162533a0d50d577" prot="private" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>__MR_TriIntersectResult_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1TriIntersectResult_1a675212521963f9ee1a499468a894feba" prot="private" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>__MR_TriIntersectResult_GetMutable_bary</name></member>
       <member refid="classMR_1_1Const__TriIntersectResult_1ad83907be365acbf87e218d6cabd9e111" prot="protected" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>__ref_storage_t</name></member>
       <member refid="classMR_1_1TriIntersectResult_1ab9405d73aa12df2aaa88a3f4354fca55" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>assign</name></member>
       <member refid="classMR_1_1TriIntersectResult_1a5b49cc9e41838a348de8e93f416dc13b" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>bary</name></member>

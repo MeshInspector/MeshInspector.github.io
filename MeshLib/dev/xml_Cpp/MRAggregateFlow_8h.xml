@@ -19,24 +19,40 @@
         <childnode refid="13" relation="include">
         </childnode>
       </node>
+      <node id="36">
+        <label>MRAllocator.h</label>
+        <link refid="MRAllocator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
       <node id="35">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
       </node>
       <node id="7">
@@ -75,12 +91,12 @@
         <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="41">
+      <node id="44">
         <label>MRLineSegm.h</label>
         <link refid="MRLineSegm_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -123,7 +139,7 @@
         <childnode refid="29" relation="include">
         </childnode>
       </node>
-      <node id="40">
+      <node id="43">
         <label>MRPlane3.h</label>
         <link refid="MRPlane3_8h"/>
         <childnode refid="20" relation="include">
@@ -136,11 +152,11 @@
         <link refid="MRPolyline_8h"/>
         <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
@@ -175,7 +191,7 @@
         <childnode refid="28" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="42">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="4" relation="include">
@@ -184,7 +200,7 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
       </node>
       <node id="19">
@@ -221,7 +237,7 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="42">
+      <node id="45">
         <label>MRVector2.h</label>
         <link refid="MRVector2_8h"/>
         <childnode refid="6" relation="include">
@@ -274,7 +290,7 @@
       <node id="8">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="36">
+      <node id="39">
         <label>MRphmap.h</label>
       </node>
       <node id="23">
@@ -282,6 +298,9 @@
       </node>
       <node id="9">
         <label>array</label>
+      </node>
+      <node id="40">
+        <label>atomic</label>
       </node>
       <node id="15">
         <label>cassert</label>
@@ -307,14 +326,17 @@
       <node id="26">
         <label>iosfwd</label>
       </node>
-      <node id="37">
+      <node id="41">
         <label>iterator</label>
       </node>
       <node id="28">
         <label>limits</label>
       </node>
-      <node id="39">
+      <node id="37">
         <label>memory</label>
+      </node>
+      <node id="38">
+        <label>mimalloc.h</label>
       </node>
       <node id="12">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>
@@ -355,7 +377,7 @@
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14" refid="structMR_1_1FlowOrigin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FlowOrigin" kindref="compound">FlowOrigin</ref></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="17" refid="group__GeneralGroup_1ga31bfc9564520f8ef69c0c112375278fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/><ref refid="group__GeneralGroup_1ga31bfc9564520f8ef69c0c112375278fb" kindref="member">point</ref>;</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga31bfc9564520f8ef69c0c112375278fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref><sp/><ref refid="group__GeneralGroup_1ga31bfc9564520f8ef69c0c112375278fb" kindref="member">point</ref>;</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga640532564293308f481aa69ef1b94062" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga640532564293308f481aa69ef1b94062" kindref="member">amount</ref><sp/>=<sp/>1;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
@@ -369,12 +391,12 @@
 <codeline lineno="33" refid="classMR_1_1FlowAggregator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1gabc1a76b1bf90fe8aa1fdc481e5ac839a" kindref="member">FlowAggregator</ref></highlight></codeline>
 <codeline lineno="34"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="37" refid="group__GeneralGroup_1gabc1a76b1bf90fe8aa1fdc481e5ac839a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gabc1a76b1bf90fe8aa1fdc481e5ac839a" kindref="member">FlowAggregator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>heights<sp/>);</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1gabc1a76b1bf90fe8aa1fdc481e5ac839a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gabc1a76b1bf90fe8aa1fdc481e5ac839a" kindref="member">FlowAggregator</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars<sp/>&amp;<sp/>heights<sp/>);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="42" refid="group__GeneralGroup_1gab7af4ab803d8e13ab2d6b3cdf826648a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertScalars<sp/><ref refid="group__GeneralGroup_1gab7af4ab803d8e13ab2d6b3cdf826648a" kindref="member">computeFlow</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;FlowOrigin&gt;<sp/>&amp;<sp/>starts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OutputFlows" kindref="compound">OutputFlows</ref><sp/>&amp;<sp/>out<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="44" refid="group__GeneralGroup_1ga1ff594631e7f2613f960b1accd919a4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertScalars<sp/><ref refid="group__GeneralGroup_1ga1ff594631e7f2613f960b1accd919a4a" kindref="member">computeFlow</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;<sp/>&amp;<sp/>starts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OutputFlows" kindref="compound">OutputFlows</ref><sp/>&amp;<sp/>out<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="46" refid="group__GeneralGroup_1gad973bc140aae43a67d88cbd496f5ae14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertScalars<sp/><ref refid="group__GeneralGroup_1gad973bc140aae43a67d88cbd496f5ae14" kindref="member">computeFlow</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numStarts,</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;<ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)&gt;<sp/>&amp;<sp/>startById,<sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;<ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)&gt;<sp/>&amp;<sp/>startById,<sp/></highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)&gt;<sp/>&amp;<sp/>amountById,</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FaceBitSet*(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)&gt;<sp/>&amp;<sp/>regionById,<sp/></highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OutputFlows" kindref="compound">OutputFlows</ref><sp/>&amp;<sp/>out<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
@@ -385,10 +407,10 @@
 <codeline lineno="55" refid="group__GeneralGroup_1ga1b00cb5cc3b4966d2b6b9b009a6ed153" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UndirectedEdgeScalars<sp/><ref refid="group__GeneralGroup_1ga1b00cb5cc3b4966d2b6b9b009a6ed153" kindref="member">flowPerEdge</ref>;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="group__GeneralGroup_1gacdcf96da369668f2f1cd2e2bf65a9a95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;VertId, Flows&gt;</ref><sp/><ref refid="group__GeneralGroup_1gacdcf96da369668f2f1cd2e2bf65a9a95" kindref="member">computeFlowsPerBasin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;FlowOrigin&gt;<sp/>&amp;<sp/>starts<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="63" refid="group__GeneralGroup_1ga73c23a20bf2ee3dbcebbc0ea365f79be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;VertId, Flows&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga73c23a20bf2ee3dbcebbc0ea365f79be" kindref="member">computeFlowsPerBasin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;<sp/>&amp;<sp/>starts<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="65" refid="group__GeneralGroup_1gabcff879c84b9503831511a75aa6314f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;VertId, Flows&gt;</ref><sp/><ref refid="group__GeneralGroup_1gabcff879c84b9503831511a75aa6314f2" kindref="member">computeFlowsPerBasin</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numStarts,</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;<ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)&gt;<sp/>&amp;<sp/>startById,<sp/></highlight></codeline>
+<codeline lineno="61" refid="group__GeneralGroup_1gacdcf96da369668f2f1cd2e2bf65a9a95" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga9dfad208b725d59063370f3881b40552" kindref="member">HashMap&lt;VertId, Flows&gt;</ref><sp/><ref refid="group__GeneralGroup_1gacdcf96da369668f2f1cd2e2bf65a9a95" kindref="member">computeFlowsPerBasin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;FlowOrigin&gt;<sp/>&amp;<sp/>starts<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63" refid="group__GeneralGroup_1ga73c23a20bf2ee3dbcebbc0ea365f79be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga9dfad208b725d59063370f3881b40552" kindref="member">HashMap&lt;VertId, Flows&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga73c23a20bf2ee3dbcebbc0ea365f79be" kindref="member">computeFlowsPerBasin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;MeshTriPoint&gt;<sp/>&amp;<sp/>starts<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65" refid="group__GeneralGroup_1gabcff879c84b9503831511a75aa6314f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga9dfad208b725d59063370f3881b40552" kindref="member">HashMap&lt;VertId, Flows&gt;</ref><sp/><ref refid="group__GeneralGroup_1gabcff879c84b9503831511a75aa6314f2" kindref="member">computeFlowsPerBasin</ref>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>numStarts,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;<ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)&gt;<sp/>&amp;<sp/>startById,<sp/></highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)&gt;<sp/>&amp;<sp/>amountById<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71" refid="group__GeneralGroup_1gabb62c012ed7b9e65547b67fad43bd838" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1gabb62c012ed7b9e65547b67fad43bd838" kindref="member">computeCatchmentDelineation</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>

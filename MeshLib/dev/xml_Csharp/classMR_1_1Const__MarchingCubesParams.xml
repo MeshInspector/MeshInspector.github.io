@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="240" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="241" bodyend="255"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="212" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="213" bodyend="227"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="property">
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="28" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="28" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="26" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__MarchingCubesParams_1afd7519c83b74e9ab390dc9f5efde9912" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="34" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="34" bodyend="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="32" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="32" bodyend="32"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__MarchingCubesParams_1ab6a88f1d6f4de0686298973fa7d534f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe float</type>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="39" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="39" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="37" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__MarchingCubesParams_1a94789133a8b4881b430fad18e0ae4288" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe bool</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="45" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="45" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="43" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__MarchingCubesParams_1a7a32fee0d8f42366222993f59842dae1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe MR.? <ref refid="classMR_1_1Vector__MRVoxelId__MRFaceId" kindref="compound">Vector_MRVoxelId_MRFaceId</ref></type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="51" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="52" bodyend="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="49" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="50" bodyend="61"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__MarchingCubesParams_1a2ee680c01034dee17db40b6af9d17a12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe MR.? <ref refid="classMR_1_1Box__AffineXf3f" kindref="compound">Box_AffineXf3f</ref></type>
@@ -136,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="71" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="72" bodyend="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="69" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="70" bodyend="81"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__MarchingCubesParams_1a6616ba4e72c3b7191033fbfdf67a1798" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_MRVector3f_From_ConstMRVector3fRef_ConstMRVector3fRef_Float_Float_Float</type>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="91" column="115" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="91" bodyend="91"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="89" column="115" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="89" bodyend="89"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__MarchingCubesParams_1ac30f5fc75c3f49e305f1503c5577bc8a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe int</type>
@@ -166,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="96" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="96" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="94" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__MarchingCubesParams_1ad79457856982f767a8881de948e494c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe <ref refid="classMR_1_1Const__MarchingCubesParams_1a6c3c2a17a3a0a0737efcb5b1fa975f49" kindref="member">MR.MarchingCubesParams.CachingMode</ref></type>
@@ -180,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="99" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="99" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="97" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__MarchingCubesParams_1a62bfd7c43cffe08d192f94dd657a0c44" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Void</type>
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="105" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="105" bodyend="105"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="103" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="103" bodyend="103"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -211,7 +211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="29" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="29" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="27" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__MarchingCubesParams_1aac91e1a283fc005627b6abc7767e2ee4" prot="protected" static="no" mutable="no">
         <type>unsafe float *</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="40" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="40" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="38" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__MarchingCubesParams_1aa432f5238c4451aeb8fa49c6a63ab085" prot="protected" static="no" mutable="no">
         <type>unsafe bool *</type>
@@ -239,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="46" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="46" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="44" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__MarchingCubesParams_1aaefc3a3d2038890ace8e09c6e8facb4c" prot="protected" static="no" mutable="no">
         <type>unsafe MR.Vector_MRVoxelId_MRFaceId._Underlying **</type>
@@ -253,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="64" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="64" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="62" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__MarchingCubesParams_1aed46c17c92dc92308619c518b4d0bdcf" prot="protected" static="no" mutable="no">
         <type>unsafe MR.Box_AffineXf3f._Underlying **</type>
@@ -267,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="84" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="84" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="82" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__MarchingCubesParams_1a5c7190a04dbc25544a9b0349a1afa5ad" prot="protected" static="no" mutable="no">
         <type>unsafe int *</type>
@@ -281,7 +281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="97" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="97" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="95" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__MarchingCubesParams_1a75f7f29a94564db739d5c7bb0d6cda19" prot="protected" static="no" mutable="no">
         <type>unsafe <ref refid="classMR_1_1Const__MarchingCubesParams_1a6c3c2a17a3a0a0737efcb5b1fa975f49" kindref="member">MR.MarchingCubesParams.CachingMode</ref> *</type>
@@ -295,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="100" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="100" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="98" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="98" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -315,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="13" bodyend="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="13" bodyend="19"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -331,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="22" bodyend="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="20" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="20" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1a9933bfba6afdf8eaf0396a54131f11f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -346,7 +346,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="189" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="189" bodyend="195"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="167" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="167" bodyend="171"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1a739741fb74e2c58c43c8f8e7525af6cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -401,7 +401,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="200" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="200" bodyend="212"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="176" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="176" bodyend="186"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1a791af42d7ad5fab2a32cf0cf5ee07150" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -420,7 +420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="217" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="217" bodyend="224"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="191" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="191" bodyend="196"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1a204135d17770764136f2049203dacc99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -439,7 +439,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="229" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="229" bodyend="229"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="201" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="201" bodyend="201"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1a7ae5a6b7357695f6f729d1f3d5b0d195" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -458,7 +458,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="234" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="234" bodyend="234"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="206" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="206" bodyend="206"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -474,7 +474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="23" bodyend="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="21" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="21" bodyend="21"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -498,7 +498,309 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="178" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="178" bodyend="183"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="156" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="156" bodyend="161"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1a105bf98bdb46354851d2f146c5dd9585" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MarchingCubesParams._Underlying *</type>
+        <definition>static unsafe MR.MarchingCubesParams._Underlying * MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_ConstructFrom</definition>
+        <argsstring>(MR.Vector3f origin, MR.Misc._PassBy cb_pass_by, MR.Std.Function_Bool_From_Float._Underlying *cb, float iso, byte lessInside, MR.Vector_MRVoxelId_MRFaceId._Underlying *outVoxelPerFaceMap, MR.AffineXf3f *outGridToMeshXf, MR.Misc._PassBy positioner_pass_by, MR.Std.Function_MRVector3f_From_ConstMRVector3fRef_ConstMRVector3fRef_Float_Float_Float._Underlying *positioner, int maxVertices, MR.MarchingCubesParams.CachingMode cachingMode, MR.Misc._PassBy freeVolume_pass_by, MR.Std.Function_Void._Underlying *freeVolume)</argsstring>
+        <name>__MR_MarchingCubesParams_ConstructFrom</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_ConstructFrom</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>iso</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>lessInside</declname>
+        </param>
+        <param>
+          <type>MR.Vector_MRVoxelId_MRFaceId._Underlying *</type>
+          <declname>outVoxelPerFaceMap</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
+          <declname>outGridToMeshXf</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>positioner_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Function_MRVector3f_From_ConstMRVector3fRef_ConstMRVector3fRef_Float_Float_Float._Underlying *</type>
+          <declname>positioner</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxVertices</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MarchingCubesParams_1a6c3c2a17a3a0a0737efcb5b1fa975f49" kindref="member">MR.MarchingCubesParams.CachingMode</ref></type>
+          <declname>cachingMode</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>freeVolume_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Function_Void._Underlying *</type>
+          <declname>freeVolume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="232" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1ace9d20a245d78feaa1e9c8071a0f0df1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MarchingCubesParams._Underlying *</type>
+        <definition>static unsafe MR.MarchingCubesParams._Underlying * MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.MarchingCubesParams._Underlying *_other)</argsstring>
+        <name>__MR_MarchingCubesParams_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.MarchingCubesParams._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="235" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1a15df7cf0ecb3469b432b0e9d5421aaa7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MarchingCubesParams._Underlying *</type>
+        <definition>static unsafe MR.MarchingCubesParams._Underlying * MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_MarchingCubesParams_DefaultConstruct</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="238" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1a2309d1c6e375853839c734752b267767" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_MarchingCubesParams_Destroy</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="241" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1ac62bb32f4e278fc3b15c9205ecf92101" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__MarchingCubesParams_1a6c3c2a17a3a0a0737efcb5b1fa975f49" kindref="member">MR.MarchingCubesParams.CachingMode</ref> *</type>
+        <definition>static unsafe MR.MarchingCubesParams.CachingMode * MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_cachingMode</definition>
+        <argsstring>(MR.Const_MarchingCubesParams._Underlying *_this)</argsstring>
+        <name>__MR_MarchingCubesParams_Get_cachingMode</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_cachingMode</qualifiedname>
+        <param>
+          <type>MR.Const_MarchingCubesParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="244" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1a51e991d589f7f44ad0be36b61ec85b3c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Function_Bool_From_Float._Underlying * MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_cb</definition>
+        <argsstring>(MR.Const_MarchingCubesParams._Underlying *_this)</argsstring>
+        <name>__MR_MarchingCubesParams_Get_cb</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_cb</qualifiedname>
+        <param>
+          <type>MR.Const_MarchingCubesParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="247" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1ac8a2babd583e27620e52ca9397e2c7ca" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Function_Void._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Function_Void._Underlying * MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_freeVolume</definition>
+        <argsstring>(MR.Const_MarchingCubesParams._Underlying *_this)</argsstring>
+        <name>__MR_MarchingCubesParams_Get_freeVolume</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_freeVolume</qualifiedname>
+        <param>
+          <type>MR.Const_MarchingCubesParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="250" column="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1a20670a5513da033298bfcb78c38c0a03" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe float *</type>
+        <definition>static unsafe float * MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_iso</definition>
+        <argsstring>(MR.Const_MarchingCubesParams._Underlying *_this)</argsstring>
+        <name>__MR_MarchingCubesParams_Get_iso</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_iso</qualifiedname>
+        <param>
+          <type>MR.Const_MarchingCubesParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="253" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1a62b12a88c2a7cfae04328fcd1a623a45" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe bool *</type>
+        <definition>static unsafe bool * MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_lessInside</definition>
+        <argsstring>(MR.Const_MarchingCubesParams._Underlying *_this)</argsstring>
+        <name>__MR_MarchingCubesParams_Get_lessInside</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_lessInside</qualifiedname>
+        <param>
+          <type>MR.Const_MarchingCubesParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="256" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1a9368fdbcfa3ac1f1a779a1dbdef8a30a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe int *</type>
+        <definition>static unsafe int * MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_maxVertices</definition>
+        <argsstring>(MR.Const_MarchingCubesParams._Underlying *_this)</argsstring>
+        <name>__MR_MarchingCubesParams_Get_maxVertices</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_maxVertices</qualifiedname>
+        <param>
+          <type>MR.Const_MarchingCubesParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="259" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1adaec2e5347492c7387f2d6acc4b30d71" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>static unsafe MR.Vector3f * MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_origin</definition>
+        <argsstring>(MR.Const_MarchingCubesParams._Underlying *_this)</argsstring>
+        <name>__MR_MarchingCubesParams_Get_origin</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_origin</qualifiedname>
+        <param>
+          <type>MR.Const_MarchingCubesParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="262" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1a01f24f5c766178cdfe4fcbe3e30721ad" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Box_AffineXf3f._Underlying **</type>
+        <definition>static unsafe MR.Box_AffineXf3f._Underlying ** MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_outGridToMeshXf</definition>
+        <argsstring>(Const_MarchingCubesParams._Underlying *_this)</argsstring>
+        <name>__MR_MarchingCubesParams_Get_outGridToMeshXf</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_outGridToMeshXf</qualifiedname>
+        <param>
+          <type>Const_MarchingCubesParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="265" column="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1af416249b2bfab1bc668c103bec034e43" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_MRVoxelId_MRFaceId._Underlying **</type>
+        <definition>static unsafe MR.Vector_MRVoxelId_MRFaceId._Underlying ** MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_outVoxelPerFaceMap</definition>
+        <argsstring>(Const_MarchingCubesParams._Underlying *_this)</argsstring>
+        <name>__MR_MarchingCubesParams_Get_outVoxelPerFaceMap</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_outVoxelPerFaceMap</qualifiedname>
+        <param>
+          <type>Const_MarchingCubesParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="268" column="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MarchingCubesParams_1aa6c8d458ba69d68f3e07c1961032ef9e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Function_MRVector3f_From_ConstMRVector3fRef_ConstMRVector3fRef_Float_Float_Float._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Function_MRVector3f_From_ConstMRVector3fRef_ConstMRVector3fRef_Float_Float_Float._Underlying * MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_positioner</definition>
+        <argsstring>(MR.Const_MarchingCubesParams._Underlying *_this)</argsstring>
+        <name>__MR_MarchingCubesParams_Get_positioner</name>
+        <qualifiedname>MR.Const_MarchingCubesParams.__MR_MarchingCubesParams_Get_positioner</qualifiedname>
+        <param>
+          <type>MR.Const_MarchingCubesParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="271" column="133"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -554,8 +856,22 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="8" bodyend="256"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMarchingCubes.cs" bodystart="8" bodyend="272"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1a105bf98bdb46354851d2f146c5dd9585" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1ace9d20a245d78feaa1e9c8071a0f0df1" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1a15df7cf0ecb3469b432b0e9d5421aaa7" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1a2309d1c6e375853839c734752b267767" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_Destroy</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1ac62bb32f4e278fc3b15c9205ecf92101" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_Get_cachingMode</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1a51e991d589f7f44ad0be36b61ec85b3c" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_Get_cb</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1ac8a2babd583e27620e52ca9397e2c7ca" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_Get_freeVolume</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1a20670a5513da033298bfcb78c38c0a03" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_Get_iso</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1a62b12a88c2a7cfae04328fcd1a623a45" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_Get_lessInside</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1a9368fdbcfa3ac1f1a779a1dbdef8a30a" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_Get_maxVertices</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1adaec2e5347492c7387f2d6acc4b30d71" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_Get_origin</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1a01f24f5c766178cdfe4fcbe3e30721ad" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_Get_outGridToMeshXf</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1af416249b2bfab1bc668c103bec034e43" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_Get_outVoxelPerFaceMap</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesParams_1aa6c8d458ba69d68f3e07c1961032ef9e" prot="private" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__MR_MarchingCubesParams_Get_positioner</name></member>
       <member refid="classMR_1_1Const__MarchingCubesParams_1aed46c17c92dc92308619c518b4d0bdcf" prot="protected" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__ptr_storage_outGridToMeshXf</name></member>
       <member refid="classMR_1_1Const__MarchingCubesParams_1aaefc3a3d2038890ace8e09c6e8facb4c" prot="protected" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__ptr_storage_outVoxelPerFaceMap</name></member>
       <member refid="classMR_1_1Const__MarchingCubesParams_1a75f7f29a94564db739d5c7bb0d6cda19" prot="protected" virt="non-virtual"><scope>MR::Const_MarchingCubesParams</scope><name>__ref_storage_cachingMode</name></member>

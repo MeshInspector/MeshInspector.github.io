@@ -3,12 +3,12 @@
   <compounddef id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Vector_Nesting_NestingResult_ObjId</compoundname>
     <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a91926e06883c68ac1c76ef75abd162ac" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ab59f32f707c7eee65f7ed3432c6add8d" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.Vector_Nesting_NestingResult_ObjId::_offsetof_vec_</definition>
+        <definition>typing mrmeshpy.Vector_Nesting_NestingResult_ObjId::_offsetof_vec</definition>
         <argsstring></argsstring>
-        <name>_offsetof_vec_</name>
-        <qualifiedname>mrmeshpy.Vector_Nesting_NestingResult_ObjId._offsetof_vec_</qualifiedname>
+        <name>_offsetof_vec</name>
+        <qualifiedname>mrmeshpy.Vector_Nesting_NestingResult_ObjId._offsetof_vec</qualifiedname>
         <initializer>=  0</initializer>
         <briefdescription>
         </briefdescription>
@@ -16,10 +16,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68565" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56939" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a6e060498b7e3216c5657819e034af152" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_Nesting_NestingResult_ObjId::const_pointer</definition>
+        <argsstring></argsstring>
+        <name>const_pointer</name>
+        <qualifiedname>mrmeshpy.Vector_Nesting_NestingResult_ObjId.const_pointer</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Nesting_1_1NestingResult" kindref="compound">Nesting.NestingResult</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56940" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a2e61908d1c505ee50c57691f39aaede2" prot="public" static="yes" mutable="no">
         <type></type>
         <definition>mrmeshpy.Vector_Nesting_NestingResult_ObjId::const_reference</definition>
@@ -33,7 +48,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68566" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56941" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a2ed526f46d473de09780b4c563223d3f" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_Nesting_NestingResult_ObjId::pointer</definition>
+        <argsstring></argsstring>
+        <name>pointer</name>
+        <qualifiedname>mrmeshpy.Vector_Nesting_NestingResult_ObjId.pointer</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Nesting_1_1NestingResult" kindref="compound">Nesting.NestingResult</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56942" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56942" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a388b0601300e1858c334e4b28022323a" prot="public" static="yes" mutable="no">
         <type></type>
@@ -48,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68567" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56943" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a28e063d3f46e948d28d469d2c35ba5e2" prot="public" static="yes" mutable="no">
         <type></type>
@@ -63,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68568" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56944" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -87,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68571" bodyend="68572"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56947" bodyend="56948"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ac57be3c683d8da7ef2eaaff1e9efec9f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId" kindref="compound">Vector_Nesting_NestingResult_ObjId</ref></type>
@@ -109,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68575" bodyend="68576"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56951" bodyend="56952"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ac57be3c683d8da7ef2eaaff1e9efec9f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId" kindref="compound">Vector_Nesting_NestingResult_ObjId</ref></type>
@@ -131,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68579" bodyend="68580"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56955" bodyend="56956"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -155,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68582" bodyend="68583"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56958" bodyend="56959"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a1732dcee7b8c13a673a27cde4eae4e62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Nesting_1_1NestingResult" kindref="compound">Nesting.NestingResult</ref></type>
@@ -177,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68585" bodyend="68586"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56961" bodyend="56962"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a9aa8dd1ef374dcf60473102ca8e755c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -197,7 +227,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68588" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68588" bodyend="68591"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56964" bodyend="56967"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a538b08771f19903b4f83b4e654aa0116" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -221,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68593" bodyend="68596"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56969" bodyend="56972"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a34a34513d9c87d941d72364a6b2f27ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -249,12 +279,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68598" bodyend="68601"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56974" bodyend="56977"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a6c19a219431cdfdba347e7bcbcc5dbd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1add465d48667b78619fb802c6a8580457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Vector_Nesting_NestingResult_ObjId.__init__</definition>
-        <argsstring>(self, std_vector_Nesting_NestingResult vec)</argsstring>
+        <argsstring>(self, list arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Vector_Nesting_NestingResult_ObjId.__init__</qualifiedname>
         <param>
@@ -262,18 +292,16 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__Nesting__NestingResult" kindref="compound">std_vector_Nesting_NestingResult</ref></type>
-          <declname>vec</declname>
+          <type>list</type>
+          <declname>arg0</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>moves data from the given std::vector&lt;T&gt;
-</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68603" bodyend="68606"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56979" bodyend="56980"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1aea773c278e06729a8433b57fc87274b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -297,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68608" bodyend="68611"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56982" bodyend="56985"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a0d5a52aeea64b64345229a6f504fb021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Iterator[<ref refid="classmrmeshpy_1_1Nesting_1_1NestingResult" kindref="compound">Nesting.NestingResult</ref>]</type>
@@ -315,7 +343,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68612" bodyend="68613"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56986" bodyend="56987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a099d71d26b203f00cfd03eb6c79a54f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_Nesting_NestingResult_ObjId.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.Vector_Nesting_NestingResult_ObjId.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56988" bodyend="56989"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a1d0f9320d301813136cbf2f11eebadc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -341,7 +387,35 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68614" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68614" bodyend="68615"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56990" bodyend="56991"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a2a41ad512fa6102c08f1818ecf5d2926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Nesting_NestingResult_ObjId.assign</definition>
+        <argsstring>(self, int count, Nesting.NestingResult val)</argsstring>
+        <name>assign</name>
+        <qualifiedname>mrmeshpy.Vector_Nesting_NestingResult_ObjId.assign</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Nesting_1_1NestingResult" kindref="compound">Nesting.NestingResult</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>replaces the contents with \\p count copies of \\p val
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56992" bodyend="56995"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a53015c3d26c916d2b558cda220f8ed01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Nesting_1_1NestingResult" kindref="compound">Nesting.NestingResult</ref></type>
@@ -365,7 +439,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68616" bodyend="68619"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56996" bodyend="56999"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ad4234995a78aaca6824fea0ef7b53779" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -398,7 +472,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68621" bodyend="68625"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57001" bodyend="57005"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a7cd51c2598d50cebc81ee9936c06b88d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -426,7 +500,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68627" bodyend="68630"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57007" bodyend="57010"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ae08afaa1b1160f1be245be769d312689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Nesting_1_1NestingResult" kindref="compound">Nesting.NestingResult</ref></type>
@@ -444,7 +518,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68632" bodyend="68633"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57012" bodyend="57013"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ae08afaa1b1160f1be245be769d312689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Nesting_1_1NestingResult" kindref="compound">Nesting.NestingResult</ref></type>
@@ -462,7 +536,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68635" bodyend="68636"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57015" bodyend="57016"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a53c46a36ea766f07b96e60076c8a86c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
@@ -482,7 +556,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68637" bodyend="68640"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57017" bodyend="57020"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a64db3d77fa0bc520c3801e69340f6286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
@@ -502,7 +576,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68641" bodyend="68644"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57021" bodyend="57024"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a89b23ff8dadc56e9163c5e21f06f1d5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -520,7 +594,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68645" bodyend="68646"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57025" bodyend="57026"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1af0d2030572e9339f1303959191490324" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -538,7 +612,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68647" bodyend="68648"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57027" bodyend="57028"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a171434d51b4587b94ad14370786ab77d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Nesting_1_1NestingResult" kindref="compound">Nesting.NestingResult</ref></type>
@@ -556,7 +630,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68650" bodyend="68651"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57030" bodyend="57031"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a171434d51b4587b94ad14370786ab77d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Nesting_1_1NestingResult" kindref="compound">Nesting.NestingResult</ref></type>
@@ -574,7 +648,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68653" bodyend="68654"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57033" bodyend="57034"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a0a227adc6e0500624c612094934fb6c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -592,7 +666,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68655" bodyend="68656"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57035" bodyend="57036"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a156d4330c0e46229a6ba4714f01aa6cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
@@ -612,7 +686,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68657" bodyend="68660"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57037" bodyend="57040"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ac40b7d716987118b757f7674d0136187" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Nesting_1_1NestingResult" kindref="compound">Nesting.NestingResult</ref></type>
@@ -630,7 +704,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68662" bodyend="68663"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57042" bodyend="57043"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ac40b7d716987118b757f7674d0136187" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Nesting_1_1NestingResult" kindref="compound">Nesting.NestingResult</ref></type>
@@ -648,7 +722,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68665" bodyend="68666"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57045" bodyend="57046"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1aea1989458d3e0719038d440788837bde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -668,7 +742,25 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68667" bodyend="68670"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57047" bodyend="57050"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a88eefe639336911da50d755610994a44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_Nesting_NestingResult_ObjId.max_size</definition>
+        <argsstring>(self)</argsstring>
+        <name>max_size</name>
+        <qualifiedname>mrmeshpy.Vector_Nesting_NestingResult_ObjId.max_size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57051" bodyend="57052"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a5bcf2d0e41605269fff09a43a1347a89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -686,7 +778,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68671" bodyend="68672"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57053" bodyend="57054"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a4604ea9302f1cb02c3f2498712a3b087" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -708,7 +800,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68674" bodyend="68675"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57056" bodyend="57057"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a4604ea9302f1cb02c3f2498712a3b087" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -730,7 +822,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68677" bodyend="68678"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57059" bodyend="57060"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a1623e66f02ee364e7bc11ed868f86f21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -752,7 +844,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68679" bodyend="68680"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57061" bodyend="57062"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a01d335724f72baebef3e4259dc24f727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -774,7 +866,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68682" bodyend="68683"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57064" bodyend="57065"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a83fcbe7e07ac46fd2e3e1506576b12b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -800,7 +892,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68685" bodyend="68686"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57067" bodyend="57068"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a2b74bb0235d9ea52f02dcad44801e547" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -819,12 +911,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+<para><verbatim>same as resize(newSize), which already grows the capacity geometrically
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68688" bodyend="68691"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57070" bodyend="57073"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a02b4643b1f59d40148762ebddc1c1eb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -847,12 +939,30 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+<para><verbatim>same as resize(newSize, value), which already grows the capacity geometrically
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68693" bodyend="68696"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57075" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57075" bodyend="57078"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a56ca9541d12fd3a70bbef7a0b1f6f1de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_Nesting_NestingResult_ObjId.shrink_to_fit</definition>
+        <argsstring>(self)</argsstring>
+        <name>shrink_to_fit</name>
+        <qualifiedname>mrmeshpy.Vector_Nesting_NestingResult_ObjId.shrink_to_fit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57079" bodyend="57080"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a61f4598210a0e8b4df734824b537b121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -870,7 +980,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68697" bodyend="68698"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57081" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57081" bodyend="57082"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a71eff65d2df3fc41ed3722b8567f2204" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -892,14 +1002,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68699" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68699" bodyend="68700"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57083" bodyend="57084"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a9a99de5303b661e92bf4d9fb373d44eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a03b552f1ede6cf10d95f3acf7d53e635" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__Nesting__NestingResult" kindref="compound">std_vector_Nesting_NestingResult</ref></type>
-        <definition> std_vector_Nesting_NestingResult mrmeshpy.Vector_Nesting_NestingResult_ObjId.vec_</definition>
+        <definition> std_vector_Nesting_NestingResult mrmeshpy.Vector_Nesting_NestingResult_ObjId.vec</definition>
         <argsstring>(self)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Vector_Nesting_NestingResult_ObjId.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Vector_Nesting_NestingResult_ObjId.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -912,14 +1022,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68702" bodyend="68705"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57086" bodyend="57089"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a60ed6b199a7a7da2d3402bc4bbd70792" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a7b33a8ff1afc0f083e1d71109864479d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.Vector_Nesting_NestingResult_ObjId.vec_</definition>
+        <definition> None mrmeshpy.Vector_Nesting_NestingResult_ObjId.vec</definition>
         <argsstring>(self, std_vector_Nesting_NestingResult arg1)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Vector_Nesting_NestingResult_ObjId.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Vector_Nesting_NestingResult_ObjId.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -934,7 +1044,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68707" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68707" bodyend="68708"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57091" bodyend="57092"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -948,7 +1058,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
  \\tparam I type of index (shall be convertible to size_t)
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="68555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="68555" bodyend="68708"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56929" bodyend="57092"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a1732dcee7b8c13a673a27cde4eae4e62" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>__getitem__</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a1732dcee7b8c13a673a27cde4eae4e62" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>__getitem__</name></member>
@@ -956,11 +1066,13 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a9aa8dd1ef374dcf60473102ca8e755c7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a538b08771f19903b4f83b4e654aa0116" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a34a34513d9c87d941d72364a6b2f27ac" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a6c19a219431cdfdba347e7bcbcc5dbd7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1add465d48667b78619fb802c6a8580457" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1aea773c278e06729a8433b57fc87274b0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a0d5a52aeea64b64345229a6f504fb021" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a099d71d26b203f00cfd03eb6c79a54f0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>__len__</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a1d0f9320d301813136cbf2f11eebadc5" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>__setitem__</name></member>
-      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a91926e06883c68ac1c76ef75abd162ac" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ab59f32f707c7eee65f7ed3432c6add8d" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>_offsetof_vec</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a2a41ad512fa6102c08f1818ecf5d2926" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>assign</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a53015c3d26c916d2b558cda220f8ed01" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>autoResizeAt</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ad4234995a78aaca6824fea0ef7b53779" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a7cd51c2598d50cebc81ee9936c06b88d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>autoResizeSet</name></member>
@@ -970,6 +1082,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a64db3d77fa0bc520c3801e69340f6286" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>beginId</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a89b23ff8dadc56e9163c5e21f06f1d5a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>capacity</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1af0d2030572e9339f1303959191490324" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a6e060498b7e3216c5657819e034af152" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>const_pointer</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a2e61908d1c505ee50c57691f39aaede2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>const_reference</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a171434d51b4587b94ad14370786ab77d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>data</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a171434d51b4587b94ad14370786ab77d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>data</name></member>
@@ -978,8 +1091,10 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ac40b7d716987118b757f7674d0136187" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>front</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ac40b7d716987118b757f7674d0136187" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>front</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1aea1989458d3e0719038d440788837bde" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a88eefe639336911da50d755610994a44" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>max_size</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ac57be3c683d8da7ef2eaaff1e9efec9f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1ac57be3c683d8da7ef2eaaff1e9efec9f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a2ed526f46d473de09780b4c563223d3f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>pointer</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a5bcf2d0e41605269fff09a43a1347a89" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>pop_back</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a4604ea9302f1cb02c3f2498712a3b087" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>push_back</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a4604ea9302f1cb02c3f2498712a3b087" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>push_back</name></member>
@@ -989,11 +1104,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a83fcbe7e07ac46fd2e3e1506576b12b7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>resize</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a2b74bb0235d9ea52f02dcad44801e547" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>resizeWithReserve</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a02b4643b1f59d40148762ebddc1c1eb4" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a56ca9541d12fd3a70bbef7a0b1f6f1de" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>shrink_to_fit</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a61f4598210a0e8b4df734824b537b121" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a71eff65d2df3fc41ed3722b8567f2204" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>swap</name></member>
       <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a28e063d3f46e948d28d469d2c35ba5e2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>value_type</name></member>
-      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a9a99de5303b661e92bf4d9fb373d44eb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>vec_</name></member>
-      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a60ed6b199a7a7da2d3402bc4bbd70792" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a03b552f1ede6cf10d95f3acf7d53e635" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>vec</name></member>
+      <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a7b33a8ff1afc0f083e1d71109864479d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_Nesting_NestingResult_ObjId</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

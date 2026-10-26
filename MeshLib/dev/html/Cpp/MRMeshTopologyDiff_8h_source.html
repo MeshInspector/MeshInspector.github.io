@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -165,7 +158,7 @@ $(function(){initNavTree('MRMeshTopologyDiff_8h_source.html','',''); });
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">size_t</span> toEdgesSize_ = 0;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_typedef" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap&lt;EdgeId, MeshTopology::HalfEdgeRecord&gt;</a> changedEdges_;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_typedef" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap&lt;EdgeId, MeshTopology::HalfEdgeRecord&gt;</a> changedEdges_;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>};</div>
 </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
@@ -175,10 +168,10 @@ $(function(){initNavTree('MRMeshTopologyDiff_8h_source.html','',''); });
 <div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMeshTopology.h:30</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga2938cffd19b314aeae8e39ef7dc4df2e"><div class="ttname"><a href="group__GeneralGroup.html#ga2938cffd19b314aeae8e39ef7dc4df2e">MR::MeshTopologyDiff::applyAndSwap</a></div><div class="ttdeci">void applyAndSwap(MeshTopology &amp;t)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga88fdf0cea84ab07c1fef729e2ae635cb"><div class="ttname"><a href="group__GeneralGroup.html#ga88fdf0cea84ab07c1fef729e2ae635cb">MR::MeshTopologyDiff::MeshTopologyDiff</a></div><div class="ttdeci">MeshTopologyDiff(const MeshTopology &amp;from, const MeshTopology &amp;to)</div><div class="ttdoc">computes the difference, that can be applied to topology-from in order to get topology-to</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9dfad208b725d59063370f3881b40552"><div class="ttname"><a href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">MR::HashMap</a></div><div class="ttdeci">phmap::flat_hash_map&lt; K, V, Hash, Eq, Allocator&lt; std::pair&lt; const K, V &gt; &gt; &gt; HashMap</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:630</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaa4a8e6c2de54156f11ab33a657c3c2d9"><div class="ttname"><a href="group__GeneralGroup.html#gaa4a8e6c2de54156f11ab33a657c3c2d9">MR::MeshTopologyDiff::heapBytes</a></div><div class="ttdeci">size_t heapBytes() const</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaeb15ef52dc9593c97da084a462456e23"><div class="ttname"><a href="group__GeneralGroup.html#gaeb15ef52dc9593c97da084a462456e23">MR::MeshTopologyDiff::any</a></div><div class="ttdeci">bool any() const</div><div class="ttdef"><b>Definition</b> MRMeshTopologyDiff.h:31</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf1195b4bb18db9e8ca21e92db9139406"><div class="ttname"><a href="group__GeneralGroup.html#gaf1195b4bb18db9e8ca21e92db9139406">MR::MeshTopologyDiff::MeshTopologyDiff</a></div><div class="ttdeci">MeshTopologyDiff()=default</div><div class="ttdoc">constructs minimal difference, where applyAndSwap( t ) will produce empty topology</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_gaf8ad9e1b05a45987a3075d43bf345d68"><div class="ttname"><a href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">MR::HashMap</a></div><div class="ttdeci">phmap::flat_hash_map&lt; K, V, Hash, Eq &gt; HashMap</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:606</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

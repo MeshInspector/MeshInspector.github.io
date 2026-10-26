@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -148,11 +141,11 @@ $(function(){initNavTree('classmrmeshpy_1_1FlowAggregator.html','',''); });
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html#a085847a42b39cf0cca1785e84208d85a">__init__</a>(self, FlowAggregator arg0)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">mrmeshpy.FlowAggregator</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html#a85139beb870cc0e93eb54c47ad83bb86">computeCatchmentDelineation</a>(self)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">mrmeshpy.FlowAggregator</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html#a2cad66ccbded9bf4a35c26d7ca9b8166">computeFlow</a>(self, std_vector_FlowOrigin starts, OutputFlows out=...)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">mrmeshpy.FlowAggregator</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html#a6b6b14b8de7656d84900179677c2587c">computeFlow</a>(self, std_vector_MeshTriPoint starts, OutputFlows out=...)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">mrmeshpy.FlowAggregator</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html#ab6160992e764056e93ee15bcb5f92b91">computeFlow</a>(self, int numStarts, func_MeshTriPoint_from_unsigned_long startById, func_float_from_unsigned_long amountById, func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long regionById, OutputFlows out=...)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">mrmeshpy.FlowAggregator</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html#ad6acdfdf82fcaff04e03a0a2e0340899">computeFlowsPerBasin</a>(self, std_vector_FlowOrigin starts)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">mrmeshpy.FlowAggregator</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html#ad4b199014b955fd39b0f10057da2f2e7">computeFlowsPerBasin</a>(self, std_vector_MeshTriPoint starts)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">mrmeshpy.FlowAggregator</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html#a8ce86ef5823edc67abca2f693b31c3ce">computeFlowsPerBasin</a>(self, int numStarts, func_MeshTriPoint_from_unsigned_long startById, func_float_from_unsigned_long amountById)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">mrmeshpy.FlowAggregator</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html#ae339515d5e3ab4febef23034e293e44f">computeFlow</a>(self, std_vector_MeshTriPointT_float starts, OutputFlows out=...)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">mrmeshpy.FlowAggregator</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html#a74702f12db78669b68c113fb16536d35">computeFlow</a>(self, int numStarts, func_MeshTriPointT_float_from_unsigned_long startById, func_float_from_unsigned_long amountById, func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long regionById, OutputFlows out=...)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">mrmeshpy.FlowAggregator</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html#adcdfabb1482299b2ce7272de10a6f060">computeFlowsPerBasin</a>(self, std_vector_FlowOrigin starts)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">mrmeshpy.FlowAggregator</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html#a16fa49d4d8bb4ba250cdf447315bdec2">computeFlowsPerBasin</a>(self, std_vector_MeshTriPointT_float starts)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">mrmeshpy.FlowAggregator</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html#a033390cad38f30f9513144b5f1e9b141">computeFlowsPerBasin</a>(self, int numStarts, func_MeshTriPointT_float_from_unsigned_long startById, func_float_from_unsigned_long amountById)</td><td class="entry"><a class="el" href="classmrmeshpy_1_1FlowAggregator.html">mrmeshpy.FlowAggregator</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

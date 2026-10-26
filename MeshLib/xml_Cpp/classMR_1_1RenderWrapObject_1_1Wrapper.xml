@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRenderWrapObject.h" line="41" column="5" bodyfile="MRViewer/MRRenderWrapObject.h" bodystart="41" bodyend="46"/>
+        <location file="MRViewer/MRRenderWrapObject.h" line="42" column="5" bodyfile="MRViewer/MRRenderWrapObject.h" bodystart="42" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RenderWrapObject_1_1Wrapper_1ad13b52643d115db231f4501231b97765" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRenderWrapObject.h" line="48" column="5"/>
+        <location file="MRViewer/MRRenderWrapObject.h" line="49" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RenderWrapObject_1_1Wrapper_1ab3a0e53c8d180bbb25650e0ac1544abf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1RenderWrapObject_1_1Wrapper" kindref="compound">Wrapper</ref> &amp;</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRRenderWrapObject.h" line="49" column="13"/>
+        <location file="MRViewer/MRRenderWrapObject.h" line="50" column="13"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -163,7 +163,7 @@
         <label>RenderObjectType</label>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRRenderWrapObject.h" line="38" column="1" bodyfile="MRViewer/MRRenderWrapObject.h" bodystart="39" bodyend="50"/>
+    <location file="MRViewer/MRRenderWrapObject.h" line="39" column="1" bodyfile="MRViewer/MRRenderWrapObject.h" bodystart="40" bodyend="51"/>
     <listofallmembers>
       <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ab3a0e53c8d180bbb25650e0ac1544abf" prot="public" virt="non-virtual"><scope>MR::RenderWrapObject::Wrapper</scope><name>operator=</name></member>
       <member refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage_1aefbb8b64a400a9acc5e776111c7ae297" prot="public" virt="non-virtual"><scope>MR::RenderWrapObject::Wrapper</scope><name>subobject</name></member>

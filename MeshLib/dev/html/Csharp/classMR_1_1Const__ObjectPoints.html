@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -173,8 +166,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac4815407b97acccf7f56344b2b7a75c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
 <tr class="memitem:a8983795c69bda90c49af2c3aa5ecd2d1" id="r_a8983795c69bda90c49af2c3aa5ecd2d1"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8983795c69bda90c49af2c3aa5ecd2d1">Const_ObjectPoints</a> (MR._ByValue_ObjectPoints _other)</td></tr>
 <tr class="memdesc:a8983795c69bda90c49af2c3aa5ecd2d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>.  <br /></td></tr>
-<tr class="memitem:aa6fd827226c6492fd56db71452adfcc4" id="r_aa6fd827226c6492fd56db71452adfcc4"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6fd827226c6492fd56db71452adfcc4">Const_ObjectPoints</a> (<a class="el" href="classMR_1_1Const__ObjectMesh.html">MR.Const_ObjectMesh</a> objMesh, bool? saveNormals=null)</td></tr>
-<tr class="memdesc:aa6fd827226c6492fd56db71452adfcc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>. Parameter <span class="tt">saveNormals</span> defaults to <span class="tt">true</span>.  <br /></td></tr>
+<tr class="memitem:a7fcedb4572e59c06c2f125be892ea043" id="r_a7fcedb4572e59c06c2f125be892ea043"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fcedb4572e59c06c2f125be892ea043">Const_ObjectPoints</a> (<a class="el" href="classMR_1_1Const__ObjectMesh.html">MR.Const_ObjectMesh</a> objMesh, <a class="el" href="classMR.html#ae87fa6e092f96675221f3e07ece671eb">MR.VertNormalsMode</a>? normals=null)</td></tr>
+<tr class="memdesc:a7fcedb4572e59c06c2f125be892ea043"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes the point cloud from the mesh vertices; if some triangles are selected, then only from the vertices with all incident triangles selected Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>. Parameter <span class="tt">normals</span> defaults to <span class="tt"><a class="el" href="classMR.html#ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" title="area-weighted average of the normals of incident triangles, see computePerVertNormals">MR.VertNormalsMode.AreaWeighted</a></span>.  <br /></td></tr>
 <tr class="memitem:a75fcbda37452a47c25486433982141c9" id="r_a75fcbda37452a47c25486433982141c9"><td class="memItemLeft" align="right" valign="top">unsafe? byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75fcbda37452a47c25486433982141c9">typeName</a> ()</td></tr>
 <tr class="memdesc:a75fcbda37452a47c25486433982141c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a75fcbda37452a47c25486433982141c9" title="Generated from method MR.ObjectPoints.typeName.">MR.ObjectPoints.typeName</a></span>.  <br /></td></tr>
 <tr class="memitem:a0d20f03c81ed51939b29b87fe1f72d87" id="r_a0d20f03c81ed51939b29b87fe1f72d87"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d20f03c81ed51939b29b87fe1f72d87">className</a> ()</td></tr>
@@ -191,8 +184,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa2668c0c2ca62a4bca4d6086092fb0a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aa2668c0c2ca62a4bca4d6086092fb0a0" title="Generated from method MR.ObjectPoints.hasVisualRepresentation.">MR.ObjectPoints.hasVisualRepresentation</a></span>.  <br /></td></tr>
 <tr class="memitem:a19204f3ff0b07458f334eb36ef159918" id="r_a19204f3ff0b07458f334eb36ef159918"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19204f3ff0b07458f334eb36ef159918">hasModel</a> ()</td></tr>
 <tr class="memdesc:a19204f3ff0b07458f334eb36ef159918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a19204f3ff0b07458f334eb36ef159918" title="Generated from method MR.ObjectPoints.hasModel.">MR.ObjectPoints.hasModel</a></span>.  <br /></td></tr>
+<tr class="memitem:aa3a29103ec8caf9635b76ae2bde9532b" id="r_aa3a29103ec8caf9635b76ae2bde9532b"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__PointCloud.html">Const_PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3a29103ec8caf9635b76ae2bde9532b">pointCloudPtr</a> ()</td></tr>
+<tr class="memdesc:aa3a29103ec8caf9635b76ae2bde9532b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the point cloud of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#aa3a29103ec8caf9635b76ae2bde9532b" title="returns the point cloud of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectPoints.pointCloudPtr</a></span>.  <br /></td></tr>
 <tr class="memitem:af1b459f391497fe3d041659f01944fa5" id="r_af1b459f391497fe3d041659f01944fa5"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_SharedPtr_ConstMRPointCloud&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1b459f391497fe3d041659f01944fa5">pointCloud</a> ()</td></tr>
-<tr class="memdesc:af1b459f391497fe3d041659f01944fa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#af1b459f391497fe3d041659f01944fa5" title="Generated from method MR.ObjectPoints.pointCloud.">MR.ObjectPoints.pointCloud</a></span>.  <br /></td></tr>
 <tr class="memitem:a064c62da2a901465215a32b27e32b958" id="r_a064c62da2a901465215a32b27e32b958"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1PointCloudPart.html">MR.PointCloudPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a064c62da2a901465215a32b27e32b958">pointCloudPart</a> ()</td></tr>
 <tr class="memitem:a783f726d11907bae1e0629a1f1c2cb40" id="r_a783f726d11907bae1e0629a1f1c2cb40"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a783f726d11907bae1e0629a1f1c2cb40">getSelectedPoints</a> ()</td></tr>
 <tr class="memdesc:a783f726d11907bae1e0629a1f1c2cb40"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets current selected points Generated from method <span class="tt"><a class="el" href="#a783f726d11907bae1e0629a1f1c2cb40" title="gets current selected points Generated from method MR.ObjectPoints.getSelectedPoints.">MR.ObjectPoints.getSelectedPoints</a></span>.  <br /></td></tr>
@@ -227,7 +221,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aed6d673e3aad9901554567594548f31c" id="r_aed6d673e3aad9901554567594548f31c"><td class="memItemLeft" align="right" valign="top">unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed6d673e3aad9901554567594548f31c">getMaxRenderingPoints</a> ()</td></tr>
 <tr class="memdesc:aed6d673e3aad9901554567594548f31c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns maximal number of points that will be rendered if actual count of valid points is greater then the points will be sampled Generated from method <span class="tt"><a class="el" href="#aed6d673e3aad9901554567594548f31c" title="returns maximal number of points that will be rendered if actual count of valid points is greater the...">MR.ObjectPoints.getMaxRenderingPoints</a></span>.  <br /></td></tr>
 <tr class="memitem:ac980555d96dbc8584f7e48d3dcea9c06" id="r_ac980555d96dbc8584f7e48d3dcea9c06"><td class="memItemLeft" align="right" valign="top">unsafe? byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac980555d96dbc8584f7e48d3dcea9c06">serializeFormat</a> ()</td></tr>
-<tr class="memdesc:ac980555d96dbc8584f7e48d3dcea9c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize point cloud inside this object, nullptr means <a class="el" href="classMR.html#adb979235051f16e0860065ee9ec797d0" title="returns file extension used to serialize ObjectPointsHolder by default (if not overridden in specific...">defaultSerializePointsFormat()</a> Generated from method <span class="tt"><a class="el" href="#ac980555d96dbc8584f7e48d3dcea9c06" title="returns overriden file extension used to serialize point cloud inside this object,...">MR.ObjectPoints.serializeFormat</a></span>.  <br /></td></tr>
+<tr class="memdesc:ac980555d96dbc8584f7e48d3dcea9c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize point cloud inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat ) Generated from method <span class="tt"><a class="el" href="#ac980555d96dbc8584f7e48d3dcea9c06" title="returns overriden file extension used to serialize point cloud inside this object,...">MR.ObjectPoints.serializeFormat</a></span>.  <br /></td></tr>
 <tr class="memitem:ade8e5987ea4e1587b5c88ae50b1bf75a" id="r_ade8e5987ea4e1587b5c88ae50b1bf75a"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade8e5987ea4e1587b5c88ae50b1bf75a">getVisualizeProperty</a> (<a class="el" href="classMR_1_1Const__AnyVisualizeMaskEnum.html">MR.Const_AnyVisualizeMaskEnum</a> type, <a class="el" href="classMR_1_1Const__ViewportMask.html">MR.Const_ViewportMask</a> viewportMask)</td></tr>
 <tr class="memdesc:ade8e5987ea4e1587b5c88ae50b1bf75a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the property is set at least in one viewport specified by the mask Generated from method <span class="tt"><a class="el" href="#ade8e5987ea4e1587b5c88ae50b1bf75a" title="returns true if the property is set at least in one viewport specified by the mask Generated from met...">MR.ObjectPoints.getVisualizeProperty</a></span>.  <br /></td></tr>
 <tr class="memitem:aa3c5fe7d50226349189cd7a93bf58f6f" id="r_aa3c5fe7d50226349189cd7a93bf58f6f"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1ViewportMask.html">MR.ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3c5fe7d50226349189cd7a93bf58f6f">globalClippedByPlaneMask</a> ()</td></tr>
@@ -292,6 +286,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae283ed1e219c18597f003c452fbe6773"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <span class="tt"><a class="el" href="#ae283ed1e219c18597f003c452fbe6773" title="If true, the scene tree GUI doesn&#39;t allow you to drag&#39;n&#39;drop this object into a different parent....">MR.ObjectPoints.isParentLocked</a></span>.  <br /></td></tr>
 <tr class="memitem:a2056c144b38d9cf4f9c4afbb40862f33" id="r_a2056c144b38d9cf4f9c4afbb40862f33"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2056c144b38d9cf4f9c4afbb40862f33">isAncestor</a> (<a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a>? ancestor)</td></tr>
 <tr class="memdesc:a2056c144b38d9cf4f9c4afbb40862f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if given object is ancestor of this one, false otherwise Generated from method <span class="tt"><a class="el" href="#a2056c144b38d9cf4f9c4afbb40862f33" title="return true if given object is ancestor of this one, false otherwise Generated from method MR....">MR.ObjectPoints.isAncestor</a></span>.  <br /></td></tr>
+<tr class="memitem:a74453a62554254421500b53322af7527" id="r_a74453a62554254421500b53322af7527"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74453a62554254421500b53322af7527">constChildren</a> ()</td></tr>
+<tr class="memdesc:a74453a62554254421500b53322af7527"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#a74453a62554254421500b53322af7527" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.ObjectPoints.constChildren</a></span>.  <br /></td></tr>
 <tr class="memitem:addcf994a7942f8ab9dbe67eabdcbfa5b" id="r_addcf994a7942f8ab9dbe67eabdcbfa5b"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addcf994a7942f8ab9dbe67eabdcbfa5b">isSelected</a> ()</td></tr>
 <tr class="memdesc:addcf994a7942f8ab9dbe67eabdcbfa5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#addcf994a7942f8ab9dbe67eabdcbfa5b" title="Generated from method MR.ObjectPoints.isSelected.">MR.ObjectPoints.isSelected</a></span>.  <br /></td></tr>
 <tr class="memitem:a75b80caa99ed1c4e102269b1c922952b" id="r_a75b80caa99ed1c4e102269b1c922952b"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75b80caa99ed1c4e102269b1c922952b">isAncillary</a> ()</td></tr>
@@ -309,7 +305,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acec46d1ca6d627960f6299815af7670e" id="r_acec46d1ca6d627960f6299815af7670e"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.SharedPtr_MRObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acec46d1ca6d627960f6299815af7670e">shallowCloneTree</a> ()</td></tr>
 <tr class="memdesc:acec46d1ca6d627960f6299815af7670e"><td class="mdescLeft">&#160;</td><td class="mdescRight">clones all tree of this object (except ancillary and unrecognied children) clones only pointers to mesh, points or voxels Generated from method <span class="tt"><a class="el" href="#acec46d1ca6d627960f6299815af7670e" title="clones all tree of this object (except ancillary and unrecognied children) clones only pointers to me...">MR.ObjectPoints.shallowCloneTree</a></span>.  <br /></td></tr>
 <tr class="memitem:a4085da299e52b80fa18c5ba72c4351cc" id="r_a4085da299e52b80fa18c5ba72c4351cc"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4085da299e52b80fa18c5ba72c4351cc">getWorldTreeBox</a> (MR._InOpt_ViewportId _1=default)</td></tr>
-<tr class="memdesc:a4085da299e52b80fa18c5ba72c4351cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <span class="tt"><a class="el" href="#a4085da299e52b80fa18c5ba72c4351cc" title="empty box returns bounding box of this object and all children visible in given (or default) viewport...">MR.ObjectPoints.getWorldTreeBox</a></span>. Parameter <span class="tt">_1</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memdesc:a4085da299e52b80fa18c5ba72c4351cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <span class="tt"><a class="el" href="#a4085da299e52b80fa18c5ba72c4351cc" title="returns bounding box of this object and all children visible in given (or default) viewport in world ...">MR.ObjectPoints.getWorldTreeBox</a></span>. Parameter <span class="tt">_1</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a63e18221dca09ef2c3eab05c7931fb54" id="r_a63e18221dca09ef2c3eab05c7931fb54"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Set_StdString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63e18221dca09ef2c3eab05c7931fb54">tags</a> ()</td></tr>
 <tr class="memdesc:a63e18221dca09ef2c3eab05c7931fb54"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides read-only access to the tag storage the storage is a set of unique strings Generated from method <span class="tt"><a class="el" href="#a63e18221dca09ef2c3eab05c7931fb54" title="provides read-only access to the tag storage the storage is a set of unique strings Generated from me...">MR.ObjectPoints.tags</a></span>.  <br /></td></tr>
 <tr class="memitem:ae4c49fbe02de8f9449b4f367753c571a" id="r_ae4c49fbe02de8f9449b4f367753c571a"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4c49fbe02de8f9449b4f367753c571a">sameModels</a> (<a class="el" href="classMR_1_1Const__Object.html">MR.Const_Object</a> other)</td></tr>
@@ -408,8 +404,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aa6fd827226c6492fd56db71452adfcc4" name="aa6fd827226c6492fd56db71452adfcc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6fd827226c6492fd56db71452adfcc4">&#9670;&#160;</a></span>Const_ObjectPoints() <span class="overload">[3/3]</span></h2>
+<a id="a7fcedb4572e59c06c2f125be892ea043" name="a7fcedb4572e59c06c2f125be892ea043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fcedb4572e59c06c2f125be892ea043">&#9670;&#160;</a></span>Const_ObjectPoints() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,7 +421,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classMR.html#ae87fa6e092f96675221f3e07ece671eb">MR.VertNormalsMode</a>?</td>          <td class="paramname"><span class="paramname"><em>normals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -435,7 +431,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>. Parameter <span class="tt">saveNormals</span> defaults to <span class="tt">true</span>. </p>
+<p>makes the point cloud from the mesh vertices; if some triangles are selected, then only from the vertices with all incident triangles selected Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>. Parameter <span class="tt">normals</span> defaults to <span class="tt"><a class="el" href="classMR.html#ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" title="area-weighted average of the normals of incident triangles, see computePerVertNormals">MR.VertNormalsMode.AreaWeighted</a></span>. </p>
 
 </div>
 </div>
@@ -545,6 +541,33 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>clones all tree of this object (except ancillary and unrecognized children) Generated from method <span class="tt"><a class="el" href="#a2163838bd8ccab67c97c94ce14154ec5" title="clones all tree of this object (except ancillary and unrecognized children) Generated from method MR....">MR.ObjectPoints.cloneTree</a></span>. </p>
+
+</div>
+</div>
+<a id="a74453a62554254421500b53322af7527" name="a74453a62554254421500b53322af7527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74453a62554254421500b53322af7527">&#9670;&#160;</a></span>constChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1ConstChildren.html">MR.ConstChildren</a> MR.Const_ObjectPoints.constChildren </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the same sub-objects without the ability to modify them; the returned view is invalidated by anything that changes the children of this object Generated from method <span class="tt"><a class="el" href="#a74453a62554254421500b53322af7527" title="the same sub-objects without the ability to modify them; the returned view is invalidated by anything...">MR.ObjectPoints.constChildren</a></span>. </p>
 
 </div>
 </div>
@@ -1385,7 +1408,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <span class="tt"><a class="el" href="#a4085da299e52b80fa18c5ba72c4351cc" title="empty box returns bounding box of this object and all children visible in given (or default) viewport...">MR.ObjectPoints.getWorldTreeBox</a></span>. Parameter <span class="tt">_1</span> defaults to <span class="tt">{}</span>. </p>
+<p>returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <span class="tt"><a class="el" href="#a4085da299e52b80fa18c5ba72c4351cc" title="returns bounding box of this object and all children visible in given (or default) viewport in world ...">MR.ObjectPoints.getWorldTreeBox</a></span>. Parameter <span class="tt">_1</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>
@@ -2099,8 +2122,7 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Generated from method <span class="tt"><a class="el" href="#af1b459f391497fe3d041659f01944fa5" title="Generated from method MR.ObjectPoints.pointCloud.">MR.ObjectPoints.pointCloud</a></span>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000008">Deprecated</a></b></dt><dd>the cast inside is undefined behaviour, use <a class="el" href="#aa3a29103ec8caf9635b76ae2bde9532b" title="returns the point cloud of this object, or nullptr if it is not set Generated from method MR....">pointCloudPtr()</a> instead Generated from method <span class="tt"><a class="el" href="#af1b459f391497fe3d041659f01944fa5">MR.ObjectPoints.pointCloud</a></span>. </dd></dl>
 
 </div>
 </div>
@@ -2127,6 +2149,33 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>the pair ( point cloud, selected points ) if any point is selected or full point cloud otherwise Generated from method <span class="tt"><a class="el" href="#a064c62da2a901465215a32b27e32b958">MR.ObjectPoints.pointCloudPart</a></span>. </dd></dl>
+
+</div>
+</div>
+<a id="aa3a29103ec8caf9635b76ae2bde9532b" name="aa3a29103ec8caf9635b76ae2bde9532b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3a29103ec8caf9635b76ae2bde9532b">&#9670;&#160;</a></span>pointCloudPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.? <a class="el" href="classMR_1_1Const__PointCloud.html">Const_PointCloud</a> MR.Const_ObjectPoints.pointCloudPtr </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the point cloud of this object, or nullptr if it is not set Generated from method <span class="tt"><a class="el" href="#aa3a29103ec8caf9635b76ae2bde9532b" title="returns the point cloud of this object, or nullptr if it is not set Generated from method MR....">MR.ObjectPoints.pointCloudPtr</a></span>. </p>
 
 </div>
 </div>
@@ -2346,7 +2395,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns overriden file extension used to serialize point cloud inside this object, nullptr means <a class="el" href="classMR.html#adb979235051f16e0860065ee9ec797d0" title="returns file extension used to serialize ObjectPointsHolder by default (if not overridden in specific...">defaultSerializePointsFormat()</a> Generated from method <span class="tt"><a class="el" href="#ac980555d96dbc8584f7e48d3dcea9c06" title="returns overriden file extension used to serialize point cloud inside this object,...">MR.ObjectPoints.serializeFormat</a></span>. </p>
+<p>returns overriden file extension used to serialize point cloud inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat ) Generated from method <span class="tt"><a class="el" href="#ac980555d96dbc8584f7e48d3dcea9c06" title="returns overriden file extension used to serialize point cloud inside this object,...">MR.ObjectPoints.serializeFormat</a></span>. </p>
 
 </div>
 </div>

@@ -59,5 +59,6 @@ var classMR_1_1ObjectPointsHolder =
     [ "swap", "classMR_1_1ObjectPointsHolder.html#acf92718d054c0eeee0ef1f6bb6466f8c", null ],
     [ "toggleVisualizeProperty", "classMR_1_1ObjectPointsHolder.html#aad955307fdca62687086b4371910b73c", null ],
     [ "updateSelectedPoints", "classMR_1_1ObjectPointsHolder.html#a1a0eb7b01c367644a0d157eb93681892", null ],
-    [ "updateVertsColorMap", "classMR_1_1ObjectPointsHolder.html#a1344337a3017ea86839e58bfa0d9a15c", null ]
+    [ "updateVertsColorMap", "classMR_1_1ObjectPointsHolder.html#a1344337a3017ea86839e58bfa0d9a15c", null ],
+    [ "varPointCloudPtr", "classMR_1_1ObjectPointsHolder.html#a7e605b56e8eec9563ee05d399c91a95f", null ]
 ];

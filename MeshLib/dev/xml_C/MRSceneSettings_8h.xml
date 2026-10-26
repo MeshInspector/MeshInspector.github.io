@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" bodystart="16" bodyend="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" bodystart="17" bodyend="22"/>
       </memberdef>
       <memberdef kind="enum" id="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5a" prot="public" static="no" strong="no">
         <type></type>
@@ -162,7 +162,54 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" bodystart="24" bodyend="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" bodystart="25" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="enum" id="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_SceneSettings_StringType</name>
+        <enumvalue id="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1ca8fe0cd3c93a362bbb2c76bd10c97de6a" prot="public">
+          <name>MR_SceneSettings_StringType_MeshSerializeFormat</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>file extension (starting with &apos;.&apos;) used to serialize ObjectMeshHolder by default, if not overridden in specific object </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1cac4d7c821b51a82fb450ed5551485224d" prot="public">
+          <name>MR_SceneSettings_StringType_PointsSerializeFormat</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>file extension (starting with &apos;.&apos;) used to serialize ObjectPointsHolder by default, if not overridden in specific object; falls back to PLY if given format is not supported </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1ca1c6309fd68e0e25c99612343870c4b6c" prot="public">
+          <name>MR_SceneSettings_StringType_VoxelsSerializeFormat</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>file extension (starting with &apos;.&apos;) used to serialize ObjectVoxels by default, if not overridden in specific object </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1ca706d7765d33a1f8ba5c92867b129387e" prot="public">
+          <name>MR_SceneSettings_StringType_Count</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>total count </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="46" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" bodystart="47" bodyend="57"/>
       </memberdef>
       <memberdef kind="enum" id="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" prot="public" static="no" strong="no">
         <type></type>
@@ -198,7 +245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="46" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" bodystart="47" bodyend="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="60" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" bodystart="61" bodyend="65"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -213,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="21" column="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="22" column="27"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSceneSettings_8h_1a1d4b4e5796cebc0245ab16d6398b3b1a" prot="public" static="no">
         <type>enum <ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5a" kindref="member">MR_SceneSettings_FloatType</ref></type>
@@ -226,7 +273,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="43" column="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="44" column="28"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSceneSettings_8h_1a77b1b459a94f7a760e6822bf201b94b2" prot="public" static="no">
+        <type>enum <ref refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1c" kindref="member">MR_SceneSettings_StringType</ref></type>
+        <definition>typedef enum MR_SceneSettings_StringType MR_SceneSettings_StringType</definition>
+        <argsstring></argsstring>
+        <name>MR_SceneSettings_StringType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="57" column="29"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSceneSettings_8h_1a0215ab4cc7cbc9b6a7fbc81fddc1f82f" prot="public" static="no">
         <type>enum <ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" kindref="member">MR_SceneSettings_ShadingMode</ref></type>
@@ -240,7 +300,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="51" column="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="65" column="30"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" prot="public" static="no">
         <type>struct <ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref></type>
@@ -254,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="56" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" bodystart="56" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="70" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" bodystart="70" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -273,7 +333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="60" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="60" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="74" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneSettings_8h_1a511c5016fa7f2fdbbae2a42760919f9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -291,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="63" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="77" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="77" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneSettings_8h_1a2f53b33ea65b401b2bfdb0216efceef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
@@ -309,7 +369,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="66" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="66" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="80" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="80" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneSettings_8h_1a18f9b2c08de9246c4f29dbb31a3348cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_SceneSettings_get_MR_SceneSettings_StringType</definition>
+        <argsstring>(MR_SceneSettings_StringType type)</argsstring>
+        <name>MR_SceneSettings_get_MR_SceneSettings_StringType</name>
+        <param>
+          <type><ref refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1c" kindref="member">MR_SceneSettings_StringType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SceneSettings::get</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="84" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="84" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneSettings_8h_1a706cb745d9b13d1824be57c4de4848da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -331,7 +409,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="69" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="87" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneSettings_8h_1a9e8c8ff62b21948e15c8bb790016863b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -353,7 +431,33 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="72" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="90" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSceneSettings_8h_1a6cd0925e3f23eea6835101e50eec97a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_SceneSettings_set_MR_SceneSettings_StringType</definition>
+        <argsstring>(MR_SceneSettings_StringType type, const char *value, const char *value_end)</argsstring>
+        <name>MR_SceneSettings_set_MR_SceneSettings_StringType</name>
+        <param>
+          <type><ref refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1c" kindref="member">MR_SceneSettings_StringType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SceneSettings::set</computeroutput>. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="95" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneSettings_8h_1a81fb989e8e1e7db26369df3d8d294961" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" kindref="member">MR_SceneSettings_ShadingMode</ref></type>
@@ -370,7 +474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="78" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="78" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="101" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="101" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneSettings_8h_1a7692ae8be694b0e839f86b766f0c45eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -388,7 +492,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="81" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="104" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneSettings_8h_1a79465aef7f1817ef1eada7eac8374fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref> *</type>
@@ -405,7 +509,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="85" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="85" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="108" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="108" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneSettings_8h_1a9609e9aa7b73b84b017efb0680b8942d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -423,7 +527,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="89" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="112" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneSettings_8h_1aea17ebfe537db1e53a70eb8d8d587358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref> *</type>
@@ -445,7 +549,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="93" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="93" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="116" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="116" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneSettings_8h_1a1cd1addbea44181de2a79bc39980dc1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref> *</type>
@@ -467,7 +571,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="97" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="97" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" line="120" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h" declline="120" declcolumn="26"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -487,71 +591,84 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref><sp/><ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRCNCMachineSettings.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399" kindref="member">MR_SceneSettings_BoolType</ref></highlight></codeline>
-<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="18" refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399a386f4fa6ebbbe01fa4dea28b0da52234" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399a386f4fa6ebbbe01fa4dea28b0da52234" kindref="member">MR_SceneSettings_BoolType_UseDefaultScenePropertiesOnDeserialization</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="20" refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399a32248c9830d3739e6abb95737ed46c29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399a32248c9830d3739e6abb95737ed46c29" kindref="member">MR_SceneSettings_BoolType_Count</ref><sp/>=<sp/>1,</highlight></codeline>
-<codeline lineno="21" refid="MRSceneSettings_8h_1a3649382c7f0d2ead3e39ed8a9b4a751d" refkind="member"><highlight class="normal">}<sp/><ref refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399" kindref="member">MR_SceneSettings_BoolType</ref>;</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5a" kindref="member">MR_SceneSettings_FloatType</ref></highlight></codeline>
-<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="25" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa70b2496ce1edd12c79bec8e1cb9adcb7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa70b2496ce1edd12c79bec8e1cb9adcb7" kindref="member">MR_SceneSettings_FloatType_FeaturePointsAlpha</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="26" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa31aba07c25ffd31786ae6b900e97faeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa31aba07c25ffd31786ae6b900e97faeb" kindref="member">MR_SceneSettings_FloatType_FeatureLinesAlpha</ref><sp/>=<sp/>1,</highlight></codeline>
-<codeline lineno="27" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa32b1158d7f811abe3a76bb91ab505266" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa32b1158d7f811abe3a76bb91ab505266" kindref="member">MR_SceneSettings_FloatType_FeatureMeshAlpha</ref><sp/>=<sp/>2,</highlight></codeline>
-<codeline lineno="28" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa818a9bbb11917cc1620111a81155872c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa818a9bbb11917cc1620111a81155872c" kindref="member">MR_SceneSettings_FloatType_FeatureSubPointsAlpha</ref><sp/>=<sp/>3,</highlight></codeline>
-<codeline lineno="29" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa635ad78dd286fd5c042feccb9eb8aefc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa635ad78dd286fd5c042feccb9eb8aefc" kindref="member">MR_SceneSettings_FloatType_FeatureSubLinesAlpha</ref><sp/>=<sp/>4,</highlight></codeline>
-<codeline lineno="30" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa372c4f5c8c068d04ebf04acf2638eb85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa372c4f5c8c068d04ebf04acf2638eb85" kindref="member">MR_SceneSettings_FloatType_FeatureSubMeshAlpha</ref><sp/>=<sp/>5,</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Line<sp/>width<sp/>of<sp/>line<sp/>features<sp/>(line,<sp/>circle,<sp/>...).</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aac46c48393d58aa0ea74fe84d4c88d055" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aac46c48393d58aa0ea74fe84d4c88d055" kindref="member">MR_SceneSettings_FloatType_FeatureLineWidth</ref><sp/>=<sp/>6,</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Line<sp/>width<sp/>of<sp/>line<sp/>subfeatures<sp/>(axes,<sp/>base<sp/>circles,<sp/>...).</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa79600a60d4962090df2c1f6c59d01e47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa79600a60d4962090df2c1f6c59d01e47" kindref="member">MR_SceneSettings_FloatType_FeatureSubLineWidth</ref><sp/>=<sp/>7,</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Size<sp/>of<sp/>the<sp/>point<sp/>feature.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aac154b74eade46154dddb97f39af07474" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aac154b74eade46154dddb97f39af07474" kindref="member">MR_SceneSettings_FloatType_FeaturePointSize</ref><sp/>=<sp/>8,</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Size<sp/>of<sp/>point<sp/>subfeatures<sp/>(various<sp/>centers).</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa21d77c2fac5d3290bfee83a9afc860df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa21d77c2fac5d3290bfee83a9afc860df" kindref="member">MR_SceneSettings_FloatType_FeatureSubPointSize</ref><sp/>=<sp/>9,</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ambient<sp/>multiplication<sp/>coefficient<sp/>for<sp/>ambientStrength<sp/>for<sp/>selected<sp/>objects</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aac6139ca174f3b409f55421b48ee3b63e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aac6139ca174f3b409f55421b48ee3b63e" kindref="member">MR_SceneSettings_FloatType_AmbientCoefSelectedObj</ref><sp/>=<sp/>10,</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ambient<sp/>multiplication<sp/>coefficient<sp/>for<sp/>ambientStrength<sp/>for<sp/>selected<sp/>objects</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa72473618effa8d52d344427bdaca5181" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa72473618effa8d52d344427bdaca5181" kindref="member">MR_SceneSettings_FloatType_Count</ref><sp/>=<sp/>11,</highlight></codeline>
-<codeline lineno="43" refid="MRSceneSettings_8h_1a1d4b4e5796cebc0245ab16d6398b3b1a" refkind="member"><highlight class="normal">}<sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5a" kindref="member">MR_SceneSettings_FloatType</ref>;</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" kindref="member">MR_SceneSettings_ShadingMode</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399" kindref="member">MR_SceneSettings_BoolType</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19" refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399a386f4fa6ebbbe01fa4dea28b0da52234" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399a386f4fa6ebbbe01fa4dea28b0da52234" kindref="member">MR_SceneSettings_BoolType_UseDefaultScenePropertiesOnDeserialization</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="21" refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399a32248c9830d3739e6abb95737ed46c29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399a32248c9830d3739e6abb95737ed46c29" kindref="member">MR_SceneSettings_BoolType_Count</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="22" refid="MRSceneSettings_8h_1a3649382c7f0d2ead3e39ed8a9b4a751d" refkind="member"><highlight class="normal">}<sp/><ref refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399" kindref="member">MR_SceneSettings_BoolType</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5a" kindref="member">MR_SceneSettings_FloatType</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa70b2496ce1edd12c79bec8e1cb9adcb7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa70b2496ce1edd12c79bec8e1cb9adcb7" kindref="member">MR_SceneSettings_FloatType_FeaturePointsAlpha</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="27" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa31aba07c25ffd31786ae6b900e97faeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa31aba07c25ffd31786ae6b900e97faeb" kindref="member">MR_SceneSettings_FloatType_FeatureLinesAlpha</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="28" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa32b1158d7f811abe3a76bb91ab505266" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa32b1158d7f811abe3a76bb91ab505266" kindref="member">MR_SceneSettings_FloatType_FeatureMeshAlpha</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="29" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa818a9bbb11917cc1620111a81155872c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa818a9bbb11917cc1620111a81155872c" kindref="member">MR_SceneSettings_FloatType_FeatureSubPointsAlpha</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="30" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa635ad78dd286fd5c042feccb9eb8aefc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa635ad78dd286fd5c042feccb9eb8aefc" kindref="member">MR_SceneSettings_FloatType_FeatureSubLinesAlpha</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="31" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa372c4f5c8c068d04ebf04acf2638eb85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa372c4f5c8c068d04ebf04acf2638eb85" kindref="member">MR_SceneSettings_FloatType_FeatureSubMeshAlpha</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Line<sp/>width<sp/>of<sp/>line<sp/>features<sp/>(line,<sp/>circle,<sp/>...).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aac46c48393d58aa0ea74fe84d4c88d055" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aac46c48393d58aa0ea74fe84d4c88d055" kindref="member">MR_SceneSettings_FloatType_FeatureLineWidth</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Line<sp/>width<sp/>of<sp/>line<sp/>subfeatures<sp/>(axes,<sp/>base<sp/>circles,<sp/>...).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa79600a60d4962090df2c1f6c59d01e47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa79600a60d4962090df2c1f6c59d01e47" kindref="member">MR_SceneSettings_FloatType_FeatureSubLineWidth</ref><sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Size<sp/>of<sp/>the<sp/>point<sp/>feature.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aac154b74eade46154dddb97f39af07474" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aac154b74eade46154dddb97f39af07474" kindref="member">MR_SceneSettings_FloatType_FeaturePointSize</ref><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Size<sp/>of<sp/>point<sp/>subfeatures<sp/>(various<sp/>centers).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa21d77c2fac5d3290bfee83a9afc860df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa21d77c2fac5d3290bfee83a9afc860df" kindref="member">MR_SceneSettings_FloatType_FeatureSubPointSize</ref><sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ambient<sp/>multiplication<sp/>coefficient<sp/>for<sp/>ambientStrength<sp/>for<sp/>selected<sp/>objects</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aac6139ca174f3b409f55421b48ee3b63e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aac6139ca174f3b409f55421b48ee3b63e" kindref="member">MR_SceneSettings_FloatType_AmbientCoefSelectedObj</ref><sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ambient<sp/>multiplication<sp/>coefficient<sp/>for<sp/>ambientStrength<sp/>for<sp/>selected<sp/>objects</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa72473618effa8d52d344427bdaca5181" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa72473618effa8d52d344427bdaca5181" kindref="member">MR_SceneSettings_FloatType_Count</ref><sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="44" refid="MRSceneSettings_8h_1a1d4b4e5796cebc0245ab16d6398b3b1a" refkind="member"><highlight class="normal">}<sp/><ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5a" kindref="member">MR_SceneSettings_FloatType</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1c" kindref="member">MR_SceneSettings_StringType</ref></highlight></codeline>
 <codeline lineno="47"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="48" refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527ca1bff0494fd174ff51fdffd185aa5f8f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527ca1bff0494fd174ff51fdffd185aa5f8f9" kindref="member">MR_SceneSettings_ShadingMode_AutoDetect</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="49" refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527caf30e7268eb77ccd2d9eebb157f50d9b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527caf30e7268eb77ccd2d9eebb157f50d9b7" kindref="member">MR_SceneSettings_ShadingMode_Smooth</ref><sp/>=<sp/>1,</highlight></codeline>
-<codeline lineno="50" refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527ca35189b2220eb83edeb8eb135501cf65d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527ca35189b2220eb83edeb8eb135501cf65d" kindref="member">MR_SceneSettings_ShadingMode_Flat</ref><sp/>=<sp/>2,</highlight></codeline>
-<codeline lineno="51" refid="MRSceneSettings_8h_1a0215ab4cc7cbc9b6a7fbc81fddc1f82f" refkind="member"><highlight class="normal">}<sp/><ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" kindref="member">MR_SceneSettings_ShadingMode</ref>;</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref><sp/><ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref>;</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Reset<sp/>all<sp/>scene<sp/>settings<sp/>to<sp/>default<sp/>values</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRSceneSettings_8h_1ac398ae069f5b6ed067e0ceacdb82e060" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1ac398ae069f5b6ed067e0ceacdb82e060" kindref="member">MR_SceneSettings_reset</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRSceneSettings_8h_1a511c5016fa7f2fdbbae2a42760919f9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a511c5016fa7f2fdbbae2a42760919f9e" kindref="member">MR_SceneSettings_get_MR_SceneSettings_BoolType</ref>(<ref refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399" kindref="member">MR_SceneSettings_BoolType</ref><sp/>type);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRSceneSettings_8h_1a2f53b33ea65b401b2bfdb0216efceef8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a2f53b33ea65b401b2bfdb0216efceef8" kindref="member">MR_SceneSettings_get_MR_SceneSettings_FloatType</ref>(<ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5a" kindref="member">MR_SceneSettings_FloatType</ref><sp/>type);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="MRSceneSettings_8h_1a706cb745d9b13d1824be57c4de4848da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a706cb745d9b13d1824be57c4de4848da" kindref="member">MR_SceneSettings_set_MR_SceneSettings_BoolType</ref>(<ref refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399" kindref="member">MR_SceneSettings_BoolType</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRSceneSettings_8h_1a9e8c8ff62b21948e15c8bb790016863b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a9e8c8ff62b21948e15c8bb790016863b" kindref="member">MR_SceneSettings_set_MR_SceneSettings_FloatType</ref>(<ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5a" kindref="member">MR_SceneSettings_FloatType</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRSceneSettings_8h_1a81fb989e8e1e7db26369df3d8d294961" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" kindref="member">MR_SceneSettings_ShadingMode</ref><sp/><ref refid="MRSceneSettings_8h_1a81fb989e8e1e7db26369df3d8d294961" kindref="member">MR_SceneSettings_getDefaultShadingMode</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRSceneSettings_8h_1a7692ae8be694b0e839f86b766f0c45eb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a7692ae8be694b0e839f86b766f0c45eb" kindref="member">MR_SceneSettings_setDefaultShadingMode</ref>(<ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" kindref="member">MR_SceneSettings_ShadingMode</ref><sp/>mode);</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="MRSceneSettings_8h_1a79465aef7f1817ef1eada7eac8374fa7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref><sp/>*<ref refid="MRSceneSettings_8h_1a79465aef7f1817ef1eada7eac8374fa7" kindref="member">MR_SceneSettings_getCNCMachineSettings</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRSceneSettings_8h_1a9609e9aa7b73b84b017efb0680b8942d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a9609e9aa7b73b84b017efb0680b8942d" kindref="member">MR_SceneSettings_setCNCMachineSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRSceneSettings_8h_1aea17ebfe537db1e53a70eb8d8d587358" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref><sp/>*<ref refid="MRSceneSettings_8h_1aea17ebfe537db1e53a70eb8d8d587358" kindref="member">MR_SceneSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRSceneSettings_8h_1a1cd1addbea44181de2a79bc39980dc1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref><sp/>*<ref refid="MRSceneSettings_8h_1a1cd1addbea44181de2a79bc39980dc1e" kindref="member">MR_SceneSettings_OffsetMutablePtr</ref>(<ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="49" refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1ca8fe0cd3c93a362bbb2c76bd10c97de6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1ca8fe0cd3c93a362bbb2c76bd10c97de6a" kindref="member">MR_SceneSettings_StringType_MeshSerializeFormat</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="52" refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1cac4d7c821b51a82fb450ed5551485224d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1cac4d7c821b51a82fb450ed5551485224d" kindref="member">MR_SceneSettings_StringType_PointsSerializeFormat</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="54" refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1ca1c6309fd68e0e25c99612343870c4b6c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1ca1c6309fd68e0e25c99612343870c4b6c" kindref="member">MR_SceneSettings_StringType_VoxelsSerializeFormat</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="56" refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1ca706d7765d33a1f8ba5c92867b129387e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1ca706d7765d33a1f8ba5c92867b129387e" kindref="member">MR_SceneSettings_StringType_Count</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="57" refid="MRSceneSettings_8h_1a77b1b459a94f7a760e6822bf201b94b2" refkind="member"><highlight class="normal">}<sp/><ref refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1c" kindref="member">MR_SceneSettings_StringType</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" kindref="member">MR_SceneSettings_ShadingMode</ref></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62" refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527ca1bff0494fd174ff51fdffd185aa5f8f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527ca1bff0494fd174ff51fdffd185aa5f8f9" kindref="member">MR_SceneSettings_ShadingMode_AutoDetect</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="63" refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527caf30e7268eb77ccd2d9eebb157f50d9b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527caf30e7268eb77ccd2d9eebb157f50d9b7" kindref="member">MR_SceneSettings_ShadingMode_Smooth</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="64" refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527ca35189b2220eb83edeb8eb135501cf65d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527ca35189b2220eb83edeb8eb135501cf65d" kindref="member">MR_SceneSettings_ShadingMode_Flat</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="65" refid="MRSceneSettings_8h_1a0215ab4cc7cbc9b6a7fbc81fddc1f82f" refkind="member"><highlight class="normal">}<sp/><ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" kindref="member">MR_SceneSettings_ShadingMode</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref><sp/><ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref>;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Reset<sp/>all<sp/>scene<sp/>settings<sp/>to<sp/>default<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRSceneSettings_8h_1ac398ae069f5b6ed067e0ceacdb82e060" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1ac398ae069f5b6ed067e0ceacdb82e060" kindref="member">MR_SceneSettings_reset</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="MRSceneSettings_8h_1a511c5016fa7f2fdbbae2a42760919f9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a511c5016fa7f2fdbbae2a42760919f9e" kindref="member">MR_SceneSettings_get_MR_SceneSettings_BoolType</ref>(<ref refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399" kindref="member">MR_SceneSettings_BoolType</ref><sp/>type);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRSceneSettings_8h_1a2f53b33ea65b401b2bfdb0216efceef8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a2f53b33ea65b401b2bfdb0216efceef8" kindref="member">MR_SceneSettings_get_MR_SceneSettings_FloatType</ref>(<ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5a" kindref="member">MR_SceneSettings_FloatType</ref><sp/>type);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRSceneSettings_8h_1a18f9b2c08de9246c4f29dbb31a3348cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRSceneSettings_8h_1a18f9b2c08de9246c4f29dbb31a3348cd" kindref="member">MR_SceneSettings_get_MR_SceneSettings_StringType</ref>(<ref refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1c" kindref="member">MR_SceneSettings_StringType</ref><sp/>type);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="MRSceneSettings_8h_1a706cb745d9b13d1824be57c4de4848da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a706cb745d9b13d1824be57c4de4848da" kindref="member">MR_SceneSettings_set_MR_SceneSettings_BoolType</ref>(<ref refid="MRSceneSettings_8h_1afd5c0646a798b47e39746fc490dc7399" kindref="member">MR_SceneSettings_BoolType</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRSceneSettings_8h_1a9e8c8ff62b21948e15c8bb790016863b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a9e8c8ff62b21948e15c8bb790016863b" kindref="member">MR_SceneSettings_set_MR_SceneSettings_FloatType</ref>(<ref refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5a" kindref="member">MR_SceneSettings_FloatType</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRSceneSettings_8h_1a6cd0925e3f23eea6835101e50eec97a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a6cd0925e3f23eea6835101e50eec97a6" kindref="member">MR_SceneSettings_set_MR_SceneSettings_StringType</ref>(<ref refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1c" kindref="member">MR_SceneSettings_StringType</ref><sp/>type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRSceneSettings_8h_1a81fb989e8e1e7db26369df3d8d294961" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" kindref="member">MR_SceneSettings_ShadingMode</ref><sp/><ref refid="MRSceneSettings_8h_1a81fb989e8e1e7db26369df3d8d294961" kindref="member">MR_SceneSettings_getDefaultShadingMode</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="MRSceneSettings_8h_1a7692ae8be694b0e839f86b766f0c45eb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a7692ae8be694b0e839f86b766f0c45eb" kindref="member">MR_SceneSettings_setDefaultShadingMode</ref>(<ref refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" kindref="member">MR_SceneSettings_ShadingMode</ref><sp/>mode);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRSceneSettings_8h_1a79465aef7f1817ef1eada7eac8374fa7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref><sp/>*<ref refid="MRSceneSettings_8h_1a79465aef7f1817ef1eada7eac8374fa7" kindref="member">MR_SceneSettings_getCNCMachineSettings</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRSceneSettings_8h_1a9609e9aa7b73b84b017efb0680b8942d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a9609e9aa7b73b84b017efb0680b8942d" kindref="member">MR_SceneSettings_setCNCMachineSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCNCMachineSettings_8h_1a325911971cee7957b63b98e5d38aedc4" kindref="member">MR_CNCMachineSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRSceneSettings_8h_1aea17ebfe537db1e53a70eb8d8d587358" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref><sp/>*<ref refid="MRSceneSettings_8h_1aea17ebfe537db1e53a70eb8d8d587358" kindref="member">MR_SceneSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="MRSceneSettings_8h_1a1cd1addbea44181de2a79bc39980dc1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref><sp/>*<ref refid="MRSceneSettings_8h_1a1cd1addbea44181de2a79bc39980dc1e" kindref="member">MR_SceneSettings_OffsetMutablePtr</ref>(<ref refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kindref="member">MR_SceneSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneSettings.h"/>
   </compounddef>

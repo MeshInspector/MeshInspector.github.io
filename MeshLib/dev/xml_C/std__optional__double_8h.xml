@@ -29,7 +29,7 @@
     </incdepgraph>
     <sectiondef kind="func">
       <memberdef kind="function" id="std__optional__double_8h_1a713910baefa42aabde4cfa07b4d000d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
         <definition>MRC_API MR_std_optional_double * MR_std_optional_double_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_std_optional_double_DefaultConstruct</name>
@@ -46,7 +46,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_double.h" line="19" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_double.h" declline="19" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="std__optional__double_8h_1ab01b0fa27031534c1513c7a305a634d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
         <definition>MRC_API MR_std_optional_double * MR_std_optional_double_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_std_optional_double_DefaultConstructArray</name>
@@ -64,12 +64,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_double.h" line="24" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_double.h" declline="24" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="std__optional__double_8h_1aee767470b3674b4315e0e1fd3d32d1c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
         <definition>MRC_API MR_std_optional_double * MR_std_optional_double_ConstructFromAnother</definition>
         <argsstring>(const MR_std_optional_double *other)</argsstring>
         <name>MR_std_optional_double_ConstructFromAnother</name>
         <param>
-          <type>const <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+          <type>const <ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -82,7 +82,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_double.h" line="31" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_double.h" declline="31" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="std__optional__double_8h_1ad2487653e3e2c7f6ee0112ed8399a8f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
         <definition>MRC_API MR_std_optional_double * MR_std_optional_double_ConstructFrom</definition>
         <argsstring>(const double *other)</argsstring>
         <name>MR_std_optional_double_ConstructFrom</name>
@@ -105,11 +105,11 @@
         <argsstring>(MR_std_optional_double *_this, const MR_std_optional_double *other)</argsstring>
         <name>MR_std_optional_double_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+          <type><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+          <type>const <ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -127,7 +127,7 @@
         <argsstring>(MR_std_optional_double *_this, const double *other)</argsstring>
         <name>MR_std_optional_double_AssignFrom</name>
         <param>
-          <type><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+          <type><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -149,11 +149,11 @@
         <argsstring>(const MR_std_optional_double *_this)</argsstring>
         <name>MR_std_optional_double_Destroy</name>
         <param>
-          <type>const <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+          <type>const <ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -167,11 +167,11 @@
         <argsstring>(const MR_std_optional_double *_this)</argsstring>
         <name>MR_std_optional_double_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+          <type>const <ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -180,12 +180,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_double.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_double.h" declline="54" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="std__optional__double_8h_1a5c6ff3f6b629b7b35ef199c85b2145ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
         <definition>MRC_API const MR_std_optional_double * MR_std_optional_double_OffsetPtr</definition>
         <argsstring>(const MR_std_optional_double *ptr, ptrdiff_t i)</argsstring>
         <name>MR_std_optional_double_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+          <type>const <ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -202,12 +202,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_double.h" line="58" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_double.h" declline="58" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="std__optional__double_8h_1a3c98e22a3f579a685a677e5dc2f0d624" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
         <definition>MRC_API MR_std_optional_double * MR_std_optional_double_OffsetMutablePtr</definition>
         <argsstring>(MR_std_optional_double *ptr, ptrdiff_t i)</argsstring>
         <name>MR_std_optional_double_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+          <type><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -229,7 +229,7 @@
         <argsstring>(const MR_std_optional_double *_this)</argsstring>
         <name>MR_std_optional_double_has_value</name>
         <param>
-          <type>const <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+          <type>const <ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -247,7 +247,7 @@
         <argsstring>(const MR_std_optional_double *_this)</argsstring>
         <name>MR_std_optional_double_value</name>
         <param>
-          <type>const <ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+          <type>const <ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -265,7 +265,7 @@
         <argsstring>(MR_std_optional_double *_this)</argsstring>
         <name>MR_std_optional_double_value_mut</name>
         <param>
-          <type><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
+          <type><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -295,33 +295,33 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref>;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="std__optional__double_8h_1a713910baefa42aabde4cfa07b4d000d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="std__optional__double_8h_1a713910baefa42aabde4cfa07b4d000d4" kindref="member">MR_std_optional_double_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19" refid="std__optional__double_8h_1a713910baefa42aabde4cfa07b4d000d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="std__optional__double_8h_1a713910baefa42aabde4cfa07b4d000d4" kindref="member">MR_std_optional_double_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="std__optional__double_8h_1ab01b0fa27031534c1513c7a305a634d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="std__optional__double_8h_1ab01b0fa27031534c1513c7a305a634d8" kindref="member">MR_std_optional_double_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="24" refid="std__optional__double_8h_1ab01b0fa27031534c1513c7a305a634d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="std__optional__double_8h_1ab01b0fa27031534c1513c7a305a634d8" kindref="member">MR_std_optional_double_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="std__optional__double_8h_1aee767470b3674b4315e0e1fd3d32d1c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="std__optional__double_8h_1aee767470b3674b4315e0e1fd3d32d1c1" kindref="member">MR_std_optional_double_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="31" refid="std__optional__double_8h_1aee767470b3674b4315e0e1fd3d32d1c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="std__optional__double_8h_1aee767470b3674b4315e0e1fd3d32d1c1" kindref="member">MR_std_optional_double_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="std__optional__double_8h_1ad2487653e3e2c7f6ee0112ed8399a8f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="std__optional__double_8h_1ad2487653e3e2c7f6ee0112ed8399a8f0" kindref="member">MR_std_optional_double_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*other);</highlight></codeline>
+<codeline lineno="36" refid="std__optional__double_8h_1ad2487653e3e2c7f6ee0112ed8399a8f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="std__optional__double_8h_1ad2487653e3e2c7f6ee0112ed8399a8f0" kindref="member">MR_std_optional_double_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*other);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="std__optional__double_8h_1a040a147bb286d9150ebe790e6a6c6c80" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__double_8h_1a040a147bb286d9150ebe790e6a6c6c80" kindref="member">MR_std_optional_double_AssignFromAnother</ref>(<ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="43" refid="std__optional__double_8h_1a040a147bb286d9150ebe790e6a6c6c80" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__double_8h_1a040a147bb286d9150ebe790e6a6c6c80" kindref="member">MR_std_optional_double_AssignFromAnother</ref>(<ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="std__optional__double_8h_1a5b445b54f303c58d7ff476759fb01c5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__double_8h_1a5b445b54f303c58d7ff476759fb01c5c" kindref="member">MR_std_optional_double_AssignFrom</ref>(<ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*other);</highlight></codeline>
+<codeline lineno="48" refid="std__optional__double_8h_1a5b445b54f303c58d7ff476759fb01c5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__double_8h_1a5b445b54f303c58d7ff476759fb01c5c" kindref="member">MR_std_optional_double_AssignFrom</ref>(<ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*other);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="std__optional__double_8h_1a0459c4450cd6cbd85bb1af0a9cd859e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__double_8h_1a0459c4450cd6cbd85bb1af0a9cd859e1" kindref="member">MR_std_optional_double_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51" refid="std__optional__double_8h_1a0459c4450cd6cbd85bb1af0a9cd859e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__double_8h_1a0459c4450cd6cbd85bb1af0a9cd859e1" kindref="member">MR_std_optional_double_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="std__optional__double_8h_1a88c477958b62573d4db2ecfc9cdfa1c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__double_8h_1a88c477958b62573d4db2ecfc9cdfa1c1" kindref="member">MR_std_optional_double_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54" refid="std__optional__double_8h_1a88c477958b62573d4db2ecfc9cdfa1c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__double_8h_1a88c477958b62573d4db2ecfc9cdfa1c1" kindref="member">MR_std_optional_double_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="std__optional__double_8h_1a5c6ff3f6b629b7b35ef199c85b2145ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="std__optional__double_8h_1a5c6ff3f6b629b7b35ef199c85b2145ac" kindref="member">MR_std_optional_double_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58" refid="std__optional__double_8h_1a5c6ff3f6b629b7b35ef199c85b2145ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="std__optional__double_8h_1a5c6ff3f6b629b7b35ef199c85b2145ac" kindref="member">MR_std_optional_double_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="std__optional__double_8h_1a3c98e22a3f579a685a677e5dc2f0d624" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="std__optional__double_8h_1a3c98e22a3f579a685a677e5dc2f0d624" kindref="member">MR_std_optional_double_OffsetMutablePtr</ref>(<ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62" refid="std__optional__double_8h_1a3c98e22a3f579a685a677e5dc2f0d624" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*<ref refid="std__optional__double_8h_1a3c98e22a3f579a685a677e5dc2f0d624" kindref="member">MR_std_optional_double_OffsetMutablePtr</ref>(<ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="std__optional__double_8h_1a50decd0bf20942c418cb1700ee3587a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__optional__double_8h_1a50decd0bf20942c418cb1700ee3587a1" kindref="member">MR_std_optional_double_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66" refid="std__optional__double_8h_1a50decd0bf20942c418cb1700ee3587a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__optional__double_8h_1a50decd0bf20942c418cb1700ee3587a1" kindref="member">MR_std_optional_double_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="std__optional__double_8h_1a82f22cc0b3669ea1d227269972f4b3ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__optional__double_8h_1a82f22cc0b3669ea1d227269972f4b3ff" kindref="member">MR_std_optional_double_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71" refid="std__optional__double_8h_1a82f22cc0b3669ea1d227269972f4b3ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__optional__double_8h_1a82f22cc0b3669ea1d227269972f4b3ff" kindref="member">MR_std_optional_double_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="std__optional__double_8h_1a73263358343e1c34dff5e675bfa86d41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__optional__double_8h_1a73263358343e1c34dff5e675bfa86d41" kindref="member">MR_std_optional_double_value_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="76" refid="std__optional__double_8h_1a73263358343e1c34dff5e675bfa86d41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__optional__double_8h_1a73263358343e1c34dff5e675bfa86d41" kindref="member">MR_std_optional_double_value_mut</ref>(<ref refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kindref="member">MR_std_optional_double</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

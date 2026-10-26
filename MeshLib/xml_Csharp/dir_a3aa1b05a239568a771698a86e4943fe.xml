@@ -15,6 +15,7 @@
     <innerfile refid="MRAffineXf_8cs">MRAffineXf.cs</innerfile>
     <innerfile refid="MRAggregateFlow_8cs">MRAggregateFlow.cs</innerfile>
     <innerfile refid="MRAlignContoursToMesh_8cs">MRAlignContoursToMesh.cs</innerfile>
+    <innerfile refid="MRAlphaShape_8cs">MRAlphaShape.cs</innerfile>
     <innerfile refid="MRAngleMeasurementObject_8cs">MRAngleMeasurementObject.cs</innerfile>
     <innerfile refid="MRArrow_8cs">MRArrow.cs</innerfile>
     <innerfile refid="MRAxis_8cs">MRAxis.cs</innerfile>
@@ -26,11 +27,13 @@
     <innerfile refid="MRBestFitPolynomial_8cs">MRBestFitPolynomial.cs</innerfile>
     <innerfile refid="MRBestFitQuadric_8cs">MRBestFitQuadric.cs</innerfile>
     <innerfile refid="MRBezier_8cs">MRBezier.cs</innerfile>
+    <innerfile refid="MRBitCast_8cs">MRBitCast.cs</innerfile>
     <innerfile refid="MRBitSet_8cs">MRBitSet.cs</innerfile>
     <innerfile refid="MRBooleanOperation_8cs">MRBooleanOperation.cs</innerfile>
     <innerfile refid="MRBox_8cs">MRBox.cs</innerfile>
     <innerfile refid="MRBoxNesting_8cs">MRBoxNesting.cs</innerfile>
     <innerfile refid="MRBuffer_8cs">MRBuffer.cs</innerfile>
+    <innerfile refid="MRCameraPointsTriangulation_8cs">MRCameraPointsTriangulation.cs</innerfile>
     <innerfile refid="MRChangeColoringActions_8cs">MRChangeColoringActions.cs</innerfile>
     <innerfile refid="MRChangeColoringType_8cs">MRChangeColoringType.cs</innerfile>
     <innerfile refid="MRChangeMeshAction_8cs">MRChangeMeshAction.cs</innerfile>
@@ -59,6 +62,7 @@
     <innerfile refid="MRCone3_8cs">MRCone3.cs</innerfile>
     <innerfile refid="MRConeApproximator_8cs">MRConeApproximator.cs</innerfile>
     <innerfile refid="MRConeObject_8cs">MRConeObject.cs</innerfile>
+    <innerfile refid="MRConstChildren_8cs">MRConstChildren.cs</innerfile>
     <innerfile refid="MRContour_8cs">MRContour.cs</innerfile>
     <innerfile refid="MRContoursCut_8cs">MRContoursCut.cs</innerfile>
     <innerfile refid="MRContoursSeparation_8cs">MRContoursSeparation.cs</innerfile>
@@ -69,6 +73,7 @@
     <innerfile refid="MRCylinder_8cs">MRCylinder.cs</innerfile>
     <innerfile refid="MRCylinder3_8cs">MRCylinder3.cs</innerfile>
     <innerfile refid="MRCylinderObject_8cs">MRCylinderObject.cs</innerfile>
+    <innerfile refid="MRDelaunayTriangulationXY_8cs">MRDelaunayTriangulationXY.cs</innerfile>
     <innerfile refid="MRDenseBox_8cs">MRDenseBox.cs</innerfile>
     <innerfile refid="MRDipole_8cs">MRDipole.cs</innerfile>
     <innerfile refid="MRDirMax_8cs">MRDirMax.cs</innerfile>
@@ -321,6 +326,7 @@
     <innerfile refid="MRSeparationPoint_8cs">MRSeparationPoint.cs</innerfile>
     <innerfile refid="MRSerializer_8cs">MRSerializer.cs</innerfile>
     <innerfile refid="MRSharpenMarchingCubesMesh_8cs">MRSharpenMarchingCubesMesh.cs</innerfile>
+    <innerfile refid="MRShrinkwrap_8cs">MRShrinkwrap.cs</innerfile>
     <innerfile refid="MRSignDetectionMode_8cs">MRSignDetectionMode.cs</innerfile>
     <innerfile refid="MRSolarRadiation_8cs">MRSolarRadiation.cs</innerfile>
     <innerfile refid="MRSolidOfRevolution_8cs">MRSolidOfRevolution.cs</innerfile>
@@ -342,7 +348,6 @@
     <innerfile refid="MRSystem_8cs">MRSystem.cs</innerfile>
     <innerfile refid="MRSystemPath_8cs">MRSystemPath.cs</innerfile>
     <innerfile refid="MRTelemetry_8cs">MRTelemetry.cs</innerfile>
-    <innerfile refid="MRTerrainTriangulation_8cs">MRTerrainTriangulation.cs</innerfile>
     <innerfile refid="MRTextureColors_8cs">MRTextureColors.cs</innerfile>
     <innerfile refid="MRTimer_8cs">MRTimer.cs</innerfile>
     <innerfile refid="MRTorus_8cs">MRTorus.cs</innerfile>

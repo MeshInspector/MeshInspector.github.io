@@ -3,12 +3,12 @@
   <compounddef id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Vector_QuadraticForm3f_VertId</compoundname>
     <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a3215d0cf16603887fbabfba53d7bfaba" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a105cc55884c7d71a8152c9a662a1a922" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.Vector_QuadraticForm3f_VertId::_offsetof_vec_</definition>
+        <definition>typing mrmeshpy.Vector_QuadraticForm3f_VertId::_offsetof_vec</definition>
         <argsstring></argsstring>
-        <name>_offsetof_vec_</name>
-        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId._offsetof_vec_</qualifiedname>
+        <name>_offsetof_vec</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId._offsetof_vec</qualifiedname>
         <initializer>=  0</initializer>
         <briefdescription>
         </briefdescription>
@@ -16,10 +16,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69359" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69359" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57781" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a5f3fc69d2937dbf8ca534c6826388ff9" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_QuadraticForm3f_VertId::const_pointer</definition>
+        <argsstring></argsstring>
+        <name>const_pointer</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.const_pointer</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57782" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ab78532426c109e5cb9dc811d7836c6b7" prot="public" static="yes" mutable="no">
         <type></type>
         <definition>mrmeshpy.Vector_QuadraticForm3f_VertId::const_reference</definition>
@@ -33,7 +48,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69360" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57783" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ac3d712d70ce4f35936a32e527e0aedd7" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_QuadraticForm3f_VertId::pointer</definition>
+        <argsstring></argsstring>
+        <name>pointer</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.pointer</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57784" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ac9102ff342cb46e902cdca5246f3cf4d" prot="public" static="yes" mutable="no">
         <type></type>
@@ -48,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69361" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57785" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ad9edfb3758ab3dfd31b28d69d14c3e17" prot="public" static="yes" mutable="no">
         <type></type>
@@ -63,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69362" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57786" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -87,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69365" bodyend="69366"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57789" bodyend="57790"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa6e8774b75b635ca03800f4038dcab19" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kindref="compound">Vector_QuadraticForm3f_VertId</ref></type>
@@ -109,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69369" bodyend="69370"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57793" bodyend="57794"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa6e8774b75b635ca03800f4038dcab19" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kindref="compound">Vector_QuadraticForm3f_VertId</ref></type>
@@ -131,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69373" bodyend="69374"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57797" bodyend="57798"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -155,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69376" bodyend="69377"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57800" bodyend="57801"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a81aa7ddfaa4d5ee9adfede2bdb7900f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
@@ -177,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69379" bodyend="69380"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57803" bodyend="57804"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a28f13bfc963c6ead49bd7fdcdc2a71f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -197,7 +227,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69382" bodyend="69385"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57806" bodyend="57809"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a846560f9db0ae3969b95068be89b8c10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -221,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69387" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69387" bodyend="69390"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57811" bodyend="57814"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a83681333e9802fbfa3fc5f8ab4a84532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -249,12 +279,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69392" bodyend="69395"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57816" bodyend="57819"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a3ba5f634b56f32f7bcf554dd97f42a53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a26038bf59077ad4b39099ba4d83092ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</definition>
-        <argsstring>(self, std_vector_QuadraticForm_Vector3_float vec)</argsstring>
+        <argsstring>(self, list arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.__init__</qualifiedname>
         <param>
@@ -262,18 +292,16 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float" kindref="compound">std_vector_QuadraticForm_Vector3_float</ref></type>
-          <declname>vec</declname>
+          <type>list</type>
+          <declname>arg0</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>moves data from the given std::vector&lt;T&gt;
-</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69397" bodyend="69400"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57821" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57821" bodyend="57822"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aceac97a6183f8ce2c0e65f2aae1e9ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -297,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69402" bodyend="69405"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57824" bodyend="57827"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ad6373381ad0ee8d3fd173e7a90b6c57a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Iterator[<ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref>]</type>
@@ -315,7 +343,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69406" bodyend="69407"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57828" bodyend="57829"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a0cc299879dc9aac4f7c3bb41ccbad52f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_QuadraticForm3f_VertId.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57830" bodyend="57831"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ab9f78e44731f7952981983d03425db9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -341,7 +387,35 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69408" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69408" bodyend="69409"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57832" bodyend="57833"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a4224b695f57baf8450d848a4bdf110f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.assign</definition>
+        <argsstring>(self, int count, QuadraticForm3f val)</argsstring>
+        <name>assign</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.assign</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>replaces the contents with \\p count copies of \\p val
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57834" bodyend="57837"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a7e0de8386073d1a43828f0103e66a259" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
@@ -365,7 +439,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69410" bodyend="69413"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57838" bodyend="57841"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a63cfa7296aff774689031fed705ad293" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -398,7 +472,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69415" bodyend="69419"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57843" bodyend="57847"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a2c9bab578069669cfc0f2b1a4576bda2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -426,7 +500,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69421" bodyend="69424"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57849" bodyend="57852"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa79444a3caa16cf5ae3b1c2bc5560958" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
@@ -444,7 +518,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69426" bodyend="69427"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57854" bodyend="57855"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa79444a3caa16cf5ae3b1c2bc5560958" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
@@ -462,7 +536,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69429" bodyend="69430"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57857" bodyend="57858"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a1195f5680f120337ea9270ae12209c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
@@ -482,7 +556,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69431" bodyend="69434"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57859" bodyend="57862"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a05297cb60e0a9165966eb4d71abc174b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
@@ -502,7 +576,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69435" bodyend="69438"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57863" bodyend="57866"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a90641c9a18bcd221ccdeae5e9ebe9033" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -520,7 +594,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69439" bodyend="69440"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57867" bodyend="57868"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a7c87e4787aed13e9133883f6690abbda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -538,7 +612,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69441" bodyend="69442"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57869" bodyend="57870"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a9b486b9736e289d4e64433d575f3d1f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
@@ -556,7 +630,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69444" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69444" bodyend="69445"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57872" bodyend="57873"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a9b486b9736e289d4e64433d575f3d1f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
@@ -574,7 +648,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69447" bodyend="69448"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57875" bodyend="57876"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a2485ba6e7c887e88f754666ab900d21f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -592,7 +666,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69449" bodyend="69450"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57877" bodyend="57878"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1afbe21c0d8be792ad30524ac6f2b9c107" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
@@ -612,7 +686,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69451" bodyend="69454"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57879" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57879" bodyend="57882"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a4e2f3ee243a001f522cde3ef03ded322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
@@ -630,7 +704,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69456" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69456" bodyend="69457"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57884" bodyend="57885"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a4e2f3ee243a001f522cde3ef03ded322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1QuadraticForm3f" kindref="compound">QuadraticForm3f</ref></type>
@@ -648,7 +722,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69459" bodyend="69460"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57887" bodyend="57888"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a7f3eecd9d4097e1c72d5255135518f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -668,7 +742,25 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69461" bodyend="69464"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57889" bodyend="57892"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1abfe307c29a6b1854272487254372f9d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_QuadraticForm3f_VertId.max_size</definition>
+        <argsstring>(self)</argsstring>
+        <name>max_size</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.max_size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57893" bodyend="57894"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a45a98b15df66a2b95af5b81292eaa187" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -686,7 +778,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69465" bodyend="69466"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57895" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57895" bodyend="57896"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a15bd2dcd9f1f6995b6158b9afafa52cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -708,7 +800,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69468" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69468" bodyend="69469"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57898" bodyend="57899"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a15bd2dcd9f1f6995b6158b9afafa52cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -730,7 +822,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69471" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69471" bodyend="69472"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57901" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57901" bodyend="57902"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a6aa9176958ac7cc290e7713c11db98b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -752,7 +844,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69473" bodyend="69474"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57903" bodyend="57904"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a8765da75aa308e90eeb12130e962e9ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -774,7 +866,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69476" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69476" bodyend="69477"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57906" bodyend="57907"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a6dd436ae52923dc428ce3e7e9b2c04eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -800,7 +892,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69479" bodyend="69480"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57909" bodyend="57910"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a10a94daa0677e63ca09e41725f1746a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -819,12 +911,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+<para><verbatim>same as resize(newSize), which already grows the capacity geometrically
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69482" bodyend="69485"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57912" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57912" bodyend="57915"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1acb2a426344a59e4162b13b8c694bc20f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -847,12 +939,30 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+<para><verbatim>same as resize(newSize, value), which already grows the capacity geometrically
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69487" bodyend="69490"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57917" bodyend="57920"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a0ef562fdc0c3c5bda7af5490ede9eef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.shrink_to_fit</definition>
+        <argsstring>(self)</argsstring>
+        <name>shrink_to_fit</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.shrink_to_fit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57921" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57921" bodyend="57922"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a5044fdf412d8151a8c547bae47c158df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -870,7 +980,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69491" bodyend="69492"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57923" bodyend="57924"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a9c04db2356c4f7f41b603536036ae3be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -892,14 +1002,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69493" bodyend="69494"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57925" bodyend="57926"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a10436e531c16a4f4ec85528615993360" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a462a8b9bb4442cea991fb5a72e9f4e64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__QuadraticForm__Vector3__float" kindref="compound">std_vector_QuadraticForm_Vector3_float</ref></type>
-        <definition> std_vector_QuadraticForm_Vector3_float mrmeshpy.Vector_QuadraticForm3f_VertId.vec_</definition>
+        <definition> std_vector_QuadraticForm_Vector3_float mrmeshpy.Vector_QuadraticForm3f_VertId.vec</definition>
         <argsstring>(self)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -912,14 +1022,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69496" bodyend="69499"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57928" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57928" bodyend="57931"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa76fcb60e708371d250ab8d4aa62923f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1abb63db7ee993ee6588ee188814db562c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.vec_</definition>
+        <definition> None mrmeshpy.Vector_QuadraticForm3f_VertId.vec</definition>
         <argsstring>(self, std_vector_QuadraticForm_Vector3_float arg1)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Vector_QuadraticForm3f_VertId.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -934,7 +1044,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69501" bodyend="69502"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57933" bodyend="57934"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -948,7 +1058,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
  \\tparam I type of index (shall be convertible to size_t)
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69349" bodyend="69502"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57771" bodyend="57934"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a81aa7ddfaa4d5ee9adfede2bdb7900f7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__getitem__</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a81aa7ddfaa4d5ee9adfede2bdb7900f7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__getitem__</name></member>
@@ -956,11 +1066,13 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a28f13bfc963c6ead49bd7fdcdc2a71f6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a846560f9db0ae3969b95068be89b8c10" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a83681333e9802fbfa3fc5f8ab4a84532" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a3ba5f634b56f32f7bcf554dd97f42a53" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a26038bf59077ad4b39099ba4d83092ef" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aceac97a6183f8ce2c0e65f2aae1e9ba7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ad6373381ad0ee8d3fd173e7a90b6c57a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a0cc299879dc9aac4f7c3bb41ccbad52f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__len__</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ab9f78e44731f7952981983d03425db9d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>__setitem__</name></member>
-      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a3215d0cf16603887fbabfba53d7bfaba" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a105cc55884c7d71a8152c9a662a1a922" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>_offsetof_vec</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a4224b695f57baf8450d848a4bdf110f2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>assign</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a7e0de8386073d1a43828f0103e66a259" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>autoResizeAt</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a63cfa7296aff774689031fed705ad293" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a2c9bab578069669cfc0f2b1a4576bda2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>autoResizeSet</name></member>
@@ -970,6 +1082,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a05297cb60e0a9165966eb4d71abc174b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>beginId</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a90641c9a18bcd221ccdeae5e9ebe9033" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>capacity</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a7c87e4787aed13e9133883f6690abbda" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a5f3fc69d2937dbf8ca534c6826388ff9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>const_pointer</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ab78532426c109e5cb9dc811d7836c6b7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>const_reference</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a9b486b9736e289d4e64433d575f3d1f9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>data</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a9b486b9736e289d4e64433d575f3d1f9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>data</name></member>
@@ -978,8 +1091,10 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a4e2f3ee243a001f522cde3ef03ded322" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>front</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a4e2f3ee243a001f522cde3ef03ded322" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>front</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a7f3eecd9d4097e1c72d5255135518f15" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1abfe307c29a6b1854272487254372f9d3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>max_size</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa6e8774b75b635ca03800f4038dcab19" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa6e8774b75b635ca03800f4038dcab19" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ac3d712d70ce4f35936a32e527e0aedd7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>pointer</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a45a98b15df66a2b95af5b81292eaa187" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>pop_back</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a15bd2dcd9f1f6995b6158b9afafa52cc" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>push_back</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a15bd2dcd9f1f6995b6158b9afafa52cc" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>push_back</name></member>
@@ -989,11 +1104,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a6dd436ae52923dc428ce3e7e9b2c04eb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>resize</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a10a94daa0677e63ca09e41725f1746a7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>resizeWithReserve</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1acb2a426344a59e4162b13b8c694bc20f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a0ef562fdc0c3c5bda7af5490ede9eef5" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>shrink_to_fit</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a5044fdf412d8151a8c547bae47c158df" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a9c04db2356c4f7f41b603536036ae3be" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>swap</name></member>
       <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1ad9edfb3758ab3dfd31b28d69d14c3e17" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>value_type</name></member>
-      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a10436e531c16a4f4ec85528615993360" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>vec_</name></member>
-      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1aa76fcb60e708371d250ab8d4aa62923f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a462a8b9bb4442cea991fb5a72e9f4e64" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>vec</name></member>
+      <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1abb63db7ee993ee6588ee188814db562c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_QuadraticForm3f_VertId</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

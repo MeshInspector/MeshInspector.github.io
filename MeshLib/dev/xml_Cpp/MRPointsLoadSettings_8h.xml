@@ -4,6 +4,7 @@
     <compoundname>MRPointsLoadSettings.h</compoundname>
     <includes refid="MRMeshFwd_8h" local="yes">MRMeshFwd.h</includes>
     <includedby refid="MRCtm_8h" local="no">MRIOExtras/MRCtm.h</includedby>
+    <includedby refid="MRDraco_8h" local="no">MRIOExtras/MRDraco.h</includedby>
     <includedby refid="MRE57_8h" local="no">MRIOExtras/MRE57.h</includedby>
     <includedby refid="MRLas_8h" local="no">MRIOExtras/MRLas.h</includedby>
     <includedby refid="MRIOFormatsRegistry_8h" local="yes">MRMesh/MRIOFormatsRegistry.h</includedby>
@@ -81,7 +82,7 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="7">
+      <node id="8">
         <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
@@ -90,22 +91,26 @@
         <link refid="MRCtm_8h"/>
       </node>
       <node id="3">
+        <label>MRIOExtras/MRDraco.h</label>
+        <link refid="MRDraco_8h"/>
+      </node>
+      <node id="4">
         <label>MRIOExtras/MRE57.h</label>
         <link refid="MRE57_8h"/>
       </node>
-      <node id="4">
+      <node id="5">
         <label>MRIOExtras/MRLas.h</label>
         <link refid="MRLas_8h"/>
       </node>
-      <node id="5">
+      <node id="6">
         <label>MRMesh/MRIOFormatsRegistry.h</label>
         <link refid="MRIOFormatsRegistry_8h"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="9">
+      <node id="10">
         <label>MRMesh/MRPointsLoad.h</label>
         <link refid="MRPointsLoad_8h"/>
       </node>
@@ -120,16 +125,18 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="6">
+      <node id="7">
         <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="8">
+      <node id="9">
         <label>MRVoxels/MRVoxelsSave.h</label>
         <link refid="MRVoxelsSave_8h"/>
       </node>

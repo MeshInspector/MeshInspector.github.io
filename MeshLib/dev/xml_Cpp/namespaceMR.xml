@@ -12,6 +12,7 @@
     <innerclass refid="classMR_1_1AddCustomThemePlugin" prot="public">MR::AddCustomThemePlugin</innerclass>
     <innerclass refid="classMR_1_1AddVisualProperties" prot="public">MR::AddVisualProperties</innerclass>
     <innerclass refid="structMR_1_1AllLocalTriangulations" prot="public">MR::AllLocalTriangulations</innerclass>
+    <innerclass refid="structMR_1_1Allocator" prot="public">MR::Allocator</innerclass>
     <innerclass refid="structMR_1_1AlphaShapeData" prot="public">MR::AlphaShapeData</innerclass>
     <innerclass refid="structMR_1_1AlphaShapeNei" prot="public">MR::AlphaShapeNei</innerclass>
     <innerclass refid="structMR_1_1AlphaShapeStats" prot="public">MR::AlphaShapeStats</innerclass>
@@ -28,10 +29,10 @@
     <innerclass refid="classMR_1_1AsyncRequest" prot="public">MR::AsyncRequest</innerclass>
     <innerclass refid="classMR_1_1AsyncTimer" prot="public">MR::AsyncTimer</innerclass>
     <innerclass refid="structMR_1_1Ball" prot="public">MR::Ball</innerclass>
+    <innerclass refid="structMR_1_1BallPivotCandidate" prot="public">MR::BallPivotCandidate</innerclass>
     <innerclass refid="structMR_1_1BaseFitParams" prot="public">MR::BaseFitParams</innerclass>
     <innerclass refid="structMR_1_1BaseRenderParams" prot="public">MR::BaseRenderParams</innerclass>
     <innerclass refid="structMR_1_1BaseShellParameters" prot="public">MR::BaseShellParameters</innerclass>
-    <innerclass refid="structMR_1_1BaseTiffParameters" prot="public">MR::BaseTiffParameters</innerclass>
     <innerclass refid="classMR_1_1BaseUnionFind" prot="public">MR::BaseUnionFind</innerclass>
     <innerclass refid="classMR_1_1BasicClickableRectUiRenderTask" prot="public">MR::BasicClickableRectUiRenderTask</innerclass>
     <innerclass refid="structMR_1_1BasicUiRenderTask" prot="public">MR::BasicUiRenderTask</innerclass>
@@ -55,6 +56,7 @@
     <innerclass refid="structMR_1_1BoxedLeaf" prot="public">MR::BoxedLeaf</innerclass>
     <innerclass refid="classMR_1_1Buffer" prot="public">MR::Buffer</innerclass>
     <innerclass refid="classMR_1_1CameraOrientation" prot="public">MR::CameraOrientation</innerclass>
+    <innerclass refid="structMR_1_1CameraPointsTriangulationSettings" prot="public">MR::CameraPointsTriangulationSettings</innerclass>
     <innerclass refid="classMR_1_1CaptureScreenshotMenuItem" prot="public">MR::CaptureScreenshotMenuItem</innerclass>
     <innerclass refid="classMR_1_1CaptureScreenshotToClipBoardMenuItem" prot="public">MR::CaptureScreenshotToClipBoardMenuItem</innerclass>
     <innerclass refid="classMR_1_1CaptureUIScreenshotMenuItem" prot="public">MR::CaptureUIScreenshotMenuItem</innerclass>
@@ -116,16 +118,17 @@
     <innerclass refid="classMR_1_1CommandLoop" prot="public">MR::CommandLoop</innerclass>
     <innerclass refid="structMR_1_1CompensateRadiusParams" prot="public">MR::CompensateRadiusParams</innerclass>
     <innerclass refid="structMR_1_1CompressZipSettings" prot="public">MR::CompressZipSettings</innerclass>
+    <innerclass refid="classMR_1_1ComputePointsToDistanceVolume" prot="public">MR::ComputePointsToDistanceVolume</innerclass>
     <innerclass refid="structMR_1_1ComputeSteepestDescentPathSettings" prot="public">MR::ComputeSteepestDescentPathSettings</innerclass>
     <innerclass refid="structMR_1_1ComputeSweptVolumeParameters" prot="public">MR::ComputeSweptVolumeParameters</innerclass>
     <innerclass refid="classMR_1_1Cone3" prot="public">MR::Cone3</innerclass>
     <innerclass refid="classMR_1_1Cone3Approximation" prot="public">MR::Cone3Approximation</innerclass>
     <innerclass refid="structMR_1_1Cone3ApproximationParams" prot="public">MR::Cone3ApproximationParams</innerclass>
-    <innerclass refid="structMR_1_1ConeFittingFunctor" prot="public">MR::ConeFittingFunctor</innerclass>
     <innerclass refid="classMR_1_1ConeObject" prot="public">MR::ConeObject</innerclass>
     <innerclass refid="classMR_1_1Config" prot="public">MR::Config</innerclass>
     <innerclass refid="structMR_1_1ConnectionHolder" prot="public">MR::ConnectionHolder</innerclass>
     <innerclass refid="structMR_1_1ConstantCuspParams" prot="public">MR::ConstantCuspParams</innerclass>
+    <innerclass refid="classMR_1_1ConstChildren" prot="public">MR::ConstChildren</innerclass>
     <innerclass refid="structMR_1_1ContoursDistanceMapOffset" prot="public">MR::ContoursDistanceMapOffset</innerclass>
     <innerclass refid="structMR_1_1ContoursDistanceMapOptions" prot="public">MR::ContoursDistanceMapOptions</innerclass>
     <innerclass refid="structMR_1_1ContoursMeshAlignParams" prot="public">MR::ContoursMeshAlignParams</innerclass>
@@ -141,9 +144,11 @@
     <innerclass refid="structMR_1_1CurveFunc" prot="public">MR::CurveFunc</innerclass>
     <innerclass refid="structMR_1_1CurvePoint" prot="public">MR::CurvePoint</innerclass>
     <innerclass refid="structMR_1_1CustomButtonParameters" prot="public">MR::CustomButtonParameters</innerclass>
+    <innerclass refid="structMR_1_1CutAroundVertSetsParams" prot="public">MR::CutAroundVertSetsParams</innerclass>
     <innerclass refid="structMR_1_1CutByProjectionSettings" prot="public">MR::CutByProjectionSettings</innerclass>
     <innerclass refid="structMR_1_1CutMeshParameters" prot="public">MR::CutMeshParameters</innerclass>
     <innerclass refid="structMR_1_1CutMeshResult" prot="public">MR::CutMeshResult</innerclass>
+    <innerclass refid="classMR_1_1CutTrianglePredicates" prot="public">MR::CutTrianglePredicates</innerclass>
     <innerclass refid="classMR_1_1Cylinder3" prot="public">MR::Cylinder3</innerclass>
     <innerclass refid="classMR_1_1Cylinder3Approximation" prot="public">MR::Cylinder3Approximation</innerclass>
     <innerclass refid="classMR_1_1CylinderObject" prot="public">MR::CylinderObject</innerclass>
@@ -152,9 +157,11 @@
     <innerclass refid="structMR_1_1DecimateResult" prot="public">MR::DecimateResult</innerclass>
     <innerclass refid="structMR_1_1DecimateSettings" prot="public">MR::DecimateSettings</innerclass>
     <innerclass refid="classMR_1_1DefaultSplashWindow" prot="public">MR::DefaultSplashWindow</innerclass>
+    <innerclass refid="structMR_1_1DeloneFlipsCache" prot="public">MR::DeloneFlipsCache</innerclass>
     <innerclass refid="structMR_1_1DeloneSettings" prot="public">MR::DeloneSettings</innerclass>
     <innerclass refid="classMR_1_1DemoPlugin" prot="public">MR::DemoPlugin</innerclass>
     <innerclass refid="structMR_1_1DenoiseViaNormalsSettings" prot="public">MR::DenoiseViaNormalsSettings</innerclass>
+    <innerclass refid="structMR_1_1DenoiseWithCreasesSettings" prot="public">MR::DenoiseWithCreasesSettings</innerclass>
     <innerclass refid="structMR_1_1DenseBox" prot="public">MR::DenseBox</innerclass>
     <innerclass refid="classMR_1_1DentalId" prot="public">MR::DentalId</innerclass>
     <innerclass refid="classMR_1_1DepthPeelingGL" prot="public">MR::DepthPeelingGL</innerclass>
@@ -180,6 +187,7 @@
     <innerclass refid="structMR_1_1DividePointCloudOptionalOutput" prot="public">MR::DividePointCloudOptionalOutput</innerclass>
     <innerclass refid="structMR_1_1DividePolylineParameters" prot="public">MR::DividePolylineParameters</innerclass>
     <innerclass refid="structMR_1_1DoubleOffsetSettings" prot="public">MR::DoubleOffsetSettings</innerclass>
+    <innerclass refid="structMR_1_1DracoSaveOptions" prot="public">MR::DracoSaveOptions</innerclass>
     <innerclass refid="structMR_1_1DragDropListener" prot="public">MR::DragDropListener</innerclass>
     <innerclass refid="structMR_1_1DragEndListener" prot="public">MR::DragEndListener</innerclass>
     <innerclass refid="structMR_1_1DragEntranceListener" prot="public">MR::DragEntranceListener</innerclass>
@@ -193,9 +201,9 @@
     <innerclass refid="structMR_1_1EdgeLengthMesh" prot="public">MR::EdgeLengthMesh</innerclass>
     <innerclass refid="classMR_1_1EdgePathsAStarBuilder" prot="public">MR::EdgePathsAStarBuilder</innerclass>
     <innerclass refid="classMR_1_1EdgePathsBuilderT" prot="public">MR::EdgePathsBuilderT</innerclass>
-    <innerclass refid="structMR_1_1EdgePoint" prot="public">MR::EdgePoint</innerclass>
     <innerclass refid="structMR_1_1EdgePointPair" prot="public">MR::EdgePointPair</innerclass>
-    <innerclass refid="structMR_1_1EdgeSegment" prot="public">MR::EdgeSegment</innerclass>
+    <innerclass refid="structMR_1_1EdgePointT" prot="public">MR::EdgePointT</innerclass>
+    <innerclass refid="structMR_1_1EdgeSegmentT" prot="public">MR::EdgeSegmentT</innerclass>
     <innerclass refid="structMR_1_1EdgeTri" prot="public">MR::EdgeTri</innerclass>
     <innerclass refid="classMR_1_1EmbeddedPython" prot="public">MR::EmbeddedPython</innerclass>
     <innerclass refid="structMR_1_1EmbeddedStructureParameters" prot="public">MR::EmbeddedStructureParameters</innerclass>
@@ -203,6 +211,7 @@
     <innerclass refid="structMR_1_1EndMillTool" prot="public">MR::EndMillTool</innerclass>
     <innerclass refid="classMR_1_1EnumNeihbourFaces" prot="public">MR::EnumNeihbourFaces</innerclass>
     <innerclass refid="classMR_1_1EnumNeihbourVertices" prot="public">MR::EnumNeihbourVertices</innerclass>
+    <innerclass refid="classMR_1_1ExtraFormatSettings" prot="public">MR::ExtraFormatSettings</innerclass>
     <innerclass refid="structMR_1_1FaceDistancesSettings" prot="public">MR::FaceDistancesSettings</innerclass>
     <innerclass refid="structMR_1_1FaceFace" prot="public">MR::FaceFace</innerclass>
     <innerclass refid="structMR_1_1FaceFaceFace" prot="public">MR::FaceFaceFace</innerclass>
@@ -256,6 +265,7 @@
     <innerclass refid="structMR_1_1GeneralOffsetParameters" prot="public">MR::GeneralOffsetParameters</innerclass>
     <innerclass refid="structMR_1_1GeodesicPath" prot="public">MR::GeodesicPath</innerclass>
     <innerclass refid="classMR_1_1GlBuffer" prot="public">MR::GlBuffer</innerclass>
+    <innerclass refid="structMR_1_1GLDriverIssue" prot="public">MR::GLDriverIssue</innerclass>
     <innerclass refid="classMR_1_1GLStaticHolder" prot="public">MR::GLStaticHolder</innerclass>
     <innerclass refid="classMR_1_1GlTexture" prot="public">MR::GlTexture</innerclass>
     <innerclass refid="classMR_1_1GlTexture2" prot="public">MR::GlTexture2</innerclass>
@@ -272,6 +282,9 @@
     <innerclass refid="classMR_1_1HistoryStore" prot="public">MR::HistoryStore</innerclass>
     <innerclass refid="structMR_1_1HoleEdgePoint" prot="public">MR::HoleEdgePoint</innerclass>
     <innerclass refid="structMR_1_1HoleFillPlan" prot="public">MR::HoleFillPlan</innerclass>
+    <innerclass refid="classMR_1_1IComputePointsToDistanceFunctionVolume" prot="public">MR::IComputePointsToDistanceFunctionVolume</innerclass>
+    <innerclass refid="classMR_1_1IComputePointsToDistanceVolume" prot="public">MR::IComputePointsToDistanceVolume</innerclass>
+    <innerclass refid="classMR_1_1IComputePointsToDistanceVolumeByParts" prot="public">MR::IComputePointsToDistanceVolumeByParts</innerclass>
     <innerclass refid="classMR_1_1IComputeToolDistance" prot="public">MR::IComputeToolDistance</innerclass>
     <innerclass refid="structMR_1_1IConnectable" prot="public">MR::IConnectable</innerclass>
     <innerclass refid="classMR_1_1ICP" prot="public">MR::ICP</innerclass>
@@ -286,6 +299,7 @@
     <innerclass refid="structMR_1_1IdRange" prot="public">MR::IdRange</innerclass>
     <innerclass refid="classMR_1_1IFastWindingNumber" prot="public">MR::IFastWindingNumber</innerclass>
     <innerclass refid="classMR_1_1IFastWindingNumberByParts" prot="public">MR::IFastWindingNumberByParts</innerclass>
+    <innerclass refid="classMR_1_1IFillContours2DPlanCache" prot="public">MR::IFillContours2DPlanCache</innerclass>
     <innerclass refid="classMR_1_1IICPTreeIndexer" prot="public">MR::IICPTreeIndexer</innerclass>
     <innerclass refid="structMR_1_1Image" prot="public">MR::Image</innerclass>
     <innerclass refid="classMR_1_1ImGuiImage" prot="public">MR::ImGuiImage</innerclass>
@@ -300,6 +314,7 @@
     <innerclass refid="classMR_1_1InSphereTesterSoS" prot="public">MR::InSphereTesterSoS</innerclass>
     <innerclass refid="classMR_1_1Int128Mul256" prot="public">MR::Int128Mul256</innerclass>
     <innerclass refid="classMR_1_1Int64Mul128" prot="public">MR::Int64Mul128</innerclass>
+    <innerclass refid="structMR_1_1InterpolateScalarsParams" prot="public">MR::InterpolateScalarsParams</innerclass>
     <innerclass refid="structMR_1_1InterruptCloseListener" prot="public">MR::InterruptCloseListener</innerclass>
     <innerclass refid="structMR_1_1IntersectionPrecomputes" prot="public">MR::IntersectionPrecomputes</innerclass>
     <innerclass refid="structMR_1_1IntersectionPrecomputes2" prot="public">MR::IntersectionPrecomputes2</innerclass>
@@ -360,6 +375,7 @@
     <innerclass refid="classMR_1_1MeasurementObject" prot="public">MR::MeasurementObject</innerclass>
     <innerclass refid="structMR_1_1MenuItemCaptionSize" prot="public">MR::MenuItemCaptionSize</innerclass>
     <innerclass refid="structMR_1_1MenuItemInfo" prot="public">MR::MenuItemInfo</innerclass>
+    <innerclass refid="structMR_1_1MenuItemShortcut" prot="public">MR::MenuItemShortcut</innerclass>
     <innerclass refid="structMR_1_1MergeVolumePartSettings" prot="public">MR::MergeVolumePartSettings</innerclass>
     <innerclass refid="structMR_1_1Mesh" prot="public">MR::Mesh</innerclass>
     <innerclass refid="structMR_1_1MeshApproxRelaxParams" prot="public">MR::MeshApproxRelaxParams</innerclass>
@@ -392,7 +408,7 @@
     <innerclass refid="classMR_1_1MeshTopology" prot="public">MR::MeshTopology</innerclass>
     <innerclass refid="classMR_1_1MeshTopologyDiff" prot="public">MR::MeshTopologyDiff</innerclass>
     <innerclass refid="structMR_1_1MeshToVolumeParams" prot="public">MR::MeshToVolumeParams</innerclass>
-    <innerclass refid="structMR_1_1MeshTriPoint" prot="public">MR::MeshTriPoint</innerclass>
+    <innerclass refid="structMR_1_1MeshTriPointT" prot="public">MR::MeshTriPointT</innerclass>
     <innerclass refid="structMR_1_1MeshVoxelsConverter" prot="public">MR::MeshVoxelsConverter</innerclass>
     <innerclass refid="structMR_1_1MetricToAStarPenalty" prot="public">MR::MetricToAStarPenalty</innerclass>
     <innerclass refid="structMR_1_1MinArg" prot="public">MR::MinArg</innerclass>
@@ -553,6 +569,7 @@
     <innerclass refid="structMR_1_1PostRescaleListener" prot="public">MR::PostRescaleListener</innerclass>
     <innerclass refid="structMR_1_1PostResizeListener" prot="public">MR::PostResizeListener</innerclass>
     <innerclass refid="classMR_1_1PrecipitationSimulator" prot="public">MR::PrecipitationSimulator</innerclass>
+    <innerclass refid="structMR_1_1PreciseCutPoint" prot="public">MR::PreciseCutPoint</innerclass>
     <innerclass refid="structMR_1_1PreciseVertCoord" prot="public">MR::PreciseVertCoord</innerclass>
     <innerclass refid="structMR_1_1PreciseVertCoords" prot="public">MR::PreciseVertCoords</innerclass>
     <innerclass refid="structMR_1_1PreciseVertCoords2" prot="public">MR::PreciseVertCoords2</innerclass>
@@ -574,7 +591,10 @@
     <innerclass refid="classMR_1_1RangeProcessorSingle" prot="public">MR::RangeProcessorSingle</innerclass>
     <innerclass refid="classMR_1_1RangeProgress" prot="public">MR::RangeProgress</innerclass>
     <innerclass refid="structMR_1_1RangeSize" prot="public">MR::RangeSize</innerclass>
-    <innerclass refid="structMR_1_1RawTiffOutput" prot="public">MR::RawTiffOutput</innerclass>
+    <innerclass refid="structMR_1_1Raster" prot="public">MR::Raster</innerclass>
+    <innerclass refid="structMR_1_1RasterInfo" prot="public">MR::RasterInfo</innerclass>
+    <innerclass refid="structMR_1_1RasterLoadSettings" prot="public">MR::RasterLoadSettings</innerclass>
+    <innerclass refid="structMR_1_1RasterSaveSettings" prot="public">MR::RasterSaveSettings</innerclass>
     <innerclass refid="structMR_1_1RayOrigin" prot="public">MR::RayOrigin</innerclass>
     <innerclass refid="structMR_1_1RebuildMeshSettings" prot="public">MR::RebuildMeshSettings</innerclass>
     <innerclass refid="classMR_1_1RecentFilesStore" prot="public">MR::RecentFilesStore</innerclass>
@@ -635,6 +655,7 @@
     <innerclass refid="structMR_1_1RibbonTab" prot="public">MR::RibbonTab</innerclass>
     <innerclass refid="structMR_1_1RigidScaleXf3" prot="public">MR::RigidScaleXf3</innerclass>
     <innerclass refid="structMR_1_1RigidXf3" prot="public">MR::RigidXf3</innerclass>
+    <innerclass refid="structMR_1_1RigidXfRansacParams" prot="public">MR::RigidXfRansacParams</innerclass>
     <innerclass refid="classMR_1_1RingIterator" prot="public">MR::RingIterator</innerclass>
     <innerclass refid="classMR_1_1SaveObjectMenuItem" prot="public">MR::SaveObjectMenuItem</innerclass>
     <innerclass refid="structMR_1_1SaveObjectSettings" prot="public">MR::SaveObjectSettings</innerclass>
@@ -682,16 +703,19 @@
     <innerclass refid="structMR_1_1SharpOffsetParameters" prot="public">MR::SharpOffsetParameters</innerclass>
     <innerclass refid="structMR_1_1ShellVertexInfo" prot="public">MR::ShellVertexInfo</innerclass>
     <innerclass refid="classMR_1_1ShiftTransformer" prot="public">MR::ShiftTransformer</innerclass>
+    <innerclass refid="structMR_1_1Shortcut" prot="public">MR::Shortcut</innerclass>
     <innerclass refid="structMR_1_1ShortcutKey" prot="public">MR::ShortcutKey</innerclass>
     <innerclass refid="classMR_1_1ShortcutManager" prot="public">MR::ShortcutManager</innerclass>
     <innerclass refid="structMR_1_1ShrinkwrapParameters" prot="public">MR::ShrinkwrapParameters</innerclass>
     <innerclass refid="structMR_1_1Signal" prot="public">MR::Signal</innerclass>
     <innerclass refid="structMR_1_1SignedDistanceToMeshOptions" prot="public">MR::SignedDistanceToMeshOptions</innerclass>
     <innerclass refid="structMR_1_1SignedDistanceToMeshResult" prot="public">MR::SignedDistanceToMeshResult</innerclass>
+    <innerclass refid="structMR_1_1SignedProduct" prot="public">MR::SignedProduct</innerclass>
     <innerclass refid="structMR_1_1SimpleTimeRecord" prot="public">MR::SimpleTimeRecord</innerclass>
     <innerclass refid="structMR_1_1SkyPatch" prot="public">MR::SkyPatch</innerclass>
     <innerclass refid="structMR_1_1SliceInfo" prot="public">MR::SliceInfo</innerclass>
     <innerclass refid="structMR_1_1SliceInfoBase" prot="public">MR::SliceInfoBase</innerclass>
+    <innerclass refid="structMR_1_1SmoothCameraMeshDepthSettings" prot="public">MR::SmoothCameraMeshDepthSettings</innerclass>
     <innerclass refid="structMR_1_1SmoothFillingSettings" prot="public">MR::SmoothFillingSettings</innerclass>
     <innerclass refid="structMR_1_1SomeLocalTriangulations" prot="public">MR::SomeLocalTriangulations</innerclass>
     <innerclass refid="structMR_1_1SortIntersectionsData" prot="public">MR::SortIntersectionsData</innerclass>
@@ -731,7 +755,7 @@
     <innerclass refid="classMR_1_1Tgt2SrcMaps" prot="public">MR::Tgt2SrcMaps</innerclass>
     <innerclass refid="structMR_1_1ThickenParams" prot="public">MR::ThickenParams</innerclass>
     <innerclass refid="structMR_1_1ThreadRootTimeRecord" prot="public">MR::ThreadRootTimeRecord</innerclass>
-    <innerclass refid="structMR_1_1TiffParameters" prot="public">MR::TiffParameters</innerclass>
+    <innerclass refid="structMR_1_1TiffSaveSettings" prot="public">MR::TiffSaveSettings</innerclass>
     <innerclass refid="classMR_1_1Timer" prot="public">MR::Timer</innerclass>
     <innerclass refid="structMR_1_1TimeRecord" prot="public">MR::TimeRecord</innerclass>
     <innerclass refid="classMR_1_1Toolbar" prot="public">MR::Toolbar</innerclass>
@@ -846,9 +870,8 @@
     <innerclass refid="structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4" prot="public">MR::VoxelTraits&lt; VoxelValueGetter&lt; T &gt; &gt;</innerclass>
     <innerclass refid="classMR_1_1WatershedGraph" prot="public">MR::WatershedGraph</innerclass>
     <innerclass refid="classMR_1_1WebRequest" prot="public">MR::WebRequest</innerclass>
-    <innerclass refid="structMR_1_1WeightedVertex" prot="public">MR::WeightedVertex</innerclass>
+    <innerclass refid="structMR_1_1WeightedVertexT" prot="public">MR::WeightedVertexT</innerclass>
     <innerclass refid="structMR_1_1Writer" prot="public">MR::Writer</innerclass>
-    <innerclass refid="structMR_1_1WriteRawTiffParams" prot="public">MR::WriteRawTiffParams</innerclass>
     <innerclass refid="classMR_1_1XfBasedCache" prot="public">MR::XfBasedCache</innerclass>
     <innerclass refid="structMR_1_1ZCompensateParams" prot="public">MR::ZCompensateParams</innerclass>
     <innerclass refid="structMR_1_1ZeroOnMove" prot="public">MR::ZeroOnMove</innerclass>
@@ -895,6 +918,8 @@
     <innernamespace refid="namespaceMR_1_1PolylineComponents">MR::PolylineComponents</innernamespace>
     <innernamespace refid="namespaceMR_1_1ProgressBar">MR::ProgressBar</innernamespace>
     <innernamespace refid="namespaceMR_1_1QualityControl">MR::QualityControl</innernamespace>
+    <innernamespace refid="namespaceMR_1_1RasterLoad">MR::RasterLoad</innernamespace>
+    <innernamespace refid="namespaceMR_1_1RasterSave">MR::RasterSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1RenderDimensions">MR::RenderDimensions</innernamespace>
     <innernamespace refid="namespaceMR_1_1RenderFeatures">MR::RenderFeatures</innernamespace>
     <innernamespace refid="namespaceMR_1_1RenderWrapObject">MR::RenderWrapObject</innernamespace>
@@ -1150,6 +1175,22 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
+      <member refid="group__DistanceMapGroup_1ga5eb87f0ab1d7fca53c85caa95f287e69" kind="variable"><name>params</name></member>
+      <member refid="group__DistanceMapGroup_1ga1ceb255a1de1a49e02ff03c17ec71350" kind="variable"><name>meshB</name></member>
+      <member refid="group__DistanceMapGroup_1ga69c979e2e86dc19d223ee4f41fb46fea" kind="variable"><name>operation</name></member>
+      <member refid="group__DistanceMapGroup_1ga557dc22e5cbeb46ead267fbf4b2b59b3" kind="variable"><name>rigidB2A</name></member>
+      <member refid="group__DistanceMapGroup_1ga848e5345e71d79237fb4a0881d2119a8" kind="variable"><name>mapper</name></member>
+      <member refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kind="variable"><name>cb</name></member>
+      <member refid="group__DistanceMapGroup_1ga39152eebf658678f4b4dcf694eaa7e6e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__DistanceMapGroup_1gabde61d75feea288c14690ed8c3e592d2" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__DistanceMapGroup_1ga3cd95420eff10d7088c11eaba95708df" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__DistanceMapGroup_1ga52bfb35f8321bd4301244ba7f839bbdc" kind="function"><name>forceBoolean</name></member>
+      <member refid="group__DistanceMapGroup_1ga6d540f90dc1f346721c02d850438ed29" kind="function"><name>selfBoolean</name></member>
+      <member refid="group__DistanceMapGroup_1ga0b6ca259502ac9cd412a6d3b42249201" kind="function"><name>findIntersectionContours</name></member>
+      <member refid="group__DistanceMapGroup_1gac5ed86269f5cf1022e94d272e28f73b7" kind="function"><name>getBooleanPoints</name></member>
+      <member refid="group__DistanceMapGroup_1gaea2a58b1c675ac131f93a0785e7d7ec1" kind="function"><name>convertIntFloatAllVerts</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
       <member refid="group__ContourGroup_1ga2781b4d5e5bf7cc617f8a0eba5a524f6" kind="function"><name>convertContourTo2f</name></member>
       <member refid="group__ContourGroup_1gaa4ceecc8e73e44a2e6581d55a462f1ea" kind="function"><name>convertContourTo3f</name></member>
       <member refid="group__ContourGroup_1gaba764c41a940b36b3557d7cfd2dfa4a2" kind="function"><name>convertContourTo2d</name></member>
@@ -1226,16 +1267,6 @@
       <member refid="group__SurfacePathGroup_1ga6af8590fd17b0f605429dfd96564cb83" kind="function"><name>edgePathsToContours3f</name></member>
     </sectiondef>
     <sectiondef kind="user-defined">
-      <member refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kind="function"><name>boolean</name></member>
-      <member refid="group__BooleanGroup_1gafdc7b5669facb509c577f29284ddfb9a" kind="function"><name>boolean</name></member>
-      <member refid="group__BooleanGroup_1ga6ed597bf8c9350700adae2b23fed4f74" kind="function"><name>boolean</name></member>
-      <member refid="group__BooleanGroup_1ga52bfb35f8321bd4301244ba7f839bbdc" kind="function"><name>forceBoolean</name></member>
-      <member refid="group__BooleanGroup_1ga6d540f90dc1f346721c02d850438ed29" kind="function"><name>selfBoolean</name></member>
-      <member refid="group__BooleanGroup_1ga0b6ca259502ac9cd412a6d3b42249201" kind="function"><name>findIntersectionContours</name></member>
-      <member refid="group__BooleanGroup_1gac5ed86269f5cf1022e94d272e28f73b7" kind="function"><name>getBooleanPoints</name></member>
-      <member refid="group__BooleanGroup_1gaea2a58b1c675ac131f93a0785e7d7ec1" kind="function"><name>convertIntFloatAllVerts</name></member>
-    </sectiondef>
-    <sectiondef kind="user-defined">
       <member refid="group__DataModelGroup_1gae0171c457a8d377c478e26a0b170456c" kind="function"><name>makeObjectMeshFromFile</name></member>
       <member refid="group__DataModelGroup_1gadd90fc0dc330a520a6dff51ba956a7f1" kind="function"><name>makeObjectFromMeshFile</name></member>
       <member refid="group__DataModelGroup_1gac9dd077808aa46ace7e81ce139b9059a" kind="function"><name>makeObjectLinesFromFile</name></member>
@@ -1270,12 +1301,14 @@
       <member refid="group__MathGroup_1ga55fa84104f9667699a40034291a40723" kind="function"><name>ccwAroundLine</name></member>
       <member refid="group__MathGroup_1ga4b162fc9a97cef14dfdf9a7dfc6bf34f" kind="function"><name>doTriangleSegmentIntersect</name></member>
       <member refid="group__MathGroup_1ga4407955477825bbff775800e3841da28" kind="function"><name>segmentIntersectionOrder</name></member>
+      <member refid="group__MathGroup_1gaae180a2cc2ed168bacc3bb0f55ced219" kind="function"><name>segmentIntersectionTriPlaneOrder</name></member>
       <member refid="group__MathGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" kind="function"><name>getToIntConverter</name></member>
       <member refid="group__MathGroup_1ga5daf9fc7ddf6a348c4194b8582821c82" kind="function"><name>getToFloatConverter</name></member>
       <member refid="group__MathGroup_1ga39e5dd8c133fbb356e478051d5923e8b" kind="function"><name>computeIntCoords</name></member>
       <member refid="group__MathGroup_1gabad3bcfedc022e24fc08968b846a21b5" kind="function"><name>computeFloatCoords</name></member>
       <member refid="group__MathGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" kind="function"><name>findTwoSegmentsIntersection</name></member>
       <member refid="group__MathGroup_1gaab6e7e21a9eac612957d5e6b91637769" kind="function"><name>findTriangleSegmentIntersectionPrecise</name></member>
+      <member refid="group__MathGroup_1ga67bcae2090ea4cb7ddaa3649e817b040" kind="function"><name>findTriangleSegmentIntersectionPreciseInt</name></member>
     </sectiondef>
     <sectiondef kind="user-defined">
       <member refid="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" kind="function"><name>fromEigen</name></member>
@@ -1331,12 +1364,6 @@
     <sectiondef kind="user-defined">
       <member refid="group__GeneralGroup_1gab8d2624777be58e7e104a7bf446aee82" kind="function"><name>dot</name></member>
       <member refid="group__GeneralGroup_1gaff9e2bc787d384454aed9377473bfdc3" kind="function"><name>outer</name></member>
-    </sectiondef>
-    <sectiondef kind="user-defined">
-      <member refid="group__GeneralGroup_1ga4c5344758f4daed07c548746957f795d" kind="function"><name>same</name></member>
-      <member refid="group__GeneralGroup_1ga6421ee7a169962d806d9288a85019fff" kind="function"><name>fromSameTriangle</name></member>
-      <member refid="group__GeneralGroup_1ga5b4701e6cc60a8b3a60545055a0f0ad2" kind="function"><name>fromSameTriangle</name></member>
-      <member refid="group__GeneralGroup_1gaacaa9b179d37a2b7448d4174d9026d02" kind="function"><name>getVertexAsMeshTriPoint</name></member>
     </sectiondef>
     <sectiondef kind="user-defined">
       <member refid="group__GeneralGroup_1gab78bbcb21e57f07de12885121b3e2177" kind="function"><name>invTransformed</name></member>
@@ -1618,6 +1645,7 @@
       <member refid="group__GeneralGroup_1ga23e900d0cb79ee7e0562507ab9e9f562" kind="enum"><name>PdfBuildinFont</name></member>
       <member refid="group__GeneralGroup_1ga05195fdcf0d1d90b73a5d24b11150005" kind="enum"><name>Axis</name></member>
       <member refid="group__BooleanGroup_1ga9e84a8cc429efdf5cc108ca1c6aaccbd" kind="enum"><name>BooleanOperation</name></member>
+      <member refid="group__GeneralGroup_1ga00a7bb161f5eaaa90ce8cb39fec8eec6" kind="enum"><name>AreaStabilizer</name></member>
       <member refid="group__GeneralGroup_1ga0ec93e9fcfd4b11654579d65e255bb7d" kind="enum"><name>ConeFitterType</name></member>
       <member refid="group__GeneralGroup_1ga6b6dd7eadc1056fc5ffd8af1810d925a" kind="enum"><name>FilterType</name></member>
       <member refid="group__GeneralGroup_1ga0e519d6a7c053c5d86dac33ecd0fa00c" kind="enum"><name>WrapType</name></member>
@@ -1626,6 +1654,7 @@
       <member refid="group__GeneralGroup_1ga5ac9f08cd2ef48394fa1c77a8ebdd6c8" kind="enum"><name>EdgeWeights</name></member>
       <member refid="group__GeneralGroup_1gaa86f413349a7d9d6b8e7b22783100cf2" kind="enum"><name>RememberShape</name></member>
       <member refid="group__GeneralGroup_1gae9fc4543eb3302ae33b7843707485149" kind="enum"><name>Processing</name></member>
+      <member refid="group__GeneralGroup_1gae8cccc75b39074c044cb7ece46ea677f" kind="enum"><name>VertNormalsMode</name></member>
       <member refid="group__GeneralGroup_1gaf24a4564a6b209f61d84fd30c8c71a8b" kind="enum"><name>OrientNormals</name></member>
       <member refid="group__GeneralGroup_1gaaa631c02105f2a8fa6fe24c7873e8d98" kind="enum"><name>OffsetMode</name></member>
       <member refid="group__GeneralGroup_1ga270a25a8ef13e07e59e7070834efc33f" kind="enum"><name>ColoringType</name></member>
@@ -1640,6 +1669,7 @@
       <member refid="group__GeneralGroup_1ga494f6ca56c512e886474f7209f624c48" kind="enum"><name>Side</name></member>
       <member refid="group__GeneralGroup_1gaa1ff587f4ced1a1f1f1be9787830ef93" kind="enum"><name>DepthFunction</name></member>
       <member refid="group__DecimateGroup_1ga216960c15f7b00558ab28053967a9615" kind="enum"><name>DecimateStrategy</name></member>
+      <member refid="group__DecimateGroup_1gaed99d2728682c43807db96f18bb16d35" kind="enum"><name>DecimatePartsMode</name></member>
       <member refid="group__MeshDeloneGroup_1gaa3ebc28a0c17a0a5fc0c9b90a97bfc95" kind="enum"><name>FlipEdge</name></member>
       <member refid="group__AABBTreeGroup_1ga3dd2fd9fcc06b6502d22a9ea3eb63e47" kind="enum"><name>ProcessOneResult</name></member>
       <member refid="group__AABBTreeGroup_1ga5aa465c33f4b7d12b07ec82baf32654b" kind="enum"><name>MeshMeshCollisionStatus</name></member>
@@ -1647,6 +1677,7 @@
       <member refid="group__DistanceMapGroup_1gab7acb4543154d042c297e5823fb633b6" kind="enum"><name>OutEdge2</name></member>
       <member refid="group__GeneralGroup_1ga6ab288ae813e1aa688312e31c258df71" kind="enum"><name>RelaxApproxType</name></member>
       <member refid="group__GeneralGroup_1ga712ee084e6055ce8fadbbe8cf8b3f6ce" kind="enum"><name>RenderModelPassMask</name></member>
+      <member refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kind="enum"><name>ScalarType</name></member>
       <member refid="group__GeneralGroup_1ga280c060609c3f9f4b19b026220db29fe" kind="enum"><name>NeighborDir</name></member>
       <member refid="group__GeneralGroup_1ga03fba1fe0e5d6fe3c22dc41c9d57d309" kind="enum"><name>SignDetectionMode</name></member>
       <member refid="group__GeneralGroup_1ga07048ed78d40b323183d7f5479f821d0" kind="enum"><name>SignDetectionModeShort</name></member>
@@ -1685,7 +1716,7 @@
       <member refid="group__GeneralGroup_1gaa6b11352e59ca716da2c9d8bf2371424" kind="enum"><name>DegreesMode</name></member>
       <member refid="group__GeneralGroup_1gaa591847657e546eba90e70acf2185c02" kind="enum"><name>ZeroMode</name></member>
       <member refid="group__GeneralGroup_1ga3b6b94f5ad3595b510d6842ee045d493" kind="enum"><name>SideRegions</name></member>
-      <member refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kind="enum"><name>ScalarType</name></member>
+      <member refid="group__GeneralGroup_1ga7da18eadf0576c3cb0a3c42de2f106db" kind="enum"><name>InsideMeshRule</name></member>
       <member refid="group__GeneralGroup_1ga496117b22a6f09546f0037fb4b5d43aa" kind="enum"><name>BypassDirection</name></member>
       <member refid="group__GeneralGroup_1ga88f1fdd848610bc41226918baa28e601" kind="enum"><name>MoveType</name></member>
       <member refid="group__GeneralGroup_1gae1af7aec8f28c8e85182ca94f5802435" kind="enum"><name>ArcPlane</name></member>
@@ -1701,6 +1732,7 @@
       <member refid="group__AABBTreeGroup_1ga346d2e7774495e3e4ca05a2325f11aaf" kind="typedef"><name>LineTreeTraits2</name></member>
       <member refid="group__AABBTreeGroup_1gacf6e57b5e87718397acc1762969ad77a" kind="typedef"><name>LineTreeTraits3</name></member>
       <member refid="group__AABBTreeGroup_1ga01c75e3c26967a90edbe075a77cb2ca9" kind="typedef"><name>AABBTreeNodeVec</name></member>
+      <member refid="group__GeneralGroup_1ga4ed067eb120da131493c19909b1503bb" kind="typedef"><name>AllocatorBase</name></member>
       <member refid="group__GeneralGroup_1gaede2a83d70208855b602da974aafc690" kind="typedef"><name>Polynomialf</name></member>
       <member refid="group__GeneralGroup_1gabef34e50f0274ffd602098869fffd461" kind="typedef"><name>Polynomiald</name></member>
       <member refid="group__GeneralGroup_1gac2fd3accc312c98127c44a0460f5af5d" kind="typedef"><name>Polynomialx</name></member>
@@ -1782,7 +1814,11 @@
       <member refid="group__GeneralGroup_1ga712806ee9f8b1b9a53133ddba57f7da7" kind="typedef"><name>Triangle3i</name></member>
       <member refid="group__GeneralGroup_1gac3b4f93ff16dbb5975ce8dec6adc39cf" kind="typedef"><name>Triangle3f</name></member>
       <member refid="group__GeneralGroup_1ga9905362191a698597df6dca4bd2cc53b" kind="typedef"><name>Triangle3d</name></member>
+      <member refid="group__GeneralGroup_1ga1931367f34dc44e777731c77a6840237" kind="typedef"><name>EdgeSegmentf</name></member>
       <member refid="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" kind="typedef"><name>MeshEdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga252bcd65d63cc4565357a77c71496984" kind="typedef"><name>MeshEdgePointT</name></member>
+      <member refid="group__GeneralGroup_1ga1c3200908153553a41d609577fde3f5d" kind="typedef"><name>MeshEdgePointf</name></member>
+      <member refid="group__GeneralGroup_1gaab5ca49a331271fb2d5473870878ece1" kind="typedef"><name>MeshEdgePointd</name></member>
       <member refid="group__GeneralGroup_1ga7798ef4dfda44362083b0aa66a45d6a3" kind="typedef"><name>SurfacePath</name></member>
       <member refid="group__GeneralGroup_1ga1947baff009e7ba9b3d0754c30a458a5" kind="typedef"><name>SurfacePaths</name></member>
       <member refid="group__GeneralGroup_1ga6e262af332519e310390cebc4a585090" kind="typedef"><name>IsoLine</name></member>
@@ -1797,6 +1833,7 @@
       <member refid="group__GeneralGroup_1ga18500a3df20aa256325c44e2c5b2b499" kind="typedef"><name>TwoVertIds</name></member>
       <member refid="group__GeneralGroup_1ga9fa45e8860a645c31bc2c7f1a2abf56b" kind="typedef"><name>ThreeVertIds</name></member>
       <member refid="group__GeneralGroup_1ga4434b15c24b22d8f017f529064021a35" kind="typedef"><name>ThreeUVCoords</name></member>
+      <member refid="group__GeneralGroup_1gaaa96bd15a3232e297bf7582b5fb5db6e" kind="typedef"><name>VertPredicate</name></member>
       <member refid="group__GeneralGroup_1ga2b15c0d875f91b8c0da03e651251832b" kind="typedef"><name>FacePredicate</name></member>
       <member refid="group__GeneralGroup_1ga3dd173667e136d1ab529bb70c4f9e450" kind="typedef"><name>EdgePredicate</name></member>
       <member refid="group__GeneralGroup_1ga54078c8d4e2a3473d6e15a932c107cd4" kind="typedef"><name>UndirectedEdgePredicate</name></member>
@@ -1806,11 +1843,12 @@
       <member refid="group__GeneralGroup_1ga964a181b4bf9b03b222d6e2ad3529487" kind="typedef"><name>FaceMetric</name></member>
       <member refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kind="typedef"><name>EdgeMetric</name></member>
       <member refid="group__GeneralGroup_1gab7a3fa3c0bf9137f59a3a494350314d1" kind="typedef"><name>UndirectedEdgeMetric</name></member>
+      <member refid="group__GeneralGroup_1ga73743648f725f7a8ba67d01ae0e466d5" kind="typedef"><name>HashSet</name></member>
       <member refid="group__GeneralGroup_1gad321412e874739790b445adf4bbb1139" kind="typedef"><name>ParallelHashSet</name></member>
       <member refid="group__GeneralGroup_1ga9c13b23a521cbb81b2b70d44c1d2251e" kind="typedef"><name>FaceHashSet</name></member>
       <member refid="group__GeneralGroup_1ga38a7dfd218690048dcae5c9a85647bc6" kind="typedef"><name>VertHashSet</name></member>
       <member refid="group__GeneralGroup_1gaab2dff43553ca83a7047da7cf31b3c1b" kind="typedef"><name>EdgeHashSet</name></member>
-      <member refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kind="typedef"><name>HashMap</name></member>
+      <member refid="group__GeneralGroup_1ga9dfad208b725d59063370f3881b40552" kind="typedef"><name>HashMap</name></member>
       <member refid="group__GeneralGroup_1ga05d4e4903837647940c265c6939dcfdf" kind="typedef"><name>ParallelHashMap</name></member>
       <member refid="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" kind="typedef"><name>FaceHashMap</name></member>
       <member refid="group__GeneralGroup_1ga5f073f01bf5ba45cd1ca11d8507f494d" kind="typedef"><name>VertHashMap</name></member>
@@ -1827,6 +1865,7 @@
       <member refid="group__AABBTreeGroup_1ga9222ec2d954badb7ee5874321a084eb6" kind="typedef"><name>Line3fMesh</name></member>
       <member refid="group__AABBTreeGroup_1ga8ba650839d7806773bb542b986ac4283" kind="typedef"><name>Line3dMesh</name></member>
       <member refid="group__AABBTreeGroup_1gac20cf6ba073a7db1e2df313fb87d9517" kind="typedef"><name>MeshIntersectionCallback</name></member>
+      <member refid="group__AABBTreeGroup_1ga9aa9e0fd7fa1a5029ec19df149069464" kind="typedef"><name>MeshIntersectionWithSideCallback</name></member>
       <member refid="group__FillHoleGroup_1ga9a2b22c68476e1176c0f8a8f43542611" kind="typedef"><name>FillTriangleMetric</name></member>
       <member refid="group__FillHoleGroup_1ga7f292aee02fc8ca7504a114461b74cd5" kind="typedef"><name>FillEdgeMetric</name></member>
       <member refid="group__FillHoleGroup_1gaf0a9f8a0620df3a7af664ad4c6aab213" kind="typedef"><name>FillCombineMetric</name></member>
@@ -1845,6 +1884,8 @@
       <member refid="group__GeneralGroup_1ga3f87a9abf93ab132bc1ea3f939459b37" kind="typedef"><name>OffsetContoursVertMaps</name></member>
       <member refid="group__GeneralGroup_1ga19cb89c4b7c5582f2215200a5b0755af" kind="typedef"><name>ContoursVariableOffset</name></member>
       <member refid="group__GeneralGroup_1ga217b7a3f4fc9168e09f3d423beb790e5" kind="typedef"><name>MeshTriPointsConnector</name></member>
+      <member refid="group__GeneralGroup_1gac8edd2f74c83902049883d385b91f3ac" kind="typedef"><name>FPFHDescriptor</name></member>
+      <member refid="group__GeneralGroup_1ga40b00a4d33abffac48088bf156d86028" kind="typedef"><name>FPFHDescriptors</name></member>
       <memberdef kind="typedef" id="namespaceMR_1a93bff7f59121c9c61175744b11326824" prot="public" static="no">
         <type><ref refid="structMR_1_1TriangulateHolesParams" kindref="compound">TriangulateHolesParams</ref></type>
         <definition>using MR::FillHolesWithExtraPointsParams =  TriangulateHolesParams</definition>
@@ -1878,6 +1919,7 @@
       <member refid="group__GeneralGroup_1ga13c6625ef2ade2be056564a39a8474d2" kind="typedef"><name>GroupOrder</name></member>
       <member refid="group__GeneralGroup_1ga9818c25296630cb432dbe0d4e068734d" kind="typedef"><name>SeparationPointSet</name></member>
       <member refid="group__GeneralGroup_1gabe4fc717ac175a150ec372e71e5d0ba1" kind="typedef"><name>SeparationPointMap</name></member>
+      <member refid="group__GeneralGroup_1gaa4ca76b378d33a7868bd13efacf4daa0" kind="typedef"><name>SparsePolynomialProduct</name></member>
       <member refid="group__GeneralGroup_1ga9b40642439b0e49df514a79a4cc26a55" kind="typedef"><name>TriTriDistanceResultf</name></member>
       <member refid="group__GeneralGroup_1ga307f773bda9a64426a2d85875a9f7241" kind="typedef"><name>TriTriDistanceResultd</name></member>
       <member refid="group__GeneralGroup_1ga74b84c1e75186c097b95643711a4c6c4" kind="typedef"><name>TriTriDistanceParamsf</name></member>
@@ -1886,6 +1928,7 @@
       <member refid="group__GeneralGroup_1ga37603199e9b0e5eb2e0cdbe36a2b315d" kind="typedef"><name>TwoLineSegmClosestPointsd</name></member>
       <member refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" kind="typedef"><name>FolderCallback</name></member>
       <member refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kind="typedef"><name>AllVisualizeProperties</name></member>
+      <member refid="group__SerializerGroup_1ga2b394d3aa0c69081d4bcb11804d390c0" kind="typedef"><name>ZipFileCallback</name></member>
       <member refid="group__GeneralGroup_1ga200de30e6095463279bfb030e610864b" kind="typedef"><name>Time</name></member>
       <member refid="group__GeneralGroup_1gaf32258fa43e72bfbd6c42df4283b25db" kind="typedef"><name>DisabledWarnings</name></member>
       <member refid="group__GeneralGroup_1ga23cad89260f563924fc2715e193959c5" kind="typedef"><name>FilesLoadedCallback</name></member>
@@ -1920,6 +1963,8 @@
       <member refid="group__ConstantsGroup_1ga415e7be5800fdfbcd56d4dcb21e6e1f4" kind="variable"><name>PI2</name></member>
       <member refid="group__ConstantsGroup_1gae00cfb986e1a28fc4d521d5a0666b31b" kind="variable"><name>PI_F</name></member>
       <member refid="group__ConstantsGroup_1gacad362d32c6fa4936e463a6c211583ac" kind="variable"><name>PI2_F</name></member>
+      <member refid="group__DistanceMapGroup_1ga80af23d6afb6730de0589211dc06002d" kind="variable"><name>isoValue</name></member>
+      <member refid="group__DistanceMapGroup_1ga08cc3c144188eeeba21b46af5590db82" kind="variable"><name>pixelSize</name></member>
       <memberdef kind="variable" id="namespaceMR_1aca010840c751d4c7b1a30bcd55fe5cdd" prot="public" static="no" extern="yes" mutable="no">
         <type>const <ref refid="group__IOFiltersGroup_1ga6e5e24c14d4909fcad8aa5fab54d047b" kindref="member">IOFilters</ref></type>
         <definition>const IOFilters MR::AllFilter</definition>
@@ -1936,6 +1981,13 @@
       </memberdef>
       <member refid="group__GeneralGroup_1gac50b2a332a59b46a9f98d7dc951dd010" kind="variable"><name>cQuietNan</name></member>
       <member refid="group__GeneralGroup_1ga8f3c9f088f6a284e579d9042826fccd6" kind="variable"><name>cQuietNanBits</name></member>
+      <member refid="group__AABBTreeGroup_1gaa740ea677f280fb2ec7aa62f36ae0e6e" kind="variable"><name>outCollidingPairs</name></member>
+      <member refid="group__AABBTreeGroup_1ga8e29498b56ebbbc50f4e1f619dde6a1e" kind="variable"><name>regionMap</name></member>
+      <member refid="group__AABBTreeGroup_1ga98036eae0d382183e4906ce403547cce" kind="variable"><name>touchIsIntersection</name></member>
+      <member refid="group__FillHoleGroup_1ga18e48630776db875b1a03ec6f89e6edd" kind="variable"><name>b</name></member>
+      <member refid="group__AABBTreeGroup_1ga05ee3dfec69d22b27853602f59f0e9eb" kind="variable"><name>conv</name></member>
+      <member refid="group__AABBTreeGroup_1gaa557fa48b4991f28ca7d45c7747c3a52" kind="variable"><name>anyIntersection</name></member>
+      <member refid="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" kind="variable"><name>a</name></member>
       <member refid="group__GeneralGroup_1gaaa8f63a4fb4dcabf0f8f1dc79cdeee90" kind="variable"><name>noInit</name></member>
       <member refid="group__GeneralGroup_1gae14e1033b3de0c30a6bb404e940dc424" kind="variable"><name>NoDefInit</name></member>
       <member refid="group__GeneralGroup_1gac8c2508941fcd4ad714cdf50c45aa41c" kind="variable"><name>EdgeTag</name></member>
@@ -2001,11 +2053,17 @@
       <member refid="group__GeneralGroup_1gaaeefc18e0b5d4277fd54d80dd8b861d2" kind="variable"><name>Quaternionf</name></member>
       <member refid="group__GeneralGroup_1ga19edd69b6fe6517b6c72b6874676bfc7" kind="variable"><name>SegmPoint</name></member>
       <member refid="group__GeneralGroup_1gad43f4122edb9f01bedc63d1fc84a374e" kind="variable"><name>SegmPointf</name></member>
+      <member refid="group__GeneralGroup_1ga7f2c874520cf3659b3f7797b820dabb4" kind="variable"><name>EdgePointT</name></member>
+      <member refid="group__GeneralGroup_1ga2184a4ebcef7a214ba981313f3637935" kind="variable"><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga942e564154a6c79c748ab1824b02e23f" kind="variable"><name>EdgeSegmentT</name></member>
+      <member refid="group__GeneralGroup_1ga0df3fa5d7fd5a0e498e9e7c656c0dedf" kind="variable"><name>EdgeSegment</name></member>
       <member refid="group__GeneralGroup_1gab4b475d1cfb4a2c8cdef119f5570a9d6" kind="variable"><name>TriPoint</name></member>
       <member refid="group__GeneralGroup_1ga38bb05d6835471e5cc3352addbd30f02" kind="variable"><name>TriPointf</name></member>
+      <member refid="group__GeneralGroup_1gac63db67c119d66b228c92840c6395214" kind="variable"><name>MeshTriPointT</name></member>
+      <member refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kind="variable"><name>MeshTriPoint</name></member>
+      <member refid="group__GeneralGroup_1ga1b6eaab878e011b609b556f10ce4e7d5" kind="variable"><name>WeightedVertexT</name></member>
+      <member refid="group__GeneralGroup_1ga00f8fdc0cbbc74e9d3b0a0b79023f922" kind="variable"><name>WeightedVertex</name></member>
       <member refid="group__GeneralGroup_1gad199d60177879413c7ab7c1b24e30a54" kind="variable"><name>Dipole</name></member>
-      <member refid="group__GeneralGroup_1gad18d27e1aa8c9210d5b1086a3615644e" kind="variable"><name>Hash</name></member>
-      <member refid="group__GeneralGroup_1ga328a03eeb36433aa99e9d41822a84272" kind="variable"><name>Eq</name></member>
       <member refid="group__GeneralGroup_1ga70998e19114b7179469682c1c31c77ae" kind="variable"><name>MeshTopology</name></member>
       <member refid="group__GeneralGroup_1ga49165bcb87a59752b8f02f19ea7f2424" kind="variable"><name>Mesh</name></member>
       <member refid="group__GeneralGroup_1ga1b27efcf0bc43958ffdc2474a71d7730" kind="variable"><name>EdgeLengthMesh</name></member>
@@ -2026,10 +2084,21 @@
       <member refid="group__GeneralGroup_1ga78658d7e2559b2c2ecccd1003dc75e04" kind="variable"><name>ChangeSceneAction</name></member>
       <member refid="group__GeneralGroup_1gac090ec24cc989c66ab1dbc182cb43c87" kind="variable"><name>dependent_false</name></member>
       <member refid="group__FillHoleGroup_1gad6e60cb1116257e53229b6ee7ee22351" kind="variable"><name>BadTriangulationMetric</name></member>
+      <member refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kind="variable"><name>points</name></member>
+      <member refid="group__GeneralGroup_1ga351ee7aaab2fab7deb7b0aed319437f4" kind="variable"><name>settings</name></member>
       <member refid="group__HistoryGroup_1gad99fa852d419f9e626ea9fa47d4c7884" kind="variable"><name>cmpOld</name></member>
       <member refid="group__HistoryGroup_1ga66d1f6caeb3fa983f8d823d501d10cc3" kind="variable"><name>setNew</name></member>
+      <member refid="group__GeneralGroup_1ga3b90c83e8a1db82d0270a879f9d3bd16" kind="variable"><name>FPFHBins</name></member>
+      <member refid="group__GeneralGroup_1ga49041d4755e77f85aa99eeedc68678c9" kind="variable"><name>FPFHDescriptorSize</name></member>
+      <member refid="group__GeneralGroup_1gab30b2cff28d4af1589761e19ac9019fa" kind="variable"><name>testPoints</name></member>
+      <member refid="group__GeneralGroup_1gad0626776a19c450dc06af751d1bd6b56" kind="variable"><name>validTestPoints</name></member>
+      <member refid="group__GeneralGroup_1gacad7dea69af1314dca455d10ae162e3f" kind="variable"><name>projector</name></member>
+      <member refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kind="variable"><name>mesh</name></member>
       <member refid="group__DistanceMapGroup_1gaf0cff421c4d16669d4c549f214bb8477" kind="variable"><name>allOutEdges2</name></member>
       <member refid="group__DistanceMapGroup_1ga1fe8adc8eeed5eae0d5217546cb26d59" kind="variable"><name>OutEdge2Count</name></member>
+      <member refid="group__GeneralGroup_1ga0cf5fcc5efe63eaf86bbda721b7041c4" kind="variable"><name>faces</name></member>
+      <member refid="group__GeneralGroup_1ga018938df5d34ea1035a4d0c57d9f9708" kind="variable"><name>store</name></member>
+      <member refid="group__GeneralGroup_1gabbe25ce79dd85635294b1687bb4bdc72" kind="variable"><name>edges</name></member>
       <member refid="group__GeneralGroup_1gafc52ca9c641e143b043d33a56cb36376" kind="variable"><name>TelemetrySignal</name></member>
       <member refid="group__VolumeIndexerGroup_1ga2f359b8ca6ad382c364a49777f193ba0" kind="variable"><name>all6Edges</name></member>
       <member refid="group__VolumeIndexerGroup_1gab35bebc2eedde9b1262043f5242f3ebf" kind="variable"><name>OutEdgeCount</name></member>
@@ -2090,7 +2159,6 @@
       <member refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kind="variable"><name>FunctionVolume</name></member>
     </sectiondef>
     <sectiondef kind="func">
-      <member refid="group__GeneralGroup_1gaaf1b942a3a38255874216b2086b3dc3e" kind="function"><name>setupCommonPluginsShortcuts</name></member>
       <member refid="group__GeneralGroup_1ga19050dd10a5949c79f3e19aeaff6466b" kind="function"><name>deserializeObjectTreeFrom3mf</name></member>
       <member refid="group__GeneralGroup_1ga58ca3a48e21d88de69dd699129025edb" kind="function"><name>deserializeObjectTreeFromModel</name></member>
       <member refid="group__GeneralGroup_1gae6fa636dd51f34ce2884fd560b05e1f4" kind="function"><name>deserializeObjectTreeFromGltf</name></member>
@@ -2120,13 +2188,16 @@
       <member refid="group__GeneralGroup_1ga34fb9dd014b4a3bc1bfad3872b89652c" kind="function"><name>meshPathCurvePoints</name></member>
       <member refid="group__GeneralGroup_1gab0d30a64fff13912b6a95a78291ba1ea" kind="function"><name>meshPathCurvePoints</name></member>
       <member refid="group__GeneralGroup_1gac55797411aface5733212df942d0a0af" kind="function"><name>addBaseToPlanarMesh</name></member>
+      <member refid="group__GeneralGroup_1ga069c10cc19da139f913e3cd6f507b76f" kind="function"><name>operator==</name></member>
       <member refid="group__GeneralGroup_1ga2a6c5709a87e0a120f5a524c0afdcc1f" kind="function"><name>getAlphaShapeData</name></member>
       <member refid="group__GeneralGroup_1ga6518dbc6c7ff8ff9c2d5eee997acd766" kind="function"><name>findAlphaShapeNeiTriangles</name></member>
+      <member refid="group__GeneralGroup_1ga80bd80deacec22067d4234718870c035" kind="function"><name>findBallPivotVertex</name></member>
       <member refid="group__GeneralGroup_1gaff0816219564d53d0fc5c5594f96eb62" kind="function"><name>findAlphaShapeAllTriangles</name></member>
       <member refid="group__GeneralGroup_1ga44dece01c32cea22aac7aab8915caa2b" kind="function"><name>findAlphaShapeAllTriangles</name></member>
       <member refid="group__GeneralGroup_1ga9f304608f78c5e19b2d5c560900e5bfb" kind="function"><name>findAlphaShapeAllTriangles</name></member>
-      <member refid="group__GeneralGroup_1ga206e1ff370f4c549a290390c0e540d89" kind="function"><name>findAlphaShape</name></member>
-      <member refid="group__GeneralGroup_1gab742b798176547393043027206aa42c9" kind="function"><name>findAlphaShape</name></member>
+      <member refid="group__GeneralGroup_1ga3b1f03157e5ed5606d09d4627b84e54a" kind="function"><name>findAlphaShapeAllTriangles</name></member>
+      <member refid="group__GeneralGroup_1gaccef10dcd77bb190e4ba3e2a97300b5a" kind="function"><name>findAlphaShape</name></member>
+      <member refid="group__GeneralGroup_1gaf388b895aa87c6da7c8dbb693bed0c74" kind="function"><name>findAlphaShape</name></member>
       <member refid="group__GeneralGroup_1gac2b90dbcd947fc75b0ac691f7eef6ee7" kind="function"><name>makeArrow</name></member>
       <member refid="group__GeneralGroup_1ga7c5d54297609feabd75b33452067748a" kind="function"><name>makeBasisAxes</name></member>
       <member refid="group__Base64Group_1ga1c8b05a93792e0147c7b9a738af958be" kind="function"><name>encode64</name></member>
@@ -2169,9 +2240,12 @@
       <member refid="group__BasicGroup_1ga33e26ce0b4711944b757408b0ab339a5" kind="function"><name>BitSetParallelForAllRanged</name></member>
       <member refid="group__BasicGroup_1ga82bab0dac0d1604747ecff512e8a091a" kind="function"><name>BitSetParallelForAllRanged</name></member>
       <member refid="group__BasicGroup_1ga13c3e24dbe2feef1f9d56ea427ef4107" kind="function"><name>BitSetParallelForAll</name></member>
+      <member refid="group__BasicGroup_1ga86e6878b728d3f789b3b211a2011d935" kind="function"><name>BitSetParallelForAll</name></member>
       <member refid="group__BasicGroup_1ga473b8a238072b360e13c47d4c255d66f" kind="function"><name>BitSetParallelForAll</name></member>
       <member refid="group__BasicGroup_1ga6f038e999890735ffdb5f8119eb5650e" kind="function"><name>BitSetParallelFor</name></member>
+      <member refid="group__BasicGroup_1gabc3f588255ae3bd530638a5c6fb55557" kind="function"><name>BitSetParallelFor</name></member>
       <member refid="group__BasicGroup_1gaa44fd6dceea20f68975639cc07df31b2" kind="function"><name>BitSetParallelFor</name></member>
+      <member refid="group__BasicGroup_1gae44ca60e47ff70a1a8dd261447c8175c" kind="function"><name>BitSetWalk</name></member>
       <member refid="group__BooleanGroup_1ga1c924334076a710ae361fbdab680d498" kind="function"><name>doBooleanOperation</name></member>
       <member refid="group__BoxGroup_1ga38298a22be771a329c44d148ff2cb3c8" kind="function"><name>getCorners</name></member>
       <member refid="group__BoxGroup_1ga29381aa0a95542624d22842711d672f9" kind="function"><name>getCorners</name></member>
@@ -2186,6 +2260,11 @@
       <member refid="group__BoxGroup_1ga76c5563a8f378f26e9e7cd06542fc0bf" kind="function"><name>get</name></member>
       <member refid="group__GeneralGroup_1ga6925a647a7b6367122e6ae1212993a2b" kind="function"><name>getAt</name></member>
       <member refid="group__GeneralGroup_1gab5fd6e1a390fa8c05a8ad7006709dbf2" kind="function"><name>compose</name></member>
+      <member refid="group__GeneralGroup_1ga868201390f7de0a75f629ef7dfed0aa9" kind="function"><name>triangulateCameraPoints</name></member>
+      <member refid="group__GeneralGroup_1ga3619e11f13e5c6e182d8c26d6df842fa" kind="function"><name>triangulateCameraPoints</name></member>
+      <member refid="group__GeneralGroup_1gad7441787d340a0a0452bcd5f396360c3" kind="function"><name>triangulateCameraPoints</name></member>
+      <member refid="group__GeneralGroup_1gad9eab2e80534607365923e07f1afc24a" kind="function"><name>smoothCameraMeshDepth</name></member>
+      <member refid="group__GeneralGroup_1ga34d32643257635827068c2097df7017e" kind="function"><name>smoothCameraMeshDepth</name></member>
       <member refid="group__GeneralGroup_1ga366a97494bd771a33e8d3bbacad944a9" kind="function"><name>Localtime</name></member>
       <member refid="group__GeneralGroup_1gad36e8ac1954499755bc5a0d1259fc529" kind="function"><name>LocaltimeOrZero</name></member>
       <member refid="group__GeneralGroup_1ga9457a97e2861090bf3dec6d35b87530c" kind="function"><name>chunkCount</name></member>
@@ -2233,8 +2312,10 @@
       <member refid="group__GeneralGroup_1gaf5b396c08011572eef5659ca9b84f37a" kind="function"><name>cutMeshByContour</name></member>
       <member refid="group__GeneralGroup_1ga8471f2a87338254b2c1d8a0790776f0e" kind="function"><name>cutMeshByContours</name></member>
       <member refid="group__GeneralGroup_1ga66c0157a15c650c2df28de17df4c485c" kind="function"><name>cutMeshByProjection</name></member>
-      <member refid="group__BooleanGroup_1gaccf79b17bf64faa5454a116f768def33" kind="function"><name>convertMeshTriPointsSurfaceOffsetToMeshContours</name></member>
-      <member refid="group__BooleanGroup_1ga8f2f47f6c859930c9c0252e4bc28944e" kind="function"><name>convertMeshTriPointsSurfaceOffsetToMeshContours</name></member>
+      <member refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kind="function"><name>offsetSurfaceLineToMeshContours</name></member>
+      <member refid="group__BooleanGroup_1gac67a5b20bb2312590785d6dca7473866" kind="function"><name>offsetSurfaceLineToMeshContours</name></member>
+      <member refid="group__GeneralGroup_1gaccf79b17bf64faa5454a116f768def33" kind="function"><name>convertMeshTriPointsSurfaceOffsetToMeshContours</name></member>
+      <member refid="group__GeneralGroup_1ga8f2f47f6c859930c9c0252e4bc28944e" kind="function"><name>convertMeshTriPointsSurfaceOffsetToMeshContours</name></member>
       <member refid="group__GeneralGroup_1ga41199d0cddfedc2e7a079524081c570e" kind="function"><name>separateClosedContour</name></member>
       <member refid="group__GeneralGroup_1ga87506fc61d2601b4f1eb46cda6f84fd6" kind="function"><name>stitchContours</name></member>
       <member refid="group__GeneralGroup_1ga800a7215f19eb459e13c87d65a08d34d" kind="function"><name>cutAlongEdgeLoop</name></member>
@@ -2247,11 +2328,15 @@
       <member refid="group__GeneralGroup_1ga993574f450d55ec20cce4d53bcf16766" kind="function"><name>makeCube</name></member>
       <member refid="group__GeneralGroup_1ga166533c02408563549ca0992b30698d1" kind="function"><name>makeParallelepiped</name></member>
       <member refid="group__GeneralGroup_1ga12b2fab7216e05ecbedc177ac2924f68" kind="function"><name>makeBoxMesh</name></member>
+      <member refid="group__GeneralGroup_1gaabaabcfbb5c05b726326cccfb14062ac" kind="function"><name>cutAroundVertSets</name></member>
       <member refid="group__GeneralGroup_1gae8304f9886b01726e0bfd8eae173d7bf" kind="function"><name>makeCylinder</name></member>
       <member refid="group__GeneralGroup_1ga9e9e32ceefb3721896bc40d630b35d68" kind="function"><name>makeOpenCylinder</name></member>
       <member refid="group__GeneralGroup_1gabd16e5e560e3242b43d472ae3546e5ad" kind="function"><name>makeOpenCone</name></member>
       <member refid="group__GeneralGroup_1gad6bc93527f7daf6085d1bf12310ce8f3" kind="function"><name>makeCylinderAdvanced</name></member>
       <member refid="group__GeneralGroup_1gaa7e94c639e844da07b5feac8a0b6b713" kind="function"><name>makeCone</name></member>
+      <member refid="group__GeneralGroup_1ga551bc08f1beed1775ad3883585feb1c0" kind="function"><name>delaunayTriangulationXY</name></member>
+      <member refid="group__GeneralGroup_1ga6b8f8de83a2129d91b27d35fb05da042" kind="function"><name>delaunayTriangulationXY</name></member>
+      <member refid="group__GeneralGroup_1ga84b8f659711d0141a8edf4d898decc92" kind="function"><name>delaunayTriangulationXY</name></member>
       <member refid="group__GeneralGroup_1ga8fedddf735f8ee4a84207200eb0d9b6a" kind="function"><name>calcDipoles</name></member>
       <member refid="group__GeneralGroup_1ga6183b53e85b58b3c7c8e78c383c4be15" kind="function"><name>calcDipoles</name></member>
       <member refid="group__GeneralGroup_1gac27f9510340528d33d307b37dfa40ade" kind="function"><name>calcFastWindingNumber</name></member>
@@ -2285,10 +2370,8 @@
       <member refid="group__DistanceMapGroup_1ga0c9486d9b44ae47b12824b99e28b0a93" kind="function"><name>distanceMapFromContours</name></member>
       <member refid="group__DistanceMapGroup_1gae7e25fed5029c03aec12173cbf641fc7" kind="function"><name>distanceMapFromContours</name></member>
       <member refid="group__DistanceMapGroup_1ga9ee4d06d74d77a647a2858fba8cebdb3" kind="function"><name>edgePointsFromContours</name></member>
-      <member refid="group__DistanceMapGroup_1gaa693ceaf7bf9d2dc2728807f26d6e12a" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
-      <member refid="group__DistanceMapGroup_1ga54c8f32aafa8f7d85f1839635e080609" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
-      <member refid="group__DistanceMapGroup_1gaf8e4c5b69b7ff64356b8fe6d7d73583e" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
-      <member refid="group__DistanceMapGroup_1ga40f0ce955b843b2257a05a5ee11d7e93" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
+      <member refid="group__DistanceMapGroup_1ga73d46de92d0aa806267918fa4d211d1c" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__DistanceMapGroup_1ga867028ba328a8652452d4ce44c02e953" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__DistanceMapGroup_1gacffe5f45914f7b6f7d4fbd8a17c3bd0d" kind="function"><name>polylineOffset</name></member>
       <member refid="group__DistanceMapGroup_1gaa2524cfec596759a4205736303d71c32" kind="function"><name>contourUnion</name></member>
       <member refid="group__DistanceMapGroup_1ga77440735adb40e169512805b388d02ff" kind="function"><name>contourIntersection</name></member>
@@ -2303,7 +2386,7 @@
       <member refid="group__GeneralGroup_1ga19b191245b05d1121109cd26f5ca30d2" kind="function"><name>operator==</name></member>
       <member refid="group__GeneralGroup_1gae22c2e220dc580608b0c17c7358f4b29" kind="function"><name>operator!=</name></member>
       <member refid="group__GeneralGroup_1ga6de91a42354f4257ba3081c18a497828" kind="function"><name>undirectedEdges</name></member>
-      <member refid="group__GeneralGroup_1ga8e206529d8c003b0ea8ab3b6bb80f0f7" kind="function"><name>same</name></member>
+      <member refid="group__GeneralGroup_1ga3b15caf456e5957f1d1a548142e66641" kind="function"><name>same</name></member>
       <member refid="group__GeneralGroup_1ga69cec6f928a8d5e51752ad80d4b57a6b" kind="function"><name>embedStructureToTerrain</name></member>
       <member refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kind="function"><name>serializeToJson</name></member>
       <member refid="group__GeneralGroup_1ga9d3e2e70f92ff142b799e7d581e9d329" kind="function"><name>serializeToJson</name></member>
@@ -2365,7 +2448,8 @@
       <member refid="group__MeshSegmentationGroup_1ga60ce8ecdf324e3ba1847b97a26909194" kind="function"><name>fillContourLeftByGraphCut</name></member>
       <member refid="group__MeshSegmentationGroup_1ga83df6392f2ec180519c0977c7c2a0db7" kind="function"><name>segmentByGraphCut</name></member>
       <member refid="group__GeneralGroup_1gae5df64d06977ab4f0e99d701b9e08047" kind="function"><name>fillContours2D</name></member>
-      <member refid="group__GeneralGroup_1gaddf2d1d185cf7c81ad935d5ae1404d6d" kind="function"><name>fillContours2DPlan</name></member>
+      <member refid="group__GeneralGroup_1ga4b58b14fd18ff412914c444b5d647659" kind="function"><name>makeFillContours2DPlanCache</name></member>
+      <member refid="group__GeneralGroup_1ga88978dc2a299b9b88ea0033da1865186" kind="function"><name>fillContours2DPlan</name></member>
       <member refid="group__GeneralGroup_1gaafdd9eb0912943e6c057d7f3fc8d140b" kind="function"><name>getXfFromOxyPlane</name></member>
       <member refid="group__GeneralGroup_1gaaee16285913fcc24c3f7ac59e8f82904" kind="function"><name>getXfFromOxyPlane</name></member>
       <member refid="group__GeneralGroup_1gaf6bdf308d7a325fb349bc72dc306b788" kind="function"><name>fillPlanarHole</name></member>
@@ -2499,19 +2583,16 @@
       <member refid="group__MeshAlgorithmGroup_1ga85f120484f51a420267e45c05af90e90" kind="function"><name>straightenBoundary</name></member>
       <member refid="group__AABBTreeGroup_1ga6e40cae7759017db4116172d739d174d" kind="function"><name>findCollidingTriangles</name></member>
       <member refid="group__AABBTreeGroup_1ga8defd1b47b126123f3cf99c68e771ea0" kind="function"><name>findCollidingTriangleBitsets</name></member>
-      <member refid="group__AABBTreeGroup_1ga8311349cbf854a8a56407def83e4342d" kind="function"><name>findSelfCollidingTriangles</name></member>
-      <member refid="group__AABBTreeGroup_1ga8fb534af9cf7d272a2addab053665534" kind="function"><name>findSelfCollidingTriangles</name></member>
-      <member refid="group__AABBTreeGroup_1gaa34db2c0df1550c7f166893dbf581953" kind="function"><name>findSelfCollidingTrianglesBS</name></member>
+      <member refid="group__AABBTreeGroup_1ga0ac9111663ef8ecf7fd92ee1a3f4ac21" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__AABBTreeGroup_1ga9f1a6f0ff1926c81193564f7862bf4a4" kind="function"><name>findSelfCollidingTrianglesBS</name></member>
       <member refid="group__AABBTreeGroup_1ga7892dab0d0fdaed07c3c16c0b4ccc6e9" kind="function"><name>isInside</name></member>
       <member refid="group__AABBTreeGroup_1ga20e0c10db7c46b127cf4b5446101f894" kind="function"><name>isNonIntersectingInside</name></member>
       <member refid="group__AABBTreeGroup_1gac22748b9e5c563d95321d66315116084" kind="function"><name>isNonIntersectingInside</name></member>
+      <member refid="group__AABBTreeGroup_1ga908e44352951a11a559011e12312a299" kind="function"><name>isNonIntersectingInsidePrecise</name></member>
       <member refid="group__AABBTreeGroup_1ga8f7cfd40975f9648e9785f72d75ff92d" kind="function"><name>operator==</name></member>
-      <member refid="group__AABBTreeGroup_1ga7b104a00c60718368c988029510bf8ba" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
+      <member refid="group__AABBTreeGroup_1ga91e422710464a72aa3c6bb6894527e72" kind="function"><name>updateCollidingEdgeTrisPrecise</name></member>
       <member refid="group__AABBTreeGroup_1gaa06a012aef3a0273d36e471fda3beb02" kind="function"><name>findSelfCollidingEdgeTrisPrecise</name></member>
-      <member refid="group__AABBTreeGroup_1ga2194d3a8c576623325dfcb218caed7e0" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-      <member refid="group__AABBTreeGroup_1ga8e605b47552994f921a55bf1c5eed7e4" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-      <member refid="group__AABBTreeGroup_1ga057f5379e01790297fec3ffe2573986e" kind="function"><name>getVectorConverters</name></member>
-      <member refid="group__AABBTreeGroup_1ga55c0d6a31ffafbd8b8283f2a5aa70fb2" kind="function"><name>getVectorConverters</name></member>
+      <member refid="group__AABBTreeGroup_1gad280ccdb7115e8f158eb8ee48847680e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__DecimateGroup_1gae9313434cccf9f5b704c8f1fbb534a50" kind="function"><name>decimateMesh</name></member>
       <member refid="group__DecimateGroup_1ga3f57cf6a3c61be20a3b70d36877d86ca" kind="function"><name>decimateObjectMeshData</name></member>
       <member refid="group__DecimateGroup_1gacc35b69a8b8bab04f5ae4a9d7b89e072" kind="function"><name>makeDecimatedObjectMeshData</name></member>
@@ -2545,9 +2626,8 @@
       <member refid="group__MeshEigenGroup_1gaedf452a3921d36f5597817800bd3b55d" kind="function"><name>topologyToEigen</name></member>
       <member refid="group__MeshEigenGroup_1ga24bf8eab6bf0c1eed0bb93ca8668237d" kind="function"><name>meshToEigen</name></member>
       <member refid="group__GeneralGroup_1gadd5038dba629ab9f09789d2855c2aa73" kind="function"><name>makeDegenerateBandAroundRegion</name></member>
-      <member refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" kind="function"><name>stitchHoles</name></member>
       <member refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" kind="function"><name>buildCylinderBetweenTwoHoles</name></member>
-      <member refid="group__FillHoleGroup_1ga1d5c1c9ce33580b95bdf4834f022ed3e" kind="function"><name>stitchHoles</name></member>
+      <member refid="group__FillHoleGroup_1gaa9b4fc2c3c8176dafe70ab92f9a03dc8" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__FillHoleGroup_1ga9de831741793790088bcc1af9358c25c" kind="function"><name>buildCylinderBetweenTwoHoles</name></member>
       <member refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb" kind="function"><name>fillHole</name></member>
       <member refid="group__FillHoleGroup_1ga1829ba14703d9aca13dbb785ea1794d0" kind="function"><name>fillHoles</name></member>
@@ -2570,17 +2650,20 @@
       <member refid="group__FillHoleGroup_1ga22925ca42a37db6c68a9101867744a31" kind="function"><name>makeBridgeEdge</name></member>
       <member refid="group__FillHoleGroup_1gaedeea912acd0e1829ff8da9d845c8f69" kind="function"><name>makeInterHoleBridgeEdges</name></member>
       <member refid="group__FillHoleGroup_1gaa7b4656b5eb409139fbb67985106e06b" kind="function"><name>makeInterHoleBridgeEdges</name></member>
+      <member refid="group__FillHoleGroup_1gae3f4f1ce30142665d23ff5afabc9faa0" kind="function"><name>bridgeFillAllHoles</name></member>
       <member refid="group__FillHoleGroup_1ga71fca5b809e46f918e1bc23c90c3201e" kind="function"><name>splitQuad</name></member>
       <member refid="group__MeshFixerGroup_1ga9f1f866643e15bf1b9d9131f2d6dad0e" kind="function"><name>duplicateMultiHoleVertices</name></member>
       <member refid="group__MeshFixerGroup_1ga900c1c80bfa1ca726e5afe5ccab5b31d" kind="function"><name>duplicateMultiHoleVertices</name></member>
       <member refid="group__MeshFixerGroup_1ga81e1fcab0f64d4bdb4ccf19d7e67bae1" kind="function"><name>findMultipleEdges</name></member>
       <member refid="group__MeshFixerGroup_1ga1aa9c53dc2ae474fe6c0c6d90d347f3e" kind="function"><name>hasMultipleEdges</name></member>
-      <member refid="group__MeshFixerGroup_1ga4b6baaa619201e7e4c135ec4200d38ce" kind="function"><name>fixMultipleEdges</name></member>
+      <member refid="group__MeshFixerGroup_1gaad5217689f3dbf4fefa9827d286a9871" kind="function"><name>fixMultipleEdges</name></member>
       <member refid="group__MeshFixerGroup_1gaa6e120bc37618d508cf410a20edaa787" kind="function"><name>fixMultipleEdges</name></member>
       <member refid="group__MeshFixerGroup_1gafd47b9faed25bf5ffcb8a57264c890b1" kind="function"><name>findDegenerateFaces</name></member>
       <member refid="group__MeshFixerGroup_1ga6eafb1189e4c2e117a06c36ae2b67fd5" kind="function"><name>findNotSmoothFaces</name></member>
       <member refid="group__MeshFixerGroup_1ga3d72f926edb3f593c53583fba7398538" kind="function"><name>findShortEdges</name></member>
+      <member refid="group__MeshFixerGroup_1ga070d3e16e2fb8549c1d840e8595948bd" kind="function"><name>deleteFacesWithLongEdges</name></member>
       <member refid="group__MeshFixerGroup_1ga1e63ddf91205ab34304a9ff3b2b550a2" kind="function"><name>fixMeshDegeneracies</name></member>
+      <member refid="group__MeshFixerGroup_1gad1c53f9374cb68d222f9f777a25f964f" kind="function"><name>fixMeshDataDegeneracies</name></member>
       <member refid="group__MeshFixerGroup_1ga83684a28016ea3e3feadd7c643905e6d" kind="function"><name>findInnerVertsOfDegree</name></member>
       <member refid="group__MeshFixerGroup_1ga754a74fa515375b32aee32394abe05f6" kind="function"><name>isEdgeBetweenDoubleTris</name></member>
       <member refid="group__MeshFixerGroup_1ga3c868d7f7706bea58f102f3218ffc524" kind="function"><name>eliminateDoubleTris</name></member>
@@ -2647,8 +2730,12 @@
       <member refid="group__GeneralGroup_1ga5c33a7be53d3fe550c6d77720f82bb21" kind="function"><name>QuadraticForm&lt; Vector2&lt; float &gt; &gt;</name></member>
       <member refid="group__GeneralGroup_1ga69fe14dc984335904595108e5caaec9a" kind="function"><name>QuadraticForm&lt; Vector3&lt; float &gt; &gt;</name></member>
       <member refid="group__GeneralGroup_1ga38aebbf79d171f4f7b22798a3bcc59b5" kind="function"><name>Quaternion&lt; float &gt;</name></member>
-      <member refid="group__GeneralGroup_1ga3b86c0635148207af3c42589fb521b93" kind="function"><name>SegmPoint&lt; float &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga2ab7486d501ce047d28cf8208b6c8501" kind="function"><name>SegmPoint&lt; float &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga1a7a521c17a2e95c2f6e94c3199cd135" kind="function"><name>EdgePointT&lt; float &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga07e9e4fd9071c2935508179121960b6d" kind="function"><name>EdgeSegmentT&lt; float &gt;</name></member>
       <member refid="group__GeneralGroup_1ga8554dff48c157c37bb29bdf97fb1a148" kind="function"><name>TriPoint&lt; float &gt;</name></member>
+      <member refid="group__GeneralGroup_1gac9eac519634b1a5b87faff78b7e2eefa" kind="function"><name>MeshTriPointT&lt; float &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga8af0745aff8f8e5091fd2088e16165d8" kind="function"><name>WeightedVertexT&lt; float &gt;</name></member>
       <member refid="group__GeneralGroup_1gacac5737ffa7f53925156e25e8825e2e6" kind="function"><name>Vector</name></member>
       <member refid="group__GeneralGroup_1gaf60378ba8d73c4b704f025b2e3cb794b" kind="function"><name>Vector&lt; ThreeVertIds, FaceId &gt;</name></member>
       <member refid="group__GeneralGroup_1ga937386adcc94bddd2ad6e08e67913e56" kind="function"><name>Vector&lt; Dipole, NodeId &gt;</name></member>
@@ -2662,11 +2749,11 @@
       <member refid="group__GeneralGroup_1gae5a0dc0ec72979e77357933fff648914" kind="function"><name>Vector&lt; Color, VertId &gt;</name></member>
       <member refid="group__GeneralGroup_1ga7965f4340f8a05292212679b11b6c867" kind="function"><name>Vector&lt; Color, EdgeId &gt;</name></member>
       <member refid="group__GeneralGroup_1ga8068a609ed1b503e57eb9c8ce892fd8f" kind="function"><name>Vector&lt; float, VertId &gt;</name></member>
-      <member refid="group__GeneralGroup_1gac616f611dfed813824b64b0632ec27ab" kind="function"><name>Vector&lt; float, EdgeId &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga7fd59e1992b451c4cb9758c705ca8292" kind="function"><name>Vector&lt; float, EdgeId &gt;</name></member>
       <member refid="group__GeneralGroup_1ga0e69561d8c59d6cbfe5db9199465db72" kind="function"><name>contains</name></member>
       <member refid="group__GeneralGroup_1ga1d5cc23c99d2f46783d60010d13d31f9" kind="function"><name>BMap</name></member>
       <member refid="group__GeneralGroup_1gabf67c17ae441516a38345057213cc4c9" kind="function"><name>BMap&lt; VertId, VertId &gt;</name></member>
-      <member refid="group__GeneralGroup_1ga7352d9729644e3fd4d02dd5131bdc652" kind="function"><name>BMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga319a2f002504047503054ad533abf690" kind="function"><name>BMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</name></member>
       <member refid="group__GeneralGroup_1gac2467062511884bec34fc4442102c639" kind="function"><name>MeshRegion</name></member>
       <member refid="group__GeneralGroup_1ga1e15a094341523800c2e66c4b9d0fff6" kind="function"><name>Polyline&lt; Vector2f &gt;</name></member>
       <member refid="group__GeneralGroup_1ga14ff904b44efe8d73deea9652e3f2713" kind="function"><name>AABBTreePolyline&lt; Vector2f &gt;</name></member>
@@ -2687,6 +2774,7 @@
       <member refid="group__AABBTreeGroup_1gaeacd596a535ae8aa6fe31809d838622e" kind="function"><name>rayMultiMeshAnyIntersect</name></member>
       <member refid="group__AABBTreeGroup_1ga04cf3416b5e94ef81eefafbad1a4a814" kind="function"><name>rayMeshIntersectAll</name></member>
       <member refid="group__AABBTreeGroup_1ga0748a541fe122677a587562720e71f2e" kind="function"><name>rayMeshIntersectAll</name></member>
+      <member refid="group__AABBTreeGroup_1ga92153083b04ab55fc9b8c21d293bb79a" kind="function"><name>rayMeshIntersectAll</name></member>
       <member refid="group__AABBTreeGroup_1ga832764c6cc9e48dbef001e22786ddc99" kind="function"><name>planeMeshIntersect</name></member>
       <member refid="group__AABBTreeGroup_1gaaca7d2972259949e2583eb7ddb97d335" kind="function"><name>xyPlaneMeshIntersect</name></member>
       <member refid="group__MeshLoadGroup_1gaba05f7f90f05d09381c9cb8f7ebd026f" kind="function"><name>loadMrmesh</name></member>
@@ -2772,6 +2860,7 @@
       <member refid="group__GeneralGroup_1gab714f4aed5a6b97e21d0eb82dcf9e2bc" kind="function"><name>discreteMeanCurvature</name></member>
       <member refid="group__GeneralGroup_1gae56a9ad6b660150573d8e1147ddbb1f5" kind="function"><name>discreteMeanCurvature</name></member>
       <member refid="group__GeneralGroup_1ga065988451e8b7dd6f1686f6e1fdfee06" kind="function"><name>discreteGaussianCurvature</name></member>
+      <member refid="group__GeneralGroup_1ga651e3f95e4788e69947b26609db39da8" kind="function"><name>findSharpEdges</name></member>
       <member refid="group__GeneralGroup_1ga4474364c5ae6c6bf625ffa3068f8760c" kind="function"><name>findCreaseEdges</name></member>
       <member refid="group__GeneralGroup_1gacb779a4e2496ac90c589aeec364d5095" kind="function"><name>leftCotan</name></member>
       <member refid="group__GeneralGroup_1gae88dcc2f46770de755e55f980a67a5f3" kind="function"><name>cotan</name></member>
@@ -2804,7 +2893,7 @@
       <member refid="group__FillHoleGroup_1ga202cf2363d92c6bb9820b0726c95a52f" kind="function"><name>getMinAreaMetric</name></member>
       <member refid="group__FillHoleGroup_1ga72e5fd74157ece0e3c7cc5869bf952ca" kind="function"><name>getCloseSurfaceFillMetric</name></member>
       <member refid="group__FillHoleGroup_1gabd1aad2d1ac85e32159ea366bf234d78" kind="function"><name>mixMetrics</name></member>
-      <member refid="group__MeshNormalsGroup_1ga825d07f824fb53d09c6b1bef59a494fa" kind="function"><name>computePerFaceNormals</name></member>
+      <member refid="group__MeshNormalsGroup_1ga07aac16e40bfab860a310d0c96627135" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__MeshNormalsGroup_1gaa5b7b1b62db0c38010925f94be955036" kind="function"><name>computePerFaceNormals4</name></member>
       <member refid="group__MeshNormalsGroup_1ga7b42ab138289c2be7e30986671f2a773" kind="function"><name>computePerVertNormals</name></member>
       <member refid="group__MeshNormalsGroup_1ga5ae37093c97fac3f5b66734fa5b1a13f" kind="function"><name>computePerVertPseudoNormals</name></member>
@@ -2817,14 +2906,13 @@
       <member refid="group__GeneralGroup_1ga59ffc7bf41b2002b89e68d941a46b0c1" kind="function"><name>projectWorldPointOntoObjectsRecursive</name></member>
       <member refid="group__GeneralGroup_1ga9b3da08af6167e0e5b5f9d6b44329945" kind="function"><name>findOverhangs</name></member>
       <member refid="group__GeneralGroup_1ga8d6d34f227cd6fbaf2f220b903791809" kind="function"><name>patchMesh</name></member>
+      <member refid="group__GeneralGroup_1ga615f518e4fa04b0ff073fe2c780e4dda" kind="function"><name>patchMeshByGroups</name></member>
       <member refid="group__AABBTreeGroup_1gaae6b5143199ddd407f3703c52fb0d1a8" kind="function"><name>createProjectionTransforms</name></member>
       <member refid="group__AABBTreeGroup_1gadd58047c34992dde1fd3d7f854ca6d97" kind="function"><name>findProjection</name></member>
       <member refid="group__AABBTreeGroup_1gafbb2d7a2190e5d13b47162ac1bc2df96" kind="function"><name>findProjectionSubtree</name></member>
       <member refid="group__AABBTreeGroup_1ga90634a0c0496ed8f339298a566260e68" kind="function"><name>findBoxedTrisInBall</name></member>
       <member refid="group__AABBTreeGroup_1ga1d649a36ab13b6d880081a27f17b87dc" kind="function"><name>findTrisInBall</name></member>
       <member refid="group__AABBTreeGroup_1gaa589ad702e6b1f7b5abcdba92a673997" kind="function"><name>findSignedDistance</name></member>
-      <member refid="group__MeshRelaxGroup_1gae33b27e64fe5ab346333589e6564abee" kind="function"><name>relax</name></member>
-      <member refid="group__MeshRelaxGroup_1ga3dbd5ee9aa51d0fb51e6d8cbc8bb5b9e" kind="function"><name>relax</name></member>
       <member refid="group__MeshRelaxGroup_1ga11a3c4423d57bdec0536c0916269613c" kind="function"><name>vertexPosEqualNeiAreas</name></member>
       <member refid="group__MeshRelaxGroup_1gafbd4050c45f9441d53f08ae512d5b495" kind="function"><name>vertexPosEqualNeiAreas</name></member>
       <member refid="group__MeshRelaxGroup_1ga0b7b12e3abc437cc721146292d65991b" kind="function"><name>equalizeTriAreas</name></member>
@@ -2855,7 +2943,11 @@
       <member refid="group__GeneralGroup_1gabf4aff33ab299120189d8fe0bf49ae8a" kind="function"><name>findInSphere</name></member>
       <member refid="group__GeneralGroup_1gab0c7ddb6812ef3a4def0bec679fb7e04" kind="function"><name>findInSphere</name></member>
       <member refid="group__GeneralGroup_1ga239cbc262f9cc0bda4d8b5bf928ee0d2" kind="function"><name>computeInSphereThicknessAtVertices</name></member>
-      <member refid="group__MeshAlgorithmGroup_1gaff12e899a2fa7790b09853a93701515f" kind="function"><name>meshToPointCloud</name></member>
+      <member refid="group__MeshAlgorithmGroup_1ga2d7563f4b05501158a133d1e52731cc0" kind="function"><name>meshToPointCloud</name></member>
+      <member refid="group__GeneralGroup_1ga56073a4519234b94321564d8c638bf05" kind="function"><name>meshToPointCloud</name></member>
+      <member refid="group__MeshAlgorithmGroup_1ga1b34cefe32e8fd4e623da084831b0846" kind="function"><name>meshToDensePointCloud</name></member>
+      <member refid="group__GeneralGroup_1ga01293c6701985304e21781a54a8df3e9" kind="function"><name>meshToDensePointCloud</name></member>
+      <member refid="group__MeshAlgorithmGroup_1ga7999ef1bb11a163c7d4d19232694b037" kind="function"><name>isCoveredByVertices</name></member>
       <member refid="group__GeneralGroup_1gaaf3190c056e93a1b63f3643cef77443d" kind="function"><name>rearrangeVectorByMap</name></member>
       <member refid="group__GeneralGroup_1ga19250559074367ec9c94fb269e4edbf0" kind="function"><name>reduceTotalAngle</name></member>
       <member refid="group__GeneralGroup_1ga3fe97c1cb025727b2b2ee3ac20eccbcd" kind="function"><name>reduceTotalAngleInMesh</name></member>
@@ -2867,23 +2959,30 @@
       <member refid="group__GeneralGroup_1ga5f0ca8541b5ef8b2d935b469d6d2fc95" kind="function"><name>fromSceneMison</name></member>
       <member refid="group__GeneralGroup_1ga7cceaa249191f3117f4443ce661e9c13" kind="function"><name>makeMovementBuildBody</name></member>
       <member refid="group__GeneralGroup_1ga8b53d4824a98c05f3bfe0e82093609ea" kind="function"><name>updateGroupPairs</name></member>
-      <member refid="group__GeneralGroup_1ga91eb8ceea618232898878c1136e1813a" kind="function"><name>denoiseNormals</name></member>
-      <member refid="group__GeneralGroup_1gae67bf8c66f6b1dee34bd8aa00e69a913" kind="function"><name>updateIndicator</name></member>
-      <member refid="group__GeneralGroup_1gad6e2edf074642202b7e738dfeee59f29" kind="function"><name>updateIndicatorFast</name></member>
-      <member refid="group__GeneralGroup_1ga86981572c4f14bf7f1a09887110d60f3" kind="function"><name>meshDenoiseViaNormals</name></member>
+      <member refid="group__GeneralGroup_1gabbbe864ceddaba1c6f816d82be1cf434" kind="function"><name>denoiseNormals</name></member>
+      <member refid="group__GeneralGroup_1ga1954e92c2b9fe2316cbf33d72e75d527" kind="function"><name>denoiseNormals</name></member>
+      <member refid="group__GeneralGroup_1ga7ffe0a021107f569b3ffa018da32e9b2" kind="function"><name>updateIndicator</name></member>
+      <member refid="group__GeneralGroup_1gab54d26f09a8a2f95888858cfdcdd347c" kind="function"><name>updateIndicatorFast</name></member>
+      <member refid="group__GeneralGroup_1ga94c8414ad4bf06b5f17dfec5060a2ce3" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__GeneralGroup_1gad3ee3facd1ffb97bd91ffba08a243484" kind="function"><name>meshDenoiseWithCreases</name></member>
+      <member refid="group__GeneralGroup_1ga8b997b3e9f6333808da102fcc5b2a4ab" kind="function"><name>meshDenoiseWithCreases</name></member>
+      <member refid="group__GeneralGroup_1gaf1d0eee1758bde49f19146f8ca980be8" kind="function"><name>meshDenoiseWithCreases</name></member>
+      <member refid="group__GeneralGroup_1gad8edb5d1ce0c4b1c862f2e156ed9e0db" kind="function"><name>meshDenoiseWithCreases</name></member>
       <member refid="group__GeneralGroup_1gaac6b91f4809d36b337fe54b064ce26dc" kind="function"><name>toString</name></member>
       <member refid="group__GeneralGroup_1ga9cb64db052744265abae5f26eba3885e" kind="function"><name>merge</name></member>
       <member refid="group__GeneralGroup_1ga36dd932f6e7fabf9cd93412109072d43" kind="function"><name>cloneRegion</name></member>
       <member refid="group__GeneralGroup_1ga5a850ca45f231478ca979899d99d51c3" kind="function"><name>merge</name></member>
       <member refid="group__GeneralGroup_1gaf9a8f767ee5ad5cc349b0990baedf6c0" kind="function"><name>cloneRegion</name></member>
       <member refid="group__GeneralGroup_1gaae4731717fe16466c829b33fc212802e" kind="function"><name>edgesBetweenDifferentColors</name></member>
-      <member refid="group__GeneralGroup_1gaa327a029bad713e6790ebf10e611f39e" kind="function"><name>defaultSerializeMeshFormat</name></member>
-      <member refid="group__GeneralGroup_1ga3e1e9d92e64e6c27696b626e2c450144" kind="function"><name>setDefaultSerializeMeshFormat</name></member>
+      <member refid="group__GeneralGroup_1ga31e22685884ff5b009ed2fe8836bb22f" kind="function"><name>edgesBetweenDifferentTextures</name></member>
+      <member refid="group__GeneralGroup_1ga72798ab7c805da2fe840f2648569b52f" kind="function"><name>resizeAttributesToMesh</name></member>
+      <member refid="group__GeneralGroup_1gaf2ff1896602b42bea912877e4c59b1be" kind="function"><name>defaultSerializeMeshFormat</name></member>
+      <member refid="group__GeneralGroup_1gad470465fba020e775587e6dfe209ba03" kind="function"><name>setDefaultSerializeMeshFormat</name></member>
       <member refid="group__GeneralGroup_1ga7abd868ad7390058bd08ff4a1a97f58e" kind="function"><name>merge</name></member>
       <member refid="group__GeneralGroup_1ga6f0b5ec441ae5f56756368f8fcc0f26e" kind="function"><name>cloneRegion</name></member>
       <member refid="group__GeneralGroup_1ga14aba576e5451b9dfd9541bffe7470ef" kind="function"><name>pack</name></member>
-      <member refid="group__GeneralGroup_1ga2c6a78cd704061f23a26f39a7894d013" kind="function"><name>defaultSerializePointsFormat</name></member>
-      <member refid="group__GeneralGroup_1ga7e504838577ed8995448cf04bf473df1" kind="function"><name>setDefaultSerializePointsFormat</name></member>
+      <member refid="group__GeneralGroup_1gaa64f295ab3550ca99f30ea4026bdd48b" kind="function"><name>defaultSerializePointsFormat</name></member>
+      <member refid="group__GeneralGroup_1gadfa251767141b4418cd3d1b6b1828fab" kind="function"><name>setDefaultSerializePointsFormat</name></member>
       <member refid="group__GeneralGroup_1ga7974cb0413a1baab9b74f14a1d14f410" kind="function"><name>objectHasSelectableChildren</name></member>
       <member refid="group__GeneralGroup_1ga3fa67e9b2bffd51623fd22f0bc905c63" kind="function"><name>serializeObjectTree</name></member>
       <member refid="group__GeneralGroup_1ga52f72eaec639a525805b33872f567ba2" kind="function"><name>serializeObjectTree</name></member>
@@ -2901,11 +3000,16 @@
       <member refid="group__GeneralGroup_1ga6c2a8d613e29f26fcbbfaad5c43205a5" kind="function"><name>getOneMeshIntersectionContours</name></member>
       <member refid="group__GeneralGroup_1ga57f74cde60c66eebd3b6f0076937f2c8" kind="function"><name>getOneMeshSelfIntersectionContours</name></member>
       <member refid="group__GeneralGroup_1ga1d82174091ef8dac35de35e5b472b0fe" kind="function"><name>extractMeshContours</name></member>
-      <member refid="group__BooleanGroup_1ga86ca2da82f81a72954e27baf0e31fbd8" kind="function"><name>convertMeshTriPointsToMeshContour</name></member>
-      <member refid="group__BooleanGroup_1ga1038937a987d09a86802e694724e7aa7" kind="function"><name>convertMeshTriPointsToMeshContour</name></member>
-      <member refid="group__BooleanGroup_1ga9b27124d1aee7872d4ac97a96ef4fee2" kind="function"><name>convertMeshTriPointsToClosedContour</name></member>
-      <member refid="group__BooleanGroup_1ga84ad133112b40770a9311344d2bbfdde" kind="function"><name>convertSurfacePathWithEndsToMeshContour</name></member>
-      <member refid="group__BooleanGroup_1ga60c552ace8de5755edd7e5a28dd4dc6b" kind="function"><name>convertSurfacePathsToMeshContours</name></member>
+      <member refid="group__BooleanGroup_1ga123f4e8e51dc1696e7db2ff8fc233bd2" kind="function"><name>surfaceLineToMeshContour</name></member>
+      <member refid="group__BooleanGroup_1ga2e24ce065ef7d94e723ba08376773c39" kind="function"><name>surfaceLineToMeshContour</name></member>
+      <member refid="group__BooleanGroup_1ga3a22b60786ebca45162b3cdc5d713ff0" kind="function"><name>surfaceLineToClosedMeshContour</name></member>
+      <member refid="group__BooleanGroup_1ga4f62f582556848a63c2cfcfee951da9f" kind="function"><name>surfacePathWithEndsToMeshContour</name></member>
+      <member refid="group__BooleanGroup_1gae3e1a627ede49e7b24ea170b0d8e2c4c" kind="function"><name>surfacePathsToMeshContours</name></member>
+      <member refid="group__GeneralGroup_1ga86ca2da82f81a72954e27baf0e31fbd8" kind="function"><name>convertMeshTriPointsToMeshContour</name></member>
+      <member refid="group__GeneralGroup_1ga1038937a987d09a86802e694724e7aa7" kind="function"><name>convertMeshTriPointsToMeshContour</name></member>
+      <member refid="group__GeneralGroup_1ga9b27124d1aee7872d4ac97a96ef4fee2" kind="function"><name>convertMeshTriPointsToClosedContour</name></member>
+      <member refid="group__GeneralGroup_1ga84ad133112b40770a9311344d2bbfdde" kind="function"><name>convertSurfacePathWithEndsToMeshContour</name></member>
+      <member refid="group__GeneralGroup_1ga60c552ace8de5755edd7e5a28dd4dc6b" kind="function"><name>convertSurfacePathsToMeshContours</name></member>
       <member refid="group__GeneralGroup_1ga23e34559729eb030740a98ba96839023" kind="function"><name>getOptimalFaceOrdering</name></member>
       <member refid="group__GeneralGroup_1ga064094d50cec191ddf9c9d7087b880ae" kind="function"><name>getVertexOrdering</name></member>
       <member refid="group__GeneralGroup_1ga349bf2ff50da76fb348ce2014d9900d8" kind="function"><name>getEdgeOrdering</name></member>
@@ -2914,7 +3018,7 @@
       <member refid="group__BasicGroup_1ga1dc1fa5afc6f99004188ccefc4e8dae9" kind="function"><name>parallelFor</name></member>
       <member refid="group__BasicGroup_1ga1ad43c8c0718e27ba01d6e807509b470" kind="function"><name>parallelFor</name></member>
       <member refid="group__BasicGroup_1gaad7a9b6adc1871df7a0c6a3b34b22ba1" kind="function"><name>parallelFor</name></member>
-      <member refid="group__BasicGroup_1ga71dd68bc7a3e31a4779d51ec181066ad" kind="function"><name>parallelFor</name></member>
+      <member refid="group__BasicGroup_1ga3d10e3277d0dbf04ba095f52b25d4f07" kind="function"><name>parallelFor</name></member>
       <member refid="group__BasicGroup_1gaf184f372f735726148d7a07cbbbb29af" kind="function"><name>ParallelFor</name></member>
       <member refid="group__BasicGroup_1gad9736253077ba527ea5fce36aa132c04" kind="function"><name>ParallelFor</name></member>
       <member refid="group__BasicGroup_1ga0c614e9741ba95e4cce86eb98d9d64b6" kind="function"><name>ParallelFor</name></member>
@@ -2931,6 +3035,10 @@
       <member refid="group__GeneralGroup_1ga45ef807278427b9788f95a292ff236be" kind="function"><name>findMaxDistanceSq</name></member>
       <member refid="group__GeneralGroup_1ga947a6bad93f0eb336d355ab0497b7dbd" kind="function"><name>findHalfSpacePoints</name></member>
       <member refid="group__GeneralGroup_1ga6d7f1057abe62b822b7c51220cdcb574" kind="function"><name>divideWithPlane</name></member>
+      <member refid="group__PointCloudGroup_1ga4e33b70d66490482edd3fef7120b0a04" kind="function"><name>computeFPFH</name></member>
+      <member refid="group__PointCloudGroup_1ga70346bb651583d4cbde24b58798afb7b" kind="function"><name>findUniqueFPFHPoints</name></member>
+      <member refid="group__PointCloudGroup_1ga4d9ae8f046bb54aa45a5eda1dc0a24e1" kind="function"><name>findUniqueFPFHPoints</name></member>
+      <member refid="group__PointCloudGroup_1gabcec15ad6215343b3e74c4a213f6e8a1" kind="function"><name>findFPFHMatches</name></member>
       <member refid="group__PointCloudGroup_1gabbad18eed929fbd7bec2afad0b91541d" kind="function"><name>makeUnorientedNormals</name></member>
       <member refid="group__PointCloudGroup_1gabc9d6a3d4680264055d93f5039ee962e" kind="function"><name>makeUnorientedNormals</name></member>
       <member refid="group__PointCloudGroup_1ga864b89267ca9c36845aa4bda529ea85e" kind="function"><name>makeUnorientedNormals</name></member>
@@ -2943,7 +3051,7 @@
       <member refid="group__PointCloudGroup_1gad170a186634adcea1422a0bcb701584d" kind="function"><name>findAvgPointsRadius</name></member>
       <member refid="group__GeneralGroup_1gabb21b4a984eeae29a269f729ed5c3979" kind="function"><name>dilateRegion</name></member>
       <member refid="group__GeneralGroup_1ga3d766f3fa624850ad0eb7a31efa6433f" kind="function"><name>erodeRegion</name></member>
-      <member refid="group__PointCloudGroup_1gab9585f4e631931775325d348d2b41f9b" kind="function"><name>relax</name></member>
+      <member refid="group__PointCloudGroup_1gaccd91f9d5a08418da1f899a4b2026e4b" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__PointCloudGroup_1ga98ac77273eb374aff599b70216768f96" kind="function"><name>relaxKeepVolume</name></member>
       <member refid="group__PointCloudGroup_1gaf730c446bd16a9211e90506d85c35757" kind="function"><name>relaxApprox</name></member>
       <member refid="group__PointCloudTriangulationGroup_1gad8757f0b892706f56491e2b0a5a016d8" kind="function"><name>triangulatePointCloud</name></member>
@@ -2968,8 +3076,7 @@
       <member refid="group__AABBTreeGroup_1ga435f633cd74c790a6f22a06436182137" kind="function"><name>findFewClosestPoints</name></member>
       <member refid="group__AABBTreeGroup_1ga62582619bf0581f79f510b9d98928762" kind="function"><name>findNClosestPointsPerPoint</name></member>
       <member refid="group__AABBTreeGroup_1ga32485df4ed1f18a0b4315756a69ff792" kind="function"><name>findTwoClosestPoints</name></member>
-      <member refid="group__GeneralGroup_1gaf70fbc3926faabd14d6e8b2a2f3e3f64" kind="function"><name>findSignedDistances</name></member>
-      <member refid="group__GeneralGroup_1ga79c9901bf0bf90470274e88ac9ded1d5" kind="function"><name>findSignedDistances</name></member>
+      <member refid="group__GeneralGroup_1ga1de7b11758eb43eb8c68a66149c3c14e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__AABBTreeGroup_1ga557c3d2fa026be12ba0a5f6c8813da41" kind="function"><name>findCollidingEdgePairs</name></member>
       <member refid="group__AABBTreeGroup_1ga24ed7e965fcb7ada110eb1d9919999f9" kind="function"><name>findCollidingEdges</name></member>
       <member refid="group__AABBTreeGroup_1gac15d4a03ef6c224fff28d48fc239c17c" kind="function"><name>findCollidingEdgesBitsets</name></member>
@@ -2978,6 +3085,7 @@
       <member refid="group__AABBTreeGroup_1ga44e5371600a6e5f45273476367a698c0" kind="function"><name>findSelfCollidingEdgesBS</name></member>
       <member refid="group__AABBTreeGroup_1gaf5614c6f47e495a7aa4513078b1b2ecb" kind="function"><name>isInside</name></member>
       <member refid="group__AABBTreeGroup_1ga8cdd94e81e6095b86dbd245ec23e9657" kind="function"><name>isPointInsidePolyline</name></member>
+      <member refid="group__AABBTreeGroup_1ga2702a14aa9e44b83e9a85d4d1aea1136" kind="function"><name>findGridPointsInsidePolyline</name></member>
       <member refid="group__AABBTreeGroup_1ga33dfe4d49b343eca892fe35c75826f0b" kind="function"><name>rayPolylineIntersect</name></member>
       <member refid="group__AABBTreeGroup_1ga40c1b0b4821dfe2acb66ec335a638cdc" kind="function"><name>rayPolylineIntersect</name></member>
       <member refid="group__AABBTreeGroup_1ga6334c9f41d88763fea47f1a1af491d7a" kind="function"><name>rayPolylineIntersectAll</name></member>
@@ -3011,6 +3119,9 @@
       <member refid="group__GeneralGroup_1ga3dac19de1058f607ecdcf5a193847974" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
       <member refid="group__GeneralGroup_1ga3311d4d92a95f00493ad1ad37902ff17" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
       <member refid="group__GeneralGroup_1ga9a94cc9f980d20a4e19d93b3b199eb84" kind="function"><name>positionVertsSmoothlySharpBd</name></member>
+      <member refid="group__GeneralGroup_1gaa6ab007d2bdc44836755de07d078c0bd" kind="function"><name>interpolateScalarsSmoothly</name></member>
+      <member refid="group__GeneralGroup_1gad1543ca6047b495ed58eaf035968f122" kind="function"><name>interpolateScalarsSmoothly</name></member>
+      <member refid="group__GeneralGroup_1ga4f42a28b9964388bcffead051b48b0b3" kind="function"><name>interpolateScalarsSmoothly</name></member>
       <member refid="group__GeneralGroup_1gadb739a70f56473054c61b01ea775d324" kind="function"><name>positionVertsWithSpacing</name></member>
       <member refid="group__GeneralGroup_1ga2ebbb4933faafb3ef63537dc45fdd789" kind="function"><name>positionVertsWithSpacing</name></member>
       <member refid="group__GeneralGroup_1ga32961e262e92c3438548d8b9a40b5364" kind="function"><name>inflate</name></member>
@@ -3023,11 +3134,11 @@
       <member refid="group__BasicGroup_1gae86e0a0b11af9b982cfed96b9802f710" kind="function"><name>faceMapsComposition</name></member>
       <member refid="group__BasicGroup_1gace9f90469164cb307af85f02d5249dc9" kind="function"><name>faceMapsComposition</name></member>
       <member refid="group__GeneralGroup_1gad908c34d45a5e5b13755322db1cb9889" kind="function"><name>makePrism</name></member>
-      <member refid="group__GeneralGroup_1gad8fa8ec5590f6b95bdbfc2224e8d190f" kind="function"><name>processSelfSubtasks</name></member>
-      <member refid="group__GeneralGroup_1gac4c37be3306e0f2f94b1f076948e9d52" kind="function"><name>reportProgress</name></member>
-      <member refid="group__GeneralGroup_1ga78edb9882955009fb3d0a6c9e9e16edc" kind="function"><name>reportProgress</name></member>
-      <member refid="group__GeneralGroup_1ga78bcc7568ccf7393135139bb82e02d4c" kind="function"><name>reportProgress</name></member>
-      <member refid="group__GeneralGroup_1ga990d1271cf502f5cce9a6e0385d59fc6" kind="function"><name>reportProgress</name></member>
+      <member refid="group__GeneralGroup_1ga8dc6b86e59d0d50adae0b3c868158ab5" kind="function"><name>processSelfSubtasks</name></member>
+      <member refid="group__GeneralGroup_1ga0250568975d79b3b0da56e95a15280e4" kind="function"><name>reportProgress</name></member>
+      <member refid="group__GeneralGroup_1gaec39cb3fe59abe04aaf824bbfdf39891" kind="function"><name>reportProgress</name></member>
+      <member refid="group__GeneralGroup_1gac6100456bdbb6ae9072d42eb4b7c9381" kind="function"><name>reportProgress</name></member>
+      <member refid="group__GeneralGroup_1ga2f2ae2e700d94e5f4ddf89f458d12736" kind="function"><name>reportProgress</name></member>
       <member refid="group__GeneralGroup_1gaa7718474a39816227de773e1ba6fdfa8" kind="function"><name>subprogress</name></member>
       <member refid="group__GeneralGroup_1ga135674a0320e958c28f73bb6c608cd54" kind="function"><name>subprogress</name></member>
       <member refid="group__GeneralGroup_1ga2780b3d4b6af333b3d16f30fc3cc0ff0" kind="function"><name>subprogress</name></member>
@@ -3040,6 +3151,9 @@
       <member refid="group__GeneralGroup_1gaefd90794b9e1a0a3b3c1fefd0a9139c4" kind="function"><name>protectedRun</name></member>
       <member refid="group__GeneralGroup_1ga7b0557ba9010a35f8711edaeef9f1cb4" kind="function"><name>protectedFunc</name></member>
       <member refid="group__GeneralGroup_1ga3dd2fe92b7669c20647e3ff3405df52f" kind="function"><name>compensateRadius</name></member>
+      <member refid="group__RasterGroup_1gadcb09b212975aa3c7b3267ef39c306e1" kind="function"><name>convertRasterToImage</name></member>
+      <member refid="group__RasterGroup_1gafac7517a903175c5a262beba1b91f775" kind="function"><name>convertRasterToFloats</name></member>
+      <member refid="group__RasterGroup_1ga9ef3666bc6712baf860863656831fa63" kind="function"><name>convertRasterToFloats</name></member>
       <member refid="group__RayBoxIntersectionGroup_1ga774d7b2ef218b7634faca3e3300f13b9" kind="function"><name>rayBoxIntersect</name></member>
       <member refid="group__RayBoxIntersectionGroup_1ga710fb3f98b472e45efdd6c3671f90581" kind="function"><name>rayBoxIntersect</name></member>
       <member refid="group__GeneralGroup_1gaac19a38e96d99402db9f484da674bf04" kind="function"><name>rayBoxIntersect</name></member>
@@ -3054,8 +3168,10 @@
       <member refid="group__PlanarPathGroup_1ga0d2e3afb7eada78ede593a4e0a0d0e81" kind="function"><name>reducePath</name></member>
       <member refid="group__GeneralGroup_1gafe0cff75a668facd54a62bf927b0d3a9" kind="function"><name>trackLeftBoundaryLoop</name></member>
       <member refid="group__GeneralGroup_1ga0b1aadbcca4f1cead3d021af7e3d33f4" kind="function"><name>trackLeftBoundaryLoop</name></member>
+      <member refid="group__GeneralGroup_1gad5f48a6c995163ccf86e1368e6d3a72e" kind="function"><name>trackLeftBoundaryLoop</name></member>
       <member refid="group__GeneralGroup_1ga7e1b0e5fae67b830aef15f52355a6c40" kind="function"><name>trackRightBoundaryLoop</name></member>
       <member refid="group__GeneralGroup_1ga9875ea52b09e50db9dbb4481677d22f6" kind="function"><name>trackRightBoundaryLoop</name></member>
+      <member refid="group__GeneralGroup_1ga184ea2fa74460ca834372a2cfed0de72" kind="function"><name>trackRightBoundaryLoop</name></member>
       <member refid="group__GeneralGroup_1gab7a687178b1a5c17baab0681ea164891" kind="function"><name>extractPath</name></member>
       <member refid="group__GeneralGroup_1gaa56b00c588c98e6db3c24cc2ae303cc5" kind="function"><name>extractOppositePath</name></member>
       <member refid="group__GeneralGroup_1ga450d72fb8dad81d37aeffe117b711181" kind="function"><name>extractAllLoops</name></member>
@@ -3070,41 +3186,49 @@
       <member refid="group__GeneralGroup_1ga25e4628987fb45fbedf8ebcb4327c4d2" kind="function"><name>findLeftBoundaryInsideMesh</name></member>
       <member refid="group__GeneralGroup_1gad3a38eb65db7e1c0b80715ca70e92e5c" kind="function"><name>findRegionBoundaryUndirectedEdgesInsideMesh</name></member>
       <member refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kind="function"><name>findRegionOuterFaces</name></member>
-      <member refid="group__GeneralGroup_1ga1bf573dc61dc6ba97a3e8a4bc9028c2e" kind="function"><name>getIncidentVerts</name></member>
-      <member refid="group__GeneralGroup_1ga1c24193ec72b494c106fad689c5c5c32" kind="function"><name>getIncidentVerts</name></member>
+      <member refid="group__GeneralGroup_1ga2666947390978d2d8aa387e33cc8699c" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1ga933bf23c183f418612370ff8c7a14101" kind="function"><name>getInnerVerts</name></member>
       <member refid="group__GeneralGroup_1ga6f38b74b3e7d5e776f98e2f88bb48006" kind="function"><name>getInnerVerts</name></member>
       <member refid="group__GeneralGroup_1gaf2cf93d2c7ffbf6ae4821220390574fd" kind="function"><name>getBoundaryVerts</name></member>
       <member refid="group__GeneralGroup_1gad773688a06cb12794b937fd0e792f79a" kind="function"><name>getRegionBoundaryVerts</name></member>
+      <member refid="group__GeneralGroup_1gad11ae302c767d2be0e943207f8acae65" kind="function"><name>getRegionInnerVerts</name></member>
       <member refid="group__GeneralGroup_1gad41acdc2d93a9c111ff2a010a7814bdf" kind="function"><name>getIncidentFaces</name></member>
       <member refid="group__GeneralGroup_1gaaef79237218e3b6757176a8a9b0ac03d" kind="function"><name>getInnerFaces</name></member>
       <member refid="group__GeneralGroup_1ga8e8ba4975b219200687bca5ed2a7ab6a" kind="function"><name>getRegionEdges</name></member>
       <member refid="group__GeneralGroup_1ga7c62678a98f7bc518805bd7a677d6674" kind="function"><name>getIncidentEdges</name></member>
       <member refid="group__GeneralGroup_1ga36ed48a6aab7607a3983c5492c50e22c" kind="function"><name>getIncidentEdges</name></member>
-      <member refid="group__GeneralGroup_1ga4164918654e0538c4a3f1cfd0e4562a3" kind="function"><name>getIncidentVerts</name></member>
+      <member refid="group__GeneralGroup_1ga9ae614a46609b519105b81bee3848ca0" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1gaa793f0cbb7613e733d7350367795da48" kind="function"><name>getIncidentFaces</name></member>
       <member refid="group__GeneralGroup_1gab23fc7120dab6b7ab49bdc965bfdb9f5" kind="function"><name>getNeighborFaces</name></member>
       <member refid="group__GeneralGroup_1ga14cc03346c7b6c8e0f2fb75ab7865cd1" kind="function"><name>getInnerEdges</name></member>
       <member refid="group__GeneralGroup_1gac1f4537bd1f66f8d1fd1b74dc72b29c8" kind="function"><name>getInnerEdges</name></member>
-      <member refid="group__GeneralGroup_1ga449e315d715d251f9ea330a4adb206b5" kind="function"><name>getIncidentVerts</name></member>
+      <member refid="group__GeneralGroup_1ga88851d68af903e1acabcb1c58279b4be" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1ga6552a6e6676abaae7bffe15e1b993c4a" kind="function"><name>getInnerVerts</name></member>
       <member refid="group__GeneralGroup_1ga336c89bb41942449b73eb9fdc6482579" kind="function"><name>makeRegularGridMesh</name></member>
       <member refid="group__GeneralGroup_1gaae27e6fa67b4e0d5a59574d504d53a61" kind="function"><name>makeRegularGridMesh</name></member>
       <member refid="group__GeneralGroup_1gab3c3135929071104083ade4ce59d105d" kind="function"><name>getLimitedPos</name></member>
       <member refid="group__GeneralGroup_1gad4c1d1b7c1a447ffccea9b5d867ef98b" kind="function"><name>resizeNoInit</name></member>
       <member refid="group__BasicGroup_1ga1e63dfb18218fef322b65d26f8c4e2c9" kind="function"><name>redirectSTDStreamsToLogger</name></member>
+      <member refid="group__AligningTransformGroup_1ga97c6edd2712ff8f245e7897e16710f96" kind="function"><name>countInliers</name></member>
+      <member refid="group__AligningTransformGroup_1gaa4a6bdae3405260137daec6f7eda2ede" kind="function"><name>findRigidXfRansac</name></member>
       <member refid="group__GeneralGroup_1gab302d013b154c9d7f02b52fa128806af" kind="function"><name>orgRing</name></member>
       <member refid="group__GeneralGroup_1gaee44286b022aaaa8435db2725e448b38" kind="function"><name>orgRing</name></member>
       <member refid="group__GeneralGroup_1gac0fbbb1a0891fb178057f88b2bb392ff" kind="function"><name>orgRing0</name></member>
       <member refid="group__GeneralGroup_1gab1ba9bf4b9468525f62bc98e2160eb1f" kind="function"><name>leftRing</name></member>
       <member refid="group__GeneralGroup_1gaa10e8c70214e043065a204ed41c35dd3" kind="function"><name>leftRing</name></member>
       <member refid="group__GeneralGroup_1ga649c474104e7af19340b277ad9328dfb" kind="function"><name>leftRing0</name></member>
+      <member refid="group__GeneralGroup_1ga08c6b7c7f9ce12cc43348acfe6e959a6" kind="function"><name>roundToInt</name></member>
+      <member refid="group__GeneralGroup_1ga482e2d9a879b5391318f30477f11f2d9" kind="function"><name>roundToInt</name></member>
       <member refid="group__GeneralGroup_1ga423dfbb3e8fe2d355d3569c58f27881f" kind="function"><name>applyFloat</name></member>
       <member refid="group__GeneralGroup_1gacc1d104ed2e275977cf878d68073c9b2" kind="function"><name>applyFloat</name></member>
       <member refid="group__GeneralGroup_1ga7aba106487b0adfd357e9232e18a922f" kind="function"><name>applyDouble</name></member>
       <member refid="group__GeneralGroup_1ga7b5f265567104240be13bb0adc6d84f7" kind="function"><name>applyDouble</name></member>
       <member refid="group__GeneralGroup_1gab047e224fb3353ad1723fd634e961af5" kind="function"><name>transformPoints</name></member>
       <member refid="group__GeneralGroup_1ga452464952a46f9611ea150f4851a9202" kind="function"><name>transformNormals</name></member>
+      <member refid="group__GeneralGroup_1gaecb1b9cc74ab928d3f2f8dc150689984" kind="function"><name>getScalarTypeSize</name></member>
+      <member refid="group__GeneralGroup_1gab6e8e67fbea857421ad3a3283681c636" kind="function"><name>getScalarTypeMinMax</name></member>
+      <member refid="group__GeneralGroup_1gaced528923d8f8fed3f529de962457a9a" kind="function"><name>getTypeConverter</name></member>
+      <member refid="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" kind="function"><name>visitScalarType</name></member>
       <member refid="group__GeneralGroup_1gad5ae7a8d3bd6824999f6568bffa233ad" kind="function"><name>createRootFormObject</name></member>
       <member refid="group__GeneralGroup_1gaabda96d9384f3d5e65c51a7147840ab1" kind="function"><name>segmentMesh</name></member>
       <member refid="group__GeneralGroup_1gaeebd4bef93283f73be72ea619fe1eca3" kind="function"><name>findSegmentBoundaries</name></member>
@@ -3136,6 +3260,7 @@
       <member refid="group__SerializerGroup_1gaac45b1027e674d8551a641dbdac3dc6b" kind="function"><name>serializeToJson</name></member>
       <member refid="group__SerializerGroup_1gada4bd5e5115bf99fd53b165aa4d5d2cb" kind="function"><name>serializeToJson</name></member>
       <member refid="group__SerializerGroup_1ga088ca803854aa288993f4398ac0d329d" kind="function"><name>serializeToJson</name></member>
+      <member refid="group__SerializerGroup_1ga67ea1bcc7dd4c8f81dea2de988020614" kind="function"><name>serializeToJson</name></member>
       <member refid="group__SerializerGroup_1ga5a6b037a77f54ee1959070a26821d442" kind="function"><name>serializeToJson</name></member>
       <member refid="group__SerializerGroup_1gad7c57d19dac8fe5222101baac7ae164c" kind="function"><name>serializeToJson</name></member>
       <member refid="group__SerializerGroup_1ga1c20f47d5cb885a2af93ba685c25aebb" kind="function"><name>serializeViaVerticesToJson</name></member>
@@ -3158,6 +3283,7 @@
       <member refid="group__SerializerGroup_1gae55b9b60dc8f4cea8ff85077859cf946" kind="function"><name>deserializeFromJson</name></member>
       <member refid="group__SerializerGroup_1ga4d71b08da8839c41442fe12956b60a16" kind="function"><name>deserializeFromJson</name></member>
       <member refid="group__SerializerGroup_1gad92c41be92ee48e63f5e3ca1e833e468" kind="function"><name>deserializeFromJson</name></member>
+      <member refid="group__SerializerGroup_1gafdcdea244bf637efde6c08d3bec13cbc" kind="function"><name>deserializeFromJson</name></member>
       <member refid="group__SerializerGroup_1ga6e48c72925ab23bc42bff1d4bc389bf5" kind="function"><name>deserializeFromJson</name></member>
       <member refid="group__SerializerGroup_1ga2d2bfffd8ea520a7eb58c0c7132868a5" kind="function"><name>deserializeFromJson</name></member>
       <member refid="group__GeneralGroup_1gaaeaa41bced595d7f7740a0be5c63f1ad" kind="function"><name>sharpenMarchingCubesMesh</name></member>
@@ -3168,7 +3294,11 @@
       <member refid="group__GeneralGroup_1gad46cffad677b26b136b9c6fefc6049d8" kind="function"><name>computeSkyViewFactor</name></member>
       <member refid="group__GeneralGroup_1ga678b15ebf477018c8351e48b2ae9fcd6" kind="function"><name>findSkyRays</name></member>
       <member refid="group__GeneralGroup_1gabbe6d9d5f0b3716ea3a9824b82181f26" kind="function"><name>makeSolidOfRevolution</name></member>
+      <member refid="group__GeneralGroup_1ga2a9110bdd2a450f4830e39f32ae6dcfc" kind="function"><name>mulAs</name></member>
       <member refid="group__GeneralGroup_1ga39de2d02d74ee4158df88993a656c0d0" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga84ceb1616e6fdd1b7dec8b222c401ea4" kind="function"><name>lowestTermOfSumOfProducts</name></member>
+      <member refid="group__GeneralGroup_1ga851b2cffd096626c502dd6165ecda2a8" kind="function"><name>lowestTermOfProductsDiff</name></member>
+      <member refid="group__GeneralGroup_1ga653978c9d8cd70c6399ccb07f7191182" kind="function"><name>signOfProductsDiff</name></member>
       <member refid="group__GeneralGroup_1ga28de882a11f5c9ac17334f542ab0ec47" kind="function"><name>projectSpline</name></member>
       <member refid="group__GeneralGroup_1ga2b6db8327a937df5f0371d7adba2adc5" kind="function"><name>projectSplineAsMTP</name></member>
       <member refid="group__GeneralGroup_1ga81f6f33a8bc09d719c3ccbc1141aea10" kind="function"><name>getCurrentStacktraceInline</name></member>
@@ -3200,7 +3330,9 @@
       <member refid="group__BasicGroup_1ga94712bce613ec3f52b3d976ed63e7910" kind="function"><name>utf8string</name></member>
       <member refid="group__BasicGroup_1gabcd2fb63d421c0032f7bf3137e782982" kind="function"><name>utf8substr</name></member>
       <member refid="group__BasicGroup_1ga7036065ef1d5168bd166eb7895394d25" kind="function"><name>utf8ToCodepoint</name></member>
-      <member refid="group__BasicGroup_1gabd7414ba2653a2f31bde754990038ce6" kind="function"><name>utf8ToUtf32</name></member>
+      <member refid="group__BasicGroup_1gad30e63b6f4f948b8d58e1dda5feb678d" kind="function"><name>utf8ToUtf32</name></member>
+      <member refid="group__BasicGroup_1gad3f1a3adf2ff77fb434aff7b938e091a" kind="function"><name>appendUtf8</name></member>
+      <member refid="group__BasicGroup_1ga78e854361dc1dced79ade4111cdb6965" kind="function"><name>utf32ToUtf8</name></member>
       <member refid="group__BasicGroup_1gadb2cca06671907541b4af5960869bc39" kind="function"><name>bytesString</name></member>
       <member refid="group__BasicGroup_1gaaf7db2c19eab5cb5d5a7d91d8ae03dc9" kind="function"><name>isProhibitedChar</name></member>
       <member refid="group__BasicGroup_1ga75f7cb4b645982d30dba61ff273f7690" kind="function"><name>hasProhibitedChars</name></member>
@@ -3264,20 +3396,15 @@
       <member refid="group__GeneralGroup_1gaf97917cdaf8f4b86b0ec6e9dddc55cbf" kind="function"><name>getOSNoSpaces</name></member>
       <member refid="group__GeneralGroup_1gacf82628c1b0f5d65b9b4e3f0f5bc93df" kind="function"><name>setNewHandlerIfNeeded</name></member>
       <member refid="group__GeneralGroup_1gaaa012fae7e3ab332b853cc1277239fe8" kind="function"><name>getCurrentStacktrace</name></member>
+      <member refid="group__GeneralGroup_1gabd04444af907f57f9702fafb867cccd5" kind="function"><name>setStacktraceProvider</name></member>
       <member refid="group__GeneralGroup_1ga7b96790a3e5d5239dec152d5121bf39a" kind="function"><name>getSystemMemory</name></member>
       <member refid="group__GeneralGroup_1gaee75405a45d413115baebc1b343a89a3" kind="function"><name>getCurrentProcessId</name></member>
       <member refid="group__GeneralGroup_1ga4dd8859ebc257098d203f7a962a131bd" kind="function"><name>setupLoggerByDefault</name></member>
       <member refid="group__GeneralGroup_1ga097e1d5f272059dda5a7aa233cf20a58" kind="function"><name>intLog2</name></member>
-      <member refid="group__GeneralGroup_1ga3ff0cba60a401078d669a6e469f283c0" kind="function"><name>terrainTriangulation</name></member>
       <member refid="group__GeneralGroup_1gac11e11e244aac02b0b69506b6657c706" kind="function"><name>findVertexUV</name></member>
       <member refid="group__GeneralGroup_1ga5428c2a5d40a3d0e09c57ea16c47701b" kind="function"><name>findVertexUVs</name></member>
       <member refid="group__GeneralGroup_1ga3d51a6426ec702d816828da6e6660c9e" kind="function"><name>sampleVertexColor</name></member>
       <member refid="group__GeneralGroup_1gad43e808664575f49147711c1ad69534d" kind="function"><name>sampleVertexColors</name></member>
-      <member refid="group__GeneralGroup_1ga82a781ae507923635d45a1044e8983bb" kind="function"><name>isTIFFFile</name></member>
-      <member refid="group__GeneralGroup_1ga2d9f515a128f5399a3bb2d923eac2a0a" kind="function"><name>readTiffParameters</name></member>
-      <member refid="group__GeneralGroup_1ga279ac3e2a1324201295c03e901942929" kind="function"><name>readRawTiff</name></member>
-      <member refid="group__GeneralGroup_1ga0f1dc59ecc48a433652dd5d6fa7f86cc" kind="function"><name>writeRawTiff</name></member>
-      <member refid="group__GeneralGroup_1gae22fd2b15bcc1e528cb2eb3c7650d520" kind="function"><name>writeRawTiff</name></member>
       <member refid="group__BasicGroup_1gaea0c8b01358b57ffcc2ca74961b6a912" kind="function"><name>printTimingTreeAtEnd</name></member>
       <member refid="group__BasicGroup_1gaecffe26cbebdea7dd9123268d97c9b8d" kind="function"><name>printCurrentTimerBranch</name></member>
       <member refid="group__BasicGroup_1gaa062fb28e95de030cde47eb792db4270" kind="function"><name>printTimingTree</name></member>
@@ -3317,6 +3444,8 @@
       <member refid="group__GeneralGroup_1ga330cc38296885d29be925e2ab7d97eef" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__MathGroup_1gaba44f8d705d9bc1b98f635bdabe488ae" kind="function"><name>circumcircleDiameter</name></member>
       <member refid="group__MathGroup_1ga4d722517a95582901be4599a6042e273" kind="function"><name>mincircleDiameterSq</name></member>
+      <member refid="group__MathGroup_1ga95bae9bf748cf3afac3e19c5a26d62d4" kind="function"><name>edgeCoveringRadiusSq</name></member>
+      <member refid="group__MathGroup_1gaa4b8359664bdd9d1919ba484c24ab7d4" kind="function"><name>coveringRadiusSq</name></member>
       <member refid="group__GeneralGroup_1ga3c69736e96e47e3a27bc8f47ba40c448" kind="function"><name>circumcircleCenter</name></member>
       <member refid="group__GeneralGroup_1ga0a24e798a815764a1cf25f24578fd258" kind="function"><name>MR_BIND_TEMPLATE</name></member>
       <member refid="group__GeneralGroup_1ga526b964eceeec8892f414aa26de9c095" kind="function"><name>MR_BIND_TEMPLATE</name></member>
@@ -3426,6 +3555,8 @@
       <member refid="group__VolumeIndexerGroup_1ga051634fee494f975b01af37644de2b2a" kind="function"><name>shrinkVoxelsMask</name></member>
       <member refid="group__SerializerGroup_1ga4a175d8a8e417663622148510dd390ba" kind="function"><name>decompressZip</name></member>
       <member refid="group__SerializerGroup_1gaeb9ec7f1149bdc406b6d901c2bc1986f" kind="function"><name>decompressZip</name></member>
+      <member refid="group__SerializerGroup_1ga6d60fc3db9ca48db4715864be5b1e23f" kind="function"><name>decompressZip</name></member>
+      <member refid="group__SerializerGroup_1ga591d76b8e857091a46184d4903e87598" kind="function"><name>decompressZip</name></member>
       <member refid="group__SerializerGroup_1gaaeb1d5f0f783381f2285fd4d7fbd1c6b" kind="function"><name>compressZip</name></member>
       <member refid="group__SerializerGroup_1ga4466031d05f4eb56868dc88105bc5248" kind="function"><name>compressZip</name></member>
       <member refid="group__GeneralGroup_1gab5809f4005176091dab5888398265a1e" kind="function"><name>zlibCompressStream</name></member>
@@ -3445,6 +3576,7 @@
       <member refid="group__GeneralGroup_1gae2aa1d33734baaded9793f01c67d8a83" kind="function"><name>createSymbolContours</name></member>
       <member refid="group__GeneralGroup_1ga141a61d44641c538f45c2c292f7c2e59" kind="function"><name>createSymbolsMesh</name></member>
       <member refid="group__GeneralGroup_1gaf47bd4d66fa353bf995946804d75af4f" kind="function"><name>reserveKeyEvent</name></member>
+      <member refid="group__GeneralGroup_1ga82c81a65b2203662fea9340627bdf921" kind="function"><name>isKeyEventReserved</name></member>
       <member refid="group__GeneralGroup_1ga63eff6abd3e68ba4393b53531873036a" kind="function"><name>AppendHistory</name></member>
       <member refid="group__GeneralGroup_1ga16bb6fdbdb21a92b1fa0da2432cc699a" kind="function"><name>AppendHistory</name></member>
       <member refid="group__GeneralGroup_1ga360161c9e0a5aff8602d7186b0975244" kind="function"><name>FilterHistoryByCondition</name></member>
@@ -3464,6 +3596,7 @@
       <member refid="group__GeneralGroup_1ga11a8e1d4c39111b3c9ad8563de97ad2a" kind="function"><name>saveFileDialog</name></member>
       <member refid="group__GeneralGroup_1ga485a9150a4e5548660270bdb08102234" kind="function"><name>saveFileDialogAsync</name></member>
       <member refid="group__GeneralGroup_1ga8b1ad752d0922386c2dbc94bc2059653" kind="function"><name>GetSystemInfoJson</name></member>
+      <member refid="group__GeneralGroup_1gaea5ae89b7fa9e74526465b0a047fa5df" kind="function"><name>glDriverKnownIssues</name></member>
       <member refid="group__GeneralGroup_1gaed8079191a6bbed1f89a66fb15944c37" kind="function"><name>setTextureWrapType</name></member>
       <member refid="group__GeneralGroup_1ga8dcd56fe27c91c37ab9c4426ba6e8bf9" kind="function"><name>setTextureFilterType</name></member>
       <member refid="group__GeneralGroup_1ga266e4beb4d8066ce8371b96a2c258464" kind="function"><name>getLinesVertexShader</name></member>
@@ -3491,6 +3624,7 @@
       <member refid="group__GeneralGroup_1ga64a2323a46764e5af170dfd59a2d14a3" kind="function"><name>findClosestToMouseEdge</name></member>
       <member refid="group__GeneralGroup_1gac6211342bd9d3bb584c76bf0c1742f5f" kind="function"><name>getPointsVertexShader</name></member>
       <member refid="group__GeneralGroup_1gabd093663024e20cf783cf89098c0e887" kind="function"><name>getPointsFragmentShader</name></member>
+      <member refid="group__GeneralGroup_1gad5f4df8e16c18beb7b823f5b8ef7a98c" kind="function"><name>pythonRunCommandFromGUIThread</name></member>
       <member refid="group__GeneralGroup_1gaf07768b4409c36a0b8cc9b9849f82691" kind="function"><name>pythonAppendOrRun</name></member>
       <member refid="group__GeneralGroup_1ga0f61ad5fbd50836547b99cd10c78763f" kind="function"><name>pythonRunFromGUIThread</name></member>
       <member refid="group__GeneralGroup_1ga98815b53a5018d4a910654f696d65b57" kind="function"><name>pythonRunFromGUIThread</name></member>
@@ -3553,6 +3687,9 @@
       <member refid="group__GeneralGroup_1ga9a965773312b3a70aff98af6a8c3edd6" kind="function"><name>guessPrecision</name></member>
       <member refid="group__GeneralGroup_1ga391cf83607d0cd26f7c40e107f63efca" kind="function"><name>valueToImGuiFormatString</name></member>
       <member refid="group__GeneralGroup_1ga4922fa02764d551e9d5c81230bcd87d0" kind="function"><name>valueToImGuiFormatString</name></member>
+      <member refid="group__GeneralGroup_1gacf760e3ba31ad8009635d91e930ce03a" kind="function"><name>protectedLaunchPhase</name></member>
+      <member refid="group__GeneralGroup_1gae94a86545f7fb008c49760e3bdab54a1" kind="function"><name>preLaunchDefaultViewer</name></member>
+      <member refid="group__GeneralGroup_1gaa3218690ec87c6e3c4e07d69881a45b2" kind="function"><name>postLaunchDefaultViewer</name></member>
       <member refid="group__GeneralGroup_1gada0c424f2526de3fc5e1e405ddc1fb39" kind="function"><name>launchDefaultViewer</name></member>
       <member refid="group__GeneralGroup_1ga8b214a239776e9c466820912e4449a2f" kind="function"><name>getViewerInstance</name></member>
       <member refid="group__GeneralGroup_1ga3f7389c1f4cd8dac80612df24b155d86" kind="function"><name>incrementForceRedrawFrames</name></member>
@@ -3611,10 +3748,12 @@
       <member refid="group__GeneralGroup_1gaed72deb95016a3c136004932e83ae969" kind="function"><name>meshToDistanceVolume</name></member>
       <member refid="group__GeneralGroup_1gaf240d29116bdd27249c44e9978b98541" kind="function"><name>meshToDistanceFunctionVolume</name></member>
       <member refid="group__GeneralGroup_1ga03b89c7f5f3a6ea810077d91c14c98b5" kind="function"><name>makeCloseToMeshVolume</name></member>
+      <member refid="group__GeneralGroup_1gad2a0f095b14cd7fd73b9ab7667899bd7" kind="function"><name>makeInsideMeshVolume</name></member>
+      <member refid="group__GeneralGroup_1ga23afae32b25cdee2c3bf2b6056f688e1" kind="function"><name>makeInsideMeshVolumeVdb</name></member>
       <member refid="group__GeneralGroup_1gaf99b4c073dc700a6e84295c59f0cbdef" kind="function"><name>meshRegionToIndicatorVolume</name></member>
       <member refid="group__GeneralGroup_1ga0752e5390277bae84ef50d8e1f0a5db9" kind="function"><name>meshToDirectionVolume</name></member>
-      <member refid="group__GeneralGroup_1ga9e98998898fd6201022fae954bea3982" kind="function"><name>defaultSerializeVoxelsFormat</name></member>
-      <member refid="group__GeneralGroup_1ga1e5d24821061d108c1e0e79aaea085a9" kind="function"><name>setDefaultSerializeVoxelsFormat</name></member>
+      <member refid="group__GeneralGroup_1ga7750610f894e8e2863d032a63e1365f8" kind="function"><name>defaultSerializeVoxelsFormat</name></member>
+      <member refid="group__GeneralGroup_1gafdaa1f574c454749e18731b1ad8ee7a0" kind="function"><name>setDefaultSerializeVoxelsFormat</name></member>
       <member refid="group__GeneralGroup_1ga8134bd36bc30764272b23a2c614b0e84" kind="function"><name>suggestVoxelSize</name></member>
       <member refid="group__GeneralGroup_1ga9451ab00d17418a216cab567f73b88ac" kind="function"><name>offsetMesh</name></member>
       <member refid="group__GeneralGroup_1ga6acf9887747227cdd2fed4f4c202638f" kind="function"><name>doubleOffsetMesh</name></member>
@@ -3638,8 +3777,6 @@
       <member refid="group__GeneralGroup_1gadb4c3ea9d9fc385fecb015c1b41bec58" kind="function"><name>polylineToFunctionVolume</name></member>
       <member refid="group__GeneralGroup_1gaa920641fd86dd739a1409ad679445384" kind="function"><name>rebuildMesh</name></member>
       <member refid="group__GeneralGroup_1ga2e8f972be7a04d60a5748945b06ff2a8" kind="function"><name>postprocessMeshFromVoxels</name></member>
-      <member refid="group__GeneralGroup_1ga0c019c040ba2230993e3fb3d8c92ce7d" kind="function"><name>getTypeConverter</name></member>
-      <member refid="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" kind="function"><name>visitScalarType</name></member>
       <member refid="group__GeneralGroup_1gaff91c68f41381e746ca7f806ee6e6fc8" kind="function"><name>sortScansByOrder</name></member>
       <member refid="group__GeneralGroup_1gad32e4b25d65d4972f9223a5261cbd1b9" kind="function"><name>putScanFileNameInZ</name></member>
       <member refid="group__GeneralGroup_1ga5e508caef59590753520653304096fa8" kind="function"><name>sortScanFilesByName</name></member>
@@ -3665,7 +3802,7 @@
       <member refid="group__GeneralGroup_1gaff9290893302d164d71224a62681ffb8" kind="function"><name>simpleVolumeToDenseGrid</name></member>
       <member refid="group__GeneralGroup_1ga848886a5fe4ea4919a1dd3460818a93b" kind="function"><name>simpleVolumeToVdbVolume</name></member>
       <member refid="group__GeneralGroup_1ga429c9f6983e751443e9721e975118b55" kind="function"><name>functionVolumeToVdbVolume</name></member>
-      <member refid="group__GeneralGroup_1ga7c3b58d5eb16e77c1a7bf7bb0898489f" kind="function"><name>putSimpleVolumeInDenseGrid</name></member>
+      <member refid="group__GeneralGroup_1ga3c50f956b4a39dd7c1f0699d10e43868" kind="function"><name>putSimpleVolumeInDenseGrid</name></member>
       <member refid="group__GeneralGroup_1ga69ba52d461daeb55ccaacabb0f59f29b" kind="function"><name>vdbVolumeToSimpleVolume</name></member>
       <member refid="group__GeneralGroup_1gabb518d223c0e2154a41ed31e9b253ef8" kind="function"><name>vdbVolumeToSimpleVolumeNorm</name></member>
       <member refid="group__GeneralGroup_1ga1a5076b4e1308bf13953c1fa817154fe" kind="function"><name>vdbVolumeToSimpleVolumeU16</name></member>
@@ -3682,6 +3819,8 @@
       <member refid="group__BasicStructuresGroup_1ga99ce50f6a936498fa39156fff3bd3397" kind="function"><name>fromVdbBox</name></member>
       <member refid="group__BasicStructuresGroup_1gafaceca609bb25c112d03e61621d7df0c" kind="function"><name>toVdbBox</name></member>
       <member refid="group__BasicStructuresGroup_1ga4638fcf62c2a9d1394b8d69425b9f993" kind="function"><name>toVdbBox</name></member>
+      <member refid="group__BasicStructuresGroup_1ga3563bb2455bc4f7c264b52fc67c9eb57" kind="function"><name>putSimpleVolumeInDenseGrid</name></member>
+      <member refid="group__BasicStructuresGroup_1ga9032dad3aaac78372fa711d2dbdac09d" kind="function"><name>putSimpleVolumeInDenseGrid</name></member>
       <member refid="group__GeneralGroup_1gaca1f6e889fadd4d30603c3cffcf9a930" kind="function"><name>resampleVolumeByInterpolation</name></member>
       <member refid="group__VolumeSegmentationGroup_1ga66a8de1137e7c508ae9c12d886306f4e" kind="function"><name>meshFromVoxelsMask</name></member>
       <member refid="group__VolumeSegmentationGroup_1ga485d85b6eaca610e17853e44f73c6176" kind="function"><name>segmentVolume</name></member>
@@ -3695,9 +3834,9 @@
       <member refid="group__GeneralGroup_1ga9e8df60e64c8304ab4274ec4474566ea" kind="function"><name>voxelsApplyTransform</name></member>
       <member refid="group__GeneralGroup_1ga9145e1b055b88e54edf784e6f3b050fc" kind="function"><name>mergeVolumePart</name></member>
       <member refid="group__GeneralGroup_1gae7cf10a1862176d00de13d2fa27371b9" kind="function"><name>volumeToMeshByParts</name></member>
-      <member refid="group__GeneralGroup_1gaeeb9f9b6fb3da82a4889d9b15410202b" kind="function"><name>VoxelsVolumeMinMax&lt; Vector&lt; float, VoxelId &gt; &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga81a2f9c3d129c5e0ffc607b6fc4a9252" kind="function"><name>VoxelsVolumeMinMax&lt; VoxelScalars &gt;</name></member>
       <member refid="group__GeneralGroup_1ga7a41891bf3def5d695222b1fd0a2655f" kind="function"><name>VoxelsVolume&lt; VoxelValueGetter&lt; float &gt; &gt;</name></member>
-      <member refid="group__GeneralGroup_1gaf6d86654ed0dacf79826e9732d7f3786" kind="function"><name>VoxelsVolume&lt; Vector&lt; float, VoxelId &gt; &gt;</name></member>
+      <member refid="group__GeneralGroup_1gad5625d4f053fb21f3a456aa15403be44" kind="function"><name>VoxelsVolume&lt; VoxelScalars &gt;</name></member>
       <memberdef kind="function" id="namespaceMR_1a90e7a361537bcd60aa55bcec6cc4ffb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> &gt; &gt; &gt;</type>
         <definition>Expected&lt; std::vector&lt; std::shared_ptr&lt; ObjectVoxels &gt; &gt; &gt; MR::makeObjectVoxelsFromFile</definition>
@@ -3720,7 +3859,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRVoxelsLoad.h" line="113" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="113" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="119" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="119" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1adc6c309b18d3d1c442591ea06f9cb26c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1LoadedObjects" kindref="compound">LoadedObjects</ref> &gt;</type>
@@ -3743,12 +3882,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRVoxelsLoad.h" line="115" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="115" declcolumn="11"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="121" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="121" declcolumn="11"/>
       </memberdef>
       <member refid="group__VoxelsSaveGroup_1ga2c95017a0cb0c854829b6223518168eb" kind="function"><name>saveObjectVoxelsToFile</name></member>
       <member refid="group__GeneralGroup_1ga98e1035b952283c216159688c04819fd" kind="function"><name>functionVolumeToSimpleVolume</name></member>
-      <member refid="group__GeneralGroup_1gaa0bfe5c7c18c2a1dff71abfb4bd48404" kind="function"><name>fromSameTriangle</name></member>
-      <member refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" kind="function"><name>fromSameTriangle</name></member>
       <member refid="group__GeneralGroup_1ga9daf64aad4fef868e611ff192efae554" kind="function"><name>sum</name></member>
       <member refid="group__GeneralGroup_1gaa13755aec0b01f413e7b38c41ef3c838" kind="function"><name>sumAt</name></member>
     </sectiondef>
@@ -3763,7 +3900,6 @@
 <para>TODO move it in MRRibbonFontManager.cpp.</para>
 <para>const <ref refid="group__GeneralGroup_1ga4c444df98a6ef4e28be3eaab462d38a1" kindref="member">Contours3f</ref>&amp; contours = {}</para>
 <para>triangle-related mathematical functions are here</para>
-<para>not _WIN32</para>
 <para>To fix <computeroutput>attribute declaration must precede definition</computeroutput> on <computeroutput><ref refid="structMR_1_1Sphere" kindref="compound">Sphere</ref></computeroutput>.</para>
 <para>#pragma warning: there is no warning number</para>
 <para>for template implementation:</para>
@@ -3775,8 +3911,6 @@
 <para>This file exists for testing some cuda features.</para>
 <para>Only strictly necessary for the bindings (to make <computeroutput><ref refid="structMR_1_1MeshIntersectionResult" kindref="compound">MR::MeshIntersectionResult</ref></computeroutput> a complete type).</para>
 <para>======================================================================== /// Copyright 2009-2020 Intel Corporation /// /// Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); /// you may not use this file except in compliance with the License. /// You may obtain a copy of the License at /// /// <ulink url="http:///">http:///</ulink> www.apache.org/licenses/LICENSE-2.0 /// /// Unless required by applicable law or agreed to in writing, software /// distributed under the License is distributed on an &quot;AS IS&quot; BASIS, /// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. /// See the License for the specific language governing permissions and /// limitations under the License. /// ======================================================================== ///</para>
-<para>Main idea is here: <ulink url="https:///">https:///</ulink> www.geometrictools.com/Documentation/LeastSquaresFitting.pdf pages 45-51 Below we will write out the function and Jacobian for minimization by the Levenberg-Marquard method and use it to clarify the apex of the cone and the direction of its main axis.</para>
-<para>_WIN32</para>
 <para>TODO:<itemizedlist>
 <listitem><para>create plugins/skeleton.h</para>
 </listitem><listitem><para>pass time in draw function</para>

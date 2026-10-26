@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,7 +133,6 @@ $(function(){initNavTree('classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTrait
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId-members.html">List of all members</a>  </div>
@@ -182,12 +174,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a44445e14accfea9d4dbef2ba04fa3d9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a9c2d176326f75d77f6c1bbd20db68466" id="r_a9c2d176326f75d77f6c1bbd20db68466"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c2d176326f75d77f6c1bbd20db68466">Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</a> (nuint <a class="el" href="#ad753d6e133394d10518496882a960fa2">size</a>, <a class="el" href="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits.html">MR.Const_AABBTreeNode_MRObjTreeTraits</a> val)</td></tr>
 <tr class="memdesc:a9c2d176326f75d77f6c1bbd20db68466"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
-<tr class="memitem:a8f1a9c6edcac2f23d073b4fb75f4ec51" id="r_a8f1a9c6edcac2f23d073b4fb75f4ec51"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f1a9c6edcac2f23d073b4fb75f4ec51">Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits &gt; <a class="el" href="#ab83358e2b30c896bdc4e839055ec340f">vec</a>)</td></tr>
-<tr class="memdesc:a8f1a9c6edcac2f23d073b4fb75f4ec51"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 <tr class="memitem:a8d3cc880577e4c40b7b9655129b13ca8" id="r_a8d3cc880577e4c40b7b9655129b13ca8"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d3cc880577e4c40b7b9655129b13ca8">empty</a> ()</td></tr>
 <tr class="memdesc:a8d3cc880577e4c40b7b9655129b13ca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#a8d3cc880577e4c40b7b9655129b13ca8" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;empty.">empty</a></span>.  <br /></td></tr>
 <tr class="memitem:ad753d6e133394d10518496882a960fa2" id="r_ad753d6e133394d10518496882a960fa2"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad753d6e133394d10518496882a960fa2">size</a> ()</td></tr>
 <tr class="memdesc:ad753d6e133394d10518496882a960fa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#ad753d6e133394d10518496882a960fa2" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;size.">size</a></span>.  <br /></td></tr>
+<tr class="memitem:a9d45b072d755884011f6f51e8871f431" id="r_a9d45b072d755884011f6f51e8871f431"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d45b072d755884011f6f51e8871f431">maxSize</a> ()</td></tr>
+<tr class="memdesc:a9d45b072d755884011f6f51e8871f431"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;::max_size</span>.  <br /></td></tr>
 <tr class="memitem:ad33b5baf748e80052e72826c75236c71" id="r_ad33b5baf748e80052e72826c75236c71"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad33b5baf748e80052e72826c75236c71">capacity</a> ()</td></tr>
 <tr class="memdesc:ad33b5baf748e80052e72826c75236c71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#ad33b5baf748e80052e72826c75236c71" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;capacity.">capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:a96abd186fb879d4344ad1e2f059dee68" id="r_a96abd186fb879d4344ad1e2f059dee68"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits.html">MR.Const_AABBTreeNode_MRObjTreeTraits</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96abd186fb879d4344ad1e2f059dee68">front</a> ()</td></tr>
@@ -202,13 +194,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a892b2355be9d5232e209636dce73d167"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="#a18cac28aaa10951ea5a0b5771947ac2a" title="returns the identifier of the back() element Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR....">backId()</a> + 1 Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#a892b2355be9d5232e209636dce73d167" title="returns backId() + 1 Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;,...">endId</a></span>.  <br /></td></tr>
 <tr class="memitem:ae113b3942427f678b53eeac0bbd10a30" id="r_ae113b3942427f678b53eeac0bbd10a30"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits.html">Const_AABBTreeNode_MRObjTreeTraits</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae113b3942427f678b53eeac0bbd10a30">data</a> ()</td></tr>
 <tr class="memdesc:ae113b3942427f678b53eeac0bbd10a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#ae113b3942427f678b53eeac0bbd10a30" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;data.">data</a></span>.  <br /></td></tr>
+<tr class="memitem:a973e4dfff5de69e8ca972f3839461951" id="r_a973e4dfff5de69e8ca972f3839461951"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a973e4dfff5de69e8ca972f3839461951">begin</a> ()</td></tr>
+<tr class="memdesc:a973e4dfff5de69e8ca972f3839461951"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#a973e4dfff5de69e8ca972f3839461951" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;begin.">begin</a></span>.  <br /></td></tr>
+<tr class="memitem:af7f76137a3c25863765007ac4a81c7a0" id="r_af7f76137a3c25863765007ac4a81c7a0"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7f76137a3c25863765007ac4a81c7a0">cbegin</a> ()</td></tr>
+<tr class="memdesc:af7f76137a3c25863765007ac4a81c7a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#af7f76137a3c25863765007ac4a81c7a0" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;cbegin.">cbegin</a></span>.  <br /></td></tr>
+<tr class="memitem:aac92b7c9d3fb25b941efb7286dc9729c" id="r_aac92b7c9d3fb25b941efb7286dc9729c"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac92b7c9d3fb25b941efb7286dc9729c">end</a> ()</td></tr>
+<tr class="memdesc:aac92b7c9d3fb25b941efb7286dc9729c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#aac92b7c9d3fb25b941efb7286dc9729c" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;end.">end</a></span>.  <br /></td></tr>
+<tr class="memitem:a1498a221e3f4db271210ee9c8a71fee7" id="r_a1498a221e3f4db271210ee9c8a71fee7"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1498a221e3f4db271210ee9c8a71fee7">cend</a> ()</td></tr>
+<tr class="memdesc:a1498a221e3f4db271210ee9c8a71fee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#a1498a221e3f4db271210ee9c8a71fee7" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;cend.">cend</a></span>.  <br /></td></tr>
 <tr class="memitem:adfc9de3c73cc3195147eba625b782027" id="r_adfc9de3c73cc3195147eba625b782027"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfc9de3c73cc3195147eba625b782027">heapBytes</a> ()</td></tr>
 <tr class="memdesc:adfc9de3c73cc3195147eba625b782027"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#adfc9de3c73cc3195147eba625b782027" title="returns the amount of memory this object occupies on heap Generated from method MR....">heapBytes</a></span>.  <br /></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6f2e433b3eb7ace831da1fb34b9dcebe" id="r_a6f2e433b3eb7ace831da1fb34b9dcebe"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f2e433b3eb7ace831da1fb34b9dcebe">operator Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits &gt; <a class="el" href="#ab83358e2b30c896bdc4e839055ec340f">vec</a>)</td></tr>
-<tr class="memdesc:a6f2e433b3eb7ace831da1fb34b9dcebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;::Vector</span>.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -232,7 +227,7 @@ Properties</h2></td></tr>
 </dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a57735755d77fa36d17637adbff4bce08" name="a57735755d77fa36d17637adbff4bce08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57735755d77fa36d17637adbff4bce08">&#9670;&#160;</a></span>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a57735755d77fa36d17637adbff4bce08">&#9670;&#160;</a></span>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +254,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="afe4fc9b1498bd53b6ed0e83ca9098f3d" name="afe4fc9b1498bd53b6ed0e83ca9098f3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe4fc9b1498bd53b6ed0e83ca9098f3d">&#9670;&#160;</a></span>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afe4fc9b1498bd53b6ed0e83ca9098f3d">&#9670;&#160;</a></span>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,7 +281,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a86c6cfa4079a3eb96372a4e53fb0b8c4" name="a86c6cfa4079a3eb96372a4e53fb0b8c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86c6cfa4079a3eb96372a4e53fb0b8c4">&#9670;&#160;</a></span>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a86c6cfa4079a3eb96372a4e53fb0b8c4">&#9670;&#160;</a></span>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,7 +308,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a5878a0fab89daceebea0c5237b7ca399" name="a5878a0fab89daceebea0c5237b7ca399"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5878a0fab89daceebea0c5237b7ca399">&#9670;&#160;</a></span>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5878a0fab89daceebea0c5237b7ca399">&#9670;&#160;</a></span>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,7 +335,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a44445e14accfea9d4dbef2ba04fa3d9a" name="a44445e14accfea9d4dbef2ba04fa3d9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44445e14accfea9d4dbef2ba04fa3d9a">&#9670;&#160;</a></span>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a44445e14accfea9d4dbef2ba04fa3d9a">&#9670;&#160;</a></span>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +362,7 @@ Properties</h2></td></tr>
 </div>
 </div>
 <a id="a9c2d176326f75d77f6c1bbd20db68466" name="a9c2d176326f75d77f6c1bbd20db68466"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c2d176326f75d77f6c1bbd20db68466">&#9670;&#160;</a></span>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c2d176326f75d77f6c1bbd20db68466">&#9670;&#160;</a></span>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,33 +389,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;::Vector</span>. </p>
-
-</div>
-</div>
-<a id="a8f1a9c6edcac2f23d073b4fb75f4ec51" name="a8f1a9c6edcac2f23d073b4fb75f4ec51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f1a9c6edcac2f23d073b4fb75f4ec51">&#9670;&#160;</a></span>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;::Vector</span>. </p>
 
 </div>
 </div>
@@ -479,6 +447,33 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a973e4dfff5de69e8ca972f3839461951" name="a973e4dfff5de69e8ca972f3839461951"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a973e4dfff5de69e8ca972f3839461951">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits.ConstIterator MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#a973e4dfff5de69e8ca972f3839461951" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;begin.">begin</a></span>. </p>
+
+</div>
+</div>
 <a id="a6a6081a65dc42b823e1495c3ebea0eef" name="a6a6081a65dc42b823e1495c3ebea0eef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a6081a65dc42b823e1495c3ebea0eef">&#9670;&#160;</a></span>beginId()</h2>
 
@@ -530,6 +525,60 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#ad33b5baf748e80052e72826c75236c71" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;capacity.">capacity</a></span>. </p>
+
+</div>
+</div>
+<a id="af7f76137a3c25863765007ac4a81c7a0" name="af7f76137a3c25863765007ac4a81c7a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7f76137a3c25863765007ac4a81c7a0">&#9670;&#160;</a></span>cbegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits.ConstIterator MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.cbegin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#af7f76137a3c25863765007ac4a81c7a0" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;cbegin.">cbegin</a></span>. </p>
+
+</div>
+</div>
+<a id="a1498a221e3f4db271210ee9c8a71fee7" name="a1498a221e3f4db271210ee9c8a71fee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1498a221e3f4db271210ee9c8a71fee7">&#9670;&#160;</a></span>cend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits.ConstIterator MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.cend </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#a1498a221e3f4db271210ee9c8a71fee7" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;cend.">cend</a></span>. </p>
 
 </div>
 </div>
@@ -634,6 +683,33 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#a8d3cc880577e4c40b7b9655129b13ca8" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;empty.">empty</a></span>. </p>
+
+</div>
+</div>
+<a id="aac92b7c9d3fb25b941efb7286dc9729c" name="aac92b7c9d3fb25b941efb7286dc9729c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac92b7c9d3fb25b941efb7286dc9729c">&#9670;&#160;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits.ConstIterator MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;<a class="el" href="#aac92b7c9d3fb25b941efb7286dc9729c" title="Generated from method MR.Vector&lt;MR.AABBTreeNode&lt;MR.ObjTreeTraits&gt;, MR.NodeId&gt;end.">end</a></span>. </p>
 
 </div>
 </div>
@@ -743,8 +819,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a6f2e433b3eb7ace831da1fb34b9dcebe" name="a6f2e433b3eb7ace831da1fb34b9dcebe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f2e433b3eb7ace831da1fb34b9dcebe">&#9670;&#160;</a></span>operator Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId()</h2>
+<a id="a9d45b072d755884011f6f51e8871f431" name="a9d45b072d755884011f6f51e8871f431"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d45b072d755884011f6f51e8871f431">&#9670;&#160;</a></span>maxSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -753,20 +829,20 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe implicit MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.operator <a class="el" href="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html">Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</a> </td>
+          <td class="memname">unsafe nuint MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.maxSize </td>
           <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;::Vector</span>. </p>
+<p>Generated from method <span class="tt">MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<a class="el" href="classMR_1_1ObjTreeTraits.html" title="Generated from class MR.ObjTreeTraits. This is the non-const half of the class.">MR.ObjTreeTraits</a>&amp;gt;, <a class="el" href="structMR_1_1NodeId.html" title="Generated from class MR.NodeId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.NodeId</a>&amp;gt;::max_size</span>. </p>
 
 </div>
 </div>

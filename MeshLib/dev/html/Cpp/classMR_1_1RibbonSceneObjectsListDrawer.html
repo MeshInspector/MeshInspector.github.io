@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -189,6 +182,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ga13d961a22753a08bcf92f9601fe0f5d2 inherit pub_methods_classMR_1_1SceneObjectsListDrawer"><td class="mdescLeft">&#160;</td><td class="mdescRight">set object collapse state (hiding children)  <br /></td></tr>
 <tr class="memitem:gaa0df0e36dc182f424db88b3b6b512252 inherit pub_methods_classMR_1_1SceneObjectsListDrawer" id="r_gaa0df0e36dc182f424db88b3b6b512252"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa0df0e36dc182f424db88b3b6b512252">expandObjectTreeAndScroll</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> *obj)</td></tr>
 <tr class="memdesc:gaa0df0e36dc182f424db88b3b6b512252 inherit pub_methods_classMR_1_1SceneObjectsListDrawer"><td class="mdescLeft">&#160;</td><td class="mdescRight">expands all <span class="tt">obj</span>s parents in tree and scroll scene tree window so selection becomes visible  <br /></td></tr>
+<tr class="memitem:ga11843c9f225ff4abc28a208f09401aed inherit pub_methods_classMR_1_1SceneObjectsListDrawer" id="r_ga11843c9f225ff4abc28a208f09401aed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga11843c9f225ff4abc28a208f09401aed">collapseSceneTree</a> ()</td></tr>
 <tr class="memitem:ga8084682665d391053cd04055e7c0ca4c inherit pub_methods_classMR_1_1SceneObjectsListDrawer" id="r_ga8084682665d391053cd04055e7c0ca4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8084682665d391053cd04055e7c0ca4c">allowSceneReorder</a> (bool allow)</td></tr>
 <tr class="memdesc:ga8084682665d391053cd04055e7c0ca4c inherit pub_methods_classMR_1_1SceneObjectsListDrawer"><td class="mdescLeft">&#160;</td><td class="mdescRight">set possibility change object order  <br /></td></tr>
 <tr class="memitem:ga2ef9e21dc6abd9863447c81ea60442fc inherit pub_methods_classMR_1_1SceneObjectsListDrawer" id="r_ga2ef9e21dc6abd9863447c81ea60442fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2ef9e21dc6abd9863447c81ea60442fc">setNextFrameFixScroll</a> (int skipFrames=1)</td></tr>
@@ -214,8 +208,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:gafd696bf615f9798542dd47452479139e inherit pro_methods_classMR_1_1SceneObjectsListDrawer" id="r_gafd696bf615f9798542dd47452479139e"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gafd696bf615f9798542dd47452479139e">drawCustomTreeObjectProperties_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;obj, bool onlyCalcHeight)</td></tr>
 <tr class="memitem:ga809ccc1275d19dfcc5bfc3cadba293b1 inherit pro_methods_classMR_1_1SceneObjectsListDrawer" id="r_ga809ccc1275d19dfcc5bfc3cadba293b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga809ccc1275d19dfcc5bfc3cadba293b1">drawObjectCollapsingHeader_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::string &amp;uniqueStr, bool hasRealChildren)</td></tr>
 <tr class="memdesc:ga809ccc1275d19dfcc5bfc3cadba293b1 inherit pro_methods_classMR_1_1SceneObjectsListDrawer"><td class="mdescLeft">&#160;</td><td class="mdescRight">function that draws collapsing header and process click on it  <br /></td></tr>
-<tr class="memitem:ga74e5357e26632ac0982586feae564127 inherit pro_methods_classMR_1_1SceneObjectsListDrawer" id="r_ga74e5357e26632ac0982586feae564127"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga74e5357e26632ac0982586feae564127">processItemClick_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
-<tr class="memdesc:ga74e5357e26632ac0982586feae564127 inherit pro_methods_classMR_1_1SceneObjectsListDrawer"><td class="mdescLeft">&#160;</td><td class="mdescRight">function that do click logic on object line (select/deselect/rename/open context)  <br /></td></tr>
+<tr class="memitem:ga6b49bb69e16897b2b6e18f9a69651f70 inherit pro_methods_classMR_1_1SceneObjectsListDrawer" id="r_ga6b49bb69e16897b2b6e18f9a69651f70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6b49bb69e16897b2b6e18f9a69651f70">processItemClick_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected, bool simulatedClick=false)</td></tr>
 <tr class="memitem:ga8aec8ee6ac0266249b98403d81359111 inherit pro_methods_classMR_1_1SceneObjectsListDrawer" id="r_ga8aec8ee6ac0266249b98403d81359111"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8aec8ee6ac0266249b98403d81359111">makeDragDropSource_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;payload)</td></tr>
 <tr class="memdesc:ga8aec8ee6ac0266249b98403d81359111 inherit pro_methods_classMR_1_1SceneObjectsListDrawer"><td class="mdescLeft">&#160;</td><td class="mdescRight">payload object will be moved  <br /></td></tr>
 <tr class="memitem:ga6b32550029f40adcc37e0d55b6cd3a1b inherit pro_methods_classMR_1_1SceneObjectsListDrawer" id="r_ga6b32550029f40adcc37e0d55b6cd3a1b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6b32550029f40adcc37e0d55b6cd3a1b">needDragDropTarget_</a> ()</td></tr>

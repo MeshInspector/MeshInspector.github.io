@@ -5,6 +5,7 @@ var classMR_1_1SceneObjectsListDrawer =
     [ "allowSceneReorder", "group__GeneralGroup.html#ga8084682665d391053cd04055e7c0ca4c", null ],
     [ "changeSelection", "group__GeneralGroup.html#ga2811dc65af1b9861a17e94ccb17ab9ff", null ],
     [ "changeVisible", "group__GeneralGroup.html#gaa560a972c56ad0d267fae3065613e834", null ],
+    [ "collapseSceneTree", "group__GeneralGroup.html#ga11843c9f225ff4abc28a208f09401aed", null ],
     [ "collapsingHeader_", "group__GeneralGroup.html#gaf513731334115b0f7e6b6dd4eba06375", null ],
     [ "draw", "group__GeneralGroup.html#ga3d227339c7308cbe6b17b82bede4dc9d", null ],
     [ "drawCustomObjectPrefixInScene_", "group__GeneralGroup.html#ga3a39bc8bafb8bd84897729f531668a07", null ],

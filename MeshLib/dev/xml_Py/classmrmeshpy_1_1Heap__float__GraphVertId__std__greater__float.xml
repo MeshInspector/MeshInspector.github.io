@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23201" bodyend="23202"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22592" bodyend="22593"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a0d20b01a55f1fe94160c014f9222b501" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float" kindref="compound">Heap_float_GraphVertId_std_greater_float</ref></type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23205" bodyend="23206"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22596" bodyend="22597"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a0d20b01a55f1fe94160c014f9222b501" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float" kindref="compound">Heap_float_GraphVertId_std_greater_float</ref></type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23209" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23209" bodyend="23210"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22600" bodyend="22601"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23212" bodyend="23215"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22603" bodyend="22606"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a264fcacfb5756485b2da39926febbc4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23217" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23217" bodyend="23220"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22608" bodyend="22611"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a5cd63c396db7cda95927773c62119401" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -153,12 +153,12 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>constructs heap from given elements (id&apos;s shall not repeat and have spaces, but can be arbitrary shuffled)
+<para><verbatim>constructs heap from given elements (id&apos;s shall not repeat, but can have spaces and be arbitrary shuffled)
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23222" bodyend="23225"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22613" bodyend="22616"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a51d716a2bceac3fc9ec00eae0015f282" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -182,7 +182,103 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23227" bodyend="23230"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22618" bodyend="22621"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a1433dae76009b840a7b21b9cc9665f40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Heap_float_GraphVertId_std_greater_float.contains</definition>
+        <argsstring>(self, GraphVertId elemId)</argsstring>
+        <name>contains</name>
+        <qualifiedname>mrmeshpy.Heap_float_GraphVertId_std_greater_float.contains</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>elemId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if given element is present in the heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22622" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22622" bodyend="22625"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a27e1d17cfc4ed1d67fd5636e0327b35b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Heap_float_GraphVertId_std_greater_float.erase</definition>
+        <argsstring>(self, GraphVertId elemId)</argsstring>
+        <name>erase</name>
+        <qualifiedname>mrmeshpy.Heap_float_GraphVertId_std_greater_float.erase</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>elemId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>removes given element from the heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22626" bodyend="22629"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1ab3b405be55717ecdbf02912dcc531ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Heap_float_GraphVertId_std_greater_float.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.Heap_float_GraphVertId_std_greater_float.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>removes the element with the largest value from the heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22630" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22630" bodyend="22633"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a10c2be691c85dc4572053afd476b9c03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Heap_float_GraphVertId_std_greater_float.push</definition>
+        <argsstring>(self, GraphVertId elemId, float val)</argsstring>
+        <name>push</name>
+        <qualifiedname>mrmeshpy.Heap_float_GraphVertId_std_greater_float.push</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>elemId</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds given element, which is not present in the heap yet
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22634" bodyend="22637"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a3d559bdb20f8a3030e69567a9669db5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -211,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23231" bodyend="23234"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22638" bodyend="22641"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a91a9523c43af8987a822812d42d2aafb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -239,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23235" bodyend="23238"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22642" bodyend="22645"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a8f6fdfa54c530cac1b465e46ee52c59e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -265,7 +361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23239" bodyend="23240"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22646" bodyend="22647"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a26ecd183469a93aaf370373ca4355fe1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element" kindref="compound">Heap_float_GraphVertId_std_greater_float.Element</ref></type>
@@ -289,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23241" bodyend="23244"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22648" bodyend="22651"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a7e34f642065fbcba3e47084d94467853" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -317,7 +413,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23245" bodyend="23248"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22652" bodyend="22655"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a72a73775a6fdba99544523e0d37396aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -337,7 +433,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23249" bodyend="23252"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22656" bodyend="22659"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a9d22ac21cf6ad518b7ee81d48cebafd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element" kindref="compound">Heap_float_GraphVertId_std_greater_float.Element</ref></type>
@@ -357,7 +453,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23253" bodyend="23256"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22660" bodyend="22663"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1acc33399e04bd9434eb46fe2b760c70f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -381,7 +477,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23257" bodyend="23260"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22664" bodyend="22667"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -396,15 +492,19 @@
  2) find the element with the largest value
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23155" bodyend="23260"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22546" bodyend="22667"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1ae85ebb98536d8f22e3b70bf2e86d82e6" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a98463341f533cb785400c58e794e9140" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a264fcacfb5756485b2da39926febbc4c" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a5cd63c396db7cda95927773c62119401" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a51d716a2bceac3fc9ec00eae0015f282" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a1433dae76009b840a7b21b9cc9665f40" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>contains</name></member>
+      <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a27e1d17cfc4ed1d67fd5636e0327b35b" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>erase</name></member>
       <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a0d20b01a55f1fe94160c014f9222b501" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a0d20b01a55f1fe94160c014f9222b501" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1ab3b405be55717ecdbf02912dcc531ada" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a10c2be691c85dc4572053afd476b9c03" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>push</name></member>
       <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a3d559bdb20f8a3030e69567a9669db5c" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>resize</name></member>
       <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a91a9523c43af8987a822812d42d2aafb" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>setLargerValue</name></member>
       <member refid="classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1a8f6fdfa54c530cac1b465e46ee52c59e" prot="public" virt="non-virtual"><scope>mrmeshpy::Heap_float_GraphVertId_std_greater_float</scope><name>setSmallerValue</name></member>

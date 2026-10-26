@@ -134,6 +134,7 @@ var MRVDBConversions_8h =
     [ "MR_MeshToVolumeParams_Set_type", "MRVDBConversions_8h.html#a0955c716644a3afe8a2531f2f2e7165b", null ],
     [ "MR_MeshToVolumeParams_Set_voxelSize", "MRVDBConversions_8h.html#a4298a576e845e88262a456527a0a7768", null ],
     [ "MR_MeshToVolumeParams_Set_worldXf", "MRVDBConversions_8h.html#a26d1705798bbb4680cb40e269fa6c95e", null ],
+    [ "MR_putSimpleVolumeInDenseGrid", "MRVDBConversions_8h.html#af3455fd472ddd7dcad85b6791ce0559c", null ],
     [ "MR_simpleVolumeToDenseGrid", "MRVDBConversions_8h.html#a60865d866ea31aafea11b046ef6c2be7", null ],
     [ "MR_simpleVolumeToVdbVolume", "MRVDBConversions_8h.html#ae9ce6e4279bea8cf9aa83173271ee6db", null ],
     [ "MR_vdbVolumeToSimpleVolume", "MRVDBConversions_8h.html#a3c5ed00fc8202ab2e64643edad39cbdd", null ],

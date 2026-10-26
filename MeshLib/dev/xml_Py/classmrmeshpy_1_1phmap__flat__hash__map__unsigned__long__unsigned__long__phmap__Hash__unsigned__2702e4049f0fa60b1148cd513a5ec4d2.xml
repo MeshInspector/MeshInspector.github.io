@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1ad5c3ed8a87dd86c9c6a73ff07ba523f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the map is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67239" bodyend="67242"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a48fbd9bc77c855cff88638a5d4b2f042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__contains__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67244" bodyend="67245"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a5cac15732efc948f7038bf675b0b955a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__contains__</definition>
+        <argsstring>(self, typing.Any arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67247" bodyend="67248"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a6cc36e87c0c16b320b42dfd7d0180bc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67249" bodyend="67250"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a4051178982c87872d8d32f032bc1fced" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67251" bodyend="67252"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a0777f8e1706ddb0f11522e1f31d9f89a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67254" bodyend="67255"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a6e348dc09721cc7481f2e2c1afaf5dd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__init__</definition>
+        <argsstring>(self, phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2" kindref="compound">phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67257" bodyend="67258"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a8002e670708f5dfa4c3442d4dd8168ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[int]</type>
+        <definition> typing.Iterator[int] mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67259" bodyend="67260"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a638e6c667f07710b91e11a9d1fdea271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67261" bodyend="67262"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1ac13ac8f52ad17a7d10d2f72387b823fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67263" bodyend="67266"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1acb8d53177d3e9fb97d577fa9a261d23a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__setitem__</definition>
+        <argsstring>(self, int arg0, int arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67267" bodyend="67268"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a72bac9f783cbd1655a1289e507e40c4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ItemsView</type>
+        <definition> typing.ItemsView mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.items</definition>
+        <argsstring>(self)</argsstring>
+        <name>items</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.items</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67269" bodyend="67270"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1ae945dc339e3d2a558cfde7bc279a55f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.KeysView</type>
+        <definition> typing.KeysView mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.keys</definition>
+        <argsstring>(self)</argsstring>
+        <name>keys</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.keys</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67271" bodyend="67272"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a99d4d86afee93c5778fcdfce323b0d61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67273" bodyend="67274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1acac776a52b20a6fd5b4e60f103ba34d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ValuesView</type>
+        <definition> typing.ValuesView mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.values</definition>
+        <argsstring>(self)</argsstring>
+        <name>values</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long.values</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67275" bodyend="67276"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  HashMap_size_t_size_t, phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_uint64_t_phmap_EqualTo_unsigned_long_Allocator_std_pair_const_unsigned_long_unsigned_long
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67235" bodyend="67276"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1ad5c3ed8a87dd86c9c6a73ff07ba523f7" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a48fbd9bc77c855cff88638a5d4b2f042" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a5cac15732efc948f7038bf675b0b955a" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a6cc36e87c0c16b320b42dfd7d0180bc5" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a4051178982c87872d8d32f032bc1fced" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a0777f8e1706ddb0f11522e1f31d9f89a" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a6e348dc09721cc7481f2e2c1afaf5dd8" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a8002e670708f5dfa4c3442d4dd8168ec" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a638e6c667f07710b91e11a9d1fdea271" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1ac13ac8f52ad17a7d10d2f72387b823fa" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1acb8d53177d3e9fb97d577fa9a261d23a" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a72bac9f783cbd1655a1289e507e40c4a" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>items</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1ae945dc339e3d2a558cfde7bc279a55f7" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>keys</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1a99d4d86afee93c5778fcdfce323b0d61" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__unsigned__long__unsigned__long__phmap__Hash__unsigned__2702e4049f0fa60b1148cd513a5ec4d2_1acac776a52b20a6fd5b4e60f103ba34d4" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_unsigned_long_unsigned_long_phmap_Hash_unsigned_long_phmap_EqualTo_unsigned_long_Allocator_std_pair_unsigned_long_const_unsigned_long</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

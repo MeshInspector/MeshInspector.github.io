@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -156,7 +149,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga9317aae284f353085d4799cc043a4471"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .png format  <br /></td></tr>
 <tr class="memitem:ga6c144adb55e7a5da74033de268c22adb" id="r_ga6c144adb55e7a5da74033de268c22adb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6c144adb55e7a5da74033de268c22adb">toPng</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, std::ostream &amp;os)</td></tr>
 <tr class="memitem:ga15e4b1b6ede3c72f01803bf8178f5203" id="r_ga15e4b1b6ede3c72f01803bf8178f5203"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga15e4b1b6ede3c72f01803bf8178f5203">toTiff</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, const std::filesystem::path &amp;path)</td></tr>
-<tr class="memdesc:ga15e4b1b6ede3c72f01803bf8178f5203"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .tiff format  <br /></td></tr>
+<tr class="memdesc:ga15e4b1b6ede3c72f01803bf8178f5203"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .tiff format with unassociated alpha, as in <a class="el" href="structMR_1_1Image.html">Image</a>: the colors are not multiplied by it  <br /></td></tr>
 <tr class="memitem:ga0dc9086f036368f487178ea73db8ae9e" id="r_ga0dc9086f036368f487178ea73db8ae9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ImageSaveGroup.html#ga0dc9086f036368f487178ea73db8ae9e">toBmp</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:ga0dc9086f036368f487178ea73db8ae9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .bmp format  <br /></td></tr>
 <tr class="memitem:gacad461f67f85ef03af309127aaff7c2f" id="r_gacad461f67f85ef03af309127aaff7c2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ImageSaveGroup.html#gacad461f67f85ef03af309127aaff7c2f">toAnySupportedFormat</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, const std::filesystem::path &amp;path)</td></tr>

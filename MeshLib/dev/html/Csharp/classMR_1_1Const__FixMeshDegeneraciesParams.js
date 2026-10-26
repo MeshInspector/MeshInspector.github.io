@@ -6,7 +6,7 @@ var classMR_1_1Const__FixMeshDegeneraciesParams =
       [ "RemeshPatch", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a3dd3870eb93ae71848370ead6b73c8d5afdff1c7af1a0e17ae94181b693bb5de7", null ]
     ] ],
     [ "Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a856e69fed4dbc0e9f18955062eaf0b7b", null ],
-    [ "Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html#aad748e53b582104a5c56a4ed1e68a060", null ],
+    [ "Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a5fb2d83f34596e610caac9274a11aeba", null ],
     [ "Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a8297b179e9ea4e71524f4c771f46f210", null ],
     [ "Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a4ed42362c83a078cabd8cb7e23e9ef5e", null ],
     [ "Const_FixMeshDegeneraciesParams", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a0a463aa3bee483acbd62fd902da9dfcf", null ],
@@ -18,6 +18,7 @@ var classMR_1_1Const__FixMeshDegeneraciesParams =
     [ "__ref_storage_maxDeviation", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a052ab98356845d818ac9db4720d189db", null ],
     [ "__ref_storage_mimicPatch", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a403e6394e4848e64d962288673a26184", null ],
     [ "__ref_storage_mode", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a1f7adbf6131d6e2fd0003b5ce31f7e56", null ],
+    [ "__ref_storage_protectAttributeBorders", "classMR_1_1Const__FixMeshDegeneraciesParams.html#ae3d43f03eb539ecc27698bb6c1107e2f", null ],
     [ "__ref_storage_stabilizer", "classMR_1_1Const__FixMeshDegeneraciesParams.html#aba77e0617e57ed5155f8ed017e2aa9d9", null ],
     [ "__ref_storage_tinyEdgeLength", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a7e505a1eccf6614a9ddfcfd6caae9fb7", null ],
     [ "cb", "classMR_1_1Const__FixMeshDegeneraciesParams.html#ab7950c46cb0fdeff918f730ef3d1f7b2", null ],
@@ -26,6 +27,7 @@ var classMR_1_1Const__FixMeshDegeneraciesParams =
     [ "maxDeviation", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a6a85120410f56860f6c0a021c360d320", null ],
     [ "mimicPatch", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a064006eaa3ddd709628e9e8549ba56c5", null ],
     [ "mode", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a2f1a0ebca914b2980aecf7e8a865afdc", null ],
+    [ "protectAttributeBorders", "classMR_1_1Const__FixMeshDegeneraciesParams.html#aa5069a37ad7b32e3e87f7676168d1f74", null ],
     [ "region", "classMR_1_1Const__FixMeshDegeneraciesParams.html#af78b98031c3bc6e49060c470e74e6f8b", null ],
     [ "stabilizer", "classMR_1_1Const__FixMeshDegeneraciesParams.html#a745b673850b932959cc0fbf2f6d2507a", null ],
     [ "tinyEdgeLength", "classMR_1_1Const__FixMeshDegeneraciesParams.html#ad34544dd1c8996f18881d7efabfbaf42", null ]

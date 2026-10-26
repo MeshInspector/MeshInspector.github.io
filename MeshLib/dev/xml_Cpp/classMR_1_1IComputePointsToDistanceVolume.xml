@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1IComputePointsToDistanceVolume" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::IComputePointsToDistanceVolume</compoundname>
+    <derivedcompoundref refid="classMR_1_1IComputePointsToDistanceFunctionVolume" prot="public" virt="non-virtual">MR::IComputePointsToDistanceFunctionVolume</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1IComputePointsToDistanceVolumeByParts" prot="public" virt="non-virtual">MR::IComputePointsToDistanceVolumeByParts</derivedcompoundref>
+    <includes refid="MRPointsToDistanceVolume_8h" local="no">MRVoxels/MRPointsToDistanceVolume.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga67274dda6d9ec6a0263bf60088e56409" kind="function"><name>IComputePointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1gafc49f649f23fb34e2e05dcf81db7c98e" kind="function"><name>IComputePointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1ga49203c87a1e3771957b9d06a2d5fbd6b" kind="function"><name>IComputePointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1ga3eb6e32c91c150d4fed57d55b4a55eae" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gac21a82abf4c9db8c0cccce6aebd53a87" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga2856066855e764964a0455777c34ddd2" kind="function"><name>~IComputePointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1ga2f9d419cc2c5d5a588c2ddaeb688a945" kind="function"><name>canCompute</name></member>
+      <member refid="group__GeneralGroup_1ga41f7ac9cc9ec41fc318ad00ac825b400" kind="function"><name>compute</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>abstract class for computing a volume of signed distances to points with normals </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MR::ComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1ComputePointsToDistanceVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Cuda::ComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IComputePointsToDistanceFunctionVolume</label>
+        <link refid="classMR_1_1IComputePointsToDistanceFunctionVolume"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::IComputePointsToDistanceVolume</label>
+        <link refid="classMR_1_1IComputePointsToDistanceVolume"/>
+      </node>
+      <node id="4">
+        <label>MR::IComputePointsToDistanceVolumeByParts</label>
+        <link refid="classMR_1_1IComputePointsToDistanceVolumeByParts"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="MRVoxels/MRPointsToDistanceVolume.h" line="45" column="1" bodyfile="MRVoxels/MRPointsToDistanceVolume.h" bodystart="46" bodyend="64"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2f9d419cc2c5d5a588c2ddaeb688a945" prot="public" virt="pure-virtual"><scope>MR::IComputePointsToDistanceVolume</scope><name>canCompute</name></member>
+      <member refid="group__GeneralGroup_1ga41f7ac9cc9ec41fc318ad00ac825b400" prot="public" virt="pure-virtual"><scope>MR::IComputePointsToDistanceVolume</scope><name>compute</name></member>
+      <member refid="group__GeneralGroup_1ga67274dda6d9ec6a0263bf60088e56409" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceVolume</scope><name>IComputePointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1gafc49f649f23fb34e2e05dcf81db7c98e" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceVolume</scope><name>IComputePointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1ga49203c87a1e3771957b9d06a2d5fbd6b" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceVolume</scope><name>IComputePointsToDistanceVolume</name></member>
+      <member refid="group__GeneralGroup_1ga3eb6e32c91c150d4fed57d55b4a55eae" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceVolume</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gac21a82abf4c9db8c0cccce6aebd53a87" prot="public" virt="non-virtual"><scope>MR::IComputePointsToDistanceVolume</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga2856066855e764964a0455777c34ddd2" prot="public" virt="virtual"><scope>MR::IComputePointsToDistanceVolume</scope><name>~IComputePointsToDistanceVolume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

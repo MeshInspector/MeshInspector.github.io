@@ -5,6 +5,12 @@
     <includes refid="MRIntersectionContour_8h" local="yes">MRIntersectionContour.h</includes>
     <includes local="no">compare</includes>
     <incdepgraph>
+      <node id="30">
+        <label>MRBitCast.h</label>
+        <link refid="MRBitCast_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
       <node id="8">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
@@ -96,9 +102,21 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MRRound.h</label>
+        <link refid="MRRound_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -106,7 +124,7 @@
         <link refid="MRTripleFaceIntersections_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="23">
@@ -160,7 +178,7 @@
       <node id="26">
         <label>cmath</label>
       </node>
-      <node id="30">
+      <node id="33">
         <label>compare</label>
       </node>
       <node id="17">
@@ -178,7 +196,7 @@
       <node id="28">
         <label>iosfwd</label>
       </node>
-      <node id="29">
+      <node id="32">
         <label>optional</label>
       </node>
       <node id="13">
@@ -195,6 +213,9 @@
       </node>
       <node id="11">
         <label>vector</label>
+      </node>
+      <node id="31">
+        <label>version</label>
       </node>
     </incdepgraph>
     <innerclass refid="structMR_1_1FaceFaceFace" prot="public">MR::FaceFaceFace</innerclass>
@@ -218,7 +239,7 @@
 <codeline lineno="15" refid="group__GeneralGroup_1gacd551d9c00ebe29729a816dec419d8b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceId<sp/><ref refid="group__GeneralGroup_1gacd551d9c00ebe29729a816dec419d8b3" kindref="member">aFace</ref>;</highlight></codeline>
 <codeline lineno="16" refid="group__GeneralGroup_1ga39681be0c7ab1dc1c15c832197986024" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceId<sp/><ref refid="group__GeneralGroup_1ga39681be0c7ab1dc1c15c832197986024" kindref="member">bFace</ref>;</highlight></codeline>
 <codeline lineno="17" refid="group__GeneralGroup_1ga9c0b3b8d9c8e17c12f60f7feec45c757" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceId<sp/><ref refid="group__GeneralGroup_1ga9c0b3b8d9c8e17c12f60f7feec45c757" kindref="member">cFace</ref>;</highlight></codeline>
-<codeline lineno="18" refid="group__GeneralGroup_1ga0e5733dffb431d23e489ffb540237689" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga0e5733dffb431d23e489ffb540237689" kindref="member">FaceFaceFace</ref>(<sp/>FaceId<sp/>a,<sp/>FaceId<sp/>b,<sp/>FaceId<sp/>c<sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1gacd551d9c00ebe29729a816dec419d8b3" kindref="member">aFace</ref>(<sp/>a<sp/>),<sp/><ref refid="group__GeneralGroup_1ga39681be0c7ab1dc1c15c832197986024" kindref="member">bFace</ref>(<sp/>b<sp/>),<sp/><ref refid="group__GeneralGroup_1ga9c0b3b8d9c8e17c12f60f7feec45c757" kindref="member">cFace</ref>(<sp/>c<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga0e5733dffb431d23e489ffb540237689" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga0e5733dffb431d23e489ffb540237689" kindref="member">FaceFaceFace</ref>(<sp/>FaceId<sp/><ref refid="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" kindref="member">a</ref>,<sp/>FaceId<sp/><ref refid="group__FillHoleGroup_1ga18e48630776db875b1a03ec6f89e6edd" kindref="member">b</ref>,<sp/>FaceId<sp/>c<sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1gacd551d9c00ebe29729a816dec419d8b3" kindref="member">aFace</ref>(<sp/><ref refid="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" kindref="member">a</ref><sp/>),<sp/><ref refid="group__GeneralGroup_1ga39681be0c7ab1dc1c15c832197986024" kindref="member">bFace</ref>(<sp/><ref refid="group__FillHoleGroup_1ga18e48630776db875b1a03ec6f89e6edd" kindref="member">b</ref><sp/>),<sp/><ref refid="group__GeneralGroup_1ga9c0b3b8d9c8e17c12f60f7feec45c757" kindref="member">cFace</ref>(<sp/>c<sp/>)<sp/>{}</highlight></codeline>
 <codeline lineno="19" refid="group__GeneralGroup_1ga8a49e27d2dc2b97960798a2ff0ab1dc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8a49e27d2dc2b97960798a2ff0ab1dc0" kindref="member">FaceFaceFace</ref>()<sp/>{};</highlight></codeline>
 <codeline lineno="20" refid="group__GeneralGroup_1gae8b8ea6a8fe4113e5a65704d378e0720" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae8b8ea6a8fe4113e5a65704d378e0720" kindref="member">operator&lt;=&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0e5733dffb431d23e489ffb540237689" kindref="member">FaceFaceFace</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">};</highlight></codeline>

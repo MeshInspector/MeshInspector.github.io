@@ -17,6 +17,7 @@ var classmrmeshpy_1_1MeshOrPoints =
     [ "points", "classmrmeshpy_1_1MeshOrPoints.html#a32fdab3bb62afa29832325596ba3ea00", null ],
     [ "pointsGridSampling", "classmrmeshpy_1_1MeshOrPoints.html#ad0edfc28be50624e66c349250be3241b", null ],
     [ "projector", "classmrmeshpy_1_1MeshOrPoints.html#a7bd4b7d07e74169d40671ac4b628505c", null ],
+    [ "surfaceGridSampling", "classmrmeshpy_1_1MeshOrPoints.html#ae8cdeb8f8ddc8999a7409c6af37157e9", null ],
     [ "validPoints", "classmrmeshpy_1_1MeshOrPoints.html#a9e0c25958ddefe312e973a4dfc23af8f", null ],
     [ "weights", "classmrmeshpy_1_1MeshOrPoints.html#a90ba976e42cc24eb8a2ef004ece7876a", null ]
 ];

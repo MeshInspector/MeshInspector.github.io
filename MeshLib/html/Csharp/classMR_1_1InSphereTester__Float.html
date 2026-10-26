@@ -169,6 +169,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a61f41e7c043e5348588495ba595a6853"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::InSphereTester&amp;lt;float&amp;gt;::operator=</span>.  <br /></td></tr>
 <tr class="memitem:a9ad2969faf525d22d216027aabfe6560" id="r_a9ad2969faf525d22d216027aabfe6560"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ad2969faf525d22d216027aabfe6560">reset</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> va, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> vb, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> vc, float sqRadius)</td></tr>
 <tr class="memdesc:a9ad2969faf525d22d216027aabfe6560"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepares the tester for the sphere of radius sqrt(rSq) passing via points a, b, c, with the center located on the positive side of plane abc (in the half-space pointed at by cross( b - a, c - a ) from the plane); returns false if no such sphere exists: the points are collinear or coincident, or rSq is less than the squared circumradius of triangle abc Generated from method <span class="tt">MR::InSphereTester&amp;lt;float&amp;gt;<a class="el" href="#a9ad2969faf525d22d216027aabfe6560" title="prepares the tester for the sphere of radius sqrt(rSq) passing via points a, b, c,...">reset</a></span>.  <br /></td></tr>
+<tr class="memitem:ad5cfce5d6a7083232ce778f55a097f4f" id="r_ad5cfce5d6a7083232ce778f55a097f4f"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5cfce5d6a7083232ce778f55a097f4f">flip</a> ()</td></tr>
+<tr class="memdesc:ad5cfce5d6a7083232ce778f55a097f4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">swaps the points b and c, which selects the mirror sphere with the center on the other side of plane abc, and gives exactly the state of reset( a, c, b, rSq ) without recomputing anything: only the normal w changes there, and W, M, E are symmetric in b and c; shall be called only after <a class="el" href="#a9ad2969faf525d22d216027aabfe6560" title="prepares the tester for the sphere of radius sqrt(rSq) passing via points a, b, c,...">reset()</a> returned true Generated from method <span class="tt">MR::InSphereTester&amp;lt;float&amp;gt;<a class="el" href="#ad5cfce5d6a7083232ce778f55a097f4f" title="swaps the points b and c, which selects the mirror sphere with the center on the other side of plane ...">flip</a></span>.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1Const__InSphereTester__Float"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1Const__InSphereTester__Float')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1Const__InSphereTester__Float.html">MR.Const_InSphereTester_Float</a></td></tr>
 <tr class="memitem:ad8b358ac77feac8f4b71be75f296ec34 inherit pub_methods_classMR_1_1Const__InSphereTester__Float" id="r_ad8b358ac77feac8f4b71be75f296ec34"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__InSphereTester__Float.html#ad8b358ac77feac8f4b71be75f296ec34">Dispose</a> ()</td></tr>
 <tr class="memitem:ae5b8ff3e717fbb45600606b760a0c500 inherit pub_methods_classMR_1_1Const__InSphereTester__Float" id="r_ae5b8ff3e717fbb45600606b760a0c500"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__InSphereTester__Float.html#ae5b8ff3e717fbb45600606b760a0c500">Const_InSphereTester_Float</a> ()</td></tr>
@@ -294,6 +296,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::InSphereTester&amp;lt;float&amp;gt;::operator=</span>. </p>
+
+</div>
+</div>
+<a id="ad5cfce5d6a7083232ce778f55a097f4f" name="ad5cfce5d6a7083232ce778f55a097f4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5cfce5d6a7083232ce778f55a097f4f">&#9670;&#160;</a></span>flip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.InSphereTester_Float.flip </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>swaps the points b and c, which selects the mirror sphere with the center on the other side of plane abc, and gives exactly the state of reset( a, c, b, rSq ) without recomputing anything: only the normal w changes there, and W, M, E are symmetric in b and c; shall be called only after <a class="el" href="#a9ad2969faf525d22d216027aabfe6560" title="prepares the tester for the sphere of radius sqrt(rSq) passing via points a, b, c,...">reset()</a> returned true Generated from method <span class="tt">MR::InSphereTester&amp;lt;float&amp;gt;<a class="el" href="#ad5cfce5d6a7083232ce778f55a097f4f" title="swaps the points b and c, which selects the mirror sphere with the center on the other side of plane ...">flip</a></span>. </p>
 
 </div>
 </div>

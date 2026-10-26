@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -148,7 +141,7 @@ $(function(){initNavTree('classMR_1_1Cuda.html','',''); });
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda.html#a0ea88f5709a51086f7724af94d64e56c">computeSkyViewFactor</a>(MR.Const_Mesh terrain, MR.Const_VertCoords samples, MR.Const_VertBitSet validSamples, MR.Std.Const_Vector_MRSkyPatch skyPatches, MR.BitSet? outSkyRays=null, MR.Std.Vector_MRMeshIntersectionResult? outIntersections=null)</td><td class="entry"><a class="el" href="classMR_1_1Cuda.html">MR.Cuda</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda.html#ad3e17c83bdc91cabccc103c84ee2652c">distanceMapFromContours</a>(MR.Const_Polyline2 polyline, MR.Const_ContourToDistanceMapParams params_)</td><td class="entry"><a class="el" href="classMR_1_1Cuda.html">MR.Cuda</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda.html#a4f9a9652de05efaa486dd7ccd6bcf858">distanceMapFromContoursHeapBytes</a>(MR.Const_Polyline2 polyline, MR.Const_ContourToDistanceMapParams params_)</td><td class="entry"><a class="el" href="classMR_1_1Cuda.html">MR.Cuda</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda.html#aee867626f86b200ed06a17c2e7298049">findProjectionOnPoints</a>(MR.Const_PointCloud pointCloud, MR.Std.Const_Vector_MRVector3f points, MR.Const_FindProjectionOnPointsSettings? settings=null)</td><td class="entry"><a class="el" href="classMR_1_1Cuda.html">MR.Cuda</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda.html#aac8223a07f9e9a983c6bef664fd86fd1">findProjectionOnPoints</a>(MR.Const_PointCloud pointCloud, MR.Const_VertCoords points, MR.Const_FindProjectionOnPointsSettings? settings=null)</td><td class="entry"><a class="el" href="classMR_1_1Cuda.html">MR.Cuda</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda.html#a07a7240cdbac3fd2437a2d72b15e4020">findProjectionOnPointsHeapBytes</a>(MR.Const_PointCloud pointCloud, nuint pointsCount)</td><td class="entry"><a class="el" href="classMR_1_1Cuda.html">MR.Cuda</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda.html#acd8af53537c95be1eac56310bc9cd725">findSkyRays</a>(MR.Const_Mesh terrain, MR.Const_VertCoords samples, MR.Const_VertBitSet validSamples, MR.Std.Const_Vector_MRSkyPatch skyPatches, MR.Std.Vector_MRMeshIntersectionResult? outIntersections=null)</td><td class="entry"><a class="el" href="classMR_1_1Cuda.html">MR.Cuda</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda.html#a28af47bcf240e73dba6089da5350cef0">getCudaAvailableMemory</a>()</td><td class="entry"><a class="el" href="classMR_1_1Cuda.html">MR.Cuda</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
@@ -162,6 +155,7 @@ $(function(){initNavTree('classMR_1_1Cuda.html','',''); });
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda.html#ab2b7f6383c91b4355a8e3efd50505461">negatePicture</a>(MR.Image image)</td><td class="entry"><a class="el" href="classMR_1_1Cuda.html">MR.Cuda</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda.html#ada48bf1cb30a1dd5423bcb0d29c6b1d2">pointsToDistanceVolume</a>(MR.Const_PointCloud cloud, MR.Const_PointsToDistanceVolumeParams params_)</td><td class="entry"><a class="el" href="classMR_1_1Cuda.html">MR.Cuda</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda.html#ac41726497d51f9764c2d9c2c2e9db105">pointsToDistanceVolumeByParts</a>(MR.Const_PointCloud cloud, MR.Const_PointsToDistanceVolumeParams params_, MR.Std._ByValue_Function_ExpectedVoidStdString_From_ConstMRSimpleVolumeMinMaxRef_Int addPart, int layerOverlap)</td><td class="entry"><a class="el" href="classMR_1_1Cuda.html">MR.Cuda</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda.html#a8b991d06691ed494c32465f1dcecd565">pointsToDistanceVolumeMemory</a>(MR.Const_PointCloud cloud, in MR.Vector3i dims, MR.Const_VertCoords? ptNormals)</td><td class="entry"><a class="el" href="classMR_1_1Cuda.html">MR.Cuda</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

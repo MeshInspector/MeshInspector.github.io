@@ -25,6 +25,7 @@ var MRFeatureObject_8h =
     [ "MR_FeatureObject_classNameInPlural", "MRFeatureObject_8h.html#ac8c57083feab1b67ece53b68c662d0b3", null ],
     [ "MR_FeatureObject_clone", "MRFeatureObject_8h.html#abbccd8717d87ec396be58dc8f59d198c", null ],
     [ "MR_FeatureObject_cloneTree", "MRFeatureObject_8h.html#abe1496625579a7ad160e8deb78b829a6", null ],
+    [ "MR_FeatureObject_constChildren", "MRFeatureObject_8h.html#af92d35a19757895ab8da74d1da2daec2", null ],
     [ "MR_FeatureObject_copyAllSolidColors", "MRFeatureObject_8h.html#a0acea8ab3db8772c7fce37bc5e48d32e", null ],
     [ "MR_FeatureObject_Destroy", "MRFeatureObject_8h.html#a82a9c96dd2babf7345b79407e8ad03ec", null ],
     [ "MR_FeatureObject_DestroyArray", "MRFeatureObject_8h.html#a42d87097031a87662bbe5fbf4166affa", null ],

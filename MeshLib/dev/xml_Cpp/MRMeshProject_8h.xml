@@ -10,6 +10,7 @@
     <includes local="no">optional</includes>
     <includes local="no">functional</includes>
     <includedby refid="MRMesh_8h" local="yes">MRMesh/MRMesh.h</includedby>
+    <includedby refid="MRMeshMeshDistance_8h" local="yes">MRMesh/MRMeshMeshDistance.h</includedby>
     <includedby refid="MRMeshThickness_8h" local="yes">MRMesh/MRMeshThickness.h</includedby>
     <includedby refid="MRProjectionMeshAttribute_8h" local="yes">MRMesh/MRProjectionMeshAttribute.h</includedby>
     <incdepgraph>
@@ -262,17 +263,21 @@
         <link refid="MRChangeMeshAction_8h"/>
       </node>
       <node id="8">
+        <label>MRMesh/MRDelaunayTriangulationXY.h</label>
+        <link refid="MRDelaunayTriangulationXY_8h"/>
+      </node>
+      <node id="9">
         <label>MRMesh/MREdgePathsBuilder.h</label>
         <link refid="MREdgePathsBuilder_8h"/>
       </node>
-      <node id="9">
+      <node id="10">
         <label>MRMesh/MREmbedTerrainStructure.h</label>
         <link refid="MREmbedTerrainStructure_8h"/>
       </node>
-      <node id="10">
+      <node id="11">
         <label>MRMesh/MRMakeSphereMesh.h</label>
         <link refid="MRMakeSphereMesh_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -294,7 +299,7 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -325,25 +330,29 @@
         <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="12">
+      <node id="13">
         <label>MRMesh/MRMeshBoolean.h</label>
         <link refid="MRMeshBoolean_8h"/>
       </node>
-      <node id="13">
+      <node id="14">
         <label>MRMesh/MRMeshBooleanFacade.h</label>
         <link refid="MRMeshBooleanFacade_8h"/>
       </node>
-      <node id="14">
+      <node id="15">
         <label>MRMesh/MRMeshBuilder.h</label>
         <link refid="MRMeshBuilder_8h"/>
       </node>
-      <node id="15">
+      <node id="16">
         <label>MRMesh/MRMeshDecimateCallbacks.h</label>
         <link refid="MRMeshDecimateCallbacks_8h"/>
       </node>
-      <node id="16">
+      <node id="17">
         <label>MRMesh/MRMeshLoadObj.h</label>
         <link refid="MRMeshLoadObj_8h"/>
+      </node>
+      <node id="27">
+        <label>MRMesh/MRMeshMeshDistance.h</label>
+        <link refid="MRMeshMeshDistance_8h"/>
       </node>
       <node id="1">
         <label>MRMesh/MRMeshProject.h</label>
@@ -352,38 +361,36 @@
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="17">
+      <node id="18">
         <label>MRMesh/MRMeshSaveObj.h</label>
         <link refid="MRMeshSaveObj_8h"/>
       </node>
-      <node id="18">
+      <node id="19">
         <label>MRMesh/MRMeshSubdivideCallbacks.h</label>
         <link refid="MRMeshSubdivideCallbacks_8h"/>
       </node>
-      <node id="27">
+      <node id="28">
         <label>MRMesh/MRMeshThickness.h</label>
         <link refid="MRMeshThickness_8h"/>
       </node>
-      <node id="19">
+      <node id="20">
         <label>MRMesh/MRPartialChangeMeshAction.h</label>
         <link refid="MRPartialChangeMeshAction_8h"/>
       </node>
-      <node id="20">
+      <node id="21">
         <label>MRMesh/MRPointCloudTriangulation.h</label>
         <link refid="MRPointCloudTriangulation_8h"/>
       </node>
-      <node id="21">
+      <node id="22">
         <label>MRMesh/MRProjectionMeshAttribute.h</label>
         <link refid="MRProjectionMeshAttribute_8h"/>
       </node>
-      <node id="22">
-        <label>MRMesh/MRTerrainTriangulation.h</label>
-        <link refid="MRTerrainTriangulation_8h"/>
-      </node>
-      <node id="11">
+      <node id="12">
         <label>MRMesh/MRUVSphere.h</label>
         <link refid="MRUVSphere_8h"/>
       </node>
@@ -431,7 +438,7 @@
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20" refid="structMR_1_1MeshProjectionResult_1ad1465eeb2296933daf2de86872a2ba28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref><sp/><ref refid="structMR_1_1MeshProjectionResult_1ad1465eeb2296933daf2de86872a2ba28" kindref="member">proj</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="structMR_1_1MeshProjectionResult_1ab598491c26bf32f15bbd10cbb2bfb7a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/><ref refid="structMR_1_1MeshProjectionResult_1ab598491c26bf32f15bbd10cbb2bfb7a1" kindref="member">mtp</ref>;</highlight></codeline>
+<codeline lineno="23" refid="structMR_1_1MeshProjectionResult_1ab598491c26bf32f15bbd10cbb2bfb7a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref><sp/><ref refid="structMR_1_1MeshProjectionResult_1ab598491c26bf32f15bbd10cbb2bfb7a1" kindref="member">mtp</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="structMR_1_1MeshProjectionResult_1a685a3370c122d23e376f36b0ebb9fa29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshProjectionResult_1a685a3370c122d23e376f36b0ebb9fa29" kindref="member">distSq</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
@@ -473,7 +480,7 @@
 <codeline lineno="96" refid="structMR_1_1SignedDistanceToMeshResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SignedDistanceToMeshResult" kindref="compound">SignedDistanceToMeshResult</ref></highlight></codeline>
 <codeline lineno="97"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="99" refid="structMR_1_1SignedDistanceToMeshResult_1adb459805ccfb452c3a5c82fe673bbfec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref><sp/><ref refid="structMR_1_1SignedDistanceToMeshResult_1adb459805ccfb452c3a5c82fe673bbfec" kindref="member">proj</ref>;</highlight></codeline>
-<codeline lineno="101" refid="structMR_1_1SignedDistanceToMeshResult_1aec6c1291f51d451f8ab2bcf2d9371c41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref><sp/><ref refid="structMR_1_1SignedDistanceToMeshResult_1aec6c1291f51d451f8ab2bcf2d9371c41" kindref="member">mtp</ref>;</highlight></codeline>
+<codeline lineno="101" refid="structMR_1_1SignedDistanceToMeshResult_1aec6c1291f51d451f8ab2bcf2d9371c41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref><sp/><ref refid="structMR_1_1SignedDistanceToMeshResult_1aec6c1291f51d451f8ab2bcf2d9371c41" kindref="member">mtp</ref>;</highlight></codeline>
 <codeline lineno="103" refid="structMR_1_1SignedDistanceToMeshResult_1ab2ab2feebc81103d19915755ccb48d23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1SignedDistanceToMeshResult_1ab2ab2feebc81103d19915755ccb48d23" kindref="member">dist</ref><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="104"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>

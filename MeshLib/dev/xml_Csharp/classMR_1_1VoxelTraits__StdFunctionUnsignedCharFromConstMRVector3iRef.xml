@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3755" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3755" bodyend="3755"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4009" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4009" bodyend="4009"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3760" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3760" bodyend="3765"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4014" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4014" bodyend="4017"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a23f9be322d1e18e9c01c9843c6f3ec6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3770" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3770" bodyend="3776"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4022" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4022" bodyend="4026"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a2de1bb0020086fb7b59ce1c78ae590ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3781" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3781" bodyend="3781"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4031" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4031" bodyend="4031"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a5111ee884965dfaba967706c86657a13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef" kindref="compound">MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</ref></type>
@@ -98,7 +98,63 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3786" column="83" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3786" bodyend="3793"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4036" column="83" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4036" bodyend="4041"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1af6a8a7b53c54ea84120e6f93ede3a433" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef._Underlying *</type>
+        <definition>static unsafe MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef._Underlying * MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef.__MR_VoxelTraits_std_function_unsigned_char_func_from_const_MR_Vector3i_ref_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef._Underlying *_other)</argsstring>
+        <name>__MR_VoxelTraits_std_function_unsigned_char_func_from_const_MR_Vector3i_ref_AssignFromAnother</name>
+        <qualifiedname>MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef.__MR_VoxelTraits_std_function_unsigned_char_func_from_const_MR_Vector3i_ref_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4046" column="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a7591eb24ab904648d97e5ab2958012fa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef._Underlying *</type>
+        <definition>static unsafe MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef._Underlying * MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef.__MR_VoxelTraits_std_function_unsigned_char_func_from_const_MR_Vector3i_ref_ConstructFromAnother</definition>
+        <argsstring>(MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef._Underlying *_other)</argsstring>
+        <name>__MR_VoxelTraits_std_function_unsigned_char_func_from_const_MR_Vector3i_ref_ConstructFromAnother</name>
+        <qualifiedname>MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef.__MR_VoxelTraits_std_function_unsigned_char_func_from_const_MR_Vector3i_ref_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4049" column="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1abac22a92623b1b55b75c45e1a3190f6b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef._Underlying *</type>
+        <definition>static unsafe MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef._Underlying * MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef.__MR_VoxelTraits_std_function_unsigned_char_func_from_const_MR_Vector3i_ref_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_VoxelTraits_std_function_unsigned_char_func_from_const_MR_Vector3i_ref_DefaultConstruct</name>
+        <qualifiedname>MR.VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef.__MR_VoxelTraits_std_function_unsigned_char_func_from_const_MR_Vector3i_ref_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4052" column="101"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -150,8 +206,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3753" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3754" bodyend="3794"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="4007" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="4008" bodyend="4053"/>
     <listofallmembers>
+      <member refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1af6a8a7b53c54ea84120e6f93ede3a433" prot="private" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>__MR_VoxelTraits_std_function_unsigned_char_func_from_const_MR_Vector3i_ref_AssignFromAnother</name></member>
+      <member refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a7591eb24ab904648d97e5ab2958012fa" prot="private" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>__MR_VoxelTraits_std_function_unsigned_char_func_from_const_MR_Vector3i_ref_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1abac22a92623b1b55b75c45e1a3190f6b" prot="private" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>__MR_VoxelTraits_std_function_unsigned_char_func_from_const_MR_Vector3i_ref_DefaultConstruct</name></member>
       <member refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a5111ee884965dfaba967706c86657a13" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a6205a034af9b0917804ee07fa8b92d82" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</name></member>
       <member refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef_1a1eb73d2f0f76e2cc9e07e91b8e483719" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</scope><name>Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</name></member>

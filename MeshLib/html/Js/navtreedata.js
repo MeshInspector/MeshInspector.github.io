@@ -26,6 +26,7 @@ var NAVTREE =
 [
   [ "MeshLib JavaScript Docs", "index.html", [
     [ "About", "../index.html", null ],
+    [ "Live Demo", "^https://demo.meshlib.io/", null ],
     [ "Getting Started", "../InstallationGuide.html", [
       [ "Python", "../MeshLibPythonSetupGuide.html", null ],
       [ "C++", "../MeshLibCppSetupGuide.html", null ],
@@ -35,6 +36,7 @@ var NAVTREE =
       [ "CMake", "../MeshLibCmakeSetupGuide.html", null ]
     ] ],
     [ "License", "../License.html", null ],
+    [ "How to cite", "../Citation.html", null ],
     [ "Tutorials", "../Tutorials.html", [
       [ "Create First Plugin using C++", "../FirstPluginTutorial.html", null ],
       [ "Support Generator Tool using C++", "../SupportGeneratorTutorial.html", null ]
@@ -85,6 +87,7 @@ var NAVTREE =
         [ "Open Dicom Files", "../ExampleDicomFiles.html", null ]
       ] ]
     ] ],
+    [ "Switching from Other Libraries", "../SwitchingFromOtherLibraries.html", null ],
     [ "Package Overview", "../PackageOverview.html", [
       [ "File Format Support", "../FileFormatSupport.html", null ],
       [ "Mesh Structure", "../MeshStructureOverview.html", null ],
@@ -131,9 +134,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../APIPage.html",
-"bindings_8d_8mts.html#afb516a595abdc79d3a2a2caaf85eeb85",
-"classMeshBuilder.html",
-"functions_vars.html"
+"bindings_8d_8mts.html#aeb544177a64dedb92b29a4849f145e50",
+"classMesh.html#ad17dde3aebb29ea8c0c4d2d343210fc4",
+"functions_t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

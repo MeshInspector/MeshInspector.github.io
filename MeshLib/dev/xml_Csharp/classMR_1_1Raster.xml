@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Raster" kind="class" language="C#" prot="public">
+    <compoundname>MR::Raster</compoundname>
+    <basecompoundref refid="classMR_1_1Const__Raster" prot="public" virt="non-virtual">MR.Const_Raster</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Raster_1a261554001cdafd194945e9c3175eb792" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1RasterInfo" kindref="compound">MR.RasterInfo</ref></type>
+        <definition>new unsafe MR.RasterInfo MR.Raster.info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <qualifiedname>MR.Raster.info</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="421" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="421" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Raster_1a25160881285d91949dea1694a8bffa75" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_UnsignedChar</type>
+        <definition>new unsafe MR.Std.Vector_UnsignedChar MR.Raster.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Raster.data</qualifiedname>
+        <briefdescription>
+<para>values of type info.type: the channels of a pixel go together, x changes first, then y (the rows go from top to bottom, unlike in <ref refid="classMR_1_1Image" kindref="compound">Image</ref>), then z </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="427" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="427" bodyend="427"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Raster_1a6247a8a7c3133048228a4811c02876e6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Raster.Raster</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Raster</name>
+        <qualifiedname>MR.Raster.Raster</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="449" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="449" bodyend="453"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Raster_1ac198ab0fc5c46913cce534541720df25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Raster.Raster</definition>
+        <argsstring>()</argsstring>
+        <name>Raster</name>
+        <qualifiedname>MR.Raster.Raster</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="459" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="459" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Raster_1a100769c6429d9514cd48b78c0e56b9f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Raster.Raster</definition>
+        <argsstring>(MR.Const_RasterInfo info, MR.Std._ByValue_Vector_UnsignedChar data)</argsstring>
+        <name>Raster</name>
+        <qualifiedname>MR.Raster.Raster</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__RasterInfo" kindref="compound">MR.Const_RasterInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Vector_UnsignedChar</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Raster" kindref="compound">MR.Raster</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="468" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="468" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Raster_1a3801bfb095b916e3e9416406a8e81c39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Raster.Raster</definition>
+        <argsstring>(MR._ByValue_Raster _other)</argsstring>
+        <name>Raster</name>
+        <qualifiedname>MR.Raster.Raster</qualifiedname>
+        <param>
+          <type>MR._ByValue_Raster</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Raster_1ac198ab0fc5c46913cce534541720df25" kindref="member">MR.Raster.Raster</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="479" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="479" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Raster_1a2195f474b96da69ce8c435401162a506" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Raster.Raster</definition>
+        <argsstring>(Const_Raster _other)</argsstring>
+        <name>Raster</name>
+        <qualifiedname>MR.Raster.Raster</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Raster" kindref="compound">Const_Raster</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Raster_1ac198ab0fc5c46913cce534541720df25" kindref="member">MR.Raster.Raster</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="489" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="489" bodyend="489"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Raster_1a6e5549a9e969d0606b46ea34b0c6fe96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Raster.Raster</definition>
+        <argsstring>(Raster _other)</argsstring>
+        <name>Raster</name>
+        <qualifiedname>MR.Raster.Raster</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Raster" kindref="compound">Raster</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Raster_1ac198ab0fc5c46913cce534541720df25" kindref="member">MR.Raster.Raster</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="494" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="494" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Raster_1a29f14f9670bafff09b41b16759f1cf21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Raster" kindref="compound">MR.Raster</ref></type>
+        <definition>unsafe MR.Raster MR.Raster.assign</definition>
+        <argsstring>(MR._ByValue_Raster _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Raster.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Raster</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Raster::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="499" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="499" bodyend="504"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Raster_1a4d82c54e0c2192250de6d898c2b0c365" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Raster._Underlying *</type>
+        <definition>static unsafe MR.Raster._Underlying * MR.Raster.__MR_Raster_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.Raster._Underlying *_other)</argsstring>
+        <name>__MR_Raster_AssignFromAnother</name>
+        <qualifiedname>MR.Raster.__MR_Raster_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Raster._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="509" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Raster_1a174b96479fe4938599a9d3c87cb92e4b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Raster._Underlying *</type>
+        <definition>static unsafe MR.Raster._Underlying * MR.Raster.__MR_Raster_ConstructFrom</definition>
+        <argsstring>(MR.RasterInfo._Underlying *info, MR.Misc._PassBy data_pass_by, MR.Std.Vector_UnsignedChar._Underlying *data)</argsstring>
+        <name>__MR_Raster_ConstructFrom</name>
+        <qualifiedname>MR.Raster.__MR_Raster_ConstructFrom</qualifiedname>
+        <param>
+          <type>MR.RasterInfo._Underlying *</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>data_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_UnsignedChar._Underlying *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="512" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Raster_1aa0bda4e49e9484a24974641689fbf554" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Raster._Underlying *</type>
+        <definition>static unsafe MR.Raster._Underlying * MR.Raster.__MR_Raster_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.Raster._Underlying *_other)</argsstring>
+        <name>__MR_Raster_ConstructFromAnother</name>
+        <qualifiedname>MR.Raster.__MR_Raster_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Raster._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="515" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Raster_1a8daef65f7448883ea0cf10daabdc7fbf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Raster._Underlying *</type>
+        <definition>static unsafe MR.Raster._Underlying * MR.Raster.__MR_Raster_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_Raster_DefaultConstruct</name>
+        <qualifiedname>MR.Raster.__MR_Raster_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="518" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Raster_1aa34dfbae274ceecb2209fabe02ddfe3f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_UnsignedChar._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_UnsignedChar._Underlying * MR.Raster.__MR_Raster_GetMutable_data</definition>
+        <argsstring>(MR.Raster._Underlying *_this)</argsstring>
+        <name>__MR_Raster_GetMutable_data</name>
+        <qualifiedname>MR.Raster.__MR_Raster_GetMutable_data</qualifiedname>
+        <param>
+          <type>MR.Raster._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="521" column="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Raster_1a4f2ef4e9817449dabc4086bc442e6982" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.RasterInfo._Underlying *</type>
+        <definition>static unsafe MR.RasterInfo._Underlying * MR.Raster.__MR_Raster_GetMutable_info</definition>
+        <argsstring>(MR.Raster._Underlying *_this)</argsstring>
+        <name>__MR_Raster_GetMutable_info</name>
+        <qualifiedname>MR.Raster.__MR_Raster_GetMutable_info</qualifiedname>
+        <param>
+          <type>MR.Raster._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="524" column="54"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>regular grid of values of any type: an image if it has one layer, otherwise a volume Generated from class <computeroutput><ref refid="classMR_1_1Raster" kindref="compound">MR.Raster</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Raster</label>
+        <link refid="classMR_1_1Raster"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Raster</label>
+        <link refid="classMR_1_1Const__Raster"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Raster</label>
+        <link refid="classMR_1_1Raster"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Raster</label>
+        <link refid="classMR_1_1Const__Raster"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="419" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="420" bodyend="525"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Raster_1a4d82c54e0c2192250de6d898c2b0c365" prot="private" virt="non-virtual"><scope>MR::Raster</scope><name>__MR_Raster_AssignFromAnother</name></member>
+      <member refid="classMR_1_1Raster_1a174b96479fe4938599a9d3c87cb92e4b" prot="private" virt="non-virtual"><scope>MR::Raster</scope><name>__MR_Raster_ConstructFrom</name></member>
+      <member refid="classMR_1_1Raster_1aa0bda4e49e9484a24974641689fbf554" prot="private" virt="non-virtual"><scope>MR::Raster</scope><name>__MR_Raster_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Raster_1a8daef65f7448883ea0cf10daabdc7fbf" prot="private" virt="non-virtual"><scope>MR::Raster</scope><name>__MR_Raster_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Raster_1aa34dfbae274ceecb2209fabe02ddfe3f" prot="private" virt="non-virtual"><scope>MR::Raster</scope><name>__MR_Raster_GetMutable_data</name></member>
+      <member refid="classMR_1_1Raster_1a4f2ef4e9817449dabc4086bc442e6982" prot="private" virt="non-virtual"><scope>MR::Raster</scope><name>__MR_Raster_GetMutable_info</name></member>
+      <member refid="classMR_1_1Raster_1a29f14f9670bafff09b41b16759f1cf21" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Raster_1a46947b750ada2aecf3f6957bc0266722" prot="package" virt="non-virtual"><scope>MR::Raster</scope><name>Const_Raster</name></member>
+      <member refid="classMR_1_1Const__Raster_1a8b55916a57e801744995bdccb6727c5b" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>Const_Raster</name></member>
+      <member refid="classMR_1_1Const__Raster_1a0919e35b6cea27d404a75703707325a0" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>Const_Raster</name></member>
+      <member refid="classMR_1_1Const__Raster_1a5b3e309c406a708d949ece7b837e798d" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>Const_Raster</name></member>
+      <member refid="classMR_1_1Const__Raster_1a6263edc644eacd0d294a168c12b61b4e" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>Const_Raster</name></member>
+      <member refid="classMR_1_1Const__Raster_1af9d831c0cc63eeca0925e072bde43979" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>Const_Raster</name></member>
+      <member refid="classMR_1_1Raster_1a25160881285d91949dea1694a8bffa75" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Raster_1a25974fee47d04b00533311817948df7c" prot="protected" virt="virtual"><scope>MR::Raster</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Raster_1abf19cb905b21d6e5dccdc98dd31c43c2" prot="public" virt="virtual"><scope>MR::Raster</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Raster_1a261554001cdafd194945e9c3175eb792" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>info</name></member>
+      <member refid="classMR_1_1Raster_1a6247a8a7c3133048228a4811c02876e6" prot="package" virt="non-virtual"><scope>MR::Raster</scope><name>Raster</name></member>
+      <member refid="classMR_1_1Raster_1ac198ab0fc5c46913cce534541720df25" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>Raster</name></member>
+      <member refid="classMR_1_1Raster_1a100769c6429d9514cd48b78c0e56b9f7" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>Raster</name></member>
+      <member refid="classMR_1_1Raster_1a3801bfb095b916e3e9416406a8e81c39" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>Raster</name></member>
+      <member refid="classMR_1_1Raster_1a2195f474b96da69ce8c435401162a506" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>Raster</name></member>
+      <member refid="classMR_1_1Raster_1a6e5549a9e969d0606b46ea34b0c6fe96" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>Raster</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

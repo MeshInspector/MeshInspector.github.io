@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -144,9 +137,9 @@ $(function(){initNavTree('classMR_1_1Cuda_1_1FastWindingNumber.html','',''); });
 <p>This is the complete list of members for <a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR.Cuda.FastWindingNumber</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a5b79f6cb8b70d3723821167dfd01517c">calcFromGrid</a>(MR.Std.Vector_Float res, in MR.Vector3i dims, in MR.AffineXf3f gridToMeshXf, float beta, MR.Std.Const_Function_Bool_From_Float cb)</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR.Cuda.FastWindingNumber</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#afb84422d205cac423805e9ce30c167b4">calcFromGridByParts</a>(MR.Std._ByValue_Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int resFunc, in MR.Vector3i dims, in MR.AffineXf3f gridToMeshXf, float beta, int layerOverlap, MR.Std.Const_Function_Bool_From_Float cb)</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR.Cuda.FastWindingNumber</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#ad116968e77c88d443bd73b1692e83c51">calcFromGridByParts</a>(MR.Std._ByValue_Function_ExpectedVoidStdString_From_MRVoxelScalarsRvalueRef_ConstMRVector3iRef_Int resFunc, in MR.Vector3i dims, in MR.AffineXf3f gridToMeshXf, float beta, int layerOverlap, MR.Std.Const_Function_Bool_From_Float cb)</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR.Cuda.FastWindingNumber</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#ae38689dca402a71f2f6e61879ac35311">calcFromGridWithDistances</a>(MR.Std.Vector_Float res, in MR.Vector3i dims, in MR.AffineXf3f gridToMeshXf, MR.Const_DistanceToMeshOptions options, MR.Std.Const_Function_Bool_From_Float cb)</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR.Cuda.FastWindingNumber</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a8bb04d7faae293552144570dd72f7c91">calcFromGridWithDistancesByParts</a>(MR.Std._ByValue_Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int resFunc, in MR.Vector3i dims, in MR.AffineXf3f gridToMeshXf, MR.Const_DistanceToMeshOptions options, int layerOverlap, MR.Std.Const_Function_Bool_From_Float cb)</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR.Cuda.FastWindingNumber</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#ab3f4bed59eca18e922092769bc817fc6">calcFromGridWithDistancesByParts</a>(MR.Std._ByValue_Function_ExpectedVoidStdString_From_MRVoxelScalarsRvalueRef_ConstMRVector3iRef_Int resFunc, in MR.Vector3i dims, in MR.AffineXf3f gridToMeshXf, MR.Const_DistanceToMeshOptions options, int layerOverlap, MR.Std.Const_Function_Bool_From_Float cb)</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR.Cuda.FastWindingNumber</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a7350afbb046a8472d981dda7ea10a389">calcFromVector</a>(MR.Std.Vector_Float res, MR.Std.Const_Vector_MRVector3f points, float beta, MR.FaceId skipFace, MR.Std.Const_Function_Bool_From_Float cb)</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR.Cuda.FastWindingNumber</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html#a175231878fefcecd892f9571b7feca44">calcSelfIntersections</a>(MR.FaceBitSet res, float beta, MR.Std.Const_Function_Bool_From_Float cb)</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html">MR.Cuda.FastWindingNumber</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1Const__FastWindingNumber.html#a96bc630e34eaf73bb679aa6a8135a2f4">Const_FastWindingNumber</a>(MR.Cuda._ByValue_FastWindingNumber _other)</td><td class="entry"><a class="el" href="classMR_1_1Cuda_1_1Const__FastWindingNumber.html">MR.Cuda.Const_FastWindingNumber</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>

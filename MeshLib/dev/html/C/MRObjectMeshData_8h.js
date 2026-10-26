@@ -1,6 +1,7 @@
 var MRObjectMeshData_8h =
 [
     [ "MR_edgesBetweenDifferentColors", "MRObjectMeshData_8h.html#a48331984243bc5f349dc700c18d2c664", null ],
+    [ "MR_edgesBetweenDifferentTextures", "MRObjectMeshData_8h.html#a5a02278a8f8c3a9ff18f95b9353ca2b8", null ],
     [ "MR_ObjectMeshData_AssignFromAnother", "MRObjectMeshData_8h.html#a05a5a4c9ffc455dd423d8b7d5439e9e7", null ],
     [ "MR_ObjectMeshData_clone", "MRObjectMeshData_8h.html#a8943c22786649cddb96b2224047d149c", null ],
     [ "MR_ObjectMeshData_ConstructFrom", "MRObjectMeshData_8h.html#adcf75877e2e33e4b70223d3d348a6cd5", null ],
@@ -35,5 +36,6 @@ var MRObjectMeshData_8h =
     [ "MR_ObjectMeshData_Set_selectedFaces", "MRObjectMeshData_8h.html#a254a2bbf125d02b5a42a902a4bb9a0e2", null ],
     [ "MR_ObjectMeshData_Set_texturePerFace", "MRObjectMeshData_8h.html#a38e7ab472224f66f51c86252c019741d", null ],
     [ "MR_ObjectMeshData_Set_uvCoordinates", "MRObjectMeshData_8h.html#a49f763747499bc9b7f88ef752a859754", null ],
-    [ "MR_ObjectMeshData_Set_vertColors", "MRObjectMeshData_8h.html#aafac710217323d779e78d70b60cf2216", null ]
+    [ "MR_ObjectMeshData_Set_vertColors", "MRObjectMeshData_8h.html#aafac710217323d779e78d70b60cf2216", null ],
+    [ "MR_resizeAttributesToMesh", "MRObjectMeshData_8h.html#a4747b56b066542010f007f7c5cd7d51d", null ]
 ];

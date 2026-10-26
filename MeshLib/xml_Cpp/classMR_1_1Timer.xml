@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTimer.h" line="34" column="29" bodyfile="MRMesh/MRTimer.h" bodystart="34" bodyend="-1"/>
+        <location file="MRMesh/MRTimer.h" line="38" column="29" bodyfile="MRMesh/MRTimer.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Timer_1ac9365f7417ee092ebb5a609600ee3856" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTimer.h" line="35" column="10" bodyfile="MRMesh/MRTimer.h" bodystart="35" bodyend="35"/>
+        <location file="MRMesh/MRTimer.h" line="39" column="10" bodyfile="MRMesh/MRTimer.h" bodystart="39" bodyend="39"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -53,6 +53,25 @@
         </inbodydescription>
         <location file="MRMesh/MRTimer.h" line="19" column="5" bodyfile="MRMesh/MRTimer.h" bodystart="19" bodyend="19"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Timer_1a4c03f6a23e6326c2a54b95d61c3875f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Timer::Timer</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>Timer</name>
+        <qualifiedname>MR::Timer::Timer</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the name is converted in std::string only if the timing is enabled in this thread, which is not the case in parallel worker threads, where MR_TIMER then costs nothing </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRTimer.h" line="22" column="5" bodyfile="MRMesh/MRTimer.h" bodystart="22" bodyend="22"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Timer_1a566c11ef9ebd550e2fa3cc5d71166218" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>MR::Timer::~Timer</definition>
@@ -65,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTimer.h" line="20" column="5" bodyfile="MRMesh/MRTimer.h" bodystart="20" bodyend="20"/>
+        <location file="MRMesh/MRTimer.h" line="23" column="5" bodyfile="MRMesh/MRTimer.h" bodystart="23" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Timer_1a2db88e174e3796c728ed6585e2ade84d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -83,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTimer.h" line="22" column="11"/>
+        <location file="MRMesh/MRTimer.h" line="25" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Timer_1a99cd37e3d1b7371e80e114ffd3493a43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -101,7 +120,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTimer.h" line="23" column="11"/>
+        <location file="MRMesh/MRTimer.h" line="26" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Timer_1aa95595c8a61134a95db0f4656877b8f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Timer::start</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>start</name>
+        <qualifiedname>MR::Timer::start</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRTimer.h" line="27" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Timer_1ad2ecc757ea96fd7e35208506a9a73880" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -115,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTimer.h" line="24" column="11"/>
+        <location file="MRMesh/MRTimer.h" line="28" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Timer_1a553683f7d466d5b7fb678541b729b8d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -132,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTimer.h" line="26" column="5"/>
+        <location file="MRMesh/MRTimer.h" line="30" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Timer_1aee5682697e88241b45ccc873426df465" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1Timer" kindref="compound">Timer</ref> &amp;</type>
@@ -149,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTimer.h" line="27" column="12"/>
+        <location file="MRMesh/MRTimer.h" line="31" column="12"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Timer_1ac663a305ea77099e4a39bed149100061" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -166,7 +203,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTimer.h" line="28" column="5"/>
+        <location file="MRMesh/MRTimer.h" line="32" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Timer_1abf15faf22086bb240a8b83b365a55a87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1Timer" kindref="compound">Timer</ref> &amp;</type>
@@ -183,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTimer.h" line="29" column="12"/>
+        <location file="MRMesh/MRTimer.h" line="33" column="12"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Timer_1a732ca995a77c5930f0a5abe57ab4bc43" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::chrono::duration&lt; double &gt;</type>
@@ -197,14 +234,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTimer.h" line="31" column="27" bodyfile="MRMesh/MRTimer.h" bodystart="31" bodyend="31"/>
+        <location file="MRMesh/MRTimer.h" line="35" column="27" bodyfile="MRMesh/MRTimer.h" bodystart="35" bodyend="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRTimer.h" line="16" column="1" bodyfile="MRMesh/MRTimer.h" bodystart="17" bodyend="36"/>
+    <location file="MRMesh/MRTimer.h" line="16" column="1" bodyfile="MRMesh/MRTimer.h" bodystart="17" bodyend="40"/>
     <listofallmembers>
       <member refid="classMR_1_1Timer_1ad2ecc757ea96fd7e35208506a9a73880" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>finish</name></member>
       <member refid="classMR_1_1Timer_1aee5682697e88241b45ccc873426df465" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>operator=</name></member>
@@ -212,9 +249,11 @@
       <member refid="classMR_1_1Timer_1a2db88e174e3796c728ed6585e2ade84d" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>restart</name></member>
       <member refid="classMR_1_1Timer_1a732ca995a77c5930f0a5abe57ab4bc43" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>secondsPassed</name></member>
       <member refid="classMR_1_1Timer_1a99cd37e3d1b7371e80e114ffd3493a43" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>start</name></member>
+      <member refid="classMR_1_1Timer_1aa95595c8a61134a95db0f4656877b8f0" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>start</name></member>
       <member refid="classMR_1_1Timer_1a37b277791cc374816c6078ee2849381c" prot="private" virt="non-virtual"><scope>MR::Timer</scope><name>start_</name></member>
       <member refid="classMR_1_1Timer_1ac9365f7417ee092ebb5a609600ee3856" prot="private" virt="non-virtual"><scope>MR::Timer</scope><name>started_</name></member>
       <member refid="classMR_1_1Timer_1ae80a6af65498d28b69104f6cba5dae47" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>Timer</name></member>
+      <member refid="classMR_1_1Timer_1a4c03f6a23e6326c2a54b95d61c3875f6" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>Timer</name></member>
       <member refid="classMR_1_1Timer_1a553683f7d466d5b7fb678541b729b8d7" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>Timer</name></member>
       <member refid="classMR_1_1Timer_1ac663a305ea77099e4a39bed149100061" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>Timer</name></member>
       <member refid="classMR_1_1Timer_1a566c11ef9ebd550e2fa3cc5d71166218" prot="public" virt="non-virtual"><scope>MR::Timer</scope><name>~Timer</name></member>

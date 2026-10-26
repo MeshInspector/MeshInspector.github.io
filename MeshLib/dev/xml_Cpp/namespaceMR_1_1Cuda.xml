@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="namespaceMR_1_1Cuda" kind="namespace" language="C++">
     <compoundname>MR::Cuda</compoundname>
+    <innerclass refid="classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" prot="public">MR::Cuda::ComputePointsToDistanceVolume</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1ComputeToolDistance" prot="public">MR::Cuda::ComputeToolDistance</innerclass>
     <innerclass refid="structMR_1_1Cuda_1_1DeviceInfo" prot="public">MR::Cuda::DeviceInfo</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1FastWindingNumber" prot="public">MR::Cuda::FastWindingNumber</innerclass>
@@ -155,7 +156,7 @@
           <defval>{}</defval>
         </param>
         <param>
-          <type>std::vector&lt; <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &gt; *</type>
+          <type>std::vector&lt; <ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref> &gt; *</type>
           <declname>outSamples</declname>
           <defval>nullptr</defval>
         </param>
@@ -303,10 +304,10 @@
         </inbodydescription>
         <location file="MRCuda/MRCudaPointCloud.h" line="19" column="19" declfile="MRCuda/MRCudaPointCloud.h" declline="19" declcolumn="19"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1Cuda_1acdd0eaf7b314f1758bf6e417ad1f3795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1Cuda_1ac0f5929f4af15aed8c11ff5232d4f6ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; <ref refid="structMR_1_1PointsProjectionResult" kindref="compound">MR::PointsProjectionResult</ref> &gt; &gt;</type>
         <definition>MRCUDA_API Expected&lt; std::vector&lt; MR::PointsProjectionResult &gt; &gt; MR::Cuda::findProjectionOnPoints</definition>
-        <argsstring>(const PointCloud &amp;pointCloud, const std::vector&lt; Vector3f &gt; &amp;points, const FindProjectionOnPointsSettings &amp;settings={})</argsstring>
+        <argsstring>(const PointCloud &amp;pointCloud, const VertCoords &amp;points, const FindProjectionOnPointsSettings &amp;settings={})</argsstring>
         <name>findProjectionOnPoints</name>
         <qualifiedname>MR::Cuda::findProjectionOnPoints</qualifiedname>
         <param>
@@ -314,7 +315,7 @@
           <declname>pointCloud</declname>
         </param>
         <param>
-          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <type>const VertCoords &amp;</type>
           <declname>points</declname>
         </param>
         <param>
@@ -346,7 +347,7 @@
           <declname>pointsCount</declname>
         </param>
         <briefdescription>
-<para>returns the minimal amount of free GPU memory required for <ref refid="namespaceMR_1_1Cuda_1acdd0eaf7b314f1758bf6e417ad1f3795" kindref="member">MR::Cuda::findProjectionOnPoints</ref> </para>
+<para>returns the minimal amount of free GPU memory required for <ref refid="namespaceMR_1_1Cuda_1ac0f5929f4af15aed8c11ff5232d4f6ff" kindref="member">MR::Cuda::findProjectionOnPoints</ref> </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -356,6 +357,7 @@
       </memberdef>
       <member refid="group__GeneralGroup_1ga76d46e2388018a2bca5a72dfaefd30e9" kind="function"><name>pointsToDistanceVolume</name></member>
       <member refid="group__GeneralGroup_1ga2ca6e42153313ca635d7ea3e12d19bf0" kind="function"><name>pointsToDistanceVolumeByParts</name></member>
+      <member refid="group__GeneralGroup_1ga5cc55a97b581e01247749d0d7e6697a4" kind="function"><name>pointsToDistanceVolumeMemory</name></member>
       <member refid="group__GeneralGroup_1gab5f9490f820c7e7eb708e516e58d6e5a" kind="function"><name>computeSkyViewFactor</name></member>
       <member refid="group__GeneralGroup_1gaf763aea7896baa102ab7715278d93231" kind="function"><name>findSkyRays</name></member>
       <member refid="group__GeneralGroup_1ga07684cc6b916a645e4ed28757498d51a" kind="function"><name>negatePicture</name></member>

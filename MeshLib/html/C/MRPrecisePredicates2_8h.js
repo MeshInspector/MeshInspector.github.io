@@ -29,6 +29,7 @@ var MRPrecisePredicates2_8h =
     [ "MR_CoordinateConverters2_Set_toFloat", "MRPrecisePredicates2_8h.html#a9fcd190ddd04a8d1efa6e3f86e7b59fd", null ],
     [ "MR_CoordinateConverters2_Set_toInt", "MRPrecisePredicates2_8h.html#a4f46a0f82e95c48750f055da2d9d74d2", null ],
     [ "MR_doSegmentSegmentIntersect", "MRPrecisePredicates2_8h.html#a92c2983236dc68e0b1284bc280cf8cc1", null ],
+    [ "MR_findSegmentSegmentIntersectionPrecise_1", "MRPrecisePredicates2_8h.html#a80a3c6174dff997a2d71a6bfb334a5c8", null ],
     [ "MR_findSegmentSegmentIntersectionPrecise_4", "MRPrecisePredicates2_8h.html#ae2eb79545a6d5eda704625198cce3861", null ],
     [ "MR_findSegmentSegmentIntersectionPrecise_5", "MRPrecisePredicates2_8h.html#a0a878a2db00266f18b7b718667440828", null ],
     [ "MR_inCircle_const_MR_PreciseVertCoords2_ptr", "MRPrecisePredicates2_8h.html#ad044103a27c3760d4c54cbb6ce278e87", null ],

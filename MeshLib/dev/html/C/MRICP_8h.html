@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -159,6 +152,7 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ad03951b131de611b1d9afcdace15f61d" id="r_ad03951b131de611b1d9afcdace15f61d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a></td></tr>
 <tr class="memitem:a688de095aadd73180efe43123477f63f" id="r_a688de095aadd73180efe43123477f63f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a688de095aadd73180efe43123477f63f">MR_PointToPlaneAligningTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a688de095aadd73180efe43123477f63f">MR_PointToPlaneAligningTransform</a></td></tr>
 <tr class="memitem:ab0d83ae2f35ff147b7fde65fb40816b7" id="r_ab0d83ae2f35ff147b7fde65fb40816b7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab0d83ae2f35ff147b7fde65fb40816b7">MR_std_vector_MR_PointPair</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0d83ae2f35ff147b7fde65fb40816b7">MR_std_vector_MR_PointPair</a></td></tr>
+<tr class="memitem:a9ce24bb46ae695ad2d12f0e4aebe2e41" id="r_a9ce24bb46ae695ad2d12f0e4aebe2e41"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a9ce24bb46ae695ad2d12f0e4aebe2e41">MR_std_vector_MR_WeightedVertex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ce24bb46ae695ad2d12f0e4aebe2e41">MR_std_vector_MR_WeightedVertex</a></td></tr>
 <tr class="memitem:ab2dae85553b6362b2a20a5a8fd296776" id="r_ab2dae85553b6362b2a20a5a8fd296776"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a></td></tr>
 <tr class="memitem:aa8fb09f97978d475d7ef247882fe1a0f" id="r_aa8fb09f97978d475d7ef247882fe1a0f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a></td></tr>
 <tr class="memitem:af68d1fd61d03ebb96110ae3f301b7648" id="r_af68d1fd61d03ebb96110ae3f301b7648"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a></td></tr>
@@ -319,6 +313,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aa4eca1f8ca03987804bad602cf29d2bb" id="r_aa4eca1f8ca03987804bad602cf29d2bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4eca1f8ca03987804bad602cf29d2bb">MR_ICPProperties_Get_p2plScaleLimit</a> (const <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *_this)</td></tr>
 <tr class="memitem:aa4a114f14aae0a5fc3986c75774be1d8" id="r_aa4a114f14aae0a5fc3986c75774be1d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4a114f14aae0a5fc3986c75774be1d8">MR_ICPProperties_Set_p2plScaleLimit</a> (<a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *_this, float value)</td></tr>
 <tr class="memitem:ad6d8b1749a8cdcf9e896ed509edfecb6" id="r_ad6d8b1749a8cdcf9e896ed509edfecb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6d8b1749a8cdcf9e896ed509edfecb6">MR_ICPProperties_GetMutable_p2plScaleLimit</a> (<a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *_this)</td></tr>
+<tr class="memitem:a7aed0f2c2462991397905ffa38a4ae8d" id="r_a7aed0f2c2462991397905ffa38a4ae8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aed0f2c2462991397905ffa38a4ae8d">MR_ICPProperties_Get_p2plStabilizer</a> (const <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *_this)</td></tr>
+<tr class="memitem:aeaa999fbffbabf1485db796657a8bd4e" id="r_aeaa999fbffbabf1485db796657a8bd4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaa999fbffbabf1485db796657a8bd4e">MR_ICPProperties_Set_p2plStabilizer</a> (<a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *_this, float value)</td></tr>
+<tr class="memitem:aa41c965ae57865e9733be8afe690bb9b" id="r_aa41c965ae57865e9733be8afe690bb9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa41c965ae57865e9733be8afe690bb9b">MR_ICPProperties_GetMutable_p2plStabilizer</a> (<a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *_this)</td></tr>
 <tr class="memitem:a86b1eaf4a4cbe155414c0a043c25aeef" id="r_a86b1eaf4a4cbe155414c0a043c25aeef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86b1eaf4a4cbe155414c0a043c25aeef">MR_ICPProperties_Get_cosThreshold</a> (const <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *_this)</td></tr>
 <tr class="memitem:af480c29fcadb48b5b46b10a23e0787fc" id="r_af480c29fcadb48b5b46b10a23e0787fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af480c29fcadb48b5b46b10a23e0787fc">MR_ICPProperties_Set_cosThreshold</a> (<a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *_this, float value)</td></tr>
 <tr class="memitem:a460b4e2736c69d76eca1a122eff3e046" id="r_a460b4e2736c69d76eca1a122eff3e046"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a460b4e2736c69d76eca1a122eff3e046">MR_ICPProperties_GetMutable_cosThreshold</a> (<a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *_this)</td></tr>
@@ -351,7 +348,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a5ff5e869f21a913c156bcc01a188b58b" id="r_a5ff5e869f21a913c156bcc01a188b58b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ff5e869f21a913c156bcc01a188b58b">MR_ICPProperties_GetMutable_ignoreBdTgts</a> (<a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *_this)</td></tr>
 <tr class="memitem:a6ed25c78714027fdfe0fff972837bd7e" id="r_a6ed25c78714027fdfe0fff972837bd7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ed25c78714027fdfe0fff972837bd7e">MR_ICPProperties_DefaultConstruct</a> (void)</td></tr>
 <tr class="memitem:a83d15c244e2f6fc27f20b30c21d0cd2b" id="r_a83d15c244e2f6fc27f20b30c21d0cd2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83d15c244e2f6fc27f20b30c21d0cd2b">MR_ICPProperties_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a2011b632855faeff4e6588dbca2c9b47" id="r_a2011b632855faeff4e6588dbca2c9b47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2011b632855faeff4e6588dbca2c9b47">MR_ICPProperties_ConstructFrom</a> (<a class="el" href="MRICPEnums_8h.html#a5896b96169baef1f830507df21244a56">MR_ICPMethod</a> method, float p2plAngleLimit, float p2plScaleLimit, float cosThreshold, float distThresholdSq, float farDistFactor, <a class="el" href="MRICPEnums_8h.html#a6073597978e971b8f3bd65e7a8bf2747">MR_ICPMode</a> icpMode, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> fixedRotationAxis, int iterLimit, int badIterStopCount, float exitVal, bool mutualClosest, bool ignoreBdTgts)</td></tr>
+<tr class="memitem:aefadb64d3066b936e9b7b911aaaa6068" id="r_aefadb64d3066b936e9b7b911aaaa6068"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefadb64d3066b936e9b7b911aaaa6068">MR_ICPProperties_ConstructFrom</a> (<a class="el" href="MRICPEnums_8h.html#a5896b96169baef1f830507df21244a56">MR_ICPMethod</a> method, float p2plAngleLimit, float p2plScaleLimit, float p2plStabilizer, float cosThreshold, float distThresholdSq, float farDistFactor, <a class="el" href="MRICPEnums_8h.html#a6073597978e971b8f3bd65e7a8bf2747">MR_ICPMode</a> icpMode, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> fixedRotationAxis, int iterLimit, int badIterStopCount, float exitVal, bool mutualClosest, bool ignoreBdTgts)</td></tr>
 <tr class="memitem:a21663bd4794b9a556dfd1933ba8bc537" id="r_a21663bd4794b9a556dfd1933ba8bc537"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21663bd4794b9a556dfd1933ba8bc537">MR_ICPProperties_OffsetPtr</a> (const <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:ada04139c93c68fdf9fdd27c244602927" id="r_ada04139c93c68fdf9fdd27c244602927"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada04139c93c68fdf9fdd27c244602927">MR_ICPProperties_OffsetMutablePtr</a> (<a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:ad1e576ec4c8b90fcf378bebecf1d8071" id="r_ad1e576ec4c8b90fcf378bebecf1d8071"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1e576ec4c8b90fcf378bebecf1d8071">MR_ICPProperties_ConstructFromAnother</a> (const <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *_other)</td></tr>
@@ -365,10 +362,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ae9a7fa9e0e9ba06eb664b2a7d20266e6" id="r_ae9a7fa9e0e9ba06eb664b2a7d20266e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9a7fa9e0e9ba06eb664b2a7d20266e6">MR_ICP_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_other)</td></tr>
 <tr class="memitem:a492e87c87baa650c93cf8411640fc154" id="r_a492e87c87baa650c93cf8411640fc154"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a492e87c87baa650c93cf8411640fc154">MR_ICP_OffsetPtr</a> (const <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:af2d3e9b70de11ac641acb9025db11704" id="r_af2d3e9b70de11ac641acb9025db11704"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2d3e9b70de11ac641acb9025db11704">MR_ICP_OffsetMutablePtr</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:af8ef0b820cf7fb753110d623ff26b8f4" id="r_af8ef0b820cf7fb753110d623ff26b8f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8ef0b820cf7fb753110d623ff26b8f4">MR_ICP_Construct_6</a> (const <a class="el" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a> *flt, const <a class="el" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a> *ref, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *fltXf, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *refXf, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fltSamples, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *refSamples)</td></tr>
-<tr class="memitem:a5f9b10cdc0e05686066f3d8ef618f3aa" id="r_a5f9b10cdc0e05686066f3d8ef618f3aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f9b10cdc0e05686066f3d8ef618f3aa">MR_ICP_Construct_4</a> (const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *flt, const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *ref, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fltSamples, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *refSamples)</td></tr>
+<tr class="memitem:a1951cfc78e72e49a66ee4d2249bb4f3c" id="r_a1951cfc78e72e49a66ee4d2249bb4f3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1951cfc78e72e49a66ee4d2249bb4f3c">MR_ICP_Construct_6_MR_VertBitSet</a> (const <a class="el" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a> *flt, const <a class="el" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a> *ref, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *fltXf, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *refXf, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fltSamples, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *refSamples)</td></tr>
+<tr class="memitem:adf2190e643fb84c8452bebfe57033b64" id="r_adf2190e643fb84c8452bebfe57033b64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf2190e643fb84c8452bebfe57033b64">MR_ICP_Construct_samples</a> (const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *flt, const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *ref, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fltSamples, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *refSamples)</td></tr>
+<tr class="memitem:a0b8febf1a1fb85f6c024d8b957eb3909" id="r_a0b8febf1a1fb85f6c024d8b957eb3909"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b8febf1a1fb85f6c024d8b957eb3909">MR_ICP_Construct_6_std_vector_MR_WeightedVertex</a> (const <a class="el" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a> *flt, const <a class="el" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a> *ref, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *fltXf, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *refXf, const <a class="el" href="#a9ce24bb46ae695ad2d12f0e4aebe2e41">MR_std_vector_MR_WeightedVertex</a> *fltSamples, const <a class="el" href="#a9ce24bb46ae695ad2d12f0e4aebe2e41">MR_std_vector_MR_WeightedVertex</a> *refSamples)</td></tr>
+<tr class="memitem:a9e3e4289688982dd904bcad05bb604c9" id="r_a9e3e4289688982dd904bcad05bb604c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e3e4289688982dd904bcad05bb604c9">MR_ICP_Construct_weightedSamples</a> (const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *flt, const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *ref, const <a class="el" href="#a9ce24bb46ae695ad2d12f0e4aebe2e41">MR_std_vector_MR_WeightedVertex</a> *fltSamples, const <a class="el" href="#a9ce24bb46ae695ad2d12f0e4aebe2e41">MR_std_vector_MR_WeightedVertex</a> *refSamples)</td></tr>
 <tr class="memitem:a0a19e65b20ce2d1003b093d401201c26" id="r_a0a19e65b20ce2d1003b093d401201c26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a19e65b20ce2d1003b093d401201c26">MR_ICP_Construct_5</a> (const <a class="el" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a> *flt, const <a class="el" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a> *ref, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *fltXf, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *refXf, float samplingVoxelSize)</td></tr>
-<tr class="memitem:a79626d9b3ae7d9a0aaedcfc4b42b3aa4" id="r_a79626d9b3ae7d9a0aaedcfc4b42b3aa4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79626d9b3ae7d9a0aaedcfc4b42b3aa4">MR_ICP_Construct_3</a> (const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *flt, const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *ref, float samplingVoxelSize)</td></tr>
+<tr class="memitem:aafbca64acf08acefe1a3cce799e01ce2" id="r_aafbca64acf08acefe1a3cce799e01ce2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafbca64acf08acefe1a3cce799e01ce2">MR_ICP_Construct</a> (const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *flt, const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *ref, float samplingVoxelSize)</td></tr>
 <tr class="memitem:a719d54e4c8831382cf5738706fb26310" id="r_a719d54e4c8831382cf5738706fb26310"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a719d54e4c8831382cf5738706fb26310">MR_ICP_Destroy</a> (const <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this)</td></tr>
 <tr class="memdesc:a719d54e4c8831382cf5738706fb26310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:aec5d6a37d584ec712b0b6d3a566e0b4e" id="r_aec5d6a37d584ec712b0b6d3a566e0b4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec5d6a37d584ec712b0b6d3a566e0b4e">MR_ICP_DestroyArray</a> (const <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this)</td></tr>
@@ -380,10 +379,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a6ebd9e5205131737a84f24ee596fcc06" id="r_a6ebd9e5205131737a84f24ee596fcc06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ebd9e5205131737a84f24ee596fcc06">MR_ICP_setBadIterCount</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this, int iter)</td></tr>
 <tr class="memitem:a1d08b471a979e75a73c58933d504f7dc" id="r_a1d08b471a979e75a73c58933d504f7dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d08b471a979e75a73c58933d504f7dc">MR_ICP_setFarDistFactor</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this, float factor)</td></tr>
 <tr class="memitem:a6d4f4b4d994885021d0ccdfe24c4ab37" id="r_a6d4f4b4d994885021d0ccdfe24c4ab37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d4f4b4d994885021d0ccdfe24c4ab37">MR_ICP_setFltSamples</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fltSamples)</td></tr>
-<tr class="memitem:ac09a0f74c012d2c4dfedda53f00fa66a" id="r_ac09a0f74c012d2c4dfedda53f00fa66a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac09a0f74c012d2c4dfedda53f00fa66a">MR_ICP_sampleFltPoints</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this, float samplingVoxelSize)</td></tr>
+<tr class="memitem:a285732e37940b9ef1de14e6c15a8d0b4" id="r_a285732e37940b9ef1de14e6c15a8d0b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a285732e37940b9ef1de14e6c15a8d0b4">MR_ICP_sampleFltPoints</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this, float samplingVoxelSize, const bool *nonVertexSamples)</td></tr>
 <tr class="memitem:abbe3512870d71f2b3bde5f42c69094c0" id="r_abbe3512870d71f2b3bde5f42c69094c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbe3512870d71f2b3bde5f42c69094c0">MR_ICP_setRefSamples</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *refSamples)</td></tr>
-<tr class="memitem:a6c4ed7e0e80b59acf32299a2f9e3973c" id="r_a6c4ed7e0e80b59acf32299a2f9e3973c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c4ed7e0e80b59acf32299a2f9e3973c">MR_ICP_sampleRefPoints</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this, float samplingVoxelSize)</td></tr>
-<tr class="memitem:a8bc89a966b488e24d75a50a8fe6d8c68" id="r_a8bc89a966b488e24d75a50a8fe6d8c68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bc89a966b488e24d75a50a8fe6d8c68">MR_ICP_samplePoints</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this, float samplingVoxelSize)</td></tr>
+<tr class="memitem:a3a61f1e37f8ec757fdf337d97adaaaa8" id="r_a3a61f1e37f8ec757fdf337d97adaaaa8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a61f1e37f8ec757fdf337d97adaaaa8">MR_ICP_sampleRefPoints</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this, float samplingVoxelSize, const bool *nonVertexSamples)</td></tr>
+<tr class="memitem:a74877c1998b731f5d0783b5820411552" id="r_a74877c1998b731f5d0783b5820411552"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74877c1998b731f5d0783b5820411552">MR_ICP_samplePoints</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this, float samplingVoxelSize, const bool *nonVertexSamples)</td></tr>
 <tr class="memitem:a1550aafce0bb3a07124e371d5c007dfc" id="r_a1550aafce0bb3a07124e371d5c007dfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1550aafce0bb3a07124e371d5c007dfc">MR_ICP_setXfs</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *fltXf, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *refXf)</td></tr>
 <tr class="memitem:a73390d368304460abfe63430198d6c77" id="r_a73390d368304460abfe63430198d6c77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73390d368304460abfe63430198d6c77">MR_ICP_setFloatXf</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *fltXf)</td></tr>
 <tr class="memitem:aedfe9d8592140d33340502ea7a446f15" id="r_aedfe9d8592140d33340502ea7a446f15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedfe9d8592140d33340502ea7a446f15">MR_ICP_autoSelectFloatXf</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this)</td></tr>
@@ -396,6 +395,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a4a87c79758bf32143a4f1c9a4a523c93" id="r_a4a87c79758bf32143a4f1c9a4a523c93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a87c79758bf32143a4f1c9a4a523c93">MR_ICP_getMeanSqDistToPlane</a> (const <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this)</td></tr>
 <tr class="memitem:ad21add88e385664eafd5d9c02da0aa2c" id="r_ad21add88e385664eafd5d9c02da0aa2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21add88e385664eafd5d9c02da0aa2c">MR_ICP_getFlt2RefPairs</a> (const <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this)</td></tr>
 <tr class="memitem:a649b14e7bde0e98c944d1da67a748579" id="r_a649b14e7bde0e98c944d1da67a748579"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a649b14e7bde0e98c944d1da67a748579">MR_ICP_getRef2FltPairs</a> (const <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this)</td></tr>
+<tr class="memitem:a464280a302d6aac132e58d82e365829b" id="r_a464280a302d6aac132e58d82e365829b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a464280a302d6aac132e58d82e365829b">MR_ICP_getFltSamplesCloud</a> (const <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this)</td></tr>
+<tr class="memitem:ad5d078f52ade94b8245d8439a6c37c03" id="r_ad5d078f52ade94b8245d8439a6c37c03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5d078f52ade94b8245d8439a6c37c03">MR_ICP_getRefSamplesCloud</a> (const <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this)</td></tr>
 <tr class="memitem:a9cd10312ad72efcd82754cf809aee98f" id="r_a9cd10312ad72efcd82754cf809aee98f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cd10312ad72efcd82754cf809aee98f">MR_ICP_calculateTransformation</a> (<a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *_this)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
@@ -546,6 +547,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from C++ container <span class="tt">std::vector&lt;MR::PointPair&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a9ce24bb46ae695ad2d12f0e4aebe2e41" name="a9ce24bb46ae695ad2d12f0e4aebe2e41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ce24bb46ae695ad2d12f0e4aebe2e41">&#9670;&#160;</a></span>MR_std_vector_MR_WeightedVertex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a9ce24bb46ae695ad2d12f0e4aebe2e41">MR_std_vector_MR_WeightedVertex</a> <a class="el" href="#a9ce24bb46ae695ad2d12f0e4aebe2e41">MR_std_vector_MR_WeightedVertex</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <span class="tt">std::vector&lt;MR::WeightedVertex&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -876,14 +892,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a79626d9b3ae7d9a0aaedcfc4b42b3aa4" name="a79626d9b3ae7d9a0aaedcfc4b42b3aa4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79626d9b3ae7d9a0aaedcfc4b42b3aa4">&#9670;&#160;</a></span>MR_ICP_Construct_3()</h2>
+<a id="aafbca64acf08acefe1a3cce799e01ce2" name="aafbca64acf08acefe1a3cce799e01ce2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafbca64acf08acefe1a3cce799e01ce2">&#9670;&#160;</a></span>MR_ICP_Construct()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> * MR_ICP_Construct_3 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> * MR_ICP_Construct </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *</td>          <td class="paramname"><span class="paramname"><em>flt</em></span>, </td>
         </tr>
@@ -900,38 +916,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from constructor <span class="tt">MR::ICP::ICP</span>. Parameter <span class="tt">flt</span> can not be null. It is a single object. The reference to the parameter <span class="tt">flt</span> might be preserved in the constructed object. Parameter <span class="tt">ref</span> can not be null. It is a single object. The reference to the parameter <span class="tt">ref</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a719d54e4c8831382cf5738706fb26310" title="Destroys a heap-allocated instance of MR_ICP. Does nothing if the pointer is null.">MR_ICP_Destroy()</a></span> to free it when you're done using it. </p>
-
-</div>
-</div>
-<a id="a5f9b10cdc0e05686066f3d8ef618f3aa" name="a5f9b10cdc0e05686066f3d8ef618f3aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f9b10cdc0e05686066f3d8ef618f3aa">&#9670;&#160;</a></span>MR_ICP_Construct_4()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> * MR_ICP_Construct_4 </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *</td>          <td class="paramname"><span class="paramname"><em>flt</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *</td>          <td class="paramname"><span class="paramname"><em>ref</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>fltSamples</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>refSamples</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Generated from constructor <span class="tt">MR::ICP::ICP</span>. Parameter <span class="tt">flt</span> can not be null. It is a single object. The reference to the parameter <span class="tt">flt</span> might be preserved in the constructed object. Parameter <span class="tt">ref</span> can not be null. It is a single object. The reference to the parameter <span class="tt">ref</span> might be preserved in the constructed object. Parameter <span class="tt">fltSamples</span> is a single object. Parameter <span class="tt">fltSamples</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. The reference to the parameter <span class="tt">fltSamples</span> might be preserved in the constructed object. Parameter <span class="tt">refSamples</span> is a single object. Parameter <span class="tt">refSamples</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. The reference to the parameter <span class="tt">refSamples</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a719d54e4c8831382cf5738706fb26310" title="Destroys a heap-allocated instance of MR_ICP. Does nothing if the pointer is null.">MR_ICP_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -974,21 +958,21 @@ Functions</h2></td></tr>
     <tr><td class="paramname">ref</td><td>reference object </td></tr>
     <tr><td class="paramname">fltXf</td><td>transformation from floating object space to global space </td></tr>
     <tr><td class="paramname">refXf</td><td>transformation from reference object space to global space </td></tr>
-    <tr><td class="paramname">samplingVoxelSize</td><td>approximate distance between samples on each of two objects Generated from constructor <span class="tt">MR::ICP::ICP</span>. Parameter <span class="tt">flt</span> can not be null. It is a single object. The reference to the parameter <span class="tt">flt</span> might be preserved in the constructed object. Parameter <span class="tt">ref</span> can not be null. It is a single object. The reference to the parameter <span class="tt">ref</span> might be preserved in the constructed object. Parameter <span class="tt">fltXf</span> can not be null. It is a single object. The reference to the parameter <span class="tt">fltXf</span> might be preserved in the constructed object. Parameter <span class="tt">refXf</span> can not be null. It is a single object. The reference to the parameter <span class="tt">refXf</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a719d54e4c8831382cf5738706fb26310" title="Destroys a heap-allocated instance of MR_ICP. Does nothing if the pointer is null.">MR_ICP_Destroy()</a></span> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">samplingVoxelSize</td><td>approximate distance between samples on each of two objects all pairs get equal weights, and a mesh with big triangles gets samples inside them as in samplePoints( samplingVoxelSize, true ) Generated from constructor <span class="tt">MR::ICP::ICP</span>. Parameter <span class="tt">flt</span> can not be null. It is a single object. The reference to the parameter <span class="tt">flt</span> might be preserved in the constructed object. Parameter <span class="tt">ref</span> can not be null. It is a single object. The reference to the parameter <span class="tt">ref</span> might be preserved in the constructed object. Parameter <span class="tt">fltXf</span> can not be null. It is a single object. The reference to the parameter <span class="tt">fltXf</span> might be preserved in the constructed object. Parameter <span class="tt">refXf</span> can not be null. It is a single object. The reference to the parameter <span class="tt">refXf</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a719d54e4c8831382cf5738706fb26310" title="Destroys a heap-allocated instance of MR_ICP. Does nothing if the pointer is null.">MR_ICP_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="af8ef0b820cf7fb753110d623ff26b8f4" name="af8ef0b820cf7fb753110d623ff26b8f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8ef0b820cf7fb753110d623ff26b8f4">&#9670;&#160;</a></span>MR_ICP_Construct_6()</h2>
+<a id="a1951cfc78e72e49a66ee4d2249bb4f3c" name="a1951cfc78e72e49a66ee4d2249bb4f3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1951cfc78e72e49a66ee4d2249bb4f3c">&#9670;&#160;</a></span>MR_ICP_Construct_6_MR_VertBitSet()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> * MR_ICP_Construct_6 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> * MR_ICP_Construct_6_MR_VertBitSet </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a> *</td>          <td class="paramname"><span class="paramname"><em>flt</em></span>, </td>
         </tr>
@@ -1026,10 +1010,116 @@ Functions</h2></td></tr>
     <tr><td class="paramname">fltXf</td><td>transformation from floating object space to global space </td></tr>
     <tr><td class="paramname">refXf</td><td>transformation from reference object space to global space </td></tr>
     <tr><td class="paramname">fltSamples</td><td>samples on floating object to find projections on the reference object during the algorithm </td></tr>
-    <tr><td class="paramname">refSamples</td><td>samples on reference object to find projections on the floating object during the algorithm Generated from constructor <span class="tt">MR::ICP::ICP</span>. Parameter <span class="tt">flt</span> can not be null. It is a single object. The reference to the parameter <span class="tt">flt</span> might be preserved in the constructed object. Parameter <span class="tt">ref</span> can not be null. It is a single object. The reference to the parameter <span class="tt">ref</span> might be preserved in the constructed object. Parameter <span class="tt">fltXf</span> can not be null. It is a single object. The reference to the parameter <span class="tt">fltXf</span> might be preserved in the constructed object. Parameter <span class="tt">refXf</span> can not be null. It is a single object. The reference to the parameter <span class="tt">refXf</span> might be preserved in the constructed object. Parameter <span class="tt">fltSamples</span> is a single object. Parameter <span class="tt">fltSamples</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. The reference to the parameter <span class="tt">fltSamples</span> might be preserved in the constructed object. Parameter <span class="tt">refSamples</span> is a single object. Parameter <span class="tt">refSamples</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. The reference to the parameter <span class="tt">refSamples</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a719d54e4c8831382cf5738706fb26310" title="Destroys a heap-allocated instance of MR_ICP. Does nothing if the pointer is null.">MR_ICP_Destroy()</a></span> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">refSamples</td><td>samples on reference object to find projections on the floating object during the algorithm the weight of each pair is the double area of mesh triangles around its sample vertex (1 for point clouds) Generated from constructor <span class="tt">MR::ICP::ICP</span>. Parameter <span class="tt">flt</span> can not be null. It is a single object. The reference to the parameter <span class="tt">flt</span> might be preserved in the constructed object. Parameter <span class="tt">ref</span> can not be null. It is a single object. The reference to the parameter <span class="tt">ref</span> might be preserved in the constructed object. Parameter <span class="tt">fltXf</span> can not be null. It is a single object. The reference to the parameter <span class="tt">fltXf</span> might be preserved in the constructed object. Parameter <span class="tt">refXf</span> can not be null. It is a single object. The reference to the parameter <span class="tt">refXf</span> might be preserved in the constructed object. Parameter <span class="tt">fltSamples</span> is a single object. Parameter <span class="tt">fltSamples</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. The reference to the parameter <span class="tt">fltSamples</span> might be preserved in the constructed object. Parameter <span class="tt">refSamples</span> is a single object. Parameter <span class="tt">refSamples</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. The reference to the parameter <span class="tt">refSamples</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a719d54e4c8831382cf5738706fb26310" title="Destroys a heap-allocated instance of MR_ICP. Does nothing if the pointer is null.">MR_ICP_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a0b8febf1a1fb85f6c024d8b957eb3909" name="a0b8febf1a1fb85f6c024d8b957eb3909"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b8febf1a1fb85f6c024d8b957eb3909">&#9670;&#160;</a></span>MR_ICP_Construct_6_std_vector_MR_WeightedVertex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> * MR_ICP_Construct_6_std_vector_MR_WeightedVertex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a> *</td>          <td class="paramname"><span class="paramname"><em>flt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a> *</td>          <td class="paramname"><span class="paramname"><em>ref</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>fltXf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>refXf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9ce24bb46ae695ad2d12f0e4aebe2e41">MR_std_vector_MR_WeightedVertex</a> *</td>          <td class="paramname"><span class="paramname"><em>fltSamples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9ce24bb46ae695ad2d12f0e4aebe2e41">MR_std_vector_MR_WeightedVertex</a> *</td>          <td class="paramname"><span class="paramname"><em>refSamples</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs ICP framework with given sample points on both objects and the weights of their pairs, the weights stay fixed during the algorithm Generated from constructor <span class="tt">MR::ICP::ICP</span>. Parameter <span class="tt">flt</span> can not be null. It is a single object. The reference to the parameter <span class="tt">flt</span> might be preserved in the constructed object. Parameter <span class="tt">ref</span> can not be null. It is a single object. The reference to the parameter <span class="tt">ref</span> might be preserved in the constructed object. Parameter <span class="tt">fltXf</span> can not be null. It is a single object. The reference to the parameter <span class="tt">fltXf</span> might be preserved in the constructed object. Parameter <span class="tt">refXf</span> can not be null. It is a single object. The reference to the parameter <span class="tt">refXf</span> might be preserved in the constructed object. Parameter <span class="tt">fltSamples</span> can not be null. It is a single object. The reference to the parameter <span class="tt">fltSamples</span> might be preserved in the constructed object. Parameter <span class="tt">refSamples</span> can not be null. It is a single object. The reference to the parameter <span class="tt">refSamples</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a719d54e4c8831382cf5738706fb26310" title="Destroys a heap-allocated instance of MR_ICP. Does nothing if the pointer is null.">MR_ICP_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="adf2190e643fb84c8452bebfe57033b64" name="adf2190e643fb84c8452bebfe57033b64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf2190e643fb84c8452bebfe57033b64">&#9670;&#160;</a></span>MR_ICP_Construct_samples()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> * MR_ICP_Construct_samples </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *</td>          <td class="paramname"><span class="paramname"><em>flt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *</td>          <td class="paramname"><span class="paramname"><em>ref</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>fltSamples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>refSamples</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::ICP::ICP</span>. Parameter <span class="tt">flt</span> can not be null. It is a single object. The reference to the parameter <span class="tt">flt</span> might be preserved in the constructed object. Parameter <span class="tt">ref</span> can not be null. It is a single object. The reference to the parameter <span class="tt">ref</span> might be preserved in the constructed object. Parameter <span class="tt">fltSamples</span> is a single object. Parameter <span class="tt">fltSamples</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. The reference to the parameter <span class="tt">fltSamples</span> might be preserved in the constructed object. Parameter <span class="tt">refSamples</span> is a single object. Parameter <span class="tt">refSamples</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. The reference to the parameter <span class="tt">refSamples</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a719d54e4c8831382cf5738706fb26310" title="Destroys a heap-allocated instance of MR_ICP. Does nothing if the pointer is null.">MR_ICP_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9e3e4289688982dd904bcad05bb604c9" name="a9e3e4289688982dd904bcad05bb604c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e3e4289688982dd904bcad05bb604c9">&#9670;&#160;</a></span>MR_ICP_Construct_weightedSamples()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> * MR_ICP_Construct_weightedSamples </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *</td>          <td class="paramname"><span class="paramname"><em>flt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a> *</td>          <td class="paramname"><span class="paramname"><em>ref</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9ce24bb46ae695ad2d12f0e4aebe2e41">MR_std_vector_MR_WeightedVertex</a> *</td>          <td class="paramname"><span class="paramname"><em>fltSamples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9ce24bb46ae695ad2d12f0e4aebe2e41">MR_std_vector_MR_WeightedVertex</a> *</td>          <td class="paramname"><span class="paramname"><em>refSamples</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::ICP::ICP</span>. Parameter <span class="tt">flt</span> can not be null. It is a single object. The reference to the parameter <span class="tt">flt</span> might be preserved in the constructed object. Parameter <span class="tt">ref</span> can not be null. It is a single object. The reference to the parameter <span class="tt">ref</span> might be preserved in the constructed object. Parameter <span class="tt">fltSamples</span> can not be null. It is a single object. The reference to the parameter <span class="tt">fltSamples</span> might be preserved in the constructed object. Parameter <span class="tt">refSamples</span> can not be null. It is a single object. The reference to the parameter <span class="tt">refSamples</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a719d54e4c8831382cf5738706fb26310" title="Destroys a heap-allocated instance of MR_ICP. Does nothing if the pointer is null.">MR_ICP_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1108,6 +1198,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>returns current pairs formed from samples on floating object and projections on reference object Generated from method <span class="tt">MR::ICP::getFlt2RefPairs</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a464280a302d6aac132e58d82e365829b" name="a464280a302d6aac132e58d82e365829b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a464280a302d6aac132e58d82e365829b">&#9670;&#160;</a></span>MR_ICP_getFltSamplesCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_ICP_getFltSamplesCloud </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the samples on floating object in its local space, with normals if the object has them; i-th point of the cloud is the source of i-th pair in getFlt2RefPairs() Generated from method <span class="tt">MR::ICP::getFltSamplesCloud</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRPointCloud_8h.html#ab779f06f061af58a1905e4d5b5e23e20" title="Destroys a heap-allocated instance of MR_PointCloud. Does nothing if the pointer is null.">MR_PointCloud_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1219,6 +1327,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ad5d078f52ade94b8245d8439a6c37c03" name="ad5d078f52ade94b8245d8439a6c37c03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5d078f52ade94b8245d8439a6c37c03">&#9670;&#160;</a></span>MR_ICP_getRefSamplesCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_ICP_getRefSamplesCloud </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the samples on reference object in its local space, with normals if the object has them; i-th point of the cloud is the source of i-th pair in getRef2FltPairs() Generated from method <span class="tt">MR::ICP::getRefSamplesCloud</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRPointCloud_8h.html#ab779f06f061af58a1905e4d5b5e23e20" title="Destroys a heap-allocated instance of MR_PointCloud. Does nothing if the pointer is null.">MR_PointCloud_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
 <a id="a55ad10f8eb289adcefcb6165b3884536" name="a55ad10f8eb289adcefcb6165b3884536"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a55ad10f8eb289adcefcb6165b3884536">&#9670;&#160;</a></span>MR_ICP_getStatusInfo()</h2>
 
@@ -1281,8 +1407,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac09a0f74c012d2c4dfedda53f00fa66a" name="ac09a0f74c012d2c4dfedda53f00fa66a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac09a0f74c012d2c4dfedda53f00fa66a">&#9670;&#160;</a></span>MR_ICP_sampleFltPoints()</h2>
+<a id="a285732e37940b9ef1de14e6c15a8d0b4" name="a285732e37940b9ef1de14e6c15a8d0b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a285732e37940b9ef1de14e6c15a8d0b4">&#9670;&#160;</a></span>MR_ICP_sampleFltPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1295,16 +1421,21 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>nonVertexSamples</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::ICP::sampleFltPoints</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+<p>Generated from method <span class="tt">MR::ICP::sampleFltPoints</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">nonVertexSamples</span> has a default argument: <span class="tt">true</span>, pass a null pointer to use it. </p>
 
 </div>
 </div>
-<a id="a8bc89a966b488e24d75a50a8fe6d8c68" name="a8bc89a966b488e24d75a50a8fe6d8c68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bc89a966b488e24d75a50a8fe6d8c68">&#9670;&#160;</a></span>MR_ICP_samplePoints()</h2>
+<a id="a74877c1998b731f5d0783b5820411552" name="a74877c1998b731f5d0783b5820411552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74877c1998b731f5d0783b5820411552">&#9670;&#160;</a></span>MR_ICP_samplePoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1317,16 +1448,21 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>nonVertexSamples</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>select pairs with origin samples on both objects Generated from method <span class="tt">MR::ICP::samplePoints</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+<p>select pairs with origin samples on both objects Generated from method <span class="tt">MR::ICP::samplePoints</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">nonVertexSamples</span> has a default argument: <span class="tt">true</span>, pass a null pointer to use it. </p>
 
 </div>
 </div>
-<a id="a6c4ed7e0e80b59acf32299a2f9e3973c" name="a6c4ed7e0e80b59acf32299a2f9e3973c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c4ed7e0e80b59acf32299a2f9e3973c">&#9670;&#160;</a></span>MR_ICP_sampleRefPoints()</h2>
+<a id="a3a61f1e37f8ec757fdf337d97adaaaa8" name="a3a61f1e37f8ec757fdf337d97adaaaa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a61f1e37f8ec757fdf337d97adaaaa8">&#9670;&#160;</a></span>MR_ICP_sampleRefPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1339,11 +1475,16 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>nonVertexSamples</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::ICP::sampleRefPoints</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+<p>Generated from method <span class="tt">MR::ICP::sampleRefPoints</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">nonVertexSamples</span> has a default argument: <span class="tt">true</span>, pass a null pointer to use it. </p>
 
 </div>
 </div>
@@ -1475,7 +1616,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>select pairs with origin samples on floating object Generated from method <span class="tt">MR::ICP::setFltSamples</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">fltSamples</span> can not be null. It is a single object. </p>
+<p>select pairs with origin samples on floating object; setFltSamples weights each pair by the double area of mesh triangles around its sample vertex, sampleFltPoints performs grid sampling and gives all pairs equal weights; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nonVertexSamples</td><td>if true, a mesh with triangles too big for the sampling is sampled from its dense point cloud (see meshToDensePointCloud) to get the samples inside the triangles and on the edges as well; otherwise only its vertices are sampled Generated from method <span class="tt">MR::ICP::setFltSamples</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">fltSamples</span> can not be null. It is a single object. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1519,7 +1665,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>select pairs with origin samples on reference object Generated from method <span class="tt">MR::ICP::setRefSamples</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">refSamples</span> can not be null. It is a single object. </p>
+<p>select pairs with origin samples on reference object, weighted and sampled the same way as for floating object Generated from method <span class="tt">MR::ICP::setRefSamples</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">refSamples</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -2138,8 +2284,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2011b632855faeff4e6588dbca2c9b47" name="a2011b632855faeff4e6588dbca2c9b47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2011b632855faeff4e6588dbca2c9b47">&#9670;&#160;</a></span>MR_ICPProperties_ConstructFrom()</h2>
+<a id="aefadb64d3066b936e9b7b911aaaa6068" name="aefadb64d3066b936e9b7b911aaaa6068"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefadb64d3066b936e9b7b911aaaa6068">&#9670;&#160;</a></span>MR_ICPProperties_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2158,6 +2304,11 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>p2plScaleLimit</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>p2plStabilizer</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2541,6 +2692,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7aed0f2c2462991397905ffa38a4ae8d" name="a7aed0f2c2462991397905ffa38a4ae8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aed0f2c2462991397905ffa38a4ae8d">&#9670;&#160;</a></span>MR_ICPProperties_Get_p2plStabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_ICPProperties_Get_p2plStabilizer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Relative regularization of the linear system in ICPMethod::PointToPlane, see PointToPlaneAligningTransform::setStabilizer. This is to avoid huge motions along the directions poorly constrained by the planes, e.g. sliding along parallel faces of a CAD model. Returns a pointer to a member variable of class <span class="tt">MR::ICPProperties</span> named <span class="tt">p2plStabilizer</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="adf6f92ab7e645e857af0c9e9f864fecc" name="adf6f92ab7e645e857af0c9e9f864fecc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adf6f92ab7e645e857af0c9e9f864fecc">&#9670;&#160;</a></span>MR_ICPProperties_GetMutable_badIterStopCount()</h2>
 
@@ -2772,6 +2941,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Scaling during one iteration of ICPMethod::PointToPlane will be limited by this value. This is to reduce possible instability. Returns a mutable pointer to a member variable of class <span class="tt">MR::ICPProperties</span> named <span class="tt">p2plScaleLimit</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="aa41c965ae57865e9733be8afe690bb9b" name="aa41c965ae57865e9733be8afe690bb9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa41c965ae57865e9733be8afe690bb9b">&#9670;&#160;</a></span>MR_ICPProperties_GetMutable_p2plStabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_ICPProperties_GetMutable_p2plStabilizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Relative regularization of the linear system in ICPMethod::PointToPlane, see PointToPlaneAligningTransform::setStabilizer. This is to avoid huge motions along the directions poorly constrained by the planes, e.g. sliding along parallel faces of a CAD model. Returns a mutable pointer to a member variable of class <span class="tt">MR::ICPProperties</span> named <span class="tt">p2plStabilizer</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -3102,6 +3289,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Scaling during one iteration of ICPMethod::PointToPlane will be limited by this value. This is to reduce possible instability. Modifies a member variable of class <span class="tt">MR::ICPProperties</span> named <span class="tt">p2plScaleLimit</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">p2plScaleLimit</span>. </p>
+
+</div>
+</div>
+<a id="aeaa999fbffbabf1485db796657a8bd4e" name="aeaa999fbffbabf1485db796657a8bd4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaa999fbffbabf1485db796657a8bd4e">&#9670;&#160;</a></span>MR_ICPProperties_Set_p2plStabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ICPProperties_Set_p2plStabilizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Relative regularization of the linear system in ICPMethod::PointToPlane, see PointToPlaneAligningTransform::setStabilizer. This is to avoid huge motions along the directions poorly constrained by the planes, e.g. sliding along parallel faces of a CAD model. Modifies a member variable of class <span class="tt">MR::ICPProperties</span> named <span class="tt">p2plStabilizer</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">p2plStabilizer</span>. </p>
 
 </div>
 </div>
@@ -3825,7 +4034,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>id of the source point Returns a pointer to a member variable of class <span class="tt">MR::PointPair</span> named <span class="tt">srcVertId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>id of the source point: a vertex of the source object, or a point of the denser cloud in case of grid sampling of a mesh with big triangles (see ICP::sampleFltPoints) Returns a pointer to a member variable of class <span class="tt">MR::PointPair</span> named <span class="tt">srcVertId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -4005,7 +4214,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>id of the source point Returns a mutable pointer to a member variable of class <span class="tt">MR::PointPair</span> named <span class="tt">srcVertId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>id of the source point: a vertex of the source object, or a point of the denser cloud in case of grid sampling of a mesh with big triangles (see ICP::sampleFltPoints) Returns a mutable pointer to a member variable of class <span class="tt">MR::PointPair</span> named <span class="tt">srcVertId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -4285,7 +4494,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>id of the source point Modifies a member variable of class <span class="tt">MR::PointPair</span> named <span class="tt">srcVertId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">srcVertId</span>. When this function is called, this object will drop object references it held previously in <span class="tt">srcVertId</span>. </p>
+<p>id of the source point: a vertex of the source object, or a point of the denser cloud in case of grid sampling of a mesh with big triangles (see ICP::sampleFltPoints) Modifies a member variable of class <span class="tt">MR::PointPair</span> named <span class="tt">srcVertId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">srcVertId</span>. When this function is called, this object will drop object references it held previously in <span class="tt">srcVertId</span>. </p>
 
 </div>
 </div>
@@ -4976,7 +5185,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>in each pair updates the target data and performs basic filtering (activation) Generated from function <span class="tt">MR::updatePointPairs</span>. Parameter <span class="tt">pairs</span> can not be null. It is a single object. Parameter <span class="tt">src</span> can not be null. It is a single object. Parameter <span class="tt">tgt</span> can not be null. It is a single object. </p>
+<p>in each pair updates the target data and performs basic filtering (activation); pair weights are not changed Generated from function <span class="tt">MR::updatePointPairs</span>. Parameter <span class="tt">pairs</span> can not be null. It is a single object. Parameter <span class="tt">src</span> can not be null. It is a single object. Parameter <span class="tt">tgt</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

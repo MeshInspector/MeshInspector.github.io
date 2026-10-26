@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -186,7 +179,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a894f7dc4b35dcec2649e3e65ee09ecbe" id="r_a894f7dc4b35dcec2649e3e65ee09ecbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a894f7dc4b35dcec2649e3e65ee09ecbe">MR_SurfaceDistanceBuilder_DestroyArray</a> (const <a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
 <tr class="memdesc:a894f7dc4b35dcec2649e3e65ee09ecbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:ab58cf65f768a2d4960105f48fc269e71" id="r_ab58cf65f768a2d4960105f48fc269e71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab58cf65f768a2d4960105f48fc269e71">MR_SurfaceDistanceBuilder_addStartRegion</a> (<a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, float startDistance)</td></tr>
-<tr class="memitem:a53e0522c371c5a5e806c57070cc8dad4" id="r_a53e0522c371c5a5e806c57070cc8dad4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53e0522c371c5a5e806c57070cc8dad4">MR_SurfaceDistanceBuilder_addStartVertices</a> (<a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this, const <a class="el" href="MRSurfaceDistance_8h.html#ae608d193970b2c92c351593c86ca1075">MR_phmap_flat_hash_map_MR_VertId_float</a> *startVertices)</td></tr>
+<tr class="memitem:aefd3cb7abf15c35f81889c11b0b26f33" id="r_aefd3cb7abf15c35f81889c11b0b26f33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefd3cb7abf15c35f81889c11b0b26f33">MR_SurfaceDistanceBuilder_addStartVertices</a> (<a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this, const <a class="el" href="MRSurfaceDistance_8h.html#a4e7e1b344ce8209efb2592e3a579eb6e">MR_phmap_flat_hash_map_MR_VertId_float_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_float</a> *startVertices)</td></tr>
 <tr class="memitem:a715f015deeb1227fe9733fb9a1e17bcd" id="r_a715f015deeb1227fe9733fb9a1e17bcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a715f015deeb1227fe9733fb9a1e17bcd">MR_SurfaceDistanceBuilder_addStart</a> (<a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start)</td></tr>
 <tr class="memitem:a5a369594526fe4bc6cf192edab1d8d02" id="r_a5a369594526fe4bc6cf192edab1d8d02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a369594526fe4bc6cf192edab1d8d02">MR_SurfaceDistanceBuilder_setMaxVertUpdates</a> (<a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this, int v)</td></tr>
 <tr class="memitem:a0ec70674d6412513e8008d61c284c453" id="r_a0ec70674d6412513e8008d61c284c453"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ec70674d6412513e8008d61c284c453">MR_SurfaceDistanceBuilder_growOne</a> (<a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
@@ -330,8 +323,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a53e0522c371c5a5e806c57070cc8dad4" name="a53e0522c371c5a5e806c57070cc8dad4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53e0522c371c5a5e806c57070cc8dad4">&#9670;&#160;</a></span>MR_SurfaceDistanceBuilder_addStartVertices()</h2>
+<a id="aefd3cb7abf15c35f81889c11b0b26f33" name="aefd3cb7abf15c35f81889c11b0b26f33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefd3cb7abf15c35f81889c11b0b26f33">&#9670;&#160;</a></span>MR_SurfaceDistanceBuilder_addStartVertices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,7 +337,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRSurfaceDistance_8h.html#ae608d193970b2c92c351593c86ca1075">MR_phmap_flat_hash_map_MR_VertId_float</a> *</td>          <td class="paramname"><span class="paramname"><em>startVertices</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRSurfaceDistance_8h.html#a4e7e1b344ce8209efb2592e3a579eb6e">MR_phmap_flat_hash_map_MR_VertId_float_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_float</a> *</td>          <td class="paramname"><span class="paramname"><em>startVertices</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

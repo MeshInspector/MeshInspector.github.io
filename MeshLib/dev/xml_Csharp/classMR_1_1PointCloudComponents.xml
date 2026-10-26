@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="11" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="11" bodyend="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="11" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="11" bodyend="17"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointCloudComponents_1a368b4ead29d78bdf527d671e915eccd7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="28" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="28" bodyend="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="26" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="26" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointCloudComponents_1ada114e57923aa192a6b6f3dd000869f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVertBitSet</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="44" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="44" bodyend="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="40" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="40" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointCloudComponents_1a0aad6b6dc68fdbaaaa1289209eab9eb3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Pair_StdVectorMRVertBitSet_Int</type>
@@ -201,7 +201,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="64" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="64" bodyend="73"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="58" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="58" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointCloudComponents_1a48f7c951673ea78cc1a80874e021786a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1UnionFind__MRVertId" kindref="compound">MR.UnionFind_MRVertId</ref></type>
@@ -252,15 +252,192 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="80" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="80" bodyend="88"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="72" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="72" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1PointCloudComponents_1a31a43506a384b0f16f3ee66317882d61" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_StdPairStdVectorMRVertBitSetInt_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_StdPairStdVectorMRVertBitSetInt_StdString._Underlying * MR.PointCloudComponents.__MR_PointCloudComponents_getAllComponents</definition>
+        <argsstring>(MR.Const_PointCloud._Underlying *pointCloud, float maxDist, int *maxComponentCount, MR.Misc._PassBy pc_pass_by, MR.Std.Function_Bool_From_Float._Underlying *pc)</argsstring>
+        <name>__MR_PointCloudComponents_getAllComponents</name>
+        <qualifiedname>MR.PointCloudComponents.__MR_PointCloudComponents_getAllComponents</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud._Underlying *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>maxComponentCount</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>pc_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="83" column="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointCloudComponents_1ab44f924362bd46addba72a5b08d4938d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_StdVectorMRVertBitSet_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_StdVectorMRVertBitSet_StdString._Underlying * MR.PointCloudComponents.__MR_PointCloudComponents_getLargeComponents</definition>
+        <argsstring>(MR.Const_PointCloud._Underlying *pointCloud, float maxDist, int minSize, MR.Misc._PassBy pc_pass_by, MR.Std.Function_Bool_From_Float._Underlying *pc)</argsstring>
+        <name>__MR_PointCloudComponents_getLargeComponents</name>
+        <qualifiedname>MR.PointCloudComponents.__MR_PointCloudComponents_getLargeComponents</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud._Underlying *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>pc_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="86" column="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointCloudComponents_1a344cd842c43fca72f2ab1d1b1f81179f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRVertBitSet_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRVertBitSet_StdString._Underlying * MR.PointCloudComponents.__MR_PointCloudComponents_getLargeComponentsUnion_MR_PointCloud</definition>
+        <argsstring>(MR.Const_PointCloud._Underlying *pointCloud, float maxDist, int minSize, MR.Misc._PassBy pc_pass_by, MR.Std.Function_Bool_From_Float._Underlying *pc)</argsstring>
+        <name>__MR_PointCloudComponents_getLargeComponentsUnion_MR_PointCloud</name>
+        <qualifiedname>MR.PointCloudComponents.__MR_PointCloudComponents_getLargeComponentsUnion_MR_PointCloud</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud._Underlying *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>pc_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="89" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointCloudComponents_1a2832b76a3b2edc5a0f79f9153b25ac28" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRVertBitSet_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRVertBitSet_StdString._Underlying * MR.PointCloudComponents.__MR_PointCloudComponents_getLargeComponentsUnion_MR_UnionFind_MR_VertId</definition>
+        <argsstring>(MR.UnionFind_MRVertId._Underlying *unionStructs, MR.Const_VertBitSet._Underlying *region, int minSize, MR.Misc._PassBy pc_pass_by, MR.Std.Function_Bool_From_Float._Underlying *pc)</argsstring>
+        <name>__MR_PointCloudComponents_getLargeComponentsUnion_MR_UnionFind_MR_VertId</name>
+        <qualifiedname>MR.PointCloudComponents.__MR_PointCloudComponents_getLargeComponentsUnion_MR_UnionFind_MR_VertId</qualifiedname>
+        <param>
+          <type>MR.UnionFind_MRVertId._Underlying *</type>
+          <declname>unionStructs</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet._Underlying *</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>pc_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="92" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointCloudComponents_1a75464ab0a3fbeaa94f94549e1bb09420" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRUnionFindMRVertId_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRUnionFindMRVertId_StdString._Underlying * MR.PointCloudComponents.__MR_PointCloudComponents_getUnionFindStructureVerts</definition>
+        <argsstring>(MR.Const_PointCloud._Underlying *pointCloud, float maxDist, MR.Const_VertBitSet._Underlying *region, MR.Misc._PassBy pc_pass_by, MR.Std.Function_Bool_From_Float._Underlying *pc)</argsstring>
+        <name>__MR_PointCloudComponents_getUnionFindStructureVerts</name>
+        <qualifiedname>MR.PointCloudComponents.__MR_PointCloudComponents_getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud._Underlying *</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet._Underlying *</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>pc_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
+          <declname>pc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="95" column="82"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="4" bodyend="89"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="4" bodyend="96"/>
     <listofallmembers>
+      <member refid="classMR_1_1PointCloudComponents_1a31a43506a384b0f16f3ee66317882d61" prot="private" virt="non-virtual"><scope>MR::PointCloudComponents</scope><name>__MR_PointCloudComponents_getAllComponents</name></member>
+      <member refid="classMR_1_1PointCloudComponents_1ab44f924362bd46addba72a5b08d4938d" prot="private" virt="non-virtual"><scope>MR::PointCloudComponents</scope><name>__MR_PointCloudComponents_getLargeComponents</name></member>
+      <member refid="classMR_1_1PointCloudComponents_1a344cd842c43fca72f2ab1d1b1f81179f" prot="private" virt="non-virtual"><scope>MR::PointCloudComponents</scope><name>__MR_PointCloudComponents_getLargeComponentsUnion_MR_PointCloud</name></member>
+      <member refid="classMR_1_1PointCloudComponents_1a2832b76a3b2edc5a0f79f9153b25ac28" prot="private" virt="non-virtual"><scope>MR::PointCloudComponents</scope><name>__MR_PointCloudComponents_getLargeComponentsUnion_MR_UnionFind_MR_VertId</name></member>
+      <member refid="classMR_1_1PointCloudComponents_1a75464ab0a3fbeaa94f94549e1bb09420" prot="private" virt="non-virtual"><scope>MR::PointCloudComponents</scope><name>__MR_PointCloudComponents_getUnionFindStructureVerts</name></member>
       <member refid="classMR_1_1PointCloudComponents_1a0aad6b6dc68fdbaaaa1289209eab9eb3" prot="public" virt="non-virtual"><scope>MR::PointCloudComponents</scope><name>getAllComponents</name></member>
       <member refid="classMR_1_1PointCloudComponents_1ada114e57923aa192a6b6f3dd000869f1" prot="public" virt="non-virtual"><scope>MR::PointCloudComponents</scope><name>getLargeComponents</name></member>
       <member refid="classMR_1_1PointCloudComponents_1a84852e005f61fbff7f311ebc724b1b85" prot="public" virt="non-virtual"><scope>MR::PointCloudComponents</scope><name>getLargeComponentsUnion</name></member>

@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47658" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47658" bodyend="47659"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89326" bodyend="89327"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsProjector_1aee1c60fccd39b50b6999f02fce775da3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PointsProjector" kindref="compound">PointsProjector</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47662" bodyend="47663"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89330" bodyend="89331"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsProjector_1aee1c60fccd39b50b6999f02fce775da3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PointsProjector" kindref="compound">PointsProjector</ref></type>
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47666" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47666" bodyend="47667"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89334" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89334" bodyend="89335"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47669" bodyend="47670"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89337" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89337" bodyend="89338"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsProjector_1a77086b11972ae7a15d95d931e7083143" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -114,15 +114,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47672" bodyend="47675"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89340" bodyend="89343"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1PointsProjector_1af6a72bb3f39a828aea1904803d3c4160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsProjector_1a66d3ec2b1b64a5412f405407094ea078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.PointsProjector.findProjections</definition>
-        <argsstring>(self, std_vector_PointsProjectionResult results, std_vector_Vector3_float points, FindProjectionOnPointsSettings settings)</argsstring>
+        <argsstring>(self, std_vector_PointsProjectionResult results, VertCoords points, FindProjectionOnPointsSettings settings)</argsstring>
         <name>findProjections</name>
         <qualifiedname>mrmeshpy.PointsProjector.findProjections</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1IPointsProjector_1afa2c9b10c80adcfb5b8c46413cc05cf1">findProjections</reimplements>
+        <reimplements refid="classmrmeshpy_1_1IPointsProjector_1a8679cd3a78ac779052ccb81c62abc9c8">findProjections</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -132,7 +132,7 @@
           <declname>results</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47676" bodyend="47679"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89344" bodyend="89347"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsProjector_1ab198042c549452e08b3c932983a57c40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47680" bodyend="47683"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89348" bodyend="89351"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsProjector_1ad7f2ecd90b73bc4336ba80fdae720af3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47684" bodyend="47687"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89352" bodyend="89355"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -232,12 +232,12 @@ default implementation of IPointsProjector
         <link refid="classmrmeshpy_1_1IPointsProjector"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="47650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="47650" bodyend="47687"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89318" bodyend="89355"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PointsProjector_1ae584d487ebc897c56ab61175bae351d5" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjector</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PointsProjector_1a85ee0edf4bf96dd07748942a997a7e68" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjector</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PointsProjector_1a77086b11972ae7a15d95d931e7083143" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjector</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1PointsProjector_1af6a72bb3f39a828aea1904803d3c4160" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjector</scope><name>findProjections</name></member>
+      <member refid="classmrmeshpy_1_1PointsProjector_1a66d3ec2b1b64a5412f405407094ea078" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjector</scope><name>findProjections</name></member>
       <member refid="classmrmeshpy_1_1PointsProjector_1aee1c60fccd39b50b6999f02fce775da3" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjector</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1PointsProjector_1aee1c60fccd39b50b6999f02fce775da3" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjector</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1PointsProjector_1ab198042c549452e08b3c932983a57c40" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsProjector</scope><name>projectionsHeapBytes</name></member>

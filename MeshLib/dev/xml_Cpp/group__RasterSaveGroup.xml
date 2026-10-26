@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="group__RasterSaveGroup" kind="group">
+    <compoundname>RasterSaveGroup</compoundname>
+    <title>Raster Save</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__RasterSaveGroup_1gabfae0555a373861a3218bc93db65a2e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::RasterSave::toAnySupportedFormat</definition>
+        <argsstring>(const Raster &amp;raster, const std::filesystem::path &amp;path, const RasterSaveSettings &amp;settings={})</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>MR::RasterSave::toAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const Raster &amp;</type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const RasterSaveSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and saves the raster in it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRasterSave.h" line="20" column="11" declfile="MRMesh/MRRasterSave.h" declline="20" declcolumn="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

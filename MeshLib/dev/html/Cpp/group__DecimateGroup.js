@@ -21,9 +21,12 @@ var group__DecimateGroup =
       [ "optimizeVertexPos", "structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07", null ],
       [ "packMesh", "structMR_1_1DecimateSettings.html#a320a08e8abf402aa6a0dae956ad9be0e", null ],
       [ "partFaces", "structMR_1_1DecimateSettings.html#a7d69e19f2609b7330c6ac5d17a9ebfff", null ],
+      [ "partsMode", "structMR_1_1DecimateSettings.html#a5c45e6bbbd754a83383dc12b0564c009", null ],
       [ "preCollapse", "structMR_1_1DecimateSettings.html#a5901e72dc3fd85459f38318a894afbbd", null ],
+      [ "preventNormalFlips", "structMR_1_1DecimateSettings.html#a83cf18a566f0fa10cc6421ddcc2487e6", null ],
       [ "progressCallback", "structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de", null ],
       [ "region", "structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644", null ],
+      [ "regionEdges", "structMR_1_1DecimateSettings.html#a6d86579d9da2f3a27a05bd02a9c8af2c", null ],
       [ "stabilizer", "structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa", null ],
       [ "strategy", "structMR_1_1DecimateSettings.html#a7b024d2a905ecd6515a263ec20d35dc6", null ],
       [ "subdivideParts", "structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4", null ],
@@ -77,6 +80,10 @@ var group__DecimateGroup =
       [ "stabilizer", "group__GeneralGroup.html#ga68c78013b24475c60475093e77bbdeff", null ],
       [ "touchBdVertices", "group__GeneralGroup.html#gaf5825891f4645db66db82c3b6aa2cffe", null ],
       [ "vertForms", "group__GeneralGroup.html#ga3b25e672e4446e2af56927c0cf0237db", null ]
+    ] ],
+    [ "MR::DecimatePartsMode", "group__DecimateGroup.html#gaed99d2728682c43807db96f18bb16d35", [
+      [ "MR::DecimatePartsMode::PackedMesh", "group__DecimateGroup.html#ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b", null ],
+      [ "MR::DecimatePartsMode::AABBTree", "group__DecimateGroup.html#ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8", null ]
     ] ],
     [ "MR::DecimateStrategy", "group__DecimateGroup.html#ga216960c15f7b00558ab28053967a9615", [
       [ "MR::MinimizeError", "group__DecimateGroup.html#gga216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098", null ],

@@ -8,7 +8,7 @@ var structMR_1_1Vector2 =
     [ "Vector2", "structMR_1_1Vector2.html#a9c5f2b992789dba5c6d4e8e80ed28fa0", null ],
     [ "isFinite", "structMR_1_1Vector2.html#afc633e58b9b5cc5e5b4153442fa9bfd3", null ],
     [ "length", "structMR_1_1Vector2.html#aa17da7f932edf77c0804eef8416b44bb", null ],
-    [ "lengthSq", "structMR_1_1Vector2.html#ad798818540cd3ad9d2c98a4f978f8e5c", null ],
+    [ "lengthSq", "structMR_1_1Vector2.html#a65dcc8114a942bdb79fa724e727211e0", null ],
     [ "MR_REQUIRES_IF_SUPPORTED", "structMR_1_1Vector2.html#a8fc9699488aa3c7c5bde2d2b046e9f0c", null ],
     [ "MR_REQUIRES_IF_SUPPORTED", "structMR_1_1Vector2.html#aa88507c09ad0236f834d9ffb29ef6de6", null ],
     [ "normalized", "structMR_1_1Vector2.html#a6bf0beb2bf7fd40b84edbd2256ada3da", null ],
@@ -18,7 +18,7 @@ var structMR_1_1Vector2 =
     [ "angle", "structMR_1_1Vector2.html#af97f888d41c35987fa2e24cfdf696621", null ],
     [ "begin", "structMR_1_1Vector2.html#a6ff45773ec0657ef8d168ab6b82400d2", null ],
     [ "begin", "structMR_1_1Vector2.html#a1d6b8b54858c91277b9c4999e6350855", null ],
-    [ "cross", "structMR_1_1Vector2.html#a07bafe90fc0230d0cef79991e7858dff", null ],
+    [ "cross", "structMR_1_1Vector2.html#a3e532c0fca60fc9935f8394188cc2f28", null ],
     [ "distance", "structMR_1_1Vector2.html#a847fe803c44c19055d0a15eca838df52", null ],
     [ "distanceSq", "structMR_1_1Vector2.html#a7be48c5d4180d89d8038acede661911e", null ],
     [ "div", "structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d", null ],
@@ -41,7 +41,7 @@ var structMR_1_1Vector2 =
     [ "operator<<", "structMR_1_1Vector2.html#af814c81714572ce6bb89483f32d274f1", null ],
     [ "operator==", "structMR_1_1Vector2.html#a6deeb9fc80b0d29ccbfa306b2aa4a33b", null ],
     [ "operator>>", "structMR_1_1Vector2.html#a5dfc5e9acce45ac36a78ba8a1115af3a", null ],
-    [ "sqr", "structMR_1_1Vector2.html#a9d7aee9b382101cb77cc426a34791517", null ],
+    [ "sqr", "structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d", null ],
     [ "x", "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c", null ],
     [ "y", "structMR_1_1Vector2.html#a5186451c51a4f421a0b810a3f836fae8", null ]
 ];

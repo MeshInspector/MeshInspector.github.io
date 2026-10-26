@@ -25,24 +25,40 @@
         <childnode refid="31" relation="include">
         </childnode>
       </node>
-      <node id="36">
+      <node id="42">
+        <label>MRAllocator.h</label>
+        <link refid="MRAllocator_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
         <childnode refid="32" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
         <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
       <node id="10">
@@ -51,16 +67,30 @@
         <childnode refid="9" relation="include">
         </childnode>
       </node>
+      <node id="48">
+        <label>MRCloudPartMapping.h</label>
+        <link refid="MRCloudPartMapping_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
       <node id="25">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="42">
+      <node id="53">
+        <label>MREdgePoint.h</label>
+        <link refid="MREdgePoint_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
         <label>MRGridSampling.h</label>
         <link refid="MRGridSampling_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="55" relation="include">
         </childnode>
         <childnode refid="32" relation="include">
         </childnode>
@@ -68,7 +98,7 @@
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -80,6 +110,8 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
         <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="32" relation="include">
@@ -88,9 +120,13 @@
         </childnode>
         <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
         </childnode>
         <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -176,6 +212,8 @@
         </childnode>
         <childnode refid="35" relation="include">
         </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
       </node>
       <node id="6">
         <label>MRMeshPart.h</label>
@@ -183,12 +221,38 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
+      <node id="49">
+        <label>MRMeshTriPoint.h</label>
+        <link refid="MRMeshTriPoint_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRMesh/MRMultiwayICP.h</label>
         <link refid="MRMultiwayICP_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="54" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MRPointCloud.h</label>
+        <link refid="MRPointCloud_8h"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
         </childnode>
       </node>
       <node id="18">
@@ -197,7 +261,7 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="43">
+      <node id="55">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="7" relation="include">
@@ -208,7 +272,7 @@
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
@@ -221,6 +285,38 @@
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>MRSegmPoint.h</label>
+        <link refid="MRSegmPoint_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>MRSharedThreadSafeOwner.h</label>
+        <link refid="MRSharedThreadSafeOwner_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MRTriPoint.h</label>
+        <link refid="MRTriPoint_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
       <node id="22">
@@ -276,7 +372,7 @@
       <node id="3">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="37">
+      <node id="44">
         <label>MRphmap.h</label>
       </node>
       <node id="26">
@@ -284,6 +380,9 @@
       </node>
       <node id="11">
         <label>array</label>
+      </node>
+      <node id="45">
+        <label>atomic</label>
       </node>
       <node id="17">
         <label>cassert</label>
@@ -312,10 +411,19 @@
       <node id="29">
         <label>iosfwd</label>
       </node>
-      <node id="41">
+      <node id="46">
         <label>iterator</label>
       </node>
+      <node id="52">
+        <label>limits</label>
+      </node>
       <node id="34">
+        <label>memory</label>
+      </node>
+      <node id="43">
+        <label>mimalloc.h</label>
+      </node>
+      <node id="35">
         <label>optional</label>
       </node>
       <node id="14">
@@ -324,7 +432,7 @@
       <node id="13">
         <label>string</label>
       </node>
-      <node id="44">
+      <node id="56">
         <label>tuple</label>
       </node>
       <node id="24">
@@ -333,7 +441,7 @@
       <node id="30">
         <label>utility</label>
       </node>
-      <node id="35">
+      <node id="36">
         <label>variant</label>
       </node>
       <node id="12">
@@ -419,13 +527,13 @@
 <codeline lineno="90"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="91" refid="group__GeneralGroup_1ga2f6e378c35aa8f425461ad03c089cfc3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga2f6e378c35aa8f425461ad03c089cfc3" kindref="member">MultiwayICP</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacc39cd0582abbbb48612bd904fe74210" kindref="member">ICPObjects</ref>&amp;<sp/>objects,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref>&amp;<sp/>samplingParams<sp/>);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="group__GeneralGroup_1ga90092df2895892ddbf0a59ca246a2d17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;AffineXf3f, ObjId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga90092df2895892ddbf0a59ca246a2d17" kindref="member">calculateTransformations</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="96" refid="group__GeneralGroup_1ga90092df2895892ddbf0a59ca246a2d17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;AffineXf3f, ObjId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga90092df2895892ddbf0a59ca246a2d17" kindref="member">calculateTransformations</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kindref="member">cb</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="group__GeneralGroup_1ga035f430685fd818c36a92a7c113cf528" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;AffineXf3f, ObjId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga035f430685fd818c36a92a7c113cf528" kindref="member">calculateTransformationsFixFirst</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="101" refid="group__GeneralGroup_1ga035f430685fd818c36a92a7c113cf528" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;AffineXf3f, ObjId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga035f430685fd818c36a92a7c113cf528" kindref="member">calculateTransformationsFixFirst</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kindref="member">cb</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
 <codeline lineno="104" refid="group__GeneralGroup_1ga7f8fba636970f99be8a47d033f23fb4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7f8fba636970f99be8a47d033f23fb4c" kindref="member">resamplePoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref>&amp;<sp/>samplingParams<sp/>);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="group__GeneralGroup_1gad85e289a1348d63836e08165f570c776" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad85e289a1348d63836e08165f570c776" kindref="member">updateAllPointPairs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="108" refid="group__GeneralGroup_1gad85e289a1348d63836e08165f570c776" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad85e289a1348d63836e08165f570c776" kindref="member">updateAllPointPairs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kindref="member">cb</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
 <codeline lineno="111" refid="group__GeneralGroup_1gafa420b3638e8c4e0b5ac70acb575a741" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafa420b3638e8c4e0b5ac70acb575a741" kindref="member">setParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref>&amp;<sp/>prop<sp/>)<sp/>{<sp/>prop_<sp/>=<sp/>prop;<sp/>}</highlight></codeline>
 <codeline lineno="112" refid="group__GeneralGroup_1ga1df773567dfe9ebaffb468a5e35325fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ICPProperties" kindref="compound">ICPProperties</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga1df773567dfe9ebaffb468a5e35325fe" kindref="member">getParams</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>prop_;<sp/>}</highlight></codeline>

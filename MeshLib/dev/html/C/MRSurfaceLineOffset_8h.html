@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -208,8 +201,8 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>resulting offset contours or error if something goes wrong</dd></dl>
-<p>Generated from function <span class="tt">MR::offsetSurfaceLine</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">surfaceLine</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__std__vector__std__vector__MR__Vector3f__std__string_8h.html#a6d124afece0aaf292ae595f1fefd51b2" title="Destroys a heap-allocated instance of MR_expected_std_vector_std_vector_MR_Vector3f_std_string....">MR_expected_std_vector_std_vector_MR_Vector3f_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+<dl class="section return"><dt>Returns</dt><dd>resulting offset contours or error if something goes wrong; a contour that reaches the mesh boundary is open: its first and last points are on the boundary and differ</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>offsetSurfaceLineToMeshContours to also get the mesh primitive of every contour point Generated from function <span class="tt">MR::offsetSurfaceLine</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">surfaceLine</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__std__vector__std__vector__MR__Vector3f__std__string_8h.html#a6d124afece0aaf292ae595f1fefd51b2" title="Destroys a heap-allocated instance of MR_expected_std_vector_std_vector_MR_Vector3f_std_string....">MR_expected_std_vector_std_vector_MR_Vector3f_std_string_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -246,8 +239,8 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>resulting offset contours or error if something goes wrong</dd></dl>
-<p>Generated from function <span class="tt">MR::offsetSurfaceLine</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">surfaceLine</span> can not be null. It is a single object. Parameter <span class="tt">offsetAtPoint</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__std__vector__std__vector__MR__Vector3f__std__string_8h.html#a6d124afece0aaf292ae595f1fefd51b2" title="Destroys a heap-allocated instance of MR_expected_std_vector_std_vector_MR_Vector3f_std_string....">MR_expected_std_vector_std_vector_MR_Vector3f_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+<dl class="section return"><dt>Returns</dt><dd>resulting offset contours or error if something goes wrong; a contour that reaches the mesh boundary is open: its first and last points are on the boundary and differ</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>offsetSurfaceLineToMeshContours to also get the mesh primitive of every contour point Generated from function <span class="tt">MR::offsetSurfaceLine</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">surfaceLine</span> can not be null. It is a single object. Parameter <span class="tt">offsetAtPoint</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__std__vector__std__vector__MR__Vector3f__std__string_8h.html#a6d124afece0aaf292ae595f1fefd51b2" title="Destroys a heap-allocated instance of MR_expected_std_vector_std_vector_MR_Vector3f_std_string....">MR_expected_std_vector_std_vector_MR_Vector3f_std_string_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>

@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RasterLoadSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RasterLoadSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RasterLoadSettings_1a11fa99dd64937886ce2b8a8642c8c267" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RasterLoadSettings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.RasterLoadSettings._offsetof_progress</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RasterLoadSettings_1a06fc1e46b8f4b3a17f7ccb724122b351" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RasterLoadSettings::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.RasterLoadSettings._offsetof_xf</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42183" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1aae65b3470d673f4de2dcb8a9c4ff7733" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterLoadSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RasterLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42186" bodyend="42187"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1a26e5f87e3c53100eff35971020ed37a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RasterLoadSettings" kindref="compound">RasterLoadSettings</ref></type>
+        <definition> RasterLoadSettings mrmeshpy.RasterLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RasterLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42190" bodyend="42191"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1a26e5f87e3c53100eff35971020ed37a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RasterLoadSettings" kindref="compound">RasterLoadSettings</ref></type>
+        <definition> RasterLoadSettings mrmeshpy.RasterLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RasterLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42194" bodyend="42195"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1ae3712bdbc49fe5255af05b6a8cceb529" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterLoadSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RasterLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42197" bodyend="42198"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1a5863b66276a91c30489a75bcc700f557" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterLoadSettings.__init__</definition>
+        <argsstring>(self, RasterLoadSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RasterLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RasterLoadSettings" kindref="compound">RasterLoadSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42200" bodyend="42203"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1a9cb30a53ec05c600bacb9817fc46272a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterLoadSettings.__init__</definition>
+        <argsstring>(self, AffineXf3f xf, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RasterLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42205" bodyend="42208"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1a771ff5b403a4590121d6a77f04d9ed8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.RasterLoadSettings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.RasterLoadSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>to report load progress and cancel loading if user desires
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42210" bodyend="42213"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1aa7d0d51a6b5ba160167f53b92ecb7cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterLoadSettings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.RasterLoadSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42215" bodyend="42216"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1a99328b0b3a144acea9c00bda5e051197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.RasterLoadSettings.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.RasterLoadSettings.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF),
+otherwise the identity; (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42218" bodyend="42222"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1aaf3a84a878ee3b212aadd53246c49487" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterLoadSettings.xf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.RasterLoadSettings.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42224" bodyend="42225"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RasterLoadSettings
+
+settings for loading rasters from external formats
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42176" bodyend="42225"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RasterLoadSettings_1aae65b3470d673f4de2dcb8a9c4ff7733" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoadSettings_1ae3712bdbc49fe5255af05b6a8cceb529" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoadSettings_1a5863b66276a91c30489a75bcc700f557" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoadSettings_1a9cb30a53ec05c600bacb9817fc46272a" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoadSettings_1a11fa99dd64937886ce2b8a8642c8c267" prot="protected" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoadSettings_1a06fc1e46b8f4b3a17f7ccb724122b351" prot="protected" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoadSettings_1a26e5f87e3c53100eff35971020ed37a8" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoadSettings_1a26e5f87e3c53100eff35971020ed37a8" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoadSettings_1a771ff5b403a4590121d6a77f04d9ed8b" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoadSettings_1aa7d0d51a6b5ba160167f53b92ecb7cc5" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoadSettings_1a99328b0b3a144acea9c00bda5e051197" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoadSettings_1aaf3a84a878ee3b212aadd53246c49487" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

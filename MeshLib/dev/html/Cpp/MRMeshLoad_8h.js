@@ -2,8 +2,6 @@ var MRMeshLoad_8h =
 [
     [ "MR::MeshLoad::fromAnyStl", "namespaceMR_1_1MeshLoad.html#a5fbeb822f5135480d23cbe6d8b6f70f5", null ],
     [ "MR::MeshLoad::fromAnyStl", "namespaceMR_1_1MeshLoad.html#ad4fec3336f66f6e63872c27f104224b0", null ],
-    [ "MR::MeshLoad::fromAnySupportedFormat", "namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b", null ],
-    [ "MR::MeshLoad::fromAnySupportedFormat", "namespaceMR_1_1MeshLoad.html#a78e3652043b5c14b69d5b91e83061f81", null ],
     [ "MR::MeshLoad::fromASCIIStl", "namespaceMR_1_1MeshLoad.html#a13fff22a02280dc3df69fcdd4a9dcdc9", null ],
     [ "MR::MeshLoad::fromASCIIStl", "namespaceMR_1_1MeshLoad.html#a0af2341103af4e9a49a749aeae8be936", null ],
     [ "MR::MeshLoad::fromBinaryStl", "namespaceMR_1_1MeshLoad.html#ada89cdcc118cebd47aaa3795b32de730", null ],
@@ -39,5 +37,7 @@ var MRMeshLoad_8h =
     [ "MR::loadPly", "group__MeshLoadGroup.html#gaba5ce54fc0f049940d50275d05193473", null ],
     [ "MR::loadStl", "group__MeshLoadGroup.html#ga3151d6e7d113b0f6862c0b3169b6b1b1", null ],
     [ "MR::loadStl", "group__MeshLoadGroup.html#ga94d0ddcfb7798b21933b7434b48d18fe", null ],
+    [ "MR::MeshLoad::MR_BIND_OVERLOAD_SUFFIX", "namespaceMR_1_1MeshLoad.html#a3156ac4339435553ca2d33f1668a3bcd", null ],
+    [ "MR::MeshLoad::MR_BIND_OVERLOAD_SUFFIX", "namespaceMR_1_1MeshLoad.html#a8d59a9bfff2f3755e414457d1b8fb11e", null ],
     [ "MR::MeshLoad::telemetryLogSize", "namespaceMR_1_1MeshLoad.html#a56ffb5ceb885e2f5e2b965ce19ba299f", null ]
 ];

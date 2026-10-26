@@ -6,7 +6,7 @@ var structMR_1_1LineSegm =
     [ "LineSegm", "group__GeneralGroup.html#ga5fe5f232802842f5c2716a95abb8c28b", null ],
     [ "dir", "group__GeneralGroup.html#gac7639a48742e5c77367777128549d36e", null ],
     [ "length", "group__GeneralGroup.html#ga086b850940021667f55efa192653d966", null ],
-    [ "lengthSq", "group__GeneralGroup.html#gaa0c1c59c920a38b8c03970caf1da046a", null ],
+    [ "lengthSq", "group__GeneralGroup.html#ga08590d32c2ac15f8c7fa66991eebc5e1", null ],
     [ "operator()", "group__GeneralGroup.html#gaadd80884a169b1942afb5da781c1a137", null ],
     [ "a", "group__GeneralGroup.html#ga5a416b6364f2ec163ab839380998b247", null ],
     [ "b", "group__GeneralGroup.html#gafcb4423f5becc13fff968c531455f4e8", null ]

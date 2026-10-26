@@ -1,7 +1,7 @@
 var classMR_1_1Const__ICPProperties =
 [
     [ "Const_ICPProperties", "classMR_1_1Const__ICPProperties.html#afc13eef73a7a7a34ad06b54c0de515e4", null ],
-    [ "Const_ICPProperties", "classMR_1_1Const__ICPProperties.html#ade283526a98a7847f9fda24de50249e3", null ],
+    [ "Const_ICPProperties", "classMR_1_1Const__ICPProperties.html#aeb38827743be7495a22e53bd3c5fcb90", null ],
     [ "Const_ICPProperties", "classMR_1_1Const__ICPProperties.html#a30056839ee99874b0bf561ec3a36539a", null ],
     [ "Const_ICPProperties", "classMR_1_1Const__ICPProperties.html#a516971fd416a38c0f653160ca32f03b0", null ],
     [ "Dispose", "classMR_1_1Const__ICPProperties.html#ad648dc4b99b1f8704a1d5ee6d30c1326", null ],
@@ -19,6 +19,7 @@ var classMR_1_1Const__ICPProperties =
     [ "__ref_storage_mutualClosest", "classMR_1_1Const__ICPProperties.html#a90b4172f637956c7c680f0ef10e8eb42", null ],
     [ "__ref_storage_p2plAngleLimit", "classMR_1_1Const__ICPProperties.html#afc8872be843ef7361b988d41ca564f39", null ],
     [ "__ref_storage_p2plScaleLimit", "classMR_1_1Const__ICPProperties.html#a32c289fe075bdd263fc1f0ce542560b3", null ],
+    [ "__ref_storage_p2plStabilizer", "classMR_1_1Const__ICPProperties.html#a1a00c944490bcdf3221b87a9786a7f95", null ],
     [ "badIterStopCount", "classMR_1_1Const__ICPProperties.html#a606678505df78f79e4ff6fdd224ea602", null ],
     [ "cosThreshold", "classMR_1_1Const__ICPProperties.html#ab9098bb202f33d891591f61e9856f6f6", null ],
     [ "distThresholdSq", "classMR_1_1Const__ICPProperties.html#a63e61151cbc2e55e644b5841499c372e", null ],
@@ -31,5 +32,6 @@ var classMR_1_1Const__ICPProperties =
     [ "method", "classMR_1_1Const__ICPProperties.html#ada3fb6d953dffff93eb0254ea8b4265d", null ],
     [ "mutualClosest", "classMR_1_1Const__ICPProperties.html#aff171c1a48431079d9d89d1310514cde", null ],
     [ "p2plAngleLimit", "classMR_1_1Const__ICPProperties.html#a802148f78a9ff5697fc93ad7c1c9b3f7", null ],
-    [ "p2plScaleLimit", "classMR_1_1Const__ICPProperties.html#ad737425d54961049429d5a7779c5d70d", null ]
+    [ "p2plScaleLimit", "classMR_1_1Const__ICPProperties.html#ad737425d54961049429d5a7779c5d70d", null ],
+    [ "p2plStabilizer", "classMR_1_1Const__ICPProperties.html#a264b6df23010f14f331fb03a3a816a1a", null ]
 ];

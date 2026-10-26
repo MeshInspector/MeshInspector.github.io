@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,10 +133,10 @@ $(function(){initNavTree('functions_vars_d.html','',''); });
 <div class="textblock">Here is a list of all variables with links to the classes they belong to:</div>
 
 <h3 class="doxsection"><a id="index_d" name="index_d"></a>- d -</h3><ul>
-<li>d&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga8b3c7d000e9148d5f14f3c7d0325c95b">MR::Line&lt; V &gt;</a>, <a class="el" href="group__GeneralGroup.html#gaa721053621e7ed2a54dc3f05081f7c04">MR::Plane3&lt; T &gt;</a>, <a class="el" href="group__GeneralGroup.html#ga14d0a626cbd31413d550eea26b9e3303">MR::Quaternion&lt; T &gt;</a></li>
+<li>d&#160;:&#160;<a class="el" href="structMR_1_1detail_1_1PointDegree.html#acaf323135f612345c58d160c5625815c">MR::detail::PointDegree</a>, <a class="el" href="group__GeneralGroup.html#ga8b3c7d000e9148d5f14f3c7d0325c95b">MR::Line&lt; V &gt;</a>, <a class="el" href="group__GeneralGroup.html#gaa721053621e7ed2a54dc3f05081f7c04">MR::Plane3&lt; T &gt;</a>, <a class="el" href="group__GeneralGroup.html#ga14d0a626cbd31413d550eea26b9e3303">MR::Quaternion&lt; T &gt;</a></li>
 <li>dashed_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga64d69137f11ccce4e6ba7aaa0ef41237">MR::ObjectLinesHolder</a></li>
 <li>dashPattern_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gabe70f54ddf2aae2d5784d3aac54214ca">MR::ObjectLinesHolder</a></li>
-<li>data&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga493cf4937d5c960a9eff2b4e3333167b">MR::Pdf::Cell</a>, <a class="el" href="group__GeneralGroup.html#ga6ea81e0ad21fc888dfa262fb957f3c2e">MR::VoxelsVolume&lt; T &gt;</a></li>
+<li>data&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga493cf4937d5c960a9eff2b4e3333167b">MR::Pdf::Cell</a>, <a class="el" href="structMR_1_1Raster.html#aba67d13f8d3fadd9281c8893af3b1eba">MR::Raster</a>, <a class="el" href="group__GeneralGroup.html#ga6ea81e0ad21fc888dfa262fb957f3c2e">MR::VoxelsVolume&lt; T &gt;</a></li>
 <li>data_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga4d8f66e084faf7466dcbbc15865dfe6b">MR::ObjectMeshHolder</a></li>
 <li>deadZonePixelRadius_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gada61b8ab8617465251bf6b1f36c1d782">MR::MoveObjectByMouseImpl</a></li>
 <li>decimate&#160;:&#160;<a class="el" href="structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html#a23e21cd3fa7230a5847e45b9d3d9c99a">MR::FillingSurface::TPMS::MeshParams</a>, <a class="el" href="group__GeneralGroup.html#ga68c5ac664611ddc71939e4e09e549fde">MR::MeshFromVoxelsPostProcessingParams</a>, <a class="el" href="group__GeneralGroup.html#ga6e10f1d5847ddc2cb5de056bf3031453">MR::RebuildMeshSettings</a></li>
@@ -161,24 +154,23 @@ $(function(){initNavTree('functions_vars_d.html','',''); });
 <li>degree&#160;:&#160;<a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#ad4bdf9eb1e55187c89fd477134219680">MR::MoveMeshToVoxelMaxDerivSettings</a></li>
 <li>degreesMode&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga2d95d4ba6210441527d210b9e677228f">MR::UnitToStringParams&lt; E &gt;</a></li>
 <li>densificationSequence&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga2f011ee43797dfd41b3cf45ef8f73cd3">MR::Nesting::TetrisDensifyOptions</a></li>
-<li>depth&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gad64f46697aae94f7b2569134b2cbd954">MR::TiffParameters</a></li>
 <li>depthFunction&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga4c79d51067cd63730f681f5aa2c4ad67">MR::ModelBaseRenderParams</a></li>
 <li>depthTest&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga66920eee269c99c0e8fc16530ac5399d">MR::Viewport::LinePointImmediateRenderParams</a>, <a class="el" href="group__GeneralGroup.html#ga6f3e434ffe08b1fe1a3d982a052f7f21">MR::Viewport::Parameters</a></li>
 <li>depthTest_&#160;:&#160;<a class="el" href="classMR_1_1VisualObject.html#a3c81a910d1fdd5c1f1b413c185bf750d">MR::VisualObject</a></li>
+<li>description&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga63cb40ae1beaf80d388327d1b20bbff6">MR::GLDriverIssue</a></li>
 <li>deselectNewHiddenObjects_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaf4b84e5c4ee9c3f4eca9a8e0c73dde3d">MR::SceneObjectsListDrawer</a></li>
 <li>detailsOnNameTag_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gac252edfceb31c314bc08c0ba5fac11b3">MR::FeatureObject</a></li>
 <li>developerFeatures&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga07f2db56407417cdebdb79d3941a757e">MR::LaunchParams</a></li>
 <li>deviationCalculationMethod_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga4f7ed13fa0a8080d470fade319e360f7">MR::SurfaceManipulationWidget</a></li>
 <li>dialogIsCollapsed_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga55b362aee5989fe359aadd33c9be78b4">MR::StateBasePlugin</a></li>
 <li>dialogIsOpen_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga1d97f71a0f325fbe29b0bbec3e564204">MR::StateBasePlugin</a></li>
-<li>dialogPositionFixed&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga81cacb5c7aa2d35d0b873c9a48145777">MR::RibbonMenu::DialogItemPtr</a></li>
 <li>diameter&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gad8f4a7587862e0863fa16e3bc9763cda">MR::EndMillTool</a></li>
 <li>diffuseColor&#160;:&#160;<a class="el" href="group__MeshLoadObjGroup.html#ga24c0d1fb11f0d559f180bff7fc3fc188">MR::MeshLoad::NamedMesh</a></li>
 <li>dim&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga079676e2ac1f95a1b11ecb8b7f0042aa">MR::GridSettings</a></li>
 <li>dimensions&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gade7c79fd5b25f3a928fa747f8e6d61d2">MR::DistanceVolumeParams</a>, <a class="el" href="group__GeneralGroup.html#ga47a625c37bc5587c8811c698a4720f0e">MR::OriginAndDimensions</a>, <a class="el" href="group__VoxelsLoadGroup.html#gab1db96ec60477ec788bfe5aeb3596da2">MR::VoxelsLoad::RawParameters</a></li>
-<li>dims&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaf0b4ab1e2680b4d5227ff3eccf461929">MR::McOffsetMeshOutputs</a>, <a class="el" href="group__GeneralGroup.html#ga6e549bb1b5552879addc53eaf30df0e2">MR::SharpenMarchingCubesMeshSettings</a>, <a class="el" href="group__GeneralGroup.html#gaec69290a92637368e463e39fadfea701">MR::VoxelsVolume&lt; T &gt;</a></li>
+<li>dims&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaf0b4ab1e2680b4d5227ff3eccf461929">MR::McOffsetMeshOutputs</a>, <a class="el" href="structMR_1_1RasterInfo.html#ae6e6b33190a6ad4ff0fc9af5e2664d4d">MR::RasterInfo</a>, <a class="el" href="group__GeneralGroup.html#ga6e549bb1b5552879addc53eaf30df0e2">MR::SharpenMarchingCubesMeshSettings</a>, <a class="el" href="group__GeneralGroup.html#gaec69290a92637368e463e39fadfea701">MR::VoxelsVolume&lt; T &gt;</a></li>
 <li>dims_&#160;:&#160;<a class="el" href="classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052">MR::RectIndexer</a>, <a class="el" href="group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13">MR::VolumeIndexer</a></li>
-<li>dir&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gab890d6dbf3c55646c877002d9cdcef86">MR::CurvePoint</a>, <a class="el" href="group__GeneralGroup.html#ga0ecb81851105a8eb427a1f270b7659a2">MR::DirectionWidget::Arrow</a>, <a class="el" href="group__GeneralGroup.html#ga65306e29fafdd199b5c607289be0a79c">MR::Directory</a>, <a class="el" href="group__GeneralGroup.html#ga0377432c17ff4de701e83f6c0ac198ae">MR::DirectoryRecursive</a>, <a class="el" href="group__GeneralGroup.html#ga9f603438a2e12d81289b9696c05cdcd4">MR::Features::Primitives::ConeSegment</a>, <a class="el" href="group__GeneralGroup.html#ga5084f3891463b6886fc10c57dbce63af">MR::PlyLoadParams</a>, <a class="el" href="group__GeneralGroup.html#gab2ea86c9173f3228c1adec10b4b8c48a">MR::SkyPatch</a>, <a class="el" href="group__GeneralGroup.html#gaddc230cf7b6ca522ae070d068c79091b">MR::TwoLineSegmClosestPoints&lt; T &gt;</a>, <a class="el" href="group__VoxelsLoadGroup.html#gaafca990d1d688a3f2f9ce8ba0a67a3c5">MR::VoxelsLoad::LoadingTiffSettings</a></li>
+<li>dir&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gab890d6dbf3c55646c877002d9cdcef86">MR::CurvePoint</a>, <a class="el" href="group__GeneralGroup.html#ga0ecb81851105a8eb427a1f270b7659a2">MR::DirectionWidget::Arrow</a>, <a class="el" href="group__GeneralGroup.html#ga65306e29fafdd199b5c607289be0a79c">MR::Directory</a>, <a class="el" href="group__GeneralGroup.html#ga0377432c17ff4de701e83f6c0ac198ae">MR::DirectoryRecursive</a>, <a class="el" href="group__GeneralGroup.html#ga9f603438a2e12d81289b9696c05cdcd4">MR::Features::Primitives::ConeSegment</a>, <a class="el" href="group__GeneralGroup.html#ga5084f3891463b6886fc10c57dbce63af">MR::PlyLoadParams</a>, <a class="el" href="group__GeneralGroup.html#gab2ea86c9173f3228c1adec10b4b8c48a">MR::SkyPatch</a>, <a class="el" href="group__GeneralGroup.html#gaddc230cf7b6ca522ae070d068c79091b">MR::TwoLineSegmClosestPoints&lt; T &gt;</a>, <a class="el" href="group__VoxelsLoadGroup.html#ga6f55869c63bb8067acb4a7014d657fee">MR::VoxelsLoad::RasterFolderLoadSettings</a></li>
 <li>dirA&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga6f5eba0221416eca918dea71f64ad70d">MR::Features::MeasureResult::Angle</a></li>
 <li>dirArea&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga804c3991b7713194228966805194c66a">MR::Dipole</a></li>
 <li>dirB&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gae7cbce0a25261174c06274fcaffe2a0f">MR::Features::MeasureResult::Angle</a></li>
@@ -191,7 +183,7 @@ $(function(){initNavTree('functions_vars_d.html','',''); });
 <li>discretization&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga25a6807ebee10dcb03a9e00733288113">MR::Palette::Parameters</a></li>
 <li>dIsLeftFromABC&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gad6af3b8ab26b46c4d6592c534e9b59c8">MR::TriangleSegmentIntersectResult</a></li>
 <li>dist&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gae40d1d140cfa8187507172fe40598193">MR::MeshToDirectionVolumeParams</a>, <a class="el" href="group__GeneralGroup.html#gaa92c916230bc895acd7eca95758104b0">MR::MeshToDistanceVolumeParams</a>, <a class="el" href="group__GeneralGroup.html#ga95a6c6e03ea27af92edfb720b51eb6cc">MR::PointAndDistance</a>, <a class="el" href="structMR_1_1PolylineProjectionWithOffsetResult.html#af9b6fe85013195dcada09f829b2c552d">MR::PolylineProjectionWithOffsetResult&lt; V &gt;</a>, <a class="el" href="group__GeneralGroup.html#ga000c468f653f412dd5e5110354c49d7b">MR::PolylineToVolumeParams</a>, <a class="el" href="structMR_1_1SignedDistanceToMeshResult.html#ab2ab2feebc81103d19915755ccb48d23">MR::SignedDistanceToMeshResult</a>, <a class="el" href="group__GeneralGroup.html#ga49adf144c8f1f64aafce1e6927f03dc0">MR::SpacingSettings</a>, <a class="el" href="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a767746c507a11feeea1dcaf6e35cb2e3">MR::WeightedShell::DistanceVolumeCreationParams</a>, <a class="el" href="structMR_1_1WeightedShell_1_1ParametersMetric.html#a3c8f8973ae2690971d98f123da0edade">MR::WeightedShell::ParametersMetric</a></li>
-<li>distance&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga618a5c8cc475ae385a15f69aa6316d10">MR::Features::MeasureResult</a>, <a class="el" href="group__GeneralGroup.html#gabc2ecf316c1affc7c259c7b438753dbb">MR::Features::MeasureResult::Distance</a>, <a class="el" href="group__GeneralGroup.html#ga010165bed75fd690071dbe15b50f8c58">MR::UniformSamplingSettings</a>, <a class="el" href="structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a">MR::VertDistance</a></li>
+<li>distance&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga774d2942e99988822ff6e6764aca59a3">MR::CutAroundVertSetsParams</a>, <a class="el" href="group__GeneralGroup.html#ga618a5c8cc475ae385a15f69aa6316d10">MR::Features::MeasureResult</a>, <a class="el" href="group__GeneralGroup.html#gabc2ecf316c1affc7c259c7b438753dbb">MR::Features::MeasureResult::Distance</a>, <a class="el" href="group__GeneralGroup.html#ga010165bed75fd690071dbe15b50f8c58">MR::UniformSamplingSettings</a>, <a class="el" href="structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a">MR::VertDistance</a></li>
 <li>distanceAlongLine&#160;:&#160;<a class="el" href="structMR_1_1MeshIntersectionResult.html#a701e1414a45534a29d2ad1f7074c3c61">MR::MeshIntersectionResult</a>, <a class="el" href="structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b">MR::PolylineIntersectionResult2</a></li>
 <li>distanceLimit&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga486a6518c80e8dcbf53b70b8870eaa6f">MR::RefineParameters</a></li>
 <li>distanceMapResolution&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga865b6dc16827bcf5024f2e675a74e8e0">MR::FixUndercuts::DistMapImproveDirectionParameters</a></li>

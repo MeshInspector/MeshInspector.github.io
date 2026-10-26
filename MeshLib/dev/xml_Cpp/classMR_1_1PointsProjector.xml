@@ -42,19 +42,19 @@
         </inbodydescription>
         <location file="MRMesh/MRPointsProject.h" line="120" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointsProjector_1a8176e657fa7d5a4b859318c91de2bd91" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classMR_1_1PointsProjector_1a05889fb4233b1773659a86039054ee8a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
         <definition>Expected&lt; void &gt; MR::PointsProjector::findProjections</definition>
-        <argsstring>(std::vector&lt; PointsProjectionResult &gt; &amp;results, const std::vector&lt; Vector3f &gt; &amp;points, const FindProjectionOnPointsSettings &amp;settings) const override</argsstring>
+        <argsstring>(std::vector&lt; PointsProjectionResult &gt; &amp;results, const VertCoords &amp;points, const FindProjectionOnPointsSettings &amp;settings) const override</argsstring>
         <name>findProjections</name>
         <qualifiedname>MR::PointsProjector::findProjections</qualifiedname>
-        <reimplements refid="classMR_1_1IPointsProjector_1a73d0b887b876f110e3fb6554422f9a31">findProjections</reimplements>
+        <reimplements refid="classMR_1_1IPointsProjector_1ab55d9f3ad796f98b2fb49a11850282b2">findProjections</reimplements>
         <param>
           <type>std::vector&lt; <ref refid="structMR_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref> &gt; &amp;</type>
           <declname>results</declname>
         </param>
         <param>
-          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <type>const VertCoords &amp;</type>
           <declname>points</declname>
         </param>
         <param>
@@ -122,7 +122,7 @@
     </collaborationgraph>
     <location file="MRMesh/MRPointsProject.h" line="116" column="1" bodyfile="MRMesh/MRPointsProject.h" bodystart="117" bodyend="130"/>
     <listofallmembers>
-      <member refid="classMR_1_1PointsProjector_1a8176e657fa7d5a4b859318c91de2bd91" prot="public" virt="virtual"><scope>MR::PointsProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1PointsProjector_1a05889fb4233b1773659a86039054ee8a" prot="public" virt="virtual"><scope>MR::PointsProjector</scope><name>findProjections</name></member>
       <member refid="classMR_1_1IPointsProjector_1a5a3f74ffe976079b82511c3381ef3cf1" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>IPointsProjector</name></member>
       <member refid="classMR_1_1IPointsProjector_1ad662f0a8c6d8fd6376e2551303f5874a" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>IPointsProjector</name></member>
       <member refid="classMR_1_1IPointsProjector_1ab26cafb526f8cd9801cad266deaadc32" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>IPointsProjector</name></member>

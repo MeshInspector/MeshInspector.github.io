@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="group__RasterLoadGroup" kind="group">
+    <compoundname>RasterLoadGroup</compoundname>
+    <title>Raster Load</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__RasterLoadGroup_1gaab2549a28175f7d8f2ae7b5431442f73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Raster &gt;</type>
+        <definition>Expected&lt; Raster &gt; MR::RasterLoad::fromAnySupportedFormat</definition>
+        <argsstring>(const std::filesystem::path &amp;path, const RasterLoadSettings &amp;settings={})</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR::RasterLoad::fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const RasterLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and loads a raster from it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRasterLoad.h" line="20" column="11" declfile="MRMesh/MRRasterLoad.h" declline="20" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__RasterLoadGroup_1ga60a7fe313f6d66a2d13aaf834599e50d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; RasterInfo &gt;</type>
+        <definition>Expected&lt; RasterInfo &gt; MR::RasterLoad::infoFromAnySupportedFormat</definition>
+        <argsstring>(const std::filesystem::path &amp;path)</argsstring>
+        <name>infoFromAnySupportedFormat</name>
+        <qualifiedname>MR::RasterLoad::infoFromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and loads everything about the raster except its samples </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRasterLoad.h" line="23" column="11" declfile="MRMesh/MRRasterLoad.h" declline="23" declcolumn="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

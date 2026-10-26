@@ -3,12 +3,12 @@
   <compounddef id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</compoundname>
     <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ac2e68003fa177d871d7cab88f178898d" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1af2e2e48a6cb159f63178ed8444b5b18d" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId::_offsetof_vec_</definition>
+        <definition>typing mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId::_offsetof_vec</definition>
         <argsstring></argsstring>
-        <name>_offsetof_vec_</name>
-        <qualifiedname>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId._offsetof_vec_</qualifiedname>
+        <name>_offsetof_vec</name>
+        <qualifiedname>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId._offsetof_vec</qualifiedname>
         <initializer>=  0</initializer>
         <briefdescription>
         </briefdescription>
@@ -16,10 +16,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71111" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64116" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1acd6f03553dbe213a443d789710e8985a" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId::const_pointer</definition>
+        <argsstring></argsstring>
+        <name>const_pointer</name>
+        <qualifiedname>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.const_pointer</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64117" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a71117d5a98e1c555eb5600e6ea949eaa" prot="public" static="yes" mutable="no">
         <type></type>
         <definition>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId::const_reference</definition>
@@ -33,7 +48,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71112" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a05302c935fbd85218a2bf8a701620d0d" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId::pointer</definition>
+        <argsstring></argsstring>
+        <name>pointer</name>
+        <qualifiedname>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.pointer</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a26a1f80bd5ea1af40f1986d245b68433" prot="public" static="yes" mutable="no">
         <type></type>
@@ -48,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71113" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64120" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ad66149001c25a28d6b6a3ebaedd25b08" prot="public" static="yes" mutable="no">
         <type></type>
@@ -63,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71114" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71114" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64121" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -87,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71117" bodyend="71118"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64124" bodyend="64125"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aaa9088b434b6c5d6bd89e323e070f672" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId" kindref="compound">Vector_WatershedGraph_BasinInfo_GraphVertId</ref></type>
@@ -109,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71121" bodyend="71122"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64128" bodyend="64129"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aaa9088b434b6c5d6bd89e323e070f672" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId" kindref="compound">Vector_WatershedGraph_BasinInfo_GraphVertId</ref></type>
@@ -131,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71125" bodyend="71126"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64132" bodyend="64133"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -155,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71128" bodyend="71129"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64135" bodyend="64136"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a196881b4d2e58fbbf213a75ea73a17fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref></type>
@@ -177,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71131" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71131" bodyend="71132"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64138" bodyend="64139"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ad3187714ce3e4e88f9a62d2449ee8cf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -197,7 +227,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71134" bodyend="71137"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64141" bodyend="64144"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a2d5ea73f05f21903196c641a7946fb2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -221,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71139" bodyend="71142"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64146" bodyend="64149"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ab0ed9ac29eed6faeea1d380ae0afd118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -249,12 +279,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71144" bodyend="71147"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64151" bodyend="64154"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ae31f7959c18a05277cedbcb934bf73bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aecf64a5dbc792673eb199353eaae80e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.__init__</definition>
-        <argsstring>(self, std_vector_WatershedGraph_BasinInfo vec)</argsstring>
+        <argsstring>(self, list arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.__init__</qualifiedname>
         <param>
@@ -262,18 +292,16 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__WatershedGraph__BasinInfo" kindref="compound">std_vector_WatershedGraph_BasinInfo</ref></type>
-          <declname>vec</declname>
+          <type>list</type>
+          <declname>arg0</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>moves data from the given std::vector&lt;T&gt;
-</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71149" bodyend="71152"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64156" bodyend="64157"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ad3e74a28253913bf666936247065a368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -297,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71154" bodyend="71157"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64159" bodyend="64162"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ad03fa4658a3156d9b0071e3e83c64d56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Iterator[<ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref>]</type>
@@ -315,7 +343,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71158" bodyend="71159"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64163" bodyend="64164"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a0431772014cf3799aad6bdcc3720bc93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64165" bodyend="64166"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a1aeeaca29c8c4ece469e8fe09e3301b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -341,7 +387,35 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71160" bodyend="71161"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64167" bodyend="64168"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a1af3b7ff19021e6e67e940c2317966b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.assign</definition>
+        <argsstring>(self, int count, WatershedGraph.BasinInfo val)</argsstring>
+        <name>assign</name>
+        <qualifiedname>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.assign</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>replaces the contents with \\p count copies of \\p val
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64169" bodyend="64172"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ac190f443b1213449f4565d068f8384ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref></type>
@@ -365,7 +439,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71162" bodyend="71165"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64173" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64173" bodyend="64176"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aa2aaa99275a0a70253ecfe44f0752901" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -398,7 +472,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71167" bodyend="71171"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64178" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64178" bodyend="64182"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ac2763e617b73799f4c5822d1aec5fbed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -426,7 +500,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71173" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71173" bodyend="71176"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64184" bodyend="64187"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a4a966d27bb1d9a0a54114481e474aa12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref></type>
@@ -444,7 +518,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71178" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71178" bodyend="71179"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64189" bodyend="64190"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a4a966d27bb1d9a0a54114481e474aa12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref></type>
@@ -462,7 +536,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71181" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71181" bodyend="71182"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64192" bodyend="64193"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a0130e4c75d5331993f12dfd0798b0057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -482,7 +556,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71183" bodyend="71186"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64194" bodyend="64197"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1adeab8357a439457b5ab048ba7c4df5f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -502,7 +576,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71187" bodyend="71190"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64198" bodyend="64201"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1adf61212fbae41dde62b14cf2a4ce51e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -520,7 +594,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71191" bodyend="71192"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64202" bodyend="64203"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a20477b91b220435fb9c31946f8fce367" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -538,7 +612,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71193" bodyend="71194"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64204" bodyend="64205"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a72cd50281b673c9f6c2a3a236e87dfa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref></type>
@@ -556,7 +630,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71196" bodyend="71197"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64207" bodyend="64208"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a72cd50281b673c9f6c2a3a236e87dfa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref></type>
@@ -574,7 +648,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71199" bodyend="71200"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64210" bodyend="64211"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ab434b51f0dde16247a1043a773c25abf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -592,7 +666,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71201" bodyend="71202"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64212" bodyend="64213"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ace985c9817a43755b3582413d4e0f89f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -612,7 +686,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71203" bodyend="71206"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64214" bodyend="64217"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aacecf93dffba87901e8f5770ed0df60e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref></type>
@@ -630,7 +704,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71208" bodyend="71209"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64219" bodyend="64220"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aacecf93dffba87901e8f5770ed0df60e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BasinInfo" kindref="compound">WatershedGraph.BasinInfo</ref></type>
@@ -648,7 +722,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71211" bodyend="71212"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64222" bodyend="64223"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aea2f00b6ed91801b80d9de61a849d037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -668,7 +742,25 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71213" bodyend="71216"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64224" bodyend="64227"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a7e75bf972a92d4f6e301ee5acc417435" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.max_size</definition>
+        <argsstring>(self)</argsstring>
+        <name>max_size</name>
+        <qualifiedname>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.max_size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64228" bodyend="64229"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1afee0244de7d0bd0d39f89fcd66054ed8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -686,7 +778,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71217" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71217" bodyend="71218"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64230" bodyend="64231"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a2c24ff4e0a289617adab3649e603d0a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -708,7 +800,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71220" bodyend="71221"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64233" bodyend="64234"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a2c24ff4e0a289617adab3649e603d0a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -730,7 +822,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71223" bodyend="71224"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64236" bodyend="64237"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a8d57f1b4b3a068caae1d278593d1c68a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -752,7 +844,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71225" bodyend="71226"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64238" bodyend="64239"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a2b237d05e0d4c6c47798b17ca82bb922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -774,7 +866,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71228" bodyend="71229"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64241" bodyend="64242"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aef75badd4cf6b2e244f73a14d66f9a02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -800,7 +892,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71231" bodyend="71232"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64244" bodyend="64245"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ad01c01e117bbc90fbb73eae4aa5289e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -819,12 +911,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+<para><verbatim>same as resize(newSize), which already grows the capacity geometrically
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71234" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71234" bodyend="71237"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64247" bodyend="64250"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ac635fb4a70dc887779d1387a4d0103c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -847,12 +939,30 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+<para><verbatim>same as resize(newSize, value), which already grows the capacity geometrically
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71239" bodyend="71242"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64252" bodyend="64255"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aa0ec79f753fe48b77d1874153464b672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.shrink_to_fit</definition>
+        <argsstring>(self)</argsstring>
+        <name>shrink_to_fit</name>
+        <qualifiedname>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.shrink_to_fit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64256" bodyend="64257"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a27b87b5a5abdc95d9a7c13f46e5a654e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -870,7 +980,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71243" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71243" bodyend="71244"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64258" bodyend="64259"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aeddc907da3c24d625a847c803b9908ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -892,14 +1002,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71245" bodyend="71246"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64260" bodyend="64261"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aeb6dbe2ab015a4958a4a118d3ac4418b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ae35dd7464e614a2fc486f43826b525b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__WatershedGraph__BasinInfo" kindref="compound">std_vector_WatershedGraph_BasinInfo</ref></type>
-        <definition> std_vector_WatershedGraph_BasinInfo mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.vec_</definition>
+        <definition> std_vector_WatershedGraph_BasinInfo mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.vec</definition>
         <argsstring>(self)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -912,14 +1022,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71248" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71248" bodyend="71251"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64263" bodyend="64266"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a493dcdbedc202385fc695b7e24bffdeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1afc4b7c1b7eaadf8cc5f20af345a504f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.vec_</definition>
+        <definition> None mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.vec</definition>
         <argsstring>(self, std_vector_WatershedGraph_BasinInfo arg1)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Vector_WatershedGraph_BasinInfo_GraphVertId.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -934,7 +1044,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71253" bodyend="71254"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64268" bodyend="64269"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -948,7 +1058,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
  \\tparam I type of index (shall be convertible to size_t)
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71101" bodyend="71254"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64106" bodyend="64269"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a196881b4d2e58fbbf213a75ea73a17fb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>__getitem__</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a196881b4d2e58fbbf213a75ea73a17fb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>__getitem__</name></member>
@@ -956,11 +1066,13 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ad3187714ce3e4e88f9a62d2449ee8cf8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a2d5ea73f05f21903196c641a7946fb2c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ab0ed9ac29eed6faeea1d380ae0afd118" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ae31f7959c18a05277cedbcb934bf73bb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aecf64a5dbc792673eb199353eaae80e7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ad3e74a28253913bf666936247065a368" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ad03fa4658a3156d9b0071e3e83c64d56" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a0431772014cf3799aad6bdcc3720bc93" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>__len__</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a1aeeaca29c8c4ece469e8fe09e3301b7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>__setitem__</name></member>
-      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ac2e68003fa177d871d7cab88f178898d" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1af2e2e48a6cb159f63178ed8444b5b18d" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>_offsetof_vec</name></member>
+      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a1af3b7ff19021e6e67e940c2317966b7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>assign</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ac190f443b1213449f4565d068f8384ca" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>autoResizeAt</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aa2aaa99275a0a70253ecfe44f0752901" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ac2763e617b73799f4c5822d1aec5fbed" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>autoResizeSet</name></member>
@@ -970,6 +1082,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1adeab8357a439457b5ab048ba7c4df5f6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>beginId</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1adf61212fbae41dde62b14cf2a4ce51e6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>capacity</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a20477b91b220435fb9c31946f8fce367" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1acd6f03553dbe213a443d789710e8985a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>const_pointer</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a71117d5a98e1c555eb5600e6ea949eaa" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>const_reference</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a72cd50281b673c9f6c2a3a236e87dfa0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>data</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a72cd50281b673c9f6c2a3a236e87dfa0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>data</name></member>
@@ -978,8 +1091,10 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aacecf93dffba87901e8f5770ed0df60e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>front</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aacecf93dffba87901e8f5770ed0df60e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>front</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aea2f00b6ed91801b80d9de61a849d037" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a7e75bf972a92d4f6e301ee5acc417435" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>max_size</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aaa9088b434b6c5d6bd89e323e070f672" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aaa9088b434b6c5d6bd89e323e070f672" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a05302c935fbd85218a2bf8a701620d0d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>pointer</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1afee0244de7d0bd0d39f89fcd66054ed8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>pop_back</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a2c24ff4e0a289617adab3649e603d0a0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>push_back</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a2c24ff4e0a289617adab3649e603d0a0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>push_back</name></member>
@@ -989,11 +1104,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aef75badd4cf6b2e244f73a14d66f9a02" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>resize</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ad01c01e117bbc90fbb73eae4aa5289e4" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>resizeWithReserve</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ac635fb4a70dc887779d1387a4d0103c7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aa0ec79f753fe48b77d1874153464b672" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>shrink_to_fit</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a27b87b5a5abdc95d9a7c13f46e5a654e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aeddc907da3c24d625a847c803b9908ce" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>swap</name></member>
       <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ad66149001c25a28d6b6a3ebaedd25b08" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>value_type</name></member>
-      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aeb6dbe2ab015a4958a4a118d3ac4418b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>vec_</name></member>
-      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a493dcdbedc202385fc695b7e24bffdeb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ae35dd7464e614a2fc486f43826b525b5" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>vec</name></member>
+      <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1afc4b7c1b7eaadf8cc5f20af345a504f6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_WatershedGraph_BasinInfo_GraphVertId</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

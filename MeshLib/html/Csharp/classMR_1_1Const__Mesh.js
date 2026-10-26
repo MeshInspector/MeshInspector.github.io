@@ -48,7 +48,7 @@ var classMR_1_1Const__Mesh =
     [ "fromFaceSoup", "classMR_1_1Const__Mesh.html#a3d20ec971a1772c8c560ecc05fc625d2", null ],
     [ "fromPointTriples", "classMR_1_1Const__Mesh.html#a3ab5d9b7ba1426c16b2665c03a13fbc7", null ],
     [ "fromTriangles", "classMR_1_1Const__Mesh.html#a63d8b33cacb827e76e8937be45e956fd", null ],
-    [ "fromTrianglesDuplicatingNonManifoldVertices", "classMR_1_1Const__Mesh.html#a618c759ea2dcb30254f7c2b7ca413550", null ],
+    [ "fromTrianglesDuplicatingNonManifoldVertices", "classMR_1_1Const__Mesh.html#a019bb4bf98f50221f3b8cf46c8643da1", null ],
     [ "fromTriMesh", "classMR_1_1Const__Mesh.html#ab80764bcf163893a8d86269e9910e2eb", null ],
     [ "getAABBTree", "classMR_1_1Const__Mesh.html#a232c5316959b5bcdbbb06547b60442d1", null ],
     [ "getAABBTreeNotCreate", "classMR_1_1Const__Mesh.html#a01752e171353dffd57de43469be9efda", null ],

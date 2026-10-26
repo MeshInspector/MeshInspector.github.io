@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="115" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="115" bodyend="115"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="123" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="123" bodyend="123"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FlowOrigin_1a15fa5600549d1f24c4149b379cae905e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="120" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="120" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="128" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="128" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="139" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="139" bodyend="143"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="145" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="145" bodyend="149"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="149" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="149" bodyend="155"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="155" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="155" bodyend="159"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FlowOrigin_1ab31dffeba06034f54bde6ebd3c7c17b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -96,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="160" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="160" bodyend="167"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="164" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="164" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FlowOrigin_1a39b511b2c001e12463b2a7948e4c0a31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="172" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="172" bodyend="179"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="174" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="174" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FlowOrigin_1aec013d4e8c54c0cb1dc05a72cae98bd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -153,7 +153,103 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="189" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="189" bodyend="196"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="189" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="189" bodyend="194"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1FlowOrigin_1a740361417894cc3dd985d9b5f67d8912" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FlowOrigin._Underlying *</type>
+        <definition>static unsafe MR.FlowOrigin._Underlying * MR.FlowOrigin.__MR_FlowOrigin_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.FlowOrigin._Underlying *_other)</argsstring>
+        <name>__MR_FlowOrigin_AssignFromAnother</name>
+        <qualifiedname>MR.FlowOrigin.__MR_FlowOrigin_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.FlowOrigin._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="199" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FlowOrigin_1a368b78ed3200ff19416f2646f78ae9a9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FlowOrigin._Underlying *</type>
+        <definition>static unsafe MR.FlowOrigin._Underlying * MR.FlowOrigin.__MR_FlowOrigin_ConstructFrom</definition>
+        <argsstring>(MR.MeshTriPoint._Underlying *point, float amount)</argsstring>
+        <name>__MR_FlowOrigin_ConstructFrom</name>
+        <qualifiedname>MR.FlowOrigin.__MR_FlowOrigin_ConstructFrom</qualifiedname>
+        <param>
+          <type>MR.MeshTriPoint._Underlying *</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="202" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FlowOrigin_1ae16d2303fa5ac496064f179601a0eff5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FlowOrigin._Underlying *</type>
+        <definition>static unsafe MR.FlowOrigin._Underlying * MR.FlowOrigin.__MR_FlowOrigin_ConstructFromAnother</definition>
+        <argsstring>(MR.FlowOrigin._Underlying *_other)</argsstring>
+        <name>__MR_FlowOrigin_ConstructFromAnother</name>
+        <qualifiedname>MR.FlowOrigin.__MR_FlowOrigin_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.FlowOrigin._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="205" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FlowOrigin_1a57f644e97215a6791fbb7bafb9bbc041" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FlowOrigin._Underlying *</type>
+        <definition>static unsafe MR.FlowOrigin._Underlying * MR.FlowOrigin.__MR_FlowOrigin_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_FlowOrigin_DefaultConstruct</name>
+        <qualifiedname>MR.FlowOrigin.__MR_FlowOrigin_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="208" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FlowOrigin_1a86c4f1094b14abe553ae4e0abd066343" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshTriPoint._Underlying *</type>
+        <definition>static unsafe MR.MeshTriPoint._Underlying * MR.FlowOrigin.__MR_FlowOrigin_GetMutable_point</definition>
+        <argsstring>(MR.FlowOrigin._Underlying *_this)</argsstring>
+        <name>__MR_FlowOrigin_GetMutable_point</name>
+        <qualifiedname>MR.FlowOrigin.__MR_FlowOrigin_GetMutable_point</qualifiedname>
+        <param>
+          <type>MR.FlowOrigin._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="211" column="56"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -205,8 +301,13 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="110" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="111" bodyend="197"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="118" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="119" bodyend="212"/>
     <listofallmembers>
+      <member refid="classMR_1_1FlowOrigin_1a740361417894cc3dd985d9b5f67d8912" prot="private" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>__MR_FlowOrigin_AssignFromAnother</name></member>
+      <member refid="classMR_1_1FlowOrigin_1a368b78ed3200ff19416f2646f78ae9a9" prot="private" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>__MR_FlowOrigin_ConstructFrom</name></member>
+      <member refid="classMR_1_1FlowOrigin_1ae16d2303fa5ac496064f179601a0eff5" prot="private" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>__MR_FlowOrigin_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1FlowOrigin_1a57f644e97215a6791fbb7bafb9bbc041" prot="private" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>__MR_FlowOrigin_DefaultConstruct</name></member>
+      <member refid="classMR_1_1FlowOrigin_1a86c4f1094b14abe553ae4e0abd066343" prot="private" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>__MR_FlowOrigin_GetMutable_point</name></member>
       <member refid="classMR_1_1Const__FlowOrigin_1a666cac774814134672fb5d4dd2d702a2" prot="protected" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>__ref_storage_amount</name></member>
       <member refid="classMR_1_1FlowOrigin_1a15fa5600549d1f24c4149b379cae905e" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>amount</name></member>
       <member refid="classMR_1_1FlowOrigin_1aed3b952a7d7f8c75a9723db96cc7f80c" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>assign</name></member>

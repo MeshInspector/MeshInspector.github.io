@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,7 +136,7 @@ $(function(){initNavTree('functions_func_l.html','',''); });
 <li>Label()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gabbf2f53809f0072d2e09bde212cc58d7">MR::Palette::Label</a></li>
 <li>labelRepresentingMesh()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga2b5155ef1e07c779cf760515b4653c08">MR::ObjectLabel</a></li>
 <li>LambdaRibbonItem()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gadef78787d2334e909f2cd6f40c3e427e">MR::LambdaRibbonItem</a></li>
-<li>Laplacian()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga701e06f6b7ebb3c08d691ca34ffeab37">MR::Laplacian</a></li>
+<li>Laplacian()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga61c764e507de86f90b4a8763fdae00fd">MR::Laplacian</a></li>
 <li>laplacianMoveVert_()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga297618816e83dce980de3f9075d4657a">MR::SurfaceManipulationWidget</a></li>
 <li>laplacianPickVert_()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gad41aeaafb3e4c8632a313f4d729c3561">MR::SurfaceManipulationWidget</a></li>
 <li>lastNotLoneEdge()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga84f4a99b6419f6bbbf63c128af78b1c6">MR::MeshTopology</a>, <a class="el" href="group__GeneralGroup.html#ga33c3aacafb6ce19a620996cd32878639">MR::PolylineTopology</a></li>
@@ -152,6 +145,7 @@ $(function(){initNavTree('functions_func_l.html','',''); });
 <li>lastValidVert()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gafbdc5442d461cd2192267fe49446acfe">MR::MeshTopology</a>, <a class="el" href="group__GeneralGroup.html#ga405ae3689daf40b5216f8d36d6a295c8">MR::PolylineTopology</a></li>
 <li>launch()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga6ba524665a123cfc2a7098ea88eecf48">MR::Viewer</a></li>
 <li>launchEventLoop()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga9859eebed05121603d979f7c490890ab">MR::Viewer</a></li>
+<li>launchShow()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga9dc1034282d54e419b4f0812961f6a52">MR::Viewer</a></li>
 <li>launchShut()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga83bd7780adc97eb86fd8c76d8d24f647">MR::Viewer</a></li>
 <li>layersPerBlock()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gae5981da511b9113e5110e74165080c6a">MR::MarchingCubesByParts</a></li>
 <li>leaf()&#160;:&#160;<a class="el" href="structMR_1_1AABBTreeNode.html#a50c87fc6c0f27587748dc7f642b5d8a6">MR::AABBTreeNode&lt; T &gt;</a>, <a class="el" href="structMR_1_1AABBTreePoints_1_1Node.html#a56b80dcc65ea72cecfafa260d4f8300a">MR::AABBTreePoints::Node</a></li>
@@ -165,13 +159,14 @@ $(function(){initNavTree('functions_func_l.html','',''); });
 <li>lengthSq()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga08590d32c2ac15f8c7fa66991eebc5e1">MR::LineSegm&lt; V &gt;</a>, <a class="el" href="structMR_1_1Vector2.html#a65dcc8114a942bdb79fa724e727211e0">MR::Vector2&lt; T &gt;</a>, <a class="el" href="group__GeneralGroup.html#ga443f05907a7c319e5e081fa7dd0b9019">MR::Vector3&lt; T &gt;</a>, <a class="el" href="group__GeneralGroup.html#ga569e6612540d74cb89cc24227f7d3f4e">MR::Vector4&lt; T &gt;</a></li>
 <li>LengthTask()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga25f03c394752ed95a6eb71db98714312">MR::RenderDimensions::LengthTask</a></li>
 <li>lerp()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga4a587dac42e27e66b5d29b7a9d637a18">MR::Quaternion&lt; T &gt;</a></li>
+<li>less()&#160;:&#160;<a class="el" href="classMR_1_1CutTrianglePredicates.html#a8940fbe891dac60e2b76367ed51541e7">MR::CutTrianglePredicates</a></li>
 <li>limitedProjector()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gac3df7c9f813232be1ba7ffbb861f6728">MR::MeshOrPoints</a>, <a class="el" href="group__GeneralGroup.html#ga0d7468f56842cdd248afdc82b07e6d29">MR::MeshOrPointsXf</a></li>
 <li>Line()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga46b55b474c21ce6047ee165c8543e568">MR::Line&lt; V &gt;</a></li>
 <li>LineAntialiasingDisabler()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga3e96e121ccb7297da23e022c771758d7">MR::UI::LineAntialiasingDisabler</a></li>
 <li>linearXf()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga1b5d1cabe9f108d27da6c12f5e5717b5">MR::RigidScaleXf3&lt; T &gt;</a>, <a class="el" href="group__GeneralGroup.html#gad36335768adf3c0ffb40b10e3fc37d39">MR::RigidXf3&lt; T &gt;</a></li>
 <li>LineObject()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gace2668c43a0ab76cfdbbf5485e7242da">MR::LineObject</a></li>
 <li>LineSegm()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga012f7dcffa0f21fdd89da4726c09fef7">MR::LineSegm&lt; V &gt;</a></li>
-<li>lnext()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaf7925d5ad5a5ad9526be533e1ccdfa5a">MR::MeshTriPoint</a>, <a class="el" href="group__GeneralGroup.html#ga02506879ef28b9372cf1868c17a808da">MR::TriPoint&lt; T &gt;</a></li>
+<li>lnext()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaed7bba6040f4e009539d6675f03dcffd">MR::MeshTriPointT&lt; T &gt;</a>, <a class="el" href="group__GeneralGroup.html#ga02506879ef28b9372cf1868c17a808da">MR::TriPoint&lt; T &gt;</a></li>
 <li>load()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga51b8d6a536627bc2449b71fd53d55165">MR::RibbonIcons</a></li>
 <li>load_font()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gac9ab04a91a6ade403dc6c5e4535f4abe">MR::ImGuiMenu</a></li>
 <li>loadAllFonts()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gadbf6aadf4dfe32b0b164735eb68c157b">MR::RibbonFontManager</a></li>

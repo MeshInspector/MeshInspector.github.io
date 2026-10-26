@@ -4,6 +4,7 @@ var classMR_1_1ChangePointCloudAction =
     [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html#ab51c048e52b381914bd16b15795144cb", null ],
     [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html#a58e46e66cf5ecd858e3a3597bf58e782", null ],
     [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html#a4b6ae3c462d01341e3702cbed08646e1", null ],
+    [ "ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html#a45569c4f694e222d27a5c85f9d63ea2e", null ],
     [ "action", "classMR_1_1ChangePointCloudAction.html#a1ad60546bf27a07549a8f5d999929ea4", null ],
     [ "operator ChangePointCloudAction?", "classMR_1_1ChangePointCloudAction.html#ae241e6f37f4444af624a5fd420f02c91", null ],
     [ "operator MR.HistoryAction", "classMR_1_1ChangePointCloudAction.html#a5dfd08420ebd3afa6080ac3948353ac3", null ]

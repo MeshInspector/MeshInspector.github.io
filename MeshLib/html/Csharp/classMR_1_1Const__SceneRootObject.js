@@ -7,6 +7,7 @@ var classMR_1_1Const__SceneRootObject =
     [ "clone", "classMR_1_1Const__SceneRootObject.html#a207f189f98bf596f65d3ba00155ae81e", null ],
     [ "cloneRoot", "classMR_1_1Const__SceneRootObject.html#aa002274916839f2ae10d59248aa9244d", null ],
     [ "cloneTree", "classMR_1_1Const__SceneRootObject.html#ac3fa7ecddd0d3fd0905631d2c22b39f5", null ],
+    [ "constChildren", "classMR_1_1Const__SceneRootObject.html#ad52cc536af33dec3c6b364222826cf70", null ],
     [ "Dispose", "classMR_1_1Const__SceneRootObject.html#a776eb2ccb08f59405dc3bdf3b3595dfc", null ],
     [ "Dispose", "classMR_1_1Const__SceneRootObject.html#acdfb90a06e77444310ec8da15295820b", null ],
     [ "getInfoLines", "classMR_1_1Const__SceneRootObject.html#a72dcfac9b6da41389f5d29a098ebc8b9", null ],

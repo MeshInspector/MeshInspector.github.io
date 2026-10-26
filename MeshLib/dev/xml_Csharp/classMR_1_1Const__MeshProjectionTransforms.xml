@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="305" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="306" bodyend="317"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="322" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="323" bodyend="334"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__MeshProjectionTransforms_1abfabe5593a5ea60a8725eef9fe6d61ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="323" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="324" bodyend="335"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="340" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="341" bodyend="352"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="318" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="318" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="335" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="335" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__MeshProjectionTransforms_1a4a9ef1a3005bc2b043d1d3090a50fb23" prot="protected" static="no" mutable="no">
         <type>unsafe MR.ConstBox_AffineXf3f._Underlying **</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="336" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="336" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="353" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="353" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="290" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="290" bodyend="298"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="309" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="309" bodyend="315"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="299" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="299" bodyend="299"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="316" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="316" bodyend="316"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshProjectionTransforms_1a7aeb1900bd0d23769e30a25125bc45db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="369" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="369" bodyend="375"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="382" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="382" bodyend="386"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshProjectionTransforms_1a27d26a70b3637707410f3cba895e0cdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="380" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="380" bodyend="388"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="391" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="391" bodyend="397"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshProjectionTransforms_1a02f24e6f2ff64493c5074e3b31553d4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="393" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="393" bodyend="400"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="402" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="402" bodyend="407"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshProjectionTransforms_1a1ea59554b6c40aee79e5bba54c7687cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="405" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="405" bodyend="405"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="412" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="412" bodyend="412"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="300" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="300" bodyend="300"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="317" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="317" bodyend="317"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -216,7 +216,117 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="358" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="358" bodyend="363"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="371" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="371" bodyend="376"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionTransforms_1aef487ba131188cd192c4c5b303362972" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshProjectionTransforms._Underlying *</type>
+        <definition>static unsafe MR.MeshProjectionTransforms._Underlying * MR.Const_MeshProjectionTransforms.__MR_MeshProjectionTransforms_ConstructFrom</definition>
+        <argsstring>(MR.AffineXf3f *rigidXfPoint, MR.AffineXf3f *nonRigidXfTree)</argsstring>
+        <name>__MR_MeshProjectionTransforms_ConstructFrom</name>
+        <qualifiedname>MR.Const_MeshProjectionTransforms.__MR_MeshProjectionTransforms_ConstructFrom</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
+          <declname>rigidXfPoint</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
+          <declname>nonRigidXfTree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="417" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionTransforms_1a2e46bd99a5a40a3747fcee6806fcadfb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshProjectionTransforms._Underlying *</type>
+        <definition>static unsafe MR.MeshProjectionTransforms._Underlying * MR.Const_MeshProjectionTransforms.__MR_MeshProjectionTransforms_ConstructFromAnother</definition>
+        <argsstring>(MR.MeshProjectionTransforms._Underlying *_other)</argsstring>
+        <name>__MR_MeshProjectionTransforms_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_MeshProjectionTransforms.__MR_MeshProjectionTransforms_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.MeshProjectionTransforms._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="420" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionTransforms_1ab89dfa2360210a21c11a3f5f557ac4e7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MeshProjectionTransforms._Underlying *</type>
+        <definition>static unsafe MR.MeshProjectionTransforms._Underlying * MR.Const_MeshProjectionTransforms.__MR_MeshProjectionTransforms_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_MeshProjectionTransforms_DefaultConstruct</name>
+        <qualifiedname>MR.Const_MeshProjectionTransforms.__MR_MeshProjectionTransforms_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="423" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionTransforms_1a0439e1c2a3819b3b8b92fec6618690cd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_MeshProjectionTransforms.__MR_MeshProjectionTransforms_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_MeshProjectionTransforms_Destroy</name>
+        <qualifiedname>MR.Const_MeshProjectionTransforms.__MR_MeshProjectionTransforms_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="426" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionTransforms_1a81675575eee8ef426f15a9abc985d9c8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ConstBox_AffineXf3f._Underlying **</type>
+        <definition>static unsafe MR.ConstBox_AffineXf3f._Underlying ** MR.Const_MeshProjectionTransforms.__MR_MeshProjectionTransforms_Get_nonRigidXfTree</definition>
+        <argsstring>(Const_MeshProjectionTransforms._Underlying *_this)</argsstring>
+        <name>__MR_MeshProjectionTransforms_Get_nonRigidXfTree</name>
+        <qualifiedname>MR.Const_MeshProjectionTransforms.__MR_MeshProjectionTransforms_Get_nonRigidXfTree</qualifiedname>
+        <param>
+          <type>Const_MeshProjectionTransforms._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="429" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionTransforms_1a31fa35811000fb1169dabea30e342460" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ConstBox_AffineXf3f._Underlying **</type>
+        <definition>static unsafe MR.ConstBox_AffineXf3f._Underlying ** MR.Const_MeshProjectionTransforms.__MR_MeshProjectionTransforms_Get_rigidXfPoint</definition>
+        <argsstring>(Const_MeshProjectionTransforms._Underlying *_this)</argsstring>
+        <name>__MR_MeshProjectionTransforms_Get_rigidXfPoint</name>
+        <qualifiedname>MR.Const_MeshProjectionTransforms.__MR_MeshProjectionTransforms_Get_rigidXfPoint</qualifiedname>
+        <param>
+          <type>Const_MeshProjectionTransforms._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="432" column="63"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -270,8 +380,14 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="284" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="285" bodyend="406"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="303" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="304" bodyend="433"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1aef487ba131188cd192c4c5b303362972" prot="private" virt="non-virtual"><scope>MR::Const_MeshProjectionTransforms</scope><name>__MR_MeshProjectionTransforms_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1a2e46bd99a5a40a3747fcee6806fcadfb" prot="private" virt="non-virtual"><scope>MR::Const_MeshProjectionTransforms</scope><name>__MR_MeshProjectionTransforms_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1ab89dfa2360210a21c11a3f5f557ac4e7" prot="private" virt="non-virtual"><scope>MR::Const_MeshProjectionTransforms</scope><name>__MR_MeshProjectionTransforms_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1a0439e1c2a3819b3b8b92fec6618690cd" prot="private" virt="non-virtual"><scope>MR::Const_MeshProjectionTransforms</scope><name>__MR_MeshProjectionTransforms_Destroy</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1a81675575eee8ef426f15a9abc985d9c8" prot="private" virt="non-virtual"><scope>MR::Const_MeshProjectionTransforms</scope><name>__MR_MeshProjectionTransforms_Get_nonRigidXfTree</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1a31fa35811000fb1169dabea30e342460" prot="private" virt="non-virtual"><scope>MR::Const_MeshProjectionTransforms</scope><name>__MR_MeshProjectionTransforms_Get_rigidXfPoint</name></member>
       <member refid="classMR_1_1Const__MeshProjectionTransforms_1a4a9ef1a3005bc2b043d1d3090a50fb23" prot="protected" virt="non-virtual"><scope>MR::Const_MeshProjectionTransforms</scope><name>__ptr_storage_nonRigidXfTree</name></member>
       <member refid="classMR_1_1Const__MeshProjectionTransforms_1afa2260291a6ca5322d272dd505d21fb6" prot="protected" virt="non-virtual"><scope>MR::Const_MeshProjectionTransforms</scope><name>__ptr_storage_rigidXfPoint</name></member>
       <member refid="classMR_1_1Const__MeshProjectionTransforms_1aff6427c1bc5b9d7a21491d29c26e1f92" prot="package" virt="non-virtual"><scope>MR::Const_MeshProjectionTransforms</scope><name>Const_MeshProjectionTransforms</name></member>

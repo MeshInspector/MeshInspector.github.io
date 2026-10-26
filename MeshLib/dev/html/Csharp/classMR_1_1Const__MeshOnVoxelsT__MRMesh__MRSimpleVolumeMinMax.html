@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -197,8 +190,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aad2ab1807503f8f9d624a61d01375c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::MeshOnVoxelsT&amp;lt;<a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">MR.Mesh</a>, <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">MR.SimpleVolumeMinMax</a>&amp;gt;<a class="el" href="#aad2ab1807503f8f9d624a61d01375c5a" title="Generated from method MR.MeshOnVoxelsT&lt;MR.Mesh, MR.SimpleVolumeMinMax&gt;getValue.">getValue</a></span>.  <br /></td></tr>
 <tr class="memitem:a50f6df56bd4ac43421abff5e943307cb" id="r_a50f6df56bd4ac43421abff5e943307cb"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50f6df56bd4ac43421abff5e943307cb">getOffsetVector</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v)</td></tr>
 <tr class="memdesc:a50f6df56bd4ac43421abff5e943307cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::MeshOnVoxelsT&amp;lt;<a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">MR.Mesh</a>, <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">MR.SimpleVolumeMinMax</a>&amp;gt;<a class="el" href="#a50f6df56bd4ac43421abff5e943307cb" title="Generated from method MR.MeshOnVoxelsT&lt;MR.Mesh, MR.SimpleVolumeMinMax&gt;getOffsetVector.">getOffsetVector</a></span>.  <br /></td></tr>
-<tr class="memitem:aac7f34a8b8e08cd9cb3012153cc3673e" id="r_aac7f34a8b8e08cd9cb3012153cc3673e"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac7f34a8b8e08cd9cb3012153cc3673e">getPoints</a> (MR.Std.Vector_MRVector3f result, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> pos, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> offset)</td></tr>
-<tr class="memdesc:aac7f34a8b8e08cd9cb3012153cc3673e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::MeshOnVoxelsT&amp;lt;<a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">MR.Mesh</a>, <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">MR.SimpleVolumeMinMax</a>&amp;gt;<a class="el" href="#aac7f34a8b8e08cd9cb3012153cc3673e" title="Generated from method MR.MeshOnVoxelsT&lt;MR.Mesh, MR.SimpleVolumeMinMax&gt;getPoints.">getPoints</a></span>.  <br /></td></tr>
+<tr class="memitem:a57311c148d0977ac3e8306c9d4d0b8fc" id="r_a57311c148d0977ac3e8306c9d4d0b8fc"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57311c148d0977ac3e8306c9d4d0b8fc">getPoints</a> (<a class="el" href="classMR_1_1VertCoords.html">MR.VertCoords</a> result, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> pos, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> offset)</td></tr>
+<tr class="memdesc:a57311c148d0977ac3e8306c9d4d0b8fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::MeshOnVoxelsT&amp;lt;<a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">MR.Mesh</a>, <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">MR.SimpleVolumeMinMax</a>&amp;gt;<a class="el" href="#a57311c148d0977ac3e8306c9d4d0b8fc" title="Generated from method MR.MeshOnVoxelsT&lt;MR.Mesh, MR.SimpleVolumeMinMax&gt;getPoints.">getPoints</a></span>.  <br /></td></tr>
 <tr class="memitem:ab8504bc8cbd04a723e99f2ec48f5f3ed" id="r_ab8504bc8cbd04a723e99f2ec48f5f3ed"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8504bc8cbd04a723e99f2ec48f5f3ed">getValues</a> (MR.Std.Vector_Float result, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> pos, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> offset)</td></tr>
 <tr class="memdesc:ab8504bc8cbd04a723e99f2ec48f5f3ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::MeshOnVoxelsT&amp;lt;<a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">MR.Mesh</a>, <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">MR.SimpleVolumeMinMax</a>&amp;gt;<a class="el" href="#ab8504bc8cbd04a723e99f2ec48f5f3ed" title="Generated from method MR.MeshOnVoxelsT&lt;MR.Mesh, MR.SimpleVolumeMinMax&gt;getValues.">getValues</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -485,8 +478,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aac7f34a8b8e08cd9cb3012153cc3673e" name="aac7f34a8b8e08cd9cb3012153cc3673e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac7f34a8b8e08cd9cb3012153cc3673e">&#9670;&#160;</a></span>getPoints()</h2>
+<a id="a57311c148d0977ac3e8306c9d4d0b8fc" name="a57311c148d0977ac3e8306c9d4d0b8fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57311c148d0977ac3e8306c9d4d0b8fc">&#9670;&#160;</a></span>getPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -497,7 +490,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.Const_MeshOnVoxelsT_MRMesh_MRSimpleVolumeMinMax.getPoints </td>
           <td>(</td>
-          <td class="paramtype">MR.Std.Vector_MRVector3f</td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classMR_1_1VertCoords.html">MR.VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -517,7 +510,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from method <span class="tt">MR::MeshOnVoxelsT&amp;lt;<a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">MR.Mesh</a>, <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">MR.SimpleVolumeMinMax</a>&amp;gt;<a class="el" href="#aac7f34a8b8e08cd9cb3012153cc3673e" title="Generated from method MR.MeshOnVoxelsT&lt;MR.Mesh, MR.SimpleVolumeMinMax&gt;getPoints.">getPoints</a></span>. </p>
+<p>Generated from method <span class="tt">MR::MeshOnVoxelsT&amp;lt;<a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">MR.Mesh</a>, <a class="el" href="classMR_1_1SimpleVolumeMinMax.html" title="represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values ...">MR.SimpleVolumeMinMax</a>&amp;gt;<a class="el" href="#a57311c148d0977ac3e8306c9d4d0b8fc" title="Generated from method MR.MeshOnVoxelsT&lt;MR.Mesh, MR.SimpleVolumeMinMax&gt;getPoints.">getPoints</a></span>. </p>
 
 </div>
 </div>

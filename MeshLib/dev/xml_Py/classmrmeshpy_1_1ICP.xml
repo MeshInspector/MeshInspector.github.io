@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23474" bodyend="23475"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22881" bodyend="22882"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a4c07482c39bbf3881a50651444969869" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICP" kindref="compound">ICP</ref></type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23478" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23478" bodyend="23479"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22885" bodyend="22886"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a4c07482c39bbf3881a50651444969869" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICP" kindref="compound">ICP</ref></type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23482" bodyend="23483"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22889" bodyend="22890"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -117,11 +117,12 @@
 \\param refXf transformation from reference object space to global space
 \\param fltSamples samples on floating object to find projections on the reference object during the algorithm
 \\param refSamples samples on reference object to find projections on the floating object during the algorithm
+the weight of each pair is the double area of mesh triangles around its sample vertex (1 for point clouds)
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23485" bodyend="23494"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22892" bodyend="22902"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a36a99edc38ba57f5e82e4949dcdcb00e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -157,7 +158,86 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23496" bodyend="23497"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22904" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22904" bodyend="22905"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a6661371a9fa89518dfb653dfe2ba4551" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ICP.__init__</definition>
+        <argsstring>(self, MeshOrPoints flt, MeshOrPoints ref, AffineXf3f fltXf, AffineXf3f refXf, std_vector_WeightedVertexT_float fltSamples, std_vector_WeightedVertexT_float refSamples)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ICP.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref></type>
+          <declname>flt</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref></type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>fltXf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>refXf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float" kindref="compound">std_vector_WeightedVertexT_float</ref></type>
+          <declname>fltSamples</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float" kindref="compound">std_vector_WeightedVertexT_float</ref></type>
+          <declname>refSamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Constructs ICP framework with given sample points on both objects and the weights of their pairs,
+the weights stay fixed during the algorithm
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22907" bodyend="22911"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1adc4c3c9548d695c2a20400bf230607da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ICP.__init__</definition>
+        <argsstring>(self, MeshOrPointsXf flt, MeshOrPointsXf ref, std_vector_WeightedVertexT_float fltSamples, std_vector_WeightedVertexT_float refSamples)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ICP.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
+          <declname>flt</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float" kindref="compound">std_vector_WeightedVertexT_float</ref></type>
+          <declname>fltSamples</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float" kindref="compound">std_vector_WeightedVertexT_float</ref></type>
+          <declname>refSamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22913" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22913" bodyend="22914"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1ad91d69feaf6b798b3b73c33592148c07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -198,11 +278,12 @@
 \\param fltXf transformation from floating object space to global space
 \\param refXf transformation from reference object space to global space
 \\param samplingVoxelSize approximate distance between samples on each of two objects
+all pairs get equal weights, and a mesh with big triangles gets samples inside them as in samplePoints( samplingVoxelSize, true )
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23499" bodyend="23507"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22916" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22916" bodyend="22925"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1ae7d35c40ed63cd5f9e8598db7252b6c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -232,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23509" bodyend="23510"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22927" bodyend="22928"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a92b9ef0d1a5def58daac012cbcaf9784" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -256,7 +337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23512" bodyend="23515"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22930" bodyend="22933"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a37edf5cdda1dbaf284a40a1995366e17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
@@ -278,7 +359,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23516" bodyend="23521"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22934" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22934" bodyend="22939"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a8b197b26b518c037cf7a7d78854f966e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
@@ -299,7 +380,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23522" bodyend="23526"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22940" bodyend="22944"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1af30ef0b9eabdfdb42ae92dffe12f8e53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PointPairs" kindref="compound">PointPairs</ref></type>
@@ -319,7 +400,28 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23527" bodyend="23530"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22945" bodyend="22948"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1ad2d7b379075f62a7a93c7cb0dba740bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.ICP.getFltSamplesCloud</definition>
+        <argsstring>(self)</argsstring>
+        <name>getFltSamplesCloud</name>
+        <qualifiedname>mrmeshpy.ICP.getFltSamplesCloud</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the samples on floating object in its local space, with normals if the object has them;
+i-th point of the cloud is the source of i-th pair in getFlt2RefPairs()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22949" bodyend="22953"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a3012e91ef09c7d311868b8085f54f02a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -337,7 +439,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23531" bodyend="23532"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22954" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22954" bodyend="22955"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a1c0eeefafeb368191a0e6562c8419ea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -357,7 +459,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23533" bodyend="23536"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22956" bodyend="22959"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a415cadec9cd861b0c2d1e73cb0dd823c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -377,7 +479,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23537" bodyend="23540"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22960" bodyend="22963"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1aba5c754f8b557f5cd073e093b72ea1fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -397,7 +499,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23541" bodyend="23544"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22964" bodyend="22967"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a8ab6db5ee41b97dc8901fe2912c12f89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -417,7 +519,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23545" bodyend="23548"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22968" bodyend="22971"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a277d781cbf6564b7391a9f999d13589d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICPProperties" kindref="compound">ICPProperties</ref></type>
@@ -435,7 +537,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23549" bodyend="23550"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22972" bodyend="22973"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a9417ab6b0f89eb260cb193ff61fcceb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1PointPairs" kindref="compound">PointPairs</ref></type>
@@ -455,7 +557,28 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23551" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23551" bodyend="23554"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22974" bodyend="22977"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1ad758f861542f9f7663d5e12c64207aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.ICP.getRefSamplesCloud</definition>
+        <argsstring>(self)</argsstring>
+        <name>getRefSamplesCloud</name>
+        <qualifiedname>mrmeshpy.ICP.getRefSamplesCloud</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the samples on reference object in its local space, with normals if the object has them;
+i-th point of the cloud is the source of i-th pair in getRef2FltPairs()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22978" bodyend="22982"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a4b3d3a4629f37f9e36c389b8743ede91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -473,12 +596,12 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23555" bodyend="23556"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22983" bodyend="22984"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1ae74966352e9497f6602c550641ea1567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a4d96212e6b333f3935e9afa8256b5d98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.ICP.sampleFltPoints</definition>
-        <argsstring>(self, float samplingVoxelSize)</argsstring>
+        <argsstring>(self, float samplingVoxelSize, bool nonVertexSamples=True)</argsstring>
         <name>sampleFltPoints</name>
         <qualifiedname>mrmeshpy.ICP.sampleFltPoints</qualifiedname>
         <param>
@@ -489,18 +612,23 @@ applies the transformation to the floating object and returns it
           <type>float</type>
           <declname>samplingVoxelSize</declname>
         </param>
+        <param>
+          <type>bool</type>
+          <declname>nonVertexSamples</declname>
+          <defval>True</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23557" bodyend="23558"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22985" bodyend="22986"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a104163f5c7cf2235a5e74b7adc1de60a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a77e6ff8e013d3298e963dd4971c29d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.ICP.samplePoints</definition>
-        <argsstring>(self, float samplingVoxelSize)</argsstring>
+        <argsstring>(self, float samplingVoxelSize, bool nonVertexSamples=True)</argsstring>
         <name>samplePoints</name>
         <qualifiedname>mrmeshpy.ICP.samplePoints</qualifiedname>
         <param>
@@ -511,6 +639,11 @@ applies the transformation to the floating object and returns it
           <type>float</type>
           <declname>samplingVoxelSize</declname>
         </param>
+        <param>
+          <type>bool</type>
+          <declname>nonVertexSamples</declname>
+          <defval>True</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -519,12 +652,12 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23559" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23559" bodyend="23562"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22987" bodyend="22990"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1aeb7770adee0665ba02b26deca3fb6b66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a433784f62a60e2d9ad4e41de3c539117" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.ICP.sampleRefPoints</definition>
-        <argsstring>(self, float samplingVoxelSize)</argsstring>
+        <argsstring>(self, float samplingVoxelSize, bool nonVertexSamples=True)</argsstring>
         <name>sampleRefPoints</name>
         <qualifiedname>mrmeshpy.ICP.sampleRefPoints</qualifiedname>
         <param>
@@ -535,13 +668,18 @@ applies the transformation to the floating object and returns it
           <type>float</type>
           <declname>samplingVoxelSize</declname>
         </param>
+        <param>
+          <type>bool</type>
+          <declname>nonVertexSamples</declname>
+          <defval>True</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23563" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23563" bodyend="23564"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22991" bodyend="22992"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a2ea525f82352741afd656ff3fd7d377f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -563,7 +701,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23565" bodyend="23566"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22993" bodyend="22994"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1aa17b6110c040aef16e368f932091bd56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -585,7 +723,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23567" bodyend="23568"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22995" bodyend="22996"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a2b76e72a0c01645742ffa8b30aabe825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -607,7 +745,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23569" bodyend="23570"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22997" bodyend="22998"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1acb1c0237ed1c2d7ff7a6a0d62ea8ed41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -629,7 +767,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23571" bodyend="23572"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22999" bodyend="23000"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a5c09efcec0c97872218a7ce93f5b3653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -653,7 +791,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23573" bodyend="23576"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23001" bodyend="23004"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1aa86f60890e6f19bfdad5f70de1130955" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -672,12 +810,16 @@ applies the transformation to the floating object and returns it
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>select pairs with origin samples on floating object
+<para><verbatim>select pairs with origin samples on floating object;
+setFltSamples weights each pair by the double area of mesh triangles around its sample vertex,
+sampleFltPoints performs grid sampling and gives all pairs equal weights;
+\\param nonVertexSamples if true, a mesh with triangles too big for the sampling is sampled from its dense point cloud
+       (see meshToDensePointCloud) to get the samples inside the triangles and on the edges as well; otherwise only its vertices are sampled
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23577" bodyend="23580"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23005" bodyend="23012"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1ac0dcef5e07c1f116cd0eab6ee10deb8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -701,7 +843,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23581" bodyend="23584"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23013" bodyend="23016"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a3883d5ac966f8b92a04c7d7fa18b4327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -720,12 +862,12 @@ applies the transformation to the floating object and returns it
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>select pairs with origin samples on reference object
+<para><verbatim>select pairs with origin samples on reference object, weighted and sampled the same way as for floating object
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23585" bodyend="23588"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23017" bodyend="23020"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a1af5d734af135af38cae796f963b12c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -753,7 +895,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23589" bodyend="23592"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23021" bodyend="23024"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1acb36c4cea4d75ae5271591859211235e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -773,7 +915,7 @@ applies the transformation to the floating object and returns it
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23593" bodyend="23596"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23025" bodyend="23028"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -786,17 +928,20 @@ Iterative Closest Points (ICP) point-to-point or point-to-plane algorithms
 \\snippet cpp-examples/MeshICP.dox.cpp 0
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23464" bodyend="23596"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22871" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22871" bodyend="23028"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ICP_1a0737ba639106d17e6fa545a85195c01c" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a21e0e8fe1edaf1a11bce6ade76c5bdcc" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a36a99edc38ba57f5e82e4949dcdcb00e" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ICP_1a6661371a9fa89518dfb653dfe2ba4551" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ICP_1adc4c3c9548d695c2a20400bf230607da" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ICP_1ad91d69feaf6b798b3b73c33592148c07" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ICP_1ae7d35c40ed63cd5f9e8598db7252b6c6" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a92b9ef0d1a5def58daac012cbcaf9784" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a37edf5cdda1dbaf284a40a1995366e17" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>autoSelectFloatXf</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a8b197b26b518c037cf7a7d78854f966e" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>calculateTransformation</name></member>
       <member refid="classmrmeshpy_1_1ICP_1af30ef0b9eabdfdb42ae92dffe12f8e53" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>getFlt2RefPairs</name></member>
+      <member refid="classmrmeshpy_1_1ICP_1ad2d7b379075f62a7a93c7cb0dba740bc" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>getFltSamplesCloud</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a3012e91ef09c7d311868b8085f54f02a" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>getLastICPInfo</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a1c0eeefafeb368191a0e6562c8419ea2" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>getMeanSqDistToPlane</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a415cadec9cd861b0c2d1e73cb0dd823c" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>getMeanSqDistToPoint</name></member>
@@ -804,12 +949,13 @@ Iterative Closest Points (ICP) point-to-point or point-to-plane algorithms
       <member refid="classmrmeshpy_1_1ICP_1a8ab6db5ee41b97dc8901fe2912c12f89" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>getNumSamples</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a277d781cbf6564b7391a9f999d13589d" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>getParams</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a9417ab6b0f89eb260cb193ff61fcceb2" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>getRef2FltPairs</name></member>
+      <member refid="classmrmeshpy_1_1ICP_1ad758f861542f9f7663d5e12c64207aa8" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>getRefSamplesCloud</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a4b3d3a4629f37f9e36c389b8743ede91" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>getStatusInfo</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a4c07482c39bbf3881a50651444969869" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a4c07482c39bbf3881a50651444969869" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>operator</name></member>
-      <member refid="classmrmeshpy_1_1ICP_1ae74966352e9497f6602c550641ea1567" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>sampleFltPoints</name></member>
-      <member refid="classmrmeshpy_1_1ICP_1a104163f5c7cf2235a5e74b7adc1de60a" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>samplePoints</name></member>
-      <member refid="classmrmeshpy_1_1ICP_1aeb7770adee0665ba02b26deca3fb6b66" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>sampleRefPoints</name></member>
+      <member refid="classmrmeshpy_1_1ICP_1a4d96212e6b333f3935e9afa8256b5d98" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>sampleFltPoints</name></member>
+      <member refid="classmrmeshpy_1_1ICP_1a77e6ff8e013d3298e963dd4971c29d2b" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>samplePoints</name></member>
+      <member refid="classmrmeshpy_1_1ICP_1a433784f62a60e2d9ad4e41de3c539117" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>sampleRefPoints</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a2ea525f82352741afd656ff3fd7d377f" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>setBadIterCount</name></member>
       <member refid="classmrmeshpy_1_1ICP_1aa17b6110c040aef16e368f932091bd56" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>setCosineLimit</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a2b76e72a0c01645742ffa8b30aabe825" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>setDistanceLimit</name></member>

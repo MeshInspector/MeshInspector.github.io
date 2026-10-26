@@ -7,6 +7,7 @@ var classMR_1_1Const__CylinderObject =
     [ "classNameInPlural", "classMR_1_1Const__CylinderObject.html#a81336d0eff52c89dcafe5b692196ee1c", null ],
     [ "clone", "classMR_1_1Const__CylinderObject.html#a885ad1f68ccac7e7a65fe5cf4b4ff051", null ],
     [ "cloneTree", "classMR_1_1Const__CylinderObject.html#a3d3a9191f927426b24e3316092930616", null ],
+    [ "constChildren", "classMR_1_1Const__CylinderObject.html#a15c97c8006718707945473f87dfad53a", null ],
     [ "Dispose", "classMR_1_1Const__CylinderObject.html#afa05943c1f8903e6122ae75414406b48", null ],
     [ "Dispose", "classMR_1_1Const__CylinderObject.html#aae7062e2f3b954e2846b07ac87f4d780", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__CylinderObject.html#aad792f8473af5859d4885cbd2497467e", null ],

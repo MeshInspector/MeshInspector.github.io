@@ -15,6 +15,12 @@
     <sectiondef kind="typedef">
       <member refid="group__GeneralGroup_1gaae1698e7265ea3826cd2442fae545416" kind="typedef"><name>BetterDupContinuation</name></member>
     </sectiondef>
+    <sectiondef kind="var">
+      <member refid="group__GeneralGroup_1ga23b7741683f546f6f6f7cc9e01268a35" kind="variable"><name>closeDist</name></member>
+      <member refid="group__GeneralGroup_1ga5a25563874c1189777a31e5494f28f29" kind="variable"><name>uniteOnlyBd</name></member>
+      <member refid="group__GeneralGroup_1ga29b93496214c0e773af29f717a45304d" kind="variable"><name>optionalVertOldToNew</name></member>
+      <member refid="group__GeneralGroup_1gabea2a6a01fbeedb07cfeef9283e8c34a" kind="variable"><name>params</name></member>
+    </sectiondef>
     <sectiondef kind="func">
       <member refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kind="function"><name>fromTriangles</name></member>
       <member refid="group__GeneralGroup_1gac85a71548f3100e3b6dec18adaab539d" kind="function"><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
@@ -24,8 +30,8 @@
       <member refid="group__GeneralGroup_1gaddfd35d380df5345cbda74b4bdfeff6f" kind="function"><name>addTriangles</name></member>
       <member refid="group__GeneralGroup_1gabb87fb2cc9c28dca88cac5adbb077bc2" kind="function"><name>fromFaceSoup</name></member>
       <member refid="group__GeneralGroup_1gaf14db16fd78b08d340b0a0aaa94907c9" kind="function"><name>computeTrianglesRepetitions</name></member>
-      <member refid="group__GeneralGroup_1gafd13ce716b18402ee77952081cf52e40" kind="function"><name>uniteCloseVertices</name></member>
-      <member refid="group__GeneralGroup_1ga735c792eb0d3d6adc4c77f067f973d46" kind="function"><name>uniteCloseVertices</name></member>
+      <member refid="group__GeneralGroup_1gaa025e5add547573085ebcafb05da4759" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__GeneralGroup_1ga82376a94925cb41439befe12e547b3c3" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1ga7454d25501e5125b48c8dc0d68bdfa2b" kind="function"><name>duplicateNonManifoldVertices</name></member>
       <member refid="group__GeneralGroup_1ga2058ddb2325a81e9a96e54f834eea5d6" kind="function"><name>inspectVertNeighbourhood</name></member>
     </sectiondef>

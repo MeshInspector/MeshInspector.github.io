@@ -25,6 +25,7 @@ var MRCombinedHistoryAction_8h =
     [ "MR_CombinedHistoryAction_name", "MRCombinedHistoryAction_8h.html#a8b88c3b1e5bd125bb75725222bfbf478", null ],
     [ "MR_CombinedHistoryAction_OffsetMutablePtr", "MRCombinedHistoryAction_8h.html#a357ad63a29a4a68513baad2c39b918b7", null ],
     [ "MR_CombinedHistoryAction_OffsetPtr", "MRCombinedHistoryAction_8h.html#a3b9d0e6c102aa38463908fb35a6c33ef", null ],
+    [ "MR_CombinedHistoryAction_setName", "MRCombinedHistoryAction_8h.html#a0bb91d64f3d2f4f8aa787f8ba5dea069", null ],
     [ "MR_CombinedHistoryAction_StaticDowncastFrom_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#a515408fbecd7f49a4a6bc62b3f7ce984", null ],
     [ "MR_CombinedHistoryAction_UpcastTo_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#ab34818d7a6e3479327d8d1e030a05a2d", null ],
     [ "MR_getDynamicName", "MRCombinedHistoryAction_8h.html#a184be39ae6048f8f1a3dd0271be82ef8", null ]

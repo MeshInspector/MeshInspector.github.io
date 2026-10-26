@@ -25,6 +25,7 @@ var classMR_1_1Const__MeshOrPoints =
     [ "points", "classMR_1_1Const__MeshOrPoints.html#a6d9acc448c20db29b26fc93f84c564a4", null ],
     [ "pointsGridSampling", "classMR_1_1Const__MeshOrPoints.html#a83452a7bd4ab7450f942749ff662ba93", null ],
     [ "projector", "classMR_1_1Const__MeshOrPoints.html#a87e38afc4fed3ec778f4d5b8c7ae8d2a", null ],
+    [ "surfaceGridSampling", "classMR_1_1Const__MeshOrPoints.html#a741dcb1a2c87f4e8f338daac03f399f5", null ],
     [ "validPoints", "classMR_1_1Const__MeshOrPoints.html#aa72a88f95c5a208823ac37a33353d1ab", null ],
     [ "weights", "classMR_1_1Const__MeshOrPoints.html#a4b155f1b2ffc4f006b80a730baf82d67", null ]
 ];

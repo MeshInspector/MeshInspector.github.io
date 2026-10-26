@@ -16,16 +16,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66689" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97905" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97905" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a264fd45c19d22d548a59eef31b1e1156" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a41c7222edf4c9358f204d00b7e92ff9f" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.Vector_FaceBitSet_GraphVertId::_offsetof_vec_</definition>
+        <definition>typing mrmeshpy.Vector_FaceBitSet_GraphVertId::_offsetof_vec</definition>
         <argsstring></argsstring>
-        <name>_offsetof_vec_</name>
-        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId._offsetof_vec_</qualifiedname>
+        <name>_offsetof_vec</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId._offsetof_vec</qualifiedname>
         <initializer>=  0</initializer>
         <briefdescription>
         </briefdescription>
@@ -33,10 +33,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66690" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66690" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97906" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a86f5178d80c03b36b680ac32230b5d53" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_FaceBitSet_GraphVertId::const_pointer</definition>
+        <argsstring></argsstring>
+        <name>const_pointer</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.const_pointer</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97907" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aec83af2223f07b1ac2044621cfe0ba80" prot="public" static="yes" mutable="no">
         <type></type>
         <definition>mrmeshpy.Vector_FaceBitSet_GraphVertId::const_reference</definition>
@@ -50,7 +65,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66691" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97908" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aa59775dcaee9a824f4c9ca8805dcab30" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_FaceBitSet_GraphVertId::pointer</definition>
+        <argsstring></argsstring>
+        <name>pointer</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.pointer</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97909" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ae5a39dff6372831b112c1c93b934962e" prot="public" static="yes" mutable="no">
         <type></type>
@@ -65,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66692" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97910" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ab20d5194b1c838c3d41ccd6ef290b997" prot="public" static="yes" mutable="no">
         <type></type>
@@ -80,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66693" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97911" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -104,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66696" bodyend="66697"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97914" bodyend="97915"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a7fb4e096d02b39c04b9f19df37e05d1e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId" kindref="compound">Vector_FaceBitSet_GraphVertId</ref></type>
@@ -126,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66700" bodyend="66701"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97918" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97918" bodyend="97919"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a7fb4e096d02b39c04b9f19df37e05d1e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId" kindref="compound">Vector_FaceBitSet_GraphVertId</ref></type>
@@ -148,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66704" bodyend="66705"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97922" bodyend="97923"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -172,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66706" bodyend="66707"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97924" bodyend="97925"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a76d7860db32b2d7e9bf8fdcc6855298c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -194,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66709" bodyend="66710"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97927" bodyend="97928"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a76d7860db32b2d7e9bf8fdcc6855298c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -216,7 +246,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66712" bodyend="66713"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97930" bodyend="97931"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aa8b9ba3ae514060ce829e89ba11fe8f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -236,7 +266,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66715" bodyend="66718"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97933" bodyend="97936"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ae7aabddef58c7f16ea76fe0b99784e6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -260,7 +290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66720" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66720" bodyend="66723"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97938" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97938" bodyend="97941"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8a5887a2dd9211e31687e9ed55432fae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -288,12 +318,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66725" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66725" bodyend="66728"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97943" bodyend="97946"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad423406a4e31b03069e5cca375ec17ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1adbf53cffe71ee9928367ba1cb3864c9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</definition>
-        <argsstring>(self, std_vector_TypedBitSet_Id_FaceTag vec)</argsstring>
+        <argsstring>(self, list arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__init__</qualifiedname>
         <param>
@@ -301,18 +331,16 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
-          <declname>vec</declname>
+          <type>list</type>
+          <declname>arg0</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>moves data from the given std::vector&lt;T&gt;
-</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66730" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66730" bodyend="66733"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97948" bodyend="97949"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a207bffe09246f61725337f6faac7f016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -336,7 +364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66735" bodyend="66738"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97951" bodyend="97954"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1afa70019b84901265c4df20f2ec7026c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Iterator[<ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref>]</type>
@@ -354,7 +382,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66739" bodyend="66740"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97955" bodyend="97956"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a70497b957df7df8d60d2fbf50e8f9fd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_FaceBitSet_GraphVertId.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97957" bodyend="97958"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a02a7c1759ff2e12bfdea32804e3fbabc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -376,7 +422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66741" bodyend="66742"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97959" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97959" bodyend="97960"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aad18040b35c76413e3ac09d882e356b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -402,7 +448,35 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66743" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66743" bodyend="66744"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97961" bodyend="97962"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a6890cc93faad2f6be7ab91d76bc05736" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.assign</definition>
+        <argsstring>(self, int count, FaceBitSet val)</argsstring>
+        <name>assign</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.assign</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>replaces the contents with \\p count copies of \\p val
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97963" bodyend="97966"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a58a8db2bf6cdce229aaee72069c06d15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -426,7 +500,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66745" bodyend="66748"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97967" bodyend="97970"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a21edaf3ae862f5601b449b5e9763b460" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -459,7 +533,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66750" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66750" bodyend="66754"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97972" bodyend="97976"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aeb52bd7a1f44ab5dcfc865c13ed72aea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -487,7 +561,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66756" bodyend="66759"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97978" bodyend="97981"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8e2f108e5ca880502ae6a3a3f3921810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -505,7 +579,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66761" bodyend="66762"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97983" bodyend="97984"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8e2f108e5ca880502ae6a3a3f3921810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -523,7 +597,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66764" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66764" bodyend="66765"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97986" bodyend="97987"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a730a9576eb793257125caf9485ff1e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -543,7 +617,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66766" bodyend="66769"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97988" bodyend="97991"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a83587c83b413f2aced2e783189017640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -563,7 +637,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66770" bodyend="66773"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97992" bodyend="97995"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a925a7df8578855e164880721c588b595" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -581,7 +655,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66774" bodyend="66775"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97996" bodyend="97997"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aab87d89cee6723c19680ec0e64216f0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -599,7 +673,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66776" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66776" bodyend="66777"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97998" bodyend="97999"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a5e590f9e830e42966bdcf88f37af4ba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -617,7 +691,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66779" bodyend="66780"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98001" bodyend="98002"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a5e590f9e830e42966bdcf88f37af4ba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -635,7 +709,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66782" bodyend="66783"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98004" bodyend="98005"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a554ffcf920581effdfb46ed0c2a4d5ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -653,7 +727,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66784" bodyend="66785"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98006" bodyend="98007"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a9c6510ae37527f8adf292f41ceb43b6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
@@ -673,7 +747,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66786" bodyend="66789"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98008" bodyend="98011"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad4bc45df1717364895b7482ff7c18545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -691,7 +765,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66791" bodyend="66792"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98013" bodyend="98014"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad4bc45df1717364895b7482ff7c18545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -709,7 +783,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66794" bodyend="66795"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98016" bodyend="98017"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad01465ea8a2f3eec16a868b6f88f858c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -729,7 +803,25 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66796" bodyend="66799"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98018" bodyend="98021"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aa07c47ef3d82c6a2b47f025f744c67b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_FaceBitSet_GraphVertId.max_size</definition>
+        <argsstring>(self)</argsstring>
+        <name>max_size</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.max_size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98022" bodyend="98023"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ab8d64a89519c2c6e3cab8611008c23f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -747,7 +839,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66800" bodyend="66801"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98024" bodyend="98025"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8a2a2853f788add244ff7291013cf537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -769,7 +861,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66803" bodyend="66804"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98027" bodyend="98028"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8a2a2853f788add244ff7291013cf537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -791,7 +883,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66806" bodyend="66807"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98030" bodyend="98031"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a620bc22cb783011d53c0049e0496bea6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -813,7 +905,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66808" bodyend="66809"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98032" bodyend="98033"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a94dc55e5540a5735571bcb99fe269b04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -835,7 +927,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66811" bodyend="66812"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98035" bodyend="98036"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a9870f7dbff54cf06d02f8393ccc2561d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -861,7 +953,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66814" bodyend="66815"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98038" bodyend="98039"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a0d8e1435ed4c8df465b47f9adc194889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -880,12 +972,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+<para><verbatim>same as resize(newSize), which already grows the capacity geometrically
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66817" bodyend="66820"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98041" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98041" bodyend="98044"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad636d35d6dcf470ffd10e861747ef8bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -908,12 +1000,30 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+<para><verbatim>same as resize(newSize, value), which already grows the capacity geometrically
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66822" bodyend="66825"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98046" bodyend="98049"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aa1a5b4661de1136754ae3eab973d0a98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.shrink_to_fit</definition>
+        <argsstring>(self)</argsstring>
+        <name>shrink_to_fit</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.shrink_to_fit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98050" bodyend="98051"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a03c0006c3df6f2d3cb1fe67c49d357d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -931,7 +1041,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66826" bodyend="66827"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98052" bodyend="98053"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad4d23d373a52c5be1ff3227f416f8010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -953,14 +1063,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66828" bodyend="66829"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98054" bodyend="98055"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ae3b5d470e870ed7cd84790844c0f4f47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a67b9e0d993df963f7a3c6c7cb623b382" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
-        <definition> std_vector_TypedBitSet_Id_FaceTag mrmeshpy.Vector_FaceBitSet_GraphVertId.vec_</definition>
+        <definition> std_vector_TypedBitSet_Id_FaceTag mrmeshpy.Vector_FaceBitSet_GraphVertId.vec</definition>
         <argsstring>(self)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -973,14 +1083,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66831" bodyend="66834"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98057" bodyend="98060"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a25b968a590d8397d220ce205d73e4d53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a08bb8cc372ce9cbda893f55ecbbf5368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.vec_</definition>
+        <definition> None mrmeshpy.Vector_FaceBitSet_GraphVertId.vec</definition>
         <argsstring>(self, std_vector_TypedBitSet_Id_FaceTag arg1)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Vector_FaceBitSet_GraphVertId.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -995,7 +1105,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66836" bodyend="66837"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="98062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="98062" bodyend="98063"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1009,7 +1119,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
  \\tparam I type of index (shall be convertible to size_t)
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66679" bodyend="66837"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="97895" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="97895" bodyend="98063"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ac330be2ba998b4d18f85e8bcc3ea3abd" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a76d7860db32b2d7e9bf8fdcc6855298c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__getitem__</name></member>
@@ -1019,12 +1129,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aa8b9ba3ae514060ce829e89ba11fe8f4" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ae7aabddef58c7f16ea76fe0b99784e6e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8a5887a2dd9211e31687e9ed55432fae" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad423406a4e31b03069e5cca375ec17ec" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1adbf53cffe71ee9928367ba1cb3864c9e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a207bffe09246f61725337f6faac7f016" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1afa70019b84901265c4df20f2ec7026c6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a70497b957df7df8d60d2fbf50e8f9fd2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__len__</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a02a7c1759ff2e12bfdea32804e3fbabc" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__ne__</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aad18040b35c76413e3ac09d882e356b1" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>__setitem__</name></member>
-      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a264fd45c19d22d548a59eef31b1e1156" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a41c7222edf4c9358f204d00b7e92ff9f" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>_offsetof_vec</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a6890cc93faad2f6be7ab91d76bc05736" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>assign</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a58a8db2bf6cdce229aaee72069c06d15" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>autoResizeAt</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a21edaf3ae862f5601b449b5e9763b460" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aeb52bd7a1f44ab5dcfc865c13ed72aea" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>autoResizeSet</name></member>
@@ -1034,6 +1146,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a83587c83b413f2aced2e783189017640" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>beginId</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a925a7df8578855e164880721c588b595" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>capacity</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aab87d89cee6723c19680ec0e64216f0b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a86f5178d80c03b36b680ac32230b5d53" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>const_pointer</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aec83af2223f07b1ac2044621cfe0ba80" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>const_reference</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a5e590f9e830e42966bdcf88f37af4ba2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>data</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a5e590f9e830e42966bdcf88f37af4ba2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>data</name></member>
@@ -1042,8 +1155,10 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad4bc45df1717364895b7482ff7c18545" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>front</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad4bc45df1717364895b7482ff7c18545" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>front</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad01465ea8a2f3eec16a868b6f88f858c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aa07c47ef3d82c6a2b47f025f744c67b2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>max_size</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a7fb4e096d02b39c04b9f19df37e05d1e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a7fb4e096d02b39c04b9f19df37e05d1e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aa59775dcaee9a824f4c9ca8805dcab30" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>pointer</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ab8d64a89519c2c6e3cab8611008c23f4" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>pop_back</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8a2a2853f788add244ff7291013cf537" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>push_back</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a8a2a2853f788add244ff7291013cf537" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>push_back</name></member>
@@ -1053,11 +1168,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a9870f7dbff54cf06d02f8393ccc2561d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>resize</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a0d8e1435ed4c8df465b47f9adc194889" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>resizeWithReserve</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad636d35d6dcf470ffd10e861747ef8bb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aa1a5b4661de1136754ae3eab973d0a98" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>shrink_to_fit</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a03c0006c3df6f2d3cb1fe67c49d357d8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad4d23d373a52c5be1ff3227f416f8010" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>swap</name></member>
       <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ab20d5194b1c838c3d41ccd6ef290b997" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>value_type</name></member>
-      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ae3b5d470e870ed7cd84790844c0f4f47" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>vec_</name></member>
-      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a25b968a590d8397d220ce205d73e4d53" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a67b9e0d993df963f7a3c6c7cb623b382" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>vec</name></member>
+      <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a08bb8cc372ce9cbda893f55ecbbf5368" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_FaceBitSet_GraphVertId</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

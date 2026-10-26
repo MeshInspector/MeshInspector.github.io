@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -169,7 +162,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:gaf9cfebf3c57b3c9b6283d7de32fc4adc" id="r_gaf9cfebf3c57b3c9b6283d7de32fc4adc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf9cfebf3c57b3c9b6283d7de32fc4adc">postRenderViewport</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport)</td></tr>
 <tr class="memdesc:gaf9cfebf3c57b3c9b6283d7de32fc4adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is called after doing <span class="tt"><a class="el" href="group__GeneralGroup.html#ga82fb37eb78d6e11f1b41f3fc2a99c5eb">IRenderObject::renderUi()</a></span> on even object in a viewport. Each viewport is rendered separately.  <br /></td></tr>
 <tr class="memitem:ga9601bd6d868289506f00155eb4711f5e" id="r_ga9601bd6d868289506f00155eb4711f5e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9601bd6d868289506f00155eb4711f5e">beginBackwardPass</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport, <a class="el" href="group__GeneralGroup.html#ga7db0595bba979c4028be5875ef3e067d">UiRenderParams::UiTaskList</a> &amp;tasks)</td></tr>
-<tr class="memitem:gaba65991bd7f7faf987ac0662a31a5875" id="r_gaba65991bd7f7faf987ac0662a31a5875"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaba65991bd7f7faf987ac0662a31a5875">finishBackwardPass</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport, const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a> &amp;params)</td></tr>
+<tr class="memitem:gaba65991bd7f7faf987ac0662a31a5875" id="r_gaba65991bd7f7faf987ac0662a31a5875"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaba65991bd7f7faf987ac0662a31a5875">finishBackwardPass</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> viewport, const <a class="el" href="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html">BasicUiRenderTask::BackwardPassParams</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>)</td></tr>
 <tr class="memdesc:gaba65991bd7f7faf987ac0662a31a5875"><td class="mdescLeft">&#160;</td><td class="mdescRight">After the backward pass is performed, the parameters should be passed back into this function.  <br /></td></tr>
 </table>
 <hr/>The documentation for this struct was generated from the following file:<ul>

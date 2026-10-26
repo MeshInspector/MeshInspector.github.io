@@ -1,7 +1,7 @@
 var classMR_1_1Const__PointsToMeshParameters =
 [
     [ "Const_PointsToMeshParameters", "classMR_1_1Const__PointsToMeshParameters.html#a076346c0ea79f7b88195379911ebcf02", null ],
-    [ "Const_PointsToMeshParameters", "classMR_1_1Const__PointsToMeshParameters.html#a817d7c1000024ae94237fc7d802176dc", null ],
+    [ "Const_PointsToMeshParameters", "classMR_1_1Const__PointsToMeshParameters.html#aa6edfd99b208481c6c0d85c04d60f9bc", null ],
     [ "Const_PointsToMeshParameters", "classMR_1_1Const__PointsToMeshParameters.html#ab79bd52781d94d37903c2d935409ec6a", null ],
     [ "Const_PointsToMeshParameters", "classMR_1_1Const__PointsToMeshParameters.html#a0248e7c825803bab138e061fe38b2ed1", null ],
     [ "Const_PointsToMeshParameters", "classMR_1_1Const__PointsToMeshParameters.html#a0538a1e85676e7a2ec4e43e28552850d", null ],
@@ -14,9 +14,7 @@ var classMR_1_1Const__PointsToMeshParameters =
     [ "__ref_storage_sigma", "classMR_1_1Const__PointsToMeshParameters.html#aea516f7af31fab0ae85180b2d1255a29", null ],
     [ "__ref_storage_sqrtAngleWeight", "classMR_1_1Const__PointsToMeshParameters.html#a2010a4d4f929d6741af518f3fd2d9d12", null ],
     [ "__ref_storage_voxelSize", "classMR_1_1Const__PointsToMeshParameters.html#af997c9525f603613e6ff75a1ea68735f", null ],
-    [ "canCreateVolume", "classMR_1_1Const__PointsToMeshParameters.html#aae18caaa3bb9bd3240bf96ebd0e33706", null ],
-    [ "createVolumeCallback", "classMR_1_1Const__PointsToMeshParameters.html#a6c4781fd883c61c4a473f3de098aa8a3", null ],
-    [ "createVolumeCallbackByParts", "classMR_1_1Const__PointsToMeshParameters.html#a38a31e932b5615f7587359cc76638036", null ],
+    [ "computeVolume", "classMR_1_1Const__PointsToMeshParameters.html#aee409bf98af98d78c8215dde1ebc8793", null ],
     [ "invSigmaModifier", "classMR_1_1Const__PointsToMeshParameters.html#a95f75f5cf7a77640285fafebde2c8691", null ],
     [ "minWeight", "classMR_1_1Const__PointsToMeshParameters.html#a79464b89268dcf11dbcb17438e2c33bb", null ],
     [ "progress", "classMR_1_1Const__PointsToMeshParameters.html#a1b99cc62d1197b4aa8fd6b274166eae7", null ],

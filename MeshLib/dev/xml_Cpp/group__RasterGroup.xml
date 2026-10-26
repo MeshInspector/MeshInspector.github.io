@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="group__RasterGroup" kind="group">
+    <compoundname>RasterGroup</compoundname>
+    <title>Raster</title>
+    <innerclass refid="structMR_1_1RasterInfo" prot="public">MR::RasterInfo</innerclass>
+    <innerclass refid="structMR_1_1Raster" prot="public">MR::Raster</innerclass>
+    <innerclass refid="structMR_1_1RasterLoadSettings" prot="public">MR::RasterLoadSettings</innerclass>
+    <innerclass refid="structMR_1_1RasterSaveSettings" prot="public">MR::RasterSaveSettings</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__RasterGroup_1gadcb09b212975aa3c7b3267ef39c306e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Image &gt;</type>
+        <definition>Expected&lt; Image &gt; MR::convertRasterToImage</definition>
+        <argsstring>(const Raster &amp;raster)</argsstring>
+        <name>convertRasterToImage</name>
+        <qualifiedname>MR::convertRasterToImage</qualifiedname>
+        <param>
+          <type>const Raster &amp;</type>
+          <declname>raster</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts a raster with one layer to an image (the rows are reordered from bottom to top):<itemizedlist>
+<listitem><para>the values of one channel are scaled from the range of finite values to gray colors, NaN and infinite values become black;</para>
+</listitem><listitem><para>three or more channels are RGB or RGBA colors (the channels after the fourth are ignored): integer values keep their high byte and are taken as unsigned ones, floating-point values are clamped to [0, 1], NaN becomes 0 </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="50" column="11" declfile="MRMesh/MRRaster.h" declline="50" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__RasterGroup_1gafac7517a903175c5a262beba1b91f775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE Expected&lt; void &gt;</type>
+        <definition>MR_BIND_IGNORE Expected&lt; void &gt; MR::convertRasterToFloats</definition>
+        <argsstring>(const Raster &amp;raster, float *dst, size_t size)</argsstring>
+        <name>convertRasterToFloats</name>
+        <qualifiedname>MR::convertRasterToFloats</qualifiedname>
+        <param>
+          <type>const Raster &amp;</type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts the values of a raster to floats in dst, which has room for size = dims.x * dims.y * dims.z values, in the order of the raster:<itemizedlist>
+<listitem><para>one channel is taken as is;</para>
+</listitem><listitem><para>three or more channels give the luma 0.299 R + 0.587 G + 0.114 B of the first three; fails for two channels, an unknown type, negative dimensions, data whose size does not match the dimensions, or another size </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="56" column="26" declfile="MRMesh/MRRaster.h" declline="56" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="group__RasterGroup_1ga9ef3666bc6712baf860863656831fa63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::convertRasterToFloats</definition>
+        <argsstring>(const Raster &amp;raster, std::vector&lt; float &gt; &amp;dst)</argsstring>
+        <name>convertRasterToFloats</name>
+        <qualifiedname>MR::convertRasterToFloats</qualifiedname>
+        <param>
+          <type>const Raster &amp;</type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts the values of a raster to floats as above, dst is resized to dims.x * dims.y * dims.z values (memory is reallocated only if its capacity is too small) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="60" column="11" declfile="MRMesh/MRRaster.h" declline="60" declcolumn="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

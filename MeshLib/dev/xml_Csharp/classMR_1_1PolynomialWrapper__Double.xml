@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="2851" column="180" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="2851" bodyend="2851"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3074" column="180" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3074" bodyend="3074"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="2870" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="2870" bodyend="2874"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3091" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3091" bodyend="3095"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="2880" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="2880" bodyend="2887"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3101" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3101" bodyend="3106"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolynomialWrapper__Double_1ab7e0bed08e5331efba54deb047dddbf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="2892" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="2892" bodyend="2892"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3111" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3111" bodyend="3111"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PolynomialWrapper__Double_1a875c3e2b0bb34fc363fddbb7bea7f0be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PolynomialWrapper__Double" kindref="compound">MR.PolynomialWrapper_Double</ref></type>
@@ -99,7 +99,67 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="2897" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="2897" bodyend="2904"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3116" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3116" bodyend="3121"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1PolynomialWrapper__Double_1ab6a77d448f5c6b3a113b782793af9535" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.PolynomialWrapper_Double._Underlying *</type>
+        <definition>static unsafe MR.PolynomialWrapper_Double._Underlying * MR.PolynomialWrapper_Double.__MR_PolynomialWrapper_double_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.PolynomialWrapper_Double._Underlying *_other)</argsstring>
+        <name>__MR_PolynomialWrapper_double_AssignFromAnother</name>
+        <qualifiedname>MR.PolynomialWrapper_Double.__MR_PolynomialWrapper_double_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.PolynomialWrapper_Double._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3126" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolynomialWrapper__Double_1abdf19628066f8970de9a29ed8dc731b2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.PolynomialWrapper_Double._Underlying *</type>
+        <definition>static unsafe MR.PolynomialWrapper_Double._Underlying * MR.PolynomialWrapper_Double.__MR_PolynomialWrapper_double_ConstructFromAnother</definition>
+        <argsstring>(MR.PolynomialWrapper_Double._Underlying *_other)</argsstring>
+        <name>__MR_PolynomialWrapper_double_ConstructFromAnother</name>
+        <qualifiedname>MR.PolynomialWrapper_Double.__MR_PolynomialWrapper_double_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.PolynomialWrapper_Double._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3129" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolynomialWrapper__Double_1a144e43aa6e999b48a4880e6c3b1dbb14" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Variant_MRPolynomialDouble0_MRPolynomialDouble1_MRPolynomialDouble2_MRPolynomialDouble3_MRPolynomialDouble4_MRPolynomialDouble5_MRPolynomialDouble6._Underlying *</type>
+        <definition>static unsafe MR.Std.Variant_MRPolynomialDouble0_MRPolynomialDouble1_MRPolynomialDouble2_MRPolynomialDouble3_MRPolynomialDouble4_MRPolynomialDouble5_MRPolynomialDouble6._Underlying * MR.PolynomialWrapper_Double.__MR_PolynomialWrapper_double_GetMutable_poly</definition>
+        <argsstring>(MR.PolynomialWrapper_Double._Underlying *_this)</argsstring>
+        <name>__MR_PolynomialWrapper_double_GetMutable_poly</name>
+        <qualifiedname>MR.PolynomialWrapper_Double.__MR_PolynomialWrapper_double_GetMutable_poly</qualifiedname>
+        <param>
+          <type>MR.PolynomialWrapper_Double._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3132" column="194"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -151,8 +211,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="2849" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="2850" bodyend="2905"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3072" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3073" bodyend="3133"/>
     <listofallmembers>
+      <member refid="classMR_1_1PolynomialWrapper__Double_1ab6a77d448f5c6b3a113b782793af9535" prot="private" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>__MR_PolynomialWrapper_double_AssignFromAnother</name></member>
+      <member refid="classMR_1_1PolynomialWrapper__Double_1abdf19628066f8970de9a29ed8dc731b2" prot="private" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>__MR_PolynomialWrapper_double_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1PolynomialWrapper__Double_1a144e43aa6e999b48a4880e6c3b1dbb14" prot="private" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>__MR_PolynomialWrapper_double_GetMutable_poly</name></member>
       <member refid="classMR_1_1PolynomialWrapper__Double_1a875c3e2b0bb34fc363fddbb7bea7f0be" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__PolynomialWrapper__Double_1a5fe042b1ec436bf59052bd6dfe4572ae" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>call</name></member>
       <member refid="classMR_1_1Const__PolynomialWrapper__Double_1a8f48e6158c1e48704d88d347b89b235c" prot="package" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>Const_PolynomialWrapper_Double</name></member>

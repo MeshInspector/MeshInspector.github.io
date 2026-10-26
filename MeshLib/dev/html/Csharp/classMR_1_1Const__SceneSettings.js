@@ -23,13 +23,21 @@ var classMR_1_1Const__SceneSettings =
       [ "Smooth", "classMR_1_1Const__SceneSettings.html#ab15c090ffcb727728253f63e2586b202ae510cdf33cd497134b47b9316314d4b4", null ],
       [ "Flat", "classMR_1_1Const__SceneSettings.html#ab15c090ffcb727728253f63e2586b202a745e3db6a7ffd50e1a72b39482f0882d", null ]
     ] ],
+    [ "StringType", "classMR_1_1Const__SceneSettings.html#a236aa31006a27c2ceeadf9bec24ed6f6", [
+      [ "MeshSerializeFormat", "classMR_1_1Const__SceneSettings.html#a236aa31006a27c2ceeadf9bec24ed6f6a7c7083efbc53c626f151a4d9e7b029bb", null ],
+      [ "PointsSerializeFormat", "classMR_1_1Const__SceneSettings.html#a236aa31006a27c2ceeadf9bec24ed6f6a6aa229db0ba7959da11cbdb84060f3d9", null ],
+      [ "VoxelsSerializeFormat", "classMR_1_1Const__SceneSettings.html#a236aa31006a27c2ceeadf9bec24ed6f6a11502ad3cfb527908a8174aa52271159", null ],
+      [ "Count", "classMR_1_1Const__SceneSettings.html#a236aa31006a27c2ceeadf9bec24ed6f6ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "get", "classMR_1_1Const__SceneSettings.html#adec0b6e3b12330b2c40db004f53d1098", null ],
     [ "get", "classMR_1_1Const__SceneSettings.html#a981acea46e61ecc0c0df398addade9f4", null ],
+    [ "get", "classMR_1_1Const__SceneSettings.html#a93cba51f238bd218e8b8f14a47cc4d12", null ],
     [ "getCNCMachineSettings", "classMR_1_1Const__SceneSettings.html#a6ef81598066fa1e41faec46f8c5e0132", null ],
     [ "getDefaultShadingMode", "classMR_1_1Const__SceneSettings.html#aaf0578659b9f3c0593c356b793eb0f33", null ],
     [ "reset", "classMR_1_1Const__SceneSettings.html#ab285e662cfa798bc223af09694a1b36a", null ],
     [ "set", "classMR_1_1Const__SceneSettings.html#a381163c488d8c158f329595b55629150", null ],
     [ "set", "classMR_1_1Const__SceneSettings.html#a389e0af5c2195f84bbb7ca29bc03b0db", null ],
+    [ "set", "classMR_1_1Const__SceneSettings.html#a81c68504a5c83b1f8e0bb2cbb41524e1", null ],
     [ "setCNCMachineSettings", "classMR_1_1Const__SceneSettings.html#ab03b93807f22b06fa29ab562cbbe644a", null ],
     [ "setDefaultShadingMode", "classMR_1_1Const__SceneSettings.html#a8995b958620e8d19417ac54baff76fdc", null ]
 ];

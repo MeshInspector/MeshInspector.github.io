@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="207" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="207" bodyend="207"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="222" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="222" bodyend="222"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="212" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="212" bodyend="217"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="227" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="227" bodyend="230"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType_1a9af831e1b2e0266aee8a5af4587bfdcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="222" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="222" bodyend="228"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="235" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="235" bodyend="239"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType_1a99e4a3e9834ad4795182155b3148dc9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="233" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="233" bodyend="233"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="244" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="244" bodyend="244"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType_1aebd2d78fe438756066b02221d670218e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType" kindref="compound">MR.IsVisualizeMaskEnum_MRVisualizeMaskType</ref></type>
@@ -98,7 +98,63 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="238" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="238" bodyend="245"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="249" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="249" bodyend="254"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType_1aa40660b7fa2437b77c97524b805028b4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.IsVisualizeMaskEnum_MRVisualizeMaskType._Underlying *</type>
+        <definition>static unsafe MR.IsVisualizeMaskEnum_MRVisualizeMaskType._Underlying * MR.IsVisualizeMaskEnum_MRVisualizeMaskType.__MR_IsVisualizeMaskEnum_MR_VisualizeMaskType_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.IsVisualizeMaskEnum_MRVisualizeMaskType._Underlying *_other)</argsstring>
+        <name>__MR_IsVisualizeMaskEnum_MR_VisualizeMaskType_AssignFromAnother</name>
+        <qualifiedname>MR.IsVisualizeMaskEnum_MRVisualizeMaskType.__MR_IsVisualizeMaskEnum_MR_VisualizeMaskType_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.IsVisualizeMaskEnum_MRVisualizeMaskType._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="259" column="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType_1a8b301945853f09100e073fa239fb7312" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.IsVisualizeMaskEnum_MRVisualizeMaskType._Underlying *</type>
+        <definition>static unsafe MR.IsVisualizeMaskEnum_MRVisualizeMaskType._Underlying * MR.IsVisualizeMaskEnum_MRVisualizeMaskType.__MR_IsVisualizeMaskEnum_MR_VisualizeMaskType_ConstructFromAnother</definition>
+        <argsstring>(MR.IsVisualizeMaskEnum_MRVisualizeMaskType._Underlying *_other)</argsstring>
+        <name>__MR_IsVisualizeMaskEnum_MR_VisualizeMaskType_ConstructFromAnother</name>
+        <qualifiedname>MR.IsVisualizeMaskEnum_MRVisualizeMaskType.__MR_IsVisualizeMaskEnum_MR_VisualizeMaskType_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.IsVisualizeMaskEnum_MRVisualizeMaskType._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="262" column="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType_1a1671ace37ffc0ae569d84753e7195752" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.IsVisualizeMaskEnum_MRVisualizeMaskType._Underlying *</type>
+        <definition>static unsafe MR.IsVisualizeMaskEnum_MRVisualizeMaskType._Underlying * MR.IsVisualizeMaskEnum_MRVisualizeMaskType.__MR_IsVisualizeMaskEnum_MR_VisualizeMaskType_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_IsVisualizeMaskEnum_MR_VisualizeMaskType_DefaultConstruct</name>
+        <qualifiedname>MR.IsVisualizeMaskEnum_MRVisualizeMaskType.__MR_IsVisualizeMaskEnum_MR_VisualizeMaskType_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="265" column="83"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -150,8 +206,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="205" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="206" bodyend="246"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="220" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="221" bodyend="266"/>
     <listofallmembers>
+      <member refid="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType_1aa40660b7fa2437b77c97524b805028b4" prot="private" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRVisualizeMaskType</scope><name>__MR_IsVisualizeMaskEnum_MR_VisualizeMaskType_AssignFromAnother</name></member>
+      <member refid="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType_1a8b301945853f09100e073fa239fb7312" prot="private" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRVisualizeMaskType</scope><name>__MR_IsVisualizeMaskEnum_MR_VisualizeMaskType_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType_1a1671ace37ffc0ae569d84753e7195752" prot="private" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRVisualizeMaskType</scope><name>__MR_IsVisualizeMaskEnum_MR_VisualizeMaskType_DefaultConstruct</name></member>
       <member refid="classMR_1_1IsVisualizeMaskEnum__MRVisualizeMaskType_1aebd2d78fe438756066b02221d670218e" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRVisualizeMaskType</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRVisualizeMaskType_1a15803cfc725cb3741ecbcf84ed9b2d82" prot="package" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRVisualizeMaskType</scope><name>Const_IsVisualizeMaskEnum_MRVisualizeMaskType</name></member>
       <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRVisualizeMaskType_1a81bd03d2aad23858b466f63255347d2f" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRVisualizeMaskType</scope><name>Const_IsVisualizeMaskEnum_MRVisualizeMaskType</name></member>

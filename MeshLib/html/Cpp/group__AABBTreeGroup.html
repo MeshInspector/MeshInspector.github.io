@@ -141,8 +141,7 @@ $(function(){initNavTree('group__AABBTreeGroup.html','',''); });
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">AABB Tree overview </div></div>
 </div><!--header-->
 <div class="contents">
@@ -260,8 +259,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga7fcb33a674ea8b57ac858e40d42e26e3" id="r_ga7fcb33a674ea8b57ac858e40d42e26e3"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga7fcb33a674ea8b57ac858e40d42e26e3 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7fcb33a674ea8b57ac858e40d42e26e3">MR::findMaxVectorDim</a> (int &amp;dimX, int &amp;dimY, int &amp;dimZ, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;dir)</td></tr>
 <tr class="memdesc:ga7fcb33a674ea8b57ac858e40d42e26e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds index of maximum axis and stores it into dimZ  <br /></td></tr>
-<tr class="memitem:ga9984ed4cff38cd012243e835f02e0e92" id="r_ga9984ed4cff38cd012243e835f02e0e92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9984ed4cff38cd012243e835f02e0e92">MR::IntersectionPrecomputes&lt; T &gt;::IntersectionPrecomputes</a> ()=default</td></tr>
-<tr class="memitem:gac2a5a2178c875139ca3e402c1a46324c" id="r_gac2a5a2178c875139ca3e402c1a46324c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac2a5a2178c875139ca3e402c1a46324c">MR::IntersectionPrecomputes&lt; T &gt;::IntersectionPrecomputes</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;dir)</td></tr>
 <tr class="memitem:ga562052fddd56327be07ffe8c0cc7f7af" id="r_ga562052fddd56327be07ffe8c0cc7f7af"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga562052fddd56327be07ffe8c0cc7f7af template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga562052fddd56327be07ffe8c0cc7f7af">MR::findMaxVectorDim</a> (int &amp;dimX, int &amp;dimY, const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;dir)</td></tr>
 <tr class="memdesc:ga562052fddd56327be07ffe8c0cc7f7af"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds index of maximum axis and stores it into dimY  <br /></td></tr>
@@ -390,20 +387,6 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga1b96837dfe7b08b0a261c94d6814b536"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on the mesh edges (specified by the tree) to given point  <br /></td></tr>
 <tr class="memitem:ga03e6a1eb9021cda27a103e38c550532c" id="r_ga03e6a1eb9021cda27a103e38c550532c"><td class="memItemLeft" align="right" valign="top">PolylineProjectionResult3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga03e6a1eb9021cda27a103e38c550532c">MR::findProjectionOnMeshEdges</a> (const Line3f &amp;ln, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const AABBTreePolyline3 &amp;tree, float upDistLimitSq=FLT_MAX, AffineXf3f *xf=nullptr, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:ga03e6a1eb9021cda27a103e38c550532c"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on the mesh edges (specified by the tree) to given straight line  <br /></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ga20bce157ca3d8b30509d233be68639ec" id="r_ga20bce157ca3d8b30509d233be68639ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga20bce157ca3d8b30509d233be68639ec">MR::IntersectionPrecomputes&lt; T &gt;::invDir</a></td></tr>
-<tr class="memdesc:ga20bce157ca3d8b30509d233be68639ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">{1 / dir}  <br /></td></tr>
-<tr class="memitem:gaffa5bcb7a516c4dda421ace86e2597c2" id="r_gaffa5bcb7a516c4dda421ace86e2597c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaffa5bcb7a516c4dda421ace86e2597c2">MR::IntersectionPrecomputes&lt; T &gt;::maxDimIdxZ</a> = 2</td></tr>
-<tr class="memitem:ga59240ce19dcf5b27221a347b22086fcb" id="r_ga59240ce19dcf5b27221a347b22086fcb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga59240ce19dcf5b27221a347b22086fcb">MR::IntersectionPrecomputes&lt; T &gt;::idxX</a> = 0</td></tr>
-<tr class="memitem:ga1e89bb11cf7c4693e1c8839963994a08" id="r_ga1e89bb11cf7c4693e1c8839963994a08"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1e89bb11cf7c4693e1c8839963994a08">MR::IntersectionPrecomputes&lt; T &gt;::idxY</a> = 1</td></tr>
-<tr class="memitem:ga18e2b9f640d3aab9e4db07a72514384b" id="r_ga18e2b9f640d3aab9e4db07a72514384b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga18e2b9f640d3aab9e4db07a72514384b">MR::IntersectionPrecomputes&lt; T &gt;::sign</a></td></tr>
-<tr class="memdesc:ga18e2b9f640d3aab9e4db07a72514384b"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores signs of direction vector;  <br /></td></tr>
-<tr class="memitem:ga21465bc7d67177777744f39ac171940c" id="r_ga21465bc7d67177777744f39ac171940c"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga21465bc7d67177777744f39ac171940c">MR::IntersectionPrecomputes&lt; T &gt;::Sx</a></td></tr>
-<tr class="memdesc:ga21465bc7d67177777744f39ac171940c"><td class="mdescLeft">&#160;</td><td class="mdescRight">precomputed factors  <br /></td></tr>
-<tr class="memitem:gaf95502c89221bba3187782d4ed18199b" id="r_gaf95502c89221bba3187782d4ed18199b"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf95502c89221bba3187782d4ed18199b">MR::IntersectionPrecomputes&lt; T &gt;::Sy</a></td></tr>
-<tr class="memitem:ga6159c869b0afc38ccf26091c1681194a" id="r_ga6159c869b0afc38ccf26091c1681194a"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6159c869b0afc38ccf26091c1681194a">MR::IntersectionPrecomputes&lt; T &gt;::Sz</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>This chapter represents documentation about AABB Tree. </p>
@@ -3564,64 +3547,6 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga9984ed4cff38cd012243e835f02e0e92" name="ga9984ed4cff38cd012243e835f02e0e92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9984ed4cff38cd012243e835f02e0e92">&#9670;&#160;</a></span>IntersectionPrecomputes() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt; T &gt;::IntersectionPrecomputes </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRIntersectionPrecomputes_8h.html">MRMesh/MRIntersectionPrecomputes.h</a>&gt;</code></p>
-
-</div>
-</div>
-<a id="gac2a5a2178c875139ca3e402c1a46324c" name="gac2a5a2178c875139ca3e402c1a46324c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac2a5a2178c875139ca3e402c1a46324c">&#9670;&#160;</a></span>IntersectionPrecomputes() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt; T &gt;::IntersectionPrecomputes </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRIntersectionPrecomputes_8h.html">MRMesh/MRIntersectionPrecomputes.h</a>&gt;</code></p>
-
-</div>
-</div>
 <a id="ga7892dab0d0fdaed07c3c16c0b4ccc6e9" name="ga7892dab0d0fdaed07c3c16c0b4ccc6e9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga7892dab0d0fdaed07c3c16c0b4ccc6e9">&#9670;&#160;</a></span>isInside() <span class="overload">[1/2]</span></h2>
 
@@ -4595,142 +4520,6 @@ template&lt;typename T&gt; </div>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="ga59240ce19dcf5b27221a347b22086fcb" name="ga59240ce19dcf5b27221a347b22086fcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga59240ce19dcf5b27221a347b22086fcb">&#9670;&#160;</a></span>idxX</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">int <a class="el" href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt; T &gt;::idxX = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga1e89bb11cf7c4693e1c8839963994a08" name="ga1e89bb11cf7c4693e1c8839963994a08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1e89bb11cf7c4693e1c8839963994a08">&#9670;&#160;</a></span>idxY</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">int <a class="el" href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt; T &gt;::idxY = 1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga20bce157ca3d8b30509d233be68639ec" name="ga20bce157ca3d8b30509d233be68639ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga20bce157ca3d8b30509d233be68639ec">&#9670;&#160;</a></span>invDir</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt;T&gt; <a class="el" href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt; T &gt;::invDir</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>{1 / dir} </p>
-
-</div>
-</div>
-<a id="gaffa5bcb7a516c4dda421ace86e2597c2" name="gaffa5bcb7a516c4dda421ace86e2597c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaffa5bcb7a516c4dda421ace86e2597c2">&#9670;&#160;</a></span>maxDimIdxZ</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">int <a class="el" href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt; T &gt;::maxDimIdxZ = 2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>[0]max, [1]next, [2]next-next f.e. {1,2,-3} =&gt; {2,1,0} </p>
-
-</div>
-</div>
-<a id="ga18e2b9f640d3aab9e4db07a72514384b" name="ga18e2b9f640d3aab9e4db07a72514384b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga18e2b9f640d3aab9e4db07a72514384b">&#9670;&#160;</a></span>sign</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> Vector3i <a class="el" href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt; T &gt;::sign</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>stores signs of direction vector; </p>
-
-</div>
-</div>
-<a id="ga21465bc7d67177777744f39ac171940c" name="ga21465bc7d67177777744f39ac171940c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga21465bc7d67177777744f39ac171940c">&#9670;&#160;</a></span>Sx</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">T <a class="el" href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt; T &gt;::Sx</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>precomputed factors </p>
-
-</div>
-</div>
-<a id="gaf95502c89221bba3187782d4ed18199b" name="gaf95502c89221bba3187782d4ed18199b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf95502c89221bba3187782d4ed18199b">&#9670;&#160;</a></span>Sy</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">T <a class="el" href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt; T &gt;::Sy</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga6159c869b0afc38ccf26091c1681194a" name="ga6159c869b0afc38ccf26091c1681194a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6159c869b0afc38ccf26091c1681194a">&#9670;&#160;</a></span>Sz</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">T <a class="el" href="structMR_1_1IntersectionPrecomputes.html">MR::IntersectionPrecomputes</a>&lt; T &gt;::Sz</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

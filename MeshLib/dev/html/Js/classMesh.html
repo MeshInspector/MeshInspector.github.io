@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib JavaScript Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -151,6 +144,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3c3547ec119da203c626a4aa601bc56" id="r_ac3c3547ec119da203c626a4aa601bc56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3c3547ec119da203c626a4aa601bc56">pack</a> ()</td></tr>
 <tr class="memdesc:ac3c3547ec119da203c626a4aa601bc56"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid faces, vertices and points  <br /></td></tr>
 <tr class="memitem:aed586a2285b09d1dfed0e38590449e7c" id="r_aed586a2285b09d1dfed0e38590449e7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed586a2285b09d1dfed0e38590449e7c">packOptimally</a> ()</td></tr>
+<tr class="memitem:ae1bc43197a3d4b28091f90acf78cfdff" id="r_ae1bc43197a3d4b28091f90acf78cfdff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1bc43197a3d4b28091f90acf78cfdff">packOptimally</a> (<a class="el" href="bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb">boolean</a> preserveAABBTree)</td></tr>
 <tr class="memitem:a7bce69de1b3b56a1c71d2eaf4cda8c14" id="r_a7bce69de1b3b56a1c71d2eaf4cda8c14"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bce69de1b3b56a1c71d2eaf4cda8c14">volume</a> ()</td></tr>
 <tr class="memitem:a75fdb3c699d2af450f9e78fb83624151" id="r_a75fdb3c699d2af450f9e78fb83624151"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75fdb3c699d2af450f9e78fb83624151">area</a> ()</td></tr>
 <tr class="memdesc:a75fdb3c699d2af450f9e78fb83624151"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the area of given face  <br /></td></tr>
@@ -160,7 +154,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afef6c0fdd9be27f56df5e640b0757991" id="r_afef6c0fdd9be27f56df5e640b0757991"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afef6c0fdd9be27f56df5e640b0757991">averageEdgeLength</a> ()</td></tr>
 <tr class="memdesc:afef6c0fdd9be27f56df5e640b0757991"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes average length of an edge in this mesh  <br /></td></tr>
 <tr class="memitem:a12c6818a0e2b7fbe13abc8d2ef127598" id="r_a12c6818a0e2b7fbe13abc8d2ef127598"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12c6818a0e2b7fbe13abc8d2ef127598">addMesh</a> (<a class="el" href="classMesh.html">Mesh</a> from)</td></tr>
-<tr class="memdesc:a12c6818a0e2b7fbe13abc8d2ef127598"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends another mesh as separate connected component(s) to this  <br /></td></tr>
 <tr class="memitem:a087b81110d0306b12060dcf4f4632d89" id="r_a087b81110d0306b12060dcf4f4632d89"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a087b81110d0306b12060dcf4f4632d89">edgeLength</a> (number e)</td></tr>
 <tr class="memdesc:a087b81110d0306b12060dcf4f4632d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Euclidean length of the edge  <br /></td></tr>
 <tr class="memitem:abb25df88a2365672263bbaa57da6dade" id="r_abb25df88a2365672263bbaa57da6dade"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb25df88a2365672263bbaa57da6dade">edgeLengthSq</a> (number e)</td></tr>
@@ -204,8 +197,6 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>appends another mesh as separate connected component(s) to this </p>
 
 </div>
 </div>
@@ -261,7 +252,6 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>passes through all valid vertices and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space </p>
 
 </div>
 </div>
@@ -483,7 +473,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aed586a2285b09d1dfed0e38590449e7c" name="aed586a2285b09d1dfed0e38590449e7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed586a2285b09d1dfed0e38590449e7c">&#9670;&#160;</a></span>packOptimally()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aed586a2285b09d1dfed0e38590449e7c">&#9670;&#160;</a></span>packOptimally() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -498,7 +488,30 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>packs tightly and rearranges vertices, triangles and edges to put close in space elements in close indices</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">preserveAABBTree</td><td>whether to keep valid mesh's AABB tree after return (it will take longer to compute and it will occupy more memory) </td></tr>
+    <tr><td class="paramname">preserveAABBTree</td><td>whether to keep valid mesh's AABB tree after return (it will take longer to compute and it will occupy more memory); an already constructed tree is used for faster ordering of faces in any case </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae1bc43197a3d4b28091f90acf78cfdff" name="ae1bc43197a3d4b28091f90acf78cfdff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1bc43197a3d4b28091f90acf78cfdff">&#9670;&#160;</a></span>packOptimally() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Mesh::packOptimally </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb">boolean</a></td>          <td class="paramname"><span class="paramname"><em>preserveAABBTree</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>packs tightly and rearranges vertices, triangles and edges to put close in space elements in close indices</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">preserveAABBTree</td><td>whether to keep valid mesh's AABB tree after return (it will take longer to compute and it will occupy more memory); an already constructed tree is used for faster ordering of faces in any case </td></tr>
   </table>
   </dd>
 </dl>

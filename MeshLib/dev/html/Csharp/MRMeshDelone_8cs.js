@@ -1,6 +1,8 @@
 var MRMeshDelone_8cs =
 [
     [ "MR", "classMR.html", "classMR" ],
+    [ "MR.Const_DeloneFlipsCache", "classMR_1_1Const__DeloneFlipsCache.html", "classMR_1_1Const__DeloneFlipsCache" ],
+    [ "MR.DeloneFlipsCache", "classMR_1_1DeloneFlipsCache.html", "classMR_1_1DeloneFlipsCache" ],
     [ "MR.Const_DeloneSettings", "classMR_1_1Const__DeloneSettings.html", "classMR_1_1Const__DeloneSettings" ],
     [ "MR.DeloneSettings", "classMR_1_1DeloneSettings.html", "classMR_1_1DeloneSettings" ],
     [ "MR.Const_IntrinsicDeloneSettings", "classMR_1_1Const__IntrinsicDeloneSettings.html", "classMR_1_1Const__IntrinsicDeloneSettings" ],

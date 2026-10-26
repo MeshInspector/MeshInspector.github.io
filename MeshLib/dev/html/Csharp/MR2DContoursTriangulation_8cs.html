@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -167,6 +160,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <span class="tt"><a class="el" href="classMR_1_1PlanarTriangulation_1_1TriangulationParameters.html" title="Generated from class MR.PlanarTriangulation.TriangulationParameters. This is the non-const half of th...">MR.PlanarTriangulation.TriangulationParameters</a></span>. This is the const half of the class.  <a href="classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_2EPlanarTriangulation_2ETriangulationParameters" id="r_MR_2EPlanarTriangulation_2ETriangulationParameters"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PlanarTriangulation_1_1TriangulationParameters.html">MR.PlanarTriangulation.TriangulationParameters</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <span class="tt"><a class="el" href="classMR_1_1PlanarTriangulation_1_1TriangulationParameters.html" title="Generated from class MR.PlanarTriangulation.TriangulationParameters. This is the non-const half of th...">MR.PlanarTriangulation.TriangulationParameters</a></span>. This is the non-const half of the class.  <a href="classMR_1_1PlanarTriangulation_1_1TriangulationParameters.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_2EPlanarTriangulation_2EConst_5FISweepLineCache" id="r_MR_2EPlanarTriangulation_2EConst_5FISweepLineCache"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache.html">MR.PlanarTriangulation.Const_ISweepLineCache</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">keeps the internal buffers of the sweep-line triangulation alive between runs, so a caller triangulating many contour sets one by one avoids re-allocating them on every call; the entries returning a <a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">Mesh</a> move the topology and the points out into it, so those two grow again on the next run, while triangulateDisjointContoursTopology keeps everything; one cache must not be used by several threads at once Generated from class <span class="tt"><a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html" title="keeps the internal buffers of the sweep-line triangulation alive between runs, so a caller triangulat...">MR.PlanarTriangulation.ISweepLineCache</a></span>. This is the const half of the class.  <a href="classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_2EPlanarTriangulation_2EISweepLineCache" id="r_MR_2EPlanarTriangulation_2EISweepLineCache"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">MR.PlanarTriangulation.ISweepLineCache</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">keeps the internal buffers of the sweep-line triangulation alive between runs, so a caller triangulating many contour sets one by one avoids re-allocating them on every call; the entries returning a <a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">Mesh</a> move the topology and the points out into it, so those two grow again on the next run, while triangulateDisjointContoursTopology keeps everything; one cache must not be used by several threads at once Generated from class <span class="tt"><a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html" title="keeps the internal buffers of the sweep-line triangulation alive between runs, so a caller triangulat...">MR.PlanarTriangulation.ISweepLineCache</a></span>. This is the non-const half of the class.  <a href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html#details">More...</a><br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

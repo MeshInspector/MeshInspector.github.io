@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -188,10 +181,12 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:aa1b966c1463f3a195e2c728b9b6c7830" id="r_aa1b966c1463f3a195e2c728b9b6c7830"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1b966c1463f3a195e2c728b9b6c7830">name</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:aa1b966c1463f3a195e2c728b9b6c7830"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name from the o line of the object; empty for the faces before the first o line, as for an o line without a name  <br /></td></tr>
 <tr class="memitem:a413efd77a70baa2e49300c8dac9e610f" id="r_a413efd77a70baa2e49300c8dac9e610f"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a413efd77a70baa2e49300c8dac9e610f">mesh</a><code> [get, protected set]</code></td></tr>
 <tr class="memitem:a762e869d6231660434dea2863139fe49" id="r_a762e869d6231660434dea2863139fe49"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1VertCoords2.html">MR.VertCoords2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a762e869d6231660434dea2863139fe49">uvCoords</a><code> [get, protected set]</code></td></tr>
 <tr class="memitem:a83df369949fb7ca4840f095f06ff6672" id="r_a83df369949fb7ca4840f095f06ff6672"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83df369949fb7ca4840f095f06ff6672">colors</a><code> [get, protected set]</code></td></tr>
 <tr class="memitem:ac3a26fc116c40a1c6ce876c838c066f9" id="r_ac3a26fc116c40a1c6ce876c838c066f9"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1Vector__StdFilesystemPath__MRTextureId.html">MR.Vector_StdFilesystemPath_MRTextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3a26fc116c40a1c6ce876c838c066f9">textureFiles</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ac3a26fc116c40a1c6ce876c838c066f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">texture files of the materials; an empty path stands for the faces without a texture (their material has no texture file or was not found), if other faces of the mesh have one  <br /></td></tr>
 <tr class="memitem:aad07cab7a883439078ddc87a2bca8067" id="r_aad07cab7a883439078ddc87a2bca8067"><td class="memItemLeft" align="right" valign="top">new unsafe <a class="el" href="classMR_1_1TexturePerFace.html">MR.TexturePerFace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad07cab7a883439078ddc87a2bca8067">texturePerFace</a><code> [get, protected set]</code></td></tr>
 <tr class="memitem:a812afbc92ca49f2f9bed3b6303377086" id="r_a812afbc92ca49f2f9bed3b6303377086"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.Optional_MRColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a812afbc92ca49f2f9bed3b6303377086">diffuseColor</a><code> [get, protected set]</code></td></tr>
 <tr class="memitem:ab38471b0efea5c1d7b13d08a3d6b5ee6" id="r_ab38471b0efea5c1d7b13d08a3d6b5ee6"><td class="memItemLeft" align="right" valign="top">new unsafe ref <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab38471b0efea5c1d7b13d08a3d6b5ee6">xf</a><code> [get]</code></td></tr>
@@ -202,10 +197,12 @@ Properties</h2></td></tr>
 <tr class="memdesc:a589a9d13c772f51e18a5c88f602276a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">counter of duplicated vertices (that created for resolve non-manifold geometry)  <br /></td></tr>
 <tr class="inherit_header properties_classMR_1_1MeshLoad_1_1Const__NamedMesh"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1MeshLoad_1_1Const__NamedMesh')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Properties inherited from <a class="el" href="classMR_1_1MeshLoad_1_1Const__NamedMesh.html">MR.MeshLoad.Const_NamedMesh</a></td></tr>
 <tr class="memitem:afad016a0348378eceb82713731ee28a3 inherit properties_classMR_1_1MeshLoad_1_1Const__NamedMesh" id="r_afad016a0348378eceb82713731ee28a3"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshLoad_1_1Const__NamedMesh.html#afad016a0348378eceb82713731ee28a3">name</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:afad016a0348378eceb82713731ee28a3 inherit properties_classMR_1_1MeshLoad_1_1Const__NamedMesh"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name from the o line of the object; empty for the faces before the first o line, as for an o line without a name  <br /></td></tr>
 <tr class="memitem:a50ff296f7b165e6bb2ddb7d5f16377af inherit properties_classMR_1_1MeshLoad_1_1Const__NamedMesh" id="r_a50ff296f7b165e6bb2ddb7d5f16377af"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshLoad_1_1Const__NamedMesh.html#a50ff296f7b165e6bb2ddb7d5f16377af">mesh</a><code> [get, protected set]</code></td></tr>
 <tr class="memitem:aa7330ac2826acd9e28fe993cda7213c6 inherit properties_classMR_1_1MeshLoad_1_1Const__NamedMesh" id="r_aa7330ac2826acd9e28fe993cda7213c6"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__VertCoords2.html">MR.Const_VertCoords2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshLoad_1_1Const__NamedMesh.html#aa7330ac2826acd9e28fe993cda7213c6">uvCoords</a><code> [get, protected set]</code></td></tr>
 <tr class="memitem:a198a97336d5d7e305511f74e1c938840 inherit properties_classMR_1_1MeshLoad_1_1Const__NamedMesh" id="r_a198a97336d5d7e305511f74e1c938840"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__VertColors.html">MR.Const_VertColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshLoad_1_1Const__NamedMesh.html#a198a97336d5d7e305511f74e1c938840">colors</a><code> [get, protected set]</code></td></tr>
 <tr class="memitem:ab918beefb135a772dbee69187a9ca4ed inherit properties_classMR_1_1MeshLoad_1_1Const__NamedMesh" id="r_ab918beefb135a772dbee69187a9ca4ed"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__Vector__StdFilesystemPath__MRTextureId.html">MR.Const_Vector_StdFilesystemPath_MRTextureId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshLoad_1_1Const__NamedMesh.html#ab918beefb135a772dbee69187a9ca4ed">textureFiles</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ab918beefb135a772dbee69187a9ca4ed inherit properties_classMR_1_1MeshLoad_1_1Const__NamedMesh"><td class="mdescLeft">&#160;</td><td class="mdescRight">texture files of the materials; an empty path stands for the faces without a texture (their material has no texture file or was not found), if other faces of the mesh have one  <br /></td></tr>
 <tr class="memitem:ae28d418207604ee20de8f833b3ad365e inherit properties_classMR_1_1MeshLoad_1_1Const__NamedMesh" id="r_ae28d418207604ee20de8f833b3ad365e"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__TexturePerFace.html">MR.Const_TexturePerFace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshLoad_1_1Const__NamedMesh.html#ae28d418207604ee20de8f833b3ad365e">texturePerFace</a><code> [get, protected set]</code></td></tr>
 <tr class="memitem:a65f53df63eb22601e0b28c3ada75c1f0 inherit properties_classMR_1_1MeshLoad_1_1Const__NamedMesh" id="r_a65f53df63eb22601e0b28c3ada75c1f0"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Const_Optional_MRColor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshLoad_1_1Const__NamedMesh.html#a65f53df63eb22601e0b28c3ada75c1f0">diffuseColor</a><code> [get, protected set]</code></td></tr>
 <tr class="memitem:a7eb3d5adb151c8ae25ed4ab96b70885c inherit properties_classMR_1_1MeshLoad_1_1Const__NamedMesh" id="r_a7eb3d5adb151c8ae25ed4ab96b70885c"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshLoad_1_1Const__NamedMesh.html#a7eb3d5adb151c8ae25ed4ab96b70885c">xf</a><code> [get]</code></td></tr>
@@ -545,6 +542,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>the name from the o line of the object; empty for the faces before the first o line, as for an o line without a name </p>
+
 </div>
 </div>
 <a id="ac27181c8e82b2264057bc97d4047b822" name="ac27181c8e82b2264057bc97d4047b822"></a>
@@ -590,6 +589,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>texture files of the materials; an empty path stands for the faces without a texture (their material has no texture file or was not found), if other faces of the mesh have one </p>
 
 </div>
 </div>

@@ -1,0 +1,1616 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Vector__StdArrayFloat33__MRVertId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Vector_StdArrayFloat33_MRVertId</compoundname>
+    <basecompoundref refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId" prot="public" virt="non-virtual">MR.Const_Vector_StdArrayFloat33_MRVertId</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a84736fa971a3814479feae1c13c5b73d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_StdArrayFloat33</type>
+        <definition>new unsafe MR.Std.Vector_StdArrayFloat33 MR.Vector_StdArrayFloat33_MRVertId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59556" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59556" bodyend="59556"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1aa105c3eea8e38c774408d1d2ca62ca7d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref MR.Std.Array_Float_33</type>
+        <definition>unsafe new ref MR.Std.Array_Float_33 MR.Vector_StdArrayFloat33_MRVertId.this[MR.VertId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.VertId i]</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.this[MR.VertId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59700" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59701" bodyend="59706"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1af5257dd8009b527bfb69ee2188089a1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; MR.Misc.Ref&lt; MR.Std.Array_Float_33 &gt; &gt;</type>
+        <definition>new IEnumerator&lt; MR.Misc.Ref&lt; MR.Std.Array_Float_33 &gt; &gt; MR.Vector_StdArrayFloat33_MRVertId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59543" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59543" bodyend="59546"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a02d6bd3f9015983ab11cbd132e2600a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</definition>
+        <argsstring>()</argsstring>
+        <name>Vector_StdArrayFloat33_MRVertId</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59583" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59583" bodyend="59587"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1acc198c24dab9c73976f4dd42de82c141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</definition>
+        <argsstring>(MR._ByValue_Vector_StdArrayFloat33_MRVertId _other)</argsstring>
+        <name>Vector_StdArrayFloat33_MRVertId</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_StdArrayFloat33_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59592" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59592" bodyend="59597"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a4f3cfaabf7feda121091664608cb4a5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</definition>
+        <argsstring>(Const_Vector_StdArrayFloat33_MRVertId _other)</argsstring>
+        <name>Vector_StdArrayFloat33_MRVertId</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId" kindref="compound">Const_Vector_StdArrayFloat33_MRVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59602" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59602" bodyend="59602"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a4ac982120a4b8c59fa3f3fd7ee096e5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</definition>
+        <argsstring>(Vector_StdArrayFloat33_MRVertId _other)</argsstring>
+        <name>Vector_StdArrayFloat33_MRVertId</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId" kindref="compound">Vector_StdArrayFloat33_MRVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59607" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59607" bodyend="59607"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a939c57022293fed283b6369c11de3453" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>Vector_StdArrayFloat33_MRVertId</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59613" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59613" bodyend="59617"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a1feca564532a68e4a3854269436f982d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</definition>
+        <argsstring>(nuint size, in MR.Std.Array_Float_33 val)</argsstring>
+        <name>Vector_StdArrayFloat33_MRVertId</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_Float_33</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59623" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59623" bodyend="59630"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ae5890678feaf400d22223ddffc9b26c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId" kindref="compound">MR.Vector_StdArrayFloat33_MRVertId</ref></type>
+        <definition>unsafe MR.Vector_StdArrayFloat33_MRVertId MR.Vector_StdArrayFloat33_MRVertId.assign</definition>
+        <argsstring>(MR._ByValue_Vector_StdArrayFloat33_MRVertId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_StdArrayFloat33_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59635" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59635" bodyend="59640"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ab56926090a83cf69a627534e65d5e4c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.assign</definition>
+        <argsstring>(nuint count, in MR.Std.Array_Float_33 val)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.assign</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_Float_33</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>replaces the contents with <computeroutput>count</computeroutput> copies of <computeroutput>val</computeroutput> Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ae5890678feaf400d22223ddffc9b26c5" kindref="member">assign</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59646" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59646" bodyend="59652"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a9c5e97dc7683941a6201d6a2a984929f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a9c5e97dc7683941a6201d6a2a984929f" kindref="member">clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59657" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59657" bodyend="59660"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1adc55f749b7bb51a2131bbdd415d72c98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.resize</definition>
+        <argsstring>(nuint newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.resize</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1adc55f749b7bb51a2131bbdd415d72c98" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59665" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59665" bodyend="59668"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a02b0b76e8ab4099868690065e20df896" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.resize</definition>
+        <argsstring>(nuint newSize, in MR.Std.Array_Float_33 t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.resize</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_Float_33</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1adc55f749b7bb51a2131bbdd415d72c98" kindref="member">resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59673" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59673" bodyend="59679"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a25a0e53142cc34895ed8fb1d98281e1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.reserve</definition>
+        <argsstring>(nuint capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.reserve</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a25a0e53142cc34895ed8fb1d98281e1c" kindref="member">reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59684" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59684" bodyend="59687"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ace6f898edb94e846879965774893419a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.shrinkToFit</definition>
+        <argsstring>()</argsstring>
+        <name>shrinkToFit</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.shrinkToFit</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::shrink_to_fit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59692" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59692" bodyend="59695"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a2dfadf3cefc67a1e8c2fcaf09bacb790" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.resizeWithReserve</definition>
+        <argsstring>(nuint newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>same as resize(newSize), which already grows the capacity geometrically Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a2dfadf3cefc67a1e8c2fcaf09bacb790" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59713" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59713" bodyend="59716"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1acc61eeaf225dabe52746fc5964643823" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.resizeWithReserve</definition>
+        <argsstring>(nuint newSize, in MR.Std.Array_Float_33 value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_Float_33</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>same as resize(newSize, value), which already grows the capacity geometrically Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a2dfadf3cefc67a1e8c2fcaf09bacb790" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59723" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59723" bodyend="59729"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ae276f413439a2e82efc6e7484d941015" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.autoResizeSet</definition>
+        <argsstring>(MR.VertId pos, nuint len, MR.Std.Array_Float_33 val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_Float_33</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ae276f413439a2e82efc6e7484d941015" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59736" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59736" bodyend="59739"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a5ab4db926a3f9a2f34813f4d2cab5cf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.autoResizeSet</definition>
+        <argsstring>(MR.VertId i, MR.Std.Array_Float_33 val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_Float_33</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ae276f413439a2e82efc6e7484d941015" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59745" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59745" bodyend="59748"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a5dd72ed1e52b71e0b776820bb50b1b79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref MR.Std.Array_Float_33</type>
+        <definition>unsafe ref MR.Std.Array_Float_33 MR.Vector_StdArrayFloat33_MRVertId.autoResizeAt</definition>
+        <argsstring>(MR.VertId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a5dd72ed1e52b71e0b776820bb50b1b79" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59754" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59754" bodyend="59757"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1aa8ef06c2107a616df752c661eb0c3610" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.pushBack</definition>
+        <argsstring>(in MR.Std.Array_Float_33 t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.pushBack</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_Float_33</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59762" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59762" bodyend="59768"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a66c5691c37a1fff43d40f05a94f1b49c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.pushBack</definition>
+        <argsstring>(MR.Misc._MoveRef _move_t, in MR.Std.Array_Float_33 t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._MoveRef</type>
+          <declname>_move_t</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_Float_33</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59773" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59773" bodyend="59779"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ad46a98c9e7e6871aa6c95d2a98459bc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59784" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59784" bodyend="59787"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ab0565250e42ab1eeec485a886e323e6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdArrayFloat33.Iterator</type>
+        <definition>unsafe MR.Std.Vector_StdArrayFloat33.Iterator MR.Vector_StdArrayFloat33_MRVertId.insert</definition>
+        <argsstring>(MR.Std.Vector_StdArrayFloat33.Const_ConstIterator pos, in MR.Std.Array_Float_33 t)</argsstring>
+        <name>insert</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.insert</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_StdArrayFloat33.Const_ConstIterator</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_Float_33</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>inserts <computeroutput>t</computeroutput> before <computeroutput>pos</computeroutput> Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ab0565250e42ab1eeec485a886e323e6f" kindref="member">insert</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59793" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59793" bodyend="59799"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1aaf7a5f775b87db366ef4c9ebc181ce05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdArrayFloat33.Iterator</type>
+        <definition>unsafe MR.Std.Vector_StdArrayFloat33.Iterator MR.Vector_StdArrayFloat33_MRVertId.insert</definition>
+        <argsstring>(MR.Std.Vector_StdArrayFloat33.Const_ConstIterator pos, MR.Misc._MoveRef _move_t, in MR.Std.Array_Float_33 t)</argsstring>
+        <name>insert</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.insert</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_StdArrayFloat33.Const_ConstIterator</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>MR.Misc._MoveRef</type>
+          <declname>_move_t</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_Float_33</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ab0565250e42ab1eeec485a886e323e6f" kindref="member">insert</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59804" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59804" bodyend="59810"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1adc4f973ecbbf1bd15d4d38f7a4df322b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdArrayFloat33.Iterator</type>
+        <definition>unsafe MR.Std.Vector_StdArrayFloat33.Iterator MR.Vector_StdArrayFloat33_MRVertId.insert</definition>
+        <argsstring>(MR.Std.Vector_StdArrayFloat33.Const_ConstIterator pos, nuint count, in MR.Std.Array_Float_33 t)</argsstring>
+        <name>insert</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.insert</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_StdArrayFloat33.Const_ConstIterator</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_Float_33</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>inserts <computeroutput>count</computeroutput> copies of <computeroutput>t</computeroutput> before <computeroutput>pos</computeroutput> Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ab0565250e42ab1eeec485a886e323e6f" kindref="member">insert</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59816" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59816" bodyend="59822"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a94e15196518d64515d05affe086abb25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdArrayFloat33.Iterator</type>
+        <definition>unsafe MR.Std.Vector_StdArrayFloat33.Iterator MR.Vector_StdArrayFloat33_MRVertId.erase</definition>
+        <argsstring>(MR.Std.Vector_StdArrayFloat33.Const_ConstIterator pos)</argsstring>
+        <name>erase</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.erase</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_StdArrayFloat33.Const_ConstIterator</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>removes the element at <computeroutput>pos</computeroutput> Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a94e15196518d64515d05affe086abb25" kindref="member">erase</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59828" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59828" bodyend="59831"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1abc13210448517d067762719113f066cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdArrayFloat33.Iterator</type>
+        <definition>unsafe MR.Std.Vector_StdArrayFloat33.Iterator MR.Vector_StdArrayFloat33_MRVertId.erase</definition>
+        <argsstring>(MR.Std.Vector_StdArrayFloat33.Const_ConstIterator first, MR.Std.Vector_StdArrayFloat33.Const_ConstIterator last)</argsstring>
+        <name>erase</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.erase</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_StdArrayFloat33.Const_ConstIterator</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdArrayFloat33.Const_ConstIterator</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+<para>removes the elements in range [first, last) Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a94e15196518d64515d05affe086abb25" kindref="member">erase</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59837" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59837" bodyend="59840"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1af23a1c952c32be457e8d6443e69b93da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref MR.Std.Array_Float_33</type>
+        <definition>unsafe new ref MR.Std.Array_Float_33 MR.Vector_StdArrayFloat33_MRVertId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1af23a1c952c32be457e8d6443e69b93da" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59845" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59845" bodyend="59848"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a6b4bc81fb60a3a2253cd548bbb5a62e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref MR.Std.Array_Float_33</type>
+        <definition>unsafe new ref MR.Std.Array_Float_33 MR.Vector_StdArrayFloat33_MRVertId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a6b4bc81fb60a3a2253cd548bbb5a62e3" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59853" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59853" bodyend="59856"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a5370627c9251a85b7d7af8a5c4a31dce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Misc.? Ref&lt; MR.Std.Array_Float_33 &gt;</type>
+        <definition>unsafe new MR.Misc.? Ref&lt; MR.Std.Array_Float_33 &gt; MR.Vector_StdArrayFloat33_MRVertId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a5370627c9251a85b7d7af8a5c4a31dce" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59861" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59861" bodyend="59865"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a7fedd2e706cef4d27c8b7557d5417354" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Std.Vector_StdArrayFloat33.Iterator</type>
+        <definition>unsafe new MR.Std.Vector_StdArrayFloat33.Iterator MR.Vector_StdArrayFloat33_MRVertId.begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.begin</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a7fedd2e706cef4d27c8b7557d5417354" kindref="member">begin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59870" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59870" bodyend="59876"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a1aa49a48fb14920665accf9dd47e7b66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Std.Vector_StdArrayFloat33.Iterator</type>
+        <definition>unsafe new MR.Std.Vector_StdArrayFloat33.Iterator MR.Vector_StdArrayFloat33_MRVertId.end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.end</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a1aa49a48fb14920665accf9dd47e7b66" kindref="member">end</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59881" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59881" bodyend="59887"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a0cbb01232ee5a77a4bd742a9a8f636c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Vector_StdArrayFloat33_MRVertId.swap</definition>
+        <argsstring>(MR.Vector_StdArrayFloat33_MRVertId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId" kindref="compound">MR.Vector_StdArrayFloat33_MRVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a0cbb01232ee5a77a4bd742a9a8f636c6" kindref="member">swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59892" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59892" bodyend="59895"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1abd777bcef2be52c20a22be4b51ca38a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Vector_StdArrayFloat33_MRVertId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59548" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59548" bodyend="59551"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1aef2a64ac2ec7672b5c22cfbe8aebb86b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Vector_StdArrayFloat33_MRVertId</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.Vector_StdArrayFloat33_MRVertId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59573" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59573" bodyend="59577"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1af38185f7ceb9f17936a2b0fedf2eeeac" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_StdArrayFloat33_MRVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_StdArrayFloat33_MRVertId._Underlying * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.Vector_StdArrayFloat33_MRVertId._Underlying *_other)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_AssignFromAnother</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Vector_StdArrayFloat33_MRVertId._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59900" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ae0a06f07d8464c403e01e8560da12330" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_StdArrayFloat33_MRVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_StdArrayFloat33_MRVertId._Underlying * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_Construct</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59903" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1afd725e1f57a3d75b8839901c1e35a0f9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_StdArrayFloat33_MRVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_StdArrayFloat33_MRVertId._Underlying * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.Vector_StdArrayFloat33_MRVertId._Underlying *_other)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_ConstructFromAnother</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Vector_StdArrayFloat33_MRVertId._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59906" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a329fbfa11c254ae2b34019e99e9a8e48" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_StdArrayFloat33_MRVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_StdArrayFloat33_MRVertId._Underlying * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.Std.Array_Float_33 *val)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_Construct_fill</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_Construct_fill</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_Float_33 *</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59909" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a71e55f766b09b71a60bb8c9f59fd2af3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_StdArrayFloat33_MRVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_StdArrayFloat33_MRVertId._Underlying * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_DefaultConstruct</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59912" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a8a3c7846d86a9f052dee397c20c33f41" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdArrayFloat33._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_StdArrayFloat33._Underlying * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_GetMutable_vec</definition>
+        <argsstring>(MR.Vector_StdArrayFloat33_MRVertId._Underlying *_this)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_GetMutable_vec</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_GetMutable_vec</qualifiedname>
+        <param>
+          <type>MR.Vector_StdArrayFloat33_MRVertId._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59915" column="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1aa4565ff85a84100bd523dea95d878f77" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_assign</definition>
+        <argsstring>(_Underlying *_this, nuint count, MR.Std.Array_Float_33 *val)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_assign</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_assign</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_Float_33 *</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59918" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ad58e9e207d8b6df54efb4c8fdf1f2ed9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Array_Float_33 *</type>
+        <definition>static unsafe MR.Std.Array_Float_33 * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_autoResizeAt</definition>
+        <argsstring>(_Underlying *_this, MR.VertId i)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_autoResizeAt</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_autoResizeAt</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59921" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1abca4969993cb1618422efa430d7ef07f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_2</definition>
+        <argsstring>(_Underlying *_this, MR.VertId i, MR.Std.Array_Float_33 val)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_2</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_Float_33</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59924" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a78060345327261ac25f76c6d84bc072f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_3</definition>
+        <argsstring>(_Underlying *_this, MR.VertId pos, nuint len, MR.Std.Array_Float_33 val)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_3</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_3</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_Float_33</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59927" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a93ca64b9f1e40d864398425df4389874" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Array_Float_33 *</type>
+        <definition>static unsafe MR.Std.Array_Float_33 * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_back_mut</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_back_mut</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_back_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59930" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ac7145bffda52bb56e9e23cd82276ae2e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_begin_mut</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_begin_mut</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_begin_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59933" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a546d14699f430bfa97d1d376eccf6240" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_clear</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_clear</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_clear</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59936" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ada4dd95648d1734ba44acae4924d4178" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Array_Float_33 *</type>
+        <definition>static unsafe MR.Std.Array_Float_33 * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_data_mut</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_data_mut</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_data_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59939" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ae028fc9c97aeb6df6a5a7b8685d9d3be" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_end_mut</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_end_mut</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_end_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59942" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a5ea9f93ec6cc422f3efe566cb63c6f58" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_erase_1</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Vector_StdArrayFloat33.ConstIterator._Underlying *pos)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_erase_1</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_erase_1</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdArrayFloat33.ConstIterator._Underlying *</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59945" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1aea712f89496daae9941480a8bc94af4d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_erase_2</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Vector_StdArrayFloat33.ConstIterator._Underlying *first, MR.Std.Vector_StdArrayFloat33.ConstIterator._Underlying *last)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_erase_2</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_erase_2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdArrayFloat33.ConstIterator._Underlying *</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdArrayFloat33.ConstIterator._Underlying *</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59948" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a042844ce249c85fa890940bc7f4a5b01" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Array_Float_33 *</type>
+        <definition>static unsafe MR.Std.Array_Float_33 * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_front_mut</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_front_mut</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_front_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59951" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a903fe7a10659645146e8ff2de6a374cc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Array_Float_33 *</type>
+        <definition>static unsafe MR.Std.Array_Float_33 * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_index_mut</definition>
+        <argsstring>(_Underlying *_this, MR.VertId i)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_index_mut</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_index_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59954" column="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ab9fbfa21e5da30b631e5e6c5c75fe24f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_insert_2_const_std_array_float_33_ref</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Vector_StdArrayFloat33.ConstIterator._Underlying *pos, MR.Std.Array_Float_33 *t)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_insert_2_const_std_array_float_33_ref</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_insert_2_const_std_array_float_33_ref</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdArrayFloat33.ConstIterator._Underlying *</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_Float_33 *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59957" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a6b419a4778df3cdbdb2e266d0fd93e60" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_insert_2_std_array_float_33_rvalue_ref</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Vector_StdArrayFloat33.ConstIterator._Underlying *pos, MR.Std.Array_Float_33 *t)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_insert_2_std_array_float_33_rvalue_ref</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_insert_2_std_array_float_33_rvalue_ref</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdArrayFloat33.ConstIterator._Underlying *</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_Float_33 *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59960" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a0626d27279a8d5ff5e676553401ec0f3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_StdArrayFloat33.Iterator._Underlying * MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_insert_3</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Vector_StdArrayFloat33.ConstIterator._Underlying *pos, nuint count, MR.Std.Array_Float_33 *t)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_insert_3</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_insert_3</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdArrayFloat33.ConstIterator._Underlying *</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_Float_33 *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59963" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a1ab49853a21843f7182b67f4eaba3af8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_pop_back</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_pop_back</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_pop_back</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59966" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a5d4a994a8bf9c6e48c157ae824b1bd49" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_push_back_const_std_array_float_33_ref</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Array_Float_33 *t)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_push_back_const_std_array_float_33_ref</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_push_back_const_std_array_float_33_ref</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_Float_33 *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59969" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a8a1a9846d0e1ac8ff246cf881f364c69" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_push_back_std_array_float_33_rvalue_ref</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Array_Float_33 *t)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_push_back_std_array_float_33_rvalue_ref</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_push_back_std_array_float_33_rvalue_ref</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_Float_33 *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59972" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a7772e67fac4b41596ad929cfac0a41dd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_reserve</definition>
+        <argsstring>(_Underlying *_this, nuint capacity)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_reserve</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_reserve</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59975" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a78aaafca3d2849800ab20233a58bb932" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_1</definition>
+        <argsstring>(_Underlying *_this, nuint newSize)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_1</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_1</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59978" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a1be9379f1960873ee3d04e91cb119feb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_2</definition>
+        <argsstring>(_Underlying *_this, nuint newSize, MR.Std.Array_Float_33 *value)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_2</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_Float_33 *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59981" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a49ae0c28f70c2c6c53b534b2616324c5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_resize_1</definition>
+        <argsstring>(_Underlying *_this, nuint newSize)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_resize_1</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_resize_1</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59984" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a6420948180ac192d2183ff66212ee3cd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_resize_2</definition>
+        <argsstring>(_Underlying *_this, nuint newSize, MR.Std.Array_Float_33 *t)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_resize_2</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_resize_2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_Float_33 *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59987" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a89ea6389b3244f92899d6bae05ec1e0e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_shrink_to_fit</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_shrink_to_fit</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_shrink_to_fit</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59990" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a298df18090217098bf07d1885b7182bd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_swap</definition>
+        <argsstring>(_Underlying *_this, MR.Vector_StdArrayFloat33_MRVertId._Underlying *b)</argsstring>
+        <name>__MR_Vector_std_array_float_33_MR_VertId_swap</name>
+        <qualifiedname>MR.Vector_StdArrayFloat33_MRVertId.__MR_Vector_std_array_float_33_MR_VertId_swap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Vector_StdArrayFloat33_MRVertId._Underlying *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59993" column="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;std::array&amp;lt;float, 33&amp;gt;, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Vector_StdArrayFloat33_MRVertId</label>
+        <link refid="classMR_1_1Vector__StdArrayFloat33__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_StdArrayFloat33_MRVertId</label>
+        <link refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Vector_StdArrayFloat33_MRVertId</label>
+        <link refid="classMR_1_1Vector__StdArrayFloat33__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Vector_StdArrayFloat33_MRVertId</label>
+        <link refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59487" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="59488" bodyend="59994"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1aa4565ff85a84100bd523dea95d878f77" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_assign</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1af38185f7ceb9f17936a2b0fedf2eeeac" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_AssignFromAnother</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ad58e9e207d8b6df54efb4c8fdf1f2ed9" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_autoResizeAt</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1abca4969993cb1618422efa430d7ef07f" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_2</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a78060345327261ac25f76c6d84bc072f" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_autoResizeSet_3</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a93ca64b9f1e40d864398425df4389874" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_back_mut</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ac7145bffda52bb56e9e23cd82276ae2e" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_begin_mut</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a546d14699f430bfa97d1d376eccf6240" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_clear</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ae0a06f07d8464c403e01e8560da12330" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_Construct</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a329fbfa11c254ae2b34019e99e9a8e48" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_Construct_fill</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1afd725e1f57a3d75b8839901c1e35a0f9" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ada4dd95648d1734ba44acae4924d4178" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_data_mut</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a71e55f766b09b71a60bb8c9f59fd2af3" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ae028fc9c97aeb6df6a5a7b8685d9d3be" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_end_mut</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a5ea9f93ec6cc422f3efe566cb63c6f58" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_erase_1</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1aea712f89496daae9941480a8bc94af4d" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_erase_2</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a042844ce249c85fa890940bc7f4a5b01" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_front_mut</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a8a3c7846d86a9f052dee397c20c33f41" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_GetMutable_vec</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a903fe7a10659645146e8ff2de6a374cc" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_index_mut</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ab9fbfa21e5da30b631e5e6c5c75fe24f" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_insert_2_const_std_array_float_33_ref</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a6b419a4778df3cdbdb2e266d0fd93e60" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_insert_2_std_array_float_33_rvalue_ref</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a0626d27279a8d5ff5e676553401ec0f3" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_insert_3</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a1ab49853a21843f7182b67f4eaba3af8" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_pop_back</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a5d4a994a8bf9c6e48c157ae824b1bd49" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_push_back_const_std_array_float_33_ref</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a8a1a9846d0e1ac8ff246cf881f364c69" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_push_back_std_array_float_33_rvalue_ref</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a7772e67fac4b41596ad929cfac0a41dd" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_reserve</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a49ae0c28f70c2c6c53b534b2616324c5" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_resize_1</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a6420948180ac192d2183ff66212ee3cd" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_resize_2</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a78aaafca3d2849800ab20233a58bb932" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_1</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a1be9379f1960873ee3d04e91cb119feb" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_resizeWithReserve_2</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a89ea6389b3244f92899d6bae05ec1e0e" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_shrink_to_fit</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a298df18090217098bf07d1885b7182bd" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>__MR_Vector_std_array_float_33_MR_VertId_swap</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ae5890678feaf400d22223ddffc9b26c5" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ab56926090a83cf69a627534e65d5e4c1" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a5dd72ed1e52b71e0b776820bb50b1b79" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>autoResizeAt</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ae276f413439a2e82efc6e7484d941015" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a5ab4db926a3f9a2f34813f4d2cab5cf8" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a6b4bc81fb60a3a2253cd548bbb5a62e3" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a0f0a987a76745f886123c55698684a07" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a7fedd2e706cef4d27c8b7557d5417354" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>begin</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a3e5668b57f98252e8f26b233ad0a7dbd" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a957ed2da2e7b141d59f1bc1abc1cd658" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1aedd7fe200f5a5439e9ba578eab700722" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>cbegin</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a704af138e2c4fbffb0ea6a18b9787723" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>cend</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a9c5e97dc7683941a6201d6a2a984929f" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1aa8b711abe30057f8451a1182b8378193" prot="package" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Const_Vector_StdArrayFloat33_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1af18c5627bc9100a6a04f541029771e7a" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Const_Vector_StdArrayFloat33_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a3120ace190594799def1807aeb9903a4" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Const_Vector_StdArrayFloat33_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a1322a6c34f2b256a11507df84323bff7" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Const_Vector_StdArrayFloat33_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1aade0c3abfaa8e0468171e4ff494124d4" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Const_Vector_StdArrayFloat33_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a82fdd98474a5180efd918bc5d6a85f38" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Const_Vector_StdArrayFloat33_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a752fb6150f6a813cbdf3ef1aa95112e2" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Const_Vector_StdArrayFloat33_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a5370627c9251a85b7d7af8a5c4a31dce" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a1786abaf79c6f48323417514b3aba7a4" prot="protected" virt="virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a8451283627f81cca508e1c516865d4fa" prot="public" virt="virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a177ef7c6f48f9cc72e6f886e997af66d" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a1aa49a48fb14920665accf9dd47e7b66" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>end</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a8099ee7756c8fdda0d2d589d80be11e0" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a0d0782e6834570969cd59827ac4b4cd5" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1ae6aa642efc80477e7c9acc412ecb7758" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a94e15196518d64515d05affe086abb25" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>erase</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1abc13210448517d067762719113f066cb" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>erase</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1af23a1c952c32be457e8d6443e69b93da" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>front</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1af5257dd8009b527bfb69ee2188089a1e" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1abd777bcef2be52c20a22be4b51ca38a8" prot="private" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a911f021f8f525a47af1a397da30b7f7c" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ab0565250e42ab1eeec485a886e323e6f" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>insert</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1aaf7a5f775b87db366ef4c9ebc181ce05" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>insert</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1adc4f973ecbbf1bd15d4d38f7a4df322b" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>insert</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1ae7401d9dc796d275ae1f31b6804652db" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>maxSize</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1ae54f37bd30c9cea6876732f74e8fd314" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1ab729fcb834ab0dbae6f6d9a36557b490" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ad46a98c9e7e6871aa6c95d2a98459bc0" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>popBack</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1aa8ef06c2107a616df752c661eb0c3610" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a66c5691c37a1fff43d40f05a94f1b49c" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a25a0e53142cc34895ed8fb1d98281e1c" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>reserve</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1adc55f749b7bb51a2131bbdd415d72c98" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a02b0b76e8ab4099868690065e20df896" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a2dfadf3cefc67a1e8c2fcaf09bacb790" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1acc61eeaf225dabe52746fc5964643823" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1ace6f898edb94e846879965774893419a" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>shrinkToFit</name></member>
+      <member refid="classMR_1_1Const__Vector__StdArrayFloat33__MRVertId_1a1c7634ae953b6f80763973ce24972532" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>size</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a0cbb01232ee5a77a4bd742a9a8f636c6" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>swap</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1aa105c3eea8e38c774408d1d2ca62ca7d" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>this[MR.VertId i]</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a84736fa971a3814479feae1c13c5b73d" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1aef2a64ac2ec7672b5c22cfbe8aebb86b" prot="package" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Vector_StdArrayFloat33_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a02d6bd3f9015983ab11cbd132e2600a3" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Vector_StdArrayFloat33_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1acc198c24dab9c73976f4dd42de82c141" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Vector_StdArrayFloat33_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a4f3cfaabf7feda121091664608cb4a5d" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Vector_StdArrayFloat33_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a4ac982120a4b8c59fa3f3fd7ee096e5f" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Vector_StdArrayFloat33_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a939c57022293fed283b6369c11de3453" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Vector_StdArrayFloat33_MRVertId</name></member>
+      <member refid="classMR_1_1Vector__StdArrayFloat33__MRVertId_1a1feca564532a68e4a3854269436f982d" prot="public" virt="non-virtual"><scope>MR::Vector_StdArrayFloat33_MRVertId</scope><name>Vector_StdArrayFloat33_MRVertId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

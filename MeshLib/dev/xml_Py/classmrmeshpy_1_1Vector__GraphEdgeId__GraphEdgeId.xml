@@ -16,16 +16,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67006" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55781" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aae7b6f193f14d080df59f9e3c9b183a8" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ae763e6eb6706c0514859f209d0b25c41" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.Vector_GraphEdgeId_GraphEdgeId::_offsetof_vec_</definition>
+        <definition>typing mrmeshpy.Vector_GraphEdgeId_GraphEdgeId::_offsetof_vec</definition>
         <argsstring></argsstring>
-        <name>_offsetof_vec_</name>
-        <qualifiedname>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId._offsetof_vec_</qualifiedname>
+        <name>_offsetof_vec</name>
+        <qualifiedname>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId._offsetof_vec</qualifiedname>
         <initializer>=  0</initializer>
         <briefdescription>
         </briefdescription>
@@ -33,10 +33,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67007" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55782" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a17e82bdd45ef09bc5e6722b662b63d15" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId::const_pointer</definition>
+        <argsstring></argsstring>
+        <name>const_pointer</name>
+        <qualifiedname>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.const_pointer</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55783" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a25f5d0c30754da3c45708263de350477" prot="public" static="yes" mutable="no">
         <type></type>
         <definition>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId::const_reference</definition>
@@ -50,7 +65,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67008" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55784" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a577669ef084d25fadb6e3fdb76936ca2" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId::pointer</definition>
+        <argsstring></argsstring>
+        <name>pointer</name>
+        <qualifiedname>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.pointer</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55785" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1af44bfd0c765a222b0b5a60975c4617b2" prot="public" static="yes" mutable="no">
         <type></type>
@@ -65,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67009" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55786" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a5826de37c8c71749a5546222ded59123" prot="public" static="yes" mutable="no">
         <type></type>
@@ -80,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67010" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55787" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -104,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67013" bodyend="67014"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55790" bodyend="55791"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1abb35073b2705dceebebed6dc976b7e1f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId" kindref="compound">Vector_GraphEdgeId_GraphEdgeId</ref></type>
@@ -126,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67017" bodyend="67018"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55794" bodyend="55795"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1abb35073b2705dceebebed6dc976b7e1f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId" kindref="compound">Vector_GraphEdgeId_GraphEdgeId</ref></type>
@@ -148,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67021" bodyend="67022"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55798" bodyend="55799"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -172,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67023" bodyend="67024"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55800" bodyend="55801"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a2061017ea67475504d470778be327164" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -194,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67026" bodyend="67027"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55803" bodyend="55804"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a2061017ea67475504d470778be327164" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -216,7 +246,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67029" bodyend="67030"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55806" bodyend="55807"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a24af1b110ab0c73e98ee9b29fdfb8fe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -236,7 +266,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67032" bodyend="67035"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55809" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55809" bodyend="55812"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aafdbf22b8348db20a83f99d899184fc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -260,7 +290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67037" bodyend="67040"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55814" bodyend="55817"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a885907dc01b2b1fda1fca9876f2dafcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -288,12 +318,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67042" bodyend="67045"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55819" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55819" bodyend="55822"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a0c56f288c2690201dca1f7905c3d5c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aaba318271866552f120c77fb420d3232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.__init__</definition>
-        <argsstring>(self, std_vector_Id_GraphEdgeTag vec)</argsstring>
+        <argsstring>(self, list arg0)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.__init__</qualifiedname>
         <param>
@@ -301,18 +331,16 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
-          <declname>vec</declname>
+          <type>list</type>
+          <declname>arg0</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>moves data from the given std::vector&lt;T&gt;
-</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67047" bodyend="67050"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55824" bodyend="55825"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a2b3e431baec9ffb6cc9a384fd3fd4b0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -336,7 +364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67052" bodyend="67055"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55827" bodyend="55830"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a5799577684d03c878a4c6e02b8f55a15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Iterator[<ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref>]</type>
@@ -354,7 +382,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67056" bodyend="67057"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55831" bodyend="55832"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ae35b0ac484fcb57601a80ba590b6d1b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55833" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55833" bodyend="55834"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1add8321f1a1b41fd9531fb70d4d813749" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -376,7 +422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67058" bodyend="67059"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55835" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55835" bodyend="55836"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1afdb8fcdb719c35ba75de76bb41b025de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -402,7 +448,35 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67060" bodyend="67061"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55837" bodyend="55838"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a678f08ecc2655811a01db1e7112fe659" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.assign</definition>
+        <argsstring>(self, int count, GraphEdgeId val)</argsstring>
+        <name>assign</name>
+        <qualifiedname>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.assign</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>replaces the contents with \\p count copies of \\p val
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55839" bodyend="55842"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a8766d4f4ca8665630585222f4d839dbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -426,7 +500,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67062" bodyend="67065"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55843" bodyend="55846"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a68bc72a1fc4b161476ce236ae39e6042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -459,7 +533,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67067" bodyend="67071"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55848" bodyend="55852"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ad667df69663c8ad85082010dd9215631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -487,7 +561,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67073" bodyend="67076"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55854" bodyend="55857"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a029413d427009d78b8a780cc63ba63fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -505,7 +579,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67078" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67078" bodyend="67079"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55859" bodyend="55860"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a029413d427009d78b8a780cc63ba63fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -523,7 +597,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67081" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67081" bodyend="67082"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55862" bodyend="55863"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a3b6edabd7507f01169d039c9087be955" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -543,7 +617,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67083" bodyend="67086"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55864" bodyend="55867"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ae12b27c9c50d931949370133a7009865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -563,7 +637,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67087" bodyend="67090"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55868" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55868" bodyend="55871"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a886b4fa9a2ae12298d2d579cf64ae9a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -581,7 +655,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67091" bodyend="67092"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55872" bodyend="55873"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ad1702fbda0fb3394178745a1acdbb842" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -599,7 +673,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67093" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67093" bodyend="67094"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55874" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55874" bodyend="55875"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a10811a752ab0a76657787247c5b80fb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -617,7 +691,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67096" bodyend="67097"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55877" bodyend="55878"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a10811a752ab0a76657787247c5b80fb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -635,7 +709,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67099" bodyend="67100"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55880" bodyend="55881"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a355cae4a3d25c32a8023a76862bfc29b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -653,7 +727,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67101" bodyend="67102"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55882" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55882" bodyend="55883"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ac6a6a9285182da981c35dc1232894f78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -673,7 +747,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67103" bodyend="67106"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55884" bodyend="55887"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aa1ea88b84a6f3714dd43e41dc836322c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -691,7 +765,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67108" bodyend="67109"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55889" bodyend="55890"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aa1ea88b84a6f3714dd43e41dc836322c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
@@ -709,7 +783,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67111" bodyend="67112"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55892" bodyend="55893"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a748db5e2c95f72148dd41f52524c8d3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -729,7 +803,25 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67113" bodyend="67116"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55894" bodyend="55897"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ae896af769cf0f502a46210dc3af59936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.max_size</definition>
+        <argsstring>(self)</argsstring>
+        <name>max_size</name>
+        <qualifiedname>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.max_size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55898" bodyend="55899"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a61e7488ba5714271307818e50e17c169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -747,7 +839,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67117" bodyend="67118"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55900" bodyend="55901"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1adc0ec0b618a607b09874b38d617520fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -769,7 +861,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67120" bodyend="67121"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55903" bodyend="55904"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1adc0ec0b618a607b09874b38d617520fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -791,7 +883,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67123" bodyend="67124"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55906" bodyend="55907"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aef131b875bad9eab85b05406a70dd6fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -813,7 +905,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67125" bodyend="67126"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55908" bodyend="55909"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a2b295ecca0249ff9bc90753e22e205bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -835,7 +927,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67128" bodyend="67129"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55911" bodyend="55912"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a8dbdf89132b2f6702a263013101a7709" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -861,7 +953,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67131" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67131" bodyend="67132"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55914" bodyend="55915"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a8ed5cdc279e4837c633ff67f05f0069f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -885,7 +977,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67133" bodyend="67136"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55916" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55916" bodyend="55919"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aa295aba446bd5e68bcb8aa69f77b76e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -904,12 +996,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+<para><verbatim>same as resize(newSize), which already grows the capacity geometrically
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67138" bodyend="67141"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55921" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55921" bodyend="55924"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a2d0e47c199f97827d0d80920640c6f74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -932,12 +1024,30 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+<para><verbatim>same as resize(newSize, value), which already grows the capacity geometrically
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67143" bodyend="67146"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55926" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55926" bodyend="55929"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a5373c921d66cb0ebf86089fb1b0701fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.shrink_to_fit</definition>
+        <argsstring>(self)</argsstring>
+        <name>shrink_to_fit</name>
+        <qualifiedname>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.shrink_to_fit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55930" bodyend="55931"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a3bd1aaa89cc059a74e04fb6852607712" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -955,7 +1065,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67147" bodyend="67148"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55932" bodyend="55933"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ae9ed69024d9f6e8d699fd74cb6c2a55b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -977,14 +1087,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67149" bodyend="67150"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55934" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55934" bodyend="55935"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a1f9a66d0e6f6eb2308b87370b7a87c9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a00a29550d5ced3b26c34dc074e506dd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
-        <definition> std_vector_Id_GraphEdgeTag mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.vec_</definition>
+        <definition> std_vector_Id_GraphEdgeTag mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.vec</definition>
         <argsstring>(self)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -997,14 +1107,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67152" bodyend="67155"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55937" bodyend="55940"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a201a96e6c9d8d0263171228bd9725ad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a5159a08130d0a14f1f928a6a680a079e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.vec_</definition>
+        <definition> None mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.vec</definition>
         <argsstring>(self, std_vector_Id_GraphEdgeTag arg1)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Vector_GraphEdgeId_GraphEdgeId.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -1019,7 +1129,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67157" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67157" bodyend="67158"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55942" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55942" bodyend="55943"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1033,7 +1143,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
  \\tparam I type of index (shall be convertible to size_t)
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66996" bodyend="67158"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55771" bodyend="55943"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aebd012f79adfd79c0e94d55f8040629f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a2061017ea67475504d470778be327164" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>__getitem__</name></member>
@@ -1043,12 +1153,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a24af1b110ab0c73e98ee9b29fdfb8fe3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aafdbf22b8348db20a83f99d899184fc9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a885907dc01b2b1fda1fca9876f2dafcc" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a0c56f288c2690201dca1f7905c3d5c71" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aaba318271866552f120c77fb420d3232" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a2b3e431baec9ffb6cc9a384fd3fd4b0b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a5799577684d03c878a4c6e02b8f55a15" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ae35b0ac484fcb57601a80ba590b6d1b1" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>__len__</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1add8321f1a1b41fd9531fb70d4d813749" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>__ne__</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1afdb8fcdb719c35ba75de76bb41b025de" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>__setitem__</name></member>
-      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aae7b6f193f14d080df59f9e3c9b183a8" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ae763e6eb6706c0514859f209d0b25c41" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>_offsetof_vec</name></member>
+      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a678f08ecc2655811a01db1e7112fe659" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>assign</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a8766d4f4ca8665630585222f4d839dbf" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>autoResizeAt</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a68bc72a1fc4b161476ce236ae39e6042" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ad667df69663c8ad85082010dd9215631" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>autoResizeSet</name></member>
@@ -1058,6 +1170,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ae12b27c9c50d931949370133a7009865" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>beginId</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a886b4fa9a2ae12298d2d579cf64ae9a3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>capacity</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ad1702fbda0fb3394178745a1acdbb842" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a17e82bdd45ef09bc5e6722b662b63d15" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>const_pointer</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a25f5d0c30754da3c45708263de350477" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>const_reference</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a10811a752ab0a76657787247c5b80fb8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>data</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a10811a752ab0a76657787247c5b80fb8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>data</name></member>
@@ -1066,8 +1179,10 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aa1ea88b84a6f3714dd43e41dc836322c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>front</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aa1ea88b84a6f3714dd43e41dc836322c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>front</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a748db5e2c95f72148dd41f52524c8d3a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ae896af769cf0f502a46210dc3af59936" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>max_size</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1abb35073b2705dceebebed6dc976b7e1f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1abb35073b2705dceebebed6dc976b7e1f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a577669ef084d25fadb6e3fdb76936ca2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>pointer</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a61e7488ba5714271307818e50e17c169" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>pop_back</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1adc0ec0b618a607b09874b38d617520fe" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>push_back</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1adc0ec0b618a607b09874b38d617520fe" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>push_back</name></member>
@@ -1078,11 +1193,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a8ed5cdc279e4837c633ff67f05f0069f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>resizeNoInit</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aa295aba446bd5e68bcb8aa69f77b76e5" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>resizeWithReserve</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a2d0e47c199f97827d0d80920640c6f74" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a5373c921d66cb0ebf86089fb1b0701fe" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>shrink_to_fit</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a3bd1aaa89cc059a74e04fb6852607712" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ae9ed69024d9f6e8d699fd74cb6c2a55b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>swap</name></member>
       <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a5826de37c8c71749a5546222ded59123" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>value_type</name></member>
-      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a1f9a66d0e6f6eb2308b87370b7a87c9b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>vec_</name></member>
-      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a201a96e6c9d8d0263171228bd9725ad5" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a00a29550d5ced3b26c34dc074e506dd2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>vec</name></member>
+      <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a5159a08130d0a14f1f928a6a680a079e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_GraphEdgeId_GraphEdgeId</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

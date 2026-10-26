@@ -4,6 +4,7 @@ var MRSceneSettings_8h =
     [ "MR_SceneSettings_BoolType", "MRSceneSettings_8h.html#a3649382c7f0d2ead3e39ed8a9b4a751d", null ],
     [ "MR_SceneSettings_FloatType", "MRSceneSettings_8h.html#a1d4b4e5796cebc0245ab16d6398b3b1a", null ],
     [ "MR_SceneSettings_ShadingMode", "MRSceneSettings_8h.html#a0215ab4cc7cbc9b6a7fbc81fddc1f82f", null ],
+    [ "MR_SceneSettings_StringType", "MRSceneSettings_8h.html#a77b1b459a94f7a760e6822bf201b94b2", null ],
     [ "MR_SceneSettings_BoolType", "MRSceneSettings_8h.html#afd5c0646a798b47e39746fc490dc7399", [
       [ "MR_SceneSettings_BoolType_UseDefaultScenePropertiesOnDeserialization", "MRSceneSettings_8h.html#afd5c0646a798b47e39746fc490dc7399a386f4fa6ebbbe01fa4dea28b0da52234", null ],
       [ "MR_SceneSettings_BoolType_Count", "MRSceneSettings_8h.html#afd5c0646a798b47e39746fc490dc7399a32248c9830d3739e6abb95737ed46c29", null ]
@@ -27,8 +28,15 @@ var MRSceneSettings_8h =
       [ "MR_SceneSettings_ShadingMode_Smooth", "MRSceneSettings_8h.html#ad36202035d26a38fd21ab7870e5a527caf30e7268eb77ccd2d9eebb157f50d9b7", null ],
       [ "MR_SceneSettings_ShadingMode_Flat", "MRSceneSettings_8h.html#ad36202035d26a38fd21ab7870e5a527ca35189b2220eb83edeb8eb135501cf65d", null ]
     ] ],
+    [ "MR_SceneSettings_StringType", "MRSceneSettings_8h.html#a7ac995a0586ce25e03443419f1729e1c", [
+      [ "MR_SceneSettings_StringType_MeshSerializeFormat", "MRSceneSettings_8h.html#a7ac995a0586ce25e03443419f1729e1ca8fe0cd3c93a362bbb2c76bd10c97de6a", null ],
+      [ "MR_SceneSettings_StringType_PointsSerializeFormat", "MRSceneSettings_8h.html#a7ac995a0586ce25e03443419f1729e1cac4d7c821b51a82fb450ed5551485224d", null ],
+      [ "MR_SceneSettings_StringType_VoxelsSerializeFormat", "MRSceneSettings_8h.html#a7ac995a0586ce25e03443419f1729e1ca1c6309fd68e0e25c99612343870c4b6c", null ],
+      [ "MR_SceneSettings_StringType_Count", "MRSceneSettings_8h.html#a7ac995a0586ce25e03443419f1729e1ca706d7765d33a1f8ba5c92867b129387e", null ]
+    ] ],
     [ "MR_SceneSettings_get_MR_SceneSettings_BoolType", "MRSceneSettings_8h.html#a511c5016fa7f2fdbbae2a42760919f9e", null ],
     [ "MR_SceneSettings_get_MR_SceneSettings_FloatType", "MRSceneSettings_8h.html#a2f53b33ea65b401b2bfdb0216efceef8", null ],
+    [ "MR_SceneSettings_get_MR_SceneSettings_StringType", "MRSceneSettings_8h.html#a18f9b2c08de9246c4f29dbb31a3348cd", null ],
     [ "MR_SceneSettings_getCNCMachineSettings", "MRSceneSettings_8h.html#a79465aef7f1817ef1eada7eac8374fa7", null ],
     [ "MR_SceneSettings_getDefaultShadingMode", "MRSceneSettings_8h.html#a81fb989e8e1e7db26369df3d8d294961", null ],
     [ "MR_SceneSettings_OffsetMutablePtr", "MRSceneSettings_8h.html#a1cd1addbea44181de2a79bc39980dc1e", null ],
@@ -36,6 +44,7 @@ var MRSceneSettings_8h =
     [ "MR_SceneSettings_reset", "MRSceneSettings_8h.html#ac398ae069f5b6ed067e0ceacdb82e060", null ],
     [ "MR_SceneSettings_set_MR_SceneSettings_BoolType", "MRSceneSettings_8h.html#a706cb745d9b13d1824be57c4de4848da", null ],
     [ "MR_SceneSettings_set_MR_SceneSettings_FloatType", "MRSceneSettings_8h.html#a9e8c8ff62b21948e15c8bb790016863b", null ],
+    [ "MR_SceneSettings_set_MR_SceneSettings_StringType", "MRSceneSettings_8h.html#a6cd0925e3f23eea6835101e50eec97a6", null ],
     [ "MR_SceneSettings_setCNCMachineSettings", "MRSceneSettings_8h.html#a9609e9aa7b73b84b017efb0680b8942d", null ],
     [ "MR_SceneSettings_setDefaultShadingMode", "MRSceneSettings_8h.html#a7692ae8be694b0e839f86b766f0c45eb", null ]
 ];

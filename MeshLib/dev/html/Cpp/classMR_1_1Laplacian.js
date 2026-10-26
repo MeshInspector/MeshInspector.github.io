@@ -1,7 +1,5 @@
 var classMR_1_1Laplacian =
 [
-    [ "Laplacian", "group__GeneralGroup.html#ga701e06f6b7ebb3c08d691ca34ffeab37", null ],
-    [ "Laplacian", "group__GeneralGroup.html#ga76c6a49784d646ffed8a834c10e927df", null ],
     [ "Laplacian", "group__GeneralGroup.html#ga61c764e507de86f90b4a8763fdae00fd", null ],
     [ "~Laplacian", "group__GeneralGroup.html#gaddaaf769ca00b17d64d71fe8f4b3a60d", null ],
     [ "addAttractor", "group__GeneralGroup.html#ga0568cc66101d05347d62733b8e9e6e1a", null ],
@@ -9,15 +7,21 @@ var classMR_1_1Laplacian =
     [ "applyToScalar", "group__GeneralGroup.html#ga175ea45bb3617c292306378d0ae533a0", null ],
     [ "applyToVector", "group__GeneralGroup.html#ga6d897482a207ddf21fab0274e22a7133", null ],
     [ "firstLayerFixedVerts", "group__GeneralGroup.html#ga1d3cc11b268b8962ef51d56d4946b2a8", null ],
-    [ "fixVertex", "group__GeneralGroup.html#ga85bd09ce8356a9b467ee3ede1c5aa296", null ],
-    [ "fixVertex", "group__GeneralGroup.html#gae0ad8bbfe008f8d2ad98d0f7e6e2a1cd", null ],
     [ "freeVerts", "group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9", null ],
     [ "init", "group__GeneralGroup.html#ga4a5fd158281d7c2d11d4c1bfc6f0d42f", null ],
     [ "initFromPoints", "group__GeneralGroup.html#gaf8c807b6eac743eb543a4d3f65c759e2", null ],
+    [ "MR_BIND_OVERLOAD_SUFFIX", "group__GeneralGroup.html#ga3de39ed8ed62f4df8bbfbd873218b07e", null ],
+    [ "MR_BIND_OVERLOAD_SUFFIX", "group__GeneralGroup.html#gafe079fa9f4dd351d2365cd42a15ae550", null ],
+    [ "MR_BIND_OVERLOAD_SUFFIX", "group__GeneralGroup.html#gaaa66889c32ef49e14c59dce3587227fb", null ],
+    [ "MR_BIND_OVERLOAD_SUFFIX", "group__GeneralGroup.html#gaf1e9fa1a2d1da6305610b98e321efbbf", null ],
     [ "multVertexWeight", "group__GeneralGroup.html#gabd2232997c80ac2ccfa4b05df9ca0767", null ],
     [ "points", "group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c", null ],
     [ "region", "group__GeneralGroup.html#ga9ad9ba866f86e02979c7ad6b6af3331c", null ],
     [ "removeAllAttractors", "group__GeneralGroup.html#gac82a9081ff051fecccad5bd85d17e14b", null ],
     [ "topology", "group__GeneralGroup.html#gac4f2d6921a705dd7dd24fb45d990795a", null ],
-    [ "updateSolver", "group__GeneralGroup.html#gaed49a7865f3de5ad169b768e09d8d91a", null ]
+    [ "updateSolver", "group__GeneralGroup.html#gaed49a7865f3de5ad169b768e09d8d91a", null ],
+    [ "fixedPos", "group__GeneralGroup.html#ga9157b56134c5c567dda801ec9a8b71f7", null ],
+    [ "points", "group__GeneralGroup.html#ga684ea86bce1e071b8600a2cfd4bdf524", null ],
+    [ "smooth", "group__GeneralGroup.html#gadf40f24990a3a112f6f02bea20e44d4e", null ],
+    [ "smooth", "group__GeneralGroup.html#ga2064ca7307d60e68bfa23be6cea67f85", null ]
 ];

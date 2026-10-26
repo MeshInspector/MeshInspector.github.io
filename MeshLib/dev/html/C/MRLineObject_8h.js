@@ -10,6 +10,7 @@ var MRLineObject_8h =
     [ "MR_LineObject_classNameInPlural", "MRLineObject_8h.html#ae17b702c243c90c385015419cbcbf96c", null ],
     [ "MR_LineObject_clone", "MRLineObject_8h.html#a9cee8e4dfb781a57647115d10c8af826", null ],
     [ "MR_LineObject_cloneTree", "MRLineObject_8h.html#a831e32de3922a71d75c9d22f36f9ad5b", null ],
+    [ "MR_LineObject_constChildren", "MRLineObject_8h.html#addd0b462f92cdaf7ddc6e2c7263396aa", null ],
     [ "MR_LineObject_Construct", "MRLineObject_8h.html#ac04540319066419e38cd65048b28cd1f", null ],
     [ "MR_LineObject_ConstructFromAnother", "MRLineObject_8h.html#ac4199a5f8fdff068cabeb05bfebce82c", null ],
     [ "MR_LineObject_copyAllSolidColors", "MRLineObject_8h.html#a21d360bfa0865fe5055c1bef72db82d3", null ],

@@ -20,7 +20,7 @@
         <location file="MRMesh/MRMeshProject.h" line="20" column="17" bodyfile="MRMesh/MRMeshProject.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshProjectionResult_1ab598491c26bf32f15bbd10cbb2bfb7a1" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref></type>
         <definition>MeshTriPoint MR::MeshProjectionResult::mtp</definition>
         <argsstring></argsstring>
         <name>mtp</name>
@@ -93,13 +93,6 @@
         <childnode refid="2" relation="usage">
           <edgelabel>proj</edgelabel>
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>mtp</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MR::MeshTriPoint</label>
-        <link refid="structMR_1_1MeshTriPoint"/>
       </node>
       <node id="2">
         <label>MR::PointOnFace</label>

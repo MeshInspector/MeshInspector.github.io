@@ -57,5 +57,7 @@ var MRBitSet_8cs =
     [ "MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag", "classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html", "classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag" ],
     [ "MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag", "classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html", "classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag" ],
     [ "MR.Const_BitSet", "classMR_1_1Const__BitSet.html", "classMR_1_1Const__BitSet" ],
+    [ "MR.Const_BitSet.Const_Counts", "classMR_1_1Const__BitSet_1_1Const__Counts.html", "classMR_1_1Const__BitSet_1_1Const__Counts" ],
+    [ "MR.Const_BitSet.Counts", "classMR_1_1Const__BitSet_1_1Counts.html", "classMR_1_1Const__BitSet_1_1Counts" ],
     [ "MR.BitSet", "classMR_1_1BitSet.html", "classMR_1_1BitSet" ]
 ];

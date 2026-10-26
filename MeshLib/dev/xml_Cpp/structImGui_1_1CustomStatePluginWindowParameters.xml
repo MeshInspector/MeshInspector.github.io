@@ -180,13 +180,29 @@
         </inbodydescription>
         <location file="MRViewer/ImGuiHelpers.h" line="207" column="10" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="207" bodyend="207"/>
       </memberdef>
+      <memberdef kind="variable" id="structImGui_1_1CustomStatePluginWindowParameters_1a19ef8883b4cd0ba24446e2cd767ac8d6" prot="public" static="no" mutable="no">
+        <type>std::string_view</type>
+        <definition>std::string_view ImGui::CustomStatePluginWindowParameters::testEngineName</definition>
+        <argsstring></argsstring>
+        <name>testEngineName</name>
+        <qualifiedname>ImGui::CustomStatePluginWindowParameters::testEngineName</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+<para>name of the window&apos;s group in the UI test engine; if empty, the label without <computeroutput>##...</computeroutput> is used </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/ImGuiHelpers.h" line="209" column="22" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="209" bodyend="209"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
 <para>Structure that contains parameters for State plugin window with custom style. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRViewer/ImGuiHelpers.h" line="180" column="1" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="181" bodyend="208"/>
+    <location file="MRViewer/ImGuiHelpers.h" line="180" column="1" bodyfile="MRViewer/ImGuiHelpers.h" bodystart="181" bodyend="210"/>
     <listofallmembers>
       <member refid="structImGui_1_1CustomStatePluginWindowParameters_1a587435906bc6bfce42fc472c1863c883" prot="public" virt="non-virtual"><scope>ImGui::CustomStatePluginWindowParameters</scope><name>allowScrollbar</name></member>
       <member refid="structImGui_1_1CustomStatePluginWindowParameters_1aba6660d67c3455cb242987a649e85162" prot="public" virt="non-virtual"><scope>ImGui::CustomStatePluginWindowParameters</scope><name>changedSize</name></member>
@@ -198,6 +214,7 @@
       <member refid="structImGui_1_1CustomStatePluginWindowParameters_1a03c3bb1a741563a7f133d3da8f2b6d98" prot="public" virt="non-virtual"><scope>ImGui::CustomStatePluginWindowParameters</scope><name>helpBtnFn</name></member>
       <member refid="structImGui_1_1CustomStatePluginWindowParameters_1ae299a30eaa219843f278913c0d69044a" prot="public" virt="non-virtual"><scope>ImGui::CustomStatePluginWindowParameters</scope><name>pivot</name></member>
       <member refid="structImGui_1_1CustomStatePluginWindowParameters_1a806cc2ab5e052004470f0333fb459651" prot="public" virt="non-virtual"><scope>ImGui::CustomStatePluginWindowParameters</scope><name>position</name></member>
+      <member refid="structImGui_1_1CustomStatePluginWindowParameters_1a19ef8883b4cd0ba24446e2cd767ac8d6" prot="public" virt="non-virtual"><scope>ImGui::CustomStatePluginWindowParameters</scope><name>testEngineName</name></member>
       <member refid="structImGui_1_1CustomStatePluginWindowParameters_1a1b847836011905ac5e81447b23f40ca5" prot="public" virt="non-virtual"><scope>ImGui::CustomStatePluginWindowParameters</scope><name>width</name></member>
     </listofallmembers>
   </compounddef>

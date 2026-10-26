@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="29" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="29" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="27" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__Chunk_1afe0ba94d4bb55d5fb7e7764339ce603d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe nuint</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="35" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="35" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="33" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="33" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="30" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="30" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="28" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__Chunk_1a003b66551ad73e39b45629e8cf74a032" prot="protected" static="no" mutable="no">
         <type>unsafe nuint *</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="36" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="36" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="34" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="34" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="14" bodyend="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="14" bodyend="20"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="23" bodyend="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="21" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="21" bodyend="21"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Chunk_1af40bacbceb535898891236c14ee22231" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="69" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="69" bodyend="75"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="63" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="63" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Chunk_1ad03a0761aecb6c7ff1b7be7956f83aff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="80" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="80" bodyend="86"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="72" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="72" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Chunk_1a9712a0458aad8b151e11544839c5469f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="91" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="91" bodyend="98"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="81" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="81" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Chunk_1a59cfa1b22fa8430b5ffe1b8d87fef236" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="103" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="103" bodyend="103"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="91" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="91" bodyend="91"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="24" bodyend="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="22" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="22" bodyend="22"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -216,7 +216,117 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="58" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="58" bodyend="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="52" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="52" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Chunk_1abf3d1fd5556c401ccd711d63746fe48f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Chunk._Underlying *</type>
+        <definition>static unsafe MR.Chunk._Underlying * MR.Const_Chunk.__MR_Chunk_ConstructFrom</definition>
+        <argsstring>(nuint offset, nuint size)</argsstring>
+        <name>__MR_Chunk_ConstructFrom</name>
+        <qualifiedname>MR.Const_Chunk.__MR_Chunk_ConstructFrom</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="96" column="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Chunk_1a65717310ea1a99db52b2036d259e00e7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Chunk._Underlying *</type>
+        <definition>static unsafe MR.Chunk._Underlying * MR.Const_Chunk.__MR_Chunk_ConstructFromAnother</definition>
+        <argsstring>(MR.Chunk._Underlying *_other)</argsstring>
+        <name>__MR_Chunk_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_Chunk.__MR_Chunk_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Chunk._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="99" column="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Chunk_1a8200f75f979a7620eb3a9b72478056fb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Chunk._Underlying *</type>
+        <definition>static unsafe MR.Chunk._Underlying * MR.Const_Chunk.__MR_Chunk_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_Chunk_DefaultConstruct</name>
+        <qualifiedname>MR.Const_Chunk.__MR_Chunk_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="102" column="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Chunk_1a85d145907ee72ed014ed7602a69a4e3d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_Chunk.__MR_Chunk_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Chunk_Destroy</name>
+        <qualifiedname>MR.Const_Chunk.__MR_Chunk_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="105" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Chunk_1acf9f3ec665ade07084f5bedd6ed314ab" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint *</type>
+        <definition>static unsafe nuint * MR.Const_Chunk.__MR_Chunk_Get_offset</definition>
+        <argsstring>(MR.Const_Chunk._Underlying *_this)</argsstring>
+        <name>__MR_Chunk_Get_offset</name>
+        <qualifiedname>MR.Const_Chunk.__MR_Chunk_Get_offset</qualifiedname>
+        <param>
+          <type>MR.Const_Chunk._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="108" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Chunk_1a05bc67cccac20078a777236c3159a328" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint *</type>
+        <definition>static unsafe nuint * MR.Const_Chunk.__MR_Chunk_Get_size</definition>
+        <argsstring>(MR.Const_Chunk._Underlying *_this)</argsstring>
+        <name>__MR_Chunk_Get_size</name>
+        <qualifiedname>MR.Const_Chunk.__MR_Chunk_Get_size</qualifiedname>
+        <param>
+          <type>MR.Const_Chunk._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="111" column="36"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -262,8 +372,14 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="9" bodyend="104"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="9" bodyend="112"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Chunk_1abf3d1fd5556c401ccd711d63746fe48f" prot="private" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>__MR_Chunk_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__Chunk_1a65717310ea1a99db52b2036d259e00e7" prot="private" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>__MR_Chunk_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__Chunk_1a8200f75f979a7620eb3a9b72478056fb" prot="private" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>__MR_Chunk_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__Chunk_1a85d145907ee72ed014ed7602a69a4e3d" prot="private" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>__MR_Chunk_Destroy</name></member>
+      <member refid="classMR_1_1Const__Chunk_1acf9f3ec665ade07084f5bedd6ed314ab" prot="private" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>__MR_Chunk_Get_offset</name></member>
+      <member refid="classMR_1_1Const__Chunk_1a05bc67cccac20078a777236c3159a328" prot="private" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>__MR_Chunk_Get_size</name></member>
       <member refid="classMR_1_1Const__Chunk_1ac7d41082cd315a7e3ad53a03e393456c" prot="protected" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>__ref_storage_offset</name></member>
       <member refid="classMR_1_1Const__Chunk_1a003b66551ad73e39b45629e8cf74a032" prot="protected" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>__ref_storage_size</name></member>
       <member refid="classMR_1_1Const__Chunk_1aca029394444452b7f9d41c95d0468a66" prot="package" virt="non-virtual"><scope>MR::Const_Chunk</scope><name>Const_Chunk</name></member>

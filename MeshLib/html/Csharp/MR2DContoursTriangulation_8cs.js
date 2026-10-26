@@ -11,5 +11,7 @@ var MR2DContoursTriangulation_8cs =
     [ "MR.PlanarTriangulation.Const_OutlineParameters", "classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters.html", "classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters" ],
     [ "MR.PlanarTriangulation.OutlineParameters", "classMR_1_1PlanarTriangulation_1_1OutlineParameters.html", "classMR_1_1PlanarTriangulation_1_1OutlineParameters" ],
     [ "MR.PlanarTriangulation.Const_TriangulationParameters", "classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters.html", "classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters" ],
-    [ "MR.PlanarTriangulation.TriangulationParameters", "classMR_1_1PlanarTriangulation_1_1TriangulationParameters.html", "classMR_1_1PlanarTriangulation_1_1TriangulationParameters" ]
+    [ "MR.PlanarTriangulation.TriangulationParameters", "classMR_1_1PlanarTriangulation_1_1TriangulationParameters.html", "classMR_1_1PlanarTriangulation_1_1TriangulationParameters" ],
+    [ "MR.PlanarTriangulation.Const_ISweepLineCache", "classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache.html", "classMR_1_1PlanarTriangulation_1_1Const__ISweepLineCache" ],
+    [ "MR.PlanarTriangulation.ISweepLineCache", "classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html", null ]
 ];

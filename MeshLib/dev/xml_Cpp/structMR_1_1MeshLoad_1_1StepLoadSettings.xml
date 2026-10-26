@@ -68,16 +68,33 @@
         </inbodydescription>
         <location file="MRIOExtras/MRStep.h" line="27" column="10" bodyfile="MRIOExtras/MRStep.h" bodystart="27" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshLoad_1_1StepLoadSettings_1a305896bf1e6f138df3e0f7982bc1d3cf" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::MeshLoad::StepLoadSettings::forceLoadSubShapes</definition>
+        <argsstring></argsstring>
+        <name>forceLoadSubShapes</name>
+        <qualifiedname>MR::MeshLoad::StepLoadSettings::forceLoadSubShapes</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>split every simple shape into per-body (Solid/Shell) child objects, even if it has a single body; by default single-body shapes are loaded as a single mesh object </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRStep.h" line="30" column="10" bodyfile="MRIOExtras/MRStep.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
 <para>STEP-specific mesh load parameters. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRIOExtras/MRStep.h" line="17" column="1" bodyfile="MRIOExtras/MRStep.h" bodystart="18" bodyend="28"/>
+    <location file="MRIOExtras/MRStep.h" line="17" column="1" bodyfile="MRIOExtras/MRStep.h" bodystart="18" bodyend="31"/>
     <listofallmembers>
       <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1adb63f8f295224fa727fc868341d70f97" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>angularDeflection</name></member>
       <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a7d49edf6d491e777a91aa4259a6702ad" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>autoColorize</name></member>
+      <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a305896bf1e6f138df3e0f7982bc1d3cf" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>forceLoadSubShapes</name></member>
       <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a4dae8524d35b83327dd647e39cd27a0b" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>linearDeflection</name></member>
       <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a1ce565a217495fbc5151a90f6c5ba904" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>relative</name></member>
     </listofallmembers>

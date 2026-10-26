@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,7 +133,6 @@ $(function(){initNavTree('classMR_1_1FaceColors.html','','classMR_1_1FaceColors-
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1FaceColors-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.FaceColors Class Reference</div></div>
@@ -179,10 +171,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:abe037ffeed5bc54430a59920b5434864"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#aa54c3f2c753553b4479b578ffb17f52c" title="Constructs an empty (default-constructed) instance.">MR.FaceColors.FaceColors</a></span>.  <br /></td></tr>
 <tr class="memitem:a56564d244edcd5904c13eb2b154ec9a5" id="r_a56564d244edcd5904c13eb2b154ec9a5"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56564d244edcd5904c13eb2b154ec9a5">FaceColors</a> (nuint <a class="el" href="classMR_1_1Const__FaceColors.html#a42dc5cd3f5815ef4f91ea7a5e4c4edd8">size</a>, in <a class="el" href="structMR_1_1Color.html">MR.Color</a> val)</td></tr>
 <tr class="memdesc:a56564d244edcd5904c13eb2b154ec9a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#aa54c3f2c753553b4479b578ffb17f52c" title="Constructs an empty (default-constructed) instance.">MR.FaceColors.FaceColors</a></span>.  <br /></td></tr>
-<tr class="memitem:a5c5bc807f0e446ee38d393100a7c8ad4" id="r_a5c5bc807f0e446ee38d393100a7c8ad4"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c5bc807f0e446ee38d393100a7c8ad4">FaceColors</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; <a class="el" href="#a5b1b992bed81b2e37dd7330e3d072851">vec</a>)</td></tr>
-<tr class="memdesc:a5c5bc807f0e446ee38d393100a7c8ad4"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#aa54c3f2c753553b4479b578ffb17f52c" title="Constructs an empty (default-constructed) instance.">MR.FaceColors.FaceColors</a></span>.  <br /></td></tr>
 <tr class="memitem:a1efc3c58b9efa3de8dcc74321c8d952f" id="r_a1efc3c58b9efa3de8dcc74321c8d952f"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1FaceColors.html">MR.FaceColors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1efc3c58b9efa3de8dcc74321c8d952f">assign</a> (MR._ByValue_FaceColors _other)</td></tr>
 <tr class="memdesc:a1efc3c58b9efa3de8dcc74321c8d952f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::FaceColors::operator=</span>.  <br /></td></tr>
+<tr class="memitem:a68758c2d68937a676c9b8ce1f020a4d0" id="r_a68758c2d68937a676c9b8ce1f020a4d0"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68758c2d68937a676c9b8ce1f020a4d0">assign</a> (nuint count, in <a class="el" href="structMR_1_1Color.html">MR.Color</a> val)</td></tr>
+<tr class="memdesc:a68758c2d68937a676c9b8ce1f020a4d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#a1efc3c58b9efa3de8dcc74321c8d952f" title="Generated from method MR.FaceColors.operator=.">MR.FaceColors.assign</a></span>.  <br /></td></tr>
 <tr class="memitem:aea6be1733ab29a03a04b41899943951c" id="r_aea6be1733ab29a03a04b41899943951c"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea6be1733ab29a03a04b41899943951c">clear</a> ()</td></tr>
 <tr class="memdesc:aea6be1733ab29a03a04b41899943951c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aea6be1733ab29a03a04b41899943951c" title="Generated from method MR.FaceColors.clear.">MR.FaceColors.clear</a></span>.  <br /></td></tr>
 <tr class="memitem:a1af4fec47c16a7a23581b3993a4e6000" id="r_a1af4fec47c16a7a23581b3993a4e6000"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1af4fec47c16a7a23581b3993a4e6000">resize</a> (nuint newSize)</td></tr>
@@ -193,10 +185,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9991954e97e320f09747b5e7a1830cc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a9991954e97e320f09747b5e7a1830cc6" title="Generated from method MR.FaceColors.resizeNoInit.">MR.FaceColors.resizeNoInit</a></span>.  <br /></td></tr>
 <tr class="memitem:aa74e817331f3a680a8fae1c79ca97420" id="r_aa74e817331f3a680a8fae1c79ca97420"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa74e817331f3a680a8fae1c79ca97420">reserve</a> (nuint <a class="el" href="classMR_1_1Const__FaceColors.html#a19c0048e4bafb35ed21173e5f0312676">capacity</a>)</td></tr>
 <tr class="memdesc:aa74e817331f3a680a8fae1c79ca97420"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aa74e817331f3a680a8fae1c79ca97420" title="Generated from method MR.FaceColors.reserve.">MR.FaceColors.reserve</a></span>.  <br /></td></tr>
+<tr class="memitem:ad91d805d9ca073115be4577de7c53ca0" id="r_ad91d805d9ca073115be4577de7c53ca0"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad91d805d9ca073115be4577de7c53ca0">shrinkToFit</a> ()</td></tr>
+<tr class="memdesc:ad91d805d9ca073115be4577de7c53ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::FaceColors::shrink_to_fit</span>.  <br /></td></tr>
 <tr class="memitem:ab0e628484a0a71851bed81bd363fd230" id="r_ab0e628484a0a71851bed81bd363fd230"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0e628484a0a71851bed81bd363fd230">resizeWithReserve</a> (nuint newSize)</td></tr>
-<tr class="memdesc:ab0e628484a0a71851bed81bd363fd230"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#ab0e628484a0a71851bed81bd363fd230" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.FaceColors.resizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memdesc:ab0e628484a0a71851bed81bd363fd230"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#ab0e628484a0a71851bed81bd363fd230" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.FaceColors.resizeWithReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:ad88a0e4e5714e74d59d46575c630fae1" id="r_ad88a0e4e5714e74d59d46575c630fae1"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad88a0e4e5714e74d59d46575c630fae1">resizeWithReserve</a> (nuint newSize, in <a class="el" href="structMR_1_1Color.html">MR.Color</a> value)</td></tr>
-<tr class="memdesc:ad88a0e4e5714e74d59d46575c630fae1"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#ab0e628484a0a71851bed81bd363fd230" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.FaceColors.resizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memdesc:ad88a0e4e5714e74d59d46575c630fae1"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize, value), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#ab0e628484a0a71851bed81bd363fd230" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.FaceColors.resizeWithReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a892c95c360eb38fe88411ff20f100c39" id="r_a892c95c360eb38fe88411ff20f100c39"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a892c95c360eb38fe88411ff20f100c39">autoResizeSet</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> pos, nuint len, <a class="el" href="structMR_1_1Color.html">MR.Color</a> val)</td></tr>
 <tr class="memdesc:a892c95c360eb38fe88411ff20f100c39"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <code class="param">pos</code> are also set to <code class="param">val</code> (for faster implementation) Generated from method <span class="tt"><a class="el" href="#a892c95c360eb38fe88411ff20f100c39" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.FaceColors.autoResizeSet</a></span>.  <br /></td></tr>
 <tr class="memitem:a3861b65018283ce8cba092f7b3fa0dae" id="r_a3861b65018283ce8cba092f7b3fa0dae"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3861b65018283ce8cba092f7b3fa0dae">autoResizeSet</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> i, <a class="el" href="structMR_1_1Color.html">MR.Color</a> val)</td></tr>
@@ -209,12 +203,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a63127e0eba830d3b6a5f003abfb4c6a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::FaceColors::push_back</span>.  <br /></td></tr>
 <tr class="memitem:a04a09126829f543d258548a5861612af" id="r_a04a09126829f543d258548a5861612af"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04a09126829f543d258548a5861612af">popBack</a> ()</td></tr>
 <tr class="memdesc:a04a09126829f543d258548a5861612af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::FaceColors::pop_back</span>.  <br /></td></tr>
+<tr class="memitem:ab4be607b881d1827c6a0342ecb5e3dcd" id="r_ab4be607b881d1827c6a0342ecb5e3dcd"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRColor.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4be607b881d1827c6a0342ecb5e3dcd">insert</a> (MR.Std.Vector_MRColor.Const_ConstIterator pos, in <a class="el" href="structMR_1_1Color.html">MR.Color</a> t)</td></tr>
+<tr class="memdesc:ab4be607b881d1827c6a0342ecb5e3dcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">inserts <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#ab4be607b881d1827c6a0342ecb5e3dcd" title="inserts t before pos Generated from method MR.FaceColors.insert.">MR.FaceColors.insert</a></span>.  <br /></td></tr>
+<tr class="memitem:abedfd6298b6cf5f9ff6c091b4e4a1619" id="r_abedfd6298b6cf5f9ff6c091b4e4a1619"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRColor.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abedfd6298b6cf5f9ff6c091b4e4a1619">insert</a> (MR.Std.Vector_MRColor.Const_ConstIterator pos, MR.Misc._MoveRef _move_t, in <a class="el" href="structMR_1_1Color.html">MR.Color</a> t)</td></tr>
+<tr class="memdesc:abedfd6298b6cf5f9ff6c091b4e4a1619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ab4be607b881d1827c6a0342ecb5e3dcd" title="inserts t before pos Generated from method MR.FaceColors.insert.">MR.FaceColors.insert</a></span>.  <br /></td></tr>
+<tr class="memitem:a1f9e4f4f23a7b402a560a5d55f252074" id="r_a1f9e4f4f23a7b402a560a5d55f252074"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRColor.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f9e4f4f23a7b402a560a5d55f252074">insert</a> (MR.Std.Vector_MRColor.Const_ConstIterator pos, nuint count, in <a class="el" href="structMR_1_1Color.html">MR.Color</a> t)</td></tr>
+<tr class="memdesc:a1f9e4f4f23a7b402a560a5d55f252074"><td class="mdescLeft">&#160;</td><td class="mdescRight">inserts <code class="param">count</code> copies of <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#ab4be607b881d1827c6a0342ecb5e3dcd" title="inserts t before pos Generated from method MR.FaceColors.insert.">MR.FaceColors.insert</a></span>.  <br /></td></tr>
+<tr class="memitem:aa4f1a7479e0bfabe2b00987c0c04feab" id="r_aa4f1a7479e0bfabe2b00987c0c04feab"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRColor.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4f1a7479e0bfabe2b00987c0c04feab">erase</a> (MR.Std.Vector_MRColor.Const_ConstIterator pos)</td></tr>
+<tr class="memdesc:aa4f1a7479e0bfabe2b00987c0c04feab"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the element at <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#aa4f1a7479e0bfabe2b00987c0c04feab" title="removes the element at pos Generated from method MR.FaceColors.erase.">MR.FaceColors.erase</a></span>.  <br /></td></tr>
+<tr class="memitem:a75cbcc884117940ecbe324c3d1126c48" id="r_a75cbcc884117940ecbe324c3d1126c48"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRColor.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75cbcc884117940ecbe324c3d1126c48">erase</a> (MR.Std.Vector_MRColor.Const_ConstIterator first, MR.Std.Vector_MRColor.Const_ConstIterator last)</td></tr>
+<tr class="memdesc:a75cbcc884117940ecbe324c3d1126c48"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the elements in range [first, last) Generated from method <span class="tt"><a class="el" href="#aa4f1a7479e0bfabe2b00987c0c04feab" title="removes the element at pos Generated from method MR.FaceColors.erase.">MR.FaceColors.erase</a></span>.  <br /></td></tr>
 <tr class="memitem:a9059347ddab7305bd8eacc508ff59429" id="r_a9059347ddab7305bd8eacc508ff59429"><td class="memItemLeft" align="right" valign="top">unsafe new ref <a class="el" href="structMR_1_1Color.html">MR.Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9059347ddab7305bd8eacc508ff59429">front</a> ()</td></tr>
 <tr class="memdesc:a9059347ddab7305bd8eacc508ff59429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a9059347ddab7305bd8eacc508ff59429" title="Generated from method MR.FaceColors.front.">MR.FaceColors.front</a></span>.  <br /></td></tr>
 <tr class="memitem:a3ee1c1a6f3c23dfcef8f4fc058ed37cf" id="r_a3ee1c1a6f3c23dfcef8f4fc058ed37cf"><td class="memItemLeft" align="right" valign="top">unsafe new ref <a class="el" href="structMR_1_1Color.html">MR.Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ee1c1a6f3c23dfcef8f4fc058ed37cf">back</a> ()</td></tr>
 <tr class="memdesc:a3ee1c1a6f3c23dfcef8f4fc058ed37cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a3ee1c1a6f3c23dfcef8f4fc058ed37cf" title="Generated from method MR.FaceColors.back.">MR.FaceColors.back</a></span>.  <br /></td></tr>
 <tr class="memitem:a5c91d582d15bff1f216e4a9906684aaf" id="r_a5c91d582d15bff1f216e4a9906684aaf"><td class="memItemLeft" align="right" valign="top">unsafe new MR.Misc.? Ref&lt; <a class="el" href="structMR_1_1Color.html">MR.Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c91d582d15bff1f216e4a9906684aaf">data</a> ()</td></tr>
 <tr class="memdesc:a5c91d582d15bff1f216e4a9906684aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a5c91d582d15bff1f216e4a9906684aaf" title="Generated from method MR.FaceColors.data.">MR.FaceColors.data</a></span>.  <br /></td></tr>
+<tr class="memitem:a1a5d8fe76d0b7ef8810f73cf5f3e96e4" id="r_a1a5d8fe76d0b7ef8810f73cf5f3e96e4"><td class="memItemLeft" align="right" valign="top">unsafe new MR.Std.Vector_MRColor.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a5d8fe76d0b7ef8810f73cf5f3e96e4">begin</a> ()</td></tr>
+<tr class="memdesc:a1a5d8fe76d0b7ef8810f73cf5f3e96e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a1a5d8fe76d0b7ef8810f73cf5f3e96e4" title="Generated from method MR.FaceColors.begin.">MR.FaceColors.begin</a></span>.  <br /></td></tr>
+<tr class="memitem:a1de4d0d0204ec826575d353bfe6d9738" id="r_a1de4d0d0204ec826575d353bfe6d9738"><td class="memItemLeft" align="right" valign="top">unsafe new MR.Std.Vector_MRColor.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1de4d0d0204ec826575d353bfe6d9738">end</a> ()</td></tr>
+<tr class="memdesc:a1de4d0d0204ec826575d353bfe6d9738"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a1de4d0d0204ec826575d353bfe6d9738" title="Generated from method MR.FaceColors.end.">MR.FaceColors.end</a></span>.  <br /></td></tr>
 <tr class="memitem:a88b2fa6165e620756b2574d8540cd5b8" id="r_a88b2fa6165e620756b2574d8540cd5b8"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88b2fa6165e620756b2574d8540cd5b8">swap</a> (<a class="el" href="classMR_1_1FaceColors.html">MR.FaceColors</a> b)</td></tr>
 <tr class="memdesc:a88b2fa6165e620756b2574d8540cd5b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a88b2fa6165e620756b2574d8540cd5b8" title="Generated from method MR.FaceColors.swap.">MR.FaceColors.swap</a></span>.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1Const__FaceColors"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1Const__FaceColors')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a></td></tr>
@@ -232,12 +240,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6f335079d332762b92df7633aad4f193 inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#aa54c3f2c753553b4479b578ffb17f52c" title="Constructs an empty (default-constructed) instance.">MR.FaceColors.FaceColors</a></span>.  <br /></td></tr>
 <tr class="memitem:a3886ea3866a8f8331b5fe594ff56a7f8 inherit pub_methods_classMR_1_1Const__FaceColors" id="r_a3886ea3866a8f8331b5fe594ff56a7f8"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#a3886ea3866a8f8331b5fe594ff56a7f8">Const_FaceColors</a> (nuint <a class="el" href="classMR_1_1Const__FaceColors.html#a42dc5cd3f5815ef4f91ea7a5e4c4edd8">size</a>, in <a class="el" href="structMR_1_1Color.html">MR.Color</a> val)</td></tr>
 <tr class="memdesc:a3886ea3866a8f8331b5fe594ff56a7f8 inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#aa54c3f2c753553b4479b578ffb17f52c" title="Constructs an empty (default-constructed) instance.">MR.FaceColors.FaceColors</a></span>.  <br /></td></tr>
-<tr class="memitem:ac107d004a33398cc90b89e4cbb2b8498 inherit pub_methods_classMR_1_1Const__FaceColors" id="r_ac107d004a33398cc90b89e4cbb2b8498"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#ac107d004a33398cc90b89e4cbb2b8498">Const_FaceColors</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; <a class="el" href="classMR_1_1Const__FaceColors.html#ad8ee6f07073bccee699e53488d6d5a95">vec</a>)</td></tr>
-<tr class="memdesc:ac107d004a33398cc90b89e4cbb2b8498 inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#aa54c3f2c753553b4479b578ffb17f52c" title="Constructs an empty (default-constructed) instance.">MR.FaceColors.FaceColors</a></span>.  <br /></td></tr>
 <tr class="memitem:a3eabe22fa83c5e4d9c2adb693d3bf540 inherit pub_methods_classMR_1_1Const__FaceColors" id="r_a3eabe22fa83c5e4d9c2adb693d3bf540"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#a3eabe22fa83c5e4d9c2adb693d3bf540">empty</a> ()</td></tr>
 <tr class="memdesc:a3eabe22fa83c5e4d9c2adb693d3bf540 inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__FaceColors.html#a3eabe22fa83c5e4d9c2adb693d3bf540" title="Generated from method MR.FaceColors.empty.">MR.FaceColors.empty</a></span>.  <br /></td></tr>
 <tr class="memitem:a42dc5cd3f5815ef4f91ea7a5e4c4edd8 inherit pub_methods_classMR_1_1Const__FaceColors" id="r_a42dc5cd3f5815ef4f91ea7a5e4c4edd8"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#a42dc5cd3f5815ef4f91ea7a5e4c4edd8">size</a> ()</td></tr>
 <tr class="memdesc:a42dc5cd3f5815ef4f91ea7a5e4c4edd8 inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__FaceColors.html#a42dc5cd3f5815ef4f91ea7a5e4c4edd8" title="Generated from method MR.FaceColors.size.">MR.FaceColors.size</a></span>.  <br /></td></tr>
+<tr class="memitem:a6bedec8925ecff37d133fdedb7b5eec6 inherit pub_methods_classMR_1_1Const__FaceColors" id="r_a6bedec8925ecff37d133fdedb7b5eec6"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#a6bedec8925ecff37d133fdedb7b5eec6">maxSize</a> ()</td></tr>
+<tr class="memdesc:a6bedec8925ecff37d133fdedb7b5eec6 inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::FaceColors::max_size</span>.  <br /></td></tr>
 <tr class="memitem:a19c0048e4bafb35ed21173e5f0312676 inherit pub_methods_classMR_1_1Const__FaceColors" id="r_a19c0048e4bafb35ed21173e5f0312676"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#a19c0048e4bafb35ed21173e5f0312676">capacity</a> ()</td></tr>
 <tr class="memdesc:a19c0048e4bafb35ed21173e5f0312676 inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__FaceColors.html#a19c0048e4bafb35ed21173e5f0312676" title="Generated from method MR.FaceColors.capacity.">MR.FaceColors.capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:aedbec9367411d6a570ff9664c6574630 inherit pub_methods_classMR_1_1Const__FaceColors" id="r_aedbec9367411d6a570ff9664c6574630"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1Color.html">MR.Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#aedbec9367411d6a570ff9664c6574630">front</a> ()</td></tr>
@@ -252,21 +260,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a06328e9a7198fa969bb14f6f2178bd85 inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="classMR_1_1Const__FaceColors.html#a3faaee1fd50c73ea86b27d50e8158b3e" title="returns the identifier of the back() element Generated from method MR.FaceColors.backId.">backId()</a> + 1 Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__FaceColors.html#a06328e9a7198fa969bb14f6f2178bd85" title="returns backId() + 1 Generated from method MR.FaceColors.endId.">MR.FaceColors.endId</a></span>.  <br /></td></tr>
 <tr class="memitem:ab05d37be712ee4d1a1ebef962ee1a06d inherit pub_methods_classMR_1_1Const__FaceColors" id="r_ab05d37be712ee4d1a1ebef962ee1a06d"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#ab05d37be712ee4d1a1ebef962ee1a06d">data</a> ()</td></tr>
 <tr class="memdesc:ab05d37be712ee4d1a1ebef962ee1a06d inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a5c91d582d15bff1f216e4a9906684aaf" title="Generated from method MR.FaceColors.data.">MR.FaceColors.data</a></span>.  <br /></td></tr>
+<tr class="memitem:ab692ea444d6303739a502ee4d5eb362d inherit pub_methods_classMR_1_1Const__FaceColors" id="r_ab692ea444d6303739a502ee4d5eb362d"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRColor.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#ab692ea444d6303739a502ee4d5eb362d">begin</a> ()</td></tr>
+<tr class="memdesc:ab692ea444d6303739a502ee4d5eb362d inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a1a5d8fe76d0b7ef8810f73cf5f3e96e4" title="Generated from method MR.FaceColors.begin.">MR.FaceColors.begin</a></span>.  <br /></td></tr>
+<tr class="memitem:a2011580151d5a8063354221db8898bdb inherit pub_methods_classMR_1_1Const__FaceColors" id="r_a2011580151d5a8063354221db8898bdb"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRColor.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#a2011580151d5a8063354221db8898bdb">cbegin</a> ()</td></tr>
+<tr class="memdesc:a2011580151d5a8063354221db8898bdb inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__FaceColors.html#a2011580151d5a8063354221db8898bdb" title="Generated from method MR.FaceColors.cbegin.">MR.FaceColors.cbegin</a></span>.  <br /></td></tr>
+<tr class="memitem:a76033570fd53c1f40d6f253d9143100c inherit pub_methods_classMR_1_1Const__FaceColors" id="r_a76033570fd53c1f40d6f253d9143100c"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRColor.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#a76033570fd53c1f40d6f253d9143100c">end</a> ()</td></tr>
+<tr class="memdesc:a76033570fd53c1f40d6f253d9143100c inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a1de4d0d0204ec826575d353bfe6d9738" title="Generated from method MR.FaceColors.end.">MR.FaceColors.end</a></span>.  <br /></td></tr>
+<tr class="memitem:acbdc0d1d0a37eec1ecf740719d1a15f8 inherit pub_methods_classMR_1_1Const__FaceColors" id="r_acbdc0d1d0a37eec1ecf740719d1a15f8"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRColor.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#acbdc0d1d0a37eec1ecf740719d1a15f8">cend</a> ()</td></tr>
+<tr class="memdesc:acbdc0d1d0a37eec1ecf740719d1a15f8 inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__FaceColors.html#acbdc0d1d0a37eec1ecf740719d1a15f8" title="Generated from method MR.FaceColors.cend.">MR.FaceColors.cend</a></span>.  <br /></td></tr>
 <tr class="memitem:aacfa19c545850b2857e8884be9589425 inherit pub_methods_classMR_1_1Const__FaceColors" id="r_aacfa19c545850b2857e8884be9589425"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#aacfa19c545850b2857e8884be9589425">heapBytes</a> ()</td></tr>
 <tr class="memdesc:aacfa19c545850b2857e8884be9589425 inherit pub_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__FaceColors.html#aacfa19c545850b2857e8884be9589425" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.FaceColors.heapBytes</a></span>.  <br /></td></tr>
 <tr class="memitem:a45db029eccb57e861dae0ba67120b107 inherit pub_methods_classMR_1_1Const__FaceColors" id="r_a45db029eccb57e861dae0ba67120b107"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#a45db029eccb57e861dae0ba67120b107">Equals</a> (<a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a>? b)</td></tr>
 <tr class="memitem:a7908c692dcc00b00dd8a2242afef9f98 inherit pub_methods_classMR_1_1Const__FaceColors" id="r_a7908c692dcc00b00dd8a2242afef9f98"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#a7908c692dcc00b00dd8a2242afef9f98">Equals</a> (object? other)</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5be45762ce9925c1e6d93b6f47a0a3a4" id="r_a5be45762ce9925c1e6d93b6f47a0a3a4"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5be45762ce9925c1e6d93b6f47a0a3a4">operator FaceColors</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; <a class="el" href="#a5b1b992bed81b2e37dd7330e3d072851">vec</a>)</td></tr>
-<tr class="memdesc:a5be45762ce9925c1e6d93b6f47a0a3a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#aa54c3f2c753553b4479b578ffb17f52c" title="Constructs an empty (default-constructed) instance.">MR.FaceColors.FaceColors</a></span>.  <br /></td></tr>
-<tr class="inherit_header pub_static_methods_classMR_1_1Const__FaceColors"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Const__FaceColors')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a></td></tr>
-<tr class="memitem:a3cfca095c3063d590804b0cf3ab780a6 inherit pub_static_methods_classMR_1_1Const__FaceColors" id="r_a3cfca095c3063d590804b0cf3ab780a6"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#a3cfca095c3063d590804b0cf3ab780a6">operator Const_FaceColors</a> (MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; <a class="el" href="classMR_1_1Const__FaceColors.html#ad8ee6f07073bccee699e53488d6d5a95">vec</a>)</td></tr>
-<tr class="memdesc:a3cfca095c3063d590804b0cf3ab780a6 inherit pub_static_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#aa54c3f2c753553b4479b578ffb17f52c" title="Constructs an empty (default-constructed) instance.">MR.FaceColors.FaceColors</a></span>.  <br /></td></tr>
-<tr class="memitem:af200fdc2982fd5fe4a9a41444f9a3ac0 inherit pub_static_methods_classMR_1_1Const__FaceColors" id="r_af200fdc2982fd5fe4a9a41444f9a3ac0"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#af200fdc2982fd5fe4a9a41444f9a3ac0">operator==</a> (<a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a> _this, <a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a> b)</td></tr>
-<tr class="memdesc:af200fdc2982fd5fe4a9a41444f9a3ac0 inherit pub_static_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::FaceColors::operator==</span>.  <br /></td></tr>
-<tr class="memitem:ac4e729c1b2b8405bd07352bd00bb149e inherit pub_static_methods_classMR_1_1Const__FaceColors" id="r_ac4e729c1b2b8405bd07352bd00bb149e"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#ac4e729c1b2b8405bd07352bd00bb149e">operator!=</a> (<a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a> _this, <a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a> b)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -282,6 +287,10 @@ Properties</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classMR_1_1Const__FaceColors"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Const__FaceColors')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a></td></tr>
+<tr class="memitem:af200fdc2982fd5fe4a9a41444f9a3ac0 inherit pub_static_methods_classMR_1_1Const__FaceColors" id="r_af200fdc2982fd5fe4a9a41444f9a3ac0"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#af200fdc2982fd5fe4a9a41444f9a3ac0">operator==</a> (<a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a> _this, <a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a> b)</td></tr>
+<tr class="memdesc:af200fdc2982fd5fe4a9a41444f9a3ac0 inherit pub_static_methods_classMR_1_1Const__FaceColors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::FaceColors::operator==</span>.  <br /></td></tr>
+<tr class="memitem:ac4e729c1b2b8405bd07352bd00bb149e inherit pub_static_methods_classMR_1_1Const__FaceColors" id="r_ac4e729c1b2b8405bd07352bd00bb149e"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#ac4e729c1b2b8405bd07352bd00bb149e">operator!=</a> (<a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a> _this, <a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a> b)</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1Const__FaceColors"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1Const__FaceColors')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a></td></tr>
 <tr class="memitem:aca11e47d7b603b97d5cb14dc7b2b8f6a inherit pro_methods_classMR_1_1Const__FaceColors" id="r_aca11e47d7b603b97d5cb14dc7b2b8f6a"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__FaceColors.html#aca11e47d7b603b97d5cb14dc7b2b8f6a">Dispose</a> (bool disposing)</td></tr>
 </table>
@@ -296,7 +305,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa54c3f2c753553b4479b578ffb17f52c" name="aa54c3f2c753553b4479b578ffb17f52c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa54c3f2c753553b4479b578ffb17f52c">&#9670;&#160;</a></span>FaceColors() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa54c3f2c753553b4479b578ffb17f52c">&#9670;&#160;</a></span>FaceColors() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -323,7 +332,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a7f6381942df6282e306de72592e0be31" name="a7f6381942df6282e306de72592e0be31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f6381942df6282e306de72592e0be31">&#9670;&#160;</a></span>FaceColors() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f6381942df6282e306de72592e0be31">&#9670;&#160;</a></span>FaceColors() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -350,7 +359,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a2810c15f4f0b62ed4e561b6dff7910e8" name="a2810c15f4f0b62ed4e561b6dff7910e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2810c15f4f0b62ed4e561b6dff7910e8">&#9670;&#160;</a></span>FaceColors() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2810c15f4f0b62ed4e561b6dff7910e8">&#9670;&#160;</a></span>FaceColors() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,7 +386,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a35cf9e13b6270c8bb2a5ebfdb75d08a6" name="a35cf9e13b6270c8bb2a5ebfdb75d08a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35cf9e13b6270c8bb2a5ebfdb75d08a6">&#9670;&#160;</a></span>FaceColors() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a35cf9e13b6270c8bb2a5ebfdb75d08a6">&#9670;&#160;</a></span>FaceColors() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -404,7 +413,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="abe037ffeed5bc54430a59920b5434864" name="abe037ffeed5bc54430a59920b5434864"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe037ffeed5bc54430a59920b5434864">&#9670;&#160;</a></span>FaceColors() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abe037ffeed5bc54430a59920b5434864">&#9670;&#160;</a></span>FaceColors() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -431,7 +440,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a56564d244edcd5904c13eb2b154ec9a5" name="a56564d244edcd5904c13eb2b154ec9a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56564d244edcd5904c13eb2b154ec9a5">&#9670;&#160;</a></span>FaceColors() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a56564d244edcd5904c13eb2b154ec9a5">&#9670;&#160;</a></span>FaceColors() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -461,36 +470,9 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a5c5bc807f0e446ee38d393100a7c8ad4" name="a5c5bc807f0e446ee38d393100a7c8ad4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c5bc807f0e446ee38d393100a7c8ad4">&#9670;&#160;</a></span>FaceColors() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.FaceColors.FaceColors </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#aa54c3f2c753553b4479b578ffb17f52c" title="Constructs an empty (default-constructed) instance.">MR.FaceColors.FaceColors</a></span>. </p>
-
-</div>
-</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a1efc3c58b9efa3de8dcc74321c8d952f" name="a1efc3c58b9efa3de8dcc74321c8d952f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1efc3c58b9efa3de8dcc74321c8d952f">&#9670;&#160;</a></span>assign()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1efc3c58b9efa3de8dcc74321c8d952f">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -513,6 +495,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::FaceColors::operator=</span>. </p>
+
+</div>
+</div>
+<a id="a68758c2d68937a676c9b8ce1f020a4d0" name="a68758c2d68937a676c9b8ce1f020a4d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68758c2d68937a676c9b8ce1f020a4d0">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.FaceColors.assign </td>
+          <td>(</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Color.html">MR.Color</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#a1efc3c58b9efa3de8dcc74321c8d952f" title="Generated from method MR.FaceColors.operator=.">MR.FaceColors.assign</a></span>. </p>
 
 </div>
 </div>
@@ -637,6 +650,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a1a5d8fe76d0b7ef8810f73cf5f3e96e4" name="a1a5d8fe76d0b7ef8810f73cf5f3e96e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a5d8fe76d0b7ef8810f73cf5f3e96e4">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe new MR.Std.Vector_MRColor.Iterator MR.FaceColors.begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt"><a class="el" href="#a1a5d8fe76d0b7ef8810f73cf5f3e96e4" title="Generated from method MR.FaceColors.begin.">MR.FaceColors.begin</a></span>. </p>
+
+</div>
+</div>
 <a id="aea6be1733ab29a03a04b41899943951c" name="aea6be1733ab29a03a04b41899943951c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea6be1733ab29a03a04b41899943951c">&#9670;&#160;</a></span>clear()</h2>
 
@@ -688,6 +728,91 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt"><a class="el" href="#a5c91d582d15bff1f216e4a9906684aaf" title="Generated from method MR.FaceColors.data.">MR.FaceColors.data</a></span>. </p>
+
+</div>
+</div>
+<a id="a1de4d0d0204ec826575d353bfe6d9738" name="a1de4d0d0204ec826575d353bfe6d9738"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1de4d0d0204ec826575d353bfe6d9738">&#9670;&#160;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe new MR.Std.Vector_MRColor.Iterator MR.FaceColors.end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt"><a class="el" href="#a1de4d0d0204ec826575d353bfe6d9738" title="Generated from method MR.FaceColors.end.">MR.FaceColors.end</a></span>. </p>
+
+</div>
+</div>
+<a id="a75cbcc884117940ecbe324c3d1126c48" name="a75cbcc884117940ecbe324c3d1126c48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75cbcc884117940ecbe324c3d1126c48">&#9670;&#160;</a></span>erase() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MRColor.Iterator MR.FaceColors.erase </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MRColor.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Vector_MRColor.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>last</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes the elements in range [first, last) Generated from method <span class="tt"><a class="el" href="#aa4f1a7479e0bfabe2b00987c0c04feab" title="removes the element at pos Generated from method MR.FaceColors.erase.">MR.FaceColors.erase</a></span>. </p>
+
+</div>
+</div>
+<a id="aa4f1a7479e0bfabe2b00987c0c04feab" name="aa4f1a7479e0bfabe2b00987c0c04feab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4f1a7479e0bfabe2b00987c0c04feab">&#9670;&#160;</a></span>erase() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MRColor.Iterator MR.FaceColors.erase </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MRColor.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes the element at <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#aa4f1a7479e0bfabe2b00987c0c04feab" title="removes the element at pos Generated from method MR.FaceColors.erase.">MR.FaceColors.erase</a></span>. </p>
 
 </div>
 </div>
@@ -743,8 +868,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a5be45762ce9925c1e6d93b6f47a0a3a4" name="a5be45762ce9925c1e6d93b6f47a0a3a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5be45762ce9925c1e6d93b6f47a0a3a4">&#9670;&#160;</a></span>operator FaceColors()</h2>
+<a id="ab4be607b881d1827c6a0342ecb5e3dcd" name="ab4be607b881d1827c6a0342ecb5e3dcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4be607b881d1827c6a0342ecb5e3dcd">&#9670;&#160;</a></span>insert() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -753,20 +878,96 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe implicit MR.FaceColors.operator <a class="el" href="classMR_1_1FaceColors.html">FaceColors</a> </td>
+          <td class="memname">unsafe MR.Std.Vector_MRColor.Iterator MR.FaceColors.insert </td>
           <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
+          <td class="paramtype">MR.Std.Vector_MRColor.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Color.html">MR.Color</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#aa54c3f2c753553b4479b578ffb17f52c" title="Constructs an empty (default-constructed) instance.">MR.FaceColors.FaceColors</a></span>. </p>
+<p>inserts <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#ab4be607b881d1827c6a0342ecb5e3dcd" title="inserts t before pos Generated from method MR.FaceColors.insert.">MR.FaceColors.insert</a></span>. </p>
+
+</div>
+</div>
+<a id="abedfd6298b6cf5f9ff6c091b4e4a1619" name="abedfd6298b6cf5f9ff6c091b4e4a1619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abedfd6298b6cf5f9ff6c091b4e4a1619">&#9670;&#160;</a></span>insert() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MRColor.Iterator MR.FaceColors.insert </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MRColor.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Misc._MoveRef</td>          <td class="paramname"><span class="paramname"><em>_move_t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Color.html">MR.Color</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt"><a class="el" href="#ab4be607b881d1827c6a0342ecb5e3dcd" title="inserts t before pos Generated from method MR.FaceColors.insert.">MR.FaceColors.insert</a></span>. </p>
+
+</div>
+</div>
+<a id="a1f9e4f4f23a7b402a560a5d55f252074" name="a1f9e4f4f23a7b402a560a5d55f252074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f9e4f4f23a7b402a560a5d55f252074">&#9670;&#160;</a></span>insert() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MRColor.Iterator MR.FaceColors.insert </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MRColor.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Color.html">MR.Color</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>inserts <code class="param">count</code> copies of <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#ab4be607b881d1827c6a0342ecb5e3dcd" title="inserts t before pos Generated from method MR.FaceColors.insert.">MR.FaceColors.insert</a></span>. </p>
 
 </div>
 </div>
@@ -990,7 +1191,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#ab0e628484a0a71851bed81bd363fd230" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.FaceColors.resizeWithReserve</a></span>. </p>
+<p>same as resize(newSize), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#ab0e628484a0a71851bed81bd363fd230" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.FaceColors.resizeWithReserve</a></span>. </p>
 
 </div>
 </div>
@@ -1021,7 +1222,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#ab0e628484a0a71851bed81bd363fd230" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.FaceColors.resizeWithReserve</a></span>. </p>
+<p>same as resize(newSize, value), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#ab0e628484a0a71851bed81bd363fd230" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.FaceColors.resizeWithReserve</a></span>. </p>
+
+</div>
+</div>
+<a id="ad91d805d9ca073115be4577de7c53ca0" name="ad91d805d9ca073115be4577de7c53ca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad91d805d9ca073115be4577de7c53ca0">&#9670;&#160;</a></span>shrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.FaceColors.shrinkToFit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt">MR::FaceColors::shrink_to_fit</span>. </p>
 
 </div>
 </div>

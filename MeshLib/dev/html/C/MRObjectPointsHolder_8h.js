@@ -5,7 +5,6 @@ var MRObjectPointsHolder_8h =
       [ "MR_PointsVisualizePropertyType_SelectedVertices", "MRObjectPointsHolder_8h.html#a4b87a58bf7d9a84167fbde73db3a0802ab1c16b96c526c6a7c0c68942f6968616", null ],
       [ "MR_PointsVisualizePropertyType__count", "MRObjectPointsHolder_8h.html#a4b87a58bf7d9a84167fbde73db3a0802ac001f3204a85d0d2d7aaf9648daaa276", null ]
     ] ],
-    [ "MR_defaultSerializePointsFormat", "MRObjectPointsHolder_8h.html#ab9b6900bac00be23363ce0092599e40e", null ],
     [ "MR_ObjectPointsHolder_addChild", "MRObjectPointsHolder_8h.html#a52a97b0338a4e791cf2e40049aa574e5", null ],
     [ "MR_ObjectPointsHolder_addChildBefore", "MRObjectPointsHolder_8h.html#a8b0e7a88dcf45ffe74b17e90a5495133", null ],
     [ "MR_ObjectPointsHolder_addTag", "MRObjectPointsHolder_8h.html#a62cf8f060f69f268361cff1a83192cfd", null ],
@@ -15,6 +14,7 @@ var MRObjectPointsHolder_8h =
     [ "MR_ObjectPointsHolder_classNameInPlural", "MRObjectPointsHolder_8h.html#ae2300817ee484729023053aa02a11fc3", null ],
     [ "MR_ObjectPointsHolder_clone", "MRObjectPointsHolder_8h.html#ad6456b39ef3431b9125d02224e4cbb3c", null ],
     [ "MR_ObjectPointsHolder_cloneTree", "MRObjectPointsHolder_8h.html#aee63d4502677a241d1b4364f3f044fc5", null ],
+    [ "MR_ObjectPointsHolder_constChildren", "MRObjectPointsHolder_8h.html#af88430899f0b056161f0bbd8aca1eb88", null ],
     [ "MR_ObjectPointsHolder_ConstructFromAnother", "MRObjectPointsHolder_8h.html#a423ec1d576ff2dcd4cc4508347ce88c7", null ],
     [ "MR_ObjectPointsHolder_copyAllSolidColors", "MRObjectPointsHolder_8h.html#a8fff66ad73b2d8addab4cce81a5377fe", null ],
     [ "MR_ObjectPointsHolder_copyColors", "MRObjectPointsHolder_8h.html#a35b910d54ce1715d12c516f2a664a03a", null ],
@@ -91,6 +91,7 @@ var MRObjectPointsHolder_8h =
     [ "MR_ObjectPointsHolder_OffsetPtr", "MRObjectPointsHolder_8h.html#a58a43203f1e19e2e367c70f1d60e7d74", null ],
     [ "MR_ObjectPointsHolder_pointCloud", "MRObjectPointsHolder_8h.html#a0a4b0605a5cd10234b4f3a70d6963ddb", null ],
     [ "MR_ObjectPointsHolder_pointCloudPart", "MRObjectPointsHolder_8h.html#a032e87afdcf3958e03ae428538a4b520", null ],
+    [ "MR_ObjectPointsHolder_pointCloudPtr", "MRObjectPointsHolder_8h.html#aa79b6b48e5ea4fa00bf5f547ff0b8b65", null ],
     [ "MR_ObjectPointsHolder_removeAllChildren", "MRObjectPointsHolder_8h.html#afce8f4d8ba755d55e11989014643ed31", null ],
     [ "MR_ObjectPointsHolder_removeTag", "MRObjectPointsHolder_8h.html#a7ba0ad3dcb960bedcdd011a27abb7c60", null ],
     [ "MR_ObjectPointsHolder_render", "MRObjectPointsHolder_8h.html#a19735c74fa110571e9210afeaca2fbcb", null ],
@@ -159,9 +160,9 @@ var MRObjectPointsHolder_8h =
     [ "MR_ObjectPointsHolder_updateSelectedPoints", "MRObjectPointsHolder_8h.html#a0d1d01d0a604ea376490676ef39f32f9", null ],
     [ "MR_ObjectPointsHolder_updateVertsColorMap", "MRObjectPointsHolder_8h.html#a37da6ad7656979dc7a6bbf847f4334ba", null ],
     [ "MR_ObjectPointsHolder_useDefaultScenePropertiesOnDeserialization", "MRObjectPointsHolder_8h.html#a0b6f9a3eb0776f9e141c62a7ecefcba0", null ],
+    [ "MR_ObjectPointsHolder_varPointCloudPtr", "MRObjectPointsHolder_8h.html#a208c80bdc85baa2221bc5277e79cef20", null ],
     [ "MR_ObjectPointsHolder_visibilityMask", "MRObjectPointsHolder_8h.html#ab9b5d4819ad0541d811fb65b51cf0620", null ],
     [ "MR_ObjectPointsHolder_worldXf", "MRObjectPointsHolder_8h.html#a790f0afb2baf0e773bbfa9104aabd4dd", null ],
     [ "MR_ObjectPointsHolder_xf", "MRObjectPointsHolder_8h.html#a613892c7bfa0c4d7c6fa60937767e713", null ],
-    [ "MR_ObjectPointsHolder_xfsForAllViewports", "MRObjectPointsHolder_8h.html#a49174abbab4d8ca9a15c32d05225d6b7", null ],
-    [ "MR_setDefaultSerializePointsFormat", "MRObjectPointsHolder_8h.html#a737ac0a46577e7f4199f80b2529cbacf", null ]
+    [ "MR_ObjectPointsHolder_xfsForAllViewports", "MRObjectPointsHolder_8h.html#a49174abbab4d8ca9a15c32d05225d6b7", null ]
 ];

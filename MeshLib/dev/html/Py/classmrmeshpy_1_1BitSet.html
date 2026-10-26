@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -138,6 +131,7 @@ $(function(){initNavTree('classmrmeshpy_1_1BitSet.html','','classmrmeshpy_1_1Bit
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
@@ -169,6 +163,10 @@ $(function(){initNavTree('classmrmeshpy_1_1BitSet.html','','classmrmeshpy_1_1Bit
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:Counts" id="r_Counts"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1BitSet_1_1Counts.html">Counts</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5d5a1bb5839863d7c2b6c396ee4d6ec2" id="r_a5d5a1bb5839863d7c2b6c396ee4d6ec2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
@@ -189,14 +187,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adda895cc3e159e7135adb63efdc4e5d7" id="r_adda895cc3e159e7135adb63efdc4e5d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adda895cc3e159e7135adb63efdc4e5d7">__xor__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
 <tr class="memitem:a7791a54179bcc02c9e8d46ccd467d1df" id="r_a7791a54179bcc02c9e8d46ccd467d1df"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7791a54179bcc02c9e8d46ccd467d1df">all</a> (self)</td></tr>
 <tr class="memitem:a72e64427ab6f98e8ffeb422c97588e62" id="r_a72e64427ab6f98e8ffeb422c97588e62"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72e64427ab6f98e8ffeb422c97588e62">any</a> (self)</td></tr>
+<tr class="memitem:ab180a8d812e38d6017ae181b145ee402" id="r_ab180a8d812e38d6017ae181b145ee402"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab180a8d812e38d6017ae181b145ee402">atomicTestSet</a> (self, int n)</td></tr>
 <tr class="memitem:acab8dde45127ba4019a41145736df7e0" id="r_acab8dde45127ba4019a41145736df7e0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acab8dde45127ba4019a41145736df7e0">autoResizeSet</a> (self, int pos, int len, bool val=True)</td></tr>
 <tr class="memitem:a0416156b4269add8c1fb14d531b3f9e5" id="r_a0416156b4269add8c1fb14d531b3f9e5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0416156b4269add8c1fb14d531b3f9e5">autoResizeSet</a> (self, int pos, bool val=True)</td></tr>
 <tr class="memitem:ad1d43b5793a3dce9511fd445d695aa83" id="r_ad1d43b5793a3dce9511fd445d695aa83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1d43b5793a3dce9511fd445d695aa83">autoResizeTestSet</a> (self, int pos, bool val=True)</td></tr>
 <tr class="memitem:a71d144899c501363ec1fc3aa7f745b2d" id="r_a71d144899c501363ec1fc3aa7f745b2d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71d144899c501363ec1fc3aa7f745b2d">backId</a> (self)</td></tr>
-<tr class="memitem:ab1c92776adea9f7d4a8aa71b4db8585e" id="r_ab1c92776adea9f7d4a8aa71b4db8585e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long.html">std_vector_unsigned_long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1c92776adea9f7d4a8aa71b4db8585e">bits</a> (self)</td></tr>
+<tr class="memitem:a15ad1a1f76c12c3d014a194de63650ff" id="r_a15ad1a1f76c12c3d014a194de63650ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long__Allocator__unsigned__long.html">std_vector_unsigned_long_Allocator_unsigned_long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15ad1a1f76c12c3d014a194de63650ff">bits</a> (self)</td></tr>
 <tr class="memitem:a2335e90bc299cbaa4f87a7e2157f869a" id="r_a2335e90bc299cbaa4f87a7e2157f869a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2335e90bc299cbaa4f87a7e2157f869a">capacity</a> (self)</td></tr>
 <tr class="memitem:a640d1f443a7ea30d50a532de2cdf90b4" id="r_a640d1f443a7ea30d50a532de2cdf90b4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a640d1f443a7ea30d50a532de2cdf90b4">clear</a> (self)</td></tr>
 <tr class="memitem:a4b8a47eb3cd9dc19a7448b1a3b1765e2" id="r_a4b8a47eb3cd9dc19a7448b1a3b1765e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b8a47eb3cd9dc19a7448b1a3b1765e2">count</a> (self)</td></tr>
+<tr class="memitem:a46517483fca5921e9b4b1b1abc7e5cac" id="r_a46517483fca5921e9b4b1b1abc7e5cac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet_1_1Counts.html">BitSet.Counts</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46517483fca5921e9b4b1b1abc7e5cac">countBitsAndBlocks</a> (self, int maxBits=18446744073709551615)</td></tr>
 <tr class="memitem:aab954a31474723788e2aeee311325c15" id="r_aab954a31474723788e2aeee311325c15"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab954a31474723788e2aeee311325c15">empty</a> (self)</td></tr>
 <tr class="memitem:a9f71200c981f11d2ec5f7c797de269e5" id="r_a9f71200c981f11d2ec5f7c797de269e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f71200c981f11d2ec5f7c797de269e5">endId</a> (self)</td></tr>
 <tr class="memitem:aac9c41ec6addef5012e587e850a8d006" id="r_aac9c41ec6addef5012e587e850a8d006"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac9c41ec6addef5012e587e850a8d006">find_first</a> (self)</td></tr>
@@ -239,14 +239,14 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aec2d31c5842b18f1ef3a2e3e1de0ddf3" id="r_aec2d31c5842b18f1ef3a2e3e1de0ddf3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</a> (*args, **kwargs)</td></tr>
 <tr class="memitem:ae529e168da2a1905ad02819146ae8274" id="r_ae529e168da2a1905ad02819146ae8274"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae529e168da2a1905ad02819146ae8274">beginId</a> ()</td></tr>
-<tr class="memitem:ab52de9f1462e6d83e5b7191d4396df74" id="r_ab52de9f1462e6d83e5b7191d4396df74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab52de9f1462e6d83e5b7191d4396df74">fromBlocks</a> (<a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long.html">std_vector_unsigned_long</a> blocks)</td></tr>
+<tr class="memitem:a3c64dedabd9a5f9fab338966869a419f" id="r_a3c64dedabd9a5f9fab338966869a419f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c64dedabd9a5f9fab338966869a419f">fromBlocks</a> (<a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long__Allocator__unsigned__long.html">std_vector_unsigned_long_Allocator_unsigned_long</a> blocks)</td></tr>
 <tr class="memitem:a7ab42866fcda21519f73a78064f1e881" id="r_a7ab42866fcda21519f73a78064f1e881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ab42866fcda21519f73a78064f1e881">operator</a> (*args, **kwargs)</td></tr>
 <tr class="memitem:a7ab42866fcda21519f73a78064f1e881" id="r_a7ab42866fcda21519f73a78064f1e881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ab42866fcda21519f73a78064f1e881">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a59b26e0abde0aeed833933ad5058adfe" id="r_a59b26e0abde0aeed833933ad5058adfe"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59b26e0abde0aeed833933ad5058adfe">bits_per_block</a> = 64</td></tr>
 <tr class="memitem:aa0a7d1ede8a4702ab5421d151412dfc9" id="r_aa0a7d1ede8a4702ab5421d151412dfc9"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0a7d1ede8a4702ab5421d151412dfc9">npos</a> = 18446744073709551615</td></tr>
+<tr class="memitem:a82ae465b729d7b3cef8c2177d5ee38e6" id="r_a82ae465b729d7b3cef8c2177d5ee38e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82ae465b729d7b3cef8c2177d5ee38e6">Blocks</a> = <a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long__Allocator__unsigned__long.html">std_vector_unsigned_long_Allocator_unsigned_long</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::BitSet
@@ -654,6 +654,31 @@ with all bits after size() considered off during testing
 </pre> 
 </div>
 </div>
+<a id="ab180a8d812e38d6017ae181b145ee402" name="ab180a8d812e38d6017ae181b145ee402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab180a8d812e38d6017ae181b145ee402">&#9670;&#160;</a></span>atomicTestSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.BitSet.atomicTestSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets n-th bit and returns its previous value; it is safe to call simultaneously from several threads for any bits of the same bitset,
+provided no other modification of the bitset (including resizing) is performed in parallel
+</pre> 
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af94be69b648f63fde0daa192c3619780">mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html#a19e0c3e0b688f999c54e989565dfb297">mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html#a125471b7bfbb59299cd681b770e6e456">mrmeshpy.FaceBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html#a0aacf40db023b876416942bf164a6fdb">mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html#af1f6ad5a795766b07eac85223043e2f1">mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html#a430457cd13c45783ea67334c35a02f46">mrmeshpy.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html#aa6026ba6336cb13b54badf6e497f756b">mrmeshpy.ObjBitSet</a>, <a class="el" href="classmrmeshpy_1_1PixelBitSet.html#a44f23af94822094ff17247afe8cb7431">mrmeshpy.PixelBitSet</a>, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html#a46e0f2bc5f92f797049e33e6db4f1b92">mrmeshpy.RegionBitSet</a>, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html#af3a27da9a4c2e772a0cbe80367a0e61e">mrmeshpy.TextureBitSet</a>, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a72e8e04747d2644f035762eaef18e57d">mrmeshpy.TypedBitSet_Id_ICPElemtTag</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html#a9628665b280cb4209408190425bbf4f5">mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html#ab6ca2c1f0afc9aee085ab25b1e710832">mrmeshpy.VertBitSet</a>, and <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html#ad7bac4fde65d2b14fdf99bbdc3ea36c6">mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
 <a id="a0416156b4269add8c1fb14d531b3f9e5" name="a0416156b4269add8c1fb14d531b3f9e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0416156b4269add8c1fb14d531b3f9e5">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
 
@@ -793,14 +818,14 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
-<a id="ab1c92776adea9f7d4a8aa71b4db8585e" name="ab1c92776adea9f7d4a8aa71b4db8585e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1c92776adea9f7d4a8aa71b4db8585e">&#9670;&#160;</a></span>bits()</h2>
+<a id="a15ad1a1f76c12c3d014a194de63650ff" name="a15ad1a1f76c12c3d014a194de63650ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15ad1a1f76c12c3d014a194de63650ff">&#9670;&#160;</a></span>bits()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long.html">std_vector_unsigned_long</a> mrmeshpy.BitSet.bits </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long__Allocator__unsigned__long.html">std_vector_unsigned_long_Allocator_unsigned_long</a> mrmeshpy.BitSet.bits </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -860,6 +885,29 @@ with all bits after size() considered off during testing
       </table>
 </div><div class="memdoc">
 <pre class="fragment">computes the number of set bits in the whole set
+</pre> 
+</div>
+</div>
+<a id="a46517483fca5921e9b4b1b1abc7e5cac" name="a46517483fca5921e9b4b1b1abc7e5cac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46517483fca5921e9b4b1b1abc7e5cac">&#9670;&#160;</a></span>countBitsAndBlocks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1BitSet_1_1Counts.html">BitSet.Counts</a> mrmeshpy.BitSet.countBitsAndBlocks </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int </td>          <td class="paramname"><span class="paramname"><em>maxBits</em></span><span class="paramdefsep"> = </span><span class="paramdefval">18446744073709551615</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">computes the numbers of set bits and of non-empty blocks, stopping as soon as the set bits exceed maxBits;
+both numbers are then partial, which makes a size test of a large set cheap
 </pre> 
 </div>
 </div>
@@ -1097,8 +1145,8 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
-<a id="ab52de9f1462e6d83e5b7191d4396df74" name="ab52de9f1462e6d83e5b7191d4396df74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab52de9f1462e6d83e5b7191d4396df74">&#9670;&#160;</a></span>fromBlocks()</h2>
+<a id="a3c64dedabd9a5f9fab338966869a419f" name="a3c64dedabd9a5f9fab338966869a419f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c64dedabd9a5f9fab338966869a419f">&#9670;&#160;</a></span>fromBlocks()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1109,7 +1157,7 @@ with all bits after size() considered off during testing
         <tr>
           <td class="memname"> <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> mrmeshpy.BitSet.fromBlocks </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long.html">std_vector_unsigned_long</a></td>          <td class="paramname"><span class="paramname"><em>blocks</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long__Allocator__unsigned__long.html">std_vector_unsigned_long_Allocator_unsigned_long</a></td>          <td class="paramname"><span class="paramname"><em>blocks</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1485,7 +1533,7 @@ with all bits after size() considered off during testing
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+<pre class="fragment">same as resize(newSize), which already grows the capacity geometrically
 </pre> 
 </div>
 </div>
@@ -1773,8 +1821,8 @@ with all bits after size() considered off during testing
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a59b26e0abde0aeed833933ad5058adfe" name="a59b26e0abde0aeed833933ad5058adfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59b26e0abde0aeed833933ad5058adfe">&#9670;&#160;</a></span>bits_per_block</h2>
+<a id="a82ae465b729d7b3cef8c2177d5ee38e6" name="a82ae465b729d7b3cef8c2177d5ee38e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82ae465b729d7b3cef8c2177d5ee38e6">&#9670;&#160;</a></span>Blocks</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1783,7 +1831,7 @@ with all bits after size() considered off during testing
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typing mrmeshpy.BitSet.bits_per_block = 64</td>
+          <td class="memname">mrmeshpy.BitSet.Blocks = <a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long__Allocator__unsigned__long.html">std_vector_unsigned_long_Allocator_unsigned_long</a></td>
         </tr>
       </table>
   </td>

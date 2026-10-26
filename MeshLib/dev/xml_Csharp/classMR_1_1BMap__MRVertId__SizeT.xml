@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11010" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11010" bodyend="11010"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11638" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11638" bodyend="11638"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1BMap__MRVertId__SizeT_1a50b46ca9161a4c600512fe3675424ea8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref nuint</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11015" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11015" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11643" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11643" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11034" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11034" bodyend="11038"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11660" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11660" bodyend="11664"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11044" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11044" bodyend="11050"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11670" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11670" bodyend="11674"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRVertId__SizeT_1a64e15efb38506a97b19bd05e2caab159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11055" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11055" bodyend="11062"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11679" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11679" bodyend="11684"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRVertId__SizeT_1a4a0c923adee0995017ac33ee557e5e95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11067" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11067" bodyend="11074"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11689" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11689" bodyend="11694"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BMap__MRVertId__SizeT_1a432a9a92d5ec97de109288da2f2d55fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1BMap__MRVertId__SizeT" kindref="compound">MR.BMap_MRVertId_SizeT</ref></type>
@@ -133,7 +133,115 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11079" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11079" bodyend="11086"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11699" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11699" bodyend="11704"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1BMap__MRVertId__SizeT_1ac6c3f436a18339b8a0a91e09bcdf0bdf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BMap_MRVertId_SizeT._Underlying *</type>
+        <definition>static unsafe MR.BMap_MRVertId_SizeT._Underlying * MR.BMap_MRVertId_SizeT.__MR_BMap_MR_VertId_size_t_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.BMap_MRVertId_SizeT._Underlying *_other)</argsstring>
+        <name>__MR_BMap_MR_VertId_size_t_AssignFromAnother</name>
+        <qualifiedname>MR.BMap_MRVertId_SizeT.__MR_BMap_MR_VertId_size_t_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.BMap_MRVertId_SizeT._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11709" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRVertId__SizeT_1af2f34dcfdabda8f7b63ef9b087653e20" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BMap_MRVertId_SizeT._Underlying *</type>
+        <definition>static unsafe MR.BMap_MRVertId_SizeT._Underlying * MR.BMap_MRVertId_SizeT.__MR_BMap_MR_VertId_size_t_ConstructFrom</definition>
+        <argsstring>(MR.Misc._PassBy b_pass_by, MR.Buffer_MRVertId._Underlying *b, nuint tsize)</argsstring>
+        <name>__MR_BMap_MR_VertId_size_t_ConstructFrom</name>
+        <qualifiedname>MR.BMap_MRVertId_SizeT.__MR_BMap_MR_VertId_size_t_ConstructFrom</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>b_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Buffer_MRVertId._Underlying *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>tsize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11712" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRVertId__SizeT_1a0c0dfacf1231ad9553f29eac6d37afe6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BMap_MRVertId_SizeT._Underlying *</type>
+        <definition>static unsafe MR.BMap_MRVertId_SizeT._Underlying * MR.BMap_MRVertId_SizeT.__MR_BMap_MR_VertId_size_t_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.BMap_MRVertId_SizeT._Underlying *_other)</argsstring>
+        <name>__MR_BMap_MR_VertId_size_t_ConstructFromAnother</name>
+        <qualifiedname>MR.BMap_MRVertId_SizeT.__MR_BMap_MR_VertId_size_t_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.BMap_MRVertId_SizeT._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11715" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRVertId__SizeT_1abbd11e8f2b8c2886b406042305345982" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BMap_MRVertId_SizeT._Underlying *</type>
+        <definition>static unsafe MR.BMap_MRVertId_SizeT._Underlying * MR.BMap_MRVertId_SizeT.__MR_BMap_MR_VertId_size_t_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_BMap_MR_VertId_size_t_DefaultConstruct</name>
+        <qualifiedname>MR.BMap_MRVertId_SizeT.__MR_BMap_MR_VertId_size_t_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11718" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BMap__MRVertId__SizeT_1abd49fdcc7af9d9dd915cf1a1bcfc7149" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Buffer_MRVertId._Underlying *</type>
+        <definition>static unsafe MR.Buffer_MRVertId._Underlying * MR.BMap_MRVertId_SizeT.__MR_BMap_MR_VertId_size_t_GetMutable_b</definition>
+        <argsstring>(MR.BMap_MRVertId_SizeT._Underlying *_this)</argsstring>
+        <name>__MR_BMap_MR_VertId_size_t_GetMutable_b</name>
+        <qualifiedname>MR.BMap_MRVertId_SizeT.__MR_BMap_MR_VertId_size_t_GetMutable_b</qualifiedname>
+        <param>
+          <type>MR.BMap_MRVertId_SizeT._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11721" column="59"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -185,8 +293,13 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11008" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11009" bodyend="11087"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11636" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11637" bodyend="11722"/>
     <listofallmembers>
+      <member refid="classMR_1_1BMap__MRVertId__SizeT_1ac6c3f436a18339b8a0a91e09bcdf0bdf" prot="private" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>__MR_BMap_MR_VertId_size_t_AssignFromAnother</name></member>
+      <member refid="classMR_1_1BMap__MRVertId__SizeT_1af2f34dcfdabda8f7b63ef9b087653e20" prot="private" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>__MR_BMap_MR_VertId_size_t_ConstructFrom</name></member>
+      <member refid="classMR_1_1BMap__MRVertId__SizeT_1a0c0dfacf1231ad9553f29eac6d37afe6" prot="private" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>__MR_BMap_MR_VertId_size_t_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1BMap__MRVertId__SizeT_1abbd11e8f2b8c2886b406042305345982" prot="private" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>__MR_BMap_MR_VertId_size_t_DefaultConstruct</name></member>
+      <member refid="classMR_1_1BMap__MRVertId__SizeT_1abd49fdcc7af9d9dd915cf1a1bcfc7149" prot="private" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>__MR_BMap_MR_VertId_size_t_GetMutable_b</name></member>
       <member refid="classMR_1_1Const__BMap__MRVertId__SizeT_1ad12e68ae5b89b02d93dac15b315b4ef1" prot="protected" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1BMap__MRVertId__SizeT_1a432a9a92d5ec97de109288da2f2d55fd" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>assign</name></member>
       <member refid="classMR_1_1BMap__MRVertId__SizeT_1a43ffac7135138055d28286cf9615b8c3" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_SizeT</scope><name>b</name></member>

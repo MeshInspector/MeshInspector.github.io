@@ -33,6 +33,7 @@
     <innerfile refid="MRBox_8h">MRBox.h</innerfile>
     <innerfile refid="MRBoxNesting_8h">MRBoxNesting.h</innerfile>
     <innerfile refid="MRBuffer_8h">MRBuffer.h</innerfile>
+    <innerfile refid="MRCameraPointsTriangulation_8h">MRCameraPointsTriangulation.h</innerfile>
     <innerfile refid="MRChangeColoringActions_8h">MRChangeColoringActions.h</innerfile>
     <innerfile refid="MRChangeColoringType_8h">MRChangeColoringType.h</innerfile>
     <innerfile refid="MRChangeMeshAction_8h">MRChangeMeshAction.h</innerfile>
@@ -61,6 +62,7 @@
     <innerfile refid="MRCone3_8h">MRCone3.h</innerfile>
     <innerfile refid="MRConeApproximator_8h">MRConeApproximator.h</innerfile>
     <innerfile refid="MRConeObject_8h">MRConeObject.h</innerfile>
+    <innerfile refid="MRConstChildren_8h">MRConstChildren.h</innerfile>
     <innerfile refid="MRContour_8h">MRContour.h</innerfile>
     <innerfile refid="MRContoursCut_8h">MRContoursCut.h</innerfile>
     <innerfile refid="MRContoursSeparation_8h">MRContoursSeparation.h</innerfile>
@@ -68,9 +70,11 @@
     <innerfile refid="MRConvexHull_8h">MRConvexHull.h</innerfile>
     <innerfile refid="MRCube_8h">MRCube.h</innerfile>
     <innerfile refid="MRCurve_8h">MRCurve.h</innerfile>
+    <innerfile refid="MRCutAroundVertSets_8h">MRCutAroundVertSets.h</innerfile>
     <innerfile refid="MRCylinder_8h">MRCylinder.h</innerfile>
     <innerfile refid="MRCylinder3_8h">MRCylinder3.h</innerfile>
     <innerfile refid="MRCylinderObject_8h">MRCylinderObject.h</innerfile>
+    <innerfile refid="MRDelaunayTriangulationXY_8h">MRDelaunayTriangulationXY.h</innerfile>
     <innerfile refid="MRDenseBox_8h">MRDenseBox.h</innerfile>
     <innerfile refid="MRDipole_8h">MRDipole.h</innerfile>
     <innerfile refid="MRDirMax_8h">MRDirMax.h</innerfile>
@@ -258,6 +262,7 @@
     <innerfile refid="MRPointCloud_8h">MRPointCloud.h</innerfile>
     <innerfile refid="MRPointCloudDistance_8h">MRPointCloudDistance.h</innerfile>
     <innerfile refid="MRPointCloudDivideWithPlane_8h">MRPointCloudDivideWithPlane.h</innerfile>
+    <innerfile refid="MRPointCloudFPFH_8h">MRPointCloudFPFH.h</innerfile>
     <innerfile refid="MRPointCloudMakeNormals_8h">MRPointCloudMakeNormals.h</innerfile>
     <innerfile refid="MRPointCloudPart_8h">MRPointCloudPart.h</innerfile>
     <innerfile refid="MRPointCloudRadius_8h">MRPointCloudRadius.h</innerfile>
@@ -303,6 +308,9 @@
     <innerfile refid="MRQuaternion_8h">MRQuaternion.h</innerfile>
     <innerfile refid="MRRadiusCompensation_8h">MRRadiusCompensation.h</innerfile>
     <innerfile refid="MRRadiusMeasurementObject_8h">MRRadiusMeasurementObject.h</innerfile>
+    <innerfile refid="MRRaster_8h">MRRaster.h</innerfile>
+    <innerfile refid="MRRasterLoad_8h">MRRasterLoad.h</innerfile>
+    <innerfile refid="MRRasterSave_8h">MRRasterSave.h</innerfile>
     <innerfile refid="MRRectIndexer_8h">MRRectIndexer.h</innerfile>
     <innerfile refid="MRReducePath_8h">MRReducePath.h</innerfile>
     <innerfile refid="MRRegionBoundary_8h">MRRegionBoundary.h</innerfile>
@@ -312,8 +320,11 @@
     <innerfile refid="MRRenderModelParameters_8h">MRRenderModelParameters.h</innerfile>
     <innerfile refid="MRRigidScaleXf3_8h">MRRigidScaleXf3.h</innerfile>
     <innerfile refid="MRRigidXf3_8h">MRRigidXf3.h</innerfile>
+    <innerfile refid="MRRigidXfRansac_8h">MRRigidXfRansac.h</innerfile>
     <innerfile refid="MRRingIterator_8h">MRRingIterator.h</innerfile>
+    <innerfile refid="MRRound_8h">MRRound.h</innerfile>
     <innerfile refid="MRSaveSettings_8h">MRSaveSettings.h</innerfile>
+    <innerfile refid="MRScalarConvert_8h">MRScalarConvert.h</innerfile>
     <innerfile refid="MRSceneColors_8h">MRSceneColors.h</innerfile>
     <innerfile refid="MRSceneLoad_8h">MRSceneLoad.h</innerfile>
     <innerfile refid="MRSceneRoot_8h">MRSceneRoot.h</innerfile>
@@ -345,7 +356,6 @@
     <innerfile refid="MRSystem_8h">MRSystem.h</innerfile>
     <innerfile refid="MRSystemPath_8h">MRSystemPath.h</innerfile>
     <innerfile refid="MRTelemetry_8h">MRTelemetry.h</innerfile>
-    <innerfile refid="MRTerrainTriangulation_8h">MRTerrainTriangulation.h</innerfile>
     <innerfile refid="MRTextureColors_8h">MRTextureColors.h</innerfile>
     <innerfile refid="MRTimer_8h">MRTimer.h</innerfile>
     <innerfile refid="MRTorus_8h">MRTorus.h</innerfile>

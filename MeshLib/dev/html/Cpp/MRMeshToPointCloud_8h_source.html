@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -142,18 +135,46 @@ $(function(){initNavTree('MRMeshToPointCloud_8h_source.html','',''); });
 <div class="contents">
 <a href="MRMeshToPointCloud_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRPointCloud_8h.html">MRPointCloud.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="group__MeshAlgorithmGroup.html#gaff12e899a2fa7790b09853a93701515f">   13</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_struct" href="structMR_1_1PointCloud.html">PointCloud</a> <a class="code hl_function" href="group__MeshAlgorithmGroup.html#gaff12e899a2fa7790b09853a93701515f">meshToPointCloud</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, <span class="keywordtype">bool</span> saveNormals = <span class="keyword">true</span>, <span class="keyword">const</span> VertBitSet* verts = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>}</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MREnums_8h.html">MREnums.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRPointCloud_8h.html">MRPointCloud.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRExpected_8h.html">MRExpected.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRProgressCallback_8h.html">MRProgressCallback.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="group__MeshAlgorithmGroup.html#ga2d7563f4b05501158a133d1e52731cc0">   16</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_struct" href="structMR_1_1PointCloud.html">PointCloud</a> <a class="code hl_function" href="group__MeshAlgorithmGroup.html#ga2d7563f4b05501158a133d1e52731cc0">meshToPointCloud</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; <a class="code hl_variable" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, <a class="code hl_enumeration" href="group__GeneralGroup.html#gae8cccc75b39074c044cb7ece46ea677f">VertNormalsMode</a> normals = <a class="code hl_enumvalue" href="group__GeneralGroup.html#ggae8cccc75b39074c044cb7ece46ea677fa10aa938500345421e5e8faad0279137b">VertNormalsMode::AreaWeighted</a>,</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">const</span> VertBitSet* verts = <span class="keyword">nullptr</span> );</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>[[deprecated( <span class="stringliteral">&quot;Use meshToPointCloud( mesh, VertNormalsMode, verts )&quot;</span> )]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga56073a4519234b94321564d8c638bf05">   20</a></span><a class="code hl_struct" href="structMR_1_1PointCloud.html">PointCloud</a> <a class="code hl_function" href="group__MeshAlgorithmGroup.html#ga2d7563f4b05501158a133d1e52731cc0">meshToPointCloud</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Mesh.html">Mesh</a>&amp; <a class="code hl_variable" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, <span class="keywordtype">bool</span> saveNormals, <span class="keyword">const</span> VertBitSet* verts = <span class="keyword">nullptr</span> );</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="group__MeshAlgorithmGroup.html#ga1b34cefe32e8fd4e623da084831b0846">   36</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;PointCloud&gt;</a> <a class="code hl_function" href="group__MeshAlgorithmGroup.html#ga1b34cefe32e8fd4e623da084831b0846">meshToDensePointCloud</a>( <span class="keyword">const</span> MeshPart&amp; mp, <span class="keywordtype">float</span> radius,</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <a class="code hl_enumeration" href="group__GeneralGroup.html#gae8cccc75b39074c044cb7ece46ea677f">VertNormalsMode</a> normals = <a class="code hl_enumvalue" href="group__GeneralGroup.html#ggae8cccc75b39074c044cb7ece46ea677fa10aa938500345421e5e8faad0279137b">VertNormalsMode::AreaWeighted</a>, <span class="keyword">const</span> <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; <a class="code hl_variable" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a> = {} );</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>[[deprecated( <span class="stringliteral">&quot;Use meshToDensePointCloud( mp, radius, VertNormalsMode, cb )&quot;</span> )]] [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_typedef" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga01293c6701985304e21781a54a8df3e9">   40</a></span><a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;PointCloud&gt;</a> <a class="code hl_function" href="group__MeshAlgorithmGroup.html#ga1b34cefe32e8fd4e623da084831b0846">meshToDensePointCloud</a>( <span class="keyword">const</span> MeshPart&amp; mp, <span class="keywordtype">float</span> radius, <span class="keywordtype">bool</span> saveNormals, <span class="keyword">const</span> <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; <a class="code hl_variable" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a> = {} );</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="group__MeshAlgorithmGroup.html#ga7999ef1bb11a163c7d4d19232694b037">   45</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__MeshAlgorithmGroup.html#ga7999ef1bb11a163c7d4d19232694b037">isCoveredByVertices</a>( <span class="keyword">const</span> MeshPart&amp; mp, <span class="keywordtype">float</span> radius );</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}</div>
+<div class="ttc" id="aMREnums_8h_html"><div class="ttname"><a href="MREnums_8h.html">MREnums.h</a></div></div>
+<div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:85</div></div>
 <div class="ttc" id="aMRPointCloud_8h_html"><div class="ttname"><a href="MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
-<div class="ttc" id="agroup__MeshAlgorithmGroup_html_gaff12e899a2fa7790b09853a93701515f"><div class="ttname"><a href="group__MeshAlgorithmGroup.html#gaff12e899a2fa7790b09853a93701515f">MR::meshToPointCloud</a></div><div class="ttdeci">PointCloud meshToPointCloud(const Mesh &amp;mesh, bool saveNormals=true, const VertBitSet *verts=nullptr)</div></div>
+<div class="ttc" id="aMRProgressCallback_8h_html"><div class="ttname"><a href="MRProgressCallback_8h.html">MRProgressCallback.h</a></div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:787</div></div>
+<div class="ttc" id="agroup__DistanceMapGroup_html_gae3a1aa207beab97240bba26498e256c7"><div class="ttname"><a href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">MR::cb</a></div><div class="ttdeci">const Mesh BooleanOperation const AffineXf3f BooleanResultMapper ProgressCallback cb</div><div class="ttdef"><b>Definition</b> MRMeshBoolean.h:64</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga6833f3dcd401bb41599e31f5dd9e5f2a"><div class="ttname"><a href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">MR::mesh</a></div><div class="ttdeci">const Mesh &amp; mesh</div><div class="ttdoc">&lt; the distances to this mesh will be returned</div><div class="ttdef"><b>Definition</b> MRPointsToMeshProjector.h:66</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:31</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gac8d05498d66775361b0d0d2996604348"><div class="ttname"><a href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR::MR_BIND_IGNORE</a></div><div class="ttdeci">std::array&lt; Vector3f, 3 &gt; MR_BIND_IGNORE</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:13</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gae8cccc75b39074c044cb7ece46ea677f"><div class="ttname"><a href="group__GeneralGroup.html#gae8cccc75b39074c044cb7ece46ea677f">MR::VertNormalsMode</a></div><div class="ttdeci">VertNormalsMode</div><div class="ttdoc">which normals are given to the points of the cloud made from mesh vertices</div><div class="ttdef"><b>Definition</b> MREnums.h:70</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ggae8cccc75b39074c044cb7ece46ea677fa10aa938500345421e5e8faad0279137b"><div class="ttname"><a href="group__GeneralGroup.html#ggae8cccc75b39074c044cb7ece46ea677fa10aa938500345421e5e8faad0279137b">MR::VertNormalsMode::AreaWeighted</a></div><div class="ttdeci">@ AreaWeighted</div><div class="ttdoc">area-weighted average of the normals of incident triangles, see computePerVertNormals</div><div class="ttdef"><b>Definition</b> MREnums.h:72</div></div>
+<div class="ttc" id="agroup__MeshAlgorithmGroup_html_ga1b34cefe32e8fd4e623da084831b0846"><div class="ttname"><a href="group__MeshAlgorithmGroup.html#ga1b34cefe32e8fd4e623da084831b0846">MR::meshToDensePointCloud</a></div><div class="ttdeci">Expected&lt; PointCloud &gt; meshToDensePointCloud(const MeshPart &amp;mp, float radius, VertNormalsMode normals=VertNormalsMode::AreaWeighted, const ProgressCallback &amp;cb={})</div></div>
+<div class="ttc" id="agroup__MeshAlgorithmGroup_html_ga2d7563f4b05501158a133d1e52731cc0"><div class="ttname"><a href="group__MeshAlgorithmGroup.html#ga2d7563f4b05501158a133d1e52731cc0">MR::meshToPointCloud</a></div><div class="ttdeci">PointCloud meshToPointCloud(const Mesh &amp;mesh, VertNormalsMode normals=VertNormalsMode::AreaWeighted, const VertBitSet *verts=nullptr)</div></div>
+<div class="ttc" id="agroup__MeshAlgorithmGroup_html_ga7999ef1bb11a163c7d4d19232694b037"><div class="ttname"><a href="group__MeshAlgorithmGroup.html#ga7999ef1bb11a163c7d4d19232694b037">MR::isCoveredByVertices</a></div><div class="ttdeci">bool isCoveredByVertices(const MeshPart &amp;mp, float radius)</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh.h:24</div></div>
 <div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="structMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRPointCloud.h:17</div></div>

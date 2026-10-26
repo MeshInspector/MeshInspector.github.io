@@ -270,6 +270,7 @@
       <member refid="classMR_1_1Object_1ad1ccd26177dbfce7701ea0c9258f755a" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>cloneTree</name></member>
       <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>coloringType_</name></member>
       <member refid="group__GeneralGroup_1ga5e2aac0fdcedeffa2fa63a6e919ad77a" prot="protected" virt="virtual"><scope>MR::ObjectMesh</scope><name>computeBoundingBox_</name></member>
+      <member refid="classMR_1_1Object_1ac8aa3b30c857e87440cb2be7e1a60732" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>constChildren</name></member>
       <member refid="group__GeneralGroup_1ga9f6d4c54d2b17cae07a659e48192c9fc" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1VisualObject_1a64b9343aa9d5bb3c96e4a4f25fec077e" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectMesh</scope><name>copyAllSolidColors</name></member>
       <member refid="group__GeneralGroup_1ga9de7cd3fdf80c3ce5e6bbf73a7d8b202" prot="public" virt="virtual"><scope>MR::ObjectMesh</scope><name>copyColors</name></member>
@@ -370,6 +371,7 @@
       <member refid="group__GeneralGroup_1ga13d6a31dd591af6acf9a834da59aa1fd" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>meshChangedSignal</name></member>
       <member refid="group__GeneralGroup_1gadbd8b03aaca3e9e823be43fe1b77f12a" prot="protected" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>meshIsClosed_</name></member>
       <member refid="group__GeneralGroup_1ga5f17cf78de5c594d2941f35bd82197f1" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>meshPart</name></member>
+      <member refid="group__GeneralGroup_1ga090863e84b2143a5486ca6972b2f8584" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>meshPtr</name></member>
       <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>name</name></member>
       <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>name_</name></member>
       <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>needRedraw_</name></member>
@@ -406,7 +408,7 @@
       <member refid="classMR_1_1Object_1aac36fc983d44d6c7aca1abc5d12dd457" prot="protected" virt="virtual"><scope>MR::ObjectMesh</scope><name>onWorldXfChanged_</name></member>
       <member refid="group__GeneralGroup_1ga90e2e79193a58687ce5b39eda75dba30" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga9b6725a731d27509c295fc3a0acd2bfd" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectMeshHolder::"><scope>MR::ObjectMesh</scope><name>operator=</name></member>
-      <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectMesh</scope><name>operator=</name></member>
+      <member refid="classMR_1_1VisualObject_1a8ece540600bd8e7ebf4ca08077b7e84a" prot="public" virt="non-virtual" ambiguityscope="MR::VisualObject::"><scope>MR::ObjectMesh</scope><name>operator=</name></member>
       <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::ObjectMesh</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectMesh</scope><name>operator=</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1af9423022c44615eb44c4c83247239a89" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ObjectMesh</scope><name>operator=</name></member>
@@ -547,12 +549,13 @@
       <member refid="classMR_1_1VisualObject_1ac2b8bafaf72ee52d9a2312d0a51666b2" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
       <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
       <member refid="group__GeneralGroup_1gab3bb6cba075e46e077c30ed748202d77" prot="public" virt="virtual"><scope>MR::ObjectMesh</scope><name>varMesh</name></member>
+      <member refid="group__GeneralGroup_1gabc6f35e0e520a3551d1dab3ccd59f27b" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>varMeshPtr</name></member>
       <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::ObjectMesh</scope><name>visibilityMask</name></member>
       <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>visibilityMask_</name></member>
       <member refid="classMR_1_1VisualObject_1afba4e36ba430b26b2a358fe7669c568b" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>VisualObject</name></member>
-      <member refid="classMR_1_1VisualObject_1a95016bb1aefebfa8952ac3457cc57ee4" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1aa760a971390294ae8f47b048e2254078" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>VisualObject</name></member>
       <member refid="classMR_1_1VisualObject_1a132f300dcd5614eaaa237b865dc79763" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>VisualObject</name></member>
-      <member refid="classMR_1_1VisualObject_1a84d46a3ce3da143b5735f0b6ac79deee" prot="protected" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1ae95163e3f9a621b38ea424bb85259f83" prot="protected" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>VisualObject</name></member>
       <member refid="group__GeneralGroup_1gae5adb8502374b31a67dbafdd4ec3d480" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>volume</name></member>
       <member refid="group__GeneralGroup_1ga58dd82a33da66d9d3ec4496e55d90a20" prot="protected" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>volume_</name></member>
       <member refid="group__GeneralGroup_1ga33c3cd830b02b4b20f5c72a8bf2f7a47" prot="protected" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>worldBox_</name></member>
@@ -565,7 +568,7 @@
       <member refid="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>xfsForAllViewports</name></member>
       <member refid="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" virt="virtual"><scope>MR::ObjectMesh</scope><name>~Object</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1afc70bfdd1da7c7b37030df9392d86ab5" prot="public" virt="non-virtual"><scope>MR::ObjectMesh</scope><name>~ObjectChildrenHolder</name></member>
-      <member refid="classMR_1_1VisualObject_1a32d2019eae016848083a25a159b3b058" prot="public" virt="virtual"><scope>MR::ObjectMesh</scope><name>~VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a4d882264305c1f53e4fbc8f91d904be2" prot="public" virt="virtual"><scope>MR::ObjectMesh</scope><name>~VisualObject</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

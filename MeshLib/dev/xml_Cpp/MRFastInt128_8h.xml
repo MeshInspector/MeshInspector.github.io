@@ -47,6 +47,12 @@
       <node id="7">
         <label>MRMesh/MRInt64Mul128.h</label>
         <link refid="MRInt64Mul128_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRPrecisePredicates3Poly.h</label>
+        <link refid="MRPrecisePredicates3Poly_8h"/>
       </node>
       <node id="6">
         <label>MRMesh/MRVarBigInt.h</label>

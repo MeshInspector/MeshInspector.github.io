@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -195,9 +188,9 @@ $(function(){initNavTree('MRViewerSettingsPlugin_8h_source.html','',''); });
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    };</div>
 </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga7c752a952b08baa8a106a3df277698df">   61</a></span>    MRCOMMONPLUGINS_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__GeneralGroup.html#ga7c752a952b08baa8a106a3df277698df">addComboSettings</a>( <span class="keyword">const</span> <a class="code hl_enumeration" href="group__GeneralGroup.html#gafeeff27006fc4c615527cbd2c08c552b">TabType</a> tab, std::shared_ptr&lt;ExternalSettings&gt; settings );</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga7c752a952b08baa8a106a3df277698df">   61</a></span>    MRCOMMONPLUGINS_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__GeneralGroup.html#ga7c752a952b08baa8a106a3df277698df">addComboSettings</a>( <span class="keyword">const</span> <a class="code hl_enumeration" href="group__GeneralGroup.html#gafeeff27006fc4c615527cbd2c08c552b">TabType</a> tab, std::shared_ptr&lt;ExternalSettings&gt; <a class="code hl_variable" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a> );</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga4861cc201749e069416f4f233de758cd">   64</a></span>    MRCOMMONPLUGINS_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__GeneralGroup.html#ga4861cc201749e069416f4f233de758cd">delComboSettings</a>( <span class="keyword">const</span> <a class="code hl_enumeration" href="group__GeneralGroup.html#gafeeff27006fc4c615527cbd2c08c552b">TabType</a> tab, <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html">ExternalSettings</a> * settings );</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga4861cc201749e069416f4f233de758cd">   64</a></span>    MRCOMMONPLUGINS_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__GeneralGroup.html#ga4861cc201749e069416f4f233de758cd">delComboSettings</a>( <span class="keyword">const</span> <a class="code hl_enumeration" href="group__GeneralGroup.html#gafeeff27006fc4c615527cbd2c08c552b">TabType</a> tab, <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings.html">ExternalSettings</a> * <a class="code hl_variable" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a> );</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span></div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gad9bb1178cd07c90a5a7cedf2236259c4">   68</a></span>    MRCOMMONPLUGINS_API <span class="keyword">static</span> <a class="code hl_function" href="group__GeneralGroup.html#ga4fda238acd33621d265e12dff2282e03">ViewerSettingsPlugin</a>* <a class="code hl_function" href="group__GeneralGroup.html#gad9bb1178cd07c90a5a7cedf2236259c4">instance</a>();</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span></div>
@@ -231,43 +224,44 @@ $(function(){initNavTree('MRViewerSettingsPlugin_8h_source.html','',''); });
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> drawMcpSettings_();</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">void</span> drawMruInnerFormats_( <span class="keywordtype">float</span> menuWidth );</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keywordtype">void</span> drawGlobalSettings_( <span class="keywordtype">float</span> buttonWidth );</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordtype">void</span> drawCustomSettings_( <span class="keyword">const</span> std::string&amp; separatorName, <span class="keywordtype">bool</span> needSeparator );</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">void</span> drawSeparator_( <span class="keyword">const</span> std::string&amp; separatorName );</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordtype">void</span> drawStepImportSettings_( <span class="keywordtype">float</span> menuWidth );</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordtype">void</span> drawGlobalSettings_( <span class="keywordtype">float</span> buttonWidth );</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">void</span> drawCustomSettings_( <span class="keyword">const</span> std::string&amp; separatorName, <span class="keywordtype">bool</span> needSeparator );</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keywordtype">void</span> drawSeparator_( <span class="keyword">const</span> std::string&amp; separatorName );</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    <span class="keywordtype">void</span> updateDialog_();</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keywordtype">void</span> resetSettings_();</div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordtype">int</span> storedSamples_{ 0 };</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">int</span> maxSamples_{ 0 };</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordtype">bool</span> gpuOverridesMSAA_{ <span class="keyword">false</span> };</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">float</span> tempUserScaling_{ 1.0f };</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    Vector4f backgroundColor_;</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordtype">int</span> selectedLanguage_{ -1 };</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">int</span> selectedUserPreset_{ 0 };</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    std::vector&lt;std::string&gt; userThemesPresets_;</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    std::unique_ptr&lt;ShadowsGL&gt; shadowGl_;</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    SpaceMouse::Parameters spaceMouseParams_;</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    TouchpadParameters touchpadParameters_;</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    TabType activeTab_ = TabType::Quick;</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    TabType orderedTab_ = TabType::Count; </div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    std::array&lt;std::vector&lt;std::shared_ptr&lt;ExternalSettings&gt;&gt;, size_t(TabType::Count)&gt; comboSettings_;</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    MruFormatParameters mruFormatParameters_;</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>};</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <span class="keywordtype">void</span> updateDialog_();</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">void</span> resetSettings_();</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">int</span> storedSamples_{ 0 };</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordtype">int</span> maxSamples_{ 0 };</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">bool</span> gpuOverridesMSAA_{ <span class="keyword">false</span> };</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordtype">float</span> tempUserScaling_{ 1.0f };</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    Vector4f backgroundColor_;</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keywordtype">int</span> selectedLanguage_{ -1 };</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keywordtype">int</span> selectedUserPreset_{ 0 };</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    std::vector&lt;std::string&gt; userThemesPresets_;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    std::unique_ptr&lt;ShadowsGL&gt; shadowGl_;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    SpaceMouse::Parameters spaceMouseParams_;</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    TouchpadParameters touchpadParameters_;</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    TabType activeTab_ = TabType::Quick;</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    TabType orderedTab_ = TabType::Count; </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    std::array&lt;std::vector&lt;std::shared_ptr&lt;ExternalSettings&gt;&gt;, size_t(TabType::Count)&gt; comboSettings_;</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    MruFormatParameters mruFormatParameters_;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>};</div>
 </div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>}</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>}</div>
 <div class="ttc" id="aMRMruFormatParameters_8h_html"><div class="ttname"><a href="MRMruFormatParameters_8h.html">MRMruFormatParameters.h</a></div></div>
 <div class="ttc" id="aMRShadowsGL_8h_html"><div class="ttname"><a href="MRShadowsGL_8h.html">MRShadowsGL.h</a></div></div>
 <div class="ttc" id="aMRSpaceMouseParameters_8h_html"><div class="ttname"><a href="MRSpaceMouseParameters_8h.html">MRSpaceMouseParameters.h</a></div></div>
@@ -279,6 +273,7 @@ $(function(){initNavTree('MRViewerSettingsPlugin_8h_source.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_ga119e03f41d8f3bdf0c9ee522b8ad623b"><div class="ttname"><a href="group__GeneralGroup.html#ga119e03f41d8f3bdf0c9ee522b8ad623b">MR::ViewerSettingsPlugin::drawDialog</a></div><div class="ttdeci">virtual void drawDialog(ImGuiContext *ctx) override</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga2b40b2d1d9febe79a58c0f64f8aaf704"><div class="ttname"><a href="group__GeneralGroup.html#ga2b40b2d1d9febe79a58c0f64f8aaf704">MR::ViewerSettingsPlugin::ExternalSettings::getName</a></div><div class="ttdeci">virtual const std::string &amp; getName() const =0</div><div class="ttdoc">returns the name of the setting, which is a unique value</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga2bd394f0e78044d2a22dbea3c993e04c"><div class="ttname"><a href="group__GeneralGroup.html#ga2bd394f0e78044d2a22dbea3c993e04c">MR::ViewerSettingsPlugin::updateThemes</a></div><div class="ttdeci">MRCOMMONPLUGINS_API void updateThemes()</div><div class="ttdoc">call this function if you save/delete color theme, or change current theme outside of this plugin</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga351ee7aaab2fab7deb7b0aed319437f4"><div class="ttname"><a href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">MR::settings</a></div><div class="ttdeci">const DenoiseViaNormalsSettings &amp; settings</div><div class="ttdef"><b>Definition</b> MRNormalDenoising.h:75</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga4861cc201749e069416f4f233de758cd"><div class="ttname"><a href="group__GeneralGroup.html#ga4861cc201749e069416f4f233de758cd">MR::ViewerSettingsPlugin::delComboSettings</a></div><div class="ttdeci">MRCOMMONPLUGINS_API void delComboSettings(const TabType tab, const ExternalSettings *settings)</div><div class="ttdoc">delete external settings with UI combo box</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga4fda238acd33621d265e12dff2282e03"><div class="ttname"><a href="group__GeneralGroup.html#ga4fda238acd33621d265e12dff2282e03">MR::ViewerSettingsPlugin::ViewerSettingsPlugin</a></div><div class="ttdeci">ViewerSettingsPlugin()</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga5daa51d87dc540fd02b52303e05cbe20"><div class="ttname"><a href="group__GeneralGroup.html#ga5daa51d87dc540fd02b52303e05cbe20">MR::ViewerSettingsPlugin::ExternalSettings::reset</a></div><div class="ttdeci">virtual void reset()</div><div class="ttdoc">restore the settings to their default values</div><div class="ttdef"><b>Definition</b> MRViewerSettingsPlugin.h:55</div></div>

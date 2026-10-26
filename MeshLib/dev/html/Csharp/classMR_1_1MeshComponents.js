@@ -1,5 +1,7 @@
 var classMR_1_1MeshComponents =
 [
+    [ "ComponentsFaces", "classMR_1_1MeshComponents_1_1ComponentsFaces.html", "classMR_1_1MeshComponents_1_1ComponentsFaces" ],
+    [ "Const_ComponentsFaces", "classMR_1_1MeshComponents_1_1Const__ComponentsFaces.html", "classMR_1_1MeshComponents_1_1Const__ComponentsFaces" ],
     [ "Const_ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams.html", "classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams" ],
     [ "Const_LargeByAreaComponentsSettings", "classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings.html", "classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings" ],
     [ "ExpandToComponentsParams", "classMR_1_1MeshComponents_1_1ExpandToComponentsParams.html", "classMR_1_1MeshComponents_1_1ExpandToComponentsParams" ],
@@ -8,13 +10,21 @@ var classMR_1_1MeshComponents =
       [ "PerEdge", "classMR_1_1MeshComponents.html#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8", null ],
       [ "PerVertex", "classMR_1_1MeshComponents.html#a4456859c6a96d21172917ef5db336722a47e73954b650524c96a2c612bfda4029", null ]
     ] ],
+    [ "VolumeSelection", "classMR_1_1MeshComponents.html#aef47553856f09954abb66095bfabdf94", [
+      [ "Abs", "classMR_1_1MeshComponents.html#aef47553856f09954abb66095bfabdf94a1e34af023adeb7d5f484f8eb4b9826b6", null ],
+      [ "Positive", "classMR_1_1MeshComponents.html#aef47553856f09954abb66095bfabdf94a3289297424e01eda5b788c083bbf3147", null ],
+      [ "Negative", "classMR_1_1MeshComponents.html#aef47553856f09954abb66095bfabdf94affb9356ff2b7da85c75c92fa7ea03b8b", null ]
+    ] ],
     [ "excludeFullySelectedComponents", "classMR_1_1MeshComponents.html#acbf116452fe4c2bb1c56d5c6c8378244", null ],
     [ "expandToComponents", "classMR_1_1MeshComponents.html#a1e8c081fae74fe2929d40ea02416a878", null ],
     [ "getAllComponents", "classMR_1_1MeshComponents.html#aff1256cad28929e76abb10573de91d0b", null ],
     [ "getAllComponents", "classMR_1_1MeshComponents.html#a2aedd07b0f22689c2852e0aa5837ee1d", null ],
     [ "getAllComponents", "classMR_1_1MeshComponents.html#ad62c0fb68093309e3cbcb38829bebc8e", null ],
     [ "getAllComponentsEdges", "classMR_1_1MeshComponents.html#a66b427dad06792d08db7374b54b4bee2", null ],
+    [ "getAllComponentsFaces", "classMR_1_1MeshComponents.html#a80aecf45de57324d4641f0fa57b927f1", null ],
+    [ "getAllComponentsFaces", "classMR_1_1MeshComponents.html#ad8ba6e9cb22b1949e04545283ba50722", null ],
     [ "getAllComponentsMap", "classMR_1_1MeshComponents.html#aa2bb6b3b50188dbce4a6b21881cd4a05", null ],
+    [ "getAllComponentsMapBySharpEdges", "classMR_1_1MeshComponents.html#a45145f33e392fe5d50b167f4a76e8f56", null ],
     [ "getAllComponentsUndirectedEdges", "classMR_1_1MeshComponents.html#ad0b4a162d9d663045f37e23f2a2f6898", null ],
     [ "getAllComponentsVerts", "classMR_1_1MeshComponents.html#abaf4e2238bea5affab163db810434c8d", null ],
     [ "getAllComponentsVertsSeparatedByPath", "classMR_1_1MeshComponents.html#a657d8d0d5d69361451bbc8ae759d153d", null ],
@@ -33,7 +43,9 @@ var classMR_1_1MeshComponents =
     [ "getLargeByVolumeComponents", "classMR_1_1MeshComponents.html#a6138532c8525daf0960225300b8c4182", null ],
     [ "getLargeComponentVerts", "classMR_1_1MeshComponents.html#a763f99071c909da92c284171e2b0e9ee", null ],
     [ "getLargestComponent", "classMR_1_1MeshComponents.html#ad296f69ab97903119a0505f29f6b1dde", null ],
+    [ "getLargestComponentArea", "classMR_1_1MeshComponents.html#a5645da41096dfa536ded490fd932a707", null ],
     [ "getLargestComponentVerts", "classMR_1_1MeshComponents.html#a9543db83319e58a395e05677c4ad2d66", null ],
+    [ "getLargestComponentVolume", "classMR_1_1MeshComponents.html#a5df1158a734464d4f2674f4ae54faee2", null ],
     [ "getNLargeByAreaComponents", "classMR_1_1MeshComponents.html#a2e851fcd586d64867abf8a87867cb44e", null ],
     [ "getNumComponents", "classMR_1_1MeshComponents.html#ac7639c0d0326e4586ea6b0f21c829850", null ],
     [ "getRegionAreas", "classMR_1_1MeshComponents.html#aed02141179803d699651fdacf8f89eca", null ],

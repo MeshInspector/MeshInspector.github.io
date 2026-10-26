@@ -2,17 +2,17 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMruFormatParameters_8h" kind="file" language="C++">
     <compoundname>MRMruFormatParameters.h</compoundname>
-    <includedby refid="MRViewerSettingsPlugin_8h" local="yes">MRViewer/MRViewerSettingsPlugin.h</includedby>
+    <includedby refid="MRViewerSettingsPlugin_8h" local="yes">MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</includedby>
     <invincdepgraph>
+      <node id="2">
+        <label>MRCommonPlugins/ViewerButtons/MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
       <node id="1">
         <label>MRViewer/MRMruFormatParameters.h</label>
         <link refid="MRMruFormatParameters_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-      </node>
-      <node id="2">
-        <label>MRViewer/MRViewerSettingsPlugin.h</label>
-        <link refid="MRViewerSettingsPlugin_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structMR_1_1MruFormatParameters" prot="public">MR::MruFormatParameters</innerclass>

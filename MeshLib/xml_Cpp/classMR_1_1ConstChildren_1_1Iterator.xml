@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ConstChildren_1_1Iterator" kind="class" language="C++" prot="public">
+    <compoundname>MR::ConstChildren::Iterator</compoundname>
+    <includes refid="MRConstChildren_8h" local="no">MRMesh/MRConstChildren.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gae7c12439a318077dcb19052a0951b066" kind="typedef"><name>iterator_concept</name></member>
+      <member refid="group__GeneralGroup_1ga999327b8f650d03be9fa8225d9fe9c8c" kind="typedef"><name>iterator_category</name></member>
+      <member refid="group__GeneralGroup_1ga0582f399e5067aa8b73a82cf10fd6c8f" kind="typedef"><name>value_type</name></member>
+      <member refid="group__GeneralGroup_1gae1a6c04e0c1042d2b6020848b6922f82" kind="typedef"><name>difference_type</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga94ab59a76edb816a9a34d7c4f4f7cf60" kind="variable"><name>it_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga0ce0435d606c4d19a79a699eec18f7f2" kind="function"><name>Iterator</name></member>
+      <member refid="group__GeneralGroup_1ga3f09a9ae06179320e55182fd08d60238" kind="function"><name>Iterator</name></member>
+      <member refid="group__GeneralGroup_1ga9fc8635872b9c08c9cf067bbc26cf8cd" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga1113eefe20e266ac285214ec4b33158d" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gaaad59ff19b36e3fb39a9c68fafa10644" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga63d12752978b08aa7d7bfb5249ce87e4" kind="function"><name>operator==</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>dereferences to std::shared_ptr&lt;const Object&gt;, constructed on each dereference </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRConstChildren.h" line="40" column="5" bodyfile="MRMesh/MRConstChildren.h" bodystart="41" bodyend="60"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gae1a6c04e0c1042d2b6020848b6922f82" prot="public" virt="non-virtual"><scope>MR::ConstChildren::Iterator</scope><name>difference_type</name></member>
+      <member refid="group__GeneralGroup_1ga94ab59a76edb816a9a34d7c4f4f7cf60" prot="private" virt="non-virtual"><scope>MR::ConstChildren::Iterator</scope><name>it_</name></member>
+      <member refid="group__GeneralGroup_1ga0ce0435d606c4d19a79a699eec18f7f2" prot="public" virt="non-virtual"><scope>MR::ConstChildren::Iterator</scope><name>Iterator</name></member>
+      <member refid="group__GeneralGroup_1ga3f09a9ae06179320e55182fd08d60238" prot="public" virt="non-virtual"><scope>MR::ConstChildren::Iterator</scope><name>Iterator</name></member>
+      <member refid="group__GeneralGroup_1ga999327b8f650d03be9fa8225d9fe9c8c" prot="public" virt="non-virtual"><scope>MR::ConstChildren::Iterator</scope><name>iterator_category</name></member>
+      <member refid="group__GeneralGroup_1gae7c12439a318077dcb19052a0951b066" prot="public" virt="non-virtual"><scope>MR::ConstChildren::Iterator</scope><name>iterator_concept</name></member>
+      <member refid="group__GeneralGroup_1ga9fc8635872b9c08c9cf067bbc26cf8cd" prot="public" virt="non-virtual"><scope>MR::ConstChildren::Iterator</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga1113eefe20e266ac285214ec4b33158d" prot="public" virt="non-virtual"><scope>MR::ConstChildren::Iterator</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gaaad59ff19b36e3fb39a9c68fafa10644" prot="public" virt="non-virtual"><scope>MR::ConstChildren::Iterator</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga63d12752978b08aa7d7bfb5249ce87e4" prot="public" virt="non-virtual"><scope>MR::ConstChildren::Iterator</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga0582f399e5067aa8b73a82cf10fd6c8f" prot="public" virt="non-virtual"><scope>MR::ConstChildren::Iterator</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

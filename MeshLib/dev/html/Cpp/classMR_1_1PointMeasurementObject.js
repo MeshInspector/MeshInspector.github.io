@@ -22,6 +22,7 @@ var classMR_1_1PointMeasurementObject =
     [ "numComparisonReferenceValues", "group__GeneralGroup.html#gada7c05aeffa87f762f5fed6b271c2454", null ],
     [ "operator=", "group__GeneralGroup.html#ga04651779fcd30d074c04198375b93a5c", null ],
     [ "serializeFields_", "group__GeneralGroup.html#ga7b9982a0596af03ca659f33d64ae9f2a", null ],
+    [ "setAllVisualizeProperties_", "group__GeneralGroup.html#ga918d4705c76a0def8a5fe7f88acf7678", null ],
     [ "setComparisonReferenceValue", "group__GeneralGroup.html#ga73dbedcc2399ed69569158c1566c7746", null ],
     [ "setComparisonTolerance", "group__GeneralGroup.html#ga829e77891f1d1c8e8739573c5b882b19", null ],
     [ "setLocalPoint", "group__GeneralGroup.html#ga739a2601489f4ec832f04c1af2823435", null ],

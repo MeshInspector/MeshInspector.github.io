@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="115" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="115" bodyend="122"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="124" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="124" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VersatileChangeMeshPointsAction_1a9624b67ccb258c6419a58884647df29f" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="125" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="125" bodyend="134"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="132" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="132" bodyend="139"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="136" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="136" bodyend="136"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="141" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="141" bodyend="141"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="142" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="142" bodyend="152"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="147" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="147" bodyend="155"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VersatileChangeMeshPointsAction_1a3bd00672e3fbb2371459062896bbe8c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="157" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="157" bodyend="162"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="160" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="160" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VersatileChangeMeshPointsAction_1a31e058e6d8e9478b1c72815b7efb8ee4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -121,7 +121,111 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="168" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="168" bodyend="173"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="169" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="169" bodyend="172"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1VersatileChangeMeshPointsAction_1af2cb9986fd2f9e979ef7221c7350e00f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VersatileChangeMeshPointsAction._Underlying *</type>
+        <definition>static unsafe MR.VersatileChangeMeshPointsAction._Underlying * MR.VersatileChangeMeshPointsAction.__MR_VersatileChangeMeshPointsAction_Construct</definition>
+        <argsstring>(byte *name, byte *name_end, MR.Std.Const_SharedPtr_MRObjectMesh._Underlying *obj)</argsstring>
+        <name>__MR_VersatileChangeMeshPointsAction_Construct</name>
+        <qualifiedname>MR.VersatileChangeMeshPointsAction.__MR_VersatileChangeMeshPointsAction_Construct</qualifiedname>
+        <param>
+          <type>byte *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRObjectMesh._Underlying *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="177" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VersatileChangeMeshPointsAction_1a7c9edd3ae95bab9ee871c24a2fd2cb2f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe _Underlying *</type>
+        <definition>static unsafe _Underlying * MR.VersatileChangeMeshPointsAction.__MR_VersatileChangeMeshPointsAction_DynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR.HistoryAction._Underlying *_this)</argsstring>
+        <name>__MR_VersatileChangeMeshPointsAction_DynamicDowncastFrom_MR_HistoryAction</name>
+        <qualifiedname>MR.VersatileChangeMeshPointsAction.__MR_VersatileChangeMeshPointsAction_DynamicDowncastFrom_MR_HistoryAction</qualifiedname>
+        <param>
+          <type>MR.HistoryAction._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="180" column="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VersatileChangeMeshPointsAction_1a656528e29e1a356353abed7759bd6724" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.HistoryAction._Underlying *</type>
+        <definition>static unsafe MR.HistoryAction._Underlying * MR.VersatileChangeMeshPointsAction.__MR_VersatileChangeMeshPointsAction_UpcastTo_MR_HistoryAction</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VersatileChangeMeshPointsAction_UpcastTo_MR_HistoryAction</name>
+        <qualifiedname>MR.VersatileChangeMeshPointsAction.__MR_VersatileChangeMeshPointsAction_UpcastTo_MR_HistoryAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="183" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VersatileChangeMeshPointsAction_1a6f77afa99cc0179e1bb96853e55ac233" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VersatileChangeMeshPointsAction.__MR_VersatileChangeMeshPointsAction_action</definition>
+        <argsstring>(_Underlying *_this, MR.HistoryAction.Type t)</argsstring>
+        <name>__MR_VersatileChangeMeshPointsAction_action</name>
+        <qualifiedname>MR.VersatileChangeMeshPointsAction.__MR_VersatileChangeMeshPointsAction_action</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="186" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VersatileChangeMeshPointsAction_1a9dad4b2b2f6843f8aff3bdaeba8f4f67" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VersatileChangeMeshPointsAction.__MR_VersatileChangeMeshPointsAction_compress</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VersatileChangeMeshPointsAction_compress</name>
+        <qualifiedname>MR.VersatileChangeMeshPointsAction.__MR_VersatileChangeMeshPointsAction_compress</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="189" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -173,8 +277,13 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="112" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="113" bodyend="174"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" line="121" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVersatileChangeMeshAction.cs" bodystart="122" bodyend="190"/>
     <listofallmembers>
+      <member refid="classMR_1_1VersatileChangeMeshPointsAction_1a6f77afa99cc0179e1bb96853e55ac233" prot="private" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>__MR_VersatileChangeMeshPointsAction_action</name></member>
+      <member refid="classMR_1_1VersatileChangeMeshPointsAction_1a9dad4b2b2f6843f8aff3bdaeba8f4f67" prot="private" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>__MR_VersatileChangeMeshPointsAction_compress</name></member>
+      <member refid="classMR_1_1VersatileChangeMeshPointsAction_1af2cb9986fd2f9e979ef7221c7350e00f" prot="private" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>__MR_VersatileChangeMeshPointsAction_Construct</name></member>
+      <member refid="classMR_1_1VersatileChangeMeshPointsAction_1a7c9edd3ae95bab9ee871c24a2fd2cb2f" prot="private" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>__MR_VersatileChangeMeshPointsAction_DynamicDowncastFrom_MR_HistoryAction</name></member>
+      <member refid="classMR_1_1VersatileChangeMeshPointsAction_1a656528e29e1a356353abed7759bd6724" prot="private" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>__MR_VersatileChangeMeshPointsAction_UpcastTo_MR_HistoryAction</name></member>
       <member refid="classMR_1_1VersatileChangeMeshPointsAction_1a3bd00672e3fbb2371459062896bbe8c6" prot="public" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>action</name></member>
       <member refid="classMR_1_1VersatileChangeMeshPointsAction_1a31e058e6d8e9478b1c72815b7efb8ee4" prot="public" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>compress</name></member>
       <member refid="classMR_1_1Const__VersatileChangeMeshPointsAction_1ac1355c2eea1d920636f72691a5389cad" prot="package" virt="non-virtual"><scope>MR::VersatileChangeMeshPointsAction</scope><name>Const_VersatileChangeMeshPointsAction</name></member>

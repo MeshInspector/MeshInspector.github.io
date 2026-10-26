@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshComponents_1_1ComponentsFaces" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshComponents::ComponentsFaces</compoundname>
+    <includes refid="MRMeshComponents_8h" local="no">MRMesh/MRMeshComponents.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1ComponentsFaces_1a6cad6fd63d8202e80b707dcf96fd9968" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; FaceId &gt;</type>
+        <definition>std::vector&lt;FaceId&gt; MR::MeshComponents::ComponentsFaces::faces</definition>
+        <argsstring></argsstring>
+        <name>faces</name>
+        <qualifiedname>MR::MeshComponents::ComponentsFaces::faces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>faces of component 0, then faces of component 1, ...; the faces of component i are faces[offsets[i]], ..., faces[offsets[i+1]-1] in increasing order </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshComponents.h" line="171" column="17" bodyfile="MRMesh/MRMeshComponents.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1ComponentsFaces_1ae9982b713fe80c3ce1920c5860b61794" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; int, RegionId &gt;</type>
+        <definition>Vector&lt;int, RegionId&gt; MR::MeshComponents::ComponentsFaces::offsets</definition>
+        <argsstring></argsstring>
+        <name>offsets</name>
+        <qualifiedname>MR::MeshComponents::ComponentsFaces::offsets</qualifiedname>
+        <briefdescription>
+<para>the number of components + 1 elements, offsets.back() == faces.size() </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshComponents.h" line="172" column="12" bodyfile="MRMesh/MRMeshComponents.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1MeshComponents_1_1ComponentsFaces_1a2b36ec65ea208c6bcb8335207d59ff97" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MeshComponents::ComponentsFaces::setComponentBits</definition>
+        <argsstring>(RegionId compId, FaceBitSet &amp;bs) const</argsstring>
+        <name>setComponentBits</name>
+        <qualifiedname>MR::MeshComponents::ComponentsFaces::setComponentBits</qualifiedname>
+        <param>
+          <type>RegionId</type>
+          <declname>compId</declname>
+        </param>
+        <param>
+          <type>FaceBitSet &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+<para>sets in given bit set the bits of all faces of component compId; bs must be large enough to contain them </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshComponents.h" line="175" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>faces of all components in one flat array </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::MeshComponents::ComponentsFaces</label>
+        <link refid="structMR_1_1MeshComponents_1_1ComponentsFaces"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>offsets</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Vector&lt; int, RegionId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRMeshComponents.h" line="167" column="1" bodyfile="MRMesh/MRMeshComponents.h" bodystart="168" bodyend="176"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshComponents_1_1ComponentsFaces_1a6cad6fd63d8202e80b707dcf96fd9968" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>faces</name></member>
+      <member refid="structMR_1_1MeshComponents_1_1ComponentsFaces_1ae9982b713fe80c3ce1920c5860b61794" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>offsets</name></member>
+      <member refid="structMR_1_1MeshComponents_1_1ComponentsFaces_1a2b36ec65ea208c6bcb8335207d59ff97" prot="public" virt="non-virtual"><scope>MR::MeshComponents::ComponentsFaces</scope><name>setComponentBits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

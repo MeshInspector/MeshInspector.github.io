@@ -10,24 +10,40 @@
     <includedby refid="MRCudaSweptVolume_8h" local="yes">MRCuda/MRCudaSweptVolume.h</includedby>
     <includedby refid="MRCudaAccessor_8h" local="yes">MRViewer/MRCudaAccessor.h</includedby>
     <incdepgraph>
+      <node id="29">
+        <label>MRAllocator.h</label>
+        <link refid="MRAllocator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
       <node id="28">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
         <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
       </node>
       <node id="7">
@@ -36,16 +52,16 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="37">
+      <node id="40">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="43">
+      <node id="46">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
         <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
       </node>
       <node id="16">
@@ -78,12 +94,12 @@
         <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="41">
+      <node id="44">
         <label>MRLineSegm.h</label>
         <link refid="MRLineSegm_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -122,12 +138,12 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="37">
         <label>MRPlane3.h</label>
         <link refid="MRPlane3_8h"/>
-        <childnode refid="35" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
       <node id="19">
@@ -135,13 +151,13 @@
         <link refid="MRPolyline_8h"/>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
       <node id="20">
@@ -166,15 +182,15 @@
         <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="44">
+      <node id="47">
         <label>MRSegmPoint.h</label>
         <link refid="MRSegmPoint_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="36">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="4" relation="include">
@@ -183,10 +199,10 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
-      <node id="36">
+      <node id="39">
         <label>MRMesh/MRUnsigned.h</label>
         <link refid="MRUnsigned_8h"/>
         <childnode refid="25" relation="include">
@@ -208,48 +224,48 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="42">
+      <node id="45">
         <label>MRVector2.h</label>
         <link refid="MRVector2_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
       </node>
-      <node id="35">
+      <node id="38">
         <label>MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
@@ -290,19 +306,22 @@
       <node id="17">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="29">
+      <node id="32">
         <label>MRphmap.h</label>
       </node>
-      <node id="38">
+      <node id="41">
         <label>algorithm</label>
       </node>
       <node id="9">
         <label>array</label>
       </node>
+      <node id="33">
+        <label>atomic</label>
+      </node>
       <node id="15">
         <label>cassert</label>
       </node>
-      <node id="39">
+      <node id="42">
         <label>cmath</label>
       </node>
       <node id="23">
@@ -314,23 +333,26 @@
       <node id="14">
         <label>cstdint</label>
       </node>
-      <node id="40">
+      <node id="43">
         <label>cstring</label>
       </node>
       <node id="13">
         <label>functional</label>
       </node>
-      <node id="30">
+      <node id="34">
         <label>iosfwd</label>
       </node>
-      <node id="31">
+      <node id="35">
         <label>iterator</label>
       </node>
-      <node id="45">
+      <node id="48">
         <label>limits</label>
       </node>
-      <node id="33">
+      <node id="30">
         <label>memory</label>
+      </node>
+      <node id="31">
+        <label>mimalloc.h</label>
       </node>
       <node id="12">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>
@@ -404,9 +426,9 @@
 <codeline lineno="42" refid="group__GeneralGroup_1ga710c3b728313851d1a392af1f9514232" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="group__GeneralGroup_1ga710c3b728313851d1a392af1f9514232" kindref="member">cb</ref>;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="group__GeneralGroup_1gac72b9b05041cc9229cb46ef3216d254f" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gac72b9b05041cc9229cb46ef3216d254f" kindref="member">computeSweptVolumeWithMeshMovement</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ComputeSweptVolumeParameters" kindref="compound">ComputeSweptVolumeParameters</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1gac72b9b05041cc9229cb46ef3216d254f" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gac72b9b05041cc9229cb46ef3216d254f" kindref="member">computeSweptVolumeWithMeshMovement</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ComputeSweptVolumeParameters" kindref="compound">ComputeSweptVolumeParameters</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1ga5eb87f0ab1d7fca53c85caa95f287e69" kindref="member">params</ref><sp/>);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="group__GeneralGroup_1ga2f14cbbe32f9cd74502e01f1f2e40173" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga2f14cbbe32f9cd74502e01f1f2e40173" kindref="member">computeSweptVolumeWithDistanceVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ComputeSweptVolumeParameters" kindref="compound">ComputeSweptVolumeParameters</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1ga2f14cbbe32f9cd74502e01f1f2e40173" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga2f14cbbe32f9cd74502e01f1f2e40173" kindref="member">computeSweptVolumeWithDistanceVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ComputeSweptVolumeParameters" kindref="compound">ComputeSweptVolumeParameters</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1ga5eb87f0ab1d7fca53c85caa95f287e69" kindref="member">params</ref><sp/>);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54" refid="classMR_1_1IComputeToolDistance" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a9f036b05518b862a538b52711d41d242" kindref="member">MRVOXELS_CLASS</ref><sp/><ref refid="classMR_1_1IComputeToolDistance" kindref="compound">IComputeToolDistance</ref></highlight></codeline>
 <codeline lineno="55"><highlight class="normal">{</highlight></codeline>
@@ -423,7 +445,7 @@
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="73"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="group__GeneralGroup_1gaa1659b82dc99e8c5f412e35c7a94b4d7" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaa1659b82dc99e8c5f412e35c7a94b4d7" kindref="member">computeSweptVolumeWithCustomToolDistance</ref>(<sp/><ref refid="classMR_1_1IComputeToolDistance" kindref="compound">IComputeToolDistance</ref>&amp;<sp/>comp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ComputeSweptVolumeParameters" kindref="compound">ComputeSweptVolumeParameters</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="78" refid="group__GeneralGroup_1gaa1659b82dc99e8c5f412e35c7a94b4d7" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1gaa1659b82dc99e8c5f412e35c7a94b4d7" kindref="member">computeSweptVolumeWithCustomToolDistance</ref>(<sp/><ref refid="classMR_1_1IComputeToolDistance" kindref="compound">IComputeToolDistance</ref>&amp;<sp/>comp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ComputeSweptVolumeParameters" kindref="compound">ComputeSweptVolumeParameters</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1ga5eb87f0ab1d7fca53c85caa95f287e69" kindref="member">params</ref><sp/>);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal">}</highlight></codeline>
     </programlisting>

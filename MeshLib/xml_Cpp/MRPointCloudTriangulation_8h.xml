@@ -96,17 +96,19 @@
         </childnode>
         <childnode refid="47" relation="include">
         </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
         <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
       </node>
       <node id="46">
@@ -155,26 +157,26 @@
         <childnode refid="45" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="49">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="48">
         <label>MRMeshProject.h</label>
         <link refid="MRMeshProject_8h"/>
         <childnode refid="45" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
         <childnode refid="44" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
-        </childnode>
         <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
@@ -228,7 +230,7 @@
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
       <node id="45">
@@ -275,7 +277,7 @@
         <childnode refid="38" relation="include">
         </childnode>
       </node>
-      <node id="51">
+      <node id="52">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="8" relation="include">
@@ -284,7 +286,7 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
       </node>
       <node id="31">
@@ -345,7 +347,25 @@
         <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="53">
+      <node id="47">
+        <label>MRVertDuplication.h</label>
+        <link refid="MRVertDuplication_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
         <label>MRWriter.h</label>
         <link refid="MRWriter_8h"/>
       </node>
@@ -371,7 +391,7 @@
       <node id="17">
         <label>cassert</label>
       </node>
-      <node id="49">
+      <node id="50">
         <label>cfloat</label>
       </node>
       <node id="35">
@@ -401,10 +421,10 @@
       <node id="38">
         <label>limits</label>
       </node>
-      <node id="52">
+      <node id="53">
         <label>memory</label>
       </node>
-      <node id="50">
+      <node id="51">
         <label>optional</label>
       </node>
       <node id="14">

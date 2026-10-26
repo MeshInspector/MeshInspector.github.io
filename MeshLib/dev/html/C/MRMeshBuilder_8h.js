@@ -59,6 +59,6 @@ var MRMeshBuilder_8h =
     [ "MR_MeshBuilder_UniteCloseParams_Set_optionalVertOldToNew", "MRMeshBuilder_8h.html#a6fa1d1985c18080c2a32aae906595e37", null ],
     [ "MR_MeshBuilder_UniteCloseParams_Set_region", "MRMeshBuilder_8h.html#ae6c62b414bfa49f64d0a707c3a87bc2e", null ],
     [ "MR_MeshBuilder_UniteCloseParams_Set_uniteOnlyBd", "MRMeshBuilder_8h.html#a553fafa373aeb9eeb8407d0f4a597a39", null ],
-    [ "MR_MeshBuilder_uniteCloseVertices_2", "MRMeshBuilder_8h.html#a893b2ba49a1348adaed7e8ac4957c8c5", null ],
-    [ "MR_MeshBuilder_uniteCloseVertices_4", "MRMeshBuilder_8h.html#a1974c1fbb01e9d45a57132a1ba3aa81b", null ]
+    [ "MR_MeshBuilder_uniteCloseVertices", "MRMeshBuilder_8h.html#a2540361142b6ef28f90fcc86828b887c", null ],
+    [ "MR_MeshBuilder_uniteCloseVertices_dist", "MRMeshBuilder_8h.html#af993c7181da645348ed1cedd0400a39b", null ]
 ];

@@ -20,6 +20,7 @@ var classMR_1_1GeneralOffsetParameters =
     [ "outSharpEdges", "classMR_1_1GeneralOffsetParameters.html#a581fa165301fd0baf6c868d8e56a33b9", null ],
     [ "outVoxelPerFace", "classMR_1_1GeneralOffsetParameters.html#a8ceb23a8cd4db7e61a7c8f4a97692b01", null ],
     [ "signDetectionMode", "classMR_1_1GeneralOffsetParameters.html#aef71abdfa935fa9555f4c2f831f3fc0d", null ],
+    [ "voxelClamp", "classMR_1_1GeneralOffsetParameters.html#a5122d56f546c6945b652bfdffe0734e9", null ],
     [ "voxelSize", "classMR_1_1GeneralOffsetParameters.html#a1c3f01d7d61cbf01a5d9669e634c6301", null ],
     [ "windingNumberBeta", "classMR_1_1GeneralOffsetParameters.html#adfc02a598e4ae77c99f9e77b2151e885", null ],
     [ "windingNumberThreshold", "classMR_1_1GeneralOffsetParameters.html#a088b4a87c595fdf9cf7ed6867faa33be", null ]

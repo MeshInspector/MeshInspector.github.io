@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="118" column="14" bodyfile="MRViewer/MRUITestEngine.h" bodystart="118" bodyend="118"/>
+        <location file="MRViewer/MRUITestEngine.h" line="121" column="14" bodyfile="MRViewer/MRUITestEngine.h" bodystart="121" bodyend="121"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1aeba1033c72c39158825a2c5b534a5724" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="119" column="5" bodyfile="MRViewer/MRUITestEngine.h" bodystart="119" bodyend="119"/>
+        <location file="MRViewer/MRUITestEngine.h" line="122" column="5" bodyfile="MRViewer/MRUITestEngine.h" bodystart="122" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1a2a335b95694458e94dc30f74435a437b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="120" column="5"/>
+        <location file="MRViewer/MRUITestEngine.h" line="123" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1a01e40f408ea42f2efe24a09b5ee6de3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard" kindref="compound">TreeGuard</ref> &amp;</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="121" column="15"/>
+        <location file="MRViewer/MRUITestEngine.h" line="124" column="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -76,7 +76,7 @@
     <detaileddescription>
 <para>RAII wrapper for <computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1ad12d929394733bbfd78765262fec48b8" kindref="member">pushTree()</ref></computeroutput>/<computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1ab05a3802e2ed1ab9f8a55c8a8d55ef6a" kindref="member">popTree()</ref></computeroutput>: pushes a named group on construction and pops it on scope exit (including early returns and exceptions). Prefer this over a manual <computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1ad12d929394733bbfd78765262fec48b8" kindref="member">pushTree()</ref></computeroutput> + <computeroutput>MR_FINALLY{ <ref refid="namespaceMR_1_1UI_1_1TestEngine_1ab05a3802e2ed1ab9f8a55c8a8d55ef6a" kindref="member">popTree()</ref>; }</computeroutput>. </para>
     </detaileddescription>
-    <location file="MRViewer/MRUITestEngine.h" line="115" column="1" bodyfile="MRViewer/MRUITestEngine.h" bodystart="116" bodyend="122"/>
+    <location file="MRViewer/MRUITestEngine.h" line="118" column="1" bodyfile="MRViewer/MRUITestEngine.h" bodystart="119" bodyend="125"/>
     <listofallmembers>
       <member refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1a01e40f408ea42f2efe24a09b5ee6de3d" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::TreeGuard</scope><name>operator=</name></member>
       <member refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1a70b58f0002afc39252409f83bd9b0b9b" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::TreeGuard</scope><name>TreeGuard</name></member>

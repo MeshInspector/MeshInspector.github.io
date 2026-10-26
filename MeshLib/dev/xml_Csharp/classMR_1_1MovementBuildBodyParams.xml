@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="208" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="208" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="221" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="221" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MovementBuildBodyParams_1a608b8b34c96f9a1e54029127b3653e1e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Optional_MRVector3f</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="214" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="214" bodyend="214"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="227" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="227" bodyend="227"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MovementBuildBodyParams_1a7f934cd194c3c5a9a730771a0c901eb1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Optional_MRVector3f</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="220" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="220" bodyend="220"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="233" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="233" bodyend="233"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MovementBuildBodyParams_1aa2dcaeb81645f7b34d1399f5c5fdb2cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Optional_MRVector3f</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="226" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="226" bodyend="226"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="239" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="239" bodyend="239"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MovementBuildBodyParams_1a06fdb6b2bc4c85c04aa0e4fe05a1c72d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Const_Vector_StdVectorMRVector3f</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="232" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="233" bodyend="242"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="245" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="246" bodyend="255"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MovementBuildBodyParams_1a843ac77e475ec454e15fb4b52a694aa7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="247" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="248" bodyend="257"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="260" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="261" bodyend="270"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MovementBuildBodyParams_1a936b9e04b1ff02a72dc6acfbb86457df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="262" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="262" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="275" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="275" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="295" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="295" bodyend="299"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="302" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="302" bodyend="306"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -148,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="305" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="305" bodyend="311"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="312" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="312" bodyend="316"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MovementBuildBodyParams_1a47e1e96af8bb8ded03153262257c14c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -191,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="316" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="316" bodyend="324"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="321" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="321" bodyend="327"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MovementBuildBodyParams_1a763fdbe847d9fa5df25d333b8f3aa24d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -210,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="329" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="329" bodyend="336"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="332" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="332" bodyend="337"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MovementBuildBodyParams_1ae8d16d98ba253aa6e42aa9e9be45f251" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -229,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="341" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="341" bodyend="341"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="342" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="342" bodyend="342"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MovementBuildBodyParams_1a3c355553f1b8e49fdf937d5db2b5dd88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MovementBuildBodyParams" kindref="compound">MR.MovementBuildBodyParams</ref></type>
@@ -248,7 +248,159 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="346" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="346" bodyend="353"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="347" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="347" bodyend="352"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1MovementBuildBodyParams_1af53a05e471e81bc3b407e72dd862de8b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MovementBuildBodyParams._Underlying *</type>
+        <definition>static unsafe MR.MovementBuildBodyParams._Underlying * MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.MovementBuildBodyParams._Underlying *_other)</argsstring>
+        <name>__MR_MovementBuildBodyParams_AssignFromAnother</name>
+        <qualifiedname>MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.MovementBuildBodyParams._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="357" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MovementBuildBodyParams_1a597f35fe6fa465d458979b2ccd6631b6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MovementBuildBodyParams._Underlying *</type>
+        <definition>static unsafe MR.MovementBuildBodyParams._Underlying * MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_ConstructFrom</definition>
+        <argsstring>(byte allowRotation, MR.Vector3f *center, MR.Vector3f *bodyNormal, MR.Vector3f *bodyUpDir, MR.Std.Const_Vector_StdVectorMRVector3f._Underlying *trajectoryNormals, MR.AffineXf3f *b2tXf, byte startMeshFromBody)</argsstring>
+        <name>__MR_MovementBuildBodyParams_ConstructFrom</name>
+        <qualifiedname>MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_ConstructFrom</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>allowRotation</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+          <declname>bodyNormal</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+          <declname>bodyUpDir</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMRVector3f._Underlying *</type>
+          <declname>trajectoryNormals</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
+          <declname>b2tXf</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>startMeshFromBody</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="360" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MovementBuildBodyParams_1ae86e0101c3218450cdd90ee0b8582ac1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MovementBuildBodyParams._Underlying *</type>
+        <definition>static unsafe MR.MovementBuildBodyParams._Underlying * MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_ConstructFromAnother</definition>
+        <argsstring>(MR.MovementBuildBodyParams._Underlying *_other)</argsstring>
+        <name>__MR_MovementBuildBodyParams_ConstructFromAnother</name>
+        <qualifiedname>MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.MovementBuildBodyParams._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="363" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MovementBuildBodyParams_1aa124899940eb65936f1da987629b0460" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.MovementBuildBodyParams._Underlying *</type>
+        <definition>static unsafe MR.MovementBuildBodyParams._Underlying * MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_MovementBuildBodyParams_DefaultConstruct</name>
+        <qualifiedname>MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="366" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MovementBuildBodyParams_1ab779997105492b1070d651e46f0baac0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVector3f._Underlying *</type>
+        <definition>static unsafe MR.Std.Optional_MRVector3f._Underlying * MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_GetMutable_bodyNormal</definition>
+        <argsstring>(MR.MovementBuildBodyParams._Underlying *_this)</argsstring>
+        <name>__MR_MovementBuildBodyParams_GetMutable_bodyNormal</name>
+        <qualifiedname>MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_GetMutable_bodyNormal</qualifiedname>
+        <param>
+          <type>MR.MovementBuildBodyParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="369" column="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MovementBuildBodyParams_1a4b41a6cd2f5bf4a3e5c8d411ae6a99e2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVector3f._Underlying *</type>
+        <definition>static unsafe MR.Std.Optional_MRVector3f._Underlying * MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_GetMutable_bodyUpDir</definition>
+        <argsstring>(MR.MovementBuildBodyParams._Underlying *_this)</argsstring>
+        <name>__MR_MovementBuildBodyParams_GetMutable_bodyUpDir</name>
+        <qualifiedname>MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_GetMutable_bodyUpDir</qualifiedname>
+        <param>
+          <type>MR.MovementBuildBodyParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="372" column="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MovementBuildBodyParams_1a71ac9b33cadc930b3f130606e9fb0bbd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVector3f._Underlying *</type>
+        <definition>static unsafe MR.Std.Optional_MRVector3f._Underlying * MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_GetMutable_center</definition>
+        <argsstring>(MR.MovementBuildBodyParams._Underlying *_this)</argsstring>
+        <name>__MR_MovementBuildBodyParams_GetMutable_center</name>
+        <qualifiedname>MR.MovementBuildBodyParams.__MR_MovementBuildBodyParams_GetMutable_center</qualifiedname>
+        <param>
+          <type>MR.MovementBuildBodyParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="375" column="66"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -308,8 +460,15 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="201" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="202" bodyend="354"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="214" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="215" bodyend="376"/>
     <listofallmembers>
+      <member refid="classMR_1_1MovementBuildBodyParams_1af53a05e471e81bc3b407e72dd862de8b" prot="private" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__MR_MovementBuildBodyParams_AssignFromAnother</name></member>
+      <member refid="classMR_1_1MovementBuildBodyParams_1a597f35fe6fa465d458979b2ccd6631b6" prot="private" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__MR_MovementBuildBodyParams_ConstructFrom</name></member>
+      <member refid="classMR_1_1MovementBuildBodyParams_1ae86e0101c3218450cdd90ee0b8582ac1" prot="private" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__MR_MovementBuildBodyParams_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1MovementBuildBodyParams_1aa124899940eb65936f1da987629b0460" prot="private" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__MR_MovementBuildBodyParams_DefaultConstruct</name></member>
+      <member refid="classMR_1_1MovementBuildBodyParams_1ab779997105492b1070d651e46f0baac0" prot="private" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__MR_MovementBuildBodyParams_GetMutable_bodyNormal</name></member>
+      <member refid="classMR_1_1MovementBuildBodyParams_1a4b41a6cd2f5bf4a3e5c8d411ae6a99e2" prot="private" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__MR_MovementBuildBodyParams_GetMutable_bodyUpDir</name></member>
+      <member refid="classMR_1_1MovementBuildBodyParams_1a71ac9b33cadc930b3f130606e9fb0bbd" prot="private" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__MR_MovementBuildBodyParams_GetMutable_center</name></member>
       <member refid="classMR_1_1Const__MovementBuildBodyParams_1ad8087132f36c943e3a5332c988f877c5" prot="protected" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__ptr_storage_b2tXf</name></member>
       <member refid="classMR_1_1Const__MovementBuildBodyParams_1a74f55aea22152dff73b85e94797d2653" prot="protected" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__ptr_storage_trajectoryNormals</name></member>
       <member refid="classMR_1_1Const__MovementBuildBodyParams_1afafbdd6f74e9201d89ead650277fc303" prot="protected" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__ref_storage_allowRotation</name></member>

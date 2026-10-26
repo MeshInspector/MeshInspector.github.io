@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -147,12 +140,15 @@ $(function(){initNavTree('MRICP_8h.html','',''); });
 <div class="textblock"><code>#include &quot;MRPch/MRBindingMacros.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRICPEnums_8h_source.html">MRICPEnums.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshOrPoints_8h_source.html">MRMeshOrPoints.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRPointCloud_8h_source.html">MRPointCloud.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMatrix3_8h_source.html">MRMatrix3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRConstants_8h_source.html">MRConstants.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRAffineXf_8h_source.html">MRAffineXf.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRBitSet_8h_source.html">MRBitSet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshTriPoint_8h_source.html">MRMeshTriPoint.h</a>&quot;</code><br />
 <code>#include &lt;cfloat&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
 </div>
 <p><a href="MRICP_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -193,7 +189,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9381989fd9c2bfbded47dacbf86d0aee" id="r_ga9381989fd9c2bfbded47dacbf86d0aee"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9381989fd9c2bfbded47dacbf86d0aee">MR::deactivateFarPairs</a> (<a class="el" href="structMR_1_1IPointPairs.html">IPointPairs</a> &amp;pairs, float maxDistSq)</td></tr>
 <tr class="memdesc:ga9381989fd9c2bfbded47dacbf86d0aee"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset active bit if pair distance is further than maxDistSq  <br /></td></tr>
 <tr class="memitem:ga1301b1c633de237705ebc76fcbd215df" id="r_ga1301b1c633de237705ebc76fcbd215df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1301b1c633de237705ebc76fcbd215df">MR::updatePointPairs</a> (<a class="el" href="structMR_1_1PointPairs.html">PointPairs</a> &amp;pairs, const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;src, const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;tgt, float cosThreshold, float distThresholdSq, bool mutualClosest, bool ignoreBdTgts)</td></tr>
-<tr class="memdesc:ga1301b1c633de237705ebc76fcbd215df"><td class="mdescLeft">&#160;</td><td class="mdescRight">in each pair updates the target data and performs basic filtering (activation)  <br /></td></tr>
+<tr class="memdesc:ga1301b1c633de237705ebc76fcbd215df"><td class="mdescLeft">&#160;</td><td class="mdescRight">in each pair updates the target data and performs basic filtering (activation); pair weights are not changed  <br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

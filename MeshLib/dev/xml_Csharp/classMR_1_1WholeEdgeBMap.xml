@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10070" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10070" bodyend="10070"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10638" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10638" bodyend="10638"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1WholeEdgeBMap_1af2119a4b9ecb987a597eac9f1999511c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref nuint</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10075" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10075" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10643" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10643" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10094" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10094" bodyend="10098"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10660" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10660" bodyend="10664"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10104" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10104" bodyend="10110"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10670" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10670" bodyend="10674"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1add498b7c7aaf5bd24d5b1540864ee9a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10115" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10115" bodyend="10122"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10679" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10679" bodyend="10684"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1ac7b40e377457e885b54a4713e4f96b5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10127" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10127" bodyend="10134"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10689" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10689" bodyend="10694"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1a40d1133633ef416d051f0752e23cdee2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1WholeEdgeBMap" kindref="compound">MR.WholeEdgeBMap</ref></type>
@@ -133,7 +133,115 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10139" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10139" bodyend="10146"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10699" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10699" bodyend="10704"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1ad98f8de05aef069cc768b9b21f591c80" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.WholeEdgeBMap._Underlying *</type>
+        <definition>static unsafe MR.WholeEdgeBMap._Underlying * MR.WholeEdgeBMap.__MR_WholeEdgeBMap_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.WholeEdgeBMap._Underlying *_other)</argsstring>
+        <name>__MR_WholeEdgeBMap_AssignFromAnother</name>
+        <qualifiedname>MR.WholeEdgeBMap.__MR_WholeEdgeBMap_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.WholeEdgeBMap._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10709" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1a35f85e268a07962df5cc578cd9246b68" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.WholeEdgeBMap._Underlying *</type>
+        <definition>static unsafe MR.WholeEdgeBMap._Underlying * MR.WholeEdgeBMap.__MR_WholeEdgeBMap_ConstructFrom</definition>
+        <argsstring>(MR.Misc._PassBy b_pass_by, MR.Buffer_MREdgeId_MRUndirectedEdgeId._Underlying *b, nuint tsize)</argsstring>
+        <name>__MR_WholeEdgeBMap_ConstructFrom</name>
+        <qualifiedname>MR.WholeEdgeBMap.__MR_WholeEdgeBMap_ConstructFrom</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>b_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Buffer_MREdgeId_MRUndirectedEdgeId._Underlying *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>tsize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10712" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1ad20c5eb7f038bd4eb233cc38d3be418f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.WholeEdgeBMap._Underlying *</type>
+        <definition>static unsafe MR.WholeEdgeBMap._Underlying * MR.WholeEdgeBMap.__MR_WholeEdgeBMap_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.WholeEdgeBMap._Underlying *_other)</argsstring>
+        <name>__MR_WholeEdgeBMap_ConstructFromAnother</name>
+        <qualifiedname>MR.WholeEdgeBMap.__MR_WholeEdgeBMap_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.WholeEdgeBMap._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10715" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1a339c4ecccaef6728a04decc62fd6b5ff" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.WholeEdgeBMap._Underlying *</type>
+        <definition>static unsafe MR.WholeEdgeBMap._Underlying * MR.WholeEdgeBMap.__MR_WholeEdgeBMap_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_WholeEdgeBMap_DefaultConstruct</name>
+        <qualifiedname>MR.WholeEdgeBMap.__MR_WholeEdgeBMap_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10718" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WholeEdgeBMap_1a90f72fe838864e01ce10930d40a40518" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Buffer_MREdgeId_MRUndirectedEdgeId._Underlying *</type>
+        <definition>static unsafe MR.Buffer_MREdgeId_MRUndirectedEdgeId._Underlying * MR.WholeEdgeBMap.__MR_WholeEdgeBMap_GetMutable_b</definition>
+        <argsstring>(MR.WholeEdgeBMap._Underlying *_this)</argsstring>
+        <name>__MR_WholeEdgeBMap_GetMutable_b</name>
+        <qualifiedname>MR.WholeEdgeBMap.__MR_WholeEdgeBMap_GetMutable_b</qualifiedname>
+        <param>
+          <type>MR.WholeEdgeBMap._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10721" column="78"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -185,8 +293,13 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10068" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10069" bodyend="10147"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="10636" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="10637" bodyend="10722"/>
     <listofallmembers>
+      <member refid="classMR_1_1WholeEdgeBMap_1ad98f8de05aef069cc768b9b21f591c80" prot="private" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>__MR_WholeEdgeBMap_AssignFromAnother</name></member>
+      <member refid="classMR_1_1WholeEdgeBMap_1a35f85e268a07962df5cc578cd9246b68" prot="private" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>__MR_WholeEdgeBMap_ConstructFrom</name></member>
+      <member refid="classMR_1_1WholeEdgeBMap_1ad20c5eb7f038bd4eb233cc38d3be418f" prot="private" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>__MR_WholeEdgeBMap_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1WholeEdgeBMap_1a339c4ecccaef6728a04decc62fd6b5ff" prot="private" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>__MR_WholeEdgeBMap_DefaultConstruct</name></member>
+      <member refid="classMR_1_1WholeEdgeBMap_1a90f72fe838864e01ce10930d40a40518" prot="private" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>__MR_WholeEdgeBMap_GetMutable_b</name></member>
       <member refid="classMR_1_1Const__WholeEdgeBMap_1a32821407029ff2cf0d2273620c7ee8d7" prot="protected" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1WholeEdgeBMap_1a40d1133633ef416d051f0752e23cdee2" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>assign</name></member>
       <member refid="classMR_1_1WholeEdgeBMap_1a93be25662818a8487f08b6062ba71dec" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>b</name></member>

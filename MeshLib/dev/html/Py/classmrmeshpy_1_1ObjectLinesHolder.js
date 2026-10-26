@@ -18,6 +18,7 @@ var classmrmeshpy_1_1ObjectLinesHolder =
     [ "numComponents", "classmrmeshpy_1_1ObjectLinesHolder.html#a2b1a6a7bd1e518c46da8429a841f873b", null ],
     [ "numUndirectedEdges", "classmrmeshpy_1_1ObjectLinesHolder.html#a9c8bef0028808244b470495c2c937844", null ],
     [ "polyline", "classmrmeshpy_1_1ObjectLinesHolder.html#a6ae665bceaf15ddd1db70c553f88ef8f", null ],
+    [ "polylinePtr", "classmrmeshpy_1_1ObjectLinesHolder.html#a860b19441c30b514df3b1ca71f4315f5", null ],
     [ "resetFrontColor", "classmrmeshpy_1_1ObjectLinesHolder.html#a2b6ccbafe3df2faed6e745abad21486f", null ],
     [ "setDashPattern", "classmrmeshpy_1_1ObjectLinesHolder.html#abb5283114195f89d27d3aa6df20b216a", null ],
     [ "setDirtyFlags", "classmrmeshpy_1_1ObjectLinesHolder.html#ae2cf69c6b8bbc437fac219147a738433", null ],
@@ -30,5 +31,6 @@ var classmrmeshpy_1_1ObjectLinesHolder =
     [ "totalLength", "classmrmeshpy_1_1ObjectLinesHolder.html#a9e0cd657b957e0b8c333177c01ab1f04", null ],
     [ "typeName", "classmrmeshpy_1_1ObjectLinesHolder.html#a3d74f153344e45ee25a3ab78a883ba4a", null ],
     [ "updateLinesColorMap", "classmrmeshpy_1_1ObjectLinesHolder.html#a0882af5e3f185e6fe9863b2b29e59559", null ],
-    [ "updateVertsColorMap", "classmrmeshpy_1_1ObjectLinesHolder.html#af3e21cbc79b8e070d567c38eb8e25445", null ]
+    [ "updateVertsColorMap", "classmrmeshpy_1_1ObjectLinesHolder.html#af3e21cbc79b8e070d567c38eb8e25445", null ],
+    [ "varPolylinePtr", "classmrmeshpy_1_1ObjectLinesHolder.html#a9c06bd2d83101f77e66340060362f856", null ]
 ];

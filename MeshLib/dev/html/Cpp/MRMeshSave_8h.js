@@ -1,8 +1,8 @@
 var MRMeshSave_8h =
 [
+    [ "MR::MeshSave::MR_BIND_OVERLOAD_SUFFIX", "group__MeshSaveGroup.html#gaa05bdb5fed13993e770d0f517a729412", null ],
+    [ "MR::MeshSave::MR_BIND_OVERLOAD_SUFFIX", "group__MeshSaveGroup.html#gac21be5be1e9ae00a0510430749be9f51", null ],
     [ "MR::MeshSave::to3mf", "group__MeshSaveGroup.html#ga8c9353b4703d4a74cbc6abf109e2f329", null ],
-    [ "MR::MeshSave::toAnySupportedFormat", "group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f", null ],
-    [ "MR::MeshSave::toAnySupportedFormat", "group__MeshSaveGroup.html#gae312c46875e32db543db5c77bdc1d1df", null ],
     [ "MR::MeshSave::toAsciiStl", "group__MeshSaveGroup.html#ga1968a9ae2414592ce8ddd9065a03cb5b", null ],
     [ "MR::MeshSave::toAsciiStl", "group__MeshSaveGroup.html#ga47d9eeebccc75c931f9cff81eb676f19", null ],
     [ "MR::MeshSave::toBinaryStl", "group__MeshSaveGroup.html#ga4f968ed54c31feadebfa02f4171cfa95", null ],
@@ -20,5 +20,9 @@ var MRMeshSave_8h =
     [ "MR::MeshSave::toPly", "group__MeshSaveGroup.html#ga1a0796b03ec2e8205ec985cb2214c362", null ],
     [ "MR::MeshSave::toPly", "group__MeshSaveGroup.html#ga620714cb8a5706d3ec0694c34dfa83db", null ],
     [ "MR::MeshSave::toPly", "group__MeshSaveGroup.html#gafb3a238566d2c17b0acc943a8ef9e9d9", null ],
-    [ "MR::MeshSave::toPly", "group__MeshSaveGroup.html#gac794ff859fe28368105b6b9a4164cedf", null ]
+    [ "MR::MeshSave::toPly", "group__MeshSaveGroup.html#gac794ff859fe28368105b6b9a4164cedf", null ],
+    [ "MR::MeshSave::extension", "group__MeshSaveGroup.html#ga60011c108fbbc4bb220fea7dbfc53a36", null ],
+    [ "MR::MeshSave::file", "group__MeshSaveGroup.html#ga98aef4649d53f623906c635ff1aaf18e", null ],
+    [ "MR::MeshSave::out", "group__MeshSaveGroup.html#ga16eb575515438064d98e1410a7574895", null ],
+    [ "MR::MeshSave::settings", "group__MeshSaveGroup.html#ga88dc6322aa89f4d0a7eaf376cbde3ad6", null ]
 ];

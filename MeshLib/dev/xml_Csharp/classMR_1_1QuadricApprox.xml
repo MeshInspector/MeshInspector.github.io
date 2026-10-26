@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="64" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="64" bodyend="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="69" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="69" bodyend="69"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="69" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="69" bodyend="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="74" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="74" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1QuadricApprox_1ad9b367c9f3aaa37769662ba33e2d479b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="79" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="79" bodyend="85"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="82" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="82" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1QuadricApprox_1a6e228b814d0429216ed181687efc6248" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="90" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="90" bodyend="90"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="91" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="91" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1QuadricApprox_1a095d2498909f239356e4925615de965c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1QuadricApprox" kindref="compound">MR.QuadricApprox</ref></type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="95" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="95" bodyend="102"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="96" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="96" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1QuadricApprox_1a0069aeb6381b69537a768f43eddf44a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -122,7 +122,89 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="109" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="109" bodyend="118"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="108" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="108" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1QuadricApprox_1a7901660de7bfeb132b0844901cf5c34a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.QuadricApprox._Underlying *</type>
+        <definition>static unsafe MR.QuadricApprox._Underlying * MR.QuadricApprox.__MR_QuadricApprox_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.QuadricApprox._Underlying *_other)</argsstring>
+        <name>__MR_QuadricApprox_AssignFromAnother</name>
+        <qualifiedname>MR.QuadricApprox.__MR_QuadricApprox_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.QuadricApprox._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="120" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadricApprox_1a697dcc8d48b95b1646e13511d2bee461" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.QuadricApprox._Underlying *</type>
+        <definition>static unsafe MR.QuadricApprox._Underlying * MR.QuadricApprox.__MR_QuadricApprox_ConstructFromAnother</definition>
+        <argsstring>(MR.QuadricApprox._Underlying *_other)</argsstring>
+        <name>__MR_QuadricApprox_ConstructFromAnother</name>
+        <qualifiedname>MR.QuadricApprox.__MR_QuadricApprox_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.QuadricApprox._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="123" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadricApprox_1a91dd9012e4481b795b33dc7d70d32a2f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.QuadricApprox._Underlying *</type>
+        <definition>static unsafe MR.QuadricApprox._Underlying * MR.QuadricApprox.__MR_QuadricApprox_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_QuadricApprox_DefaultConstruct</name>
+        <qualifiedname>MR.QuadricApprox.__MR_QuadricApprox_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="126" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1QuadricApprox_1a28571f042363292b9b8017e0b3bc7cc4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.QuadricApprox.__MR_QuadricApprox_addPoint</definition>
+        <argsstring>(_Underlying *_this, MR.Vector3d *point, double *weight)</argsstring>
+        <name>__MR_QuadricApprox_addPoint</name>
+        <qualifiedname>MR.QuadricApprox.__MR_QuadricApprox_addPoint</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref> *</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="129" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -175,8 +257,12 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="62" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="63" bodyend="119"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" line="67" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitQuadric.cs" bodystart="68" bodyend="130"/>
     <listofallmembers>
+      <member refid="classMR_1_1QuadricApprox_1a28571f042363292b9b8017e0b3bc7cc4" prot="private" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>__MR_QuadricApprox_addPoint</name></member>
+      <member refid="classMR_1_1QuadricApprox_1a7901660de7bfeb132b0844901cf5c34a" prot="private" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>__MR_QuadricApprox_AssignFromAnother</name></member>
+      <member refid="classMR_1_1QuadricApprox_1a697dcc8d48b95b1646e13511d2bee461" prot="private" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>__MR_QuadricApprox_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1QuadricApprox_1a91dd9012e4481b795b33dc7d70d32a2f" prot="private" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>__MR_QuadricApprox_DefaultConstruct</name></member>
       <member refid="classMR_1_1QuadricApprox_1a0069aeb6381b69537a768f43eddf44a0" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>addPoint</name></member>
       <member refid="classMR_1_1QuadricApprox_1a095d2498909f239356e4925615de965c" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__QuadricApprox_1af1c64fbfcf174a9c748d3ac86b59c08d" prot="package" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>Const_QuadricApprox</name></member>

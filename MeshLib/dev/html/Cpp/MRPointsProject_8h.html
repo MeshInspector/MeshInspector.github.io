@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -156,7 +149,7 @@ $(function(){initNavTree('MRPointsProject_8h.html','',''); });
 Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3APointsProjectionResult" id="r_MR_3A_3APointsProjectionResult"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsProjectionResult.html">MR::PointsProjectionResult</a></td></tr>
 <tr class="memitem:MR_3A_3AFindProjectionOnPointsSettings" id="r_MR_3A_3AFindProjectionOnPointsSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1FindProjectionOnPointsSettings.html">MR::FindProjectionOnPointsSettings</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">settings for <a class="el" href="classMR_1_1IPointsProjector.html#a73d0b887b876f110e3fb6554422f9a31">IPointsProjector::findProjections</a>  <a href="structMR_1_1FindProjectionOnPointsSettings.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">settings for <a class="el" href="classMR_1_1IPointsProjector.html#ab55d9f3ad796f98b2fb49a11850282b2">IPointsProjector::findProjections</a>  <a href="structMR_1_1FindProjectionOnPointsSettings.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AIPointsProjector" id="r_MR_3A_3AIPointsProjector"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IPointsProjector.html">MR::IPointsProjector</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">abstract class for computing the closest points of point clouds  <a href="classMR_1_1IPointsProjector.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3APointsProjector" id="r_MR_3A_3APointsProjector"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1PointsProjector.html">MR::PointsProjector</a></td></tr>
@@ -169,9 +162,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab4c475c489f1543782e15d9b4bbe14cf" id="r_gab4c475c489f1543782e15d9b4bbe14cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gab4c475c489f1543782e15d9b4bbe14cf">MR::findProjectionOnPoints</a> (const Vector3f &amp;pt, const <a class="el" href="structMR_1_1PointCloudPart.html">PointCloudPart</a> &amp;pcp, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, VertPredicate skipCb={})</td></tr>
+<tr class="memitem:gab4c475c489f1543782e15d9b4bbe14cf" id="r_gab4c475c489f1543782e15d9b4bbe14cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gab4c475c489f1543782e15d9b4bbe14cf">MR::findProjectionOnPoints</a> (const Vector3f &amp;pt, const <a class="el" href="structMR_1_1PointCloudPart.html">PointCloudPart</a> &amp;pcp, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, <a class="el" href="group__GeneralGroup.html#gaaa96bd15a3232e297bf7582b5fb5db6e">VertPredicate</a> skipCb={})</td></tr>
 <tr class="memdesc:gab4c475c489f1543782e15d9b4bbe14cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on point cloud to given point  <br /></td></tr>
-<tr class="memitem:ga41532fd138cf2bb72805d8af6a1522b4" id="r_ga41532fd138cf2bb72805d8af6a1522b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga41532fd138cf2bb72805d8af6a1522b4">MR::findProjectionOnPoints</a> (const Vector3f &amp;pt, const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const VertBitSet *region=nullptr, VertPredicate skipCb={})</td></tr>
+<tr class="memitem:ga41532fd138cf2bb72805d8af6a1522b4" id="r_ga41532fd138cf2bb72805d8af6a1522b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga41532fd138cf2bb72805d8af6a1522b4">MR::findProjectionOnPoints</a> (const Vector3f &amp;pt, const <a class="el" href="classMR_1_1AABBTreePoints.html">AABBTreePoints</a> &amp;tree, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0, const VertBitSet *region=nullptr, <a class="el" href="group__GeneralGroup.html#gaaa96bd15a3232e297bf7582b5fb5db6e">VertPredicate</a> skipCb={})</td></tr>
 <tr class="memdesc:ga41532fd138cf2bb72805d8af6a1522b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest point on <a class="el" href="classMR_1_1AABBTreePoints.html" title="bounding volume hierarchy for point cloud structure">AABBTreePoints</a> to given point  <br /></td></tr>
 <tr class="memitem:ga435f633cd74c790a6f22a06436182137" id="r_ga435f633cd74c790a6f22a06436182137"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga435f633cd74c790a6f22a06436182137">MR::findFewClosestPoints</a> (const Vector3f &amp;pt, const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc, <a class="el" href="classMR_1_1FewSmallest.html">FewSmallest</a>&lt; <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a> &gt; &amp;res, float upDistLimitSq=FLT_MAX, const AffineXf3f *xf=nullptr, float loDistLimitSq=0)</td></tr>
 <tr class="memdesc:ga435f633cd74c790a6f22a06436182137"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds a number of the closest points in the cloud (as configured in  <br /></td></tr>

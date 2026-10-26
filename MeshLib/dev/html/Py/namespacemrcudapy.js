@@ -1,16 +1,17 @@
 var namespacemrcudapy =
 [
+    [ "ComputePointsToDistanceVolume", "classmrcudapy_1_1ComputePointsToDistanceVolume.html", "classmrcudapy_1_1ComputePointsToDistanceVolume" ],
     [ "ComputeToolDistance", "classmrcudapy_1_1ComputeToolDistance.html", "classmrcudapy_1_1ComputeToolDistance" ],
     [ "DeviceInfo", "classmrcudapy_1_1DeviceInfo.html", "classmrcudapy_1_1DeviceInfo" ],
     [ "FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", "classmrcudapy_1_1FastWindingNumber" ],
     [ "PointsProjector", "classmrcudapy_1_1PointsProjector.html", "classmrcudapy_1_1PointsProjector" ],
     [ "PointsToMeshProjector", "classmrcudapy_1_1PointsToMeshProjector.html", "classmrcudapy_1_1PointsToMeshProjector" ],
-    [ "computeDistanceMap", "namespacemrcudapy.html#afb6959a79e7044add2174d0f636bbce7", null ],
+    [ "computeDistanceMap", "namespacemrcudapy.html#ad9b757431dfe7fcfd2f006d8fd40c53d", null ],
     [ "computeDistanceMapHeapBytes", "namespacemrcudapy.html#af293abec06c54894a7f9650efd31e859", null ],
     [ "computeSkyViewFactor", "namespacemrcudapy.html#acd91e89fc658222b8fe9768b542f21bd", null ],
     [ "distanceMapFromContours", "namespacemrcudapy.html#a9279d8b3b9636326c4f24d472afdff1d", null ],
     [ "distanceMapFromContoursHeapBytes", "namespacemrcudapy.html#aa2b49002b37ad8f472a8719e6159e44b", null ],
-    [ "findProjectionOnPoints", "namespacemrcudapy.html#a59989212e13f232a4b791e381d5a15a0", null ],
+    [ "findProjectionOnPoints", "namespacemrcudapy.html#a1dd2cfcfb74f39e467f7b955667311b9", null ],
     [ "findProjectionOnPointsHeapBytes", "namespacemrcudapy.html#a09d73a60abca6c21fb5ef173a46f3158", null ],
     [ "findSkyRays", "namespacemrcudapy.html#a331da1fe9e3cbd4669da50a822548ca3", null ],
     [ "getCudaAvailableMemory", "namespacemrcudapy.html#aa0b99ba36260a5a8fb0925f8dc79d28a", null ],
@@ -23,5 +24,6 @@ var namespacemrcudapy =
     [ "maxBufferSizeAlignedByBlock", "namespacemrcudapy.html#aab9adabccec4346ca61b1e628d692a35", null ],
     [ "negatePicture", "namespacemrcudapy.html#ac3163db5e369a9de3b776b9110700924", null ],
     [ "pointsToDistanceVolume", "namespacemrcudapy.html#abacc3f1ddc84e70bb38d8d75c6595bd3", null ],
-    [ "pointsToDistanceVolumeByParts", "namespacemrcudapy.html#aa34056830ad5daa6e50f8ccd1078e141", null ]
+    [ "pointsToDistanceVolumeByParts", "namespacemrcudapy.html#aa34056830ad5daa6e50f8ccd1078e141", null ],
+    [ "pointsToDistanceVolumeMemory", "namespacemrcudapy.html#af3c8f708b1714739db24e6c11d9c4db3", null ]
 ];

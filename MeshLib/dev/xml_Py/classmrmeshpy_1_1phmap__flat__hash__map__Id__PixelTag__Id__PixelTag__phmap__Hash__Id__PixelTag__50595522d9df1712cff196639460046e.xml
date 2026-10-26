@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a5ee114da011504c5ce29a589825e613f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the map is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79645" bodyend="79648"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a72c24e55dc748b4575b6562f3ba5daf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__contains__</definition>
+        <argsstring>(self, PixelId arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79650" bodyend="79651"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1aa37e84837f1cb72ccf7f4883a695223f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__contains__</definition>
+        <argsstring>(self, typing.Any arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79653" bodyend="79654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a94a54cf6ec4ba5274b96966228a99f62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__delitem__</definition>
+        <argsstring>(self, PixelId arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79655" bodyend="79656"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a2a3f45f24696b8cb010d3c51ce4a33b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__getitem__</definition>
+        <argsstring>(self, PixelId arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79657" bodyend="79658"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a40f3daf205f3c434868d15cd88c26328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79660" bodyend="79661"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a1ef24cc7874cfbe7ac62d88052effe7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__init__</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e" kindref="compound">phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79663" bodyend="79664"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1ad0d2484ea4ddaa453002eafd67cf35bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref>]</type>
+        <definition> typing.Iterator[PixelId] mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79665" bodyend="79666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1acccfb65bebc1bcf302dcc29afe10ee21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79667" bodyend="79668"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1aa550f836ef06c6cc3cb4d2c161242c84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79669" bodyend="79672"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a696f7e20dc4563d36f794b105abc22c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__setitem__</definition>
+        <argsstring>(self, PixelId arg0, PixelId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79673" bodyend="79674"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a8fa05a969d36890a8a658eca77913742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ItemsView</type>
+        <definition> typing.ItemsView mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.items</definition>
+        <argsstring>(self)</argsstring>
+        <name>items</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.items</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79675" bodyend="79676"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1ae3b636e3906caf298d84b4113dfe4f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.KeysView</type>
+        <definition> typing.KeysView mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.keys</definition>
+        <argsstring>(self)</argsstring>
+        <name>keys</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.keys</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79677" bodyend="79678"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a4e7c871e25a178af3bbb9c5e22578625" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79679" bodyend="79680"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a883fe55c495051a36cb843acff2f534d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ValuesView</type>
+        <definition> typing.ValuesView mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.values</definition>
+        <argsstring>(self)</argsstring>
+        <name>values</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag.values</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79681" bodyend="79682"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  phmap_flat_hash_map_PixelId_PixelId_phmap_Hash_PixelId_phmap_EqualTo_PixelId_Allocator_std_pair_const_PixelId_PixelId
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79641" bodyend="79682"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a5ee114da011504c5ce29a589825e613f" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a72c24e55dc748b4575b6562f3ba5daf6" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1aa37e84837f1cb72ccf7f4883a695223f" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a94a54cf6ec4ba5274b96966228a99f62" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a2a3f45f24696b8cb010d3c51ce4a33b4" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a40f3daf205f3c434868d15cd88c26328" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a1ef24cc7874cfbe7ac62d88052effe7a" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1ad0d2484ea4ddaa453002eafd67cf35bb" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1acccfb65bebc1bcf302dcc29afe10ee21" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1aa550f836ef06c6cc3cb4d2c161242c84" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a696f7e20dc4563d36f794b105abc22c0" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a8fa05a969d36890a8a658eca77913742" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>items</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1ae3b636e3906caf298d84b4113dfe4f8e" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>keys</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a4e7c871e25a178af3bbb9c5e22578625" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag__phmap__Hash__Id__PixelTag__50595522d9df1712cff196639460046e_1a883fe55c495051a36cb843acff2f534d" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_PixelTag_Id_PixelTag_phmap_Hash_Id_PixelTag_phmap_EqualTo_Id_PixelTag_Allocator_std_pair_Id_PixelTag_const_Id_PixelTag</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

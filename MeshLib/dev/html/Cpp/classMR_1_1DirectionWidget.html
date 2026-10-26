@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -179,7 +172,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:gaab144ff315072ef79d65eda712f51df3" id="r_gaab144ff315072ef79d65eda712f51df3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaab144ff315072ef79d65eda712f51df3">create</a> (<a class="el" href="classMR_1_1Object.html">Object</a> *parent=nullptr)</td></tr>
 <tr class="memitem:ga46f8abef728a72a0acbe1d8b04cfa1b0" id="r_ga46f8abef728a72a0acbe1d8b04cfa1b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga46f8abef728a72a0acbe1d8b04cfa1b0">create</a> (const Vector3f &amp;worldDir, const Vector3f &amp;worldBase, float worldLength, <a class="el" href="group__GeneralGroup.html#gaa01b946f8079c3f2095a1fb5b019e275">OnDirectionChangedCallback</a> onDirectionChanged, <a class="el" href="classMR_1_1Object.html">Object</a> *parent=nullptr)</td></tr>
 <tr class="memitem:ga7d9c7eab674b64dddd6446ef4bbca1ee" id="r_ga7d9c7eab674b64dddd6446ef4bbca1ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7d9c7eab674b64dddd6446ef4bbca1ee">reset</a> ()</td></tr>
-<tr class="memitem:ga4d394a5614773dae86ce12fe2d895b91" id="r_ga4d394a5614773dae86ce12fe2d895b91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4d394a5614773dae86ce12fe2d895b91">setOnDirectionChangedCallback</a> (<a class="el" href="group__GeneralGroup.html#gaa01b946f8079c3f2095a1fb5b019e275">OnDirectionChangedCallback</a> cb)</td></tr>
+<tr class="memitem:ga4d394a5614773dae86ce12fe2d895b91" id="r_ga4d394a5614773dae86ce12fe2d895b91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4d394a5614773dae86ce12fe2d895b91">setOnDirectionChangedCallback</a> (<a class="el" href="group__GeneralGroup.html#gaa01b946f8079c3f2095a1fb5b019e275">OnDirectionChangedCallback</a> <a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>)</td></tr>
 <tr class="memdesc:ga4d394a5614773dae86ce12fe2d895b91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manually set callback function.  <br /></td></tr>
 <tr class="memitem:gadf14f62a484a3d6716393e1b73095027" id="r_gadf14f62a484a3d6716393e1b73095027"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gadf14f62a484a3d6716393e1b73095027">updateArrow</a> (const <a class="el" href="structMR_1_1DirectionWidget_1_1Arrow.html">Arrow</a> &amp;arrow)</td></tr>
 <tr class="memdesc:gadf14f62a484a3d6716393e1b73095027"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the arrow, in world space.  <br /></td></tr>

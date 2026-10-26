@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -170,6 +163,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ga36b0016bc6e04bb6c94996e9c8adbea2" id="r_ga36b0016bc6e04bb6c94996e9c8adbea2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga36b0016bc6e04bb6c94996e9c8adbea2">ChangePointCloudAction</a> (std::string <a class="el" href="group__GeneralGroup.html#ga3d96f0fc00a2d6d30b4807712b3793b6">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;obj)</td></tr>
 <tr class="memdesc:ga36b0016bc6e04bb6c94996e9c8adbea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's point cloud before making any changes in it  <br /></td></tr>
+<tr class="memitem:gaac9eef254f634608d267561dcaffe898" id="r_gaac9eef254f634608d267561dcaffe898"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaac9eef254f634608d267561dcaffe898">ChangePointCloudAction</a> (std::string <a class="el" href="group__GeneralGroup.html#ga3d96f0fc00a2d6d30b4807712b3793b6">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &gt; &amp;obj, std::shared_ptr&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; newPointCloud)</td></tr>
+<tr class="memdesc:gaac9eef254f634608d267561dcaffe898"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's point cloud and immediately set new point cloud  <br /></td></tr>
 <tr class="memitem:ga3d96f0fc00a2d6d30b4807712b3793b6" id="r_ga3d96f0fc00a2d6d30b4807712b3793b6"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3d96f0fc00a2d6d30b4807712b3793b6">name</a> () const override</td></tr>
 <tr class="memitem:ga618406d420de41e825205cae3f53c9c6" id="r_ga618406d420de41e825205cae3f53c9c6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga618406d420de41e825205cae3f53c9c6">action</a> (<a class="el" href="group__GeneralGroup.html#gac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
 <tr class="memdesc:ga618406d420de41e825205cae3f53c9c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called on history action (undo, redo, etc.)  <br /></td></tr>

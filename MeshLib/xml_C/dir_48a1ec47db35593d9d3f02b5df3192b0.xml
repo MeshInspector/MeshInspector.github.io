@@ -15,6 +15,7 @@
     <innerfile refid="MRAffineXf_8h">MRAffineXf.h</innerfile>
     <innerfile refid="MRAggregateFlow_8h">MRAggregateFlow.h</innerfile>
     <innerfile refid="MRAlignContoursToMesh_8h">MRAlignContoursToMesh.h</innerfile>
+    <innerfile refid="MRAlphaShape_8h">MRAlphaShape.h</innerfile>
     <innerfile refid="MRAngleMeasurementObject_8h">MRAngleMeasurementObject.h</innerfile>
     <innerfile refid="MRArrow_8h">MRArrow.h</innerfile>
     <innerfile refid="MRAxis_8h">MRAxis.h</innerfile>
@@ -26,11 +27,13 @@
     <innerfile refid="MRBestFitPolynomial_8h">MRBestFitPolynomial.h</innerfile>
     <innerfile refid="MRBestFitQuadric_8h">MRBestFitQuadric.h</innerfile>
     <innerfile refid="MRBezier_8h">MRBezier.h</innerfile>
+    <innerfile refid="MRBitCast_8h">MRBitCast.h</innerfile>
     <innerfile refid="MRBitSet_8h">MRBitSet.h</innerfile>
     <innerfile refid="MRBooleanOperation_8h">MRBooleanOperation.h</innerfile>
     <innerfile refid="MRBox_8h">MRBox.h</innerfile>
     <innerfile refid="MRBoxNesting_8h">MRBoxNesting.h</innerfile>
     <innerfile refid="MRBuffer_8h">MRBuffer.h</innerfile>
+    <innerfile refid="MRCameraPointsTriangulation_8h">MRCameraPointsTriangulation.h</innerfile>
     <innerfile refid="MRChangeColoringActions_8h">MRChangeColoringActions.h</innerfile>
     <innerfile refid="MRChangeColoringType_8h">MRChangeColoringType.h</innerfile>
     <innerfile refid="MRChangeMeshAction_8h">MRChangeMeshAction.h</innerfile>
@@ -59,6 +62,7 @@
     <innerfile refid="MRCone3_8h">MRCone3.h</innerfile>
     <innerfile refid="MRConeApproximator_8h">MRConeApproximator.h</innerfile>
     <innerfile refid="MRConeObject_8h">MRConeObject.h</innerfile>
+    <innerfile refid="MRConstChildren_8h">MRConstChildren.h</innerfile>
     <innerfile refid="MRContour_8h">MRContour.h</innerfile>
     <innerfile refid="MRContoursCut_8h">MRContoursCut.h</innerfile>
     <innerfile refid="MRContoursSeparation_8h">MRContoursSeparation.h</innerfile>
@@ -69,6 +73,7 @@
     <innerfile refid="MRCylinder_8h">MRCylinder.h</innerfile>
     <innerfile refid="MRCylinder3_8h">MRCylinder3.h</innerfile>
     <innerfile refid="MRCylinderObject_8h">MRCylinderObject.h</innerfile>
+    <innerfile refid="MRDelaunayTriangulationXY_8h">MRDelaunayTriangulationXY.h</innerfile>
     <innerfile refid="MRDenseBox_8h">MRDenseBox.h</innerfile>
     <innerfile refid="MRDipole_8h">MRDipole.h</innerfile>
     <innerfile refid="MRDirMax_8h">MRDirMax.h</innerfile>
@@ -321,6 +326,7 @@
     <innerfile refid="MRSeparationPoint_8h">MRSeparationPoint.h</innerfile>
     <innerfile refid="MRSerializer_8h">MRSerializer.h</innerfile>
     <innerfile refid="MRSharpenMarchingCubesMesh_8h">MRSharpenMarchingCubesMesh.h</innerfile>
+    <innerfile refid="MRShrinkwrap_8h">MRShrinkwrap.h</innerfile>
     <innerfile refid="MRSignDetectionMode_8h">MRSignDetectionMode.h</innerfile>
     <innerfile refid="MRSolarRadiation_8h">MRSolarRadiation.h</innerfile>
     <innerfile refid="MRSolidOfRevolution_8h">MRSolidOfRevolution.h</innerfile>
@@ -342,7 +348,6 @@
     <innerfile refid="MRSystem_8h">MRSystem.h</innerfile>
     <innerfile refid="MRSystemPath_8h">MRSystemPath.h</innerfile>
     <innerfile refid="MRTelemetry_8h">MRTelemetry.h</innerfile>
-    <innerfile refid="MRTerrainTriangulation_8h">MRTerrainTriangulation.h</innerfile>
     <innerfile refid="MRTextureColors_8h">MRTextureColors.h</innerfile>
     <innerfile refid="MRTimer_8h">MRTimer.h</innerfile>
     <innerfile refid="MRTorus_8h">MRTorus.h</innerfile>

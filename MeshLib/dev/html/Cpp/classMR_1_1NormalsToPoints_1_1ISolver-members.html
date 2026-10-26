@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -143,7 +136,7 @@ $(function(){initNavTree('classMR_1_1NormalsToPoints_1_1ISolver.html','',''); })
 
 <p>This is the complete list of members for <a class="el" href="classMR_1_1NormalsToPoints_1_1ISolver.html">MR::NormalsToPoints::ISolver</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#gac59de77fbc45059cde04afe08a262666">prepare</a>(const MeshTopology &amp;topology, float guideWeight)=0</td><td class="entry"><a class="el" href="classMR_1_1NormalsToPoints_1_1ISolver.html">MR::NormalsToPoints::ISolver</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga65312af129219d2ac4f5b5791bc386cf">prepare</a>(const MeshTopology &amp;topology, float guideWeight, const VertBitSet *region)=0</td><td class="entry"><a class="el" href="classMR_1_1NormalsToPoints_1_1ISolver.html">MR::NormalsToPoints::ISolver</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="group__GeneralGroup.html#gae336851ab46c31fc8f961484c2b45b5a">run</a>(const VertCoords &amp;guide, const FaceNormals &amp;normals, VertCoords &amp;points, float maxInitialDistSq)=0</td><td class="entry"><a class="el" href="classMR_1_1NormalsToPoints_1_1ISolver.html">MR::NormalsToPoints::ISolver</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="group__GeneralGroup.html#ga97ac4ee2142618c5639b5a67cccef1c2">~ISolver</a>()=default</td><td class="entry"><a class="el" href="classMR_1_1NormalsToPoints_1_1ISolver.html">MR::NormalsToPoints::ISolver</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->

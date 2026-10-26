@@ -148,6 +148,7 @@ $(function(){initNavTree('MRBuffer_8h.html','',''); });
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRBuffer_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -180,6 +181,8 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:adbc86b6b49b764ec55230fd896870553"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <br /></td></tr>
 <tr class="memitem:ae59984a854d371b2c7cc8dd07657d65e" id="r_ae59984a854d371b2c7cc8dd07657d65e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae59984a854d371b2c7cc8dd07657d65e">MR_Buffer_char</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae59984a854d371b2c7cc8dd07657d65e">MR_Buffer_char</a></td></tr>
 <tr class="memdesc:ae59984a854d371b2c7cc8dd07657d65e"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <br /></td></tr>
+<tr class="memitem:aa4df0b4a20bd80c767402e331af0a80f" id="r_aa4df0b4a20bd80c767402e331af0a80f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a></td></tr>
+<tr class="memdesc:aa4df0b4a20bd80c767402e331af0a80f"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <br /></td></tr>
 <tr class="memitem:a550e58c065e57e782377429b013a4a29" id="r_a550e58c065e57e782377429b013a4a29"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a></td></tr>
 <tr class="memdesc:a550e58c065e57e782377429b013a4a29"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods  <br /></td></tr>
 <tr class="memitem:a688bf12270075ec1756174e79fbebec1" id="r_a688bf12270075ec1756174e79fbebec1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a688bf12270075ec1756174e79fbebec1">MR_Buffer_MR_EdgeId_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a688bf12270075ec1756174e79fbebec1">MR_Buffer_MR_EdgeId_MR_EdgeId</a></td></tr>
@@ -212,6 +215,7 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a63f76b0f0138cc49104747ea862cfd35" id="r_a63f76b0f0138cc49104747ea862cfd35"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a63f76b0f0138cc49104747ea862cfd35">MR_NoCtor_MR_UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63f76b0f0138cc49104747ea862cfd35">MR_NoCtor_MR_UndirectedEdgeId</a></td></tr>
 <tr class="memitem:ac83cc62c49eb258359785855545a6a43" id="r_ac83cc62c49eb258359785855545a6a43"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac83cc62c49eb258359785855545a6a43">MR_NoCtor_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac83cc62c49eb258359785855545a6a43">MR_NoCtor_MR_FaceId</a></td></tr>
 <tr class="memitem:a673fe253eca6ec7afe8f6a2bb44eca4f" id="r_a673fe253eca6ec7afe8f6a2bb44eca4f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a673fe253eca6ec7afe8f6a2bb44eca4f">MR_NoCtor_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a673fe253eca6ec7afe8f6a2bb44eca4f">MR_NoCtor_MR_VertId</a></td></tr>
+<tr class="memitem:a6d2c3ba87b5cbf3367c3cd695c42f181" id="r_a6d2c3ba87b5cbf3367c3cd695c42f181"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a></td></tr>
 <tr class="memitem:a65aeadfa7403acec3d68ffa65802c816" id="r_a65aeadfa7403acec3d68ffa65802c816"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a></td></tr>
 <tr class="memitem:abde96022140d7df9200836b495ab09ba" id="r_abde96022140d7df9200836b495ab09ba"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abde96022140d7df9200836b495ab09ba">MR_NoCtor_char</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abde96022140d7df9200836b495ab09ba">MR_NoCtor_char</a></td></tr>
 <tr class="memitem:a29c65f54ff07c79ed937906a9c39ec3f" id="r_a29c65f54ff07c79ed937906a9c39ec3f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a29c65f54ff07c79ed937906a9c39ec3f">MR_NoCtor_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29c65f54ff07c79ed937906a9c39ec3f">MR_NoCtor_MR_EdgeId</a></td></tr>
@@ -424,6 +428,34 @@ Functions</h2></td></tr>
 <tr class="memitem:a21b77721b5e4855fc0198e77ec05dfa8" id="r_a21b77721b5e4855fc0198e77ec05dfa8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21b77721b5e4855fc0198e77ec05dfa8">MR_begin_MR_Buffer_char_ref</a> (<a class="el" href="#ae59984a854d371b2c7cc8dd07657d65e">MR_Buffer_char</a> *a)</td></tr>
 <tr class="memitem:a6be3fb87f87b95d5ca06a7d62877a708" id="r_a6be3fb87f87b95d5ca06a7d62877a708"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6be3fb87f87b95d5ca06a7d62877a708">MR_end_const_MR_Buffer_char_ref</a> (const <a class="el" href="#ae59984a854d371b2c7cc8dd07657d65e">MR_Buffer_char</a> *a)</td></tr>
 <tr class="memitem:a104e11f720fc00ac9d3cdc2df24f9f9b" id="r_a104e11f720fc00ac9d3cdc2df24f9f9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a104e11f720fc00ac9d3cdc2df24f9f9b">MR_end_MR_Buffer_char_ref</a> (<a class="el" href="#ae59984a854d371b2c7cc8dd07657d65e">MR_Buffer_char</a> *a)</td></tr>
+<tr class="memitem:aef158e2f685ee982add9c9452cc961e5" id="r_aef158e2f685ee982add9c9452cc961e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef158e2f685ee982add9c9452cc961e5">MR_Buffer_uint64_t_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:af3e02a52de34be6ac240a66088783b37" id="r_af3e02a52de34be6ac240a66088783b37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3e02a52de34be6ac240a66088783b37">MR_Buffer_uint64_t_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a60374efaa3b6a53cc2586c69399be6c9" id="r_a60374efaa3b6a53cc2586c69399be6c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60374efaa3b6a53cc2586c69399be6c9">MR_Buffer_uint64_t_OffsetPtr</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a4b3666121d7425d4177602acd72dc288" id="r_a4b3666121d7425d4177602acd72dc288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b3666121d7425d4177602acd72dc288">MR_Buffer_uint64_t_OffsetMutablePtr</a> (<a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a6f41495e9b144cbe1f53bc233fdd49d1" id="r_a6f41495e9b144cbe1f53bc233fdd49d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f41495e9b144cbe1f53bc233fdd49d1">MR_Buffer_uint64_t_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_other)</td></tr>
+<tr class="memitem:abff46846429284cef9d16828cbd401c1" id="r_abff46846429284cef9d16828cbd401c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abff46846429284cef9d16828cbd401c1">MR_Buffer_uint64_t_Construct</a> (size_t size)</td></tr>
+<tr class="memitem:a4a990d596d77f33ebecb7a0cd624cde9" id="r_a4a990d596d77f33ebecb7a0cd624cde9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a990d596d77f33ebecb7a0cd624cde9">MR_Buffer_uint64_t_Destroy</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this)</td></tr>
+<tr class="memdesc:a4a990d596d77f33ebecb7a0cd624cde9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f" title="std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements,...">MR_Buffer_uint64_t</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a7fa7d909cbf76c762842ab3db9311b73" id="r_a7fa7d909cbf76c762842ab3db9311b73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fa7d909cbf76c762842ab3db9311b73">MR_Buffer_uint64_t_DestroyArray</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this)</td></tr>
+<tr class="memdesc:a7fa7d909cbf76c762842ab3db9311b73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f" title="std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements,...">MR_Buffer_uint64_t</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a94bf84278ca3ce24e08599bd95087e84" id="r_a94bf84278ca3ce24e08599bd95087e84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94bf84278ca3ce24e08599bd95087e84">MR_Buffer_uint64_t_AssignFromAnother</a> (<a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_other)</td></tr>
+<tr class="memitem:a6b9a91571ba143bdec4ee32253fd5c27" id="r_a6b9a91571ba143bdec4ee32253fd5c27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b9a91571ba143bdec4ee32253fd5c27">MR_Buffer_uint64_t_capacity</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this)</td></tr>
+<tr class="memitem:add17157cd767c4d4f39d84288c148407" id="r_add17157cd767c4d4f39d84288c148407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add17157cd767c4d4f39d84288c148407">MR_Buffer_uint64_t_size</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this)</td></tr>
+<tr class="memitem:afe1b24d53781ff23bd3b17b8b4b018ea" id="r_afe1b24d53781ff23bd3b17b8b4b018ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe1b24d53781ff23bd3b17b8b4b018ea">MR_Buffer_uint64_t_empty</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this)</td></tr>
+<tr class="memitem:ab7c1adac3aa1dbca1463fa98ddf02c5b" id="r_ab7c1adac3aa1dbca1463fa98ddf02c5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7c1adac3aa1dbca1463fa98ddf02c5b">MR_Buffer_uint64_t_clear</a> (<a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this)</td></tr>
+<tr class="memitem:ade6bb8ec8d6b673adf9cac55de74df26" id="r_ade6bb8ec8d6b673adf9cac55de74df26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade6bb8ec8d6b673adf9cac55de74df26">MR_Buffer_uint64_t_resize</a> (<a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this, size_t newSize)</td></tr>
+<tr class="memitem:a2f0cf673f231a5067640a207be574d0d" id="r_a2f0cf673f231a5067640a207be574d0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f0cf673f231a5067640a207be574d0d">MR_Buffer_uint64_t_index</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this, size_t i)</td></tr>
+<tr class="memitem:adc98ae9e20c175e068ade27937b01bcd" id="r_adc98ae9e20c175e068ade27937b01bcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc98ae9e20c175e068ade27937b01bcd">MR_Buffer_uint64_t_index_mut</a> (<a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this, size_t i)</td></tr>
+<tr class="memitem:a6f8291938b8fb711ab69b30a834853dd" id="r_a6f8291938b8fb711ab69b30a834853dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f8291938b8fb711ab69b30a834853dd">MR_Buffer_uint64_t_data_mut</a> (<a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this)</td></tr>
+<tr class="memitem:aa62cc5f499232cd32f3783caf9fd93c9" id="r_aa62cc5f499232cd32f3783caf9fd93c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa62cc5f499232cd32f3783caf9fd93c9">MR_Buffer_uint64_t_data</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this)</td></tr>
+<tr class="memitem:af5a2dfa594c662dcda364e1b369daf08" id="r_af5a2dfa594c662dcda364e1b369daf08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5a2dfa594c662dcda364e1b369daf08">MR_Buffer_uint64_t_beginId</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this)</td></tr>
+<tr class="memitem:a5ce5c2c86ba7aba60fbfc3cdcd07fa07" id="r_a5ce5c2c86ba7aba60fbfc3cdcd07fa07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ce5c2c86ba7aba60fbfc3cdcd07fa07">MR_Buffer_uint64_t_backId</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this)</td></tr>
+<tr class="memitem:a6fb2761f6c1d762f0b82bb7052a495c3" id="r_a6fb2761f6c1d762f0b82bb7052a495c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fb2761f6c1d762f0b82bb7052a495c3">MR_Buffer_uint64_t_endId</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this)</td></tr>
+<tr class="memitem:a4e01bd8b03b54f2818fc5d07570c9d53" id="r_a4e01bd8b03b54f2818fc5d07570c9d53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e01bd8b03b54f2818fc5d07570c9d53">MR_Buffer_uint64_t_heapBytes</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *_this)</td></tr>
+<tr class="memitem:aba4f7b244ec933abb7225caada491109" id="r_aba4f7b244ec933abb7225caada491109"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba4f7b244ec933abb7225caada491109">MR_begin_const_MR_Buffer_uint64_t_ref</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *a)</td></tr>
+<tr class="memitem:a110a3dadafe76c62a6c2a60f4ecd5f64" id="r_a110a3dadafe76c62a6c2a60f4ecd5f64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a110a3dadafe76c62a6c2a60f4ecd5f64">MR_begin_MR_Buffer_uint64_t_ref</a> (<a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *a)</td></tr>
+<tr class="memitem:aab204621fbf25bcb848668195b44524f" id="r_aab204621fbf25bcb848668195b44524f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab204621fbf25bcb848668195b44524f">MR_end_const_MR_Buffer_uint64_t_ref</a> (const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *a)</td></tr>
+<tr class="memitem:a1bcb33202a1efafd1f63ae9a8101b1be" id="r_a1bcb33202a1efafd1f63ae9a8101b1be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bcb33202a1efafd1f63ae9a8101b1be">MR_end_MR_Buffer_uint64_t_ref</a> (<a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *a)</td></tr>
 <tr class="memitem:ae878fe6fad0b12e2095ad2e1b75e2447" id="r_ae878fe6fad0b12e2095ad2e1b75e2447"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae878fe6fad0b12e2095ad2e1b75e2447">MR_Buffer_unsigned_char_DefaultConstruct</a> (void)</td></tr>
 <tr class="memitem:a95502cac777b4002bb2e908386897c4d" id="r_a95502cac777b4002bb2e908386897c4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95502cac777b4002bb2e908386897c4d">MR_Buffer_unsigned_char_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="memitem:a6e163dc66a7328fd847f41ee1cf7d80a" id="r_a6e163dc66a7328fd847f41ee1cf7d80a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e163dc66a7328fd847f41ee1cf7d80a">MR_Buffer_unsigned_char_OffsetPtr</a> (const <a class="el" href="#a550e58c065e57e782377429b013a4a29">MR_Buffer_unsigned_char</a> *ptr, ptrdiff_t i)</td></tr>
@@ -1092,6 +1124,16 @@ Functions</h2></td></tr>
 <tr class="memitem:af73424aa8145ee4a47304e412d7bb3d4" id="r_af73424aa8145ee4a47304e412d7bb3d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af73424aa8145ee4a47304e412d7bb3d4">MR_NoCtor_MR_VertId_DestroyArray</a> (const <a class="el" href="#a673fe253eca6ec7afe8f6a2bb44eca4f">MR_NoCtor_MR_VertId</a> *_this)</td></tr>
 <tr class="memdesc:af73424aa8145ee4a47304e412d7bb3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a673fe253eca6ec7afe8f6a2bb44eca4f">MR_NoCtor_MR_VertId</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a870030753d97ccc313635742d183956e" id="r_a870030753d97ccc313635742d183956e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a673fe253eca6ec7afe8f6a2bb44eca4f">MR_NoCtor_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a870030753d97ccc313635742d183956e">MR_NoCtor_MR_VertId_AssignFromAnother</a> (<a class="el" href="#a673fe253eca6ec7afe8f6a2bb44eca4f">MR_NoCtor_MR_VertId</a> *_this, const <a class="el" href="#a673fe253eca6ec7afe8f6a2bb44eca4f">MR_NoCtor_MR_VertId</a> *_other)</td></tr>
+<tr class="memitem:ab4eac84fc29108c2b25026ffee0f8252" id="r_ab4eac84fc29108c2b25026ffee0f8252"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4eac84fc29108c2b25026ffee0f8252">MR_NoCtor_uint64_t_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:ad31a2f78e157a12daa5eaf037a807786" id="r_ad31a2f78e157a12daa5eaf037a807786"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad31a2f78e157a12daa5eaf037a807786">MR_NoCtor_uint64_t_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a98bdd9627ea2c971469b3d6f4cacfb30" id="r_a98bdd9627ea2c971469b3d6f4cacfb30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98bdd9627ea2c971469b3d6f4cacfb30">MR_NoCtor_uint64_t_OffsetPtr</a> (const <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a080d34610997ea7629dfaa3e7db131ff" id="r_a080d34610997ea7629dfaa3e7db131ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a080d34610997ea7629dfaa3e7db131ff">MR_NoCtor_uint64_t_OffsetMutablePtr</a> (<a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:aeb3720c21b195ddda47ff091c23c2825" id="r_aeb3720c21b195ddda47ff091c23c2825"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb3720c21b195ddda47ff091c23c2825">MR_NoCtor_uint64_t_ConstructFromAnother</a> (const <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *_other)</td></tr>
+<tr class="memitem:a02a0accaebe9bd1a8322bfa17fc0f028" id="r_a02a0accaebe9bd1a8322bfa17fc0f028"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02a0accaebe9bd1a8322bfa17fc0f028">MR_NoCtor_uint64_t_Destroy</a> (const <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *_this)</td></tr>
+<tr class="memdesc:a02a0accaebe9bd1a8322bfa17fc0f028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:aa9b7a92d78e1d3a53740a03f4178e47c" id="r_aa9b7a92d78e1d3a53740a03f4178e47c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9b7a92d78e1d3a53740a03f4178e47c">MR_NoCtor_uint64_t_DestroyArray</a> (const <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *_this)</td></tr>
+<tr class="memdesc:aa9b7a92d78e1d3a53740a03f4178e47c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a41ed55dc1528bf6b938366cd6052ecab" id="r_a41ed55dc1528bf6b938366cd6052ecab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41ed55dc1528bf6b938366cd6052ecab">MR_NoCtor_uint64_t_AssignFromAnother</a> (<a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *_this, const <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *_other)</td></tr>
 <tr class="memitem:ab9d97786f2ec7334f0e7e03b3571360a" id="r_ab9d97786f2ec7334f0e7e03b3571360a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9d97786f2ec7334f0e7e03b3571360a">MR_NoCtor_unsigned_char_DefaultConstruct</a> (void)</td></tr>
 <tr class="memitem:a13d0c35cfcf2d9f993e144a4d26ef752" id="r_a13d0c35cfcf2d9f993e144a4d26ef752"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13d0c35cfcf2d9f993e144a4d26ef752">MR_NoCtor_unsigned_char_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="memitem:a8d77838a4a96e6c134d3f63d4c4a97b7" id="r_a8d77838a4a96e6c134d3f63d4c4a97b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d77838a4a96e6c134d3f63d4c4a97b7">MR_NoCtor_unsigned_char_OffsetPtr</a> (const <a class="el" href="#a65aeadfa7403acec3d68ffa65802c816">MR_NoCtor_unsigned_char</a> *ptr, ptrdiff_t i)</td></tr>
@@ -1694,6 +1736,29 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa4df0b4a20bd80c767402e331af0a80f" name="aa4df0b4a20bd80c767402e331af0a80f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4df0b4a20bd80c767402e331af0a80f">&#9670;&#160;</a></span>MR_Buffer_uint64_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">V</td><td>type of stored elements </td></tr>
+    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Buffer&lt;uint64_t&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a550e58c065e57e782377429b013a4a29" name="a550e58c065e57e782377429b013a4a29"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a550e58c065e57e782377429b013a4a29">&#9670;&#160;</a></span>MR_Buffer_unsigned_char</h2>
 
@@ -1924,6 +1989,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from class <span class="tt">MR::NoCtor&lt;MR::VoxelId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a6d2c3ba87b5cbf3367c3cd695c42f181" name="a6d2c3ba87b5cbf3367c3cd695c42f181"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d2c3ba87b5cbf3367c3cd695c42f181">&#9670;&#160;</a></span>MR_NoCtor_uint64_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from class <span class="tt">MR::NoCtor&lt;uint64_t&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -2507,6 +2587,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aba4f7b244ec933abb7225caada491109" name="aba4f7b244ec933abb7225caada491109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba4f7b244ec933abb7225caada491109">&#9670;&#160;</a></span>MR_begin_const_MR_Buffer_uint64_t_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t * MR_begin_const_MR_Buffer_uint64_t_ref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <span class="tt">MR::begin</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. The reference to the parameter <span class="tt">a</span> might be preserved in the return value. </p>
+
+</div>
+</div>
 <a id="aa8e52a0288366d5bf85c0b895a8a1755" name="aa8e52a0288366d5bf85c0b895a8a1755"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa8e52a0288366d5bf85c0b895a8a1755">&#9670;&#160;</a></span>MR_begin_const_MR_Buffer_unsigned_char_ref()</h2>
 
@@ -2841,6 +2939,24 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8ea0ffa07c19f2d9750086a86ad119cb">MR_NoDefInit_MR_VoxelId</a> * MR_begin_MR_Buffer_MR_VoxelId_MR_VoxelId_ref </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a18592f8df128a626eb66b2e8567d0961">MR_Buffer_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <span class="tt">MR::begin</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. The reference to the parameter <span class="tt">a</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a110a3dadafe76c62a6c2a60f4ecd5f64" name="a110a3dadafe76c62a6c2a60f4ecd5f64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a110a3dadafe76c62a6c2a60f4ecd5f64">&#9670;&#160;</a></span>MR_begin_MR_Buffer_uint64_t_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t * MR_begin_MR_Buffer_uint64_t_ref </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -14393,6 +14509,437 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a94bf84278ca3ce24e08599bd95087e84" name="a94bf84278ca3ce24e08599bd95087e84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94bf84278ca3ce24e08599bd95087e84">&#9670;&#160;</a></span>MR_Buffer_uint64_t_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> * MR_Buffer_uint64_t_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a5ce5c2c86ba7aba60fbfc3cdcd07fa07" name="a5ce5c2c86ba7aba60fbfc3cdcd07fa07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ce5c2c86ba7aba60fbfc3cdcd07fa07">&#9670;&#160;</a></span>MR_Buffer_uint64_t_backId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_Buffer_uint64_t_backId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the identifier of the back() element Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::backId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="af5a2dfa594c662dcda364e1b369daf08" name="af5a2dfa594c662dcda364e1b369daf08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5a2dfa594c662dcda364e1b369daf08">&#9670;&#160;</a></span>MR_Buffer_uint64_t_beginId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_Buffer_uint64_t_beginId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the identifier of the first element Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::beginId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a6b9a91571ba143bdec4ee32253fd5c27" name="a6b9a91571ba143bdec4ee32253fd5c27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b9a91571ba143bdec4ee32253fd5c27">&#9670;&#160;</a></span>MR_Buffer_uint64_t_capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_Buffer_uint64_t_capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::capacity</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ab7c1adac3aa1dbca1463fa98ddf02c5b" name="ab7c1adac3aa1dbca1463fa98ddf02c5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7c1adac3aa1dbca1463fa98ddf02c5b">&#9670;&#160;</a></span>MR_Buffer_uint64_t_clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Buffer_uint64_t_clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::clear</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="abff46846429284cef9d16828cbd401c1" name="abff46846429284cef9d16828cbd401c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abff46846429284cef9d16828cbd401c1">&#9670;&#160;</a></span>MR_Buffer_uint64_t_Construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> * MR_Buffer_uint64_t_Construct </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::Buffer&lt;uint64_t&gt;::Buffer</span>. The reference to the parameter <span class="tt">size</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a4a990d596d77f33ebecb7a0cd624cde9" title="Destroys a heap-allocated instance of MR_Buffer_uint64_t. Does nothing if the pointer is null.">MR_Buffer_uint64_t_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6f41495e9b144cbe1f53bc233fdd49d1" name="a6f41495e9b144cbe1f53bc233fdd49d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f41495e9b144cbe1f53bc233fdd49d1">&#9670;&#160;</a></span>MR_Buffer_uint64_t_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> * MR_Buffer_uint64_t_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::Buffer&lt;uint64_t&gt;::Buffer</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a4a990d596d77f33ebecb7a0cd624cde9" title="Destroys a heap-allocated instance of MR_Buffer_uint64_t. Does nothing if the pointer is null.">MR_Buffer_uint64_t_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa62cc5f499232cd32f3783caf9fd93c9" name="aa62cc5f499232cd32f3783caf9fd93c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa62cc5f499232cd32f3783caf9fd93c9">&#9670;&#160;</a></span>MR_Buffer_uint64_t_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t * MR_Buffer_uint64_t_data </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::data</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a6f8291938b8fb711ab69b30a834853dd" name="a6f8291938b8fb711ab69b30a834853dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f8291938b8fb711ab69b30a834853dd">&#9670;&#160;</a></span>MR_Buffer_uint64_t_data_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t * MR_Buffer_uint64_t_data_mut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::data</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="aef158e2f685ee982add9c9452cc961e5" name="aef158e2f685ee982add9c9452cc961e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef158e2f685ee982add9c9452cc961e5">&#9670;&#160;</a></span>MR_Buffer_uint64_t_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> * MR_Buffer_uint64_t_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a4a990d596d77f33ebecb7a0cd624cde9" title="Destroys a heap-allocated instance of MR_Buffer_uint64_t. Does nothing if the pointer is null.">MR_Buffer_uint64_t_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af3e02a52de34be6ac240a66088783b37" name="af3e02a52de34be6ac240a66088783b37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3e02a52de34be6ac240a66088783b37">&#9670;&#160;</a></span>MR_Buffer_uint64_t_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> * MR_Buffer_uint64_t_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#a7fa7d909cbf76c762842ab3db9311b73" title="Destroys a heap-allocated array of MR_Buffer_uint64_t. Does nothing if the pointer is null.">MR_Buffer_uint64_t_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#a4b3666121d7425d4177602acd72dc288">MR_Buffer_uint64_t_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#a60374efaa3b6a53cc2586c69399be6c9">MR_Buffer_uint64_t_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a4a990d596d77f33ebecb7a0cd624cde9" name="a4a990d596d77f33ebecb7a0cd624cde9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a990d596d77f33ebecb7a0cd624cde9">&#9670;&#160;</a></span>MR_Buffer_uint64_t_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Buffer_uint64_t_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f" title="std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements,...">MR_Buffer_uint64_t</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7fa7d909cbf76c762842ab3db9311b73" name="a7fa7d909cbf76c762842ab3db9311b73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fa7d909cbf76c762842ab3db9311b73">&#9670;&#160;</a></span>MR_Buffer_uint64_t_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Buffer_uint64_t_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f" title="std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements,...">MR_Buffer_uint64_t</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="afe1b24d53781ff23bd3b17b8b4b018ea" name="afe1b24d53781ff23bd3b17b8b4b018ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe1b24d53781ff23bd3b17b8b4b018ea">&#9670;&#160;</a></span>MR_Buffer_uint64_t_empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_Buffer_uint64_t_empty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::empty</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a6fb2761f6c1d762f0b82bb7052a495c3" name="a6fb2761f6c1d762f0b82bb7052a495c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fb2761f6c1d762f0b82bb7052a495c3">&#9670;&#160;</a></span>MR_Buffer_uint64_t_endId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_Buffer_uint64_t_endId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns backId() + 1 Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::endId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a4e01bd8b03b54f2818fc5d07570c9d53" name="a4e01bd8b03b54f2818fc5d07570c9d53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e01bd8b03b54f2818fc5d07570c9d53">&#9670;&#160;</a></span>MR_Buffer_uint64_t_heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_Buffer_uint64_t_heapBytes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the amount of memory this object occupies on heap Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::heapBytes</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a2f0cf673f231a5067640a207be574d0d" name="a2f0cf673f231a5067640a207be574d0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f0cf673f231a5067640a207be574d0d">&#9670;&#160;</a></span>MR_Buffer_uint64_t_index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint64_t * MR_Buffer_uint64_t_index </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::operator[]</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="adc98ae9e20c175e068ade27937b01bcd" name="adc98ae9e20c175e068ade27937b01bcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc98ae9e20c175e068ade27937b01bcd">&#9670;&#160;</a></span>MR_Buffer_uint64_t_index_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t * MR_Buffer_uint64_t_index_mut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::operator[]</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a4b3666121d7425d4177602acd72dc288" name="a4b3666121d7425d4177602acd72dc288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b3666121d7425d4177602acd72dc288">&#9670;&#160;</a></span>MR_Buffer_uint64_t_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> * MR_Buffer_uint64_t_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a60374efaa3b6a53cc2586c69399be6c9" name="a60374efaa3b6a53cc2586c69399be6c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60374efaa3b6a53cc2586c69399be6c9">&#9670;&#160;</a></span>MR_Buffer_uint64_t_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> * MR_Buffer_uint64_t_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="ade6bb8ec8d6b673adf9cac55de74df26" name="ade6bb8ec8d6b673adf9cac55de74df26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade6bb8ec8d6b673adf9cac55de74df26">&#9670;&#160;</a></span>MR_Buffer_uint64_t_resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Buffer_uint64_t_resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::resize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="add17157cd767c4d4f39d84288c148407" name="add17157cd767c4d4f39d84288c148407"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add17157cd767c4d4f39d84288c148407">&#9670;&#160;</a></span>MR_Buffer_uint64_t_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_Buffer_uint64_t_size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Buffer&lt;uint64_t&gt;::size</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="afba4a85ce4271c62144d4076444ddfa5" name="afba4a85ce4271c62144d4076444ddfa5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afba4a85ce4271c62144d4076444ddfa5">&#9670;&#160;</a></span>MR_Buffer_unsigned_char_AssignFromAnother()</h2>
 
@@ -15462,6 +16009,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aab204621fbf25bcb848668195b44524f" name="aab204621fbf25bcb848668195b44524f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab204621fbf25bcb848668195b44524f">&#9670;&#160;</a></span>MR_end_const_MR_Buffer_uint64_t_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t * MR_end_const_MR_Buffer_uint64_t_ref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <span class="tt">MR::end</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. The reference to the parameter <span class="tt">a</span> might be preserved in the return value. </p>
+
+</div>
+</div>
 <a id="a037296a4dde7b27033b519494b6844ec" name="a037296a4dde7b27033b519494b6844ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a037296a4dde7b27033b519494b6844ec">&#9670;&#160;</a></span>MR_end_const_MR_Buffer_unsigned_char_ref()</h2>
 
@@ -15796,6 +16361,24 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8ea0ffa07c19f2d9750086a86ad119cb">MR_NoDefInit_MR_VoxelId</a> * MR_end_MR_Buffer_MR_VoxelId_MR_VoxelId_ref </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a18592f8df128a626eb66b2e8567d0961">MR_Buffer_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <span class="tt">MR::end</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. The reference to the parameter <span class="tt">a</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a1bcb33202a1efafd1f63ae9a8101b1be" name="a1bcb33202a1efafd1f63ae9a8101b1be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bcb33202a1efafd1f63ae9a8101b1be">&#9670;&#160;</a></span>MR_end_MR_Buffer_uint64_t_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t * MR_end_MR_Buffer_uint64_t_ref </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa4df0b4a20bd80c767402e331af0a80f">MR_Buffer_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -18363,6 +18946,164 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a66c29d589720f2829f561da9a1d61e91">MR_NoCtor_MR_VoxelId</a> * MR_NoCtor_MR_VoxelId_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a66c29d589720f2829f561da9a1d61e91">MR_NoCtor_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a41ed55dc1528bf6b938366cd6052ecab" name="a41ed55dc1528bf6b938366cd6052ecab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ed55dc1528bf6b938366cd6052ecab">&#9670;&#160;</a></span>MR_NoCtor_uint64_t_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> * MR_NoCtor_uint64_t_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::NoCtor&lt;uint64_t&gt;::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="aeb3720c21b195ddda47ff091c23c2825" name="aeb3720c21b195ddda47ff091c23c2825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb3720c21b195ddda47ff091c23c2825">&#9670;&#160;</a></span>MR_NoCtor_uint64_t_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> * MR_NoCtor_uint64_t_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::NoCtor&lt;uint64_t&gt;::NoCtor</span>. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a02a0accaebe9bd1a8322bfa17fc0f028" title="Destroys a heap-allocated instance of MR_NoCtor_uint64_t. Does nothing if the pointer is null.">MR_NoCtor_uint64_t_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab4eac84fc29108c2b25026ffee0f8252" name="ab4eac84fc29108c2b25026ffee0f8252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4eac84fc29108c2b25026ffee0f8252">&#9670;&#160;</a></span>MR_NoCtor_uint64_t_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> * MR_NoCtor_uint64_t_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a02a0accaebe9bd1a8322bfa17fc0f028" title="Destroys a heap-allocated instance of MR_NoCtor_uint64_t. Does nothing if the pointer is null.">MR_NoCtor_uint64_t_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad31a2f78e157a12daa5eaf037a807786" name="ad31a2f78e157a12daa5eaf037a807786"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad31a2f78e157a12daa5eaf037a807786">&#9670;&#160;</a></span>MR_NoCtor_uint64_t_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> * MR_NoCtor_uint64_t_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#aa9b7a92d78e1d3a53740a03f4178e47c" title="Destroys a heap-allocated array of MR_NoCtor_uint64_t. Does nothing if the pointer is null.">MR_NoCtor_uint64_t_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#a080d34610997ea7629dfaa3e7db131ff">MR_NoCtor_uint64_t_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#a98bdd9627ea2c971469b3d6f4cacfb30">MR_NoCtor_uint64_t_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a02a0accaebe9bd1a8322bfa17fc0f028" name="a02a0accaebe9bd1a8322bfa17fc0f028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02a0accaebe9bd1a8322bfa17fc0f028">&#9670;&#160;</a></span>MR_NoCtor_uint64_t_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_NoCtor_uint64_t_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aa9b7a92d78e1d3a53740a03f4178e47c" name="aa9b7a92d78e1d3a53740a03f4178e47c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9b7a92d78e1d3a53740a03f4178e47c">&#9670;&#160;</a></span>MR_NoCtor_uint64_t_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_NoCtor_uint64_t_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a080d34610997ea7629dfaa3e7db131ff" name="a080d34610997ea7629dfaa3e7db131ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a080d34610997ea7629dfaa3e7db131ff">&#9670;&#160;</a></span>MR_NoCtor_uint64_t_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> * MR_NoCtor_uint64_t_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a98bdd9627ea2c971469b3d6f4cacfb30" name="a98bdd9627ea2c971469b3d6f4cacfb30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98bdd9627ea2c971469b3d6f4cacfb30">&#9670;&#160;</a></span>MR_NoCtor_uint64_t_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> * MR_NoCtor_uint64_t_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6d2c3ba87b5cbf3367c3cd695c42f181">MR_NoCtor_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -32,6 +32,18 @@
         <childnode refid="32" relation="include">
         </childnode>
       </node>
+      <node id="46">
+        <label>MRAllocator.h</label>
+        <link refid="MRAllocator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
       <node id="45">
         <label>MRMesh/MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
@@ -39,17 +51,21 @@
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
         </childnode>
         <childnode refid="42" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
       <node id="35">
@@ -80,28 +96,28 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="51">
+      <node id="54">
         <label>MRMesh/MRClosestWeightedPoint.h</label>
         <link refid="MRClosestWeightedPoint_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="55" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="59" relation="include">
         </childnode>
       </node>
       <node id="21">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="55">
+      <node id="58">
         <label>MREdgePoint.h</label>
         <link refid="MREdgePoint_8h"/>
-        <childnode refid="46" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="57" relation="include">
         </childnode>
       </node>
       <node id="40">
@@ -128,7 +144,7 @@
         <childnode refid="39" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="48">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="4" relation="include">
@@ -188,14 +204,14 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="52">
+      <node id="55">
         <label>MRMeshTriPoint.h</label>
         <link refid="MRMeshTriPoint_8h"/>
-        <childnode refid="46" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="58" relation="include">
         </childnode>
       </node>
       <node id="27">
@@ -224,7 +240,7 @@
         <childnode refid="44" relation="include">
         </childnode>
       </node>
-      <node id="54">
+      <node id="57">
         <label>MRSegmPoint.h</label>
         <link refid="MRSegmPoint_8h"/>
         <childnode refid="4" relation="include">
@@ -232,18 +248,18 @@
         <childnode refid="37" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="52">
         <label>MRMesh/MRSignDetectionMode.h</label>
         <link refid="MRSignDetectionMode_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="53">
+      <node id="56">
         <label>MRTriPoint.h</label>
         <link refid="MRTriPoint_8h"/>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="57" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -337,11 +353,11 @@
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -387,7 +403,7 @@
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
         <childnode refid="45" relation="include">
         </childnode>
@@ -406,7 +422,7 @@
       <node id="41">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="47">
+      <node id="49">
         <label>MRphmap.h</label>
       </node>
       <node id="22">
@@ -415,13 +431,16 @@
       <node id="9">
         <label>array</label>
       </node>
+      <node id="50">
+        <label>atomic</label>
+      </node>
       <node id="15">
         <label>cassert</label>
       </node>
-      <node id="56">
+      <node id="59">
         <label>cfloat</label>
       </node>
-      <node id="50">
+      <node id="53">
         <label>climits</label>
       </node>
       <node id="23">
@@ -445,7 +464,7 @@
       <node id="25">
         <label>iosfwd</label>
       </node>
-      <node id="48">
+      <node id="51">
         <label>iterator</label>
       </node>
       <node id="37">
@@ -453,6 +472,9 @@
       </node>
       <node id="39">
         <label>memory</label>
+      </node>
+      <node id="47">
+        <label>mimalloc.h</label>
       </node>
       <node id="12">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>
@@ -507,9 +529,9 @@
 <codeline lineno="20" refid="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a767746c507a11feeea1dcaf6e35cb2e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1DistanceFromWeightedPointsComputeParams" kindref="compound">DistanceFromWeightedPointsComputeParams</ref><sp/><ref refid="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a767746c507a11feeea1dcaf6e35cb2e3" kindref="member">dist</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="namespaceMR_1_1WeightedShell_1ad1ffa222355f35085c885b87e8d27df8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1ad1ffa222355f35085c885b87e8d27df8" kindref="member">pointsToDistanceVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">DistanceVolumeCreationParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="24" refid="namespaceMR_1_1WeightedShell_1ad1ffa222355f35085c885b87e8d27df8" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1ad1ffa222355f35085c885b87e8d27df8" kindref="member">pointsToDistanceVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">DistanceVolumeCreationParams</ref>&amp;<sp/><ref refid="namespaceMR_1_1WeightedShell_1a0b2dea08ba80d4e80dcf5be93e0ce706" kindref="member">params</ref><sp/>);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="namespaceMR_1_1WeightedShell_1a1828e77e08ab2c06e1b4bffe5866270f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a1828e77e08ab2c06e1b4bffe5866270f" kindref="member">meshToDistanceVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">DistanceVolumeCreationParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="27" refid="namespaceMR_1_1WeightedShell_1a1828e77e08ab2c06e1b4bffe5866270f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a1828e77e08ab2c06e1b4bffe5866270f" kindref="member">meshToDistanceVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">DistanceVolumeCreationParams</ref>&amp;<sp/><ref refid="namespaceMR_1_1WeightedShell_1a0b2dea08ba80d4e80dcf5be93e0ce706" kindref="member">params</ref><sp/>);</highlight></codeline>
 <codeline lineno="28" refid="namespaceMR_1_1WeightedShell_1ad2ba4e4f0e0175fc0608e172a0619984" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1WeightedShell_1ad2ba4e4f0e0175fc0608e172a0619984" kindref="member">meshToDistanceVolumeT</ref><sp/>=<sp/>std::function&lt;<ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">DistanceVolumeCreationParams</ref>&amp;)&gt;;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="structMR_1_1WeightedShell_1_1ParametersBase" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1WeightedShell_1_1ParametersBase" kindref="compound">ParametersBase</ref></highlight></codeline>
@@ -546,20 +568,20 @@
 <codeline lineno="74" refid="structMR_1_1WeightedShell_1_1ParametersRegions_1aa3520ca7fb6d7d6bcfa86577f199a2d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersRegions_1aa3520ca7fb6d7d6bcfa86577f199a2d8" kindref="member">bidirectionalMode</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="75"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="namespaceMR_1_1WeightedShell_1a2d9e4d1c9f007cc1087818a3740c5653" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a2d9e4d1c9f007cc1087818a3740c5653" kindref="member">pointsShell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersMetric" kindref="compound">ParametersMetric</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="81" refid="namespaceMR_1_1WeightedShell_1a2d9e4d1c9f007cc1087818a3740c5653" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a2d9e4d1c9f007cc1087818a3740c5653" kindref="member">pointsShell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersMetric" kindref="compound">ParametersMetric</ref>&amp;<sp/><ref refid="namespaceMR_1_1WeightedShell_1a0b2dea08ba80d4e80dcf5be93e0ce706" kindref="member">params</ref><sp/>);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="namespaceMR_1_1WeightedShell_1a27dc07084bd9d7ba531af503ee26ecaa" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a2d9e4d1c9f007cc1087818a3740c5653" kindref="member">pointsShell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars&amp;<sp/>pointWeights,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersMetric" kindref="compound">ParametersMetric</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="86" refid="namespaceMR_1_1WeightedShell_1a27dc07084bd9d7ba531af503ee26ecaa" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a2d9e4d1c9f007cc1087818a3740c5653" kindref="member">pointsShell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars&amp;<sp/>pointWeights,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersMetric" kindref="compound">ParametersMetric</ref>&amp;<sp/><ref refid="namespaceMR_1_1WeightedShell_1a0b2dea08ba80d4e80dcf5be93e0ce706" kindref="member">params</ref><sp/>);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="namespaceMR_1_1WeightedShell_1a6c11500f809bc486096500b727e6cbbe" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a6c11500f809bc486096500b727e6cbbe" kindref="member">meshShell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersMetric" kindref="compound">ParametersMetric</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="92" refid="namespaceMR_1_1WeightedShell_1a6c11500f809bc486096500b727e6cbbe" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a6c11500f809bc486096500b727e6cbbe" kindref="member">meshShell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersMetric" kindref="compound">ParametersMetric</ref>&amp;<sp/><ref refid="namespaceMR_1_1WeightedShell_1a0b2dea08ba80d4e80dcf5be93e0ce706" kindref="member">params</ref><sp/>);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="namespaceMR_1_1WeightedShell_1aa73cc71df322e6863d94e7f237875475" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a6c11500f809bc486096500b727e6cbbe" kindref="member">meshShell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars&amp;<sp/>vertWeights,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersMetric" kindref="compound">ParametersMetric</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="97" refid="namespaceMR_1_1WeightedShell_1a63de0b6d59010041133de78641678b6d" refkind="member"><highlight class="normal"><ref refid="namespaceMR_1_1WeightedShell_1a63de0b6d59010041133de78641678b6d" kindref="member">MR_BIND_OVERLOAD_SUFFIX</ref>()<sp/>[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a6c11500f809bc486096500b727e6cbbe" kindref="member">meshShell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertScalars&amp;<sp/><ref refid="namespaceMR_1_1WeightedShell_1a0d6f5aa3e2803f42c36c469f54c762bf" kindref="member">vertWeights</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersMetric" kindref="compound">ParametersMetric</ref>&amp;<sp/><ref refid="namespaceMR_1_1WeightedShell_1a0b2dea08ba80d4e80dcf5be93e0ce706" kindref="member">params</ref><sp/>);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
 <codeline lineno="100" refid="namespaceMR_1_1WeightedShell_1a521af3e40765a04b00069fa14da9a3fa" refkind="member"><highlight class="normal"><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/>VertScalars<sp/><ref refid="namespaceMR_1_1WeightedShell_1a521af3e40765a04b00069fa14da9a3fa" kindref="member">calculateShellWeightsFromRegions</ref>(</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;ParametersRegions::Region&gt;&amp;<sp/>regions,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>interpolationDist<sp/>);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;ParametersRegions::Region&gt;&amp;<sp/>regions,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>interpolationDist<sp/>);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="namespaceMR_1_1WeightedShell_1a31f9c85adfd5e2b5553fb5dcb97384f0" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a6c11500f809bc486096500b727e6cbbe" kindref="member">meshShell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersRegions" kindref="compound">ParametersRegions</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="104" refid="namespaceMR_1_1WeightedShell_1a738e972170d976f713b039f87d68ad09" refkind="member"><highlight class="normal"><ref refid="namespaceMR_1_1WeightedShell_1a63de0b6d59010041133de78641678b6d" kindref="member">MR_BIND_OVERLOAD_SUFFIX</ref>(regions)<sp/>[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a6c11500f809bc486096500b727e6cbbe" kindref="member">meshShell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersRegions" kindref="compound">ParametersRegions</ref>&amp;<sp/><ref refid="namespaceMR_1_1WeightedShell_1a0b2dea08ba80d4e80dcf5be93e0ce706" kindref="member">params</ref><sp/>);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107" refid="namespaceMR_1_1WeightedShell_1a8154f94a6793c43fd049a5bf549bf75f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a6c11500f809bc486096500b727e6cbbe" kindref="member">meshShell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersRegions" kindref="compound">ParametersRegions</ref>&amp;<sp/>params,<sp/><ref refid="namespaceMR_1_1WeightedShell_1ad2ba4e4f0e0175fc0608e172a0619984" kindref="member">meshToDistanceVolumeT</ref><sp/>volumeBuilder<sp/>);</highlight></codeline>
+<codeline lineno="107" refid="namespaceMR_1_1WeightedShell_1a54afa8bb7c49d05901fce752e9cdd510" refkind="member"><highlight class="normal"><ref refid="namespaceMR_1_1WeightedShell_1a63de0b6d59010041133de78641678b6d" kindref="member">MR_BIND_OVERLOAD_SUFFIX</ref>(regionsBuilder)<sp/>[[nodiscard]]<sp/><ref refid="MRVoxelsFwd_8h_1a5a563214874b42adf9d3bbba08988cad" kindref="member">MRVOXELS_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1a6c11500f809bc486096500b727e6cbbe" kindref="member">meshShell</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WeightedShell_1_1ParametersRegions" kindref="compound">ParametersRegions</ref>&amp;<sp/><ref refid="namespaceMR_1_1WeightedShell_1a0b2dea08ba80d4e80dcf5be93e0ce706" kindref="member">params</ref>,<sp/><ref refid="namespaceMR_1_1WeightedShell_1ad2ba4e4f0e0175fc0608e172a0619984" kindref="member">meshToDistanceVolumeT</ref><sp/><ref refid="namespaceMR_1_1WeightedShell_1aaaf8a52d4a487d149e4ae02a7317ccd8" kindref="member">volumeBuilder</ref><sp/>);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
 <codeline lineno="109"><highlight class="normal">}</highlight></codeline>
     </programlisting>

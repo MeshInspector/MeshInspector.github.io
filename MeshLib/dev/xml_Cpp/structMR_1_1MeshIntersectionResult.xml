@@ -21,7 +21,7 @@
         <location file="MRMesh/MRMeshIntersect.h" line="20" column="17" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshIntersectionResult_1aa6767f8fee0dd3f9883b1657e2d9fcb2" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref></type>
         <definition>MeshTriPoint MR::MeshIntersectionResult::mtp</definition>
         <argsstring></argsstring>
         <name>mtp</name>
@@ -92,13 +92,6 @@
         <childnode refid="2" relation="usage">
           <edgelabel>proj</edgelabel>
         </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>mtp</edgelabel>
-        </childnode>
-      </node>
-      <node id="3">
-        <label>MR::MeshTriPoint</label>
-        <link refid="structMR_1_1MeshTriPoint"/>
       </node>
       <node id="2">
         <label>MR::PointOnFace</label>

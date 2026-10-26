@@ -16,6 +16,7 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga9fff1948f663f24317ef2fd95c127d74" kind="function"><name>sphereExists</name></member>
       <member refid="group__GeneralGroup_1gae6f76431e076f7da4c8d01feef6b5c94" kind="function"><name>flip</name></member>
       <member refid="group__GeneralGroup_1ga33f40392cf9decb4150d17e595c0d0b6" kind="function"><name>operator()</name></member>
       <member refid="group__GeneralGroup_1gae5d8d9b9fe2dd4d41af7fad0d93fdff0" kind="function"><name>degenerateTriangle</name></member>
@@ -58,7 +59,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRInSphere.h" line="206" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="207" bodyend="271"/>
+    <location file="MRMesh/MRInSphere.h" line="206" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="207" bodyend="276"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae5d8d9b9fe2dd4d41af7fad0d93fdff0" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>degenerateTriangle</name></member>
       <member refid="group__GeneralGroup_1ga0504cb318e00a1d607960cd1ef070888" prot="protected" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>degenerateTriangle_</name></member>
@@ -73,6 +74,7 @@
       <member refid="group__GeneralGroup_1ga2243fa1320914c1bbf37aaabbedaef4a" prot="protected" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>pairV_</name></member>
       <member refid="group__GeneralGroup_1ga83272fcfe28d46d0c521b5f7c5af73f4" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>reset</name></member>
       <member refid="group__GeneralGroup_1ga88fe2ec458dc79515a087d948cd80237" prot="public" virt="non-virtual" ambiguityscope="MR::InSphereTester::"><scope>MR::InSphereTesterSoS</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga9fff1948f663f24317ef2fd95c127d74" prot="public" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>sphereExists</name></member>
       <member refid="group__GeneralGroup_1gacf6bc51e20756e358846e3a1e06435d4" prot="protected" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>va_</name></member>
       <member refid="group__GeneralGroup_1ga444c2f2ff20b38dc0100b98f265623a3" prot="protected" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>vb_</name></member>
       <member refid="group__GeneralGroup_1gacab5c4bb57db9e7c39168b0a7c80f78a" prot="protected" virt="non-virtual"><scope>MR::InSphereTesterSoS</scope><name>vc_</name></member>

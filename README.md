@@ -56,10 +56,12 @@ You can try updating them using the following instructions:
 
 1. Prepare html_header.html
 
-Inject Google Analytics code into the HTML header
-```
-sed -e "/<head>/r scripts/analytics/html_head.html" -e "/<body>/r scripts/analytics/html_body.html" -i html_header.html
-```
+Keep the consent script and add no analytics or tag-manager code to the header.
+The documentation is served as https://meshlib.io/documentation, under the meshlib.io
+cookie policy, so trackers may load only after the visitor consents. The header loads
+`<script src="/consent/embed.js" defer></script>`, which inserts the meshlib.io cookie
+banner and loads the same trackers as the site once the visitor agrees; the choice is
+shared with the site. The script lives in the meshlib.io website repository.
 
 Add doxygen-awesome scripts
 ```

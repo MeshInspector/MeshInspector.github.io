@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Documentation
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,11 +133,12 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
   <div class="headertitle"><div class="title">Terrain Triangulation Example </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Example of generating a triangulation from a terrain scan (specific pointcloud).</p>
+<div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2ExampleTerrainTriangulation"></a></p>
+<p>Example of generating a triangulation from a terrain scan (specific pointcloud).</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsLoad.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRTerrainTriangulation.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRDelaunayTriangulationXY.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRColor.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
@@ -161,7 +155,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">        std::cerr &lt;&lt; loadRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">        <span class="keywordflow">return</span> 1; <span class="comment">// error while loading file</span></div>
 <div class="line">    }</div>
-<div class="line">    <span class="keyword">auto</span> triangulationRes = MR::terrainTriangulation( loadRes-&gt;points.vec_ );</div>
+<div class="line">    <span class="keyword">auto</span> triangulationRes = MR::delaunayTriangulationXY( *loadRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !triangulationRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; triangulationRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
@@ -169,7 +163,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    MR::SaveSettings ss;</div>
-<div class="line">    <span class="keywordflow">if</span> ( loadRes-&gt;points.vec_.size() == colors.size() )</div>
+<div class="line">    <span class="keywordflow">if</span> ( loadRes-&gt;points.size() == colors.size() )</div>
 <div class="line">    ss.colors = &amp;colors;</div>
 <div class="line">    <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( *triangulationRes, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, ss );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !saveRes.has_value() )</div>
@@ -189,10 +183,10 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">lps.colors = colors</div>
 <div class="line">pc = mm.loadPoints(<span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>,lps)</div>
 <div class="line"> </div>
-<div class="line">terrain_mesh = mm.terrainTriangulation(pc.points.vec)</div>
+<div class="line">terrain_mesh = mm.delaunayTriangulationXY(pc)</div>
 <div class="line"> </div>
 <div class="line">mss = mm.SaveSettings()</div>
-<div class="line"><span class="keywordflow">if</span> (pc.points.vec.size() == colors.size()):</div>
+<div class="line"><span class="keywordflow">if</span> (pc.points.size() == colors.size()):</div>
 <div class="line">    mss.colors = colors</div>
 <div class="line">mm.saveMesh(terrain_mesh, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>,mss)</div>
 </div><!-- fragment --></li>
@@ -200,7 +194,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRPointsLoadSettings.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRVector.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRTerrainTriangulation.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRDelaunayTriangulationXY.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRSaveSettings.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRColor.h&gt;</span></div>
@@ -222,7 +216,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">    MR_VertColors* colors = MR_VertColors_DefaultConstruct();</div>
 <div class="line">    MR_PointsLoadSettings* pls = MR_PointsLoadSettings_DefaultConstruct();</div>
 <div class="line">    MR_PointsLoadSettings_Set_colors( pls, colors );</div>
-<div class="line">    MR_expected_MR_PointCloud_std_string* loadRes = MR_PointsLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>, NULL, pls );</div>
+<div class="line">    MR_expected_MR_PointCloud_std_string* loadRes = MR_PointsLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>, NULL, pls );</div>
 <div class="line">    MR_PointCloud* pc = MR_expected_MR_PointCloud_std_string_value_mut( loadRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !pc )</div>
 <div class="line">    {</div>
@@ -230,10 +224,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail_load; <span class="comment">// error while loading file</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_MR_Mesh_std_string* triangulationRes = MR_terrainTriangulation(</div>
-<div class="line">        MR_PassBy_Copy,</div>
-<div class="line">        MR_VertCoords_GetMutable_vec_( MR_PointCloud_GetMutable_points( pc ) ),</div>
-<div class="line">        MR_PassBy_DefaultArgument, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* triangulationRes = MR_delaunayTriangulationXY_const_MR_PointCloud_ref( pc, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( triangulationRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
@@ -242,14 +233,12 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    MR_SaveSettings* ss = MR_SaveSettings_DefaultConstruct();</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_std_vector_MR_Color_size( MR_VertColors_Get_vec_( colors ) ) ==</div>
-<div class="line">         MR_std_vector_MR_Vector3f_size( MR_VertCoords_Get_vec_( MR_PointCloud_Get_points( pc ) ) )</div>
-<div class="line">         )</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_VertColors_size( colors ) == MR_VertCoords_size( MR_PointCloud_Get_points( pc ) ) )</div>
 <div class="line">    {</div>
 <div class="line">        MR_SaveSettings_Set_colors( ss, colors );</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, NULL, ss );</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, NULL, ss );</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>

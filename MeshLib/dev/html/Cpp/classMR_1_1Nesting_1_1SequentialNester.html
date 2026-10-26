@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -151,7 +144,7 @@ $(function(){initNavTree('classMR_1_1Nesting_1_1SequentialNester.html','','class
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:gaaf169bf48bf09a3aa9257ab2fa20a7f3" id="r_gaaf169bf48bf09a3aa9257ab2fa20a7f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaaf169bf48bf09a3aa9257ab2fa20a7f3">SequentialNester</a> (const <a class="el" href="structMR_1_1Nesting_1_1NestingBaseParams.html">NestingBaseParams</a> &amp;params, float voxelSize)</td></tr>
+<tr class="memitem:gaaf169bf48bf09a3aa9257ab2fa20a7f3" id="r_gaaf169bf48bf09a3aa9257ab2fa20a7f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaaf169bf48bf09a3aa9257ab2fa20a7f3">SequentialNester</a> (const <a class="el" href="structMR_1_1Nesting_1_1NestingBaseParams.html">NestingBaseParams</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>, float voxelSize)</td></tr>
 <tr class="memdesc:gaaf169bf48bf09a3aa9257ab2fa20a7f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">if voxelSize &gt; 0 peform densification on each addition  <br /></td></tr>
 <tr class="memitem:gadd6d11f91cd7c2f23476723ec6d9bccf" id="r_gadd6d11f91cd7c2f23476723ec6d9bccf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Nesting_1_1NestingResult.html">NestingResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gadd6d11f91cd7c2f23476723ec6d9bccf">nestMesh</a> (const <a class="el" href="structMR_1_1Nesting_1_1MeshXf.html">MeshXf</a> &amp;meshXf, const <a class="el" href="structMR_1_1Nesting_1_1BoxNestingOptions.html">BoxNestingOptions</a> &amp;options, const std::vector&lt; <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> &gt; *densificationSequence=nullptr)</td></tr>
 <tr class="memitem:ga956a20ce168470b2508f2e52ec9fcf2b" id="r_ga956a20ce168470b2508f2e52ec9fcf2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1Nesting_1_1NestingResult.html">NestingResult</a>, ObjId &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga956a20ce168470b2508f2e52ec9fcf2b">nestMeshes</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1Nesting_1_1MeshXf.html">MeshXf</a>, ObjId &gt; &amp;meshes, const <a class="el" href="structMR_1_1Nesting_1_1BoxNestingOptions.html">BoxNestingOptions</a> &amp;options, const std::vector&lt; <a class="el" href="group__VolumeIndexerGroup.html#gaa7203f0917dc651aa1261d90d266752e">OutEdge</a> &gt; *densificationSequence=nullptr)</td></tr>

@@ -8,7 +8,7 @@ var MRCudaPointsToMeshProjector_8h =
     [ "MR_Cuda_PointsToMeshProjector_DestroyArray", "MRCudaPointsToMeshProjector_8h.html#a7ebaefffa0e3c2d62d2675bcb83fb496", null ],
     [ "MR_Cuda_PointsToMeshProjector_DynamicDowncastFrom_MR_IPointsToMeshProjector", "MRCudaPointsToMeshProjector_8h.html#a3d4128a06d80b489f6e94e6f6e27eab8", null ],
     [ "MR_Cuda_PointsToMeshProjector_DynamicDowncastFromOrFail_MR_IPointsToMeshProjector", "MRCudaPointsToMeshProjector_8h.html#a63148f955d9c4917a16bc3647b083280", null ],
-    [ "MR_Cuda_PointsToMeshProjector_findProjections", "MRCudaPointsToMeshProjector_8h.html#ac8303a76dc5a91d8bfbdbf5160735627", null ],
+    [ "MR_Cuda_PointsToMeshProjector_findProjections", "MRCudaPointsToMeshProjector_8h.html#a323ad3b76d512d2efb2f65964838fde1", null ],
     [ "MR_Cuda_PointsToMeshProjector_MutableDynamicDowncastFrom_MR_IPointsToMeshProjector", "MRCudaPointsToMeshProjector_8h.html#a1f00ff50189ebad3b697360f912b9b2b", null ],
     [ "MR_Cuda_PointsToMeshProjector_MutableDynamicDowncastFromOrFail_MR_IPointsToMeshProjector", "MRCudaPointsToMeshProjector_8h.html#a0b1bb665b0b74f30f3960313a34195fa", null ],
     [ "MR_Cuda_PointsToMeshProjector_MutableStaticDowncastFrom_MR_IPointsToMeshProjector", "MRCudaPointsToMeshProjector_8h.html#a1eebd00b6a582189f536f47400e6a4b8", null ],

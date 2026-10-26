@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Documentation
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -146,16 +139,27 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
     <a href="#autotoc_md24">Setting Up MeshLib for C++ Development </a>
     <ul>
       <li class="level2">
+        <a href="#CppSetupPrerequisites">Prerequisites </a>
+        <ul>
+          <li class="level3">
+            <a href="#autotoc_md25">Compiler and language standard </a>
+          </li>
+          <li class="level3">
+            <a href="#autotoc_md26">CMake </a>
+          </li>
+        </ul>
+      </li>
+      <li class="level2">
         <a href="#CppSetupWindows">Windows </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md25">Installing the release build </a>
+            <a href="#autotoc_md27">Installing the release build </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md26">Compile Locally </a>
+            <a href="#autotoc_md28">Compile Locally </a>
             <ul>
               <li class="level4">
-                <a href="#autotoc_md27">Prerequisites </a>
+                <a href="#autotoc_md29">Prerequisites </a>
               </li>
               <li class="level4">
                 <a href="#CppSetupWindowsLocalBuild">Installing the local build </a>
@@ -168,16 +172,16 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
         <a href="#CppSetupLinux">Linux </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md28">Installing the release build </a>
+            <a href="#autotoc_md30">Installing the release build </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md29">Compile Locally </a>
+            <a href="#autotoc_md31">Compile Locally </a>
             <ul>
               <li class="level4">
-                <a href="#autotoc_md30">Prerequisites </a>
+                <a href="#autotoc_md32">Prerequisites </a>
               </li>
               <li class="level4">
-                <a href="#autotoc_md31">Installing the local build </a>
+                <a href="#autotoc_md33">Installing the local build </a>
               </li>
             </ul>
           </li>
@@ -187,16 +191,16 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
         <a href="#CppSetupMacOS">macOS </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md32">Installing the release build </a>
+            <a href="#autotoc_md34">Installing the release build </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md33">Compile Locally </a>
+            <a href="#autotoc_md35">Compile Locally </a>
             <ul>
               <li class="level4">
                 <a href="#CppSetupMacOSPrereq">Prerequisites </a>
               </li>
               <li class="level4">
-                <a href="#autotoc_md34">Installing the local build </a>
+                <a href="#autotoc_md36">Installing the local build </a>
               </li>
             </ul>
           </li>
@@ -206,10 +210,10 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
         <a href="#CppSetupWASM">Building WebAssembly with MeshLib Using Emscripten </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md35">Install Emscripten </a>
+            <a href="#autotoc_md37">Install Emscripten </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md36">Installing the release build </a>
+            <a href="#autotoc_md38">Installing the release build </a>
           </li>
           <li class="level3">
             <a href="#CppSetupWASMLocalBuild">Compile locally </a>
@@ -228,7 +232,7 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
         <a href="#CppSetupTroubleshooting">Troubleshooting </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md37">Where the logs are </a>
+            <a href="#autotoc_md39">Where the logs are </a>
           </li>
         </ul>
       </li>
@@ -236,16 +240,29 @@ $(function(){initNavTree('MeshLibCppSetupGuide.html','',''); });
   </li>
 </ul>
 </div>
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md24"></a>
+<div class="textblock"><p><a class="anchor" id="md_doxygen_2general__pages_2CppSetupGuide"></a></p>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md24"></a>
 Setting Up MeshLib for C++ Development</h1>
 <p>This guide explains how to set up MeshLib for C++ development on <a class="el" href="#CppSetupWindows">Windows</a>, <a class="el" href="#CppSetupLinux">Linux</a>, and <a class="el" href="#CppSetupMacOS">macOS</a>, and also shows how to <a class="el" href="#CppSetupWASM">build WebAssembly</a> modules using MeshLib with Emscripten. It covers all the prerequisites and setup steps for each platform, making it easy to get started. When you are done, confirm the result with <a class="el" href="#CppSetupVerify">Verify your setup</a> — two of its three checks need no graphical session and report failure through their exit status. If a step fails, see <a class="el" href="#CppSetupTroubleshooting">Troubleshooting</a> at the end of this page.</p>
+<h2 class="doxsection"><a class="anchor" id="CppSetupPrerequisites"></a>
+Prerequisites</h2>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md25"></a>
+Compiler and language standard</h3>
+<p>MeshLib uses C++20 standard and is tested to be compiled with:</p><ul>
+<li>GCC 11 or newer</li>
+<li>Clang 14 or newer</li>
+<li>MSVC 2019 or newer</li>
+</ul>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
+CMake</h3>
+<p>Integrating MeshLib with CMake needs CMake 3.18 or newer. See <a class="el" href="MeshLibCmakeSetupGuide.html">the CMake Setup Guide</a> for the full <span class="tt">CMakeLists.txt</span>.</p>
 <h2 class="doxsection"><a class="anchor" id="CppSetupWindows"></a>
 Windows</h2>
-<dl class="section note"><dt>Note</dt><dd>MeshLib for Windows is distributed for <b>x64</b> only: set the platform of your project to <span class="tt">x64</span>. A 32-bit (<span class="tt">Win32</span>) build is not supported and fails while compiling <span class="tt">MRMesh/MRId.h</span> with <span class="tt">C2535: member function already defined or declared</span> and <span class="tt">C2995: function template has already been defined</span> (on 32-bit MSVC <span class="tt">size_t</span> and <span class="tt">unsigned int</span> are the same type, so two <span class="tt">MR::Id</span> constructors collapse into one). Visual Studio 2019 still defaults new C++ console projects to <span class="tt">Win32</span>. On Windows on Arm, use the x64 toolchain: no native Arm64 Windows build is published.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>MeshLib for Windows is distributed for <b>x64</b> and <b>Arm64</b>: set the platform of your project to <span class="tt">x64</span> or <span class="tt">ARM64</span>. A 32-bit (<span class="tt">Win32</span>) build is not supported and fails while compiling <span class="tt">MRMesh/MRId.h</span> with <span class="tt">C2535: member function already defined or declared</span> and <span class="tt">C2995: function template has already been defined</span> (on 32-bit MSVC <span class="tt">size_t</span> and <span class="tt">unsigned int</span> are the same type, so two <span class="tt">MR::Id</span> constructors collapse into one). Visual Studio 2019 still defaults new C++ console projects to <span class="tt">Win32</span>. On Windows on Arm, take the <span class="tt">-arm64</span> archive; it is built with Visual Studio 2026 and ships no <span class="tt">MRCuda</span>, there being no CUDA toolkit for that platform.</dd></dl>
 <p>There are two options: Download and Install release build or compile from sources: </p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md25"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
 Installing the release build</h3>
-<p>Every release publishes one Windows distributive per Visual Studio toolset, plus one for Debug builds that keep MSVC's iterator debugging on. Take the row matching the toolset your own project is built with, or an older one: MSVC keeps its <span class="tt">v140</span> to <span class="tt">v145</span> build tools (Visual Studio 2015 to 2026) <a href="https://learn.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017">binary-compatible</a>, so the <span class="tt">VS19</span> archive links into a Visual Studio 2022 or 2026 project as well — the link itself must be done by the newer toolset. The opposite direction does not work: older build tools accept a newer DLL only when its exports are <span class="tt">extern "C"</span>, and MeshLib exports C++. Matching your own toolset stays the tested configuration, though: MeshLib compiles with <span class="tt">/std:c++latest</span> (<span class="tt">source/common.props</span>), and MSVC's standard library excludes <span class="tt">/std:c++latest</span> features from that binary-compatibility promise.</p>
+<p>Every release publishes one Windows distributive per Visual Studio toolset and target architecture, plus one for Debug builds that keep MSVC's iterator debugging on. Take the row matching the toolset your own project is built with, or an older one: MSVC keeps its <span class="tt">v140</span> to <span class="tt">v145</span> build tools (Visual Studio 2015 to 2026) <a href="https://learn.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017">binary-compatible</a>, so the <span class="tt">VS19</span> archive links into a Visual Studio 2022 or 2026 project as well — the link itself must be done by the newer toolset. The opposite direction does not work: older build tools accept a newer DLL only when its exports are <span class="tt">extern "C"</span>, and MeshLib exports C++. Matching your own toolset stays the tested configuration, though: MeshLib compiles with <span class="tt">/std:c++latest</span> (<span class="tt">source/common.props</span>), and MSVC's standard library excludes <span class="tt">/std:c++latest</span> features from that binary-compatibility promise.</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Built with  </th><th class="markdownTableHeadNone">Archive  </th><th class="markdownTableHeadNone">Debug <span class="tt">_ITERATOR_DEBUG_LEVEL</span>  </th></tr>
@@ -256,10 +273,12 @@ Installing the release build</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">2026  </td><td class="markdownTableBodyNone"><span class="tt">MeshLibDistVS26_&lt;version&gt;.zip</span>  </td><td class="markdownTableBodyNone"><span class="tt">0</span>  </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">2026, Windows on Arm  </td><td class="markdownTableBodyNone"><span class="tt">MeshLibDistVS26_&lt;version&gt;-arm64.zip</span>  </td><td class="markdownTableBodyNone"><span class="tt">0</span>  </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">2019 (toolset <span class="tt">v142</span>), <b>Debug configuration only</b>  </td><td class="markdownTableBodyNone"><span class="tt">MeshLibDist_&lt;version&gt;-IteratorDebug.zip</span>  </td><td class="markdownTableBodyNone"><span class="tt">2</span>  </td></tr>
 </table>
-<p>The release description links the three per-Visual-Studio archives; <span class="tt">IteratorDebug</span> appears in the asset list only. Take it if your project builds Debug with MSVC's default <span class="tt">_ITERATOR_DEBUG_LEVEL=2</span>: it ships <span class="tt">install/app/Debug</span> without <span class="tt">install/app/Release</span>, so it covers no Release build — but being a <span class="tt">v142</span> build it serves a newer Visual Studio too, under the rule above. Whichever archive you pick, step 2 must define <span class="tt">_ITERATOR_DEBUG_LEVEL</span> to the value in the table — <span class="tt">0</span> for the three per-Visual-Studio archives, <span class="tt">2</span> for <span class="tt">IteratorDebug</span>. Archives predating <span class="tt">install/include/MRMesh/config_dist.h</span> need <span class="tt">MR_ITERATOR_DEBUG_LEVEL</span> set to the same value as well; newer ones declare it themselves in that header, which leaves <span class="tt">IteratorDebug</span> needing no define at all.</p>
-<p>Debug symbols ship separately: every archive above has a companion <span class="tt">-PDB.zip</span> (<span class="tt">MeshLibDistVS26_&lt;version&gt;-PDB.zip</span>, <span class="tt">MeshLibDist_&lt;version&gt;-IteratorDebug-PDB.zip</span>, ...) holding only the <span class="tt">.pdb</span> files. Extract it over the same directory to put them back under <span class="tt">install/lib</span>, where the debugger looks for them. They are needed for symbolized call stacks only: without them the archive still compiles, links and runs, and is a few hundred megabytes smaller.</p>
+<p>The release description links the per-Visual-Studio archives; <span class="tt">IteratorDebug</span> appears in the asset list only. Take it if your project builds Debug with MSVC's default <span class="tt">_ITERATOR_DEBUG_LEVEL=2</span>: it ships <span class="tt">install/app/Debug</span> without <span class="tt">install/app/Release</span>, so it covers no Release build — but being a <span class="tt">v142</span> build it serves a newer Visual Studio too, under the rule above. Whichever archive you pick, step 2 must define <span class="tt">_ITERATOR_DEBUG_LEVEL</span> to the value in the table — <span class="tt">0</span> for the per-Visual-Studio archives, <span class="tt">2</span> for <span class="tt">IteratorDebug</span>. Archives predating <span class="tt">install/include/MRMesh/config_dist.h</span> need <span class="tt">MR_ITERATOR_DEBUG_LEVEL</span> set to the same value as well; newer ones declare it themselves in that header, which leaves <span class="tt">IteratorDebug</span> needing no define at all.</p>
+<p>Debug symbols ship separately: every archive above has a companion <span class="tt">-PDB</span> archive (<span class="tt">MeshLibDistVS26_&lt;version&gt;-PDB.zip</span>, <span class="tt">MeshLibDistVS26_&lt;version&gt;-PDB-arm64.zip</span>, <span class="tt">MeshLibDist_&lt;version&gt;-IteratorDebug-PDB.zip</span>, ...) holding only the <span class="tt">.pdb</span> files. Extract it over the same directory to put them back under <span class="tt">install/lib</span>, where the debugger looks for them. They are needed for symbolized call stacks only: without them the archive still compiles, links and runs, and is a few hundred megabytes smaller.</p>
 <ol type="1">
 <li><b>Download and Extract the Built Version</b><ul>
 <li>Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a>.</li>
@@ -276,7 +295,7 @@ Installing the release build</h3>
 <li><p class="startli"><b>Configure and integrate with Visual Studio</b>  </p><ul>
 <li>Debug only:<ul>
 <li><b>Debug Configuration: C/C++ → Preprocessor → Preprocessor Definitions</b>: <br  />
- Add: <span class="tt">_ITERATOR_DEBUG_LEVEL=0;MR_ITERATOR_DEBUG_LEVEL=0</span> — for the per-Visual-Studio archives (<span class="tt">MeshLibDistVS19</span>, <span class="tt">MeshLibDistVS22</span>, <span class="tt">MeshLibDistVS26</span>). <br  />
+ Add: <span class="tt">_ITERATOR_DEBUG_LEVEL=0;MR_ITERATOR_DEBUG_LEVEL=0</span> — for the per-Visual-Studio archives (<span class="tt">MeshLibDistVS19</span>, <span class="tt">MeshLibDistVS22</span>, <span class="tt">MeshLibDistVS26</span>, <span class="tt">MeshLibDistVS26-arm64</span>). <br  />
  For the <span class="tt">MeshLibDist-IteratorDebug</span> archive add <span class="tt">_ITERATOR_DEBUG_LEVEL=2;MR_ITERATOR_DEBUG_LEVEL=2</span> instead. Both defines must carry the same value: MeshLib stops compilation with <span class="tt">#error _ITERATOR_DEBUG_LEVEL is inconsistent with MeshLib</span> when they disagree. <br  />
  Check whether your archive contains <span class="tt">install/include/MRMesh/config_dist.h</span>. If it does, that header already declares <span class="tt">MR_ITERATOR_DEBUG_LEVEL</span> for you, so only <span class="tt">_ITERATOR_DEBUG_LEVEL</span> is yours to set — and <span class="tt">IteratorDebug</span> then needs no define at all, MSVC's Debug default already being <span class="tt">2</span>. Setting <span class="tt">MR_ITERATOR_DEBUG_LEVEL</span> anyway is harmless as long as it matches the archive; a value that contradicts it is rejected at compile time.</li>
 </ul>
@@ -304,9 +323,9 @@ Installing the release build</h3>
 <li><b>Verify the installation</b> <br  />
  Run the checks in <a class="el" href="#CppSetupVerify">Verify your setup</a>: <span class="tt">C:\meshlib-built\install\app\Release\meshconv.exe --help</span> needs no display and its exit status is the signal, while <span class="tt">C:\meshlib-built\install\app\Release\MeshViewer.exe</span> is the interactive check.</li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md26"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
 Compile Locally</h3>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
 Prerequisites</h4>
 <ol type="1">
 <li><b>Git</b><ul>
@@ -344,7 +363,7 @@ Prerequisites</h4>
 <li><b>Clone the</b> <span class="tt">vcpkg</span> <b>repository</b>: <div class="fragment"><div class="line">git clone https://github.com/microsoft/vcpkg.git</div>
 </div><!-- fragment --></li>
 <li><b>Navigate to the</b> <span class="tt">vcpkg</span> <b>directory</b>: <div class="fragment"><div class="line">cd vcpkg</div>
-<div class="line">git checkout 2026.07.29</div>
+<div class="line">git checkout 2026.10.16</div>
 </div><!-- fragment --></li>
 <li><b>Run the bootstrap script to build the</b> <span class="tt">vcpkg</span> <b>executable</b>: <div class="fragment"><div class="line">bootstrap-vcpkg.bat</div>
 </div><!-- fragment --></li>
@@ -364,7 +383,7 @@ Installing the local build</h4>
 </div><!-- fragment --></li>
 <li><b>Clone submodules</b>: <br  />
  Run <span class="tt">scripts/clone_submodules_windows.ps1</span> to clone submodules. It has the same effect as <span class="tt">git submodules update --recursive --init</span>, except that it skips submodules that are not needed on Windows.</li>
-<li><b></b>(Optional) <b>Speed Up with AWS CLI</b><ul>
+<li><b>(Optional) Speed Up with AWS CLI</b><ul>
 <li>Optionally, <a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html">install AWS CLI v2</a> to speed up the process before using the MeshLib Installation Script. Restart your terminal after installation.</li>
 <li>It also changes <b>how</b> the dependencies arrive: with the CLI on <span class="tt">PATH</span> the script restores prebuilt packages from our public S3 cache (<span class="tt">s3://vcpkg-export/&lt;vcpkg-tag&gt;/&lt;triplet&gt;/</span>, no credentials needed) instead of compiling them locally. That cache is keyed on the triplet <b>name</b>, not on your compiler, and the <span class="tt">x64-windows-meshlib</span> folder is written by Visual Studio 2026 builds only.</li>
 <li>So with the AWS CLI installed, the <span class="tt">VCPKG_DEFAULT_TRIPLET</span> of step 4 is what selects the toolset your dependencies were built with, not just their port overlays: on <b>Visual Studio 2019 or 2022</b> it is mandatory, or you link v145 binaries into a v142/v143 project and the link fails. Without the CLI the cache is off and every package is compiled with your own toolset.</li>
@@ -401,7 +420,7 @@ Installing the local build</h4>
 </ol>
 <h2 class="doxsection"><a class="anchor" id="CppSetupLinux"></a>
 Linux</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
 Installing the release build</h3>
 <ol type="1">
 <li><b>Download the Package for Your Distribution and CPU</b> <br  />
@@ -409,7 +428,8 @@ Installing the release build</h3>
  On any other distribution use the portable <b>Linux vcpkg</b> build instead. It bundles its own dependencies and is not installed system-wide: unpack it and use the resulting directory as the MeshLib installation prefix, then skip to step 4. <div class="fragment"><div class="line">mkdir path_to_install &amp;&amp; tar -xf &lt;downloaded&gt;.tar.xz -C path_to_install</div>
 </div><!-- fragment --></li>
 <li><b>Install the Package</b> <br  />
- <span class="tt">apt</span> pulls in the remaining system dependencies itself. The leading <span class="tt">./</span> is required: without it <span class="tt">apt</span> looks for a repository package by that name. <div class="fragment"><div class="line">sudo apt install ./&lt;downloaded&gt;.deb</div>
+ <span class="tt">apt</span> pulls in the remaining system dependencies itself. The leading <span class="tt">./</span> is required: without it <span class="tt">apt</span> looks for a repository package by that name. <br  />
+ <span class="tt">apt</span> refuses a package built for another CPU, but nothing tells the Ubuntu releases apart: the builds all declare the same dependencies and the <span class="tt">preinst</span> carries no release check, so installing the Ubuntu 22 build on Ubuntu 24 succeeds silently. Check the release in the file name first. <div class="fragment"><div class="line">sudo apt install ./&lt;downloaded&gt;.deb</div>
 </div><!-- fragment --></li>
 <li><b>Verify the installation</b> <br  />
  Run the checks in <a class="el" href="#CppSetupVerify">Verify your setup</a>. The <span class="tt">meshconv</span> one needs no graphical session and reports failure through its exit status: <div class="fragment"><div class="line">meshconv --help   # headless, non-zero exit if the installation is incomplete</div>
@@ -417,9 +437,9 @@ Installing the release build</h3>
 </div><!-- fragment --></li>
 <li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a></li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
 Compile Locally</h3>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md32"></a>
 Prerequisites</h4>
 <ol type="1">
 <li><b>Git</b><ul>
@@ -431,26 +451,25 @@ Prerequisites</h4>
 </ul>
 </li>
 <li><b>CUDA Toolkit</b><ul>
-<li>Install <a href="https://developer.nvidia.com/cuda-12-6-3-download-archive">CUDA v12.6</a> from the official website. Follow the Linux installation instructions provided on the CUDA page. <dl class="section note"><dt>Note</dt><dd>You might need to execute &lsquo;export PATH=$(echo $PATH | tr &rsquo;:' '<br  />
-' | grep -v '/mnt' | tr '<br  />
-' ':' | sed 's/:$//')` if you are on WSL to prevent interfearing with host machine CUDA Toolkit (this command will filter host machine paths from PATH enviroment)</dd></dl>
+<li>Install <a href="https://developer.nvidia.com/cuda-12-6-3-download-archive">CUDA v12.6</a> from the official website. Follow the Linux installation instructions provided on the CUDA page. <dl class="section note"><dt>Note</dt><dd>You might need to execute <span class="tt">export PATH=$(echo $PATH | tr ':' '\n' | grep -v '/mnt' | tr '\n' ':' | sed 's/:$//')</span> if you are on WSL to prevent interfearing with host machine CUDA Toolkit (this command will filter host machine paths from PATH enviroment)</dd></dl>
 </li>
 </ul>
 </li>
 </ol>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md31"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
 Installing the local build</h4>
 <ol type="1">
 <li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone https://github.com/MeshInspector/MeshLib.git</div>
 <div class="line">cd MeshLib</div>
 </div><!-- fragment --></li>
 <li><b>Clone submodules</b>: <br  />
- Run <span class="tt">scripts/clone_submodules_linux.sh</span> to clone submodules. It has the same effect as <span class="tt">git submodules update --recursive --init</span>, except that it skips submodules that are not needed on Linux.</li>
-<li><b>Install/Build <a class="el" href="ThirdParty.html">Dependencies</a> and Compile</b>: <div class="fragment"><div class="line">./scripts/build_thirdparty.sh  # Do not select emscripten in the corresponding question</div>
-<div class="line">./scripts/build_source.sh      # Do not select emscripten in the corresponding question</div>
-</div><!-- fragment --> You may also run the scripts in the non-interactive mode (see <a class="el" href="#CppSetupWASM">Building WebAssembly with MeshLib Using Emscripten</a> for more info): <div class="fragment"><div class="line">MR_EMSCRIPTEN=OFF ./scripts/build_thirdparty.sh</div>
+ The build needs only the <span class="tt">thirdparty/imgui</span> submodule. <div class="fragment"><div class="line">git submodule update --init thirdparty/imgui</div>
+</div><!-- fragment --></li>
+<li><b>Install/Build <a class="el" href="ThirdParty.html">Dependencies</a> and Compile</b>: <div class="fragment"><div class="line">./scripts/build_cpm_thirdparty.sh  # Do not select emscripten in the corresponding question</div>
+<div class="line">./scripts/build_source.sh          # Do not select emscripten in the corresponding question</div>
+</div><!-- fragment --> You may also run the scripts in the non-interactive mode (see <a class="el" href="#CppSetupWASM">Building WebAssembly with MeshLib Using Emscripten</a> for more info): <div class="fragment"><div class="line">MR_EMSCRIPTEN=OFF ./scripts/build_cpm_thirdparty.sh</div>
 <div class="line">MR_EMSCRIPTEN=OFF ./scripts/build_source.sh</div>
-</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>Dependencies are installed automatically on Ubuntu only. Elsewhere <span class="tt">build_thirdparty.sh</span> prints <em>"Unsupported system. Installing dependencies is your responsibility."</em>, so install the equivalents of <a href="https://github.com/MeshInspector/MeshLib/blob/master/requirements/ubuntu.txt"><span class="tt">requirements/ubuntu.txt</span></a> yourself first.</dd></dl>
+</div><!-- fragment --> <dl class="section note"><dt>Note</dt><dd>Dependencies are installed automatically on Ubuntu only. Elsewhere <span class="tt">build_cpm_thirdparty.sh</span> prints <em>"Unsupported system. Installing dependencies is your responsibility."</em>, so install the equivalents of <a href="https://github.com/MeshInspector/MeshLib/blob/master/requirements/ubuntu.txt"><span class="tt">requirements/ubuntu.txt</span></a> yourself first.</dd></dl>
 </li>
 <li><b>Create and Install Package</b>: <br  />
  This step will create distribution package and install it to the system <div class="fragment"><div class="line">./scripts/distribution.sh</div>
@@ -466,12 +485,12 @@ Installing the local build</h4>
  <span class="tt">MeshViewer</span> (<span class="tt">./build/Release/bin/MeshViewer</span>) is the interactive check and requires a graphical session.</li>
 </ul>
 </li>
-<li><b>Integrate Using CMake</b> <br  />
+<li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
 <h2 class="doxsection"><a class="anchor" id="CppSetupMacOS"></a>
 macOS</h2>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md32"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md34"></a>
 Installing the release build</h3>
 <ol type="1">
 <li><b>Download the Installer</b> <br  />
@@ -480,19 +499,18 @@ Installing the release build</h3>
 <li>Double-click the downloaded <span class="tt">.pkg</span> and follow the installer. The release asset is the installer itself, so there is nothing to unpack first.</li>
 <li>The framework is installed into <span class="tt">/Library/Frameworks/MeshLib.framework</span>, or into <span class="tt">~/Library/Frameworks/MeshLib.framework</span> if you choose to install for the current user only.</li>
 <li><b>Install Dependencies via Homebrew</b> <br  />
- The <span class="tt">.pkg</span> does not pull in the Homebrew formulae MeshLib links against, so install them yourself. This needs Homebrew — if you do not have it, install it first as described under <a class="el" href="#CppSetupMacOSPrereq">Prerequisites</a>. Open Terminal and run the following command: <div class="fragment"><div class="line">xargs brew install &lt; /Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</div>
+ The <span class="tt">.pkg</span> does not pull in the Homebrew formulae MeshLib links against, so install them yourself. Skip this step if your project enables only the C language. This needs Homebrew — if you do not have it, install it first as described under <a class="el" href="#CppSetupMacOSPrereq">Prerequisites</a>. Open Terminal and run the following command: <div class="fragment"><div class="line">xargs brew install &lt; /Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</div>
 </div><!-- fragment --></li>
 <li>If you installed for the current user only, prefix the path with <span class="tt">~</span>: <span class="tt">~/Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</span>.</li>
 </ul>
 </li>
 <li><b>Verify the installation</b> <br  />
  Run the checks in <a class="el" href="#CppSetupVerify">Verify your setup</a>. <span class="tt">meshconv</span> is not on <span class="tt">PATH</span>; it lives in the framework and needs no graphical session: <div class="fragment"><div class="line">/Library/Frameworks/MeshLib.framework/Versions/Current/bin/meshconv --help</div>
-</div><!-- fragment --> <br  />
- A non-zero exit here usually means the Homebrew requirements above are missing.</li>
-<li><b>Integrate Using CMake</b> <br  />
+</div><!-- fragment --></li>
+<li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
 </ol>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
 Compile Locally</h3>
 <h4 class="doxsection"><a class="anchor" id="CppSetupMacOSPrereq"></a>
 Prerequisites</h4>
@@ -515,7 +533,7 @@ Prerequisites</h4>
 </ul>
 </li>
 </ol>
-<h4 class="doxsection"><a class="anchor" id="autotoc_md34"></a>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md36"></a>
 Installing the local build</h4>
 <ol type="1">
 <li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone https://github.com/MeshInspector/MeshLib.git</div>
@@ -535,7 +553,7 @@ Installing the local build</h4>
 Building WebAssembly with MeshLib Using Emscripten</h2>
 <p>This guide will help you build WebAssembly (WASM) using MeshLib and Emscripten. Please follow the instructions step by step.</p>
 <dl class="section note"><dt>Note</dt><dd>Only web and worker environments (i.e. web browsers) are officially supported.</dd></dl>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md35"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md37"></a>
 Install Emscripten</h3>
 <p>Emscripten is required to compile C++ code into WebAssembly. You can install Emscripten by following the steps below. For more details, refer to the <a href="https://emscripten.org/docs/getting_started/downloads.html">Emscripten official page</a>.</p><ul>
 <li>Clone the Emscripten SDK Repository <br  />
@@ -558,7 +576,7 @@ Install Emscripten</h3>
 </ul>
 <dl class="section note"><dt>Note</dt><dd><b>For Windows Users:</b> <br  />
  Make sure you are using Git Bash, WSL, or another Unix-like environment if you want to follow the exact same steps as on Linux/macOS.</dd></dl>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md36"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md38"></a>
 Installing the release build</h3>
 <ol type="1">
 <li><b>Download the Built Version</b> <br  />
@@ -567,7 +585,7 @@ Installing the release build</h3>
 <li><b>Extract the Package</b> <br  />
  Extract the package using an archiving tool or with the unzip command: <div class="fragment"><div class="line">unzip -d path_to_install &lt;downloaded&gt;.zip</div>
 </div><!-- fragment --></li>
-<li><b>Integrate Using CMake</b> <br  />
+<li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a> <br  />
  Specify the path to the extracted files with the <span class="tt">CMAKE_FIND_ROOT_PATH</span> option: <div class="fragment"><div class="line">emcmake cmake -S . -B build -DCMAKE_FIND_ROOT_PATH=path_to_install</div>
 </div><!-- fragment --> <br  />
  Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
@@ -576,6 +594,8 @@ Installing the release build</h3>
 Compile locally</h3>
 <ul>
 <li>Navigate to the MeshLib directory: <div class="fragment"><div class="line">cd ~/MeshLib</div>
+</div><!-- fragment --></li>
+<li>Clone the third-party submodules: <div class="fragment"><div class="line">git submodule update --init</div>
 </div><!-- fragment --></li>
 <li>Run the script to build <a class="el" href="ThirdParty.html">Third-Party Dependencies</a>. When prompted, select <b>Emscripten</b> as the build target:<ul>
 <li><span class="tt">y</span> - Emscripten, multi-threaded</li>
@@ -642,12 +662,11 @@ Running the WebAssembly Build</h4>
 <h2 class="doxsection"><a class="anchor" id="CppSetupVerify"></a>
 Verify your setup</h2>
 <p>Two of the three checks below need no graphical session and report failure through their exit status — use those on a server, in a container, in CI or from a coding agent.</p>
-<ol type="1">
-<li>Run <span class="tt">meshconv</span>.** It ships in every package and needs no display. It exits <span class="tt">0</span> only if the binary and all of its shared libraries load, so a non-zero status means the installation is incomplete: <div class="fragment"><div class="line">meshconv --help                                                              # Linux: on PATH from /usr/local/bin</div>
+<p><b>1. Run <span class="tt">meshconv</span>.</b> It ships in every package and needs no display. It exits <span class="tt">0</span> only if the binary and all of its shared libraries load, so a non-zero status means the installation is incomplete: </p><div class="fragment"><div class="line">meshconv --help                                                              # Linux: on PATH from /usr/local/bin</div>
 <div class="line">/Library/Frameworks/MeshLib.framework/Versions/Current/bin/meshconv --help   # macOS: not on PATH</div>
 </div><!-- fragment --> <div class="fragment"><div class="line">install\app\Release\meshconv.exe --help</div>
-</div><!-- fragment --> A broken installation fails loudly here, e.g. <span class="tt">error while loading shared libraries: libMRIOExtras.so</span> with exit <span class="tt">127</span>.</li>
-<li>Build and run a program against MeshLib.** The strongest check: it verifies the headers, the libraries and linking, which running a prebuilt binary does not. Take the complete <span class="tt">CMakeLists.txt</span> from <a class="el" href="MeshLibCmakeSetupGuide.html">the CMake Setup Guide</a> and use this as <span class="tt">main.cpp</span>: <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRCube.h&gt;</span></div>
+</div><!-- fragment --><p> A broken installation fails loudly here, e.g. <span class="tt">error while loading shared libraries: libMRIOExtras.so</span> with exit <span class="tt">127</span>.</p>
+<p><b>2. Build and run a program against MeshLib.</b> The strongest check: it verifies the headers, the libraries and linking, which running a prebuilt binary does not. Take the complete <span class="tt">CMakeLists.txt</span> from <a class="el" href="MeshLibCmakeSetupGuide.html">the CMake Setup Guide</a> and use this as <span class="tt">main.cpp</span>: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRCube.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
 <div class="line"> </div>
@@ -679,9 +698,8 @@ Verify your setup</h2>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
-</div><!-- fragment --> It prints <span class="tt">verts=8 faces=12</span>, writes a 684-byte <span class="tt">cube.stl</span> next to the executable, and returns non-zero on any mismatch or save error. MeshLib CI compiles it on every supported platform as <span class="tt"><a class="el" href="VerifySetup_8dox_8cpp.html">examples/cpp-examples/VerifySetup.dox.cpp</a></span>.</li>
-<li>Open <span class="tt">MeshViewer</span>** — the interactive check, and the only one that <b>requires a graphical session</b>. Without one it logs <span class="tt">X11: The DISPLAY environment variable is missing</span> and <span class="tt">glfwInit failed</span>. Its exit status is not a dependable success signal (<span class="tt">1</span> on the Ubuntu package, reported as <span class="tt">0</span> on other builds), so never gate an automated check on it — use check 1 or 2 for that.</li>
-</ol>
+</div><!-- fragment --><p> It prints <span class="tt">verts=8 faces=12</span>, writes a 684-byte <span class="tt">cube.stl</span> next to the executable, and returns non-zero on any mismatch or save error. MeshLib CI compiles it on every supported platform as <span class="tt"><a class="el" href="VerifySetup_8dox_8cpp.html">examples/cpp-examples/VerifySetup.dox.cpp</a></span>.</p>
+<p><b>3. Open <span class="tt">MeshViewer</span></b> — the interactive check, and the only one that <b>requires a graphical session</b>. Without one it logs <span class="tt">X11: The DISPLAY environment variable is missing</span> and <span class="tt">glfwInit failed</span>. Its exit status is not a dependable success signal (<span class="tt">1</span> on the Ubuntu package, reported as <span class="tt">0</span> on other builds), so never gate an automated check on it — use check 1 or 2 for that.</p>
 <h2 class="doxsection"><a class="anchor" id="CppSetupTroubleshooting"></a>
 Troubleshooting</h2>
 <p>Failures most often hit while following the steps above, with the message each one actually produces.</p>
@@ -695,17 +713,19 @@ Troubleshooting</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">Linux, macOS, WASM (consuming an installed MeshLib)  </td><td class="markdownTableBodyNone"><span class="tt">MRMeshFwd.h:70:10: fatal error: parallel_hashmap/phmap_fwd_decl.h: No such file or directory</span>  </td><td class="markdownTableBodyNone">MeshLib's public headers include third-party headers, and <span class="tt">${MESHLIB_THIRDPARTY_INCLUDE_DIR}</span> is missing from your target's include directories.  </td><td class="markdownTableBodyNone">Add it next to <span class="tt">${MESHLIB_INCLUDE_DIR}</span>: <span class="tt">target_include_directories(${TARGET} PUBLIC ${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</span>. See <a class="el" href="MeshLibCmakeSetupGuide.html">MeshLib CMake Setup Guide</a> and <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples/cpp-examples/CMakeLists.txt</a>.  </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Linux, macOS (consuming an installed MeshLib)  </td><td class="markdownTableBodyNone">CMake configuration stops with <span class="tt">Target "..." links to: MeshLib::MeshLibC2 but the target was not found</span>, suggesting a typo.  </td><td class="markdownTableBodyNone"><span class="tt">meshlib-config.cmake</span> defines the C API target only when the project has the C language enabled.  </td><td class="markdownTableBodyNone">Add <span class="tt">C</span> to the languages of your <span class="tt">project()</span> call.  </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">macOS  </td><td class="markdownTableBodyNone">CMake configuration fails inside <span class="tt">MRMeshConfig.cmake</span> with <span class="tt">find_dependency</span>: <span class="tt">Could NOT find Boost (missing: Boost_INCLUDE_DIR)</span> (Boost is just the first of several such dependencies).  </td><td class="markdownTableBodyNone">The Homebrew requirements were never installed — the <span class="tt">.pkg</span> installer does not pull them in.  </td><td class="markdownTableBodyNone"><span class="tt">xargs brew install &lt; /Library/Frameworks/MeshLib.framework/Versions/Current/requirements/macos.txt</span> (for a current-user-only install, prefix the path with <span class="tt">~</span>).  </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">WASM  </td><td class="markdownTableBodyNone"><span class="tt">build_thirdparty.sh</span> or <span class="tt">build_source.sh</span> silently produces a native build although Emscripten was selected.  </td><td class="markdownTableBodyNone">The prompt is a <span class="tt">read -t 5</span>: with no keypress within five seconds it falls back to <span class="tt">OFF</span>. Each script asks separately, so the two can disagree.  </td><td class="markdownTableBodyNone">Skip the prompt entirely — <span class="tt">export MR_EMSCRIPTEN=ON</span> once, before running <b>both</b> scripts. Each script prints its resolved mode (<span class="tt">Emscripten ON …</span>); check that line before waiting on a long build.  </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">WASM, runtime  </td><td class="markdownTableBodyNone"><span class="tt">SharedArrayBuffer is not defined</span> in the browser console.  </td><td class="markdownTableBodyNone">The page is served without the cross-origin isolation headers that the multithreaded build needs for shared memory.  </td><td class="markdownTableBodyNone">Serve with <span class="tt">Cross-Origin-Embedder-Policy: require-corp</span> and <span class="tt">Cross-Origin-Opener-Policy: same-origin</span> — see <a class="el" href="#CppSetupWASMRun">Running the WebAssembly Build</a>.  </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Any, runtime  </td><td class="markdownTableBodyNone"><span class="tt">glfw_error_callback: X11: The DISPLAY environment variable is missing</span>, then <span class="tt">glfwInit failed</span>.  </td><td class="markdownTableBodyNone"><span class="tt">MeshViewer</span> was started without a graphical session. Expected over plain SSH or on a headless server — not a broken installation. Its exit status is not a dependable success signal (<span class="tt">1</span> on the Ubuntu package, reported as <span class="tt">0</span> on other builds), so do not gate an automated check on it.  </td><td class="markdownTableBodyNone">Open a desktop session, or run under a virtual display the way MeshLib CI does: <span class="tt">xvfb-run -a MeshViewer -hidden -noEventLoop -unloadPluginsAtEnd</span>. To check an installation without a display, use <a class="el" href="#CppSetupVerify">Verify your setup</a> instead.  </td></tr>
+<td class="markdownTableBodyNone">WASM, runtime  </td><td class="markdownTableBodyNone"><span class="tt">SharedArrayBuffer is not defined</span> in the browser console.  </td><td class="markdownTableBodyNone">The page is served without the cross-origin isolation headers that the multithreaded build needs for shared memory.  </td><td class="markdownTableBodyNone">Serve with <span class="tt">Cross-Origin-Embedder-Policy: require-corp</span> and <span class="tt">Cross-Origin-Opener-Policy: same-origin</span> — see <a class="el" href="#CppSetupWASMRun">Running the WebAssembly Build</a>.  </td></tr>
 <tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Any, runtime  </td><td class="markdownTableBodyNone"><span class="tt">glfw_error_callback: X11: The DISPLAY environment variable is missing</span>, then <span class="tt">glfwInit failed</span>.  </td><td class="markdownTableBodyNone"><span class="tt">MeshViewer</span> was started without a graphical session. Expected over plain SSH or on a headless server — not a broken installation. Its exit status is not a dependable success signal (<span class="tt">1</span> on the Ubuntu package, reported as <span class="tt">0</span> on other builds), so do not gate an automated check on it.  </td><td class="markdownTableBodyNone">Open a desktop session, or run under a virtual display the way MeshLib CI does: <span class="tt">xvfb-run -a MeshViewer -hidden -noEventLoop -unloadPluginsAtEnd</span>. To check an installation without a display, use <a class="el" href="#CppSetupVerify">Verify your setup</a> instead.  </td></tr>
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">Windows, runtime  </td><td class="markdownTableBodyNone"><span class="tt">MeshViewer.exe</span> logs <span class="tt">icons path …\app\Release\resource\logos\X1 is not directory</span> (and <span class="tt">X3</span>).  </td><td class="markdownTableBodyNone">Benign: those logo directories are not part of the release archive. The viewer still starts, creates its window and renders.  </td><td class="markdownTableBodyNone">Nothing to fix — this is not an installation problem.  </td></tr>
 </table>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md37"></a>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md39"></a>
 Where the logs are</h3>
 <ul>
 <li><b>Runtime.</b> <span class="tt">MeshViewer</span> writes a log per run to <span class="tt">&lt;system temp&gt;/MeshLib/Logs/MRLog_&lt;YYYY-MM-DD_HH-MM-SS&gt;_&lt;pid&gt;.txt</span> — <span class="tt">/tmp/MeshLib/Logs/</span> on Linux, <span class="tt">TEMP%\MeshLib\Logs\</span> on Windows, <span class="tt">$TMPDIR/MeshLib/Logs/</span> on macOS. The exact path is printed on startup as a <span class="tt">Log file: …</span> line, which is the reliable way to find it. Logs older than 24 hours are deleted at startup, so collect the file before the next run.</li>

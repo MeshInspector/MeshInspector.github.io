@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRZip.h" line="32" column="17" bodyfile="MRMesh/MRZip.h" bodystart="32" bodyend="-1"/>
+        <location file="MRMesh/MRZip.h" line="53" column="17" bodyfile="MRMesh/MRZip.h" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1CompressZipSettings_1a8e2307f6f06661b56c44492f4ca4a54a" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRZip.h" line="36" column="9" bodyfile="MRMesh/MRZip.h" bodystart="36" bodyend="-1"/>
+        <location file="MRMesh/MRZip.h" line="57" column="9" bodyfile="MRMesh/MRZip.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1CompressZipSettings_1a081a0d03fa07baae69e080a91f1aa61d" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRZip.h" line="39" column="17" bodyfile="MRMesh/MRZip.h" bodystart="39" bodyend="-1"/>
+        <location file="MRMesh/MRZip.h" line="60" column="17" bodyfile="MRMesh/MRZip.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1CompressZipSettings_1a9796435e6a3ca7ed636ac9c0c3121a42" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
@@ -63,14 +63,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRZip.h" line="42" column="22" bodyfile="MRMesh/MRZip.h" bodystart="42" bodyend="-1"/>
+        <location file="MRMesh/MRZip.h" line="63" column="22" bodyfile="MRMesh/MRZip.h" bodystart="63" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRZip.h" line="29" column="1" bodyfile="MRMesh/MRZip.h" bodystart="30" bodyend="43"/>
+    <location file="MRMesh/MRZip.h" line="50" column="1" bodyfile="MRMesh/MRZip.h" bodystart="51" bodyend="64"/>
     <listofallmembers>
       <member refid="structMR_1_1CompressZipSettings_1a9796435e6a3ca7ed636ac9c0c3121a42" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>cb</name></member>
       <member refid="structMR_1_1CompressZipSettings_1a8e2307f6f06661b56c44492f4ca4a54a" prot="public" virt="non-virtual"><scope>MR::CompressZipSettings</scope><name>compressionLevel</name></member>

@@ -91,5 +91,6 @@ var classMR_1_1ObjectDistanceMap =
     [ "updateTexturePerFace", "classMR_1_1ObjectDistanceMap.html#a1f85d3ad3ff4ca0a37f5d6b5a9af1538", null ],
     [ "updateTextures", "classMR_1_1ObjectDistanceMap.html#a644a7b0663d932828acda2201e1dbced", null ],
     [ "updateUVCoords", "classMR_1_1ObjectDistanceMap.html#adf95205409da41e8ba58428c8a1e9c74", null ],
-    [ "updateVertsColorMap", "classMR_1_1ObjectDistanceMap.html#ac9eb3803635a294323bd1b519166f83d", null ]
+    [ "updateVertsColorMap", "classMR_1_1ObjectDistanceMap.html#ac9eb3803635a294323bd1b519166f83d", null ],
+    [ "varMeshPtr", "classMR_1_1ObjectDistanceMap.html#ac5396ff309a08965b76f8195082f7e88", null ]
 ];

@@ -15,8 +15,8 @@ var MRCloseVertices_8h =
     [ "MR_findTwinEdgePairs_MR_MeshTopology", "MRCloseVertices_8h.html#a9d16a1fbc05b5454c846eae4120dfaf0", null ],
     [ "MR_findTwinEdges_1", "MRCloseVertices_8h.html#a44c3e9a22065d3ee7573ff48fb64be9b", null ],
     [ "MR_findTwinEdges_2", "MRCloseVertices_8h.html#a1a7376c6724702fc6058140141d2ab4b", null ],
-    [ "MR_findTwinUndirectedEdgeHashMap_1", "MRCloseVertices_8h.html#a786f48cc844456b54cf3044aa34f5983", null ],
-    [ "MR_findTwinUndirectedEdgeHashMap_2", "MRCloseVertices_8h.html#acb0c3d183c7e95ef3b4b51f2360fbb7e", null ],
+    [ "MR_findTwinUndirectedEdgeHashMap_1", "MRCloseVertices_8h.html#ae27cf5403902b0b530ac215591f92014", null ],
+    [ "MR_findTwinUndirectedEdgeHashMap_2", "MRCloseVertices_8h.html#abc444a65fb0658adbe63558a2bbbc70b", null ],
     [ "MR_findTwinUndirectedEdges_1", "MRCloseVertices_8h.html#aac6bc6b05a360cfda24bece26980d212", null ],
     [ "MR_findTwinUndirectedEdges_2", "MRCloseVertices_8h.html#a1852b076e6030523f361864d8564622e", null ]
 ];

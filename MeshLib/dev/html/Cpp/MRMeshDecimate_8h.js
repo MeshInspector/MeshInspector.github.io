@@ -1,5 +1,9 @@
 var MRMeshDecimate_8h =
 [
+    [ "MR::DecimatePartsMode", "group__DecimateGroup.html#gaed99d2728682c43807db96f18bb16d35", [
+      [ "MR::DecimatePartsMode::PackedMesh", "group__DecimateGroup.html#ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b", null ],
+      [ "MR::DecimatePartsMode::AABBTree", "group__DecimateGroup.html#ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8", null ]
+    ] ],
     [ "MR::DecimateStrategy", "group__DecimateGroup.html#ga216960c15f7b00558ab28053967a9615", [
       [ "MR::MinimizeError", "group__DecimateGroup.html#gga216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098", null ],
       [ "MR::ShortestEdgeFirst", "group__DecimateGroup.html#gga216960c15f7b00558ab28053967a9615a701726fb0205943f4567e09bcebd0552", null ]

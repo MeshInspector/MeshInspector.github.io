@@ -1,10 +1,10 @@
 var classMR_1_1VisualObject =
 [
     [ "VisualObject", "classMR_1_1VisualObject.html#afba4e36ba430b26b2a358fe7669c568b", null ],
-    [ "VisualObject", "classMR_1_1VisualObject.html#a95016bb1aefebfa8952ac3457cc57ee4", null ],
-    [ "~VisualObject", "classMR_1_1VisualObject.html#a32d2019eae016848083a25a159b3b058", null ],
+    [ "VisualObject", "classMR_1_1VisualObject.html#aa760a971390294ae8f47b048e2254078", null ],
+    [ "~VisualObject", "classMR_1_1VisualObject.html#a4d882264305c1f53e4fbc8f91d904be2", null ],
     [ "VisualObject", "classMR_1_1VisualObject.html#a132f300dcd5614eaaa237b865dc79763", null ],
-    [ "VisualObject", "classMR_1_1VisualObject.html#a84d46a3ce3da143b5735f0b6ac79deee", null ],
+    [ "VisualObject", "classMR_1_1VisualObject.html#ae95163e3f9a621b38ea424bb85259f83", null ],
     [ "boundingBoxToInfoLines_", "classMR_1_1VisualObject.html#a5166814acd584216ff6f71fa1b642a6a", null ],
     [ "className", "classMR_1_1VisualObject.html#a4a9efcd8828d774516f5cd4960359d08", null ],
     [ "classNameInPlural", "classMR_1_1VisualObject.html#a470477a43cc2e761f791623ee732e4b7", null ],
@@ -37,7 +37,7 @@ var classMR_1_1VisualObject =
     [ "heapBytes", "classMR_1_1VisualObject.html#a46e7b1e2f2d00253dfab10bc0ccc0c64", null ],
     [ "invalidateMetricsCache_", "classMR_1_1VisualObject.html#a0afddb47790734d5e623060cab2fa9e4", null ],
     [ "isPickable", "classMR_1_1VisualObject.html#a938a64da82232f07dec418b944f5bc8b", null ],
-    [ "operator=", "classMR_1_1VisualObject.html#ad5bb82fa6b6b0ea77f0137b975c802f6", null ],
+    [ "operator=", "classMR_1_1VisualObject.html#a8ece540600bd8e7ebf4ca08077b7e84a", null ],
     [ "render", "classMR_1_1VisualObject.html#a63e449ef55a202b2a236381ea648c197", null ],
     [ "renderForPicker", "classMR_1_1VisualObject.html#aac0a5515da7ce6683875d89c3be53962", null ],
     [ "renderUi", "classMR_1_1VisualObject.html#a59c2d4684d78ce2b766917491d4423c6", null ],

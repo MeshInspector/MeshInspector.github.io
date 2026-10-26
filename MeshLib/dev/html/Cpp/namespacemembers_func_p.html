@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -162,6 +155,7 @@ $(function(){initNavTree('namespacemembers_func_p.html','',''); });
 <li>parseTextCoordinate()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gab70ae04aee26ad876f1080bdea061d86">MR</a></li>
 <li>partialOffsetMesh()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga791659f1e41c2486076a24ae429d5c16">MR</a></li>
 <li>patchMesh()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga8d6d34f227cd6fbaf2f220b903791809">MR</a></li>
+<li>patchMeshByGroups()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga615f518e4fa04b0ff073fe2c780e4dda">MR</a></li>
 <li>pathFromUtf8()&#160;:&#160;<a class="el" href="namespaceMR_1_1McpGateway.html#ac20c4e1c03dba31d5c77bdd7aa9f78d0">MR::McpGateway</a>, <a class="el" href="group__BasicGroup.html#gafb82b59416abea95f150286ba0695dd8">MR</a></li>
 <li>pathToString()&#160;:&#160;<a class="el" href="namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#a7959c4b617a6e856c2fe10e56443708d">MR::UI::TestEngine::Control</a></li>
 <li>pathToUtf8()&#160;:&#160;<a class="el" href="namespaceMR_1_1McpGateway.html#a312b4f994478a92f82d7b53b3b2c2c39">MR::McpGateway</a></li>
@@ -183,6 +177,7 @@ $(function(){initNavTree('namespacemembers_func_p.html','',''); });
 <li>pointsToDistanceFunctionVolume()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga815886dfa1babcbedc85b059e1e66fec">MR</a></li>
 <li>pointsToDistanceVolume()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga76d46e2388018a2bca5a72dfaefd30e9">MR::Cuda</a>, <a class="el" href="group__GeneralGroup.html#ga70392e4bbce2674ece793e6e25a120ca">MR</a>, <a class="el" href="namespaceMR_1_1WeightedShell.html#ad1ffa222355f35085c885b87e8d27df8">MR::WeightedShell</a></li>
 <li>pointsToDistanceVolumeByParts()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga2ca6e42153313ca635d7ea3e12d19bf0">MR::Cuda</a></li>
+<li>pointsToDistanceVolumeMemory()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga5cc55a97b581e01247749d0d7e6697a4">MR::Cuda</a></li>
 <li>pointsToMeshFusion()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga8385dbd13a04c7841be48a4d0ad477dc">MR</a></li>
 <li>pointUniformSampling()&#160;:&#160;<a class="el" href="group__PointCloudGroup.html#ga419eb233734e75003af48032eb07f36b">MR</a></li>
 <li>Polyline&lt; Vector2f &gt;()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga1e15a094341523800c2e66c4b9d0fff6">MR</a></li>
@@ -199,8 +194,10 @@ $(function(){initNavTree('namespacemembers_func_p.html','',''); });
 <li>positionVertsSmoothly()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga0e682b83c6954583b3f9ec92e9b5dffa">MR</a></li>
 <li>positionVertsSmoothlySharpBd()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga3dac19de1058f607ecdcf5a193847974">MR</a></li>
 <li>positionVertsWithSpacing()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gadb739a70f56473054c61b01ea775d324">MR</a></li>
+<li>postLaunchDefaultViewer()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaa3218690ec87c6e3c4e07d69881a45b2">MR</a></li>
 <li>postprocessMeshFromVoxels()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga2e8f972be7a04d60a5748945b06ff2a8">MR</a></li>
 <li>preCollapseVertAttribute()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gad9d6f60ebc6c98c7e8ddfc4ad3b46bab">MR</a></li>
+<li>preLaunchDefaultViewer()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gae94a86545f7fb008c49760e3bdab54a1">MR</a></li>
 <li>prepareCurve()&#160;:&#160;<a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#aa8511657c2ed1cc63ff209a6ede1c0f9">MR::ImGuiMeasurementIndicators</a></li>
 <li>pressButton()&#160;:&#160;<a class="el" href="namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#ac10d775037d2669e21260d951a817c7a">MR::UI::TestEngine::Control</a></li>
 <li>primitiveCircle()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga9223e7ea52cd0ccab2aefc1dca9b0942">MR::Features</a></li>
@@ -216,7 +213,7 @@ $(function(){initNavTree('namespacemembers_func_p.html','',''); });
 <li>probeAndTrackBackend()&#160;:&#160;<a class="el" href="namespaceMR_1_1McpGateway.html#a7a95f3dc050ff3960ed8ad8918399289">MR::McpGateway</a></li>
 <li>probeBackendAlive()&#160;:&#160;<a class="el" href="namespaceMR_1_1McpGateway.html#a9ab308a9eb9041eb3bb4933a227f605c">MR::McpGateway</a></li>
 <li>processCloseTriangles()&#160;:&#160;<a class="el" href="group__AABBTreeGroup.html#ga751dcb67fc6f5cf0f46116fcf9cefd9c">MR</a></li>
-<li>processSelfSubtasks()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gad8fa8ec5590f6b95bdbfc2224e8d190f">MR</a></li>
+<li>processSelfSubtasks()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga8dc6b86e59d0d50adae0b3c868158ab5">MR</a></li>
 <li>progressBar()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga053ef267b6d0adb6ab4753aee85f5e98">MR::UI</a></li>
 <li>projArea()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaae7b989c51f5d62e948fabc293b10df8">MR</a></li>
 <li>projectFaceAttribute()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gafb43cdb85d285bf367875ed35c3d8d7a">MR</a></li>
@@ -228,13 +225,15 @@ $(function(){initNavTree('namespacemembers_func_p.html','',''); });
 <li>projectWorldPointOntoObject()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga1cee1396ff421f318ed16ffb3a40bcb3">MR</a></li>
 <li>projectWorldPointOntoObjectsRecursive()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga59ffc7bf41b2002b89e68d941a46b0c1">MR</a></li>
 <li>protectedFunc()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga7b0557ba9010a35f8711edaeef9f1cb4">MR</a></li>
+<li>protectedLaunchPhase()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gacf760e3ba31ad8009635d91e930ce03a">MR</a></li>
 <li>protectedRun()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaefd90794b9e1a0a3b3c1fefd0a9139c4">MR</a></li>
 <li>pseudonormal()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gae114314b5aed7bba0a568a6265baa38f">MR</a></li>
 <li>pushNotification()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gadcdc732c133f1263ac39e56256972ae5">MR</a></li>
 <li>pushTree()&#160;:&#160;<a class="el" href="namespaceMR_1_1UI_1_1TestEngine.html#ad12d929394733bbfd78765262fec48b8">MR::UI::TestEngine</a></li>
 <li>putScanFileNameInZ()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gad32e4b25d65d4972f9223a5261cbd1b9">MR</a></li>
-<li>putSimpleVolumeInDenseGrid()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga7c3b58d5eb16e77c1a7bf7bb0898489f">MR</a></li>
+<li>putSimpleVolumeInDenseGrid()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga3c50f956b4a39dd7c1f0699d10e43868">MR</a></li>
 <li>pythonAppendOrRun()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaf07768b4409c36a0b8cc9b9849f82691">MR</a></li>
+<li>pythonRunCommandFromGUIThread()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gad5f4df8e16c18beb7b823f5b8ef7a98c">MR</a></li>
 <li>pythonRunFromGUIThread()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga0f61ad5fbd50836547b99cd10c78763f">MR</a></li>
 </ul>
 </div><!-- contents -->

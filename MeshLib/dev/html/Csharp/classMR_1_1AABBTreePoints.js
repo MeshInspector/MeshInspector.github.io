@@ -9,5 +9,5 @@ var classMR_1_1AABBTreePoints =
     [ "operator AABBTreePoints", "classMR_1_1AABBTreePoints.html#a34b19d60b140e52545f0a1f8ec6df97a", null ],
     [ "operator AABBTreePoints", "classMR_1_1AABBTreePoints.html#a09ed3d7a8a57d4385d09e34a9c2e2107", null ],
     [ "operator AABBTreePoints", "classMR_1_1AABBTreePoints.html#ad78503b538f226b9b6473f6212998d29", null ],
-    [ "refit", "classMR_1_1AABBTreePoints.html#a233c82a526d1389bc9440a59eb28b919", null ]
+    [ "refit", "classMR_1_1AABBTreePoints.html#a27e6f9c622870d45c89954d452d290f8", null ]
 ];

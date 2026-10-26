@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -194,6 +187,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af7aa1dd011a7ad1260f8e39eadc81b79" id="r_af7aa1dd011a7ad1260f8e39eadc81b79"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7aa1dd011a7ad1260f8e39eadc81b79">classNameInPlural</a> (self)</td></tr>
 <tr class="memitem:a3cede34187cf92e2953b8c04cc66db22" id="r_a3cede34187cf92e2953b8c04cc66db22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cede34187cf92e2953b8c04cc66db22">clone</a> (self)</td></tr>
 <tr class="memitem:a115b8bd891d9bd7e08946e8f84da09f0" id="r_a115b8bd891d9bd7e08946e8f84da09f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a115b8bd891d9bd7e08946e8f84da09f0">cloneTree</a> (self)</td></tr>
+<tr class="memitem:a08d2ce87823fae00ba9c6a3c6e78f7a9" id="r_a08d2ce87823fae00ba9c6a3c6e78f7a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ConstChildren.html">ConstChildren</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08d2ce87823fae00ba9c6a3c6e78f7a9">constChildren</a> (self)</td></tr>
 <tr class="memitem:a567315111aee91b3dd5bfef4188b23b7" id="r_a567315111aee91b3dd5bfef4188b23b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a567315111aee91b3dd5bfef4188b23b7">detachFromParent</a> (self)</td></tr>
 <tr class="memitem:ae6adbbc7286265563fb4d6d162f4dc49" id="r_ae6adbbc7286265563fb4d6d162f4dc49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6adbbc7286265563fb4d6d162f4dc49">find</a> (self, str <a class="el" href="#a1df02ba03a7110bf58c7f740696f4c35">name</a>)</td></tr>
 <tr class="memitem:ae6adbbc7286265563fb4d6d162f4dc49" id="r_ae6adbbc7286265563fb4d6d162f4dc49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6adbbc7286265563fb4d6d162f4dc49">find</a> (self, str <a class="el" href="#a1df02ba03a7110bf58c7f740696f4c35">name</a>)</td></tr>
@@ -459,7 +453,8 @@ NOTE: tags starting with a dot are considered as service ones and might be hidde
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">\\deprecated the cast inside is undefined behaviour, use constChildren() instead
+</pre> 
 </div>
 </div>
 <a id="a56da686c9c9740bc6bd8b96490bec744" name="a56da686c9c9740bc6bd8b96490bec744"></a>
@@ -535,6 +530,25 @@ NOTE: tags starting with a dot are considered as service ones and might be hidde
       </table>
 </div><div class="memdoc">
 <pre class="fragment">clones all tree of this object (except ancillary and unrecognized children)
+</pre> 
+</div>
+</div>
+<a id="a08d2ce87823fae00ba9c6a3c6e78f7a9" name="a08d2ce87823fae00ba9c6a3c6e78f7a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08d2ce87823fae00ba9c6a3c6e78f7a9">&#9670;&#160;</a></span>constChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1ConstChildren.html">ConstChildren</a> mrmeshpy.Object.constChildren </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">the same sub-objects without the ability to modify them; the returned view is
+invalidated by anything that changes the children of this object
 </pre> 
 </div>
 </div>
@@ -775,8 +789,7 @@ Will return `this` if `other` matches `this`.
   </tr>
 </table>
 </div><div class="memdoc">
-<pre class="fragment">empty box
-returns bounding box of this object and all children visible in given (or default) viewport in world coordinates
+<pre class="fragment">returns bounding box of this object and all children visible in given (or default) viewport in world coordinates
 </pre> 
 </div>
 </div>
@@ -835,7 +848,7 @@ returns bounding box of this object and all children visible in given (or defaul
       </table>
 </div><div class="memdoc">
 <pre class="fragment">does the object have any model available (but possibly empty),
-e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
+e.g. ObjectMesh has valid meshPtr() or ObjectPoints has valid pointCloudPtr()
 </pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1ObjectDistanceMap.html#afc192403311c5dbba7c8d47f5f070259">mrmeshpy.ObjectDistanceMap</a>, <a class="el" href="classmrmeshpy_1_1ObjectLinesHolder.html#acfea5d3c47d06fd269b4f67584db0300">mrmeshpy.ObjectLinesHolder</a>, <a class="el" href="classmrmeshpy_1_1ObjectMeshHolder.html#abec49ca4f46abd8fcbd205498598008d">mrmeshpy.ObjectMeshHolder</a>, <a class="el" href="classmrmeshpy_1_1ObjectPointsHolder.html#ada36629a3b4cb47e010f60bc26cb7cc9">mrmeshpy.ObjectPointsHolder</a>, and <a class="el" href="classmrmeshpy_1_1ObjectVoxels.html#ab794eb87da9c38a0a25c2048c867f168">mrmeshpy.ObjectVoxels</a>.</p>
 

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13099" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13099" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13860" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13860" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13103" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13103" bodyend="13107"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13864" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13864" bodyend="13868"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13113" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13113" bodyend="13119"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13874" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13874" bodyend="13878"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ZeroOnMove__SizeT_1a1fa6785c84c021626a26be1b473e64d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13124" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13124" bodyend="13131"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13883" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13883" bodyend="13888"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ZeroOnMove__SizeT_1a1435cebf964a8f97c3f5f1f08ee20a19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ZeroOnMove__SizeT" kindref="compound">MR.ZeroOnMove_SizeT</ref></type>
@@ -95,7 +95,71 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13136" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13136" bodyend="13146"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13893" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13893" bodyend="13901"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1ZeroOnMove__SizeT_1a9a8e27836e0c8e1257f92850958f3569" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ZeroOnMove_SizeT._Underlying *</type>
+        <definition>static unsafe MR.ZeroOnMove_SizeT._Underlying * MR.ZeroOnMove_SizeT.__MR_ZeroOnMove_size_t_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy z_pass_by, MR.ZeroOnMove_SizeT._Underlying *z)</argsstring>
+        <name>__MR_ZeroOnMove_size_t_AssignFromAnother</name>
+        <qualifiedname>MR.ZeroOnMove_SizeT.__MR_ZeroOnMove_size_t_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>z_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.ZeroOnMove_SizeT._Underlying *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13906" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ZeroOnMove__SizeT_1a658c66ba3555989f7c820e539c4d122e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ZeroOnMove_SizeT._Underlying *</type>
+        <definition>static unsafe MR.ZeroOnMove_SizeT._Underlying * MR.ZeroOnMove_SizeT.__MR_ZeroOnMove_size_t_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy z_pass_by, MR.ZeroOnMove_SizeT._Underlying *z)</argsstring>
+        <name>__MR_ZeroOnMove_size_t_ConstructFromAnother</name>
+        <qualifiedname>MR.ZeroOnMove_SizeT.__MR_ZeroOnMove_size_t_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>z_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.ZeroOnMove_SizeT._Underlying *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13909" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ZeroOnMove__SizeT_1a62dad8d2d191c58ad740f9ab5ba5ac13" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ZeroOnMove_SizeT._Underlying *</type>
+        <definition>static unsafe MR.ZeroOnMove_SizeT._Underlying * MR.ZeroOnMove_SizeT.__MR_ZeroOnMove_size_t_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_ZeroOnMove_size_t_DefaultConstruct</name>
+        <qualifiedname>MR.ZeroOnMove_SizeT.__MR_ZeroOnMove_size_t_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13912" column="60"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -147,8 +211,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13097" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13098" bodyend="13147"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13858" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13859" bodyend="13913"/>
     <listofallmembers>
+      <member refid="classMR_1_1ZeroOnMove__SizeT_1a9a8e27836e0c8e1257f92850958f3569" prot="private" virt="non-virtual"><scope>MR::ZeroOnMove_SizeT</scope><name>__MR_ZeroOnMove_size_t_AssignFromAnother</name></member>
+      <member refid="classMR_1_1ZeroOnMove__SizeT_1a658c66ba3555989f7c820e539c4d122e" prot="private" virt="non-virtual"><scope>MR::ZeroOnMove_SizeT</scope><name>__MR_ZeroOnMove_size_t_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1ZeroOnMove__SizeT_1a62dad8d2d191c58ad740f9ab5ba5ac13" prot="private" virt="non-virtual"><scope>MR::ZeroOnMove_SizeT</scope><name>__MR_ZeroOnMove_size_t_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__ZeroOnMove__SizeT_1a7c210909ab706e7c23819e253156cbcc" prot="protected" virt="non-virtual"><scope>MR::ZeroOnMove_SizeT</scope><name>__ref_storage_val</name></member>
       <member refid="classMR_1_1ZeroOnMove__SizeT_1a1435cebf964a8f97c3f5f1f08ee20a19" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove_SizeT</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__ZeroOnMove__SizeT_1aea54215300ba7719d0e2802c5f14012d" prot="package" virt="non-virtual"><scope>MR::ZeroOnMove_SizeT</scope><name>Const_ZeroOnMove_SizeT</name></member>

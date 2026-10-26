@@ -2,7 +2,11 @@ var classmrmeshpy_1_1SharpenMarchingCubesMeshSettings =
 [
     [ "__init__", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a9188e44763219c386458bec4d8adb5c8", null ],
     [ "__init__", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#ad94fd118830f2241f06f32c9b6608ce4", null ],
-    [ "__init__", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#ae8aba610d5f5eae7520041afe6d77fa5", null ],
+    [ "__init__", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#ac568758984128c68cb61a68da0eaf3ce", null ],
+    [ "dims", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a2b5fbdca0b14f5275750244753139c32", null ],
+    [ "dims", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#adc4120bf4448077ed8a3f8441b2dcc67", null ],
+    [ "gridToMeshXf", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#ab94f69ffb634f37a7fd5dc09a76068e0", null ],
+    [ "gridToMeshXf", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a11426f82c5dedab7864e7877ab8546a7", null ],
     [ "maxNewRank2VertDev", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a3328395be3db3f551233b9c2ac9c6469", null ],
     [ "maxNewRank2VertDev", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a85b8021b63109495d8bd1859355e21cb", null ],
     [ "maxNewRank3VertDev", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#af6e49f4ba1926072f9e0e1b47723d3d4", null ],
@@ -16,5 +20,7 @@ var classmrmeshpy_1_1SharpenMarchingCubesMeshSettings =
     [ "outSharpEdges", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#ab7820fa6bd4bac08aadf2c859234ed69", null ],
     [ "outSharpEdges", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#abdd61c2835c2d532f130da1b8b5f8242", null ],
     [ "posSelIters", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a7892d709bb4f33ed5eb412bfe7f0c95a", null ],
-    [ "posSelIters", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#af51d8ce005c19cd0b45c6a50fbee2860", null ]
+    [ "posSelIters", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#af51d8ce005c19cd0b45c6a50fbee2860", null ],
+    [ "voxelClamp", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#aa6d43bec25779a3a9e7478fc84984d16", null ],
+    [ "voxelClamp", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#afc304e46ecd87100ea82676b6c2a7707", null ]
 ];

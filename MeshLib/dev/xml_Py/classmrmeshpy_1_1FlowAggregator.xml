@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21576" bodyend="21577"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21486" bodyend="21487"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21579" bodyend="21582"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21489" bodyend="21492"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1a085847a42b39cf0cca1785e84208d85a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21584" bodyend="21587"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21494" bodyend="21497"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1a85139beb870cc0e93eb54c47ad83bb86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21588" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21588" bodyend="21592"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21498" bodyend="21502"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1a2cad66ccbded9bf4a35c26d7ca9b8166" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertScalars" kindref="compound">VertScalars</ref></type>
@@ -130,12 +130,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21594" bodyend="21599"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21504" bodyend="21509"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1a6b6b14b8de7656d84900179677c2587c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1ae339515d5e3ab4febef23034e293e44f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertScalars" kindref="compound">VertScalars</ref></type>
         <definition> VertScalars mrmeshpy.FlowAggregator.computeFlow</definition>
-        <argsstring>(self, std_vector_MeshTriPoint starts, OutputFlows out=...)</argsstring>
+        <argsstring>(self, std_vector_MeshTriPointT_float starts, OutputFlows out=...)</argsstring>
         <name>computeFlow</name>
         <qualifiedname>mrmeshpy.FlowAggregator.computeFlow</qualifiedname>
         <param>
@@ -143,7 +143,7 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__MeshTriPoint" kindref="compound">std_vector_MeshTriPoint</ref></type>
+          <type><ref refid="classmrmeshpy_1_1std__vector__MeshTriPointT__float" kindref="compound">std_vector_MeshTriPointT_float</ref></type>
           <declname>starts</declname>
         </param>
         <param>
@@ -159,12 +159,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21601" bodyend="21604"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21511" bodyend="21514"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1ab6160992e764056e93ee15bcb5f92b91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1a74702f12db78669b68c113fb16536d35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertScalars" kindref="compound">VertScalars</ref></type>
         <definition> VertScalars mrmeshpy.FlowAggregator.computeFlow</definition>
-        <argsstring>(self, int numStarts, func_MeshTriPoint_from_unsigned_long startById, func_float_from_unsigned_long amountById, func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long regionById, OutputFlows out=...)</argsstring>
+        <argsstring>(self, int numStarts, func_MeshTriPointT_float_from_unsigned_long startById, func_float_from_unsigned_long amountById, func_TypedBitSet_Id_FaceTag_const_ptr_from_unsigned_long regionById, OutputFlows out=...)</argsstring>
         <name>computeFlow</name>
         <qualifiedname>mrmeshpy.FlowAggregator.computeFlow</qualifiedname>
         <param>
@@ -176,7 +176,7 @@
           <declname>numStarts</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long" kindref="compound">func_MeshTriPoint_from_unsigned_long</ref></type>
+          <type><ref refid="classmrmeshpy_1_1func__MeshTriPointT__float__from__unsigned__long" kindref="compound">func_MeshTriPointT_float_from_unsigned_long</ref></type>
           <declname>startById</declname>
         </param>
         <param>
@@ -200,11 +200,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21606" bodyend="21609"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21516" bodyend="21519"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1ad6acdfdf82fcaff04e03a0a2e0340899" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows" kindref="compound">phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</ref></type>
-        <definition> phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows mrmeshpy.FlowAggregator.computeFlowsPerBasin</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1adcdfabb1482299b2ce7272de10a6f060" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows__phmap__Hash__Id__Ve50dc9b72ba134a87065001d0b241ebaf" kindref="compound">phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_FlowAggregator_Flows</ref></type>
+        <definition> phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_FlowAggregator_Flows mrmeshpy.FlowAggregator.computeFlowsPerBasin</definition>
         <argsstring>(self, std_vector_FlowOrigin starts)</argsstring>
         <name>computeFlowsPerBasin</name>
         <qualifiedname>mrmeshpy.FlowAggregator.computeFlowsPerBasin</qualifiedname>
@@ -226,12 +226,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21611" bodyend="21616"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21521" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21521" bodyend="21526"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1ad4b199014b955fd39b0f10057da2f2e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows" kindref="compound">phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</ref></type>
-        <definition> phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows mrmeshpy.FlowAggregator.computeFlowsPerBasin</definition>
-        <argsstring>(self, std_vector_MeshTriPoint starts)</argsstring>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1a16fa49d4d8bb4ba250cdf447315bdec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows__phmap__Hash__Id__Ve50dc9b72ba134a87065001d0b241ebaf" kindref="compound">phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_FlowAggregator_Flows</ref></type>
+        <definition> phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_FlowAggregator_Flows mrmeshpy.FlowAggregator.computeFlowsPerBasin</definition>
+        <argsstring>(self, std_vector_MeshTriPointT_float starts)</argsstring>
         <name>computeFlowsPerBasin</name>
         <qualifiedname>mrmeshpy.FlowAggregator.computeFlowsPerBasin</qualifiedname>
         <param>
@@ -239,7 +239,7 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__MeshTriPoint" kindref="compound">std_vector_MeshTriPoint</ref></type>
+          <type><ref refid="classmrmeshpy_1_1std__vector__MeshTriPointT__float" kindref="compound">std_vector_MeshTriPointT_float</ref></type>
           <declname>starts</declname>
         </param>
         <briefdescription>
@@ -250,12 +250,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21618" bodyend="21621"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21528" bodyend="21531"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1a8ce86ef5823edc67abca2f693b31c3ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows" kindref="compound">phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows</ref></type>
-        <definition> phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows mrmeshpy.FlowAggregator.computeFlowsPerBasin</definition>
-        <argsstring>(self, int numStarts, func_MeshTriPoint_from_unsigned_long startById, func_float_from_unsigned_long amountById)</argsstring>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlowAggregator_1a033390cad38f30f9513144b5f1e9b141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__FlowAggregator__Flows__phmap__Hash__Id__Ve50dc9b72ba134a87065001d0b241ebaf" kindref="compound">phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_FlowAggregator_Flows</ref></type>
+        <definition> phmap_flat_hash_map_Id_VertTag_FlowAggregator_Flows_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_FlowAggregator_Flows mrmeshpy.FlowAggregator.computeFlowsPerBasin</definition>
+        <argsstring>(self, int numStarts, func_MeshTriPointT_float_from_unsigned_long startById, func_float_from_unsigned_long amountById)</argsstring>
         <name>computeFlowsPerBasin</name>
         <qualifiedname>mrmeshpy.FlowAggregator.computeFlowsPerBasin</qualifiedname>
         <param>
@@ -267,7 +267,7 @@
           <declname>numStarts</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long" kindref="compound">func_MeshTriPoint_from_unsigned_long</ref></type>
+          <type><ref refid="classmrmeshpy_1_1func__MeshTriPointT__float__from__unsigned__long" kindref="compound">func_MeshTriPointT_float_from_unsigned_long</ref></type>
           <declname>startById</declname>
         </param>
         <param>
@@ -282,7 +282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21623" bodyend="21626"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21533" bodyend="21536"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -293,18 +293,18 @@
 this class can track multiple flows and find in each mesh vertex the amount of water reached it
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21535" bodyend="21626"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21445" bodyend="21536"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1FlowAggregator_1a535e14a012eb17f4b8dea1515df9c0bb" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FlowAggregator_1ab021f0edced20e493266e08c11c886e9" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FlowAggregator_1a085847a42b39cf0cca1785e84208d85a" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FlowAggregator_1a85139beb870cc0e93eb54c47ad83bb86" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>computeCatchmentDelineation</name></member>
       <member refid="classmrmeshpy_1_1FlowAggregator_1a2cad66ccbded9bf4a35c26d7ca9b8166" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>computeFlow</name></member>
-      <member refid="classmrmeshpy_1_1FlowAggregator_1a6b6b14b8de7656d84900179677c2587c" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>computeFlow</name></member>
-      <member refid="classmrmeshpy_1_1FlowAggregator_1ab6160992e764056e93ee15bcb5f92b91" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>computeFlow</name></member>
-      <member refid="classmrmeshpy_1_1FlowAggregator_1ad6acdfdf82fcaff04e03a0a2e0340899" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
-      <member refid="classmrmeshpy_1_1FlowAggregator_1ad4b199014b955fd39b0f10057da2f2e7" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
-      <member refid="classmrmeshpy_1_1FlowAggregator_1a8ce86ef5823edc67abca2f693b31c3ce" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="classmrmeshpy_1_1FlowAggregator_1ae339515d5e3ab4febef23034e293e44f" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>computeFlow</name></member>
+      <member refid="classmrmeshpy_1_1FlowAggregator_1a74702f12db78669b68c113fb16536d35" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>computeFlow</name></member>
+      <member refid="classmrmeshpy_1_1FlowAggregator_1adcdfabb1482299b2ce7272de10a6f060" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="classmrmeshpy_1_1FlowAggregator_1a16fa49d4d8bb4ba250cdf447315bdec2" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="classmrmeshpy_1_1FlowAggregator_1a033390cad38f30f9513144b5f1e9b141" prot="public" virt="non-virtual"><scope>mrmeshpy::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

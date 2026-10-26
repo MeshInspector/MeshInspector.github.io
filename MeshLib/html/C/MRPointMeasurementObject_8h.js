@@ -17,6 +17,7 @@ var MRPointMeasurementObject_8h =
     [ "MR_PointMeasurementObject_cloneTree", "MRPointMeasurementObject_8h.html#a8b2d60699c6678f3e944c4aef76e5dd8", null ],
     [ "MR_PointMeasurementObject_comparisonToleranceIsAlwaysOnlyPositive", "MRPointMeasurementObject_8h.html#affa650bd16f7c96f9c31a45abfefbfba", null ],
     [ "MR_PointMeasurementObject_computeComparableProperty", "MRPointMeasurementObject_8h.html#adf7a82ffc0537136e1ba182b9b27bfb7", null ],
+    [ "MR_PointMeasurementObject_constChildren", "MRPointMeasurementObject_8h.html#ad8e451fadfea23dd6f028d45baa1bb0d", null ],
     [ "MR_PointMeasurementObject_ConstructFromAnother", "MRPointMeasurementObject_8h.html#ab28dedce32315bb9d422f153d021f970", null ],
     [ "MR_PointMeasurementObject_copyAllSolidColors", "MRPointMeasurementObject_8h.html#a17b8ccda706f53c20f9aa822ca2cac3f", null ],
     [ "MR_PointMeasurementObject_DefaultConstruct", "MRPointMeasurementObject_8h.html#a9f497f6399c4b938aa12abc33c6680d2", null ],

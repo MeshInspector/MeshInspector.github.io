@@ -2,7 +2,7 @@ var classmrmeshpy_1_1ICPProperties =
 [
     [ "__init__", "classmrmeshpy_1_1ICPProperties.html#abe68bb0f3604951e95268c3dfd7eba97", null ],
     [ "__init__", "classmrmeshpy_1_1ICPProperties.html#a2dea189365e1696b3cf748ba878b6a9c", null ],
-    [ "__init__", "classmrmeshpy_1_1ICPProperties.html#a61204eac5bfb717ab47d176a0540606d", null ],
+    [ "__init__", "classmrmeshpy_1_1ICPProperties.html#af2f40a01fa7403de3234b88f6cf3656f", null ],
     [ "badIterStopCount", "classmrmeshpy_1_1ICPProperties.html#a8b7927988eea35058503cbf76709ab8d", null ],
     [ "badIterStopCount", "classmrmeshpy_1_1ICPProperties.html#a69efb3b9084ce61347b3302067744147", null ],
     [ "cosThreshold", "classmrmeshpy_1_1ICPProperties.html#a519b3cf3bc71b7c8a49d80b1961787c8", null ],
@@ -28,5 +28,7 @@ var classmrmeshpy_1_1ICPProperties =
     [ "p2plAngleLimit", "classmrmeshpy_1_1ICPProperties.html#a23780f125ca480f5229e2127d42fdf77", null ],
     [ "p2plAngleLimit", "classmrmeshpy_1_1ICPProperties.html#a1c3c6994d135a325eb26d903c9cc96fd", null ],
     [ "p2plScaleLimit", "classmrmeshpy_1_1ICPProperties.html#a42eecb09247c38ebb33e6d77a6415a12", null ],
-    [ "p2plScaleLimit", "classmrmeshpy_1_1ICPProperties.html#a413d67ced255b4d3991d13d4308ade64", null ]
+    [ "p2plScaleLimit", "classmrmeshpy_1_1ICPProperties.html#a413d67ced255b4d3991d13d4308ade64", null ],
+    [ "p2plStabilizer", "classmrmeshpy_1_1ICPProperties.html#a4ce22742944d6745a1df5f54091d40c0", null ],
+    [ "p2plStabilizer", "classmrmeshpy_1_1ICPProperties.html#a9b7fceb094226c4a445c41c50112ead5", null ]
 ];

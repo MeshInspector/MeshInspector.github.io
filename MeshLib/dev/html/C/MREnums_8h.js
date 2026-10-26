@@ -12,6 +12,7 @@ var MREnums_8h =
     [ "MR_Turn", "MREnums_8h.html#aa9a1b49c0f81a0c79c304b9458276549", null ],
     [ "MR_UseAABBTree", "MREnums_8h.html#aa1d2c713a5636fa77f6767aec61a0be5", null ],
     [ "MR_VertexMass", "MREnums_8h.html#a647d855259963a8a9399e34b49c5c6de", null ],
+    [ "MR_VertNormalsMode", "MREnums_8h.html#aebc5faceb119fd6c5c82ed681e015c5e", null ],
     [ "MR_WrapType", "MREnums_8h.html#a00a6c4c76bf7fcbc91c8b9e401c8fa01", null ],
     [ "MR_ColoringType", "MREnums_8h.html#a8a407448d970199f75e1b40627cfe95d", [
       [ "MR_ColoringType_SolidColor", "MREnums_8h.html#a8a407448d970199f75e1b40627cfe95da088bc3a3f5ea020d55b3201dbee5b4a0", null ],
@@ -41,6 +42,11 @@ var MREnums_8h =
     [ "MR_VertexMass", "MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3", [
       [ "MR_VertexMass_Unit", "MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3a1c92effa2e6d6ff88b2c909fe0c6c8ae", null ],
       [ "MR_VertexMass_NeiArea", "MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3a5e5ecf1c40930d2b93f875b093245ac2", null ]
+    ] ],
+    [ "MR_VertNormalsMode", "MREnums_8h.html#ad44368a5d6b9a542fb312941ff39676f", [
+      [ "MR_VertNormalsMode_No", "MREnums_8h.html#ad44368a5d6b9a542fb312941ff39676fa9b4a1cf2b5a587c30b3612f982b7ff49", null ],
+      [ "MR_VertNormalsMode_AreaWeighted", "MREnums_8h.html#ad44368a5d6b9a542fb312941ff39676fafd7878f261e680b332fcd98daeca426c", null ],
+      [ "MR_VertNormalsMode_AngleWeighted", "MREnums_8h.html#ad44368a5d6b9a542fb312941ff39676fab7ee8c67d7269b265f6fcebe35cc7cc5", null ]
     ] ],
     [ "MR_asString_MR_ColoringType", "MREnums_8h.html#acfee7417484e1556a3b3e21d5d290e26", null ]
 ];

@@ -384,14 +384,14 @@
         </inbodydescription>
         <location file="MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="175" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1a215560abd21a5fb626da225aae99c716" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT_1af58ef77dad414cc3d972d8af48ce149a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;::getPoints</definition>
-        <argsstring>(std::vector&lt; Vector3f &gt; &amp;result, const Vector3f &amp;pos, const Vector3f &amp;offset) const</argsstring>
+        <argsstring>(VertCoords &amp;result, const Vector3f &amp;pos, const Vector3f &amp;offset) const</argsstring>
         <name>getPoints</name>
         <qualifiedname>MR::MeshOnVoxelsT::getPoints</qualifiedname>
         <param>
-          <type>std::vector&lt; Vector3f &gt; &amp;</type>
+          <type>VertCoords &amp;</type>
           <declname>result</declname>
         </param>
         <param>
@@ -616,7 +616,7 @@
       <member refid="classMR_1_1MeshOnVoxelsT_1a221d2ac15d9d7d24c8d0e09d58f3fa4a" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getBestPolynomial</name></member>
       <member refid="classMR_1_1MeshOnVoxelsT_1aa97e351881ef9c2339f1918afd80cdfb" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getDerivatives</name></member>
       <member refid="classMR_1_1MeshOnVoxelsT_1a29875bbb25aa6021a264a34721ca973b" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getOffsetVector</name></member>
-      <member refid="classMR_1_1MeshOnVoxelsT_1a215560abd21a5fb626da225aae99c716" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getPoints</name></member>
+      <member refid="classMR_1_1MeshOnVoxelsT_1af58ef77dad414cc3d972d8af48ce149a" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getPoints</name></member>
       <member refid="classMR_1_1MeshOnVoxelsT_1abdf80c44a70a73db372963471d7ad729" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getValue</name></member>
       <member refid="classMR_1_1MeshOnVoxelsT_1a6f94dc801e80cd28838910efea41b179" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>getValues</name></member>
       <member refid="classMR_1_1MeshOnVoxelsT_1a5dd23e7200e056faef9f2a64257a3003" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT</scope><name>indexFromPseudoIndex</name></member>

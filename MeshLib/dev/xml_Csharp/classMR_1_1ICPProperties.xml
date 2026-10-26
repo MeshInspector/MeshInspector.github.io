@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1674" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1674" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1798" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1798" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ICPProperties_1a1fa0ac7e07ebbbfc075dbe3653dbde8c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1677" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1677" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1801" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1801" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ICPProperties_1a34a875a78ce31db5fb191a3fc68716ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -46,7 +46,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1683" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1683" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1807" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1807" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ICPProperties_1a52aa2f341f1b4992d78f21b16094a230" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ICPProperties.p2plStabilizer</definition>
+        <argsstring></argsstring>
+        <name>p2plStabilizer</name>
+        <qualifiedname>MR.ICPProperties.p2plStabilizer</qualifiedname>
+        <briefdescription>
+<para>Relative regularization of the linear system in <ref refid="classMR_1a90fcd9e2a74e2161a52251e979ed957da621eeaff7db1283a0db27b4e7233a8ed" kindref="member">ICPMethod.PointToPlane</ref>, see <ref refid="classMR_1_1PointToPlaneAligningTransform_1a34013b19ec85ec4355b78d68a11e336a" kindref="member">PointToPlaneAligningTransform.setStabilizer</ref>. This is to avoid huge motions along the directions poorly constrained by the planes, e.g. sliding along parallel faces of a CAD model. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1813" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1813" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ICPProperties_1adeb24a43c5d72fa51e756a3c51969593" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -60,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1686" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1686" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1816" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1816" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ICPProperties_1a202f310c6ccfb786ab56a0d4dc31389f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -74,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1689" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1689" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1819" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1819" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ICPProperties_1a814efc2a3ee28aecd6bea2e17460be8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -88,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1692" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1692" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1822" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1822" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ICPProperties_1a37553de95f81e2eb69d20b6e23339557" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1a8d81aa456e2777ec7823ebb5a61662d5" kindref="member">MR.ICPMode</ref></type>
@@ -103,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1698" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1698" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1828" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1828" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ICPProperties_1a80ae018573a665e36c2fbc8b3d96c73e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -118,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1703" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1703" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1833" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1833" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ICPProperties_1ae726178debb57089866915bc1f93dc27" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -133,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1709" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1709" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1839" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1839" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ICPProperties_1a85f42cecfad0e7d683171add941638a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -148,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1715" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1715" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1845" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1845" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ICPProperties_1a7f0c8a8f8082516197c8d82c6031d9b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -162,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1718" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1718" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1848" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1848" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ICPProperties_1af63c2738a5d70b7d24bd14df5364c528" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -177,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1724" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1724" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1854" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1854" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ICPProperties_1aae817cef5a087c34a450a0052e650427" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -192,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1729" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1729" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1859" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1859" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -216,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1733" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1733" bodyend="1737"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1863" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1863" bodyend="1867"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -233,12 +248,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1743" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1743" bodyend="1749"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1873" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1873" bodyend="1877"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ICPProperties_1a48031c486296616aa42f7592b408621c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ICPProperties_1a530674d1947dee5d1b1848e454014007" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ICPProperties.ICPProperties</definition>
-        <argsstring>(MR.ICPMethod method, float p2plAngleLimit, float p2plScaleLimit, float cosThreshold, float distThresholdSq, float farDistFactor, MR.ICPMode icpMode, MR.Vector3f fixedRotationAxis, int iterLimit, int badIterStopCount, float exitVal, bool mutualClosest, bool ignoreBdTgts)</argsstring>
+        <argsstring>(MR.ICPMethod method, float p2plAngleLimit, float p2plScaleLimit, float p2plStabilizer, float cosThreshold, float distThresholdSq, float farDistFactor, MR.ICPMode icpMode, MR.Vector3f fixedRotationAxis, int iterLimit, int badIterStopCount, float exitVal, bool mutualClosest, bool ignoreBdTgts)</argsstring>
         <name>ICPProperties</name>
         <qualifiedname>MR.ICPProperties.ICPProperties</qualifiedname>
         <param>
@@ -252,6 +267,10 @@
         <param>
           <type>float</type>
           <declname>p2plScaleLimit</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>p2plStabilizer</declname>
         </param>
         <param>
           <type>float</type>
@@ -300,7 +319,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1754" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1754" bodyend="1760"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1882" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1882" bodyend="1886"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ICPProperties_1aaafa6c6e368dc36ffd96236ba743c6c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -319,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1765" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1765" bodyend="1772"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1891" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1891" bodyend="1896"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ICPProperties_1a50be44fff6df0bd6b825b255cf465375" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -338,7 +357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1777" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1777" bodyend="1777"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1901" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1901" bodyend="1901"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ICPProperties_1a61aca8c5d9f5d4a4feeb863b994af34b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ICPProperties" kindref="compound">MR.ICPProperties</ref></type>
@@ -357,7 +376,133 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1782" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1782" bodyend="1789"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1906" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1906" bodyend="1911"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1ICPProperties_1a2bac475c22e970bc55f17f743a31b9f7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ICPProperties._Underlying *</type>
+        <definition>static unsafe MR.ICPProperties._Underlying * MR.ICPProperties.__MR_ICPProperties_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.ICPProperties._Underlying *_other)</argsstring>
+        <name>__MR_ICPProperties_AssignFromAnother</name>
+        <qualifiedname>MR.ICPProperties.__MR_ICPProperties_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.ICPProperties._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1916" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICPProperties_1ab22cb8ff8cbc8c39f62674d4339aafb7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ICPProperties._Underlying *</type>
+        <definition>static unsafe MR.ICPProperties._Underlying * MR.ICPProperties.__MR_ICPProperties_ConstructFrom</definition>
+        <argsstring>(MR.ICPMethod method, float p2plAngleLimit, float p2plScaleLimit, float p2plStabilizer, float cosThreshold, float distThresholdSq, float farDistFactor, MR.ICPMode icpMode, MR.Vector3f fixedRotationAxis, int iterLimit, int badIterStopCount, float exitVal, byte mutualClosest, byte ignoreBdTgts)</argsstring>
+        <name>__MR_ICPProperties_ConstructFrom</name>
+        <qualifiedname>MR.ICPProperties.__MR_ICPProperties_ConstructFrom</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a90fcd9e2a74e2161a52251e979ed957d" kindref="member">MR.ICPMethod</ref></type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>p2plAngleLimit</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>p2plScaleLimit</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>p2plStabilizer</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cosThreshold</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distThresholdSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>farDistFactor</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a8d81aa456e2777ec7823ebb5a61662d5" kindref="member">MR.ICPMode</ref></type>
+          <declname>icpMode</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>fixedRotationAxis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterLimit</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>badIterStopCount</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>exitVal</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>mutualClosest</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>ignoreBdTgts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1919" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICPProperties_1aa1ccf59a8161f25cdce741fd58506619" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ICPProperties._Underlying *</type>
+        <definition>static unsafe MR.ICPProperties._Underlying * MR.ICPProperties.__MR_ICPProperties_ConstructFromAnother</definition>
+        <argsstring>(MR.ICPProperties._Underlying *_other)</argsstring>
+        <name>__MR_ICPProperties_ConstructFromAnother</name>
+        <qualifiedname>MR.ICPProperties.__MR_ICPProperties_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.ICPProperties._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1922" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICPProperties_1a54fe17e48fefb296a2bce6bfad34c94e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ICPProperties._Underlying *</type>
+        <definition>static unsafe MR.ICPProperties._Underlying * MR.ICPProperties.__MR_ICPProperties_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_ICPProperties_DefaultConstruct</name>
+        <qualifiedname>MR.ICPProperties.__MR_ICPProperties_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1925" column="57"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -418,8 +563,12 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1669" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1670" bodyend="1790"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1793" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1794" bodyend="1926"/>
     <listofallmembers>
+      <member refid="classMR_1_1ICPProperties_1a2bac475c22e970bc55f17f743a31b9f7" prot="private" virt="non-virtual"><scope>MR::ICPProperties</scope><name>__MR_ICPProperties_AssignFromAnother</name></member>
+      <member refid="classMR_1_1ICPProperties_1ab22cb8ff8cbc8c39f62674d4339aafb7" prot="private" virt="non-virtual"><scope>MR::ICPProperties</scope><name>__MR_ICPProperties_ConstructFrom</name></member>
+      <member refid="classMR_1_1ICPProperties_1aa1ccf59a8161f25cdce741fd58506619" prot="private" virt="non-virtual"><scope>MR::ICPProperties</scope><name>__MR_ICPProperties_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1ICPProperties_1a54fe17e48fefb296a2bce6bfad34c94e" prot="private" virt="non-virtual"><scope>MR::ICPProperties</scope><name>__MR_ICPProperties_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a187c2f2e2aa5d985b5826b44df7936b1" prot="protected" virt="non-virtual"><scope>MR::ICPProperties</scope><name>__ref_storage_badIterStopCount</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a36adb0ecc9ebfbd0c7257ea684cb8f89" prot="protected" virt="non-virtual"><scope>MR::ICPProperties</scope><name>__ref_storage_cosThreshold</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1ad6397c55826abcbf472ab2f95dbc81df" prot="protected" virt="non-virtual"><scope>MR::ICPProperties</scope><name>__ref_storage_distThresholdSq</name></member>
@@ -433,11 +582,12 @@
       <member refid="classMR_1_1Const__ICPProperties_1a90b4172f637956c7c680f0ef10e8eb42" prot="protected" virt="non-virtual"><scope>MR::ICPProperties</scope><name>__ref_storage_mutualClosest</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1afc8872be843ef7361b988d41ca564f39" prot="protected" virt="non-virtual"><scope>MR::ICPProperties</scope><name>__ref_storage_p2plAngleLimit</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a32c289fe075bdd263fc1f0ce542560b3" prot="protected" virt="non-virtual"><scope>MR::ICPProperties</scope><name>__ref_storage_p2plScaleLimit</name></member>
+      <member refid="classMR_1_1Const__ICPProperties_1a1a00c944490bcdf3221b87a9786a7f95" prot="protected" virt="non-virtual"><scope>MR::ICPProperties</scope><name>__ref_storage_p2plStabilizer</name></member>
       <member refid="classMR_1_1ICPProperties_1a61aca8c5d9f5d4a4feeb863b994af34b" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>assign</name></member>
       <member refid="classMR_1_1ICPProperties_1a85f42cecfad0e7d683171add941638a7" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>badIterStopCount</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1ae6432190fb5fc96cb5d935e2bb42cd9e" prot="package" virt="non-virtual"><scope>MR::ICPProperties</scope><name>Const_ICPProperties</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1afc13eef73a7a7a34ad06b54c0de515e4" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>Const_ICPProperties</name></member>
-      <member refid="classMR_1_1Const__ICPProperties_1ade283526a98a7847f9fda24de50249e3" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>Const_ICPProperties</name></member>
+      <member refid="classMR_1_1Const__ICPProperties_1aeb38827743be7495a22e53bd3c5fcb90" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>Const_ICPProperties</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a30056839ee99874b0bf561ec3a36539a" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>Const_ICPProperties</name></member>
       <member refid="classMR_1_1Const__ICPProperties_1a516971fd416a38c0f653160ca32f03b0" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>Const_ICPProperties</name></member>
       <member refid="classMR_1_1ICPProperties_1adeb24a43c5d72fa51e756a3c51969593" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>cosThreshold</name></member>
@@ -450,7 +600,7 @@
       <member refid="classMR_1_1ICPProperties_1a37553de95f81e2eb69d20b6e23339557" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>icpMode</name></member>
       <member refid="classMR_1_1ICPProperties_1a1f781b9680c36a0139a017aa40eb4f52" prot="package" virt="non-virtual"><scope>MR::ICPProperties</scope><name>ICPProperties</name></member>
       <member refid="classMR_1_1ICPProperties_1ad127c9892319a4baef52d06272019218" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>ICPProperties</name></member>
-      <member refid="classMR_1_1ICPProperties_1a48031c486296616aa42f7592b408621c" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>ICPProperties</name></member>
+      <member refid="classMR_1_1ICPProperties_1a530674d1947dee5d1b1848e454014007" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>ICPProperties</name></member>
       <member refid="classMR_1_1ICPProperties_1aaafa6c6e368dc36ffd96236ba743c6c2" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>ICPProperties</name></member>
       <member refid="classMR_1_1ICPProperties_1a50be44fff6df0bd6b825b255cf465375" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>ICPProperties</name></member>
       <member refid="classMR_1_1ICPProperties_1aae817cef5a087c34a450a0052e650427" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>ignoreBdTgts</name></member>
@@ -459,6 +609,7 @@
       <member refid="classMR_1_1ICPProperties_1af63c2738a5d70b7d24bd14df5364c528" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>mutualClosest</name></member>
       <member refid="classMR_1_1ICPProperties_1a1fa0ac7e07ebbbfc075dbe3653dbde8c" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>p2plAngleLimit</name></member>
       <member refid="classMR_1_1ICPProperties_1a34a875a78ce31db5fb191a3fc68716ef" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>p2plScaleLimit</name></member>
+      <member refid="classMR_1_1ICPProperties_1a52aa2f341f1b4992d78f21b16094a230" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>p2plStabilizer</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDelone.h" line="13" column="11" bodyfile="MRMesh/MRMeshDelone.h" bodystart="13" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDelone.h" line="27" column="11" bodyfile="MRMesh/MRMeshDelone.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DeloneSettings_1a2d89f7e52be83dd63ce7daed50c40c90" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDelone.h" line="16" column="11" bodyfile="MRMesh/MRMeshDelone.h" bodystart="16" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDelone.h" line="30" column="11" bodyfile="MRMesh/MRMeshDelone.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DeloneSettings_1ac1d8b0d536be2f423ac9a2d1b2bce7d2" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDelone.h" line="20" column="11" bodyfile="MRMesh/MRMeshDelone.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDelone.h" line="34" column="11" bodyfile="MRMesh/MRMeshDelone.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DeloneSettings_1a0f1d4b68cf91c9aebfb8f580d7ab6610" prot="public" static="no" mutable="no">
         <type>const FaceBitSet *</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDelone.h" line="23" column="22" bodyfile="MRMesh/MRMeshDelone.h" bodystart="23" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDelone.h" line="37" column="22" bodyfile="MRMesh/MRMeshDelone.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DeloneSettings_1a513ebe0c472b1ac5cdfa1226d4f52e27" prot="public" static="no" mutable="no">
         <type>const UndirectedEdgeBitSet *</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDelone.h" line="26" column="32" bodyfile="MRMesh/MRMeshDelone.h" bodystart="26" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDelone.h" line="40" column="32" bodyfile="MRMesh/MRMeshDelone.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DeloneSettings_1a59743925cda5ef4a2b87449e410897e8" prot="public" static="no" mutable="no">
         <type>const VertBitSet *</type>
@@ -98,15 +98,45 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDelone.h" line="29" column="22" bodyfile="MRMesh/MRMeshDelone.h" bodystart="29" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDelone.h" line="43" column="22" bodyfile="MRMesh/MRMeshDelone.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DeloneSettings_1aa9b9e4eb7d2bb9781d1170012f3c98b2" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1DeloneFlipsCache" kindref="compound">DeloneFlipsCache</ref> *</type>
+        <definition>DeloneFlipsCache* MR::DeloneSettings::cache</definition>
+        <argsstring></argsstring>
+        <name>cache</name>
+        <qualifiedname>MR::DeloneSettings::cache</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional buffers reused between calls, see <ref refid="structMR_1_1DeloneFlipsCache" kindref="compound">DeloneFlipsCache</ref>; flipping several meshes in parallel, give every thread its own cache </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshDelone.h" line="47" column="22" bodyfile="MRMesh/MRMeshDelone.h" bodystart="47" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRMeshDelone.h" line="10" column="1" bodyfile="MRMesh/MRMeshDelone.h" bodystart="11" bodyend="30"/>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::DeloneFlipsCache</label>
+        <link refid="structMR_1_1DeloneFlipsCache"/>
+      </node>
+      <node id="1">
+        <label>MR::DeloneSettings</label>
+        <link refid="structMR_1_1DeloneSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>cache</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRMeshDelone.h" line="24" column="1" bodyfile="MRMesh/MRMeshDelone.h" bodystart="25" bodyend="48"/>
     <listofallmembers>
+      <member refid="structMR_1_1DeloneSettings_1aa9b9e4eb7d2bb9781d1170012f3c98b2" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>cache</name></member>
       <member refid="structMR_1_1DeloneSettings_1ac1d8b0d536be2f423ac9a2d1b2bce7d2" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>criticalTriAspectRatio</name></member>
       <member refid="structMR_1_1DeloneSettings_1a2d89f7e52be83dd63ce7daed50c40c90" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>maxAngleChange</name></member>
       <member refid="structMR_1_1DeloneSettings_1acc54a4a2c29214632bccda65b6e0cba0" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>maxDeviationAfterFlip</name></member>

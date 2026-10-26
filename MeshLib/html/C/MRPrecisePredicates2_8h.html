@@ -250,6 +250,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a37656167872aec2b5107bb0d0556a9f2" id="r_a37656167872aec2b5107bb0d0556a9f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba207e8e2df9b894c2e8e525351c3e57">MR_CoordinateConverters2</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37656167872aec2b5107bb0d0556a9f2">MR_CoordinateConverters2_AssignFromAnother</a> (<a class="el" href="#aba207e8e2df9b894c2e8e525351c3e57">MR_CoordinateConverters2</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aba207e8e2df9b894c2e8e525351c3e57">MR_CoordinateConverters2</a> *_other)</td></tr>
 <tr class="memitem:a3a40d0c48faea9f89774b44cecc8fd35" id="r_a3a40d0c48faea9f89774b44cecc8fd35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a40d0c48faea9f89774b44cecc8fd35">MR_segmentIntersectionOrder_std_array_MR_PreciseVertCoords2_6</a> (const <a class="el" href="#a7c2b13479ae5b53dde72a33126c51725">MR_std_array_MR_PreciseVertCoords2_6</a> *vs)</td></tr>
 <tr class="memitem:ae2eb79545a6d5eda704625198cce3861" id="r_ae2eb79545a6d5eda704625198cce3861"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2eb79545a6d5eda704625198cce3861">MR_findSegmentSegmentIntersectionPrecise_4</a> (const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *a, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *b, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *c, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *d)</td></tr>
+<tr class="memitem:a80a3c6174dff997a2d71a6bfb334a5c8" id="r_a80a3c6174dff997a2d71a6bfb334a5c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80a3c6174dff997a2d71a6bfb334a5c8">MR_findSegmentSegmentIntersectionPrecise_1</a> (const <a class="el" href="#a920bc185898f6b065bfcbacfce0245fb">MR_std_array_MR_PreciseVertCoords2_4</a> *vs)</td></tr>
 <tr class="memitem:a0a878a2db00266f18b7b718667440828" id="r_a0a878a2db00266f18b7b718667440828"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a878a2db00266f18b7b718667440828">MR_findSegmentSegmentIntersectionPrecise_5</a> (const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *a, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *b, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *c, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *d, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> converters_pass_by, <a class="el" href="#aba207e8e2df9b894c2e8e525351c3e57">MR_CoordinateConverters2</a> *converters)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
@@ -815,6 +816,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>checks whether the segments AB (indices 01) and segments CD (indices 23) intersect; uses simulation-of-simplicity to avoid edge-segment intersections and co-planarity Generated from function <span class="tt">MR::doSegmentSegmentIntersect</span>. Parameter <span class="tt">vs</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ac4879318f91545796af20560d91d923e" title="Destroys a heap-allocated instance of MR_SegmentSegmentIntersectResult. Does nothing if the pointer i...">MR_SegmentSegmentIntersectResult_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a80a3c6174dff997a2d71a6bfb334a5c8" name="a80a3c6174dff997a2d71a6bfb334a5c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80a3c6174dff997a2d71a6bfb334a5c8">&#9670;&#160;</a></span>MR_findSegmentSegmentIntersectionPrecise_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> MR_findSegmentSegmentIntersectionPrecise_1 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a920bc185898f6b065bfcbacfce0245fb">MR_std_array_MR_PreciseVertCoords2_4</a> *</td>          <td class="paramname"><span class="paramname"><em>vs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>same for segments AB (indices 01) and CD (indices 23); when all four points lie on one line, uses vertex ids to select the intersection position consistent with the simulation-of-simplicity answers of ccw about every other vertex Generated from function <span class="tt">MR::findSegmentSegmentIntersectionPrecise</span>. Parameter <span class="tt">vs</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

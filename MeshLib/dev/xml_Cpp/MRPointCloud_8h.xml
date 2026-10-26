@@ -12,11 +12,24 @@
     <includedby refid="MRChangePointCloudAction_8h" local="yes">MRMesh/MRChangePointCloudAction.h</includedby>
     <includedby refid="MRChangePointCloudNormalsAction_8h" local="yes">MRMesh/MRChangePointCloudNormalsAction.h</includedby>
     <includedby refid="MRDenseBox_8h" local="yes">MRMesh/MRDenseBox.h</includedby>
+    <includedby refid="MRICP_8h" local="yes">MRMesh/MRICP.h</includedby>
     <includedby refid="MRMeshToPointCloud_8h" local="yes">MRMesh/MRMeshToPointCloud.h</includedby>
     <includedby refid="MRPointsSave_8h" local="yes">MRMesh/MRPointsSave.h</includedby>
     <includedby refid="MRRegularMapMesher_8h" local="yes">MRMesh/MRRegularMapMesher.h</includedby>
     <includedby refid="MRPointsToDistanceVolume_8h" local="yes">MRVoxels/MRPointsToDistanceVolume.h</includedby>
     <incdepgraph>
+      <node id="28">
+        <label>MRAllocator.h</label>
+        <link refid="MRAllocator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
       <node id="27">
         <label>MRBitSet.h</label>
         <link refid="MRBitSet_8h"/>
@@ -24,17 +37,21 @@
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -43,7 +60,7 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="33">
+      <node id="36">
         <label>MRCloudPartMapping.h</label>
         <link refid="MRCloudPartMapping_8h"/>
         <childnode refid="4" relation="include">
@@ -53,7 +70,7 @@
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="28">
+      <node id="31">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="4" relation="include">
@@ -112,9 +129,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
       </node>
       <node id="15">
@@ -127,7 +144,7 @@
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="35">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="4" relation="include">
@@ -136,7 +153,7 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
       <node id="18">
@@ -192,7 +209,7 @@
       <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="29">
+      <node id="32">
         <label>MRphmap.h</label>
       </node>
       <node id="22">
@@ -200,6 +217,9 @@
       </node>
       <node id="8">
         <label>array</label>
+      </node>
+      <node id="33">
+        <label>atomic</label>
       </node>
       <node id="14">
         <label>cassert</label>
@@ -225,11 +245,14 @@
       <node id="25">
         <label>iosfwd</label>
       </node>
-      <node id="30">
+      <node id="34">
         <label>iterator</label>
       </node>
-      <node id="32">
+      <node id="29">
         <label>memory</label>
+      </node>
+      <node id="30">
+        <label>mimalloc.h</label>
       </node>
       <node id="11">
         <label>parallel_hashmap/phmap_fwd_decl.h</label>
@@ -248,7 +271,7 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="10">
+      <node id="12">
         <label>MRCuda/MRCudaPointsToDistanceVolume.h</label>
         <link refid="MRCudaPointsToDistanceVolume_8h"/>
       </node>
@@ -269,8 +292,18 @@
         <link refid="MRDenseBox_8h"/>
       </node>
       <node id="6">
+        <label>MRMesh/MRICP.h</label>
+        <link refid="MRICP_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
         <label>MRMesh/MRMeshToPointCloud.h</label>
         <link refid="MRMeshToPointCloud_8h"/>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRMultiwayICP.h</label>
+        <link refid="MRMultiwayICP_8h"/>
       </node>
       <node id="1">
         <label>MRMesh/MRPointCloud.h</label>
@@ -285,25 +318,27 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
       </node>
-      <node id="7">
+      <node id="9">
         <label>MRMesh/MRPointsSave.h</label>
         <link refid="MRPointsSave_8h"/>
       </node>
-      <node id="8">
+      <node id="10">
         <label>MRMesh/MRRegularMapMesher.h</label>
         <link refid="MRRegularMapMesher_8h"/>
       </node>
-      <node id="9">
+      <node id="11">
         <label>MRVoxels/MRPointsToDistanceVolume.h</label>
         <link refid="MRPointsToDistanceVolume_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -351,9 +386,9 @@
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47" refid="structMR_1_1PointCloud_1ab8528785525982a60c9bb9ea1ddcc103" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Box3f<sp/><ref refid="structMR_1_1PointCloud_1ab8528785525982a60c9bb9ea1ddcc103" kindref="member">getBoundingBox</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="structMR_1_1PointCloud_1a314c3d7c570cf70aed6cf664175740cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Box3f<sp/><ref refid="structMR_1_1PointCloud_1a314c3d7c570cf70aed6cf664175740cd" kindref="member">computeBoundingBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/>toWorld<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51" refid="structMR_1_1PointCloud_1a65677efaca849285816d9632529b5520" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PointCloud_1a65677efaca849285816d9632529b5520" kindref="member">MR_BIND_OVERLOAD_SUFFIX</ref>()<sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Box3f<sp/><ref refid="group__MathGroup_1ga3b002e846a245cb69384c1d444ea65a0" kindref="member">computeBoundingBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/><ref refid="structMR_1_1PointCloud_1acf467d3da6aff2b54a601c4921de1f2f" kindref="member">toWorld</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="structMR_1_1PointCloud_1a7f4cc661b8564a36aabab04453b0e27f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Box3f<sp/><ref refid="structMR_1_1PointCloud_1a7f4cc661b8564a36aabab04453b0e27f" kindref="member">computeBoundingBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/>toWorld<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55" refid="structMR_1_1PointCloud_1a5982bc0f5607f15bb30837797ab27153" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PointCloud_1a5982bc0f5607f15bb30837797ab27153" kindref="member">MR_BIND_OVERLOAD_SUFFIX</ref>(region)<sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Box3f<sp/><ref refid="group__MathGroup_1ga3b002e846a245cb69384c1d444ea65a0" kindref="member">computeBoundingBox</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f<sp/>*<sp/><ref refid="structMR_1_1PointCloud_1acf467d3da6aff2b54a601c4921de1f2f" kindref="member">toWorld</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58" refid="structMR_1_1PointCloud_1a442397a4e191dbf7addbd86427681aaa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>Vector3f<sp/><ref refid="structMR_1_1PointCloud_1a442397a4e191dbf7addbd86427681aaa" kindref="member">findCenterFromPoints</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
@@ -366,27 +401,29 @@
 <codeline lineno="73" refid="structMR_1_1PointCloud_1a461af7799e74931eb23168bd86111217" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud_1a461af7799e74931eb23168bd86111217" kindref="member">addPartByMask</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>from,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet&amp;<sp/>fromVerts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1CloudPartMapping" kindref="compound">CloudPartMapping</ref>&amp;<sp/>outMap<sp/>=<sp/>{},</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertNormals<sp/>*<sp/>extNormals<sp/>=<sp/><ref refid="module__nullptr" kindref="compound">nullptr</ref><sp/>);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="structMR_1_1PointCloud_1a7e507a7cdba55a1c26aa3a073cf2d315" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="structMR_1_1PointCloud_1a7e507a7cdba55a1c26aa3a073cf2d315" kindref="member">addPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>point<sp/>);</highlight></codeline>
+<codeline lineno="77" refid="structMR_1_1PointCloud_1a062a286ba8240f571adaabc6c788dcdd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PointCloud_1a062a286ba8240f571adaabc6c788dcdd" kindref="member">MR_BIND_OVERLOAD_SUFFIX</ref>()<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/>addPoint(<sp/>const<sp/>Vector3f&amp;<sp/>point<sp/>);</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="structMR_1_1PointCloud_1a765101913d8149614746444a3257c1f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/><ref refid="structMR_1_1PointCloud_1a765101913d8149614746444a3257c1f2" kindref="member">addPoint</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>point,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/><ref refid="group__GeneralGroup_1gaeaaa231de17fd92490d5ffbdac7d7c16" kindref="member">normal</ref><sp/>);</highlight></codeline>
+<codeline lineno="80" refid="structMR_1_1PointCloud_1a0cbf3a6974c5e59d24276dca0227ab0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PointCloud_1a65677efaca849285816d9632529b5520" kindref="member">MR_BIND_OVERLOAD_SUFFIX</ref>(<ref refid="structMR_1_1PointCloud_1ace3e2f591185408ede2b73c7d0f1ad46" kindref="member">normal</ref>)<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertId<sp/>addPoint(<sp/>const<sp/>Vector3f&amp;<sp/>point,<sp/>const<sp/>Vector3f&amp;<sp/><ref refid="structMR_1_1PointCloud_1ace3e2f591185408ede2b73c7d0f1ad46" kindref="member">normal</ref><sp/>);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="structMR_1_1PointCloud_1ab5cc9f05068553ba1033167bb6189fcf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud_1ab5cc9f05068553ba1033167bb6189fcf" kindref="member">mirror</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref>&amp;<sp/>plane<sp/>);</highlight></codeline>
+<codeline lineno="83" refid="structMR_1_1PointCloud_1ab5cc9f05068553ba1033167bb6189fcf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud_1ab5cc9f05068553ba1033167bb6189fcf" kindref="member">mirror</ref>(<sp/>const<sp/><ref refid="group__GeneralGroup_1ga6b8606e6618471611100352ed5a178a7" kindref="member">Plane3f</ref>&amp;<sp/>plane<sp/>);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="structMR_1_1PointCloud_1a8d42094704ecd8b5b4eb3a82c10c111d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud_1a8d42094704ecd8b5b4eb3a82c10c111d" kindref="member">flipOrientation</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="86" refid="structMR_1_1PointCloud_1a8d42094704ecd8b5b4eb3a82c10c111d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud_1a8d42094704ecd8b5b4eb3a82c10c111d" kindref="member">flipOrientation</ref>(<sp/>const<sp/>VertBitSet<sp/>*<sp/>region<sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="structMR_1_1PointCloud_1af70413bd36eefbb8ce26cf2a52addf33" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud_1af70413bd36eefbb8ce26cf2a52addf33" kindref="member">pack</ref>(<sp/>VertMap<sp/>*<sp/>outNew2Old<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="91" refid="structMR_1_1PointCloud_1af70413bd36eefbb8ce26cf2a52addf33" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud_1af70413bd36eefbb8ce26cf2a52addf33" kindref="member">pack</ref>(<sp/>VertMap<sp/>*<sp/>outNew2Old<sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="structMR_1_1PointCloud_1a9fee9a45c5a54797c40fb2c7c9ed646e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertBMap<sp/><ref refid="structMR_1_1PointCloud_1a9fee9a45c5a54797c40fb2c7c9ed646e" kindref="member">pack</ref>(<sp/><ref refid="group__GeneralGroup_1gafedf1467ef6a61af5a59eafa50a41bf9" kindref="member">Reorder</ref><sp/>reoder<sp/>);</highlight></codeline>
+<codeline lineno="95" refid="structMR_1_1PointCloud_1a9fee9a45c5a54797c40fb2c7c9ed646e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/>VertBMap<sp/><ref refid="structMR_1_1PointCloud_1af70413bd36eefbb8ce26cf2a52addf33" kindref="member">pack</ref>(<sp/><ref refid="group__GeneralGroup_1gafedf1467ef6a61af5a59eafa50a41bf9" kindref="member">Reorder</ref><sp/>reoder<sp/>);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
 <codeline lineno="98" refid="structMR_1_1PointCloud_1ab7c257206a284f22b8e2484b87436069" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud_1ab7c257206a284f22b8e2484b87436069" kindref="member">invalidateCaches</ref>()<sp/>{<sp/>AABBTreeOwner_.reset();<sp/>}</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="structMR_1_1PointCloud_1a2a3bb316a10b49cacc3843090aa06a22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud_1a2a3bb316a10b49cacc3843090aa06a22" kindref="member">heapBytes</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner&lt;AABBTreePoints&gt;</ref><sp/>AABBTreeOwner_;</highlight></codeline>
-<codeline lineno="105"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104" refid="structMR_1_1PointCloud_1af87c45e1d1e2193c2f42933aa2ba646e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud_1af87c45e1d1e2193c2f42933aa2ba646e" kindref="member">updateCaches</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>changedVerts<sp/>);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="structMR_1_1PointCloud_1a2a3bb316a10b49cacc3843090aa06a22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud_1a2a3bb316a10b49cacc3843090aa06a22" kindref="member">heapBytes</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner&lt;AABBTreePoints&gt;</ref><sp/>AABBTreeOwner_;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRPointCloud.h"/>
   </compounddef>

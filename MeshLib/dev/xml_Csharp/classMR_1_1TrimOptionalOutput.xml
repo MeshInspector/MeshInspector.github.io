@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="506" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="507" bodyend="516"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="535" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="536" bodyend="545"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TrimOptionalOutput_1a836b2af44dd42d7ef1306117dc4eacfa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_StdVectorMREdgeId</type>
@@ -30,11 +30,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="519" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="520" bodyend="529"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="548" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="549" bodyend="558"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1TrimOptionalOutput_1a5258262b34c251d220341a24da233659" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.Phmap.? FlatHashMap_MRFaceId_MRFaceId</type>
-        <definition>new unsafe MR.Phmap.? FlatHashMap_MRFaceId_MRFaceId MR.TrimOptionalOutput.new2Old</definition>
+      <memberdef kind="property" id="classMR_1_1TrimOptionalOutput_1a8ccde200b19047e0fb2378edfe98f7a6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Phmap.? FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId</type>
+        <definition>new unsafe MR.Phmap.? FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId MR.TrimOptionalOutput.new2Old</definition>
         <argsstring></argsstring>
         <name>new2Old</name>
         <qualifiedname>MR.TrimOptionalOutput.new2Old</qualifiedname>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="532" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="533" bodyend="542"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="561" column="143" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="562" bodyend="571"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TrimOptionalOutput_1a97872a2dea6b4a08d521a63b7d6ca245" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -58,11 +58,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="545" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="546" bodyend="555"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="574" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="575" bodyend="584"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1TrimOptionalOutput_1af0920bb10e4bd005c6ab5233e2073ccc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.Phmap.? FlatHashMap_MRFaceId_MRFaceId</type>
-        <definition>new unsafe MR.Phmap.? FlatHashMap_MRFaceId_MRFaceId MR.TrimOptionalOutput.otherNew2Old</definition>
+      <memberdef kind="property" id="classMR_1_1TrimOptionalOutput_1ae8ea7c12eb33e45ce5d2dfb02dd107b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Phmap.? FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId</type>
+        <definition>new unsafe MR.Phmap.? FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId MR.TrimOptionalOutput.otherNew2Old</definition>
         <argsstring></argsstring>
         <name>otherNew2Old</name>
         <qualifiedname>MR.TrimOptionalOutput.otherNew2Old</qualifiedname>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="558" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="559" bodyend="568"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="587" column="143" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="588" bodyend="597"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1TrimOptionalOutput_1a1d902491a5bfd553857cba4384e33dcc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_StdVectorMREdgeId</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="571" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="572" bodyend="581"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="600" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="601" bodyend="610"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="585" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="585" bodyend="589"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="614" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="614" bodyend="618"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -127,12 +127,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="595" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="595" bodyend="601"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="624" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="624" bodyend="628"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TrimOptionalOutput_1a4300079dc2621798f27bdbec499c853d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1TrimOptionalOutput_1afa871c191fe28441b862264070a4116f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.TrimOptionalOutput.TrimOptionalOutput</definition>
-        <argsstring>(MR.UndirectedEdgeBitSet? outCutEdges, MR.Std.Vector_StdVectorMREdgeId? outCutContours, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old, MR.Mesh? otherPart, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? otherNew2Old, MR.Std.Vector_StdVectorMREdgeId? otherOutCutContours)</argsstring>
+        <argsstring>(MR.UndirectedEdgeBitSet? outCutEdges, MR.Std.Vector_StdVectorMREdgeId? outCutContours, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId? new2Old, MR.Mesh? otherPart, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId? otherNew2Old, MR.Std.Vector_StdVectorMREdgeId? otherOutCutContours)</argsstring>
         <name>TrimOptionalOutput</name>
         <qualifiedname>MR.TrimOptionalOutput.TrimOptionalOutput</qualifiedname>
         <param>
@@ -144,7 +144,7 @@
           <declname>outCutContours</declname>
         </param>
         <param>
-          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</type>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId?</type>
           <declname>new2Old</declname>
         </param>
         <param>
@@ -152,7 +152,7 @@
           <declname>otherPart</declname>
         </param>
         <param>
-          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</type>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId?</type>
           <declname>otherNew2Old</declname>
         </param>
         <param>
@@ -166,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="606" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="606" bodyend="618"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="633" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="633" bodyend="643"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TrimOptionalOutput_1a19e694dde0aa176e2b6b48fb7ffb8300" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -185,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="623" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="623" bodyend="630"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="648" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="648" bodyend="653"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TrimOptionalOutput_1a90c47b9e4d93aec22effcc5840a8a058" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="635" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="635" bodyend="635"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="658" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="658" bodyend="658"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TrimOptionalOutput_1a4467f960e9ea495226c48319a4b7a9bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1TrimOptionalOutput" kindref="compound">MR.TrimOptionalOutput</ref></type>
@@ -223,7 +223,101 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="640" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="640" bodyend="647"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="663" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="663" bodyend="668"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1TrimOptionalOutput_1af73d89da4e2335c680925cf263e040ec" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TrimOptionalOutput._Underlying *</type>
+        <definition>static unsafe MR.TrimOptionalOutput._Underlying * MR.TrimOptionalOutput.__MR_TrimOptionalOutput_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.TrimOptionalOutput._Underlying *_other)</argsstring>
+        <name>__MR_TrimOptionalOutput_AssignFromAnother</name>
+        <qualifiedname>MR.TrimOptionalOutput.__MR_TrimOptionalOutput_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.TrimOptionalOutput._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="673" column="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TrimOptionalOutput_1a5624f96e07dea26fe6358d3d4fd27458" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TrimOptionalOutput._Underlying *</type>
+        <definition>static unsafe MR.TrimOptionalOutput._Underlying * MR.TrimOptionalOutput.__MR_TrimOptionalOutput_ConstructFrom</definition>
+        <argsstring>(MR.UndirectedEdgeBitSet._Underlying *outCutEdges, MR.Std.Vector_StdVectorMREdgeId._Underlying *outCutContours, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId._Underlying *new2Old, MR.Mesh._Underlying *otherPart, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId._Underlying *otherNew2Old, MR.Std.Vector_StdVectorMREdgeId._Underlying *otherOutCutContours)</argsstring>
+        <name>__MR_TrimOptionalOutput_ConstructFrom</name>
+        <qualifiedname>MR.TrimOptionalOutput.__MR_TrimOptionalOutput_ConstructFrom</qualifiedname>
+        <param>
+          <type>MR.UndirectedEdgeBitSet._Underlying *</type>
+          <declname>outCutEdges</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdVectorMREdgeId._Underlying *</type>
+          <declname>outCutContours</declname>
+        </param>
+        <param>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId._Underlying *</type>
+          <declname>new2Old</declname>
+        </param>
+        <param>
+          <type>MR.Mesh._Underlying *</type>
+          <declname>otherPart</declname>
+        </param>
+        <param>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId._Underlying *</type>
+          <declname>otherNew2Old</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdVectorMREdgeId._Underlying *</type>
+          <declname>otherOutCutContours</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="676" column="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TrimOptionalOutput_1a4656538b3e45c06bddc5af62f4c83430" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TrimOptionalOutput._Underlying *</type>
+        <definition>static unsafe MR.TrimOptionalOutput._Underlying * MR.TrimOptionalOutput.__MR_TrimOptionalOutput_ConstructFromAnother</definition>
+        <argsstring>(MR.TrimOptionalOutput._Underlying *_other)</argsstring>
+        <name>__MR_TrimOptionalOutput_ConstructFromAnother</name>
+        <qualifiedname>MR.TrimOptionalOutput.__MR_TrimOptionalOutput_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.TrimOptionalOutput._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="679" column="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TrimOptionalOutput_1a26c286359f24c83c00be263f008db410" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TrimOptionalOutput._Underlying *</type>
+        <definition>static unsafe MR.TrimOptionalOutput._Underlying * MR.TrimOptionalOutput.__MR_TrimOptionalOutput_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_TrimOptionalOutput_DefaultConstruct</name>
+        <qualifiedname>MR.TrimOptionalOutput.__MR_TrimOptionalOutput_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="682" column="62"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -287,10 +381,14 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="503" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="504" bodyend="648"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="532" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" bodystart="533" bodyend="683"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__TrimOptionalOutput_1a06cacbf642afc7f8f3d4ed583788336c" prot="protected" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__ptr_storage_new2Old</name></member>
-      <member refid="classMR_1_1Const__TrimOptionalOutput_1a3457a18fccf87a787804a205ba72d936" prot="protected" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__ptr_storage_otherNew2Old</name></member>
+      <member refid="classMR_1_1TrimOptionalOutput_1af73d89da4e2335c680925cf263e040ec" prot="private" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__MR_TrimOptionalOutput_AssignFromAnother</name></member>
+      <member refid="classMR_1_1TrimOptionalOutput_1a5624f96e07dea26fe6358d3d4fd27458" prot="private" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__MR_TrimOptionalOutput_ConstructFrom</name></member>
+      <member refid="classMR_1_1TrimOptionalOutput_1a4656538b3e45c06bddc5af62f4c83430" prot="private" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__MR_TrimOptionalOutput_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1TrimOptionalOutput_1a26c286359f24c83c00be263f008db410" prot="private" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__MR_TrimOptionalOutput_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1a03b78caa84affea942f66bf4108fb516" prot="protected" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__ptr_storage_new2Old</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1a26d350cead3d57d1e4eacabad5d71c78" prot="protected" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__ptr_storage_otherNew2Old</name></member>
       <member refid="classMR_1_1Const__TrimOptionalOutput_1a84f7be5c8076bc9836b5bd623de32942" prot="protected" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__ptr_storage_otherOutCutContours</name></member>
       <member refid="classMR_1_1Const__TrimOptionalOutput_1a844324c1eba056837e28395d69bf236c" prot="protected" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__ptr_storage_otherPart</name></member>
       <member refid="classMR_1_1Const__TrimOptionalOutput_1a641bf8e80cb3c5ddc98697fd9d157fef" prot="protected" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>__ptr_storage_outCutContours</name></member>
@@ -298,20 +396,20 @@
       <member refid="classMR_1_1TrimOptionalOutput_1a4467f960e9ea495226c48319a4b7a9bf" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__TrimOptionalOutput_1a08f548a81db8a2b01ce76c84811bcaab" prot="package" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>Const_TrimOptionalOutput</name></member>
       <member refid="classMR_1_1Const__TrimOptionalOutput_1aeb1c0fd32cffa92b242edb58b06c51bf" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>Const_TrimOptionalOutput</name></member>
-      <member refid="classMR_1_1Const__TrimOptionalOutput_1a35cf86c7fb5ffa3b0c9a129a490d766c" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>Const_TrimOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__TrimOptionalOutput_1a11311553a59058ee9a96c70ba09338dd" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>Const_TrimOptionalOutput</name></member>
       <member refid="classMR_1_1Const__TrimOptionalOutput_1a73085fe71841473046301ce5a586db57" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>Const_TrimOptionalOutput</name></member>
       <member refid="classMR_1_1Const__TrimOptionalOutput_1a1cde6d94469ce14ad1ce31d070dab42c" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>Const_TrimOptionalOutput</name></member>
       <member refid="classMR_1_1Const__TrimOptionalOutput_1af4778143ec5fb6776f962171e38cbbdb" prot="protected" virt="virtual"><scope>MR::TrimOptionalOutput</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__TrimOptionalOutput_1a92171d49421b872f0d782085708405c9" prot="public" virt="virtual"><scope>MR::TrimOptionalOutput</scope><name>Dispose</name></member>
-      <member refid="classMR_1_1TrimOptionalOutput_1a5258262b34c251d220341a24da233659" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>new2Old</name></member>
-      <member refid="classMR_1_1TrimOptionalOutput_1af0920bb10e4bd005c6ab5233e2073ccc" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>otherNew2Old</name></member>
+      <member refid="classMR_1_1TrimOptionalOutput_1a8ccde200b19047e0fb2378edfe98f7a6" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>new2Old</name></member>
+      <member refid="classMR_1_1TrimOptionalOutput_1ae8ea7c12eb33e45ce5d2dfb02dd107b6" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>otherNew2Old</name></member>
       <member refid="classMR_1_1TrimOptionalOutput_1a1d902491a5bfd553857cba4384e33dcc" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>otherOutCutContours</name></member>
       <member refid="classMR_1_1TrimOptionalOutput_1a97872a2dea6b4a08d521a63b7d6ca245" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>otherPart</name></member>
       <member refid="classMR_1_1TrimOptionalOutput_1a836b2af44dd42d7ef1306117dc4eacfa" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>outCutContours</name></member>
       <member refid="classMR_1_1TrimOptionalOutput_1a797e41111e3eb4a1deacf86a8f72ef99" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>outCutEdges</name></member>
       <member refid="classMR_1_1TrimOptionalOutput_1ad87e72c24002f957a2efacc47c6e65c5" prot="package" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>TrimOptionalOutput</name></member>
       <member refid="classMR_1_1TrimOptionalOutput_1af052ef403e0beca22eb7a5554e165d06" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>TrimOptionalOutput</name></member>
-      <member refid="classMR_1_1TrimOptionalOutput_1a4300079dc2621798f27bdbec499c853d" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>TrimOptionalOutput</name></member>
+      <member refid="classMR_1_1TrimOptionalOutput_1afa871c191fe28441b862264070a4116f" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>TrimOptionalOutput</name></member>
       <member refid="classMR_1_1TrimOptionalOutput_1a19e694dde0aa176e2b6b48fb7ffb8300" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>TrimOptionalOutput</name></member>
       <member refid="classMR_1_1TrimOptionalOutput_1a90c47b9e4d93aec22effcc5840a8a058" prot="public" virt="non-virtual"><scope>MR::TrimOptionalOutput</scope><name>TrimOptionalOutput</name></member>
     </listofallmembers>

@@ -1,0 +1,619 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__RasterInfo" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_RasterInfo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1RasterInfo" prot="public" virt="non-virtual">MR.RasterInfo</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__RasterInfo_1a1fa64c40fb0e2df40151f3b4ae8e0155" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>unsafe ref readonly MR.Vector3i MR.Const_RasterInfo.dims</definition>
+        <argsstring></argsstring>
+        <name>dims</name>
+        <qualifiedname>MR.Const_RasterInfo.dims</qualifiedname>
+        <briefdescription>
+<para>number of pixels along each axis: x is the width, y is the height, z is the number of layers </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="27" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RasterInfo_1ae469ef60f3e113e79d80976c47309432" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref></type>
+        <definition>unsafe MR.ScalarType MR.Const_RasterInfo.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>MR.Const_RasterInfo.type</qualifiedname>
+        <briefdescription>
+<para>type of all values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="33" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RasterInfo_1a3ce587a5ac588b7b2237274f925b5625" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_RasterInfo.channels</definition>
+        <argsstring></argsstring>
+        <name>channels</name>
+        <qualifiedname>MR.Const_RasterInfo.channels</qualifiedname>
+        <briefdescription>
+<para>number of values in each pixel, e.g. 1 for gray values, 3 for RGB colors, 4 for RGBA colors, or any number of bands; convertRasterToImage takes three or more channels as RGB(A) colors, so three or four gray bands look like colors there </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="40" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__RasterInfo_1a2b388c203e169ebc7c6e0f394e3df9d0" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
+        <definition>unsafe MR.Vector3i* MR.Const_RasterInfo.__ref_storage_dims</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_dims</name>
+        <qualifiedname>MR.Const_RasterInfo.__ref_storage_dims</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="28" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RasterInfo_1a5512cca6f4488509b6f17660e4885381" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref> *</type>
+        <definition>unsafe MR.ScalarType* MR.Const_RasterInfo.__ref_storage_type</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_type</name>
+        <qualifiedname>MR.Const_RasterInfo.__ref_storage_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="34" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RasterInfo_1a7e2d2dc98f4898b5c002c9cb388582b7" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_RasterInfo.__ref_storage_channels</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_channels</name>
+        <qualifiedname>MR.Const_RasterInfo.__ref_storage_channels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="41" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1a8290c65b6ed5d722c04e8d6c6e263381" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_RasterInfo.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_RasterInfo.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="14" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1acb51d09945b6adf31002194c8e97eb4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_RasterInfo.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_RasterInfo.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="21" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1a25cc8ba6f7a253d23b1f0deb4599aeff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RasterInfo.Const_RasterInfo</definition>
+        <argsstring>()</argsstring>
+        <name>Const_RasterInfo</name>
+        <qualifiedname>MR.Const_RasterInfo.Const_RasterInfo</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="74" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="74" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1aeb408ad5ff496354f2be1129ed7fc5e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RasterInfo.Const_RasterInfo</definition>
+        <argsstring>(MR.Vector3i dims, MR.ScalarType type, int channels)</argsstring>
+        <name>Const_RasterInfo</name>
+        <qualifiedname>MR.Const_RasterInfo.Const_RasterInfo</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channels</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1RasterInfo" kindref="compound">MR.RasterInfo</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="83" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="83" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1a3e8440ad9f2256f022bcdedb1b1907d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RasterInfo.Const_RasterInfo</definition>
+        <argsstring>(MR.Const_RasterInfo _other)</argsstring>
+        <name>Const_RasterInfo</name>
+        <qualifiedname>MR.Const_RasterInfo.Const_RasterInfo</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__RasterInfo" kindref="compound">MR.Const_RasterInfo</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RasterInfo_1abd694d41e92ddf57c5d75523315e503a" kindref="member">MR.RasterInfo.RasterInfo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="92" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="92" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1a018c557dce22f105d55943c4a3f376c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_RasterInfo.Const_RasterInfo</definition>
+        <argsstring>(RasterInfo _other)</argsstring>
+        <name>Const_RasterInfo</name>
+        <qualifiedname>MR.Const_RasterInfo.Const_RasterInfo</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RasterInfo" kindref="compound">RasterInfo</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RasterInfo_1abd694d41e92ddf57c5d75523315e503a" kindref="member">MR.RasterInfo.RasterInfo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="102" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1a79e41bb2e0c84959398af51ae4d8c289" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>unsafe nuint MR.Const_RasterInfo.dataSize</definition>
+        <argsstring>()</argsstring>
+        <name>dataSize</name>
+        <qualifiedname>MR.Const_RasterInfo.dataSize</qualifiedname>
+        <briefdescription>
+<para>returns the size of all values in bytes, or the largest size_t value if the size does not fit in size_t, which no data can have Generated from method <computeroutput><ref refid="classMR_1_1Const__RasterInfo_1a79e41bb2e0c84959398af51ae4d8c289" kindref="member">MR.RasterInfo.dataSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="108" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1a9463ace42a8b673ab3b6d56180014941" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_RasterInfo.Equals</definition>
+        <argsstring>(MR.Const_RasterInfo? _1)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_RasterInfo.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__RasterInfo" kindref="compound">MR.Const_RasterInfo</ref>?</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="128" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="128" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1a3dc1d9e15c63b62467222fe0ee1db684" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_RasterInfo.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_RasterInfo.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="135" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="135" bodyend="142"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1aa7ff14352734c8edc90d8274b55b687c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_RasterInfo.~Const_RasterInfo</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_RasterInfo</name>
+        <qualifiedname>MR.Const_RasterInfo.~Const_RasterInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="22" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1aeac5c0b23f08d8f066e31453bcf6561a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RasterInfo.Const_RasterInfo</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_RasterInfo</name>
+        <qualifiedname>MR.Const_RasterInfo.Const_RasterInfo</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="63" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="63" bodyend="68"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1a194433ed30632a4888eaecd1adb9204e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_RasterInfo.operator==</definition>
+        <argsstring>(MR.Const_RasterInfo _this, MR.Const_RasterInfo _1)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_RasterInfo.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__RasterInfo" kindref="compound">MR.Const_RasterInfo</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__RasterInfo" kindref="compound">MR.Const_RasterInfo</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::RasterInfo::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="116" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1af7da33676206c911b19ed36655220189" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_RasterInfo.operator!=</definition>
+        <argsstring>(MR.Const_RasterInfo _this, MR.Const_RasterInfo _1)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_RasterInfo.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__RasterInfo" kindref="compound">MR.Const_RasterInfo</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__RasterInfo" kindref="compound">MR.Const_RasterInfo</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="121" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="121" bodyend="124"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1afcdd1a5f46d597bd68239ee951d25cc3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.RasterInfo._Underlying *</type>
+        <definition>static unsafe MR.RasterInfo._Underlying * MR.Const_RasterInfo.__MR_RasterInfo_ConstructFrom</definition>
+        <argsstring>(MR.Vector3i dims, MR.ScalarType type, int channels)</argsstring>
+        <name>__MR_RasterInfo_ConstructFrom</name>
+        <qualifiedname>MR.Const_RasterInfo.__MR_RasterInfo_ConstructFrom</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="147" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1a3c89d9f155996339eb908218895d3a11" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.RasterInfo._Underlying *</type>
+        <definition>static unsafe MR.RasterInfo._Underlying * MR.Const_RasterInfo.__MR_RasterInfo_ConstructFromAnother</definition>
+        <argsstring>(MR.RasterInfo._Underlying *_other)</argsstring>
+        <name>__MR_RasterInfo_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_RasterInfo.__MR_RasterInfo_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.RasterInfo._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="150" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1a57b40d46fb3f229f49349c9525e8f2b2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.RasterInfo._Underlying *</type>
+        <definition>static unsafe MR.RasterInfo._Underlying * MR.Const_RasterInfo.__MR_RasterInfo_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_RasterInfo_DefaultConstruct</name>
+        <qualifiedname>MR.Const_RasterInfo.__MR_RasterInfo_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="153" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1ac925df5f042ac4ef83c8678f26eb22eb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_RasterInfo.__MR_RasterInfo_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_RasterInfo_Destroy</name>
+        <qualifiedname>MR.Const_RasterInfo.__MR_RasterInfo_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="156" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1a43abe9fa85b19beebf096f1b6e9a6db1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe int *</type>
+        <definition>static unsafe int * MR.Const_RasterInfo.__MR_RasterInfo_Get_channels</definition>
+        <argsstring>(MR.Const_RasterInfo._Underlying *_this)</argsstring>
+        <name>__MR_RasterInfo_Get_channels</name>
+        <qualifiedname>MR.Const_RasterInfo.__MR_RasterInfo_Get_channels</qualifiedname>
+        <param>
+          <type>MR.Const_RasterInfo._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="159" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1aa8b5f93c6654a286de1e455f239e7c20" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
+        <definition>static unsafe MR.Vector3i * MR.Const_RasterInfo.__MR_RasterInfo_Get_dims</definition>
+        <argsstring>(MR.Const_RasterInfo._Underlying *_this)</argsstring>
+        <name>__MR_RasterInfo_Get_dims</name>
+        <qualifiedname>MR.Const_RasterInfo.__MR_RasterInfo_Get_dims</qualifiedname>
+        <param>
+          <type>MR.Const_RasterInfo._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="162" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1af244f6b0a784a18c2d2232ba7b3fc513" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref> *</type>
+        <definition>static unsafe MR.ScalarType * MR.Const_RasterInfo.__MR_RasterInfo_Get_type</definition>
+        <argsstring>(MR.Const_RasterInfo._Underlying *_this)</argsstring>
+        <name>__MR_RasterInfo_Get_type</name>
+        <qualifiedname>MR.Const_RasterInfo.__MR_RasterInfo_Get_type</qualifiedname>
+        <param>
+          <type>MR.Const_RasterInfo._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="165" column="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1a93379555aa6f7642bcaa6125ef3d59db" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe nuint</type>
+        <definition>static unsafe nuint MR.Const_RasterInfo.__MR_RasterInfo_dataSize</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_RasterInfo_dataSize</name>
+        <qualifiedname>MR.Const_RasterInfo.__MR_RasterInfo_dataSize</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="168" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterInfo_1ac3688ed102cec471104925c0c2ab5343" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.Const_RasterInfo.__MR_equal_MR_RasterInfo</definition>
+        <argsstring>(MR.Const_RasterInfo._Underlying *_this, MR.Const_RasterInfo._Underlying *_1)</argsstring>
+        <name>__MR_equal_MR_RasterInfo</name>
+        <qualifiedname>MR.Const_RasterInfo.__MR_equal_MR_RasterInfo</qualifiedname>
+        <param>
+          <type>MR.Const_RasterInfo._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Const_RasterInfo._Underlying *</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="171" column="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>everything about a raster except its values Generated from class <computeroutput><ref refid="classMR_1_1RasterInfo" kindref="compound">MR.RasterInfo</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_RasterInfo</label>
+        <link refid="classMR_1_1Const__RasterInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.RasterInfo</label>
+        <link refid="classMR_1_1RasterInfo"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_RasterInfo</label>
+        <link refid="classMR_1_1Const__RasterInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_dims</edgelabel>
+          <edgelabel>__ref_storage_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="9" bodyend="172"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__RasterInfo_1ac3688ed102cec471104925c0c2ab5343" prot="private" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>__MR_equal_MR_RasterInfo</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1afcdd1a5f46d597bd68239ee951d25cc3" prot="private" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>__MR_RasterInfo_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a3c89d9f155996339eb908218895d3a11" prot="private" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>__MR_RasterInfo_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a93379555aa6f7642bcaa6125ef3d59db" prot="private" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>__MR_RasterInfo_dataSize</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a57b40d46fb3f229f49349c9525e8f2b2" prot="private" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>__MR_RasterInfo_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1ac925df5f042ac4ef83c8678f26eb22eb" prot="private" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>__MR_RasterInfo_Destroy</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a43abe9fa85b19beebf096f1b6e9a6db1" prot="private" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>__MR_RasterInfo_Get_channels</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1aa8b5f93c6654a286de1e455f239e7c20" prot="private" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>__MR_RasterInfo_Get_dims</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1af244f6b0a784a18c2d2232ba7b3fc513" prot="private" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>__MR_RasterInfo_Get_type</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a7e2d2dc98f4898b5c002c9cb388582b7" prot="protected" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>__ref_storage_channels</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a2b388c203e169ebc7c6e0f394e3df9d0" prot="protected" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>__ref_storage_dims</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a5512cca6f4488509b6f17660e4885381" prot="protected" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>__ref_storage_type</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a3ce587a5ac588b7b2237274f925b5625" prot="public" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>channels</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1aeac5c0b23f08d8f066e31453bcf6561a" prot="package" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>Const_RasterInfo</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a25cc8ba6f7a253d23b1f0deb4599aeff" prot="public" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>Const_RasterInfo</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1aeb408ad5ff496354f2be1129ed7fc5e1" prot="public" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>Const_RasterInfo</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a3e8440ad9f2256f022bcdedb1b1907d0" prot="public" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>Const_RasterInfo</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a018c557dce22f105d55943c4a3f376c6" prot="public" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>Const_RasterInfo</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a79e41bb2e0c84959398af51ae4d8c289" prot="public" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>dataSize</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a1fa64c40fb0e2df40151f3b4ae8e0155" prot="public" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>dims</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a8290c65b6ed5d722c04e8d6c6e263381" prot="protected" virt="virtual"><scope>MR::Const_RasterInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1acb51d09945b6adf31002194c8e97eb4c" prot="public" virt="virtual"><scope>MR::Const_RasterInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a9463ace42a8b673ab3b6d56180014941" prot="public" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a3dc1d9e15c63b62467222fe0ee1db684" prot="public" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1af7da33676206c911b19ed36655220189" prot="public" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1a194433ed30632a4888eaecd1adb9204e" prot="public" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1ae469ef60f3e113e79d80976c47309432" prot="public" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>type</name></member>
+      <member refid="classMR_1_1Const__RasterInfo_1aa7ff14352734c8edc90d8274b55b687c" prot="private" virt="non-virtual"><scope>MR::Const_RasterInfo</scope><name>~Const_RasterInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

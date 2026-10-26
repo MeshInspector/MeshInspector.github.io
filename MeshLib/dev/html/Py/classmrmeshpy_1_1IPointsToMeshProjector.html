@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -156,7 +149,7 @@ $(function(){initNavTree('classmrmeshpy_1_1IPointsToMeshProjector.html','','clas
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abde909341f45cefaf5a8e331819186b4" id="r_abde909341f45cefaf5a8e331819186b4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abde909341f45cefaf5a8e331819186b4">findProjections</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__MeshProjectionResult.html">std_vector_MeshProjectionResult</a> result, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> points, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> worldXf=None, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> worldRefXf=None, float upDistLimitSq=3.4028234663852886e+38, float loDistLimitSq=0.0)</td></tr>
+<tr class="memitem:a6e9941b6dcb24a01882d41c6c864a5b4" id="r_a6e9941b6dcb24a01882d41c6c864a5b4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e9941b6dcb24a01882d41c6c864a5b4">findProjections</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__MeshProjectionResult.html">std_vector_MeshProjectionResult</a> result, <a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> points, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> worldXf=None, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> worldRefXf=None, float upDistLimitSq=3.4028234663852886e+38, float loDistLimitSq=0.0)</td></tr>
 <tr class="memitem:a183a14af5ae991355ca023b734c99f12" id="r_a183a14af5ae991355ca023b734c99f12"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a183a14af5ae991355ca023b734c99f12">projectionsHeapBytes</a> (self, int numProjections)</td></tr>
 <tr class="memitem:aaf02b6f2d268f959073790823847b960" id="r_aaf02b6f2d268f959073790823847b960"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf02b6f2d268f959073790823847b960">updateMeshData</a> (self, <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh)</td></tr>
 </table>
@@ -165,8 +158,8 @@ Public Member Functions</h2></td></tr>
 
 Abstract class, computes the closest point on mesh to each of given points. Pure virtual functions must be implemented
 </pre> </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="abde909341f45cefaf5a8e331819186b4" name="abde909341f45cefaf5a8e331819186b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abde909341f45cefaf5a8e331819186b4">&#9670;&#160;</a></span>findProjections()</h2>
+<a id="a6e9941b6dcb24a01882d41c6c864a5b4" name="a6e9941b6dcb24a01882d41c6c864a5b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e9941b6dcb24a01882d41c6c864a5b4">&#9670;&#160;</a></span>findProjections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,7 +177,7 @@ Abstract class, computes the closest point on mesh to each of given points. Pure
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -210,7 +203,7 @@ Abstract class, computes the closest point on mesh to each of given points. Pure
 </div><div class="memdoc">
 <pre class="fragment">Computes the closest point on mesh to each of given points
 </pre> 
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1PointsToMeshProjector.html#afcbbf3f879f29430a90ba32c9d220ed5">mrmeshpy.PointsToMeshProjector</a>.</p>
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1PointsToMeshProjector.html#a7c28c17be78f4f7fe4e6e3b4a0789d90">mrmeshpy.PointsToMeshProjector</a>.</p>
 
 </div>
 </div>

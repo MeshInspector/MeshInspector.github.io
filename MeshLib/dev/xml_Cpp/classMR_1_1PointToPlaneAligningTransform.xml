@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="64" column="19" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="64" bodyend="-1"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="70" column="19" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1PointToPlaneAligningTransform_1a192f5833d2b323b289ea948818c1fd2c" prot="private" static="no" mutable="no">
         <type>Eigen::Vector&lt; double, 7 &gt;</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="65" column="19" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="65" bodyend="-1"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="71" column="19" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1PointToPlaneAligningTransform_1a86f7d7600f44d8db5bbf6126128dcb84" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -47,7 +47,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="66" column="10" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="66" bodyend="-1"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="72" column="10" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PointToPlaneAligningTransform_1a689f0fea02dd39490c0f7737c5b65619" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR::PointToPlaneAligningTransform::stabilizer_</definition>
+        <argsstring></argsstring>
+        <name>stabilizer_</name>
+        <qualifiedname>MR::PointToPlaneAligningTransform::stabilizer_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="73" column="12" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="73" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -145,6 +160,39 @@
         </inbodydescription>
         <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="32" column="10" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="32" bodyend="32"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a41b9d1c35ce5def32fcc86fad7e5ab06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PointToPlaneAligningTransform::setStabilizer</definition>
+        <argsstring>(double stabilizer)</argsstring>
+        <name>setStabilizer</name>
+        <qualifiedname>MR::PointToPlaneAligningTransform::setStabilizer</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>stabilizer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets relative regularization: this fraction of the mean diagonal element of the rotation block and of the translation block of the linear system is added to the diagonal of the same block; it suppresses huge motions along the directions poorly constrained by the planes (e.g. sliding along parallel planes) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="37" column="10" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a0ef48d320912d233720b2cb2346a0774" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double MR::PointToPlaneAligningTransform::getStabilizer</definition>
+        <argsstring>() const</argsstring>
+        <name>getStabilizer</name>
+        <qualifiedname>MR::PointToPlaneAligningTransform::getStabilizer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="38" column="13" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="38" bodyend="38"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a28c394327019054e87403e25b8cda62b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>AffineXf3d</type>
         <definition>AffineXf3d MR::PointToPlaneAligningTransform::findBestRigidXf</definition>
@@ -158,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="37" column="17" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="37" bodyend="37"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="43" column="17" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1af8656bfbca5608611a5f78b10ce037b2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>AffineXf3d</type>
@@ -173,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="40" column="17" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="40" bodyend="40"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="46" column="17" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="46" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a5162299152d3a4f6ae9de54c2a1ccb58" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>AffineXf3d</type>
@@ -192,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="43" column="17" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="43" bodyend="43"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="49" column="17" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="49" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1af0c4b1002192d03fcf79ae0df032d66e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>AffineXf3d</type>
@@ -211,7 +259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="46" column="17" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="46" bodyend="46"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="52" column="17" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="52" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1ac063a17fa743ac58c5fbc9ad217c5198" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3d</type>
@@ -236,7 +284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="49" column="16"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="55" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a4eb5e463d55efd8dafb0a8b5072b36b5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>RigidScaleXf3d</type>
@@ -251,7 +299,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="52" column="22"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="58" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a96303d3a4594c31c1b4db090f1d48043" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>RigidScaleXf3d</type>
@@ -266,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="55" column="22"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="61" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a276418c74f8a429b4fced7eea84c38f6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>RigidScaleXf3d</type>
@@ -285,7 +333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="58" column="22"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="64" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1adbd14cc29a38750565424a2b6f985597" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>RigidScaleXf3d</type>
@@ -304,7 +352,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="61" column="22"/>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="67" column="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a5cbfe61b11ebf4ffb817b726d4cf6cc8" prot="private" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Eigen::Matrix&lt; double, 7, 7 &gt;</type>
+        <definition>Eigen::Matrix&lt; double, 7, 7 &gt; MR::PointToPlaneAligningTransform::stabilizedA_</definition>
+        <argsstring>() const</argsstring>
+        <name>stabilizedA_</name>
+        <qualifiedname>MR::PointToPlaneAligningTransform::stabilizedA_</qualifiedname>
+        <briefdescription>
+<para>returns sumA_ with the stabilizer added to its diagonal </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="76" column="20"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -312,7 +377,7 @@
     <detaileddescription>
 <para>This class and its main method can be used to solve the problem of 3D shape alignment. This algorithm uses a point-to-plane error metric in which the object of minimization is the sum of the squared distance between a point and the tangent plane at its correspondence point. To use this technique it&apos;s need to have small rotation angles. So there is an approximate solution. The result of this algorithm is the transformation of first points (p1) which aligns it to the second ones (p2). </para>
     </detaileddescription>
-    <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="19" column="1" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="20" bodyend="67"/>
+    <location file="MRMesh/MRPointToPlaneAligningTransform.h" line="19" column="1" bodyfile="MRMesh/MRPointToPlaneAligningTransform.h" bodystart="20" bodyend="77"/>
     <listofallmembers>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1aa73beee9c704c6383e28a4f2ef68f1f9" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>add</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a1cdd6aff2ef7a9e5eecf5624b27a3f3b" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>add</name></member>
@@ -326,7 +391,11 @@
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a5162299152d3a4f6ae9de54c2a1ccb58" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestRigidXfFixedRotationAxis</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1af0c4b1002192d03fcf79ae0df032d66e" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestRigidXfOrthogonalRotationAxis</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1ac063a17fa743ac58c5fbc9ad217c5198" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestTranslation</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1a0ef48d320912d233720b2cb2346a0774" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>getStabilizer</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1aeefc37b3b3fdedb7a7cfa9c63d2e6712" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>prepare</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1a41b9d1c35ce5def32fcc86fad7e5ab06" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>setStabilizer</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1a5cbfe61b11ebf4ffb817b726d4cf6cc8" prot="private" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>stabilizedA_</name></member>
+      <member refid="classMR_1_1PointToPlaneAligningTransform_1a689f0fea02dd39490c0f7737c5b65619" prot="private" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>stabilizer_</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a71b5320ef00c8e2f0f3c8ff685954c20" prot="private" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>sumA_</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a86f7d7600f44d8db5bbf6126128dcb84" prot="private" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>sumAIsSym_</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a192f5833d2b323b289ea948818c1fd2c" prot="private" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>sumB_</name></member>

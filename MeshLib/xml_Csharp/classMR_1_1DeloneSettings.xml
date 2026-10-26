@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="202" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="202" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="571" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="571" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DeloneSettings_1ae4f3c99af90bd740d245f2fedee68fd5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="207" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="207" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="576" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="576" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DeloneSettings_1a6df8d567d4bf7314b65fedde6fc8009e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="213" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="213" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="582" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="582" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DeloneSettings_1a08b2035a40c6d51db419b28ea11756b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">Const_FaceBitSet</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="218" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="219" bodyend="228"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="587" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="588" bodyend="597"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DeloneSettings_1a611fe9f326c99b1bf4f6c2fce16a5a98" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">Const_UndirectedEdgeBitSet</ref></type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="233" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="234" bodyend="243"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="602" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="603" bodyend="612"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DeloneSettings_1a4f0b04d0586bb31b8526ff1d07293e16" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
@@ -92,7 +92,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="248" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="249" bodyend="258"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="617" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="618" bodyend="627"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DeloneSettings_1a1ae586c6419aa4ab3612f72fd75054c1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1DeloneFlipsCache" kindref="compound">DeloneFlipsCache</ref></type>
+        <definition>new unsafe MR.? DeloneFlipsCache MR.DeloneSettings.cache</definition>
+        <argsstring></argsstring>
+        <name>cache</name>
+        <qualifiedname>MR.DeloneSettings.cache</qualifiedname>
+        <briefdescription>
+<para>optional buffers reused between calls, see <ref refid="classMR_1_1DeloneFlipsCache" kindref="compound">DeloneFlipsCache</ref>; flipping several meshes in parallel, give every thread its own cache </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="633" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="634" bodyend="643"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -116,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="262" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="262" bodyend="266"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="647" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="647" bodyend="651"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -133,12 +148,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="272" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="272" bodyend="278"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="657" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="657" bodyend="663"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DeloneSettings_1a0513d524a457fa113f2c55b8b858f7df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DeloneSettings_1af323484166ee92091eaf6a6fea8d735b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.DeloneSettings.DeloneSettings</definition>
-        <argsstring>(float maxDeviationAfterFlip, float maxAngleChange, float criticalTriAspectRatio, MR.Const_FaceBitSet? region, MR.Const_UndirectedEdgeBitSet? notFlippable, MR.Const_VertBitSet? vertRegion)</argsstring>
+        <argsstring>(float maxDeviationAfterFlip, float maxAngleChange, float criticalTriAspectRatio, MR.Const_FaceBitSet? region, MR.Const_UndirectedEdgeBitSet? notFlippable, MR.Const_VertBitSet? vertRegion, MR.DeloneFlipsCache? cache)</argsstring>
         <name>DeloneSettings</name>
         <qualifiedname>MR.DeloneSettings.DeloneSettings</qualifiedname>
         <param>
@@ -165,6 +180,10 @@
           <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>vertRegion</declname>
         </param>
+        <param>
+          <type><ref refid="classMR_1_1DeloneFlipsCache" kindref="compound">MR.DeloneFlipsCache</ref>?</type>
+          <declname>cache</declname>
+        </param>
         <briefdescription>
 <para>Constructs <computeroutput><ref refid="classMR_1_1DeloneSettings" kindref="compound">MR.DeloneSettings</ref></computeroutput> elementwise. </para>
         </briefdescription>
@@ -172,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="283" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="283" bodyend="292"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="668" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="668" bodyend="678"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DeloneSettings_1af16cdb23fce67a0a260b39ebae85f8ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -191,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="297" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="297" bodyend="304"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="683" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="683" bodyend="690"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DeloneSettings_1a1bf7856a12c25cc5216742445d65ccc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -210,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="309" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="309" bodyend="309"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="695" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="695" bodyend="695"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DeloneSettings_1af38fc3d1b54200d822b175bdb4c99ceb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DeloneSettings" kindref="compound">MR.DeloneSettings</ref></type>
@@ -229,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="314" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="314" bodyend="321"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="700" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="700" bodyend="707"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -278,6 +297,7 @@
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_cache</edgelabel>
           <edgelabel>__ptr_storage_notFlippable</edgelabel>
           <edgelabel>__ptr_storage_region</edgelabel>
           <edgelabel>__ptr_storage_vertRegion</edgelabel>
@@ -290,8 +310,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="197" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="198" bodyend="322"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="566" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="567" bodyend="708"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DeloneSettings_1a818e8a5adcafddcdb8f0be98d5ec05ae" prot="protected" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>__ptr_storage_cache</name></member>
       <member refid="classMR_1_1Const__DeloneSettings_1a9a9bfc6427b757241418d037289d2891" prot="protected" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>__ptr_storage_notFlippable</name></member>
       <member refid="classMR_1_1Const__DeloneSettings_1a58366aaf825fe4b3b9dd2b70f1f0a412" prot="protected" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>__ptr_storage_region</name></member>
       <member refid="classMR_1_1Const__DeloneSettings_1aa8c739906eb3e1ca63812be81a9b6564" prot="protected" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>__ptr_storage_vertRegion</name></member>
@@ -299,15 +320,16 @@
       <member refid="classMR_1_1Const__DeloneSettings_1a7416647685e6747fd417c2b04a200812" prot="protected" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>__ref_storage_maxAngleChange</name></member>
       <member refid="classMR_1_1Const__DeloneSettings_1adf2e90024a808dc38a816bff8869ca5a" prot="protected" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>__ref_storage_maxDeviationAfterFlip</name></member>
       <member refid="classMR_1_1DeloneSettings_1af38fc3d1b54200d822b175bdb4c99ceb" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1DeloneSettings_1a1ae586c6419aa4ab3612f72fd75054c1" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>cache</name></member>
       <member refid="classMR_1_1Const__DeloneSettings_1ad85990a5423cc94abf37bf4db14e6ddd" prot="package" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>Const_DeloneSettings</name></member>
       <member refid="classMR_1_1Const__DeloneSettings_1acb92d26ed740f19aa94c8ec47d8bc918" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>Const_DeloneSettings</name></member>
-      <member refid="classMR_1_1Const__DeloneSettings_1a4a10c9adbebde007efb2e8146b2eb71d" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>Const_DeloneSettings</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a962f8c4af1c836db283b52d962a3a816" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>Const_DeloneSettings</name></member>
       <member refid="classMR_1_1Const__DeloneSettings_1ac5c00dcd641a9e88a06616e634706f3a" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>Const_DeloneSettings</name></member>
       <member refid="classMR_1_1Const__DeloneSettings_1a5b4dd78bedc07d3d51d94842b8f97675" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>Const_DeloneSettings</name></member>
       <member refid="classMR_1_1DeloneSettings_1a6df8d567d4bf7314b65fedde6fc8009e" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>criticalTriAspectRatio</name></member>
       <member refid="classMR_1_1DeloneSettings_1ac13ac99917cbce45a815e79d7a1f9100" prot="package" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>DeloneSettings</name></member>
       <member refid="classMR_1_1DeloneSettings_1aff233148205194709d50b37f4722aa19" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>DeloneSettings</name></member>
-      <member refid="classMR_1_1DeloneSettings_1a0513d524a457fa113f2c55b8b858f7df" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>DeloneSettings</name></member>
+      <member refid="classMR_1_1DeloneSettings_1af323484166ee92091eaf6a6fea8d735b" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>DeloneSettings</name></member>
       <member refid="classMR_1_1DeloneSettings_1af16cdb23fce67a0a260b39ebae85f8ca" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>DeloneSettings</name></member>
       <member refid="classMR_1_1DeloneSettings_1a1bf7856a12c25cc5216742445d65ccc6" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>DeloneSettings</name></member>
       <member refid="classMR_1_1Const__DeloneSettings_1a08599f04cabd8265005d20f7b38822dd" prot="protected" virt="virtual"><scope>MR::DeloneSettings</scope><name>Dispose</name></member>

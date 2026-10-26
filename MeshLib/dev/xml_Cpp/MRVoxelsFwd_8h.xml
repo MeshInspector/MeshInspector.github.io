@@ -27,7 +27,6 @@
     <includedby refid="MRPointsToMeshFusion_8h" local="yes">MRVoxels/MRPointsToMeshFusion.h</includedby>
     <includedby refid="MRPolylineToVoxels_8h" local="yes">MRVoxels/MRPolylineToVoxels.h</includedby>
     <includedby refid="MRRebuildMesh_8h" local="yes">MRVoxels/MRRebuildMesh.h</includedby>
-    <includedby refid="MRScalarConvert_8h" local="yes">MRVoxels/MRScalarConvert.h</includedby>
     <includedby refid="MRScanHelpers_8h" local="yes">MRVoxels/MRScanHelpers.h</includedby>
     <includedby refid="MRSweptVolume_8h" local="yes">MRVoxels/MRSweptVolume.h</includedby>
     <includedby refid="MRTeethMaskToDirectionVolume_8h" local="yes">MRVoxels/MRTeethMaskToDirectionVolume.h</includedby>
@@ -142,7 +141,7 @@
         <label>MRCuda/MRCudaPointsToDistanceVolume.h</label>
         <link refid="MRCudaPointsToDistanceVolume_8h"/>
       </node>
-      <node id="44">
+      <node id="43">
         <label>MRCuda/MRCudaSweptVolume.h</label>
         <link refid="MRCudaSweptVolume_8h"/>
       </node>
@@ -267,23 +266,17 @@
         <link refid="MRRebuildMesh_8h"/>
       </node>
       <node id="41">
-        <label>MRVoxels/MRScalarConvert.h</label>
-        <link refid="MRScalarConvert_8h"/>
-        <childnode refid="30" relation="include">
-        </childnode>
-      </node>
-      <node id="42">
         <label>MRVoxels/MRScanHelpers.h</label>
         <link refid="MRScanHelpers_8h"/>
       </node>
-      <node id="46">
+      <node id="45">
         <label>MRVoxels/MRSequentialNester.h</label>
         <link refid="MRSequentialNester_8h"/>
       </node>
-      <node id="43">
+      <node id="42">
         <label>MRVoxels/MRSweptVolume.h</label>
         <link refid="MRSweptVolume_8h"/>
-        <childnode refid="44" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
@@ -292,17 +285,17 @@
         <label>MRVoxels/MRTeethMaskToDirectionVolume.h</label>
         <link refid="MRTeethMaskToDirectionVolume_8h"/>
       </node>
-      <node id="45">
+      <node id="44">
         <label>MRVoxels/MRTetrisNesting.h</label>
         <link refid="MRTetrisNesting_8h"/>
-        <childnode refid="46" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="46">
         <label>MRVoxels/MRToolPath.h</label>
         <link refid="MRToolPath_8h"/>
       </node>
-      <node id="48">
+      <node id="47">
         <label>MRVoxels/MRVDBConversions.h</label>
         <link refid="MRVDBConversions_8h"/>
         <childnode refid="5" relation="include">
@@ -316,7 +309,7 @@
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="48">
         <label>MRVoxels/MRVDBProgressInterrupter.h</label>
         <link refid="MRVDBProgressInterrupter_8h"/>
       </node>
@@ -330,15 +323,15 @@
         <label>MRVoxels/MRVolumeSegment.h</label>
         <link refid="MRVolumeSegment_8h"/>
       </node>
-      <node id="50">
+      <node id="49">
         <label>MRVoxels/MRVoxelFilter.h</label>
         <link refid="MRVoxelFilter_8h"/>
       </node>
-      <node id="51">
+      <node id="50">
         <label>MRVoxels/MRVoxelGraphCut.h</label>
         <link refid="MRVoxelGraphCut_8h"/>
       </node>
-      <node id="52">
+      <node id="51">
         <label>MRVoxels/MRVoxelPath.h</label>
         <link refid="MRVoxelPath_8h"/>
         <childnode refid="14" relation="include">
@@ -350,7 +343,7 @@
         <label>MRVoxels/MRVoxelsApplyTransform.h</label>
         <link refid="MRVoxelsApplyTransform_8h"/>
       </node>
-      <node id="53">
+      <node id="52">
         <label>MRVoxels/MRVoxelsConversionsByParts.h</label>
         <link refid="MRVoxelsConversionsByParts_8h"/>
       </node>
@@ -407,31 +400,29 @@
         </childnode>
         <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
         </childnode>
         <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
         </childnode>
         <childnode refid="50" relation="include">
         </childnode>
         <childnode refid="51" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
-        </childnode>
         <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
@@ -562,7 +553,7 @@
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FloatGrid;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34" refid="group__GeneralGroup_1gaca33768811fc85299e23b757851572b6" refkind="member"><highlight class="normal"><ref refid="MRCanonicalTypedefs_8h_1a011d44bc0918ffa467a5150bc8a81e03" kindref="member">MR_CANONICAL_TYPEDEFS</ref>(<sp/>(template<sp/>&lt;typename<sp/>T&gt;<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal">),<sp/><ref refid="MRVoxelsFwd_8h_1a9f036b05518b862a538b52711d41d242" kindref="member">MRVOXELS_CLASS</ref><sp/><ref refid="structMR_1_1VoxelsVolumeMinMax" kindref="compound">VoxelsVolumeMinMax</ref>,</highlight></codeline>
-<codeline lineno="35" refid="group__GeneralGroup_1ga267a0a12925eb023cff1bca0f9b620b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>(<sp/><ref refid="group__GeneralGroup_1ga267a0a12925eb023cff1bca0f9b620b4" kindref="member">SimpleVolumeMinMax</ref>,<sp/><ref refid="structMR_1_1VoxelsVolumeMinMax" kindref="compound">VoxelsVolumeMinMax</ref>&lt;<ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;float, VoxelId&gt;</ref>&gt;<sp/>)</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ga267a0a12925eb023cff1bca0f9b620b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>(<sp/><ref refid="group__GeneralGroup_1ga267a0a12925eb023cff1bca0f9b620b4" kindref="member">SimpleVolumeMinMax</ref>,<sp/><ref refid="structMR_1_1VoxelsVolumeMinMax" kindref="compound">VoxelsVolumeMinMax&lt;VoxelScalars&gt;</ref><sp/>)</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>(<sp/>SimpleVolumeMinMaxU16,<sp/><ref refid="structMR_1_1VoxelsVolumeMinMax" kindref="compound">VoxelsVolumeMinMax</ref>&lt;<ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;uint16_t, VoxelId&gt;</ref>&gt;<sp/>)</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>(<sp/>VdbVolume,<sp/><ref refid="structMR_1_1VoxelsVolumeMinMax" kindref="compound">VoxelsVolumeMinMax&lt;FloatGrid&gt;</ref><sp/>)</highlight></codeline>
 <codeline lineno="38"><highlight class="normal">)</highlight></codeline>
@@ -575,7 +566,7 @@
 <codeline lineno="45" refid="group__GeneralGroup_1ga972d4d5992aebde05a0c45e348478898" refkind="member"><highlight class="normal"><ref refid="MRCanonicalTypedefs_8h_1a011d44bc0918ffa467a5150bc8a81e03" kindref="member">MR_CANONICAL_TYPEDEFS</ref>(<sp/>(template<sp/>&lt;typename<sp/>T&gt;<sp/><ref refid="group__GeneralGroup_1ga14a2b0f304716de7247bc521bb0f4b8b" kindref="member">struct</ref>),<sp/><ref refid="MRVoxelsFwd_8h_1a9f036b05518b862a538b52711d41d242" kindref="member">MRVOXELS_CLASS</ref><sp/><ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref>,</highlight></codeline>
 <codeline lineno="46" refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>(<sp/><ref refid="group__GeneralGroup_1ga5874284dcde0853181cfc5bf3366981d" kindref="member">FunctionVolume</ref>,<sp/><ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref>&lt;<ref refid="group__GeneralGroup_1gada46b69d3d2ace0362d693aafcee7f0f" kindref="member">VoxelValueGetter</ref>&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&gt;&gt;<sp/>)</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>(<sp/>FunctionVolumeU8,<sp/><ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref>&lt;<ref refid="group__GeneralGroup_1gada46b69d3d2ace0362d693aafcee7f0f" kindref="member">VoxelValueGetter</ref>&lt;uint8_t&gt;&gt;<sp/>)</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>(<sp/>SimpleVolume,<sp/><ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref>&lt;<ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt;</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">,<sp/>VoxelId&gt;&gt;<sp/>)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>(<sp/>SimpleVolume,<sp/><ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref>&lt;VoxelScalars&gt;<sp/>)</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>(<sp/>SimpleVolumeU16,<sp/><ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref>&lt;<ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt;uint16_t,<sp/>VoxelId&gt;&gt;<sp/>)</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>(<sp/>SimpleBinaryVolume,<sp/><ref refid="structMR_1_1VoxelsVolume" kindref="compound">VoxelsVolume</ref>&lt;VoxelBitSet&gt;<sp/>)</highlight></codeline>
 <codeline lineno="51"><highlight class="normal">)</highlight></codeline>

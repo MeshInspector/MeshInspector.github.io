@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_array_Id_VertTag_ptr_3</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1adf65769f6c24a4f116ad1ed795741349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.std_array_Id_VertTag_ptr_3.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_array_Id_VertTag_ptr_3.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82674" bodyend="82675"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1a61c762496966c756d9092477cd7dace8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_Id_VertTag_ptr_3.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_Id_VertTag_ptr_3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82677" bodyend="82678"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1ac2e03a4bf9660c658a8ab6843ecffdae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_Id_VertTag_ptr_3.__init__</definition>
+        <argsstring>(self, std_array_Id_VertTag_ptr_3 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_Id_VertTag_ptr_3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3" kindref="compound">std_array_Id_VertTag_ptr_3</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82680" bodyend="82681"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1aac2a0e99caba31ef4ea76440c7d34fdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_Id_VertTag_ptr_3.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_Id_VertTag_ptr_3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialize from a list of 3elements.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82683" bodyend="82686"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1a17d3ee756060e44cc0674928e66cca47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref>]</type>
+        <definition> typing.Iterator[VertId] mrmeshpy.std_array_Id_VertTag_ptr_3.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_array_Id_VertTag_ptr_3.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82687" bodyend="82688"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1ade52b82a9fd969704978f27b4bd0d95a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_array_Id_VertTag_ptr_3.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_array_Id_VertTag_ptr_3.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82689" bodyend="82690"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1a9af641c8f6a18f2b11953202157f5a8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_array_Id_VertTag_ptr_3.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.std_array_Id_VertTag_ptr_3.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82691" bodyend="82692"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1aee001eddcb5ec93e16cd51c97a1ad024" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_Id_VertTag_ptr_3.__setitem__</definition>
+        <argsstring>(self, int arg0, VertId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_array_Id_VertTag_ptr_3.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82693" bodyend="82694"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  MeshBuilder.VertexIdentifier.VertInHMap, std_array_VertId_ptr_3
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="82670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="82670" bodyend="82694"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1adf65769f6c24a4f116ad1ed795741349" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Id_VertTag_ptr_3</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1a61c762496966c756d9092477cd7dace8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Id_VertTag_ptr_3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1ac2e03a4bf9660c658a8ab6843ecffdae" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Id_VertTag_ptr_3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1aac2a0e99caba31ef4ea76440c7d34fdb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Id_VertTag_ptr_3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1a17d3ee756060e44cc0674928e66cca47" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Id_VertTag_ptr_3</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1ade52b82a9fd969704978f27b4bd0d95a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Id_VertTag_ptr_3</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1a9af641c8f6a18f2b11953202157f5a8e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Id_VertTag_ptr_3</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Id__VertTag__ptr__3_1aee001eddcb5ec93e16cd51c97a1ad024" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Id_VertTag_ptr_3</scope><name>__setitem__</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

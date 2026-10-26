@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13481" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13481" bodyend="13489"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14267" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14267" bodyend="14273"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13490" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13490" bodyend="13490"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14274" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14274" bodyend="14274"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__NoCtor__MRVertId_1a75d0b746501e079d0339836faedc4f79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13498" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13498" bodyend="13503"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14282" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14282" bodyend="14285"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__NoCtor__MRVertId_1ad0516dd21f9c69870b2066abe42227ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13508" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13508" bodyend="13514"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14290" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14290" bodyend="14294"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__NoCtor__MRVertId_1a519b63411ca7affd667d2a8a224df57c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13519" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13519" bodyend="13519"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14299" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14299" bodyend="14299"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13491" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13491" bodyend="13491"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14275" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14275" bodyend="14275"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -131,7 +131,59 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13493" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13493" bodyend="13493"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14277" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14277" bodyend="14277"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoCtor__MRVertId_1a3170771068297f52fc205dd038c56d0a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.NoCtor_MRVertId._Underlying *</type>
+        <definition>static unsafe MR.NoCtor_MRVertId._Underlying * MR.Const_NoCtor_MRVertId.__MR_NoCtor_MR_VertId_ConstructFromAnother</definition>
+        <argsstring>(MR.NoCtor_MRVertId._Underlying *_other)</argsstring>
+        <name>__MR_NoCtor_MR_VertId_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_NoCtor_MRVertId.__MR_NoCtor_MR_VertId_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.NoCtor_MRVertId._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14304" column="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoCtor__MRVertId_1a859f602d29e60edf3d3d66bc07d8b25b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.NoCtor_MRVertId._Underlying *</type>
+        <definition>static unsafe MR.NoCtor_MRVertId._Underlying * MR.Const_NoCtor_MRVertId.__MR_NoCtor_MR_VertId_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_NoCtor_MR_VertId_DefaultConstruct</name>
+        <qualifiedname>MR.Const_NoCtor_MRVertId.__MR_NoCtor_MR_VertId_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14307" column="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoCtor__MRVertId_1a6b0d49af8658a8439b66c221757023cc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_NoCtor_MRVertId.__MR_NoCtor_MR_VertId_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_NoCtor_MR_VertId_Destroy</name>
+        <qualifiedname>MR.Const_NoCtor_MRVertId.__MR_NoCtor_MR_VertId_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14310" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -177,8 +229,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13475" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13476" bodyend="13520"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14261" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14262" bodyend="14311"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__NoCtor__MRVertId_1a3170771068297f52fc205dd038c56d0a" prot="private" virt="non-virtual"><scope>MR::Const_NoCtor_MRVertId</scope><name>__MR_NoCtor_MR_VertId_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRVertId_1a859f602d29e60edf3d3d66bc07d8b25b" prot="private" virt="non-virtual"><scope>MR::Const_NoCtor_MRVertId</scope><name>__MR_NoCtor_MR_VertId_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRVertId_1a6b0d49af8658a8439b66c221757023cc" prot="private" virt="non-virtual"><scope>MR::Const_NoCtor_MRVertId</scope><name>__MR_NoCtor_MR_VertId_Destroy</name></member>
       <member refid="classMR_1_1Const__NoCtor__MRVertId_1abed620834e6a98c979fa3fc4b971715b" prot="package" virt="non-virtual"><scope>MR::Const_NoCtor_MRVertId</scope><name>Const_NoCtor_MRVertId</name></member>
       <member refid="classMR_1_1Const__NoCtor__MRVertId_1a75d0b746501e079d0339836faedc4f79" prot="public" virt="non-virtual"><scope>MR::Const_NoCtor_MRVertId</scope><name>Const_NoCtor_MRVertId</name></member>
       <member refid="classMR_1_1Const__NoCtor__MRVertId_1ad0516dd21f9c69870b2066abe42227ca" prot="public" virt="non-virtual"><scope>MR::Const_NoCtor_MRVertId</scope><name>Const_NoCtor_MRVertId</name></member>

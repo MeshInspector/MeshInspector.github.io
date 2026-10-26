@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="19" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="20" bodyend="32"/>
+        <location file="MRMesh/MRInSphere.h" line="21" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="22" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga83d8be0f4efe6c9cba3f28d3deab2279" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>InSphereResult</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="40" column="18" declfile="MRMesh/MRInSphere.h" declline="40" declcolumn="18"/>
+        <location file="MRMesh/MRInSphere.h" line="42" column="18" declfile="MRMesh/MRInSphere.h" declline="42" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gae96ef04bcc2364c6964eca4beee9dc5a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>InSphereResult</type>
@@ -125,16 +125,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>checks whether the point vs[3] is strictly inside the sphere of radius sqrt(rSq) passing via points vs[0], vs[1], vs[2], with the center located on the positive side of plane vs[0]vs[1]vs[2] (same convention as in the overload above); resolves &quot;vs[3] is exactly on the sphere&quot; ties into Inside or Outside using simulation-of-simplicity: the points are symbolically perturbed (larger perturbations of points with smaller ids; per point the z-coordinate gets larger perturbation than y than x), and the first point whose perturbation moves vs[3] off the sphere decides the answer; known deviations from full simulation-of-simplicity semantics, all answered deterministically for now (covered by sosInSphereDeviations test, to be resolved by ids in the following PRs):<itemizedlist>
-<listitem><para>all three points of the triangle coincide: NoSphere now, while the perturbed triangle is not degenerate and its sphere exists;</para>
-</listitem><listitem><para>two points of the triangle coincide and the third one is closer than the sphere&apos;s diameter: NoSphere now, while the perturbed sphere may exist depending on the perturbation directions;</para>
-</listitem><listitem><para>rSq is exactly equal to the squared circumradius of a not-degenerate triangle: perturbations change the sphere&apos;s existence, affecting both &quot;vs[3] strictly inside&quot; (Inside now) and &quot;vs[3] exactly on the sphere&quot; (Outside now); the remaining degenerate NoSphere answers are exact under full simulation-of-simplicity, because no small perturbation can create the sphere: distinct collinear triangle points, two coincident triangle points with the third one at or beyond the sphere&apos;s diameter, rSq below the squared circumradius </para>
+<para>checks whether the point vs[3] is strictly inside the sphere of radius sqrt(rSq) passing via points vs[0], vs[1], vs[2], with the center located on the positive side of plane vs[0]vs[1]vs[2] (same convention as in the overload above); full simulation-of-simplicity semantics: the answer equals the answer of the plain predicate on the symbolically perturbed points, where the point with rank r among the four (by ascending ids) receives +eps^(9*L^r) to x, +eps^(3*L^r) to y, +eps^(L^r) to z with L = 128, eps -&gt; +0 (z gets the largest perturbation as in getPointDegrees, but the ladder between the ranks is 128: it exceeds the maximal degree-weight of one point in the predicate polynomials, which makes the resolution independent of whether the ranks are computed among 3 or among all 4 points); consequently:<itemizedlist>
+<listitem><para>&quot;vs[3] exactly on the sphere&quot; resolves into Inside or Outside by the ids;</para>
+</listitem><listitem><para>rSq exactly equal to the squared circumradius: the perturbation decides the sphere&apos;s existence, so the answer can be NoSphere even for vs[3] strictly inside;</para>
+</listitem><listitem><para>three coincident or distinct collinear triangle points always give NoSphere: the perturbed triangle is needle-like (the perturbation magnitudes differ vastly) and its circumradius diverges as eps -&gt; +0;</para>
+</listitem><listitem><para>two coincident triangle points: the sphere exists iff 4*rSq*(Vx^2+Vy^2) &gt; |V|^4 at the leading order (the pair separates along z), V = the third point minus the pair </para>
 </listitem></itemizedlist>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="62" column="18" declfile="MRMesh/MRInSphere.h" declline="62" declcolumn="18"/>
+        <location file="MRMesh/MRInSphere.h" line="63" column="18" declfile="MRMesh/MRInSphere.h" declline="63" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga0eb39a15fe5bf2158dde853e2ab1f4b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -174,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="192" column="19" bodyfile="MRMesh/MRInSphere.h" bodystart="192" bodyend="199"/>
+        <location file="MRMesh/MRInSphere.h" line="321" column="19" bodyfile="MRMesh/MRInSphere.h" bodystart="321" bodyend="328"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gafb9f0540202d96451dee9753314e960e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -193,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="201" column="1" declfile="MRMesh/MRInSphere.h" declline="201" declcolumn="1"/>
+        <location file="MRMesh/MRInSphere.h" line="330" column="1" declfile="MRMesh/MRInSphere.h" declline="330" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaa349ba2abb9defee59c1e5bfab20df3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -212,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="202" column="1" declfile="MRMesh/MRInSphere.h" declline="202" declcolumn="1"/>
+        <location file="MRMesh/MRInSphere.h" line="331" column="1" declfile="MRMesh/MRInSphere.h" declline="331" declcolumn="1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__MathGroup_1ga7123f0710e7bad44c561d1684dde6b36" prot="public" static="no">
         <type>InSphereTester&lt; float &gt;</type>
@@ -226,7 +227,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="184" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="184" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="200" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="200" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__MathGroup_1ga2d24c71a0a5b44f05d4d524f6de713e7" prot="public" static="no">
         <type>InSphereTester&lt; double &gt;</type>
@@ -240,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="185" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="185" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="201" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="201" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__MathGroup_1ga173d9ec0d23c16054839a3fd1c50334f" prot="public" static="no">
         <type>InSphereTester&lt; int &gt;</type>
@@ -254,11 +255,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRInSphere.h" line="186" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="186" bodyend="-1"/>
+        <location file="MRMesh/MRInSphere.h" line="202" column="1" bodyfile="MRMesh/MRInSphere.h" bodystart="202" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
-      <memberdef kind="function" id="group__MathGroup_1ga343b0de4b65432a92901c76af4024b57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__MathGroup_1ga343b0de4b65432a92901c76af4024b57" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::orient3d</definition>
         <argsstring>(const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</argsstring>
@@ -279,13 +280,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns true if the plane with orientated triangle ABC has 0 point at the left; uses simulation-of-simplicity to avoid &quot;0 is exactly on plane&quot; </para>
+<para>Precise orientation predicate for the origin against the plane of triangle ABC. Returns true iff dot( a, cross( b, c ) ) &gt; 0, i.e. (a, b, c) form a right-handed vector triple / the tetrahedron (origin, a, b, c) has positive signed volume. Geometrically the origin then lies on the side that the right-hand normal cross( b - a, c - a ) of triangle ABC points away from (equivalently, seen from the origin A-&gt;B-&gt;C winds clockwise). Simulation-of-simplicity resolves the degenerate case dot( a, cross( b, c ) ) == 0 (origin exactly on plane ABC) deterministically, so the predicate is never &quot;undefined&quot;. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="19" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="19" declcolumn="7"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="24" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="24" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__MathGroup_1ga24ef393e1380f77979d9cfa6f7e0e88e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__MathGroup_1ga24ef393e1380f77979d9cfa6f7e0e88e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::orient3d</definition>
         <argsstring>(const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c, const Vector3i &amp;d)</argsstring>
@@ -310,32 +311,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns true if the plane with orientated triangle ABC has D point at the left; uses simulation-of-simplicity to avoid &quot;D is exactly on plane&quot; </para>
+<para>Precise orientation predicate for point D against the plane of triangle ABC (the general case of the 3-argument overload above, which tests the origin instead of D). Returns true iff dot( a - d, cross( b - d, c - d ) ) &gt; 0, i.e. the tetrahedron (d, a, b, c) has positive signed volume. Geometrically D then lies on the side that the right-hand normal cross( b - a, c - a ) of triangle ABC points away from (equivalently, seen from D the vertices A-&gt;B-&gt;C wind clockwise). Simulation-of-simplicity resolves the degenerate case (D exactly on plane ABC) deterministically, so the predicate is never &quot;undefined&quot;. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="23" column="13" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="23" bodyend="24"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="33" column="14" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="33" bodyend="34"/>
       </memberdef>
-      <memberdef kind="function" id="group__MathGroup_1gab50d60e9d4e42e53f0f0488142b74875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::orient3d</definition>
-        <argsstring>(const std::array&lt; PreciseVertCoords, 4 &gt; &amp;vs)</argsstring>
-        <name>orient3d</name>
-        <qualifiedname>MR::orient3d</qualifiedname>
-        <param>
-          <type>const std::array&lt; PreciseVertCoords, 4 &gt; &amp;</type>
-          <declname>vs</declname>
-        </param>
-        <briefdescription>
-<para>first sorts the indices in ascending order, then calls the predicate for sorted points </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="33" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="33" declcolumn="7"/>
-      </memberdef>
-      <memberdef kind="function" id="group__MathGroup_1ga4eeb35789ae60bb52a9135562575a4fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__MathGroup_1ga4eeb35789ae60bb52a9135562575a4fc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::orient3d</definition>
         <argsstring>(const PreciseVertCoords *vs)</argsstring>
@@ -348,10 +330,66 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Same predicate as orient3d( a, b, c, d ) evaluated on vs[0..3].pt, but first sorts the four vertices by their id (ascending, flipping the result once per swap). The simulation-of-simplicity perturbation depends on vertex id, so sorting makes the result depend only on the set of four vertices and not on the order they are passed in: every call involving the same four vertices agrees, which keeps orientation decisions consistent mesh-wide. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="34" column="7" declfile="MRMesh/MRPrecisePredicates3.h" declline="34" declcolumn="7"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="47" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="47" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gab50d60e9d4e42e53f0f0488142b74875" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::orient3d</definition>
+        <argsstring>(const std::array&lt; PreciseVertCoords, 4 &gt; &amp;vs)</argsstring>
+        <name>orient3d</name>
+        <qualifiedname>MR::orient3d</qualifiedname>
+        <param>
+          <type>const std::array&lt; PreciseVertCoords, 4 &gt; &amp;</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="48" column="14" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="48" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gaa25e42c5c1a4ba6b998eb518b9dacafe" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ccwAroundLine</definition>
+        <argsstring>(const PreciseVertCoords *vs)</argsstring>
+        <name>ccwAroundLine</name>
+        <qualifiedname>MR::ccwAroundLine</qualifiedname>
+        <param>
+          <type>const PreciseVertCoords *</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Precise predicate for the rotational order of three half-planes around a directed line. The line passes via vs[0] and vs[1] and is directed from vs[0] to vs[1]; the three half-planes are bounded by that line and pass via vs[2], vs[3], vs[4] respectively. Returns true iff the half-planes follow one another in counter-clockwise order around the line, as seen by the viewer the line&apos;s direction points at. Only the rotation of every point around the line matters, so cyclic permutations of vs[2], vs[3], vs[4] do not change the result, while a swap of two of them, as well as a swap of vs[0] and vs[1], inverts it. Implemented via orient3d and inherits its simulation-of-simplicity, so the predicate is never &quot;undefined&quot; even if some of the points coincide; all five ids must be distinct. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="60" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="60" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga55fa84104f9667699a40034291a40723" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ccwAroundLine</definition>
+        <argsstring>(const std::array&lt; PreciseVertCoords, 5 &gt; &amp;vs)</argsstring>
+        <name>ccwAroundLine</name>
+        <qualifiedname>MR::ccwAroundLine</qualifiedname>
+        <param>
+          <type>const std::array&lt; PreciseVertCoords, 5 &gt; &amp;</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="61" column="14" bodyfile="MRMesh/MRPrecisePredicates3.h" bodystart="61" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga4b162fc9a97cef14dfdf9a7dfc6bf34f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>TriangleSegmentIntersectResult</type>
@@ -366,11 +404,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>checks whether triangle ABC (indices 012) and segment DE (indices 34) intersect uses simulation-of-simplicity to avoid edge-segment intersections and co-planarity </para>
+<para>checks whether triangle ABC (vertices 0,1,2) and segment DE (vertices 3,4) intersect. Simulation-of-simplicity removes the degenerate cases (segment passing exactly through an edge or vertex of the triangle, or lying in the triangle&apos;s plane), so the answer is always a clean yes/no. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="46" column="34" declfile="MRMesh/MRPrecisePredicates3.h" declline="46" declcolumn="34"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="75" column="34" declfile="MRMesh/MRPrecisePredicates3.h" declline="75" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga4407955477825bbff775800e3841da28" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -385,13 +423,32 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>given line segment s=01 and two triangles ta=234, tb=567 known to intersect it, finds the order of intersection using precise predicates: true: s[0], s ^ ta, s ^ tb, s[1] false: s[0], s ^ tb, s ^ ta, s[1] triangles ta and tb can have at most two shared points, all other points must be unique </para>
+<para>given line segment s (vertices 0,1) and two triangles ta (vertices 2,3,4) and tb (vertices 5,6,7), each known to be pierced by s, returns the order in which s meets them, using precise predicates. Here s^t denotes the point where segment s crosses triangle t, and s[0]/s[1] are the segment endpoints. Walking s from s[0] to s[1]: true: order is s[0], s^ta, s^tb, s[1] (ta met before tb) false: order is s[0], s^tb, s^ta, s[1] (tb met before ta) triangles ta and tb may share at most two vertices; all remaining vertices must be unique </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="53" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="53" declcolumn="8"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="85" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="85" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__MathGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__MathGroup_1gaae180a2cc2ed168bacc3bb0f55ced219" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::segmentIntersectionTriPlaneOrder</definition>
+        <argsstring>(const std::array&lt; PreciseVertCoords, 8 &gt; &amp;vs)</argsstring>
+        <name>segmentIntersectionTriPlaneOrder</name>
+        <qualifiedname>MR::segmentIntersectionTriPlaneOrder</qualifiedname>
+        <param>
+          <type>const std::array&lt; PreciseVertCoords, 8 &gt; &amp;</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given line segment s (vertices 0,1), triangle ta (vertices 2,3,4) known to be pierced by s, and infinite plane pb passing via vertices 5,6,7, returns the order in which the line of s meets ta and pb, using precise predicates. Here s^ta is the point where s crosses ta, and s^pb is the point where the line of s crosses pb. Walking the line in the direction from s[0] to s[1]: true: s^ta is met before s^pb (order is s[0], s^ta, s^pb) false: s^pb is met before s^ta (order is s^pb, s^ta, s[1]) ta and pb may share at most two vertices; all remaining vertices must be unique </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="95" column="8" declfile="MRMesh/MRPrecisePredicates3.h" declline="95" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ConvertToIntVector</type>
         <definition>ConvertToIntVector MR::getToIntConverter</definition>
         <argsstring>(const Box3d &amp;box)</argsstring>
@@ -408,9 +465,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="108" column="21" declfile="MRMesh/MRPrecisePredicates3.h" declline="108" declcolumn="21"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="150" column="22" declfile="MRMesh/MRPrecisePredicates3.h" declline="150" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="group__MathGroup_1ga5daf9fc7ddf6a348c4194b8582821c82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__MathGroup_1ga5daf9fc7ddf6a348c4194b8582821c82" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ConvertToFloatVector</type>
         <definition>ConvertToFloatVector MR::getToFloatConverter</definition>
         <argsstring>(const Box3d &amp;box)</argsstring>
@@ -427,7 +484,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="110" column="23" declfile="MRMesh/MRPrecisePredicates3.h" declline="110" declcolumn="23"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="152" column="24" declfile="MRMesh/MRPrecisePredicates3.h" declline="152" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga39e5dd8c133fbb356e478051d5923e8b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector&lt; Vector3i, VertId &gt;</type>
@@ -464,7 +521,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="114" column="10" declfile="MRMesh/MRPrecisePredicates3.h" declline="114" declcolumn="10"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="156" column="10" declfile="MRMesh/MRPrecisePredicates3.h" declline="156" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gabad3bcfedc022e24fc08968b846a21b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertCoords</type>
@@ -501,7 +558,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="119" column="14" declfile="MRMesh/MRPrecisePredicates3.h" declline="119" declcolumn="14"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="161" column="14" declfile="MRMesh/MRPrecisePredicates3.h" declline="161" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; Vector3i &gt;</type>
@@ -532,7 +589,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="124" column="17" declfile="MRMesh/MRPrecisePredicates3.h" declline="124" declcolumn="17"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="166" column="17" declfile="MRMesh/MRPrecisePredicates3.h" declline="166" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaab6e7e21a9eac612957d5e6b91637769" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
@@ -571,7 +628,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3.h" line="128" column="12" declfile="MRMesh/MRPrecisePredicates3.h" declline="128" declcolumn="12"/>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="170" column="12" declfile="MRMesh/MRPrecisePredicates3.h" declline="170" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
@@ -1290,6 +1347,78 @@ xf(eye) = 0 </para>
         </inbodydescription>
         <location file="MRMesh/MRTriMath.h" line="57" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="57" bodyend="71"/>
       </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga95bae9bf748cf3afac3e19c5a26d62d4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::edgeCoveringRadiusSq</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
+        <name>edgeCoveringRadiusSq</name>
+        <qualifiedname>MR::edgeCoveringRadiusSq</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the squared maximal distance from a point of the segment AB to the nearest of the points A, B and C: this is where the balls of that radius around the three points stop covering the segment </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>where C projects on the segment, times its length</para>
+<para>squared distance from the point in the given relative position to the nearest of A, B and C</para>
+<para>that distance is maximal where the two nearest of the points are equidistant</para>
+<para>A and B</para>
+<para>A and C</para>
+<para>B and C</para>
+        </inbodydescription>
+        <location file="MRMesh/MRTriMath.h" line="80" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="80" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gaa4b8359664bdd9d1919ba484c24ab7d4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::coveringRadiusSq</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
+        <name>coveringRadiusSq</name>
+        <qualifiedname>MR::coveringRadiusSq</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the squared maximal distance from a point of the triangle ABC to the nearest of its vertices, so the balls of that radius around the vertices cover the whole triangle. For non-obtuse triangles it is the squared circumradius, and for obtuse ones it can be much smaller than in the minimal enclosing circle, e.g. when the third vertex is near the longest edge </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>a non-obtuse triangle contains its circumcenter, which is the farthest point from the vertices; this is circumcircleDiameterSq / 4 written on the lengths already at hand, and none of the guards in it can trigger here: a triangle with a zero side or zero area is obtuse by the test</para>
+<para>otherwise that point is on the boundary, where the two nearest vertices are equidistant, and always on the longest edge: the circumcenter is beyond it, the distance along every bisector grows towards the circumcenter, so each bisector is maximal where it meets that edge</para>
+        </inbodydescription>
+        <location file="MRMesh/MRTriMath.h" line="115" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="115" bodyend="133"/>
+      </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaf5af7058ce54bba6fc77a344d28b9826" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
@@ -1320,7 +1449,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="134" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="134" bodyend="143"/>
+        <location file="MRMesh/MRTriMath.h" line="196" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="196" bodyend="205"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga2fbcc5b76ec7e12da86bc99895ac6fc9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1352,7 +1481,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="160" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="160" bodyend="171"/>
+        <location file="MRMesh/MRTriMath.h" line="222" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="222" bodyend="233"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga92b796fca017138671758654b2838d56" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1384,7 +1513,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="347" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="347" bodyend="351"/>
+        <location file="MRMesh/MRTriMath.h" line="409" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="409" bodyend="413"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1gaa45975718eae0ae8c5500147ee8c27d1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1412,7 +1541,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="362" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="362" bodyend="365"/>
+        <location file="MRMesh/MRTriMath.h" line="424" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="424" bodyend="427"/>
       </memberdef>
       <memberdef kind="function" id="group__MathGroup_1ga84b1b2dc1c73856fecb9b8617c174b04" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1444,7 +1573,7 @@ xf(eye) = 0 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriMath.h" line="377" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="377" bodyend="382"/>
+        <location file="MRMesh/MRTriMath.h" line="439" column="4" bodyfile="MRMesh/MRTriMath.h" bodystart="439" bodyend="444"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

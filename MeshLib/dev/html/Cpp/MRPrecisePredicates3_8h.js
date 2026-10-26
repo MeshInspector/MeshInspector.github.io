@@ -6,6 +6,7 @@ var MRPrecisePredicates3_8h =
     [ "MR::computeIntCoords", "group__MathGroup.html#ga39e5dd8c133fbb356e478051d5923e8b", null ],
     [ "MR::doTriangleSegmentIntersect", "group__MathGroup.html#ga4b162fc9a97cef14dfdf9a7dfc6bf34f", null ],
     [ "MR::findTriangleSegmentIntersectionPrecise", "group__MathGroup.html#gaab6e7e21a9eac612957d5e6b91637769", null ],
+    [ "MR::findTriangleSegmentIntersectionPreciseInt", "group__MathGroup.html#ga67bcae2090ea4cb7ddaa3649e817b040", null ],
     [ "MR::findTwoSegmentsIntersection", "group__MathGroup.html#ga4a25b52ef9a47a48d91540efe6f61bcd", null ],
     [ "MR::getToFloatConverter", "group__MathGroup.html#ga5daf9fc7ddf6a348c4194b8582821c82", null ],
     [ "MR::getToIntConverter", "group__MathGroup.html#ga1d477d2bd0d97e5a7ee1a9b3e62d06cc", null ],
@@ -13,5 +14,6 @@ var MRPrecisePredicates3_8h =
     [ "MR::orient3d", "group__MathGroup.html#gab50d60e9d4e42e53f0f0488142b74875", null ],
     [ "MR::orient3d", "group__MathGroup.html#ga343b0de4b65432a92901c76af4024b57", null ],
     [ "MR::orient3d", "group__MathGroup.html#ga24ef393e1380f77979d9cfa6f7e0e88e", null ],
-    [ "MR::segmentIntersectionOrder", "group__MathGroup.html#ga4407955477825bbff775800e3841da28", null ]
+    [ "MR::segmentIntersectionOrder", "group__MathGroup.html#ga4407955477825bbff775800e3841da28", null ],
+    [ "MR::segmentIntersectionTriPlaneOrder", "group__MathGroup.html#gaae180a2cc2ed168bacc3bb0f55ced219", null ]
 ];

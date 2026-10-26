@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RasterInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RasterInfo</compoundname>
+    <includes refid="MRRaster_8h" local="no">MRMesh/MRRaster.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RasterInfo_1ae6e6b33190a6ad4ff0fc9af5e2664d4d" prot="public" static="no" mutable="no">
+        <type>Vector3i</type>
+        <definition>Vector3i MR::RasterInfo::dims</definition>
+        <argsstring></argsstring>
+        <name>dims</name>
+        <qualifiedname>MR::RasterInfo::dims</qualifiedname>
+        <briefdescription>
+<para>number of pixels along each axis: x is the width, y is the height, z is the number of layers </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="21" column="14" bodyfile="MRMesh/MRRaster.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RasterInfo_1a36f891c8cd22da0d525bbbff20782d0f" prot="public" static="no" mutable="no">
+        <type><ref refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kindref="member">ScalarType</ref></type>
+        <definition>ScalarType MR::RasterInfo::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>MR::RasterInfo::type</qualifiedname>
+        <initializer>= <ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">ScalarType::Unknown</ref></initializer>
+        <briefdescription>
+<para>type of all values </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="24" column="16" bodyfile="MRMesh/MRRaster.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RasterInfo_1a8c02308e5d77f79bb7b5d6e2090a6273" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::RasterInfo::channels</definition>
+        <argsstring></argsstring>
+        <name>channels</name>
+        <qualifiedname>MR::RasterInfo::channels</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of values in each pixel, e.g. 1 for gray values, 3 for RGB colors, 4 for RGBA colors, or any number of bands; convertRasterToImage takes three or more channels as RGB(A) colors, so three or four gray bands look like colors there </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="28" column="9" bodyfile="MRMesh/MRRaster.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1RasterInfo_1a0ad46a0f55eeee9ff52ca84e3ae330a2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::RasterInfo::dataSize</definition>
+        <argsstring>() const</argsstring>
+        <name>dataSize</name>
+        <qualifiedname>MR::RasterInfo::dataSize</qualifiedname>
+        <briefdescription>
+<para>returns the size of all values in bytes, or the largest size_t value if the size does not fit in size_t, which no data can have </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="31" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1RasterInfo_1a88d0fd0db990df1d00fb625ccfb8fdcf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::RasterInfo::operator==</definition>
+        <argsstring>(const RasterInfo &amp;) const =default</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::RasterInfo::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1RasterInfo" kindref="compound">RasterInfo</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="33" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>everything about a raster except its values </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRRaster.h" line="18" column="1" bodyfile="MRMesh/MRRaster.h" bodystart="19" bodyend="34"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RasterInfo_1a8c02308e5d77f79bb7b5d6e2090a6273" prot="public" virt="non-virtual"><scope>MR::RasterInfo</scope><name>channels</name></member>
+      <member refid="structMR_1_1RasterInfo_1a0ad46a0f55eeee9ff52ca84e3ae330a2" prot="public" virt="non-virtual"><scope>MR::RasterInfo</scope><name>dataSize</name></member>
+      <member refid="structMR_1_1RasterInfo_1ae6e6b33190a6ad4ff0fc9af5e2664d4d" prot="public" virt="non-virtual"><scope>MR::RasterInfo</scope><name>dims</name></member>
+      <member refid="structMR_1_1RasterInfo_1a88d0fd0db990df1d00fb625ccfb8fdcf" prot="public" virt="non-virtual"><scope>MR::RasterInfo</scope><name>operator==</name></member>
+      <member refid="structMR_1_1RasterInfo_1a36f891c8cd22da0d525bbbff20782d0f" prot="public" virt="non-virtual"><scope>MR::RasterInfo</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

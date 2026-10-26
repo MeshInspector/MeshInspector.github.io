@@ -10,6 +10,7 @@ var MRMeshFillHole_8h =
       [ "MR_FillHoleParams_MultipleEdgesResolveMode_Simple", "MRMeshFillHole_8h.html#ad5ff595b64cd4a8ccfe5988d90b4df81af6d6c71b19a22ab07182be268c3aaf07", null ],
       [ "MR_FillHoleParams_MultipleEdgesResolveMode_Strong", "MRMeshFillHole_8h.html#ad5ff595b64cd4a8ccfe5988d90b4df81acd6ea875a6947158d24fa83001f68c48", null ]
     ] ],
+    [ "MR_bridgeFillAllHoles", "MRMeshFillHole_8h.html#a0568b5e5585904e2e478f58533538592", null ],
     [ "MR_buildBottom", "MRMeshFillHole_8h.html#ab391387fa150a1ab1bfb4e5b4b720bae", null ],
     [ "MR_buildCylinderBetweenTwoHoles_2", "MRMeshFillHole_8h.html#a2d5baa17cf2b7f5cb69237f5e4ae0457", null ],
     [ "MR_buildCylinderBetweenTwoHoles_4", "MRMeshFillHole_8h.html#a7f3e17319c8051786af783b7c341f240", null ],
@@ -83,8 +84,8 @@ var MRMeshFillHole_8h =
     [ "MR_makeQuadBridge", "MRMeshFillHole_8h.html#a9c1c7bdf563afe3ca4eb86831e4041b8", null ],
     [ "MR_makeSmoothBridge", "MRMeshFillHole_8h.html#a53d474a75180346e7c8f171b4518011a", null ],
     [ "MR_splitQuad", "MRMeshFillHole_8h.html#a42ea0a4fee75a0495d5d9ca0ec3e6ae3", null ],
-    [ "MR_stitchHoles_2", "MRMeshFillHole_8h.html#a1cc97943dbb30a708c283cc0865ba6dc", null ],
-    [ "MR_stitchHoles_4", "MRMeshFillHole_8h.html#ac4b92ae79801cde28f25889e77ff3bc3", null ],
+    [ "MR_stitchHoles", "MRMeshFillHole_8h.html#afc6bb3e67eb22da8e8135c50ac3c903f", null ],
+    [ "MR_stitchHoles_auto", "MRMeshFillHole_8h.html#a5913a812d4f105ad5114b33cebcfc5ce", null ],
     [ "MR_StitchHolesParams_AssignFromAnother", "MRMeshFillHole_8h.html#a4d4c6a108e2cae8455f6d1ab593da381", null ],
     [ "MR_StitchHolesParams_ConstructFrom", "MRMeshFillHole_8h.html#a3a0b391cb6bcdf7fab916473cb26a3cc", null ],
     [ "MR_StitchHolesParams_ConstructFromAnother", "MRMeshFillHole_8h.html#ad01b1902c5e1559ad9b1754e77aba728", null ],

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RasterLoad_1_1RasterLoader" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RasterLoad::RasterLoader</compoundname>
+    <includes refid="MRIOFormatsRegistry_8h" local="no">MRMesh/MRIOFormatsRegistry.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RasterLoad_1_1RasterLoader_1abd3ba17645c37e6f6d37004db945532c" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1RasterLoad_1a0841950ed95e631a37203af96bfc0f2b" kindref="member">RasterFileLoader</ref></type>
+        <definition>RasterFileLoader MR::RasterLoad::RasterLoader::fileLoad</definition>
+        <argsstring></argsstring>
+        <name>fileLoad</name>
+        <qualifiedname>MR::RasterLoad::RasterLoader::fileLoad</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>loads the whole raster </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="414" column="22" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="414" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1RasterLoad_1_1RasterLoader_1a1144daaa14a34e9a7eb038d91217c799" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1RasterLoad_1ade9e8b8215e87321bea2c34d68fe543b" kindref="member">RasterInfoLoader</ref></type>
+        <definition>RasterInfoLoader MR::RasterLoad::RasterLoader::infoLoad</definition>
+        <argsstring></argsstring>
+        <name>infoLoad</name>
+        <qualifiedname>MR::RasterLoad::RasterLoader::infoLoad</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>loads everything about the raster except its samples </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="416" column="22" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="416" bodyend="416"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::RasterLoad::RasterLoader</label>
+        <link refid="structMR_1_1RasterLoad_1_1RasterLoader"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>fileLoad</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RasterLoadSettings</label>
+        <link refid="structMR_1_1RasterLoadSettings"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRIOFormatsRegistry.h" line="411" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="412" bodyend="417"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RasterLoad_1_1RasterLoader_1abd3ba17645c37e6f6d37004db945532c" prot="public" virt="non-virtual"><scope>MR::RasterLoad::RasterLoader</scope><name>fileLoad</name></member>
+      <member refid="structMR_1_1RasterLoad_1_1RasterLoader_1a1144daaa14a34e9a7eb038d91217c799" prot="public" virt="non-virtual"><scope>MR::RasterLoad::RasterLoader</scope><name>infoLoad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -24,6 +24,7 @@
 */
 var menudata={children:[
 {text:"About",url:"index.html"},
+{text:"Live Demo",url:"^https://demo.meshlib.io/"},
 {text:"Getting Started",url:"InstallationGuide.html",children:[
 {text:"Python",url:"MeshLibPythonSetupGuide.html"},
 {text:"C++",url:"MeshLibCppSetupGuide.html"},
@@ -32,6 +33,7 @@ var menudata={children:[
 {text:"JavaScript",url:"MeshLibJsSetupGuide.html"},
 {text:"CMake",url:"MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"License.html"},
+{text:"How to cite",url:"Citation.html"},
 {text:"Tutorials",url:"Tutorials.html",children:[
 {text:"Create First Plugin using C++",url:"FirstPluginTutorial.html"},
 {text:"Support Generator Tool using C++",url:"SupportGeneratorTutorial.html"}]},
@@ -76,6 +78,7 @@ var menudata={children:[
 {text:"Numpy Triangulation",url:"ExampleNumpyTriangulation.html"},
 {text:"Offset with Cuda",url:"ExampleCudaOffset.html"},
 {text:"Open Dicom Files",url:"ExampleDicomFiles.html"}]}]},
+{text:"Switching from Other Libraries",url:"SwitchingFromOtherLibraries.html"},
 {text:"Package Overview",url:"PackageOverview.html",children:[
 {text:"File Format Support",url:"FileFormatSupport.html"},
 {text:"Mesh Structure",url:"MeshStructureOverview.html"},

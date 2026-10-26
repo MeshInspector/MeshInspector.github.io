@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="88" column="17" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="88" bodyend="-1"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="90" column="17" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanResultMapper_1_1Maps_1a759f148ae9dcef7ecb6908d19f726e7c" prot="public" static="no" mutable="no">
         <type>FaceMap</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="90" column="17" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="90" bodyend="-1"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="92" column="17" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanResultMapper_1_1Maps_1a70a6c9015f66d50b0889a5cfbdc6b9a9" prot="public" static="no" mutable="no">
         <type>WholeEdgeMap</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="92" column="22" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="92" bodyend="-1"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="94" column="22" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1BooleanResultMapper_1_1Maps_1accfdff73b6e9b6265313ff04878b8973" prot="public" static="no" mutable="no">
         <type>VertMap</type>
@@ -62,14 +62,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBooleanOperation.h" line="94" column="17" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="94" bodyend="-1"/>
+        <location file="MRMesh/MRBooleanOperation.h" line="96" column="17" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="96" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRBooleanOperation.h" line="84" column="5" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="85" bodyend="95"/>
+    <location file="MRMesh/MRBooleanOperation.h" line="86" column="5" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="87" bodyend="97"/>
     <listofallmembers>
       <member refid="structMR_1_1BooleanResultMapper_1_1Maps_1a759f148ae9dcef7ecb6908d19f726e7c" prot="public" virt="non-virtual"><scope>MR::BooleanResultMapper::Maps</scope><name>cut2newFaces</name></member>
       <member refid="structMR_1_1BooleanResultMapper_1_1Maps_1a854bf26bb7bda5effd4d5f1be56f0aa9" prot="public" virt="non-virtual"><scope>MR::BooleanResultMapper::Maps</scope><name>cut2origin</name></member>

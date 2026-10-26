@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -162,9 +155,12 @@ $(function(){initNavTree('namespacemembers_func_m.html','',''); });
 <li>makeDegenerateBandAroundRegion()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gadd5038dba629ab9f09789d2855c2aa73">MR</a></li>
 <li>makeDeloneEdgeFlips()&#160;:&#160;<a class="el" href="group__MeshDeloneGroup.html#ga195bc7da311dfa877bd7db6a8af4ff65">MR</a></li>
 <li>makeDeloneOriginRing()&#160;:&#160;<a class="el" href="group__MeshDeloneGroup.html#ga5df0de3a017d0b07dca533e50ed89489">MR</a></li>
+<li>makeFillContours2DPlanCache()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga4b58b14fd18ff412914c444b5d647659">MR</a></li>
 <li>MakeFloatGrid()&#160;:&#160;<a class="el" href="group__BasicStructuresGroup.html#ga008386feb5f7364043e76dc51b8a0a9d">MR</a></li>
 <li>makeFreeFormOriginGrid()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga6c7c9b7158d19c16a538796d96742fe2">MR</a></li>
 <li>makeHashMapWithSeqNums()&#160;:&#160;<a class="el" href="group__BasicGroup.html#ga11d9716c4a58936253cf70cf7394f983">MR</a></li>
+<li>makeInsideMeshVolume()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gad2a0f095b14cd7fd73b9ab7667899bd7">MR</a></li>
+<li>makeInsideMeshVolumeVdb()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga23afae32b25cdee2c3bf2b6056f688e1">MR</a></li>
 <li>makeInterHoleBridgeEdges()&#160;:&#160;<a class="el" href="group__FillHoleGroup.html#gaedeea912acd0e1829ff8da9d845c8f69">MR</a></li>
 <li>makeLevelOfDetails()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga642d8f58bfaf2bf579e6da003fcdc164">MR</a></li>
 <li>makeMovementBuildBody()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga7cceaa249191f3117f4443ce661e9c13">MR</a></li>
@@ -201,6 +197,7 @@ $(function(){initNavTree('namespacemembers_func_m.html','',''); });
 <li>makeSphere()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga1c2da48497693f219de4c05f49173277">MR</a></li>
 <li>makeSpline()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaf35eda873f57d271f24416d60a8aecf9">MR</a></li>
 <li>makeSubdividedObjectMeshData()&#160;:&#160;<a class="el" href="group__MeshSubdivideGroup.html#gacfadb132c513471bfcdc498067ae5207">MR</a></li>
+<li>makeSweepLineCache()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga6aa55c423349c3200c91a32652683cca">MR::PlanarTriangulation</a></li>
 <li>makeThickMesh()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga34f71b57fc7b583b62d9b1eac40249b7">MR</a></li>
 <li>makeTorus()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga638324ed49e28189a1c35cf398dc6a73">MR</a></li>
 <li>makeTorusWithComponents()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga57eb865bddfea0b83ba03d7d424a3589">MR</a></li>
@@ -234,7 +231,7 @@ $(function(){initNavTree('namespacemembers_func_m.html','',''); });
 <li>merge()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga9cb64db052744265abae5f26eba3885e">MR</a></li>
 <li>mergeSubtree()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gab0122d48aa237a15416e1668203305e8">MR</a></li>
 <li>mergeVolumePart()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga9145e1b055b88e54edf784e6f3b050fc">MR</a></li>
-<li>meshDenoiseViaNormals()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga86981572c4f14bf7f1a09887110d60f3">MR</a></li>
+<li>meshDenoiseWithCreases()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gad3ee3facd1ffb97bd91ffba08a243484">MR</a></li>
 <li>meshFromEigen()&#160;:&#160;<a class="el" href="group__MeshEigenGroup.html#gac8c5bb3011d7c265fbfe5bfc5f03406b">MR</a></li>
 <li>meshFromVoxelsMask()&#160;:&#160;<a class="el" href="group__VolumeSegmentationGroup.html#ga66a8de1137e7c508ae9c12d886306f4e">MR</a></li>
 <li>meshOnEdgeSplitAttribute()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gab430877fb7ef3cfb347a264b5fd553df">MR</a></li>
@@ -245,6 +242,7 @@ $(function(){initNavTree('namespacemembers_func_m.html','',''); });
 <li>MeshRegion()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gac2467062511884bec34fc4442102c639">MR</a></li>
 <li>meshRegionToIndicatorVolume()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaf99b4c073dc700a6e84295c59f0cbdef">MR</a></li>
 <li>meshShell()&#160;:&#160;<a class="el" href="namespaceMR_1_1WeightedShell.html#a6c11500f809bc486096500b727e6cbbe">MR::WeightedShell</a></li>
+<li>meshToDensePointCloud()&#160;:&#160;<a class="el" href="group__MeshAlgorithmGroup.html#ga1b34cefe32e8fd4e623da084831b0846">MR</a></li>
 <li>meshToDirectionVolume()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga0752e5390277bae84ef50d8e1f0a5db9">MR</a></li>
 <li>meshToDistanceField()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gad6792f245ad7c79f45f2e51da0703d8e">MR</a></li>
 <li>meshToDistanceFunctionVolume()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaf240d29116bdd27249c44e9978b98541">MR</a></li>
@@ -252,8 +250,9 @@ $(function(){initNavTree('namespacemembers_func_m.html','',''); });
 <li>meshToDistanceVolume()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaed72deb95016a3c136004932e83ae969">MR</a>, <a class="el" href="namespaceMR_1_1WeightedShell.html#a1828e77e08ab2c06e1b4bffe5866270f">MR::WeightedShell</a></li>
 <li>meshToEigen()&#160;:&#160;<a class="el" href="group__MeshEigenGroup.html#ga24bf8eab6bf0c1eed0bb93ca8668237d">MR</a></li>
 <li>meshToLevelSet()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga4a5a5572b6bfd680678650c3da0badcd">MR</a></li>
-<li>meshToPointCloud()&#160;:&#160;<a class="el" href="group__MeshAlgorithmGroup.html#gaff12e899a2fa7790b09853a93701515f">MR</a></li>
+<li>meshToPointCloud()&#160;:&#160;<a class="el" href="group__MeshAlgorithmGroup.html#ga2d7563f4b05501158a133d1e52731cc0">MR</a></li>
 <li>meshToVolume()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gab22dbe091527f028fd609ca3116d57b6">MR</a></li>
+<li>MeshTriPointT&lt; float &gt;()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gac9eac519634b1a5b87faff78b7e2eefa">MR</a></li>
 <li>min()&#160;:&#160;<a class="el" href="namespaceMR_1_1ImGuiMath.html#ac034e81727be0de1a1b7d5c5835a7283">MR::ImGuiMath</a></li>
 <li>mincircleDiameterSq()&#160;:&#160;<a class="el" href="group__MathGroup.html#ga4d722517a95582901be4599a6042e273">MR</a></li>
 <li>minTriangleAngle()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gac317aae7fbe013869599d57c76389e8b">MR</a></li>
@@ -268,8 +267,10 @@ $(function(){initNavTree('namespacemembers_func_m.html','',''); });
 <li>moveMeshToVoxelMaxDeriv&lt; FunctionVolume &gt;()&#160;:&#160;<a class="el" href="namespaceMR.html#af57a9e992da58c4255497330494f5790">MR</a></li>
 <li>moveMeshToVoxelMaxDeriv&lt; SimpleVolumeMinMax &gt;()&#160;:&#160;<a class="el" href="namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11">MR</a></li>
 <li>moveMeshToVoxelMaxDeriv&lt; VdbVolume &gt;()&#160;:&#160;<a class="el" href="namespaceMR.html#a4c95ee49f1806c7573241fe7617401c9">MR</a></li>
+<li>MR_BIND_OVERLOAD_SUFFIX()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaa025e5add547573085ebcafb05da4759">MR::MeshBuilder</a>, <a class="el" href="group__MeshComponentsGroup.html#gaf6b68cea12137d44fb03418c5f46ddce">MR::MeshComponents</a>, <a class="el" href="namespaceMR_1_1MeshLoad.html#a3156ac4339435553ca2d33f1668a3bcd">MR::MeshLoad</a>, <a class="el" href="group__MeshSaveGroup.html#gaa05bdb5fed13993e770d0f517a729412">MR::MeshSave</a>, <a class="el" href="group__DistanceMapGroup.html#ga39152eebf658678f4b4dcf694eaa7e6e">MR</a>, <a class="el" href="group__IOGroup.html#ga211fda8baf23a249ac231793c2848373">MR::PointsLoad</a>, <a class="el" href="group__PointsSaveGroup.html#gaf3db0c1382a48e811765551be79a0a39">MR::PointsSave</a>, <a class="el" href="namespaceMR_1_1WeightedShell.html#a63de0b6d59010041133de78641678b6d">MR::WeightedShell</a></li>
 <li>MR_BIND_TEMPLATE()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gac1af1fb0afcf5fb6f5ee5e1784d5f502">MR</a></li>
 <li>MR_REQUIRES_IF_SUPPORTED()&#160;:&#160;<a class="el" href="group__MathGroup.html#gab29a7719b4a571baf6abe4be5d93d4f2">MR</a></li>
+<li>mulAs()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga2a9110bdd2a450f4830e39f32ae6dcfc">MR</a></li>
 <li>multiModelGridSampling()&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gae26b8f62dca51a80c9ba270f309ca6d8">MR</a></li>
 <li>multiRayMeshIntersect()&#160;:&#160;<a class="el" href="group__AABBTreeGroup.html#gac55c3d3c33053f0cfe8a2d4a19666c72">MR</a></li>
 <li>mulWords()&#160;:&#160;<a class="el" href="namespaceMR_1_1detail.html#adef9954c65821ab458734f64ae86e011">MR::detail</a></li>

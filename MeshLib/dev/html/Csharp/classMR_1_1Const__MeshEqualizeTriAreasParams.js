@@ -15,6 +15,7 @@ var classMR_1_1Const__MeshEqualizeTriAreasParams =
     [ "__ref_storage_limitNearInitial", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a14cd65b4fd404db12dbb3216616b8089", null ],
     [ "__ref_storage_maxInitialDist", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#ae153027572a88406fa5c82d59633c166", null ],
     [ "__ref_storage_noShrinkage", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a3350feeae6d6c031272532f919eeccb3", null ],
+    [ "__ref_storage_updateCaches", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#ae965bc335adf7a834f8f6c2bf22a1090", null ],
     [ "force", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a9ddd52f06a44adcf75f45b51115435a9", null ],
     [ "hardSmoothTetrahedrons", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a607d976bd50e39b69bfaa91baba3826b", null ],
     [ "iterations", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a81e92d1b3985a606286e3ab1e45e20f2", null ],
@@ -22,5 +23,6 @@ var classMR_1_1Const__MeshEqualizeTriAreasParams =
     [ "maxInitialDist", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a6d0980d9f18aa87ab01d1a00c368eda8", null ],
     [ "noShrinkage", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a86786408a629849f68cb9d49f4242c6c", null ],
     [ "region", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a3eacf27b681afc8da4de0f3113b1edef", null ],
+    [ "updateCaches", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#aa501bc4dbe61710f9b48d46644cf3eba", null ],
     [ "weights", "classMR_1_1Const__MeshEqualizeTriAreasParams.html#a9b76301ea25f0481fcf8c3b459c175b0", null ]
 ];

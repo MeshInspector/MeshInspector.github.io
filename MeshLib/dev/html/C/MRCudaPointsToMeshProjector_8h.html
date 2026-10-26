@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -173,8 +166,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a7ebaefffa0e3c2d62d2675bcb83fb496" id="r_a7ebaefffa0e3c2d62d2675bcb83fb496"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ebaefffa0e3c2d62d2675bcb83fb496">MR_Cuda_PointsToMeshProjector_DestroyArray</a> (const <a class="el" href="#ac30c8f09b6b78a1488ced4d16bbfade7">MR_Cuda_PointsToMeshProjector</a> *_this)</td></tr>
 <tr class="memdesc:a7ebaefffa0e3c2d62d2675bcb83fb496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#ac30c8f09b6b78a1488ced4d16bbfade7">MR_Cuda_PointsToMeshProjector</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a6c22a793b4156f172d4d2be359a3da3d" id="r_a6c22a793b4156f172d4d2be359a3da3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c22a793b4156f172d4d2be359a3da3d">MR_Cuda_PointsToMeshProjector_updateMeshData</a> (<a class="el" href="#ac30c8f09b6b78a1488ced4d16bbfade7">MR_Cuda_PointsToMeshProjector</a> *_this, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
-<tr class="memitem:ac8303a76dc5a91d8bfbdbf5160735627" id="r_ac8303a76dc5a91d8bfbdbf5160735627"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8303a76dc5a91d8bfbdbf5160735627">MR_Cuda_PointsToMeshProjector_findProjections</a> (<a class="el" href="#ac30c8f09b6b78a1488ced4d16bbfade7">MR_Cuda_PointsToMeshProjector</a> *_this, <a class="el" href="MRPointsToMeshProjector_8h.html#a6948b441655a1b3976257e0a61a5a4ba">MR_std_vector_MR_MeshProjectionResult</a> *res, const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *objXf, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *refObjXf, float upDistLimitSq, float loDistLimitSq)</td></tr>
-<tr class="memdesc:ac8303a76dc5a91d8bfbdbf5160735627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
+<tr class="memitem:a323ad3b76d512d2efb2f65964838fde1" id="r_a323ad3b76d512d2efb2f65964838fde1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a323ad3b76d512d2efb2f65964838fde1">MR_Cuda_PointsToMeshProjector_findProjections</a> (<a class="el" href="#ac30c8f09b6b78a1488ced4d16bbfade7">MR_Cuda_PointsToMeshProjector</a> *_this, <a class="el" href="MRPointsToMeshProjector_8h.html#a6948b441655a1b3976257e0a61a5a4ba">MR_std_vector_MR_MeshProjectionResult</a> *res, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *objXf, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *refObjXf, float upDistLimitSq, float loDistLimitSq)</td></tr>
+<tr class="memdesc:a323ad3b76d512d2efb2f65964838fde1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
 <tr class="memitem:a0ab3ae102eba6c594e10af3601f0882a" id="r_a0ab3ae102eba6c594e10af3601f0882a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="uda_2include_2MRCCuda_2exports_8h.html#abe9d4e862ad348843b68b3e4f46cdab8">MRC_CUDA_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ab3ae102eba6c594e10af3601f0882a">MR_Cuda_PointsToMeshProjector_projectionsHeapBytes</a> (const <a class="el" href="#ac30c8f09b6b78a1488ced4d16bbfade7">MR_Cuda_PointsToMeshProjector</a> *_this, size_t numProjections)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
@@ -326,8 +319,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac8303a76dc5a91d8bfbdbf5160735627" name="ac8303a76dc5a91d8bfbdbf5160735627"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8303a76dc5a91d8bfbdbf5160735627">&#9670;&#160;</a></span>MR_Cuda_PointsToMeshProjector_findProjections()</h2>
+<a id="a323ad3b76d512d2efb2f65964838fde1" name="a323ad3b76d512d2efb2f65964838fde1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a323ad3b76d512d2efb2f65964838fde1">&#9670;&#160;</a></span>MR_Cuda_PointsToMeshProjector_findProjections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,7 +338,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

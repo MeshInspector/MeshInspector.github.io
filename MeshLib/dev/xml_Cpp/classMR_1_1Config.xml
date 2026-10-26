@@ -52,13 +52,13 @@
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1gad2946104840a627c1616842fc1f7bdb9" kind="function"><name>Config</name></member>
       <member refid="group__GeneralGroup_1ga7bfc878f9e608ec48366c81f1809333a" kind="function"><name>reset</name></member>
-      <member refid="group__GeneralGroup_1ga17bd8ac3880368e2e34b777871262b86" kind="function"><name>~Config</name></member>
+      <member refid="group__GeneralGroup_1gaa82b9797caa4e9ec4592ee532a240351" kind="function"><name>~Config</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRConfig.h" line="21" column="1" bodyfile="MRMesh/MRConfig.h" bodystart="22" bodyend="141"/>
+    <location file="MRMesh/MRConfig.h" line="21" column="1" bodyfile="MRMesh/MRConfig.h" bodystart="22" bodyend="139"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga725767207fa5bd85d2919a3d791fa760" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>appName_</name></member>
       <member refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>Config</name></member>
@@ -100,7 +100,7 @@
       <member refid="group__GeneralGroup_1gaddaab4892e649a9298aa4a73d4c55457" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setViewportMask</name></member>
       <member refid="group__GeneralGroup_1ga511ac76ed53aafae5ab8d337aeaa6795" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>toJson</name></member>
       <member refid="group__GeneralGroup_1gad79f990e09eb05bc1612bbe33406809d" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>writeToFile</name></member>
-      <member refid="group__GeneralGroup_1ga17bd8ac3880368e2e34b777871262b86" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>~Config</name></member>
+      <member refid="group__GeneralGroup_1gaa82b9797caa4e9ec4592ee532a240351" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>~Config</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -6,11 +6,11 @@
     <includes refid="MRHistoryAction_8h" local="yes">MRMesh/MRHistoryAction.h</includes>
     <includes refid="MRSignal_8h" local="yes">MRMesh/MRSignal.h</includes>
     <includes local="no">memory</includes>
-    <includedby refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includedby>
+    <includedby refid="MRHistoryMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h</includedby>
+    <includedby refid="MRSceneControlMenuItems_8h" local="yes">MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</includedby>
     <includedby refid="MRAppendHistory_8h" local="yes">MRViewer/MRAppendHistory.h</includedby>
     <includedby refid="MRMeshBoundarySelectionWidget_8h" local="yes">MRViewer/MRMeshBoundarySelectionWidget.h</includedby>
     <includedby refid="MRPickPointManager_8h" local="yes">MRViewer/MRPickPointManager.h</includedby>
-    <includedby refid="MRViewer_2MRSceneControlMenuItems_8h" local="yes">MRViewer/MRSceneControlMenuItems.h</includedby>
     <incdepgraph>
       <node id="8">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
@@ -132,10 +132,14 @@
     </incdepgraph>
     <invincdepgraph>
       <node id="2">
-        <label>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</label>
-        <link refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h"/>
+        <label>MRCommonPlugins/ViewerButtons/MRHistoryMenuItems.h</label>
+        <link refid="MRHistoryMenuItems_8h"/>
       </node>
       <node id="3">
+        <label>MRCommonPlugins/ViewerButtons/MRSceneControlMenuItems.h</label>
+        <link refid="MRSceneControlMenuItems_8h"/>
+      </node>
+      <node id="4">
         <label>MRViewer/MRAppendHistory.h</label>
         <link refid="MRAppendHistory_8h"/>
       </node>
@@ -153,17 +157,13 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="4">
+      <node id="5">
         <label>MRViewer/MRMeshBoundarySelectionWidget.h</label>
         <link refid="MRMeshBoundarySelectionWidget_8h"/>
       </node>
-      <node id="5">
+      <node id="6">
         <label>MRViewer/MRPickPointManager.h</label>
         <link refid="MRPickPointManager_8h"/>
-      </node>
-      <node id="6">
-        <label>MRViewer/MRSceneControlMenuItems.h</label>
-        <link refid="MRViewer_2MRSceneControlMenuItems_8h"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classMR_1_1HistoryStore" prot="public">MR::HistoryStore</innerclass>

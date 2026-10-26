@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Documentation
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,7 +133,9 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
   <div class="headertitle"><div class="title">Mesh Decimation </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Example of mesh decimation</p>
+<div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2MeshDecimate"></a></p>
+<p>Example of mesh decimation</p>
+<p>▶ <a href="https://demo.meshlib.io/#decimate">See it live in the browser</a></p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshFwd.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
@@ -163,9 +158,9 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line"> </div>
 <div class="line">    MR::Mesh&amp; mesh = *meshRes;</div>
 <div class="line">    </div>
-<div class="line">    <span class="comment">// Repack mesh optimally.</span></div>
+<div class="line">    <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
 <div class="line">    <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
-<div class="line">    mesh.packOptimally();</div>
+<div class="line">    mesh.packOptimally( <span class="keyword">false</span> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Setup decimate parameters</span></div>
 <div class="line">    MR::DecimateSettings settings;</div>
@@ -174,9 +169,9 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">    settings.maxDeletedFaces = 1000; <span class="comment">// Number of faces to be deleted</span></div>
 <div class="line">    settings.maxError = 0.05f; <span class="comment">// Maximum error when decimation stops</span></div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// Number of parts to simultaneous processing, greatly improves performance by cost of minor quality loss.</span></div>
-<div class="line">    <span class="comment">// Recommended to set to the number of available CPU cores or more for the best performance</span></div>
-<div class="line">    settings.subdivideParts = 64;</div>
+<div class="line">    <span class="comment">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
+<div class="line">    <span class="comment">// 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead</span></div>
+<div class="line">    settings.subdivideParts = 16;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimate mesh</span></div>
 <div class="line">    MR::decimateMesh( mesh, settings );</div>
@@ -203,9 +198,9 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line"><span class="comment"># Load mesh</span></div>
 <div class="line">mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
-<div class="line"><span class="comment"># Repack mesh optimally.</span></div>
+<div class="line"><span class="comment"># Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
 <div class="line"><span class="comment"># It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
-<div class="line">mesh.packOptimally()</div>
+<div class="line">mesh.packOptimally(<span class="keyword">False</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Setup decimate parameters</span></div>
 <div class="line">settings = mrmeshpy.DecimateSettings()</div>
@@ -214,9 +209,9 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">settings.maxDeletedFaces = 1000 <span class="comment"># Number of faces to be deleted</span></div>
 <div class="line">settings.maxError = 0.05 <span class="comment"># Maximum error when decimation stops</span></div>
 <div class="line"> </div>
-<div class="line"><span class="comment"># Number of parts to simultaneous processing, greatly improves performance by cost of minor quality loss.</span></div>
-<div class="line"><span class="comment"># Recommended to set to number of CPU cores or more available for the best performance</span></div>
-<div class="line">settings.subdivideParts = 64</div>
+<div class="line"><span class="comment"># Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
+<div class="line"><span class="comment"># 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead</span></div>
+<div class="line">settings.subdivideParts = 16</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Decimate mesh</span></div>
 <div class="line">mrmeshpy.decimateMesh(mesh, settings)</div>
@@ -230,7 +225,8 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <img src="decimate_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRBuffer.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshDecimate.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshLoad.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
@@ -247,7 +243,7 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Handle failure to load mesh.</span></div>
@@ -257,6 +253,11 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
+<div class="line">    <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
+<div class="line">    <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
+<div class="line">    <span class="keywordtype">bool</span> preserveAABBTree = <span class="keyword">false</span>;</div>
+<div class="line">    MR_PackMapping_Destroy( MR_Mesh_packOptimally_1( mesh, &amp;preserveAABBTree ) );</div>
+<div class="line"> </div>
 <div class="line">    <span class="comment">// Setup decimate parameters</span></div>
 <div class="line">    MR_DecimateSettings* params = MR_DecimateSettings_DefaultConstruct();</div>
 <div class="line"> </div>
@@ -264,9 +265,9 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">    MR_DecimateSettings_Set_maxDeletedFaces( params, 1000 ); <span class="comment">// Number of faces to be deleted</span></div>
 <div class="line">    MR_DecimateSettings_Set_maxError( params, 0.05f ); <span class="comment">// Maximum error when decimation stops</span></div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// Number of parts to simultaneous processing, greatly improves performance by cost of minor quality loss.</span></div>
-<div class="line">    <span class="comment">// Recommended to set to the number of available CPU cores or more for the best performance</span></div>
-<div class="line">    MR_DecimateSettings_Set_subdivideParts( params, 64 );</div>
+<div class="line">    <span class="comment">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
+<div class="line">    <span class="comment">// 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead</span></div>
+<div class="line">    MR_DecimateSettings_Set_subdivideParts( params, 16 );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimate mesh</span></div>
 <div class="line">    MR_DecimateResult* result = MR_decimateMesh( mesh, params );</div>
@@ -276,7 +277,7 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">    MR_DecimateResult_Destroy( result );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -297,16 +298,18 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 </li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshDecimateExample</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            <span class="comment">// Load mesh</span></div>
-<div class="line">            var mesh = MR.MeshLoad.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line">            <span class="comment">// Load the mesh given on the command line, or make a sphere to decimate if no path is given</span></div>
+<div class="line">            var mesh = args.Length &gt; 0</div>
+<div class="line">                ? MR.MeshLoad.fromAnySupportedFormat(args[0])</div>
+<div class="line">                : MR.makeUVSphere(1.0f, 64, 64);</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Repack mesh optimally.</span></div>
+<div class="line">            <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
 <div class="line">            <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
-<div class="line">            mesh.packOptimally();</div>
+<div class="line">            mesh.packOptimally(<span class="keyword">false</span>);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Setup decimate parameters</span></div>
 <div class="line">            MR.DecimateSettings ds = <span class="keyword">new</span>();</div>
@@ -315,9 +318,9 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">            ds.maxDeletedFaces = 1000; <span class="comment">// Number of faces to be deleted</span></div>
 <div class="line">            ds.maxError = 0.05f; <span class="comment">// Maximum error when decimation stops</span></div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Number of parts to simultaneous processing, greatly improves performance by cost of minor quality loss.</span></div>
-<div class="line">            <span class="comment">// Recommended to set to the number of available CPU cores or more for the best performance</span></div>
-<div class="line">            ds.subdivideParts = 64;</div>
+<div class="line">            <span class="comment">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
+<div class="line">            <span class="comment">// 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead</span></div>
+<div class="line">            ds.subdivideParts = 16;</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Decimate mesh</span></div>
 <div class="line">            MR.decimateMesh(mesh, ds);</div>
@@ -345,9 +348,9 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">// Load mesh</div>
 <div class="line">using mesh = ml.MeshLoad.fromAnySupportedFormat(&#39;mesh.stl&#39;);</div>
 <div class="line"> </div>
-<div class="line">// Repack the mesh.</div>
+<div class="line">// Repack the mesh without building an AABB tree, which decimation invalidates anyway.</div>
 <div class="line">// Not necessary, but highly recommended to achieve the best performance in parallel processing.</div>
-<div class="line">mesh.packOptimally();</div>
+<div class="line">mesh.packOptimally(false);</div>
 <div class="line"> </div>
 <div class="line">// Setup decimate parameters</div>
 <div class="line">using settings = new ml.DecimateSettings();</div>
@@ -356,14 +359,96 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">settings.maxDeletedFaces = 1000; // Number of faces to be deleted</div>
 <div class="line">settings.maxError = 0.05; // Maximum error when decimation stops</div>
 <div class="line"> </div>
-<div class="line">// Number of parts for simultaneous processing, greatly improves performance by cost of minor quality loss</div>
-<div class="line">settings.subdivideParts = 64;</div>
+<div class="line">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</div>
+<div class="line">// 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead</div>
+<div class="line">settings.subdivideParts = 16;</div>
 <div class="line"> </div>
 <div class="line">// Decimate mesh</div>
 <div class="line">ml.decimateMesh(mesh, settings);</div>
 <div class="line"> </div>
 <div class="line">// Save result</div>
 <div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;decimated_mesh.stl&#39;);</div>
+</div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
+Source mesh <div class="image">
+<img src="decimate_before.png" alt=""/>
+</div>
+ After decimate <div class="image">
+<img src="decimate_after.png" alt=""/>
+</div>
+</li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    // Load mesh.</div>
+<div class="line">    let mut mesh = meshlib::mesh_load::from_any_supported_format(&quot;mesh.stl&quot;, None).into_result().map_err(|error| format!(&quot;Failed to load mesh: {error}&quot;))?;</div>
+<div class="line"> </div>
+<div class="line">    // Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</div>
+<div class="line">    // It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing.</div>
+<div class="line">    mesh.pack_optimally_1(Some(false));</div>
+<div class="line"> </div>
+<div class="line">    // Setup decimate parameters.</div>
+<div class="line">    let mut settings = meshlib::DecimateSettings::new();</div>
+<div class="line"> </div>
+<div class="line">    // Decimation stop thresholds, you may specify one or both.</div>
+<div class="line">    settings.set_max_deleted_faces(1000); // Number of faces to be deleted.</div>
+<div class="line">    settings.set_max_error(0.05); // Maximum error when decimation stops.</div>
+<div class="line"> </div>
+<div class="line">    // Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</div>
+<div class="line">    // 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead.</div>
+<div class="line">    settings.set_subdivide_parts(16);</div>
+<div class="line"> </div>
+<div class="line">    // Decimate mesh.</div>
+<div class="line">    let result = meshlib::decimate_mesh(&amp;mut mesh, Some(&amp;settings));</div>
+<div class="line">    println!(&quot;Removed {} vertices, {} faces&quot;, result.verts_deleted(), result.faces_deleted());</div>
+<div class="line"> </div>
+<div class="line">    // Save result.</div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format(&amp;mesh, &quot;decimated_mesh.stl&quot;, None).into_result().map_err(|error| format!(&quot;Failed to save mesh: {error}&quot;))?;</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --> Source mesh <div class="image">
+<img src="decimate_before.png" alt=""/>
+</div>
+ After decimate <div class="image">
+<img src="decimate_after.png" alt=""/>
+</div>
+</li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.DecimateResult;</div>
+<div class="line"><span class="keyword">import</span> meshlib.DecimateSettings;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>MeshDecimate</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Load mesh. An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">        Mesh mesh = meshlib.meshload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
+<div class="line">        <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing.</span></div>
+<div class="line">        mesh.packOptimally(<span class="keyword">false</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Setup decimate parameters.</span></div>
+<div class="line">        DecimateSettings settings = <span class="keyword">new</span> DecimateSettings();</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Decimation stop thresholds, you may specify one or both.</span></div>
+<div class="line">        settings.setMaxDeletedFaces(1000); <span class="comment">// Number of faces to be deleted.</span></div>
+<div class="line">        settings.setMaxError(0.05f); <span class="comment">// Maximum error when decimation stops.</span></div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
+<div class="line">        <span class="comment">// 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead.</span></div>
+<div class="line">        settings.setSubdivideParts(16);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Decimate mesh.</span></div>
+<div class="line">        DecimateResult result = Functions.decimateMesh(mesh, settings);</div>
+<div class="line">        System.out.println(<span class="stringliteral">&quot;Removed &quot;</span> + result.vertsDeleted() + <span class="stringliteral">&quot; vertices, &quot;</span> + result.facesDeleted() + <span class="stringliteral">&quot; faces&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Save result.</span></div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
 </div><!-- fragment --> Source mesh <div class="image">
 <img src="decimate_before.png" alt=""/>
 </div>

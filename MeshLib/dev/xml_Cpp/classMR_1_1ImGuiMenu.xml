@@ -28,6 +28,8 @@
       <member refid="group__GeneralGroup_1gaa80cfb0d46a306f3db6578f73214759d" kind="variable"><name>userScaling_</name></member>
       <member refid="group__GeneralGroup_1ga5211abf1979e6de5356bf10417272d04" kind="variable"><name>context_</name></member>
       <member refid="group__GeneralGroup_1gaed028910bb5ce3eedfa0802afa5e040d" kind="variable"><name>prevFrameFocusPlugin_</name></member>
+      <member refid="group__GeneralGroup_1gaa7fe10df58079927769d8bff7f916821" kind="variable"><name>testKeyModifiers_</name></member>
+      <member refid="group__GeneralGroup_1ga4774f429a2df58c2df690edc6fd9107f" kind="variable"><name>realKeyModifiers_</name></member>
       <member refid="group__GeneralGroup_1gad68df6b8216d5bb1c4b0b0d0ed0147c4" kind="variable"><name>pollEventsInPreDraw</name></member>
       <member refid="group__GeneralGroup_1ga02f96b228edc61b7c42ab06b759d6f5d" kind="variable"><name>showShortcuts_</name></member>
       <member refid="group__GeneralGroup_1gab14610cb6f67cd8617dd1750924c854f" kind="variable"><name>showStatistics_</name></member>
@@ -273,7 +275,7 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/ImGuiMenu.h" line="45" column="1" bodyfile="MRViewer/ImGuiMenu.h" bodystart="54" bodyend="464"/>
+    <location file="MRViewer/ImGuiMenu.h" line="46" column="1" bodyfile="MRViewer/ImGuiMenu.h" bodystart="55" bodyend="470"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2839644d95083c59b3090076cb25f5b9" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>add_modifier</name></member>
       <member refid="group__GeneralGroup_1ga611b911703b3f2680587e49eae9cdafc" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>allowObjectsRemoval</name></member>
@@ -390,6 +392,7 @@
       <member refid="group__GeneralGroup_1ga1a04f77dd9640baabc21151abbeb373a" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>postResize_</name></member>
       <member refid="group__GeneralGroup_1gaed028910bb5ce3eedfa0802afa5e040d" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>prevFrameFocusPlugin_</name></member>
       <member refid="group__GeneralGroup_1gga2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>Quad</name></member>
+      <member refid="group__GeneralGroup_1ga4774f429a2df58c2df690edc6fd9107f" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>realKeyModifiers_</name></member>
       <member refid="group__GeneralGroup_1gaa9df52e10a99b7892ef0d0e36b86aef9" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>reload_font</name></member>
       <member refid="group__GeneralGroup_1ga3609f3d347ee824caa8c8d626e3a3299" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>reloadFonts</name></member>
       <member refid="group__GeneralGroup_1gae9bb69c3589e2a7be927ce74e0b1f2ac" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>renameBuffer_</name></member>
@@ -426,6 +429,7 @@
       <member refid="group__GeneralGroup_1ga030eb50192d51050ab5c5aa34e63929d" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>storedModalMessage_</name></member>
       <member refid="group__GeneralGroup_1gafa4ddd1abc45868c85e00d51ff1bee16" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>tagEditorState_</name></member>
       <member refid="group__GeneralGroup_1ga642eba300ae802eed145b8f3df8eb9c5" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>tagNewName_</name></member>
+      <member refid="group__GeneralGroup_1gaa7fe10df58079927769d8bff7f916821" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>testKeyModifiers_</name></member>
       <member refid="group__GeneralGroup_1gae2a62bf6f90ebf260b61f81dd258f714" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>touchpadRotateGestureBegin_</name></member>
       <member refid="group__GeneralGroup_1ga03caa17830177e82fef4957f4b816184" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>touchpadRotateGestureEnd_</name></member>
       <member refid="group__GeneralGroup_1gac92850dfedbaf136b29969809e6bc5b7" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>touchpadRotateGestureUpdate_</name></member>

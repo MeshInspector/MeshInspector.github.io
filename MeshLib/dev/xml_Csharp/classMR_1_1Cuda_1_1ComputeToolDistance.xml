@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="95" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="95" bodyend="102"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="102" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="102" bodyend="107"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1a09fc2c79504be7d3a66b99f7bab9fab4" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="105" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="105" bodyend="114"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="110" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="110" bodyend="117"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="116" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="116" bodyend="116"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="119" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="119" bodyend="119"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="121" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="121" bodyend="126"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="124" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="124" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1a4d4ed855599e95e957b90ae220e579b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="131" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="131" bodyend="142"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="132" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="132" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1afddf6346da29e5b0dc11c51b6372774a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
@@ -133,7 +133,119 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="147" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="147" bodyend="158"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="146" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="146" bodyend="155"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1aeb89dce9b4863d1478b1aa1f68627bcc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Cuda.ComputeToolDistance._Underlying *</type>
+        <definition>static unsafe MR.Cuda.ComputeToolDistance._Underlying * MR.Cuda.ComputeToolDistance.__MR_Cuda_ComputeToolDistance_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_Cuda_ComputeToolDistance_DefaultConstruct</name>
+        <qualifiedname>MR.Cuda.ComputeToolDistance.__MR_Cuda_ComputeToolDistance_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="160" column="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1af7a067f95cd35878428701eb4ebbd35d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe _Underlying *</type>
+        <definition>static unsafe _Underlying * MR.Cuda.ComputeToolDistance.__MR_Cuda_ComputeToolDistance_DynamicDowncastFrom_MR_IComputeToolDistance</definition>
+        <argsstring>(MR.IComputeToolDistance._Underlying *_this)</argsstring>
+        <name>__MR_Cuda_ComputeToolDistance_DynamicDowncastFrom_MR_IComputeToolDistance</name>
+        <qualifiedname>MR.Cuda.ComputeToolDistance.__MR_Cuda_ComputeToolDistance_DynamicDowncastFrom_MR_IComputeToolDistance</qualifiedname>
+        <param>
+          <type>MR.IComputeToolDistance._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="163" column="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1afa768932ab7f0a087c04e18e115c82ef" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.IComputeToolDistance._Underlying *</type>
+        <definition>static unsafe MR.IComputeToolDistance._Underlying * MR.Cuda.ComputeToolDistance.__MR_Cuda_ComputeToolDistance_UpcastTo_MR_IComputeToolDistance</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_Cuda_ComputeToolDistance_UpcastTo_MR_IComputeToolDistance</name>
+        <qualifiedname>MR.Cuda.ComputeToolDistance.__MR_Cuda_ComputeToolDistance_UpcastTo_MR_IComputeToolDistance</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="166" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1aa49b6684cf79912d69021572886578fa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRVector3i_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRVector3i_StdString._Underlying * MR.Cuda.ComputeToolDistance.__MR_Cuda_ComputeToolDistance_prepare_MR_EndMillTool</definition>
+        <argsstring>(_Underlying *_this, MR.Vector3i *dims, MR.Const_Polyline3._Underlying *toolpath, MR.Const_EndMillTool._Underlying *toolSpec)</argsstring>
+        <name>__MR_Cuda_ComputeToolDistance_prepare_MR_EndMillTool</name>
+        <qualifiedname>MR.Cuda.ComputeToolDistance.__MR_Cuda_ComputeToolDistance_prepare_MR_EndMillTool</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>MR.Const_Polyline3._Underlying *</type>
+          <declname>toolpath</declname>
+        </param>
+        <param>
+          <type>MR.Const_EndMillTool._Underlying *</type>
+          <declname>toolSpec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="169" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1a294255830a9ef26fef001d985b1e8d17" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRVector3i_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRVector3i_StdString._Underlying * MR.Cuda.ComputeToolDistance.__MR_Cuda_ComputeToolDistance_prepare_MR_Polyline2</definition>
+        <argsstring>(_Underlying *_this, MR.Vector3i *dims, MR.Const_Polyline3._Underlying *toolpath, MR.Const_Polyline2._Underlying *toolProfile)</argsstring>
+        <name>__MR_Cuda_ComputeToolDistance_prepare_MR_Polyline2</name>
+        <qualifiedname>MR.Cuda.ComputeToolDistance.__MR_Cuda_ComputeToolDistance_prepare_MR_Polyline2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>MR.Const_Polyline3._Underlying *</type>
+          <declname>toolpath</declname>
+        </param>
+        <param>
+          <type>MR.Const_Polyline2._Underlying *</type>
+          <declname>toolProfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="172" column="77"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -185,8 +297,13 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="92" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="93" bodyend="159"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" line="99" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaSweptVolume.cs" bodystart="100" bodyend="173"/>
     <listofallmembers>
+      <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1aeb89dce9b4863d1478b1aa1f68627bcc" prot="private" virt="non-virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>__MR_Cuda_ComputeToolDistance_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1af7a067f95cd35878428701eb4ebbd35d" prot="private" virt="non-virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>__MR_Cuda_ComputeToolDistance_DynamicDowncastFrom_MR_IComputeToolDistance</name></member>
+      <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1aa49b6684cf79912d69021572886578fa" prot="private" virt="non-virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>__MR_Cuda_ComputeToolDistance_prepare_MR_EndMillTool</name></member>
+      <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a294255830a9ef26fef001d985b1e8d17" prot="private" virt="non-virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>__MR_Cuda_ComputeToolDistance_prepare_MR_Polyline2</name></member>
+      <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1afa768932ab7f0a087c04e18e115c82ef" prot="private" virt="non-virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>__MR_Cuda_ComputeToolDistance_UpcastTo_MR_IComputeToolDistance</name></member>
       <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a8a6c7f6857b97e9efbb9361e85ef3c6a" prot="package" virt="non-virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>ComputeToolDistance</name></member>
       <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a53156d2ae06082223b28f36191cd62df" prot="public" virt="non-virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>ComputeToolDistance</name></member>
       <member refid="classMR_1_1Cuda_1_1Const__ComputeToolDistance_1aaf459444113b11f36cd4a3064f737497" prot="public" virt="non-virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>computeToolDistance</name></member>

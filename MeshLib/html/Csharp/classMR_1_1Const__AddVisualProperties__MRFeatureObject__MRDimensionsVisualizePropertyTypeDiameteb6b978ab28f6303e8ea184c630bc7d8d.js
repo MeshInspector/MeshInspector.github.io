@@ -4,6 +4,7 @@ var classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualiz
     [ "classNameInPlural", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameteb6b978ab28f6303e8ea184c630bc7d8d.html#a1875360c3e962b5fdae84de0269151c3", null ],
     [ "clone", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameteb6b978ab28f6303e8ea184c630bc7d8d.html#a7eb22f124c9c097a11205329b1eaf8bd", null ],
     [ "cloneTree", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameteb6b978ab28f6303e8ea184c630bc7d8d.html#a343462657bfddddc99c5641d97fb02a1", null ],
+    [ "constChildren", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameteb6b978ab28f6303e8ea184c630bc7d8d.html#a031a2a1be1cacae9905fb894dcbf849d", null ],
     [ "Dispose", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameteb6b978ab28f6303e8ea184c630bc7d8d.html#a12e0bcf353cd5685681311a5308598a3", null ],
     [ "Dispose", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameteb6b978ab28f6303e8ea184c630bc7d8d.html#ade0d041ac8f877bf681bef1013a59c09", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameteb6b978ab28f6303e8ea184c630bc7d8d.html#af486e87dabacac6b519af655d747420e", null ],

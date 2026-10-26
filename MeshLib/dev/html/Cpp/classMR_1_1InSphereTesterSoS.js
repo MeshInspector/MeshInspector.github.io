@@ -7,6 +7,7 @@ var classMR_1_1InSphereTesterSoS =
     [ "normalSq", "group__GeneralGroup.html#gad85860a83d6bb58ac43b0888d25ffdab", null ],
     [ "operator()", "group__GeneralGroup.html#ga33f40392cf9decb4150d17e595c0d0b6", null ],
     [ "reset", "group__GeneralGroup.html#ga83272fcfe28d46d0c521b5f7c5af73f4", null ],
+    [ "sphereExists", "group__GeneralGroup.html#ga9fff1948f663f24317ef2fd95c127d74", null ],
     [ "degenerateTriangle_", "group__GeneralGroup.html#ga0504cb318e00a1d607960cd1ef070888", null ],
     [ "pairPt_", "group__GeneralGroup.html#gab8037b809c2ba6e3383d11852bb8e499", null ],
     [ "pairSigma_", "group__GeneralGroup.html#gaf170d1c4080593bfcee7567dc197f5ef", null ],

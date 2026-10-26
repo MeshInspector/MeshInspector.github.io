@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CutAroundVertSetsParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::CutAroundVertSetsParams</compoundname>
+    <includes refid="MRCutAroundVertSets_8h" local="no">MRMesh/MRCutAroundVertSets.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga774d2942e99988822ff6e6764aca59a3" kind="variable"><name>distance</name></member>
+      <member refid="group__GeneralGroup_1ga00a86d77277d18dff9b4fa3f1744be9e" kind="variable"><name>gap</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRCutAroundVertSets.h" line="13" column="1" bodyfile="MRMesh/MRCutAroundVertSets.h" bodystart="14" bodyend="24"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga774d2942e99988822ff6e6764aca59a3" prot="public" virt="non-virtual"><scope>MR::CutAroundVertSetsParams</scope><name>distance</name></member>
+      <member refid="group__GeneralGroup_1ga00a86d77277d18dff9b4fa3f1744be9e" prot="public" virt="non-virtual"><scope>MR::CutAroundVertSetsParams</scope><name>gap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

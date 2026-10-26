@@ -173,6 +173,8 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a506a1c3421dec57c85ee978ba69a0591" id="r_a506a1c3421dec57c85ee978ba69a0591"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a506a1c3421dec57c85ee978ba69a0591">ChangePolylinePointsAction</a> (std::string <a class="el" href="#ae04072e7453616bbbf69ed34589627f2">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt; &amp;obj)</td></tr>
 <tr class="memdesc:a506a1c3421dec57c85ee978ba69a0591"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's lines points before making any changes in it  <br /></td></tr>
+<tr class="memitem:a47e8f25027f128e53d16bbb01972bdf9" id="r_a47e8f25027f128e53d16bbb01972bdf9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47e8f25027f128e53d16bbb01972bdf9">ChangePolylinePointsAction</a> (std::string <a class="el" href="#ae04072e7453616bbbf69ed34589627f2">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt; &amp;obj, VertCoords &amp;&amp;newPoints)</td></tr>
+<tr class="memdesc:a47e8f25027f128e53d16bbb01972bdf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's lines points and immediate set new value  <br /></td></tr>
 <tr class="memitem:ae04072e7453616bbbf69ed34589627f2" id="r_ae04072e7453616bbbf69ed34589627f2"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae04072e7453616bbbf69ed34589627f2">name</a> () const override</td></tr>
 <tr class="memitem:a4524618733bcefbd17c242f49c3112e1" id="r_a4524618733bcefbd17c242f49c3112e1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4524618733bcefbd17c242f49c3112e1">action</a> (<a class="el" href="group__GeneralGroup.html#gac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
 <tr class="memdesc:a4524618733bcefbd17c242f49c3112e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called on history action (undo, redo, etc.)  <br /></td></tr>
@@ -208,7 +210,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a506a1c3421dec57c85ee978ba69a0591" name="a506a1c3421dec57c85ee978ba69a0591"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a506a1c3421dec57c85ee978ba69a0591">&#9670;&#160;</a></span>ChangePolylinePointsAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a506a1c3421dec57c85ee978ba69a0591">&#9670;&#160;</a></span>ChangePolylinePointsAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235,6 +237,42 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>use this constructor to remember object's lines points before making any changes in it </p>
+
+</div>
+</div>
+<a id="a47e8f25027f128e53d16bbb01972bdf9" name="a47e8f25027f128e53d16bbb01972bdf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47e8f25027f128e53d16bbb01972bdf9">&#9670;&#160;</a></span>ChangePolylinePointsAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangePolylinePointsAction::ChangePolylinePointsAction </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">VertCoords &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>newPoints</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's lines points and immediate set new value </p>
 
 </div>
 </div>

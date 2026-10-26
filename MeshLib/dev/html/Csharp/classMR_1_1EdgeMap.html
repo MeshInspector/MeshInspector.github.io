@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C# Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,7 +133,6 @@ $(function(){initNavTree('classMR_1_1EdgeMap.html','','classMR_1_1EdgeMap-member
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1EdgeMap-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.EdgeMap Class Reference</div></div>
@@ -179,10 +171,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a66300063dd68bc5b27677f732f72893c"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#aa20b6651e84e2d635cabe2c7c65fab66" title="Constructs an empty (default-constructed) instance.">MR.EdgeMap.EdgeMap</a></span>.  <br /></td></tr>
 <tr class="memitem:abf43d6d5ca9f29aa95bdcfb1d2bc4490" id="r_abf43d6d5ca9f29aa95bdcfb1d2bc4490"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf43d6d5ca9f29aa95bdcfb1d2bc4490">EdgeMap</a> (nuint <a class="el" href="classMR_1_1Const__EdgeMap.html#a62078cf402b2189927e6755bd1f391e6">size</a>, in <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> val)</td></tr>
 <tr class="memdesc:abf43d6d5ca9f29aa95bdcfb1d2bc4490"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#aa20b6651e84e2d635cabe2c7c65fab66" title="Constructs an empty (default-constructed) instance.">MR.EdgeMap.EdgeMap</a></span>.  <br /></td></tr>
-<tr class="memitem:ae5639b5a5ecdeb68449c2b245bbe293d" id="r_ae5639b5a5ecdeb68449c2b245bbe293d"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5639b5a5ecdeb68449c2b245bbe293d">EdgeMap</a> (MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; <a class="el" href="#ac98d21dd8f1a1455f18700e6f66e3ef0">vec</a>)</td></tr>
-<tr class="memdesc:ae5639b5a5ecdeb68449c2b245bbe293d"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#aa20b6651e84e2d635cabe2c7c65fab66" title="Constructs an empty (default-constructed) instance.">MR.EdgeMap.EdgeMap</a></span>.  <br /></td></tr>
 <tr class="memitem:aa79fc19ac54b1705571ac185e6721a3d" id="r_aa79fc19ac54b1705571ac185e6721a3d"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1EdgeMap.html">MR.EdgeMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa79fc19ac54b1705571ac185e6721a3d">assign</a> (MR._ByValue_EdgeMap _other)</td></tr>
 <tr class="memdesc:aa79fc19ac54b1705571ac185e6721a3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeMap::operator=</span>.  <br /></td></tr>
+<tr class="memitem:a0dc50f717da6442caa4cea54d4b7c320" id="r_a0dc50f717da6442caa4cea54d4b7c320"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dc50f717da6442caa4cea54d4b7c320">assign</a> (nuint count, in <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> val)</td></tr>
+<tr class="memdesc:a0dc50f717da6442caa4cea54d4b7c320"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#aa79fc19ac54b1705571ac185e6721a3d" title="Generated from method MR.EdgeMap.operator=.">MR.EdgeMap.assign</a></span>.  <br /></td></tr>
 <tr class="memitem:a64c29ab61ecde86d6f3d066650d68a38" id="r_a64c29ab61ecde86d6f3d066650d68a38"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64c29ab61ecde86d6f3d066650d68a38">clear</a> ()</td></tr>
 <tr class="memdesc:a64c29ab61ecde86d6f3d066650d68a38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a64c29ab61ecde86d6f3d066650d68a38" title="Generated from method MR.EdgeMap.clear.">MR.EdgeMap.clear</a></span>.  <br /></td></tr>
 <tr class="memitem:acf5f46de5ddd0a906ac418bffadcbf4a" id="r_acf5f46de5ddd0a906ac418bffadcbf4a"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf5f46de5ddd0a906ac418bffadcbf4a">resize</a> (nuint newSize)</td></tr>
@@ -193,10 +185,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a85ee924748cbe5b78ad7700c5a025f09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a85ee924748cbe5b78ad7700c5a025f09" title="Generated from method MR.EdgeMap.resizeNoInit.">MR.EdgeMap.resizeNoInit</a></span>.  <br /></td></tr>
 <tr class="memitem:ae1e40c3baee158b932a035f4a901c628" id="r_ae1e40c3baee158b932a035f4a901c628"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1e40c3baee158b932a035f4a901c628">reserve</a> (nuint <a class="el" href="classMR_1_1Const__EdgeMap.html#a15bc2414fd3280e5d8306f3360d18969">capacity</a>)</td></tr>
 <tr class="memdesc:ae1e40c3baee158b932a035f4a901c628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ae1e40c3baee158b932a035f4a901c628" title="Generated from method MR.EdgeMap.reserve.">MR.EdgeMap.reserve</a></span>.  <br /></td></tr>
+<tr class="memitem:af8f021a1eddde1047111a6084cbc2e37" id="r_af8f021a1eddde1047111a6084cbc2e37"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8f021a1eddde1047111a6084cbc2e37">shrinkToFit</a> ()</td></tr>
+<tr class="memdesc:af8f021a1eddde1047111a6084cbc2e37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeMap::shrink_to_fit</span>.  <br /></td></tr>
 <tr class="memitem:a8e67ee959daf9b9c6592c51cb9385b0f" id="r_a8e67ee959daf9b9c6592c51cb9385b0f"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e67ee959daf9b9c6592c51cb9385b0f">resizeWithReserve</a> (nuint newSize)</td></tr>
-<tr class="memdesc:a8e67ee959daf9b9c6592c51cb9385b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#a8e67ee959daf9b9c6592c51cb9385b0f" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.EdgeMap.resizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memdesc:a8e67ee959daf9b9c6592c51cb9385b0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#a8e67ee959daf9b9c6592c51cb9385b0f" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.EdgeMap.resizeWithReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a825bf8c5bf606fb1ba3ac5d1df32db99" id="r_a825bf8c5bf606fb1ba3ac5d1df32db99"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a825bf8c5bf606fb1ba3ac5d1df32db99">resizeWithReserve</a> (nuint newSize, in <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> value)</td></tr>
-<tr class="memdesc:a825bf8c5bf606fb1ba3ac5d1df32db99"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#a8e67ee959daf9b9c6592c51cb9385b0f" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.EdgeMap.resizeWithReserve</a></span>.  <br /></td></tr>
+<tr class="memdesc:a825bf8c5bf606fb1ba3ac5d1df32db99"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize, value), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#a8e67ee959daf9b9c6592c51cb9385b0f" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.EdgeMap.resizeWithReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:aceb85c9998ae4cc49db461431269e40f" id="r_aceb85c9998ae4cc49db461431269e40f"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceb85c9998ae4cc49db461431269e40f">autoResizeSet</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> pos, nuint len, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> val)</td></tr>
 <tr class="memdesc:aceb85c9998ae4cc49db461431269e40f"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <code class="param">pos</code> are also set to <code class="param">val</code> (for faster implementation) Generated from method <span class="tt"><a class="el" href="#aceb85c9998ae4cc49db461431269e40f" title="sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elem...">MR.EdgeMap.autoResizeSet</a></span>.  <br /></td></tr>
 <tr class="memitem:ae910100357d707caa6af9f571f69615f" id="r_ae910100357d707caa6af9f571f69615f"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae910100357d707caa6af9f571f69615f">autoResizeSet</a> (<a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> i, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> val)</td></tr>
@@ -209,12 +203,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9dd74d443abbc0c47c3f3b8fe013d295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeMap::push_back</span>.  <br /></td></tr>
 <tr class="memitem:af12ecb46144f0e2674524a37ab78a926" id="r_af12ecb46144f0e2674524a37ab78a926"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af12ecb46144f0e2674524a37ab78a926">popBack</a> ()</td></tr>
 <tr class="memdesc:af12ecb46144f0e2674524a37ab78a926"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeMap::pop_back</span>.  <br /></td></tr>
+<tr class="memitem:aed17027d3a4a55b01b068dc9f935b74b" id="r_aed17027d3a4a55b01b068dc9f935b74b"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MREdgeId.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed17027d3a4a55b01b068dc9f935b74b">insert</a> (MR.Std.Vector_MREdgeId.Const_ConstIterator pos, in <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> t)</td></tr>
+<tr class="memdesc:aed17027d3a4a55b01b068dc9f935b74b"><td class="mdescLeft">&#160;</td><td class="mdescRight">inserts <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#aed17027d3a4a55b01b068dc9f935b74b" title="inserts t before pos Generated from method MR.EdgeMap.insert.">MR.EdgeMap.insert</a></span>.  <br /></td></tr>
+<tr class="memitem:ab371be90356d444f4d3219bda39c0249" id="r_ab371be90356d444f4d3219bda39c0249"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MREdgeId.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab371be90356d444f4d3219bda39c0249">insert</a> (MR.Std.Vector_MREdgeId.Const_ConstIterator pos, MR.Misc._MoveRef _move_t, in <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> t)</td></tr>
+<tr class="memdesc:ab371be90356d444f4d3219bda39c0249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aed17027d3a4a55b01b068dc9f935b74b" title="inserts t before pos Generated from method MR.EdgeMap.insert.">MR.EdgeMap.insert</a></span>.  <br /></td></tr>
+<tr class="memitem:a71266b9db9daa885cd5570f079d23b37" id="r_a71266b9db9daa885cd5570f079d23b37"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MREdgeId.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71266b9db9daa885cd5570f079d23b37">insert</a> (MR.Std.Vector_MREdgeId.Const_ConstIterator pos, nuint count, in <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> t)</td></tr>
+<tr class="memdesc:a71266b9db9daa885cd5570f079d23b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">inserts <code class="param">count</code> copies of <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#aed17027d3a4a55b01b068dc9f935b74b" title="inserts t before pos Generated from method MR.EdgeMap.insert.">MR.EdgeMap.insert</a></span>.  <br /></td></tr>
+<tr class="memitem:a4782d3001c159fcc75183c9ea7a70791" id="r_a4782d3001c159fcc75183c9ea7a70791"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MREdgeId.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4782d3001c159fcc75183c9ea7a70791">erase</a> (MR.Std.Vector_MREdgeId.Const_ConstIterator pos)</td></tr>
+<tr class="memdesc:a4782d3001c159fcc75183c9ea7a70791"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the element at <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#a4782d3001c159fcc75183c9ea7a70791" title="removes the element at pos Generated from method MR.EdgeMap.erase.">MR.EdgeMap.erase</a></span>.  <br /></td></tr>
+<tr class="memitem:a82a300b087bf296dc0fa6c1bf5724218" id="r_a82a300b087bf296dc0fa6c1bf5724218"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MREdgeId.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82a300b087bf296dc0fa6c1bf5724218">erase</a> (MR.Std.Vector_MREdgeId.Const_ConstIterator first, MR.Std.Vector_MREdgeId.Const_ConstIterator last)</td></tr>
+<tr class="memdesc:a82a300b087bf296dc0fa6c1bf5724218"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the elements in range [first, last) Generated from method <span class="tt"><a class="el" href="#a4782d3001c159fcc75183c9ea7a70791" title="removes the element at pos Generated from method MR.EdgeMap.erase.">MR.EdgeMap.erase</a></span>.  <br /></td></tr>
 <tr class="memitem:aaae381e7413f67f2317ba13e782a5819" id="r_aaae381e7413f67f2317ba13e782a5819"><td class="memItemLeft" align="right" valign="top">unsafe new ref <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaae381e7413f67f2317ba13e782a5819">front</a> ()</td></tr>
 <tr class="memdesc:aaae381e7413f67f2317ba13e782a5819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aaae381e7413f67f2317ba13e782a5819" title="Generated from method MR.EdgeMap.front.">MR.EdgeMap.front</a></span>.  <br /></td></tr>
 <tr class="memitem:a78b56c0c7aa34cb55530b0f54aaa29e3" id="r_a78b56c0c7aa34cb55530b0f54aaa29e3"><td class="memItemLeft" align="right" valign="top">unsafe new ref <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78b56c0c7aa34cb55530b0f54aaa29e3">back</a> ()</td></tr>
 <tr class="memdesc:a78b56c0c7aa34cb55530b0f54aaa29e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a78b56c0c7aa34cb55530b0f54aaa29e3" title="Generated from method MR.EdgeMap.back.">MR.EdgeMap.back</a></span>.  <br /></td></tr>
 <tr class="memitem:a317d971f85610c821fc7153cdfb8d1ec" id="r_a317d971f85610c821fc7153cdfb8d1ec"><td class="memItemLeft" align="right" valign="top">unsafe new MR.Misc.? Ref&lt; <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a317d971f85610c821fc7153cdfb8d1ec">data</a> ()</td></tr>
 <tr class="memdesc:a317d971f85610c821fc7153cdfb8d1ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a317d971f85610c821fc7153cdfb8d1ec" title="Generated from method MR.EdgeMap.data.">MR.EdgeMap.data</a></span>.  <br /></td></tr>
+<tr class="memitem:aac4f78568ae8af7930bd61205ab3fb83" id="r_aac4f78568ae8af7930bd61205ab3fb83"><td class="memItemLeft" align="right" valign="top">unsafe new MR.Std.Vector_MREdgeId.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac4f78568ae8af7930bd61205ab3fb83">begin</a> ()</td></tr>
+<tr class="memdesc:aac4f78568ae8af7930bd61205ab3fb83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aac4f78568ae8af7930bd61205ab3fb83" title="Generated from method MR.EdgeMap.begin.">MR.EdgeMap.begin</a></span>.  <br /></td></tr>
+<tr class="memitem:ad54c29a8276e61f9b66d8867401641c0" id="r_ad54c29a8276e61f9b66d8867401641c0"><td class="memItemLeft" align="right" valign="top">unsafe new MR.Std.Vector_MREdgeId.Iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad54c29a8276e61f9b66d8867401641c0">end</a> ()</td></tr>
+<tr class="memdesc:ad54c29a8276e61f9b66d8867401641c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ad54c29a8276e61f9b66d8867401641c0" title="Generated from method MR.EdgeMap.end.">MR.EdgeMap.end</a></span>.  <br /></td></tr>
 <tr class="memitem:af831a3ec69500981a36e8e64340056af" id="r_af831a3ec69500981a36e8e64340056af"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af831a3ec69500981a36e8e64340056af">swap</a> (<a class="el" href="classMR_1_1EdgeMap.html">MR.EdgeMap</a> b)</td></tr>
 <tr class="memdesc:af831a3ec69500981a36e8e64340056af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#af831a3ec69500981a36e8e64340056af" title="Generated from method MR.EdgeMap.swap.">MR.EdgeMap.swap</a></span>.  <br /></td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1Const__EdgeMap"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1Const__EdgeMap')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1Const__EdgeMap.html">MR.Const_EdgeMap</a></td></tr>
@@ -232,12 +240,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2da7f40e3ba792f5853ec1130046db56 inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt"><a class="el" href="#aa20b6651e84e2d635cabe2c7c65fab66" title="Constructs an empty (default-constructed) instance.">MR.EdgeMap.EdgeMap</a></span>.  <br /></td></tr>
 <tr class="memitem:af9f7a3c920062ef77abf213f3ff27ace inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_af9f7a3c920062ef77abf213f3ff27ace"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#af9f7a3c920062ef77abf213f3ff27ace">Const_EdgeMap</a> (nuint <a class="el" href="classMR_1_1Const__EdgeMap.html#a62078cf402b2189927e6755bd1f391e6">size</a>, in <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> val)</td></tr>
 <tr class="memdesc:af9f7a3c920062ef77abf213f3ff27ace inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt"><a class="el" href="#aa20b6651e84e2d635cabe2c7c65fab66" title="Constructs an empty (default-constructed) instance.">MR.EdgeMap.EdgeMap</a></span>.  <br /></td></tr>
-<tr class="memitem:a5bb1d87dc45ce96d3d08c7d77b3ab7e1 inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_a5bb1d87dc45ce96d3d08c7d77b3ab7e1"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a5bb1d87dc45ce96d3d08c7d77b3ab7e1">Const_EdgeMap</a> (MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; <a class="el" href="classMR_1_1Const__EdgeMap.html#a32e0ed0debd0c1ec892289cc0cac6ff2">vec</a>)</td></tr>
-<tr class="memdesc:a5bb1d87dc45ce96d3d08c7d77b3ab7e1 inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#aa20b6651e84e2d635cabe2c7c65fab66" title="Constructs an empty (default-constructed) instance.">MR.EdgeMap.EdgeMap</a></span>.  <br /></td></tr>
 <tr class="memitem:a0aee0a2134bf1cc9f814ad82161626d8 inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_a0aee0a2134bf1cc9f814ad82161626d8"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a0aee0a2134bf1cc9f814ad82161626d8">empty</a> ()</td></tr>
 <tr class="memdesc:a0aee0a2134bf1cc9f814ad82161626d8 inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__EdgeMap.html#a0aee0a2134bf1cc9f814ad82161626d8" title="Generated from method MR.EdgeMap.empty.">MR.EdgeMap.empty</a></span>.  <br /></td></tr>
 <tr class="memitem:a62078cf402b2189927e6755bd1f391e6 inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_a62078cf402b2189927e6755bd1f391e6"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a62078cf402b2189927e6755bd1f391e6">size</a> ()</td></tr>
 <tr class="memdesc:a62078cf402b2189927e6755bd1f391e6 inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__EdgeMap.html#a62078cf402b2189927e6755bd1f391e6" title="Generated from method MR.EdgeMap.size.">MR.EdgeMap.size</a></span>.  <br /></td></tr>
+<tr class="memitem:affb18002a730b8eb3b5c115c496ecd4f inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_affb18002a730b8eb3b5c115c496ecd4f"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#affb18002a730b8eb3b5c115c496ecd4f">maxSize</a> ()</td></tr>
+<tr class="memdesc:affb18002a730b8eb3b5c115c496ecd4f inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeMap::max_size</span>.  <br /></td></tr>
 <tr class="memitem:a15bc2414fd3280e5d8306f3360d18969 inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_a15bc2414fd3280e5d8306f3360d18969"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a15bc2414fd3280e5d8306f3360d18969">capacity</a> ()</td></tr>
 <tr class="memdesc:a15bc2414fd3280e5d8306f3360d18969 inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__EdgeMap.html#a15bc2414fd3280e5d8306f3360d18969" title="Generated from method MR.EdgeMap.capacity.">MR.EdgeMap.capacity</a></span>.  <br /></td></tr>
 <tr class="memitem:ae07fbb5f3c95e27ff0d7bf2c08698105 inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_ae07fbb5f3c95e27ff0d7bf2c08698105"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#ae07fbb5f3c95e27ff0d7bf2c08698105">front</a> ()</td></tr>
@@ -252,21 +260,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1a231a22ed33e2df6493597e623b006c inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="classMR_1_1Const__EdgeMap.html#af015fc1c18ee62bba03a1f9164a2f127" title="returns the identifier of the back() element Generated from method MR.EdgeMap.backId.">backId()</a> + 1 Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__EdgeMap.html#a1a231a22ed33e2df6493597e623b006c" title="returns backId() + 1 Generated from method MR.EdgeMap.endId.">MR.EdgeMap.endId</a></span>.  <br /></td></tr>
 <tr class="memitem:ae8d7605009408a0a3542454cd0411140 inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_ae8d7605009408a0a3542454cd0411140"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="structMR_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#ae8d7605009408a0a3542454cd0411140">data</a> ()</td></tr>
 <tr class="memdesc:ae8d7605009408a0a3542454cd0411140 inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a317d971f85610c821fc7153cdfb8d1ec" title="Generated from method MR.EdgeMap.data.">MR.EdgeMap.data</a></span>.  <br /></td></tr>
+<tr class="memitem:a39118d10b0988010f76f177c05f0f6b8 inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_a39118d10b0988010f76f177c05f0f6b8"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MREdgeId.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a39118d10b0988010f76f177c05f0f6b8">begin</a> ()</td></tr>
+<tr class="memdesc:a39118d10b0988010f76f177c05f0f6b8 inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aac4f78568ae8af7930bd61205ab3fb83" title="Generated from method MR.EdgeMap.begin.">MR.EdgeMap.begin</a></span>.  <br /></td></tr>
+<tr class="memitem:a8526c4ddc08f1d3fa980181a12e1584b inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_a8526c4ddc08f1d3fa980181a12e1584b"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MREdgeId.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a8526c4ddc08f1d3fa980181a12e1584b">cbegin</a> ()</td></tr>
+<tr class="memdesc:a8526c4ddc08f1d3fa980181a12e1584b inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__EdgeMap.html#a8526c4ddc08f1d3fa980181a12e1584b" title="Generated from method MR.EdgeMap.cbegin.">MR.EdgeMap.cbegin</a></span>.  <br /></td></tr>
+<tr class="memitem:a3193b3086a720dc039c69663f243a682 inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_a3193b3086a720dc039c69663f243a682"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MREdgeId.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a3193b3086a720dc039c69663f243a682">end</a> ()</td></tr>
+<tr class="memdesc:a3193b3086a720dc039c69663f243a682 inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ad54c29a8276e61f9b66d8867401641c0" title="Generated from method MR.EdgeMap.end.">MR.EdgeMap.end</a></span>.  <br /></td></tr>
+<tr class="memitem:a8799e68ba9ebb67df8738a95058d556b inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_a8799e68ba9ebb67df8738a95058d556b"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MREdgeId.ConstIterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a8799e68ba9ebb67df8738a95058d556b">cend</a> ()</td></tr>
+<tr class="memdesc:a8799e68ba9ebb67df8738a95058d556b inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__EdgeMap.html#a8799e68ba9ebb67df8738a95058d556b" title="Generated from method MR.EdgeMap.cend.">MR.EdgeMap.cend</a></span>.  <br /></td></tr>
 <tr class="memitem:a5b97f2097965979d1e979e6c6f0d0e6e inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_a5b97f2097965979d1e979e6c6f0d0e6e"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a5b97f2097965979d1e979e6c6f0d0e6e">heapBytes</a> ()</td></tr>
 <tr class="memdesc:a5b97f2097965979d1e979e6c6f0d0e6e inherit pub_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="classMR_1_1Const__EdgeMap.html#a5b97f2097965979d1e979e6c6f0d0e6e" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.EdgeMap.heapBytes</a></span>.  <br /></td></tr>
 <tr class="memitem:a77bfe3dcf0f6c846f1eef7e9c7d0e66a inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_a77bfe3dcf0f6c846f1eef7e9c7d0e66a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a77bfe3dcf0f6c846f1eef7e9c7d0e66a">Equals</a> (<a class="el" href="classMR_1_1Const__EdgeMap.html">MR.Const_EdgeMap</a>? b)</td></tr>
 <tr class="memitem:a72239dd2109c80a6aef1bc99a3d8942a inherit pub_methods_classMR_1_1Const__EdgeMap" id="r_a72239dd2109c80a6aef1bc99a3d8942a"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a72239dd2109c80a6aef1bc99a3d8942a">Equals</a> (object? other)</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af37cf6449ccd0abe992d2906171fec23" id="r_af37cf6449ccd0abe992d2906171fec23"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af37cf6449ccd0abe992d2906171fec23">operator EdgeMap</a> (MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; <a class="el" href="#ac98d21dd8f1a1455f18700e6f66e3ef0">vec</a>)</td></tr>
-<tr class="memdesc:af37cf6449ccd0abe992d2906171fec23"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#aa20b6651e84e2d635cabe2c7c65fab66" title="Constructs an empty (default-constructed) instance.">MR.EdgeMap.EdgeMap</a></span>.  <br /></td></tr>
-<tr class="inherit_header pub_static_methods_classMR_1_1Const__EdgeMap"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Const__EdgeMap')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1Const__EdgeMap.html">MR.Const_EdgeMap</a></td></tr>
-<tr class="memitem:a143d8533f87e97e8a0226e2303bf71a4 inherit pub_static_methods_classMR_1_1Const__EdgeMap" id="r_a143d8533f87e97e8a0226e2303bf71a4"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a143d8533f87e97e8a0226e2303bf71a4">operator Const_EdgeMap</a> (MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; <a class="el" href="classMR_1_1Const__EdgeMap.html#a32e0ed0debd0c1ec892289cc0cac6ff2">vec</a>)</td></tr>
-<tr class="memdesc:a143d8533f87e97e8a0226e2303bf71a4 inherit pub_static_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#aa20b6651e84e2d635cabe2c7c65fab66" title="Constructs an empty (default-constructed) instance.">MR.EdgeMap.EdgeMap</a></span>.  <br /></td></tr>
-<tr class="memitem:a7b7e1b7efd5c7f50e3eae7884bc12245 inherit pub_static_methods_classMR_1_1Const__EdgeMap" id="r_a7b7e1b7efd5c7f50e3eae7884bc12245"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a7b7e1b7efd5c7f50e3eae7884bc12245">operator==</a> (<a class="el" href="classMR_1_1Const__EdgeMap.html">MR.Const_EdgeMap</a> _this, <a class="el" href="classMR_1_1Const__EdgeMap.html">MR.Const_EdgeMap</a> b)</td></tr>
-<tr class="memdesc:a7b7e1b7efd5c7f50e3eae7884bc12245 inherit pub_static_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeMap::operator==</span>.  <br /></td></tr>
-<tr class="memitem:af7f4e1732778a4a5f892ef0a40663602 inherit pub_static_methods_classMR_1_1Const__EdgeMap" id="r_af7f4e1732778a4a5f892ef0a40663602"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#af7f4e1732778a4a5f892ef0a40663602">operator!=</a> (<a class="el" href="classMR_1_1Const__EdgeMap.html">MR.Const_EdgeMap</a> _this, <a class="el" href="classMR_1_1Const__EdgeMap.html">MR.Const_EdgeMap</a> b)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -282,6 +287,10 @@ Properties</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classMR_1_1Const__EdgeMap"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Const__EdgeMap')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Public Member Functions inherited from <a class="el" href="classMR_1_1Const__EdgeMap.html">MR.Const_EdgeMap</a></td></tr>
+<tr class="memitem:a7b7e1b7efd5c7f50e3eae7884bc12245 inherit pub_static_methods_classMR_1_1Const__EdgeMap" id="r_a7b7e1b7efd5c7f50e3eae7884bc12245"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#a7b7e1b7efd5c7f50e3eae7884bc12245">operator==</a> (<a class="el" href="classMR_1_1Const__EdgeMap.html">MR.Const_EdgeMap</a> _this, <a class="el" href="classMR_1_1Const__EdgeMap.html">MR.Const_EdgeMap</a> b)</td></tr>
+<tr class="memdesc:a7b7e1b7efd5c7f50e3eae7884bc12245 inherit pub_static_methods_classMR_1_1Const__EdgeMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::EdgeMap::operator==</span>.  <br /></td></tr>
+<tr class="memitem:af7f4e1732778a4a5f892ef0a40663602 inherit pub_static_methods_classMR_1_1Const__EdgeMap" id="r_af7f4e1732778a4a5f892ef0a40663602"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#af7f4e1732778a4a5f892ef0a40663602">operator!=</a> (<a class="el" href="classMR_1_1Const__EdgeMap.html">MR.Const_EdgeMap</a> _this, <a class="el" href="classMR_1_1Const__EdgeMap.html">MR.Const_EdgeMap</a> b)</td></tr>
 <tr class="inherit_header pro_methods_classMR_1_1Const__EdgeMap"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1Const__EdgeMap')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classMR_1_1Const__EdgeMap.html">MR.Const_EdgeMap</a></td></tr>
 <tr class="memitem:ab6b12226dcc9430ceeb9c2f31964012a inherit pro_methods_classMR_1_1Const__EdgeMap" id="r_ab6b12226dcc9430ceeb9c2f31964012a"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__EdgeMap.html#ab6b12226dcc9430ceeb9c2f31964012a">Dispose</a> (bool disposing)</td></tr>
 </table>
@@ -296,7 +305,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa20b6651e84e2d635cabe2c7c65fab66" name="aa20b6651e84e2d635cabe2c7c65fab66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa20b6651e84e2d635cabe2c7c65fab66">&#9670;&#160;</a></span>EdgeMap() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa20b6651e84e2d635cabe2c7c65fab66">&#9670;&#160;</a></span>EdgeMap() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -323,7 +332,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="ab2def25527a670c772303a43ba387155" name="ab2def25527a670c772303a43ba387155"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2def25527a670c772303a43ba387155">&#9670;&#160;</a></span>EdgeMap() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2def25527a670c772303a43ba387155">&#9670;&#160;</a></span>EdgeMap() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -350,7 +359,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a84bf67065ced4e214fdaa08143f8938f" name="a84bf67065ced4e214fdaa08143f8938f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84bf67065ced4e214fdaa08143f8938f">&#9670;&#160;</a></span>EdgeMap() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a84bf67065ced4e214fdaa08143f8938f">&#9670;&#160;</a></span>EdgeMap() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,7 +386,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="aae16dff2a5f4781268c606f6bb467066" name="aae16dff2a5f4781268c606f6bb467066"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae16dff2a5f4781268c606f6bb467066">&#9670;&#160;</a></span>EdgeMap() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aae16dff2a5f4781268c606f6bb467066">&#9670;&#160;</a></span>EdgeMap() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -404,7 +413,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a66300063dd68bc5b27677f732f72893c" name="a66300063dd68bc5b27677f732f72893c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66300063dd68bc5b27677f732f72893c">&#9670;&#160;</a></span>EdgeMap() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a66300063dd68bc5b27677f732f72893c">&#9670;&#160;</a></span>EdgeMap() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -431,7 +440,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="abf43d6d5ca9f29aa95bdcfb1d2bc4490" name="abf43d6d5ca9f29aa95bdcfb1d2bc4490"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf43d6d5ca9f29aa95bdcfb1d2bc4490">&#9670;&#160;</a></span>EdgeMap() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf43d6d5ca9f29aa95bdcfb1d2bc4490">&#9670;&#160;</a></span>EdgeMap() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -461,36 +470,9 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ae5639b5a5ecdeb68449c2b245bbe293d" name="ae5639b5a5ecdeb68449c2b245bbe293d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5639b5a5ecdeb68449c2b245bbe293d">&#9670;&#160;</a></span>EdgeMap() <span class="overload">[7/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.EdgeMap.EdgeMap </td>
-          <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#aa20b6651e84e2d635cabe2c7c65fab66" title="Constructs an empty (default-constructed) instance.">MR.EdgeMap.EdgeMap</a></span>. </p>
-
-</div>
-</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="aa79fc19ac54b1705571ac185e6721a3d" name="aa79fc19ac54b1705571ac185e6721a3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa79fc19ac54b1705571ac185e6721a3d">&#9670;&#160;</a></span>assign()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa79fc19ac54b1705571ac185e6721a3d">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -513,6 +495,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::EdgeMap::operator=</span>. </p>
+
+</div>
+</div>
+<a id="a0dc50f717da6442caa4cea54d4b7c320" name="a0dc50f717da6442caa4cea54d4b7c320"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dc50f717da6442caa4cea54d4b7c320">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.EdgeMap.assign </td>
+          <td>(</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt"><a class="el" href="#aa79fc19ac54b1705571ac185e6721a3d" title="Generated from method MR.EdgeMap.operator=.">MR.EdgeMap.assign</a></span>. </p>
 
 </div>
 </div>
@@ -637,6 +650,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aac4f78568ae8af7930bd61205ab3fb83" name="aac4f78568ae8af7930bd61205ab3fb83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac4f78568ae8af7930bd61205ab3fb83">&#9670;&#160;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe new MR.Std.Vector_MREdgeId.Iterator MR.EdgeMap.begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt"><a class="el" href="#aac4f78568ae8af7930bd61205ab3fb83" title="Generated from method MR.EdgeMap.begin.">MR.EdgeMap.begin</a></span>. </p>
+
+</div>
+</div>
 <a id="a64c29ab61ecde86d6f3d066650d68a38" name="a64c29ab61ecde86d6f3d066650d68a38"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a64c29ab61ecde86d6f3d066650d68a38">&#9670;&#160;</a></span>clear()</h2>
 
@@ -688,6 +728,91 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt"><a class="el" href="#a317d971f85610c821fc7153cdfb8d1ec" title="Generated from method MR.EdgeMap.data.">MR.EdgeMap.data</a></span>. </p>
+
+</div>
+</div>
+<a id="ad54c29a8276e61f9b66d8867401641c0" name="ad54c29a8276e61f9b66d8867401641c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad54c29a8276e61f9b66d8867401641c0">&#9670;&#160;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe new MR.Std.Vector_MREdgeId.Iterator MR.EdgeMap.end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt"><a class="el" href="#ad54c29a8276e61f9b66d8867401641c0" title="Generated from method MR.EdgeMap.end.">MR.EdgeMap.end</a></span>. </p>
+
+</div>
+</div>
+<a id="a82a300b087bf296dc0fa6c1bf5724218" name="a82a300b087bf296dc0fa6c1bf5724218"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82a300b087bf296dc0fa6c1bf5724218">&#9670;&#160;</a></span>erase() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MREdgeId.Iterator MR.EdgeMap.erase </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MREdgeId.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Vector_MREdgeId.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>last</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes the elements in range [first, last) Generated from method <span class="tt"><a class="el" href="#a4782d3001c159fcc75183c9ea7a70791" title="removes the element at pos Generated from method MR.EdgeMap.erase.">MR.EdgeMap.erase</a></span>. </p>
+
+</div>
+</div>
+<a id="a4782d3001c159fcc75183c9ea7a70791" name="a4782d3001c159fcc75183c9ea7a70791"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4782d3001c159fcc75183c9ea7a70791">&#9670;&#160;</a></span>erase() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MREdgeId.Iterator MR.EdgeMap.erase </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MREdgeId.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes the element at <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#a4782d3001c159fcc75183c9ea7a70791" title="removes the element at pos Generated from method MR.EdgeMap.erase.">MR.EdgeMap.erase</a></span>. </p>
 
 </div>
 </div>
@@ -743,8 +868,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af37cf6449ccd0abe992d2906171fec23" name="af37cf6449ccd0abe992d2906171fec23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af37cf6449ccd0abe992d2906171fec23">&#9670;&#160;</a></span>operator EdgeMap()</h2>
+<a id="aed17027d3a4a55b01b068dc9f935b74b" name="aed17027d3a4a55b01b068dc9f935b74b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed17027d3a4a55b01b068dc9f935b74b">&#9670;&#160;</a></span>insert() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -753,20 +878,96 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe implicit MR.EdgeMap.operator <a class="el" href="classMR_1_1EdgeMap.html">EdgeMap</a> </td>
+          <td class="memname">unsafe MR.Std.Vector_MREdgeId.Iterator MR.EdgeMap.insert </td>
           <td>(</td>
-          <td class="paramtype">MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
+          <td class="paramtype">MR.Std.Vector_MREdgeId.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>moves data from the given std::vector&lt;T&gt; Generated from constructor <span class="tt"><a class="el" href="#aa20b6651e84e2d635cabe2c7c65fab66" title="Constructs an empty (default-constructed) instance.">MR.EdgeMap.EdgeMap</a></span>. </p>
+<p>inserts <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#aed17027d3a4a55b01b068dc9f935b74b" title="inserts t before pos Generated from method MR.EdgeMap.insert.">MR.EdgeMap.insert</a></span>. </p>
+
+</div>
+</div>
+<a id="ab371be90356d444f4d3219bda39c0249" name="ab371be90356d444f4d3219bda39c0249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab371be90356d444f4d3219bda39c0249">&#9670;&#160;</a></span>insert() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MREdgeId.Iterator MR.EdgeMap.insert </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MREdgeId.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Misc._MoveRef</td>          <td class="paramname"><span class="paramname"><em>_move_t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt"><a class="el" href="#aed17027d3a4a55b01b068dc9f935b74b" title="inserts t before pos Generated from method MR.EdgeMap.insert.">MR.EdgeMap.insert</a></span>. </p>
+
+</div>
+</div>
+<a id="a71266b9db9daa885cd5570f079d23b37" name="a71266b9db9daa885cd5570f079d23b37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71266b9db9daa885cd5570f079d23b37">&#9670;&#160;</a></span>insert() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MREdgeId.Iterator MR.EdgeMap.insert </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MREdgeId.Const_ConstIterator</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>inserts <code class="param">count</code> copies of <code class="param">t</code> before <code class="param">pos</code> Generated from method <span class="tt"><a class="el" href="#aed17027d3a4a55b01b068dc9f935b74b" title="inserts t before pos Generated from method MR.EdgeMap.insert.">MR.EdgeMap.insert</a></span>. </p>
 
 </div>
 </div>
@@ -990,7 +1191,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#a8e67ee959daf9b9c6592c51cb9385b0f" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.EdgeMap.resizeWithReserve</a></span>. </p>
+<p>same as resize(newSize), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#a8e67ee959daf9b9c6592c51cb9385b0f" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.EdgeMap.resizeWithReserve</a></span>. </p>
 
 </div>
 </div>
@@ -1021,7 +1222,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <span class="tt"><a class="el" href="#a8e67ee959daf9b9c6592c51cb9385b0f" title="doubles reserved memory until resize(newSize) can be done without reallocation Generated from method ...">MR.EdgeMap.resizeWithReserve</a></span>. </p>
+<p>same as resize(newSize, value), which already grows the capacity geometrically Generated from method <span class="tt"><a class="el" href="#a8e67ee959daf9b9c6592c51cb9385b0f" title="same as resize(newSize), which already grows the capacity geometrically Generated from method MR....">MR.EdgeMap.resizeWithReserve</a></span>. </p>
+
+</div>
+</div>
+<a id="af8f021a1eddde1047111a6084cbc2e37" name="af8f021a1eddde1047111a6084cbc2e37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8f021a1eddde1047111a6084cbc2e37">&#9670;&#160;</a></span>shrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.EdgeMap.shrinkToFit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <span class="tt">MR::EdgeMap::shrink_to_fit</span>. </p>
 
 </div>
 </div>

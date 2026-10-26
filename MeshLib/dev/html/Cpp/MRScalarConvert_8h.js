@@ -16,6 +16,8 @@ var MRScalarConvert_8h =
       [ "MR::ScalarType::Unknown", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
       [ "MR::ScalarType::Count", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "MR::getTypeConverter", "group__GeneralGroup.html#ga0c019c040ba2230993e3fb3d8c92ce7d", null ],
+    [ "MR::getScalarTypeMinMax", "group__GeneralGroup.html#gab6e8e67fbea857421ad3a3283681c636", null ],
+    [ "MR::getScalarTypeSize", "group__GeneralGroup.html#gaecb1b9cc74ab928d3f2f8dc150689984", null ],
+    [ "MR::getTypeConverter", "group__GeneralGroup.html#gaced528923d8f8fed3f529de962457a9a", null ],
     [ "MR::visitScalarType", "group__GeneralGroup.html#gae86505f58081c90fd8f92538bff1673b", null ]
 ];

@@ -19,15 +19,32 @@
         </inbodydescription>
         <location file="MRViewer/MRUITestEngine.h" line="26" column="22" bodyfile="MRViewer/MRUITestEngine.h" bodystart="26" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes_1a695d48555d359194959f202492b508cb" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::UI::TestEngine::EntryAttributes::ignoreBlockingModal</definition>
+        <argsstring></argsstring>
+        <name>ignoreBlockingModal</name>
+        <qualifiedname>MR::UI::TestEngine::EntryAttributes::ignoreBlockingModal</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>If true, the entry stays enabled while a modal popup is open, e.g. for a value registered outside of any window. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRUITestEngine.h" line="29" column="10" bodyfile="MRViewer/MRUITestEngine.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
 <para>Optional attributes reported to the test engine each frame alongside a widget registration. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRViewer/MRUITestEngine.h" line="23" column="1" bodyfile="MRViewer/MRUITestEngine.h" bodystart="24" bodyend="27"/>
+    <location file="MRViewer/MRUITestEngine.h" line="23" column="1" bodyfile="MRViewer/MRUITestEngine.h" bodystart="24" bodyend="30"/>
     <listofallmembers>
       <member refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes_1ae3e69d330fabb3b2d376e4c801e960d5" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::EntryAttributes</scope><name>disabledReason</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes_1a695d48555d359194959f202492b508cb" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::EntryAttributes</scope><name>ignoreBlockingModal</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

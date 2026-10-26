@@ -6,12 +6,13 @@ var group__VoxelsLoadGroup =
       [ "scalarType", "group__VoxelsLoadGroup.html#ga69214b3d1697f4864e145aa2b9802cea", null ],
       [ "voxelSize", "group__VoxelsLoadGroup.html#gafd3e66a2e50b601320d9254e884691dd", null ]
     ] ],
-    [ "MR::VoxelsLoad::LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", [
-      [ "cb", "group__VoxelsLoadGroup.html#gad7f6150701181ada771a2322643a89dd", null ],
-      [ "dir", "group__VoxelsLoadGroup.html#gaafca990d1d688a3f2f9ce8ba0a67a3c5", null ],
-      [ "gridType", "group__VoxelsLoadGroup.html#ga162c946b965977a5048ed85b3b7d1293", null ],
-      [ "voxelSize", "group__VoxelsLoadGroup.html#ga39c8477a2a590bcaef5179d861b7f1de", null ]
+    [ "MR::VoxelsLoad::RasterFolderLoadSettings", "structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html", [
+      [ "cb", "group__VoxelsLoadGroup.html#ga6b30b1186e44ca7bf4c9f5d09853ad8c", null ],
+      [ "dir", "group__VoxelsLoadGroup.html#ga6f55869c63bb8067acb4a7014d657fee", null ],
+      [ "gridType", "group__VoxelsLoadGroup.html#ga8f8a4ec016fe0cb39efd887065b6ced9", null ],
+      [ "voxelSize", "group__VoxelsLoadGroup.html#ga6b44bc2d62818582cfdb8a9d739e7122", null ]
     ] ],
+    [ "MR::VoxelsLoad::MR_BIND_IGNORE", "group__VoxelsLoadGroup.html#ga707920855f52f8e5871fc6c0056a6002", null ],
     [ "MR::VoxelsLoad::VoxelsLoader", "group__VoxelsLoadGroup.html#gac95950f875729ac15c011d99d4624d96", null ],
     [ "MR::VoxelsLoad::GridType", "group__VoxelsLoadGroup.html#ga5a3e4b96e9ddb9678f554fe8a8d56a19", [
       [ "MR::VoxelsLoad::GridType::DenseGrid", "group__VoxelsLoadGroup.html#gga5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7", null ],
@@ -31,13 +32,14 @@ var group__VoxelsLoadGroup =
     [ "MR::VoxelsLoad::gridsFromAnySupportedFormat", "group__VoxelsLoadGroup.html#gad303045560cb427689099a6b7fd25789", null ],
     [ "MR::VoxelsLoad::gridsFromVdb", "group__VoxelsLoadGroup.html#ga45ad7e33491adf48887a084a760ce0dd", null ],
     [ "MR::VoxelsLoad::gridsFromVdb", "group__VoxelsLoadGroup.html#ga255028947dcc30bbf215b5da697a7e96", null ],
-    [ "MR::VoxelsLoad::loadTiffDir", "group__VoxelsLoadGroup.html#gaa3493438ee99f77d8e1ae26c176c0453", null ],
-    [ "MR::VoxelsLoad::LoadingTiffSettings::cb", "group__VoxelsLoadGroup.html#gad7f6150701181ada771a2322643a89dd", null ],
+    [ "MR::VoxelsLoad::loadRasterFolder", "group__VoxelsLoadGroup.html#ga2b3126db75b88eeee5be2e16619f48be", null ],
+    [ "MR::VoxelsLoad::loadTiffDir", "group__VoxelsLoadGroup.html#ga0960ce4def7ec9ddd1ca37933d82542b", null ],
+    [ "MR::VoxelsLoad::RasterFolderLoadSettings::cb", "group__VoxelsLoadGroup.html#ga6b30b1186e44ca7bf4c9f5d09853ad8c", null ],
     [ "MR::VoxelsLoad::RawParameters::dimensions", "group__VoxelsLoadGroup.html#gab1db96ec60477ec788bfe5aeb3596da2", null ],
-    [ "MR::VoxelsLoad::LoadingTiffSettings::dir", "group__VoxelsLoadGroup.html#gaafca990d1d688a3f2f9ce8ba0a67a3c5", null ],
+    [ "MR::VoxelsLoad::RasterFolderLoadSettings::dir", "group__VoxelsLoadGroup.html#ga6f55869c63bb8067acb4a7014d657fee", null ],
     [ "MR::VoxelsLoad::RawParameters::gridLevelSet", "group__VoxelsLoadGroup.html#ga5d28afdbdf8874a171bdaa3da9a77db7", null ],
-    [ "MR::VoxelsLoad::LoadingTiffSettings::gridType", "group__VoxelsLoadGroup.html#ga162c946b965977a5048ed85b3b7d1293", null ],
+    [ "MR::VoxelsLoad::RasterFolderLoadSettings::gridType", "group__VoxelsLoadGroup.html#ga8f8a4ec016fe0cb39efd887065b6ced9", null ],
     [ "MR::VoxelsLoad::RawParameters::scalarType", "group__VoxelsLoadGroup.html#ga69214b3d1697f4864e145aa2b9802cea", null ],
-    [ "MR::VoxelsLoad::LoadingTiffSettings::voxelSize", "group__VoxelsLoadGroup.html#ga39c8477a2a590bcaef5179d861b7f1de", null ],
+    [ "MR::VoxelsLoad::RasterFolderLoadSettings::voxelSize", "group__VoxelsLoadGroup.html#ga6b44bc2d62818582cfdb8a9d739e7122", null ],
     [ "MR::VoxelsLoad::RawParameters::voxelSize", "group__VoxelsLoadGroup.html#gafd3e66a2e50b601320d9254e884691dd", null ]
 ];

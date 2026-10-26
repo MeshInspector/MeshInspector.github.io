@@ -17,12 +17,12 @@
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
-        </childnode>
         <childnode refid="57" relation="include">
         </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
       </node>
-      <node id="60">
+      <node id="61">
         <label>MRAffineXf.h</label>
         <link refid="MRAffineXf_8h"/>
         <childnode refid="7" relation="include">
@@ -118,20 +118,20 @@
         <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="59">
+      <node id="60">
         <label>MRLine.h</label>
         <link refid="MRLine_8h"/>
-        <childnode refid="60" relation="include">
+        <childnode refid="61" relation="include">
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="58">
+      <node id="59">
         <label>MRLine3.h</label>
         <link refid="MRLine3_8h"/>
         <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="59" relation="include">
+        <childnode refid="60" relation="include">
         </childnode>
       </node>
       <node id="7">
@@ -149,17 +149,19 @@
         </childnode>
         <childnode refid="49" relation="include">
         </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
         <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
       </node>
       <node id="48">
@@ -196,20 +198,20 @@
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="57">
+      <node id="58">
         <label>MRMesh/MRMeshIntersect.h</label>
         <link refid="MRMeshIntersect_8h"/>
         <childnode refid="47" relation="include">
         </childnode>
         <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="58" relation="include">
+        <childnode refid="59" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
         <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
@@ -226,26 +228,26 @@
         <childnode refid="47" relation="include">
         </childnode>
       </node>
-      <node id="50">
+      <node id="51">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="50">
         <label>MRMeshProject.h</label>
         <link refid="MRMeshProject_8h"/>
         <childnode refid="47" relation="include">
         </childnode>
         <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
-        </childnode>
         <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
@@ -334,7 +336,7 @@
         <childnode refid="44" relation="include">
         </childnode>
       </node>
-      <node id="53">
+      <node id="54">
         <label>MRSharedThreadSafeOwner.h</label>
         <link refid="MRSharedThreadSafeOwner_8h"/>
         <childnode refid="5" relation="include">
@@ -343,10 +345,10 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="55" relation="include">
         </childnode>
       </node>
-      <node id="56">
+      <node id="57">
         <label>MRMesh/MRSolarRadiation.h</label>
         <link refid="MRSolarRadiation_8h"/>
         <childnode refid="5" relation="include">
@@ -412,7 +414,25 @@
         <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="55">
+      <node id="49">
+        <label>MRVertDuplication.h</label>
+        <link refid="MRVertDuplication_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
         <label>MRWriter.h</label>
         <link refid="MRWriter_8h"/>
       </node>
@@ -438,7 +458,7 @@
       <node id="16">
         <label>cassert</label>
       </node>
-      <node id="51">
+      <node id="52">
         <label>cfloat</label>
       </node>
       <node id="17">
@@ -471,10 +491,10 @@
       <node id="44">
         <label>limits</label>
       </node>
-      <node id="54">
+      <node id="55">
         <label>memory</label>
       </node>
-      <node id="52">
+      <node id="53">
         <label>optional</label>
       </node>
       <node id="13">

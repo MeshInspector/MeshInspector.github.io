@@ -1,10 +1,16 @@
 var namespaceMR_1_1MeshComponents =
 [
+    [ "ComponentsFaces", "structMR_1_1MeshComponents_1_1ComponentsFaces.html", "structMR_1_1MeshComponents_1_1ComponentsFaces" ],
     [ "ExpandToComponentsParams", "structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html", "structMR_1_1MeshComponents_1_1ExpandToComponentsParams" ],
     [ "LargeByAreaComponentsSettings", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" ],
     [ "FaceIncidence", "group__MeshComponentsGroup.html#ga7489c91178e90fdd4200bbb0074e025f", [
       [ "PerEdge", "group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc", null ],
       [ "PerVertex", "group__MeshComponentsGroup.html#gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c", null ]
+    ] ],
+    [ "VolumeSelection", "group__MeshComponentsGroup.html#gad136d40567d48c0a0e9668c5daf797b9", [
+      [ "Abs", "group__MeshComponentsGroup.html#ggad136d40567d48c0a0e9668c5daf797b9a1e34af023adeb7d5f484f8eb4b9826b6", null ],
+      [ "Positive", "group__MeshComponentsGroup.html#ggad136d40567d48c0a0e9668c5daf797b9a3289297424e01eda5b788c083bbf3147", null ],
+      [ "Negative", "group__MeshComponentsGroup.html#ggad136d40567d48c0a0e9668c5daf797b9affb9356ff2b7da85c75c92fa7ea03b8b", null ]
     ] ],
     [ "excludeFullySelectedComponents", "group__MeshComponentsGroup.html#gafb34a3c82c94661207c96d0fb0f48a27", null ],
     [ "expandToComponents", "group__MeshComponentsGroup.html#ga8f7b3aea1e17934f892932ac212a71f2", null ],
@@ -12,7 +18,10 @@ var namespaceMR_1_1MeshComponents =
     [ "getAllComponents", "group__MeshComponentsGroup.html#gaa93eb46b6c87bd17060bee960111398c", null ],
     [ "getAllComponents", "group__MeshComponentsGroup.html#ga97b195864ae6464fc4af8dbbfbf12c25", null ],
     [ "getAllComponentsEdges", "group__MeshComponentsGroup.html#gafdcffc76ac25f878c3b7396979b31a59", null ],
+    [ "getAllComponentsFaces", "group__MeshComponentsGroup.html#gaba2da2bd1f3d2cfcf549494036b08cd7", null ],
+    [ "getAllComponentsFaces", "group__MeshComponentsGroup.html#ga0a656dc0668e166fd8382b1dbca0c106", null ],
     [ "getAllComponentsMap", "group__MeshComponentsGroup.html#ga2aab1963ab19bf9523812ac0264c0841", null ],
+    [ "getAllComponentsMapBySharpEdges", "group__MeshComponentsGroup.html#ga412b70cb572bcbabfe070e9e1b33d345", null ],
     [ "getAllComponentsUndirectedEdges", "group__MeshComponentsGroup.html#ga771199217cd0fe03f92ad929b794ea15", null ],
     [ "getAllComponentsVerts", "group__MeshComponentsGroup.html#gac3f08916e38c544b82948eebe0ad7927", null ],
     [ "getAllComponentsVertsSeparatedByPath", "group__MeshComponentsGroup.html#ga44be685ea9ba443cf22a7e0e8c370e94", null ],
@@ -24,14 +33,14 @@ var namespaceMR_1_1MeshComponents =
     [ "getComponentsVerts", "group__MeshComponentsGroup.html#gac2482651f614e0165c208254ab32c6fa", null ],
     [ "getComponentVerts", "group__MeshComponentsGroup.html#ga75b5490074101f02a07ffafbe1d42d12", null ],
     [ "getFacePairRegionMap", "group__MeshComponentsGroup.html#ga87fa009d5a9b64c256cd45780378d1fb", null ],
-    [ "getLargeByAreaComponents", "group__MeshComponentsGroup.html#gae2860bc16910d275e467880105068b2d", null ],
-    [ "getLargeByAreaComponents", "group__MeshComponentsGroup.html#ga0e01c5d278553086be9238207fdd5e4e", null ],
     [ "getLargeByAreaRegions", "group__MeshComponentsGroup.html#gaf0690687907bc23ce3b2772500238124", null ],
     [ "getLargeByAreaSmoothComponents", "group__MeshComponentsGroup.html#gafd9d69cd8ee018f61cfec8cdfe055f95", null ],
     [ "getLargeByVolumeComponents", "group__MeshComponentsGroup.html#ga6ce22d1ba91640724f2871328726b18a", null ],
     [ "getLargeComponentVerts", "group__MeshComponentsGroup.html#gaf4ae6e26c37957e4d8c21b753af0d451", null ],
     [ "getLargestComponent", "group__MeshComponentsGroup.html#gad1f06f5521d13b8e679953ce57f4e690", null ],
+    [ "getLargestComponentArea", "group__MeshComponentsGroup.html#gaec294ffa0563a15d0b25c06c81ee5d51", null ],
     [ "getLargestComponentVerts", "group__MeshComponentsGroup.html#ga80cae558467e7bd7f1653b46bb13948f", null ],
+    [ "getLargestComponentVolume", "group__MeshComponentsGroup.html#ga15d5de6ff738635f4d805cf6e8581aaa", null ],
     [ "getNLargeByAreaComponents", "group__MeshComponentsGroup.html#ga23b859fdd8b110e1159c392f9f891f77", null ],
     [ "getNumComponents", "group__MeshComponentsGroup.html#gae974a625c63fc8fe114d87f296074399", null ],
     [ "getRegionAreas", "group__MeshComponentsGroup.html#gabb9aee33af237e8ace6daa0b6b7ba783", null ],
@@ -48,5 +57,11 @@ var namespaceMR_1_1MeshComponents =
     [ "getUnionFindStructureVertsSeparatedByPath", "group__MeshComponentsGroup.html#ga7e5fd0e6213bad557af5151e1d75b907", null ],
     [ "getUnionFindStructureVertsSeparatedByPaths", "group__MeshComponentsGroup.html#gacbb33dd08f88d0e7c8d8fd20492a5286", null ],
     [ "hasFullySelectedComponent", "group__MeshComponentsGroup.html#gab766c6742304e7dd92a89641da49284c", null ],
-    [ "hasFullySelectedComponent", "group__MeshComponentsGroup.html#gaa41df9253ef4b45f4766fbed05ec4298", null ]
+    [ "hasFullySelectedComponent", "group__MeshComponentsGroup.html#gaa41df9253ef4b45f4766fbed05ec4298", null ],
+    [ "MR_BIND_OVERLOAD_SUFFIX", "group__MeshComponentsGroup.html#gaf6b68cea12137d44fb03418c5f46ddce", null ],
+    [ "MR_BIND_OVERLOAD_SUFFIX", "group__MeshComponentsGroup.html#gabdbe4987630c4fa59a495242098b8885", null ],
+    [ "isCompBd", "group__MeshComponentsGroup.html#ga291282746acb01b0a8f0add1c741eca7", null ],
+    [ "minArea", "group__MeshComponentsGroup.html#ga06cd0d2739807ac1817e21714a77b155", null ],
+    [ "outBdEdgesBetweenLargeComps", "group__MeshComponentsGroup.html#ga4280eb57f55729dc5222991eecc3cf84", null ],
+    [ "unionFind", "group__MeshComponentsGroup.html#ga7bf3e0737aecb4b63a527d014b0bea83", null ]
 ];

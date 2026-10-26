@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -152,7 +145,7 @@ $(function(){initNavTree('structMR_1_1MergeVolumePartSettings.html','','structMR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ga577e60ec177ee1ce4be553f79fc09a89" id="r_ga577e60ec177ee1ce4be553f79fc09a89"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga577e60ec177ee1ce4be553f79fc09a89">PreCutCallback</a> = std::function&lt;void( <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&amp; mesh, float leftCutPosition, float rightCutPosition )&gt;</td></tr>
+<tr class="memitem:ga577e60ec177ee1ce4be553f79fc09a89" id="r_ga577e60ec177ee1ce4be553f79fc09a89"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga577e60ec177ee1ce4be553f79fc09a89">PreCutCallback</a> = std::function&lt;void( <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&amp; <a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, float leftCutPosition, float rightCutPosition )&gt;</td></tr>
 <tr class="memdesc:ga577e60ec177ee1ce4be553f79fc09a89"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to process the generated mesh before the side cutting, e.g. fixing specific generation artifacts  <br /></td></tr>
 <tr class="memitem:ga58b526091c2efa7486833edd93420975" id="r_ga58b526091c2efa7486833edd93420975"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga58b526091c2efa7486833edd93420975">PostCutCallback</a> = std::function&lt;void( <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&amp; )&gt;</td></tr>
 <tr class="memdesc:ga58b526091c2efa7486833edd93420975"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to process the generated mesh after the side cutting, e.g. decimating  <br /></td></tr>

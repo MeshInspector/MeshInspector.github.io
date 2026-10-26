@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ExtraFormatSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::ExtraFormatSettings</compoundname>
+    <basecompoundref refid="classMR_1_1Const__ExtraFormatSettings" prot="public" virt="non-virtual">MR.Const_ExtraFormatSettings</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ExtraFormatSettings_1ac640f522f004fb724b31e97b6228421c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ExtraFormatSettings.ExtraFormatSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ExtraFormatSettings</name>
+        <qualifiedname>MR.ExtraFormatSettings.ExtraFormatSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" line="101" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" bodystart="101" bodyend="101"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ExtraFormatSettings_1aa10b56b8d7bf4f4fc826bd7e261b1aab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ExtraFormatSettings.ExtraFormatSettings</definition>
+        <argsstring>()</argsstring>
+        <name>ExtraFormatSettings</name>
+        <qualifiedname>MR.ExtraFormatSettings.ExtraFormatSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" line="106" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ExtraFormatSettings_1ae1914e02dde29c49b3806cb44aa3f1d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ExtraFormatSettings.ExtraFormatSettings</definition>
+        <argsstring>(MR.Const_ExtraFormatSettings _other)</argsstring>
+        <name>ExtraFormatSettings</name>
+        <qualifiedname>MR.ExtraFormatSettings.ExtraFormatSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ExtraFormatSettings" kindref="compound">MR.Const_ExtraFormatSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ExtraFormatSettings_1aa10b56b8d7bf4f4fc826bd7e261b1aab" kindref="member">MR.ExtraFormatSettings.ExtraFormatSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" line="114" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" bodystart="114" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ExtraFormatSettings_1a53dc21c3457e8e1e6f1283ffcd63aeef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ExtraFormatSettings.ExtraFormatSettings</definition>
+        <argsstring>(ExtraFormatSettings _other)</argsstring>
+        <name>ExtraFormatSettings</name>
+        <qualifiedname>MR.ExtraFormatSettings.ExtraFormatSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ExtraFormatSettings" kindref="compound">ExtraFormatSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ExtraFormatSettings_1aa10b56b8d7bf4f4fc826bd7e261b1aab" kindref="member">MR.ExtraFormatSettings.ExtraFormatSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" line="123" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ExtraFormatSettings_1a3f64f31b2ee213947910ea202c0e81e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ExtraFormatSettings" kindref="compound">MR.ExtraFormatSettings</ref></type>
+        <definition>unsafe MR.ExtraFormatSettings MR.ExtraFormatSettings.assign</definition>
+        <argsstring>(MR.Const_ExtraFormatSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ExtraFormatSettings.assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ExtraFormatSettings" kindref="compound">MR.Const_ExtraFormatSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ExtraFormatSettings::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" line="128" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" bodystart="128" bodyend="133"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1ExtraFormatSettings_1a53a71f44c05f148a62a7769cf3ac4ec3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ExtraFormatSettings._Underlying *</type>
+        <definition>static unsafe MR.ExtraFormatSettings._Underlying * MR.ExtraFormatSettings.__MR_ExtraFormatSettings_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.ExtraFormatSettings._Underlying *_other)</argsstring>
+        <name>__MR_ExtraFormatSettings_AssignFromAnother</name>
+        <qualifiedname>MR.ExtraFormatSettings.__MR_ExtraFormatSettings_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.ExtraFormatSettings._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" line="138" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ExtraFormatSettings_1aebc079054f16f8042414b0df47a79d0e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ExtraFormatSettings._Underlying *</type>
+        <definition>static unsafe MR.ExtraFormatSettings._Underlying * MR.ExtraFormatSettings.__MR_ExtraFormatSettings_ConstructFromAnother</definition>
+        <argsstring>(MR.ExtraFormatSettings._Underlying *_other)</argsstring>
+        <name>__MR_ExtraFormatSettings_ConstructFromAnother</name>
+        <qualifiedname>MR.ExtraFormatSettings.__MR_ExtraFormatSettings_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.ExtraFormatSettings._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" line="141" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ExtraFormatSettings_1a9fd84bcbc611714c3377711649b5f440" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ExtraFormatSettings._Underlying *</type>
+        <definition>static unsafe MR.ExtraFormatSettings._Underlying * MR.ExtraFormatSettings.__MR_ExtraFormatSettings_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_ExtraFormatSettings_DefaultConstruct</name>
+        <qualifiedname>MR.ExtraFormatSettings.__MR_ExtraFormatSettings_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" line="144" column="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>default settings of MRIOExtras formats, used when loading or saving via the format registry Generated from class <computeroutput><ref refid="classMR_1_1ExtraFormatSettings" kindref="compound">MR.ExtraFormatSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.ExtraFormatSettings</label>
+        <link refid="classMR_1_1ExtraFormatSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_ExtraFormatSettings</label>
+        <link refid="classMR_1_1Const__ExtraFormatSettings"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.ExtraFormatSettings</label>
+        <link refid="classMR_1_1ExtraFormatSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_ExtraFormatSettings</label>
+        <link refid="classMR_1_1Const__ExtraFormatSettings"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" line="99" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRExtraFormatSettings.cs" bodystart="100" bodyend="145"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ExtraFormatSettings_1a53a71f44c05f148a62a7769cf3ac4ec3" prot="private" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>__MR_ExtraFormatSettings_AssignFromAnother</name></member>
+      <member refid="classMR_1_1ExtraFormatSettings_1aebc079054f16f8042414b0df47a79d0e" prot="private" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>__MR_ExtraFormatSettings_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1ExtraFormatSettings_1a9fd84bcbc611714c3377711649b5f440" prot="private" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>__MR_ExtraFormatSettings_DefaultConstruct</name></member>
+      <member refid="classMR_1_1ExtraFormatSettings_1a3f64f31b2ee213947910ea202c0e81e0" prot="public" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ExtraFormatSettings_1a9c0946346aa7ebeb953953426e6a5089" prot="package" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>Const_ExtraFormatSettings</name></member>
+      <member refid="classMR_1_1Const__ExtraFormatSettings_1a8b462ecf85beff0f26100146ce3600b4" prot="public" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>Const_ExtraFormatSettings</name></member>
+      <member refid="classMR_1_1Const__ExtraFormatSettings_1a3afa2cb986c3acce24878e1973c3e6af" prot="public" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>Const_ExtraFormatSettings</name></member>
+      <member refid="classMR_1_1Const__ExtraFormatSettings_1accf7bcbd99b63e64d978287803b6558b" prot="public" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>Const_ExtraFormatSettings</name></member>
+      <member refid="classMR_1_1Const__ExtraFormatSettings_1abf33ef8156cf2951892415118a6dd283" prot="protected" virt="virtual"><scope>MR::ExtraFormatSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ExtraFormatSettings_1ab8d5f63121435270128d1386a86069bf" prot="public" virt="virtual"><scope>MR::ExtraFormatSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ExtraFormatSettings_1ac640f522f004fb724b31e97b6228421c" prot="package" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>ExtraFormatSettings</name></member>
+      <member refid="classMR_1_1ExtraFormatSettings_1aa10b56b8d7bf4f4fc826bd7e261b1aab" prot="public" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>ExtraFormatSettings</name></member>
+      <member refid="classMR_1_1ExtraFormatSettings_1ae1914e02dde29c49b3806cb44aa3f1d3" prot="public" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>ExtraFormatSettings</name></member>
+      <member refid="classMR_1_1ExtraFormatSettings_1a53dc21c3457e8e1e6f1283ffcd63aeef" prot="public" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>ExtraFormatSettings</name></member>
+      <member refid="classMR_1_1Const__ExtraFormatSettings_1a3a60fc41a3aa3363f27c0e510afd6346" prot="public" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>getStepLoadSettings</name></member>
+      <member refid="classMR_1_1Const__ExtraFormatSettings_1af16a8d9e9b587981a05ae374ab8936c5" prot="public" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>reset</name></member>
+      <member refid="classMR_1_1Const__ExtraFormatSettings_1acc2150f5297d98e0256aeafd01f6d950" prot="public" virt="non-virtual"><scope>MR::ExtraFormatSettings</scope><name>setStepLoadSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

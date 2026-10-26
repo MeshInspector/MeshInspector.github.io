@@ -8,7 +8,7 @@
       <member refid="group__GeneralGroup_1ga159740ec11abc814c4bb74f024a4519e" kind="variable"><name>solver_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga19ffcc05d7dd0c8b6ce45e80e81d482e" kind="function"><name>prepare</name></member>
+      <member refid="group__GeneralGroup_1ga8aaa45d1071497576137dc6ef26f796e" kind="function"><name>prepare</name></member>
       <member refid="group__GeneralGroup_1ga267e2926e88f4480cedbfa3ff965547c" kind="function"><name>run</name></member>
       <member refid="group__GeneralGroup_1ga6d7fc1fe41862805d423e14a407367b8" kind="function"><name>run</name></member>
     </sectiondef>
@@ -17,9 +17,9 @@
     <detaileddescription>
 <para>The purpose of this class is to update vertex positions given target triangle normals; see the article &quot;Static/Dynamic Filtering for Mesh Geometry&quot; </para>
     </detaileddescription>
-    <location file="MRMesh/MRNormalsToPoints.h" line="14" column="1" bodyfile="MRMesh/MRNormalsToPoints.h" bodystart="15" bodyend="40"/>
+    <location file="MRMesh/MRNormalsToPoints.h" line="14" column="1" bodyfile="MRMesh/MRNormalsToPoints.h" bodystart="15" bodyend="41"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga19ffcc05d7dd0c8b6ce45e80e81d482e" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>prepare</name></member>
+      <member refid="group__GeneralGroup_1ga8aaa45d1071497576137dc6ef26f796e" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>prepare</name></member>
       <member refid="group__GeneralGroup_1ga267e2926e88f4480cedbfa3ff965547c" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>run</name></member>
       <member refid="group__GeneralGroup_1ga6d7fc1fe41862805d423e14a407367b8" prot="public" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>run</name></member>
       <member refid="group__GeneralGroup_1ga159740ec11abc814c4bb74f024a4519e" prot="private" virt="non-virtual"><scope>MR::NormalsToPoints</scope><name>solver_</name></member>

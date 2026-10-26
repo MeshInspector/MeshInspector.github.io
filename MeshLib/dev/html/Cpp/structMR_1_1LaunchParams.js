@@ -20,6 +20,7 @@ var structMR_1_1LaunchParams =
     [ "isAnimating", "group__GeneralGroup.html#gafc8b03eeee8947080b371a8c17c18c1f", null ],
     [ "multiViewport", "group__GeneralGroup.html#ga7ac116acae77e3053b6c660885a6c4ed", null ],
     [ "name", "group__GeneralGroup.html#gae1dc0fc994254f323bd28cbf180dffdf", null ],
+    [ "noMSAA", "group__GeneralGroup.html#ga3d73570ea540b87c4e76c06675506b76", null ],
     [ "preferOpenGL3", "group__GeneralGroup.html#gacf3d8ea466f9852feb32b9bbf903c0d0", null ],
     [ "render3dSceneInTexture", "group__GeneralGroup.html#ga05b72c90683749a3c0a7b1c0994af432", null ],
     [ "resetConfig", "group__GeneralGroup.html#gaacf5adff18ac37c5815a2a4d5a6bd3ec", null ],

@@ -4,24 +4,24 @@
     <compoundname>MR::MeshMeshDistanceResult</compoundname>
     <includes refid="MRMeshMeshDistance_8h" local="no">MRMesh/MRMeshMeshDistance.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1MeshMeshDistanceResult_1ac63fe46e0eee3773c56a65dacf2f15b4" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
-        <definition>PointOnFace MR::MeshMeshDistanceResult::a</definition>
+      <memberdef kind="variable" id="structMR_1_1MeshMeshDistanceResult_1a8e4aaaa01afff658794e609f5abf4bf1" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
+        <definition>MeshProjectionResult MR::MeshMeshDistanceResult::a</definition>
         <argsstring></argsstring>
         <name>a</name>
         <qualifiedname>MR::MeshMeshDistanceResult::a</qualifiedname>
         <briefdescription>
-<para>two closest points: from meshes A and B respectively </para>
         </briefdescription>
         <detaileddescription>
+<para>two closest points: from meshes A and B respectively, each one as the projection of the other point; unlike the conversion of a point&apos;s position, its barycentric coordinates place it exactly on the edge or in the vertex where it was found </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMeshDistance.h" line="19" column="17" bodyfile="MRMesh/MRMeshMeshDistance.h" bodystart="19" bodyend="-1"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="20" column="26" bodyfile="MRMesh/MRMeshMeshDistance.h" bodystart="20" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structMR_1_1MeshMeshDistanceResult_1aeb2b4c0d5e120181eaa3a706a14f40f9" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
-        <definition>PointOnFace MR::MeshMeshDistanceResult::b</definition>
+      <memberdef kind="variable" id="structMR_1_1MeshMeshDistanceResult_1a25773dfd268367216094115d6c10cf7b" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
+        <definition>MeshProjectionResult MR::MeshMeshDistanceResult::b</definition>
         <argsstring></argsstring>
         <name>b</name>
         <qualifiedname>MR::MeshMeshDistanceResult::b</qualifiedname>
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMeshDistance.h" line="19" column="19" bodyfile="MRMesh/MRMeshMeshDistance.h" bodystart="19" bodyend="-1"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="20" column="28" bodyfile="MRMesh/MRMeshMeshDistance.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1MeshMeshDistanceResult_1a31d5db7464e13bf1f300593e515875c9" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMeshDistance.h" line="21" column="11" bodyfile="MRMesh/MRMeshMeshDistance.h" bodystart="21" bodyend="-1"/>
+        <location file="MRMesh/MRMeshMeshDistance.h" line="22" column="11" bodyfile="MRMesh/MRMeshMeshDistance.h" bodystart="22" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -64,14 +64,21 @@
         </childnode>
       </node>
       <node id="2">
+        <label>MR::MeshProjectionResult</label>
+        <link refid="structMR_1_1MeshProjectionResult"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>proj</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
         <label>MR::PointOnFace</label>
         <link refid="structMR_1_1PointOnFace"/>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRMeshMeshDistance.h" line="16" column="1" bodyfile="MRMesh/MRMeshMeshDistance.h" bodystart="17" bodyend="22"/>
+    <location file="MRMesh/MRMeshMeshDistance.h" line="16" column="1" bodyfile="MRMesh/MRMeshMeshDistance.h" bodystart="17" bodyend="23"/>
     <listofallmembers>
-      <member refid="structMR_1_1MeshMeshDistanceResult_1ac63fe46e0eee3773c56a65dacf2f15b4" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>a</name></member>
-      <member refid="structMR_1_1MeshMeshDistanceResult_1aeb2b4c0d5e120181eaa3a706a14f40f9" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>b</name></member>
+      <member refid="structMR_1_1MeshMeshDistanceResult_1a8e4aaaa01afff658794e609f5abf4bf1" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>a</name></member>
+      <member refid="structMR_1_1MeshMeshDistanceResult_1a25773dfd268367216094115d6c10cf7b" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>b</name></member>
       <member refid="structMR_1_1MeshMeshDistanceResult_1a31d5db7464e13bf1f300593e515875c9" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>distSq</name></member>
     </listofallmembers>
   </compounddef>

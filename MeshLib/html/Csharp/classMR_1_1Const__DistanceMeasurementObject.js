@@ -17,6 +17,7 @@ var classMR_1_1Const__DistanceMeasurementObject =
     [ "comparisonToleranceIsAlwaysOnlyPositive", "classMR_1_1Const__DistanceMeasurementObject.html#a182fecd535348eb2db2574b74fc8529b", null ],
     [ "computeComparableProperty", "classMR_1_1Const__DistanceMeasurementObject.html#afce5d0acd60a4aba82f5b0d10e26333a", null ],
     [ "computeDistance", "classMR_1_1Const__DistanceMeasurementObject.html#a316478ecae431ed28805ff5112b99552", null ],
+    [ "constChildren", "classMR_1_1Const__DistanceMeasurementObject.html#a060c07830ceca82c990b95d36a4246c9", null ],
     [ "Dispose", "classMR_1_1Const__DistanceMeasurementObject.html#a6d2e8f7520bb65e7787af6ad675fe9f5", null ],
     [ "Dispose", "classMR_1_1Const__DistanceMeasurementObject.html#a97e5d29cea1a15148b2d497fd347a31e", null ],
     [ "getAllVisualizeProperties", "classMR_1_1Const__DistanceMeasurementObject.html#ac07133bb823474c68c47f9afc0c63ba0", null ],

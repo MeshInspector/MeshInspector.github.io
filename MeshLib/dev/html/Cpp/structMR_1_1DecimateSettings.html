@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -160,6 +153,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af1fd605860fa7a20931506008f29daa9" id="r_af1fd605860fa7a20931506008f29daa9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1fd605860fa7a20931506008f29daa9">maxTriangleAspectRatio</a> = 20</td></tr>
 <tr class="memdesc:af1fd605860fa7a20931506008f29daa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal possible aspect ratio of a triangle introduced during decimation.  <br /></td></tr>
 <tr class="memitem:a5f0e2ae094cddee1b490103a349feda5" id="r_a5f0e2ae094cddee1b490103a349feda5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f0e2ae094cddee1b490103a349feda5">criticalTriAspectRatio</a> = FLT_MAX</td></tr>
+<tr class="memitem:a83cf18a566f0fa10cc6421ddcc2487e6" id="r_a83cf18a566f0fa10cc6421ddcc2487e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83cf18a566f0fa10cc6421ddcc2487e6">preventNormalFlips</a> = true</td></tr>
 <tr class="memitem:ac0e97c22838e162343661fd588f7a326" id="r_ac0e97c22838e162343661fd588f7a326"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0e97c22838e162343661fd588f7a326">tinyEdgeLength</a> = -1</td></tr>
 <tr class="memdesc:ac0e97c22838e162343661fd588f7a326"><td class="mdescLeft">&#160;</td><td class="mdescRight">edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio  <br /></td></tr>
 <tr class="memitem:ab8a313e9caff73dd179f03a9c7b80baa" id="r_ab8a313e9caff73dd179f03a9c7b80baa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8a313e9caff73dd179f03a9c7b80baa">stabilizer</a> = 0.001f</td></tr>
@@ -180,6 +174,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:ae341a50784372571b1b5bb3e6948981e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow collapsing or flipping edges having at least one vertex on (region) boundary.  <br /></td></tr>
 <tr class="memitem:aee15c4faad0020190c28ac13da3e735e" id="r_aee15c4faad0020190c28ac13da3e735e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee15c4faad0020190c28ac13da3e735e">touchBdVerts</a> = true</td></tr>
 <tr class="memitem:abc44005d50714fe75f875a25f3a59f66" id="r_abc44005d50714fe75f875a25f3a59f66"><td class="memItemLeft" align="right" valign="top">VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc44005d50714fe75f875a25f3a59f66">bdVerts</a> = nullptr</td></tr>
+<tr class="memitem:a6d86579d9da2f3a27a05bd02a9c8af2c" id="r_a6d86579d9da2f3a27a05bd02a9c8af2c"><td class="memItemLeft" align="right" valign="top">const UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d86579d9da2f3a27a05bd02a9c8af2c">regionEdges</a> = nullptr</td></tr>
 <tr class="memitem:aebecde304889b67910dd05d032cb8d07" id="r_aebecde304889b67910dd05d032cb8d07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebecde304889b67910dd05d032cb8d07">maxAngleChange</a> = -1</td></tr>
 <tr class="memitem:a5901e72dc3fd85459f38318a894afbbd" id="r_a5901e72dc3fd85459f38318a894afbbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga8ca6fbc7c349a31c3f0a68ce8f513265">PreCollapseCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5901e72dc3fd85459f38318a894afbbd">preCollapse</a></td></tr>
 <tr class="memdesc:a5901e72dc3fd85459f38318a894afbbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback that is invoked immediately before edge collapse;.  <br /></td></tr>
@@ -193,6 +188,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa54526c521844dcca8dc5aa91e3628de" id="r_aa54526c521844dcca8dc5aa91e3628de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa54526c521844dcca8dc5aa91e3628de">progressCallback</a></td></tr>
 <tr class="memdesc:aa54526c521844dcca8dc5aa91e3628de"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <br /></td></tr>
 <tr class="memitem:a8f97c534c28993195cc07d01e1721fe4" id="r_a8f97c534c28993195cc07d01e1721fe4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f97c534c28993195cc07d01e1721fe4">subdivideParts</a> = 1</td></tr>
+<tr class="memitem:a5c45e6bbbd754a83383dc12b0564c009" id="r_a5c45e6bbbd754a83383dc12b0564c009"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__DecimateGroup.html#gaed99d2728682c43807db96f18bb16d35">DecimatePartsMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c45e6bbbd754a83383dc12b0564c009">partsMode</a> = <a class="el" href="group__DecimateGroup.html#ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b">DecimatePartsMode::PackedMesh</a></td></tr>
+<tr class="memdesc:a5c45e6bbbd754a83383dc12b0564c009"><td class="mdescLeft">&#160;</td><td class="mdescRight">how the parts are found for subdivideParts &gt; 1; ignored if partFaces is given  <br /></td></tr>
 <tr class="memitem:a75b6f5ba5cb1ddac954f9ffd4fb9b7fe" id="r_a75b6f5ba5cb1ddac954f9ffd4fb9b7fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe">decimateBetweenParts</a> = true</td></tr>
 <tr class="memitem:a7d69e19f2609b7330c6ac5d17a9ebfff" id="r_a7d69e19f2609b7330c6ac5d17a9ebfff"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceBitSet &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d69e19f2609b7330c6ac5d17a9ebfff">partFaces</a> = nullptr</td></tr>
 <tr class="memitem:a7cc18ed533890cfc09a39ba3724b5f85" id="r_a7cc18ed533890cfc09a39ba3724b5f85"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc18ed533890cfc09a39ba3724b5f85">minFacesInPart</a> = 0</td></tr>
@@ -290,7 +287,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts </p>
+<p>Whether to decimate near the borders of individual parts to eliminate small edges there: as soon as two sibling nodes in the binary tree of parts are decimated, their union is decimated in parallel with other nodes, and only the border between two halves of the mesh remains for the final decimation of whole mesh region </p>
 
 </div>
 </div>
@@ -512,6 +509,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5c45e6bbbd754a83383dc12b0564c009" name="a5c45e6bbbd754a83383dc12b0564c009"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c45e6bbbd754a83383dc12b0564c009">&#9670;&#160;</a></span>partsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__DecimateGroup.html#gaed99d2728682c43807db96f18bb16d35">DecimatePartsMode</a> MR::DecimateSettings::partsMode = <a class="el" href="group__DecimateGroup.html#ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b">DecimatePartsMode::PackedMesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>how the parts are found for subdivideParts &gt; 1; ignored if partFaces is given </p>
+
+</div>
+</div>
 <a id="a5901e72dc3fd85459f38318a894afbbd" name="a5901e72dc3fd85459f38318a894afbbd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5901e72dc3fd85459f38318a894afbbd">&#9670;&#160;</a></span>preCollapse</h2>
 
@@ -526,6 +539,21 @@ Public Attributes</h2></td></tr>
 
 <p>The user can provide this optional callback that is invoked immediately before edge collapse;. </p>
 <p>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited </p>
+
+</div>
+</div>
+<a id="a83cf18a566f0fa10cc6421ddcc2487e6" name="a83cf18a566f0fa10cc6421ddcc2487e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83cf18a566f0fa10cc6421ddcc2487e6">&#9670;&#160;</a></span>preventNormalFlips</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::DecimateSettings::preventNormalFlips = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to prohibit a collapse if it inverts the normal of a remaining triangle; turning it off (together with maxTriangleAspectRatio = FLT_MAX) makes decimation faster, but some triangles may appear inverted </p>
 
 </div>
 </div>
@@ -558,6 +586,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Region on mesh to be decimated, it is updated during the operation. </p>
+
+</div>
+</div>
+<a id="a6d86579d9da2f3a27a05bd02a9c8af2c" name="a6d86579d9da2f3a27a05bd02a9c8af2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d86579d9da2f3a27a05bd02a9c8af2c">&#9670;&#160;</a></span>regionEdges</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const UndirectedEdgeBitSet* MR::DecimateSettings::regionEdges = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if region is not null and this pointer is not null, then it shall contain all edges incident to region faces (as returned by getIncidentEdges( topology, *region )), and the algorithm does not compute them itself </p>
 
 </div>
 </div>
@@ -601,7 +644,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </p>
+<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: with default partsMode, please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </p>
 
 </div>
 </div>

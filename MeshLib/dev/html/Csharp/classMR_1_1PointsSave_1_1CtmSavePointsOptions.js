@@ -17,6 +17,7 @@ var classMR_1_1PointsSave_1_1CtmSavePointsOptions =
     [ "progress", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a419c111e1407e323211bf1ca29107474", null ],
     [ "saveTriCornerUVCoords", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a5adae3e123efa75fe80e89c0abde1b26", null ],
     [ "solidColor", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#af59ed457415d359be9c6e9fd8e256c56", null ],
+    [ "telemetrySignal", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#adad821c0d11426da37b1dec3fc3b338f", null ],
     [ "texture", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#afce5ae97c6471480593714ede4857d43", null ],
     [ "uvMap", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a76746fb52841819fcb43905278b1d559", null ],
     [ "xf", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#af159eb0718010983dcdc16815b58d815", null ]

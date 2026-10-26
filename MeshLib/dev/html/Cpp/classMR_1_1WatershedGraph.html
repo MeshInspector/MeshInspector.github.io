@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -161,7 +154,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ga50705670ff6a5cb245a04bce034f12ec" id="r_ga50705670ff6a5cb245a04bce034f12ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga50705670ff6a5cb245a04bce034f12ec">WatershedGraph</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, FaceId &gt; &amp;face2basin, int <a class="el" href="group__GeneralGroup.html#ga75dfd7892ea152c119be891a63d24d0e">numBasins</a>)</td></tr>
+<tr class="memitem:ga50705670ff6a5cb245a04bce034f12ec" id="r_ga50705670ff6a5cb245a04bce034f12ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga50705670ff6a5cb245a04bce034f12ec">WatershedGraph</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, FaceId &gt; &amp;face2basin, int <a class="el" href="group__GeneralGroup.html#ga75dfd7892ea152c119be891a63d24d0e">numBasins</a>)</td></tr>
 <tr class="memdesc:ga50705670ff6a5cb245a04bce034f12ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs the graph from given mesh, heights in z-coordinate, and initial subdivision on basins  <br /></td></tr>
 <tr class="memitem:ga02132a9c3480025356b1c3121549dd04" id="r_ga02132a9c3480025356b1c3121549dd04"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga02132a9c3480025356b1c3121549dd04">getHeightAt</a> (VertId v) const</td></tr>
 <tr class="memdesc:ga02132a9c3480025356b1c3121549dd04"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns height at given vertex or FLT_MAX if the vertex is invalid  <br /></td></tr>

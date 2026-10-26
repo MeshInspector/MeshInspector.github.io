@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -165,6 +158,7 @@ Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="memitem:MR_3A_3Adetail" id="r_MR_3A_3Adetail"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1detail.html">MR::detail</a></td></tr>
+<tr class="memdesc:namespaceMR_1_1detail"><td class="mdescLeft">&#160;</td><td class="mdescRight">for internal use: namespace detail is not bound to other languages <br /></td></tr>
 <tr class="memitem:MR_3A_3Adetail_3A_3AUnits" id="r_MR_3A_3Adetail_3A_3AUnits"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1detail_1_1Units.html">MR::detail::Units</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-concepts" class="groupheader"><a id="concepts" name="concepts"></a>
@@ -279,10 +273,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga6443d7b50482979e4b2287d29423ee25 template"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1UnitInfo.html">UnitInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6443d7b50482979e4b2287d29423ee25">MR::getUnitInfo</a> (E unit)=delete</td></tr>
 <tr class="memdesc:ga6443d7b50482979e4b2287d29423ee25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns information about a single measurement unit.  <br /></td></tr>
 <tr class="memitem:ga7223f0b55060f4ce1f1e6f9c37ff0867" id="r_ga7223f0b55060f4ce1f1e6f9c37ff0867"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E&gt; </td></tr>
-<tr class="memitem:ga7223f0b55060f4ce1f1e6f9c37ff0867 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7223f0b55060f4ce1f1e6f9c37ff0867">MR::unitsAreEquivalent</a> (E a, E b)</td></tr>
+<tr class="memitem:ga7223f0b55060f4ce1f1e6f9c37ff0867 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7223f0b55060f4ce1f1e6f9c37ff0867">MR::unitsAreEquivalent</a> (E <a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, E <a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
 <tr class="memdesc:ga7223f0b55060f4ce1f1e6f9c37ff0867"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if converting a value between units <span class="tt">a</span> and <span class="tt">b</span> doesn't change its value.  <br /></td></tr>
 <tr class="memitem:ga0c2948849a79593059ba5c880d5ae050" id="r_ga0c2948849a79593059ba5c880d5ae050"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E&gt; </td></tr>
-<tr class="memitem:ga0c2948849a79593059ba5c880d5ae050 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0c2948849a79593059ba5c880d5ae050">MR::unitsAreEquivalent</a> (const std::optional&lt; E &gt; &amp;a, const std::optional&lt; E &gt; &amp;b)</td></tr>
+<tr class="memitem:ga0c2948849a79593059ba5c880d5ae050 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0c2948849a79593059ba5c880d5ae050">MR::unitsAreEquivalent</a> (const std::optional&lt; E &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const std::optional&lt; E &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
 <tr class="memdesc:ga0c2948849a79593059ba5c880d5ae050"><td class="mdescLeft">&#160;</td><td class="mdescRight">This version also returns true if <span class="tt">a</span> or <span class="tt">b</span> is null.  <br /></td></tr>
 <tr class="memitem:gabc1dac35ba49a323ad136b896517b3b3" id="r_gabc1dac35ba49a323ad136b896517b3b3"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, typename T&gt; </td></tr>
 <tr class="memitem:gabc1dac35ba49a323ad136b896517b3b3 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gaec57db09655986b2ed959d498edc6f2a">detail::Units::MakeFloatingPoint</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gabc1dac35ba49a323ad136b896517b3b3">MR::convertUnits</a> (E from, E to, const T &amp;value)</td></tr>

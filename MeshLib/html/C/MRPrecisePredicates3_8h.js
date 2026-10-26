@@ -1,12 +1,12 @@
 var MRPrecisePredicates3_8h =
 [
     [ "MR_ConvertToFloatVector", "MRPrecisePredicates3_8h.html#a279a37f9b7c6456dbe37e3ebfe6397cd", null ],
-    [ "MR_PreciseVertCoords", "MRPrecisePredicates3_8h.html#acf8295b8fee8090e376d3d1c18eb3356", null ],
     [ "MR_std_array_MR_PreciseVertCoords_5", "MRPrecisePredicates3_8h.html#a19d1c83619a5f85c59e93ca89af7b70f", null ],
     [ "MR_std_array_MR_PreciseVertCoords_8", "MRPrecisePredicates3_8h.html#a681fec384dfcea4b7158ec1b4edf50b0", null ],
     [ "MR_std_optional_MR_Vector3i", "MRPrecisePredicates3_8h.html#a469fa520597b79e2e4f047cb3a6cb55a", null ],
     [ "MR_TriangleSegmentIntersectResult", "MRPrecisePredicates3_8h.html#a2fdac89a858155a824599baf2b62c690", null ],
-    [ "MR_Vector_MR_Vector3i_MR_VertId", "MRPrecisePredicates3_8h.html#a1ee03147697b6ec21996bf4dd7c65823", null ],
+    [ "MR_ccwAroundLine_const_MR_PreciseVertCoords_ptr", "MRPrecisePredicates3_8h.html#a279cf6dcbdea3a81586153ac930ed23c", null ],
+    [ "MR_ccwAroundLine_std_array_MR_PreciseVertCoords_5", "MRPrecisePredicates3_8h.html#a128d3348d79ad4a3d4fc7528db641786", null ],
     [ "MR_computeFloatCoords", "MRPrecisePredicates3_8h.html#abb2acb415fc9d650e2112a6a72ef8d38", null ],
     [ "MR_computeIntCoords", "MRPrecisePredicates3_8h.html#aa3d44d41890cb0d83efa6197f1ab27e1", null ],
     [ "MR_ConvertToFloatVector_AssignFromAnother", "MRPrecisePredicates3_8h.html#a45374e0132c13864df37eccef07180ec", null ],
@@ -84,6 +84,7 @@ var MRPrecisePredicates3_8h =
     [ "MR_PreciseVertCoords_Set_id", "MRPrecisePredicates3_8h.html#aeb07e9abf8e75c68027922e3bd08e7aa", null ],
     [ "MR_PreciseVertCoords_Set_pt", "MRPrecisePredicates3_8h.html#a9841e5df1efd519ced59ba2952602838", null ],
     [ "MR_segmentIntersectionOrder_std_array_MR_PreciseVertCoords_8", "MRPrecisePredicates3_8h.html#af77bb9615af4031e103fa45d949dc79f", null ],
+    [ "MR_segmentIntersectionTriPlaneOrder", "MRPrecisePredicates3_8h.html#a0fd1c641b1e6e2019274c9d8b77eb523", null ],
     [ "MR_TriangleSegmentIntersectResult_AssignFromAnother", "MRPrecisePredicates3_8h.html#a6778adc22645eac708b69fd4467c121b", null ],
     [ "MR_TriangleSegmentIntersectResult_ConstructFrom", "MRPrecisePredicates3_8h.html#a3d9837eea3e498e62679906eede69aaf", null ],
     [ "MR_TriangleSegmentIntersectResult_ConstructFromAnother", "MRPrecisePredicates3_8h.html#a3c1c35a5e91a028dbf5b2d4d68e7fec0", null ],

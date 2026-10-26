@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -165,13 +158,17 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#gga216960c15f7b00558ab28053967a9615a701726fb0205943f4567e09bcebd0552">MR::ShortestEdgeFirst</a>
  }</td></tr>
 <tr class="memdesc:ga216960c15f7b00558ab28053967a9615"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the order of edge collapses inside Decimate algorithm.  <a href="#ga216960c15f7b00558ab28053967a9615">More...</a><br /></td></tr>
+<tr class="memitem:gaed99d2728682c43807db96f18bb16d35" id="r_gaed99d2728682c43807db96f18bb16d35"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaed99d2728682c43807db96f18bb16d35">MR::DecimatePartsMode</a> { <a class="el" href="#ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b">MR::DecimatePartsMode::PackedMesh</a>
+, <a class="el" href="#ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8">MR::DecimatePartsMode::AABBTree</a>
+ }</td></tr>
+<tr class="memdesc:gaed99d2728682c43807db96f18bb16d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines how decimation finds the parts of the mesh for parallel processing (DecimateSettings::subdivideParts &gt; 1)  <a href="#gaed99d2728682c43807db96f18bb16d35">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gae9313434cccf9f5b704c8f1fbb534a50" id="r_gae9313434cccf9f5b704c8f1fbb534a50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae9313434cccf9f5b704c8f1fbb534a50">MR::decimateMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DecimateSettings.html">DecimateSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:gae9313434cccf9f5b704c8f1fbb534a50" id="r_gae9313434cccf9f5b704c8f1fbb534a50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae9313434cccf9f5b704c8f1fbb534a50">MR::decimateMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="structMR_1_1DecimateSettings.html">DecimateSettings</a> &amp;<a class="el" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a>={})</td></tr>
 <tr class="memdesc:gae9313434cccf9f5b704c8f1fbb534a50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs mesh simplification in mesh region according to the settings.  <br /></td></tr>
-<tr class="memitem:ga3f57cf6a3c61be20a3b70d36877d86ca" id="r_ga3f57cf6a3c61be20a3b70d36877d86ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f57cf6a3c61be20a3b70d36877d86ca">MR::decimateObjectMeshData</a> (<a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;data, const <a class="el" href="structMR_1_1DecimateSettings.html">DecimateSettings</a> &amp;settings)</td></tr>
-<tr class="memitem:gacc35b69a8b8bab04f5ae4a9d7b89e072" id="r_gacc35b69a8b8bab04f5ae4a9d7b89e072"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacc35b69a8b8bab04f5ae4a9d7b89e072">MR::makeDecimatedObjectMeshData</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;obj, const <a class="el" href="structMR_1_1DecimateSettings.html">DecimateSettings</a> &amp;settings, <a class="el" href="structMR_1_1DecimateResult.html">DecimateResult</a> *outRes=nullptr)</td></tr>
+<tr class="memitem:ga3f57cf6a3c61be20a3b70d36877d86ca" id="r_ga3f57cf6a3c61be20a3b70d36877d86ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1DecimateResult.html">DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f57cf6a3c61be20a3b70d36877d86ca">MR::decimateObjectMeshData</a> (<a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;data, const <a class="el" href="structMR_1_1DecimateSettings.html">DecimateSettings</a> &amp;<a class="el" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a>)</td></tr>
+<tr class="memitem:gacc35b69a8b8bab04f5ae4a9d7b89e072" id="r_gacc35b69a8b8bab04f5ae4a9d7b89e072"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacc35b69a8b8bab04f5ae4a9d7b89e072">MR::makeDecimatedObjectMeshData</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;obj, const <a class="el" href="structMR_1_1DecimateSettings.html">DecimateSettings</a> &amp;<a class="el" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a>, <a class="el" href="structMR_1_1DecimateResult.html">DecimateResult</a> *outRes=nullptr)</td></tr>
 <tr class="memdesc:gacc35b69a8b8bab04f5ae4a9d7b89e072"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the data of decimated mesh given <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> (which remains unchanged) and decimation parameters  <br /></td></tr>
 <tr class="memitem:ga5d60f8aec3ed26e0949d5b97861324e0" id="r_ga5d60f8aec3ed26e0949d5b97861324e0"><td class="memItemLeft" align="right" valign="top">QuadraticForm3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5d60f8aec3ed26e0949d5b97861324e0">MR::computeFormAtVertex</a> (const MeshPart &amp;mp, VertId v, float stabilizer, bool angleWeigted, const UndirectedEdgeBitSet *creases=nullptr)</td></tr>
 <tr class="memdesc:ga5d60f8aec3ed26e0949d5b97861324e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes quadratic form at given vertex of the initial surface before decimation.  <br /></td></tr>
@@ -179,18 +176,50 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga5064016639386ac5440322085837e9da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes quadratic forms at every vertex of mesh part before decimation.  <br /></td></tr>
 <tr class="memitem:gafd27c831dac6b72e1cc177e88f8a7c4a" id="r_gafd27c831dac6b72e1cc177e88f8a7c4a"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafd27c831dac6b72e1cc177e88f8a7c4a">MR::getSubdividePart</a> (const FaceBitSet &amp;valids, size_t subdivideParts, size_t myPart)</td></tr>
 <tr class="memdesc:gafd27c831dac6b72e1cc177e88f8a7c4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns given subdivision part of all valid faces; parallel threads shall be able to safely modify these bits because they do not share any block with other parts  <br /></td></tr>
-<tr class="memitem:ga819efdab20db83df5180d339b4ed6196" id="r_ga819efdab20db83df5180d339b4ed6196"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga819efdab20db83df5180d339b4ed6196">MR::resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ResolveMeshDegenSettings.html">ResolveMeshDegenSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga819efdab20db83df5180d339b4ed6196" id="r_ga819efdab20db83df5180d339b4ed6196"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga819efdab20db83df5180d339b4ed6196">MR::resolveMeshDegenerations</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="structMR_1_1ResolveMeshDegenSettings.html">ResolveMeshDegenSettings</a> &amp;<a class="el" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a>={})</td></tr>
 <tr class="memdesc:ga819efdab20db83df5180d339b4ed6196"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes degenerate triangles in a mesh by calling decimateMesh function with appropriate settings.  <br /></td></tr>
-<tr class="memitem:ga2f09d000493d3c9da7ce3f98f6f4ee3a" id="r_ga2f09d000493d3c9da7ce3f98f6f4ee3a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2f09d000493d3c9da7ce3f98f6f4ee3a">MR::remesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1RemeshSettings.html">RemeshSettings</a> &amp;settings)</td></tr>
+<tr class="memitem:ga2f09d000493d3c9da7ce3f98f6f4ee3a" id="r_ga2f09d000493d3c9da7ce3f98f6f4ee3a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2f09d000493d3c9da7ce3f98f6f4ee3a">MR::remesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="structMR_1_1RemeshSettings.html">RemeshSettings</a> &amp;<a class="el" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a>)</td></tr>
 <tr class="memdesc:ga2f09d000493d3c9da7ce3f98f6f4ee3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits too long and eliminates too short edges from the mesh.  <br /></td></tr>
-<tr class="memitem:gaeafa3a500cea3d03dc8e011409571cac" id="r_gaeafa3a500cea3d03dc8e011409571cac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeafa3a500cea3d03dc8e011409571cac">MR::decimatePolyline</a> (<a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;polyline, const <a class="el" href="group__GeneralGroup.html#ga6e7bbd2938192cd9a3d3616faa293ed9">DecimatePolylineSettings2</a> &amp;settings={})</td></tr>
+<tr class="memitem:gaeafa3a500cea3d03dc8e011409571cac" id="r_gaeafa3a500cea3d03dc8e011409571cac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeafa3a500cea3d03dc8e011409571cac">MR::decimatePolyline</a> (<a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;polyline, const <a class="el" href="group__GeneralGroup.html#ga6e7bbd2938192cd9a3d3616faa293ed9">DecimatePolylineSettings2</a> &amp;<a class="el" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a>={})</td></tr>
 <tr class="memdesc:gaeafa3a500cea3d03dc8e011409571cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in the polyline according to the settings.  <br /></td></tr>
-<tr class="memitem:ga45b98526f41bd7599cee507344ad60a1" id="r_ga45b98526f41bd7599cee507344ad60a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga45b98526f41bd7599cee507344ad60a1">MR::decimateContour</a> (<a class="el" href="group__GeneralGroup.html#ga411f342f0faf2e8fd25230d9f676b5d9">Contour2f</a> &amp;contour, const <a class="el" href="group__GeneralGroup.html#ga6e7bbd2938192cd9a3d3616faa293ed9">DecimatePolylineSettings2</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga45b98526f41bd7599cee507344ad60a1" id="r_ga45b98526f41bd7599cee507344ad60a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1DecimatePolylineResult.html">DecimatePolylineResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga45b98526f41bd7599cee507344ad60a1">MR::decimateContour</a> (<a class="el" href="group__GeneralGroup.html#ga411f342f0faf2e8fd25230d9f676b5d9">Contour2f</a> &amp;contour, const <a class="el" href="group__GeneralGroup.html#ga6e7bbd2938192cd9a3d3616faa293ed9">DecimatePolylineSettings2</a> &amp;<a class="el" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a>={})</td></tr>
 <tr class="memdesc:ga45b98526f41bd7599cee507344ad60a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapse edges in the contour according to the settings.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>This chapter represents documentation about mesh decimation. </p>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="gaed99d2728682c43807db96f18bb16d35" name="gaed99d2728682c43807db96f18bb16d35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed99d2728682c43807db96f18bb16d35">&#9670;&#160;</a></span>DecimatePartsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#gaed99d2728682c43807db96f18bb16d35">MR::DecimatePartsMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshDecimate_8h.html">MRMesh/MRMeshDecimate.h</a>&gt;</code></p>
+
+<p>Defines how decimation finds the parts of the mesh for parallel processing (<a class="el" href="structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4">DecimateSettings::subdivideParts</a> &gt; 1) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b" name="ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b"></a>PackedMesh&#160;</td><td class="fielddoc"><p>the mesh is already packed optimally (e.g. by mesh.packOptimally()), and the parts are ranges of face ids </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8" name="ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8"></a>AABBTree&#160;</td><td class="fielddoc"><p>the parts are subtrees of mesh's AABB tree (taken from the mesh if present, otherwise constructed), no packing is needed; the number of parts is rounded up to a power of two </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="ga216960c15f7b00558ab28053967a9615" name="ga216960c15f7b00558ab28053967a9615"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga216960c15f7b00558ab28053967a9615">&#9670;&#160;</a></span>DecimateStrategy</h2>
 
@@ -385,7 +414,7 @@ After</div></div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshDecimate_8h.html">MRMesh/MRMeshDecimate.h</a>&gt;</code></p>
-<p>Performs mesh simplification with per-element attributes according to given settings; \detail settings.region must be null, and real simplification region will be data face selection (or whole mesh if no face selection) </p>
+<p>Performs mesh simplification with per-element attributes according to given settings; \detail settings.region limits the simplification like in decimateMesh (whole mesh if null), and face selection is not used as a region; the attributes without values for some mesh elements are padded with default values (see resizeAttributesToMesh) </p>
 
 </div>
 </div>

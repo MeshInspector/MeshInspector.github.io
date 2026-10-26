@@ -1,6 +1,7 @@
 var MRZip_8h =
 [
     [ "MR_CompressZipSettings", "MRZip_8h.html#a4e379930f9afb434d2504341fdfcd26b", null ],
+    [ "MR_std_function_expected_void_std_string_from_const_std_string_ref_std_vector_char_rvalue_ref", "MRZip_8h.html#add4710559c3191dc0b46e49c140c98da", null ],
     [ "MR_compressZip_3", "MRZip_8h.html#a5045633b82f41332aed7d40016937a43", null ],
     [ "MR_compressZip_5", "MRZip_8h.html#a5688a8cc397c9c76e182888070bef1b5", null ],
     [ "MR_CompressZipSettings_AssignFromAnother", "MRZip_8h.html#a3b8eb81adaddd9afde120990c5754279", null ],
@@ -24,6 +25,8 @@ var MRZip_8h =
     [ "MR_CompressZipSettings_Set_compressionLevel", "MRZip_8h.html#a43dd53490b67a748a5bf3739ca865409", null ],
     [ "MR_CompressZipSettings_Set_excludeFiles", "MRZip_8h.html#acd393381f09389ea5dac0d3fb1d37026", null ],
     [ "MR_CompressZipSettings_Set_password", "MRZip_8h.html#a22a5414079fa3668a21747c732c81f3a", null ],
-    [ "MR_decompressZip_std_filesystem_path", "MRZip_8h.html#a287e899f349a0d8b543d3495d83af82d", null ],
-    [ "MR_decompressZip_std_istream", "MRZip_8h.html#a0c984fbdd972f56a6921355059ff8cf7", null ]
+    [ "MR_decompressZip_const_std_filesystem_path_ref_std_filesystem_path", "MRZip_8h.html#a9fa2325f67998220bab3f11e894eb2af", null ],
+    [ "MR_decompressZip_const_std_filesystem_path_ref_std_function_expected_void_std_string_func_from_const_std_string_ref_std_vector_char_rvalue_ref", "MRZip_8h.html#a88037e6012b58bd5492a2ae812cf6608", null ],
+    [ "MR_decompressZip_std_istream_ref_std_filesystem_path", "MRZip_8h.html#a8cd08fab1a6396a9c8ee4d982560cfcb", null ],
+    [ "MR_decompressZip_std_istream_ref_std_function_expected_void_std_string_func_from_const_std_string_ref_std_vector_char_rvalue_ref", "MRZip_8h.html#a401cd7d6d45a213ce6cc70bbd5aa9a7e", null ]
 ];

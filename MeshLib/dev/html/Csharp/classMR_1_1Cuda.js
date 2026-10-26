@@ -1,6 +1,8 @@
 var classMR_1_1Cuda =
 [
+    [ "ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html", "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume" ],
     [ "ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", "classMR_1_1Cuda_1_1ComputeToolDistance" ],
+    [ "Const_ComputePointsToDistanceVolume", "classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume.html", "classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume" ],
     [ "Const_ComputeToolDistance", "classMR_1_1Cuda_1_1Const__ComputeToolDistance.html", "classMR_1_1Cuda_1_1Const__ComputeToolDistance" ],
     [ "Const_DeviceInfo", "classMR_1_1Cuda_1_1Const__DeviceInfo.html", "classMR_1_1Cuda_1_1Const__DeviceInfo" ],
     [ "Const_FastWindingNumber", "classMR_1_1Cuda_1_1Const__FastWindingNumber.html", "classMR_1_1Cuda_1_1Const__FastWindingNumber" ],
@@ -15,7 +17,7 @@ var classMR_1_1Cuda =
     [ "computeSkyViewFactor", "classMR_1_1Cuda.html#a0ea88f5709a51086f7724af94d64e56c", null ],
     [ "distanceMapFromContours", "classMR_1_1Cuda.html#ad3e17c83bdc91cabccc103c84ee2652c", null ],
     [ "distanceMapFromContoursHeapBytes", "classMR_1_1Cuda.html#a4f9a9652de05efaa486dd7ccd6bcf858", null ],
-    [ "findProjectionOnPoints", "classMR_1_1Cuda.html#aee867626f86b200ed06a17c2e7298049", null ],
+    [ "findProjectionOnPoints", "classMR_1_1Cuda.html#aac8223a07f9e9a983c6bef664fd86fd1", null ],
     [ "findProjectionOnPointsHeapBytes", "classMR_1_1Cuda.html#a07a7240cdbac3fd2437a2d72b15e4020", null ],
     [ "findSkyRays", "classMR_1_1Cuda.html#acd8af53537c95be1eac56310bc9cd725", null ],
     [ "getCudaAvailableMemory", "classMR_1_1Cuda.html#a28af47bcf240e73dba6089da5350cef0", null ],
@@ -28,5 +30,6 @@ var classMR_1_1Cuda =
     [ "maxBufferSizeAlignedByBlock", "classMR_1_1Cuda.html#a2ee724ac36d26a6c83bdcd469a4b1a22", null ],
     [ "negatePicture", "classMR_1_1Cuda.html#ab2b7f6383c91b4355a8e3efd50505461", null ],
     [ "pointsToDistanceVolume", "classMR_1_1Cuda.html#ada48bf1cb30a1dd5423bcb0d29c6b1d2", null ],
-    [ "pointsToDistanceVolumeByParts", "classMR_1_1Cuda.html#ac41726497d51f9764c2d9c2c2e9db105", null ]
+    [ "pointsToDistanceVolumeByParts", "classMR_1_1Cuda.html#ac41726497d51f9764c2d9c2c2e9db105", null ],
+    [ "pointsToDistanceVolumeMemory", "classMR_1_1Cuda.html#a8b991d06691ed494c32465f1dcecd565", null ]
 ];

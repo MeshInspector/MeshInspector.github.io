@@ -27,22 +27,6 @@
         <label>stddef.h</label>
       </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" prot="public" static="no">
-        <type>struct <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref></type>
-        <definition>typedef struct MR_SegmPointd MR_SegmPointd</definition>
-        <argsstring></argsstring>
-        <name>MR_SegmPointd</name>
-        <briefdescription>
-<para>encodes a point inside a line segment using relative distance in [0,1] Generated from class <computeroutput>MR::SegmPointd</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" line="21" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRSegmPoint_8h_1a0035133af66b9b6f91c2eabf9f6a4432" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
@@ -430,7 +414,7 @@
         <argsstring>(const MR_SegmPointd *_this)</argsstring>
         <name>MR_SegmPointd_Get_a</name>
         <param>
-          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type>const <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -448,7 +432,7 @@
         <argsstring>(MR_SegmPointd *_this, double value)</argsstring>
         <name>MR_SegmPointd_Set_a</name>
         <param>
-          <type><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -470,7 +454,7 @@
         <argsstring>(MR_SegmPointd *_this)</argsstring>
         <name>MR_SegmPointd_GetMutable_a</name>
         <param>
-          <type><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -482,7 +466,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" line="140" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" declline="140" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRSegmPoint_8h_1a4b19b957febaf9b6b14c690d21c26e28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
         <definition>MRC_API MR_SegmPointd * MR_SegmPointd_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_SegmPointd_DefaultConstruct</name>
@@ -499,7 +483,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" line="144" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" declline="144" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRSegmPoint_8h_1af5f8616ce378958d988a8a08a831b46e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
         <definition>MRC_API MR_SegmPointd * MR_SegmPointd_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_SegmPointd_DefaultConstructArray</name>
@@ -517,12 +501,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" line="149" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" declline="149" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRSegmPoint_8h_1af7b3274334bf3e56c675601b34064b27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
         <definition>MRC_API const MR_SegmPointd * MR_SegmPointd_OffsetPtr</definition>
         <argsstring>(const MR_SegmPointd *ptr, ptrdiff_t i)</argsstring>
         <name>MR_SegmPointd_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type>const <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -539,12 +523,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" line="153" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" declline="153" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRSegmPoint_8h_1a8117dd3313e9469f5d69cfa02e656889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
         <definition>MRC_API MR_SegmPointd * MR_SegmPointd_OffsetMutablePtr</definition>
         <argsstring>(MR_SegmPointd *ptr, ptrdiff_t i)</argsstring>
         <name>MR_SegmPointd_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -561,12 +545,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" line="157" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" declline="157" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRSegmPoint_8h_1a158ec587de854d646019446e408a9349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
         <definition>MRC_API MR_SegmPointd * MR_SegmPointd_ConstructFromAnother</definition>
         <argsstring>(const MR_SegmPointd *_other)</argsstring>
         <name>MR_SegmPointd_ConstructFromAnother</name>
         <param>
-          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type>const <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -579,7 +563,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" line="163" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" declline="163" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRSegmPoint_8h_1a0724cc5d4bdd2ed4e34e8e0e3da7d1cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
         <definition>MRC_API MR_SegmPointd * MR_SegmPointd_Construct</definition>
         <argsstring>(double a)</argsstring>
         <name>MR_SegmPointd_Construct</name>
@@ -602,11 +586,11 @@
         <argsstring>(const MR_SegmPointd *_this)</argsstring>
         <name>MR_SegmPointd_Destroy</name>
         <param>
-          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type>const <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -620,11 +604,11 @@
         <argsstring>(const MR_SegmPointd *_this)</argsstring>
         <name>MR_SegmPointd_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type>const <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -638,7 +622,7 @@
         <argsstring>(const MR_SegmPointd *_this)</argsstring>
         <name>MR_SegmPointd_ConvertTo_double</name>
         <param>
-          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type>const <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -656,7 +640,7 @@
         <argsstring>(MR_SegmPointd *_this)</argsstring>
         <name>MR_SegmPointd_ConvertTo_double_ref</name>
         <param>
-          <type><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -669,16 +653,16 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" line="182" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" declline="182" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRSegmPoint_8h_1a4489c4a71ab92d0431c905d5075b64d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
         <definition>MRC_API MR_SegmPointd * MR_SegmPointd_AssignFromAnother</definition>
         <argsstring>(MR_SegmPointd *_this, const MR_SegmPointd *_other)</argsstring>
         <name>MR_SegmPointd_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type>const <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -696,7 +680,7 @@
         <argsstring>(const MR_SegmPointd *_this)</argsstring>
         <name>MR_SegmPointd_inVertex</name>
         <param>
-          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type>const <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -709,12 +693,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" line="195" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSegmPoint.h" declline="195" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRSegmPoint_8h_1a567183350dec6b300e740aeb0004852f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
         <definition>MRC_API MR_SegmPointd * MR_SegmPointd_sym</definition>
         <argsstring>(const MR_SegmPointd *_this)</argsstring>
         <name>MR_SegmPointd_sym</name>
         <param>
-          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type>const <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -732,11 +716,11 @@
         <argsstring>(const MR_SegmPointd *_this, const MR_SegmPointd *rhs)</argsstring>
         <name>MR_equal_MR_SegmPointd</name>
         <param>
-          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type>const <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type>const <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>rhs</declname>
         </param>
         <briefdescription>
@@ -754,7 +738,7 @@
         <argsstring>(const MR_SegmPointd *_this, double rhs)</argsstring>
         <name>MR_equal_MR_SegmPointd_double</name>
         <param>
-          <type>const <ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
+          <type>const <ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -790,7 +774,7 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref><sp/><ref refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kindref="member">MR_SegmPointf</ref>;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25" refid="MRSegmPoint_8h_1a0035133af66b9b6f91c2eabf9f6a4432" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1a0035133af66b9b6f91c2eabf9f6a4432" kindref="member">MR_SegmPointf_Get_eps</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
@@ -832,41 +816,41 @@
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
 <codeline lineno="120" refid="MRSegmPoint_8h_1aa9d74e9f5ae6d34ba2ad7458b81cd713" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1aa9d74e9f5ae6d34ba2ad7458b81cd713" kindref="member">MR_SegmPointd_Get_eps</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="MRSegmPoint_8h_1a3dcbad0831239fa013c6913c5ca9520c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1a3dcbad0831239fa013c6913c5ca9520c" kindref="member">MR_SegmPointd_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="127" refid="MRSegmPoint_8h_1a3dcbad0831239fa013c6913c5ca9520c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1a3dcbad0831239fa013c6913c5ca9520c" kindref="member">MR_SegmPointd_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRSegmPoint_8h_1a1280b37763fd00e2888efa33023a44a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a1280b37763fd00e2888efa33023a44a2" kindref="member">MR_SegmPointd_Set_a</ref>(<ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="133" refid="MRSegmPoint_8h_1a1280b37763fd00e2888efa33023a44a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a1280b37763fd00e2888efa33023a44a2" kindref="member">MR_SegmPointd_Set_a</ref>(<ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRSegmPoint_8h_1ada0dae5b4dbdf52c06e817a1d69cda5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1ada0dae5b4dbdf52c06e817a1d69cda5e" kindref="member">MR_SegmPointd_GetMutable_a</ref>(<ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140" refid="MRSegmPoint_8h_1ada0dae5b4dbdf52c06e817a1d69cda5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1ada0dae5b4dbdf52c06e817a1d69cda5e" kindref="member">MR_SegmPointd_GetMutable_a</ref>(<ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRSegmPoint_8h_1a4b19b957febaf9b6b14c690d21c26e28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a4b19b957febaf9b6b14c690d21c26e28" kindref="member">MR_SegmPointd_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144" refid="MRSegmPoint_8h_1a4b19b957febaf9b6b14c690d21c26e28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a4b19b957febaf9b6b14c690d21c26e28" kindref="member">MR_SegmPointd_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149" refid="MRSegmPoint_8h_1af5f8616ce378958d988a8a08a831b46e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1af5f8616ce378958d988a8a08a831b46e" kindref="member">MR_SegmPointd_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="149" refid="MRSegmPoint_8h_1af5f8616ce378958d988a8a08a831b46e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1af5f8616ce378958d988a8a08a831b46e" kindref="member">MR_SegmPointd_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="MRSegmPoint_8h_1af7b3274334bf3e56c675601b34064b27" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1af7b3274334bf3e56c675601b34064b27" kindref="member">MR_SegmPointd_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="153" refid="MRSegmPoint_8h_1af7b3274334bf3e56c675601b34064b27" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1af7b3274334bf3e56c675601b34064b27" kindref="member">MR_SegmPointd_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRSegmPoint_8h_1a8117dd3313e9469f5d69cfa02e656889" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a8117dd3313e9469f5d69cfa02e656889" kindref="member">MR_SegmPointd_OffsetMutablePtr</ref>(<ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="157" refid="MRSegmPoint_8h_1a8117dd3313e9469f5d69cfa02e656889" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a8117dd3313e9469f5d69cfa02e656889" kindref="member">MR_SegmPointd_OffsetMutablePtr</ref>(<ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163" refid="MRSegmPoint_8h_1a158ec587de854d646019446e408a9349" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a158ec587de854d646019446e408a9349" kindref="member">MR_SegmPointd_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="163" refid="MRSegmPoint_8h_1a158ec587de854d646019446e408a9349" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a158ec587de854d646019446e408a9349" kindref="member">MR_SegmPointd_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="164"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167" refid="MRSegmPoint_8h_1a0724cc5d4bdd2ed4e34e8e0e3da7d1cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a0724cc5d4bdd2ed4e34e8e0e3da7d1cd" kindref="member">MR_SegmPointd_Construct</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
+<codeline lineno="167" refid="MRSegmPoint_8h_1a0724cc5d4bdd2ed4e34e8e0e3da7d1cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a0724cc5d4bdd2ed4e34e8e0e3da7d1cd" kindref="member">MR_SegmPointd_Construct</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170" refid="MRSegmPoint_8h_1a1ac5d00c09f323453c23f00b83a761c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a1ac5d00c09f323453c23f00b83a761c1" kindref="member">MR_SegmPointd_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="170" refid="MRSegmPoint_8h_1a1ac5d00c09f323453c23f00b83a761c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a1ac5d00c09f323453c23f00b83a761c1" kindref="member">MR_SegmPointd_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173" refid="MRSegmPoint_8h_1a252a774392eb74dc5840542b3f98ab58" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a252a774392eb74dc5840542b3f98ab58" kindref="member">MR_SegmPointd_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="173" refid="MRSegmPoint_8h_1a252a774392eb74dc5840542b3f98ab58" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a252a774392eb74dc5840542b3f98ab58" kindref="member">MR_SegmPointd_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177" refid="MRSegmPoint_8h_1ae081f413ec22ff6964afbcf1f690efed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1ae081f413ec22ff6964afbcf1f690efed" kindref="member">MR_SegmPointd_ConvertTo_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="177" refid="MRSegmPoint_8h_1ae081f413ec22ff6964afbcf1f690efed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1ae081f413ec22ff6964afbcf1f690efed" kindref="member">MR_SegmPointd_ConvertTo_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRSegmPoint_8h_1a8e72d422f956ac4c0fdf0f84da397778" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1a8e72d422f956ac4c0fdf0f84da397778" kindref="member">MR_SegmPointd_ConvertTo_double_ref</ref>(<ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="182" refid="MRSegmPoint_8h_1a8e72d422f956ac4c0fdf0f84da397778" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRSegmPoint_8h_1a8e72d422f956ac4c0fdf0f84da397778" kindref="member">MR_SegmPointd_ConvertTo_double_ref</ref>(<ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190" refid="MRSegmPoint_8h_1a4489c4a71ab92d0431c905d5075b64d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a4489c4a71ab92d0431c905d5075b64d9" kindref="member">MR_SegmPointd_AssignFromAnother</ref>(<ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="190" refid="MRSegmPoint_8h_1a4489c4a71ab92d0431c905d5075b64d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a4489c4a71ab92d0431c905d5075b64d9" kindref="member">MR_SegmPointd_AssignFromAnother</ref>(<ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MRSegmPoint_8h_1a8526a3cc0b9da2e5989022e7677eda36" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a8526a3cc0b9da2e5989022e7677eda36" kindref="member">MR_SegmPointd_inVertex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="195" refid="MRSegmPoint_8h_1a8526a3cc0b9da2e5989022e7677eda36" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a8526a3cc0b9da2e5989022e7677eda36" kindref="member">MR_SegmPointd_inVertex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201" refid="MRSegmPoint_8h_1a567183350dec6b300e740aeb0004852f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a567183350dec6b300e740aeb0004852f" kindref="member">MR_SegmPointd_sym</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="201" refid="MRSegmPoint_8h_1a567183350dec6b300e740aeb0004852f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*<ref refid="MRSegmPoint_8h_1a567183350dec6b300e740aeb0004852f" kindref="member">MR_SegmPointd_sym</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207" refid="MRSegmPoint_8h_1a505b6474226dea3c41a8cc8ae9e58a48" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a505b6474226dea3c41a8cc8ae9e58a48" kindref="member">MR_equal_MR_SegmPointd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*rhs);</highlight></codeline>
+<codeline lineno="207" refid="MRSegmPoint_8h_1a505b6474226dea3c41a8cc8ae9e58a48" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1a505b6474226dea3c41a8cc8ae9e58a48" kindref="member">MR_equal_MR_SegmPointd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*rhs);</highlight></codeline>
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211" refid="MRSegmPoint_8h_1aa4d1ffbc19e3ce1b82bb5441fc1ef9ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa4d1ffbc19e3ce1b82bb5441fc1ef9ff" kindref="member">MR_equal_MR_SegmPointd_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rhs);</highlight></codeline>
+<codeline lineno="211" refid="MRSegmPoint_8h_1aa4d1ffbc19e3ce1b82bb5441fc1ef9ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSegmPoint_8h_1aa4d1ffbc19e3ce1b82bb5441fc1ef9ff" kindref="member">MR_equal_MR_SegmPointd_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kindref="member">MR_SegmPointd</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rhs);</highlight></codeline>
 <codeline lineno="212"><highlight class="normal"></highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="214"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

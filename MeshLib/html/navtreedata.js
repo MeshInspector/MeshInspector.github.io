@@ -26,6 +26,7 @@ var NAVTREE =
 [
   [ "MeshLib Documentation", "index.html", [
     [ "About", "index.html", null ],
+    [ "Live Demo", "^https://demo.meshlib.io/", null ],
     [ "Getting Started", "InstallationGuide.html", [
       [ "Python", "MeshLibPythonSetupGuide.html", null ],
       [ "C++", "MeshLibCppSetupGuide.html", null ],
@@ -35,6 +36,7 @@ var NAVTREE =
       [ "CMake", "MeshLibCmakeSetupGuide.html", null ]
     ] ],
     [ "License", "License.html", null ],
+    [ "How to cite", "Citation.html", null ],
     [ "Tutorials", "Tutorials.html", [
       [ "Create First Plugin using C++", "FirstPluginTutorial.html", null ],
       [ "Support Generator Tool using C++", "SupportGeneratorTutorial.html", null ]
@@ -85,6 +87,7 @@ var NAVTREE =
         [ "Open Dicom Files", "ExampleDicomFiles.html", null ]
       ] ]
     ] ],
+    [ "Switching from Other Libraries", "SwitchingFromOtherLibraries.html", null ],
     [ "Package Overview", "PackageOverview.html", [
       [ "File Format Support", "FileFormatSupport.html", null ],
       [ "Mesh Structure", "MeshStructureOverview.html", null ],

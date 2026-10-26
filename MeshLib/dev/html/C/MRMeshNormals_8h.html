@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -178,6 +171,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:aaf0c322fc62234e155b93ef2a1ecb09a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:aa3a2c77a648fc5784f34274775b122c7" id="r_aa3a2c77a648fc5784f34274775b122c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3a2c77a648fc5784f34274775b122c7">MR_MeshNormals_AssignFromAnother</a> (<a class="el" href="#a4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *_other)</td></tr>
 <tr class="memitem:a6c9067cbe12173d78299a2557aea7430" id="r_a6c9067cbe12173d78299a2557aea7430"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c9067cbe12173d78299a2557aea7430">MR_computePerFaceNormals</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="memitem:a748fa77ba55861ea7280b9ed445d0060" id="r_a748fa77ba55861ea7280b9ed445d0060"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a748fa77ba55861ea7280b9ed445d0060">MR_computePerFaceNormals_topology</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points)</td></tr>
 <tr class="memitem:aee1a1bc1cde42b082f1c91cfb2717c60" id="r_aee1a1bc1cde42b082f1c91cfb2717c60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee1a1bc1cde42b082f1c91cfb2717c60">MR_computePerFaceNormals4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__Vector4f.html">MR_Vector4f</a> *faceNormals, size_t size)</td></tr>
 <tr class="memitem:a71523707783284d3297474c6a4fd0fca" id="r_a71523707783284d3297474c6a4fd0fca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71523707783284d3297474c6a4fd0fca">MR_computePerVertNormals</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
 <tr class="memitem:aa49099f8f2dd0b9fbc747416c00964a8" id="r_aa49099f8f2dd0b9fbc747416c00964a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa49099f8f2dd0b9fbc747416c00964a8">MR_computePerVertPseudoNormals</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
@@ -343,6 +337,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>fills buffer with face-normals as Vector4f for valid mesh faces Generated from function <span class="tt">MR::computePerFaceNormals4</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a748fa77ba55861ea7280b9ed445d0060" name="a748fa77ba55861ea7280b9ed445d0060"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a748fa77ba55861ea7280b9ed445d0060">&#9670;&#160;</a></span>MR_computePerFaceNormals_topology()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> * MR_computePerFaceNormals_topology </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <span class="tt">MR::computePerFaceNormals</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRVector_8h.html#a6a76c31175a534328cf55b087f67bcb0" title="Destroys a heap-allocated instance of MR_FaceNormals. Does nothing if the pointer is null.">MR_FaceNormals_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>

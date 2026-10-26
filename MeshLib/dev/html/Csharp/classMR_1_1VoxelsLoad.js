@@ -3,12 +3,12 @@ var classMR_1_1VoxelsLoad =
     [ "Const_DicomStatus", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus.html", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus" ],
     [ "Const_DicomVolume", "classMR_1_1VoxelsLoad_1_1Const__DicomVolume.html", "classMR_1_1VoxelsLoad_1_1Const__DicomVolume" ],
     [ "Const_DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html", "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb" ],
-    [ "Const_LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings" ],
+    [ "Const_RasterFolderLoadSettings", "classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html", "classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings" ],
     [ "Const_RawParameters", "classMR_1_1VoxelsLoad_1_1Const__RawParameters.html", "classMR_1_1VoxelsLoad_1_1Const__RawParameters" ],
     [ "DicomStatus", "classMR_1_1VoxelsLoad_1_1DicomStatus.html", "classMR_1_1VoxelsLoad_1_1DicomStatus" ],
     [ "DicomVolume", "classMR_1_1VoxelsLoad_1_1DicomVolume.html", "classMR_1_1VoxelsLoad_1_1DicomVolume" ],
     [ "DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html", "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" ],
-    [ "LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings" ],
+    [ "RasterFolderLoadSettings", "classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html", "classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" ],
     [ "RawParameters", "classMR_1_1VoxelsLoad_1_1RawParameters.html", "classMR_1_1VoxelsLoad_1_1RawParameters" ],
     [ "DicomStatusEnum", "classMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6", [
       [ "Ok", "classMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115", null ],
@@ -44,6 +44,6 @@ var classMR_1_1VoxelsLoad =
     [ "loadDicomsFolder", "classMR_1_1VoxelsLoad.html#a46c8ae672debd2f25110b977e9827fb9", null ],
     [ "loadDicomsFolderAsVdb", "classMR_1_1VoxelsLoad.html#af8b9fa119e7a6919991c737d90420682", null ],
     [ "loadDicomsFolderTreeAsVdb", "classMR_1_1VoxelsLoad.html#add8b39606d69883317cade51f7564e1f", null ],
-    [ "loadTiffDir", "classMR_1_1VoxelsLoad.html#a80cc54725388b6ee3b52d0e132206b26", null ],
+    [ "loadRasterFolder", "classMR_1_1VoxelsLoad.html#a98ab986403555cd6c2df64984e8897bb", null ],
     [ "makeObjectVoxelsFromDicomFolder", "classMR_1_1VoxelsLoad.html#ab4f11881b595dab444e3381abe457dc4", null ]
 ];

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -171,9 +164,9 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga1affac088ee75a400bd6599f10259644" id="r_ga1affac088ee75a400bd6599f10259644"><td class="memItemLeft" align="right" valign="top">std::optional&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1affac088ee75a400bd6599f10259644">MR::verticesGridSampling</a> (const MeshPart &amp;mp, float voxelSize, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memitem:ga8fd557ec370469d7e49dda43061bb485" id="r_ga8fd557ec370469d7e49dda43061bb485"><td class="memItemLeft" align="right" valign="top">std::optional&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8fd557ec370469d7e49dda43061bb485">MR::pointGridSampling</a> (const <a class="el" href="structMR_1_1PointCloudPart.html">PointCloudPart</a> &amp;pcp, float voxelSize, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
-<tr class="memitem:gae26b8f62dca51a80c9ba270f309ca6d8" id="r_gae26b8f62dca51a80c9ba270f309ca6d8"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="group__GeneralGroup.html#gaad6ac9cd0268793575ae31767169ad0e">MultiObjsSamples</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae26b8f62dca51a80c9ba270f309ca6d8">MR::multiModelGridSampling</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1ModelPointsData.html">ModelPointsData</a>, ObjId &gt; &amp;models, float voxelSize, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memitem:ga1affac088ee75a400bd6599f10259644" id="r_ga1affac088ee75a400bd6599f10259644"><td class="memItemLeft" align="right" valign="top">std::optional&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1affac088ee75a400bd6599f10259644">MR::verticesGridSampling</a> (const MeshPart &amp;mp, float voxelSize, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
+<tr class="memitem:ga8fd557ec370469d7e49dda43061bb485" id="r_ga8fd557ec370469d7e49dda43061bb485"><td class="memItemLeft" align="right" valign="top">std::optional&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8fd557ec370469d7e49dda43061bb485">MR::pointGridSampling</a> (const <a class="el" href="structMR_1_1PointCloudPart.html">PointCloudPart</a> &amp;pcp, float voxelSize, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
+<tr class="memitem:gae26b8f62dca51a80c9ba270f309ca6d8" id="r_gae26b8f62dca51a80c9ba270f309ca6d8"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="group__GeneralGroup.html#gaad6ac9cd0268793575ae31767169ad0e">MultiObjsSamples</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae26b8f62dca51a80c9ba270f309ca6d8">MR::multiModelGridSampling</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1ModelPointsData.html">ModelPointsData</a>, ObjId &gt; &amp;models, float voxelSize, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

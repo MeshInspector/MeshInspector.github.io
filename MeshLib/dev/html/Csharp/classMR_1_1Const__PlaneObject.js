@@ -8,6 +8,7 @@ var classMR_1_1Const__PlaneObject =
     [ "classNameInPlural", "classMR_1_1Const__PlaneObject.html#a76e60cddd03fcd71751c48f793887166", null ],
     [ "clone", "classMR_1_1Const__PlaneObject.html#a7648be889b45cdf92592ddfa9c950e96", null ],
     [ "cloneTree", "classMR_1_1Const__PlaneObject.html#a7d2ff18f44fb413974908aa4879480e8", null ],
+    [ "constChildren", "classMR_1_1Const__PlaneObject.html#af5cab49edde117d60bcbd8ded4dbf047", null ],
     [ "Dispose", "classMR_1_1Const__PlaneObject.html#a7e0b83e370ccc532bc4016d58dbe3dd7", null ],
     [ "Dispose", "classMR_1_1Const__PlaneObject.html#aa30402ff712bdcca3d8b5ee1edbb7f4d", null ],
     [ "getAllSharedProperties", "classMR_1_1Const__PlaneObject.html#aba5837498954b8ce3c33c7da2e4f4447", null ],

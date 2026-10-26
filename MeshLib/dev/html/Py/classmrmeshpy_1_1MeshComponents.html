@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Python Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -147,9 +140,11 @@ $(function(){initNavTree('classmrmeshpy_1_1MeshComponents.html','','classmrmeshp
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:ComponentsFaces" id="r_ComponentsFaces"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html">ComponentsFaces</a></td></tr>
 <tr class="memitem:ExpandToComponentsParams" id="r_ExpandToComponentsParams"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1ExpandToComponentsParams.html">ExpandToComponentsParams</a></td></tr>
 <tr class="memitem:FaceIncidence" id="r_FaceIncidence"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">FaceIncidence</a></td></tr>
 <tr class="memitem:LargeByAreaComponentsSettings" id="r_LargeByAreaComponentsSettings"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html">LargeByAreaComponentsSettings</a></td></tr>
+<tr class="memitem:VolumeSelection" id="r_VolumeSelection"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html">VolumeSelection</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -159,11 +154,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a82b49b3a65fca69c50a0d92cdc3bc14d" id="r_a82b49b3a65fca69c50a0d92cdc3bc14d"><td class="memItemLeft" align="right" valign="top">tuple[<a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html">std_vector_TypedBitSet_Id_FaceTag</a>, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82b49b3a65fca69c50a0d92cdc3bc14d">getAllComponents</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, int maxComponentCount, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}')</td></tr>
 <tr class="memitem:afd1ecfdf218c60f79a0c96d9b096c41b" id="r_afd1ecfdf218c60f79a0c96d9b096c41b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html">std_vector_TypedBitSet_Id_FaceTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd1ecfdf218c60f79a0c96d9b096c41b">getAllComponents</a> (<a class="el" href="classmrmeshpy_1_1Face2RegionMap.html">Face2RegionMap</a> componentsMap, int componentsCount, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region, int maxComponentCount)</td></tr>
 <tr class="memitem:a1bb822da4a63e20538486113a5a4f557" id="r_a1bb822da4a63e20538486113a5a4f557"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag.html">std_vector_TypedBitSet_Id_EdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bb822da4a63e20538486113a5a4f557">getAllComponentsEdges</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> edges)</td></tr>
+<tr class="memitem:a2e46b54bd66024908500a79f80671439" id="r_a2e46b54bd66024908500a79f80671439"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html">MeshComponents.ComponentsFaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e46b54bd66024908500a79f80671439">getAllComponentsFaces</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}')</td></tr>
+<tr class="memitem:a3d3bb261ba59465c7003cfd175dc17dd" id="r_a3d3bb261ba59465c7003cfd175dc17dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html">MeshComponents.ComponentsFaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d3bb261ba59465c7003cfd175dc17dd">getAllComponentsFaces</a> (<a class="el" href="classmrmeshpy_1_1Face2RegionMap.html">Face2RegionMap</a> componentsMap, int componentsCount, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region)</td></tr>
 <tr class="memitem:a2fefa3287af9ba22e88d92c400897f9e" id="r_a2fefa3287af9ba22e88d92c400897f9e"><td class="memItemLeft" align="right" valign="top">tuple[<a class="el" href="classmrmeshpy_1_1Face2RegionMap.html">Face2RegionMap</a>, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fefa3287af9ba22e88d92c400897f9e">getAllComponentsMap</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}')</td></tr>
+<tr class="memitem:ad0adaeee3254ed9191852bb0c49bf095" id="r_ad0adaeee3254ed9191852bb0c49bf095"><td class="memItemLeft" align="right" valign="top">tuple[<a class="el" href="classmrmeshpy_1_1Face2RegionMap.html">Face2RegionMap</a>, int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0adaeee3254ed9191852bb0c49bf095">getAllComponentsMapBySharpEdges</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, float angleThreshold=0.5)</td></tr>
 <tr class="memitem:ae55975d6d99d183f77ae1db5eeadba7c" id="r_ae55975d6d99d183f77ae1db5eeadba7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html">std_vector_TypedBitSet_Id_UndirectedEdgeTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae55975d6d99d183f77ae1db5eeadba7c">getAllComponentsUndirectedEdges</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> edges)</td></tr>
 <tr class="memitem:abf2def00e15a00d09e4c19035c625994" id="r_abf2def00e15a00d09e4c19035c625994"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__VertTag.html">std_vector_TypedBitSet_Id_VertTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf2def00e15a00d09e4c19035c625994">getAllComponentsVerts</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
-<tr class="memitem:aeb81e1bb8df77560eb30669095b33920" id="r_aeb81e1bb8df77560eb30669095b33920"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__VertTag.html">std_vector_TypedBitSet_Id_VertTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb81e1bb8df77560eb30669095b33920">getAllComponentsVertsSeparatedByPath</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__EdgePoint.html">std_vector_EdgePoint</a> path)</td></tr>
-<tr class="memitem:a7f766f18a502294c426cd024cf4d8874" id="r_a7f766f18a502294c426cd024cf4d8874"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__VertTag.html">std_vector_TypedBitSet_Id_VertTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f766f18a502294c426cd024cf4d8874">getAllComponentsVertsSeparatedByPaths</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html">std_vector_std_vector_EdgePoint</a> paths)</td></tr>
+<tr class="memitem:af0ee0cfc228e86cce6e8470e1c1083d3" id="r_af0ee0cfc228e86cce6e8470e1c1083d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__VertTag.html">std_vector_TypedBitSet_Id_VertTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0ee0cfc228e86cce6e8470e1c1083d3">getAllComponentsVertsSeparatedByPath</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__EdgePointT__float.html">std_vector_EdgePointT_float</a> path)</td></tr>
+<tr class="memitem:ab27833542ac1a95ab8002bd20dc6fe05" id="r_ab27833542ac1a95ab8002bd20dc6fe05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__VertTag.html">std_vector_TypedBitSet_Id_VertTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab27833542ac1a95ab8002bd20dc6fe05">getAllComponentsVertsSeparatedByPaths</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float.html">std_vector_std_vector_EdgePointT_float</a> paths)</td></tr>
 <tr class="memitem:a07a32a897c522986c4fed761bd098a03" id="r_a07a32a897c522986c4fed761bd098a03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07a32a897c522986c4fed761bd098a03">getComponent</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> id, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}')</td></tr>
 <tr class="memitem:a9f92c8d2803c16a2234299ac17b5d0d2" id="r_a9f92c8d2803c16a2234299ac17b5d0d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f92c8d2803c16a2234299ac17b5d0d2">getComponentVerts</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> id, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
 <tr class="memitem:a1bf9dac785bd3f2c7d2053118fed2caa" id="r_a1bf9dac785bd3f2c7d2053118fed2caa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bf9dac785bd3f2c7d2053118fed2caa">getComponents</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> seeds, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}')</td></tr>
@@ -178,7 +176,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5977b30ddbec75882881bd8937ff12b6" id="r_a5977b30ddbec75882881bd8937ff12b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5977b30ddbec75882881bd8937ff12b6">getLargeByVolumeComponents</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, float minVolume)</td></tr>
 <tr class="memitem:ac7ffd662f7eb22891f6f339f803f252f" id="r_ac7ffd662f7eb22891f6f339f803f252f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ffd662f7eb22891f6f339f803f252f">getLargeComponentVerts</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, int minVerts, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
 <tr class="memitem:a312252413bdf92ea7b1d6b0f6fb104c0" id="r_a312252413bdf92ea7b1d6b0f6fb104c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a312252413bdf92ea7b1d6b0f6fb104c0">getLargestComponent</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}', float minArea=0, <a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> numSmallerComponents=None)</td></tr>
+<tr class="memitem:aa8428dac153de9f0794e40dca5dca8aa" id="r_aa8428dac153de9f0794e40dca5dca8aa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8428dac153de9f0794e40dca5dca8aa">getLargestComponentArea</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}', <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> largestComponent=None, <a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> numSmallerComponents=None)</td></tr>
 <tr class="memitem:ae99515c16a921b43d356fde6b522cc9f" id="r_ae99515c16a921b43d356fde6b522cc9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae99515c16a921b43d356fde6b522cc9f">getLargestComponentVerts</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
+<tr class="memitem:a9a2a8f7e5dff776ab74e821bb555f6a4" id="r_a9a2a8f7e5dff776ab74e821bb555f6a4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a2a8f7e5dff776ab74e821bb555f6a4">getLargestComponentVolume</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html">MeshComponents.VolumeSelection</a> selection='MR::MeshComponents::VolumeSelection::Abs', <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}', <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> largestComponent=None, <a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> numSmallerComponents=None)</td></tr>
 <tr class="memitem:ae75b75d30fb7da3bee120b416ea16c52" id="r_ae75b75d30fb7da3bee120b416ea16c52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html">std_vector_TypedBitSet_Id_FaceTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae75b75d30fb7da3bee120b416ea16c52">getNLargeByAreaComponents</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html">MeshComponents.LargeByAreaComponentsSettings</a> settings)</td></tr>
 <tr class="memitem:af5c85c21788f441f1927f2239fe71523" id="r_af5c85c21788f441f1927f2239fe71523"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5c85c21788f441f1927f2239fe71523">getNumComponents</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> incidence='MR::MeshComponents::PerEdge', <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> isCompBd='{}')</td></tr>
 <tr class="memitem:a1dd8f28350adc3aea6e522c56080bda2" id="r_a1dd8f28350adc3aea6e522c56080bda2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector__double__RegionId.html">Vector_double_RegionId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dd8f28350adc3aea6e522c56080bda2">getRegionAreas</a> (<a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a> meshPart, <a class="el" href="classmrmeshpy_1_1Face2RegionMap.html">Face2RegionMap</a> regionMap, int numRegions)</td></tr>
@@ -192,10 +192,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa6a97d11d80dd53dae9bbc11638b1acd" id="r_aa6a97d11d80dd53dae9bbc11638b1acd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UnionFind__VertId.html">UnionFind_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6a97d11d80dd53dae9bbc11638b1acd">getUnionFindStructureVerts</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html">EdgeBitSet</a> edges)</td></tr>
 <tr class="memitem:a13c3d0574b8e6fef528700fc169df071" id="r_a13c3d0574b8e6fef528700fc169df071"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UnionFind__VertId.html">UnionFind_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13c3d0574b8e6fef528700fc169df071">getUnionFindStructureVerts</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> edges)</td></tr>
 <tr class="memitem:a78f0cb19a56353b7c77d0cf4ba5cd952" id="r_a78f0cb19a56353b7c77d0cf4ba5cd952"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UnionFind__VertId.html">UnionFind_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78f0cb19a56353b7c77d0cf4ba5cd952">getUnionFindStructureVertsEx</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> ignoreEdges)</td></tr>
-<tr class="memitem:a160673de7369769db9c212722aa6ed0f" id="r_a160673de7369769db9c212722aa6ed0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UnionFind__VertId.html">UnionFind_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a160673de7369769db9c212722aa6ed0f">getUnionFindStructureVertsSeparatedByPath</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__EdgePoint.html">std_vector_EdgePoint</a> path, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> outPathVerts=None)</td></tr>
-<tr class="memitem:aad92358b1133cef73925d1cca000522b" id="r_aad92358b1133cef73925d1cca000522b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UnionFind__VertId.html">UnionFind_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad92358b1133cef73925d1cca000522b">getUnionFindStructureVertsSeparatedByPaths</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html">std_vector_std_vector_EdgePoint</a> paths, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> outPathVerts=None)</td></tr>
-<tr class="memitem:a15200f2e7236a7ee1c27236ee39bc205" id="r_a15200f2e7236a7ee1c27236ee39bc205"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15200f2e7236a7ee1c27236ee39bc205">hasFullySelectedComponent</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> selection)</td></tr>
+<tr class="memitem:ae5747d46f59f0a4692d983e04a6f71b0" id="r_ae5747d46f59f0a4692d983e04a6f71b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UnionFind__VertId.html">UnionFind_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5747d46f59f0a4692d983e04a6f71b0">getUnionFindStructureVertsSeparatedByPath</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__EdgePointT__float.html">std_vector_EdgePointT_float</a> path, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> outPathVerts=None)</td></tr>
+<tr class="memitem:aadebf2607d729ca2b5567d0d043a2084" id="r_aadebf2607d729ca2b5567d0d043a2084"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UnionFind__VertId.html">UnionFind_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadebf2607d729ca2b5567d0d043a2084">getUnionFindStructureVertsSeparatedByPaths</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float.html">std_vector_std_vector_EdgePointT_float</a> paths, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> outPathVerts=None)</td></tr>
 <tr class="memitem:ae54a0cf542b013633cb6096bc42ac1dc" id="r_ae54a0cf542b013633cb6096bc42ac1dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae54a0cf542b013633cb6096bc42ac1dc">hasFullySelectedComponent</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> selection)</td></tr>
+<tr class="memitem:a15200f2e7236a7ee1c27236ee39bc205" id="r_a15200f2e7236a7ee1c27236ee39bc205"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15200f2e7236a7ee1c27236ee39bc205">hasFullySelectedComponent</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> selection)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">This is a namespace.
@@ -417,6 +417,77 @@ Static Public Member Functions</h2></td></tr>
 </pre> 
 </div>
 </div>
+<a id="a3d3bb261ba59465c7003cfd175dc17dd" name="a3d3bb261ba59465c7003cfd175dc17dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d3bb261ba59465c7003cfd175dc17dd">&#9670;&#160;</a></span>getAllComponentsFaces() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html">MeshComponents.ComponentsFaces</a> mrmeshpy.MeshComponents.getAllComponentsFaces </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Face2RegionMap.html">Face2RegionMap</a></td>          <td class="paramname"><span class="paramname"><em>componentsMap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>componentsCount</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">gets all connected components from components map ( FaceId =&gt; RegionId in [0, componentsCount) ) for the faces of given region
+</pre> 
+</div>
+</div>
+<a id="a2e46b54bd66024908500a79f80671439" name="a2e46b54bd66024908500a79f80671439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e46b54bd66024908500a79f80671439">&#9670;&#160;</a></span>getAllComponentsFaces() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html">MeshComponents.ComponentsFaces</a> mrmeshpy.MeshComponents.getAllComponentsFaces </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> </td>          <td class="paramname"><span class="paramname"><em>incidence</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::MeshComponents::PerEdge'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">gets all connected components of mesh part as a list of faces per component;
+unlike getAllComponents, the memory is proportional to the number of faces in the part and not to the number of components
+</pre> 
+</div>
+</div>
 <a id="a2fefa3287af9ba22e88d92c400897f9e" name="a2fefa3287af9ba22e88d92c400897f9e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2fefa3287af9ba22e88d92c400897f9e">&#9670;&#160;</a></span>getAllComponentsMap()</h2>
 
@@ -451,6 +522,39 @@ Static Public Member Functions</h2></td></tr>
 <pre class="fragment">gets all connected components of mesh part as
 1. the mapping: FaceId -&gt; Component ID in [0, 1, 2, ...)
 2. the total number of components
+</pre> 
+</div>
+</div>
+<a id="ad0adaeee3254ed9191852bb0c49bf095" name="ad0adaeee3254ed9191852bb0c49bf095"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0adaeee3254ed9191852bb0c49bf095">&#9670;&#160;</a></span>getAllComponentsMapBySharpEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> tuple[<a class="el" href="classmrmeshpy_1_1Face2RegionMap.html">Face2RegionMap</a>, int] mrmeshpy.MeshComponents.getAllComponentsMapBySharpEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float </td>          <td class="paramname"><span class="paramname"><em>angleThreshold</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0.5</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">gets all components of mesh part separated by sharp edges with dihedral angle in [angleThreshold, PI-angleThreshold]
+(see findSharpEdges); nearly planar and nearly folded edges do not separate components, so overlapping coplanar triangles stay together
+\\param angleThreshold in (0, PI/2)
+\\return the mapping FaceId -&gt; component id (meaningful only for the faces of mesh part) and the number of components
 </pre> 
 </div>
 </div>
@@ -514,8 +618,8 @@ Static Public Member Functions</h2></td></tr>
 </pre> 
 </div>
 </div>
-<a id="aeb81e1bb8df77560eb30669095b33920" name="aeb81e1bb8df77560eb30669095b33920"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb81e1bb8df77560eb30669095b33920">&#9670;&#160;</a></span>getAllComponentsVertsSeparatedByPath()</h2>
+<a id="af0ee0cfc228e86cce6e8470e1c1083d3" name="af0ee0cfc228e86cce6e8470e1c1083d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0ee0cfc228e86cce6e8470e1c1083d3">&#9670;&#160;</a></span>getAllComponentsVertsSeparatedByPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -531,7 +635,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__EdgePoint.html">std_vector_EdgePoint</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__EdgePointT__float.html">std_vector_EdgePointT_float</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -544,8 +648,8 @@ Static Public Member Functions</h2></td></tr>
 </pre> 
 </div>
 </div>
-<a id="a7f766f18a502294c426cd024cf4d8874" name="a7f766f18a502294c426cd024cf4d8874"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f766f18a502294c426cd024cf4d8874">&#9670;&#160;</a></span>getAllComponentsVertsSeparatedByPaths()</h2>
+<a id="ab27833542ac1a95ab8002bd20dc6fe05" name="ab27833542ac1a95ab8002bd20dc6fe05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab27833542ac1a95ab8002bd20dc6fe05">&#9670;&#160;</a></span>getAllComponentsVertsSeparatedByPaths()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -561,7 +665,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html">std_vector_std_vector_EdgePoint</a></td>          <td class="paramname"><span class="paramname"><em>paths</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float.html">std_vector_std_vector_EdgePointT_float</a></td>          <td class="paramname"><span class="paramname"><em>paths</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1111,6 +1215,51 @@ note that function require closed mesh part
 </pre> 
 </div>
 </div>
+<a id="aa8428dac153de9f0794e40dca5dca8aa" name="aa8428dac153de9f0794e40dca5dca8aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8428dac153de9f0794e40dca5dca8aa">&#9670;&#160;</a></span>getLargestComponentArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float mrmeshpy.MeshComponents.getLargestComponentArea </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> </td>          <td class="paramname"><span class="paramname"><em>incidence</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::MeshComponents::PerEdge'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>largestComponent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> </td>          <td class="paramname"><span class="paramname"><em>numSmallerComponents</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">returns the area of the largest by surface area component, and zero if there are no components at all
+</pre> 
+</div>
+</div>
 <a id="ae99515c16a921b43d356fde6b522cc9f" name="ae99515c16a921b43d356fde6b522cc9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae99515c16a921b43d356fde6b522cc9f">&#9670;&#160;</a></span>getLargestComponentVerts()</h2>
 
@@ -1138,6 +1287,59 @@ note that function require closed mesh part
 </table>
 </div><div class="memdoc">
 <pre class="fragment">returns the largest by number of elements component
+</pre> 
+</div>
+</div>
+<a id="a9a2a8f7e5dff776ab74e821bb555f6a4" name="a9a2a8f7e5dff776ab74e821bb555f6a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a2a8f7e5dff776ab74e821bb555f6a4">&#9670;&#160;</a></span>getLargestComponentVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float mrmeshpy.MeshComponents.getLargestComponentVolume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshPart.html">MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html">MeshComponents.VolumeSelection</a> </td>          <td class="paramname"><span class="paramname"><em>selection</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::MeshComponents::VolumeSelection::Abs'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence.html">MeshComponents.FaceIncidence</a> </td>          <td class="paramname"><span class="paramname"><em>incidence</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::MeshComponents::PerEdge'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>largestComponent</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1int__output.html">int_output</a> </td>          <td class="paramname"><span class="paramname"><em>numSmallerComponents</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">returns the signed volume of the component selected by given rule, and zero if no component satisfies it,
+which is possible for Positive and Negative rules only, since they never select a component of zero volume;
+the volume of each component is computed as if it were closed, so the result is correct
+only for a closed mesh part (or if the area of holes in it is almost zero)
 </pre> 
 </div>
 </div>
@@ -1560,8 +1762,8 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
 </pre> 
 </div>
 </div>
-<a id="a160673de7369769db9c212722aa6ed0f" name="a160673de7369769db9c212722aa6ed0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a160673de7369769db9c212722aa6ed0f">&#9670;&#160;</a></span>getUnionFindStructureVertsSeparatedByPath()</h2>
+<a id="ae5747d46f59f0a4692d983e04a6f71b0" name="ae5747d46f59f0a4692d983e04a6f71b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5747d46f59f0a4692d983e04a6f71b0">&#9670;&#160;</a></span>getUnionFindStructureVertsSeparatedByPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1577,7 +1779,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__EdgePoint.html">std_vector_EdgePoint</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__EdgePointT__float.html">std_vector_EdgePointT_float</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1596,8 +1798,8 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
 </pre> 
 </div>
 </div>
-<a id="aad92358b1133cef73925d1cca000522b" name="aad92358b1133cef73925d1cca000522b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad92358b1133cef73925d1cca000522b">&#9670;&#160;</a></span>getUnionFindStructureVertsSeparatedByPaths()</h2>
+<a id="aadebf2607d729ca2b5567d0d043a2084" name="aadebf2607d729ca2b5567d0d043a2084"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadebf2607d729ca2b5567d0d043a2084">&#9670;&#160;</a></span>getUnionFindStructureVertsSeparatedByPaths()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1613,7 +1815,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__std__vector__EdgePoint.html">std_vector_std_vector_EdgePoint</a></td>          <td class="paramname"><span class="paramname"><em>paths</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float.html">std_vector_std_vector_EdgePointT_float</a></td>          <td class="paramname"><span class="paramname"><em>paths</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

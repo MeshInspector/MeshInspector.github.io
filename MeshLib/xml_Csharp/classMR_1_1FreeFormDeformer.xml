@@ -149,7 +149,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1FreeFormDeformer_1ab94c93dceb8cea4bef1b9c13416aea40" kindref="member">MR.FreeFormDeformer.init</ref></computeroutput>. Parameter <computeroutput>resolution</computeroutput> defaults to <computeroutput>Vector3i::diagonal(2)</computeroutput>. Parameter <computeroutput>initialBox</computeroutput> defaults to <computeroutput><ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f()</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FreeFormDeformer_1ab94c93dceb8cea4bef1b9c13416aea40" kindref="member">MR.FreeFormDeformer.init</ref></computeroutput>. Parameter <computeroutput>resolution</computeroutput> defaults to <computeroutput>MR::Vector3&amp;lt;int&amp;gt;::diagonal(2)</computeroutput>. Parameter <computeroutput>initialBox</computeroutput> defaults to <computeroutput><ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

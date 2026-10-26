@@ -171,6 +171,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="157" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="157" bodyend="157"/>
       </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1a4abd4eb639467875b2e37ff09a3f25f8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SaveSettings.telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>MR.Const_SaveSettings.telemetrySignal</qualifiedname>
+        <briefdescription>
+<para>permit telemetry signal about saving </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="162" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="162" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1a3e406f35dd33e3685c97a3d6632f1ea6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
         <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_SaveSettings.progress</definition>
@@ -184,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="162" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="162" bodyend="162"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="168" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="168" bodyend="168"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -300,6 +315,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="147" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="147" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SaveSettings_1a458fce427655aae877f6b36340810a6b" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_SaveSettings.__ref_storage_telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_telemetrySignal</name>
+        <qualifiedname>MR.Const_SaveSettings.__ref_storage_telemetrySignal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="163" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
       <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1a94d410b5a61ad03e5d0def3476959de7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -349,12 +378,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="259" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="259" bodyend="265"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="271" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="271" bodyend="277"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1ac60faf9d62f23bd6f3198d9c609a9a77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1ac8feb660e0942efa5d66f5368b2ad63c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_SaveSettings.Const_SaveSettings</definition>
-        <argsstring>(bool onlyValidPoints, bool packPrimitives, MR.Const_VertColors? colors, MR.Std.Const_Vector_MRColor? primitiveColors, MR.Const_VertCoords2? uvMap, bool saveTriCornerUVCoords, MR.Const_MeshTexture? texture, string materialName, MR.AffineXf3d? xf, MR.LengthUnit? lengthUnit, MR._InOpt_Color solidColor, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
+        <argsstring>(bool onlyValidPoints, bool packPrimitives, MR.Const_VertColors? colors, MR.Std.Const_Vector_MRColor? primitiveColors, MR.Const_VertCoords2? uvMap, bool saveTriCornerUVCoords, MR.Const_MeshTexture? texture, string materialName, MR.AffineXf3d? xf, MR.LengthUnit? lengthUnit, MR._InOpt_Color solidColor, bool telemetrySignal, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>Const_SaveSettings</name>
         <qualifiedname>MR.Const_SaveSettings.Const_SaveSettings</qualifiedname>
         <param>
@@ -402,6 +431,10 @@
           <declname>solidColor</declname>
         </param>
         <param>
+          <type>bool</type>
+          <declname>telemetrySignal</declname>
+        </param>
+        <param>
           <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
@@ -412,7 +445,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="270" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="270" bodyend="287"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="282" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="282" bodyend="299"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1a4f2b9f60633d28351cade5aa4ebc96c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -431,7 +464,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="292" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="292" bodyend="299"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="304" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="304" bodyend="311"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1a506f91750aff9650135b9b0c05d8e27f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -450,7 +483,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="304" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="304" bodyend="304"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="316" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="316" bodyend="316"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1aafa05cfac60283d1f9d7aab90303711b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -469,7 +502,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="309" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="309" bodyend="309"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="321" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="321" bodyend="321"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -509,7 +542,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="248" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="248" bodyend="253"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="260" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="260" bodyend="265"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -566,7 +599,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="12" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="13" bodyend="310"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="12" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="13" bodyend="322"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__SaveSettings_1a5c1c9ea016c1fb2805d45b0d58b9c58d" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ptr_storage_colors</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1a3f974a1c41528d04c5507b8fb2645f0e" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ptr_storage_primitiveColors</name></member>
@@ -576,10 +609,11 @@
       <member refid="classMR_1_1Const__SaveSettings_1a261715a00d47eda8ffb143a16c9576f1" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ref_storage_onlyValidPoints</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1ac6458550b586645841d71c61ebe3bd0a" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ref_storage_packPrimitives</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1ac84bcefa0757fda0fdd96544a4a22348" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ref_storage_saveTriCornerUVCoords</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a458fce427655aae877f6b36340810a6b" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ref_storage_telemetrySignal</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1aa4b2aa75e07d76efa560bb1d5d203cb9" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>colors</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1a9a878266da9fba3dd0b906038a2b74f5" prot="package" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>Const_SaveSettings</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1a74b9ca0113d8bede40794a2276790596" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>Const_SaveSettings</name></member>
-      <member refid="classMR_1_1Const__SaveSettings_1ac60faf9d62f23bd6f3198d9c609a9a77" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1ac8feb660e0942efa5d66f5368b2ad63c" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>Const_SaveSettings</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1a4f2b9f60633d28351cade5aa4ebc96c2" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>Const_SaveSettings</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1a506f91750aff9650135b9b0c05d8e27f" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>Const_SaveSettings</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1aafa05cfac60283d1f9d7aab90303711b" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>Const_SaveSettings</name></member>
@@ -593,6 +627,7 @@
       <member refid="classMR_1_1Const__SaveSettings_1a3e406f35dd33e3685c97a3d6632f1ea6" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>progress</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1afb6b51d9ab949fd20bdb0d4a7694fca9" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>saveTriCornerUVCoords</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1a81207c6d4125a748e1d92b0f1e2ad7b7" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>solidColor</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a4abd4eb639467875b2e37ff09a3f25f8" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>telemetrySignal</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1a1868b10519878c3215c93ccb0e0e4b0b" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>texture</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1a3267b87bd37a01c0e09160e8385ee040" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>uvMap</name></member>
       <member refid="classMR_1_1Const__SaveSettings_1aee56c53cf4f101b9e1871da4bedbfb5d" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>xf</name></member>

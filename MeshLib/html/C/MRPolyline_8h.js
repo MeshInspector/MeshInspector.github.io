@@ -1,5 +1,6 @@
 var MRPolyline_8h =
 [
+    [ "MR_std_vector_std_vector_MR_VertId", "MRPolyline_8h.html#abdbe8ace605f6572986fd0d93bdced2a", null ],
     [ "MR_Polyline2_addFromEdgePath", "MRPolyline_8h.html#af7b20b1160789aee52028169ca416165", null ],
     [ "MR_Polyline2_addFromGeneralSurfacePath", "MRPolyline_8h.html#a0bca2a577112e97780f13fafbae43a44", null ],
     [ "MR_Polyline2_addFromPoints_2", "MRPolyline_8h.html#ab81eb826f72d206002615fa89f9b2d1e", null ],

@@ -512,7 +512,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">starts default viewer with given params and setup
+<pre class="fragment">Starts default viewer with given params and setup, and returns once it is up and can accept calls.
+Raises RuntimeError if the viewer could not start - with no display available, for instance - or if it was already launched once in this process.
+Always raises on macOS, where the viewer is not supported yet.
 </pre> 
 </div>
 </div>

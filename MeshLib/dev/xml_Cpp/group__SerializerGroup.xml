@@ -4,6 +4,23 @@
     <compoundname>SerializerGroup</compoundname>
     <title>Serializer</title>
     <innerclass refid="structMR_1_1CompressZipSettings" prot="public">MR::CompressZipSettings</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__SerializerGroup_1ga2b394d3aa0c69081d4bcb11804d390c0" prot="public" static="no">
+        <type>std::function&lt; Expected&lt; void &gt;(const std::string &amp;path, std::vector&lt; char &gt; &amp;&amp;data)&gt;</type>
+        <definition>using MR::ZipFileCallback =  std::function&lt;Expected&lt;void&gt;( const std::string&amp; path, std::vector&lt;char&gt;&amp;&amp; data )&gt;</definition>
+        <argsstring></argsstring>
+        <name>ZipFileCallback</name>
+        <qualifiedname>MR::ZipFileCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>receives the path of a file inside the archive (with &apos;/&apos; separators) and its decompressed content; returned error stops the decompression and is passed to the caller </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRZip.h" line="33" column="1" bodyfile="MRMesh/MRZip.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__SerializerGroup_1ga1edcbab8181af7aca7d614a91965677c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::string &gt;</type>
@@ -639,6 +656,37 @@
         </inbodydescription>
         <location file="MRMesh/MRSerializer.h" line="62" column="7" declfile="MRMesh/MRSerializer.h" declline="62" declcolumn="7"/>
       </memberdef>
+      <memberdef kind="function" id="group__SerializerGroup_1ga67ea1bcc7dd4c8f81dea2de988020614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename I</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MR::serializeToJson</definition>
+        <argsstring>(const Vector&lt; T, I &gt; &amp;vec, Json::Value &amp;root)</argsstring>
+        <name>serializeToJson</name>
+        <qualifiedname>MR::serializeToJson</qualifiedname>
+        <param>
+          <type>const Vector&lt; T, I &gt; &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <param>
+          <type>Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+<para>saves typed vector (e.g. VertColors, TexturePerFace, VertUVCoords) same as std::vector with its elements </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRSerializer.h" line="65" column="6" bodyfile="MRMesh/MRSerializer.h" bodystart="65" bodyend="65"/>
+      </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga5a6b037a77f54ee1959070a26821d442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::serializeToJson</definition>
@@ -660,11 +708,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this version takes topology to convert <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> in its representation relative a face; also beware that de-serialization will work only if faces are not renumbered (so please pack mesh before saving) </para>
+<para>this version takes topology to convert MeshTriPoint in its representation relative a face; also beware that de-serialization will work only if faces are not renumbered (so please pack mesh before saving) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="65" column="7" declfile="MRMesh/MRSerializer.h" declline="65" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="68" column="7" declfile="MRMesh/MRSerializer.h" declline="68" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gad7c57d19dac8fe5222101baac7ae164c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -686,7 +734,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="66" column="7" declfile="MRMesh/MRSerializer.h" declline="66" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="69" column="7" declfile="MRMesh/MRSerializer.h" declline="69" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga1c20f47d5cb885a2af93ba685c25aebb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -713,7 +761,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="70" column="7" declfile="MRMesh/MRSerializer.h" declline="70" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="73" column="7" declfile="MRMesh/MRSerializer.h" declline="73" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga0cb60ec747bba72d5988e66da53bdb86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -739,7 +787,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="71" column="7" declfile="MRMesh/MRSerializer.h" declline="71" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="74" column="7" declfile="MRMesh/MRSerializer.h" declline="74" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gab38fd79e2d110978e8ce8d11feeb7a7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -762,7 +810,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="74" column="7" declfile="MRMesh/MRSerializer.h" declline="74" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="77" column="7" declfile="MRMesh/MRSerializer.h" declline="77" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gab1f4c9b5e66057a0f8d67c686883aba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -784,7 +832,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="75" column="7" declfile="MRMesh/MRSerializer.h" declline="75" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="78" column="7" declfile="MRMesh/MRSerializer.h" declline="78" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga8fec83e42dbf1eafa88e248f04084ec3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -806,7 +854,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="76" column="7" declfile="MRMesh/MRSerializer.h" declline="76" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="79" column="7" declfile="MRMesh/MRSerializer.h" declline="79" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga572d20520171401a50e9f6a678d9f6f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -828,7 +876,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="77" column="7" declfile="MRMesh/MRSerializer.h" declline="77" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="80" column="7" declfile="MRMesh/MRSerializer.h" declline="80" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga8fa1e442b24962ea35467b9f00ebc3c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -850,7 +898,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="78" column="7" declfile="MRMesh/MRSerializer.h" declline="78" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="81" column="7" declfile="MRMesh/MRSerializer.h" declline="81" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga2198fc24f7029799a5fad3c9daa3ae08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -872,7 +920,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="79" column="7" declfile="MRMesh/MRSerializer.h" declline="79" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="82" column="7" declfile="MRMesh/MRSerializer.h" declline="82" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga6fffe2a90f2afa8d4f973c135ed1547b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -894,7 +942,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="80" column="7" declfile="MRMesh/MRSerializer.h" declline="80" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="83" column="7" declfile="MRMesh/MRSerializer.h" declline="83" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga76dc132b753197429af6f195ba75dc98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -916,7 +964,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="81" column="7" declfile="MRMesh/MRSerializer.h" declline="81" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="84" column="7" declfile="MRMesh/MRSerializer.h" declline="84" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga0976e55e1f829c8d93c9fa0b7385b554" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -938,7 +986,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="82" column="7" declfile="MRMesh/MRSerializer.h" declline="82" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="85" column="7" declfile="MRMesh/MRSerializer.h" declline="85" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga9e46a04df527f41269ef366a4fcffce2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -960,7 +1008,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="83" column="7" declfile="MRMesh/MRSerializer.h" declline="83" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="86" column="7" declfile="MRMesh/MRSerializer.h" declline="86" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gae512f586c88dd70e81f31e416bef9d77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -982,7 +1030,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="84" column="7" declfile="MRMesh/MRSerializer.h" declline="84" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="87" column="7" declfile="MRMesh/MRSerializer.h" declline="87" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga71738630f5412b9a1fa5cf71086d6857" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -1005,7 +1053,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="85" column="11" declfile="MRMesh/MRSerializer.h" declline="85" declcolumn="11"/>
+        <location file="MRMesh/MRSerializer.h" line="88" column="11" declfile="MRMesh/MRSerializer.h" declline="88" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga0554aaf11fa5c4fa1b0a2c12a280c591" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1027,7 +1075,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="86" column="7" declfile="MRMesh/MRSerializer.h" declline="86" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="89" column="7" declfile="MRMesh/MRSerializer.h" declline="89" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga8d6612abbb91e8b262b81c9a74b7a81c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1049,7 +1097,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="87" column="7" declfile="MRMesh/MRSerializer.h" declline="87" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="90" column="7" declfile="MRMesh/MRSerializer.h" declline="90" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga249e465132da4ac77fb5762b4e701b82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1071,7 +1119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="88" column="7" declfile="MRMesh/MRSerializer.h" declline="88" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="91" column="7" declfile="MRMesh/MRSerializer.h" declline="91" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gae55b9b60dc8f4cea8ff85077859cf946" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1093,7 +1141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="89" column="7" declfile="MRMesh/MRSerializer.h" declline="89" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="92" column="7" declfile="MRMesh/MRSerializer.h" declline="92" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga4d71b08da8839c41442fe12956b60a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1115,7 +1163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="90" column="7" declfile="MRMesh/MRSerializer.h" declline="90" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="93" column="7" declfile="MRMesh/MRSerializer.h" declline="93" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gad92c41be92ee48e63f5e3ca1e833e468" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1137,7 +1185,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="91" column="7" declfile="MRMesh/MRSerializer.h" declline="91" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="94" column="7" declfile="MRMesh/MRSerializer.h" declline="94" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SerializerGroup_1gafdcdea244bf637efde6c08d3bec13cbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename I</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MR::deserializeFromJson</definition>
+        <argsstring>(const Json::Value &amp;root, Vector&lt; T, I &gt; &amp;vec)</argsstring>
+        <name>deserializeFromJson</name>
+        <qualifiedname>MR::deserializeFromJson</qualifiedname>
+        <param>
+          <type>const Json::Value &amp;</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>Vector&lt; T, I &gt; &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRSerializer.h" line="96" column="6" bodyfile="MRMesh/MRSerializer.h" bodystart="96" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga6e48c72925ab23bc42bff1d4bc389bf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1160,11 +1238,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this version takes topology to construct <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> from its representation relative a face; also beware that de-serialization will work only if faces are not renumbered (so please pack mesh before saving) </para>
+<para>this version takes topology to construct MeshTriPoint from its representation relative a face; also beware that de-serialization will work only if faces are not renumbered (so please pack mesh before saving) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="94" column="7" declfile="MRMesh/MRSerializer.h" declline="94" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="99" column="7" declfile="MRMesh/MRSerializer.h" declline="99" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga2d2bfffd8ea520a7eb58c0c7132868a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1186,7 +1264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSerializer.h" line="95" column="7" declfile="MRMesh/MRSerializer.h" declline="95" declcolumn="7"/>
+        <location file="MRMesh/MRSerializer.h" line="100" column="7" declfile="MRMesh/MRSerializer.h" declline="100" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga4a175d8a8e417663622148510dd390ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -1224,7 +1302,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRZip.h" line="20" column="11" declfile="MRMesh/MRZip.h" declline="20" declcolumn="11"/>
+        <location file="MRMesh/MRZip.h" line="22" column="11" declfile="MRMesh/MRZip.h" declline="22" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gaeb9ec7f1149bdc406b6d901c2bc1986f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -1262,7 +1340,83 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRZip.h" line="27" column="11" declfile="MRMesh/MRZip.h" declline="27" declcolumn="11"/>
+        <location file="MRMesh/MRZip.h" line="29" column="11" declfile="MRMesh/MRZip.h" declline="29" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SerializerGroup_1ga6d60fc3db9ca48db4715864be5b1e23f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::decompressZip</definition>
+        <argsstring>(const std::filesystem::path &amp;zipFile, const ZipFileCallback &amp;callback, const char *password=nullptr)</argsstring>
+        <name>decompressZip</name>
+        <qualifiedname>MR::decompressZip</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>zipFile</declname>
+        </param>
+        <param>
+          <type>const ZipFileCallback &amp;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>password</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>decompresses given zip-file and passes every file from it to the callback without saving anything on disk; folder entries are skipped </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if password is given then it will be used to decipher encrypted archive </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRZip.h" line="40" column="11" declfile="MRMesh/MRZip.h" declline="40" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SerializerGroup_1ga591d76b8e857091a46184d4903e87598" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::decompressZip</definition>
+        <argsstring>(std::istream &amp;zipStream, const ZipFileCallback &amp;callback, const char *password=nullptr)</argsstring>
+        <name>decompressZip</name>
+        <qualifiedname>MR::decompressZip</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>zipStream</declname>
+        </param>
+        <param>
+          <type>const ZipFileCallback &amp;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>password</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>decompresses given binary stream (containing the data of a zip file only) and passes every file from it to the callback without saving anything on disk; folder entries are skipped </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if password is given then it will be used to decipher encrypted archive </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRZip.h" line="48" column="11" declfile="MRMesh/MRZip.h" declline="48" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1gaaeb1d5f0f783381f2285fd4d7fbd1c6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -1290,7 +1444,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRZip.h" line="48" column="11" declfile="MRMesh/MRZip.h" declline="48" declcolumn="11"/>
+        <location file="MRMesh/MRZip.h" line="69" column="11" declfile="MRMesh/MRZip.h" declline="69" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__SerializerGroup_1ga4466031d05f4eb56868dc88105bc5248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -1353,7 +1507,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRZip.h" line="58" column="11" declfile="MRMesh/MRZip.h" declline="58" declcolumn="11"/>
+        <location file="MRMesh/MRZip.h" line="79" column="11" declfile="MRMesh/MRZip.h" declline="79" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

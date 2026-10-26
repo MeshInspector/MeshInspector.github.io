@@ -60,6 +60,7 @@ var MRRibbonConstants_8h =
     [ "MR::StyleConsts::CustomCombo::framePadding", "group__GeneralGroup.html#ga56058d3872b6d96205debc3305df78a8", null ],
     [ "MR::StyleConsts::ProgressBar::internalSpacing", "group__GeneralGroup.html#ga0e136117cf759046ebb381d8b7f51f23", null ],
     [ "MR::StyleConsts::pluginItemSpacing", "group__GeneralGroup.html#ga4d6326d10565774441d1db3512941c0d", null ],
+    [ "MR::StyleConsts::CustomCombo::popupItemSpacingY", "group__GeneralGroup.html#ga979b60469d45731dad95e4d5b2ba9e23", null ],
     [ "MR::StyleConsts::ProgressBar::rounding", "group__GeneralGroup.html#ga467066b4c41a91512fcfee5c76e236ca", null ],
     [ "MR::StyleConsts::ProgressBar::textColor", "group__GeneralGroup.html#ga941b167d61d8a5ba4ff489d0ddac477e", null ]
 ];

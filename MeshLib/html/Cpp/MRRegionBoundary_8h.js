@@ -34,6 +34,8 @@ var MRRegionBoundary_8h =
     [ "MR::getRegionEdges", "group__GeneralGroup.html#ga8e8ba4975b219200687bca5ed2a7ab6a", null ],
     [ "MR::trackLeftBoundaryLoop", "group__GeneralGroup.html#ga0b1aadbcca4f1cead3d021af7e3d33f4", null ],
     [ "MR::trackLeftBoundaryLoop", "group__GeneralGroup.html#gafe0cff75a668facd54a62bf927b0d3a9", null ],
+    [ "MR::trackLeftBoundaryLoop", "group__GeneralGroup.html#gad5f48a6c995163ccf86e1368e6d3a72e", null ],
     [ "MR::trackRightBoundaryLoop", "group__GeneralGroup.html#ga9875ea52b09e50db9dbb4481677d22f6", null ],
-    [ "MR::trackRightBoundaryLoop", "group__GeneralGroup.html#ga7e1b0e5fae67b830aef15f52355a6c40", null ]
+    [ "MR::trackRightBoundaryLoop", "group__GeneralGroup.html#ga7e1b0e5fae67b830aef15f52355a6c40", null ],
+    [ "MR::trackRightBoundaryLoop", "group__GeneralGroup.html#ga184ea2fa74460ca834372a2cfed0de72", null ]
 ];

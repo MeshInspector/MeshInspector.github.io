@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -156,9 +149,9 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:gad170a186634adcea1422a0bcb701584d" id="r_gad170a186634adcea1422a0bcb701584d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#gad170a186634adcea1422a0bcb701584d">MR::findAvgPointsRadius</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, int avgPoints, int samples=1024)</td></tr>
 <tr class="memdesc:gad170a186634adcea1422a0bcb701584d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the radius of ball, so on average that ball contained avgPoints excluding the central point.  <br /></td></tr>
-<tr class="memitem:gabb21b4a984eeae29a269f729ed5c3979" id="r_gabb21b4a984eeae29a269f729ed5c3979"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gabb21b4a984eeae29a269f729ed5c3979">MR::dilateRegion</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, VertBitSet &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="memitem:gabb21b4a984eeae29a269f729ed5c3979" id="r_gabb21b4a984eeae29a269f729ed5c3979"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gabb21b4a984eeae29a269f729ed5c3979">MR::dilateRegion</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, VertBitSet &amp;region, float dilation, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> <a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={}, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="memdesc:gabb21b4a984eeae29a269f729ed5c3979"><td class="mdescLeft">&#160;</td><td class="mdescRight">expands the region on given euclidian distance. returns false if callback also returns false  <br /></td></tr>
-<tr class="memitem:ga3d766f3fa624850ad0eb7a31efa6433f" id="r_ga3d766f3fa624850ad0eb7a31efa6433f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3d766f3fa624850ad0eb7a31efa6433f">MR::erodeRegion</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, VertBitSet &amp;region, float erosion, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}, const AffineXf3f *xf=nullptr)</td></tr>
+<tr class="memitem:ga3d766f3fa624850ad0eb7a31efa6433f" id="r_ga3d766f3fa624850ad0eb7a31efa6433f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3d766f3fa624850ad0eb7a31efa6433f">MR::erodeRegion</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud, VertBitSet &amp;region, float erosion, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> <a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={}, const AffineXf3f *xf=nullptr)</td></tr>
 <tr class="memdesc:ga3d766f3fa624850ad0eb7a31efa6433f"><td class="mdescLeft">&#160;</td><td class="mdescRight">shrinks the region on given euclidian distance. returns false if callback also returns false  <br /></td></tr>
 </table>
 </div><!-- contents -->

@@ -27,9 +27,16 @@
         <label>MR::Buffer&lt; VertId &gt;</label>
         <link refid="classMR_1_1Buffer"/>
       </node>
+      <node id="4">
+        <label>MR::FanRecord</label>
+        <link refid="structMR_1_1FanRecord"/>
+      </node>
       <node id="3">
         <label>MR::Vector&lt; MR::FanRecord, VertId &gt;</label>
         <link refid="classMR_1_1Vector"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>val</edgelabel>
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="MRMesh/MRLocalTriangulations.h" line="50" column="1" bodyfile="MRMesh/MRLocalTriangulations.h" bodystart="51" bodyend="54"/>

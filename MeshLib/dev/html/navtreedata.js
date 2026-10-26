@@ -26,12 +26,15 @@ var NAVTREE =
 [
   [ "MeshLib Documentation", "index.html", [
     [ "About", "index.html", null ],
+    [ "Live Demo", "^https://demo.meshlib.io/", null ],
     [ "Getting Started", "InstallationGuide.html", [
       [ "Python", "MeshLibPythonSetupGuide.html", null ],
       [ "C++", "MeshLibCppSetupGuide.html", null ],
       [ "C#", "MeshLibCSharpSetupGuide.html", null ],
       [ "C", "MeshLibCSetupGuide.html", null ],
       [ "JavaScript", "MeshLibJsSetupGuide.html", null ],
+      [ "Rust", "MeshLibRustSetupGuide.html", null ],
+      [ "Java", "MeshLibJavaSetupGuide.html", null ],
       [ "CMake", "MeshLibCmakeSetupGuide.html", null ]
     ] ],
     [ "License", "License.html", null ],

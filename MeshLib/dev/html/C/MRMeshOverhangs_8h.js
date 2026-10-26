@@ -1,6 +1,5 @@
 var MRMeshOverhangs_8h =
 [
-    [ "MR_expected_std_vector_MR_FaceBitSet_std_string", "MRMeshOverhangs_8h.html#a1b1abbd2bb9a00492f7da1010eee6c21", null ],
     [ "MR_FindOverhangsSettings", "MRMeshOverhangs_8h.html#ad61d6c00ae6daaf30097ffaca3c8c9c2", null ],
     [ "MR_findOverhangs", "MRMeshOverhangs_8h.html#a30f926307f58d8adde041658e60debcf", null ],
     [ "MR_FindOverhangsSettings_AssignFromAnother", "MRMeshOverhangs_8h.html#a42cad8e94a73230306eda89acd723646", null ],

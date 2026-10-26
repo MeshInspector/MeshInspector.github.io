@@ -2,23 +2,108 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSharpenMarchingCubesMesh_8h" kind="file" language="C++">
     <compoundname>MRSharpenMarchingCubesMesh.h</compoundname>
+    <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
     <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMesh/MRMatrix2.h</label>
+        <link refid="MRMatrix2_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRCMesh/MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>MRSharpenMarchingCubesMesh.h</label>
         <link refid="MRSharpenMarchingCubesMesh_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="2">
+      <node id="4">
+        <label>MRCMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="3">
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="7">
         <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -34,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="19" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="22" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" bodystart="22" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -54,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="27" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="30" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="30" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1aa423e394403b9a384559cb1a751a42c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -76,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="34" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="34" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="37" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="37" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1af9ff70d6f8b36eaad7b1b407e5b8956e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
@@ -94,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="42" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="42" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="45" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="45" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a1cf4ca42a43a6d5abb8300fb6e65ff79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
@@ -112,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="50" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="50" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="53" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="53" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1ab7f011022ee3ba9481a58224d8d05181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -134,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="57" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="60" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="60" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a9208c856c3d1c30fddc8f9d710e6b73f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
@@ -152,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="65" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="65" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="68" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="68" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1adb94264878375f03f015a833d940a723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
@@ -170,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="73" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="73" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="76" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="76" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a3dd6061a43458bffe23d899bf5e96cd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -192,7 +277,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="80" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="83" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1af40b3c33ac54262801bbd882e686bcba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
@@ -210,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="88" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="88" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="91" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="91" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a31e793795ef80083cc00aaf1ef4fa454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
@@ -228,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="95" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="95" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="98" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="98" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a032a352efe279c75b38940f4a8521df7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -250,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="101" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="104" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1ae8f2a7393dd98862c1a8bc490c926bcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
@@ -268,7 +353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="108" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="108" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="111" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="111" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a5bd327ee7391a535f8edfa72383581bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
@@ -286,7 +371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="117" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="117" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="120" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="120" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a5bab6a360b7a3d325fa4b4179c339f83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -308,7 +393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="125" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="125" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="128" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a9c39d58363184cea54902699ccc1ca30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
@@ -326,7 +411,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="134" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="134" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="137" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="137" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a2192d0e7c211da49081e30287360f01c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
@@ -344,7 +429,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="142" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="142" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="145" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="145" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a3cb836753c677cf3774d22ce0ac7caed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -366,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="149" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="149" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="152" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1ab0938d6b37495bd98ce236ab8f3c2e47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
@@ -384,7 +469,181 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="157" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="157" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="160" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="160" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1aef7755b445ea6718b41ca5bc3354e772" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
+        <definition>MRC_API const bool * MR_SharpenMarchingCubesMeshSettings_Get_voxelClamp</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Get_voxelClamp</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel&apos;s box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped; requires dims and gridToMeshXf to be set Returns a pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>voxelClamp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="169" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="169" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1af6684aab7c01270759a4ff2990671d77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_SharpenMarchingCubesMeshSettings_Set_voxelClamp</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this, bool value)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Set_voxelClamp</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel&apos;s box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped; requires dims and gridToMeshXf to be set Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>voxelClamp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>voxelClamp</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="177" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="177" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1ae9e7d440a3fb4545e52e1ce1e0e5a024" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
+        <definition>MRC_API bool * MR_SharpenMarchingCubesMeshSettings_GetMutable_voxelClamp</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_GetMutable_voxelClamp</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel&apos;s box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped; requires dims and gridToMeshXf to be set Returns a mutable pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>voxelClamp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="186" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="186" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a4ac830d2f1453f1cc3c17811f859a922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+        <definition>MRC_API const MR_Vector3i * MR_SharpenMarchingCubesMeshSettings_Get_dims</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Get_dims</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Marching Cubes volume dimensions Returns a pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>dims</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="193" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="193" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a5195961e44ecb6f31d198c20d728a633" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_SharpenMarchingCubesMeshSettings_Set_dims</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this, MR_Vector3i value)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Set_dims</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Marching Cubes volume dimensions Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>dims</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dims</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dims</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="200" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1af7d1da23654d52f2133c47d5758438c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+        <definition>MRC_API MR_Vector3i * MR_SharpenMarchingCubesMeshSettings_GetMutable_dims</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_GetMutable_dims</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Marching Cubes volume dimensions Returns a mutable pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>dims</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="207" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="207" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a74c766fe8a3050a475879bc7455b2fee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API const MR_AffineXf3f * MR_SharpenMarchingCubesMeshSettings_Get_gridToMeshXf</definition>
+        <argsstring>(const MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Get_gridToMeshXf</name>
+        <param>
+          <type>const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>transform from integer Marching Cubes grid locations to the mesh reference frame: the node with integer coordinates (i,j,k) is located in gridToMeshXf( Vector3f( i, j, k ) ) Returns a pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>gridToMeshXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="215" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="215" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1ab4d55b7d4ce198148d20bf26b9b2d292" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_SharpenMarchingCubesMeshSettings_Set_gridToMeshXf</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this, MR_AffineXf3f value)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_Set_gridToMeshXf</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>transform from integer Marching Cubes grid locations to the mesh reference frame: the node with integer coordinates (i,j,k) is located in gridToMeshXf( Vector3f( i, j, k ) ) Modifies a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>gridToMeshXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>gridToMeshXf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>gridToMeshXf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="223" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="223" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1af38c80c684616ebc562d4ae985f12a05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <definition>MRC_API MR_AffineXf3f * MR_SharpenMarchingCubesMeshSettings_GetMutable_gridToMeshXf</definition>
+        <argsstring>(MR_SharpenMarchingCubesMeshSettings *_this)</argsstring>
+        <name>MR_SharpenMarchingCubesMeshSettings_GetMutable_gridToMeshXf</name>
+        <param>
+          <type><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>transform from integer Marching Cubes grid locations to the mesh reference frame: the node with integer coordinates (i,j,k) is located in gridToMeshXf( Vector3f( i, j, k ) ) Returns a mutable pointer to a member variable of class <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> named <computeroutput>gridToMeshXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="231" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="231" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1af816b1f84f9f326a46515876615f7ca0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *const *</type>
@@ -402,7 +661,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="164" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="164" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="238" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="238" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1aa36d0c1f25560e81610b14e380c205be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -424,7 +683,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="171" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="245" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="245" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a782fe5d8f28da80e703df06548a4e28b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> **</type>
@@ -442,7 +701,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="178" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="178" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="252" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="252" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a49a2aba7e0bb39b07e4e6842a73e44ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
@@ -459,7 +718,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="182" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="182" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="256" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="256" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a444f506eb364ebc9bc475def833c7e2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
@@ -477,12 +736,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="187" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="187" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="261" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="261" declcolumn="45"/>
       </memberdef>
-      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a5adb29e31b9e585e4d1334eaf6240e42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a90b30a2a8197b29c7677020b805d2b9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
         <definition>MRC_API MR_SharpenMarchingCubesMeshSettings * MR_SharpenMarchingCubesMeshSettings_ConstructFrom</definition>
-        <argsstring>(float minNewVertDev, float maxNewRank2VertDev, float maxNewRank3VertDev, float offset, float maxOldVertPosCorrection, int posSelIters, MR_UndirectedEdgeBitSet *outSharpEdges)</argsstring>
+        <argsstring>(float minNewVertDev, float maxNewRank2VertDev, float maxNewRank3VertDev, float offset, float maxOldVertPosCorrection, int posSelIters, bool voxelClamp, MR_Vector3i dims, MR_AffineXf3f gridToMeshXf, MR_UndirectedEdgeBitSet *outSharpEdges)</argsstring>
         <name>MR_SharpenMarchingCubesMeshSettings_ConstructFrom</name>
         <param>
           <type>float</type>
@@ -509,17 +768,29 @@
           <declname>posSelIters</declname>
         </param>
         <param>
+          <type>bool</type>
+          <declname>voxelClamp</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <param>
           <type><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
           <declname>outSharpEdges</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>outSharpEdges</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" kindref="member">MR_SharpenMarchingCubesMeshSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+<para>Constructs <computeroutput>MR::SharpenMarchingCubesMeshSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>dims</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>gridToMeshXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>outSharpEdges</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" kindref="member">MR_SharpenMarchingCubesMeshSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="193" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="193" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="269" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="269" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a587d90e4a3835925acab6105abdbb1d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
@@ -541,7 +812,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="197" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="197" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="273" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="273" declcolumn="51"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1abcb083740befce324bfa579df104c1b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
@@ -563,7 +834,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="201" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="201" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="277" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="277" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a80f6450c6a7a68416aaea24e68568966" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
@@ -581,7 +852,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="207" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="207" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="283" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="283" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -599,7 +870,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="210" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="210" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="286" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1aba860393166e80cba10b8786a88bc89f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -617,7 +888,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="213" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="213" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="289" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a19285a27a0f78b0f88d4c93af4f2f491" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref> *</type>
@@ -639,7 +910,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="221" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="221" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="297" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="297" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRSharpenMarchingCubesMesh_8h_1a0d59244b3ffae9c30b528e16e48dfbe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -694,7 +965,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="232" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="232" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" line="308" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h" declline="308" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -704,87 +975,108 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRAffineXf_8h" kindref="compound">MRCMesh/MRAffineXf.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref><sp/><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref>;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRSharpenMarchingCubesMesh_8h_1a534a4787d194bbe8e73d5150972c8a32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a534a4787d194bbe8e73d5150972c8a32" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_minNewVertDev</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRSharpenMarchingCubesMesh_8h_1aa423e394403b9a384559cb1a751a42c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1aa423e394403b9a384559cb1a751a42c1" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_minNewVertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRSharpenMarchingCubesMesh_8h_1af9ff70d6f8b36eaad7b1b407e5b8956e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1af9ff70d6f8b36eaad7b1b407e5b8956e" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_minNewVertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRSharpenMarchingCubesMesh_8h_1a1cf4ca42a43a6d5abb8300fb6e65ff79" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a1cf4ca42a43a6d5abb8300fb6e65ff79" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_maxNewRank2VertDev</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="MRSharpenMarchingCubesMesh_8h_1ab7f011022ee3ba9481a58224d8d05181" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1ab7f011022ee3ba9481a58224d8d05181" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_maxNewRank2VertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRSharpenMarchingCubesMesh_8h_1a9208c856c3d1c30fddc8f9d710e6b73f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a9208c856c3d1c30fddc8f9d710e6b73f" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_maxNewRank2VertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="MRSharpenMarchingCubesMesh_8h_1adb94264878375f03f015a833d940a723" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1adb94264878375f03f015a833d940a723" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_maxNewRank3VertDev</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRSharpenMarchingCubesMesh_8h_1a3dd6061a43458bffe23d899bf5e96cd3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a3dd6061a43458bffe23d899bf5e96cd3" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_maxNewRank3VertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRSharpenMarchingCubesMesh_8h_1af40b3c33ac54262801bbd882e686bcba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1af40b3c33ac54262801bbd882e686bcba" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_maxNewRank3VertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRSharpenMarchingCubesMesh_8h_1a31e793795ef80083cc00aaf1ef4fa454" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a31e793795ef80083cc00aaf1ef4fa454" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_offset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MRSharpenMarchingCubesMesh_8h_1a032a352efe279c75b38940f4a8521df7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a032a352efe279c75b38940f4a8521df7" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_offset</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRSharpenMarchingCubesMesh_8h_1ae8f2a7393dd98862c1a8bc490c926bcd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1ae8f2a7393dd98862c1a8bc490c926bcd" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_offset</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRSharpenMarchingCubesMesh_8h_1a5bd327ee7391a535f8edfa72383581bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a5bd327ee7391a535f8edfa72383581bd" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_maxOldVertPosCorrection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="MRSharpenMarchingCubesMesh_8h_1a5bab6a360b7a3d325fa4b4179c339f83" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a5bab6a360b7a3d325fa4b4179c339f83" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_maxOldVertPosCorrection</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRSharpenMarchingCubesMesh_8h_1a9c39d58363184cea54902699ccc1ca30" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a9c39d58363184cea54902699ccc1ca30" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_maxOldVertPosCorrection</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142" refid="MRSharpenMarchingCubesMesh_8h_1a2192d0e7c211da49081e30287360f01c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a2192d0e7c211da49081e30287360f01c" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_posSelIters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149" refid="MRSharpenMarchingCubesMesh_8h_1a3cb836753c677cf3774d22ce0ac7caed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a3cb836753c677cf3774d22ce0ac7caed" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_posSelIters</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRSharpenMarchingCubesMesh_8h_1ab0938d6b37495bd98ce236ab8f3c2e47" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1ab0938d6b37495bd98ce236ab8f3c2e47" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_posSelIters</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="MRSharpenMarchingCubesMesh_8h_1af816b1f84f9f326a46515876615f7ca0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1af816b1f84f9f326a46515876615f7ca0" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_outSharpEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRSharpenMarchingCubesMesh_8h_1aa36d0c1f25560e81610b14e380c205be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1aa36d0c1f25560e81610b14e380c205be" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_outSharpEdges</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRSharpenMarchingCubesMesh_8h_1a782fe5d8f28da80e703df06548a4e28b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRSharpenMarchingCubesMesh_8h_1a782fe5d8f28da80e703df06548a4e28b" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_outSharpEdges</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRSharpenMarchingCubesMesh_8h_1a49a2aba7e0bb39b07e4e6842a73e44ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a49a2aba7e0bb39b07e4e6842a73e44ea" kindref="member">MR_SharpenMarchingCubesMeshSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRSharpenMarchingCubesMesh_8h_1a444f506eb364ebc9bc475def833c7e2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a444f506eb364ebc9bc475def833c7e2b" kindref="member">MR_SharpenMarchingCubesMeshSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="MRSharpenMarchingCubesMesh_8h_1a5adb29e31b9e585e4d1334eaf6240e42" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a5adb29e31b9e585e4d1334eaf6240e42" kindref="member">MR_SharpenMarchingCubesMeshSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minNewVertDev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxNewRank2VertDev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxNewRank3VertDev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxOldVertPosCorrection,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>posSelIters,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*outSharpEdges);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref><sp/><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRSharpenMarchingCubesMesh_8h_1a534a4787d194bbe8e73d5150972c8a32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a534a4787d194bbe8e73d5150972c8a32" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_minNewVertDev</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRSharpenMarchingCubesMesh_8h_1aa423e394403b9a384559cb1a751a42c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1aa423e394403b9a384559cb1a751a42c1" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_minNewVertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRSharpenMarchingCubesMesh_8h_1af9ff70d6f8b36eaad7b1b407e5b8956e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1af9ff70d6f8b36eaad7b1b407e5b8956e" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_minNewVertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRSharpenMarchingCubesMesh_8h_1a1cf4ca42a43a6d5abb8300fb6e65ff79" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a1cf4ca42a43a6d5abb8300fb6e65ff79" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_maxNewRank2VertDev</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRSharpenMarchingCubesMesh_8h_1ab7f011022ee3ba9481a58224d8d05181" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1ab7f011022ee3ba9481a58224d8d05181" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_maxNewRank2VertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRSharpenMarchingCubesMesh_8h_1a9208c856c3d1c30fddc8f9d710e6b73f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a9208c856c3d1c30fddc8f9d710e6b73f" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_maxNewRank2VertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRSharpenMarchingCubesMesh_8h_1adb94264878375f03f015a833d940a723" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1adb94264878375f03f015a833d940a723" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_maxNewRank3VertDev</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRSharpenMarchingCubesMesh_8h_1a3dd6061a43458bffe23d899bf5e96cd3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a3dd6061a43458bffe23d899bf5e96cd3" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_maxNewRank3VertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRSharpenMarchingCubesMesh_8h_1af40b3c33ac54262801bbd882e686bcba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1af40b3c33ac54262801bbd882e686bcba" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_maxNewRank3VertDev</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRSharpenMarchingCubesMesh_8h_1a31e793795ef80083cc00aaf1ef4fa454" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a31e793795ef80083cc00aaf1ef4fa454" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_offset</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="MRSharpenMarchingCubesMesh_8h_1a032a352efe279c75b38940f4a8521df7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a032a352efe279c75b38940f4a8521df7" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_offset</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRSharpenMarchingCubesMesh_8h_1ae8f2a7393dd98862c1a8bc490c926bcd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1ae8f2a7393dd98862c1a8bc490c926bcd" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_offset</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="MRSharpenMarchingCubesMesh_8h_1a5bd327ee7391a535f8edfa72383581bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a5bd327ee7391a535f8edfa72383581bd" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_maxOldVertPosCorrection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRSharpenMarchingCubesMesh_8h_1a5bab6a360b7a3d325fa4b4179c339f83" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a5bab6a360b7a3d325fa4b4179c339f83" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_maxOldVertPosCorrection</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRSharpenMarchingCubesMesh_8h_1a9c39d58363184cea54902699ccc1ca30" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a9c39d58363184cea54902699ccc1ca30" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_maxOldVertPosCorrection</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRSharpenMarchingCubesMesh_8h_1a2192d0e7c211da49081e30287360f01c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a2192d0e7c211da49081e30287360f01c" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_posSelIters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="MRSharpenMarchingCubesMesh_8h_1a3cb836753c677cf3774d22ce0ac7caed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a3cb836753c677cf3774d22ce0ac7caed" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_posSelIters</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="MRSharpenMarchingCubesMesh_8h_1ab0938d6b37495bd98ce236ab8f3c2e47" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1ab0938d6b37495bd98ce236ab8f3c2e47" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_posSelIters</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRSharpenMarchingCubesMesh_8h_1aef7755b445ea6718b41ca5bc3354e772" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1aef7755b445ea6718b41ca5bc3354e772" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_voxelClamp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRSharpenMarchingCubesMesh_8h_1af6684aab7c01270759a4ff2990671d77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1af6684aab7c01270759a4ff2990671d77" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_voxelClamp</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="MRSharpenMarchingCubesMesh_8h_1ae9e7d440a3fb4545e52e1ce1e0e5a024" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1ae9e7d440a3fb4545e52e1ce1e0e5a024" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_voxelClamp</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRSharpenMarchingCubesMesh_8h_1a4ac830d2f1453f1cc3c17811f859a922" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a4ac830d2f1453f1cc3c17811f859a922" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_dims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="MRSharpenMarchingCubesMesh_8h_1a587d90e4a3835925acab6105abdbb1d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a587d90e4a3835925acab6105abdbb1d8" kindref="member">MR_SharpenMarchingCubesMeshSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201" refid="MRSharpenMarchingCubesMesh_8h_1abcb083740befce324bfa579df104c1b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1abcb083740befce324bfa579df104c1b8" kindref="member">MR_SharpenMarchingCubesMeshSettings_OffsetMutablePtr</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207" refid="MRSharpenMarchingCubesMesh_8h_1a80f6450c6a7a68416aaea24e68568966" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a80f6450c6a7a68416aaea24e68568966" kindref="member">MR_SharpenMarchingCubesMeshSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="200" refid="MRSharpenMarchingCubesMesh_8h_1a5195961e44ecb6f31d198c20d728a633" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a5195961e44ecb6f31d198c20d728a633" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_dims</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>value);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="MRSharpenMarchingCubesMesh_8h_1af7d1da23654d52f2133c47d5758438c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1af7d1da23654d52f2133c47d5758438c9" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_dims</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210" refid="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" kindref="member">MR_SharpenMarchingCubesMeshSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213" refid="MRSharpenMarchingCubesMesh_8h_1aba860393166e80cba10b8786a88bc89f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1aba860393166e80cba10b8786a88bc89f" kindref="member">MR_SharpenMarchingCubesMeshSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221" refid="MRSharpenMarchingCubesMesh_8h_1a19285a27a0f78b0f88d4c93af4f2f491" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a19285a27a0f78b0f88d4c93af4f2f491" kindref="member">MR_SharpenMarchingCubesMeshSettings_AssignFromAnother</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRSharpenMarchingCubesMesh_8h_1a0d59244b3ffae9c30b528e16e48dfbe4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a0d59244b3ffae9c30b528e16e48dfbe4" kindref="member">MR_sharpenMarchingCubesMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*ref,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*vox,<sp/><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref><sp/>*face2voxel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="234"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="235"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="236"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="215" refid="MRSharpenMarchingCubesMesh_8h_1a74c766fe8a3050a475879bc7455b2fee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a74c766fe8a3050a475879bc7455b2fee" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_gridToMeshXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="MRSharpenMarchingCubesMesh_8h_1ab4d55b7d4ce198148d20bf26b9b2d292" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1ab4d55b7d4ce198148d20bf26b9b2d292" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_gridToMeshXf</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MRSharpenMarchingCubesMesh_8h_1af38c80c684616ebc562d4ae985f12a05" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1af38c80c684616ebc562d4ae985f12a05" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_gridToMeshXf</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="MRSharpenMarchingCubesMesh_8h_1af816b1f84f9f326a46515876615f7ca0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1af816b1f84f9f326a46515876615f7ca0" kindref="member">MR_SharpenMarchingCubesMeshSettings_Get_outSharpEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="MRSharpenMarchingCubesMesh_8h_1aa36d0c1f25560e81610b14e380c205be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1aa36d0c1f25560e81610b14e380c205be" kindref="member">MR_SharpenMarchingCubesMeshSettings_Set_outSharpEdges</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="MRSharpenMarchingCubesMesh_8h_1a782fe5d8f28da80e703df06548a4e28b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRSharpenMarchingCubesMesh_8h_1a782fe5d8f28da80e703df06548a4e28b" kindref="member">MR_SharpenMarchingCubesMeshSettings_GetMutable_outSharpEdges</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="MRSharpenMarchingCubesMesh_8h_1a49a2aba7e0bb39b07e4e6842a73e44ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a49a2aba7e0bb39b07e4e6842a73e44ea" kindref="member">MR_SharpenMarchingCubesMeshSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="MRSharpenMarchingCubesMesh_8h_1a444f506eb364ebc9bc475def833c7e2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a444f506eb364ebc9bc475def833c7e2b" kindref="member">MR_SharpenMarchingCubesMeshSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="MRSharpenMarchingCubesMesh_8h_1a90b30a2a8197b29c7677020b805d2b9b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a90b30a2a8197b29c7677020b805d2b9b" kindref="member">MR_SharpenMarchingCubesMeshSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minNewVertDev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxNewRank2VertDev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxNewRank3VertDev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxOldVertPosCorrection,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>posSelIters,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>voxelClamp,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>dims,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>gridToMeshXf,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*outSharpEdges);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273" refid="MRSharpenMarchingCubesMesh_8h_1a587d90e4a3835925acab6105abdbb1d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a587d90e4a3835925acab6105abdbb1d8" kindref="member">MR_SharpenMarchingCubesMeshSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="MRSharpenMarchingCubesMesh_8h_1abcb083740befce324bfa579df104c1b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1abcb083740befce324bfa579df104c1b8" kindref="member">MR_SharpenMarchingCubesMeshSettings_OffsetMutablePtr</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="MRSharpenMarchingCubesMesh_8h_1a80f6450c6a7a68416aaea24e68568966" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a80f6450c6a7a68416aaea24e68568966" kindref="member">MR_SharpenMarchingCubesMeshSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a06ffec8a82c4201715203b92cb01b0f1" kindref="member">MR_SharpenMarchingCubesMeshSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="MRSharpenMarchingCubesMesh_8h_1aba860393166e80cba10b8786a88bc89f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1aba860393166e80cba10b8786a88bc89f" kindref="member">MR_SharpenMarchingCubesMeshSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="MRSharpenMarchingCubesMesh_8h_1a19285a27a0f78b0f88d4c93af4f2f491" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*<ref refid="MRSharpenMarchingCubesMesh_8h_1a19285a27a0f78b0f88d4c93af4f2f491" kindref="member">MR_SharpenMarchingCubesMeshSettings_AssignFromAnother</ref>(<ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308" refid="MRSharpenMarchingCubesMesh_8h_1a0d59244b3ffae9c30b528e16e48dfbe4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a0d59244b3ffae9c30b528e16e48dfbe4" kindref="member">MR_sharpenMarchingCubesMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*ref,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*vox,<sp/><ref refid="MRSeparationPoint_8h_1a9692dc04329fdb84eb3ddd8d265ba089" kindref="member">MR_Vector_MR_VoxelId_MR_FaceId</ref><sp/>*face2voxel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSharpenMarchingCubesMesh_8h_1a021d448f41f915e716465329ede33f3a" kindref="member">MR_SharpenMarchingCubesMeshSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSharpenMarchingCubesMesh.h"/>
   </compounddef>

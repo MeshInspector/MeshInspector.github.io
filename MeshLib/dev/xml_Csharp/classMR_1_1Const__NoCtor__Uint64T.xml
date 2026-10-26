@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13615" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13615" bodyend="13623"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14411" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14411" bodyend="14417"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13624" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13624" bodyend="13624"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14418" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14418" bodyend="14418"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__NoCtor__Uint64T_1a4691013928a9adcec322b8d54d1d3985" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13632" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13632" bodyend="13637"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14426" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14426" bodyend="14429"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__NoCtor__Uint64T_1a18feb8fd76209ccbe33e76d72b54545d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13642" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13642" bodyend="13648"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14434" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14434" bodyend="14438"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__NoCtor__Uint64T_1ac8a145624f09f1498a30c60341697270" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13653" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13653" bodyend="13653"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14443" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14443" bodyend="14443"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13625" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13625" bodyend="13625"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14419" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14419" bodyend="14419"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -132,7 +132,59 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13627" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13627" bodyend="13627"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14421" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14421" bodyend="14421"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoCtor__Uint64T_1a4ac848c2b76334f020904dfb5d1144df" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.NoCtor_Uint64T._Underlying *</type>
+        <definition>static unsafe MR.NoCtor_Uint64T._Underlying * MR.Const_NoCtor_Uint64T.__MR_NoCtor_uint64_t_ConstructFromAnother</definition>
+        <argsstring>(MR.NoCtor_Uint64T._Underlying *_other)</argsstring>
+        <name>__MR_NoCtor_uint64_t_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_NoCtor_Uint64T.__MR_NoCtor_uint64_t_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.NoCtor_Uint64T._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14448" column="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoCtor__Uint64T_1a279e40cb36cf2716b12377d92e55b300" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.NoCtor_Uint64T._Underlying *</type>
+        <definition>static unsafe MR.NoCtor_Uint64T._Underlying * MR.Const_NoCtor_Uint64T.__MR_NoCtor_uint64_t_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_NoCtor_uint64_t_DefaultConstruct</name>
+        <qualifiedname>MR.Const_NoCtor_Uint64T.__MR_NoCtor_uint64_t_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14451" column="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoCtor__Uint64T_1acf9f51c91ec4e6c42e6923accd527d99" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_NoCtor_Uint64T.__MR_NoCtor_uint64_t_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_NoCtor_uint64_t_Destroy</name>
+        <qualifiedname>MR.Const_NoCtor_Uint64T.__MR_NoCtor_uint64_t_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14454" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -178,8 +230,11 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13609" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13610" bodyend="13654"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14405" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14406" bodyend="14455"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__NoCtor__Uint64T_1a4ac848c2b76334f020904dfb5d1144df" prot="private" virt="non-virtual"><scope>MR::Const_NoCtor_Uint64T</scope><name>__MR_NoCtor_uint64_t_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__NoCtor__Uint64T_1a279e40cb36cf2716b12377d92e55b300" prot="private" virt="non-virtual"><scope>MR::Const_NoCtor_Uint64T</scope><name>__MR_NoCtor_uint64_t_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__NoCtor__Uint64T_1acf9f51c91ec4e6c42e6923accd527d99" prot="private" virt="non-virtual"><scope>MR::Const_NoCtor_Uint64T</scope><name>__MR_NoCtor_uint64_t_Destroy</name></member>
       <member refid="classMR_1_1Const__NoCtor__Uint64T_1acb93664fbfaccf8843e36e68264e679c" prot="package" virt="non-virtual"><scope>MR::Const_NoCtor_Uint64T</scope><name>Const_NoCtor_Uint64T</name></member>
       <member refid="classMR_1_1Const__NoCtor__Uint64T_1a4691013928a9adcec322b8d54d1d3985" prot="public" virt="non-virtual"><scope>MR::Const_NoCtor_Uint64T</scope><name>Const_NoCtor_Uint64T</name></member>
       <member refid="classMR_1_1Const__NoCtor__Uint64T_1a18feb8fd76209ccbe33e76d72b54545d" prot="public" virt="non-virtual"><scope>MR::Const_NoCtor_Uint64T</scope><name>Const_NoCtor_Uint64T</name></member>

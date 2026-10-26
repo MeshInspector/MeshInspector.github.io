@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a745004d0638b8bc2a5c30c32a709a763" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the map is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77751" bodyend="77754"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a4164d0fa43755e76789ee0612707dfae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__contains__</definition>
+        <argsstring>(self, RegionId arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77756" bodyend="77757"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a375338e4b8353bfa894c004dd6c5db0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__contains__</definition>
+        <argsstring>(self, typing.Any arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77759" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77759" bodyend="77760"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1af1f28c693e07e0201573770f0b9f96cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__delitem__</definition>
+        <argsstring>(self, RegionId arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77761" bodyend="77762"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a029c1d8dbcde3902710384ccf9809755" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__getitem__</definition>
+        <argsstring>(self, RegionId arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77763" bodyend="77764"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1ac86b9f67387e3b617dde831fdfefe4cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77766" bodyend="77767"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a129474789eedd7c1a87728b192f4aac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__init__</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6" kindref="compound">phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77769" bodyend="77770"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a4df4096ae65bed027b94218e9bdf67f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref>]</type>
+        <definition> typing.Iterator[RegionId] mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77771" bodyend="77772"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a0bb2c64f7f2c8ed843cc9c7f96a56b10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77773" bodyend="77774"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1adab1df9e09e7daebc367c428c56efe50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77775" bodyend="77778"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a53fc13c9015f433f1d9f3ee35b5a2570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__setitem__</definition>
+        <argsstring>(self, RegionId arg0, RegionId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77779" bodyend="77780"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a904e672a173aeb963ff1e265d61310d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ItemsView</type>
+        <definition> typing.ItemsView mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.items</definition>
+        <argsstring>(self)</argsstring>
+        <name>items</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.items</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77781" bodyend="77782"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1afd12c4d4283b35758fbf3db5ee8119dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.KeysView</type>
+        <definition> typing.KeysView mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.keys</definition>
+        <argsstring>(self)</argsstring>
+        <name>keys</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.keys</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77783" bodyend="77784"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1af1d97a90ad03c0f0245561a7ba19186f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77785" bodyend="77786"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a61a3e155124b0052819e490d7716e078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ValuesView</type>
+        <definition> typing.ValuesView mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.values</definition>
+        <argsstring>(self)</argsstring>
+        <name>values</name>
+        <qualifiedname>mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag.values</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77787" bodyend="77788"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  phmap_flat_hash_map_RegionId_RegionId_phmap_Hash_RegionId_phmap_EqualTo_RegionId_Allocator_std_pair_const_RegionId_RegionId
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="77747" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="77747" bodyend="77788"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a745004d0638b8bc2a5c30c32a709a763" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a4164d0fa43755e76789ee0612707dfae" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a375338e4b8353bfa894c004dd6c5db0d" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1af1f28c693e07e0201573770f0b9f96cd" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a029c1d8dbcde3902710384ccf9809755" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1ac86b9f67387e3b617dde831fdfefe4cf" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a129474789eedd7c1a87728b192f4aac6" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a4df4096ae65bed027b94218e9bdf67f3" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a0bb2c64f7f2c8ed843cc9c7f96a56b10" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1adab1df9e09e7daebc367c428c56efe50" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a53fc13c9015f433f1d9f3ee35b5a2570" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a904e672a173aeb963ff1e265d61310d1" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>items</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1afd12c4d4283b35758fbf3db5ee8119dd" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>keys</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1af1d97a90ad03c0f0245561a7ba19186f" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6_1a61a3e155124b0052819e490d7716e078" prot="public" virt="non-virtual"><scope>mrmeshpy::phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

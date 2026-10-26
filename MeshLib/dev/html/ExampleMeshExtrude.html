@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Documentation
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,7 +133,8 @@ $(function(){initNavTree('ExampleMeshExtrude.html','',''); });
   <div class="headertitle"><div class="title">Mesh extrude </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Example of extrude faces on mesh</p>
+<div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2MeshExtrude"></a></p>
+<p>Example of extrude faces on mesh</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBitSet.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBitSetParallelFor.h&gt;</span></div>
@@ -213,7 +207,7 @@ $(function(){initNavTree('ExampleMeshExtrude.html','',''); });
 <div class="line"><span class="comment"># Move each vertex</span></div>
 <div class="line"><span class="keywordflow">for</span> v <span class="keywordflow">in</span> range(verts_for_move.size()):</div>
 <div class="line">    <span class="keywordflow">if</span> verts_for_move.test(mrmeshpy.VertId(v)):</div>
-<div class="line">        mesh.points.vec[v] += mrmeshpy.Vector3f(0.0, 0.0, 1.0)</div>
+<div class="line">        mesh.points[mrmeshpy.VertId(v)] += mrmeshpy.Vector3f(0.0, 0.0, 1.0)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Invalidate internal caches after manual changing</span></div>
 <div class="line">mesh.invalidateCaches()</div>
@@ -240,7 +234,7 @@ $(function(){initNavTree('ExampleMeshExtrude.html','',''); });
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Handle failure to load mesh.</span></div>
@@ -253,14 +247,14 @@ $(function(){initNavTree('ExampleMeshExtrude.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Select faces to extrude</span></div>
 <div class="line">    MR_FaceBitSet* facesToExtrude = MR_FaceBitSet_DefaultConstruct();</div>
-<div class="line">    MR_FaceBitSet_autoResizeSet_2( facesToExtrude, (MR_FaceId){1}, NULL );</div>
-<div class="line">    MR_FaceBitSet_autoResizeSet_2( facesToExtrude, (MR_FaceId){2}, NULL );</div>
+<div class="line">    MR_FaceBitSet_autoResizeSet( facesToExtrude, (MR_FaceId){1}, NULL );</div>
+<div class="line">    MR_FaceBitSet_autoResizeSet( facesToExtrude, (MR_FaceId){2}, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Create duplicated verts on region boundary</span></div>
 <div class="line">    MR_makeDegenerateBandAroundRegion( mesh, facesToExtrude, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find vertices that will be moved</span></div>
-<div class="line">    MR_VertBitSet* vertsToMove = MR_getIncidentVerts_2_MR_FaceBitSet( MR_Mesh_Get_topology( mesh ), facesToExtrude );</div>
+<div class="line">    MR_VertBitSet* vertsToMove = MR_getIncidentVerts( MR_Mesh_Get_topology( mesh ), facesToExtrude );</div>
 <div class="line">    MR_Vector3f* points = MR_VertCoords_data_mut( MR_Mesh_GetMutable_points( mesh ) );</div>
 <div class="line">    MR_Vector3f shift = MR_Vector3f_plusZ();</div>
 <div class="line">    <span class="keywordtype">size_t</span> numPoints = MR_VertCoords_size( MR_Mesh_GetMutable_points( mesh ) );</div>
@@ -272,7 +266,7 @@ $(function(){initNavTree('ExampleMeshExtrude.html','',''); });
 <div class="line">    MR_Mesh_invalidateCaches( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;extruded_mesh.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;extruded_mesh.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
 <div class="line">    <span class="keywordflow">else</span></div>
@@ -308,9 +302,10 @@ $(function(){initNavTree('ExampleMeshExtrude.html','',''); });
 <div class="line">mesh.invalidateCaches();</div>
 <div class="line"> </div>
 <div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;extrudedMesh.stl&#39;);</div>
-</div><!-- fragment --></li>
+</div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
+</li>
 </ul>
-</div><div class="tabbed"></div> </div></div><!-- contents -->
+</div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

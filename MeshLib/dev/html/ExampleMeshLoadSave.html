@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib Documentation
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -140,7 +133,8 @@ $(function(){initNavTree('ExampleMeshLoadSave.html','',''); });
   <div class="headertitle"><div class="title">Loading and saving mesh files </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Following code presents example of loading and saving mesh file</p>
+<div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2MeshLoadSave"></a></p>
+<p>Following code presents example of loading and saving mesh file</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
@@ -225,22 +219,27 @@ MR::MeshSave</dd></dl>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>** argv )</div>
 <div class="line">{</div>
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
+<div class="line">    <span class="keyword">const</span> <span class="keywordtype">char</span>* inputPath = argc &gt; 1 ? argv[1] : <span class="stringliteral">&quot;mesh.stl&quot;</span>;</div>
+<div class="line">    <span class="keyword">const</span> <span class="keywordtype">char</span>* outputPath = argc &gt; 2 ? argv[2] : <span class="stringliteral">&quot;mesh.ply&quot;</span>;</div>
+<div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( inputPath, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshEx ) ) );</div>
+<div class="line">        <span class="keywordflow">if</span> ( argc &lt;= 1 )</div>
+<div class="line">            fprintf( stderr, <span class="stringliteral">&quot;Usage: MeshLoadSave [input mesh] [output mesh]\n&quot;</span> );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_load;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save mesh.</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, outputPath, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -257,11 +256,18 @@ MR::MeshSave</dd></dl>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshLoadSaveExample</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
+<div class="line">            <span class="comment">// This example needs an input mesh; create one if you do not have it already</span></div>
+<div class="line">            <span class="keywordflow">if</span> (!File.Exists(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
+<div class="line">                MR.MeshSave.toAnySupportedFormat(MR.makeCube(), <span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// Load mesh</span></div>
 <div class="line">            var mesh = MR.MeshLoad.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">            <span class="comment">// Save it in another format</span></div>
 <div class="line">            MR.MeshSave.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
@@ -280,6 +286,61 @@ MR::MeshSave</dd></dl>
 <div class="line"> </div>
 <div class="line">// Save mesh (the format is chosen from the file extension)</div>
 <div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;mesh.ply&#39;);</div>
+</div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
+</li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    let args: Vec&lt;String&gt; = std::env::args().collect();</div>
+<div class="line">    let input_path = args.get(1).map_or(&quot;mesh.stl&quot;, String::as_str);</div>
+<div class="line">    let output_path = args.get(2).map_or(&quot;mesh.ply&quot;, String::as_str);</div>
+<div class="line"> </div>
+<div class="line">    // Load mesh. `into_result()` turns the returned `expected` into a Rust `Result`.</div>
+<div class="line">    let mesh = meshlib::mesh_load::from_any_supported_format(input_path, None).into_result().map_err(|error|</div>
+<div class="line">    {</div>
+<div class="line">        if args.len() &lt;= 1</div>
+<div class="line">        {</div>
+<div class="line">            eprintln!(&quot;Usage: MeshLoadSave [input mesh] [output mesh]&quot;);</div>
+<div class="line">        }</div>
+<div class="line">        format!(&quot;Failed to load mesh: {error}&quot;)</div>
+<div class="line">    })?;</div>
+<div class="line"> </div>
+<div class="line">    // Save mesh.</div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format(&amp;mesh, output_path, None).into_result().map_err(|error| format!(&quot;Failed to save mesh: {error}&quot;))?;</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.UnexpectedResultException;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>MeshLoadSave</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        String inputPath = args.length &gt; 0 ? args[0] : <span class="stringliteral">&quot;mesh.stl&quot;</span>;</div>
+<div class="line">        String outputPath = args.length &gt; 1 ? args[1] : <span class="stringliteral">&quot;mesh.ply&quot;</span>;</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Load mesh. The C++ function returns `Expected&lt;Mesh&gt;`: the Java wrapper returns the mesh, or throws the error.</span></div>
+<div class="line">        Mesh mesh;</div>
+<div class="line">        <span class="keywordflow">try</span></div>
+<div class="line">        {</div>
+<div class="line">            mesh = meshlib.meshload.Functions.fromAnySupportedFormat(inputPath, <span class="keyword">null</span>);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">catch</span> (UnexpectedResultException e)</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordflow">if</span> (args.length == 0)</div>
+<div class="line">                System.err.println(<span class="stringliteral">&quot;Usage: MeshLoadSave [input mesh] [output mesh]&quot;</span>);</div>
+<div class="line">            System.err.println(<span class="stringliteral">&quot;Failed to load mesh: &quot;</span> + e.getMessage());</div>
+<div class="line">            System.exit(1);</div>
+<div class="line">            <span class="keywordflow">return</span>;</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Save mesh. An error is thrown the same way.</span></div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(mesh, outputPath, <span class="keyword">null</span>);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

@@ -14,13 +14,9 @@
     }
   }();
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
-  <!-- End Google Tag Manager -->
+<!-- Cookie banner and analytics of meshlib.io: the same banner, consent cookie and trackers
+     as the site; trackers load only after the visitor consents. Keep this tag. -->
+<script src="/consent/embed.js" defer></script>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
@@ -64,10 +60,6 @@ MathJax.Hub.Config({
 </script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
@@ -77,6 +69,7 @@ MathJax.Hub.Config({
   <td id="projectalign">
    <div id="projectname">MeshLib C++ Docs
    </div>
+   <div id="livedemo"><a href="https://demo.meshlib.io/" title="MeshLib running in the browser as JavaScript and WebAssembly"><span aria-hidden="true">&#9654;</span> Live demo</a></div>
   </td>
  </tr>
  </tbody>
@@ -159,22 +152,22 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gac4c37be3306e0f2f94b1f076948e9d52" id="r_gac4c37be3306e0f2f94b1f076948e9d52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac4c37be3306e0f2f94b1f076948e9d52">MR::reportProgress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, float v)</td></tr>
-<tr class="memdesc:gac4c37be3306e0f2f94b1f076948e9d52"><td class="mdescLeft">&#160;</td><td class="mdescRight">safely invokes  <br /></td></tr>
-<tr class="memitem:ga78edb9882955009fb3d0a6c9e9e16edc" id="r_ga78edb9882955009fb3d0a6c9e9e16edc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga78edb9882955009fb3d0a6c9e9e16edc">MR::reportProgress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, float v, size_t counter, int divider)</td></tr>
-<tr class="memitem:ga78bcc7568ccf7393135139bb82e02d4c" id="r_ga78bcc7568ccf7393135139bb82e02d4c"><td class="memTemplParams" colspan="2">template&lt;typename F&gt; </td></tr>
-<tr class="memitem:ga78bcc7568ccf7393135139bb82e02d4c template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga78bcc7568ccf7393135139bb82e02d4c">MR::reportProgress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, F &amp;&amp;f)</td></tr>
-<tr class="memitem:ga990d1271cf502f5cce9a6e0385d59fc6" id="r_ga990d1271cf502f5cce9a6e0385d59fc6"><td class="memTemplParams" colspan="2">template&lt;typename F&gt; </td></tr>
-<tr class="memitem:ga990d1271cf502f5cce9a6e0385d59fc6 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga990d1271cf502f5cce9a6e0385d59fc6">MR::reportProgress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, F &amp;&amp;f, size_t counter, int divider)</td></tr>
-<tr class="memitem:gaa7718474a39816227de773e1ba6fdfa8" id="r_gaa7718474a39816227de773e1ba6fdfa8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa7718474a39816227de773e1ba6fdfa8">MR::subprogress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, float from, float to)</td></tr>
+<tr class="memitem:ga0250568975d79b3b0da56e95a15280e4" id="r_ga0250568975d79b3b0da56e95a15280e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0250568975d79b3b0da56e95a15280e4">MR::reportProgress</a> (const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>, float v)</td></tr>
+<tr class="memdesc:ga0250568975d79b3b0da56e95a15280e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">safely invokes  <br /></td></tr>
+<tr class="memitem:gaec39cb3fe59abe04aaf824bbfdf39891" id="r_gaec39cb3fe59abe04aaf824bbfdf39891"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaec39cb3fe59abe04aaf824bbfdf39891">MR::reportProgress</a> (const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>, float v, size_t counter, int divider)</td></tr>
+<tr class="memitem:gac6100456bdbb6ae9072d42eb4b7c9381" id="r_gac6100456bdbb6ae9072d42eb4b7c9381"><td class="memTemplParams" colspan="2">template&lt;typename F&gt; </td></tr>
+<tr class="memitem:gac6100456bdbb6ae9072d42eb4b7c9381 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac6100456bdbb6ae9072d42eb4b7c9381">MR::reportProgress</a> (const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>, F &amp;&amp;f)</td></tr>
+<tr class="memitem:ga2f2ae2e700d94e5f4ddf89f458d12736" id="r_ga2f2ae2e700d94e5f4ddf89f458d12736"><td class="memTemplParams" colspan="2">template&lt;typename F&gt; </td></tr>
+<tr class="memitem:ga2f2ae2e700d94e5f4ddf89f458d12736 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2f2ae2e700d94e5f4ddf89f458d12736">MR::reportProgress</a> (const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>, F &amp;&amp;f, size_t counter, int divider)</td></tr>
+<tr class="memitem:gaa7718474a39816227de773e1ba6fdfa8" id="r_gaa7718474a39816227de773e1ba6fdfa8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa7718474a39816227de773e1ba6fdfa8">MR::subprogress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> <a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>, float from, float to)</td></tr>
 <tr class="memdesc:gaa7718474a39816227de773e1ba6fdfa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a callback that maps [0,1] linearly into [from,to] in the call to  <br /></td></tr>
 <tr class="memitem:ga135674a0320e958c28f73bb6c608cd54" id="r_ga135674a0320e958c28f73bb6c608cd54"><td class="memTemplParams" colspan="2">template&lt;typename F&gt; </td></tr>
-<tr class="memitem:ga135674a0320e958c28f73bb6c608cd54 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga135674a0320e958c28f73bb6c608cd54">MR::subprogress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, F &amp;&amp;f)</td></tr>
+<tr class="memitem:ga135674a0320e958c28f73bb6c608cd54 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga135674a0320e958c28f73bb6c608cd54">MR::subprogress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> <a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>, F &amp;&amp;f)</td></tr>
 <tr class="memdesc:ga135674a0320e958c28f73bb6c608cd54"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a callback that maps the value with given function  <br /></td></tr>
-<tr class="memitem:ga2780b3d4b6af333b3d16f30fc3cc0ff0" id="r_ga2780b3d4b6af333b3d16f30fc3cc0ff0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2780b3d4b6af333b3d16f30fc3cc0ff0">MR::subprogress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, size_t index, size_t count)</td></tr>
+<tr class="memitem:ga2780b3d4b6af333b3d16f30fc3cc0ff0" id="r_ga2780b3d4b6af333b3d16f30fc3cc0ff0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2780b3d4b6af333b3d16f30fc3cc0ff0">MR::subprogress</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> <a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>, size_t index, size_t count)</td></tr>
 <tr class="memdesc:ga2780b3d4b6af333b3d16f30fc3cc0ff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a callback that maps [0,1] linearly into [(index+0)/count,(index+1)/count] in the call to  <br /></td></tr>
 <tr class="memitem:ga8692e04aee98b255e6f4a5d46a1d27e4" id="r_ga8692e04aee98b255e6f4a5d46a1d27e4"><td class="memTemplParams" colspan="2">template&lt;typename ... Ts&gt; </td></tr>
-<tr class="memitem:ga8692e04aee98b255e6f4a5d46a1d27e4 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8692e04aee98b255e6f4a5d46a1d27e4">MR::splitProgress</a> (const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb, Ts ... thresholds)</td></tr>
+<tr class="memitem:ga8692e04aee98b255e6f4a5d46a1d27e4 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8692e04aee98b255e6f4a5d46a1d27e4">MR::splitProgress</a> (const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>, Ts ... thresholds)</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

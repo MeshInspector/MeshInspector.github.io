@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__DeloneFlipsCache" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_DeloneFlipsCache</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1DeloneFlipsCache" prot="public" virt="non-virtual">MR.DeloneFlipsCache</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__DeloneFlipsCache_1a07aa4d1a97ab5f27379c5c15362d40f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.Const_UndirectedEdgeBitSet MR.Const_DeloneFlipsCache.flipCandidates</definition>
+        <argsstring></argsstring>
+        <name>flipCandidates</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.flipCandidates</qualifiedname>
+        <briefdescription>
+<para>of the parallel passes (a mesh of 256 undirected edges or more) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="31" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DeloneFlipsCache_1a5db43626660a8c14b6b4d0b29960f444" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.Const_UndirectedEdgeBitSet MR.Const_DeloneFlipsCache.nextFlipCandidates</definition>
+        <argsstring></argsstring>
+        <name>nextFlipCandidates</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.nextFlipCandidates</qualifiedname>
+        <briefdescription>
+<para>of the parallel passes (a mesh of 256 undirected edges or more) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="36" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DeloneFlipsCache_1a281cb75263f90326916e1cff4b1d59cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.Const_UndirectedEdgeBitSet MR.Const_DeloneFlipsCache.queuedEdges</definition>
+        <argsstring></argsstring>
+        <name>queuedEdges</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.queuedEdges</qualifiedname>
+        <briefdescription>
+<para>of the serial rounds (a smaller mesh): the edges already queued for the next round, and the two rounds </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="41" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DeloneFlipsCache_1a124c78729a66b3d173916f15dbe3564d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRUndirectedEdgeId</type>
+        <definition>unsafe MR.Std.Const_Vector_MRUndirectedEdgeId MR.Const_DeloneFlipsCache.roundEdges</definition>
+        <argsstring></argsstring>
+        <name>roundEdges</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.roundEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="43" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DeloneFlipsCache_1a3ab498102e8dd19f96f2fed7037c85e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRUndirectedEdgeId</type>
+        <definition>unsafe MR.Std.Const_Vector_MRUndirectedEdgeId MR.Const_DeloneFlipsCache.nextRoundEdges</definition>
+        <argsstring></argsstring>
+        <name>nextRoundEdges</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.nextRoundEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="45" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__DeloneFlipsCache_1a847d71241fc81b4c9b7918893c123eee" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_DeloneFlipsCache.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="16" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__DeloneFlipsCache_1a3464814bb636e335550f9f2d7ca85c32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_DeloneFlipsCache.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="25" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DeloneFlipsCache_1a7114bca331cf9d9a9a1a20c48f96c4e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DeloneFlipsCache.Const_DeloneFlipsCache</definition>
+        <argsstring>()</argsstring>
+        <name>Const_DeloneFlipsCache</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.Const_DeloneFlipsCache</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="101" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="101" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DeloneFlipsCache_1a1a0a69536bf475ca1371fb06ba10d83f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DeloneFlipsCache.Const_DeloneFlipsCache</definition>
+        <argsstring>(MR._ByValue_UndirectedEdgeBitSet flipCandidates, MR._ByValue_UndirectedEdgeBitSet nextFlipCandidates, MR._ByValue_UndirectedEdgeBitSet queuedEdges, MR.Std._ByValue_Vector_MRUndirectedEdgeId roundEdges, MR.Std._ByValue_Vector_MRUndirectedEdgeId nextRoundEdges)</argsstring>
+        <name>Const_DeloneFlipsCache</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.Const_DeloneFlipsCache</qualifiedname>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeBitSet</type>
+          <declname>flipCandidates</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeBitSet</type>
+          <declname>nextFlipCandidates</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeBitSet</type>
+          <declname>queuedEdges</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Vector_MRUndirectedEdgeId</type>
+          <declname>roundEdges</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Vector_MRUndirectedEdgeId</type>
+          <declname>nextRoundEdges</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1DeloneFlipsCache" kindref="compound">MR.DeloneFlipsCache</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="112" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="112" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DeloneFlipsCache_1a3d33f84f7b46e251e8fdcfeb6fe8d82a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DeloneFlipsCache.Const_DeloneFlipsCache</definition>
+        <argsstring>(MR._ByValue_DeloneFlipsCache _other)</argsstring>
+        <name>Const_DeloneFlipsCache</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.Const_DeloneFlipsCache</qualifiedname>
+        <param>
+          <type>MR._ByValue_DeloneFlipsCache</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DeloneFlipsCache_1aee1c0fdf47f2031b53a5c9ddd01d4f44" kindref="member">MR.DeloneFlipsCache.DeloneFlipsCache</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="128" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="128" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DeloneFlipsCache_1a18f9ec49aca582ddde63ff5f93392315" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DeloneFlipsCache.Const_DeloneFlipsCache</definition>
+        <argsstring>(Const_DeloneFlipsCache _other)</argsstring>
+        <name>Const_DeloneFlipsCache</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.Const_DeloneFlipsCache</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__DeloneFlipsCache" kindref="compound">Const_DeloneFlipsCache</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DeloneFlipsCache_1aee1c0fdf47f2031b53a5c9ddd01d4f44" kindref="member">MR.DeloneFlipsCache.DeloneFlipsCache</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="140" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="140" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DeloneFlipsCache_1abe6e447bbaf2dba84f4c0f91488d9e47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DeloneFlipsCache.Const_DeloneFlipsCache</definition>
+        <argsstring>(DeloneFlipsCache _other)</argsstring>
+        <name>Const_DeloneFlipsCache</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.Const_DeloneFlipsCache</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DeloneFlipsCache" kindref="compound">DeloneFlipsCache</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DeloneFlipsCache_1aee1c0fdf47f2031b53a5c9ddd01d4f44" kindref="member">MR.DeloneFlipsCache.DeloneFlipsCache</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="145" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="145" bodyend="145"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__DeloneFlipsCache_1afe1ad2d84bba92a578333471fd3cbb75" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DeloneFlipsCache.~Const_DeloneFlipsCache</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_DeloneFlipsCache</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.~Const_DeloneFlipsCache</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="26" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__DeloneFlipsCache_1a9930152f3fbe94e99b2ac92dee58806c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DeloneFlipsCache.Const_DeloneFlipsCache</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_DeloneFlipsCache</name>
+        <qualifiedname>MR.Const_DeloneFlipsCache.Const_DeloneFlipsCache</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="90" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="90" bodyend="95"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>the buffers makeDeloneEdgeFlips grows on every call; a caller running it many times on small meshes (e.g. one hole patch after another) keeps one instance between the calls to allocate them just once; one cache must not be used by several threads at once Generated from class <computeroutput><ref refid="classMR_1_1DeloneFlipsCache" kindref="compound">MR.DeloneFlipsCache</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_DeloneFlipsCache</label>
+        <link refid="classMR_1_1Const__DeloneFlipsCache"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.DeloneFlipsCache</label>
+        <link refid="classMR_1_1DeloneFlipsCache"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_DeloneFlipsCache</label>
+        <link refid="classMR_1_1Const__DeloneFlipsCache"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="10" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="11" bodyend="146"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1a9930152f3fbe94e99b2ac92dee58806c" prot="package" virt="non-virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>Const_DeloneFlipsCache</name></member>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1a7114bca331cf9d9a9a1a20c48f96c4e5" prot="public" virt="non-virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>Const_DeloneFlipsCache</name></member>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1a1a0a69536bf475ca1371fb06ba10d83f" prot="public" virt="non-virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>Const_DeloneFlipsCache</name></member>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1a3d33f84f7b46e251e8fdcfeb6fe8d82a" prot="public" virt="non-virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>Const_DeloneFlipsCache</name></member>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1a18f9ec49aca582ddde63ff5f93392315" prot="public" virt="non-virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>Const_DeloneFlipsCache</name></member>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1abe6e447bbaf2dba84f4c0f91488d9e47" prot="public" virt="non-virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>Const_DeloneFlipsCache</name></member>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1a847d71241fc81b4c9b7918893c123eee" prot="protected" virt="virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1a3464814bb636e335550f9f2d7ca85c32" prot="public" virt="virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1a07aa4d1a97ab5f27379c5c15362d40f5" prot="public" virt="non-virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>flipCandidates</name></member>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1a5db43626660a8c14b6b4d0b29960f444" prot="public" virt="non-virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>nextFlipCandidates</name></member>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1a3ab498102e8dd19f96f2fed7037c85e9" prot="public" virt="non-virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>nextRoundEdges</name></member>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1a281cb75263f90326916e1cff4b1d59cf" prot="public" virt="non-virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>queuedEdges</name></member>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1a124c78729a66b3d173916f15dbe3564d" prot="public" virt="non-virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>roundEdges</name></member>
+      <member refid="classMR_1_1Const__DeloneFlipsCache_1afe1ad2d84bba92a578333471fd3cbb75" prot="private" virt="non-virtual"><scope>MR::Const_DeloneFlipsCache</scope><name>~Const_DeloneFlipsCache</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

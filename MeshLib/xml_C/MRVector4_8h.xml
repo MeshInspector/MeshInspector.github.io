@@ -405,9 +405,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="105" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" declline="105" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector4_8h_1a99e3fb3b2c6b8c35cc7de1a2a6c040ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
-        <definition>MRC_API bool MR_Vector4b_lengthSq</definition>
+      <memberdef kind="function" id="MRVector4_8h_1af6294553fb0e66fcc3d4aac2b42b989f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
+        <definition>MRC_API int MR_Vector4b_lengthSq</definition>
         <argsstring>(const MR_Vector4b *_this)</argsstring>
         <name>MR_Vector4b_lengthSq</name>
         <param>
@@ -421,7 +421,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="109" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" declline="109" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="109" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" declline="109" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRVector4_8h_1a7bc836baf2813f8ff63b734755e4c97f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
@@ -3465,9 +3465,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="823" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" declline="823" declcolumn="23"/>
       </memberdef>
-      <memberdef kind="function" id="MRVector4_8h_1a0c85c1d7ca70f236a2c3b50124c372f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> unsigned char</type>
-        <definition>MRC_API unsigned char MR_Vector4_unsigned_char_lengthSq</definition>
+      <memberdef kind="function" id="MRVector4_8h_1a189bb6d3da732b9ccdcc408725ad612e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
+        <definition>MRC_API int MR_Vector4_unsigned_char_lengthSq</definition>
         <argsstring>(const MR_Vector4_unsigned_char *_this)</argsstring>
         <name>MR_Vector4_unsigned_char_lengthSq</name>
         <param>
@@ -3481,7 +3481,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="827" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" declline="827" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" line="827" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRVector4.h" declline="827" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRVector4_8h_1a58b1dab9c7da925bc76220389f20962a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
@@ -4037,7 +4037,7 @@
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
 <codeline lineno="105" refid="MRVector4_8h_1a10ceb8319abc3965f025a48394c90bef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRVector4_8h_1a10ceb8319abc3965f025a48394c90bef" kindref="member">MR_Vector4b_index_mut</ref>(<ref refid="structMR__Vector4b" kindref="compound">MR_Vector4b</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRVector4_8h_1a99e3fb3b2c6b8c35cc7de1a2a6c040ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRVector4_8h_1a99e3fb3b2c6b8c35cc7de1a2a6c040ff" kindref="member">MR_Vector4b_lengthSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector4b" kindref="compound">MR_Vector4b</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109" refid="MRVector4_8h_1af6294553fb0e66fcc3d4aac2b42b989f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVector4_8h_1af6294553fb0e66fcc3d4aac2b42b989f" kindref="member">MR_Vector4b_lengthSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector4b" kindref="compound">MR_Vector4b</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="113" refid="MRVector4_8h_1a7bc836baf2813f8ff63b734755e4c97f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRVector4_8h_1a7bc836baf2813f8ff63b734755e4c97f" kindref="member">MR_Vector4b_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector4b" kindref="compound">MR_Vector4b</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
@@ -4340,7 +4340,7 @@
 <codeline lineno="819"><highlight class="normal"></highlight></codeline>
 <codeline lineno="823" refid="MRVector4_8h_1a60d872fcc6a91e9abfd199f820446550" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRVector4_8h_1a60d872fcc6a91e9abfd199f820446550" kindref="member">MR_Vector4_unsigned_char_index_mut</ref>(<ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="824"><highlight class="normal"></highlight></codeline>
-<codeline lineno="827" refid="MRVector4_8h_1a0c85c1d7ca70f236a2c3b50124c372f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MRVector4_8h_1a0c85c1d7ca70f236a2c3b50124c372f3" kindref="member">MR_Vector4_unsigned_char_lengthSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="827" refid="MRVector4_8h_1a189bb6d3da732b9ccdcc408725ad612e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRVector4_8h_1a189bb6d3da732b9ccdcc408725ad612e" kindref="member">MR_Vector4_unsigned_char_lengthSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="828"><highlight class="normal"></highlight></codeline>
 <codeline lineno="831" refid="MRVector4_8h_1a58b1dab9c7da925bc76220389f20962a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRVector4_8h_1a58b1dab9c7da925bc76220389f20962a" kindref="member">MR_Vector4_unsigned_char_length</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMatrix4_8h_1aff8d82a4de868d97999c3be4cd2f9893" kindref="member">MR_Vector4_unsigned_char</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="832"><highlight class="normal"></highlight></codeline>

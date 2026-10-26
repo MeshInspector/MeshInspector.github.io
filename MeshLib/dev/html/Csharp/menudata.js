@@ -25,12 +25,15 @@
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
 {text:"About",url:"../index.html"},
+{text:"Live Demo",url:"^https://demo.meshlib.io/"},
 {text:"Getting Started",url:"../InstallationGuide.html",children:[
 {text:"Python",url:"../MeshLibPythonSetupGuide.html"},
 {text:"C++",url:"../MeshLibCppSetupGuide.html"},
 {text:"C#",url:"../MeshLibCSharpSetupGuide.html"},
 {text:"C",url:"../MeshLibCSetupGuide.html"},
 {text:"JavaScript",url:"../MeshLibJsSetupGuide.html"},
+{text:"Rust",url:"../MeshLibRustSetupGuide.html"},
+{text:"Java",url:"../MeshLibJavaSetupGuide.html"},
 {text:"CMake",url:"../MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"../License.html"},
 {text:"How to cite",url:"../Citation.html"},
@@ -128,7 +131,8 @@ var menudata={children:[
 {text:"y",url:"functions_y.html#index_y"},
 {text:"z",url:"functions_z.html#index_z"}]},
 {text:"Functions",url:"functions_func.html",children:[
-{text:"a",url:"functions_func.html#index_a"},
+{text:"_",url:"functions_func.html#index__5F"},
+{text:"a",url:"functions_func_a.html#index_a"},
 {text:"b",url:"functions_func_b.html#index_b"},
 {text:"c",url:"functions_func_c.html#index_c"},
 {text:"d",url:"functions_func_d.html#index_d"},

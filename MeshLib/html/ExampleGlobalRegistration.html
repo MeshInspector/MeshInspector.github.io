@@ -140,7 +140,9 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
   <div class="headertitle"><div class="title">Global Registration </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Example of Global Registration</p>
+<div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2GlobalRegistration"></a></p>
+<p>Example of Global Registration</p>
+<p>▶ <a href="https://demo.meshlib.io/#registration">See it live in the browser</a></p>
 <div class="tabbed"></div><div class="tabbed"><ul>
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMultiwayICP.h&gt;</span></div>
@@ -500,22 +502,23 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">            Console.WriteLine($<span class="stringliteral">&quot;RMS point-to-plane distance: {p2plMetric} ± {p2plInaccuracy}&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordflow">if</span> (args.Length &lt; 4)</div>
+<div class="line">        <span class="keywordflow">if</span> (args.Length &lt; 3)</div>
 <div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} GlobalRegistrationExample INPUT1 INPUT2 [INPUTS...] OUTPUT&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} INPUT1 INPUT2 [INPUTS...] OUTPUT&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
 <div class="line">            <span class="keywordflow">return</span>;</div>
 <div class="line">        }</div>
 <div class="line"> </div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            <span class="keywordtype">int</span> inputNum = args.Length - 2;</div>
+<div class="line">            <span class="comment">// INPUT1, INPUT2, ... are point cloud files you supply: partial scans of one object to be aligned</span></div>
+<div class="line">            <span class="keywordtype">int</span> inputNum = args.Length - 1;</div>
 <div class="line">            MR.Vector_MRMeshOrPointsXf_MRObjId inputs = <span class="keyword">new</span>();</div>
 <div class="line">            MR.Box3f maxBBox = <span class="keyword">new</span>();</div>
 <div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputNum; ++i)</div>
 <div class="line">            {</div>
-<div class="line">                var pc = MR.PointsLoad.fromAnySupportedFormat(args[i + 1]);</div>
+<div class="line">                var pc = MR.PointsLoad.fromAnySupportedFormat(args[i]);</div>
 <div class="line">                MR.MeshOrPointsXf obj = <span class="keyword">new</span> MR.MeshOrPointsXf(pc, <span class="keyword">new</span> MR.AffineXf3f());</div>
 <div class="line">                inputs.pushBack(obj);</div>
 <div class="line">                maxBBox.include(obj.obj.computeBoundingBox());</div>
@@ -614,9 +617,10 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line">ml.PointsSave.toAnySupportedFormat(output, outputPath);</div>
-</div><!-- fragment --></li>
+</div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
+</li>
 </ul>
-</div><div class="tabbed"></div> </div></div><!-- contents -->
+</div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->
