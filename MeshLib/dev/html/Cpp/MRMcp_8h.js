@@ -5,6 +5,7 @@ var MRMcp_8h =
     [ "MR::Mcp::Schema::String", "structMR_1_1Mcp_1_1Schema_1_1String.html", "structMR_1_1Mcp_1_1Schema_1_1String" ],
     [ "MR::Mcp::Schema::Bool", "structMR_1_1Mcp_1_1Schema_1_1Bool.html", "structMR_1_1Mcp_1_1Schema_1_1Bool" ],
     [ "MR::Mcp::Schema::Array", "structMR_1_1Mcp_1_1Schema_1_1Array.html", "structMR_1_1Mcp_1_1Schema_1_1Array" ],
+    [ "MR::Mcp::Schema::AnyOf", "structMR_1_1Mcp_1_1Schema_1_1AnyOf.html", "structMR_1_1Mcp_1_1Schema_1_1AnyOf" ],
     [ "MR::Mcp::Schema::Object", "structMR_1_1Mcp_1_1Schema_1_1Object.html", "structMR_1_1Mcp_1_1Schema_1_1Object" ],
     [ "MR::Mcp::Server", "classMR_1_1Mcp_1_1Server.html", "classMR_1_1Mcp_1_1Server" ],
     [ "MR::Mcp::Server::Params", "structMR_1_1Mcp_1_1Server_1_1Params.html", "structMR_1_1Mcp_1_1Server_1_1Params" ],

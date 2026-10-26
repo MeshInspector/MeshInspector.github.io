@@ -39,6 +39,7 @@ var hierarchy =
     [ "MR::Ball< V >", "structMR_1_1Ball.html", null ],
     [ "MR::BallPivotCandidate", "structMR_1_1BallPivotCandidate.html", null ],
     [ "MR::Mcp::Schema::Base", "structMR_1_1Mcp_1_1Schema_1_1Base.html", [
+      [ "MR::Mcp::Schema::AnyOf", "structMR_1_1Mcp_1_1Schema_1_1AnyOf.html", null ],
       [ "MR::Mcp::Schema::Array", "structMR_1_1Mcp_1_1Schema_1_1Array.html", null ],
       [ "MR::Mcp::Schema::Bool", "structMR_1_1Mcp_1_1Schema_1_1Bool.html", null ],
       [ "MR::Mcp::Schema::Number", "structMR_1_1Mcp_1_1Schema_1_1Number.html", null ],

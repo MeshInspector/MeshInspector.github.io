@@ -122,6 +122,7 @@ var annotated_dup =
       ] ],
       [ "Mcp", "namespaceMR_1_1Mcp.html", [
         [ "Schema", "namespaceMR_1_1Mcp_1_1Schema.html", [
+          [ "AnyOf", "structMR_1_1Mcp_1_1Schema_1_1AnyOf.html", "structMR_1_1Mcp_1_1Schema_1_1AnyOf" ],
           [ "Array", "structMR_1_1Mcp_1_1Schema_1_1Array.html", "structMR_1_1Mcp_1_1Schema_1_1Array" ],
           [ "Base", "structMR_1_1Mcp_1_1Schema_1_1Base.html", "structMR_1_1Mcp_1_1Schema_1_1Base" ],
           [ "Bool", "structMR_1_1Mcp_1_1Schema_1_1Bool.html", "structMR_1_1Mcp_1_1Schema_1_1Bool" ],

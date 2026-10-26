@@ -137,9 +137,6 @@ $(function(){initNavTree('structMR_1_1Mcp_1_1Schema_1_1Array.html','','structMR_
 </div><!--header-->
 <div class="contents">
 
-<p>A schema describing an array of whatever is passed to the constructor.  
- <a href="#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="MRMcp_8h_source.html">MRMcp/MRMcp.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR::Mcp::Schema::Array:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -167,7 +164,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ad8d4f52c560bc15c39cc7651fe3d6319 inherit pro_attribs_structMR_1_1Mcp_1_1Schema_1_1Base" id="r_ad8d4f52c560bc15c39cc7651fe3d6319"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Mcp_1_1Schema_1_1Base.html#ad8d4f52c560bc15c39cc7651fe3d6319">json</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A schema describing an array of whatever is passed to the constructor. </p>
+<div class="textblock"><p>A schema describing an array of whatever is passed to the constructor. For an array of arrays write <span class="tt"><a class="el" href="structMR_1_1Mcp_1_1Schema_1_1Array.html">Array</a>( Base( Array( ... ) ) )</span>: <span class="tt">Array( Array( ... ) )</span> is just the inner array, because initializing from a prvalue of the same type skips the constructors. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a80a4e6ffb1a7ec7fddabf00b31a7c2b5" name="a80a4e6ffb1a7ec7fddabf00b31a7c2b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80a4e6ffb1a7ec7fddabf00b31a7c2b5">&#9670;&#160;</a></span>Array()</h2>
