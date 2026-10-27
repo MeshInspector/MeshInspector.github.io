@@ -311,7 +311,7 @@ var group__AABBTreeGroup =
     [ "MR::PolylineIntersectionCallback2", "group__AABBTreeGroup.html#ga80d1c820a9a9983c511c6785b2c8ed94", null ],
     [ "MR::PolylineIntersectionCallback2d", "group__AABBTreeGroup.html#gaba7cace2c59d8ea1874ea0223d3c3d42", null ],
     [ "MR::PolylineIntersectionCallback2f", "group__AABBTreeGroup.html#gae0b1767f78412a4100c7baa4ae2cb2de", null ],
-    [ "MR::PreciseCollisionResult", "group__AABBTreeGroup.html#ga457b7bb3a129cf50a82586b670a93148", null ],
+    [ "MR::PreciseCollisionResult", "group__AABBTreeGroup.html#gabe6f25bc80391d73c9e217bdcd4769d3", null ],
     [ "MR::TriangleCallback", "group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057", null ],
     [ "MR::MeshMeshCollisionStatus", "group__AABBTreeGroup.html#ga5aa465c33f4b7d12b07ec82baf32654b", [
       [ "MR::MeshMeshCollisionStatus::BothOutside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba5bd109aa9c521d02a6d4842204e14e65", null ],

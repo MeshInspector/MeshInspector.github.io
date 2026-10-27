@@ -2,9 +2,9 @@ var classmrmeshpy_1_1BooleanPreCutResult =
 [
     [ "__init__", "classmrmeshpy_1_1BooleanPreCutResult.html#a414b24d8b6724d528c194f2dc9199ddc", null ],
     [ "__init__", "classmrmeshpy_1_1BooleanPreCutResult.html#a6c5bca6c764fe73539c0d2e2eb8e7cf2", null ],
-    [ "__init__", "classmrmeshpy_1_1BooleanPreCutResult.html#a86286191c2146037c3d17d7e7579950c", null ],
-    [ "intersections", "classmrmeshpy_1_1BooleanPreCutResult.html#aef6ea0ab1188109dfc75c451a3cb7a76", null ],
-    [ "intersections", "classmrmeshpy_1_1BooleanPreCutResult.html#ac55ccf9aaa73040111bbc0267a41e1d4", null ],
+    [ "__init__", "classmrmeshpy_1_1BooleanPreCutResult.html#a2cc75a4bbd70e5643a7b799a29f943ae", null ],
+    [ "intersections", "classmrmeshpy_1_1BooleanPreCutResult.html#a5da640480ce9c2b519f4e162ff88c21a", null ],
+    [ "intersections", "classmrmeshpy_1_1BooleanPreCutResult.html#a904b820637f5ec516f979f93db8d795a", null ],
     [ "isMeshA", "classmrmeshpy_1_1BooleanPreCutResult.html#a6b9466443cfff88dd03d61816edbf550", null ],
     [ "isMeshA", "classmrmeshpy_1_1BooleanPreCutResult.html#a8cb8f88826a5771134472e96767babd4", null ],
     [ "meshAVertsNum", "classmrmeshpy_1_1BooleanPreCutResult.html#a1b8f57fd0fdff031aae92e13f98afd87", null ],

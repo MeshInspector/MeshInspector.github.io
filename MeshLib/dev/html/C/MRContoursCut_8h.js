@@ -5,21 +5,21 @@ var MRContoursCut_8h =
     [ "MR_CutMeshParameters_FillPart", "MRContoursCut_8h.html#a47dc3da15e34c5b8f2432f3754bcf97b", null ],
     [ "MR_CutMeshResult", "MRContoursCut_8h.html#a1ef5cd763a69b557722dd0e3f63df036", null ],
     [ "MR_expected_MR_FaceBitSet_std_string", "MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b", null ],
-    [ "MR_expected_std_vector_MR_OneMeshContour_std_string", "MRContoursCut_8h.html#a4be6517a31b66da090092aa8bb37c304", null ],
+    [ "MR_expected_MR_Vector_MR_OneMeshContour_std_string", "MRContoursCut_8h.html#a5b5774901b30d87b18dad2d2cf27295c", null ],
     [ "MR_expected_std_vector_std_vector_MR_EdgeId_std_string", "MRContoursCut_8h.html#afbb58c6b3a4c5746c9ae773c02b24591", null ],
     [ "MR_NewEdgesMap", "MRContoursCut_8h.html#a69fca42fce5993f181e99f89af5fa322", null ],
     [ "MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int_phmap_Hash_MR_UndirectedEdgeId_phmap_EqualTo_MR_UndirectedEdgeId_MR_Allocator_std_pair_const_MR_UndirectedEdgeId_int", "MRContoursCut_8h.html#ae4f2aa48437cf58e0fb0c2fdc5162403", null ],
     [ "MR_SearchPathSettings", "MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8", null ],
     [ "MR_SortIntersectionsData", "MRContoursCut_8h.html#abf340aafe859554b2c4dd858ad318988", null ],
     [ "MR_std_function_float_from_int", "MRContoursCut_8h.html#a984bdb18a92ceb4f93e877ad306ad832", null ],
-    [ "MR_std_vector_MR_OneMeshContour", "MRContoursCut_8h.html#a071da9f0f67109f51758510529ba0b5b", null ],
+    [ "MR_Vector_MR_OneMeshContour", "MRContoursCut_8h.html#a3a72dfe0f153e7b9d3ec48a98899ff31", null ],
     [ "MR_CutMeshParameters_FillPart", "MRContoursCut_8h.html#aedd7f25b94f39126435697d2684b1443", [
       [ "MR_CutMeshParameters_FillPart_Both", "MRContoursCut_8h.html#aedd7f25b94f39126435697d2684b1443a100d2d7ae838115a3cb9eece282c6c40", null ],
       [ "MR_CutMeshParameters_FillPart_Left", "MRContoursCut_8h.html#aedd7f25b94f39126435697d2684b1443aeac434137387dd8ead0b9d238eb5b514", null ],
       [ "MR_CutMeshParameters_FillPart_Right", "MRContoursCut_8h.html#aedd7f25b94f39126435697d2684b1443a3f28f83b79de34d3eb0be69f6f2a8404", null ]
     ] ],
-    [ "MR_convertMeshTriPointsSurfaceOffsetToMeshContours_float", "MRContoursCut_8h.html#a1211d658133a8cec342d464c04f3afd2", null ],
-    [ "MR_convertMeshTriPointsSurfaceOffsetToMeshContours_std_function_float_func_from_int", "MRContoursCut_8h.html#a470f587a93585b221f6cc2dfc1829ad3", null ],
+    [ "MR_convertMeshTriPointsSurfaceOffsetToMeshContours_float", "MRContoursCut_8h.html#abaccc7f5e8bd593ffbb3ca1272832093", null ],
+    [ "MR_convertMeshTriPointsSurfaceOffsetToMeshContours_std_function_float_func_from_int", "MRContoursCut_8h.html#a363dcc722742df6e0b2d6c5c0b0641b7", null ],
     [ "MR_CutByProjectionSettings_AssignFromAnother", "MRContoursCut_8h.html#a412cbdbaa9b68d53a897d33fbcbf4ec1", null ],
     [ "MR_CutByProjectionSettings_ConstructFrom", "MRContoursCut_8h.html#a1890924ddc887f21bb5f5d12cf80d467", null ],
     [ "MR_CutByProjectionSettings_ConstructFromAnother", "MRContoursCut_8h.html#a1a63b95caccce52467559c75e1895062", null ],
@@ -35,7 +35,7 @@ var MRContoursCut_8h =
     [ "MR_CutByProjectionSettings_OffsetPtr", "MRContoursCut_8h.html#a0c7ccd64edd3e2885126d77cff1b6022", null ],
     [ "MR_CutByProjectionSettings_Set_cont2mesh", "MRContoursCut_8h.html#a73fd4a4de36d90b53b3836aedfd47b9a", null ],
     [ "MR_CutByProjectionSettings_Set_direction", "MRContoursCut_8h.html#a334ec3cb892b2dc08350677d86cbbe43", null ],
-    [ "MR_cutMesh", "MRContoursCut_8h.html#a137196b8b10dcd022a5bb6a85b3a8d4d", null ],
+    [ "MR_cutMesh", "MRContoursCut_8h.html#a4631c2e9d96344a30a486f8a65bcfcb1", null ],
     [ "MR_cutMeshByContour", "MRContoursCut_8h.html#a29da5ce9fe890cb1510675a23751afd4", null ],
     [ "MR_cutMeshByContours", "MRContoursCut_8h.html#a40cf1dd6bf4954cd7f8d4ef605210688", null ],
     [ "MR_cutMeshByProjection", "MRContoursCut_8h.html#a03b8a6f92dec9b222dc364c7151d33df", null ],
@@ -93,6 +93,6 @@ var MRContoursCut_8h =
     [ "MR_NewEdgesMap_OffsetPtr", "MRContoursCut_8h.html#a970e3c1cc36ce5a9d5e517bb82b95ee4", null ],
     [ "MR_NewEdgesMap_Set_map", "MRContoursCut_8h.html#ac1b2454f96e9439d6f9de4e11e05ac0d", null ],
     [ "MR_NewEdgesMap_Set_splitEdges", "MRContoursCut_8h.html#a400a0892dcba681cf7884b4f40e7f2f4", null ],
-    [ "MR_offsetSurfaceLineToMeshContours_float", "MRContoursCut_8h.html#a4fff9b4993ce8263ee2dcb2843ffc551", null ],
-    [ "MR_offsetSurfaceLineToMeshContours_std_function_float_func_from_int", "MRContoursCut_8h.html#ac2f62f72c059d9444ed7e0c6529a4601", null ]
+    [ "MR_offsetSurfaceLineToMeshContours_float", "MRContoursCut_8h.html#a8e7e643704a7d156af001a3b88e89b6b", null ],
+    [ "MR_offsetSurfaceLineToMeshContours_std_function_float_func_from_int", "MRContoursCut_8h.html#aa4b73b5ce3a0fd9e5596b597a2f331ae", null ]
 ];

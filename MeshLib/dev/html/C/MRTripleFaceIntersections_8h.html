@@ -169,7 +169,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a48e643e4de18fab4ed90550e3c6e10cf" id="r_a48e643e4de18fab4ed90550e3c6e10cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48e643e4de18fab4ed90550e3c6e10cf">MR_FaceFaceFace_DestroyArray</a> (const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *_this)</td></tr>
 <tr class="memdesc:a48e643e4de18fab4ed90550e3c6e10cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a7f2191cf88a47a18b81c157cf3c7bbbc" id="r_a7f2191cf88a47a18b81c157cf3c7bbbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f2191cf88a47a18b81c157cf3c7bbbc">MR_FaceFaceFace_AssignFromAnother</a> (<a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *_this, const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *_other)</td></tr>
-<tr class="memitem:a3f5e2c24852ad4a69469fe12e4e058f6" id="r_a3f5e2c24852ad4a69469fe12e4e058f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd79e78e95147ae5cbfc323abad5c758">MR_std_vector_MR_FaceFaceFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f5e2c24852ad4a69469fe12e4e058f6">MR_findTripleFaceIntersections</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRIntersectionContour_8h.html#ab48ef760c2671fd11ca83216d1b17ff8">MR_std_vector_std_vector_MR_VarEdgeTri</a> *selfContours)</td></tr>
+<tr class="memitem:a2e81431c372c0122889a7fbb589b99e9" id="r_a2e81431c372c0122889a7fbb589b99e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd79e78e95147ae5cbfc323abad5c758">MR_std_vector_MR_FaceFaceFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e81431c372c0122889a7fbb589b99e9">MR_findTripleFaceIntersections</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRIntersectionContour_8h.html#a5712520895035075efff26ef64788602">MR_Vector_MR_Vector_MR_VarEdgeTri</a> *selfContours)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a740ce925862132ce11f530430d5dda94" name="a740ce925862132ce11f530430d5dda94"></a>
@@ -562,8 +562,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3f5e2c24852ad4a69469fe12e4e058f6" name="a3f5e2c24852ad4a69469fe12e4e058f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f5e2c24852ad4a69469fe12e4e058f6">&#9670;&#160;</a></span>MR_findTripleFaceIntersections()</h2>
+<a id="a2e81431c372c0122889a7fbb589b99e9" name="a2e81431c372c0122889a7fbb589b99e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e81431c372c0122889a7fbb589b99e9">&#9670;&#160;</a></span>MR_findTripleFaceIntersections()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -576,7 +576,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRIntersectionContour_8h.html#ab48ef760c2671fd11ca83216d1b17ff8">MR_std_vector_std_vector_MR_VarEdgeTri</a> *</td>          <td class="paramname"><span class="paramname"><em>selfContours</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRIntersectionContour_8h.html#a5712520895035075efff26ef64788602">MR_Vector_MR_Vector_MR_VarEdgeTri</a> *</td>          <td class="paramname"><span class="paramname"><em>selfContours</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

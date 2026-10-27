@@ -1441,9 +1441,6 @@ var hierarchy =
     [ "MR::ImGuiMath::detail::VecFromSize< 2 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html", null ],
     [ "MR::ImGuiMath::detail::VecFromSize< 4 >", "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html", null ],
     [ "MR::Vector< T, I >", "classMR_1_1Vector.html", null ],
-    [ "std::vector", null, [
-      [ "MR::Vector< T, size_t >", "classMR_1_1Vector_3_01T_00_01size__t_01_4.html", null ]
-    ] ],
     [ "MR::Vector2< T >", "structMR_1_1Vector2.html", null ],
     [ "MR::Vector3< T >", "structMR_1_1Vector3.html", null ],
     [ "MR::Vector4< T >", "structMR_1_1Vector4.html", null ],

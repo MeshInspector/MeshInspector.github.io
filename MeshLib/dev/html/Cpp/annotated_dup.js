@@ -1147,7 +1147,6 @@ var annotated_dup =
       [ "Vector2", "structMR_1_1Vector2.html", "structMR_1_1Vector2" ],
       [ "Vector3", "structMR_1_1Vector3.html", "structMR_1_1Vector3" ],
       [ "Vector4", "structMR_1_1Vector4.html", "structMR_1_1Vector4" ],
-      [ "Vector< T, size_t >", "classMR_1_1Vector_3_01T_00_01size__t_01_4.html", "classMR_1_1Vector_3_01T_00_01size__t_01_4" ],
       [ "VectorTraits", "structMR_1_1VectorTraits.html", "structMR_1_1VectorTraits" ],
       [ "VectorTraits< ImVec2 >", "structMR_1_1VectorTraits_3_01ImVec2_01_4.html", "structMR_1_1VectorTraits_3_01ImVec2_01_4" ],
       [ "VectorTraits< ImVec4 >", "structMR_1_1VectorTraits_3_01ImVec4_01_4.html", "structMR_1_1VectorTraits_3_01ImVec4_01_4" ],

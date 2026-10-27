@@ -1,7 +1,7 @@
 var MRMeshCollidePrecise_8h =
 [
     [ "MR::VarEdgeTri::FlaggedTri", "structMR_1_1VarEdgeTri_1_1FlaggedTri.html", "structMR_1_1VarEdgeTri_1_1FlaggedTri" ],
-    [ "MR::PreciseCollisionResult", "group__AABBTreeGroup.html#ga457b7bb3a129cf50a82586b670a93148", null ],
+    [ "MR::PreciseCollisionResult", "group__AABBTreeGroup.html#gabe6f25bc80391d73c9e217bdcd4769d3", null ],
     [ "MR::findSelfCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#gaa06a012aef3a0273d36e471fda3beb02", null ],
     [ "MR::MR_BIND_OVERLOAD_SUFFIX", "group__DistanceMapGroup.html#ga39152eebf658678f4b4dcf694eaa7e6e", null ],
     [ "MR::MR_BIND_OVERLOAD_SUFFIX", "group__AABBTreeGroup.html#gad280ccdb7115e8f158eb8ee48847680e", null ],

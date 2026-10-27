@@ -62,7 +62,7 @@ var group__BooleanGroup =
       [ "meshABadContourFaces", "structMR_1_1BooleanResult.html#a9e97978ae79fbc9acc8c2bdb8ef40c12", null ],
       [ "meshBBadContourFaces", "structMR_1_1BooleanResult.html#a5158c930dad94ff45198508c2b01788a", null ]
     ] ],
-    [ "MR::OneMeshContours", "group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a", null ],
+    [ "MR::OneMeshContours", "group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822", null ],
     [ "MR::BooleanOperation", "group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd", [
       [ "MR::BooleanOperation::InsideA", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda833b7406c91f551bd8502cf76bb95c29", null ],
       [ "MR::BooleanOperation::InsideB", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda9f3e5e704c939dff3070cf175df0b75d", null ],
