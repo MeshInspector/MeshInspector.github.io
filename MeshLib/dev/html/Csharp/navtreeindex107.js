@@ -1,7 +1,5 @@
 var NAVTREEINDEX107 =
 {
-"classMR_1_1Graph.html":[9,3,0,0,0,1257],
-"classMR_1_1Graph.html#a0c4502a8250c814fe00a4a4767d8b2a5":[9,3,0,0,0,1257,0],
 "classMR_1_1Graph.html#a2d8a6bfa2beb3fac553dd930eb973e9c":[9,3,0,0,0,1257,1],
 "classMR_1_1Graph.html#a6713cff0d540df99b36c9055e0fe22a5":[9,3,0,0,0,1257,5],
 "classMR_1_1Graph.html#aa1f730e5fd495318789eca6a3ab840dd":[9,3,0,0,0,1257,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX107 =
 "classMR_1_1IFastWindingNumber.html#a0d1ee05011bc2a1ad6fa021ff33b5ba3":[9,3,0,0,0,1279,1],
 "classMR_1_1IFastWindingNumber.html#a4be4494442bb65e1540bd88a91f552a7":[9,3,0,0,0,1279,2],
 "classMR_1_1IFastWindingNumber.html#adbae3073bea7d77e49d7caab541680fa":[9,3,0,0,0,1279,0],
-"classMR_1_1IFastWindingNumber.html#aec064322180d2377393218c4575950eb":[9,3,0,0,0,1279,3]
+"classMR_1_1IFastWindingNumber.html#aec064322180d2377393218c4575950eb":[9,3,0,0,0,1279,3],
+"classMR_1_1IFastWindingNumberByParts.html":[9,3,0,0,0,1280],
+"classMR_1_1IFastWindingNumberByParts.html#a58ee2aaee8aadd2155b9bb6dcc78f1ea":[9,3,0,0,0,1280,1]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX108 =
 {
-"classMR_1_1IFastWindingNumberByParts.html":[9,3,0,0,0,1280],
-"classMR_1_1IFastWindingNumberByParts.html#a58ee2aaee8aadd2155b9bb6dcc78f1ea":[9,3,0,0,0,1280,1],
 "classMR_1_1IFastWindingNumberByParts.html#a59ceeb38c513fe78dc042d4ea2e28b67":[9,3,0,0,0,1280,0],
 "classMR_1_1IFillContours2DPlanCache.html":[9,3,0,0,0,1281],
 "classMR_1_1IICPTreeIndexer.html":[9,3,0,0,0,1282],
@@ -249,5 +247,7 @@ var NAVTREEINDEX108 =
 "classMR_1_1IsVisualizeMaskEnum__MRMeshVisualizePropertyType.html":[9,3,0,0,0,1312],
 "classMR_1_1IsVisualizeMaskEnum__MRMeshVisualizePropertyType.html#a5aa7682ee50d6657b975d434a9da3f76":[9,3,0,0,0,1312,0],
 "classMR_1_1IsVisualizeMaskEnum__MRMeshVisualizePropertyType.html#a7c565cec1ac413964df6bff8fcdfda74":[9,3,0,0,0,1312,3],
-"classMR_1_1IsVisualizeMaskEnum__MRMeshVisualizePropertyType.html#ad34e071a3005f971c99006bf5ff8ccb2":[9,3,0,0,0,1312,2]
+"classMR_1_1IsVisualizeMaskEnum__MRMeshVisualizePropertyType.html#ad34e071a3005f971c99006bf5ff8ccb2":[9,3,0,0,0,1312,2],
+"classMR_1_1IsVisualizeMaskEnum__MRMeshVisualizePropertyType.html#af244027d422f3929be934cda4cb253f5":[9,3,0,0,0,1312,1],
+"classMR_1_1IsVisualizeMaskEnum__MRPointMeasurementVisualizePropertyType.html":[9,3,0,0,0,1313]
 };

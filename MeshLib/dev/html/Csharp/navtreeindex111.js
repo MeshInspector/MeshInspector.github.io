@@ -1,7 +1,5 @@
 var NAVTREEINDEX111 =
 {
-"classMR_1_1Matrix3__Bool_1_1QR.html#a251dc16fcf13760d06046becf5e1e93f":[9,3,0,0,0,1362,1,4],
-"classMR_1_1Matrix3__Bool_1_1QR.html#a626c3ec4d2553f49b45503211177e8af":[9,3,0,0,0,1362,1,2],
 "classMR_1_1Matrix3__Bool_1_1QR.html#a6a3353fc96231e4aa799fcad424a7bbb":[9,3,0,0,0,1362,1,0],
 "classMR_1_1Matrix3__Bool_1_1QR.html#a76a58ac9550ba03aa9c56770295f8b9e":[9,3,0,0,0,1362,1,5],
 "classMR_1_1Matrix3__Bool_1_1QR.html#a7d1ba6924e77ef26cacd03109825f8f0":[9,3,0,0,0,1362,1,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX111 =
 "classMR_1_1Mesh.html#ade0e38a47c119bcf51e52ec60d1bb9a6":[9,3,0,0,0,1383,25],
 "classMR_1_1Mesh.html#af28122d6c3bcc15f02f009974fe84bf6":[9,3,0,0,0,1383,5],
 "classMR_1_1Mesh.html#af8b0fa03a2c37a7cf1f7e4b66e2aba06":[9,3,0,0,0,1383,29],
-"classMR_1_1MeshApproxRelaxParams.html":[9,3,0,0,0,1384]
+"classMR_1_1MeshApproxRelaxParams.html":[9,3,0,0,0,1384],
+"classMR_1_1MeshApproxRelaxParams.html#a1594eb602e5c62726787743172fe4ede":[9,3,0,0,0,1384,0],
+"classMR_1_1MeshApproxRelaxParams.html#a20b9f027ef9fb92dbdfd954b469a7303":[9,3,0,0,0,1384,15]
 };

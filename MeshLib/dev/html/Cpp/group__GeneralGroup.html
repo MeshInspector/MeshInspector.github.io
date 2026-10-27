@@ -4241,8 +4241,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga534db3261935504b918838858cff437a" id="r_ga534db3261935504b918838858cff437a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga534db3261935504b918838858cff437a">MR::Config::fromJson</a> (const Json::Value &amp;config)</td></tr>
 <tr class="memdesc:ga534db3261935504b918838858cff437a"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace current config content with given one  <br /></td></tr>
 <tr class="memitem:ga0ce0435d606c4d19a79a699eec18f7f2" id="r_ga0ce0435d606c4d19a79a699eec18f7f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0ce0435d606c4d19a79a699eec18f7f2">MR::ConstChildren::Iterator::Iterator</a> ()</td></tr>
-<tr class="memitem:ga3f09a9ae06179320e55182fd08d60238" id="r_ga3f09a9ae06179320e55182fd08d60238"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f09a9ae06179320e55182fd08d60238">MR::ConstChildren::Iterator::Iterator</a> (Storage::const_iterator it)</td></tr>
+<tr class="memitem:gaeea4d0fa9b25a09d8c25cc5a3f4e9fde" id="r_gaeea4d0fa9b25a09d8c25cc5a3f4e9fde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeea4d0fa9b25a09d8c25cc5a3f4e9fde">MR::ConstChildren::Iterator::Iterator</a> (Storage::const_iterator it)</td></tr>
 <tr class="memitem:ga9fc8635872b9c08c9cf067bbc26cf8cd" id="r_ga9fc8635872b9c08c9cf067bbc26cf8cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga0582f399e5067aa8b73a82cf10fd6c8f">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9fc8635872b9c08c9cf067bbc26cf8cd">MR::ConstChildren::Iterator::operator*</a> () const</td></tr>
+<tr class="memdesc:ga9fc8635872b9c08c9cf067bbc26cf8cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the C bindings don't have <span class="tt">std::vector</span> iterators  <br /></td></tr>
 <tr class="memitem:ga1113eefe20e266ac285214ec4b33158d" id="r_ga1113eefe20e266ac285214ec4b33158d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ConstChildren_1_1Iterator.html">Iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1113eefe20e266ac285214ec4b33158d">MR::ConstChildren::Iterator::operator++</a> ()</td></tr>
 <tr class="memitem:gaaad59ff19b36e3fb39a9c68fafa10644" id="r_gaaad59ff19b36e3fb39a9c68fafa10644"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ConstChildren_1_1Iterator.html">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaad59ff19b36e3fb39a9c68fafa10644">MR::ConstChildren::Iterator::operator++</a> (int)</td></tr>
 <tr class="memitem:ga63d12752978b08aa7d7bfb5249ce87e4" id="r_ga63d12752978b08aa7d7bfb5249ce87e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga63d12752978b08aa7d7bfb5249ce87e4">MR::ConstChildren::Iterator::operator==</a> (const <a class="el" href="classMR_1_1ConstChildren_1_1Iterator.html">Iterator</a> &amp;) const =default</td></tr>
@@ -112956,8 +112957,8 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
-<a id="ga3f09a9ae06179320e55182fd08d60238" name="ga3f09a9ae06179320e55182fd08d60238"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3f09a9ae06179320e55182fd08d60238">&#9670;&#160;</a></span>Iterator() <span class="overload">[2/2]</span></h2>
+<a id="gaeea4d0fa9b25a09d8c25cc5a3f4e9fde" name="gaeea4d0fa9b25a09d8c25cc5a3f4e9fde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeea4d0fa9b25a09d8c25cc5a3f4e9fde">&#9670;&#160;</a></span>Iterator() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -112966,7 +112967,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR::ConstChildren::Iterator::Iterator </td>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> MR::ConstChildren::Iterator::Iterator </td>
           <td>(</td>
           <td class="paramtype">Storage::const_iterator</td>          <td class="paramname"><span class="paramname"><em>it</em></span></td><td>)</td>
           <td></td>
@@ -136925,6 +136926,8 @@ template&lt;typename Iter&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRConstChildren_8h.html">MRMesh/MRConstChildren.h</a>&gt;</code></p>
+
+<p>the C bindings don't have <span class="tt">std::vector</span> iterators </p>
 
 </div>
 </div>

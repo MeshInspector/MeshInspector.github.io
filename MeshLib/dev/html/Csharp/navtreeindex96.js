@@ -1,7 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a40d475e70bce6f731ad054c96574bcd5":[9,3,0,0,0,1041,6],
-"classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a62f739c29d987c8f2c612cb2465526cf":[9,3,0,0,0,1041,4],
 "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a63860fe6783246e6e1caad5c6fba8bfa":[9,3,0,0,0,1041,1],
 "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a668510644ffb2a70d73e1e8f7703590c":[9,3,0,0,0,1041,8],
 "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a78d7a37eeccbcc36db023fb90dcb949a":[9,3,0,0,0,1041,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX96 =
 "classMR_1_1Const__ZCompensateParams.html#ac65351c4041f02d81d9849146338ff77":[9,3,0,0,0,1059,0],
 "classMR_1_1Const__ZCompensateParams.html#ada140429f8ba689b21fee5652c565b12":[9,3,0,0,0,1059,9],
 "classMR_1_1Const__ZCompensateParams.html#af1414784cc68b06ec073ed8bc2d7eec5":[9,3,0,0,0,1059,13],
-"classMR_1_1Const__ZCompensateParams.html#af75ff2d683f534553bc39fc235032074":[9,3,0,0,0,1059,10]
+"classMR_1_1Const__ZCompensateParams.html#af75ff2d683f534553bc39fc235032074":[9,3,0,0,0,1059,10],
+"classMR_1_1Const__ZeroOnMove__SizeT.html":[9,3,0,0,0,1060],
+"classMR_1_1Const__ZeroOnMove__SizeT.html#a0243dd401414222aa41d1eea5da1a931":[9,3,0,0,0,1060,3]
 };

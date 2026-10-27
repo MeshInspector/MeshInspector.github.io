@@ -1,7 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"classMR_1_1Const__PreciseVertCoord.html#a6c7a2b3b5c766eb6a106e40c5ab295c0":[9,3,0,0,0,786,7],
-"classMR_1_1Const__PreciseVertCoord.html#a7a5650fc40974e70128f0e195eb53919":[9,3,0,0,0,786,9],
 "classMR_1_1Const__PreciseVertCoord.html#a8a21dea2ff5868a4ab8e025f705f5a8c":[9,3,0,0,0,786,4],
 "classMR_1_1Const__PreciseVertCoord.html#aa5423604dafd5002b4b32e42132f07f6":[9,3,0,0,0,786,2],
 "classMR_1_1Const__PreciseVertCoord.html#aeb9946f836d5f7441bd9fcfe4e1cef92":[9,3,0,0,0,786,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX74 =
 "classMR_1_1Const__Raster.html#a5b3e309c406a708d949ece7b837e798d":[9,3,0,0,0,798,2],
 "classMR_1_1Const__Raster.html#a6263edc644eacd0d294a168c12b61b4e":[9,3,0,0,0,798,3],
 "classMR_1_1Const__Raster.html#a719a62a28ab87aefca580c9e00d33c2a":[9,3,0,0,0,798,8],
-"classMR_1_1Const__Raster.html#a8b55916a57e801744995bdccb6727c5b":[9,3,0,0,0,798,0]
+"classMR_1_1Const__Raster.html#a8b55916a57e801744995bdccb6727c5b":[9,3,0,0,0,798,0],
+"classMR_1_1Const__Raster.html#abf19cb905b21d6e5dccdc98dd31c43c2":[9,3,0,0,0,798,5],
+"classMR_1_1Const__Raster.html#af9d831c0cc63eeca0925e072bde43979":[9,3,0,0,0,798,4]
 };

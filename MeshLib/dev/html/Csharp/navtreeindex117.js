@@ -1,7 +1,5 @@
 var NAVTREEINDEX117 =
 {
-"classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#ae154bc0e9a67563bf5069e761d26b5ea":[9,3,0,0,0,1439,4,13],
-"classMR_1_1Nesting_1_1Const__BoxNestingParams.html":[9,3,0,0,0,1439,5],
 "classMR_1_1Nesting_1_1Const__BoxNestingParams.html#a281f0f9bf0bf005365bb337afb517c42":[9,3,0,0,0,1439,5,0],
 "classMR_1_1Nesting_1_1Const__BoxNestingParams.html#a2f3823976880fe70170ccdad8bd4bdd5":[9,3,0,0,0,1439,5,6],
 "classMR_1_1Nesting_1_1Const__BoxNestingParams.html#a383e5d4225fcaa278bcbeb33c4975714":[9,3,0,0,0,1439,5,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX117 =
 "classMR_1_1NoCtor__MRTextureId.html#a046d7fc4928b1bc05bb3120651261fc6":[9,3,0,0,0,1453,2],
 "classMR_1_1NoCtor__MRTextureId.html#a1fbf22bb3b62926000bb0bcdc7d4b140":[9,3,0,0,0,1453,3],
 "classMR_1_1NoCtor__MRTextureId.html#a46484ed9743e54563f91a4c9d76baf3a":[9,3,0,0,0,1453,1],
-"classMR_1_1NoCtor__MRTextureId.html#a66be65385170d757dda0dd07ca2d6e5e":[9,3,0,0,0,1453,0]
+"classMR_1_1NoCtor__MRTextureId.html#a66be65385170d757dda0dd07ca2d6e5e":[9,3,0,0,0,1453,0],
+"classMR_1_1NoCtor__MRUndirectedEdgeId.html":[9,3,0,0,0,1454],
+"classMR_1_1NoCtor__MRUndirectedEdgeId.html#ac8bb104554f3b3d899a8fcb826421cb4":[9,3,0,0,0,1454,1]
 };

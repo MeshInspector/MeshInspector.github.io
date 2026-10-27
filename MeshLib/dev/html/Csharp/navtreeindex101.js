@@ -1,7 +1,5 @@
 var NAVTREEINDEX101 =
 {
-"classMR_1_1EdgeBitSet.html#af3b59eaeb2bc5ed2f617cb966d98e7e7":[9,3,0,0,0,1182,17],
-"classMR_1_1EdgeColors.html":[9,3,0,0,0,1184],
 "classMR_1_1EdgeColors.html#a180f37dbf39836dced21dd74158d486f":[9,3,0,0,0,1184,13],
 "classMR_1_1EdgeColors.html#a228c602555964a514698ce41ee1c10bb":[9,3,0,0,0,1184,20],
 "classMR_1_1EdgeColors.html#a26894141abcd741d072bad64afb7750b":[9,3,0,0,0,1184,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX101 =
 "classMR_1_1EndMillCutter.html#aed5a92ed836230f436b83cc9fadf3ff7":[9,3,0,0,0,1201,7],
 "classMR_1_1EndMillCutter.html#afcf70fe34821d5192a11c08655a56041":[9,3,0,0,0,1201,2],
 "classMR_1_1EndMillTool.html":[9,3,0,0,0,1202],
-"classMR_1_1EndMillTool.html#a1143c5a9b453ec4b82ce897b855e1f6a":[9,3,0,0,0,1202,5]
+"classMR_1_1EndMillTool.html#a1143c5a9b453ec4b82ce897b855e1f6a":[9,3,0,0,0,1202,5],
+"classMR_1_1EndMillTool.html#a1cf348c08d2951f29add9616d7b886d2":[9,3,0,0,0,1202,3],
+"classMR_1_1EndMillTool.html#a2cfded56b8f7ff9a93506dc5142f6c5c":[9,3,0,0,0,1202,2]
 };
