@@ -1,7 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a2b990620883498579ca16a0128629999":[9,0,1,0,1,52,2,1,0,1],
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a2b990620883498579ca16a0128629999":[9,0,2,0,2,34,0,1,0,1],
 "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a6d87be1e6ad27cb40fc167743a714714":[9,0,1,0,1,52,2,1,0,0],
 "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a6d87be1e6ad27cb40fc167743a714714":[9,0,2,0,2,34,0,1,0,0],
 "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#ad64f2e2f9194fde2222f1ecc5cb37a47":[9,0,1,0,1,52,2,1,0,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX71 =
 "structfmt_1_1formatter_3_01MR_1_1Matrix3_3_01T_01_4_01_4.html":[9,0,2,0,0,3],
 "structfmt_1_1formatter_3_01MR_1_1Matrix3_3_01T_01_4_01_4.html#a12d03bd4698bb4f90c7b62857ff9e33b":[9,0,2,0,0,3,0],
 "structfmt_1_1formatter_3_01MR_1_1Matrix4_3_01T_01_4_01_4.html":[9,0,2,0,0,4],
-"structfmt_1_1formatter_3_01MR_1_1Matrix4_3_01T_01_4_01_4.html#a9edd80455d7d6a60d0638eeafa0988b2":[9,0,2,0,0,4,0]
+"structfmt_1_1formatter_3_01MR_1_1Matrix4_3_01T_01_4_01_4.html#a9edd80455d7d6a60d0638eeafa0988b2":[9,0,2,0,0,4,0],
+"structfmt_1_1formatter_3_01MR_1_1Vector2_3_01T_01_4_01_4.html":[9,0,2,0,0,5],
+"structfmt_1_1formatter_3_01MR_1_1Vector2_3_01T_01_4_01_4.html#a790df0ed02ae6744787cba1a5cde723e":[9,0,2,0,0,5,0]
 };

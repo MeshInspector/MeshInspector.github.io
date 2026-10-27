@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"classMR_1_1BestFitParabola.html":[9,0,0,20,136],
-"classMR_1_1BestFitPolynomial.html":[9,0,0,20,139],
 "classMR_1_1BinaryOperations.html":[9,0,0,20,87],
 "classMR_1_1BitSet.html":[9,0,0,3,3],
 "classMR_1_1BitSet.html#a029565ede6f02c029a79d6821794eca3":[9,0,0,3,3,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangeSurfaceAction.html#ae9190bfd7891e5a5cc1229fb42d4efd5":[9,0,0,4,48,2],
 "classMR_1_1ChangeSurfaceAction.html#aea6aeaec06fc16a8b7114feb5bbe7ca0":[9,0,0,4,48,0],
 "classMR_1_1ChangeTextureAction.html":[9,0,0,4,6],
-"classMR_1_1ChangeTextureAction.html#a1079ab459c62474b522dc9249a6d4a4c":[9,0,0,4,6,0]
+"classMR_1_1ChangeTextureAction.html#a1079ab459c62474b522dc9249a6d4a4c":[9,0,0,4,6,0],
+"classMR_1_1ChangeTextureAction.html#a146619ea49b7b8835a4f37f1a13cbb8e":[9,0,0,4,6,2],
+"classMR_1_1ChangeTextureAction.html#a6415831fcd79f6104620dcc3ae8b96a6":[9,0,0,4,6,3]
 };

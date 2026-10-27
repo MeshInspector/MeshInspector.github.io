@@ -1,7 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2465],
-"namespaceMR_1_1AsyncObjectLoad.html":[9,0,1,0,1,0],
 "namespaceMR_1_1AsyncObjectLoad.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[9,0,1,0,1,0,1],
 "namespaceMR_1_1AsyncObjectLoad.html#a5be8803f8be8c57d2ec98589759c0507":[9,0,1,0,1,0,0],
 "namespaceMR_1_1BitSetParallel.html":[9,0,0,3,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba":[9,0,1,0,1,37,2],
 "namespaceMR_1_1PolylineComponents.html":[9,0,0,20,20],
 "namespaceMR_1_1ProgressBar.html":[9,0,0,20,27],
-"namespaceMR_1_1QualityControl.html":[9,0,1,0,1,40]
+"namespaceMR_1_1QualityControl.html":[9,0,1,0,1,40],
+"namespaceMR_1_1QualityControl.html#a33943e0e66b7b658ae4c5489310a4ace":[9,0,1,0,1,40,0],
+"namespaceMR_1_1RasterLoad.html":[9,0,0,20,8]
 };

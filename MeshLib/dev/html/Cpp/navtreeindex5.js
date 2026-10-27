@@ -1,7 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"MRRenderModelParameters_8h.html":[9,0,3,0,7,368],
-"MRRenderModelParameters_8h_source.html":[9,0,3,0,7,368],
 "MRRenderNameObject_8h.html":[9,0,3,0,11,89],
 "MRRenderNameObject_8h_source.html":[9,0,3,0,11,89],
 "MRRenderPointsObject_8h.html":[9,0,3,0,11,90],
@@ -249,5 +247,7 @@ var NAVTREEINDEX5 =
 "MRTouchpadCocoaHandler_8h.html":[9,0,3,0,11,142],
 "MRTouchpadCocoaHandler_8h_source.html":[9,0,3,0,11,142],
 "MRTouchpadController_8h.html":[9,0,3,0,11,143],
-"MRTouchpadController_8h_source.html":[9,0,3,0,11,143]
+"MRTouchpadController_8h_source.html":[9,0,3,0,11,143],
+"MRTouchpadParameters_8h.html":[9,0,3,0,11,144],
+"MRTouchpadParameters_8h_source.html":[9,0,3,0,11,144]
 };

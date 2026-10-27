@@ -164,7 +164,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keyword">auto</span> <a class="code hl_define" href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>( _prev_value_, __LINE__ ) = std::move( var ); ( var ) = ( __VA_ARGS__ ); <a class="code hl_define" href="MRFinally_8h.html#ad10d1a8c04c5722bf0d42b1ddd493aad">MR_FINALLY</a> { ( var ) = std::move( <a class="code hl_define" href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>( _prev_value_, __LINE__ ) ); }</div>
-<div class="ttc" id="aMRFinally_8h_html_ad10d1a8c04c5722bf0d42b1ddd493aad"><div class="ttname"><a href="MRFinally_8h.html#ad10d1a8c04c5722bf0d42b1ddd493aad">MR_FINALLY</a></div><div class="ttdeci">#define MR_FINALLY</div><div class="ttdoc">Usage: MR_FINALLY{...};. Runs the code in braces when exiting the current scope, either normally or v...</div><div class="ttdef"><b>Definition</b> MRFinally.h:11</div></div>
+<div class="ttc" id="aMRFinally_8h_html_ad10d1a8c04c5722bf0d42b1ddd493aad"><div class="ttname"><a href="MRFinally_8h.html#ad10d1a8c04c5722bf0d42b1ddd493aad">MR_FINALLY</a></div><div class="ttdeci">#define MR_FINALLY</div><div class="ttdef"><b>Definition</b> MRFinally.h:10</div></div>
 <div class="ttc" id="aMRMacros_8h_html_a4cb6de717e0b06df733796fec2da272a"><div class="ttname"><a href="MRMacros_8h.html#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a></div><div class="ttdeci">#define MR_CONCAT(a, b)</div><div class="ttdoc">Concat strings.</div><div class="ttdef"><b>Definition</b> MRMacros.h:17</div></div>
 </div><!-- fragment -->
 <p>change a variable's value until the current scope's end </p>

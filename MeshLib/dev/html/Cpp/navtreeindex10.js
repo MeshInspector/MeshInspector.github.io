@@ -1,7 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"classMR_1_1Object.html#a5f512c4898f6a69b782b8647109ff8e0":[9,0,0,11,4,98],
-"classMR_1_1Object.html#a603c094ba75fe76c397b93e84d1cb129":[9,0,0,11,4,87],
 "classMR_1_1Object.html#a61f69554fe584800b9f60fac7e7f2200":[9,0,0,11,4,74],
 "classMR_1_1Object.html#a639d2e0d72c82c1efd9dc00ecaa0d3da":[9,0,0,11,4,26],
 "classMR_1_1Object.html#a64cc87b1de99f84bb49d9e0b0f24d9ea":[9,0,0,11,4,12],
@@ -249,5 +247,7 @@ var NAVTREEINDEX10 =
 "classMR_1_1RenderDimensions_1_1PointTask.html":[9,0,0,20,657],
 "classMR_1_1RenderDimensions_1_1RadiusTask.html":[9,0,0,20,659],
 "classMR_1_1RenderDistanceObject.html":[9,0,0,20,678],
-"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html":[9,0,1,0,1,44,1]
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html":[9,0,1,0,1,44,1],
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html":[9,0,2,0,2,27,1],
+"classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject.html#a48bf22a7a30dabdbe6871758c246758d":[9,0,1,0,1,44,1,1]
 };

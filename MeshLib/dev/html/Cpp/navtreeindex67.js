@@ -1,7 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structMR_1_1Mesh.html#a1e2a8eaf7d1882e02a3eea66d1d72349":[9,0,0,7,1,13],
-"structMR_1_1Mesh.html#a1e677e30de874a7c800e274fde50a33b":[9,0,0,7,1,123],
 "structMR_1_1Mesh.html#a1eda7cca99d50abaa6f9c15d4edefabb":[9,0,0,7,1,40],
 "structMR_1_1Mesh.html#a270c420c13ec0ad3d41b3bee66a69fe7":[9,0,0,7,1,111],
 "structMR_1_1Mesh.html#a27a660c62e95948d2e77cd4e2681c0f4":[9,0,0,7,1,52],
@@ -249,5 +247,7 @@ var NAVTREEINDEX67 =
 "structMR_1_1Meta_1_1SharedPtrTraits.html":[9,0,2,0,2,17,0],
 "structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[9,0,1,0,1,29,0,0],
 "structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[9,0,2,0,2,17,0,0],
-"structMR_1_1MetricToAStarPenalty.html":[9,0,0,20,220]
+"structMR_1_1MetricToAStarPenalty.html":[9,0,0,20,220],
+"structMR_1_1MinArg.html":[9,0,0,20,362],
+"structMR_1_1MinMaxArg.html":[9,0,0,20,364]
 };

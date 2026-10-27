@@ -1,7 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"MRGLDriverKnownIssues_8h_source.html":[9,0,3,0,11,31],
-"MRGLMacro_8h.html":[9,0,3,0,11,32],
 "MRGLMacro_8h.html#ab4347896d8853c18f862de0996dd70e7":[9,0,3,0,11,32,0],
 "MRGLMacro_8h_source.html":[9,0,3,0,11,32],
 "MRGLStaticHolder_8h.html":[9,0,3,0,11,33],
@@ -249,5 +247,7 @@ var NAVTREEINDEX2 =
 "MRMakeSlot_8h.html#a4e10ab3e9579ce8ffbd2209497603cbc":[9,0,3,0,11,50,1],
 "MRMakeSlot_8h_source.html":[9,0,3,0,11,50],
 "MRMakeSphereMesh_8h.html":[9,0,3,0,7,192],
-"MRMakeSphereMesh_8h_source.html":[9,0,3,0,7,192]
+"MRMakeSphereMesh_8h_source.html":[9,0,3,0,7,192],
+"MRMapEdge_8h.html":[9,0,3,0,7,193],
+"MRMapEdge_8h_source.html":[9,0,3,0,7,193]
 };
