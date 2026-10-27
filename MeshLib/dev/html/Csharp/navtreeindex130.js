@@ -1,7 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"classMR_1_1RigidScaleXf3f.html#ad75ad45c452853bd129755ed8525129d":[9,3,0,0,0,1630,2],
-"classMR_1_1RigidXf3d.html":[9,3,0,0,0,1631],
 "classMR_1_1RigidXf3d.html#a08df89e8624b41fd8e403fb225a3a958":[9,3,0,0,0,1631,4],
 "classMR_1_1RigidXf3d.html#a2304c013b8e8af3832c1874b3680cdb4":[9,3,0,0,0,1631,5],
 "classMR_1_1RigidXf3d.html#a3c8e8b45eb1c73ba5af601c8a87224ce":[9,3,0,0,0,1631,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX130 =
 "classMR_1_1SeparationPointStorage.html#a83d1740cec435b2798f112a04a429862":[9,3,0,0,0,1648,6],
 "classMR_1_1SeparationPointStorage.html#a93d151bb072cbc7b706c7c9aeddae077":[9,3,0,0,0,1648,1],
 "classMR_1_1SeparationPointStorage.html#ac0c34dd78161697682be64d27cfc2ae5":[9,3,0,0,0,1648,0],
-"classMR_1_1SeparationPointStorage.html#ac3a8adfe99294b558dc22057c4a0ebc6":[9,3,0,0,0,1648,5]
+"classMR_1_1SeparationPointStorage.html#ac3a8adfe99294b558dc22057c4a0ebc6":[9,3,0,0,0,1648,5],
+"classMR_1_1SeparationPointStorage.html#af1905c57e8b0b290d6e3a6da1bdc6d28":[9,3,0,0,0,1648,7],
+"classMR_1_1SetBitIterator.html":[9,3,0,0,0,1649]
 };

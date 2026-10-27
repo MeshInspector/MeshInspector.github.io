@@ -1,7 +1,5 @@
 var NAVTREEINDEX135 =
 {
-"classMR_1_1TiffSaveSettings.html#ada4b1acd9160cc188f7d749f07a28d42":[9,3,0,0,0,1720,5],
-"classMR_1_1TiffSaveSettings.html#aeccefde83e9cebc562141ff42680f4a7":[9,3,0,0,0,1720,0],
 "classMR_1_1ToolPathParams.html":[9,3,0,0,0,1721],
 "classMR_1_1ToolPathParams.html#a0e51c97b4114992ebac39cc646b3f924":[9,3,0,0,0,1721,21],
 "classMR_1_1ToolPathParams.html#a431f76cb999c251164a712802aa04b88":[9,3,0,0,0,1721,17],
@@ -249,5 +247,7 @@ var NAVTREEINDEX135 =
 "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a96629d303d85113c7bfe432a8f963164":[9,3,0,0,0,1729,0,15],
 "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#a9f8fb0a347cea4d0db4ed81f12f002c8":[9,3,0,0,0,1729,0,1],
 "classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#abab6bf2e58057ec4ee5354aa7f19138c":[9,3,0,0,0,1729,0,20],
-"classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#abd23f678c0f1d72b139cd2d8ea4495de":[9,3,0,0,0,1729,0,12]
+"classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#abd23f678c0f1d72b139cd2d8ea4495de":[9,3,0,0,0,1729,0,12],
+"classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#acebaf5cb8751687cb563ab817e766aad":[9,3,0,0,0,1729,0,16],
+"classMR_1_1TriangulationHelpers_1_1Const__FanOptimizerQueueElement.html#adb3c55408ac285696d61ac45d7cc46c0":[9,3,0,0,0,1729,0,14]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"classMR_1_1PointsToMeshProjector.html#ab2ca13a372a9a86bd4c96302a3fbb314":[9,3,0,0,0,1562,0],
-"classMR_1_1PointsToMeshProjector.html#ae6f30d8ed3644fccc82ecee448675a00":[9,3,0,0,0,1562,2],
 "classMR_1_1Polyline2.html":[9,3,0,0,0,1565],
 "classMR_1_1Polyline2.html#a0c11cfa4e4951105f7957583f72bc555":[9,3,0,0,0,1565,5],
 "classMR_1_1Polyline2.html#a0c287189e906a5069f46891de1d0d624":[9,3,0,0,0,1565,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX127 =
 "classMR_1_1Polynomial__Double__1.html#ac576dda9efba7ed900fe8327b0b20ca7":[9,3,0,0,0,1583,3],
 "classMR_1_1Polynomial__Double__1.html#ad6ae465dba55024313acba2a0989c0e4":[9,3,0,0,0,1583,2],
 "classMR_1_1Polynomial__Double__2.html":[9,3,0,0,0,1584],
-"classMR_1_1Polynomial__Double__2.html#a0a1ca9efbef29c93c6ee400d25c8e739":[9,3,0,0,0,1584,2]
+"classMR_1_1Polynomial__Double__2.html#a0a1ca9efbef29c93c6ee400d25c8e739":[9,3,0,0,0,1584,2],
+"classMR_1_1Polynomial__Double__2.html#a0b6ea4ac67fa0cfa5f20ad5f3caf7222":[9,3,0,0,0,1584,3],
+"classMR_1_1Polynomial__Double__2.html#ace16ea1af80d83595f40a4864ff76b4e":[9,3,0,0,0,1584,1]
 };

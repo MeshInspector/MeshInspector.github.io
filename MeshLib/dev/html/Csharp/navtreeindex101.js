@@ -1,7 +1,5 @@
 var NAVTREEINDEX101 =
 {
-"classMR_1_1EdgeColors.html#a37bc80844820ad0a58e1ff65a7fc99ef":[9,3,0,0,0,1184,9],
-"classMR_1_1EdgeColors.html#a3c4043d26e8af27f8f17ff83e213e785":[9,3,0,0,0,1184,11],
 "classMR_1_1EdgeColors.html#a481dcc844767d83f7568703c69db84cc":[9,3,0,0,0,1184,10],
 "classMR_1_1EdgeColors.html#a5c1ad0686b164a1be7f202977ecbcf2b":[9,3,0,0,0,1184,8],
 "classMR_1_1EdgeColors.html#a5f36dc94a1d06a7214d5e61891729f58":[9,3,0,0,0,1184,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX101 =
 "classMR_1_1EndMillTool.html#a7a4854eaf487891745bee6d3cbc5a4a7":[9,3,0,0,0,1202,4],
 "classMR_1_1EndMillTool.html#ac1e2a8b0850136cffabc51990766e6e8":[9,3,0,0,0,1202,7],
 "classMR_1_1EndMillTool.html#ac1f839824ec15cb7571b9846577d76bc":[9,3,0,0,0,1202,6],
-"classMR_1_1EnumNeihbourFaces.html":[9,3,0,0,0,1203]
+"classMR_1_1EnumNeihbourFaces.html":[9,3,0,0,0,1203],
+"classMR_1_1EnumNeihbourFaces.html#a2fc3b226e04207443a6c424adb3b515f":[9,3,0,0,0,1203,3],
+"classMR_1_1EnumNeihbourFaces.html#a4d66ae6b3cff12deb3116e3f18b606c4":[9,3,0,0,0,1203,0]
 };

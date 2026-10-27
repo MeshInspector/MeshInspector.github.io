@@ -1,7 +1,5 @@
 var NAVTREEINDEX105 =
 {
-"classMR_1_1FillHoleItemEdge.html#a0dd2947b3af0e8f2ee7e159b4e548c9c":[9,3,0,0,0,1230,4],
-"classMR_1_1FillHoleItemEdge.html#a5f804cc207450d19cf839e8c5bfd5f9a":[9,3,0,0,0,1230,6],
 "classMR_1_1FillHoleItemEdge.html#a7da97b1b90e912da253ba8635fe48469":[9,3,0,0,0,1230,2],
 "classMR_1_1FillHoleItemEdge.html#a92f4d1bb064fd43d60abb17f67f83d8b":[9,3,0,0,0,1230,1],
 "classMR_1_1FillHoleItemEdge.html#a9408c541886daff5d958a011150eaf28":[9,3,0,0,0,1230,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX105 =
 "classMR_1_1FixUndercuts.html#a9808691615b00209d136a580af427d48":[9,3,0,0,0,1242,9],
 "classMR_1_1FixUndercuts.html#abba43d841c90eddd085e1e43f3d772c9":[9,3,0,0,0,1242,11],
 "classMR_1_1FixUndercuts.html#abd8b1721231cb7ebaff5ab21d435a40c":[9,3,0,0,0,1242,14],
-"classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html":[9,3,0,0,0,1242,0]
+"classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html":[9,3,0,0,0,1242,0],
+"classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a0f1f1bc0da0cc9165f10ce2addbf5725":[9,3,0,0,0,1242,0,7],
+"classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a150fe606813543ef0073e4fcabaa4e0d":[9,3,0,0,0,1242,0,11]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"classMR_1_1Const__SphereObject.html#a2be91766362ff64499795bb08a4d32a9":[9,3,0,0,0,862,74],
-"classMR_1_1Const__SphereObject.html#a2d8ea8b2d10d83c7e522785c0c9547d9":[9,3,0,0,0,862,76],
 "classMR_1_1Const__SphereObject.html#a303b48d196e72323bec767f5d717b1f5":[9,3,0,0,0,862,69],
 "classMR_1_1Const__SphereObject.html#a30453973965dbf4d9e2fe97695d93747":[9,3,0,0,0,862,6],
 "classMR_1_1Const__SphereObject.html#a33608f231703d527d8b7f51a86b39cd0":[9,3,0,0,0,862,37],
@@ -249,5 +247,7 @@ var NAVTREEINDEX80 =
 "classMR_1_1Const__SymMatrix2d.html#a7ba29432e57f7af354fc579785f0e29e":[9,3,0,0,0,873,19],
 "classMR_1_1Const__SymMatrix2d.html#a7ea3a705a65616e1461b5df59bc276bd":[9,3,0,0,0,873,11],
 "classMR_1_1Const__SymMatrix2d.html#a854c9d0af3600deef51621f512ae3773":[9,3,0,0,0,873,13],
-"classMR_1_1Const__SymMatrix2d.html#a8c3d1438b82488d3abe751b933e7fbbf":[9,3,0,0,0,873,16]
+"classMR_1_1Const__SymMatrix2d.html#a8c3d1438b82488d3abe751b933e7fbbf":[9,3,0,0,0,873,16],
+"classMR_1_1Const__SymMatrix2d.html#ab3a466f32f8e880aa7c351ebd7f9c4a7":[9,3,0,0,0,873,8],
+"classMR_1_1Const__SymMatrix2d.html#ab4abddc6289892d2478b84a76059b5e2":[9,3,0,0,0,873,15]
 };
