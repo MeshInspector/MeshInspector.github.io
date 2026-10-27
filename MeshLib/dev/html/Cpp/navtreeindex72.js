@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"structfmt_1_1formatter_3_01MR_1_1BitSet_01_4.html#aa10c77c63d00564d3cf16cce044c58c7":[9,0,2,0,0,1,0],
 "structfmt_1_1formatter_3_01MR_1_1Box_3_01V_01_4_01_4.html":[9,0,2,0,0,2],
 "structfmt_1_1formatter_3_01MR_1_1Box_3_01V_01_4_01_4.html#a4fc0e313904dc68d2a620ce664d10542":[9,0,2,0,0,2,0],
 "structfmt_1_1formatter_3_01MR_1_1Matrix3_3_01T_01_4_01_4.html":[9,0,2,0,0,3],

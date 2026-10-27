@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1MeshTriPointT.html":[9,0,0,20,391],
 "structMR_1_1MeshVoxelsConverter.html":[9,0,0,20,859],
 "structMR_1_1Meta_1_1SharedPtrTraits.html":[9,0,1,0,1,29,0],
 "structMR_1_1Meta_1_1SharedPtrTraits.html":[9,0,2,0,2,17,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Polyline.html#ad4be3d0739eaf55a7156960a61d9b1e3":[9,0,0,14,0,28],
 "structMR_1_1Polyline.html#adcd14ead7b771006dcdc733950976288":[9,0,0,14,0,35],
 "structMR_1_1Polyline.html#ae04ad0d4adb7dd9912ec74fd39fcbad8":[9,0,0,14,0,23],
-"structMR_1_1Polyline.html#ae20e023266eab775d1ee6a336c27d7cd":[9,0,0,14,0,26],
-"structMR_1_1Polyline.html#ae6187af336b61283c5118d9aca6f0a12":[9,0,0,14,0,20]
+"structMR_1_1Polyline.html#ae20e023266eab775d1ee6a336c27d7cd":[9,0,0,14,0,26]
 };

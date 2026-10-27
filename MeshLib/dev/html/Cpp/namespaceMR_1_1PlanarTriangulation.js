@@ -27,5 +27,6 @@ var namespaceMR_1_1PlanarTriangulation =
     [ "triangulateDisjointContours", "group__GeneralGroup.html#gaf1407ed99d00015ef1fed87faa3d5d8f", null ],
     [ "triangulateDisjointContours", "group__GeneralGroup.html#ga818dcd39c8d72c4d2a32fc940d6ad524", null ],
     [ "triangulateDisjointContours", "group__GeneralGroup.html#ga3b3c6c939868a97b44c3b77793d46515", null ],
-    [ "triangulateDisjointContoursTopology", "group__GeneralGroup.html#ga2f9e9b49c88ebf29c5a8a41b0659b9a4", null ]
+    [ "triangulateDisjointContoursTopology", "group__GeneralGroup.html#ga2f9e9b49c88ebf29c5a8a41b0659b9a4", null ],
+    [ "cMaxSegmentsInPairs", "group__GeneralGroup.html#ga7c3537adfba23ebaf54fedc6f9301ba8", null ]
 ];

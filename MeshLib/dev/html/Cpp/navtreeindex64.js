@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1DrawButtonParams.html":[9,0,0,20,686],
 "structMR_1_1DrawListener.html":[9,0,0,20,810],
 "structMR_1_1DrawSceneUiListener.html":[9,0,0,20,617],
 "structMR_1_1EdgeLengthMesh.html":[9,0,0,7,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[9,0,2,0,2,6,0,7],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[9,0,1,0,1,17,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[9,0,2,0,2,7,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[9,0,1,0,1,17,0,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[9,0,2,0,2,7,0,0]
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[9,0,1,0,1,17,0,0]
 };

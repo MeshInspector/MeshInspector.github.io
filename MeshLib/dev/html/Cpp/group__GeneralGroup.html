@@ -11949,6 +11949,8 @@ Variables</h2></td></tr>
 <tr class="memitem:ga528577df88b99d1a7703da3953605d11" id="r_ga528577df88b99d1a7703da3953605d11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html">BaseOutlineParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga528577df88b99d1a7703da3953605d11">MR::PlanarTriangulation::OutlineParameters::baseParams</a></td></tr>
 <tr class="memitem:ga88fb9da2e4331eeb528a75fd0e4d78ad" id="r_ga88fb9da2e4331eeb528a75fd0e4d78ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, FaceId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga88fb9da2e4331eeb528a75fd0e4d78ad">MR::PlanarTriangulation::TriangulationParameters::outFaceWinding</a> { nullptr }</td></tr>
 <tr class="memitem:gae9a3578068a8a12a4e3f251b9f2824e3" id="r_gae9a3578068a8a12a4e3f251b9f2824e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html">IntersectionsMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae9a3578068a8a12a4e3f251b9f2824e3">MR::PlanarTriangulation::TriangulationParameters::outInterMap</a> { nullptr }</td></tr>
+<tr class="memitem:ga7c3537adfba23ebaf54fedc6f9301ba8" id="r_ga7c3537adfba23ebaf54fedc6f9301ba8"><td class="memItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7c3537adfba23ebaf54fedc6f9301ba8">MR::PlanarTriangulation::cMaxSegmentsInPairs</a> = 32</td></tr>
+<tr class="memdesc:ga7c3537adfba23ebaf54fedc6f9301ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="#gaea0c7f45b42e2b13000b32327759cd42">hasCrossing</a> tests up to this many segments in pairs, which is faster for them than the sweep, the only user of its cache with the exact predicates  <br /></td></tr>
 <tr class="memitem:ga11f524576ba6c686729f0173615bc190" id="r_ga11f524576ba6c686729f0173615bc190"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga7a0335fa16114969e7f5e031192bf45b">NodeVec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga11f524576ba6c686729f0173615bc190">MR::AABBTreeBase&lt; T &gt;::nodes_</a></td></tr>
 <tr class="memitem:ga737d9ffe78cecf476dbba17c7a68e40d" id="r_ga737d9ffe78cecf476dbba17c7a68e40d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga737d9ffe78cecf476dbba17c7a68e40d">MR::NoiseSettings::sigma</a> = 0.01f</td></tr>
 <tr class="memitem:ga81d588d7442ccd8974d74cb6dbaca36d" id="r_ga81d588d7442ccd8974d74cb6dbaca36d"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga81d588d7442ccd8974d74cb6dbaca36d">MR::NoiseSettings::seed</a> = 0</td></tr>
@@ -101371,7 +101373,7 @@ template&lt;detail::Units::Scalar T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
-<p>whether two of the segments between the points of <code class="param">preds</code> cross, found by the sweep of <a class="el" href="#gaf1407ed99d00015ef1fed87faa3d5d8f">triangulateDisjointContours</a>, which stops at the first crossing, or by testing every two of up to 32 segments, which is faster for them; segments with a common end only touch, and a repeated segment is taken once </p><dl class="params"><dt>Parameters</dt><dd>
+<p>whether two of the segments between the points of <code class="param">preds</code> cross, found by the sweep of <a class="el" href="#gaf1407ed99d00015ef1fed87faa3d5d8f">triangulateDisjointContours</a>, which stops at the first crossing, or by testing every two of up to <a class="el" href="#ga7c3537adfba23ebaf54fedc6f9301ba8">cMaxSegmentsInPairs</a> segments; segments with a common end only touch, and a repeated segment is taken once </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">segments</td><td>the ends of every segment, as the ids of the points in <code class="param">preds</code>, which are all set and not failed </td></tr>
   </table>
@@ -101411,7 +101413,7 @@ template&lt;detail::Units::Scalar T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
-<p>same as above for the points that <code class="param">segments</code> index given by their coordinates, projected along the axis most aligned with <code class="param">normal</code> and rounded to integers as <a class="el" href="#gaf1407ed99d00015ef1fed87faa3d5d8f">triangulateDisjointContours</a> does; distinct points rounded to the same position are told apart by their ids, not merged; if all the points are at one position, no segments cross </p>
+<p>same as above for the points that <code class="param">segments</code> index given by their coordinates, projected along the axis most aligned with <code class="param">normal</code> and rounded to integers as <a class="el" href="#gaf1407ed99d00015ef1fed87faa3d5d8f">triangulateDisjointContours</a> does; distinct points rounded to the same position are told apart by their ids, not merged; if all the points are at one position, no segments cross; <code class="param">cache</code> also keeps the projected points between calls </p>
 
 </div>
 </div>
@@ -208541,6 +208543,32 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga7c3537adfba23ebaf54fedc6f9301ba8" name="ga7c3537adfba23ebaf54fedc6f9301ba8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7c3537adfba23ebaf54fedc6f9301ba8">&#9670;&#160;</a></span>cMaxSegmentsInPairs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::PlanarTriangulation::cMaxSegmentsInPairs = 32</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
+
+<p><a class="el" href="#gaea0c7f45b42e2b13000b32327759cd42">hasCrossing</a> tests up to this many segments in pairs, which is faster for them than the sweep, the only user of its cache with the exact predicates </p>
+
+</div>
+</div>
 <a id="gaf967dac752a05397da587b76ec72feb5" name="gaf967dac752a05397da587b76ec72feb5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaf967dac752a05397da587b76ec72feb5">&#9670;&#160;</a></span>cMiddleFontSize</h2>
 
@@ -215202,7 +215230,7 @@ template&lt;typename T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way; under force fill, also the triangles where two segments of the contours cross (segments that follow each other along a contour or have a common mesh vertex do not), even if their cut is valid; the triangles where that cannot be told may be reported too: where the exact predicates fail on the points of the contours that they compare (e.g. coincident contours of a double-sided sheet), or, without sortData, where the corners of the triangle are on one line </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a> </dd></dl>
+<p>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way; under force fill, also the triangles where two segments of the contours cross (segments that follow each other along a contour or have a common mesh vertex do not), even if their cut is valid; the triangles where that cannot be told may be reported too: where the exact predicates fail on the points of the contours that they compare (e.g. coincident contours of a double-sided sheet), or, without sortData, where the corners of the triangle are on one line and more than three points of the contours are inside it </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a> </dd></dl>
 
 </div>
 </div>

@@ -17096,6 +17096,7 @@ var group__GeneralGroup =
     [ "MR::PointCloudPart::cloud", "group__GeneralGroup.html#ga85d4aad70140445a8b9ebadbc4382363", null ],
     [ "MR::ImproveSamplingSettings::cloudOfSamples", "group__GeneralGroup.html#ga59eb791fd7a6937434c6378dbf627296", null ],
     [ "MR::CloudPartMapping", "group__GeneralGroup.html#ga32d2679c43468dd98bb8cf90ddd25b77", null ],
+    [ "MR::PlanarTriangulation::cMaxSegmentsInPairs", "group__GeneralGroup.html#ga7c3537adfba23ebaf54fedc6f9301ba8", null ],
     [ "MR::cMiddleFontSize", "group__GeneralGroup.html#gaf967dac752a05397da587b76ec72feb5", null ],
     [ "MR::cMiddleIconSize", "group__GeneralGroup.html#ga8a7826f17744adf420a5075847c99e9e", null ],
     [ "MR::cModalButtonWidth", "group__GeneralGroup.html#ga31f77e731e7a4fa3bb8606a8a801848d", null ],
