@@ -145,8 +145,11 @@ $(function(){initNavTree('structMR_1_1Allocator.html','','structMR_1_1Allocator-
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
-  <img src="structMR_1_1Allocator.png" alt=""/>
- </div></div>
+  <img src="structMR_1_1Allocator.png" usemap="#MR_3A_3AAllocator_3C_20T_20_3E_map" alt=""/>
+  <map id="MR_3A_3AAllocator_3C_20T_20_3E_map" name="MR_3A_3AAllocator_3C_20T_20_3E_map">
+<area href="structMR_1_1AllocatorBase.html" title="not mi_stl_allocator: its construct/destroy members stop std containers from memmove-copying and skip..." alt="MR::AllocatorBase&lt; T &gt;" shape="rect" coords="0,0,147,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -155,6 +158,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ga8bd4851a1bc8ceaf4d330842802e0317" id="r_ga8bd4851a1bc8ceaf4d330842802e0317"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8bd4851a1bc8ceaf4d330842802e0317">value_type</a> = T</td></tr>
+<tr class="memitem:ga6e5a6cfcecd6d8ac399825a714295023" id="r_ga6e5a6cfcecd6d8ac399825a714295023"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6e5a6cfcecd6d8ac399825a714295023">propagate_on_container_move_assignment</a> = std::true_type</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -162,7 +166,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ga7d80cc8e2dbd0182e93b88770c40f5fa" id="r_ga7d80cc8e2dbd0182e93b88770c40f5fa"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
 <tr class="memitem:ga7d80cc8e2dbd0182e93b88770c40f5fa template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7d80cc8e2dbd0182e93b88770c40f5fa">Allocator</a> (const <a class="el" href="structMR_1_1Allocator.html">Allocator</a>&lt; U &gt; &amp;) noexcept</td></tr>
 <tr class="memitem:ga340f25c02f510dec0b75c517343a4315" id="r_ga340f25c02f510dec0b75c517343a4315"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga340f25c02f510dec0b75c517343a4315">allocate</a> (std::size_t n)</td></tr>
-<tr class="memdesc:ga340f25c02f510dec0b75c517343a4315"><td class="mdescLeft">&#160;</td><td class="mdescRight">mi_stl_allocator ignores the alignment of over-aligned types  <br /></td></tr>
+<tr class="memitem:ga32a4da83c0c6a0b8172ba86b79f45c7d" id="r_ga32a4da83c0c6a0b8172ba86b79f45c7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga32a4da83c0c6a0b8172ba86b79f45c7d">deallocate</a> (T *p, std::size_t) noexcept</td></tr>
 <tr class="memitem:gaf3830354fc012518a41ad7c79e6d66ef" id="r_gaf3830354fc012518a41ad7c79e6d66ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Allocator.html">Allocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf3830354fc012518a41ad7c79e6d66ef">select_on_container_copy_construction</a> () const noexcept</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>

@@ -15,7 +15,7 @@ var hierarchy =
     [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", null ],
     [ "MR::SpaceMouse::Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
     [ "MR::AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", null ],
-    [ "AllocatorBase", null, [
+    [ "MR::AllocatorBase< T >", "structMR_1_1AllocatorBase.html", [
       [ "MR::Allocator< U >", "structMR_1_1Allocator.html", null ],
       [ "MR::Allocator< T >", "structMR_1_1Allocator.html", null ]
     ] ],

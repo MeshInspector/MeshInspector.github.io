@@ -344,6 +344,7 @@ var annotated_dup =
       [ "AddVisualProperties", "classMR_1_1AddVisualProperties.html", "classMR_1_1AddVisualProperties" ],
       [ "AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", "structMR_1_1AllLocalTriangulations" ],
       [ "Allocator", "structMR_1_1Allocator.html", "structMR_1_1Allocator" ],
+      [ "AllocatorBase", "structMR_1_1AllocatorBase.html", null ],
       [ "AlphaShapeData", "structMR_1_1AlphaShapeData.html", "structMR_1_1AlphaShapeData" ],
       [ "AlphaShapeNei", "structMR_1_1AlphaShapeNei.html", "structMR_1_1AlphaShapeNei" ],
       [ "AlphaShapeStats", "structMR_1_1AlphaShapeStats.html", "structMR_1_1AlphaShapeStats" ],

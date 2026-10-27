@@ -309,6 +309,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for aligning 2d contours onto mesh surface.  <a href="structMR_1_1ContoursMeshAlignParams.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ABendContoursAlongCurveParams" id="r_MR_3A_3ABendContoursAlongCurveParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BendContoursAlongCurveParams.html">MR::BendContoursAlongCurveParams</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for aligning 2d contours along given curve.  <a href="structMR_1_1BendContoursAlongCurveParams.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AAllocatorBase_3C_20T_20_3E" id="r_MR_3A_3AAllocatorBase_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AllocatorBase.html">MR::AllocatorBase&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">not mi_stl_allocator: its construct/destroy members stop std containers from memmove-copying and skipping trivial destructors  <a href="structMR_1_1AllocatorBase.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AAllocator_3C_20T_20_3E" id="r_MR_3A_3AAllocator_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Allocator.html">MR::Allocator&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AAllocator_3C_20T_20_3E_3A_3Arebind_3C_20U_20_3E" id="r_MR_3A_3AAllocator_3C_20T_20_3E_3A_3Arebind_3C_20U_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Allocator_1_1rebind.html">MR::Allocator&lt; T &gt;::rebind&lt; U &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AAlphaShapeData" id="r_MR_3A_3AAlphaShapeData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AlphaShapeData.html">MR::AlphaShapeData</a></td></tr>
@@ -1493,10 +1495,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga5517b355b3a51538470f957d6a23bff1" id="r_ga5517b355b3a51538470f957d6a23bff1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5517b355b3a51538470f957d6a23bff1">MR::ObjTreeTraits::LeafTag</a> = <a class="el" href="#ga2690a70b32cd0408ea2263bfc9a9f436">ObjTag</a></td></tr>
 <tr class="memitem:ga7208b3ed4cbf6a7db7c03785856d5131" id="r_ga7208b3ed4cbf6a7db7c03785856d5131"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7208b3ed4cbf6a7db7c03785856d5131">MR::ObjTreeTraits::LeafId</a> = ObjId</td></tr>
 <tr class="memitem:gae8c8c6d7c93de2cba91378f547c50a8e" id="r_gae8c8c6d7c93de2cba91378f547c50a8e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae8c8c6d7c93de2cba91378f547c50a8e">MR::ObjTreeTraits::BoxT</a> = Box3f</td></tr>
-<tr class="memitem:ga4ed067eb120da131493c19909b1503bb" id="r_ga4ed067eb120da131493c19909b1503bb"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:ga4ed067eb120da131493c19909b1503bb template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4ed067eb120da131493c19909b1503bb">MR::AllocatorBase</a> = mi_stl_allocator&lt;T&gt;</td></tr>
 <tr class="memitem:ga8bd4851a1bc8ceaf4d330842802e0317" id="r_ga8bd4851a1bc8ceaf4d330842802e0317"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8bd4851a1bc8ceaf4d330842802e0317">MR::Allocator&lt; T &gt;::value_type</a> = T</td></tr>
 <tr class="memitem:gae1ad72005968102151033273381f1bf3" id="r_gae1ad72005968102151033273381f1bf3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae1ad72005968102151033273381f1bf3">MR::Allocator&lt; T &gt;::rebind&lt; U &gt;::other</a> = <a class="el" href="structMR_1_1Allocator.html">Allocator</a>&lt;U&gt;</td></tr>
+<tr class="memitem:ga6e5a6cfcecd6d8ac399825a714295023" id="r_ga6e5a6cfcecd6d8ac399825a714295023"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6e5a6cfcecd6d8ac399825a714295023">MR::Allocator&lt; T &gt;::propagate_on_container_move_assignment</a> = std::true_type</td></tr>
 <tr class="memitem:gab29b342345673c2ab559f44111f75bdd" id="r_gab29b342345673c2ab559f44111f75bdd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab29b342345673c2ab559f44111f75bdd">MR::Ball&lt; V &gt;::VTraits</a> = <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;V&gt;</td></tr>
 <tr class="memitem:gaad1f3f595e73be14324c1ad3964ab4fd" id="r_gaad1f3f595e73be14324c1ad3964ab4fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaad1f3f595e73be14324c1ad3964ab4fd">MR::Ball&lt; V &gt;::T</a> = typename <a class="el" href="#gadbadae2704ad269b8d78edbb0f2faa93">VTraits::BaseType</a></td></tr>
 <tr class="memitem:gaede2a83d70208855b602da974aafc690" id="r_gaede2a83d70208855b602da974aafc690"><td class="memTemplParams" colspan="2">template&lt;size_t degree&gt; </td></tr>
@@ -3660,7 +3661,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga7d80cc8e2dbd0182e93b88770c40f5fa" id="r_ga7d80cc8e2dbd0182e93b88770c40f5fa"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
 <tr class="memitem:ga7d80cc8e2dbd0182e93b88770c40f5fa template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7d80cc8e2dbd0182e93b88770c40f5fa">MR::Allocator&lt; T &gt;::Allocator</a> (const <a class="el" href="structMR_1_1Allocator.html">Allocator</a>&lt; U &gt; &amp;) noexcept</td></tr>
 <tr class="memitem:ga340f25c02f510dec0b75c517343a4315" id="r_ga340f25c02f510dec0b75c517343a4315"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga340f25c02f510dec0b75c517343a4315">MR::Allocator&lt; T &gt;::allocate</a> (std::size_t n)</td></tr>
-<tr class="memdesc:ga340f25c02f510dec0b75c517343a4315"><td class="mdescLeft">&#160;</td><td class="mdescRight">mi_stl_allocator ignores the alignment of over-aligned types  <br /></td></tr>
+<tr class="memitem:ga32a4da83c0c6a0b8172ba86b79f45c7d" id="r_ga32a4da83c0c6a0b8172ba86b79f45c7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga32a4da83c0c6a0b8172ba86b79f45c7d">MR::Allocator&lt; T &gt;::deallocate</a> (T *p, std::size_t) noexcept</td></tr>
 <tr class="memitem:gaf3830354fc012518a41ad7c79e6d66ef" id="r_gaf3830354fc012518a41ad7c79e6d66ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Allocator.html">Allocator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf3830354fc012518a41ad7c79e6d66ef">MR::Allocator&lt; T &gt;::select_on_container_copy_construction</a> () const noexcept</td></tr>
 <tr class="memitem:ga069c10cc19da139f913e3cd6f507b76f" id="r_ga069c10cc19da139f913e3cd6f507b76f"><td class="memTemplParams" colspan="2">template&lt;typename T, typename U&gt; </td></tr>
 <tr class="memitem:ga069c10cc19da139f913e3cd6f507b76f template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga069c10cc19da139f913e3cd6f507b76f">MR::operator==</a> (const <a class="el" href="structMR_1_1Allocator.html">Allocator</a>&lt; T &gt; &amp;, const <a class="el" href="structMR_1_1Allocator.html">Allocator</a>&lt; U &gt; &amp;) noexcept</td></tr>
@@ -16417,24 +16418,6 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga4ed067eb120da131493c19909b1503bb" name="ga4ed067eb120da131493c19909b1503bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4ed067eb120da131493c19909b1503bb">&#9670;&#160;</a></span>AllocatorBase</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#ga4ed067eb120da131493c19909b1503bb">MR::AllocatorBase</a> = mi_stl_allocator&lt;T&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRAllocator_8h.html">MRMesh/MRAllocator.h</a>&gt;</code></p>
-
-</div>
-</div>
 <a id="gadffaab931d52fa647870ad0274b3166f" name="gadffaab931d52fa647870ad0274b3166f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gadffaab931d52fa647870ad0274b3166f">&#9670;&#160;</a></span>AllowCallBack</h2>
 
@@ -21085,6 +21068,22 @@ template&lt;typename TreeT, typename Proc&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRMeshOrPoints_8h.html">MRMesh/MRMeshOrPoints.h</a>&gt;</code></p>
 
 <p>to receive object id + projection result on it </p>
+
+</div>
+</div>
+<a id="ga6e5a6cfcecd6d8ac399825a714295023" name="ga6e5a6cfcecd6d8ac399825a714295023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6e5a6cfcecd6d8ac399825a714295023">&#9670;&#160;</a></span>propagate_on_container_move_assignment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structMR_1_1Allocator.html">MR::Allocator</a>&lt; T &gt;::propagate_on_container_move_assignment = std::true_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -33274,8 +33273,6 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRAllocator_8h.html">MRMesh/MRAllocator.h</a>&gt;</code></p>
-
-<p>mi_stl_allocator ignores the alignment of over-aligned types </p>
 
 </div>
 </div>
@@ -54698,6 +54695,39 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRICP_8h.html">MRMesh/MRICP.h</a>&gt;</code></p>
 
 <p>reset active bit if pair distance is further than maxDistSq </p>
+
+</div>
+</div>
+<a id="ga32a4da83c0c6a0b8172ba86b79f45c7d" name="ga32a4da83c0c6a0b8172ba86b79f45c7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga32a4da83c0c6a0b8172ba86b79f45c7d">&#9670;&#160;</a></span>deallocate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structMR_1_1Allocator.html">MR::Allocator</a>&lt; T &gt;::deallocate </td>
+          <td>(</td>
+          <td class="paramtype">T *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRAllocator_8h.html">MRMesh/MRAllocator.h</a>&gt;</code></p>
 
 </div>
 </div>

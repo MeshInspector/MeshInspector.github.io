@@ -552,11 +552,14 @@ var group__GeneralGroup =
       [ "pivotCurveTime", "group__GeneralGroup.html#gaf94f08b9029b46debd6c05b78ee3d395", null ],
       [ "stretch", "group__GeneralGroup.html#gaa63ad4da9aad75fc779edeb4baab169c", null ]
     ] ],
+    [ "MR::AllocatorBase< T >", "structMR_1_1AllocatorBase.html", null ],
     [ "MR::Allocator< T >", "structMR_1_1Allocator.html", [
+      [ "propagate_on_container_move_assignment", "group__GeneralGroup.html#ga6e5a6cfcecd6d8ac399825a714295023", null ],
       [ "value_type", "group__GeneralGroup.html#ga8bd4851a1bc8ceaf4d330842802e0317", null ],
       [ "Allocator", "group__GeneralGroup.html#ga88f01e137229318830157a8e775cb9cf", null ],
       [ "Allocator", "group__GeneralGroup.html#ga7d80cc8e2dbd0182e93b88770c40f5fa", null ],
       [ "allocate", "group__GeneralGroup.html#ga340f25c02f510dec0b75c517343a4315", null ],
+      [ "deallocate", "group__GeneralGroup.html#ga32a4da83c0c6a0b8172ba86b79f45c7d", null ],
       [ "select_on_container_copy_construction", "group__GeneralGroup.html#gaf3830354fc012518a41ad7c79e6d66ef", null ]
     ] ],
     [ "MR::Allocator< T >::rebind< U >", "structMR_1_1Allocator_1_1rebind.html", [
@@ -9141,7 +9144,6 @@ var group__GeneralGroup =
     [ "MR::AffineXf2OrPlaceholder", "group__GeneralGroup.html#ga3f1bf05cffb6426258d558c4159e11bc", null ],
     [ "MR::AffineXf3", "group__GeneralGroup.html#gac964d34e63e2bd23c8ab1e4cea68ae71", null ],
     [ "MR::AffineXf3OrPlaceholder", "group__GeneralGroup.html#gae2856f9003f11adc4d85d9befcb2f442", null ],
-    [ "MR::AllocatorBase", "group__GeneralGroup.html#ga4ed067eb120da131493c19909b1503bb", null ],
     [ "MR::PickPointManager::AllowCallBack", "group__GeneralGroup.html#gadffaab931d52fa647870ad0274b3166f", null ],
     [ "MR::Ball1", "group__GeneralGroup.html#ga6b2740bc7a2aefd66a0f1aa6d5411fb3", null ],
     [ "MR::Ball2", "group__GeneralGroup.html#ga576c35058503c0c22a7d4e8846efd1b6", null ],
@@ -9434,6 +9436,7 @@ var group__GeneralGroup =
     [ "MR::ViewerSignals::PreShutdownSignal", "group__GeneralGroup.html#ga2b389ab14929627c8277c7af5a8b16b9", null ],
     [ "MR::RangeProcessorSingle::ProgressHolder", "group__GeneralGroup.html#ga18c7b1c6f5f3eb4ab1f683819ab2526b", null ],
     [ "MR::ProjectOnAllCallback", "group__GeneralGroup.html#ga51c5c9bdf012ab12e360b5e161bb378e", null ],
+    [ "MR::Allocator::propagate_on_container_move_assignment", "group__GeneralGroup.html#ga6e5a6cfcecd6d8ac399825a714295023", null ],
     [ "MR::PythonExport::PythonRegisterFuncton", "group__GeneralGroup.html#ga001e362a5ed99ee391fd182df4571f9c", null ],
     [ "MR::QuadraticForm3", "group__GeneralGroup.html#ga61604865725cf558b532b5e235334f3f", null ],
     [ "MR::Buffer::reference", "group__GeneralGroup.html#gaa0e2029752634265e64418bec35cd18e", null ],
@@ -11581,6 +11584,7 @@ var group__GeneralGroup =
     [ "MR::dblArea", "group__GeneralGroup.html#ga8cf43b097e552b51cea5e2fa012eb286", null ],
     [ "MR::dblAreaSq", "group__GeneralGroup.html#gaf848b7a93acc5e03bfea1f8bcc3ffdb7", null ],
     [ "MR::deactivateFarPairs", "group__GeneralGroup.html#ga9381989fd9c2bfbded47dacbf86d0aee", null ],
+    [ "MR::Allocator::deallocate", "group__GeneralGroup.html#ga32a4da83c0c6a0b8172ba86b79f45c7d", null ],
     [ "MR::decimateContour", "group__GeneralGroup.html#gadcaf03fd3d33f91e795a0b37a7a48020", null ],
     [ "MR::decimatePolyline", "group__GeneralGroup.html#ga8184701aebff355e04a3f2f5e218a81f", null ],
     [ "MR::FillHoleItemEdge::decode", "group__GeneralGroup.html#gaca7e1cf40d26625e3f68714cb7cd4150", null ],
