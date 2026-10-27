@@ -1,5 +1,13 @@
 var NAVTREEINDEX89 =
 {
+"classmrmeshpy_1_1ShellVertexInfo.html#a9a68e128ba699812a4892a4d01680b3b":[9,1,0,0,2,861,7],
+"classmrmeshpy_1_1ShellVertexInfo.html#a9a68e128ba699812a4892a4d01680b3b":[9,1,1,0,1,861,7],
+"classmrmeshpy_1_1ShellVertexInfo.html#aa3ebb7ba92b1824fc34103cdb66dc649":[9,1,0,0,2,861,2],
+"classmrmeshpy_1_1ShellVertexInfo.html#aa3ebb7ba92b1824fc34103cdb66dc649":[9,1,1,0,1,861,2],
+"classmrmeshpy_1_1ShellVertexInfo.html#aa6f3b79ef58e520ec73e91a5281dd87a":[9,1,0,0,2,861,0],
+"classmrmeshpy_1_1ShellVertexInfo.html#aa6f3b79ef58e520ec73e91a5281dd87a":[9,1,1,0,1,861,0],
+"classmrmeshpy_1_1ShellVertexInfo.html#ac1a3a24d7ee08d4bf91ebcf422b0b7f3":[9,1,0,0,2,861,5],
+"classmrmeshpy_1_1ShellVertexInfo.html#ac1a3a24d7ee08d4bf91ebcf422b0b7f3":[9,1,1,0,1,861,5],
 "classmrmeshpy_1_1ShellVertexInfo.html#aca43c354a8cde25e1419d1119e499573":[9,1,0,0,2,861,4],
 "classmrmeshpy_1_1ShellVertexInfo.html#aca43c354a8cde25e1419d1119e499573":[9,1,1,0,1,861,4],
 "classmrmeshpy_1_1ShrinkwrapParameters.html":[9,1,0,0,2,862],
@@ -241,13 +249,5 @@ var NAVTREEINDEX89 =
 "classmrmeshpy_1_1SlicePlane.html#ad174ef7351926908bef11587210b551b":[9,1,0,0,2,876,0],
 "classmrmeshpy_1_1SlicePlane.html#ad174ef7351926908bef11587210b551b":[9,1,1,0,1,876,0],
 "classmrmeshpy_1_1SlicePlane.html#af51d3b79ac2be18200266ebcb8a0c7b2":[9,1,0,0,2,876,5],
-"classmrmeshpy_1_1SlicePlane.html#af51d3b79ac2be18200266ebcb8a0c7b2":[9,1,1,0,1,876,5],
-"classmrmeshpy_1_1SlicePlane.html#af644a088afa006cadc5fa2d0ba417bd0":[9,1,0,0,2,876,3],
-"classmrmeshpy_1_1SlicePlane.html#af644a088afa006cadc5fa2d0ba417bd0":[9,1,1,0,1,876,3],
-"classmrmeshpy_1_1SlicePlane.html#af80cb8de11dd2a37fafdb1f64d8e8391":[9,1,0,0,2,876,8],
-"classmrmeshpy_1_1SlicePlane.html#af80cb8de11dd2a37fafdb1f64d8e8391":[9,1,1,0,1,876,8],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html":[9,1,0,0,2,877],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html":[9,1,1,0,1,877],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a0118f78e90de645ea326f9afdca897bb":[9,1,0,0,2,877,11],
-"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a0118f78e90de645ea326f9afdca897bb":[9,1,1,0,1,877,11]
+"classmrmeshpy_1_1SlicePlane.html#af51d3b79ac2be18200266ebcb8a0c7b2":[9,1,1,0,1,876,5]
 };

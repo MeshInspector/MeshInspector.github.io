@@ -1,11 +1,15 @@
 var classMR_1_1Const__RigidXfRansacParams =
 [
     [ "Const_RigidXfRansacParams", "classMR_1_1Const__RigidXfRansacParams.html#adf67f6460db55d8fa169621fe4d4c6d2", null ],
-    [ "Const_RigidXfRansacParams", "classMR_1_1Const__RigidXfRansacParams.html#a83e01d6496ab70c3cb87da3ee5ebe6d3", null ],
+    [ "Const_RigidXfRansacParams", "classMR_1_1Const__RigidXfRansacParams.html#a69d552f44121ea76886b65ad422f35ad", null ],
     [ "Const_RigidXfRansacParams", "classMR_1_1Const__RigidXfRansacParams.html#af84d1c3215de626c75df0eaa058ccb15", null ],
     [ "Const_RigidXfRansacParams", "classMR_1_1Const__RigidXfRansacParams.html#a6ffa458d5cf5c3857db71621bf824d04", null ],
     [ "Dispose", "classMR_1_1Const__RigidXfRansacParams.html#a3b9b2ca0c7b04b153b5045342aa056a2", null ],
     [ "Dispose", "classMR_1_1Const__RigidXfRansacParams.html#a45419450bac684afe248f9e6a5455b85", null ],
+    [ "__ptr_storage_overlapSrcCloud", "classMR_1_1Const__RigidXfRansacParams.html#a28b5ec8cad4ee3cdd5e4007533720965", null ],
+    [ "__ptr_storage_overlapSrcPoints", "classMR_1_1Const__RigidXfRansacParams.html#aba6075b8816ce4a626d705a84be9a7c7", null ],
+    [ "__ptr_storage_overlapTgtCloud", "classMR_1_1Const__RigidXfRansacParams.html#a4289258eb474a8b26c46335838991633", null ],
+    [ "__ptr_storage_overlapTgtPoints", "classMR_1_1Const__RigidXfRansacParams.html#accc3adb4fd0aad6ede3a34ecefb4cb55", null ],
     [ "__ref_storage_confidence", "classMR_1_1Const__RigidXfRansacParams.html#a78e88bc7fad87206383da09314462008", null ],
     [ "__ref_storage_edgeLengthRatio", "classMR_1_1Const__RigidXfRansacParams.html#af8869937266b5f1a93e0bad4d1348da0", null ],
     [ "__ref_storage_inlierDistance", "classMR_1_1Const__RigidXfRansacParams.html#a99568e32d83cc69328f8615434ec89ee", null ],
@@ -15,5 +19,9 @@ var classMR_1_1Const__RigidXfRansacParams =
     [ "edgeLengthRatio", "classMR_1_1Const__RigidXfRansacParams.html#a40a7efed7c04e0e7db2bed9dc8a48b7e", null ],
     [ "inlierDistance", "classMR_1_1Const__RigidXfRansacParams.html#ac6a12bd15ceb78c4d1a2d8bf2797e578", null ],
     [ "maxIterations", "classMR_1_1Const__RigidXfRansacParams.html#a02807f75a96ac3f53adfbaf4b8c80d05", null ],
+    [ "overlapSrcCloud", "classMR_1_1Const__RigidXfRansacParams.html#a8139c002ef2cadaad5570ff34b397419", null ],
+    [ "overlapSrcPoints", "classMR_1_1Const__RigidXfRansacParams.html#a0be86976640a14c98123a00d28ba130d", null ],
+    [ "overlapTgtCloud", "classMR_1_1Const__RigidXfRansacParams.html#a75966051e70264fa6ca9f69d79b3efd3", null ],
+    [ "overlapTgtPoints", "classMR_1_1Const__RigidXfRansacParams.html#ad619843725b54658427ad9bb06a2d6b0", null ],
     [ "seed", "classMR_1_1Const__RigidXfRansacParams.html#ac231af1fa54b9008f80e877c5d9699c9", null ]
 ];

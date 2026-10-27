@@ -1,5 +1,15 @@
 var NAVTREEINDEX101 =
 {
+"classMR_1_1EdgeBitSet.html#af3b59eaeb2bc5ed2f617cb966d98e7e7":[9,3,0,0,0,1182,17],
+"classMR_1_1EdgeColors.html":[9,3,0,0,0,1184],
+"classMR_1_1EdgeColors.html#a180f37dbf39836dced21dd74158d486f":[9,3,0,0,0,1184,13],
+"classMR_1_1EdgeColors.html#a228c602555964a514698ce41ee1c10bb":[9,3,0,0,0,1184,20],
+"classMR_1_1EdgeColors.html#a26894141abcd741d072bad64afb7750b":[9,3,0,0,0,1184,5],
+"classMR_1_1EdgeColors.html#a305fd63df92ce9db6cbf38d092e93717":[9,3,0,0,0,1184,26],
+"classMR_1_1EdgeColors.html#a345cb1c5817651af3f30b4cb29ae437a":[9,3,0,0,0,1184,7],
+"classMR_1_1EdgeColors.html#a34e72d5e82116efbf325c8dddcc13a78":[9,3,0,0,0,1184,4],
+"classMR_1_1EdgeColors.html#a37bc80844820ad0a58e1ff65a7fc99ef":[9,3,0,0,0,1184,9],
+"classMR_1_1EdgeColors.html#a3c4043d26e8af27f8f17ff83e213e785":[9,3,0,0,0,1184,11],
 "classMR_1_1EdgeColors.html#a481dcc844767d83f7568703c69db84cc":[9,3,0,0,0,1184,10],
 "classMR_1_1EdgeColors.html#a5c1ad0686b164a1be7f202977ecbcf2b":[9,3,0,0,0,1184,8],
 "classMR_1_1EdgeColors.html#a5f36dc94a1d06a7214d5e61891729f58":[9,3,0,0,0,1184,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX101 =
 "classMR_1_1EndMillCutter.html#aed5a92ed836230f436b83cc9fadf3ff7":[9,3,0,0,0,1201,7],
 "classMR_1_1EndMillCutter.html#afcf70fe34821d5192a11c08655a56041":[9,3,0,0,0,1201,2],
 "classMR_1_1EndMillTool.html":[9,3,0,0,0,1202],
-"classMR_1_1EndMillTool.html#a1143c5a9b453ec4b82ce897b855e1f6a":[9,3,0,0,0,1202,5],
-"classMR_1_1EndMillTool.html#a1cf348c08d2951f29add9616d7b886d2":[9,3,0,0,0,1202,3],
-"classMR_1_1EndMillTool.html#a2cfded56b8f7ff9a93506dc5142f6c5c":[9,3,0,0,0,1202,2],
-"classMR_1_1EndMillTool.html#a2d1371043c7236534910fd282285fc54":[9,3,0,0,0,1202,0],
-"classMR_1_1EndMillTool.html#a4ba15f058753c8baea087dd784fc3b97":[9,3,0,0,0,1202,1],
-"classMR_1_1EndMillTool.html#a7a4854eaf487891745bee6d3cbc5a4a7":[9,3,0,0,0,1202,4],
-"classMR_1_1EndMillTool.html#ac1e2a8b0850136cffabc51990766e6e8":[9,3,0,0,0,1202,7],
-"classMR_1_1EndMillTool.html#ac1f839824ec15cb7571b9846577d76bc":[9,3,0,0,0,1202,6],
-"classMR_1_1EnumNeihbourFaces.html":[9,3,0,0,0,1203],
-"classMR_1_1EnumNeihbourFaces.html#a2fc3b226e04207443a6c424adb3b515f":[9,3,0,0,0,1203,3],
-"classMR_1_1EnumNeihbourFaces.html#a4d66ae6b3cff12deb3116e3f18b606c4":[9,3,0,0,0,1203,0]
+"classMR_1_1EndMillTool.html#a1143c5a9b453ec4b82ce897b855e1f6a":[9,3,0,0,0,1202,5]
 };

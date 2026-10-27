@@ -1,5 +1,15 @@
 var NAVTREEINDEX77 =
 {
+"classMR_1_1Const__SceneRootObject.html#ad86955dc4fc8271742ed79a8c45ac3a9":[9,3,0,0,0,821,35],
+"classMR_1_1Const__SceneRootObject.html#ae5aef1eca6fe7412b1a4503170703065":[9,3,0,0,0,821,12],
+"classMR_1_1Const__SceneRootObject.html#aed3c52f1fad2ea9f3c96d103b5ef90cf":[9,3,0,0,0,821,29],
+"classMR_1_1Const__SceneRootObject.html#af3c59d77baecdc80bbd9675e602b888a":[9,3,0,0,0,821,13],
+"classMR_1_1Const__SceneRootObject.html#af4cf78e3109c88c73d07791950805b7c":[9,3,0,0,0,821,43],
+"classMR_1_1Const__SceneRootObject.html#af65a3a2cc80069f36467a30573c8eb43":[9,3,0,0,0,821,36],
+"classMR_1_1Const__SceneRootObject.html#af97da69bf1c65759d6a4cad04f346576":[9,3,0,0,0,821,26],
+"classMR_1_1Const__SceneSettings.html":[9,3,0,0,0,822],
+"classMR_1_1Const__SceneSettings.html#a236aa31006a27c2ceeadf9bec24ed6f6":[9,3,0,0,0,822,3],
+"classMR_1_1Const__SceneSettings.html#a236aa31006a27c2ceeadf9bec24ed6f6a11502ad3cfb527908a8174aa52271159":[9,3,0,0,0,822,3,2],
 "classMR_1_1Const__SceneSettings.html#a236aa31006a27c2ceeadf9bec24ed6f6a6aa229db0ba7959da11cbdb84060f3d9":[9,3,0,0,0,822,3,1],
 "classMR_1_1Const__SceneSettings.html#a236aa31006a27c2ceeadf9bec24ed6f6a7c7083efbc53c626f151a4d9e7b029bb":[9,3,0,0,0,822,3,0],
 "classMR_1_1Const__SceneSettings.html#a236aa31006a27c2ceeadf9bec24ed6f6ae93f994f01c537c4e2f7d8528c3eb5e9":[9,3,0,0,0,822,3,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX77 =
 "classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#a9dff428055f5ef4634146877c1901363":[9,3,0,0,0,834,4],
 "classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#a9fc64bef2cd153e8d20c4cc573439013":[9,3,0,0,0,834,1],
 "classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#ac2055c90a4874b2d972c698b7498dc08":[9,3,0,0,0,834,12],
-"classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#aca092ab9be9ee0542a9f50bcfbc6f7c9":[9,3,0,0,0,834,3],
-"classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#ad73763ccb2c16449ba673a484a41478e":[9,3,0,0,0,834,11],
-"classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#aec9b19e356de9571691cc278eb32ba25":[9,3,0,0,0,834,5],
-"classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#aef9ec994c41c3c8c9826691b2373e55b":[9,3,0,0,0,834,13],
-"classMR_1_1Const__SetBitIteratorT__MRTextureBitSet.html":[9,3,0,0,0,835],
-"classMR_1_1Const__SetBitIteratorT__MRTextureBitSet.html#a16fb2b5a98937230947757a78e97e17f":[9,3,0,0,0,835,4],
-"classMR_1_1Const__SetBitIteratorT__MRTextureBitSet.html#a1f268b103447ef1d4d9de1420fa0f7d9":[9,3,0,0,0,835,1],
-"classMR_1_1Const__SetBitIteratorT__MRTextureBitSet.html#a25c9cf125c3b7dcc96117cb3e8fa3e98":[9,3,0,0,0,835,6],
-"classMR_1_1Const__SetBitIteratorT__MRTextureBitSet.html#a5d9cbb46ea9a3fafb4e4f1b0b63779eb":[9,3,0,0,0,835,7],
-"classMR_1_1Const__SetBitIteratorT__MRTextureBitSet.html#a5e346d0ab7362f68f7d609440522c31d":[9,3,0,0,0,835,13],
-"classMR_1_1Const__SetBitIteratorT__MRTextureBitSet.html#a6c7f081838f870321287264541b2ddc7":[9,3,0,0,0,835,5]
+"classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#aca092ab9be9ee0542a9f50bcfbc6f7c9":[9,3,0,0,0,834,3]
 };

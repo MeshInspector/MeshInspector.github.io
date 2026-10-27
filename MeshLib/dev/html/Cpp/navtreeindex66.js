@@ -1,5 +1,9 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1Image.html":[9,0,0,20,305],
+"structMR_1_1ImproveSamplingSettings.html":[9,0,0,20,306],
+"structMR_1_1InSphere.html":[9,0,0,20,382],
+"structMR_1_1InSphereSearchSettings.html":[9,0,0,20,381],
 "structMR_1_1InflateSettings.html":[9,0,0,20,477],
 "structMR_1_1InterpolateScalarsParams.html":[9,0,0,20,475],
 "structMR_1_1InterruptCloseListener.html":[9,0,0,20,815],
@@ -245,9 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1Mesh.html#a18e24b802c039dde02eeb902045cdb20":[9,0,0,7,1,24],
 "structMR_1_1Mesh.html#a19223c76e1742c8cf6a56fd51b5c2c68":[9,0,0,7,1,34],
 "structMR_1_1Mesh.html#a195c509bc89bff7c15ae4f20a0659b36":[9,0,0,7,1,85],
-"structMR_1_1Mesh.html#a1a6420269a152e58f76f327bc6324f05":[9,0,0,7,1,6],
-"structMR_1_1Mesh.html#a1c15fb58bb4738566c304ea3f803f4a8":[9,0,0,7,1,121],
-"structMR_1_1Mesh.html#a1d9c349940bd023baeffad5dd6e503f5":[9,0,0,7,1,64],
-"structMR_1_1Mesh.html#a1e2a8eaf7d1882e02a3eea66d1d72349":[9,0,0,7,1,13],
-"structMR_1_1Mesh.html#a1e677e30de874a7c800e274fde50a33b":[9,0,0,7,1,123]
+"structMR_1_1Mesh.html#a1a6420269a152e58f76f327bc6324f05":[9,0,0,7,1,6]
 };

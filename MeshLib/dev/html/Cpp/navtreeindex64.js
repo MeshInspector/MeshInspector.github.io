@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[9,0,0,20,218],
+"structMR_1_1EdgePointPair.html":[9,0,0,20,223],
+"structMR_1_1EdgePointT.html":[9,0,0,20,222],
+"structMR_1_1EdgeSegmentT.html":[9,0,0,20,224],
 "structMR_1_1EdgeTri.html":[9,0,0,1,17],
 "structMR_1_1EdgeTri.html#a45de5d714a586bda433f476169bb81ef":[9,0,0,1,17,1],
 "structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e":[9,0,0,1,17,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23":[9,0,1,0,1,17,0,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23":[9,0,2,0,2,7,0,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[9,0,1,0,1,17,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[9,0,2,0,2,7,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[9,0,1,0,1,17,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[9,0,2,0,2,7,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[9,0,1,0,1,17,1,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[9,0,2,0,2,7,1,0]
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[9,0,2,0,2,7,0,1]
 };

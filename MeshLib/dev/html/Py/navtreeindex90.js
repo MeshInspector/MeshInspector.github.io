@@ -1,5 +1,13 @@
 var NAVTREEINDEX90 =
 {
+"classmrmeshpy_1_1SlicePlane.html#af644a088afa006cadc5fa2d0ba417bd0":[9,1,0,0,2,876,3],
+"classmrmeshpy_1_1SlicePlane.html#af644a088afa006cadc5fa2d0ba417bd0":[9,1,1,0,1,876,3],
+"classmrmeshpy_1_1SlicePlane.html#af80cb8de11dd2a37fafdb1f64d8e8391":[9,1,0,0,2,876,8],
+"classmrmeshpy_1_1SlicePlane.html#af80cb8de11dd2a37fafdb1f64d8e8391":[9,1,1,0,1,876,8],
+"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html":[9,1,0,0,2,877],
+"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html":[9,1,1,0,1,877],
+"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a0118f78e90de645ea326f9afdca897bb":[9,1,0,0,2,877,11],
+"classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a0118f78e90de645ea326f9afdca897bb":[9,1,1,0,1,877,11],
 "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a12cc35a9d1fc91ae6b1898c552e885ac":[9,1,0,0,2,877,0],
 "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a12cc35a9d1fc91ae6b1898c552e885ac":[9,1,1,0,1,877,0],
 "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a1f214398c47d56ebf1b3ec58473f30a9":[9,1,0,0,2,877,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX90 =
 "classmrmeshpy_1_1StitchHolesNicelySettings.html#a0c10a5f47b3ac39d7d28b586c4574678":[9,1,0,0,2,1134,13],
 "classmrmeshpy_1_1StitchHolesNicelySettings.html#a0c10a5f47b3ac39d7d28b586c4574678":[9,1,1,0,1,1134,13],
 "classmrmeshpy_1_1StitchHolesNicelySettings.html#a19935cf7416bf0e76408b8be3303c8b0":[9,1,0,0,2,1134,2],
-"classmrmeshpy_1_1StitchHolesNicelySettings.html#a19935cf7416bf0e76408b8be3303c8b0":[9,1,1,0,1,1134,2],
-"classmrmeshpy_1_1StitchHolesNicelySettings.html#a21eb22ee2aaeffa6334e829f1aa282e7":[9,1,0,0,2,1134,9],
-"classmrmeshpy_1_1StitchHolesNicelySettings.html#a21eb22ee2aaeffa6334e829f1aa282e7":[9,1,1,0,1,1134,9],
-"classmrmeshpy_1_1StitchHolesNicelySettings.html#a3abfd10df1baf06efaed58e0bd8dd9f5":[9,1,0,0,2,1134,11],
-"classmrmeshpy_1_1StitchHolesNicelySettings.html#a3abfd10df1baf06efaed58e0bd8dd9f5":[9,1,1,0,1,1134,11],
-"classmrmeshpy_1_1StitchHolesNicelySettings.html#a55a2eea8023a7910cd1266195456b693":[9,1,0,0,2,1134,7],
-"classmrmeshpy_1_1StitchHolesNicelySettings.html#a55a2eea8023a7910cd1266195456b693":[9,1,1,0,1,1134,7],
-"classmrmeshpy_1_1StitchHolesNicelySettings.html#a69aab75317fa95567bff0088a4f6f2e2":[9,1,0,0,2,1134,1],
-"classmrmeshpy_1_1StitchHolesNicelySettings.html#a69aab75317fa95567bff0088a4f6f2e2":[9,1,1,0,1,1134,1]
+"classmrmeshpy_1_1StitchHolesNicelySettings.html#a19935cf7416bf0e76408b8be3303c8b0":[9,1,1,0,1,1134,2]
 };

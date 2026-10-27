@@ -4241,9 +4241,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga534db3261935504b918838858cff437a" id="r_ga534db3261935504b918838858cff437a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga534db3261935504b918838858cff437a">MR::Config::fromJson</a> (const Json::Value &amp;config)</td></tr>
 <tr class="memdesc:ga534db3261935504b918838858cff437a"><td class="mdescLeft">&#160;</td><td class="mdescRight">replace current config content with given one  <br /></td></tr>
 <tr class="memitem:ga0ce0435d606c4d19a79a699eec18f7f2" id="r_ga0ce0435d606c4d19a79a699eec18f7f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0ce0435d606c4d19a79a699eec18f7f2">MR::ConstChildren::Iterator::Iterator</a> ()</td></tr>
-<tr class="memitem:gaeea4d0fa9b25a09d8c25cc5a3f4e9fde" id="r_gaeea4d0fa9b25a09d8c25cc5a3f4e9fde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeea4d0fa9b25a09d8c25cc5a3f4e9fde">MR::ConstChildren::Iterator::Iterator</a> (Storage::const_iterator it)</td></tr>
+<tr class="memitem:ga3f09a9ae06179320e55182fd08d60238" id="r_ga3f09a9ae06179320e55182fd08d60238"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f09a9ae06179320e55182fd08d60238">MR::ConstChildren::Iterator::Iterator</a> (Storage::const_iterator it)</td></tr>
 <tr class="memitem:ga9fc8635872b9c08c9cf067bbc26cf8cd" id="r_ga9fc8635872b9c08c9cf067bbc26cf8cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga0582f399e5067aa8b73a82cf10fd6c8f">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9fc8635872b9c08c9cf067bbc26cf8cd">MR::ConstChildren::Iterator::operator*</a> () const</td></tr>
-<tr class="memdesc:ga9fc8635872b9c08c9cf067bbc26cf8cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the C bindings don't have <span class="tt">std::vector</span> iterators  <br /></td></tr>
 <tr class="memitem:ga1113eefe20e266ac285214ec4b33158d" id="r_ga1113eefe20e266ac285214ec4b33158d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ConstChildren_1_1Iterator.html">Iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1113eefe20e266ac285214ec4b33158d">MR::ConstChildren::Iterator::operator++</a> ()</td></tr>
 <tr class="memitem:gaaad59ff19b36e3fb39a9c68fafa10644" id="r_gaaad59ff19b36e3fb39a9c68fafa10644"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ConstChildren_1_1Iterator.html">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaad59ff19b36e3fb39a9c68fafa10644">MR::ConstChildren::Iterator::operator++</a> (int)</td></tr>
 <tr class="memitem:ga63d12752978b08aa7d7bfb5249ce87e4" id="r_ga63d12752978b08aa7d7bfb5249ce87e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga63d12752978b08aa7d7bfb5249ce87e4">MR::ConstChildren::Iterator::operator==</a> (const <a class="el" href="classMR_1_1ConstChildren_1_1Iterator.html">Iterator</a> &amp;) const =default</td></tr>
@@ -13477,6 +13476,10 @@ Variables</h2></td></tr>
 <tr class="memitem:ga6201d7e151563e0a5420c459a767d125" id="r_ga6201d7e151563e0a5420c459a767d125"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6201d7e151563e0a5420c459a767d125">MR::RigidXfRansacParams::edgeLengthRatio</a> = 0.9f</td></tr>
 <tr class="memitem:ga76a52c0e197711d2950d36811b992c65" id="r_ga76a52c0e197711d2950d36811b992c65"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga76a52c0e197711d2950d36811b992c65">MR::RigidXfRansacParams::seed</a> = 0</td></tr>
 <tr class="memdesc:ga76a52c0e197711d2950d36811b992c65"><td class="mdescLeft">&#160;</td><td class="mdescRight">seed of pseudo-random sampling; the result depends on it but not on the number of threads  <br /></td></tr>
+<tr class="memitem:gaca7af091023b9818e577ff76a3db8eb7" id="r_gaca7af091023b9818e577ff76a3db8eb7"><td class="memItemLeft" align="right" valign="top">const VertCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaca7af091023b9818e577ff76a3db8eb7">MR::RigidXfRansacParams::overlapSrcPoints</a> = nullptr</td></tr>
+<tr class="memitem:gaace29dbdc0f78746ff82319e2e4b2d88" id="r_gaace29dbdc0f78746ff82319e2e4b2d88"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaace29dbdc0f78746ff82319e2e4b2d88">MR::RigidXfRansacParams::overlapTgtCloud</a> = nullptr</td></tr>
+<tr class="memitem:gaa3211a45ea18ea049b5ff557001eb4b2" id="r_gaa3211a45ea18ea049b5ff557001eb4b2"><td class="memItemLeft" align="right" valign="top">const VertCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa3211a45ea18ea049b5ff557001eb4b2">MR::RigidXfRansacParams::overlapTgtPoints</a> = nullptr</td></tr>
+<tr class="memitem:ga95d8bdf37b4945df09682ceed4a67935" id="r_ga95d8bdf37b4945df09682ceed4a67935"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga95d8bdf37b4945df09682ceed4a67935">MR::RigidXfRansacParams::overlapSrcCloud</a> = nullptr</td></tr>
 <tr class="memitem:ga88539fbafc85e15a6dbc49b2b3144a15" id="r_ga88539fbafc85e15a6dbc49b2b3144a15"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga88539fbafc85e15a6dbc49b2b3144a15">MR::SaveSettings::onlyValidPoints</a> = true</td></tr>
 <tr class="memitem:gaf59abe4d1987a4ccd1c117cfe7f3c160" id="r_gaf59abe4d1987a4ccd1c117cfe7f3c160"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf59abe4d1987a4ccd1c117cfe7f3c160">MR::SaveSettings::packPrimitives</a> = true</td></tr>
 <tr class="memitem:ga6aa78ab8ac3342aaeb267aa07e82721a" id="r_ga6aa78ab8ac3342aaeb267aa07e82721a"><td class="memItemLeft" align="right" valign="top">const VertColors *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6aa78ab8ac3342aaeb267aa07e82721a">MR::SaveSettings::colors</a> = nullptr</td></tr>
@@ -112953,8 +112956,8 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
-<a id="gaeea4d0fa9b25a09d8c25cc5a3f4e9fde" name="gaeea4d0fa9b25a09d8c25cc5a3f4e9fde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeea4d0fa9b25a09d8c25cc5a3f4e9fde">&#9670;&#160;</a></span>Iterator() <span class="overload">[2/2]</span></h2>
+<a id="ga3f09a9ae06179320e55182fd08d60238" name="ga3f09a9ae06179320e55182fd08d60238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3f09a9ae06179320e55182fd08d60238">&#9670;&#160;</a></span>Iterator() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -112963,7 +112966,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> MR::ConstChildren::Iterator::Iterator </td>
+          <td class="memname">MR::ConstChildren::Iterator::Iterator </td>
           <td>(</td>
           <td class="paramtype">Storage::const_iterator</td>          <td class="paramname"><span class="paramname"><em>it</em></span></td><td>)</td>
           <td></td>
@@ -136922,8 +136925,6 @@ template&lt;typename Iter&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRConstChildren_8h.html">MRMesh/MRConstChildren.h</a>&gt;</code></p>
-
-<p>the C bindings don't have <span class="tt">std::vector</span> iterators </p>
 
 </div>
 </div>
@@ -226754,6 +226755,64 @@ template&lt;class T&gt; </div>
       </table>
 </div><div class="memdoc">
 <p>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another </p>
+
+</div>
+</div>
+<a id="ga95d8bdf37b4945df09682ceed4a67935" name="ga95d8bdf37b4945df09682ceed4a67935"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga95d8bdf37b4945df09682ceed4a67935">&#9670;&#160;</a></span>overlapSrcCloud</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>* MR::RigidXfRansacParams::overlapSrcCloud = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaca7af091023b9818e577ff76a3db8eb7" name="gaca7af091023b9818e577ff76a3db8eb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaca7af091023b9818e577ff76a3db8eb7">&#9670;&#160;</a></span>overlapSrcPoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const VertCoords* MR::RigidXfRansacParams::overlapSrcPoints = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if both are set, a transformation is scored by how many of these source points it moves within inlierDistance of some point of the target cloud, instead of by the number of its inlier matches; this finds the transformation even when only a few matches are correct, at the cost of a closest point search per point </p>
+
+</div>
+</div>
+<a id="gaace29dbdc0f78746ff82319e2e4b2d88" name="gaace29dbdc0f78746ff82319e2e4b2d88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaace29dbdc0f78746ff82319e2e4b2d88">&#9670;&#160;</a></span>overlapTgtCloud</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>* MR::RigidXfRansacParams::overlapTgtCloud = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaa3211a45ea18ea049b5ff557001eb4b2" name="gaa3211a45ea18ea049b5ff557001eb4b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa3211a45ea18ea049b5ff557001eb4b2">&#9670;&#160;</a></span>overlapTgtPoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const VertCoords* MR::RigidXfRansacParams::overlapTgtPoints = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if both are set, the score also counts how many of these target points the inverse transformation moves within inlierDistance of some point of the source cloud; can be set alone or together with the pair above </p>
 
 </div>
 </div>

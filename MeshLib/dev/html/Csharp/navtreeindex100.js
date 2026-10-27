@@ -1,5 +1,15 @@
 var NAVTREEINDEX100 =
 {
+"classMR_1_1DistanceMap.html#adb5b3450d11343feda19625755dfd7da":[9,3,0,0,0,1168,15],
+"classMR_1_1DistanceMap.html#aef1f9b77285d5180c37681f053d126f6":[9,3,0,0,0,1168,13],
+"classMR_1_1DistanceMap.html#af2d5f4efc513b19939313d87a59d6c37":[9,3,0,0,0,1168,14],
+"classMR_1_1DistanceMap.html#af82b21b9e40c4c5fe6a68bca4407d76e":[9,3,0,0,0,1168,0],
+"classMR_1_1DistanceMap.html#af8b63e1355a396b9d9b39f7f722363a5":[9,3,0,0,0,1168,6],
+"classMR_1_1DistanceMap.html#afd6a696c89f5871907b3f23d73f55550":[9,3,0,0,0,1168,11],
+"classMR_1_1DistanceMap.html#aff230a1af41af47022edb93a7b2764f2":[9,3,0,0,0,1168,18],
+"classMR_1_1DistanceMapLoad.html":[9,3,0,0,0,1169],
+"classMR_1_1DistanceMapLoad.html#a14f9d19844f30c80e3d9e795f15edce1":[9,3,0,0,0,1169,3],
+"classMR_1_1DistanceMapLoad.html#a4332ee3da23fc2a0131acb34496d9b4a":[9,3,0,0,0,1169,0],
 "classMR_1_1DistanceMapLoad.html#ab8f7534506e4b5989d5ae1a76738abba":[9,3,0,0,0,1169,2],
 "classMR_1_1DistanceMapLoad.html#aead3d31ae57eff03c26fbd715a4f3e15":[9,3,0,0,0,1169,1],
 "classMR_1_1DistanceMapLoadSettings.html":[9,3,0,0,0,1170],
@@ -239,15 +249,5 @@ var NAVTREEINDEX100 =
 "classMR_1_1EdgeBitSet.html#adfa61eae58c142f689555398b2a21f14":[9,3,0,0,0,1182,7],
 "classMR_1_1EdgeBitSet.html#ae14c61d8f26cb6bea2c08bd16358d5c0":[9,3,0,0,0,1182,2],
 "classMR_1_1EdgeBitSet.html#ae4a8ee5118e1277d0f0586ed414d32fc":[9,3,0,0,0,1182,29],
-"classMR_1_1EdgeBitSet.html#ae6e86fc3193bb5daf6e73ffac23cfe60":[9,3,0,0,0,1182,15],
-"classMR_1_1EdgeBitSet.html#af3b59eaeb2bc5ed2f617cb966d98e7e7":[9,3,0,0,0,1182,17],
-"classMR_1_1EdgeColors.html":[9,3,0,0,0,1184],
-"classMR_1_1EdgeColors.html#a180f37dbf39836dced21dd74158d486f":[9,3,0,0,0,1184,13],
-"classMR_1_1EdgeColors.html#a228c602555964a514698ce41ee1c10bb":[9,3,0,0,0,1184,20],
-"classMR_1_1EdgeColors.html#a26894141abcd741d072bad64afb7750b":[9,3,0,0,0,1184,5],
-"classMR_1_1EdgeColors.html#a305fd63df92ce9db6cbf38d092e93717":[9,3,0,0,0,1184,26],
-"classMR_1_1EdgeColors.html#a345cb1c5817651af3f30b4cb29ae437a":[9,3,0,0,0,1184,7],
-"classMR_1_1EdgeColors.html#a34e72d5e82116efbf325c8dddcc13a78":[9,3,0,0,0,1184,4],
-"classMR_1_1EdgeColors.html#a37bc80844820ad0a58e1ff65a7fc99ef":[9,3,0,0,0,1184,9],
-"classMR_1_1EdgeColors.html#a3c4043d26e8af27f8f17ff83e213e785":[9,3,0,0,0,1184,11]
+"classMR_1_1EdgeBitSet.html#ae6e86fc3193bb5daf6e73ffac23cfe60":[9,3,0,0,0,1182,15]
 };

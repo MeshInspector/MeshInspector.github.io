@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"classMR_1_1Const__InSphereTesterSoS.html#ab7a86102abd9d802e19dc26c53e86fa4":[9,3,0,0,0,519,0],
+"classMR_1_1Const__InSphereTesterSoS.html#ac67b2d9e487230387a44522d9b40704d":[9,3,0,0,0,519,5],
 "classMR_1_1Const__InSphereTesterSoS.html#ad17599226939e90e79d8db3b9bee6744":[9,3,0,0,0,519,2],
 "classMR_1_1Const__InSphereTesterSoS.html#ae8dc505e02f7a2b3d36bf551d616af3a":[9,3,0,0,0,519,7],
 "classMR_1_1Const__InSphereTester__Double.html":[9,3,0,0,0,516],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#a7c7b76812aecc1b562925b9290dc6b58":[9,3,0,0,0,544,2],
 "classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#a94e2b796ae153be040d88a645fed1aa4":[9,3,0,0,0,544,0],
 "classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#ab77d3f1f951fa113f1faa48eb90e4cb0":[9,3,0,0,0,544,7],
-"classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#aec7b09ebcd2bb91f9a640541d10cd95a":[9,3,0,0,0,544,1],
-"classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#aff761e3c51cc35193cd9ab907a447374":[9,3,0,0,0,544,6],
-"classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator.html":[9,3,0,0,0,545]
+"classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#aec7b09ebcd2bb91f9a640541d10cd95a":[9,3,0,0,0,544,1]
 };
