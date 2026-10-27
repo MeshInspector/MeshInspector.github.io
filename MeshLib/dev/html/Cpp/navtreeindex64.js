@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1DrawListener.html":[9,0,0,20,810],
+"structMR_1_1DrawSceneUiListener.html":[9,0,0,20,617],
 "structMR_1_1EdgeLengthMesh.html":[9,0,0,7,0],
 "structMR_1_1EdgeLengthMesh.html":[9,0,0,20,214],
 "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[9,0,0,20,219],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[9,0,1,0,1,17,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[9,0,2,0,2,7,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[9,0,1,0,1,17,0,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[9,0,2,0,2,7,0,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23":[9,0,1,0,1,17,0,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23":[9,0,2,0,2,7,0,2]
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[9,0,2,0,2,7,0,0]
 };

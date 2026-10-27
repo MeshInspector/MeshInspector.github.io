@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1ImGuiMenu_1_1LabelParams.html":[9,0,0,20,576],
+"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html":[9,0,0,20,578],
 "structMR_1_1ImGuiMenu_1_1TagEditorState.html":[9,0,0,20,577],
 "structMR_1_1Image.html":[9,0,0,18,1],
 "structMR_1_1Image.html":[9,0,0,20,306],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1Mesh.html#a0e4c897582e70d319407854dae664a39":[9,0,0,7,1,18],
 "structMR_1_1Mesh.html#a100fbcee62af5a8779713b186d7e6824":[9,0,0,7,1,98],
 "structMR_1_1Mesh.html#a129593cd8a305c93e60d945df893d20a":[9,0,0,7,1,79],
-"structMR_1_1Mesh.html#a18b304c7bb132b9149d1ba45884fe700":[9,0,0,7,1,100],
-"structMR_1_1Mesh.html#a18e24b802c039dde02eeb902045cdb20":[9,0,0,7,1,24],
-"structMR_1_1Mesh.html#a19223c76e1742c8cf6a56fd51b5c2c68":[9,0,0,7,1,34]
+"structMR_1_1Mesh.html#a18b304c7bb132b9149d1ba45884fe700":[9,0,0,7,1,100]
 };

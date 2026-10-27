@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab":[9,0,1,0,1,37,3],
+"namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba":[9,0,1,0,1,37,2],
 "namespaceMR_1_1PolylineComponents.html":[9,0,0,20,20],
 "namespaceMR_1_1ProgressBar.html":[9,0,0,20,27],
 "namespaceMR_1_1QualityControl.html":[9,0,1,0,1,40],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "namespacemembers_func_v.html":[9,0,1,1,1,20],
 "namespacemembers_func_w.html":[9,0,1,1,1,21],
 "namespacemembers_func_x.html":[9,0,1,1,1,22],
-"namespacemembers_func_z.html":[9,0,1,1,1,23],
-"namespacemembers_g.html":[9,0,1,1,0,6],
-"namespacemembers_h.html":[9,0,1,1,0,7]
+"namespacemembers_func_z.html":[9,0,1,1,1,23]
 };

@@ -3590,6 +3590,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga6bf92ff9850bc3bd73ec9926a31dcfed" id="r_ga6bf92ff9850bc3bd73ec9926a31dcfed"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6bf92ff9850bc3bd73ec9926a31dcfed">MR::PlanarTriangulation::getMonotonePlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>)</td></tr>
 <tr class="memdesc:ga6bf92ff9850bc3bd73ec9926a31dcfed"><td class="mdescLeft">&#160;</td><td class="mdescRight">splits the near-planar region bounded by <code class="param">loops</code> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation  <br /></td></tr>
 <tr class="memitem:gaa5caa2dc67571dc86450fb74f4c4fc76" id="r_gaa5caa2dc67571dc86450fb74f4c4fc76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::optional&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa5caa2dc67571dc86450fb74f4c4fc76">MR::PlanarTriangulation::getMonotonePlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 3 &gt; &amp;tri, const std::function&lt; <a class="el" href="structMR_1_1PreciseCutPoint.html">PreciseCutPoint</a>(VertId)&gt; &amp;pointOf)</td></tr>
+<tr class="memitem:gaea0c7f45b42e2b13000b32327759cd42" id="r_gaea0c7f45b42e2b13000b32327759cd42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaea0c7f45b42e2b13000b32327759cd42">MR::PlanarTriangulation::hasCrossing</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#ga18500a3df20aa256325c44e2c5b2b499">TwoVertIds</a> &gt; &amp;segments, const <a class="el" href="classMR_1_1CutTrianglePredicates.html">CutTrianglePredicates</a> &amp;preds, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *cache=nullptr)</td></tr>
+<tr class="memitem:gacfaef72f07688abfd1a71b74f496d251" id="r_gacfaef72f07688abfd1a71b74f496d251"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacfaef72f07688abfd1a71b74f496d251">MR::PlanarTriangulation::hasCrossing</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#ga18500a3df20aa256325c44e2c5b2b499">TwoVertIds</a> &gt; &amp;segments, const VertCoords &amp;<a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *cache=nullptr)</td></tr>
 <tr class="memitem:ga58f8dd538965bde14c46c2ed60aac1f9" id="r_ga58f8dd538965bde14c46c2ed60aac1f9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga7a0335fa16114969e7f5e031192bf45b">NodeVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga58f8dd538965bde14c46c2ed60aac1f9">MR::AABBTreeBase&lt; T &gt;::nodes</a> () const</td></tr>
 <tr class="memdesc:ga58f8dd538965bde14c46c2ed60aac1f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to all nodes  <br /></td></tr>
 <tr class="memitem:gac94f623e90a49fd07aeb61722ab8e7f1" id="r_gac94f623e90a49fd07aeb61722ab8e7f1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga4a87e995071aa1a99752d3f3f32a72b3">Node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac94f623e90a49fd07aeb61722ab8e7f1">MR::AABBTreeBase&lt; T &gt;::operator[]</a> (NodeId nid) const</td></tr>
@@ -101341,6 +101343,75 @@ template&lt;detail::Units::Scalar T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRConfig_8h.html">MRMesh/MRConfig.h</a>&gt;</code></p>
 
 <p>returns true if MRColor with presented key exists </p>
+
+</div>
+</div>
+<a id="gaea0c7f45b42e2b13000b32327759cd42" name="gaea0c7f45b42e2b13000b32327759cd42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaea0c7f45b42e2b13000b32327759cd42">&#9670;&#160;</a></span>hasCrossing() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> bool MR::PlanarTriangulation::hasCrossing </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#ga18500a3df20aa256325c44e2c5b2b499">TwoVertIds</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>segments</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1CutTrianglePredicates.html">CutTrianglePredicates</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>preds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *</td>          <td class="paramname"><span class="paramname"><em>cache</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
+<p>whether two of the segments between the points of <code class="param">preds</code> cross, found by the sweep of <a class="el" href="#gaf1407ed99d00015ef1fed87faa3d5d8f">triangulateDisjointContours</a>, which stops at the first crossing, or by testing every two of up to 32 segments, which is faster for them; segments with a common end only touch, and a repeated segment is taken once </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">segments</td><td>the ends of every segment, as the ids of the points in <code class="param">preds</code>, which are all set and not failed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true also if the predicates fail </dd></dl>
+
+</div>
+</div>
+<a id="gacfaef72f07688abfd1a71b74f496d251" name="gacfaef72f07688abfd1a71b74f496d251"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacfaef72f07688abfd1a71b74f496d251">&#9670;&#160;</a></span>hasCrossing() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> bool MR::PlanarTriangulation::hasCrossing </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#ga18500a3df20aa256325c44e2c5b2b499">TwoVertIds</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>segments</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>normal</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *</td>          <td class="paramname"><span class="paramname"><em>cache</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
+<p>same as above for the points that <code class="param">segments</code> index given by their coordinates, projected along the axis most aligned with <code class="param">normal</code> and rounded to integers as <a class="el" href="#gaf1407ed99d00015ef1fed87faa3d5d8f">triangulateDisjointContours</a> does; distinct points rounded to the same position are told apart by their ids, not merged; if all the points are at one position, no segments cross </p>
 
 </div>
 </div>
@@ -215131,7 +215202,7 @@ template&lt;typename T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a> </dd></dl>
+<p>Bitset of bad triangles - triangles where input contours have intersections and cannot be cut and filled in a good way; under force fill, also the triangles where two segments of the contours cross (segments that follow each other along a contour or have a common mesh vertex do not), even if their cut is valid; the triangles where that cannot be told may be reported too: where the exact predicates fail on the points of the contours that they compare (e.g. coincident contours of a double-sided sheet), or, without sortData, where the corners of the triangle are on one line </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="structMR_1_1CutMeshParameters.html">MR::CutMeshParameters</a> </dd></dl>
 
 </div>
 </div>

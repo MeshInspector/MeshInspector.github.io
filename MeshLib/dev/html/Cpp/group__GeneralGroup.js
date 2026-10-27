@@ -13173,6 +13173,8 @@ var group__GeneralGroup =
     [ "MR::hasBom", "group__GeneralGroup.html#gad7b9cd8c5ecfc4c2d885a2135b3a5069", null ],
     [ "MR::Config::hasBool", "group__GeneralGroup.html#gae361cef096e6cf5edfd6bc0053e1a6fa", null ],
     [ "MR::Config::hasColor", "group__GeneralGroup.html#ga7ad138da4a877ad215275a96a5fff3ac", null ],
+    [ "MR::PlanarTriangulation::hasCrossing", "group__GeneralGroup.html#gaea0c7f45b42e2b13000b32327759cd42", null ],
+    [ "MR::PlanarTriangulation::hasCrossing", "group__GeneralGroup.html#gacfaef72f07688abfd1a71b74f496d251", null ],
     [ "MR::MeshTopology::hasEdge", "group__GeneralGroup.html#gad9e70ac7c77ef21e21af1c1565ef338b", null ],
     [ "MR::PolylineTopology::hasEdge", "group__GeneralGroup.html#gae20a806936450b9f38d28938a2721f47", null ],
     [ "MR::Config::hasEnum", "group__GeneralGroup.html#ga7eaa016554316f08601ed12b2fedae15", null ],

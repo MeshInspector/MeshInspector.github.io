@@ -55,6 +55,8 @@ var MRVector_8cs =
     [ "MR.VoxelScalars", "classMR_1_1VoxelScalars.html", "classMR_1_1VoxelScalars" ],
     [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", "classMR_1_1Const__Vector__Int__MRFaceId" ],
     [ "MR.Vector_Int_MRFaceId", "classMR_1_1Vector__Int__MRFaceId.html", "classMR_1_1Vector__Int__MRFaceId" ],
+    [ "MR.Const_Vector_StdArrayMRVertId2", "classMR_1_1Const__Vector__StdArrayMRVertId2.html", "classMR_1_1Const__Vector__StdArrayMRVertId2" ],
+    [ "MR.Vector_StdArrayMRVertId2", "classMR_1_1Vector__StdArrayMRVertId2.html", "classMR_1_1Vector__StdArrayMRVertId2" ],
     [ "MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html", "classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId" ],
     [ "MR.Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId" ],
     [ "MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId", "classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId.html", "classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId" ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[9,0,1,0,1,107,0],
+"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[9,0,2,0,2,87,0],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[9,0,0,20,625],
 "structMR_1_1Box.html":[9,0,0,0,2,0],
 "structMR_1_1Box.html#a047eb0e28cab517e74255789df872504":[9,0,0,0,2,0,32],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1DragListener.html":[9,0,0,20,803],
 "structMR_1_1DragOverListener.html":[9,0,0,20,814],
 "structMR_1_1DragStartListener.html":[9,0,0,20,801],
-"structMR_1_1DrawButtonParams.html":[9,0,0,20,686],
-"structMR_1_1DrawListener.html":[9,0,0,20,810],
-"structMR_1_1DrawSceneUiListener.html":[9,0,0,20,617]
+"structMR_1_1DrawButtonParams.html":[9,0,0,20,686]
 };

@@ -19,6 +19,8 @@ var namespaceMR_1_1PlanarTriangulation =
     [ "getOutline", "group__GeneralGroup.html#ga5dfad7ab63723534d37d1d91f48fa1a5", null ],
     [ "getOutlineMesh", "group__GeneralGroup.html#ga4fea26f1468d4845a5875d3c87cd890f", null ],
     [ "getOutlineMesh", "group__GeneralGroup.html#ga5e8af5982b8fe271a4ec768cd30c61f1", null ],
+    [ "hasCrossing", "group__GeneralGroup.html#gaea0c7f45b42e2b13000b32327759cd42", null ],
+    [ "hasCrossing", "group__GeneralGroup.html#gacfaef72f07688abfd1a71b74f496d251", null ],
     [ "makeSweepLineCache", "group__GeneralGroup.html#ga6aa55c423349c3200c91a32652683cca", null ],
     [ "triangulateContours", "group__GeneralGroup.html#ga161bba00aa938095d492c1a6a2e5ac70", null ],
     [ "triangulateContours", "group__GeneralGroup.html#gaf8916398a1df6d3844748b9d3d06c877", null ],

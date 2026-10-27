@@ -1287,6 +1287,7 @@ var annotated_dup =
       [ "Vector_RegionId_RegionId", "classmrmeshpy_1_1Vector__RegionId__RegionId.html", "classmrmeshpy_1_1Vector__RegionId__RegionId" ],
       [ "Vector_std_array_float_33_VertId", "classmrmeshpy_1_1Vector__std__array__float__33__VertId.html", "classmrmeshpy_1_1Vector__std__array__float__33__VertId" ],
       [ "Vector_std_array_Vector3f_3_FaceId", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId" ],
+      [ "Vector_std_array_VertId_2", "classmrmeshpy_1_1Vector__std__array__VertId__2.html", "classmrmeshpy_1_1Vector__std__array__VertId__2" ],
       [ "Vector_std_filesystem_path_TextureId", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId" ],
       [ "Vector_std_vector_EdgePoint_VertId", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId" ],
       [ "Vector_std_vector_GraphEdgeId_GraphVertId", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId" ],
