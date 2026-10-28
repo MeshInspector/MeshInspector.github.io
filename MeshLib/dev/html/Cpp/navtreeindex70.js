@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1StitchHolesParams.html":[9,0,0,9,3,1],
+"structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[9,0,0,9,3,1,1],
+"structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[9,0,0,9,3,1,0],
+"structMR_1_1StopOnTrueCombiner.html":[9,0,0,20,751],
 "structMR_1_1SubdivideFillingSettings.html":[9,0,0,20,268],
 "structMR_1_1SubdivideSettings.html":[9,0,0,9,7,0],
 "structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1":[9,0,0,9,7,0,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#ad03470ce1d0b8fc32529eae1388ddcdd":[9,0,2,0,2,34,0,7,1,3],
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#af8d7643677c8aeeef29e018e4fe509bd":[9,0,1,0,1,52,2,7,0,3],
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#af8d7643677c8aeeef29e018e4fe509bd":[9,0,2,0,2,34,0,7,0,3],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html":[9,0,1,0,1,52,2,7,1],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html":[9,0,2,0,2,34,0,7,1],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a0c53df5fe946d2f3a130df1ba36cc8dc":[9,0,1,0,1,52,2,7,1,0],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a0c53df5fe946d2f3a130df1ba36cc8dc":[9,0,2,0,2,34,0,7,1,0],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a39c3a6f5e5ed4c98cd30335902726b92":[9,0,1,0,1,52,2,7,1,4]
+"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html":[9,0,1,0,1,52,2,7,1]
 };

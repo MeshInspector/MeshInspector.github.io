@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1MeshToDistanceMapParams.html#af2eb0fe8049e968df27f68d2950bff6c":[9,0,0,5,3,5],
+"structMR_1_1MeshToDistanceVolumeParams.html":[9,0,0,20,870],
+"structMR_1_1MeshToVolumeParams.html":[9,0,0,20,912],
+"structMR_1_1MeshTriPointT.html":[9,0,0,7,3],
 "structMR_1_1MeshTriPointT.html":[9,0,0,20,391],
 "structMR_1_1MeshVoxelsConverter.html":[9,0,0,20,859],
 "structMR_1_1Meta_1_1SharedPtrTraits.html":[9,0,1,0,1,29,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1Polyline.html#abaaaf2e622a7df2fb5ef5492721109be":[9,0,0,14,0,13],
 "structMR_1_1Polyline.html#abe0cb6a927b49d813ccebab2cc70d7a7":[9,0,0,14,0,25],
 "structMR_1_1Polyline.html#acddfc9fe7193026b7c731a688f1dc478":[9,0,0,14,0,34],
-"structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641":[9,0,0,14,0,15],
-"structMR_1_1Polyline.html#ad4be3d0739eaf55a7156960a61d9b1e3":[9,0,0,14,0,28],
-"structMR_1_1Polyline.html#adcd14ead7b771006dcdc733950976288":[9,0,0,14,0,35],
-"structMR_1_1Polyline.html#ae04ad0d4adb7dd9912ec74fd39fcbad8":[9,0,0,14,0,23],
-"structMR_1_1Polyline.html#ae20e023266eab775d1ee6a336c27d7cd":[9,0,0,14,0,26]
+"structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641":[9,0,0,14,0,15]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX192 =
 {
+"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a3a4ae15d035f7fe9f0c42236e02cf975":[9,2,2,0,0,0,0,2,584,3],
+"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a3b7d1cffb8ec5efa8a17d22576dde2b8":[9,2,2,0,0,0,0,2,584,0],
+"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a6a0194352aebbc28ccaac699df6b5482":[9,2,2,0,0,0,0,2,584,23],
+"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a70ddc49cb8543f2b54eae9fc13018f3a":[9,2,2,0,0,0,0,2,584,18],
 "std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a7138be8b753a8c2d3aa5f1ab5d69403b":[9,2,2,0,0,0,0,2,584,1],
 "std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a8014ee1736810cd32ad5e56fe20cd04a":[9,2,2,0,0,0,0,2,584,16],
 "std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a864b6f29f98d69a0caee88dcc479b877":[9,2,2,0,0,0,0,2,584,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX192 =
 "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#af8275db9d2dfb74024e67fd007ccf504":[9,2,2,0,0,0,0,2,591,23],
 "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#afc54ef4de37a92d8b54c99f3d6ee56d0":[9,2,2,0,0,0,0,2,591,11],
 "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h_source.html":[9,2,2,0,0,0,0,2,591],
-"std__vector__std__vector__MR__Vector2d_8h.html":[9,2,2,0,0,0,0,2,592],
-"std__vector__std__vector__MR__Vector2d_8h.html#a0019f9b3677f9f6b9757b30bb9f07992":[9,2,2,0,0,0,0,2,592,19],
-"std__vector__std__vector__MR__Vector2d_8h.html#a1371de101ba9f8fa157c33cb0a264d4f":[9,2,2,0,0,0,0,2,592,23],
-"std__vector__std__vector__MR__Vector2d_8h.html#a17c31871b473979cb060fcdacddfaf22":[9,2,2,0,0,0,0,2,592,14],
-"std__vector__std__vector__MR__Vector2d_8h.html#a1c37208ab8a18631fe5bfe5d04b301e9":[9,2,2,0,0,0,0,2,592,22]
+"std__vector__std__vector__MR__Vector2d_8h.html":[9,2,2,0,0,0,0,2,592]
 };

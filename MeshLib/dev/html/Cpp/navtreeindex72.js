@@ -1,5 +1,9 @@
 var NAVTREEINDEX72 =
 {
+"structWasm_1_1TypedArrayValType_3_01uint8__t_01_4.html#af1f7d02ee1de5ba0f9980457c80db195":[9,0,2,0,3,7,0],
+"structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4.html":[9,0,2,0,0,0],
+"structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4.html#a9516609c5c321a3e3829b7e12b0ed9b6":[9,0,2,0,0,0,0],
+"structfmt_1_1formatter_3_01MR_1_1BitSet_01_4.html":[9,0,2,0,0,1],
 "structfmt_1_1formatter_3_01MR_1_1BitSet_01_4.html#aa10c77c63d00564d3cf16cce044c58c7":[9,0,2,0,0,1,0],
 "structfmt_1_1formatter_3_01MR_1_1Box_3_01V_01_4_01_4.html":[9,0,2,0,0,2],
 "structfmt_1_1formatter_3_01MR_1_1Box_3_01V_01_4_01_4.html#a4fc0e313904dc68d2a620ce664d10542":[9,0,2,0,0,2,0],
