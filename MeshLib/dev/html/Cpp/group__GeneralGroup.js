@@ -11407,6 +11407,7 @@ var group__GeneralGroup =
     [ "MR::computeGridBox", "group__GeneralGroup.html#gad430aa6bda176d93601f5ae0e30b39a2", null ],
     [ "MR::computeInSphereThicknessAtVertices", "group__GeneralGroup.html#ga239cbc262f9cc0bda4d8b5bf928ee0d2", null ],
     [ "MR::computeIntCoords", "group__MathGroup.html#ga39e5dd8c133fbb356e478051d5923e8b", null ],
+    [ "MR::computeLocalConvexity", "group__GeneralGroup.html#gab5102c78869dbaf715e54cef8bc9763f", null ],
     [ "MR::computeNormal", "group__GeneralGroup.html#ga491b009b8232c0959330e8f6f0b3183e", null ],
     [ "MR::MeshTopology::computeNotLoneUndirectedEdges", "group__GeneralGroup.html#ga9b0965c616ba1372dc30a0cfc25e2459", null ],
     [ "MR::PolylineTopology::computeNotLoneUndirectedEdges", "group__GeneralGroup.html#ga7f5ad4b2bbc4c7b58cf07647e8b201f1", null ],

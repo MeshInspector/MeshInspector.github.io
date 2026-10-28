@@ -45,6 +45,7 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "expected_MR_VertBitSet_std_string.h", "expected__MR__VertBitSet__std__string_8h.html", "expected__MR__VertBitSet__std__string_8h" ],
     [ "expected_MR_VertColors_std_string.h", "expected__MR__VertColors__std__string_8h.html", "expected__MR__VertColors__std__string_8h" ],
     [ "expected_MR_VertCoords_std_string.h", "expected__MR__VertCoords__std__string_8h.html", "expected__MR__VertCoords__std__string_8h" ],
+    [ "expected_MR_VertScalars_std_string.h", "expected__MR__VertScalars__std__string_8h.html", "expected__MR__VertScalars__std__string_8h" ],
     [ "expected_MR_VoxelBitSet_std_string.h", "expected__MR__VoxelBitSet__std__string_8h.html", "expected__MR__VoxelBitSet__std__string_8h" ],
     [ "expected_MR_VoxelsLoad_DicomVolume_std_string.h", "expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html", "expected__MR__VoxelsLoad__DicomVolume__std__string_8h" ],
     [ "expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string.h", "expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h.html", "expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h" ],

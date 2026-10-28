@@ -154,6 +154,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRLinesSave.cs", "MRLinesSave_8cs.html", "MRLinesSave_8cs" ],
     [ "MRLoadedMeshData.cs", "MRLoadedMeshData_8cs.html", "MRLoadedMeshData_8cs" ],
     [ "MRLoadedObjects.cs", "MRLoadedObjects_8cs.html", "MRLoadedObjects_8cs" ],
+    [ "MRLocalConvexity.cs", "MRLocalConvexity_8cs.html", "MRLocalConvexity_8cs" ],
     [ "MRLocalTriangulations.cs", "MRLocalTriangulations_8cs.html", "MRLocalTriangulations_8cs" ],
     [ "MRMakePlane.cs", "MRMakePlane_8cs.html", "MRMakePlane_8cs" ],
     [ "MRMakeRigidXf.cs", "MRMakeRigidXf_8cs.html", "MRMakeRigidXf_8cs" ],

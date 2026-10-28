@@ -1,5 +1,7 @@
 var NAVTREEINDEX163 =
 {
+"structMR_1_1Vector4f.html#a8564b247f9bd46a45b6d04fe65223df5":[9,3,0,0,0,1787,8],
+"structMR_1_1Vector4f.html#a9a835e20d4fba228b373f4bc6928a72c":[9,3,0,0,0,1787,43],
 "structMR_1_1Vector4f.html#a9fdbe4890b1bd6389547448424d9992a":[9,3,0,0,0,1787,13],
 "structMR_1_1Vector4f.html#aa037c50ac80ee9ec855e042f1e64a327":[9,3,0,0,0,1787,44],
 "structMR_1_1Vector4f.html#aa23fdb3720b1e4033ed8df7ff4a718aa":[9,3,0,0,0,1787,18],

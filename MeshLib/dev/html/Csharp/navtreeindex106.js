@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1FindProjectionOnPointsSettings.html#abb60a27acf66c938fc50a52bda2eb266":[9,3,0,0,0,1240,1],
+"classMR_1_1FindProjectionOnPointsSettings.html#abef84fb0f410d26d99d8a886d1c0a0b3":[9,3,0,0,0,1240,10],
 "classMR_1_1FindProjectionOnPointsSettings.html#ae3192751bc405bc750438702ff6d3f85":[9,3,0,0,0,1240,2],
 "classMR_1_1FindProjectionOnPointsSettings.html#ae7e68ebe84cce6921c62907010ceda5a":[9,3,0,0,0,1240,4],
 "classMR_1_1FixCreasesParams.html":[9,3,0,0,0,1241],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1GcodeSave.html#af05a1d5ee7c8bf623d800745ffd05fe5":[9,3,0,0,0,1254,3],
 "classMR_1_1GeneralOffsetParameters.html":[9,3,0,0,0,1256],
 "classMR_1_1GeneralOffsetParameters.html#a0154fdb1b9e7c1acf552bc4a349d57d9":[9,3,0,0,0,1256,12],
-"classMR_1_1GeneralOffsetParameters.html#a074237cdad0689df36a2104165e6e7ef":[9,3,0,0,0,1256,2],
-"classMR_1_1GeneralOffsetParameters.html#a088b4a87c595fdf9cf7ed6867faa33be":[9,3,0,0,0,1256,24],
-"classMR_1_1GeneralOffsetParameters.html#a1c3f01d7d61cbf01a5d9669e634c6301":[9,3,0,0,0,1256,22]
+"classMR_1_1GeneralOffsetParameters.html#a074237cdad0689df36a2104165e6e7ef":[9,3,0,0,0,1256,2]
 };

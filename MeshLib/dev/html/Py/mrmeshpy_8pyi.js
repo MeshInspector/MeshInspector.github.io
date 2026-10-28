@@ -1721,6 +1721,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.computeGridBox", "namespacemrmeshpy.html#a83835e1272d8e359f392bf9b49be9db6", null ],
     [ "mrmeshpy.computeInSphereThicknessAtVertices", "namespacemrmeshpy.html#a301893e8462d5dfc2e62720c5b9d5410", null ],
     [ "mrmeshpy.computeIntCoords", "namespacemrmeshpy.html#a2107f998173843d179d9badc8d0af589", null ],
+    [ "mrmeshpy.computeLocalConvexity", "namespacemrmeshpy.html#ae9516dfcce023edfa5a1c84b7770ea27", null ],
     [ "mrmeshpy.computeMeshNormals", "namespacemrmeshpy.html#a4812bf44fca343257dc9f61c8b836a3f", null ],
     [ "mrmeshpy.computeNormal", "namespacemrmeshpy.html#a29df40111499fa3fe140ddb48f877135", null ],
     [ "mrmeshpy.computePerCornerNormals", "namespacemrmeshpy.html#a30dd0128ffb1ebfaacd92dafd3bdd2e7", null ],

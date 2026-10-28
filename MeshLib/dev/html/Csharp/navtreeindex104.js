@@ -1,5 +1,7 @@
 var NAVTREEINDEX104 =
 {
+"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a8cd4291015a551e42db279ada8727373":[9,3,0,0,0,1228,0,2,13],
+"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a97a96e5f296f416bcaed442b58b72058":[9,3,0,0,0,1228,0,2,14],
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#aa2b8e5c9487bf1999ce5a0746075c923":[9,3,0,0,0,1228,0,2,24],
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#aa34247b6cf12f9e41b71c0958687caac":[9,3,0,0,0,1228,0,2,15],
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#aaba0f24de269cd37bd07290a09a56a57":[9,3,0,0,0,1228,0,2,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX104 =
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#ae444074c95b25ad1415fe2a9dc06c5ce":[9,3,0,0,0,1228,5,13,3],
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#ae9aea1ad5d5949b0d95bdf3e80d347fa":[9,3,0,0,0,1228,5,13,5],
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html":[9,3,0,0,0,1228,5,14],
-"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a08897de76dd821fe5e5ddaafead84542":[9,3,0,0,0,1228,5,14,0],
-"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a163f3586ae9bfc4ee74aa457aa8cdfc0":[9,3,0,0,0,1228,5,14,4],
-"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a54f5844b7ceea8bf77af3b75a97d1cb1":[9,3,0,0,0,1228,5,14,3]
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a08897de76dd821fe5e5ddaafead84542":[9,3,0,0,0,1228,5,14,0]
 };

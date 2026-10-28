@@ -2629,6 +2629,7 @@ var classMR =
     [ "computeGridBox", "classMR.html#a9623658471711ae1c58641ba5dde3495", null ],
     [ "computeInSphereThicknessAtVertices", "classMR.html#a159bb274260c010b34aff34f24dc590e", null ],
     [ "computeIntCoords", "classMR.html#af6147109a6b34189232f741a0f8f8d39", null ],
+    [ "computeLocalConvexity", "classMR.html#abaaa3a64bef0ddacd783901b45323c4f", null ],
     [ "computeMeshNormals", "classMR.html#a1e36e0a4a92e79e96dc911bff2f97c01", null ],
     [ "computeNormal", "classMR.html#a004662d1c973e6773e113a6adc7c237d", null ],
     [ "computePerCornerNormals", "classMR.html#a89a3bf8f05d6752f546b920aba31e7c1", null ],

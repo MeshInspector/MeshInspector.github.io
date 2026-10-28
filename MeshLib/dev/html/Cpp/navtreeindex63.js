@@ -1,5 +1,8 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a70a6c9015f66d50b0889a5cfbdc6b9a9":[9,0,0,8,0,0,2],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c":[9,0,0,8,0,0,0],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9":[9,0,0,8,0,0,1],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#accfdff73b6e9b6265313ff04878b8973":[9,0,0,8,0,0,3],
 "structMR_1_1BooleanResultPoints.html":[9,0,1,0,1,107],
 "structMR_1_1BooleanResultPoints.html":[9,0,2,0,2,87],
@@ -246,8 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1DistanceToMeshOptions.html":[9,0,0,20,211],
 "structMR_1_1DistanceVolumeParams.html":[9,0,0,20,863],
 "structMR_1_1DivideMeshWithPlaneParams.html":[9,0,0,20,356],
-"structMR_1_1DividePointCloudOptionalOutput.html":[9,0,0,20,456],
-"structMR_1_1DividePolylineParameters.html":[9,0,0,20,473],
-"structMR_1_1DoubleOffsetSettings.html":[9,0,0,20,915],
-"structMR_1_1DracoSaveOptions.html":[9,0,0,20,96]
+"structMR_1_1DividePointCloudOptionalOutput.html":[9,0,0,20,456]
 };

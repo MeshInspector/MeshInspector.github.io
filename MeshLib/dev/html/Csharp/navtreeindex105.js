@@ -1,5 +1,7 @@
 var NAVTREEINDEX105 =
 {
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a163f3586ae9bfc4ee74aa457aa8cdfc0":[9,3,0,0,0,1228,5,14,4],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a54f5844b7ceea8bf77af3b75a97d1cb1":[9,3,0,0,0,1228,5,14,3],
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a71be47e13196cd32169f62159e0714eb":[9,3,0,0,0,1228,5,14,1],
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a73b3d869e258800de6c1d93d4cf69bd2":[9,3,0,0,0,1228,5,14,2],
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#af9454f0191dfe593829132c296bde3b0":[9,3,0,0,0,1228,5,14,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX105 =
 "classMR_1_1FindProjectionOnPointsSettings.html#a623b816a5bf7bfe5fcbbfb992f0013ac":[9,3,0,0,0,1240,9],
 "classMR_1_1FindProjectionOnPointsSettings.html#a7836daddb0ae8a4e7912b77e26f7afe8":[9,3,0,0,0,1240,3],
 "classMR_1_1FindProjectionOnPointsSettings.html#a8e4de168dc26fe7e4710894323b55cb8":[9,3,0,0,0,1240,0],
-"classMR_1_1FindProjectionOnPointsSettings.html#aaefefdbe5255b54029b22a1788375642":[9,3,0,0,0,1240,5],
-"classMR_1_1FindProjectionOnPointsSettings.html#abb60a27acf66c938fc50a52bda2eb266":[9,3,0,0,0,1240,1],
-"classMR_1_1FindProjectionOnPointsSettings.html#abef84fb0f410d26d99d8a886d1c0a0b3":[9,3,0,0,0,1240,10]
+"classMR_1_1FindProjectionOnPointsSettings.html#aaefefdbe5255b54029b22a1788375642":[9,3,0,0,0,1240,5]
 };
