@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"group__PointCloudTriangulationGroup.html":[9,0,0,13],
+"group__PointCloudTriangulationGroup.html#ga5f9e20220d9466381b0592d9440151e6":[9,0,0,13,4],
 "group__PointCloudTriangulationGroup.html#ga667297e36f7837828ecea717d5be86ce":[9,0,0,13,3],
 "group__PointCloudTriangulationGroup.html#gad8757f0b892706f56491e2b0a5a016d8":[9,0,0,13,5],
 "group__PointsLoadGroup.html":[9,0,0,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "group__SurfacePathSubgroup.html#ga68f07a93e6327856641283127199b6be":[9,0,0,16,3,8],
 "group__SurfacePathSubgroup.html#ga69ad5976886828ef6adb1cfa8493cf5d":[9,0,0,16,3,7],
 "group__SurfacePathSubgroup.html#ga7363609bc214bf449089b0bc47c91f9e":[9,0,0,16,3,19],
-"group__SurfacePathSubgroup.html#ga75a2b2c564cafc8e986c3749ef417349":[9,0,0,16,3,20],
-"group__SurfacePathSubgroup.html#ga8952cb06a36688c4b4c488957348610a":[9,0,0,16,3,13],
-"group__SurfacePathSubgroup.html#ga9cb919b0dce15ca22cb7ff30ca02c7e3":[9,0,0,16,3,9]
+"group__SurfacePathSubgroup.html#ga75a2b2c564cafc8e986c3749ef417349":[9,0,0,16,3,20]
 };

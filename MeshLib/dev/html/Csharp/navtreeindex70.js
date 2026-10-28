@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"classMR_1_1Const__PointAccumulator.html#a508dcd8c6d2da3ee94f442a0781abf1f":[9,3,0,0,0,731,4],
+"classMR_1_1Const__PointAccumulator.html#a533432b8f6cc0c3ee9efbcc34663aba4":[9,3,0,0,0,731,13],
 "classMR_1_1Const__PointAccumulator.html#a7acbd748e3aa4a47a3e463bdcd538e27":[9,3,0,0,0,731,7],
 "classMR_1_1Const__PointAccumulator.html#a8e41a5439a623311242863efbeb38c61":[9,3,0,0,0,731,12],
 "classMR_1_1Const__PointAccumulator.html#aa9e66b674661b5c422a29237001fc895":[9,3,0,0,0,731,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "classMR_1_1Const__PointObject.html#aa0f9303adb240596f281d167f3b7d31c":[9,3,0,0,0,738,26],
 "classMR_1_1Const__PointObject.html#aa5211f2c627736ec38b43bad4e3b42c8":[9,3,0,0,0,738,7],
 "classMR_1_1Const__PointObject.html#aa6202bf63cb72100c85a88d46e5e2ab8":[9,3,0,0,0,738,87],
-"classMR_1_1Const__PointObject.html#aa7b6fca38841c480af1197cbeb06b415":[9,3,0,0,0,738,17],
-"classMR_1_1Const__PointObject.html#aa98e86648423d04a8c69f83219444687":[9,3,0,0,0,738,15],
-"classMR_1_1Const__PointObject.html#aab27fd36b920f006956f7e54d67c3663":[9,3,0,0,0,738,22]
+"classMR_1_1Const__PointObject.html#aa7b6fca38841c480af1197cbeb06b415":[9,3,0,0,0,738,17]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX151 =
 {
+"structMR_1_1Box1i.html#af9811818ecf85eb2261a7adccee55f85":[9,3,0,0,0,69,6],
+"structMR_1_1Box1i64.html":[9,3,0,0,0,70],
+"structMR_1_1Box1i64.html#a00a3129c6124bf475f62fad227c8e7d2":[9,3,0,0,0,70,22],
+"structMR_1_1Box1i64.html#a019ad8a0ba0b71670f6ad29260cc0162":[9,3,0,0,0,70,13],
+"structMR_1_1Box1i64.html#a0395d320e68a75259cd4c336197b369e":[9,3,0,0,0,70,6],
+"structMR_1_1Box1i64.html#a06e4623577e13da6db4bb581bde50c38":[9,3,0,0,0,70,19],
+"structMR_1_1Box1i64.html#a0c59eecb37320af2a815db8e4a438fc3":[9,3,0,0,0,70,57],
+"structMR_1_1Box1i64.html#a110cf58af8934089749dd36195852b79":[9,3,0,0,0,70,38],
+"structMR_1_1Box1i64.html#a1131fcec554c59321b6434b45bd4ef6f":[9,3,0,0,0,70,44],
 "structMR_1_1Box1i64.html#a166e671ac598ba822dc8f9081a5a2fbe":[9,3,0,0,0,70,18],
 "structMR_1_1Box1i64.html#a1692e7bbc2ec34368c47d62721d1e372":[9,3,0,0,0,70,30],
 "structMR_1_1Box1i64.html#a1dc418bcf50905311a5fb4d25d80841a":[9,3,0,0,0,70,16],
@@ -240,14 +249,5 @@ var NAVTREEINDEX151 =
 "structMR_1_1Box2i.html#ad851b2b454f7c026676dd133114941b8":[9,3,0,0,0,73,55],
 "structMR_1_1Box2i.html#ad8900203577bba2d25a04e65cb31d5d0":[9,3,0,0,0,73,15],
 "structMR_1_1Box2i.html#ada1b8d724199a440be12e2b3616f3d08":[9,3,0,0,0,73,50],
-"structMR_1_1Box2i.html#adb2c08d4d7e621ea4ccf13f7b7e6ca79":[9,3,0,0,0,73,41],
-"structMR_1_1Box2i.html#ae5b7b2d0959f548aa96bd7ef06f03e7f":[9,3,0,0,0,73,31],
-"structMR_1_1Box2i.html#ae78299f1a4dff489c54229762c4b69e4":[9,3,0,0,0,73,44],
-"structMR_1_1Box2i.html#aee06c8d1d4abf0add123fbadc03cca41":[9,3,0,0,0,73,27],
-"structMR_1_1Box2i.html#af12805f3706fd8ebefd4f27af71f9257":[9,3,0,0,0,73,10],
-"structMR_1_1Box2i.html#af5c112e1f13dba0d2a1622ae03e9ae66":[9,3,0,0,0,73,23],
-"structMR_1_1Box2i.html#af5dd653bc7285f4b6c56c491744a7302":[9,3,0,0,0,73,51],
-"structMR_1_1Box2i.html#afea9b3062194a218ce01d26c8f4be6b4":[9,3,0,0,0,73,37],
-"structMR_1_1Box2i64.html":[9,3,0,0,0,74],
-"structMR_1_1Box2i64.html#a016fdc98b192e9ee544899013aee8080":[9,3,0,0,0,74,40]
+"structMR_1_1Box2i.html#adb2c08d4d7e621ea4ccf13f7b7e6ca79":[9,3,0,0,0,73,41]
 };

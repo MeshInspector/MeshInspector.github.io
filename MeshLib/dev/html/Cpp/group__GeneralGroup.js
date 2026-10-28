@@ -4539,6 +4539,7 @@ var group__GeneralGroup =
     [ "MR::SharpenMarchingCubesMeshSettings", "structMR_1_1SharpenMarchingCubesMeshSettings.html", [
       [ "dims", "group__GeneralGroup.html#ga6e549bb1b5552879addc53eaf30df0e2", null ],
       [ "gridToMeshXf", "group__GeneralGroup.html#gae4db6dd1e297a15962be58deb8247dc6", null ],
+      [ "maxDeletedComponentFaces", "group__GeneralGroup.html#gae4016eef57937e5f8c93aa78c2d3c307", null ],
       [ "maxNewRank2VertDev", "group__GeneralGroup.html#gae4ce9fb1814dbc707ab3e200a9263aa0", null ],
       [ "maxNewRank3VertDev", "group__GeneralGroup.html#gaf4be55d183168262e37ed2b1e5aabec5", null ],
       [ "maxOldVertPosCorrection", "group__GeneralGroup.html#ga82657a9b8d3b11b57c5853baaf8ff42a", null ],
@@ -8731,6 +8732,7 @@ var group__GeneralGroup =
       [ "windingNumberThreshold", "group__GeneralGroup.html#gaa99164027d422577e04d9f14f605b51c", null ]
     ] ],
     [ "MR::SharpOffsetParameters", "structMR_1_1SharpOffsetParameters.html", [
+      [ "maxDeletedComponentFaces", "group__GeneralGroup.html#ga6b3908329f86376bec4f0acd0218025b", null ],
       [ "maxNewRank2VertDev", "group__GeneralGroup.html#ga431f430b0b5458fce3c73fddbb6428a4", null ],
       [ "maxNewRank3VertDev", "group__GeneralGroup.html#ga482a50c8e7ad39898c7dafff5c92474e", null ],
       [ "maxOldVertPosCorrection", "group__GeneralGroup.html#gafb1d63d46e98d00f4c3560f3eb55b99b", null ],
@@ -17816,6 +17818,8 @@ var group__GeneralGroup =
     [ "MR::DistanceFromWeightedPointsComputeParams::maxBidirDist", "group__GeneralGroup.html#ga1f9b9b98c5a65f0baaaa7de96b1c030c", null ],
     [ "MR::SomeLocalTriangulations::maxCenterId", "group__GeneralGroup.html#gaaee24eb30dd28767f24e1aeb842e6d3d", null ],
     [ "MR::OutlierParams::maxClusterSize", "group__GeneralGroup.html#gae7fcf0f64db2a7e109689f6722285abd", null ],
+    [ "MR::SharpenMarchingCubesMeshSettings::maxDeletedComponentFaces", "group__GeneralGroup.html#gae4016eef57937e5f8c93aa78c2d3c307", null ],
+    [ "MR::SharpOffsetParameters::maxDeletedComponentFaces", "group__GeneralGroup.html#ga6b3908329f86376bec4f0acd0218025b", null ],
     [ "MR::DecimatePolylineSettings::maxDeletedVertices", "group__GeneralGroup.html#ga58d4128740b065b31e9b4d1b637bc0c7", null ],
     [ "MR::FaceDistancesSettings::maxDist", "group__GeneralGroup.html#ga2ea8f49066513ec8895aadabd2bc8bd6", null ],
     [ "MR::DistanceToMeshOptions::maxDistSq", "group__GeneralGroup.html#gaf424f0c5bd2d65e33086d7e590836580", null ],

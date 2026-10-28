@@ -1,5 +1,14 @@
 var NAVTREEINDEX154 =
 {
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a374dbe045d216c794096020244cfaeff":[9,2,2,0,0,0,0,2,229,8],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a3b93e7f4b851b95f1f857da61fffc81f":[9,2,2,0,0,0,0,2,229,5],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a52f262fd29dc0b9767d61a0e45e61b5c":[9,2,2,0,0,0,0,2,229,2],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a623148d566ce9004ab903a3c58ca828e":[9,2,2,0,0,0,0,2,229,0],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a687ec6cfc6119bc6934b032c46581ee5":[9,2,2,0,0,0,0,2,229,6],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a6c2d4cc257a02e3dd4c1e170f18e2d3c":[9,2,2,0,0,0,0,2,229,12],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a6e5817d02f4a5b4d5f8eae2bed9469d1":[9,2,2,0,0,0,0,2,229,10],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#aab8ca47902d7c4c1ac19071c75ac56d3":[9,2,2,0,0,0,0,2,229,4],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#ad3264ceeed199d92fdebc3fa148a4cc7":[9,2,2,0,0,0,0,2,229,1],
 "std__optional__MR__PolylineIntersectionResult2_8h_source.html":[9,2,2,0,0,0,0,2,229],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html":[9,2,2,0,0,0,0,2,230],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#a161d8e449886927b2605d802e650e616":[9,2,2,0,0,0,0,2,230,4],
@@ -240,14 +249,5 @@ var NAVTREEINDEX154 =
 "std__optional__std__string_8h.html#afe07722b363b237ed88c452f853da98a":[9,2,2,0,0,0,0,2,243,4],
 "std__optional__std__string_8h_source.html":[9,2,2,0,0,0,0,2,243],
 "std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html":[9,2,2,0,0,0,0,2,244],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a1a89a8ee77454e6fb81470e073dabeba":[9,2,2,0,0,0,0,2,244,1],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a1c012b77ab9c4820b69ad9097367ac15":[9,2,2,0,0,0,0,2,244,0],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a4998d06f4ef98a434826aca2102055ee":[9,2,2,0,0,0,0,2,244,12],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a4c2aa50404f8623ce54941b2cd3c23bb":[9,2,2,0,0,0,0,2,244,10],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a5888e76f03e8968423c071d457d03934":[9,2,2,0,0,0,0,2,244,9],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a59c3869d29aaa610433b6253d024f099":[9,2,2,0,0,0,0,2,244,7],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a66266a45c12b60c6e13236874ff64ec9":[9,2,2,0,0,0,0,2,244,5],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a6bbc6c2a8538eef42c3ed87107ae868f":[9,2,2,0,0,0,0,2,244,6],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a7bfe62023a269229fbafede908aa166f":[9,2,2,0,0,0,0,2,244,2],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a8ee265945214e385328513f3aa40207b":[9,2,2,0,0,0,0,2,244,4]
+"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a1a89a8ee77454e6fb81470e073dabeba":[9,2,2,0,0,0,0,2,244,1]
 };

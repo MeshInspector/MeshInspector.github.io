@@ -2,6 +2,7 @@ var structMR_1_1SharpenMarchingCubesMeshSettings =
 [
     [ "dims", "group__GeneralGroup.html#ga6e549bb1b5552879addc53eaf30df0e2", null ],
     [ "gridToMeshXf", "group__GeneralGroup.html#gae4db6dd1e297a15962be58deb8247dc6", null ],
+    [ "maxDeletedComponentFaces", "group__GeneralGroup.html#gae4016eef57937e5f8c93aa78c2d3c307", null ],
     [ "maxNewRank2VertDev", "group__GeneralGroup.html#gae4ce9fb1814dbc707ab3e200a9263aa0", null ],
     [ "maxNewRank3VertDev", "group__GeneralGroup.html#gaf4be55d183168262e37ed2b1e5aabec5", null ],
     [ "maxOldVertPosCorrection", "group__GeneralGroup.html#ga82657a9b8d3b11b57c5853baaf8ff42a", null ],

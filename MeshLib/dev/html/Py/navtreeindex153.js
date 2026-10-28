@@ -1,5 +1,13 @@
 var NAVTREEINDEX153 =
 {
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html#ae141212f95ce69c0d1bb36cb77a76157":[9,1,0,0,2,958,7],
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html#ae141212f95ce69c0d1bb36cb77a76157":[9,1,1,0,1,958,7],
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html#aea26007e266b95046c6a70d757d12b7b":[9,1,0,0,2,958,8],
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html#aea26007e266b95046c6a70d757d12b7b":[9,1,1,0,1,958,8],
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html#aeb18750f0a30a150be6cb56c7ec737e7":[9,1,0,0,2,958,20],
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html#aeb18750f0a30a150be6cb56c7ec737e7":[9,1,1,0,1,958,20],
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html#afa268f5411739a078ee0dc3e158099f1":[9,1,0,0,2,958,26],
+"classmrmeshpy_1_1std__vector__Box__Vector3__float.html#afa268f5411739a078ee0dc3e158099f1":[9,1,1,0,1,958,26],
 "classmrmeshpy_1_1std__vector__Box__Vector3__float.html#afbc96163fbb46dbfeb459edeca3e123b":[9,1,0,0,2,958,25],
 "classmrmeshpy_1_1std__vector__Box__Vector3__float.html#afbc96163fbb46dbfeb459edeca3e123b":[9,1,1,0,1,958,25],
 "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html":[9,1,0,0,2,961],
@@ -241,13 +249,5 @@ var NAVTREEINDEX153 =
 "classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#a29054d022af4d90af76806bdc2012ab6":[9,1,0,0,2,965,0],
 "classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#a29054d022af4d90af76806bdc2012ab6":[9,1,1,0,1,965,0],
 "classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#a2e540bcad1bb03d8ef68fa36f518dbb3":[9,1,0,0,2,965,21],
-"classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#a2e540bcad1bb03d8ef68fa36f518dbb3":[9,1,1,0,1,965,21],
-"classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#a2fec20f6fcc9f1bdd5de8cfbd7dc028b":[9,1,0,0,2,965,13],
-"classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#a2fec20f6fcc9f1bdd5de8cfbd7dc028b":[9,1,1,0,1,965,13],
-"classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#a385be0c6bdad13a9d07ba772790878b2":[9,1,0,0,2,965,18],
-"classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#a385be0c6bdad13a9d07ba772790878b2":[9,1,1,0,1,965,18],
-"classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#a441ea40c8fe63827d559328ab406bbc2":[9,1,0,0,2,965,1],
-"classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#a441ea40c8fe63827d559328ab406bbc2":[9,1,1,0,1,965,1],
-"classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#a51b4a16fb0e59ce40c69d9765a872bd3":[9,1,0,0,2,965,15],
-"classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#a51b4a16fb0e59ce40c69d9765a872bd3":[9,1,1,0,1,965,15]
+"classmrmeshpy_1_1std__vector__Dipole__Allocator__Dipole.html#a2e540bcad1bb03d8ef68fa36f518dbb3":[9,1,1,0,1,965,21]
 };

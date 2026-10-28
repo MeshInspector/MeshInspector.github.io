@@ -1,5 +1,11 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1Const__WholeEdgeMap.html#ac40530ef1948738dbaefd570a5ce3e7e":[9,3,0,0,0,1058,5],
+"classMR_1_1Const__WholeEdgeMap.html#acb4882e147aa6939a7fc363f5a781953":[9,3,0,0,0,1058,18],
+"classMR_1_1Const__WholeEdgeMap.html#acd489f5caf37311c5deaef1ad9353c07":[9,3,0,0,0,1058,11],
+"classMR_1_1Const__WholeEdgeMap.html#ad64f1de2b4e71a8f1b69173074367274":[9,3,0,0,0,1058,6],
+"classMR_1_1Const__WholeEdgeMap.html#ae52860420681932a7411d933985e3211":[9,3,0,0,0,1058,10],
+"classMR_1_1Const__WholeEdgeMap.html#aedb4919fd9049a977cf70c410706af10":[9,3,0,0,0,1058,1],
 "classMR_1_1Const__WholeEdgeMap.html#af0b98ae7007c2253b3b2f1175260bfc9":[9,3,0,0,0,1058,8],
 "classMR_1_1Const__WholeEdgeMap.html#afbe8717d5e5469130271bb3b3ff982af":[9,3,0,0,0,1058,7],
 "classMR_1_1Const__XfBasedCache__MRBox3f.html":[9,3,0,0,0,1059],
@@ -243,11 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume.html#aaf8e97236919388ec1c62e97e869e68d":[9,3,0,0,0,1141,2,4],
 "classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume.html#ab9604620295cf81ffc6de5515e6308f5":[9,3,0,0,0,1141,2,2],
 "classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume.html#ad3d7895d9c7f7e1715fb9c3875b959cf":[9,3,0,0,0,1141,2,9],
-"classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume.html#af9df92c13dfa1540b9f6bba7a9171a40":[9,3,0,0,0,1141,2,8],
-"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html":[9,3,0,0,0,1141,3],
-"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#a07625ccf64bcf5972e33a515c581df79":[9,3,0,0,0,1141,3,0],
-"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#aa6064ee80618815d9c4fbcf257b3da89":[9,3,0,0,0,1141,3,1],
-"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#ad4026e453e435ef4e9d5f5e4b9df69b4":[9,3,0,0,0,1141,3,4],
-"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#adf94d310bf935b45cda3ff48f0f97898":[9,3,0,0,0,1141,3,2],
-"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#aec9c9bccd4d1ade2320a06ccdf382a00":[9,3,0,0,0,1141,3,5]
+"classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume.html#af9df92c13dfa1540b9f6bba7a9171a40":[9,3,0,0,0,1141,2,8]
 };

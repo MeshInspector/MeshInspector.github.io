@@ -1,5 +1,11 @@
 var NAVTREEINDEX96 =
 {
+"classMR_1_1Const__VoxelTraits__MRVoxelScalars.html#a48c4825e1855a9069d2835ead714cbc9":[9,3,0,0,0,1051,0],
+"classMR_1_1Const__VoxelTraits__MRVoxelScalars.html#a5fe70ad2d018b5c38a1f64e5738de0a2":[9,3,0,0,0,1051,2],
+"classMR_1_1Const__VoxelTraits__MRVoxelScalars.html#aa7aeee2b9968cb3691256c6d333914fa":[9,3,0,0,0,1051,3],
+"classMR_1_1Const__VoxelTraits__MRVoxelScalars.html#af02879b0d4cc25c47b51abc920739a49":[9,3,0,0,0,1051,1],
+"classMR_1_1Const__VoxelTraits__MRVoxelScalars.html#aff9cbdaf3a139e32c37ae7281ef8bb5d":[9,3,0,0,0,1051,4],
+"classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html":[9,3,0,0,0,1052],
 "classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#a12663f21105f48ee673d50f274408851":[9,3,0,0,0,1052,3],
 "classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#a20cb65e8b04885b3481d6843cd40f631":[9,3,0,0,0,1052,0],
 "classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#a38dae6ae589296f802787bf82b064aba":[9,3,0,0,0,1052,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX96 =
 "classMR_1_1Const__WholeEdgeMap.html#aa9c7bf058a519140a87248dd7cdf80af":[9,3,0,0,0,1058,19],
 "classMR_1_1Const__WholeEdgeMap.html#aaee6e167f00b60127d6d75b6dc973896":[9,3,0,0,0,1058,16],
 "classMR_1_1Const__WholeEdgeMap.html#ab6e7d20e553bafdbebb8a16eaaca7007":[9,3,0,0,0,1058,15],
-"classMR_1_1Const__WholeEdgeMap.html#abf065206ac2a5c7aa5dc2cd929b85d06":[9,3,0,0,0,1058,14],
-"classMR_1_1Const__WholeEdgeMap.html#ac40530ef1948738dbaefd570a5ce3e7e":[9,3,0,0,0,1058,5],
-"classMR_1_1Const__WholeEdgeMap.html#acb4882e147aa6939a7fc363f5a781953":[9,3,0,0,0,1058,18],
-"classMR_1_1Const__WholeEdgeMap.html#acd489f5caf37311c5deaef1ad9353c07":[9,3,0,0,0,1058,11],
-"classMR_1_1Const__WholeEdgeMap.html#ad64f1de2b4e71a8f1b69173074367274":[9,3,0,0,0,1058,6],
-"classMR_1_1Const__WholeEdgeMap.html#ae52860420681932a7411d933985e3211":[9,3,0,0,0,1058,10],
-"classMR_1_1Const__WholeEdgeMap.html#aedb4919fd9049a977cf70c410706af10":[9,3,0,0,0,1058,1]
+"classMR_1_1Const__WholeEdgeMap.html#abf065206ac2a5c7aa5dc2cd929b85d06":[9,3,0,0,0,1058,14]
 };

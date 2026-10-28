@@ -1,5 +1,11 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1FindProjectionOnPointsSettings.html#ae3192751bc405bc750438702ff6d3f85":[9,3,0,0,0,1240,2],
+"classMR_1_1FindProjectionOnPointsSettings.html#ae7e68ebe84cce6921c62907010ceda5a":[9,3,0,0,0,1240,4],
+"classMR_1_1FixCreasesParams.html":[9,3,0,0,0,1241],
+"classMR_1_1FixCreasesParams.html#a24289f1c3d7fdf4d197dce5d5632e2ac":[9,3,0,0,0,1241,1],
+"classMR_1_1FixCreasesParams.html#a2f33ec700fda47d26df3427091fa4132":[9,3,0,0,0,1241,5],
+"classMR_1_1FixCreasesParams.html#a3d82efc0ed68089a4153bb9d9660d50a":[9,3,0,0,0,1241,4],
 "classMR_1_1FixCreasesParams.html#a6df854ef79af3de4cd41d46009804481":[9,3,0,0,0,1241,7],
 "classMR_1_1FixCreasesParams.html#a85881cb5b64d05fb0bcc267e5c91c403":[9,3,0,0,0,1241,6],
 "classMR_1_1FixCreasesParams.html#a99b2d648a4d4474f90a0138f5cc36615":[9,3,0,0,0,1241,2],
@@ -240,14 +246,8 @@ var NAVTREEINDEX106 =
 "classMR_1_1GcodeSave.html#a925250ff01b98220f2dd389efa8d6ede":[9,3,0,0,0,1254,0],
 "classMR_1_1GcodeSave.html#af05a1d5ee7c8bf623d800745ffd05fe5":[9,3,0,0,0,1254,3],
 "classMR_1_1GeneralOffsetParameters.html":[9,3,0,0,0,1256],
-"classMR_1_1GeneralOffsetParameters.html#a0154fdb1b9e7c1acf552bc4a349d57d9":[9,3,0,0,0,1256,11],
+"classMR_1_1GeneralOffsetParameters.html#a0154fdb1b9e7c1acf552bc4a349d57d9":[9,3,0,0,0,1256,12],
 "classMR_1_1GeneralOffsetParameters.html#a074237cdad0689df36a2104165e6e7ef":[9,3,0,0,0,1256,2],
-"classMR_1_1GeneralOffsetParameters.html#a088b4a87c595fdf9cf7ed6867faa33be":[9,3,0,0,0,1256,23],
-"classMR_1_1GeneralOffsetParameters.html#a1c3f01d7d61cbf01a5d9669e634c6301":[9,3,0,0,0,1256,21],
-"classMR_1_1GeneralOffsetParameters.html#a2b01c4229906ec9186128b96ed48a782":[9,3,0,0,0,1256,8],
-"classMR_1_1GeneralOffsetParameters.html#a3174f7ffd455fc609b29bff1269aeec7":[9,3,0,0,0,1256,0],
-"classMR_1_1GeneralOffsetParameters.html#a3857279c5810e69b1ca90f93d61331db":[9,3,0,0,0,1256,10],
-"classMR_1_1GeneralOffsetParameters.html#a3ba5f1962f6198367132def886156473":[9,3,0,0,0,1256,1],
-"classMR_1_1GeneralOffsetParameters.html#a5122d56f546c6945b652bfdffe0734e9":[9,3,0,0,0,1256,20],
-"classMR_1_1GeneralOffsetParameters.html#a518fc3f4a982b3f09ecf0dac94c4bbbc":[9,3,0,0,0,1256,9]
+"classMR_1_1GeneralOffsetParameters.html#a088b4a87c595fdf9cf7ed6867faa33be":[9,3,0,0,0,1256,24],
+"classMR_1_1GeneralOffsetParameters.html#a1c3f01d7d61cbf01a5d9669e634c6301":[9,3,0,0,0,1256,22]
 };

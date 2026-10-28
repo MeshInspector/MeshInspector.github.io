@@ -1,12 +1,13 @@
 var classMR_1_1SharpenMarchingCubesMeshSettings =
 [
     [ "SharpenMarchingCubesMeshSettings", "classMR_1_1SharpenMarchingCubesMeshSettings.html#a1d73637190bc52b7d862e87fea42b2ff", null ],
-    [ "SharpenMarchingCubesMeshSettings", "classMR_1_1SharpenMarchingCubesMeshSettings.html#a551f2bcb6656e2900447cb2251c531c3", null ],
+    [ "SharpenMarchingCubesMeshSettings", "classMR_1_1SharpenMarchingCubesMeshSettings.html#a49826c55e34020d0762f22ee1c73422a", null ],
     [ "SharpenMarchingCubesMeshSettings", "classMR_1_1SharpenMarchingCubesMeshSettings.html#a9a763de52c4cbaa55a0bb7d53a9868a5", null ],
     [ "SharpenMarchingCubesMeshSettings", "classMR_1_1SharpenMarchingCubesMeshSettings.html#a706ae8f9463ab0e4cbec41635ff407c8", null ],
     [ "assign", "classMR_1_1SharpenMarchingCubesMeshSettings.html#ae21893fe81182ee2c37e4cff786036d6", null ],
     [ "dims", "classMR_1_1SharpenMarchingCubesMeshSettings.html#a57f5187a2721bd12edb3a27d1a1334f0", null ],
     [ "gridToMeshXf", "classMR_1_1SharpenMarchingCubesMeshSettings.html#a4140763f38f07726b6f2a51de32d4365", null ],
+    [ "maxDeletedComponentFaces", "classMR_1_1SharpenMarchingCubesMeshSettings.html#a5208213c899597700f7aee4be20b32d1", null ],
     [ "maxNewRank2VertDev", "classMR_1_1SharpenMarchingCubesMeshSettings.html#ad0648650b83a3ff84202b68d5ce33075", null ],
     [ "maxNewRank3VertDev", "classMR_1_1SharpenMarchingCubesMeshSettings.html#ade80eace0be2085eb67b36177b7aac5f", null ],
     [ "maxOldVertPosCorrection", "classMR_1_1SharpenMarchingCubesMeshSettings.html#a6651aa9240abb2ac3287f60f53800ef7", null ],

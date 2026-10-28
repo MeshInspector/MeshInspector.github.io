@@ -13531,6 +13531,7 @@ Variables</h2></td></tr>
 <tr class="memitem:ga82657a9b8d3b11b57c5853baaf8ff42a" id="r_ga82657a9b8d3b11b57c5853baaf8ff42a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga82657a9b8d3b11b57c5853baaf8ff42a">MR::SharpenMarchingCubesMeshSettings::maxOldVertPosCorrection</a> = 0</td></tr>
 <tr class="memitem:gaf9c1800c89388d5779e40bbc270b5e16" id="r_gaf9c1800c89388d5779e40bbc270b5e16"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf9c1800c89388d5779e40bbc270b5e16">MR::SharpenMarchingCubesMeshSettings::posSelIters</a> = 3</td></tr>
 <tr class="memitem:gad320f5c4b074c4eaf516bf60bd96f8c3" id="r_gad320f5c4b074c4eaf516bf60bd96f8c3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad320f5c4b074c4eaf516bf60bd96f8c3">MR::SharpenMarchingCubesMeshSettings::voxelClamp</a> = false</td></tr>
+<tr class="memitem:gae4016eef57937e5f8c93aa78c2d3c307" id="r_gae4016eef57937e5f8c93aa78c2d3c307"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae4016eef57937e5f8c93aa78c2d3c307">MR::SharpenMarchingCubesMeshSettings::maxDeletedComponentFaces</a> = 0</td></tr>
 <tr class="memitem:ga6e549bb1b5552879addc53eaf30df0e2" id="r_ga6e549bb1b5552879addc53eaf30df0e2"><td class="memItemLeft" align="right" valign="top">Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6e549bb1b5552879addc53eaf30df0e2">MR::SharpenMarchingCubesMeshSettings::dims</a></td></tr>
 <tr class="memdesc:ga6e549bb1b5552879addc53eaf30df0e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marching Cubes volume dimensions.  <br /></td></tr>
 <tr class="memitem:gae4db6dd1e297a15962be58deb8247dc6" id="r_gae4db6dd1e297a15962be58deb8247dc6"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae4db6dd1e297a15962be58deb8247dc6">MR::SharpenMarchingCubesMeshSettings::gridToMeshXf</a></td></tr>
@@ -15058,6 +15059,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga482a50c8e7ad39898c7dafff5c92474e"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes), measured in voxelSize  <br /></td></tr>
 <tr class="memitem:gafb1d63d46e98d00f4c3560f3eb55b99b" id="r_gafb1d63d46e98d00f4c3560f3eb55b99b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafb1d63d46e98d00f4c3560f3eb55b99b">MR::SharpOffsetParameters::maxOldVertPosCorrection</a> = 0.5f</td></tr>
 <tr class="memitem:gaecb173fb8b9530d38e5edd32148b67e8" id="r_gaecb173fb8b9530d38e5edd32148b67e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaecb173fb8b9530d38e5edd32148b67e8">MR::SharpOffsetParameters::voxelClamp</a> = false</td></tr>
+<tr class="memitem:ga6b3908329f86376bec4f0acd0218025b" id="r_ga6b3908329f86376bec4f0acd0218025b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6b3908329f86376bec4f0acd0218025b">MR::SharpOffsetParameters::maxDeletedComponentFaces</a> = 50</td></tr>
 <tr class="memitem:gac4bb66f28e3c77c7b18301c8f8068474" id="r_gac4bb66f28e3c77c7b18301c8f8068474"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; VoxelId, FaceId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac4bb66f28e3c77c7b18301c8f8068474">MR::McOffsetMeshOutputs::voxelPerFaceMap</a> = nullptr</td></tr>
 <tr class="memdesc:gac4bb66f28e3c77c7b18301c8f8068474"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output map FaceId-&gt;VoxelId  <br /></td></tr>
 <tr class="memitem:gaf0b4ab1e2680b4d5227ff3eccf461929" id="r_gaf0b4ab1e2680b4d5227ff3eccf461929"><td class="memItemLeft" align="right" valign="top">Vector3i *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0b4ab1e2680b4d5227ff3eccf461929">MR::McOffsetMeshOutputs::dims</a> = nullptr</td></tr>
@@ -220776,6 +220778,36 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div><div class="memdoc">
 
 <p>Maximum points in the outlier component. </p>
+
+</div>
+</div>
+<a id="gae4016eef57937e5f8c93aa78c2d3c307" name="gae4016eef57937e5f8c93aa78c2d3c307"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae4016eef57937e5f8c93aa78c2d3c307">&#9670;&#160;</a></span>maxDeletedComponentFaces <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::SharpenMarchingCubesMeshSettings::maxDeletedComponentFaces = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if positive, then in the end every connected component with not more than this number of triangles intersecting a component with at least as many triangles is deleted; such tiny fragments appear near sharp creases </p>
+
+</div>
+</div>
+<a id="ga6b3908329f86376bec4f0acd0218025b" name="ga6b3908329f86376bec4f0acd0218025b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6b3908329f86376bec4f0acd0218025b">&#9670;&#160;</a></span>maxDeletedComponentFaces <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::SharpOffsetParameters::maxDeletedComponentFaces = 50</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if positive, then after sharpening every connected component with not more than this number of triangles intersecting a larger component is deleted; such tiny fragments appear near sharp creases </p>
 
 </div>
 </div>

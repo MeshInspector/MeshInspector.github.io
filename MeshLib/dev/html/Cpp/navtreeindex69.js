@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1Polyline.html#acddfc9fe7193026b7c731a688f1dc478":[9,0,0,14,0,34],
+"structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641":[9,0,0,14,0,15],
 "structMR_1_1Polyline.html#ad4be3d0739eaf55a7156960a61d9b1e3":[9,0,0,14,0,28],
 "structMR_1_1Polyline.html#adcd14ead7b771006dcdc733950976288":[9,0,0,14,0,35],
 "structMR_1_1Polyline.html#ae04ad0d4adb7dd9912ec74fd39fcbad8":[9,0,0,14,0,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1SpacingSettings.html":[9,0,0,20,477],
 "structMR_1_1Sphere.html":[9,0,0,0,25],
 "structMR_1_1Sphere.html":[9,0,0,20,519],
-"structMR_1_1SphereParams.html":[9,0,0,20,338],
-"structMR_1_1SplineSettings.html":[9,0,0,20,341],
-"structMR_1_1StitchHolesNicelySettings.html":[9,0,0,20,272]
+"structMR_1_1SphereParams.html":[9,0,0,20,338]
 };

@@ -189,6 +189,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a2f25d184e5f1816d84ada06989dff47a" id="r_a2f25d184e5f1816d84ada06989dff47a"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f25d184e5f1816d84ada06989dff47a">__ref_storage_maxNewRank3VertDev</a></td></tr>
 <tr class="memitem:acf2520115043cd525b2ceb4c1447d598" id="r_acf2520115043cd525b2ceb4c1447d598"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf2520115043cd525b2ceb4c1447d598">__ref_storage_maxOldVertPosCorrection</a></td></tr>
 <tr class="memitem:a2c238314fe13f8cc38fa861f4bbe444e" id="r_a2c238314fe13f8cc38fa861f4bbe444e"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c238314fe13f8cc38fa861f4bbe444e">__ref_storage_voxelClamp</a></td></tr>
+<tr class="memitem:a939984ca769ac5e4ad6a29e78f8f5a81" id="r_a939984ca769ac5e4ad6a29e78f8f5a81"><td class="memItemLeft" align="right" valign="top">unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a939984ca769ac5e4ad6a29e78f8f5a81">__ref_storage_maxDeletedComponentFaces</a></td></tr>
 <tr class="memitem:ac6cc45f160dbcbe2361f085aac76102c" id="r_ac6cc45f160dbcbe2361f085aac76102c"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70fed">MR.SignDetectionMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6cc45f160dbcbe2361f085aac76102c">__ref_storage_signDetectionMode</a></td></tr>
 <tr class="memitem:a27ee7e7e1e62592dd45a455013274a16" id="r_a27ee7e7e1e62592dd45a455013274a16"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27ee7e7e1e62592dd45a455013274a16">__ref_storage_closeHolesInHoleWindingNumber</a></td></tr>
 <tr class="memitem:af7c541f4e85663a93f21227f42025816" id="r_af7c541f4e85663a93f21227f42025816"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7c541f4e85663a93f21227f42025816">__ref_storage_windingNumberThreshold</a></td></tr>
@@ -212,6 +213,8 @@ Properties</h2></td></tr>
 <tr class="memdesc:ab4bddd46451104ed2c442b954db2b79f"><td class="mdescLeft">&#160;</td><td class="mdescRight">correct positions of the input vertices using reference mesh by not more than this distance, measured in voxelSize; big correction can be wrong and result from self-intersections in the reference mesh  <br /></td></tr>
 <tr class="memitem:a4de7851f5c61ba3037e6be56d3bbb5a8" id="r_a4de7851f5c61ba3037e6be56d3bbb5a8"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4de7851f5c61ba3037e6be56d3bbb5a8">voxelClamp</a><code> [get]</code></td></tr>
 <tr class="memdesc:a4de7851f5c61ba3037e6be56d3bbb5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, the displacement of a new vertex from the average point is shortened to keep the vertex within its voxel's box (so the geometry of a voxel can never reach another one), and the in-plane elevation check is skipped  <br /></td></tr>
+<tr class="memitem:a70bba85aaf7694e705366afadb3b4ce9" id="r_a70bba85aaf7694e705366afadb3b4ce9"><td class="memItemLeft" align="right" valign="top">unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70bba85aaf7694e705366afadb3b4ce9">maxDeletedComponentFaces</a><code> [get]</code></td></tr>
+<tr class="memdesc:a70bba85aaf7694e705366afadb3b4ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">if positive, then after sharpening every connected component with not more than this number of triangles intersecting a larger component is deleted; such tiny fragments appear near sharp creases  <br /></td></tr>
 <tr class="memitem:ae73773eba0858253e6c0c1de7d3e76f2" id="r_ae73773eba0858253e6c0c1de7d3e76f2"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70fed">MR.SignDetectionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae73773eba0858253e6c0c1de7d3e76f2">signDetectionMode</a><code> [get]</code></td></tr>
 <tr class="memdesc:ae73773eba0858253e6c0c1de7d3e76f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">determines the method to compute distance sign; <a class="el" href="classMR.html#a6b4be0bb80cfaec844c3a2c62dc09048">offsetMesh</a> implementing <a class="el" href="classMR.html#aaa631c02105f2a8fa6fe24c7873e8d98ae510cdf33cd497134b47b9316314d4b4" title="create mesh using dual marching cubes from OpenVDB library (supports only Unsigned,...">OffsetMode.Smooth</a> supports only Unsigned, OpenVDB and HoleWindingRule here  <br /></td></tr>
 <tr class="memitem:a3a560deb91a7d616390ac704cf72810e" id="r_a3a560deb91a7d616390ac704cf72810e"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a560deb91a7d616390ac704cf72810e">closeHolesInHoleWindingNumber</a><code> [get]</code></td></tr>
@@ -497,6 +500,28 @@ Properties</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">unsafe bool* MR.Const_SharpOffsetParameters.__ref_storage_closeHolesInHoleWindingNumber</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a939984ca769ac5e4ad6a29e78f8f5a81" name="a939984ca769ac5e4ad6a29e78f8f5a81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a939984ca769ac5e4ad6a29e78f8f5a81">&#9670;&#160;</a></span>__ref_storage_maxDeletedComponentFaces</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe int* MR.Const_SharpOffsetParameters.__ref_storage_maxDeletedComponentFaces</td>
         </tr>
       </table>
   </td>
@@ -798,6 +823,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>defines particular implementation of <a class="el" href="classMR_1_1IFastWindingNumber.html" title="Abstract class for fast approximate computation of generalized winding number for a mesh (using its A...">IFastWindingNumber</a> interface that will compute windings. If it is not specified, default <a class="el" href="classMR_1_1FastWindingNumber.html" title="the class for fast approximate computation of winding number for a mesh (using its AABB tree) Note,...">FastWindingNumber</a> is used this only used if signDetectionMode == <a class="el" href="classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" title="computes robust winding number generalization with support of holes and self-intersections in mesh,...">SignDetectionMode.HoleWindingRule</a>, otherwise it is ignored providing this will disable memoryEfficient (as if memoryEfficient == false) </p>
+
+</div>
+</div>
+<a id="a70bba85aaf7694e705366afadb3b4ce9" name="a70bba85aaf7694e705366afadb3b4ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70bba85aaf7694e705366afadb3b4ce9">&#9670;&#160;</a></span>maxDeletedComponentFaces</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe int MR.Const_SharpOffsetParameters.maxDeletedComponentFaces</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>if positive, then after sharpening every connected component with not more than this number of triangles intersecting a larger component is deleted; such tiny fragments appear near sharp creases </p>
 
 </div>
 </div>

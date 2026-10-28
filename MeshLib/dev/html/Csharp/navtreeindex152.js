@@ -1,5 +1,14 @@
 var NAVTREEINDEX152 =
 {
+"structMR_1_1Box2i.html#ae5b7b2d0959f548aa96bd7ef06f03e7f":[9,3,0,0,0,73,31],
+"structMR_1_1Box2i.html#ae78299f1a4dff489c54229762c4b69e4":[9,3,0,0,0,73,44],
+"structMR_1_1Box2i.html#aee06c8d1d4abf0add123fbadc03cca41":[9,3,0,0,0,73,27],
+"structMR_1_1Box2i.html#af12805f3706fd8ebefd4f27af71f9257":[9,3,0,0,0,73,10],
+"structMR_1_1Box2i.html#af5c112e1f13dba0d2a1622ae03e9ae66":[9,3,0,0,0,73,23],
+"structMR_1_1Box2i.html#af5dd653bc7285f4b6c56c491744a7302":[9,3,0,0,0,73,51],
+"structMR_1_1Box2i.html#afea9b3062194a218ce01d26c8f4be6b4":[9,3,0,0,0,73,37],
+"structMR_1_1Box2i64.html":[9,3,0,0,0,74],
+"structMR_1_1Box2i64.html#a016fdc98b192e9ee544899013aee8080":[9,3,0,0,0,74,40],
 "structMR_1_1Box2i64.html#a11c1a35eb2b5ea0ab1d46323365f3fe8":[9,3,0,0,0,74,22],
 "structMR_1_1Box2i64.html#a169bbac215b5ae0111ef7b4062cf4c8b":[9,3,0,0,0,74,19],
 "structMR_1_1Box2i64.html#a1cc689f6c5c2ad6739c1f24308a55c58":[9,3,0,0,0,74,10],
@@ -240,14 +249,5 @@ var NAVTREEINDEX152 =
 "structMR_1_1Box3i.html#abe77e0c4073166161c884c7caef6ac85":[9,3,0,0,0,77,11],
 "structMR_1_1Box3i.html#ac3e3c95856dc3b58f117209bfa1daa8c":[9,3,0,0,0,77,2],
 "structMR_1_1Box3i.html#ac54f8213a55c2e38979d697aa1cb4bdd":[9,3,0,0,0,77,18],
-"structMR_1_1Box3i.html#ac81bbb4faa0674e524646515f7371b90":[9,3,0,0,0,77,23],
-"structMR_1_1Box3i.html#acb40c706881798b9fabf603271e026d1":[9,3,0,0,0,77,26],
-"structMR_1_1Box3i.html#acc5a9e6a2745977674bb2e3b9f785fc8":[9,3,0,0,0,77,40],
-"structMR_1_1Box3i.html#acdce23e9b6fc4fffa821d5d42a932d82":[9,3,0,0,0,77,19],
-"structMR_1_1Box3i.html#acf624631be04fb7c1965ba6845556a56":[9,3,0,0,0,77,16],
-"structMR_1_1Box3i.html#add903f31c5d993c05130a63812c0b0e4":[9,3,0,0,0,77,28],
-"structMR_1_1Box3i.html#ae059d9eb42c837cfb7b00fd219995541":[9,3,0,0,0,77,62],
-"structMR_1_1Box3i.html#ae0aa3c1c98274415375372c7de0f96f2":[9,3,0,0,0,77,35],
-"structMR_1_1Box3i.html#ae4b05575bb74439b86eb6f0f1ed2fd1d":[9,3,0,0,0,77,17],
-"structMR_1_1Box3i.html#aea9d234bca18e1c96ce60d66e91df009":[9,3,0,0,0,77,5]
+"structMR_1_1Box3i.html#ac81bbb4faa0674e524646515f7371b90":[9,3,0,0,0,77,23]
 };

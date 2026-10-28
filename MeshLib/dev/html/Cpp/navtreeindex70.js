@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1SplineSettings.html":[9,0,0,20,341],
+"structMR_1_1StitchHolesNicelySettings.html":[9,0,0,20,272],
 "structMR_1_1StitchHolesParams.html":[9,0,0,9,3,1],
 "structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[9,0,0,9,3,1,1],
 "structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[9,0,0,9,3,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#ad03470ce1d0b8fc32529eae1388ddcdd":[9,0,1,0,1,52,2,7,1,3],
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#ad03470ce1d0b8fc32529eae1388ddcdd":[9,0,2,0,2,34,0,7,0,2],
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#ad03470ce1d0b8fc32529eae1388ddcdd":[9,0,2,0,2,34,0,7,1,3],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#af8d7643677c8aeeef29e018e4fe509bd":[9,0,1,0,1,52,2,7,0,3],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#af8d7643677c8aeeef29e018e4fe509bd":[9,0,2,0,2,34,0,7,0,3],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html":[9,0,1,0,1,52,2,7,1]
+"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#af8d7643677c8aeeef29e018e4fe509bd":[9,0,1,0,1,52,2,7,0,3]
 };

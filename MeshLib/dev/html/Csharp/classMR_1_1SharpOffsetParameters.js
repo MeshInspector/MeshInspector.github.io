@@ -10,6 +10,7 @@ var classMR_1_1SharpOffsetParameters =
     [ "callBack", "classMR_1_1SharpOffsetParameters.html#a1cde748ed14c0f964c26bd7e2eabfefe", null ],
     [ "closeHolesInHoleWindingNumber", "classMR_1_1SharpOffsetParameters.html#ac8017187e900733a342357312cc2abac", null ],
     [ "fwn", "classMR_1_1SharpOffsetParameters.html#a53eebbde54ee27d7e5f56d40767870b6", null ],
+    [ "maxDeletedComponentFaces", "classMR_1_1SharpOffsetParameters.html#ac994592d4c69b8d683c375c2e6ffdbe7", null ],
     [ "maxNewRank2VertDev", "classMR_1_1SharpOffsetParameters.html#abe2a7cd10fe51dac8606794ca64fc598", null ],
     [ "maxNewRank3VertDev", "classMR_1_1SharpOffsetParameters.html#afc7db89ef82a2be9ad11aa25ec15d1d9", null ],
     [ "maxOldVertPosCorrection", "classMR_1_1SharpOffsetParameters.html#a41f7ad08b15de0a456665023581eb5a9", null ],

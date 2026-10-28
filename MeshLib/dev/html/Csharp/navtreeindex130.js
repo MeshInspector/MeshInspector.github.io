@@ -1,5 +1,12 @@
 var NAVTREEINDEX130 =
 {
+"classMR_1_1RemeshSettings.html#a8135724dd2f44a816686ce14a292c35a":[9,3,0,0,0,1628,5],
+"classMR_1_1RemeshSettings.html#a8419139bad5103d954fe4583498a55b2":[9,3,0,0,0,1628,19],
+"classMR_1_1RemeshSettings.html#a85d37f82d6d6a3a01cfced65c81549bb":[9,3,0,0,0,1628,10],
+"classMR_1_1RemeshSettings.html#a9620c3243c317759812a32e49a2d3d51":[9,3,0,0,0,1628,12],
+"classMR_1_1RemeshSettings.html#aa316c4431cacf7d50ce917dd4910b4f3":[9,3,0,0,0,1628,3],
+"classMR_1_1RemeshSettings.html#aa661c23b8b3d306c81b87b33e1b741c6":[9,3,0,0,0,1628,9],
+"classMR_1_1RemeshSettings.html#aa850f0dfa5b2ea1499d220174d5f5dea":[9,3,0,0,0,1628,6],
 "classMR_1_1RemeshSettings.html#ac157e99791f8e2ae24ae565be1367f03":[9,3,0,0,0,1628,2],
 "classMR_1_1RemeshSettings.html#ac67c30cbec3d1784a0551ca86ebf25ab":[9,3,0,0,0,1628,16],
 "classMR_1_1RemeshSettings.html#ad9b6380e8d637f8c2ba5e5f2c36fd115":[9,3,0,0,0,1628,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX130 =
 "classMR_1_1SegmentSegmentIntersectResult.html#a9db549e17ed091219b843451fca66c2b":[9,3,0,0,0,1645,3],
 "classMR_1_1SegmentSegmentIntersectResult.html#ab828224eef8f481c8395326f176f1cc1":[9,3,0,0,0,1645,5],
 "classMR_1_1SelfIntersections.html":[9,3,0,0,0,1648],
-"classMR_1_1SelfIntersections.html#a08c2d73fabc1f3cff484d0615628d0d6":[9,3,0,0,0,1648,2],
-"classMR_1_1SelfIntersections.html#a3f0c054fbf98ac86587b94f1a322faf4":[9,3,0,0,0,1648,3],
-"classMR_1_1SelfIntersections_1_1Const__Settings.html":[9,3,0,0,0,1648,0],
-"classMR_1_1SelfIntersections_1_1Const__Settings.html#a03a9af6c03825d95afcbb0c28c2df4e7":[9,3,0,0,0,1648,0,3],
-"classMR_1_1SelfIntersections_1_1Const__Settings.html#a07a3cbcabeffce858834a718b9eca817":[9,3,0,0,0,1648,0,16],
-"classMR_1_1SelfIntersections_1_1Const__Settings.html#a109b72fb8e0ab671e33192b933615329":[9,3,0,0,0,1648,0,0],
-"classMR_1_1SelfIntersections_1_1Const__Settings.html#a109b72fb8e0ab671e33192b933615329a1d46b2d08baa4710a1c2e888868287f7":[9,3,0,0,0,1648,0,0,1],
-"classMR_1_1SelfIntersections_1_1Const__Settings.html#a109b72fb8e0ab671e33192b933615329af2901a893d204f609b9d6d6b11a481b4":[9,3,0,0,0,1648,0,0,0]
+"classMR_1_1SelfIntersections.html#a08c2d73fabc1f3cff484d0615628d0d6":[9,3,0,0,0,1648,2]
 };
