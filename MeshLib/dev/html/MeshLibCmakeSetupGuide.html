@@ -246,6 +246,10 @@ Windows Integration Guide</h2>
 <p>MeshLib supports <b>Windows</b> via CMake, including integration with <b>Visual Studio</b>: ensure the <b>CMake component</b> is installed in your Visual Studio setup.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md21"></a>
 Prebuilt archive from GitHub Releases</h3>
+<p><span class="tt">MeshLibDistClangCl_&lt;version&gt;.zip</span> (and its <span class="tt">-arm64</span> sibling) is a CMake install prefix, so <span class="tt">find_package(MeshLib CONFIG REQUIRED)</span> works with it as in the sections above. Extracted to <span class="tt">C:/meshlib-built</span>, point CMake at it and build your project in Release, the only configuration it ships:</p>
+<div class="fragment"><div class="line">cmake -S . -B build -A x64 -D CMAKE_PREFIX_PATH=C:/meshlib-built/install</div>
+<div class="line">cmake --build build --config Release</div>
+</div><!-- fragment --><p>To run the result, put <span class="tt">C:/meshlib-built/install/bin</span> on <span class="tt">PATH</span> or copy its DLLs next to your executable.</p>
 <p>The <span class="tt">MeshLibDistVS*.zip</span> archives contain no CMake config files, so <span class="tt">find_package(MeshLib CONFIG REQUIRED)</span> fails at <b>configure</b> time. Point CMake at the extracted tree instead — assuming the archive was extracted to <span class="tt">C:/meshlib-built</span> as described in the <a class="el" href="MeshLibCppSetupGuide.html">C++ Setup Guide</a>:</p>
 <div class="fragment"><div class="line">cmake -S . -B build -A x64 ^</div>
 <div class="line">  -D MESHLIB_INCLUDE_DIRS=C:/meshlib-built/install/include ^</div>
