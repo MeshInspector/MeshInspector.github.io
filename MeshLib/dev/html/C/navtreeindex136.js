@@ -1,5 +1,6 @@
 var NAVTREEINDEX136 =
 {
+"MRWeightedPointsShell_8h_source.html":[9,2,2,0,0,0,0,4,40],
 "MRXfBasedCache_8h.html":[9,2,2,0,0,0,0,1,386],
 "MRXfBasedCache_8h.html#a0ea0d138657614378b336bb7cf3258b1":[9,2,2,0,0,0,0,1,386,10],
 "MRXfBasedCache_8h.html#a196a12babd38147090d98cd03d908923":[9,2,2,0,0,0,0,1,386,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX136 =
 "expected__MR__FloatGrid__std__string_8h.html#a35f9fad7888613a1b35f979ef4e46dbf":[9,2,2,0,0,0,0,2,7,6],
 "expected__MR__FloatGrid__std__string_8h.html#a471be7434b56cf65d5a956f516c19c15":[9,2,2,0,0,0,0,2,7,8],
 "expected__MR__FloatGrid__std__string_8h.html#a75ec006abb8b4691f89e790acfcfad6c":[9,2,2,0,0,0,0,2,7,5],
-"expected__MR__FloatGrid__std__string_8h.html#a7ebc67a035e09e93338f99b7def10a08":[9,2,2,0,0,0,0,2,7,3],
-"expected__MR__FloatGrid__std__string_8h.html#a8d4696875052ef017b54a8aea203fb18":[9,2,2,0,0,0,0,2,7,12]
+"expected__MR__FloatGrid__std__string_8h.html#a7ebc67a035e09e93338f99b7def10a08":[9,2,2,0,0,0,0,2,7,3]
 };

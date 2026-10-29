@@ -166,7 +166,7 @@ var searchData=
   ['computegridbox_163',['computeGridBox',['../classMR.html#a9623658471711ae1c58641ba5dde3495',1,'MR']]],
   ['computeinspherethicknessatvertices_164',['computeInSphereThicknessAtVertices',['../classMR.html#a159bb274260c010b34aff34f24dc590e',1,'MR']]],
   ['computeintcoords_165',['computeIntCoords',['../classMR.html#af6147109a6b34189232f741a0f8f8d39',1,'MR']]],
-  ['computelocalconvexity_166',['computeLocalConvexity',['../classMR.html#abaaa3a64bef0ddacd783901b45323c4f',1,'MR']]],
+  ['computelocalconvexity_166',['computeLocalConvexity',['../classMR.html#abaaa3a64bef0ddacd783901b45323c4f',1,'MR.computeLocalConvexity(MR.Const_Mesh mesh, float radius, MR.Std.Const_Function_Bool_From_Float? cb=null)'],['../classMR.html#a6c3243acdcb8e944d141f7e22b7b567e',1,'MR.computeLocalConvexity(MR.Const_PointCloud cloud, float radius, MR.Std.Const_Function_Bool_From_Float? cb=null)']]],
   ['computemeshnormals_167',['computeMeshNormals',['../classMR.html#a1e36e0a4a92e79e96dc911bff2f97c01',1,'MR']]],
   ['computenormal_168',['computeNormal',['../classMR.html#a004662d1c973e6773e113a6adc7c237d',1,'MR']]],
   ['computenotloneundirectededges_169',['computeNotLoneUndirectedEdges',['../classMR_1_1Const__MeshTopology.html#af95b09555b8f897f7bbf235390ec8d94',1,'MR.Const_MeshTopology.computeNotLoneUndirectedEdges()'],['../classMR_1_1Const__PolylineTopology.html#a9b24d8e5211fc8b72b8a2f3803d39249',1,'MR.Const_PolylineTopology.computeNotLoneUndirectedEdges()']]],

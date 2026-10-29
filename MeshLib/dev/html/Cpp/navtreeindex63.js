@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a9d5ed678fe57bcca610140957afab571":[9,0,0,8,0,1,1],
 "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9":[9,0,0,8,0,1,2],
 "structMR_1_1BooleanResultMapper.html#af6e316b7b21f94033491018406e4e3a6":[9,0,0,8,0,7],
 "structMR_1_1BooleanResultMapper_1_1Maps.html":[9,0,0,8,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1DistanceMapToWorld.html#a866ac1e7f146d2a868527a502d376c74":[9,0,0,5,5,7],
 "structMR_1_1DistanceMapToWorld.html#a92e916455b2d6b276605af3bca683742":[9,0,0,5,5,5],
 "structMR_1_1DistanceMapToWorld.html#aafedbe9db4bcbe9cf1a98dd2daa8da7f":[9,0,0,5,5,1],
-"structMR_1_1DistanceMapToWorld.html#ac20206aa1ac29437ea53266ea70723dc":[9,0,0,5,5,10],
-"structMR_1_1DistanceToMeshOptions.html":[9,0,0,20,211]
+"structMR_1_1DistanceMapToWorld.html#ac20206aa1ac29437ea53266ea70723dc":[9,0,0,5,5,10]
 };

@@ -1547,6 +1547,7 @@ var namespacemrmeshpy =
     [ "computeInSphereThicknessAtVertices", "namespacemrmeshpy.html#a301893e8462d5dfc2e62720c5b9d5410", null ],
     [ "computeIntCoords", "namespacemrmeshpy.html#a2107f998173843d179d9badc8d0af589", null ],
     [ "computeLocalConvexity", "namespacemrmeshpy.html#ae9516dfcce023edfa5a1c84b7770ea27", null ],
+    [ "computeLocalConvexity", "namespacemrmeshpy.html#a85b79947c38334262b28e40871c6bf27", null ],
     [ "computeMeshNormals", "namespacemrmeshpy.html#a4812bf44fca343257dc9f61c8b836a3f", null ],
     [ "computeNormal", "namespacemrmeshpy.html#a29df40111499fa3fe140ddb48f877135", null ],
     [ "computePerCornerNormals", "namespacemrmeshpy.html#a30dd0128ffb1ebfaacd92dafd3bdd2e7", null ],

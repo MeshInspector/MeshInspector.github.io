@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"classMR_1_1Const__Parabolaf.html#a23ca1ab12a8e67200a38de92ef12e17a":[9,3,0,0,0,717,1],
 "classMR_1_1Const__Parabolaf.html#a29903dc74935fd0dfe00a648c65042c7":[9,3,0,0,0,717,13],
 "classMR_1_1Const__Parabolaf.html#a2d0c2e30f59c82d86e08318ca69329d2":[9,3,0,0,0,717,0],
 "classMR_1_1Const__Parabolaf.html#a32d7cc0fa40d83d1fe7c2a69c31b15e4":[9,3,0,0,0,717,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "classMR_1_1Const__Pdf_1_1PaletteRowStats.html#a3aaf56859f4498a3324850956dc095d3":[9,3,0,0,0,723,9,0],
 "classMR_1_1Const__Pdf_1_1PaletteRowStats.html#a3edfd7830a51e8763e4e92764daac97f":[9,3,0,0,0,723,9,7],
 "classMR_1_1Const__Pdf_1_1PaletteRowStats.html#a8900c815e12072f2bc6ecccc5ffe87fd":[9,3,0,0,0,723,9,3],
-"classMR_1_1Const__Pdf_1_1PaletteRowStats.html#a8e43b85431f49bc19276111ff36f002a":[9,3,0,0,0,723,9,6],
-"classMR_1_1Const__Pdf_1_1PaletteRowStats.html#aa03110a563998682d3c65e550cae503b":[9,3,0,0,0,723,9,1]
+"classMR_1_1Const__Pdf_1_1PaletteRowStats.html#a8e43b85431f49bc19276111ff36f002a":[9,3,0,0,0,723,9,6]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"classMR_1_1Const__PointObject.html#aa0f9303adb240596f281d167f3b7d31c":[9,3,0,0,0,738,26],
 "classMR_1_1Const__PointObject.html#aa5211f2c627736ec38b43bad4e3b42c8":[9,3,0,0,0,738,7],
 "classMR_1_1Const__PointObject.html#aa6202bf63cb72100c85a88d46e5e2ab8":[9,3,0,0,0,738,87],
 "classMR_1_1Const__PointObject.html#aa7b6fca38841c480af1197cbeb06b415":[9,3,0,0,0,738,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "classMR_1_1Const__Polyline2.html#a9b4019ef6c19060e06379e1297ed7f12":[9,3,0,0,0,751,8],
 "classMR_1_1Const__Polyline2.html#a9c78d41452db4c1b4514a0cbab735bf2":[9,3,0,0,0,751,10],
 "classMR_1_1Const__Polyline2.html#aa589bc4ef52d2bf23dffbf5d21346745":[9,3,0,0,0,751,24],
-"classMR_1_1Const__Polyline2.html#aa5baa2987450efcbebaeab9c0bb85d21":[9,3,0,0,0,751,4],
-"classMR_1_1Const__Polyline2.html#aad104b179ee69b525c423dc9f2eb7394":[9,3,0,0,0,751,16]
+"classMR_1_1Const__Polyline2.html#aa5baa2987450efcbebaeab9c0bb85d21":[9,3,0,0,0,751,4]
 };

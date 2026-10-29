@@ -146,7 +146,8 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9376a0e52339eaeac183109d9a95c2d1" id="r_a9376a0e52339eaeac183109d9a95c2d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2ac18e2bb6d217def65ee54bdaf9effc">MR_expected_MR_VertScalars_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9376a0e52339eaeac183109d9a95c2d1">MR_computeLocalConvexity</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, float radius, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:a2009aa5788893def099c61022b98548a" id="r_a2009aa5788893def099c61022b98548a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2ac18e2bb6d217def65ee54bdaf9effc">MR_expected_MR_VertScalars_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2009aa5788893def099c61022b98548a">MR_computeLocalConvexity_MR_Mesh</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, float radius, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:ab9c4c10d27d5c48aa5852ea66684fe3f" id="r_ab9c4c10d27d5c48aa5852ea66684fe3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2ac18e2bb6d217def65ee54bdaf9effc">MR_expected_MR_VertScalars_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9c4c10d27d5c48aa5852ea66684fe3f">MR_computeLocalConvexity_MR_PointCloud</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, float radius, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a2ac18e2bb6d217def65ee54bdaf9effc" name="a2ac18e2bb6d217def65ee54bdaf9effc"></a>
@@ -165,14 +166,14 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="a9376a0e52339eaeac183109d9a95c2d1" name="a9376a0e52339eaeac183109d9a95c2d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9376a0e52339eaeac183109d9a95c2d1">&#9670;&#160;</a></span>MR_computeLocalConvexity()</h2>
+<a id="a2009aa5788893def099c61022b98548a" name="a2009aa5788893def099c61022b98548a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2009aa5788893def099c61022b98548a">&#9670;&#160;</a></span>MR_computeLocalConvexity_MR_Mesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2ac18e2bb6d217def65ee54bdaf9effc">MR_expected_MR_VertScalars_std_string</a> * MR_computeLocalConvexity </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2ac18e2bb6d217def65ee54bdaf9effc">MR_expected_MR_VertScalars_std_string</a> * MR_computeLocalConvexity_MR_Mesh </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -189,6 +190,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>computes unitless convexity of the mesh at each vertex on the scale of given radius: for each vertex v considers the edge-connected region of triangles with the centers within given radius from v, finds the best plane for the vertices on the boundary of the region, and returns sum_f( distance( plane, triCenter( f ) ) * dot( plane.n, dirArea( f ) ) ) / radius^3, which approximates the signed volume between the region and the plane: positive in convex areas, negative in concave ones, independent of the sign of plane's normal Generated from function <span class="tt">MR::computeLocalConvexity</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__VertScalars__std__string_8h.html#a6d786b313310b87e05b8498956a16d2c" title="Destroys a heap-allocated instance of MR_expected_MR_VertScalars_std_string. Does nothing if the poin...">MR_expected_MR_VertScalars_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab9c4c10d27d5c48aa5852ea66684fe3f" name="ab9c4c10d27d5c48aa5852ea66684fe3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9c4c10d27d5c48aa5852ea66684fe3f">&#9670;&#160;</a></span>MR_computeLocalConvexity_MR_PointCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a2ac18e2bb6d217def65ee54bdaf9effc">MR_expected_MR_VertScalars_std_string</a> * MR_computeLocalConvexity_MR_PointCloud </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes unitless convexity of the point cloud with oriented normals at each point on the scale of given radius: for each point p considers n points q_i within given radius from p, finds the best plane for the furthest max( 3, sqrt( n ) ) of them, and returns pi * sum_i( distance( plane, q_i ) * dot( plane.n, N_i ) ) / ( sum_i |dot( plane.n, N_i )| * radius ), which approximates the same signed volume divided by radius^3 as the mesh version Generated from function <span class="tt">MR::computeLocalConvexity</span>. Parameter <span class="tt">cloud</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__VertScalars__std__string_8h.html#a6d786b313310b87e05b8498956a16d2c" title="Destroys a heap-allocated instance of MR_expected_MR_VertScalars_std_string. Does nothing if the poin...">MR_expected_MR_VertScalars_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1Const__WeightedVertexd.html#ad1df163f5404400b065ca7bb65f9877d":[9,3,0,0,0,1057,3],
 "classMR_1_1Const__WeightedVertexd.html#ae8b7e4a6cd28f6e63adf151eb394b906":[9,3,0,0,0,1057,1],
 "classMR_1_1Const__WeightedVertexd.html#af4e8fe7d3cd19b2baaf1bcd40eec4f6e":[9,3,0,0,0,1057,8],
 "classMR_1_1Const__WholeEdgeBMap.html":[9,3,0,0,0,1058],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1Cuda.html#ac41726497d51f9764c2d9c2c2e9db105":[9,3,0,0,0,1142,30],
 "classMR_1_1Cuda.html#acd8af53537c95be1eac56310bc9cd725":[9,3,0,0,0,1142,19],
 "classMR_1_1Cuda.html#ad3e17c83bdc91cabccc103c84ee2652c":[9,3,0,0,0,1142,15],
-"classMR_1_1Cuda.html#ada48bf1cb30a1dd5423bcb0d29c6b1d2":[9,3,0,0,0,1142,29],
-"classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html":[9,3,0,0,0,1142,0]
+"classMR_1_1Cuda.html#ada48bf1cb30a1dd5423bcb0d29c6b1d2":[9,3,0,0,0,1142,29]
 };

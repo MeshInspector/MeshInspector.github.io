@@ -4436,7 +4436,7 @@ var searchData=
   ['computegridbox_222',['computeGridBox',['../group__GeneralGroup.html#gad430aa6bda176d93601f5ae0e30b39a2',1,'MR']]],
   ['computeinspherethicknessatvertices_223',['computeInSphereThicknessAtVertices',['../group__GeneralGroup.html#ga239cbc262f9cc0bda4d8b5bf928ee0d2',1,'MR']]],
   ['computeintcoords_224',['computeIntCoords',['../group__MathGroup.html#ga39e5dd8c133fbb356e478051d5923e8b',1,'MR']]],
-  ['computelocalconvexity_225',['computeLocalConvexity',['../group__GeneralGroup.html#gab5102c78869dbaf715e54cef8bc9763f',1,'MR']]],
+  ['computelocalconvexity_225',['computeLocalConvexity',['../group__GeneralGroup.html#gab5102c78869dbaf715e54cef8bc9763f',1,'MR::computeLocalConvexity(const Mesh &amp;mesh, float radius, const ProgressCallback &amp;cb={})'],['../group__GeneralGroup.html#ga20ee34ad5920a4f9c422c6d46f8273b8',1,'MR::computeLocalConvexity(const PointCloud &amp;cloud, float radius, const ProgressCallback &amp;cb={})']]],
   ['computemeshnormals_226',['computeMeshNormals',['../group__MeshNormalsGroup.html#gade8bb0a85e5a0e9f0038065ea5bcd9cf',1,'MR']]],
   ['computenormal_227',['computeNormal',['../group__GeneralGroup.html#ga491b009b8232c0959330e8f6f0b3183e',1,'MR']]],
   ['computenotloneundirectededges_228',['computeNotLoneUndirectedEdges',['../group__GeneralGroup.html#ga9b0965c616ba1372dc30a0cfc25e2459',1,'MR::MeshTopology::computeNotLoneUndirectedEdges()'],['../group__GeneralGroup.html#ga7f5ad4b2bbc4c7b58cf07647e8b201f1',1,'MR::PolylineTopology::computeNotLoneUndirectedEdges()']]],

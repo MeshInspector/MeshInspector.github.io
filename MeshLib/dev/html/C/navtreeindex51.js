@@ -216,8 +216,9 @@ var NAVTREEINDEX51 =
 "MRLoadedObjects_8h.html#affbbfbc708aa073857440abe4eea919b":[9,2,2,0,0,0,0,1,153,73],
 "MRLoadedObjects_8h_source.html":[9,2,2,0,0,0,0,1,153],
 "MRLocalConvexity_8h.html":[9,2,2,0,0,0,0,1,154],
+"MRLocalConvexity_8h.html#a2009aa5788893def099c61022b98548a":[9,2,2,0,0,0,0,1,154,1],
 "MRLocalConvexity_8h.html#a2ac18e2bb6d217def65ee54bdaf9effc":[9,2,2,0,0,0,0,1,154,0],
-"MRLocalConvexity_8h.html#a9376a0e52339eaeac183109d9a95c2d1":[9,2,2,0,0,0,0,1,154,1],
+"MRLocalConvexity_8h.html#ab9c4c10d27d5c48aa5852ea66684fe3f":[9,2,2,0,0,0,0,1,154,2],
 "MRLocalConvexity_8h_source.html":[9,2,2,0,0,0,0,1,154],
 "MRLocalTriangulations_8h.html":[9,2,2,0,0,0,0,1,155],
 "MRLocalTriangulations_8h.html#a00316c8d37416e8f17ee112e9f77391d":[9,2,2,0,0,0,0,1,155,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "MRLocalTriangulations_8h.html#a4999f78a9347517d140847786263cc4a":[9,2,2,0,0,0,0,1,155,40],
 "MRLocalTriangulations_8h.html#a509ba5139e24df3edb94363264763b12":[9,2,2,0,0,0,0,1,155,54],
 "MRLocalTriangulations_8h.html#a52d2b816ee8a09edd0bc2cfad2ccc866":[9,2,2,0,0,0,0,1,155,38],
-"MRLocalTriangulations_8h.html#a53adbed9d8897bfc3ce623043d994461":[9,2,2,0,0,0,0,1,155,79],
-"MRLocalTriangulations_8h.html#a56b7839364953224d6d33c7c24f670e8":[9,2,2,0,0,0,0,1,155,28]
+"MRLocalTriangulations_8h.html#a53adbed9d8897bfc3ce623043d994461":[9,2,2,0,0,0,0,1,155,79]
 };

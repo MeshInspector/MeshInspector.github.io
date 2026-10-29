@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__BaseShellParameters.html":[9,3,0,0,0,258],
 "classMR_1_1Const__BaseShellParameters.html#a12f5bfaf93b336f279a524822633cdd8":[9,3,0,0,0,258,0],
 "classMR_1_1Const__BaseShellParameters.html#a36f596be37c8e1e7d45327a338b68ce8":[9,3,0,0,0,258,3],
 "classMR_1_1Const__BaseShellParameters.html#a5b9195fdb1c50bc3c4b6c27e60a41b0a":[9,3,0,0,0,258,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__BooleanPreCutResult.html#ac5f6336bbeea85c865a65960ed28fee9":[9,3,0,0,0,283,2],
 "classMR_1_1Const__BooleanPreCutResult.html#acf38ba3469d87aaee0fb3ea71ac2d972":[9,3,0,0,0,283,7],
 "classMR_1_1Const__BooleanPreCutResult.html#adc462e98edff664992f36e5cdd1b33a1":[9,3,0,0,0,283,4],
-"classMR_1_1Const__BooleanPreCutResult.html#aef06323af4de6938d398928ae4107023":[9,3,0,0,0,283,15],
-"classMR_1_1Const__BooleanPreCutResult.html#af0fd6e1ffa3b3e1f1edf8fbf531b45ba":[9,3,0,0,0,283,9]
+"classMR_1_1Const__BooleanPreCutResult.html#aef06323af4de6938d398928ae4107023":[9,3,0,0,0,283,15]
 };

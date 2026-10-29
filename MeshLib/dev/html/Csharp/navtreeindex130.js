@@ -1,5 +1,6 @@
 var NAVTREEINDEX130 =
 {
+"classMR_1_1RegularMapMesher.html#a3068f95ebadfc88cbed90676b8ca1f13":[9,3,0,0,0,1627,6],
 "classMR_1_1RegularMapMesher.html#a6b9b1a239520752175ea710c5f3585b3":[9,3,0,0,0,1627,3],
 "classMR_1_1RegularMapMesher.html#a81f29537e2f2c967ee20c2a44783b038":[9,3,0,0,0,1627,7],
 "classMR_1_1RegularMapMesher.html#a912a44af7d29290ff78d4b9dda1167f1":[9,3,0,0,0,1627,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX130 =
 "classMR_1_1SearchPathSettings.html#a771ea8c2c936bcbdf480c3d8cc452a2c":[9,3,0,0,0,1645,1],
 "classMR_1_1SearchPathSettings.html#a79b2759b95aacabb25ac063ebd5adbae":[9,3,0,0,0,1645,5],
 "classMR_1_1SearchPathSettings.html#a8105174dd5ccb5ac8f73ad7044d563ae":[9,3,0,0,0,1645,3],
-"classMR_1_1SearchPathSettings.html#a913a5b8c0919cf2f8841a4b360bb7aa7":[9,3,0,0,0,1645,0],
-"classMR_1_1SearchPathSettings.html#adda00ebd151e8f583bf850022059f4fe":[9,3,0,0,0,1645,6]
+"classMR_1_1SearchPathSettings.html#a913a5b8c0919cf2f8841a4b360bb7aa7":[9,3,0,0,0,1645,0]
 };

@@ -2008,6 +2008,7 @@ var namespaceMR =
     [ "computeInSphereThicknessAtVertices", "group__GeneralGroup.html#ga239cbc262f9cc0bda4d8b5bf928ee0d2", null ],
     [ "computeIntCoords", "group__MathGroup.html#ga39e5dd8c133fbb356e478051d5923e8b", null ],
     [ "computeLocalConvexity", "group__GeneralGroup.html#gab5102c78869dbaf715e54cef8bc9763f", null ],
+    [ "computeLocalConvexity", "group__GeneralGroup.html#ga20ee34ad5920a4f9c422c6d46f8273b8", null ],
     [ "computeMeshNormals", "group__MeshNormalsGroup.html#gade8bb0a85e5a0e9f0038065ea5bcd9cf", null ],
     [ "computeNormal", "group__GeneralGroup.html#ga491b009b8232c0959330e8f6f0b3183e", null ],
     [ "computePerCornerNormals", "group__MeshNormalsGroup.html#gae0d9f93e52c6de06a13b82bdcd6c69b5", null ],

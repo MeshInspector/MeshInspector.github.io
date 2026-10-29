@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1DistanceToMeshOptions.html":[9,0,0,20,211],
 "structMR_1_1DistanceVolumeParams.html":[9,0,0,20,863],
 "structMR_1_1DivideMeshWithPlaneParams.html":[9,0,0,20,356],
 "structMR_1_1DividePointCloudOptionalOutput.html":[9,0,0,20,456],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html":[9,0,1,0,1,16,0,3],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html":[9,0,2,0,2,6,0,3],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html#a27c3f4fb399c5305651f2dd9386238c3":[9,0,1,0,1,16,0,3,0],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html#a27c3f4fb399c5305651f2dd9386238c3":[9,0,2,0,2,6,0,3,0],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html":[9,0,1,0,1,16,0,4]
+"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html#a27c3f4fb399c5305651f2dd9386238c3":[9,0,2,0,2,6,0,3,0]
 };

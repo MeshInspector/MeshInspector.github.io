@@ -5425,6 +5425,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gabb2813949ff03c0e0f004661d0a7ac69" id="r_gabb2813949ff03c0e0f004661d0a7ac69"><td class="memTemplParams" colspan="2">template&lt;typename V&gt; </td></tr>
 <tr class="memitem:gabb2813949ff03c0e0f004661d0a7ac69 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb2813949ff03c0e0f004661d0a7ac69">MR::doSegmentLineIntersect</a> (const <a class="el" href="structMR_1_1LineSegm.html">LineSegm</a>&lt; V &gt; &amp;x, const <a class="el" href="structMR_1_1Line.html">Line</a>&lt; V &gt; &amp;y, typename V::ValueType *xPos=nullptr, typename V::ValueType *yPos=nullptr)</td></tr>
 <tr class="memitem:gab5102c78869dbaf715e54cef8bc9763f" id="r_gab5102c78869dbaf715e54cef8bc9763f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertScalars &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab5102c78869dbaf715e54cef8bc9763f">MR::computeLocalConvexity</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, float radius, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
+<tr class="memitem:ga20ee34ad5920a4f9c422c6d46f8273b8" id="r_ga20ee34ad5920a4f9c422c6d46f8273b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertScalars &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga20ee34ad5920a4f9c422c6d46f8273b8">MR::computeLocalConvexity</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float radius, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
 <tr class="memitem:gafdf05e8b0d0790c4feea524b2d3cf936" id="r_gafdf05e8b0d0790c4feea524b2d3cf936"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafdf05e8b0d0790c4feea524b2d3cf936">MR::FanRecord::FanRecord</a> (VertId <a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>={}, std::uint32_t fn=0)</td></tr>
 <tr class="memitem:ga27df8546e114728c41355bf45b7f4666" id="r_ga27df8546e114728c41355bf45b7f4666"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga27df8546e114728c41355bf45b7f4666">MR::FanRecord::FanRecord</a> (<a class="el" href="structMR_1_1NoInit.html">NoInit</a>)</td></tr>
 <tr class="memitem:ga010e9445541af4e90e90d34acc98220e" id="r_ga010e9445541af4e90e90d34acc98220e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga010e9445541af4e90e90d34acc98220e">MR::FanRecordWithCenter::FanRecordWithCenter</a> (VertId c={}, VertId <a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>={}, std::uint32_t fn=0)</td></tr>
@@ -48939,7 +48940,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab5102c78869dbaf715e54cef8bc9763f" name="gab5102c78869dbaf715e54cef8bc9763f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab5102c78869dbaf715e54cef8bc9763f">&#9670;&#160;</a></span>computeLocalConvexity()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab5102c78869dbaf715e54cef8bc9763f">&#9670;&#160;</a></span>computeLocalConvexity() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -48972,6 +48973,43 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRLocalConvexity_8h.html">MRMesh/MRLocalConvexity.h</a>&gt;</code></p>
 <p>computes unitless convexity of the mesh at each vertex on the scale of given radius: for each vertex v considers the edge-connected region of triangles with the centers within given radius from v, finds the best plane for the vertices on the boundary of the region, and returns sum_f( distance( plane, triCenter( f ) ) * dot( plane.n, dirArea( f ) ) ) / radius^3, which approximates the signed volume between the region and the plane: positive in convex areas, negative in concave ones, independent of the sign of plane's normal </p>
+
+</div>
+</div>
+<a id="ga20ee34ad5920a4f9c422c6d46f8273b8" name="ga20ee34ad5920a4f9c422c6d46f8273b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga20ee34ad5920a4f9c422c6d46f8273b8">&#9670;&#160;</a></span>computeLocalConvexity() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertScalars &gt; MR::computeLocalConvexity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRLocalConvexity_8h.html">MRMesh/MRLocalConvexity.h</a>&gt;</code></p>
+<p>computes unitless convexity of the point cloud with oriented normals at each point on the scale of given radius: for each point p considers n points q_i within given radius from p, finds the best plane for the furthest max( 3, sqrt( n ) ) of them, and returns pi * sum_i( distance( plane, q_i ) * dot( plane.n, N_i ) ) / ( sum_i |dot( plane.n, N_i )| * radius ), which approximates the same signed volume divided by radius^3 as the mesh version </p>
 
 </div>
 </div>

@@ -11408,6 +11408,7 @@ var group__GeneralGroup =
     [ "MR::computeInSphereThicknessAtVertices", "group__GeneralGroup.html#ga239cbc262f9cc0bda4d8b5bf928ee0d2", null ],
     [ "MR::computeIntCoords", "group__MathGroup.html#ga39e5dd8c133fbb356e478051d5923e8b", null ],
     [ "MR::computeLocalConvexity", "group__GeneralGroup.html#gab5102c78869dbaf715e54cef8bc9763f", null ],
+    [ "MR::computeLocalConvexity", "group__GeneralGroup.html#ga20ee34ad5920a4f9c422c6d46f8273b8", null ],
     [ "MR::computeNormal", "group__GeneralGroup.html#ga491b009b8232c0959330e8f6f0b3183e", null ],
     [ "MR::MeshTopology::computeNotLoneUndirectedEdges", "group__GeneralGroup.html#ga9b0965c616ba1372dc30a0cfc25e2459", null ],
     [ "MR::PolylineTopology::computeNotLoneUndirectedEdges", "group__GeneralGroup.html#ga7f5ad4b2bbc4c7b58cf07647e8b201f1", null ],

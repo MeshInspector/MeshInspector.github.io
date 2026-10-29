@@ -1,5 +1,6 @@
 var NAVTREEINDEX129 =
 {
+"classMR_1_1Quaterniond.html":[9,3,0,0,0,1612],
 "classMR_1_1Quaterniond.html#a02008d4f1a2ee92758c4053c915f80e9":[9,3,0,0,0,1612,5],
 "classMR_1_1Quaterniond.html#a1c64166123220a4f90de022d08706841":[9,3,0,0,0,1612,13],
 "classMR_1_1Quaterniond.html#a2009d331332f84dfca779867929d7ea0":[9,3,0,0,0,1612,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "classMR_1_1RegionBitSet.html#af1c83551c2d19847756669e7ac020fd5":[9,3,0,0,0,1625,4],
 "classMR_1_1RegionBitSet.html#af23f1e8234001184adae1683dfe259fa":[9,3,0,0,0,1625,13],
 "classMR_1_1RegionBitSet.html#afc667c30f55e0cea509bac1a60f31958":[9,3,0,0,0,1625,1],
-"classMR_1_1RegularMapMesher.html":[9,3,0,0,0,1627],
-"classMR_1_1RegularMapMesher.html#a3068f95ebadfc88cbed90676b8ca1f13":[9,3,0,0,0,1627,6]
+"classMR_1_1RegularMapMesher.html":[9,3,0,0,0,1627]
 };

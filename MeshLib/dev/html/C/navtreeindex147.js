@@ -1,5 +1,6 @@
 var NAVTREEINDEX147 =
 {
+"std__array__MR__WeightedVertex__3_8h.html#a234ccd2d3877ba0740a22b0eb70984da":[9,2,2,0,0,0,0,2,120,7],
 "std__array__MR__WeightedVertex__3_8h.html#a38b8a4ddcc8df0d34e27f6c9b38a61c2":[9,2,2,0,0,0,0,2,120,5],
 "std__array__MR__WeightedVertex__3_8h.html#a668b18bd13c99f7f14fe892b04c2c83a":[9,2,2,0,0,0,0,2,120,1],
 "std__array__MR__WeightedVertex__3_8h.html#a7152a9a1c9788cf2f94d8c83e21ee097":[9,2,2,0,0,0,0,2,120,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX147 =
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#ad82c5cebdf864ebf07383725d3c82584":[9,2,2,0,0,0,0,2,166,4],
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#ae10a7a8731803fb799ca2a634a96c57f":[9,2,2,0,0,0,0,2,166,9],
 "std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h.html#afaf2762d40db9c674bc69f7ea7332985":[9,2,2,0,0,0,0,2,166,8],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h_source.html":[9,2,2,0,0,0,0,2,166],
-"std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h.html":[9,2,2,0,0,0,0,2,167]
+"std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h_source.html":[9,2,2,0,0,0,0,2,166]
 };

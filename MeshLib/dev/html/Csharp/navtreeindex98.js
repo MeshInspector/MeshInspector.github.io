@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html":[9,3,0,0,0,1142,0],
 "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html#a2b7d39641629e8a211283ee02c0ed8d8":[9,3,0,0,0,1142,0,5],
 "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html#a566c211fca4ac62684ee691880183539":[9,3,0,0,0,1142,0,0],
 "classMR_1_1Cuda_1_1ComputePointsToDistanceVolume.html#a5973adcf5de19a08b37aa91acb626cfd":[9,3,0,0,0,1142,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1CylinderObject.html#a5896ecc6143c300a1240491183fcb6ab":[9,3,0,0,0,1151,64],
 "classMR_1_1CylinderObject.html#a5938f54cd23a9d8c2a27d9641ddd09fb":[9,3,0,0,0,1151,24],
 "classMR_1_1CylinderObject.html#a5c3ac8cda1700d4e340aa2b674ef290a":[9,3,0,0,0,1151,18],
-"classMR_1_1CylinderObject.html#a62df68a6f3d5c2af35fac6417049f4bd":[9,3,0,0,0,1151,2],
-"classMR_1_1CylinderObject.html#a6562e7506c9f1f65d793c07d31d9958e":[9,3,0,0,0,1151,6]
+"classMR_1_1CylinderObject.html#a62df68a6f3d5c2af35fac6417049f4bd":[9,3,0,0,0,1151,2]
 };
