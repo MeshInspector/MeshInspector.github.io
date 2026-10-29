@@ -28,7 +28,7 @@ prepare_source_files() {
     CURRENT_DIR=$(pwd)
     cd ../MeshLib/
     find source -name '*.h' -exec perl -pe 's/^\s*\}\s*\/\/\s*namespace.*$/}/' -i {} \;
-    find source -name '*.h' -exec perl -pe 's|(?<!/)//(?![/!]) ?|/// |g;s|/\*(?![\*!]) ?|/** |g' -i {} \;
+    find source -name '*.h' -exec perl -pe 's|(?<![/:])//(?![/!])(?! ?#) ?|/// |g unless /^\s*#/;s|/\*(?![\*!]) ?|/** |g' -i {} \;
     cd "$CURRENT_DIR"
     python3 ./scripts/generate_default_group.py
 }
