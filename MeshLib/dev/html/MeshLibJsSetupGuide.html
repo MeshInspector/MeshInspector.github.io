@@ -258,7 +258,7 @@ Bundlers</h3>
 </ul>
 <h3 class="doxsection"><a class="anchor" id="MeshLibJsPayloadSize"></a>
 Payload Size</h3>
-<p>MeshLib is a WebAssembly build of the full geometry library, so a browser downloads roughly <b>11 MB of wasm, about 3 MB gzipped over the wire</b>, before the first geometry call. <span class="tt">@meshinspector/meshlib-mt</span> is the same order of magnitude.</p>
+<p>MeshLib is a WebAssembly build of the full geometry library, so a browser downloads roughly <b>11 MB of wasm, about 3 MB gzipped or 1.7 MB with Brotli over the wire</b>, before the first geometry call. <span class="tt">@meshinspector/meshlib-mt</span> is the same order of magnitude.</p>
 <p>Two consequences for a browser application:</p>
 <ul>
 <li>The <span class="tt">.wasm</span> is a sidecar file fetched as a <b>second request</b>, separate from the <span class="tt">.mjs</span> module. Serve it as <span class="tt">application/wasm</span> with compression enabled, or the download is several times larger than it needs to be.</li>
