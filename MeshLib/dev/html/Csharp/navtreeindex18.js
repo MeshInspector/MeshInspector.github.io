@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1ChangeMeshFaceSelectionAction.html#aeb0b77c4eb4a6ac232311874fb1605d1":[9,3,0,0,0,175,4],
 "classMR_1_1ChangeMeshFaceSelectionAction.html#af930a33e9a72e8059440b7e0221df99e":[9,3,0,0,0,175,0],
 "classMR_1_1ChangeMeshPointsAction.html":[9,3,0,0,0,176],
 "classMR_1_1ChangeMeshPointsAction.html#a555ad51ae3fcb4cd53218f4752d7f580":[9,3,0,0,0,176,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChunkIterator.html#ae7fa96872f7fa07d76b702d8932a51ce":[9,3,0,0,0,204,0],
 "classMR_1_1CircleObject.html":[9,3,0,0,0,205],
 "classMR_1_1CircleObject.html#a017f7698e351617036f9cdae6d9c5c85":[9,3,0,0,0,205,57],
-"classMR_1_1CircleObject.html#a03a20ed4c23cbe2f92fa47488f4f5294":[9,3,0,0,0,205,5],
-"classMR_1_1CircleObject.html#a03db679e2882af849e9e73fef761f6d6":[9,3,0,0,0,205,45]
+"classMR_1_1CircleObject.html#a03a20ed4c23cbe2f92fa47488f4f5294":[9,3,0,0,0,205,5]
 };

@@ -80,6 +80,7 @@ var group__BooleanGroup =
     [ "MR::MR_BIND_OVERLOAD_SUFFIX", "group__DistanceMapGroup.html#gabde61d75feea288c14690ed8c3e592d2", null ],
     [ "MR::offsetSurfaceLineToMeshContours", "group__BooleanGroup.html#gac67a5b20bb2312590785d6dca7473866", null ],
     [ "MR::offsetSurfaceLineToMeshContours", "group__BooleanGroup.html#ga2cc55b5541f2ceaaf75cd0e0d48c8292", null ],
+    [ "MR::reserveForCut", "group__BooleanGroup.html#ga45763dcfb85a706096c0ac879ae352cc", null ],
     [ "MR::surfaceLineToClosedMeshContour", "group__BooleanGroup.html#ga3a22b60786ebca45162b3cdc5d713ff0", null ],
     [ "MR::surfaceLineToMeshContour", "group__BooleanGroup.html#ga123f4e8e51dc1696e7db2ff8fc233bd2", null ],
     [ "MR::surfaceLineToMeshContour", "group__BooleanGroup.html#ga2e24ce065ef7d94e723ba08376773c39", null ],

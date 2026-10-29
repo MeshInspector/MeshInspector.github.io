@@ -1,5 +1,6 @@
 var NAVTREEINDEX155 =
 {
+"std__optional__MR__VertMap_8h.html#a86fa00ba57498e25acd97e908f067aee":[9,2,2,0,0,0,0,2,242,8],
 "std__optional__MR__VertMap_8h.html#a93f8077cde7d642468b94bff99cb89b1":[9,2,2,0,0,0,0,2,242,10],
 "std__optional__MR__VertMap_8h.html#aa01fd9cecca3efa452b61bc96283e40d":[9,2,2,0,0,0,0,2,242,9],
 "std__optional__MR__VertMap_8h.html#aa1fc693b30c5f2a22c8fbc4326700714":[9,2,2,0,0,0,0,2,242,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX155 =
 "std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h_source.html":[9,2,2,0,0,0,0,2,283],
 "std__pair__MR__UndirectedEdgeId__bool_8h.html":[9,2,2,0,0,0,0,2,284],
 "std__pair__MR__UndirectedEdgeId__bool_8h.html#a17fb8fa50998464e23bfb38fe3587e3f":[9,2,2,0,0,0,0,2,284,11],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html#a5b82c26bbadc4cd5f5759fe30d593dfb":[9,2,2,0,0,0,0,2,284,4],
-"std__pair__MR__UndirectedEdgeId__bool_8h.html#a6013399c0ddf4dff3dbefba7f08822ac":[9,2,2,0,0,0,0,2,284,6]
+"std__pair__MR__UndirectedEdgeId__bool_8h.html#a5b82c26bbadc4cd5f5759fe30d593dfb":[9,2,2,0,0,0,0,2,284,4]
 };

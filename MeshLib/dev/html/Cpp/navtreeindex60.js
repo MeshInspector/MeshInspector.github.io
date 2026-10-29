@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"namespaceImGui.html#ae48c5f3721a42228f06ad99bd9d3182f":[9,0,1,0,0,47],
 "namespaceImGui.html#aedb015f9f592f1fd8b470ab6f5ac89be":[9,0,1,0,0,30],
 "namespaceImGui.html#aedd1acb8b145f8bfe1b425864ef792bd":[9,0,1,0,0,10],
 "namespaceImGui.html#af6959fc8a1517c4a64acd4afbbe721b6":[9,0,1,0,0,20],
@@ -15,7 +16,7 @@ var NAVTREEINDEX60 =
 "namespaceMR.html#a93bff7f59121c9c61175744b11326824":[9,0,1,0,1,1006],
 "namespaceMR.html#a94d7093d57cb27ac9abdfb241ddb6bc0":[9,0,1,0,1,1066],
 "namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2467],
-"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3174],
+"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3175],
 "namespaceMR.html#adc6c309b18d3d1c442591ea06f9cb26c":[9,0,1,0,1,2349],
 "namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2466],
 "namespaceMR_1_1AsyncObjectLoad.html":[9,0,1,0,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1Meta.html":[9,0,1,0,1,29],
 "namespaceMR_1_1Nesting.html":[9,0,0,20,7],
 "namespaceMR_1_1ObjectLoad.html":[9,0,1,0,1,31],
-"namespaceMR_1_1ObjectLoad.html#a19c3bb2545005ca4c70a6243f3fd7a21":[9,0,1,0,1,31,0],
-"namespaceMR_1_1ObjectSave.html":[9,0,0,20,23]
+"namespaceMR_1_1ObjectLoad.html#a19c3bb2545005ca4c70a6243f3fd7a21":[9,0,1,0,1,31,0]
 };

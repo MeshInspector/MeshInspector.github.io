@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"group__PointCloudGroup.html#gabc9d6a3d4680264055d93f5039ee962e":[9,0,0,12,15],
 "group__PointCloudGroup.html#gabcec15ad6215343b3e74c4a213f6e8a1":[9,0,0,12,7],
 "group__PointCloudGroup.html#gaccb668ec7a811b6c00bb5eda5f7fa8f3":[9,0,0,12,13],
 "group__PointCloudGroup.html#gaccd91f9d5a08418da1f899a4b2026e4b":[9,0,0,12,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "group__SurfacePathSubgroup.html#ga21cf317952d09d64b66f7adbb3003bbb":[9,0,0,16,3,16],
 "group__SurfacePathSubgroup.html#ga2b6c054262dc6be330b0652f3dcb330f":[9,0,0,16,3,18],
 "group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6":[9,0,0,16,3,2],
-"group__SurfacePathSubgroup.html#ga413fe12435f61ff1dc99b12d02dd624b":[9,0,0,16,3,4],
-"group__SurfacePathSubgroup.html#ga51f2d8eb7df287db536671a753ba514e":[9,0,0,16,3,17]
+"group__SurfacePathSubgroup.html#ga413fe12435f61ff1dc99b12d02dd624b":[9,0,0,16,3,4]
 };

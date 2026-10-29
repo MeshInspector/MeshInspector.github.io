@@ -3415,6 +3415,7 @@ var namespaceMR =
     [ "resampled", "group__BasicStructuresGroup.html#gaf17bb94ba9fe8bf6f01de2334d8be119", null ],
     [ "resampled", "group__BasicStructuresGroup.html#ga1bfdecc867ada4fd3525c717441a44ce", null ],
     [ "resampleVolumeByInterpolation", "group__GeneralGroup.html#gaca1f6e889fadd4d30603c3cffcf9a930", null ],
+    [ "reserveForCut", "group__BooleanGroup.html#ga45763dcfb85a706096c0ac879ae352cc", null ],
     [ "reserveKeyEvent", "group__GeneralGroup.html#gaf47bd4d66fa353bf995946804d75af4f", null ],
     [ "resizeAttributesToMesh", "group__GeneralGroup.html#ga72798ab7c805da2fe840f2648569b52f", null ],
     [ "resizeNoInit", "group__GeneralGroup.html#gaf09d34a063be42816df755a058090659", null ],

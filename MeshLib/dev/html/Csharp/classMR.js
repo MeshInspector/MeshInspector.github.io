@@ -3774,6 +3774,7 @@ var classMR =
     [ "resample", "classMR.html#a16c4da6c14a99c56ed77e11d2fa4afc3", null ],
     [ "resampled", "classMR.html#a4e002a0fd2b4b43a50327413ffdee323", null ],
     [ "resampled", "classMR.html#aca6ebed45fa553a3f840f49492681616", null ],
+    [ "reserveForCut", "classMR.html#aacc54fb1d749250969b87904aa7a3d42", null ],
     [ "resizeAttributesToMesh", "classMR.html#af35d732dcce7d9ac6296c4c5cc837d5b", null ],
     [ "resolveMeshDegenerations", "classMR.html#a78a4954ee826bfe1a85dfb7dcba166e0", null ],
     [ "reverse", "classMR.html#a3ab33fbb13e3fba683081df40da4b884", null ],

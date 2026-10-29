@@ -1,5 +1,6 @@
 var NAVTREEINDEX146 =
 {
+"phmap__flat__hash__map__size__t__std__array__MR__VertId__3__phmap__Hash__size__t__phmap__EqualTo__size__t__MR__A____3131_8h.html#aa0db426d4a1f005646ec9acf255a47fd":[9,2,2,0,0,0,0,2,98,28],
 "phmap__flat__hash__map__size__t__std__array__MR__VertId__3__phmap__Hash__size__t__phmap__EqualTo__size__t__MR__A____3131_8h.html#aa131049a780065f88166b650e645caa1":[9,2,2,0,0,0,0,2,98,18],
 "phmap__flat__hash__map__size__t__std__array__MR__VertId__3__phmap__Hash__size__t__phmap__EqualTo__size__t__MR__A____3131_8h.html#aa5a0b4227244ccd5409abb740fd84ee3":[9,2,2,0,0,0,0,2,98,15],
 "phmap__flat__hash__map__size__t__std__array__MR__VertId__3__phmap__Hash__size__t__phmap__EqualTo__size__t__MR__A____3131_8h.html#aac5948c399e788ef27f6007cba59a35b":[9,2,2,0,0,0,0,2,98,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX146 =
 "std__array__MR__VertId__3_8h_source.html":[9,2,2,0,0,0,0,2,119],
 "std__array__MR__WeightedVertex__3_8h.html":[9,2,2,0,0,0,0,2,120],
 "std__array__MR__WeightedVertex__3_8h.html#a0fe90e3c873a4d38252c8d9da882ef5e":[9,2,2,0,0,0,0,2,120,10],
-"std__array__MR__WeightedVertex__3_8h.html#a234ccd2d3877ba0740a22b0eb70984da":[9,2,2,0,0,0,0,2,120,7],
-"std__array__MR__WeightedVertex__3_8h.html#a38b8a4ddcc8df0d34e27f6c9b38a61c2":[9,2,2,0,0,0,0,2,120,5]
+"std__array__MR__WeightedVertex__3_8h.html#a234ccd2d3877ba0740a22b0eb70984da":[9,2,2,0,0,0,0,2,120,7]
 };

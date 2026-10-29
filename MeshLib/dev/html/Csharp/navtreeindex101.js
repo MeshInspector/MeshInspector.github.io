@@ -1,5 +1,6 @@
 var NAVTREEINDEX101 =
 {
+"classMR_1_1DracoSaveOptions.html#a7adf6e3c8dfa02e288ef0a8b1f2183b5":[9,3,0,0,0,1183,5],
 "classMR_1_1DracoSaveOptions.html#a8e0814dbaa75f4cdd056089dd3c44d06":[9,3,0,0,0,1183,20],
 "classMR_1_1DracoSaveOptions.html#a9bbbc3a9324662eecdcafcd088f548d6":[9,3,0,0,0,1183,11],
 "classMR_1_1DracoSaveOptions.html#a9d8ba5094cdb3a6fcb59260cf3252314":[9,3,0,0,0,1183,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX101 =
 "classMR_1_1EdgeSetBitIterator.html#af56a5475bbb43d27eaa6849689718217":[9,3,0,0,0,1200,3],
 "classMR_1_1EdgeSetBitIterator.html#afd281aa65b13bb9b82684a4b58f1f555":[9,3,0,0,0,1200,2],
 "classMR_1_1EdgeTri.html":[9,3,0,0,0,1201],
-"classMR_1_1EdgeTri.html#a745dfd57a31af7f128c8d62c2080289b":[9,3,0,0,0,1201,0],
-"classMR_1_1EdgeTri.html#a7610b4fa511e4cd0f9608df8b2c3652a":[9,3,0,0,0,1201,3]
+"classMR_1_1EdgeTri.html#a745dfd57a31af7f128c8d62c2080289b":[9,3,0,0,0,1201,0]
 };

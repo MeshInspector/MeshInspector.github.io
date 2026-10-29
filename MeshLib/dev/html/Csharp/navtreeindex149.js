@@ -1,5 +1,6 @@
 var NAVTREEINDEX149 =
 {
+"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a820fa531ae1d82d0dc569310c171c957":[9,3,0,0,0,1902,4,1],
 "classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#ac2def685bbbe61ccab09b3234b12755d":[9,3,0,0,0,1902,4,7],
 "classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#ad19111135621bab74fa2b1773f70bf55":[9,3,0,0,0,1902,4,6],
 "classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#ad66f6050e65285128ae7c6b388c12190":[9,3,0,0,0,1902,4,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX149 =
 "hierarchy.html":[9,3,0,2],
 "index.html":[],
 "pages.html":[],
-"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8cs.html":[9,3,1,0,0,0,0,11],
-"std__shared__ptr__MR__Cuda__FastWindingNumber_8cs.html":[9,3,1,0,0,0,0,12]
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8cs.html":[9,3,1,0,0,0,0,11]
 };

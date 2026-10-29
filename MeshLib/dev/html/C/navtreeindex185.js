@@ -1,5 +1,6 @@
 var NAVTREEINDEX185 =
 {
+"std__vector__MR__VertBitSet_8h.html#ab7d1aa1d19279a11ff840fd683bd026b":[9,2,2,0,0,0,0,2,541,2],
 "std__vector__MR__VertBitSet_8h.html#aca7d2fefcb485f289a702592b137ded8":[9,2,2,0,0,0,0,2,541,4],
 "std__vector__MR__VertBitSet_8h.html#ace76b71405af78bc78e120c24f4206fa":[9,2,2,0,0,0,0,2,541,6],
 "std__vector__MR__VertBitSet_8h.html#ad4acc347cd8f80a76322674bb46896a3":[9,2,2,0,0,0,0,2,541,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX185 =
 "std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo_8h.html":[9,2,2,0,0,0,0,2,549],
 "std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo_8h.html#a03a35bf475d06b22b008678224d302d9":[9,2,2,0,0,0,0,2,549,20],
 "std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo_8h.html#a0ac1717fa1b025f7e5f02ab82030d8dc":[9,2,2,0,0,0,0,2,549,22],
-"std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo_8h.html#a140eb1595656b7ed09e7579628458cb9":[9,2,2,0,0,0,0,2,549,7],
-"std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo_8h.html#a20a3a242d70f2400962a7d209b6a5952":[9,2,2,0,0,0,0,2,549,8]
+"std__vector__MR__WatershedGraph__BdInfo__MR__Allocator__MR__WatershedGraph__BdInfo_8h.html#a140eb1595656b7ed09e7579628458cb9":[9,2,2,0,0,0,0,2,549,7]
 };

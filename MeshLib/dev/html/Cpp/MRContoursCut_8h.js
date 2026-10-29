@@ -7,5 +7,6 @@ var MRContoursCut_8h =
     [ "MR::cutMeshByContours", "group__GeneralGroup.html#ga8471f2a87338254b2c1d8a0790776f0e", null ],
     [ "MR::cutMeshByProjection", "group__GeneralGroup.html#ga66c0157a15c650c2df28de17df4c485c", null ],
     [ "MR::offsetSurfaceLineToMeshContours", "group__BooleanGroup.html#gac67a5b20bb2312590785d6dca7473866", null ],
-    [ "MR::offsetSurfaceLineToMeshContours", "group__BooleanGroup.html#ga2cc55b5541f2ceaaf75cd0e0d48c8292", null ]
+    [ "MR::offsetSurfaceLineToMeshContours", "group__BooleanGroup.html#ga2cc55b5541f2ceaaf75cd0e0d48c8292", null ],
+    [ "MR::reserveForCut", "group__BooleanGroup.html#ga45763dcfb85a706096c0ac879ae352cc", null ]
 ];

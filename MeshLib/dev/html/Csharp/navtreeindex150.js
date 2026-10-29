@@ -1,5 +1,6 @@
 var NAVTREEINDEX150 =
 {
+"std__shared__ptr__MR__Cuda__FastWindingNumber_8cs.html":[9,3,1,0,0,0,0,12],
 "std__shared__ptr__MR__Cuda__PointsToMeshProjector_8cs.html":[9,3,1,0,0,0,0,13],
 "structMR_1_1AffineXf2d.html":[9,3,0,0,0,19],
 "structMR_1_1AffineXf2d.html#a0836bbc80758d9a05a247e3b4de4b24e":[9,3,0,0,0,19,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX150 =
 "structMR_1_1Box1i.html#a05cf5cb1750a6c86f63de56f5ec37d6c":[9,3,0,0,0,69,9],
 "structMR_1_1Box1i.html#a0a12f34e2b3a99ee63ccca8607f45ea4":[9,3,0,0,0,69,28],
 "structMR_1_1Box1i.html#a1362c48e3de06b717341a083de178819":[9,3,0,0,0,69,15],
-"structMR_1_1Box1i.html#a19d3570f031a1f84c004197e7c6a8a5e":[9,3,0,0,0,69,55],
-"structMR_1_1Box1i.html#a1ef449a2d68137443747e37c2319ab91":[9,3,0,0,0,69,47]
+"structMR_1_1Box1i.html#a19d3570f031a1f84c004197e7c6a8a5e":[9,3,0,0,0,69,55]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classMR_1_1ConstBox__VertId.html#a3228dd888e84f379a4412a3881b1e23b":[9,3,0,0,0,1126,16],
 "classMR_1_1ConstBox__VertId.html#a3305e4f6acb92d89313138fe8ae124f0":[9,3,0,0,0,1126,12],
 "classMR_1_1ConstBox__VertId.html#a3b7e83c30f96bdae9a8cc8d362c27f80":[9,3,0,0,0,1126,5],
 "classMR_1_1ConstBox__VertId.html#a4158b0644a049a1c787bbb701ba1fc32":[9,3,0,0,0,1126,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classMR_1_1Const__AABBTreePoints.html#a454206dabdaa6f5cb652fe751157c47f":[9,3,0,0,0,234,15],
 "classMR_1_1Const__AABBTreePoints.html#a5925db33ec752ca5391554cbbd8ff208":[9,3,0,0,0,234,6],
 "classMR_1_1Const__AABBTreePoints.html#a6082a61cd4cd4c770a2fb5eff2bd0e19":[9,3,0,0,0,234,17],
-"classMR_1_1Const__AABBTreePoints.html#a71975d85f85bd69fca85554f914904bc":[9,3,0,0,0,234,4],
-"classMR_1_1Const__AABBTreePoints.html#a947fe77b1f64c2f7824ce93ee916d8dc":[9,3,0,0,0,234,21]
+"classMR_1_1Const__AABBTreePoints.html#a71975d85f85bd69fca85554f914904bc":[9,3,0,0,0,234,4]
 };

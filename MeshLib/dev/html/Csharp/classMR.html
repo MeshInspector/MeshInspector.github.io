@@ -9532,6 +9532,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac05f788e1ac2f0550a28aa82f57ebfa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a9c36992bbb76e7bbec8600638e7dbff9" title="Generated from function MR.convertContoursTo3d&lt;std.vector&lt;std.vector&lt;MR.Vector2f&gt;&gt;&gt;.">MR.convertContoursTo3d</a>&amp;lt;std::vector&amp;lt;std::vector&amp;lt;<a class="el" href="structMR_1_1Vector3d.html" title="Generated from class MR.Vector3d. This is the by-value version of the struct.">MR.Vector3d</a>&amp;gt;&amp;gt;&amp;gt;</span>.  <br /></td></tr>
 <tr class="memitem:a4bcccf4b40c76704f4a50942b643c298" id="r_a4bcccf4b40c76704f4a50942b643c298"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1CutMeshResult.html">MR.CutMeshResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bcccf4b40c76704f4a50942b643c298">cutMesh</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1Const__Vector__MROneMeshContour.html">MR.Const_Vector_MROneMeshContour</a> contours, <a class="el" href="classMR_1_1Const__CutMeshParameters.html">MR.Const_CutMeshParameters</a>? params_=null)</td></tr>
 <tr class="memdesc:a4bcccf4b40c76704f4a50942b643c298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours; a contour inside one face is connected with the rest of the face by new edges.  <br /></td></tr>
+<tr class="memitem:aacc54fb1d749250969b87904aa7a3d42" id="r_aacc54fb1d749250969b87904aa7a3d42"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacc54fb1d749250969b87904aa7a3d42">reserveForCut</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> sizeOf, <a class="el" href="classMR_1_1Const__Vector__MROneMeshContour.html">MR.Const_Vector_MROneMeshContour</a> contours)</td></tr>
+<tr class="memdesc:aacc54fb1d749250969b87904aa7a3d42"><td class="mdescLeft">&#160;</td><td class="mdescRight">reserves the capacity in <code class="param">mesh</code> for a mesh with the sizes of <code class="param">sizeOf</code> (e.g. <code class="param">mesh</code> itself, or the mesh to be copied in it) together with the elements that <a class="el" href="#a4bcccf4b40c76704f4a50942b643c298">cutMesh</a> by <code class="param">contours</code> adds, so the cut does not reallocate the mesh Generated from function <span class="tt"><a class="el" href="#aacc54fb1d749250969b87904aa7a3d42" title="reserves the capacity in mesh for a mesh with the sizes of sizeOf (e.g. mesh itself,...">MR.reserveForCut</a></span>.  <br /></td></tr>
 <tr class="memitem:a66706bca91747f8db37973b61c26c5a8" id="r_a66706bca91747f8db37973b61c26c5a8"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66706bca91747f8db37973b61c26c5a8">cutMeshByContour</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, MR.Std.Const_Vector_MRVector3f contour, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? xf=null)</td></tr>
 <tr class="memdesc:a66706bca91747f8db37973b61c26c5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cuts <code class="param">mesh</code> by <code class="param">contour</code> by projecting all the points.  <br /></td></tr>
 <tr class="memitem:a8780422842277c2966f86979c2e549c3" id="r_a8780422842277c2966f86979c2e549c3"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8780422842277c2966f86979c2e549c3">cutMeshByContours</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, MR.Std.Const_Vector_StdVectorMRVector3f contours, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? xf=null)</td></tr>
@@ -62852,6 +62854,42 @@ do not really keeps volume but tries hard </p>
 </div><div class="memdoc">
 
 <p>resample this grid to fit voxelScale Generated from function <span class="tt"><a class="el" href="#a4e002a0fd2b4b43a50327413ffdee323" title="resample this grid to fit voxelScale Generated from function MR.resampled. Parameter cb defaults to {...">MR.resampled</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="aacc54fb1d749250969b87904aa7a3d42" name="aacc54fb1d749250969b87904aa7a3d42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacc54fb1d749250969b87904aa7a3d42">&#9670;&#160;</a></span>reserveForCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.reserveForCut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>sizeOf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Vector__MROneMeshContour.html">MR.Const_Vector_MROneMeshContour</a></td>          <td class="paramname"><span class="paramname"><em>contours</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>reserves the capacity in <code class="param">mesh</code> for a mesh with the sizes of <code class="param">sizeOf</code> (e.g. <code class="param">mesh</code> itself, or the mesh to be copied in it) together with the elements that <a class="el" href="#a4bcccf4b40c76704f4a50942b643c298">cutMesh</a> by <code class="param">contours</code> adds, so the cut does not reallocate the mesh Generated from function <span class="tt"><a class="el" href="#aacc54fb1d749250969b87904aa7a3d42" title="reserves the capacity in mesh for a mesh with the sizes of sizeOf (e.g. mesh itself,...">MR.reserveForCut</a></span>. </p>
 
 </div>
 </div>

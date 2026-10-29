@@ -2840,6 +2840,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.resample", "namespacemrmeshpy.html#a0537d14124f882f7e4021943c044b62c", null ],
     [ "mrmeshpy.resampled", "namespacemrmeshpy.html#a0204d684672da04fa5c0c360326115b4", null ],
     [ "mrmeshpy.resampled", "namespacemrmeshpy.html#ad3a03aec867d175cd88fe79af72f00f1", null ],
+    [ "mrmeshpy.reserveForCut", "namespacemrmeshpy.html#adbaf98d5c7c1f475346a379af4e08f21", null ],
     [ "mrmeshpy.resizeAttributesToMesh", "namespacemrmeshpy.html#afc0d5d92bd65c69a16622228e06a1453", null ],
     [ "mrmeshpy.resolveMeshDegenerations", "namespacemrmeshpy.html#a463a8b4d27208552bc8569928070c74a", null ],
     [ "mrmeshpy.reverse", "namespacemrmeshpy.html#a293740588103c74ac8e6dfb1b6f73928", null ],

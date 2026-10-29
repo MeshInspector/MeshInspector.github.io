@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"classMR_1_1Const__InSphereTesterSoS.html#a982c55b0a50761e6433cd215ff653951":[9,3,0,0,0,519,1],
 "classMR_1_1Const__InSphereTesterSoS.html#aac0bdfbcddcd27899a880c0bfe71ee4c":[9,3,0,0,0,519,3],
 "classMR_1_1Const__InSphereTesterSoS.html#ab089cabd698125d28a5c644c2f4a1d1f":[9,3,0,0,0,519,8],
 "classMR_1_1Const__InSphereTesterSoS.html#ab7a86102abd9d802e19dc26c53e86fa4":[9,3,0,0,0,519,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#a0f123e42ffcaa989f3db327eae4c36ac":[9,3,0,0,0,544,3],
 "classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#a2f749b8f441f24028839fa842ab7368d":[9,3,0,0,0,544,4],
 "classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#a436f7cbd244ad2c2d809a294a0affde1":[9,3,0,0,0,544,5],
-"classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#a7c7b76812aecc1b562925b9290dc6b58":[9,3,0,0,0,544,2],
-"classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#a94e2b796ae153be040d88a645fed1aa4":[9,3,0,0,0,544,0]
+"classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameOrigin.html#a7c7b76812aecc1b562925b9290dc6b58":[9,3,0,0,0,544,2]
 };

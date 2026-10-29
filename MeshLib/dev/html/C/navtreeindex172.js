@@ -1,5 +1,6 @@
 var NAVTREEINDEX172 =
 {
+"std__vector__MR__CurvePoint_8h.html#a8614c1020d01c24e7d2f90c77c702efb":[9,2,2,0,0,0,0,2,443,19],
 "std__vector__MR__CurvePoint_8h.html#a893f906f3a594f00cb40f82c0cb08d94":[9,2,2,0,0,0,0,2,443,14],
 "std__vector__MR__CurvePoint_8h.html#a8c062e1b1c4f6e45e2cfa6f9878f5f64":[9,2,2,0,0,0,0,2,443,23],
 "std__vector__MR__CurvePoint_8h.html#a9228740c739f1d9a7339eefda6142920":[9,2,2,0,0,0,0,2,443,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX172 =
 "std__vector__MR__EdgeSegment_8h_source.html":[9,2,2,0,0,0,0,2,450],
 "std__vector__MR__EdgeTri_8h.html":[9,2,2,0,0,0,0,2,451],
 "std__vector__MR__EdgeTri_8h.html#a0507fba08f469b25344df87626d6f11e":[9,2,2,0,0,0,0,2,451,12],
-"std__vector__MR__EdgeTri_8h.html#a192109d20bac5eeb5aba56844efcce53":[9,2,2,0,0,0,0,2,451,19],
-"std__vector__MR__EdgeTri_8h.html#a1ace8670a12c75d0d554113035d86ccc":[9,2,2,0,0,0,0,2,451,4]
+"std__vector__MR__EdgeTri_8h.html#a192109d20bac5eeb5aba56844efcce53":[9,2,2,0,0,0,0,2,451,19]
 };
