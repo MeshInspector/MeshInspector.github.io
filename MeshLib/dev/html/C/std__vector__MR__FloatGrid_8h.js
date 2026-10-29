@@ -5,9 +5,6 @@ var std__vector__MR__FloatGrid_8h =
     [ "MR_std_vector_MR_FloatGrid_at_mut", "std__vector__MR__FloatGrid_8h.html#a3e63f78c10f162fef557a825b2218e67", null ],
     [ "MR_std_vector_MR_FloatGrid_back", "std__vector__MR__FloatGrid_8h.html#a13af04378a929eabecc8650c17b0d863", null ],
     [ "MR_std_vector_MR_FloatGrid_back_mut", "std__vector__MR__FloatGrid_8h.html#a5664e1f7c93129ffbbc57816210d59be", null ],
-    [ "MR_std_vector_MR_FloatGrid_begin", "std__vector__MR__FloatGrid_8h.html#a6cfb1a783f122659b2cafdc69e8e4c18", null ],
-    [ "MR_std_vector_MR_FloatGrid_begin_mut", "std__vector__MR__FloatGrid_8h.html#ad44ba86c457b3ef28cc24127df14ac95", null ],
-    [ "MR_std_vector_MR_FloatGrid_capacity", "std__vector__MR__FloatGrid_8h.html#a53f6258a67bc3fedf45c9795df9b92c9", null ],
     [ "MR_std_vector_MR_FloatGrid_clear", "std__vector__MR__FloatGrid_8h.html#a81d5a004680fcc43fb9a8697e2639388", null ],
     [ "MR_std_vector_MR_FloatGrid_ConstructFromAnother", "std__vector__MR__FloatGrid_8h.html#aa10c1583b9d3936751721b26f2e20f83", null ],
     [ "MR_std_vector_MR_FloatGrid_DefaultConstruct", "std__vector__MR__FloatGrid_8h.html#a38320581e8c54e758c7da5f8d5a5248f", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__FloatGrid_8h =
     [ "MR_std_vector_MR_FloatGrid_Destroy", "std__vector__MR__FloatGrid_8h.html#a5afb11d6ca45e11fb4ec1ee1f8426813", null ],
     [ "MR_std_vector_MR_FloatGrid_DestroyArray", "std__vector__MR__FloatGrid_8h.html#a139e8c13c6e49d7a3e8df97f438e8d17", null ],
     [ "MR_std_vector_MR_FloatGrid_empty", "std__vector__MR__FloatGrid_8h.html#a896dd3fefc47d1fa4c60391a01154887", null ],
-    [ "MR_std_vector_MR_FloatGrid_end", "std__vector__MR__FloatGrid_8h.html#a32f960c7f5bdf7e5099b33d058f0fad4", null ],
-    [ "MR_std_vector_MR_FloatGrid_end_mut", "std__vector__MR__FloatGrid_8h.html#a2aee6f64960ad292f2ff35a3fb63f312", null ],
     [ "MR_std_vector_MR_FloatGrid_erase", "std__vector__MR__FloatGrid_8h.html#a04fb933cef47162870bc4b708b944b6b", null ],
     [ "MR_std_vector_MR_FloatGrid_front", "std__vector__MR__FloatGrid_8h.html#a613af6c91f1efc3a6b0e082dd3c0f046", null ],
     [ "MR_std_vector_MR_FloatGrid_front_mut", "std__vector__MR__FloatGrid_8h.html#a6c0e1d5a7a7132f77e670159da7c1b6c", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__FloatGrid_8h =
     [ "MR_std_vector_MR_FloatGrid_push_back", "std__vector__MR__FloatGrid_8h.html#a19c0e9714157b44c63aa3e7a1bd188a6", null ],
     [ "MR_std_vector_MR_FloatGrid_reserve", "std__vector__MR__FloatGrid_8h.html#a128d1fc41b3886154e2a86e72752c3b9", null ],
     [ "MR_std_vector_MR_FloatGrid_resize", "std__vector__MR__FloatGrid_8h.html#a5dab74b1afbb9b4502d3de62c8b79b4b", null ],
-    [ "MR_std_vector_MR_FloatGrid_resize_with_default_value", "std__vector__MR__FloatGrid_8h.html#a28c88bd85a64afc4e15e6bf27cce39cd", null ],
-    [ "MR_std_vector_MR_FloatGrid_shrink_to_fit", "std__vector__MR__FloatGrid_8h.html#aeced427be89a8e679b52161b31ef55d1", null ],
     [ "MR_std_vector_MR_FloatGrid_size", "std__vector__MR__FloatGrid_8h.html#a6b9c5f2e92c4730be057a658be94cfd5", null ]
 ];

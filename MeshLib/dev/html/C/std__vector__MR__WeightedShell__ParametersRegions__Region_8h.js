@@ -7,9 +7,6 @@ var std__vector__MR__WeightedShell__ParametersRegions__Region_8h =
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_at_mut", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a363b6a7d68d306251714bda901b19f62", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_back", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#af821e26bae106c8c5d8d395cff541b3b", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_back_mut", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a131ca2bfe51e986709a0419da34c2ba9", null ],
-    [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_begin", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a08251c16d89522173d6148fb48421538", null ],
-    [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_begin_mut", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a28965c178c071fd3abe704ddee52e1dd", null ],
-    [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_capacity", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#af8c383f07bd301f4655707fe1579125c", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_clear", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a4b75d7fc4d411b5cade89b58d9caaf07", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_ConstructFromAnother", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#ac8c4eb65203730d60031a2b155bf635c", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_DefaultConstruct", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#ac9b7c8209ada7b2cce566cf7271f2165", null ],
@@ -17,8 +14,6 @@ var std__vector__MR__WeightedShell__ParametersRegions__Region_8h =
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_Destroy", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a14ddba2a68db060da9c87837b5f3192d", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_DestroyArray", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#aeb08f74034bc2367d5cf068d7a2ae5c0", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_empty", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a0ac633806a433c8b6b76a9253d0131f3", null ],
-    [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_end", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#ac4a5ce08f763196ad351b5930d113060", null ],
-    [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_end_mut", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a6c6b05ad588ed9fa29101ae22d95801b", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_erase", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a19792c2dff898cb7296bd0b6ebe476e0", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_front", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a3508b90ff14a91a3b56f63475cdfe3b5", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_front_mut", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a9ed78d1264cf2b1b1831dbcfb551f3a7", null ],
@@ -29,7 +24,5 @@ var std__vector__MR__WeightedShell__ParametersRegions__Region_8h =
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_push_back", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a785e3f2d88ca2513a5ac5d749db67e78", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_reserve", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#aac9401b756c9a57ca8204776b7599a24", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_resize", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#ada011cdd81d692032856f062141a8016", null ],
-    [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_resize_with_default_value", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#ac0065d839adc2896b8f04d3bee98d926", null ],
-    [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_shrink_to_fit", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#ac2e354369b1567d5339e9de9c73727c0", null ],
     [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region_size", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#a0bf5aaf5049745b51ff2d07e4f420632", null ]
 ];

@@ -5,9 +5,6 @@ var std__vector__MR__MeshTriPoint_8h =
     [ "MR_std_vector_MR_MeshTriPoint_at_mut", "std__vector__MR__MeshTriPoint_8h.html#a89d3a425e0195534997c7f7313a472b9", null ],
     [ "MR_std_vector_MR_MeshTriPoint_back", "std__vector__MR__MeshTriPoint_8h.html#a3d7fa5c283b9ea767b9f4722d7d06c73", null ],
     [ "MR_std_vector_MR_MeshTriPoint_back_mut", "std__vector__MR__MeshTriPoint_8h.html#a905e4ff91420dc5e54f43f60e2c55c74", null ],
-    [ "MR_std_vector_MR_MeshTriPoint_begin", "std__vector__MR__MeshTriPoint_8h.html#aef1ab368a36193fa94a268911309d398", null ],
-    [ "MR_std_vector_MR_MeshTriPoint_begin_mut", "std__vector__MR__MeshTriPoint_8h.html#af510b8fdede5d3130b3ade485727f37e", null ],
-    [ "MR_std_vector_MR_MeshTriPoint_capacity", "std__vector__MR__MeshTriPoint_8h.html#ae0d7c91a4c5f3fc4eb77521ed88a262b", null ],
     [ "MR_std_vector_MR_MeshTriPoint_clear", "std__vector__MR__MeshTriPoint_8h.html#a7f7b07a9b2adcb6b9ca7bdd94320cdae", null ],
     [ "MR_std_vector_MR_MeshTriPoint_ConstructFromAnother", "std__vector__MR__MeshTriPoint_8h.html#aa35d7f21f58c02163d3e3f3deace32c2", null ],
     [ "MR_std_vector_MR_MeshTriPoint_DefaultConstruct", "std__vector__MR__MeshTriPoint_8h.html#af400b8e0e3b2d31dfd5fd45b374f2156", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__MeshTriPoint_8h =
     [ "MR_std_vector_MR_MeshTriPoint_Destroy", "std__vector__MR__MeshTriPoint_8h.html#a40c3faca0d9ffe5eef3bfb74bf392e85", null ],
     [ "MR_std_vector_MR_MeshTriPoint_DestroyArray", "std__vector__MR__MeshTriPoint_8h.html#ae4dcc9322d2341d7b8db802e9e801d28", null ],
     [ "MR_std_vector_MR_MeshTriPoint_empty", "std__vector__MR__MeshTriPoint_8h.html#ac30127a28a4b7cbea6ccc1ef8558d75a", null ],
-    [ "MR_std_vector_MR_MeshTriPoint_end", "std__vector__MR__MeshTriPoint_8h.html#af0b5318dcb6dad678f6195bb72727e53", null ],
-    [ "MR_std_vector_MR_MeshTriPoint_end_mut", "std__vector__MR__MeshTriPoint_8h.html#a20ce3156ef3ec14623ecae08076d1791", null ],
     [ "MR_std_vector_MR_MeshTriPoint_erase", "std__vector__MR__MeshTriPoint_8h.html#a05bd9ea2c9e021d07e5fa9fe80937f1b", null ],
     [ "MR_std_vector_MR_MeshTriPoint_front", "std__vector__MR__MeshTriPoint_8h.html#aaec5adda7d4bf8273c6ee442d226e4e8", null ],
     [ "MR_std_vector_MR_MeshTriPoint_front_mut", "std__vector__MR__MeshTriPoint_8h.html#aea8c9e1ef10433c0c1d480552101da08", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__MeshTriPoint_8h =
     [ "MR_std_vector_MR_MeshTriPoint_push_back", "std__vector__MR__MeshTriPoint_8h.html#a1388997dde97e0044c4f07a908192b97", null ],
     [ "MR_std_vector_MR_MeshTriPoint_reserve", "std__vector__MR__MeshTriPoint_8h.html#a1af45a2ae762d6e90453235e1f739924", null ],
     [ "MR_std_vector_MR_MeshTriPoint_resize", "std__vector__MR__MeshTriPoint_8h.html#ae73133d81f4f8c1614f9526ef489030f", null ],
-    [ "MR_std_vector_MR_MeshTriPoint_resize_with_default_value", "std__vector__MR__MeshTriPoint_8h.html#ac5ca406930503378b8d155b6769c9762", null ],
-    [ "MR_std_vector_MR_MeshTriPoint_shrink_to_fit", "std__vector__MR__MeshTriPoint_8h.html#a284e6b61c20e13877f765410af361dff", null ],
     [ "MR_std_vector_MR_MeshTriPoint_size", "std__vector__MR__MeshTriPoint_8h.html#a184ccac558fa451edfa88e8ef5e7d27c", null ]
 ];

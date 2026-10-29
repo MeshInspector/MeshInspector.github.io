@@ -5,9 +5,6 @@ var std__vector__MR__BallPivotCandidate_8h =
     [ "MR_std_vector_MR_BallPivotCandidate_at_mut", "std__vector__MR__BallPivotCandidate_8h.html#aac444c5d9b020190fae149953c2bf879", null ],
     [ "MR_std_vector_MR_BallPivotCandidate_back", "std__vector__MR__BallPivotCandidate_8h.html#aebd4b8ccb820b28aea100c7d96a1bdc1", null ],
     [ "MR_std_vector_MR_BallPivotCandidate_back_mut", "std__vector__MR__BallPivotCandidate_8h.html#a648803e0d534aed3669e844db3d6132a", null ],
-    [ "MR_std_vector_MR_BallPivotCandidate_begin", "std__vector__MR__BallPivotCandidate_8h.html#a71af83a044642d84bd8106c70b5f0c23", null ],
-    [ "MR_std_vector_MR_BallPivotCandidate_begin_mut", "std__vector__MR__BallPivotCandidate_8h.html#af37b79026005b73a606c0e41663e7c83", null ],
-    [ "MR_std_vector_MR_BallPivotCandidate_capacity", "std__vector__MR__BallPivotCandidate_8h.html#ac0c9dee229b58e8d232e90831ac9ce46", null ],
     [ "MR_std_vector_MR_BallPivotCandidate_clear", "std__vector__MR__BallPivotCandidate_8h.html#af8fe40bfcfa99c99a44c1ed933f57498", null ],
     [ "MR_std_vector_MR_BallPivotCandidate_ConstructFromAnother", "std__vector__MR__BallPivotCandidate_8h.html#a2dd4dfb80ab41bce4a13f36546097896", null ],
     [ "MR_std_vector_MR_BallPivotCandidate_DefaultConstruct", "std__vector__MR__BallPivotCandidate_8h.html#a2e2a10a7c60c9c772ef46ba30f9a1ab8", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__BallPivotCandidate_8h =
     [ "MR_std_vector_MR_BallPivotCandidate_Destroy", "std__vector__MR__BallPivotCandidate_8h.html#abb12c765e83ba3e8ab945f0761aa7777", null ],
     [ "MR_std_vector_MR_BallPivotCandidate_DestroyArray", "std__vector__MR__BallPivotCandidate_8h.html#a579e5db357f1ac555923cd3e69d12ab1", null ],
     [ "MR_std_vector_MR_BallPivotCandidate_empty", "std__vector__MR__BallPivotCandidate_8h.html#a0d4290bcbb39f0883a98b275a40c5f19", null ],
-    [ "MR_std_vector_MR_BallPivotCandidate_end", "std__vector__MR__BallPivotCandidate_8h.html#ac5d4e42cd370166e21b64feee2f2445b", null ],
-    [ "MR_std_vector_MR_BallPivotCandidate_end_mut", "std__vector__MR__BallPivotCandidate_8h.html#a08c4e9b15ee7cfd887c5670f56e0c387", null ],
     [ "MR_std_vector_MR_BallPivotCandidate_erase", "std__vector__MR__BallPivotCandidate_8h.html#a31ac9d2aa86dcd01e4db4d2bb19bbb90", null ],
     [ "MR_std_vector_MR_BallPivotCandidate_front", "std__vector__MR__BallPivotCandidate_8h.html#a299e7cde9561d90acd5e66f255331bfc", null ],
     [ "MR_std_vector_MR_BallPivotCandidate_front_mut", "std__vector__MR__BallPivotCandidate_8h.html#a5c8450efeed0e66ec898a52f3b46ce53", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__BallPivotCandidate_8h =
     [ "MR_std_vector_MR_BallPivotCandidate_push_back", "std__vector__MR__BallPivotCandidate_8h.html#ae7a143b5fe362ce33dc0cc01ffcd8c3a", null ],
     [ "MR_std_vector_MR_BallPivotCandidate_reserve", "std__vector__MR__BallPivotCandidate_8h.html#a980da3c0b818991640a4aca01417da70", null ],
     [ "MR_std_vector_MR_BallPivotCandidate_resize", "std__vector__MR__BallPivotCandidate_8h.html#a014458e5e4b8696366862c3d413966f0", null ],
-    [ "MR_std_vector_MR_BallPivotCandidate_resize_with_default_value", "std__vector__MR__BallPivotCandidate_8h.html#a88d9d6642d999c213946506080625d98", null ],
-    [ "MR_std_vector_MR_BallPivotCandidate_shrink_to_fit", "std__vector__MR__BallPivotCandidate_8h.html#a3f0550b2e50db862394cfd8e6e5279f3", null ],
     [ "MR_std_vector_MR_BallPivotCandidate_size", "std__vector__MR__BallPivotCandidate_8h.html#a6f7b513a9aa1593fecd20eed30073003", null ]
 ];

@@ -5,9 +5,6 @@ var std__vector__MR__MeshBuilder__VertDuplication_8h =
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_at_mut", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#ae61d41d457e9fef1fb592b86ffdf8013", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_back", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a5678ddc43e0ccd563c3cfb24ad1533f7", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_back_mut", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#acc01a569228f8781a62dae074d25ca9a", null ],
-    [ "MR_std_vector_MR_MeshBuilder_VertDuplication_begin", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a58d593cc30619edfe861a38282df05c9", null ],
-    [ "MR_std_vector_MR_MeshBuilder_VertDuplication_begin_mut", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a574f5a9123295b9d67188264c6eaf975", null ],
-    [ "MR_std_vector_MR_MeshBuilder_VertDuplication_capacity", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#ada30145f012751dbea6c4f9beba97bb9", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_clear", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#afa396d456232c19ada306940c57a0fd3", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_ConstructFromAnother", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a87c48362ac72b11c5aeb910c230c1a66", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_DefaultConstruct", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#aa164536152c72ab8986334cb6bdf31a1", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__MeshBuilder__VertDuplication_8h =
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_Destroy", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a6ed58c1eef3c82ab0d4ea8d9ee57b3fc", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_DestroyArray", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#ab51b6063e939f1593ec223aeff7e5f16", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_empty", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a60bf677853ac21416d306dd892b41b2d", null ],
-    [ "MR_std_vector_MR_MeshBuilder_VertDuplication_end", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#ae9a69ee2ac8947810386d80f7b8473e6", null ],
-    [ "MR_std_vector_MR_MeshBuilder_VertDuplication_end_mut", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a585d9cda295713362b7be189926c1e21", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_erase", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a149d3aadf11ab2dd079fc2a80b284e1e", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_front", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a5d7234061df9880390222428f7cc197e", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_front_mut", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#ad4c11c91da955536573e06fd6b77370d", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__MeshBuilder__VertDuplication_8h =
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_push_back", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#afd0750d326f8866f3b7afe46ea7db30a", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_reserve", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a23dc93f3cbd93bb5644f1f31690c27b3", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_resize", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a0e3adcb6e262a308fdcf256efed53037", null ],
-    [ "MR_std_vector_MR_MeshBuilder_VertDuplication_resize_with_default_value", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a669d84554e30bb9bd540086c68a16e6c", null ],
-    [ "MR_std_vector_MR_MeshBuilder_VertDuplication_shrink_to_fit", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a116c386b2d1801f6420353db78c5815e", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication_size", "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a42e05aaecc7dc41989f67783a1a22d3a", null ]
 ];

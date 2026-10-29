@@ -5,9 +5,6 @@ var std__vector__MR__SkyPatch_8h =
     [ "MR_std_vector_MR_SkyPatch_at_mut", "std__vector__MR__SkyPatch_8h.html#a4612f7560ed727cada39293e414b778e", null ],
     [ "MR_std_vector_MR_SkyPatch_back", "std__vector__MR__SkyPatch_8h.html#a5dcadd77f4c8b65c03a825cf4c2cd787", null ],
     [ "MR_std_vector_MR_SkyPatch_back_mut", "std__vector__MR__SkyPatch_8h.html#a4f11479f7e55212916fa369ed6ce3fc4", null ],
-    [ "MR_std_vector_MR_SkyPatch_begin", "std__vector__MR__SkyPatch_8h.html#a5d88af3990d084d6a4c1bd72dc0cb137", null ],
-    [ "MR_std_vector_MR_SkyPatch_begin_mut", "std__vector__MR__SkyPatch_8h.html#a35ed73196c66e0ccca9d9d04817042f5", null ],
-    [ "MR_std_vector_MR_SkyPatch_capacity", "std__vector__MR__SkyPatch_8h.html#ac3ac758765bfd1f79aaeef6eb76076ff", null ],
     [ "MR_std_vector_MR_SkyPatch_clear", "std__vector__MR__SkyPatch_8h.html#ace7886d32f0569df7a6364a9a93d9e41", null ],
     [ "MR_std_vector_MR_SkyPatch_ConstructFromAnother", "std__vector__MR__SkyPatch_8h.html#a9e029957d228571e89eb6c44b4f8a1c5", null ],
     [ "MR_std_vector_MR_SkyPatch_DefaultConstruct", "std__vector__MR__SkyPatch_8h.html#a2bb30adf2b359b6dd6b7a5e157251b7f", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__SkyPatch_8h =
     [ "MR_std_vector_MR_SkyPatch_Destroy", "std__vector__MR__SkyPatch_8h.html#a5a394650f1ec1215be03c8fe32d4cacd", null ],
     [ "MR_std_vector_MR_SkyPatch_DestroyArray", "std__vector__MR__SkyPatch_8h.html#ae438b41c45a038800648833e97eb3136", null ],
     [ "MR_std_vector_MR_SkyPatch_empty", "std__vector__MR__SkyPatch_8h.html#a9cced632788455a8eb970e4d1e57ab0f", null ],
-    [ "MR_std_vector_MR_SkyPatch_end", "std__vector__MR__SkyPatch_8h.html#a3ba1b0fec2c9f54d23263e4dac5678a9", null ],
-    [ "MR_std_vector_MR_SkyPatch_end_mut", "std__vector__MR__SkyPatch_8h.html#abdb591a806ba4cb9e7e14b010a443ceb", null ],
     [ "MR_std_vector_MR_SkyPatch_erase", "std__vector__MR__SkyPatch_8h.html#a5595b26d80c8f6a215790f25cbecba02", null ],
     [ "MR_std_vector_MR_SkyPatch_front", "std__vector__MR__SkyPatch_8h.html#a184c3c62e4afdcfb2964b3b0a08a7581", null ],
     [ "MR_std_vector_MR_SkyPatch_front_mut", "std__vector__MR__SkyPatch_8h.html#ad30ba3b1fd6f269d7457867ccd99e7e9", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__SkyPatch_8h =
     [ "MR_std_vector_MR_SkyPatch_push_back", "std__vector__MR__SkyPatch_8h.html#a019b85842ded3354cbc8b9d5ca2ef184", null ],
     [ "MR_std_vector_MR_SkyPatch_reserve", "std__vector__MR__SkyPatch_8h.html#a5f2e41f1778cb1cf82c500516b03846f", null ],
     [ "MR_std_vector_MR_SkyPatch_resize", "std__vector__MR__SkyPatch_8h.html#adffc7904fba72748d53a47b3afad2286", null ],
-    [ "MR_std_vector_MR_SkyPatch_resize_with_default_value", "std__vector__MR__SkyPatch_8h.html#a1cd46df2fe900cce077375c0464e1dbc", null ],
-    [ "MR_std_vector_MR_SkyPatch_shrink_to_fit", "std__vector__MR__SkyPatch_8h.html#a1ea68a6b484e772dbda1c559a78046df", null ],
     [ "MR_std_vector_MR_SkyPatch_size", "std__vector__MR__SkyPatch_8h.html#a2a399948b98129524674c69334b2ea35", null ]
 ];

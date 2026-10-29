@@ -1,17 +1,12 @@
 var std__vector__MR__AffineXf3f_8h =
 [
     [ "MR_std_vector_MR_AffineXf3f_AssignFromAnother", "std__vector__MR__AffineXf3f_8h.html#ad11495999a99ba7036d7d666df32fa92", null ],
-    [ "MR_std_vector_MR_AffineXf3f_AssignFromRange", "std__vector__MR__AffineXf3f_8h.html#a933930aed3b5494b534c1f1e23217619", null ],
     [ "MR_std_vector_MR_AffineXf3f_at", "std__vector__MR__AffineXf3f_8h.html#a292adb82eb044e8229e71ce2957c5f6c", null ],
     [ "MR_std_vector_MR_AffineXf3f_at_mut", "std__vector__MR__AffineXf3f_8h.html#aae838e65abe4510549d06b67e5af8115", null ],
     [ "MR_std_vector_MR_AffineXf3f_back", "std__vector__MR__AffineXf3f_8h.html#a0e3715b79d569b4db2f03dc267530b97", null ],
     [ "MR_std_vector_MR_AffineXf3f_back_mut", "std__vector__MR__AffineXf3f_8h.html#a240e82eb4570fb2be17c93da59bb6ac3", null ],
-    [ "MR_std_vector_MR_AffineXf3f_begin", "std__vector__MR__AffineXf3f_8h.html#aa06b15e35cf4955257a50122498d6b45", null ],
-    [ "MR_std_vector_MR_AffineXf3f_begin_mut", "std__vector__MR__AffineXf3f_8h.html#a3a0d5267408e4a9371fcda7383b01852", null ],
-    [ "MR_std_vector_MR_AffineXf3f_capacity", "std__vector__MR__AffineXf3f_8h.html#ac9a8242abdffa12bae887901f35c42f6", null ],
     [ "MR_std_vector_MR_AffineXf3f_clear", "std__vector__MR__AffineXf3f_8h.html#a3b48e94772614aee1fce6c3405bfeb66", null ],
     [ "MR_std_vector_MR_AffineXf3f_ConstructFromAnother", "std__vector__MR__AffineXf3f_8h.html#a30a06f22f39bfbf488c52cc90d6d8e90", null ],
-    [ "MR_std_vector_MR_AffineXf3f_ConstructFromRange", "std__vector__MR__AffineXf3f_8h.html#a2ec764b305f93be025e20a1151bb6ec5", null ],
     [ "MR_std_vector_MR_AffineXf3f_data", "std__vector__MR__AffineXf3f_8h.html#a8521da661e650d972477b34074599c54", null ],
     [ "MR_std_vector_MR_AffineXf3f_data_mut", "std__vector__MR__AffineXf3f_8h.html#a3c4ec44a570fe523350ab1f331feddd6", null ],
     [ "MR_std_vector_MR_AffineXf3f_DefaultConstruct", "std__vector__MR__AffineXf3f_8h.html#ade4f9b6e48bea7a0d3bcd5363c0ed5a9", null ],
@@ -19,8 +14,6 @@ var std__vector__MR__AffineXf3f_8h =
     [ "MR_std_vector_MR_AffineXf3f_Destroy", "std__vector__MR__AffineXf3f_8h.html#ab9613ced5a38a08c0ff6a92fc1b409c3", null ],
     [ "MR_std_vector_MR_AffineXf3f_DestroyArray", "std__vector__MR__AffineXf3f_8h.html#af77d38ba5cbfae390f0452fab261089f", null ],
     [ "MR_std_vector_MR_AffineXf3f_empty", "std__vector__MR__AffineXf3f_8h.html#ae3e1577f9ad8ad89e731097792ddcff4", null ],
-    [ "MR_std_vector_MR_AffineXf3f_end", "std__vector__MR__AffineXf3f_8h.html#add90c88eb31a7a8662829a09c9e6e734", null ],
-    [ "MR_std_vector_MR_AffineXf3f_end_mut", "std__vector__MR__AffineXf3f_8h.html#a882ffefb0941166ea56a1a0ebe489282", null ],
     [ "MR_std_vector_MR_AffineXf3f_erase", "std__vector__MR__AffineXf3f_8h.html#ae8902c03fba203b778064084d5bec375", null ],
     [ "MR_std_vector_MR_AffineXf3f_front", "std__vector__MR__AffineXf3f_8h.html#a24626e5235e377ea4f456154129a07c8", null ],
     [ "MR_std_vector_MR_AffineXf3f_front_mut", "std__vector__MR__AffineXf3f_8h.html#a2089f2690c94913e7aec8e02a237c5d1", null ],
@@ -31,7 +24,5 @@ var std__vector__MR__AffineXf3f_8h =
     [ "MR_std_vector_MR_AffineXf3f_push_back", "std__vector__MR__AffineXf3f_8h.html#a8201fc9eca3128f5bce56a1903538368", null ],
     [ "MR_std_vector_MR_AffineXf3f_reserve", "std__vector__MR__AffineXf3f_8h.html#a4cf1cfbb3311d1b6d2dc042d5c9a55ea", null ],
     [ "MR_std_vector_MR_AffineXf3f_resize", "std__vector__MR__AffineXf3f_8h.html#a56825a4fa17e05c966d9c146025ce646", null ],
-    [ "MR_std_vector_MR_AffineXf3f_resize_with_default_value", "std__vector__MR__AffineXf3f_8h.html#a64b59bc365045d82e9eca736cbe821fd", null ],
-    [ "MR_std_vector_MR_AffineXf3f_shrink_to_fit", "std__vector__MR__AffineXf3f_8h.html#a040d3217d93352b1b066f57ff585aa03", null ],
     [ "MR_std_vector_MR_AffineXf3f_size", "std__vector__MR__AffineXf3f_8h.html#a602abff87bc0766c01362f2c6f45c2a4", null ]
 ];

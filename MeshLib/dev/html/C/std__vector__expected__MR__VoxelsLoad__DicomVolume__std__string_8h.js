@@ -6,9 +6,6 @@ var std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h =
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_at_mut", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a41437ba7bd678509332b2d9130eab745", null ],
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_back", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#aa3239903d9d9b43ab40f08edccfe6ff0", null ],
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_back_mut", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a8092cd50b8ca2857b1c154ca7453dfc9", null ],
-    [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_begin", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#ae40b52b295eaac461ebd6508e308f198", null ],
-    [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_begin_mut", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a97e7142778844339978e12975f12f1ca", null ],
-    [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_capacity", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a1d150a4d2c9622d35973e1e2c0c861aa", null ],
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_clear", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#ab6a30c3171c5e2661af630f7468d408f", null ],
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_ConstructFromAnother", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#afe2f4c4ada5db92164ac102916999807", null ],
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_DefaultConstruct", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#abc4f423b25c2a12d7fcbbf3923794748", null ],
@@ -16,8 +13,6 @@ var std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h =
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_Destroy", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a256d9c7cc1b471467285751cb36317f0", null ],
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_DestroyArray", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a4922f37b0b015ebb69dda6d15ab180cf", null ],
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_empty", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a26e96b6b039788b21ddb3e0d75ed5872", null ],
-    [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_end", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a11e7db44e6856576ae3b82e1d64b710f", null ],
-    [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_end_mut", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a70bf45bdf3733d24e063001c2f3c6a5c", null ],
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_erase", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#adb6fc063c203f22b9f0fec75318b1620", null ],
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_front", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a7c7bd83f568b88c3aafd6135f5afdde8", null ],
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_front_mut", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#aab57cffce088e5a075913c6a7bf9bfcd", null ],
@@ -28,7 +23,5 @@ var std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h =
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_push_back", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#aef71d6266a4ba09fee3dbe51fabd798f", null ],
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_reserve", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#abc1d046a61e83f38fcf795247d482466", null ],
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_resize", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#aad1c003a89349e597dc5f2775875e6e7", null ],
-    [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_resize_with_default_value", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#aadc7ce90f8fb7d1d1de19b0abaf65e18", null ],
-    [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_shrink_to_fit", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a453ba12b642c2c62127167f61f8b342a", null ],
     [ "MR_std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string_size", "std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h.html#a670e324e222e1733f670d7c5a8d45bf9", null ]
 ];

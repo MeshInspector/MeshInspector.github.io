@@ -5,9 +5,6 @@ var std__vector__MR__UnorientedTriangle_8h =
     [ "MR_std_vector_MR_UnorientedTriangle_at_mut", "std__vector__MR__UnorientedTriangle_8h.html#a68b01110971e034211b7e117bd7f5ad6", null ],
     [ "MR_std_vector_MR_UnorientedTriangle_back", "std__vector__MR__UnorientedTriangle_8h.html#a77dbc15808197af255cbba62dcf018dc", null ],
     [ "MR_std_vector_MR_UnorientedTriangle_back_mut", "std__vector__MR__UnorientedTriangle_8h.html#a36482b0b2d8180c8939d478ce5cd99d3", null ],
-    [ "MR_std_vector_MR_UnorientedTriangle_begin", "std__vector__MR__UnorientedTriangle_8h.html#a06839f17b13eb2ce982f0508d4822cb0", null ],
-    [ "MR_std_vector_MR_UnorientedTriangle_begin_mut", "std__vector__MR__UnorientedTriangle_8h.html#a7c0c27c02e1fa6396116e1c9f1d67164", null ],
-    [ "MR_std_vector_MR_UnorientedTriangle_capacity", "std__vector__MR__UnorientedTriangle_8h.html#aa66bcd597cb560eac1cd2a34801ea083", null ],
     [ "MR_std_vector_MR_UnorientedTriangle_clear", "std__vector__MR__UnorientedTriangle_8h.html#ac2ce2faaa80e0ea1451eaa0bf51ecec5", null ],
     [ "MR_std_vector_MR_UnorientedTriangle_ConstructFromAnother", "std__vector__MR__UnorientedTriangle_8h.html#aefd54e614fbbe3d72d1bcbd99c856f29", null ],
     [ "MR_std_vector_MR_UnorientedTriangle_DefaultConstruct", "std__vector__MR__UnorientedTriangle_8h.html#a11ba696f66e306da5f97dc7a0f144aa5", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__UnorientedTriangle_8h =
     [ "MR_std_vector_MR_UnorientedTriangle_Destroy", "std__vector__MR__UnorientedTriangle_8h.html#a710f9e6597c4453e50cbf05dbeda0cdd", null ],
     [ "MR_std_vector_MR_UnorientedTriangle_DestroyArray", "std__vector__MR__UnorientedTriangle_8h.html#a8f6189155b4d4fbfb36d0db101389dc3", null ],
     [ "MR_std_vector_MR_UnorientedTriangle_empty", "std__vector__MR__UnorientedTriangle_8h.html#a3ffdcbea09c59a4e8faa2ed6491844de", null ],
-    [ "MR_std_vector_MR_UnorientedTriangle_end", "std__vector__MR__UnorientedTriangle_8h.html#accb7a26f5d728cfa3fd9cd90d0f8f265", null ],
-    [ "MR_std_vector_MR_UnorientedTriangle_end_mut", "std__vector__MR__UnorientedTriangle_8h.html#a0a656b7ebea5866f04726afc197e30d8", null ],
     [ "MR_std_vector_MR_UnorientedTriangle_erase", "std__vector__MR__UnorientedTriangle_8h.html#ada6be04dc09f3121570a2e9bc764445b", null ],
     [ "MR_std_vector_MR_UnorientedTriangle_front", "std__vector__MR__UnorientedTriangle_8h.html#a1514aaaed7edbe6c3111656d9f909ea9", null ],
     [ "MR_std_vector_MR_UnorientedTriangle_front_mut", "std__vector__MR__UnorientedTriangle_8h.html#a15ff8aaa336b0afcb50c298e675aadcc", null ],
@@ -26,7 +21,5 @@ var std__vector__MR__UnorientedTriangle_8h =
     [ "MR_std_vector_MR_UnorientedTriangle_pop_back", "std__vector__MR__UnorientedTriangle_8h.html#a94d54ddf037e112e30c87e7573549d14", null ],
     [ "MR_std_vector_MR_UnorientedTriangle_push_back", "std__vector__MR__UnorientedTriangle_8h.html#a5f6cf9e7f1dc08a97c27a3ed3394e9ce", null ],
     [ "MR_std_vector_MR_UnorientedTriangle_reserve", "std__vector__MR__UnorientedTriangle_8h.html#affb0aef03ac72eaa4976e6bf2a5ae9e1", null ],
-    [ "MR_std_vector_MR_UnorientedTriangle_resize_with_default_value", "std__vector__MR__UnorientedTriangle_8h.html#a9d62fb18472ce28d321816d9b4b46de2", null ],
-    [ "MR_std_vector_MR_UnorientedTriangle_shrink_to_fit", "std__vector__MR__UnorientedTriangle_8h.html#ad421c9344e6c4d058371f9f4cf4175fb", null ],
     [ "MR_std_vector_MR_UnorientedTriangle_size", "std__vector__MR__UnorientedTriangle_8h.html#ab72c13836a7f423ddb8e23c080c99f57", null ]
 ];

@@ -5,9 +5,6 @@ var std__vector__MR__ViewportMask_8h =
     [ "MR_std_vector_MR_ViewportMask_at_mut", "std__vector__MR__ViewportMask_8h.html#a8a8ad3e50fa35c0371f4ae722aa0fe22", null ],
     [ "MR_std_vector_MR_ViewportMask_back", "std__vector__MR__ViewportMask_8h.html#a9cfb179447271a954d42406c440ff92e", null ],
     [ "MR_std_vector_MR_ViewportMask_back_mut", "std__vector__MR__ViewportMask_8h.html#a82d0c75cc89f946a8e09170d702a9d39", null ],
-    [ "MR_std_vector_MR_ViewportMask_begin", "std__vector__MR__ViewportMask_8h.html#a4c182dbf98c43f9c03e5629235d06890", null ],
-    [ "MR_std_vector_MR_ViewportMask_begin_mut", "std__vector__MR__ViewportMask_8h.html#a73182548f8a1ab5970ab554282c33959", null ],
-    [ "MR_std_vector_MR_ViewportMask_capacity", "std__vector__MR__ViewportMask_8h.html#aebe5049401cccbeb256c6ceba2a437a4", null ],
     [ "MR_std_vector_MR_ViewportMask_clear", "std__vector__MR__ViewportMask_8h.html#a5a2bc9b0ef42afbce5a857688cf7c42e", null ],
     [ "MR_std_vector_MR_ViewportMask_ConstructFromAnother", "std__vector__MR__ViewportMask_8h.html#a53a72ea6508337b75b9a2c78fb712b9e", null ],
     [ "MR_std_vector_MR_ViewportMask_DefaultConstruct", "std__vector__MR__ViewportMask_8h.html#ac9c37f97b6c893c42ee25ddb2aad4229", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__ViewportMask_8h =
     [ "MR_std_vector_MR_ViewportMask_Destroy", "std__vector__MR__ViewportMask_8h.html#acb1f68e6a33d62b9eda72a303af894e2", null ],
     [ "MR_std_vector_MR_ViewportMask_DestroyArray", "std__vector__MR__ViewportMask_8h.html#ac152d7ee0508dda014eac805879168e5", null ],
     [ "MR_std_vector_MR_ViewportMask_empty", "std__vector__MR__ViewportMask_8h.html#a0671487ff76072c5a016541e631c381b", null ],
-    [ "MR_std_vector_MR_ViewportMask_end", "std__vector__MR__ViewportMask_8h.html#ad9d6f1a68e1ff0b69e4f92cd8a2c7040", null ],
-    [ "MR_std_vector_MR_ViewportMask_end_mut", "std__vector__MR__ViewportMask_8h.html#ab22f014c1a6eae2e02fd0e1cb41440d0", null ],
     [ "MR_std_vector_MR_ViewportMask_erase", "std__vector__MR__ViewportMask_8h.html#a0610a9691dacf2e00e2ab5cec06067d7", null ],
     [ "MR_std_vector_MR_ViewportMask_front", "std__vector__MR__ViewportMask_8h.html#a03cdeb420d4c1cdd1046536cdfdfffcd", null ],
     [ "MR_std_vector_MR_ViewportMask_front_mut", "std__vector__MR__ViewportMask_8h.html#ac646cb37b598bc28d272399094efa0e3", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__ViewportMask_8h =
     [ "MR_std_vector_MR_ViewportMask_push_back", "std__vector__MR__ViewportMask_8h.html#aa620ebb55cc614b22846b4001da1277e", null ],
     [ "MR_std_vector_MR_ViewportMask_reserve", "std__vector__MR__ViewportMask_8h.html#a3a06a64c2158210b447e88a606f4c38b", null ],
     [ "MR_std_vector_MR_ViewportMask_resize", "std__vector__MR__ViewportMask_8h.html#a70d3230e16363d43a9361bd1402c9329", null ],
-    [ "MR_std_vector_MR_ViewportMask_resize_with_default_value", "std__vector__MR__ViewportMask_8h.html#a086a471b0ce2e05ff25d79b4623b2990", null ],
-    [ "MR_std_vector_MR_ViewportMask_shrink_to_fit", "std__vector__MR__ViewportMask_8h.html#a9191a9ec9d1830e8c78cfe8411c638d9", null ],
     [ "MR_std_vector_MR_ViewportMask_size", "std__vector__MR__ViewportMask_8h.html#a78841e46fc08c8230f0097824407475f", null ]
 ];

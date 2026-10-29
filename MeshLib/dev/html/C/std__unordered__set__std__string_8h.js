@@ -25,7 +25,6 @@ var std__unordered__set__std__string_8h =
     [ "MR_std_unordered_set_std_string_end", "std__unordered__set__std__string_8h.html#a1e5dce1e4f7650eab67be11cfb67a7a2", null ],
     [ "MR_std_unordered_set_std_string_find", "std__unordered__set__std__string_8h.html#a1285739dcb2597c9ce2629d5634ce111", null ],
     [ "MR_std_unordered_set_std_string_insert", "std__unordered__set__std__string_8h.html#a3a3745a10088f464f8cb596a1edfe129", null ],
-    [ "MR_std_unordered_set_std_string_is_begin", "std__unordered__set__std__string_8h.html#ab225036482b11b13e406597c3a85daca", null ],
     [ "MR_std_unordered_set_std_string_is_end", "std__unordered__set__std__string_8h.html#a1612b7a8f0783acc61bb03a1f076ec8d", null ],
     [ "MR_std_unordered_set_std_string_OffsetMutablePtr", "std__unordered__set__std__string_8h.html#ae688e1c4aa33bda1d53c5ecca79318e4", null ],
     [ "MR_std_unordered_set_std_string_OffsetPtr", "std__unordered__set__std__string_8h.html#a296bd7c7dd5618706790ae110dc1ecf5", null ],

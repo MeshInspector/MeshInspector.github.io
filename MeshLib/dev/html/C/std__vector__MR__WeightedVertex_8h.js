@@ -5,9 +5,6 @@ var std__vector__MR__WeightedVertex_8h =
     [ "MR_std_vector_MR_WeightedVertex_at_mut", "std__vector__MR__WeightedVertex_8h.html#a257812d1e927cb70b3389226dc58aca5", null ],
     [ "MR_std_vector_MR_WeightedVertex_back", "std__vector__MR__WeightedVertex_8h.html#a958e0e43d05e1c029d0f4cbf63cc5593", null ],
     [ "MR_std_vector_MR_WeightedVertex_back_mut", "std__vector__MR__WeightedVertex_8h.html#adf3d860868b1fda490efe79f164b0617", null ],
-    [ "MR_std_vector_MR_WeightedVertex_begin", "std__vector__MR__WeightedVertex_8h.html#aa0541659008701293ff08a8c504d65a3", null ],
-    [ "MR_std_vector_MR_WeightedVertex_begin_mut", "std__vector__MR__WeightedVertex_8h.html#ade3d7e80399092c67ca41e2969eb931e", null ],
-    [ "MR_std_vector_MR_WeightedVertex_capacity", "std__vector__MR__WeightedVertex_8h.html#ae12eb01b9dfd8615fd85bf91ea6a7db9", null ],
     [ "MR_std_vector_MR_WeightedVertex_clear", "std__vector__MR__WeightedVertex_8h.html#af40ecc86924768d73ab58fe6a715cb4c", null ],
     [ "MR_std_vector_MR_WeightedVertex_ConstructFromAnother", "std__vector__MR__WeightedVertex_8h.html#ab63037db119259dd8570ed76b29e4691", null ],
     [ "MR_std_vector_MR_WeightedVertex_DefaultConstruct", "std__vector__MR__WeightedVertex_8h.html#abf0b213e811f74f092e5ae9e528755cb", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__WeightedVertex_8h =
     [ "MR_std_vector_MR_WeightedVertex_Destroy", "std__vector__MR__WeightedVertex_8h.html#ab6cc89d541a10f4e1a5f37eb9fa4fb56", null ],
     [ "MR_std_vector_MR_WeightedVertex_DestroyArray", "std__vector__MR__WeightedVertex_8h.html#a148a87709c4f761fb25a06389acb75cb", null ],
     [ "MR_std_vector_MR_WeightedVertex_empty", "std__vector__MR__WeightedVertex_8h.html#a7e4b9b35e6c5231317050e733ebfd600", null ],
-    [ "MR_std_vector_MR_WeightedVertex_end", "std__vector__MR__WeightedVertex_8h.html#af9547d40ec4228b8fd2095596622c10a", null ],
-    [ "MR_std_vector_MR_WeightedVertex_end_mut", "std__vector__MR__WeightedVertex_8h.html#a48b2ba44408f8f9593e2297b5d7cc7e8", null ],
     [ "MR_std_vector_MR_WeightedVertex_erase", "std__vector__MR__WeightedVertex_8h.html#afcd19c0dbf3487f6d95fbc5cabf08a1d", null ],
     [ "MR_std_vector_MR_WeightedVertex_front", "std__vector__MR__WeightedVertex_8h.html#a77dfb066261453f75c1d1963996c29de", null ],
     [ "MR_std_vector_MR_WeightedVertex_front_mut", "std__vector__MR__WeightedVertex_8h.html#afa5cff3f7a5c6368bbd55e2f80c4be67", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__WeightedVertex_8h =
     [ "MR_std_vector_MR_WeightedVertex_push_back", "std__vector__MR__WeightedVertex_8h.html#a6c22ec2c9b40a6e5b7b06b3f5b00633b", null ],
     [ "MR_std_vector_MR_WeightedVertex_reserve", "std__vector__MR__WeightedVertex_8h.html#af10b0adb0331d10716f9f921300c997d", null ],
     [ "MR_std_vector_MR_WeightedVertex_resize", "std__vector__MR__WeightedVertex_8h.html#a8684d32b42876045215fe3c6356cdf73", null ],
-    [ "MR_std_vector_MR_WeightedVertex_resize_with_default_value", "std__vector__MR__WeightedVertex_8h.html#a8e74972f72fed2f3eaeac6a326c81cd2", null ],
-    [ "MR_std_vector_MR_WeightedVertex_shrink_to_fit", "std__vector__MR__WeightedVertex_8h.html#a00e02489e279063df35aacf871b22f42", null ],
     [ "MR_std_vector_MR_WeightedVertex_size", "std__vector__MR__WeightedVertex_8h.html#aeef9b9ff4aa6e588173b6d019b6d500a", null ]
 ];

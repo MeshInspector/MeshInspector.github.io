@@ -1,17 +1,12 @@
 var std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h =
 [
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_AssignFromAnother", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a90eebc73fc38f1065b2fc99052e685ba", null ],
-    [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_AssignFromRange", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#af8215443a09f5ae4a0ceaf696ed547e3", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_at", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a5fa9146ddbfe66c2ae1a478565ee553f", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_at_mut", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a173b27e39bebef4657ed16bb565fd649", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_back", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a62e427d53c7da32607c31f1c4ed2c70d", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_back_mut", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#adbd2a0137d8b206eb6f0f3b6c8b50d7d", null ],
-    [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_begin", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#af8664e6289877c213b44e38b390b1ad9", null ],
-    [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_begin_mut", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a69449fff4bdb6246a5947699e6df3eff", null ],
-    [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_capacity", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#afdf1669dde66816d51484b09aadfd1fe", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_clear", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#abe1c4983ff760c864b8a54003177578f", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_ConstructFromAnother", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#ab28cfb1ea8f067d974ae3e0500f1cab7", null ],
-    [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_ConstructFromRange", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#ab29c3e9303da046a06076ce398a43913", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_data", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a4d69dfd4572e1ff2edccb8b1937bb267", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_data_mut", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#aa047ea9d81c1e991ac979a8ea808e1e9", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_DefaultConstruct", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a85a2fd0f4fd5400b4530639b01c4a52a", null ],
@@ -19,8 +14,6 @@ var std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h 
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_Destroy", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#ab13bd2c80746abf62d3564f21eb1e463", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_DestroyArray", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#af406cc29a3a4589a5d2d00436bd697d2", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_empty", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a71117fb4b710893d5c52c7fd23cf8760", null ],
-    [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_end", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#aa796ccf98ec7198b3912e290e949e00e", null ],
-    [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_end_mut", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a2fa20ab1a99bf488e28ce870c2be7bb9", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_erase", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#aa0cffedb23b189a6f21122cc90850ee4", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_front", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a962d9f6ca3486ea5e9606d15a4ffd9f9", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_front_mut", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a9702b56af3c962a3a5497415bfcd7170", null ],
@@ -31,7 +24,5 @@ var std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h 
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_push_back", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#ab74a33d75eee3de18ae483715e4841bf", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_reserve", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a765c19aa326296f6a0bf7613b0cc6410", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_resize", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a4f7c72b1b7266adb4b82da32d40f8772", null ],
-    [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_resize_with_default_value", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a38efd89466d66595360da41e97995dd6", null ],
-    [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_shrink_to_fit", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a492e60c330ec2ab9361f404b362a60ca", null ],
     [ "MR_std_vector_std_array_float_33_MR_Allocator_std_array_float_33_size", "std__vector__std__array__float__33__MR__Allocator__std__array__float__33_8h.html#a243be2771e5c28875b38d8c9424ad536", null ]
 ];

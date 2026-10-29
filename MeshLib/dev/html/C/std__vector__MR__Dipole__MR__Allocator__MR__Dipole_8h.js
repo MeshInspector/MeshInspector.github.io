@@ -5,9 +5,6 @@ var std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h =
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_at_mut", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a7a2a0224c3fe04b8e8c71d8246fe02c8", null ],
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_back", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a2abd03daeee18a97e900263e5dca6772", null ],
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_back_mut", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a728ef22e1a8bfa34dcf6f40330c817c2", null ],
-    [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_begin", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a821405d66bb3f7de0adbc4d4317e03ba", null ],
-    [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_begin_mut", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a6b8f600a24b3370fd9a7ee5b9d4075f3", null ],
-    [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_capacity", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a1b5124c45f842c7a02b046cc2f78afc6", null ],
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_clear", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#ab0085d4c9356a074e5cbbe47dccba03f", null ],
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_ConstructFromAnother", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#ace785e8a0980a8c83f2c85646739e5cf", null ],
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_DefaultConstruct", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a505787ab376d073e1a688af29996e471", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h =
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_Destroy", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#aad605aae5680a3b6b9738bd6af3bbe26", null ],
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_DestroyArray", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a847435864b5ed18a89f6a0d6c21ce3f3", null ],
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_empty", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#ac774ea34f54b1d5b4bb87bb15994c206", null ],
-    [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_end", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#ade9316b11bce29865daee8da75cba92c", null ],
-    [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_end_mut", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a1ae1b5f6a112fb07597e8067b02eb5aa", null ],
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_erase", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a6ebbe82c01f0c7d441662394bf875b8d", null ],
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_front", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#af447b8cb08aae135b998c265fecb2efa", null ],
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_front_mut", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#af77659cc3cd5ff4af49e43464bcb78a0", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h =
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_push_back", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#adb0483be7ad1f6ba6cadd04c253f7851", null ],
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_reserve", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a6e7dbfc19f17e2fb2dbcc6ccdc12e6d8", null ],
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_resize", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#af5250427e9d06cf2e184c8c77d22a4ea", null ],
-    [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_resize_with_default_value", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a1291f1eeb44e00ee7bea2cb85b6c4173", null ],
-    [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_shrink_to_fit", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#a2d16e13e1a8a9bdf5eeadf0dcb2c3315", null ],
     [ "MR_std_vector_MR_Dipole_MR_Allocator_MR_Dipole_size", "std__vector__MR__Dipole__MR__Allocator__MR__Dipole_8h.html#ada2cbd6e9d01f76e6fd7a6a5fc241a71", null ]
 ];

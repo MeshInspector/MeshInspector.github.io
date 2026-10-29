@@ -5,9 +5,6 @@ var std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h =
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_at_mut", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#af777d781ec9a36279ab53816a7e7d59f", null ],
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_back", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a3b7a649e7010791355682a7eaa52cf09", null ],
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_back_mut", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a38e2cdbc6d067e620823e99a249128d1", null ],
-    [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_begin", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a6d01526d94ee26fdcca616c5a87ac147", null ],
-    [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_begin_mut", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#aa9884748d4a734f5db4a661e5008c748", null ],
-    [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_capacity", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#ad16271bf417accb77d4ba4cea9f84c1d", null ],
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_clear", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a299ed82a2618268e25335fd581c96154", null ],
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_ConstructFromAnother", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a24afd266678f766645c1ad974d68d6c8", null ],
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_DefaultConstruct", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#aba767177abf79fc426cebeab0f861ef7", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h =
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_Destroy", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#af63f2c03be5b4f1f982699bdbe80c3b9", null ],
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_DestroyArray", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a33b48ef738dcb859e3d749977e9365cc", null ],
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_empty", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a70c57a12503de16f59d1d59e8b9577f5", null ],
-    [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_end", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a62b0bed0ac6b72baf10cac76b59da0df", null ],
-    [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_end_mut", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#ace183d87a33e081c4588bf4b82fa2496", null ],
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_erase", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a487acc371714dfdf0779654bfa752b6c", null ],
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_front", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a2ca06fd279ba00066b6ca987927dba46", null ],
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_front_mut", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a55734f891346a0ded6959d1ad4fae669", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h =
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_push_back", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a5be53dde1f1baccc68ee4c69efe5d3d2", null ],
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_reserve", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a8a4fdccfae99bb29c12459041d973cd3", null ],
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_resize", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#a564bc70bb9f70503be061d3db2103644", null ],
-    [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_resize_with_default_value", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#aa982ec5671a35ff97511f070cc0ce209", null ],
-    [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_shrink_to_fit", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#abf95f8294304ebca67721b592ac420fe", null ],
     [ "MR_std_vector_MR_QuadraticForm2f_MR_Allocator_MR_QuadraticForm2f_size", "std__vector__MR__QuadraticForm2f__MR__Allocator__MR__QuadraticForm2f_8h.html#af8120a981718250e39313f1f1ebf99cf", null ]
 ];

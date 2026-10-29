@@ -5,9 +5,6 @@ var std__vector__MR__Pdf__Cell_8h =
     [ "MR_std_vector_MR_Pdf_Cell_at_mut", "std__vector__MR__Pdf__Cell_8h.html#a4861aae18fb7dc8a1648dc507a4af8f7", null ],
     [ "MR_std_vector_MR_Pdf_Cell_back", "std__vector__MR__Pdf__Cell_8h.html#a934c6c7db6e4de08e4f3d101c4c49bd4", null ],
     [ "MR_std_vector_MR_Pdf_Cell_back_mut", "std__vector__MR__Pdf__Cell_8h.html#a7950e6a4eea590b8cf803b6f12e403f6", null ],
-    [ "MR_std_vector_MR_Pdf_Cell_begin", "std__vector__MR__Pdf__Cell_8h.html#a825b1988cf4d91ff76f50240ae8c843a", null ],
-    [ "MR_std_vector_MR_Pdf_Cell_begin_mut", "std__vector__MR__Pdf__Cell_8h.html#a715c0c452dd9f92996fe9dfe8fcdcfdb", null ],
-    [ "MR_std_vector_MR_Pdf_Cell_capacity", "std__vector__MR__Pdf__Cell_8h.html#ac3178cc89f8a0f03586aa35b5f0d292a", null ],
     [ "MR_std_vector_MR_Pdf_Cell_clear", "std__vector__MR__Pdf__Cell_8h.html#ab394efa74d8ff3141f809c4d0e73cd6b", null ],
     [ "MR_std_vector_MR_Pdf_Cell_ConstructFromAnother", "std__vector__MR__Pdf__Cell_8h.html#a8d22845f01b5f3372020187a176c8eac", null ],
     [ "MR_std_vector_MR_Pdf_Cell_DefaultConstruct", "std__vector__MR__Pdf__Cell_8h.html#a954dc7deaca2308ec741d8836b45c988", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__Pdf__Cell_8h =
     [ "MR_std_vector_MR_Pdf_Cell_Destroy", "std__vector__MR__Pdf__Cell_8h.html#aaec2990df051872d77ffb1b030037041", null ],
     [ "MR_std_vector_MR_Pdf_Cell_DestroyArray", "std__vector__MR__Pdf__Cell_8h.html#ad8ed78c19042c392fcd628b2ba352e59", null ],
     [ "MR_std_vector_MR_Pdf_Cell_empty", "std__vector__MR__Pdf__Cell_8h.html#a52fb66d82fd62fa4b42111d4d0d58a6b", null ],
-    [ "MR_std_vector_MR_Pdf_Cell_end", "std__vector__MR__Pdf__Cell_8h.html#a2d9d9561b2b7f19a73dfc8ae3d1165e4", null ],
-    [ "MR_std_vector_MR_Pdf_Cell_end_mut", "std__vector__MR__Pdf__Cell_8h.html#a51be2415df122c2d2c6f72659faa48aa", null ],
     [ "MR_std_vector_MR_Pdf_Cell_erase", "std__vector__MR__Pdf__Cell_8h.html#aa29166526229e6ceba71b9d71d265ab3", null ],
     [ "MR_std_vector_MR_Pdf_Cell_front", "std__vector__MR__Pdf__Cell_8h.html#afc3b8b817817bed225911560333a741d", null ],
     [ "MR_std_vector_MR_Pdf_Cell_front_mut", "std__vector__MR__Pdf__Cell_8h.html#a476fa9c3dc14342c1148905869888e84", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__Pdf__Cell_8h =
     [ "MR_std_vector_MR_Pdf_Cell_push_back", "std__vector__MR__Pdf__Cell_8h.html#a4ba1468fa89583e6d8d297476382992f", null ],
     [ "MR_std_vector_MR_Pdf_Cell_reserve", "std__vector__MR__Pdf__Cell_8h.html#afbfb9da1a6671b1674be9d36a566ce10", null ],
     [ "MR_std_vector_MR_Pdf_Cell_resize", "std__vector__MR__Pdf__Cell_8h.html#a6ea4a7c6b9467005d5d94f212966bbe7", null ],
-    [ "MR_std_vector_MR_Pdf_Cell_resize_with_default_value", "std__vector__MR__Pdf__Cell_8h.html#a42aaef3adcd10a5b6b967975e54b4b32", null ],
-    [ "MR_std_vector_MR_Pdf_Cell_shrink_to_fit", "std__vector__MR__Pdf__Cell_8h.html#a34ff1a92bdbd53b28e44c64f0d123fcb", null ],
     [ "MR_std_vector_MR_Pdf_Cell_size", "std__vector__MR__Pdf__Cell_8h.html#a440d8c5a6ef051b1f4faab41d75ba568", null ]
 ];

@@ -5,9 +5,6 @@ var std__vector__MR__EdgePoint_8h =
     [ "MR_std_vector_MR_EdgePoint_at_mut", "std__vector__MR__EdgePoint_8h.html#aab7e7302e8467b09cbae0b475bca7d52", null ],
     [ "MR_std_vector_MR_EdgePoint_back", "std__vector__MR__EdgePoint_8h.html#a242dfef3f746616b8bf6b2f1f9de29cb", null ],
     [ "MR_std_vector_MR_EdgePoint_back_mut", "std__vector__MR__EdgePoint_8h.html#a0c4810b460115f638c10b15aa8b20841", null ],
-    [ "MR_std_vector_MR_EdgePoint_begin", "std__vector__MR__EdgePoint_8h.html#a8e1a59a8efc02f708d2475350fd414df", null ],
-    [ "MR_std_vector_MR_EdgePoint_begin_mut", "std__vector__MR__EdgePoint_8h.html#a66678122cf491ac4c1631009d1ed253b", null ],
-    [ "MR_std_vector_MR_EdgePoint_capacity", "std__vector__MR__EdgePoint_8h.html#acfa54940e0a62f33e5a50d2ff30d10ba", null ],
     [ "MR_std_vector_MR_EdgePoint_clear", "std__vector__MR__EdgePoint_8h.html#a0b8a85515435ba621bbf3cc72189c62a", null ],
     [ "MR_std_vector_MR_EdgePoint_ConstructFromAnother", "std__vector__MR__EdgePoint_8h.html#a28c8dbc7e983122ff2680d144f1a3226", null ],
     [ "MR_std_vector_MR_EdgePoint_DefaultConstruct", "std__vector__MR__EdgePoint_8h.html#a70e395cdcda328652b4e5cefad9913e0", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__EdgePoint_8h =
     [ "MR_std_vector_MR_EdgePoint_Destroy", "std__vector__MR__EdgePoint_8h.html#ac3f444edfe88c774ff3a1962e1137ba6", null ],
     [ "MR_std_vector_MR_EdgePoint_DestroyArray", "std__vector__MR__EdgePoint_8h.html#aa859618e496290be5d7c536b6edf369f", null ],
     [ "MR_std_vector_MR_EdgePoint_empty", "std__vector__MR__EdgePoint_8h.html#a7a750555e5317702a637dc227d7b115a", null ],
-    [ "MR_std_vector_MR_EdgePoint_end", "std__vector__MR__EdgePoint_8h.html#a4bff51eb4e220e8f61a439c3d32f57a7", null ],
-    [ "MR_std_vector_MR_EdgePoint_end_mut", "std__vector__MR__EdgePoint_8h.html#ad1d3678053654912080927152e75147f", null ],
     [ "MR_std_vector_MR_EdgePoint_erase", "std__vector__MR__EdgePoint_8h.html#a6299c892eda344476a1b2425fd667871", null ],
     [ "MR_std_vector_MR_EdgePoint_front", "std__vector__MR__EdgePoint_8h.html#ac8223dff088262f8e8679530a2f13997", null ],
     [ "MR_std_vector_MR_EdgePoint_front_mut", "std__vector__MR__EdgePoint_8h.html#a497bed26ded6eb0bf97ad1800656d8f0", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__EdgePoint_8h =
     [ "MR_std_vector_MR_EdgePoint_push_back", "std__vector__MR__EdgePoint_8h.html#a1e7201f281f7836514be503ebfb46ab4", null ],
     [ "MR_std_vector_MR_EdgePoint_reserve", "std__vector__MR__EdgePoint_8h.html#a50272b1092160d1c416acf3f0a1a0429", null ],
     [ "MR_std_vector_MR_EdgePoint_resize", "std__vector__MR__EdgePoint_8h.html#ac0fc0ad70165a79e94aa9cc6a2ef11ea", null ],
-    [ "MR_std_vector_MR_EdgePoint_resize_with_default_value", "std__vector__MR__EdgePoint_8h.html#a1cac2561ed49d573239bc67f1b291d38", null ],
-    [ "MR_std_vector_MR_EdgePoint_shrink_to_fit", "std__vector__MR__EdgePoint_8h.html#a10a8cd1c3b706cdbb2dbe3707676699e", null ],
     [ "MR_std_vector_MR_EdgePoint_size", "std__vector__MR__EdgePoint_8h.html#ac2c3d26de05e1fb0abfc2f169d71a353", null ]
 ];

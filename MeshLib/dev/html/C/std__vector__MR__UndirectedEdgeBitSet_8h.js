@@ -5,9 +5,6 @@ var std__vector__MR__UndirectedEdgeBitSet_8h =
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_at_mut", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a908c92f083ea11f74cb560332eff8b22", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_back", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a45ef81e56ae79b6ce7a57ff4671e9be0", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_back_mut", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a1446e0bf28335c5b0a6cfdb36dc85049", null ],
-    [ "MR_std_vector_MR_UndirectedEdgeBitSet_begin", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a5023fc03cf43d2958b7818529dbaf537", null ],
-    [ "MR_std_vector_MR_UndirectedEdgeBitSet_begin_mut", "std__vector__MR__UndirectedEdgeBitSet_8h.html#aaccbc587cfa66dd265a269367d39f981", null ],
-    [ "MR_std_vector_MR_UndirectedEdgeBitSet_capacity", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a4895cf4b6d6c14622c877497c9efb922", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_clear", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a94f948d8db3f2b4925dbd07b1e2dafa2", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_ConstructFromAnother", "std__vector__MR__UndirectedEdgeBitSet_8h.html#ae316152967222ccabbe7ac1ab9830f14", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_DefaultConstruct", "std__vector__MR__UndirectedEdgeBitSet_8h.html#aaac3912e422353116cf6e2e0123d7822", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__UndirectedEdgeBitSet_8h =
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_Destroy", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a4e87bd6bc73a883ab26f62e4141e2bd8", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_DestroyArray", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a9d14a8b9226ab85219e695a7be58a10c", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_empty", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a60d099eda2517fc80f9c1bcd0b988e4c", null ],
-    [ "MR_std_vector_MR_UndirectedEdgeBitSet_end", "std__vector__MR__UndirectedEdgeBitSet_8h.html#aa47fced12af8ecba5c7a4e0ee89b90b2", null ],
-    [ "MR_std_vector_MR_UndirectedEdgeBitSet_end_mut", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a66c1f282ad49655e346b96ce5b9a4561", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_erase", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a2c5d11bc53960e2bbfeb80a88f2157bd", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_front", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a3c0719898714a4af2cebb840889c35de", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_front_mut", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a7355142563a6770872bd9254d6d0f9ca", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__UndirectedEdgeBitSet_8h =
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_push_back", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a72db888bc248e43ac18c012a274fae1a", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_reserve", "std__vector__MR__UndirectedEdgeBitSet_8h.html#abbf1c938db916acfa68174c1a8086950", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_resize", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a0dce359df7826e9a732673bd5e2e8724", null ],
-    [ "MR_std_vector_MR_UndirectedEdgeBitSet_resize_with_default_value", "std__vector__MR__UndirectedEdgeBitSet_8h.html#af2a269cf78a3b5444f614a1241c89ecb", null ],
-    [ "MR_std_vector_MR_UndirectedEdgeBitSet_shrink_to_fit", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a1ca176ddb4963ccace6d11370fe53077", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet_size", "std__vector__MR__UndirectedEdgeBitSet_8h.html#a2c224b73d8762270f9684309b74ca572", null ]
 ];

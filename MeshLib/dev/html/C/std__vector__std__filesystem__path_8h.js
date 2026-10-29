@@ -5,9 +5,6 @@ var std__vector__std__filesystem__path_8h =
     [ "MR_std_vector_std_filesystem_path_at_mut", "std__vector__std__filesystem__path_8h.html#ab3d62e0cc3917738ff8778b7a78d56af", null ],
     [ "MR_std_vector_std_filesystem_path_back", "std__vector__std__filesystem__path_8h.html#a466e1661a25fdb6e68e1c4c4f479b5d0", null ],
     [ "MR_std_vector_std_filesystem_path_back_mut", "std__vector__std__filesystem__path_8h.html#aa349c286735d92b603334aa8f43d8df6", null ],
-    [ "MR_std_vector_std_filesystem_path_begin", "std__vector__std__filesystem__path_8h.html#aa7516ecae7d6b15277752456761cfd9c", null ],
-    [ "MR_std_vector_std_filesystem_path_begin_mut", "std__vector__std__filesystem__path_8h.html#a73282b0bc24d429bf81e6b8bfd155159", null ],
-    [ "MR_std_vector_std_filesystem_path_capacity", "std__vector__std__filesystem__path_8h.html#a815f091af564900e033c386943c0f218", null ],
     [ "MR_std_vector_std_filesystem_path_clear", "std__vector__std__filesystem__path_8h.html#a4c03040a9259c8d2b242015aa3ce6698", null ],
     [ "MR_std_vector_std_filesystem_path_ConstructFromAnother", "std__vector__std__filesystem__path_8h.html#a3dbb3f6b2699ca87c6c615d7b2527f7f", null ],
     [ "MR_std_vector_std_filesystem_path_DefaultConstruct", "std__vector__std__filesystem__path_8h.html#acd7f8093255caeeff2a8d34cba5c712c", null ],
@@ -15,8 +12,6 @@ var std__vector__std__filesystem__path_8h =
     [ "MR_std_vector_std_filesystem_path_Destroy", "std__vector__std__filesystem__path_8h.html#a449fde93810aa07a3e3606cd0708dbeb", null ],
     [ "MR_std_vector_std_filesystem_path_DestroyArray", "std__vector__std__filesystem__path_8h.html#ab010689d14d4e420c606e6ed74a20cde", null ],
     [ "MR_std_vector_std_filesystem_path_empty", "std__vector__std__filesystem__path_8h.html#a535e2276a585d3aba5c138910a0d3ddc", null ],
-    [ "MR_std_vector_std_filesystem_path_end", "std__vector__std__filesystem__path_8h.html#a29c8dc33cb808c9969f94c78488a4dae", null ],
-    [ "MR_std_vector_std_filesystem_path_end_mut", "std__vector__std__filesystem__path_8h.html#ab3b0148d7ce753136bd4b0bd83e8b53d", null ],
     [ "MR_std_vector_std_filesystem_path_erase", "std__vector__std__filesystem__path_8h.html#af67c685a5a3549d2720ed6e4fdeef2d8", null ],
     [ "MR_std_vector_std_filesystem_path_front", "std__vector__std__filesystem__path_8h.html#a973467df7ead330e217a0a8345b1f8b3", null ],
     [ "MR_std_vector_std_filesystem_path_front_mut", "std__vector__std__filesystem__path_8h.html#a504c7094d0f6699c7d9f8253170a65d5", null ],
@@ -27,7 +22,5 @@ var std__vector__std__filesystem__path_8h =
     [ "MR_std_vector_std_filesystem_path_push_back", "std__vector__std__filesystem__path_8h.html#a0cb1af5259eeab82b96cc6ac2400c2b7", null ],
     [ "MR_std_vector_std_filesystem_path_reserve", "std__vector__std__filesystem__path_8h.html#a31309eb1682d3891c993171613e8029e", null ],
     [ "MR_std_vector_std_filesystem_path_resize", "std__vector__std__filesystem__path_8h.html#a7fc47ed299fa8b14d86d889152da86c4", null ],
-    [ "MR_std_vector_std_filesystem_path_resize_with_default_value", "std__vector__std__filesystem__path_8h.html#a7ec148410f4fb1af991922e2d0606c4f", null ],
-    [ "MR_std_vector_std_filesystem_path_shrink_to_fit", "std__vector__std__filesystem__path_8h.html#a0de01a0b57d4368ac244cb5b5ffadee3", null ],
     [ "MR_std_vector_std_filesystem_path_size", "std__vector__std__filesystem__path_8h.html#a48d05d3f6c16ea354b45b9b15c56b7a2", null ]
 ];

@@ -1,17 +1,12 @@
 var std__vector__uint64__t__MR__Allocator__uint64__t_8h =
 [
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_AssignFromAnother", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#ac009eba4bcf1ba888193418922f702f9", null ],
-    [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_AssignFromRange", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a819f5fb14d9fb279d8d7c4432df5bd39", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_at", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a40681c875b39fb2300e040a4163678c7", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_at_mut", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a82e281d88af03f6753c0746f9c0ed40c", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_back", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a5341eb8fccacc3a29cdcae428c74cf85", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_back_mut", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a3857f6d67a9bbef90df3c4c87d75251f", null ],
-    [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_begin", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#ae8f4e8c0030790baa1bf711fcd9fe953", null ],
-    [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_begin_mut", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#afd6791b6969fbaf8671b3daff562f860", null ],
-    [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_capacity", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#ab96ac97cada0268170f2cb935cce06c0", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_clear", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#ac149732a3a4008450af1eb55d150b61d", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_ConstructFromAnother", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a300e759838de4f266c6630d35e5b6fad", null ],
-    [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_ConstructFromRange", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#ab06e35274069f49cf92971067cdfa9ba", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_data", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#ad6048016481f737e6b237a7f5a0e7edd", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_data_mut", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a051934e3a60ce5700da41d40ee982dd7", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_DefaultConstruct", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a5db4864cbcd6661b0172bc47860d40c7", null ],
@@ -19,8 +14,6 @@ var std__vector__uint64__t__MR__Allocator__uint64__t_8h =
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_Destroy", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a46593e26a7d8f907baea394920c4338a", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_DestroyArray", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a279868207a30c69baccf1bc38f524a97", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_empty", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#af50a10949c992cd253980a7caa29fb87", null ],
-    [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_end", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a9fc3125821f4f0a7bc422b7b357fd362", null ],
-    [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_end_mut", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a23b0b27b1f286d03a9f385f9e4e5160d", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_erase", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a56942e359a518396ef7e58e8a3066f23", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_front", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a3484cf5bbbca253c100b021b399e6c9c", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_front_mut", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a39f7c129cbd17fda3d0ce803f9671c3a", null ],
@@ -31,7 +24,5 @@ var std__vector__uint64__t__MR__Allocator__uint64__t_8h =
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_push_back", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a8f422046abc4acfc6a7f725353ce1ba0", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_reserve", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a49bdc86d09d406c6a11cb17ec4293837", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_resize", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a68db9ad7f52f570f6870de34813866bb", null ],
-    [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_resize_with_default_value", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#ad13b0e0e4b9481acdae2201a38ba0a4b", null ],
-    [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_shrink_to_fit", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#ab224b432b9e54ec2858fea42128faf0f", null ],
     [ "MR_std_vector_uint64_t_MR_Allocator_uint64_t_size", "std__vector__uint64__t__MR__Allocator__uint64__t_8h.html#a1b7a30fb8fd26f8a559f9fa3328d3992", null ]
 ];

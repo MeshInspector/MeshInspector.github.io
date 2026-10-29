@@ -5,9 +5,6 @@ var std__vector__MR__PointPair_8h =
     [ "MR_std_vector_MR_PointPair_at_mut", "std__vector__MR__PointPair_8h.html#a9e9c3d1796faebe3c729ada31078d8ee", null ],
     [ "MR_std_vector_MR_PointPair_back", "std__vector__MR__PointPair_8h.html#a794df76d86c406e7a58e2118d574409a", null ],
     [ "MR_std_vector_MR_PointPair_back_mut", "std__vector__MR__PointPair_8h.html#aca0af3042fe98df289df107ad50fa8d6", null ],
-    [ "MR_std_vector_MR_PointPair_begin", "std__vector__MR__PointPair_8h.html#a3dfdb6fb084972d5a568d04dcca97c03", null ],
-    [ "MR_std_vector_MR_PointPair_begin_mut", "std__vector__MR__PointPair_8h.html#a60d03c27251e0757eeed88728a2cd502", null ],
-    [ "MR_std_vector_MR_PointPair_capacity", "std__vector__MR__PointPair_8h.html#a75b5beb3d270b5a68b062d9a71fa67d4", null ],
     [ "MR_std_vector_MR_PointPair_clear", "std__vector__MR__PointPair_8h.html#a9764ff270f649b91bca4de2972d01d02", null ],
     [ "MR_std_vector_MR_PointPair_ConstructFromAnother", "std__vector__MR__PointPair_8h.html#a4fdce13bd988c4c2e56d65743a095a4c", null ],
     [ "MR_std_vector_MR_PointPair_DefaultConstruct", "std__vector__MR__PointPair_8h.html#abd8acc7c93f9783466dd24b8cad2df39", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__PointPair_8h =
     [ "MR_std_vector_MR_PointPair_Destroy", "std__vector__MR__PointPair_8h.html#aaa05f02c823c45eb18c1f937c42c87ae", null ],
     [ "MR_std_vector_MR_PointPair_DestroyArray", "std__vector__MR__PointPair_8h.html#ac0f658bbc062744345f12a7e1b9ac3e8", null ],
     [ "MR_std_vector_MR_PointPair_empty", "std__vector__MR__PointPair_8h.html#ae8f95a8c5a6121dc66276b036f2b9ce5", null ],
-    [ "MR_std_vector_MR_PointPair_end", "std__vector__MR__PointPair_8h.html#a230b50c9d05964cc484dc95d94cc7c7a", null ],
-    [ "MR_std_vector_MR_PointPair_end_mut", "std__vector__MR__PointPair_8h.html#a736a54bf2d9cf71b0b028728bd1eff5b", null ],
     [ "MR_std_vector_MR_PointPair_erase", "std__vector__MR__PointPair_8h.html#ab8985cb8ef072e02219bb0fe92c97a45", null ],
     [ "MR_std_vector_MR_PointPair_front", "std__vector__MR__PointPair_8h.html#a7bc3709a243151da33f9dd5c94a6db00", null ],
     [ "MR_std_vector_MR_PointPair_front_mut", "std__vector__MR__PointPair_8h.html#a247b6417ad9d36fcddb1e7f54de9fab9", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__PointPair_8h =
     [ "MR_std_vector_MR_PointPair_push_back", "std__vector__MR__PointPair_8h.html#abdb44a99c6d69868b35279ee4e54ae69", null ],
     [ "MR_std_vector_MR_PointPair_reserve", "std__vector__MR__PointPair_8h.html#adedd8f3a18c5dd469b5726ae9d49df7c", null ],
     [ "MR_std_vector_MR_PointPair_resize", "std__vector__MR__PointPair_8h.html#a150b577abaa9ede58351c422915d6cb3", null ],
-    [ "MR_std_vector_MR_PointPair_resize_with_default_value", "std__vector__MR__PointPair_8h.html#a45267c5e728a589a3fc61ab6952163ba", null ],
-    [ "MR_std_vector_MR_PointPair_shrink_to_fit", "std__vector__MR__PointPair_8h.html#a10ee639975b25f9211c5c68554906dad", null ],
     [ "MR_std_vector_MR_PointPair_size", "std__vector__MR__PointPair_8h.html#a11385b1e9e72bcb106bab645a7a18641", null ]
 ];

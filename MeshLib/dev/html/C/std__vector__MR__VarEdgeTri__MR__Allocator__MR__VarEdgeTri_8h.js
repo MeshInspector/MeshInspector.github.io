@@ -5,9 +5,6 @@ var std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h =
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_at_mut", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#a83b549cc05a5f9b926857aacc1429a88", null ],
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_back", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#adf58ef6ae5970982eed252d9bd7c52be", null ],
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_back_mut", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#aa27cfa2878659069914625e0b1fe9119", null ],
-    [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_begin", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#a8a29bc1e6c2e8eeaddcf28eadb1d18b2", null ],
-    [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_begin_mut", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#adbb7cc7ab64e6e8254f88be69f858df2", null ],
-    [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_capacity", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#a67eaf2df8f3f1bad43c64dbb9a7c8861", null ],
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_clear", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#a0f3ca536942366094709403aa74c8dc4", null ],
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_ConstructFromAnother", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#ab4c44b232fdf705f823bb53b70f883a0", null ],
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_DefaultConstruct", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#af42d91a8b9947f64c162b1b5b1bde62b", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h =
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_Destroy", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#ab2c797458eb6c9240a2ed795413a3974", null ],
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_DestroyArray", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#aa76025ed6a5056069b53ae24293cf541", null ],
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_empty", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#ac28ae40a062ab0ce0260ace44fe25aab", null ],
-    [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_end", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#ac236236eafc5c25f2bc9152865c9c266", null ],
-    [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_end_mut", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#adb9f60340a6a07ea6a3fc3b620c49300", null ],
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_erase", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#aa2faba2c92974e22a0faf46377e4ecb9", null ],
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_front", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#a742d7e433481744be62bd391356e1259", null ],
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_front_mut", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#aae26e36958f9b2cd5eb6f3e53a407d54", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h =
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_push_back", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#a960415bdca8d9e3d8add4f0017f328e4", null ],
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_reserve", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#a77799fb0306a4d18f507aea773717802", null ],
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_resize", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#ac38c934e02fb5f219b60f6b7a436d87a", null ],
-    [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_resize_with_default_value", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#abb163d1420b159a59ab2becaeb90c921", null ],
-    [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_shrink_to_fit", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#ac5d746eb5ed2bd9fde568eeebc6631a1", null ],
     [ "MR_std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri_size", "std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#abe168ab3d40283bb785f0b413850a9c9", null ]
 ];

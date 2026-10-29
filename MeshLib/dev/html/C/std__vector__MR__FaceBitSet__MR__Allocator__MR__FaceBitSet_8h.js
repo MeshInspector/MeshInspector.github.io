@@ -5,9 +5,6 @@ var std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h =
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_at_mut", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#afd6256895f64f7c09bb3ea3a616ad9f2", null ],
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_back", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#a83e9fad6c2e44ca02aeaebff1f9c1d21", null ],
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_back_mut", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#ad45d993b75fb4294c61c101da73559ea", null ],
-    [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_begin", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#a14a76f6a49adf04f112812ddc6a672c9", null ],
-    [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_begin_mut", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#a69a55c97373ae7c504f38402e610e717", null ],
-    [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_capacity", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#a2e4a9ab27adfb7e55eb14d7c04168514", null ],
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_clear", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#aff73508e38aad44492e061895449c564", null ],
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_ConstructFromAnother", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#af2765dc3595a513bba707610379eccca", null ],
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_DefaultConstruct", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#af35ba4de546e74905305df857d3c5483", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h =
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_Destroy", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#ade65a8c7c4a531816bc9256e669b3a8f", null ],
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_DestroyArray", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#a3792e62034895680d4518f4ec45e6774", null ],
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_empty", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#a44dd43f0f31aa78507d1587b9ed3fda2", null ],
-    [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_end", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#af723481133918ebdf51bb5e0c52fa5b4", null ],
-    [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_end_mut", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#a4341a31a2674748e837b4406412531f0", null ],
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_erase", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#acd65812e5e7213739cd7aad8ea56db5a", null ],
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_front", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#a266a8532ed00394e5108ca5eab79a0e6", null ],
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_front_mut", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#a4361902e2ee2cf203ec6ce117925508c", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h =
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_push_back", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#a788fc15f2c034e03035508e812b24857", null ],
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_reserve", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#abfe47afff7c387c6c1207574f2fab6c2", null ],
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_resize", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#a3100acbce39ca1296fe301d8ad93cc80", null ],
-    [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_resize_with_default_value", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#ad49971a9a702908184ad20a27e860074", null ],
-    [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_shrink_to_fit", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#adb5efa37eb8d0ea124e67147da4ab6c0", null ],
     [ "MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet_size", "std__vector__MR__FaceBitSet__MR__Allocator__MR__FaceBitSet_8h.html#acae2e596e4cd15d3312c671b7ddefcae", null ]
 ];

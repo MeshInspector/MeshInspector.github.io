@@ -1,17 +1,12 @@
 var std__vector__MR__Color_8h =
 [
     [ "MR_std_vector_MR_Color_AssignFromAnother", "std__vector__MR__Color_8h.html#a8d6a0f44e3ea8259a1e08987deb6c625", null ],
-    [ "MR_std_vector_MR_Color_AssignFromRange", "std__vector__MR__Color_8h.html#a1aca1b91ce032705f1b44c3bd2e5c987", null ],
     [ "MR_std_vector_MR_Color_at", "std__vector__MR__Color_8h.html#aba1ac0a5ce12ab8cf2d81943cfcf0711", null ],
     [ "MR_std_vector_MR_Color_at_mut", "std__vector__MR__Color_8h.html#ab2686fe88164d340130d6457dce56fbf", null ],
     [ "MR_std_vector_MR_Color_back", "std__vector__MR__Color_8h.html#a519795fa8a0c216bce71e61987179e1a", null ],
     [ "MR_std_vector_MR_Color_back_mut", "std__vector__MR__Color_8h.html#a5c00c94f5118afda82e7c0666b85eb0c", null ],
-    [ "MR_std_vector_MR_Color_begin", "std__vector__MR__Color_8h.html#a32b273a92e072d69e368254a6c719936", null ],
-    [ "MR_std_vector_MR_Color_begin_mut", "std__vector__MR__Color_8h.html#ac555720798bf39cb93c2e4ea9b0f45c1", null ],
-    [ "MR_std_vector_MR_Color_capacity", "std__vector__MR__Color_8h.html#a435421f3b88a2dffce270dd650b8ec03", null ],
     [ "MR_std_vector_MR_Color_clear", "std__vector__MR__Color_8h.html#a9e4fc8ac0224a9914c330aa62977ab7d", null ],
     [ "MR_std_vector_MR_Color_ConstructFromAnother", "std__vector__MR__Color_8h.html#a3a9f8d8447c6775d4e38c7c7db4d7fb1", null ],
-    [ "MR_std_vector_MR_Color_ConstructFromRange", "std__vector__MR__Color_8h.html#a39f0cced1ac14212a3a3637e03ce9ec1", null ],
     [ "MR_std_vector_MR_Color_data", "std__vector__MR__Color_8h.html#af4a98204634af4abd7c39a3cdb48d284", null ],
     [ "MR_std_vector_MR_Color_data_mut", "std__vector__MR__Color_8h.html#ac7c698421d8a80fd223c50fc4c5455e7", null ],
     [ "MR_std_vector_MR_Color_DefaultConstruct", "std__vector__MR__Color_8h.html#a58f9b53bf9c22c2987a972c9a6f81f33", null ],
@@ -19,8 +14,6 @@ var std__vector__MR__Color_8h =
     [ "MR_std_vector_MR_Color_Destroy", "std__vector__MR__Color_8h.html#ae8be6efc08af6001caa79d4a037f39f4", null ],
     [ "MR_std_vector_MR_Color_DestroyArray", "std__vector__MR__Color_8h.html#a21476af504fe1ed36c3d5c75777338e5", null ],
     [ "MR_std_vector_MR_Color_empty", "std__vector__MR__Color_8h.html#acccbf7ad82294277c84dc21b609e81ce", null ],
-    [ "MR_std_vector_MR_Color_end", "std__vector__MR__Color_8h.html#af72d06afbc1f71e748b0f4c0e8cc7f61", null ],
-    [ "MR_std_vector_MR_Color_end_mut", "std__vector__MR__Color_8h.html#a4eb7e6379818db1639b58bd88a434812", null ],
     [ "MR_std_vector_MR_Color_erase", "std__vector__MR__Color_8h.html#aa9e5dd590807607fb382a257f20a5513", null ],
     [ "MR_std_vector_MR_Color_front", "std__vector__MR__Color_8h.html#a8519930227b3b013b16c7fa2fa94acf5", null ],
     [ "MR_std_vector_MR_Color_front_mut", "std__vector__MR__Color_8h.html#a253c3f2ced02bc0281811495a8129c17", null ],
@@ -31,7 +24,5 @@ var std__vector__MR__Color_8h =
     [ "MR_std_vector_MR_Color_push_back", "std__vector__MR__Color_8h.html#af3d3c664264801033948074f41d3c031", null ],
     [ "MR_std_vector_MR_Color_reserve", "std__vector__MR__Color_8h.html#aa911bca9a5d6476df89ab0cacaea4332", null ],
     [ "MR_std_vector_MR_Color_resize", "std__vector__MR__Color_8h.html#ab1d455f9c0c0bb67cd84d1f6a988775c", null ],
-    [ "MR_std_vector_MR_Color_resize_with_default_value", "std__vector__MR__Color_8h.html#a27f0757460a3a9114030e7f8703512b4", null ],
-    [ "MR_std_vector_MR_Color_shrink_to_fit", "std__vector__MR__Color_8h.html#a87f08f85315a7395a41611880a1cc5cb", null ],
     [ "MR_std_vector_MR_Color_size", "std__vector__MR__Color_8h.html#ab7faa55718fdc8db87196fdd265167e0", null ]
 ];

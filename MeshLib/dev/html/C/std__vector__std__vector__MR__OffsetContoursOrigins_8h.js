@@ -5,9 +5,6 @@ var std__vector__std__vector__MR__OffsetContoursOrigins_8h =
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_at_mut", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#aa4803a06c97ed009443ce61933c69027", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_back", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a2caa77ae319ed6a9a324bd3fb1a7ce6d", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_back_mut", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#af2dfc933293421c30e1ee7426677e8e3", null ],
-    [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_begin", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a69d8f7eb8aaecc6845de45e7e357f3c1", null ],
-    [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_begin_mut", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#ae3e4302d77b99884c37df7177e5b37af", null ],
-    [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_capacity", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a09db817292e7087c5845777c31d28afb", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_clear", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a0905e03ab82e5c35114621dc3bd9f428", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_ConstructFromAnother", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a803994f194ceb0103168467acef16f4c", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_DefaultConstruct", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a619fe22ac7b17dec9bc9451bbcbd1f67", null ],
@@ -15,8 +12,6 @@ var std__vector__std__vector__MR__OffsetContoursOrigins_8h =
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_Destroy", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a6a39c9a7ebdb9c17502a913a1e9518b5", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_DestroyArray", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a9344675d671c021c3adcf9248b46982f", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_empty", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a465057457fd1b5285eb26939b0843af1", null ],
-    [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_end", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#ae2d263c9977e65be2779f2ed91813659", null ],
-    [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_end_mut", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a49f32a91c6c667cdc75519c72f0411a6", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_erase", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#aa3a9e670f836843fa2daa910f00b2028", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_front", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#af8db3d3be6ea9b7962cf3ff02d3d162b", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_front_mut", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a8bd036092385b8bc460e1d1819093e4e", null ],
@@ -27,7 +22,5 @@ var std__vector__std__vector__MR__OffsetContoursOrigins_8h =
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_push_back", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a15b258a31b142442f9162b01c329aafd", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_reserve", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#adf82a364f59b17d39273e2ec54e5be22", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_resize", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#acca10694fd05bf9ced89800619e6a5ad", null ],
-    [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_resize_with_default_value", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a8e5d227adb41e25b6b9ebfd616ee9dd1", null ],
-    [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_shrink_to_fit", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#a7e46d85ca357f1f0ebeec7cbb03108ae", null ],
     [ "MR_std_vector_std_vector_MR_OffsetContoursOrigins_size", "std__vector__std__vector__MR__OffsetContoursOrigins_8h.html#abfcbef77709d21b647a5f4601577e80c", null ]
 ];

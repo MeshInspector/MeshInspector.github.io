@@ -5,9 +5,6 @@ var std__vector__MR__EdgeBitSet_8h =
     [ "MR_std_vector_MR_EdgeBitSet_at_mut", "std__vector__MR__EdgeBitSet_8h.html#a9ab883172551f51246e59550cdd29e98", null ],
     [ "MR_std_vector_MR_EdgeBitSet_back", "std__vector__MR__EdgeBitSet_8h.html#ac8c52f08758063aa74e262bcd457c2f7", null ],
     [ "MR_std_vector_MR_EdgeBitSet_back_mut", "std__vector__MR__EdgeBitSet_8h.html#ac33ca9e7c037669360d86083a5064140", null ],
-    [ "MR_std_vector_MR_EdgeBitSet_begin", "std__vector__MR__EdgeBitSet_8h.html#aabe7e69186e81855fcd8375185cba325", null ],
-    [ "MR_std_vector_MR_EdgeBitSet_begin_mut", "std__vector__MR__EdgeBitSet_8h.html#a4fa1ae45b950f5286949afbbb6537833", null ],
-    [ "MR_std_vector_MR_EdgeBitSet_capacity", "std__vector__MR__EdgeBitSet_8h.html#a3bd4ad53d091089149a76a70614386ec", null ],
     [ "MR_std_vector_MR_EdgeBitSet_clear", "std__vector__MR__EdgeBitSet_8h.html#a84ff83ccf3112618d3c5534971d171eb", null ],
     [ "MR_std_vector_MR_EdgeBitSet_ConstructFromAnother", "std__vector__MR__EdgeBitSet_8h.html#ae8df937179102a9890e46a1bdf1af64e", null ],
     [ "MR_std_vector_MR_EdgeBitSet_DefaultConstruct", "std__vector__MR__EdgeBitSet_8h.html#a881b7a122b1e0f72a50b724fbf4c3059", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__EdgeBitSet_8h =
     [ "MR_std_vector_MR_EdgeBitSet_Destroy", "std__vector__MR__EdgeBitSet_8h.html#a72e25067a453b1ebf90eacb9ce8d9390", null ],
     [ "MR_std_vector_MR_EdgeBitSet_DestroyArray", "std__vector__MR__EdgeBitSet_8h.html#a4e51e7f8a627308160cf225577ebec0c", null ],
     [ "MR_std_vector_MR_EdgeBitSet_empty", "std__vector__MR__EdgeBitSet_8h.html#ae4cce54066261a5670e8c6a5dc5e281e", null ],
-    [ "MR_std_vector_MR_EdgeBitSet_end", "std__vector__MR__EdgeBitSet_8h.html#a7c659bcec20b9d1104d4c1ea595ccad6", null ],
-    [ "MR_std_vector_MR_EdgeBitSet_end_mut", "std__vector__MR__EdgeBitSet_8h.html#a54181c66d051c7a7df9f68d8b3f1529d", null ],
     [ "MR_std_vector_MR_EdgeBitSet_erase", "std__vector__MR__EdgeBitSet_8h.html#adf0f9142ce618198f196bdd4b0e17067", null ],
     [ "MR_std_vector_MR_EdgeBitSet_front", "std__vector__MR__EdgeBitSet_8h.html#a36f7d8f65bbf5703b28ca21639a31b54", null ],
     [ "MR_std_vector_MR_EdgeBitSet_front_mut", "std__vector__MR__EdgeBitSet_8h.html#a5e5ccc517a3d48980081cbea3ee03c50", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__EdgeBitSet_8h =
     [ "MR_std_vector_MR_EdgeBitSet_push_back", "std__vector__MR__EdgeBitSet_8h.html#ab75e48aaa424d582ab5b9202ca1ee71e", null ],
     [ "MR_std_vector_MR_EdgeBitSet_reserve", "std__vector__MR__EdgeBitSet_8h.html#ab771275eb0afccb91bcea3a7ad2e7768", null ],
     [ "MR_std_vector_MR_EdgeBitSet_resize", "std__vector__MR__EdgeBitSet_8h.html#a53cc0018c292c30bdf74e077301f37e2", null ],
-    [ "MR_std_vector_MR_EdgeBitSet_resize_with_default_value", "std__vector__MR__EdgeBitSet_8h.html#a3e7062a5259696fc064f7f582a68ebf5", null ],
-    [ "MR_std_vector_MR_EdgeBitSet_shrink_to_fit", "std__vector__MR__EdgeBitSet_8h.html#a588c02b0d38186cd5599fc6609974e04", null ],
     [ "MR_std_vector_MR_EdgeBitSet_size", "std__vector__MR__EdgeBitSet_8h.html#a5f68ff5321f9b5cd63fc3751311fb2f0", null ]
 ];

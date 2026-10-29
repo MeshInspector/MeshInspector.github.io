@@ -5,9 +5,6 @@ var std__vector__MR__FlowOrigin_8h =
     [ "MR_std_vector_MR_FlowOrigin_at_mut", "std__vector__MR__FlowOrigin_8h.html#ac0e557bdf74257f9203f37e3bd09ec42", null ],
     [ "MR_std_vector_MR_FlowOrigin_back", "std__vector__MR__FlowOrigin_8h.html#a153209fe03d3f87205c176587ef7ecd7", null ],
     [ "MR_std_vector_MR_FlowOrigin_back_mut", "std__vector__MR__FlowOrigin_8h.html#a9925fbebf3c6f188130b8e2566f9d27a", null ],
-    [ "MR_std_vector_MR_FlowOrigin_begin", "std__vector__MR__FlowOrigin_8h.html#a91df59222fe8e3cbd6c77769c2eb9b8e", null ],
-    [ "MR_std_vector_MR_FlowOrigin_begin_mut", "std__vector__MR__FlowOrigin_8h.html#a4fa4f630eacb59b9ec8e3767d764cb2b", null ],
-    [ "MR_std_vector_MR_FlowOrigin_capacity", "std__vector__MR__FlowOrigin_8h.html#a853aaec6c6570f10a3a0ed3cd06a8335", null ],
     [ "MR_std_vector_MR_FlowOrigin_clear", "std__vector__MR__FlowOrigin_8h.html#a00f3f765dcd6aeb12057bed328139606", null ],
     [ "MR_std_vector_MR_FlowOrigin_ConstructFromAnother", "std__vector__MR__FlowOrigin_8h.html#a5a9aaa6a056099b62d81aadf04029ce3", null ],
     [ "MR_std_vector_MR_FlowOrigin_DefaultConstruct", "std__vector__MR__FlowOrigin_8h.html#a6593cdba2fa2f7c185c9e09bfdb7b911", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__FlowOrigin_8h =
     [ "MR_std_vector_MR_FlowOrigin_Destroy", "std__vector__MR__FlowOrigin_8h.html#aac7c1f3ae7977ab86d540181e85d7c00", null ],
     [ "MR_std_vector_MR_FlowOrigin_DestroyArray", "std__vector__MR__FlowOrigin_8h.html#a652de764ecaab11f346389bf15a82693", null ],
     [ "MR_std_vector_MR_FlowOrigin_empty", "std__vector__MR__FlowOrigin_8h.html#ada88c04e8873463aa1820bbf93675184", null ],
-    [ "MR_std_vector_MR_FlowOrigin_end", "std__vector__MR__FlowOrigin_8h.html#a114d5717d0669bfd523e1d2bf6e65c1c", null ],
-    [ "MR_std_vector_MR_FlowOrigin_end_mut", "std__vector__MR__FlowOrigin_8h.html#a892100e839841234be33aa36438596ec", null ],
     [ "MR_std_vector_MR_FlowOrigin_erase", "std__vector__MR__FlowOrigin_8h.html#ad54591db7846dabec0ddd91679f1639a", null ],
     [ "MR_std_vector_MR_FlowOrigin_front", "std__vector__MR__FlowOrigin_8h.html#ac638719ffaa2bbdf694b36f571629178", null ],
     [ "MR_std_vector_MR_FlowOrigin_front_mut", "std__vector__MR__FlowOrigin_8h.html#a06f50cd67aa72357cb97560d2000c5be", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__FlowOrigin_8h =
     [ "MR_std_vector_MR_FlowOrigin_push_back", "std__vector__MR__FlowOrigin_8h.html#ae09425cf607ba0a0e4f9f22574cfa343", null ],
     [ "MR_std_vector_MR_FlowOrigin_reserve", "std__vector__MR__FlowOrigin_8h.html#a9d1ad501786a06f40b4d35b0fb4c449a", null ],
     [ "MR_std_vector_MR_FlowOrigin_resize", "std__vector__MR__FlowOrigin_8h.html#ac3da040a7cdb68b0f3e5103632570745", null ],
-    [ "MR_std_vector_MR_FlowOrigin_resize_with_default_value", "std__vector__MR__FlowOrigin_8h.html#a6a60c7f3ae149f448016dc77ae6efbba", null ],
-    [ "MR_std_vector_MR_FlowOrigin_shrink_to_fit", "std__vector__MR__FlowOrigin_8h.html#a38d91ed078f69448fa4bb9d4b3f9d4e8", null ],
     [ "MR_std_vector_MR_FlowOrigin_size", "std__vector__MR__FlowOrigin_8h.html#a72d69796b7a15b5a2b61389f36731327", null ]
 ];

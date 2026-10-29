@@ -5,9 +5,6 @@ var std__vector__MR__CurvePoint_8h =
     [ "MR_std_vector_MR_CurvePoint_at_mut", "std__vector__MR__CurvePoint_8h.html#aab05769dfde684b8f32cb1b9c6531071", null ],
     [ "MR_std_vector_MR_CurvePoint_back", "std__vector__MR__CurvePoint_8h.html#a666b53aa0b320d0238f6f0d00ceefeeb", null ],
     [ "MR_std_vector_MR_CurvePoint_back_mut", "std__vector__MR__CurvePoint_8h.html#a1b104722916c09990b62419f881c6398", null ],
-    [ "MR_std_vector_MR_CurvePoint_begin", "std__vector__MR__CurvePoint_8h.html#a2b4763cec3c7032a35789d42220e993a", null ],
-    [ "MR_std_vector_MR_CurvePoint_begin_mut", "std__vector__MR__CurvePoint_8h.html#a3e314199ea726211c43dd8a3cd700fd4", null ],
-    [ "MR_std_vector_MR_CurvePoint_capacity", "std__vector__MR__CurvePoint_8h.html#a4fbc16af4f53c77184323f7f2c542f82", null ],
     [ "MR_std_vector_MR_CurvePoint_clear", "std__vector__MR__CurvePoint_8h.html#ad3fd36f67c39d5c82cba2eb0bc6eb0c9", null ],
     [ "MR_std_vector_MR_CurvePoint_ConstructFromAnother", "std__vector__MR__CurvePoint_8h.html#a5b4cf8291e876747939313e89e7c3f6f", null ],
     [ "MR_std_vector_MR_CurvePoint_DefaultConstruct", "std__vector__MR__CurvePoint_8h.html#ae839a6960796ce5fcb4c5210dc95ccb6", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__CurvePoint_8h =
     [ "MR_std_vector_MR_CurvePoint_Destroy", "std__vector__MR__CurvePoint_8h.html#a7320e57add9db519fd21c8952c15ca96", null ],
     [ "MR_std_vector_MR_CurvePoint_DestroyArray", "std__vector__MR__CurvePoint_8h.html#ae645761dd8d5ce398b12e2fd6c18e926", null ],
     [ "MR_std_vector_MR_CurvePoint_empty", "std__vector__MR__CurvePoint_8h.html#a893f906f3a594f00cb40f82c0cb08d94", null ],
-    [ "MR_std_vector_MR_CurvePoint_end", "std__vector__MR__CurvePoint_8h.html#a0bc09eb27a2afc18b2231158f32c4390", null ],
-    [ "MR_std_vector_MR_CurvePoint_end_mut", "std__vector__MR__CurvePoint_8h.html#a01b19da60c481c2aab8fc6f111b4b3d6", null ],
     [ "MR_std_vector_MR_CurvePoint_erase", "std__vector__MR__CurvePoint_8h.html#a02bd83b3d0036cb140f5f4c281f261f9", null ],
     [ "MR_std_vector_MR_CurvePoint_front", "std__vector__MR__CurvePoint_8h.html#abe675b686fccb83f09a7b95c517b2fb9", null ],
     [ "MR_std_vector_MR_CurvePoint_front_mut", "std__vector__MR__CurvePoint_8h.html#a8614c1020d01c24e7d2f90c77c702efb", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__CurvePoint_8h =
     [ "MR_std_vector_MR_CurvePoint_push_back", "std__vector__MR__CurvePoint_8h.html#a30c44a75d639bf1a9cf1e66b6bf986c8", null ],
     [ "MR_std_vector_MR_CurvePoint_reserve", "std__vector__MR__CurvePoint_8h.html#a12119565614132852dd7c104a2e28567", null ],
     [ "MR_std_vector_MR_CurvePoint_resize", "std__vector__MR__CurvePoint_8h.html#afa1739829f55ca67563124185ce71ef7", null ],
-    [ "MR_std_vector_MR_CurvePoint_resize_with_default_value", "std__vector__MR__CurvePoint_8h.html#a9228740c739f1d9a7339eefda6142920", null ],
-    [ "MR_std_vector_MR_CurvePoint_shrink_to_fit", "std__vector__MR__CurvePoint_8h.html#aa34a150cfceb904af46098ec18078c50", null ],
     [ "MR_std_vector_MR_CurvePoint_size", "std__vector__MR__CurvePoint_8h.html#a1d181c40c525e2eb57526a353b060aa8", null ]
 ];

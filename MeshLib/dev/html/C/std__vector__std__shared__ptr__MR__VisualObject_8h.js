@@ -5,9 +5,6 @@ var std__vector__std__shared__ptr__MR__VisualObject_8h =
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_at_mut", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a2170aafd95d6d51afba14ef8900f9a93", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_back", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#aec22540b543d6de6636d75408828889a", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_back_mut", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#aa232c679c0e54b47332995fb21f22348", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_VisualObject_begin", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a77e1d60dd031a7084c63009b1ef40d13", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_VisualObject_begin_mut", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#aca60e9c5172f8996602d064cf98bb18a", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_VisualObject_capacity", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a0e408bbd217cc2e54c8037b71c9e2b97", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_clear", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a92ab3ba2b83412e3e619055820acf0ef", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_ConstructFromAnother", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a4ea15817a0980a770fd329a490fc7350", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_DefaultConstruct", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a75c42eed8c6fbb7ffaa5d3b06b9b345a", null ],
@@ -15,8 +12,6 @@ var std__vector__std__shared__ptr__MR__VisualObject_8h =
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_Destroy", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#ac1848e4fb91f0321ce72f0e8b2fd1593", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_DestroyArray", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a5edc8415ae68f9ee8468dce85de6d069", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_empty", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a69f0a2fa61e54c46fd217e54d2cf0e15", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_VisualObject_end", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a947ba0082eef3d9e4db1663add7e229c", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_VisualObject_end_mut", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a6f488ab6f3efa7455104c848629046cf", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_erase", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a3ff1186a5fdba226df685db5c71f05fd", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_front", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a75ef12169473a8e83d097749af40f2c9", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_front_mut", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a7f1dfedbcdcc0ad4232e76dc428aadf5", null ],
@@ -27,7 +22,5 @@ var std__vector__std__shared__ptr__MR__VisualObject_8h =
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_push_back", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a1e1ca3c02c2fccc3a0267e0a990fce01", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_reserve", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#affc0e7758a9efea9de56a5c56eb2a546", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_resize", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#aa4167abea63abddd969ab0536d9b6154", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_VisualObject_resize_with_default_value", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a20ccd3fb72434fedccc6c14462b7b8af", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_VisualObject_shrink_to_fit", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#a1b27db44fd44b19a640e20aa6e7078e3", null ],
     [ "MR_std_vector_std_shared_ptr_MR_VisualObject_size", "std__vector__std__shared__ptr__MR__VisualObject_8h.html#adba5739c421b1626b210d058076ab31c", null ]
 ];

@@ -5,9 +5,6 @@ var std__vector__MR__AlphaShapeNei_8h =
     [ "MR_std_vector_MR_AlphaShapeNei_at_mut", "std__vector__MR__AlphaShapeNei_8h.html#a0aa841c77bc0e77da918ead3f0837ecc", null ],
     [ "MR_std_vector_MR_AlphaShapeNei_back", "std__vector__MR__AlphaShapeNei_8h.html#a6064114147b9348272345ce215e68427", null ],
     [ "MR_std_vector_MR_AlphaShapeNei_back_mut", "std__vector__MR__AlphaShapeNei_8h.html#aee15e1a52fee6a3d53c65054b5c34914", null ],
-    [ "MR_std_vector_MR_AlphaShapeNei_begin", "std__vector__MR__AlphaShapeNei_8h.html#a35d64f2268870971c81c6eb0e67c2d0c", null ],
-    [ "MR_std_vector_MR_AlphaShapeNei_begin_mut", "std__vector__MR__AlphaShapeNei_8h.html#acc86b61f3c8cfbf99aaa79e905c91d51", null ],
-    [ "MR_std_vector_MR_AlphaShapeNei_capacity", "std__vector__MR__AlphaShapeNei_8h.html#ac427c6af0ef7100813fe70adcec83df1", null ],
     [ "MR_std_vector_MR_AlphaShapeNei_clear", "std__vector__MR__AlphaShapeNei_8h.html#ae3513b3d736f9396654fcaa59b832fd3", null ],
     [ "MR_std_vector_MR_AlphaShapeNei_ConstructFromAnother", "std__vector__MR__AlphaShapeNei_8h.html#a683f638499c14f5234db9ce7ad034d92", null ],
     [ "MR_std_vector_MR_AlphaShapeNei_DefaultConstruct", "std__vector__MR__AlphaShapeNei_8h.html#a8a274e4a580befbde21babc4efef0e15", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__AlphaShapeNei_8h =
     [ "MR_std_vector_MR_AlphaShapeNei_Destroy", "std__vector__MR__AlphaShapeNei_8h.html#a904fbe7e9601efda3dec7a08bec50aa5", null ],
     [ "MR_std_vector_MR_AlphaShapeNei_DestroyArray", "std__vector__MR__AlphaShapeNei_8h.html#a8141eec98932b299b2f4eb70369a8f6a", null ],
     [ "MR_std_vector_MR_AlphaShapeNei_empty", "std__vector__MR__AlphaShapeNei_8h.html#a3f4a4ebf41a05c6554ef101869739e27", null ],
-    [ "MR_std_vector_MR_AlphaShapeNei_end", "std__vector__MR__AlphaShapeNei_8h.html#a1f075ed8a93d4318cc10ff9e6044716f", null ],
-    [ "MR_std_vector_MR_AlphaShapeNei_end_mut", "std__vector__MR__AlphaShapeNei_8h.html#a1bacd4f5c35cca5301f0ddf61194d457", null ],
     [ "MR_std_vector_MR_AlphaShapeNei_erase", "std__vector__MR__AlphaShapeNei_8h.html#affb60c4427318a9bfb611c4ba5bd4dfc", null ],
     [ "MR_std_vector_MR_AlphaShapeNei_front", "std__vector__MR__AlphaShapeNei_8h.html#a2959f547f603e4eae23ab3f089d2a904", null ],
     [ "MR_std_vector_MR_AlphaShapeNei_front_mut", "std__vector__MR__AlphaShapeNei_8h.html#aaf98318431284c33549a0e85ce0fe5bb", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__AlphaShapeNei_8h =
     [ "MR_std_vector_MR_AlphaShapeNei_push_back", "std__vector__MR__AlphaShapeNei_8h.html#adf4073cb754576e5d9bf58a20456b832", null ],
     [ "MR_std_vector_MR_AlphaShapeNei_reserve", "std__vector__MR__AlphaShapeNei_8h.html#ae88a421b6631344546130805e1ef20f6", null ],
     [ "MR_std_vector_MR_AlphaShapeNei_resize", "std__vector__MR__AlphaShapeNei_8h.html#aa831d1ea91aa50dee38b78bde052e69e", null ],
-    [ "MR_std_vector_MR_AlphaShapeNei_resize_with_default_value", "std__vector__MR__AlphaShapeNei_8h.html#a3f9560492a2378e5e348ab4c8d0bbafb", null ],
-    [ "MR_std_vector_MR_AlphaShapeNei_shrink_to_fit", "std__vector__MR__AlphaShapeNei_8h.html#aad355563ced1c3ba2262f029f071ebf3", null ],
     [ "MR_std_vector_MR_AlphaShapeNei_size", "std__vector__MR__AlphaShapeNei_8h.html#ac492f803c2399a11bac007d73c9b2243", null ]
 ];

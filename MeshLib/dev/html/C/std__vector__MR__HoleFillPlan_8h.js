@@ -5,9 +5,6 @@ var std__vector__MR__HoleFillPlan_8h =
     [ "MR_std_vector_MR_HoleFillPlan_at_mut", "std__vector__MR__HoleFillPlan_8h.html#ace379f0361cdcfe6850e4226f41ec073", null ],
     [ "MR_std_vector_MR_HoleFillPlan_back", "std__vector__MR__HoleFillPlan_8h.html#ad978a1c9d5a873249bca0d954015b515", null ],
     [ "MR_std_vector_MR_HoleFillPlan_back_mut", "std__vector__MR__HoleFillPlan_8h.html#a24ed31fb88179e21208c32273e02c396", null ],
-    [ "MR_std_vector_MR_HoleFillPlan_begin", "std__vector__MR__HoleFillPlan_8h.html#a3865d0234791c87f7812986df418e005", null ],
-    [ "MR_std_vector_MR_HoleFillPlan_begin_mut", "std__vector__MR__HoleFillPlan_8h.html#a82e5513b6e04299ebff01f33e877839e", null ],
-    [ "MR_std_vector_MR_HoleFillPlan_capacity", "std__vector__MR__HoleFillPlan_8h.html#ac0113b72cf08dac47ad4370805f423ef", null ],
     [ "MR_std_vector_MR_HoleFillPlan_clear", "std__vector__MR__HoleFillPlan_8h.html#adbdd038e59f82493a1ca651cd117ddce", null ],
     [ "MR_std_vector_MR_HoleFillPlan_ConstructFromAnother", "std__vector__MR__HoleFillPlan_8h.html#a6dbb0742a370b733134e6a6a904bd71d", null ],
     [ "MR_std_vector_MR_HoleFillPlan_DefaultConstruct", "std__vector__MR__HoleFillPlan_8h.html#abffc74bc7e511807802a460804e138dd", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__HoleFillPlan_8h =
     [ "MR_std_vector_MR_HoleFillPlan_Destroy", "std__vector__MR__HoleFillPlan_8h.html#af6e796825324484ec7ed0b7ed98c482a", null ],
     [ "MR_std_vector_MR_HoleFillPlan_DestroyArray", "std__vector__MR__HoleFillPlan_8h.html#a3d72b820231389933c9aaa7a8bbe3f70", null ],
     [ "MR_std_vector_MR_HoleFillPlan_empty", "std__vector__MR__HoleFillPlan_8h.html#a0b31abec88bf7ce7e54b5b8e21cc20d2", null ],
-    [ "MR_std_vector_MR_HoleFillPlan_end", "std__vector__MR__HoleFillPlan_8h.html#a59a5337232fe7a7ca5d43e722ff2713b", null ],
-    [ "MR_std_vector_MR_HoleFillPlan_end_mut", "std__vector__MR__HoleFillPlan_8h.html#af740c9087c11a9473334a0f45511fd39", null ],
     [ "MR_std_vector_MR_HoleFillPlan_erase", "std__vector__MR__HoleFillPlan_8h.html#a0b885ddf1c4b27f62c708d71581faccb", null ],
     [ "MR_std_vector_MR_HoleFillPlan_front", "std__vector__MR__HoleFillPlan_8h.html#a2fcf88669616d73b635fa5974c444549", null ],
     [ "MR_std_vector_MR_HoleFillPlan_front_mut", "std__vector__MR__HoleFillPlan_8h.html#ae3d37f682cf45c6257e6a1750c92b1c4", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__HoleFillPlan_8h =
     [ "MR_std_vector_MR_HoleFillPlan_push_back", "std__vector__MR__HoleFillPlan_8h.html#a4c2938b228f030072ae7e8776722d887", null ],
     [ "MR_std_vector_MR_HoleFillPlan_reserve", "std__vector__MR__HoleFillPlan_8h.html#a7c8d737192e975414653caf4278eef44", null ],
     [ "MR_std_vector_MR_HoleFillPlan_resize", "std__vector__MR__HoleFillPlan_8h.html#a6e6e8780adaf9ebb12e8c5561699a2cb", null ],
-    [ "MR_std_vector_MR_HoleFillPlan_resize_with_default_value", "std__vector__MR__HoleFillPlan_8h.html#a9d2dbc6b1c6ee2eed5b114eb5f7ac7ee", null ],
-    [ "MR_std_vector_MR_HoleFillPlan_shrink_to_fit", "std__vector__MR__HoleFillPlan_8h.html#a80dbf71b6717616396e51758d9f9c4ff", null ],
     [ "MR_std_vector_MR_HoleFillPlan_size", "std__vector__MR__HoleFillPlan_8h.html#a32e4a798f6b2357a0c9c08941e8b2622", null ]
 ];

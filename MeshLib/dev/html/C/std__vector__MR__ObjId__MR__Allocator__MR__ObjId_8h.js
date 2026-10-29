@@ -1,17 +1,12 @@
 var std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h =
 [
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_AssignFromAnother", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a1ebd3d87b9cf899edf7aa8d1b1a0c864", null ],
-    [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_AssignFromRange", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a4aa18c5900319bebba9aae935d3f6c67", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_at", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#aa4abfd01532dafa8bd22c4abd416b6cb", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_at_mut", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a7dd951562c5716ec7d00bde8217ac659", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_back", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a221974431b1e18691a3d1a3e740496c8", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_back_mut", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#aca5cc0b23ec184b8503a43e0ce7d267a", null ],
-    [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_begin", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#ad701f4873c46f5d66f852b395cfbe96e", null ],
-    [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_begin_mut", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a56d818a47907f16d39dd8ad86ea7d57f", null ],
-    [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_capacity", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#ade0c668c0dabc29e7087e8ec8103e31f", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_clear", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#abb63db34240c95f888aae7230cbce6c9", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_ConstructFromAnother", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a207a574db158ef3609fc4ddc48c93c14", null ],
-    [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_ConstructFromRange", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a93fbb6bf5d1e85f1afb2d53a30c13761", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_data", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a9a52c593ba31ecfa10f9e87584c87c04", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_data_mut", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a648eff6d3c308e1bf9abf01eaddc7d65", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_DefaultConstruct", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a37eabf002561781063f12187babd41bb", null ],
@@ -19,8 +14,6 @@ var std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h =
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_Destroy", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a1976349ab6181a946a5a78bfe122a2c8", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_DestroyArray", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a9a658fb776d34be2da0cb2e444f8f057", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_empty", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#aff9fb79798e02e634005cf12715d63ce", null ],
-    [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_end", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#ac175d7b8ebde05bb4c4b07472d530ba2", null ],
-    [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_end_mut", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a92734eca8e093fb70ff781a4f7352971", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_erase", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a93bbc087af980f9134364ace848f70df", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_front", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a05bb87facf631d6cba16a0327e68ea7c", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_front_mut", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#af7f8a2658a97d7ba6933fed0d32da5af", null ],
@@ -31,7 +24,5 @@ var std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h =
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_push_back", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a3e97dcc393d62d75bda7be2d3f91c71f", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_reserve", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a224a6d1b3d425c36789abd529fd64d8b", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_resize", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#aadfa044afe148cc278fc05c00f2ff681", null ],
-    [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_resize_with_default_value", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#ab58d92e55a933c966d2e500ca34efbf1", null ],
-    [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_shrink_to_fit", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a009c4411bb3e9fbf43731952dd5e10eb", null ],
     [ "MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId_size", "std__vector__MR__ObjId__MR__Allocator__MR__ObjId_8h.html#a17d419b472fc356a5369ff6e849edfba", null ]
 ];

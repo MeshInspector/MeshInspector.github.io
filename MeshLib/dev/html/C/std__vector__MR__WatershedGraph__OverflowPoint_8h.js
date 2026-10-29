@@ -5,9 +5,6 @@ var std__vector__MR__WatershedGraph__OverflowPoint_8h =
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_at_mut", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#aed289e61f3f5ada75858e680bb744141", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_back", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#a0a8f5780c3e4dbe8b733cf87c77533cf", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_back_mut", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#abf787977e2c37ea4bc834012e403ef02", null ],
-    [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_begin", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#a2b83ff4d8ea8f615802af4812bb3c220", null ],
-    [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_begin_mut", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#ad260883393a2e9fe0edc78b549184e34", null ],
-    [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_capacity", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#ac0233345befd0d36cd8eabd563697a98", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_clear", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#a93c5cdbecfd5bcb17ee3f3e8c73c0f53", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_ConstructFromAnother", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#a7f2a006ea47e2dd49af1458b06540dda", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_DefaultConstruct", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#ad5ce4f87868713a216dd889187895eb7", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__WatershedGraph__OverflowPoint_8h =
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_Destroy", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#a8e808b83a1af8da9bbf917cb116774e8", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_DestroyArray", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#a8034a1258ff58a7a8e4fe12e35f4663f", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_empty", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#ad4aaa6dc2761a89cb95b457f669d2478", null ],
-    [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_end", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#a36ad364bca3e0df74b078b1933259479", null ],
-    [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_end_mut", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#a609a7c0ca6d90afc2615d995fd2a6c28", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_erase", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#a8627eb745133b18d078461f52798f175", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_front", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#ad0dfe4584af95f99e4727c2e5b931b5e", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_front_mut", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#a26cb0d1ab7f74fef112fc3a68d0d983b", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__WatershedGraph__OverflowPoint_8h =
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_push_back", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#a48dde3e65ca7d10ef4e5a6eb01150ddd", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_reserve", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#ae66b9b34d0d0f1ffdc1c8b2504f0164f", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_resize", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#af288e0433ea107f771e7d3900f0d2c79", null ],
-    [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_resize_with_default_value", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#a8dae90013ef6b6912a4a210885bbe42e", null ],
-    [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_shrink_to_fit", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#a3aa6161c7f561eb2145c1f50f366e67a", null ],
     [ "MR_std_vector_MR_WatershedGraph_OverflowPoint_size", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html#adf419fba3214c1fe8a8b82cd17a36012", null ]
 ];

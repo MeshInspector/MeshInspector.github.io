@@ -5,9 +5,6 @@ var std__vector__std__shared__ptr__MR__ObjectVoxels_8h =
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_at_mut", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#abdbbc3b7bb606b52a28ef80ba58e4c85", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_back", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#af039b1a25a66e0c000a6de514c18423b", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_back_mut", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#a010ce875b5dd61f46a46a8cd4ea8618d", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_begin", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#a366d30266f226c8b5dfd5e922c6cd0b6", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_begin_mut", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#a2a9065bb26fc9e1150196b29220b90ca", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_capacity", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#aca4074a03347e02e3d9e2737667beb4f", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_clear", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#ae48e6406eb6e4c77456397c38adbb0cc", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_ConstructFromAnother", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#ac84f5386afeb6d9d013cfd28e9d68ff7", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_DefaultConstruct", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#a5d7071e09c2f690e0ea0ccb995f92b8e", null ],
@@ -15,8 +12,6 @@ var std__vector__std__shared__ptr__MR__ObjectVoxels_8h =
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_Destroy", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#ab577d6eae49e40721711cccf2d6e281a", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_DestroyArray", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#a020260031b555aefd07efca08cbc76ec", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_empty", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#a544c71e36bfcd8b220371d8fccd792b3", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_end", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#ae134e5fc59aa6c6ff55fcf2276c54db3", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_end_mut", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#a4e5417ccd9c6c15f6d09e0d936b6f05b", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_erase", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#ae45113281a2c8db6f88c3b06fc772b16", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_front", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#a7cec0f7bc83d39c91dae58a3d24d4b2b", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_front_mut", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#acc9552432dc42b1d730c206ca34d50da", null ],
@@ -27,7 +22,5 @@ var std__vector__std__shared__ptr__MR__ObjectVoxels_8h =
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_push_back", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#acf3db2bd5e1d6392c9f1d6655820af49", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_reserve", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#aa20f102af8a6b4535118f13b6e8dca50", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_resize", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#aacdd340b4aa7bba323476ab3c9729708", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_resize_with_default_value", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#a8a123278406122d90e6bf55e912ee623", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_shrink_to_fit", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#ad580e9561c64f9d0c4f47cfefb2d495e", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectVoxels_size", "std__vector__std__shared__ptr__MR__ObjectVoxels_8h.html#a374bb1798d2f2153426a33fee7f158b9", null ]
 ];

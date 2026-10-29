@@ -6,9 +6,6 @@ var std__vector__MR__VoxelBitSet_8h =
     [ "MR_std_vector_MR_VoxelBitSet_at_mut", "std__vector__MR__VoxelBitSet_8h.html#a4c5c383465795d1697bbf0f95d39be7a", null ],
     [ "MR_std_vector_MR_VoxelBitSet_back", "std__vector__MR__VoxelBitSet_8h.html#a3df66fa0fcfa3b22403ce9519fbba85e", null ],
     [ "MR_std_vector_MR_VoxelBitSet_back_mut", "std__vector__MR__VoxelBitSet_8h.html#a70a97a785e02f2a5736f944b7af6364e", null ],
-    [ "MR_std_vector_MR_VoxelBitSet_begin", "std__vector__MR__VoxelBitSet_8h.html#a4d001efa9968c810973ed8bb9e487088", null ],
-    [ "MR_std_vector_MR_VoxelBitSet_begin_mut", "std__vector__MR__VoxelBitSet_8h.html#a995e37536eabae68b5b844998ea61f52", null ],
-    [ "MR_std_vector_MR_VoxelBitSet_capacity", "std__vector__MR__VoxelBitSet_8h.html#a2c385eaecd876932d6a5e290fc493486", null ],
     [ "MR_std_vector_MR_VoxelBitSet_clear", "std__vector__MR__VoxelBitSet_8h.html#a5f26caff92ebee07e572e9cb0ecd8a06", null ],
     [ "MR_std_vector_MR_VoxelBitSet_ConstructFromAnother", "std__vector__MR__VoxelBitSet_8h.html#ab6d49273cdac9835cd7be322a2d843db", null ],
     [ "MR_std_vector_MR_VoxelBitSet_DefaultConstruct", "std__vector__MR__VoxelBitSet_8h.html#af3015eeda6d79a63d34234d59a73fec0", null ],
@@ -16,8 +13,6 @@ var std__vector__MR__VoxelBitSet_8h =
     [ "MR_std_vector_MR_VoxelBitSet_Destroy", "std__vector__MR__VoxelBitSet_8h.html#ad655bf798d8f73a532e1f0fa2c9e2f1f", null ],
     [ "MR_std_vector_MR_VoxelBitSet_DestroyArray", "std__vector__MR__VoxelBitSet_8h.html#a78ce23c2c177270819d46686a42a8aae", null ],
     [ "MR_std_vector_MR_VoxelBitSet_empty", "std__vector__MR__VoxelBitSet_8h.html#a2d607b45efc5aa4c95cb8a1cfac80f66", null ],
-    [ "MR_std_vector_MR_VoxelBitSet_end", "std__vector__MR__VoxelBitSet_8h.html#a550ba1a5108fc7d92ff152c6d08bb8c4", null ],
-    [ "MR_std_vector_MR_VoxelBitSet_end_mut", "std__vector__MR__VoxelBitSet_8h.html#a4fc5ff599f2545c513a36ae94e761469", null ],
     [ "MR_std_vector_MR_VoxelBitSet_erase", "std__vector__MR__VoxelBitSet_8h.html#a49e0b98088c7c94d76c1cfb44f46b7d3", null ],
     [ "MR_std_vector_MR_VoxelBitSet_front", "std__vector__MR__VoxelBitSet_8h.html#aa9256fcfe066cb96bb2e6d8e2eaaa0f1", null ],
     [ "MR_std_vector_MR_VoxelBitSet_front_mut", "std__vector__MR__VoxelBitSet_8h.html#a841f5d0941202e7e5b2f88c627792869", null ],
@@ -28,7 +23,5 @@ var std__vector__MR__VoxelBitSet_8h =
     [ "MR_std_vector_MR_VoxelBitSet_push_back", "std__vector__MR__VoxelBitSet_8h.html#a71202cd3d0a44945efaa16d9b4a162e5", null ],
     [ "MR_std_vector_MR_VoxelBitSet_reserve", "std__vector__MR__VoxelBitSet_8h.html#a7285fba16a026a403ce6c5153acefb64", null ],
     [ "MR_std_vector_MR_VoxelBitSet_resize", "std__vector__MR__VoxelBitSet_8h.html#a4c1e3d921e9a92f8dcb359e84ba5e052", null ],
-    [ "MR_std_vector_MR_VoxelBitSet_resize_with_default_value", "std__vector__MR__VoxelBitSet_8h.html#a18d8deef3dee70baf91b935f525b0433", null ],
-    [ "MR_std_vector_MR_VoxelBitSet_shrink_to_fit", "std__vector__MR__VoxelBitSet_8h.html#a065b3850c2c87be0dd8ac3d8b7b92c0b", null ],
     [ "MR_std_vector_MR_VoxelBitSet_size", "std__vector__MR__VoxelBitSet_8h.html#aecb2eeace231c3be1571b28da1eff01d", null ]
 ];

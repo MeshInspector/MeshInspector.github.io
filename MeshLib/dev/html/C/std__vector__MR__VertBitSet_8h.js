@@ -5,9 +5,6 @@ var std__vector__MR__VertBitSet_8h =
     [ "MR_std_vector_MR_VertBitSet_at_mut", "std__vector__MR__VertBitSet_8h.html#ab7d1aa1d19279a11ff840fd683bd026b", null ],
     [ "MR_std_vector_MR_VertBitSet_back", "std__vector__MR__VertBitSet_8h.html#a80ea3139c5b3e5cdeb6b7ebdc2325961", null ],
     [ "MR_std_vector_MR_VertBitSet_back_mut", "std__vector__MR__VertBitSet_8h.html#aca7d2fefcb485f289a702592b137ded8", null ],
-    [ "MR_std_vector_MR_VertBitSet_begin", "std__vector__MR__VertBitSet_8h.html#a1a3169cf4058a7b2578a7dece510df5f", null ],
-    [ "MR_std_vector_MR_VertBitSet_begin_mut", "std__vector__MR__VertBitSet_8h.html#ace76b71405af78bc78e120c24f4206fa", null ],
-    [ "MR_std_vector_MR_VertBitSet_capacity", "std__vector__MR__VertBitSet_8h.html#a70b365069da13dcfa8b6009265f83fd9", null ],
     [ "MR_std_vector_MR_VertBitSet_clear", "std__vector__MR__VertBitSet_8h.html#addb20b107c4e0bb31a299f155a01f0bc", null ],
     [ "MR_std_vector_MR_VertBitSet_ConstructFromAnother", "std__vector__MR__VertBitSet_8h.html#aeba02d25cda36e94263d4215dc431431", null ],
     [ "MR_std_vector_MR_VertBitSet_DefaultConstruct", "std__vector__MR__VertBitSet_8h.html#a0d9ca83648cf14ad25d45da3554de34f", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__VertBitSet_8h =
     [ "MR_std_vector_MR_VertBitSet_Destroy", "std__vector__MR__VertBitSet_8h.html#a53cb3d6cc6c904f32c5f4adf5819405a", null ],
     [ "MR_std_vector_MR_VertBitSet_DestroyArray", "std__vector__MR__VertBitSet_8h.html#a78410b37d8c496715aa9be6b3715e662", null ],
     [ "MR_std_vector_MR_VertBitSet_empty", "std__vector__MR__VertBitSet_8h.html#a75103bda646ce670c1b3a3101739f628", null ],
-    [ "MR_std_vector_MR_VertBitSet_end", "std__vector__MR__VertBitSet_8h.html#aa4d5e4f52bc5ae1708159d943a90eaae", null ],
-    [ "MR_std_vector_MR_VertBitSet_end_mut", "std__vector__MR__VertBitSet_8h.html#ad4acc347cd8f80a76322674bb46896a3", null ],
     [ "MR_std_vector_MR_VertBitSet_erase", "std__vector__MR__VertBitSet_8h.html#a12e2d92e189b4eca34fba86bf414885f", null ],
     [ "MR_std_vector_MR_VertBitSet_front", "std__vector__MR__VertBitSet_8h.html#a778af77a2392e924b7a61a99a993c4c2", null ],
     [ "MR_std_vector_MR_VertBitSet_front_mut", "std__vector__MR__VertBitSet_8h.html#a67bf72c58aecbd6d00ec4d8d649cca22", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__VertBitSet_8h =
     [ "MR_std_vector_MR_VertBitSet_push_back", "std__vector__MR__VertBitSet_8h.html#adb03292fe6fed3e1affa9634a011da6b", null ],
     [ "MR_std_vector_MR_VertBitSet_reserve", "std__vector__MR__VertBitSet_8h.html#ae1c1a7133e47ed78f1d9fd628a6bb188", null ],
     [ "MR_std_vector_MR_VertBitSet_resize", "std__vector__MR__VertBitSet_8h.html#a4b3ca32451b36bfe15339902ed9cf2f7", null ],
-    [ "MR_std_vector_MR_VertBitSet_resize_with_default_value", "std__vector__MR__VertBitSet_8h.html#ab3ddfc376375845877f75c976f9a3a9b", null ],
-    [ "MR_std_vector_MR_VertBitSet_shrink_to_fit", "std__vector__MR__VertBitSet_8h.html#a1042ffdc2642eff978ec5abddccc0d5a", null ],
     [ "MR_std_vector_MR_VertBitSet_size", "std__vector__MR__VertBitSet_8h.html#a0eaa38fe992924527bccd2a046cabaab", null ]
 ];

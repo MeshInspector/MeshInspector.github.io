@@ -1,17 +1,12 @@
 var std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h =
 [
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_AssignFromAnother", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#aedc7f3cbfcf5cbd10570b3c451ee7622", null ],
-    [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_AssignFromRange", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#acf2ca9584bbc384fb261af6b93c49a54", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_at", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a33aef6b996f0cbb79aa40b7dceb5d02d", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_at_mut", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a79667a9e3acb0dc5162a47956ca07bd0", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_back", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#ace797b185d53e1d829323e06875f8ac6", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_back_mut", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#ac4fec7a5d33842280f7d556577391962", null ],
-    [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_begin", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#aca37f3326e908ed05e667b12799f13cc", null ],
-    [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_begin_mut", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#ad1c6f37ef00760f278e4c40624956a1b", null ],
-    [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_capacity", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a3cd2ca1eea4eac35dafe2bde5cf9b575", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_clear", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a92fefed8911b2f3b4dacdb9a3dbb7b21", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_ConstructFromAnother", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a3ac16cb5a509b57d05758239a1925056", null ],
-    [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_ConstructFromRange", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#aa324e90f6b64016903e3ae0c083e1c27", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_data", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a58b4e104a64d375517cd1f84cc0199b3", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_data_mut", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#ada930eb7e71aa17bf2226fbd056ef887", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_DefaultConstruct", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a4960cc45e9bcc5f51b5d09ced2e045ca", null ],
@@ -19,8 +14,6 @@ var std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h =
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_Destroy", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a6d8acd8994054da7be75fe5da4625cbc", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_DestroyArray", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#aa8f9a53eb28a8347ee84f47b5667c5ac", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_empty", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a0124dbaa09d69904907a499ba975fea8", null ],
-    [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_end", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#aa1fa8dbc7203df955a3741853959e15e", null ],
-    [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_end_mut", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#ab1c36ff5df70113794c28f2f526d9697", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_erase", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#aeec333db90fc8de4fed2474f8268af5d", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_front", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#aaec537040229d81d971f6f58fc6a635d", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_front_mut", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a10cd91d8e9456933f4e9c7d33c441938", null ],
@@ -31,7 +24,5 @@ var std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h =
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_push_back", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a0c739b3f8e5851e87cdebd8a6818f5c6", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_reserve", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a2e57aa44a084b1cce51637122df67ae6", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_resize", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a31da9b27991359fc709a749af561a058", null ],
-    [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_resize_with_default_value", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#aeaa3318e6d15fd70b848e54b6d37c7d3", null ],
-    [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_shrink_to_fit", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#af221448d56e93de7358ba8c33a178f8a", null ],
     [ "MR_std_vector_MR_PixelId_MR_Allocator_MR_PixelId_size", "std__vector__MR__PixelId__MR__Allocator__MR__PixelId_8h.html#a526a81ab2ea9e91edd77042fe298ef3c", null ]
 ];

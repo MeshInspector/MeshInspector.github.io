@@ -5,9 +5,6 @@ var std__vector__MR__TriPointf_8h =
     [ "MR_std_vector_MR_TriPointf_at_mut", "std__vector__MR__TriPointf_8h.html#a34cb392cf383ee867252929f810f183b", null ],
     [ "MR_std_vector_MR_TriPointf_back", "std__vector__MR__TriPointf_8h.html#ac0ea383197bde2b4b31784c56a436f29", null ],
     [ "MR_std_vector_MR_TriPointf_back_mut", "std__vector__MR__TriPointf_8h.html#a55f8b948617d5564f25c8fd1729dbb30", null ],
-    [ "MR_std_vector_MR_TriPointf_begin", "std__vector__MR__TriPointf_8h.html#a6ab6c6b6e3cdc1df83b8605a0b8cf3c0", null ],
-    [ "MR_std_vector_MR_TriPointf_begin_mut", "std__vector__MR__TriPointf_8h.html#a1d099778b0cfc3e0f18671821877867e", null ],
-    [ "MR_std_vector_MR_TriPointf_capacity", "std__vector__MR__TriPointf_8h.html#a06459455940385015c71b486bc6be0b9", null ],
     [ "MR_std_vector_MR_TriPointf_clear", "std__vector__MR__TriPointf_8h.html#af0b92cdea346c2b865ecb8e7eb63cafe", null ],
     [ "MR_std_vector_MR_TriPointf_ConstructFromAnother", "std__vector__MR__TriPointf_8h.html#aad90c0d7093824965305950b4c382a57", null ],
     [ "MR_std_vector_MR_TriPointf_DefaultConstruct", "std__vector__MR__TriPointf_8h.html#a3bd66eaba735b2b2ff922cc370d7d5d7", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__TriPointf_8h =
     [ "MR_std_vector_MR_TriPointf_Destroy", "std__vector__MR__TriPointf_8h.html#a3fc97107354ea5212912d698a05616f2", null ],
     [ "MR_std_vector_MR_TriPointf_DestroyArray", "std__vector__MR__TriPointf_8h.html#aa5ec45a298049fa0033be4335efe7296", null ],
     [ "MR_std_vector_MR_TriPointf_empty", "std__vector__MR__TriPointf_8h.html#ace6fb388079c95beb3ee3da1337a0d98", null ],
-    [ "MR_std_vector_MR_TriPointf_end", "std__vector__MR__TriPointf_8h.html#aebb8f5c9c2d93f7eadfa75891a8cf300", null ],
-    [ "MR_std_vector_MR_TriPointf_end_mut", "std__vector__MR__TriPointf_8h.html#ace80199a8f246c8468b182ac6b6ee398", null ],
     [ "MR_std_vector_MR_TriPointf_erase", "std__vector__MR__TriPointf_8h.html#ad74d8c98dfc210855f5878196be7b485", null ],
     [ "MR_std_vector_MR_TriPointf_front", "std__vector__MR__TriPointf_8h.html#a6c6d6805e3ab42fcccc5f715e5164232", null ],
     [ "MR_std_vector_MR_TriPointf_front_mut", "std__vector__MR__TriPointf_8h.html#a0f1e7411416c7acdfbee3ddb1607f725", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__TriPointf_8h =
     [ "MR_std_vector_MR_TriPointf_push_back", "std__vector__MR__TriPointf_8h.html#ae8fe7e9e2e4739b6ace8ffc0b936ffb0", null ],
     [ "MR_std_vector_MR_TriPointf_reserve", "std__vector__MR__TriPointf_8h.html#a26d22dad49f441efd5edd06b1b9e709b", null ],
     [ "MR_std_vector_MR_TriPointf_resize", "std__vector__MR__TriPointf_8h.html#ac07145361c2e621f0d8244973956c028", null ],
-    [ "MR_std_vector_MR_TriPointf_resize_with_default_value", "std__vector__MR__TriPointf_8h.html#a42190ee30312a6ac83297bd6c2a3281a", null ],
-    [ "MR_std_vector_MR_TriPointf_shrink_to_fit", "std__vector__MR__TriPointf_8h.html#a785b75f530fa8f19d0cdc3d568de37e0", null ],
     [ "MR_std_vector_MR_TriPointf_size", "std__vector__MR__TriPointf_8h.html#a4eb9d2999aeb790950eea34fc958de94", null ]
 ];

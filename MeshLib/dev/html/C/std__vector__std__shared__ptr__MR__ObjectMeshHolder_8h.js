@@ -5,9 +5,6 @@ var std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h =
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_at_mut", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a3d51e6b729dba8096044c626ec508e6e", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_back", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a3fb0017256aefdcf8bc51f61d107189f", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_back_mut", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#af4859ef731761a6f09af778887029657", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_begin", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#ac4bd654a2f1856f67288791424a99984", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_begin_mut", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a6775656c8cd6868f9ba97b9828891df7", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_capacity", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a39f110eeeb2377049b3760508606ee2a", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_clear", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a17d0e7a550be367a93d2a8888929d05b", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_ConstructFromAnother", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a02e53c19f50bbfb985454f52740ab071", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_DefaultConstruct", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#afcc5cab45d237128f6d8bb85158491e6", null ],
@@ -15,8 +12,6 @@ var std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h =
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_Destroy", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a496e3a00c3dcffb255d7679b81fb88b9", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_DestroyArray", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a1f7b9f9f801ea3531918f03e9cab7f8f", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_empty", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a6a262048e1908ee06fd391e71aa8a420", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_end", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a6af69d5c561e33df4c789062b5a8ab31", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_end_mut", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a939e9c01b1ada3e115e2050d56aa5378", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_erase", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#afd53b3139b9e589118f923f74b4c2c2f", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_front", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a9622de7cdcaffe07c15480e926a53311", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_front_mut", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a593ea0259bfed9532b165bbb960b0d92", null ],
@@ -27,7 +22,5 @@ var std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h =
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_push_back", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#ab216a2e7a3a99e84d76b32ed491ca16e", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_reserve", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a9406efbef4984e2df74cb24e64f1506a", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_resize", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a639e47fb5e87f8d95724fb5c14a71ca7", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_resize_with_default_value", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a8ec81e35beac9a56c91421e5028415ae", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_shrink_to_fit", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#a4503e833af9fb245d90ab3043a507ed4", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectMeshHolder_size", "std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h.html#aba323f1a3ebaa6d0f8d29ec21b502ed3", null ]
 ];

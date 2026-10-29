@@ -5,9 +5,6 @@ var std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h =
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_at_mut", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#af126f510b7b420d1d7258c1534b2b6ee", null ],
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_back", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a82ca27543a40137989fe98e9f543fee7", null ],
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_back_mut", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a987aabbdc3b50f33f949a6bebe658e2b", null ],
-    [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_begin", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a2f8c3f26976c1ea5f3da6a0276d4798d", null ],
-    [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_begin_mut", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a0633b3b99faa73e41a39286fc055b382", null ],
-    [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_capacity", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a905cd13c36ecd8b6ad845b16227f8002", null ],
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_clear", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a73c4f0493398e34b5cabda7f3ad5928f", null ],
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_ConstructFromAnother", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#af265068a89bb33cb258dd1819c12b63b", null ],
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_DefaultConstruct", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a2b203a881f92ad8b727907a37652db83", null ],
@@ -15,8 +12,6 @@ var std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h =
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_Destroy", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a99d77905e440b6cf165c5d754aae3551", null ],
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_DestroyArray", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a6a3a776fb5b1ba100a4b095876539304", null ],
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_empty", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#aa4477e9b633dae416c89f743d67c2416", null ],
-    [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_end", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#ab4b47ce3afed7ae2333e6bd21623d756", null ],
-    [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_end_mut", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a825eaecc9688340843dda559dd046bd8", null ],
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_erase", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a7e1d1881348e34e691eedcb7d16acde2", null ],
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_front", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#ace443b67e9da517d2ad827c2b972a012", null ],
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_front_mut", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a6b3f53ccdaba5d843c9b6de3b6b52e19", null ],
@@ -27,7 +22,5 @@ var std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h =
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_push_back", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a5d5c56ee82a601d0c7ab02cdd85293d2", null ],
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_reserve", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a01cf12555aafc73a21565e87cec92b73", null ],
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_resize", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#af18cf2a629539686aacaf821d346a0c6", null ],
-    [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_resize_with_default_value", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#aca5977dd75403bbbce9a732ee4ba0644", null ],
-    [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_shrink_to_fit", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#af2ccb543238c5fcdc8d9fd528aab6289", null ],
     [ "MR_std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo_size", "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#ac3538336d950eb409fcb456d124b2222", null ]
 ];

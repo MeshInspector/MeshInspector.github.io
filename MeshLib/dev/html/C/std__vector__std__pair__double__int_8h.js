@@ -5,9 +5,6 @@ var std__vector__std__pair__double__int_8h =
     [ "MR_std_vector_std_pair_double_int_at_mut", "std__vector__std__pair__double__int_8h.html#ac774c1d29de0fb86746890da6cf9bf39", null ],
     [ "MR_std_vector_std_pair_double_int_back", "std__vector__std__pair__double__int_8h.html#a543ab9bfa5280d8239a939691fcb081a", null ],
     [ "MR_std_vector_std_pair_double_int_back_mut", "std__vector__std__pair__double__int_8h.html#a9f06d80a68ca9c3c0b428f808e632ed6", null ],
-    [ "MR_std_vector_std_pair_double_int_begin", "std__vector__std__pair__double__int_8h.html#ace6baade811e33807645926aaaf76103", null ],
-    [ "MR_std_vector_std_pair_double_int_begin_mut", "std__vector__std__pair__double__int_8h.html#af3bd64323b77b105b8a90c5e2117203a", null ],
-    [ "MR_std_vector_std_pair_double_int_capacity", "std__vector__std__pair__double__int_8h.html#a45898bfe1f634a3a0e8dd38273922888", null ],
     [ "MR_std_vector_std_pair_double_int_clear", "std__vector__std__pair__double__int_8h.html#a38f8bc4469972bf87a2dae6b7818c82e", null ],
     [ "MR_std_vector_std_pair_double_int_ConstructFromAnother", "std__vector__std__pair__double__int_8h.html#a9981c74e50727071d02279d4153d0ab8", null ],
     [ "MR_std_vector_std_pair_double_int_DefaultConstruct", "std__vector__std__pair__double__int_8h.html#acb9bdc06f46150b96f17ac8ebd3c9fce", null ],
@@ -15,8 +12,6 @@ var std__vector__std__pair__double__int_8h =
     [ "MR_std_vector_std_pair_double_int_Destroy", "std__vector__std__pair__double__int_8h.html#a28850e0090e9bc4daf6713ea084eead7", null ],
     [ "MR_std_vector_std_pair_double_int_DestroyArray", "std__vector__std__pair__double__int_8h.html#a6635045560b59a205689da34690a0812", null ],
     [ "MR_std_vector_std_pair_double_int_empty", "std__vector__std__pair__double__int_8h.html#ab11eba33e62ffaa9f9bb085279bc78ba", null ],
-    [ "MR_std_vector_std_pair_double_int_end", "std__vector__std__pair__double__int_8h.html#a80bc6f789c52c2c126fe3309ec56a497", null ],
-    [ "MR_std_vector_std_pair_double_int_end_mut", "std__vector__std__pair__double__int_8h.html#a6f8753f1c332039fa5a7a658e2799b6a", null ],
     [ "MR_std_vector_std_pair_double_int_erase", "std__vector__std__pair__double__int_8h.html#a31a1216bd770d07ff2289ce5bdf508c6", null ],
     [ "MR_std_vector_std_pair_double_int_front", "std__vector__std__pair__double__int_8h.html#a53ccb02ae54779b4071ba8c936f6df58", null ],
     [ "MR_std_vector_std_pair_double_int_front_mut", "std__vector__std__pair__double__int_8h.html#a12c2f6ba7d51b01038b576272c1cab13", null ],
@@ -27,7 +22,5 @@ var std__vector__std__pair__double__int_8h =
     [ "MR_std_vector_std_pair_double_int_push_back", "std__vector__std__pair__double__int_8h.html#a4623539225e1eb0fdff15098f2dfe173", null ],
     [ "MR_std_vector_std_pair_double_int_reserve", "std__vector__std__pair__double__int_8h.html#a3101d5cadf17515a506f61575797270a", null ],
     [ "MR_std_vector_std_pair_double_int_resize", "std__vector__std__pair__double__int_8h.html#a13aed38ca24769dbd3925db4aa9590b4", null ],
-    [ "MR_std_vector_std_pair_double_int_resize_with_default_value", "std__vector__std__pair__double__int_8h.html#a2c4cd9116a3db4004cd64478dc392b8e", null ],
-    [ "MR_std_vector_std_pair_double_int_shrink_to_fit", "std__vector__std__pair__double__int_8h.html#abeab995bc9c29a9bd09ad0b3cdff9c8e", null ],
     [ "MR_std_vector_std_pair_double_int_size", "std__vector__std__pair__double__int_8h.html#afb2937c46fe588b6f01de84336ae9edf", null ]
 ];

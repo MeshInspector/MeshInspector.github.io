@@ -5,9 +5,6 @@ var std__vector__MR__FillHoleItem_8h =
     [ "MR_std_vector_MR_FillHoleItem_at_mut", "std__vector__MR__FillHoleItem_8h.html#ae5270a8ebc2ca5363b7b8d62a50ce8a5", null ],
     [ "MR_std_vector_MR_FillHoleItem_back", "std__vector__MR__FillHoleItem_8h.html#ac9e66181d431d9affd57465138d2ccbf", null ],
     [ "MR_std_vector_MR_FillHoleItem_back_mut", "std__vector__MR__FillHoleItem_8h.html#ad07d2a0405a5b2654cccce4a0573c411", null ],
-    [ "MR_std_vector_MR_FillHoleItem_begin", "std__vector__MR__FillHoleItem_8h.html#a037c951bc6d3ababea1a0448e603d4d7", null ],
-    [ "MR_std_vector_MR_FillHoleItem_begin_mut", "std__vector__MR__FillHoleItem_8h.html#a1f389533dc92452d6f8302442786e96f", null ],
-    [ "MR_std_vector_MR_FillHoleItem_capacity", "std__vector__MR__FillHoleItem_8h.html#a04eb57f8a73f449df5493daf21f526c9", null ],
     [ "MR_std_vector_MR_FillHoleItem_clear", "std__vector__MR__FillHoleItem_8h.html#a82dad0e6687264e5808c4c86731fc528", null ],
     [ "MR_std_vector_MR_FillHoleItem_ConstructFromAnother", "std__vector__MR__FillHoleItem_8h.html#a0ed1ac4a8586369ed9f2dc9e7f894052", null ],
     [ "MR_std_vector_MR_FillHoleItem_DefaultConstruct", "std__vector__MR__FillHoleItem_8h.html#a8391cc5e4a7c36032f1dac506fbd4343", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__FillHoleItem_8h =
     [ "MR_std_vector_MR_FillHoleItem_Destroy", "std__vector__MR__FillHoleItem_8h.html#a187beaf5166f749520f10862818b3eb8", null ],
     [ "MR_std_vector_MR_FillHoleItem_DestroyArray", "std__vector__MR__FillHoleItem_8h.html#ad4a25b4d015e7d1c1b8ae60813110ff8", null ],
     [ "MR_std_vector_MR_FillHoleItem_empty", "std__vector__MR__FillHoleItem_8h.html#a173ca8b7ddca0b2cc530ee338d4877fa", null ],
-    [ "MR_std_vector_MR_FillHoleItem_end", "std__vector__MR__FillHoleItem_8h.html#ac93c34afaf95de958a5a2e03612f4cac", null ],
-    [ "MR_std_vector_MR_FillHoleItem_end_mut", "std__vector__MR__FillHoleItem_8h.html#ae2fb58b5149edf77ea4f96add638c4a7", null ],
     [ "MR_std_vector_MR_FillHoleItem_erase", "std__vector__MR__FillHoleItem_8h.html#a0dceba9cdda5e60720b992c01532f382", null ],
     [ "MR_std_vector_MR_FillHoleItem_front", "std__vector__MR__FillHoleItem_8h.html#a7ab2b3eccfa31cae3cefeda27402b67b", null ],
     [ "MR_std_vector_MR_FillHoleItem_front_mut", "std__vector__MR__FillHoleItem_8h.html#a51e82ab5093f794088e57b584d26a03a", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__FillHoleItem_8h =
     [ "MR_std_vector_MR_FillHoleItem_push_back", "std__vector__MR__FillHoleItem_8h.html#a28ae6c9fca88e4c4cc85057f9e360999", null ],
     [ "MR_std_vector_MR_FillHoleItem_reserve", "std__vector__MR__FillHoleItem_8h.html#a99aafaa10e67f1b31a4e333b02c1f824", null ],
     [ "MR_std_vector_MR_FillHoleItem_resize", "std__vector__MR__FillHoleItem_8h.html#adb2ea13bdce8c8f3bda54be94669fed2", null ],
-    [ "MR_std_vector_MR_FillHoleItem_resize_with_default_value", "std__vector__MR__FillHoleItem_8h.html#a26acd621d236441db2161646c9ef66bd", null ],
-    [ "MR_std_vector_MR_FillHoleItem_shrink_to_fit", "std__vector__MR__FillHoleItem_8h.html#a3c8b08a1446ccc510e7c79c2804c928e", null ],
     [ "MR_std_vector_MR_FillHoleItem_size", "std__vector__MR__FillHoleItem_8h.html#a1ce6e21273f314fbfa971345188b2cb2", null ]
 ];

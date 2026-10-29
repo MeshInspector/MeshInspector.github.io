@@ -5,9 +5,6 @@ var std__vector__MR__LineSegm3f_8h =
     [ "MR_std_vector_MR_LineSegm3f_at_mut", "std__vector__MR__LineSegm3f_8h.html#a4bd210166f294fc4766963766d2b9383", null ],
     [ "MR_std_vector_MR_LineSegm3f_back", "std__vector__MR__LineSegm3f_8h.html#ab7cdda9d5e381f265d16c466eb0a523d", null ],
     [ "MR_std_vector_MR_LineSegm3f_back_mut", "std__vector__MR__LineSegm3f_8h.html#a580fbad18327f85061460939874476ba", null ],
-    [ "MR_std_vector_MR_LineSegm3f_begin", "std__vector__MR__LineSegm3f_8h.html#ad5c1a5070c3d8c86a968d509e69acbdc", null ],
-    [ "MR_std_vector_MR_LineSegm3f_begin_mut", "std__vector__MR__LineSegm3f_8h.html#abdf598e9825b12b119d96598488bf044", null ],
-    [ "MR_std_vector_MR_LineSegm3f_capacity", "std__vector__MR__LineSegm3f_8h.html#a6673a5087276e19d1b666436b4f5aa1b", null ],
     [ "MR_std_vector_MR_LineSegm3f_clear", "std__vector__MR__LineSegm3f_8h.html#a9166373e9ad3210350b09e4565120914", null ],
     [ "MR_std_vector_MR_LineSegm3f_ConstructFromAnother", "std__vector__MR__LineSegm3f_8h.html#a426f4d5689e11ca5e464c44e976463fd", null ],
     [ "MR_std_vector_MR_LineSegm3f_DefaultConstruct", "std__vector__MR__LineSegm3f_8h.html#a49a736ba26aa0c53da9695ea614ae952", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__LineSegm3f_8h =
     [ "MR_std_vector_MR_LineSegm3f_Destroy", "std__vector__MR__LineSegm3f_8h.html#a3eda08640d7804599f35772e67f3c091", null ],
     [ "MR_std_vector_MR_LineSegm3f_DestroyArray", "std__vector__MR__LineSegm3f_8h.html#a9b99b4576329aab5fb45824af65e8dc5", null ],
     [ "MR_std_vector_MR_LineSegm3f_empty", "std__vector__MR__LineSegm3f_8h.html#a197906ea3a8b55218397f094016e37e5", null ],
-    [ "MR_std_vector_MR_LineSegm3f_end", "std__vector__MR__LineSegm3f_8h.html#aa655a9c27e258645d817e09213d531f0", null ],
-    [ "MR_std_vector_MR_LineSegm3f_end_mut", "std__vector__MR__LineSegm3f_8h.html#a0d267d6ae7372d9e8cc268b091133bd6", null ],
     [ "MR_std_vector_MR_LineSegm3f_erase", "std__vector__MR__LineSegm3f_8h.html#a6304f2de85507c893f26c5e322be0db6", null ],
     [ "MR_std_vector_MR_LineSegm3f_front", "std__vector__MR__LineSegm3f_8h.html#af30ba8fd8fd6b854b20e7b55659e0d02", null ],
     [ "MR_std_vector_MR_LineSegm3f_front_mut", "std__vector__MR__LineSegm3f_8h.html#a968292286d8222e0681504e7bca9338c", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__LineSegm3f_8h =
     [ "MR_std_vector_MR_LineSegm3f_push_back", "std__vector__MR__LineSegm3f_8h.html#a712eff67059d82d57af1ab493dc7c9d4", null ],
     [ "MR_std_vector_MR_LineSegm3f_reserve", "std__vector__MR__LineSegm3f_8h.html#a80abcbdb9a2deb9c0569b595db79e65b", null ],
     [ "MR_std_vector_MR_LineSegm3f_resize", "std__vector__MR__LineSegm3f_8h.html#a48364528c2de7112b2329f662a534ae5", null ],
-    [ "MR_std_vector_MR_LineSegm3f_resize_with_default_value", "std__vector__MR__LineSegm3f_8h.html#a3bb78d32d02e32574a50aaedb6bc7ecc", null ],
-    [ "MR_std_vector_MR_LineSegm3f_shrink_to_fit", "std__vector__MR__LineSegm3f_8h.html#a6460fb25ab198f4d9720915be50f3e6d", null ],
     [ "MR_std_vector_MR_LineSegm3f_size", "std__vector__MR__LineSegm3f_8h.html#ad44b0ee5cd7be8f03ffd07d2d748b5df", null ]
 ];

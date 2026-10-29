@@ -1,17 +1,12 @@
 var std__vector__MR__Color__MR__Allocator__MR__Color_8h =
 [
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_AssignFromAnother", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a5c7c156005cc66193761c9fc6ceb377d", null ],
-    [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_AssignFromRange", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#adbbc8ee0cf4e827578a17a287df2e396", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_at", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#ab729a3671855c933419e6b1f5a8e8877", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_at_mut", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a1a3b451f21d12342c1b7d3b45d30a9d6", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_back", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a6f376cb8530daeff28112aa46ef38460", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_back_mut", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#ac34a8b6cfd757a3dc2373d3c680178c3", null ],
-    [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_begin", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a74d679b133905f87871d1bcd52dbab14", null ],
-    [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_begin_mut", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a58db169874ca462b797f14836deb0774", null ],
-    [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_capacity", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a48a55c177eddb4317e87c44b7ea87549", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_clear", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a3a1c1eeafb32654936c0f68a2bce0bdf", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_ConstructFromAnother", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a40584adfe60e9deefe4c1aa033195aef", null ],
-    [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_ConstructFromRange", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a10ffa2b36036c55a35a67d1704106677", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_data", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#abce2c57f9b67bc24e3c6d9bf456ae1fd", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_data_mut", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a2e097d67192d8c75d055f9780778c290", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_DefaultConstruct", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#af5d8747ae661312fbb56abcbf244fc0f", null ],
@@ -19,8 +14,6 @@ var std__vector__MR__Color__MR__Allocator__MR__Color_8h =
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_Destroy", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#ab7f04c7e59b7037365b1b440149b89cf", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_DestroyArray", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a10056c9a46f92fe33a019e81d6fbeaf8", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_empty", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a86dc61429f28b584aa5931638426aef2", null ],
-    [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_end", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a4a146cd39570df7fc2fa8803ab5197a1", null ],
-    [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_end_mut", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#addccc1c9f3e1a94d5c5786e7a5e35283", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_erase", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a034a992ab2043ce0bd7516f33505cb29", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_front", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a10a17cfe62da00bd6ee7a793c65c6c26", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_front_mut", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#ad49951a25397ff2c40455cd86a9810e2", null ],
@@ -31,7 +24,5 @@ var std__vector__MR__Color__MR__Allocator__MR__Color_8h =
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_push_back", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a142991ac77ca8118fc53fb4c2f883705", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_reserve", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a91b52a548a30d785368497132f323f6a", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_resize", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a47d0ae08f512f558c35f29a7d002e8cc", null ],
-    [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_resize_with_default_value", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a1fbf0dd7716bc4d9792ecf31770a70bf", null ],
-    [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_shrink_to_fit", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a891b1d2c52f944011f169dfc08e06d30", null ],
     [ "MR_std_vector_MR_Color_MR_Allocator_MR_Color_size", "std__vector__MR__Color__MR__Allocator__MR__Color_8h.html#a199d297185244f1151d0d9ed5e72a15b", null ]
 ];

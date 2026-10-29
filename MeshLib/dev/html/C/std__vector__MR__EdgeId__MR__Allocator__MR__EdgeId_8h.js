@@ -1,17 +1,12 @@
 var std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h =
 [
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_AssignFromAnother", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a86ce9e2567022ed998a99f748629c4d2", null ],
-    [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_AssignFromRange", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a5cbdb465e8e9ce883565db6b196c2e1e", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_at", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#aed095e9233399725fa21cd76b16427a8", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_at_mut", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a629882e98f4918fc9cd401304a7d7ff0", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_back", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a87337fa662abfd1d2b7e201ca8b11fe4", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_back_mut", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a7935f91030709a9d37de0e565764e622", null ],
-    [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_begin", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a74e9050950ac4ed76538a20dbe195803", null ],
-    [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_begin_mut", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a4e7569aba307bce0774e678aee2c95d6", null ],
-    [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_capacity", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a05e8eebe2078c616170de64775db105c", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_clear", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a28a6c3bf365cf2abbdb714c940569d81", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_ConstructFromAnother", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#aa5d878fd23547264e2f4bfc0599b16b9", null ],
-    [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_ConstructFromRange", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a4877197065eb37c780e98d149ed71b18", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_data", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#aacef197c28602555501436295e0b9035", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_data_mut", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a91cce9ea876a4e4d8a11c9453fdbb91c", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_DefaultConstruct", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#ae7f07f17430fb16a8ebcb6f86fe005cc", null ],
@@ -19,8 +14,6 @@ var std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h =
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_Destroy", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a1ec7c7d821a974a7c21a39072e883d2c", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_DestroyArray", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#af8f43202e5f37fb0dc9a319ee6595009", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_empty", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a74e6d41ca1b71a177f42afa9e2b741cd", null ],
-    [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_end", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a624b7c651a1171a3db57fe1cce108862", null ],
-    [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_end_mut", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a33a848bbb1a7924bacf81b68353e8605", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_erase", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#ac7bfa11c516ef465344c401dc2aa7b89", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_front", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#ace742cf6ef95544b609d6aba60db9b37", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_front_mut", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a74a87dc544ac985ede01a8c87c2642aa", null ],
@@ -31,7 +24,5 @@ var std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h =
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_push_back", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a0d12974828bac466846244438f9b9df7", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_reserve", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#af5f68e863b202c5a4baa981c8a3aecf3", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_resize", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#abb9aa0c63338cabf42651913da54f9ab", null ],
-    [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_resize_with_default_value", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a2a6a41d26bf1f24cc13f2498ce0b8f5f", null ],
-    [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_shrink_to_fit", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#af30584f83cdcf45f21870183c25bca47", null ],
     [ "MR_std_vector_MR_EdgeId_MR_Allocator_MR_EdgeId_size", "std__vector__MR__EdgeId__MR__Allocator__MR__EdgeId_8h.html#a7a0c78a0d60d1ba72f35faf5f7825217", null ]
 ];

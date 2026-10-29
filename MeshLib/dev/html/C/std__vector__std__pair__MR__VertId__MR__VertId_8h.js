@@ -5,9 +5,6 @@ var std__vector__std__pair__MR__VertId__MR__VertId_8h =
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_at_mut", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#aa36eec82129b3092346bb207621c8764", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_back", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#a6fa52378df84f56e4c865c2513f06ac7", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_back_mut", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#aebed1d686cb278ad20a86e372f6fe7ae", null ],
-    [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_begin", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#a1bbbf41a74afa7a1aa5eb3b91a15eb46", null ],
-    [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_begin_mut", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#a4320ec4392f6e0b422123306e110355a", null ],
-    [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_capacity", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#afc1616863912f21c8ca76d569ab7945c", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_clear", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#a2cb4f4e745026442f0537993944961fd", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_ConstructFromAnother", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#a828d9dfe02419ccaae924740b7d68a5c", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_DefaultConstruct", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#a2959dd47d99513d1d110d5d57aa6b5c1", null ],
@@ -15,8 +12,6 @@ var std__vector__std__pair__MR__VertId__MR__VertId_8h =
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_Destroy", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#add45a3b12806ca6821a7bfaa1ca1693f", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_DestroyArray", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#ac93f57d1b8c33c1898d0321e20579435", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_empty", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#a861348744d0391ef3d463d0b87e895da", null ],
-    [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_end", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#a153b21d78d041460500e6c8f99ccf9d4", null ],
-    [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_end_mut", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#a5f55df5a932d62f7362fc43ea5ff4f51", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_erase", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#aa79d249ce6abb38b2f16a0f780b8aa2b", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_front", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#aa2b933f172b3d5e60fc833829fccdb2a", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_front_mut", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#ae79489c4187efd29b3dbe74bbf9393d4", null ],
@@ -27,7 +22,5 @@ var std__vector__std__pair__MR__VertId__MR__VertId_8h =
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_push_back", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#af295dedab304853d66966e51886729b2", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_reserve", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#a23912b9052c2c6d930699fe1327aeac9", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_resize", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#aebf620f4303853a4e50231f29ae9cb9d", null ],
-    [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_resize_with_default_value", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#add93d2f2aec084087225950f3ceb3b4a", null ],
-    [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_shrink_to_fit", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#a7ad65ca0551ae57a080a6f4729e11119", null ],
     [ "MR_std_vector_std_pair_MR_VertId_MR_VertId_size", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html#a7450c93085b90755a7e5b242e6f55f7d", null ]
 ];

@@ -5,9 +5,6 @@ var std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h =
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_at_mut", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#af0308f2d647aba6d196603901db5660b", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_back", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a176747d862d524ff7a2229cb6bee30d9", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_back_mut", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a210469219b5e349ec072d320ff54e6f9", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_begin", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#aaf1e84aa4e0bc81ee61a356480578816", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_begin_mut", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a74229d23544d89aa81df464e929e9e73", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_capacity", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a0d34b66838096f61de6541a55d6415df", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_clear", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#aef877d17d08f03361314cf0452454588", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_ConstructFromAnother", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a071d81784e091a7118f91af588bb1fc8", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_DefaultConstruct", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a0c371d68d675acec3abb6f5925300a10", null ],
@@ -15,8 +12,6 @@ var std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h =
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_Destroy", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a6f8692b1b389e26aeeef6a6b8804f7bc", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_DestroyArray", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#abf42b1f673508cb09db67b33e8f6afcd", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_empty", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a0faaada5250b6f376594e16c5750475e", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_end", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#aa78e826823a79c55c47897aa3d7c5479", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_end_mut", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a6aef6e33a47ee89ba1577d79f119dfb3", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_erase", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#aa31a3bd1cf946c4811ad38c84d9abdb7", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_front", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a8811d88d723eba015b46dd86ec930d60", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_front_mut", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#abdad6a93b7e9124a71f77972db3bea09", null ],
@@ -27,7 +22,5 @@ var std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h =
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_push_back", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a774b618247e13a73eac92dcaa93c2549", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_reserve", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a4eed9a917876e070dcc2ca6486f63cdc", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_resize", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a923d305111b3174885208565e625a925", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_resize_with_default_value", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#a0b9576c44763f78bdc86f714f5ae57fa", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_shrink_to_fit", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#ad982b660855c5ad118adc095aaca5e74", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectPointsHolder_size", "std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h.html#aa3383b7f9c2eef359a5e919f6dbebdbb", null ]
 ];

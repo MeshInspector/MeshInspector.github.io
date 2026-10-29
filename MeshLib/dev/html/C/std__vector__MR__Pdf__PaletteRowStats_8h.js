@@ -5,9 +5,6 @@ var std__vector__MR__Pdf__PaletteRowStats_8h =
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_at_mut", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a12c693bc9d461bb5d36c2b16956ba4bb", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_back", "std__vector__MR__Pdf__PaletteRowStats_8h.html#af2986dd3faea833d1d8ff8bb17bab119", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_back_mut", "std__vector__MR__Pdf__PaletteRowStats_8h.html#ad7626279b6ba19a3edcd10878d2f18b5", null ],
-    [ "MR_std_vector_MR_Pdf_PaletteRowStats_begin", "std__vector__MR__Pdf__PaletteRowStats_8h.html#ae135d2e35e66217f06bde00d98aa7c70", null ],
-    [ "MR_std_vector_MR_Pdf_PaletteRowStats_begin_mut", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a13002c16d10e700aa726ab977e5ff000", null ],
-    [ "MR_std_vector_MR_Pdf_PaletteRowStats_capacity", "std__vector__MR__Pdf__PaletteRowStats_8h.html#acbc0c2a4d2cd3a50015fdd9a5f693d87", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_clear", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a045bf2bb8fbfceb0ddf63f2b3dbf200d", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_ConstructFromAnother", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a9e6accfac40ae0b943e9a87454d38e76", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_DefaultConstruct", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a9d8f5ea904853a808c7d4131138d0e6a", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__Pdf__PaletteRowStats_8h =
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_Destroy", "std__vector__MR__Pdf__PaletteRowStats_8h.html#ae004b5b008d349ea0e25c79456ad41a9", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_DestroyArray", "std__vector__MR__Pdf__PaletteRowStats_8h.html#ab3d2d5888670ffbce57afd8031c25840", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_empty", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a86be0d3ff8ca2f5c4a4201732893dee8", null ],
-    [ "MR_std_vector_MR_Pdf_PaletteRowStats_end", "std__vector__MR__Pdf__PaletteRowStats_8h.html#ac80809ffb419d1855a5702c41882feaa", null ],
-    [ "MR_std_vector_MR_Pdf_PaletteRowStats_end_mut", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a6488bd756a32e4b5edc15e1f451a5cc3", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_erase", "std__vector__MR__Pdf__PaletteRowStats_8h.html#ab3a21f6ec3eb22f9626a74ad853e6420", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_front", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a370d6da1324eb86189ee0cca16f990f6", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_front_mut", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a0e207f24a6f7b5e190fd0687f9ed716d", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__Pdf__PaletteRowStats_8h =
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_push_back", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a1507e24077704d30716eee6fdf9e3d19", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_reserve", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a9d1afe987d5963426d945c5365aed64b", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_resize", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a1d92d2270ef007c6e15de13a41617c16", null ],
-    [ "MR_std_vector_MR_Pdf_PaletteRowStats_resize_with_default_value", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a3809467f6a2a3155e62551a5b2868b53", null ],
-    [ "MR_std_vector_MR_Pdf_PaletteRowStats_shrink_to_fit", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a6f630688980c540cf23502b3d9248810", null ],
     [ "MR_std_vector_MR_Pdf_PaletteRowStats_size", "std__vector__MR__Pdf__PaletteRowStats_8h.html#a2ad44ef9a27472a22fe5f8a2807b2267", null ]
 ];

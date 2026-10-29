@@ -5,9 +5,6 @@ var std__vector__MR__MeshIntersectionResult_8h =
     [ "MR_std_vector_MR_MeshIntersectionResult_at_mut", "std__vector__MR__MeshIntersectionResult_8h.html#adf528332710695fdbd431fb18b5ea980", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult_back", "std__vector__MR__MeshIntersectionResult_8h.html#a9cfa4fb47ad2bb05f6433eb42d07bc82", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult_back_mut", "std__vector__MR__MeshIntersectionResult_8h.html#a248134e3eb52c1cda318d0e30d3005be", null ],
-    [ "MR_std_vector_MR_MeshIntersectionResult_begin", "std__vector__MR__MeshIntersectionResult_8h.html#a5311fc1c09960334f7af55161dd1713b", null ],
-    [ "MR_std_vector_MR_MeshIntersectionResult_begin_mut", "std__vector__MR__MeshIntersectionResult_8h.html#aeafe3d0b1bb7f70103168ddb0d5f73aa", null ],
-    [ "MR_std_vector_MR_MeshIntersectionResult_capacity", "std__vector__MR__MeshIntersectionResult_8h.html#a73bbfe3d95e0dd5630f1ba25b41a8282", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult_clear", "std__vector__MR__MeshIntersectionResult_8h.html#aa07475fbec811b20200ad131cf512f2f", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult_ConstructFromAnother", "std__vector__MR__MeshIntersectionResult_8h.html#a5f05f29a0c554a2e6d0ba7fb506f4487", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult_DefaultConstruct", "std__vector__MR__MeshIntersectionResult_8h.html#adf95e535ec277ef2a343463532d9d704", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__MeshIntersectionResult_8h =
     [ "MR_std_vector_MR_MeshIntersectionResult_Destroy", "std__vector__MR__MeshIntersectionResult_8h.html#a99cf19948e1e379ec881799f00f416fe", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult_DestroyArray", "std__vector__MR__MeshIntersectionResult_8h.html#a20d520367b633aee5e8194ee26d78cf2", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult_empty", "std__vector__MR__MeshIntersectionResult_8h.html#ac7458c2680ce7680e5e3d0f6543da9ae", null ],
-    [ "MR_std_vector_MR_MeshIntersectionResult_end", "std__vector__MR__MeshIntersectionResult_8h.html#a6ae60cd0860ee522e3dab8d4a09c9479", null ],
-    [ "MR_std_vector_MR_MeshIntersectionResult_end_mut", "std__vector__MR__MeshIntersectionResult_8h.html#a80604732032d486d9fb4f6bdcb1483b5", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult_erase", "std__vector__MR__MeshIntersectionResult_8h.html#a69dd18d3e37c371ac9494013bcc8a8f4", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult_front", "std__vector__MR__MeshIntersectionResult_8h.html#ab599f0dd7718a4d6c2ba8c8ab5345000", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult_front_mut", "std__vector__MR__MeshIntersectionResult_8h.html#aaa6a62a800f08d3869a163482ea5ba7c", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__MeshIntersectionResult_8h =
     [ "MR_std_vector_MR_MeshIntersectionResult_push_back", "std__vector__MR__MeshIntersectionResult_8h.html#ad570d194df995813a00f91d8cdd787ef", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult_reserve", "std__vector__MR__MeshIntersectionResult_8h.html#ac083bf5580a6808ee55a92e84749a4cc", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult_resize", "std__vector__MR__MeshIntersectionResult_8h.html#ac741e3a7f74d7d0ff70bd05eb3a5df51", null ],
-    [ "MR_std_vector_MR_MeshIntersectionResult_resize_with_default_value", "std__vector__MR__MeshIntersectionResult_8h.html#aec935a2dd49c5d97bf227f004a0f66c1", null ],
-    [ "MR_std_vector_MR_MeshIntersectionResult_shrink_to_fit", "std__vector__MR__MeshIntersectionResult_8h.html#abd651e363987e7faba57675514847ce5", null ],
     [ "MR_std_vector_MR_MeshIntersectionResult_size", "std__vector__MR__MeshIntersectionResult_8h.html#a9930e5638ad96ce1f99c18f3c4d6827e", null ]
 ];

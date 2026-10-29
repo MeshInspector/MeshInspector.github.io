@@ -5,9 +5,6 @@ var std__vector__MR__PointsProjectionResult_8h =
     [ "MR_std_vector_MR_PointsProjectionResult_at_mut", "std__vector__MR__PointsProjectionResult_8h.html#abcf7c39bc129b79748544aa5bb592772", null ],
     [ "MR_std_vector_MR_PointsProjectionResult_back", "std__vector__MR__PointsProjectionResult_8h.html#a9b2b6403e908670d64ae5d191dcacef7", null ],
     [ "MR_std_vector_MR_PointsProjectionResult_back_mut", "std__vector__MR__PointsProjectionResult_8h.html#aa27a3e2ccf9680f8c1b6d32c3bf6c8c4", null ],
-    [ "MR_std_vector_MR_PointsProjectionResult_begin", "std__vector__MR__PointsProjectionResult_8h.html#a1f8274b0fbecdff86d9ca981d3bd5aea", null ],
-    [ "MR_std_vector_MR_PointsProjectionResult_begin_mut", "std__vector__MR__PointsProjectionResult_8h.html#a03ed90b57e4c3eb7f78d1a70f9a819c0", null ],
-    [ "MR_std_vector_MR_PointsProjectionResult_capacity", "std__vector__MR__PointsProjectionResult_8h.html#a0ed2d27e18e3189eede6e71bf892846b", null ],
     [ "MR_std_vector_MR_PointsProjectionResult_clear", "std__vector__MR__PointsProjectionResult_8h.html#a676f4c8b12422e39afdec08cffb08192", null ],
     [ "MR_std_vector_MR_PointsProjectionResult_ConstructFromAnother", "std__vector__MR__PointsProjectionResult_8h.html#a248f5f745cb81a93da8bc3d5b0369c30", null ],
     [ "MR_std_vector_MR_PointsProjectionResult_DefaultConstruct", "std__vector__MR__PointsProjectionResult_8h.html#a6076eda9cc505cabe551e45141dc19f8", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__PointsProjectionResult_8h =
     [ "MR_std_vector_MR_PointsProjectionResult_Destroy", "std__vector__MR__PointsProjectionResult_8h.html#ad30a4bd838246e021f0093798781499a", null ],
     [ "MR_std_vector_MR_PointsProjectionResult_DestroyArray", "std__vector__MR__PointsProjectionResult_8h.html#a9e3c9c60ba904a663e65c64367fabc1f", null ],
     [ "MR_std_vector_MR_PointsProjectionResult_empty", "std__vector__MR__PointsProjectionResult_8h.html#a4f37521e1e9f7d775d280165ac3e16cf", null ],
-    [ "MR_std_vector_MR_PointsProjectionResult_end", "std__vector__MR__PointsProjectionResult_8h.html#a6dc48f972bee9eac6d1a0eb644645cfd", null ],
-    [ "MR_std_vector_MR_PointsProjectionResult_end_mut", "std__vector__MR__PointsProjectionResult_8h.html#acdc0d5d929ff6605a9b72580f6599dd3", null ],
     [ "MR_std_vector_MR_PointsProjectionResult_erase", "std__vector__MR__PointsProjectionResult_8h.html#aa29b4686cdf8d47e32c24749244859a9", null ],
     [ "MR_std_vector_MR_PointsProjectionResult_front", "std__vector__MR__PointsProjectionResult_8h.html#a252da620a4db8258b86c450ecf8a847f", null ],
     [ "MR_std_vector_MR_PointsProjectionResult_front_mut", "std__vector__MR__PointsProjectionResult_8h.html#ab1ab764a2047d9c8fd9cbb83e72c41fe", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__PointsProjectionResult_8h =
     [ "MR_std_vector_MR_PointsProjectionResult_push_back", "std__vector__MR__PointsProjectionResult_8h.html#ac556a3039599f9e5467175fd317fde47", null ],
     [ "MR_std_vector_MR_PointsProjectionResult_reserve", "std__vector__MR__PointsProjectionResult_8h.html#a4a5ff8fda073ad8aebabc5dbdd98c3b7", null ],
     [ "MR_std_vector_MR_PointsProjectionResult_resize", "std__vector__MR__PointsProjectionResult_8h.html#adf784622c97ea59aa946358acd79704b", null ],
-    [ "MR_std_vector_MR_PointsProjectionResult_resize_with_default_value", "std__vector__MR__PointsProjectionResult_8h.html#ae9bbfc945113638ea2991b5b0d5342c3", null ],
-    [ "MR_std_vector_MR_PointsProjectionResult_shrink_to_fit", "std__vector__MR__PointsProjectionResult_8h.html#a6bd6b9d60dccf5d7131a54f7a8dd8fc2", null ],
     [ "MR_std_vector_MR_PointsProjectionResult_size", "std__vector__MR__PointsProjectionResult_8h.html#a3a69a0e9e3fef00e892f48a98f3ae29b", null ]
 ];

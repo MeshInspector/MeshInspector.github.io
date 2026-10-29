@@ -5,9 +5,6 @@ var std__vector__std__shared__ptr__MR__HistoryAction_8h =
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_at_mut", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#ac672398c1185e6d142d5b21a560f442c", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_back", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#ab434d58d10d5194a34378fd7b19ee422", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_back_mut", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#acb8cb2e07b7ccff78c946a32080aea99", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_begin", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a18f67b794a4f4e0cc1f8c866d1d0039c", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_begin_mut", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a8f05c644222a0de87e6d4ea2af059fb1", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_capacity", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a82b9ba63f8ad873e4537b2fe21b5e3e1", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_clear", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a1c520f32a1c13fb1fda643222657fcd4", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_ConstructFromAnother", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a4eece9eecaa963ee7035ef2b98e07ba3", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_DefaultConstruct", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#aaaadc1a884aa9e8d8f0de51fed13f08b", null ],
@@ -15,8 +12,6 @@ var std__vector__std__shared__ptr__MR__HistoryAction_8h =
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_Destroy", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a13a4d756f3f074dc80bfc1d4c8a85004", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_DestroyArray", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a2300090d9759a7889dbefa4350e61649", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_empty", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a8c132c30498426746f8697b069d2e9eb", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_end", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a702360f39495e4816e25e76909fc55e4", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_end_mut", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#abf8867fac402184a19ab7d9bafbc3eff", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_erase", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a14ef0c72468509ec4a0e889e5040aac6", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_front", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a9af4e14de6c6daa21d34d2ff5d726783", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_front_mut", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a37a221fe26888931508b5084d8789a72", null ],
@@ -27,7 +22,5 @@ var std__vector__std__shared__ptr__MR__HistoryAction_8h =
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_push_back", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#aea92b9d193941e00a64509df99a396b8", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_reserve", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a315714f8f76312f6c6ec625c63855ac2", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_resize", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#aa59dde9a1cbdfc3a472625720638f7f2", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_resize_with_default_value", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a3e8ae2aa3bb62e5834257b5a3fdc1993", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_shrink_to_fit", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a23da3fd648d9235277c28044cfc207e0", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction_size", "std__vector__std__shared__ptr__MR__HistoryAction_8h.html#a1adb1dd5dc7fc2c1292ab6e080a0b098", null ]
 ];

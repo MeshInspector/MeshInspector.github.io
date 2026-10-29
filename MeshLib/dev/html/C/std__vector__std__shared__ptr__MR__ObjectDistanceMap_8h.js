@@ -5,9 +5,6 @@ var std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h =
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_at_mut", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#aa95d87ffc91242ed9ee0432aca7880f9", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_back", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#a6f1e6e70fd7599063cf4e74e827480c3", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_back_mut", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#a573dc8a6ed978e5ca0cbdf475790773a", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_begin", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#ac0eb587c487575c0770794cdc9c5329c", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_begin_mut", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#aafbadec327d38fcdadf91b704e3c8bfb", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_capacity", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#ad041513b4f25730d28fbfc9cf77d3581", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_clear", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#a9ce5bc32c0fa3ec7125b31a912e0e529", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_ConstructFromAnother", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#ab475cd087b5b14f9aecbccc1c5a5d3a9", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_DefaultConstruct", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#a0de77acf0fd043b0778a9be7bb65a84a", null ],
@@ -15,8 +12,6 @@ var std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h =
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_Destroy", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#a570303816200dc671831e67c219243bc", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_DestroyArray", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#add6743dbbe3069a48b128b1867a471bb", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_empty", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#a09e12aad34d50bfb311c7d5b5a75ee21", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_end", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#ab89b5b0cc426bb82efb332a7a5c7ca6c", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_end_mut", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#a6bebaea0be5f253e3929e13a48a1d817", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_erase", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#ab5931a613e1f0d1b363bd9cd5550bf4a", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_front", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#a93f3e05546ad23fd6b560e41f8c06e38", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_front_mut", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#ad81d1d0765bc9674f1ac019ab06da8bb", null ],
@@ -27,7 +22,5 @@ var std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h =
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_push_back", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#abfa49c02f999993a190c868b427aa591", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_reserve", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#a472d4e326b1061e1b803a47c0258321a", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_resize", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#a122559ce5ae2470f95381c8a51e8ecb7", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_resize_with_default_value", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#abc02a7c92c6d14975c3318ab632de4d9", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_shrink_to_fit", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#ad06971faceed964928327899ce407d26", null ],
     [ "MR_std_vector_std_shared_ptr_MR_ObjectDistanceMap_size", "std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h.html#a3c68547c20a72509cd53f8b7f5999a47", null ]
 ];

@@ -5,9 +5,6 @@ var std__vector__MR__Mesh_8h =
     [ "MR_std_vector_MR_Mesh_at_mut", "std__vector__MR__Mesh_8h.html#a4be7bdb4678a48a0663a3d0d6c996cef", null ],
     [ "MR_std_vector_MR_Mesh_back", "std__vector__MR__Mesh_8h.html#a0f188e33556b4ee38fbce7054248ba4c", null ],
     [ "MR_std_vector_MR_Mesh_back_mut", "std__vector__MR__Mesh_8h.html#ad11826af3f0b04efa8686e731592fbb3", null ],
-    [ "MR_std_vector_MR_Mesh_begin", "std__vector__MR__Mesh_8h.html#adbbcb41e77be0f820a00a063079003da", null ],
-    [ "MR_std_vector_MR_Mesh_begin_mut", "std__vector__MR__Mesh_8h.html#a5d66d4c685b46fdb678907530bc022db", null ],
-    [ "MR_std_vector_MR_Mesh_capacity", "std__vector__MR__Mesh_8h.html#a7249747265744d240617cdce8059ab33", null ],
     [ "MR_std_vector_MR_Mesh_clear", "std__vector__MR__Mesh_8h.html#a937337e3007bb5db000201a046751d43", null ],
     [ "MR_std_vector_MR_Mesh_ConstructFromAnother", "std__vector__MR__Mesh_8h.html#aceac1c8377022311547646558b250f27", null ],
     [ "MR_std_vector_MR_Mesh_DefaultConstruct", "std__vector__MR__Mesh_8h.html#a839bedf022dc301908a373e65d18ca74", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__Mesh_8h =
     [ "MR_std_vector_MR_Mesh_Destroy", "std__vector__MR__Mesh_8h.html#ad06a18f514755c9da93dea32d154c83e", null ],
     [ "MR_std_vector_MR_Mesh_DestroyArray", "std__vector__MR__Mesh_8h.html#ac4373073163e494ec5717a7381d92a89", null ],
     [ "MR_std_vector_MR_Mesh_empty", "std__vector__MR__Mesh_8h.html#aba57b1a7cb6b710e737dc6fd20b16cec", null ],
-    [ "MR_std_vector_MR_Mesh_end", "std__vector__MR__Mesh_8h.html#a3f9a767fee452057e7054f03c6b6de12", null ],
-    [ "MR_std_vector_MR_Mesh_end_mut", "std__vector__MR__Mesh_8h.html#a95aa2b2a913d201b99e91e487757b64a", null ],
     [ "MR_std_vector_MR_Mesh_erase", "std__vector__MR__Mesh_8h.html#a8191c1a4b15b3ce2196c6827b17d7ad5", null ],
     [ "MR_std_vector_MR_Mesh_front", "std__vector__MR__Mesh_8h.html#a92371ab83f9c11ecfc26bf6d7c7664bf", null ],
     [ "MR_std_vector_MR_Mesh_front_mut", "std__vector__MR__Mesh_8h.html#a94e735cf04a65c17c477b2d7aadeafcc", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__Mesh_8h =
     [ "MR_std_vector_MR_Mesh_push_back", "std__vector__MR__Mesh_8h.html#ad114da5c233457db3d7338c9841dfebc", null ],
     [ "MR_std_vector_MR_Mesh_reserve", "std__vector__MR__Mesh_8h.html#aef2423323de77b4c2d9c22c222d5e6cc", null ],
     [ "MR_std_vector_MR_Mesh_resize", "std__vector__MR__Mesh_8h.html#a27aeb6b6db778a6681ca0a065d9b77c9", null ],
-    [ "MR_std_vector_MR_Mesh_resize_with_default_value", "std__vector__MR__Mesh_8h.html#a49238f64f27177f9c8fcdc4a9b7edfd3", null ],
-    [ "MR_std_vector_MR_Mesh_shrink_to_fit", "std__vector__MR__Mesh_8h.html#a0056ec64e2d082289690b7a79c00cc1d", null ],
     [ "MR_std_vector_MR_Mesh_size", "std__vector__MR__Mesh_8h.html#a40b95e12ea45ceaeb8d5e058913deaea", null ]
 ];

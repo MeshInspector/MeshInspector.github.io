@@ -1,17 +1,12 @@
 var std__vector__unsigned__short__MR__Allocator__unsigned__short_8h =
 [
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_AssignFromAnother", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a5f0cdb1189cd18c04a0045f83c899475", null ],
-    [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_AssignFromRange", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a3139d2a07ee6296fdd27477377a16024", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_at", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#adda5f1e246a7a5ec9e96e531ea614be9", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_at_mut", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#ab0472b9e2e89e1c244b0d36c9ef92087", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_back", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#ab0ddb03c1e88841192a32b9e691d3a9e", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_back_mut", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#aa0ca615df0c24a7827056067521e3c9c", null ],
-    [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_begin", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a6f2128d70ad8c1754672729190561f1e", null ],
-    [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_begin_mut", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#af1802969b3a9259b8324b9d896c13c47", null ],
-    [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_capacity", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#aef197c20f0517d33a5aab8a17138e75a", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_clear", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a3790974bfc091fcfa7bd5ef2d632004c", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_ConstructFromAnother", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a3f2683c01215ddcf6446014f318d64c0", null ],
-    [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_ConstructFromRange", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a597c2b103dfd972ae666a393567113b2", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_data", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#aa809577630b2b2564bbf51b7de9ff20b", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_data_mut", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#abce3604bb3fbd4bda3ad76260567ae5a", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_DefaultConstruct", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a3e27a43a16f82978c71877d8b2c18f47", null ],
@@ -19,8 +14,6 @@ var std__vector__unsigned__short__MR__Allocator__unsigned__short_8h =
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_Destroy", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a4b222b3788b8c5d6301d2dac568327fb", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_DestroyArray", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a0519d24e27078e8bcf4474e39d5d0d7c", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_empty", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a000a47ad5daea6bbd22a55c6b6f37661", null ],
-    [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_end", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#afe7f9d7bb51a981b28d70e6ece91ee01", null ],
-    [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_end_mut", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a74e39ed48e92835bbbdd9efa879e5468", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_erase", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a4204b60e9216fb50b6ef06ef91bbfb16", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_front", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a27d515e6c45892b0a035b43ad1c1cd6a", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_front_mut", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a308c82369ef86de7375122878435d62f", null ],
@@ -31,7 +24,5 @@ var std__vector__unsigned__short__MR__Allocator__unsigned__short_8h =
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_push_back", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a7eaf8cdc2f657d5a70c66ffd13931966", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_reserve", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a7261a1962cbb7e6cac6711da8bfe2c9d", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_resize", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a3b795e6bdf033cf926011e5df5ec6111", null ],
-    [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_resize_with_default_value", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#ade8446a871575ecd24a426a2813dba13", null ],
-    [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_shrink_to_fit", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a28d425806285e12d6a9adec8ec77b59c", null ],
     [ "MR_std_vector_unsigned_short_MR_Allocator_unsigned_short_size", "std__vector__unsigned__short__MR__Allocator__unsigned__short_8h.html#a0aa6d480a24d913c7e43c962a56bee49", null ]
 ];

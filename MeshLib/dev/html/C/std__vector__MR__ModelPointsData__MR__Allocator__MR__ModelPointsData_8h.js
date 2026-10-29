@@ -5,9 +5,6 @@ var std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h =
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_at_mut", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#ac09f9cebe39b0b4fd5b82cea48ab1ec7", null ],
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_back", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#ab61abbf393934e269bb2c6cd5428038b", null ],
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_back_mut", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#aab28c2b26f2a570780e9004c7808fbb7", null ],
-    [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_begin", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#a8404e90f5db5442a6a6ab6c9cbb57825", null ],
-    [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_begin_mut", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#a20506162587c60a51dcc19d447d3f0dc", null ],
-    [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_capacity", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#a3d264b9fb101baf19de9cf1696d11617", null ],
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_clear", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#a937945abae213564062b3c746e5a24df", null ],
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_ConstructFromAnother", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#aa66fa4b49b33883f8ffaf268cf574260", null ],
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_DefaultConstruct", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#a620775ed2902e3e34d94143c84d79c22", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h =
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_Destroy", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#ac79a2797017271d38c4390ae46ed79fb", null ],
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_DestroyArray", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#ac6021aedb3392dd4930c19ea077473a1", null ],
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_empty", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#a414b6dafbca725f495e4ca5884a18815", null ],
-    [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_end", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#a79abcfe7174000605df8d692b9894f82", null ],
-    [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_end_mut", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#ac7854f0aa16dec9abd76e5be45aad76b", null ],
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_erase", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#af287852ac3ee0a2fe127ffd941d71402", null ],
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_front", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#a9bb0fd1c6afb0b347c6513203d9ada99", null ],
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_front_mut", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#af3b357318fea3256a72c95b624c99813", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h =
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_push_back", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#a11a2fead934d11ab6a06cf53cb7c2c1b", null ],
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_reserve", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#a61e9ce89f2e75767348bafbfe4de8982", null ],
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_resize", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#a1daee1299c5011ad564c0d464ead2505", null ],
-    [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_resize_with_default_value", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#adb2cc9622417f29eecb71011a7c5c380", null ],
-    [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_shrink_to_fit", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#a7c2beb50c3c5d237ae177d4473c6dc6c", null ],
     [ "MR_std_vector_MR_ModelPointsData_MR_Allocator_MR_ModelPointsData_size", "std__vector__MR__ModelPointsData__MR__Allocator__MR__ModelPointsData_8h.html#a2cd43d72378c0f499fb76787f03e42e6", null ]
 ];

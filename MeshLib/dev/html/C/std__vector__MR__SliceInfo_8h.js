@@ -7,9 +7,6 @@ var std__vector__MR__SliceInfo_8h =
     [ "MR_std_vector_MR_SliceInfo_at_mut", "std__vector__MR__SliceInfo_8h.html#a7ddc5ffeb330e0d86786e10e4d4a26ac", null ],
     [ "MR_std_vector_MR_SliceInfo_back", "std__vector__MR__SliceInfo_8h.html#affc88745636ac1314cd9b3fa3b89e4e2", null ],
     [ "MR_std_vector_MR_SliceInfo_back_mut", "std__vector__MR__SliceInfo_8h.html#ad695fe094253d1f79da48f138fe9f83a", null ],
-    [ "MR_std_vector_MR_SliceInfo_begin", "std__vector__MR__SliceInfo_8h.html#a43d5f44990dc1eed0e528d7fefbc1554", null ],
-    [ "MR_std_vector_MR_SliceInfo_begin_mut", "std__vector__MR__SliceInfo_8h.html#ae84a747124abcdaba2d55f24a20b9498", null ],
-    [ "MR_std_vector_MR_SliceInfo_capacity", "std__vector__MR__SliceInfo_8h.html#a4c2ac9d0275045fe3a26ccb17213f935", null ],
     [ "MR_std_vector_MR_SliceInfo_clear", "std__vector__MR__SliceInfo_8h.html#a324ff55a276744c725f5fdc11e389f7e", null ],
     [ "MR_std_vector_MR_SliceInfo_ConstructFromAnother", "std__vector__MR__SliceInfo_8h.html#ac09c093289c96b2e84d43f47d90dd1d9", null ],
     [ "MR_std_vector_MR_SliceInfo_DefaultConstruct", "std__vector__MR__SliceInfo_8h.html#a25125011e7cf9c8a7b78c825b8dc0879", null ],
@@ -17,8 +14,6 @@ var std__vector__MR__SliceInfo_8h =
     [ "MR_std_vector_MR_SliceInfo_Destroy", "std__vector__MR__SliceInfo_8h.html#aaae83a1ffdc62d259f104be6ae3fc572", null ],
     [ "MR_std_vector_MR_SliceInfo_DestroyArray", "std__vector__MR__SliceInfo_8h.html#a37204dabc61e8d0bdac4bf3f4e129383", null ],
     [ "MR_std_vector_MR_SliceInfo_empty", "std__vector__MR__SliceInfo_8h.html#aa3d065b33a7d07cdc52e545948675546", null ],
-    [ "MR_std_vector_MR_SliceInfo_end", "std__vector__MR__SliceInfo_8h.html#ad52da6855b83c15ebffc65e8cc8b2816", null ],
-    [ "MR_std_vector_MR_SliceInfo_end_mut", "std__vector__MR__SliceInfo_8h.html#a0e47718344c3433b38147717410442a0", null ],
     [ "MR_std_vector_MR_SliceInfo_erase", "std__vector__MR__SliceInfo_8h.html#a128de8746c1756bdb8dbbf1d4be089a3", null ],
     [ "MR_std_vector_MR_SliceInfo_front", "std__vector__MR__SliceInfo_8h.html#ab88911cc14d22a7aca0dbfb9cc00af22", null ],
     [ "MR_std_vector_MR_SliceInfo_front_mut", "std__vector__MR__SliceInfo_8h.html#ae4dfd1afdca1ce373daf5626623ad4e7", null ],
@@ -29,7 +24,5 @@ var std__vector__MR__SliceInfo_8h =
     [ "MR_std_vector_MR_SliceInfo_push_back", "std__vector__MR__SliceInfo_8h.html#a0f783ffc7e755e85924a1d7017a61fa4", null ],
     [ "MR_std_vector_MR_SliceInfo_reserve", "std__vector__MR__SliceInfo_8h.html#adb4387dc3939a41870694b83fd1c6ed1", null ],
     [ "MR_std_vector_MR_SliceInfo_resize", "std__vector__MR__SliceInfo_8h.html#ac15c02b66573831dad6879e4cc352000", null ],
-    [ "MR_std_vector_MR_SliceInfo_resize_with_default_value", "std__vector__MR__SliceInfo_8h.html#abf5b6f1640b8e09d52d84a99fd444f20", null ],
-    [ "MR_std_vector_MR_SliceInfo_shrink_to_fit", "std__vector__MR__SliceInfo_8h.html#a1376f8f0003842435909968eaef2f80d", null ],
     [ "MR_std_vector_MR_SliceInfo_size", "std__vector__MR__SliceInfo_8h.html#a46bafb27d6e2dd21fcbfc7dc5d8b8d6b", null ]
 ];

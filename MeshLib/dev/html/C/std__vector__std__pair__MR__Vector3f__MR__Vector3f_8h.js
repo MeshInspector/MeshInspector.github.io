@@ -6,9 +6,6 @@ var std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h =
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_at_mut", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#ad52d9c4136bfb41ef6540867454f648c", null ],
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_back", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a9517a909a573402883f6209eda9dfa37", null ],
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_back_mut", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#aa600660e3d57e6987bd09adb99ccc27f", null ],
-    [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_begin", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a56b354c4863653886908a9ae84377c37", null ],
-    [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_begin_mut", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a3021650d0cc39431d9748eb37c4b1d05", null ],
-    [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_capacity", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a76eb8ce5ce3a74b6162260332ec1415c", null ],
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_clear", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#ab38026ea4244276ce6285f94e4d29a52", null ],
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_ConstructFromAnother", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a96dc4270528eaa2eb5530d876eb87dd9", null ],
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_DefaultConstruct", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a2591d2be290460fc3be498c5f3f2a8d8", null ],
@@ -16,8 +13,6 @@ var std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h =
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_Destroy", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a2f5107d8c9690c313bfaf7f3924c5f5b", null ],
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_DestroyArray", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#afbf039b2df140014993ce5060e1edf7e", null ],
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_empty", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a53552856cc20dff740d2516684b678c6", null ],
-    [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_end", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a92e2fa91696aa01019213fcb8f4a80d6", null ],
-    [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_end_mut", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#ab2423c14c5e8ef4ba585533f72f6fd5e", null ],
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_erase", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a2c989b343eb8b3e640b9fffe22128302", null ],
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_front", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a79add41554bf1d64c12c3b549465db7c", null ],
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_front_mut", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a7d85d03b25bbde4817158dcf95dd2371", null ],
@@ -28,7 +23,5 @@ var std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h =
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_push_back", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a9e36db37fbcbb5717ef3f7c9422ec420", null ],
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_reserve", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#afde1c186f97266b20fbbda6b48cc94ee", null ],
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_resize", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a76485210c4c233c808eb895886bc693a", null ],
-    [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_resize_with_default_value", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a754ae89f12d12ab4fa1132d67df92240", null ],
-    [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_shrink_to_fit", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#a70f0d6bdd8580fcbd59a86c21b8824cf", null ],
     [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f_size", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#aea3a0f34ffac30f41d7dfe4c3534c011", null ]
 ];

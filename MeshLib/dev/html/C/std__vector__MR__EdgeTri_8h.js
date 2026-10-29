@@ -5,9 +5,6 @@ var std__vector__MR__EdgeTri_8h =
     [ "MR_std_vector_MR_EdgeTri_at_mut", "std__vector__MR__EdgeTri_8h.html#a4d8765972be051631576e644b9a14b74", null ],
     [ "MR_std_vector_MR_EdgeTri_back", "std__vector__MR__EdgeTri_8h.html#ae75e0a60b370cdb31e83b1189740aed2", null ],
     [ "MR_std_vector_MR_EdgeTri_back_mut", "std__vector__MR__EdgeTri_8h.html#a1ace8670a12c75d0d554113035d86ccc", null ],
-    [ "MR_std_vector_MR_EdgeTri_begin", "std__vector__MR__EdgeTri_8h.html#a4d2b55323225f3e8bfe3b80c2cb2a123", null ],
-    [ "MR_std_vector_MR_EdgeTri_begin_mut", "std__vector__MR__EdgeTri_8h.html#a3359390927e19b5dd5960031be12305c", null ],
-    [ "MR_std_vector_MR_EdgeTri_capacity", "std__vector__MR__EdgeTri_8h.html#a6e8a74ec4eb987f6b2be6b66fa9b11a0", null ],
     [ "MR_std_vector_MR_EdgeTri_clear", "std__vector__MR__EdgeTri_8h.html#ad6796c50ea3acfb2c61ae87e8bd51cdd", null ],
     [ "MR_std_vector_MR_EdgeTri_ConstructFromAnother", "std__vector__MR__EdgeTri_8h.html#a65daf2160e83d3bc00b17089b5949a14", null ],
     [ "MR_std_vector_MR_EdgeTri_DefaultConstruct", "std__vector__MR__EdgeTri_8h.html#a8a9f6dcf24d9a6d914f681e16daac5a0", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__EdgeTri_8h =
     [ "MR_std_vector_MR_EdgeTri_Destroy", "std__vector__MR__EdgeTri_8h.html#a0507fba08f469b25344df87626d6f11e", null ],
     [ "MR_std_vector_MR_EdgeTri_DestroyArray", "std__vector__MR__EdgeTri_8h.html#a8659d1c7979eb85578e0ddba6d92cbc0", null ],
     [ "MR_std_vector_MR_EdgeTri_empty", "std__vector__MR__EdgeTri_8h.html#a60fee23441eaf5ea8a0a34d0f125f2f5", null ],
-    [ "MR_std_vector_MR_EdgeTri_end", "std__vector__MR__EdgeTri_8h.html#a7ce411b72ac008f1c5bfd55d5e2d8e85", null ],
-    [ "MR_std_vector_MR_EdgeTri_end_mut", "std__vector__MR__EdgeTri_8h.html#a3646ffd0cc7506d9bfa5fb2e3ac17bd9", null ],
     [ "MR_std_vector_MR_EdgeTri_erase", "std__vector__MR__EdgeTri_8h.html#a585163c9848c5f6bbf4c04c549b51075", null ],
     [ "MR_std_vector_MR_EdgeTri_front", "std__vector__MR__EdgeTri_8h.html#ac178a5fb94b59a4f762539ab9d4e1752", null ],
     [ "MR_std_vector_MR_EdgeTri_front_mut", "std__vector__MR__EdgeTri_8h.html#a192109d20bac5eeb5aba56844efcce53", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__EdgeTri_8h =
     [ "MR_std_vector_MR_EdgeTri_push_back", "std__vector__MR__EdgeTri_8h.html#a9017b72ad1e23b5c3eb00e25c85dda09", null ],
     [ "MR_std_vector_MR_EdgeTri_reserve", "std__vector__MR__EdgeTri_8h.html#afd222d8bbf16166ae7a367cbf705fa4b", null ],
     [ "MR_std_vector_MR_EdgeTri_resize", "std__vector__MR__EdgeTri_8h.html#aff248dcfa91c0be9349f43dd96fe8eac", null ],
-    [ "MR_std_vector_MR_EdgeTri_resize_with_default_value", "std__vector__MR__EdgeTri_8h.html#afbbc4784b6dc6dabcaf115dc4796a497", null ],
-    [ "MR_std_vector_MR_EdgeTri_shrink_to_fit", "std__vector__MR__EdgeTri_8h.html#a2bb68f81cc21b9f0344c12b5513fb45a", null ],
     [ "MR_std_vector_MR_EdgeTri_size", "std__vector__MR__EdgeTri_8h.html#a1c62342144b8f66af60cb58acfb5300b", null ]
 ];

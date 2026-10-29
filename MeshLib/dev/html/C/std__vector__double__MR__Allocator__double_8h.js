@@ -1,17 +1,12 @@
 var std__vector__double__MR__Allocator__double_8h =
 [
     [ "MR_std_vector_double_MR_Allocator_double_AssignFromAnother", "std__vector__double__MR__Allocator__double_8h.html#a552957770c35d1ed7d5bec9bcc3f453e", null ],
-    [ "MR_std_vector_double_MR_Allocator_double_AssignFromRange", "std__vector__double__MR__Allocator__double_8h.html#ac64dbe9e41a9819dc7036432a7d4223a", null ],
     [ "MR_std_vector_double_MR_Allocator_double_at", "std__vector__double__MR__Allocator__double_8h.html#a3b8033fb72f483604ee5f63bdf9bd3fe", null ],
     [ "MR_std_vector_double_MR_Allocator_double_at_mut", "std__vector__double__MR__Allocator__double_8h.html#aa6fb32f3eb8897a23d0f927973f4de6e", null ],
     [ "MR_std_vector_double_MR_Allocator_double_back", "std__vector__double__MR__Allocator__double_8h.html#a6a8e1d33c0beca77f67898e62c245268", null ],
     [ "MR_std_vector_double_MR_Allocator_double_back_mut", "std__vector__double__MR__Allocator__double_8h.html#a4552eb2a10a25015d09cce2fea07a899", null ],
-    [ "MR_std_vector_double_MR_Allocator_double_begin", "std__vector__double__MR__Allocator__double_8h.html#a61d7aadb73ab568c2f86485e790e39a3", null ],
-    [ "MR_std_vector_double_MR_Allocator_double_begin_mut", "std__vector__double__MR__Allocator__double_8h.html#aa277cbde473e8fe7cf5012ad8b2a30bf", null ],
-    [ "MR_std_vector_double_MR_Allocator_double_capacity", "std__vector__double__MR__Allocator__double_8h.html#a19c0f5b87c1b899de217b6791e119067", null ],
     [ "MR_std_vector_double_MR_Allocator_double_clear", "std__vector__double__MR__Allocator__double_8h.html#aebf133bb0702a07d32146884cef8e10f", null ],
     [ "MR_std_vector_double_MR_Allocator_double_ConstructFromAnother", "std__vector__double__MR__Allocator__double_8h.html#afb6874be6b317804c70a54c94a29f287", null ],
-    [ "MR_std_vector_double_MR_Allocator_double_ConstructFromRange", "std__vector__double__MR__Allocator__double_8h.html#a6e6585695e6e527a61add8f1bf2f33ab", null ],
     [ "MR_std_vector_double_MR_Allocator_double_data", "std__vector__double__MR__Allocator__double_8h.html#af4d4e623446a1c53b4199082973f7494", null ],
     [ "MR_std_vector_double_MR_Allocator_double_data_mut", "std__vector__double__MR__Allocator__double_8h.html#a25d77ac17382411221f2a05aa195b970", null ],
     [ "MR_std_vector_double_MR_Allocator_double_DefaultConstruct", "std__vector__double__MR__Allocator__double_8h.html#abc568165d2fb20020afb48a8691f7315", null ],
@@ -19,8 +14,6 @@ var std__vector__double__MR__Allocator__double_8h =
     [ "MR_std_vector_double_MR_Allocator_double_Destroy", "std__vector__double__MR__Allocator__double_8h.html#a2753359ad943d347db3717ee0bc9cb9f", null ],
     [ "MR_std_vector_double_MR_Allocator_double_DestroyArray", "std__vector__double__MR__Allocator__double_8h.html#a995b1ea0bfa16e904c672dcc801b08a5", null ],
     [ "MR_std_vector_double_MR_Allocator_double_empty", "std__vector__double__MR__Allocator__double_8h.html#adbe160ee27d12a7b43521b1a89cee176", null ],
-    [ "MR_std_vector_double_MR_Allocator_double_end", "std__vector__double__MR__Allocator__double_8h.html#afd9aee320d7783485f0846d955c41b44", null ],
-    [ "MR_std_vector_double_MR_Allocator_double_end_mut", "std__vector__double__MR__Allocator__double_8h.html#a5b5ad4202a7513b63ed58676730701a2", null ],
     [ "MR_std_vector_double_MR_Allocator_double_erase", "std__vector__double__MR__Allocator__double_8h.html#a487be373cca2877ab5b4f2315218d259", null ],
     [ "MR_std_vector_double_MR_Allocator_double_front", "std__vector__double__MR__Allocator__double_8h.html#acd9bb0a20ae5e74728355a35515d7827", null ],
     [ "MR_std_vector_double_MR_Allocator_double_front_mut", "std__vector__double__MR__Allocator__double_8h.html#a7f83ece09bea30be90a2d644492a4f2a", null ],
@@ -31,7 +24,5 @@ var std__vector__double__MR__Allocator__double_8h =
     [ "MR_std_vector_double_MR_Allocator_double_push_back", "std__vector__double__MR__Allocator__double_8h.html#a46cc2170799276fb0fb223ca46b057cc", null ],
     [ "MR_std_vector_double_MR_Allocator_double_reserve", "std__vector__double__MR__Allocator__double_8h.html#a3156f4a86f9b391ce625d4aee2b176a2", null ],
     [ "MR_std_vector_double_MR_Allocator_double_resize", "std__vector__double__MR__Allocator__double_8h.html#a7434b4b292cba5a68669dab0a65c98b9", null ],
-    [ "MR_std_vector_double_MR_Allocator_double_resize_with_default_value", "std__vector__double__MR__Allocator__double_8h.html#abf61a2f29dab8f0865e8a1ed0bc1e0f8", null ],
-    [ "MR_std_vector_double_MR_Allocator_double_shrink_to_fit", "std__vector__double__MR__Allocator__double_8h.html#a8863f38a1ee0db3fdef3e57bdcc78d56", null ],
     [ "MR_std_vector_double_MR_Allocator_double_size", "std__vector__double__MR__Allocator__double_8h.html#a0d6f228cc89a3d048e925acda4ebada5", null ]
 ];

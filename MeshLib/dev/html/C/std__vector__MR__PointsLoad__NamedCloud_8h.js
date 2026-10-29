@@ -5,9 +5,6 @@ var std__vector__MR__PointsLoad__NamedCloud_8h =
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_at_mut", "std__vector__MR__PointsLoad__NamedCloud_8h.html#ae2b2405a6f8542d4a8cb599a76f5a135", null ],
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_back", "std__vector__MR__PointsLoad__NamedCloud_8h.html#afcb3713d66b58791f079e490be3360c8", null ],
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_back_mut", "std__vector__MR__PointsLoad__NamedCloud_8h.html#abb3e9c6692cace4d38eb5a1bacaa2667", null ],
-    [ "MR_std_vector_MR_PointsLoad_NamedCloud_begin", "std__vector__MR__PointsLoad__NamedCloud_8h.html#ae47614b2471ec076fb4d8795e58874f6", null ],
-    [ "MR_std_vector_MR_PointsLoad_NamedCloud_begin_mut", "std__vector__MR__PointsLoad__NamedCloud_8h.html#a819e04247cb422d4867dcb17033a8bf5", null ],
-    [ "MR_std_vector_MR_PointsLoad_NamedCloud_capacity", "std__vector__MR__PointsLoad__NamedCloud_8h.html#abb7f4946a4ffbb6e87f41fdcb3fc7d6c", null ],
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_clear", "std__vector__MR__PointsLoad__NamedCloud_8h.html#a1319052e711a1c7a638a1e6998e8e159", null ],
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_ConstructFromAnother", "std__vector__MR__PointsLoad__NamedCloud_8h.html#a1251baef0680799a43eeda6df0271230", null ],
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_DefaultConstruct", "std__vector__MR__PointsLoad__NamedCloud_8h.html#ac017cf63c906c110a546e2bd41ec2a34", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__PointsLoad__NamedCloud_8h =
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_Destroy", "std__vector__MR__PointsLoad__NamedCloud_8h.html#ad5d80419330625bf78e4aa39c36e56be", null ],
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_DestroyArray", "std__vector__MR__PointsLoad__NamedCloud_8h.html#a3e61a1ac67873777725f4035f45197b1", null ],
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_empty", "std__vector__MR__PointsLoad__NamedCloud_8h.html#aeb1bbbd03db1ecbd657158f120f3eada", null ],
-    [ "MR_std_vector_MR_PointsLoad_NamedCloud_end", "std__vector__MR__PointsLoad__NamedCloud_8h.html#a8d64f030a8efed2cc78d7949c8ac2467", null ],
-    [ "MR_std_vector_MR_PointsLoad_NamedCloud_end_mut", "std__vector__MR__PointsLoad__NamedCloud_8h.html#a06e53d7da65b78d4335a2817fb79fe50", null ],
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_erase", "std__vector__MR__PointsLoad__NamedCloud_8h.html#a938b74f60215bc2ef6e1e955e0b9e0a6", null ],
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_front", "std__vector__MR__PointsLoad__NamedCloud_8h.html#a64c106eaf9bc5f6af5f018b8480b86af", null ],
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_front_mut", "std__vector__MR__PointsLoad__NamedCloud_8h.html#a827b19a2c6e6202a8cba4375c040ebde", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__PointsLoad__NamedCloud_8h =
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_push_back", "std__vector__MR__PointsLoad__NamedCloud_8h.html#ac2f8814f4094f32a7d5ba994170cabc5", null ],
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_reserve", "std__vector__MR__PointsLoad__NamedCloud_8h.html#a114a69d859ad7188a14922eca5bd99d1", null ],
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_resize", "std__vector__MR__PointsLoad__NamedCloud_8h.html#acf83ce7128760f845aa851bfc8477f03", null ],
-    [ "MR_std_vector_MR_PointsLoad_NamedCloud_resize_with_default_value", "std__vector__MR__PointsLoad__NamedCloud_8h.html#a7e243a8625ea18e7f93256330354c92b", null ],
-    [ "MR_std_vector_MR_PointsLoad_NamedCloud_shrink_to_fit", "std__vector__MR__PointsLoad__NamedCloud_8h.html#a1300732f7e56d50428df7cb8de7bcff9", null ],
     [ "MR_std_vector_MR_PointsLoad_NamedCloud_size", "std__vector__MR__PointsLoad__NamedCloud_8h.html#a6217f1c7cf54ad45ee7d96e9fb3b0aab", null ]
 ];

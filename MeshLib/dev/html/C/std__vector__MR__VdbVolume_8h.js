@@ -5,9 +5,6 @@ var std__vector__MR__VdbVolume_8h =
     [ "MR_std_vector_MR_VdbVolume_at_mut", "std__vector__MR__VdbVolume_8h.html#a59c8c9dd03656050ad4b918d2f799625", null ],
     [ "MR_std_vector_MR_VdbVolume_back", "std__vector__MR__VdbVolume_8h.html#ad16e1b81304d937ef6075c30b71119e6", null ],
     [ "MR_std_vector_MR_VdbVolume_back_mut", "std__vector__MR__VdbVolume_8h.html#a3b097cbf8985c196e3cab84e9606359c", null ],
-    [ "MR_std_vector_MR_VdbVolume_begin", "std__vector__MR__VdbVolume_8h.html#a9b8965bcb3f4e1c3040873f0f90d4830", null ],
-    [ "MR_std_vector_MR_VdbVolume_begin_mut", "std__vector__MR__VdbVolume_8h.html#ae2c83cc3c2b298a9e97dd3871f0332e4", null ],
-    [ "MR_std_vector_MR_VdbVolume_capacity", "std__vector__MR__VdbVolume_8h.html#a84bdd8f5fef18c04acdf07dcd9dc9d2c", null ],
     [ "MR_std_vector_MR_VdbVolume_clear", "std__vector__MR__VdbVolume_8h.html#a86ebb100760c0a57319744fcc2412c44", null ],
     [ "MR_std_vector_MR_VdbVolume_ConstructFromAnother", "std__vector__MR__VdbVolume_8h.html#ae20948d3a87155825c167386db2ec3bd", null ],
     [ "MR_std_vector_MR_VdbVolume_DefaultConstruct", "std__vector__MR__VdbVolume_8h.html#a9275ceb4f2bd25cac24f0aa8af77df65", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__VdbVolume_8h =
     [ "MR_std_vector_MR_VdbVolume_Destroy", "std__vector__MR__VdbVolume_8h.html#a72aff2b03dd72e23d895a82a6c3ecb2f", null ],
     [ "MR_std_vector_MR_VdbVolume_DestroyArray", "std__vector__MR__VdbVolume_8h.html#a0c00afd22ab12f9c32ec040afc6ca53f", null ],
     [ "MR_std_vector_MR_VdbVolume_empty", "std__vector__MR__VdbVolume_8h.html#a22e3d98423d2dc6e101cfec5252152bc", null ],
-    [ "MR_std_vector_MR_VdbVolume_end", "std__vector__MR__VdbVolume_8h.html#a84ddc0fe5cd49cd4d5ce59807cc615f1", null ],
-    [ "MR_std_vector_MR_VdbVolume_end_mut", "std__vector__MR__VdbVolume_8h.html#ab38ac2c84abda87d5777a863112d82b0", null ],
     [ "MR_std_vector_MR_VdbVolume_erase", "std__vector__MR__VdbVolume_8h.html#ae531b7b65b1a20071233969782f92de7", null ],
     [ "MR_std_vector_MR_VdbVolume_front", "std__vector__MR__VdbVolume_8h.html#ab8db278d021ac4b1623275387262db27", null ],
     [ "MR_std_vector_MR_VdbVolume_front_mut", "std__vector__MR__VdbVolume_8h.html#a1040b0b4f30c1dcb0ed834fbcdbe1013", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__VdbVolume_8h =
     [ "MR_std_vector_MR_VdbVolume_push_back", "std__vector__MR__VdbVolume_8h.html#a4c5effc3a0a2867aa0413d9261181619", null ],
     [ "MR_std_vector_MR_VdbVolume_reserve", "std__vector__MR__VdbVolume_8h.html#a464fba38c0224a7bbfeafa5598d7a096", null ],
     [ "MR_std_vector_MR_VdbVolume_resize", "std__vector__MR__VdbVolume_8h.html#a6662d4965efeccbd9c35a25908bf53d1", null ],
-    [ "MR_std_vector_MR_VdbVolume_resize_with_default_value", "std__vector__MR__VdbVolume_8h.html#acd1992562b1269a266b5166036867229", null ],
-    [ "MR_std_vector_MR_VdbVolume_shrink_to_fit", "std__vector__MR__VdbVolume_8h.html#a4b21b4ac91e93d8bfb414c931c05d98a", null ],
     [ "MR_std_vector_MR_VdbVolume_size", "std__vector__MR__VdbVolume_8h.html#ab6c1ee3eb514f38ae5a6cddb77fc4c11", null ]
 ];

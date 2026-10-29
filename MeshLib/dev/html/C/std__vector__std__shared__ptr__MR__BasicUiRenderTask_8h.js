@@ -5,9 +5,6 @@ var std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h =
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_at_mut", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#ae6cc37e0bfc09cfc8ae8b302170dd92e", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_back", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#ad2973bc467ef7343699f504211403c28", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_back_mut", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a7581be9fc8524288d6a3db4f980f7448", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_begin", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a5ce1be310313734ed2433c5af061722b", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_begin_mut", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a9329e308abf133b30da4cf8a8361116a", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_capacity", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a508c460402dd373b34b41e938be0a289", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_clear", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#aff6de0ada48aab69d97810eb895cc621", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_ConstructFromAnother", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a7a23ad24d126316891fb23c74a832179", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_DefaultConstruct", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a0edc89ce9929fb207bbde1c4b9d421ac", null ],
@@ -15,8 +12,6 @@ var std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h =
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_Destroy", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#abcaedf51810e3c714e1561912d350669", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_DestroyArray", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a9a113010c61b67e70cfdfcca2b1a4090", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_empty", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a938e6799cde03487a348b9470a789111", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_end", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#aad6fe6d88bfd9f06c6b49bc565129880", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_end_mut", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#ab589074c9be35c8a664db35d07ebfa0f", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_erase", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a46b00754f0501914f817823adf7d004f", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_front", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a49dbff2892fdea3f58d812d46f036321", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_front_mut", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a68a543863476ea507cef278980d3a124", null ],
@@ -27,7 +22,5 @@ var std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h =
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_push_back", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#adf6f02ba0d2d085dd093a3c6b74703ee", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_reserve", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a7222268cd52a042a3b94c921a4fb5310", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_resize", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#aa036b7b84e675156382d0c0f1b36c679", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_resize_with_default_value", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#ae9a10b23362ec8b5ee32f22fea5d2eda", null ],
-    [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_shrink_to_fit", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a85809b65e36dcc76c6017b013b26fe2c", null ],
     [ "MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask_size", "std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h.html#a091a98c0a72f7b66f3c5a41611cb5c54", null ]
 ];

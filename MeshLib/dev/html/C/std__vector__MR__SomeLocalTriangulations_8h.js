@@ -5,9 +5,6 @@ var std__vector__MR__SomeLocalTriangulations_8h =
     [ "MR_std_vector_MR_SomeLocalTriangulations_at_mut", "std__vector__MR__SomeLocalTriangulations_8h.html#ae01f0c75765e4095ba0f6b25d235fc2b", null ],
     [ "MR_std_vector_MR_SomeLocalTriangulations_back", "std__vector__MR__SomeLocalTriangulations_8h.html#a52fee381c80b54f417dd18cb2013e12c", null ],
     [ "MR_std_vector_MR_SomeLocalTriangulations_back_mut", "std__vector__MR__SomeLocalTriangulations_8h.html#afb0c7bf077c9ec5fc32f45ed80abd85d", null ],
-    [ "MR_std_vector_MR_SomeLocalTriangulations_begin", "std__vector__MR__SomeLocalTriangulations_8h.html#a0d900f111125f19cf817871940e7234a", null ],
-    [ "MR_std_vector_MR_SomeLocalTriangulations_begin_mut", "std__vector__MR__SomeLocalTriangulations_8h.html#a63c922d5221368d7a2316bafe20e5b00", null ],
-    [ "MR_std_vector_MR_SomeLocalTriangulations_capacity", "std__vector__MR__SomeLocalTriangulations_8h.html#ad27a4b3edd13e621eecbaa8c2a869f4c", null ],
     [ "MR_std_vector_MR_SomeLocalTriangulations_clear", "std__vector__MR__SomeLocalTriangulations_8h.html#ae1ea98d0c7383b6fd8199c9a89baf90e", null ],
     [ "MR_std_vector_MR_SomeLocalTriangulations_ConstructFromAnother", "std__vector__MR__SomeLocalTriangulations_8h.html#aba0d1c5a5ac33d580f5d2de699c42afb", null ],
     [ "MR_std_vector_MR_SomeLocalTriangulations_DefaultConstruct", "std__vector__MR__SomeLocalTriangulations_8h.html#a2d74f1674b9fa0e8d7fa913bfa7a333a", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__SomeLocalTriangulations_8h =
     [ "MR_std_vector_MR_SomeLocalTriangulations_Destroy", "std__vector__MR__SomeLocalTriangulations_8h.html#a2051e8620f4b0a6c4d45a542946d33e6", null ],
     [ "MR_std_vector_MR_SomeLocalTriangulations_DestroyArray", "std__vector__MR__SomeLocalTriangulations_8h.html#a9a05f67cae2666629ef7bf09dd0af7eb", null ],
     [ "MR_std_vector_MR_SomeLocalTriangulations_empty", "std__vector__MR__SomeLocalTriangulations_8h.html#aad814752aa2df4efa6dd0b97eae7b4e9", null ],
-    [ "MR_std_vector_MR_SomeLocalTriangulations_end", "std__vector__MR__SomeLocalTriangulations_8h.html#ad2e7af97c4666fd17c2effef81f270df", null ],
-    [ "MR_std_vector_MR_SomeLocalTriangulations_end_mut", "std__vector__MR__SomeLocalTriangulations_8h.html#a2f7eac20b8283eda0c8b274069266b36", null ],
     [ "MR_std_vector_MR_SomeLocalTriangulations_erase", "std__vector__MR__SomeLocalTriangulations_8h.html#abdc9fa1dcd94eb288271e5342164a995", null ],
     [ "MR_std_vector_MR_SomeLocalTriangulations_front", "std__vector__MR__SomeLocalTriangulations_8h.html#a617c78a24f119efa19e59192ebd85c94", null ],
     [ "MR_std_vector_MR_SomeLocalTriangulations_front_mut", "std__vector__MR__SomeLocalTriangulations_8h.html#a360296c7e782d1a717c2faf8fb9746f9", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__SomeLocalTriangulations_8h =
     [ "MR_std_vector_MR_SomeLocalTriangulations_push_back", "std__vector__MR__SomeLocalTriangulations_8h.html#a744c12caa8d49c578b156c8082afa147", null ],
     [ "MR_std_vector_MR_SomeLocalTriangulations_reserve", "std__vector__MR__SomeLocalTriangulations_8h.html#a545197e5363748570fa9dcf2b5da5cb1", null ],
     [ "MR_std_vector_MR_SomeLocalTriangulations_resize", "std__vector__MR__SomeLocalTriangulations_8h.html#aa9e74713c09769545def2ac3127fb3a2", null ],
-    [ "MR_std_vector_MR_SomeLocalTriangulations_resize_with_default_value", "std__vector__MR__SomeLocalTriangulations_8h.html#a38535a1f0ad630559efc642807c533fe", null ],
-    [ "MR_std_vector_MR_SomeLocalTriangulations_shrink_to_fit", "std__vector__MR__SomeLocalTriangulations_8h.html#a32783985f48fc00707c9613082a370ff", null ],
     [ "MR_std_vector_MR_SomeLocalTriangulations_size", "std__vector__MR__SomeLocalTriangulations_8h.html#aa1bce67ff988ba613292643cd7edb77d", null ]
 ];

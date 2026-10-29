@@ -1,17 +1,12 @@
 var std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h =
 [
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_AssignFromAnother", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a935d833efb99c10f6bec5bc1a7253c3b", null ],
-    [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_AssignFromRange", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a82331abc8d26d0fec0b2f5f6403e1bd4", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_at", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a138d9e18b3877245eb12bf3685e8185a", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_at_mut", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a9292c093eadb4c2aafd5081cb89239ae", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_back", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#aa73b93e7aa2aa047c916325b380b49bd", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_back_mut", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#aa4bc61053f87ed5b166847b330b41777", null ],
-    [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_begin", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a202cc2738547a7cb331a915ce6fd6856", null ],
-    [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_begin_mut", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a171f298ff86d0d89654731326828e701", null ],
-    [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_capacity", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a2ad95c9e2822fc5a900c6592aa38c60d", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_clear", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a567aba7ba227856fb6866fac909c8427", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_ConstructFromAnother", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a6b9f2d774a675e1dbd6a0ecf37e62669", null ],
-    [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_ConstructFromRange", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#ac427e283b5b9987ad508cff1f166dcf0", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_data", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a97f5f578a492c332848df0de6f61b8f3", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_data_mut", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a5f0809e91e3149b96cea210ea9e15e03", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_DefaultConstruct", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a7ad866efeb63a53586aba98099ba86df", null ],
@@ -19,8 +14,6 @@ var std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h =
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_Destroy", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a05bdd194f0092dfdde6eb679c7cac6ed", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_DestroyArray", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#afcf699e35b8939cc9ee9c478e888ef90", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_empty", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a279ed75c79f8d9d39ddb96bb74813f1e", null ],
-    [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_end", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#ade1fc2b974b8ca4a496dd47bea316c04", null ],
-    [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_end_mut", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a7f9ab14f29fdda5a29602f00f56b1329", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_erase", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a4e76a6b1336fa6729451aebf95490f59", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_front", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a013f2e783cd9c7437e202edbfeff57ad", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_front_mut", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#aec2ebe43a8b1e34aac14edd374d6f109", null ],
@@ -31,7 +24,5 @@ var std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h =
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_push_back", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#aaee833e85ff4f00235575b4c8a0f67f0", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_reserve", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a7440cc77d86505f15225a0acb4abff9e", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_resize", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#a4f7a6155ad02ba6acd548ac485e4beb9", null ],
-    [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_resize_with_default_value", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#af1fde6fb06f43d5d8c8276e24936f92e", null ],
-    [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_shrink_to_fit", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#abd4f25d0d4a61a1afcecdad7a96a7e49", null ],
     [ "MR_std_vector_MR_GraphEdgeId_MR_Allocator_MR_GraphEdgeId_size", "std__vector__MR__GraphEdgeId__MR__Allocator__MR__GraphEdgeId_8h.html#afceb9dca8d14e0ab224d051fadc5b9d4", null ]
 ];

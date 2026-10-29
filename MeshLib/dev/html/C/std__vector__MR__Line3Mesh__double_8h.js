@@ -5,9 +5,6 @@ var std__vector__MR__Line3Mesh__double_8h =
     [ "MR_std_vector_MR_Line3Mesh_double_at_mut", "std__vector__MR__Line3Mesh__double_8h.html#a9bef74e32ebbf20a6c770e89e385a35e", null ],
     [ "MR_std_vector_MR_Line3Mesh_double_back", "std__vector__MR__Line3Mesh__double_8h.html#a2dfb25501c705228d203a5e2da5d1649", null ],
     [ "MR_std_vector_MR_Line3Mesh_double_back_mut", "std__vector__MR__Line3Mesh__double_8h.html#a76c5a463a43c2f51e250821f37a6e3e6", null ],
-    [ "MR_std_vector_MR_Line3Mesh_double_begin", "std__vector__MR__Line3Mesh__double_8h.html#ad66f61d062118541ea4933ca5428aa2e", null ],
-    [ "MR_std_vector_MR_Line3Mesh_double_begin_mut", "std__vector__MR__Line3Mesh__double_8h.html#a7339cad0da057052db7dab9d42796176", null ],
-    [ "MR_std_vector_MR_Line3Mesh_double_capacity", "std__vector__MR__Line3Mesh__double_8h.html#a512d9e11682536b5f11586d8662361b4", null ],
     [ "MR_std_vector_MR_Line3Mesh_double_clear", "std__vector__MR__Line3Mesh__double_8h.html#a492485145c4ac70782616edeb2fadf47", null ],
     [ "MR_std_vector_MR_Line3Mesh_double_ConstructFromAnother", "std__vector__MR__Line3Mesh__double_8h.html#a9d528c26a6f416edd89278623c598a44", null ],
     [ "MR_std_vector_MR_Line3Mesh_double_DefaultConstruct", "std__vector__MR__Line3Mesh__double_8h.html#a836fadea58bf51ee9543e82b0da13ae8", null ],
@@ -15,8 +12,6 @@ var std__vector__MR__Line3Mesh__double_8h =
     [ "MR_std_vector_MR_Line3Mesh_double_Destroy", "std__vector__MR__Line3Mesh__double_8h.html#a665b973e3f6ce5525035c0aea53befbd", null ],
     [ "MR_std_vector_MR_Line3Mesh_double_DestroyArray", "std__vector__MR__Line3Mesh__double_8h.html#ad30f498e6935a98e4b96e3031147165e", null ],
     [ "MR_std_vector_MR_Line3Mesh_double_empty", "std__vector__MR__Line3Mesh__double_8h.html#a76e0a7a9ef6059437f3eb1aaecf178f2", null ],
-    [ "MR_std_vector_MR_Line3Mesh_double_end", "std__vector__MR__Line3Mesh__double_8h.html#abfc9a3d697e8fba29bb85eb13d25bb79", null ],
-    [ "MR_std_vector_MR_Line3Mesh_double_end_mut", "std__vector__MR__Line3Mesh__double_8h.html#a3c2f7dccc4e1872b99badbcd4ce9d833", null ],
     [ "MR_std_vector_MR_Line3Mesh_double_erase", "std__vector__MR__Line3Mesh__double_8h.html#ac4aa9db8e27022b131bd1c2ed8518c34", null ],
     [ "MR_std_vector_MR_Line3Mesh_double_front", "std__vector__MR__Line3Mesh__double_8h.html#ac196e9612653f0d5759a968c72d79f1d", null ],
     [ "MR_std_vector_MR_Line3Mesh_double_front_mut", "std__vector__MR__Line3Mesh__double_8h.html#a38cccb0e31a10ec24a1aa554c605ec54", null ],
@@ -27,7 +22,5 @@ var std__vector__MR__Line3Mesh__double_8h =
     [ "MR_std_vector_MR_Line3Mesh_double_push_back", "std__vector__MR__Line3Mesh__double_8h.html#acef93b5d87459ddb457fab2af92c2782", null ],
     [ "MR_std_vector_MR_Line3Mesh_double_reserve", "std__vector__MR__Line3Mesh__double_8h.html#a68a77ca5e36b20109249cfbc28d1aaed", null ],
     [ "MR_std_vector_MR_Line3Mesh_double_resize", "std__vector__MR__Line3Mesh__double_8h.html#aa535f105993888dd49ac324c71261b57", null ],
-    [ "MR_std_vector_MR_Line3Mesh_double_resize_with_default_value", "std__vector__MR__Line3Mesh__double_8h.html#a20e00d6985250114d6b88b5eeec401b4", null ],
-    [ "MR_std_vector_MR_Line3Mesh_double_shrink_to_fit", "std__vector__MR__Line3Mesh__double_8h.html#a20c7556b366d6940b332d4d2dc8f00f4", null ],
     [ "MR_std_vector_MR_Line3Mesh_double_size", "std__vector__MR__Line3Mesh__double_8h.html#a674bcbb5bf00b1e75d7963830eb16eae", null ]
 ];
