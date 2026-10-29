@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1BooleanResultMapper.html#af6e316b7b21f94033491018406e4e3a6":[9,0,0,8,0,7],
+"structMR_1_1BooleanResultMapper_1_1Maps.html":[9,0,0,8,0,0],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#a70a6c9015f66d50b0889a5cfbdc6b9a9":[9,0,0,8,0,0,2],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c":[9,0,0,8,0,0,0],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9":[9,0,0,8,0,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1DistanceMapToWorld.html#aafedbe9db4bcbe9cf1a98dd2daa8da7f":[9,0,0,5,5,1],
 "structMR_1_1DistanceMapToWorld.html#ac20206aa1ac29437ea53266ea70723dc":[9,0,0,5,5,10],
 "structMR_1_1DistanceToMeshOptions.html":[9,0,0,20,211],
-"structMR_1_1DistanceVolumeParams.html":[9,0,0,20,863],
-"structMR_1_1DivideMeshWithPlaneParams.html":[9,0,0,20,356],
-"structMR_1_1DividePointCloudOptionalOutput.html":[9,0,0,20,456]
+"structMR_1_1DistanceVolumeParams.html":[9,0,0,20,863]
 };

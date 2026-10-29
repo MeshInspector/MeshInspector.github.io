@@ -566,6 +566,7 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "std_vector_std_filesystem_path_MR_Allocator_std_filesystem_path.h", "std__vector__std__filesystem__path__MR__Allocator__std__filesystem__path_8h.html", "std__vector__std__filesystem__path__MR__Allocator__std__filesystem__path_8h" ],
     [ "std_vector_std_pair_double_int.h", "std__vector__std__pair__double__int_8h.html", "std__vector__std__pair__double__int_8h" ],
     [ "std_vector_std_pair_MR_EdgeId_MR_EdgeId.h", "std__vector__std__pair__MR__EdgeId__MR__EdgeId_8h.html", "std__vector__std__pair__MR__EdgeId__MR__EdgeId_8h" ],
+    [ "std_vector_std_pair_MR_EdgeId_MR_EdgeId_MR_Allocator_std_pair_MR_EdgeId_MR_EdgeId.h", "std__vector__std__pair__MR__EdgeId__MR__EdgeId__MR__Allocator__std__pair__MR__EdgeId__MR__EdgeId_8h.html", "std__vector__std__pair__MR__EdgeId__MR__EdgeId__MR__Allocator__std__pair__MR__EdgeId__MR__EdgeId_8h" ],
     [ "std_vector_std_pair_MR_Vector3f_MR_Vector3f.h", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html", "std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h" ],
     [ "std_vector_std_pair_MR_VertId_MR_VertId.h", "std__vector__std__pair__MR__VertId__MR__VertId_8h.html", "std__vector__std__pair__MR__VertId__MR__VertId_8h" ],
     [ "std_vector_std_pair_size_t_size_t.h", "std__vector__std__pair__size__t__size__t_8h.html", "std__vector__std__pair__size__t__size__t_8h" ],

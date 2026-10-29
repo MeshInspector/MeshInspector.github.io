@@ -12129,6 +12129,8 @@ var group__GeneralGroup =
     [ "MR::MouseController::findControlByMode", "group__GeneralGroup.html#ga5cfbe5c519b74434202e1e4f3d26779f", null ],
     [ "MR::SurfacePointWidget::findCoords", "group__GeneralGroup.html#ga4245a8c7d95d9eed5fa164c5fb3ba261", null ],
     [ "MR::findCreaseEdges", "group__GeneralGroup.html#ga4474364c5ae6c6bf625ffa3068f8760c", null ],
+    [ "MR::PlanarTriangulation::findCrossings", "group__GeneralGroup.html#ga1177738f755e9fc7facc73167e6edb4f", null ],
+    [ "MR::PlanarTriangulation::findCrossings", "group__GeneralGroup.html#ga4fbb980eebf8d03063020064005265c6", null ],
     [ "MR::VoxelsLoad::findDicomFoldersRecursively", "group__GeneralGroup.html#gaa4b88892db60bc9b8396dc446524f02e", null ],
     [ "MR::findDirMaxBruteForce", "group__GeneralGroup.html#gaf30a2dab9853d8a280c7c7d017880d1e", null ],
     [ "MR::findDirMaxBruteForce", "group__GeneralGroup.html#gabf598c3bfdd6296baf421ecc772816c1", null ],

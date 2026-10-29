@@ -3595,6 +3595,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga6bf92ff9850bc3bd73ec9926a31dcfed" id="r_ga6bf92ff9850bc3bd73ec9926a31dcfed"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6bf92ff9850bc3bd73ec9926a31dcfed">MR::PlanarTriangulation::getMonotonePlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>)</td></tr>
 <tr class="memdesc:ga6bf92ff9850bc3bd73ec9926a31dcfed"><td class="mdescLeft">&#160;</td><td class="mdescRight">splits the near-planar region bounded by <code class="param">loops</code> in monotone parts, without triangulating them this is the sweep-line triangulation stopped right after monotonation  <br /></td></tr>
 <tr class="memitem:gaa5caa2dc67571dc86450fb74f4c4fc76" id="r_gaa5caa2dc67571dc86450fb74f4c4fc76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::optional&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa5caa2dc67571dc86450fb74f4c4fc76">MR::PlanarTriangulation::getMonotonePlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 3 &gt; &amp;tri, const std::function&lt; <a class="el" href="structMR_1_1PreciseCutPoint.html">PreciseCutPoint</a>(VertId)&gt; &amp;pointOf)</td></tr>
+<tr class="memitem:ga1177738f755e9fc7facc73167e6edb4f" id="r_ga1177738f755e9fc7facc73167e6edb4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::optional&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#gab355986e338097e97435c68b33987055">EdgePair</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1177738f755e9fc7facc73167e6edb4f">MR::PlanarTriangulation::findCrossings</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 3 &gt; &amp;tri, const std::function&lt; <a class="el" href="structMR_1_1PreciseCutPoint.html">PreciseCutPoint</a>(VertId)&gt; &amp;pointOf, const std::function&lt; std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 3 &gt;(UndirectedEdgeId)&gt; &amp;cutOf)</td></tr>
+<tr class="memitem:ga4fbb980eebf8d03063020064005265c6" id="r_ga4fbb980eebf8d03063020064005265c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::optional&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#gab355986e338097e97435c68b33987055">EdgePair</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4fbb980eebf8d03063020064005265c6">MR::PlanarTriangulation::findCrossings</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;loops, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>)</td></tr>
 <tr class="memitem:gaea0c7f45b42e2b13000b32327759cd42" id="r_gaea0c7f45b42e2b13000b32327759cd42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaea0c7f45b42e2b13000b32327759cd42">MR::PlanarTriangulation::hasCrossing</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#ga18500a3df20aa256325c44e2c5b2b499">TwoVertIds</a> &gt; &amp;segments, const <a class="el" href="classMR_1_1CutTrianglePredicates.html">CutTrianglePredicates</a> &amp;preds, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *cache=nullptr)</td></tr>
 <tr class="memitem:gacfaef72f07688abfd1a71b74f496d251" id="r_gacfaef72f07688abfd1a71b74f496d251"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacfaef72f07688abfd1a71b74f496d251">MR::PlanarTriangulation::hasCrossing</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#ga18500a3df20aa256325c44e2c5b2b499">TwoVertIds</a> &gt; &amp;segments, const VertCoords &amp;<a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, const Vector3f &amp;<a class="el" href="#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>, <a class="el" href="classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html">ISweepLineCache</a> *cache=nullptr)</td></tr>
 <tr class="memitem:ga58f8dd538965bde14c46c2ed60aac1f9" id="r_ga58f8dd538965bde14c46c2ed60aac1f9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga7a0335fa16114969e7f5e031192bf45b">NodeVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga58f8dd538965bde14c46c2ed60aac1f9">MR::AABBTreeBase&lt; T &gt;::nodes</a> () const</td></tr>
@@ -71347,6 +71349,74 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 <p><code>#include &lt;<a class="el" href="MRMeshMath_8h.html">MRMesh/MRMeshMath.h</a>&gt;</code></p>
 
 <p>finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value </p>
+
+</div>
+</div>
+<a id="ga1177738f755e9fc7facc73167e6edb4f" name="ga1177738f755e9fc7facc73167e6edb4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1177738f755e9fc7facc73167e6edb4f">&#9670;&#160;</a></span>findCrossings() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::optional&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#gab355986e338097e97435c68b33987055">EdgePair</a> &gt; &gt; MR::PlanarTriangulation::findCrossings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>loops</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 3 &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tri</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; <a class="el" href="structMR_1_1PreciseCutPoint.html">PreciseCutPoint</a>(VertId)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>pointOf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; std::array&lt; <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a>, 3 &gt;(UndirectedEdgeId)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cutOf</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
+<p>finds the crossings of the loops of one triangle cut by the boolean on the exact predicates above, in the order of the sweep and along every edge, each as two edges directed along it, the first passing from right to left of the second, with <code class="param">cutOf</code> the triangle of the other mesh along every inner edge (invalid ids along a side); std::nullopt if a side edge crosses another edge, on a multiple edge, or if predicates fail </p>
+
+</div>
+</div>
+<a id="ga4fbb980eebf8d03063020064005265c6" name="ga4fbb980eebf8d03063020064005265c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4fbb980eebf8d03063020064005265c6">&#9670;&#160;</a></span>findCrossings() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::optional&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="#gab355986e338097e97435c68b33987055">EdgePair</a> &gt; &gt; MR::PlanarTriangulation::findCrossings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga1964726fd495b12be5c3bce9a751f898">EdgeLoops</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>loops</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>normal</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</code></p>
+<p>same as above on the float predicates of getMonotonePlan( mesh, loops, normal ), projected counterclockwise around <code class="param">normal</code> (oriented as the triangle), which sets the sweep and left and right; the rounding, also of the crossings, can add or remove one near another point or edge, and a side edge crossing another edge is a usual pair; std::nullopt on a multiple edge </p>
 
 </div>
 </div>

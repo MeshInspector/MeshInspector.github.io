@@ -13,6 +13,8 @@ var namespaceMR_1_1PlanarTriangulation =
       [ "Positive", "group__GeneralGroup.html#gga41b088a697624ae295c7b3a7b137bca9a3289297424e01eda5b788c083bbf3147", null ],
       [ "Negative", "group__GeneralGroup.html#gga41b088a697624ae295c7b3a7b137bca9affb9356ff2b7da85c75c92fa7ea03b8b", null ]
     ] ],
+    [ "findCrossings", "group__GeneralGroup.html#ga1177738f755e9fc7facc73167e6edb4f", null ],
+    [ "findCrossings", "group__GeneralGroup.html#ga4fbb980eebf8d03063020064005265c6", null ],
     [ "getMonotonePlan", "group__GeneralGroup.html#gaa5caa2dc67571dc86450fb74f4c4fc76", null ],
     [ "getMonotonePlan", "group__GeneralGroup.html#ga6bf92ff9850bc3bd73ec9926a31dcfed", null ],
     [ "getOutline", "group__GeneralGroup.html#ga4e98690acecec7a927c64053f5b86d80", null ],

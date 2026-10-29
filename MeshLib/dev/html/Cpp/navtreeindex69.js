@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1Polyline.html#ab5049b91b498ff6a3932bb2ee20cf2bf":[9,0,0,14,0,3],
+"structMR_1_1Polyline.html#ab5969e3da3e8deb772958e4855dc5b9c":[9,0,0,14,0,22],
 "structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f":[9,0,0,14,0,21],
 "structMR_1_1Polyline.html#abaaaf2e622a7df2fb5ef5492721109be":[9,0,0,14,0,13],
 "structMR_1_1Polyline.html#abe0cb6a927b49d813ccebab2cc70d7a7":[9,0,0,14,0,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1SpaceMouse_1_1Parameters.html#a95334988bb6abd60db066c5e281a594f":[9,0,2,0,2,32,5,1],
 "structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[9,0,1,0,1,49,5,2],
 "structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[9,0,2,0,2,32,5,2],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[9,0,1,0,1,49,5,0],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[9,0,2,0,2,32,5,0],
-"structMR_1_1SpacingSettings.html":[9,0,0,20,477]
+"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[9,0,1,0,1,49,5,0]
 };

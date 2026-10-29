@@ -2649,6 +2649,9 @@ var hierarchy =
       [ "MR.Const_Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Const__Vector__StdFilesystemPath__MRTextureId.html", [
         [ "MR.Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html", null ]
       ] ],
+      [ "MR.Const_Vector_StdPairMREdgeIdMREdgeId", "classMR_1_1Const__Vector__StdPairMREdgeIdMREdgeId.html", [
+        [ "MR.Vector_StdPairMREdgeIdMREdgeId", "classMR_1_1Vector__StdPairMREdgeIdMREdgeId.html", null ]
+      ] ],
       [ "MR.Const_Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Const__Vector__StdVectorMREdgePoint__MRVertId.html", [
         [ "MR.Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html", null ]
       ] ],
@@ -3419,6 +3422,7 @@ var hierarchy =
       [ "MR.Const_Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Const__Vector__StdArrayMRVector3f3__MRFaceId.html", null ],
       [ "MR.Const_Vector_StdArrayMRVertId2", "classMR_1_1Const__Vector__StdArrayMRVertId2.html", null ],
       [ "MR.Const_Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Const__Vector__StdFilesystemPath__MRTextureId.html", null ],
+      [ "MR.Const_Vector_StdPairMREdgeIdMREdgeId", "classMR_1_1Const__Vector__StdPairMREdgeIdMREdgeId.html", null ],
       [ "MR.Const_Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Const__Vector__StdVectorMREdgePoint__MRVertId.html", null ],
       [ "MR.Const_Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Const__Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag.html", null ],
@@ -4393,6 +4397,7 @@ var hierarchy =
       [ "MR.Const_Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Const__Vector__StdArrayMRVector3f3__MRFaceId.html", null ],
       [ "MR.Const_Vector_StdArrayMRVertId2", "classMR_1_1Const__Vector__StdArrayMRVertId2.html", null ],
       [ "MR.Const_Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Const__Vector__StdFilesystemPath__MRTextureId.html", null ],
+      [ "MR.Const_Vector_StdPairMREdgeIdMREdgeId", "classMR_1_1Const__Vector__StdPairMREdgeIdMREdgeId.html", null ],
       [ "MR.Const_Vector_StdVectorMREdgePoint_MRVertId", "classMR_1_1Const__Vector__StdVectorMREdgePoint__MRVertId.html", null ],
       [ "MR.Const_Vector_StdVectorMRGraphEdgeId_MRGraphVertId", "classMR_1_1Const__Vector__StdVectorMRGraphEdgeId__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag.html", null ],
