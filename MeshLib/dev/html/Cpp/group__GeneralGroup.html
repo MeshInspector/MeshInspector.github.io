@@ -730,6 +730,12 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple point on mesh, represented by primitive id and coordinate in mesh space.  <a href="structMR_1_1OneMeshIntersection.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AOneMeshContour" id="r_MR_3A_3AOneMeshContour"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OneMeshContour.html">MR::OneMeshContour</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">One contour on mesh.  <a href="structMR_1_1OneMeshContour.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AOneMeshContourView" id="r_MR_3A_3AOneMeshContourView"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OneMeshContourView.html">MR::OneMeshContourView</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">One contour of <a class="el" href="structMR_1_1OneMeshContours.html" title="Special data type for MR::cutMesh: the intersections of all contours in one array,...">OneMeshContours</a>, viewed in place.  <a href="structMR_1_1OneMeshContourView.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AOneMeshContours" id="r_MR_3A_3AOneMeshContours"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OneMeshContours.html">MR::OneMeshContours</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Special data type for <a class="el" href="group__BooleanGroup.html#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a>: the intersections of all contours in one array, one contour after another.  <a href="structMR_1_1OneMeshContours.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AOneMeshContours_3A_3AConstIterator" id="r_MR_3A_3AOneMeshContours_3A_3AConstIterator"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OneMeshContours_1_1ConstIterator.html">MR::OneMeshContours::ConstIterator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">not in the bindings: they would get an iterator over the views, which they lack (MR_BIND_IGNORE does not stop pybind11 from that)  <a href="structMR_1_1OneMeshContours_1_1ConstIterator.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ASearchPathSettings" id="r_MR_3A_3ASearchPathSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SearchPathSettings.html">MR::SearchPathSettings</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geo path search settings.  <a href="structMR_1_1SearchPathSettings.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AOutlierParams" id="r_MR_3A_3AOutlierParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OutlierParams.html">MR::OutlierParams</a></td></tr>
@@ -2394,6 +2400,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#gga7211722e3debbfaa5ad3c7b9dfa090a4a60c17eb98355db0fe5ce016db6c6f444">MR::OffsetContoursParams::CornerType::Sharp</a>
  }</td></tr>
 <tr class="memdesc:ga7211722e3debbfaa5ad3c7b9dfa090a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">type of positive offset curve in corners  <a href="#ga7211722e3debbfaa5ad3c7b9dfa090a4">More...</a><br /></td></tr>
+<tr class="memitem:ga7dcd591850b9c0dcd06eec7acc97f221" id="r_ga7dcd591850b9c0dcd06eec7acc97f221"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7dcd591850b9c0dcd06eec7acc97f221">MR::OneMeshIntersection::Primitive</a> : unsigned char { <a class="el" href="#gga7dcd591850b9c0dcd06eec7acc97f221a8af5861002f3c157f9ba842bba10aa3f">MR::OneMeshIntersection::Primitive::Face</a>
+, <a class="el" href="#gga7dcd591850b9c0dcd06eec7acc97f221ae4a297a0f76119a442c2595ac040673e">MR::OneMeshIntersection::Primitive::Edge</a>
+, <a class="el" href="#gga7dcd591850b9c0dcd06eec7acc97f221af87a604e5366b28ba26e14e20c067de3">MR::OneMeshIntersection::Primitive::Vert</a>
+ }</td></tr>
+<tr class="memdesc:ga7dcd591850b9c0dcd06eec7acc97f221"><td class="mdescLeft">&#160;</td><td class="mdescRight">the kind of mesh primitive containing the point  <a href="#ga7dcd591850b9c0dcd06eec7acc97f221">More...</a><br /></td></tr>
 <tr class="memitem:gab8659c12eb8fa6618f154566efce6146" id="r_gab8659c12eb8fa6618f154566efce6146"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab8659c12eb8fa6618f154566efce6146">MR::OutlierTypeMask</a> { <br />
 &#160;&#160;<a class="el" href="#ggab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f">MR::OutlierTypeMask::SmallComponents</a> = 1 &lt;&lt; 0
 , <a class="el" href="#ggab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066">MR::OutlierTypeMask::WeaklyConnected</a> = 1 &lt;&lt; 1
@@ -4351,9 +4362,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8471f2a87338254b2c1d8a0790776f0e" id="r_ga8471f2a87338254b2c1d8a0790776f0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8471f2a87338254b2c1d8a0790776f0e">MR::cutMeshByContours</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> &amp;contours, const AffineXf3f &amp;xf={})</td></tr>
 <tr class="memitem:ga66c0157a15c650c2df28de17df4c485c" id="r_ga66c0157a15c650c2df28de17df4c485c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga66c0157a15c650c2df28de17df4c485c">MR::cutMeshByProjection</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> &amp;contours, const <a class="el" href="structMR_1_1CutByProjectionSettings.html">CutByProjectionSettings</a> &amp;settings)</td></tr>
 <tr class="memdesc:ga66c0157a15c650c2df28de17df4c485c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs orthographic projection with of given contours to mesh and cut result lines, fails if any point of contours has missed mesh on projection stage or cut contours contains self-intersections.  <br /></td></tr>
-<tr class="memitem:gaccf79b17bf64faa5454a116f768def33" id="r_gaccf79b17bf64faa5454a116f768def33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaccf79b17bf64faa5454a116f768def33">MR::convertMeshTriPointsSurfaceOffsetToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, float offset, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={})</td></tr>
+<tr class="memitem:gaccf79b17bf64faa5454a116f768def33" id="r_gaccf79b17bf64faa5454a116f768def33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaccf79b17bf64faa5454a116f768def33">MR::convertMeshTriPointsSurfaceOffsetToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, float offset, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={})</td></tr>
 <tr class="memdesc:gaccf79b17bf64faa5454a116f768def33"><td class="mdescLeft">&#160;</td><td class="mdescRight">the old names stay in the bindings, since scripts call them  <br /></td></tr>
-<tr class="memitem:ga8f2f47f6c859930c9c0252e4bc28944e" id="r_ga8f2f47f6c859930c9c0252e4bc28944e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f2f47f6c859930c9c0252e4bc28944e">MR::convertMeshTriPointsSurfaceOffsetToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, const std::function&lt; float(int)&gt; &amp;offsetAtPoint, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={})</td></tr>
+<tr class="memitem:ga8f2f47f6c859930c9c0252e4bc28944e" id="r_ga8f2f47f6c859930c9c0252e4bc28944e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f2f47f6c859930c9c0252e4bc28944e">MR::convertMeshTriPointsSurfaceOffsetToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, const std::function&lt; float(int)&gt; &amp;offsetAtPoint, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={})</td></tr>
 <tr class="memitem:ga41199d0cddfedc2e7a079524081c570e" id="r_ga41199d0cddfedc2e7a079524081c570e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga41199d0cddfedc2e7a079524081c570e">MR::separateClosedContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; Vector3f &gt; &amp;contour, const <a class="el" href="#ga2403984460c26289689a1eddd1fb4270">PathMeshEdgePointCallback</a> &amp;cb={})</td></tr>
 <tr class="memitem:ga87506fc61d2601b4f1eb46cda6f84fd6" id="r_ga87506fc61d2601b4f1eb46cda6f84fd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga87506fc61d2601b4f1eb46cda6f84fd6">MR::stitchContours</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;c0, const <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;c1)</td></tr>
 <tr class="memitem:ga800a7215f19eb459e13c87d65a08d34d" id="r_ga800a7215f19eb459e13c87d65a08d34d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga800a7215f19eb459e13c87d65a08d34d">MR::cutAlongEdgeLoop</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;c0)</td></tr>
@@ -5305,7 +5316,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga5f51d4370aebd823bf1ff7e534b0b426" id="r_ga5f51d4370aebd823bf1ff7e534b0b426"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f51d4370aebd823bf1ff7e534b0b426">MR::isClosed</a> (const <a class="el" href="#ga5e49cf475748fe059f02d8a311493987">ContinuousContour</a> &amp;contour)</td></tr>
 <tr class="memdesc:ga5f51d4370aebd823bf1ff7e534b0b426"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if contour is closed  <br /></td></tr>
 <tr class="memitem:ga4c79b7256452b637127713f19dd3c9c4" id="r_ga4c79b7256452b637127713f19dd3c9c4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4c79b7256452b637127713f19dd3c9c4">MR::detectLoneContours</a> (const <a class="el" href="#ga05bcd6aa472ab350a182178672af1a01">ContinuousContours</a> &amp;contours, bool ignoreOpen=false)</td></tr>
-<tr class="memitem:ga8c3b5f550ca42c127bd13cffb6993d49" id="r_ga8c3b5f550ca42c127bd13cffb6993d49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8c3b5f550ca42c127bd13cffb6993d49">MR::removeLoneDegeneratedContours</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;edgesTopology, <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> &amp;faceContours, <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> &amp;edgeContours)</td></tr>
+<tr class="memitem:ga8c3b5f550ca42c127bd13cffb6993d49" id="r_ga8c3b5f550ca42c127bd13cffb6993d49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8c3b5f550ca42c127bd13cffb6993d49">MR::removeLoneDegeneratedContours</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;edgesTopology, <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> &amp;faceContours, <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> &amp;edgeContours)</td></tr>
 <tr class="memitem:ga3b4b14ed0aff6c8a322aa8c0b4741d96" id="r_ga3b4b14ed0aff6c8a322aa8c0b4741d96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3b4b14ed0aff6c8a322aa8c0b4741d96">MR::removeLoneContours</a> (<a class="el" href="#ga05bcd6aa472ab350a182178672af1a01">ContinuousContours</a> &amp;contours, bool ignoreOpen=false)</td></tr>
 <tr class="memitem:gac58a900748c7113700c6e1aa36ecde61" id="r_gac58a900748c7113700c6e1aa36ecde61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac58a900748c7113700c6e1aa36ecde61">MR::InTreePathBuilder::InTreePathBuilder</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const UndirectedEdgeBitSet &amp;treeEdges)</td></tr>
 <tr class="memitem:gad261927227d814e06646f6daba7b3fa0" id="r_gad261927227d814e06646f6daba7b3fa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad261927227d814e06646f6daba7b3fa0">MR::InTreePathBuilder::build</a> (VertId start, VertId finish) const</td></tr>
@@ -7017,18 +7028,55 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:gab60b2b674f93f1b88bde77124b374cea"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the shift along z-axis for each vertex without modifying the mesh  <br /></td></tr>
 <tr class="memitem:gad3160267e2d1fe91584968a7cf1387ff" id="r_gad3160267e2d1fe91584968a7cf1387ff"><td class="memItemLeft" align="right" valign="top">std::optional&lt; VertCoords &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad3160267e2d1fe91584968a7cf1387ff">MR::findZcompensatedPositions</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;params)</td></tr>
 <tr class="memdesc:gad3160267e2d1fe91584968a7cf1387ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds vertices positions of the mesh after z-compensation without modifying the mesh  <br /></td></tr>
-<tr class="memitem:ga441bbd65a56304acbc71fb9b666463ea" id="r_ga441bbd65a56304acbc71fb9b666463ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga441bbd65a56304acbc71fb9b666463ea">MR::subdivideLoneContours</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> &amp;contours, <a class="el" href="#ga93482f559c684be16c718d5acd291d3e">FaceHashMap</a> *new2oldMap=nullptr)</td></tr>
-<tr class="memitem:ga6c2a8d613e29f26fcbbfaad5c43205a5" id="r_ga6c2a8d613e29f26fcbbfaad5c43205a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6c2a8d613e29f26fcbbfaad5c43205a5">MR::getOneMeshIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, const <a class="el" href="#ga05bcd6aa472ab350a182178672af1a01">ContinuousContours</a> &amp;contours, <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> *outA, <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> *outB, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;converters, const AffineXf3f *rigidB2A=nullptr, <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> *outPtsA=nullptr, bool addSelfyTerminalVerts=false)</td></tr>
+<tr class="memitem:ga4c68ff7d97b871d26825b5bb5adc680f" id="r_ga4c68ff7d97b871d26825b5bb5adc680f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4c68ff7d97b871d26825b5bb5adc680f">MR::OneMeshIntersection::OneMeshIntersection</a> () noexcept</td></tr>
+<tr class="memitem:ga9ac8ed50ef3d4fcbffa99ca3b92e35f8" id="r_ga9ac8ed50ef3d4fcbffa99ca3b92e35f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9ac8ed50ef3d4fcbffa99ca3b92e35f8">MR::OneMeshIntersection::OneMeshIntersection</a> (<a class="el" href="structMR_1_1NoInit.html">NoInit</a>) noexcept</td></tr>
+<tr class="memitem:ga9315ebf294a63e0fe52f1e687cd13886" id="r_ga9315ebf294a63e0fe52f1e687cd13886"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9315ebf294a63e0fe52f1e687cd13886">MR::OneMeshIntersection::OneMeshIntersection</a> (FaceId f, const Vector3f &amp;p) noexcept</td></tr>
+<tr class="memitem:ga523c2f7e665b50c915cce2aef88bab6e" id="r_ga523c2f7e665b50c915cce2aef88bab6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga523c2f7e665b50c915cce2aef88bab6e">MR::OneMeshIntersection::OneMeshIntersection</a> (EdgeId e, const Vector3f &amp;p) noexcept</td></tr>
+<tr class="memitem:gaf14e3e7d163e2680ce149d145d545cc9" id="r_gaf14e3e7d163e2680ce149d145d545cc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf14e3e7d163e2680ce149d145d545cc9">MR::OneMeshIntersection::OneMeshIntersection</a> (VertId v, const Vector3f &amp;p) noexcept</td></tr>
+<tr class="memitem:gac91000f0a41d88c5eb5054d59cac97ae" id="r_gac91000f0a41d88c5eb5054d59cac97ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga7dcd591850b9c0dcd06eec7acc97f221">Primitive</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac91000f0a41d88c5eb5054d59cac97ae">MR::OneMeshIntersection::primitive</a> () const</td></tr>
+<tr class="memitem:gaeccc546e3275644c13f0e58fe5965d2c" id="r_gaeccc546e3275644c13f0e58fe5965d2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeccc546e3275644c13f0e58fe5965d2c">MR::OneMeshIntersection::isFace</a> () const</td></tr>
+<tr class="memitem:ga827b1abc9aebf4aa1aba5d0f61e20ff4" id="r_ga827b1abc9aebf4aa1aba5d0f61e20ff4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga827b1abc9aebf4aa1aba5d0f61e20ff4">MR::OneMeshIntersection::isEdge</a> () const</td></tr>
+<tr class="memitem:ga63a25238289779e91d67f40b6ec75f07" id="r_ga63a25238289779e91d67f40b6ec75f07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga63a25238289779e91d67f40b6ec75f07">MR::OneMeshIntersection::isVert</a> () const</td></tr>
+<tr class="memitem:gab1c9f2875aba8da2fa76670457b9d2a1" id="r_gab1c9f2875aba8da2fa76670457b9d2a1"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab1c9f2875aba8da2fa76670457b9d2a1">MR::OneMeshIntersection::face</a> () const</td></tr>
+<tr class="memdesc:gab1c9f2875aba8da2fa76670457b9d2a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">the primitive containing the point if it is of that kind, otherwise invalid id  <br /></td></tr>
+<tr class="memitem:ga913d77df8e593b0783d7f6ac80e0e448" id="r_ga913d77df8e593b0783d7f6ac80e0e448"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga913d77df8e593b0783d7f6ac80e0e448">MR::OneMeshIntersection::edge</a> () const</td></tr>
+<tr class="memitem:ga88d0fbd557b22cccf4845b9ca165228a" id="r_ga88d0fbd557b22cccf4845b9ca165228a"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga88d0fbd557b22cccf4845b9ca165228a">MR::OneMeshIntersection::vert</a> () const</td></tr>
+<tr class="memitem:ga9c54b4361e1da80001d37e6845005897" id="r_ga9c54b4361e1da80001d37e6845005897"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9c54b4361e1da80001d37e6845005897">MR::OneMeshIntersection::setPrimitive</a> (FaceId f)</td></tr>
+<tr class="memitem:ga59da18396670ed957e82a83e0d560390" id="r_ga59da18396670ed957e82a83e0d560390"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga59da18396670ed957e82a83e0d560390">MR::OneMeshIntersection::setPrimitive</a> (EdgeId e)</td></tr>
+<tr class="memitem:gadc5b3f4ee1b4849f96bfedb969b5fb49" id="r_gadc5b3f4ee1b4849f96bfedb969b5fb49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadc5b3f4ee1b4849f96bfedb969b5fb49">MR::OneMeshIntersection::setPrimitive</a> (VertId v)</td></tr>
+<tr class="memitem:ga091999b0dad602443c419d66f763da96" id="r_ga091999b0dad602443c419d66f763da96"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga091999b0dad602443c419d66f763da96">MR::OneMeshIntersection::samePrimitive</a> (const <a class="el" href="structMR_1_1OneMeshIntersection.html">OneMeshIntersection</a> &amp;<a class="el" href="#gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
+<tr class="memdesc:ga091999b0dad602443c419d66f763da96"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether both points are in the same primitive  <br /></td></tr>
+<tr class="memitem:ga849266c28262f2efce738d21a4fab500" id="r_ga849266c28262f2efce738d21a4fab500"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga849266c28262f2efce738d21a4fab500">MR::OneMeshContours::OneMeshContours</a> ()=default</td></tr>
+<tr class="memitem:ga9b7223de993df40b687abaf5bbc16de8" id="r_ga9b7223de993df40b687abaf5bbc16de8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9b7223de993df40b687abaf5bbc16de8">MR::OneMeshContours::OneMeshContours</a> (std::initializer_list&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt; contours)</td></tr>
+<tr class="memitem:ga712dda9c7907f96c778a7a8e24460f99" id="r_ga712dda9c7907f96c778a7a8e24460f99"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga712dda9c7907f96c778a7a8e24460f99">MR::OneMeshContours::OneMeshContours</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt; &amp;contours)</td></tr>
+<tr class="memitem:gaf9b0b334479670b3a71b41ea5652695e" id="r_gaf9b0b334479670b3a71b41ea5652695e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf9b0b334479670b3a71b41ea5652695e">MR::OneMeshContours::size</a> () const</td></tr>
+<tr class="memitem:gafd77626340713b7051876a035a07e8b6" id="r_gafd77626340713b7051876a035a07e8b6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafd77626340713b7051876a035a07e8b6">MR::OneMeshContours::empty</a> () const</td></tr>
+<tr class="memitem:gafecad952410455a44da68e6c41f083a5" id="r_gafecad952410455a44da68e6c41f083a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OneMeshContourView.html">OneMeshContourView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafecad952410455a44da68e6c41f083a5">MR::OneMeshContours::operator[]</a> (size_t c) const</td></tr>
+<tr class="memitem:ga0ba53e4e4c01abfe177e5020641870d1" id="r_ga0ba53e4e4c01abfe177e5020641870d1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1OneMeshIntersection.html">OneMeshIntersection</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0ba53e4e4c01abfe177e5020641870d1">MR::OneMeshContours::intersection</a> (size_t c, size_t i) const</td></tr>
+<tr class="memitem:gabc712f509aaa8064f77a09982db567e5" id="r_gabc712f509aaa8064f77a09982db567e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OneMeshContourView.html">OneMeshContourView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabc712f509aaa8064f77a09982db567e5">MR::OneMeshContours::ConstIterator::operator*</a> () const</td></tr>
+<tr class="memitem:gaa8dc1a3296e19af071f5ff2528e6ed97" id="r_gaa8dc1a3296e19af071f5ff2528e6ed97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OneMeshContours_1_1ConstIterator.html">ConstIterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8dc1a3296e19af071f5ff2528e6ed97">MR::OneMeshContours::ConstIterator::operator++</a> ()</td></tr>
+<tr class="memitem:gaf88a1456068cf319a8fa10ce6cbbe9db" id="r_gaf88a1456068cf319a8fa10ce6cbbe9db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf88a1456068cf319a8fa10ce6cbbe9db">MR::OneMeshContours::ConstIterator::operator==</a> (const <a class="el" href="structMR_1_1OneMeshContours_1_1ConstIterator.html">ConstIterator</a> &amp;) const =default</td></tr>
+<tr class="memitem:ga5f011e953cf27bdf68bb94f8de0b7a0a" id="r_ga5f011e953cf27bdf68bb94f8de0b7a0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OneMeshContours_1_1ConstIterator.html">ConstIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f011e953cf27bdf68bb94f8de0b7a0a">MR::OneMeshContours::begin</a> () const</td></tr>
+<tr class="memitem:ga3f2b2731e8a9aa75bbf2ac6b61313f3c" id="r_ga3f2b2731e8a9aa75bbf2ac6b61313f3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OneMeshContours_1_1ConstIterator.html">ConstIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f2b2731e8a9aa75bbf2ac6b61313f3c">MR::OneMeshContours::end</a> () const</td></tr>
+<tr class="memitem:gac228fc7a06dc24e3512388ec85a91b41" id="r_gac228fc7a06dc24e3512388ec85a91b41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac228fc7a06dc24e3512388ec85a91b41">MR::OneMeshContours::contour</a> (size_t c) const</td></tr>
+<tr class="memdesc:gac228fc7a06dc24e3512388ec85a91b41"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a copy of contour c  <br /></td></tr>
+<tr class="memitem:gae3e74d4c99fd58f10abd2b1a39b22484" id="r_gae3e74d4c99fd58f10abd2b1a39b22484"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae3e74d4c99fd58f10abd2b1a39b22484">MR::OneMeshContours::push_back</a> (const <a class="el" href="structMR_1_1OneMeshContourView.html">OneMeshContourView</a> &amp;<a class="el" href="#gac228fc7a06dc24e3512388ec85a91b41">contour</a>)</td></tr>
+<tr class="memdesc:gae3e74d4c99fd58f10abd2b1a39b22484"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a contour  <br /></td></tr>
+<tr class="memitem:ga1a1da28c41bee85be802e314c0748a84" id="r_ga1a1da28c41bee85be802e314c0748a84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1a1da28c41bee85be802e314c0748a84">MR::OneMeshContours::push_back</a> (const <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &amp;<a class="el" href="#gac228fc7a06dc24e3512388ec85a91b41">contour</a>)</td></tr>
+<tr class="memitem:gae7bf4b83e9394a02bc7fc1b6f0636330" id="r_gae7bf4b83e9394a02bc7fc1b6f0636330"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae7bf4b83e9394a02bc7fc1b6f0636330">MR::parallelForContourPieces</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int &gt; &amp;offsets, const std::function&lt; void(int c, int i0, int i1)&gt; &amp;f)</td></tr>
+<tr class="memdesc:gae7bf4b83e9394a02bc7fc1b6f0636330"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls f( c, i0, i1 ) in parallel on pieces [i0, i1) of all elements of contours with given offsets, every piece within contour c  <br /></td></tr>
+<tr class="memitem:ga441bbd65a56304acbc71fb9b666463ea" id="r_ga441bbd65a56304acbc71fb9b666463ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga441bbd65a56304acbc71fb9b666463ea">MR::subdivideLoneContours</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> &amp;contours, <a class="el" href="#ga93482f559c684be16c718d5acd291d3e">FaceHashMap</a> *new2oldMap=nullptr)</td></tr>
+<tr class="memitem:ga6c2a8d613e29f26fcbbfaad5c43205a5" id="r_ga6c2a8d613e29f26fcbbfaad5c43205a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6c2a8d613e29f26fcbbfaad5c43205a5">MR::getOneMeshIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, const <a class="el" href="#ga05bcd6aa472ab350a182178672af1a01">ContinuousContours</a> &amp;contours, <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> *outA, <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> *outB, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;converters, const AffineXf3f *rigidB2A=nullptr, <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> *outPtsA=nullptr, bool addSelfyTerminalVerts=false)</td></tr>
 <tr class="memdesc:ga6c2a8d613e29f26fcbbfaad5c43205a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, then open self-intersection contours will be prolonged to terminal vertices  <br /></td></tr>
-<tr class="memitem:ga57f74cde60c66eebd3b6f0076937f2c8" id="r_ga57f74cde60c66eebd3b6f0076937f2c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga57f74cde60c66eebd3b6f0076937f2c8">MR::getOneMeshSelfIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga05bcd6aa472ab350a182178672af1a01">ContinuousContours</a> &amp;contours, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;converters, const AffineXf3f *rigidB2A=nullptr)</td></tr>
-<tr class="memitem:ga1d82174091ef8dac35de35e5b472b0fe" id="r_ga1d82174091ef8dac35de35e5b472b0fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1d82174091ef8dac35de35e5b472b0fe">MR::extractMeshContours</a> (const <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> &amp;meshContours)</td></tr>
-<tr class="memdesc:ga1d82174091ef8dac35de35e5b472b0fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822" title="Special data type for MR::cutMesh.">OneMeshContours</a> contours representation to <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a>: set of coordinates.  <br /></td></tr>
+<tr class="memitem:ga57f74cde60c66eebd3b6f0076937f2c8" id="r_ga57f74cde60c66eebd3b6f0076937f2c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga57f74cde60c66eebd3b6f0076937f2c8">MR::getOneMeshSelfIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga05bcd6aa472ab350a182178672af1a01">ContinuousContours</a> &amp;contours, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;converters, const AffineXf3f *rigidB2A=nullptr)</td></tr>
+<tr class="memitem:ga1d82174091ef8dac35de35e5b472b0fe" id="r_ga1d82174091ef8dac35de35e5b472b0fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1d82174091ef8dac35de35e5b472b0fe">MR::extractMeshContours</a> (const <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> &amp;meshContours)</td></tr>
+<tr class="memdesc:ga1d82174091ef8dac35de35e5b472b0fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="structMR_1_1OneMeshContours.html" title="Special data type for MR::cutMesh: the intersections of all contours in one array,...">OneMeshContours</a> contours representation to <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a>: set of coordinates.  <br /></td></tr>
 <tr class="memitem:gac65c3c7ff1c3968a3e7051d3df0841da" id="r_gac65c3c7ff1c3968a3e7051d3df0841da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac65c3c7ff1c3968a3e7051d3df0841da">MR::convertMeshTriPointsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, <a class="el" href="#ga217b7a3f4fc9168e09f3d423beb790e5">MeshTriPointsConnector</a> connectorFn, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
 <tr class="memdesc:gac65c3c7ff1c3968a3e7051d3df0841da"><td class="mdescLeft">&#160;</td><td class="mdescRight">the old names stay in the bindings, since scripts call them  <br /></td></tr>
 <tr class="memitem:ga1038937a987d09a86802e694724e7aa7" id="r_ga1038937a987d09a86802e694724e7aa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1038937a987d09a86802e694724e7aa7">MR::convertMeshTriPointsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
 <tr class="memitem:ga9b27124d1aee7872d4ac97a96ef4fee2" id="r_ga9b27124d1aee7872d4ac97a96ef4fee2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9b27124d1aee7872d4ac97a96ef4fee2">MR::convertMeshTriPointsToClosedContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
 <tr class="memitem:ga84ad133112b40770a9311344d2bbfdde" id="r_ga84ad133112b40770a9311344d2bbfdde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga84ad133112b40770a9311344d2bbfdde">MR::convertSurfacePathWithEndsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;start, const <a class="el" href="#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;surfacePath, const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;<a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>)</td></tr>
-<tr class="memitem:ga60c552ace8de5755edd7e5a28dd4dc6b" id="r_ga60c552ace8de5755edd7e5a28dd4dc6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga60c552ace8de5755edd7e5a28dd4dc6b">MR::convertSurfacePathsToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &gt; &amp;surfacePaths)</td></tr>
+<tr class="memitem:ga60c552ace8de5755edd7e5a28dd4dc6b" id="r_ga60c552ace8de5755edd7e5a28dd4dc6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga60c552ace8de5755edd7e5a28dd4dc6b">MR::convertSurfacePathsToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &gt; &amp;surfacePaths)</td></tr>
 <tr class="memitem:ga23e34559729eb030740a98ba96839023" id="r_ga23e34559729eb030740a98ba96839023"><td class="memItemLeft" align="right" valign="top">FaceBMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga23e34559729eb030740a98ba96839023">MR::getOptimalFaceOrdering</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
 <tr class="memitem:ga064094d50cec191ddf9c9d7087b880ae" id="r_ga064094d50cec191ddf9c9d7087b880ae"><td class="memItemLeft" align="right" valign="top">VertBMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga064094d50cec191ddf9c9d7087b880ae">MR::getVertexOrdering</a> (const FaceBMap &amp;faceMap, const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
 <tr class="memitem:ga349bf2ff50da76fb348ce2014d9900d8" id="r_ga349bf2ff50da76fb348ce2014d9900d8"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga349bf2ff50da76fb348ce2014d9900d8">MR::getEdgeOrdering</a> (const FaceBMap &amp;faceMap, const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
@@ -13275,10 +13323,17 @@ Variables</h2></td></tr>
 <tr class="memitem:ga24cce95182673d88059c5d9a38905fc0" id="r_ga24cce95182673d88059c5d9a38905fc0"><td class="memItemLeft" align="right" valign="top">const AffineXf3f *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga24cce95182673d88059c5d9a38905fc0">MR::SortIntersectionsData::rigidB2A</a> {nullptr}</td></tr>
 <tr class="memitem:ga4ffc178d247321fb6150846084fd616a" id="r_ga4ffc178d247321fb6150846084fd616a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4ffc178d247321fb6150846084fd616a">MR::SortIntersectionsData::meshAVertsNum</a></td></tr>
 <tr class="memitem:ga64cd77d679e163bbff985d79336ae2c4" id="r_ga64cd77d679e163bbff985d79336ae2c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga64cd77d679e163bbff985d79336ae2c4">MR::SortIntersectionsData::isOtherA</a> {false}</td></tr>
-<tr class="memitem:gab42f0bd750d88e66c17bce92a1fe733d" id="r_gab42f0bd750d88e66c17bce92a1fe733d"><td class="memItemLeft" align="right" valign="top">std::variant&lt; FaceId, EdgeId, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab42f0bd750d88e66c17bce92a1fe733d">MR::OneMeshIntersection::primitiveId</a></td></tr>
 <tr class="memitem:gab8b3439c1559deb1b278b9d5c8c2c14d" id="r_gab8b3439c1559deb1b278b9d5c8c2c14d"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab8b3439c1559deb1b278b9d5c8c2c14d">MR::OneMeshIntersection::coordinate</a></td></tr>
 <tr class="memitem:ga573b722f5451e1df8abb49bcf598d24f" id="r_ga573b722f5451e1df8abb49bcf598d24f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1OneMeshIntersection.html">OneMeshIntersection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga573b722f5451e1df8abb49bcf598d24f">MR::OneMeshContour::intersections</a></td></tr>
 <tr class="memitem:gae2a61041d982700ef3d887aedc03a320" id="r_gae2a61041d982700ef3d887aedc03a320"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2a61041d982700ef3d887aedc03a320">MR::OneMeshContour::closed</a> {false}</td></tr>
+<tr class="memitem:ga02c552db80622ce6328842eb50e4fd90" id="r_ga02c552db80622ce6328842eb50e4fd90"><td class="memItemLeft" align="right" valign="top">std::span&lt; const <a class="el" href="structMR_1_1OneMeshIntersection.html">OneMeshIntersection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga02c552db80622ce6328842eb50e4fd90">MR::OneMeshContourView::intersections</a></td></tr>
+<tr class="memitem:gae0675ae2362625d00bc09a3433d2a9be" id="r_gae0675ae2362625d00bc09a3433d2a9be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae0675ae2362625d00bc09a3433d2a9be">MR::OneMeshContourView::closed</a> {false}</td></tr>
+<tr class="memitem:gae156a49d6e8bff7d28fb938599dbf475" id="r_gae156a49d6e8bff7d28fb938599dbf475"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1OneMeshIntersection.html">OneMeshIntersection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae156a49d6e8bff7d28fb938599dbf475">MR::OneMeshContours::intersections</a></td></tr>
+<tr class="memitem:gaae82c711826b1bda42dd6b0dd322ba42" id="r_gaae82c711826b1bda42dd6b0dd322ba42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaae82c711826b1bda42dd6b0dd322ba42">MR::OneMeshContours::offsets</a> { 0 }</td></tr>
+<tr class="memdesc:gaae82c711826b1bda42dd6b0dd322ba42"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of contours + 1 elements: contour c is intersections[offsets[c], offsets[c + 1])  <br /></td></tr>
+<tr class="memitem:ga7293d78747bb954b92d570d8d5fb7ccb" id="r_ga7293d78747bb954b92d570d8d5fb7ccb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7293d78747bb954b92d570d8d5fb7ccb">MR::OneMeshContours::closed</a></td></tr>
+<tr class="memitem:ga560deb9afedafbfee25e3bf2e6983b10" id="r_ga560deb9afedafbfee25e3bf2e6983b10"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga560deb9afedafbfee25e3bf2e6983b10">MR::OneMeshContours::ConstIterator::contours</a> = nullptr</td></tr>
+<tr class="memitem:ga67107af60dcd4d72fc128aac28c7b074" id="r_ga67107af60dcd4d72fc128aac28c7b074"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga67107af60dcd4d72fc128aac28c7b074">MR::OneMeshContours::ConstIterator::c</a> = 0</td></tr>
 <tr class="memitem:ga73e36cb0460a39c6bf496d2038aced39" id="r_ga73e36cb0460a39c6bf496d2038aced39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga0d52c069a53aab9d22c0f2c4e3f262a2">GeodesicPathApprox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga73e36cb0460a39c6bf496d2038aced39">MR::SearchPathSettings::geodesicPathApprox</a> { <a class="el" href="#gga0d52c069a53aab9d22c0f2c4e3f262a2aa9132a8a9b3c0d8c70e577b23e01e70d">GeodesicPathApprox::DijkstraAStar</a> }</td></tr>
 <tr class="memdesc:ga73e36cb0460a39c6bf496d2038aced39"><td class="mdescLeft">&#160;</td><td class="mdescRight">the algorithm to compute approximately geodesic path  <br /></td></tr>
 <tr class="memitem:gaa176e79c6812cb52b0c1dabdaa2e61c3" id="r_gaa176e79c6812cb52b0c1dabdaa2e61c3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa176e79c6812cb52b0c1dabdaa2e61c3">MR::SearchPathSettings::maxReduceIters</a> { 100 }</td></tr>
@@ -26992,6 +27047,35 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="ga7dcd591850b9c0dcd06eec7acc97f221" name="ga7dcd591850b9c0dcd06eec7acc97f221"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7dcd591850b9c0dcd06eec7acc97f221">&#9670;&#160;</a></span>Primitive</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#ga7dcd591850b9c0dcd06eec7acc97f221">MR::OneMeshIntersection::Primitive</a> : unsigned char</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the kind of mesh primitive containing the point </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga7dcd591850b9c0dcd06eec7acc97f221a8af5861002f3c157f9ba842bba10aa3f" name="gga7dcd591850b9c0dcd06eec7acc97f221a8af5861002f3c157f9ba842bba10aa3f"></a>Face&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga7dcd591850b9c0dcd06eec7acc97f221ae4a297a0f76119a442c2595ac040673e" name="gga7dcd591850b9c0dcd06eec7acc97f221ae4a297a0f76119a442c2595ac040673e"></a>Edge&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga7dcd591850b9c0dcd06eec7acc97f221af87a604e5366b28ba26e14e20c067de3" name="gga7dcd591850b9c0dcd06eec7acc97f221af87a604e5366b28ba26e14e20c067de3"></a>Vert&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="ga27091fc0ef96636d5c59ff459694a6bf" name="ga27091fc0ef96636d5c59ff459694a6bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga27091fc0ef96636d5c59ff459694a6bf">&#9670;&#160;</a></span>Priority</h2>
 
@@ -37518,7 +37602,7 @@ template&lt;class T&gt; </div>
 </div>
 </div>
 <a id="gacd9980e9c53367fa384cfdf9704f5a35" name="gacd9980e9c53367fa384cfdf9704f5a35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacd9980e9c53367fa384cfdf9704f5a35">&#9670;&#160;</a></span>begin() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd9980e9c53367fa384cfdf9704f5a35">&#9670;&#160;</a></span>begin() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -37544,8 +37628,35 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
+<a id="ga5f011e953cf27bdf68bb94f8de0b7a0a" name="ga5f011e953cf27bdf68bb94f8de0b7a0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f011e953cf27bdf68bb94f8de0b7a0a">&#9670;&#160;</a></span>begin() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1OneMeshContours_1_1ConstIterator.html">ConstIterator</a> MR::OneMeshContours::begin </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gab9e4cd74910fe8f838f51e88835a7e0b" name="gab9e4cd74910fe8f838f51e88835a7e0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab9e4cd74910fe8f838f51e88835a7e0b">&#9670;&#160;</a></span>begin() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab9e4cd74910fe8f838f51e88835a7e0b">&#9670;&#160;</a></span>begin() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -37574,7 +37685,7 @@ template&lt;typename T, typename I&gt; </div>
 </div>
 </div>
 <a id="gaa43c88846cd205279c96c1f942f04cf9" name="gaa43c88846cd205279c96c1f942f04cf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa43c88846cd205279c96c1f942f04cf9">&#9670;&#160;</a></span>begin() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa43c88846cd205279c96c1f942f04cf9">&#9670;&#160;</a></span>begin() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -53137,6 +53248,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gac228fc7a06dc24e3512388ec85a91b41" name="gac228fc7a06dc24e3512388ec85a91b41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac228fc7a06dc24e3512388ec85a91b41">&#9670;&#160;</a></span>contour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> MR::OneMeshContours::contour </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+<p>returns a copy of contour c </p>
+
+</div>
+</div>
 <a id="ga02898e04e00472b1f603cb27a17ae50f" name="ga02898e04e00472b1f603cb27a17ae50f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga02898e04e00472b1f603cb27a17ae50f">&#9670;&#160;</a></span>convert()</h2>
 
@@ -53197,7 +53337,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours </td>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -53238,7 +53378,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours </td>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -53427,7 +53567,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> MR::convertSurfacePathsToMeshContours </td>
+          <td class="memname"><a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> MR::convertSurfacePathsToMeshContours </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -65976,6 +66116,33 @@ template&lt;UnitEnum E, detail::Scalar T, detail::ValidDragSpeedForTargetType&lt
 
 </div>
 </div>
+<a id="ga913d77df8e593b0783d7f6ac80e0e448" name="ga913d77df8e593b0783d7f6ac80e0e448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga913d77df8e593b0783d7f6ac80e0e448">&#9670;&#160;</a></span>edge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">EdgeId MR::OneMeshIntersection::edge </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga713795832c35e26e930a0e509d3e3439" name="ga713795832c35e26e930a0e509d3e3439"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga713795832c35e26e930a0e509d3e3439">&#9670;&#160;</a></span>edgeAbsCurvMetric() <span class="overload">[1/2]</span></h2>
 
@@ -67911,7 +68078,7 @@ template&lt;typename... Args&gt; </div>
 </div>
 </div>
 <a id="ga639284e16d0d26e25ac330e5e04651ca" name="ga639284e16d0d26e25ac330e5e04651ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga639284e16d0d26e25ac330e5e04651ca">&#9670;&#160;</a></span>empty() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga639284e16d0d26e25ac330e5e04651ca">&#9670;&#160;</a></span>empty() <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -67940,7 +68107,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="ga24336720e6ef2e49fe759978a653cd93" name="ga24336720e6ef2e49fe759978a653cd93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga24336720e6ef2e49fe759978a653cd93">&#9670;&#160;</a></span>empty() <span class="overload">[2/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga24336720e6ef2e49fe759978a653cd93">&#9670;&#160;</a></span>empty() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -67967,7 +68134,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="ga42865b58d6d71d73a87b0633e0b623f2" name="ga42865b58d6d71d73a87b0633e0b623f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga42865b58d6d71d73a87b0633e0b623f2">&#9670;&#160;</a></span>empty() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga42865b58d6d71d73a87b0633e0b623f2">&#9670;&#160;</a></span>empty() <span class="overload">[3/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -67996,7 +68163,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="ga3a0382330d92b7c545f5607154fe236f" name="ga3a0382330d92b7c545f5607154fe236f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3a0382330d92b7c545f5607154fe236f">&#9670;&#160;</a></span>empty() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3a0382330d92b7c545f5607154fe236f">&#9670;&#160;</a></span>empty() <span class="overload">[4/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68023,7 +68190,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="ga5c8ddf759620fd8b0d272d4695422839" name="ga5c8ddf759620fd8b0d272d4695422839"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5c8ddf759620fd8b0d272d4695422839">&#9670;&#160;</a></span>empty() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5c8ddf759620fd8b0d272d4695422839">&#9670;&#160;</a></span>empty() <span class="overload">[5/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68053,8 +68220,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gafd77626340713b7051876a035a07e8b6" name="gafd77626340713b7051876a035a07e8b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafd77626340713b7051876a035a07e8b6">&#9670;&#160;</a></span>empty() <span class="overload">[6/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::OneMeshContours::empty </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga10d6af2f304f8f8ce7d09de3b272a283" name="ga10d6af2f304f8f8ce7d09de3b272a283"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga10d6af2f304f8f8ce7d09de3b272a283">&#9670;&#160;</a></span>empty() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga10d6af2f304f8f8ce7d09de3b272a283">&#9670;&#160;</a></span>empty() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68085,7 +68279,7 @@ template&lt;typename T, typename P = std::less&lt;T&gt;&gt; </div>
 </div>
 </div>
 <a id="ga3121c41d3714630889e95595c2ed63ba" name="ga3121c41d3714630889e95595c2ed63ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3121c41d3714630889e95595c2ed63ba">&#9670;&#160;</a></span>empty() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3121c41d3714630889e95595c2ed63ba">&#9670;&#160;</a></span>empty() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68116,7 +68310,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="gac4b153c69fb7b5e1466b10723dd2f35b" name="gac4b153c69fb7b5e1466b10723dd2f35b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac4b153c69fb7b5e1466b10723dd2f35b">&#9670;&#160;</a></span>empty() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac4b153c69fb7b5e1466b10723dd2f35b">&#9670;&#160;</a></span>empty() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68145,7 +68339,7 @@ template&lt;typename T, typename I&gt; </div>
 </div>
 </div>
 <a id="ga4dc042cec8aab4b4b067733ed3a819b3" name="ga4dc042cec8aab4b4b067733ed3a819b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4dc042cec8aab4b4b067733ed3a819b3">&#9670;&#160;</a></span>empty() <span class="overload">[9/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4dc042cec8aab4b4b067733ed3a819b3">&#9670;&#160;</a></span>empty() <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68511,7 +68705,7 @@ template&lt;typename ... Connectables&gt; </div>
 </div>
 </div>
 <a id="ga3fbe95187540b89c884e647eb8377e03" name="ga3fbe95187540b89c884e647eb8377e03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3fbe95187540b89c884e647eb8377e03">&#9670;&#160;</a></span>end() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3fbe95187540b89c884e647eb8377e03">&#9670;&#160;</a></span>end() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68537,8 +68731,35 @@ template&lt;typename ... Connectables&gt; </div>
 
 </div>
 </div>
+<a id="ga3f2b2731e8a9aa75bbf2ac6b61313f3c" name="ga3f2b2731e8a9aa75bbf2ac6b61313f3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3f2b2731e8a9aa75bbf2ac6b61313f3c">&#9670;&#160;</a></span>end() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1OneMeshContours_1_1ConstIterator.html">ConstIterator</a> MR::OneMeshContours::end </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gabb42704cc3e9d4e6b9e618ce771db71b" name="gabb42704cc3e9d4e6b9e618ce771db71b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabb42704cc3e9d4e6b9e618ce771db71b">&#9670;&#160;</a></span>end() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabb42704cc3e9d4e6b9e618ce771db71b">&#9670;&#160;</a></span>end() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -68567,7 +68788,7 @@ template&lt;typename T, typename I&gt; </div>
 </div>
 </div>
 <a id="gab25f168a741f5ec898d5df81d77d7f32" name="gab25f168a741f5ec898d5df81d77d7f32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab25f168a741f5ec898d5df81d77d7f32">&#9670;&#160;</a></span>end() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab25f168a741f5ec898d5df81d77d7f32">&#9670;&#160;</a></span>end() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -70197,7 +70418,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> MR::extractMeshContours </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>meshContours</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>meshContours</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -70210,7 +70431,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
 
-<p>Converts <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822" title="Special data type for MR::cutMesh.">OneMeshContours</a> contours representation to <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a>: set of coordinates. </p>
+<p>Converts <a class="el" href="structMR_1_1OneMeshContours.html" title="Special data type for MR::cutMesh: the intersections of all contours in one array,...">OneMeshContours</a> contours representation to <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a>: set of coordinates. </p>
 
 </div>
 </div>
@@ -70483,6 +70704,35 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRParabola_8h.html">MRMesh/MRParabola.h</a>&gt;</code></p>
 
 <p>value (y) where parabola reaches extremal value: minimum for a &gt; 0, maximum for a &lt; 0 </p>
+
+</div>
+</div>
+<a id="gab1c9f2875aba8da2fa76670457b9d2a1" name="gab1c9f2875aba8da2fa76670457b9d2a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab1c9f2875aba8da2fa76670457b9d2a1">&#9670;&#160;</a></span>face()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FaceId MR::OneMeshIntersection::face </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+<p>the primitive containing the point if it is of that kind, otherwise invalid id </p>
 
 </div>
 </div>
@@ -93733,12 +93983,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> *</td>          <td class="paramname"><span class="paramname"><em>outA</em></span>, </td>
+          <td class="paramtype"><a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> *</td>          <td class="paramname"><span class="paramname"><em>outA</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> *</td>          <td class="paramname"><span class="paramname"><em>outB</em></span>, </td>
+          <td class="paramtype"><a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> *</td>          <td class="paramname"><span class="paramname"><em>outB</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -93766,7 +94016,7 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
 
 <p>if true, then open self-intersection contours will be prolonged to terminal vertices </p>
-<p>Converts contours given in topological terms as the intersections of one mesh's edge and another mesh's triangle (<a class="el" href="#ga05bcd6aa472ab350a182178672af1a01">ContinuousContours</a>), into contours of meshA and/or meshB given as a sequence of (primitiveId and Cartesian coordinates); converters are required for better precision in case of degenerations; note that contours should not have intersections </p>
+<p>Converts contours given in topological terms as the intersections of one mesh's edge and another mesh's triangle (<a class="el" href="#ga05bcd6aa472ab350a182178672af1a01">ContinuousContours</a>), into contours of meshA and/or meshB given as a sequence of (primitive id and Cartesian coordinates); converters are required for better precision in case of degenerations; note that contours should not have intersections </p>
 
 </div>
 </div>
@@ -93780,7 +94030,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> MR::getOneMeshSelfIntersectionContours </td>
+          <td class="memname"><a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> MR::getOneMeshSelfIntersectionContours </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -93808,7 +94058,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
-<p>Converts ordered continuous self contours of single meshes to <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822" title="Special data type for MR::cutMesh.">OneMeshContours</a> converters are required for better precision in case of degenerations </p>
+<p>Converts ordered continuous self contours of single meshes to <a class="el" href="structMR_1_1OneMeshContours.html" title="Special data type for MR::cutMesh: the intersections of all contours in one array,...">OneMeshContours</a> converters are required for better precision in case of degenerations </p>
 
 </div>
 </div>
@@ -110997,6 +111247,37 @@ template&lt;typename U&gt; </div>
 
 </div>
 </div>
+<a id="ga0ba53e4e4c01abfe177e5020641870d1" name="ga0ba53e4e4c01abfe177e5020641870d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0ba53e4e4c01abfe177e5020641870d1">&#9670;&#160;</a></span>intersection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1OneMeshIntersection.html">OneMeshIntersection</a> &amp; MR::OneMeshContours::intersection </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga9943b098a0c2f6210aab93e83517eaa7" name="ga9943b098a0c2f6210aab93e83517eaa7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9943b098a0c2f6210aab93e83517eaa7">&#9670;&#160;</a></span>intersectWithLine()</h2>
 
@@ -113880,6 +114161,33 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga827b1abc9aebf4aa1aba5d0f61e20ff4" name="ga827b1abc9aebf4aa1aba5d0f61e20ff4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga827b1abc9aebf4aa1aba5d0f61e20ff4">&#9670;&#160;</a></span>isEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::OneMeshIntersection::isEdge </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gac69eac289f7c94aff94e7e9db7ed8a62" name="gac69eac289f7c94aff94e7e9db7ed8a62"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gac69eac289f7c94aff94e7e9db7ed8a62">&#9670;&#160;</a></span>isEdgeLoop()</h2>
 
@@ -114014,6 +114322,33 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRStatePlugin_8h.html">MRViewer/MRStatePlugin.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gaeccc546e3275644c13f0e58fe5965d2c" name="gaeccc546e3275644c13f0e58fe5965d2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeccc546e3275644c13f0e58fe5965d2c">&#9670;&#160;</a></span>isFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::OneMeshIntersection::isFace </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -115535,6 +115870,33 @@ template&lt;typename I&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRMeshTopology_8h.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
 
 <p>return true if triangular face (f) has (v) as one of its vertices </p>
+
+</div>
+</div>
+<a id="ga63a25238289779e91d67f40b6ec75f07" name="ga63a25238289779e91d67f40b6ec75f07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga63a25238289779e91d67f40b6ec75f07">&#9670;&#160;</a></span>isVert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::OneMeshIntersection::isVert </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -134866,6 +135228,226 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga849266c28262f2efce738d21a4fab500" name="ga849266c28262f2efce738d21a4fab500"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga849266c28262f2efce738d21a4fab500">&#9670;&#160;</a></span>OneMeshContours() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::OneMeshContours::OneMeshContours </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga712dda9c7907f96c778a7a8e24460f99" name="ga712dda9c7907f96c778a7a8e24460f99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga712dda9c7907f96c778a7a8e24460f99">&#9670;&#160;</a></span>OneMeshContours() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::OneMeshContours::OneMeshContours </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>contours</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga9b7223de993df40b687abaf5bbc16de8" name="ga9b7223de993df40b687abaf5bbc16de8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9b7223de993df40b687abaf5bbc16de8">&#9670;&#160;</a></span>OneMeshContours() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::OneMeshContours::OneMeshContours </td>
+          <td>(</td>
+          <td class="paramtype">std::initializer_list&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>contours</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga4c68ff7d97b871d26825b5bb5adc680f" name="ga4c68ff7d97b871d26825b5bb5adc680f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c68ff7d97b871d26825b5bb5adc680f">&#9670;&#160;</a></span>OneMeshIntersection() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::OneMeshIntersection::OneMeshIntersection </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga523c2f7e665b50c915cce2aef88bab6e" name="ga523c2f7e665b50c915cce2aef88bab6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga523c2f7e665b50c915cce2aef88bab6e">&#9670;&#160;</a></span>OneMeshIntersection() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::OneMeshIntersection::OneMeshIntersection </td>
+          <td>(</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga9315ebf294a63e0fe52f1e687cd13886" name="ga9315ebf294a63e0fe52f1e687cd13886"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9315ebf294a63e0fe52f1e687cd13886">&#9670;&#160;</a></span>OneMeshIntersection() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::OneMeshIntersection::OneMeshIntersection </td>
+          <td>(</td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga9ac8ed50ef3d4fcbffa99ca3b92e35f8" name="ga9ac8ed50ef3d4fcbffa99ca3b92e35f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ac8ed50ef3d4fcbffa99ca3b92e35f8">&#9670;&#160;</a></span>OneMeshIntersection() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::OneMeshIntersection::OneMeshIntersection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1NoInit.html">NoInit</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel explicit">explicit</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gaf14e3e7d163e2680ce149d145d545cc9" name="gaf14e3e7d163e2680ce149d145d545cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf14e3e7d163e2680ce149d145d545cc9">&#9670;&#160;</a></span>OneMeshIntersection() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::OneMeshIntersection::OneMeshIntersection </td>
+          <td>(</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga9bd3dfb3cd43363f48a6b377b6eb33c9" name="ga9bd3dfb3cd43363f48a6b377b6eb33c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9bd3dfb3cd43363f48a6b377b6eb33c9">&#9670;&#160;</a></span>onEnable_()</h2>
 
@@ -139306,7 +139888,7 @@ template&lt;typename Iter&gt; </div>
 </div>
 </div>
 <a id="ga16f82476a6a3f356016b4a66acb5f122" name="ga16f82476a6a3f356016b4a66acb5f122"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga16f82476a6a3f356016b4a66acb5f122">&#9670;&#160;</a></span>operator*() <span class="overload">[1/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga16f82476a6a3f356016b4a66acb5f122">&#9670;&#160;</a></span>operator*() <span class="overload">[1/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139325,7 +139907,7 @@ template&lt;typename Iter&gt; </div>
 </div>
 </div>
 <a id="ga9fc8635872b9c08c9cf067bbc26cf8cd" name="ga9fc8635872b9c08c9cf067bbc26cf8cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9fc8635872b9c08c9cf067bbc26cf8cd">&#9670;&#160;</a></span>operator*() <span class="overload">[2/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9fc8635872b9c08c9cf067bbc26cf8cd">&#9670;&#160;</a></span>operator*() <span class="overload">[2/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139354,7 +139936,7 @@ template&lt;typename Iter&gt; </div>
 </div>
 </div>
 <a id="ga0614a693a34cc58e9e59902bf38e38ef" name="ga0614a693a34cc58e9e59902bf38e38ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0614a693a34cc58e9e59902bf38e38ef">&#9670;&#160;</a></span>operator*() <span class="overload">[3/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0614a693a34cc58e9e59902bf38e38ef">&#9670;&#160;</a></span>operator*() <span class="overload">[3/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139381,7 +139963,7 @@ template&lt;typename Iter&gt; </div>
 </div>
 </div>
 <a id="ga86cbbbe84f0161d57736c0baca9e7f48" name="ga86cbbbe84f0161d57736c0baca9e7f48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga86cbbbe84f0161d57736c0baca9e7f48">&#9670;&#160;</a></span>operator*() <span class="overload">[4/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga86cbbbe84f0161d57736c0baca9e7f48">&#9670;&#160;</a></span>operator*() <span class="overload">[4/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139407,8 +139989,35 @@ template&lt;typename Iter&gt; </div>
 
 </div>
 </div>
+<a id="gabc712f509aaa8064f77a09982db567e5" name="gabc712f509aaa8064f77a09982db567e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc712f509aaa8064f77a09982db567e5">&#9670;&#160;</a></span>operator*() <span class="overload">[5/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1OneMeshContourView.html">OneMeshContourView</a> MR::OneMeshContours::ConstIterator::operator* </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gaac5fb6c59ce62feddc3ac64b13643c67" name="gaac5fb6c59ce62feddc3ac64b13643c67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaac5fb6c59ce62feddc3ac64b13643c67">&#9670;&#160;</a></span>operator*() <span class="overload">[5/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaac5fb6c59ce62feddc3ac64b13643c67">&#9670;&#160;</a></span>operator*() <span class="overload">[6/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139439,7 +140048,7 @@ template&lt;typename Iter&gt; </div>
 </div>
 </div>
 <a id="ga39de2d02d74ee4158df88993a656c0d0" name="ga39de2d02d74ee4158df88993a656c0d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga39de2d02d74ee4158df88993a656c0d0">&#9670;&#160;</a></span>operator*() <span class="overload">[6/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga39de2d02d74ee4158df88993a656c0d0">&#9670;&#160;</a></span>operator*() <span class="overload">[7/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139466,7 +140075,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="ga74faa3fac803f77476aefb0300f66b51" name="ga74faa3fac803f77476aefb0300f66b51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga74faa3fac803f77476aefb0300f66b51">&#9670;&#160;</a></span>operator*() <span class="overload">[7/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga74faa3fac803f77476aefb0300f66b51">&#9670;&#160;</a></span>operator*() <span class="overload">[8/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139497,7 +140106,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="gac7b41ca64df520fa1cceaefa6adf9cde" name="gac7b41ca64df520fa1cceaefa6adf9cde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac7b41ca64df520fa1cceaefa6adf9cde">&#9670;&#160;</a></span>operator*() <span class="overload">[8/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac7b41ca64df520fa1cceaefa6adf9cde">&#9670;&#160;</a></span>operator*() <span class="overload">[9/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139524,7 +140133,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="ga0267d5aee3f765c24fb3f40ad811f9b4" name="ga0267d5aee3f765c24fb3f40ad811f9b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0267d5aee3f765c24fb3f40ad811f9b4">&#9670;&#160;</a></span>operator*() <span class="overload">[9/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0267d5aee3f765c24fb3f40ad811f9b4">&#9670;&#160;</a></span>operator*() <span class="overload">[10/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139557,7 +140166,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga63558101e2ac4ecae79ac6fc9cca48bb" name="ga63558101e2ac4ecae79ac6fc9cca48bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga63558101e2ac4ecae79ac6fc9cca48bb">&#9670;&#160;</a></span>operator*() <span class="overload">[10/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga63558101e2ac4ecae79ac6fc9cca48bb">&#9670;&#160;</a></span>operator*() <span class="overload">[11/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139586,7 +140195,7 @@ template&lt;typename N&gt; </div>
 </div>
 </div>
 <a id="ga794820de02de93d89f45517747122e36" name="ga794820de02de93d89f45517747122e36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga794820de02de93d89f45517747122e36">&#9670;&#160;</a></span>operator*() <span class="overload">[11/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga794820de02de93d89f45517747122e36">&#9670;&#160;</a></span>operator*() <span class="overload">[12/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139619,7 +140228,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafc689ce07450f684b99051e555894ee7" name="gafc689ce07450f684b99051e555894ee7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafc689ce07450f684b99051e555894ee7">&#9670;&#160;</a></span>operator*() <span class="overload">[12/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafc689ce07450f684b99051e555894ee7">&#9670;&#160;</a></span>operator*() <span class="overload">[13/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139652,7 +140261,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafc0a6af3d8944b99ae426026e296ef03" name="gafc0a6af3d8944b99ae426026e296ef03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafc0a6af3d8944b99ae426026e296ef03">&#9670;&#160;</a></span>operator*() <span class="overload">[13/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafc0a6af3d8944b99ae426026e296ef03">&#9670;&#160;</a></span>operator*() <span class="overload">[14/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139685,7 +140294,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafb9397abf0ea6c1ab579232a1d3d527e" name="gafb9397abf0ea6c1ab579232a1d3d527e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafb9397abf0ea6c1ab579232a1d3d527e">&#9670;&#160;</a></span>operator*() <span class="overload">[14/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafb9397abf0ea6c1ab579232a1d3d527e">&#9670;&#160;</a></span>operator*() <span class="overload">[15/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140064,7 +140673,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga5473458b678950c6619e626094a5dcef" name="ga5473458b678950c6619e626094a5dcef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5473458b678950c6619e626094a5dcef">&#9670;&#160;</a></span>operator++() <span class="overload">[1/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5473458b678950c6619e626094a5dcef">&#9670;&#160;</a></span>operator++() <span class="overload">[1/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140083,7 +140692,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga666de2260dc875f0ae45010555f0a53f" name="ga666de2260dc875f0ae45010555f0a53f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga666de2260dc875f0ae45010555f0a53f">&#9670;&#160;</a></span>operator++() <span class="overload">[2/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga666de2260dc875f0ae45010555f0a53f">&#9670;&#160;</a></span>operator++() <span class="overload">[2/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140102,7 +140711,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga1113eefe20e266ac285214ec4b33158d" name="ga1113eefe20e266ac285214ec4b33158d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1113eefe20e266ac285214ec4b33158d">&#9670;&#160;</a></span>operator++() <span class="overload">[3/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1113eefe20e266ac285214ec4b33158d">&#9670;&#160;</a></span>operator++() <span class="overload">[3/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140129,7 +140738,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaaad59ff19b36e3fb39a9c68fafa10644" name="gaaad59ff19b36e3fb39a9c68fafa10644"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaaad59ff19b36e3fb39a9c68fafa10644">&#9670;&#160;</a></span>operator++() <span class="overload">[4/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaad59ff19b36e3fb39a9c68fafa10644">&#9670;&#160;</a></span>operator++() <span class="overload">[4/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140156,7 +140765,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga97ffa4ef6cc99e6cfa211a4bed48c6f4" name="ga97ffa4ef6cc99e6cfa211a4bed48c6f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga97ffa4ef6cc99e6cfa211a4bed48c6f4">&#9670;&#160;</a></span>operator++() <span class="overload">[5/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga97ffa4ef6cc99e6cfa211a4bed48c6f4">&#9670;&#160;</a></span>operator++() <span class="overload">[5/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140183,7 +140792,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaf1ca3bdb83138eed5c4e5dd621505ffb" name="gaf1ca3bdb83138eed5c4e5dd621505ffb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf1ca3bdb83138eed5c4e5dd621505ffb">&#9670;&#160;</a></span>operator++() <span class="overload">[6/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf1ca3bdb83138eed5c4e5dd621505ffb">&#9670;&#160;</a></span>operator++() <span class="overload">[6/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140210,7 +140819,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga486ff99f7b871f6fabf9e89f788f418d" name="ga486ff99f7b871f6fabf9e89f788f418d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga486ff99f7b871f6fabf9e89f788f418d">&#9670;&#160;</a></span>operator++() <span class="overload">[7/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga486ff99f7b871f6fabf9e89f788f418d">&#9670;&#160;</a></span>operator++() <span class="overload">[7/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140239,7 +140848,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab6025e536fd0e2acef2e45acabdd06a8" name="gab6025e536fd0e2acef2e45acabdd06a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab6025e536fd0e2acef2e45acabdd06a8">&#9670;&#160;</a></span>operator++() <span class="overload">[8/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab6025e536fd0e2acef2e45acabdd06a8">&#9670;&#160;</a></span>operator++() <span class="overload">[8/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140268,7 +140877,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga89bead284bc8be429fec5a0a89956ffd" name="ga89bead284bc8be429fec5a0a89956ffd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga89bead284bc8be429fec5a0a89956ffd">&#9670;&#160;</a></span>operator++() <span class="overload">[9/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga89bead284bc8be429fec5a0a89956ffd">&#9670;&#160;</a></span>operator++() <span class="overload">[9/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140295,7 +140904,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6c442b69f926a20fdcbc22d94bc6fb5a" name="ga6c442b69f926a20fdcbc22d94bc6fb5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6c442b69f926a20fdcbc22d94bc6fb5a">&#9670;&#160;</a></span>operator++() <span class="overload">[10/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6c442b69f926a20fdcbc22d94bc6fb5a">&#9670;&#160;</a></span>operator++() <span class="overload">[10/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140322,7 +140931,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga495c288ee5ad04d057a50d5bd02593c7" name="ga495c288ee5ad04d057a50d5bd02593c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga495c288ee5ad04d057a50d5bd02593c7">&#9670;&#160;</a></span>operator++() <span class="overload">[11/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga495c288ee5ad04d057a50d5bd02593c7">&#9670;&#160;</a></span>operator++() <span class="overload">[11/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140349,7 +140958,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gacfd4a0f3e13840ab26b617b8373f6ed0" name="gacfd4a0f3e13840ab26b617b8373f6ed0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacfd4a0f3e13840ab26b617b8373f6ed0">&#9670;&#160;</a></span>operator++() <span class="overload">[12/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacfd4a0f3e13840ab26b617b8373f6ed0">&#9670;&#160;</a></span>operator++() <span class="overload">[12/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140375,8 +140984,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gaa8dc1a3296e19af071f5ff2528e6ed97" name="gaa8dc1a3296e19af071f5ff2528e6ed97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa8dc1a3296e19af071f5ff2528e6ed97">&#9670;&#160;</a></span>operator++() <span class="overload">[13/16]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1OneMeshContours_1_1ConstIterator.html">ConstIterator</a> &amp; MR::OneMeshContours::ConstIterator::operator++ </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga00b9bc17163f0618fd55aa774580ed91" name="ga00b9bc17163f0618fd55aa774580ed91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga00b9bc17163f0618fd55aa774580ed91">&#9670;&#160;</a></span>operator++() <span class="overload">[13/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga00b9bc17163f0618fd55aa774580ed91">&#9670;&#160;</a></span>operator++() <span class="overload">[14/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140403,7 +141039,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2ecba1d3bf80da5ada6460e97e3cc5f5" name="ga2ecba1d3bf80da5ada6460e97e3cc5f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2ecba1d3bf80da5ada6460e97e3cc5f5">&#9670;&#160;</a></span>operator++() <span class="overload">[14/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2ecba1d3bf80da5ada6460e97e3cc5f5">&#9670;&#160;</a></span>operator++() <span class="overload">[15/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140432,7 +141068,7 @@ template&lt;typename N&gt; </div>
 </div>
 </div>
 <a id="ga852c488fe7af6f3a37c24b9756e470f4" name="ga852c488fe7af6f3a37c24b9756e470f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga852c488fe7af6f3a37c24b9756e470f4">&#9670;&#160;</a></span>operator++() <span class="overload">[15/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga852c488fe7af6f3a37c24b9756e470f4">&#9670;&#160;</a></span>operator++() <span class="overload">[16/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144029,7 +144665,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga90a63604beb7920d77fa819e7e2ea521" name="ga90a63604beb7920d77fa819e7e2ea521"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga90a63604beb7920d77fa819e7e2ea521">&#9670;&#160;</a></span>operator==() <span class="overload">[1/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga90a63604beb7920d77fa819e7e2ea521">&#9670;&#160;</a></span>operator==() <span class="overload">[1/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144048,7 +144684,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga25e8983ad44914045326621d9d950b5d" name="ga25e8983ad44914045326621d9d950b5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga25e8983ad44914045326621d9d950b5d">&#9670;&#160;</a></span>operator==() <span class="overload">[2/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga25e8983ad44914045326621d9d950b5d">&#9670;&#160;</a></span>operator==() <span class="overload">[2/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144067,7 +144703,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga63d12752978b08aa7d7bfb5249ce87e4" name="ga63d12752978b08aa7d7bfb5249ce87e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga63d12752978b08aa7d7bfb5249ce87e4">&#9670;&#160;</a></span>operator==() <span class="overload">[3/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga63d12752978b08aa7d7bfb5249ce87e4">&#9670;&#160;</a></span>operator==() <span class="overload">[3/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144094,7 +144730,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaf02af9e13de2b19fe312e071c1213cf5" name="gaf02af9e13de2b19fe312e071c1213cf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf02af9e13de2b19fe312e071c1213cf5">&#9670;&#160;</a></span>operator==() <span class="overload">[4/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf02af9e13de2b19fe312e071c1213cf5">&#9670;&#160;</a></span>operator==() <span class="overload">[4/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144121,7 +144757,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga28ddfe91a5b73fab28e8daeab44c260c" name="ga28ddfe91a5b73fab28e8daeab44c260c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga28ddfe91a5b73fab28e8daeab44c260c">&#9670;&#160;</a></span>operator==() <span class="overload">[5/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga28ddfe91a5b73fab28e8daeab44c260c">&#9670;&#160;</a></span>operator==() <span class="overload">[5/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144150,7 +144786,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaafdf9399f4a83f11c40d3ebea98de071" name="gaafdf9399f4a83f11c40d3ebea98de071"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaafdf9399f4a83f11c40d3ebea98de071">&#9670;&#160;</a></span>operator==() <span class="overload">[6/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaafdf9399f4a83f11c40d3ebea98de071">&#9670;&#160;</a></span>operator==() <span class="overload">[6/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144181,7 +144817,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab9e0ea27a1614f0f9979235fa160bd82" name="gab9e0ea27a1614f0f9979235fa160bd82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab9e0ea27a1614f0f9979235fa160bd82">&#9670;&#160;</a></span>operator==() <span class="overload">[7/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab9e0ea27a1614f0f9979235fa160bd82">&#9670;&#160;</a></span>operator==() <span class="overload">[7/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144210,7 +144846,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga69e71f7eccd4394df5270d18ba65d9fa" name="ga69e71f7eccd4394df5270d18ba65d9fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga69e71f7eccd4394df5270d18ba65d9fa">&#9670;&#160;</a></span>operator==() <span class="overload">[8/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga69e71f7eccd4394df5270d18ba65d9fa">&#9670;&#160;</a></span>operator==() <span class="overload">[8/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144239,7 +144875,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7c7043e20a8cf042d1226981a110f20a" name="ga7c7043e20a8cf042d1226981a110f20a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7c7043e20a8cf042d1226981a110f20a">&#9670;&#160;</a></span>operator==() <span class="overload">[9/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7c7043e20a8cf042d1226981a110f20a">&#9670;&#160;</a></span>operator==() <span class="overload">[9/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144270,7 +144906,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga71461e35e7e20a3b626172c335f26d1c" name="ga71461e35e7e20a3b626172c335f26d1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga71461e35e7e20a3b626172c335f26d1c">&#9670;&#160;</a></span>operator==() <span class="overload">[10/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga71461e35e7e20a3b626172c335f26d1c">&#9670;&#160;</a></span>operator==() <span class="overload">[10/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144297,7 +144933,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga1c0ffa168bd2e0628fd177f7d0282dd1" name="ga1c0ffa168bd2e0628fd177f7d0282dd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1c0ffa168bd2e0628fd177f7d0282dd1">&#9670;&#160;</a></span>operator==() <span class="overload">[11/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1c0ffa168bd2e0628fd177f7d0282dd1">&#9670;&#160;</a></span>operator==() <span class="overload">[11/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144326,7 +144962,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="gafea41fde734a9a4e69e5b8e0e0d3d808" name="gafea41fde734a9a4e69e5b8e0e0d3d808"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafea41fde734a9a4e69e5b8e0e0d3d808">&#9670;&#160;</a></span>operator==() <span class="overload">[12/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafea41fde734a9a4e69e5b8e0e0d3d808">&#9670;&#160;</a></span>operator==() <span class="overload">[12/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144353,7 +144989,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga84bef924a029cea716f7678bd08f9458" name="ga84bef924a029cea716f7678bd08f9458"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga84bef924a029cea716f7678bd08f9458">&#9670;&#160;</a></span>operator==() <span class="overload">[13/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga84bef924a029cea716f7678bd08f9458">&#9670;&#160;</a></span>operator==() <span class="overload">[13/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144382,7 +145018,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="gad3a0063941eb7c51389f4baeaae1d36f" name="gad3a0063941eb7c51389f4baeaae1d36f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad3a0063941eb7c51389f4baeaae1d36f">&#9670;&#160;</a></span>operator==() <span class="overload">[14/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad3a0063941eb7c51389f4baeaae1d36f">&#9670;&#160;</a></span>operator==() <span class="overload">[14/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144409,7 +145045,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="gadfeb28e41ada77721a8b726e820733aa" name="gadfeb28e41ada77721a8b726e820733aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadfeb28e41ada77721a8b726e820733aa">&#9670;&#160;</a></span>operator==() <span class="overload">[15/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadfeb28e41ada77721a8b726e820733aa">&#9670;&#160;</a></span>operator==() <span class="overload">[15/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144436,7 +145072,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga4cce7def49dbe7470ef6d7c0aa86d5ec" name="ga4cce7def49dbe7470ef6d7c0aa86d5ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4cce7def49dbe7470ef6d7c0aa86d5ec">&#9670;&#160;</a></span>operator==() <span class="overload">[16/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4cce7def49dbe7470ef6d7c0aa86d5ec">&#9670;&#160;</a></span>operator==() <span class="overload">[16/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144463,7 +145099,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="gadaf57d8b41c5f38c2bf17310ac1d8b78" name="gadaf57d8b41c5f38c2bf17310ac1d8b78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadaf57d8b41c5f38c2bf17310ac1d8b78">&#9670;&#160;</a></span>operator==() <span class="overload">[17/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadaf57d8b41c5f38c2bf17310ac1d8b78">&#9670;&#160;</a></span>operator==() <span class="overload">[17/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144492,7 +145128,7 @@ template&lt;typename U&gt; </div>
 </div>
 </div>
 <a id="ga0a37658bddeb046596dd8b3a8ea5c57c" name="ga0a37658bddeb046596dd8b3a8ea5c57c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0a37658bddeb046596dd8b3a8ea5c57c">&#9670;&#160;</a></span>operator==() <span class="overload">[18/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0a37658bddeb046596dd8b3a8ea5c57c">&#9670;&#160;</a></span>operator==() <span class="overload">[18/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144523,7 +145159,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab5aeef5b1c53656f8816af392af3ec46" name="gab5aeef5b1c53656f8816af392af3ec46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab5aeef5b1c53656f8816af392af3ec46">&#9670;&#160;</a></span>operator==() <span class="overload">[19/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab5aeef5b1c53656f8816af392af3ec46">&#9670;&#160;</a></span>operator==() <span class="overload">[19/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144549,8 +145185,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gaf88a1456068cf319a8fa10ce6cbbe9db" name="gaf88a1456068cf319a8fa10ce6cbbe9db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf88a1456068cf319a8fa10ce6cbbe9db">&#9670;&#160;</a></span>operator==() <span class="overload">[20/40]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::OneMeshContours::ConstIterator::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1OneMeshContours_1_1ConstIterator.html">ConstIterator</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga069c10cc19da139f913e3cd6f507b76f" name="ga069c10cc19da139f913e3cd6f507b76f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga069c10cc19da139f913e3cd6f507b76f">&#9670;&#160;</a></span>operator==() <span class="overload">[20/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga069c10cc19da139f913e3cd6f507b76f">&#9670;&#160;</a></span>operator==() <span class="overload">[21/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144583,7 +145246,7 @@ template&lt;typename T, typename U&gt; </div>
 </div>
 </div>
 <a id="ga11adbe77a0a789151fa888fe153d4933" name="ga11adbe77a0a789151fa888fe153d4933"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga11adbe77a0a789151fa888fe153d4933">&#9670;&#160;</a></span>operator==() <span class="overload">[21/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga11adbe77a0a789151fa888fe153d4933">&#9670;&#160;</a></span>operator==() <span class="overload">[22/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144614,7 +145277,7 @@ template&lt;typename T, typename U&gt; </div>
 </div>
 </div>
 <a id="gabc57b066e60b9354fd351e2018fe5b7e" name="gabc57b066e60b9354fd351e2018fe5b7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabc57b066e60b9354fd351e2018fe5b7e">&#9670;&#160;</a></span>operator==() <span class="overload">[22/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc57b066e60b9354fd351e2018fe5b7e">&#9670;&#160;</a></span>operator==() <span class="overload">[23/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144647,7 +145310,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga1d373c7805aa607ceab34f611207120c" name="ga1d373c7805aa607ceab34f611207120c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1d373c7805aa607ceab34f611207120c">&#9670;&#160;</a></span>operator==() <span class="overload">[23/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1d373c7805aa607ceab34f611207120c">&#9670;&#160;</a></span>operator==() <span class="overload">[24/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144678,7 +145341,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga19b191245b05d1121109cd26f5ca30d2" name="ga19b191245b05d1121109cd26f5ca30d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga19b191245b05d1121109cd26f5ca30d2">&#9670;&#160;</a></span>operator==() <span class="overload">[24/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga19b191245b05d1121109cd26f5ca30d2">&#9670;&#160;</a></span>operator==() <span class="overload">[25/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144709,7 +145372,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga063c104022f7dee6a63efd4b129f4779" name="ga063c104022f7dee6a63efd4b129f4779"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga063c104022f7dee6a63efd4b129f4779">&#9670;&#160;</a></span>operator==() <span class="overload">[25/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga063c104022f7dee6a63efd4b129f4779">&#9670;&#160;</a></span>operator==() <span class="overload">[26/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144740,7 +145403,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gacd6560a0f28fb19765459a10c4f673c4" name="gacd6560a0f28fb19765459a10c4f673c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacd6560a0f28fb19765459a10c4f673c4">&#9670;&#160;</a></span>operator==() <span class="overload">[26/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd6560a0f28fb19765459a10c4f673c4">&#9670;&#160;</a></span>operator==() <span class="overload">[27/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144767,7 +145430,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gaf1878c347e52b88e1e86d50a9f38264b" name="gaf1878c347e52b88e1e86d50a9f38264b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf1878c347e52b88e1e86d50a9f38264b">&#9670;&#160;</a></span>operator==() <span class="overload">[27/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf1878c347e52b88e1e86d50a9f38264b">&#9670;&#160;</a></span>operator==() <span class="overload">[28/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144796,7 +145459,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gaa10debad27ce2b86f238db3d967a2c22" name="gaa10debad27ce2b86f238db3d967a2c22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa10debad27ce2b86f238db3d967a2c22">&#9670;&#160;</a></span>operator==() <span class="overload">[28/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa10debad27ce2b86f238db3d967a2c22">&#9670;&#160;</a></span>operator==() <span class="overload">[29/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144825,7 +145488,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gaa430fb4a7ceafb3eb18505b07dcd5273" name="gaa430fb4a7ceafb3eb18505b07dcd5273"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa430fb4a7ceafb3eb18505b07dcd5273">&#9670;&#160;</a></span>operator==() <span class="overload">[29/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa430fb4a7ceafb3eb18505b07dcd5273">&#9670;&#160;</a></span>operator==() <span class="overload">[30/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144852,7 +145515,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gab79facceed1e2c0b1f3a9daddcb6548e" name="gab79facceed1e2c0b1f3a9daddcb6548e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab79facceed1e2c0b1f3a9daddcb6548e">&#9670;&#160;</a></span>operator==() <span class="overload">[30/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab79facceed1e2c0b1f3a9daddcb6548e">&#9670;&#160;</a></span>operator==() <span class="overload">[31/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144879,7 +145542,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gaa700fd6a10257ff9d1efe1d00dcb64dc" name="gaa700fd6a10257ff9d1efe1d00dcb64dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa700fd6a10257ff9d1efe1d00dcb64dc">&#9670;&#160;</a></span>operator==() <span class="overload">[31/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa700fd6a10257ff9d1efe1d00dcb64dc">&#9670;&#160;</a></span>operator==() <span class="overload">[32/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144899,7 +145562,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga58b2183bd06afd657f4427bec04ded35" name="ga58b2183bd06afd657f4427bec04ded35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga58b2183bd06afd657f4427bec04ded35">&#9670;&#160;</a></span>operator==() <span class="overload">[32/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga58b2183bd06afd657f4427bec04ded35">&#9670;&#160;</a></span>operator==() <span class="overload">[33/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144930,7 +145593,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6dd9ffde5068ad5458d52af3e1c33617" name="ga6dd9ffde5068ad5458d52af3e1c33617"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6dd9ffde5068ad5458d52af3e1c33617">&#9670;&#160;</a></span>operator==() <span class="overload">[33/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6dd9ffde5068ad5458d52af3e1c33617">&#9670;&#160;</a></span>operator==() <span class="overload">[34/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144959,7 +145622,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2a42973ef5568cce8008642ce4d53e5f" name="ga2a42973ef5568cce8008642ce4d53e5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2a42973ef5568cce8008642ce4d53e5f">&#9670;&#160;</a></span>operator==() <span class="overload">[34/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2a42973ef5568cce8008642ce4d53e5f">&#9670;&#160;</a></span>operator==() <span class="overload">[35/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144986,7 +145649,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga8ddbb2995c7659e3cc15a4e925ee3ca8" name="ga8ddbb2995c7659e3cc15a4e925ee3ca8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8ddbb2995c7659e3cc15a4e925ee3ca8">&#9670;&#160;</a></span>operator==() <span class="overload">[35/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ddbb2995c7659e3cc15a4e925ee3ca8">&#9670;&#160;</a></span>operator==() <span class="overload">[36/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145015,7 +145678,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaaebb5e3d0837bb5c59e39b23498ccaa2" name="gaaebb5e3d0837bb5c59e39b23498ccaa2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaaebb5e3d0837bb5c59e39b23498ccaa2">&#9670;&#160;</a></span>operator==() <span class="overload">[36/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaebb5e3d0837bb5c59e39b23498ccaa2">&#9670;&#160;</a></span>operator==() <span class="overload">[37/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145046,7 +145709,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga30a5afd270e8b522b8afc3783134a1a5" name="ga30a5afd270e8b522b8afc3783134a1a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga30a5afd270e8b522b8afc3783134a1a5">&#9670;&#160;</a></span>operator==() <span class="overload">[37/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga30a5afd270e8b522b8afc3783134a1a5">&#9670;&#160;</a></span>operator==() <span class="overload">[38/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145075,7 +145738,7 @@ template&lt;typename T, typename I&gt; </div>
 </div>
 </div>
 <a id="gabe736bf771f335d8d782c1037715fd75" name="gabe736bf771f335d8d782c1037715fd75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabe736bf771f335d8d782c1037715fd75">&#9670;&#160;</a></span>operator==() <span class="overload">[38/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe736bf771f335d8d782c1037715fd75">&#9670;&#160;</a></span>operator==() <span class="overload">[39/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145102,7 +145765,7 @@ template&lt;typename T, typename I&gt; </div>
 </div>
 </div>
 <a id="ga9d58008a01c9a02bc872fb06b4dfe30f" name="ga9d58008a01c9a02bc872fb06b4dfe30f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9d58008a01c9a02bc872fb06b4dfe30f">&#9670;&#160;</a></span>operator==() <span class="overload">[39/39]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9d58008a01c9a02bc872fb06b4dfe30f">&#9670;&#160;</a></span>operator==() <span class="overload">[40/40]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145129,7 +145792,7 @@ template&lt;typename T, typename I&gt; </div>
 </div>
 </div>
 <a id="gac94f623e90a49fd07aeb61722ab8e7f1" name="gac94f623e90a49fd07aeb61722ab8e7f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac94f623e90a49fd07aeb61722ab8e7f1">&#9670;&#160;</a></span>operator[]() <span class="overload">[1/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac94f623e90a49fd07aeb61722ab8e7f1">&#9670;&#160;</a></span>operator[]() <span class="overload">[1/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145160,7 +145823,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gac20d3e206804590699b1e944ebe0bb1d" name="gac20d3e206804590699b1e944ebe0bb1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac20d3e206804590699b1e944ebe0bb1d">&#9670;&#160;</a></span>operator[]() <span class="overload">[2/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac20d3e206804590699b1e944ebe0bb1d">&#9670;&#160;</a></span>operator[]() <span class="overload">[2/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145189,7 +145852,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="ga9db6d53dd2501eb585f56eb189af4340" name="ga9db6d53dd2501eb585f56eb189af4340"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9db6d53dd2501eb585f56eb189af4340">&#9670;&#160;</a></span>operator[]() <span class="overload">[3/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9db6d53dd2501eb585f56eb189af4340">&#9670;&#160;</a></span>operator[]() <span class="overload">[3/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145218,7 +145881,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="ga30e8afba2ca683c433ab83718048a41e" name="ga30e8afba2ca683c433ab83718048a41e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga30e8afba2ca683c433ab83718048a41e">&#9670;&#160;</a></span>operator[]() <span class="overload">[4/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga30e8afba2ca683c433ab83718048a41e">&#9670;&#160;</a></span>operator[]() <span class="overload">[4/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145245,7 +145908,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="ga3671d8320e6244266951f9a5ea6ef33e" name="ga3671d8320e6244266951f9a5ea6ef33e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3671d8320e6244266951f9a5ea6ef33e">&#9670;&#160;</a></span>operator[]() <span class="overload">[5/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3671d8320e6244266951f9a5ea6ef33e">&#9670;&#160;</a></span>operator[]() <span class="overload">[5/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145272,7 +145935,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="gabd262d110c14eb87676ed8a2fe7378cd" name="gabd262d110c14eb87676ed8a2fe7378cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabd262d110c14eb87676ed8a2fe7378cd">&#9670;&#160;</a></span>operator[]() <span class="overload">[6/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd262d110c14eb87676ed8a2fe7378cd">&#9670;&#160;</a></span>operator[]() <span class="overload">[6/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145299,7 +145962,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="ga191ed6b48bd26dd077d33ea6eb50bd21" name="ga191ed6b48bd26dd077d33ea6eb50bd21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga191ed6b48bd26dd077d33ea6eb50bd21">&#9670;&#160;</a></span>operator[]() <span class="overload">[7/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga191ed6b48bd26dd077d33ea6eb50bd21">&#9670;&#160;</a></span>operator[]() <span class="overload">[7/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145328,7 +145991,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="gaf65b16a9e3eb716ade27a46bde4dac29" name="gaf65b16a9e3eb716ade27a46bde4dac29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf65b16a9e3eb716ade27a46bde4dac29">&#9670;&#160;</a></span>operator[]() <span class="overload">[8/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf65b16a9e3eb716ade27a46bde4dac29">&#9670;&#160;</a></span>operator[]() <span class="overload">[8/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145357,7 +146020,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="ga3b6b9b5bd10ab0b951b4049866cb22fb" name="ga3b6b9b5bd10ab0b951b4049866cb22fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3b6b9b5bd10ab0b951b4049866cb22fb">&#9670;&#160;</a></span>operator[]() <span class="overload">[9/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3b6b9b5bd10ab0b951b4049866cb22fb">&#9670;&#160;</a></span>operator[]() <span class="overload">[9/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145386,7 +146049,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="ga6ea7fda3271b8069b31c64acfa61c5d4" name="ga6ea7fda3271b8069b31c64acfa61c5d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6ea7fda3271b8069b31c64acfa61c5d4">&#9670;&#160;</a></span>operator[]() <span class="overload">[10/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6ea7fda3271b8069b31c64acfa61c5d4">&#9670;&#160;</a></span>operator[]() <span class="overload">[10/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145413,7 +146076,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="ga3dd0343a154cad09f33735a106dcc64b" name="ga3dd0343a154cad09f33735a106dcc64b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3dd0343a154cad09f33735a106dcc64b">&#9670;&#160;</a></span>operator[]() <span class="overload">[11/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3dd0343a154cad09f33735a106dcc64b">&#9670;&#160;</a></span>operator[]() <span class="overload">[11/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145442,7 +146105,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="gafcac114c6d43447ea0cae96eb9270de8" name="gafcac114c6d43447ea0cae96eb9270de8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafcac114c6d43447ea0cae96eb9270de8">&#9670;&#160;</a></span>operator[]() <span class="overload">[12/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafcac114c6d43447ea0cae96eb9270de8">&#9670;&#160;</a></span>operator[]() <span class="overload">[12/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145471,7 +146134,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="gaabbf695f8fc5b34d0c1ed9e215964a3e" name="gaabbf695f8fc5b34d0c1ed9e215964a3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaabbf695f8fc5b34d0c1ed9e215964a3e">&#9670;&#160;</a></span>operator[]() <span class="overload">[13/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaabbf695f8fc5b34d0c1ed9e215964a3e">&#9670;&#160;</a></span>operator[]() <span class="overload">[13/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145502,7 +146165,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga381d5f34663c1e9db5856d7ae4459a61" name="ga381d5f34663c1e9db5856d7ae4459a61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga381d5f34663c1e9db5856d7ae4459a61">&#9670;&#160;</a></span>operator[]() <span class="overload">[14/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga381d5f34663c1e9db5856d7ae4459a61">&#9670;&#160;</a></span>operator[]() <span class="overload">[14/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145531,7 +146194,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga3571bc7afa9d380e1da582750e9e0db2" name="ga3571bc7afa9d380e1da582750e9e0db2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3571bc7afa9d380e1da582750e9e0db2">&#9670;&#160;</a></span>operator[]() <span class="overload">[15/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3571bc7afa9d380e1da582750e9e0db2">&#9670;&#160;</a></span>operator[]() <span class="overload">[15/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145562,7 +146225,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga9d62fe6c280333946cbf8be544ccba2e" name="ga9d62fe6c280333946cbf8be544ccba2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9d62fe6c280333946cbf8be544ccba2e">&#9670;&#160;</a></span>operator[]() <span class="overload">[16/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9d62fe6c280333946cbf8be544ccba2e">&#9670;&#160;</a></span>operator[]() <span class="overload">[16/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145591,7 +146254,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gac8c8b8aa3228dcf88a06287eb8fd8a82" name="gac8c8b8aa3228dcf88a06287eb8fd8a82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac8c8b8aa3228dcf88a06287eb8fd8a82">&#9670;&#160;</a></span>operator[]() <span class="overload">[17/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac8c8b8aa3228dcf88a06287eb8fd8a82">&#9670;&#160;</a></span>operator[]() <span class="overload">[17/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145622,7 +146285,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gac7f03fbfef49ca31946e80ec1051e0bc" name="gac7f03fbfef49ca31946e80ec1051e0bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac7f03fbfef49ca31946e80ec1051e0bc">&#9670;&#160;</a></span>operator[]() <span class="overload">[18/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac7f03fbfef49ca31946e80ec1051e0bc">&#9670;&#160;</a></span>operator[]() <span class="overload">[18/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145650,8 +146313,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gafecad952410455a44da68e6c41f083a5" name="gafecad952410455a44da68e6c41f083a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafecad952410455a44da68e6c41f083a5">&#9670;&#160;</a></span>operator[]() <span class="overload">[19/30]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1OneMeshContourView.html">OneMeshContourView</a> MR::OneMeshContours::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gab99f3e132fe375fd87cd27dafb991537" name="gab99f3e132fe375fd87cd27dafb991537"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab99f3e132fe375fd87cd27dafb991537">&#9670;&#160;</a></span>operator[]() <span class="overload">[19/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab99f3e132fe375fd87cd27dafb991537">&#9670;&#160;</a></span>operator[]() <span class="overload">[20/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145680,7 +146370,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaf0bfe85ad789f3bba2ddfb104733e314" name="gaf0bfe85ad789f3bba2ddfb104733e314"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf0bfe85ad789f3bba2ddfb104733e314">&#9670;&#160;</a></span>operator[]() <span class="overload">[20/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf0bfe85ad789f3bba2ddfb104733e314">&#9670;&#160;</a></span>operator[]() <span class="overload">[21/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145709,7 +146399,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafd6a6d54cfc1f72dc7ecca75f9897146" name="gafd6a6d54cfc1f72dc7ecca75f9897146"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafd6a6d54cfc1f72dc7ecca75f9897146">&#9670;&#160;</a></span>operator[]() <span class="overload">[21/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafd6a6d54cfc1f72dc7ecca75f9897146">&#9670;&#160;</a></span>operator[]() <span class="overload">[22/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145740,7 +146430,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga3def19a0ec6d9b753da75d05825e1d0b" name="ga3def19a0ec6d9b753da75d05825e1d0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3def19a0ec6d9b753da75d05825e1d0b">&#9670;&#160;</a></span>operator[]() <span class="overload">[22/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3def19a0ec6d9b753da75d05825e1d0b">&#9670;&#160;</a></span>operator[]() <span class="overload">[23/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145767,7 +146457,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga1559dd0f63575b110b6d67c47cd8ca61" name="ga1559dd0f63575b110b6d67c47cd8ca61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1559dd0f63575b110b6d67c47cd8ca61">&#9670;&#160;</a></span>operator[]() <span class="overload">[23/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1559dd0f63575b110b6d67c47cd8ca61">&#9670;&#160;</a></span>operator[]() <span class="overload">[24/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145794,7 +146484,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga91b0398c10d527ac2433b92451a3dfb8" name="ga91b0398c10d527ac2433b92451a3dfb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga91b0398c10d527ac2433b92451a3dfb8">&#9670;&#160;</a></span>operator[]() <span class="overload">[24/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga91b0398c10d527ac2433b92451a3dfb8">&#9670;&#160;</a></span>operator[]() <span class="overload">[25/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145823,7 +146513,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafd88975c7b25f8752c951f16a74ac7f5" name="gafd88975c7b25f8752c951f16a74ac7f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafd88975c7b25f8752c951f16a74ac7f5">&#9670;&#160;</a></span>operator[]() <span class="overload">[25/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafd88975c7b25f8752c951f16a74ac7f5">&#9670;&#160;</a></span>operator[]() <span class="overload">[26/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145852,7 +146542,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaad7806510075ef51fd4cb0c1cee64742" name="gaad7806510075ef51fd4cb0c1cee64742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaad7806510075ef51fd4cb0c1cee64742">&#9670;&#160;</a></span>operator[]() <span class="overload">[26/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaad7806510075ef51fd4cb0c1cee64742">&#9670;&#160;</a></span>operator[]() <span class="overload">[27/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145881,7 +146571,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga26c8c6c0e41d80c33f348e16acb5ea40" name="ga26c8c6c0e41d80c33f348e16acb5ea40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga26c8c6c0e41d80c33f348e16acb5ea40">&#9670;&#160;</a></span>operator[]() <span class="overload">[27/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga26c8c6c0e41d80c33f348e16acb5ea40">&#9670;&#160;</a></span>operator[]() <span class="overload">[28/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145910,7 +146600,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga3a03ee463d5f6122ac940a592ac9ec88" name="ga3a03ee463d5f6122ac940a592ac9ec88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3a03ee463d5f6122ac940a592ac9ec88">&#9670;&#160;</a></span>operator[]() <span class="overload">[28/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3a03ee463d5f6122ac940a592ac9ec88">&#9670;&#160;</a></span>operator[]() <span class="overload">[29/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145939,7 +146629,7 @@ template&lt;typename T, typename I&gt; </div>
 </div>
 </div>
 <a id="ga8b3429bd5756af47e08186ebef6acd7e" name="ga8b3429bd5756af47e08186ebef6acd7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8b3429bd5756af47e08186ebef6acd7e">&#9670;&#160;</a></span>operator[]() <span class="overload">[29/29]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8b3429bd5756af47e08186ebef6acd7e">&#9670;&#160;</a></span>operator[]() <span class="overload">[30/30]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -147501,6 +148191,31 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gae7bf4b83e9394a02bc7fc1b6f0636330" name="gae7bf4b83e9394a02bc7fc1b6f0636330"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae7bf4b83e9394a02bc7fc1b6f0636330">&#9670;&#160;</a></span>parallelForContourPieces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::parallelForContourPieces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>offsets</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; void(int c, int i0, int i1)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+<p>calls f( c, i0, i1 ) in parallel on pieces [i0, i1) of all elements of contours with given offsets, every piece within contour c </p>
 
 </div>
 </div>
@@ -152486,6 +153201,33 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gac91000f0a41d88c5eb5054d59cac97ae" name="gac91000f0a41d88c5eb5054d59cac97ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac91000f0a41d88c5eb5054d59cac97ae">&#9670;&#160;</a></span>primitive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga7dcd591850b9c0dcd06eec7acc97f221">Primitive</a> MR::OneMeshIntersection::primitive </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga9223e7ea52cd0ccab2aefc1dca9b0942" name="ga9223e7ea52cd0ccab2aefc1dca9b0942"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga9223e7ea52cd0ccab2aefc1dca9b0942">&#9670;&#160;</a></span>primitiveCircle()</h2>
 
@@ -154597,8 +155339,56 @@ template&lt;typename T, typename P = std::less&lt;T&gt;&gt; </div>
 
 </div>
 </div>
+<a id="ga1a1da28c41bee85be802e314c0748a84" name="ga1a1da28c41bee85be802e314c0748a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1a1da28c41bee85be802e314c0748a84">&#9670;&#160;</a></span>push_back() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::OneMeshContours::push_back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gae3e74d4c99fd58f10abd2b1a39b22484" name="gae3e74d4c99fd58f10abd2b1a39b22484"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae3e74d4c99fd58f10abd2b1a39b22484">&#9670;&#160;</a></span>push_back() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::OneMeshContours::push_back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1OneMeshContourView.html">OneMeshContourView</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+<p>appends a contour </p>
+
+</div>
+</div>
 <a id="ga5ea16d2aeaa1f2e2d683aade3c67794c" name="ga5ea16d2aeaa1f2e2d683aade3c67794c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5ea16d2aeaa1f2e2d683aade3c67794c">&#9670;&#160;</a></span>push_back() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5ea16d2aeaa1f2e2d683aade3c67794c">&#9670;&#160;</a></span>push_back() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154627,7 +155417,7 @@ template&lt;typename T, typename I&gt; </div>
 </div>
 </div>
 <a id="ga05637c5798b92bebed2ff7a28c610317" name="ga05637c5798b92bebed2ff7a28c610317"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga05637c5798b92bebed2ff7a28c610317">&#9670;&#160;</a></span>push_back() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga05637c5798b92bebed2ff7a28c610317">&#9670;&#160;</a></span>push_back() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157624,12 +158414,12 @@ template&lt;typename T, typename I&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>faceContours</em></span>, </td>
+          <td class="paramtype"><a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>faceContours</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>edgeContours</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>edgeContours</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -163500,6 +164290,35 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRSurfaceManipulationWidget_8h.html">MRViewer/MRSurfaceManipulationWidget.h</a>&gt;</code></p>
 
 <p>returns true if the current object's mesh has the same topology as original input mesh (and vertices with same IDs can be compared) </p>
+
+</div>
+</div>
+<a id="ga091999b0dad602443c419d66f763da96" name="ga091999b0dad602443c419d66f763da96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga091999b0dad602443c419d66f763da96">&#9670;&#160;</a></span>samePrimitive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::OneMeshIntersection::samePrimitive </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1OneMeshIntersection.html">OneMeshIntersection</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+<p>whether both points are in the same primitive </p>
 
 </div>
 </div>
@@ -175269,6 +176088,87 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga59da18396670ed957e82a83e0d560390" name="ga59da18396670ed957e82a83e0d560390"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga59da18396670ed957e82a83e0d560390">&#9670;&#160;</a></span>setPrimitive() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::OneMeshIntersection::setPrimitive </td>
+          <td>(</td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga9c54b4361e1da80001d37e6845005897" name="ga9c54b4361e1da80001d37e6845005897"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9c54b4361e1da80001d37e6845005897">&#9670;&#160;</a></span>setPrimitive() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::OneMeshIntersection::setPrimitive </td>
+          <td>(</td>
+          <td class="paramtype">FaceId</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gadc5b3f4ee1b4849f96bfedb969b5fb49" name="gadc5b3f4ee1b4849f96bfedb969b5fb49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadc5b3f4ee1b4849f96bfedb969b5fb49">&#9670;&#160;</a></span>setPrimitive() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::OneMeshIntersection::setPrimitive </td>
+          <td>(</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga7690f1438a78e4425cf267703a4417af" name="ga7690f1438a78e4425cf267703a4417af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga7690f1438a78e4425cf267703a4417af">&#9670;&#160;</a></span>setProgress()</h2>
 
@@ -181685,7 +182585,7 @@ template&lt;typename T, typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="ga1d3da8fd15b4043055b9d702644765a9" name="ga1d3da8fd15b4043055b9d702644765a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1d3da8fd15b4043055b9d702644765a9">&#9670;&#160;</a></span>size() <span class="overload">[1/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1d3da8fd15b4043055b9d702644765a9">&#9670;&#160;</a></span>size() <span class="overload">[1/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181716,7 +182616,7 @@ template&lt;typename I&gt; </div>
 </div>
 </div>
 <a id="ga40bf924b784b4438431f70517b950d70" name="ga40bf924b784b4438431f70517b950d70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga40bf924b784b4438431f70517b950d70">&#9670;&#160;</a></span>size() <span class="overload">[2/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga40bf924b784b4438431f70517b950d70">&#9670;&#160;</a></span>size() <span class="overload">[2/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181745,7 +182645,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="ga1a7314cfced15e3be5d5495b7a618adf" name="ga1a7314cfced15e3be5d5495b7a618adf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1a7314cfced15e3be5d5495b7a618adf">&#9670;&#160;</a></span>size() <span class="overload">[3/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1a7314cfced15e3be5d5495b7a618adf">&#9670;&#160;</a></span>size() <span class="overload">[3/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181772,7 +182672,7 @@ template&lt;typename V, typename I&gt; </div>
 </div>
 </div>
 <a id="gaa7fcea11aded20f38afd49e536c21323" name="gaa7fcea11aded20f38afd49e536c21323"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa7fcea11aded20f38afd49e536c21323">&#9670;&#160;</a></span>size() <span class="overload">[4/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa7fcea11aded20f38afd49e536c21323">&#9670;&#160;</a></span>size() <span class="overload">[4/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181803,7 +182703,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaf066f608b196b3e48f709f22fc1fd0d4" name="gaf066f608b196b3e48f709f22fc1fd0d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf066f608b196b3e48f709f22fc1fd0d4">&#9670;&#160;</a></span>size() <span class="overload">[5/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf066f608b196b3e48f709f22fc1fd0d4">&#9670;&#160;</a></span>size() <span class="overload">[5/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181830,7 +182730,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga3943dc4f528bc49722114379614e4c2e" name="ga3943dc4f528bc49722114379614e4c2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3943dc4f528bc49722114379614e4c2e">&#9670;&#160;</a></span>size() <span class="overload">[6/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3943dc4f528bc49722114379614e4c2e">&#9670;&#160;</a></span>size() <span class="overload">[6/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181857,7 +182757,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga31f2ca34c59318a7c4d59d8a4a37782a" name="ga31f2ca34c59318a7c4d59d8a4a37782a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga31f2ca34c59318a7c4d59d8a4a37782a">&#9670;&#160;</a></span>size() <span class="overload">[7/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga31f2ca34c59318a7c4d59d8a4a37782a">&#9670;&#160;</a></span>size() <span class="overload">[7/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181884,7 +182784,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga1e4223327adb1bcde9e327c4234ec950" name="ga1e4223327adb1bcde9e327c4234ec950"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1e4223327adb1bcde9e327c4234ec950">&#9670;&#160;</a></span>size() <span class="overload">[8/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1e4223327adb1bcde9e327c4234ec950">&#9670;&#160;</a></span>size() <span class="overload">[8/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181913,7 +182813,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga21b4f073206e446af1e8c0c8895e56a8" name="ga21b4f073206e446af1e8c0c8895e56a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga21b4f073206e446af1e8c0c8895e56a8">&#9670;&#160;</a></span>size() <span class="overload">[9/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga21b4f073206e446af1e8c0c8895e56a8">&#9670;&#160;</a></span>size() <span class="overload">[9/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181941,8 +182841,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gaf9b0b334479670b3a71b41ea5652695e" name="gaf9b0b334479670b3a71b41ea5652695e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf9b0b334479670b3a71b41ea5652695e">&#9670;&#160;</a></span>size() <span class="overload">[10/15]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::OneMeshContours::size </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga57a171fbd5024682750b723475ed0c7b" name="ga57a171fbd5024682750b723475ed0c7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga57a171fbd5024682750b723475ed0c7b">&#9670;&#160;</a></span>size() <span class="overload">[10/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga57a171fbd5024682750b723475ed0c7b">&#9670;&#160;</a></span>size() <span class="overload">[11/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181971,7 +182898,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab6d4bc3f087a1d5b9e3acf5c3334f1af" name="gab6d4bc3f087a1d5b9e3acf5c3334f1af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab6d4bc3f087a1d5b9e3acf5c3334f1af">&#9670;&#160;</a></span>size() <span class="overload">[11/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab6d4bc3f087a1d5b9e3acf5c3334f1af">&#9670;&#160;</a></span>size() <span class="overload">[12/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182002,7 +182929,7 @@ template&lt;typename T, typename P = std::less&lt;T&gt;&gt; </div>
 </div>
 </div>
 <a id="ga7a999ec2f9bcbbe78e53db8df8a5adc1" name="ga7a999ec2f9bcbbe78e53db8df8a5adc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7a999ec2f9bcbbe78e53db8df8a5adc1">&#9670;&#160;</a></span>size() <span class="overload">[12/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7a999ec2f9bcbbe78e53db8df8a5adc1">&#9670;&#160;</a></span>size() <span class="overload">[13/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182033,7 +182960,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga306ff1f62992b3eb33c446913b64188a" name="ga306ff1f62992b3eb33c446913b64188a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga306ff1f62992b3eb33c446913b64188a">&#9670;&#160;</a></span>size() <span class="overload">[13/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga306ff1f62992b3eb33c446913b64188a">&#9670;&#160;</a></span>size() <span class="overload">[14/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182060,7 +182987,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2816ffd002bac70ab04d1bd18e2c5cfd" name="ga2816ffd002bac70ab04d1bd18e2c5cfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2816ffd002bac70ab04d1bd18e2c5cfd">&#9670;&#160;</a></span>size() <span class="overload">[14/14]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2816ffd002bac70ab04d1bd18e2c5cfd">&#9670;&#160;</a></span>size() <span class="overload">[15/15]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186198,7 +187125,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822">OneMeshContours</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -201253,6 +202180,33 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga88d0fbd557b22cccf4845b9ca165228a" name="ga88d0fbd557b22cccf4845b9ca165228a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga88d0fbd557b22cccf4845b9ca165228a">&#9670;&#160;</a></span>vert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertId MR::OneMeshIntersection::vert </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gafe0c8f123fa4b9130eb2d7e3a3632341" name="gafe0c8f123fa4b9130eb2d7e3a3632341"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gafe0c8f123fa4b9130eb2d7e3a3632341">&#9670;&#160;</a></span>vertCapacity() <span class="overload">[1/2]</span></h2>
 
@@ -210155,8 +211109,22 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
+<a id="ga67107af60dcd4d72fc128aac28c7b074" name="ga67107af60dcd4d72fc128aac28c7b074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga67107af60dcd4d72fc128aac28c7b074">&#9670;&#160;</a></span>c <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::OneMeshContours::ConstIterator::c = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga87d6da7f3dba1aa3504784c26b407da3" name="ga87d6da7f3dba1aa3504784c26b407da3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga87d6da7f3dba1aa3504784c26b407da3">&#9670;&#160;</a></span>c <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga87d6da7f3dba1aa3504784c26b407da3">&#9670;&#160;</a></span>c <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210172,7 +211140,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga5f49205aba3f95b0774623effbc87e49" name="ga5f49205aba3f95b0774623effbc87e49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5f49205aba3f95b0774623effbc87e49">&#9670;&#160;</a></span>c <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f49205aba3f95b0774623effbc87e49">&#9670;&#160;</a></span>c <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210189,7 +211157,7 @@ template&lt;typename T, typename P = std::less&lt;T&gt;&gt; </div>
 </div>
 </div>
 <a id="ga0b59f3e15f491ff0d64f1121a8b0a463" name="ga0b59f3e15f491ff0d64f1121a8b0a463"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0b59f3e15f491ff0d64f1121a8b0a463">&#9670;&#160;</a></span>c <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0b59f3e15f491ff0d64f1121a8b0a463">&#9670;&#160;</a></span>c <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210205,7 +211173,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga3408cac17b0213d5213b299ad98f12c3" name="ga3408cac17b0213d5213b299ad98f12c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3408cac17b0213d5213b299ad98f12c3">&#9670;&#160;</a></span>c <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3408cac17b0213d5213b299ad98f12c3">&#9670;&#160;</a></span>c <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210221,7 +211189,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga06e3dd2db55e7e7ba53ba5b07c8ae542" name="ga06e3dd2db55e7e7ba53ba5b07c8ae542"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga06e3dd2db55e7e7ba53ba5b07c8ae542">&#9670;&#160;</a></span>c <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga06e3dd2db55e7e7ba53ba5b07c8ae542">&#9670;&#160;</a></span>c <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212038,13 +213006,41 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gae2a61041d982700ef3d887aedc03a320" name="gae2a61041d982700ef3d887aedc03a320"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae2a61041d982700ef3d887aedc03a320">&#9670;&#160;</a></span>closed</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae2a61041d982700ef3d887aedc03a320">&#9670;&#160;</a></span>closed <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool MR::OneMeshContour::closed {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga7293d78747bb954b92d570d8d5fb7ccb" name="ga7293d78747bb954b92d570d8d5fb7ccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7293d78747bb954b92d570d8d5fb7ccb">&#9670;&#160;</a></span>closed <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::OneMeshContours::closed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gae0675ae2362625d00bc09a3433d2a9be" name="gae0675ae2362625d00bc09a3433d2a9be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae0675ae2362625d00bc09a3433d2a9be">&#9670;&#160;</a></span>closed <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::OneMeshContourView::closed {false}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -213576,8 +214572,22 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="ga560deb9afedafbfee25e3bf2e6983b10" name="ga560deb9afedafbfee25e3bf2e6983b10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga560deb9afedafbfee25e3bf2e6983b10">&#9670;&#160;</a></span>contours <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1OneMeshContours.html">OneMeshContours</a>* MR::OneMeshContours::ConstIterator::contours = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga3e022423fc25738632598f90c2caf5b1" name="ga3e022423fc25738632598f90c2caf5b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3e022423fc25738632598f90c2caf5b1">&#9670;&#160;</a></span>contours</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3e022423fc25738632598f90c2caf5b1">&#9670;&#160;</a></span>contours <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221328,7 +222338,7 @@ template&lt;typename Accessor&gt; </div>
 </div>
 </div>
 <a id="gae91b71d479c6bb30a6e9b3068dd1d0c2" name="gae91b71d479c6bb30a6e9b3068dd1d0c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae91b71d479c6bb30a6e9b3068dd1d0c2">&#9670;&#160;</a></span>intersections <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae91b71d479c6bb30a6e9b3068dd1d0c2">&#9670;&#160;</a></span>intersections <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221344,13 +222354,41 @@ template&lt;typename Accessor&gt; </div>
 </div>
 </div>
 <a id="ga573b722f5451e1df8abb49bcf598d24f" name="ga573b722f5451e1df8abb49bcf598d24f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga573b722f5451e1df8abb49bcf598d24f">&#9670;&#160;</a></span>intersections <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga573b722f5451e1df8abb49bcf598d24f">&#9670;&#160;</a></span>intersections <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1OneMeshIntersection.html">OneMeshIntersection</a>&gt; MR::OneMeshContour::intersections</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gae156a49d6e8bff7d28fb938599dbf475" name="gae156a49d6e8bff7d28fb938599dbf475"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae156a49d6e8bff7d28fb938599dbf475">&#9670;&#160;</a></span>intersections <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1OneMeshIntersection.html">OneMeshIntersection</a>&gt; MR::OneMeshContours::intersections</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga02c552db80622ce6328842eb50e4fd90" name="ga02c552db80622ce6328842eb50e4fd90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga02c552db80622ce6328842eb50e4fd90">&#9670;&#160;</a></span>intersections <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt;const <a class="el" href="structMR_1_1OneMeshIntersection.html">OneMeshIntersection</a>&gt; MR::OneMeshContourView::intersections</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -228498,6 +229536,22 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
+<a id="gaae82c711826b1bda42dd6b0dd322ba42" name="gaae82c711826b1bda42dd6b0dd322ba42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaae82c711826b1bda42dd6b0dd322ba42">&#9670;&#160;</a></span>offsets</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;int&gt; MR::OneMeshContours::offsets { 0 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the number of contours + 1 elements: contour c is intersections[offsets[c], offsets[c + 1]) </p>
+
+</div>
+</div>
 <a id="gadc6a0a341b57e23c8d707441794d45f3" name="gadc6a0a341b57e23c8d707441794d45f3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gadc6a0a341b57e23c8d707441794d45f3">&#9670;&#160;</a></span>offsetVoxels</h2>
 
@@ -232682,20 +233736,6 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other </p>
-
-</div>
-</div>
-<a id="gab42f0bd750d88e66c17bce92a1fe733d" name="gab42f0bd750d88e66c17bce92a1fe733d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab42f0bd750d88e66c17bce92a1fe733d">&#9670;&#160;</a></span>primitiveId</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::variant&lt;FaceId, EdgeId, VertId&gt; MR::OneMeshIntersection::primitiveId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

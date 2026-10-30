@@ -9,5 +9,5 @@ var MRIntersectionContour_8h =
     [ "MR_orderIntersectionContours", "MRIntersectionContour_8h.html#a2c980fd7d2a830fb790c54e2b002a6fa", null ],
     [ "MR_orderSelfIntersectionContours", "MRIntersectionContour_8h.html#a74128f21af54f246af18ba8b4c0cf102", null ],
     [ "MR_removeLoneContours", "MRIntersectionContour_8h.html#a4f8b3f6a57c5cb6fba4d211875710dda", null ],
-    [ "MR_removeLoneDegeneratedContours", "MRIntersectionContour_8h.html#ad338a7a1053b7b321e5c9af03b870755", null ]
+    [ "MR_removeLoneDegeneratedContours", "MRIntersectionContour_8h.html#ae9d58fe21825af19b4666af1347aef11", null ]
 ];

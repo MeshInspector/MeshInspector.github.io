@@ -9,6 +9,7 @@ var MROneMeshContours_8h =
     [ "MR::extractMeshContours", "group__GeneralGroup.html#ga1d82174091ef8dac35de35e5b472b0fe", null ],
     [ "MR::getOneMeshIntersectionContours", "group__GeneralGroup.html#ga6c2a8d613e29f26fcbbfaad5c43205a5", null ],
     [ "MR::getOneMeshSelfIntersectionContours", "group__GeneralGroup.html#ga57f74cde60c66eebd3b6f0076937f2c8", null ],
+    [ "MR::parallelForContourPieces", "group__GeneralGroup.html#gae7bf4b83e9394a02bc7fc1b6f0636330", null ],
     [ "MR::subdivideLoneContours", "group__GeneralGroup.html#ga441bbd65a56304acbc71fb9b666463ea", null ],
     [ "MR::surfaceLineToClosedMeshContour", "group__BooleanGroup.html#ga3a22b60786ebca45162b3cdc5d713ff0", null ],
     [ "MR::surfaceLineToMeshContour", "group__BooleanGroup.html#ga7fed136c28333b302ad4ead34092388d", null ],

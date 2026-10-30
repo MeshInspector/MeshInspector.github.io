@@ -1739,6 +1739,9 @@ var hierarchy =
       [ "MR.Const_OneMeshContour", "classMR_1_1Const__OneMeshContour.html", [
         [ "MR.OneMeshContour", "classMR_1_1OneMeshContour.html", null ]
       ] ],
+      [ "MR.Const_OneMeshContours", "classMR_1_1Const__OneMeshContours.html", [
+        [ "MR.OneMeshContours", "classMR_1_1OneMeshContours.html", null ]
+      ] ],
       [ "MR.Const_OneMeshIntersection", "classMR_1_1Const__OneMeshIntersection.html", [
         [ "MR.OneMeshIntersection", "classMR_1_1OneMeshIntersection.html", null ]
       ] ],
@@ -2495,6 +2498,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", [
         [ "MR.Vector_Double_MRRegionId", "classMR_1_1Vector__Double__MRRegionId.html", null ]
+      ] ],
+      [ "MR.Const_Vector_Int", "classMR_1_1Const__Vector__Int.html", [
+        [ "MR.Vector_Int", "classMR_1_1Vector__Int.html", null ]
       ] ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", [
         [ "MR.Vector_Int_MRFaceId", "classMR_1_1Vector__Int__MRFaceId.html", null ]
@@ -3398,6 +3404,7 @@ var hierarchy =
       [ "MR.Const_Vector4_UnsignedChar", "classMR_1_1Const__Vector4__UnsignedChar.html", null ],
       [ "MR.Const_Vector_Char_MRVertId", "classMR_1_1Const__Vector__Char__MRVertId.html", null ],
       [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", null ],
+      [ "MR.Const_Vector_Int", "classMR_1_1Const__Vector__Int.html", null ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", null ],
       [ "MR.Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_Int_MRRegionId", "classMR_1_1Const__Vector__Int__MRRegionId.html", null ],
@@ -4096,6 +4103,7 @@ var hierarchy =
       [ "MR.Const_OffsetContoursRestoreZParams", "classMR_1_1Const__OffsetContoursRestoreZParams.html", null ],
       [ "MR.Const_OffsetParameters", "classMR_1_1Const__OffsetParameters.html", null ],
       [ "MR.Const_OneMeshContour", "classMR_1_1Const__OneMeshContour.html", null ],
+      [ "MR.Const_OneMeshContours", "classMR_1_1Const__OneMeshContours.html", null ],
       [ "MR.Const_OneMeshIntersection", "classMR_1_1Const__OneMeshIntersection.html", null ],
       [ "MR.Const_OpenVdbFloatGrid", "classMR_1_1Const__OpenVdbFloatGrid.html", null ],
       [ "MR.Const_OriginAndDimensions", "classMR_1_1Const__OriginAndDimensions.html", null ],
@@ -4355,6 +4363,7 @@ var hierarchy =
       [ "MR.Const_Vector4_UnsignedChar", "classMR_1_1Const__Vector4__UnsignedChar.html", null ],
       [ "MR.Const_Vector_Char_MRVertId", "classMR_1_1Const__Vector__Char__MRVertId.html", null ],
       [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", null ],
+      [ "MR.Const_Vector_Int", "classMR_1_1Const__Vector__Int.html", null ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", null ],
       [ "MR.Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_Int_MRRegionId", "classMR_1_1Const__Vector__Int__MRRegionId.html", null ],

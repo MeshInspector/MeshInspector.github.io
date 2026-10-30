@@ -1,7 +1,7 @@
 var classMR_1_1Const__BooleanPreCutResult =
 [
     [ "Const_BooleanPreCutResult", "classMR_1_1Const__BooleanPreCutResult.html#a96703be45f17d2c131ebd8dfa16478d4", null ],
-    [ "Const_BooleanPreCutResult", "classMR_1_1Const__BooleanPreCutResult.html#a808ade2517a11c226f6d638feb29dfcd", null ],
+    [ "Const_BooleanPreCutResult", "classMR_1_1Const__BooleanPreCutResult.html#adc257265bd509ffbd0c26829991f94e5", null ],
     [ "Const_BooleanPreCutResult", "classMR_1_1Const__BooleanPreCutResult.html#ac5f6336bbeea85c865a65960ed28fee9", null ],
     [ "Const_BooleanPreCutResult", "classMR_1_1Const__BooleanPreCutResult.html#a900c93e8427de4b8f059c88afe36fb44", null ],
     [ "Const_BooleanPreCutResult", "classMR_1_1Const__BooleanPreCutResult.html#adc462e98edff664992f36e5cdd1b33a1", null ],
@@ -10,7 +10,7 @@ var classMR_1_1Const__BooleanPreCutResult =
     [ "sortData", "classMR_1_1Const__BooleanPreCutResult.html#acf38ba3469d87aaee0fb3ea71ac2d972", null ],
     [ "__ref_storage_isMeshA", "classMR_1_1Const__BooleanPreCutResult.html#af9245444ca0cce3b24828db8378cf224", null ],
     [ "__ref_storage_meshAVertsNum", "classMR_1_1Const__BooleanPreCutResult.html#af0fd6e1ffa3b3e1f1edf8fbf531b45ba", null ],
-    [ "contours", "classMR_1_1Const__BooleanPreCutResult.html#a5f06a41c3811d4e5515be42890d7c9b6", null ],
+    [ "contours", "classMR_1_1Const__BooleanPreCutResult.html#a78033d57cf435588f44ac0f255aef34c", null ],
     [ "intersections", "classMR_1_1Const__BooleanPreCutResult.html#af3edb06a431e29bc41c6b6785708ce21", null ],
     [ "isMeshA", "classMR_1_1Const__BooleanPreCutResult.html#ac17fae34f5c872eb5b83ac587b28513b", null ],
     [ "mesh", "classMR_1_1Const__BooleanPreCutResult.html#afd83a90d147daba7e45e4a8238ade346", null ],

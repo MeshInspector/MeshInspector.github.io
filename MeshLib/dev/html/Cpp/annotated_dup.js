@@ -811,6 +811,8 @@ var annotated_dup =
       [ "OffsetContoursRestoreZParams", "structMR_1_1OffsetContoursRestoreZParams.html", "structMR_1_1OffsetContoursRestoreZParams" ],
       [ "OffsetParameters", "structMR_1_1OffsetParameters.html", "structMR_1_1OffsetParameters" ],
       [ "OneMeshContour", "structMR_1_1OneMeshContour.html", "structMR_1_1OneMeshContour" ],
+      [ "OneMeshContours", "structMR_1_1OneMeshContours.html", "structMR_1_1OneMeshContours" ],
+      [ "OneMeshContourView", "structMR_1_1OneMeshContourView.html", "structMR_1_1OneMeshContourView" ],
       [ "OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", "structMR_1_1OneMeshIntersection" ],
       [ "OpenDICOMsMenuItem", "classMR_1_1OpenDICOMsMenuItem.html", "classMR_1_1OpenDICOMsMenuItem" ],
       [ "OpenDirectoryMenuItem", "classMR_1_1OpenDirectoryMenuItem.html", "classMR_1_1OpenDirectoryMenuItem" ],

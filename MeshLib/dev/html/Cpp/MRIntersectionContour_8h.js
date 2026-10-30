@@ -2,7 +2,6 @@ var MRIntersectionContour_8h =
 [
     [ "MR::ContinuousContour", "group__GeneralGroup.html#ga5e49cf475748fe059f02d8a311493987", null ],
     [ "MR::ContinuousContours", "group__GeneralGroup.html#ga05bcd6aa472ab350a182178672af1a01", null ],
-    [ "MR::OneMeshContours", "group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822", null ],
     [ "MR::detectLoneContours", "group__GeneralGroup.html#ga4c79b7256452b637127713f19dd3c9c4", null ],
     [ "MR::extractIntersectionContours", "group__GeneralGroup.html#gaee04e7e13631d08eb74429bcfb6360a3", null ],
     [ "MR::isClosed", "group__GeneralGroup.html#ga5f51d4370aebd823bf1ff7e534b0b426", null ],

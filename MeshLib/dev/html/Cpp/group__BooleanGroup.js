@@ -34,6 +34,23 @@ var group__BooleanGroup =
       [ "map", "group__GeneralGroup.html#ga1d44ed6247b64a9007baa4bbbf2903aa", null ],
       [ "splitEdges", "group__GeneralGroup.html#ga3af4a8bfbe6579dc273d0b9f368f77aa", null ]
     ] ],
+    [ "MR::OneMeshContours", "structMR_1_1OneMeshContours.html", [
+      [ "OneMeshContours", "group__GeneralGroup.html#ga849266c28262f2efce738d21a4fab500", null ],
+      [ "OneMeshContours", "group__GeneralGroup.html#ga9b7223de993df40b687abaf5bbc16de8", null ],
+      [ "OneMeshContours", "group__GeneralGroup.html#ga712dda9c7907f96c778a7a8e24460f99", null ],
+      [ "begin", "group__GeneralGroup.html#ga5f011e953cf27bdf68bb94f8de0b7a0a", null ],
+      [ "contour", "group__GeneralGroup.html#gac228fc7a06dc24e3512388ec85a91b41", null ],
+      [ "empty", "group__GeneralGroup.html#gafd77626340713b7051876a035a07e8b6", null ],
+      [ "end", "group__GeneralGroup.html#ga3f2b2731e8a9aa75bbf2ac6b61313f3c", null ],
+      [ "intersection", "group__GeneralGroup.html#ga0ba53e4e4c01abfe177e5020641870d1", null ],
+      [ "operator[]", "group__GeneralGroup.html#gafecad952410455a44da68e6c41f083a5", null ],
+      [ "push_back", "group__GeneralGroup.html#ga1a1da28c41bee85be802e314c0748a84", null ],
+      [ "push_back", "group__GeneralGroup.html#gae3e74d4c99fd58f10abd2b1a39b22484", null ],
+      [ "size", "group__GeneralGroup.html#gaf9b0b334479670b3a71b41ea5652695e", null ],
+      [ "closed", "group__GeneralGroup.html#ga7293d78747bb954b92d570d8d5fb7ccb", null ],
+      [ "intersections", "group__GeneralGroup.html#gae156a49d6e8bff7d28fb938599dbf475", null ],
+      [ "offsets", "group__GeneralGroup.html#gaae82c711826b1bda42dd6b0dd322ba42", null ]
+    ] ],
     [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", [
       [ "FillPart", "group__GeneralGroup.html#gaeff0ac5efee98dc8fae00a68075ed50f", [
         [ "Both", "group__GeneralGroup.html#ggaeff0ac5efee98dc8fae00a68075ed50fa130c5b3473c57faa76e2a1c54e26f88e", null ],
@@ -62,7 +79,6 @@ var group__BooleanGroup =
       [ "meshABadContourFaces", "structMR_1_1BooleanResult.html#a9e97978ae79fbc9acc8c2bdb8ef40c12", null ],
       [ "meshBBadContourFaces", "structMR_1_1BooleanResult.html#a5158c930dad94ff45198508c2b01788a", null ]
     ] ],
-    [ "MR::OneMeshContours", "group__BooleanGroup.html#ga076f5fd32f8ab4111ed46ba3fb32d822", null ],
     [ "MR::BooleanOperation", "group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd", [
       [ "MR::BooleanOperation::InsideA", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda833b7406c91f551bd8502cf76bb95c29", null ],
       [ "MR::BooleanOperation::InsideB", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda9f3e5e704c939dff3070cf175df0b75d", null ],

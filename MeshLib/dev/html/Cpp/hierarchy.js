@@ -305,6 +305,7 @@ var hierarchy =
       [ "MR::MultiListener< Connectables >", "structMR_1_1MultiListener.html", null ]
     ] ],
     [ "MR::ConstChildren", "classMR_1_1ConstChildren.html", null ],
+    [ "MR::OneMeshContours::ConstIterator", "structMR_1_1OneMeshContours_1_1ConstIterator.html", null ],
     [ "MR::ContoursDistanceMapOffset", "structMR_1_1ContoursDistanceMapOffset.html", null ],
     [ "MR::ContoursDistanceMapOptions", "structMR_1_1ContoursDistanceMapOptions.html", null ],
     [ "MR::ContoursMeshAlignParams", "structMR_1_1ContoursMeshAlignParams.html", null ],
@@ -1015,6 +1016,8 @@ var hierarchy =
     [ "MR::OffsetContoursParams", "structMR_1_1OffsetContoursParams.html", null ],
     [ "MR::OffsetContoursRestoreZParams", "structMR_1_1OffsetContoursRestoreZParams.html", null ],
     [ "MR::OneMeshContour", "structMR_1_1OneMeshContour.html", null ],
+    [ "MR::OneMeshContours", "structMR_1_1OneMeshContours.html", null ],
+    [ "MR::OneMeshContourView", "structMR_1_1OneMeshContourView.html", null ],
     [ "MR::OneMeshIntersection", "structMR_1_1OneMeshIntersection.html", null ],
     [ "MR::OriginAndDimensions", "structMR_1_1OriginAndDimensions.html", null ],
     [ "MR::OutAttributesFillingSettings", "structMR_1_1OutAttributesFillingSettings.html", null ],

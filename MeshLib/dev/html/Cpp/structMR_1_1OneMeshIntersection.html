@@ -131,6 +131,8 @@ $(function(){initNavTree('structMR_1_1OneMeshIntersection.html','','structMR_1_1
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1OneMeshIntersection-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::OneMeshIntersection Struct Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
@@ -142,9 +144,37 @@ $(function(){initNavTree('structMR_1_1OneMeshIntersection.html','','structMR_1_1
 
 <p><code>#include &lt;<a class="el" href="MROneMeshContours_8h_source.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ga7dcd591850b9c0dcd06eec7acc97f221" id="r_ga7dcd591850b9c0dcd06eec7acc97f221"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7dcd591850b9c0dcd06eec7acc97f221">Primitive</a> : unsigned char { <a class="el" href="group__GeneralGroup.html#gga7dcd591850b9c0dcd06eec7acc97f221a8af5861002f3c157f9ba842bba10aa3f">Primitive::Face</a>
+, <a class="el" href="group__GeneralGroup.html#gga7dcd591850b9c0dcd06eec7acc97f221ae4a297a0f76119a442c2595ac040673e">Primitive::Edge</a>
+, <a class="el" href="group__GeneralGroup.html#gga7dcd591850b9c0dcd06eec7acc97f221af87a604e5366b28ba26e14e20c067de3">Primitive::Vert</a>
+ }</td></tr>
+<tr class="memdesc:ga7dcd591850b9c0dcd06eec7acc97f221"><td class="mdescLeft">&#160;</td><td class="mdescRight">the kind of mesh primitive containing the point  <a href="group__GeneralGroup.html#ga7dcd591850b9c0dcd06eec7acc97f221">More...</a><br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ga4c68ff7d97b871d26825b5bb5adc680f" id="r_ga4c68ff7d97b871d26825b5bb5adc680f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4c68ff7d97b871d26825b5bb5adc680f">OneMeshIntersection</a> () noexcept</td></tr>
+<tr class="memitem:ga9ac8ed50ef3d4fcbffa99ca3b92e35f8" id="r_ga9ac8ed50ef3d4fcbffa99ca3b92e35f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9ac8ed50ef3d4fcbffa99ca3b92e35f8">OneMeshIntersection</a> (<a class="el" href="structMR_1_1NoInit.html">NoInit</a>) noexcept</td></tr>
+<tr class="memitem:ga9315ebf294a63e0fe52f1e687cd13886" id="r_ga9315ebf294a63e0fe52f1e687cd13886"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9315ebf294a63e0fe52f1e687cd13886">OneMeshIntersection</a> (FaceId f, const Vector3f &amp;p) noexcept</td></tr>
+<tr class="memitem:ga523c2f7e665b50c915cce2aef88bab6e" id="r_ga523c2f7e665b50c915cce2aef88bab6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga523c2f7e665b50c915cce2aef88bab6e">OneMeshIntersection</a> (EdgeId e, const Vector3f &amp;p) noexcept</td></tr>
+<tr class="memitem:gaf14e3e7d163e2680ce149d145d545cc9" id="r_gaf14e3e7d163e2680ce149d145d545cc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf14e3e7d163e2680ce149d145d545cc9">OneMeshIntersection</a> (VertId v, const Vector3f &amp;p) noexcept</td></tr>
+<tr class="memitem:gac91000f0a41d88c5eb5054d59cac97ae" id="r_gac91000f0a41d88c5eb5054d59cac97ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga7dcd591850b9c0dcd06eec7acc97f221">Primitive</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac91000f0a41d88c5eb5054d59cac97ae">primitive</a> () const</td></tr>
+<tr class="memitem:gaeccc546e3275644c13f0e58fe5965d2c" id="r_gaeccc546e3275644c13f0e58fe5965d2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaeccc546e3275644c13f0e58fe5965d2c">isFace</a> () const</td></tr>
+<tr class="memitem:ga827b1abc9aebf4aa1aba5d0f61e20ff4" id="r_ga827b1abc9aebf4aa1aba5d0f61e20ff4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga827b1abc9aebf4aa1aba5d0f61e20ff4">isEdge</a> () const</td></tr>
+<tr class="memitem:ga63a25238289779e91d67f40b6ec75f07" id="r_ga63a25238289779e91d67f40b6ec75f07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga63a25238289779e91d67f40b6ec75f07">isVert</a> () const</td></tr>
+<tr class="memitem:gab1c9f2875aba8da2fa76670457b9d2a1" id="r_gab1c9f2875aba8da2fa76670457b9d2a1"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab1c9f2875aba8da2fa76670457b9d2a1">face</a> () const</td></tr>
+<tr class="memdesc:gab1c9f2875aba8da2fa76670457b9d2a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">the primitive containing the point if it is of that kind, otherwise invalid id  <br /></td></tr>
+<tr class="memitem:ga913d77df8e593b0783d7f6ac80e0e448" id="r_ga913d77df8e593b0783d7f6ac80e0e448"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga913d77df8e593b0783d7f6ac80e0e448">edge</a> () const</td></tr>
+<tr class="memitem:ga88d0fbd557b22cccf4845b9ca165228a" id="r_ga88d0fbd557b22cccf4845b9ca165228a"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga88d0fbd557b22cccf4845b9ca165228a">vert</a> () const</td></tr>
+<tr class="memitem:ga9c54b4361e1da80001d37e6845005897" id="r_ga9c54b4361e1da80001d37e6845005897"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9c54b4361e1da80001d37e6845005897">setPrimitive</a> (FaceId f)</td></tr>
+<tr class="memitem:ga59da18396670ed957e82a83e0d560390" id="r_ga59da18396670ed957e82a83e0d560390"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga59da18396670ed957e82a83e0d560390">setPrimitive</a> (EdgeId e)</td></tr>
+<tr class="memitem:gadc5b3f4ee1b4849f96bfedb969b5fb49" id="r_gadc5b3f4ee1b4849f96bfedb969b5fb49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gadc5b3f4ee1b4849f96bfedb969b5fb49">setPrimitive</a> (VertId v)</td></tr>
+<tr class="memitem:ga091999b0dad602443c419d66f763da96" id="r_ga091999b0dad602443c419d66f763da96"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga091999b0dad602443c419d66f763da96">samePrimitive</a> (const <a class="el" href="structMR_1_1OneMeshIntersection.html">OneMeshIntersection</a> &amp;<a class="el" href="group__GeneralGroup.html#gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const</td></tr>
+<tr class="memdesc:ga091999b0dad602443c419d66f763da96"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether both points are in the same primitive  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:gab42f0bd750d88e66c17bce92a1fe733d" id="r_gab42f0bd750d88e66c17bce92a1fe733d"><td class="memItemLeft" align="right" valign="top">std::variant&lt; FaceId, EdgeId, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab42f0bd750d88e66c17bce92a1fe733d">primitiveId</a></td></tr>
 <tr class="memitem:gab8b3439c1559deb1b278b9d5c8c2c14d" id="r_gab8b3439c1559deb1b278b9d5c8c2c14d"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab8b3439c1559deb1b278b9d5c8c2c14d">coordinate</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
