@@ -2,7 +2,7 @@ var classMR_1_1ObjectPoints =
 [
     [ "ObjectPoints", "group__GeneralGroup.html#ga7add507ed0f2abe3843cec2e9f387f8c", null ],
     [ "ObjectPoints", "group__GeneralGroup.html#gacdd5364562fafc70ef7f78f6f3425cea", null ],
-    [ "ObjectPoints", "group__GeneralGroup.html#gadd1b1c697c9f90ebc024ac8b7a04419e", null ],
+    [ "ObjectPoints", "group__GeneralGroup.html#gaa7d8eb514f694ae8e21a0531ac0db509", null ],
     [ "ObjectPoints", "group__GeneralGroup.html#gaa61490c1ac4aa372d55e05f695cc5d23", null ],
     [ "ObjectPoints", "group__GeneralGroup.html#ga565091fdf7ac04df64dcc926ecf74ffb", null ],
     [ "ObjectPoints", "group__GeneralGroup.html#ga2115d8e4f880b457969069d6da367e5f", null ],

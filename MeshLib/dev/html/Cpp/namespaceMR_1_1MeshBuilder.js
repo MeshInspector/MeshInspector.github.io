@@ -20,11 +20,7 @@ var namespaceMR_1_1MeshBuilder =
     [ "fromPointTriples", "group__GeneralGroup.html#ga1d81a265f58e40e49884915932ef03cc", null ],
     [ "fromTriangles", "group__GeneralGroup.html#ga3851088244e23053e194bb0bcd9e5700", null ],
     [ "fromTrianglesDuplicatingNonManifoldVertices", "group__GeneralGroup.html#gac85a71548f3100e3b6dec18adaab539d", null ],
-    [ "inspectVertNeighbourhood", "group__GeneralGroup.html#ga2058ddb2325a81e9a96e54f834eea5d6", null ],
-    [ "MR_BIND_OVERLOAD_SUFFIX", "group__GeneralGroup.html#ga82376a94925cb41439befe12e547b3c3", null ],
-    [ "MR_BIND_OVERLOAD_SUFFIX", "group__GeneralGroup.html#gaa025e5add547573085ebcafb05da4759", null ],
-    [ "closeDist", "group__GeneralGroup.html#ga23b7741683f546f6f6f7cc9e01268a35", null ],
-    [ "optionalVertOldToNew", "group__GeneralGroup.html#ga29b93496214c0e773af29f717a45304d", null ],
-    [ "params", "group__GeneralGroup.html#gabea2a6a01fbeedb07cfeef9283e8c34a", null ],
-    [ "uniteOnlyBd", "group__GeneralGroup.html#ga5a25563874c1189777a31e5494f28f29", null ]
+    [ "inspectVertNeighbourhood", "group__GeneralGroup.html#ga6fcb1d4072ed6ad302bfb58f45058fcd", null ],
+    [ "uniteCloseVertices", "group__GeneralGroup.html#ga735c792eb0d3d6adc4c77f067f973d46", null ],
+    [ "uniteCloseVertices", "group__GeneralGroup.html#gafd13ce716b18402ee77952081cf52e40", null ]
 ];

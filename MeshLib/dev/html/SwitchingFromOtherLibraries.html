@@ -221,27 +221,37 @@ Boolean union of two triangle meshes</h2>
 <div class="line">PMP::IO::read_polygon_mesh(<span class="stringliteral">&quot;b.off&quot;</span>, b);</div>
 <div class="line">PMP::corefine_and_compute_union(a, b, out);</div>
 <div class="line">CGAL::IO::write_polygon_mesh(<span class="stringliteral">&quot;out.off&quot;</span>, out);</div>
-</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshBoolean.h&gt;</span></div>
+</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshBoolean_8h.html">MRMesh/MRMeshBoolean.h</a>&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">auto</span> a = MR::MeshLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;a.off&quot;</span>).value();</div>
-<div class="line"><span class="keyword">auto</span> b = MR::MeshLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;b.off&quot;</span>).value();</div>
-<div class="line"><span class="keyword">auto</span> res = MR::boolean(a, b, MR::BooleanOperation::Union);</div>
-<div class="line">MR::MeshSave::toAnySupportedFormat(res.mesh, <span class="stringliteral">&quot;out.off&quot;</span>);</div>
+<div class="line"><span class="keyword">auto</span> a = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>(<span class="stringliteral">&quot;a.off&quot;</span>).value();</div>
+<div class="line"><span class="keyword">auto</span> b = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>(<span class="stringliteral">&quot;b.off&quot;</span>).value();</div>
+<div class="line"><span class="keyword">auto</span> res = <a class="code hl_functionRef" href="./Cpp/group__BooleanGroup.html#ga16435c813b6198ecc337b3023c2cc729">MR::boolean</a>(a, b, MR::BooleanOperation::Union);</div>
+<div class="line"><a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a>(res.mesh, <span class="stringliteral">&quot;out.off&quot;</span>);</div>
+<div class="ttc" id="aMRMeshBoolean_8h_html"><div class="ttname"><a href="./Cpp/MRMeshBoolean_8h.html">MRMeshBoolean.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="agroup__BooleanGroup_html_ga16435c813b6198ecc337b3023c2cc729"><div class="ttname"><a href="./Cpp/group__BooleanGroup.html#ga16435c813b6198ecc337b3023c2cc729">MR::boolean</a></div><div class="ttdeci">BooleanResult boolean(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const AffineXf3f *rigidB2A, BooleanResultMapper *mapper=nullptr, ProgressCallback cb={})</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html_aa115a0d8b8efd585125c07693565388b"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md185"></a>
 Connected components of a mesh</h2>
 <p>CGAL: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;CGAL/Polygon_mesh_processing/connected_components.h&gt;</span></div>
 <div class="line"><span class="keyword">namespace </span>PMP = CGAL::Polygon_mesh_processing;</div>
 <div class="line"><span class="keyword">using </span>face_descriptor = boost::graph_traits&lt;Mesh&gt;::face_descriptor;</div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">auto</span> fccmap = mesh.add_property_map&lt;face_descriptor, std::size_t&gt;(<span class="stringliteral">&quot;f:CC&quot;</span>).first;</div>
-<div class="line">std::size_t n = PMP::connected_components(mesh, fccmap);</div>
+<div class="line"><span class="keyword">auto</span> fccmap = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.add_property_map&lt;face_descriptor, std::size_t&gt;(<span class="stringliteral">&quot;f:CC&quot;</span>).<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadd7fd5a21509ef4dc57c7943b3da9920">first</a>;</div>
+<div class="line">std::size_t n = PMP::connected_components(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, fccmap);</div>
 <div class="line"><span class="comment">// fccmap[f] = component id</span></div>
-</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshComponents.h&gt;</span></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gadd7fd5a21509ef4dc57c7943b3da9920"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gadd7fd5a21509ef4dc57c7943b3da9920">first</a></div><div class="ttdeci">bool first() const</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
+</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">auto</span> [labels, n] = MR::MeshComponents::getAllComponentsMap(mesh);</div>
+<div class="line"><span class="keyword">auto</span> [labels, n] = <a class="code hl_functionRef" href="./Cpp/group__MeshComponentsGroup.html#ga2aab1963ab19bf9523812ac0264c0841">MR::MeshComponents::getAllComponentsMap</a>(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>);</div>
 <div class="line"><span class="comment">// labels[face] = component id</span></div>
+<div class="ttc" id="aMRMeshComponents_8h_html"><div class="ttname"><a href="./Cpp/MRMeshComponents_8h.html">MRMeshComponents.h</a></div></div>
+<div class="ttc" id="agroup__MeshComponentsGroup_html_ga2aab1963ab19bf9523812ac0264c0841"><div class="ttname"><a href="./Cpp/group__MeshComponentsGroup.html#ga2aab1963ab19bf9523812ac0264c0841">MR::MeshComponents::getAllComponentsMap</a></div><div class="ttdeci">std::pair&lt; Face2RegionMap, int &gt; getAllComponentsMap(const MeshPart &amp;meshPart, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</div></div>
 </div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md186"></a>
 libigl</h1>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md187"></a>
@@ -254,14 +264,18 @@ Decimate a mesh to half its faces</h2>
 <div class="line">Eigen::VectorXi J, I;</div>
 <div class="line">igl::read_triangle_mesh(<span class="stringliteral">&quot;in.obj&quot;</span>, V, F);</div>
 <div class="line">igl::decimate(V, F, F.rows() / 2, U, G, J, I);</div>
-</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshDecimate.h&gt;</span></div>
+</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshDecimate_8h.html">MRMesh/MRMeshDecimate.h</a>&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">auto</span> mesh = MR::MeshLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;in.obj&quot;</span>).value();</div>
-<div class="line">MR::DecimateSettings s;</div>
-<div class="line">s.maxDeletedFaces = int(mesh.topology.numValidFaces() / 2);</div>
-<div class="line">MR::decimateMesh(mesh, s);</div>
+<div class="line"><span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>(<span class="stringliteral">&quot;in.obj&quot;</span>).value();</div>
+<div class="line"><a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateSettings.html">MR::DecimateSettings</a> s;</div>
+<div class="line">s.maxDeletedFaces = int(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.numValidFaces() / 2);</div>
+<div class="line"><a class="code hl_functionRef" href="./Cpp/group__DecimateGroup.html#gae9313434cccf9f5b704c8f1fbb534a50">MR::decimateMesh</a>(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, s);</div>
+<div class="ttc" id="aMRMeshDecimate_8h_html"><div class="ttname"><a href="./Cpp/MRMeshDecimate_8h.html">MRMeshDecimate.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="agroup__DecimateGroup_html_gae9313434cccf9f5b704c8f1fbb534a50"><div class="ttname"><a href="./Cpp/group__DecimateGroup.html#gae9313434cccf9f5b704c8f1fbb534a50">MR::decimateMesh</a></div><div class="ttdeci">DecimateResult decimateMesh(Mesh &amp;mesh, const DecimateSettings &amp;settings={})</div></div>
+<div class="ttc" id="astructMR_1_1DecimateSettings_html"><div class="ttname"><a href="./Cpp/structMR_1_1DecimateSettings.html">MR::DecimateSettings</a></div></div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md188"></a>
 Signed distance from a point to a mesh</h2>
 <p>libigl: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;igl/signed_distance.h&gt;</span></div>
@@ -270,11 +284,14 @@ Signed distance from a point to a mesh</h2>
 <div class="line">Eigen::VectorXi I;</div>
 <div class="line">Eigen::MatrixXd C, N;</div>
 <div class="line">igl::signed_distance(P, V, F, igl::SIGNED_DISTANCE_TYPE_PSEUDONORMAL, S, I, C, N);</div>
-</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshProject.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
+</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshProject_8h.html">MRMesh/MRMeshProject.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">auto</span> sd = MR::findSignedDistance(point, mesh);</div>
-<div class="line"><span class="keywordtype">float</span> dist = sd-&gt;dist;</div>
+<div class="line"><span class="keyword">auto</span> sd = <a class="code hl_functionRef" href="./Cpp/group__AABBTreeGroup.html#gab642f8e551c4fcc0af6b2301e55e3a85">MR::findSignedDistance</a>(point, <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>);</div>
+<div class="line"><span class="keywordtype">float</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a> = sd-&gt;dist;</div>
+<div class="ttc" id="aMRMeshProject_8h_html"><div class="ttname"><a href="./Cpp/MRMeshProject_8h.html">MRMeshProject.h</a></div></div>
+<div class="ttc" id="agroup__AABBTreeGroup_html_gab642f8e551c4fcc0af6b2301e55e3a85"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#gab642f8e551c4fcc0af6b2301e55e3a85">MR::findSignedDistance</a></div><div class="ttdeci">MeshMeshSignedDistanceResult findSignedDistance(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga4d5b1deffdaf0a9520c4eb1bd4664877"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a></div><div class="ttdeci">float dist() const</div></div>
 </div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md189"></a>
 Open3D</h1>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md190"></a>
@@ -289,14 +306,19 @@ Point-to-point ICP registration</h2>
 <div class="line">    Eigen::Matrix4d::Identity(),</div>
 <div class="line">    pipelines::registration::TransformationEstimationPointToPoint());</div>
 <div class="line">Eigen::Matrix4d xf = result.transformation_;</div>
-</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRICP.h&gt;</span></div>
+</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointsLoad_8h.html">MRMesh/MRPointsLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointCloud_8h.html">MRMesh/MRPointCloud.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRICP_8h.html">MRMesh/MRICP.h</a>&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">auto</span> src = MR::PointsLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;src.ply&quot;</span>).value();</div>
-<div class="line"><span class="keyword">auto</span> tgt = MR::PointsLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;tgt.ply&quot;</span>).value();</div>
-<div class="line">MR::ICP icp( {src}, {tgt}, MR::AffineXf3f{}, MR::AffineXf3f{}, <span class="comment">/*samplingVoxel=*/</span>0.05f );</div>
+<div class="line"><span class="keyword">auto</span> src = <a class="code hl_functionRef" href="./Cpp/group__IOGroup.html#ga7ffd96e7cc233f9a5d99dfc3e8bb0edb">MR::PointsLoad::fromAnySupportedFormat</a>(<span class="stringliteral">&quot;src.ply&quot;</span>).value();</div>
+<div class="line"><span class="keyword">auto</span> tgt = <a class="code hl_functionRef" href="./Cpp/group__IOGroup.html#ga7ffd96e7cc233f9a5d99dfc3e8bb0edb">MR::PointsLoad::fromAnySupportedFormat</a>(<span class="stringliteral">&quot;tgt.ply&quot;</span>).value();</div>
+<div class="line"><a class="code hl_classRef" href="./Cpp/classMR_1_1ICP.html">MR::ICP</a> icp( {src}, {tgt}, MR::AffineXf3f{}, MR::AffineXf3f{}, <span class="comment">/*samplingVoxel=*/</span>0.05f );</div>
 <div class="line"><span class="keyword">auto</span> xf = icp.calculateTransformation();</div>
+<div class="ttc" id="aMRICP_8h_html"><div class="ttname"><a href="./Cpp/MRICP_8h.html">MRICP.h</a></div></div>
+<div class="ttc" id="aMRPointCloud_8h_html"><div class="ttname"><a href="./Cpp/MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
+<div class="ttc" id="aMRPointsLoad_8h_html"><div class="ttname"><a href="./Cpp/MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1ICP_html"><div class="ttname"><a href="./Cpp/classMR_1_1ICP.html">MR::ICP</a></div></div>
+<div class="ttc" id="agroup__IOGroup_html_ga7ffd96e7cc233f9a5d99dfc3e8bb0edb"><div class="ttname"><a href="./Cpp/group__IOGroup.html#ga7ffd96e7cc233f9a5d99dfc3e8bb0edb">MR::PointsLoad::fromAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; PointCloud &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</div></div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md191"></a>
 Point cloud to mesh (surface reconstruction)</h2>
 <p>Open3D (Ball Pivoting): </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;open3d/Open3D.h&gt;</span></div>
@@ -305,16 +327,21 @@ Point cloud to mesh (surface reconstruction)</h2>
 <div class="line"><span class="keyword">auto</span> pcd = io::CreatePointCloudFromFile(<span class="stringliteral">&quot;cloud.ply&quot;</span>);</div>
 <div class="line">pcd-&gt;EstimateNormals();</div>
 <div class="line">std::vector&lt;double&gt; radii = {0.005, 0.01, 0.02, 0.04};</div>
-<div class="line"><span class="keyword">auto</span> mesh = geometry::TriangleMesh::CreateFromPointCloudBallPivoting(*pcd, radii);</div>
-</div><!-- fragment --><p>MeshLib (voxel fusion): </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRVoxels/MRPointsToMeshFusion.h&gt;</span></div>
+<div class="line"><span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = geometry::TriangleMesh::CreateFromPointCloudBallPivoting(*pcd, radii);</div>
+</div><!-- fragment --><p>MeshLib (voxel fusion): </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointsLoad_8h.html">MRMesh/MRPointsLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointCloud_8h.html">MRMesh/MRPointCloud.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRBox_8h.html">MRMesh/MRBox.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointsToMeshFusion_8h.html">MRVoxels/MRPointsToMeshFusion.h</a>&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">auto</span> cloud = MR::PointsLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;cloud.ply&quot;</span>).value();</div>
-<div class="line">MR::PointsToMeshParameters p;</div>
+<div class="line"><span class="keyword">auto</span> cloud = <a class="code hl_functionRef" href="./Cpp/group__IOGroup.html#ga7ffd96e7cc233f9a5d99dfc3e8bb0edb">MR::PointsLoad::fromAnySupportedFormat</a>(<span class="stringliteral">&quot;cloud.ply&quot;</span>).value();</div>
+<div class="line"><a class="code hl_structRef" href="./Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a> p;</div>
 <div class="line">p.voxelSize = cloud.computeBoundingBox().diagonal() * 1e-2f;</div>
-<div class="line">MR::Mesh mesh = MR::pointsToMeshFusion(cloud, p).value();</div>
+<div class="line"><a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga8385dbd13a04c7841be48a4d0ad477dc">MR::pointsToMeshFusion</a>(cloud, p).value();</div>
+<div class="ttc" id="aMRBox_8h_html"><div class="ttname"><a href="./Cpp/MRBox_8h.html">MRBox.h</a></div></div>
+<div class="ttc" id="aMRPointsToMeshFusion_8h_html"><div class="ttname"><a href="./Cpp/MRPointsToMeshFusion_8h.html">MRPointsToMeshFusion.h</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga8385dbd13a04c7841be48a4d0ad477dc"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga8385dbd13a04c7841be48a4d0ad477dc">MR::pointsToMeshFusion</a></div><div class="ttdeci">Expected&lt; Mesh &gt; pointsToMeshFusion(const PointCloud &amp;cloud, const PointsToMeshParameters &amp;params)</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
+<div class="ttc" id="astructMR_1_1PointsToMeshParameters_html"><div class="ttname"><a href="./Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></div></div>
 </div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md192"></a>
 PCL</h1>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md193"></a>
@@ -329,15 +356,19 @@ Voxel-grid downsampling of a point cloud</h2>
 <div class="line">vg.setLeafSize(0.05f, 0.05f, 0.05f);</div>
 <div class="line">pcl::PointCloud&lt;pcl::PointXYZ&gt;::Ptr out(<span class="keyword">new</span> pcl::PointCloud&lt;pcl::PointXYZ&gt;);</div>
 <div class="line">vg.filter(*out);</div>
-</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRUniformSampling.h&gt;</span></div>
+</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointsLoad_8h.html">MRMesh/MRPointsLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointCloud_8h.html">MRMesh/MRPointCloud.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRUniformSampling_8h.html">MRMesh/MRUniformSampling.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// cloud.ply saved once from PCL: pcl::io::savePLYFile(&quot;cloud.ply&quot;, *cloud)</span></div>
-<div class="line"><span class="keyword">auto</span> cloud = MR::PointsLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;cloud.ply&quot;</span>).value();</div>
-<div class="line">MR::UniformSamplingSettings s;</div>
+<div class="line"><span class="keyword">auto</span> cloud = <a class="code hl_functionRef" href="./Cpp/group__IOGroup.html#ga7ffd96e7cc233f9a5d99dfc3e8bb0edb">MR::PointsLoad::fromAnySupportedFormat</a>(<span class="stringliteral">&quot;cloud.ply&quot;</span>).value();</div>
+<div class="line"><a class="code hl_structRef" href="./Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a> s;</div>
 <div class="line">s.distance = 0.05f;</div>
-<div class="line">MR::PointCloud out = MR::makeUniformSampledCloud(cloud, s).value();</div>
+<div class="line"><a class="code hl_structRef" href="./Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a> out = <a class="code hl_functionRef" href="./Cpp/group__PointCloudGroup.html#ga1ff3748ea4a24c0683e2029fb56deb48">MR::makeUniformSampledCloud</a>(cloud, s).value();</div>
+<div class="ttc" id="aMRUniformSampling_8h_html"><div class="ttname"><a href="./Cpp/MRUniformSampling_8h.html">MRUniformSampling.h</a></div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_ga1ff3748ea4a24c0683e2029fb56deb48"><div class="ttname"><a href="./Cpp/group__PointCloudGroup.html#ga1ff3748ea4a24c0683e2029fb56deb48">MR::makeUniformSampledCloud</a></div><div class="ttdeci">std::optional&lt; PointCloud &gt; makeUniformSampledCloud(const PointCloud &amp;pointCloud, const UniformSamplingSettings &amp;settings)</div></div>
+<div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a></div></div>
+<div class="ttc" id="astructMR_1_1UniformSamplingSettings_html"><div class="ttname"><a href="./Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></div></div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md194"></a>
 Estimate point-cloud normals</h2>
 <p>PCL: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;pcl/features/normal_3d.h&gt;</span></div>
@@ -347,12 +378,15 @@ Estimate point-cloud normals</h2>
 <div class="line">pcl::search::KdTree&lt;pcl::PointXYZ&gt;::Ptr tree(<span class="keyword">new</span> pcl::search::KdTree&lt;pcl::PointXYZ&gt;);</div>
 <div class="line">ne.setSearchMethod(tree);</div>
 <div class="line">ne.setKSearch(20);</div>
-<div class="line">pcl::PointCloud&lt;pcl::Normal&gt;::Ptr normals(<span class="keyword">new</span> pcl::PointCloud&lt;pcl::Normal&gt;);</div>
-<div class="line">ne.compute(*normals);</div>
-</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloudMakeNormals.h&gt;</span></div>
+<div class="line">pcl::PointCloud&lt;pcl::Normal&gt;::Ptr <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga85e8e11b8e3e8fe593d22d8639a8efaf">normals</a>(<span class="keyword">new</span> pcl::PointCloud&lt;pcl::Normal&gt;);</div>
+<div class="line">ne.compute(*<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga85e8e11b8e3e8fe593d22d8639a8efaf">normals</a>);</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga85e8e11b8e3e8fe593d22d8639a8efaf"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga85e8e11b8e3e8fe593d22d8639a8efaf">normals</a></div><div class="ttdeci">std::function&lt; Vector3f(VertId)&gt; normals() const</div></div>
+</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointCloudMakeNormals_8h.html">MRMesh/MRPointCloudMakeNormals.h</a>&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">auto</span> normals = MR::makeNormals(cloud, <span class="comment">/*avgNeighborhoodSize=*/</span>20);</div>
-<div class="line">cloud.normals = normals;</div>
+<div class="line"><span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga85e8e11b8e3e8fe593d22d8639a8efaf">normals</a> = <a class="code hl_functionRef" href="./Cpp/group__PointCloudGroup.html#ga15578cc0c068a55121b279b4d0b9e7cb">MR::makeNormals</a>(cloud, <span class="comment">/*avgNeighborhoodSize=*/</span>20);</div>
+<div class="line">cloud.normals = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga85e8e11b8e3e8fe593d22d8639a8efaf">normals</a>;</div>
+<div class="ttc" id="aMRPointCloudMakeNormals_8h_html"><div class="ttname"><a href="./Cpp/MRPointCloudMakeNormals_8h.html">MRPointCloudMakeNormals.h</a></div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_ga15578cc0c068a55121b279b4d0b9e7cb"><div class="ttname"><a href="./Cpp/group__PointCloudGroup.html#ga15578cc0c068a55121b279b4d0b9e7cb">MR::makeNormals</a></div><div class="ttdeci">VertNormals makeNormals(const PointCloud &amp;pointCloud, int avgNeighborhoodSize=48)</div></div>
 </div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md195"></a>
 VTK</h1>
 <p>MeshLib and VTK exchange data through standard mesh formats: write STL / PLY / OBJ from your VTK pipeline and load it in MeshLib — and the same way back. In Python the bridge is even shorter: vtkPolyData arrays go straight into MeshLib via numpy, no files at all (last example below).</p>
@@ -372,15 +406,15 @@ Decimate a mesh</h2>
 <div class="line">dec-&gt;SetTargetReduction(0.5);</div>
 <div class="line">dec-&gt;Update();</div>
 <div class="line">vtkPolyData* out = dec-&gt;GetOutput();</div>
-</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshDecimate.h&gt;</span></div>
+</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshDecimate_8h.html">MRMesh/MRMeshDecimate.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// in.stl exported from the VTK pipeline (vtkSTLWriter / vtkPLYWriter / vtkOBJWriter)</span></div>
-<div class="line"><span class="keyword">auto</span> mesh = MR::MeshLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;in.stl&quot;</span>).value();</div>
-<div class="line">MR::DecimateSettings s;</div>
-<div class="line">s.maxDeletedFaces = int(mesh.topology.numValidFaces() / 2);</div>
-<div class="line">MR::decimateMesh(mesh, s);</div>
+<div class="line"><span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>(<span class="stringliteral">&quot;in.stl&quot;</span>).value();</div>
+<div class="line"><a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateSettings.html">MR::DecimateSettings</a> s;</div>
+<div class="line">s.maxDeletedFaces = int(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.numValidFaces() / 2);</div>
+<div class="line"><a class="code hl_functionRef" href="./Cpp/group__DecimateGroup.html#gae9313434cccf9f5b704c8f1fbb534a50">MR::decimateMesh</a>(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, s);</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md197"></a>
 Boolean union of two meshes</h2>
 <p>VTK: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;vtkBooleanOperationPolyDataFilter.h&gt;</span></div>
@@ -396,14 +430,14 @@ Boolean union of two meshes</h2>
 <div class="line">boolOp-&gt;SetInputData(1, rb-&gt;GetOutput());</div>
 <div class="line">boolOp-&gt;Update();</div>
 <div class="line">vtkPolyData* out = boolOp-&gt;GetOutput();</div>
-</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshBoolean.h&gt;</span></div>
+</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshBoolean_8h.html">MRMesh/MRMeshBoolean.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// a.stl / b.stl exported from VTK (vtkSTLWriter)</span></div>
-<div class="line"><span class="keyword">auto</span> a = MR::MeshLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;a.stl&quot;</span>).value();</div>
-<div class="line"><span class="keyword">auto</span> b = MR::MeshLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;b.stl&quot;</span>).value();</div>
-<div class="line"><span class="keyword">auto</span> res = MR::boolean(a, b, MR::BooleanOperation::Union);</div>
-<div class="line">MR::Mesh out = res.mesh;</div>
+<div class="line"><span class="keyword">auto</span> a = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>(<span class="stringliteral">&quot;a.stl&quot;</span>).value();</div>
+<div class="line"><span class="keyword">auto</span> b = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>(<span class="stringliteral">&quot;b.stl&quot;</span>).value();</div>
+<div class="line"><span class="keyword">auto</span> res = <a class="code hl_functionRef" href="./Cpp/group__BooleanGroup.html#ga16435c813b6198ecc337b3023c2cc729">MR::boolean</a>(a, b, MR::BooleanOperation::Union);</div>
+<div class="line"><a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> out = res.mesh;</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md198"></a>
 Read and write mesh files</h2>
 <p>VTK: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;vtkSTLReader.h&gt;</span></div>
@@ -418,11 +452,11 @@ Read and write mesh files</h2>
 <div class="line">writer-&gt;SetFileName(<span class="stringliteral">&quot;out.obj&quot;</span>);</div>
 <div class="line">writer-&gt;SetInputData(reader-&gt;GetOutput());</div>
 <div class="line">writer-&gt;Write();</div>
-</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+</div><!-- fragment --><p>MeshLib: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">auto</span> mesh = MR::MeshLoad::fromAnySupportedFormat(<span class="stringliteral">&quot;in.stl&quot;</span>).value();</div>
-<div class="line">MR::MeshSave::toAnySupportedFormat(mesh, <span class="stringliteral">&quot;out.obj&quot;</span>);</div>
+<div class="line"><span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>(<span class="stringliteral">&quot;in.stl&quot;</span>).value();</div>
+<div class="line"><a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a>(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;out.obj&quot;</span>);</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md199"></a>
 Moving data in memory (Python)</h2>
 <p>In Python no files are needed: vtkPolyData arrays go straight into MeshLib via numpy and back. </p><div class="fragment"><div class="line"><span class="keyword">from</span> vtk.util.numpy_support <span class="keyword">import</span> vtk_to_numpy</div>

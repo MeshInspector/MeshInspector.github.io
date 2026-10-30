@@ -136,37 +136,48 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2MeshStitchHole"></a></p>
 <p>Example of stitching holes (connect two holes with a cylinder)</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshFillHole.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshFillHole_8h.html">MRMesh/MRMeshFillHole.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Load meshes</span></div>
-<div class="line">    <span class="keyword">auto</span> meshARes = MR::MeshLoad::fromAnySupportedFormat( <span class="stringliteral">&quot;meshAwithHole.stl&quot;</span> );</div>
-<div class="line">    <span class="keyword">auto</span> meshBRes = MR::MeshLoad::fromAnySupportedFormat( <span class="stringliteral">&quot;meshBwithHole.stl&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> meshARes = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;meshAwithHole.stl&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> meshBRes = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;meshBwithHole.stl&quot;</span> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Unite meshes</span></div>
-<div class="line">    MR::Mesh mesh = std::move( meshARes.value() );</div>
-<div class="line">    mesh.addMesh( meshBRes.value() );</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = std::move( meshARes.value() );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.addMesh( meshBRes.value() );</div>
 <div class="line"></div>
 <div class="line">    <span class="comment">// Find holes (expect that there are exactly 2 holes)</span></div>
-<div class="line">    std::vector&lt;MR::EdgeId&gt; edges = mesh.topology.findHoleRepresentiveEdges();</div>
+<div class="line">    std::vector&lt;MR::EdgeId&gt; edges = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.findHoleRepresentiveEdges();</div>
 <div class="line">    <span class="keywordflow">if</span> ( edges.size() != 2 )</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Connect two holes</span></div>
-<div class="line">    MR::StitchHolesParams params;</div>
-<div class="line">    params.metric = MR::getUniversalMetric( mesh );</div>
-<div class="line">    MR::stitchHoles( mesh, edges.front(), edges.back(), params );</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a> params;</div>
+<div class="line">    params.metric = <a class="code hl_functionRef" href="./Cpp/group__FillHoleGroup.html#gaf752f0a8245805123dc73f5c6a1088b7">MR::getUniversalMetric</a>( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__FillHoleGroup.html#ga1411d5a294195af4ea96f30d4e47a108">MR::stitchHoles</a>( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, edges.front(), edges.back(), params );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( mesh, <span class="stringliteral">&quot;stitchedMesh.stl&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a>( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;stitchedMesh.stl&quot;</span> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMeshFillHole_8h_html"><div class="ttname"><a href="./Cpp/MRMeshFillHole_8h.html">MRMeshFillHole.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="agroup__FillHoleGroup_html_ga1411d5a294195af4ea96f30d4e47a108"><div class="ttname"><a href="./Cpp/group__FillHoleGroup.html#ga1411d5a294195af4ea96f30d4e47a108">MR::stitchHoles</a></div><div class="ttdeci">void stitchHoles(Mesh &amp;mesh, EdgeId a, EdgeId b, const StitchHolesParams &amp;params={})</div></div>
+<div class="ttc" id="agroup__FillHoleGroup_html_gaf752f0a8245805123dc73f5c6a1088b7"><div class="ttname"><a href="./Cpp/group__FillHoleGroup.html#gaf752f0a8245805123dc73f5c6a1088b7">MR::getUniversalMetric</a></div><div class="ttdeci">FillHoleMetric getUniversalMetric(const Mesh &amp;mesh)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html_aa115a0d8b8efd585125c07693565388b"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
+<div class="ttc" id="astructMR_1_1StitchHolesParams_html"><div class="ttname"><a href="./Cpp/structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
@@ -211,8 +222,8 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// First mesh, which will be moved.</span></div>
 <div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;meshA.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh A: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_mesh_loading_a;</div>
@@ -228,10 +239,10 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Unite meshes</span></div>
-<div class="line">    MR_Mesh_addMesh( mesh, mesh2, NULL, NULL );</div>
+<div class="line">    MR_Mesh_addMesh( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, mesh2, NULL, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find holes (expect that there are exactly 2 holes)</span></div>
-<div class="line">    MR_std_vector_MR_EdgeId* edges = MR_MeshTopology_findHoleRepresentiveEdges( MR_Mesh_Get_topology( mesh ), NULL );</div>
+<div class="line">    MR_std_vector_MR_EdgeId* edges = MR_MeshTopology_findHoleRepresentiveEdges( MR_Mesh_Get_topology( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> ), NULL );</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_std_vector_MR_EdgeId_size( edges ) != 2 )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Expected exactly 2 holes to stitch, but found %zu\n&quot;</span>, MR_std_vector_MR_EdgeId_size( edges ) );</div>
@@ -239,19 +250,19 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Connect two holes</span></div>
-<div class="line">    MR_StitchHolesParams* params = MR_StitchHolesParams_DefaultConstruct();</div>
+<div class="line">    MR_StitchHolesParams* <a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga5549735766833f3928cb969df8aff806">params</a> = MR_StitchHolesParams_DefaultConstruct();</div>
 <div class="line"> </div>
-<div class="line">    MR_FillHoleMetric* metric = MR_getUniversalMetric( mesh );</div>
+<div class="line">    MR_FillHoleMetric* metric = MR_getUniversalMetric( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> );</div>
 <div class="line">    MR_StitchHolesParams_Set_metric( params, MR_PassBy_Move, metric );</div>
 <div class="line">    MR_FillHoleMetric_Destroy( metric );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// We also have a version of this function (`MR_stitchHoles_auto()`) that finds the two holes automatically.</span></div>
 <div class="line">    <span class="comment">// Here we&#39;ve found them manually for demonstration purposes.</span></div>
-<div class="line">    MR_stitchHoles( mesh, *MR_std_vector_MR_EdgeId_at( edges, 0 ), *MR_std_vector_MR_EdgeId_at( edges, 1 ), params );</div>
+<div class="line">    MR_stitchHoles( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, *MR_std_vector_MR_EdgeId_at( edges, 0 ), *MR_std_vector_MR_EdgeId_at( edges, 1 ), params );</div>
 <div class="line">    MR_StitchHolesParams_Destroy( params );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;stitchedMesh.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;stitchedMesh.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -269,6 +280,7 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga5549735766833f3928cb969df8aff806"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga5549735766833f3928cb969df8aff806">MR::RenderNameObject::Task::params</a></div><div class="ttdeci">const UiRenderParams * params</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>

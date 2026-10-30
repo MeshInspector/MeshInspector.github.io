@@ -19,7 +19,7 @@ var group__RasterGroup =
       [ "progress", "structMR_1_1RasterSaveSettings.html#a04b466bdf3c5f2d7e08030e4cd463ee8", null ],
       [ "xf", "structMR_1_1RasterSaveSettings.html#a96a20d4c5e859028ef66fd98db8fd14b", null ]
     ] ],
-    [ "MR::convertRasterToFloats", "group__RasterGroup.html#gafac7517a903175c5a262beba1b91f775", null ],
+    [ "MR::convertRasterToFloats", "group__RasterGroup.html#ga2f4fb39b502b222d66837b2708dc93c2", null ],
     [ "MR::convertRasterToFloats", "group__RasterGroup.html#ga9ef3666bc6712baf860863656831fa63", null ],
     [ "MR::convertRasterToImage", "group__RasterGroup.html#gadcb09b212975aa3c7b3267ef39c306e1", null ]
 ];

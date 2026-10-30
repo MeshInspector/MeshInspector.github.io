@@ -1,8 +1,8 @@
 var MRString_8h =
 [
     [ "MR::calcDamerauLevenshteinDistance", "group__BasicGroup.html#ga73c8eac27022c533fad3ea40313f5f15", null ],
-    [ "MR::calcDamerauLevenshteinDistance", "group__BasicGroup.html#ga596c713b661ba437dd683d6572084019", null ],
-    [ "MR::caseFold", "group__BasicGroup.html#ga326a5396b3f4e3604328f5bd11d38a24", null ],
+    [ "MR::calcDamerauLevenshteinDistance", "group__BasicGroup.html#ga0d1a9d7d3c35e3ee9d2245d5827f489e", null ],
+    [ "MR::caseFold", "group__BasicGroup.html#ga40027abda294f97cf747f668bb1f3003", null ],
     [ "MR::findSubstringCaseInsensitive", "group__BasicGroup.html#gaeb60f1e48c3bb8f744d2fc283cee3473", null ],
     [ "MR::hasFormatPlaceholders", "group__GeneralGroup.html#ga1bc87a88d5e7e781420c1fecc8da8478", null ],
     [ "MR::replace", "group__GeneralGroup.html#ga93acb201982a2cf2cb5f7c0065f6f0da", null ],

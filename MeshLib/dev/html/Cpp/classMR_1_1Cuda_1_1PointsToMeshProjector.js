@@ -1,7 +1,7 @@
 var classMR_1_1Cuda_1_1PointsToMeshProjector =
 [
-    [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html#ac217c2f9f716d994aa1c0ab98369dc95", null ],
-    [ "findProjections", "classMR_1_1Cuda_1_1PointsToMeshProjector.html#a75f7a7a77a76ffb50d4a4ea9a1c40ec3", null ],
-    [ "projectionsHeapBytes", "classMR_1_1Cuda_1_1PointsToMeshProjector.html#a01151649b364309dda94e8170e3e10f3", null ],
-    [ "updateMeshData", "classMR_1_1Cuda_1_1PointsToMeshProjector.html#acea486c98480ff347d65eaed201897c2", null ]
+    [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html#aa807e43c25f1622953a45b90a063f592", null ],
+    [ "findProjections", "classMR_1_1Cuda_1_1PointsToMeshProjector.html#ade6f030887ef5db055c3d548e0ef8354", null ],
+    [ "projectionsHeapBytes", "classMR_1_1Cuda_1_1PointsToMeshProjector.html#a6caa0b6c4837b2ac5eb0415d6a07797d", null ],
+    [ "updateMeshData", "classMR_1_1Cuda_1_1PointsToMeshProjector.html#a0357a78935234156acd1e41a5a94995c", null ]
 ];

@@ -136,10 +136,10 @@ $(function(){initNavTree('ExampleMeshLoadSave.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2MeshLoadSave"></a></p>
 <p>Following code presents example of loading and saving mesh file</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRIOExtras/MRCtm.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRCtm_8h.html">MRIOExtras/MRCtm.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
@@ -147,7 +147,7 @@ $(function(){initNavTree('ExampleMeshLoadSave.html','',''); });
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
 <div class="line">    std::filesystem::path inFilePath = <span class="stringliteral">&quot;mesh.stl&quot;</span>;</div>
-<div class="line">    <span class="keyword">auto</span> loadRes = MR::MeshLoad::fromAnySupportedFormat( inFilePath );</div>
+<div class="line">    <span class="keyword">auto</span> loadRes = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>( inFilePath );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !loadRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; loadRes.error() &lt;&lt; std::endl;</div>
@@ -156,7 +156,7 @@ $(function(){initNavTree('ExampleMeshLoadSave.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save mesh</span></div>
 <div class="line">    std::filesystem::path outFilePath = <span class="stringliteral">&quot;mesh.ply&quot;</span>;</div>
-<div class="line">    <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( loadRes.value(), outFilePath );</div>
+<div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a>( loadRes.value(), outFilePath );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !saveRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; saveRes.error() &lt;&lt; std::endl;</div>
@@ -165,7 +165,7 @@ $(function(){initNavTree('ExampleMeshLoadSave.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// More mesh formats are available in the MRIOExtras library</span></div>
 <div class="line">    std::filesystem::path outCtmFilePath = <span class="stringliteral">&quot;mesh.ctm&quot;</span>;</div>
-<div class="line">    saveRes = MR::MeshSave::toCtm( loadRes.value(), outCtmFilePath );</div>
+<div class="line">    saveRes = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga6482d0b63851221c94c50665e4bbb4b9">MR::MeshSave::toCtm</a>( loadRes.value(), outCtmFilePath );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !saveRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; saveRes.error() &lt;&lt; std::endl;</div>
@@ -175,9 +175,16 @@ $(function(){initNavTree('ExampleMeshLoadSave.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
-</div><!-- fragment --> Further examples won't check return values for sake of clarity <dl class="section see"><dt>See also</dt><dd>MR::MeshLoad </dd>
+<div class="ttc" id="aMRCtm_8h_html"><div class="ttname"><a href="./Cpp/MRCtm_8h.html">MRCtm.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga6482d0b63851221c94c50665e4bbb4b9"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga6482d0b63851221c94c50665e4bbb4b9">MR::MeshSave::toCtm</a></div><div class="ttdeci">Expected&lt; void &gt; toCtm(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const CtmSaveOptions &amp;options)</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html_aa115a0d8b8efd585125c07693565388b"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
+</div><!-- fragment --> Further examples won't check return values for sake of clarity <dl class="section see"><dt>See also</dt><dd><a class="elRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a> </dd>
 <dd>
-MR::MeshSave</dd></dl>
+<a class="elRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></dd></dl>
 </li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"><span class="keyword">import</span> os</div>
@@ -228,9 +235,9 @@ MR::MeshSave</dd></dl>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
 <div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( inputPath, NULL, NULL );</div>
-<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line"> </div>
-<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshEx ) ) );</div>
 <div class="line">        <span class="keywordflow">if</span> ( argc &lt;= 1 )</div>
@@ -239,7 +246,7 @@ MR::MeshSave</dd></dl>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save mesh.</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, outputPath, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, outputPath, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -253,6 +260,7 @@ MR::MeshSave</dd></dl>
 <div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshLoadSaveExample</div>
 <div class="line">{</div>
@@ -261,14 +269,14 @@ MR::MeshSave</dd></dl>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
 <div class="line">            <span class="comment">// This example needs an input mesh; create one if you do not have it already</span></div>
-<div class="line">            <span class="keywordflow">if</span> (!File.Exists(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
-<div class="line">                MR.MeshSave.toAnySupportedFormat(MR.makeCube(), <span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line">            <span class="keywordflow">if</span> (!<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gae5ad252a0ab97ff1ee3a263e11199315">File</a>.Exists(<span class="stringliteral">&quot;mesh.stl&quot;</span>))</div>
+<div class="line">                <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeCube(), <span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Load mesh</span></div>
-<div class="line">            var mesh = MR.MeshLoad.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
+<div class="line">            var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Save it in another format</span></div>
-<div class="line">            MR.MeshSave.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;mesh.ply&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>
@@ -276,6 +284,10 @@ MR::MeshSave</dd></dl>
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gae5ad252a0ab97ff1ee3a263e11199315"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gae5ad252a0ab97ff1ee3a263e11199315">File</a></div><div class="ttdeci">File()=default</div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
@@ -323,10 +335,10 @@ MR::MeshSave</dd></dl>
 <div class="line">        String outputPath = args.length &gt; 1 ? args[1] : <span class="stringliteral">&quot;mesh.ply&quot;</span>;</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Load mesh. The C++ function returns `Expected&lt;Mesh&gt;`: the Java wrapper returns the mesh, or throws the error.</span></div>
-<div class="line">        Mesh mesh;</div>
+<div class="line">        Mesh <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>;</div>
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
-<div class="line">            mesh = meshlib.meshload.Functions.fromAnySupportedFormat(inputPath, <span class="keyword">null</span>);</div>
+<div class="line">            <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = meshlib.meshload.Functions.fromAnySupportedFormat(inputPath, <span class="keyword">null</span>);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (UnexpectedResultException e)</div>
 <div class="line">        {</div>
@@ -338,7 +350,7 @@ MR::MeshSave</dd></dl>
 <div class="line">        }</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Save mesh. An error is thrown the same way.</span></div>
-<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(mesh, outputPath, <span class="keyword">null</span>);</div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, outputPath, <span class="keyword">null</span>);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>

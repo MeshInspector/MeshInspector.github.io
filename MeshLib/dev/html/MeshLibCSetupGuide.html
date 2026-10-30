@@ -262,10 +262,10 @@ Try MeshLib with C Examples</h2>
 Building C API from source</h2>
 <p>As an alternative to the binary distribution, you can build the C API from source, as a part of MeshLib.</p>
 <p>The C API sources are generated for each release, and must be downloaded from the <a href="https://github.com/MeshInspector/MeshLib/releases">GitHub Releases</a> page.</p>
-<p>The source archive is called <span class="tt">meshlib_v1.2.3.4_c-source[-wasm].zip</span>. Use the <span class="tt">-wasm</span> variant if you're building for Wasm; it omits support for some additional IO formats that we don't support in Wasm builds.</p>
+<p>The source archive is called <span class="tt">meshlib_v1.2.3.4_c-source[-wasm].zip</span>. Use the <span class="tt">-wasm</span> variant if you're building for <a class="elRef" href="./Cpp/namespaceWasm.html">Wasm</a>; it omits support for some additional IO formats that we don't support in <a class="elRef" href="./Cpp/namespaceWasm.html">Wasm</a> builds.</p>
 <p>Extract <span class="tt">MeshLibC2/include</span>, <span class="tt">MeshLibC2/src</span> into <span class="tt">source/MeshLibC2</span>.</p>
-<p>Additionally, if you want Cuda support, similarly extract <span class="tt">MeshLibC2Cuda/{include,src}</span> into <span class="tt">source/MeshLibC2Cuda</span>. This is not available on Wasm.</p>
-<p>If you <b>don't</b> want Cuda support, you instead have to copy Cuda stubs from <span class="tt">scripts/mrbind/cuda_placeholder_generated_c/{include,src}</span> to <span class="tt">source/MeshLibC2Cuda</span>. This is the only option on Wasm.</p>
+<p>Additionally, if you want Cuda support, similarly extract <span class="tt">MeshLibC2Cuda/{include,src}</span> into <span class="tt">source/MeshLibC2Cuda</span>. This is not available on <a class="elRef" href="./Cpp/namespaceWasm.html">Wasm</a>.</p>
+<p>If you <b>don't</b> want Cuda support, you instead have to copy Cuda stubs from <span class="tt">scripts/mrbind/cuda_placeholder_generated_c/{include,src}</span> to <span class="tt">source/MeshLibC2Cuda</span>. This is the only option on <a class="elRef" href="./Cpp/namespaceWasm.html">Wasm</a>.</p>
 <p>Lastly, build MeshLib with C API enabled by adding <span class="tt">-DMESHLIB_BUILD_GENERATED_C_BINDINGS=ON</span> to CMake flags. We recommend using CMake for this, but VS project files are also available in <span class="tt">source/MeshLibC2</span> and <span class="tt">source/MeshLibC2Cuda</span>, but they aren't included in the VS solution by default. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

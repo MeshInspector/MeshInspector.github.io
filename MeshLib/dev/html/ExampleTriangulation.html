@@ -136,19 +136,19 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2Triangulation"></a></p>
 <p>Simple triangulation</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloudTriangulation.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRUniformSampling.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRVoxels/MROffset.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointCloud_8h.html">MRMesh/MRPointCloud.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointCloudTriangulation_8h.html">MRMesh/MRPointCloudTriangulation.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRUniformSampling_8h.html">MRMesh/MRUniformSampling.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MROffset_8h.html">MRVoxels/MROffset.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Generate point cloud</span></div>
-<div class="line">    MR::PointCloud pc;</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a> pc;</div>
 <div class="line">    pc.points.reserve( 10000 );</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keyword">auto</span> i = 0; i &lt; 100; ++i )</div>
 <div class="line">    {</div>
@@ -165,7 +165,7 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">    <span class="comment">// Remove duplicate points</span></div>
-<div class="line">    <span class="keyword">auto</span> vs = MR::pointUniformSampling( pc, {</div>
+<div class="line">    <span class="keyword">auto</span> vs = <a class="code hl_functionRef" href="./Cpp/group__PointCloudGroup.html#ga419eb233734e75003af48032eb07f36b">MR::pointUniformSampling</a>( pc, {</div>
 <div class="line">        .distance = 1e-3f,</div>
 <div class="line">    } );</div>
 <div class="line">    assert( vs );</div>
@@ -173,17 +173,17 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">    pc.invalidateCaches();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Triangulate it</span></div>
-<div class="line">    <span class="keyword">auto</span> triangulated = MR::triangulatePointCloud( pc );</div>
+<div class="line">    <span class="keyword">auto</span> triangulated = <a class="code hl_functionRef" href="./Cpp/group__PointCloudTriangulationGroup.html#gad8757f0b892706f56491e2b0a5a016d8">MR::triangulatePointCloud</a>( pc );</div>
 <div class="line">    assert( triangulated );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Fix possible issues</span></div>
-<div class="line">    <span class="keyword">auto</span> mesh = MR::offsetMesh( *triangulated, 0.f, { {</div>
-<div class="line">        .voxelSize = MR::suggestVoxelSize( *triangulated, 5e+6f ),</div>
+<div class="line">    <span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga9451ab00d17418a216cab567f73b88ac">MR::offsetMesh</a>( *triangulated, 0.f, { {</div>
+<div class="line">        .voxelSize = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga8134bd36bc30764272b23a2c614b0e84">MR::suggestVoxelSize</a>( *triangulated, 5e+6f ),</div>
 <div class="line">    } } );</div>
-<div class="line">    assert( mesh );</div>
+<div class="line">    assert( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( *mesh, <span class="stringliteral">&quot;result.stl&quot;</span> ); !saveRes )</div>
+<div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a>( *<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;result.stl&quot;</span> ); !saveRes )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; saveRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
@@ -192,6 +192,19 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aMROffset_8h_html"><div class="ttname"><a href="./Cpp/MROffset_8h.html">MROffset.h</a></div></div>
+<div class="ttc" id="aMRPointCloudTriangulation_8h_html"><div class="ttname"><a href="./Cpp/MRPointCloudTriangulation_8h.html">MRPointCloudTriangulation.h</a></div></div>
+<div class="ttc" id="aMRPointCloud_8h_html"><div class="ttname"><a href="./Cpp/MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
+<div class="ttc" id="aMRUniformSampling_8h_html"><div class="ttname"><a href="./Cpp/MRUniformSampling_8h.html">MRUniformSampling.h</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga8134bd36bc30764272b23a2c614b0e84"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga8134bd36bc30764272b23a2c614b0e84">MR::suggestVoxelSize</a></div><div class="ttdeci">float suggestVoxelSize(const MeshPart &amp;mp, float approxNumVoxels)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9451ab00d17418a216cab567f73b88ac"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga9451ab00d17418a216cab567f73b88ac">MR::offsetMesh</a></div><div class="ttdeci">Expected&lt; Mesh &gt; offsetMesh(const MeshPart &amp;mp, float offset, const OffsetParameters &amp;params={})</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_ga419eb233734e75003af48032eb07f36b"><div class="ttname"><a href="./Cpp/group__PointCloudGroup.html#ga419eb233734e75003af48032eb07f36b">MR::pointUniformSampling</a></div><div class="ttdeci">std::optional&lt; VertBitSet &gt; pointUniformSampling(const PointCloud &amp;pointCloud, const UniformSamplingSettings &amp;settings)</div></div>
+<div class="ttc" id="agroup__PointCloudTriangulationGroup_html_gad8757f0b892706f56491e2b0a5a016d8"><div class="ttname"><a href="./Cpp/group__PointCloudTriangulationGroup.html#gad8757f0b892706f56491e2b0a5a016d8">MR::triangulatePointCloud</a></div><div class="ttdeci">std::optional&lt; Mesh &gt; triangulatePointCloud(const PointCloud &amp;pointCloud, const TriangulationParameters &amp;params={}, const ProgressCallback &amp;progressCb={})</div></div>
+<div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python API v2</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshnumpy <span class="keyword">as</span> mn</div>
@@ -267,7 +280,7 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Generate point cloud</span></div>
-<div class="line">    MR_VertCoords* points = MR_VertCoords_Construct( 10000 );</div>
+<div class="line">    MR_VertCoords* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a> = MR_VertCoords_Construct( 10000 );</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; 100; ++i )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordtype">float</span> u = PI*2 * (float)i / ( 100.f - 1.f );</div>
@@ -275,7 +288,7 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">        {</div>
 <div class="line">            <span class="keywordtype">float</span> v = PI * (float)j / ( 100.f - 1.f );</div>
 <div class="line"> </div>
-<div class="line">            *MR_VertCoords_index_mut( points, (MR_VertId){ i * 100 + j } ) = (MR_Vector3f){</div>
+<div class="line">            *MR_VertCoords_index_mut( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a>, (MR_VertId){ i * 100 + j } ) = (MR_Vector3f){</div>
 <div class="line">                cos( u ) * sin( v ),</div>
 <div class="line">                sin( u ) * sin( v ),</div>
 <div class="line">                cos( v )</div>
@@ -283,10 +296,10 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">    MR_PointCloud* pc = MR_PointCloud_DefaultConstruct();</div>
-<div class="line">    MR_PointCloud_Set_points( pc, MR_PassBy_Move, points );</div>
+<div class="line">    MR_PointCloud_Set_points( pc, MR_PassBy_Move, <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a> );</div>
 <div class="line">    <span class="comment">// Fill the bitset of valid points in `pc` to all ones.</span></div>
 <div class="line">    MR_VertBitSet_resize( MR_PointCloud_GetMutable_validPoints( pc ), 10000, &amp;(<span class="keywordtype">bool</span>){<span class="keyword">true</span>} );</div>
-<div class="line">    MR_VertCoords_Destroy( points );</div>
+<div class="line">    MR_VertCoords_Destroy( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Remove duplicate points</span></div>
 <div class="line">    MR_UniformSamplingSettings* samplingSettings = MR_UniformSamplingSettings_DefaultConstruct();</div>
@@ -326,8 +339,8 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">    MR_MeshPart_Destroy( mp );</div>
 <div class="line">    MR_std_optional_MR_Mesh_Destroy( triangulatedOpt );</div>
 <div class="line"> </div>
-<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Offset failed: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshEx ) ) );</div>
 <div class="line">        MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
@@ -335,7 +348,7 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save the result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;result.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;result.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
@@ -348,6 +361,7 @@ $(function(){initNavTree('ExampleTriangulation.html','',''); });
 <div class="line">    MR_expected_void_std_string_Destroy( saveEx );</div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gadea5e520fb681e438a8ea02cc7ef2c2c"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a></div><div class="ttdeci">VertCoords &amp; points() const</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>

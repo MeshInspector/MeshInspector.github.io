@@ -193,7 +193,7 @@ Include the MeshLib Headers</h3>
 <p>Add <b>both</b> include directories from the installed MeshLib package to your project. In your CMake configuration (<span class="tt">CMakeLists.txt</span>): </p><div class="fragment"><div class="line">include_directories(${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
 <div class="line"># or</div>
 <div class="line">target_include_directories(your_project_name PUBLIC ${MESHLIB_INCLUDE_DIR} ${MESHLIB_THIRDPARTY_INCLUDE_DIR})</div>
-</div><!-- fragment --><p><span class="tt">MESHLIB_THIRDPARTY_INCLUDE_DIR</span> is required, not optional: MeshLib's public headers include third-party headers directly — <span class="tt">MRMesh/MRMeshFwd.h</span>, pulled in by essentially every MeshLib header, includes <span class="tt">&lt;parallel_hashmap/phmap_fwd_decl.h&gt;</span>. Without it even a hello-world fails to compile.</p>
+</div><!-- fragment --><p><span class="tt">MESHLIB_THIRDPARTY_INCLUDE_DIR</span> is required, not optional: MeshLib's public headers include third-party headers directly — <span class="tt"><a class="elRef" href="./Cpp/MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a></span>, pulled in by essentially every MeshLib header, includes <span class="tt">&lt;parallel_hashmap/phmap_fwd_decl.h&gt;</span>. Without it even a hello-world fails to compile.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md18"></a>
 Link the MeshLib Libraries</h3>
 <p>Specify which MeshLib libraries to link with your project: </p><div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MRMesh)</div>
@@ -212,7 +212,7 @@ Link the MeshLib Libraries</h3>
 </ul>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md19"></a>
 A Complete Minimal Example</h3>
-<p>Putting the steps above together, this is a complete <span class="tt">CMakeLists.txt</span> that compiles, links and runs a program including <span class="tt">&lt;MRMesh/MRMesh.h&gt;</span>. The <b>Linking Additional Third-Party Libraries</b> section below is not needed for it:</p>
+<p>Putting the steps above together, this is a complete <span class="tt">CMakeLists.txt</span> that compiles, links and runs a program including <span class="tt">&lt;<a class="elRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span>. The <b>Linking Additional Third-Party Libraries</b> section below is not needed for it:</p>
 <div class="fragment"><div class="line">cmake_minimum_required(VERSION 3.18)</div>
 <div class="line">set(CMAKE_CXX_STANDARD 20)</div>
 <div class="line">set(CMAKE_CXX_STANDARD_REQUIRED ON)</div>

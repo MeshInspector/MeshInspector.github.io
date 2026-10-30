@@ -137,33 +137,33 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <p>Example of mesh decimation</p>
 <p>▶ <a href="https://demo.meshlib.io/#decimate">See it live in the browser</a></p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshFwd.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshDecimate.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBuffer.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshDecimate_8h.html">MRMesh/MRMeshDecimate.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRBuffer_8h.html">MRMesh/MRBuffer.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
-<div class="line">    <span class="keyword">auto</span> meshRes = MR::MeshLoad::fromAnySupportedFormat( <span class="stringliteral">&quot;mesh.stl&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> meshRes = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !meshRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; meshRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR::Mesh&amp; mesh = *meshRes;</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a>&amp; <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = *meshRes;</div>
 <div class="line">    </div>
 <div class="line">    <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
 <div class="line">    <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
-<div class="line">    mesh.packOptimally( <span class="keyword">false</span> );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.packOptimally( <span class="keyword">false</span> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Setup decimate parameters</span></div>
-<div class="line">    MR::DecimateSettings settings;</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateSettings.html">MR::DecimateSettings</a> settings;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimation stop thresholds, you may specify one or both</span></div>
 <div class="line">    settings.maxDeletedFaces = 1000; <span class="comment">// Number of faces to be deleted</span></div>
@@ -174,10 +174,10 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">    settings.subdivideParts = 16;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimate mesh</span></div>
-<div class="line">    MR::decimateMesh( mesh, settings );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__DecimateGroup.html#gae9313434cccf9f5b704c8f1fbb534a50">MR::decimateMesh</a>( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, settings );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( mesh, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span> ); !saveRes )</div>
+<div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a>( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span> ); !saveRes )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; saveRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
@@ -186,6 +186,18 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRBuffer_8h_html"><div class="ttname"><a href="./Cpp/MRBuffer_8h.html">MRBuffer.h</a></div></div>
+<div class="ttc" id="aMRMeshDecimate_8h_html"><div class="ttname"><a href="./Cpp/MRMeshDecimate_8h.html">MRMeshDecimate.h</a></div></div>
+<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="./Cpp/MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="agroup__DecimateGroup_html_gae9313434cccf9f5b704c8f1fbb534a50"><div class="ttname"><a href="./Cpp/group__DecimateGroup.html#gae9313434cccf9f5b704c8f1fbb534a50">MR::decimateMesh</a></div><div class="ttdeci">DecimateResult decimateMesh(Mesh &amp;mesh, const DecimateSettings &amp;settings={})</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html_aa115a0d8b8efd585125c07693565388b"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
+<div class="ttc" id="astructMR_1_1DecimateSettings_html"><div class="ttname"><a href="./Cpp/structMR_1_1DecimateSettings.html">MR::DecimateSettings</a></div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
 </div><!-- fragment --> Source mesh <div class="image">
 <img src="decimate_before.png" alt=""/>
 </div>
@@ -244,10 +256,10 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
 <div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Handle failure to load mesh.</span></div>
-<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail;</div>
@@ -256,7 +268,7 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">    <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
 <div class="line">    <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
 <div class="line">    <span class="keywordtype">bool</span> preserveAABBTree = <span class="keyword">false</span>;</div>
-<div class="line">    MR_PackMapping_Destroy( MR_Mesh_packOptimally_1( mesh, &amp;preserveAABBTree ) );</div>
+<div class="line">    MR_PackMapping_Destroy( MR_Mesh_packOptimally_1( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, &amp;preserveAABBTree ) );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Setup decimate parameters</span></div>
 <div class="line">    MR_DecimateSettings* params = MR_DecimateSettings_DefaultConstruct();</div>
@@ -270,14 +282,14 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">    MR_DecimateSettings_Set_subdivideParts( params, 16 );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimate mesh</span></div>
-<div class="line">    MR_DecimateResult* result = MR_decimateMesh( mesh, params );</div>
+<div class="line">    MR_DecimateResult* result = MR_decimateMesh( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, params );</div>
 <div class="line">    MR_DecimateSettings_Destroy( params );</div>
 <div class="line"> </div>
 <div class="line">    printf( <span class="stringliteral">&quot;Removed %d vertices, %d faces\n&quot;</span>, *MR_DecimateResult_Get_vertsDeleted( result ), *MR_DecimateResult_Get_facesDeleted( result ) );</div>
 <div class="line">    MR_DecimateResult_Destroy( result );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -303,16 +315,16 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">        <span class="keywordflow">try</span></div>
 <div class="line">        {</div>
 <div class="line">            <span class="comment">// Load the mesh given on the command line, or make a sphere to decimate if no path is given</span></div>
-<div class="line">            var mesh = args.Length &gt; 0</div>
-<div class="line">                ? MR.MeshLoad.fromAnySupportedFormat(args[0])</div>
-<div class="line">                : MR.makeUVSphere(1.0f, 64, 64);</div>
+<div class="line">            var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = args.Length &gt; 0</div>
+<div class="line">                ? <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(args[0])</div>
+<div class="line">                : <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeUVSphere(1.0f, 64, 64);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
 <div class="line">            <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
-<div class="line">            mesh.packOptimally(<span class="keyword">false</span>);</div>
+<div class="line">            <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.packOptimally(<span class="keyword">false</span>);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Setup decimate parameters</span></div>
-<div class="line">            MR.DecimateSettings ds = <span class="keyword">new</span>();</div>
+<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateSettings.html">MR.DecimateSettings</a> ds = <span class="keyword">new</span>();</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Decimation stop thresholds, you may specify one or both</span></div>
 <div class="line">            ds.maxDeletedFaces = 1000; <span class="comment">// Number of faces to be deleted</span></div>
@@ -323,10 +335,10 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">            ds.subdivideParts = 16;</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Decimate mesh</span></div>
-<div class="line">            MR.decimateMesh(mesh, ds);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.decimateMesh(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, ds);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Save result</span></div>
-<div class="line">            MR.MeshSave.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;decimated_mesh_cs.stl&quot;</span>);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;decimated_mesh_cs.stl&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>
@@ -334,6 +346,9 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --> Source mesh <div class="image">
 <img src="decimate_before.png" alt=""/>
 </div>
@@ -424,11 +439,11 @@ Source mesh <div class="image">
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// Load mesh. An error is thrown as `UnexpectedResultException`.</span></div>
-<div class="line">        Mesh mesh = meshlib.meshload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">        Mesh <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = meshlib.meshload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
 <div class="line">        <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing.</span></div>
-<div class="line">        mesh.packOptimally(<span class="keyword">false</span>);</div>
+<div class="line">        <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.packOptimally(<span class="keyword">false</span>);</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Setup decimate parameters.</span></div>
 <div class="line">        DecimateSettings settings = <span class="keyword">new</span> DecimateSettings();</div>
@@ -442,11 +457,11 @@ Source mesh <div class="image">
 <div class="line">        settings.setSubdivideParts(16);</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Decimate mesh.</span></div>
-<div class="line">        DecimateResult result = Functions.decimateMesh(mesh, settings);</div>
+<div class="line">        DecimateResult result = Functions.decimateMesh(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, settings);</div>
 <div class="line">        System.out.println(<span class="stringliteral">&quot;Removed &quot;</span> + result.vertsDeleted() + <span class="stringliteral">&quot; vertices, &quot;</span> + result.facesDeleted() + <span class="stringliteral">&quot; faces&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Save result.</span></div>
-<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --> Source mesh <div class="image">

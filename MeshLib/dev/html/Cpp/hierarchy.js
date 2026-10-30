@@ -14,6 +14,7 @@ var hierarchy =
     [ "MR::AABBTreePoints", "classMR_1_1AABBTreePoints.html", null ],
     [ "MR::AABBTreeTraits< L, B >", "structMR_1_1AABBTreeTraits.html", null ],
     [ "MR::SpaceMouse::Action", "structMR_1_1SpaceMouse_1_1Action.html", null ],
+    [ "MR::AffineXf< V >", "structMR_1_1AffineXf.html", null ],
     [ "MR::AllLocalTriangulations", "structMR_1_1AllLocalTriangulations.html", null ],
     [ "MR::AllocatorBase< T >", "structMR_1_1AllocatorBase.html", [
       [ "MR::Allocator< U >", "structMR_1_1Allocator.html", null ],
@@ -168,7 +169,6 @@ var hierarchy =
     [ "MR::MeshSave::BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html", null ],
     [ "MR::BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", null ],
     [ "MR::BitSet", "classMR_1_1BitSet.html", [
-      [ "MR::TypedBitSet< Id< T > >", "classMR_1_1TypedBitSet.html", null ],
       [ "MR::TypedBitSet< I >", "classMR_1_1TypedBitSet.html", null ]
     ] ],
     [ "MR::SeparationPointStorage::Block", "structMR_1_1SeparationPointStorage_1_1Block.html", null ],
@@ -463,18 +463,6 @@ var hierarchy =
     [ "MR::FlowAggregator::Flows", "structMR_1_1FlowAggregator_1_1Flows.html", null ],
     [ "MR::FontLoadSettings", "structMR_1_1FontLoadSettings.html", null ],
     [ "MR::FormatRegistry< Processor >", "classMR_1_1FormatRegistry.html", null ],
-    [ "fmt::formatter", null, [
-      [ "fmt::formatter< MR::BitSet >", "structfmt_1_1formatter_3_01MR_1_1BitSet_01_4.html", null ],
-      [ "fmt::formatter< MR::Box< V > >", "structfmt_1_1formatter_3_01MR_1_1Box_3_01V_01_4_01_4.html", null ],
-      [ "fmt::formatter< MR::Vector2< T > >", "structfmt_1_1formatter_3_01MR_1_1Vector2_3_01T_01_4_01_4.html", null ],
-      [ "fmt::formatter< MR::Vector3< T > >", "structfmt_1_1formatter_3_01MR_1_1Vector3_3_01T_01_4_01_4.html", [
-        [ "fmt::formatter< MR::AffineXf3< T > >", "structfmt_1_1formatter_3_01MR_1_1AffineXf3_3_01T_01_4_01_4.html", null ],
-        [ "fmt::formatter< MR::Matrix3< T > >", "structfmt_1_1formatter_3_01MR_1_1Matrix3_3_01T_01_4_01_4.html", null ]
-      ] ],
-      [ "fmt::formatter< MR::Vector4< T > >", "structfmt_1_1formatter_3_01MR_1_1Vector4_3_01T_01_4_01_4.html", [
-        [ "fmt::formatter< MR::Matrix4< T > >", "structfmt_1_1formatter_3_01MR_1_1Matrix4_3_01T_01_4_01_4.html", null ]
-      ] ]
-    ] ],
     [ "MR::WebRequest::FormData", "structMR_1_1WebRequest_1_1FormData.html", null ],
     [ "MR::FramebufferData", "classMR_1_1FramebufferData.html", null ],
     [ "MR::FrameCounter", "classMR_1_1FrameCounter.html", null ],

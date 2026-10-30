@@ -15,7 +15,6 @@ var topics =
     [ "PointCloud", "group__PointCloudGroup.html", "group__PointCloudGroup" ],
     [ "PointCloud triangulation overview", "group__PointCloudTriangulationGroup.html", "group__PointCloudTriangulationGroup" ],
     [ "Polyline", "group__PolylineGroup.html", "group__PolylineGroup" ],
-    [ "Polyline Subdivide", "group__PolylineSubdivideGroup.html", "group__PolylineSubdivideGroup" ],
     [ "Surface Paths", "group__SurfacePathGroup.html", "group__SurfacePathGroup" ],
     [ "Voxel", "group__VoxelGroup.html", "group__VoxelGroup" ],
     [ "Basic Structures", "group__BasicStructuresGroup.html", "group__BasicStructuresGroup" ],

@@ -221,23 +221,24 @@ Mesh Navigation</h2>
 </div>
     <h3 class="doxsection"><a class="anchor" id="autotoc_md160"></a>
 Iterating over valid vertices</h3>
-<div class="fragment"><div class="line"><span class="keywordflow">for</span> ( VertId v : mesh.topology.getValidVerts() )</div>
+<div class="fragment"><div class="line"><span class="keywordflow">for</span> ( VertId v : <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.getValidVerts() )</div>
 <div class="line">{</div>
-<div class="line">    std::cout &lt;&lt; mesh.points[v].x &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; mesh.points[v].y &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; mesh.points[v].z &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line">    std::cout &lt;&lt; <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.points[v].x &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.points[v].y &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.points[v].z &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">    <span class="comment">//...</span></div>
 <div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
 </div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md161"></a>
 Iterating over valid faces</h3>
-<div class="fragment"><div class="line"><span class="keywordflow">for</span> ( FaceId f : mesh.topology.getValidFaces() )</div>
+<div class="fragment"><div class="line"><span class="keywordflow">for</span> ( FaceId f : <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.getValidFaces() )</div>
 <div class="line">{</div>
 <div class="line">    ThreeVertIds vertIds;</div>
-<div class="line">    mesh.topology.getTriVerts( f, vertIds )</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.getTriVerts( f, vertIds )</div>
 <div class="line">    std::cout &lt;&lt; vertIds[0] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; vertIds[1] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; vertIds[2] &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">    <span class="comment">//...</span></div>
 <div class="line">}</div>
 </div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md162"></a>
 Iterating ofer vertex edges ring</h3>
-<div class="fragment"><div class="line"><span class="keywordflow">for</span> ( EdgeId e : orgRing( mesh.topology, vertId ) )</div>
+<div class="fragment"><div class="line"><span class="keywordflow">for</span> ( EdgeId e : orgRing( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology, vertId ) )</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">//...</span></div>
 <div class="line">}</div>
@@ -260,15 +261,15 @@ More</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">eOprev</span>  </td><td class="markdownTableBodyNone"><span class="tt">topology.prev(e)</span>  </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><span class="tt">eDnext</span>  </td><td class="markdownTableBodyNone"><span class="tt">topology.next(e.sym()).sym()</span>  </td></tr>
+<td class="markdownTableBodyNone"><span class="tt">eDnext</span>  </td><td class="markdownTableBodyNone"><span class="tt">topology.next(e.sym()).<a class="elRef" href="./Cpp/group__GeneralGroup.html#gaa29d3ed6355ced519e967726484dc72d">sym()</a></span>  </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><span class="tt">eDprev</span>  </td><td class="markdownTableBodyNone"><span class="tt">topology.prev(e.sym()).sym()</span>  </td></tr>
+<td class="markdownTableBodyNone"><span class="tt">eDprev</span>  </td><td class="markdownTableBodyNone"><span class="tt">topology.prev(e.sym()).<a class="elRef" href="./Cpp/group__GeneralGroup.html#gaa29d3ed6355ced519e967726484dc72d">sym()</a></span>  </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone"><span class="tt">eLnext</span>  </td><td class="markdownTableBodyNone"><span class="tt">topology.prev( mE.sym() )</span>  </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><span class="tt">eLprev</span>  </td><td class="markdownTableBodyNone"><span class="tt">topology.next( mE ).sym()</span>  </td></tr>
+<td class="markdownTableBodyNone"><span class="tt">eLprev</span>  </td><td class="markdownTableBodyNone"><span class="tt">topology.next( mE ).<a class="elRef" href="./Cpp/group__GeneralGroup.html#gaa29d3ed6355ced519e967726484dc72d">sym()</a></span>  </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><span class="tt">eRnext</span>  </td><td class="markdownTableBodyNone"><span class="tt">topology.prev( mE ).sym()</span>  </td></tr>
+<td class="markdownTableBodyNone"><span class="tt">eRnext</span>  </td><td class="markdownTableBodyNone"><span class="tt">topology.prev( mE ).<a class="elRef" href="./Cpp/group__GeneralGroup.html#gaa29d3ed6355ced519e967726484dc72d">sym()</a></span>  </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><span class="tt">eRprev</span>  </td><td class="markdownTableBodyNone"><span class="tt">topology.next( mE.sym() )</span>  </td></tr>
 </table>

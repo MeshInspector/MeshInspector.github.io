@@ -146,7 +146,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a27f61d56563234036fdbc292028e5ded" id="r_a27f61d56563234036fdbc292028e5ded"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MROffsetVerts_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">MR_std_optional_MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27f61d56563234036fdbc292028e5ded">MR_makeUnorientedNormals_4_float</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, float radius, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress, const <a class="el" href="MREnums_8h.html#a7e870a89eaf0714e711833b123b397b3">MR_OrientNormals</a> *orient)</td></tr>
 <tr class="memdesc:a27f61d56563234036fdbc292028e5ded"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by directing them along the normal of best plane through the neighbours.  <br /></td></tr>
 <tr class="memitem:a1ed2352488ecf1ff132a5f1cfdcdf41b" id="r_a1ed2352488ecf1ff132a5f1cfdcdf41b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MROffsetVerts_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">MR_std_optional_MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ed2352488ecf1ff132a5f1cfdcdf41b">MR_makeUnorientedNormals_4_MR_AllLocalTriangulations</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const <a class="el" href="MRLocalTriangulations_8h.html#af3305840a3b0b98761ca0684499fe801">MR_AllLocalTriangulations</a> *triangs, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress, const <a class="el" href="MREnums_8h.html#a7e870a89eaf0714e711833b123b397b3">MR_OrientNormals</a> *orient)</td></tr>
-<tr class="memdesc:a1ed2352488ecf1ff132a5f1cfdcdf41b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by averaging neighbor triangle normals weighted by triangle's angle \triangs triangulation neighbours of each point.  <br /></td></tr>
+<tr class="memdesc:a1ed2352488ecf1ff132a5f1cfdcdf41b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by averaging neighbor triangle normals weighted by triangle's angle.  <br /></td></tr>
 <tr class="memitem:a6b1b9c567e3cbcd04226d295d9bd24ad" id="r_a6b1b9c567e3cbcd04226d295d9bd24ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MROffsetVerts_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">MR_std_optional_MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b1b9c567e3cbcd04226d295d9bd24ad">MR_makeUnorientedNormals_5</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const <a class="el" href="MRBuffer_8h.html#ab9532c7498f492993c731c877ba0332b">MR_Buffer_MR_VertId</a> *closeVerts, int numNei, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress, const <a class="el" href="MREnums_8h.html#a7e870a89eaf0714e711833b123b397b3">MR_OrientNormals</a> *orient)</td></tr>
 <tr class="memdesc:a6b1b9c567e3cbcd04226d295d9bd24ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud by directing them along the normal of best plane through the neighbours.  <br /></td></tr>
 <tr class="memitem:a5a13f367562612b96e1812a44f8611b5" id="r_a5a13f367562612b96e1812a44f8611b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a13f367562612b96e1812a44f8611b5">MR_orientNormals_4_float</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *normals, float radius, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
@@ -158,7 +158,7 @@ Functions</h2></td></tr>
 <tr class="memitem:af985fc6b33ff6efd4bf53fe4e2a211fa" id="r_af985fc6b33ff6efd4bf53fe4e2a211fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MROffsetVerts_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">MR_std_optional_MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af985fc6b33ff6efd4bf53fe4e2a211fa">MR_makeOrientedNormals_float</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, float radius, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
 <tr class="memdesc:af985fc6b33ff6efd4bf53fe4e2a211fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud; directions of close points are selected to be consistent;.  <br /></td></tr>
 <tr class="memitem:ae777ba80ae7a9c1bb2b72387ffcfa13a" id="r_ae777ba80ae7a9c1bb2b72387ffcfa13a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MROffsetVerts_8h.html#aa15c8fc617d3f9c35203c043e5c8a078">MR_std_optional_MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae777ba80ae7a9c1bb2b72387ffcfa13a">MR_makeOrientedNormals_MR_AllLocalTriangulations</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, <a class="el" href="MRLocalTriangulations_8h.html#af3305840a3b0b98761ca0684499fe801">MR_AllLocalTriangulations</a> *triangs, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
-<tr class="memdesc:ae777ba80ae7a9c1bb2b72387ffcfa13a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud; directions of close points are selected to be consistent; \triangs triangulation neighbours of each point, which are oriented during the call as well.  <br /></td></tr>
+<tr class="memdesc:ae777ba80ae7a9c1bb2b72387ffcfa13a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes normals for valid points of given point cloud; directions of close points are selected to be consistent;.  <br /></td></tr>
 <tr class="memitem:a701075ee7e53714f6743d79fa938a9d3" id="r_a701075ee7e53714f6743d79fa938a9d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a701075ee7e53714f6743d79fa938a9d3">MR_makeNormals</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const int *avgNeighborhoodSize)</td></tr>
 <tr class="memdesc:a701075ee7e53714f6743d79fa938a9d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes consistent normals for valid points of given point cloud.  <br /></td></tr>
 </table>
@@ -251,7 +251,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Makes normals for valid points of given point cloud; directions of close points are selected to be consistent; \triangs triangulation neighbours of each point, which are oriented during the call as well. </p>
+<p>Makes normals for valid points of given point cloud; directions of close points are selected to be consistent;. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">triangs</td><td>triangulation neighbours of each point, which are oriented during the call as well </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>nullopt if progress returned false Generated from function <span class="tt">MR::makeOrientedNormals</span>. Parameter <span class="tt">pointCloud</span> can not be null. It is a single object. Parameter <span class="tt">triangs</span> can not be null. It is a single object. Parameter <span class="tt">progress</span> is a single object. Parameter <span class="tt">progress</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__MR__VertCoords_8h.html#a88c7d4b5c4f41fcd1868caf761fb06a6" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertCoords. Does nothing if the pointer is n...">MR_std_optional_MR_VertCoords_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
@@ -326,9 +332,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Makes normals for valid points of given point cloud by averaging neighbor triangle normals weighted by triangle's angle \triangs triangulation neighbours of each point. </p>
+<p>Makes normals for valid points of given point cloud by averaging neighbor triangle normals weighted by triangle's angle. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">triangs</td><td>triangulation neighbours of each point </td></tr>
     <tr><td class="paramname">orient</td><td>OrientNormals::Smart here means orientation from normals of neigbour triangles </td></tr>
   </table>
   </dd>
@@ -374,7 +381,7 @@ Functions</h2></td></tr>
 <p>Makes normals for valid points of given point cloud by directing them along the normal of best plane through the neighbours. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">closeVerts</td><td>a buffer where for every valid point #i its neighbours are stored at indices [i*numNei; (i+1)*numNei) </td></tr>
+    <tr><td class="paramname">closeVerts</td><td>a buffer where for every valid point i its neighbours are stored at indices [i*numNei; (i+1)*numNei) </td></tr>
     <tr><td class="paramname">orient</td><td>OrientNormals::Smart here means orientation from best fit plane </td></tr>
   </table>
   </dd>
@@ -455,7 +462,7 @@ Functions</h2></td></tr>
 <p>Select orientation of given normals to make directions of close points consistent;. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">radius</td><td>of neighborhood to consider </td></tr>
+    <tr><td class="paramname">triangs</td><td>triangulation neighbours of each point </td></tr>
   </table>
   </dd>
 </dl>
@@ -500,7 +507,7 @@ Functions</h2></td></tr>
 <p>Select orientation of given normals to make directions of close points consistent;. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">closeVerts</td><td>a buffer where for every valid point #i its neighbours are stored at indices [i*numNei; (i+1)*numNei) </td></tr>
+    <tr><td class="paramname">closeVerts</td><td>a buffer where for every valid point i its neighbours are stored at indices [i*numNei; (i+1)*numNei) </td></tr>
   </table>
   </dd>
 </dl>

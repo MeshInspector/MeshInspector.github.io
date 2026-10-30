@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['c_0',['C',['../FloatVSDouble.html#autotoc_md87',1,'Float vs Double: A Design Choice for Precision and Performance in C++'],['../MeshLibCSharpSetupGuide.html',1,'Integrating MeshLib with C#'],['../MeshLibCSharpSetupGuide.html#UsingMeshLibwithCSharp',1,'Using MeshLib with C#']]],
+  ['c_0',['C',['.././Cpp/APICppPage.html',1,'C++'],['../FloatVSDouble.html#autotoc_md87',1,'Float vs Double: A Design Choice for Precision and Performance in C++'],['../MeshLibCSharpSetupGuide.html',1,'Integrating MeshLib with C#'],['../MeshLibCSharpSetupGuide.html#UsingMeshLibwithCSharp',1,'Using MeshLib with C#']]],
   ['c_20api_20from_20source_1',['Building C API from source',['../MeshLibCSetupGuide.html#CppBuildCBindingsFromSource',1,'']]],
   ['c_20application_20based_20on_20meshlib_2',['C++ Application Based on MeshLib',['../Examples.html#CppApplication',1,'']]],
   ['c_20dev_20kit_3',['Using Visual Studio Code with the C# Dev Kit',['../MeshLibCSharpSetupGuide.html#autotoc_md54',1,'']]],

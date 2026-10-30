@@ -9,5 +9,5 @@ var MRMcp_8h =
     [ "MR::Mcp::Schema::Object", "structMR_1_1Mcp_1_1Schema_1_1Object.html", "structMR_1_1Mcp_1_1Schema_1_1Object" ],
     [ "MR::Mcp::Server", "classMR_1_1Mcp_1_1Server.html", "classMR_1_1Mcp_1_1Server" ],
     [ "MR::Mcp::Server::Params", "structMR_1_1Mcp_1_1Server_1_1Params.html", "structMR_1_1Mcp_1_1Server_1_1Params" ],
-    [ "MR::Mcp::getDefaultServer", "namespaceMR_1_1Mcp.html#a255c34dcc4e67f496bea3c6daef7bdba", null ]
+    [ "MR::Mcp::getDefaultServer", "namespaceMR_1_1Mcp.html#a6fc498a8d32846c67303876da60b946f", null ]
 ];

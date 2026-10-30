@@ -132,7 +132,6 @@ $(function(){initNavTree('classMR_1_1AABBTreePolyline.html','','classMR_1_1AABBT
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classMR_1_1AABBTreePolyline-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::AABBTreePolyline&lt; V &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__AABBTreeGroup.html">AABB Tree overview</a></div></div></div>
@@ -158,6 +157,9 @@ $(function(){initNavTree('classMR_1_1AABBTreePolyline.html','','classMR_1_1AABBT
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2dbf0496d2675d8a6db1de94927b3580" id="r_a2dbf0496d2675d8a6db1de94927b3580"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dbf0496d2675d8a6db1de94927b3580">AABBTreePolyline</a> (const typename <a class="el" href="structMR_1_1PolylineTraits.html">PolylineTraits</a>&lt; V &gt;::Polyline &amp;polyline)</td></tr>
 <tr class="memdesc:a2dbf0496d2675d8a6db1de94927b3580"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for given polyline  <br /></td></tr>
+<tr class="memitem:ad05d86aeb1b27c252b64f6ac18205d68" id="r_ad05d86aeb1b27c252b64f6ac18205d68"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad05d86aeb1b27c252b64f6ac18205d68">AABBTreePolyline</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet &amp;edgeSet)</td></tr>
+<tr class="memdesc:ad05d86aeb1b27c252b64f6ac18205d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for selected edges on the mesh (only for 3d tree)  <br /></td></tr>
+<tr class="memitem:a86c6f6500ab7a1df6e7bf30cab730bc3" id="r_a86c6f6500ab7a1df6e7bf30cab730bc3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86c6f6500ab7a1df6e7bf30cab730bc3">AABBTreePolyline</a> ()=default</td></tr>
 <tr class="memitem:aaf1c13f7909dc226ed6e0a332e61ba4c" id="r_aaf1c13f7909dc226ed6e0a332e61ba4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf1c13f7909dc226ed6e0a332e61ba4c">AABBTreePolyline</a> (<a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="memitem:a82f5feeca891be31840c7bba4a85cb1a" id="r_a82f5feeca891be31840c7bba4a85cb1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82f5feeca891be31840c7bba4a85cb1a">operator=</a> (<a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1AABBTreeBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1AABBTreeBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase&lt; LineTreeTraits&lt; V &gt; &gt;</a></td></tr>
@@ -179,11 +181,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ga21d2ab5d1c4af20b36617537428ebdf1 inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns set of nodes containing among direct or indirect children given leaves  <br /></td></tr>
 <tr class="memitem:ga66dc2af667b0dec92a27e4448ab69258 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_ga66dc2af667b0dec92a27e4448ab69258"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga66dc2af667b0dec92a27e4448ab69258">getLeafOrder</a> (<a class="el" href="group__GeneralGroup.html#ga6fd4a54abb1c4fe946e503bcb14d15c4">LeafBMap</a> &amp;leafMap) const</td></tr>
 <tr class="memitem:ga2c764df0b0d0265bc339eb12f5eb69b9 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_ga2c764df0b0d0265bc339eb12f5eb69b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2c764df0b0d0265bc339eb12f5eb69b9">getLeafOrderAndReset</a> (<a class="el" href="group__GeneralGroup.html#ga6fd4a54abb1c4fe946e503bcb14d15c4">LeafBMap</a> &amp;leafMap)</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a2d170e6b7ce092e5a66596af33dd0e87" id="r_a2d170e6b7ce092e5a66596af33dd0e87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a>(const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const UndirectedEdgeBitSet &amp;edgeSet) <a class="el" href="group__MathGroup.html#gab29a7719b4a571baf6abe4be5d93d4f2">MR_REQUIRES_IF_SUPPORTED</a>(&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d170e6b7ce092e5a66596af33dd0e87">AABBTreePolyline</a> )()=default</td></tr>
-<tr class="memdesc:a2d170e6b7ce092e5a66596af33dd0e87"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for selected edges on the mesh (only for 3d tree)  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -212,7 +209,7 @@ Additional Inherited Members</h2></td></tr>
 class MR::AABBTreePolyline&lt; V &gt;</div><p>bounding volume hierarchy for line segments </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2dbf0496d2675d8a6db1de94927b3580" name="a2dbf0496d2675d8a6db1de94927b3580"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2dbf0496d2675d8a6db1de94927b3580">&#9670;&#160;</a></span>AABBTreePolyline() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dbf0496d2675d8a6db1de94927b3580">&#9670;&#160;</a></span>AABBTreePolyline() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,8 +237,60 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ad05d86aeb1b27c252b64f6ac18205d68" name="ad05d86aeb1b27c252b64f6ac18205d68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad05d86aeb1b27c252b64f6ac18205d68">&#9670;&#160;</a></span>AABBTreePolyline() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1AABBTreePolyline.html">MR::AABBTreePolyline</a>&lt; V &gt;::AABBTreePolyline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const UndirectedEdgeBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>edgeSet</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>creates tree for selected edges on the mesh (only for 3d tree) </p>
+
+</div>
+</div>
+<a id="a86c6f6500ab7a1df6e7bf30cab730bc3" name="a86c6f6500ab7a1df6e7bf30cab730bc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86c6f6500ab7a1df6e7bf30cab730bc3">&#9670;&#160;</a></span>AABBTreePolyline() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1AABBTreePolyline.html">MR::AABBTreePolyline</a>&lt; V &gt;::AABBTreePolyline </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aaf1c13f7909dc226ed6e0a332e61ba4c" name="aaf1c13f7909dc226ed6e0a332e61ba4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf1c13f7909dc226ed6e0a332e61ba4c">&#9670;&#160;</a></span>AABBTreePolyline() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf1c13f7909dc226ed6e0a332e61ba4c">&#9670;&#160;</a></span>AABBTreePolyline() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -341,33 +390,6 @@ template&lt;typename V&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a2d170e6b7ce092e5a66596af33dd0e87" name="a2d170e6b7ce092e5a66596af33dd0e87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d170e6b7ce092e5a66596af33dd0e87">&#9670;&#160;</a></span>AABBTreePolyline</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename V&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1AABBTreePolyline.html">AABBTreePolyline</a>(const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const UndirectedEdgeBitSet &amp;edgeSet) <a class="el" href="group__MathGroup.html#gab29a7719b4a571baf6abe4be5d93d4f2">MR_REQUIRES_IF_SUPPORTED</a>( <a class="el" href="classMR_1_1AABBTreePolyline.html">MR::AABBTreePolyline</a>&lt; V &gt;::AABBTreePolyline) ()=default</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>creates tree for selected edges on the mesh (only for 3d tree) </p>
 
 </div>
 </div>

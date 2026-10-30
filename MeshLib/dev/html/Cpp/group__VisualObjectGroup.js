@@ -130,5 +130,12 @@ var group__VisualObjectGroup =
       [ "MR::DIRTY_EDGES_SELECTION", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f", null ],
       [ "MR::DIRTY_VOLUME", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a6c7eea869dc164adaaa93aa744a519f2", null ],
       [ "MR::DIRTY_ALL", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a", null ]
+    ] ],
+    [ "MR::VisualizeMaskType", "group__VisualObjectGroup.html#ga5c32800ec075fcf4f9b3eb8e2d5ac6ca", [
+      [ "MR::VisualizeMaskType::Visibility", "group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caa1729a56cfc89021478498fe0c89a843a", null ],
+      [ "MR::VisualizeMaskType::Name", "group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caa49ee3087348e8d44e1feda1917443987", null ],
+      [ "MR::VisualizeMaskType::ClippedByPlane", "group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caa4fd94a9d801d7cb5e1ffacfac690a817", null ],
+      [ "MR::VisualizeMaskType::DepthTest", "group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caa16704bc95ff0bd3291ba157e6f06e0ee", null ],
+      [ "MR::VisualizeMaskType::_count", "group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ]
 ];

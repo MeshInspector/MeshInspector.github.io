@@ -1124,7 +1124,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">closeDist</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>vertices located closer to each other than this distance will be united Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">closeDist</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1142,7 +1142,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">duplicateNonManifold</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>if true - try to duplicates non-manifold vertices instead of removing faces Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">duplicateNonManifold</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1160,7 +1160,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">optionalDuplications</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>this can be used to map attributes to duplicated vertices Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">optionalDuplications</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1178,7 +1178,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">optionalVertOldToNew</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>is the mapping of vertices: before -&gt; after Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">optionalVertOldToNew</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1196,7 +1196,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">region</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>if true, only vertices from this region can be affected Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">region</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1214,7 +1214,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">uniteOnlyBd</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>if true then only boundary vertices can be united, all internal vertices (even close ones) will remain Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">uniteOnlyBd</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1232,7 +1232,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">closeDist</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>vertices located closer to each other than this distance will be united Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">closeDist</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1250,7 +1250,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">duplicateNonManifold</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>if true - try to duplicates non-manifold vertices instead of removing faces Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">duplicateNonManifold</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1268,7 +1268,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">optionalDuplications</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>this can be used to map attributes to duplicated vertices Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">optionalDuplications</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1286,7 +1286,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">optionalVertOldToNew</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>is the mapping of vertices: before -&gt; after Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">optionalVertOldToNew</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1304,7 +1304,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">region</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>if true, only vertices from this region can be affected Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">region</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1322,7 +1322,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">uniteOnlyBd</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>if true then only boundary vertices can be united, all internal vertices (even close ones) will remain Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">uniteOnlyBd</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1388,7 +1388,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">closeDist</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">closeDist</span>. </p>
+<p>vertices located closer to each other than this distance will be united Modifies a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">closeDist</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">closeDist</span>. </p>
 
 </div>
 </div>
@@ -1410,7 +1410,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">duplicateNonManifold</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">duplicateNonManifold</span>. </p>
+<p>if true - try to duplicates non-manifold vertices instead of removing faces Modifies a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">duplicateNonManifold</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">duplicateNonManifold</span>. </p>
 
 </div>
 </div>
@@ -1432,7 +1432,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">optionalDuplications</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">optionalDuplications</span>. When this function is called, this object will drop object references it held previously in <span class="tt">optionalDuplications</span>. </p>
+<p>this can be used to map attributes to duplicated vertices Modifies a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">optionalDuplications</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">optionalDuplications</span>. When this function is called, this object will drop object references it held previously in <span class="tt">optionalDuplications</span>. </p>
 
 </div>
 </div>
@@ -1454,7 +1454,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">optionalVertOldToNew</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">optionalVertOldToNew</span>. When this function is called, this object will drop object references it held previously in <span class="tt">optionalVertOldToNew</span>. </p>
+<p>is the mapping of vertices: before -&gt; after Modifies a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">optionalVertOldToNew</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">optionalVertOldToNew</span>. When this function is called, this object will drop object references it held previously in <span class="tt">optionalVertOldToNew</span>. </p>
 
 </div>
 </div>
@@ -1476,7 +1476,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">region</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">region</span>. When this function is called, this object will drop object references it held previously in <span class="tt">region</span>. </p>
+<p>if true, only vertices from this region can be affected Modifies a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">region</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">region</span>. When this function is called, this object will drop object references it held previously in <span class="tt">region</span>. </p>
 
 </div>
 </div>
@@ -1498,7 +1498,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">uniteOnlyBd</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">uniteOnlyBd</span>. </p>
+<p>if true then only boundary vertices can be united, all internal vertices (even close ones) will remain Modifies a member variable of class <span class="tt">MR::MeshBuilder::UniteCloseParams</span> named <span class="tt">uniteOnlyBd</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">uniteOnlyBd</span>. </p>
 
 </div>
 </div>
@@ -1520,13 +1520,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the function finds groups of mesh vertices located closer to each other than</p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">params.closeDist,and</td><td>unites such vertices in one; then the mesh is rebuilt from the remaining triangles </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the number of vertices united, 0 means no change in the mesh Generated from function <span class="tt">MR::MeshBuilder::uniteCloseVertices</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">params</span> is a single object. Parameter <span class="tt">params</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. </dd></dl>
+<p>the function finds groups of mesh vertices located closer to each other than <code class="param">params.closeDist</code>, and unites such vertices in one; then the mesh is rebuilt from the remaining triangles </p><dl class="section return"><dt>Returns</dt><dd>the number of vertices united, 0 means no change in the mesh Generated from function <span class="tt">MR::MeshBuilder::uniteCloseVertices</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">params</span> is a single object. Parameter <span class="tt">params</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -1558,9 +1552,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the function finds groups of mesh vertices located closer to each other than</p><dl class="params"><dt>Parameters</dt><dd>
+<p>the function finds groups of mesh vertices located closer to each other than <code class="param">closeDist</code>, and unites such vertices in one; then the mesh is rebuilt from the remaining triangles </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">closeDist,and</td><td>unites such vertices in one; then the mesh is rebuilt from the remaining triangles </td></tr>
     <tr><td class="paramname">optionalVertOldToNew</td><td>is the mapping of vertices: before -&gt; after </td></tr>
     <tr><td class="paramname">uniteOnlyBd</td><td>if true then only boundary vertices can be united, all internal vertices (even close ones) will remain </td></tr>
   </table>

@@ -1,7 +1,9 @@
 var MRObjectPointsHolder_8h =
 [
-    [ "MR::defaultSerializePointsFormat", "group__GeneralGroup.html#gaa64f295ab3550ca99f30ea4026bdd48b", null ],
-    [ "MR::setDefaultSerializePointsFormat", "group__GeneralGroup.html#gadfa251767141b4418cd3d1b6b1828fab", null ],
-    [ "_count", "group__GeneralGroup.html#ga69c4cff6b9a1cd95c71fc56b8dd9a983", null ],
-    [ "SelectedVertices", "group__GeneralGroup.html#gacdce382a246b8c333783f28615aac9f0", null ]
+    [ "MR::PointsVisualizePropertyType", "group__GeneralGroup.html#ga6ffc473dc2d56b5d5ff90b837f4dd5cc", [
+      [ "MR::PointsVisualizePropertyType::SelectedVertices", "group__GeneralGroup.html#gga6ffc473dc2d56b5d5ff90b837f4dd5cca9726a33719e10ce4e913f84a5950e0ce", null ],
+      [ "MR::PointsVisualizePropertyType::_count", "group__GeneralGroup.html#gga6ffc473dc2d56b5d5ff90b837f4dd5ccad69186af02738a9b3ced1bc5b652ba55", null ]
+    ] ],
+    [ "MR::defaultSerializePointsFormat", "group__GeneralGroup.html#ga2c6a78cd704061f23a26f39a7894d013", null ],
+    [ "MR::setDefaultSerializePointsFormat", "group__GeneralGroup.html#ga7e504838577ed8995448cf04bf473df1", null ]
 ];

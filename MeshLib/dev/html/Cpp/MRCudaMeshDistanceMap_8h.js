@@ -1,5 +1,5 @@
 var MRCudaMeshDistanceMap_8h =
 [
-    [ "MR::Cuda::computeDistanceMap", "namespaceMR_1_1Cuda.html#ae00800a975100101a6b94ad8c6c4c817", null ],
-    [ "MR::Cuda::computeDistanceMapHeapBytes", "namespaceMR_1_1Cuda.html#ad3376b68fd0e9661c0072bf92dd704a3", null ]
+    [ "MR::Cuda::computeDistanceMap", "namespaceMR_1_1Cuda.html#a6106fe731ffbd58df4cb622680f388ca", null ],
+    [ "MR::Cuda::computeDistanceMapHeapBytes", "namespaceMR_1_1Cuda.html#a7427a8aeb5b9fcda2cc9c666c6308d85", null ]
 ];

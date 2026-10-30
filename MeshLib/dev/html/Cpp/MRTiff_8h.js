@@ -1,7 +1,7 @@
 var MRTiff_8h =
 [
     [ "MR::DistanceMapLoad::fromTiff", "group__GeneralGroup.html#gaca4207193c9429dfa4854457efea6c23", null ],
-    [ "MR::DistanceMapLoad::fromTiff", "group__GeneralGroup.html#gab345cb66e5ce36e8727661b2a91f9f02", null ],
+    [ "MR::DistanceMapLoad::fromTiff", "group__GeneralGroup.html#ga681d7de6d4692b69332d76d307b4a457", null ],
     [ "MR::ImageLoad::fromTiff", "group__GeneralGroup.html#ga7aa85481e130d6308bc8ddae1581f9c4", null ],
     [ "MR::RasterLoad::fromTiff", "group__GeneralGroup.html#ga3b276cd2ad021748a60bf2f705ac3bbc", null ],
     [ "MR::RasterLoad::infoFromTiff", "group__GeneralGroup.html#ga937e9face092516582310b4330dfc8da", null ],

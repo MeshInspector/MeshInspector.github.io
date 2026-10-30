@@ -182,8 +182,33 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Structure to map old mesh BitSets to new. </p>
-<p>Structure to easily map topology of MR::boolean input meshes to result mesh</p>
-<p>This structure allows to map faces, vertices and edges of mesh <span class="tt">A</span> and mesh <span class="tt">B</span> input of MR::boolean to result mesh topology primitives </p><div class="fragment"></div><!-- fragment --> <div class="fragment"></div><!-- fragment --> <dl class="section see"><dt>See also</dt><dd>MR::boolean </dd></dl>
+<p>Structure to easily map topology of <a class="el" href="group__BooleanGroup.html#ga16435c813b6198ecc337b3023c2cc729" title="Performs CSG operation on two meshes.">MR::boolean</a> input meshes to result mesh</p>
+<p>This structure allows to map faces, vertices and edges of mesh <span class="tt">A</span> and mesh <span class="tt">B</span> input of <a class="el" href="group__BooleanGroup.html#ga16435c813b6198ecc337b3023c2cc729" title="Performs CSG operation on two meshes.">MR::boolean</a> to result mesh topology primitives </p><div class="fragment"><div class="line">    <span class="comment">// find the faces of the result produced by each input sphere, and the faces the cut created</span></div>
+<div class="line">    <span class="keyword">using </span>MapObject = <a class="code hl_enumeration" href="#ad0b1836dae4789a5640522e69a889587">MR::BooleanResultMapper::MapObject</a>;</div>
+<div class="line">    MR::FaceBitSet facesOfSphere1 = mapper.<a class="code hl_function" href="#af6e316b7b21f94033491018406e4e3a6">map</a>( sphere1.<a class="code hl_variable" href="structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>.<a class="code hl_function" href="group__GeneralGroup.html#gaf4e844ba63490bc5f09757e2a4f35319">getValidFaces</a>(), MapObject::A );</div>
+<div class="line">    MR::FaceBitSet facesOfSphere2 = mapper.<a class="code hl_function" href="#af6e316b7b21f94033491018406e4e3a6">map</a>( sphere2.<a class="code hl_variable" href="structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>.<a class="code hl_function" href="group__GeneralGroup.html#gaf4e844ba63490bc5f09757e2a4f35319">getValidFaces</a>(), MapObject::B );</div>
+<div class="line">    MR::FaceBitSet newFaces = mapper.<a class="code hl_function" href="#a49d9476b91391ce052bbd2b26db33be5">newFaces</a>();</div>
+<div class="line"> </div>
+<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;faces from sphere1: &quot;</span> &lt;&lt; facesOfSphere1.count() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line">              &lt;&lt; <span class="stringliteral">&quot;faces from sphere2: &quot;</span> &lt;&lt; facesOfSphere2.count() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line">              &lt;&lt; <span class="stringliteral">&quot;faces created by the cut: &quot;</span> &lt;&lt; newFaces.count() &lt;&lt; std::endl;</div>
+</div><!-- fragment --> <div class="fragment"><div class="line">    <span class="comment">// map one particular face of sphere1 forward: the cut can split it in several faces of the</span></div>
+<div class="line">    <span class="comment">// result, or drop it completely if that part of sphere1 is not in the result</span></div>
+<div class="line">    MR::FaceId faceOfSphere1( 793 );</div>
+<div class="line">    MR::FaceBitSet oneFace;</div>
+<div class="line">    oneFace.autoResizeSet( faceOfSphere1 );</div>
+<div class="line">    MR::FaceBitSet producedFaces = mapper.<a class="code hl_function" href="#af6e316b7b21f94033491018406e4e3a6">map</a>( oneFace, MapObject::A );</div>
+<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;face &quot;</span> &lt;&lt; faceOfSphere1 &lt;&lt; <span class="stringliteral">&quot; of sphere1 produced &quot;</span> &lt;&lt; producedFaces.count() &lt;&lt; <span class="stringliteral">&quot; faces of the result:&quot;</span>;</div>
+<div class="line">    <span class="keywordflow">for</span> ( MR::FaceId f : producedFaces )</div>
+<div class="line">        std::cout &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; f;</div>
+<div class="line">    std::cout &lt;&lt; std::endl;</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// and backward: the face of sphere1 each face of the result came from</span></div>
+<div class="line">    <span class="comment">// (invalid id for the faces that came from sphere2)</span></div>
+<div class="line">    MR::FaceMap new2OldFaces = mapper.<a class="code hl_function" href="#a2afc6594c031077012caba95a2ba2672">getNew2OldFaceMap</a>( MapObject::A );</div>
+<div class="line">    MR::FaceId resultFace = producedFaces.find_first();</div>
+<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;face &quot;</span> &lt;&lt; resultFace &lt;&lt; <span class="stringliteral">&quot; of the result came from face &quot;</span> &lt;&lt; new2OldFaces[resultFace] &lt;&lt; <span class="stringliteral">&quot; of sphere1&quot;</span> &lt;&lt; std::endl;</div>
+</div><!-- fragment --> <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__BooleanGroup.html#ga16435c813b6198ecc337b3023c2cc729">MR::boolean</a> </dd></dl>
 </div><a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
 <a id="ad0b1836dae4789a5640522e69a889587" name="ad0b1836dae4789a5640522e69a889587"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad0b1836dae4789a5640522e69a889587">&#9670;&#160;</a></span>MapObject</h2>

@@ -1,5 +1,7 @@
 var MRPointMeasurementObject_8h =
 [
-    [ "_count", "group__GeneralGroup.html#ga69c4cff6b9a1cd95c71fc56b8dd9a983", null ],
-    [ "CapVisibility", "group__GeneralGroup.html#ga322f3bf83bb9a37355ec261f5a5a2933", null ]
+    [ "MR::PointMeasurementVisualizePropertyType", "group__GeneralGroup.html#ga2f0a3e208d095932200e2bc5569e6960", [
+      [ "MR::PointMeasurementVisualizePropertyType::CapVisibility", "group__GeneralGroup.html#gga2f0a3e208d095932200e2bc5569e6960af2a12dd7418165516c85f304c5ebe420", null ],
+      [ "MR::PointMeasurementVisualizePropertyType::_count", "group__GeneralGroup.html#gga2f0a3e208d095932200e2bc5569e6960ad69186af02738a9b3ced1bc5b652ba55", null ]
+    ] ]
 ];

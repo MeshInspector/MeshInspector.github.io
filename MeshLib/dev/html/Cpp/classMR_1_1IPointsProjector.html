@@ -163,7 +163,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a29ce251481d5cecc23a88a19a389df7b" id="r_a29ce251481d5cecc23a88a19a389df7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1IPointsProjector.html">IPointsProjector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29ce251481d5cecc23a88a19a389df7b">operator=</a> (<a class="el" href="classMR_1_1IPointsProjector.html">IPointsProjector</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="memitem:ae6ae7b291953d433a794999d25ef10df" id="r_ae6ae7b291953d433a794999d25ef10df"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6ae7b291953d433a794999d25ef10df">setPointCloud</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pointCloud)=0</td></tr>
 <tr class="memdesc:ae6ae7b291953d433a794999d25ef10df"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the reference point cloud  <br /></td></tr>
-<tr class="memitem:ab55d9f3ad796f98b2fb49a11850282b2" id="r_ab55d9f3ad796f98b2fb49a11850282b2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab55d9f3ad796f98b2fb49a11850282b2">findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a> &gt; &amp;results, const VertCoords &amp;<a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, const <a class="el" href="structMR_1_1FindProjectionOnPointsSettings.html">FindProjectionOnPointsSettings</a> &amp;<a class="el" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a>) const =0</td></tr>
+<tr class="memitem:ab55d9f3ad796f98b2fb49a11850282b2" id="r_ab55d9f3ad796f98b2fb49a11850282b2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab55d9f3ad796f98b2fb49a11850282b2">findProjections</a> (std::vector&lt; <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a> &gt; &amp;results, const VertCoords &amp;points, const <a class="el" href="structMR_1_1FindProjectionOnPointsSettings.html">FindProjectionOnPointsSettings</a> &amp;settings) const =0</td></tr>
 <tr class="memdesc:ab55d9f3ad796f98b2fb49a11850282b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the closest points on point cloud to given points  <br /></td></tr>
 <tr class="memitem:a4125cb715c028facd258f35767e5c66c" id="r_a4125cb715c028facd258f35767e5c66c"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4125cb715c028facd258f35767e5c66c">projectionsHeapBytes</a> (size_t numProjections) const =0</td></tr>
 <tr class="memdesc:a4125cb715c028facd258f35767e5c66c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns amount of memory needed to compute projections.  <br /></td></tr>
@@ -385,7 +385,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Returns amount of memory needed to compute projections. </p>
 
-<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1PointsProjector.html#acc3b795a692a05aa71390db850bb9ff4">MR::Cuda::PointsProjector</a>, and <a class="el" href="classMR_1_1PointsProjector.html#aeb970ece1c2d3764ce6369fc07d74181">MR::PointsProjector</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1PointsProjector.html#a0ac2faedf8134c27e3ee6c24c5f9b984">MR::Cuda::PointsProjector</a>, and <a class="el" href="classMR_1_1PointsProjector.html#aeb970ece1c2d3764ce6369fc07d74181">MR::PointsProjector</a>.</p>
 
 </div>
 </div>
@@ -414,7 +414,7 @@ Public Member Functions</h2></td></tr>
 
 <p>sets the reference point cloud </p>
 
-<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1PointsProjector.html#ae5f97af32e2a2a8898a3063117312160">MR::Cuda::PointsProjector</a>, and <a class="el" href="classMR_1_1PointsProjector.html#a6e8b40dd14c3c9f33f62f7e0f8e2cadd">MR::PointsProjector</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1Cuda_1_1PointsProjector.html#a9e76dd8c609f8fd1f6a0f9bab37e0938">MR::Cuda::PointsProjector</a>, and <a class="el" href="classMR_1_1PointsProjector.html#a6e8b40dd14c3c9f33f62f7e0f8e2cadd">MR::PointsProjector</a>.</p>
 
 </div>
 </div>

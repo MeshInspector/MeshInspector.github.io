@@ -136,31 +136,42 @@ $(function(){initNavTree('ExampleMeshModification.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2MeshModification"></a></p>
 <p>Some examples of mesh modification are presented here</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRAffineXf3.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshRelax.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSubdivide.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRTorus.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRAffineXf3_8h.html">MRMesh/MRAffineXf3.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshRelax_8h.html">MRMesh/MRMeshRelax.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSubdivide_8h.html">MRMesh/MRMeshSubdivide.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRTorus_8h.html">MRMesh/MRTorus.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
-<div class="line">    MR::Mesh mesh = MR::makeTorus();</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga638324ed49e28189a1c35cf398dc6a73">MR::makeTorus</a>();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Relax mesh (5 iterations)</span></div>
-<div class="line">    MR::relax( mesh, {{ .iterations = 5 }} );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__MeshRelaxGroup.html#gae33b27e64fe5ab346333589e6564abee">MR::relax</a>( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, {{ .iterations = 5 }} );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Subdivide mesh</span></div>
-<div class="line">    MR::SubdivideSettings props;</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a> props;</div>
 <div class="line">    props.maxDeviationAfterFlip = 0.5f;</div>
-<div class="line">    MR::subdivideMesh( mesh, props );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__MeshSubdivideGroup.html#gad5fa6e7eb325d6fac5aae27909ce7d8d">MR::subdivideMesh</a>( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, props );</div>
 <div class="line"></div>
 <div class="line">    <span class="comment">// Rotate mesh</span></div>
 <div class="line">    MR::AffineXf3f rotationXf = MR::AffineXf3f::linear( MR::Matrix3f::rotation( MR::Vector3f::plusZ(), MR::PI_F * 0.5f ) );</div>
-<div class="line">    mesh.transform( rotationXf );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.transform( rotationXf );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRAffineXf3_8h_html"><div class="ttname"><a href="./Cpp/MRAffineXf3_8h.html">MRAffineXf3.h</a></div></div>
+<div class="ttc" id="aMRMeshRelax_8h_html"><div class="ttname"><a href="./Cpp/MRMeshRelax_8h.html">MRMeshRelax.h</a></div></div>
+<div class="ttc" id="aMRMeshSubdivide_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSubdivide_8h.html">MRMeshSubdivide.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aMRTorus_8h_html"><div class="ttname"><a href="./Cpp/MRTorus_8h.html">MRTorus.h</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga638324ed49e28189a1c35cf398dc6a73"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga638324ed49e28189a1c35cf398dc6a73">MR::makeTorus</a></div><div class="ttdeci">Mesh makeTorus(float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
+<div class="ttc" id="agroup__MeshRelaxGroup_html_gae33b27e64fe5ab346333589e6564abee"><div class="ttname"><a href="./Cpp/group__MeshRelaxGroup.html#gae33b27e64fe5ab346333589e6564abee">MR::relax</a></div><div class="ttdeci">bool relax(Mesh &amp;mesh, const MeshRelaxParams &amp;params={}, const ProgressCallback &amp;cb={})</div></div>
+<div class="ttc" id="agroup__MeshSubdivideGroup_html_gad5fa6e7eb325d6fac5aae27909ce7d8d"><div class="ttname"><a href="./Cpp/group__MeshSubdivideGroup.html#gad5fa6e7eb325d6fac5aae27909ce7d8d">MR::subdivideMesh</a></div><div class="ttdeci">int subdivideMesh(Mesh &amp;mesh, const SubdivideSettings &amp;settings={})</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
+<div class="ttc" id="astructMR_1_1SubdivideSettings_html"><div class="ttname"><a href="./Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> math</div>
 <div class="line"> </div>
@@ -194,29 +205,30 @@ $(function(){initNavTree('ExampleMeshModification.html','',''); });
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
-<div class="line">    MR_Mesh* mesh = MR_makeTorus( NULL, NULL, NULL, NULL, NULL );</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_makeTorus( NULL, NULL, NULL, NULL, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Relax mesh (5 iterations)</span></div>
 <div class="line">    MR_MeshRelaxParams* meshRelaxParams = MR_MeshRelaxParams_DefaultConstruct();</div>
 <div class="line">    MR_MeshRelaxParams_Set_iterations( meshRelaxParams, 5 );</div>
-<div class="line">    MR_relax( mesh, meshRelaxParams, NULL );</div>
+<div class="line">    MR_relax( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, meshRelaxParams, NULL );</div>
 <div class="line">    MR_MeshRelaxParams_Destroy( meshRelaxParams );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Subdivide mesh</span></div>
 <div class="line">    MR_SubdivideSettings* subdivideSettings = MR_SubdivideSettings_DefaultConstruct();</div>
 <div class="line">    MR_SubdivideSettings_Set_maxDeviationAfterFlip( subdivideSettings, 0.5f );</div>
-<div class="line">    MR_subdivideMesh_MR_Mesh( mesh, subdivideSettings );</div>
+<div class="line">    MR_subdivideMesh_MR_Mesh( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, subdivideSettings );</div>
 <div class="line">    MR_SubdivideSettings_Destroy( subdivideSettings );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Rotate mesh</span></div>
-<div class="line">    MR_Vector3f plusZ = MR_Vector3f_plusZ();</div>
-<div class="line">    MR_Matrix3f rotMat = MR_Matrix3f_rotation_float( &amp;plusZ, 1.57079632679489661923 ); <span class="comment">// pi/2</span></div>
+<div class="line">    MR_Vector3f <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaba68004d56f0100e523093390f939910">plusZ</a> = MR_Vector3f_plusZ();</div>
+<div class="line">    MR_Matrix3f rotMat = MR_Matrix3f_rotation_float( &amp;<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaba68004d56f0100e523093390f939910">plusZ</a>, 1.57079632679489661923 ); <span class="comment">// pi/2</span></div>
 <div class="line">    MR_AffineXf3f rotXf = MR_AffineXf3f_linear( &amp;rotMat );</div>
-<div class="line">    MR_Mesh_transform( mesh, &amp;rotXf, NULL );</div>
+<div class="line">    MR_Mesh_transform( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, &amp;rotXf, NULL );</div>
 <div class="line"> </div>
-<div class="line">    MR_Mesh_Destroy( mesh );</div>
+<div class="line">    MR_Mesh_Destroy( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> );</div>
 <div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
 <div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaba68004d56f0100e523093390f939910"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaba68004d56f0100e523093390f939910">plusZ</a></div><div class="ttdeci">static constexpr Vector3 plusZ() noexcept</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>

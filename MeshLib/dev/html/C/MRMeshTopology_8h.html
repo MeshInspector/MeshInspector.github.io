@@ -1017,12 +1017,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>deletes the face, also deletes its edges and vertices if they were not shared by other faces and not in</p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">keepFaces</td><td>Generated from method <span class="tt">MR::MeshTopology::deleteFace</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">keepEdges</span> defaults to a null pointer in C++. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>deletes the face, also deletes its edges and vertices if they were not shared by other faces and not in <code class="param">keepEdges</code> Generated from method <span class="tt">MR::MeshTopology::deleteFace</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">keepEdges</span> defaults to a null pointer in C++. </p>
 
 </div>
 </div>
@@ -1049,13 +1044,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only deleted faces and no edges from</p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">keepEdges,3)</td><td>make lone all the edges, which had to the left/right only deleted faces except for the edges from</td></tr>
-    <tr><td class="paramname">keepEdges;</td><td>return bit sets of all vacant elements in this topology after deletion Generated from method <span class="tt">MR::MeshTopology::deleteFaces</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">fs</span> can not be null. It is a single object. Parameter <span class="tt">keepEdges</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a6074870fc4a2793007199447d5732b21" title="Destroys a heap-allocated instance of MR_VacantElements. Does nothing if the pointer is null.">MR_VacantElements_Destroy()</a></span> to free it when you're done using it. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only deleted faces and no edges from <code class="param">keepEdges</code>, 3) make lone all the edges, which had to the left/right only deleted faces except for the edges from <code class="param">keepEdges</code>; return bit sets of all vacant elements in this topology after deletion Generated from method <span class="tt">MR::MeshTopology::deleteFaces</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">fs</span> can not be null. It is a single object. Parameter <span class="tt">keepEdges</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a6074870fc4a2793007199447d5732b21" title="Destroys a heap-allocated instance of MR_VacantElements. Does nothing if the pointer is null.">MR_VacantElements_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1636,20 +1625,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>flip orientation (normals) of</p><ul>
-<li>all mesh elements if<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">fullComponents</td><td>is nullptr, or</td></tr>
-  </table>
-  </dd>
-</dl>
-</li>
-<li>given mesh components in<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">fullComponents.</td><td>The behavior is undefined if fullComponents is given but there are connected components with some edges included and not-included there. Generated from method <span class="tt">MR::MeshTopology::flipOrientation</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">fullComponents</span> defaults to a null pointer in C++. </td></tr>
-  </table>
-  </dd>
-</dl>
-</li>
+<li>all mesh elements if <code class="param">fullComponents</code> is nullptr, or</li>
+<li>given mesh components in <code class="param">fullComponents</code>. The behavior is undefined if fullComponents is given but there are connected components with some edges included and not-included there. Generated from method <span class="tt">MR::MeshTopology::flipOrientation</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">fullComponents</span> defaults to a null pointer in C++. </li>
 </ul>
 
 </div>

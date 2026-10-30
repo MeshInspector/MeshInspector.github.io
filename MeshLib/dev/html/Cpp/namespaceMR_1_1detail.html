@@ -163,43 +163,43 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a92c86287dc5036d235dd025e24861f4b" id="r_a92c86287dc5036d235dd025e24861f4b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92c86287dc5036d235dd025e24861f4b">PerturbationStages</a> = <a class="el" href="classMR_1_1detail_1_1PerturbationStagesOf.html">PerturbationStagesOf</a>&lt;<a class="el" href="#a82fcd377947914c7a39781e66672c4d8">cMaxPerturbedPoints</a>, false&gt;</td></tr>
 <tr class="memdesc:a92c86287dc5036d235dd025e24861f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the stages of at most cMaxPerturbedPoints points, whose degrees the caller makes fit in int64  <br /></td></tr>
 <tr class="memitem:a38adfe3c74506871e3e2af9c3c598c75" id="r_a38adfe3c74506871e3e2af9c3c598c75"><td class="memTemplParams" colspan="2">template&lt;std::int64_t M&gt; </td></tr>
-<tr class="memitem:a38adfe3c74506871e3e2af9c3c598c75 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38adfe3c74506871e3e2af9c3c598c75">VolumePoly</a> = <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt;<a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>, std::int64_t, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a>&gt;</td></tr>
+<tr class="memitem:a38adfe3c74506871e3e2af9c3c598c75 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38adfe3c74506871e3e2af9c3c598c75">VolumePoly</a> = <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt;<a class="el" href="namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>, std::int64_t, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a>&gt;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1c3d4f65be2335aa2156f777bfe33154" id="r_a1c3d4f65be2335aa2156f777bfe33154"><td class="memItemLeft" align="right" valign="top">constexpr std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c3d4f65be2335aa2156f777bfe33154">addCarry64</a> (std::uint64_t <a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, std::uint64_t <a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>, std::uint64_t &amp;carry) noexcept</td></tr>
+<tr class="memitem:a1c3d4f65be2335aa2156f777bfe33154" id="r_a1c3d4f65be2335aa2156f777bfe33154"><td class="memItemLeft" align="right" valign="top">constexpr std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c3d4f65be2335aa2156f777bfe33154">addCarry64</a> (std::uint64_t a, std::uint64_t b, std::uint64_t &amp;carry) noexcept</td></tr>
 <tr class="memdesc:a1c3d4f65be2335aa2156f777bfe33154"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a + b + carry modulo 2^64, and replaces carry with the carry-out (0 or 1)  <br /></td></tr>
-<tr class="memitem:a7fc59c8caf263e5cec996db9f596920d" id="r_a7fc59c8caf263e5cec996db9f596920d"><td class="memItemLeft" align="right" valign="top">constexpr std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fc59c8caf263e5cec996db9f596920d">subBorrow64</a> (std::uint64_t <a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, std::uint64_t <a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>, std::uint64_t &amp;borrow) noexcept</td></tr>
+<tr class="memitem:a7fc59c8caf263e5cec996db9f596920d" id="r_a7fc59c8caf263e5cec996db9f596920d"><td class="memItemLeft" align="right" valign="top">constexpr std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fc59c8caf263e5cec996db9f596920d">subBorrow64</a> (std::uint64_t a, std::uint64_t b, std::uint64_t &amp;borrow) noexcept</td></tr>
 <tr class="memdesc:a7fc59c8caf263e5cec996db9f596920d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a - b - borrow modulo 2^64, and replaces borrow with the borrow-out (0 or 1)  <br /></td></tr>
 <tr class="memitem:a198d8073571caaae263de501236e6052" id="r_a198d8073571caaae263de501236e6052"><td class="memItemLeft" align="right" valign="top">constexpr std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a198d8073571caaae263de501236e6052">signWord</a> (std::uint64_t hi) noexcept</td></tr>
 <tr class="memdesc:a198d8073571caaae263de501236e6052"><td class="mdescLeft">&#160;</td><td class="mdescRight">all ones if the highest bit of the given word is set, and zeros otherwise  <br /></td></tr>
 <tr class="memitem:adef9954c65821ab458734f64ae86e011" id="r_adef9954c65821ab458734f64ae86e011"><td class="memTemplParams" colspan="2">template&lt;std::size_t n, std::size_t m&gt; </td></tr>
-<tr class="memitem:adef9954c65821ab458734f64ae86e011 template"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; std::uint64_t, n+m &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adef9954c65821ab458734f64ae86e011">mulWords</a> (const std::array&lt; std::uint64_t, n &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const std::array&lt; std::uint64_t, m &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>) noexcept</td></tr>
+<tr class="memitem:adef9954c65821ab458734f64ae86e011 template"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; std::uint64_t, n+m &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adef9954c65821ab458734f64ae86e011">mulWords</a> (const std::array&lt; std::uint64_t, n &gt; &amp;a, const std::array&lt; std::uint64_t, m &gt; &amp;b) noexcept</td></tr>
 <tr class="memdesc:adef9954c65821ab458734f64ae86e011"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::size_t and not int, to be deducible from std::array  <br /></td></tr>
 <tr class="memitem:a0c3c7fc10991c0eb99094bb42d438de2" id="r_a0c3c7fc10991c0eb99094bb42d438de2"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a0c3c7fc10991c0eb99094bb42d438de2 template"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c3c7fc10991c0eb99094bb42d438de2">mulWordsOf</a> (T v) noexcept</td></tr>
 <tr class="memdesc:a0c3c7fc10991c0eb99094bb42d438de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the words of a multiplier of <a class="el" href="classMR_1_1FastInt.html">FastInt</a>, sign-extended if it is signed  <br /></td></tr>
 <tr class="memitem:a642d79bba1a218c9810ee5a91c1362b9" id="r_a642d79bba1a218c9810ee5a91c1362b9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a642d79bba1a218c9810ee5a91c1362b9">doubleFromWords</a> (const std::uint64_t *w, int n) noexcept</td></tr>
-<tr class="memitem:ab652e2278f32034e7f2aa5960239c222" id="r_ab652e2278f32034e7f2aa5960239c222"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab652e2278f32034e7f2aa5960239c222">orient3dVolume</a> (const Vector3i &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const Vector3i &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>, const Vector3i &amp;c, const Vector3i &amp;d)</td></tr>
+<tr class="memitem:ab652e2278f32034e7f2aa5960239c222" id="r_ab652e2278f32034e7f2aa5960239c222"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> <a class="el" href="namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab652e2278f32034e7f2aa5960239c222">orient3dVolume</a> (const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c, const Vector3i &amp;d)</td></tr>
 <tr class="memitem:aa0d575ca9be16ac96f646ddd488eb50a" id="r_aa0d575ca9be16ac96f646ddd488eb50a"><td class="memTemplParams" colspan="2">template&lt;int N = cMaxPerturbedPoints, bool Bounded = false&gt; </td></tr>
 <tr class="memitem:aa0d575ca9be16ac96f646ddd488eb50a template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0d575ca9be16ac96f646ddd488eb50a">getPointDegrees</a> (const <a class="el" href="structMR_1_1PreciseVertCoords.html">PreciseVertCoords</a> *vs, const std::int64_t *radices, int n, <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> *res, std::int64_t *places=nullptr)</td></tr>
 <tr class="memitem:a349b4ff5760953282c595de0b6c3e1ab" id="r_a349b4ff5760953282c595de0b6c3e1ab"><td class="memTemplParams" colspan="2">template&lt;std::int64_t M&gt; </td></tr>
-<tr class="memitem:a349b4ff5760953282c595de0b6c3e1ab template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a38adfe3c74506871e3e2af9c3c598c75">VolumePoly</a>&lt; <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a349b4ff5760953282c595de0b6c3e1ab">orient3dPoly</a> (const <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>, const <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> &amp;c, const <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> &amp;d)</td></tr>
+<tr class="memitem:a349b4ff5760953282c595de0b6c3e1ab template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a38adfe3c74506871e3e2af9c3c598c75">VolumePoly</a>&lt; <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a349b4ff5760953282c595de0b6c3e1ab">orient3dPoly</a> (const <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> &amp;a, const <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> &amp;b, const <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> &amp;c, const <a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a> &amp;d)</td></tr>
 <tr class="memdesc:a349b4ff5760953282c595de0b6c3e1ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">the volume of tetrahedron abcd (see orient3dVolume) of the perturbed points as a polynomial of eps, without the terms of degrees above M  <br /></td></tr>
-<tr class="memitem:a5594c749385503cd1087702f28de4651" id="r_a5594c749385503cd1087702f28de4651"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5594c749385503cd1087702f28de4651">runCocoaFileDialog</a> (const <a class="el" href="structMR_1_1FileDialog_1_1Parameters.html">MR::FileDialog::Parameters</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>)</td></tr>
+<tr class="memitem:a5594c749385503cd1087702f28de4651" id="r_a5594c749385503cd1087702f28de4651"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5594c749385503cd1087702f28de4651">runCocoaFileDialog</a> (const <a class="el" href="structMR_1_1FileDialog_1_1Parameters.html">MR::FileDialog::Parameters</a> &amp;params)</td></tr>
 <tr class="memdesc:a5594c749385503cd1087702f28de4651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open Cocoa file dialog.  <br /></td></tr>
 <tr class="memitem:a4b40e1222b8df2660b25e4942deb39fb" id="r_a4b40e1222b8df2660b25e4942deb39fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b40e1222b8df2660b25e4942deb39fb">isPortalFileDialogSupported</a> ()</td></tr>
 <tr class="memdesc:a4b40e1222b8df2660b25e4942deb39fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if XDG Desktop Portal file dialogs are supported.  <br /></td></tr>
-<tr class="memitem:a1a02e764be7c54f9177025ee42b915d0" id="r_a1a02e764be7c54f9177025ee42b915d0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a02e764be7c54f9177025ee42b915d0">runPortalFileDialog</a> (const <a class="el" href="structMR_1_1FileDialog_1_1Parameters.html">MR::FileDialog::Parameters</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>)</td></tr>
+<tr class="memitem:a1a02e764be7c54f9177025ee42b915d0" id="r_a1a02e764be7c54f9177025ee42b915d0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a02e764be7c54f9177025ee42b915d0">runPortalFileDialog</a> (const <a class="el" href="structMR_1_1FileDialog_1_1Parameters.html">MR::FileDialog::Parameters</a> &amp;params)</td></tr>
 <tr class="memdesc:a1a02e764be7c54f9177025ee42b915d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open XDG Desktop Portal file dialog.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:af6206848d5379160c8a8684d2c76593f" id="r_af6206848d5379160c8a8684d2c76593f"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:af6206848d5379160c8a8684d2c76593f template"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6206848d5379160c8a8684d2c76593f">cFitsFastInt128</a> = std::is_integral_v&lt;T&gt; || std::is_same_v&lt;T, <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt;</td></tr>
-<tr class="memdesc:af6206848d5379160c8a8684d2c76593f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the integer types that <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> represents exactly, and which the classes below accept  <br /></td></tr>
+<tr class="memitem:af6206848d5379160c8a8684d2c76593f template"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6206848d5379160c8a8684d2c76593f">cFitsFastInt128</a> = std::is_integral_v&lt;T&gt; || std::is_same_v&lt;T, <a class="el" href="namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt;</td></tr>
+<tr class="memdesc:af6206848d5379160c8a8684d2c76593f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the integer types that <a class="el" href="namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> represents exactly, and which the classes below accept  <br /></td></tr>
 <tr class="memitem:a7fc2a0ff5839e59c72d8681e50b67fdc" id="r_a7fc2a0ff5839e59c72d8681e50b67fdc"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:a7fc2a0ff5839e59c72d8681e50b67fdc template"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fc2a0ff5839e59c72d8681e50b67fdc">cMulBits</a> = std::is_same_v&lt;T, <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt; || ( std::is_unsigned_v&lt;T&gt; &amp;&amp; sizeof( T ) &gt;= 8 ) ? 128 : 64</td></tr>
+<tr class="memitem:a7fc2a0ff5839e59c72d8681e50b67fdc template"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fc2a0ff5839e59c72d8681e50b67fdc">cMulBits</a> = std::is_same_v&lt;T, <a class="el" href="namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt; || ( std::is_unsigned_v&lt;T&gt; &amp;&amp; sizeof( T ) &gt;= 8 ) ? 128 : 64</td></tr>
 <tr class="memitem:a82fcd377947914c7a39781e66672c4d8" id="r_a82fcd377947914c7a39781e66672c4d8"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82fcd377947914c7a39781e66672c4d8">cMaxPerturbedPoints</a> = 16</td></tr>
 <tr class="memdesc:a82fcd377947914c7a39781e66672c4d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">the largest number of points of one predicate that getPointDegrees and <a class="el" href="#a92c86287dc5036d235dd025e24861f4b" title="the stages of at most cMaxPerturbedPoints points, whose degrees the caller makes fit in int64">PerturbationStages</a> take by default  <br /></td></tr>
 <tr class="memitem:acba423b3c3de9931068347f0f0d091d2" id="r_acba423b3c3de9931068347f0f0d091d2"><td class="memItemLeft" align="right" valign="top">constexpr std::int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acba423b3c3de9931068347f0f0d091d2">cMaxPolyDAll</a> = std::numeric_limits&lt;std::int64_t&gt;::max()</td></tr>
@@ -236,7 +236,7 @@ Variables</h2></td></tr>
 template&lt;std::int64_t M&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a38adfe3c74506871e3e2af9c3c598c75">MR::detail::VolumePoly</a> = <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt;<a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>, std::int64_t, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a>&gt;</td>
+          <td class="memname">using <a class="el" href="#a38adfe3c74506871e3e2af9c3c598c75">MR::detail::VolumePoly</a> = <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt;<a class="el" href="namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>, std::int64_t, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -278,7 +278,7 @@ template&lt;std::int64_t M&gt; </div>
 </div><div class="memdoc">
 
 <p>returns a + b + carry modulo 2^64, and replaces carry with the carry-out (0 or 1) </p>
-<p>the two functions below are spelled via <a class="el" href="group__GeneralGroup.html#ga906daf2182f2898fb3e5ad598d8960ae">FastUInt128</a>, where the carry-out is simply the higher word, as in mulWords below </p>
+<p>the two functions below are spelled via <a class="el" href="namespaceMR.html#a906daf2182f2898fb3e5ad598d8960ae">FastUInt128</a>, where the carry-out is simply the higher word, as in mulWords below </p>
 
 </div>
 </div>
@@ -496,7 +496,7 @@ template&lt;std::int64_t M&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> MR::detail::orient3dVolume </td>
+          <td class="memname"><a class="el" href="MRMacros_8h.html#ab046fc4170c43e2643920e9039d7357e">MR_FORCE_INLINE</a> <a class="el" href="namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> MR::detail::orient3dVolume </td>
           <td>(</td>
           <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -640,7 +640,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::detail::cFitsFastInt128 = std::is_integral_v&lt;T&gt; || std::is_same_v&lt;T, <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt;</td>
+          <td class="memname">bool MR::detail::cFitsFastInt128 = std::is_integral_v&lt;T&gt; || std::is_same_v&lt;T, <a class="el" href="namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt;</td>
         </tr>
       </table>
   </td>
@@ -650,7 +650,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>the integer types that <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> represents exactly, and which the classes below accept </p>
+<p>the integer types that <a class="el" href="namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> represents exactly, and which the classes below accept </p>
 
 </div>
 </div>
@@ -761,7 +761,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int MR::detail::cMulBits = std::is_same_v&lt;T, <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt; || ( std::is_unsigned_v&lt;T&gt; &amp;&amp; sizeof( T ) &gt;= 8 ) ? 128 : 64</td>
+          <td class="memname">int MR::detail::cMulBits = std::is_same_v&lt;T, <a class="el" href="namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt; || ( std::is_unsigned_v&lt;T&gt; &amp;&amp; sizeof( T ) &gt;= 8 ) ? 128 : 64</td>
         </tr>
       </table>
   </td>
@@ -770,7 +770,7 @@ template&lt;typename T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>the number of bits a multiplier of <a class="el" href="classMR_1_1FastInt.html">FastInt</a> occupies: 128 for <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> and for an unsigned 64-bit integer, both of which need two words, and 64 for anything signed or narrower </p>
+<p>the number of bits a multiplier of <a class="el" href="classMR_1_1FastInt.html">FastInt</a> occupies: 128 for <a class="el" href="namespaceMR.html#a626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> and for an unsigned 64-bit integer, both of which need two words, and 64 for anything signed or narrower </p>
 
 </div>
 </div>

@@ -136,62 +136,75 @@ $(function(){initNavTree('ExampleLaplacian.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2LaplacianExample"></a></p>
 <p>Example of using Laplacian deformer</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRExpandShrink.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRLaplacian.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRBox_8h.html">MRMesh/MRBox.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRExpandShrink_8h.html">MRMesh/MRExpandShrink.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRLaplacian_8h.html">MRMesh/MRLaplacian.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
-<div class="line">    <span class="keyword">auto</span> loadRes = MR::MeshLoad::fromAnySupportedFormat( <span class="stringliteral">&quot;mesh.stl&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> loadRes = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !loadRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; loadRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
-<div class="line">    MR::Mesh&amp; mesh = *loadRes;</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a>&amp; <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = *loadRes;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Construct deformer on the mesh vertices</span></div>
-<div class="line">    MR::Laplacian lDeformer( mesh );</div>
+<div class="line">    <a class="code hl_classRef" href="./Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a> lDeformer( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find an area for the deformation anchor points</span></div>
-<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> ancV0 = mesh.topology.getValidVerts().find_first();</div>
-<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> ancV1 = mesh.topology.getValidVerts().find_last();</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> ancV0 = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.getValidVerts().find_first();</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> ancV1 = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.getValidVerts().find_last();</div>
 <div class="line">    <span class="comment">// Mark the anchor points in the free area</span></div>
-<div class="line">    MR::VertBitSet freeVerts;</div>
-<div class="line">    freeVerts.resize( mesh.topology.getValidVerts().size() );</div>
-<div class="line">    freeVerts.set( ancV0, <span class="keyword">true</span> );</div>
-<div class="line">    freeVerts.set( ancV1, <span class="keyword">true</span> );</div>
+<div class="line">    MR::VertBitSet <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>;</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>.resize( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.getValidVerts().size() );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>.set( ancV0, <span class="keyword">true</span> );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>.set( ancV1, <span class="keyword">true</span> );</div>
 <div class="line">    <span class="comment">// Expand the free area</span></div>
-<div class="line">    MR::expand( mesh.topology, freeVerts, 5 );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0aa76473eb16c1962035c1d6561a08da">MR::expand</a>( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology, <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>, 5 );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Initialize laplacian</span></div>
-<div class="line">    lDeformer.init( freeVerts, MR::EdgeWeights::Cotan, MR::VertexMass::NeiArea );</div>
+<div class="line">    lDeformer.init( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>, MR::EdgeWeights::Cotan, MR::VertexMass::NeiArea );</div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> shiftAmount = mesh.computeBoundingBox().diagonal() * 0.01f;</div>
+<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> shiftAmount = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.computeBoundingBox().diagonal() * 0.01f;</div>
 <div class="line">    <span class="comment">// Fix the anchor vertices in the required position</span></div>
-<div class="line">    lDeformer.fixVertex( ancV0, mesh.points[ancV0] + mesh.normal( ancV0 ) * shiftAmount );</div>
-<div class="line">    lDeformer.fixVertex( ancV1, mesh.points[ancV1] + mesh.normal( ancV1 ) * shiftAmount );</div>
+<div class="line">    lDeformer.fixVertex( ancV0, <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.points[ancV0] + <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.normal( ancV0 ) * shiftAmount );</div>
+<div class="line">    lDeformer.fixVertex( ancV1, <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.points[ancV1] + <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.normal( ancV1 ) * shiftAmount );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Move the free vertices according to the anchor ones</span></div>
 <div class="line">    lDeformer.apply();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Invalidate the mesh because of the external vertex changes</span></div>
-<div class="line">    mesh.invalidateCaches();</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.invalidateCaches();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save the deformed mesh</span></div>
-<div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span> ); !saveRes )</div>
+<div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a>( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span> ); !saveRes )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; saveRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRBox_8h_html"><div class="ttname"><a href="./Cpp/MRBox_8h.html">MRBox.h</a></div></div>
+<div class="ttc" id="aMRExpandShrink_8h_html"><div class="ttname"><a href="./Cpp/MRExpandShrink_8h.html">MRExpandShrink.h</a></div></div>
+<div class="ttc" id="aMRLaplacian_8h_html"><div class="ttname"><a href="./Cpp/MRLaplacian_8h.html">MRLaplacian.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aclassMR_1_1Laplacian_html"><div class="ttname"><a href="./Cpp/classMR_1_1Laplacian.html">MR::Laplacian</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga0aa76473eb16c1962035c1d6561a08da"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga0aa76473eb16c1962035c1d6561a08da">MR::expand</a></div><div class="ttdeci">void expand(const MeshTopology &amp;topology, FaceBitSet &amp;region, int hops=1)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga193dcb7b5ba595a2dad19cf1b4af4ce9"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a></div><div class="ttdeci">const VertBitSet &amp; freeVerts() const</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html_aa115a0d8b8efd585125c07693565388b"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <dl class="section note"><dt>Note</dt><dd>Python API version 3 and later</dd></dl>
 <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
@@ -207,7 +220,7 @@ $(function(){initNavTree('ExampleLaplacian.html','',''); });
 <div class="line">ancV1 = mesh.topology.getValidVerts().find_last()</div>
 <div class="line"><span class="comment"># Mark anchor points in free area</span></div>
 <div class="line">freeVerts = mm.VertBitSet()</div>
-<div class="line">freeVerts.resize(mesh.topology.getValidVerts().size())</div>
+<div class="line">freeVerts.resize(mesh.topology.getValidVerts().<a class="code hl_functionRef" href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>())</div>
 <div class="line">freeVerts.set( ancV0, <span class="keyword">True</span> )</div>
 <div class="line">freeVerts.set( ancV1, <span class="keyword">True</span> )</div>
 <div class="line"><span class="comment"># Expand free area</span></div>
@@ -216,7 +229,7 @@ $(function(){initNavTree('ExampleLaplacian.html','',''); });
 <div class="line"><span class="comment"># Initialize laplacian</span></div>
 <div class="line">lDeformer.init(freeVerts,mm.EdgeWeights.Cotan,mm.VertexMass.NeiArea)</div>
 <div class="line"> </div>
-<div class="line">shiftAmount = mesh.computeBoundingBox().diagonal()*0.01</div>
+<div class="line">shiftAmount = mesh.computeBoundingBox().<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a>()*0.01</div>
 <div class="line"><span class="comment"># Fix anchor vertices in required position</span></div>
 <div class="line">lDeformer.fixVertex( ancV0, mesh.points[ancV0] + mesh.normal(ancV0) * shiftAmount )</div>
 <div class="line">lDeformer.fixVertex( ancV1, mesh.points[ancV1] + mesh.normal(ancV1) * shiftAmount )</div>
@@ -229,6 +242,8 @@ $(function(){initNavTree('ExampleLaplacian.html','',''); });
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save deformed mesh</span></div>
 <div class="line">mm.saveMesh(mesh,<span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>)</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga364466ea8c305b40ce349b90f040c873"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a></div><div class="ttdeci">static constexpr SymMatrix2 diagonal(T diagVal) noexcept</div></div>
+<div class="ttc" id="agroup__VoxelGroup_html_ga1a728fc2d1e7dd47e0f137af620f6985"><div class="ttname"><a href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a></div><div class="ttdeci">size_t size() const</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRBitSet.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRExpandShrink.h&gt;</span></div>
@@ -248,10 +263,10 @@ $(function(){initNavTree('ExampleLaplacian.html','',''); });
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
 <div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Handle failure to load mesh</span></div>
-<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshEx ) ) );</div>
 <div class="line">        MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
@@ -259,51 +274,52 @@ $(function(){initNavTree('ExampleLaplacian.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Construct deformer on the mesh vertices</span></div>
-<div class="line">    MR_Laplacian* lDeformer = MR_Laplacian_Construct( mesh );</div>
+<div class="line">    MR_Laplacian* lDeformer = MR_Laplacian_Construct( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find an area for the deformation anchor points</span></div>
-<div class="line">    <span class="keyword">const</span> MR_VertBitSet* verts = MR_MeshTopology_getValidVerts( MR_Mesh_Get_topology( mesh ) );</div>
+<div class="line">    <span class="keyword">const</span> MR_VertBitSet* verts = MR_MeshTopology_getValidVerts( MR_Mesh_Get_topology( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> ) );</div>
 <div class="line">    MR_VertId ancV0 = MR_VertBitSet_find_first( verts );</div>
 <div class="line">    MR_VertId ancV1 = MR_VertBitSet_find_last( verts );</div>
 <div class="line">    <span class="comment">// Mark the anchor points in the free area</span></div>
-<div class="line">    MR_VertBitSet* freeVerts = MR_VertBitSet_DefaultConstruct();</div>
-<div class="line">    MR_VertBitSet_resize( freeVerts, MR_VertBitSet_size( verts ), NULL );</div>
+<div class="line">    MR_VertBitSet* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a> = MR_VertBitSet_DefaultConstruct();</div>
+<div class="line">    MR_VertBitSet_resize( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>, MR_VertBitSet_size( verts ), NULL );</div>
 <div class="line"> </div>
-<div class="line">    MR_VertBitSet_set( freeVerts, ancV0, <span class="keyword">true</span> );</div>
-<div class="line">    MR_VertBitSet_set( freeVerts, ancV1, <span class="keyword">true</span> );</div>
+<div class="line">    MR_VertBitSet_set( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>, ancV0, <span class="keyword">true</span> );</div>
+<div class="line">    MR_VertBitSet_set( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>, ancV1, <span class="keyword">true</span> );</div>
 <div class="line">    <span class="comment">// Expand the free area</span></div>
-<div class="line">    MR_expand_MR_VertBitSet( MR_Mesh_Get_topology( mesh ), freeVerts, &amp;(<span class="keywordtype">int</span>){5} );</div>
+<div class="line">    MR_expand_MR_VertBitSet( MR_Mesh_Get_topology( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> ), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>, &amp;(<span class="keywordtype">int</span>){5} );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Initialize laplacian</span></div>
-<div class="line">    MR_Laplacian_init( lDeformer, freeVerts, MR_EdgeWeights_Cotan, &amp;(MR_VertexMass){MR_VertexMass_NeiArea}, NULL );</div>
+<div class="line">    MR_Laplacian_init( lDeformer, <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a>, MR_EdgeWeights_Cotan, &amp;(MR_VertexMass){MR_VertexMass_NeiArea}, NULL );</div>
 <div class="line"> </div>
-<div class="line">    MR_Box3f bbox = MR_Mesh_computeBoundingBox( mesh, NULL );</div>
+<div class="line">    MR_Box3f bbox = MR_Mesh_computeBoundingBox( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, NULL );</div>
 <div class="line">    <span class="keywordtype">float</span> shiftAmount = MR_Box3f_diagonal( &amp;bbox ) * 0.01f;</div>
 <div class="line">    <span class="comment">// Fix the anchor vertices in the required position</span></div>
-<div class="line">    <span class="keyword">const</span> MR_VertCoords* points = MR_Mesh_Get_points( mesh );</div>
-<div class="line">    MR_Vector3f posV0 = MR_Mesh_normal_MR_VertId( mesh, ancV0 );</div>
+<div class="line">    <span class="keyword">const</span> MR_VertCoords* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a> = MR_Mesh_Get_points( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> );</div>
+<div class="line">    MR_Vector3f posV0 = MR_Mesh_normal_MR_VertId( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, ancV0 );</div>
 <div class="line">    posV0 = MR_mul_MR_Vector3f_float( &amp;posV0, shiftAmount );</div>
-<div class="line">    posV0 = MR_add_MR_Vector3f( MR_VertCoords_index( points, ancV0 ), &amp;posV0 );</div>
+<div class="line">    posV0 = MR_add_MR_Vector3f( MR_VertCoords_index( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a>, ancV0 ), &amp;posV0 );</div>
 <div class="line">    MR_Laplacian_fixVertex_pos( lDeformer, ancV0, &amp;posV0, NULL );</div>
-<div class="line">    MR_Vector3f posV1 = MR_Mesh_normal_MR_VertId( mesh, ancV1 );</div>
+<div class="line">    MR_Vector3f posV1 = MR_Mesh_normal_MR_VertId( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, ancV1 );</div>
 <div class="line">    posV1 = MR_mul_MR_Vector3f_float( &amp;posV1, shiftAmount );</div>
-<div class="line">    posV1 = MR_add_MR_Vector3f( MR_VertCoords_index( points, ancV1 ), &amp;posV1 );</div>
+<div class="line">    posV1 = MR_add_MR_Vector3f( MR_VertCoords_index( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a>, ancV1 ), &amp;posV1 );</div>
 <div class="line">    MR_Laplacian_fixVertex_pos( lDeformer, ancV1, &amp;posV1, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Move the free vertices according to the anchor ones</span></div>
 <div class="line">    MR_Laplacian_apply( lDeformer );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Invalidate the mesh because of the external vertex changes</span></div>
-<div class="line">    MR_Mesh_invalidateCaches( mesh, NULL );</div>
+<div class="line">    MR_Mesh_invalidateCaches( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save the deformed mesh</span></div>
-<div class="line">    MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_MeshSave_toAnySupportedFormat( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>, NULL, NULL );</div>
 <div class="line"> </div>
-<div class="line">    MR_VertBitSet_Destroy( freeVerts );</div>
+<div class="line">    MR_VertBitSet_Destroy( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9">freeVerts</a> );</div>
 <div class="line">    MR_Laplacian_Destroy( lDeformer );</div>
 <div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
 <div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
 <div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gadea5e520fb681e438a8ea02cc7ef2c2c"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a></div><div class="ttdeci">VertCoords &amp; points() const</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>

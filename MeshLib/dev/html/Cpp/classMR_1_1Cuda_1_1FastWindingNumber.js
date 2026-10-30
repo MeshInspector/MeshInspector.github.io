@@ -1,10 +1,10 @@
 var classMR_1_1Cuda_1_1FastWindingNumber =
 [
-    [ "FastWindingNumber", "group__GeneralGroup.html#gafed4d0df31eef8da93ca2d843c3a8a63", null ],
-    [ "calcFromGrid", "group__GeneralGroup.html#gade8474a42b222e2956b6fe29750ac544", null ],
-    [ "calcFromGridByParts", "group__GeneralGroup.html#ga2a62210342991fb5c15a7f7627fbbd45", null ],
-    [ "calcFromGridWithDistances", "group__GeneralGroup.html#gab7e3bcd76e8a8c50f8ef5c1bf066bf93", null ],
-    [ "calcFromGridWithDistancesByParts", "group__GeneralGroup.html#gaa58e46d5a0d4b887dfc6f4edddafa860", null ],
-    [ "calcFromVector", "group__GeneralGroup.html#ga5c175130af9cbdf1fac5b175f1f44ae3", null ],
-    [ "calcSelfIntersections", "group__GeneralGroup.html#ga2f11c9de4efd17bdc6ac47d85b97c079", null ]
+    [ "FastWindingNumber", "group__GeneralGroup.html#ga74e2ab0f3ea11403146798d519261819", null ],
+    [ "calcFromGrid", "group__GeneralGroup.html#gabd68d68907fa3adfa59ccdfdaac6a411", null ],
+    [ "calcFromGridByParts", "group__GeneralGroup.html#ga8c3b5f15fbc77a2de0bac5079dff34ae", null ],
+    [ "calcFromGridWithDistances", "group__GeneralGroup.html#gaf0772417f39c8dbe3c9802d556dd0e60", null ],
+    [ "calcFromGridWithDistancesByParts", "group__GeneralGroup.html#ga63c5ae376912a54421b0782d78d1887e", null ],
+    [ "calcFromVector", "group__GeneralGroup.html#ga15f58d9207b801cb705f5a5dd92f7a49", null ],
+    [ "calcSelfIntersections", "group__GeneralGroup.html#ga4344f92ac61dce4eba52a71d5cab43ae", null ]
 ];

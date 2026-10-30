@@ -136,25 +136,25 @@ $(function(){initNavTree('ExamplePointsToMesh.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2ExamplePointsToMesh"></a></p>
 <p>Example of generating a triangulation from a pointcloud.</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloudTriangulation.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointsLoad_8h.html">MRMesh/MRPointsLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointCloud_8h.html">MRMesh/MRPointCloud.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointCloudTriangulation_8h.html">MRMesh/MRPointCloudTriangulation.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// load points</span></div>
-<div class="line">    <span class="keyword">auto</span> loadRes = MR::PointsLoad::fromAnySupportedFormat( <span class="stringliteral">&quot;Points.ply&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> loadRes = <a class="code hl_functionRef" href="./Cpp/group__IOGroup.html#ga7ffd96e7cc233f9a5d99dfc3e8bb0edb">MR::PointsLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;Points.ply&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !loadRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; loadRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">        <span class="keywordflow">return</span> 1; <span class="comment">// error while loading file</span></div>
 <div class="line">    }</div>
-<div class="line">    <span class="keyword">auto</span> triangulationRes = MR::triangulatePointCloud( *loadRes );</div>
+<div class="line">    <span class="keyword">auto</span> triangulationRes = <a class="code hl_functionRef" href="./Cpp/group__PointCloudTriangulationGroup.html#gad8757f0b892706f56491e2b0a5a016d8">MR::triangulatePointCloud</a>( *loadRes );</div>
 <div class="line">    assert( triangulationRes ); <span class="comment">// can be nullopt only if canceled by progress callback</span></div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( *triangulationRes, <span class="stringliteral">&quot;Mesh.ctm&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a>( *triangulationRes, <span class="stringliteral">&quot;Mesh.ctm&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !saveRes.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; saveRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
@@ -163,6 +163,13 @@ $(function(){initNavTree('ExamplePointsToMesh.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRPointCloudTriangulation_8h_html"><div class="ttname"><a href="./Cpp/MRPointCloudTriangulation_8h.html">MRPointCloudTriangulation.h</a></div></div>
+<div class="ttc" id="aMRPointCloud_8h_html"><div class="ttname"><a href="./Cpp/MRPointCloud_8h.html">MRPointCloud.h</a></div></div>
+<div class="ttc" id="aMRPointsLoad_8h_html"><div class="ttname"><a href="./Cpp/MRPointsLoad_8h.html">MRPointsLoad.h</a></div></div>
+<div class="ttc" id="agroup__IOGroup_html_ga7ffd96e7cc233f9a5d99dfc3e8bb0edb"><div class="ttname"><a href="./Cpp/group__IOGroup.html#ga7ffd96e7cc233f9a5d99dfc3e8bb0edb">MR::PointsLoad::fromAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; PointCloud &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="agroup__PointCloudTriangulationGroup_html_gad8757f0b892706f56491e2b0a5a016d8"><div class="ttname"><a href="./Cpp/group__PointCloudTriangulationGroup.html#gad8757f0b892706f56491e2b0a5a016d8">MR::triangulatePointCloud</a></div><div class="ttdeci">std::optional&lt; Mesh &gt; triangulatePointCloud(const PointCloud &amp;pointCloud, const TriangulationParameters &amp;params={}, const ProgressCallback &amp;progressCb={})</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</div>
@@ -190,21 +197,21 @@ $(function(){initNavTree('ExamplePointsToMesh.html','',''); });
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line">    <span class="comment">// load points</span></div>
 <div class="line">    MR_expected_MR_PointCloud_std_string* loadRes = MR_PointsLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;Points.ply&quot;</span>, NULL, NULL );</div>
-<div class="line">    MR_PointCloud* pointCloud = MR_expected_MR_PointCloud_std_string_value_mut( loadRes );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !pointCloud )</div>
+<div class="line">    MR_PointCloud* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a> = MR_expected_MR_PointCloud_std_string_value_mut( loadRes );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a> )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load points: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_PointCloud_std_string_error( loadRes ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_load; <span class="comment">// error while loading file</span></div>
 <div class="line">    }</div>
-<div class="line">    MR_std_optional_MR_Mesh* triangulationRes = MR_triangulatePointCloud( pointCloud, NULL, NULL );</div>
-<div class="line">    MR_Mesh* mesh = MR_std_optional_MR_Mesh_value_mut( triangulationRes );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    MR_std_optional_MR_Mesh* triangulationRes = MR_triangulatePointCloud( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a>, NULL, NULL );</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_std_optional_MR_Mesh_value_mut( triangulationRes );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Triangulation canceled&quot;</span> );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_triangulation; <span class="comment">// can be nullopt only if canceled by progress callback</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;Mesh.ctm&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;Mesh.ctm&quot;</span>, NULL, NULL );</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -220,6 +227,8 @@ $(function(){initNavTree('ExamplePointsToMesh.html','',''); });
 <div class="line">    MR_expected_MR_PointCloud_std_string_Destroy( loadRes );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga1e4577ab2bb24e7600c98bc550668b06"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a></div><div class="ttdeci">const std::shared_ptr&lt; const PointCloud &gt; &amp; pointCloud() const</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>

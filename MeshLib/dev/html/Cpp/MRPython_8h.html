@@ -160,7 +160,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only strictly necessary for the bindings (to make <span class="tt"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></span> a complete type). <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
@@ -571,8 +571,8 @@ Functions</h2></td></tr>
 <div class="ttc" id="aMRPython_8h_html_a1b144f9ec840f941a158bc9256711732"><div class="ttname"><a href="#a1b144f9ec840f941a158bc9256711732">MR_INIT_PYTHON_MODULE_PRECALL</a></div><div class="ttdeci">#define MR_INIT_PYTHON_MODULE_PRECALL(moduleName, precall)</div><div class="ttdef"><b>Definition</b> MRPython.h:22</div></div>
 </div><!-- fragment --><p>NOTE: Include this header AFTER any OpenVDB header; otherwise it will break MSVC debug builds.</p>
 <p>External links:</p><ul>
-<li><a href="https:///">https:///</a> github.com/pybind/pybind11/blob/v2.9.2/include/pybind11/detail/common.h#L161</li>
-<li><a href="https:///">https:///</a> github.com/oneapi-src/oneTBB/blob/v2021.9.0/include/oneapi/tbb/detail/_config.h#L105 </li>
+<li><a href="https://github.com/pybind/pybind11/blob/v2.9.2/include/pybind11/detail/common.h#L161">https://github.com/pybind/pybind11/blob/v2.9.2/include/pybind11/detail/common.h#L161</a></li>
+<li><a href="https://github.com/oneapi-src/oneTBB/blob/v2021.9.0/include/oneapi/tbb/detail/_config.h#L105">https://github.com/oneapi-src/oneTBB/blob/v2021.9.0/include/oneapi/tbb/detail/_config.h#L105</a> </li>
 </ul>
 
 </div>
@@ -598,14 +598,14 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">PYBIND11_MODULE( moduleName, m )\</div>
 <div class="line">{\</div>
 <div class="line">    precall();\</div>
-<div class="line">    <span class="keyword">auto</span>&amp; adders = <a class="code hl_function" href="group__GeneralGroup.html#gabfb182152c405649c53c0c632868b0c2">MR::PythonExport::instance</a>().<a class="code hl_function" href="group__GeneralGroup.html#ga1ae0ff73c0d87a6c897bf89610cabb81">functions</a>( #moduleName );\</div>
+<div class="line">    <span class="keyword">auto</span>&amp; adders = <a class="code hl_function" href="group__GeneralGroup.html#ga3d12d252cb632a50b51f7172104a5a67">MR::PythonExport::instance</a>().<a class="code hl_function" href="group__GeneralGroup.html#ga1ae0ff73c0d87a6c897bf89610cabb81">functions</a>( #moduleName );\</div>
 <div class="line">    for ( <span class="keyword">auto</span>&amp; fs : adders )\</div>
 <div class="line">        for ( <span class="keyword">auto</span>&amp; f : fs )\</div>
 <div class="line">            f( m );\</div>
 <div class="line">}\</div>
 <div class="line"><span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> moduleName##_init_( #moduleName, &amp;PyInit_##moduleName );</div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga1ae0ff73c0d87a6c897bf89610cabb81"><div class="ttname"><a href="group__GeneralGroup.html#ga1ae0ff73c0d87a6c897bf89610cabb81">MR::PythonExport::functions</a></div><div class="ttdeci">const std::array&lt; std::vector&lt; PythonRegisterFuncton &gt;, size_t(Priority::Count)&gt; &amp; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition</b> MRPython.h:202</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_gabfb182152c405649c53c0c632868b0c2"><div class="ttname"><a href="group__GeneralGroup.html#gabfb182152c405649c53c0c632868b0c2">MR::PythonExport::instance</a></div><div class="ttdeci">static MRPYTHON_API PythonExport &amp; instance()</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga3d12d252cb632a50b51f7172104a5a67"><div class="ttname"><a href="group__GeneralGroup.html#ga3d12d252cb632a50b51f7172104a5a67">MR::PythonExport::instance</a></div><div class="ttdeci">static PythonExport &amp; instance()</div></div>
 </div><!-- fragment -->
 </div>
 </div>

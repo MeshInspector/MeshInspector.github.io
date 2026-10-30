@@ -138,31 +138,37 @@ $(function(){initNavTree('ExampleSignedDistance.html','',''); });
 <p>▶ <a href="https://demo.meshlib.io/#closest-points">See it live in the browser</a></p>
 <dl class="section note"><dt>Note</dt><dd>Please note that unlike findSignedDistances, this function return minimal distance between two meshes</dd></dl>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshLoad.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMesh.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshMeshDistance.h&quot;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMeshMeshDistance_8h.html">MRMesh/MRMeshMeshDistance.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">auto</span> mesh1Res = MR::MeshLoad::fromAnySupportedFormat( <span class="stringliteral">&quot;mesh1.ctm&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> mesh1Res = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh1.ctm&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh1Res.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; mesh1Res.error();</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
-<div class="line">    <span class="keyword">auto</span> mesh2Res = MR::MeshLoad::fromAnySupportedFormat( <span class="stringliteral">&quot;mesh2.ctm&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> mesh2Res = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh2.ctm&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh2Res.has_value() )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; mesh2Res.error();</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> dist = MR::findSignedDistance( *mesh1Res, *mesh2Res );</div>
-<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Signed distance between meshes is &quot;</span> &lt;&lt; dist.signedDist &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line">    <span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a> = <a class="code hl_functionRef" href="./Cpp/group__AABBTreeGroup.html#gab642f8e551c4fcc0af6b2301e55e3a85">MR::findSignedDistance</a>( *mesh1Res, *mesh2Res );</div>
+<div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Signed distance between meshes is &quot;</span> &lt;&lt; <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a>.signedDist &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshMeshDistance_8h_html"><div class="ttname"><a href="./Cpp/MRMeshMeshDistance_8h.html">MRMeshMeshDistance.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="agroup__AABBTreeGroup_html_gab642f8e551c4fcc0af6b2301e55e3a85"><div class="ttname"><a href="./Cpp/group__AABBTreeGroup.html#gab642f8e551c4fcc0af6b2301e55e3a85">MR::findSignedDistance</a></div><div class="ttdeci">MeshMeshSignedDistanceResult findSignedDistance(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float upDistLimitSq=FLT_MAX)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga4d5b1deffdaf0a9520c4eb1bd4664877"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a></div><div class="ttdeci">float dist() const</div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html_aa115a0d8b8efd585125c07693565388b"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy</div>
 <div class="line"> </div>
@@ -208,9 +214,9 @@ $(function(){initNavTree('ExampleSignedDistance.html','',''); });
 <div class="line">    MR_MeshPart* mp2 = MR_MeshPart_Construct( mesh2, NULL );</div>
 <div class="line"> </div>
 <div class="line">    MR_MeshMeshSignedDistanceResult* res = MR_findSignedDistance_MR_MeshPart( mp1, mp2, NULL, NULL );</div>
-<div class="line">    <span class="keyword">const</span> <span class="keywordtype">float</span>* dist = MR_MeshMeshSignedDistanceResult_Get_signedDist( res );</div>
+<div class="line">    <span class="keyword">const</span> <span class="keywordtype">float</span>* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a> = MR_MeshMeshSignedDistanceResult_Get_signedDist( res );</div>
 <div class="line"> </div>
-<div class="line">    fprintf( stdout, <span class="stringliteral">&quot;Signed distance between meshes is: %f\n&quot;</span>, *dist );</div>
+<div class="line">    fprintf( stdout, <span class="stringliteral">&quot;Signed distance between meshes is: %f\n&quot;</span>, *<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a> );</div>
 <div class="line"> </div>
 <div class="line">    MR_MeshMeshSignedDistanceResult_Destroy( res );</div>
 <div class="line">    MR_MeshPart_Destroy( mp2 );</div>

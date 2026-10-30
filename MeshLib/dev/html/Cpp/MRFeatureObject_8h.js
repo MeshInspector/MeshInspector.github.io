@@ -8,7 +8,9 @@ var MRFeatureObject_8h =
       [ "MR::FeaturePropertyKind::angle", "group__GeneralGroup.html#gga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03", null ],
       [ "MR::FeaturePropertyKind::other", "group__GeneralGroup.html#gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf", null ]
     ] ],
-    [ "_count", "group__GeneralGroup.html#ga69c4cff6b9a1cd95c71fc56b8dd9a983", null ],
-    [ "DetailsOnNameTag", "group__GeneralGroup.html#ga87d459767013d873936d1795e4869a42", null ],
-    [ "Subfeatures", "group__GeneralGroup.html#ga8c52a38cab104b53c714ff2ce176546f", null ]
+    [ "MR::FeatureVisualizePropertyType", "group__GeneralGroup.html#gad948d1265349e73676fb0ae9ec4eca06", [
+      [ "MR::FeatureVisualizePropertyType::Subfeatures", "group__GeneralGroup.html#ggad948d1265349e73676fb0ae9ec4eca06a7963c6b4bfac1b81204074658f22d5b1", null ],
+      [ "MR::FeatureVisualizePropertyType::DetailsOnNameTag", "group__GeneralGroup.html#ggad948d1265349e73676fb0ae9ec4eca06a25487cb52e04954a856d719f26eb14f1", null ],
+      [ "MR::FeatureVisualizePropertyType::_count", "group__GeneralGroup.html#ggad948d1265349e73676fb0ae9ec4eca06ad69186af02738a9b3ced1bc5b652ba55", null ]
+    ] ]
 ];

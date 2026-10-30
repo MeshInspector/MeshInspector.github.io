@@ -159,7 +159,7 @@ $(function(){initNavTree('ExampleViewerVolumeRender.html','',''); });
 <div class="line"><span class="comment"># enable volume rendering (important to do in GUI thread)</span></div>
 <div class="line">mv.runFromGUIThread( <span class="keyword">lambda</span> : ov.enableVolumeRendering(<span class="keyword">True</span>) )</div>
 <div class="line"> </div>
-<div class="line">mv.Viewer().preciseFitDataViewport()</div>
+<div class="line">mv.Viewer().<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac4a5309ed19fd012a50b4fc912d52782">preciseFitDataViewport</a>()</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># setup volume rendering settings</span></div>
 <div class="line">vrp = mm.ObjectVoxels.VolumeRenderingParams()</div>
@@ -174,10 +174,11 @@ $(function(){initNavTree('ExampleViewerVolumeRender.html','',''); });
 <div class="line">mv.runFromGUIThread( <span class="keyword">lambda</span> : ov.setVolumeRenderingParams(vrp) )</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># fit camera</span></div>
-<div class="line">mv.Viewer().preciseFitDataViewport()</div>
+<div class="line">mv.Viewer().<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac4a5309ed19fd012a50b4fc912d52782">preciseFitDataViewport</a>()</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># keep the window until the user closes it</span></div>
 <div class="line">mv.showViewer()</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gac4a5309ed19fd012a50b4fc912d52782"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gac4a5309ed19fd012a50b4fc912d52782">preciseFitDataViewport</a></div><div class="ttdeci">void preciseFitDataViewport(MR::ViewportMask vpList=MR::ViewportMask::all())</div></div>
 </div><!-- fragment --> <div class="image">
 <img src="Volume_rendering.png" alt=""/>
 </div>

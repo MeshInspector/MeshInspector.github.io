@@ -136,7 +136,7 @@ $(function(){initNavTree('namespaceMR_1_1VoxelsLoad.html','',''); });
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">MR::VoxelsLoad Namespace Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
+  <div class="headertitle"><div class="title">MR::VoxelsLoad Namespace Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a> &#124; <a class="el" href="group__IOGroup.html">Input/Output</a> &raquo; <a class="el" href="group__VoxelsLoadGroup.html">Voxels Load</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
@@ -149,8 +149,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga707920855f52f8e5871fc6c0056a6002" id="r_ga707920855f52f8e5871fc6c0056a6002"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga707920855f52f8e5871fc6c0056a6002">MR_BIND_IGNORE</a> = <a class="el" href="structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html">RasterFolderLoadSettings</a></td></tr>
-<tr class="memitem:gac95950f875729ac15c011d99d4624d96" id="r_gac95950f875729ac15c011d99d4624d96"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gac95950f875729ac15c011d99d4624d96">VoxelsLoader</a> = <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;std::vector&lt;VdbVolume&gt;&gt;( * )( const std::filesystem::path&amp;, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; )</td></tr>
+<tr class="memitem:ac95950f875729ac15c011d99d4624d96" id="r_ac95950f875729ac15c011d99d4624d96"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac95950f875729ac15c011d99d4624d96">VoxelsLoader</a> = <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;std::vector&lt;VdbVolume&gt;&gt;( * )( const std::filesystem::path&amp;, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; )</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -158,10 +157,10 @@ Enumerations</h2></td></tr>
 , <a class="el" href="group__GeneralGroup.html#gga4877b5ea79a241234ef88b527edc08e6a4bbb8f967da6d1a610596d7257179c2b">DicomStatusEnum::Invalid</a>
 , <a class="el" href="group__GeneralGroup.html#gga4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f">DicomStatusEnum::Unsupported</a>
  }</td></tr>
-<tr class="memitem:ga5a3e4b96e9ddb9678f554fe8a8d56a19" id="r_ga5a3e4b96e9ddb9678f554fe8a8d56a19"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga5a3e4b96e9ddb9678f554fe8a8d56a19">GridType</a> { <a class="el" href="group__VoxelsLoadGroup.html#gga5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7">GridType::DenseGrid</a> = 0
-, <a class="el" href="group__VoxelsLoadGroup.html#gga5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e">GridType::LevelSet</a> = 1
+<tr class="memitem:a5a3e4b96e9ddb9678f554fe8a8d56a19" id="r_a5a3e4b96e9ddb9678f554fe8a8d56a19"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a3e4b96e9ddb9678f554fe8a8d56a19">GridType</a> { <a class="el" href="#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7">DenseGrid</a> = 0
+, <a class="el" href="#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e">LevelSet</a> = 1
  }</td></tr>
-<tr class="memdesc:ga5a3e4b96e9ddb9678f554fe8a8d56a19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines iso-surface orientation.  <a href="group__VoxelsLoadGroup.html#ga5a3e4b96e9ddb9678f554fe8a8d56a19">More...</a><br /></td></tr>
+<tr class="memdesc:a5a3e4b96e9ddb9678f554fe8a8d56a19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines iso-surface orientation.  <a href="#a5a3e4b96e9ddb9678f554fe8a8d56a19">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -170,57 +169,483 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga3e3bcf93e752e0956ce4cfaa733f0856"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if given folder contains at least one DICOM file  <br /></td></tr>
 <tr class="memitem:gaa4b88892db60bc9b8396dc446524f02e" id="r_gaa4b88892db60bc9b8396dc446524f02e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa4b88892db60bc9b8396dc446524f02e">findDicomFoldersRecursively</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:gaa4b88892db60bc9b8396dc446524f02e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all the dicom folders in <code class="param">path</code>, searching recursively  <br /></td></tr>
-<tr class="memitem:gaf00dc87c4fbf129db0fea5f72c93706c" id="r_gaf00dc87c4fbf129db0fea5f72c93706c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga78572299be99c8ae0544e2063f483452">DicomVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf00dc87c4fbf129db0fea5f72c93706c">loadDicomFile</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
+<tr class="memitem:gaf00dc87c4fbf129db0fea5f72c93706c" id="r_gaf00dc87c4fbf129db0fea5f72c93706c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga84c6b9bf042993ce0e07981e54435a14">DicomVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf00dc87c4fbf129db0fea5f72c93706c">loadDicomFile</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:gaf00dc87c4fbf129db0fea5f72c93706c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads full volume from single DICOM file (not a slice file) as SimpleVolumeMinMax.  <br /></td></tr>
-<tr class="memitem:gaeb82527ec2bc3defcd4403b2010ff7b5" id="r_gaeb82527ec2bc3defcd4403b2010ff7b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; DicomVolumeAsVdb &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaeb82527ec2bc3defcd4403b2010ff7b5">loadDicomFileAsVdb</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
+<tr class="memitem:gaeb82527ec2bc3defcd4403b2010ff7b5" id="r_gaeb82527ec2bc3defcd4403b2010ff7b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; DicomVolumeAsVdb &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaeb82527ec2bc3defcd4403b2010ff7b5">loadDicomFileAsVdb</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:gaeb82527ec2bc3defcd4403b2010ff7b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads full volume from single DICOM file (not a slice file) as VdbVolume.  <br /></td></tr>
-<tr class="memitem:gaea69b664460303b9ecea304ac436ecb6" id="r_gaea69b664460303b9ecea304ac436ecb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga78572299be99c8ae0544e2063f483452">DicomVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaea69b664460303b9ecea304ac436ecb6">loadDicomFolder</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
+<tr class="memitem:gaea69b664460303b9ecea304ac436ecb6" id="r_gaea69b664460303b9ecea304ac436ecb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga84c6b9bf042993ce0e07981e54435a14">DicomVolume</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaea69b664460303b9ecea304ac436ecb6">loadDicomFolder</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:gaea69b664460303b9ecea304ac436ecb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads one volume from DICOM files located in given folder as SimpleVolumeMinMax.  <br /></td></tr>
-<tr class="memitem:ga82e838641100127292270224b8d68cc0" id="r_ga82e838641100127292270224b8d68cc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; DicomVolumeAsVdb &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga82e838641100127292270224b8d68cc0">loadDicomFolderAsVdb</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
+<tr class="memitem:ga82e838641100127292270224b8d68cc0" id="r_ga82e838641100127292270224b8d68cc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; DicomVolumeAsVdb &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga82e838641100127292270224b8d68cc0">loadDicomFolderAsVdb</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:ga82e838641100127292270224b8d68cc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads one volume from DICOM files located in given folder as VdbVolume.  <br /></td></tr>
-<tr class="memitem:ga508397486e680c7dbfe36422254927f7" id="r_ga508397486e680c7dbfe36422254927f7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga78572299be99c8ae0544e2063f483452">DicomVolume</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga508397486e680c7dbfe36422254927f7">loadDicomsFolder</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
+<tr class="memitem:ga508397486e680c7dbfe36422254927f7" id="r_ga508397486e680c7dbfe36422254927f7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga84c6b9bf042993ce0e07981e54435a14">DicomVolume</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga508397486e680c7dbfe36422254927f7">loadDicomsFolder</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:ga508397486e680c7dbfe36422254927f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all volumes from DICOM files located in given folder as a number of SimpleVolumeMinMax.  <br /></td></tr>
-<tr class="memitem:ga5c1ca19afdda2f1e3872b21e96382a1c" id="r_ga5c1ca19afdda2f1e3872b21e96382a1c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; DicomVolumeAsVdb &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5c1ca19afdda2f1e3872b21e96382a1c">loadDicomsFolderAsVdb</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
+<tr class="memitem:ga5c1ca19afdda2f1e3872b21e96382a1c" id="r_ga5c1ca19afdda2f1e3872b21e96382a1c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; DicomVolumeAsVdb &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5c1ca19afdda2f1e3872b21e96382a1c">loadDicomsFolderAsVdb</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:ga5c1ca19afdda2f1e3872b21e96382a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all volumes from DICOM files located in given folder as a number of VdbVolume.  <br /></td></tr>
-<tr class="memitem:ga3cce80232dfeab3ad6d3b2ca76c5d680" id="r_ga3cce80232dfeab3ad6d3b2ca76c5d680"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; DicomVolumeAsVdb &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3cce80232dfeab3ad6d3b2ca76c5d680">loadDicomsFolderTreeAsVdb</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
+<tr class="memitem:ga3cce80232dfeab3ad6d3b2ca76c5d680" id="r_ga3cce80232dfeab3ad6d3b2ca76c5d680"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; DicomVolumeAsVdb &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3cce80232dfeab3ad6d3b2ca76c5d680">loadDicomsFolderTreeAsVdb</a> (const std::filesystem::path &amp;path, unsigned maxNumThreads=4, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:ga3cce80232dfeab3ad6d3b2ca76c5d680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads every subfolder with DICOM volume as new object.  <br /></td></tr>
-<tr class="memitem:gafddc114cf5c8b41f89071599179b2567" id="r_gafddc114cf5c8b41f89071599179b2567"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gafddc114cf5c8b41f89071599179b2567">createObjectVoxels</a> (const DicomVolumeAsVdb &amp;dcm, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
+<tr class="memitem:gafddc114cf5c8b41f89071599179b2567" id="r_gafddc114cf5c8b41f89071599179b2567"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gafddc114cf5c8b41f89071599179b2567">createObjectVoxels</a> (const DicomVolumeAsVdb &amp;dcm, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memdesc:gafddc114cf5c8b41f89071599179b2567"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts DicomVolumeAsVdb in <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a>  <br /></td></tr>
 <tr class="memitem:gaad1f792247d40e8bff19146ed05c9acf" id="r_gaad1f792247d40e8bff19146ed05c9acf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObjects.html">LoadedObjects</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaad1f792247d40e8bff19146ed05c9acf">makeObjectVoxelsFromDicomFolder</a> (const std::filesystem::path &amp;folder, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
 <tr class="memdesc:gaad1f792247d40e8bff19146ed05c9acf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads 3D volumetric data from dicom-files in given folder, and converts them into an <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a>.  <br /></td></tr>
-<tr class="memitem:ga8ce6022f00f55c40a634b016f91a3b31" id="r_ga8ce6022f00f55c40a634b016f91a3b31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga8ce6022f00f55c40a634b016f91a3b31">fromRaw</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
-<tr class="memdesc:ga8ce6022f00f55c40a634b016f91a3b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from file with provided parameters.  <br /></td></tr>
-<tr class="memitem:gab0a9073a8190607740aa7a4e108a70ea" id="r_gab0a9073a8190607740aa7a4e108a70ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gab0a9073a8190607740aa7a4e108a70ea">fromRaw</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
-<tr class="memitem:gab8b39ae86f2bd1e780c542ceebadc56d" id="r_gab8b39ae86f2bd1e780c542ceebadc56d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gab8b39ae86f2bd1e780c542ceebadc56d">gridFromRaw</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
-<tr class="memdesc:gab8b39ae86f2bd1e780c542ceebadc56d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from file with provided parameters.  <br /></td></tr>
-<tr class="memitem:ga433ccf3ee64b6d83ded8726d9bccd584" id="r_ga433ccf3ee64b6d83ded8726d9bccd584"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga433ccf3ee64b6d83ded8726d9bccd584">gridFromRaw</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
-<tr class="memitem:gab02ac1c58396a89e54c4b384dd5142ea" id="r_gab02ac1c58396a89e54c4b384dd5142ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gab02ac1c58396a89e54c4b384dd5142ea">findRawParameters</a> (std::filesystem::path &amp;file)</td></tr>
-<tr class="memitem:gae42a24cac2267bb02933d82f3153182a" id="r_gae42a24cac2267bb02933d82f3153182a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gae42a24cac2267bb02933d82f3153182a">fromRaw</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
-<tr class="memdesc:gae42a24cac2267bb02933d82f3153182a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels file, parsing parameters from name.  <br /></td></tr>
-<tr class="memitem:ga91731f11539ea11d1c4bd2dfbc25b2b1" id="r_ga91731f11539ea11d1c4bd2dfbc25b2b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga91731f11539ea11d1c4bd2dfbc25b2b1">gridFromRaw</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
-<tr class="memdesc:ga91731f11539ea11d1c4bd2dfbc25b2b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels file, parsing parameters from name.  <br /></td></tr>
-<tr class="memitem:ga7b175c416a672c40b25a2ec4bab31047" id="r_ga7b175c416a672c40b25a2ec4bab31047"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; VdbVolume &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga7b175c416a672c40b25a2ec4bab31047">fromVdb</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
-<tr class="memdesc:ga7b175c416a672c40b25a2ec4bab31047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load all voxel volumes from OpenVDB file.  <br /></td></tr>
-<tr class="memitem:ga45ad7e33491adf48887a084a760ce0dd" id="r_ga45ad7e33491adf48887a084a760ce0dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga45ad7e33491adf48887a084a760ce0dd">gridsFromVdb</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
-<tr class="memitem:ga255028947dcc30bbf215b5da697a7e96" id="r_ga255028947dcc30bbf215b5da697a7e96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga255028947dcc30bbf215b5da697a7e96">gridsFromVdb</a> (std::istream &amp;in, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
-<tr class="memitem:gac56550c38609cdf38fcf34f3740e8f82" id="r_gac56550c38609cdf38fcf34f3740e8f82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gac56550c38609cdf38fcf34f3740e8f82">fromGav</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
-<tr class="memdesc:gac56550c38609cdf38fcf34f3740e8f82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxel from Gav-file with micro CT reconstruction.  <br /></td></tr>
-<tr class="memitem:ga6e416ae7982ee1812f92be62d196d48d" id="r_ga6e416ae7982ee1812f92be62d196d48d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga6e416ae7982ee1812f92be62d196d48d">fromGav</a> (std::istream &amp;in, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
-<tr class="memdesc:ga6e416ae7982ee1812f92be62d196d48d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxel from Gav-stream with micro CT reconstruction.  <br /></td></tr>
-<tr class="memitem:gad303045560cb427689099a6b7fd25789" id="r_gad303045560cb427689099a6b7fd25789"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gad303045560cb427689099a6b7fd25789">gridsFromAnySupportedFormat</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
-<tr class="memdesc:gad303045560cb427689099a6b7fd25789"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects the format from file extension and loads voxels from it.  <br /></td></tr>
-<tr class="memitem:ga1679273711f98deaa8bb82cf59834512" id="r_ga1679273711f98deaa8bb82cf59834512"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; VdbVolume &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga1679273711f98deaa8bb82cf59834512">fromAnySupportedFormat</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
-<tr class="memdesc:ga1679273711f98deaa8bb82cf59834512"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects the format from file extension and loads voxels from it.  <br /></td></tr>
-<tr class="memitem:ga2b3126db75b88eeee5be2e16619f48be" id="r_ga2b3126db75b88eeee5be2e16619f48be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga2b3126db75b88eeee5be2e16619f48be">loadRasterFolder</a> (const <a class="el" href="structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html">RasterFolderLoadSettings</a> &amp;<a class="el" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a>)</td></tr>
-<tr class="memitem:ga0960ce4def7ec9ddd1ca37933d82542b" id="r_ga0960ce4def7ec9ddd1ca37933d82542b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__VoxelsLoadGroup.html#ga707920855f52f8e5871fc6c0056a6002">MR_BIND_IGNORE</a> <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga0960ce4def7ec9ddd1ca37933d82542b">loadTiffDir</a> (const <a class="el" href="structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html">RasterFolderLoadSettings</a> &amp;<a class="el" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a>)</td></tr>
+<tr class="memitem:a8ce6022f00f55c40a634b016f91a3b31" id="r_a8ce6022f00f55c40a634b016f91a3b31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ce6022f00f55c40a634b016f91a3b31">fromRaw</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;params, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:a8ce6022f00f55c40a634b016f91a3b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from file with provided parameters.  <br /></td></tr>
+<tr class="memitem:ab0a9073a8190607740aa7a4e108a70ea" id="r_ab0a9073a8190607740aa7a4e108a70ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0a9073a8190607740aa7a4e108a70ea">fromRaw</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;params, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memitem:ab8b39ae86f2bd1e780c542ceebadc56d" id="r_ab8b39ae86f2bd1e780c542ceebadc56d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8b39ae86f2bd1e780c542ceebadc56d">gridFromRaw</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;params, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:ab8b39ae86f2bd1e780c542ceebadc56d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels from file with provided parameters.  <br /></td></tr>
+<tr class="memitem:a433ccf3ee64b6d83ded8726d9bccd584" id="r_a433ccf3ee64b6d83ded8726d9bccd584"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a433ccf3ee64b6d83ded8726d9bccd584">gridFromRaw</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;params, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memitem:ab02ac1c58396a89e54c4b384dd5142ea" id="r_ab02ac1c58396a89e54c4b384dd5142ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab02ac1c58396a89e54c4b384dd5142ea">findRawParameters</a> (std::filesystem::path &amp;file)</td></tr>
+<tr class="memitem:ae42a24cac2267bb02933d82f3153182a" id="r_ae42a24cac2267bb02933d82f3153182a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae42a24cac2267bb02933d82f3153182a">fromRaw</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:ae42a24cac2267bb02933d82f3153182a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels file, parsing parameters from name.  <br /></td></tr>
+<tr class="memitem:a91731f11539ea11d1c4bd2dfbc25b2b1" id="r_a91731f11539ea11d1c4bd2dfbc25b2b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91731f11539ea11d1c4bd2dfbc25b2b1">gridFromRaw</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:a91731f11539ea11d1c4bd2dfbc25b2b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load raw voxels file, parsing parameters from name.  <br /></td></tr>
+<tr class="memitem:a7b175c416a672c40b25a2ec4bab31047" id="r_a7b175c416a672c40b25a2ec4bab31047"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; VdbVolume &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b175c416a672c40b25a2ec4bab31047">fromVdb</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:a7b175c416a672c40b25a2ec4bab31047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load all voxel volumes from OpenVDB file.  <br /></td></tr>
+<tr class="memitem:a45ad7e33491adf48887a084a760ce0dd" id="r_a45ad7e33491adf48887a084a760ce0dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45ad7e33491adf48887a084a760ce0dd">gridsFromVdb</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memitem:a255028947dcc30bbf215b5da697a7e96" id="r_a255028947dcc30bbf215b5da697a7e96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a255028947dcc30bbf215b5da697a7e96">gridsFromVdb</a> (std::istream &amp;in, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memitem:ac56550c38609cdf38fcf34f3740e8f82" id="r_ac56550c38609cdf38fcf34f3740e8f82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac56550c38609cdf38fcf34f3740e8f82">fromGav</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:ac56550c38609cdf38fcf34f3740e8f82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxel from Gav-file with micro CT reconstruction.  <br /></td></tr>
+<tr class="memitem:a6e416ae7982ee1812f92be62d196d48d" id="r_a6e416ae7982ee1812f92be62d196d48d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e416ae7982ee1812f92be62d196d48d">fromGav</a> (std::istream &amp;in, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:a6e416ae7982ee1812f92be62d196d48d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load voxel from Gav-stream with micro CT reconstruction.  <br /></td></tr>
+<tr class="memitem:ad303045560cb427689099a6b7fd25789" id="r_ad303045560cb427689099a6b7fd25789"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad303045560cb427689099a6b7fd25789">gridsFromAnySupportedFormat</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:ad303045560cb427689099a6b7fd25789"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects the format from file extension and loads voxels from it.  <br /></td></tr>
+<tr class="memitem:a1679273711f98deaa8bb82cf59834512" id="r_a1679273711f98deaa8bb82cf59834512"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; VdbVolume &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1679273711f98deaa8bb82cf59834512">fromAnySupportedFormat</a> (const std::filesystem::path &amp;file, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="memdesc:a1679273711f98deaa8bb82cf59834512"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects the format from file extension and loads voxels from it.  <br /></td></tr>
+<tr class="memitem:a2b3126db75b88eeee5be2e16619f48be" id="r_a2b3126db75b88eeee5be2e16619f48be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b3126db75b88eeee5be2e16619f48be">loadRasterFolder</a> (const <a class="el" href="structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html">RasterFolderLoadSettings</a> &amp;settings)</td></tr>
+<tr class="memitem:ae7deee923701fff28170b2bc76c893ac" id="r_ae7deee923701fff28170b2bc76c893ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7deee923701fff28170b2bc76c893ac">loadTiffDir</a> (const <a class="el" href="structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html">RasterFolderLoadSettings</a> &amp;settings)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:ga4e5fc90a09aac4ba09fdfb6db09083cf" id="r_ga4e5fc90a09aac4ba09fdfb6db09083cf"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga4e5fc90a09aac4ba09fdfb6db09083cf template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4e5fc90a09aac4ba09fdfb6db09083cf">struct</a></td></tr>
-<tr class="memitem:ga4e75c919102a2c36c220423f73a3fbf6" id="r_ga4e75c919102a2c36c220423f73a3fbf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4e75c919102a2c36c220423f73a3fbf6">DicomVolumeT</a></td></tr>
-<tr class="memitem:ga78572299be99c8ae0544e2063f483452" id="r_ga78572299be99c8ae0544e2063f483452"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga78572299be99c8ae0544e2063f483452">DicomVolume</a></td></tr>
+<tr class="memitem:ga906372c6d2d4272a14d026fe0a63e7f6" id="r_ga906372c6d2d4272a14d026fe0a63e7f6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga906372c6d2d4272a14d026fe0a63e7f6">DicomVolumeT</a></td></tr>
+<tr class="memitem:ga84c6b9bf042993ce0e07981e54435a14" id="r_ga84c6b9bf042993ce0e07981e54435a14"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga84c6b9bf042993ce0e07981e54435a14">DicomVolume</a></td></tr>
 </table>
+<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="ac95950f875729ac15c011d99d4624d96" name="ac95950f875729ac15c011d99d4624d96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac95950f875729ac15c011d99d4624d96">&#9670;&#160;</a></span>VoxelsLoader</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ac95950f875729ac15c011d99d4624d96">MR::VoxelsLoad::VoxelsLoader</a> = <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;std::vector&lt;VdbVolume&gt;&gt;( * )( const std::filesystem::path&amp;, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&amp; )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="a5a3e4b96e9ddb9678f554fe8a8d56a19" name="a5a3e4b96e9ddb9678f554fe8a8d56a19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a3e4b96e9ddb9678f554fe8a8d56a19">&#9670;&#160;</a></span>GridType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a5a3e4b96e9ddb9678f554fe8a8d56a19">MR::VoxelsLoad::GridType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determines iso-surface orientation. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7" name="a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7"></a>DenseGrid&#160;</td><td class="fielddoc"><p>consider values less than iso as outer area </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e" name="a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e"></a>LevelSet&#160;</td><td class="fielddoc"><p>consider values less than iso as inner area </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="ab02ac1c58396a89e54c4b384dd5142ea" name="ab02ac1c58396a89e54c4b384dd5142ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab02ac1c58396a89e54c4b384dd5142ea">&#9670;&#160;</a></span>findRawParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &gt; MR::VoxelsLoad::findRawParameters </td>
+          <td>(</td>
+          <td class="paramtype">std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds raw voxels file and its encoding parameters </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>on input: file name probably without suffix with parameters on output: if success existing file name </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1679273711f98deaa8bb82cf59834512" name="a1679273711f98deaa8bb82cf59834512"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1679273711f98deaa8bb82cf59834512">&#9670;&#160;</a></span>fromAnySupportedFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; VdbVolume &gt; &gt; MR::VoxelsLoad::fromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Detects the format from file extension and loads voxels from it. </p>
+
+</div>
+</div>
+<a id="ac56550c38609cdf38fcf34f3740e8f82" name="ac56550c38609cdf38fcf34f3740e8f82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac56550c38609cdf38fcf34f3740e8f82">&#9670;&#160;</a></span>fromGav() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt; MR::VoxelsLoad::fromGav </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load voxel from Gav-file with micro CT reconstruction. </p>
+
+</div>
+</div>
+<a id="a6e416ae7982ee1812f92be62d196d48d" name="a6e416ae7982ee1812f92be62d196d48d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e416ae7982ee1812f92be62d196d48d">&#9670;&#160;</a></span>fromGav() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt; MR::VoxelsLoad::fromGav </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load voxel from Gav-stream with micro CT reconstruction. </p>
+
+</div>
+</div>
+<a id="ae42a24cac2267bb02933d82f3153182a" name="ae42a24cac2267bb02933d82f3153182a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae42a24cac2267bb02933d82f3153182a">&#9670;&#160;</a></span>fromRaw() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt; MR::VoxelsLoad::fromRaw </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load raw voxels file, parsing parameters from name. </p>
+
+</div>
+</div>
+<a id="a8ce6022f00f55c40a634b016f91a3b31" name="a8ce6022f00f55c40a634b016f91a3b31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ce6022f00f55c40a634b016f91a3b31">&#9670;&#160;</a></span>fromRaw() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt; MR::VoxelsLoad::fromRaw </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load raw voxels from file with provided parameters. </p>
+
+</div>
+</div>
+<a id="ab0a9073a8190607740aa7a4e108a70ea" name="ab0a9073a8190607740aa7a4e108a70ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0a9073a8190607740aa7a4e108a70ea">&#9670;&#160;</a></span>fromRaw() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt; MR::VoxelsLoad::fromRaw </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode </p>
+
+</div>
+</div>
+<a id="a7b175c416a672c40b25a2ec4bab31047" name="a7b175c416a672c40b25a2ec4bab31047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b175c416a672c40b25a2ec4bab31047">&#9670;&#160;</a></span>fromVdb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; VdbVolume &gt; &gt; MR::VoxelsLoad::fromVdb </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load all voxel volumes from OpenVDB file. </p>
+
+</div>
+</div>
+<a id="a91731f11539ea11d1c4bd2dfbc25b2b1" name="a91731f11539ea11d1c4bd2dfbc25b2b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91731f11539ea11d1c4bd2dfbc25b2b1">&#9670;&#160;</a></span>gridFromRaw() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt; MR::VoxelsLoad::gridFromRaw </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load raw voxels file, parsing parameters from name. </p>
+
+</div>
+</div>
+<a id="ab8b39ae86f2bd1e780c542ceebadc56d" name="ab8b39ae86f2bd1e780c542ceebadc56d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8b39ae86f2bd1e780c542ceebadc56d">&#9670;&#160;</a></span>gridFromRaw() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt; MR::VoxelsLoad::gridFromRaw </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load raw voxels from file with provided parameters. </p>
+
+</div>
+</div>
+<a id="a433ccf3ee64b6d83ded8726d9bccd584" name="a433ccf3ee64b6d83ded8726d9bccd584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a433ccf3ee64b6d83ded8726d9bccd584">&#9670;&#160;</a></span>gridFromRaw() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt; MR::VoxelsLoad::gridFromRaw </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode </p>
+
+</div>
+</div>
+<a id="ad303045560cb427689099a6b7fd25789" name="ad303045560cb427689099a6b7fd25789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad303045560cb427689099a6b7fd25789">&#9670;&#160;</a></span>gridsFromAnySupportedFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt; &gt; MR::VoxelsLoad::gridsFromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Detects the format from file extension and loads voxels from it. </p>
+
+</div>
+</div>
+<a id="a45ad7e33491adf48887a084a760ce0dd" name="a45ad7e33491adf48887a084a760ce0dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45ad7e33491adf48887a084a760ce0dd">&#9670;&#160;</a></span>gridsFromVdb() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt; &gt; MR::VoxelsLoad::gridsFromVdb </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a255028947dcc30bbf215b5da697a7e96" name="a255028947dcc30bbf215b5da697a7e96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a255028947dcc30bbf215b5da697a7e96">&#9670;&#160;</a></span>gridsFromVdb() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt; &gt; MR::VoxelsLoad::gridsFromVdb </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b3126db75b88eeee5be2e16619f48be" name="a2b3126db75b88eeee5be2e16619f48be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b3126db75b88eeee5be2e16619f48be">&#9670;&#160;</a></span>loadRasterFolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt; MR::VoxelsLoad::loadRasterFolder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html">RasterFolderLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load voxels from the raster files of a folder, a layer from each file: the files are those of the extension with a raster loader that most files have, sorted by name; they must have the same <a class="el" href="structMR_1_1RasterInfo.html" title="everything about a raster except its values">RasterInfo</a>, their values are converted by convertRasterToFloats </p>
+
+</div>
+</div>
+<a id="ae7deee923701fff28170b2bc76c893ac" name="ae7deee923701fff28170b2bc76c893ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7deee923701fff28170b2bc76c893ac">&#9670;&#160;</a></span>loadTiffDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt; MR::VoxelsLoad::loadTiffDir </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html">RasterFolderLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

@@ -1616,12 +1616,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>select pairs with origin samples on floating object; setFltSamples weights each pair by the double area of mesh triangles around its sample vertex, sampleFltPoints performs grid sampling and gives all pairs equal weights; </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">nonVertexSamples</td><td>if true, a mesh with triangles too big for the sampling is sampled from its dense point cloud (see meshToDensePointCloud) to get the samples inside the triangles and on the edges as well; otherwise only its vertices are sampled Generated from method <span class="tt">MR::ICP::setFltSamples</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">fltSamples</span> can not be null. It is a single object. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>select pairs with origin samples on floating object; setFltSamples weights each pair by the double area of mesh triangles around its sample vertex, sampleFltPoints performs grid sampling and gives all pairs equal weights; <code class="param">nonVertexSamples</code> if true, a mesh with triangles too big for the sampling is sampled from its dense point cloud (see meshToDensePointCloud) to get the samples inside the triangles and on the edges as well; otherwise only its vertices are sampled Generated from method <span class="tt">MR::ICP::setFltSamples</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">fltSamples</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

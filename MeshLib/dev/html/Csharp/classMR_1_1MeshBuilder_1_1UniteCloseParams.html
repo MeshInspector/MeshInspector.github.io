@@ -177,18 +177,30 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a7d30934312ae607dbcbbf7635887ee98" id="r_a7d30934312ae607dbcbbf7635887ee98"><td class="memItemLeft" align="right" valign="top">new unsafe ref float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d30934312ae607dbcbbf7635887ee98">closeDist</a><code> [get]</code></td></tr>
+<tr class="memdesc:a7d30934312ae607dbcbbf7635887ee98"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertices located closer to each other than this distance will be united  <br /></td></tr>
 <tr class="memitem:aa1ddae60d686471530b0e925daa5bc86" id="r_aa1ddae60d686471530b0e925daa5bc86"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1ddae60d686471530b0e925daa5bc86">uniteOnlyBd</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa1ddae60d686471530b0e925daa5bc86"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then only boundary vertices can be united, all internal vertices (even close ones) will remain  <br /></td></tr>
 <tr class="memitem:a72240da526b31ba8da51ae622ce4e225" id="r_a72240da526b31ba8da51ae622ce4e225"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72240da526b31ba8da51ae622ce4e225">region</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a72240da526b31ba8da51ae622ce4e225"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, only vertices from this region can be affected  <br /></td></tr>
 <tr class="memitem:af450b903e2ec0b09d9e542d571a747b6" id="r_af450b903e2ec0b09d9e542d571a747b6"><td class="memItemLeft" align="right" valign="top">new unsafe ref bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af450b903e2ec0b09d9e542d571a747b6">duplicateNonManifold</a><code> [get]</code></td></tr>
+<tr class="memdesc:af450b903e2ec0b09d9e542d571a747b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true - try to duplicates non-manifold vertices instead of removing faces  <br /></td></tr>
 <tr class="memitem:a5ab9c7d06c367e2c67fe3ff62e0d7b77" id="r_a5ab9c7d06c367e2c67fe3ff62e0d7b77"><td class="memItemLeft" align="right" valign="top">new unsafe MR.? <a class="el" href="classMR_1_1VertMap.html">VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ab9c7d06c367e2c67fe3ff62e0d7b77">optionalVertOldToNew</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a5ab9c7d06c367e2c67fe3ff62e0d7b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">is the mapping of vertices: before -&gt; after  <br /></td></tr>
 <tr class="memitem:ac50ae0a8b87349abb1014331b4286a99" id="r_ac50ae0a8b87349abb1014331b4286a99"><td class="memItemLeft" align="right" valign="top">new unsafe MR.Std.? Vector_MRMeshBuilderVertDuplication&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac50ae0a8b87349abb1014331b4286a99">optionalDuplications</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ac50ae0a8b87349abb1014331b4286a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">this can be used to map attributes to duplicated vertices  <br /></td></tr>
 <tr class="inherit_header properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Properties inherited from <a class="el" href="classMR_1_1MeshBuilder_1_1Const__UniteCloseParams.html">MR.MeshBuilder.Const_UniteCloseParams</a></td></tr>
 <tr class="memitem:a048bc562f2b0f5d6c1d1baa06843d8be inherit properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams" id="r_a048bc562f2b0f5d6c1d1baa06843d8be"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshBuilder_1_1Const__UniteCloseParams.html#a048bc562f2b0f5d6c1d1baa06843d8be">closeDist</a><code> [get]</code></td></tr>
+<tr class="memdesc:a048bc562f2b0f5d6c1d1baa06843d8be inherit properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertices located closer to each other than this distance will be united  <br /></td></tr>
 <tr class="memitem:ac4e7fc36f6c9d1af761186cfeb688d4d inherit properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams" id="r_ac4e7fc36f6c9d1af761186cfeb688d4d"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshBuilder_1_1Const__UniteCloseParams.html#ac4e7fc36f6c9d1af761186cfeb688d4d">uniteOnlyBd</a><code> [get]</code></td></tr>
+<tr class="memdesc:ac4e7fc36f6c9d1af761186cfeb688d4d inherit properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then only boundary vertices can be united, all internal vertices (even close ones) will remain  <br /></td></tr>
 <tr class="memitem:a3d975491e344b5ed987e47b943eb2ab5 inherit properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams" id="r_a3d975491e344b5ed987e47b943eb2ab5"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1VertBitSet.html">VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshBuilder_1_1Const__UniteCloseParams.html#a3d975491e344b5ed987e47b943eb2ab5">region</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3d975491e344b5ed987e47b943eb2ab5 inherit properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, only vertices from this region can be affected  <br /></td></tr>
 <tr class="memitem:a4f2372ab6743d16486bd9f360cc47bfe inherit properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams" id="r_a4f2372ab6743d16486bd9f360cc47bfe"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshBuilder_1_1Const__UniteCloseParams.html#a4f2372ab6743d16486bd9f360cc47bfe">duplicateNonManifold</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4f2372ab6743d16486bd9f360cc47bfe inherit properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true - try to duplicates non-manifold vertices instead of removing faces  <br /></td></tr>
 <tr class="memitem:acfa7771cc05e9f47f1aa578370634ecf inherit properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams" id="r_acfa7771cc05e9f47f1aa578370634ecf"><td class="memItemLeft" align="right" valign="top">unsafe MR.? <a class="el" href="classMR_1_1VertMap.html">VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshBuilder_1_1Const__UniteCloseParams.html#acfa7771cc05e9f47f1aa578370634ecf">optionalVertOldToNew</a><code> [get]</code></td></tr>
+<tr class="memdesc:acfa7771cc05e9f47f1aa578370634ecf inherit properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams"><td class="mdescLeft">&#160;</td><td class="mdescRight">is the mapping of vertices: before -&gt; after  <br /></td></tr>
 <tr class="memitem:a7f1b5a52b5b53e06772edbe76d3359db inherit properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams" id="r_a7f1b5a52b5b53e06772edbe76d3359db"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.? Vector_MRMeshBuilderVertDuplication&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshBuilder_1_1Const__UniteCloseParams.html#a7f1b5a52b5b53e06772edbe76d3359db">optionalDuplications</a><code> [get]</code></td></tr>
+<tr class="memdesc:a7f1b5a52b5b53e06772edbe76d3359db inherit properties_classMR_1_1MeshBuilder_1_1Const__UniteCloseParams"><td class="mdescLeft">&#160;</td><td class="mdescRight">this can be used to map attributes to duplicated vertices  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -386,6 +398,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>vertices located closer to each other than this distance will be united </p>
+
 </div>
 </div>
 <a id="af450b903e2ec0b09d9e542d571a747b6" name="af450b903e2ec0b09d9e542d571a747b6"></a>
@@ -407,6 +421,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>if true - try to duplicates non-manifold vertices instead of removing faces </p>
 
 </div>
 </div>
@@ -430,6 +446,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>this can be used to map attributes to duplicated vertices </p>
+
 </div>
 </div>
 <a id="a5ab9c7d06c367e2c67fe3ff62e0d7b77" name="a5ab9c7d06c367e2c67fe3ff62e0d7b77"></a>
@@ -451,6 +469,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>is the mapping of vertices: before -&gt; after </p>
 
 </div>
 </div>
@@ -474,6 +494,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>if true, only vertices from this region can be affected </p>
+
 </div>
 </div>
 <a id="aa1ddae60d686471530b0e925daa5bc86" name="aa1ddae60d686471530b0e925daa5bc86"></a>
@@ -495,6 +517,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>if true then only boundary vertices can be united, all internal vertices (even close ones) will remain </p>
 
 </div>
 </div>

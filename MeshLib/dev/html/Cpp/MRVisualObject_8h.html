@@ -135,8 +135,7 @@ $(function(){initNavTree('MRVisualObject_8h.html','',''); });
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#concepts">Concepts</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">MRVisualObject.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -162,7 +161,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">Only strictly necessary for the bindings (to make <span class="tt"><a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a></span> a complete type). <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-concepts" class="groupheader"><a id="concepts" name="concepts"></a>
 Concepts</h2></td></tr>
@@ -175,6 +174,15 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:ga5c32800ec075fcf4f9b3eb8e2d5ac6ca" id="r_ga5c32800ec075fcf4f9b3eb8e2d5ac6ca"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VisualObjectGroup.html#ga5c32800ec075fcf4f9b3eb8e2d5ac6ca">MR::VisualizeMaskType</a> { <br />
+&#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caa1729a56cfc89021478498fe0c89a843a">MR::VisualizeMaskType::Visibility</a>
+, <a class="el" href="group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caa49ee3087348e8d44e1feda1917443987">MR::VisualizeMaskType::Name</a>
+, <a class="el" href="group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caa4fd94a9d801d7cb5e1ffacfac690a817">MR::VisualizeMaskType::ClippedByPlane</a>
+, <a class="el" href="group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caa16704bc95ff0bd3291ba157e6f06e0ee">MR::VisualizeMaskType::DepthTest</a>
+, <br />
+&#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caad69186af02738a9b3ced1bc5b652ba55">MR::VisualizeMaskType::_count</a>
+<br />
+ }</td></tr>
 <tr class="memitem:ga03255e831f4895337e7cf27d64e51269" id="r_ga03255e831f4895337e7cf27d64e51269"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VisualObjectGroup.html#ga03255e831f4895337e7cf27d64e51269">MR::DirtyFlags</a> { <br />
 &#160;&#160;<a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a162875ffd2234840bdaf002277708668">MR::DIRTY_NONE</a> = 0x0000
 , <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a13dc959326bf43980af4080c50288110">MR::DIRTY_POSITION</a> = 0x0001
@@ -201,86 +209,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a">MR::DIRTY_ALL</a> = 0x7FFF
 <br />
  }</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a53d6f8ccb0015ea020228de41cfd2162" id="r_a53d6f8ccb0015ea020228de41cfd2162"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53d6f8ccb0015ea020228de41cfd2162">Visibility</a></td></tr>
-<tr class="memitem:aa5998168cabfb2b2e41151349077812c" id="r_aa5998168cabfb2b2e41151349077812c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5998168cabfb2b2e41151349077812c">Name</a></td></tr>
-<tr class="memitem:a86e5e23fe8af282d3772b2968223d2bb" id="r_a86e5e23fe8af282d3772b2968223d2bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86e5e23fe8af282d3772b2968223d2bb">ClippedByPlane</a></td></tr>
-<tr class="memitem:aab077be49ed8052394a3f5faace8becd" id="r_aab077be49ed8052394a3f5faace8becd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab077be49ed8052394a3f5faace8becd">DepthTest</a></td></tr>
-<tr class="memitem:a69c4cff6b9a1cd95c71fc56b8dd9a983" id="r_a69c4cff6b9a1cd95c71fc56b8dd9a983"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69c4cff6b9a1cd95c71fc56b8dd9a983">_count</a></td></tr>
 </table>
-<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="a69c4cff6b9a1cd95c71fc56b8dd9a983" name="a69c4cff6b9a1cd95c71fc56b8dd9a983"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69c4cff6b9a1cd95c71fc56b8dd9a983">&#9670;&#160;</a></span>_count</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">_count</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a86e5e23fe8af282d3772b2968223d2bb" name="a86e5e23fe8af282d3772b2968223d2bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86e5e23fe8af282d3772b2968223d2bb">&#9670;&#160;</a></span>ClippedByPlane</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ClippedByPlane</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aab077be49ed8052394a3f5faace8becd" name="aab077be49ed8052394a3f5faace8becd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab077be49ed8052394a3f5faace8becd">&#9670;&#160;</a></span>DepthTest</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">DepthTest</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa5998168cabfb2b2e41151349077812c" name="aa5998168cabfb2b2e41151349077812c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5998168cabfb2b2e41151349077812c">&#9670;&#160;</a></span>Name</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Name</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a53d6f8ccb0015ea020228de41cfd2162" name="a53d6f8ccb0015ea020228de41cfd2162"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53d6f8ccb0015ea020228de41cfd2162">&#9670;&#160;</a></span>Visibility</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Visibility</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

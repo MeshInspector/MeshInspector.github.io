@@ -172,7 +172,7 @@ Vectors and matrices</h2>
 <p>MeshLib has its own types for representing small vectors and matrices (of dimensions 2, 3, 4):</p>
 <ul>
 <li><p class="startli">The vector types are: <span class="tt">MR::Vector2f</span>, <span class="tt">MR::Vector3f</span>, <span class="tt">MR::Vector4f</span>, defined in <span class="tt">&lt;MRMesh/MRVector[2|3|4].h&gt;</span> respectively.</p>
-<p class="startli"><span class="tt">f</span> in <code>MR::Vector[2|3|4]<b>f</b></code> stands for <code><b>f</b>loat</code>. Use <span class="tt">…d</span> for <span class="tt">double</span>, <span class="tt">…i</span> for <span class="tt">int</span>, or pass an arbitrary type to the <span class="tt">MR::Vector[2|3|4]&lt;T&gt;</span> templates.</p>
+<p class="startli"><span class="tt">f</span> in <code><a class="elRef" href="./Cpp/classMR_1_1Vector.html">MR::Vector</a>[2|3|4]<b>f</b></code> stands for <code><b>f</b>loat</code>. Use <span class="tt">…d</span> for <span class="tt">double</span>, <span class="tt">…i</span> for <span class="tt">int</span>, or pass an arbitrary type to the <span class="tt"><a class="elRef" href="./Cpp/classMR_1_1Vector.html">MR::Vector</a>[2|3|4]&lt;T&gt;</span> templates.</p>
 </li>
 <li><p class="startli">Similarly, the matrices are: <span class="tt">MR::Matrix2f</span>, <span class="tt">MR::Matrix3f</span>, <span class="tt">MR::Matrix4f</span>, defined in <span class="tt">&lt;MRMesh/MRMatrix[2|3|4].h&gt;</span> respectively.</p>
 <p class="startli">They support the same type suffixes, and are similarly templated.</p>
@@ -207,7 +207,7 @@ Vectors</h3>
 <li><span class="tt">MR::distance(v1, v2)</span>, <span class="tt">MR::distanceSq(v1, v2)</span> — normal and squared distance.</li>
 <li><span class="tt">v1.normalized()</span> — returns the vector scaled to length 1 (does nothing if the length was 0).</li>
 <li><span class="tt">v1.perpendicular()</span> — returns one orthogonal vector in 2D, or a pair of two orthogonal vectors in 3D.</li>
-<li><span class="tt">MR::angle(v1, v2)</span> — the angle between two vectors, in range <span class="tt">[0;𝜋)</span> (this angle is between directed vectors, not lines).</li>
+<li><span class="tt"><a class="elRef" href="./Cpp/group__GeneralGroup.html#ga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03">MR::angle(v1, v2)</a></span> — the angle between two vectors, in range <span class="tt">[0;𝜋)</span> (this angle is between directed vectors, not lines).</li>
 </ul>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md11"></a>
 Matrices</h3>
@@ -246,11 +246,11 @@ Matrices</h3>
 <p>Interpolation:</p>
 <ul>
 <li><span class="tt">MR::slerp(m1, m2, t)</span> — quaternion-based <a href="https://en.wikipedia.org/wiki/Slerp">Slerp</a> interpolation between two matrices. (<span class="tt">t == 0</span> produces <span class="tt">m1</span>, <span class="tt">t == 1</span> produces <span class="tt">m2</span>.)<br  />
- This function is defined in <span class="tt">&lt;MRMesh/MRQuaternion.h&gt;</span>.</li>
+ This function is defined in <span class="tt">&lt;<a class="elRef" href="./Cpp/MRQuaternion_8h.html">MRMesh/MRQuaternion.h</a>&gt;</span>.</li>
 </ul>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md12"></a>
 Affine transformations</h2>
-<p>Most transformations in MeshLib are represented using a matrix-vector pair — <span class="tt">MR::AffineXf3f</span>, defined in <span class="tt">&lt;MRMesh/MRAffineXf.h&gt;</span>.</p>
+<p>Most transformations in MeshLib are represented using a matrix-vector pair — <span class="tt">MR::AffineXf3f</span>, defined in <span class="tt">&lt;<a class="elRef" href="./Cpp/MRAffineXf_8h.html">MRMesh/MRAffineXf.h</a>&gt;</span>.</p>
 <p>This this pair, the vector holds the translation (offset) and the matrix holds rotation (and also scale and shear).</p>
 <p>Those work in 2 and 3 dimensions, and like everythine else above are templated.</p>
 <p><span class="tt">MR::AffineXf3f</span> are very similar to 4x4 matrices widely used in computer graphics, but without the last row, which is assumed to be <span class="tt">(0,0,0,1)</span> (since it's not useful if you're not computing perspective projection matrices). It can be converted to and from <span class="tt">MR::Matrix4f</span>, more on that below.</p>
@@ -283,7 +283,7 @@ Affine transformations</h2>
 <ul>
 <li><span class="tt">xf1.inverse()</span> inverts the transformation, like inverting a matrix.</li>
 <li><span class="tt">MR::slerp(xf1, xf2, t)</span> is a quaternion-based <a href="https://en.wikipedia.org/wiki/Slerp">Slerp</a> interpolation between two transformations. (<span class="tt">t == 0</span> produces <span class="tt">xf1</span>, <span class="tt">t == 1</span> produces <span class="tt">xf2</span>.)<br  />
- This function is defined in <span class="tt">&lt;MRMesh/MRQuaternion.h&gt;</span>.</li>
+ This function is defined in <span class="tt">&lt;<a class="elRef" href="./Cpp/MRQuaternion_8h.html">MRMesh/MRQuaternion.h</a>&gt;</span>.</li>
 </ul>
 <p>Conversion to and from matrices:</p>
 <ul>
@@ -293,16 +293,16 @@ Affine transformations</h2>
 </ul>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md13"></a>
 Object transformations</h3>
-<p>If you're using <span class="tt">MR::Object</span> to hold data (and the classes derived from it, such as <span class="tt">MR::ObjectMesh</span>), each <span class="tt">MR::Object</span> holds its own <span class="tt">MR::AffineXf3f</span>.</p>
+<p>If you're using <span class="tt"><a class="elRef" href="./Cpp/classMR_1_1Object.html">MR::Object</a></span> to hold data (and the classes derived from it, such as <span class="tt"><a class="elRef" href="./Cpp/classMR_1_1ObjectMesh.html">MR::ObjectMesh</a></span>), each <span class="tt"><a class="elRef" href="./Cpp/classMR_1_1Object.html">MR::Object</a></span> holds its own <span class="tt">MR::AffineXf3f</span>.</p>
 <p><span class="tt">obj.xf()</span> returns the current XF, and <span class="tt">obj.setXf(...)</span> sets a new one.</p>
-<p>If you have an object hierarchy, the XF of each object is relative to its <span class="tt">parent()</span> object. An object's XF maps points from the coordinate system of that object to the coordinate system of its parent.</p>
-<p><span class="tt">obj.worldXf()</span> returns the combined XF of this object and all parents, as if by <span class="tt">... * obj.parent()-&gt;parent()-&gt;xf() * obj.parent()-&gt;xf() * obj.xf()</span>.</p>
-<p><span class="tt">obj.setWorldXf(...)</span> acts like <span class="tt">obj.setXf(...)</span>, but multiplies the incoming XF by <span class="tt">parent()-&gt;worldXf().inverse()</span> so that the resulting <span class="tt">obj.worldXf()</span> produces the XF you specified.</p>
+<p>If you have an object hierarchy, the XF of each object is relative to its <span class="tt"><a class="elRef" href="./Cpp/group__GeneralGroup.html#gac78b2af57192ec9155f66476ac38179e">parent()</a></span> object. An object's XF maps points from the coordinate system of that object to the coordinate system of its parent.</p>
+<p><span class="tt">obj.worldXf()</span> returns the combined XF of this object and all parents, as if by <span class="tt">... * obj.parent()-&gt;<a class="elRef" href="./Cpp/group__GeneralGroup.html#gac78b2af57192ec9155f66476ac38179e">parent()</a>-&gt;xf() * obj.parent()-&gt;xf() * obj.xf()</span>.</p>
+<p><span class="tt">obj.setWorldXf(...)</span> acts like <span class="tt">obj.setXf(...)</span>, but multiplies the incoming XF by <span class="tt"><a class="elRef" href="./Cpp/group__GeneralGroup.html#gac78b2af57192ec9155f66476ac38179e">parent()</a>-&gt;worldXf().<a class="elRef" href="./Cpp/group__GeneralGroup.html#gaa858f1158ee32c91e5e1c76b2c03910e">inverse()</a></span> so that the resulting <span class="tt">obj.worldXf()</span> produces the XF you specified.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md14"></a>
 Other types</h2>
 <p>MeshLib supports some other types not documented here:</p>
 <ul>
-<li>Quaternions — <span class="tt">MR::Quaternionf</span> defined in <span class="tt">&lt;MRMesh/MRQuaternion.h&gt;</span>.</li>
+<li>Quaternions — <span class="tt"><a class="elRef" href="./Cpp/group__GeneralGroup.html#gaaeefc18e0b5d4277fd54d80dd8b861d2">MR::Quaternionf</a></span> defined in <span class="tt">&lt;<a class="elRef" href="./Cpp/MRQuaternion_8h.html">MRMesh/MRQuaternion.h</a>&gt;</span>.</li>
 <li>Symmetric matrices — <span class="tt">MR::SymMatrix[2,3,4]f</span> defined in <span class="tt">&lt;MRMesh/MRSymMatrix[2,3,4].h&gt;</span>.</li>
 </ul>
 <p>Consult the respective headers for details. </p>

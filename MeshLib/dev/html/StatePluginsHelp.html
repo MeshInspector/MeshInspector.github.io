@@ -136,32 +136,36 @@ $(function(){initNavTree('StatePluginsHelp.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2general__pages_2StatePluginsHelp"></a></p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md176"></a>
 Base Functions</h2>
-<p><b>State plugins</b> is simple objects to work with MeshLib scene and/or objects. It is one of possible inheritance of MR::RibbonMenuItem</p>
+<p><b>State plugins</b> is simple objects to work with MeshLib scene and/or objects. It is one of possible inheritance of <a class="elRef" href="./Cpp/classMR_1_1RibbonMenuItem.html">MR::RibbonMenuItem</a></p>
 <p>It has base functions:</p>
-<p><b>Available function</b> - MR::ISceneStateCheck interface function that block plugin in UI</p>
-<dl class="section note"><dt>Note</dt><dd>This fuction can be inherited from some helper classes MR::SceneStateExactCheck MR::SceneStateAtLeastCheck MR::SceneStateAtMostCheck MR::SceneStateOrCheck MR::SceneStateAndCheck</dd></dl>
+<p><b>Available function</b> - <a class="elRef" href="./Cpp/classMR_1_1ISceneStateCheck.html">MR::ISceneStateCheck</a> interface function that block plugin in UI</p>
+<dl class="section note"><dt>Note</dt><dd>This fuction can be inherited from some helper classes <a class="elRef" href="./Cpp/classMR_1_1SceneStateExactCheck.html">MR::SceneStateExactCheck</a> <a class="elRef" href="./Cpp/classMR_1_1SceneStateAtLeastCheck.html">MR::SceneStateAtLeastCheck</a> <a class="elRef" href="./Cpp/classMR_1_1SceneStateAtMostCheck.html">MR::SceneStateAtMostCheck</a> <a class="elRef" href="./Cpp/classMR_1_1SceneStateOrCheck.html">MR::SceneStateOrCheck</a> <a class="elRef" href="./Cpp/classMR_1_1SceneStateAndCheck.html">MR::SceneStateAndCheck</a></dd></dl>
 <div class="fragment"><div class="line"><span class="comment">// return empty string if all requirements are satisfied, otherwise return first unsatisfied requirement</span></div>
-<div class="line"><span class="keyword">virtual</span> std::string isAvailable( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; )<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>; }</div>
-</div><!-- fragment --><p> <b>On Enable function</b> - will be called if user enables plugin (only possible if <span class="tt">isAvailable</span> has returned true), if <span class="tt">onEnable_</span> function returns false plugin will not be enabled (useful for some expensive checks, not to do them in each frame <span class="tt">available</span> function) </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_();</div>
-</div><!-- fragment --><p> <b>On Disable function</b> - will be called if user disable plugin, it is necessary to clear all plugin data </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onDisable_();</div>
-</div><!-- fragment --><p> <b>Draw Dialog function</b> - this function is called in each frame, only if plugin is enabled (will not be called after <span class="tt">onDisable_</span> function). It is necessary to show plugin custom UI. </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> drawDialog( ImGuiContext* ctx );</div>
+<div class="line"><span class="keyword">virtual</span> std::string <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga6f5f0371fc1c61725eece9754153915b">isAvailable</a>( <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const Object&gt;&gt;&amp; )<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>; }</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga6f5f0371fc1c61725eece9754153915b"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga6f5f0371fc1c61725eece9754153915b">isAvailable</a></div><div class="ttdeci">static bool isAvailable()</div></div>
+</div><!-- fragment --><p> <b>On Enable function</b> - will be called if user enables plugin (only possible if <span class="tt">isAvailable</span> has returned true), if <span class="tt">onEnable_</span> function returns false plugin will not be enabled (useful for some expensive checks, not to do them in each frame <span class="tt">available</span> function) </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga9bd3dfb3cd43363f48a6b377b6eb33c9">onEnable_</a>();</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9bd3dfb3cd43363f48a6b377b6eb33c9"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga9bd3dfb3cd43363f48a6b377b6eb33c9">onEnable_</a></div><div class="ttdeci">virtual bool onEnable_()</div></div>
+</div><!-- fragment --><p> <b>On Disable function</b> - will be called if user disable plugin, it is necessary to clear all plugin data </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga71368bcc18bdc5ca465c55ffc7f9681e">onDisable_</a>();</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga71368bcc18bdc5ca465c55ffc7f9681e"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga71368bcc18bdc5ca465c55ffc7f9681e">onDisable_</a></div><div class="ttdeci">virtual bool onDisable_() override</div></div>
+</div><!-- fragment --><p> <b>Draw Dialog function</b> - this function is called in each frame, only if plugin is enabled (will not be called after <span class="tt">onDisable_</span> function). It is necessary to show plugin custom UI. </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga84a6d26e91901eef8efc27aa3a167aef">drawDialog</a>( ImGuiContext* ctx );</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga84a6d26e91901eef8efc27aa3a167aef"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga84a6d26e91901eef8efc27aa3a167aef">drawDialog</a></div><div class="ttdeci">virtual void drawDialog(ImGuiContext *) override</div></div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md177"></a>
 How to make your first plugin</h2>
-<p>To create you plugin you need to inherit class from MR::StatePlugin or MR::StateListenerPlugin (in case you need to get some events)<br  />
- Example: </p><div class="fragment"><div class="line"><span class="keyword">class </span>MyOwnPlugin : <span class="keyword">public</span> MR::StatePlugin</div>
+<p>To create you plugin you need to inherit class from <a class="elRef" href="./Cpp/group__GeneralGroup.html#gab03e30b3d478dc602964140a67391c49">MR::StatePlugin</a> or <a class="elRef" href="./Cpp/classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a> (in case you need to get some events)<br  />
+ Example: </p><div class="fragment"><div class="line"><span class="keyword">class </span>MyOwnPlugin : <span class="keyword">public</span> <a class="code hl_typedefRef" href="./Cpp/group__GeneralGroup.html#gab03e30b3d478dc602964140a67391c49">MR::StatePlugin</a></div>
 <div class="line">{</div>
 <div class="line"><span class="keyword">public</span>:</div>
-<div class="line">    MyOwnPlugin():MR::StatePlugin(<span class="stringliteral">&quot;My Plugin Name&quot;</span>){}</div>
-<div class="line">    <span class="keyword">virtual</span> std::string isAvailable(<span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const MR::Object&gt;&gt;&amp; selectedObjects)<span class="keyword"> const override</span></div>
+<div class="line">    MyOwnPlugin():<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>::StatePlugin(<span class="stringliteral">&quot;My Plugin Name&quot;</span>){}</div>
+<div class="line">    <span class="keyword">virtual</span> std::string <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga6f5f0371fc1c61725eece9754153915b">isAvailable</a>(<span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;const MR::Object&gt;&gt;&amp; selectedObjects)<span class="keyword"> const override</span></div>
 <div class="line"><span class="keyword">    </span>{</div>
 <div class="line">        <span class="keywordflow">if</span> ( selectedObjects.size() == 1 )</div>
 <div class="line">            <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line">        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Exactly one object should be selected&quot;</span>;</div>
 <div class="line">    }</div>
-<div class="line">    <span class="keyword">virtual</span> <span class="keywordtype">void</span> drawDialog( ImGuiContext* ctx)<span class="keyword"> override</span></div>
+<div class="line">    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga40046aff5a01f978c06cb78392a7921d">drawDialog</a>( ImGuiContext* ctx)<span class="keyword"> override</span></div>
 <div class="line"><span class="keyword">    </span>{</div>
 <div class="line">        <span class="keyword">auto</span> windowSize = viewer-&gt;viewport().getViewportRect();</div>
-<div class="line">        <span class="keyword">auto</span> menuWidth = 280.0f * UI::scale();</div>
+<div class="line">        <span class="keyword">auto</span> menuWidth = 280.0f * <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1f1e28fea78aec9cd7466142e64d5dc8">UI::scale</a>();</div>
 <div class="line"> </div>
 <div class="line">        ImGui::SetCurrentContext( ctx );</div>
 <div class="line">        ImGui::SetNextWindowPos( ImVec2( windowSize.width - menuWidth, 0 ), ImGuiCond_FirstUseEver );</div>
@@ -181,22 +185,30 @@ How to make your first plugin</h2>
 <div class="line">    <span class="comment">// some action of this plugin</span></div>
 <div class="line">    <span class="keywordtype">void</span> someAction_();</div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_()<span class="keyword"> override</span></div>
+<div class="line">    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga9bd3dfb3cd43363f48a6b377b6eb33c9">onEnable_</a>()<span class="keyword"> override</span></div>
 <div class="line"><span class="keyword">    </span>{</div>
-<div class="line">        obj_ = MR::getAllObjectsInTree&lt;MR::Object&gt;( &amp;MR::SceneRoot::get(), MR::ObjectSelectivityType::Selected )[0];</div>
+<div class="line">        obj_ = <a class="code hl_functionRef" href="./Cpp/group__DataModelGroup.html#ga60db6fdac099905987b703a7fffe4746">MR::getAllObjectsInTree&lt;MR::Object&gt;</a>( &amp;<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga3264c00309108ada04f0af10519ad602">MR::SceneRoot::get</a>(), MR::ObjectSelectivityType::Selected )[0];</div>
 <div class="line">        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line">    }</div>
-<div class="line">    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onDisable_()<span class="keyword"> override</span></div>
+<div class="line">    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga98563ce099c1b026abb38869a32f443f">onDisable_</a>()<span class="keyword"> override</span></div>
 <div class="line"><span class="keyword">    </span>{</div>
 <div class="line">        obj_.reset();</div>
 <div class="line">        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-</div><!-- fragment --><p>Register your plugin with </p><div class="fragment"><div class="line">MR_REGISTER_RIBBON_ITEM( MyOwnPlugin )</div>
+<div class="ttc" id="agroup__DataModelGroup_html_ga60db6fdac099905987b703a7fffe4746"><div class="ttname"><a href="./Cpp/group__DataModelGroup.html#ga60db6fdac099905987b703a7fffe4746">MR::getAllObjectsInTree</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; ObjectT &gt; &gt; getAllObjectsInTree(Object *root, const ObjectSelectivityType &amp;type=ObjectSelectivityType::Selectable)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga1f1e28fea78aec9cd7466142e64d5dc8"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga1f1e28fea78aec9cd7466142e64d5dc8">MR::UI::scale</a></div><div class="ttdeci">float scale()</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga3264c00309108ada04f0af10519ad602"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga3264c00309108ada04f0af10519ad602">MR::SceneRoot::get</a></div><div class="ttdeci">static SceneRootObject &amp; get()</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga40046aff5a01f978c06cb78392a7921d"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga40046aff5a01f978c06cb78392a7921d">MR::StateBasePlugin::drawDialog</a></div><div class="ttdeci">virtual void drawDialog(ImGuiContext *ctx)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga98563ce099c1b026abb38869a32f443f"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga98563ce099c1b026abb38869a32f443f">MR::StateBasePlugin::onDisable_</a></div><div class="ttdeci">virtual bool onDisable_()</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gab03e30b3d478dc602964140a67391c49"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gab03e30b3d478dc602964140a67391c49">MR::StatePlugin</a></div><div class="ttdeci">StateListenerPlugin&lt;&gt; StatePlugin</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
+</div><!-- fragment --><p>Register your plugin with </p><div class="fragment"><div class="line"><a class="code hl_defineRef" href="./Cpp/group__GeneralGroup.html#gad1709955819b9d2eb38aa06ebd34272c">MR_REGISTER_RIBBON_ITEM</a>( MyOwnPlugin )</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gad1709955819b9d2eb38aa06ebd34272c"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gad1709955819b9d2eb38aa06ebd34272c">MR_REGISTER_RIBBON_ITEM</a></div><div class="ttdeci">#define MR_REGISTER_RIBBON_ITEM(pluginType)</div></div>
 </div><!-- fragment --><p> To show this item on Ribbon menu, it should be present in MenuSchema.ui.json file (special page about these files are coming soon) <br  />
- MR::StateListenerPlugin is more simple way to make plugin listen to some events: </p><div class="fragment"><div class="line"><span class="comment">// This plugin will listen to mouse move and mouse down, also isAvailable function will be imlemented with SceneStateExactCheck</span></div>
+ <a class="elRef" href="./Cpp/classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a> is more simple way to make plugin listen to some events: </p><div class="fragment"><div class="line"><span class="comment">// This plugin will listen to mouse move and mouse down, also isAvailable function will be imlemented with SceneStateExactCheck</span></div>
 <div class="line"><span class="keyword">class </span>MyListenerPlugin : <span class="keyword">public</span> StateListenerPlugin&lt;MouseMoveListener,MouseDownListener&gt;, <span class="keyword">public</span> SceneStateExactCheck&lt;1, ObjectMesh&gt;</div>
-</div><!-- fragment --><p>Find more: MR::RibbonMenuItem MR::StateBasePlugin MR::StateListenerPlugin </p>
+</div><!-- fragment --><p>Find more: <a class="elRef" href="./Cpp/classMR_1_1RibbonMenuItem.html">MR::RibbonMenuItem</a> <a class="elRef" href="./Cpp/classMR_1_1StateBasePlugin.html">MR::StateBasePlugin</a> <a class="elRef" href="./Cpp/classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

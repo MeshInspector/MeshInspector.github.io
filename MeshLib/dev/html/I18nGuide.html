@@ -346,111 +346,124 @@ Automatic initialization</h2>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md121"></a>
 Registering a custom domain</h2>
 <p>Call <span class="tt">addDomain()</span> once and use a returned value from <span class="tt">findDomain()</span>, before any translations from that domain are needed:</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRViewer/MRLocale.h&gt;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRLocale_8h.html">MRViewer/MRLocale.h</a>&gt;</span></div>
 <div class="line"> </div>
-<div class="line">MR::Locale::addDomain( <span class="stringliteral">&quot;MyPlugin&quot;</span> );</div>
+<div class="line"><a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#a3e7da85aeeba196e0530b5014197fee8">MR::Locale::addDomain</a>( <span class="stringliteral">&quot;MyPlugin&quot;</span> );</div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> kMyDomainId = MR::Locale::findDomain( <span class="stringliteral">&quot;MyPlugin&quot;</span> );</div>
+<div class="line"><span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> kMyDomainId = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#a88410b6d8ce80e2193cc71cb7bacaffb">MR::Locale::findDomain</a>( <span class="stringliteral">&quot;MyPlugin&quot;</span> );</div>
+<div class="ttc" id="aMRLocale_8h_html"><div class="ttname"><a href="./Cpp/MRLocale_8h.html">MRLocale.h</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1Locale_html_a3e7da85aeeba196e0530b5014197fee8"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Locale.html#a3e7da85aeeba196e0530b5014197fee8">MR::Locale::addDomain</a></div><div class="ttdeci">LocaleDomainId addDomain(const char *domainName, bool generic=false)</div></div>
+<div class="ttc" id="anamespaceMR_1_1Locale_html_a88410b6d8ce80e2193cc71cb7bacaffb"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Locale.html#a88410b6d8ce80e2193cc71cb7bacaffb">MR::Locale::findDomain</a></div><div class="ttdeci">LocaleDomainId findDomain(const char *domainName)</div></div>
 </div><!-- fragment --><p>The returned integer is stable for the process lifetime. You can pass it to <span class="tt">translate()</span> via <span class="tt">MR::Locale::Domain{ kMyDomainId }</span>.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md122"></a>
 Registering a custom catalog path</h2>
 <p>If your plugin stores <span class="tt">.mo</span> files outside the standard resources directory, register the path before any UI is shown:</p>
-<div class="fragment"><div class="line">MR::Locale::addCatalogPath( myPlugin.resourceDir() / <span class="stringliteral">&quot;locale&quot;</span> );</div>
+<div class="fragment"><div class="line"><a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#a2b32ebd2b8467813962ef412cc56a1f3">MR::Locale::addCatalogPath</a>( myPlugin.resourceDir() / <span class="stringliteral">&quot;locale&quot;</span> );</div>
+<div class="ttc" id="anamespaceMR_1_1Locale_html_a2b32ebd2b8467813962ef412cc56a1f3"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Locale.html#a2b32ebd2b8467813962ef412cc56a1f3">MR::Locale::addCatalogPath</a></div><div class="ttdeci">void addCatalogPath(const std::filesystem::path &amp;path)</div></div>
 </div><!-- fragment --><p>Paths are deduplicated. Every call to <span class="tt">addCatalogPath</span> or <span class="tt">addDomain</span> regenerates the active locale object, so new catalogs are available immediately.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md123"></a>
 Switching locale at runtime</h2>
-<div class="fragment"><div class="line">MR::Locale::set( <span class="stringliteral">&quot;ko&quot;</span> );   <span class="comment">// switch to Korean</span></div>
-<div class="line">MR::Locale::set( <span class="stringliteral">&quot;en&quot;</span> );   <span class="comment">// back to English</span></div>
-</div><!-- fragment --><p><span class="tt">set()</span> fires the <span class="tt">onChanged</span> signal synchronously before returning.</p>
+<div class="fragment"><div class="line"><a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#a772085918dc6bb957c5b39523c10b1be">MR::Locale::set</a>( <span class="stringliteral">&quot;ko&quot;</span> );   <span class="comment">// switch to Korean</span></div>
+<div class="line"><a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#a772085918dc6bb957c5b39523c10b1be">MR::Locale::set</a>( <span class="stringliteral">&quot;en&quot;</span> );   <span class="comment">// back to English</span></div>
+<div class="ttc" id="anamespaceMR_1_1Locale_html_a772085918dc6bb957c5b39523c10b1be"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Locale.html#a772085918dc6bb957c5b39523c10b1be">MR::Locale::set</a></div><div class="ttdeci">const std::locale &amp; set(const std::string &amp;localeName)</div></div>
+</div><!-- fragment --><p><span class="tt"><a class="elRef" href="./Cpp/group__GeneralGroup.html#gaf8baba6cb20d047df531941eeabd08d1">set()</a></span> fires the <span class="tt">onChanged</span> signal synchronously before returning.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md124"></a>
 Reacting to locale changes</h2>
-<div class="fragment"><div class="line">boost::signals2::connection conn = MR::Locale::onChanged( [&amp;]( <span class="keyword">const</span> std::string&amp; localeName )</div>
+<div class="fragment"><div class="line">boost::signals2::connection conn = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#a9a635779fb2e857a50dd1e60b10b6f52">MR::Locale::onChanged</a>( [&amp;]( <span class="keyword">const</span> std::string&amp; localeName )</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// rebuild cached translated strings, tooltips, etc.</span></div>
 <div class="line">    rebuildUI();</div>
 <div class="line">} );</div>
+<div class="ttc" id="anamespaceMR_1_1Locale_html_a9a635779fb2e857a50dd1e60b10b6f52"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Locale.html#a9a635779fb2e857a50dd1e60b10b6f52">MR::Locale::onChanged</a></div><div class="ttdeci">boost::signals2::connection onChanged(const std::function&lt; void(const std::string &amp;)&gt; &amp;cb)</div></div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md125"></a>
 Defining human-readable locale names</h2>
 <p>Many common languages and regions already have a pre-loaded human-readable name provided by CLDR. If your locale is not in the list, you can add it in runtime.</p>
-<div class="fragment"><div class="line">MR::Locale::setDisplayName( <span class="stringliteral">&quot;my_variant&quot;</span>, <span class="stringliteral">&quot;My Language (Special)&quot;</span> );</div>
+<div class="fragment"><div class="line"><a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#a1a90862fe2d6cda7d213d3683715e1cc">MR::Locale::setDisplayName</a>( <span class="stringliteral">&quot;my_variant&quot;</span>, <span class="stringliteral">&quot;My Language (Special)&quot;</span> );</div>
+<div class="ttc" id="anamespaceMR_1_1Locale_html_a1a90862fe2d6cda7d213d3683715e1cc"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Locale.html#a1a90862fe2d6cda7d213d3683715e1cc">MR::Locale::setDisplayName</a></div><div class="ttdeci">void setDisplayName(const std::string &amp;localeName, const std::string &amp;displayName)</div></div>
 </div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="I18nAPI"></a>
 Translation functions and macros</h1>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md126"></a>
 Macros</h2>
-<p>All macros are defined in <span class="tt">MRViewer/MRI18n.h</span>, except <span class="tt">_t</span>, which is in <span class="tt">MRMesh/MRMeshFwd.h</span>:</p>
+<p>All macros are defined in <span class="tt"><a class="elRef" href="./Cpp/MRI18n_8h.html">MRViewer/MRI18n.h</a></span>, except <span class="tt">_t</span>, which is in <span class="tt"><a class="elRef" href="./Cpp/MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a></span>:</p>
 <ul>
 <li><span class="tt">_tr("text")</span> - UI labels passed directly to ImGui/UI functions.</li>
 <li><span class="tt">s_tr("text")</span> - When you need an owning string (storage, concatenation).</li>
 <li><span class="tt">f_tr("text {}")</span> - Format strings for <span class="tt">fmt::format()</span>.</li>
 <li><span class="tt">_t("text")</span> - Marking strings for extraction in contexts where the original value must be returned (see an example below).</li>
 </ul>
-<dl class="section warning"><dt>Warning</dt><dd><span class="tt">_tr()</span> returns a pointer into a <b>temporary</b> <span class="tt">std::string</span> that is destroyed at the end of the full expression. Always consume <span class="tt">_tr()</span> in the same expression, or use <span class="tt">s_tr()</span> / <span class="tt">MR::Locale::translate()</span> to store the result.</dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd><span class="tt"><a class="elRef" href="./Cpp/MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e">_tr()</a></span> returns a pointer into a <b>temporary</b> <span class="tt">std::string</span> that is destroyed at the end of the full expression. Always consume <span class="tt"><a class="elRef" href="./Cpp/MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e">_tr()</a></span> in the same expression, or use <span class="tt"><a class="elRef" href="./Cpp/MRI18n_8h.html#ad186f1135eca2f5c984d81d38d6fde5e">s_tr()</a></span> / <span class="tt"><a class="elRef" href="./Cpp/namespaceMR_1_1Locale.html#adee832f323bf10f63d7f84df3ab0706a">MR::Locale::translate()</a></span> to store the result.</dd></dl>
 <div class="fragment"><div class="line"><span class="comment">// CORRECT: consumed in the same expression</span></div>
-<div class="line">UI::button( _tr( <span class="stringliteral">&quot;Save&quot;</span> ), size );</div>
-<div class="line">ImGui::Text( <span class="stringliteral">&quot;%s&quot;</span>, _tr( <span class="stringliteral">&quot;Label&quot;</span> ) );</div>
+<div class="line">UI::button( <a class="code hl_defineRef" href="./Cpp/MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e">_tr</a>( <span class="stringliteral">&quot;Save&quot;</span> ), <a class="code hl_functionRef" href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a> );</div>
+<div class="line">ImGui::Text( <span class="stringliteral">&quot;%s&quot;</span>, <a class="code hl_defineRef" href="./Cpp/MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e">_tr</a>( <span class="stringliteral">&quot;Label&quot;</span> ) );</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// WRONG: dangling pointer</span></div>
-<div class="line"><span class="keyword">const</span> <span class="keyword">auto</span> label = _tr( <span class="stringliteral">&quot;Save&quot;</span> );</div>
-<div class="line">UI::button( label, size );              <span class="comment">// undefined behavior</span></div>
+<div class="line"><span class="keyword">const</span> <span class="keyword">auto</span> label = <a class="code hl_defineRef" href="./Cpp/MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e">_tr</a>( <span class="stringliteral">&quot;Save&quot;</span> );</div>
+<div class="line">UI::button( label, <a class="code hl_functionRef" href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a> );              <span class="comment">// undefined behavior</span></div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// CORRECT: store as std::string</span></div>
-<div class="line"><span class="keyword">const</span> <span class="keyword">auto</span> label = s_tr( <span class="stringliteral">&quot;Save&quot;</span> );</div>
-<div class="line">UI::button( label.c_str(), size );</div>
+<div class="line"><span class="keyword">const</span> <span class="keyword">auto</span> label = <a class="code hl_defineRef" href="./Cpp/MRI18n_8h.html#ad186f1135eca2f5c984d81d38d6fde5e">s_tr</a>( <span class="stringliteral">&quot;Save&quot;</span> );</div>
+<div class="line">UI::button( label.c_str(), <a class="code hl_functionRef" href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a> );</div>
+<div class="ttc" id="aMRI18n_8h_html_ad186f1135eca2f5c984d81d38d6fde5e"><div class="ttname"><a href="./Cpp/MRI18n_8h.html#ad186f1135eca2f5c984d81d38d6fde5e">s_tr</a></div><div class="ttdeci">#define s_tr(...)</div></div>
+<div class="ttc" id="aMRI18n_8h_html_adc6632164911ac0de8387a9b13de000e"><div class="ttname"><a href="./Cpp/MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e">_tr</a></div><div class="ttdeci">#define _tr(...)</div></div>
+<div class="ttc" id="agroup__VoxelGroup_html_ga1a728fc2d1e7dd47e0f137af620f6985"><div class="ttname"><a href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a></div><div class="ttdeci">size_t size() const</div></div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md127"></a>
 Direct translate functions</h2>
-<p><span class="tt">MR::Locale::translate()</span> accepts an optional <span class="tt">Domain</span> parameter:</p>
+<p><span class="tt"><a class="elRef" href="./Cpp/namespaceMR_1_1Locale.html#adee832f323bf10f63d7f84df3ab0706a">MR::Locale::translate()</a></span> accepts an optional <span class="tt">Domain</span> parameter:</p>
 <div class="fragment"><div class="line"><span class="comment">// simple message (default MeshLib domain)</span></div>
-<div class="line">std::string t = MR::Locale::translate( <span class="stringliteral">&quot;Open&quot;</span> );</div>
+<div class="line">std::string t = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#adee832f323bf10f63d7f84df3ab0706a">MR::Locale::translate</a>( <span class="stringliteral">&quot;Open&quot;</span> );</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// with explicit domain</span></div>
-<div class="line">std::string t = MR::Locale::translate( <span class="stringliteral">&quot;Open&quot;</span>, MR::Locale::Domain{ kMyDomainId } );</div>
+<div class="line">std::string t = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#adee832f323bf10f63d7f84df3ab0706a">MR::Locale::translate</a>( <span class="stringliteral">&quot;Open&quot;</span>, MR::Locale::Domain{ kMyDomainId } );</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// context disambiguation</span></div>
-<div class="line">std::string t = MR::Locale::translate( <span class="stringliteral">&quot;Camera&quot;</span>, <span class="stringliteral">&quot;View&quot;</span> );</div>
+<div class="line">std::string t = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#adee832f323bf10f63d7f84df3ab0706a">MR::Locale::translate</a>( <span class="stringliteral">&quot;Camera&quot;</span>, <span class="stringliteral">&quot;View&quot;</span> );</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// plural form</span></div>
-<div class="line">std::string t = MR::Locale::translate( <span class="stringliteral">&quot;%d item&quot;</span>, <span class="stringliteral">&quot;%d items&quot;</span>, count );</div>
+<div class="line">std::string t = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#adee832f323bf10f63d7f84df3ab0706a">MR::Locale::translate</a>( <span class="stringliteral">&quot;%d item&quot;</span>, <span class="stringliteral">&quot;%d items&quot;</span>, count );</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// batch translation for combo lists</span></div>
-<div class="line"><span class="keyword">auto</span> items = MR::Locale::translateAll( kModeNames );</div>
-<div class="line"><span class="keyword">auto</span> items = MR::Locale::translateAll( <span class="stringliteral">&quot;context&quot;</span>, kModeNames );</div>
+<div class="line"><span class="keyword">auto</span> items = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#a4e795222477384d08538440f4f75e119">MR::Locale::translateAll</a>( kModeNames );</div>
+<div class="line"><span class="keyword">auto</span> items = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#a4e795222477384d08538440f4f75e119">MR::Locale::translateAll</a>( <span class="stringliteral">&quot;context&quot;</span>, kModeNames );</div>
+<div class="ttc" id="anamespaceMR_1_1Locale_html_a4e795222477384d08538440f4f75e119"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Locale.html#a4e795222477384d08538440f4f75e119">MR::Locale::translateAll</a></div><div class="ttdeci">std::vector&lt; std::string &gt; translateAll(const std::vector&lt; std::string &gt; &amp;items, LocaleDomainId domainId=defaultDomain)</div></div>
+<div class="ttc" id="anamespaceMR_1_1Locale_html_adee832f323bf10f63d7f84df3ab0706a"><div class="ttname"><a href="./Cpp/namespaceMR_1_1Locale.html#adee832f323bf10f63d7f84df3ab0706a">MR::Locale::translate</a></div><div class="ttdeci">std::string translate(std::string_view msg, LocaleDomainId domainId=defaultDomain)</div></div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md128"></a>
 Static arrays and deferred translation</h2>
-<p>Mark strings with <span class="tt">_t()</span> at declaration time so <span class="tt">xgettext</span> extracts them, then translate at display time:</p>
+<p>Mark strings with <span class="tt"><a class="elRef" href="./Cpp/MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t()</a></span> at declaration time so <span class="tt">xgettext</span> extracts them, then translate at display time:</p>
 <div class="fragment"><div class="line"><span class="comment">// declaration: _t() is a no-op, strings are stored untranslated</span></div>
 <div class="line"><span class="keyword">static</span> <span class="keyword">const</span> std::vector&lt;std::string&gt; kModeNames {</div>
-<div class="line">    _t( <span class="stringliteral">&quot;Append&quot;</span> ),</div>
-<div class="line">    _t( <span class="stringliteral">&quot;Replace&quot;</span> ),</div>
+<div class="line">    <a class="code hl_defineRef" href="./Cpp/MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a>( <span class="stringliteral">&quot;Append&quot;</span> ),</div>
+<div class="line">    <a class="code hl_defineRef" href="./Cpp/MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a>( <span class="stringliteral">&quot;Replace&quot;</span> ),</div>
 <div class="line">};</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// display: translate on every frame</span></div>
-<div class="line">UI::combo( _tr( <span class="stringliteral">&quot;Mode&quot;</span> ), &amp;idx, MR::Locale::translateAll( kModeNames ) );</div>
+<div class="line">UI::combo( <a class="code hl_defineRef" href="./Cpp/MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e">_tr</a>( <span class="stringliteral">&quot;Mode&quot;</span> ), &amp;idx, <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#a4e795222477384d08538440f4f75e119">MR::Locale::translateAll</a>( kModeNames ) );</div>
+<div class="ttc" id="aMRMeshFwd_8h_html_a9ffd0813b79cbb98d3f71fa5adb2a408"><div class="ttname"><a href="./Cpp/MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a></div><div class="ttdeci">#define _t(...)</div></div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md129"></a>
 Context disambiguation</h2>
 <p>When the same English string has different meanings, use the context overload:</p>
 <div class="fragment"><div class="line"><span class="comment">// &quot;View&quot; as a noun (saved camera view) vs. verb (to view something)</span></div>
-<div class="line">ImGui::Text( <span class="stringliteral">&quot;%s&quot;</span>, _tr( <span class="stringliteral">&quot;Camera&quot;</span>, <span class="stringliteral">&quot;View&quot;</span> ) );</div>
-<div class="line">ImGui::Text( <span class="stringliteral">&quot;%s&quot;</span>, _tr( <span class="stringliteral">&quot;Action&quot;</span>, <span class="stringliteral">&quot;View&quot;</span> ) );</div>
+<div class="line">ImGui::Text( <span class="stringliteral">&quot;%s&quot;</span>, <a class="code hl_defineRef" href="./Cpp/MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e">_tr</a>( <span class="stringliteral">&quot;Camera&quot;</span>, <span class="stringliteral">&quot;View&quot;</span> ) );</div>
+<div class="line">ImGui::Text( <span class="stringliteral">&quot;%s&quot;</span>, <a class="code hl_defineRef" href="./Cpp/MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e">_tr</a>( <span class="stringliteral">&quot;Action&quot;</span>, <span class="stringliteral">&quot;View&quot;</span> ) );</div>
 </div><!-- fragment --><p>In the <span class="tt">.po</span> file these appear as separate entries with different <span class="tt">msgctxt</span> values.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md130"></a>
 Plural forms</h2>
-<div class="fragment"><div class="line"><span class="keyword">auto</span> label = MR::Locale::translate( <span class="stringliteral">&quot;%d item&quot;</span>, <span class="stringliteral">&quot;%d items&quot;</span>, count );</div>
+<div class="fragment"><div class="line"><span class="keyword">auto</span> label = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#adee832f323bf10f63d7f84df3ab0706a">MR::Locale::translate</a>( <span class="stringliteral">&quot;%d item&quot;</span>, <span class="stringliteral">&quot;%d items&quot;</span>, count );</div>
 </div><!-- fragment --><p>The correct form is selected by Boost.Locale based on the <span class="tt">Plural-Forms:</span> rule in the <span class="tt">.po</span> header.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md131"></a>
 TRANSLATORS comments</h2>
 <p>Place a <span class="tt">// TRANSLATORS:</span> comment on the line immediately before a translatable string to give translators context. <span class="tt">xgettext</span> picks these up and includes them as <span class="tt">#.</span> comment lines in the <span class="tt">.pot</span> file:</p>
 <div class="fragment"><div class="line"><span class="comment">// TRANSLATORS: Shown when the mesh has no faces after repair</span></div>
-<div class="line">ImGui::Text( <span class="stringliteral">&quot;%s&quot;</span>, _tr( <span class="stringliteral">&quot;Empty result&quot;</span> ) );</div>
+<div class="line">ImGui::Text( <span class="stringliteral">&quot;%s&quot;</span>, <a class="code hl_defineRef" href="./Cpp/MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e">_tr</a>( <span class="stringliteral">&quot;Empty result&quot;</span> ) );</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="I18nCustomHeader"></a>
 Custom header file for your domain</h2>
-<p>When building a plugin with its own translation domain, create a project-local header file that redefines the macros to use your domain automatically. This way, every <span class="tt">_tr()</span> call in your plugin looks up the correct catalog without passing domain IDs explicitly.</p>
+<p>When building a plugin with its own translation domain, create a project-local header file that redefines the macros to use your domain automatically. This way, every <span class="tt"><a class="elRef" href="./Cpp/MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e">_tr()</a></span> call in your plugin looks up the correct catalog without passing domain IDs explicitly.</p>
 <p>Copy and adapt the following template (also available at <span class="tt">examples/cpp-samples/MRI18nDomainExample.h</span>):</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#pragma once</span></div>
 <div class="line"> </div>
-<div class="line"><span class="preprocessor">#include &lt;MRViewer/MRI18n.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRI18n_8h.html">MRViewer/MRI18n.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// forward declaration from MRLocale.h</span></div>
-<div class="line"><span class="keyword">namespace </span>MR::Locale { MRVIEWER_API <span class="keywordtype">int</span> findDomain( <span class="keyword">const</span> <span class="keywordtype">char</span>* domainName ); }</div>
+<div class="line"><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1Locale.html">MR::Locale</a> { MRVIEWER_API <span class="keywordtype">int</span> <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1Locale.html#a88410b6d8ce80e2193cc71cb7bacaffb">findDomain</a>( <span class="keyword">const</span> <span class="keywordtype">char</span>* domainName ); }</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// replace &quot;MyPlugin&quot; with your actual domain name</span></div>
 <div class="line"><span class="comment">// (must match the .pot/.po filename stem)</span></div>
@@ -465,9 +478,9 @@ Custom header file for your domain</h2>
 <div class="line"><span class="preprocessor">#define f_tr( ... ) fmt::runtime( MR::Locale::translate( __VA_ARGS__, MR::Locale::Domain{ MR::Locale::findDomain( MY_PLUGIN_I18N_DOMAIN ) } ) )</span></div>
 </div><!-- fragment --><p>To use this header in your plugin:</p>
 <ol type="1">
-<li>Include your local header file instead of <span class="tt">&lt;MRViewer/MRI18n.h&gt;</span> in every <span class="tt">.cpp</span> file.</li>
+<li>Include your local header file instead of <span class="tt">&lt;<a class="elRef" href="./Cpp/MRI18n_8h.html">MRViewer/MRI18n.h</a>&gt;</span> in every <span class="tt">.cpp</span> file.</li>
 <li>Register the domain at startup: <span class="tt">MR::Locale::addDomain( MY_PLUGIN_I18N_DOMAIN );</span></li>
-<li>All <span class="tt">_tr()</span>, <span class="tt">s_tr()</span>, and <span class="tt">f_tr()</span> calls will now use your domain.</li>
+<li>All <span class="tt"><a class="elRef" href="./Cpp/MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e">_tr()</a></span>, <span class="tt"><a class="elRef" href="./Cpp/MRI18n_8h.html#ad186f1135eca2f5c984d81d38d6fde5e">s_tr()</a></span>, and <span class="tt"><a class="elRef" href="./Cpp/MRI18n_8h.html#a33873d54d36dc3bf7a6a77bf40461701">f_tr()</a></span> calls will now use your domain.</li>
 </ol>
 <dl class="section note"><dt>Note</dt><dd><span class="tt">findDomain()</span> performs a cache lookup by pointer address for <span class="tt">const char*</span> literals, so the runtime cost is minimal.</dd></dl>
 <h1 class="doxsection"><a class="anchor" id="I18nJSON"></a>

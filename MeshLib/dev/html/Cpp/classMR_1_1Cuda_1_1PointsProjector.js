@@ -1,6 +1,6 @@
 var classMR_1_1Cuda_1_1PointsProjector =
 [
-    [ "findProjections", "classMR_1_1Cuda_1_1PointsProjector.html#a5cd1baad6e96108e4b6acc6983c51997", null ],
-    [ "projectionsHeapBytes", "classMR_1_1Cuda_1_1PointsProjector.html#acc3b795a692a05aa71390db850bb9ff4", null ],
-    [ "setPointCloud", "classMR_1_1Cuda_1_1PointsProjector.html#ae5f97af32e2a2a8898a3063117312160", null ]
+    [ "findProjections", "classMR_1_1Cuda_1_1PointsProjector.html#a3cb8860c3d29463975c4a2248fc7278c", null ],
+    [ "projectionsHeapBytes", "classMR_1_1Cuda_1_1PointsProjector.html#a0ac2faedf8134c27e3ee6c24c5f9b984", null ],
+    [ "setPointCloud", "classMR_1_1Cuda_1_1PointsProjector.html#a9e76dd8c609f8fd1f6a0f9bab37e0938", null ]
 ];

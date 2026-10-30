@@ -143,14 +143,14 @@ $(function(){initNavTree('structMR_1_1McpGateway_1_1Config.html','','structMR_1_
 Public Attributes</h2></td></tr>
 <tr class="memitem:a86f0334549cd5d86f3144500efa3159b" id="r_a86f0334549cd5d86f3144500efa3159b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86f0334549cd5d86f3144500efa3159b">mcpPort</a> = 7887</td></tr>
 <tr class="memdesc:a86f0334549cd5d86f3144500efa3159b"><td class="mdescLeft">&#160;</td><td class="mdescRight">-mcpPort N forwarded to spawned MI; targetUrl is derived from this if &ndash;target-url is omitted.  <br /></td></tr>
-<tr class="memitem:a6e4335a7dd72b1d4fb00d536324cc1db" id="r_a6e4335a7dd72b1d4fb00d536324cc1db"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e4335a7dd72b1d4fb00d536324cc1db">targetUrl</a> = &quot;http:/// 127.0.0.1:7887&quot;</td></tr>
+<tr class="memitem:a6e4335a7dd72b1d4fb00d536324cc1db" id="r_a6e4335a7dd72b1d4fb00d536324cc1db"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e4335a7dd72b1d4fb00d536324cc1db">targetUrl</a> = &quot;http://127.0.0.1:7887&quot;</td></tr>
 <tr class="memitem:a743ff58ef28a77d569366aeaadba67a6" id="r_a743ff58ef28a77d569366aeaadba67a6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a743ff58ef28a77d569366aeaadba67a6">ssePath</a> = &quot;/sse&quot;</td></tr>
 <tr class="memitem:a3c192ccbebdacb33bf3761707793a9a0" id="r_a3c192ccbebdacb33bf3761707793a9a0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c192ccbebdacb33bf3761707793a9a0">messagesPath</a> = &quot;/messages&quot;</td></tr>
 <tr class="memitem:a49aa82c55fbab8538bc44169ebfa1209" id="r_a49aa82c55fbab8538bc44169ebfa1209"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49aa82c55fbab8538bc44169ebfa1209">launchCommand</a></td></tr>
 <tr class="memitem:a0a4b77ae0f972bb301c60f404c907ec3" id="r_a0a4b77ae0f972bb301c60f404c907ec3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a4b77ae0f972bb301c60f404c907ec3">launchArgs</a></td></tr>
 <tr class="memitem:abf13345caaa67573350f7cce650d3e96" id="r_abf13345caaa67573350f7cce650d3e96"><td class="memItemLeft" align="right" valign="top">std::chrono::seconds&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf13345caaa67573350f7cce650d3e96">launchTimeout</a> { 30 }</td></tr>
 <tr class="memitem:a65b3ebc668ef687443ff0f3019738d92" id="r_a65b3ebc668ef687443ff0f3019738d92"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65b3ebc668ef687443ff0f3019738d92">toolsCacheNamespace</a></td></tr>
-<tr class="memdesc:a65b3ebc668ef687443ff0f3019738d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">&ndash;tools-cache-namespace &lt;name&gt; (optional sub-folder)  <br /></td></tr>
+<tr class="memdesc:a65b3ebc668ef687443ff0f3019738d92"><td class="mdescLeft">&#160;</td><td class="mdescRight"><span class="tt">--tools-cache-namespace &lt;name&gt;</span> (optional sub-folder)  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Aggregates all values parsed from the gateway's command-line. Passed by const-ref to the cache, backend-probe, and local-tool-registration helpers — letting them read what they need without each replicating its own subset of CLI parsing. </p>
@@ -248,7 +248,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string MR::McpGateway::Config::targetUrl = &quot;http:/// 127.0.0.1:7887&quot;</td>
+          <td class="memname">std::string MR::McpGateway::Config::targetUrl = &quot;http://127.0.0.1:7887&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -267,7 +267,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>&ndash;tools-cache-namespace &lt;name&gt; (optional sub-folder) </p>
+<p><span class="tt">--tools-cache-namespace &lt;name&gt;</span> (optional sub-folder) </p>
 
 </div>
 </div>

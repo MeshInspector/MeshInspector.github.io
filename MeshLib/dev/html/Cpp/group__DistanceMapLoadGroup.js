@@ -1,9 +1,9 @@
 var group__DistanceMapLoadGroup =
 [
     [ "MR::DistanceMapLoad::fromAnySupportedFormat", "group__DistanceMapLoadGroup.html#ga05362ea3391dbf7d2ee5d4ea434b4f40", null ],
-    [ "MR::DistanceMapLoad::fromAnySupportedFormat", "group__DistanceMapLoadGroup.html#ga50b271c979604f387a76f2ca17ca92cb", null ],
+    [ "MR::DistanceMapLoad::fromAnySupportedFormat", "group__DistanceMapLoadGroup.html#ga130580fa11ec9bcaeeb7223d988cd64c", null ],
     [ "MR::DistanceMapLoad::fromMrDistanceMap", "group__DistanceMapLoadGroup.html#ga68367289de2ea857d4cb19cf4f7abd40", null ],
-    [ "MR::DistanceMapLoad::fromMrDistanceMap", "group__DistanceMapLoadGroup.html#ga3975372a3d6ef3b6c0ffecd16d39eaba", null ],
+    [ "MR::DistanceMapLoad::fromMrDistanceMap", "group__DistanceMapLoadGroup.html#ga6f1a32e15188e4e614f9bac163736af3", null ],
     [ "MR::DistanceMapLoad::fromRaw", "group__DistanceMapLoadGroup.html#gaf1149f1de08d40e945870f95e03e5a10", null ],
-    [ "MR::DistanceMapLoad::fromRaw", "group__DistanceMapLoadGroup.html#ga84cffe3f4d1400f8f975c77ffc252126", null ]
+    [ "MR::DistanceMapLoad::fromRaw", "group__DistanceMapLoadGroup.html#gab832fd27a349ad4a75efb2ca3a9cf9a5", null ]
 ];

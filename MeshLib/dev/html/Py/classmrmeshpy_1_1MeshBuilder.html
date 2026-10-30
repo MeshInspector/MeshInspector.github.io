@@ -572,7 +572,7 @@ triangulation is modified to introduce duplicates;
   </tr>
 </table>
 </div><div class="memdoc">
-<pre class="fragment">the function finds groups of mesh vertices located closer to each other than \\param closeDist, and unites such vertices in one;
+<pre class="fragment">the function finds groups of mesh vertices located closer to each other than \\p closeDist, and unites such vertices in one;
 then the mesh is rebuilt from the remaining triangles
 \\param optionalVertOldToNew is the mapping of vertices: before -&gt; after
 \\param uniteOnlyBd if true then only boundary vertices can be united, all internal vertices (even close ones) will remain
@@ -606,7 +606,7 @@ then the mesh is rebuilt from the remaining triangles
   </tr>
 </table>
 </div><div class="memdoc">
-<pre class="fragment">the function finds groups of mesh vertices located closer to each other than \\param params.closeDist, and unites such vertices in one;
+<pre class="fragment">the function finds groups of mesh vertices located closer to each other than \\p params.closeDist, and unites such vertices in one;
 then the mesh is rebuilt from the remaining triangles
 \\return the number of vertices united, 0 means no change in the mesh
 </pre> 

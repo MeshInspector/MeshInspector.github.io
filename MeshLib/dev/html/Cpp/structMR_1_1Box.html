@@ -168,8 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af6d43e68039fbfc977b3d70beb1f30c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">skip initialization of min/max  <br /></td></tr>
 <tr class="memitem:af6d43e68039fbfc977b3d70beb1f30c8" id="r_af6d43e68039fbfc977b3d70beb1f30c8"><td class="memTemplParams" colspan="2">template&lt;typename VV = V, typename std::enable_if_t&lt;!<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt; VV &gt;::supportNoInit, int &gt; = 0&gt; </td></tr>
 <tr class="memitem:af6d43e68039fbfc977b3d70beb1f30c8 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6d43e68039fbfc977b3d70beb1f30c8">Box</a> (<a class="el" href="structMR_1_1NoInit.html">NoInit</a>)</td></tr>
-<tr class="memitem:abaa0e8fa0a608290aa2ac4bee9a34a4e" id="r_abaa0e8fa0a608290aa2ac4bee9a34a4e"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
-<tr class="memitem:abaa0e8fa0a608290aa2ac4bee9a34a4e template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaa0e8fa0a608290aa2ac4bee9a34a4e">MR_REQUIRES_IF_SUPPORTED</a> (!std::is_same_v&lt; V, U &gt;) explicit <a class="el" href="structMR_1_1Box.html">Box</a>(const <a class="el" href="structMR_1_1Box.html">Box</a>&lt; U &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>)</td></tr>
+<tr class="memitem:add72022e19ae28da8dec0a61eae00e35" id="r_add72022e19ae28da8dec0a61eae00e35"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
+<tr class="memitem:add72022e19ae28da8dec0a61eae00e35 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add72022e19ae28da8dec0a61eae00e35">Box</a> (const <a class="el" href="structMR_1_1Box.html">Box</a>&lt; U &gt; &amp;a)</td></tr>
 <tr class="memitem:ae8181cac57d5ff92d32bfa86bdc5caf3" id="r_ae8181cac57d5ff92d32bfa86bdc5caf3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8181cac57d5ff92d32bfa86bdc5caf3">valid</a> () const</td></tr>
 <tr class="memdesc:ae8181cac57d5ff92d32bfa86bdc5caf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the box contains at least one point  <br /></td></tr>
 <tr class="memitem:a5edd7e58dce05a67482b2c179f6abc6e" id="r_a5edd7e58dce05a67482b2c179f6abc6e"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5edd7e58dce05a67482b2c179f6abc6e">center</a> () const</td></tr>
@@ -183,7 +183,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aaf8c494ec86f9a6ef904299b78f1cc23"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the volume of this box  <br /></td></tr>
 <tr class="memitem:a14ec2de1def8e99ce267fe830e9caa51" id="r_a14ec2de1def8e99ce267fe830e9caa51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14ec2de1def8e99ce267fe830e9caa51">include</a> (const V &amp;pt)</td></tr>
 <tr class="memdesc:a14ec2de1def8e99ce267fe830e9caa51"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimally increases the box to include given point  <br /></td></tr>
-<tr class="memitem:a2d9fecc0393e456242b1409f8a6a79f9" id="r_a2d9fecc0393e456242b1409f8a6a79f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d9fecc0393e456242b1409f8a6a79f9">include</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
+<tr class="memitem:a2d9fecc0393e456242b1409f8a6a79f9" id="r_a2d9fecc0393e456242b1409f8a6a79f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d9fecc0393e456242b1409f8a6a79f9">include</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;b)</td></tr>
 <tr class="memdesc:a2d9fecc0393e456242b1409f8a6a79f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimally increases the box to include another box  <br /></td></tr>
 <tr class="memitem:ada11cc33b5ba6f38f12211e1ae500598" id="r_ada11cc33b5ba6f38f12211e1ae500598"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada11cc33b5ba6f38f12211e1ae500598">contains</a> (const V &amp;pt) const</td></tr>
 <tr class="memdesc:ada11cc33b5ba6f38f12211e1ae500598"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether given point is inside (including the surface) of this box  <br /></td></tr>
@@ -191,20 +191,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad7f75d672fee1cd837085bd09be3c66e"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether given box is fully inside (the surfaces may touch) of this box  <br /></td></tr>
 <tr class="memitem:a1af67d1761b8fd15fa204b39d5f9bd46" id="r_a1af67d1761b8fd15fa204b39d5f9bd46"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1af67d1761b8fd15fa204b39d5f9bd46">getBoxClosestPointTo</a> (const V &amp;pt) const</td></tr>
 <tr class="memdesc:a1af67d1761b8fd15fa204b39d5f9bd46"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns closest point in the box to given point  <br /></td></tr>
-<tr class="memitem:aacbc2c9aca82714d27d007c9cc6aa696" id="r_aacbc2c9aca82714d27d007c9cc6aa696"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacbc2c9aca82714d27d007c9cc6aa696">intersects</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>) const</td></tr>
+<tr class="memitem:aacbc2c9aca82714d27d007c9cc6aa696" id="r_aacbc2c9aca82714d27d007c9cc6aa696"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacbc2c9aca82714d27d007c9cc6aa696">intersects</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;b) const</td></tr>
 <tr class="memdesc:aacbc2c9aca82714d27d007c9cc6aa696"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether this box intersects or touches given box  <br /></td></tr>
-<tr class="memitem:acd003ee915daffe1dccdfe6bec573abc" id="r_acd003ee915daffe1dccdfe6bec573abc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd003ee915daffe1dccdfe6bec573abc">intersection</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>) const</td></tr>
+<tr class="memitem:acd003ee915daffe1dccdfe6bec573abc" id="r_acd003ee915daffe1dccdfe6bec573abc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd003ee915daffe1dccdfe6bec573abc">intersection</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;b) const</td></tr>
 <tr class="memdesc:acd003ee915daffe1dccdfe6bec573abc"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes intersection between this and other box  <br /></td></tr>
-<tr class="memitem:adcbce4d705b1bf09dd04c5023fe58ec3" id="r_adcbce4d705b1bf09dd04c5023fe58ec3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcbce4d705b1bf09dd04c5023fe58ec3">intersect</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:a25efa79c9a3710f2c59fac06fb39ad12" id="r_a25efa79c9a3710f2c59fac06fb39ad12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1425948e6f0f9ef6de04c45be07f81fd">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25efa79c9a3710f2c59fac06fb39ad12">getDistanceSq</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>) const</td></tr>
+<tr class="memitem:adcbce4d705b1bf09dd04c5023fe58ec3" id="r_adcbce4d705b1bf09dd04c5023fe58ec3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcbce4d705b1bf09dd04c5023fe58ec3">intersect</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;b)</td></tr>
+<tr class="memitem:a25efa79c9a3710f2c59fac06fb39ad12" id="r_a25efa79c9a3710f2c59fac06fb39ad12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1425948e6f0f9ef6de04c45be07f81fd">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25efa79c9a3710f2c59fac06fb39ad12">getDistanceSq</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;b) const</td></tr>
 <tr class="memitem:a6fa5434776a3bb7b53014edc67295ec8" id="r_a6fa5434776a3bb7b53014edc67295ec8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1425948e6f0f9ef6de04c45be07f81fd">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fa5434776a3bb7b53014edc67295ec8">getDistanceSq</a> (const V &amp;pt) const</td></tr>
 <tr class="memitem:a36a72e5786051efa6c3fa7512b00c6c3" id="r_a36a72e5786051efa6c3fa7512b00c6c3"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36a72e5786051efa6c3fa7512b00c6c3">getProjection</a> (const V &amp;pt) const</td></tr>
 <tr class="memitem:a3f06adfa8006bd6000537a4d96e4f66e" id="r_a3f06adfa8006bd6000537a4d96e4f66e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f06adfa8006bd6000537a4d96e4f66e">expanded</a> (const V &amp;expansion) const</td></tr>
 <tr class="memdesc:a3f06adfa8006bd6000537a4d96e4f66e"><td class="mdescLeft">&#160;</td><td class="mdescRight">decreases min and increased max on given value  <br /></td></tr>
 <tr class="memitem:a5221795da9f2f569a0ac9fd9a1a5cba4" id="r_a5221795da9f2f569a0ac9fd9a1a5cba4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5221795da9f2f569a0ac9fd9a1a5cba4">insignificantlyExpanded</a> () const</td></tr>
 <tr class="memdesc:a5221795da9f2f569a0ac9fd9a1a5cba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">decreases min and increases max to their closest representable value  <br /></td></tr>
-<tr class="memitem:af93a3ccd5c9d9d678844e2578807089f" id="r_af93a3ccd5c9d9d678844e2578807089f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af93a3ccd5c9d9d678844e2578807089f">operator==</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>) const</td></tr>
-<tr class="memitem:ac8eb14ff1a01b09de851695a4a0007d4" id="r_ac8eb14ff1a01b09de851695a4a0007d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8eb14ff1a01b09de851695a4a0007d4">operator!=</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>) const</td></tr>
+<tr class="memitem:af93a3ccd5c9d9d678844e2578807089f" id="r_af93a3ccd5c9d9d678844e2578807089f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af93a3ccd5c9d9d678844e2578807089f">operator==</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;a) const</td></tr>
+<tr class="memitem:ac8eb14ff1a01b09de851695a4a0007d4" id="r_ac8eb14ff1a01b09de851695a4a0007d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8eb14ff1a01b09de851695a4a0007d4">operator!=</a> (const <a class="el" href="structMR_1_1Box.html">Box</a> &amp;a) const</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -298,7 +298,7 @@ template&lt;typename V&gt; </div>
 </div>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab72759c3d199697fa09474bba5c5284c" name="ab72759c3d199697fa09474bba5c5284c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab72759c3d199697fa09474bba5c5284c">&#9670;&#160;</a></span>Box() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab72759c3d199697fa09474bba5c5284c">&#9670;&#160;</a></span>Box() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -327,7 +327,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="a0b1e0b6b95e8b735eda8de2bb06fd987" name="a0b1e0b6b95e8b735eda8de2bb06fd987"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b1e0b6b95e8b735eda8de2bb06fd987">&#9670;&#160;</a></span>Box() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b1e0b6b95e8b735eda8de2bb06fd987">&#9670;&#160;</a></span>Box() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -358,7 +358,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="af6d43e68039fbfc977b3d70beb1f30c8" name="af6d43e68039fbfc977b3d70beb1f30c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6d43e68039fbfc977b3d70beb1f30c8">&#9670;&#160;</a></span>Box() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af6d43e68039fbfc977b3d70beb1f30c8">&#9670;&#160;</a></span>Box() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -389,7 +389,7 @@ template&lt;typename VV = V, typename std::enable_if_t&lt; <a class="el" href="s
 </div>
 </div>
 <a id="af6d43e68039fbfc977b3d70beb1f30c8" name="af6d43e68039fbfc977b3d70beb1f30c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6d43e68039fbfc977b3d70beb1f30c8">&#9670;&#160;</a></span>Box() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af6d43e68039fbfc977b3d70beb1f30c8">&#9670;&#160;</a></span>Box() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -414,6 +414,36 @@ template&lt;typename VV = V, typename std::enable_if_t&lt;!<a class="el" href="s
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="add72022e19ae28da8dec0a61eae00e35" name="add72022e19ae28da8dec0a61eae00e35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add72022e19ae28da8dec0a61eae00e35">&#9670;&#160;</a></span>Box() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V&gt; </div>
+<div class="memtemplate">
+template&lt;typename U&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::Box </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Box.html">Box</a>&lt; U &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Here <span class="tt">V == U</span> doesn't seem to cause any issues in the C++ code, but we're still disabling it because it somehow gets emitted when generating the bindings, and results in duplicate functions in C#. </p>
 
 </div>
 </div>
@@ -960,36 +990,6 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p>checks whether this box intersects or touches given box </p>
-
-</div>
-</div>
-<a id="abaa0e8fa0a608290aa2ac4bee9a34a4e" name="abaa0e8fa0a608290aa2ac4bee9a34a4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abaa0e8fa0a608290aa2ac4bee9a34a4e">&#9670;&#160;</a></span>MR_REQUIRES_IF_SUPPORTED()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename V&gt; </div>
-<div class="memtemplate">
-template&lt;typename U&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::MR_REQUIRES_IF_SUPPORTED </td>
-          <td>(</td>
-          <td class="paramtype">!std::is_same_v&lt; V, U &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const &amp;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Here <span class="tt">V == U</span> doesn't seem to cause any issues in the C++ code, but we're still disabling it because it somehow gets emitted when generating the bindings, and results in duplicate functions in C#. </p>
 
 </div>
 </div>

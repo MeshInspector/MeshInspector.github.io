@@ -179,68 +179,68 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AParallelUnionFind_3C_20I_20_3E" id="r_MR_3A_3AParallelUnionFind_3C_20I_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ParallelUnionFind.html">MR::ParallelUnionFind&lt; I &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Union-find that supports lock-free concurrent construction via <a class="el" href="group__GeneralGroup.html#gab4ebc81d4e3bac00d36d6b808ab72ea7">uniteAtomic()</a>. It links by element id (the smaller id becomes the set root), which keeps the forest acyclic without locks; consequently it does not maintain set sizes (use <a class="el" href="group__GeneralGroup.html#ga3ae19969d781423c2b2d2c9ee3b5b328" title="sets the root of corresponding set as the parent of each element, then returns the vector">BaseUnionFind::roots()</a> to read the result).  <a href="classMR_1_1ParallelUnionFind.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AVector_3C_20T_2C_20I_20_3E" id="r_MR_3A_3AVector_3C_20T_2C_20I_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Vector.html">MR::Vector&lt; T, I &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <a href="classMR_1_1Vector.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1Vector.html">Vector&lt;T&gt;</a> is indexed by size_t.  <a href="classMR_1_1Vector.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gacfd51356fbcb71948b1ef3f058ac75c7" id="r_gacfd51356fbcb71948b1ef3f058ac75c7"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bs)</td></tr>
 <tr class="memdesc:gacfd51356fbcb71948b1ef3f058ac75c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given <a class="el" href="classMR_1_1BitSet.html">BitSet</a> occupies on heap  <br /></td></tr>
-<tr class="memitem:ga477d12e4df21747098c68393607fe634" id="r_ga477d12e4df21747098c68393607fe634"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga477d12e4df21747098c68393607fe634">MR::operator==</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
+<tr class="memitem:ga477d12e4df21747098c68393607fe634" id="r_ga477d12e4df21747098c68393607fe634"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga477d12e4df21747098c68393607fe634">MR::operator==</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
 <tr class="memdesc:ga477d12e4df21747098c68393607fe634"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off)  <br /></td></tr>
-<tr class="memitem:ga6eb99174c3e76c7cef9281244bb0352b" id="r_ga6eb99174c3e76c7cef9281244bb0352b"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </td></tr>
-<tr class="memitem:ga6eb99174c3e76c7cef9281244bb0352b template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6eb99174c3e76c7cef9281244bb0352b">MR::operator==</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
+<tr class="memitem:ga6eb99174c3e76c7cef9281244bb0352b" id="r_ga6eb99174c3e76c7cef9281244bb0352b"><td class="memTemplParams" colspan="2">template&lt;typename I&gt; </td></tr>
+<tr class="memitem:ga6eb99174c3e76c7cef9281244bb0352b template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6eb99174c3e76c7cef9281244bb0352b">MR::operator==</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;a, const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;b)</td></tr>
 <tr class="memitem:ga4369afee04806dc72d3e0bca2ddaa0ec" id="r_ga4369afee04806dc72d3e0bca2ddaa0ec"><td class="memTemplParams" colspan="2">template&lt;typename T, typename U&gt; </td></tr>
-<tr class="memitem:ga4369afee04806dc72d3e0bca2ddaa0ec template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4369afee04806dc72d3e0bca2ddaa0ec">MR::operator==</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; T &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; U &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)=delete</td></tr>
+<tr class="memitem:ga4369afee04806dc72d3e0bca2ddaa0ec template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4369afee04806dc72d3e0bca2ddaa0ec">MR::operator==</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; U &gt; &amp;b)=delete</td></tr>
 <tr class="memdesc:ga4369afee04806dc72d3e0bca2ddaa0ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">prohibit comparison of unrelated sets  <br /></td></tr>
-<tr class="memitem:gaca9e6bd2b2457e272996c41e32320995" id="r_gaca9e6bd2b2457e272996c41e32320995"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </td></tr>
-<tr class="memitem:gaca9e6bd2b2457e272996c41e32320995 template"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaca9e6bd2b2457e272996c41e32320995">MR::makePredicate</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; *bitset)</td></tr>
-<tr class="memitem:ga3057a729a683a6a8a6b4f097a0094d58" id="r_ga3057a729a683a6a8a6b4f097a0094d58"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </td></tr>
-<tr class="memitem:ga3057a729a683a6a8a6b4f097a0094d58 template"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3057a729a683a6a8a6b4f097a0094d58">MR::makePredicate</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;bitset)</td></tr>
-<tr class="memitem:ga84d3ef89997a21c7e28a95f9888e3a2e" id="r_ga84d3ef89997a21c7e28a95f9888e3a2e"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </td></tr>
-<tr class="memitem:ga84d3ef89997a21c7e28a95f9888e3a2e template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga84d3ef89997a21c7e28a95f9888e3a2e">MR::contains</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; *bitset, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> id)</td></tr>
-<tr class="memitem:ga57dc941dcc422cae832eb4e285f9258b" id="r_ga57dc941dcc422cae832eb4e285f9258b"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </td></tr>
-<tr class="memitem:ga57dc941dcc422cae832eb4e285f9258b template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga57dc941dcc422cae832eb4e285f9258b">MR::contains</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;bitset, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> id)</td></tr>
-<tr class="memitem:ga896279ee5bfa452079d99c123817842b" id="r_ga896279ee5bfa452079d99c123817842b"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </td></tr>
-<tr class="memitem:ga896279ee5bfa452079d99c123817842b template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga896279ee5bfa452079d99c123817842b">MR::fillVectorWithSeqNums</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;bs, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;vec)</td></tr>
+<tr class="memitem:gaca9e6bd2b2457e272996c41e32320995" id="r_gaca9e6bd2b2457e272996c41e32320995"><td class="memTemplParams" colspan="2">template&lt;typename I&gt; </td></tr>
+<tr class="memitem:gaca9e6bd2b2457e272996c41e32320995 template"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(I)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaca9e6bd2b2457e272996c41e32320995">MR::makePredicate</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *bitset)</td></tr>
+<tr class="memitem:ga3057a729a683a6a8a6b4f097a0094d58" id="r_ga3057a729a683a6a8a6b4f097a0094d58"><td class="memTemplParams" colspan="2">template&lt;typename I&gt; </td></tr>
+<tr class="memitem:ga3057a729a683a6a8a6b4f097a0094d58 template"><td class="memItemLeft" align="right" valign="top">std::function&lt; bool(I)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3057a729a683a6a8a6b4f097a0094d58">MR::makePredicate</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;bitset)</td></tr>
+<tr class="memitem:ga84d3ef89997a21c7e28a95f9888e3a2e" id="r_ga84d3ef89997a21c7e28a95f9888e3a2e"><td class="memTemplParams" colspan="2">template&lt;typename I&gt; </td></tr>
+<tr class="memitem:ga84d3ef89997a21c7e28a95f9888e3a2e template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga84d3ef89997a21c7e28a95f9888e3a2e">MR::contains</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *bitset, I id)</td></tr>
+<tr class="memitem:ga57dc941dcc422cae832eb4e285f9258b" id="r_ga57dc941dcc422cae832eb4e285f9258b"><td class="memTemplParams" colspan="2">template&lt;typename I&gt; </td></tr>
+<tr class="memitem:ga57dc941dcc422cae832eb4e285f9258b template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga57dc941dcc422cae832eb4e285f9258b">MR::contains</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;bitset, I id)</td></tr>
+<tr class="memitem:ga896279ee5bfa452079d99c123817842b" id="r_ga896279ee5bfa452079d99c123817842b"><td class="memTemplParams" colspan="2">template&lt;typename I&gt; </td></tr>
+<tr class="memitem:ga896279ee5bfa452079d99c123817842b template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga896279ee5bfa452079d99c123817842b">MR::fillVectorWithSeqNums</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;bs, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, I &gt; &amp;vec)</td></tr>
 <tr class="memdesc:ga896279ee5bfa452079d99c123817842b"><td class="mdescLeft">&#160;</td><td class="mdescRight">for each set bit of input bitset, writes its sequential number starting from 0 in the given vector that shall have appropriate size  <br /></td></tr>
-<tr class="memitem:ga68d5cff879ff5d9d841c1ecebfb71ed1" id="r_ga68d5cff879ff5d9d841c1ecebfb71ed1"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </td></tr>
-<tr class="memitem:ga68d5cff879ff5d9d841c1ecebfb71ed1 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga68d5cff879ff5d9d841c1ecebfb71ed1">MR::makeVectorWithSeqNums</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;bs)</td></tr>
-<tr class="memdesc:ga68d5cff879ff5d9d841c1ecebfb71ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classMR_1_1Vector.html" title="std::vector&lt;T&gt;-like container that requires specific indexing type,">Vector</a> where for each set bit of input bitset its sequential number starting from 0 is returned; and -1 for reset bits  <br /></td></tr>
+<tr class="memitem:ga68d5cff879ff5d9d841c1ecebfb71ed1" id="r_ga68d5cff879ff5d9d841c1ecebfb71ed1"><td class="memTemplParams" colspan="2">template&lt;typename I&gt; </td></tr>
+<tr class="memitem:ga68d5cff879ff5d9d841c1ecebfb71ed1 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, I &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga68d5cff879ff5d9d841c1ecebfb71ed1">MR::makeVectorWithSeqNums</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;bs)</td></tr>
+<tr class="memdesc:ga68d5cff879ff5d9d841c1ecebfb71ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classMR_1_1Vector.html" title="Vector&lt;T&gt; is indexed by size_t.">Vector</a> where for each set bit of input bitset its sequential number starting from 0 is returned; and -1 for reset bits  <br /></td></tr>
 <tr class="memitem:ga11d9716c4a58936253cf70cf7394f983" id="r_ga11d9716c4a58936253cf70cf7394f983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga11d9716c4a58936253cf70cf7394f983">MR::makeHashMapWithSeqNums</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bs)</td></tr>
 <tr class="memdesc:ga11d9716c4a58936253cf70cf7394f983"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap</a> where for each set bit of input bitset its sequential number starting from 0 is returned  <br /></td></tr>
-<tr class="memitem:ga2637b6b01910fbe8294a9f26f472f35f" id="r_ga2637b6b01910fbe8294a9f26f472f35f"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </td></tr>
-<tr class="memitem:ga2637b6b01910fbe8294a9f26f472f35f template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2637b6b01910fbe8294a9f26f472f35f">MR::makeHashMapWithSeqNums</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;bs)</td></tr>
+<tr class="memitem:ga2637b6b01910fbe8294a9f26f472f35f" id="r_ga2637b6b01910fbe8294a9f26f472f35f"><td class="memTemplParams" colspan="2">template&lt;typename I&gt; </td></tr>
+<tr class="memitem:ga2637b6b01910fbe8294a9f26f472f35f template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt; I, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2637b6b01910fbe8294a9f26f472f35f">MR::makeHashMapWithSeqNums</a> (const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;bs)</td></tr>
 <tr class="memdesc:ga2637b6b01910fbe8294a9f26f472f35f"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap</a> where for each set bit of input bitset its sequential number starting from 0 is returned  <br /></td></tr>
-<tr class="memitem:ga4383c7ccfb257c9434fe3e9e0b59a27b" id="r_ga4383c7ccfb257c9434fe3e9e0b59a27b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4383c7ccfb257c9434fe3e9e0b59a27b">MR::operator&amp;</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:ga8e5910c21dd8d185e8c21a9691826314" id="r_ga8e5910c21dd8d185e8c21a9691826314"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8e5910c21dd8d185e8c21a9691826314">MR::operator|</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:gace45a71e6bdb315750cbd38f5e648a56" id="r_gace45a71e6bdb315750cbd38f5e648a56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gace45a71e6bdb315750cbd38f5e648a56">MR::operator^</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:ga042aeb0c2011b3bc175a13e96a447a5f" id="r_ga042aeb0c2011b3bc175a13e96a447a5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga042aeb0c2011b3bc175a13e96a447a5f">MR::operator-</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:ga47b9283cad2f5af1e37735f4bb0a4743" id="r_ga47b9283cad2f5af1e37735f4bb0a4743"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga47b9283cad2f5af1e37735f4bb0a4743">MR::operator&amp;</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:ga1c310e782792a068bd03c0968f9b09cb" id="r_ga1c310e782792a068bd03c0968f9b09cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1c310e782792a068bd03c0968f9b09cb">MR::operator|</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:ga249233ba252cf2a2c7944527eb96fc6b" id="r_ga249233ba252cf2a2c7944527eb96fc6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga249233ba252cf2a2c7944527eb96fc6b">MR::operator^</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:ga48b0a2d71fce7c488d814cdca78fad26" id="r_ga48b0a2d71fce7c488d814cdca78fad26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga48b0a2d71fce7c488d814cdca78fad26">MR::operator-</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:ga5e449db96e7e177d2b7550d75b5b712d" id="r_ga5e449db96e7e177d2b7550d75b5b712d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5e449db96e7e177d2b7550d75b5b712d">MR::operator&amp;</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:ga463851dec13846ff7907d8ff9652f019" id="r_ga463851dec13846ff7907d8ff9652f019"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga463851dec13846ff7907d8ff9652f019">MR::operator|</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:gae42ff4495cb664d0ca8c550d1df8a6c5" id="r_gae42ff4495cb664d0ca8c550d1df8a6c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae42ff4495cb664d0ca8c550d1df8a6c5">MR::operator^</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:gaaba83a018f0d973756bc09c9ad1c2919" id="r_gaaba83a018f0d973756bc09c9ad1c2919"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaba83a018f0d973756bc09c9ad1c2919">MR::operator&amp;</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:ga55dcfbbedd72e400762f933c187e5167" id="r_ga55dcfbbedd72e400762f933c187e5167"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga55dcfbbedd72e400762f933c187e5167">MR::operator|</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
-<tr class="memitem:ga20dba298583085400b413482e6f960af" id="r_ga20dba298583085400b413482e6f960af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga20dba298583085400b413482e6f960af">MR::operator^</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
+<tr class="memitem:ga4383c7ccfb257c9434fe3e9e0b59a27b" id="r_ga4383c7ccfb257c9434fe3e9e0b59a27b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4383c7ccfb257c9434fe3e9e0b59a27b">MR::operator&amp;</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
+<tr class="memitem:ga8e5910c21dd8d185e8c21a9691826314" id="r_ga8e5910c21dd8d185e8c21a9691826314"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8e5910c21dd8d185e8c21a9691826314">MR::operator|</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
+<tr class="memitem:gace45a71e6bdb315750cbd38f5e648a56" id="r_gace45a71e6bdb315750cbd38f5e648a56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gace45a71e6bdb315750cbd38f5e648a56">MR::operator^</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
+<tr class="memitem:ga042aeb0c2011b3bc175a13e96a447a5f" id="r_ga042aeb0c2011b3bc175a13e96a447a5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga042aeb0c2011b3bc175a13e96a447a5f">MR::operator-</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
+<tr class="memitem:ga389cd7121fae5a2299c5202cda294695" id="r_ga389cd7121fae5a2299c5202cda294695"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga389cd7121fae5a2299c5202cda294695">MR::operator&amp;</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
+<tr class="memitem:gad964fb68650e1a980aa8c22c6de425f2" id="r_gad964fb68650e1a980aa8c22c6de425f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad964fb68650e1a980aa8c22c6de425f2">MR::operator|</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
+<tr class="memitem:ga054c0d78bc29f3e36e9b94be0db4e09b" id="r_ga054c0d78bc29f3e36e9b94be0db4e09b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga054c0d78bc29f3e36e9b94be0db4e09b">MR::operator^</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
+<tr class="memitem:ga8775497b971463da8be7dcc606d9111d" id="r_ga8775497b971463da8be7dcc606d9111d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8775497b971463da8be7dcc606d9111d">MR::operator-</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
+<tr class="memitem:ga92760170a4e526c9bb0d756548107524" id="r_ga92760170a4e526c9bb0d756548107524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga92760170a4e526c9bb0d756548107524">MR::operator&amp;</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;b)</td></tr>
+<tr class="memitem:ga24aa9922821ac6bee9765fa82e9d849f" id="r_ga24aa9922821ac6bee9765fa82e9d849f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga24aa9922821ac6bee9765fa82e9d849f">MR::operator|</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;b)</td></tr>
+<tr class="memitem:gad92b327a09afadd59cc057b5be345f42" id="r_gad92b327a09afadd59cc057b5be345f42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad92b327a09afadd59cc057b5be345f42">MR::operator^</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;b)</td></tr>
+<tr class="memitem:ga2384892a4ea3b6a9e6976daeffccb6b3" id="r_ga2384892a4ea3b6a9e6976daeffccb6b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2384892a4ea3b6a9e6976daeffccb6b3">MR::operator&amp;</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;a, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;b)</td></tr>
+<tr class="memitem:ga68ffb7910024a39eedd13636515459cb" id="r_ga68ffb7910024a39eedd13636515459cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga68ffb7910024a39eedd13636515459cb">MR::operator|</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;a, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;b)</td></tr>
+<tr class="memitem:gab65fc0a0c66c90fa6083ac0e22b80fb8" id="r_gab65fc0a0c66c90fa6083ac0e22b80fb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab65fc0a0c66c90fa6083ac0e22b80fb8">MR::operator^</a> (<a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;a, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;b)</td></tr>
 <tr class="memitem:ga33e26ce0b4711944b757408b0ab339a5" id="r_ga33e26ce0b4711944b757408b0ab339a5"><td class="memTemplParams" colspan="2">template&lt;typename BS, typename ... F&gt; </td></tr>
 <tr class="memitem:ga33e26ce0b4711944b757408b0ab339a5 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga33e26ce0b4711944b757408b0ab339a5">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, F &amp;&amp;... f)</td></tr>
 <tr class="memitem:ga82bab0dac0d1604747ecff512e8a091a" id="r_ga82bab0dac0d1604747ecff512e8a091a"><td class="memTemplParams" colspan="2">template&lt;typename BS, typename L, typename ... F&gt; </td></tr>
 <tr class="memitem:ga82bab0dac0d1604747ecff512e8a091a template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga82bab0dac0d1604747ecff512e8a091a">MR::BitSetParallelForAllRanged</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;... f)</td></tr>
 <tr class="memitem:ga13c3e24dbe2feef1f9d56ea427ef4107" id="r_ga13c3e24dbe2feef1f9d56ea427ef4107"><td class="memTemplParams" colspan="2">template&lt;typename BS, typename F, typename ... Cb&gt; </td></tr>
-<tr class="memitem:ga13c3e24dbe2feef1f9d56ea427ef4107 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga13c3e24dbe2feef1f9d56ea427ef4107">MR::BitSetParallelForAll</a> (const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... <a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>)</td></tr>
+<tr class="memitem:ga13c3e24dbe2feef1f9d56ea427ef4107 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga13c3e24dbe2feef1f9d56ea427ef4107">MR::BitSetParallelForAll</a> (const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
 <tr class="memitem:ga86e6878b728d3f789b3b211a2011d935" id="r_ga86e6878b728d3f789b3b211a2011d935"><td class="memTemplParams" colspan="2">template&lt;typename BS, typename F&gt; </td></tr>
 <tr class="memitem:ga86e6878b728d3f789b3b211a2011d935 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga86e6878b728d3f789b3b211a2011d935">MR::BitSetParallelForAll</a> (const BS &amp;bs, F &amp;&amp;f, tbb::task_group_context &amp;tgc)</td></tr>
 <tr class="memitem:ga473b8a238072b360e13c47d4c255d66f" id="r_ga473b8a238072b360e13c47d4c255d66f"><td class="memTemplParams" colspan="2">template&lt;typename BS, typename L, typename F, typename ... Cb&gt; </td></tr>
-<tr class="memitem:ga473b8a238072b360e13c47d4c255d66f template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga473b8a238072b360e13c47d4c255d66f">MR::BitSetParallelForAll</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... <a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>)</td></tr>
+<tr class="memitem:ga473b8a238072b360e13c47d4c255d66f template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga473b8a238072b360e13c47d4c255d66f">MR::BitSetParallelForAll</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
 <tr class="memitem:ga6f038e999890735ffdb5f8119eb5650e" id="r_ga6f038e999890735ffdb5f8119eb5650e"><td class="memTemplParams" colspan="2">template&lt;typename BS, typename F, typename ... Cb&gt; </td></tr>
-<tr class="memitem:ga6f038e999890735ffdb5f8119eb5650e template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6f038e999890735ffdb5f8119eb5650e">MR::BitSetParallelFor</a> (const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... <a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>)</td></tr>
+<tr class="memitem:ga6f038e999890735ffdb5f8119eb5650e template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6f038e999890735ffdb5f8119eb5650e">MR::BitSetParallelFor</a> (const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
 <tr class="memitem:gabc3f588255ae3bd530638a5c6fb55557" id="r_gabc3f588255ae3bd530638a5c6fb55557"><td class="memTemplParams" colspan="2">template&lt;typename BS, typename F&gt; </td></tr>
 <tr class="memitem:gabc3f588255ae3bd530638a5c6fb55557 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabc3f588255ae3bd530638a5c6fb55557">MR::BitSetParallelFor</a> (const BS &amp;bs, F &amp;&amp;f, tbb::task_group_context &amp;tgc)</td></tr>
 <tr class="memitem:gaa44fd6dceea20f68975639cc07df31b2" id="r_gaa44fd6dceea20f68975639cc07df31b2"><td class="memTemplParams" colspan="2">template&lt;typename BS, typename L, typename F, typename ... Cb&gt; </td></tr>
-<tr class="memitem:gaa44fd6dceea20f68975639cc07df31b2 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa44fd6dceea20f68975639cc07df31b2">MR::BitSetParallelFor</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... <a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>)</td></tr>
+<tr class="memitem:gaa44fd6dceea20f68975639cc07df31b2 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa44fd6dceea20f68975639cc07df31b2">MR::BitSetParallelFor</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
 <tr class="memitem:gae44ca60e47ff70a1a8dd261447c8175c" id="r_gae44ca60e47ff70a1a8dd261447c8175c"><td class="memTemplParams" colspan="2">template&lt;typename In, typename Res, typename Visit&gt; </td></tr>
 <tr class="memitem:gae44ca60e47ff70a1a8dd261447c8175c template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae44ca60e47ff70a1a8dd261447c8175c">MR::BitSetWalk</a> (const In &amp;input, Res &amp;res, bool parallel, Visit &amp;&amp;visit)</td></tr>
 <tr class="memitem:ga2442ef2afa7012af6ca21ebcb6604536" id="r_ga2442ef2afa7012af6ca21ebcb6604536"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -254,27 +254,27 @@ Functions</h2></td></tr>
 <tr class="memitem:gac4cf85680ec3620cb08726ea6668e99a" id="r_gac4cf85680ec3620cb08726ea6668e99a"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:gac4cf85680ec3620cb08726ea6668e99a template"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac4cf85680ec3620cb08726ea6668e99a">MR::heapBytes</a> (const std::shared_ptr&lt; T &gt; &amp;ptr)</td></tr>
 <tr class="memdesc:gac4cf85680ec3620cb08726ea6668e99a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this smart pointer and its pointed object own together on heap  <br /></td></tr>
-<tr class="memitem:ga6092fad6de6a4d75d57e992d1d373994" id="r_ga6092fad6de6a4d75d57e992d1d373994"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:ga6092fad6de6a4d75d57e992d1d373994 template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6092fad6de6a4d75d57e992d1d373994">MR::MR_REQUIRES_IF_SUPPORTED</a> (std::is_function_v&lt; T &gt;) inline size_t <a class="el" href="#gacfd51356fbcb71948b1ef3f058ac75c7">heapBytes</a>(const std</td></tr>
+<tr class="memitem:ga616873b34fa0db5205d049f845bec044" id="r_ga616873b34fa0db5205d049f845bec044"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga616873b34fa0db5205d049f845bec044 template"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga616873b34fa0db5205d049f845bec044">MR::heapBytes</a> (const std::function&lt; T &gt; &amp;)</td></tr>
 <tr class="memitem:ga95720533ccaf5f5aa42fbabee1ce7067" id="r_ga95720533ccaf5f5aa42fbabee1ce7067"><td class="memTemplParams" colspan="2">template&lt;typename ... Ts&gt; </td></tr>
 <tr class="memitem:ga95720533ccaf5f5aa42fbabee1ce7067 template"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga95720533ccaf5f5aa42fbabee1ce7067">MR::heapBytes</a> (const phmap::flat_hash_map&lt; Ts... &gt; &amp;hashMap)</td></tr>
 <tr class="memdesc:ga95720533ccaf5f5aa42fbabee1ce7067"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given <a class="el" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap</a> occupies on heap  <br /></td></tr>
 <tr class="memitem:ga1dc1fa5afc6f99004188ccefc4e8dae9" id="r_ga1dc1fa5afc6f99004188ccefc4e8dae9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1dc1fa5afc6f99004188ccefc4e8dae9">MR::parallelFor</a> (size_t <a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, size_t <a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t)&gt; f)</td></tr>
 <tr class="memitem:ga1ad43c8c0718e27ba01d6e807509b470" id="r_ga1ad43c8c0718e27ba01d6e807509b470"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1ad43c8c0718e27ba01d6e807509b470">MR::parallelFor</a> (size_t <a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, size_t <a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t)&gt; f, tbb::task_group_context &amp;tgc)</td></tr>
 <tr class="memitem:gaad7a9b6adc1871df7a0c6a3b34b22ba1" id="r_gaad7a9b6adc1871df7a0c6a3b34b22ba1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaad7a9b6adc1871df7a0c6a3b34b22ba1">MR::parallelFor</a> (size_t <a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, size_t <a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t, void *)&gt; f, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void *()&gt; ctx)</td></tr>
-<tr class="memitem:ga3d10e3277d0dbf04ba095f52b25d4f07" id="r_ga3d10e3277d0dbf04ba095f52b25d4f07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d10e3277d0dbf04ba095f52b25d4f07">MR::parallelFor</a> (size_t <a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, size_t <a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t, void *)&gt; f, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void *()&gt; ctx, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>, size_t reportProgressEvery=1024)</td></tr>
-<tr class="memitem:gaf184f372f735726148d7a07cbbbb29af" id="r_gaf184f372f735726148d7a07cbbbb29af"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename F, typename ... Cb&gt; </td></tr>
-<tr class="memitem:gaf184f372f735726148d7a07cbbbb29af template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf184f372f735726148d7a07cbbbb29af">MR::ParallelFor</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> <a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> <a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, F &amp;&amp;f, Cb &amp;&amp;... <a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>)</td></tr>
-<tr class="memitem:gad9736253077ba527ea5fce36aa132c04" id="r_gad9736253077ba527ea5fce36aa132c04"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename F&gt; </td></tr>
-<tr class="memitem:gad9736253077ba527ea5fce36aa132c04 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad9736253077ba527ea5fce36aa132c04">MR::ParallelFor</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> <a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> <a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, F &amp;&amp;f, tbb::task_group_context &amp;tgc)</td></tr>
-<tr class="memitem:ga0c614e9741ba95e4cce86eb98d9d64b6" id="r_ga0c614e9741ba95e4cce86eb98d9d64b6"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename L, typename F, typename ... Cb&gt; </td></tr>
-<tr class="memitem:ga0c614e9741ba95e4cce86eb98d9d64b6 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c614e9741ba95e4cce86eb98d9d64b6">MR::ParallelFor</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> <a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> <a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... <a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>)</td></tr>
+<tr class="memitem:ga3d10e3277d0dbf04ba095f52b25d4f07" id="r_ga3d10e3277d0dbf04ba095f52b25d4f07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d10e3277d0dbf04ba095f52b25d4f07">MR::parallelFor</a> (size_t <a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, size_t <a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t, void *)&gt; f, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void *()&gt; ctx, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb, size_t reportProgressEvery=1024)</td></tr>
+<tr class="memitem:gaf184f372f735726148d7a07cbbbb29af" id="r_gaf184f372f735726148d7a07cbbbb29af"><td class="memTemplParams" colspan="2">template&lt;typename I, typename F, typename ... Cb&gt; </td></tr>
+<tr class="memitem:gaf184f372f735726148d7a07cbbbb29af template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf184f372f735726148d7a07cbbbb29af">MR::ParallelFor</a> (I <a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, I <a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="memitem:gad9736253077ba527ea5fce36aa132c04" id="r_gad9736253077ba527ea5fce36aa132c04"><td class="memTemplParams" colspan="2">template&lt;typename I, typename F&gt; </td></tr>
+<tr class="memitem:gad9736253077ba527ea5fce36aa132c04 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad9736253077ba527ea5fce36aa132c04">MR::ParallelFor</a> (I <a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, I <a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, F &amp;&amp;f, tbb::task_group_context &amp;tgc)</td></tr>
+<tr class="memitem:ga0c614e9741ba95e4cce86eb98d9d64b6" id="r_ga0c614e9741ba95e4cce86eb98d9d64b6"><td class="memTemplParams" colspan="2">template&lt;typename I, typename L, typename F, typename ... Cb&gt; </td></tr>
+<tr class="memitem:ga0c614e9741ba95e4cce86eb98d9d64b6 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c614e9741ba95e4cce86eb98d9d64b6">MR::ParallelFor</a> (I <a class="el" href="group__ViewportGroup.html#ga9ae1fa58375f92080d1a1546f2c43660">begin</a>, I <a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
 <tr class="memitem:ga97e8749c8a61bfc6c81edcebdcebbdd6" id="r_ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memTemplParams" colspan="2">template&lt;typename T, typename ... F&gt; </td></tr>
 <tr class="memitem:ga97e8749c8a61bfc6c81edcebdcebbdd6 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga97e8749c8a61bfc6c81edcebdcebbdd6">MR::ParallelFor</a> (const std::vector&lt; T &gt; &amp;v, F &amp;&amp;... f)</td></tr>
-<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6" id="r_ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplParams" colspan="2">template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename ... F&gt; </td></tr>
-<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga465ce65b82d1fa8749312b1b6de8ede6">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;v, F &amp;&amp;... f)</td></tr>
-<tr class="memitem:gaa664be0d4a143c7d20d57678d5903669" id="r_gaa664be0d4a143c7d20d57678d5903669"><td class="memTemplParams" colspan="2">template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename ... F&gt; </td></tr>
-<tr class="memitem:gaa664be0d4a143c7d20d57678d5903669 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa664be0d4a143c7d20d57678d5903669">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;buf, F &amp;&amp;... f)</td></tr>
+<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6" id="r_ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplParams" colspan="2">template&lt;typename T, typename I, typename ... F&gt; </td></tr>
+<tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga465ce65b82d1fa8749312b1b6de8ede6">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;v, F &amp;&amp;... f)</td></tr>
+<tr class="memitem:gaa664be0d4a143c7d20d57678d5903669" id="r_gaa664be0d4a143c7d20d57678d5903669"><td class="memTemplParams" colspan="2">template&lt;typename T, typename I, typename ... F&gt; </td></tr>
+<tr class="memitem:gaa664be0d4a143c7d20d57678d5903669 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa664be0d4a143c7d20d57678d5903669">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, I &gt; &amp;buf, F &amp;&amp;... f)</td></tr>
 <tr class="memitem:ga9827d849d71487bb58386782fb69e80d" id="r_ga9827d849d71487bb58386782fb69e80d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9827d849d71487bb58386782fb69e80d">MR::vertMapsComposition</a> (VertMap &amp;a2b, const VertMap &amp;b2c)</td></tr>
 <tr class="memdesc:ga9827d849d71487bb58386782fb69e80d"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map  <br /></td></tr>
 <tr class="memitem:ga67788793274ddc28050e9e3d1c76c40f" id="r_ga67788793274ddc28050e9e3d1c76c40f"><td class="memItemLeft" align="right" valign="top">VertMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga67788793274ddc28050e9e3d1c76c40f">MR::vertMapsComposition</a> (const VertMap &amp;a2b, const VertMap &amp;b2c)</td></tr>
@@ -290,34 +290,33 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1e63dfb18218fef322b65d26f8c4e2c9" id="r_ga1e63dfb18218fef322b65d26f8c4e2c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1e63dfb18218fef322b65d26f8c4e2c9">MR::redirectSTDStreamsToLogger</a> ()</td></tr>
 <tr class="memitem:gaeb60f1e48c3bb8f744d2fc283cee3473" id="r_gaeb60f1e48c3bb8f744d2fc283cee3473"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeb60f1e48c3bb8f744d2fc283cee3473">MR::findSubstringCaseInsensitive</a> (const std::string &amp;string, const std::string &amp;substring)</td></tr>
 <tr class="memitem:ga73c8eac27022c533fad3ea40313f5f15" id="r_ga73c8eac27022c533fad3ea40313f5f15"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga73c8eac27022c533fad3ea40313f5f15">MR::calcDamerauLevenshteinDistance</a> (const std::string &amp;stringA, const std::string &amp;stringB, bool caseSensitive=true, int *outLeftRightAddition=nullptr)</td></tr>
-<tr class="memitem:ga326a5396b3f4e3604328f5bd11d38a24" id="r_ga326a5396b3f4e3604328f5bd11d38a24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> char32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga326a5396b3f4e3604328f5bd11d38a24">MR::caseFold</a> (char32_t ch)</td></tr>
-<tr class="memitem:ga596c713b661ba437dd683d6572084019" id="r_ga596c713b661ba437dd683d6572084019"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga596c713b661ba437dd683d6572084019">MR::calcDamerauLevenshteinDistance</a> (const std::u32string &amp;stringA, const std::u32string &amp;stringB, bool caseSensitive=true, int *outLeftRightAddition=nullptr)</td></tr>
+<tr class="memitem:ga40027abda294f97cf747f668bb1f3003" id="r_ga40027abda294f97cf747f668bb1f3003"><td class="memItemLeft" align="right" valign="top">char32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga40027abda294f97cf747f668bb1f3003">MR::caseFold</a> (char32_t ch)</td></tr>
+<tr class="memitem:ga0d1a9d7d3c35e3ee9d2245d5827f489e" id="r_ga0d1a9d7d3c35e3ee9d2245d5827f489e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0d1a9d7d3c35e3ee9d2245d5827f489e">MR::calcDamerauLevenshteinDistance</a> (const std::u32string &amp;stringA, const std::u32string &amp;stringB, bool caseSensitive=true, int *outLeftRightAddition=nullptr)</td></tr>
 <tr class="memitem:gabb251db9705506c0578f5d14e6f4b3a7" id="r_gabb251db9705506c0578f5d14e6f4b3a7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb251db9705506c0578f5d14e6f4b3a7">MR::split</a> (const std::string &amp;string, const std::string &amp;delimiter)</td></tr>
-<tr class="memitem:gabf0c62e8eb667d4d1d481e1439abc619" id="r_gabf0c62e8eb667d4d1d481e1439abc619"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabf0c62e8eb667d4d1d481e1439abc619">MR::utf8ToWide</a> (const char *utf8)</td></tr>
-<tr class="memdesc:gabf0c62e8eb667d4d1d481e1439abc619"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts UTF8-encoded string into UTF16-encoded string  <br /></td></tr>
+<tr class="memitem:ga30e0c22bd108aadcfcc682881774b5cf" id="r_ga30e0c22bd108aadcfcc682881774b5cf"><td class="memItemLeft" align="right" valign="top">std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga30e0c22bd108aadcfcc682881774b5cf">MR::utf8ToWide</a> (const char *utf8)</td></tr>
+<tr class="memdesc:ga30e0c22bd108aadcfcc682881774b5cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts UTF8-encoded string into UTF16-encoded string  <br /></td></tr>
 <tr class="memitem:gaada9bbf0cb2bbb2d2c272f82ff9f9e00" id="r_gaada9bbf0cb2bbb2d2c272f82ff9f9e00"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaada9bbf0cb2bbb2d2c272f82ff9f9e00">MR::systemToUtf8</a> (const std::string &amp;system)</td></tr>
 <tr class="memdesc:gaada9bbf0cb2bbb2d2c272f82ff9f9e00"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts system encoded string to UTF8-encoded string  <br /></td></tr>
 <tr class="memitem:ga1b87be01485e0c20473245dcf0801542" id="r_ga1b87be01485e0c20473245dcf0801542"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1b87be01485e0c20473245dcf0801542">MR::utf8ToSystem</a> (const std::string &amp;utf8)</td></tr>
-<tr class="memitem:gac38b2c1263b8177519faa700d26a81fc" id="r_gac38b2c1263b8177519faa700d26a81fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac38b2c1263b8177519faa700d26a81fc">MR::wideToUtf8</a> (const wchar_t *wide)</td></tr>
-<tr class="memdesc:gac38b2c1263b8177519faa700d26a81fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts wide null terminating string to UTF8-encoded string  <br /></td></tr>
-<tr class="memitem:gaeaebbb2f1efd81e84ec37217bb4edf4c" id="r_gaeaebbb2f1efd81e84ec37217bb4edf4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeaebbb2f1efd81e84ec37217bb4edf4c">MR::asString</a> (const std::string &amp;s)</td></tr>
-<tr class="memdesc:gaeaebbb2f1efd81e84ec37217bb4edf4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::u8string is not defined  <br /></td></tr>
-<tr class="memitem:gaa7dfbd8929d54cde238ceb82f7836fcc" id="r_gaa7dfbd8929d54cde238ceb82f7836fcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa7dfbd8929d54cde238ceb82f7836fcc">MR::asU8String</a> (const std::string &amp;s)</td></tr>
-<tr class="memitem:gabf753ea56f25d4f1e8076ef90286efce" id="r_gabf753ea56f25d4f1e8076ef90286efce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabf753ea56f25d4f1e8076ef90286efce">MR::asString</a> (std::string &amp;&amp;s)</td></tr>
-<tr class="memitem:ga51004e242a303220acdbb40a49488daf" id="r_ga51004e242a303220acdbb40a49488daf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga51004e242a303220acdbb40a49488daf">MR::asU8String</a> (std::string &amp;&amp;s)</td></tr>
-<tr class="memitem:gafb82b59416abea95f150286ba0695dd8" id="r_gafb82b59416abea95f150286ba0695dd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafb82b59416abea95f150286ba0695dd8">MR::pathFromUtf8</a> (const std::string &amp;s)</td></tr>
-<tr class="memitem:ga274eb4278759027605fb20465ec0a769" id="r_ga274eb4278759027605fb20465ec0a769"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga274eb4278759027605fb20465ec0a769">MR::pathFromUtf8</a> (const char *s)</td></tr>
+<tr class="memitem:ga51757a4a472981f6949027d18674ec92" id="r_ga51757a4a472981f6949027d18674ec92"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga51757a4a472981f6949027d18674ec92">MR::wideToUtf8</a> (const wchar_t *wide)</td></tr>
+<tr class="memdesc:ga51757a4a472981f6949027d18674ec92"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts wide null terminating string to UTF8-encoded string  <br /></td></tr>
+<tr class="memitem:ga772133dc76f16920332b4b0074da394e" id="r_ga772133dc76f16920332b4b0074da394e"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga772133dc76f16920332b4b0074da394e">MR::asString</a> (const std::string &amp;s)</td></tr>
+<tr class="memitem:ga37f4340272986dcbde4f0fb5503a0912" id="r_ga37f4340272986dcbde4f0fb5503a0912"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga37f4340272986dcbde4f0fb5503a0912">MR::asU8String</a> (const std::string &amp;s)</td></tr>
+<tr class="memitem:gae19e95b1a9a0a6b0a74848dc36d9f863" id="r_gae19e95b1a9a0a6b0a74848dc36d9f863"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae19e95b1a9a0a6b0a74848dc36d9f863">MR::asString</a> (std::string &amp;&amp;s)</td></tr>
+<tr class="memitem:gaa010d1f339c974fa6ff486c6cad89c7d" id="r_gaa010d1f339c974fa6ff486c6cad89c7d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa010d1f339c974fa6ff486c6cad89c7d">MR::asU8String</a> (std::string &amp;&amp;s)</td></tr>
+<tr class="memitem:ga20dc9bc9caabc76a8ed03696488fbd2c" id="r_ga20dc9bc9caabc76a8ed03696488fbd2c"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga20dc9bc9caabc76a8ed03696488fbd2c">MR::pathFromUtf8</a> (const std::string &amp;s)</td></tr>
+<tr class="memitem:gabe699ad65df9788d6c5c76856ddbf259" id="r_gabe699ad65df9788d6c5c76856ddbf259"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabe699ad65df9788d6c5c76856ddbf259">MR::pathFromUtf8</a> (const char *s)</td></tr>
 <tr class="memitem:ga98812dc656fac3fb9c565e7fc0c7922d" id="r_ga98812dc656fac3fb9c565e7fc0c7922d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga98812dc656fac3fb9c565e7fc0c7922d">MR::utf8string</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:ga98812dc656fac3fb9c565e7fc0c7922d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns filename as UTF8-encoded string  <br /></td></tr>
 <tr class="memitem:ga94712bce613ec3f52b3d976ed63e7910" id="r_ga94712bce613ec3f52b3d976ed63e7910"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga94712bce613ec3f52b3d976ed63e7910">MR::utf8string</a> (const std::string &amp;)=delete</td></tr>
 <tr class="memdesc:ga94712bce613ec3f52b3d976ed63e7910"><td class="mdescLeft">&#160;</td><td class="mdescRight">it is a mistake to call the function with implicit construction of path from string  <br /></td></tr>
 <tr class="memitem:gabcd2fb63d421c0032f7bf3137e782982" id="r_gabcd2fb63d421c0032f7bf3137e782982"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabcd2fb63d421c0032f7bf3137e782982">MR::utf8substr</a> (const char *s, size_t pos, size_t count)</td></tr>
-<tr class="memitem:ga7036065ef1d5168bd166eb7895394d25" id="r_ga7036065ef1d5168bd166eb7895394d25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::pair&lt; char32_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7036065ef1d5168bd166eb7895394d25">MR::utf8ToCodepoint</a> (const char *s, size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
-<tr class="memitem:gad30e63b6f4f948b8d58e1dda5feb678d" id="r_gad30e63b6f4f948b8d58e1dda5feb678d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::u32string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad30e63b6f4f948b8d58e1dda5feb678d">MR::utf8ToUtf32</a> (std::string_view str)</td></tr>
-<tr class="memdesc:gad30e63b6f4f948b8d58e1dda5feb678d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the given UTF-8 encoded string to a UTF-32 encoded string.  <br /></td></tr>
-<tr class="memitem:gad3f1a3adf2ff77fb434aff7b938e091a" id="r_gad3f1a3adf2ff77fb434aff7b938e091a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad3f1a3adf2ff77fb434aff7b938e091a">MR::appendUtf8</a> (std::string &amp;str, char32_t cp)</td></tr>
-<tr class="memitem:ga78e854361dc1dced79ade4111cdb6965" id="r_ga78e854361dc1dced79ade4111cdb6965"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga78e854361dc1dced79ade4111cdb6965">MR::utf32ToUtf8</a> (std::u32string_view str)</td></tr>
-<tr class="memdesc:ga78e854361dc1dced79ade4111cdb6965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the given UTF-32 encoded string to a UTF-8 encoded string.  <br /></td></tr>
+<tr class="memitem:gad75ee5f6d92cba93201e0a0fb52cdf2d" id="r_gad75ee5f6d92cba93201e0a0fb52cdf2d"><td class="memItemLeft" align="right" valign="top">std::pair&lt; char32_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad75ee5f6d92cba93201e0a0fb52cdf2d">MR::utf8ToCodepoint</a> (const char *s, size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
+<tr class="memitem:gaf50e619169d898f6e08bd4130b576996" id="r_gaf50e619169d898f6e08bd4130b576996"><td class="memItemLeft" align="right" valign="top">std::u32string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf50e619169d898f6e08bd4130b576996">MR::utf8ToUtf32</a> (std::string_view str)</td></tr>
+<tr class="memdesc:gaf50e619169d898f6e08bd4130b576996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the given UTF-8 encoded string to a UTF-32 encoded string.  <br /></td></tr>
+<tr class="memitem:ga0cbd084ee3de48d4c82a59fb470b5a1a" id="r_ga0cbd084ee3de48d4c82a59fb470b5a1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0cbd084ee3de48d4c82a59fb470b5a1a">MR::appendUtf8</a> (std::string &amp;str, char32_t cp)</td></tr>
+<tr class="memitem:ga3f02cba76c62fd88c8cd445dd3a672c4" id="r_ga3f02cba76c62fd88c8cd445dd3a672c4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3f02cba76c62fd88c8cd445dd3a672c4">MR::utf32ToUtf8</a> (std::u32string_view str)</td></tr>
+<tr class="memdesc:ga3f02cba76c62fd88c8cd445dd3a672c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the given UTF-32 encoded string to a UTF-8 encoded string.  <br /></td></tr>
 <tr class="memitem:gadb2cca06671907541b4af5960869bc39" id="r_gadb2cca06671907541b4af5960869bc39"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadb2cca06671907541b4af5960869bc39">MR::bytesString</a> (size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
 <tr class="memitem:gaaf7db2c19eab5cb5d5a7d91d8ae03dc9" id="r_gaaf7db2c19eab5cb5d5a7d91d8ae03dc9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaf7db2c19eab5cb5d5a7d91d8ae03dc9">MR::isProhibitedChar</a> (char c)</td></tr>
 <tr class="memitem:ga75f7cb4b645982d30dba61ff273f7690" id="r_ga75f7cb4b645982d30dba61ff273f7690"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75f7cb4b645982d30dba61ff273f7690">MR::hasProhibitedChars</a> (const std::string &amp;line)</td></tr>
@@ -328,45 +327,45 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5a6d09d98985d45fdd40a23f1df854c2 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5a6d09d98985d45fdd40a23f1df854c2">MR::addFileNameInError</a> (<a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; T &gt; v, const std::filesystem::path &amp;file)</td></tr>
 <tr class="memdesc:ga5a6d09d98985d45fdd40a23f1df854c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">if (v) contains an error, then appends given file name to that error  <br /></td></tr>
 <tr class="memitem:gabe15d51595d691f74550063fd2dceb85" id="r_gabe15d51595d691f74550063fd2dceb85"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabe15d51595d691f74550063fd2dceb85">MR::commonFilesName</a> (const std::vector&lt; std::filesystem::path &gt; &amp;files)</td></tr>
-<tr class="memitem:gadbca00999f687670e8df99bd12699bc1" id="r_gadbca00999f687670e8df99bd12699bc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadbca00999f687670e8df99bd12699bc1">MR::formatNoTrailingZeros</a> (char *fmt, double v, int digitsAfterPoint, int precision=6)</td></tr>
+<tr class="memitem:ga68bc593618cca45d615a94980b52aa53" id="r_ga68bc593618cca45d615a94980b52aa53"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga68bc593618cca45d615a94980b52aa53">MR::formatNoTrailingZeros</a> (char *fmt, double v, int digitsAfterPoint, int precision=6)</td></tr>
 <tr class="memitem:gacad07973c51ce633d7a0fa104399db99" id="r_gacad07973c51ce633d7a0fa104399db99"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacad07973c51ce633d7a0fa104399db99">MR::roundToPrecision</a> (double v, int precision)</td></tr>
 <tr class="memdesc:gacad07973c51ce633d7a0fa104399db99"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns given value rounded to given number of decimal digits  <br /></td></tr>
 <tr class="memitem:ga13a3902f4af22aaa5fcd0817f8d925fd" id="r_ga13a3902f4af22aaa5fcd0817f8d925fd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga13a3902f4af22aaa5fcd0817f8d925fd">MR::roundToPrecision</a> (float v, int precision)</td></tr>
 <tr class="memdesc:ga13a3902f4af22aaa5fcd0817f8d925fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns given value rounded to given number of decimal digits  <br /></td></tr>
 <tr class="memitem:ga0f9f82f9571d4a67b586f1e38d93afe9" id="r_ga0f9f82f9571d4a67b586f1e38d93afe9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f9f82f9571d4a67b586f1e38d93afe9">MR::getCancelMessage</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:ga0f9f82f9571d4a67b586f1e38d93afe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns message showed when loading is canceled.  <br /></td></tr>
-<tr class="memitem:ga928b6325849327a21a0b3487d72ce340" id="r_ga928b6325849327a21a0b3487d72ce340"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga928b6325849327a21a0b3487d72ce340">MR::toLower</a> (char ch)</td></tr>
-<tr class="memitem:gaa3366c40c50de491cccc08d16cc85640" id="r_gaa3366c40c50de491cccc08d16cc85640"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> char32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa3366c40c50de491cccc08d16cc85640">MR::toLower</a> (char32_t ch)</td></tr>
-<tr class="memdesc:gaa3366c40c50de491cccc08d16cc85640"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert an alphabetic ASCII codepoint to lower-case, other codepoints are returned unchanged  <br /></td></tr>
+<tr class="memitem:ga7721e95c71046a6aa880ada0f4ac74a0" id="r_ga7721e95c71046a6aa880ada0f4ac74a0"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7721e95c71046a6aa880ada0f4ac74a0">MR::toLower</a> (char ch)</td></tr>
+<tr class="memitem:ga9df757bed3e05730b0419527ec647dc5" id="r_ga9df757bed3e05730b0419527ec647dc5"><td class="memItemLeft" align="right" valign="top">char32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9df757bed3e05730b0419527ec647dc5">MR::toLower</a> (char32_t ch)</td></tr>
+<tr class="memdesc:ga9df757bed3e05730b0419527ec647dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert an alphabetic ASCII codepoint to lower-case, other codepoints are returned unchanged  <br /></td></tr>
 <tr class="memitem:ga85f29c2edc391eb7cbc4c9a948de7b8d" id="r_ga85f29c2edc391eb7cbc4c9a948de7b8d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga85f29c2edc391eb7cbc4c9a948de7b8d">MR::toLower</a> (std::string str)</td></tr>
 <tr class="memdesc:ga85f29c2edc391eb7cbc4c9a948de7b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return a copy of the string with all alphabetic ASCII characters replaced with lower-case variants  <br /></td></tr>
 <tr class="memitem:gaea0c8b01358b57ffcc2ca74961b6a912" id="r_gaea0c8b01358b57ffcc2ca74961b6a912"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaea0c8b01358b57ffcc2ca74961b6a912">MR::printTimingTreeAtEnd</a> (bool on, double minTimeSec=0.1)</td></tr>
 <tr class="memitem:gaecffe26cbebdea7dd9123268d97c9b8d" id="r_gaecffe26cbebdea7dd9123268d97c9b8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaecffe26cbebdea7dd9123268d97c9b8d">MR::printCurrentTimerBranch</a> ()</td></tr>
 <tr class="memdesc:gaecffe26cbebdea7dd9123268d97c9b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">prints current timer branch  <br /></td></tr>
 <tr class="memitem:gaa062fb28e95de030cde47eb792db4270" id="r_gaa062fb28e95de030cde47eb792db4270"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa062fb28e95de030cde47eb792db4270">MR::printTimingTree</a> (double minTimeSec=0.1)</td></tr>
-<tr class="memitem:gaf098f0ef23e1041c9baa3e5ed4973ab4" id="r_gaf098f0ef23e1041c9baa3e5ed4973ab4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf098f0ef23e1041c9baa3e5ed4973ab4">MR::registerThreadRootTimeRecord</a> (<a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a> &amp;root)</td></tr>
-<tr class="memdesc:gaf098f0ef23e1041c9baa3e5ed4973ab4"><td class="mdescLeft">&#160;</td><td class="mdescRight">installs given record in the current thread (no record must be installed before)  <br /></td></tr>
-<tr class="memitem:ga18b970e8dba2f07bb78d3e801f3cccb4" id="r_ga18b970e8dba2f07bb78d3e801f3cccb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga18b970e8dba2f07bb78d3e801f3cccb4">MR::unregisterThreadRootTimeRecord</a> (<a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a> &amp;root)</td></tr>
-<tr class="memdesc:ga18b970e8dba2f07bb78d3e801f3cccb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">un-installs given record in the current thread  <br /></td></tr>
+<tr class="memitem:ga5fdc4a646903573ef4d3c61285de4aae" id="r_ga5fdc4a646903573ef4d3c61285de4aae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5fdc4a646903573ef4d3c61285de4aae">MR::registerThreadRootTimeRecord</a> (<a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a> &amp;root)</td></tr>
+<tr class="memdesc:ga5fdc4a646903573ef4d3c61285de4aae"><td class="mdescLeft">&#160;</td><td class="mdescRight">installs given record in the current thread (no record must be installed before)  <br /></td></tr>
+<tr class="memitem:ga800a6651bd5ddc83378a46dccfa9dc03" id="r_ga800a6651bd5ddc83378a46dccfa9dc03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga800a6651bd5ddc83378a46dccfa9dc03">MR::unregisterThreadRootTimeRecord</a> (<a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a> &amp;root)</td></tr>
+<tr class="memdesc:ga800a6651bd5ddc83378a46dccfa9dc03"><td class="mdescLeft">&#160;</td><td class="mdescRight">un-installs given record in the current thread  <br /></td></tr>
 <tr class="memitem:gabefbd707048572a74df60a453534dbab" id="r_gabefbd707048572a74df60a453534dbab"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a>&gt; </td></tr>
-<tr class="memitem:gabefbd707048572a74df60a453534dbab template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabefbd707048572a74df60a453534dbab">MR::TypedBitSet&lt; I &gt;::getMapping</a> (const <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &amp;map) const</td></tr>
+<tr class="memitem:gabefbd707048572a74df60a453534dbab template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabefbd707048572a74df60a453534dbab">MR::TypedBitSet&lt; I &gt;::getMapping</a> (const <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &amp;map) const</td></tr>
 <tr class="memitem:ga37348afa24bcbc43d3a71e35e02267d6" id="r_ga37348afa24bcbc43d3a71e35e02267d6"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a>&gt; </td></tr>
-<tr class="memitem:ga37348afa24bcbc43d3a71e35e02267d6 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga37348afa24bcbc43d3a71e35e02267d6">MR::TypedBitSet&lt; I &gt;::getMapping</a> (const <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &amp;map, size_t resSize) const</td></tr>
-<tr class="memitem:ga9313e4c55061c6256011bd32a616752e" id="r_ga9313e4c55061c6256011bd32a616752e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9313e4c55061c6256011bd32a616752e">MR::Heap&lt; T, I, P &gt;::Heap</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def <a class="el" href="MRMacros_8h.html#ac4deec6386dbf5b5f121aaa2beb16cec">MR_LIFETIMEBOUND_NESTED</a>={}, P pred={})</td></tr>
-<tr class="memdesc:ga9313e4c55061c6256011bd32a616752e"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap for given number of elements, assigning given default value to each element  <br /></td></tr>
-<tr class="memitem:ga26381c3d0e45502caae2e269f988a3f8" id="r_ga26381c3d0e45502caae2e269f988a3f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga26381c3d0e45502caae2e269f988a3f8">MR::Heap&lt; T, I, P &gt;::Heap</a> (std::vector&lt; <a class="el" href="structMR_1_1Heap_1_1Element.html">Element</a> &gt; elms <a class="el" href="MRMacros_8h.html#ac4deec6386dbf5b5f121aaa2beb16cec">MR_LIFETIMEBOUND_NESTED</a>, P pred={})</td></tr>
-<tr class="memdesc:ga26381c3d0e45502caae2e269f988a3f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap from given elements (id's shall not repeat, but can have spaces and be arbitrary shuffled)  <br /></td></tr>
+<tr class="memitem:ga37348afa24bcbc43d3a71e35e02267d6 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga37348afa24bcbc43d3a71e35e02267d6">MR::TypedBitSet&lt; I &gt;::getMapping</a> (const <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &amp;map, size_t resSize) const</td></tr>
+<tr class="memitem:ga484758be506c83b8a42bbb37f7761507" id="r_ga484758be506c83b8a42bbb37f7761507"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga484758be506c83b8a42bbb37f7761507">MR::Heap&lt; T, I, P &gt;::Heap</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def={}, P pred={})</td></tr>
+<tr class="memdesc:ga484758be506c83b8a42bbb37f7761507"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap for given number of elements, assigning given default value to each element  <br /></td></tr>
+<tr class="memitem:gad25d3f2e0a2385b7458ee0a7229d6130" id="r_gad25d3f2e0a2385b7458ee0a7229d6130"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad25d3f2e0a2385b7458ee0a7229d6130">MR::Heap&lt; T, I, P &gt;::Heap</a> (std::vector&lt; <a class="el" href="structMR_1_1Heap_1_1Element.html">Element</a> &gt; elms, P pred={})</td></tr>
+<tr class="memdesc:gad25d3f2e0a2385b7458ee0a7229d6130"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap from given elements (id's shall not repeat, but can have spaces and be arbitrary shuffled)  <br /></td></tr>
 <tr class="memitem:ga2dc347cff75def29aeb2eaa76f066a84" id="r_ga2dc347cff75def29aeb2eaa76f066a84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2dc347cff75def29aeb2eaa76f066a84">MR::Heap&lt; T, I, P &gt;::resize</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this)={})</td></tr>
 <tr class="memdesc:ga2dc347cff75def29aeb2eaa76f066a84"><td class="mdescLeft">&#160;</td><td class="mdescRight">increases the size of the heap by adding elements at the end  <br /></td></tr>
-<tr class="memitem:gafcff97055b50c5542b2c3febf7cfabc7" id="r_gafcff97055b50c5542b2c3febf7cfabc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafcff97055b50c5542b2c3febf7cfabc7">MR::Heap&lt; T, I, P &gt;::push</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> elemId, const T &amp;val <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
+<tr class="memitem:gafcff97055b50c5542b2c3febf7cfabc7" id="r_gafcff97055b50c5542b2c3febf7cfabc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafcff97055b50c5542b2c3febf7cfabc7">MR::Heap&lt; T, I, P &gt;::push</a> (I elemId, const T &amp;val <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
 <tr class="memdesc:gafcff97055b50c5542b2c3febf7cfabc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds given element, which is not present in the heap yet  <br /></td></tr>
-<tr class="memitem:gad6fc20606fca8689766c2177661d444a" id="r_gad6fc20606fca8689766c2177661d444a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad6fc20606fca8689766c2177661d444a">MR::Heap&lt; T, I, P &gt;::erase</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> elemId)</td></tr>
+<tr class="memitem:gad6fc20606fca8689766c2177661d444a" id="r_gad6fc20606fca8689766c2177661d444a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad6fc20606fca8689766c2177661d444a">MR::Heap&lt; T, I, P &gt;::erase</a> (I elemId)</td></tr>
 <tr class="memdesc:gad6fc20606fca8689766c2177661d444a"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes given element from the heap  <br /></td></tr>
-<tr class="memitem:ga113ac866225ab4355eef002299a93671" id="r_ga113ac866225ab4355eef002299a93671"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga113ac866225ab4355eef002299a93671">MR::Heap&lt; T, I, P &gt;::setValue</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> elemId, const T &amp;newVal <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
+<tr class="memitem:ga113ac866225ab4355eef002299a93671" id="r_ga113ac866225ab4355eef002299a93671"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga113ac866225ab4355eef002299a93671">MR::Heap&lt; T, I, P &gt;::setValue</a> (I elemId, const T &amp;newVal <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
 <tr class="memdesc:ga113ac866225ab4355eef002299a93671"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new value to given element  <br /></td></tr>
-<tr class="memitem:ga63073f7e258e45cf224a470df850692a" id="r_ga63073f7e258e45cf224a470df850692a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga63073f7e258e45cf224a470df850692a">MR::Heap&lt; T, I, P &gt;::setLargerValue</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> elemId, const T &amp;newVal <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
+<tr class="memitem:ga63073f7e258e45cf224a470df850692a" id="r_ga63073f7e258e45cf224a470df850692a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga63073f7e258e45cf224a470df850692a">MR::Heap&lt; T, I, P &gt;::setLargerValue</a> (I elemId, const T &amp;newVal <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
 <tr class="memdesc:ga63073f7e258e45cf224a470df850692a"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new value to given element, which shall be larger/smaller than the current value  <br /></td></tr>
-<tr class="memitem:ga5ce1725f1cb927e3e594d52b5a565ed7" id="r_ga5ce1725f1cb927e3e594d52b5a565ed7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5ce1725f1cb927e3e594d52b5a565ed7">MR::Heap&lt; T, I, P &gt;::setSmallerValue</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> elemId, const T &amp;newVal <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
+<tr class="memitem:ga5ce1725f1cb927e3e594d52b5a565ed7" id="r_ga5ce1725f1cb927e3e594d52b5a565ed7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5ce1725f1cb927e3e594d52b5a565ed7">MR::Heap&lt; T, I, P &gt;::setSmallerValue</a> (I elemId, const T &amp;newVal <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>This chapter represents documentation about basic elements. </p>
@@ -406,14 +405,14 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gad3f1a3adf2ff77fb434aff7b938e091a" name="gad3f1a3adf2ff77fb434aff7b938e091a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad3f1a3adf2ff77fb434aff7b938e091a">&#9670;&#160;</a></span>appendUtf8()</h2>
+<a id="ga0cbd084ee3de48d4c82a59fb470b5a1a" name="ga0cbd084ee3de48d4c82a59fb470b5a1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0cbd084ee3de48d4c82a59fb470b5a1a">&#9670;&#160;</a></span>appendUtf8()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::appendUtf8 </td>
+          <td class="memname">void MR::appendUtf8 </td>
           <td>(</td>
           <td class="paramtype">std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -430,8 +429,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gaeaebbb2f1efd81e84ec37217bb4edf4c" name="gaeaebbb2f1efd81e84ec37217bb4edf4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeaebbb2f1efd81e84ec37217bb4edf4c">&#9670;&#160;</a></span>asString() <span class="overload">[1/2]</span></h2>
+<a id="ga772133dc76f16920332b4b0074da394e" name="ga772133dc76f16920332b4b0074da394e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga772133dc76f16920332b4b0074da394e">&#9670;&#160;</a></span>asString() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -440,7 +439,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const std::string &amp; MR::asString </td>
+          <td class="memname">const std::string &amp; MR::asString </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
           <td></td>
@@ -455,12 +454,10 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRStringConvert_8h.html">MRMesh/MRStringConvert.h</a>&gt;</code></p>
 
-<p>std::u8string is not defined </p>
-
 </div>
 </div>
-<a id="gabf753ea56f25d4f1e8076ef90286efce" name="gabf753ea56f25d4f1e8076ef90286efce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabf753ea56f25d4f1e8076ef90286efce">&#9670;&#160;</a></span>asString() <span class="overload">[2/2]</span></h2>
+<a id="gae19e95b1a9a0a6b0a74848dc36d9f863" name="gae19e95b1a9a0a6b0a74848dc36d9f863"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae19e95b1a9a0a6b0a74848dc36d9f863">&#9670;&#160;</a></span>asString() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -469,7 +466,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::string MR::asString </td>
+          <td class="memname">std::string MR::asString </td>
           <td>(</td>
           <td class="paramtype">std::string &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
           <td></td>
@@ -486,8 +483,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gaa7dfbd8929d54cde238ceb82f7836fcc" name="gaa7dfbd8929d54cde238ceb82f7836fcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa7dfbd8929d54cde238ceb82f7836fcc">&#9670;&#160;</a></span>asU8String() <span class="overload">[1/2]</span></h2>
+<a id="ga37f4340272986dcbde4f0fb5503a0912" name="ga37f4340272986dcbde4f0fb5503a0912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga37f4340272986dcbde4f0fb5503a0912">&#9670;&#160;</a></span>asU8String() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -496,7 +493,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const std::string &amp; MR::asU8String </td>
+          <td class="memname">const std::string &amp; MR::asU8String </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
           <td></td>
@@ -513,8 +510,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga51004e242a303220acdbb40a49488daf" name="ga51004e242a303220acdbb40a49488daf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga51004e242a303220acdbb40a49488daf">&#9670;&#160;</a></span>asU8String() <span class="overload">[2/2]</span></h2>
+<a id="gaa010d1f339c974fa6ff486c6cad89c7d" name="gaa010d1f339c974fa6ff486c6cad89c7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa010d1f339c974fa6ff486c6cad89c7d">&#9670;&#160;</a></span>asU8String() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -523,7 +520,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::string MR::asU8String </td>
+          <td class="memname">std::string MR::asU8String </td>
           <td>(</td>
           <td class="paramtype">std::string &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
           <td></td>
@@ -969,8 +966,8 @@ template&lt;typename In, typename Res, typename Visit&gt; </div>
 
 </div>
 </div>
-<a id="ga596c713b661ba437dd683d6572084019" name="ga596c713b661ba437dd683d6572084019"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga596c713b661ba437dd683d6572084019">&#9670;&#160;</a></span>calcDamerauLevenshteinDistance() <span class="overload">[2/2]</span></h2>
+<a id="ga0d1a9d7d3c35e3ee9d2245d5827f489e" name="ga0d1a9d7d3c35e3ee9d2245d5827f489e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0d1a9d7d3c35e3ee9d2245d5827f489e">&#9670;&#160;</a></span>calcDamerauLevenshteinDistance() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -979,7 +976,7 @@ template&lt;typename In, typename Res, typename Visit&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> int MR::calcDamerauLevenshteinDistance </td>
+          <td class="memname">int MR::calcDamerauLevenshteinDistance </td>
           <td>(</td>
           <td class="paramtype">const std::u32string &amp;</td>          <td class="paramname"><span class="paramname"><em>stringA</em></span>, </td>
         </tr>
@@ -1017,8 +1014,8 @@ template&lt;typename In, typename Res, typename Visit&gt; </div>
 
 </div>
 </div>
-<a id="ga326a5396b3f4e3604328f5bd11d38a24" name="ga326a5396b3f4e3604328f5bd11d38a24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga326a5396b3f4e3604328f5bd11d38a24">&#9670;&#160;</a></span>caseFold()</h2>
+<a id="ga40027abda294f97cf747f668bb1f3003" name="ga40027abda294f97cf747f668bb1f3003"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga40027abda294f97cf747f668bb1f3003">&#9670;&#160;</a></span>caseFold()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1027,7 +1024,7 @@ template&lt;typename In, typename Res, typename Visit&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> char32_t MR::caseFold </td>
+          <td class="memname">char32_t MR::caseFold </td>
           <td>(</td>
           <td class="paramtype">char32_t</td>          <td class="paramname"><span class="paramname"><em>ch</em></span></td><td>)</td>
           <td></td>
@@ -1079,7 +1076,7 @@ template&lt;typename In, typename Res, typename Visit&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+template&lt;typename I&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1087,12 +1084,12 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
         <tr>
           <td class="memname">bool MR::contains </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1112,7 +1109,7 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+template&lt;typename I&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1120,12 +1117,12 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
         <tr>
           <td class="memname">bool MR::contains </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; *</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1203,12 +1200,12 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P&gt; </div>
+template&lt;typename T, typename I, typename P&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, P &gt;::erase </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::erase </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span></td><td>)</td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>elemId</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1284,17 +1281,17 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+template&lt;typename I&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void MR::fillVectorWithSeqNums </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1338,14 +1335,14 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 
 </div>
 </div>
-<a id="gadbca00999f687670e8df99bd12699bc1" name="gadbca00999f687670e8df99bd12699bc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadbca00999f687670e8df99bd12699bc1">&#9670;&#160;</a></span>formatNoTrailingZeros()</h2>
+<a id="ga68bc593618cca45d615a94980b52aa53" name="ga68bc593618cca45d615a94980b52aa53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga68bc593618cca45d615a94980b52aa53">&#9670;&#160;</a></span>formatNoTrailingZeros()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> char * MR::formatNoTrailingZeros </td>
+          <td class="memname">char * MR::formatNoTrailingZeros </td>
           <td>(</td>
           <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>fmt</em></span>, </td>
         </tr>
@@ -1415,7 +1412,7 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+template&lt;typename I&gt; </div>
 <div class="memtemplate">
 template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a>&gt; </div>
 <table class="mlabels">
@@ -1423,7 +1420,7 @@ template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df5
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; <a class="el" href="classMR_1_1TypedBitSet.html">MR::TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::getMapping </td>
+          <td class="memname"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; <a class="el" href="classMR_1_1TypedBitSet.html">MR::TypedBitSet</a>&lt; I &gt;::getMapping </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>map</em></span></td><td>)</td>
           <td> const</td>
@@ -1446,7 +1443,7 @@ template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df5
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+template&lt;typename I&gt; </div>
 <div class="memtemplate">
 template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a>&gt; </div>
 <table class="mlabels">
@@ -1454,7 +1451,7 @@ template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df5
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; <a class="el" href="classMR_1_1TypedBitSet.html">MR::TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt;::getMapping </td>
+          <td class="memname"><a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; <a class="el" href="classMR_1_1TypedBitSet.html">MR::TypedBitSet</a>&lt; I &gt;::getMapping </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>map</em></span>, </td>
         </tr>
@@ -1504,26 +1501,26 @@ template&lt;typename <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df5
 
 </div>
 </div>
-<a id="ga9313e4c55061c6256011bd32a616752e" name="ga9313e4c55061c6256011bd32a616752e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9313e4c55061c6256011bd32a616752e">&#9670;&#160;</a></span>Heap() <span class="overload">[1/2]</span></h2>
+<a id="ga484758be506c83b8a42bbb37f7761507" name="ga484758be506c83b8a42bbb37f7761507"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga484758be506c83b8a42bbb37f7761507">&#9670;&#160;</a></span>Heap() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P&gt; </div>
+template&lt;typename T, typename I, typename P&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, P &gt;::Heap </td>
+          <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::Heap </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T def</td>          <td class="paramname"><span class="paramname"><em>MR_LIFETIMEBOUND_NESTED</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>def</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1544,21 +1541,21 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 </div>
 </div>
-<a id="ga26381c3d0e45502caae2e269f988a3f8" name="ga26381c3d0e45502caae2e269f988a3f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga26381c3d0e45502caae2e269f988a3f8">&#9670;&#160;</a></span>Heap() <span class="overload">[2/2]</span></h2>
+<a id="gad25d3f2e0a2385b7458ee0a7229d6130" name="gad25d3f2e0a2385b7458ee0a7229d6130"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad25d3f2e0a2385b7458ee0a7229d6130">&#9670;&#160;</a></span>Heap() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P&gt; </div>
+template&lt;typename T, typename I, typename P&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, P &gt;::Heap </td>
+          <td class="memname"><a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::Heap </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1Heap_1_1Element.html">Element</a> &gt; elms</td>          <td class="paramname"><span class="paramname"><em>MR_LIFETIMEBOUND_NESTED</em></span>, </td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structMR_1_1Heap_1_1Element.html">Element</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>elms</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1580,7 +1577,7 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 </div>
 </div>
 <a id="gacfd51356fbcb71948b1ef3f058ac75c7" name="gacfd51356fbcb71948b1ef3f058ac75c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gacfd51356fbcb71948b1ef3f058ac75c7">&#9670;&#160;</a></span>heapBytes() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gacfd51356fbcb71948b1ef3f058ac75c7">&#9670;&#160;</a></span>heapBytes() <span class="overload">[1/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1609,7 +1606,7 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 </div>
 </div>
 <a id="ga95720533ccaf5f5aa42fbabee1ce7067" name="ga95720533ccaf5f5aa42fbabee1ce7067"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga95720533ccaf5f5aa42fbabee1ce7067">&#9670;&#160;</a></span>heapBytes() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga95720533ccaf5f5aa42fbabee1ce7067">&#9670;&#160;</a></span>heapBytes() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1636,13 +1633,43 @@ template&lt;typename ... Ts&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRHeapBytes_8h.html">MRMesh/MRHeapBytes.h</a>&gt;</code></p>
 
 <p>returns the amount of memory given <a class="el" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap</a> occupies on heap </p>
-<p>from parallel_hashmap/phmap.h: The control state and slot array are stored contiguously in a shared heap allocation. The layout of this allocation is: <span class="tt">capacity()</span> control bytes, one sentinel control byte, <span class="tt">Group::kWidth - 1</span> cloned control bytes, &lt;possible padding&gt;, <span class="tt">capacity()</span> slots</p>
+<p>from parallel_hashmap/phmap.h: The control state and slot array are stored contiguously in a shared heap allocation. The layout of this allocation is: <span class="tt">capacity()</span> control bytes, one sentinel control byte, <span class="tt">Group::kWidth - 1</span> cloned control bytes, <span class="tt">&lt;possible padding&gt;</span>, <span class="tt">capacity()</span> slots</p>
 <p>the usage of phmap::priv::Group::kWidth here will require inclusion of phmap.h</p>
 
 </div>
 </div>
+<a id="ga616873b34fa0db5205d049f845bec044" name="ga616873b34fa0db5205d049f845bec044"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga616873b34fa0db5205d049f845bec044">&#9670;&#160;</a></span>heapBytes() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::heapBytes </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRHeapBytes_8h.html">MRMesh/MRHeapBytes.h</a>&gt;</code></p>
+<p>Needed for generic code, always returns zero. The constraint is needed to avoid hard errors in C bindings when using MSVC STL when calling <span class="tt">heapBytes&lt;SomeNonfuncType&gt;(...)</span>. </p>
+
+</div>
+</div>
 <a id="gac4cf85680ec3620cb08726ea6668e99a" name="gac4cf85680ec3620cb08726ea6668e99a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac4cf85680ec3620cb08726ea6668e99a">&#9670;&#160;</a></span>heapBytes() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac4cf85680ec3620cb08726ea6668e99a">&#9670;&#160;</a></span>heapBytes() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1673,7 +1700,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6f62a19a1892f63b5d147de8ef2160c0" name="ga6f62a19a1892f63b5d147de8ef2160c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6f62a19a1892f63b5d147de8ef2160c0">&#9670;&#160;</a></span>heapBytes() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6f62a19a1892f63b5d147de8ef2160c0">&#9670;&#160;</a></span>heapBytes() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1704,7 +1731,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2442ef2afa7012af6ca21ebcb6604536" name="ga2442ef2afa7012af6ca21ebcb6604536"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2442ef2afa7012af6ca21ebcb6604536">&#9670;&#160;</a></span>heapBytes() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2442ef2afa7012af6ca21ebcb6604536">&#9670;&#160;</a></span>heapBytes() <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1735,7 +1762,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga92b723fb37bb2e5133cba528ecd679e6" name="ga92b723fb37bb2e5133cba528ecd679e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga92b723fb37bb2e5133cba528ecd679e6">&#9670;&#160;</a></span>heapBytes() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92b723fb37bb2e5133cba528ecd679e6">&#9670;&#160;</a></span>heapBytes() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1787,7 +1814,7 @@ template&lt;typename T, typename U&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRStringConvert_8h.html">MRMesh/MRStringConvert.h</a>&gt;</code></p>
-<p>returns true if the given character is any of prohibited in filenames in any of OSes <a href="https:///">https:///</a> stackoverflow.com/q/1976007/7325599 </p>
+<p>returns true if the given character is any of prohibited in filenames in any of OSes <a href="https://stackoverflow.com/q/1976007/7325599">https://stackoverflow.com/q/1976007/7325599</a> </p>
 
 </div>
 </div>
@@ -1826,15 +1853,15 @@ template&lt;typename T, typename U&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+template&lt;typename I&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, int &gt; MR::makeHashMapWithSeqNums </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt; I, int &gt; MR::makeHashMapWithSeqNums </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1857,15 +1884,15 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+template&lt;typename I&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; bool(<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>)&gt; MR::makePredicate </td>
+          <td class="memname">std::function&lt; bool(I)&gt; MR::makePredicate </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1886,15 +1913,15 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+template&lt;typename I&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; bool(<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>)&gt; MR::makePredicate </td>
+          <td class="memname">std::function&lt; bool(I)&gt; MR::makePredicate </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; *</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; *</td>          <td class="paramname"><span class="paramname"><em>bitset</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1915,15 +1942,15 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+template&lt;typename I&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; MR::makeVectorWithSeqNums </td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; int, I &gt; MR::makeVectorWithSeqNums </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1936,42 +1963,12 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 
 <p><code>#include &lt;<a class="el" href="MRBitSet_8h.html">MRMesh/MRBitSet.h</a>&gt;</code></p>
 
-<p>creates a <a class="el" href="classMR_1_1Vector.html" title="std::vector&lt;T&gt;-like container that requires specific indexing type,">Vector</a> where for each set bit of input bitset its sequential number starting from 0 is returned; and -1 for reset bits </p>
+<p>creates a <a class="el" href="classMR_1_1Vector.html" title="Vector&lt;T&gt; is indexed by size_t.">Vector</a> where for each set bit of input bitset its sequential number starting from 0 is returned; and -1 for reset bits </p>
 
 </div>
 </div>
-<a id="ga6092fad6de6a4d75d57e992d1d373994" name="ga6092fad6de6a4d75d57e992d1d373994"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6092fad6de6a4d75d57e992d1d373994">&#9670;&#160;</a></span>MR_REQUIRES_IF_SUPPORTED()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::MR_REQUIRES_IF_SUPPORTED </td>
-          <td>(</td>
-          <td class="paramtype">std::is_function_v&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRHeapBytes_8h.html">MRMesh/MRHeapBytes.h</a>&gt;</code></p>
-<p>Needed for generic code, always returns zero. The constraint is needed to avoid hard errors in C bindings when using MSVC STL when calling <span class="tt">heapBytes&lt;SomeNonfuncType&gt;(...)</span>. </p>
-
-</div>
-</div>
-<a id="gaaba83a018f0d973756bc09c9ad1c2919" name="gaaba83a018f0d973756bc09c9ad1c2919"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaaba83a018f0d973756bc09c9ad1c2919">&#9670;&#160;</a></span>operator&amp;() <span class="overload">[1/4]</span></h2>
+<a id="ga2384892a4ea3b6a9e6976daeffccb6b3" name="ga2384892a4ea3b6a9e6976daeffccb6b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2384892a4ea3b6a9e6976daeffccb6b3">&#9670;&#160;</a></span>operator&amp;() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1980,7 +1977,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator&amp; </td>
+          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator&amp; </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -2001,8 +1998,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga47b9283cad2f5af1e37735f4bb0a4743" name="ga47b9283cad2f5af1e37735f4bb0a4743"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga47b9283cad2f5af1e37735f4bb0a4743">&#9670;&#160;</a></span>operator&amp;() <span class="overload">[2/4]</span></h2>
+<a id="ga389cd7121fae5a2299c5202cda294695" name="ga389cd7121fae5a2299c5202cda294695"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga389cd7121fae5a2299c5202cda294695">&#9670;&#160;</a></span>operator&amp;() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2011,7 +2008,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator&amp; </td>
+          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator&amp; </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -2032,8 +2029,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga5e449db96e7e177d2b7550d75b5b712d" name="ga5e449db96e7e177d2b7550d75b5b712d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5e449db96e7e177d2b7550d75b5b712d">&#9670;&#160;</a></span>operator&amp;() <span class="overload">[3/4]</span></h2>
+<a id="ga92760170a4e526c9bb0d756548107524" name="ga92760170a4e526c9bb0d756548107524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92760170a4e526c9bb0d756548107524">&#9670;&#160;</a></span>operator&amp;() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2042,7 +2039,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator&amp; </td>
+          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator&amp; </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -2094,8 +2091,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga48b0a2d71fce7c488d814cdca78fad26" name="ga48b0a2d71fce7c488d814cdca78fad26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga48b0a2d71fce7c488d814cdca78fad26">&#9670;&#160;</a></span>operator-() <span class="overload">[1/2]</span></h2>
+<a id="ga8775497b971463da8be7dcc606d9111d" name="ga8775497b971463da8be7dcc606d9111d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8775497b971463da8be7dcc606d9111d">&#9670;&#160;</a></span>operator-() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2104,7 +2101,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator- </td>
+          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator- </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -2195,7 +2192,7 @@ template&lt;typename T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>&gt; </div>
+template&lt;typename I&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -2203,12 +2200,12 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
         <tr>
           <td class="memname">bool MR::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1TypedBitSet.html">TypedBitSet</a>&lt; I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -2257,8 +2254,8 @@ template&lt;typename T, typename U&gt; </div>
 
 </div>
 </div>
-<a id="ga20dba298583085400b413482e6f960af" name="ga20dba298583085400b413482e6f960af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga20dba298583085400b413482e6f960af">&#9670;&#160;</a></span>operator^() <span class="overload">[1/4]</span></h2>
+<a id="gab65fc0a0c66c90fa6083ac0e22b80fb8" name="gab65fc0a0c66c90fa6083ac0e22b80fb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab65fc0a0c66c90fa6083ac0e22b80fb8">&#9670;&#160;</a></span>operator^() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2267,7 +2264,7 @@ template&lt;typename T, typename U&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator^ </td>
+          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator^ </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -2288,8 +2285,8 @@ template&lt;typename T, typename U&gt; </div>
 
 </div>
 </div>
-<a id="ga249233ba252cf2a2c7944527eb96fc6b" name="ga249233ba252cf2a2c7944527eb96fc6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga249233ba252cf2a2c7944527eb96fc6b">&#9670;&#160;</a></span>operator^() <span class="overload">[2/4]</span></h2>
+<a id="ga054c0d78bc29f3e36e9b94be0db4e09b" name="ga054c0d78bc29f3e36e9b94be0db4e09b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga054c0d78bc29f3e36e9b94be0db4e09b">&#9670;&#160;</a></span>operator^() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2298,7 +2295,7 @@ template&lt;typename T, typename U&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator^ </td>
+          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator^ </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -2319,8 +2316,8 @@ template&lt;typename T, typename U&gt; </div>
 
 </div>
 </div>
-<a id="gae42ff4495cb664d0ca8c550d1df8a6c5" name="gae42ff4495cb664d0ca8c550d1df8a6c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae42ff4495cb664d0ca8c550d1df8a6c5">&#9670;&#160;</a></span>operator^() <span class="overload">[3/4]</span></h2>
+<a id="gad92b327a09afadd59cc057b5be345f42" name="gad92b327a09afadd59cc057b5be345f42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad92b327a09afadd59cc057b5be345f42">&#9670;&#160;</a></span>operator^() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2329,7 +2326,7 @@ template&lt;typename T, typename U&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator^ </td>
+          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator^ </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -2381,8 +2378,8 @@ template&lt;typename T, typename U&gt; </div>
 
 </div>
 </div>
-<a id="ga55dcfbbedd72e400762f933c187e5167" name="ga55dcfbbedd72e400762f933c187e5167"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga55dcfbbedd72e400762f933c187e5167">&#9670;&#160;</a></span>operator|() <span class="overload">[1/4]</span></h2>
+<a id="ga68ffb7910024a39eedd13636515459cb" name="ga68ffb7910024a39eedd13636515459cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga68ffb7910024a39eedd13636515459cb">&#9670;&#160;</a></span>operator|() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2391,7 +2388,7 @@ template&lt;typename T, typename U&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator| </td>
+          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator| </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -2412,8 +2409,8 @@ template&lt;typename T, typename U&gt; </div>
 
 </div>
 </div>
-<a id="ga1c310e782792a068bd03c0968f9b09cb" name="ga1c310e782792a068bd03c0968f9b09cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1c310e782792a068bd03c0968f9b09cb">&#9670;&#160;</a></span>operator|() <span class="overload">[2/4]</span></h2>
+<a id="gad964fb68650e1a980aa8c22c6de425f2" name="gad964fb68650e1a980aa8c22c6de425f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad964fb68650e1a980aa8c22c6de425f2">&#9670;&#160;</a></span>operator|() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2422,7 +2419,7 @@ template&lt;typename T, typename U&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator| </td>
+          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator| </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -2443,8 +2440,8 @@ template&lt;typename T, typename U&gt; </div>
 
 </div>
 </div>
-<a id="ga463851dec13846ff7907d8ff9652f019" name="ga463851dec13846ff7907d8ff9652f019"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga463851dec13846ff7907d8ff9652f019">&#9670;&#160;</a></span>operator|() <span class="overload">[3/4]</span></h2>
+<a id="ga24aa9922821ac6bee9765fa82e9d849f" name="ga24aa9922821ac6bee9765fa82e9d849f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga24aa9922821ac6bee9765fa82e9d849f">&#9670;&#160;</a></span>operator|() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2453,7 +2450,7 @@ template&lt;typename T, typename U&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator| </td>
+          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::operator| </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -2511,7 +2508,7 @@ template&lt;typename T, typename U&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename ... F&gt; </div>
+template&lt;typename T, typename I, typename ... F&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -2519,7 +2516,7 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
         <tr>
           <td class="memname">auto MR::ParallelFor </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>buf</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>buf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2579,7 +2576,7 @@ template&lt;typename T, typename ... F&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename ... F&gt; </div>
+template&lt;typename T, typename I, typename ... F&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -2587,7 +2584,7 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
         <tr>
           <td class="memname">auto MR::ParallelFor </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2613,7 +2610,7 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename F, typename ... Cb&gt; </div>
+template&lt;typename I, typename F, typename ... Cb&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -2621,12 +2618,12 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
         <tr>
           <td class="memname">auto MR::ParallelFor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2657,7 +2654,7 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename F&gt; </div>
+template&lt;typename I, typename F&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -2665,12 +2662,12 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
         <tr>
           <td class="memname">void MR::ParallelFor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2701,7 +2698,7 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename L, typename F, typename ... Cb&gt; </div>
+template&lt;typename I, typename L, typename F, typename ... Cb&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -2709,12 +2706,12 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
         <tr>
           <td class="memname">auto MR::ParallelFor </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2881,8 +2878,8 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 
 </div>
 </div>
-<a id="ga274eb4278759027605fb20465ec0a769" name="ga274eb4278759027605fb20465ec0a769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga274eb4278759027605fb20465ec0a769">&#9670;&#160;</a></span>pathFromUtf8() <span class="overload">[1/2]</span></h2>
+<a id="gabe699ad65df9788d6c5c76856ddbf259" name="gabe699ad65df9788d6c5c76856ddbf259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe699ad65df9788d6c5c76856ddbf259">&#9670;&#160;</a></span>pathFromUtf8() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2891,7 +2888,7 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::filesystem::path MR::pathFromUtf8 </td>
+          <td class="memname">std::filesystem::path MR::pathFromUtf8 </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
           <td></td>
@@ -2908,8 +2905,8 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 
 </div>
 </div>
-<a id="gafb82b59416abea95f150286ba0695dd8" name="gafb82b59416abea95f150286ba0695dd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafb82b59416abea95f150286ba0695dd8">&#9670;&#160;</a></span>pathFromUtf8() <span class="overload">[2/2]</span></h2>
+<a id="ga20dc9bc9caabc76a8ed03696488fbd2c" name="ga20dc9bc9caabc76a8ed03696488fbd2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga20dc9bc9caabc76a8ed03696488fbd2c">&#9670;&#160;</a></span>pathFromUtf8() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2918,7 +2915,7 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::filesystem::path MR::pathFromUtf8 </td>
+          <td class="memname">std::filesystem::path MR::pathFromUtf8 </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>s</em></span></td><td>)</td>
           <td></td>
@@ -3016,12 +3013,12 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P = std::less&lt;T&gt;&gt; </div>
+template&lt;typename T, typename I, typename P = std::less&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, P &gt;::push </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::push </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3057,14 +3054,14 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 </div>
 </div>
-<a id="gaf098f0ef23e1041c9baa3e5ed4973ab4" name="gaf098f0ef23e1041c9baa3e5ed4973ab4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf098f0ef23e1041c9baa3e5ed4973ab4">&#9670;&#160;</a></span>registerThreadRootTimeRecord()</h2>
+<a id="ga5fdc4a646903573ef4d3c61285de4aae" name="ga5fdc4a646903573ef4d3c61285de4aae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5fdc4a646903573ef4d3c61285de4aae">&#9670;&#160;</a></span>registerThreadRootTimeRecord()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::registerThreadRootTimeRecord </td>
+          <td class="memname">void MR::registerThreadRootTimeRecord </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span></td><td>)</td>
           <td></td>
@@ -3117,10 +3114,10 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P = std::less&lt;T&gt;&gt; </div>
+template&lt;typename T, typename I, typename P = std::less&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, P &gt;::resize </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::resize </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
@@ -3210,12 +3207,12 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P = std::less&lt;T&gt;&gt; </div>
+template&lt;typename T, typename I, typename P = std::less&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, P &gt;::setLargerValue </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::setLargerValue </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3237,12 +3234,12 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P = std::less&lt;T&gt;&gt; </div>
+template&lt;typename T, typename I, typename P = std::less&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, P &gt;::setSmallerValue </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::setSmallerValue </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3262,12 +3259,12 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P = std::less&lt;T&gt;&gt; </div>
+template&lt;typename T, typename I, typename P = std::less&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, P &gt;::setValue </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, I, P &gt;::setValue </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
+          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3344,8 +3341,8 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 </div>
 </div>
-<a id="ga928b6325849327a21a0b3487d72ce340" name="ga928b6325849327a21a0b3487d72ce340"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga928b6325849327a21a0b3487d72ce340">&#9670;&#160;</a></span>toLower() <span class="overload">[1/3]</span></h2>
+<a id="ga7721e95c71046a6aa880ada0f4ac74a0" name="ga7721e95c71046a6aa880ada0f4ac74a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7721e95c71046a6aa880ada0f4ac74a0">&#9670;&#160;</a></span>toLower() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3354,7 +3351,7 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> char MR::toLower </td>
+          <td class="memname">char MR::toLower </td>
           <td>(</td>
           <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>ch</em></span></td><td>)</td>
           <td></td>
@@ -3372,8 +3369,8 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 </div>
 </div>
-<a id="gaa3366c40c50de491cccc08d16cc85640" name="gaa3366c40c50de491cccc08d16cc85640"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa3366c40c50de491cccc08d16cc85640">&#9670;&#160;</a></span>toLower() <span class="overload">[2/3]</span></h2>
+<a id="ga9df757bed3e05730b0419527ec647dc5" name="ga9df757bed3e05730b0419527ec647dc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9df757bed3e05730b0419527ec647dc5">&#9670;&#160;</a></span>toLower() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3382,7 +3379,7 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> char32_t MR::toLower </td>
+          <td class="memname">char32_t MR::toLower </td>
           <td>(</td>
           <td class="paramtype">char32_t</td>          <td class="paramname"><span class="paramname"><em>ch</em></span></td><td>)</td>
           <td></td>
@@ -3430,14 +3427,14 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 </div>
 </div>
-<a id="ga18b970e8dba2f07bb78d3e801f3cccb4" name="ga18b970e8dba2f07bb78d3e801f3cccb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga18b970e8dba2f07bb78d3e801f3cccb4">&#9670;&#160;</a></span>unregisterThreadRootTimeRecord()</h2>
+<a id="ga800a6651bd5ddc83378a46dccfa9dc03" name="ga800a6651bd5ddc83378a46dccfa9dc03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga800a6651bd5ddc83378a46dccfa9dc03">&#9670;&#160;</a></span>unregisterThreadRootTimeRecord()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::unregisterThreadRootTimeRecord </td>
+          <td class="memname">void MR::unregisterThreadRootTimeRecord </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>root</em></span></td><td>)</td>
           <td></td>
@@ -3451,8 +3448,8 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 </div>
 </div>
-<a id="ga78e854361dc1dced79ade4111cdb6965" name="ga78e854361dc1dced79ade4111cdb6965"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga78e854361dc1dced79ade4111cdb6965">&#9670;&#160;</a></span>utf32ToUtf8()</h2>
+<a id="ga3f02cba76c62fd88c8cd445dd3a672c4" name="ga3f02cba76c62fd88c8cd445dd3a672c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3f02cba76c62fd88c8cd445dd3a672c4">&#9670;&#160;</a></span>utf32ToUtf8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3461,7 +3458,7 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::string MR::utf32ToUtf8 </td>
+          <td class="memname">std::string MR::utf32ToUtf8 </td>
           <td>(</td>
           <td class="paramtype">std::u32string_view</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
           <td></td>
@@ -3575,8 +3572,8 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 </div>
 </div>
-<a id="ga7036065ef1d5168bd166eb7895394d25" name="ga7036065ef1d5168bd166eb7895394d25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7036065ef1d5168bd166eb7895394d25">&#9670;&#160;</a></span>utf8ToCodepoint()</h2>
+<a id="gad75ee5f6d92cba93201e0a0fb52cdf2d" name="gad75ee5f6d92cba93201e0a0fb52cdf2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad75ee5f6d92cba93201e0a0fb52cdf2d">&#9670;&#160;</a></span>utf8ToCodepoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3585,7 +3582,7 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::pair&lt; char32_t, size_t &gt; MR::utf8ToCodepoint </td>
+          <td class="memname">std::pair&lt; char32_t, size_t &gt; MR::utf8ToCodepoint </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
         </tr>
@@ -3635,8 +3632,8 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 </div>
 </div>
-<a id="gad30e63b6f4f948b8d58e1dda5feb678d" name="gad30e63b6f4f948b8d58e1dda5feb678d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad30e63b6f4f948b8d58e1dda5feb678d">&#9670;&#160;</a></span>utf8ToUtf32()</h2>
+<a id="gaf50e619169d898f6e08bd4130b576996" name="gaf50e619169d898f6e08bd4130b576996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf50e619169d898f6e08bd4130b576996">&#9670;&#160;</a></span>utf8ToUtf32()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3645,7 +3642,7 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::u32string MR::utf8ToUtf32 </td>
+          <td class="memname">std::u32string MR::utf8ToUtf32 </td>
           <td>(</td>
           <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
           <td></td>
@@ -3664,8 +3661,8 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 </div>
 </div>
-<a id="gabf0c62e8eb667d4d1d481e1439abc619" name="gabf0c62e8eb667d4d1d481e1439abc619"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabf0c62e8eb667d4d1d481e1439abc619">&#9670;&#160;</a></span>utf8ToWide()</h2>
+<a id="ga30e0c22bd108aadcfcc682881774b5cf" name="ga30e0c22bd108aadcfcc682881774b5cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga30e0c22bd108aadcfcc682881774b5cf">&#9670;&#160;</a></span>utf8ToWide()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3674,7 +3671,7 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::wstring MR::utf8ToWide </td>
+          <td class="memname">std::wstring MR::utf8ToWide </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>utf8</em></span></td><td>)</td>
           <td></td>
@@ -3751,8 +3748,8 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 </div>
 </div>
-<a id="gac38b2c1263b8177519faa700d26a81fc" name="gac38b2c1263b8177519faa700d26a81fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac38b2c1263b8177519faa700d26a81fc">&#9670;&#160;</a></span>wideToUtf8()</h2>
+<a id="ga51757a4a472981f6949027d18674ec92" name="ga51757a4a472981f6949027d18674ec92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga51757a4a472981f6949027d18674ec92">&#9670;&#160;</a></span>wideToUtf8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3761,7 +3758,7 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::string MR::wideToUtf8 </td>
+          <td class="memname">std::string MR::wideToUtf8 </td>
           <td>(</td>
           <td class="paramtype">const wchar_t *</td>          <td class="paramname"><span class="paramname"><em>wide</em></span></td><td>)</td>
           <td></td>

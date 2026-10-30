@@ -206,7 +206,7 @@ $(function(){initNavTree('MeshLibCSharpSetupGuide.html','',''); });
 <h1 class="doxsection"><a class="anchor" id="UsingMeshLibwithCSharp"></a>
 Using MeshLib with C#</h1>
 <p>This instruction will guide you through integrating MeshLib into your C# project using NuGet or the .NET Command-Line Interface.</p>
-<dl class="section note"><dt>Note</dt><dd>MeshLib C# bindings are fully generated from the C++ codebase and expose the complete public API, with the exception of the <span class="tt">MR.Viewer</span> module. The C# API is fully compatible with Unity — see <a class="el" href="#MeshLibCSharpUnity">Using MeshLib with Unity</a>.</dd>
+<dl class="section note"><dt>Note</dt><dd>MeshLib C# bindings are fully generated from the C++ codebase and expose the complete public API, with the exception of the <span class="tt"><a class="elRef" href="./Cpp/classMR_1_1Viewer.html">MR.Viewer</a></span> module. The C# API is fully compatible with Unity — see <a class="el" href="#MeshLibCSharpUnity">Using MeshLib with Unity</a>.</dd>
 <dd>
 The C# bindings are production-ready. The full, stable C# API reference and comprehensive code samples are available and maintained. C# support is provided consistently across all <a class="el" href="#MeshLibCSharpPlatforms">supported platforms</a>, ensuring feature parity with the native C++ API.</dd></dl>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md48"></a>
@@ -266,7 +266,7 @@ Using Visual Studio on Windows</h3>
 </ul>
 </li>
 <li><b>Start Using MeshLib</b>:<ul>
-<li>You should now have access to the static class <span class="tt">MR</span> and its members.</li>
+<li>You should now have access to the static class <span class="tt"><a class="elRef" href="./Cpp/namespaceMR.html">MR</a></span> and its members.</li>
 <li>Confirm the native libraries actually load: <a class="el" href="#MeshLibCSharpVerify">Verify Your Installation</a>.</li>
 </ul>
 </li>
@@ -291,7 +291,7 @@ Using JetBrains Rider</h3>
 </ul>
 </li>
 <li><b>Start Using MeshLib</b>:<ul>
-<li>You should now have access to the static class <span class="tt">MR</span> and its members.</li>
+<li>You should now have access to the static class <span class="tt"><a class="elRef" href="./Cpp/namespaceMR.html">MR</a></span> and its members.</li>
 </ul>
 </li>
 </ol>
@@ -316,7 +316,7 @@ Using Visual Studio Code with the C# Dev Kit</h3>
 </ul>
 </li>
 <li><b>Start Using MeshLib</b>:<ul>
-<li>You should now have access to the static class <span class="tt">MR</span> and its members.</li>
+<li>You should now have access to the static class <span class="tt"><a class="elRef" href="./Cpp/namespaceMR.html">MR</a></span> and its members.</li>
 </ul>
 </li>
 </ol>
@@ -391,11 +391,14 @@ Installation via .NET Command-Line Interface</h2>
 <p>By following these steps, you can integrate MeshLib into your project, giving you more control over the setup process.</p>
 <h2 class="doxsection"><a class="anchor" id="MeshLibCSharpVerify"></a>
 Verify Your Installation</h2>
-<p>Adding the package and building the project succeed even when the native libraries cannot be loaded, so the setup is only proven by a real MeshLib call. Replace the contents of <span class="tt">Program.cs</span> with: </p><div class="fragment"><div class="line">var mesh = MR.makeCube();</div>
+<p>Adding the package and building the project succeed even when the native libraries cannot be loaded, so the setup is only proven by a real MeshLib call. Replace the contents of <span class="tt">Program.cs</span> with: </p><div class="fragment"><div class="line">var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeCube();</div>
 <div class="line">Console.WriteLine($<span class="stringliteral">&quot;MeshLib OK: cube has {mesh.points.size()} points, &quot;</span></div>
 <div class="line">                + $<span class="stringliteral">&quot;{mesh.topology.numValidFaces()} faces&quot;</span>);</div>
-<div class="line">MR.MeshSave.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;cube.stl&quot;</span>);</div>
+<div class="line"><a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;cube.stl&quot;</span>);</div>
 <div class="line">Console.WriteLine(<span class="stringliteral">&quot;Wrote cube.stl&quot;</span>);</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --><p>Then run: </p><div class="fragment"><div class="line">dotnet run</div>
 </div><!-- fragment --><p>The expected output is exactly: </p><div class="fragment"><div class="line">MeshLib OK: cube has 8 points, 12 faces</div>
 <div class="line">Wrote cube.stl</div>

@@ -147,7 +147,7 @@ $(function(){initNavTree('MRTimer_8h_source.html','',''); });
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1TimeRecord.html">TimeRecord</a>;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1Timer.html">   16</a></span><span class="keyword">class </span><a class="code hl_typedef" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="code hl_function" href="classMR_1_1Timer.html#ae80a6af65498d28b69104f6cba5dae47">Timer</a></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classMR_1_1Timer.html">   16</a></span><span class="keyword">class </span>MR_BIND_IGNORE <a class="code hl_function" href="classMR_1_1Timer.html#ae80a6af65498d28b69104f6cba5dae47">Timer</a></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="classMR_1_1Timer.html#ae80a6af65498d28b69104f6cba5dae47">   19</a></span>    <a class="code hl_function" href="classMR_1_1Timer.html#ae80a6af65498d28b69104f6cba5dae47">Timer</a>( std::string name ) { <a class="code hl_function" href="classMR_1_1Timer.html#a99cd37e3d1b7371e80e114ffd3493a43">start</a>( std::move( name ) ); }</div>
@@ -181,7 +181,7 @@ $(function(){initNavTree('MRTimer_8h_source.html','',''); });
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#ifdef __GNUC__ </span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#ifdef __GNUC__ </span><span class="comment">// __FUNCTION__ in GCC/Clang returns only short function name without class name and template parameters</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#define MR_TIMER MR::Timer _timer( __PRETTY_FUNCTION__ )</span></div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#else</span></div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="MRTimer_8h.html#adf7fc408af3ac6d6583cc0ca173120ae">   60</a></span><span class="preprocessor">#define MR_TIMER MR::Timer _timer( __FUNCTION__ )</span></div>
@@ -202,8 +202,7 @@ $(function(){initNavTree('MRTimer_8h_source.html','',''); });
 <div class="ttc" id="agroup__BasicGroup_html_gaa062fb28e95de030cde47eb792db4270"><div class="ttname"><a href="group__BasicGroup.html#gaa062fb28e95de030cde47eb792db4270">MR::printTimingTree</a></div><div class="ttdeci">void printTimingTree(double minTimeSec=0.1)</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_gaea0c8b01358b57ffcc2ca74961b6a912"><div class="ttname"><a href="group__BasicGroup.html#gaea0c8b01358b57ffcc2ca74961b6a912">MR::printTimingTreeAtEnd</a></div><div class="ttdeci">void printTimingTreeAtEnd(bool on, double minTimeSec=0.1)</div></div>
 <div class="ttc" id="agroup__BasicGroup_html_gaecffe26cbebdea7dd9123268d97c9b8d"><div class="ttname"><a href="group__BasicGroup.html#gaecffe26cbebdea7dd9123268d97c9b8d">MR::printCurrentTimerBranch</a></div><div class="ttdeci">void printCurrentTimerBranch()</div><div class="ttdoc">prints current timer branch</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_gac8d05498d66775361b0d0d2996604348"><div class="ttname"><a href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR::MR_BIND_IGNORE</a></div><div class="ttdeci">std::array&lt; Vector3f, 3 &gt; MR_BIND_IGNORE</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:13</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1TimeRecord_html"><div class="ttname"><a href="structMR_1_1TimeRecord.html">MR::TimeRecord</a></div><div class="ttdef"><b>Definition</b> MRTimeRecord.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

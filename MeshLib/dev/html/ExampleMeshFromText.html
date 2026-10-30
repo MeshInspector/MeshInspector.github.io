@@ -136,9 +136,9 @@ $(function(){initNavTree('ExampleMeshFromText.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2MeshFromText"></a></p>
 <p>Following code presents example of converting text to mesh</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRSymbolMesh/MRSymbolMesh.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRSymbolMesh_8h.html">MRSymbolMesh/MRSymbolMesh.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
@@ -153,20 +153,20 @@ $(function(){initNavTree('ExampleMeshFromText.html','',''); });
 <div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span>* text = argv[2];</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// set text-to-mesh parameters</span></div>
-<div class="line">    MR::SymbolMeshParams params {</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1SymbolMeshParams.html">MR::SymbolMeshParams</a> params {</div>
 <div class="line">        <span class="comment">// input text</span></div>
 <div class="line">        .text = text,</div>
 <div class="line">        <span class="comment">// font file name</span></div>
 <div class="line">        .pathToFontFile = fontPath,</div>
 <div class="line">    };</div>
-<div class="line">    <span class="keyword">auto</span> convRes = MR::createSymbolsMesh( params );</div>
+<div class="line">    <span class="keyword">auto</span> convRes = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga141a61d44641c538f45c2c292f7c2e59">MR::createSymbolsMesh</a>( params );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !convRes )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; <span class="stringliteral">&quot;Failed to convert text to mesh: &quot;</span> &lt;&lt; convRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> EXIT_FAILURE;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( *convRes, <span class="stringliteral">&quot;mesh.ply&quot;</span> );</div>
+<div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a>( *convRes, <span class="stringliteral">&quot;mesh.ply&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !saveRes )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; <span class="stringliteral">&quot;Failed to save result: &quot;</span> &lt;&lt; saveRes.error() &lt;&lt; std::endl;</div>
@@ -176,7 +176,13 @@ $(function(){initNavTree('ExampleMeshFromText.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
-</div><!-- fragment --> <dl class="section see"><dt>See also</dt><dd>MR::createSymbolsMesh</dd></dl>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aMRSymbolMesh_8h_html"><div class="ttname"><a href="./Cpp/MRSymbolMesh_8h.html">MRSymbolMesh.h</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga141a61d44641c538f45c2c292f7c2e59"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga141a61d44641c538f45c2c292f7c2e59">MR::createSymbolsMesh</a></div><div class="ttdeci">Expected&lt; Mesh &gt; createSymbolsMesh(const SymbolMeshParams &amp;params)</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="astructMR_1_1SymbolMeshParams_html"><div class="ttname"><a href="./Cpp/structMR_1_1SymbolMeshParams.html">MR::SymbolMeshParams</a></div></div>
+</div><!-- fragment --> <dl class="section see"><dt>See also</dt><dd><a class="elRef" href="./Cpp/group__GeneralGroup.html#ga141a61d44641c538f45c2c292f7c2e59">MR::createSymbolsMesh</a></dd></dl>
 </li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> sys</div>
 <div class="line"> </div>
@@ -224,14 +230,14 @@ $(function(){initNavTree('ExampleMeshFromText.html','',''); });
 <div class="line">    MR_SymbolMeshParams_Set_pathToFontFile( params, argv[1], NULL );</div>
 <div class="line"> </div>
 <div class="line">    MR_expected_MR_Mesh_std_string* convRes = MR_createSymbolsMesh( params );</div>
-<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( convRes );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_expected_MR_Mesh_std_string_value_mut( convRes );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to convert text to mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( convRes ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_conv;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;mesh.ply&quot;</span>, NULL, NULL );</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -248,6 +254,7 @@ $(function(){initNavTree('ExampleMeshFromText.html','',''); });
 <div class="line">bad_usage:</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

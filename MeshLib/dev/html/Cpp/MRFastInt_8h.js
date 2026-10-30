@@ -9,13 +9,13 @@ var MRFastInt_8h =
     [ "MR::detail::doubleFromWords", "namespaceMR_1_1detail.html#a642d79bba1a218c9810ee5a91c1362b9", null ],
     [ "MR::detail::mulWords", "namespaceMR_1_1detail.html#adef9954c65821ab458734f64ae86e011", null ],
     [ "MR::detail::mulWordsOf", "namespaceMR_1_1detail.html#a0c3c7fc10991c0eb99094bb42d438de2", null ],
-    [ "MR::operator*", "group__HighPrecisionGroup.html#gacf1747776a123f6afdf52b1c766d5a15", null ],
-    [ "MR::operator*", "group__HighPrecisionGroup.html#ga15464bb6e2f869d91cb4a1583d4af1d4", null ],
-    [ "MR::operator*", "group__HighPrecisionGroup.html#ga8f43e802126c20691185376048e2fe69", null ],
+    [ "MR::operator*", "group__HighPrecisionGroup.html#gaecdf817ffa38a7bad5a32666f7e71ab9", null ],
+    [ "MR::operator*", "group__HighPrecisionGroup.html#gafb082ddcbaf39f68c2ff73a88f4f1488", null ],
+    [ "MR::operator*", "group__HighPrecisionGroup.html#ga281730588547623992ca3f80b9eae433", null ],
     [ "MR::detail::signWord", "namespaceMR_1_1detail.html#a198d8073571caaae263de501236e6052", null ],
     [ "MR::detail::subBorrow64", "namespaceMR_1_1detail.html#a7fc59c8caf263e5cec996db9f596920d", null ],
-    [ "MR::toDouble", "group__HighPrecisionGroup.html#ga7494b779fa44082a4d511ef3c77597e6", null ],
-    [ "MR::toDouble", "group__HighPrecisionGroup.html#ga096c2c7825f1a47993ae9d976bacd68d", null ],
+    [ "MR::toDouble", "group__HighPrecisionGroup.html#ga6575e8311c46a05ce2edc4ab8d1563b9", null ],
+    [ "MR::toDouble", "group__HighPrecisionGroup.html#ga4e3109c6b7c94099e5ccae5f083f5b5e", null ],
     [ "MR::detail::cFitsFastInt128", "namespaceMR_1_1detail.html#af6206848d5379160c8a8684d2c76593f", null ],
     [ "MR::detail::cMulBits", "namespaceMR_1_1detail.html#a7fc2a0ff5839e59c72d8681e50b67fdc", null ]
 ];

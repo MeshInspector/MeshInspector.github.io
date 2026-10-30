@@ -214,7 +214,7 @@ Static Public Attributes</h2></td></tr>
  @return std::nullopt if the loops intersect or a chord would land in a face instead of a hole, so that
          the caller can fall back on filling every loop separately; otherwise a plan with numTris == 0
          for \\ref executeHoleFillPlan, which then only adds edges (empty if already monotone, a no-op).
-         Validate it with \\ref isFillingMultipleEdgeFree: a chord may duplicate an off-loop mesh edge
+         Validate it with \\ref isFillingMultipleEdgeFree, since a chord may duplicate an off-loop mesh edge
 </pre> 
 </div>
 </div>

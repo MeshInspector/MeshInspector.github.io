@@ -136,31 +136,31 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2examples_2MeshResolveDegenerations"></a></p>
 <p>Example of fixing degenerated faces</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRBox.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshFixer.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRBox_8h.html">MRMesh/MRBox.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshFixer_8h.html">MRMesh/MRMeshFixer.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">auto</span> mesh = MR::MeshLoad::fromAnySupportedFormat( <span class="stringliteral">&quot;mesh.stl&quot;</span> );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    <span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span> );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> )</div>
 <div class="line">    {</div>
-<div class="line">        std::cerr &lt;&lt; mesh.error() &lt;&lt; std::endl;</div>
+<div class="line">        std::cerr &lt;&lt; <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// you can set various parameters for the resolving process; see the documentation for more info</span></div>
-<div class="line">    std::ignore = MR::fixMeshDegeneracies( *mesh, {</div>
-<div class="line">        .maxDeviation = 1e-5f * mesh-&gt;computeBoundingBox().diagonal(),</div>
+<div class="line">    std::ignore = <a class="code hl_functionRef" href="./Cpp/group__MeshFixerGroup.html#ga1e63ddf91205ab34304a9ff3b2b550a2">MR::fixMeshDegeneracies</a>( *<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, {</div>
+<div class="line">        .maxDeviation = 1e-5f * <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>-&gt;computeBoundingBox().diagonal(),</div>
 <div class="line">        .tinyEdgeLength = 1e-3f,</div>
 <div class="line">    } );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( *mesh, <span class="stringliteral">&quot;fixedMesh.stl&quot;</span> ); !saveRes )</div>
+<div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a>( *<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;fixedMesh.stl&quot;</span> ); !saveRes )</div>
 <div class="line">    {</div>
 <div class="line">        std::cerr &lt;&lt; saveRes.error() &lt;&lt; std::endl;</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
@@ -169,6 +169,15 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRBox_8h_html"><div class="ttname"><a href="./Cpp/MRBox_8h.html">MRBox.h</a></div></div>
+<div class="ttc" id="aMRMeshFixer_8h_html"><div class="ttname"><a href="./Cpp/MRMeshFixer_8h.html">MRMeshFixer.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
+<div class="ttc" id="agroup__MeshFixerGroup_html_ga1e63ddf91205ab34304a9ff3b2b550a2"><div class="ttname"><a href="./Cpp/group__MeshFixerGroup.html#ga1e63ddf91205ab34304a9ff3b2b550a2">MR::fixMeshDegeneracies</a></div><div class="ttdeci">Expected&lt; void &gt; fixMeshDegeneracies(Mesh &amp;mesh, const FixMeshDegeneraciesParams &amp;params)</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html_aa115a0d8b8efd585125c07693565388b"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> sys</div>
 <div class="line"> </div>
@@ -179,12 +188,13 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="line"> </div>
 <div class="line"><span class="comment"># you can set various parameters for the resolving process; see the documentation for more info</span></div>
 <div class="line">params = mrmeshpy.FixMeshDegeneraciesParams()</div>
-<div class="line">params.maxDeviation = 1e-5 * mesh.computeBoundingBox().diagonal()</div>
+<div class="line">params.maxDeviation = 1e-5 * mesh.computeBoundingBox().<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a>()</div>
 <div class="line">params.tinyEdgeLength = 1e-3</div>
 <div class="line"> </div>
 <div class="line">mrmeshpy.fixMeshDegeneracies(mesh, params)</div>
 <div class="line"> </div>
 <div class="line">mrmeshpy.saveMesh(mesh, <span class="stringliteral">&quot;fixed_mesh.stl&quot;</span>)</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga364466ea8c305b40ce349b90f040c873"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga364466ea8c305b40ce349b90f040c873">diagonal</a></div><div class="ttdeci">static constexpr SymMatrix2 diagonal(T diagVal) noexcept</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRBox.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
@@ -204,8 +214,8 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
 <div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_MR_Mesh_std_string_error( meshEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_mesh_loading;</div>
@@ -214,12 +224,12 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="line">    <span class="comment">// you can set various parameters for the resolving process; see the documentation for more info</span></div>
 <div class="line">    MR_FixMeshDegeneraciesParams* params = MR_FixMeshDegeneraciesParams_DefaultConstruct();</div>
 <div class="line">    <span class="comment">// maximum permitted deviation</span></div>
-<div class="line">    <span class="keyword">const</span> MR_Box3f bbox = MR_Mesh_computeBoundingBox( mesh, NULL );</div>
+<div class="line">    <span class="keyword">const</span> MR_Box3f bbox = MR_Mesh_computeBoundingBox( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, NULL );</div>
 <div class="line">    MR_FixMeshDegeneraciesParams_Set_maxDeviation( params, 1e-5f * MR_Box3f_diagonal( &amp;bbox ) );</div>
 <div class="line">    <span class="comment">// maximum length of edges to be collapsed</span></div>
 <div class="line">    MR_FixMeshDegeneraciesParams_Set_tinyEdgeLength( params, 1e-3f );</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_void_std_string* degeneraciesEx = MR_fixMeshDegeneracies( mesh, params );</div>
+<div class="line">    MR_expected_void_std_string* degeneraciesEx = MR_fixMeshDegeneracies( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, params );</div>
 <div class="line">    MR_FixMeshDegeneraciesParams_Destroy( params );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( degeneraciesEx ) )</div>
@@ -229,7 +239,7 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;fixedMesh.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;fixedMesh.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -264,14 +274,14 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="line">            <span class="keywordtype">string</span> inputFile = args[0];</div>
 <div class="line">            <span class="keywordtype">string</span> outputFile = args.Length == 2 ? args[1] : inputFile;</div>
 <div class="line"> </div>
-<div class="line">            var mesh = MR.MeshLoad.fromAnySupportedFormat(inputFile);</div>
+<div class="line">            var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(inputFile);</div>
 <div class="line"> </div>
-<div class="line">            MR.FixMeshDegeneraciesParams parameters = <span class="keyword">new</span>();</div>
-<div class="line">            parameters.maxDeviation = mesh.computeBoundingBox().diagonal() * 1e-5f;</div>
+<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR.FixMeshDegeneraciesParams</a> parameters = <span class="keyword">new</span>();</div>
+<div class="line">            parameters.maxDeviation = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.computeBoundingBox().diagonal() * 1e-5f;</div>
 <div class="line">            parameters.tinyEdgeLength = 1e-3f;</div>
 <div class="line"> </div>
-<div class="line">            MR.fixMeshDegeneracies(mesh, parameters);</div>
-<div class="line">            MR.MeshSave.toAnySupportedFormat(mesh, outputFile);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.fixMeshDegeneracies(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, parameters);</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, outputFile);</div>
 <div class="line">        }</div>
 <div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
 <div class="line">        {</div>
@@ -279,6 +289,10 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
+<div class="ttc" id="astructMR_1_1FixMeshDegeneraciesParams_html"><div class="ttname"><a href="./Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR::FixMeshDegeneraciesParams</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>

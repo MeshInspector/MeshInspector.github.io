@@ -164,7 +164,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>auto uvCoords = obj_-&gt;getUVCoords(); auto texturePerFace = obj_-&gt;getTexturePerFace(); MeshAttributesToUpdate meshParams; if ( !uvCoords.empty() ) meshParams.uvCoords = &amp;uvCoords; if ( !texturePerFace.empty() ) meshParams.texturePerFace = &amp;texturePerFace; subs.onEdgeSplit = meshOnEdgeSplitAttribute( *obj_-&gt;varMesh(), meshParams ); subdivideMesh( *obj_-&gt;varMesh(), subs ); Generated from function <span class="tt">MR::meshOnEdgeSplitAttribute</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__function__void__from__MR__EdgeId__MR__EdgeId_8h.html#a5cd4178ad04b6f5e4fa6494a5e249050" title="Destroys a heap-allocated instance of MR_std_function_void_from_MR_EdgeId_MR_EdgeId....">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_Destroy()</a></span> to free it when you're done using it. </p>
+<div class="fragment"><div class="line"><span class="keyword">auto</span> uvCoords = obj_-&gt;getUVCoords();</div>
+<div class="line"><span class="keyword">auto</span> texturePerFace = obj_-&gt;getTexturePerFace();</div>
+<div class="line">MeshAttributesToUpdate meshParams;</div>
+<div class="line"><span class="keywordflow">if</span> ( !uvCoords.empty() )</div>
+<div class="line">    meshParams.uvCoords = &amp;uvCoords;</div>
+<div class="line"><span class="keywordflow">if</span> ( !texturePerFace.empty() )</div>
+<div class="line">    meshParams.texturePerFace = &amp;texturePerFace;</div>
+<div class="line">subs.onEdgeSplit = meshOnEdgeSplitAttribute( *obj_-&gt;varMesh(), meshParams );</div>
+<div class="line">subdivideMesh( *obj_-&gt;varMesh(), subs );</div>
+</div><!-- fragment --><p> Generated from function <span class="tt">MR::meshOnEdgeSplitAttribute</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__function__void__from__MR__EdgeId__MR__EdgeId_8h.html#a5cd4178ad04b6f5e4fa6494a5e249050" title="Destroys a heap-allocated instance of MR_std_function_void_from_MR_EdgeId_MR_EdgeId....">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>

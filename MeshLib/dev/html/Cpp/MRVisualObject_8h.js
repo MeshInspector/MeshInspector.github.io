@@ -22,9 +22,11 @@ var MRVisualObject_8h =
       [ "MR::DIRTY_VOLUME", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a6c7eea869dc164adaaa93aa744a519f2", null ],
       [ "MR::DIRTY_ALL", "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a", null ]
     ] ],
-    [ "_count", "MRVisualObject_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983", null ],
-    [ "ClippedByPlane", "MRVisualObject_8h.html#a86e5e23fe8af282d3772b2968223d2bb", null ],
-    [ "DepthTest", "MRVisualObject_8h.html#aab077be49ed8052394a3f5faace8becd", null ],
-    [ "Name", "MRVisualObject_8h.html#aa5998168cabfb2b2e41151349077812c", null ],
-    [ "Visibility", "MRVisualObject_8h.html#a53d6f8ccb0015ea020228de41cfd2162", null ]
+    [ "MR::VisualizeMaskType", "group__VisualObjectGroup.html#ga5c32800ec075fcf4f9b3eb8e2d5ac6ca", [
+      [ "MR::VisualizeMaskType::Visibility", "group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caa1729a56cfc89021478498fe0c89a843a", null ],
+      [ "MR::VisualizeMaskType::Name", "group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caa49ee3087348e8d44e1feda1917443987", null ],
+      [ "MR::VisualizeMaskType::ClippedByPlane", "group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caa4fd94a9d801d7cb5e1ffacfac690a817", null ],
+      [ "MR::VisualizeMaskType::DepthTest", "group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caa16704bc95ff0bd3291ba157e6f06e0ee", null ],
+      [ "MR::VisualizeMaskType::_count", "group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caad69186af02738a9b3ced1bc5b652ba55", null ]
+    ] ]
 ];
