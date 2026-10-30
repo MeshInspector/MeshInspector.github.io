@@ -1,5 +1,9 @@
 var NAVTREEINDEX147 =
 {
+"classMR_1_1VisualObject.html#ab6e2de4c7c6dc32c1e400132f23a353c":[9,3,0,0,0,1875,6],
+"classMR_1_1VisualObject.html#abd7f8a38e4f4f9fcea46c00ac851ab66":[9,3,0,0,0,1875,38],
+"classMR_1_1VisualObject.html#ac3c5ea26a4601dcb3ea4a6efeb6315d0":[9,3,0,0,0,1875,41],
+"classMR_1_1VisualObject.html#ac6d7e43baa084e95b3632dceedbc4908":[9,3,0,0,0,1875,5],
 "classMR_1_1VisualObject.html#ac7b4bc52f94f43df05e41137a70a6fed":[9,3,0,0,0,1875,33],
 "classMR_1_1VisualObject.html#ac8736edb5a08681504a4b58ff34a8175":[9,3,0,0,0,1875,44],
 "classMR_1_1VisualObject.html#acec78011ed1d12290ac1b51933569f14":[9,3,0,0,0,1875,28],
@@ -245,9 +249,5 @@ var NAVTREEINDEX147 =
 "classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html#abf6c1f13e9e9f7a605a2cfd02a103bb9":[9,3,0,0,0,1885,3,3],
 "classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html#aea94ff613da658ba097aebf40f87e370":[9,3,0,0,0,1885,3,2],
 "classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html#aeba25060561095e117f738c43eb4aeec":[9,3,0,0,0,1885,3,10],
-"classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html#af11e445c392983a3575dec72a21b3fad":[9,3,0,0,0,1885,3,9],
-"classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html#af3246b142ad4f21dc2bc9a9d51d774ad":[9,3,0,0,0,1885,3,6],
-"classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html#af92521e4398af377d7e4be6c690c4ca0":[9,3,0,0,0,1885,3,11],
-"classMR_1_1VoxelsLoad_1_1Const__RawParameters.html":[9,3,0,0,0,1885,4],
-"classMR_1_1VoxelsLoad_1_1Const__RawParameters.html#a5820e4935c2ce9945f84b03275c054e9":[9,3,0,0,0,1885,4,12]
+"classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html#af11e445c392983a3575dec72a21b3fad":[9,3,0,0,0,1885,3,9]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"classMR_1_1Const__Parabolad.html#aeab7722de743cb1ca66a02435f0967f4":[9,3,0,0,0,716,5],
+"classMR_1_1Const__Parabolad.html#af08dfb1515717c31f1d81f3694914318":[9,3,0,0,0,716,3],
+"classMR_1_1Const__Parabolad.html#af81bcc4b56ae779f0f50641cc8088a25":[9,3,0,0,0,716,6],
+"classMR_1_1Const__Parabolaf.html":[9,3,0,0,0,717],
 "classMR_1_1Const__Parabolaf.html#a23ca1ab12a8e67200a38de92ef12e17a":[9,3,0,0,0,717,1],
 "classMR_1_1Const__Parabolaf.html#a29903dc74935fd0dfe00a648c65042c7":[9,3,0,0,0,717,13],
 "classMR_1_1Const__Parabolaf.html#a2d0c2e30f59c82d86e08318ca69329d2":[9,3,0,0,0,717,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "classMR_1_1Const__Pdf_1_1ImageParams.html#af19c0ceb662f4e8494b5a3a806f124cc":[9,3,0,0,0,723,8,10],
 "classMR_1_1Const__Pdf_1_1PaletteRowStats.html":[9,3,0,0,0,723,9],
 "classMR_1_1Const__Pdf_1_1PaletteRowStats.html#a0d6678fc04afe0a4318cf46f6cf9d52f":[9,3,0,0,0,723,9,5],
-"classMR_1_1Const__Pdf_1_1PaletteRowStats.html#a154e73617cf99d2effba749cba1b1147":[9,3,0,0,0,723,9,2],
-"classMR_1_1Const__Pdf_1_1PaletteRowStats.html#a3aaf56859f4498a3324850956dc095d3":[9,3,0,0,0,723,9,0],
-"classMR_1_1Const__Pdf_1_1PaletteRowStats.html#a3edfd7830a51e8763e4e92764daac97f":[9,3,0,0,0,723,9,7],
-"classMR_1_1Const__Pdf_1_1PaletteRowStats.html#a8900c815e12072f2bc6ecccc5ffe87fd":[9,3,0,0,0,723,9,3],
-"classMR_1_1Const__Pdf_1_1PaletteRowStats.html#a8e43b85431f49bc19276111ff36f002a":[9,3,0,0,0,723,9,6]
+"classMR_1_1Const__Pdf_1_1PaletteRowStats.html#a154e73617cf99d2effba749cba1b1147":[9,3,0,0,0,723,9,2]
 };

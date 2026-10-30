@@ -1,5 +1,9 @@
 var NAVTREEINDEX81 =
 {
+"classmrmeshpy_1_1Polynomial__double__3.html#abecf537a43af87c86cd20873ede490d9":[9,1,0,0,2,784,3],
+"classmrmeshpy_1_1Polynomial__double__3.html#abecf537a43af87c86cd20873ede490d9":[9,1,1,0,1,784,3],
+"classmrmeshpy_1_1Polynomial__double__3.html#af82b8b4b711a4e4c7afeab194051e811":[9,1,0,0,2,784,2],
+"classmrmeshpy_1_1Polynomial__double__3.html#af82b8b4b711a4e4c7afeab194051e811":[9,1,1,0,1,784,2],
 "classmrmeshpy_1_1Polynomial__double__4.html":[9,1,0,0,2,785],
 "classmrmeshpy_1_1Polynomial__double__4.html":[9,1,1,0,1,785],
 "classmrmeshpy_1_1Polynomial__double__4.html#a0fb62bd8283270f6fd62a8a2d480663d":[9,1,0,0,2,785,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX81 =
 "classmrmeshpy_1_1PreciseVertCoords.html#a7f7f273417df64dac291abae9fd9677c":[9,1,0,0,2,801,2],
 "classmrmeshpy_1_1PreciseVertCoords.html#a7f7f273417df64dac291abae9fd9677c":[9,1,1,0,1,801,2],
 "classmrmeshpy_1_1PreciseVertCoords.html#a8ea8bfa11a73c65820dadacb995107e7":[9,1,0,0,2,801,3],
-"classmrmeshpy_1_1PreciseVertCoords.html#a8ea8bfa11a73c65820dadacb995107e7":[9,1,1,0,1,801,3],
-"classmrmeshpy_1_1PreciseVertCoords.html#aa1dc5702f2c596f24deee87b8d7b0904":[9,1,0,0,2,801,6],
-"classmrmeshpy_1_1PreciseVertCoords.html#aa1dc5702f2c596f24deee87b8d7b0904":[9,1,1,0,1,801,6],
-"classmrmeshpy_1_1PreciseVertCoords2.html":[9,1,0,0,2,802],
-"classmrmeshpy_1_1PreciseVertCoords2.html":[9,1,1,0,1,802]
+"classmrmeshpy_1_1PreciseVertCoords.html#a8ea8bfa11a73c65820dadacb995107e7":[9,1,1,0,1,801,3]
 };

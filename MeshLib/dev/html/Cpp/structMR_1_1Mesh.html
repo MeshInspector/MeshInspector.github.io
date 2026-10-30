@@ -260,6 +260,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a08b8517dc08f3f1509ff3a0deb390e82" id="r_a08b8517dc08f3f1509ff3a0deb390e82"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08b8517dc08f3f1509ff3a0deb390e82">discreteMeanCurvature</a> (VertId v) const</td></tr>
 <tr class="memitem:a504db229abc4375e45ea9b83ff9b3c6a" id="r_a504db229abc4375e45ea9b83ff9b3c6a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a504db229abc4375e45ea9b83ff9b3c6a">discreteMeanCurvature</a> (UndirectedEdgeId e) const</td></tr>
 <tr class="memitem:a18e24b802c039dde02eeb902045cdb20" id="r_a18e24b802c039dde02eeb902045cdb20"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18e24b802c039dde02eeb902045cdb20">discreteGaussianCurvature</a> (VertId v, bool *outBoundaryVert=nullptr) const</td></tr>
+<tr class="memitem:afd59cf617a2a73ead7947a41e275fed6" id="r_afd59cf617a2a73ead7947a41e275fed6"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd59cf617a2a73ead7947a41e275fed6">discreteMeanCurvatures</a> (const VertBitSet *region=nullptr) const</td></tr>
+<tr class="memitem:adfaba95b93f425370fa574cb62812f41" id="r_adfaba95b93f425370fa574cb62812f41"><td class="memItemLeft" align="right" valign="top">VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfaba95b93f425370fa574cb62812f41">discreteGaussianCurvatures</a> (const VertBitSet *region=nullptr) const</td></tr>
 <tr class="memitem:a30ffc7daf92144ac76a43684a5ca21b4" id="r_a30ffc7daf92144ac76a43684a5ca21b4"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30ffc7daf92144ac76a43684a5ca21b4">findSharpEdges</a> (float minSharpCos, float maxSharpCos) const</td></tr>
 <tr class="memdesc:a30ffc7daf92144ac76a43684a5ca21b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos]  <br /></td></tr>
 <tr class="memitem:a1eda7cca99d50abaa6f9c15d4edefabb" id="r_a1eda7cca99d50abaa6f9c15d4edefabb"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1eda7cca99d50abaa6f9c15d4edefabb">findCreaseEdges</a> (float angleFromPlanar) const</td></tr>
@@ -1228,6 +1230,32 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="adfaba95b93f425370fa574cb62812f41" name="adfaba95b93f425370fa574cb62812f41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfaba95b93f425370fa574cb62812f41">&#9670;&#160;</a></span>discreteGaussianCurvatures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertScalars MR::Mesh::discreteGaussianCurvatures </td>
+          <td>(</td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>computes discrete Gaussian curvature (see discreteGaussianCurvature( v )) in the vertices of given region (or in all valid vertices if region is null), and puts 0 in all other vertices </p>
+
+</div>
+</div>
 <a id="a504db229abc4375e45ea9b83ff9b3c6a" name="a504db229abc4375e45ea9b83ff9b3c6a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a504db229abc4375e45ea9b83ff9b3c6a">&#9670;&#160;</a></span>discreteMeanCurvature() <span class="overload">[1/2]</span></h2>
 
@@ -1277,6 +1305,32 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>computes discrete mean curvature in given vertex, measures in length^-1; 0 for planar regions, positive for convex surface, negative for concave surface </p>
+
+</div>
+</div>
+<a id="afd59cf617a2a73ead7947a41e275fed6" name="afd59cf617a2a73ead7947a41e275fed6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd59cf617a2a73ead7947a41e275fed6">&#9670;&#160;</a></span>discreteMeanCurvatures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">VertScalars MR::Mesh::discreteMeanCurvatures </td>
+          <td>(</td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>computes discrete mean curvature (see discreteMeanCurvature( v )) in the vertices of given region (or in all valid vertices if region is null), and puts 0 in all other vertices </p>
 
 </div>
 </div>

@@ -173,8 +173,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1b1b044319a7406a43261ab03f62a38d" id="r_a1b1b044319a7406a43261ab03f62a38d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b1b044319a7406a43261ab03f62a38d">dirDblArea</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f)</td></tr>
 <tr class="memitem:aa8b411a39571663f790b2f8078bf58ee" id="r_aa8b411a39571663f790b2f8078bf58ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8b411a39571663f790b2f8078bf58ee">dirDblArea</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v)</td></tr>
 <tr class="memitem:ae19a5bd3e1dfa25767e3b8e86ef455e5" id="r_ae19a5bd3e1dfa25767e3b8e86ef455e5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae19a5bd3e1dfa25767e3b8e86ef455e5">discreteGaussianCurvature</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v, <a class="el" href="classmrmeshpy_1_1bool__output.html">bool_output</a> outBoundaryVert=None)</td></tr>
+<tr class="memitem:a41b26ca3ebd6f77f62f8640472631857" id="r_a41b26ca3ebd6f77f62f8640472631857"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41b26ca3ebd6f77f62f8640472631857">discreteGaussianCurvatures</a> (self, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
 <tr class="memitem:a053fbfc5abbe255ddfdc0cd8a02e49c9" id="r_a053fbfc5abbe255ddfdc0cd8a02e49c9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a053fbfc5abbe255ddfdc0cd8a02e49c9">discreteMeanCurvature</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v)</td></tr>
 <tr class="memitem:a248ffcaae38ee441deb6bb71ef835c9c" id="r_a248ffcaae38ee441deb6bb71ef835c9c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a248ffcaae38ee441deb6bb71ef835c9c">discreteMeanCurvature</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> e)</td></tr>
+<tr class="memitem:a00e8fd5ff417561844973327416a00f2" id="r_a00e8fd5ff417561844973327416a00f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00e8fd5ff417561844973327416a00f2">discreteMeanCurvatures</a> (self, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
 <tr class="memitem:a6dc9f44657f4ac6c664636445c1c8fd2" id="r_a6dc9f44657f4ac6c664636445c1c8fd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dc9f44657f4ac6c664636445c1c8fd2">edgeCenter</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> e)</td></tr>
 <tr class="memitem:a402590d4144379e3280089f0aaed2b01" id="r_a402590d4144379e3280089f0aaed2b01"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a402590d4144379e3280089f0aaed2b01">edgeLength</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> e)</td></tr>
 <tr class="memitem:a37e83e4c7e1761195f12e5983b3575bd" id="r_a37e83e4c7e1761195f12e5983b3575bd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37e83e4c7e1761195f12e5983b3575bd">edgeLengthSq</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> e)</td></tr>
@@ -1146,6 +1148,29 @@ optionally returns whether the vertex is on boundary
 </pre> 
 </div>
 </div>
+<a id="a41b26ca3ebd6f77f62f8640472631857" name="a41b26ca3ebd6f77f62f8640472631857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41b26ca3ebd6f77f62f8640472631857">&#9670;&#160;</a></span>discreteGaussianCurvatures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a> mrmeshpy.Mesh.discreteGaussianCurvatures </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">computes discrete Gaussian curvature (see discreteGaussianCurvature( v )) in the vertices of given region (or in all valid vertices if region is null),
+and puts 0 in all other vertices
+</pre> 
+</div>
+</div>
 <a id="a248ffcaae38ee441deb6bb71ef835c9c" name="a248ffcaae38ee441deb6bb71ef835c9c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a248ffcaae38ee441deb6bb71ef835c9c">&#9670;&#160;</a></span>discreteMeanCurvature() <span class="overload">[1/2]</span></h2>
 
@@ -1189,6 +1214,29 @@ optionally returns whether the vertex is on boundary
 </div><div class="memdoc">
 <pre class="fragment">computes discrete mean curvature in given vertex, measures in length^-1;
 0 for planar regions, positive for convex surface, negative for concave surface
+</pre> 
+</div>
+</div>
+<a id="a00e8fd5ff417561844973327416a00f2" name="a00e8fd5ff417561844973327416a00f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e8fd5ff417561844973327416a00f2">&#9670;&#160;</a></span>discreteMeanCurvatures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a> mrmeshpy.Mesh.discreteMeanCurvatures </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> </td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">computes discrete mean curvature (see discreteMeanCurvature( v )) in the vertices of given region (or in all valid vertices if region is null),
+and puts 0 in all other vertices
 </pre> 
 </div>
 </div>

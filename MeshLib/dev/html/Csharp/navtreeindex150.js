@@ -1,5 +1,9 @@
 var NAVTREEINDEX150 =
 {
+"functions_z.html":[9,3,0,3,0,25],
+"hierarchy.html":[9,3,0,2],
+"index.html":[],
+"pages.html":[],
 "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8cs.html":[9,3,1,0,0,0,0,11],
 "std__shared__ptr__MR__Cuda__FastWindingNumber_8cs.html":[9,3,1,0,0,0,0,12],
 "std__shared__ptr__MR__Cuda__PointsToMeshProjector_8cs.html":[9,3,1,0,0,0,0,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX150 =
 "structMR_1_1Box1f.html#af108f2c3b6577b0cc79f82c09cfa50b3":[9,3,0,0,0,68,0],
 "structMR_1_1Box1f.html#af86afe98a39bcb8b70aef268cd687d9c":[9,3,0,0,0,68,11],
 "structMR_1_1Box1f.html#afbc33f1635950ec50e0295ede27a9195":[9,3,0,0,0,68,5],
-"structMR_1_1Box1i.html":[9,3,0,0,0,69],
-"structMR_1_1Box1i.html#a01e4bb7a5811ed9d938d248d90c34def":[9,3,0,0,0,69,5],
-"structMR_1_1Box1i.html#a05cf5cb1750a6c86f63de56f5ec37d6c":[9,3,0,0,0,69,9],
-"structMR_1_1Box1i.html#a0a12f34e2b3a99ee63ccca8607f45ea4":[9,3,0,0,0,69,28],
-"structMR_1_1Box1i.html#a1362c48e3de06b717341a083de178819":[9,3,0,0,0,69,15]
+"structMR_1_1Box1i.html":[9,3,0,0,0,69]
 };

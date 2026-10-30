@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1BooleanResult.html#a9e97978ae79fbc9acc8c2bdb8ef40c12":[9,0,0,8,5,8],
+"structMR_1_1BooleanResult.html#aa632af00548f4dfb2a5e70d9518e874f":[9,0,0,8,5,3],
 "structMR_1_1BooleanResult.html#ab6a130e652e944be8b2d65e3ea1c273a":[9,0,0,8,5,0],
 "structMR_1_1BooleanResult.html#ac0af7e2df53a77da2787428be4cc77d8":[9,0,0,8,5,1],
 "structMR_1_1BooleanResult.html#ac98caba27fe5a9fdbaa3e4aafff41f2a":[9,0,0,8,5,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1Dirty.html#a76c3682b5945100a319d092463d942e5":[9,0,0,11,2,4,6],
 "structMR_1_1Dirty.html#a821f9a5ba85a71d42db99a9fdff0e8b6":[9,0,0,11,2,4,1],
 "structMR_1_1DistanceFromWeightedPointsComputeParams.html":[9,0,0,19,181],
-"structMR_1_1DistanceFromWeightedPointsParams.html":[9,0,0,19,180],
-"structMR_1_1DistanceMapLoadSettings.html":[9,0,0,5,6],
-"structMR_1_1DistanceMapLoadSettings.html#a4329716168946bea274736a95808880e":[9,0,0,5,6,0]
+"structMR_1_1DistanceFromWeightedPointsParams.html":[9,0,0,19,180]
 };

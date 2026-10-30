@@ -1,5 +1,9 @@
 var NAVTREEINDEX130 =
 {
+"classMR_1_1RegionBitSet.html#af1c83551c2d19847756669e7ac020fd5":[9,3,0,0,0,1625,4],
+"classMR_1_1RegionBitSet.html#af23f1e8234001184adae1683dfe259fa":[9,3,0,0,0,1625,13],
+"classMR_1_1RegionBitSet.html#afc667c30f55e0cea509bac1a60f31958":[9,3,0,0,0,1625,1],
+"classMR_1_1RegularMapMesher.html":[9,3,0,0,0,1627],
 "classMR_1_1RegularMapMesher.html#a3068f95ebadfc88cbed90676b8ca1f13":[9,3,0,0,0,1627,6],
 "classMR_1_1RegularMapMesher.html#a6b9b1a239520752175ea710c5f3585b3":[9,3,0,0,0,1627,3],
 "classMR_1_1RegularMapMesher.html#a81f29537e2f2c967ee20c2a44783b038":[9,3,0,0,0,1627,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX130 =
 "classMR_1_1SceneSave_1_1Settings.html#af451139658d5d6f402b37added149e2e":[9,3,0,0,0,1643,1,0],
 "classMR_1_1SceneSettings.html":[9,3,0,0,0,1644],
 "classMR_1_1SearchPathSettings.html":[9,3,0,0,0,1645],
-"classMR_1_1SearchPathSettings.html#a288aa4a11157069fa7c090cb67e3bfcf":[9,3,0,0,0,1645,2],
-"classMR_1_1SearchPathSettings.html#a771ea8c2c936bcbdf480c3d8cc452a2c":[9,3,0,0,0,1645,1],
-"classMR_1_1SearchPathSettings.html#a79b2759b95aacabb25ac063ebd5adbae":[9,3,0,0,0,1645,5],
-"classMR_1_1SearchPathSettings.html#a8105174dd5ccb5ac8f73ad7044d563ae":[9,3,0,0,0,1645,3],
-"classMR_1_1SearchPathSettings.html#a913a5b8c0919cf2f8841a4b360bb7aa7":[9,3,0,0,0,1645,0]
+"classMR_1_1SearchPathSettings.html#a288aa4a11157069fa7c090cb67e3bfcf":[9,3,0,0,0,1645,2]
 };

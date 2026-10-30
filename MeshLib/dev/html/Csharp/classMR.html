@@ -10506,6 +10506,10 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <tr class="memdesc:a5da682fa8aecfbdafd4a0b9606c10dfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes discrete mean curvature in given edge, measures in length^-1; 0 for planar regions, positive for convex surface, negative for concave surface Generated from function <span class="tt"><a class="el" href="#af50f100e25f32a6d477aa3ae80889d1b" title="computes discrete mean curvature in given vertex, measures in length^-1; 0 for planar regions,...">MR.discreteMeanCurvature</a></span>.  <br /></td></tr>
 <tr class="memitem:a56f1eb3cfc60a758c2ae53d934572252" id="r_a56f1eb3cfc60a758c2ae53d934572252"><td class="memItemLeft" align="right" valign="top">static unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56f1eb3cfc60a758c2ae53d934572252">discreteGaussianCurvature</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, MR.Misc.InOut&lt; bool &gt;? outBoundaryVert=null)</td></tr>
 <tr class="memdesc:a56f1eb3cfc60a758c2ae53d934572252"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes discrete Gaussian curvature (or angle defect) at given vertex, which 0 in inner vertices on planar mesh parts and reaches 2*pi on needle's tip, see <a href="http://math.uchicago.edu/~may/REU2015/REUPapers/Upadhyay.pdf">http://math.uchicago.edu/~may/REU2015/REUPapers/Upadhyay.pdf</a> optionally returns whether the vertex is on boundary Generated from function <span class="tt"><a class="el" href="#a56f1eb3cfc60a758c2ae53d934572252" title="computes discrete Gaussian curvature (or angle defect) at given vertex, which 0 in inner vertices on ...">MR.discreteGaussianCurvature</a></span>.  <br /></td></tr>
+<tr class="memitem:ab2c8fec0db51a12af0198a521ab1b235" id="r_ab2c8fec0db51a12af0198a521ab1b235"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertScalars.html">MR.VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2c8fec0db51a12af0198a521ab1b235">discreteMeanCurvatures</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:ab2c8fec0db51a12af0198a521ab1b235"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes discrete mean curvature (see discreteMeanCurvature( v )) in the vertices of given region (or in all valid vertices if region is null), and puts 0 in all other vertices Generated from function <span class="tt"><a class="el" href="#ab2c8fec0db51a12af0198a521ab1b235" title="computes discrete mean curvature (see discreteMeanCurvature( v )) in the vertices of given region (or...">MR.discreteMeanCurvatures</a></span>.  <br /></td></tr>
+<tr class="memitem:ac7f67cd5fe7580c049f245847da4e7b8" id="r_ac7f67cd5fe7580c049f245847da4e7b8"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertScalars.html">MR.VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f67cd5fe7580c049f245847da4e7b8">discreteGaussianCurvatures</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? region=null)</td></tr>
+<tr class="memdesc:ac7f67cd5fe7580c049f245847da4e7b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes discrete Gaussian curvature (see discreteGaussianCurvature( v )) in the vertices of given region (or in all valid vertices if region is null), and puts 0 in all other vertices Generated from function <span class="tt"><a class="el" href="#ac7f67cd5fe7580c049f245847da4e7b8" title="computes discrete Gaussian curvature (see discreteGaussianCurvature( v )) in the vertices of given re...">MR.discreteGaussianCurvatures</a></span>.  <br /></td></tr>
 <tr class="memitem:a3bbef3a567e1470aac701e0c36b8d4b8" id="r_a3bbef3a567e1470aac701e0c36b8d4b8"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bbef3a567e1470aac701e0c36b8d4b8">findSharpEdges</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, float minSharpCos, float maxSharpCos)</td></tr>
 <tr class="memdesc:a3bbef3a567e1470aac701e0c36b8d4b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos, maxSharpCos] Generated from function <span class="tt"><a class="el" href="#a3bbef3a567e1470aac701e0c36b8d4b8" title="finds all mesh edges with the cosine of dihedral angle (see dihedralAngleCos) in [minSharpCos,...">MR.findSharpEdges</a></span>.  <br /></td></tr>
 <tr class="memitem:a52092e06f802b6d68a888a9dded3b0d6" id="r_a52092e06f802b6d68a888a9dded3b0d6"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52092e06f802b6d68a888a9dded3b0d6">findCreaseEdges</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, float angleFromPlanar)</td></tr>
@@ -28384,6 +28388,42 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 
 </div>
 </div>
+<a id="ac7f67cd5fe7580c049f245847da4e7b8" name="ac7f67cd5fe7580c049f245847da4e7b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f67cd5fe7580c049f245847da4e7b8">&#9670;&#160;</a></span>discreteGaussianCurvatures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1VertScalars.html">MR.VertScalars</a> MR.discreteGaussianCurvatures </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes discrete Gaussian curvature (see discreteGaussianCurvature( v )) in the vertices of given region (or in all valid vertices if region is null), and puts 0 in all other vertices Generated from function <span class="tt"><a class="el" href="#ac7f67cd5fe7580c049f245847da4e7b8" title="computes discrete Gaussian curvature (see discreteGaussianCurvature( v )) in the vertices of given re...">MR.discreteGaussianCurvatures</a></span>. </p>
+
+</div>
+</div>
 <a id="a5da682fa8aecfbdafd4a0b9606c10dfe" name="a5da682fa8aecfbdafd4a0b9606c10dfe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5da682fa8aecfbdafd4a0b9606c10dfe">&#9670;&#160;</a></span>discreteMeanCurvature() <span class="overload">[1/2]</span></h2>
 
@@ -28453,6 +28493,42 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 </div><div class="memdoc">
 
 <p>computes discrete mean curvature in given vertex, measures in length^-1; 0 for planar regions, positive for convex surface, negative for concave surface Generated from function <span class="tt"><a class="el" href="#af50f100e25f32a6d477aa3ae80889d1b" title="computes discrete mean curvature in given vertex, measures in length^-1; 0 for planar regions,...">MR.discreteMeanCurvature</a></span>. </p>
+
+</div>
+</div>
+<a id="ab2c8fec0db51a12af0198a521ab1b235" name="ab2c8fec0db51a12af0198a521ab1b235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2c8fec0db51a12af0198a521ab1b235">&#9670;&#160;</a></span>discreteMeanCurvatures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1VertScalars.html">MR.VertScalars</a> MR.discreteMeanCurvatures </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes discrete mean curvature (see discreteMeanCurvature( v )) in the vertices of given region (or in all valid vertices if region is null), and puts 0 in all other vertices Generated from function <span class="tt"><a class="el" href="#ab2c8fec0db51a12af0198a521ab1b235" title="computes discrete mean curvature (see discreteMeanCurvature( v )) in the vertices of given region (or...">MR.discreteMeanCurvatures</a></span>. </p>
 
 </div>
 </div>

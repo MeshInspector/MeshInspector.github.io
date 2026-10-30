@@ -1,5 +1,9 @@
 var NAVTREEINDEX100 =
 {
+"classMR_1_1Dipoles.html#a929f5fba424e2b92249d8f6ef8b9d412":[9,3,0,0,0,1166,9],
+"classMR_1_1Dipoles.html#aa9bd6466716062dd04491db11f08a925":[9,3,0,0,0,1166,12],
+"classMR_1_1Dipoles.html#aae4a4f0e4c74aa7fb0a151ce09b74fc4":[9,3,0,0,0,1166,11],
+"classMR_1_1Dipoles.html#aaeb72ff38a76bba93d857876a33cab25":[9,3,0,0,0,1166,15],
 "classMR_1_1Dipoles.html#ab377f6e1a237c0acdaaf59ec68d777a2":[9,3,0,0,0,1166,1],
 "classMR_1_1Dipoles.html#ab9fff43945dbf480b756218004ff2264":[9,3,0,0,0,1166,3],
 "classMR_1_1Dipoles.html#abf2a6245c94958b96c85a6ea614b9292":[9,3,0,0,0,1166,16],
@@ -245,9 +249,5 @@ var NAVTREEINDEX100 =
 "classMR_1_1DoubleOffsetSettings.html#ae98d1e82eb925021d2b35f64848c2d53":[9,3,0,0,0,1182,12],
 "classMR_1_1DracoSaveOptions.html":[9,3,0,0,0,1183],
 "classMR_1_1DracoSaveOptions.html#a04a829ee3c3b47ae696e610ea386f263":[9,3,0,0,0,1183,8],
-"classMR_1_1DracoSaveOptions.html#a366a1a886f247199ed7f0a565767077c":[9,3,0,0,0,1183,14],
-"classMR_1_1DracoSaveOptions.html#a476701de0b3e21f67bf9555fe0ef3349":[9,3,0,0,0,1183,16],
-"classMR_1_1DracoSaveOptions.html#a4899dc079d8e34a32c761e0c9d764e62":[9,3,0,0,0,1183,4],
-"classMR_1_1DracoSaveOptions.html#a4c6ea9cfcb9ea1b04fedad71bca59072":[9,3,0,0,0,1183,10],
-"classMR_1_1DracoSaveOptions.html#a584345627717f488e4abae1e7c49306b":[9,3,0,0,0,1183,7]
+"classMR_1_1DracoSaveOptions.html#a366a1a886f247199ed7f0a565767077c":[9,3,0,0,0,1183,14]
 };

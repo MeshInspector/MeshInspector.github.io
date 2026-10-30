@@ -1,5 +1,9 @@
 var NAVTREEINDEX108 =
 {
+"classmrmeshpy_1_1Vector4i64.html#a1b75433824073cb8aee9ea1ac133cc9f":[9,1,0,0,2,1240,5],
+"classmrmeshpy_1_1Vector4i64.html#a1b75433824073cb8aee9ea1ac133cc9f":[9,1,0,0,2,1240,6],
+"classmrmeshpy_1_1Vector4i64.html#a1b75433824073cb8aee9ea1ac133cc9f":[9,1,1,0,1,1240,5],
+"classmrmeshpy_1_1Vector4i64.html#a1b75433824073cb8aee9ea1ac133cc9f":[9,1,1,0,1,1240,6],
 "classmrmeshpy_1_1Vector4i64.html#a2016fa019bf6f5655d71de2e40ac842e":[9,1,0,0,2,1240,12],
 "classmrmeshpy_1_1Vector4i64.html#a2016fa019bf6f5655d71de2e40ac842e":[9,1,1,0,1,1240,12],
 "classmrmeshpy_1_1Vector4i64.html#a42fa405bffc8e406ad340e8ad1b18700":[9,1,0,0,2,1240,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX108 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a5742dba9601f7e073327d6249868a57c":[9,1,0,0,2,1243,20],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a5742dba9601f7e073327d6249868a57c":[9,1,0,0,2,1243,21],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a5742dba9601f7e073327d6249868a57c":[9,1,1,0,1,1243,20],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a5742dba9601f7e073327d6249868a57c":[9,1,1,0,1,1243,21],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a579a2426713ef911b9641ca57a8e2773":[9,1,0,0,2,1243,3],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a579a2426713ef911b9641ca57a8e2773":[9,1,1,0,1,1243,3],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a5b2c0d6392f4496be75fe7eb8eaa606b":[9,1,0,0,2,1243,39],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a5b2c0d6392f4496be75fe7eb8eaa606b":[9,1,1,0,1,1243,39]
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a5742dba9601f7e073327d6249868a57c":[9,1,1,0,1,1243,21]
 };

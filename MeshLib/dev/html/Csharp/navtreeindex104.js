@@ -1,5 +1,9 @@
 var NAVTREEINDEX104 =
 {
+"classMR_1_1Features_1_1Const__MeasureResult_1_1Angle.html#a3793064b7f44fe7ad9b39bb2fca9d8fb":[9,3,0,0,0,1229,0,0,11],
+"classMR_1_1Features_1_1Const__MeasureResult_1_1Angle.html#a43bfee79ca1304e9314edf71b8953a77":[9,3,0,0,0,1229,0,0,7],
+"classMR_1_1Features_1_1Const__MeasureResult_1_1Angle.html#a457ac062143c9a61f367d6a3d37bf77b":[9,3,0,0,0,1229,0,0,1],
+"classMR_1_1Features_1_1Const__MeasureResult_1_1Angle.html#a5d1ebb0eb36af884e499b2866f01b28c":[9,3,0,0,0,1229,0,0,5],
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Angle.html#a65d237e0af9fba07328fc11a78110912":[9,3,0,0,0,1229,0,0,8],
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Angle.html#a6d3c8a3d4d121e3a7be4bdb8db727b48":[9,3,0,0,0,1229,0,0,3],
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Angle.html#a867a2f9be2ef7b98d856cb36f778b599":[9,3,0,0,0,1229,0,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX104 =
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#a17798037592d9c5d77702b7c3014524a":[9,3,0,0,0,1229,5,9,3],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#a21e10db2a0c0e0a67dae4b03763a7dfa":[9,3,0,0,0,1229,5,9,5],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#a55b0e622f466d65d03f682d24800f7ca":[9,3,0,0,0,1229,5,9,2],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#a88960e1c768968c518491d6647c186cd":[9,3,0,0,0,1229,5,9,0],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#ab206bbf26c06fcda0741c1b8c0b7d23e":[9,3,0,0,0,1229,5,9,1],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#ace49c2a29737796e9bb1dfd2cdaeec0e":[9,3,0,0,0,1229,5,9,4],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html":[9,3,0,0,0,1229,5,10],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html#a01d9a8dc470d72327710593dd9722728":[9,3,0,0,0,1229,5,10,2]
+"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html#a88960e1c768968c518491d6647c186cd":[9,3,0,0,0,1229,5,9,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1Const__EdgePoint.html":[9,3,0,0,0,427],
+"classMR_1_1Const__EdgePoint.html#a03993a04be1f5c19b9ddb5b92f21c5b3":[9,3,0,0,0,427,14],
 "classMR_1_1Const__EdgePoint.html#a09cf280366bfdb166fa7fcfa970b6281":[9,3,0,0,0,427,13],
 "classMR_1_1Const__EdgePoint.html#a15c2e101e9b3c2ba1d019f4a355b956e":[9,3,0,0,0,427,17],
 "classMR_1_1Const__EdgePoint.html#a1910719d541cd9f76905c4f5a6fd8b20":[9,3,0,0,0,427,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1Const__EnumNeihbourFaces.html#a8802cdc4c4264d6adbffe5cfffe8703d":[9,3,0,0,0,439,5],
 "classMR_1_1Const__EnumNeihbourFaces.html#a9b6e22f0d7fa08d8547a5b0c79c77d3c":[9,3,0,0,0,439,1],
 "classMR_1_1Const__EnumNeihbourVertices.html":[9,3,0,0,0,440],
-"classMR_1_1Const__EnumNeihbourVertices.html#a052d302537293840c04b22dc93abedf8":[9,3,0,0,0,440,5],
-"classMR_1_1Const__EnumNeihbourVertices.html#a23ce8ad75be1c15a5c8750aec9fa6c78":[9,3,0,0,0,440,4],
-"classMR_1_1Const__EnumNeihbourVertices.html#a2b448a5762bff7a92fde5e8235797ab0":[9,3,0,0,0,440,3]
+"classMR_1_1Const__EnumNeihbourVertices.html#a052d302537293840c04b22dc93abedf8":[9,3,0,0,0,440,5]
 };
