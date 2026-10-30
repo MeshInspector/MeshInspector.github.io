@@ -5787,7 +5787,8 @@ var group__GeneralGroup =
     [ "MR::FileDialog::Parameters", "structMR_1_1FileDialog_1_1Parameters.html", [
       [ "folderDialog", "group__GeneralGroup.html#gacb4f09069a5538c14fe2e0553c3569d1", null ],
       [ "multiselect", "group__GeneralGroup.html#ga3b16808165abc1930db418e488d58225", null ],
-      [ "saveDialog", "group__GeneralGroup.html#ga5957d3b8f636e18b3629def114de4b46", null ]
+      [ "saveDialog", "group__GeneralGroup.html#ga5957d3b8f636e18b3629def114de4b46", null ],
+      [ "showFiles", "group__GeneralGroup.html#ga5e298180f00c273b96947335fc2eba87", null ]
     ] ],
     [ "MR::FileLoadOptions", "structMR_1_1FileLoadOptions.html", [
       [ "ReplaceMode", "group__GeneralGroup.html#ga4febf8fb2b21426b895c77148a5ed6f4", [
@@ -14490,8 +14491,8 @@ var group__GeneralGroup =
     [ "MR::openFilesDialog", "group__GeneralGroup.html#ga4a71ebb12610742b8bef66999fca5500", null ],
     [ "MR::openFilesDialogAsync", "group__GeneralGroup.html#ga607858b01e8fd9f8d1cbe5429f4a1f49", null ],
     [ "MR::OpenFilesMenuItem::OpenFilesMenuItem", "group__GeneralGroup.html#ga730daf0dedd17ae6cb20e34f341cfb95", null ],
-    [ "MR::openFolderDialog", "group__GeneralGroup.html#ga95c6167df877c265446f7c26b584ed31", null ],
-    [ "MR::openFolderDialogAsync", "group__GeneralGroup.html#ga4f7e73ac0c175a78e45cd70fcc8237d1", null ],
+    [ "MR::openFolderDialog", "group__GeneralGroup.html#gac825014f4a1d52c1a1db989002edb4a7", null ],
+    [ "MR::openFolderDialogAsync", "group__GeneralGroup.html#ga8d7f3bd87554cb384057228f15735528", null ],
     [ "MR::openFoldersDialog", "group__GeneralGroup.html#ga02193289ba5ccdb5cc2c958ce4bdc8ab", null ],
     [ "MR::OpenLink", "group__GeneralGroup.html#ga158ae72accbf24b3df150e984451ef38", null ],
     [ "MR::OpenRawVoxelsPlugin::OpenRawVoxelsPlugin", "group__GeneralGroup.html#ga579c7536deedc6bdbd3cb924c92b968e", null ],
@@ -18732,6 +18733,7 @@ var group__GeneralGroup =
     [ "MR::ObjectMeshHolder::showEdges_", "group__GeneralGroup.html#ga2d4ce0acba3551b05cd666448ac281ea", null ],
     [ "MR::ImGuiMenu::showEditTag_", "group__GeneralGroup.html#gaf0b38f50d2a1f161806e3cdca4a7846c", null ],
     [ "MR::ObjectMeshHolder::showFaces_", "group__GeneralGroup.html#gad7aa672bc4e05315f4c4ce221052f19e", null ],
+    [ "MR::FileDialog::Parameters::showFiles", "group__GeneralGroup.html#ga5e298180f00c273b96947335fc2eba87", null ],
     [ "MR::ImGuiMenu::showInfoModal_", "group__GeneralGroup.html#ga9d77cd28320ae4333fc7e5b9c5a4d38b", null ],
     [ "MR::LaunchParams::showMRVersionInTitle", "group__GeneralGroup.html#ga8a3dd1d7fa354ff72a92220cc87229a5", null ],
     [ "MR::SceneObjectsListDrawer::showNewSelectedObjects_", "group__GeneralGroup.html#gacead207f8ba93a8da9b77fd9d23770fc", null ],

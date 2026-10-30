@@ -9146,8 +9146,8 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga134fbce7bbcc0698a8912394c476d829" id="r_ga134fbce7bbcc0698a8912394c476d829"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga134fbce7bbcc0698a8912394c476d829">MR::openFileDialogAsync</a> (std::function&lt; void(const std::filesystem::path &amp;)&gt; callback, const <a class="el" href="structMR_1_1FileParameters.html">FileParameters</a> &amp;params={})</td></tr>
 <tr class="memitem:ga4a71ebb12610742b8bef66999fca5500" id="r_ga4a71ebb12610742b8bef66999fca5500"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4a71ebb12610742b8bef66999fca5500">MR::openFilesDialog</a> (const <a class="el" href="structMR_1_1FileParameters.html">FileParameters</a> &amp;params={})</td></tr>
 <tr class="memitem:ga607858b01e8fd9f8d1cbe5429f4a1f49" id="r_ga607858b01e8fd9f8d1cbe5429f4a1f49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga607858b01e8fd9f8d1cbe5429f4a1f49">MR::openFilesDialogAsync</a> (std::function&lt; void(const std::vector&lt; std::filesystem::path &gt; &amp;)&gt; callback, const <a class="el" href="structMR_1_1FileParameters.html">FileParameters</a> &amp;params={})</td></tr>
-<tr class="memitem:ga95c6167df877c265446f7c26b584ed31" id="r_ga95c6167df877c265446f7c26b584ed31"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga95c6167df877c265446f7c26b584ed31">MR::openFolderDialog</a> (std::filesystem::path baseFolder={})</td></tr>
-<tr class="memitem:ga4f7e73ac0c175a78e45cd70fcc8237d1" id="r_ga4f7e73ac0c175a78e45cd70fcc8237d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4f7e73ac0c175a78e45cd70fcc8237d1">MR::openFolderDialogAsync</a> (std::function&lt; void(const std::filesystem::path &amp;)&gt; callback, std::filesystem::path baseFolder={})</td></tr>
+<tr class="memitem:gac825014f4a1d52c1a1db989002edb4a7" id="r_gac825014f4a1d52c1a1db989002edb4a7"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac825014f4a1d52c1a1db989002edb4a7">MR::openFolderDialog</a> (std::filesystem::path baseFolder={}, bool showFiles=false)</td></tr>
+<tr class="memitem:ga8d7f3bd87554cb384057228f15735528" id="r_ga8d7f3bd87554cb384057228f15735528"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8d7f3bd87554cb384057228f15735528">MR::openFolderDialogAsync</a> (std::function&lt; void(const std::filesystem::path &amp;)&gt; callback, std::filesystem::path baseFolder={}, bool showFiles=false)</td></tr>
 <tr class="memitem:ga02193289ba5ccdb5cc2c958ce4bdc8ab" id="r_ga02193289ba5ccdb5cc2c958ce4bdc8ab"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::filesystem::path &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga02193289ba5ccdb5cc2c958ce4bdc8ab">MR::openFoldersDialog</a> (std::filesystem::path baseFolder={})</td></tr>
 <tr class="memitem:ga11a8e1d4c39111b3c9ad8563de97ad2a" id="r_ga11a8e1d4c39111b3c9ad8563de97ad2a"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga11a8e1d4c39111b3c9ad8563de97ad2a">MR::saveFileDialog</a> (const <a class="el" href="structMR_1_1FileParameters.html">FileParameters</a> &amp;params={})</td></tr>
 <tr class="memdesc:ga11a8e1d4c39111b3c9ad8563de97ad2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns empty path on cancel  <br /></td></tr>
@@ -13969,6 +13969,8 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga3b16808165abc1930db418e488d58225"><td class="mdescLeft">&#160;</td><td class="mdescRight">open dialog only  <br /></td></tr>
 <tr class="memitem:ga5957d3b8f636e18b3629def114de4b46" id="r_ga5957d3b8f636e18b3629def114de4b46"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5957d3b8f636e18b3629def114de4b46">MR::FileDialog::Parameters::saveDialog</a> {false}</td></tr>
 <tr class="memdesc:ga5957d3b8f636e18b3629def114de4b46"><td class="mdescLeft">&#160;</td><td class="mdescRight">open dialog only  <br /></td></tr>
+<tr class="memitem:ga5e298180f00c273b96947335fc2eba87" id="r_ga5e298180f00c273b96947335fc2eba87"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5e298180f00c273b96947335fc2eba87">MR::FileDialog::Parameters::showFiles</a> {false}</td></tr>
+<tr class="memdesc:ga5e298180f00c273b96947335fc2eba87"><td class="mdescLeft">&#160;</td><td class="mdescRight">true for save dialog, false for open  <br /></td></tr>
 <tr class="memitem:gac870f86b867d1f462ca29dfd23d4e761" id="r_gac870f86b867d1f462ca29dfd23d4e761"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac870f86b867d1f462ca29dfd23d4e761">MR::FileLoadOptions::undoPrefix</a> = <a class="el" href="MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408">_t</a>( &quot;Open {}&quot; )</td></tr>
 <tr class="memdesc:gac870f86b867d1f462ca29dfd23d4e761"><td class="mdescLeft">&#160;</td><td class="mdescRight">first part of undo name  <br /></td></tr>
 <tr class="memitem:ga5cd3108431699d08603db992a2a923fc" id="r_ga5cd3108431699d08603db992a2a923fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga4febf8fb2b21426b895c77148a5ed6f4">ReplaceMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5cd3108431699d08603db992a2a923fc">MR::FileLoadOptions::replaceMode</a> = <a class="el" href="#gga4febf8fb2b21426b895c77148a5ed6f4a08d1322832298aa56fc96e27b2003820">ReplaceMode::ContructionBased</a></td></tr>
@@ -136447,8 +136449,8 @@ template&lt;typename ... Updates&gt; </div>
 
 </div>
 </div>
-<a id="ga95c6167df877c265446f7c26b584ed31" name="ga95c6167df877c265446f7c26b584ed31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga95c6167df877c265446f7c26b584ed31">&#9670;&#160;</a></span>openFolderDialog()</h2>
+<a id="gac825014f4a1d52c1a1db989002edb4a7" name="gac825014f4a1d52c1a1db989002edb4a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac825014f4a1d52c1a1db989002edb4a7">&#9670;&#160;</a></span>openFolderDialog()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136456,19 +136458,23 @@ template&lt;typename ... Updates&gt; </div>
         <tr>
           <td class="memname">std::filesystem::path MR::openFolderDialog </td>
           <td>(</td>
-          <td class="paramtype">std::filesystem::path</td>          <td class="paramname"><span class="paramname"><em>baseFolder</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
+          <td class="paramtype">std::filesystem::path</td>          <td class="paramname"><span class="paramname"><em>baseFolder</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>showFiles</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRFileDialog_8h.html">MRViewer/MRFileDialog.h</a>&gt;</code></p>
-<p>Select one folder returns empty path on cancel </p>
+<p>Select one folder showFiles: list the files in the folders too, if the system dialog can (on Windows picking a file selects its folder) returns empty path on cancel </p>
 
 </div>
 </div>
-<a id="ga4f7e73ac0c175a78e45cd70fcc8237d1" name="ga4f7e73ac0c175a78e45cd70fcc8237d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4f7e73ac0c175a78e45cd70fcc8237d1">&#9670;&#160;</a></span>openFolderDialogAsync()</h2>
+<a id="ga8d7f3bd87554cb384057228f15735528" name="ga8d7f3bd87554cb384057228f15735528"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8d7f3bd87554cb384057228f15735528">&#9670;&#160;</a></span>openFolderDialogAsync()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136481,7 +136487,12 @@ template&lt;typename ... Updates&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::filesystem::path</td>          <td class="paramname"><span class="paramname"><em>baseFolder</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">std::filesystem::path</td>          <td class="paramname"><span class="paramname"><em>baseFolder</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>showFiles</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -236187,6 +236198,22 @@ template&lt;typename T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5e298180f00c273b96947335fc2eba87" name="ga5e298180f00c273b96947335fc2eba87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5e298180f00c273b96947335fc2eba87">&#9670;&#160;</a></span>showFiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::FileDialog::Parameters::showFiles {false}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>true for save dialog, false for open </p>
 
 </div>
 </div>

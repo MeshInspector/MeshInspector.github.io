@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1detail_1_1PointDegree.html#a0d6f01d8e849c8dcca65b40bd058ea4b":[9,0,2,0,1,1,5,2],
 "structMR_1_1detail_1_1PointDegree.html#a1fc04a51a536e6143d0ebb3d57ad6cb2":[9,0,1,0,1,3,5,0],
 "structMR_1_1detail_1_1PointDegree.html#a1fc04a51a536e6143d0ebb3d57ad6cb2":[9,0,2,0,1,1,5,0],
 "structMR_1_1detail_1_1PointDegree.html#acaf323135f612345c58d160c5625815c":[9,0,1,0,1,3,5,1],
