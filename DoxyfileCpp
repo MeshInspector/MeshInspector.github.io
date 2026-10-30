@@ -12,7 +12,9 @@ EXCLUDE                = ../MeshLib/source/OpenCTM \
                          ../MeshLib/source/MRDotNet* \
                          ../MeshLib/source/MRMeshC \
                          ../MeshLib/source/MeshLibC2 \
-                         ../MeshLib/source/MRViewer/MRGladGlfw.h
+                         ../MeshLib/source/MRViewer/MRGladGlfw.h \
+                         ../MeshLib/source/MRMesh/MRCanonicalTypedefs.h \
+                         ../MeshLib/source/MRMesh/MRFormat.h
 EXCLUDE_PATTERNS       = imgui* \
                          MRPch* \
                          exports.h \
@@ -21,8 +23,28 @@ EXCLUDE_PATTERNS       = imgui* \
 ENABLE_PREPROCESSING   = YES
 MACRO_EXPANSION        = YES
 EXPAND_ONLY_PREDEF     = YES
-PREDEFINED             = MR_BIND_PREFERRED_NAME MR_CANONICAL_TYPEDEFS MRMESH_API MRSYMBOLMESH_API MRVIEWER_API MRIOEXTRAS_API MRVOXELS_API
+PREDEFINED             = MR_CANONICAL_TYPEDEFS \
+                         "MR_BIND_PREFERRED_NAME(...)=" \
+                         "MR_BIND_OVERLOAD_SUFFIX(...)=" \
+                         "MR_REQUIRES_IF_SUPPORTED(...)=" \
+                         MR_BIND_IGNORE= \
+                         MR_BIND_IGNORE_PY= \
+                         MR_BIND_PREFER_UNLOCK_GIL_WHEN_USED_AS_PARAM= \
+                         MR_LIFETIMEBOUND= \
+                         MR_LIFETIMEBOUND_NESTED= \
+                         MR_NO_UNIQUE_ADDRESS= \
+                         MRCOMMONPLUGINS_API= MRCOMMONPLUGINS_CLASS= \
+                         MRCUDA_API= MRCUDA_CLASS= \
+                         MREMBEDDEDPYTHON_API= MREMBEDDEDPYTHON_CLASS= \
+                         MRIOEXTRAS_API= MRIOEXTRAS_CLASS= \
+                         MRMCP_API= MRMCP_CLASS= \
+                         MRMESH_API= MRMESH_CLASS= \
+                         MRPYTHON_API= MRPYTHON_CLASS= \
+                         MRSYMBOLMESH_API= MRSYMBOLMESH_CLASS= \
+                         MRVIEWER_API= MRVIEWER_CLASS= \
+                         MRVOXELS_API= MRVOXELS_CLASS=
 SKIP_FUNCTION_MACROS   = YES
+EXAMPLE_PATH           = ../MeshLib/examples
 EXCLUDE_SYMBOLS        = Json std
 HTML_OUTPUT            = html/Cpp
 FULL_PATH_NAMES        = YES # need add STRIP_FROM_INC_PATH and STRIP_FROM_PATH

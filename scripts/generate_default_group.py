@@ -20,6 +20,7 @@ def process_file(filename):
     #print(f"Procces file '{filename}' ...")
     flag_close_ingroup = False
     flag_skip_line = False
+    flag_group_added = False
     new_lines = []
     
     for line in lines:
@@ -42,9 +43,11 @@ def process_file(filename):
         current_line = lines[i].strip()
         next_line = lines[i + 1].strip()
         
-        if current_line == "namespace MR" and next_line == "{":
+        # only the first `namespace MR` opens the group: doxygen refuses to nest it into itself
+        if current_line == "namespace MR" and next_line == "{" and not flag_group_added:
             new_lines.append(lines[i + 1])
             flag_skip_line = True
+            flag_group_added = True
 
             new_lines.append("/// \\addtogroup GeneralGroup\n")
             new_lines.append("/// \\{\n\n")
