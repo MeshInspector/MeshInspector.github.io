@@ -1,6 +1,8 @@
 #!/bin/bash
 
 CHECK_WARNINGS=true
+# CHECK_ONLY=true (environment): the pull-request check of MeshLib, which fails on any doxygen
+# warning and skips the post-processing of the published site
 
 if [ $# -lt 1 ]; then
     echo "[INFO] Target directory is not specified. Used \"MeshLib/local\""
@@ -59,8 +61,16 @@ clear_log_files() {
 
 generate_documentation_simple() {
     echo "4.generate_documentation_simple"
-    # final generation of documentation
+    # Main goes last: its guides \ref the C++ API through the tag file of the Cpp module
+    ORDERED_MODULES=()
     for MODULE in ${MODULES[*]}
+    do
+        [ "$MODULE" != "Main" ] && ORDERED_MODULES+=("$MODULE")
+    done
+    [[ " ${MODULES[*]} " == *" Main "* ]] && ORDERED_MODULES+=(Main)
+    CPP_TAG=""
+    # final generation of documentation
+    for MODULE in ${ORDERED_MODULES[*]}
     do
         cp Doxyfile${MODULE} Doxyfile${MODULE}Tag
         if [ "$MODULE" != "Main" ]; then
@@ -70,6 +80,11 @@ generate_documentation_simple() {
         if [ "$MODULE" = "Cpp" ]; then
             echo "STRIP_FROM_INC_PATH = $(realpath ../MeshLib/source)" >> Doxyfile${MODULE}Tag
             echo "STRIP_FROM_PATH = $(realpath ../MeshLib/source)" >> Doxyfile${MODULE}Tag
+            CPP_TAG=MeshLib/MeshLibCpp.tag
+            echo "GENERATE_TAGFILE = ${CPP_TAG}" >> Doxyfile${MODULE}Tag
+        fi
+        if [ "$MODULE" = "Main" ] && [ -n "$CPP_TAG" ]; then
+            echo "TAGFILES = ${CPP_TAG}=./Cpp/" >> Doxyfile${MODULE}Tag
         fi
         echo "========== ${MODULE}" >> log.txt
         echo "========== ${MODULE}" >> log_error.txt
@@ -85,6 +100,13 @@ generate_documentation_simple() {
     if [ "$CHECK_WARNINGS" = true ] && grep -q "^warning: " log_error.txt; then
         cat log_error.txt
         echo "ERROR: documentation generation error 2"
+        return 1
+    fi
+
+    # CHECK_ONLY: any doxygen warning fails, except the ones doxygen gives on reading the tag file
+    if [ "$CHECK_ONLY" = true ] && grep "warning: \|error: " log_error.txt | grep -qv "\.tag:[0-9]*: warning: "; then
+        grep "warning: \|error: " log_error.txt | grep -v "\.tag:[0-9]*: warning: "
+        echo "ERROR: doxygen warnings"
         return 1
     fi
 }
@@ -222,6 +244,9 @@ exit_code=$?
 remove_and_restore_files
 if [[ $exit_code -ne 0 ]]; then
     exit $exit_code
+fi
+if [ "$CHECK_ONLY" = true ]; then
+    exit 0
 fi
 post_processing
 show_statistics
