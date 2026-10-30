@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CHECK_WARNINGS=true
-# CHECK_ONLY=true (environment): the pull-request check of MeshLib, which fails on any doxygen
+# FAIL_ON_WARNINGS=true (environment): the pull-request check of MeshLib, which fails on any doxygen
 # warning and skips the post-processing of the published site
 
 if [ $# -lt 1 ]; then
@@ -103,8 +103,8 @@ generate_documentation_simple() {
         return 1
     fi
 
-    # CHECK_ONLY: any doxygen warning fails, except the ones doxygen gives on reading the tag file
-    if [ "$CHECK_ONLY" = true ] && grep "warning: \|error: " log_error.txt | grep -qv "\.tag:[0-9]*: warning: "; then
+    # FAIL_ON_WARNINGS: any doxygen warning fails, except the ones doxygen gives on reading the tag file
+    if [ "$FAIL_ON_WARNINGS" = true ] && grep "warning: \|error: " log_error.txt | grep -qv "\.tag:[0-9]*: warning: "; then
         grep "warning: \|error: " log_error.txt | grep -v "\.tag:[0-9]*: warning: "
         echo "ERROR: doxygen warnings"
         return 1
@@ -245,7 +245,7 @@ remove_and_restore_files
 if [[ $exit_code -ne 0 ]]; then
     exit $exit_code
 fi
-if [ "$CHECK_ONLY" = true ]; then
+if [ "$FAIL_ON_WARNINGS" = true ]; then
     exit 0
 fi
 post_processing
