@@ -864,6 +864,7 @@ var hierarchy =
     [ "mrmeshpy.ObjectSave", "classmrmeshpy_1_1ObjectSave.html", null ],
     [ "mrmeshpy.ObjectSelectivityType", "classmrmeshpy_1_1ObjectSelectivityType.html", null ],
     [ "mrmeshpy.ObjectTagEventDispatcher", "classmrmeshpy_1_1ObjectTagEventDispatcher.html", null ],
+    [ "mrmeshpy.ObjFaceId", "classmrmeshpy_1_1ObjFaceId.html", null ],
     [ "mrmeshpy.ObjId", "classmrmeshpy_1_1ObjId.html", [
       [ "mrmeshpy.NoDefInit_ObjId", "classmrmeshpy_1_1NoDefInit__ObjId.html", null ]
     ] ],
@@ -1274,6 +1275,7 @@ var hierarchy =
     [ "mrmeshpy.std_vector_Nesting_BoxNestingCorner", "classmrmeshpy_1_1std__vector__Nesting__BoxNestingCorner.html", null ],
     [ "mrmeshpy.std_vector_Nesting_MeshXf_Allocator_Nesting_MeshXf", "classmrmeshpy_1_1std__vector__Nesting__MeshXf__Allocator__Nesting__MeshXf.html", null ],
     [ "mrmeshpy.std_vector_Nesting_NestingResult_Allocator_Nesting_NestingResult", "classmrmeshpy_1_1std__vector__Nesting__NestingResult__Allocator__Nesting__NestingResult.html", null ],
+    [ "mrmeshpy.std_vector_ObjFaceId_Allocator_ObjFaceId", "classmrmeshpy_1_1std__vector__ObjFaceId__Allocator__ObjFaceId.html", null ],
     [ "mrmeshpy.std_vector_ObjVertId", "classmrmeshpy_1_1std__vector__ObjVertId.html", null ],
     [ "mrmeshpy.std_vector_OffsetContoursOrigins", "classmrmeshpy_1_1std__vector__OffsetContoursOrigins.html", null ],
     [ "mrmeshpy.std_vector_OneMeshContour_Allocator_OneMeshContour", "classmrmeshpy_1_1std__vector__OneMeshContour__Allocator__OneMeshContour.html", null ],
@@ -1544,6 +1546,7 @@ var hierarchy =
     [ "mrmeshpy.Vector_Nesting_MeshXf_ObjId", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html", null ],
     [ "mrmeshpy.Vector_Nesting_NestingResult_ObjId", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html", null ],
     [ "mrmeshpy.Vector_NodeId_NodeId", "classmrmeshpy_1_1Vector__NodeId__NodeId.html", null ],
+    [ "mrmeshpy.Vector_ObjFaceId_FaceId", "classmrmeshpy_1_1Vector__ObjFaceId__FaceId.html", null ],
     [ "mrmeshpy.Vector_ObjId_VoxelId", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html", null ],
     [ "mrmeshpy.Vector_OneMeshContour", "classmrmeshpy_1_1Vector__OneMeshContour.html", null ],
     [ "mrmeshpy.Vector_OneMeshIntersection", "classmrmeshpy_1_1Vector__OneMeshIntersection.html", null ],

@@ -794,6 +794,7 @@ var annotated_dup =
       [ "ObjectTagEventDispatcher", "classMR_1_1ObjectTagEventDispatcher.html", "classMR_1_1ObjectTagEventDispatcher" ],
       [ "ObjectTransformWidget", "classMR_1_1ObjectTransformWidget.html", "classMR_1_1ObjectTransformWidget" ],
       [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html", "classMR_1_1ObjectVoxels" ],
+      [ "ObjFaceId", "structMR_1_1ObjFaceId.html", "structMR_1_1ObjFaceId" ],
       [ "ObjKindTraits", "structMR_1_1ObjKindTraits.html", null ],
       [ "ObjKindTraits< FeaturesObjectKind::Circle >", "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html", "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4" ],
       [ "ObjKindTraits< FeaturesObjectKind::Cone >", "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html", "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4" ],

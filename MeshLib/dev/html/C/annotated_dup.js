@@ -41,6 +41,7 @@ var annotated_dup =
     [ "MR_Matrix4i", "structMR__Matrix4i.html", "structMR__Matrix4i" ],
     [ "MR_Matrix4i64", "structMR__Matrix4i64.html", "structMR__Matrix4i64" ],
     [ "MR_NodeId", "structMR__NodeId.html", "structMR__NodeId" ],
+    [ "MR_ObjFaceId", "structMR__ObjFaceId.html", "structMR__ObjFaceId" ],
     [ "MR_ObjId", "structMR__ObjId.html", "structMR__ObjId" ],
     [ "MR_ObjVertId", "structMR__ObjVertId.html", "structMR__ObjVertId" ],
     [ "MR_PixelId", "structMR__PixelId.html", "structMR__PixelId" ],

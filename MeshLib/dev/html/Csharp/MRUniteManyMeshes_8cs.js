@@ -1,6 +1,9 @@
 var MRUniteManyMeshes_8cs =
 [
     [ "MR", "classMR.html", "classMR" ],
+    [ "MR.ConstBox_ObjFaceId", "classMR_1_1ConstBox__ObjFaceId.html", "classMR_1_1ConstBox__ObjFaceId" ],
+    [ "MR.Box_ObjFaceId", "classMR_1_1Box__ObjFaceId.html", "classMR_1_1Box__ObjFaceId" ],
+    [ "MR.ObjFaceId", "structMR_1_1ObjFaceId.html", "structMR_1_1ObjFaceId" ],
     [ "MR.Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html", "classMR_1_1Const__UniteManyMeshesParams" ],
     [ "MR.UniteManyMeshesParams", "classMR_1_1UniteManyMeshesParams.html", "classMR_1_1UniteManyMeshesParams" ],
     [ "MR.Const_UniteMeshNormalizationParams", "classMR_1_1Const__UniteMeshNormalizationParams.html", "classMR_1_1Const__UniteMeshNormalizationParams" ],

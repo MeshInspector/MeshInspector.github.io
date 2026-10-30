@@ -1,5 +1,10 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType.html":[9,0,0,19,361],
+"structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType_3_01T_3_01U_01_4_01_4.html":[9,0,0,19,362],
+"structMR_1_1detail_1_1MakeScopeGuard.html":[9,0,1,0,1,3,3],
+"structMR_1_1detail_1_1MakeScopeGuard.html":[9,0,2,0,1,1,3],
+"structMR_1_1detail_1_1MakeScopeGuard.html#a7d35fb7fc3a07cf2ff15168afa6381a0":[9,0,1,0,1,3,3,0],
 "structMR_1_1detail_1_1MakeScopeGuard.html#a7d35fb7fc3a07cf2ff15168afa6381a0":[9,0,2,0,1,1,3,0],
 "structMR_1_1detail_1_1PointDegree.html":[9,0,1,0,1,3,5],
 "structMR_1_1detail_1_1PointDegree.html":[9,0,2,0,1,1,5],
@@ -9,7 +14,7 @@ var NAVTREEINDEX72 =
 "structMR_1_1detail_1_1PointDegree.html#a1fc04a51a536e6143d0ebb3d57ad6cb2":[9,0,2,0,1,1,5,0],
 "structMR_1_1detail_1_1PointDegree.html#acaf323135f612345c58d160c5625815c":[9,0,1,0,1,3,5,1],
 "structMR_1_1detail_1_1PointDegree.html#acaf323135f612345c58d160c5625815c":[9,0,2,0,1,1,5,1],
-"structMR_1_1detail_1_1Units_1_1Empty.html":[9,0,0,19,785],
+"structMR_1_1detail_1_1Units_1_1Empty.html":[9,0,0,19,786],
 "structMR_1_1overloaded.html":[9,0,0,19,374],
 "structWasm_1_1TypedArrayName.html":[9,0,1,0,3,0],
 "structWasm_1_1TypedArrayName.html":[9,0,2,0,2,0],

@@ -1,12 +1,13 @@
 var classMR_1_1Const__UniteManyMeshesParams =
 [
     [ "Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html#aeb04f4a9ec91884a25843d695207f939", null ],
-    [ "Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html#a069cfc5baf1b970780958627e44db109", null ],
+    [ "Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html#aa96a426c647afe4851865e50b7784a08", null ],
     [ "Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html#a46f685622e92b418a8de1ebc992b2674", null ],
     [ "Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html#a4c4e7eca5a20f0726a086c67cb62960c", null ],
     [ "Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html#a5e79e9ffdc2717cae983cf79342de836", null ],
     [ "Dispose", "classMR_1_1Const__UniteManyMeshesParams.html#a09ac4d62dbab072ef3859e9aa327c027", null ],
     [ "Dispose", "classMR_1_1Const__UniteManyMeshesParams.html#ad891d9608ff772c04836d07308ae595a", null ],
+    [ "__ptr_storage_new2oldFaces", "classMR_1_1Const__UniteManyMeshesParams.html#ad4bc8abd25dfa4b6375a7698627da8c4", null ],
     [ "__ptr_storage_newFaces", "classMR_1_1Const__UniteManyMeshesParams.html#a07f463e3bd498825e7e085c3e509adfd", null ],
     [ "__ref_storage_fixDegenerations", "classMR_1_1Const__UniteManyMeshesParams.html#a5dd009648f7cbde220f04ce7e23de783", null ],
     [ "__ref_storage_forceCut", "classMR_1_1Const__UniteManyMeshesParams.html#a8a079d436ca9f77ba324b9262fba86e2", null ],
@@ -20,6 +21,7 @@ var classMR_1_1Const__UniteManyMeshesParams =
     [ "maxAllowedError", "classMR_1_1Const__UniteManyMeshesParams.html#a3393d58ab8011082aae3f30bc5d45e30", null ],
     [ "mergeOnFail", "classMR_1_1Const__UniteManyMeshesParams.html#ac220ec9205e963f9e0c1e28249c27258", null ],
     [ "nestedComponentsMode", "classMR_1_1Const__UniteManyMeshesParams.html#abc86408ba1c2877ee5b20e1bfbd02975", null ],
+    [ "new2oldFaces", "classMR_1_1Const__UniteManyMeshesParams.html#a6916102eeb2498f7dc2c1eb796d47307", null ],
     [ "newFaces", "classMR_1_1Const__UniteManyMeshesParams.html#a54f98da4e58484ae92f3e868d44f2710", null ],
     [ "progressCb", "classMR_1_1Const__UniteManyMeshesParams.html#ac78854df37330379d583425723718dca", null ],
     [ "randomShiftsSeed", "classMR_1_1Const__UniteManyMeshesParams.html#aef0a0193251101e74dee6f9c1da4e184", null ],

@@ -1,7 +1,7 @@
 var classMR_1_1UniteManyMeshesParams =
 [
     [ "UniteManyMeshesParams", "classMR_1_1UniteManyMeshesParams.html#afa81deffca82f58a806d5086eb3d60f8", null ],
-    [ "UniteManyMeshesParams", "classMR_1_1UniteManyMeshesParams.html#aff34c9d84cdf0fc2cfff7f6e1b2ba3ae", null ],
+    [ "UniteManyMeshesParams", "classMR_1_1UniteManyMeshesParams.html#af5e96f349931cc2a338e1d23201f3770", null ],
     [ "UniteManyMeshesParams", "classMR_1_1UniteManyMeshesParams.html#aa12e1ae1c6766e3f88a784b07c049492", null ],
     [ "UniteManyMeshesParams", "classMR_1_1UniteManyMeshesParams.html#ae00a3f9f613a35c9b53418babe9a5143", null ],
     [ "UniteManyMeshesParams", "classMR_1_1UniteManyMeshesParams.html#a4541155fa6132f2952efff306bb3f84f", null ],
@@ -11,6 +11,7 @@ var classMR_1_1UniteManyMeshesParams =
     [ "maxAllowedError", "classMR_1_1UniteManyMeshesParams.html#a8a91c6fcf487572f2193c3c107618ec6", null ],
     [ "mergeOnFail", "classMR_1_1UniteManyMeshesParams.html#ae93092130f5b30c67d6c629d540f154c", null ],
     [ "nestedComponentsMode", "classMR_1_1UniteManyMeshesParams.html#a2014be6b9bf8e2fbe8b405a0d483379f", null ],
+    [ "new2oldFaces", "classMR_1_1UniteManyMeshesParams.html#aa5a21711a0f51b6947e382fed0b7667c", null ],
     [ "newFaces", "classMR_1_1UniteManyMeshesParams.html#a61c647b6c2129970cc1cda7c7aae6c60", null ],
     [ "progressCb", "classMR_1_1UniteManyMeshesParams.html#a889b5c11505f7b0c1df647f60880b9f9", null ],
     [ "randomShiftsSeed", "classMR_1_1UniteManyMeshesParams.html#a668909b2d53ed0fad4957214adb83e45", null ],

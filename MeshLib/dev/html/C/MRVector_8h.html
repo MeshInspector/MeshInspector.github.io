@@ -139,6 +139,7 @@ $(function(){initNavTree('MRVector_8h.html','',''); });
 <div class="textblock"><code>#include &lt;<a class="el" href="MRAffineXf_8h_source.html">MRCMesh/MRAffineXf.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRColor_8h_source.html">MRCMesh/MRColor.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRUniteManyMeshes_8h_source.html">MRCMesh/MRUniteManyMeshes.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRVector2_8h_source.html">MRCMesh/MRVector2.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
@@ -182,6 +183,7 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a80210f815755db9619d3e6a877b53d7c" id="r_a80210f815755db9619d3e6a877b53d7c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a80210f815755db9619d3e6a877b53d7c">MR_std_vector_MR_Nesting_MeshXf_MR_Allocator_MR_Nesting_MeshXf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80210f815755db9619d3e6a877b53d7c">MR_std_vector_MR_Nesting_MeshXf_MR_Allocator_MR_Nesting_MeshXf</a></td></tr>
 <tr class="memitem:aa08454e33197ed4a14f19761dac42129" id="r_aa08454e33197ed4a14f19761dac42129"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa08454e33197ed4a14f19761dac42129">MR_std_vector_MR_Nesting_NestingResult_MR_Allocator_MR_Nesting_NestingResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa08454e33197ed4a14f19761dac42129">MR_std_vector_MR_Nesting_NestingResult_MR_Allocator_MR_Nesting_NestingResult</a></td></tr>
 <tr class="memitem:a18cf422dd10318aa965b30b761162a53" id="r_a18cf422dd10318aa965b30b761162a53"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a18cf422dd10318aa965b30b761162a53">MR_std_vector_MR_NodeId_MR_Allocator_MR_NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18cf422dd10318aa965b30b761162a53">MR_std_vector_MR_NodeId_MR_Allocator_MR_NodeId</a></td></tr>
+<tr class="memitem:acfbc55cb25e9f1b44128f679bbdb341c" id="r_acfbc55cb25e9f1b44128f679bbdb341c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#acfbc55cb25e9f1b44128f679bbdb341c">MR_std_vector_MR_ObjFaceId_MR_Allocator_MR_ObjFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfbc55cb25e9f1b44128f679bbdb341c">MR_std_vector_MR_ObjFaceId_MR_Allocator_MR_ObjFaceId</a></td></tr>
 <tr class="memitem:a7ef786422d0d9c18ed960992515e252f" id="r_a7ef786422d0d9c18ed960992515e252f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7ef786422d0d9c18ed960992515e252f">MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ef786422d0d9c18ed960992515e252f">MR_std_vector_MR_ObjId_MR_Allocator_MR_ObjId</a></td></tr>
 <tr class="memitem:abfef6783cd337f43eaff02822deb352f" id="r_abfef6783cd337f43eaff02822deb352f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abfef6783cd337f43eaff02822deb352f">MR_std_vector_MR_ObjVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfef6783cd337f43eaff02822deb352f">MR_std_vector_MR_ObjVertId</a></td></tr>
 <tr class="memitem:aaa8733c8bbc7237cf5ff625de5ac6692" id="r_aaa8733c8bbc7237cf5ff625de5ac6692"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aaa8733c8bbc7237cf5ff625de5ac6692">MR_std_vector_MR_OneMeshContour_MR_Allocator_MR_OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa8733c8bbc7237cf5ff625de5ac6692">MR_std_vector_MR_OneMeshContour_MR_Allocator_MR_OneMeshContour</a></td></tr>
@@ -3646,6 +3648,54 @@ Functions</h2></td></tr>
 <tr class="memitem:ae8deb48a936df67ede426b310b3edd88" id="r_ae8deb48a936df67ede426b310b3edd88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8deb48a936df67ede426b310b3edd88">MR_Vector_char_MR_VertId_data</a> (const <a class="el" href="#a8d22a9c2e6c35d860a73c9d165ae88a7">MR_Vector_char_MR_VertId</a> *_this)</td></tr>
 <tr class="memitem:aeb5224433e8a5888eee5ce19c6e2de50" id="r_aeb5224433e8a5888eee5ce19c6e2de50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb5224433e8a5888eee5ce19c6e2de50">MR_Vector_char_MR_VertId_swap</a> (<a class="el" href="#a8d22a9c2e6c35d860a73c9d165ae88a7">MR_Vector_char_MR_VertId</a> *_this, <a class="el" href="#a8d22a9c2e6c35d860a73c9d165ae88a7">MR_Vector_char_MR_VertId</a> *b)</td></tr>
 <tr class="memitem:a9ad9c4f6778ddc4fa64bcf1b91e90b2b" id="r_a9ad9c4f6778ddc4fa64bcf1b91e90b2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ad9c4f6778ddc4fa64bcf1b91e90b2b">MR_Vector_char_MR_VertId_heapBytes</a> (const <a class="el" href="#a8d22a9c2e6c35d860a73c9d165ae88a7">MR_Vector_char_MR_VertId</a> *_this)</td></tr>
+<tr class="memitem:a316b7e58453bcd591368dc3574abe1c8" id="r_a316b7e58453bcd591368dc3574abe1c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acfbc55cb25e9f1b44128f679bbdb341c">MR_std_vector_MR_ObjFaceId_MR_Allocator_MR_ObjFaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a316b7e58453bcd591368dc3574abe1c8">MR_Vector_MR_ObjFaceId_MR_FaceId_Get_vec</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:a8d670d7800d73ee91ece8b15967a8a06" id="r_a8d670d7800d73ee91ece8b15967a8a06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d670d7800d73ee91ece8b15967a8a06">MR_Vector_MR_ObjFaceId_MR_FaceId_Set_vec</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#acfbc55cb25e9f1b44128f679bbdb341c">MR_std_vector_MR_ObjFaceId_MR_Allocator_MR_ObjFaceId</a> *value)</td></tr>
+<tr class="memitem:af18e3adc9094ee785ec96683d1c75bd8" id="r_af18e3adc9094ee785ec96683d1c75bd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acfbc55cb25e9f1b44128f679bbdb341c">MR_std_vector_MR_ObjFaceId_MR_Allocator_MR_ObjFaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af18e3adc9094ee785ec96683d1c75bd8">MR_Vector_MR_ObjFaceId_MR_FaceId_GetMutable_vec</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:a550417a5b8b1ddb85129a0592c6b1e81" id="r_a550417a5b8b1ddb85129a0592c6b1e81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a550417a5b8b1ddb85129a0592c6b1e81">MR_Vector_MR_ObjFaceId_MR_FaceId_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a099d36edfe7a55561ec96c1cf2753cf7" id="r_a099d36edfe7a55561ec96c1cf2753cf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a099d36edfe7a55561ec96c1cf2753cf7">MR_Vector_MR_ObjFaceId_MR_FaceId_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a37e6a18b4ef3987feeeb1d945604e741" id="r_a37e6a18b4ef3987feeeb1d945604e741"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37e6a18b4ef3987feeeb1d945604e741">MR_Vector_MR_ObjFaceId_MR_FaceId_OffsetPtr</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a0651b78122ad104f5882ae18c052f5f4" id="r_a0651b78122ad104f5882ae18c052f5f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0651b78122ad104f5882ae18c052f5f4">MR_Vector_MR_ObjFaceId_MR_FaceId_OffsetMutablePtr</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ae393cb19e4f028186b6053ddf14a84ea" id="r_ae393cb19e4f028186b6053ddf14a84ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae393cb19e4f028186b6053ddf14a84ea">MR_Vector_MR_ObjFaceId_MR_FaceId_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_other)</td></tr>
+<tr class="memitem:ad954d7de9f4c348a90e21fee911b61a4" id="r_ad954d7de9f4c348a90e21fee911b61a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad954d7de9f4c348a90e21fee911b61a4">MR_Vector_MR_ObjFaceId_MR_FaceId_Construct</a> (size_t size)</td></tr>
+<tr class="memitem:a929dc836949b4e9a9da49f879312af43" id="r_a929dc836949b4e9a9da49f879312af43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a929dc836949b4e9a9da49f879312af43">MR_Vector_MR_ObjFaceId_MR_FaceId_Construct_fill</a> (size_t size, const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *val)</td></tr>
+<tr class="memitem:ac9354b665270d6b0f15fb9d52dda2ec5" id="r_ac9354b665270d6b0f15fb9d52dda2ec5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9354b665270d6b0f15fb9d52dda2ec5">MR_Vector_MR_ObjFaceId_MR_FaceId_Destroy</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memdesc:ac9354b665270d6b0f15fb9d52dda2ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a1e9d7f1cbd4745dd57cf5c33f071e7a0" id="r_a1e9d7f1cbd4745dd57cf5c33f071e7a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e9d7f1cbd4745dd57cf5c33f071e7a0">MR_Vector_MR_ObjFaceId_MR_FaceId_DestroyArray</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memdesc:a1e9d7f1cbd4745dd57cf5c33f071e7a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:ac0137f55e777df81eab05046c5664562" id="r_ac0137f55e777df81eab05046c5664562"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0137f55e777df81eab05046c5664562">MR_Vector_MR_ObjFaceId_MR_FaceId_AssignFromAnother</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_other)</td></tr>
+<tr class="memitem:aae0562612e79bd6ffa49f4cbcc534810" id="r_aae0562612e79bd6ffa49f4cbcc534810"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae0562612e79bd6ffa49f4cbcc534810">MR_Vector_MR_ObjFaceId_MR_FaceId_assign</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, size_t count, const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *val)</td></tr>
+<tr class="memitem:a8c49aa851e674c433490611563ba54fe" id="r_a8c49aa851e674c433490611563ba54fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c49aa851e674c433490611563ba54fe">MR_equal_MR_Vector_MR_ObjFaceId_MR_FaceId</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *b)</td></tr>
+<tr class="memitem:ad2c81e29fb4fb490a0d6216327aab909" id="r_ad2c81e29fb4fb490a0d6216327aab909"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2c81e29fb4fb490a0d6216327aab909">MR_not_equal_MR_Vector_MR_ObjFaceId_MR_FaceId</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *b)</td></tr>
+<tr class="memitem:a6329d162736986c298470b535de5c2cf" id="r_a6329d162736986c298470b535de5c2cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6329d162736986c298470b535de5c2cf">MR_Vector_MR_ObjFaceId_MR_FaceId_clear</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:a7fd86a3ac6bbf641b984a31c2a8d4d49" id="r_a7fd86a3ac6bbf641b984a31c2a8d4d49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fd86a3ac6bbf641b984a31c2a8d4d49">MR_Vector_MR_ObjFaceId_MR_FaceId_empty</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:ae9711ce41caed2b1137d12eeb4b25c55" id="r_ae9711ce41caed2b1137d12eeb4b25c55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9711ce41caed2b1137d12eeb4b25c55">MR_Vector_MR_ObjFaceId_MR_FaceId_size</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:a84442a9c80aa3aaf3a7c460fa42c6689" id="r_a84442a9c80aa3aaf3a7c460fa42c6689"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84442a9c80aa3aaf3a7c460fa42c6689">MR_Vector_MR_ObjFaceId_MR_FaceId_max_size</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:a71f8a975b4e29b1e398a4d88694e6aa2" id="r_a71f8a975b4e29b1e398a4d88694e6aa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71f8a975b4e29b1e398a4d88694e6aa2">MR_Vector_MR_ObjFaceId_MR_FaceId_resize_1</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, size_t newSize)</td></tr>
+<tr class="memitem:aa2217b2535a2edb034b1000cc97027fe" id="r_aa2217b2535a2edb034b1000cc97027fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2217b2535a2edb034b1000cc97027fe">MR_Vector_MR_ObjFaceId_MR_FaceId_resize_2</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, size_t newSize, const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *t)</td></tr>
+<tr class="memitem:a1d553071e3fa2d0d011e0367389e4a14" id="r_a1d553071e3fa2d0d011e0367389e4a14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d553071e3fa2d0d011e0367389e4a14">MR_Vector_MR_ObjFaceId_MR_FaceId_capacity</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:a6fa56637e433f4f69f4c7236cc950633" id="r_a6fa56637e433f4f69f4c7236cc950633"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fa56637e433f4f69f4c7236cc950633">MR_Vector_MR_ObjFaceId_MR_FaceId_reserve</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, size_t capacity)</td></tr>
+<tr class="memitem:a5d6e02c633f1277c4be792b56cac1d18" id="r_a5d6e02c633f1277c4be792b56cac1d18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d6e02c633f1277c4be792b56cac1d18">MR_Vector_MR_ObjFaceId_MR_FaceId_shrink_to_fit</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:a3b39850c1971a7175e78139548e4fe09" id="r_a3b39850c1971a7175e78139548e4fe09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b39850c1971a7175e78139548e4fe09">MR_Vector_MR_ObjFaceId_MR_FaceId_index</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> i)</td></tr>
+<tr class="memitem:ab0ab61245591e262f0dc01a2544a2e93" id="r_ab0ab61245591e262f0dc01a2544a2e93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0ab61245591e262f0dc01a2544a2e93">MR_Vector_MR_ObjFaceId_MR_FaceId_index_mut</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> i)</td></tr>
+<tr class="memitem:a7d95137ba4d84762847ea3eaf6242661" id="r_a7d95137ba4d84762847ea3eaf6242661"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d95137ba4d84762847ea3eaf6242661">MR_Vector_MR_ObjFaceId_MR_FaceId_resizeWithReserve_1</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, size_t newSize)</td></tr>
+<tr class="memitem:a94afbb28c580adde8441303a252e9cdf" id="r_a94afbb28c580adde8441303a252e9cdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94afbb28c580adde8441303a252e9cdf">MR_Vector_MR_ObjFaceId_MR_FaceId_resizeWithReserve_2</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, size_t newSize, const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *value)</td></tr>
+<tr class="memitem:afc7deb6b71217be0c72a3f497186cf8b" id="r_afc7deb6b71217be0c72a3f497186cf8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc7deb6b71217be0c72a3f497186cf8b">MR_Vector_MR_ObjFaceId_MR_FaceId_autoResizeSet_3</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> pos, size_t len, <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> val)</td></tr>
+<tr class="memitem:a101338aaa4c4971e50910f8ba8dc37dd" id="r_a101338aaa4c4971e50910f8ba8dc37dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a101338aaa4c4971e50910f8ba8dc37dd">MR_Vector_MR_ObjFaceId_MR_FaceId_autoResizeSet_2</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> i, <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> val)</td></tr>
+<tr class="memitem:a802930d532f56967308cc0a6037eafd6" id="r_a802930d532f56967308cc0a6037eafd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a802930d532f56967308cc0a6037eafd6">MR_Vector_MR_ObjFaceId_MR_FaceId_autoResizeAt</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> i)</td></tr>
+<tr class="memitem:a2defcd5d149534cdd533db7127ae7e17" id="r_a2defcd5d149534cdd533db7127ae7e17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2defcd5d149534cdd533db7127ae7e17">MR_Vector_MR_ObjFaceId_MR_FaceId_push_back_const_MR_ObjFaceId_ref</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *t)</td></tr>
+<tr class="memitem:ad06f2eee88834ef429cf73048aa02d1a" id="r_ad06f2eee88834ef429cf73048aa02d1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad06f2eee88834ef429cf73048aa02d1a">MR_Vector_MR_ObjFaceId_MR_FaceId_push_back_MR_ObjFaceId_rvalue_ref</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *t)</td></tr>
+<tr class="memitem:a1ab1dc0c0da9eb71cab9971aff30be5a" id="r_a1ab1dc0c0da9eb71cab9971aff30be5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ab1dc0c0da9eb71cab9971aff30be5a">MR_Vector_MR_ObjFaceId_MR_FaceId_pop_back</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:a306f7c777a43aa9b240a519c5ac522b3" id="r_a306f7c777a43aa9b240a519c5ac522b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a306f7c777a43aa9b240a519c5ac522b3">MR_Vector_MR_ObjFaceId_MR_FaceId_front</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:a65dfd121ce0725aa506afbe59d44574b" id="r_a65dfd121ce0725aa506afbe59d44574b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65dfd121ce0725aa506afbe59d44574b">MR_Vector_MR_ObjFaceId_MR_FaceId_front_mut</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:ac178858183b8bf2d6a40c2dd8578768b" id="r_ac178858183b8bf2d6a40c2dd8578768b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac178858183b8bf2d6a40c2dd8578768b">MR_Vector_MR_ObjFaceId_MR_FaceId_back</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:af8bc25bbeaaf7b3c342a0ff3269b80d4" id="r_af8bc25bbeaaf7b3c342a0ff3269b80d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8bc25bbeaaf7b3c342a0ff3269b80d4">MR_Vector_MR_ObjFaceId_MR_FaceId_back_mut</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:a2517b65d8e3294fe7bf6b959309734c9" id="r_a2517b65d8e3294fe7bf6b959309734c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__FaceId.html">MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2517b65d8e3294fe7bf6b959309734c9">MR_Vector_MR_ObjFaceId_MR_FaceId_beginId</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:a771bbf8932e39b9741a70beec5f6fb8a" id="r_a771bbf8932e39b9741a70beec5f6fb8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__FaceId.html">MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a771bbf8932e39b9741a70beec5f6fb8a">MR_Vector_MR_ObjFaceId_MR_FaceId_backId</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:a23104da2c16ad9b923cf85aab4c79010" id="r_a23104da2c16ad9b923cf85aab4c79010"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__FaceId.html">MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23104da2c16ad9b923cf85aab4c79010">MR_Vector_MR_ObjFaceId_MR_FaceId_endId</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:aed02cfa2abddfc05ee6e3384fa21fc37" id="r_aed02cfa2abddfc05ee6e3384fa21fc37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed02cfa2abddfc05ee6e3384fa21fc37">MR_Vector_MR_ObjFaceId_MR_FaceId_data_mut</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:adfc8863a4d0c286a19e3d4e4be7ad65c" id="r_adfc8863a4d0c286a19e3d4e4be7ad65c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfc8863a4d0c286a19e3d4e4be7ad65c">MR_Vector_MR_ObjFaceId_MR_FaceId_data</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
+<tr class="memitem:adad1b474cca4e0b5a12e49a796f548ca" id="r_adad1b474cca4e0b5a12e49a796f548ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adad1b474cca4e0b5a12e49a796f548ca">MR_Vector_MR_ObjFaceId_MR_FaceId_swap</a> (<a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this, <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *b)</td></tr>
+<tr class="memitem:a0d031c5c64088ee99774f756c7998be1" id="r_a0d031c5c64088ee99774f756c7998be1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d031c5c64088ee99774f756c7998be1">MR_Vector_MR_ObjFaceId_MR_FaceId_heapBytes</a> (const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *_this)</td></tr>
 <tr class="memitem:a5b42ef91b8c9bd5df3c8b0591eaa3316" id="r_a5b42ef91b8c9bd5df3c8b0591eaa3316"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a816c637b22576b3e3a962534e6df6099">MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b42ef91b8c9bd5df3c8b0591eaa3316">MR_Vector_MR_FaceBitSet_MR_GraphVertId_Get_vec</a> (const <a class="el" href="#a4e5a7cc8670588a2b2921a48cd85beee">MR_Vector_MR_FaceBitSet_MR_GraphVertId</a> *_this)</td></tr>
 <tr class="memitem:ad822a2bf7b4f65a717bf47289e532c64" id="r_ad822a2bf7b4f65a717bf47289e532c64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad822a2bf7b4f65a717bf47289e532c64">MR_Vector_MR_FaceBitSet_MR_GraphVertId_Set_vec</a> (<a class="el" href="#a4e5a7cc8670588a2b2921a48cd85beee">MR_Vector_MR_FaceBitSet_MR_GraphVertId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a816c637b22576b3e3a962534e6df6099">MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet</a> *value)</td></tr>
 <tr class="memitem:ae2baafffa91141a66320169ab1bbe843" id="r_ae2baafffa91141a66320169ab1bbe843"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a816c637b22576b3e3a962534e6df6099">MR_std_vector_MR_FaceBitSet_MR_Allocator_MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2baafffa91141a66320169ab1bbe843">MR_Vector_MR_FaceBitSet_MR_GraphVertId_GetMutable_vec</a> (<a class="el" href="#a4e5a7cc8670588a2b2921a48cd85beee">MR_Vector_MR_FaceBitSet_MR_GraphVertId</a> *_this)</td></tr>
@@ -4798,6 +4848,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from C++ container <span class="tt">std::vector&lt;MR::NodeId, MR::Allocator&lt;MR::NodeId&gt;&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="acfbc55cb25e9f1b44128f679bbdb341c" name="acfbc55cb25e9f1b44128f679bbdb341c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfbc55cb25e9f1b44128f679bbdb341c">&#9670;&#160;</a></span>MR_std_vector_MR_ObjFaceId_MR_Allocator_MR_ObjFaceId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#acfbc55cb25e9f1b44128f679bbdb341c">MR_std_vector_MR_ObjFaceId_MR_Allocator_MR_ObjFaceId</a> <a class="el" href="#acfbc55cb25e9f1b44128f679bbdb341c">MR_std_vector_MR_ObjFaceId_MR_Allocator_MR_ObjFaceId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <span class="tt">std::vector&lt;MR::ObjFaceId, MR::Allocator&lt;MR::ObjFaceId&gt;&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -10997,6 +11062,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8c49aa851e674c433490611563ba54fe" name="a8c49aa851e674c433490611563ba54fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c49aa851e674c433490611563ba54fe">&#9670;&#160;</a></span>MR_equal_MR_Vector_MR_ObjFaceId_MR_FaceId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_equal_MR_Vector_MR_ObjFaceId_MR_FaceId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::operator==</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a272275485c10cd32e80fdbfbfd6f4fc2" name="a272275485c10cd32e80fdbfbfd6f4fc2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a272275485c10cd32e80fdbfbfd6f4fc2">&#9670;&#160;</a></span>MR_equal_MR_Vector_MR_ObjId_MR_VoxelId()</h2>
 
@@ -17038,6 +17125,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::Vector&lt;MR::NodeId, MR::NodeId&gt;::operator!=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ad2c81e29fb4fb490a0d6216327aab909" name="ad2c81e29fb4fb490a0d6216327aab909"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2c81e29fb4fb490a0d6216327aab909">&#9670;&#160;</a></span>MR_not_equal_MR_Vector_MR_ObjFaceId_MR_FaceId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_Vector_MR_ObjFaceId_MR_FaceId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::operator!=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -51872,6 +51981,920 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::Vector&lt;MR::NodeId, MR::NodeId&gt;::swap</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aae0562612e79bd6ffa49f4cbcc534810" name="aae0562612e79bd6ffa49f4cbcc534810"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae0562612e79bd6ffa49f4cbcc534810">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_assign </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>replaces the contents with <code class="param">count</code> copies of <code class="param">val</code> Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::assign</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">val</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">val</span> (if any) might be preserved in this object. </p>
+
+</div>
+</div>
+<a id="ac0137f55e777df81eab05046c5664562" name="ac0137f55e777df81eab05046c5664562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0137f55e777df81eab05046c5664562">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a802930d532f56967308cc0a6037eafd6" name="a802930d532f56967308cc0a6037eafd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a802930d532f56967308cc0a6037eafd6">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_autoResizeAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_autoResizeAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__FaceId.html">MR_FaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this accessor automatically adjusts the size of the vector Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::autoResizeAt</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a101338aaa4c4971e50910f8ba8dc37dd" name="a101338aaa4c4971e50910f8ba8dc37dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a101338aaa4c4971e50910f8ba8dc37dd">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_autoResizeSet_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_autoResizeSet_2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__FaceId.html">MR_FaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>sets the element i to the given value, adjusting the size of the vector to include new element Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::autoResizeSet</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="afc7deb6b71217be0c72a3f497186cf8b" name="afc7deb6b71217be0c72a3f497186cf8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc7deb6b71217be0c72a3f497186cf8b">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_autoResizeSet_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_autoResizeSet_3 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__FaceId.html">MR_FaceId</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>len</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a></td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <code class="param">pos</code> are also set to <code class="param">val</code> (for faster implementation) Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::autoResizeSet</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ac178858183b8bf2d6a40c2dd8578768b" name="ac178858183b8bf2d6a40c2dd8578768b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac178858183b8bf2d6a40c2dd8578768b">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::back</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="af8bc25bbeaaf7b3c342a0ff3269b80d4" name="af8bc25bbeaaf7b3c342a0ff3269b80d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8bc25bbeaaf7b3c342a0ff3269b80d4">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_back_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_back_mut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::back</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a771bbf8932e39b9741a70beec5f6fb8a" name="a771bbf8932e39b9741a70beec5f6fb8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a771bbf8932e39b9741a70beec5f6fb8a">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_backId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__FaceId.html">MR_FaceId</a> MR_Vector_MR_ObjFaceId_MR_FaceId_backId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the identifier of the back() element Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::backId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a2517b65d8e3294fe7bf6b959309734c9" name="a2517b65d8e3294fe7bf6b959309734c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2517b65d8e3294fe7bf6b959309734c9">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_beginId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__FaceId.html">MR_FaceId</a> MR_Vector_MR_ObjFaceId_MR_FaceId_beginId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the identifier of the first element Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::beginId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a1d553071e3fa2d0d011e0367389e4a14" name="a1d553071e3fa2d0d011e0367389e4a14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d553071e3fa2d0d011e0367389e4a14">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_Vector_MR_ObjFaceId_MR_FaceId_capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::capacity</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a6329d162736986c298470b535de5c2cf" name="a6329d162736986c298470b535de5c2cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6329d162736986c298470b535de5c2cf">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::clear</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ad954d7de9f4c348a90e21fee911b61a4" name="ad954d7de9f4c348a90e21fee911b61a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad954d7de9f4c348a90e21fee911b61a4">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_Construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_Construct </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>creates a vector with <code class="param">size</code> elements with default value Generated from constructor <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::Vector</span>. The reference to the parameter <span class="tt">size</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ac9354b665270d6b0f15fb9d52dda2ec5" title="Destroys a heap-allocated instance of MR_Vector_MR_ObjFaceId_MR_FaceId. Does nothing if the pointer i...">MR_Vector_MR_ObjFaceId_MR_FaceId_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a929dc836949b4e9a9da49f879312af43" name="a929dc836949b4e9a9da49f879312af43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a929dc836949b4e9a9da49f879312af43">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_Construct_fill()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_Construct_fill </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>creates a vector with <code class="param">size</code> elements with the given value Generated from constructor <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::Vector</span>. The reference to the parameter <span class="tt">size</span> might be preserved in the constructed object. Parameter <span class="tt">val</span> can not be null. It is a single object. The reference to the parameter <span class="tt">val</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ac9354b665270d6b0f15fb9d52dda2ec5" title="Destroys a heap-allocated instance of MR_Vector_MR_ObjFaceId_MR_FaceId. Does nothing if the pointer i...">MR_Vector_MR_ObjFaceId_MR_FaceId_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae393cb19e4f028186b6053ddf14a84ea" name="ae393cb19e4f028186b6053ddf14a84ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae393cb19e4f028186b6053ddf14a84ea">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::Vector</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ac9354b665270d6b0f15fb9d52dda2ec5" title="Destroys a heap-allocated instance of MR_Vector_MR_ObjFaceId_MR_FaceId. Does nothing if the pointer i...">MR_Vector_MR_ObjFaceId_MR_FaceId_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="adfc8863a4d0c286a19e3d4e4be7ad65c" name="adfc8863a4d0c286a19e3d4e4be7ad65c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfc8863a4d0c286a19e3d4e4be7ad65c">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_data </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::data</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="aed02cfa2abddfc05ee6e3384fa21fc37" name="aed02cfa2abddfc05ee6e3384fa21fc37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed02cfa2abddfc05ee6e3384fa21fc37">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_data_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_data_mut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::data</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to this object might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a550417a5b8b1ddb85129a0592c6b1e81" name="a550417a5b8b1ddb85129a0592c6b1e81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a550417a5b8b1ddb85129a0592c6b1e81">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ac9354b665270d6b0f15fb9d52dda2ec5" title="Destroys a heap-allocated instance of MR_Vector_MR_ObjFaceId_MR_FaceId. Does nothing if the pointer i...">MR_Vector_MR_ObjFaceId_MR_FaceId_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a099d36edfe7a55561ec96c1cf2753cf7" name="a099d36edfe7a55561ec96c1cf2753cf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a099d36edfe7a55561ec96c1cf2753cf7">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#a1e9d7f1cbd4745dd57cf5c33f071e7a0" title="Destroys a heap-allocated array of MR_Vector_MR_ObjFaceId_MR_FaceId. Does nothing if the pointer is n...">MR_Vector_MR_ObjFaceId_MR_FaceId_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#a0651b78122ad104f5882ae18c052f5f4">MR_Vector_MR_ObjFaceId_MR_FaceId_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#a37e6a18b4ef3987feeeb1d945604e741">MR_Vector_MR_ObjFaceId_MR_FaceId_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ac9354b665270d6b0f15fb9d52dda2ec5" name="ac9354b665270d6b0f15fb9d52dda2ec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9354b665270d6b0f15fb9d52dda2ec5">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a1e9d7f1cbd4745dd57cf5c33f071e7a0" name="a1e9d7f1cbd4745dd57cf5c33f071e7a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e9d7f1cbd4745dd57cf5c33f071e7a0">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7fd86a3ac6bbf641b984a31c2a8d4d49" name="a7fd86a3ac6bbf641b984a31c2a8d4d49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fd86a3ac6bbf641b984a31c2a8d4d49">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_Vector_MR_ObjFaceId_MR_FaceId_empty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::empty</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a23104da2c16ad9b923cf85aab4c79010" name="a23104da2c16ad9b923cf85aab4c79010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23104da2c16ad9b923cf85aab4c79010">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_endId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__FaceId.html">MR_FaceId</a> MR_Vector_MR_ObjFaceId_MR_FaceId_endId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns backId() + 1 Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::endId</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a306f7c777a43aa9b240a519c5ac522b3" name="a306f7c777a43aa9b240a519c5ac522b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a306f7c777a43aa9b240a519c5ac522b3">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::front</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a65dfd121ce0725aa506afbe59d44574b" name="a65dfd121ce0725aa506afbe59d44574b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65dfd121ce0725aa506afbe59d44574b">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_front_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_front_mut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::front</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a316b7e58453bcd591368dc3574abe1c8" name="a316b7e58453bcd591368dc3574abe1c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a316b7e58453bcd591368dc3574abe1c8">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_Get_vec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acfbc55cb25e9f1b44128f679bbdb341c">MR_std_vector_MR_ObjFaceId_MR_Allocator_MR_ObjFaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_Get_vec </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The user can directly manipulate the vector, they can't break anything anyway. Returns a pointer to a member variable of class <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;</span> named <span class="tt">vec</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="af18e3adc9094ee785ec96683d1c75bd8" name="af18e3adc9094ee785ec96683d1c75bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af18e3adc9094ee785ec96683d1c75bd8">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_GetMutable_vec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acfbc55cb25e9f1b44128f679bbdb341c">MR_std_vector_MR_ObjFaceId_MR_Allocator_MR_ObjFaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_GetMutable_vec </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The user can directly manipulate the vector, they can't break anything anyway. Returns a mutable pointer to a member variable of class <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;</span> named <span class="tt">vec</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a0d031c5c64088ee99774f756c7998be1" name="a0d031c5c64088ee99774f756c7998be1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d031c5c64088ee99774f756c7998be1">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_Vector_MR_ObjFaceId_MR_FaceId_heapBytes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the amount of memory this object occupies on heap Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::heapBytes</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a3b39850c1971a7175e78139548e4fe09" name="a3b39850c1971a7175e78139548e4fe09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b39850c1971a7175e78139548e4fe09">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_index()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_index </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__FaceId.html">MR_FaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::operator[]</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="ab0ab61245591e262f0dc01a2544a2e93" name="ab0ab61245591e262f0dc01a2544a2e93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0ab61245591e262f0dc01a2544a2e93">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_index_mut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_index_mut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__FaceId.html">MR_FaceId</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::operator[]</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a84442a9c80aa3aaf3a7c460fa42c6689" name="a84442a9c80aa3aaf3a7c460fa42c6689"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84442a9c80aa3aaf3a7c460fa42c6689">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_max_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_Vector_MR_ObjFaceId_MR_FaceId_max_size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::max_size</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a0651b78122ad104f5882ae18c052f5f4" name="a0651b78122ad104f5882ae18c052f5f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0651b78122ad104f5882ae18c052f5f4">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a37e6a18b4ef3987feeeb1d945604e741" name="a37e6a18b4ef3987feeeb1d945604e741"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37e6a18b4ef3987feeeb1d945604e741">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> * MR_Vector_MR_ObjFaceId_MR_FaceId_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a1ab1dc0c0da9eb71cab9971aff30be5a" name="a1ab1dc0c0da9eb71cab9971aff30be5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ab1dc0c0da9eb71cab9971aff30be5a">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_pop_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_pop_back </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::pop_back</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a2defcd5d149534cdd533db7127ae7e17" name="a2defcd5d149534cdd533db7127ae7e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2defcd5d149534cdd533db7127ae7e17">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_push_back_const_MR_ObjFaceId_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_push_back_const_MR_ObjFaceId_ref </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::push_back</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">t</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">t</span> (if any) might be preserved in this object. </p>
+
+</div>
+</div>
+<a id="ad06f2eee88834ef429cf73048aa02d1a" name="ad06f2eee88834ef429cf73048aa02d1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad06f2eee88834ef429cf73048aa02d1a">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_push_back_MR_ObjFaceId_rvalue_ref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_push_back_MR_ObjFaceId_rvalue_ref </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::push_back</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">t</span> can not be null. It is a single object. In C++ this parameter takes an rvalue reference: it might invalidate the passed object, but if your pointer is owning, you must still destroy it manually later. The reference to things referred to by the parameter <span class="tt">t</span> (if any) might be preserved in this object. </p>
+
+</div>
+</div>
+<a id="a6fa56637e433f4f69f4c7236cc950633" name="a6fa56637e433f4f69f4c7236cc950633"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fa56637e433f4f69f4c7236cc950633">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::reserve</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a71f8a975b4e29b1e398a4d88694e6aa2" name="a71f8a975b4e29b1e398a4d88694e6aa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71f8a975b4e29b1e398a4d88694e6aa2">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_resize_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_resize_1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::resize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aa2217b2535a2edb034b1000cc97027fe" name="aa2217b2535a2edb034b1000cc97027fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2217b2535a2edb034b1000cc97027fe">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_resize_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_resize_2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::resize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">t</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a7d95137ba4d84762847ea3eaf6242661" name="a7d95137ba4d84762847ea3eaf6242661"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d95137ba4d84762847ea3eaf6242661">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_resizeWithReserve_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_resizeWithReserve_1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>same as resize(newSize), which already grows the capacity geometrically Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::resizeWithReserve</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a94afbb28c580adde8441303a252e9cdf" name="a94afbb28c580adde8441303a252e9cdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94afbb28c580adde8441303a252e9cdf">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_resizeWithReserve_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_resizeWithReserve_2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ObjFaceId.html">MR_ObjFaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>same as resize(newSize, value), which already grows the capacity geometrically Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::resizeWithReserve</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a8d670d7800d73ee91ece8b15967a8a06" name="a8d670d7800d73ee91ece8b15967a8a06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d670d7800d73ee91ece8b15967a8a06">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_Set_vec()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_Set_vec </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#acfbc55cb25e9f1b44128f679bbdb341c">MR_std_vector_MR_ObjFaceId_MR_Allocator_MR_ObjFaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The user can directly manipulate the vector, they can't break anything anyway. Modifies a member variable of class <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;</span> named <span class="tt">vec</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">vec</span>. When this function is called, this object will drop object references it held previously in <span class="tt">vec</span>. </p>
+
+</div>
+</div>
+<a id="a5d6e02c633f1277c4be792b56cac1d18" name="a5d6e02c633f1277c4be792b56cac1d18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d6e02c633f1277c4be792b56cac1d18">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_shrink_to_fit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_shrink_to_fit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::shrink_to_fit</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ae9711ce41caed2b1137d12eeb4b25c55" name="ae9711ce41caed2b1137d12eeb4b25c55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9711ce41caed2b1137d12eeb4b25c55">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t MR_Vector_MR_ObjFaceId_MR_FaceId_size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::size</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="adad1b474cca4e0b5a12e49a796f548ca" name="adad1b474cca4e0b5a12e49a796f548ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adad1b474cca4e0b5a12e49a796f548ca">&#9670;&#160;</a></span>MR_Vector_MR_ObjFaceId_MR_FaceId_swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Vector_MR_ObjFaceId_MR_FaceId_swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRUniteManyMeshes_8h.html#a6a531886f810aa397189defcbd165016">MR_Vector_MR_ObjFaceId_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Vector&lt;MR::ObjFaceId, MR::FaceId&gt;::swap</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

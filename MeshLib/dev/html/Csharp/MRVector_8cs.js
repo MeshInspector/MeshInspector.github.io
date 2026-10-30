@@ -143,6 +143,8 @@ var MRVector_8cs =
     [ "MR.Vector_MRVoxelId_MRFaceId", "classMR_1_1Vector__MRVoxelId__MRFaceId.html", "classMR_1_1Vector__MRVoxelId__MRFaceId" ],
     [ "MR.Const_Vector_Char_MRVertId", "classMR_1_1Const__Vector__Char__MRVertId.html", "classMR_1_1Const__Vector__Char__MRVertId" ],
     [ "MR.Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html", "classMR_1_1Vector__Char__MRVertId" ],
+    [ "MR.Const_Vector_MRObjFaceId_MRFaceId", "classMR_1_1Const__Vector__MRObjFaceId__MRFaceId.html", "classMR_1_1Const__Vector__MRObjFaceId__MRFaceId" ],
+    [ "MR.Vector_MRObjFaceId_MRFaceId", "classMR_1_1Vector__MRObjFaceId__MRFaceId.html", "classMR_1_1Vector__MRObjFaceId__MRFaceId" ],
     [ "MR.Const_Vector_MRFaceBitSet_MRGraphVertId", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html", "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId" ],
     [ "MR.Vector_MRFaceBitSet_MRGraphVertId", "classMR_1_1Vector__MRFaceBitSet__MRGraphVertId.html", "classMR_1_1Vector__MRFaceBitSet__MRGraphVertId" ],
     [ "MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId", "classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html", "classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId" ],

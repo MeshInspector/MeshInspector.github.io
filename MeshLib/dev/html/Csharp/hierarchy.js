@@ -142,6 +142,9 @@ var hierarchy =
       [ "MR.ConstBox_NodeId", "classMR_1_1ConstBox__NodeId.html", [
         [ "MR.Box_NodeId", "classMR_1_1Box__NodeId.html", null ]
       ] ],
+      [ "MR.ConstBox_ObjFaceId", "classMR_1_1ConstBox__ObjFaceId.html", [
+        [ "MR.Box_ObjFaceId", "classMR_1_1Box__ObjFaceId.html", null ]
+      ] ],
       [ "MR.ConstBox_ObjId", "classMR_1_1ConstBox__ObjId.html", [
         [ "MR.Box_ObjId", "classMR_1_1Box__ObjId.html", null ]
       ] ],
@@ -2574,6 +2577,9 @@ var hierarchy =
       [ "MR.Const_Vector_MRNodeId_MRNodeId", "classMR_1_1Const__Vector__MRNodeId__MRNodeId.html", [
         [ "MR.Vector_MRNodeId_MRNodeId", "classMR_1_1Vector__MRNodeId__MRNodeId.html", null ]
       ] ],
+      [ "MR.Const_Vector_MRObjFaceId_MRFaceId", "classMR_1_1Const__Vector__MRObjFaceId__MRFaceId.html", [
+        [ "MR.Vector_MRObjFaceId_MRFaceId", "classMR_1_1Vector__MRObjFaceId__MRFaceId.html", null ]
+      ] ],
       [ "MR.Const_Vector_MRObjId_MRVoxelId", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html", [
         [ "MR.Vector_MRObjId_MRVoxelId", "classMR_1_1Vector__MRObjId__MRVoxelId.html", null ]
       ] ],
@@ -3268,6 +3274,7 @@ var hierarchy =
       [ "MR.ConstBox_Matrix4i", "classMR_1_1ConstBox__Matrix4i.html", null ],
       [ "MR.ConstBox_Matrix4i64", "classMR_1_1ConstBox__Matrix4i64.html", null ],
       [ "MR.ConstBox_NodeId", "classMR_1_1ConstBox__NodeId.html", null ],
+      [ "MR.ConstBox_ObjFaceId", "classMR_1_1ConstBox__ObjFaceId.html", null ],
       [ "MR.ConstBox_ObjId", "classMR_1_1ConstBox__ObjId.html", null ],
       [ "MR.ConstBox_ObjVertId", "classMR_1_1ConstBox__ObjVertId.html", null ],
       [ "MR.ConstBox_PixelId", "classMR_1_1ConstBox__PixelId.html", null ],
@@ -3405,6 +3412,7 @@ var hierarchy =
       [ "MR.Const_Vector_MRGraphVertId_MRGraphVertId", "classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag", "classMR_1_1Const__Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag.html", null ],
       [ "MR.Const_Vector_MRNodeId_MRNodeId", "classMR_1_1Const__Vector__MRNodeId__MRNodeId.html", null ],
+      [ "MR.Const_Vector_MRObjFaceId_MRFaceId", "classMR_1_1Const__Vector__MRObjFaceId__MRFaceId.html", null ],
       [ "MR.Const_Vector_MRObjId_MRVoxelId", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html", null ],
       [ "MR.Const_Vector_MRPixelId_MRPixelId", "classMR_1_1Const__Vector__MRPixelId__MRPixelId.html", null ],
       [ "MR.Const_Vector_MRRegionId_MRRegionId", "classMR_1_1Const__Vector__MRRegionId__MRRegionId.html", null ],
@@ -3468,6 +3476,7 @@ var hierarchy =
       [ "MR.Matrix4i64", "structMR_1_1Matrix4i64.html", null ],
       [ "MR.MeshBuilder.Const_Triangle", "classMR_1_1MeshBuilder_1_1Const__Triangle.html", null ],
       [ "MR.NodeId", "structMR_1_1NodeId.html", null ],
+      [ "MR.ObjFaceId", "structMR_1_1ObjFaceId.html", null ],
       [ "MR.ObjId", "structMR_1_1ObjId.html", null ],
       [ "MR.ObjVertId", "structMR_1_1ObjVertId.html", null ],
       [ "MR.PixelId", "structMR_1_1PixelId.html", null ],
@@ -3554,6 +3563,7 @@ var hierarchy =
       [ "MR.ConstBox_Matrix4i", "classMR_1_1ConstBox__Matrix4i.html", null ],
       [ "MR.ConstBox_Matrix4i64", "classMR_1_1ConstBox__Matrix4i64.html", null ],
       [ "MR.ConstBox_NodeId", "classMR_1_1ConstBox__NodeId.html", null ],
+      [ "MR.ConstBox_ObjFaceId", "classMR_1_1ConstBox__ObjFaceId.html", null ],
       [ "MR.ConstBox_ObjId", "classMR_1_1ConstBox__ObjId.html", null ],
       [ "MR.ConstBox_ObjVertId", "classMR_1_1ConstBox__ObjVertId.html", null ],
       [ "MR.ConstBox_PixelId", "classMR_1_1ConstBox__PixelId.html", null ],
@@ -4372,6 +4382,7 @@ var hierarchy =
       [ "MR.Const_Vector_MRNestingMeshXf_MRObjId", "classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId.html", null ],
       [ "MR.Const_Vector_MRNestingNestingResult_MRObjId", "classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId.html", null ],
       [ "MR.Const_Vector_MRNodeId_MRNodeId", "classMR_1_1Const__Vector__MRNodeId__MRNodeId.html", null ],
+      [ "MR.Const_Vector_MRObjFaceId_MRFaceId", "classMR_1_1Const__Vector__MRObjFaceId__MRFaceId.html", null ],
       [ "MR.Const_Vector_MRObjId_MRVoxelId", "classMR_1_1Const__Vector__MRObjId__MRVoxelId.html", null ],
       [ "MR.Const_Vector_MROneMeshContour", "classMR_1_1Const__Vector__MROneMeshContour.html", null ],
       [ "MR.Const_Vector_MROneMeshIntersection", "classMR_1_1Const__Vector__MROneMeshIntersection.html", null ],

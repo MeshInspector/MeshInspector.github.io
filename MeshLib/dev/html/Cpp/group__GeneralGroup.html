@@ -875,6 +875,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AUniquePtr_3C_20T_20_3E" id="r_MR_3A_3AUniquePtr_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UniquePtr.html">MR::UniquePtr&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AUniqueTemporaryFolder" id="r_MR_3A_3AUniqueTemporaryFolder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UniqueTemporaryFolder.html">MR::UniqueTemporaryFolder</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper class to create a temporary folder; the folder will be removed on the object's destruction  <a href="classMR_1_1UniqueTemporaryFolder.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3AObjFaceId" id="r_MR_3A_3AObjFaceId"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ObjFaceId.html">MR::ObjFaceId</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">face of one of the input meshes of uniteManyMeshes function  <a href="structMR_1_1ObjFaceId.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AUniteManyMeshesParams" id="r_MR_3A_3AUniteManyMeshesParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters structure for uniteManyMeshes function.  <a href="structMR_1_1UniteManyMeshesParams.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AUniteMeshNormalizationParams" id="r_MR_3A_3AUniteMeshNormalizationParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UniteMeshNormalizationParams.html">MR::UniteMeshNormalizationParams</a></td></tr>
@@ -13689,6 +13691,9 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga5bc23c2e461b80a4516732d0e5add3a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">to report progress and cancel processing  <br /></td></tr>
 <tr class="memitem:gadbeac8c6a42c497272482183b034f8c7" id="r_gadbeac8c6a42c497272482183b034f8c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; I, I &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadbeac8c6a42c497272482183b034f8c7">MR::BaseUnionFind&lt; I &gt;::parents_</a></td></tr>
 <tr class="memdesc:gadbeac8c6a42c497272482183b034f8c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">parent element of each element  <br /></td></tr>
+<tr class="memitem:ga819f578e7a192f9760749573aca22cc7" id="r_ga819f578e7a192f9760749573aca22cc7"><td class="memItemLeft" align="right" valign="top">ObjId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga819f578e7a192f9760749573aca22cc7">MR::ObjFaceId::objId</a></td></tr>
+<tr class="memdesc:ga819f578e7a192f9760749573aca22cc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">index of the mesh in the input vector  <br /></td></tr>
+<tr class="memitem:gab70cfbdba6cee9b4b823fcd209ec8f0c" id="r_gab70cfbdba6cee9b4b823fcd209ec8f0c"><td class="memItemLeft" align="right" valign="top">FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab70cfbdba6cee9b4b823fcd209ec8f0c">MR::ObjFaceId::fId</a></td></tr>
 <tr class="memitem:gad905aa665d2879e62cb41d03eb580eab" id="r_gad905aa665d2879e62cb41d03eb580eab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad905aa665d2879e62cb41d03eb580eab">MR::UniteManyMeshesParams::useRandomShifts</a> { false }</td></tr>
 <tr class="memdesc:gad905aa665d2879e62cb41d03eb580eab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply random shift to each mesh, to prevent degenerations on coincident surfaces.  <br /></td></tr>
 <tr class="memitem:ga28505f79efacbde9b70d5d98148c26e4" id="r_ga28505f79efacbde9b70d5d98148c26e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga28505f79efacbde9b70d5d98148c26e4">MR::UniteManyMeshesParams::fixDegenerations</a> { false }</td></tr>
@@ -13697,6 +13702,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga3a9dfe0c8c99c3913373200d1cb1ddfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Seed that is used for random shifts.  <br /></td></tr>
 <tr class="memitem:gae80b58ee38488a2b5e0cd954e32231b4" id="r_gae80b58ee38488a2b5e0cd954e32231b4"><td class="memItemLeft" align="right" valign="top">FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae80b58ee38488a2b5e0cd954e32231b4">MR::UniteManyMeshesParams::newFaces</a> { nullptr }</td></tr>
 <tr class="memdesc:gae80b58ee38488a2b5e0cd954e32231b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set, the bitset will store new faces created by boolean operations.  <br /></td></tr>
+<tr class="memitem:gae5f4a946802c18b394f735cd557b0ce1" id="r_gae5f4a946802c18b394f735cd557b0ce1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1ObjFaceId.html">ObjFaceId</a>, FaceId &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae5f4a946802c18b394f735cd557b0ce1">MR::UniteManyMeshesParams::new2oldFaces</a> { nullptr }</td></tr>
 <tr class="memitem:ga28a4b396128672937ced813919301558" id="r_ga28a4b396128672937ced813919301558"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga58525252a9ee9abb57d352127584531f">NestedComponenetsMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga28a4b396128672937ced813919301558">MR::UniteManyMeshesParams::nestedComponentsMode</a> { <a class="el" href="#gga58525252a9ee9abb57d352127584531fa1063e38cb53d94d386f21227fcd84717">NestedComponenetsMode::Remove</a> }</td></tr>
 <tr class="memitem:ga37fc9fd84323ac5579854222ba3453c8" id="r_ga37fc9fd84323ac5579854222ba3453c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga37fc9fd84323ac5579854222ba3453c8">MR::UniteManyMeshesParams::mergeOnFail</a> { false }</td></tr>
 <tr class="memdesc:ga37fc9fd84323ac5579854222ba3453c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">If set - merges meshes instead of booleaning it if boolean operation fails.  <br /></td></tr>
@@ -15479,6 +15485,7 @@ Friends</h2></td></tr>
 <tr class="memitem:ga0254f6c6d3b7fbc30e5cb028767d85cf" id="r_ga0254f6c6d3b7fbc30e5cb028767d85cf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0254f6c6d3b7fbc30e5cb028767d85cf">MR::Sphere&lt; V &gt;::operator==</a> (const <a class="el" href="structMR_1_1Sphere.html">Sphere</a> &amp;a, const <a class="el" href="structMR_1_1Sphere.html">Sphere</a> &amp;b)=default</td></tr>
 <tr class="memitem:ga49b96d931ecbe6f88e3b838a6347d14e" id="r_ga49b96d931ecbe6f88e3b838a6347d14e"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga49b96d931ecbe6f88e3b838a6347d14e">MR::TriPoint&lt; T &gt;::operator&lt;&lt;</a> (std::ostream &amp;s, const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a> &amp;tp)</td></tr>
 <tr class="memitem:gaae0ca13e381c0da0a32ffd38d5f8c346" id="r_gaae0ca13e381c0da0a32ffd38d5f8c346"><td class="memItemLeft" align="right" valign="top">std::istream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaae0ca13e381c0da0a32ffd38d5f8c346">MR::TriPoint&lt; T &gt;::operator&gt;&gt;</a> (std::istream &amp;s, <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a> &amp;tp)</td></tr>
+<tr class="memitem:ga69bf7bb49f10948db5195d7629c572d5" id="r_ga69bf7bb49f10948db5195d7629c572d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga69bf7bb49f10948db5195d7629c572d5">MR::ObjFaceId::operator==</a> (const <a class="el" href="structMR_1_1ObjFaceId.html">ObjFaceId</a> &amp;, const <a class="el" href="structMR_1_1ObjFaceId.html">ObjFaceId</a> &amp;)=default</td></tr>
 <tr class="memitem:ga612a5709db207a238542c54810f6af4c" id="r_ga612a5709db207a238542c54810f6af4c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga612a5709db207a238542c54810f6af4c">MR::UnorientedTriangle::operator==</a> (const <a class="el" href="structMR_1_1UnorientedTriangle.html">UnorientedTriangle</a> &amp;a, const <a class="el" href="structMR_1_1UnorientedTriangle.html">UnorientedTriangle</a> &amp;b)=default</td></tr>
 <tr class="memitem:ga44d6cbbe7bc29e1f883aba5a10eb44c5" id="r_ga44d6cbbe7bc29e1f883aba5a10eb44c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac72c95aae3d5a2cf3225d5a8d3482db6">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga44d6cbbe7bc29e1f883aba5a10eb44c5">MR::Vector&lt; T, I &gt;::begin</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;a)</td></tr>
 <tr class="memitem:gac2b0f02c1f1e8b52360b68f97b3310b8" id="r_gac2b0f02c1f1e8b52360b68f97b3310b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gad68f72a86ff471649f6c27f2553eb381">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac2b0f02c1f1e8b52360b68f97b3310b8">MR::Vector&lt; T, I &gt;::begin</a> (<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;a)</td></tr>
@@ -218697,6 +218704,20 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gab70cfbdba6cee9b4b823fcd209ec8f0c" name="gab70cfbdba6cee9b4b823fcd209ec8f0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab70cfbdba6cee9b4b823fcd209ec8f0c">&#9670;&#160;</a></span>fId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FaceId MR::ObjFaceId::fId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga136b19b9c9c5b93c2788ccacc848e219" name="ga136b19b9c9c5b93c2788ccacc848e219"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga136b19b9c9c5b93c2788ccacc848e219">&#9670;&#160;</a></span>fileName <span class="overload">[1/2]</span></h2>
 
@@ -227029,7 +227050,7 @@ template&lt;typename A, typename B&gt; </div>
 </div>
 </div>
 <a id="ga4c436c958ad19cd19e927c74c26329f5" name="ga4c436c958ad19cd19e927c74c26329f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4c436c958ad19cd19e927c74c26329f5">&#9670;&#160;</a></span>new2oldFaces</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c436c958ad19cd19e927c74c26329f5">&#9670;&#160;</a></span>new2oldFaces <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227041,6 +227062,21 @@ template&lt;typename A, typename B&gt; </div>
 </div><div class="memdoc">
 
 <p>optional out map new terrain faces to old terrain faces </p>
+
+</div>
+</div>
+<a id="gae5f4a946802c18b394f735cd557b0ce1" name="gae5f4a946802c18b394f735cd557b0ce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae5f4a946802c18b394f735cd557b0ce1">&#9670;&#160;</a></span>new2oldFaces <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1ObjFaceId.html">ObjFaceId</a>, FaceId&gt;* MR::UniteManyMeshesParams::new2oldFaces { nullptr }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If set, receives for each face of the result mesh the input mesh and its face, from which the result face originates; the faces without origin (e.g. filled holes in forceCut mode) get invalid ids; in uniteComponents, objId is the index of the component and fId is the face of the input mesh </p>
 
 </div>
 </div>
@@ -228184,8 +228220,24 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
+<a id="ga819f578e7a192f9760749573aca22cc7" name="ga819f578e7a192f9760749573aca22cc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga819f578e7a192f9760749573aca22cc7">&#9670;&#160;</a></span>objId <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ObjId MR::ObjFaceId::objId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>index of the mesh in the input vector </p>
+
+</div>
+</div>
 <a id="ga4fe9249435e74452c6a1f2a06d40de31" name="ga4fe9249435e74452c6a1f2a06d40de31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4fe9249435e74452c6a1f2a06d40de31">&#9670;&#160;</a></span>objId</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4fe9249435e74452c6a1f2a06d40de31">&#9670;&#160;</a></span>objId <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249015,7 +249067,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga55d01857e172a9cbf746957013009926" name="ga55d01857e172a9cbf746957013009926"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga55d01857e172a9cbf746957013009926">&#9670;&#160;</a></span>operator== <span class="overload">[1/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga55d01857e172a9cbf746957013009926">&#9670;&#160;</a></span>operator== <span class="overload">[1/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249048,7 +249100,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga0a599e730d0a62e6972fecbb9a4e13b1" name="ga0a599e730d0a62e6972fecbb9a4e13b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0a599e730d0a62e6972fecbb9a4e13b1">&#9670;&#160;</a></span>operator== <span class="overload">[2/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0a599e730d0a62e6972fecbb9a4e13b1">&#9670;&#160;</a></span>operator== <span class="overload">[2/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249079,7 +249131,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga8ad7586da649f116dbeefd965f5ff897" name="ga8ad7586da649f116dbeefd965f5ff897"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8ad7586da649f116dbeefd965f5ff897">&#9670;&#160;</a></span>operator== <span class="overload">[3/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ad7586da649f116dbeefd965f5ff897">&#9670;&#160;</a></span>operator== <span class="overload">[3/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249110,7 +249162,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga0769d0c92668ab4c85a05584e5a73b24" name="ga0769d0c92668ab4c85a05584e5a73b24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0769d0c92668ab4c85a05584e5a73b24">&#9670;&#160;</a></span>operator== <span class="overload">[4/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0769d0c92668ab4c85a05584e5a73b24">&#9670;&#160;</a></span>operator== <span class="overload">[4/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249141,7 +249193,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga98cf431db6020f6d2758f7af02d503d5" name="ga98cf431db6020f6d2758f7af02d503d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga98cf431db6020f6d2758f7af02d503d5">&#9670;&#160;</a></span>operator== <span class="overload">[5/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga98cf431db6020f6d2758f7af02d503d5">&#9670;&#160;</a></span>operator== <span class="overload">[5/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249174,7 +249226,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga9835a703d1c9d0326f8c0953cddbb558" name="ga9835a703d1c9d0326f8c0953cddbb558"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9835a703d1c9d0326f8c0953cddbb558">&#9670;&#160;</a></span>operator== <span class="overload">[6/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9835a703d1c9d0326f8c0953cddbb558">&#9670;&#160;</a></span>operator== <span class="overload">[6/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249207,7 +249259,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gae657a1e89e13302d7d15a7d02d90a08e" name="gae657a1e89e13302d7d15a7d02d90a08e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae657a1e89e13302d7d15a7d02d90a08e">&#9670;&#160;</a></span>operator== <span class="overload">[7/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae657a1e89e13302d7d15a7d02d90a08e">&#9670;&#160;</a></span>operator== <span class="overload">[7/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249239,8 +249291,39 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga69bf7bb49f10948db5195d7629c572d5" name="ga69bf7bb49f10948db5195d7629c572d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga69bf7bb49f10948db5195d7629c572d5">&#9670;&#160;</a></span>operator== <span class="overload">[8/16]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ObjFaceId.html">ObjFaceId</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ObjFaceId.html">ObjFaceId</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel friend">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRUniteManyMeshes_8h.html">MRMesh/MRUniteManyMeshes.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gadfb5d0c55b1f0308b2b0c4fbac1a6d6b" name="gadfb5d0c55b1f0308b2b0c4fbac1a6d6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadfb5d0c55b1f0308b2b0c4fbac1a6d6b">&#9670;&#160;</a></span>operator== <span class="overload">[8/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadfb5d0c55b1f0308b2b0c4fbac1a6d6b">&#9670;&#160;</a></span>operator== <span class="overload">[9/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249271,7 +249354,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga5f761c6549a8d74c43a943993e9f7426" name="ga5f761c6549a8d74c43a943993e9f7426"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5f761c6549a8d74c43a943993e9f7426">&#9670;&#160;</a></span>operator== <span class="overload">[9/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f761c6549a8d74c43a943993e9f7426">&#9670;&#160;</a></span>operator== <span class="overload">[10/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249302,7 +249385,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gae39ba74351f8aebd9c6861a4d5782a6c" name="gae39ba74351f8aebd9c6861a4d5782a6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae39ba74351f8aebd9c6861a4d5782a6c">&#9670;&#160;</a></span>operator== <span class="overload">[10/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae39ba74351f8aebd9c6861a4d5782a6c">&#9670;&#160;</a></span>operator== <span class="overload">[11/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249335,7 +249418,7 @@ template&lt;typename N&gt; </div>
 </div>
 </div>
 <a id="ga0254f6c6d3b7fbc30e5cb028767d85cf" name="ga0254f6c6d3b7fbc30e5cb028767d85cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0254f6c6d3b7fbc30e5cb028767d85cf">&#9670;&#160;</a></span>operator== <span class="overload">[11/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0254f6c6d3b7fbc30e5cb028767d85cf">&#9670;&#160;</a></span>operator== <span class="overload">[12/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249368,7 +249451,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gae183c6cb52762dc16f91e61c2be6df24" name="gae183c6cb52762dc16f91e61c2be6df24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae183c6cb52762dc16f91e61c2be6df24">&#9670;&#160;</a></span>operator== <span class="overload">[12/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae183c6cb52762dc16f91e61c2be6df24">&#9670;&#160;</a></span>operator== <span class="overload">[13/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249403,7 +249486,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="ga612a5709db207a238542c54810f6af4c" name="ga612a5709db207a238542c54810f6af4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga612a5709db207a238542c54810f6af4c">&#9670;&#160;</a></span>operator== <span class="overload">[13/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga612a5709db207a238542c54810f6af4c">&#9670;&#160;</a></span>operator== <span class="overload">[14/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249434,7 +249517,7 @@ template&lt;UnitEnum E&gt; </div>
 </div>
 </div>
 <a id="gaa313f8ba832a4b648631b27ecc640444" name="gaa313f8ba832a4b648631b27ecc640444"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa313f8ba832a4b648631b27ecc640444">&#9670;&#160;</a></span>operator== <span class="overload">[14/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa313f8ba832a4b648631b27ecc640444">&#9670;&#160;</a></span>operator== <span class="overload">[15/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249467,7 +249550,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga9e71981dcf9a7450c7078d906aebfaf7" name="ga9e71981dcf9a7450c7078d906aebfaf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9e71981dcf9a7450c7078d906aebfaf7">&#9670;&#160;</a></span>operator== <span class="overload">[15/15]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9e71981dcf9a7450c7078d906aebfaf7">&#9670;&#160;</a></span>operator== <span class="overload">[16/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
