@@ -11,6 +11,7 @@ var classmrmeshpy_1_1Box3i =
     [ "__rlshift__", "classmrmeshpy_1_1Box3i.html#a61cd95cd222abce2a1f737c07c5d5307", null ],
     [ "__rrshift__", "classmrmeshpy_1_1Box3i.html#a724c4a181515aaaea477e75e36470742", null ],
     [ "__setitem__", "classmrmeshpy_1_1Box3i.html#a0f5722442a5fbc9d8360290287caab2b", null ],
+    [ "assign", "classmrmeshpy_1_1Box3i.html#a0ca3e1c1d2b3d5d4f153e12a426c816a", null ],
     [ "center", "classmrmeshpy_1_1Box3i.html#a68f9402a6299e7e3a40841cff9aac8ad", null ],
     [ "contains", "classmrmeshpy_1_1Box3i.html#aa9002552a5aa64211fe613ee40a040dd", null ],
     [ "contains", "classmrmeshpy_1_1Box3i.html#a0180371ab3dce5f8323f0f672b95ebba", null ],

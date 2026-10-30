@@ -5,5 +5,6 @@ var classmrmeshpy_1_1VertCoordsDiff =
     [ "__init__", "classmrmeshpy_1_1VertCoordsDiff.html#a26efcc48a9067a55a8bffed4d5298e7a", null ],
     [ "any", "classmrmeshpy_1_1VertCoordsDiff.html#af5292de97a12bb2b173977bfe50415e9", null ],
     [ "applyAndSwap", "classmrmeshpy_1_1VertCoordsDiff.html#a140a690a19b046034889e3054649f886", null ],
+    [ "assign", "classmrmeshpy_1_1VertCoordsDiff.html#aea01b7463b557a4f2d3d5312b1616d0b", null ],
     [ "heapBytes", "classmrmeshpy_1_1VertCoordsDiff.html#a335db51f67fbc57e07adbad63369d65c", null ]
 ];

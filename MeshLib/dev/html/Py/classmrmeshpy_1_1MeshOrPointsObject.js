@@ -8,6 +8,7 @@ var classmrmeshpy_1_1MeshOrPointsObject =
     [ "__eq__", "classmrmeshpy_1_1MeshOrPointsObject.html#a9801a49178da855a3f33c211b32c8fc5", null ],
     [ "asObjectMesh", "classmrmeshpy_1_1MeshOrPointsObject.html#a6ca88b01e646229217ef2d7eddb32566", null ],
     [ "asObjectPoints", "classmrmeshpy_1_1MeshOrPointsObject.html#ab840ac509acaf78ca19b57da66de2f75", null ],
+    [ "assign", "classmrmeshpy_1_1MeshOrPointsObject.html#a8c7f572fc5a758ee815d654adc17f8e8", null ],
     [ "get", "classmrmeshpy_1_1MeshOrPointsObject.html#a2727325209092dc20656bf399d80c69a", null ],
     [ "meshOrPoints", "classmrmeshpy_1_1MeshOrPointsObject.html#a8a73ed146b1a8cc514af2bf3d6eb2379", null ],
     [ "operator_minus", "classmrmeshpy_1_1MeshOrPointsObject.html#a65d2200a8eafbef7df3dd7f4f3464bdc", null ],

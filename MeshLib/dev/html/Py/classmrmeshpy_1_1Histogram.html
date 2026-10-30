@@ -145,6 +145,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab248134bbf9f175c896d8c604c3e4e53" id="r_ab248134bbf9f175c896d8c604c3e4e53"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab248134bbf9f175c896d8c604c3e4e53">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Histogram.html">Histogram</a> arg0)</td></tr>
 <tr class="memitem:af3fe2bcd9fff2c36db5b84ea3b2fae25" id="r_af3fe2bcd9fff2c36db5b84ea3b2fae25"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3fe2bcd9fff2c36db5b84ea3b2fae25">addHistogram</a> (self, <a class="el" href="classmrmeshpy_1_1Histogram.html">Histogram</a> hist)</td></tr>
 <tr class="memitem:a3dec0185df4341fb8641de3d0aa4feb9" id="r_a3dec0185df4341fb8641de3d0aa4feb9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dec0185df4341fb8641de3d0aa4feb9">addSample</a> (self, float sample, int count=1)</td></tr>
+<tr class="memitem:a3e3548974575cdd5f3d1158dfdcddede" id="r_a3e3548974575cdd5f3d1158dfdcddede"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Histogram.html">Histogram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e3548974575cdd5f3d1158dfdcddede">assign</a> (self, <a class="el" href="classmrmeshpy_1_1Histogram.html">Histogram</a> other)</td></tr>
 <tr class="memitem:ad2b830128b8e35d6cf0fb83ae5313693" id="r_ad2b830128b8e35d6cf0fb83ae5313693"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2b830128b8e35d6cf0fb83ae5313693">getBinId</a> (self, float sample)</td></tr>
 <tr class="memitem:a1a509b7a73931d8409afe37b0adafa34" id="r_a1a509b7a73931d8409afe37b0adafa34"><td class="memItemLeft" align="right" valign="top">tuple[float, float]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a509b7a73931d8409afe37b0adafa34">getBinMinMax</a> (self, int binId)</td></tr>
 <tr class="memitem:a50711bf6ce8e8e1d0f414110e3f9c1da" id="r_a50711bf6ce8e8e1d0f414110e3f9c1da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long.html">std_vector_unsigned_long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50711bf6ce8e8e1d0f414110e3f9c1da">getBins</a> (self)</td></tr>
@@ -155,8 +156,6 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9fd29e584ec905bc7e829602b1bff6da" id="r_a9fd29e584ec905bc7e829602b1bff6da"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fd29e584ec905bc7e829602b1bff6da">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:aecb4a7d3d02bb2fcd1513099185315b4" id="r_aecb4a7d3d02bb2fcd1513099185315b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Histogram.html">Histogram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecb4a7d3d02bb2fcd1513099185315b4">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:aecb4a7d3d02bb2fcd1513099185315b4" id="r_aecb4a7d3d02bb2fcd1513099185315b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Histogram.html">Histogram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecb4a7d3d02bb2fcd1513099185315b4">operator</a> (*args, **kwargs)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Histogram
@@ -313,6 +312,27 @@ Simple class for calculating histogram
 </pre> 
 </div>
 </div>
+<a id="a3e3548974575cdd5f3d1158dfdcddede" name="a3e3548974575cdd5f3d1158dfdcddede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e3548974575cdd5f3d1158dfdcddede">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Histogram.html">Histogram</a> mrmeshpy.Histogram.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Histogram.html">Histogram</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad2b830128b8e35d6cf0fb83ae5313693" name="ad2b830128b8e35d6cf0fb83ae5313693"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad2b830128b8e35d6cf0fb83ae5313693">&#9670;&#160;</a></span>getBinId()</h2>
 
@@ -427,64 +447,6 @@ Simple class for calculating histogram
 </div><div class="memdoc">
 <pre class="fragment">returns the amount of memory this object occupies on heap
 </pre> 
-</div>
-</div>
-<a id="aecb4a7d3d02bb2fcd1513099185315b4" name="aecb4a7d3d02bb2fcd1513099185315b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecb4a7d3d02bb2fcd1513099185315b4">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Histogram.html">Histogram</a> mrmeshpy.Histogram.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aecb4a7d3d02bb2fcd1513099185315b4" name="aecb4a7d3d02bb2fcd1513099185315b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecb4a7d3d02bb2fcd1513099185315b4">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Histogram.html">Histogram</a> mrmeshpy.Histogram.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

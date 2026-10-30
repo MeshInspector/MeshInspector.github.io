@@ -7,6 +7,7 @@ var classmrmeshpy_1_1DecimateSettings =
     [ "adjustCollapse", "classmrmeshpy_1_1DecimateSettings.html#acc3cfe893142f2e7424ac9f6d07c5285", null ],
     [ "angleWeightedDistToPlane", "classmrmeshpy_1_1DecimateSettings.html#ad18aacdc6d0ce2b4f8b4fa982d1a1560", null ],
     [ "angleWeightedDistToPlane", "classmrmeshpy_1_1DecimateSettings.html#a27f2f0f4f0b64775adad4a41bd79fc9a", null ],
+    [ "assign", "classmrmeshpy_1_1DecimateSettings.html#a17c030736b65cc9a78521f5667dae896", null ],
     [ "bdVerts", "classmrmeshpy_1_1DecimateSettings.html#a114d9cba6f69cb7e9f22322de24eab3d", null ],
     [ "bdVerts", "classmrmeshpy_1_1DecimateSettings.html#a0a3e048f4bdf3bc7b76d400ce55e7058", null ],
     [ "collapseNearNotFlippable", "classmrmeshpy_1_1DecimateSettings.html#a83d5dcc37fe27db3b8c7c3eff5bc3f39", null ],

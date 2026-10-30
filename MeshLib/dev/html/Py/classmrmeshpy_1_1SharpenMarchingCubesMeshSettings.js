@@ -3,6 +3,7 @@ var classmrmeshpy_1_1SharpenMarchingCubesMeshSettings =
     [ "__init__", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a9188e44763219c386458bec4d8adb5c8", null ],
     [ "__init__", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#ad94fd118830f2241f06f32c9b6608ce4", null ],
     [ "__init__", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#af5f230c41e32a41ee29b5b8b71a9638a", null ],
+    [ "assign", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#accb2d99507ec8aa0437f274a73a08898", null ],
     [ "dims", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a2b5fbdca0b14f5275750244753139c32", null ],
     [ "dims", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#adc4120bf4448077ed8a3f8441b2dcc67", null ],
     [ "gridToMeshXf", "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#ab94f69ffb634f37a7fd5dc09a76068e0", null ],

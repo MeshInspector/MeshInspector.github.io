@@ -5,6 +5,7 @@ var classmrmeshpy_1_1PointCloud =
     [ "addPartByMask", "classmrmeshpy_1_1PointCloud.html#ad2233bcc93efae8cf8fa1ca7f4da0456", null ],
     [ "addPoint", "classmrmeshpy_1_1PointCloud.html#a8884527c29d8dd443384b53c12dc0682", null ],
     [ "addPoint", "classmrmeshpy_1_1PointCloud.html#aa878b459bd7d49cee2241f959fd097b9", null ],
+    [ "assign", "classmrmeshpy_1_1PointCloud.html#a64e45b66c7d65f9f5d43212fd9413019", null ],
     [ "calcNumValidPoints", "classmrmeshpy_1_1PointCloud.html#a9b8a38f17ed5a58b8cfb0517e8ecae4d", null ],
     [ "computeBoundingBox", "classmrmeshpy_1_1PointCloud.html#ab19d39d0e1c178b3c4ef540b9a1ba065", null ],
     [ "computeBoundingBox", "classmrmeshpy_1_1PointCloud.html#a8115f7b60fa86f55541a95e1ff9807f4", null ],

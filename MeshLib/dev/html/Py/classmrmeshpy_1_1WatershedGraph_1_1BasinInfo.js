@@ -8,6 +8,7 @@ var classmrmeshpy_1_1WatershedGraph_1_1BasinInfo =
     [ "approxLevel", "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a5983b8e96e72416d5cb4c42da83821ea", null ],
     [ "area", "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a0f7d071065721db99efec2ec2bd845a3", null ],
     [ "area", "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#ae2ee9c0a8fedc7f532a952812c7d44f2", null ],
+    [ "assign", "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a56917e4c449b26bca7ecc9051c0c6ce0", null ],
     [ "lastMergeLevel", "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a355779c98178f054ad36a5ac18824721", null ],
     [ "lastMergeLevel", "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a79df54b965c631f40139f95b4e560de1", null ],
     [ "lastMergeVolume", "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#aaa94b6a6522f33f61c4168bdde397ab6", null ],

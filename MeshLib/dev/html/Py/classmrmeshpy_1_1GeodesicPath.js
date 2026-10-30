@@ -4,6 +4,7 @@ var classmrmeshpy_1_1GeodesicPath =
     [ "__init__", "classmrmeshpy_1_1GeodesicPath.html#aff72663ee5406cef2689536b0467db05", null ],
     [ "__init__", "classmrmeshpy_1_1GeodesicPath.html#a6e80417e8631801d8f8daa1857c0cda4", null ],
     [ "__getitem__", "classmrmeshpy_1_1GeodesicPath.html#a47840f576e355d875255cd1ea2f7eed9", null ],
+    [ "assign", "classmrmeshpy_1_1GeodesicPath.html#ab971e3cc97e5301b3f49d05fe9f3d3be", null ],
     [ "end", "classmrmeshpy_1_1GeodesicPath.html#a4292e0b3932dac511df283b98c9a3095", null ],
     [ "end", "classmrmeshpy_1_1GeodesicPath.html#a835ce5e82639632b018c713775b9f10c", null ],
     [ "numVertices", "classmrmeshpy_1_1GeodesicPath.html#a6d9b32eca55924f8de4f3a66f60a8d72", null ],

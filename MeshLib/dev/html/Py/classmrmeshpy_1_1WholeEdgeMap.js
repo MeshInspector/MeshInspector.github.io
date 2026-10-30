@@ -13,6 +13,7 @@ var classmrmeshpy_1_1WholeEdgeMap =
     [ "__ne__", "classmrmeshpy_1_1WholeEdgeMap.html#a28ff60b2489b4e79d749c4df1e68c81b", null ],
     [ "__setitem__", "classmrmeshpy_1_1WholeEdgeMap.html#af54829435771461fa6cf38f27df1e51d", null ],
     [ "assign", "classmrmeshpy_1_1WholeEdgeMap.html#a263e3ff2b31fd0b74f4ad09f0d3aa127", null ],
+    [ "assign", "classmrmeshpy_1_1WholeEdgeMap.html#afeeb7d6cc9d8e66f7b3233e7afbcb315", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1WholeEdgeMap.html#a2934950bc18994f04c99289b15c12fd4", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1WholeEdgeMap.html#ac0f4fa6bda727fb6c48bea8a30ed2263", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1WholeEdgeMap.html#ac78a78712205c405b72a248ecbc6d2c7", null ],

@@ -3,6 +3,7 @@ var classmrmeshpy_1_1SaveSettings =
     [ "__init__", "classmrmeshpy_1_1SaveSettings.html#acf92cdef58fceea6660f7be5e47d8093", null ],
     [ "__init__", "classmrmeshpy_1_1SaveSettings.html#a72283386dd7c2700a272d9ef1c81c29b", null ],
     [ "__init__", "classmrmeshpy_1_1SaveSettings.html#a3fce43ff6592fbab91fd72f988620f4e", null ],
+    [ "assign", "classmrmeshpy_1_1SaveSettings.html#a7c8103e078162b09f97f60b5450d9ee0", null ],
     [ "colors", "classmrmeshpy_1_1SaveSettings.html#a5ec9ce1fa6f90eb7f892b31b2b3ef370", null ],
     [ "colors", "classmrmeshpy_1_1SaveSettings.html#a8aa43c02d17f5a9ee0e26dce9257efbd", null ],
     [ "lengthUnit", "classmrmeshpy_1_1SaveSettings.html#abeb98dbc79164c4ca44a5572bf87ae7c", null ],

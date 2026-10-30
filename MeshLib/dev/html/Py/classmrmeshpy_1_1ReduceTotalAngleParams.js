@@ -3,6 +3,7 @@ var classmrmeshpy_1_1ReduceTotalAngleParams =
     [ "__init__", "classmrmeshpy_1_1ReduceTotalAngleParams.html#a6b64100f2116833b5b7df1c1fbd5e8dd", null ],
     [ "__init__", "classmrmeshpy_1_1ReduceTotalAngleParams.html#a51bc887f9b6980df175c65257fe34b41", null ],
     [ "__init__", "classmrmeshpy_1_1ReduceTotalAngleParams.html#a678c2ab47893022e7cd1e309b969ef84", null ],
+    [ "assign", "classmrmeshpy_1_1ReduceTotalAngleParams.html#a8621ae8e22de0da7303ea2539abc7d32", null ],
     [ "criticalTriAspectRatio", "classmrmeshpy_1_1ReduceTotalAngleParams.html#ab27ec4b131846d3bfc9f8d69afea81f0", null ],
     [ "criticalTriAspectRatio", "classmrmeshpy_1_1ReduceTotalAngleParams.html#a1aee0a29fc1adaa339ae3ed6db02a9e0", null ],
     [ "factorDelone", "classmrmeshpy_1_1ReduceTotalAngleParams.html#a8b76cc029df051444bf02158ee315584", null ],

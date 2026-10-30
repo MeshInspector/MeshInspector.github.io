@@ -8,6 +8,7 @@ var classmrmeshpy_1_1MeshVoxelsConverter =
     [ "__call__", "classmrmeshpy_1_1MeshVoxelsConverter.html#ac1ccc37ac815c57ba8272919f3218acb", null ],
     [ "adaptivity", "classmrmeshpy_1_1MeshVoxelsConverter.html#a5d7fbc34fe307e5e0cf427a11aa814e0", null ],
     [ "adaptivity", "classmrmeshpy_1_1MeshVoxelsConverter.html#a94d79807e39565599eaeb7f083663780", null ],
+    [ "assign", "classmrmeshpy_1_1MeshVoxelsConverter.html#a11b872d2df3aec25b2a2674bac3bbcc9", null ],
     [ "offsetVoxels", "classmrmeshpy_1_1MeshVoxelsConverter.html#a4644780ca72cffd9942370584d6ec1ec", null ],
     [ "offsetVoxels", "classmrmeshpy_1_1MeshVoxelsConverter.html#a9b25ae74c5f23878c61dd9231e459b01", null ],
     [ "surfaceOffset", "classmrmeshpy_1_1MeshVoxelsConverter.html#a94ba226fb47480589606c64af9a452a4", null ],

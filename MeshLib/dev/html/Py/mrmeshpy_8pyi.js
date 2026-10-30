@@ -2727,7 +2727,6 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.offsetVerts", "namespacemrmeshpy.html#a7fbfd75516a489e439dc7d3d0bca5159", null ],
     [ "mrmeshpy.OpenDocument", "namespacemrmeshpy.html#a0d84d163a9c39d3237de80aa3ece91bf", null ],
     [ "mrmeshpy.OpenLink", "namespacemrmeshpy.html#ab0236e0c67b9a164bffcdf9323ddd6cc", null ],
-    [ "mrmeshpy.operator", "namespacemrmeshpy.html#a7136a6afb2449e4f9136469a7c879e80", null ],
     [ "mrmeshpy.opposite", "namespacemrmeshpy.html#a752fecf7a9395696bd26104b33a2af7f", null ],
     [ "mrmeshpy.opposite", "namespacemrmeshpy.html#a04d0b5f01bb90030cc4735f7153ed6cb", null ],
     [ "mrmeshpy.orderIntersectionContours", "namespacemrmeshpy.html#a87e17287771544ea31ff3e053714f86f", null ],

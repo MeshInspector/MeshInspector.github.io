@@ -6,5 +6,6 @@ var classmrmeshpy_1_1UndirectedEdgeIterator =
     [ "__eq__", "classmrmeshpy_1_1UndirectedEdgeIterator.html#ae0d1e83d549561f721d84cb43fbaf7a7", null ],
     [ "__mul__", "classmrmeshpy_1_1UndirectedEdgeIterator.html#a318dcab06413a776fe8d0958741e31ad", null ],
     [ "__ne__", "classmrmeshpy_1_1UndirectedEdgeIterator.html#a85d78a1b8fd1ae70ff43863ffedf761d", null ],
-    [ "operator", "classmrmeshpy_1_1UndirectedEdgeIterator.html#a4dcf0895fac45b5740125590ee67ef60", null ]
+    [ "assign", "classmrmeshpy_1_1UndirectedEdgeIterator.html#a025202686fbbe230d6a3a457de996daf", null ],
+    [ "increment", "classmrmeshpy_1_1UndirectedEdgeIterator.html#adadc8c50e070acf75152b390b25dc6b3", null ]
 ];

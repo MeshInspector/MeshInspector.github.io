@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId =
     [ "__ne__", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#a9c3b91eb3d25e1ba3837ed4cbeeb73a6", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#ac96c5be05f8adad6e98496c4bf1ccafd", null ],
     [ "assign", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#af345d3fc8c9847c685d57757b838b43a", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#a332e32c258711132eef2dafe3712e226", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#a87a1c5eb4da3cdeb658fe300f0b6b504", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#ac1fb89fdf5a221e7199954f9eeb6cafb", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId.html#a37437b4bc39eadd1c843e7e34ab06400", null ],

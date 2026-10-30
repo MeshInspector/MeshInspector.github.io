@@ -3,6 +3,7 @@ var classmrmeshpy_1_1Line3Mesh__double =
     [ "__init__", "classmrmeshpy_1_1Line3Mesh__double.html#a7a8e5384988cd4cc5af49270c095c420", null ],
     [ "__init__", "classmrmeshpy_1_1Line3Mesh__double.html#a72f155d9a711b748efee4c99eaec20f6", null ],
     [ "__init__", "classmrmeshpy_1_1Line3Mesh__double.html#a137f76bf7e8df9df6cc1d73fc31d2659", null ],
+    [ "assign", "classmrmeshpy_1_1Line3Mesh__double.html#ad19762c27b95845c7601d6f4423da335", null ],
     [ "line", "classmrmeshpy_1_1Line3Mesh__double.html#a16ce1e44e5d157d70a66a03ae4bdecd3", null ],
     [ "line", "classmrmeshpy_1_1Line3Mesh__double.html#ac898076b5d138bbb7c02b59e3bd5d3c9", null ],
     [ "mesh", "classmrmeshpy_1_1Line3Mesh__double.html#ad410a75486e130b8e368669c44bddde5", null ],

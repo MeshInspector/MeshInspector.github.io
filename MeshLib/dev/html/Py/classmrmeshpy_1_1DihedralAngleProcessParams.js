@@ -3,6 +3,7 @@ var classmrmeshpy_1_1DihedralAngleProcessParams =
     [ "__init__", "classmrmeshpy_1_1DihedralAngleProcessParams.html#a82bb96963d3a1ccbde44f8ebd68f3544", null ],
     [ "__init__", "classmrmeshpy_1_1DihedralAngleProcessParams.html#ad407f932aac96a171f23b02520d2da62", null ],
     [ "__init__", "classmrmeshpy_1_1DihedralAngleProcessParams.html#a49c8160337c73e7125885ad2d4803a0b", null ],
+    [ "assign", "classmrmeshpy_1_1DihedralAngleProcessParams.html#ad05027c958175ad661a631611826f0b1", null ],
     [ "boundaryValue", "classmrmeshpy_1_1DihedralAngleProcessParams.html#ad487cfa2e76dc1902cb976cf460e81fd", null ],
     [ "boundaryValue", "classmrmeshpy_1_1DihedralAngleProcessParams.html#aa341a8d7fb6b853fcf07fe96110470fa", null ],
     [ "concaveFactor", "classmrmeshpy_1_1DihedralAngleProcessParams.html#a3a7401160e4ba99b8a28be079d4219e8", null ],

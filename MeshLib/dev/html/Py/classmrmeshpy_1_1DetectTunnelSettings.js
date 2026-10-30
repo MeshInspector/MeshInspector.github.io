@@ -3,6 +3,7 @@ var classmrmeshpy_1_1DetectTunnelSettings =
     [ "__init__", "classmrmeshpy_1_1DetectTunnelSettings.html#a4780f054b8c777b9fc1023365b0a2954", null ],
     [ "__init__", "classmrmeshpy_1_1DetectTunnelSettings.html#a317de0ed166625210cc55aa260efd286", null ],
     [ "__init__", "classmrmeshpy_1_1DetectTunnelSettings.html#adefd0656372765f402da9cdfe43930a4", null ],
+    [ "assign", "classmrmeshpy_1_1DetectTunnelSettings.html#aa2ee85648b51095aaee00723f29a31d8", null ],
     [ "buildCoLoops", "classmrmeshpy_1_1DetectTunnelSettings.html#a4cc87e8cc6903205f7e0419e8f0ada2e", null ],
     [ "buildCoLoops", "classmrmeshpy_1_1DetectTunnelSettings.html#aeaafe0839a6317a6a5893315c22418a4", null ],
     [ "filterEquivalentCoLoops", "classmrmeshpy_1_1DetectTunnelSettings.html#ab2b764fcd6384fe60130983cf88c129c", null ],

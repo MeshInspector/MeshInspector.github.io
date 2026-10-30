@@ -4,6 +4,7 @@ var classmrmeshpy_1_1MarchingCubesParams =
     [ "__init__", "classmrmeshpy_1_1MarchingCubesParams.html#a29f645abe1e48176cfd632fabfd87d6f", null ],
     [ "__init__", "classmrmeshpy_1_1MarchingCubesParams.html#a68d6e6a46fc638383093a747d22f179a", null ],
     [ "__init__", "classmrmeshpy_1_1MarchingCubesParams.html#a7ba4dfd0a8ab48d481c47c09f8f9371d", null ],
+    [ "assign", "classmrmeshpy_1_1MarchingCubesParams.html#ab530486694ab06d7a05b7e7f535d1ff0", null ],
     [ "cb", "classmrmeshpy_1_1MarchingCubesParams.html#abf031994e716f7cba7b4bc95237f1b79", null ],
     [ "cb", "classmrmeshpy_1_1MarchingCubesParams.html#aa997d3531ae47abb913148ab95673b4b", null ],
     [ "freeVolume", "classmrmeshpy_1_1MarchingCubesParams.html#aa85f251db92682e64b10eeafeb29c929", null ],

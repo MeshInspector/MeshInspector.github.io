@@ -5,6 +5,7 @@ var classmrmeshpy_1_1ViewportProperty__AffineXf3f =
     [ "__init__", "classmrmeshpy_1_1ViewportProperty__AffineXf3f.html#ab285716921fd2eda73f95d99e09ef8c9", null ],
     [ "__getitem__", "classmrmeshpy_1_1ViewportProperty__AffineXf3f.html#ac5de8cafc1e11ae3331868e7b7c3c5df", null ],
     [ "__setitem__", "classmrmeshpy_1_1ViewportProperty__AffineXf3f.html#a6e455159f39e3d845d7adfa3d61fab63", null ],
+    [ "assign", "classmrmeshpy_1_1ViewportProperty__AffineXf3f.html#a02ed116c12a3dc8717b6a9d6908c44be", null ],
     [ "get", "classmrmeshpy_1_1ViewportProperty__AffineXf3f.html#ad051529b746ca35ad333689307272ffa", null ],
     [ "get", "classmrmeshpy_1_1ViewportProperty__AffineXf3f.html#ad051529b746ca35ad333689307272ffa", null ],
     [ "get", "classmrmeshpy_1_1ViewportProperty__AffineXf3f.html#a7adef732f03223e0d390bbb151497cc5", null ],

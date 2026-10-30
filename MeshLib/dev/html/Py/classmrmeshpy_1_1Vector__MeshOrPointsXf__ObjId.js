@@ -10,6 +10,7 @@ var classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId =
     [ "__len__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#abd3e431a41eb6eee605b902ba5f5b7f5", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#ac9e8c6489610952eaf6d7d7535179e97", null ],
     [ "assign", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a231b6af6c0264cef45462127c953245a", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#af2231e9bec8a978dca4881b42aea2981", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a30dfd38a0576becb43074b400fc69ae3", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#ad88a5452ca52e12118ff39cef3adb1ff", null ],
     [ "back", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a443872fa754d1b443a3f7a3a95b25403", null ],

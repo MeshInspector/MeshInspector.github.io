@@ -144,13 +144,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac179f8c45822d2a9c1a0edda9049c74e" id="r_ac179f8c45822d2a9c1a0edda9049c74e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac179f8c45822d2a9c1a0edda9049c74e">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1BestFitParabolaf.html">BestFitParabolaf</a> arg0)</td></tr>
 <tr class="memitem:af5fa1adb3a338013a8b53b74e2c9a10f" id="r_af5fa1adb3a338013a8b53b74e2c9a10f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5fa1adb3a338013a8b53b74e2c9a10f">addPoint</a> (self, float x, float y)</td></tr>
 <tr class="memitem:a12973f1758b181806084164101ebf7dd" id="r_a12973f1758b181806084164101ebf7dd"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12973f1758b181806084164101ebf7dd">addPoint</a> (self, float x, float y, float weight)</td></tr>
+<tr class="memitem:a065b9cab33acdf890cd7a6c3ac64060e" id="r_a065b9cab33acdf890cd7a6c3ac64060e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BestFitParabolaf.html">BestFitParabolaf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a065b9cab33acdf890cd7a6c3ac64060e">assign</a> (self, <a class="el" href="classmrmeshpy_1_1BestFitParabolaf.html">BestFitParabolaf</a> other)</td></tr>
 <tr class="memitem:a7f314cd16236dbc2a210793a7d06dbf6" id="r_a7f314cd16236dbc2a210793a7d06dbf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Parabolaf.html">Parabolaf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f314cd16236dbc2a210793a7d06dbf6">getBestParabola</a> (self, float tol=1.1920928955078125e-07)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0b704d7c9aa831c813192589e2e1053a" id="r_a0b704d7c9aa831c813192589e2e1053a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b704d7c9aa831c813192589e2e1053a">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:aad864143248f14e8e1e40c96a7d08176" id="r_aad864143248f14e8e1e40c96a7d08176"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BestFitParabolaf.html">BestFitParabolaf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad864143248f14e8e1e40c96a7d08176">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:aad864143248f14e8e1e40c96a7d08176" id="r_aad864143248f14e8e1e40c96a7d08176"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BestFitParabolaf.html">BestFitParabolaf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad864143248f14e8e1e40c96a7d08176">operator</a> (*args, **kwargs)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::BestFitParabolaf
@@ -285,6 +284,27 @@ accumulates a number of (x,y) points to find the best-least-squares parabola app
 </pre> 
 </div>
 </div>
+<a id="a065b9cab33acdf890cd7a6c3ac64060e" name="a065b9cab33acdf890cd7a6c3ac64060e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a065b9cab33acdf890cd7a6c3ac64060e">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1BestFitParabolaf.html">BestFitParabolaf</a> mrmeshpy.BestFitParabolaf.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1BestFitParabolaf.html">BestFitParabolaf</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7f314cd16236dbc2a210793a7d06dbf6" name="a7f314cd16236dbc2a210793a7d06dbf6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f314cd16236dbc2a210793a7d06dbf6">&#9670;&#160;</a></span>getBestParabola()</h2>
 
@@ -305,64 +325,6 @@ accumulates a number of (x,y) points to find the best-least-squares parabola app
 </div><div class="memdoc">
 <pre class="fragment">computes the best approximating parabola from the accumulated points;
 </pre> 
-</div>
-</div>
-<a id="aad864143248f14e8e1e40c96a7d08176" name="aad864143248f14e8e1e40c96a7d08176"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad864143248f14e8e1e40c96a7d08176">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1BestFitParabolaf.html">BestFitParabolaf</a> mrmeshpy.BestFitParabolaf.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aad864143248f14e8e1e40c96a7d08176" name="aad864143248f14e8e1e40c96a7d08176"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad864143248f14e8e1e40c96a7d08176">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1BestFitParabolaf.html">BestFitParabolaf</a> mrmeshpy.BestFitParabolaf.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

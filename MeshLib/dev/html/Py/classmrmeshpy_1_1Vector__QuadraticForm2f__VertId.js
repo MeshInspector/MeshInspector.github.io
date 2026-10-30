@@ -11,6 +11,7 @@ var classmrmeshpy_1_1Vector__QuadraticForm2f__VertId =
     [ "__len__", "classmrmeshpy_1_1Vector__QuadraticForm2f__VertId.html#a1fae4e212650271c703d96f3e10f2e75", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__QuadraticForm2f__VertId.html#a1b4c7153db2078cbb3a4ede6eb661219", null ],
     [ "assign", "classmrmeshpy_1_1Vector__QuadraticForm2f__VertId.html#a267c06880c5170e313ca66abe7feadf8", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__QuadraticForm2f__VertId.html#ad9453cde674093518dec041830bb925a", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__QuadraticForm2f__VertId.html#a54dd375e648e33b2e1accb27f39dbbc2", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__QuadraticForm2f__VertId.html#a3bbee8a71818f222959f4101ca91b7ea", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__QuadraticForm2f__VertId.html#a6041ccec1d6e3041843885f1188c276a", null ],

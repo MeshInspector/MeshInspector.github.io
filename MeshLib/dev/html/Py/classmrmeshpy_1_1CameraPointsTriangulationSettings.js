@@ -3,6 +3,7 @@ var classmrmeshpy_1_1CameraPointsTriangulationSettings =
     [ "__init__", "classmrmeshpy_1_1CameraPointsTriangulationSettings.html#a3062971f66bef03152ab975a514d88de", null ],
     [ "__init__", "classmrmeshpy_1_1CameraPointsTriangulationSettings.html#ad68626e9ca9cf37ad8f6ad0bb034af58", null ],
     [ "__init__", "classmrmeshpy_1_1CameraPointsTriangulationSettings.html#a1e1f8f2276ab4eb4b0802932c5699601", null ],
+    [ "assign", "classmrmeshpy_1_1CameraPointsTriangulationSettings.html#ae3fb9d828f685628939dff21f5306028", null ],
     [ "intrinsics", "classmrmeshpy_1_1CameraPointsTriangulationSettings.html#a10c138b70548f1d884930863aa791889", null ],
     [ "intrinsics", "classmrmeshpy_1_1CameraPointsTriangulationSettings.html#a53e9348c7453942d8d2cadab1062c213", null ],
     [ "outProjectedPoints", "classmrmeshpy_1_1CameraPointsTriangulationSettings.html#ac07d6c60714cd9efa03fd45e01df522c", null ],

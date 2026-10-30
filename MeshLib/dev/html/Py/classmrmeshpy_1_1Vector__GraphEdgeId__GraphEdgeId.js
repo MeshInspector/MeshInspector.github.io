@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId =
     [ "__ne__", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#add8321f1a1b41fd9531fb70d4d813749", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#afdb8fcdb719c35ba75de76bb41b025de", null ],
     [ "assign", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#a678f08ecc2655811a01db1e7112fe659", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#ad9fd8e734a79c6a2695781606760a7f2", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#a8766d4f4ca8665630585222f4d839dbf", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#ad667df69663c8ad85082010dd9215631", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#a68bc72a1fc4b161476ce236ae39e6042", null ],

@@ -3,6 +3,7 @@ var classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams =
     [ "__init__", "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a219b86159ce59fdf866d87e3b07d68f4", null ],
     [ "__init__", "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a3d2aacb807db9740c43b13a221f178b2", null ],
     [ "__init__", "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a8736529fcec425ab501a0b7a6f85f439", null ],
+    [ "assign", "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a2d2f74ec22fa2fb465c5d3f0cd5cdf8a", null ],
     [ "closeDist", "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a48c2a6a8ce22cb73d804a7b3207043b8", null ],
     [ "closeDist", "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a7a16a82e6f33630aeed4d346d1ce139c", null ],
     [ "duplicateNonManifold", "classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams.html#a32143c4de7201f1eebaebd45ed6bcf88", null ],

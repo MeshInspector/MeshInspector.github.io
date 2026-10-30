@@ -6,7 +6,7 @@ var classmrmeshpy_1_1OutlierTypeMask =
     [ "__getstate__", "classmrmeshpy_1_1OutlierTypeMask.html#a862ddc2386dc63ef20eff0300dce4b33", null ],
     [ "__hash__", "classmrmeshpy_1_1OutlierTypeMask.html#ad939a0f049c107ef86d1202de4b918ba", null ],
     [ "__iand__", "classmrmeshpy_1_1OutlierTypeMask.html#a15c1442b09b4e9de843f48439658137c", null ],
-    [ "__imatmul__", "classmrmeshpy_1_1OutlierTypeMask.html#a6ec5b750d4620055bf19821d2610352f", null ],
+    [ "__imul__", "classmrmeshpy_1_1OutlierTypeMask.html#ac2928538956009e6263eb364a5369591", null ],
     [ "__index__", "classmrmeshpy_1_1OutlierTypeMask.html#a2436f0f5e56198990cf0723f3a108146", null ],
     [ "__int__", "classmrmeshpy_1_1OutlierTypeMask.html#a1c9268e5b557bb56e6bc7e9d3aa0fd4c", null ],
     [ "__invert__", "classmrmeshpy_1_1OutlierTypeMask.html#ac19a40a00daf3f6f84044f1202d25844", null ],

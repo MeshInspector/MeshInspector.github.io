@@ -7,6 +7,7 @@ var classmrmeshpy_1_1ContourToDistanceMapParams =
     [ "__init__", "classmrmeshpy_1_1ContourToDistanceMapParams.html#ab5e6fbe02c912d581e80162d0d01a9d4", null ],
     [ "__init__", "classmrmeshpy_1_1ContourToDistanceMapParams.html#abe0b55b4479f74eb0f0454053905d918", null ],
     [ "__init__", "classmrmeshpy_1_1ContourToDistanceMapParams.html#a0507fa004522e8537660a781b4bdf0c4", null ],
+    [ "assign", "classmrmeshpy_1_1ContourToDistanceMapParams.html#a50a729c4fd87d03a4564663530c0cc13", null ],
     [ "orgPoint", "classmrmeshpy_1_1ContourToDistanceMapParams.html#a676d4aa2eda8c7a75880908298157dff", null ],
     [ "orgPoint", "classmrmeshpy_1_1ContourToDistanceMapParams.html#af40d6ccd60ff381dbfafeb9656f2d596", null ],
     [ "pixelSize", "classmrmeshpy_1_1ContourToDistanceMapParams.html#a8c0e47f75c8e253904ec14adf88581ee", null ],

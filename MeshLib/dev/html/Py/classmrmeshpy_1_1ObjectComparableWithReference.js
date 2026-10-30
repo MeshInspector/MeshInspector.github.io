@@ -3,6 +3,7 @@ var classmrmeshpy_1_1ObjectComparableWithReference =
     [ "ComparableProperty", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty.html", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty" ],
     [ "ComparisonReferenceValue", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" ],
     [ "ComparisonTolerance", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance" ],
+    [ "assign", "classmrmeshpy_1_1ObjectComparableWithReference.html#aa9c49e3aa7d7b07aa9098f9c408122d4", null ],
     [ "comparisonToleranceIsAlwaysOnlyPositive", "classmrmeshpy_1_1ObjectComparableWithReference.html#a9a693f13fd7c752a7daed86225899a5f", null ],
     [ "computeComparableProperty", "classmrmeshpy_1_1ObjectComparableWithReference.html#a449cb6f1b760e736ce355c53f23b312e", null ],
     [ "getComparablePropertyName", "classmrmeshpy_1_1ObjectComparableWithReference.html#a94fe811c22ab8aa980dbebd48b4de4e0", null ],

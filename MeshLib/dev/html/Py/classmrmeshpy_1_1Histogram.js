@@ -5,6 +5,7 @@ var classmrmeshpy_1_1Histogram =
     [ "__init__", "classmrmeshpy_1_1Histogram.html#ab248134bbf9f175c896d8c604c3e4e53", null ],
     [ "addHistogram", "classmrmeshpy_1_1Histogram.html#af3fe2bcd9fff2c36db5b84ea3b2fae25", null ],
     [ "addSample", "classmrmeshpy_1_1Histogram.html#a3dec0185df4341fb8641de3d0aa4feb9", null ],
+    [ "assign", "classmrmeshpy_1_1Histogram.html#a3e3548974575cdd5f3d1158dfdcddede", null ],
     [ "getBinId", "classmrmeshpy_1_1Histogram.html#ad2b830128b8e35d6cf0fb83ae5313693", null ],
     [ "getBinMinMax", "classmrmeshpy_1_1Histogram.html#a1a509b7a73931d8409afe37b0adafa34", null ],
     [ "getBins", "classmrmeshpy_1_1Histogram.html#a50711bf6ce8e8e1d0f414110e3f9c1da", null ],

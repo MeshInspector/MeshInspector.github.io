@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__VoxelId__VoxelId =
     [ "__ne__", "classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#aedeaa10a5d798dbe3ef84dc44a57f7af", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#a5035fdea16bd70b789d163a03787b7f7", null ],
     [ "assign", "classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#adfdc01c029804e610e80dac7f88cbc80", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#adad8ce530680c88467dfbe89db2d80c5", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#a9000f122f87a72261ac7a05c0cb2f385", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#ad9b450ed1bebaa89f721d295c0e5aee4", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__VoxelId__VoxelId.html#ad1c4b73a67184e95f01f364e1747ac32", null ],

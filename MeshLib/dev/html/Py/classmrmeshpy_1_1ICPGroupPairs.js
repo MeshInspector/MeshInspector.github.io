@@ -5,5 +5,6 @@ var classmrmeshpy_1_1ICPGroupPairs =
     [ "__getitem__", "classmrmeshpy_1_1ICPGroupPairs.html#a0f29935692738a7dbefc84421aa864b1", null ],
     [ "__getitem__", "classmrmeshpy_1_1ICPGroupPairs.html#a0f29935692738a7dbefc84421aa864b1", null ],
     [ "__setitem__", "classmrmeshpy_1_1ICPGroupPairs.html#aa29e0f4706a0f8316b8af00b3b94627f", null ],
+    [ "assign", "classmrmeshpy_1_1ICPGroupPairs.html#a20f96d9bd657eb4b844150834a3f0471", null ],
     [ "size", "classmrmeshpy_1_1ICPGroupPairs.html#add59b801e989c0bfc664a250e9e65e22", null ]
 ];

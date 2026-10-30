@@ -7,6 +7,7 @@ var classmrmeshpy_1_1MeshTriPointd =
     [ "__init__", "classmrmeshpy_1_1MeshTriPointd.html#a364fdc93b55c9afc67f79706f297e04a", null ],
     [ "__bool__", "classmrmeshpy_1_1MeshTriPointd.html#a650f1d60c4fea3f5be7f1f61a98262a2", null ],
     [ "__eq__", "classmrmeshpy_1_1MeshTriPointd.html#a58a4fe41aaddbfd8299c54f3f200531b", null ],
+    [ "assign", "classmrmeshpy_1_1MeshTriPointd.html#ae7936c201f6489371dacb441deddd020", null ],
     [ "bary", "classmrmeshpy_1_1MeshTriPointd.html#ade09a1dc2a62d5dc880c610effb429eb", null ],
     [ "bary", "classmrmeshpy_1_1MeshTriPointd.html#a48512d76d248f5e1b1235ff052422760", null ],
     [ "canonical", "classmrmeshpy_1_1MeshTriPointd.html#a11b816187d15a83a6e8e369007ccdac4", null ],

@@ -3,6 +3,7 @@ var classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings =
     [ "__init__", "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a2dee1d33324c14b72acff4a8e13707a4", null ],
     [ "__init__", "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#ae48e0aa9873b42a66822e26770971173", null ],
     [ "__init__", "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a5bb02d8a14d7fc12ba5f963fb9ca879c", null ],
+    [ "assign", "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#ab02cdc29499326fb1c366aced7804c5f", null ],
     [ "degree", "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a84fac9ec6daa82feef3f9813e0edff7a", null ],
     [ "degree", "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a8e6ba9fe95439697da7005e540904114", null ],
     [ "intermediateSmoothForce", "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#ae9d0e81d99de234bef240122f06d3489", null ],

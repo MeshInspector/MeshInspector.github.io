@@ -4,6 +4,7 @@ var classmrmeshpy_1_1FillHoleParams =
     [ "__init__", "classmrmeshpy_1_1FillHoleParams.html#a6d100544ab02d1306844a3bc88aa502f", null ],
     [ "__init__", "classmrmeshpy_1_1FillHoleParams.html#a6ea60fb20536d5583c2926e150e9969b", null ],
     [ "__init__", "classmrmeshpy_1_1FillHoleParams.html#a0b22ae80817b0edd43be603706481bb7", null ],
+    [ "assign", "classmrmeshpy_1_1FillHoleParams.html#a02d49242070fe509951e33f32eb9c99e", null ],
     [ "makeDegenerateBand", "classmrmeshpy_1_1FillHoleParams.html#a24efeb586d736e95d23aa978bf229bde", null ],
     [ "makeDegenerateBand", "classmrmeshpy_1_1FillHoleParams.html#a3910a3a9e928527abc669454450d2927", null ],
     [ "maxPolygonSubdivisions", "classmrmeshpy_1_1FillHoleParams.html#a1bc9c3f29de00e541e9f197aca75bdf7", null ],

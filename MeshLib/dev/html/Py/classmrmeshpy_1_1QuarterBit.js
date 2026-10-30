@@ -6,7 +6,7 @@ var classmrmeshpy_1_1QuarterBit =
     [ "__getstate__", "classmrmeshpy_1_1QuarterBit.html#a9b39c5cc41a9fe59a2a7ef7083965dc3", null ],
     [ "__hash__", "classmrmeshpy_1_1QuarterBit.html#a6073db1308827f4f80cafd3a67352a23", null ],
     [ "__iand__", "classmrmeshpy_1_1QuarterBit.html#a77e39586d828a0aa983c02c8dd76500e", null ],
-    [ "__imatmul__", "classmrmeshpy_1_1QuarterBit.html#a3d3fb4fd240f91b33fc8b73e71ac761e", null ],
+    [ "__imul__", "classmrmeshpy_1_1QuarterBit.html#abe7887b2695f0860322d34bb5af15e81", null ],
     [ "__index__", "classmrmeshpy_1_1QuarterBit.html#a34f99b36fd737c3ec3ff05163d66b424", null ],
     [ "__int__", "classmrmeshpy_1_1QuarterBit.html#a82d55d389eb6c0cd7d7e33e646459294", null ],
     [ "__invert__", "classmrmeshpy_1_1QuarterBit.html#a8f917c9d975fe13725cdc70e1cb059f8", null ],

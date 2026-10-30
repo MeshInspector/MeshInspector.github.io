@@ -149,6 +149,7 @@ $(function(){initNavTree('classmrcudapy_1_1PointsProjector.html','','classmrcuda
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4faf6d47c7ab595671f7f74689036976" id="r_a4faf6d47c7ab595671f7f74689036976"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4faf6d47c7ab595671f7f74689036976">__init__</a> (self)</td></tr>
 <tr class="memitem:a5d6e15e47d97e3f6a7612f65ec1ddace" id="r_a5d6e15e47d97e3f6a7612f65ec1ddace"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d6e15e47d97e3f6a7612f65ec1ddace">__init__</a> (self, <a class="el" href="classmrcudapy_1_1PointsProjector.html">PointsProjector</a> arg0)</td></tr>
+<tr class="memitem:a67923b55dc9985cb2128ea156409a888" id="r_a67923b55dc9985cb2128ea156409a888"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrcudapy_1_1PointsProjector.html">PointsProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67923b55dc9985cb2128ea156409a888">assign</a> (self, <a class="el" href="classmrcudapy_1_1PointsProjector.html">PointsProjector</a> other)</td></tr>
 <tr class="memitem:a80931d81b1029a6eafceb63de9cfc5b5" id="r_a80931d81b1029a6eafceb63de9cfc5b5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80931d81b1029a6eafceb63de9cfc5b5">findProjections</a> (self, meshlib.mrmeshpy.std_vector_PointsProjectionResult results, meshlib.mrmeshpy.VertCoords points, meshlib.mrmeshpy.FindProjectionOnPointsSettings settings)</td></tr>
 <tr class="memitem:a39192af03da3022f26ba647553954d77" id="r_a39192af03da3022f26ba647553954d77"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39192af03da3022f26ba647553954d77">projectionsHeapBytes</a> (self, int numProjections)</td></tr>
 <tr class="memitem:ae3e9a27dcdc7b0c3261bb48fa07cd3c5" id="r_ae3e9a27dcdc7b0c3261bb48fa07cd3c5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3e9a27dcdc7b0c3261bb48fa07cd3c5">setPointCloud</a> (self, meshlib.mrmeshpy.PointCloud pointCloud)</td></tr>
@@ -156,8 +157,6 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a19974e0e55f0b1221476977f6db2a17c" id="r_a19974e0e55f0b1221476977f6db2a17c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19974e0e55f0b1221476977f6db2a17c">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:aceac9321f0c42415f6ab514c1f21201b" id="r_aceac9321f0c42415f6ab514c1f21201b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrcudapy_1_1PointsProjector.html">PointsProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceac9321f0c42415f6ab514c1f21201b">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:aceac9321f0c42415f6ab514c1f21201b" id="r_aceac9321f0c42415f6ab514c1f21201b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrcudapy_1_1PointsProjector.html">PointsProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceac9321f0c42415f6ab514c1f21201b">operator</a> (*args, **kwargs)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Cuda::PointsProjector
@@ -233,6 +232,27 @@ CUDA-backed implementation of IPointsProjector
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a67923b55dc9985cb2128ea156409a888" name="a67923b55dc9985cb2128ea156409a888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67923b55dc9985cb2128ea156409a888">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrcudapy_1_1PointsProjector.html">PointsProjector</a> mrcudapy.PointsProjector.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrcudapy_1_1PointsProjector.html">PointsProjector</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a80931d81b1029a6eafceb63de9cfc5b5" name="a80931d81b1029a6eafceb63de9cfc5b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80931d81b1029a6eafceb63de9cfc5b5">&#9670;&#160;</a></span>findProjections()</h2>
 
@@ -263,64 +283,6 @@ CUDA-backed implementation of IPointsProjector
 </div><div class="memdoc">
 <pre class="fragment">computes the closest points on point cloud to given points
 </pre> 
-</div>
-</div>
-<a id="aceac9321f0c42415f6ab514c1f21201b" name="aceac9321f0c42415f6ab514c1f21201b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aceac9321f0c42415f6ab514c1f21201b">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrcudapy_1_1PointsProjector.html">PointsProjector</a> mrcudapy.PointsProjector.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aceac9321f0c42415f6ab514c1f21201b" name="aceac9321f0c42415f6ab514c1f21201b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aceac9321f0c42415f6ab514c1f21201b">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrcudapy_1_1PointsProjector.html">PointsProjector</a> mrcudapy.PointsProjector.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <a id="a39192af03da3022f26ba647553954d77" name="a39192af03da3022f26ba647553954d77"></a>

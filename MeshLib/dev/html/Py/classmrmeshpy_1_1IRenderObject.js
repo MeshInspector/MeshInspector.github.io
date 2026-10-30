@@ -1,5 +1,6 @@
 var classmrmeshpy_1_1IRenderObject =
 [
+    [ "assign", "classmrmeshpy_1_1IRenderObject.html#ad01f25d56a0930555b75feaf6ecac42e", null ],
     [ "forceBindAll", "classmrmeshpy_1_1IRenderObject.html#ae43a262e9866f86ded71a23b8e097ffb", null ],
     [ "glBytes", "classmrmeshpy_1_1IRenderObject.html#aca30738714bd1f43d6116899221d018a", null ],
     [ "heapBytes", "classmrmeshpy_1_1IRenderObject.html#ab153ad40338c8732fc40d439f31a2fa5", null ],

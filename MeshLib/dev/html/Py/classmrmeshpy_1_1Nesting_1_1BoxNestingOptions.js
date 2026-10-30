@@ -9,6 +9,7 @@ var classmrmeshpy_1_1Nesting_1_1BoxNestingOptions =
     [ "allow3dNesting", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a55652080e2a672c48b162872504fba59", null ],
     [ "allowRotation", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a3a9f986c65535d00ef28323aeb766b0e", null ],
     [ "allowRotation", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a5da387645c2d880c8845abd257bfed1f", null ],
+    [ "assign", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ad7cfc01eb5423661bb6a09b445ee966b", null ],
     [ "cb", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a88218a33cbbfeb236b9d874cbb639101", null ],
     [ "cb", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a2849617f5d3284233e93cbfc7d190611", null ],
     [ "checkLessCombinations", "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#ae5ce7fb3a374f088654a2a25ef507f71", null ],

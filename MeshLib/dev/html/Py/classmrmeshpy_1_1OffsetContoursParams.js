@@ -6,6 +6,7 @@ var classmrmeshpy_1_1OffsetContoursParams =
     [ "__init__", "classmrmeshpy_1_1OffsetContoursParams.html#a1888c82171c13a7c2334c74f84a4b376", null ],
     [ "__init__", "classmrmeshpy_1_1OffsetContoursParams.html#a48bb08f8f2aed847242624a80c519748", null ],
     [ "__init__", "classmrmeshpy_1_1OffsetContoursParams.html#a55b2c0e7ca56db46f0eb09d2572aa6d2", null ],
+    [ "assign", "classmrmeshpy_1_1OffsetContoursParams.html#a83f4d3b8d22d552d9a5ff969e48e6370", null ],
     [ "indicesMap", "classmrmeshpy_1_1OffsetContoursParams.html#ab26d1ebc28e323a0e91c2a444abb3803", null ],
     [ "indicesMap", "classmrmeshpy_1_1OffsetContoursParams.html#a209817ade13bff0a74c4658c8ab3d398", null ],
     [ "maxSharpAngle", "classmrmeshpy_1_1OffsetContoursParams.html#ae780243b043613374bca88420840bb4e", null ],

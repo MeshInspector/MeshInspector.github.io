@@ -3,6 +3,7 @@ var classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment =
     [ "__init__", "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#ae6f00ffc215903e551bd5adc1b9199e4", null ],
     [ "__init__", "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#ad221350b2021977bd1bff83be9e997fd", null ],
     [ "__init__", "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#a79e5594096b6386d3fc696717e49ece9", null ],
+    [ "assign", "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#a3c7ff88174fa7260c57984c21dbf8845", null ],
     [ "axis", "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#a9b06df6d784ee1ad498771213592534c", null ],
     [ "baseCircle", "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#a4435406a0643787466194e74bcc7280e", null ],
     [ "basePlane", "classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment.html#a43830eb94a4d211e7f9c1b49cd973fa0", null ],

@@ -6,7 +6,7 @@ var classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask =
     [ "__getstate__", "classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask.html#a15b99b1603f8be27591e8e596a7c76bb", null ],
     [ "__hash__", "classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask.html#a6fadef667ca2cec3128b6de3f77a6a69", null ],
     [ "__iand__", "classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask.html#ae555e2cd74e65b0c5657ae62564c50dd", null ],
-    [ "__imatmul__", "classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask.html#a4a7aff4957e1895c387be25ac4f133e3", null ],
+    [ "__imul__", "classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask.html#a20636982cb235ebe17ab7b0d489e7d81", null ],
     [ "__index__", "classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask.html#a636195b76788ba4e3d8e9f60fb663e3b", null ],
     [ "__int__", "classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask.html#a2ba07c40e795965b0cf2280cc6ae256b", null ],
     [ "__invert__", "classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask.html#a08eb846be805c13c2848f5ce548070f1", null ],

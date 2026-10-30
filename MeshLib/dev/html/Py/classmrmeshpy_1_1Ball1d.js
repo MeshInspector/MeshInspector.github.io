@@ -3,6 +3,7 @@ var classmrmeshpy_1_1Ball1d =
     [ "__init__", "classmrmeshpy_1_1Ball1d.html#a3a86337fa368e3831ffcf33312910ec2", null ],
     [ "__init__", "classmrmeshpy_1_1Ball1d.html#a7b82ef8afc682cd6ece18eedc15c034b", null ],
     [ "__init__", "classmrmeshpy_1_1Ball1d.html#a1f41a4bdc0a11167eadafbb133374c49", null ],
+    [ "assign", "classmrmeshpy_1_1Ball1d.html#ae5ea3ce4a1b3a6173f6e948dd0471799", null ],
     [ "center", "classmrmeshpy_1_1Ball1d.html#a88587ef30639324dddee70b0be817b5e", null ],
     [ "center", "classmrmeshpy_1_1Ball1d.html#a9933134a3bd47438a8b168892eba19c5", null ],
     [ "inside", "classmrmeshpy_1_1Ball1d.html#ae52d59a4b78ea61baff17aa5480e777a", null ],

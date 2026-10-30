@@ -11,6 +11,7 @@ var classmrmeshpy_1_1Vector__OneMeshIntersection =
     [ "__len__", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#addd17760eda08f3fcaee1ff783d039bd", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#ab3a364c64377e67596d9d84578733380", null ],
     [ "assign", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#ad7c6dc0e19f7a6413950b862ff1ed55b", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#aae9bde45a5e9d5b71e7ec66eaf23d938", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#a60bd5de59394aa30d25a7e832995c2f3", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#a5f6f5807c462dd16d0c7fca6497560ec", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__OneMeshIntersection.html#a2db8454210f121bbc92871aac328c603", null ],

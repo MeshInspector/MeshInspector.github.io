@@ -3,6 +3,7 @@ var classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions =
     [ "__init__", "classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#a2a4a1e99d3c5d7099d74bf19bfc53a71", null ],
     [ "__init__", "classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#a289be3153616b24ee316a627d4ea1db9", null ],
     [ "__init__", "classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#af913b85871e9782ab232d172e97e94ef", null ],
+    [ "assign", "classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#afc7778ccd56eca95eb02c8f744a3225c", null ],
     [ "densificationSequence", "classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#af858d12513ea9342d47afdb8cd640b49", null ],
     [ "densificationSequence", "classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#af42b457d066e0e016919ae40b8b0c839", null ],
     [ "nestDimensionsCache", "classmrmeshpy_1_1Nesting_1_1TetrisDensifyOptions.html#a187115e246e77ae14646475721b6e417", null ],

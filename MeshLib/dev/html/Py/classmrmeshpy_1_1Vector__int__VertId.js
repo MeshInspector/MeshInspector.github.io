@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__int__VertId =
     [ "__ne__", "classmrmeshpy_1_1Vector__int__VertId.html#abd074827116c134e00d1ffba1a6b82a2", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__int__VertId.html#addfffeff68ac0417e071f5705629c34b", null ],
     [ "assign", "classmrmeshpy_1_1Vector__int__VertId.html#afa35df5ed791589dc652678687b57fed", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__int__VertId.html#a6556cbe34e2e37bed3bd44d4b48c590e", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__int__VertId.html#ab72eae5a2c7b7156b0f40ddbfcb11910", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__int__VertId.html#a94fa6d37169324c0224203b6e729c051", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__int__VertId.html#accbe2732f4a6d1c8b95258a93d50a0aa", null ],

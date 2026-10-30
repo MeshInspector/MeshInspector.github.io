@@ -7,6 +7,7 @@ var classmrmeshpy_1_1TriangulationHelpers_1_1Settings =
     [ "actualRadius", "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a7412078ac42a8f47cae7d08659d1d082", null ],
     [ "allNeighbors", "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a9e0da8f046a72ce456482387733bbd53", null ],
     [ "allNeighbors", "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#ab6d4b2aacfe27daa958eae6b76ce1047", null ],
+    [ "assign", "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a254af77b23b36b2cc622620e8ac11302", null ],
     [ "automaticRadiusIncrease", "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a64205e988cfbe5d5e4c79cd0018a466c", null ],
     [ "automaticRadiusIncrease", "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a5ef6cd18a939712149046b6ed8e46cf8", null ],
     [ "boundaryAngle", "classmrmeshpy_1_1TriangulationHelpers_1_1Settings.html#a846986fdff410d7ce00dab884a7fa6f3", null ],

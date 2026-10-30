@@ -6,6 +6,7 @@ var classmrmeshpy_1_1OneMeshIntersection =
     [ "__init__", "classmrmeshpy_1_1OneMeshIntersection.html#a59e77e2c26d1befc0550b0c15e1740e9", null ],
     [ "__init__", "classmrmeshpy_1_1OneMeshIntersection.html#aab7bb81cef20655a12b9aa10dc365f16", null ],
     [ "__init__", "classmrmeshpy_1_1OneMeshIntersection.html#a7688411369114e1a6c145a7b312b4289", null ],
+    [ "assign", "classmrmeshpy_1_1OneMeshIntersection.html#a5cbca1c0cdb9fb1f29bb2415eae47d60", null ],
     [ "edge", "classmrmeshpy_1_1OneMeshIntersection.html#a6ebcc7dfb9ab329ea4e5bec67a7e9ccf", null ],
     [ "face", "classmrmeshpy_1_1OneMeshIntersection.html#ae94b5af292ebcf1339083e8efa4ee175", null ],
     [ "isEdge", "classmrmeshpy_1_1OneMeshIntersection.html#a882a06a156afb2a41a42f6ed42844b63", null ],

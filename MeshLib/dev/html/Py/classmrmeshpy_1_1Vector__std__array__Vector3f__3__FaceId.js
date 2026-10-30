@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId =
     [ "__ne__", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#aa2a9a851f249f5c2edbce56271b8b5e6", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a93108b170a6ae43ece59dafbe3980e82", null ],
     [ "assign", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a08b9fcabf351a5f3a0cffefa2e5aec66", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#af332d82a2d334f5b342610a583c0ea2e", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#af2933dc6c583706ed443e7f9e2e03059", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#adf07a018d1a07833579ac8d0ff40340e", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a2eaa6e13233d2cc7d46f7117fbc0897b", null ],

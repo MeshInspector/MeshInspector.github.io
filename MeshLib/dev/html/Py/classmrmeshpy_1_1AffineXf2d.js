@@ -10,6 +10,7 @@ var classmrmeshpy_1_1AffineXf2d =
     [ "__repr__", "classmrmeshpy_1_1AffineXf2d.html#a42d5a12630d36817d2f05caed451260c", null ],
     [ "__rlshift__", "classmrmeshpy_1_1AffineXf2d.html#a4e8ecb62dffd204848cf346a2146e31c", null ],
     [ "__rrshift__", "classmrmeshpy_1_1AffineXf2d.html#afa98a09c8ef83133323f0a0a66dafcba", null ],
+    [ "assign", "classmrmeshpy_1_1AffineXf2d.html#a0cfd2a8411d331a4e24a08a83d7d32c0", null ],
     [ "inverse", "classmrmeshpy_1_1AffineXf2d.html#af623a41ab2b2fa557ad2aa534fd75212", null ],
     [ "linearOnly", "classmrmeshpy_1_1AffineXf2d.html#afabee5f8ca0662b83e1dbfd185cd8e81", null ]
 ];

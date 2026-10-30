@@ -13,6 +13,7 @@ var classmrmeshpy_1_1VertMap =
     [ "__ne__", "classmrmeshpy_1_1VertMap.html#a894c9027d23f3d57439b0c6c2f61eaa8", null ],
     [ "__setitem__", "classmrmeshpy_1_1VertMap.html#ab21bd9b070b2279964eafa6ffcf964fd", null ],
     [ "assign", "classmrmeshpy_1_1VertMap.html#aed02770a98431d9bd6e3010c64ad4a66", null ],
+    [ "assign", "classmrmeshpy_1_1VertMap.html#af1b7d705402a978c20a316580c5d339f", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1VertMap.html#ad5c92e16d1d6a111d5284763733982a2", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1VertMap.html#a7063a03d7945cd07c7de08db32e5b326", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1VertMap.html#adc5d16cadf6191af0636ac03689c5314", null ],

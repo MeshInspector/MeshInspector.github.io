@@ -144,6 +144,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7f588f169cfab3f2d2af9be61a920c32" id="r_a7f588f169cfab3f2d2af9be61a920c32"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f588f169cfab3f2d2af9be61a920c32">__init__</a> (self)</td></tr>
 <tr class="memitem:a3908688eff5c630d2c4345b27e529d5b" id="r_a3908688eff5c630d2c4345b27e529d5b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3908688eff5c630d2c4345b27e529d5b">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1RemeshSettings.html">RemeshSettings</a> arg0)</td></tr>
 <tr class="memitem:a2bb8b18caae12652e755a672161b906f" id="r_a2bb8b18caae12652e755a672161b906f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bb8b18caae12652e755a672161b906f">__init__</a> (self, float <a class="el" href="#a4d5801bbac1c769610d582e46234fb2f">targetEdgeLen</a>, int <a class="el" href="#a2aa8fc0ff163496672fe888b86175118">maxEdgeSplits</a>, float <a class="el" href="#ac0bc6f88dd89370313d22ccbd26f8aa9">maxAngleChangeAfterFlip</a>, bool <a class="el" href="#a65404f78813a5481c0a8bfeba794f8c0">frozenBoundary</a>, float <a class="el" href="#ab7a1c165a332967431ca73cacd71a598">maxBdShift</a>, bool <a class="el" href="#a749943d87fd59c35bed10e6f246cc33f">useCurvature</a>, float <a class="el" href="#adf302503d25626445275efa681523360">maxSplittableTriAspectRatio</a>, int <a class="el" href="#adcb8a007b9ea011deb95c459c5f9140d">finalRelaxIters</a>, bool <a class="el" href="#a8f3825d4ea637de04b92efdf0f22f5ef">finalRelaxNoShrinkage</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> <a class="el" href="#ae93f401645209dfefdb7d9a74d552d16">region</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> <a class="el" href="#a861fff4f5f8b4b8388da80eb3ff9ff22">notFlippable</a>, bool <a class="el" href="#aa681d0ddf9b02a1d6a6a0c1ed4becd3d">packMesh</a>, bool <a class="el" href="#afa461eafefc2bef1c52ddf565ae99921">projectOnOriginalMesh</a>, <a class="el" href="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag.html">func_void_from_Id_EdgeTag_Id_EdgeTag</a> <a class="el" href="#a8c836065b2949dcd23a96f6fc837f223">onEdgeSplit</a>, <a class="el" href="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag.html">func_void_from_Id_EdgeTag_Id_EdgeTag</a> <a class="el" href="#a5c2e39c8ea34aa238b6d80d13dab2867">onEdgeDel</a>, <a class="el" href="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html">func_bool_from_Id_EdgeTag_Vector3_float</a> <a class="el" href="#a92b8715484f9d34be716297d0ec85d2b">preCollapse</a>, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> <a class="el" href="#a6be546e1b474d953dd5f562446bc5401">progressCallback</a>)</td></tr>
+<tr class="memitem:a91ac9c811a04a857ac1092cfda81c875" id="r_a91ac9c811a04a857ac1092cfda81c875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1RemeshSettings.html">RemeshSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ac9c811a04a857ac1092cfda81c875">assign</a> (self, <a class="el" href="classmrmeshpy_1_1RemeshSettings.html">RemeshSettings</a> other)</td></tr>
 <tr class="memitem:adcb8a007b9ea011deb95c459c5f9140d" id="r_adcb8a007b9ea011deb95c459c5f9140d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcb8a007b9ea011deb95c459c5f9140d">finalRelaxIters</a> (self)</td></tr>
 <tr class="memitem:ac6ebd0a1ec85dded124d05be0cb69d6a" id="r_ac6ebd0a1ec85dded124d05be0cb69d6a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6ebd0a1ec85dded124d05be0cb69d6a">finalRelaxIters</a> (self, int arg1)</td></tr>
 <tr class="memitem:a8f3825d4ea637de04b92efdf0f22f5ef" id="r_a8f3825d4ea637de04b92efdf0f22f5ef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f3825d4ea637de04b92efdf0f22f5ef">finalRelaxNoShrinkage</a> (self)</td></tr>
@@ -182,8 +183,6 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a059665df73ffdedeadefcecbb0ccb8b3" id="r_a059665df73ffdedeadefcecbb0ccb8b3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a059665df73ffdedeadefcecbb0ccb8b3">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a6d9383c49f9dbbda37e8bb8928681c46" id="r_a6d9383c49f9dbbda37e8bb8928681c46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1RemeshSettings.html">RemeshSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d9383c49f9dbbda37e8bb8928681c46">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a6d9383c49f9dbbda37e8bb8928681c46" id="r_a6d9383c49f9dbbda37e8bb8928681c46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1RemeshSettings.html">RemeshSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d9383c49f9dbbda37e8bb8928681c46">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -379,6 +378,27 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a91ac9c811a04a857ac1092cfda81c875" name="a91ac9c811a04a857ac1092cfda81c875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91ac9c811a04a857ac1092cfda81c875">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1RemeshSettings.html">RemeshSettings</a> mrmeshpy.RemeshSettings.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1RemeshSettings.html">RemeshSettings</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adcb8a007b9ea011deb95c459c5f9140d" name="adcb8a007b9ea011deb95c459c5f9140d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adcb8a007b9ea011deb95c459c5f9140d">&#9670;&#160;</a></span>finalRelaxIters() <span class="overload">[1/2]</span></h2>
 
@@ -771,64 +791,6 @@ also the vertices incident to these edges are excluded from relaxation
           <td class="paramtype"><a class="el" href="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag.html">func_void_from_Id_EdgeTag_Id_EdgeTag</a></td>          <td class="paramname"><span class="paramname"><em>arg1</em></span>&#160;)</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6d9383c49f9dbbda37e8bb8928681c46" name="a6d9383c49f9dbbda37e8bb8928681c46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d9383c49f9dbbda37e8bb8928681c46">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1RemeshSettings.html">RemeshSettings</a> mrmeshpy.RemeshSettings.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6d9383c49f9dbbda37e8bb8928681c46" name="a6d9383c49f9dbbda37e8bb8928681c46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d9383c49f9dbbda37e8bb8928681c46">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1RemeshSettings.html">RemeshSettings</a> mrmeshpy.RemeshSettings.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

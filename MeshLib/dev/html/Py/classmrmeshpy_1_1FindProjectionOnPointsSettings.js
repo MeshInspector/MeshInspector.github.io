@@ -3,6 +3,7 @@ var classmrmeshpy_1_1FindProjectionOnPointsSettings =
     [ "__init__", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html#a22eceeb4fcfce6f49f4e6f6a84bb4175", null ],
     [ "__init__", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html#a83e92c75dc4c599d53c73dcdb9e094b8", null ],
     [ "__init__", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html#a31cdaa1a02f55f66cc242ad37011fc58", null ],
+    [ "assign", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html#acc95a2bcd74406c67a3444094b431d09", null ],
     [ "cb", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html#a7880f91b5497a4fbf0fac7b9eb80f2a8", null ],
     [ "cb", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html#adf06b936d2328e00a07fe67e12d8670a", null ],
     [ "loDistLimitSq", "classmrmeshpy_1_1FindProjectionOnPointsSettings.html#a5edd93ab14ee85281b1dc95a39d1b36d", null ],

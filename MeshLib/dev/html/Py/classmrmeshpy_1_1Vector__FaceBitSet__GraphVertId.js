@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId =
     [ "__ne__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a02a7c1759ff2e12bfdea32804e3fbabc", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#aad18040b35c76413e3ac09d882e356b1", null ],
     [ "assign", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a6890cc93faad2f6be7ab91d76bc05736", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a79de1505b62f0a1c03fffff1fa30a07a", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a58a8db2bf6cdce229aaee72069c06d15", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#aeb52bd7a1f44ab5dcfc865c13ed72aea", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId.html#a21edaf3ae862f5601b449b5e9763b460", null ],

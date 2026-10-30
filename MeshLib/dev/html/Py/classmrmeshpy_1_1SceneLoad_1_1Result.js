@@ -3,6 +3,7 @@ var classmrmeshpy_1_1SceneLoad_1_1Result =
     [ "__init__", "classmrmeshpy_1_1SceneLoad_1_1Result.html#a7771783be12add88ee6dffa122217df1", null ],
     [ "__init__", "classmrmeshpy_1_1SceneLoad_1_1Result.html#a329d91f3d2abaf16f618d8cfefc5167a", null ],
     [ "__init__", "classmrmeshpy_1_1SceneLoad_1_1Result.html#a7a74a73b77d614cd28ca1fac1347a7a1", null ],
+    [ "assign", "classmrmeshpy_1_1SceneLoad_1_1Result.html#adb14e4a6f304ba33bce17814c7086e9d", null ],
     [ "errorSummary", "classmrmeshpy_1_1SceneLoad_1_1Result.html#a37b17122dfa4c1cef41d4da10f75e787", null ],
     [ "errorSummary", "classmrmeshpy_1_1SceneLoad_1_1Result.html#a37fc77be8f25da03011c5a488d8c45c2", null ],
     [ "isSceneConstructed", "classmrmeshpy_1_1SceneLoad_1_1Result.html#ab4f7cdac9ec513f5f519131e69697ffb", null ],

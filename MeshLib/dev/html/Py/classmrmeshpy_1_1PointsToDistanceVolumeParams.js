@@ -2,6 +2,7 @@ var classmrmeshpy_1_1PointsToDistanceVolumeParams =
 [
     [ "__init__", "classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a6cad2cc1e7abff51117b5e98e6f0722b", null ],
     [ "__init__", "classmrmeshpy_1_1PointsToDistanceVolumeParams.html#aea6a486974cbd2089d2d755323de720f", null ],
+    [ "assign", "classmrmeshpy_1_1PointsToDistanceVolumeParams.html#ac3a77aed2c1a3c2f1b2caddb2c35516a", null ],
     [ "invSigmaModifier", "classmrmeshpy_1_1PointsToDistanceVolumeParams.html#a4a65d83f62d293ef28cb9c0f60a9ba7d", null ],
     [ "invSigmaModifier", "classmrmeshpy_1_1PointsToDistanceVolumeParams.html#aac1eaa6f23a80ea4daa3698f5b7c5b21", null ],
     [ "minWeight", "classmrmeshpy_1_1PointsToDistanceVolumeParams.html#aa87f2215a4fc542abc33f51da0a3b7af", null ],

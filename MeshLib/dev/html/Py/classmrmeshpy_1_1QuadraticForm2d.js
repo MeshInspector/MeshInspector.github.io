@@ -8,5 +8,6 @@ var classmrmeshpy_1_1QuadraticForm2d =
     [ "addDistToOrigin", "classmrmeshpy_1_1QuadraticForm2d.html#ae46f577609082cc398f0f80d85e67f31", null ],
     [ "addDistToPlane", "classmrmeshpy_1_1QuadraticForm2d.html#a0029cb5d8bb32c82f0f2a7574f53e715", null ],
     [ "addDistToPlane", "classmrmeshpy_1_1QuadraticForm2d.html#af2b82aafdf68d1f4a1453ba7119c1852", null ],
+    [ "assign", "classmrmeshpy_1_1QuadraticForm2d.html#ae592c263cdbcb95df9f800d9176dd868", null ],
     [ "eval", "classmrmeshpy_1_1QuadraticForm2d.html#a843a2937af343af6d77c38ad8e905099", null ]
 ];

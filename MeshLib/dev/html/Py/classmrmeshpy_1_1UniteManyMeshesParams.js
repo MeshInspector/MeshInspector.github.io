@@ -3,6 +3,7 @@ var classmrmeshpy_1_1UniteManyMeshesParams =
     [ "__init__", "classmrmeshpy_1_1UniteManyMeshesParams.html#a6b75470354ab2c84f4fd8ad042102fc4", null ],
     [ "__init__", "classmrmeshpy_1_1UniteManyMeshesParams.html#a4dcc615aaf063a321bdb0a2f7b57a29d", null ],
     [ "__init__", "classmrmeshpy_1_1UniteManyMeshesParams.html#a0fbfbd542a0990615f2f51d7644b5569", null ],
+    [ "assign", "classmrmeshpy_1_1UniteManyMeshesParams.html#ad39f41af5551c754104633eafca34e35", null ],
     [ "fixDegenerations", "classmrmeshpy_1_1UniteManyMeshesParams.html#a79549c3ed005154678ddb4f5fb641021", null ],
     [ "fixDegenerations", "classmrmeshpy_1_1UniteManyMeshesParams.html#a4c003f09bb8ae1b7d1c25b6b67cc49e0", null ],
     [ "forceCut", "classmrmeshpy_1_1UniteManyMeshesParams.html#a79935178bf60d88edc14922c0be39bc8", null ],

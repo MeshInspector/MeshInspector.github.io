@@ -7,6 +7,7 @@ var classmrmeshpy_1_1GCommand =
     [ "arcCenter", "classmrmeshpy_1_1GCommand.html#a09a9c88fca65cf66ebdb6a6741f9e1d4", null ],
     [ "arcPlane", "classmrmeshpy_1_1GCommand.html#a52b15203cbd0e796c36b225911b69a0e", null ],
     [ "arcPlane", "classmrmeshpy_1_1GCommand.html#ab6696fd2dcf1d1c7b3acec72c0dc2a25", null ],
+    [ "assign", "classmrmeshpy_1_1GCommand.html#a4c5aa7ce90cd64c64cb98f9f2340abd5", null ],
     [ "feed", "classmrmeshpy_1_1GCommand.html#af6fa004fb884c3e7563b4873c5d93c2d", null ],
     [ "feed", "classmrmeshpy_1_1GCommand.html#aedaa793033a936bdd059af25224487cf", null ],
     [ "type", "classmrmeshpy_1_1GCommand.html#ae81b79f13e2d6188fc3994f659686d7c", null ],

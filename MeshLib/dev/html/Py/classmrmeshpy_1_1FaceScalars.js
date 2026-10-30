@@ -12,6 +12,7 @@ var classmrmeshpy_1_1FaceScalars =
     [ "__len__", "classmrmeshpy_1_1FaceScalars.html#ac885496f0bc1f310068531cdf61c96a0", null ],
     [ "__ne__", "classmrmeshpy_1_1FaceScalars.html#a2f12b719493d74c3de823902e7e56e2e", null ],
     [ "__setitem__", "classmrmeshpy_1_1FaceScalars.html#a4fe3ed9959a2e2c026bf9b6e370907e8", null ],
+    [ "assign", "classmrmeshpy_1_1FaceScalars.html#a6f8f598c53b02b72f400340054d32d2c", null ],
     [ "assign", "classmrmeshpy_1_1FaceScalars.html#a42d7627a4caac2d436e0925ed4408510", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1FaceScalars.html#ae0be9c37c00437a11b23d4ed53405ba7", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1FaceScalars.html#a46b066e0429062bf6112dd9a51be897a", null ],

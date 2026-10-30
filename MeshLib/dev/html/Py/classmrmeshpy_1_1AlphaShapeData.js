@@ -3,6 +3,7 @@ var classmrmeshpy_1_1AlphaShapeData =
     [ "__init__", "classmrmeshpy_1_1AlphaShapeData.html#a9ab2068221b96b5617baacb29852570b", null ],
     [ "__init__", "classmrmeshpy_1_1AlphaShapeData.html#aa651c997f60cb47d5c6ee15145944482", null ],
     [ "__init__", "classmrmeshpy_1_1AlphaShapeData.html#a3e1bc6b1609191140ff5885fb9ee1219", null ],
+    [ "assign", "classmrmeshpy_1_1AlphaShapeData.html#a72878af3b3dea64551aad25cf0b78199", null ],
     [ "coords", "classmrmeshpy_1_1AlphaShapeData.html#a3cc116038d392ece45adc853c1634162", null ],
     [ "intPoints", "classmrmeshpy_1_1AlphaShapeData.html#acaee21ef767a5e3d6aca373b42d1916e", null ],
     [ "intPoints", "classmrmeshpy_1_1AlphaShapeData.html#a88159a43b8b363f21a5a64092adce0e3", null ],

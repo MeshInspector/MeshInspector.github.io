@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__VarEdgeTri =
     [ "__ne__", "classmrmeshpy_1_1Vector__VarEdgeTri.html#a0e9ec95241355181d2702a93975a2f13", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__VarEdgeTri.html#a74bc2d1f4f77fea39f7a485a1fea8831", null ],
     [ "assign", "classmrmeshpy_1_1Vector__VarEdgeTri.html#a6f80b48d9b10399e54cb9e9865d5181b", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__VarEdgeTri.html#a2cdbc66fdcb4d8d2ad7ce9b97f4ca670", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__VarEdgeTri.html#ab8d8607eef72ca187cf3c616a7d10397", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__VarEdgeTri.html#a08ac4cd27f9d8480147a27141f6124af", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__VarEdgeTri.html#a4fd7106ae328696f1342fb5c9ca3b8fb", null ],

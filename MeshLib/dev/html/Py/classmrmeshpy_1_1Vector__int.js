@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__int =
     [ "__ne__", "classmrmeshpy_1_1Vector__int.html#a7273c75308df92ba096e589ae473cfc1", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__int.html#acbfa01677a7ace252fe5a837d32d932c", null ],
     [ "assign", "classmrmeshpy_1_1Vector__int.html#aa96ec7ba9fd9ec21d8c366296e978abe", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__int.html#a1ca3cefe592206e6a80c74b14ec2e4f4", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__int.html#ac4369a425e135a14f8d0ee7f8bacd4d0", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__int.html#a16a00f41928a200f3d410fc5e2da30e6", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__int.html#af9292fc29dd83df63fe95c125b598653", null ],

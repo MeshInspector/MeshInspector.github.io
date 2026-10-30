@@ -8,11 +8,12 @@ var classmrmeshpy_1_1LocaleDomainId =
     [ "__iadd__", "classmrmeshpy_1_1LocaleDomainId.html#a373c01efbda47ca689be9bd6f7fd5166", null ],
     [ "__int__", "classmrmeshpy_1_1LocaleDomainId.html#a2314d0bd64a012367981157a9d7aed0e", null ],
     [ "__isub__", "classmrmeshpy_1_1LocaleDomainId.html#a1e409da29607002aa78fb32c3eaf4691", null ],
+    [ "__lt__", "classmrmeshpy_1_1LocaleDomainId.html#aeb897c63ddeed4c1634a209febfac751", null ],
     [ "__ne__", "classmrmeshpy_1_1LocaleDomainId.html#a9e6f7441d2fa8f95b2b037449c813b26", null ],
     [ "__repr__", "classmrmeshpy_1_1LocaleDomainId.html#a53ce883a3ab2524cc3a4a6e8f7f83531", null ],
+    [ "assign", "classmrmeshpy_1_1LocaleDomainId.html#ab95eea4512dbd7c68a61c5c7cf3ba477", null ],
+    [ "decrement", "classmrmeshpy_1_1LocaleDomainId.html#a48d79a721038bd0431f4283eae8616e8", null ],
     [ "get", "classmrmeshpy_1_1LocaleDomainId.html#a01b363f46c6cc5ab4ed441a39736c76d", null ],
-    [ "operator", "classmrmeshpy_1_1LocaleDomainId.html#ab3d482ade8ce49959ea190feb8f7acb5", null ],
-    [ "operator", "classmrmeshpy_1_1LocaleDomainId.html#aacabf1f4c429a61ecd79b9f130b82025", null ],
-    [ "operator_minus_minus", "classmrmeshpy_1_1LocaleDomainId.html#a74f45db42e0779d7c1767db022fb6b9d", null ],
+    [ "increment", "classmrmeshpy_1_1LocaleDomainId.html#a3fe1baa6cae3f1791b3dc7bedc044a08", null ],
     [ "valid", "classmrmeshpy_1_1LocaleDomainId.html#ab9785d0f8365f507e5ef7cc0c3669f91", null ]
 ];

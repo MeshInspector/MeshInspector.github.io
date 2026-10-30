@@ -6,5 +6,6 @@ var classmrmeshpy_1_1MeshMeshConverter =
     [ "__call__", "classmrmeshpy_1_1MeshMeshConverter.html#a74a6ac42470201343b623fc8c4bb8d3e", null ],
     [ "__call__", "classmrmeshpy_1_1MeshMeshConverter.html#ad712d40fbf9767738f20b2af5add9c52", null ],
     [ "__call__", "classmrmeshpy_1_1MeshMeshConverter.html#a41997504175223d4ce76fd629819c471", null ],
-    [ "__call__", "classmrmeshpy_1_1MeshMeshConverter.html#a41997504175223d4ce76fd629819c471", null ]
+    [ "__call__", "classmrmeshpy_1_1MeshMeshConverter.html#a41997504175223d4ce76fd629819c471", null ],
+    [ "assign", "classmrmeshpy_1_1MeshMeshConverter.html#a751aa65afdc244328ecb7a3c5118493d", null ]
 ];

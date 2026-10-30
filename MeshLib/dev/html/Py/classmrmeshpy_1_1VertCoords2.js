@@ -13,6 +13,7 @@ var classmrmeshpy_1_1VertCoords2 =
     [ "__ne__", "classmrmeshpy_1_1VertCoords2.html#a2bc32dccd05656984d77021a4f0e127a", null ],
     [ "__setitem__", "classmrmeshpy_1_1VertCoords2.html#a6a98b799f333aa9ec2a5b504eb5ca674", null ],
     [ "assign", "classmrmeshpy_1_1VertCoords2.html#ab29f1d8ac05e09c0140f1922daf9bd67", null ],
+    [ "assign", "classmrmeshpy_1_1VertCoords2.html#a143ff0c07b0c651b99d308ee2e20a536", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1VertCoords2.html#acdcca5e6b4ea90eb939509e471e19e17", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1VertCoords2.html#ac09ed57ef3ab65fc3c05c52981a018d9", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1VertCoords2.html#aa2e72023dd161cecdab435766f2c77a5", null ],

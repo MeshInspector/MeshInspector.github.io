@@ -151,6 +151,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab98b28641206dc09aad099c073a85b8c" id="r_ab98b28641206dc09aad099c073a85b8c"><td class="memItemLeft" align="right" valign="top">typing.Iterator[<a class="el" href="classmrmeshpy_1_1Dipole.html">Dipole</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab98b28641206dc09aad099c073a85b8c">__iter__</a> (self)</td></tr>
 <tr class="memitem:a0488ecc8dd35548d0d33686ec58b9416" id="r_a0488ecc8dd35548d0d33686ec58b9416"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0488ecc8dd35548d0d33686ec58b9416">__len__</a> (self)</td></tr>
 <tr class="memitem:a8140f02abd1178b353d29db426718619" id="r_a8140f02abd1178b353d29db426718619"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8140f02abd1178b353d29db426718619">__setitem__</a> (self, <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> arg0, <a class="el" href="classmrmeshpy_1_1Dipole.html">Dipole</a> arg1)</td></tr>
+<tr class="memitem:aab5bb0c9ca8ee3e82f9a9791ac7c9984" id="r_aab5bb0c9ca8ee3e82f9a9791ac7c9984"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Dipoles.html">Dipoles</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab5bb0c9ca8ee3e82f9a9791ac7c9984">assign</a> (self, <a class="el" href="classmrmeshpy_1_1Dipoles.html">Dipoles</a> other)</td></tr>
 <tr class="memitem:a7e5666c2fc1bab5bc96a6893a59ea4fe" id="r_a7e5666c2fc1bab5bc96a6893a59ea4fe"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e5666c2fc1bab5bc96a6893a59ea4fe">assign</a> (self, int count, <a class="el" href="classmrmeshpy_1_1Dipole.html">Dipole</a> val)</td></tr>
 <tr class="memitem:a7ef0473cbcd8806ce47786c9e6da5a93" id="r_a7ef0473cbcd8806ce47786c9e6da5a93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Dipole.html">Dipole</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ef0473cbcd8806ce47786c9e6da5a93">autoResizeAt</a> (self, <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> i)</td></tr>
 <tr class="memitem:aa51409fde2903c82512d7357a87be474" id="r_aa51409fde2903c82512d7357a87be474"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa51409fde2903c82512d7357a87be474">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> pos, int len, <a class="el" href="classmrmeshpy_1_1Dipole.html">Dipole</a> val)</td></tr>
@@ -186,8 +187,6 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a31c90a6367fc1ba9a4cc67d047e15297" id="r_a31c90a6367fc1ba9a4cc67d047e15297"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31c90a6367fc1ba9a4cc67d047e15297">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a129853722bf73590e0be6e8e4b397b55" id="r_a129853722bf73590e0be6e8e4b397b55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Dipoles.html">Dipoles</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a129853722bf73590e0be6e8e4b397b55">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a129853722bf73590e0be6e8e4b397b55" id="r_a129853722bf73590e0be6e8e4b397b55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Dipoles.html">Dipoles</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a129853722bf73590e0be6e8e4b397b55">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -440,8 +439,29 @@ Vector&lt;T&gt; is indexed by size_t
 
 </div>
 </div>
+<a id="aab5bb0c9ca8ee3e82f9a9791ac7c9984" name="aab5bb0c9ca8ee3e82f9a9791ac7c9984"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab5bb0c9ca8ee3e82f9a9791ac7c9984">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Dipoles.html">Dipoles</a> mrmeshpy.Dipoles.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Dipoles.html">Dipoles</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7e5666c2fc1bab5bc96a6893a59ea4fe" name="a7e5666c2fc1bab5bc96a6893a59ea4fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e5666c2fc1bab5bc96a6893a59ea4fe">&#9670;&#160;</a></span>assign()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e5666c2fc1bab5bc96a6893a59ea4fe">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -787,64 +807,6 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
           <td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a129853722bf73590e0be6e8e4b397b55" name="a129853722bf73590e0be6e8e4b397b55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a129853722bf73590e0be6e8e4b397b55">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Dipoles.html">Dipoles</a> mrmeshpy.Dipoles.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a129853722bf73590e0be6e8e4b397b55" name="a129853722bf73590e0be6e8e4b397b55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a129853722bf73590e0be6e8e4b397b55">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Dipoles.html">Dipoles</a> mrmeshpy.Dipoles.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

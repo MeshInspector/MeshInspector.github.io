@@ -12,6 +12,7 @@ var classmrmeshpy_1_1Face2RegionMap =
     [ "__len__", "classmrmeshpy_1_1Face2RegionMap.html#aa2ecc68f92f93f4081344edf54af474e", null ],
     [ "__ne__", "classmrmeshpy_1_1Face2RegionMap.html#a8c8672a7e5d0e084605bfb227b78e46a", null ],
     [ "__setitem__", "classmrmeshpy_1_1Face2RegionMap.html#a1e6ed1d1934c083cb78903cd62b9fb39", null ],
+    [ "assign", "classmrmeshpy_1_1Face2RegionMap.html#a0e38645e5b6e2fc9d07aa5c02dcc42dd", null ],
     [ "assign", "classmrmeshpy_1_1Face2RegionMap.html#a31aaa700c43ef9def8bd9bd083335984", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Face2RegionMap.html#ab0fc67dd6bfb914938a02d3196c26372", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Face2RegionMap.html#a4c996d14758dbf00646d27ac715728a0", null ],

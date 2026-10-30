@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1FeatureObjectSharedProperty =
 [
     [ "__init__", "classmrmeshpy_1_1FeatureObjectSharedProperty.html#ad6df368cf5eec6d28e617eb0f17ac868", null ],
+    [ "assign", "classmrmeshpy_1_1FeatureObjectSharedProperty.html#a535615d40b5402e1660c880691b77401", null ],
     [ "getter", "classmrmeshpy_1_1FeatureObjectSharedProperty.html#aa41c95f27556fb2e257695940df882c2", null ],
     [ "getter", "classmrmeshpy_1_1FeatureObjectSharedProperty.html#a5612ee65b06720251443fff8dd33ee13", null ],
     [ "setter", "classmrmeshpy_1_1FeatureObjectSharedProperty.html#a228dc0492a24ab4493accf8a8a9e9c5d", null ],

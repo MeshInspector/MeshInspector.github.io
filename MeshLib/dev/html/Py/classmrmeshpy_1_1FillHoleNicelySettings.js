@@ -3,6 +3,7 @@ var classmrmeshpy_1_1FillHoleNicelySettings =
     [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#ae6ea8ac79fa3e78fc50502640af68e2a", null ],
     [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#ac5e3498c40d977fe9fde7f527d77942b", null ],
     [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#a8f73c7daa8eca700786cfd5fcd237c07", null ],
+    [ "assign", "classmrmeshpy_1_1FillHoleNicelySettings.html#aa4ee18f5436280cf34851fe71ab2e28f", null ],
     [ "outAttributes", "classmrmeshpy_1_1FillHoleNicelySettings.html#acfaed9149d9191395c9ea08c947da2d6", null ],
     [ "outAttributes", "classmrmeshpy_1_1FillHoleNicelySettings.html#a1c868371abef0eb02374cd226abce0ba", null ],
     [ "smoothCurvature", "classmrmeshpy_1_1FillHoleNicelySettings.html#a72e52ea4b95f57b6395f38dbf4ab3e52", null ],

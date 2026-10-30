@@ -3,6 +3,7 @@ var classmrmeshpy_1_1BendContoursAlongCurveParams =
     [ "__init__", "classmrmeshpy_1_1BendContoursAlongCurveParams.html#a4d1266779ad537755d1deb939f55817a", null ],
     [ "__init__", "classmrmeshpy_1_1BendContoursAlongCurveParams.html#a1e8c9ad5ff6625fad0b5be5abb30b25a", null ],
     [ "__init__", "classmrmeshpy_1_1BendContoursAlongCurveParams.html#a655b1327f069daf8c531fd650783a184", null ],
+    [ "assign", "classmrmeshpy_1_1BendContoursAlongCurveParams.html#ae9afee1bd65c78188cd6750d5831ad80", null ],
     [ "extrusion", "classmrmeshpy_1_1BendContoursAlongCurveParams.html#a7e4732d8e06c95f5b96866d585a75301", null ],
     [ "extrusion", "classmrmeshpy_1_1BendContoursAlongCurveParams.html#ac5ebbb8a6676156e36f5eae9d2da9750", null ],
     [ "periodicCurve", "classmrmeshpy_1_1BendContoursAlongCurveParams.html#ac5bfd351e1f55df955e980d9a88483c5", null ],

@@ -5,6 +5,7 @@ var classmrmeshpy_1_1MeshMeshDistanceResult =
     [ "__init__", "classmrmeshpy_1_1MeshMeshDistanceResult.html#ad2bdcd644053ed36aee77eb5e6bb5582", null ],
     [ "a", "classmrmeshpy_1_1MeshMeshDistanceResult.html#a92229076a95ca07b7079b22179b9a071", null ],
     [ "a", "classmrmeshpy_1_1MeshMeshDistanceResult.html#a8318ba06069c1eac120234e2ed637e74", null ],
+    [ "assign", "classmrmeshpy_1_1MeshMeshDistanceResult.html#aa61088a56362fe8eea1b7bc1d2a4fc83", null ],
     [ "b", "classmrmeshpy_1_1MeshMeshDistanceResult.html#a7392ef39dd54726cd661fdd1b342b18d", null ],
     [ "b", "classmrmeshpy_1_1MeshMeshDistanceResult.html#a7773ab43f39f0d371257bd93654d1291", null ],
     [ "distSq", "classmrmeshpy_1_1MeshMeshDistanceResult.html#a20fac53509635d55ac7e2b8cc34771de", null ],

@@ -4,6 +4,7 @@ var classmrmeshpy_1_1VolumeIndexer =
     [ "__init__", "classmrmeshpy_1_1VolumeIndexer.html#a3c1125afb0f09b71ee8d9f5f9c56fe8c", null ],
     [ "areNeigbors", "classmrmeshpy_1_1VolumeIndexer.html#a61107622223c9d5a817b4b14d448bd19", null ],
     [ "areNeigbors", "classmrmeshpy_1_1VolumeIndexer.html#ad4da5334bc7f5b675c432c15d0f8a19b", null ],
+    [ "assign", "classmrmeshpy_1_1VolumeIndexer.html#a153c0c3ba6ea8feac7c9a1430a315b79", null ],
     [ "dims", "classmrmeshpy_1_1VolumeIndexer.html#afabf9705c1b6d7911634a5bc1d536485", null ],
     [ "endId", "classmrmeshpy_1_1VolumeIndexer.html#ad294f7b10374b3a5af9088cfed027fbf", null ],
     [ "getExistingNeighbor", "classmrmeshpy_1_1VolumeIndexer.html#a82137cdd5d805d72974516175ca5c9c3", null ],

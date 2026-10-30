@@ -6,6 +6,7 @@ var classmrmeshpy_1_1EdgeSegment =
     [ "__eq__", "classmrmeshpy_1_1EdgeSegment.html#a28d9435972e07395c4643b493ccca99b", null ],
     [ "a", "classmrmeshpy_1_1EdgeSegment.html#abc84e64db7398e8a19bd34108d75ed90", null ],
     [ "a", "classmrmeshpy_1_1EdgeSegment.html#abbe5816b2be9897b9ab1a47627f06f59", null ],
+    [ "assign", "classmrmeshpy_1_1EdgeSegment.html#a6560c6aa6bf8f8b34583878f0bb98bdc", null ],
     [ "b", "classmrmeshpy_1_1EdgeSegment.html#a1eb3cda06b53d1fd13d70e7f22504759", null ],
     [ "b", "classmrmeshpy_1_1EdgeSegment.html#adb9c5efeb5b81923981504650ef906b8", null ],
     [ "e", "classmrmeshpy_1_1EdgeSegment.html#aca95735e0800f48dcd79016ee49b7939", null ],

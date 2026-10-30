@@ -3,6 +3,7 @@ var classmrmeshpy_1_1RefineParameters =
     [ "__init__", "classmrmeshpy_1_1RefineParameters.html#acf33a05de47a2831ac4cf048c1a74741", null ],
     [ "__init__", "classmrmeshpy_1_1RefineParameters.html#acd0f46bb4315867d74418969152d5cb0", null ],
     [ "__init__", "classmrmeshpy_1_1RefineParameters.html#a9f20ffd02f56b33f919ff90ad3b9dbd2", null ],
+    [ "assign", "classmrmeshpy_1_1RefineParameters.html#a4b7a2179a72f575cfa18cd0fdf50d73c", null ],
     [ "callback", "classmrmeshpy_1_1RefineParameters.html#a118df3b4ad0b5de329b439dd35545cb8", null ],
     [ "callback", "classmrmeshpy_1_1RefineParameters.html#a2ed0870ce4b93a5512598bab0264114f", null ],
     [ "distanceLimit", "classmrmeshpy_1_1RefineParameters.html#ace795ecc7673a27af34bed714a4b169b", null ],

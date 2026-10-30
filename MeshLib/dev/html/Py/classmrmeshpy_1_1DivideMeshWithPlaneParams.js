@@ -3,6 +3,7 @@ var classmrmeshpy_1_1DivideMeshWithPlaneParams =
     [ "__init__", "classmrmeshpy_1_1DivideMeshWithPlaneParams.html#af3537a86b5784a9827d7c4ea8df99d73", null ],
     [ "__init__", "classmrmeshpy_1_1DivideMeshWithPlaneParams.html#a2b3e91c9f7d94791bdfa5e2d4c5c84cc", null ],
     [ "__init__", "classmrmeshpy_1_1DivideMeshWithPlaneParams.html#a0edf71892e73a3804324026acf321d34", null ],
+    [ "assign", "classmrmeshpy_1_1DivideMeshWithPlaneParams.html#a5eee408bb247233e8afb4c9522075ff2", null ],
     [ "eps", "classmrmeshpy_1_1DivideMeshWithPlaneParams.html#a8c40eebec347fb7ed6d77898c559250e", null ],
     [ "eps", "classmrmeshpy_1_1DivideMeshWithPlaneParams.html#a58004b1b1e020b273a7d824439281f8e", null ],
     [ "errors", "classmrmeshpy_1_1DivideMeshWithPlaneParams.html#a66037292b6c1a65832f48f270a397057", null ],

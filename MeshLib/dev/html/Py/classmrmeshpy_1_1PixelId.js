@@ -8,11 +8,12 @@ var classmrmeshpy_1_1PixelId =
     [ "__iadd__", "classmrmeshpy_1_1PixelId.html#a4626091e8ba209be262bf77e2cbcea55", null ],
     [ "__int__", "classmrmeshpy_1_1PixelId.html#a806a775d1e6081d52531ba4473dd2381", null ],
     [ "__isub__", "classmrmeshpy_1_1PixelId.html#a7217c9dc847b6f072970bbb1ce0196aa", null ],
+    [ "__lt__", "classmrmeshpy_1_1PixelId.html#ab2c705617a7c282c3620e08633fad9a7", null ],
     [ "__ne__", "classmrmeshpy_1_1PixelId.html#ac6994d3d7d4f53032e1ca5e5ddb0324f", null ],
     [ "__repr__", "classmrmeshpy_1_1PixelId.html#a4fb842d901e3e49a5990345010fa9224", null ],
+    [ "assign", "classmrmeshpy_1_1PixelId.html#ae8c88aef48aee7f5692288ac256081d0", null ],
+    [ "decrement", "classmrmeshpy_1_1PixelId.html#aa5adb5ac165fee6a33a8204014e34a95", null ],
     [ "get", "classmrmeshpy_1_1PixelId.html#a6003bd6f3f71762c77778c55d28fd104", null ],
-    [ "operator", "classmrmeshpy_1_1PixelId.html#a8487ab32aa9042b41610d474f8414e67", null ],
-    [ "operator", "classmrmeshpy_1_1PixelId.html#adfb26f6b5b2c6e7b04c4e3a6ab8fb231", null ],
-    [ "operator_minus_minus", "classmrmeshpy_1_1PixelId.html#ac76731b1f181d93c09d82ea2ffb099fe", null ],
+    [ "increment", "classmrmeshpy_1_1PixelId.html#a743c36a7eca3b7f0d905f5aae9d9351b", null ],
     [ "valid", "classmrmeshpy_1_1PixelId.html#a8bbee8ae2b07d37e6a5ab963f5122df8", null ]
 ];

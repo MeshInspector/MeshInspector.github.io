@@ -5,6 +5,7 @@ var classmrmeshpy_1_1ViewportProperty__Color =
     [ "__init__", "classmrmeshpy_1_1ViewportProperty__Color.html#a643bc71b8eeccb2d5beacc1d8f2e9ba0", null ],
     [ "__getitem__", "classmrmeshpy_1_1ViewportProperty__Color.html#ae5eaef0cf481ad7fc07a7da76a4cbcb9", null ],
     [ "__setitem__", "classmrmeshpy_1_1ViewportProperty__Color.html#a529e45c3f8f4f019dc7ffd794ef95ce1", null ],
+    [ "assign", "classmrmeshpy_1_1ViewportProperty__Color.html#afd3be0bf27f89f9e5d071e7980c48f93", null ],
     [ "get", "classmrmeshpy_1_1ViewportProperty__Color.html#a47efba2c766934ccadf095d1f4733e96", null ],
     [ "get", "classmrmeshpy_1_1ViewportProperty__Color.html#a47efba2c766934ccadf095d1f4733e96", null ],
     [ "get", "classmrmeshpy_1_1ViewportProperty__Color.html#a28484d58889b7211de1fcbdca3f328c5", null ],

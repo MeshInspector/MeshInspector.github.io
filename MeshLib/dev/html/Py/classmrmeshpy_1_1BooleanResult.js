@@ -7,6 +7,7 @@ var classmrmeshpy_1_1BooleanResult =
     [ "__mul__", "classmrmeshpy_1_1BooleanResult.html#a33832f729ccd294848d2edd195492599", null ],
     [ "__mul__", "classmrmeshpy_1_1BooleanResult.html#a33832f729ccd294848d2edd195492599", null ],
     [ "__repr__", "classmrmeshpy_1_1BooleanResult.html#ac02b9d705962bbb2b384c05d248df7aa", null ],
+    [ "assign", "classmrmeshpy_1_1BooleanResult.html#a06df103e72942c65dadb5d3d5f77a6f1", null ],
     [ "errorString", "classmrmeshpy_1_1BooleanResult.html#ae561d2d917eef42af8168a61cae905b5", null ],
     [ "errorString", "classmrmeshpy_1_1BooleanResult.html#a6e15205540cf0a93e21257db0d5807f2", null ],
     [ "mesh", "classmrmeshpy_1_1BooleanResult.html#af7c83e00d4f79290d06f4addbeb05664", null ],

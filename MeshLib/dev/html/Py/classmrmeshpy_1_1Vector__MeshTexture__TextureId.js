@@ -11,6 +11,7 @@ var classmrmeshpy_1_1Vector__MeshTexture__TextureId =
     [ "__len__", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#ae0f7415562c61f5ff56d2c8a2b231a13", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a3aea13539290f2ce75f9c79e99c95e99", null ],
     [ "assign", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a567b70dbe468ebfd5d3b942750efcdbb", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a29d09770a983105501e240bd118625b1", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a60a66e3855206c868dc4d97c292b3a5b", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#af21a5c4a0e627a8f9788230e64cffe4d", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a7007d57cf3441ecee4f214d6ba8ab147", null ],

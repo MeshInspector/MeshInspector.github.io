@@ -3,6 +3,7 @@ var classmrmeshpy_1_1BooleanPreCutResult =
     [ "__init__", "classmrmeshpy_1_1BooleanPreCutResult.html#a414b24d8b6724d528c194f2dc9199ddc", null ],
     [ "__init__", "classmrmeshpy_1_1BooleanPreCutResult.html#a6c5bca6c764fe73539c0d2e2eb8e7cf2", null ],
     [ "__init__", "classmrmeshpy_1_1BooleanPreCutResult.html#a836ced0310a86ba6c6623c4a24c5a491", null ],
+    [ "assign", "classmrmeshpy_1_1BooleanPreCutResult.html#a198c21c99d18bc5412fc5127d26d94ef", null ],
     [ "intersections", "classmrmeshpy_1_1BooleanPreCutResult.html#a5da640480ce9c2b519f4e162ff88c21a", null ],
     [ "intersections", "classmrmeshpy_1_1BooleanPreCutResult.html#a904b820637f5ec516f979f93db8d795a", null ],
     [ "isMeshA", "classmrmeshpy_1_1BooleanPreCutResult.html#a6b9466443cfff88dd03d61816edbf550", null ],

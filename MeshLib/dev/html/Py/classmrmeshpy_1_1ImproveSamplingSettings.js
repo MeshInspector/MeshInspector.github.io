@@ -3,6 +3,7 @@ var classmrmeshpy_1_1ImproveSamplingSettings =
     [ "__init__", "classmrmeshpy_1_1ImproveSamplingSettings.html#afc8e3a0c5b18a966b060ffeb0b2f8ced", null ],
     [ "__init__", "classmrmeshpy_1_1ImproveSamplingSettings.html#ab88d5fb32055f802a4dce423b072dd26", null ],
     [ "__init__", "classmrmeshpy_1_1ImproveSamplingSettings.html#a71e528676124b23964739633b6d387a7", null ],
+    [ "assign", "classmrmeshpy_1_1ImproveSamplingSettings.html#a78ec20eddd61155cf89fbfa7f816670f", null ],
     [ "cloudOfSamples", "classmrmeshpy_1_1ImproveSamplingSettings.html#a316f86c621f441ca2182f7da2634f24e", null ],
     [ "cloudOfSamples", "classmrmeshpy_1_1ImproveSamplingSettings.html#a8a2058127117d08bcd634aeb240fdecc", null ],
     [ "minPointsInSample", "classmrmeshpy_1_1ImproveSamplingSettings.html#a239968dbe867eb8175744a7d12af8760", null ],

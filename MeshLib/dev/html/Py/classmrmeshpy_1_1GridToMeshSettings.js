@@ -5,6 +5,7 @@ var classmrmeshpy_1_1GridToMeshSettings =
     [ "__init__", "classmrmeshpy_1_1GridToMeshSettings.html#aaa3c5b98881385ba210cb5fb812fe9c1", null ],
     [ "adaptivity", "classmrmeshpy_1_1GridToMeshSettings.html#af029edffb86bd3baf346c9dcbf5087be", null ],
     [ "adaptivity", "classmrmeshpy_1_1GridToMeshSettings.html#a1ec815949c9b4bb602ba53682e2a3cc9", null ],
+    [ "assign", "classmrmeshpy_1_1GridToMeshSettings.html#a260702102546887937333c6462b6c3be", null ],
     [ "cb", "classmrmeshpy_1_1GridToMeshSettings.html#aff338b058789a81e9e047604d6d91498", null ],
     [ "cb", "classmrmeshpy_1_1GridToMeshSettings.html#a78671d4ca42fa198f68daec743891ab0", null ],
     [ "isoValue", "classmrmeshpy_1_1GridToMeshSettings.html#aba0bad833e406ab42af696d38e81be61", null ],

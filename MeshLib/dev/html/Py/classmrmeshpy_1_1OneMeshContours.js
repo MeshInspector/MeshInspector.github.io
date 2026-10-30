@@ -3,6 +3,7 @@ var classmrmeshpy_1_1OneMeshContours =
     [ "__init__", "classmrmeshpy_1_1OneMeshContours.html#aa30902c8502577780947ef5a264db986", null ],
     [ "__init__", "classmrmeshpy_1_1OneMeshContours.html#ab9ae25012a42723c90287e83e240f7a6", null ],
     [ "__init__", "classmrmeshpy_1_1OneMeshContours.html#ae36eac13fe71da5816e1eefbee3d97ef", null ],
+    [ "assign", "classmrmeshpy_1_1OneMeshContours.html#a057324be4997e216b72d940a1352081c", null ],
     [ "contour", "classmrmeshpy_1_1OneMeshContours.html#a67cb9ddba533425675da53389b5ea342", null ],
     [ "empty", "classmrmeshpy_1_1OneMeshContours.html#ab73ca544cf4df127c8046a61b63c3769", null ],
     [ "intersection", "classmrmeshpy_1_1OneMeshContours.html#a5a9d0b0b089a8af8aed5e39ec82fc3a6", null ],

@@ -13,7 +13,7 @@ var classmrmeshpy_1_1Color =
     [ "__getitem__", "classmrmeshpy_1_1Color.html#aa732aacc8453e31f5d72d5590e6e1a9e", null ],
     [ "__getitem__", "classmrmeshpy_1_1Color.html#aa732aacc8453e31f5d72d5590e6e1a9e", null ],
     [ "__iadd__", "classmrmeshpy_1_1Color.html#a634c6ecff85368eb1c2c8fac3a6fbd46", null ],
-    [ "__imatmul__", "classmrmeshpy_1_1Color.html#ad23a5b98a68f42db43f96c8a1707d125", null ],
+    [ "__imul__", "classmrmeshpy_1_1Color.html#a3a3add6e12e63a221bd5a6dd6a049fa1", null ],
     [ "__isub__", "classmrmeshpy_1_1Color.html#a865f12167ce1dfe87bee7fa500f4361b", null ],
     [ "__itruediv__", "classmrmeshpy_1_1Color.html#ab08fa5ee4cbe2fec078cea6d72862502", null ],
     [ "__mul__", "classmrmeshpy_1_1Color.html#a55a64d13559ddf96fad2ebafca07fa6d", null ],
@@ -22,6 +22,7 @@ var classmrmeshpy_1_1Color =
     [ "__setitem__", "classmrmeshpy_1_1Color.html#a8b037a0619c092ee939b95d8ae78289f", null ],
     [ "__sub__", "classmrmeshpy_1_1Color.html#a05222ed7aa410ad01f7783d6b216b69e", null ],
     [ "__truediv__", "classmrmeshpy_1_1Color.html#a05e3f3e2a88a44d9cfe774cb82c9570c", null ],
+    [ "assign", "classmrmeshpy_1_1Color.html#a3c8be0c3cc0cea18f241284d1bbcba7c", null ],
     [ "getUInt32", "classmrmeshpy_1_1Color.html#a5d2c4e3c4663a1c82000ae8cb91f2c12", null ],
     [ "scaledAlpha", "classmrmeshpy_1_1Color.html#a5c46e09c1b0b9e2b09b0a1c633958083", null ]
 ];

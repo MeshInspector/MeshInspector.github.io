@@ -5,6 +5,7 @@ var classmrmeshpy_1_1SymbolMeshParams =
     [ "__init__", "classmrmeshpy_1_1SymbolMeshParams.html#a5cc2b561872dc6434be56745cc81b91b", null ],
     [ "align", "classmrmeshpy_1_1SymbolMeshParams.html#a3a4a6f82ac46e675b87187cd83ebe813", null ],
     [ "align", "classmrmeshpy_1_1SymbolMeshParams.html#a2f054401c787e300ed7ae86eee637a2a", null ],
+    [ "assign", "classmrmeshpy_1_1SymbolMeshParams.html#a956d54cd77510309503ac940b488dd12", null ],
     [ "fontDetalization", "classmrmeshpy_1_1SymbolMeshParams.html#a3f0764fb3d0db8ef7ff8e96ccf471b7d", null ],
     [ "fontDetalization", "classmrmeshpy_1_1SymbolMeshParams.html#ae709a9e7f7e5afd7714ced583d0a3610", null ],
     [ "pathToFontFile", "classmrmeshpy_1_1SymbolMeshParams.html#a91b0a2901853859b9524fbe88fbe5761", null ],

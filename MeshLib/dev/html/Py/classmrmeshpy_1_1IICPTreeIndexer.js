@@ -1,5 +1,6 @@
 var classmrmeshpy_1_1IICPTreeIndexer =
 [
+    [ "assign", "classmrmeshpy_1_1IICPTreeIndexer.html#a9adc9bdf9429145bed34338b5c9c60da", null ],
     [ "fromSameNode", "classmrmeshpy_1_1IICPTreeIndexer.html#a910104b191e117a5cbf28c575c126d6d", null ],
     [ "getElementLeaves", "classmrmeshpy_1_1IICPTreeIndexer.html#a71aca42ae4cb99abf65ca479b54054de", null ],
     [ "getElementNodes", "classmrmeshpy_1_1IICPTreeIndexer.html#a7e27539999b0a2cbd1f73ecd6c0a6030", null ],

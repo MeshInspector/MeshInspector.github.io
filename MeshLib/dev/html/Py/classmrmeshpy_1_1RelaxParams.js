@@ -2,6 +2,7 @@ var classmrmeshpy_1_1RelaxParams =
 [
     [ "__init__", "classmrmeshpy_1_1RelaxParams.html#afd31167e135be967a3382800f93ee6c3", null ],
     [ "__init__", "classmrmeshpy_1_1RelaxParams.html#a386c6a81559a1035881bd09b3edbcc15", null ],
+    [ "assign", "classmrmeshpy_1_1RelaxParams.html#a8b4cb30fa3087fbbd61c1527c2a020e1", null ],
     [ "force", "classmrmeshpy_1_1RelaxParams.html#a50cf8dcf97e972a6edc0d47c1ee1dd3e", null ],
     [ "force", "classmrmeshpy_1_1RelaxParams.html#a13bf0dd030baeca317670c6d33c74fe4", null ],
     [ "iterations", "classmrmeshpy_1_1RelaxParams.html#a68f885712a7a1f4522fddc1eaa0d163c", null ],

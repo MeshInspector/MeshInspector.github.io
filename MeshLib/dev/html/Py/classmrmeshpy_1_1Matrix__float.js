@@ -7,6 +7,7 @@ var classmrmeshpy_1_1Matrix__float =
     [ "__call__", "classmrmeshpy_1_1Matrix__float.html#a84307940ab5e501061c61721d8489ec1", null ],
     [ "__call__", "classmrmeshpy_1_1Matrix__float.html#a4252b7151edea1d2aaf491344c47b5a1", null ],
     [ "__call__", "classmrmeshpy_1_1Matrix__float.html#a4252b7151edea1d2aaf491344c47b5a1", null ],
+    [ "assign", "classmrmeshpy_1_1Matrix__float.html#ade426ef6cecda8c854319862e785da47", null ],
     [ "clear", "classmrmeshpy_1_1Matrix__float.html#ab68f518661702422249be6f5391d7ca9", null ],
     [ "data", "classmrmeshpy_1_1Matrix__float.html#a2271d584b188492ba1fd8b784c3a75e2", null ],
     [ "fill", "classmrmeshpy_1_1Matrix__float.html#aca08939f63c131bd26fdb9538a05e201", null ],

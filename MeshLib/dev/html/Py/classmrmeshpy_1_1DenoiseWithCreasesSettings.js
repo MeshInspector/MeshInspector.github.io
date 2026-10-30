@@ -3,6 +3,7 @@ var classmrmeshpy_1_1DenoiseWithCreasesSettings =
     [ "__init__", "classmrmeshpy_1_1DenoiseWithCreasesSettings.html#a6a645ba418e0fc96ebe39bd16c6d422b", null ],
     [ "__init__", "classmrmeshpy_1_1DenoiseWithCreasesSettings.html#ae12c4fb73859ef213216cf9266cdce48", null ],
     [ "__init__", "classmrmeshpy_1_1DenoiseWithCreasesSettings.html#add2bbd4f02ac5cd6707294bd4f857420", null ],
+    [ "assign", "classmrmeshpy_1_1DenoiseWithCreasesSettings.html#a1b27410370d893fed0629dddbd63ec1e", null ],
     [ "gamma", "classmrmeshpy_1_1DenoiseWithCreasesSettings.html#a9d4e013117f35412b2f35fd07d85ccef", null ],
     [ "gamma", "classmrmeshpy_1_1DenoiseWithCreasesSettings.html#ad078f74f2e3adcab728a0905fa6f56ca", null ],
     [ "guideWeight", "classmrmeshpy_1_1DenoiseWithCreasesSettings.html#aa11ec5cebba9099485da966f2cc3bf2e", null ],

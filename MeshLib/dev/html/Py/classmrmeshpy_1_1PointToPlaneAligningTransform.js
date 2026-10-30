@@ -4,6 +4,7 @@ var classmrmeshpy_1_1PointToPlaneAligningTransform =
     [ "__init__", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#a8198d421da1d3ec5720d565926755def", null ],
     [ "add", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#a4bf80119cf4eff4a9e7da2d0b68114ea", null ],
     [ "add", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#a4fbb576bf292287c1895d22b42b9e149", null ],
+    [ "assign", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#a8510b7232de1ddaf41c5d94eafebf89e", null ],
     [ "calculateAmendment", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#a35b40ee52c1d344eb1e16ed8c7bd57c9", null ],
     [ "calculateAmendmentWithScale", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#a4831e5d6bac16d4c1eb48e85113581fa", null ],
     [ "calculateFixedAxisAmendment", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#a66026034452e44c385dd8e1c589b1fa8", null ],

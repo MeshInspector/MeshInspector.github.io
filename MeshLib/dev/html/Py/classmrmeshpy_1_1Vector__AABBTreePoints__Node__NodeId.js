@@ -11,6 +11,7 @@ var classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId =
     [ "__len__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#ad0d0e1853f8475ba23f81027beb75b07", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a633a51c07feb309d7cab007623203522", null ],
     [ "assign", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a1a08b3ea44def67bf66fc4544d371a54", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#ae2fb0fa32ddbfdf97aa918763c9737de", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a14d27332c45f1218c284cc86447f25ae", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a7018a178fbba15a0f8cafbab9755274c", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a7e6ddc3fa2fb1658e1ed4027023058e7", null ],

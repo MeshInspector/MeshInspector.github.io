@@ -5,6 +5,7 @@ var classmrmeshpy_1_1MovementBuildBodyParams =
     [ "__init__", "classmrmeshpy_1_1MovementBuildBodyParams.html#a9a6a47cdef578410dcddb0f99a7d031a", null ],
     [ "allowRotation", "classmrmeshpy_1_1MovementBuildBodyParams.html#a3c56c12c998b1a65813e38008762e0a4", null ],
     [ "allowRotation", "classmrmeshpy_1_1MovementBuildBodyParams.html#a725f419ee7434422f3ca3565a2ccaa2e", null ],
+    [ "assign", "classmrmeshpy_1_1MovementBuildBodyParams.html#a371984f744fab8a495a8682ceeee09b9", null ],
     [ "b2tXf", "classmrmeshpy_1_1MovementBuildBodyParams.html#aaa6814024d424e5ffab9cfc7636efd7d", null ],
     [ "b2tXf", "classmrmeshpy_1_1MovementBuildBodyParams.html#ad0bcecfecdb4f0b6b72ffd827d0790a7", null ],
     [ "bodyNormal", "classmrmeshpy_1_1MovementBuildBodyParams.html#ade2680cd45880ae2cdfb5ddce5957acd", null ],

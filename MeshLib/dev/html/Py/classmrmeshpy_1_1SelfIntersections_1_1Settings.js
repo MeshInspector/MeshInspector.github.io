@@ -4,6 +4,7 @@ var classmrmeshpy_1_1SelfIntersections_1_1Settings =
     [ "__init__", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#aaa985ecd891f26687647b5a9efc6d45a", null ],
     [ "__init__", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#ae449be75e1fc649fd7bc1e55437678ef", null ],
     [ "__init__", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#aae113e61b2923866e9987fb020873f85", null ],
+    [ "assign", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a4ec481a885e971b68ec3f5fded47f6ce", null ],
     [ "callback", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a7f59e857791e7b2e978f86d3313c4106", null ],
     [ "callback", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a8f3dc7c12f4279c0be5c4b7e6da46d3b", null ],
     [ "maxExpand", "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a0500ddad8ff8c78ed7afe7df474bc5eb", null ],

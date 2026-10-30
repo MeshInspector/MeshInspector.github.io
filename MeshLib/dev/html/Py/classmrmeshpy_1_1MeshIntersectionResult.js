@@ -4,6 +4,7 @@ var classmrmeshpy_1_1MeshIntersectionResult =
     [ "__init__", "classmrmeshpy_1_1MeshIntersectionResult.html#a281993a00b5015b37e278be1bf196339", null ],
     [ "__init__", "classmrmeshpy_1_1MeshIntersectionResult.html#ae1f06d2ac5aae0ce2651dd5d286102d1", null ],
     [ "__bool__", "classmrmeshpy_1_1MeshIntersectionResult.html#af3936e4194aae65935397c3a618edf70", null ],
+    [ "assign", "classmrmeshpy_1_1MeshIntersectionResult.html#a06c5d7b0cf4791940786d7aa8de81456", null ],
     [ "distanceAlongLine", "classmrmeshpy_1_1MeshIntersectionResult.html#aaa1362d44ecaa8bc05dd891fe1f247ac", null ],
     [ "distanceAlongLine", "classmrmeshpy_1_1MeshIntersectionResult.html#af85a8f9143a1e2ceb06375675c478030", null ],
     [ "mtp", "classmrmeshpy_1_1MeshIntersectionResult.html#aab887a864c34bb0615beb70031f4e53a", null ],

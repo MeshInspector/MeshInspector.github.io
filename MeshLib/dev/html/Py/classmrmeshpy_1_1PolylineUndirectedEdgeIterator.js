@@ -6,5 +6,6 @@ var classmrmeshpy_1_1PolylineUndirectedEdgeIterator =
     [ "__eq__", "classmrmeshpy_1_1PolylineUndirectedEdgeIterator.html#afb4104bec38e3ccc4bdd795f482f5a15", null ],
     [ "__mul__", "classmrmeshpy_1_1PolylineUndirectedEdgeIterator.html#a93d1ef20dd32adc736e9f5e197ae3252", null ],
     [ "__ne__", "classmrmeshpy_1_1PolylineUndirectedEdgeIterator.html#a638ceb16eb67a2fd0b86cf6f29bcfaeb", null ],
-    [ "operator", "classmrmeshpy_1_1PolylineUndirectedEdgeIterator.html#a1fcec7d99ad4bd9ff71c11e88c2b94c2", null ]
+    [ "assign", "classmrmeshpy_1_1PolylineUndirectedEdgeIterator.html#a527f007acc5d1f3e56f10802524d5d80", null ],
+    [ "increment", "classmrmeshpy_1_1PolylineUndirectedEdgeIterator.html#afa9aec998b57d16a39efbd83f759d80f", null ]
 ];

@@ -13,6 +13,7 @@ var classmrmeshpy_1_1VoxelScalars =
     [ "__ne__", "classmrmeshpy_1_1VoxelScalars.html#a5bc261653764af4554377019ced93b7a", null ],
     [ "__setitem__", "classmrmeshpy_1_1VoxelScalars.html#a5a0fbfcdf7a1971e25b0be5a4e54ccd3", null ],
     [ "assign", "classmrmeshpy_1_1VoxelScalars.html#ab4a3645ffadc32d18192f75121828b9e", null ],
+    [ "assign", "classmrmeshpy_1_1VoxelScalars.html#ad6e72a06dd570af18accd0c19978f016", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1VoxelScalars.html#aad58524920c8d27ca1445ce59b84e61d", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1VoxelScalars.html#acef3f2e1f20554bda48eb68969938c56", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1VoxelScalars.html#a6c4bfde467bf9d33c59dd69339ceed74", null ],

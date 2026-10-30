@@ -9,7 +9,7 @@ var classmrmeshpy_1_1Vector3i64 =
     [ "__getitem__", "classmrmeshpy_1_1Vector3i64.html#a90ce8a40dbe74d3d7338a5cf8ff7af85", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector3i64.html#a90ce8a40dbe74d3d7338a5cf8ff7af85", null ],
     [ "__iadd__", "classmrmeshpy_1_1Vector3i64.html#a06a74ca53c8d89dcbf8c40354e81417e", null ],
-    [ "__imatmul__", "classmrmeshpy_1_1Vector3i64.html#aeb1e2bcd29fd8f6d71bd80f2f5c9c6e9", null ],
+    [ "__imul__", "classmrmeshpy_1_1Vector3i64.html#a6e7ea4bc4cf5a5056beaedc988c1bf16", null ],
     [ "__isub__", "classmrmeshpy_1_1Vector3i64.html#af8fcfecfe91bd892ed4adf4e6397ddee", null ],
     [ "__iter__", "classmrmeshpy_1_1Vector3i64.html#aab232f2720dd552649f82fda00b80d91", null ],
     [ "__itruediv__", "classmrmeshpy_1_1Vector3i64.html#a697763d7509e93527e07e9e316d8037e", null ],
@@ -24,6 +24,7 @@ var classmrmeshpy_1_1Vector3i64 =
     [ "__setitem__", "classmrmeshpy_1_1Vector3i64.html#a902fe6ce262d6c9c705f45979904de52", null ],
     [ "__sub__", "classmrmeshpy_1_1Vector3i64.html#a85643a2de3fee06ec7cf834b38d653f2", null ],
     [ "__truediv__", "classmrmeshpy_1_1Vector3i64.html#a49ea11da6b628bdb386d7ff81d107c1b", null ],
+    [ "assign", "classmrmeshpy_1_1Vector3i64.html#aac8fa1be4f18047259d1b80ee6b7def1", null ],
     [ "furthestBasisVector", "classmrmeshpy_1_1Vector3i64.html#a9ea61ff901179fcd4318056f94e59a2f", null ],
     [ "length", "classmrmeshpy_1_1Vector3i64.html#a2f8370c844dd30faa908b5d7345e08e6", null ],
     [ "lengthSq", "classmrmeshpy_1_1Vector3i64.html#a9b2627416186426e93d4b83444c6431d", null ]

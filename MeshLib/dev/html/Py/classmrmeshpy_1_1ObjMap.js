@@ -13,6 +13,7 @@ var classmrmeshpy_1_1ObjMap =
     [ "__ne__", "classmrmeshpy_1_1ObjMap.html#ae24f76687e2ae098d9977cf892aca580", null ],
     [ "__setitem__", "classmrmeshpy_1_1ObjMap.html#acfc6cd6a3290890034b239f21db0dd1d", null ],
     [ "assign", "classmrmeshpy_1_1ObjMap.html#a5b9a25563aeb4962ee86c68b5d7505de", null ],
+    [ "assign", "classmrmeshpy_1_1ObjMap.html#af2aeeb05894b234e9a5cf22909920ee9", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1ObjMap.html#a406d432590e7f4709d8b18b9de600072", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1ObjMap.html#a6d03d3b161517d4e132a3acdb67d2e0e", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1ObjMap.html#a84a3c05fd658be0b6caf1b815d8c4c86", null ],

@@ -3,6 +3,7 @@ var classmrmeshpy_1_1InterpolateScalarsParams =
     [ "__init__", "classmrmeshpy_1_1InterpolateScalarsParams.html#afb6654c68387c891cc6b8aa2523931ed", null ],
     [ "__init__", "classmrmeshpy_1_1InterpolateScalarsParams.html#aed53d84f1c75d11eed2d4768299c4dfb", null ],
     [ "__init__", "classmrmeshpy_1_1InterpolateScalarsParams.html#a262dd0657bfc5aef4a57f0a63de85e6d", null ],
+    [ "assign", "classmrmeshpy_1_1InterpolateScalarsParams.html#a19ee91a2972a3c893513bb86c15149a2", null ],
     [ "edgeWeights", "classmrmeshpy_1_1InterpolateScalarsParams.html#aef4e52eb746f5e8f1ed9d5b075223143", null ],
     [ "edgeWeights", "classmrmeshpy_1_1InterpolateScalarsParams.html#ae108508a2ba8b21e88a7f91584b8f053", null ],
     [ "edgeWeightsMetric", "classmrmeshpy_1_1InterpolateScalarsParams.html#a4ec5dc7cfecb37ca989e43e21a71845c", null ],

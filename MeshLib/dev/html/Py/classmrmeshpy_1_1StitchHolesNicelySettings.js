@@ -3,6 +3,7 @@ var classmrmeshpy_1_1StitchHolesNicelySettings =
     [ "__init__", "classmrmeshpy_1_1StitchHolesNicelySettings.html#a9da87c71cb85ed97b2f2814a67d9f5af", null ],
     [ "__init__", "classmrmeshpy_1_1StitchHolesNicelySettings.html#a69aab75317fa95567bff0088a4f6f2e2", null ],
     [ "__init__", "classmrmeshpy_1_1StitchHolesNicelySettings.html#a19935cf7416bf0e76408b8be3303c8b0", null ],
+    [ "assign", "classmrmeshpy_1_1StitchHolesNicelySettings.html#a7734f3c3db900217f494df52f0f35d7f", null ],
     [ "outAttributes", "classmrmeshpy_1_1StitchHolesNicelySettings.html#a01f2db9fcad748bd5bd5f8b8bf6e3d11", null ],
     [ "outAttributes", "classmrmeshpy_1_1StitchHolesNicelySettings.html#ac4daf8c96d6c7228de10d22048c71462", null ],
     [ "smoothCurvature", "classmrmeshpy_1_1StitchHolesNicelySettings.html#a87a80ce3e735c4b8db2a8da09021e32f", null ],

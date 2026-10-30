@@ -3,6 +3,7 @@ var classmrmeshpy_1_1SmoothCameraMeshDepthSettings =
     [ "__init__", "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a12cc35a9d1fc91ae6b1898c552e885ac", null ],
     [ "__init__", "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a22efcbc9c04ce8ab952d28c98b3ab138", null ],
     [ "__init__", "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#af8aa18c12a3c4857f758650c0f1989d0", null ],
+    [ "assign", "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#adb78d97289c34c2854f28dde3e62914e", null ],
     [ "bdStabilizer", "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#aa9426a9fc530c1fa65dd8c7c07fd3b09", null ],
     [ "bdStabilizer", "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#a357c7f24c293cda13e07c6418197f47f", null ],
     [ "edgeWeights", "classmrmeshpy_1_1SmoothCameraMeshDepthSettings.html#abeb6ea6ae0cd827bc95521e57a13414b", null ],

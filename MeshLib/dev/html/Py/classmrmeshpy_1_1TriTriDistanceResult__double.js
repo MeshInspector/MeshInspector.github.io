@@ -8,6 +8,7 @@ var classmrmeshpy_1_1TriTriDistanceResult__double =
     [ "aBary", "classmrmeshpy_1_1TriTriDistanceResult__double.html#abd5561c4045be2f64aa2bf7a41db4023", null ],
     [ "aEdge", "classmrmeshpy_1_1TriTriDistanceResult__double.html#a55614131d08cb5cde78556fd6648b791", null ],
     [ "aEdge", "classmrmeshpy_1_1TriTriDistanceResult__double.html#a2c9c1694ca3917cb5f7c3ffd41d6784f", null ],
+    [ "assign", "classmrmeshpy_1_1TriTriDistanceResult__double.html#ac029b28c4e0a503dacb4c5db8d5b793c", null ],
     [ "b", "classmrmeshpy_1_1TriTriDistanceResult__double.html#afa0d303c2450787c71317008feccbece", null ],
     [ "b", "classmrmeshpy_1_1TriTriDistanceResult__double.html#a000b242ea3d98a2e4f50a7185098ca80", null ],
     [ "bBary", "classmrmeshpy_1_1TriTriDistanceResult__double.html#a27e78291b43d0efc1c50421ac2893c5f", null ],

@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__VoxelId__FaceId =
     [ "__ne__", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#aa7a1dc66fc1d3866ada2ee34bbe6ff87", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#ac02ee49bb0a9e92dcd6c099a2ff6d79f", null ],
     [ "assign", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#ae470db84601690dab2de56eb170d02a6", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#af0fd2af8f63643b41824c1ade3f6f0b8", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#a593c9c5746a540f6be1b8fda94d33cf6", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#a78bf2d2a67606242dcf3a8d8a12eaa04", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#aec8bab9dd5f877e4808ad4eda05d4ea4", null ],

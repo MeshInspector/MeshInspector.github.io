@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__RegionId__RegionId =
     [ "__ne__", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a2f6f0ece09a2bdb2271d00f93de0511a", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#ac25914b029c9f0cef772448e616026f8", null ],
     [ "assign", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a22aeb7e27203e605823c1bb7a4592d3f", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#af4dda580d1ae56d7fc36699b38a36a25", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a56779ad0594a8a6a5df57cfba572b24e", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#a09e1939115a168c7878114a4d11e8e36", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__RegionId__RegionId.html#af74d2e3e49a07b59a1cf7f44ff90fa44", null ],

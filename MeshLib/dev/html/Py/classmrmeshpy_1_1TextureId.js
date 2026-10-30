@@ -8,11 +8,12 @@ var classmrmeshpy_1_1TextureId =
     [ "__iadd__", "classmrmeshpy_1_1TextureId.html#af8825f0770b6548db08b43ae71ad7753", null ],
     [ "__int__", "classmrmeshpy_1_1TextureId.html#af55874b5af32f8ce8aa51b323e78d762", null ],
     [ "__isub__", "classmrmeshpy_1_1TextureId.html#acf6480c3306dae5e984b7249edaaf771", null ],
+    [ "__lt__", "classmrmeshpy_1_1TextureId.html#a81f064ec3a76dfbe81f0c98b6dbe8a67", null ],
     [ "__ne__", "classmrmeshpy_1_1TextureId.html#adcd6228e180d3186d585ac84d2e1aaa4", null ],
     [ "__repr__", "classmrmeshpy_1_1TextureId.html#a742bec2a82c0276eb50546cf48d74c37", null ],
+    [ "assign", "classmrmeshpy_1_1TextureId.html#a313286808446086219beb79d7db0c24a", null ],
+    [ "decrement", "classmrmeshpy_1_1TextureId.html#aa7779fc0e576b6cf99fa1f27e8d95ba1", null ],
     [ "get", "classmrmeshpy_1_1TextureId.html#ad021a7cd788ce697331322ec67bc2f34", null ],
-    [ "operator", "classmrmeshpy_1_1TextureId.html#a09f2d45885e9ecf1915b10c1408496b8", null ],
-    [ "operator", "classmrmeshpy_1_1TextureId.html#a88ac2311a4f50f8e2e668b7dae5efe7b", null ],
-    [ "operator_minus_minus", "classmrmeshpy_1_1TextureId.html#adcb9b6d1ed66a7db2133b912903abd08", null ],
+    [ "increment", "classmrmeshpy_1_1TextureId.html#a82f31f1dad9e3b6a2f5b24e476c75605", null ],
     [ "valid", "classmrmeshpy_1_1TextureId.html#a77643e14e0520cc32ea88ba250b255ea", null ]
 ];

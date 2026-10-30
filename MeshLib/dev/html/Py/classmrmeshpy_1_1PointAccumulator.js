@@ -6,6 +6,7 @@ var classmrmeshpy_1_1PointAccumulator =
     [ "addPoint", "classmrmeshpy_1_1PointAccumulator.html#a822bb6a64e64c23fb36c6e8c15dc551b", null ],
     [ "addPoint", "classmrmeshpy_1_1PointAccumulator.html#ab79e2d41ec92b236234c190ebe54b57c", null ],
     [ "addPoint", "classmrmeshpy_1_1PointAccumulator.html#a404ae33cbb77b720c774b2e3dd3676a6", null ],
+    [ "assign", "classmrmeshpy_1_1PointAccumulator.html#a598ff8ae9dab952d071f7bd518916de7", null ],
     [ "get4BasicXfs", "classmrmeshpy_1_1PointAccumulator.html#ae3855e20e0beb747d1e26445717d69b2", null ],
     [ "get4BasicXfs3f", "classmrmeshpy_1_1PointAccumulator.html#a1dc2766208832edd7d3a117e831a82e1", null ],
     [ "getBasicXf", "classmrmeshpy_1_1PointAccumulator.html#ae820f4bf4835b7deda3e913b64ad9eec", null ],

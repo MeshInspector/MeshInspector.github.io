@@ -187,6 +187,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adda895cc3e159e7135adb63efdc4e5d7" id="r_adda895cc3e159e7135adb63efdc4e5d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adda895cc3e159e7135adb63efdc4e5d7">__xor__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> b)</td></tr>
 <tr class="memitem:a7791a54179bcc02c9e8d46ccd467d1df" id="r_a7791a54179bcc02c9e8d46ccd467d1df"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7791a54179bcc02c9e8d46ccd467d1df">all</a> (self)</td></tr>
 <tr class="memitem:a72e64427ab6f98e8ffeb422c97588e62" id="r_a72e64427ab6f98e8ffeb422c97588e62"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72e64427ab6f98e8ffeb422c97588e62">any</a> (self)</td></tr>
+<tr class="memitem:afbce541f360eb8f62fe8d1db6eae6667" id="r_afbce541f360eb8f62fe8d1db6eae6667"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbce541f360eb8f62fe8d1db6eae6667">assign</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> other)</td></tr>
 <tr class="memitem:ab180a8d812e38d6017ae181b145ee402" id="r_ab180a8d812e38d6017ae181b145ee402"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab180a8d812e38d6017ae181b145ee402">atomicTestSet</a> (self, int n)</td></tr>
 <tr class="memitem:acab8dde45127ba4019a41145736df7e0" id="r_acab8dde45127ba4019a41145736df7e0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acab8dde45127ba4019a41145736df7e0">autoResizeSet</a> (self, int pos, int len, bool val=True)</td></tr>
 <tr class="memitem:a0416156b4269add8c1fb14d531b3f9e5" id="r_a0416156b4269add8c1fb14d531b3f9e5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0416156b4269add8c1fb14d531b3f9e5">autoResizeSet</a> (self, int pos, bool val=True)</td></tr>
@@ -240,8 +241,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aec2d31c5842b18f1ef3a2e3e1de0ddf3" id="r_aec2d31c5842b18f1ef3a2e3e1de0ddf3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</a> (*args, **kwargs)</td></tr>
 <tr class="memitem:ae529e168da2a1905ad02819146ae8274" id="r_ae529e168da2a1905ad02819146ae8274"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae529e168da2a1905ad02819146ae8274">beginId</a> ()</td></tr>
 <tr class="memitem:a3c64dedabd9a5f9fab338966869a419f" id="r_a3c64dedabd9a5f9fab338966869a419f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c64dedabd9a5f9fab338966869a419f">fromBlocks</a> (<a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long__Allocator__unsigned__long.html">std_vector_unsigned_long_Allocator_unsigned_long</a> blocks)</td></tr>
-<tr class="memitem:a7ab42866fcda21519f73a78064f1e881" id="r_a7ab42866fcda21519f73a78064f1e881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ab42866fcda21519f73a78064f1e881">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a7ab42866fcda21519f73a78064f1e881" id="r_a7ab42866fcda21519f73a78064f1e881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ab42866fcda21519f73a78064f1e881">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -652,6 +651,29 @@ with all bits after size() considered off during testing
 </div><div class="memdoc">
 <pre class="fragment">returns true if at least one bits in this container is set
 </pre> 
+</div>
+</div>
+<a id="afbce541f360eb8f62fe8d1db6eae6667" name="afbce541f360eb8f62fe8d1db6eae6667"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbce541f360eb8f62fe8d1db6eae6667">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> mrmeshpy.BitSet.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a756566e084a9dce94d598221c9a141dd">mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html#a675f0c86a080e5401172c0ba1366ac1d">mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html#a0902230e6e1e410deb99d8465d5924ef">mrmeshpy.FaceBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html#a25b146eac177bb6e0e3174d53a24ca11">mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html#a38db1ec9dbea2f834b19d58994c841b0">mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html#ae7b0b4845c73f2c655a435341a9bf88c">mrmeshpy.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html#af5fea75cfc5096307a9d9b23b667dc24">mrmeshpy.ObjBitSet</a>, <a class="el" href="classmrmeshpy_1_1PixelBitSet.html#aa6c606cb0b1eef62ff496c1e82c7ba0f">mrmeshpy.PixelBitSet</a>, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html#a8a1bd6e58bb99820a9331a130e7a91d2">mrmeshpy.RegionBitSet</a>, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html#a9ee682c3041c268a363152f76d4a9507">mrmeshpy.TextureBitSet</a>, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a04ddffd88e077b03639f410b53438292">mrmeshpy.TypedBitSet_Id_ICPElemtTag</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html#ab9375ce2473ea558663d700f33abf911">mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html#a0fdbcfd95a0e74b9771421a8fd55957e">mrmeshpy.VertBitSet</a>, and <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html#a20769a17e6e767dcf4853568b64eab67">mrmeshpy.VoxelBitSet</a>.</p>
+
 </div>
 </div>
 <a id="ab180a8d812e38d6017ae181b145ee402" name="ab180a8d812e38d6017ae181b145ee402"></a>
@@ -1293,68 +1315,6 @@ both numbers are then partial, which makes a size test of a large set cheap
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7ab42866fcda21519f73a78064f1e881" name="a7ab42866fcda21519f73a78064f1e881"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ab42866fcda21519f73a78064f1e881">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> mrmeshpy.BitSet.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aefba345684d190e2c6acd6fc16693a2f">mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aefba345684d190e2c6acd6fc16693a2f">mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html#ab5da95a8a662cc3623b4f77a2a6063dd">mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html#ab5da95a8a662cc3623b4f77a2a6063dd">mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html#aaf07df34c1607d673b0c8270b03b9d72">mrmeshpy.FaceBitSet</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html#aaf07df34c1607d673b0c8270b03b9d72">mrmeshpy.FaceBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html#a90ee6054763625140408f132441fec8f">mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html#a90ee6054763625140408f132441fec8f">mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html#ae2fcdc87f5b2e061a1cb0cb49be5cf44">mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html#ae2fcdc87f5b2e061a1cb0cb49be5cf44">mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html#a95cb675ef089058d9d55693f4f8c376a">mrmeshpy.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html#a95cb675ef089058d9d55693f4f8c376a">mrmeshpy.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html#add1ab489681f93fe8dae2d51bed7b8ea">mrmeshpy.ObjBitSet</a>, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html#add1ab489681f93fe8dae2d51bed7b8ea">mrmeshpy.ObjBitSet</a>, <a class="el" href="classmrmeshpy_1_1PixelBitSet.html#aebb634cf35ae07a51367ad0f5dd5550e">mrmeshpy.PixelBitSet</a>, <a class="el" href="classmrmeshpy_1_1PixelBitSet.html#aebb634cf35ae07a51367ad0f5dd5550e">mrmeshpy.PixelBitSet</a>, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html#ab293ad610a97648ec71511daef7510d0">mrmeshpy.RegionBitSet</a>, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html#ab293ad610a97648ec71511daef7510d0">mrmeshpy.RegionBitSet</a>, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html#a02d19b8c19ad5b3c950e034d1109939c">mrmeshpy.TextureBitSet</a>, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html#a02d19b8c19ad5b3c950e034d1109939c">mrmeshpy.TextureBitSet</a>, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a1daa34da0a3b3a3ac7590b2ef7288dba">mrmeshpy.TypedBitSet_Id_ICPElemtTag</a>, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a1daa34da0a3b3a3ac7590b2ef7288dba">mrmeshpy.TypedBitSet_Id_ICPElemtTag</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html#ac4b019d722ab7f5fa260f1b681147fae">mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html#ac4b019d722ab7f5fa260f1b681147fae">mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html#a533bb6c6331dfa6f7d16a75612ce2ef4">mrmeshpy.VertBitSet</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html#a533bb6c6331dfa6f7d16a75612ce2ef4">mrmeshpy.VertBitSet</a>, <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html#a25aa23b0670273ff76bdbc50ab77135b">mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html#a25aa23b0670273ff76bdbc50ab77135b">mrmeshpy.VoxelBitSet</a>.</p>
-
-</div>
-</div>
-<a id="a7ab42866fcda21519f73a78064f1e881" name="a7ab42866fcda21519f73a78064f1e881"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ab42866fcda21519f73a78064f1e881">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> mrmeshpy.BitSet.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aefba345684d190e2c6acd6fc16693a2f">mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aefba345684d190e2c6acd6fc16693a2f">mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html#ab5da95a8a662cc3623b4f77a2a6063dd">mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html#ab5da95a8a662cc3623b4f77a2a6063dd">mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html#aaf07df34c1607d673b0c8270b03b9d72">mrmeshpy.FaceBitSet</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html#aaf07df34c1607d673b0c8270b03b9d72">mrmeshpy.FaceBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html#a90ee6054763625140408f132441fec8f">mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html#a90ee6054763625140408f132441fec8f">mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html#ae2fcdc87f5b2e061a1cb0cb49be5cf44">mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html#ae2fcdc87f5b2e061a1cb0cb49be5cf44">mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html#a95cb675ef089058d9d55693f4f8c376a">mrmeshpy.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html#a95cb675ef089058d9d55693f4f8c376a">mrmeshpy.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html#add1ab489681f93fe8dae2d51bed7b8ea">mrmeshpy.ObjBitSet</a>, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html#add1ab489681f93fe8dae2d51bed7b8ea">mrmeshpy.ObjBitSet</a>, <a class="el" href="classmrmeshpy_1_1PixelBitSet.html#aebb634cf35ae07a51367ad0f5dd5550e">mrmeshpy.PixelBitSet</a>, <a class="el" href="classmrmeshpy_1_1PixelBitSet.html#aebb634cf35ae07a51367ad0f5dd5550e">mrmeshpy.PixelBitSet</a>, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html#ab293ad610a97648ec71511daef7510d0">mrmeshpy.RegionBitSet</a>, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html#ab293ad610a97648ec71511daef7510d0">mrmeshpy.RegionBitSet</a>, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html#a02d19b8c19ad5b3c950e034d1109939c">mrmeshpy.TextureBitSet</a>, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html#a02d19b8c19ad5b3c950e034d1109939c">mrmeshpy.TextureBitSet</a>, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a1daa34da0a3b3a3ac7590b2ef7288dba">mrmeshpy.TypedBitSet_Id_ICPElemtTag</a>, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a1daa34da0a3b3a3ac7590b2ef7288dba">mrmeshpy.TypedBitSet_Id_ICPElemtTag</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html#ac4b019d722ab7f5fa260f1b681147fae">mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html#ac4b019d722ab7f5fa260f1b681147fae">mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html#a533bb6c6331dfa6f7d16a75612ce2ef4">mrmeshpy.VertBitSet</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html#a533bb6c6331dfa6f7d16a75612ce2ef4">mrmeshpy.VertBitSet</a>, <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html#a25aa23b0670273ff76bdbc50ab77135b">mrmeshpy.VoxelBitSet</a>, and <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html#a25aa23b0670273ff76bdbc50ab77135b">mrmeshpy.VoxelBitSet</a>.</p>
 
 </div>
 </div>

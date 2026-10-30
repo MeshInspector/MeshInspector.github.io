@@ -3,6 +3,7 @@ var classmrmeshpy_1_1ObjectMeshData =
     [ "__init__", "classmrmeshpy_1_1ObjectMeshData.html#a2f64f96834d21c93fc6dd7d51571fe0d", null ],
     [ "__init__", "classmrmeshpy_1_1ObjectMeshData.html#a85419a1ed940b550fccab416b1a6266d", null ],
     [ "__init__", "classmrmeshpy_1_1ObjectMeshData.html#ae026cd7dfb94b12f05ab34a9a63bb9d8", null ],
+    [ "assign", "classmrmeshpy_1_1ObjectMeshData.html#ad96490e51cfc1ba5290ed2a24878c91d", null ],
     [ "clone", "classmrmeshpy_1_1ObjectMeshData.html#a18b81f228d29a747d71f4d76fd88b6d1", null ],
     [ "heapBytes", "classmrmeshpy_1_1ObjectMeshData.html#a915c152b80a261fce8444ec61a84fe60", null ],
     [ "selectedFaces", "classmrmeshpy_1_1ObjectMeshData.html#ac435d64beff1ac98bb65043ac41fb01a", null ],

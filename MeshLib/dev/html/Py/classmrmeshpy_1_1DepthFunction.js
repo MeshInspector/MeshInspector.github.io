@@ -6,7 +6,7 @@ var classmrmeshpy_1_1DepthFunction =
     [ "__getstate__", "classmrmeshpy_1_1DepthFunction.html#a80eb933acbe6565f2182de999588391a", null ],
     [ "__hash__", "classmrmeshpy_1_1DepthFunction.html#a981d93d7ca589681f88570c315a3ed63", null ],
     [ "__iand__", "classmrmeshpy_1_1DepthFunction.html#a4079f3c1d887b90ef0e17abc4a51a727", null ],
-    [ "__imatmul__", "classmrmeshpy_1_1DepthFunction.html#a6597ba905cad3815cf48d90dee6c50e4", null ],
+    [ "__imul__", "classmrmeshpy_1_1DepthFunction.html#aaf8ab1440434a2f540379cbc6c7b93d6", null ],
     [ "__index__", "classmrmeshpy_1_1DepthFunction.html#a2015c49672a0a24dacd9d6e2bb106d4c", null ],
     [ "__int__", "classmrmeshpy_1_1DepthFunction.html#a75bcfe2bbf1608e35eba63212f24b1b5", null ],
     [ "__invert__", "classmrmeshpy_1_1DepthFunction.html#a4b53a0e4e3f63c3e626404778d24c90c", null ],

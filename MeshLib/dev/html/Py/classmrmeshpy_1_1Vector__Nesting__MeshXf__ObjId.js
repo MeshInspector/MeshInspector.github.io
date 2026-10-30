@@ -11,6 +11,7 @@ var classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId =
     [ "__len__", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#a226692cfffc09389a9a9a144270c5466", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#a79320bcbc3aea8b9cc69ab98d2bff8de", null ],
     [ "assign", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#ae5805a88f1e97954decd297a4b6087df", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#a62442cf29d25aacbb43464aec0449f17", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#a4db6f442e6ae1b6a24ac27f5230aaeb1", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#a7941830d4a4d4dcdc8339295edafc3c1", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId.html#abd97741cdf5ec53ecaa8c0a93de4b33c", null ],

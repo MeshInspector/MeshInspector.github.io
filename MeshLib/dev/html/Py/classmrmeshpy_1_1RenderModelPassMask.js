@@ -6,7 +6,7 @@ var classmrmeshpy_1_1RenderModelPassMask =
     [ "__getstate__", "classmrmeshpy_1_1RenderModelPassMask.html#a9becb2ffeeb21f6cedfca4471e85c6f2", null ],
     [ "__hash__", "classmrmeshpy_1_1RenderModelPassMask.html#a8c761defc678256a903dd611532d3dce", null ],
     [ "__iand__", "classmrmeshpy_1_1RenderModelPassMask.html#ae7a7d4677c46a0f6e8451e15f64f5044", null ],
-    [ "__imatmul__", "classmrmeshpy_1_1RenderModelPassMask.html#ae7720a940f602c7fbd852ef354d6cf9e", null ],
+    [ "__imul__", "classmrmeshpy_1_1RenderModelPassMask.html#a906bcb503448189608ded52d28a75331", null ],
     [ "__index__", "classmrmeshpy_1_1RenderModelPassMask.html#a43ce6f4506ce4ca444d2ad7ce6c3323a", null ],
     [ "__int__", "classmrmeshpy_1_1RenderModelPassMask.html#a6774a763afbed45245a67771ef7e6e76", null ],
     [ "__invert__", "classmrmeshpy_1_1RenderModelPassMask.html#a1a63aafc9db85237ae6dba8b90ed0667", null ],

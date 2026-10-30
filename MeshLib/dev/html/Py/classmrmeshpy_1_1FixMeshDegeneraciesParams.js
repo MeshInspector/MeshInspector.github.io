@@ -4,6 +4,7 @@ var classmrmeshpy_1_1FixMeshDegeneraciesParams =
     [ "__init__", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a1e1f838f91dc42fc8dc26bbfe1d8efa4", null ],
     [ "__init__", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a74f02bc677138a4b475b88934444675a", null ],
     [ "__init__", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#ab2904688f7578c3606800ba66d0a6669", null ],
+    [ "assign", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#aa35fafcd99d57f3223454afc7469fc77", null ],
     [ "criticalTriAspectRatio", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#af1fa642dd015c97f9141ea6cecb2d29a", null ],
     [ "criticalTriAspectRatio", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#ad541d9f4dee2a4c7a2b11ac5f4ea2c8a", null ],
     [ "maxAngleChange", "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#aef18acdff79e42342561f709e03f23ef", null ],

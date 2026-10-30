@@ -3,6 +3,7 @@ var classmrmeshpy_1_1RigidXfRansacParams =
     [ "__init__", "classmrmeshpy_1_1RigidXfRansacParams.html#a1d36bdf1fc89f82a04ca5585582872ff", null ],
     [ "__init__", "classmrmeshpy_1_1RigidXfRansacParams.html#a384e63b436ee7e72a7bc9202c49210ba", null ],
     [ "__init__", "classmrmeshpy_1_1RigidXfRansacParams.html#aef375bf7d4cf4952bf7fad197b5f88a3", null ],
+    [ "assign", "classmrmeshpy_1_1RigidXfRansacParams.html#a25372285a237dffc36070b29a37e91ef", null ],
     [ "confidence", "classmrmeshpy_1_1RigidXfRansacParams.html#a8b8f150013d824bbd0993fe8339636f7", null ],
     [ "confidence", "classmrmeshpy_1_1RigidXfRansacParams.html#a1dd1de6d656a90c5c179cf27aebbad7b", null ],
     [ "edgeLengthRatio", "classmrmeshpy_1_1RigidXfRansacParams.html#a48f4033c491f95d79d7060ca584e3a40", null ],

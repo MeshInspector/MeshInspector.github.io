@@ -9,6 +9,7 @@ var classmrmeshpy_1_1Line2d =
     [ "__repr__", "classmrmeshpy_1_1Line2d.html#a115dbedb740ea8c969ec0d3fa231d66d", null ],
     [ "__rlshift__", "classmrmeshpy_1_1Line2d.html#a866d88f46f932a7848c9782a2f2d7fc2", null ],
     [ "__rrshift__", "classmrmeshpy_1_1Line2d.html#ace766a7266218bb4d5950417a9299556", null ],
+    [ "assign", "classmrmeshpy_1_1Line2d.html#ac187454daa115b69724c2e90eef56948", null ],
     [ "distanceSq", "classmrmeshpy_1_1Line2d.html#aa06d60d891c25ce22006d46177fa4b18", null ],
     [ "normalized", "classmrmeshpy_1_1Line2d.html#ac1fd57f43d17e13800ac1db16d39dbef", null ],
     [ "project", "classmrmeshpy_1_1Line2d.html#adfc6218469ce5b5f0a9aba69419743cb", null ],

@@ -9,6 +9,7 @@ var classmrmeshpy_1_1SegmPointd =
     [ "__repr__", "classmrmeshpy_1_1SegmPointd.html#a64905e3ddf22dd6078e12341a2cf3dff", null ],
     [ "a", "classmrmeshpy_1_1SegmPointd.html#a9f5a3cbb980fa38ea3fc8c77255ce515", null ],
     [ "a", "classmrmeshpy_1_1SegmPointd.html#aef2647c3cf6607eded322d0b62572091", null ],
+    [ "assign", "classmrmeshpy_1_1SegmPointd.html#afe45ae486691a21f8112f50d749f821c", null ],
     [ "convert_to_double", "classmrmeshpy_1_1SegmPointd.html#a367168893bab885f794c627589193a4f", null ],
     [ "inVertex", "classmrmeshpy_1_1SegmPointd.html#ac922cf449b7eedee1fd3306c70ca6d19", null ],
     [ "sym", "classmrmeshpy_1_1SegmPointd.html#a3318efed86387d4503a846a235a5e9cf", null ]

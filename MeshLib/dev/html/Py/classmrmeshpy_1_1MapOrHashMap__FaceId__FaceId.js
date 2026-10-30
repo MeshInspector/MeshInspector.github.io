@@ -3,6 +3,7 @@ var classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId =
     [ "__init__", "classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#af7357225c87d9ec69cf1c385c68af66d", null ],
     [ "__init__", "classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#acc1fc26d40a2cb847c109eeb2a1c4822", null ],
     [ "__init__", "classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#a404183784329eeb8b269b6796db1405b", null ],
+    [ "assign", "classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#a452ef1f91ad73988862e221d8094a7e0", null ],
     [ "clear", "classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#a6cfb3114ec32f50b1204862559760df8", null ],
     [ "getHashMap", "classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#a07863158dbc0803bc79f9a3b5abe1119", null ],
     [ "getHashMap", "classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId.html#a07863158dbc0803bc79f9a3b5abe1119", null ],

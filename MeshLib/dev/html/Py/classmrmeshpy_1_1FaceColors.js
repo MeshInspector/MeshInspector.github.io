@@ -12,6 +12,7 @@ var classmrmeshpy_1_1FaceColors =
     [ "__len__", "classmrmeshpy_1_1FaceColors.html#a19601f1cd8d1d22a7e46139a262d302b", null ],
     [ "__ne__", "classmrmeshpy_1_1FaceColors.html#a02a65440263ceeef2094bce775ff6465", null ],
     [ "__setitem__", "classmrmeshpy_1_1FaceColors.html#aa5afc0ac3f3c9310bcdec9ab1641e41e", null ],
+    [ "assign", "classmrmeshpy_1_1FaceColors.html#a5171f09d0f12ae5db9377319a1d3373e", null ],
     [ "assign", "classmrmeshpy_1_1FaceColors.html#a679df62ef2614194f9d81fccc6b54c91", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1FaceColors.html#ac222fda0c553c40658225a2f24d46509", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1FaceColors.html#ab6254882e6a35725149865620654de77", null ],

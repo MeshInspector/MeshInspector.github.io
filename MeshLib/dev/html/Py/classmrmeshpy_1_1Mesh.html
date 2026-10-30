@@ -153,6 +153,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6fe4759c9412f40d5a10b41ffeeec32b" id="r_a6fe4759c9412f40d5a10b41ffeeec32b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fe4759c9412f40d5a10b41ffeeec32b">addSeparateEdgeLoop</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> contourPoints)</td></tr>
 <tr class="memitem:ae8a713d1597f50dbc73f55072330afd6" id="r_ae8a713d1597f50dbc73f55072330afd6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8a713d1597f50dbc73f55072330afd6">area</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f)</td></tr>
 <tr class="memitem:af0706adebb7c65bf60bb422edd6afbb5" id="r_af0706adebb7c65bf60bb422edd6afbb5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0706adebb7c65bf60bb422edd6afbb5">area</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> fs=None)</td></tr>
+<tr class="memitem:a9e6f31ecc099ece5641322ad4309a4df" id="r_a9e6f31ecc099ece5641322ad4309a4df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e6f31ecc099ece5641322ad4309a4df">assign</a> (self, <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> other)</td></tr>
 <tr class="memitem:a5a8f26c10117fc7c9ee7017ed7dd0bde" id="r_a5a8f26c10117fc7c9ee7017ed7dd0bde"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a8f26c10117fc7c9ee7017ed7dd0bde">attachEdgeLoopPart</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> first, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> last, <a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> contourPoints)</td></tr>
 <tr class="memitem:aea7f50a79ce1cf8b2763ca8d373fa289" id="r_aea7f50a79ce1cf8b2763ca8d373fa289"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea7f50a79ce1cf8b2763ca8d373fa289">averageEdgeLength</a> (self)</td></tr>
 <tr class="memitem:a3cd28414929517740fac289e667c9722" id="r_a3cd28414929517740fac289e667c9722"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cd28414929517740fac289e667c9722">calcFastWindingNumber</a> (self, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> pt, float beta=2)</td></tr>
@@ -269,8 +270,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab674451c0791fc46bf4e344fb36f66ee" id="r_ab674451c0791fc46bf4e344fb36f66ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab674451c0791fc46bf4e344fb36f66ee">fromTriMesh</a> (<a class="el" href="classmrmeshpy_1_1TriMesh.html">TriMesh</a> triMesh, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings=..., <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="memitem:ada66fe40d748b40f9b24a065e610fb7c" id="r_ada66fe40d748b40f9b24a065e610fb7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada66fe40d748b40f9b24a065e610fb7c">fromTriangles</a> (<a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> vertexCoordinates, <a class="el" href="classmrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings=..., <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="memitem:af709d19ffd7f42928e0379b063fbef3e" id="r_af709d19ffd7f42928e0379b063fbef3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af709d19ffd7f42928e0379b063fbef3e">fromTrianglesDuplicatingNonManifoldVertices</a> (<a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> vertexCoordinates, <a class="el" href="classmrmeshpy_1_1Triangulation.html">Triangulation</a> t, <a class="el" href="classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication.html">std_vector_MeshBuilder_VertDuplication</a> dups=None, <a class="el" href="classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder.BuildSettings</a> settings=..., <a class="el" href="classmrmeshpy_1_1func__bool__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag.html">func_bool_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag</a> betterCont='{}')</td></tr>
-<tr class="memitem:a397f8faa4d1b0a1309e14fdf7381702f" id="r_a397f8faa4d1b0a1309e14fdf7381702f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a397f8faa4d1b0a1309e14fdf7381702f">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a397f8faa4d1b0a1309e14fdf7381702f" id="r_a397f8faa4d1b0a1309e14fdf7381702f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a397f8faa4d1b0a1309e14fdf7381702f">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -647,6 +646,27 @@ returns first EdgeId of new edges
 </div><div class="memdoc">
 <pre class="fragment">returns the area of given face
 </pre> 
+</div>
+</div>
+<a id="a9e6f31ecc099ece5641322ad4309a4df" name="a9e6f31ecc099ece5641322ad4309a4df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e6f31ecc099ece5641322ad4309a4df">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mrmeshpy.Mesh.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="a5a8f26c10117fc7c9ee7017ed7dd0bde" name="a5a8f26c10117fc7c9ee7017ed7dd0bde"></a>
@@ -2535,64 +2555,6 @@ this is the same normal as in rendering with smooth shading
 </div><div class="memdoc">
 <pre class="fragment">computes normal in a vertex using sum of directed areas of neighboring triangles
 </pre> 
-</div>
-</div>
-<a id="a397f8faa4d1b0a1309e14fdf7381702f" name="a397f8faa4d1b0a1309e14fdf7381702f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a397f8faa4d1b0a1309e14fdf7381702f">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mrmeshpy.Mesh.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a397f8faa4d1b0a1309e14fdf7381702f" name="a397f8faa4d1b0a1309e14fdf7381702f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a397f8faa4d1b0a1309e14fdf7381702f">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mrmeshpy.Mesh.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <a id="a31a710c74aadac2682ace723a9cb5847" name="a31a710c74aadac2682ace723a9cb5847"></a>

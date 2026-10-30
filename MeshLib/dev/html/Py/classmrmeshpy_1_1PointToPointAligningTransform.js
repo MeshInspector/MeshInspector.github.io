@@ -5,6 +5,7 @@ var classmrmeshpy_1_1PointToPointAligningTransform =
     [ "add", "classmrmeshpy_1_1PointToPointAligningTransform.html#a99ef5a6899ef9ef3f62f43812523b674", null ],
     [ "add", "classmrmeshpy_1_1PointToPointAligningTransform.html#a2f7672f353a33d7dc062b6a7ff3a42d5", null ],
     [ "add", "classmrmeshpy_1_1PointToPointAligningTransform.html#a86aca32140f4b9131b96438aa438257f", null ],
+    [ "assign", "classmrmeshpy_1_1PointToPointAligningTransform.html#a54ae885139f0106f1de1709528ee5416", null ],
     [ "centroid1", "classmrmeshpy_1_1PointToPointAligningTransform.html#a06f5228ec7537ed1f99c07f2a42f1cd1", null ],
     [ "centroid2", "classmrmeshpy_1_1PointToPointAligningTransform.html#add80e5b98bc65a7e553832a793d9d043", null ],
     [ "clear", "classmrmeshpy_1_1PointToPointAligningTransform.html#af7ecc47ed4f45dbafcb3a97290fe5608", null ],

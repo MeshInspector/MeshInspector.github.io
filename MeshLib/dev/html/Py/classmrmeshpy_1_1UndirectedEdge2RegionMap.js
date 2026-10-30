@@ -13,6 +13,7 @@ var classmrmeshpy_1_1UndirectedEdge2RegionMap =
     [ "__ne__", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#afa82918e3aba4da937b8bd0cf6845907", null ],
     [ "__setitem__", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a3f7cf8e6a65d1a8f76599d273a173db0", null ],
     [ "assign", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a24517d5c6eb2aff3da96dce2a48bb332", null ],
+    [ "assign", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#af9c2f96bc9f99a7b06a4c21cd65534b7", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5c2e92d888cefb9af221ef15fd6ed3f2", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#afcde824cebfba9610588b73d5cc17db4", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a02193a4244faedfdb770c27517c54362", null ],

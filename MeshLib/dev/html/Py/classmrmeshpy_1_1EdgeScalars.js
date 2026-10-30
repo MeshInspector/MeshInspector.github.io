@@ -12,6 +12,7 @@ var classmrmeshpy_1_1EdgeScalars =
     [ "__len__", "classmrmeshpy_1_1EdgeScalars.html#a52dacdd2619f35596512d2bbf5043fbd", null ],
     [ "__ne__", "classmrmeshpy_1_1EdgeScalars.html#a73304e18696680e1cbaab8fe63993ae7", null ],
     [ "__setitem__", "classmrmeshpy_1_1EdgeScalars.html#a266a1525ffdca15ff83f7b665c932b79", null ],
+    [ "assign", "classmrmeshpy_1_1EdgeScalars.html#a36886684bc197fb0083f6fb45c62006f", null ],
     [ "assign", "classmrmeshpy_1_1EdgeScalars.html#ac20c4d5f92c8a51a880bc364c9792529", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1EdgeScalars.html#a30d7acb529f2d8c5002a88995c97e3ad", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1EdgeScalars.html#ad5aea91d9b032504e7abfae51687dfad", null ],

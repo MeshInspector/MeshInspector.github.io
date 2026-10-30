@@ -153,6 +153,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abbbb740a95785534a30a681fd2b4400c" id="r_abbbb740a95785534a30a681fd2b4400c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbbb740a95785534a30a681fd2b4400c">__len__</a> (self)</td></tr>
 <tr class="memitem:ab96563718aaf355c10d6893a18708232" id="r_ab96563718aaf355c10d6893a18708232"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab96563718aaf355c10d6893a18708232">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a> b)</td></tr>
 <tr class="memitem:a1a8f185a2d9f253b011ef09c250827aa" id="r_a1a8f185a2d9f253b011ef09c250827aa"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a8f185a2d9f253b011ef09c250827aa">__setitem__</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> arg0, float arg1)</td></tr>
+<tr class="memitem:ab98463d16ef6627f5e5464752ed754bb" id="r_ab98463d16ef6627f5e5464752ed754bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab98463d16ef6627f5e5464752ed754bb">assign</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a> other)</td></tr>
 <tr class="memitem:a883acbf7a02e2e1fc9437340922b962f" id="r_a883acbf7a02e2e1fc9437340922b962f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a883acbf7a02e2e1fc9437340922b962f">assign</a> (self, int count, float val)</td></tr>
 <tr class="memitem:a3cb01aa90a405d04fced83a42845a236" id="r_a3cb01aa90a405d04fced83a42845a236"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cb01aa90a405d04fced83a42845a236">autoResizeAt</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> i)</td></tr>
 <tr class="memitem:aa666507804b28811c3de9e2af40e4439" id="r_aa666507804b28811c3de9e2af40e4439"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa666507804b28811c3de9e2af40e4439">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> pos, int len, float val)</td></tr>
@@ -188,8 +189,6 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a91f722fef39b327bc9e7cd6b149d80ed" id="r_a91f722fef39b327bc9e7cd6b149d80ed"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91f722fef39b327bc9e7cd6b149d80ed">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a767b6ac09972c8b11c801768143c3051" id="r_a767b6ac09972c8b11c801768143c3051"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a767b6ac09972c8b11c801768143c3051">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a767b6ac09972c8b11c801768143c3051" id="r_a767b6ac09972c8b11c801768143c3051"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a767b6ac09972c8b11c801768143c3051">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -485,7 +484,7 @@ Vector&lt;T&gt; is indexed by size_t
 </div>
 </div>
 <a id="a883acbf7a02e2e1fc9437340922b962f" name="a883acbf7a02e2e1fc9437340922b962f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a883acbf7a02e2e1fc9437340922b962f">&#9670;&#160;</a></span>assign()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a883acbf7a02e2e1fc9437340922b962f">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -509,6 +508,27 @@ Vector&lt;T&gt; is indexed by size_t
 </div><div class="memdoc">
 <pre class="fragment">replaces the contents with \\p count copies of \\p val
 </pre> 
+</div>
+</div>
+<a id="ab98463d16ef6627f5e5464752ed754bb" name="ab98463d16ef6627f5e5464752ed754bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab98463d16ef6627f5e5464752ed754bb">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a> mrmeshpy.UndirectedEdgeScalars.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="a3cb01aa90a405d04fced83a42845a236" name="a3cb01aa90a405d04fced83a42845a236"></a>
@@ -831,64 +851,6 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
           <td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a767b6ac09972c8b11c801768143c3051" name="a767b6ac09972c8b11c801768143c3051"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a767b6ac09972c8b11c801768143c3051">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a> mrmeshpy.UndirectedEdgeScalars.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a767b6ac09972c8b11c801768143c3051" name="a767b6ac09972c8b11c801768143c3051"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a767b6ac09972c8b11c801768143c3051">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a> mrmeshpy.UndirectedEdgeScalars.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

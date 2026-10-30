@@ -3,6 +3,7 @@ var classmrmeshpy_1_1SubdivideFillingSettings =
     [ "__init__", "classmrmeshpy_1_1SubdivideFillingSettings.html#ade0f5b4966435eed339e614d610558f0", null ],
     [ "__init__", "classmrmeshpy_1_1SubdivideFillingSettings.html#a27bcfa6d336b97ccc748d7ac7014e7f7", null ],
     [ "__init__", "classmrmeshpy_1_1SubdivideFillingSettings.html#ab3b665620d2da5b657e91851c41b756d", null ],
+    [ "assign", "classmrmeshpy_1_1SubdivideFillingSettings.html#ae673df001b4c0ecca2f08f3f10ed7c97", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1SubdivideFillingSettings.html#a9e2ca1cb11b4f0b690727a35a1e6c8e6", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1SubdivideFillingSettings.html#a6a08c649dbc8df83a725d21ce3cd709d", null ],
     [ "maxAngleChangeAfterFlip", "classmrmeshpy_1_1SubdivideFillingSettings.html#a9b4888bdc36e201a4c90189c79a4dccb", null ],

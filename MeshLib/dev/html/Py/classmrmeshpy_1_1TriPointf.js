@@ -11,6 +11,7 @@ var classmrmeshpy_1_1TriPointf =
     [ "__rrshift__", "classmrmeshpy_1_1TriPointf.html#ad58a6ef83307e966f09f80c1df68fed7", null ],
     [ "a", "classmrmeshpy_1_1TriPointf.html#a4ee1cb5387bc622bf861fa49e8a6aea1", null ],
     [ "a", "classmrmeshpy_1_1TriPointf.html#ac2339ec8b7fb781353d8bd48e726ce9d", null ],
+    [ "assign", "classmrmeshpy_1_1TriPointf.html#a66adbb6a0987460cd4657463ae0ea68d", null ],
     [ "b", "classmrmeshpy_1_1TriPointf.html#a01200c0a58f015670f2cf63656fafcde", null ],
     [ "b", "classmrmeshpy_1_1TriPointf.html#af96d765fe645aa6329ed2b194e414747", null ],
     [ "inVertex", "classmrmeshpy_1_1TriPointf.html#ab472a8e492e79e32dd6ce12a862ac4c6", null ],

@@ -3,6 +3,7 @@ var classmrmeshpy_1_1ContoursMeshAlignParams =
     [ "__init__", "classmrmeshpy_1_1ContoursMeshAlignParams.html#af40dab5c573ef2eec50c631a29b037af", null ],
     [ "__init__", "classmrmeshpy_1_1ContoursMeshAlignParams.html#ad5a515483bd65ffa6ca6964f1ddbba67", null ],
     [ "__init__", "classmrmeshpy_1_1ContoursMeshAlignParams.html#a8e41c4bbcb2ee08281318c1d58faa90c", null ],
+    [ "assign", "classmrmeshpy_1_1ContoursMeshAlignParams.html#a04483a7859556c25e526e836983e8b9b", null ],
     [ "extrusion", "classmrmeshpy_1_1ContoursMeshAlignParams.html#a5693449a2bfe15e19f6160265f03ec4b", null ],
     [ "extrusion", "classmrmeshpy_1_1ContoursMeshAlignParams.html#a2677db0ca8969382f01af170f6636934", null ],
     [ "maximumShift", "classmrmeshpy_1_1ContoursMeshAlignParams.html#af0b5652dd30ac63f47e75f3a04212b9d", null ],

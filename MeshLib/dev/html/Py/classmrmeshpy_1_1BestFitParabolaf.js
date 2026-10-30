@@ -4,5 +4,6 @@ var classmrmeshpy_1_1BestFitParabolaf =
     [ "__init__", "classmrmeshpy_1_1BestFitParabolaf.html#ac179f8c45822d2a9c1a0edda9049c74e", null ],
     [ "addPoint", "classmrmeshpy_1_1BestFitParabolaf.html#af5fa1adb3a338013a8b53b74e2c9a10f", null ],
     [ "addPoint", "classmrmeshpy_1_1BestFitParabolaf.html#a12973f1758b181806084164101ebf7dd", null ],
+    [ "assign", "classmrmeshpy_1_1BestFitParabolaf.html#a065b9cab33acdf890cd7a6c3ac64060e", null ],
     [ "getBestParabola", "classmrmeshpy_1_1BestFitParabolaf.html#a7f314cd16236dbc2a210793a7d06dbf6", null ]
 ];

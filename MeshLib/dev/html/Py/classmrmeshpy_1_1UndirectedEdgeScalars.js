@@ -13,6 +13,7 @@ var classmrmeshpy_1_1UndirectedEdgeScalars =
     [ "__ne__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#ab96563718aaf355c10d6893a18708232", null ],
     [ "__setitem__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a1a8f185a2d9f253b011ef09c250827aa", null ],
     [ "assign", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a883acbf7a02e2e1fc9437340922b962f", null ],
+    [ "assign", "classmrmeshpy_1_1UndirectedEdgeScalars.html#ab98463d16ef6627f5e5464752ed754bb", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a3cb01aa90a405d04fced83a42845a236", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a7ebb4ecae5ba33111dd9101d9ed72a47", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1UndirectedEdgeScalars.html#aa666507804b28811c3de9e2af40e4439", null ],

@@ -3,6 +3,7 @@ var classmrmeshpy_1_1CompressZipSettings =
     [ "__init__", "classmrmeshpy_1_1CompressZipSettings.html#ae0ecdb40714f3a58a786de9e4c5f9e8a", null ],
     [ "__init__", "classmrmeshpy_1_1CompressZipSettings.html#a9a077da74f78e322211b0e2c33084e65", null ],
     [ "__init__", "classmrmeshpy_1_1CompressZipSettings.html#ad67a657dc8b6372944ddb1af43c1b0d8", null ],
+    [ "assign", "classmrmeshpy_1_1CompressZipSettings.html#a5a8b7a5845b6ef1d52d3a43141f5b0d8", null ],
     [ "cb", "classmrmeshpy_1_1CompressZipSettings.html#aa5d128c6fde9742148317a6a443efefb", null ],
     [ "cb", "classmrmeshpy_1_1CompressZipSettings.html#a0fe89d4d4f1d76c7e03d083926e96bdf", null ],
     [ "compressionLevel", "classmrmeshpy_1_1CompressZipSettings.html#a97d56caa541deeecca6fdc3b3d47a384", null ],

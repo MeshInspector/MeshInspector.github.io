@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__GraphVertId__GraphVertId =
     [ "__ne__", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a76b25e3fc6cf7d3357f7f4fffa2cf9e8", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#adc1bbe148a6362b8fca5550c566723d9", null ],
     [ "assign", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#ac23dd9055205cf8bae38914b7a661eb8", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a21af788ab0cd2321ec8747133889234e", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#ad29304724691289ef5fefac5b327a364", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#a5548d6ac1f59ab1e64f2f71e990910d0", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__GraphVertId__GraphVertId.html#ac85dfed1cb9afb4e74c46536427f6d1c", null ],

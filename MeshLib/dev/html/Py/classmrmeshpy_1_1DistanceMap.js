@@ -6,6 +6,7 @@ var classmrmeshpy_1_1DistanceMap =
     [ "__init__", "classmrmeshpy_1_1DistanceMap.html#ad38a0abf119f8ad2f14ffda136ceed4c", null ],
     [ "__isub__", "classmrmeshpy_1_1DistanceMap.html#adb4ebdb589d86793bac94b9ee60d40b3", null ],
     [ "__sub__", "classmrmeshpy_1_1DistanceMap.html#acde3c8b98de14ca34093e2d7be48aee8", null ],
+    [ "assign", "classmrmeshpy_1_1DistanceMap.html#a086b12a3f058e73311e077fc1702e2e9", null ],
     [ "clear", "classmrmeshpy_1_1DistanceMap.html#a7a52b1d24279d4963c5254956479c363", null ],
     [ "data", "classmrmeshpy_1_1DistanceMap.html#a63e4bbe59438f62bbb4ba72ff927ae12", null ],
     [ "data", "classmrmeshpy_1_1DistanceMap.html#a63e4bbe59438f62bbb4ba72ff927ae12", null ],

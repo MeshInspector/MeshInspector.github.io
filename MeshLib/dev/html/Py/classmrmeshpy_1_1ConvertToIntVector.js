@@ -5,5 +5,6 @@ var classmrmeshpy_1_1ConvertToIntVector =
     [ "__init__", "classmrmeshpy_1_1ConvertToIntVector.html#adad04762d967959ba83a18e7184272fb", null ],
     [ "__call__", "classmrmeshpy_1_1ConvertToIntVector.html#a433f976a84b4aae82cff245556f147b7", null ],
     [ "__call__", "classmrmeshpy_1_1ConvertToIntVector.html#a9dcba2b50b1ee24b90cd8bfad795c74d", null ],
+    [ "assign", "classmrmeshpy_1_1ConvertToIntVector.html#a30b1b69a42527c766f35196c8d0923bc", null ],
     [ "scaleOnly", "classmrmeshpy_1_1ConvertToIntVector.html#ae7c7e052cd4107f5f8993ea2e5d10776", null ]
 ];

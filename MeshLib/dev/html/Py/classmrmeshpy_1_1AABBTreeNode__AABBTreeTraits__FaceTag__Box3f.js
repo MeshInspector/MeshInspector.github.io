@@ -2,6 +2,7 @@ var classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f =
 [
     [ "__init__", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a5aaa062a9a1344f41c4b7ba08ed91275", null ],
     [ "__init__", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#adc479202607ec2e69d493f3859e6dd45", null ],
+    [ "assign", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a182631b9da32f4768363c6017042de15", null ],
     [ "box", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a0358ff3b4e6aa9ddf21f9167a3e97841", null ],
     [ "box", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#afc6d0b76839f2d10933cf919d2bba70a", null ],
     [ "l", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a567a1167d90ee826731f81ee1e88988b", null ],

@@ -12,6 +12,7 @@ var classmrmeshpy_1_1FaceNormals =
     [ "__len__", "classmrmeshpy_1_1FaceNormals.html#ac6bc4f0a625039200ee1ce4800a77914", null ],
     [ "__ne__", "classmrmeshpy_1_1FaceNormals.html#a2744ec3f850f76d3a37b6bf2ca3cc4c6", null ],
     [ "__setitem__", "classmrmeshpy_1_1FaceNormals.html#a9a26cc56b471990e687b6a4b9f0bf9f3", null ],
+    [ "assign", "classmrmeshpy_1_1FaceNormals.html#a3ddc5883759d9ce3180423155315cd23", null ],
     [ "assign", "classmrmeshpy_1_1FaceNormals.html#a103523a576e1cc1d933c5f364fa8b413", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1FaceNormals.html#a3a9315c8f72b79ebbe8ec092a8a63c14", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1FaceNormals.html#ab247cc6226f2b83d1b5f2bd5ff38d7d8", null ],

@@ -5,6 +5,7 @@ var classmrmeshpy_1_1MeshBuilder_1_1BuildSettings =
     [ "__init__", "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#a3fd608401a9d5be2e03a21b60e08dc0b", null ],
     [ "allowNonManifoldEdge", "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#acb939bb883c9461c85e7b9e49fd65292", null ],
     [ "allowNonManifoldEdge", "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#a89ac8bfee2ccf98eeea5b5d50b699963", null ],
+    [ "assign", "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#aa41a02586ab75856a580e67bc9dbdefe", null ],
     [ "region", "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#a19e5d652aee18c47fd00054cfb8ef80b", null ],
     [ "region", "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#ae51527662edb185f2a3b0c33f3844400", null ],
     [ "shiftFaceId", "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#a3325911d36199c598062f38fbcc9e2cc", null ],

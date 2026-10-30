@@ -1,5 +1,6 @@
 var classmrmeshpy_1_1MutexOwner =
 [
     [ "__init__", "classmrmeshpy_1_1MutexOwner.html#a9706ef457792eb01f2f3ba3cbe3ae6e9", null ],
-    [ "__init__", "classmrmeshpy_1_1MutexOwner.html#ac35fe29bf86e5c566590822194d318af", null ]
+    [ "__init__", "classmrmeshpy_1_1MutexOwner.html#ac35fe29bf86e5c566590822194d318af", null ],
+    [ "assign", "classmrmeshpy_1_1MutexOwner.html#adbd893602f18251ab997a8932f86028b", null ]
 ];

@@ -13,6 +13,7 @@ var classmrmeshpy_1_1VertScalars =
     [ "__ne__", "classmrmeshpy_1_1VertScalars.html#a565d7baef078fa40f8a5c2991ef05717", null ],
     [ "__setitem__", "classmrmeshpy_1_1VertScalars.html#ac37530c701d5bac3ad4d5a8965794867", null ],
     [ "assign", "classmrmeshpy_1_1VertScalars.html#a6513eb9d601cbdef98f064229c7cf5f0", null ],
+    [ "assign", "classmrmeshpy_1_1VertScalars.html#a3cd0e717c0b2632b122d9d61d828728c", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1VertScalars.html#a9156c413ad2f1d77b0a60659837745df", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1VertScalars.html#ab33688e2a8f625f62f599c255e7eec65", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1VertScalars.html#a327ef51f9c67844a6e56fa5d21019d77", null ],

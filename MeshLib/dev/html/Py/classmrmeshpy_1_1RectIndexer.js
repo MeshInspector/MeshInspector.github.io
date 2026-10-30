@@ -5,6 +5,7 @@ var classmrmeshpy_1_1RectIndexer =
     [ "__init__", "classmrmeshpy_1_1RectIndexer.html#a79c40c5a4132c74a4cbef5d9739e7e69", null ],
     [ "areNeigbors", "classmrmeshpy_1_1RectIndexer.html#a27e451d40797215779c9255b084d99f7", null ],
     [ "areNeigbors", "classmrmeshpy_1_1RectIndexer.html#a6c23c4d90dc1fef793b740fc91956626", null ],
+    [ "assign", "classmrmeshpy_1_1RectIndexer.html#a026361d576c05413f635e237b56e8ed2", null ],
     [ "dims", "classmrmeshpy_1_1RectIndexer.html#a9ba99f18552f382c8e2f10540e3c9630", null ],
     [ "getNeighbor", "classmrmeshpy_1_1RectIndexer.html#a87ec23ff9e60e4e9efcd49d86c652153", null ],
     [ "getNeighbor", "classmrmeshpy_1_1RectIndexer.html#aa645b2294161a3337fa6eb76b0ef7875", null ],

@@ -3,6 +3,7 @@ var classmrmeshpy_1_1Nesting_1_1Nesting3mfParams =
     [ "__init__", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#a58d3d6bcd8346259462a85c2398e6e5e", null ],
     [ "__init__", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#ac32f17d31eb9aa321eb77c931608d906", null ],
     [ "__init__", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#a61ab60d9c4b34a3ea180533fc02e2fc5", null ],
+    [ "assign", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#a1647bf7a5cb0932fcd65ff92b6f485ee", null ],
     [ "decimateMaxError", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#a60c239463bebbaffb5ebbad9e1e0309c", null ],
     [ "decimateMaxError", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#ad1227f9c1dedb897ba1855af4a895d62", null ],
     [ "image", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#a2acc9b85f0fc8e0ec3e5683d533205ca", null ],

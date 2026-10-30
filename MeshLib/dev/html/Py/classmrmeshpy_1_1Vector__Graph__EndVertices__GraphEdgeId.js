@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId =
     [ "__ne__", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a8409d2ffc9921e8eae69b84572faf468", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a52a4db3b30106501eba5c1e5fe846e3f", null ],
     [ "assign", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a93e7a010dbbb6b6f167ed847a5a90224", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a2e4a4238268505a9ca53929202f85e94", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a29bfb24496fe9616f5c932800e59cfcb", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a680beabf6c16d3cb6e29b85dab0cf1f9", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a169d4ffde3d0e972cb76e6e587b5d763", null ],

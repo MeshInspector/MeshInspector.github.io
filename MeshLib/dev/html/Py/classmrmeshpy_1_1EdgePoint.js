@@ -9,6 +9,7 @@ var classmrmeshpy_1_1EdgePoint =
     [ "__eq__", "classmrmeshpy_1_1EdgePoint.html#a1b09e5501eaadb16bb7f603970f6ed3c", null ],
     [ "a", "classmrmeshpy_1_1EdgePoint.html#ab77c348d6a8d6cdb6cfb1dce6a79e746", null ],
     [ "a", "classmrmeshpy_1_1EdgePoint.html#a5d80fa8e14bde1f023ab536f4789403d", null ],
+    [ "assign", "classmrmeshpy_1_1EdgePoint.html#ad090f1e600ba145e8d83c7725a41efac", null ],
     [ "getClosestVertex", "classmrmeshpy_1_1EdgePoint.html#a9b0ed7c199650ce68b56f2ec748b5a76", null ],
     [ "getClosestVertex", "classmrmeshpy_1_1EdgePoint.html#ada9d878799f3999a3cbadf322c222158", null ],
     [ "inVertex", "classmrmeshpy_1_1EdgePoint.html#aed06301d573f5f697204a6c210ce20a7", null ],

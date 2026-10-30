@@ -5,6 +5,7 @@ var classmrmeshpy_1_1FreeFormBestFit =
     [ "addOther", "classmrmeshpy_1_1FreeFormBestFit.html#a3c8e2ddc8430ab8fafacd693d232cec7", null ],
     [ "addPair", "classmrmeshpy_1_1FreeFormBestFit.html#a66891ecb6c0c9cf0fd5c99ebe9ec0cb3", null ],
     [ "addPair", "classmrmeshpy_1_1FreeFormBestFit.html#a839a6a6dc20a98a638944a3a74ce0465", null ],
+    [ "assign", "classmrmeshpy_1_1FreeFormBestFit.html#a8c53b52128f68e0e994d1c68eb84ea79", null ],
     [ "findBestDeformationReferenceGrid", "classmrmeshpy_1_1FreeFormBestFit.html#a40233825f083dbd04b257833a33fb8a2", null ],
     [ "getStabilizer", "classmrmeshpy_1_1FreeFormBestFit.html#a32ac7a05e561184e067956f99fec03a9", null ],
     [ "setStabilizer", "classmrmeshpy_1_1FreeFormBestFit.html#ab87f326cd1a976f95696f85920ec6f24", null ]

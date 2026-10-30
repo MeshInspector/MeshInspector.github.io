@@ -11,12 +11,13 @@ var classmrmeshpy_1_1ViewportMask =
     [ "__ior__", "classmrmeshpy_1_1ViewportMask.html#ae268fb1a04c3532c394b8b1559449ddf", null ],
     [ "__iter__", "classmrmeshpy_1_1ViewportMask.html#adbd8c8f7fdb78bf733eb9f500da2dc0e", null ],
     [ "__ixor__", "classmrmeshpy_1_1ViewportMask.html#a4a321dfa85042409a12bd74131f6cbeb", null ],
+    [ "__lt__", "classmrmeshpy_1_1ViewportMask.html#a701f0d9b07d218593334f3754b359e95", null ],
     [ "__ne__", "classmrmeshpy_1_1ViewportMask.html#ac221d26d5d8a40ad8f3cdae3790cb9cd", null ],
     [ "__or__", "classmrmeshpy_1_1ViewportMask.html#ac1e799ca9f401194b7ea86123924bb60", null ],
     [ "__xor__", "classmrmeshpy_1_1ViewportMask.html#a287df6d0fcb3430b3202618f000e6605", null ],
+    [ "assign", "classmrmeshpy_1_1ViewportMask.html#a03b5b6f8ec174c792622b06bcf75d221", null ],
     [ "contains", "classmrmeshpy_1_1ViewportMask.html#ac32e9cb379d7e1334f1ec44fe2687c43", null ],
     [ "empty", "classmrmeshpy_1_1ViewportMask.html#ae42c48eacc1f456b23fb10564d754515", null ],
-    [ "operator", "classmrmeshpy_1_1ViewportMask.html#a935e2eed0ba19519fab4bf141adc8d67", null ],
     [ "set", "classmrmeshpy_1_1ViewportMask.html#a71c5ade79328cd013f40638b33fdbb7a", null ],
     [ "value", "classmrmeshpy_1_1ViewportMask.html#a28c9cb9a64c484dc5887a23289678653", null ]
 ];

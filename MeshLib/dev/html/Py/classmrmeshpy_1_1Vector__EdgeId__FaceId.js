@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__EdgeId__FaceId =
     [ "__ne__", "classmrmeshpy_1_1Vector__EdgeId__FaceId.html#a6f6708cc4f2ad4d178ac94f97fe4c14e", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__EdgeId__FaceId.html#aecd86f8d672783a5f4ec7671b04a84fb", null ],
     [ "assign", "classmrmeshpy_1_1Vector__EdgeId__FaceId.html#a804d7fc85a04f34ee1802e5e1b684801", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__EdgeId__FaceId.html#a225b8aee2655850aae9602fecea855d1", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__EdgeId__FaceId.html#aab20e3c1313e1062cdd763cf501a3f59", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__EdgeId__FaceId.html#a70d748c19b27fd3130cdb496f9565e81", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__EdgeId__FaceId.html#ae007a7675650a88972a80e5e8f4237cd", null ],

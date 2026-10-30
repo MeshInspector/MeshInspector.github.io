@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Triangulation =
     [ "__ne__", "classmrmeshpy_1_1Triangulation.html#a1a6948a47c2bbd87c5fef44fd788b25e", null ],
     [ "__setitem__", "classmrmeshpy_1_1Triangulation.html#a7c8588ffda758d70e47598c8ce6c64dd", null ],
     [ "assign", "classmrmeshpy_1_1Triangulation.html#a099fae2fc04891ea82253799f28452eb", null ],
+    [ "assign", "classmrmeshpy_1_1Triangulation.html#a61613b71995099b729d0a203937c19ef", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Triangulation.html#abb38c96138514db406b072c2c9665cbd", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Triangulation.html#a8ef9e450c31a8f4e9657a7583fd919a5", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Triangulation.html#a33fe331219c2a9306a7db9a239f9c76f", null ],

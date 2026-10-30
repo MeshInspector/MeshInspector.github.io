@@ -147,6 +147,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1d33fde6014d0b1009d17e5758119d1b" id="r_a1d33fde6014d0b1009d17e5758119d1b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d33fde6014d0b1009d17e5758119d1b">addPart</a> (self, <a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> from_, <a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a> outVmap=None, <a class="el" href="classmrmeshpy_1_1WholeEdgeMap.html">WholeEdgeMap</a> outEmap=None)</td></tr>
 <tr class="memitem:a9804e11494985a8b83f996e1cefedff9" id="r_a9804e11494985a8b83f996e1cefedff9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9804e11494985a8b83f996e1cefedff9">addPartByMask</a> (self, <a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> from_, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> mask, <a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a> outVmap=None, <a class="el" href="classmrmeshpy_1_1EdgeMap.html">EdgeMap</a> outEmap=None)</td></tr>
 <tr class="memitem:aeac0fb181631b139bb1c20c6bac61f67" id="r_aeac0fb181631b139bb1c20c6bac61f67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeac0fb181631b139bb1c20c6bac61f67">addVertId</a> (self)</td></tr>
+<tr class="memitem:a69f542915b1fc11b8ab2e9cbb818b87c" id="r_a69f542915b1fc11b8ab2e9cbb818b87c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69f542915b1fc11b8ab2e9cbb818b87c">assign</a> (self, <a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> other)</td></tr>
 <tr class="memitem:a30834e6ca1404bd14749a0a4632934b7" id="r_a30834e6ca1404bd14749a0a4632934b7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30834e6ca1404bd14749a0a4632934b7">buildOpenLines</a> (self, <a class="el" href="classmrmeshpy_1_1std__vector__Id__VertTag.html">std_vector_Id_VertTag</a> comp2firstVert)</td></tr>
 <tr class="memitem:afddbbb9a4d98c4c4b2eeb17a09b4a069" id="r_afddbbb9a4d98c4c4b2eeb17a09b4a069"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afddbbb9a4d98c4c4b2eeb17a09b4a069">checkValidity</a> (self)</td></tr>
 <tr class="memitem:a4ae3b8057087c8399f7149573b810b52" id="r_a4ae3b8057087c8399f7149573b810b52"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ae3b8057087c8399f7149573b810b52">computeNotLoneUndirectedEdges</a> (self)</td></tr>
@@ -199,8 +200,6 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2d3f117016bf55d9b0f85069db37fe36" id="r_a2d3f117016bf55d9b0f85069db37fe36"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d3f117016bf55d9b0f85069db37fe36">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:ab26fd811534e5752f4ba01eefe3b6fe3" id="r_ab26fd811534e5752f4ba01eefe3b6fe3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26fd811534e5752f4ba01eefe3b6fe3">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:ab26fd811534e5752f4ba01eefe3b6fe3" id="r_ab26fd811534e5752f4ba01eefe3b6fe3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26fd811534e5752f4ba01eefe3b6fe3">operator</a> (*args, **kwargs)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::PolylineTopology
@@ -405,6 +404,27 @@ topology of one or several polylines (how line segments are connected in lines) 
 </div><div class="memdoc">
 <pre class="fragment">creates new vert-id not associated with any edge yet
 </pre> 
+</div>
+</div>
+<a id="a69f542915b1fc11b8ab2e9cbb818b87c" name="a69f542915b1fc11b8ab2e9cbb818b87c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69f542915b1fc11b8ab2e9cbb818b87c">&#9670;&#160;</a></span>assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> mrmeshpy.PolylineTopology.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="a30834e6ca1404bd14749a0a4632934b7" name="a30834e6ca1404bd14749a0a4632934b7"></a>
@@ -1116,64 +1136,6 @@ return the edge from first to second vertex
 </div><div class="memdoc">
 <pre class="fragment">returns the number of valid vertices
 </pre> 
-</div>
-</div>
-<a id="ab26fd811534e5752f4ba01eefe3b6fe3" name="ab26fd811534e5752f4ba01eefe3b6fe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab26fd811534e5752f4ba01eefe3b6fe3">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> mrmeshpy.PolylineTopology.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab26fd811534e5752f4ba01eefe3b6fe3" name="ab26fd811534e5752f4ba01eefe3b6fe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab26fd811534e5752f4ba01eefe3b6fe3">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1PolylineTopology.html">PolylineTopology</a> mrmeshpy.PolylineTopology.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <a id="ad295570826815d1a78e299378af30c9d" name="ad295570826815d1a78e299378af30c9d"></a>

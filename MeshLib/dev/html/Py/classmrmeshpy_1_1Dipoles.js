@@ -10,6 +10,7 @@ var classmrmeshpy_1_1Dipoles =
     [ "__iter__", "classmrmeshpy_1_1Dipoles.html#ab98b28641206dc09aad099c073a85b8c", null ],
     [ "__len__", "classmrmeshpy_1_1Dipoles.html#a0488ecc8dd35548d0d33686ec58b9416", null ],
     [ "__setitem__", "classmrmeshpy_1_1Dipoles.html#a8140f02abd1178b353d29db426718619", null ],
+    [ "assign", "classmrmeshpy_1_1Dipoles.html#aab5bb0c9ca8ee3e82f9a9791ac7c9984", null ],
     [ "assign", "classmrmeshpy_1_1Dipoles.html#a7e5666c2fc1bab5bc96a6893a59ea4fe", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Dipoles.html#a7ef0473cbcd8806ce47786c9e6da5a93", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Dipoles.html#aa6f2b2399e85f58994233e3cbbea5148", null ],

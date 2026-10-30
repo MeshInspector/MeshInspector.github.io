@@ -8,11 +8,12 @@ var classmrmeshpy_1_1GraphEdgeId =
     [ "__iadd__", "classmrmeshpy_1_1GraphEdgeId.html#a60e2536c1d5f55fcf0b95ae79e8d2603", null ],
     [ "__int__", "classmrmeshpy_1_1GraphEdgeId.html#a841d546a922bd795e1c2d077d1af9550", null ],
     [ "__isub__", "classmrmeshpy_1_1GraphEdgeId.html#a068bf212c0dcc064406cc895e8e6b6b2", null ],
+    [ "__lt__", "classmrmeshpy_1_1GraphEdgeId.html#af0dfcdf0369e049aab149854edcbe8f5", null ],
     [ "__ne__", "classmrmeshpy_1_1GraphEdgeId.html#af03cf730bb8d4ead459ec28212e7b765", null ],
     [ "__repr__", "classmrmeshpy_1_1GraphEdgeId.html#a07eceb729052ec3d7c508a5f7774334e", null ],
+    [ "assign", "classmrmeshpy_1_1GraphEdgeId.html#a76359656d23adb96f9c37a4c0d550938", null ],
+    [ "decrement", "classmrmeshpy_1_1GraphEdgeId.html#a4916a7699be5eaa20250c57269454201", null ],
     [ "get", "classmrmeshpy_1_1GraphEdgeId.html#a12990607c9fe6d44b9388c03019910c8", null ],
-    [ "operator", "classmrmeshpy_1_1GraphEdgeId.html#a2e54beb78822cd04dfb2c0dc0952538a", null ],
-    [ "operator", "classmrmeshpy_1_1GraphEdgeId.html#abb4dca0c0f697bb62ec4a9fcf0d5610b", null ],
-    [ "operator_minus_minus", "classmrmeshpy_1_1GraphEdgeId.html#a9936988812d194ebc9c3c8d94150f5e1", null ],
+    [ "increment", "classmrmeshpy_1_1GraphEdgeId.html#a35223af8871f41233d6518b948156d9e", null ],
     [ "valid", "classmrmeshpy_1_1GraphEdgeId.html#a826ae8efaf7532844d3eb521f3c0ad60", null ]
 ];

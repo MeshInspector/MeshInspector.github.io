@@ -12,6 +12,7 @@ var classmrmeshpy_1_1Mesh =
     [ "addSeparateEdgeLoop", "classmrmeshpy_1_1Mesh.html#a6fe4759c9412f40d5a10b41ffeeec32b", null ],
     [ "area", "classmrmeshpy_1_1Mesh.html#af0706adebb7c65bf60bb422edd6afbb5", null ],
     [ "area", "classmrmeshpy_1_1Mesh.html#ae8a713d1597f50dbc73f55072330afd6", null ],
+    [ "assign", "classmrmeshpy_1_1Mesh.html#a9e6f31ecc099ece5641322ad4309a4df", null ],
     [ "attachEdgeLoopPart", "classmrmeshpy_1_1Mesh.html#a5a8f26c10117fc7c9ee7017ed7dd0bde", null ],
     [ "averageEdgeLength", "classmrmeshpy_1_1Mesh.html#aea7f50a79ce1cf8b2763ca8d373fa289", null ],
     [ "calcFastWindingNumber", "classmrmeshpy_1_1Mesh.html#a3cd28414929517740fac289e667c9722", null ],

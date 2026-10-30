@@ -12,6 +12,7 @@ var classmrmeshpy_1_1FaceMap =
     [ "__len__", "classmrmeshpy_1_1FaceMap.html#ac2e1995684b653b29b5fa6e7a7b1f62a", null ],
     [ "__ne__", "classmrmeshpy_1_1FaceMap.html#ade61066ad806affd557432e7cc4faa63", null ],
     [ "__setitem__", "classmrmeshpy_1_1FaceMap.html#a242c8da1fce436f9ee268f9c8ebd2fbc", null ],
+    [ "assign", "classmrmeshpy_1_1FaceMap.html#ae929724bf1f43262198ba477b043553c", null ],
     [ "assign", "classmrmeshpy_1_1FaceMap.html#ac5750eba26eabad76048e45256a30218", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1FaceMap.html#aa95ffbe168ace47c1e78b9bfc8805b43", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1FaceMap.html#a831fd4c8b25ea4a2068bb91c4b4363f0", null ],

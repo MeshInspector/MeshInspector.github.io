@@ -4,6 +4,7 @@ var classmrmeshpy_1_1AlphaShapeStats =
     [ "__init__", "classmrmeshpy_1_1AlphaShapeStats.html#a09c11d903329f54614b9de7f4d6fc646", null ],
     [ "__init__", "classmrmeshpy_1_1AlphaShapeStats.html#ae021aa310db59be42bbb67ee4881530f", null ],
     [ "__iadd__", "classmrmeshpy_1_1AlphaShapeStats.html#a9571c6e218b2a33dadd02f723a1699ba", null ],
+    [ "assign", "classmrmeshpy_1_1AlphaShapeStats.html#a7f368bc8844c89354a1c72ba0eef56e9", null ],
     [ "collectedNeis", "classmrmeshpy_1_1AlphaShapeStats.html#aa99749b9359241c35d3933755939c747", null ],
     [ "collectedNeis", "classmrmeshpy_1_1AlphaShapeStats.html#ada3a6ed6c775357b0f6aa46296ae5b05", null ],
     [ "consideredTris", "classmrmeshpy_1_1AlphaShapeStats.html#a26e0412a4e4c183ca38e30d61822a6b6", null ],

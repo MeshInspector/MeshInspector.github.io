@@ -3,6 +3,7 @@ var classmrmeshpy_1_1VoxelsSave_1_1SavingSettings =
     [ "__init__", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a45d1ed080e04b16fc4054b1bf545e021", null ],
     [ "__init__", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#acf523a35c5d213b0f149b4ae18ee0b35", null ],
     [ "__init__", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a84190873a7864d7635e314ad476bda97", null ],
+    [ "assign", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a80e0e6fc4d1253565e3a3be1f8b4bc1c", null ],
     [ "cb", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a0d7cdcdfa2cfe5aad0da69c8c6a20371", null ],
     [ "cb", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a75f3939e471800de4db08d45db759e14", null ],
     [ "format", "classmrmeshpy_1_1VoxelsSave_1_1SavingSettings.html#a8ed9f0b27a9db078e2963613c8bba3b4", null ],

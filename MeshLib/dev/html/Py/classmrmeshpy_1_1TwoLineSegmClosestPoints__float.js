@@ -5,6 +5,7 @@ var classmrmeshpy_1_1TwoLineSegmClosestPoints__float =
     [ "__init__", "classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#a0557affebfd4b35cef6378caaa24a5fc", null ],
     [ "a", "classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#af3ced3ff3d3e698836ea7c786dae4417", null ],
     [ "a", "classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#adfdcaae28eb5229d3d194f741d519b4a", null ],
+    [ "assign", "classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#ac3f9b705f77a77123401d30590a36485", null ],
     [ "b", "classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#a1f2cfd871172852dc38a3223f11358c4", null ],
     [ "b", "classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#acbeaa05fc827512f5536d6a5c74b30e9", null ],
     [ "dir", "classmrmeshpy_1_1TwoLineSegmClosestPoints__float.html#a25db9c863920b737a6d1590a486df343", null ],

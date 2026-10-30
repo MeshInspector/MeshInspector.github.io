@@ -3,6 +3,7 @@ var classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId =
     [ "__init__", "classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId.html#a52ab9f7c6082cd14a34f9c06385a6d1e", null ],
     [ "__init__", "classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId.html#a42234cdc25671173318b835526bc9bfb", null ],
     [ "__init__", "classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId.html#a83cc48f5dbf98026e4df26c17c7b9dd7", null ],
+    [ "assign", "classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId.html#af758b02d254959a338e252b722a8eb4d", null ],
     [ "clear", "classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId.html#aaea0ea852739152d3c0516c53e01a28d", null ],
     [ "getHashMap", "classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId.html#abb22430c648a9f02e7499b0986af29e5", null ],
     [ "getHashMap", "classmrmeshpy_1_1MapOrHashMap__EdgeId__EdgeId.html#abb22430c648a9f02e7499b0986af29e5", null ],

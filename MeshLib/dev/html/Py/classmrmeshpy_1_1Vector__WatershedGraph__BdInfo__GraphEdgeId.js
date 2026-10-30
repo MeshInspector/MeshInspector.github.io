@@ -11,6 +11,7 @@ var classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId =
     [ "__len__", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#adf84ee4e2c8ed582815e2745a5f33156", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a8dd6498f8ccb983b1dfeb53b5e1aa676", null ],
     [ "assign", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#ad22a2bd67e43167ff052e159d5a302ac", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#ace705f371c9d6e9aa61ddf897d9d543d", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a67306bc2b2d2b14a9674688c67fcb602", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a75ca4701ae7acdb6fb3baa80b8bf934b", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a16a9c518dd34f61835ca488f8ff0bd3d", null ],

@@ -13,6 +13,7 @@ var classmrmeshpy_1_1UndirectedEdgeColors =
     [ "__ne__", "classmrmeshpy_1_1UndirectedEdgeColors.html#aa58b08efdae5c80ce1e18e21219cf6d4", null ],
     [ "__setitem__", "classmrmeshpy_1_1UndirectedEdgeColors.html#a7634a862499fbdb26bea7fa99cc160dc", null ],
     [ "assign", "classmrmeshpy_1_1UndirectedEdgeColors.html#a76a41854f5f6538e7c62604d138fe927", null ],
+    [ "assign", "classmrmeshpy_1_1UndirectedEdgeColors.html#a6232ddf1aface550bb48a4bc71144b27", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1UndirectedEdgeColors.html#a6f7f1d1a9dc04e80b133128a86a0b101", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1UndirectedEdgeColors.html#ac5a7d15d94c41791d11397395325029e", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1UndirectedEdgeColors.html#af77fbe18133553508c47e0fc46f1258d", null ],

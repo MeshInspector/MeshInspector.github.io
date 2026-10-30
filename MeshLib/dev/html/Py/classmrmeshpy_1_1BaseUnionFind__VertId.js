@@ -2,6 +2,7 @@ var classmrmeshpy_1_1BaseUnionFind__VertId =
 [
     [ "__init__", "classmrmeshpy_1_1BaseUnionFind__VertId.html#acddbfb6fbcaadc10958a808ae53635ff", null ],
     [ "__init__", "classmrmeshpy_1_1BaseUnionFind__VertId.html#a92f11b3547c9377ac26dfa34f8a495d0", null ],
+    [ "assign", "classmrmeshpy_1_1BaseUnionFind__VertId.html#ad7130b7840801edd2ae5a7108c6cd898", null ],
     [ "find", "classmrmeshpy_1_1BaseUnionFind__VertId.html#a15c8573fc442b8845d84edfa260f9de9", null ],
     [ "findUpdateRange", "classmrmeshpy_1_1BaseUnionFind__VertId.html#a0bb5f4d78b8a660a60870ea46ef6040e", null ],
     [ "isRoot", "classmrmeshpy_1_1BaseUnionFind__VertId.html#a0a5534cd5b4edb670e78484c526eb461", null ],

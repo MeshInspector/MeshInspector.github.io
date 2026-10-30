@@ -153,6 +153,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a52dacdd2619f35596512d2bbf5043fbd" id="r_a52dacdd2619f35596512d2bbf5043fbd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52dacdd2619f35596512d2bbf5043fbd">__len__</a> (self)</td></tr>
 <tr class="memitem:a73304e18696680e1cbaab8fe63993ae7" id="r_a73304e18696680e1cbaab8fe63993ae7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73304e18696680e1cbaab8fe63993ae7">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeScalars.html">EdgeScalars</a> b)</td></tr>
 <tr class="memitem:a266a1525ffdca15ff83f7b665c932b79" id="r_a266a1525ffdca15ff83f7b665c932b79"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a266a1525ffdca15ff83f7b665c932b79">__setitem__</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> arg0, float arg1)</td></tr>
+<tr class="memitem:a36886684bc197fb0083f6fb45c62006f" id="r_a36886684bc197fb0083f6fb45c62006f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeScalars.html">EdgeScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36886684bc197fb0083f6fb45c62006f">assign</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeScalars.html">EdgeScalars</a> other)</td></tr>
 <tr class="memitem:ac20c4d5f92c8a51a880bc364c9792529" id="r_ac20c4d5f92c8a51a880bc364c9792529"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac20c4d5f92c8a51a880bc364c9792529">assign</a> (self, int count, float val)</td></tr>
 <tr class="memitem:a30d7acb529f2d8c5002a88995c97e3ad" id="r_a30d7acb529f2d8c5002a88995c97e3ad"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30d7acb529f2d8c5002a88995c97e3ad">autoResizeAt</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> i)</td></tr>
 <tr class="memitem:adae7b826be1dd746068d914ef42d7bcf" id="r_adae7b826be1dd746068d914ef42d7bcf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adae7b826be1dd746068d914ef42d7bcf">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> pos, int len, float val)</td></tr>
@@ -188,8 +189,6 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af58e7e5506879abe0710966f2ce3a6c7" id="r_af58e7e5506879abe0710966f2ce3a6c7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af58e7e5506879abe0710966f2ce3a6c7">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:ab05c697d039ca2ba15a1fca26e9de61f" id="r_ab05c697d039ca2ba15a1fca26e9de61f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeScalars.html">EdgeScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab05c697d039ca2ba15a1fca26e9de61f">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:ab05c697d039ca2ba15a1fca26e9de61f" id="r_ab05c697d039ca2ba15a1fca26e9de61f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeScalars.html">EdgeScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab05c697d039ca2ba15a1fca26e9de61f">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -484,8 +483,29 @@ Vector&lt;T&gt; is indexed by size_t
 
 </div>
 </div>
+<a id="a36886684bc197fb0083f6fb45c62006f" name="a36886684bc197fb0083f6fb45c62006f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36886684bc197fb0083f6fb45c62006f">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeScalars.html">EdgeScalars</a> mrmeshpy.EdgeScalars.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1EdgeScalars.html">EdgeScalars</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac20c4d5f92c8a51a880bc364c9792529" name="ac20c4d5f92c8a51a880bc364c9792529"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac20c4d5f92c8a51a880bc364c9792529">&#9670;&#160;</a></span>assign()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac20c4d5f92c8a51a880bc364c9792529">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -831,64 +851,6 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
           <td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab05c697d039ca2ba15a1fca26e9de61f" name="ab05c697d039ca2ba15a1fca26e9de61f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab05c697d039ca2ba15a1fca26e9de61f">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeScalars.html">EdgeScalars</a> mrmeshpy.EdgeScalars.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab05c697d039ca2ba15a1fca26e9de61f" name="ab05c697d039ca2ba15a1fca26e9de61f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab05c697d039ca2ba15a1fca26e9de61f">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1EdgeScalars.html">EdgeScalars</a> mrmeshpy.EdgeScalars.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

@@ -5,6 +5,7 @@ var classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char =
     [ "__init__", "classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char.html#a92289a0f20078bde69993638df1cc255", null ],
     [ "__getitem__", "classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char.html#ab92ee6c94c8c0ef3b1cd1b828849aa94", null ],
     [ "__setitem__", "classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char.html#adfcb2064e8be1cf5febd6f73959098c1", null ],
+    [ "assign", "classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char.html#a5db49beadbad12b34bbeeb21e3800166", null ],
     [ "get", "classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char.html#af25b90093e53f67e7b0a37b569734423", null ],
     [ "get", "classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char.html#af25b90093e53f67e7b0a37b569734423", null ],
     [ "get", "classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char.html#a8149cce56fe8f33c0ff742289282c372", null ],

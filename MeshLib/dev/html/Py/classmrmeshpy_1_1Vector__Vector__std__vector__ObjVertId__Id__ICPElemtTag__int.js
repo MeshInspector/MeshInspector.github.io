@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__in
     [ "__ne__", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#aac88dd8040c9b65d91d3923496043b5c", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a6983989322ee9303a41bf4d7931bdb00", null ],
     [ "assign", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#accff86923f162e6acb7b67a1bd6fdac0", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a7cae176ca22f481ed3308c50e1323e89", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#ad941b501829416bdfbc69c210efa1e72", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#a9e27e56a5518db8aad16537ce20f5c1b", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#af9c26a2f5a85e8109b9b091f8c34a6b3", null ],

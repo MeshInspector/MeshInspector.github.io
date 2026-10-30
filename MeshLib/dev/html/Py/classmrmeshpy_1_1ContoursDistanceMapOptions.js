@@ -4,6 +4,7 @@ var classmrmeshpy_1_1ContoursDistanceMapOptions =
     [ "__init__", "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a21de5411a919c47cb379f125afa2146e", null ],
     [ "__init__", "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a225820dbd2b83579f1f2cda4e58291f0", null ],
     [ "__init__", "classmrmeshpy_1_1ContoursDistanceMapOptions.html#ad0467c16d71d7d5a0264571f8346d952", null ],
+    [ "assign", "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a0ada3aa299f6b4176093a0dd0be60896", null ],
     [ "maxDist", "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a8d138906b8baead32744e85ed09797c4", null ],
     [ "maxDist", "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a96ccdd993d1e8daada52a0acd6b54a87", null ],
     [ "minDist", "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a9fe13c5c248555f5a3ef31bc07102fe6", null ],

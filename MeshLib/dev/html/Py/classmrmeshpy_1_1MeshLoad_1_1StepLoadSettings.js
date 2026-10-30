@@ -5,6 +5,7 @@ var classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings =
     [ "__init__", "classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings.html#a0584d256ce87ee025ac455859ca5ec03", null ],
     [ "angularDeflection", "classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings.html#af4395c429ca1724f368e01442511adfc", null ],
     [ "angularDeflection", "classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings.html#a34b569635ce6628440b12e42642eb0d3", null ],
+    [ "assign", "classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings.html#a0aae837391e6be49a6d70a8a842e1501", null ],
     [ "autoColorize", "classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings.html#a584fe1c7576050d0b39069e4904d10f7", null ],
     [ "autoColorize", "classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings.html#a757bc7cd01d6c6f625bd249813138b9d", null ],
     [ "forceLoadSubShapes", "classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings.html#a0c2234d827f89d7da3563d40b8d300bf", null ],

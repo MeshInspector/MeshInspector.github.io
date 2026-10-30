@@ -7,6 +7,7 @@ var classmrmeshpy_1_1Features_1_1MeasureResult =
     [ "__init__", "classmrmeshpy_1_1Features_1_1MeasureResult.html#a4f6d74fc302d7852c474514e6f3cbf75", null ],
     [ "__init__", "classmrmeshpy_1_1Features_1_1MeasureResult.html#afa9c5022a80e96cc58b1eebc59d0fb69", null ],
     [ "__init__", "classmrmeshpy_1_1Features_1_1MeasureResult.html#a52dc7100c8a349797d8151ae3ef34b06", null ],
+    [ "assign", "classmrmeshpy_1_1Features_1_1MeasureResult.html#a244ac5848cfd546f5189ef00252f58e3", null ],
     [ "centerDistance", "classmrmeshpy_1_1Features_1_1MeasureResult.html#aef93fc59c66d831d635811b4c589b471", null ],
     [ "centerDistance", "classmrmeshpy_1_1Features_1_1MeasureResult.html#a45cddbd8a2a9bf3d9760bda7f4ed20c0", null ],
     [ "distance", "classmrmeshpy_1_1Features_1_1MeasureResult.html#a0d08cf2e2af5e7ba17d819441684665f", null ],

@@ -7,6 +7,7 @@ var classmrmeshpy_1_1PolylineTopology =
     [ "addPart", "classmrmeshpy_1_1PolylineTopology.html#a1d33fde6014d0b1009d17e5758119d1b", null ],
     [ "addPartByMask", "classmrmeshpy_1_1PolylineTopology.html#a9804e11494985a8b83f996e1cefedff9", null ],
     [ "addVertId", "classmrmeshpy_1_1PolylineTopology.html#aeac0fb181631b139bb1c20c6bac61f67", null ],
+    [ "assign", "classmrmeshpy_1_1PolylineTopology.html#a69f542915b1fc11b8ab2e9cbb818b87c", null ],
     [ "buildOpenLines", "classmrmeshpy_1_1PolylineTopology.html#a30834e6ca1404bd14749a0a4632934b7", null ],
     [ "checkValidity", "classmrmeshpy_1_1PolylineTopology.html#afddbbb9a4d98c4c4b2eeb17a09b4a069", null ],
     [ "computeNotLoneUndirectedEdges", "classmrmeshpy_1_1PolylineTopology.html#a4ae3b8057087c8399f7149573b810b52", null ],

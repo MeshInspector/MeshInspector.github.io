@@ -3,6 +3,7 @@ var classmrmeshpy_1_1PointsToMeshParameters =
     [ "__init__", "classmrmeshpy_1_1PointsToMeshParameters.html#ac8719faad46d177c5c0b8cca1af6531e", null ],
     [ "__init__", "classmrmeshpy_1_1PointsToMeshParameters.html#abefb38c66f6ee20b7d74200caddd32d0", null ],
     [ "__init__", "classmrmeshpy_1_1PointsToMeshParameters.html#a933224b88bc8342c2052db56b774b502", null ],
+    [ "assign", "classmrmeshpy_1_1PointsToMeshParameters.html#afdc9367878daeff79a0321de2e6b277a", null ],
     [ "computeVolume", "classmrmeshpy_1_1PointsToMeshParameters.html#a75482ae20edfc922b791ac35ddbff9bc", null ],
     [ "computeVolume", "classmrmeshpy_1_1PointsToMeshParameters.html#a383b7af9f6e855968758960223d3d4a6", null ],
     [ "invSigmaModifier", "classmrmeshpy_1_1PointsToMeshParameters.html#a6248b0fa8dc90a8237c27b6d0bed1535", null ],

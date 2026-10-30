@@ -5,6 +5,7 @@ var classmrmeshpy_1_1RigidXf3d =
     [ "__init__", "classmrmeshpy_1_1RigidXf3d.html#a571c43f65992548fc875c5d1f1374530", null ],
     [ "a", "classmrmeshpy_1_1RigidXf3d.html#a43baae83bbfe77ae041d0d4fe436def5", null ],
     [ "a", "classmrmeshpy_1_1RigidXf3d.html#a997d5701c7ed1c7fc87c6e84df317746", null ],
+    [ "assign", "classmrmeshpy_1_1RigidXf3d.html#a56891a37e491ee797900d9af0a6b8aff", null ],
     [ "b", "classmrmeshpy_1_1RigidXf3d.html#aba99ce0b9cf424a82c3d9432fee3c7c9", null ],
     [ "b", "classmrmeshpy_1_1RigidXf3d.html#ae8383aa601181012a1fb6a2d9ccbfe96", null ],
     [ "linearXf", "classmrmeshpy_1_1RigidXf3d.html#a993243ce66e7c033e5034ff6fb85559e", null ],

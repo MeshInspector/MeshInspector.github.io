@@ -6,6 +6,7 @@ var classmrmeshpy_1_1Image =
     [ "__getitem__", "classmrmeshpy_1_1Image.html#af340d1edffec4ddd5f128ba4449f5644", null ],
     [ "__getitem__", "classmrmeshpy_1_1Image.html#af340d1edffec4ddd5f128ba4449f5644", null ],
     [ "__setitem__", "classmrmeshpy_1_1Image.html#ae6d528017ae10dd77f98676fe8aa6e3a", null ],
+    [ "assign", "classmrmeshpy_1_1Image.html#a81e0079425071a558d5fbb09436e55ba", null ],
     [ "heapBytes", "classmrmeshpy_1_1Image.html#ab75cd8c9ca6fe2a5028c545ecbdf8091", null ],
     [ "sample", "classmrmeshpy_1_1Image.html#ada2f20aa593305ea9352392fa97c672f", null ],
     [ "sampleBilinear", "classmrmeshpy_1_1Image.html#a76082958ade33da570341c2dc4fcff40", null ],

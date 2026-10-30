@@ -3,6 +3,7 @@ var classmrmeshpy_1_1BooleanResultMapper_1_1Maps =
     [ "__init__", "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#a4d97bc7c057ef4e75febf73e875fb43f", null ],
     [ "__init__", "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#af785e798c45895cede42752f15f5d04c", null ],
     [ "__init__", "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#a168924463c19c9655986fa5a53e426ba", null ],
+    [ "assign", "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#ae763968897eeea91657b6d09d85b3a26", null ],
     [ "cut2newFaces", "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#a8dc56ac5f14faf5bfa130bbeddacead0", null ],
     [ "cut2newFaces", "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#afbf333f9c6944fa94af0bbb4c1c44bf7", null ],
     [ "cut2origin", "classmrmeshpy_1_1BooleanResultMapper_1_1Maps.html#a8d368a64881c237e9fcad5827a5cb1f2", null ],

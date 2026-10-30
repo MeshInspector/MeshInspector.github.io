@@ -4,6 +4,7 @@ var classmrmeshpy_1_1TransparencyMode =
     [ "__init__", "classmrmeshpy_1_1TransparencyMode.html#ae97c6002712710f14e8db24a2ef3f480", null ],
     [ "__init__", "classmrmeshpy_1_1TransparencyMode.html#abb70a8555c76a03e76e483a5021550ce", null ],
     [ "__init__", "classmrmeshpy_1_1TransparencyMode.html#a134f02d944d482aefb155af0ffb4a99f", null ],
+    [ "assign", "classmrmeshpy_1_1TransparencyMode.html#ac9a7c72ff76d668ab40170dce43df84a", null ],
     [ "getBGDepthPeelingDepthTextureId", "classmrmeshpy_1_1TransparencyMode.html#ab604b2c3c2d32d106d4ae660f10b5490", null ],
     [ "getFGDepthPeelingColorTextureId", "classmrmeshpy_1_1TransparencyMode.html#a81a7542dc78e479de41d7adb9e020d61", null ],
     [ "getFGDepthPeelingDepthTextureId", "classmrmeshpy_1_1TransparencyMode.html#ab599aee90b5745d42b761ddba1fcc7e1", null ],

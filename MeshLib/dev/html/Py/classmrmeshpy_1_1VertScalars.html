@@ -153,6 +153,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa0a084e79733bd1ea9f690a81e640f67" id="r_aa0a084e79733bd1ea9f690a81e640f67"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0a084e79733bd1ea9f690a81e640f67">__len__</a> (self)</td></tr>
 <tr class="memitem:a565d7baef078fa40f8a5c2991ef05717" id="r_a565d7baef078fa40f8a5c2991ef05717"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a565d7baef078fa40f8a5c2991ef05717">__ne__</a> (self, <a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a> b)</td></tr>
 <tr class="memitem:ac37530c701d5bac3ad4d5a8965794867" id="r_ac37530c701d5bac3ad4d5a8965794867"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac37530c701d5bac3ad4d5a8965794867">__setitem__</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> arg0, float arg1)</td></tr>
+<tr class="memitem:a3cd0e717c0b2632b122d9d61d828728c" id="r_a3cd0e717c0b2632b122d9d61d828728c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cd0e717c0b2632b122d9d61d828728c">assign</a> (self, <a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a> other)</td></tr>
 <tr class="memitem:a6513eb9d601cbdef98f064229c7cf5f0" id="r_a6513eb9d601cbdef98f064229c7cf5f0"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6513eb9d601cbdef98f064229c7cf5f0">assign</a> (self, int count, float val)</td></tr>
 <tr class="memitem:a9156c413ad2f1d77b0a60659837745df" id="r_a9156c413ad2f1d77b0a60659837745df"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9156c413ad2f1d77b0a60659837745df">autoResizeAt</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> i)</td></tr>
 <tr class="memitem:a327ef51f9c67844a6e56fa5d21019d77" id="r_a327ef51f9c67844a6e56fa5d21019d77"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a327ef51f9c67844a6e56fa5d21019d77">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> pos, int len, float val)</td></tr>
@@ -188,8 +189,6 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:abecfea0cfbbf564bf65098c801cf29bf" id="r_abecfea0cfbbf564bf65098c801cf29bf"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abecfea0cfbbf564bf65098c801cf29bf">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a7d023f16d3fcb8efe21bf927f52094ba" id="r_a7d023f16d3fcb8efe21bf927f52094ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d023f16d3fcb8efe21bf927f52094ba">operator</a> (*args, **kwargs)</td></tr>
-<tr class="memitem:a7d023f16d3fcb8efe21bf927f52094ba" id="r_a7d023f16d3fcb8efe21bf927f52094ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d023f16d3fcb8efe21bf927f52094ba">operator</a> (*args, **kwargs)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
@@ -485,7 +484,7 @@ Vector&lt;T&gt; is indexed by size_t
 </div>
 </div>
 <a id="a6513eb9d601cbdef98f064229c7cf5f0" name="a6513eb9d601cbdef98f064229c7cf5f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6513eb9d601cbdef98f064229c7cf5f0">&#9670;&#160;</a></span>assign()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6513eb9d601cbdef98f064229c7cf5f0">&#9670;&#160;</a></span>assign() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -509,6 +508,27 @@ Vector&lt;T&gt; is indexed by size_t
 </div><div class="memdoc">
 <pre class="fragment">replaces the contents with \\p count copies of \\p val
 </pre> 
+</div>
+</div>
+<a id="a3cd0e717c0b2632b122d9d61d828728c" name="a3cd0e717c0b2632b122d9d61d828728c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cd0e717c0b2632b122d9d61d828728c">&#9670;&#160;</a></span>assign() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a> mrmeshpy.VertScalars.assign </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="a9156c413ad2f1d77b0a60659837745df" name="a9156c413ad2f1d77b0a60659837745df"></a>
@@ -831,64 +851,6 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
           <td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7d023f16d3fcb8efe21bf927f52094ba" name="a7d023f16d3fcb8efe21bf927f52094ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d023f16d3fcb8efe21bf927f52094ba">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a> mrmeshpy.VertScalars.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7d023f16d3fcb8efe21bf927f52094ba" name="a7d023f16d3fcb8efe21bf927f52094ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d023f16d3fcb8efe21bf927f52094ba">&#9670;&#160;</a></span>operator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a> mrmeshpy.VertScalars.operator </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

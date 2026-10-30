@@ -1,5 +1,6 @@
 var classmrmeshpy_1_1RayOrigin__float =
 [
     [ "__init__", "classmrmeshpy_1_1RayOrigin__float.html#adc1de541a66b20437d0721ab62672ca2", null ],
-    [ "__init__", "classmrmeshpy_1_1RayOrigin__float.html#a4aedbcaef7e3e1309fedf00d4e98e265", null ]
+    [ "__init__", "classmrmeshpy_1_1RayOrigin__float.html#a4aedbcaef7e3e1309fedf00d4e98e265", null ],
+    [ "assign", "classmrmeshpy_1_1RayOrigin__float.html#a2ab570ec35e2e5dc947187f4bc15c71f", null ]
 ];

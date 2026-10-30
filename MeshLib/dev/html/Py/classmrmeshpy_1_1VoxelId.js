@@ -11,14 +11,15 @@ var classmrmeshpy_1_1VoxelId =
     [ "__iadd__", "classmrmeshpy_1_1VoxelId.html#a5307698710ad20d4f7def99c19380a8a", null ],
     [ "__int__", "classmrmeshpy_1_1VoxelId.html#a1b71efa3ee1f4d6d4c0ad2ecf9ff34c6", null ],
     [ "__isub__", "classmrmeshpy_1_1VoxelId.html#a4555de5ffff7504ece779572c3add98c", null ],
+    [ "__lt__", "classmrmeshpy_1_1VoxelId.html#af609f01b44465cf6c4216bc5e34bd409", null ],
     [ "__ne__", "classmrmeshpy_1_1VoxelId.html#a46668b8c73bdfbab9cd23d0f8a22e201", null ],
     [ "__repr__", "classmrmeshpy_1_1VoxelId.html#a2d087c353981bb29cbfd01fc9858c1c4", null ],
     [ "__sub__", "classmrmeshpy_1_1VoxelId.html#a36c78f6030788dde82ee6b845cc46301", null ],
     [ "__sub__", "classmrmeshpy_1_1VoxelId.html#a36c78f6030788dde82ee6b845cc46301", null ],
     [ "__sub__", "classmrmeshpy_1_1VoxelId.html#a36c78f6030788dde82ee6b845cc46301", null ],
+    [ "assign", "classmrmeshpy_1_1VoxelId.html#a0beabc91d9ac58d3a74ec73e33977475", null ],
+    [ "decrement", "classmrmeshpy_1_1VoxelId.html#a3c12030d7ebab2b37ee25031c229ab5a", null ],
     [ "get", "classmrmeshpy_1_1VoxelId.html#adc7706b9d92d8c5773cb910d6e352f6f", null ],
-    [ "operator", "classmrmeshpy_1_1VoxelId.html#ac503bc0aa27d05564f39ba39eff986be", null ],
-    [ "operator", "classmrmeshpy_1_1VoxelId.html#a9956a1e393049d1952672ba3be7bafe5", null ],
-    [ "operator_minus_minus", "classmrmeshpy_1_1VoxelId.html#a78d794e985512c65c0df1a1bdaea5b2a", null ],
+    [ "increment", "classmrmeshpy_1_1VoxelId.html#a8eef8a5b19b9290658c466ccab024704", null ],
     [ "valid", "classmrmeshpy_1_1VoxelId.html#a5be24c614c152a8775b76c15d81fded0", null ]
 ];

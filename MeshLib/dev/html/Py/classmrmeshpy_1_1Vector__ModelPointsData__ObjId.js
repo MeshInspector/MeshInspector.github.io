@@ -11,6 +11,7 @@ var classmrmeshpy_1_1Vector__ModelPointsData__ObjId =
     [ "__len__", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a008adb41a5b73d72d709a54d6c52a289", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a6f4fd4e57ff92b909b480a778bda3c81", null ],
     [ "assign", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#ab0fef283633270d55dd166da94fb5a1f", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a3b7ba2a50143f8a49b8050dea98026f8", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a541010bc131df87c473ddecdd5f809e6", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#abe01ce5731eee88767611acd70cc8c61", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a173bedac5234a9c9571eba0a21e7297c", null ],

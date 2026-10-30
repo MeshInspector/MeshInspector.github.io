@@ -5,6 +5,7 @@ var classmrmeshpy_1_1DoubleOffsetSettings =
     [ "__init__", "classmrmeshpy_1_1DoubleOffsetSettings.html#a80e49769b4cb06d128e1e47edd23cfdc", null ],
     [ "adaptivity", "classmrmeshpy_1_1DoubleOffsetSettings.html#a07c2bfdf2a4eb2045f045a4de0989165", null ],
     [ "adaptivity", "classmrmeshpy_1_1DoubleOffsetSettings.html#abee1b357c4fd4fec3cd3b3ddcd93b46d", null ],
+    [ "assign", "classmrmeshpy_1_1DoubleOffsetSettings.html#abd7f17eb7906d0945aab7fdcdd505225", null ],
     [ "fwn", "classmrmeshpy_1_1DoubleOffsetSettings.html#ac92c61773ac173e3cf5f7b836796a9b7", null ],
     [ "fwn", "classmrmeshpy_1_1DoubleOffsetSettings.html#ace8032f003d18a887560bf770f6cd4e9", null ],
     [ "offsetA", "classmrmeshpy_1_1DoubleOffsetSettings.html#aaa04832c28e916e1dfb83e5ec16ce47d", null ],

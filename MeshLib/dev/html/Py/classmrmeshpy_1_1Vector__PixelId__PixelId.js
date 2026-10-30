@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__PixelId__PixelId =
     [ "__ne__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a483c78f395a5394d7bd3c31382127b88", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#ae7f3d3f67b41a38809c437de71b54113", null ],
     [ "assign", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#ae0e112bfa2fa293fe729bd054a64aaa9", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a6099c9ca7e6880ff6fff886bebddc0fb", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a0f6600c2b32627f72d684504060eb8cf", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#aadbb4bb52e6f861519691394d7b32d6e", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#af2317b9282671a1fe45b8a3683f48234", null ],

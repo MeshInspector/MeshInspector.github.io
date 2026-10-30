@@ -3,6 +3,7 @@ var classmrmeshpy_1_1ICPProperties =
     [ "__init__", "classmrmeshpy_1_1ICPProperties.html#abe68bb0f3604951e95268c3dfd7eba97", null ],
     [ "__init__", "classmrmeshpy_1_1ICPProperties.html#a2dea189365e1696b3cf748ba878b6a9c", null ],
     [ "__init__", "classmrmeshpy_1_1ICPProperties.html#af2f40a01fa7403de3234b88f6cf3656f", null ],
+    [ "assign", "classmrmeshpy_1_1ICPProperties.html#ae60aa8b7f64ca15de601944798522139", null ],
     [ "badIterStopCount", "classmrmeshpy_1_1ICPProperties.html#a8b7927988eea35058503cbf76709ab8d", null ],
     [ "badIterStopCount", "classmrmeshpy_1_1ICPProperties.html#a69efb3b9084ce61347b3302067744147", null ],
     [ "cosThreshold", "classmrmeshpy_1_1ICPProperties.html#a519b3cf3bc71b7c8a49d80b1961787c8", null ],

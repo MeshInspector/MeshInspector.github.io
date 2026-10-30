@@ -12,6 +12,7 @@ var classmrmeshpy_1_1EdgeColors =
     [ "__len__", "classmrmeshpy_1_1EdgeColors.html#ac8fba5978ed81c4484128d46c7ae9d44", null ],
     [ "__ne__", "classmrmeshpy_1_1EdgeColors.html#ab4fcbeb52d5969aa8d50e423bd734593", null ],
     [ "__setitem__", "classmrmeshpy_1_1EdgeColors.html#a9a1903b13c7b02a5c733456aba4a2abf", null ],
+    [ "assign", "classmrmeshpy_1_1EdgeColors.html#ad80d3c96bd611bd1fd03e78b5556dae2", null ],
     [ "assign", "classmrmeshpy_1_1EdgeColors.html#a5e19e83098c65ef08dd0d82e9c712069", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1EdgeColors.html#a6857e2d07a69da5afc0d73b3dc50224b", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1EdgeColors.html#a4d2b1759e90453d5b520e15a02d1b8c1", null ],

@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Vector__TextureId__TextureId =
     [ "__ne__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#ad9b802b26db295b4d40951f0b08674e8", null ],
     [ "__setitem__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#afd0deb548ccd5228110b88039abb1f35", null ],
     [ "assign", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#aecd3906945e671406a8de43e0c98a381", null ],
+    [ "assign", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a8335c6ea33c78911d0c22d7a965b746d", null ],
     [ "autoResizeAt", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a03c8411be25e87063457cfe7d50d4441", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#ab3cb1d63087410584aca06a579b4cff8", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a281188d43e69755ab2690d24a088cc0c", null ],

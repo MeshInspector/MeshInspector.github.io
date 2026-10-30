@@ -3,6 +3,7 @@ var classmrcudapy_1_1DeviceInfo =
     [ "__init__", "classmrcudapy_1_1DeviceInfo.html#adb476fa16a13357d698545cfe5ac1484", null ],
     [ "__init__", "classmrcudapy_1_1DeviceInfo.html#a00d5cf2b3f934da4420e36c2a4c7f372", null ],
     [ "__init__", "classmrcudapy_1_1DeviceInfo.html#a20a50319825c4c7c7c3d6222c73bd15a", null ],
+    [ "assign", "classmrcudapy_1_1DeviceInfo.html#a37207ff255011fd9f57bb23a549f063c", null ],
     [ "computeMajor", "classmrcudapy_1_1DeviceInfo.html#a3fe117febef5ce3acbdc29f70132602c", null ],
     [ "computeMajor", "classmrcudapy_1_1DeviceInfo.html#aa260167aa875076e36c8a52bd21d8d76", null ],
     [ "computeMinor", "classmrcudapy_1_1DeviceInfo.html#ac99719adb05c0ad0e216feccbbe5450d", null ],

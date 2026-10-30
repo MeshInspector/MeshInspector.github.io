@@ -5,6 +5,7 @@ var classmrmeshpy_1_1FlowOrigin =
     [ "__init__", "classmrmeshpy_1_1FlowOrigin.html#a8191a5e2fe31d69db7bb8b3c51abebb7", null ],
     [ "amount", "classmrmeshpy_1_1FlowOrigin.html#adcf1aa25645217639273e2aa3cf19067", null ],
     [ "amount", "classmrmeshpy_1_1FlowOrigin.html#a2c98331e7f59e97beaecb5a7e7822873", null ],
+    [ "assign", "classmrmeshpy_1_1FlowOrigin.html#af2966fc573034567f236a14f76b2835b", null ],
     [ "point", "classmrmeshpy_1_1FlowOrigin.html#a6464b63a296fa375a7beee461521e976", null ],
     [ "point", "classmrmeshpy_1_1FlowOrigin.html#a3ce3866a06a6016a174894db8db49a48", null ]
 ];
