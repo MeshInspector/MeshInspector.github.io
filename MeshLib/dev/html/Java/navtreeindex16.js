@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classmeshlib_1_1BooleanOperation.html#ae0867dd17d4ed470dbd291e43362c1cd":[9,6,1,0,0,111,3],
 "classmeshlib_1_1BooleanOperation.html#af3f0d2f9eba5a1428306155e6ba006ec":[9,6,0,0,0,111,1],
 "classmeshlib_1_1BooleanOperation.html#af3f0d2f9eba5a1428306155e6ba006ec":[9,6,1,0,0,111,1],
 "classmeshlib_1_1BooleanParameters.html":[9,6,0,0,0,112],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classmeshlib_1_1Box1d.html#a63879cdd2c2abde1a2becac3c0867cb1":[9,6,1,0,0,119,31],
 "classmeshlib_1_1Box1d.html#a69622fb926fcc1c0c28b9754b72ea5a1":[9,6,0,0,0,119,13],
 "classmeshlib_1_1Box1d.html#a69622fb926fcc1c0c28b9754b72ea5a1":[9,6,1,0,0,119,13],
-"classmeshlib_1_1Box1d.html#a6a19aa5612b7ec88e27fc172f2fecb84":[9,6,0,0,0,119,7],
-"classmeshlib_1_1Box1d.html#a6a19aa5612b7ec88e27fc172f2fecb84":[9,6,1,0,0,119,7]
+"classmeshlib_1_1Box1d.html#a6a19aa5612b7ec88e27fc172f2fecb84":[9,6,0,0,0,119,7]
 };

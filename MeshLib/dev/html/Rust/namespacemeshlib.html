@@ -420,6 +420,7 @@ Classes</h2></td></tr>
 <tr class="memitem:CutByProjectionSettings" id="r_CutByProjectionSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1CutByProjectionSettings.html">CutByProjectionSettings</a></td></tr>
 <tr class="memitem:CutMeshParameters" id="r_CutMeshParameters"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1CutMeshParameters.html">CutMeshParameters</a></td></tr>
 <tr class="memitem:CutMeshParameters_5FFillPart" id="r_CutMeshParameters_5FFillPart"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1CutMeshParameters__FillPart.html">CutMeshParameters_FillPart</a></td></tr>
+<tr class="memitem:CutMeshParameters_5FForceFill" id="r_CutMeshParameters_5FForceFill"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1CutMeshParameters__ForceFill.html">CutMeshParameters_ForceFill</a></td></tr>
 <tr class="memitem:CutMeshResult" id="r_CutMeshResult"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1CutMeshResult.html">CutMeshResult</a></td></tr>
 <tr class="memitem:Cylinder3d" id="r_Cylinder3d"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1Cylinder3d.html">Cylinder3d</a></td></tr>
 <tr class="memitem:Cylinder3f" id="r_Cylinder3f"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmeshlib_1_1Cylinder3f.html">Cylinder3f</a></td></tr>
@@ -12728,7 +12729,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>New edges that correspond to given contours, find more MR::CutMeshResult </dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>Input contours should have no intersections, faces where contours intersects (<span class="tt">bad faces</span>) will not be allowed for fill, unless CutMeshParameters::forceFill is set </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>Input contours should have no intersections, faces where contours intersects (<span class="tt">bad faces</span>) will not be allowed for fill, unless a force fill mode is set (see CutMeshParameters::ForceFill) </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Every two consecutive intersections of a contour should lie in one face, and a contour should not fold back at a point inside an edge: a mesh vertex next to such a point is the third vertex of the face the contour goes in there </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Input mesh will be changed in any case, if <span class="tt">bad faces</span> are in mesh, mesh will be spoiled, <br  />
 so if you cannot guarantee contours without intersections better make copy of mesh, before using this function </dd></dl>

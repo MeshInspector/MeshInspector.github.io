@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"classes.html":[9,6,1,1],
 "classmeshlib_1_1AABBTree.html":[9,6,0,0,0,37],
 "classmeshlib_1_1AABBTree.html":[9,6,1,0,0,37],
 "classmeshlib_1_1AABBTree.html#a047d5fea52be991369f69c15b461716b":[9,6,0,0,0,37,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#ae1234d7475baf8854a5cd47faf5661eb":[9,6,1,0,0,44,6],
 "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#afafcfff98d3a6a6ced76726375e3fa9c":[9,6,0,0,0,44,7],
 "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#afafcfff98d3a6a6ced76726375e3fa9c":[9,6,1,0,0,44,7],
-"classmeshlib_1_1AABBTreeNode__MR__ObjTreeTraits.html":[9,6,0,0,0,45],
-"classmeshlib_1_1AABBTreeNode__MR__ObjTreeTraits.html":[9,6,1,0,0,45]
+"classmeshlib_1_1AABBTreeNode__MR__ObjTreeTraits.html":[9,6,0,0,0,45]
 };

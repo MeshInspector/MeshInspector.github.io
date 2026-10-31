@@ -1628,6 +1628,7 @@ var hierarchy =
     [ "meshlib.ContoursDistanceMapOptions_SignedDetectionMethod", "classmeshlib_1_1ContoursDistanceMapOptions__SignedDetectionMethod.html", null ],
     [ "meshlib.meshsave.CtmSaveOptions_MeshCompression", "classmeshlib_1_1meshsave_1_1CtmSaveOptions__MeshCompression.html", null ],
     [ "meshlib.CutMeshParameters_FillPart", "classmeshlib_1_1CutMeshParameters__FillPart.html", null ],
+    [ "meshlib.CutMeshParameters_ForceFill", "classmeshlib_1_1CutMeshParameters__ForceFill.html", null ],
     [ "meshlib.DecimatePartsMode", "classmeshlib_1_1DecimatePartsMode.html", null ],
     [ "meshlib.DecimateStrategy", "classmeshlib_1_1DecimateStrategy.html", null ],
     [ "meshlib.DepthFunction", "classmeshlib_1_1DepthFunction.html", null ],

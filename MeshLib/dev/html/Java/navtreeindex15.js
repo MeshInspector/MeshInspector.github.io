@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"classmeshlib_1_1BendTextAlongCurveParams.html#a1889aef4e08bf3d32642bbc5af96aa02":[9,6,1,0,0,92,12],
 "classmeshlib_1_1BendTextAlongCurveParams.html#a2d8c9fe272299f7625d5c167d9ebe880":[9,6,0,0,0,92,17],
 "classmeshlib_1_1BendTextAlongCurveParams.html#a2d8c9fe272299f7625d5c167d9ebe880":[9,6,1,0,0,92,17],
 "classmeshlib_1_1BendTextAlongCurveParams.html#a31b9ad17b7a3e136a9afa6c17997f073":[9,6,0,0,0,92,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "classmeshlib_1_1BooleanOperation.html#a2c1da82d343fc5e6371397bdb69f0b5c":[9,6,1,0,0,111,4],
 "classmeshlib_1_1BooleanOperation.html#ad4634f458d1f8bc105f3976a42151875":[9,6,0,0,0,111,0],
 "classmeshlib_1_1BooleanOperation.html#ad4634f458d1f8bc105f3976a42151875":[9,6,1,0,0,111,0],
-"classmeshlib_1_1BooleanOperation.html#ae0867dd17d4ed470dbd291e43362c1cd":[9,6,0,0,0,111,3],
-"classmeshlib_1_1BooleanOperation.html#ae0867dd17d4ed470dbd291e43362c1cd":[9,6,1,0,0,111,3]
+"classmeshlib_1_1BooleanOperation.html#ae0867dd17d4ed470dbd291e43362c1cd":[9,6,0,0,0,111,3]
 };

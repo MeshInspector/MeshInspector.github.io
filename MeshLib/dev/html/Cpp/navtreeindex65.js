@@ -1,5 +1,9 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1GeodesicPath.html#af134007969afd8d9e0854c05ab72e99b":[9,0,0,15,3,0,3],
+"structMR_1_1GlTexture_1_1Settings.html":[9,0,0,19,617],
+"structMR_1_1Graph_1_1EndVertices.html":[9,0,0,19,284],
+"structMR_1_1GridSettings.html":[9,0,0,19,287],
 "structMR_1_1GridToMeshSettings.html":[9,0,0,19,916],
 "structMR_1_1Heap_1_1Element.html":[9,0,0,3,7,0],
 "structMR_1_1Heap_1_1Element.html":[9,0,0,19,371,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[9,0,2,0,1,7,10,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd":[9,0,1,0,1,17,10,16],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd":[9,0,2,0,1,7,10,16],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html":[9,0,1,0,1,17,11],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html":[9,0,2,0,1,7,11],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a3ec9519a874594345d17324a079237aa":[9,0,1,0,1,17,11,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a3ec9519a874594345d17324a079237aa":[9,0,2,0,1,7,11,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a6fa66d705cd65bc5dd8e745435221e52":[9,0,1,0,1,17,11,0]
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html":[9,0,1,0,1,17,11]
 };

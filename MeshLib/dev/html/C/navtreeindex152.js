@@ -1,5 +1,10 @@
 var NAVTREEINDEX152 =
 {
+"std__optional__MR__Box3f_8h_source.html":[9,2,2,0,0,0,0,2,212],
+"std__optional__MR__Color_8h.html":[9,2,2,0,0,0,0,2,213],
+"std__optional__MR__Color_8h.html#a0856409d74e81bf00fb6f509727fb0ca":[9,2,2,0,0,0,0,2,213,5],
+"std__optional__MR__Color_8h.html#a1053b793ecee645c5bfa75944ce0f175":[9,2,2,0,0,0,0,2,213,1],
+"std__optional__MR__Color_8h.html#a14bb301fde50d923aee966a860b62207":[9,2,2,0,0,0,0,2,213,4],
 "std__optional__MR__Color_8h.html#a16e239b298ad909f1b40c7f34e37e8ef":[9,2,2,0,0,0,0,2,213,9],
 "std__optional__MR__Color_8h.html#a1d6750656f24f932a39c40e8b8d74077":[9,2,2,0,0,0,0,2,213,7],
 "std__optional__MR__Color_8h.html#a55e0a3cbc1a3c2e04a5e9184aa02628c":[9,2,2,0,0,0,0,2,213,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX152 =
 "std__optional__MR__PointCloud_8h.html#aa382ce7bf2cacc1101ff4e8064e37bf3":[9,2,2,0,0,0,0,2,229,2],
 "std__optional__MR__PointCloud_8h.html#aa77f6c605e7fb6ff4b6196fec4ca7cad":[9,2,2,0,0,0,0,2,229,3],
 "std__optional__MR__PointCloud_8h.html#acfe5917ed8cc98c36570e5feed059a98":[9,2,2,0,0,0,0,2,229,11],
-"std__optional__MR__PointCloud_8h.html#ad0bf2f00b1d91b5be4387eff22339e32":[9,2,2,0,0,0,0,2,229,4],
-"std__optional__MR__PointCloud_8h.html#ae841f6c23349a4c298e34abd4c887e37":[9,2,2,0,0,0,0,2,229,6],
-"std__optional__MR__PointCloud_8h_source.html":[9,2,2,0,0,0,0,2,229],
-"std__optional__MR__PolylineIntersectionResult2_8h.html":[9,2,2,0,0,0,0,2,230],
-"std__optional__MR__PolylineIntersectionResult2_8h.html#a07020298ec1bdf81d71f8b27a3484d46":[9,2,2,0,0,0,0,2,230,11],
-"std__optional__MR__PolylineIntersectionResult2_8h.html#a21ce17f2e6794e8b07b60b1a49316d26":[9,2,2,0,0,0,0,2,230,7]
+"std__optional__MR__PointCloud_8h.html#ad0bf2f00b1d91b5be4387eff22339e32":[9,2,2,0,0,0,0,2,229,4]
 };

@@ -312,7 +312,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Paths of new edges on mesh, they represent same contours as input, but already cut; a contour going from a mesh vertex to a point and back has an edge followed by its sym there Returns a pointer to a member variable of class <span class="tt">MR::CutMeshResult</span> named <span class="tt">resultCut</span>. The reference to this object might be preserved as the return value.</p>
+<p>Paths of new edges on mesh, they represent same contours as input, but already cut; a contour going from a mesh vertex to a point and back has an edge followed by its sym there; with CutMeshParameters::ForceFill::SplitCrossings and sortData, a path also passes the vertices where its contour crosses others (or itself) in bad faces Returns a pointer to a member variable of class <span class="tt">MR::CutMeshResult</span> named <span class="tt">resultCut</span>. The reference to this object might be preserved as the return value.</p>
 <p>Calls <span class="tt">MR_CutMeshResult_Get_resultCut()</span>. </p>
 
 </div>
@@ -350,7 +350,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Paths of new edges on mesh, they represent same contours as input, but already cut; a contour going from a mesh vertex to a point and back has an edge followed by its sym there Modifies a member variable of class <span class="tt">MR::CutMeshResult</span> named <span class="tt">resultCut</span>. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">resultCut</span>.</p>
+<p>Paths of new edges on mesh, they represent same contours as input, but already cut; a contour going from a mesh vertex to a point and back has an edge followed by its sym there; with CutMeshParameters::ForceFill::SplitCrossings and sortData, a path also passes the vertices where its contour crosses others (or itself) in bad faces Modifies a member variable of class <span class="tt">MR::CutMeshResult</span> named <span class="tt">resultCut</span>. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">resultCut</span>.</p>
 <p>Calls <span class="tt">MR_CutMeshResult_Set_resultCut()</span>. </p>
 
 </div>

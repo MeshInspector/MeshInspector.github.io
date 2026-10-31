@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"classmeshlib_1_1ChangeColoringType.html#aac8b177b566a48bc0cc9e21a6399b187":[9,6,1,0,0,155,1],
 "classmeshlib_1_1ChangeColoringType.html#aeba72e208bb43eb9f13927f5c4f2b0d1":[9,6,0,0,0,155,4],
 "classmeshlib_1_1ChangeColoringType.html#aeba72e208bb43eb9f13927f5c4f2b0d1":[9,6,1,0,0,155,4],
 "classmeshlib_1_1ChangeColoringType.html#af28725f7d314ba17c4320c28bc9d1d76":[9,6,0,0,0,155,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "classmeshlib_1_1ChangeMeshTexturePerFaceAction.html#a7607309d9ef4d826d613be2a976780ed":[9,6,1,0,0,168,1],
 "classmeshlib_1_1ChangeMeshTopologyAction.html":[9,6,0,0,0,169],
 "classmeshlib_1_1ChangeMeshTopologyAction.html":[9,6,1,0,0,169],
-"classmeshlib_1_1ChangeMeshTopologyAction.html#a0d69f9806e63b48a50b8915a489e34b6":[9,6,0,0,0,169,4],
-"classmeshlib_1_1ChangeMeshTopologyAction.html#a0d69f9806e63b48a50b8915a489e34b6":[9,6,1,0,0,169,4]
+"classmeshlib_1_1ChangeMeshTopologyAction.html#a0d69f9806e63b48a50b8915a489e34b6":[9,6,0,0,0,169,4]
 };

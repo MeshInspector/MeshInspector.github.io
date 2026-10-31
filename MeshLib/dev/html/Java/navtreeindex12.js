@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"classmeshlib_1_1AngleMeasurementObject.html#aebf9e255653b677c91f407f7ec5e4706":[9,6,1,0,0,67,99],
 "classmeshlib_1_1AngleMeasurementObject.html#aecffba14faf2bf8ecca6f04cf35fcaed":[9,6,0,0,0,67,68],
 "classmeshlib_1_1AngleMeasurementObject.html#aecffba14faf2bf8ecca6f04cf35fcaed":[9,6,1,0,0,67,68],
 "classmeshlib_1_1AngleMeasurementObject.html#aedac21b5e1b16a1b1beb4f1ac84ac18b":[9,6,0,0,0,67,103],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classmeshlib_1_1BMap__MR__PixelId__MR__PixelId.html#a0b784b936ad49338775846d5f8850f8f":[9,6,1,0,0,103,7],
 "classmeshlib_1_1BMap__MR__PixelId__MR__PixelId.html#a4e0f146067665b8588a931c94f36b50d":[9,6,0,0,0,103,6],
 "classmeshlib_1_1BMap__MR__PixelId__MR__PixelId.html#a4e0f146067665b8588a931c94f36b50d":[9,6,1,0,0,103,6],
-"classmeshlib_1_1BMap__MR__PixelId__MR__PixelId.html#a542067dbeb7a9ce502d3536d71b224d9":[9,6,0,0,0,103,0],
-"classmeshlib_1_1BMap__MR__PixelId__MR__PixelId.html#a542067dbeb7a9ce502d3536d71b224d9":[9,6,1,0,0,103,0]
+"classmeshlib_1_1BMap__MR__PixelId__MR__PixelId.html#a542067dbeb7a9ce502d3536d71b224d9":[9,6,0,0,0,103,0]
 };

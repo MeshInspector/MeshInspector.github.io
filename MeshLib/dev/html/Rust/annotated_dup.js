@@ -414,6 +414,7 @@ var annotated_dup =
       [ "CutByProjectionSettings", "structmeshlib_1_1CutByProjectionSettings.html", "structmeshlib_1_1CutByProjectionSettings" ],
       [ "CutMeshParameters", "structmeshlib_1_1CutMeshParameters.html", "structmeshlib_1_1CutMeshParameters" ],
       [ "CutMeshParameters_FillPart", "structmeshlib_1_1CutMeshParameters__FillPart.html", null ],
+      [ "CutMeshParameters_ForceFill", "structmeshlib_1_1CutMeshParameters__ForceFill.html", null ],
       [ "CutMeshResult", "structmeshlib_1_1CutMeshResult.html", "structmeshlib_1_1CutMeshResult" ],
       [ "Cylinder3d", "structmeshlib_1_1Cylinder3d.html", "structmeshlib_1_1Cylinder3d" ],
       [ "Cylinder3f", "structmeshlib_1_1Cylinder3f.html", "structmeshlib_1_1Cylinder3f" ],

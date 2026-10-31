@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"classmeshlib_1_1AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f.html#ab55be673490b96f6d994316e06c11222":[9,6,1,0,0,54,3],
 "classmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__dia987e70379948a7e98350dfa48b23bbe0.html":[9,6,0,0,0,57],
 "classmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__dia987e70379948a7e98350dfa48b23bbe0.html":[9,6,1,0,0,57],
 "classmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__dia987e70379948a7e98350dfa48b23bbe0.html#a066923a14b12ec723bea52ddaf066632":[9,6,0,0,0,57,47],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "classmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__dia987e70379948a7e98350dfa48b23bbe0.html#ae04e64d9cf55ff8faa55f43058329165":[9,6,1,0,0,57,119],
 "classmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__dia987e70379948a7e98350dfa48b23bbe0.html#ae92b0ca2e2a6c9a23ccc29d30d0aad89":[9,6,0,0,0,57,18],
 "classmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__dia987e70379948a7e98350dfa48b23bbe0.html#ae92b0ca2e2a6c9a23ccc29d30d0aad89":[9,6,1,0,0,57,18],
-"classmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__dia987e70379948a7e98350dfa48b23bbe0.html#aeb2d786cb731bd801fcbd8276cf60f47":[9,6,0,0,0,57,90],
-"classmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__dia987e70379948a7e98350dfa48b23bbe0.html#aeb2d786cb731bd801fcbd8276cf60f47":[9,6,1,0,0,57,90]
+"classmeshlib_1_1AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__dia987e70379948a7e98350dfa48b23bbe0.html#aeb2d786cb731bd801fcbd8276cf60f47":[9,6,0,0,0,57,90]
 };

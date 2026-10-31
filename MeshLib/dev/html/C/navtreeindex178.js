@@ -1,5 +1,10 @@
 var NAVTREEINDEX178 =
 {
+"std__vector__MR__SkyPatch_8h.html#a2a399948b98129524674c69334b2ea35":[9,2,2,0,0,0,0,2,519,22],
+"std__vector__MR__SkyPatch_8h.html#a2bb30adf2b359b6dd6b7a5e157251b7f":[9,2,2,0,0,0,0,2,519,7],
+"std__vector__MR__SkyPatch_8h.html#a2c247c183be255bbb7aecfaf21ff4262":[9,2,2,0,0,0,0,2,519,1],
+"std__vector__MR__SkyPatch_8h.html#a3063c0045346c90adbc2cc74fc7d2afc":[9,2,2,0,0,0,0,2,519,16],
+"std__vector__MR__SkyPatch_8h.html#a4612f7560ed727cada39293e414b778e":[9,2,2,0,0,0,0,2,519,2],
 "std__vector__MR__SkyPatch_8h.html#a48566a9096e3461a932b52d055cc5ab3":[9,2,2,0,0,0,0,2,519,0],
 "std__vector__MR__SkyPatch_8h.html#a4f11479f7e55212916fa369ed6ce3fc4":[9,2,2,0,0,0,0,2,519,4],
 "std__vector__MR__SkyPatch_8h.html#a5595b26d80c8f6a215790f25cbecba02":[9,2,2,0,0,0,0,2,519,12],
@@ -244,10 +249,5 @@ var NAVTREEINDEX178 =
 "std__vector__MR__UnorientedTriangle_8h.html#ac51f5356003efb07b5f8dbec297bc740":[9,2,2,0,0,0,0,2,528,0],
 "std__vector__MR__UnorientedTriangle_8h.html#ada6be04dc09f3121570a2e9bc764445b":[9,2,2,0,0,0,0,2,528,12],
 "std__vector__MR__UnorientedTriangle_8h.html#aefd54e614fbbe3d72d1bcbd99c856f29":[9,2,2,0,0,0,0,2,528,6],
-"std__vector__MR__UnorientedTriangle_8h.html#afc493e470b66603a75e049a36d371a94":[9,2,2,0,0,0,0,2,528,1],
-"std__vector__MR__UnorientedTriangle_8h.html#affb0aef03ac72eaa4976e6bf2a5ae9e1":[9,2,2,0,0,0,0,2,528,20],
-"std__vector__MR__UnorientedTriangle_8h_source.html":[9,2,2,0,0,0,0,2,528],
-"std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html":[9,2,2,0,0,0,0,2,529],
-"std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#a0254fba7eb6177782b1bfb05b4cd8d3e":[9,2,2,0,0,0,0,2,529,0],
-"std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8h.html#a0f3ca536942366094709403aa74c8dc4":[9,2,2,0,0,0,0,2,529,5]
+"std__vector__MR__UnorientedTriangle_8h.html#afc493e470b66603a75e049a36d371a94":[9,2,2,0,0,0,0,2,528,1]
 };

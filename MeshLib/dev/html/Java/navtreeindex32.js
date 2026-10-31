@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classmeshlib_1_1ContourToDistanceMapParams.html#ab968aff8179113d29138ed6a9ac901f8":[9,6,1,0,0,232,3],
 "classmeshlib_1_1ContourToDistanceMapParams.html#abb848fcc12cf36688d6b110d9634ddc4":[9,6,0,0,0,232,18],
 "classmeshlib_1_1ContourToDistanceMapParams.html#abb848fcc12cf36688d6b110d9634ddc4":[9,6,1,0,0,232,18],
 "classmeshlib_1_1ContourToDistanceMapParams.html#abe9087c9cf1e332a951daa678d87cbff":[9,6,0,0,0,232,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classmeshlib_1_1CubicBezierCurve2d.html#abca6cfb8640e4387a4897e6baae1e55d":[9,6,1,0,0,240,5],
 "classmeshlib_1_1CubicBezierCurve2d.html#afc5fe33deb1d4eec082db53930ef79b4":[9,6,0,0,0,240,2],
 "classmeshlib_1_1CubicBezierCurve2d.html#afc5fe33deb1d4eec082db53930ef79b4":[9,6,1,0,0,240,2],
-"classmeshlib_1_1CubicBezierCurve2f.html":[9,6,0,0,0,241],
-"classmeshlib_1_1CubicBezierCurve2f.html":[9,6,1,0,0,241]
+"classmeshlib_1_1CubicBezierCurve2f.html":[9,6,0,0,0,241]
 };

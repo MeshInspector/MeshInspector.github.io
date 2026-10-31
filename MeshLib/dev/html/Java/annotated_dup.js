@@ -480,6 +480,7 @@ var annotated_dup =
       [ "CutByProjectionSettings", "classmeshlib_1_1CutByProjectionSettings.html", "classmeshlib_1_1CutByProjectionSettings" ],
       [ "CutMeshParameters", "classmeshlib_1_1CutMeshParameters.html", "classmeshlib_1_1CutMeshParameters" ],
       [ "CutMeshParameters_FillPart", "classmeshlib_1_1CutMeshParameters__FillPart.html", "classmeshlib_1_1CutMeshParameters__FillPart" ],
+      [ "CutMeshParameters_ForceFill", "classmeshlib_1_1CutMeshParameters__ForceFill.html", "classmeshlib_1_1CutMeshParameters__ForceFill" ],
       [ "CutMeshResult", "classmeshlib_1_1CutMeshResult.html", "classmeshlib_1_1CutMeshResult" ],
       [ "Cylinder3d", "classmeshlib_1_1Cylinder3d.html", "classmeshlib_1_1Cylinder3d" ],
       [ "Cylinder3f", "classmeshlib_1_1Cylinder3f.html", "classmeshlib_1_1Cylinder3f" ],

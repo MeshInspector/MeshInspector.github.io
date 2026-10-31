@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classmeshlib_1_1BMap__MR__PixelId__MR__PixelId.html#a542067dbeb7a9ce502d3536d71b224d9":[9,6,1,0,0,103,0],
 "classmeshlib_1_1BMap__MR__PixelId__MR__PixelId.html#a5716ef3f780ef8e576652bdfdc216d93":[9,6,0,0,0,103,2],
 "classmeshlib_1_1BMap__MR__PixelId__MR__PixelId.html#a5716ef3f780ef8e576652bdfdc216d93":[9,6,1,0,0,103,2],
 "classmeshlib_1_1BMap__MR__PixelId__MR__PixelId.html#a5a24db577c732fee2e9d329de0d8aca0":[9,6,0,0,0,103,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "classmeshlib_1_1Ball3f.html#a7a2bf1219862f0244bf1602a39a9e3d6":[9,6,1,0,0,80,10],
 "classmeshlib_1_1Ball3f.html#a9ad6a749863352438fd4e3ce6bd5135e":[9,6,0,0,0,80,0],
 "classmeshlib_1_1Ball3f.html#a9ad6a749863352438fd4e3ce6bd5135e":[9,6,1,0,0,80,0],
-"classmeshlib_1_1Ball3f.html#ad3538208fc3beccfdf6898b28804076f":[9,6,0,0,0,80,9],
-"classmeshlib_1_1Ball3f.html#ad3538208fc3beccfdf6898b28804076f":[9,6,1,0,0,80,9]
+"classmeshlib_1_1Ball3f.html#ad3538208fc3beccfdf6898b28804076f":[9,6,0,0,0,80,9]
 };

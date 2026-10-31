@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"classmeshlib_1_1Buffer__MR__VoxelId__MR__VoxelId.html#ae1720843f37ec66b7cf626152c5e5d9e":[9,6,1,0,0,149,3],
 "classmeshlib_1_1Buffer__MR__VoxelId__MR__VoxelId.html#ae8929aa3fdf53b52dc719836d5495b34":[9,6,0,0,0,149,4],
 "classmeshlib_1_1Buffer__MR__VoxelId__MR__VoxelId.html#ae8929aa3fdf53b52dc719836d5495b34":[9,6,1,0,0,149,4],
 "classmeshlib_1_1Buffer__char.html":[9,6,0,0,0,132],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "classmeshlib_1_1ChangeColoringType.html#a18386e5a52175e8e834c74dfa24ef6d6":[9,6,1,0,0,155,3],
 "classmeshlib_1_1ChangeColoringType.html#aa103c1ec78d30b7eed5543649114c4cb":[9,6,0,0,0,155,2],
 "classmeshlib_1_1ChangeColoringType.html#aa103c1ec78d30b7eed5543649114c4cb":[9,6,1,0,0,155,2],
-"classmeshlib_1_1ChangeColoringType.html#aac8b177b566a48bc0cc9e21a6399b187":[9,6,0,0,0,155,1],
-"classmeshlib_1_1ChangeColoringType.html#aac8b177b566a48bc0cc9e21a6399b187":[9,6,1,0,0,155,1]
+"classmeshlib_1_1ChangeColoringType.html#aac8b177b566a48bc0cc9e21a6399b187":[9,6,0,0,0,155,1]
 };

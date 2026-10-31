@@ -1,5 +1,7 @@
 var NAVTREEINDEX232 =
 {
+"structmeshlib_1_1voxels__load_1_1GridType.html":[9,5,1,0,0,21,4],
+"structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html":[9,5,0,0,0,34,5],
 "structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html":[9,5,1,0,0,21,5],
 "structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#a0090c69a0876f11a2c91f2c4a0712e39":[9,5,0,0,0,34,5,7],
 "structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#a0090c69a0876f11a2c91f2c4a0712e39":[9,5,1,0,0,21,5,7],

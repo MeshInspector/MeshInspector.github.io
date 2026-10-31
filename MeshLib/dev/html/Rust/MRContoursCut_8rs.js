@@ -1,6 +1,7 @@
 var MRContoursCut_8rs =
 [
     [ "meshlib::CutMeshParameters_FillPart", "structmeshlib_1_1CutMeshParameters__FillPart.html", null ],
+    [ "meshlib::CutMeshParameters_ForceFill", "structmeshlib_1_1CutMeshParameters__ForceFill.html", null ],
     [ "meshlib::CutByProjectionSettings", "structmeshlib_1_1CutByProjectionSettings.html", "structmeshlib_1_1CutByProjectionSettings" ],
     [ "meshlib::CutMeshParameters", "structmeshlib_1_1CutMeshParameters.html", "structmeshlib_1_1CutMeshParameters" ],
     [ "meshlib::CutMeshResult", "structmeshlib_1_1CutMeshResult.html", "structmeshlib_1_1CutMeshResult" ],

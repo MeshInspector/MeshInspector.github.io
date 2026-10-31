@@ -34,12 +34,13 @@ var searchData=
   ['sourcepoint_31',['SourcePoint',['../classmeshlib_1_1LabelVisualizePropertyType.html#a2de66cd154ac0ec055c9c8c58dee12a2',1,'meshlib::LabelVisualizePropertyType']]],
   ['specificaxisfit_32',['SpecificAxisFit',['../classmeshlib_1_1ConeFitterType.html#a8e5f7c74048e3b0f6181ca7a9d8e311b',1,'meshlib::ConeFitterType']]],
   ['sphere_33',['Sphere',['../classmeshlib_1_1FeaturesObjectKind.html#ae6c11cd002dcf96d2d184c899f308a2b',1,'meshlib::FeaturesObjectKind']]],
-  ['standard_34',['Standard',['../classmeshlib_1_1OffsetMode.html#a347ce04680bf1cadbb22f70a3f8aa1e6',1,'meshlib::OffsetMode']]],
-  ['startendnotconnected_35',['StartEndNotConnected',['../classmeshlib_1_1PathError.html#ab837fd917f7a49c55c36a3fd7601c05d',1,'meshlib::PathError']]],
-  ['stop_36',['Stop',['../classmeshlib_1_1Processing.html#a1d80a4e73587833db152595b2d9e7012',1,'meshlib::Processing']]],
-  ['stopmsdreached_37',['StopMsdReached',['../classmeshlib_1_1ICPExitType.html#a50c9242ea33eb2ec941762c2fe5222f2',1,'meshlib::ICPExitType']]],
-  ['stopprocessing_38',['StopProcessing',['../classmeshlib_1_1ProcessOneResult.html#a08ff14a9097a7562881c8a88325ea293',1,'meshlib::ProcessOneResult']]],
-  ['strong_39',['Strong',['../classmeshlib_1_1FillHoleParams__MultipleEdgesResolveMode.html#a4f385feaffd9c41152b332073d6631d8',1,'meshlib::FillHoleParams_MultipleEdgesResolveMode']]],
-  ['subfeatures_40',['Subfeatures',['../classmeshlib_1_1FeatureVisualizePropertyType.html#af944148346a3369c59d3de876806b47e',1,'meshlib::FeatureVisualizePropertyType']]],
-  ['symbol_41',['Symbol',['../classmeshlib_1_1PdfBuildinFont.html#a7544551905c39aa49cd00ebfe387c78d',1,'meshlib::PdfBuildinFont']]]
+  ['splitcrossings_34',['SplitCrossings',['../classmeshlib_1_1CutMeshParameters__ForceFill.html#a5b9d885112180da1b0f80a39ce0b7c48',1,'meshlib::CutMeshParameters_ForceFill']]],
+  ['standard_35',['Standard',['../classmeshlib_1_1OffsetMode.html#a347ce04680bf1cadbb22f70a3f8aa1e6',1,'meshlib::OffsetMode']]],
+  ['startendnotconnected_36',['StartEndNotConnected',['../classmeshlib_1_1PathError.html#ab837fd917f7a49c55c36a3fd7601c05d',1,'meshlib::PathError']]],
+  ['stop_37',['Stop',['../classmeshlib_1_1Processing.html#a1d80a4e73587833db152595b2d9e7012',1,'meshlib::Processing']]],
+  ['stopmsdreached_38',['StopMsdReached',['../classmeshlib_1_1ICPExitType.html#a50c9242ea33eb2ec941762c2fe5222f2',1,'meshlib::ICPExitType']]],
+  ['stopprocessing_39',['StopProcessing',['../classmeshlib_1_1ProcessOneResult.html#a08ff14a9097a7562881c8a88325ea293',1,'meshlib::ProcessOneResult']]],
+  ['strong_40',['Strong',['../classmeshlib_1_1FillHoleParams__MultipleEdgesResolveMode.html#a4f385feaffd9c41152b332073d6631d8',1,'meshlib::FillHoleParams_MultipleEdgesResolveMode']]],
+  ['subfeatures_41',['Subfeatures',['../classmeshlib_1_1FeatureVisualizePropertyType.html#af944148346a3369c59d3de876806b47e',1,'meshlib::FeatureVisualizePropertyType']]],
+  ['symbol_42',['Symbol',['../classmeshlib_1_1PdfBuildinFont.html#a7544551905c39aa49cd00ebfe387c78d',1,'meshlib::PdfBuildinFont']]]
 ];
