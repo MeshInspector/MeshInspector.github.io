@@ -11,6 +11,8 @@ EXCLUDE                = ../MeshLib/doxygen/APICppPage.dox \
                          ../MeshLib/doxygen/APICPage.dox \
                          ../MeshLib/doxygen/APICsharpPage.dox \
                          ../MeshLib/doxygen/APIJsPage.dox \
+                         ../MeshLib/doxygen/APIRustPage.dox \
+                         ../MeshLib/doxygen/APIJavaPage.dox \
                          ../MeshLib/doxygen/common_files
 EXCLUDE_PATTERNS       = README.md \
                          readme.md
