@@ -1,8 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"classMR_1_1SpaceMouse_1_1Controller.html#a681fa85509ccb8cb010bf04d0b33a2a0":[9,0,1,0,1,49,1,1],
-"classMR_1_1SpaceMouse_1_1Controller.html#a681fa85509ccb8cb010bf04d0b33a2a0":[9,0,2,0,1,32,1,1],
-"classMR_1_1SpaceMouse_1_1Controller.html#aaa34dd39dfd69309293fc8871f7378b1":[9,0,1,0,1,49,1,0],
 "classMR_1_1SpaceMouse_1_1Controller.html#aaa34dd39dfd69309293fc8871f7378b1":[9,0,2,0,1,32,1,0],
 "classMR_1_1SpaceMouse_1_1Controller.html#ae8826c26d7999552582481a659b7eed7":[9,0,1,0,1,49,1,3],
 "classMR_1_1SpaceMouse_1_1Controller.html#ae8826c26d7999552582481a659b7eed7":[9,0,2,0,1,32,1,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX12 =
 "classMR_1_1ViewportIterator.html":[9,0,0,11,1,2],
 "classMR_1_1ViewportIterator.html#a05e6775ef16e35a0506ac59006df0e19":[9,0,0,11,1,2,1],
 "classMR_1_1ViewportIterator.html#a120db6c019fa33a49a6dd413e8aae8a6":[9,0,0,11,1,2,2],
-"classMR_1_1ViewportIterator.html#a199f537ed2a36abfcb8259122222318a":[9,0,0,11,1,2,4]
+"classMR_1_1ViewportIterator.html#a199f537ed2a36abfcb8259122222318a":[9,0,0,11,1,2,4],
+"classMR_1_1ViewportIterator.html#a1da127569258f48e6aa775d9d866b29e":[9,0,0,11,1,2,6],
+"classMR_1_1ViewportIterator.html#a6f97d3f576cf064d443b135f305f68ac":[9,0,0,11,1,2,5],
+"classMR_1_1ViewportIterator.html#a9f84c50cb71ba743d8ca33372fd16566":[9,0,0,11,1,2,3]
 };

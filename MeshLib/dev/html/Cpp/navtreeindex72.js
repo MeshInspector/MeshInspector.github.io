@@ -1,9 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"structMR_1_1WatershedGraph_1_1BdInfo.html":[9,0,0,19,561],
-"structMR_1_1WatershedGraph_1_1OverflowPoint.html":[9,0,0,19,562],
-"structMR_1_1WebRequest_1_1FormData.html":[9,0,0,19,861],
-"structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html":[9,0,1,0,1,57,0],
 "structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html":[9,0,2,0,1,37,0],
 "structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a29acc2ff0fb3ba09c6eecaf68f3a5f65":[9,0,1,0,1,57,0,1],
 "structMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a29acc2ff0fb3ba09c6eecaf68f3a5f65":[9,0,2,0,1,37,0,1],
