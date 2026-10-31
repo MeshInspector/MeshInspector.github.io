@@ -1,5 +1,7 @@
 var NAVTREEINDEX168 =
 {
+"std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#ac08967ecfdc42f1daa012d55ed9f3d12":[9,2,2,0,0,0,0,2,411,21],
+"std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#ac90b5030fb10fa833c7dc9e3fb822394":[9,2,2,0,0,0,0,2,411,2],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#acc9dfcbf49ba4d67f0d522c948ca9770":[9,2,2,0,0,0,0,2,411,31],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#ad2de930cba665c46b4acacc01618f2f2":[9,2,2,0,0,0,0,2,411,8],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#ada18aa2d3606fbbd2cb3338efb17b6eb":[9,2,2,0,0,0,0,2,411,24],
@@ -247,7 +249,5 @@ var NAVTREEINDEX168 =
 "std__vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__Allocator__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#a4948abbfc2936abda2f1335ae0f69049":[9,2,2,0,0,0,0,2,431,8],
 "std__vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__Allocator__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#a4a7a81c69a36fe378e841d9a13bf06a1":[9,2,2,0,0,0,0,2,431,15],
 "std__vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__Allocator__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#a587d8a31ae7392c429b3121d0c02c976":[9,2,2,0,0,0,0,2,431,17],
-"std__vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__Allocator__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#a599ad494e4638ed20d54441f6e763bc8":[9,2,2,0,0,0,0,2,431,3],
-"std__vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__Allocator__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#a67417456b36f514d76110dcb23f0d925":[9,2,2,0,0,0,0,2,431,5],
-"std__vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__Allocator__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#a6d5ad246b58e7a2e2f777a14ab72954d":[9,2,2,0,0,0,0,2,431,14]
+"std__vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__Allocator__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#a599ad494e4638ed20d54441f6e763bc8":[9,2,2,0,0,0,0,2,431,3]
 };

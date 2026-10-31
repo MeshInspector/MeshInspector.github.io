@@ -1,0 +1,28 @@
+var classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f =
+[
+    [ "DecimatePolylineSettings_MR_Vector3f", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a504777a90482153eb57ad2a41df4f102", null ],
+    [ "DecimatePolylineSettings_MR_Vector3f", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#ad5d3e400753951cfb959d6feef76c148", null ],
+    [ "DecimatePolylineSettings_MR_Vector3f", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a6b3857ea58b712368c7b622003e1e5bf", null ],
+    [ "DecimatePolylineSettings_MR_Vector3f", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a67475a0df3677aa56d4f3fb003f2aac3", null ],
+    [ "adjustCollapse", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#aadc32c468002c507f792aef184d2558a", null ],
+    [ "assignFromAnother", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a9e9366811ec78e15bd95239a1ca9e352", null ],
+    [ "maxDeletedVertices", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#ab945e53aa232f9cde1006d1a1dd8c538", null ],
+    [ "maxEdgeLen", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#af6e4a6ea800fd80aaf38c14ea25ff284", null ],
+    [ "maxError", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#ab35f5e16d63fe06ca4b23cdb566a80fa", null ],
+    [ "optimizeVertexPos", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a22678264867b9de14f3c4b1ff3568c30", null ],
+    [ "preCollapse", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a457ef7dbdef29b6c4990be8d0ef1b331", null ],
+    [ "region", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#ae5d6af51cd9bc0c8870c7c2ff26e8d9b", null ],
+    [ "setAdjustCollapse", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#aa70f9e61d8da24db5b96ee91ba2912c9", null ],
+    [ "setMaxDeletedVertices", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#ac4b129ee19d1a44ba73270067cf9c3a0", null ],
+    [ "setMaxEdgeLen", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a6d6000b348d89cd9c41ab8c0abe7fb74", null ],
+    [ "setMaxError", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#ad54a80bb3a6fc66460a54bba030a9517", null ],
+    [ "setOptimizeVertexPos", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a56072a934ef7b6b59449300fd5bb9c1a", null ],
+    [ "setPreCollapse", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a48402da67b695623c5c5fde66a1b45c0", null ],
+    [ "setRegion", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a35311b06798a87ec4686e5917e75d9d2", null ],
+    [ "setStabilizer", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a270d6da597645def8a77603509308ea1", null ],
+    [ "setTouchBdVertices", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a648d628cecea83c0fc418970a2912a7b", null ],
+    [ "setVertForms", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a60d47299aba4ed7d66751fd1987026af", null ],
+    [ "stabilizer", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a32baafa554c2d0300c4cb608bfbe9caf", null ],
+    [ "touchBdVertices", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#a8b42d8ab2306a0e5e1bc9836855531e3", null ],
+    [ "vertForms", "classmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#af5986206e18fa3ed3ba778f6b267eecb", null ]
+];

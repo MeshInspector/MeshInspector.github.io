@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a570379d217167dace436fdff47454256":[9,1,0,0,2,108,9],
+"classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a570379d217167dace436fdff47454256":[9,1,1,0,1,108,9],
 "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a884a0bdb83b5f03c250e37992915d61e":[9,1,0,0,2,108,8],
 "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a884a0bdb83b5f03c250e37992915d61e":[9,1,1,0,1,108,8],
 "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#aad549f735f9a7c8554b28fc3cec2fc78":[9,1,0,0,2,108,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "classmrmeshpy_1_1ChangVoxelSelectionAction.html#a8a9522027d2d7d57776c354c619e436c":[9,1,0,0,2,150,2],
 "classmrmeshpy_1_1ChangVoxelSelectionAction.html#a8a9522027d2d7d57776c354c619e436c":[9,1,1,0,1,150,2],
 "classmrmeshpy_1_1ChangVoxelSelectionAction.html#a8b5cf86537bcc2af42666852314edc77":[9,1,0,0,2,150,0],
-"classmrmeshpy_1_1ChangVoxelSelectionAction.html#a8b5cf86537bcc2af42666852314edc77":[9,1,1,0,1,150,0],
-"classmrmeshpy_1_1ChangeActiveBoxAction.html":[9,1,0,0,2,111],
-"classmrmeshpy_1_1ChangeActiveBoxAction.html":[9,1,1,0,1,111]
+"classmrmeshpy_1_1ChangVoxelSelectionAction.html#a8b5cf86537bcc2af42666852314edc77":[9,1,1,0,1,150,0]
 };

@@ -1,0 +1,8 @@
+var structmeshlib_1_1std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegmen14d0aa78fd53a4bc43910324e7f01cde =
+[
+    [ "assign_from", "structmeshlib_1_1std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegmen14d0aa78fd53a4bc43910324e7f01cde.html#a9601c9b7d3c89f4535d64e34db8db3e9", null ],
+    [ "assign_from_another", "structmeshlib_1_1std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegmen14d0aa78fd53a4bc43910324e7f01cde.html#a1facf79b1833f8f5de90a82e35abc2cc", null ],
+    [ "has_value", "structmeshlib_1_1std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegmen14d0aa78fd53a4bc43910324e7f01cde.html#ae9aad1096094444d320c227c98f18dce", null ],
+    [ "value", "structmeshlib_1_1std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegmen14d0aa78fd53a4bc43910324e7f01cde.html#a82a5b0184cbc58a37b719bb19e26653b", null ],
+    [ "value_mut", "structmeshlib_1_1std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegmen14d0aa78fd53a4bc43910324e7f01cde.html#a4bac94e8825396b3dcb643dcb7809649", null ]
+];

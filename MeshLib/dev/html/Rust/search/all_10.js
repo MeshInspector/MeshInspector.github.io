@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['q_0',['q',['../structmeshlib_1_1Matrix3__bool__QR.html#a22c3ca51d88802556f1099c79a786c4c',1,'meshlib::Matrix3_bool_QR::q()'],['../structmeshlib_1_1Matrix3__double__QR.html#aca9817185b8b7366e4a5c39e2965ad1c',1,'meshlib::Matrix3_double_QR::q()'],['../structmeshlib_1_1Matrix3__float__QR.html#a0a3bada96607487c9e79c1de201c0ea5',1,'meshlib::Matrix3_float_QR::q()'],['../structmeshlib_1_1Matrix3__int64__t__QR.html#a74a4bd68b0f3ab64b5f1d386e6b341ec',1,'meshlib::Matrix3_int64_t_QR::q()'],['../structmeshlib_1_1Matrix3__int__QR.html#af3682183eb12ec8c10651baa64e79918',1,'meshlib::Matrix3_int_QR::q()'],['../structmeshlib_1_1Matrix3__unsigned__char__QR.html#a3e3626f07973130dfd254b9310f3d96e',1,'meshlib::Matrix3_unsigned_char_QR::q()']]],
+  ['q_5fmut_1',['q_mut',['../structmeshlib_1_1Matrix3__bool__QR.html#a26c480b7d8e1ee1fb4c554ff28c00fe5',1,'meshlib::Matrix3_bool_QR::q_mut()'],['../structmeshlib_1_1Matrix3__double__QR.html#a5a541e48ba485eb97e9bd810c76edb66',1,'meshlib::Matrix3_double_QR::q_mut()'],['../structmeshlib_1_1Matrix3__float__QR.html#a5559dd08872d283bf8eb900d9eaca434',1,'meshlib::Matrix3_float_QR::q_mut()'],['../structmeshlib_1_1Matrix3__int64__t__QR.html#a2f2a68c66ba20dabaf5606667fa05383',1,'meshlib::Matrix3_int64_t_QR::q_mut()'],['../structmeshlib_1_1Matrix3__int__QR.html#adc8fe698112889bdf4b64e9e52bc6e39',1,'meshlib::Matrix3_int_QR::q_mut()'],['../structmeshlib_1_1Matrix3__unsigned__char__QR.html#aa278bce8979e3bdad42f7133799c400c',1,'meshlib::Matrix3_unsigned_char_QR::q_mut()']]],
+  ['qr_2',['qr',['../structmeshlib_1_1Matrix3d.html#a5888cf451d87187e2e357b0d6e1a3079',1,'meshlib::Matrix3d::qr()'],['../structmeshlib_1_1Matrix3f.html#a122da7bfb4cfc51403a9ccc44937444e',1,'meshlib::Matrix3f::qr()']]],
+  ['quadrangle_5fother_5fdiagonal_5fdouble_3',['quadrangle_other_diagonal_double',['../namespacemeshlib.html#a456facdaf1786e10ef0362ccebfd7999',1,'meshlib']]],
+  ['quadrangle_5fother_5fdiagonal_5ffloat_4',['quadrangle_other_diagonal_float',['../namespacemeshlib.html#a23b4fc43b6770f7882b28e3344376e87',1,'meshlib']]],
+  ['quadratic_5fform_5',['quadratic_form',['../structmeshlib_1_1Mesh.html#a28ab77dec4321320734620d1e5e0153d',1,'meshlib::Mesh::quadratic_form()'],['../namespacemeshlib.html#ace488b5ec3fc9693f96d7c0945d64ef2',1,'meshlib::quadratic_form(topology:&amp;meshlib::MeshTopology, points:&amp;meshlib::VertCoords, v:meshlib::VertId, angleWeigted:bool, region:Option&lt;&amp;meshlib::FaceBitSet &gt;, creases:Option&lt;&amp;meshlib::UndirectedEdgeBitSet &gt;) -&gt; meshlib::Owned&lt; meshlib::QuadraticForm3f &gt;']]],
+  ['quadraticform2d_6',['QuadraticForm2d',['../structmeshlib_1_1QuadraticForm2d.html',1,'meshlib']]],
+  ['quadraticform2f_7',['QuadraticForm2f',['../structmeshlib_1_1QuadraticForm2f.html',1,'meshlib']]],
+  ['quadraticform3d_8',['QuadraticForm3d',['../structmeshlib_1_1QuadraticForm3d.html',1,'meshlib']]],
+  ['quadraticform3f_9',['QuadraticForm3f',['../structmeshlib_1_1QuadraticForm3f.html',1,'meshlib']]],
+  ['quadric_10',['Quadric',['../structmeshlib_1_1RelaxApproxType.html#afac5b4b2968e3bd64ead55ce1f9e41fc',1,'meshlib::RelaxApproxType']]],
+  ['quadricapprox_11',['QuadricApprox',['../structmeshlib_1_1QuadricApprox.html',1,'meshlib']]],
+  ['quarterbit_12',['QuarterBit',['../structmeshlib_1_1QuarterBit.html',1,'meshlib']]],
+  ['quaterniond_13',['Quaterniond',['../structmeshlib_1_1Quaterniond.html',1,'meshlib']]],
+  ['quaternionf_14',['Quaternionf',['../structmeshlib_1_1Quaternionf.html',1,'meshlib']]],
+  ['quaters_5fmask_15',['quaters_mask',['../structmeshlib_1_1VoxelMetricParameters.html#a5f39c20c92a942771a387db57106e001',1,'meshlib::VoxelMetricParameters']]],
+  ['quaters_5fmask_5fmut_16',['quaters_mask_mut',['../structmeshlib_1_1VoxelMetricParameters.html#a2c19471b51c5914ec90b010a3020782c',1,'meshlib::VoxelMetricParameters']]],
+  ['queued_5fedges_17',['queued_edges',['../structmeshlib_1_1DeloneFlipsCache.html#a6d2e7a262076dd725b043d0245cc6f6d',1,'meshlib::DeloneFlipsCache']]],
+  ['queued_5fedges_5fmut_18',['queued_edges_mut',['../structmeshlib_1_1DeloneFlipsCache.html#ac6fca10fa09210bad80180b0965fe531',1,'meshlib::DeloneFlipsCache']]]
+];

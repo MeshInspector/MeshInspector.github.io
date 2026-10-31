@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['inches_0',['inches',['../classmeshlib_1_1LengthUnit.html#a50e2bcea8ddb7a6e16e6863e9be4cceb',1,'meshlib::LengthUnit']]],
+  ['inches2_1',['inches2',['../classmeshlib_1_1AreaUnit.html#adfa01b896c49987321e933662f989960',1,'meshlib::AreaUnit']]],
+  ['inches3_2',['inches3',['../classmeshlib_1_1VolumeUnit.html#af0ec75acd938eaf309942e8e15c7398e',1,'meshlib::VolumeUnit']]],
+  ['inchespersecond_3',['inchesPerSecond',['../classmeshlib_1_1MovementSpeedUnit.html#a5d49c6317a6b31396dc25c91be8de2d3',1,'meshlib::MovementSpeedUnit']]],
+  ['inner_4',['Inner',['../classmeshlib_1_1TunnelLoopType.html#abfa7e4b98fdc6e747247f2d8c2aa99bb',1,'meshlib::TunnelLoopType']]],
+  ['inside_5',['Inside',['../classmeshlib_1_1InSphereResult.html#a0383ae093e681e33f3ac2f1f32966159',1,'meshlib.InSphereResult.Inside'],['../classmeshlib_1_1VolumeSegmenter__SeedType.html#a2f8fe55f6d4807f23b2c48d7b17528a7',1,'meshlib.VolumeSegmenter_SeedType.Inside']]],
+  ['insidea_6',['InsideA',['../classmeshlib_1_1BooleanOperation.html#a92705ce8071b98396786b1dd5041d112',1,'meshlib::BooleanOperation']]],
+  ['insideb_7',['InsideB',['../classmeshlib_1_1BooleanOperation.html#af1e9094680a4f860b5068e878e7043b6',1,'meshlib::BooleanOperation']]],
+  ['int16_8',['Int16',['../classmeshlib_1_1ScalarType.html#a7629db40ff91aa2e1e440d2615ed812b',1,'meshlib::ScalarType']]],
+  ['int32_9',['Int32',['../classmeshlib_1_1ScalarType.html#ac8175728713f65d7a6bdf4fa5aefb491',1,'meshlib::ScalarType']]],
+  ['int64_10',['Int64',['../classmeshlib_1_1ScalarType.html#a13f1dceee9486c04ae91148eec357b47',1,'meshlib::ScalarType']]],
+  ['int8_11',['Int8',['../classmeshlib_1_1ScalarType.html#abc928f4984e032b790436734e8da50d0',1,'meshlib::ScalarType']]],
+  ['internalerror_12',['InternalError',['../classmeshlib_1_1PathError.html#af3f021568501d4d8d641b2c55947ce05',1,'meshlib::PathError']]],
+  ['intersection_13',['Intersection',['../classmeshlib_1_1BooleanOperation.html#a226d86a6da6ba18db047ec933775372a',1,'meshlib::BooleanOperation']]],
+  ['inv_5fcentimeters_14',['inv_centimeters',['../classmeshlib_1_1InvLengthUnit.html#abd6113743b0e5685971037bad89fea78',1,'meshlib::InvLengthUnit']]],
+  ['inv_5ffeet_15',['inv_feet',['../classmeshlib_1_1InvLengthUnit.html#ab70105001cf16845c04fb40107335c30',1,'meshlib::InvLengthUnit']]],
+  ['inv_5finches_16',['inv_inches',['../classmeshlib_1_1InvLengthUnit.html#a4a93078d7d97450521408fd3853b738e',1,'meshlib::InvLengthUnit']]],
+  ['inv_5fmeters_17',['inv_meters',['../classmeshlib_1_1InvLengthUnit.html#a0d7f68157239c7065fa185f218a35ad0',1,'meshlib::InvLengthUnit']]],
+  ['inv_5fmicrons_18',['inv_microns',['../classmeshlib_1_1InvLengthUnit.html#a7fc06a5ac34a4a6af050ba097cde17a5',1,'meshlib::InvLengthUnit']]],
+  ['inv_5fmillimeters_19',['inv_millimeters',['../classmeshlib_1_1InvLengthUnit.html#a761ca33d3be534fd9bfdc2832a33b9bc',1,'meshlib::InvLengthUnit']]],
+  ['invalid_20',['Invalid',['../classmeshlib_1_1OutEdge.html#a497708b9c124285a864cb11ff057829a',1,'meshlib.OutEdge.Invalid'],['../classmeshlib_1_1OutEdge2.html#aa77ebe38f5a3a36029b79d9c8ae2b075',1,'meshlib.OutEdge2.Invalid'],['../classmeshlib_1_1voxelsload_1_1DicomStatusEnum.html#a184c772817f65c301eacbce7e5cce1fe',1,'meshlib.voxelsload.DicomStatusEnum.Invalid']]],
+  ['is_5fwindows_21',['IS_WINDOWS',['../classmeshlib_1_1Ffi.html#a85d3b4aa6b20e7f8eb9810213025950d',1,'meshlib::Ffi']]],
+  ['italic_22',['Italic',['../classmeshlib_1_1SystemPath__SystemFontType.html#ae37188f8e1ef2896111c0dbb0ef00fa8',1,'meshlib::SystemPath_SystemFontType']]]
+];

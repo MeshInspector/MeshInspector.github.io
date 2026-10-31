@@ -1,5 +1,7 @@
 var NAVTREEINDEX144 =
 {
+"classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a1dd4ffc03879fa4a6b686ed1c9cf9cd2":[9,1,0,0,2,1349,5],
+"classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a1dd4ffc03879fa4a6b686ed1c9cf9cd2":[9,1,1,0,1,1349,5],
 "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a488e45bd49eabe14f59471432ede74d2":[9,1,0,0,2,1349,2],
 "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a488e45bd49eabe14f59471432ede74d2":[9,1,1,0,1,1349,2],
 "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a77a529aea7ee0e8acb3c222afdb13418":[9,1,0,0,2,1349,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX144 =
 "classmrmeshpy_1_1WeightedShell_1_1ParametersRegions.html#a6203bae570bab9b72ef521e30a95b5f0":[9,1,0,0,2,1360,3,3],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersRegions.html#a6203bae570bab9b72ef521e30a95b5f0":[9,1,1,0,1,1360,3,3],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersRegions.html#a98f343b31ab6c9128353a041b2b4e940":[9,1,0,0,2,1360,3,8],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersRegions.html#a98f343b31ab6c9128353a041b2b4e940":[9,1,1,0,1,1360,3,8],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersRegions.html#aba285fd77b5dcb6647e1e5f3c1963030":[9,1,0,0,2,1360,3,6],
-"classmrmeshpy_1_1WeightedShell_1_1ParametersRegions.html#aba285fd77b5dcb6647e1e5f3c1963030":[9,1,1,0,1,1360,3,6]
+"classmrmeshpy_1_1WeightedShell_1_1ParametersRegions.html#a98f343b31ab6c9128353a041b2b4e940":[9,1,1,0,1,1360,3,8]
 };

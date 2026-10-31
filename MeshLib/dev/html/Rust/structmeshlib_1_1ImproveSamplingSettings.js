@@ -1,0 +1,28 @@
+var structmeshlib_1_1ImproveSamplingSettings =
+[
+    [ "assign_from_another", "structmeshlib_1_1ImproveSamplingSettings.html#ad633f4364fe72b19336e758c6efaf8a7", null ],
+    [ "cloud_of_samples", "structmeshlib_1_1ImproveSamplingSettings.html#ade6e16ea06f1c1fa7cf385e644269cb9", null ],
+    [ "cloud_of_samples_mut", "structmeshlib_1_1ImproveSamplingSettings.html#a56b249e2902c9717f6fd6a6859a8c376", null ],
+    [ "min_points_in_sample", "structmeshlib_1_1ImproveSamplingSettings.html#a7bbed00bd4a807406727477df2547ff4", null ],
+    [ "min_points_in_sample_mut", "structmeshlib_1_1ImproveSamplingSettings.html#a00ba5e203fb52102126afbb7f090f6d0", null ],
+    [ "num_iters", "structmeshlib_1_1ImproveSamplingSettings.html#a6f3b97743b66bb45850d2c41f508506b", null ],
+    [ "num_iters_mut", "structmeshlib_1_1ImproveSamplingSettings.html#a71bc754000eebef1c0c1d95a2c72d935", null ],
+    [ "progress", "structmeshlib_1_1ImproveSamplingSettings.html#af108624007e0e1d6a7684fe5c8f5d777", null ],
+    [ "progress_mut", "structmeshlib_1_1ImproveSamplingSettings.html#a17daf94f88011916d75990c00c1c58d2", null ],
+    [ "pt2sm", "structmeshlib_1_1ImproveSamplingSettings.html#a4dec390ceb3ca41fdea6ae63aea39eed", null ],
+    [ "pt2sm_mut", "structmeshlib_1_1ImproveSamplingSettings.html#aaca376717566f2a97211a7048363ac5f", null ],
+    [ "pt_colors", "structmeshlib_1_1ImproveSamplingSettings.html#acbb7d46b6aa71be879a2eff733a9b8ef", null ],
+    [ "pt_colors_mut", "structmeshlib_1_1ImproveSamplingSettings.html#a6345ad56ff408f948bc965f6865ac17b", null ],
+    [ "pts_in_sm", "structmeshlib_1_1ImproveSamplingSettings.html#a9747ce35891e8333b41de59777ea5ed7", null ],
+    [ "pts_in_sm_mut", "structmeshlib_1_1ImproveSamplingSettings.html#afc67a73fb84cbc4d3103c57e402302c0", null ],
+    [ "set_cloud_of_samples", "structmeshlib_1_1ImproveSamplingSettings.html#a7d54d8d239449446d695efe5fd15b25d", null ],
+    [ "set_min_points_in_sample", "structmeshlib_1_1ImproveSamplingSettings.html#a7f1fabf76ec4ab6c6b86950e4150be66", null ],
+    [ "set_num_iters", "structmeshlib_1_1ImproveSamplingSettings.html#a653e2093bc56d77b52e829d1727e5855", null ],
+    [ "set_progress", "structmeshlib_1_1ImproveSamplingSettings.html#abca71ac5e53adbab43030bca0b780491", null ],
+    [ "set_pt2sm", "structmeshlib_1_1ImproveSamplingSettings.html#a7be5ff21443d903c370956f10b0dce73", null ],
+    [ "set_pt_colors", "structmeshlib_1_1ImproveSamplingSettings.html#a6867e30b32cb349d5888301201d00849", null ],
+    [ "set_pts_in_sm", "structmeshlib_1_1ImproveSamplingSettings.html#a5847714247fd972fc0a8de850490dc3c", null ],
+    [ "set_sm_colors", "structmeshlib_1_1ImproveSamplingSettings.html#a4eccb36ec0d904711096b90c066ca6e0", null ],
+    [ "sm_colors", "structmeshlib_1_1ImproveSamplingSettings.html#a3b5ba14e22e6921f7927378f3f8e83b5", null ],
+    [ "sm_colors_mut", "structmeshlib_1_1ImproveSamplingSettings.html#adaa9b2825a464d98d34329250c4cffa5", null ]
+];

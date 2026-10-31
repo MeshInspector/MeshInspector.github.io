@@ -55,6 +55,7 @@ var NAVTREEINDEX0 =
 "../HowtoAddPluginOverview.html":[8,8],
 "../I18nGuide.html":[8,9],
 "../InstallationGuide.html":[2],
+"../Java/APIJavaPage.html":[9,6],
 "../License.html":[3],
 "../MeshLibCSetupGuide.html":[2,3],
 "../MeshLibCSharpSetupGuide.html":[2,2],
@@ -67,6 +68,7 @@ var NAVTREEINDEX0 =
 "../MeshStructureOverview.html":[8,1],
 "../PackageOverview.html":[8],
 "../Py/APIPyPage.html":[9,1],
+"../Rust/APIRustPage.html":[9,5],
 "../SpacesHelp.html":[8,5],
 "../StatePluginsHelp.html":[8,7],
 "../SupportGeneratorTutorial.html":[5,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "bindings_8d_8mts.html#ad995f406d908cf33a64c3a0da079f906aed3fa7a5efe80dad3ea3d86cc14be246":[9,4,1,0,0,1,0,0,0,103,0],
 "bindings_8d_8mts.html#adc51dd372beff52bc132f17856d64bc1":[9,4,1,0,0,1,0,0,0,131],
 "bindings_8d_8mts.html#adcd3bd814b821c7862bf08d761663b0e":[9,4,1,0,0,1,0,0,0,163],
-"bindings_8d_8mts.html#adfd61662143c1f0975c634c01a12664c":[9,4,1,0,0,1,0,0,0,190],
-"bindings_8d_8mts.html#ae2484d55c1489c3f2a654987ffbf5243":[9,4,1,0,0,1,0,0,0,124],
-"bindings_8d_8mts.html#ae4b973fcfa520ece361141bc0be236dd":[9,4,1,0,0,1,0,0,0,159]
+"bindings_8d_8mts.html#adfd61662143c1f0975c634c01a12664c":[9,4,1,0,0,1,0,0,0,190]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"MREdgePoint_8h.html#aa9ab10321b3da3cad679de771affbf97":[9,2,2,0,0,0,0,1,88,82],
+"MREdgePoint_8h.html#aae76ac0dc0d0f9d5fc3ee806d76e17a8":[9,2,2,0,0,0,0,1,88,8],
 "MREdgePoint_8h.html#aaef33d91e988484794a2c4089b54d9a4":[9,2,2,0,0,0,0,1,88,57],
 "MREdgePoint_8h.html#aaf5dc497a60e7df67f09cb858520feea":[9,2,2,0,0,0,0,1,88,60],
 "MREdgePoint_8h.html#aafc371ed1f0d5bb58617c696c03a2631":[9,2,2,0,0,0,0,1,88,81],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "MRFaceDistance_8h.html":[9,2,2,0,0,0,0,1,95],
 "MRFaceDistance_8h.html#a02f69586da90ee4568be1ec6bfe59715":[9,2,2,0,0,0,0,1,95,13],
 "MRFaceDistance_8h.html#a0ca06fbda274cd6d519c4abb05952cfc":[9,2,2,0,0,0,0,1,95,5],
-"MRFaceDistance_8h.html#a2a5f7633ba91b2f78a704f9b86ac7311":[9,2,2,0,0,0,0,1,95,14],
-"MRFaceDistance_8h.html#a351d735da02859f068fe8030c4267063":[9,2,2,0,0,0,0,1,95,16],
-"MRFaceDistance_8h.html#a418b0a8654c8638bc43f1f6e2fdf6e09":[9,2,2,0,0,0,0,1,95,1]
+"MRFaceDistance_8h.html#a2a5f7633ba91b2f78a704f9b86ac7311":[9,2,2,0,0,0,0,1,95,14]
 };

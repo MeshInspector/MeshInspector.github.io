@@ -55,6 +55,7 @@ var NAVTREEINDEX0 =
 "../HowtoAddPluginOverview.html":[8,8],
 "../I18nGuide.html":[8,9],
 "../InstallationGuide.html":[2],
+"../Java/APIJavaPage.html":[9,6],
 "../Js/APIJsPage.html":[9,4],
 "../License.html":[3],
 "../MeshLibCSetupGuide.html":[2,3],
@@ -67,6 +68,7 @@ var NAVTREEINDEX0 =
 "../MeshLibRustSetupGuide.html":[2,5],
 "../MeshStructureOverview.html":[8,1],
 "../PackageOverview.html":[8],
+"../Rust/APIRustPage.html":[9,5],
 "../SpacesHelp.html":[8,5],
 "../StatePluginsHelp.html":[8,7],
 "../SupportGeneratorTutorial.html":[5,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#aeaf38f0c152c5d740dcef48e686f8b31":[9,1,0,0,2,2,8],
 "classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#aeaf38f0c152c5d740dcef48e686f8b31":[9,1,1,0,1,2,8],
 "classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#af5ea0de53a67b6c8d78de484d1e7a58a":[9,1,0,0,2,2,4],
-"classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#af5ea0de53a67b6c8d78de484d1e7a58a":[9,1,1,0,1,2,4],
-"classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f.html":[9,1,0,0,2,3],
-"classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f.html":[9,1,1,0,1,3]
+"classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#af5ea0de53a67b6c8d78de484d1e7a58a":[9,1,1,0,1,2,4]
 };

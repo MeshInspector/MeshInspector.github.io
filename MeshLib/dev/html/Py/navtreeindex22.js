@@ -1,5 +1,7 @@
 var NAVTREEINDEX22 =
 {
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a10843fd7eae321de8d80242400822abb":[9,1,0,0,2,204,20],
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a10843fd7eae321de8d80242400822abb":[9,1,1,0,1,204,20],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a1954be2bafef9894b17b366d6e72b98f":[9,1,0,0,2,204,0],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a1954be2bafef9894b17b366d6e72b98f":[9,1,1,0,1,204,0],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a1da7c84d1ee2a0da491b29d0d6b16251":[9,1,0,0,2,204,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "classmrmeshpy_1_1DeloneFlipsCache.html#a81164fa072cdf40e88ab31212249bf9d":[9,1,0,0,2,208,4],
 "classmrmeshpy_1_1DeloneFlipsCache.html#a81164fa072cdf40e88ab31212249bf9d":[9,1,1,0,1,208,4],
 "classmrmeshpy_1_1DeloneFlipsCache.html#aa2113abc94a717e317348a9d8425cae8":[9,1,0,0,2,208,1],
-"classmrmeshpy_1_1DeloneFlipsCache.html#aa2113abc94a717e317348a9d8425cae8":[9,1,1,0,1,208,1],
-"classmrmeshpy_1_1DeloneFlipsCache.html#aac875f7f72111d1cee03d564dd9b5cf9":[9,1,0,0,2,208,9],
-"classmrmeshpy_1_1DeloneFlipsCache.html#aac875f7f72111d1cee03d564dd9b5cf9":[9,1,1,0,1,208,9]
+"classmrmeshpy_1_1DeloneFlipsCache.html#aa2113abc94a717e317348a9d8425cae8":[9,1,1,0,1,208,1]
 };

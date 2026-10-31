@@ -1,5 +1,7 @@
 var NAVTREEINDEX102 =
 {
+"classMR_1_1EdgePathsAStarBuilder.html#af0e220e96205306e292fe51beed7f1c1":[9,3,0,0,0,1195,7],
+"classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html":[9,3,0,0,0,1196],
 "classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#a0f7672b51dc66680769419d1a449d653":[9,3,0,0,0,1196,4],
 "classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#a42e68bad3ce457a9b1ece2c2fa7bc031":[9,3,0,0,0,1196,2],
 "classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#a77b75d46e539971e4b2c551f9084eadd":[9,3,0,0,0,1196,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX102 =
 "classMR_1_1FaceBitSet.html#a0d42f8c55c7399b1705e3140f880dad3":[9,3,0,0,0,1215,27],
 "classMR_1_1FaceBitSet.html#a1794b6bca4e956cbb9946bbc97d987d3":[9,3,0,0,0,1215,7],
 "classMR_1_1FaceBitSet.html#a1a4de293f9ffee24fcbbe86403c8b0de":[9,3,0,0,0,1215,36],
-"classMR_1_1FaceBitSet.html#a1e89689e53ea522d8a6bf596d5c56970":[9,3,0,0,0,1215,14],
-"classMR_1_1FaceBitSet.html#a210ec37ee507bb419c7b0d80e075d2fc":[9,3,0,0,0,1215,20],
-"classMR_1_1FaceBitSet.html#a223a5c6384ed0a5ec9f767ccde3b33dd":[9,3,0,0,0,1215,34]
+"classMR_1_1FaceBitSet.html#a1e89689e53ea522d8a6bf596d5c56970":[9,3,0,0,0,1215,14]
 };

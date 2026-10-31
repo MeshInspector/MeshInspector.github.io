@@ -1,5 +1,7 @@
 var NAVTREEINDEX142 =
 {
+"classmrmeshpy_1_1VoxelBitSet.html#a7b08296775a9cd080756bb4679ae2102":[9,1,0,0,2,1337,9],
+"classmrmeshpy_1_1VoxelBitSet.html#a7b08296775a9cd080756bb4679ae2102":[9,1,1,0,1,1337,9],
 "classmrmeshpy_1_1VoxelBitSet.html#a81e75610dc6c17d08d748e576f742d14":[9,1,0,0,2,1337,17],
 "classmrmeshpy_1_1VoxelBitSet.html#a81e75610dc6c17d08d748e576f742d14":[9,1,1,0,1,1337,17],
 "classmrmeshpy_1_1VoxelBitSet.html#a83c487bc0b245d25c78eb4c9a643434b":[9,1,0,0,2,1337,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX142 =
 "classmrmeshpy_1_1VoxelScalars.html#ad0ee674d9b235b2df1650c589ba8c50c":[9,1,0,0,2,1342,17],
 "classmrmeshpy_1_1VoxelScalars.html#ad0ee674d9b235b2df1650c589ba8c50c":[9,1,0,0,2,1342,18],
 "classmrmeshpy_1_1VoxelScalars.html#ad0ee674d9b235b2df1650c589ba8c50c":[9,1,1,0,1,1342,17],
-"classmrmeshpy_1_1VoxelScalars.html#ad0ee674d9b235b2df1650c589ba8c50c":[9,1,1,0,1,1342,18],
-"classmrmeshpy_1_1VoxelScalars.html#ad6e72a06dd570af18accd0c19978f016":[9,1,0,0,2,1342,13],
-"classmrmeshpy_1_1VoxelScalars.html#ad6e72a06dd570af18accd0c19978f016":[9,1,1,0,1,1342,13]
+"classmrmeshpy_1_1VoxelScalars.html#ad0ee674d9b235b2df1650c589ba8c50c":[9,1,1,0,1,1342,18]
 };

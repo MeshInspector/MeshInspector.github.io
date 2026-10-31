@@ -1,0 +1,4 @@
+var std__shared__ptr__MR__VersatileChangeMeshPointsAction_8java =
+[
+    [ "meshlib.std_shared_ptr_MR_VersatileChangeMeshPointsAction", "classmeshlib_1_1std__shared__ptr__MR__VersatileChangeMeshPointsAction.html", "classmeshlib_1_1std__shared__ptr__MR__VersatileChangeMeshPointsAction" ]
+];

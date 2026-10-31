@@ -1,0 +1,4 @@
+var structmeshlib_1_1VoxelTraits__std__function__unsigned__char__func__from__const__MR__Vector3i__ref =
+[
+    [ "assign_from_another", "structmeshlib_1_1VoxelTraits__std__function__unsigned__char__func__from__const__MR__Vector3i__ref.html#a1a40889a1a772e0546e350edd95e92c4", null ]
+];

@@ -1,0 +1,25 @@
+var MRMeshSave_8rs =
+[
+    [ "meshlib::mesh_save::BinaryStlSaver", "structmeshlib_1_1mesh__save_1_1BinaryStlSaver.html", "structmeshlib_1_1mesh__save_1_1BinaryStlSaver" ],
+    [ "meshlib::mesh_save::to3mf", "namespacemeshlib_1_1mesh__save.html#aec860f88f6a85fbea8724ced549ea2cf", null ],
+    [ "meshlib::mesh_save::to_any_supported_format", "namespacemeshlib_1_1mesh__save.html#ac090a26673af2c00c914cad5e3ee2d78", null ],
+    [ "meshlib::mesh_save::to_any_supported_format_stream", "namespacemeshlib_1_1mesh__save.html#aed62650f3a8fcbb7f8704f99eea33f96", null ],
+    [ "meshlib::mesh_save::to_ascii_stl_std_filesystem_path", "namespacemeshlib_1_1mesh__save.html#a5a6900509456b6798be242267779a154", null ],
+    [ "meshlib::mesh_save::to_ascii_stl_std_ostream", "namespacemeshlib_1_1mesh__save.html#a7db4ebaa156271db7ef4a0afdcd001c8", null ],
+    [ "meshlib::mesh_save::to_binary_stl_std_filesystem_path", "namespacemeshlib_1_1mesh__save.html#ae3b5e95370839b71eed44979fd0244fe", null ],
+    [ "meshlib::mesh_save::to_binary_stl_std_ostream", "namespacemeshlib_1_1mesh__save.html#a789531efb25401ee8ee056d2a12e3e47", null ],
+    [ "meshlib::mesh_save::to_model3mf_std_filesystem_path", "namespacemeshlib_1_1mesh__save.html#a869df28c1e90bfb09562e2ab164e029f", null ],
+    [ "meshlib::mesh_save::to_model3mf_std_ostream", "namespacemeshlib_1_1mesh__save.html#a189419547606ef4075a6c2e8b7c35672", null ],
+    [ "meshlib::mesh_save::to_mrmesh_std_filesystem_path", "namespacemeshlib_1_1mesh__save.html#aa5b2a35cc1d2a743e35eb851213aec8b", null ],
+    [ "meshlib::mesh_save::to_mrmesh_std_ostream", "namespacemeshlib_1_1mesh__save.html#ae2457cb858ad1b85ed38be2cef3f7f8b", null ],
+    [ "meshlib::mesh_save::to_obj_3_std_filesystem_path", "namespacemeshlib_1_1mesh__save.html#a8ecd3d9e1d3b1c8799734d16b3b76744", null ],
+    [ "meshlib::mesh_save::to_obj_3_std_ostream", "namespacemeshlib_1_1mesh__save.html#a7b29047956d7d5df67b85375f2578226", null ],
+    [ "meshlib::mesh_save::to_obj_4_std_filesystem_path", "namespacemeshlib_1_1mesh__save.html#a32a51cc17e8a7f09c132044ae44b47c3", null ],
+    [ "meshlib::mesh_save::to_obj_4_std_ostream", "namespacemeshlib_1_1mesh__save.html#a096daf83cec7ed1a8ddd8fa24d66e1f9", null ],
+    [ "meshlib::mesh_save::to_off_std_filesystem_path", "namespacemeshlib_1_1mesh__save.html#ad530b9985a83c494d0ceed18fda7ead4", null ],
+    [ "meshlib::mesh_save::to_off_std_ostream", "namespacemeshlib_1_1mesh__save.html#af5923bd2208bcdd5c33311a2acf5572b", null ],
+    [ "meshlib::mesh_save::to_ply_const_mr_mesh_ref_std_filesystem_path", "namespacemeshlib_1_1mesh__save.html#a8af7c4366f78863c4c7667f1c3cb2942", null ],
+    [ "meshlib::mesh_save::to_ply_const_mr_mesh_ref_std_ostream", "namespacemeshlib_1_1mesh__save.html#aa9f553324c240bd3b2a3e61b8d6a6fed", null ],
+    [ "meshlib::mesh_save::to_ply_const_mr_tri_mesh_ref_std_filesystem_path", "namespacemeshlib_1_1mesh__save.html#a56bc1a63307892bae9de53391101f26c", null ],
+    [ "meshlib::mesh_save::to_ply_const_mr_tri_mesh_ref_std_ostream", "namespacemeshlib_1_1mesh__save.html#adca7cd8066bacbcc985bbbe8334e142a", null ]
+];

@@ -1,5 +1,7 @@
 var NAVTREEINDEX201 =
 {
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad.html#a4a0554222dc012071f78b25137df06ff":[9,1,0,0,2,1101,11],
+"classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad.html#a4a0554222dc012071f78b25137df06ff":[9,1,1,0,1,1101,11],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad.html#a56758ac35ae4fdb46c4dab6e94084407":[9,1,0,0,2,1101,6],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad.html#a56758ac35ae4fdb46c4dab6e94084407":[9,1,1,0,1,1101,6],
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vectorc2b5eef6e9807f5f11e1e4080000f5ad.html#a568bf428b4febbdd026914de39665731":[9,1,0,0,2,1101,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX201 =
 "classmrmeshpy_1_1std__vector__unsigned__short__Allocator__unsigned__short.html#a5057c9825a8f7515feb9b2307cc0e0d2":[9,1,0,0,2,1115,5],
 "classmrmeshpy_1_1std__vector__unsigned__short__Allocator__unsigned__short.html#a5057c9825a8f7515feb9b2307cc0e0d2":[9,1,1,0,1,1115,5],
 "classmrmeshpy_1_1std__vector__unsigned__short__Allocator__unsigned__short.html#a5a46091e89f3f500a531a14414c04ffd":[9,1,0,0,2,1115,18],
-"classmrmeshpy_1_1std__vector__unsigned__short__Allocator__unsigned__short.html#a5a46091e89f3f500a531a14414c04ffd":[9,1,1,0,1,1115,18],
-"classmrmeshpy_1_1std__vector__unsigned__short__Allocator__unsigned__short.html#a5ef9ca20485e05042ecf3ede0049e2b4":[9,1,0,0,2,1115,24],
-"classmrmeshpy_1_1std__vector__unsigned__short__Allocator__unsigned__short.html#a5ef9ca20485e05042ecf3ede0049e2b4":[9,1,1,0,1,1115,24]
+"classmrmeshpy_1_1std__vector__unsigned__short__Allocator__unsigned__short.html#a5a46091e89f3f500a531a14414c04ffd":[9,1,1,0,1,1115,18]
 };

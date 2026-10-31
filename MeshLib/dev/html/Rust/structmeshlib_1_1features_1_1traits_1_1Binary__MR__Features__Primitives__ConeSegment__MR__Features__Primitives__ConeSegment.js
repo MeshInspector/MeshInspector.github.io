@@ -1,0 +1,5 @@
+var structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__ConeSegment =
+[
+    [ "assign_from_another", "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__ConeSegment.html#a964781450951aa939c499d46f84bb396", null ],
+    [ "measure", "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__ConeSegment.html#ac67604413dceea01f6893a98e23ff91d", null ]
+];

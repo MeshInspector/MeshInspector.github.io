@@ -234,5 +234,7 @@ var menudata={children:[
 {text:"t",url:"globals_eval.html#index_t"},
 {text:"u",url:"globals_eval.html#index_u"},
 {text:"w",url:"globals_eval.html#index_w"},
-{text:"y",url:"globals_eval.html#index_y"}]}]}]}]}]},
+{text:"y",url:"globals_eval.html#index_y"}]}]}]}]},
+{text:"Rust",url:"../Rust/APIRustPage.html"},
+{text:"Java",url:"../Java/APIJavaPage.html"}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

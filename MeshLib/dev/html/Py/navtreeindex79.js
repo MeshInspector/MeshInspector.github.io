@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"classmrmeshpy_1_1PixelBitSet.html#ac6197f2b8025d64fbf8c0039dad9d4ff":[9,1,0,0,2,732,2],
+"classmrmeshpy_1_1PixelBitSet.html#ac6197f2b8025d64fbf8c0039dad9d4ff":[9,1,0,0,2,732,3],
 "classmrmeshpy_1_1PixelBitSet.html#ac6197f2b8025d64fbf8c0039dad9d4ff":[9,1,1,0,1,732,2],
 "classmrmeshpy_1_1PixelBitSet.html#ac6197f2b8025d64fbf8c0039dad9d4ff":[9,1,1,0,1,732,3],
 "classmrmeshpy_1_1PixelBitSet.html#ac8fe538acd7f39cb0ff1ebcdce662b01":[9,1,0,0,2,732,45],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "classmrmeshpy_1_1Plane3d.html#ae0ac72b6866b28843c67a674889c16d6":[9,1,0,0,2,736,9],
 "classmrmeshpy_1_1Plane3d.html#ae0ac72b6866b28843c67a674889c16d6":[9,1,1,0,1,736,9],
 "classmrmeshpy_1_1Plane3d.html#ae7be54f300aa350bfc0db5249ce73d39":[9,1,0,0,2,736,11],
-"classmrmeshpy_1_1Plane3d.html#ae7be54f300aa350bfc0db5249ce73d39":[9,1,1,0,1,736,11],
-"classmrmeshpy_1_1Plane3f.html":[9,1,0,0,2,737],
-"classmrmeshpy_1_1Plane3f.html":[9,1,1,0,1,737]
+"classmrmeshpy_1_1Plane3d.html#ae7be54f300aa350bfc0db5249ce73d39":[9,1,1,0,1,736,11]
 };

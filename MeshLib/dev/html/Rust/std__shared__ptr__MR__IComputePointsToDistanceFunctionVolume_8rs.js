@@ -1,0 +1,4 @@
+var std__shared__ptr__MR__IComputePointsToDistanceFunctionVolume_8rs =
+[
+    [ "meshlib::std_shared_ptr_MR_IComputePointsToDistanceFunctionVolume", "structmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceFunctionVolume.html", "structmeshlib_1_1std__shared__ptr__MR__IComputePointsToDistanceFunctionVolume" ]
+];

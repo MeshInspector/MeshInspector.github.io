@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"classmrmeshpy_1_1FindProjectionOnPointsSettings.html#adf06b936d2328e00a07fe67e12d8670a":[9,1,0,0,2,302,5],
+"classmrmeshpy_1_1FindProjectionOnPointsSettings.html#adf06b936d2328e00a07fe67e12d8670a":[9,1,1,0,1,302,5],
 "classmrmeshpy_1_1FixCreasesParams.html":[9,1,0,0,2,303],
 "classmrmeshpy_1_1FixCreasesParams.html":[9,1,1,0,1,303],
 "classmrmeshpy_1_1FixCreasesParams.html#a20ed74f8822c61a2229409bb39f0c055":[9,1,0,0,2,303,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "classmrmeshpy_1_1FlowAggregator.html#a033390cad38f30f9513144b5f1e9b141":[9,1,0,0,2,310,7],
 "classmrmeshpy_1_1FlowAggregator.html#a033390cad38f30f9513144b5f1e9b141":[9,1,1,0,1,310,7],
 "classmrmeshpy_1_1FlowAggregator.html#a085847a42b39cf0cca1785e84208d85a":[9,1,0,0,2,310,2],
-"classmrmeshpy_1_1FlowAggregator.html#a085847a42b39cf0cca1785e84208d85a":[9,1,1,0,1,310,2],
-"classmrmeshpy_1_1FlowAggregator.html#a16fa49d4d8bb4ba250cdf447315bdec2":[9,1,0,0,2,310,9],
-"classmrmeshpy_1_1FlowAggregator.html#a16fa49d4d8bb4ba250cdf447315bdec2":[9,1,1,0,1,310,9]
+"classmrmeshpy_1_1FlowAggregator.html#a085847a42b39cf0cca1785e84208d85a":[9,1,1,0,1,310,2]
 };

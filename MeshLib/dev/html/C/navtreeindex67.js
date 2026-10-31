@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"MRMeshTopology_8h.html#a708caf6930268f3a0a1da7bf58e69cfe":[9,2,2,0,0,0,0,1,212,117],
+"MRMeshTopology_8h.html#a70993e71a530fcb497fca213a5a90b70":[9,2,2,0,0,0,0,1,212,24],
 "MRMeshTopology_8h.html#a714461026b32bec374835052319e7cf8":[9,2,2,0,0,0,0,1,212,15],
 "MRMeshTopology_8h.html#a73d163898fff3a9677b56151e186df53":[9,2,2,0,0,0,0,1,212,70],
 "MRMeshTopology_8h.html#a7453f57ba6bc398dbf30bca44ab58894":[9,2,2,0,0,0,0,1,212,133],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "MRMeshTrimWithPlane_8h.html#a5e47f1f9f86ea5787e0f543a8cccd83d":[9,2,2,0,0,0,0,1,215,49],
 "MRMeshTrimWithPlane_8h.html#a617f57058bc560d18faf7e059ea0f4e3":[9,2,2,0,0,0,0,1,215,0],
 "MRMeshTrimWithPlane_8h.html#a68d4241349e3711414c222b45e11acd3":[9,2,2,0,0,0,0,1,215,18],
-"MRMeshTrimWithPlane_8h.html#a6aa78bc3bdb3fb554d0efa0cfc36042f":[9,2,2,0,0,0,0,1,215,43],
-"MRMeshTrimWithPlane_8h.html#a6bdb368453da248f51c646a2f34c13af":[9,2,2,0,0,0,0,1,215,14],
-"MRMeshTrimWithPlane_8h.html#a6c9a85584b59489e49014a1e02f6a866":[9,2,2,0,0,0,0,1,215,35]
+"MRMeshTrimWithPlane_8h.html#a6aa78bc3bdb3fb554d0efa0cfc36042f":[9,2,2,0,0,0,0,1,215,43]
 };

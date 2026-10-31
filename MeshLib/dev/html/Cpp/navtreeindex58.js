@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"group__MeshNormalsGroup.html#ga22889800cd6e0b2ebbc550783da6eff7":[9,0,0,9,5,5],
+"group__MeshNormalsGroup.html#ga59217bfc441b57736e20fa4c8b136c1f":[9,0,0,9,5,1],
 "group__MeshNormalsGroup.html#ga5ae37093c97fac3f5b66734fa5b1a13f":[9,0,0,9,5,8],
 "group__MeshNormalsGroup.html#ga7b42ab138289c2be7e30986671f2a773":[9,0,0,9,5,7],
 "group__MeshNormalsGroup.html#ga825d07f824fb53d09c6b1bef59a494fa":[9,0,0,9,5,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "group__SurfacePathGroup.html#ga4d9b525e2a13c59a961a8c19c0241cf5":[9,0,0,15,44],
 "group__SurfacePathGroup.html#ga4d9b525e2a13c59a961a8c19c0241cf5":[9,0,0,19,3001],
 "group__SurfacePathGroup.html#ga4e42be093ad0a3c2093cbfe41a7fc8e4":[9,0,0,15,43],
-"group__SurfacePathGroup.html#ga4e42be093ad0a3c2093cbfe41a7fc8e4":[9,0,0,19,2944],
-"group__SurfacePathGroup.html#ga4f1c56a182b9fcbe7dd9cab5564473dd":[9,0,0,15,20],
-"group__SurfacePathGroup.html#ga4f1c56a182b9fcbe7dd9cab5564473dd":[9,0,0,19,2668]
+"group__SurfacePathGroup.html#ga4e42be093ad0a3c2093cbfe41a7fc8e4":[9,0,0,19,2944]
 };

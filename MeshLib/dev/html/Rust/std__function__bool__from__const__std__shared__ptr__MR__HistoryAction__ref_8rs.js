@@ -1,0 +1,4 @@
+var std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8rs =
+[
+    [ "meshlib::std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref", "structmeshlib_1_1std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref.html", "structmeshlib_1_1std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref" ]
+];

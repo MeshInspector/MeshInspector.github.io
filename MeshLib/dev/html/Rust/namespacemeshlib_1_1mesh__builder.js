@@ -1,0 +1,26 @@
+var namespacemeshlib_1_1mesh__builder =
+[
+    [ "BuildSettings", "structmeshlib_1_1mesh__builder_1_1BuildSettings.html", "structmeshlib_1_1mesh__builder_1_1BuildSettings" ],
+    [ "equalVector3f", "structmeshlib_1_1mesh__builder_1_1equalVector3f.html", "structmeshlib_1_1mesh__builder_1_1equalVector3f" ],
+    [ "MeshPiece", "structmeshlib_1_1mesh__builder_1_1MeshPiece.html", "structmeshlib_1_1mesh__builder_1_1MeshPiece" ],
+    [ "Triangle", "structmeshlib_1_1mesh__builder_1_1Triangle.html", "structmeshlib_1_1mesh__builder_1_1Triangle" ],
+    [ "UniteCloseParams", "structmeshlib_1_1mesh__builder_1_1UniteCloseParams.html", "structmeshlib_1_1mesh__builder_1_1UniteCloseParams" ],
+    [ "VertDuplication", "structmeshlib_1_1mesh__builder_1_1VertDuplication.html", "structmeshlib_1_1mesh__builder_1_1VertDuplication" ],
+    [ "VertexIdentifier", "structmeshlib_1_1mesh__builder_1_1VertexIdentifier.html", "structmeshlib_1_1mesh__builder_1_1VertexIdentifier" ],
+    [ "VertInfo", "structmeshlib_1_1mesh__builder_1_1VertInfo.html", "structmeshlib_1_1mesh__builder_1_1VertInfo" ],
+    [ "VertSpan", "structmeshlib_1_1mesh__builder_1_1VertSpan.html", "structmeshlib_1_1mesh__builder_1_1VertSpan" ],
+    [ "VertTri", "structmeshlib_1_1mesh__builder_1_1VertTri.html", "structmeshlib_1_1mesh__builder_1_1VertTri" ],
+    [ "add_triangles_mr_triangulation", "namespacemeshlib_1_1mesh__builder.html#a25ff70ba2ac6cc84532b6d5a40c67af2", null ],
+    [ "add_triangles_std_vector_mr_vert_id", "namespacemeshlib_1_1mesh__builder.html#a0c303b966f7fb9cefc6a8380aa30eded", null ],
+    [ "compute_triangles_repetitions", "namespacemeshlib_1_1mesh__builder.html#adfd83b0928b4943cea170f7ec905f839", null ],
+    [ "duplicate_non_manifold_vertices", "namespacemeshlib_1_1mesh__builder.html#ac86ef6c3131a6f6d2071246ebced5fa8", null ],
+    [ "from_disjoint_mesh_pieces", "namespacemeshlib_1_1mesh__builder.html#a828c7062f6ed5dc0c2bbec4c8a8c1b19", null ],
+    [ "from_face_soup", "namespacemeshlib_1_1mesh__builder.html#ac6cda19597a0a01be51932cdcb843fc6", null ],
+    [ "from_point_triples", "namespacemeshlib_1_1mesh__builder.html#a4785b260dc50e9991e6459970869e2b5", null ],
+    [ "from_triangles", "namespacemeshlib_1_1mesh__builder.html#a0417ef060d3d7f28bb5d5af67ac62e52", null ],
+    [ "from_triangles_duplicating_non_manifold_vertices", "namespacemeshlib_1_1mesh__builder.html#a7f83cfdc867c41269ef8b1ea7c836ff1", null ],
+    [ "inspect_vert_neighbourhood", "namespacemeshlib_1_1mesh__builder.html#ae47d022f5a5644ed18149b4728ec8904", null ],
+    [ "op_less_mr_mesh_builder_vert_tri", "namespacemeshlib_1_1mesh__builder.html#a8839882d682b6c38a8ff99dd4fa5b7d5", null ],
+    [ "unite_close_vertices", "namespacemeshlib_1_1mesh__builder.html#a9f0b360ace03ec1d6ec8cb8ee970a145", null ],
+    [ "unite_close_vertices_dist", "namespacemeshlib_1_1mesh__builder.html#ae72f4829f40e9e752dfeb19ae603286e", null ]
+];

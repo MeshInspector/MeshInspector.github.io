@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"classmrmeshpy_1_1CutByProjectionSettings.html#adbb807633393e6e798e6171ca3466c07":[9,1,0,0,2,195,6],
+"classmrmeshpy_1_1CutByProjectionSettings.html#adbb807633393e6e798e6171ca3466c07":[9,1,1,0,1,195,6],
 "classmrmeshpy_1_1CutMeshParameters.html":[9,1,0,0,2,196],
 "classmrmeshpy_1_1CutMeshParameters.html":[9,1,1,0,1,196],
 "classmrmeshpy_1_1CutMeshParameters.html#a04613172b68beebca1e18a7851f820bc":[9,1,0,0,2,196,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a0cfae42939e31423ba151140b73e8696":[9,1,0,0,2,204,8],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a0cfae42939e31423ba151140b73e8696":[9,1,1,0,1,204,8],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a106ce46e774efd7e504b9d3335f56eb3":[9,1,0,0,2,204,12],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a106ce46e774efd7e504b9d3335f56eb3":[9,1,1,0,1,204,12],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a10843fd7eae321de8d80242400822abb":[9,1,0,0,2,204,20],
-"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a10843fd7eae321de8d80242400822abb":[9,1,1,0,1,204,20]
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a106ce46e774efd7e504b9d3335f56eb3":[9,1,1,0,1,204,12]
 };

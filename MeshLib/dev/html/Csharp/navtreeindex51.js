@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"classMR_1_1Const__InSphere.html#a83a777ae8cb12e4f02c2788081dfb19f":[9,3,0,0,0,515,2],
+"classMR_1_1Const__InSphere.html#aad8d1bfd27a1e0029a3a50b753921e89":[9,3,0,0,0,515,5],
 "classMR_1_1Const__InSphere.html#ad0ae0af3e3c1ce79de13ebec57aed75e":[9,3,0,0,0,515,3],
 "classMR_1_1Const__InSphere.html#ae5b8f0050a54dba3f5613914e382f61a":[9,3,0,0,0,515,1],
 "classMR_1_1Const__InSphere.html#afcc01a78c88b1e73de1121cde86b9362":[9,3,0,0,0,515,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "classMR_1_1Const__IteratorRange__MRChunkIterator.html#a5f4e29ab9c3956b5b9ad580ee31eb01f":[9,3,0,0,0,542,2],
 "classMR_1_1Const__IteratorRange__MRChunkIterator.html#a68156386fe282387b171af38683af18c":[9,3,0,0,0,542,6],
 "classMR_1_1Const__IteratorRange__MRChunkIterator.html#a8bc0a42d293b7fd41d1c9a8dcc5b74df":[9,3,0,0,0,542,4],
-"classMR_1_1Const__IteratorRange__MRChunkIterator.html#a8d80fa856e407d8ea37b66a5d5cda53f":[9,3,0,0,0,542,1],
-"classMR_1_1Const__IteratorRange__MRChunkIterator.html#a9864cac0779eb7fcd82f2bd64ea6b76c":[9,3,0,0,0,542,0],
-"classMR_1_1Const__IteratorRange__MRChunkIterator.html#aca11c6a5fffed451f5d3be4401c3328f":[9,3,0,0,0,542,7]
+"classMR_1_1Const__IteratorRange__MRChunkIterator.html#a8d80fa856e407d8ea37b66a5d5cda53f":[9,3,0,0,0,542,1]
 };

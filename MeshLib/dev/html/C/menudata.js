@@ -156,5 +156,7 @@ var menudata={children:[
 {text:"m",url:"globals_eval.html#index_m"}]},
 {text:"Macros",url:"globals_defs.html"}]}]}]},
 {text:"C#",url:"../Csharp/APICsharpPage.html"},
-{text:"JavaScript",url:"../Js/APIJsPage.html"}]},
+{text:"JavaScript",url:"../Js/APIJsPage.html"},
+{text:"Rust",url:"../Rust/APIRustPage.html"},
+{text:"Java",url:"../Java/APIJavaPage.html"}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

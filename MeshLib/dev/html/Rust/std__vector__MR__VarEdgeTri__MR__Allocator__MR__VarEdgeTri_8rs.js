@@ -1,0 +1,4 @@
+var std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri_8rs =
+[
+    [ "meshlib::std_vector_MR_VarEdgeTri_MR_Allocator_MR_VarEdgeTri", "structmeshlib_1_1std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri.html", "structmeshlib_1_1std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri" ]
+];

@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"classmrmeshpy_1_1Cone3ApproximationParams.html#a0239333e9f9a27381f7e72991202de18":[9,1,0,0,2,173,3],
+"classmrmeshpy_1_1Cone3ApproximationParams.html#a0239333e9f9a27381f7e72991202de18":[9,1,1,0,1,173,3],
 "classmrmeshpy_1_1Cone3ApproximationParams.html#ab1e44ba06f1716083bb035c7ea62ff70":[9,1,0,0,2,173,1],
 "classmrmeshpy_1_1Cone3ApproximationParams.html#ab1e44ba06f1716083bb035c7ea62ff70":[9,1,1,0,1,173,1],
 "classmrmeshpy_1_1Cone3ApproximationParams.html#ab270661943b8e218a1c495d335d34942":[9,1,0,0,2,173,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "classmrmeshpy_1_1ContoursDistanceMapOptions.html":[9,1,0,0,2,181],
 "classmrmeshpy_1_1ContoursDistanceMapOptions.html":[9,1,1,0,1,181],
 "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a046be53d0ebdf587a6c57cc80830e5a0":[9,1,0,0,2,181,12],
-"classmrmeshpy_1_1ContoursDistanceMapOptions.html#a046be53d0ebdf587a6c57cc80830e5a0":[9,1,1,0,1,181,12],
-"classmrmeshpy_1_1ContoursDistanceMapOptions.html#a0ada3aa299f6b4176093a0dd0be60896":[9,1,0,0,2,181,4],
-"classmrmeshpy_1_1ContoursDistanceMapOptions.html#a0ada3aa299f6b4176093a0dd0be60896":[9,1,1,0,1,181,4]
+"classmrmeshpy_1_1ContoursDistanceMapOptions.html#a046be53d0ebdf587a6c57cc80830e5a0":[9,1,1,0,1,181,12]
 };

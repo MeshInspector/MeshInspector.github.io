@@ -1,0 +1,4 @@
+var IteratorRange__MR__RingIterator__MR__NextEdgeSameOrigin_8java =
+[
+    [ "meshlib.IteratorRange_MR_RingIterator_MR_NextEdgeSameOrigin", "classmeshlib_1_1IteratorRange__MR__RingIterator__MR__NextEdgeSameOrigin.html", "classmeshlib_1_1IteratorRange__MR__RingIterator__MR__NextEdgeSameOrigin" ]
+];

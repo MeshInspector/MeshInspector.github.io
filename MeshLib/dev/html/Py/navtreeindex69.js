@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"classmrmeshpy_1_1NormalsToPoints.html":[9,1,0,0,2,643],
+"classmrmeshpy_1_1NormalsToPoints.html":[9,1,1,0,1,643],
 "classmrmeshpy_1_1NormalsToPoints.html#a61600269735bb24204f539b990d57ac4":[9,1,0,0,2,643,3],
 "classmrmeshpy_1_1NormalsToPoints.html#a61600269735bb24204f539b990d57ac4":[9,1,1,0,1,643,3],
 "classmrmeshpy_1_1NormalsToPoints.html#a9bb7bb6b7021e898cfb559dd27573f27":[9,1,0,0,2,643,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a3d92045444422dda4c5808d7e14dea81":[9,1,0,0,2,674,1],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a3d92045444422dda4c5808d7e14dea81":[9,1,1,0,1,674,1],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a739ca0c989384f7e16ea02ed75071e47":[9,1,0,0,2,674,3],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a739ca0c989384f7e16ea02ed75071e47":[9,1,1,0,1,674,3],
-"classmrmeshpy_1_1ObjMap.html":[9,1,0,0,2,675],
-"classmrmeshpy_1_1ObjMap.html":[9,1,1,0,1,675]
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html#a739ca0c989384f7e16ea02ed75071e47":[9,1,1,0,1,674,3]
 };

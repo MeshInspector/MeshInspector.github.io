@@ -1,0 +1,25 @@
+var structmeshlib_1_1EmbeddedStructureParameters =
+[
+    [ "assign_from_another", "structmeshlib_1_1EmbeddedStructureParameters.html#a6c30306abae0101cfe016318e0718c57", null ],
+    [ "cut_angle", "structmeshlib_1_1EmbeddedStructureParameters.html#a23d9a474d2b61869d15e2a07e3c72a73", null ],
+    [ "cut_angle_mut", "structmeshlib_1_1EmbeddedStructureParameters.html#ad32d07ff35537c3fc780ef9b31b3f968", null ],
+    [ "fill_angle", "structmeshlib_1_1EmbeddedStructureParameters.html#a097423f1d740669008eb4d14124be791", null ],
+    [ "fill_angle_mut", "structmeshlib_1_1EmbeddedStructureParameters.html#a3882d5e7048f578a91ea40f56af5d218", null ],
+    [ "min_angle_precision", "structmeshlib_1_1EmbeddedStructureParameters.html#a6dcc08b5c27067782b301bf674c6b6bb", null ],
+    [ "min_angle_precision_mut", "structmeshlib_1_1EmbeddedStructureParameters.html#a4b34fdf2b08e1c1bb9302cd80057ea15", null ],
+    [ "new2old_faces", "structmeshlib_1_1EmbeddedStructureParameters.html#a1d61330638b4bec30f536912ae7861e3", null ],
+    [ "new2old_faces_mut", "structmeshlib_1_1EmbeddedStructureParameters.html#ad7d0f6252b4c6aef5620c4a3f416dde8", null ],
+    [ "out_cut_faces", "structmeshlib_1_1EmbeddedStructureParameters.html#a3a959366da030836364d8402643875b1", null ],
+    [ "out_cut_faces_mut", "structmeshlib_1_1EmbeddedStructureParameters.html#afc92d4479d55b9a874e68b2fad52dbdc", null ],
+    [ "out_fill_faces", "structmeshlib_1_1EmbeddedStructureParameters.html#accb1d617b37ad1c507ec4476fe6885d3", null ],
+    [ "out_fill_faces_mut", "structmeshlib_1_1EmbeddedStructureParameters.html#a4ce7520cfd1b6b4d2a26a5dd0bf16d92", null ],
+    [ "out_struct_faces", "structmeshlib_1_1EmbeddedStructureParameters.html#ae1c01c7cfd2fd1a99620b0f8003b2a37", null ],
+    [ "out_struct_faces_mut", "structmeshlib_1_1EmbeddedStructureParameters.html#a13f798b98cfc3a3660e94974b09c5f3a", null ],
+    [ "set_cut_angle", "structmeshlib_1_1EmbeddedStructureParameters.html#a72d59c5500c5f053d548541962b8b122", null ],
+    [ "set_fill_angle", "structmeshlib_1_1EmbeddedStructureParameters.html#a99c69ea2555f79696560bef97cb27fd4", null ],
+    [ "set_min_angle_precision", "structmeshlib_1_1EmbeddedStructureParameters.html#af93e49e191a0d3b9b78dc01981d8ce51", null ],
+    [ "set_new2old_faces", "structmeshlib_1_1EmbeddedStructureParameters.html#af521a10babd7c4d9e72699c7a3951883", null ],
+    [ "set_out_cut_faces", "structmeshlib_1_1EmbeddedStructureParameters.html#aa417cd4fbbc16a29a032c3ea2f90b0a5", null ],
+    [ "set_out_fill_faces", "structmeshlib_1_1EmbeddedStructureParameters.html#afd74ec3e249a69d61a14e1690e065e1c", null ],
+    [ "set_out_struct_faces", "structmeshlib_1_1EmbeddedStructureParameters.html#a0ab0ee370dade393a5086bed08201c2f", null ]
+];

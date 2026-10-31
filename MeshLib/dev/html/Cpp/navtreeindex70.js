@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1SegmentSegmentIntersectResult.html":[9,0,0,19,486],
+"structMR_1_1SelfIntersections_1_1Settings.html":[9,0,0,19,274],
 "structMR_1_1SeparationPointStorage_1_1Block.html":[9,0,0,19,516],
 "structMR_1_1SetNew.html":[9,0,0,4,39],
 "structMR_1_1ShaderWarning.html":[9,0,0,19,596],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#ae0e6dd790b8725ec765ff66f969fef75":[9,0,1,0,1,52,2,2,0],
 "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html#ae0e6dd790b8725ec765ff66f969fef75":[9,0,2,0,1,34,0,2,0],
 "structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html":[9,0,1,0,1,52,2,0,0],
-"structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html":[9,0,2,0,1,34,0,0,0],
-"structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html#a4e3cc6eede4e75192082ff04395854a1":[9,0,1,0,1,52,2,0,0,0],
-"structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html#a4e3cc6eede4e75192082ff04395854a1":[9,0,2,0,1,34,0,0,0,0]
+"structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html":[9,0,2,0,1,34,0,0,0]
 };

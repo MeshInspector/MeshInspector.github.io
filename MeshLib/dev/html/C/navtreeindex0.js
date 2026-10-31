@@ -54,6 +54,7 @@ var NAVTREEINDEX0 =
 "../HowtoAddPluginOverview.html":[8,8],
 "../I18nGuide.html":[8,9],
 "../InstallationGuide.html":[2],
+"../Java/APIJavaPage.html":[9,6],
 "../Js/APIJsPage.html":[9,4],
 "../License.html":[3],
 "../MeshLibCSetupGuide.html":[2,3],
@@ -67,6 +68,7 @@ var NAVTREEINDEX0 =
 "../MeshStructureOverview.html":[8,1],
 "../PackageOverview.html":[8],
 "../Py/APIPyPage.html":[9,1],
+"../Rust/APIRustPage.html":[9,5],
 "../SpacesHelp.html":[8,5],
 "../StatePluginsHelp.html":[8,7],
 "../SupportGeneratorTutorial.html":[5,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "MRAABBTreeBase_8h.html#a6bc3ba2505397baa6e141b8738dc3d26":[9,2,2,0,0,0,0,1,2,82],
 "MRAABBTreeBase_8h.html#a7174e310e545e9b2499f063938f851da":[9,2,2,0,0,0,0,1,2,11],
 "MRAABBTreeBase_8h.html#a72d073e2a6f51296619192a77dec7272":[9,2,2,0,0,0,0,1,2,12],
-"MRAABBTreeBase_8h.html#a751ab093c2f54c484084b2d946b91065":[9,2,2,0,0,0,0,1,2,63],
-"MRAABBTreeBase_8h.html#a7dc87e3b2a49222c8f67c90fe0387fce":[9,2,2,0,0,0,0,1,2,88],
-"MRAABBTreeBase_8h.html#a7e0e69f3d41226c505d5f61320a4d9b9":[9,2,2,0,0,0,0,1,2,55]
+"MRAABBTreeBase_8h.html#a751ab093c2f54c484084b2d946b91065":[9,2,2,0,0,0,0,1,2,63]
 };

@@ -258,5 +258,7 @@ var menudata={children:[
 {text:"File List",url:"files.html"}]}]},
 {text:"C",url:"../C/APICPage.html"},
 {text:"C#",url:"../Csharp/APICsharpPage.html"},
-{text:"JavaScript",url:"../Js/APIJsPage.html"}]},
+{text:"JavaScript",url:"../Js/APIJsPage.html"},
+{text:"Rust",url:"../Rust/APIRustPage.html"},
+{text:"Java",url:"../Java/APIJavaPage.html"}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

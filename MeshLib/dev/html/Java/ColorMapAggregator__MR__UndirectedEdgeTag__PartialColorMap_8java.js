@@ -1,0 +1,4 @@
+var ColorMapAggregator__MR__UndirectedEdgeTag__PartialColorMap_8java =
+[
+    [ "meshlib.ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap", "classmeshlib_1_1ColorMapAggregator__MR__UndirectedEdgeTag__PartialColorMap.html", "classmeshlib_1_1ColorMapAggregator__MR__UndirectedEdgeTag__PartialColorMap" ]
+];

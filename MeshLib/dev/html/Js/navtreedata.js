@@ -127,7 +127,9 @@ var NAVTREE =
             [ "Enumerator", "globals_eval.html", null ]
           ] ]
         ] ]
-      ] ]
+      ] ],
+      [ "Rust", "../Rust/APIRustPage.html", null ],
+      [ "Java", "../Java/APIJavaPage.html", null ]
     ] ],
     [ "Third-Party Dependencies", "../ThirdParty.html", null ]
   ] ]
@@ -136,9 +138,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../APIPage.html",
-"bindings_8d_8mts.html#ae6eb7dd1a9e739213f97d28386e06d34",
-"classMesh.html#a852f4f094c80b08e80d8b21bce3ae6fa",
-"functions_m.html"
+"bindings_8d_8mts.html#ae2484d55c1489c3f2a654987ffbf5243",
+"classMesh.html#a75fdb3c699d2af450f9e78fb83624151",
+"functions_i.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

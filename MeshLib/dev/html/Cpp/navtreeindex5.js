@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"MRResizeNoInit_8h.html":[9,0,3,0,7,368],
+"MRResizeNoInit_8h_source.html":[9,0,3,0,7,368],
 "MRRestoringStreamsSink_8h.html":[9,0,3,0,7,369],
 "MRRestoringStreamsSink_8h_source.html":[9,0,3,0,7,369],
 "MRRibbonButtonDrawer_8h.html":[9,0,3,0,10,94],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "MRTriMesh_8h.html":[9,0,3,0,7,423],
 "MRTriMesh_8h_source.html":[9,0,3,0,7,423],
 "MRTriPoint_8h.html":[9,0,3,0,7,425],
-"MRTriPoint_8h_source.html":[9,0,3,0,7,425],
-"MRTriangleIntersection_8h.html":[9,0,3,0,7,420],
-"MRTriangleIntersection_8h_source.html":[9,0,3,0,7,420]
+"MRTriPoint_8h_source.html":[9,0,3,0,7,425]
 };

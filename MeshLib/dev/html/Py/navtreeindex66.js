@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html":[9,1,0,0,2,604,1],
+"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html":[9,1,1,0,1,604,1],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a18fc7b69e738f223f9d353dc9d22ad4c":[9,1,0,0,2,604,1,3],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a18fc7b69e738f223f9d353dc9d22ad4c":[9,1,1,0,1,604,1,3],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html#a1af470bb121b63d26eda8bc3086ee1b4":[9,1,0,0,2,604,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "classmrmeshpy_1_1NextEdgeSameOrigin.html#ad26bbad1ea7134e3635d3ab487d80ba9":[9,1,0,0,2,607,0],
 "classmrmeshpy_1_1NextEdgeSameOrigin.html#ad26bbad1ea7134e3635d3ab487d80ba9":[9,1,1,0,1,607,0],
 "classmrmeshpy_1_1NoCtor__EdgeId.html":[9,1,0,0,2,609],
-"classmrmeshpy_1_1NoCtor__EdgeId.html":[9,1,1,0,1,609],
-"classmrmeshpy_1_1NoCtor__EdgeId.html#a11d1c9ff4fe0404ab5384abb64c44618":[9,1,0,0,2,609,1],
-"classmrmeshpy_1_1NoCtor__EdgeId.html#a11d1c9ff4fe0404ab5384abb64c44618":[9,1,1,0,1,609,1]
+"classmrmeshpy_1_1NoCtor__EdgeId.html":[9,1,1,0,1,609]
 };

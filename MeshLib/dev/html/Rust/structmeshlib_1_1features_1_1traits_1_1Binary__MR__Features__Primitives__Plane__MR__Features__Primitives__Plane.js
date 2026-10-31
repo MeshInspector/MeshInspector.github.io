@@ -1,0 +1,5 @@
+var structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane =
+[
+    [ "assign_from_another", "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane.html#ae4f8faa5775ee2f9c57ac2ad6ca54ea8", null ],
+    [ "measure", "structmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane.html#ae0545bef86099f7ce597fb31bb015ab2", null ]
+];

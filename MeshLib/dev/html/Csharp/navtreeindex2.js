@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"MRUniformSampling_8cs.html":[9,3,1,0,0,0,2,367],
+"MRUnionFind_8cs.html":[9,3,1,0,0,0,2,368],
 "MRUniqueTemporaryFolder_8cs.html":[9,3,1,0,0,0,2,369],
 "MRUniqueThreadSafeOwner_8cs.html":[9,3,1,0,0,0,2,370],
 "MRUnitInfo_8cs.html":[9,3,1,0,0,0,2,372],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "classMR.html#a1b103cac58fd24f8cfbe546774a9b5e1a02129bb861061d1a052c592e2dc6b383":[9,3,0,0,0,1927,0],
 "classMR.html#a1b103cac58fd24f8cfbe546774a9b5e1a21c2e59531c8710156d34a3c30ac81d5":[9,3,0,0,0,1927,2],
 "classMR.html#a1b103cac58fd24f8cfbe546774a9b5e1a57cec4137b614c87cb4e24a3d003a3e0":[9,3,0,0,0,1927,1],
-"classMR.html#a1b103cac58fd24f8cfbe546774a9b5e1ae93f994f01c537c4e2f7d8528c3eb5e9":[9,3,0,0,0,1927,3],
-"classMR.html#a1b16b3b27e7ca02c349a0a0bee4641da":[9,3,0,0,0,3497],
-"classMR.html#a1b2dfa87aa13491ab43e57691964271f":[9,3,0,0,0,2885]
+"classMR.html#a1b103cac58fd24f8cfbe546774a9b5e1ae93f994f01c537c4e2f7d8528c3eb5e9":[9,3,0,0,0,1927,3]
 };

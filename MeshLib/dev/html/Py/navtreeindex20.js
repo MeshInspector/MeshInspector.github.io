@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classmrmeshpy_1_1ContoursDistanceMapOptions.html#a0ada3aa299f6b4176093a0dd0be60896":[9,1,0,0,2,181,4],
+"classmrmeshpy_1_1ContoursDistanceMapOptions.html#a0ada3aa299f6b4176093a0dd0be60896":[9,1,1,0,1,181,4],
 "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a0ddd2bead142c17e13f64bbea6292442":[9,1,0,0,2,181,9],
 "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a0ddd2bead142c17e13f64bbea6292442":[9,1,1,0,1,181,9],
 "classmrmeshpy_1_1ContoursDistanceMapOptions.html#a21de5411a919c47cb379f125afa2146e":[9,1,0,0,2,181,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classmrmeshpy_1_1CutByProjectionSettings.html#abbd9dd91405f18a97b97b46ef410755b":[9,1,0,0,2,195,2],
 "classmrmeshpy_1_1CutByProjectionSettings.html#abbd9dd91405f18a97b97b46ef410755b":[9,1,1,0,1,195,2],
 "classmrmeshpy_1_1CutByProjectionSettings.html#ac091801bd19fbcbd9d55e7b5660a7797":[9,1,0,0,2,195,4],
-"classmrmeshpy_1_1CutByProjectionSettings.html#ac091801bd19fbcbd9d55e7b5660a7797":[9,1,1,0,1,195,4],
-"classmrmeshpy_1_1CutByProjectionSettings.html#adbb807633393e6e798e6171ca3466c07":[9,1,0,0,2,195,6],
-"classmrmeshpy_1_1CutByProjectionSettings.html#adbb807633393e6e798e6171ca3466c07":[9,1,1,0,1,195,6]
+"classmrmeshpy_1_1CutByProjectionSettings.html#ac091801bd19fbcbd9d55e7b5660a7797":[9,1,1,0,1,195,4]
 };

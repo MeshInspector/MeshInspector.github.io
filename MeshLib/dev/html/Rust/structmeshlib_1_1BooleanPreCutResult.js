@@ -1,0 +1,26 @@
+var structmeshlib_1_1BooleanPreCutResult =
+[
+    [ "assign_from_another", "structmeshlib_1_1BooleanPreCutResult.html#a8dd7eb1ac730353b0bc6f2ccc046e69f", null ],
+    [ "contours", "structmeshlib_1_1BooleanPreCutResult.html#a271b7bf22a69536913ef95968d124f9e", null ],
+    [ "contours_mut", "structmeshlib_1_1BooleanPreCutResult.html#a1e5b6e2e982996cc632325b6b627f0ae", null ],
+    [ "intersections", "structmeshlib_1_1BooleanPreCutResult.html#ac39cbe2813fcf5865af716ea643cc3a0", null ],
+    [ "intersections_mut", "structmeshlib_1_1BooleanPreCutResult.html#a38e0685449038229d441a5a2c7ba49a4", null ],
+    [ "is_mesh_a", "structmeshlib_1_1BooleanPreCutResult.html#ae07663d5aa097bad5ee867099e93eed7", null ],
+    [ "is_mesh_a_mut", "structmeshlib_1_1BooleanPreCutResult.html#a8b94a57d9d4aee0e517aac25d107b1ee", null ],
+    [ "mesh", "structmeshlib_1_1BooleanPreCutResult.html#a8150113988bae2a7d1f7948d6b0ebc1c", null ],
+    [ "mesh_a_verts_num", "structmeshlib_1_1BooleanPreCutResult.html#a5a704629abf0733771eb2df13350838e", null ],
+    [ "mesh_a_verts_num_mut", "structmeshlib_1_1BooleanPreCutResult.html#ad3e887896397a1b92641af6461f567de", null ],
+    [ "mesh_mut", "structmeshlib_1_1BooleanPreCutResult.html#a0cd796b881be1e99d4e0a766530aeffb", null ],
+    [ "rigid_b2_a", "structmeshlib_1_1BooleanPreCutResult.html#a67154e05ecb25802c5befc180dd9783b", null ],
+    [ "rigid_b2_a_mut", "structmeshlib_1_1BooleanPreCutResult.html#a2195da3809b085e13712b20f8b9c7e6e", null ],
+    [ "set_contours", "structmeshlib_1_1BooleanPreCutResult.html#a148c50d76806041f3ee36bf51f49d3f2", null ],
+    [ "set_intersections", "structmeshlib_1_1BooleanPreCutResult.html#a9922ccec163a6e9c3f4f246ae7219603", null ],
+    [ "set_is_mesh_a", "structmeshlib_1_1BooleanPreCutResult.html#a2db4e57c3b98b0948d6203c140cf8fa8", null ],
+    [ "set_mesh", "structmeshlib_1_1BooleanPreCutResult.html#a0997fa9eae5696a5a846d396f19156de", null ],
+    [ "set_mesh_a_verts_num", "structmeshlib_1_1BooleanPreCutResult.html#ad1413150e025d7cabdbcf3f8cb28578d", null ],
+    [ "set_rigid_b2_a", "structmeshlib_1_1BooleanPreCutResult.html#abc5a97f2cc2bc43d5afbc93be95c4280", null ],
+    [ "set_to_int", "structmeshlib_1_1BooleanPreCutResult.html#a545c8fe473bced9ab3f439cb31208782", null ],
+    [ "sort_data", "structmeshlib_1_1BooleanPreCutResult.html#ae34ce788952dfe7f57d30669b29cbe6e", null ],
+    [ "to_int", "structmeshlib_1_1BooleanPreCutResult.html#a3176a844c8357a7392e2b8d823d45393", null ],
+    [ "to_int_mut", "structmeshlib_1_1BooleanPreCutResult.html#a245ce5f084cbea9fa7ac7d3229f10930", null ]
+];

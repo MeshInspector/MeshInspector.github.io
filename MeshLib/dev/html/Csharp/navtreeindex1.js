@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"MRIteratorRange_8cs.html":[9,3,1,0,0,0,2,143],
+"MRJpeg_8cs.html":[9,3,1,0,0,0,1,7],
 "MRLaplacian_8cs.html":[9,3,1,0,0,0,2,144],
 "MRLas_8cs.html":[9,3,1,0,0,0,1,8],
 "MRLevelOfDetails_8cs.html":[9,3,1,0,0,0,2,145],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "MRTriangleIntersection_8cs.html":[9,3,1,0,0,0,2,359],
 "MRTripleFaceIntersections_8cs.html":[9,3,1,0,0,0,2,363],
 "MRTunnelDetector_8cs.html":[9,3,1,0,0,0,2,365],
-"MRTwoLineSegmDist_8cs.html":[9,3,1,0,0,0,2,366],
-"MRUniformSampling_8cs.html":[9,3,1,0,0,0,2,367],
-"MRUnionFind_8cs.html":[9,3,1,0,0,0,2,368]
+"MRTwoLineSegmDist_8cs.html":[9,3,1,0,0,0,2,366]
 };

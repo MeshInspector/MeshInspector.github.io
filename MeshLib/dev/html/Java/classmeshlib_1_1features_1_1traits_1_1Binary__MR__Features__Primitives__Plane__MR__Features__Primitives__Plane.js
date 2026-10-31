@@ -1,0 +1,8 @@
+var classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane =
+[
+    [ "Binary_MR_Features_Primitives_Plane_MR_Features_Primitives_Plane", "classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane.html#ad797384131613adba7bbfff564a373b1", null ],
+    [ "Binary_MR_Features_Primitives_Plane_MR_Features_Primitives_Plane", "classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane.html#a06c30ff8db1382a5297e04c7faa8b543", null ],
+    [ "Binary_MR_Features_Primitives_Plane_MR_Features_Primitives_Plane", "classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane.html#a55ec91d0ed4eb7d901bbbbf770422d9c", null ],
+    [ "assignFromAnother", "classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane.html#af91df797bb7f53c94c50a91f94465f6d", null ],
+    [ "measure", "classmeshlib_1_1features_1_1traits_1_1Binary__MR__Features__Primitives__Plane__MR__Features__Primitives__Plane.html#a82e6665a3d1ffe153c0ec9b6c70542f9", null ]
+];

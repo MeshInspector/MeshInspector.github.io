@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1CurveFunc.html#a5e48b80dc984b796576473d52408c806":[9,3,0,0,0,1148,4],
+"classMR_1_1CurveFunc.html#a706d08d76ca3a0fd221e81e3b78876ce":[9,3,0,0,0,1148,3],
 "classMR_1_1CurveFunc.html#a76b17395cd3a071a0055416ed73f2020":[9,3,0,0,0,1148,5],
 "classMR_1_1CurveFunc.html#a98ba63d4540a07f5f1e900ac0b48dd0c":[9,3,0,0,0,1148,2],
 "classMR_1_1CurveFunc.html#aac0a6ca921b22654c6da675b6138ac19":[9,3,0,0,0,1148,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1DeloneFlipsCache.html#a8aff3b8be6a5c9984b452b18b12dfe63":[9,3,0,0,0,1162,10],
 "classMR_1_1DeloneFlipsCache.html#a8e3c5222bfe74e86696ae75959683678":[9,3,0,0,0,1162,7],
 "classMR_1_1DeloneFlipsCache.html#a992fac8fa42d2f9e7be147e0f1c0216d":[9,3,0,0,0,1162,1],
-"classMR_1_1DeloneFlipsCache.html#ae7d60fcb65f3a10e6b4c6522e9a4d938":[9,3,0,0,0,1162,5],
-"classMR_1_1DeloneFlipsCache.html#aee1c0fdf47f2031b53a5c9ddd01d4f44":[9,3,0,0,0,1162,0],
-"classMR_1_1DeloneSettings.html":[9,3,0,0,0,1163]
+"classMR_1_1DeloneFlipsCache.html#ae7d60fcb65f3a10e6b4c6522e9a4d938":[9,3,0,0,0,1162,5]
 };

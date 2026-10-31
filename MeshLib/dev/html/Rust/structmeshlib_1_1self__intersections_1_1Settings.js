@@ -1,0 +1,25 @@
+var structmeshlib_1_1self__intersections_1_1Settings =
+[
+    [ "assign_from_another", "structmeshlib_1_1self__intersections_1_1Settings.html#a925f4cf7f57b6d83f32f360f0f684f03", null ],
+    [ "callback", "structmeshlib_1_1self__intersections_1_1Settings.html#a406e7da5388c9af3c0f38e3a671621d9", null ],
+    [ "callback_mut", "structmeshlib_1_1self__intersections_1_1Settings.html#ad53a02cd090a53ccd5086c9c002e63a6", null ],
+    [ "max_expand", "structmeshlib_1_1self__intersections_1_1Settings.html#a9003399331f4a51d58e41ca19a7d0675", null ],
+    [ "max_expand_mut", "structmeshlib_1_1self__intersections_1_1Settings.html#a9cc6ab56a042ed3f61a04611c6bcc9b0", null ],
+    [ "method", "structmeshlib_1_1self__intersections_1_1Settings.html#aab0bcd8b70ac1e133faa4b174d788922", null ],
+    [ "method_mut", "structmeshlib_1_1self__intersections_1_1Settings.html#a36a78d0021df0bebcad973260560edda", null ],
+    [ "mimic_patch", "structmeshlib_1_1self__intersections_1_1Settings.html#a9c3971b74cc1fac8ed7abfeaef913827", null ],
+    [ "mimic_patch_mut", "structmeshlib_1_1self__intersections_1_1Settings.html#a60505de40d514ec279029bb7afd256e8", null ],
+    [ "relax_iterations", "structmeshlib_1_1self__intersections_1_1Settings.html#abf54f0977b45031a9add8aaee2513385", null ],
+    [ "relax_iterations_mut", "structmeshlib_1_1self__intersections_1_1Settings.html#af4667277e781249ebeb4fd650c45c4d1", null ],
+    [ "set_callback", "structmeshlib_1_1self__intersections_1_1Settings.html#ac6516ddaaf6f0fbf438b8e110342e0ab", null ],
+    [ "set_max_expand", "structmeshlib_1_1self__intersections_1_1Settings.html#a6f051e943e086b89b732ca6d400b5c54", null ],
+    [ "set_method", "structmeshlib_1_1self__intersections_1_1Settings.html#a1c34ae8152070440859086fc3ea30f54", null ],
+    [ "set_mimic_patch", "structmeshlib_1_1self__intersections_1_1Settings.html#a87e3c5bddeea5edf15eab58883022014", null ],
+    [ "set_relax_iterations", "structmeshlib_1_1self__intersections_1_1Settings.html#a8a85818eb29b0c81208a9f97a965205c", null ],
+    [ "set_subdivide_edge_len", "structmeshlib_1_1self__intersections_1_1Settings.html#a9baed5b2531ea6da56ed45e05e21477b", null ],
+    [ "set_touch_is_intersection", "structmeshlib_1_1self__intersections_1_1Settings.html#a3f2da4a9d29a9a3d82c0482cadd63c19", null ],
+    [ "subdivide_edge_len", "structmeshlib_1_1self__intersections_1_1Settings.html#a8a6a226cc35233e4e28ab3c3554a044b", null ],
+    [ "subdivide_edge_len_mut", "structmeshlib_1_1self__intersections_1_1Settings.html#a28a5fd38e7f952c22e2a2bf968e122ee", null ],
+    [ "touch_is_intersection", "structmeshlib_1_1self__intersections_1_1Settings.html#a52c9963f21a069d8cf2479ff70dd8b05", null ],
+    [ "touch_is_intersection_mut", "structmeshlib_1_1self__intersections_1_1Settings.html#a676a178f5171d71931327d32474c7a14", null ]
+];

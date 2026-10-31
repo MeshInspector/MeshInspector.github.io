@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"classMR_1_1Const__NoDefInit__MRRegionId.html#ad1a720b864137a100aedfa19ed692d9b":[9,3,0,0,0,665,2],
+"classMR_1_1Const__NoDefInit__MRRegionId.html#ad78ce20f70856ef83c0cd9119c2dc395":[9,3,0,0,0,665,8],
 "classMR_1_1Const__NoDefInit__MRRegionId.html#ae2bf60c8e32a6faf63f083e24939d869":[9,3,0,0,0,665,3],
 "classMR_1_1Const__NoDefInit__MRRegionId.html#af3497f15314ba57e1b190ed7a0aea7a1":[9,3,0,0,0,665,15],
 "classMR_1_1Const__NoDefInit__MRRegionId.html#afb2bd0a7e1c9e6ac5c49195fe35d6ce4":[9,3,0,0,0,665,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "classMR_1_1Const__ObjBitSet.html#af0c537ec3470cfe691ed6e69181ce34e":[9,3,0,0,0,676,6],
 "classMR_1_1Const__ObjBitSet.html#af8fef86d4c90c89a3958f01894cfd6a9":[9,3,0,0,0,676,28],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html":[9,3,0,0,0,694],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#a2accab617efa2cbfcf2d204468501798":[9,3,0,0,0,694,3],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#a4efdc11faee6fb6dc97f7124ab564809":[9,3,0,0,0,694,1],
-"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#a9fb502ece1e5720f23fb2cc659865b55":[9,3,0,0,0,694,4]
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle.html#a2accab617efa2cbfcf2d204468501798":[9,3,0,0,0,694,3]
 };

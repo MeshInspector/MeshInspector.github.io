@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"MRColor_8h.html":[9,0,3,0,7,64],
+"MRColor_8h_source.html":[9,0,3,0,7,64],
 "MRCombinedHistoryAction_8h.html":[9,0,3,0,7,66],
 "MRCombinedHistoryAction_8h_source.html":[9,0,3,0,7,66],
 "MRCommandLoop_8h.html":[9,0,3,0,10,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "MRGLTexture_8h_source.html":[9,0,3,0,10,34],
 "MRGcodeLoad_8h.html":[9,0,3,0,7,135],
 "MRGcodeLoad_8h_source.html":[9,0,3,0,7,135],
-"MRGcodeProcessor_8h.html":[9,0,3,0,7,136],
-"MRGcodeProcessor_8h_source.html":[9,0,3,0,7,136],
-"MRGcodeSave_8h.html":[9,0,3,0,7,137]
+"MRGcodeProcessor_8h.html":[9,0,3,0,7,136]
 };

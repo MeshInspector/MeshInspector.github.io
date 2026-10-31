@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"classMR_1_1Const__MeshToDistanceMapParams.html#a9b830bf42dc560cbf6ef8c6a6b220ab6":[9,3,0,0,0,615,3],
+"classMR_1_1Const__MeshToDistanceMapParams.html#aa25013835ac5c7fe5e8f40698a750ddd":[9,3,0,0,0,615,13],
 "classMR_1_1Const__MeshToDistanceMapParams.html#aa32a09a330a5c9e67fc31ae793c78e52":[9,3,0,0,0,615,17],
 "classMR_1_1Const__MeshToDistanceMapParams.html#aabaf35e7ad0ed020d16fb5ac18652a27":[9,3,0,0,0,615,31],
 "classMR_1_1Const__MeshToDistanceMapParams.html#abbda5a6e456c1a24b40a9970804e0cd6":[9,3,0,0,0,615,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "classMR_1_1Const__MeshVoxelsConverter.html#ab914a4398a6a7fa9e0f771f8169a2eb6":[9,3,0,0,0,623,18],
 "classMR_1_1Const__MeshVoxelsConverter.html#ad06a3ba002a44942d2e574c124acc7d4":[9,3,0,0,0,623,10],
 "classMR_1_1Const__MeshVoxelsConverter.html#ae2928e50465f9e7b800a7388dc1d4bc7":[9,3,0,0,0,623,14],
-"classMR_1_1Const__MeshVoxelsConverter.html#ae62ef91b354da6f9bab3375fe1a7dd93":[9,3,0,0,0,623,2],
-"classMR_1_1Const__MeshVoxelsConverter.html#aedd33ca2ebf7ad69a908956d192944b3":[9,3,0,0,0,623,8],
-"classMR_1_1Const__MetricToAStarPenalty.html":[9,3,0,0,0,624]
+"classMR_1_1Const__MeshVoxelsConverter.html#ae62ef91b354da6f9bab3375fe1a7dd93":[9,3,0,0,0,623,2]
 };

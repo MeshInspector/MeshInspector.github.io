@@ -1,0 +1,4 @@
+var std__function__void__from__const__MR__Features__SubfeatureInfo__ref_8rs =
+[
+    [ "meshlib::std_function_void_from_const_MR_Features_SubfeatureInfo_ref", "structmeshlib_1_1std__function__void__from__const__MR__Features__SubfeatureInfo__ref.html", "structmeshlib_1_1std__function__void__from__const__MR__Features__SubfeatureInfo__ref" ]
+];

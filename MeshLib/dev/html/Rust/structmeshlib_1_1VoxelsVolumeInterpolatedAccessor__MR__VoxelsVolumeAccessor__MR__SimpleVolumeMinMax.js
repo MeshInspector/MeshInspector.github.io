@@ -1,0 +1,4 @@
+var structmeshlib_1_1VoxelsVolumeInterpolatedAccessor__MR__VoxelsVolumeAccessor__MR__SimpleVolumeMinMax =
+[
+    [ "get", "structmeshlib_1_1VoxelsVolumeInterpolatedAccessor__MR__VoxelsVolumeAccessor__MR__SimpleVolumeMinMax.html#a45457b62ba9f57bfd86946bbd008d439", null ]
+];

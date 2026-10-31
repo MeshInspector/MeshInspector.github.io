@@ -1,5 +1,7 @@
 var NAVTREEINDEX108 =
 {
+"classMR_1_1GraphVertBitSet.html#ad17f3d2cb10a7e994bdaf77997a3f76f":[9,3,0,0,0,1267,35],
+"classMR_1_1GraphVertBitSet.html#ad21a0bf071c643c8a3fbd625a8eaae6e":[9,3,0,0,0,1267,31],
 "classMR_1_1GraphVertBitSet.html#ad30d8e29b59d15642669d0b82daf2b90":[9,3,0,0,0,1267,17],
 "classMR_1_1GraphVertBitSet.html#ad52b2bf7ebe2af06b80a706cd2c40667":[9,3,0,0,0,1267,7],
 "classMR_1_1GraphVertBitSet.html#adeacc264f90f93b392640ba4f9e27e70":[9,3,0,0,0,1267,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX108 =
 "classMR_1_1ImproveSamplingSettings.html#aa5d77053a689abf8f34dbbcc176351fa":[9,3,0,0,0,1294,7],
 "classMR_1_1ImproveSamplingSettings.html#aac2d29e6c52d07f60f0015746a47f693":[9,3,0,0,0,1294,13],
 "classMR_1_1ImproveSamplingSettings.html#ab1c703d5ca96dacbf41ae0c300322cdc":[9,3,0,0,0,1294,3],
-"classMR_1_1ImproveSamplingSettings.html#ab2bef5f9df7a8fb8079b5a4c9df77f4f":[9,3,0,0,0,1294,1],
-"classMR_1_1ImproveSamplingSettings.html#ac40da5210578fc37d6736d9033ef0aeb":[9,3,0,0,0,1294,9],
-"classMR_1_1ImproveSamplingSettings.html#ac6885db58fe8e38db313d27a4365cb29":[9,3,0,0,0,1294,12]
+"classMR_1_1ImproveSamplingSettings.html#ab2bef5f9df7a8fb8079b5a4c9df77f4f":[9,3,0,0,0,1294,1]
 };

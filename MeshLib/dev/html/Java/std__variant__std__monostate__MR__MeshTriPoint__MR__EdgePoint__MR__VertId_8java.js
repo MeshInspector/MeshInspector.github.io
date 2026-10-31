@@ -1,0 +1,4 @@
+var std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8java =
+[
+    [ "meshlib.std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId", "classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId.html", "classmeshlib_1_1std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId" ]
+];

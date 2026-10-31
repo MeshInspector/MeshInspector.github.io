@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"classmrmeshpy_1_1MovementSpeedUnit.html#ad816622964c787f2c6c58480efe05dae":[9,1,0,0,2,593,10],
+"classmrmeshpy_1_1MovementSpeedUnit.html#ad816622964c787f2c6c58480efe05dae":[9,1,1,0,1,593,10],
 "classmrmeshpy_1_1MovementSpeedUnit.html#afe4364d11e08492c4b08fe19e8e62f05":[9,1,0,0,2,593,6],
 "classmrmeshpy_1_1MovementSpeedUnit.html#afe4364d11e08492c4b08fe19e8e62f05":[9,1,1,0,1,593,6],
 "classmrmeshpy_1_1MultiMeshIntersectionResult.html":[9,1,0,0,2,596],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "classmrmeshpy_1_1Nesting_1_1BoxNestingCorner.html#adb746fb5b6be73c3d3f3ea892af76af3":[9,1,0,0,2,604,0,4],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingCorner.html#adb746fb5b6be73c3d3f3ea892af76af3":[9,1,1,0,1,604,0,4],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingCorner.html#afaf8a8a9678c84e98b9a7106b27e27aa":[9,1,0,0,2,604,0,3],
-"classmrmeshpy_1_1Nesting_1_1BoxNestingCorner.html#afaf8a8a9678c84e98b9a7106b27e27aa":[9,1,1,0,1,604,0,3],
-"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html":[9,1,0,0,2,604,1],
-"classmrmeshpy_1_1Nesting_1_1BoxNestingOptions.html":[9,1,1,0,1,604,1]
+"classmrmeshpy_1_1Nesting_1_1BoxNestingCorner.html#afaf8a8a9678c84e98b9a7106b27e27aa":[9,1,1,0,1,604,0,3]
 };

@@ -221,5 +221,7 @@ var menudata={children:[
 {text:"z",url:"functions_prop_z.html#index_z"}]}]}]},
 {text:"File List",url:"files.html",children:[
 {text:"File List",url:"files.html"}]}]},
-{text:"JavaScript",url:"../Js/APIJsPage.html"}]},
+{text:"JavaScript",url:"../Js/APIJsPage.html"},
+{text:"Rust",url:"../Rust/APIRustPage.html"},
+{text:"Java",url:"../Java/APIJavaPage.html"}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

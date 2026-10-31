@@ -54,6 +54,7 @@ var NAVTREEINDEX0 =
 "../HowtoAddPluginOverview.html":[8,8],
 "../I18nGuide.html":[8,9],
 "../InstallationGuide.html":[2],
+"../Java/APIJavaPage.html":[9,6],
 "../Js/APIJsPage.html":[9,4],
 "../License.html":[3],
 "../MeshLibCSetupGuide.html":[2,3],
@@ -67,6 +68,7 @@ var NAVTREEINDEX0 =
 "../MeshStructureOverview.html":[8,1],
 "../PackageOverview.html":[8],
 "../Py/APIPyPage.html":[9,1],
+"../Rust/APIRustPage.html":[9,5],
 "../SpacesHelp.html":[8,5],
 "../StatePluginsHelp.html":[8,7],
 "../SupportGeneratorTutorial.html":[5,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "MRIntersectionPrecomputes_8cs.html":[9,3,1,0,0,0,2,135],
 "MRIntersection_8cs.html":[9,3,1,0,0,0,2,133],
 "MRIsNaN_8cs.html":[9,3,1,0,0,0,2,141],
-"MRIterativeSampling_8cs.html":[9,3,1,0,0,0,2,142],
-"MRIteratorRange_8cs.html":[9,3,1,0,0,0,2,143],
-"MRJpeg_8cs.html":[9,3,1,0,0,0,1,7]
+"MRIterativeSampling_8cs.html":[9,3,1,0,0,0,2,142]
 };
