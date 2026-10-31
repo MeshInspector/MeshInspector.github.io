@@ -1,0 +1,13 @@
+@INCLUDE = DoxyfileBase
+
+PROJECT_NAME           = "MeshLib Java Docs"
+LAYOUT_FILE            = ../MeshLib/doxygen/DoxygenLayoutJava.xml
+# The generated sources of meshlib.jar, staged by the docs CI (update-docs.yml).
+# The meshlib.ffi package holds only the method handles of the C functions.
+INPUT                  = ../MeshLib/JavaBindings/src \
+                         ../MeshLib/doxygen/APIJavaPage.dox
+EXCLUDE                = ../MeshLib/JavaBindings/src/meshlib/ffi
+FILE_PATTERNS          = *.java \
+                         *.dox
+OPTIMIZE_OUTPUT_JAVA   = YES
+HTML_OUTPUT            = html/Java

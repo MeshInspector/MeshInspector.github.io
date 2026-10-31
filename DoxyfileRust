@@ -1,0 +1,18 @@
+@INCLUDE = DoxyfileBase
+
+PROJECT_NAME           = "MeshLib Rust Docs"
+EXTENSION_MAPPING      = rs=c++
+# The parameters are written `name: Type` (see preprocessors/rust.py), so Doxygen sees no
+# parameter names and would warn on every \param of the C++ descriptions.
+WARN_IF_DOC_ERROR      = NO
+LAYOUT_FILE            = ../MeshLib/doxygen/DoxygenLayoutRust.xml
+# The generated src of the `meshlib` crate, staged by the docs CI (update-docs.yml).
+# preprocessors/rust.py rewrites it into pseudo-C++ for Doxygen. The `ffi` module holds the
+# raw C declarations; the filter takes the fields and constants of the plain structs from it.
+INPUT                  = ../MeshLib/RustBindings \
+                         ../MeshLib/doxygen/APIRustPage.dox
+EXCLUDE                = ../MeshLib/RustBindings/ffi
+FILE_PATTERNS          = *.rs \
+                         *.dox
+FILTER_PATTERNS        = *.rs=preprocessors/rust.py
+HTML_OUTPUT            = html/Rust
