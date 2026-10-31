@@ -12,8 +12,10 @@ Doxygen has no Rust parser, so the ``Rust`` module (see ``../DoxyfileRust``) map
 * ``pub struct`` / ``pub trait`` -> ``struct``, the traits it implements or derives -> base classes;
   the plain structs and the enums (``pub use crate::ffi::MR_X as X``) take their fields and
   constants from their ``#[repr(C)]`` definition in ``ffi``;
-* ``pub fn f(a: A) -> R`` -> ``auto f(A a) -> R;`` (``static`` without ``self``, ``const`` with ``&self``),
-  the generic bounds, ``unsafe`` and ``#[deprecated]`` go to the description;
+* ``pub fn f(a: A) -> R`` -> ``auto f(a: A) -> R;`` (``static`` without ``self``, ``const`` with ``&self``),
+  the generic bounds, ``unsafe`` and ``#[deprecated]`` go to the description. The parameters stay in
+  the Rust order: a leading ``&`` (``f(&A a)``) would read as a function pointer declarator, while
+  Doxygen takes ``a: &meshlib::A`` whole as the type of a nameless parameter and still links ``meshlib::A``;
 * ``pub type`` -> ``using``, ``pub const`` -> ``static const``, ``pub mod`` -> ``namespace``.
 
 Types keep the Rust spelling (``&mut meshlib::Mesh``, ``Option<&meshlib::VertCoords>``) with ``crate::``
@@ -529,7 +531,7 @@ class Emitter:
                 params.append(self.type(p))
                 continue
             name = [s for kind, s in p[:colon] if kind == "ident" and s != "mut"]
-            params.append(f"{self.type(p[colon + 1:])} {name[-1] if name else '_'}")
+            params.append(f"{name[-1] if name else '_'}: {self.type(p[colon + 1:])}")
         if f["unsafe"]:
             notes.append("\\note This function is `unsafe`.")
         head = f"{template}{'static ' if static else ''}"
