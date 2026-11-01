@@ -262,9 +262,7 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 <div class="line">}</div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga67dfdaf568c4844e1435a42bec259460"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga67dfdaf568c4844e1435a42bec259460">shift</a></div><div class="ttdeci">Vector3f shift() const</div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>;</div>
-<div class="line"> </div>
-<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>CollisionExample</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>CollisionExample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
@@ -272,21 +270,15 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 <div class="line">        var meshB = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeUVSphere(); <span class="comment">// make mesh B</span></div>
 <div class="line">        meshB.transform(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f.translation(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3f(0.1f, 0.1f, 0.1f))); <span class="comment">// shift mesh B for better demonstration</span></div>
 <div class="line"> </div>
-<div class="line">        var meshPartA = <span class="keyword">new</span> MeshPart(meshA);</div>
-<div class="line">        var meshPartB = <span class="keyword">new</span> MeshPart(meshB);</div>
+<div class="line">        var collidingFacePairs = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangles(meshA, meshB); <span class="comment">// find each pair of colliding faces</span></div>
+<div class="line">        <span class="keywordflow">for</span> (nuint i = 0; i &lt; collidingFacePairs.size(); ++i)</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;{0} {1}&quot;</span>, collidingFacePairs[i].aFace.id, collidingFacePairs[i].bFace.id); <span class="comment">// print each pair of colliding faces</span></div>
 <div class="line"> </div>
-<div class="line">        var collidingFacePairs = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangles(meshPartA, meshPartB); <span class="comment">// find each pair of colliding faces</span></div>
-<div class="line">        <span class="keywordflow">for</span> (nuint i = 0; i &lt; collidingFacePairs.size(); i++)</div>
-<div class="line">        {</div>
-<div class="line">            var pair = collidingFacePairs[i];</div>
-<div class="line">            Console.WriteLine($<span class="stringliteral">&quot;{pair.aFace.id} {pair.bFace.id}&quot;</span>); <span class="comment">// print each pair of colliding faces</span></div>
-<div class="line">        }</div>
-<div class="line"> </div>
-<div class="line">        var collidingFaceBitSets = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangleBitsets(meshPartA, meshPartB); <span class="comment">// find bitsets of colliding faces</span></div>
+<div class="line">        var collidingFaceBitSets = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangleBitsets(meshA, meshB); <span class="comment">// find bitsets of colliding faces</span></div>
 <div class="line">        Console.WriteLine(collidingFaceBitSets.first().count()); <span class="comment">// print number of colliding faces from mesh A</span></div>
 <div class="line">        Console.WriteLine(collidingFaceBitSets.second().count()); <span class="comment">// print number of colliding faces from mesh B</span></div>
 <div class="line"> </div>
-<div class="line">        var isColliding = !<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangles(meshPartA, meshPartB, <span class="keyword">null</span>, <span class="keyword">true</span>).empty(); <span class="comment">// fast check if mesh A and mesh B collide</span></div>
+<div class="line">        var isColliding = !<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingTriangles(meshA, meshB, <span class="keyword">null</span>, <span class="keyword">true</span>).empty(); <span class="comment">// fast check if mesh A and mesh B collide</span></div>
 <div class="line">        Console.WriteLine(isColliding);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
@@ -319,8 +311,71 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 <div class="line">console.log(isColliding);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::{AffineXf3f, MeshPart, Vector3f};</div>
+<div class="line"> </div>
+<div class="line">fn main()</div>
+<div class="line">{</div>
+<div class="line">    let mesh_a = meshlib::make_uv_sphere(None, None, None); // make mesh A</div>
+<div class="line">    let mut mesh_b = meshlib::make_uv_sphere(None, None, None); // make mesh B</div>
+<div class="line">    mesh_b.transform(&amp;AffineXf3f::translation(&amp;Vector3f {x: 0.1, y: 0.1, z: 0.1}), None); // shift mesh B for better demonstration</div>
+<div class="line"> </div>
+<div class="line">    let part_a = MeshPart::construct(&amp;mesh_a, None);</div>
+<div class="line">    let part_b = MeshPart::construct(&amp;mesh_b, None);</div>
+<div class="line"> </div>
+<div class="line">    let colliding_face_pairs = meshlib::find_colliding_triangles(&amp;part_a, &amp;part_b, None, None); // find each pair of colliding faces</div>
+<div class="line">    for i in 0..colliding_face_pairs.size()</div>
+<div class="line">    {</div>
+<div class="line">        let pair = colliding_face_pairs.at(i);</div>
+<div class="line">        println!(&quot;{} {}&quot;, pair.a_face().id_, pair.b_face().id_); // print each pair of colliding faces</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    let colliding_face_bit_sets = meshlib::find_colliding_triangle_bitsets(&amp;part_a, &amp;part_b, None); // find bitsets of colliding faces</div>
+<div class="line">    println!(&quot;{}&quot;, colliding_face_bit_sets.first().count()); // print number of colliding faces from mesh A</div>
+<div class="line">    println!(&quot;{}&quot;, colliding_face_bit_sets.second().count()); // print number of colliding faces from mesh B</div>
+<div class="line"> </div>
+<div class="line">    let is_colliding = !meshlib::find_colliding_triangles(&amp;part_a, &amp;part_b, None, Some(true)).empty(); // fast check if mesh A and mesh B collide</div>
+<div class="line">    println!(&quot;{is_colliding}&quot;);</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.AffineXf3f;</div>
+<div class="line"><span class="keyword">import</span> meshlib.FaceFace;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.MeshPart;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Vector3f;</div>
+<div class="line"><span class="keyword">import</span> meshlib.std_pair_MR_FaceBitSet_MR_FaceBitSet;</div>
+<div class="line"><span class="keyword">import</span> meshlib.std_vector_MR_FaceFace;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>Collision</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        Mesh meshA = Functions.makeUVSphere(<span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>); <span class="comment">// make mesh A</span></div>
+<div class="line">        Mesh meshB = Functions.makeUVSphere(<span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>); <span class="comment">// make mesh B</span></div>
+<div class="line">        meshB.transform(AffineXf3f.translation(<span class="keyword">new</span> Vector3f(0.1f, 0.1f, 0.1f)), <span class="keyword">null</span>); <span class="comment">// shift mesh B for better demonstration</span></div>
+<div class="line"> </div>
+<div class="line">        MeshPart partA = <span class="keyword">new</span> MeshPart(meshA, <span class="keyword">null</span>);</div>
+<div class="line">        MeshPart partB = <span class="keyword">new</span> MeshPart(meshB, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        std_vector_MR_FaceFace collidingFacePairs = Functions.findCollidingTriangles(partA, partB, <span class="keyword">null</span>, <span class="keyword">null</span>); <span class="comment">// find each pair of colliding faces</span></div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">long</span> i = 0; i &lt; collidingFacePairs.size(); i++)</div>
+<div class="line">        {</div>
+<div class="line">            FaceFace ff = collidingFacePairs.at(i);</div>
+<div class="line">            System.out.println(ff.aFace().id_() + <span class="stringliteral">&quot; &quot;</span> + ff.bFace().id_()); <span class="comment">// print each pair of colliding faces</span></div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        std_pair_MR_FaceBitSet_MR_FaceBitSet collidingFaceBitSets = Functions.findCollidingTriangleBitsets(partA, partB, <span class="keyword">null</span>); <span class="comment">// find bitsets of colliding faces</span></div>
+<div class="line">        System.out.println(collidingFaceBitSets.first().count()); <span class="comment">// print number of colliding faces from mesh A</span></div>
+<div class="line">        System.out.println(collidingFaceBitSets.second().count()); <span class="comment">// print number of colliding faces from mesh B</span></div>
+<div class="line"> </div>
+<div class="line">        <span class="keywordtype">boolean</span> isColliding = !Functions.findCollidingTriangles(partA, partB, <span class="keyword">null</span>, <span class="keyword">true</span>).empty(); <span class="comment">// fast check if mesh A and mesh B collide</span></div>
+<div class="line">        System.out.println(isColliding);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
 </ul>
-</div> </div></div><!-- contents -->
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

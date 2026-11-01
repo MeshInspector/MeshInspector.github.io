@@ -169,6 +169,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">    <span class="comment">// the global registration can be applied to meshes and point clouds</span></div>
 <div class="line">    <span class="comment">// to simplify the sample app, we will work with point clouds only</span></div>
 <div class="line">    std::vector&lt;MR::PointCloud&gt; inputs;</div>
+<div class="line">    inputs.reserve( argc - 2 ); <span class="comment">// no reallocation, `objects` refer to the elements</span></div>
 <div class="line">    <span class="comment">// as ICP and MultiwayICP classes accept both meshes and point clouds,</span></div>
 <div class="line">    <span class="comment">// the input data must be converted to special wrapper objects</span></div>
 <div class="line">    <span class="comment">// NB: the wrapper objects hold *references* to the source data, NOT their copies</span></div>
@@ -214,7 +215,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga20c859724d4c3797dfd73f020904c2d4">input</a> = inputs[i];</div>
 <div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span>&amp; xf = xfs[i];</div>
 <div class="line">        <span class="keywordflow">for</span> ( <span class="keyword">const</span> <span class="keyword">auto</span>&amp; point : <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga20c859724d4c3797dfd73f020904c2d4">input</a>.points )</div>
-<div class="line">            output.points.emplace_back( xf( point ) );</div>
+<div class="line">            output.addPoint( xf( point ) );</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="keyword">auto</span> res = <a class="code hl_functionRef" href="./Cpp/group__PointsSaveGroup.html#gab9d40fe2ffff1295614436078dc95bb4">MR::PointsSave::toAnySupportedFormat</a>( output, argv[argc - 1] );</div>
@@ -322,30 +323,11 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRVector.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_MR_PointCloud_std_string.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_void_std_string.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_function_bool_from_float.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
-<div class="line"> </div>
-<div class="line"><span class="comment">// print progress every 10%</span></div>
-<div class="line"><span class="keywordtype">int</span> gProgress = -1;</div>
-<div class="line"><span class="keywordtype">bool</span> onProgress( <span class="keywordtype">float</span> v )</div>
-<div class="line">{</div>
-<div class="line">    <span class="keywordtype">int</span> progress = (int)( 10.f * v );</div>
-<div class="line">    <span class="keywordflow">if</span> ( progress != gProgress )</div>
-<div class="line">    {</div>
-<div class="line">        gProgress = progress;</div>
-<div class="line">        printf( <span class="stringliteral">&quot;%d%%...\n&quot;</span>, progress * 10 );</div>
-<div class="line">    }</div>
-<div class="line">    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line">}</div>
-<div class="line"> </div>
-<div class="line"><span class="keywordtype">void</span> resetProgress( <span class="keywordtype">void</span> )</div>
-<div class="line">{</div>
-<div class="line">    gProgress = -1;</div>
-<div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">void</span> printStats( <span class="keyword">const</span> MR_MultiwayICP* icp )</div>
 <div class="line">{</div>
@@ -357,11 +339,11 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">    {</div>
 <div class="line">        <span class="keywordtype">double</span> p2ptMetric = MR_MultiwayICP_getMeanSqDistToPoint( icp, NULL );</div>
 <div class="line">        <span class="keywordtype">double</span> p2ptInaccuracy = MR_MultiwayICP_getMeanSqDistToPoint( icp, &amp;p2ptMetric );</div>
-<div class="line">        printf( <span class="stringliteral">&quot;RMS point-to-point distance: %f ± %f\n&quot;</span>, p2ptMetric, p2ptInaccuracy );</div>
+<div class="line">        printf( <span class="stringliteral">&quot;RMS point-to-point distance: %g ± %g\n&quot;</span>, p2ptMetric, p2ptInaccuracy );</div>
 <div class="line"> </div>
 <div class="line">        <span class="keywordtype">double</span> p2plMetric = MR_MultiwayICP_getMeanSqDistToPlane( icp, NULL );</div>
 <div class="line">        <span class="keywordtype">double</span> p2plInaccuracy = MR_MultiwayICP_getMeanSqDistToPlane( icp, &amp;p2plMetric );</div>
-<div class="line">        printf( <span class="stringliteral">&quot;RMS point-to-plane distance: %f ± %f\n&quot;</span>, p2plMetric, p2plInaccuracy );</div>
+<div class="line">        printf( <span class="stringliteral">&quot;RMS point-to-plane distance: %g ± %g\n&quot;</span>, p2plMetric, p2plInaccuracy );</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="line"> </div>
@@ -421,10 +403,6 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">    MR_MultiwayICPSamplingParameters* samplingParams = MR_MultiwayICPSamplingParameters_DefaultConstruct();</div>
 <div class="line">    <span class="comment">// set sampling voxel size</span></div>
 <div class="line">    MR_MultiwayICPSamplingParameters_Set_samplingVoxelSize( samplingParams, MR_Box3f_diagonal( &amp;maxBBox ) * 0.03f );</div>
-<div class="line">    <span class="comment">// set progress callback</span></div>
-<div class="line">    MR_std_function_bool_from_float* <a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga62992c1610b7cedfa3ba9d8fe46078b1">cb</a> = MR_std_function_bool_from_float_DefaultConstruct();</div>
-<div class="line">    MR_std_function_bool_from_float_Assign( cb, onProgress );</div>
-<div class="line">    MR_MultiwayICPSamplingParameters_Set_cb( samplingParams, MR_PassBy_Copy, cb );</div>
 <div class="line"> </div>
 <div class="line">    MR_MultiwayICP* icp = MR_MultiwayICP_Construct( inputs, samplingParams );</div>
 <div class="line">    MR_MultiwayICPSamplingParameters_Destroy( samplingParams );</div>
@@ -438,8 +416,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">    printStats( icp );</div>
 <div class="line"> </div>
 <div class="line">    printf( <span class="stringliteral">&quot;Calculating transformations...\n&quot;</span> );</div>
-<div class="line">    resetProgress();</div>
-<div class="line">    MR_Vector_MR_AffineXf3f_MR_ObjId* xfs = MR_MultiwayICP_calculateTransformations( icp, cb );</div>
+<div class="line">    MR_Vector_MR_AffineXf3f_MR_ObjId* xfs = MR_MultiwayICP_calculateTransformations( icp, NULL );</div>
 <div class="line">    printStats( icp );</div>
 <div class="line"> </div>
 <div class="line">    MR_PointCloud* output = MR_PointCloud_DefaultConstruct();</div>
@@ -452,7 +429,7 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">        <span class="keywordtype">size_t</span> numPoints = MR_VertCoords_size( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a> );</div>
 <div class="line">        <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> j = 0; j &lt; numPoints; j++ )</div>
 <div class="line">        {</div>
-<div class="line">            MR_Vector3f <a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga7bcbbabe3659dea6e3ae51bd43e4aee4">point</a> = *MR_VertCoords_index( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a>, (MR_VertId){j} );</div>
+<div class="line">            MR_Vector3f <a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga7bcbbabe3659dea6e3ae51bd43e4aee4">point</a> = *MR_VertCoords_index( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a>, (MR_VertId){(int)j} );</div>
 <div class="line">            <a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga7bcbbabe3659dea6e3ae51bd43e4aee4">point</a> = MR_AffineXf3f_call( xf, &amp;point );</div>
 <div class="line">            MR_PointCloud_addPoint( output, &amp;point );</div>
 <div class="line">        }</div>
@@ -461,110 +438,102 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">    MR_expected_void_std_string* saveEx = MR_PointsSave_toAnySupportedFormat( output, argv[argc - 1], NULL, NULL );</div>
 <div class="line">    <span class="keyword">const</span> MR_std_string* saveError = MR_expected_void_std_string_error( saveEx );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !saveError )</div>
-<div class="line">    {</div>
 <div class="line">        rc = EXIT_SUCCESS;</div>
-<div class="line">    }</div>
 <div class="line">    <span class="keywordflow">else</span></div>
-<div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save point cloud: %s\n&quot;</span>, MR_std_string_data( saveError ) );</div>
-<div class="line">    }</div>
-<div class="line">    MR_std_string_Destroy( saveError );</div>
+<div class="line">    MR_expected_void_std_string_Destroy( saveEx );</div>
 <div class="line"> </div>
 <div class="line">    MR_PointCloud_Destroy( output );</div>
 <div class="line">    MR_Vector_MR_AffineXf3f_MR_ObjId_Destroy( xfs );</div>
-<div class="line">    MR_std_function_bool_from_float_Destroy( cb );</div>
 <div class="line">    MR_MultiwayICP_Destroy( icp );</div>
 <div class="line">out_inputs: ;</div>
 <div class="line">    <span class="comment">// As explained earlier, since those wrappers are non-owning, we have to manually destroy the contents.</span></div>
 <div class="line">    <span class="keywordtype">size_t</span> numLoadedInputs = MR_Vector_MR_MeshOrPointsXf_MR_ObjId_size( inputs );</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; numLoadedInputs; i++ )</div>
 <div class="line">    {</div>
-<div class="line">        MR_PointCloud_Destroy( MR_PointCloudPart_Get_cloud( MR_MeshOrPoints_asPointCloudPart( MR_MeshOrPointsXf_Get_obj( MR_Vector_MR_MeshOrPointsXf_MR_ObjId_index( inputs, (MR_ObjId){i} ) ) ) ) );</div>
+<div class="line">        MR_PointCloud_Destroy( MR_PointCloudPart_Get_cloud( MR_MeshOrPoints_asPointCloudPart( MR_MeshOrPointsXf_Get_obj( MR_Vector_MR_MeshOrPointsXf_MR_ObjId_index( inputs, (MR_ObjId){(int)i} ) ) ) ) );</div>
 <div class="line">    }</div>
 <div class="line">    MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Destroy( inputs );</div>
 <div class="line">out:</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga5549735766833f3928cb969df8aff806"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga5549735766833f3928cb969df8aff806">MR::RenderNameObject::Task::params</a></div><div class="ttdeci">const UiRenderParams * params</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga62992c1610b7cedfa3ba9d8fe46078b1"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga62992c1610b7cedfa3ba9d8fe46078b1">MR::ViewerEventQueue::NamedEvent::cb</a></div><div class="ttdeci">ViewerEventCallback cb</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga7bcbbabe3659dea6e3ae51bd43e4aee4"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga7bcbbabe3659dea6e3ae51bd43e4aee4">MR::RenderNameObject::Task::point</a></div><div class="ttdeci">ImVec2 point</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gadea5e520fb681e438a8ea02cc7ef2c2c"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a></div><div class="ttdeci">VertCoords &amp; points() const</div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>System.Reflection;</div>
-<div class="line"> </div>
-<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>GlobalRegistrationExample</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>GlobalRegistrationExample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> PrintStats(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_classRef" href="./Cpp/classMR_1_1MultiwayICP.html">MultiwayICP</a> icp)</div>
 <div class="line">    {</div>
-<div class="line">        ulong numActivePairs = icp.getNumActivePairs();</div>
-<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Number of samples: {icp.getNumSamples()}&quot;</span>);</div>
-<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Number of active pairs: {numActivePairs}&quot;</span>);</div>
-<div class="line"> </div>
-<div class="line">        <span class="keywordflow">if</span> (numActivePairs &gt; 0)</div>
+<div class="line">        Console.WriteLine(<span class="stringliteral">&quot;Samples: {0}&quot;</span>, icp.getNumSamples());</div>
+<div class="line">        Console.WriteLine(<span class="stringliteral">&quot;Active point pairs: {0}&quot;</span>, icp.getNumActivePairs());</div>
+<div class="line">        <span class="keywordflow">if</span> (icp.getNumActivePairs() &gt; 0)</div>
 <div class="line">        {</div>
-<div class="line">            <span class="keywordtype">double</span> p2ptMetric = icp.getMeanSqDistToPoint();</div>
-<div class="line">            <span class="keywordtype">double</span> p2ptInaccuracy = icp.getMeanSqDistToPoint(p2ptMetric);</div>
-<div class="line">            Console.WriteLine($<span class="stringliteral">&quot;RMS point-to-point distance: {p2ptMetric} ± {p2ptInaccuracy}&quot;</span>);</div>
-<div class="line"> </div>
-<div class="line">            <span class="keywordtype">double</span> p2plMetric = icp.getMeanSqDistToPlane();</div>
-<div class="line">            <span class="keywordtype">double</span> p2plInaccuracy = icp.getMeanSqDistToPlane(p2ptMetric);</div>
-<div class="line">            Console.WriteLine($<span class="stringliteral">&quot;RMS point-to-plane distance: {p2plMetric} ± {p2plInaccuracy}&quot;</span>);</div>
+<div class="line">            <span class="keywordtype">float</span> p2ptMetric = icp.getMeanSqDistToPoint();</div>
+<div class="line">            <span class="keywordtype">float</span> p2plMetric = icp.getMeanSqDistToPlane();</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;RMS point-to-point distance: {0} ± {1}&quot;</span>, p2ptMetric, icp.getMeanSqDistToPoint(p2ptMetric));</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;RMS point-to-plane distance: {0} ± {1}&quot;</span>, p2plMetric, icp.getMeanSqDistToPlane(p2plMetric));</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
+<div class="line"> </div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keywordflow">if</span> (args.Length &lt; 3)</div>
 <div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} INPUT1 INPUT2 [INPUTS...] OUTPUT&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
-<div class="line">            <span class="keywordflow">return</span>;</div>
+<div class="line">            Console.Error.WriteLine(<span class="stringliteral">&quot;Usage: GlobalRegistration INPUT1 INPUT2 [INPUTS...] OUTPUT&quot;</span>);</div>
+<div class="line">            Environment.Exit(1);</div>
 <div class="line">        }</div>
 <div class="line"> </div>
-<div class="line">        <span class="keywordflow">try</span></div>
+<div class="line">        <span class="comment">// the global registration can be applied to meshes and point clouds</span></div>
+<div class="line">        <span class="comment">// to simplify the sample app, we will work with point clouds only</span></div>
+<div class="line">        List&lt;MR.PointCloud&gt; inputs = <span class="keyword">new</span>();</div>
+<div class="line">        <span class="comment">// as ICP and MultiwayICP classes accept both meshes and point clouds,</span></div>
+<div class="line">        <span class="comment">// the input data must be converted to special wrapper objects</span></div>
+<div class="line">        <span class="comment">// NB: the wrapper objects hold *references* to the source data, NOT their copies</span></div>
+<div class="line">        MR.Vector_MRMeshOrPointsXf_MRObjId objects = <span class="keyword">new</span>();</div>
+<div class="line">        MR.Box3f maxBBox = <span class="keyword">new</span>();</div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; args.Length - 1; ++i)</div>
 <div class="line">        {</div>
-<div class="line">            <span class="comment">// INPUT1, INPUT2, ... are point cloud files you supply: partial scans of one object to be aligned</span></div>
-<div class="line">            <span class="keywordtype">int</span> inputNum = args.Length - 1;</div>
-<div class="line">            MR.Vector_MRMeshOrPointsXf_MRObjId inputs = <span class="keyword">new</span>();</div>
-<div class="line">            MR.Box3f maxBBox = <span class="keyword">new</span>();</div>
-<div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputNum; ++i)</div>
-<div class="line">            {</div>
-<div class="line">                var pc = MR.PointsLoad.fromAnySupportedFormat(args[i]);</div>
-<div class="line">                MR.MeshOrPointsXf <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga7ca462bf6ff993310a54857dc66ba1ff">obj</a> = <span class="keyword">new</span> MR.MeshOrPointsXf(pc, <span class="keyword">new</span> MR.AffineXf3f());</div>
-<div class="line">                inputs.pushBack(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga7ca462bf6ff993310a54857dc66ba1ff">obj</a>);</div>
-<div class="line">                maxBBox.include(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga7ca462bf6ff993310a54857dc66ba1ff">obj</a>.obj.computeBoundingBox());</div>
-<div class="line">            }</div>
+<div class="line">            var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a> = MR.PointsLoad.fromAnySupportedFormat(args[i]);</div>
 <div class="line"> </div>
-<div class="line">            MR.MultiwayICPSamplingParameters samplingParams = <span class="keyword">new</span>();</div>
-<div class="line">            samplingParams.samplingVoxelSize = maxBBox.diagonal() * 0.03f;</div>
+<div class="line">            var bbox = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a>.computeBoundingBox();</div>
+<div class="line">            <span class="keywordflow">if</span> (!maxBBox.valid() || bbox.volume() &gt; maxBBox.volume())</div>
+<div class="line">                maxBBox = bbox;</div>
 <div class="line"> </div>
-<div class="line">            MR.MultiwayICP icp = <span class="keyword">new</span>(inputs, samplingParams);</div>
-<div class="line">            MR.ICPProperties iCPProperties = <span class="keyword">new</span>();</div>
-<div class="line">            icp.setParams(iCPProperties);</div>
-<div class="line">            icp.updateAllPointPairs();</div>
-<div class="line">            PrintStats(icp);</div>
-<div class="line"> </div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Calculating transformations...&quot;</span>);</div>
-<div class="line">            MR.Vector_MRAffineXf3f_MRObjId xfs = icp.calculateTransformations();</div>
-<div class="line">            PrintStats(icp);</div>
-<div class="line">            MR.PointCloud output = <span class="keyword">new</span>();</div>
-<div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputNum; ++i)</div>
-<div class="line">            {</div>
-<div class="line">                MR.ObjId <span class="keywordtype">id</span> = <span class="keyword">new</span>(i);</div>
-<div class="line">                var xf = xfs[<a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#gad780242bd07f5443e169a2dd593d1187">id</a>];</div>
-<div class="line">                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; (int)inputs[<a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#gad780242bd07f5443e169a2dd593d1187">id</a>].obj.points().<a class="code hl_functionRef" href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>(); j++)</div>
-<div class="line">                    output.addPoint(xf.call(inputs[<span class="keywordtype">id</span>].obj.points()[<span class="keyword">new</span> MR.VertId(j)]));</div>
-<div class="line">            }</div>
-<div class="line"> </div>
-<div class="line">            MR.PointsSave.toAnySupportedFormat(output, args[args.Length - 1]);</div>
+<div class="line">            inputs.Add(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a>);</div>
+<div class="line">            <span class="comment">// you may also set an affine transformation for each input as a second argument</span></div>
+<div class="line">            objects.pushBack(<span class="keyword">new</span> MR.MeshOrPointsXf(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a>, <span class="keyword">new</span> MR.AffineXf3f()));</div>
 <div class="line">        }</div>
-<div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// you can set various parameters for the global registration; see the documentation for more info</span></div>
+<div class="line">        MR.MultiwayICPSamplingParameters samplingParams = <span class="keyword">new</span>();</div>
+<div class="line">        <span class="comment">// set sampling voxel size</span></div>
+<div class="line">        samplingParams.samplingVoxelSize = maxBBox.diagonal() * 0.03f;</div>
+<div class="line">        MR.MultiwayICP icp = <span class="keyword">new</span>(objects, samplingParams);</div>
+<div class="line"> </div>
+<div class="line">        icp.setParams(<span class="keyword">new</span> MR.ICPProperties());</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// gather statistics</span></div>
+<div class="line">        icp.updateAllPointPairs();</div>
+<div class="line">        PrintStats(icp);</div>
+<div class="line"> </div>
+<div class="line">        Console.WriteLine(<span class="stringliteral">&quot;Calculating transformations...&quot;</span>);</div>
+<div class="line">        var xfs = icp.calculateTransformations();</div>
+<div class="line">        PrintStats(icp);</div>
+<div class="line"> </div>
+<div class="line">        MR.PointCloud output = <span class="keyword">new</span>();</div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputs.Count; ++i)</div>
 <div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, e.Message);</div>
+<div class="line">            var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a> = inputs[i].points;</div>
+<div class="line">            var xf = xfs[<span class="keyword">new</span> MR.ObjId(i)];</div>
+<div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> v = 0; <a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga36a3edb3148be58b6f020a1df9723df8">v</a> &lt; (int)<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a>.size(); ++<a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga36a3edb3148be58b6f020a1df9723df8">v</a>)</div>
+<div class="line">                output.addPoint(xf.call(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a>[<span class="keyword">new</span> MR.VertId(v)]));</div>
 <div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        MR.PointsSave.toAnySupportedFormat(output, args[args.Length - 1]);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga7ca462bf6ff993310a54857dc66ba1ff"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga7ca462bf6ff993310a54857dc66ba1ff">obj</a></div><div class="ttdeci">const std::shared_ptr&lt; Object &gt; &amp; obj() const</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_gad780242bd07f5443e169a2dd593d1187"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gad780242bd07f5443e169a2dd593d1187">MR::RibbonSceneObjectsListDrawer::LastDepthInfo::id</a></div><div class="ttdeci">int id</div></div>
-<div class="ttc" id="agroup__VoxelGroup_html_ga1a728fc2d1e7dd47e0f137af620f6985"><div class="ttname"><a href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a></div><div class="ttdeci">size_t size() const</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga36a3edb3148be58b6f020a1df9723df8"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga36a3edb3148be58b6f020a1df9723df8">MR::EdgePathsBuilderT::CandidateVert::v</a></div><div class="ttdeci">VertId v</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
@@ -632,8 +601,182 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">ml.PointsSave.toAnySupportedFormat(output, outputPath);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::{AffineXf3f, Box3f, ICPProperties, MeshOrPoints, MeshOrPointsXf, MultiwayICP, MultiwayICPSamplingParameters, ObjId, PointCloud};</div>
+<div class="line"> </div>
+<div class="line">fn print_stats(icp: &amp;MultiwayICP)</div>
+<div class="line">{</div>
+<div class="line">    println!(&quot;Samples: {}&quot;, icp.get_num_samples());</div>
+<div class="line">    println!(&quot;Active point pairs: {}&quot;, icp.get_num_active_pairs());</div>
+<div class="line">    if icp.get_num_active_pairs() &gt; 0</div>
+<div class="line">    {</div>
+<div class="line">        // the binding has no &quot;no value&quot; option here; deviation from 0 is the same root-mean-square distance</div>
+<div class="line">        let p2pt_metric = icp.get_mean_sq_dist_to_point(&amp;0.0);</div>
+<div class="line">        let p2pl_metric = icp.get_mean_sq_dist_to_plane(&amp;0.0);</div>
+<div class="line">        println!(&quot;RMS point-to-point distance: {} ± {}&quot;, p2pt_metric, icp.get_mean_sq_dist_to_point(&amp;(p2pt_metric as f64)));</div>
+<div class="line">        println!(&quot;RMS point-to-plane distance: {} ± {}&quot;, p2pl_metric, icp.get_mean_sq_dist_to_plane(&amp;(p2pl_metric as f64)));</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    let args: Vec&lt;String&gt; = std::env::args().collect();</div>
+<div class="line">    if args.len() &lt; 4</div>
+<div class="line">    {</div>
+<div class="line">        return Err(format!(&quot;Usage: {} INPUT1 INPUT2 [INPUTS...] OUTPUT&quot;, args[0]));</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // the global registration can be applied to meshes and point clouds</div>
+<div class="line">    // to simplify the sample app, we will work with point clouds only</div>
+<div class="line">    let mut inputs = Vec::new();</div>
+<div class="line">    // as ICP and MultiwayICP classes accept both meshes and point clouds,</div>
+<div class="line">    // the input data must be converted to special wrapper objects</div>
+<div class="line">    // NB: the wrapper objects hold *references* to the source data, NOT their copies</div>
+<div class="line">    let mut objects = meshlib::Vector_MR_MeshOrPointsXf_MR_ObjId::new();</div>
+<div class="line">    let mut max_bbox = Box3f::new();</div>
+<div class="line">    for input_path in &amp;args[1..args.len() - 1]</div>
+<div class="line">    {</div>
+<div class="line">        let point_cloud = meshlib::points_load::from_any_supported_format(input_path, None).into_result().map_err(|error| format!(&quot;Failed to load point cloud: {error}&quot;))?;</div>
+<div class="line"> </div>
+<div class="line">        let bbox = point_cloud.compute_bounding_box(None);</div>
+<div class="line">        if !max_bbox.valid() || bbox.volume() &gt; max_bbox.volume()</div>
+<div class="line">        {</div>
+<div class="line">            max_bbox = bbox;</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        // you may also set an affine transformation for each input as a second argument</div>
+<div class="line">        objects.push_back_const_mr_mesh_or_points_xf_ref(&amp;MeshOrPointsXf::construct_from(&amp;MeshOrPoints::construct_mr_point_cloud(&amp;point_cloud), AffineXf3f::new()));</div>
+<div class="line">        inputs.push(point_cloud);</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // you can set various parameters for the global registration; see the documentation for more info</div>
+<div class="line">    let mut sampling_params = MultiwayICPSamplingParameters::new();</div>
+<div class="line">    // set sampling voxel size</div>
+<div class="line">    sampling_params.set_sampling_voxel_size(max_bbox.diagonal() * 0.03);</div>
+<div class="line">    let mut icp = MultiwayICP::construct(&amp;objects, &amp;sampling_params);</div>
+<div class="line"> </div>
+<div class="line">    icp.set_params(&amp;ICPProperties::new());</div>
+<div class="line"> </div>
+<div class="line">    // gather statistics</div>
+<div class="line">    icp.update_all_point_pairs(None);</div>
+<div class="line">    print_stats(&amp;icp);</div>
+<div class="line"> </div>
+<div class="line">    println!(&quot;Calculating transformations...&quot;);</div>
+<div class="line">    let xfs = icp.calculate_transformations(None);</div>
+<div class="line">    print_stats(&amp;icp);</div>
+<div class="line"> </div>
+<div class="line">    let mut output = PointCloud::new();</div>
+<div class="line">    for (i, input) in inputs.iter().enumerate()</div>
+<div class="line">    {</div>
+<div class="line">        let xf = xfs.index(ObjId {id_: i as i32});</div>
+<div class="line">        let points = input.points();</div>
+<div class="line">        for j in 0..points.size()</div>
+<div class="line">        {</div>
+<div class="line">            output.add_point(&amp;xf.call(points.index(meshlib::VertId {id_: j as i32})));</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    meshlib::points_save::to_any_supported_format(&amp;output, &amp;args[args.len() - 1], None).into_result().map_err(|error| format!(&quot;Failed to save point cloud: {error}&quot;))?;</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> java.util.ArrayList;</div>
+<div class="line"><span class="keyword">import</span> meshlib.AffineXf3f;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Box3f;</div>
+<div class="line"><span class="keyword">import</span> meshlib.ICPProperties;</div>
+<div class="line"><span class="keyword">import</span> meshlib.MeshOrPoints;</div>
+<div class="line"><span class="keyword">import</span> meshlib.MeshOrPointsXf;</div>
+<div class="line"><span class="keyword">import</span> meshlib.MultiwayICP;</div>
+<div class="line"><span class="keyword">import</span> meshlib.MultiwayICPSamplingParameters;</div>
+<div class="line"><span class="keyword">import</span> meshlib.ObjId;</div>
+<div class="line"><span class="keyword">import</span> meshlib.PointCloud;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Vector_MR_AffineXf3f_MR_ObjId;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Vector_MR_MeshOrPointsXf_MR_ObjId;</div>
+<div class="line"><span class="keyword">import</span> meshlib.VertCoords;</div>
+<div class="line"><span class="keyword">import</span> meshlib.VertId;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>GlobalRegistration</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> printStats(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga2f6e378c35aa8f425461ad03c089cfc3">MultiwayICP</a> icp)</div>
+<div class="line">    {</div>
+<div class="line">        System.out.println(<span class="stringliteral">&quot;Samples: &quot;</span> + icp.getNumSamples());</div>
+<div class="line">        System.out.println(<span class="stringliteral">&quot;Active point pairs: &quot;</span> + icp.getNumActivePairs());</div>
+<div class="line">        <span class="keywordflow">if</span> (icp.getNumActivePairs() &gt; 0)</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// the deviation from zero is the root-mean-square distance</span></div>
+<div class="line">            <span class="keywordtype">float</span> p2ptMetric = icp.getMeanSqDistToPoint(0.0);</div>
+<div class="line">            <span class="keywordtype">float</span> p2plMetric = icp.getMeanSqDistToPlane(0.0);</div>
+<div class="line">            System.out.println(<span class="stringliteral">&quot;RMS point-to-point distance: &quot;</span> + p2ptMetric + <span class="stringliteral">&quot; ± &quot;</span> + icp.getMeanSqDistToPoint(p2ptMetric));</div>
+<div class="line">            System.out.println(<span class="stringliteral">&quot;RMS point-to-plane distance: &quot;</span> + p2plMetric + <span class="stringliteral">&quot; ± &quot;</span> + icp.getMeanSqDistToPlane(p2plMetric));</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (args.length &lt; 3)</div>
+<div class="line">        {</div>
+<div class="line">            System.err.println(<span class="stringliteral">&quot;Usage: GlobalRegistration INPUT1 INPUT2 [INPUTS...] OUTPUT&quot;</span>);</div>
+<div class="line">            System.exit(1);</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// the global registration can be applied to meshes and point clouds</span></div>
+<div class="line">        <span class="comment">// to simplify the sample app, we will work with point clouds only</span></div>
+<div class="line">        ArrayList&lt;PointCloud&gt; inputs = <span class="keyword">new</span> ArrayList&lt;&gt;();</div>
+<div class="line">        <span class="comment">// as ICP and MultiwayICP classes accept both meshes and point clouds,</span></div>
+<div class="line">        <span class="comment">// the input data must be converted to special wrapper objects</span></div>
+<div class="line">        <span class="comment">// NB: the wrapper objects hold *references* to the source data, NOT their copies</span></div>
+<div class="line">        Vector_MR_MeshOrPointsXf_MR_ObjId objects = <span class="keyword">new</span> Vector_MR_MeshOrPointsXf_MR_ObjId();</div>
+<div class="line">        Box3f maxBBox = <span class="keyword">new</span> Box3f();</div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; args.length - 1; i++)</div>
+<div class="line">        {</div>
+<div class="line">            <span class="comment">// An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">            <a class="code hl_enumvalueRef" href="./Cpp/group__GeneralGroup.html#ga9228096dfb940b935e8dada25c4b0c37aee9349b5cdfd717c7e1234edce6b72fa">PointCloud</a> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a> = meshlib.pointsload.Functions.fromAnySupportedFormat(args[i], <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">            Box3f bbox = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a>.computeBoundingBox(<span class="keyword">null</span>);</div>
+<div class="line">            <span class="keywordflow">if</span> (!maxBBox.valid() || bbox.volume() &gt; maxBBox.volume())</div>
+<div class="line">                maxBBox = bbox;</div>
+<div class="line"> </div>
+<div class="line">            inputs.add(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a>);</div>
+<div class="line">            <span class="comment">// you may also set an affine transformation for each input as a second argument</span></div>
+<div class="line">            objects.push_back_const_MR_MeshOrPointsXf_ref(<span class="keyword">new</span> MeshOrPointsXf(<span class="keyword">new</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4b19905136ab6d31a445cc3884ab0c1e">MeshOrPoints</a>(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga1e4577ab2bb24e7600c98bc550668b06">pointCloud</a>), <span class="keyword">new</span> AffineXf3f()));</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// you can set various parameters for the global registration; see the documentation for more info</span></div>
+<div class="line">        MultiwayICPSamplingParameters samplingParams = <span class="keyword">new</span> MultiwayICPSamplingParameters();</div>
+<div class="line">        <span class="comment">// set sampling voxel size</span></div>
+<div class="line">        samplingParams.setSamplingVoxelSize(maxBBox.diagonal() * 0.03f);</div>
+<div class="line">        <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga2f6e378c35aa8f425461ad03c089cfc3">MultiwayICP</a> icp = <span class="keyword">new</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga2f6e378c35aa8f425461ad03c089cfc3">MultiwayICP</a>(objects, samplingParams);</div>
+<div class="line"> </div>
+<div class="line">        icp.setParams(<span class="keyword">new</span> ICPProperties());</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// gather statistics</span></div>
+<div class="line">        icp.updateAllPointPairs(<span class="keyword">null</span>);</div>
+<div class="line">        printStats(icp);</div>
+<div class="line"> </div>
+<div class="line">        System.out.println(<span class="stringliteral">&quot;Calculating transformations...&quot;</span>);</div>
+<div class="line">        Vector_MR_AffineXf3f_MR_ObjId xfs = icp.calculateTransformations(<span class="keyword">null</span>);</div>
+<div class="line">        printStats(icp);</div>
+<div class="line"> </div>
+<div class="line">        <a class="code hl_enumvalueRef" href="./Cpp/group__GeneralGroup.html#ga9228096dfb940b935e8dada25c4b0c37aee9349b5cdfd717c7e1234edce6b72fa">PointCloud</a> output = <span class="keyword">new</span> <a class="code hl_enumvalueRef" href="./Cpp/group__GeneralGroup.html#ga9228096dfb940b935e8dada25c4b0c37aee9349b5cdfd717c7e1234edce6b72fa">PointCloud</a>();</div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; inputs.size(); i++)</div>
+<div class="line">        {</div>
+<div class="line">            VertCoords <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a> = inputs.get(i).points();</div>
+<div class="line">            AffineXf3f xf = xfs.index(<span class="keyword">new</span> ObjId(i));</div>
+<div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> v = 0; <a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga36a3edb3148be58b6f020a1df9723df8">v</a> &lt; <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a>.size(); <a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga36a3edb3148be58b6f020a1df9723df8">v</a>++)</div>
+<div class="line">                output.addPoint(xf.call(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a>.index(<span class="keyword">new</span> VertId(v))));</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">        meshlib.pointssave.Functions.toAnySupportedFormat(output, args[args.length - 1], <span class="keyword">null</span>);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga2f6e378c35aa8f425461ad03c089cfc3"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga2f6e378c35aa8f425461ad03c089cfc3">MultiwayICP</a></div><div class="ttdeci">MultiwayICP(const ICPObjects &amp;objects, const MultiwayICPSamplingParameters &amp;samplingParams)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga4b19905136ab6d31a445cc3884ab0c1e"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga4b19905136ab6d31a445cc3884ab0c1e">MeshOrPoints</a></div><div class="ttdeci">MeshOrPoints(const MeshPart &amp;mp)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9228096dfb940b935e8dada25c4b0c37aee9349b5cdfd717c7e1234edce6b72fa"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga9228096dfb940b935e8dada25c4b0c37aee9349b5cdfd717c7e1234edce6b72fa">MR::StatePluginTabs::PointCloud</a></div><div class="ttdeci">@ PointCloud</div></div>
+</div><!-- fragment --></li>
 </ul>
-</div> </div></div><!-- contents -->
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

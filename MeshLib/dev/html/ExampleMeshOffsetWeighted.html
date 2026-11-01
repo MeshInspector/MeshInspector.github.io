@@ -142,10 +142,14 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRWeightedPointsShell_8h.html">MRVoxels/MRWeightedPointsShell.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MROffset_8h.html">MRVoxels/MROffset.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRIOExtras_8h.html">MRIOExtras/MRIOExtras.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
+<div class="line">    <span class="comment">// CTM, JPEG and other formats beyond the basic ones come with the MRIOExtras library</span></div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga9da69906a8753c1bbec83769cf687367">MR::loadIOExtras</a>();</div>
+<div class="line"> </div>
 <div class="line">    <span class="comment">// Create some mesh</span></div>
 <div class="line">    <span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga638324ed49e28189a1c35cf398dc6a73">MR::makeTorus</a>();</div>
 <div class="line"> </div>
@@ -181,6 +185,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRIOExtras_8h_html"><div class="ttname"><a href="./Cpp/MRIOExtras_8h.html">MRIOExtras.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aMROffset_8h_html"><div class="ttname"><a href="./Cpp/MROffset_8h.html">MROffset.h</a></div></div>
@@ -191,6 +196,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_ga3fbe95187540b89c884e647eb8377e03"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga3fbe95187540b89c884e647eb8377e03">end</a></div><div class="ttdeci">Iterator end() const</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga638324ed49e28189a1c35cf398dc6a73"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga638324ed49e28189a1c35cf398dc6a73">MR::makeTorus</a></div><div class="ttdeci">Mesh makeTorus(float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga8134bd36bc30764272b23a2c614b0e84"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga8134bd36bc30764272b23a2c614b0e84">MR::suggestVoxelSize</a></div><div class="ttdeci">float suggestVoxelSize(const MeshPart &amp;mp, float approxNumVoxels)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9da69906a8753c1bbec83769cf687367"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga9da69906a8753c1bbec83769cf687367">MR::loadIOExtras</a></div><div class="ttdeci">void loadIOExtras()</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gac31feb99fa40a7a7fee0c9806f676b11"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gac31feb99fa40a7a7fee0c9806f676b11">vertSize</a></div><div class="ttdeci">size_t vertSize() const</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gacd9980e9c53367fa384cfdf9704f5a35"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gacd9980e9c53367fa384cfdf9704f5a35">begin</a></div><div class="ttdeci">Iterator begin() const</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
@@ -243,11 +249,10 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_void_std_string.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
 <div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &lt;math.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
-<div class="line"> </div>
-<div class="line"><span class="preprocessor">#define abs(a) a &gt;= 0 ? a : -a;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
@@ -262,12 +267,9 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac31feb99fa40a7a7fee0c9806f676b11">vertSize</a>; ++i )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keyword">const</span> MR_Vector3f* point = MR_VertCoords_index( MR_Mesh_Get_points( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> ), (MR_VertId){ (int)i } );</div>
-<div class="line">        <span class="keywordtype">float</span> weight = abs( point-&gt;x / 5.0f );</div>
+<div class="line">        <span class="keywordtype">float</span> weight = fabsf( point-&gt;x / 5.0f ); <span class="comment">// Individual extra offset sizes for points</span></div>
 <div class="line">        MR_VertScalars_data_mut( scalars )[i] = weight;</div>
-<div class="line">        <span class="keywordflow">if</span> ( weight &gt; maxWeight )</div>
-<div class="line">        {</div>
-<div class="line">            maxWeight = weight;</div>
-<div class="line">        }</div>
+<div class="line">        maxWeight = fmaxf( maxWeight, weight ); <span class="comment">// should always have maximum between weights provided</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    MR_WeightedShell_ParametersMetric* <a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga5549735766833f3928cb969df8aff806">params</a> = MR_WeightedShell_ParametersMetric_DefaultConstruct();</div>
@@ -311,6 +313,41 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="ttc" id="agroup__GeneralGroup_html_ga4d5b1deffdaf0a9520c4eb1bd4664877"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a></div><div class="ttdeci">float dist() const</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga5549735766833f3928cb969df8aff806"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga5549735766833f3928cb969df8aff806">MR::RenderNameObject::Task::params</a></div><div class="ttdeci">const UiRenderParams * params</div></div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshOffsetWeightedExample</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Create some mesh</span></div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeTorus();</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Create VertScalars obj with weights for every vertex</span></div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac31feb99fa40a7a7fee0c9806f676b11">vertSize</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.vertSize();</div>
+<div class="line">        MR.VertScalars scalars = <span class="keyword">new</span>(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac31feb99fa40a7a7fee0c9806f676b11">vertSize</a>);</div>
+<div class="line">        <span class="keywordtype">float</span> maxWeight = 0.0f;</div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; (int)<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac31feb99fa40a7a7fee0c9806f676b11">vertSize</a>; ++i)</div>
+<div class="line">        {</div>
+<div class="line">            var v = <span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.VertId(i);</div>
+<div class="line">            scalars[v] = MathF.Abs(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.points[v].x / 5.0f); <span class="comment">// Individual extra offset sizes for points</span></div>
+<div class="line">            maxWeight = MathF.Max(maxWeight, scalars[v]);</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        <a class="code hl_structRef" href="./Cpp/structMR_1_1WeightedShell_1_1ParametersMetric.html">MR.WeightedShell.ParametersMetric</a> parameters = <span class="keyword">new</span>();</div>
+<div class="line">        <span class="comment">// Algorithm is voxel based, voxel size affects performance and form of result mesh</span></div>
+<div class="line">        parameters.voxelSize = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.suggestVoxelSize(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, 1000);</div>
+<div class="line">        <span class="comment">// common basic offset applied for all point</span></div>
+<div class="line">        <span class="comment">// Vertex-specific weighted offsets applied after the basic one</span></div>
+<div class="line">        parameters.offset = 0.2f;</div>
+<div class="line">        parameters.dist.maxWeight = maxWeight; <span class="comment">// should always have maximum between weights provided</span></div>
+<div class="line"> </div>
+<div class="line">        var res = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1WeightedShell.html">WeightedShell</a>.meshShell(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, scalars, parameters);</div>
+<div class="line"> </div>
+<div class="line">        <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(res, <span class="stringliteral">&quot;offset_weighted.ctm&quot;</span>);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1WeightedShell_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1WeightedShell.html">MR::WeightedShell</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
+</div><!-- fragment --></li>
 <li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
 <div class="line">const ml = await createMeshLib();</div>
@@ -343,8 +380,82 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line">ml.MeshSave.toAnySupportedFormat(result, &#39;offset_weighted.ply&#39;);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::{MeshPart, VertId, VertScalars};</div>
+<div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    // Create some mesh</div>
+<div class="line">    let mesh = meshlib::make_torus(None, None, None, None, None);</div>
+<div class="line"> </div>
+<div class="line">    // Create VertScalars obj with weights for every vertex</div>
+<div class="line">    let vert_size = mesh.topology().vert_size();</div>
+<div class="line">    let mut scalars = VertScalars::construct(vert_size);</div>
+<div class="line">    for i in 0..vert_size</div>
+<div class="line">    {</div>
+<div class="line">        let v = VertId {id_: i as i32};</div>
+<div class="line">        *scalars.index_mut(v) = (mesh.points().index(v).x / 5.0).abs(); // Individual extra offset sizes for points</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    let mut params = meshlib::weighted_shell::ParametersMetric::new();</div>
+<div class="line">    // Algorithm is voxel based, voxel size affects performance and form of result mesh</div>
+<div class="line">    params.set_voxel_size(meshlib::suggest_voxel_size(&amp;MeshPart::construct(&amp;mesh, None), 1000.0));</div>
+<div class="line">    // common basic offset applied for all point</div>
+<div class="line">    // Vertex-specific weighted offsets applied after the basic one</div>
+<div class="line">    params.set_offset(0.2);</div>
+<div class="line">    let max_weight = (0..vert_size).map(|i| *scalars.index(VertId {id_: i as i32})).fold(f32::MIN, f32::max);</div>
+<div class="line">    params.dist_mut().set_max_weight(max_weight); // should always have maximum between weights provided</div>
+<div class="line"> </div>
+<div class="line">    let result = meshlib::weighted_shell::mesh_shell(&amp;mesh, &amp;scalars, &amp;params).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format(&amp;result, &quot;offset_weighted.ctm&quot;, None).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.MeshPart;</div>
+<div class="line"><span class="keyword">import</span> meshlib.VertId;</div>
+<div class="line"><span class="keyword">import</span> meshlib.VertScalars;</div>
+<div class="line"><span class="keyword">import</span> meshlib.weightedshell.ParametersMetric;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>MeshOffsetWeighted</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Create some mesh</span></div>
+<div class="line">        Mesh <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = Functions.makeTorus(<span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Create VertScalars obj with weights for every vertex</span></div>
+<div class="line">        <span class="keywordtype">long</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac31feb99fa40a7a7fee0c9806f676b11">vertSize</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology().vertSize();</div>
+<div class="line">        VertScalars scalars = <span class="keyword">new</span> VertScalars(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac31feb99fa40a7a7fee0c9806f676b11">vertSize</a>);</div>
+<div class="line">        <span class="keywordtype">float</span> maxWeight = 0.0f;</div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac31feb99fa40a7a7fee0c9806f676b11">vertSize</a>; i++)</div>
+<div class="line">        {</div>
+<div class="line">            VertId v = <span class="keyword">new</span> VertId(i);</div>
+<div class="line">            <span class="keywordtype">float</span> weight = Math.abs(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.points().index(v).x() / 5.0f); <span class="comment">// Individual extra offset sizes for points</span></div>
+<div class="line">            scalars.autoResizeSet(v, weight);</div>
+<div class="line">            maxWeight = Math.max(maxWeight, weight);</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        ParametersMetric params = <span class="keyword">new</span> ParametersMetric();</div>
+<div class="line">        <span class="comment">// Algorithm is voxel based, voxel size affects performance and form of result mesh</span></div>
+<div class="line">        params.setVoxelSize(Functions.suggestVoxelSize(<span class="keyword">new</span> MeshPart(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="keyword">null</span>), 1000.0f));</div>
+<div class="line">        <span class="comment">// common basic offset applied for all point</span></div>
+<div class="line">        <span class="comment">// Vertex-specific weighted offsets applied after the basic one</span></div>
+<div class="line">        params.setOffset(0.2f);</div>
+<div class="line">        params.dist().setMaxWeight(maxWeight); <span class="comment">// should always have maximum between weights provided</span></div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">        Mesh result = meshlib.weightedshell.Functions.meshShell(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, scalars, params);</div>
+<div class="line"> </div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(result, <span class="stringliteral">&quot;offset_weighted.ctm&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
 </ul>
-</div> </div></div><!-- contents -->
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

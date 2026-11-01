@@ -168,79 +168,60 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 <li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRCube.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshTopology.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRString.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRVector.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRVector3.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_vector_std_array_MR_VertId_3.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
+<div class="line">    <span class="comment">// create some mesh</span></div>
 <div class="line">    <span class="keyword">const</span> MR_Vector3f <a class="code hl_functionRef" href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a> = MR_Vector3f_diagonal( 1.f );</div>
 <div class="line">    <span class="keyword">const</span> MR_Vector3f base = MR_Vector3f_diagonal( -0.5f );</div>
-<div class="line"> </div>
 <div class="line">    MR_Mesh* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = MR_makeCube( &amp;<a class="code hl_functionRef" href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, &amp;base );</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// extract vertices</span></div>
-<div class="line">    <span class="keyword">const</span> MR_Vector3f* vertices = MR_VertCoords_data( MR_Mesh_Get_points( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> ) );</div>
-<div class="line">    <span class="keywordtype">size_t</span> verticesNum = MR_VertCoords_size( MR_Mesh_Get_points( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> ) );</div>
-<div class="line">    <span class="comment">// you can access coordinates via struct fields...</span></div>
-<div class="line">    printf( <span class="stringliteral">&quot;Vertex coordinates:\n&quot;</span> );</div>
-<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; verticesNum; ++i )</div>
-<div class="line">        printf( <span class="stringliteral">&quot;  vertex %d:  % f; % f; % f\n&quot;</span>, (<span class="keywordtype">int</span>)i, vertices[i].x, vertices[i].y, vertices[i].z );</div>
-<div class="line">    <span class="comment">// ...or cast them to a row-major float array</span></div>
-<div class="line">    <span class="keywordtype">float</span>* vertexData = malloc( <span class="keyword">sizeof</span>( <span class="keywordtype">float</span> ) * 3 * verticesNum );</div>
-<div class="line">    memcpy( vertexData, vertices, <span class="keyword">sizeof</span>( MR_Vector3f ) * verticesNum );</div>
+<div class="line">    <span class="comment">// all vertices of valid triangles</span></div>
+<div class="line">    MR_std_vector_std_array_MR_VertId_3* triangles = MR_MeshTopology_getAllTriVerts( MR_Mesh_Get_topology( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> ) );</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// extract faces</span></div>
-<div class="line">    MR_Triangulation* t = MR_MeshTopology_getTriangulation( MR_Mesh_Get_topology( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> ) );</div>
-<div class="line">    <span class="keyword">const</span> MR_std_array_MR_VertId_3 *faces = MR_Triangulation_data( t );</div>
-<div class="line">    <span class="keywordtype">size_t</span> facesNum = MR_Triangulation_size( t );</div>
-<div class="line">    <span class="comment">// faces are stored as vertex id triples...</span></div>
-<div class="line">    printf( <span class="stringliteral">&quot;Face vertex IDs:\n&quot;</span> );</div>
-<div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; facesNum; ++i )</div>
-<div class="line">        printf( <span class="stringliteral">&quot;  face %d:  %d, %d, %d\n&quot;</span>, (<span class="keywordtype">int</span>)i, faces[i].elems[0].id_, faces[i].elems[1].id_, faces[i].elems[2].id_ );</div>
-<div class="line">    <span class="comment">// ...and can also be cast to an integer array</span></div>
-<div class="line">    <span class="keywordtype">int</span>* faceData = malloc( <span class="keyword">sizeof</span>( <span class="keywordtype">int</span> ) * 3 * facesNum );</div>
-<div class="line">    memcpy( faceData, faces, <span class="keyword">sizeof</span>( MR_std_array_MR_VertId_3 ) * facesNum );</div>
+<div class="line">    <span class="comment">// all point coordinates as x,y,z triples</span></div>
+<div class="line">    <span class="keyword">const</span> <span class="keywordtype">float</span>* <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a> = (<span class="keyword">const</span> <span class="keywordtype">float</span>*)MR_VertCoords_data( MR_Mesh_Get_points( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> ) );</div>
+<div class="line">    <span class="comment">// triangle vertices as triples of ints (pointing to elements in points vector)</span></div>
+<div class="line">    <span class="keyword">const</span> <span class="keywordtype">int</span>* vertexTriples = (<span class="keyword">const</span> <span class="keywordtype">int</span>*)MR_std_vector_std_array_MR_VertId_3_data( triangles );</div>
 <div class="line"> </div>
-<div class="line">    MR_Triangulation_Destroy( t );</div>
+<div class="line">    <span class="comment">// TODO: export in your format</span></div>
+<div class="line">    (void)<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a>;</div>
+<div class="line">    (void)vertexTriples;</div>
+<div class="line"> </div>
+<div class="line">    MR_std_vector_std_array_MR_VertId_3_Destroy( triangles );</div>
 <div class="line">    MR_Mesh_Destroy( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> );</div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac0008d001179507a880971efa7b03847">free</a>( vertexData );</div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gac0008d001179507a880971efa7b03847">free</a>( faceData );</div>
 <div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
 <div class="line">}</div>
-<div class="ttc" id="agroup__GeneralGroup_html_gac0008d001179507a880971efa7b03847"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gac0008d001179507a880971efa7b03847">free</a></div><div class="ttdeci">void free()</div></div>
 <div class="ttc" id="agroup__VoxelGroup_html_ga1a728fc2d1e7dd47e0f137af620f6985"><div class="ttname"><a href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a></div><div class="ttdeci">size_t size() const</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshExportExample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordflow">try</span></div>
-<div class="line">        {</div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR.Mesh</a> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeCube(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3f.diagonal(1), <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3f.diagonal(-0.5f));</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Vertices coordinates:&quot;</span>);</div>
-<div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; (int)<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.points.size(); ++i)</div>
-<div class="line">            {</div>
-<div class="line">                var p = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.points[<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.VertId(i)];</div>
-<div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Vertex {0} coordinates: {1}; {2}; {3}&quot;</span>, i, p.x, p.y, p.z);</div>
-<div class="line">            }</div>
+<div class="line">        <span class="comment">// create some mesh</span></div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeCube();</div>
 <div class="line"> </div>
-<div class="line">            MR.Triangulation tri = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.getTriangulation();</div>
+<div class="line">        <span class="comment">// all vertices of valid triangles</span></div>
+<div class="line">        var triangles = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.getAllTriVerts();</div>
 <div class="line"> </div>
-<div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; (int)tri.size(); ++i)</div>
-<div class="line">            {</div>
-<div class="line">                var t = tri[<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.FaceId(i)];</div>
-<div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Triangle {0} vertices: {1}; {2}; {3}&quot;</span>, i, t.elems._0.id, t.elems._1.id, t.elems._2.id);</div>
-<div class="line">            }</div>
-<div class="line">        }</div>
-<div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
+<div class="line">        <span class="comment">// all point coordinates</span></div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.points;</div>
+<div class="line">        <span class="comment">// triangle vertices as triples of ints (pointing to elements in points vector)</span></div>
+<div class="line">        var vertexTriples = <span class="keyword">new</span> <span class="keywordtype">int</span>[(int)triangles.size() * 3];</div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> t = 0; t &lt; (int)triangles.size(); ++t)</div>
 <div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, e.Message);</div>
+<div class="line">            var tri = triangles[(nuint)t].elems;</div>
+<div class="line">            vertexTriples[3 * t + 0] = tri._0.id;</div>
+<div class="line">            vertexTriples[3 * t + 1] = tri._1.id;</div>
+<div class="line">            vertexTriples[3 * t + 2] = tri._2.id;</div>
 <div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// TODO: export in your format</span></div>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
@@ -265,8 +246,54 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 <div class="line">console.log(`${vertexCoordinates.length / 3} vertices, ${vertexTriples.length / 3} triangles`);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">fn main()</div>
+<div class="line">{</div>
+<div class="line">    // create some mesh</div>
+<div class="line">    let mesh = meshlib::make_cube(None, None);</div>
+<div class="line"> </div>
+<div class="line">    // all vertices of valid triangles</div>
+<div class="line">    let triangles = mesh.topology().get_all_tri_verts();</div>
+<div class="line"> </div>
+<div class="line">    // all point coordinates</div>
+<div class="line">    let points = mesh.points();</div>
+<div class="line">    // triangle vertices as triples of ints (pointing to elements in points vector)</div>
+<div class="line">    let vertex_triples = triangles.data() as *const i32;</div>
+<div class="line"> </div>
+<div class="line">    // TODO: export in your format</div>
+<div class="line">    let _ = points;</div>
+<div class="line">    let _ = vertex_triples;</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.VertCoords;</div>
+<div class="line"><span class="keyword">import</span> meshlib.std_vector_std_array_MR_VertId_3;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>MeshExport</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// create some mesh</span></div>
+<div class="line">        Mesh <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = Functions.makeCube(<span class="keyword">null</span>, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// all vertices of valid triangles</span></div>
+<div class="line">        std_vector_std_array_MR_VertId_3 triangles = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology().getAllTriVerts();</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// all point coordinates</span></div>
+<div class="line">        VertCoords <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c">points</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.points();</div>
+<div class="line">        <span class="comment">// triangle vertices as triples of ints (pointing to elements in points vector)</span></div>
+<div class="line">        <span class="keywordtype">int</span>[] vertexTriples = <span class="keyword">new</span> <span class="keywordtype">int</span>[(int)triangles.size() * 3];</div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> t = 0; t &lt; triangles.size(); t++)</div>
+<div class="line">            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 3; i++)</div>
+<div class="line">                vertexTriples[3 * t + i] = triangles.at(t).elems(i).id_();</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// TODO: export in your format</span></div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
 </ul>
-</div> </div></div><!-- contents -->
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

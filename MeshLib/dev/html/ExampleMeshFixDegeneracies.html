@@ -256,37 +256,20 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>System.Reflection;</div>
-<div class="line"> </div>
-<div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshFixDegeneraciesExample</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshFixDegeneraciesExample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordflow">try</span></div>
-<div class="line">        {</div>
-<div class="line">            <span class="keywordflow">if</span> (args.Length != 1 &amp;&amp; args.Length != 2)</div>
-<div class="line">            {</div>
-<div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} INPUT [OUTPUT]&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
-<div class="line">                <span class="keywordflow">return</span>;</div>
-<div class="line">            }</div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// INPUT is a mesh file you supply; this example needs a mesh that has degeneracies to fix</span></div>
-<div class="line">            <span class="keywordtype">string</span> inputFile = args[0];</div>
-<div class="line">            <span class="keywordtype">string</span> outputFile = args.Length == 2 ? args[1] : inputFile;</div>
+<div class="line">        <span class="comment">// you can set various parameters for the resolving process; see the documentation for more info</span></div>
+<div class="line">        <a class="code hl_structRef" href="./Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR.FixMeshDegeneraciesParams</a> parameters = <span class="keyword">new</span>();</div>
+<div class="line">        parameters.maxDeviation = 1e-5f * <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.computeBoundingBox().diagonal();</div>
+<div class="line">        parameters.tinyEdgeLength = 1e-3f;</div>
+<div class="line">        <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.fixMeshDegeneracies(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, parameters);</div>
 <div class="line"> </div>
-<div class="line">            var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(inputFile);</div>
-<div class="line"> </div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1FixMeshDegeneraciesParams.html">MR.FixMeshDegeneraciesParams</a> parameters = <span class="keyword">new</span>();</div>
-<div class="line">            parameters.maxDeviation = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.computeBoundingBox().diagonal() * 1e-5f;</div>
-<div class="line">            parameters.tinyEdgeLength = 1e-3f;</div>
-<div class="line"> </div>
-<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.fixMeshDegeneracies(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, parameters);</div>
-<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, outputFile);</div>
-<div class="line">        }</div>
-<div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
-<div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, e.Message);</div>
-<div class="line">        }</div>
+<div class="line">        <span class="comment">// Save result</span></div>
+<div class="line">        <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;fixedMesh.stl&quot;</span>);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="ttc" id="anamespaceMR_1_1MeshLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
@@ -311,8 +294,49 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;fixedMesh.stl&#39;);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::FixMeshDegeneraciesParams;</div>
+<div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    let mut mesh = meshlib::mesh_load::from_any_supported_format(&quot;mesh.stl&quot;, None).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    // you can set various parameters for the resolving process; see the documentation for more info</div>
+<div class="line">    let mut params = FixMeshDegeneraciesParams::new();</div>
+<div class="line">    params.set_max_deviation(1e-5 * mesh.compute_bounding_box(None).diagonal());</div>
+<div class="line">    params.set_tiny_edge_length(1e-3);</div>
+<div class="line">    let _ = meshlib::fix_mesh_degeneracies(&amp;mut mesh, &amp;params);</div>
+<div class="line"> </div>
+<div class="line">    // Save result</div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format(&amp;mesh, &quot;fixedMesh.stl&quot;, None).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.FixMeshDegeneraciesParams;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>MeshFixDegeneracies</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">        Mesh <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = meshlib.meshload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// you can set various parameters for the resolving process; see the documentation for more info</span></div>
+<div class="line">        FixMeshDegeneraciesParams params = <span class="keyword">new</span> FixMeshDegeneraciesParams();</div>
+<div class="line">        params.setMaxDeviation(1e-5f * <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.computeBoundingBox(<span class="keyword">null</span>).diagonal());</div>
+<div class="line">        params.setTinyEdgeLength(1e-3f);</div>
+<div class="line">        Functions.fixMeshDegeneracies(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, params);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Save result</span></div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;fixedMesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
 </ul>
-</div> </div></div><!-- contents -->
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

@@ -282,11 +282,8 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">    MR_DecimateSettings_Set_subdivideParts( params, 16 );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimate mesh</span></div>
-<div class="line">    MR_DecimateResult* result = MR_decimateMesh( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, params );</div>
+<div class="line">    MR_DecimateResult_Destroy( MR_decimateMesh( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, params ) );</div>
 <div class="line">    MR_DecimateSettings_Destroy( params );</div>
-<div class="line"> </div>
-<div class="line">    printf( <span class="stringliteral">&quot;Removed %d vertices, %d faces\n&quot;</span>, *MR_DecimateResult_Get_vertsDeleted( result ), *MR_DecimateResult_Get_facesDeleted( result ) );</div>
-<div class="line">    MR_DecimateResult_Destroy( result );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
 <div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>, NULL, NULL);</div>
@@ -308,42 +305,33 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <img src="decimate_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>MeshDecimateExample</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshDecimateExample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordflow">try</span></div>
-<div class="line">        {</div>
-<div class="line">            <span class="comment">// Load the mesh given on the command line, or make a sphere to decimate if no path is given</span></div>
-<div class="line">            var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = args.Length &gt; 0</div>
-<div class="line">                ? <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(args[0])</div>
-<div class="line">                : <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeUVSphere(1.0f, 64, 64);</div>
+<div class="line">        <span class="comment">// Load mesh</span></div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
-<div class="line">            <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
-<div class="line">            <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.packOptimally(<span class="keyword">false</span>);</div>
+<div class="line">        <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
+<div class="line">        <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
+<div class="line">        <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.packOptimally(<span class="keyword">false</span>);</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Setup decimate parameters</span></div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateSettings.html">MR.DecimateSettings</a> ds = <span class="keyword">new</span>();</div>
+<div class="line">        <span class="comment">// Setup decimate parameters</span></div>
+<div class="line">        <a class="code hl_structRef" href="./Cpp/structMR_1_1DecimateSettings.html">MR.DecimateSettings</a> settings = <span class="keyword">new</span>();</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Decimation stop thresholds, you may specify one or both</span></div>
-<div class="line">            ds.maxDeletedFaces = 1000; <span class="comment">// Number of faces to be deleted</span></div>
-<div class="line">            ds.maxError = 0.05f; <span class="comment">// Maximum error when decimation stops</span></div>
+<div class="line">        <span class="comment">// Decimation stop thresholds, you may specify one or both</span></div>
+<div class="line">        settings.maxDeletedFaces = 1000; <span class="comment">// Number of faces to be deleted</span></div>
+<div class="line">        settings.maxError = 0.05f; <span class="comment">// Maximum error when decimation stops</span></div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
-<div class="line">            <span class="comment">// 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead</span></div>
-<div class="line">            ds.subdivideParts = 16;</div>
+<div class="line">        <span class="comment">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
+<div class="line">        <span class="comment">// 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead</span></div>
+<div class="line">        settings.subdivideParts = 16;</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Decimate mesh</span></div>
-<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.decimateMesh(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, ds);</div>
+<div class="line">        <span class="comment">// Decimate mesh</span></div>
+<div class="line">        <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.decimateMesh(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, settings);</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Save result</span></div>
-<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;decimated_mesh_cs.stl&quot;</span>);</div>
-<div class="line">        }</div>
-<div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
-<div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, e.Message);</div>
-<div class="line">        }</div>
+<div class="line">        <span class="comment">// Save result</span></div>
+<div class="line">        <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="ttc" id="anamespaceMR_1_1MeshLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
@@ -413,8 +401,7 @@ Source mesh <div class="image">
 <div class="line">    settings.set_subdivide_parts(16);</div>
 <div class="line"> </div>
 <div class="line">    // Decimate mesh.</div>
-<div class="line">    let result = meshlib::decimate_mesh(&amp;mut mesh, Some(&amp;settings));</div>
-<div class="line">    println!(&quot;Removed {} vertices, {} faces&quot;, result.verts_deleted(), result.faces_deleted());</div>
+<div class="line">    meshlib::decimate_mesh(&amp;mut mesh, Some(&amp;settings));</div>
 <div class="line"> </div>
 <div class="line">    // Save result.</div>
 <div class="line">    meshlib::mesh_save::to_any_supported_format(&amp;mesh, &quot;decimated_mesh.stl&quot;, None).into_result().map_err(|error| format!(&quot;Failed to save mesh: {error}&quot;))?;</div>
@@ -428,8 +415,7 @@ Source mesh <div class="image">
 <img src="decimate_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.DecimateResult;</div>
-<div class="line"><span class="keyword">import</span> meshlib.DecimateSettings;</div>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.DecimateSettings;</div>
 <div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
 <div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
 <div class="line"> </div>
@@ -457,8 +443,7 @@ Source mesh <div class="image">
 <div class="line">        settings.setSubdivideParts(16);</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Decimate mesh.</span></div>
-<div class="line">        DecimateResult result = Functions.decimateMesh(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, settings);</div>
-<div class="line">        System.out.println(<span class="stringliteral">&quot;Removed &quot;</span> + result.vertsDeleted() + <span class="stringliteral">&quot; vertices, &quot;</span> + result.facesDeleted() + <span class="stringliteral">&quot; faces&quot;</span>);</div>
+<div class="line">        Functions.decimateMesh(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, settings);</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Save result.</span></div>
 <div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>, <span class="keyword">null</span>);</div>

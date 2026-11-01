@@ -141,10 +141,14 @@ $(function(){initNavTree('ExampleSignedDistances.html','',''); });
 <li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMeshLoad_8h.html">MRMesh/MRMeshLoad.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRPointsToMeshProjector_8h.html">MRMesh/MRPointsToMeshProjector.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRIOExtras_8h.html">MRIOExtras/MRIOExtras.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
+<div class="line">    <span class="comment">// CTM, JPEG and other formats beyond the basic ones come with the MRIOExtras library</span></div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga9da69906a8753c1bbec83769cf687367">MR::loadIOExtras</a>();</div>
+<div class="line"> </div>
 <div class="line">    <span class="keyword">auto</span> refMesh = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1MeshLoad.html#aa115a0d8b8efd585125c07693565388b">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh1.ctm&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !refMesh.has_value() )</div>
 <div class="line">    {</div>
@@ -166,10 +170,12 @@ $(function(){initNavTree('ExampleSignedDistances.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRIOExtras_8h_html"><div class="ttname"><a href="./Cpp/MRIOExtras_8h.html">MRIOExtras.h</a></div></div>
 <div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./Cpp/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
 <div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
 <div class="ttc" id="aMRPointsToMeshProjector_8h_html"><div class="ttname"><a href="./Cpp/MRPointsToMeshProjector_8h.html">MRPointsToMeshProjector.h</a></div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga3fbe95187540b89c884e647eb8377e03"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga3fbe95187540b89c884e647eb8377e03">end</a></div><div class="ttdeci">Iterator end() const</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9da69906a8753c1bbec83769cf687367"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga9da69906a8753c1bbec83769cf687367">MR::loadIOExtras</a></div><div class="ttdeci">void loadIOExtras()</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gacd9980e9c53367fa384cfdf9704f5a35"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gacd9980e9c53367fa384cfdf9704f5a35">begin</a></div><div class="ttdeci">Iterator begin() const</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf6739310dc9f9e21c461819ea47dc086"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a></div><div class="ttdeci">const std::shared_ptr&lt; const Mesh &gt; &amp; mesh() const</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gaf70fbc3926faabd14d6e8b2a2f3e3f64"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf70fbc3926faabd14d6e8b2a2f3e3f64">MR::findSignedDistances</a></div><div class="ttdeci">VertScalars findSignedDistances(const Mesh &amp;refMesh, const VertCoords &amp;testPoints, const VertBitSet *validTestPoints={}, const MeshProjectionParameters &amp;params={}, IPointsToMeshProjector *projector={})</div></div>
@@ -249,6 +255,29 @@ $(function(){initNavTree('ExampleSignedDistances.html','',''); });
 <div class="line">}</div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga4d5b1deffdaf0a9520c4eb1bd4664877"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga4d5b1deffdaf0a9520c4eb1bd4664877">dist</a></div><div class="ttdeci">float dist() const</div></div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>SignedDistancesExample</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    {</div>
+<div class="line">        var refMesh = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh1.ctm&quot;</span>);</div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh2.ctm&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// get object of VertScalars - set of distances between points of target mesh and reference mesh</span></div>
+<div class="line">        var vertDistances = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findSignedDistances(refMesh, <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>);</div>
+<div class="line">        <span class="keywordtype">float</span> minDist = <span class="keywordtype">float</span>.MaxValue, maxDist = <span class="keywordtype">float</span>.MinValue;</div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; (int)vertDistances.size(); ++i)</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordtype">float</span> d = vertDistances[<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.VertId(i)];</div>
+<div class="line">            minDist = MathF.Min(minDist, d);</div>
+<div class="line">            maxDist = MathF.Max(maxDist, d);</div>
+<div class="line">        }</div>
+<div class="line">        Console.WriteLine(<span class="stringliteral">&quot;Distance between reference mesh and the closest point of target mesh is {0}&quot;</span>, minDist);</div>
+<div class="line">        Console.WriteLine(<span class="stringliteral">&quot;Distance between reference mesh and the farthest point of target mesh is {0}&quot;</span>, maxDist);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
+</div><!-- fragment --></li>
 <li><b class="tab-title">JavaScript</b> <div class="fragment"><div class="line">import createMeshLib from &#39;@meshinspector/meshlib&#39;;</div>
 <div class="line"> </div>
 <div class="line">const ml = await createMeshLib();</div>
@@ -273,8 +302,55 @@ $(function(){initNavTree('ExampleSignedDistances.html','',''); });
 <div class="line">console.log(`Distance between reference mesh and the farthest point of target mesh is ${farthest}`);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::VertId;</div>
+<div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    let ref_mesh = meshlib::mesh_load::from_any_supported_format(&quot;mesh1.ctm&quot;, None).into_result()?;</div>
+<div class="line">    let mesh = meshlib::mesh_load::from_any_supported_format(&quot;mesh2.ctm&quot;, None).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    // get object of VertScalars - set of distances between points of target mesh and reference mesh</div>
+<div class="line">    let vert_distances = meshlib::find_signed_distances(&amp;ref_mesh, &amp;mesh, None, None);</div>
+<div class="line">    let distances: Vec&lt;f32&gt; = (0..vert_distances.size()).map(|i| *vert_distances.index(VertId {id_: i as i32})).collect();</div>
+<div class="line">    let min = distances.iter().copied().fold(f32::INFINITY, f32::min);</div>
+<div class="line">    let max = distances.iter().copied().fold(f32::NEG_INFINITY, f32::max);</div>
+<div class="line">    println!(&quot;Distance between reference mesh and the closest point of target mesh is {min}&quot;);</div>
+<div class="line">    println!(&quot;Distance between reference mesh and the farthest point of target mesh is {max}&quot;);</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.VertId;</div>
+<div class="line"><span class="keyword">import</span> meshlib.VertScalars;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>SignedDistances</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">        Mesh refMesh = meshlib.meshload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh1.ctm&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">        Mesh <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = meshlib.meshload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh2.ctm&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// get object of VertScalars - set of distances between points of target mesh and reference mesh</span></div>
+<div class="line">        VertScalars vertDistances = Functions.findSignedDistances(refMesh, <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="keyword">null</span>, <span class="keyword">null</span>);</div>
+<div class="line">        <span class="keywordtype">float</span> min = Float.MAX_VALUE;</div>
+<div class="line">        <span class="keywordtype">float</span> max = -Float.MAX_VALUE;</div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; vertDistances.size(); i++)</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordtype">float</span> d = vertDistances.index(<span class="keyword">new</span> VertId(i));</div>
+<div class="line">            min = Math.min(min, d);</div>
+<div class="line">            max = Math.max(max, d);</div>
+<div class="line">        }</div>
+<div class="line">        System.out.println(<span class="stringliteral">&quot;Distance between reference mesh and the closest point of target mesh is &quot;</span> + min);</div>
+<div class="line">        System.out.println(<span class="stringliteral">&quot;Distance between reference mesh and the farthest point of target mesh is &quot;</span> + max);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
 </ul>
-</div> </div></div><!-- contents -->
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

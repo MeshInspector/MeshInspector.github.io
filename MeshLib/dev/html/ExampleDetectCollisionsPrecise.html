@@ -247,9 +247,7 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html','',''); });
 <div class="line">}</div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga67dfdaf568c4844e1435a42bec259460"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga67dfdaf568c4844e1435a42bec259460">shift</a></div><div class="ttdeci">Vector3f shift() const</div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>;</div>
-<div class="line"> </div>
-<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>CollisionPreciseExample</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>CollisionPreciseExample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
@@ -257,19 +255,16 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html','',''); });
 <div class="line">        var meshB = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeUVSphere(); <span class="comment">// make mesh B</span></div>
 <div class="line">        meshB.transform(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.AffineXf3f.translation(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3f(0.1f, 0.1f, 0.1f))); <span class="comment">// shift mesh B for better demonstration</span></div>
 <div class="line"> </div>
-<div class="line">        var meshPartA = <span class="keyword">new</span> MeshPart(meshA);</div>
-<div class="line">        var meshPartB = <span class="keyword">new</span> MeshPart(meshB);</div>
-<div class="line"> </div>
-<div class="line">        var converters = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.getVectorConverters(meshPartA, meshPartB).toInt; <span class="comment">// create converters to integer field (needed for absolute precision predicates)</span></div>
-<div class="line">        var collidingFaceEdges = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingEdgeTrisPrecise(meshPartA, meshPartB, converters); <span class="comment">// find each intersecting edge/triangle pair</span></div>
+<div class="line">        var converters = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.getVectorConverters(meshA, meshB); <span class="comment">// create converters to integer field (needed for absolute precision predicates)</span></div>
+<div class="line">        var collidingFaceEdges = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.findCollidingEdgeTrisPrecise(meshA, meshB, converters.toInt); <span class="comment">// find each intersecting edge/triangle pair</span></div>
 <div class="line">        <span class="comment">// print pairs of edges triangles</span></div>
-<div class="line">        <span class="keywordflow">for</span> (nuint i = 0; i &lt; collidingFaceEdges.size(); i++)</div>
+<div class="line">        <span class="keywordflow">for</span> (nuint i = 0; i &lt; collidingFaceEdges.size(); ++i)</div>
 <div class="line">        {</div>
 <div class="line">            var vet = collidingFaceEdges[i];</div>
 <div class="line">            <span class="keywordflow">if</span> (vet.isEdgeATriB())</div>
-<div class="line">                Console.WriteLine($<span class="stringliteral">&quot;edgeA: {vet.edge.id}, triB: {vet.tri().id}&quot;</span>);</div>
+<div class="line">                Console.WriteLine(<span class="stringliteral">&quot;edgeA: {0}, triB: {1}&quot;</span>, vet.edge.id, vet.tri().id);</div>
 <div class="line">            <span class="keywordflow">else</span></div>
-<div class="line">                Console.WriteLine($<span class="stringliteral">&quot;triA: {vet.tri().id}, edgeB: {vet.edge.id}&quot;</span>);</div>
+<div class="line">                Console.WriteLine(<span class="stringliteral">&quot;triA: {0}, edgeB: {1}&quot;</span>, vet.tri().id, vet.edge.id);</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
@@ -298,8 +293,71 @@ $(function(){initNavTree('ExampleDetectCollisionsPrecise.html','',''); });
 <div class="line">}</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::{AffineXf3f, MeshPart, Vector3f};</div>
+<div class="line"> </div>
+<div class="line">fn main()</div>
+<div class="line">{</div>
+<div class="line">    let mesh_a = meshlib::make_uv_sphere(None, None, None); // make mesh A</div>
+<div class="line">    let mut mesh_b = meshlib::make_uv_sphere(None, None, None); // make mesh B</div>
+<div class="line">    mesh_b.transform(&amp;AffineXf3f::translation(&amp;Vector3f {x: 0.1, y: 0.1, z: 0.1}), None); // shift mesh B for better demonstration</div>
+<div class="line"> </div>
+<div class="line">    let part_a = MeshPart::construct(&amp;mesh_a, None);</div>
+<div class="line">    let part_b = MeshPart::construct(&amp;mesh_b, None);</div>
+<div class="line"> </div>
+<div class="line">    let converters = meshlib::get_vector_converters(&amp;part_a, &amp;part_b, None); // create converters to integer field (needed for absolute precision predicates)</div>
+<div class="line">    let colliding_face_edges = meshlib::find_colliding_edge_tris_precise(&amp;part_a, &amp;part_b, converters.to_int(), None, None); // find each intersecting edge/triangle pair</div>
+<div class="line">    // print pairs of edges triangles</div>
+<div class="line">    for i in 0..colliding_face_edges.size()</div>
+<div class="line">    {</div>
+<div class="line">        let vet = colliding_face_edges.index(i);</div>
+<div class="line">        if vet.is_edge_a_tri_b()</div>
+<div class="line">        {</div>
+<div class="line">            println!(&quot;edgeA: {}, triB: {}&quot;, vet.edge().id_, vet.tri().id_);</div>
+<div class="line">        }</div>
+<div class="line">        else</div>
+<div class="line">        {</div>
+<div class="line">            println!(&quot;triA: {}, edgeB: {}&quot;, vet.tri().id_, vet.edge().id_);</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.AffineXf3f;</div>
+<div class="line"><span class="keyword">import</span> meshlib.CoordinateConverters;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.MeshPart;</div>
+<div class="line"><span class="keyword">import</span> meshlib.VarEdgeTri;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Vector3f;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Vector_MR_VarEdgeTri;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>CollisionPrecise</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        Mesh meshA = Functions.makeUVSphere(<span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>); <span class="comment">// make mesh A</span></div>
+<div class="line">        Mesh meshB = Functions.makeUVSphere(<span class="keyword">null</span>, <span class="keyword">null</span>, <span class="keyword">null</span>); <span class="comment">// make mesh B</span></div>
+<div class="line">        meshB.transform(AffineXf3f.translation(<span class="keyword">new</span> Vector3f(0.1f, 0.1f, 0.1f)), <span class="keyword">null</span>); <span class="comment">// shift mesh B for better demonstration</span></div>
+<div class="line"> </div>
+<div class="line">        MeshPart partA = <span class="keyword">new</span> MeshPart(meshA, <span class="keyword">null</span>);</div>
+<div class="line">        MeshPart partB = <span class="keyword">new</span> MeshPart(meshB, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        CoordinateConverters converters = Functions.getVectorConverters(partA, partB, <span class="keyword">null</span>); <span class="comment">// create converters to integer field (needed for absolute precision predicates)</span></div>
+<div class="line">        Vector_MR_VarEdgeTri collidingFaceEdges = Functions.findCollidingEdgeTrisPrecise(partA, partB, converters.toInt(), <span class="keyword">null</span>, <span class="keyword">null</span>); <span class="comment">// find each intersecting edge/triangle pair</span></div>
+<div class="line">        <span class="comment">// print pairs of edges triangles</span></div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">long</span> i = 0; i &lt; collidingFaceEdges.size(); i++)</div>
+<div class="line">        {</div>
+<div class="line">            VarEdgeTri vet = collidingFaceEdges.index(i);</div>
+<div class="line">            <span class="keywordflow">if</span> (vet.isEdgeATriB())</div>
+<div class="line">                System.out.println(<span class="stringliteral">&quot;edgeA: &quot;</span> + vet.edge().id_() + <span class="stringliteral">&quot;, triB: &quot;</span> + vet.tri().id_());</div>
+<div class="line">            <span class="keywordflow">else</span></div>
+<div class="line">                System.out.println(<span class="stringliteral">&quot;triA: &quot;</span> + vet.tri().id_() + <span class="stringliteral">&quot;, edgeB: &quot;</span> + vet.edge().id_());</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
 </ul>
-</div> </div></div><!-- contents -->
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

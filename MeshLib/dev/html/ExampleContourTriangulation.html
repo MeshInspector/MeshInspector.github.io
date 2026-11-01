@@ -142,10 +142,14 @@ $(function(){initNavTree('ExampleContourTriangulation.html','',''); });
 <div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MR2DContoursTriangulation_8h.html">MRMesh/MR2DContoursTriangulation.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMeshSave_8h.html">MRMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRIOExtras_8h.html">MRIOExtras/MRIOExtras.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
 <div class="line">{</div>
+<div class="line">    <span class="comment">// CTM, JPEG and other formats beyond the basic ones come with the MRIOExtras library</span></div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga9da69906a8753c1bbec83769cf687367">MR::loadIOExtras</a>();</div>
+<div class="line"> </div>
 <div class="line">    <span class="comment">// load image as distance map</span></div>
 <div class="line">    <span class="keyword">auto</span> imageLoadRes = <a class="code hl_functionRef" href="./Cpp/group__ImageLoadGroup.html#ga2e9338f4df7d8c383cae3bab2971a671">MR::ImageLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;logo.jpg&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !imageLoadRes.has_value() )</div>
@@ -174,6 +178,7 @@ $(function(){initNavTree('ExampleContourTriangulation.html','',''); });
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
 <div class="ttc" id="aMR2DContoursTriangulation_8h_html"><div class="ttname"><a href="./Cpp/MR2DContoursTriangulation_8h.html">MR2DContoursTriangulation.h</a></div></div>
 <div class="ttc" id="aMRDistanceMap_8h_html"><div class="ttname"><a href="./Cpp/MRDistanceMap_8h.html">MRDistanceMap.h</a></div></div>
+<div class="ttc" id="aMRIOExtras_8h_html"><div class="ttname"><a href="./Cpp/MRIOExtras_8h.html">MRIOExtras.h</a></div></div>
 <div class="ttc" id="aMRImageLoad_8h_html"><div class="ttname"><a href="./Cpp/MRImageLoad_8h.html">MRImageLoad.h</a></div></div>
 <div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./Cpp/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
 <div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./Cpp/MRMesh_8h.html">MRMesh.h</a></div></div>
@@ -181,6 +186,7 @@ $(function(){initNavTree('ExampleContourTriangulation.html','',''); });
 <div class="ttc" id="agroup__DistanceMapGroup_html_gaa693ceaf7bf9d2dc2728807f26d6e12a"><div class="ttname"><a href="./Cpp/group__DistanceMapGroup.html#gaa693ceaf7bf9d2dc2728807f26d6e12a">MR::distanceMapTo2DIsoPolyline</a></div><div class="ttdeci">Polyline2 distanceMapTo2DIsoPolyline(const DistanceMap &amp;distMap, float isoValue)</div></div>
 <div class="ttc" id="agroup__DistanceMapGroup_html_gae5873b0d32e494a0e4eb9c14a39f9b1b"><div class="ttname"><a href="./Cpp/group__DistanceMapGroup.html#gae5873b0d32e494a0e4eb9c14a39f9b1b">MR::convertImageToDistanceMap</a></div><div class="ttdeci">Expected&lt; DistanceMap &gt; convertImageToDistanceMap(const Image &amp;image, float threshold=1.f/255, bool invert=true)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga161bba00aa938095d492c1a6a2e5ac70"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga161bba00aa938095d492c1a6a2e5ac70">MR::PlanarTriangulation::triangulateContours</a></div><div class="ttdeci">Mesh triangulateContours(const Contours2d &amp;contours, const TriangulationParameters &amp;params={})</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9da69906a8753c1bbec83769cf687367"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga9da69906a8753c1bbec83769cf687367">MR::loadIOExtras</a></div><div class="ttdeci">void loadIOExtras()</div></div>
 <div class="ttc" id="agroup__ImageLoadGroup_html_ga2e9338f4df7d8c383cae3bab2971a671"><div class="ttname"><a href="./Cpp/group__ImageLoadGroup.html#ga2e9338f4df7d8c383cae3bab2971a671">MR::ImageLoad::fromAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; Image &gt; fromAnySupportedFormat(const std::filesystem::path &amp;path)</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga8c3547484d9f9d64e8d1d967225e190f"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga8c3547484d9f9d64e8d1d967225e190f">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 </div><!-- fragment --></li>
@@ -254,6 +260,62 @@ $(function(){initNavTree('ExampleContourTriangulation.html','',''); });
 <div class="line">fail_load:</div>
 <div class="line">    MR_expected_MR_Image_std_string_Destroy( imageLoadRes );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>ContourTriangulationExample</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// load image as distance map</span></div>
+<div class="line">        var image = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1ImageLoad.html">ImageLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;logo.jpg&quot;</span>);</div>
+<div class="line">        var dm = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.convertImageToDistanceMap(image);</div>
+<div class="line"> </div>
+<div class="line">        var pl2 = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.distanceMapTo2DIsoPolyline(dm, 210.0f);</div>
+<div class="line">        var triangulationRes = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1PlanarTriangulation.html">PlanarTriangulation</a>.triangulateContours(pl2.contours());</div>
+<div class="line"> </div>
+<div class="line">        <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(triangulationRes, <span class="stringliteral">&quot;LogoMesh.ctm&quot;</span>);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="anamespaceMR_1_1ImageLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1ImageLoad.html">MR::ImageLoad</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
+<div class="ttc" id="anamespaceMR_1_1PlanarTriangulation_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1PlanarTriangulation.html">MR::PlanarTriangulation</a></div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    // load image as distance map</div>
+<div class="line">    let image = meshlib::image_load::from_any_supported_format(&quot;logo.jpg&quot;).into_result()?;</div>
+<div class="line">    let dm = meshlib::convert_image_to_distance_map(&amp;image, None, None).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    let pl2 = meshlib::distance_map_to2_d_iso_polyline(&amp;dm, 210.0);</div>
+<div class="line">    let triangulation_res = meshlib::planar_triangulation::triangulate_contours_std_vector_std_vector_mr_vector2f(&amp;pl2.contours(None), None);</div>
+<div class="line"> </div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format(&amp;triangulation_res, &quot;LogoMesh.ctm&quot;, None).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.DistanceMap;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Image;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Polyline2;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>ContourTriangulation</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// load image as distance map</span></div>
+<div class="line">        <span class="comment">// An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">        Image image = meshlib.imageload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;logo.jpg&quot;</span>);</div>
+<div class="line">        DistanceMap dm = Functions.convertImageToDistanceMap(image, <span class="keyword">null</span>, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        Polyline2 pl2 = Functions.distanceMapTo2DIsoPolyline(dm, 210.0f);</div>
+<div class="line">        Mesh triangulationRes = meshlib.planartriangulation.Functions.triangulateContours(pl2.contours(<span class="keyword">null</span>), <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(triangulationRes, <span class="stringliteral">&quot;LogoMesh.ctm&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
 </ul>

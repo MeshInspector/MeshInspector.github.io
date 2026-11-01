@@ -232,6 +232,7 @@ $(function(){initNavTree('ExampleFreeForm.html','',''); });
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshLoad.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_void_std_string.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
@@ -281,56 +282,56 @@ $(function(){initNavTree('ExampleFreeForm.html','',''); });
 <div class="line">    MR_Mesh_invalidateCaches( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save deformed mesh</span></div>
-<div class="line">    MR_MeshSave_toAnySupportedFormat( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    <span class="keywordtype">int</span> rc = EXIT_SUCCESS;</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
+<div class="line">        rc = EXIT_FAILURE;</div>
+<div class="line">    }</div>
 <div class="line"> </div>
+<div class="line">    MR_expected_void_std_string_Destroy( saveEx );</div>
 <div class="line">    MR_FreeFormDeformer_Destroy( ffDeformer );</div>
 <div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
-<div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
+<div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga9d99981f78f15a799d2d967ef61952e9"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga9d99981f78f15a799d2d967ef61952e9">center</a></div><div class="ttdeci">Vector3&lt; T &gt; &amp; center(void)</div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">class </span>FreeFormDeformationExample</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>FreeFormDeformationExample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordflow">try</span></div>
-<div class="line">        {</div>
-<div class="line">            <span class="comment">// Make a mesh to deform</span></div>
-<div class="line">            <span class="comment">// (to deform your own mesh, load it with MR.MeshLoad.fromAnySupportedFormat(&quot;mesh.stl&quot;) instead)</span></div>
-<div class="line">            var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.makeUVSphere(1.0f, 32, 32);</div>
+<div class="line">        <span class="comment">// Load mesh</span></div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Compute mesh bounding box</span></div>
-<div class="line">            MR.Box3f <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.getBoundingBox();</div>
+<div class="line">        <span class="comment">// Construct deformer on mesh vertices</span></div>
+<div class="line">        <a class="code hl_classRef" href="./Cpp/classMR_1_1FreeFormDeformer.html">MR.FreeFormDeformer</a> ffDeformer = <span class="keyword">new</span>(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.points, <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.getValidVerts());</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Construct deformer on mesh vertices</span></div>
-<div class="line">            <a class="code hl_classRef" href="./Cpp/classMR_1_1FreeFormDeformer.html">MR.FreeFormDeformer</a> ffDeformer = <span class="keyword">new</span>(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>);</div>
+<div class="line">        <span class="comment">// Compute mesh bounding box</span></div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.computeBoundingBox();</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Init deformer with 3x3 grid on mesh box</span></div>
-<div class="line">            ffDeformer.init(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i.diagonal(3), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>);</div>
+<div class="line">        <span class="comment">// Init deformer with 3x3 grid on mesh box</span></div>
+<div class="line">        ffDeformer.init(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i.diagonal(3), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>);</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Move some control points of the grid to the center</span></div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 1, 0), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 1, 2), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(0, 1, 1), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(2, 1, 1), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 0, 1), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
-<div class="line">            ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 2, 1), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
+<div class="line">        <span class="comment">// Move some control points of the grid to the center</span></div>
+<div class="line">        ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 1, 0), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
+<div class="line">        ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 1, 2), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
+<div class="line">        ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(0, 1, 1), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
+<div class="line">        ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(2, 1, 1), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
+<div class="line">        ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 0, 1), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
+<div class="line">        ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.Vector3i(1, 2, 1), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Apply the deformation to the mesh vertices</span></div>
-<div class="line">            ffDeformer.apply();</div>
+<div class="line">        <span class="comment">// Apply the deformation to the mesh vertices</span></div>
+<div class="line">        ffDeformer.apply();</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Invalidate the mesh because of external vertex changes</span></div>
-<div class="line">            <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.invalidateCaches();</div>
+<div class="line">        <span class="comment">// Invalidate the mesh because of external vertex changes</span></div>
+<div class="line">        <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.invalidateCaches();</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Save deformed mesh</span></div>
-<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>);</div>
-<div class="line">        }</div>
-<div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
-<div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, e.Message);</div>
-<div class="line">        }</div>
+<div class="line">        <span class="comment">// Save deformed mesh</span></div>
+<div class="line">        <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
+<div class="ttc" id="anamespaceMR_1_1MeshLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
 <div class="ttc" id="anamespaceMR_1_1MeshSave_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshSave.html">MR::MeshSave</a></div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="./Cpp/namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></li>
@@ -369,8 +370,86 @@ $(function(){initNavTree('ExampleFreeForm.html','',''); });
 <div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;deformed_mesh.stl&#39;);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::{FreeFormDeformer, Vector3i};</div>
+<div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    // Load mesh</div>
+<div class="line">    let mut mesh = meshlib::mesh_load::from_any_supported_format(&quot;mesh.stl&quot;, None).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    // Construct deformer on mesh vertices</div>
+<div class="line">    let mut ff_deformer = FreeFormDeformer::construct_mr_mesh(&amp;mut mesh, None);</div>
+<div class="line"> </div>
+<div class="line">    // Compute mesh bounding box</div>
+<div class="line">    let bbox = mesh.compute_bounding_box(None);</div>
+<div class="line"> </div>
+<div class="line">    // Init deformer with 3x3 grid on mesh box</div>
+<div class="line">    ff_deformer.init(Some(&amp;Vector3i::diagonal(3)), Some(&amp;bbox));</div>
+<div class="line"> </div>
+<div class="line">    // Move some control points of the grid to the center</div>
+<div class="line">    ff_deformer.set_ref_grid_point_position(&amp;Vector3i {x: 1, y: 1, z: 0}, &amp;bbox.center());</div>
+<div class="line">    ff_deformer.set_ref_grid_point_position(&amp;Vector3i {x: 1, y: 1, z: 2}, &amp;bbox.center());</div>
+<div class="line">    ff_deformer.set_ref_grid_point_position(&amp;Vector3i {x: 0, y: 1, z: 1}, &amp;bbox.center());</div>
+<div class="line">    ff_deformer.set_ref_grid_point_position(&amp;Vector3i {x: 2, y: 1, z: 1}, &amp;bbox.center());</div>
+<div class="line">    ff_deformer.set_ref_grid_point_position(&amp;Vector3i {x: 1, y: 0, z: 1}, &amp;bbox.center());</div>
+<div class="line">    ff_deformer.set_ref_grid_point_position(&amp;Vector3i {x: 1, y: 2, z: 1}, &amp;bbox.center());</div>
+<div class="line"> </div>
+<div class="line">    // Apply the deformation to the mesh vertices</div>
+<div class="line">    ff_deformer.apply();</div>
+<div class="line"> </div>
+<div class="line">    // Invalidate the mesh because of external vertex changes</div>
+<div class="line">    mesh.invalidate_caches(None);</div>
+<div class="line"> </div>
+<div class="line">    // Save deformed mesh</div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format(&amp;mesh, &quot;deformed_mesh.stl&quot;, None).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.Box3f;</div>
+<div class="line"><span class="keyword">import</span> meshlib.FreeFormDeformer;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Vector3i;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>FreeFormDeformation</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Load mesh. An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">        Mesh <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = meshlib.meshload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Construct deformer on mesh vertices</span></div>
+<div class="line">        <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga3cb49e9f454ec68c01a56adff1d1f576">FreeFormDeformer</a> ffDeformer = <span class="keyword">new</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga3cb49e9f454ec68c01a56adff1d1f576">FreeFormDeformer</a>(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.points(), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology().getValidVerts());</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Compute mesh bounding box</span></div>
+<div class="line">        Box3f <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.computeBoundingBox(<span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Init deformer with 3x3 grid on mesh box</span></div>
+<div class="line">        ffDeformer.init(Vector3i.diagonal(3), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Move some control points of the grid to the center</span></div>
+<div class="line">        ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> Vector3i(1, 1, 0), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
+<div class="line">        ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> Vector3i(1, 1, 2), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
+<div class="line">        ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> Vector3i(0, 1, 1), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
+<div class="line">        ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> Vector3i(2, 1, 1), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
+<div class="line">        ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> Vector3i(1, 0, 1), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
+<div class="line">        ffDeformer.setRefGridPointPosition(<span class="keyword">new</span> Vector3i(1, 2, 1), <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga0ea02f370dc76e349984c62b5a3f6557">box</a>.center());</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Apply the deformation to the mesh vertices</span></div>
+<div class="line">        ffDeformer.apply();</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Invalidate the mesh because of external vertex changes</span></div>
+<div class="line">        <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.invalidateCaches(<span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Save deformed mesh</span></div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga3cb49e9f454ec68c01a56adff1d1f576"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga3cb49e9f454ec68c01a56adff1d1f576">FreeFormDeformer</a></div><div class="ttdeci">FreeFormDeformer(VertCoords &amp;coords, const VertBitSet &amp;valid)</div></div>
+</div><!-- fragment --></li>
 </ul>
-</div> </div></div><!-- contents -->
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->

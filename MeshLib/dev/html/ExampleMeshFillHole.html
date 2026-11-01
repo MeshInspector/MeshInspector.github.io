@@ -256,44 +256,26 @@ $(function(){initNavTree('ExampleMeshFillHole.html','',''); });
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>System.Reflection;</div>
-<div class="line"> </div>
-<div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshFillHoleExample</div>
+<li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span>MeshFillHoleExample</div>
 <div class="line">{</div>
 <div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args)</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordflow">try</span></div>
-<div class="line">        {</div>
-<div class="line">            <span class="keywordflow">if</span> (args.Length != 1 &amp;&amp; args.Length != 2)</div>
-<div class="line">            {</div>
-<div class="line">                Console.WriteLine(<span class="stringliteral">&quot;Usage: {0} INPUT [OUTPUT]&quot;</span>, Assembly.GetExecutingAssembly().GetName().Name);</div>
-<div class="line">                <span class="keywordflow">return</span>;</div>
-<div class="line">            }</div>
+<div class="line">        <span class="comment">// Load mesh</span></div>
+<div class="line">        var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// INPUT is a mesh file you supply; this example needs a mesh that has holes to fill</span></div>
-<div class="line">            <span class="keywordtype">string</span> inputFile = args[0];</div>
-<div class="line">            <span class="keywordtype">string</span> outputFile = args.Length == 2 ? args[1] : inputFile;</div>
+<div class="line">        <span class="comment">// Find single edge for each hole in mesh</span></div>
+<div class="line">        var holeEdges = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.findHoleRepresentiveEdges();</div>
 <div class="line"> </div>
-<div class="line">            var <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshLoad.html">MeshLoad</a>.fromAnySupportedFormat(inputFile);</div>
+<div class="line">        <span class="comment">// Setup filling parameters</span></div>
+<div class="line">        <a class="code hl_structRef" href="./Cpp/structMR_1_1FillHoleParams.html">MR.FillHoleParams</a> parameters = <span class="keyword">new</span>();</div>
+<div class="line">        parameters.metric.assign(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.getUniversalMetric(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>));</div>
 <div class="line"> </div>
-<div class="line">            MR.Std.Vector_MREdgeId holes = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology.findHoleRepresentiveEdges();</div>
+<div class="line">        <span class="comment">// Alternatively, MR.fillHoles(mesh, holeEdges, parameters) fills all holes at once.</span></div>
+<div class="line">        <span class="keywordflow">for</span> (nuint i = 0; i &lt; holeEdges.size(); ++i)</div>
+<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.fillHole(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, holeEdges[i], parameters);</div>
 <div class="line"> </div>
-<div class="line">            <a class="code hl_structRef" href="./Cpp/structMR_1_1FillHoleParams.html">MR.FillHoleParams</a> fillHoleParams = <span class="keyword">new</span>();</div>
-<div class="line">            fillHoleParams.metric.assign(<a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.getUniversalMetric(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>));</div>
-<div class="line">            MR.FaceBitSet outfaces = <span class="keyword">new</span>();</div>
-<div class="line">            <span class="comment">// TODO</span></div>
-<div class="line">            <span class="comment">// fillHoleParams.OutNewFaces = ...</span></div>
-<div class="line"> </div>
-<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.fillHoles(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, holes, fillHoleParams);</div>
-<div class="line">            <span class="comment">// TODO</span></div>
-<div class="line">            <span class="comment">// Console.WriteLine(&quot;Number of new faces: {0}&quot;, fillHoleParams.OutNewFaces.Count());</span></div>
-<div class="line"> </div>
-<div class="line">            <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, outputFile);</div>
-<div class="line">        }</div>
-<div class="line">        <span class="keywordflow">catch</span> (Exception e)</div>
-<div class="line">        {</div>
-<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;Error: {0}&quot;</span>, e.Message);</div>
-<div class="line">        }</div>
+<div class="line">        <span class="comment">// Save result</span></div>
+<div class="line">        <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.<a class="code hl_namespaceRef" href="./Cpp/namespaceMR_1_1MeshSave.html">MeshSave</a>.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;filledMesh.stl&quot;</span>);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="ttc" id="anamespaceMR_1_1MeshLoad_html"><div class="ttname"><a href="./Cpp/namespaceMR_1_1MeshLoad.html">MR::MeshLoad</a></div></div>
@@ -323,8 +305,63 @@ $(function(){initNavTree('ExampleMeshFillHole.html','',''); });
 <div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;filledMesh.stl&#39;);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::FillHoleParams;</div>
+<div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    // Load mesh</div>
+<div class="line">    let mut mesh = meshlib::mesh_load::from_any_supported_format(&quot;mesh.stl&quot;, None).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    // Find single edge for each hole in mesh</div>
+<div class="line">    let hole_edges = mesh.topology().find_hole_representive_edges(None);</div>
+<div class="line"> </div>
+<div class="line">    // Setup filling parameters</div>
+<div class="line">    let mut params = FillHoleParams::new();</div>
+<div class="line">    params.set_metric(&amp;meshlib::get_universal_metric(&amp;mesh));</div>
+<div class="line"> </div>
+<div class="line">    // Alternatively, meshlib::fill_holes(&amp;mut mesh, &amp;hole_edges, Some(&amp;params)) fills all holes at once.</div>
+<div class="line">    for i in 0..hole_edges.size()</div>
+<div class="line">    {</div>
+<div class="line">        meshlib::fill_hole(&amp;mut mesh, *hole_edges.at(i), Some(&amp;params));</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // Save result</div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format(&amp;mesh, &quot;filledMesh.stl&quot;, None).into_result()?;</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.FillHoleParams;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.std_vector_MR_EdgeId;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>MeshFillHole</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Load mesh</span></div>
+<div class="line">        Mesh <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = meshlib.meshload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Find single edge for each hole in mesh</span></div>
+<div class="line">        std_vector_MR_EdgeId holeEdges = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>.topology().findHoleRepresentiveEdges(<span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Setup filling parameters</span></div>
+<div class="line">        FillHoleParams params = <span class="keyword">new</span> FillHoleParams();</div>
+<div class="line">        params.setMetric(Functions.getUniversalMetric(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>));</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Alternatively, Functions.fillHoles(mesh, holeEdges, params) fills all holes at once.</span></div>
+<div class="line">        <span class="keywordflow">for</span> (<span class="keywordtype">long</span> i = 0; i &lt; holeEdges.size(); i++)</div>
+<div class="line">            Functions.fillHole(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, holeEdges.at(i), params);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Save result</span></div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(<a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a>, <span class="stringliteral">&quot;filledMesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --></li>
 </ul>
-</div> </div></div><!-- contents -->
+</div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 </div><!-- container -->
