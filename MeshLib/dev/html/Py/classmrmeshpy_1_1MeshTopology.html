@@ -163,6 +163,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afc16761eb33ec7520c688b1a33cf57d5" id="r_afc16761eb33ec7520c688b1a33cf57d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc16761eb33ec7520c688b1a33cf57d5">computeValidsFromEdges</a> (self, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="memitem:a7200697fb5dd62e6ce9dafce5f6a933a" id="r_a7200697fb5dd62e6ce9dafce5f6a933a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7200697fb5dd62e6ce9dafce5f6a933a">deleteFace</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> keepEdges=None)</td></tr>
 <tr class="memitem:a3f9b66c6351820000f9010e15e438acf" id="r_a3f9b66c6351820000f9010e15e438acf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VacantElements.html">VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f9b66c6351820000f9010e15e438acf">deleteFaces</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> fs, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> keepEdges=None)</td></tr>
+<tr class="memitem:a303aa667e26237f42337f5f6901973e9" id="r_a303aa667e26237f42337f5f6901973e9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a303aa667e26237f42337f5f6901973e9">deleteFacesKeepEdges</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> fs)</td></tr>
 <tr class="memitem:a006e94b489c3b7b15e30a911f1d6b5b3" id="r_a006e94b489c3b7b15e30a911f1d6b5b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a006e94b489c3b7b15e30a911f1d6b5b3">dest</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> he)</td></tr>
 <tr class="memitem:aa5bda979c425e98532dfd39e79b2abd0" id="r_aa5bda979c425e98532dfd39e79b2abd0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5bda979c425e98532dfd39e79b2abd0">edgeCapacity</a> (self)</td></tr>
 <tr class="memitem:afab008de4295a68a65aa66a89faa3707" id="r_afab008de4295a68a65aa66a89faa3707"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector__EdgeId__FaceId.html">Vector_EdgeId_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afab008de4295a68a65aa66a89faa3707">edgePerFace</a> (self)</td></tr>
@@ -960,6 +961,28 @@ and activates their auto-update
 2) all the vertices, which had incident only deleted faces and no edges from \\p keepEdges,
 3) make lone all the edges, which had to the left/right only deleted faces except for the edges from \\p keepEdges;
 return bit sets of all vacant elements in this topology after deletion
+</pre> 
+</div>
+</div>
+<a id="a303aa667e26237f42337f5f6901973e9" name="a303aa667e26237f42337f5f6901973e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a303aa667e26237f42337f5f6901973e9">&#9670;&#160;</a></span>deleteFacesKeepEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshTopology.deleteFacesKeepEdges </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>fs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">deletes the given valid faces (in parallel), keeping all their edges and vertices, which get no face on that side
 </pre> 
 </div>
 </div>

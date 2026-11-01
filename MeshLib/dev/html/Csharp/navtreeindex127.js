@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"classMR_1_1PointsLoadSettings.html#ac54cd04062d9273c28d31ce11753783c":[9,3,0,0,0,1565,5],
 "classMR_1_1PointsLoadSettings.html#ae878a2165d7f33672bf25b663ef0d184":[9,3,0,0,0,1565,6],
 "classMR_1_1PointsLoadSettings.html#af9faf3d3e9830f4250cfbf51af566801":[9,3,0,0,0,1565,1],
 "classMR_1_1PointsLoad_1_1Const__E57LoadSettings.html":[9,3,0,0,0,1564,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX127 =
 "classMR_1_1Polyline3.html#a1f454ea832d6a43780d19b99b010c5cd":[9,3,0,0,0,1576,20],
 "classMR_1_1Polyline3.html#a35aba6fbcdbad29820f57a2c89938af3":[9,3,0,0,0,1576,2],
 "classMR_1_1Polyline3.html#a37ae7c53db9ae9fc388fe74e0224b2b5":[9,3,0,0,0,1576,6],
-"classMR_1_1Polyline3.html#a42df0570f9a3e1f840f2581f169e95cf":[9,3,0,0,0,1576,16],
-"classMR_1_1Polyline3.html#a4631023cb9ac530313cac8b766ca6ed0":[9,3,0,0,0,1576,10]
+"classMR_1_1Polyline3.html#a42df0570f9a3e1f840f2581f169e95cf":[9,3,0,0,0,1576,16]
 };

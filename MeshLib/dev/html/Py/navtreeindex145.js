@@ -1,5 +1,7 @@
 var NAVTREEINDEX145 =
 {
+"classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html":[9,1,0,0,2,1360,2],
+"classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html":[9,1,1,0,1,1360,2],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html#a2b80769d17addc984d9323a18f2f3925":[9,1,0,0,2,1360,2,1],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html#a2b80769d17addc984d9323a18f2f3925":[9,1,1,0,1,1360,2,1],
 "classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html#a409e50b6c208423278ab6eb69161bd05":[9,1,0,0,2,1360,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX145 =
 "classmrmeshpy_1_1ZlibCompressParams.html#a9fa452d3a2e4c81799535455048d7ca3":[9,1,0,0,2,1369,3],
 "classmrmeshpy_1_1ZlibCompressParams.html#a9fa452d3a2e4c81799535455048d7ca3":[9,1,1,0,1,1369,3],
 "classmrmeshpy_1_1ZlibCompressParams.html#accf41ee482f9ddbd568a266cfff6ebe9":[9,1,0,0,2,1369,2],
-"classmrmeshpy_1_1ZlibCompressParams.html#accf41ee482f9ddbd568a266cfff6ebe9":[9,1,1,0,1,1369,2],
-"classmrmeshpy_1_1ZlibCompressStats.html":[9,1,0,0,2,1370],
-"classmrmeshpy_1_1ZlibCompressStats.html":[9,1,1,0,1,1370]
+"classmrmeshpy_1_1ZlibCompressParams.html#accf41ee482f9ddbd568a266cfff6ebe9":[9,1,1,0,1,1369,2]
 };

@@ -20,6 +20,7 @@ var structmeshlib_1_1MeshTopology =
     [ "compute_valids_from_edges", "structmeshlib_1_1MeshTopology.html#af12520f77e8272d345e1b1b739cba655", null ],
     [ "delete_face", "structmeshlib_1_1MeshTopology.html#a1fcf023c3a5d3cdce9e72a8499e8d0f7", null ],
     [ "delete_faces", "structmeshlib_1_1MeshTopology.html#ab0bd84f7f56a1911cd73bf31b32b4519", null ],
+    [ "delete_faces_keep_edges", "structmeshlib_1_1MeshTopology.html#aa8f76b5994ee671c41bd3c9394e7d7df", null ],
     [ "dest", "structmeshlib_1_1MeshTopology.html#ae079014d632c2d1fcfb37d7156cc5a11", null ],
     [ "edge_capacity", "structmeshlib_1_1MeshTopology.html#abbe27a00be22de569943584368ea5b48", null ],
     [ "edge_per_face", "structmeshlib_1_1MeshTopology.html#a963a0440b7b404dcbdfc060b1d570c31", null ],

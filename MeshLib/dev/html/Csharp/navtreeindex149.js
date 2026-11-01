@@ -1,5 +1,6 @@
 var NAVTREEINDEX149 =
 {
+"classMR_1_1VoxelsLoad_1_1RawParameters.html#a95bc4dcd84ffc9ddc8a05d3fb1b9931c":[9,3,0,0,0,1894,9,4],
 "classMR_1_1VoxelsLoad_1_1RawParameters.html#a9aa7ab9c5fe499bc6b2fb4aba9338977":[9,3,0,0,0,1894,9,8],
 "classMR_1_1VoxelsLoad_1_1RawParameters.html#aa40e2b503be308ffcf87c36d8242677a":[9,3,0,0,0,1894,9,1],
 "classMR_1_1VoxelsLoad_1_1RawParameters.html#afad68ef98f7b9867b47ef62232e5c835":[9,3,0,0,0,1894,9,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX149 =
 "classMR_1_1WeightedVertexd.html#aa6085973c18336b4963f77fad5508338":[9,3,0,0,0,1913,3],
 "classMR_1_1WeightedVertexd.html#ad065f88ee118aab64b6995922ad02b8e":[9,3,0,0,0,1913,1],
 "classMR_1_1WeightedVertexd.html#af7c418be2a280754ef085fe2208c4203":[9,3,0,0,0,1913,4],
-"classMR_1_1WholeEdgeBMap.html":[9,3,0,0,0,1914],
-"classMR_1_1WholeEdgeBMap.html#a40d1133633ef416d051f0752e23cdee2":[9,3,0,0,0,1914,3]
+"classMR_1_1WholeEdgeBMap.html":[9,3,0,0,0,1914]
 };

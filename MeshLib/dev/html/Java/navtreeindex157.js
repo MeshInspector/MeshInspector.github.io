@@ -1,5 +1,7 @@
 var NAVTREEINDEX157 =
 {
+"classmeshlib_1_1Vector__MR__QuadraticForm2f__MR__VertId.html#af6776e9756433836d8fe3c486c93d2a4":[9,6,1,0,0,1612,2],
+"classmeshlib_1_1Vector__MR__QuadraticForm3f__MR__VertId.html":[9,6,0,0,0,1613],
 "classmeshlib_1_1Vector__MR__QuadraticForm3f__MR__VertId.html":[9,6,1,0,0,1613],
 "classmeshlib_1_1Vector__MR__QuadraticForm3f__MR__VertId.html#a0a30856e711efcb1611c8747b1bc4b80":[9,6,0,0,0,1613,17],
 "classmeshlib_1_1Vector__MR__QuadraticForm3f__MR__VertId.html#a0a30856e711efcb1611c8747b1bc4b80":[9,6,1,0,0,1613,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX157 =
 "classmeshlib_1_1Vector__MR__TextureId__MR__TextureId.html#ae92672a8a727f0905329fa3e75f411a7":[9,6,1,0,0,1615,10],
 "classmeshlib_1_1Vector__MR__TextureId__MR__TextureId.html#af523aeaccdf5509e82f44ccc63fdf254":[9,6,0,0,0,1615,33],
 "classmeshlib_1_1Vector__MR__TextureId__MR__TextureId.html#af523aeaccdf5509e82f44ccc63fdf254":[9,6,1,0,0,1615,33],
-"classmeshlib_1_1Vector__MR__TextureId__MR__TextureId.html#afb17f8157fa365f6a3e59ef136a9e2b9":[9,6,0,0,0,1615,39],
-"classmeshlib_1_1Vector__MR__TextureId__MR__TextureId.html#afb17f8157fa365f6a3e59ef136a9e2b9":[9,6,1,0,0,1615,39],
-"classmeshlib_1_1Vector__MR__TextureId__MR__TextureId.html#afecc5ae6272466d2690cbffe91b1dbe8":[9,6,0,0,0,1615,31]
+"classmeshlib_1_1Vector__MR__TextureId__MR__TextureId.html#afb17f8157fa365f6a3e59ef136a9e2b9":[9,6,0,0,0,1615,39]
 };

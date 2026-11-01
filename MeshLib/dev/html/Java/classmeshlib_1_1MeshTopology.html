@@ -228,6 +228,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a06076779986c69dbc3ad905333603774" id="r_a06076779986c69dbc3ad905333603774"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1FaceId.html">meshlib.FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06076779986c69dbc3ad905333603774">addFaceId</a> ()</td></tr>
 <tr class="memitem:a529a2e81033cdc7574ea4ae40c8e679e" id="r_a529a2e81033cdc7574ea4ae40c8e679e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a529a2e81033cdc7574ea4ae40c8e679e">deleteFace</a> (<a class="el" href="classmeshlib_1_1FaceId.html">meshlib.FaceId</a> f, <a class="el" href="classmeshlib_1_1UndirectedEdgeBitSet.html">meshlib.UndirectedEdgeBitSet</a> keepEdges)</td></tr>
 <tr class="memitem:a4261aef16dbfe807a927398f2f59f0e8" id="r_a4261aef16dbfe807a927398f2f59f0e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1VacantElements.html">meshlib.VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4261aef16dbfe807a927398f2f59f0e8">deleteFaces</a> (<a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a> fs, <a class="el" href="classmeshlib_1_1UndirectedEdgeBitSet.html">meshlib.UndirectedEdgeBitSet</a> keepEdges)</td></tr>
+<tr class="memitem:a9e7816070ceb90b4a6ff299a18bea728" id="r_a9e7816070ceb90b4a6ff299a18bea728"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e7816070ceb90b4a6ff299a18bea728">deleteFacesKeepEdges</a> (<a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a> fs)</td></tr>
 <tr class="memitem:a258f876fdec972560bd35e69bbac494f" id="r_a258f876fdec972560bd35e69bbac494f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a258f876fdec972560bd35e69bbac494f">faceResize</a> (long newSize)</td></tr>
 <tr class="memitem:a7b5daf3b26a65caac6b88f0b4232df9f" id="r_a7b5daf3b26a65caac6b88f0b4232df9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b5daf3b26a65caac6b88f0b4232df9f">faceResizeWithReserve</a> (long newSize)</td></tr>
 <tr class="memitem:a27e8c9a7e2cd9b9110f198705fe5134c" id="r_a27e8c9a7e2cd9b9110f198705fe5134c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27e8c9a7e2cd9b9110f198705fe5134c">faceReserve</a> (long newCapacity)</td></tr>
@@ -891,6 +892,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only deleted faces and no edges from <code class="param">keepEdges</code>, 3) make lone all the edges, which had to the left/right only deleted faces except for the edges from <code class="param">keepEdges</code>; return bit sets of all vacant elements in this topology after deletion Generated from method <span class="tt">MR::MeshTopology::deleteFaces</span>.</p>
 <p>Calls <span class="tt">MR_MeshTopology_deleteFaces()</span>. </p>
+
+</div>
+</div>
+<a id="a9e7816070ceb90b4a6ff299a18bea728" name="a9e7816070ceb90b4a6ff299a18bea728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7816070ceb90b4a6ff299a18bea728">&#9670;&#160;</a></span>deleteFacesKeepEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void meshlib.MeshTopology.deleteFacesKeepEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>fs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>deletes the given valid faces (in parallel), keeping all their edges and vertices, which get no face on that side Generated from method <span class="tt">MR::MeshTopology::deleteFacesKeepEdges</span>.</p>
+<p>Calls <span class="tt">MR_MeshTopology_deleteFacesKeepEdges()</span>. </p>
 
 </div>
 </div>

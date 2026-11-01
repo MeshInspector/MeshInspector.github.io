@@ -1,5 +1,7 @@
 var NAVTREEINDEX130 =
 {
+"classmeshlib_1_1SplineSettings.html#a451d5a1c788e3264f537d7df45345888":[9,6,1,0,0,952,2],
+"classmeshlib_1_1SplineSettings.html#a4691cd3a0721774748e18bd2bc2ba17e":[9,6,0,0,0,952,0],
 "classmeshlib_1_1SplineSettings.html#a4691cd3a0721774748e18bd2bc2ba17e":[9,6,1,0,0,952,0],
 "classmeshlib_1_1SplineSettings.html#a6c82bb7d19881f30e980def64a1bbbc7":[9,6,0,0,0,952,1],
 "classmeshlib_1_1SplineSettings.html#a6c82bb7d19881f30e980def64a1bbbc7":[9,6,1,0,0,952,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX130 =
 "classmeshlib_1_1SurfaceDistanceBuilder.html#aad38cf9075a6d24aa37690e558dc50c5":[9,6,1,0,0,1470,9],
 "classmeshlib_1_1SurfaceDistanceBuilder.html#ab9d587f011d6a00742573b5885cd89ed":[9,6,0,0,0,1470,1],
 "classmeshlib_1_1SurfaceDistanceBuilder.html#ab9d587f011d6a00742573b5885cd89ed":[9,6,1,0,0,1470,1],
-"classmeshlib_1_1SurfaceDistanceBuilder.html#ac994c6aefa03401805c17550b5d9374d":[9,6,0,0,0,1470,7],
-"classmeshlib_1_1SurfaceDistanceBuilder.html#ac994c6aefa03401805c17550b5d9374d":[9,6,1,0,0,1470,7],
-"classmeshlib_1_1SurfaceDistanceBuilder.html#ae2f4b0c2b16ca18967de94c93d8e7151":[9,6,0,0,0,1470,3]
+"classmeshlib_1_1SurfaceDistanceBuilder.html#ac994c6aefa03401805c17550b5d9374d":[9,6,0,0,0,1470,7]
 };

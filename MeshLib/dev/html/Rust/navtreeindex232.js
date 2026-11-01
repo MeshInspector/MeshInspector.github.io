@@ -1,5 +1,7 @@
 var NAVTREEINDEX232 =
 {
+"structmeshlib_1_1voxels__load_1_1DicomVolumeAsVdb.html#af341df2fe3ae0b6608284448e49b0172":[9,5,1,0,0,21,3,4],
+"structmeshlib_1_1voxels__load_1_1DicomVolumeAsVdb.html#afef518977af4c1e93d3cfc295a90f033":[9,5,0,0,0,34,3,5],
 "structmeshlib_1_1voxels__load_1_1DicomVolumeAsVdb.html#afef518977af4c1e93d3cfc295a90f033":[9,5,1,0,0,21,3,5],
 "structmeshlib_1_1voxels__load_1_1GridType.html":[9,5,0,0,0,34,4],
 "structmeshlib_1_1voxels__load_1_1GridType.html":[9,5,1,0,0,21,4],

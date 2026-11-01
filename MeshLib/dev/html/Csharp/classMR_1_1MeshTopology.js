@@ -18,6 +18,7 @@ var classMR_1_1MeshTopology =
     [ "computeValidsFromEdges", "classMR_1_1MeshTopology.html#a5f8cc5b0e1d78c1a58fcbe9bb62ce559", null ],
     [ "deleteFace", "classMR_1_1MeshTopology.html#a02ab985393952c324537391d3a95b34b", null ],
     [ "deleteFaces", "classMR_1_1MeshTopology.html#a31a367f56f1fb6868fa57744f1bb3ab1", null ],
+    [ "deleteFacesKeepEdges", "classMR_1_1MeshTopology.html#a8b2738d90b1ad81647201a1d497fac32", null ],
     [ "edgeReserve", "classMR_1_1MeshTopology.html#a1754b77215434dd1721de1abd60e7ed3", null ],
     [ "faceReserve", "classMR_1_1MeshTopology.html#a42e7fea85e7c738b78b659b88b67f65b", null ],
     [ "faceResize", "classMR_1_1MeshTopology.html#a18af6bbf0f5244c7165d78568490e6d6", null ],

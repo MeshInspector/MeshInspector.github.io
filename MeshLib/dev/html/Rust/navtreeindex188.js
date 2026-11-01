@@ -1,5 +1,7 @@
 var NAVTREEINDEX188 =
 {
+"structmeshlib_1_1std__function__float__from__MR__UndirectedEdgeId.html#ade3feffa8ce6b30588bbfe619095b602":[9,5,1,0,0,985,3],
+"structmeshlib_1_1std__function__float__from__MR__VertId.html":[9,5,0,0,0,999],
 "structmeshlib_1_1std__function__float__from__MR__VertId.html":[9,5,1,0,0,986],
 "structmeshlib_1_1std__function__float__from__MR__VertId.html#a157ae1a3e7339951959e942387fd3e19":[9,5,0,0,0,999,4],
 "structmeshlib_1_1std__function__float__from__MR__VertId.html#a157ae1a3e7339951959e942387fd3e19":[9,5,1,0,0,986,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX188 =
 "structmeshlib_1_1std__function__void__from__MR__Mesh__ref__float__float.html#adde22a7460e01004eb87b5a5f7ffd9ad":[9,5,1,0,0,1026,2],
 "structmeshlib_1_1std__function__void__from__MR__Mesh__ref__float__float.html#ae96067947dd9c0d9912f40b079551d87":[9,5,0,0,0,1039,1],
 "structmeshlib_1_1std__function__void__from__MR__Mesh__ref__float__float.html#ae96067947dd9c0d9912f40b079551d87":[9,5,1,0,0,1026,1],
-"structmeshlib_1_1std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult.html":[9,5,0,0,0,1040],
-"structmeshlib_1_1std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult.html":[9,5,1,0,0,1027],
-"structmeshlib_1_1std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult.html#a0dc769099bf8c6ef0393dc5a5d4e5c44":[9,5,0,0,0,1040,1]
+"structmeshlib_1_1std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult.html":[9,5,0,0,0,1040]
 };

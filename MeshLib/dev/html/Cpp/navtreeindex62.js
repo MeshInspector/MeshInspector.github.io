@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"namespaceMR_1_1VoxelsSave.html":[9,0,0,19,38],
 "namespaceMR_1_1VoxelsSave.html#a0f33f9e03ac1292f300799e260c153be":[9,0,1,0,1,56,4],
 "namespaceMR_1_1VoxelsSave.html#a25d9cd02652bc821741b80b0ddf5469e":[9,0,1,0,1,56,21],
 "namespaceMR_1_1VoxelsSave.html#a2df418f8471fab1ef437524c6b07333a":[9,0,1,0,1,56,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1BendContoursAlongCurveParams.html":[9,0,0,19,127],
 "structMR_1_1BendTextAlongCurveParams.html":[9,0,0,19,573],
 "structMR_1_1BindVertexAttribArraySettings.html":[9,0,0,19,672],
-"structMR_1_1BitSet_1_1Counts.html":[9,0,0,3,3,0],
-"structMR_1_1BitSet_1_1Counts.html#a0776e6d306c72a973806858bb91e4004":[9,0,0,3,3,0,1]
+"structMR_1_1BitSet_1_1Counts.html":[9,0,0,3,3,0]
 };

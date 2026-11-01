@@ -1,5 +1,7 @@
 var NAVTREEINDEX140 =
 {
+"classmeshlib_1_1TwoLineSegmClosestPoints__double.html#af6cbb0552e66e4da1542717e483eb096":[9,6,1,0,0,1527,10],
+"classmeshlib_1_1TwoLineSegmClosestPoints__double.html#afa091052bd93930f4dd9802f1c5dec8a":[9,6,0,0,0,1527,0],
 "classmeshlib_1_1TwoLineSegmClosestPoints__double.html#afa091052bd93930f4dd9802f1c5dec8a":[9,6,1,0,0,1527,0],
 "classmeshlib_1_1TwoLineSegmClosestPoints__float.html":[9,6,0,0,0,1528],
 "classmeshlib_1_1TwoLineSegmClosestPoints__float.html":[9,6,1,0,0,1528],
@@ -247,7 +249,5 @@ var NAVTREEINDEX140 =
 "classmeshlib_1_1UndirectedEdge2RegionMap.html#a2734103e9840ceb807d255d36aed3eac":[9,6,1,0,0,1532,25],
 "classmeshlib_1_1UndirectedEdge2RegionMap.html#a2a18b5a73de1e3429d3db6367b2a9e5e":[9,6,0,0,0,1532,0],
 "classmeshlib_1_1UndirectedEdge2RegionMap.html#a2a18b5a73de1e3429d3db6367b2a9e5e":[9,6,1,0,0,1532,0],
-"classmeshlib_1_1UndirectedEdge2RegionMap.html#a2a92fb5acfb3b96f3539fdb2f56d8a28":[9,6,0,0,0,1532,19],
-"classmeshlib_1_1UndirectedEdge2RegionMap.html#a2a92fb5acfb3b96f3539fdb2f56d8a28":[9,6,1,0,0,1532,19],
-"classmeshlib_1_1UndirectedEdge2RegionMap.html#a31ab46ecc67895ad8a260045f42e4f64":[9,6,0,0,0,1532,24]
+"classmeshlib_1_1UndirectedEdge2RegionMap.html#a2a92fb5acfb3b96f3539fdb2f56d8a28":[9,6,0,0,0,1532,19]
 };

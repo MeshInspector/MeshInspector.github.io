@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1BitSet_1_1Counts.html#a0776e6d306c72a973806858bb91e4004":[9,0,0,3,3,0,1],
 "structMR_1_1BitSet_1_1Counts.html#a66fde9318f3590b9b462765778d2c15f":[9,0,0,3,3,0,0],
 "structMR_1_1BooleanInternalParameters.html":[9,0,0,8,1],
 "structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[9,0,0,8,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1DeloneFlipsCache.html#a82541a219cbf4d1deff8d55e0e0d618d":[9,0,1,0,1,215,0],
 "structMR_1_1DeloneFlipsCache.html#a82541a219cbf4d1deff8d55e0e0d618d":[9,0,2,0,1,195,0],
 "structMR_1_1DeloneFlipsCache.html#a952f52b549cb750bf0006e86f02e64f8":[9,0,1,0,1,215,2],
-"structMR_1_1DeloneFlipsCache.html#a952f52b549cb750bf0006e86f02e64f8":[9,0,2,0,1,195,2],
-"structMR_1_1DeloneFlipsCache.html#a9a35236144629c8b122c73e09d8a57b3":[9,0,1,0,1,215,4]
+"structMR_1_1DeloneFlipsCache.html#a952f52b549cb750bf0006e86f02e64f8":[9,0,2,0,1,195,2]
 };

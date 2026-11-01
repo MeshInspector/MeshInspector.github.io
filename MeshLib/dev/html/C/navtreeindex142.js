@@ -1,5 +1,6 @@
 var NAVTREEINDEX142 =
 {
+"globals_func.html":[9,2,2,1,1,0],
 "globals_type.html":[9,2,2,1,2],
 "globals_type.html":[9,2,2,1,2,0],
 "include_2MRCMisc_2exports_8h.html":[9,2,2,0,0,0,0,2,76],
@@ -248,6 +249,5 @@ var NAVTREEINDEX142 =
 "phmap__flat__hash__map__MR__ObjId__MR__ObjId__phmap__Hash__MR__ObjId__phmap__EqualTo__MR__ObjId__MR__Allocato____d257_8h.html#a375fdd25e5170ac5fc29955d85eb4b5c":[9,2,2,0,0,0,0,2,85,14],
 "phmap__flat__hash__map__MR__ObjId__MR__ObjId__phmap__Hash__MR__ObjId__phmap__EqualTo__MR__ObjId__MR__Allocato____d257_8h.html#a39b3b8a8a19e328d33d552fed3b92ede":[9,2,2,0,0,0,0,2,85,4],
 "phmap__flat__hash__map__MR__ObjId__MR__ObjId__phmap__Hash__MR__ObjId__phmap__EqualTo__MR__ObjId__MR__Allocato____d257_8h.html#a3ae6fbabdf81194bfb03bba396516aa3":[9,2,2,0,0,0,0,2,85,28],
-"phmap__flat__hash__map__MR__ObjId__MR__ObjId__phmap__Hash__MR__ObjId__phmap__EqualTo__MR__ObjId__MR__Allocato____d257_8h.html#a4864ea5ac54a3cae969e246a434c7ada":[9,2,2,0,0,0,0,2,85,31],
-"phmap__flat__hash__map__MR__ObjId__MR__ObjId__phmap__Hash__MR__ObjId__phmap__EqualTo__MR__ObjId__MR__Allocato____d257_8h.html#a50be400c2220b335f80606220fd609fc":[9,2,2,0,0,0,0,2,85,21]
+"phmap__flat__hash__map__MR__ObjId__MR__ObjId__phmap__Hash__MR__ObjId__phmap__EqualTo__MR__ObjId__MR__Allocato____d257_8h.html#a4864ea5ac54a3cae969e246a434c7ada":[9,2,2,0,0,0,0,2,85,31]
 };

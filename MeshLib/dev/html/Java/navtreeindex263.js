@@ -1,5 +1,7 @@
 var NAVTREEINDEX263 =
 {
+"std__array__MR__VertId__3_8java.html":[9,6,2,0,0,1,0,0,973],
+"std__array__MR__WeightedVertex__3_8java.html":[9,6,2,0,0,1,0,0,974],
 "std__array__MR__WeightedVertexd__3_8java.html":[9,6,2,0,0,1,0,0,975],
 "std__array__double__4_8java.html":[9,6,2,0,0,1,0,0,954],
 "std__array__float__33_8java.html":[9,6,2,0,0,1,0,0,955],
@@ -247,7 +249,5 @@ var NAVTREEINDEX263 =
 "std__shared__ptr__MR__IComputePointsToDistanceVolume_8java.html":[9,6,2,0,0,1,0,0,1220],
 "std__shared__ptr__MR__IFastWindingNumberByParts_8java.html":[9,6,2,0,0,1,0,0,1223],
 "std__shared__ptr__MR__IFastWindingNumber_8java.html":[9,6,2,0,0,1,0,0,1222],
-"std__shared__ptr__MR__IPointsToMeshProjector_8java.html":[9,6,2,0,0,1,0,0,1224],
-"std__shared__ptr__MR__LineObject_8java.html":[9,6,2,0,0,1,0,0,1225],
-"std__shared__ptr__MR__Matrix__float_8java.html":[9,6,2,0,0,1,0,0,1226]
+"std__shared__ptr__MR__IPointsToMeshProjector_8java.html":[9,6,2,0,0,1,0,0,1224]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX147 =
 {
+"classMR_1_1VertPathInfo.html#a94d80fe6367bb3a99586795a480e1bef":[9,3,0,0,0,1871,0],
 "classMR_1_1VertPathInfo.html#aab8bf09d6285fe89ac452cde402f1139":[9,3,0,0,0,1871,3],
 "classMR_1_1VertPathInfo.html#ac96d8c5be408135d192cae093b9aee1a":[9,3,0,0,0,1871,2],
 "classMR_1_1VertPathInfo.html#af7a066be5ced20b7b5f0e3a72fd15b67":[9,3,0,0,0,1871,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX147 =
 "classMR_1_1VoxelBitSet.html#a5c8f81fbcb2acd92e00bcc7e8700a144":[9,3,0,0,0,1889,14],
 "classMR_1_1VoxelBitSet.html#a602b2e76091b4b95cc3e05a1b427ad8c":[9,3,0,0,0,1889,35],
 "classMR_1_1VoxelBitSet.html#a617e59aa3c5403cc768a86790e832ca0":[9,3,0,0,0,1889,15],
-"classMR_1_1VoxelBitSet.html#a652c80cb5d3aa2cc71ffa89748b96f25":[9,3,0,0,0,1889,34],
-"classMR_1_1VoxelBitSet.html#a6f5003cd169237fc852d230a4d6ff5f7":[9,3,0,0,0,1889,30]
+"classMR_1_1VoxelBitSet.html#a652c80cb5d3aa2cc71ffa89748b96f25":[9,3,0,0,0,1889,34]
 };
