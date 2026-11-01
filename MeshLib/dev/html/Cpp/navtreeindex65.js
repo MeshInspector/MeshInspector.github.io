@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1GeodesicPath.html#a8bce91a8b92164a84457e09d2f498961":[9,0,0,15,3,0,1],
 "structMR_1_1GeodesicPath.html#af134007969afd8d9e0854c05ab72e99b":[9,0,0,15,3,0,3],
 "structMR_1_1GlTexture_1_1Settings.html":[9,0,0,19,617],
 "structMR_1_1Graph_1_1EndVertices.html":[9,0,0,19,284],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[9,0,1,0,1,17,10,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[9,0,2,0,1,7,10,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd":[9,0,1,0,1,17,10,16],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd":[9,0,2,0,1,7,10,16],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html":[9,0,1,0,1,17,11]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd":[9,0,2,0,1,7,10,16]
 };

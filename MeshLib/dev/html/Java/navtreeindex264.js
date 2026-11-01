@@ -1,5 +1,7 @@
 var NAVTREEINDEX264 =
 {
+"std__shared__ptr__MR__MeasurementObject_8java.html":[9,6,2,0,0,1,0,0,1227],
+"std__shared__ptr__MR__Mesh_8java.html":[9,6,2,0,0,1,0,0,1228],
 "std__shared__ptr__MR__Nesting__IBoxNestingPriority_8java.html":[9,6,2,0,0,1,0,0,1229],
 "std__shared__ptr__MR__ObjectChildrenHolder_8java.html":[9,6,2,0,0,1,0,0,1231],
 "std__shared__ptr__MR__ObjectComparableWithReference_8java.html":[9,6,2,0,0,1,0,0,1232],
@@ -247,6 +249,5 @@ var NAVTREEINDEX264 =
 "triangulationhelpers_2Functions_8java.html":[9,6,2,0,0,1,0,0,33,1],
 "triangulationhelpers_2Settings_8java.html":[9,6,2,0,0,1,0,0,33,2],
 "voxelsload_2Functions_8java.html":[9,6,2,0,0,1,0,0,34,4],
-"voxelssave_2Functions_8java.html":[9,6,2,0,0,1,0,0,35,0],
-"weightedshell_2Functions_8java.html":[9,6,2,0,0,1,0,0,36,1]
+"voxelssave_2Functions_8java.html":[9,6,2,0,0,1,0,0,35,0]
 };

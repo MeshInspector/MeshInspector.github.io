@@ -34,7 +34,7 @@ var searchData=
   ['make_5fedge_31',['make_edge',['../structmeshlib_1_1MeshTopology.html#aa518611f1d4092e5d3eaeef85583ab7a',1,'meshlib::MeshTopology']]],
   ['make_5fedge_5f0_32',['make_edge_0',['../structmeshlib_1_1PolylineTopology.html#a7c1b70a0cbb2e679433a731e36ae82fe',1,'meshlib::PolylineTopology']]],
   ['make_5fedge_5f3_33',['make_edge_3',['../structmeshlib_1_1PolylineTopology.html#a146ee890240b0f2501bbe4c5605c0cc2',1,'meshlib::PolylineTopology']]],
-  ['make_5fedges_34',['make_edges',['../structmeshlib_1_1PolylineTopology.html#a77e41542e9ab1b90d1808d9cff3cd279',1,'meshlib::PolylineTopology']]],
+  ['make_5fedges_34',['make_edges',['../structmeshlib_1_1MeshTopology.html#a17577beb3f2223c48087b68a77e1a01b',1,'meshlib::MeshTopology::make_edges()'],['../structmeshlib_1_1PolylineTopology.html#a77e41542e9ab1b90d1808d9cff3cd279',1,'meshlib::PolylineTopology::make_edges()']]],
   ['make_5ffill_5fcontours2_5fd_5fplan_5fcache_35',['make_fill_contours2_d_plan_cache',['../namespacemeshlib.html#ae95a2d877ede6acd802abc834d6b37ad',1,'meshlib']]],
   ['make_5ffree_5fform_5forigin_5fgrid_36',['make_free_form_origin_grid',['../namespacemeshlib.html#a4fd51dafdcad8a5359c14cbcf7780895',1,'meshlib']]],
   ['make_5fhash_5fmap_5fwith_5fseq_5fnums_37',['make_hash_map_with_seq_nums',['../namespacemeshlib.html#a89e9f8b8a59437382ba59c487a118ce5',1,'meshlib']]],

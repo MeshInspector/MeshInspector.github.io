@@ -1,5 +1,6 @@
 var NAVTREEINDEX162 =
 {
+"std__shared__ptr__MR__Cuda__FastWindingNumber_8h.html#af3ea6bd045ecf8152ee9a48bdd401bad":[9,2,2,0,0,1,0,0,13,1],
 "std__shared__ptr__MR__Cuda__FastWindingNumber_8h.html#afa4071e96f92308c3f6817ab75c7f2a2":[9,2,2,0,0,1,0,0,13,8],
 "std__shared__ptr__MR__Cuda__FastWindingNumber_8h_source.html":[9,2,2,0,0,1,0,0,13],
 "std__shared__ptr__MR__Cuda__PointsToMeshProjector_8h.html":[9,2,2,0,0,1,0,0,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX162 =
 "std__shared__ptr__MR__IFastWindingNumberByParts_8h.html#a37496892b5c758818aefbc8507167f01":[9,2,2,0,0,0,0,2,363,8],
 "std__shared__ptr__MR__IFastWindingNumberByParts_8h.html#a4c041423b8c92eb269baa521400eeed2":[9,2,2,0,0,0,0,2,363,16],
 "std__shared__ptr__MR__IFastWindingNumberByParts_8h.html#a5931d38947a5e17e48f596c8f943e425":[9,2,2,0,0,0,0,2,363,14],
-"std__shared__ptr__MR__IFastWindingNumberByParts_8h.html#a6d3846cc08812ef54412f31805d69d47":[9,2,2,0,0,0,0,2,363,7],
-"std__shared__ptr__MR__IFastWindingNumberByParts_8h.html#a71d4987cde83dad6754a59d903ca5d1f":[9,2,2,0,0,0,0,2,363,20]
+"std__shared__ptr__MR__IFastWindingNumberByParts_8h.html#a6d3846cc08812ef54412f31805d69d47":[9,2,2,0,0,0,0,2,363,7]
 };

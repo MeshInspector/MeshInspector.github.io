@@ -164,6 +164,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a349c518750c2bda3d9dba761d2c87971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::MeshTopology::operator=</span>.  <br /></td></tr>
 <tr class="memitem:af2ec4ff948c91e5062cc78113e16fc60" id="r_af2ec4ff948c91e5062cc78113e16fc60"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2ec4ff948c91e5062cc78113e16fc60">makeEdge</a> ()</td></tr>
 <tr class="memdesc:af2ec4ff948c91e5062cc78113e16fc60"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates an edge not associated with any vertex or face Generated from method <span class="tt"><a class="el" href="#af2ec4ff948c91e5062cc78113e16fc60" title="creates an edge not associated with any vertex or face Generated from method MR.MeshTopology....">MR.MeshTopology.makeEdge</a></span>.  <br /></td></tr>
+<tr class="memitem:a02ee04325326c20370abc6873f75f9a8" id="r_a02ee04325326c20370abc6873f75f9a8"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02ee04325326c20370abc6873f75f9a8">makeEdges</a> (int num)</td></tr>
+<tr class="memdesc:a02ee04325326c20370abc6873f75f9a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates given number of edges not associated with any vertex or face, returns the first of them; edge i is the first + 2 * i, the same as from <a class="el" href="#af2ec4ff948c91e5062cc78113e16fc60" title="creates an edge not associated with any vertex or face Generated from method MR.MeshTopology....">makeEdge()</a> called num times Generated from method <span class="tt"><a class="el" href="#a02ee04325326c20370abc6873f75f9a8" title="creates given number of edges not associated with any vertex or face, returns the first of them; edge...">MR.MeshTopology.makeEdges</a></span>.  <br /></td></tr>
 <tr class="memitem:a1754b77215434dd1721de1abd60e7ed3" id="r_a1754b77215434dd1721de1abd60e7ed3"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1754b77215434dd1721de1abd60e7ed3">edgeReserve</a> (nuint newCapacity)</td></tr>
 <tr class="memdesc:a1754b77215434dd1721de1abd60e7ed3"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the capacity of half-edges vector Generated from method <span class="tt"><a class="el" href="#a1754b77215434dd1721de1abd60e7ed3" title="sets the capacity of half-edges vector Generated from method MR.MeshTopology.edgeReserve.">MR.MeshTopology.edgeReserve</a></span>.  <br /></td></tr>
 <tr class="memitem:a61c0a1cc8ebd1f01b921acf88eb43df7" id="r_a61c0a1cc8ebd1f01b921acf88eb43df7"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61c0a1cc8ebd1f01b921acf88eb43df7">shrinkToFit</a> ()</td></tr>
@@ -1257,6 +1259,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>creates an edge not associated with any vertex or face Generated from method <span class="tt"><a class="el" href="#af2ec4ff948c91e5062cc78113e16fc60" title="creates an edge not associated with any vertex or face Generated from method MR.MeshTopology....">MR.MeshTopology.makeEdge</a></span>. </p>
+
+</div>
+</div>
+<a id="a02ee04325326c20370abc6873f75f9a8" name="a02ee04325326c20370abc6873f75f9a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02ee04325326c20370abc6873f75f9a8">&#9670;&#160;</a></span>makeEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> MR.MeshTopology.makeEdges </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>num</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>creates given number of edges not associated with any vertex or face, returns the first of them; edge i is the first + 2 * i, the same as from <a class="el" href="#af2ec4ff948c91e5062cc78113e16fc60" title="creates an edge not associated with any vertex or face Generated from method MR.MeshTopology....">makeEdge()</a> called num times Generated from method <span class="tt"><a class="el" href="#a02ee04325326c20370abc6873f75f9a8" title="creates given number of edges not associated with any vertex or face, returns the first of them; edge...">MR.MeshTopology.makeEdges</a></span>. </p>
 
 </div>
 </div>

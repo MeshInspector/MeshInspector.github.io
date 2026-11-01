@@ -25,6 +25,7 @@ var classMR_1_1MeshTopology =
     [ "flipEdge", "classMR_1_1MeshTopology.html#a25e95a43b3bb1714ad2d8576540387e6", null ],
     [ "flipOrientation", "classMR_1_1MeshTopology.html#aa8f93500c5a7191443286a5d8bddba59", null ],
     [ "makeEdge", "classMR_1_1MeshTopology.html#af2ec4ff948c91e5062cc78113e16fc60", null ],
+    [ "makeEdges", "classMR_1_1MeshTopology.html#a02ee04325326c20370abc6873f75f9a8", null ],
     [ "pack", "classMR_1_1MeshTopology.html#a4f699f3cc25b460fdd41052ac17d14a8", null ],
     [ "pack", "classMR_1_1MeshTopology.html#af6fdc6f07c1bde76bfed4031e833fb09", null ],
     [ "packMinMem", "classMR_1_1MeshTopology.html#a2278217cc29c59228fc5af61b3a37436", null ],

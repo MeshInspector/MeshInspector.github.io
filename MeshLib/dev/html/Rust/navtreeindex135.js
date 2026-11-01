@@ -1,5 +1,7 @@
 var NAVTREEINDEX135 =
 {
+"structmeshlib_1_1TriTriDistanceResult__double.html":[9,5,1,0,0,1497],
+"structmeshlib_1_1TriTriDistanceResult__double.html#a01554096016f7cb04e5e105b3d3d493b":[9,5,0,0,0,1510,18],
 "structmeshlib_1_1TriTriDistanceResult__double.html#a01554096016f7cb04e5e105b3d3d493b":[9,5,1,0,0,1497,18],
 "structmeshlib_1_1TriTriDistanceResult__double.html#a1cf3d69f1d1aa6080471a33da9b738f3":[9,5,0,0,0,1510,3],
 "structmeshlib_1_1TriTriDistanceResult__double.html#a1cf3d69f1d1aa6080471a33da9b738f3":[9,5,1,0,0,1497,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX135 =
 "structmeshlib_1_1TrimOptionalOutput.html#a1574bee1f1c5df39c15a2b3bc4a606a1":[9,5,1,0,0,1491,0],
 "structmeshlib_1_1TrimOptionalOutput.html#a1b249a56b23e1eb4b9abe25f0d6941f3":[9,5,0,0,0,1504,1],
 "structmeshlib_1_1TrimOptionalOutput.html#a1b249a56b23e1eb4b9abe25f0d6941f3":[9,5,1,0,0,1491,1],
-"structmeshlib_1_1TrimOptionalOutput.html#a2d44ee186e4e3f471a873678a7d5a3c0":[9,5,0,0,0,1504,7],
-"structmeshlib_1_1TrimOptionalOutput.html#a2d44ee186e4e3f471a873678a7d5a3c0":[9,5,1,0,0,1491,7],
-"structmeshlib_1_1TrimOptionalOutput.html#a3d024e2f482eacfac76a58465ef4c5db":[9,5,0,0,0,1504,17]
+"structmeshlib_1_1TrimOptionalOutput.html#a2d44ee186e4e3f471a873678a7d5a3c0":[9,5,0,0,0,1504,7]
 };

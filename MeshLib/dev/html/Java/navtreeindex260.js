@@ -1,5 +1,7 @@
 var NAVTREEINDEX260 =
 {
+"classmeshlib_1_1weightedshell_1_1ParametersRegions.html":[9,6,1,0,0,36,4],
+"classmeshlib_1_1weightedshell_1_1ParametersRegions.html#a0fa4a0ea3284062b00b42925bb4b6240":[9,6,0,0,0,36,4,12],
 "classmeshlib_1_1weightedshell_1_1ParametersRegions.html#a0fa4a0ea3284062b00b42925bb4b6240":[9,6,1,0,0,36,4,12],
 "classmeshlib_1_1weightedshell_1_1ParametersRegions.html#a16ca5248548107fe1e1bfdc785e2be75":[9,6,0,0,0,36,4,13],
 "classmeshlib_1_1weightedshell_1_1ParametersRegions.html#a16ca5248548107fe1e1bfdc785e2be75":[9,6,1,0,0,36,4,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX260 =
 "functions_u.html":[9,6,1,3,0,20],
 "functions_v.html":[9,6,1,3,0,21],
 "functions_vars.html":[9,6,1,3,2],
-"functions_vars.html":[9,6,1,3,2,0],
-"functions_vars_a.html":[9,6,1,3,2,1],
-"functions_vars_b.html":[9,6,1,3,2,2]
+"functions_vars.html":[9,6,1,3,2,0]
 };

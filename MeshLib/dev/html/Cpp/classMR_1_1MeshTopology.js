@@ -109,6 +109,7 @@ var classMR_1_1MeshTopology =
     [ "lastValidVert", "group__GeneralGroup.html#gafbdc5442d461cd2192267fe49446acfe", null ],
     [ "left", "group__GeneralGroup.html#ga32ef296197eb1631ca3af65f4614024a", null ],
     [ "makeEdge", "group__GeneralGroup.html#ga107a70561c7abcc661b7ada8910fb701", null ],
+    [ "makeEdges", "group__GeneralGroup.html#ga98e022526adede6f46516491ba7e7e6d", null ],
     [ "next", "group__GeneralGroup.html#ga2dad4d8d3af9888d8bd8303195aad3b9", null ],
     [ "nextLeftBd", "group__GeneralGroup.html#ga2f2136ea7f300f8a7a02cc34b58ca035", null ],
     [ "numValidFaces", "group__GeneralGroup.html#ga94378f70606fda1a41eb0605de0c8cbe", null ],

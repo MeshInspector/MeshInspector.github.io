@@ -100,6 +100,7 @@ var classmrmeshpy_1_1MeshTopology =
     [ "lastValidVert", "classmrmeshpy_1_1MeshTopology.html#a85072d179d86abb84fb88b7981a29904", null ],
     [ "left", "classmrmeshpy_1_1MeshTopology.html#a8b29d459d63ce64924badfa606cd4124", null ],
     [ "makeEdge", "classmrmeshpy_1_1MeshTopology.html#a9039791096460a4b675d546babb43ca3", null ],
+    [ "makeEdges", "classmrmeshpy_1_1MeshTopology.html#a9a84a616fe3de3e9b360b3e7c998bc5a", null ],
     [ "next", "classmrmeshpy_1_1MeshTopology.html#a98eb89836d208ce3be602a5d2e977c89", null ],
     [ "nextLeftBd", "classmrmeshpy_1_1MeshTopology.html#a22d728dec234534eaa1d25e260efa9ef", null ],
     [ "numValidFaces", "classmrmeshpy_1_1MeshTopology.html#aca415b63c94b12a896998103c7457742", null ],

@@ -185,6 +185,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a808d3f07445bbbd009a60f3768a3186d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a8f95a31809152559f19cf82ecacab756" id="r_a8f95a31809152559f19cf82ecacab756"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f95a31809152559f19cf82ecacab756">MR_MeshTopology_AssignFromAnother</a> (<a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_other)</td></tr>
 <tr class="memitem:a85063295f0ca6f21b5c8b90830651036" id="r_a85063295f0ca6f21b5c8b90830651036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85063295f0ca6f21b5c8b90830651036">MR_MeshTopology_makeEdge</a> (<a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this)</td></tr>
+<tr class="memitem:aa5e1dd21979354160f30a5ecce479e31" id="r_aa5e1dd21979354160f30a5ecce479e31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5e1dd21979354160f30a5ecce479e31">MR_MeshTopology_makeEdges</a> (<a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, int num)</td></tr>
 <tr class="memitem:ad935feb79ef96f743394b25ab7cdee4a" id="r_ad935feb79ef96f743394b25ab7cdee4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad935feb79ef96f743394b25ab7cdee4a">MR_MeshTopology_isLoneEdge</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a)</td></tr>
 <tr class="memitem:a5e00f9b4dd127798b1d8fb79a9ac5d48" id="r_a5e00f9b4dd127798b1d8fb79a9ac5d48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e00f9b4dd127798b1d8fb79a9ac5d48">MR_MeshTopology_lastNotLoneUndirectedEdge</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this)</td></tr>
 <tr class="memitem:a393d1b4aa337cecb2e46e219561a9ec7" id="r_a393d1b4aa337cecb2e46e219561a9ec7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a393d1b4aa337cecb2e46e219561a9ec7">MR_MeshTopology_lastNotLoneEdge</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this)</td></tr>
@@ -2872,6 +2873,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>creates an edge not associated with any vertex or face Generated from method <span class="tt">MR::MeshTopology::makeEdge</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aa5e1dd21979354160f30a5ecce479e31" name="aa5e1dd21979354160f30a5ecce479e31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5e1dd21979354160f30a5ecce479e31">&#9670;&#160;</a></span>MR_MeshTopology_makeEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> MR_MeshTopology_makeEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>num</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>creates given number of edges not associated with any vertex or face, returns the first of them; edge i is the first + 2 * i, the same as from makeEdge() called num times Generated from method <span class="tt">MR::MeshTopology::makeEdges</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

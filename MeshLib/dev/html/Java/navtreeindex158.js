@@ -1,5 +1,7 @@
 var NAVTREEINDEX158 =
 {
+"classmeshlib_1_1Vector__MR__TextureId__MR__TextureId.html#afecc5ae6272466d2690cbffe91b1dbe8":[9,6,1,0,0,1615,31],
+"classmeshlib_1_1Vector__MR__VarEdgeTri.html":[9,6,0,0,0,1616],
 "classmeshlib_1_1Vector__MR__VarEdgeTri.html":[9,6,1,0,0,1616],
 "classmeshlib_1_1Vector__MR__VarEdgeTri.html#a02bea81eca5919dced82dea1718e932c":[9,6,0,0,0,1616,17],
 "classmeshlib_1_1Vector__MR__VarEdgeTri.html#a02bea81eca5919dced82dea1718e932c":[9,6,1,0,0,1616,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX158 =
 "classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#ad4ff73c8272845e6e47ee64d9784982b":[9,6,1,0,0,1618,12],
 "classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#adbc282efa6933afac26e259233da686b":[9,6,0,0,0,1618,24],
 "classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#adbc282efa6933afac26e259233da686b":[9,6,1,0,0,1618,24],
-"classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#aea552608c69da3c1afbec20277b6bac6":[9,6,0,0,0,1618,34],
-"classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#aea552608c69da3c1afbec20277b6bac6":[9,6,1,0,0,1618,34],
-"classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#afd42110b33e68ca27c1c1c12b82f57d9":[9,6,0,0,0,1618,22]
+"classmeshlib_1_1Vector__MR__Vector3i__MR__VertId.html#aea552608c69da3c1afbec20277b6bac6":[9,6,0,0,0,1618,34]
 };

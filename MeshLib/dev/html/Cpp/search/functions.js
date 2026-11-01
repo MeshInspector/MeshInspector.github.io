@@ -2777,7 +2777,7 @@ var searchData=
   ['makedragdropsource_5f_30',['makeDragDropSource_',['../group__GeneralGroup.html#ga8aec8ee6ac0266249b98403d81359111',1,'MR::SceneObjectsListDrawer']]],
   ['makedragdroptarget_5f_31',['makeDragDropTarget_',['../group__GeneralGroup.html#ga4dad108f861cd4c0c6a865c6ea12b6c5',1,'MR::SceneObjectsListDrawer']]],
   ['makeedge_32',['makeEdge',['../group__GeneralGroup.html#ga107a70561c7abcc661b7ada8910fb701',1,'MR::MeshTopology::makeEdge()'],['../group__GeneralGroup.html#ga033fa53955636a7d40a7a37dd5a263ab',1,'MR::PolylineTopology::makeEdge()'],['../group__GeneralGroup.html#gac116a959de25e8596abded56752f580d',1,'MR::PolylineTopology::makeEdge(VertId a, VertId b, EdgeId e={})']]],
-  ['makeedges_33',['makeEdges',['../group__GeneralGroup.html#ga8a4fbc8fedb7d97bff82911cce15609a',1,'MR::PolylineTopology']]],
+  ['makeedges_33',['makeEdges',['../group__GeneralGroup.html#ga98e022526adede6f46516491ba7e7e6d',1,'MR::MeshTopology::makeEdges()'],['../group__GeneralGroup.html#ga8a4fbc8fedb7d97bff82911cce15609a',1,'MR::PolylineTopology::makeEdges()']]],
   ['makefillcontours2dplancache_34',['makeFillContours2DPlanCache',['../group__GeneralGroup.html#ga4b58b14fd18ff412914c444b5d647659',1,'MR']]],
   ['makefloatgrid_35',['MakeFloatGrid',['../group__BasicStructuresGroup.html#gaae99f46f1bc75b3a79c66f98743af704',1,'MR::MakeFloatGrid(const FloatGrid &amp;)=delete'],['../group__BasicStructuresGroup.html#gae84dac6352423cd123a4f2aba32c3250',1,'MR::MakeFloatGrid(openvdb::FloatGrid::Ptr &amp;&amp;p)']]],
   ['makefreeformorigingrid_36',['makeFreeFormOriginGrid',['../group__GeneralGroup.html#ga6c7c9b7158d19c16a538796d96742fe2',1,'MR']]],

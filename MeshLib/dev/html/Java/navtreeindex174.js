@@ -1,5 +1,7 @@
 var NAVTREEINDEX174 =
 {
+"classmeshlib_1_1VolumeToMeshByPartsSettings.html#a1ed2ccb0bf28bda8d22b2fce7ed75585":[9,6,1,0,0,1671,7],
+"classmeshlib_1_1VolumeToMeshByPartsSettings.html#a265cea21352ecf28b237048aff950f90":[9,6,0,0,0,1671,4],
 "classmeshlib_1_1VolumeToMeshByPartsSettings.html#a265cea21352ecf28b237048aff950f90":[9,6,1,0,0,1671,4],
 "classmeshlib_1_1VolumeToMeshByPartsSettings.html#a4657c7389cb02c4ce7f955f7b50b8b6e":[9,6,0,0,0,1671,5],
 "classmeshlib_1_1VolumeToMeshByPartsSettings.html#a4657c7389cb02c4ce7f955f7b50b8b6e":[9,6,1,0,0,1671,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX174 =
 "classmeshlib_1_1VoxelMetricParameters.html#a2f9f9eecd2eebc9016a004a5f4411ea5":[9,6,1,0,0,1677,5],
 "classmeshlib_1_1VoxelMetricParameters.html#a3182f736a05042442ec4a4b45b95f05d":[9,6,0,0,0,1677,12],
 "classmeshlib_1_1VoxelMetricParameters.html#a3182f736a05042442ec4a4b45b95f05d":[9,6,1,0,0,1677,12],
-"classmeshlib_1_1VoxelMetricParameters.html#a50785bf1ae546b22eaa88ef5e6e8e452":[9,6,0,0,0,1677,4],
-"classmeshlib_1_1VoxelMetricParameters.html#a50785bf1ae546b22eaa88ef5e6e8e452":[9,6,1,0,0,1677,4],
-"classmeshlib_1_1VoxelMetricParameters.html#a5a255818a9564ada9714641a58d8cdc9":[9,6,0,0,0,1677,10]
+"classmeshlib_1_1VoxelMetricParameters.html#a50785bf1ae546b22eaa88ef5e6e8e452":[9,6,0,0,0,1677,4]
 };

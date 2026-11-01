@@ -1,5 +1,7 @@
 var NAVTREEINDEX200 =
 {
+"structmeshlib_1_1std__shared__ptr__MR__Object.html#a5c41132bfddc74bf32bcebc3add8b63e":[9,5,1,0,0,1206,2],
+"structmeshlib_1_1std__shared__ptr__MR__Object.html#a5f14173733df52a7d0def0ed367d3eb2":[9,5,0,0,0,1219,4],
 "structmeshlib_1_1std__shared__ptr__MR__Object.html#a5f14173733df52a7d0def0ed367d3eb2":[9,5,1,0,0,1206,4],
 "structmeshlib_1_1std__shared__ptr__MR__Object.html#a8317ae90bc237ec67afab6d8bec616a0":[9,5,0,0,0,1219,0],
 "structmeshlib_1_1std__shared__ptr__MR__Object.html#a8317ae90bc237ec67afab6d8bec616a0":[9,5,1,0,0,1206,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX200 =
 "structmeshlib_1_1std__shared__ptr__MR__ObjectPointsHolder.html#aecab708d70449369efcdd945f585b63f":[9,5,1,0,0,1217,7],
 "structmeshlib_1_1std__shared__ptr__MR__ObjectVoxels.html":[9,5,0,0,0,1231],
 "structmeshlib_1_1std__shared__ptr__MR__ObjectVoxels.html":[9,5,1,0,0,1218],
-"structmeshlib_1_1std__shared__ptr__MR__ObjectVoxels.html#a1c669f11124d35fc2c8a628127c6398e":[9,5,0,0,0,1231,4],
-"structmeshlib_1_1std__shared__ptr__MR__ObjectVoxels.html#a1c669f11124d35fc2c8a628127c6398e":[9,5,1,0,0,1218,4],
-"structmeshlib_1_1std__shared__ptr__MR__ObjectVoxels.html#a69dc1406a0de9a91f6fb5e1cb7b90353":[9,5,0,0,0,1231,8]
+"structmeshlib_1_1std__shared__ptr__MR__ObjectVoxels.html#a1c669f11124d35fc2c8a628127c6398e":[9,5,0,0,0,1231,4]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX188 =
 {
+"classmrmeshpy_1_1std__vector__WeightedVertexT__float.html#aff27acabd3caaad5e3de74d3477d8767":[9,1,0,0,2,1136,3],
+"classmrmeshpy_1_1std__vector__WeightedVertexT__float.html#aff27acabd3caaad5e3de74d3477d8767":[9,1,1,0,1,1136,3],
 "classmrmeshpy_1_1std__vector__char.html":[9,1,0,0,2,960],
 "classmrmeshpy_1_1std__vector__char.html":[9,1,1,0,1,960],
 "classmrmeshpy_1_1std__vector__char.html#a01ec33aa05c948f6a1a2e9378b9c0f79":[9,1,0,0,2,960,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX188 =
 "classmrmeshpy_1_1std__vector__double__Allocator__double.html#af32ac97fcee8d1a0dc9217d6a85f9e68":[9,1,0,0,2,969,25],
 "classmrmeshpy_1_1std__vector__double__Allocator__double.html#af32ac97fcee8d1a0dc9217d6a85f9e68":[9,1,1,0,1,969,25],
 "classmrmeshpy_1_1std__vector__double__Allocator__double.html#afe007dcb71f2d1bc8437ec40c58d7a85":[9,1,0,0,2,969,11],
-"classmrmeshpy_1_1std__vector__double__Allocator__double.html#afe007dcb71f2d1bc8437ec40c58d7a85":[9,1,1,0,1,969,11],
-"classmrmeshpy_1_1std__vector__float.html":[9,1,0,0,2,980],
-"classmrmeshpy_1_1std__vector__float.html":[9,1,1,0,1,980]
+"classmrmeshpy_1_1std__vector__double__Allocator__double.html#afe007dcb71f2d1bc8437ec40c58d7a85":[9,1,1,0,1,969,11]
 };

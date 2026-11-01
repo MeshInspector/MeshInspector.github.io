@@ -1,5 +1,7 @@
 var NAVTREEINDEX218 =
 {
+"structmeshlib_1_1std__vector__MR__TextureId__MR__Allocator__MR__TextureId.html#adb7d147c4996d80f8b150a8a7aa4201a":[9,5,1,0,0,1359,12],
+"structmeshlib_1_1std__vector__MR__TextureId__MR__Allocator__MR__TextureId.html#adec3d604e02224636110e044498eb2bf":[9,5,0,0,0,1372,4],
 "structmeshlib_1_1std__vector__MR__TextureId__MR__Allocator__MR__TextureId.html#adec3d604e02224636110e044498eb2bf":[9,5,1,0,0,1359,4],
 "structmeshlib_1_1std__vector__MR__TextureId__MR__Allocator__MR__TextureId.html#af94a21d24de5b3a7cfb8f5853bc2d510":[9,5,0,0,0,1372,14],
 "structmeshlib_1_1std__vector__MR__TextureId__MR__Allocator__MR__TextureId.html#af94a21d24de5b3a7cfb8f5853bc2d510":[9,5,1,0,0,1359,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX218 =
 "structmeshlib_1_1std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri.html#adf4b209c04698a928001881452d98df3":[9,5,1,0,0,1366,11],
 "structmeshlib_1_1std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri.html#af84bb4f598cd2e144e1a4b19365434d4":[9,5,0,0,0,1379,15],
 "structmeshlib_1_1std__vector__MR__VarEdgeTri__MR__Allocator__MR__VarEdgeTri.html#af84bb4f598cd2e144e1a4b19365434d4":[9,5,1,0,0,1366,15],
-"structmeshlib_1_1std__vector__MR__VdbVolume.html":[9,5,0,0,0,1380],
-"structmeshlib_1_1std__vector__MR__VdbVolume.html":[9,5,1,0,0,1367],
-"structmeshlib_1_1std__vector__MR__VdbVolume.html#a0d72e6570e52e6afde2a60fb3ecc137c":[9,5,0,0,0,1380,4]
+"structmeshlib_1_1std__vector__MR__VdbVolume.html":[9,5,0,0,0,1380]
 };

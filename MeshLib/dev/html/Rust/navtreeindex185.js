@@ -1,5 +1,7 @@
 var NAVTREEINDEX185 =
 {
+"structmeshlib_1_1self__intersections_1_1Settings.html#a9baed5b2531ea6da56ed45e05e21477b":[9,5,1,0,0,19,0,16],
+"structmeshlib_1_1self__intersections_1_1Settings.html#a9c3971b74cc1fac8ed7abfeaef913827":[9,5,0,0,0,32,0,7],
 "structmeshlib_1_1self__intersections_1_1Settings.html#a9c3971b74cc1fac8ed7abfeaef913827":[9,5,1,0,0,19,0,7],
 "structmeshlib_1_1self__intersections_1_1Settings.html#a9cc6ab56a042ed3f61a04611c6bcc9b0":[9,5,0,0,0,32,0,4],
 "structmeshlib_1_1self__intersections_1_1Settings.html#a9cc6ab56a042ed3f61a04611c6bcc9b0":[9,5,1,0,0,19,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX185 =
 "structmeshlib_1_1std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__Weigh6db024a410fbf34251fe561fbe36067d.html#aa7bbf136c6a61f1680c3eda9e023b1a3":[9,5,1,0,0,992,3],
 "structmeshlib_1_1std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__Weigh6db024a410fbf34251fe561fbe36067d.html#af1467db03a3818d7df7e894954aa76fd":[9,5,0,0,0,1005,2],
 "structmeshlib_1_1std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__Weigh6db024a410fbf34251fe561fbe36067d.html#af1467db03a3818d7df7e894954aa76fd":[9,5,1,0,0,992,2],
-"structmeshlib_1_1std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__Weigh6db024a410fbf34251fe561fbe36067d.html#afdf82e848d04de8f4f0a9cfbd4339aaf":[9,5,0,0,0,1005,4],
-"structmeshlib_1_1std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__Weigh6db024a410fbf34251fe561fbe36067d.html#afdf82e848d04de8f4f0a9cfbd4339aaf":[9,5,1,0,0,992,4],
-"structmeshlib_1_1std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref.html":[9,5,0,0,0,1006]
+"structmeshlib_1_1std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__Weigh6db024a410fbf34251fe561fbe36067d.html#afdf82e848d04de8f4f0a9cfbd4339aaf":[9,5,0,0,0,1005,4]
 };

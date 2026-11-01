@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"classmrmeshpy_1_1TrimWithPlaneParams.html#aee2b8995a27b7bbe87aac866d7609631":[9,1,0,0,2,1186,5],
+"classmrmeshpy_1_1TrimWithPlaneParams.html#aee2b8995a27b7bbe87aac866d7609631":[9,1,1,0,1,1186,5],
 "classmrmeshpy_1_1TrimWithPlaneParams.html#af4df101f3d2c914c9bc3d0ec9d080672":[9,1,0,0,2,1186,9],
 "classmrmeshpy_1_1TrimWithPlaneParams.html#af4df101f3d2c914c9bc3d0ec9d080672":[9,1,1,0,1,1186,9],
 "classmrmeshpy_1_1TrivialMetricToPenalty.html":[9,1,0,0,2,1193],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a726625875f9ea5e27e9a24f90fb51652":[9,1,0,0,2,1210,1],
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a726625875f9ea5e27e9a24f90fb51652":[9,1,1,0,1,1210,1],
 "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a859f87926a88fa5b55e63172cb27e304":[9,1,0,0,2,1210,0],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a859f87926a88fa5b55e63172cb27e304":[9,1,1,0,1,1210,0],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a953558279e615ab7896abc9504991997":[9,1,0,0,2,1210,3],
-"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a953558279e615ab7896abc9504991997":[9,1,1,0,1,1210,3]
+"classmrmeshpy_1_1UndirEdgeColorMapAggregator.html#a859f87926a88fa5b55e63172cb27e304":[9,1,1,0,1,1210,0]
 };

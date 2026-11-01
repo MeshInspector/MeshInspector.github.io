@@ -155,6 +155,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6a47869c91cd2408c517986c3300cb6d" id="r_a6a47869c91cd2408c517986c3300cb6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a47869c91cd2408c517986c3300cb6d">MeshTopology</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> _other)</td></tr>
 <tr class="memitem:af6d1c341dbed439d005c30e2f506872c" id="r_af6d1c341dbed439d005c30e2f506872c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6d1c341dbed439d005c30e2f506872c">assignFromAnother</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> _other)</td></tr>
 <tr class="memitem:a2d6308383e2a2a833424a67f0c02aad0" id="r_a2d6308383e2a2a833424a67f0c02aad0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6308383e2a2a833424a67f0c02aad0">makeEdge</a> ()</td></tr>
+<tr class="memitem:aeaa2dcd351c4a2df38b4b6e09632eb5b" id="r_aeaa2dcd351c4a2df38b4b6e09632eb5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaa2dcd351c4a2df38b4b6e09632eb5b">makeEdges</a> (int num)</td></tr>
 <tr class="memitem:aac2c8755403e000c60fa168f7c3816a0" id="r_aac2c8755403e000c60fa168f7c3816a0"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac2c8755403e000c60fa168f7c3816a0">isLoneEdge</a> (<a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a> a)</td></tr>
 <tr class="memitem:a1ff86e178376ae4cbc7017d95833a327" id="r_a1ff86e178376ae4cbc7017d95833a327"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1UndirectedEdgeId.html">meshlib.UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ff86e178376ae4cbc7017d95833a327">lastNotLoneUndirectedEdge</a> ()</td></tr>
 <tr class="memitem:abdcb1baa67ccc83d2bd16d3fca284d0d" id="r_abdcb1baa67ccc83d2bd16d3fca284d0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdcb1baa67ccc83d2bd16d3fca284d0d">lastNotLoneEdge</a> ()</td></tr>
@@ -2492,6 +2493,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>creates an edge not associated with any vertex or face Generated from method <span class="tt">MR::MeshTopology::makeEdge</span>.</p>
 <p>Calls <span class="tt">MR_MeshTopology_makeEdge()</span>. </p>
+
+</div>
+</div>
+<a id="aeaa2dcd351c4a2df38b4b6e09632eb5b" name="aeaa2dcd351c4a2df38b4b6e09632eb5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaa2dcd351c4a2df38b4b6e09632eb5b">&#9670;&#160;</a></span>makeEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a> meshlib.MeshTopology.makeEdges </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>num</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>creates given number of edges not associated with any vertex or face, returns the first of them; edge i is the first + 2 * i, the same as from <a class="el" href="#a2d6308383e2a2a833424a67f0c02aad0">makeEdge()</a> called num times Generated from method <span class="tt">MR::MeshTopology::makeEdges</span>.</p>
+<p>Calls <span class="tt">MR_MeshTopology_makeEdges()</span>. </p>
 
 </div>
 </div>

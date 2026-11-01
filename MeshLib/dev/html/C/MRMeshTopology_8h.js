@@ -106,6 +106,7 @@ var MRMeshTopology_8h =
     [ "MR_MeshTopology_lastValidVert", "MRMeshTopology_8h.html#a1cfd6128f50a0fdea22da8664b2836a9", null ],
     [ "MR_MeshTopology_left", "MRMeshTopology_8h.html#a4b911678b4a11f69795d624fce4db220", null ],
     [ "MR_MeshTopology_makeEdge", "MRMeshTopology_8h.html#a85063295f0ca6f21b5c8b90830651036", null ],
+    [ "MR_MeshTopology_makeEdges", "MRMeshTopology_8h.html#aa5e1dd21979354160f30a5ecce479e31", null ],
     [ "MR_MeshTopology_next", "MRMeshTopology_8h.html#aa28d765ad8668711711a3e2be088c35a", null ],
     [ "MR_MeshTopology_nextLeftBd", "MRMeshTopology_8h.html#a37e78931e4bfa5d2426a4648a7b17b7f", null ],
     [ "MR_MeshTopology_numValidFaces", "MRMeshTopology_8h.html#ac07af3c060f593e1a5a116cc82a3cac9", null ],

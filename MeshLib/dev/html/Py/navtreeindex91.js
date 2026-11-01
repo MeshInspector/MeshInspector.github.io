@@ -1,5 +1,7 @@
 var NAVTREEINDEX91 =
 {
+"classmrmeshpy_1_1RenderModelPassMask.html#a8c2db09cadffa13d563506555ab68c16":[9,1,0,0,2,836,11],
+"classmrmeshpy_1_1RenderModelPassMask.html#a8c2db09cadffa13d563506555ab68c16":[9,1,1,0,1,836,11],
 "classmrmeshpy_1_1RenderModelPassMask.html#a8c761defc678256a903dd611532d3dce":[9,1,0,0,2,836,4],
 "classmrmeshpy_1_1RenderModelPassMask.html#a8c761defc678256a903dd611532d3dce":[9,1,1,0,1,836,4],
 "classmrmeshpy_1_1RenderModelPassMask.html#a906bcb503448189608ded52d28a75331":[9,1,0,0,2,836,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX91 =
 "classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#aa6a3b8e91dfd980e2b116b641dcd9438":[9,1,0,0,2,845,5],
 "classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#aa6a3b8e91dfd980e2b116b641dcd9438":[9,1,1,0,1,845,5],
 "classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#ae17c16bd8d73572c1834da3d75e3866a":[9,1,0,0,2,845,7],
-"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#ae17c16bd8d73572c1834da3d75e3866a":[9,1,1,0,1,845,7],
-"classmrmeshpy_1_1SaveSettings.html":[9,1,0,0,2,846],
-"classmrmeshpy_1_1SaveSettings.html":[9,1,1,0,1,846]
+"classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin.html#ae17c16bd8d73572c1834da3d75e3866a":[9,1,1,0,1,845,7]
 };

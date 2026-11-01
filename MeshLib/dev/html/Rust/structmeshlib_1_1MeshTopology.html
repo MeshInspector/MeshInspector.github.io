@@ -154,6 +154,7 @@ $(function(){initNavTree('structmeshlib_1_1MeshTopology.html','','structmeshlib_
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6465494256879c4052a2d6edc1a6bd36" id="r_a6465494256879c4052a2d6edc1a6bd36"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6465494256879c4052a2d6edc1a6bd36">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1MeshTopology.html">meshlib::MeshTopology</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1MeshTopology.html">meshlib::MeshTopology</a></td></tr>
 <tr class="memitem:aa518611f1d4092e5d3eaeef85583ab7a" id="r_aa518611f1d4092e5d3eaeef85583ab7a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa518611f1d4092e5d3eaeef85583ab7a">make_edge</a> () -&gt; <a class="el" href="structmeshlib_1_1EdgeId.html">meshlib::EdgeId</a></td></tr>
+<tr class="memitem:a17577beb3f2223c48087b68a77e1a01b" id="r_a17577beb3f2223c48087b68a77e1a01b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17577beb3f2223c48087b68a77e1a01b">make_edges</a> (num:core::ffi::c_int) -&gt; <a class="el" href="structmeshlib_1_1EdgeId.html">meshlib::EdgeId</a></td></tr>
 <tr class="memitem:a81674bc1eeca9f85b771fcadbf9df7d7" id="r_a81674bc1eeca9f85b771fcadbf9df7d7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81674bc1eeca9f85b771fcadbf9df7d7">is_lone_edge</a> (a:meshlib::EdgeId) const -&gt; bool</td></tr>
 <tr class="memitem:a4330641be4dd23bcc31034408eae99df" id="r_a4330641be4dd23bcc31034408eae99df"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4330641be4dd23bcc31034408eae99df">last_not_lone_undirected_edge</a> () const -&gt; <a class="el" href="structmeshlib_1_1UndirectedEdgeId.html">meshlib::UndirectedEdgeId</a></td></tr>
 <tr class="memitem:af8c66eb64bc8ca605516278869e87379" id="r_af8c66eb64bc8ca605516278869e87379"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8c66eb64bc8ca605516278869e87379">last_not_lone_edge</a> () const -&gt; <a class="el" href="structmeshlib_1_1EdgeId.html">meshlib::EdgeId</a></td></tr>
@@ -2451,6 +2452,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>creates an edge not associated with any vertex or face Generated from method <span class="tt">MR::MeshTopology::makeEdge</span>.</p>
 <p>Calls <span class="tt">MR_MeshTopology_makeEdge()</span>. </p>
+
+</div>
+</div>
+<a id="a17577beb3f2223c48087b68a77e1a01b" name="a17577beb3f2223c48087b68a77e1a01b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17577beb3f2223c48087b68a77e1a01b">&#9670;&#160;</a></span>make_edges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::MeshTopology::make_edges </td>
+          <td>(</td>
+          <td class="paramtype">num:core::ffi::c_int</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  <a class="el" href="structmeshlib_1_1EdgeId.html">meshlib::EdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>creates given number of edges not associated with any vertex or face, returns the first of them; edge i is the first + 2 * i, the same as from makeEdge() called num times Generated from method <span class="tt">MR::MeshTopology::makeEdges</span>.</p>
+<p>Calls <span class="tt">MR_MeshTopology_makeEdges()</span>. </p>
 
 </div>
 </div>

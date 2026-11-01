@@ -6088,6 +6088,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga4bce785d36319908d9f3a82ea872efe0" id="r_ga4bce785d36319908d9f3a82ea872efe0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4bce785d36319908d9f3a82ea872efe0">MR::meshToDensePointCloud</a> (const MeshPart &amp;mp, float radius, bool saveNormals, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memitem:ga107a70561c7abcc661b7ada8910fb701" id="r_ga107a70561c7abcc661b7ada8910fb701"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga107a70561c7abcc661b7ada8910fb701">MR::MeshTopology::makeEdge</a> ()</td></tr>
 <tr class="memdesc:ga107a70561c7abcc661b7ada8910fb701"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates an edge not associated with any vertex or face  <br /></td></tr>
+<tr class="memitem:ga98e022526adede6f46516491ba7e7e6d" id="r_ga98e022526adede6f46516491ba7e7e6d"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga98e022526adede6f46516491ba7e7e6d">MR::MeshTopology::makeEdges</a> (int num)</td></tr>
 <tr class="memitem:ga4c15050b1b58ff7c1899157e4532f74d" id="r_ga4c15050b1b58ff7c1899157e4532f74d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4c15050b1b58ff7c1899157e4532f74d">MR::MeshTopology::isLoneEdge</a> (EdgeId a) const</td></tr>
 <tr class="memdesc:ga4c15050b1b58ff7c1899157e4532f74d"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the edge is disconnected from all other edges and disassociated from all vertices and faces (as if after makeEdge)  <br /></td></tr>
 <tr class="memitem:ga13ed973c961b2de6743bb720b4de87b5" id="r_ga13ed973c961b2de6743bb720b4de87b5"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga13ed973c961b2de6743bb720b4de87b5">MR::MeshTopology::lastNotLoneUndirectedEdge</a> () const</td></tr>
@@ -121381,8 +121382,36 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga98e022526adede6f46516491ba7e7e6d" name="ga98e022526adede6f46516491ba7e7e6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga98e022526adede6f46516491ba7e7e6d">&#9670;&#160;</a></span>makeEdges() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">EdgeId MR::MeshTopology::makeEdges </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>num</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshTopology_8h.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
+<p>creates given number of edges not associated with any vertex or face, returns the first of them; edge i is the first + 2 * i, the same as from <a class="el" href="#ga107a70561c7abcc661b7ada8910fb701" title="creates an edge not associated with any vertex or face">makeEdge()</a> called num times </p>
+
+</div>
+</div>
 <a id="ga8a4fbc8fedb7d97bff82911cce15609a" name="ga8a4fbc8fedb7d97bff82911cce15609a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8a4fbc8fedb7d97bff82911cce15609a">&#9670;&#160;</a></span>makeEdges()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8a4fbc8fedb7d97bff82911cce15609a">&#9670;&#160;</a></span>makeEdges() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
