@@ -5,6 +5,6 @@ var structmeshlib_1_1scene__save_1_1Settings =
     [ "length_unit_mut", "structmeshlib_1_1scene__save_1_1Settings.html#aedd42b2622710100dde39aa5c7792e7a", null ],
     [ "progress", "structmeshlib_1_1scene__save_1_1Settings.html#a0d093cc383586d757d8f81a0a2457708", null ],
     [ "progress_mut", "structmeshlib_1_1scene__save_1_1Settings.html#acf12efed1cd81e68f33b44c019ea58c4", null ],
-    [ "set_length_unit", "structmeshlib_1_1scene__save_1_1Settings.html#a24d7906131c3cb8ca3b5bf95cbd75be5", null ],
+    [ "set_length_unit", "structmeshlib_1_1scene__save_1_1Settings.html#ae523a5a219f167290213e44c9176f6ec", null ],
     [ "set_progress", "structmeshlib_1_1scene__save_1_1Settings.html#aa3e14643eeabbb8632a5aed5e0258e18", null ]
 ];

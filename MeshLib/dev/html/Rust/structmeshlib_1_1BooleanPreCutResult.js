@@ -18,7 +18,7 @@ var structmeshlib_1_1BooleanPreCutResult =
     [ "set_is_mesh_a", "structmeshlib_1_1BooleanPreCutResult.html#a2db4e57c3b98b0948d6203c140cf8fa8", null ],
     [ "set_mesh", "structmeshlib_1_1BooleanPreCutResult.html#a0997fa9eae5696a5a846d396f19156de", null ],
     [ "set_mesh_a_verts_num", "structmeshlib_1_1BooleanPreCutResult.html#ad1413150e025d7cabdbcf3f8cb28578d", null ],
-    [ "set_rigid_b2_a", "structmeshlib_1_1BooleanPreCutResult.html#abc5a97f2cc2bc43d5afbc93be95c4280", null ],
+    [ "set_rigid_b2_a", "structmeshlib_1_1BooleanPreCutResult.html#a5e25aa514671f739f83b5c7c9a154e9d", null ],
     [ "set_to_int", "structmeshlib_1_1BooleanPreCutResult.html#a545c8fe473bced9ab3f439cb31208782", null ],
     [ "sort_data", "structmeshlib_1_1BooleanPreCutResult.html#ae34ce788952dfe7f57d30669b29cbe6e", null ],
     [ "to_int", "structmeshlib_1_1BooleanPreCutResult.html#a3176a844c8357a7392e2b8d823d45393", null ],

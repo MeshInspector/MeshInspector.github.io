@@ -12,7 +12,7 @@ var structmeshlib_1_1mesh__load_1_1NamedMesh =
     [ "name", "structmeshlib_1_1mesh__load_1_1NamedMesh.html#a6379798cbb588739fa24e5873614218d", null ],
     [ "name_mut", "structmeshlib_1_1mesh__load_1_1NamedMesh.html#afab5d7aa81664f544587b68b6f02c3ab", null ],
     [ "set_colors", "structmeshlib_1_1mesh__load_1_1NamedMesh.html#a704d1b7fc9c9285d119f0702657497ba", null ],
-    [ "set_diffuse_color", "structmeshlib_1_1mesh__load_1_1NamedMesh.html#aa7b3650458457684c0c59d6c58e75c54", null ],
+    [ "set_diffuse_color", "structmeshlib_1_1mesh__load_1_1NamedMesh.html#a2b0d5967db0275a9182bbbe31dba0584", null ],
     [ "set_duplicated_vertex_count", "structmeshlib_1_1mesh__load_1_1NamedMesh.html#aea6b1efcfb4c589aa4b57d026e15f2a0", null ],
     [ "set_mesh", "structmeshlib_1_1mesh__load_1_1NamedMesh.html#a3ecd1872597ce379fdef8126db06c54a", null ],
     [ "set_name", "structmeshlib_1_1mesh__load_1_1NamedMesh.html#a12c3a0504eea7a5656b2bbbdf6472a11", null ],

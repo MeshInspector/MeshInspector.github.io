@@ -117,7 +117,7 @@ var structmeshlib_1_1ObjectVoxels =
     [ "num_selected_faces", "structmeshlib_1_1ObjectVoxels.html#a971b367c114424924ba19e68e2e1ddee", null ],
     [ "num_undirected_edges", "structmeshlib_1_1ObjectVoxels.html#afea21b7a3aa5fe860221368aab77e337", null ],
     [ "prepare_data_for_volume_rendering", "structmeshlib_1_1ObjectVoxels.html#a1109aa3ba6259484d4250e5effb64c0d", null ],
-    [ "recalculate_histogram", "structmeshlib_1_1ObjectVoxels.html#af95bcbd6570f9f2365ccd70bcbe9f66f", null ],
+    [ "recalculate_histogram", "structmeshlib_1_1ObjectVoxels.html#a8d809b4757a890ca2c0918de22253654", null ],
     [ "recalculate_iso_surface_2", "structmeshlib_1_1ObjectVoxels.html#a8a82b45bb14fc48c6e2c333785612a6a", null ],
     [ "recalculate_iso_surface_3", "structmeshlib_1_1ObjectVoxels.html#a23df44497e5b475d0d3304a7f17ff826", null ],
     [ "remove_all_children", "structmeshlib_1_1ObjectVoxels.html#a8aea7e0436836f8938937f81560d1190", null ],

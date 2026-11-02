@@ -609,11 +609,10 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">    println!(&quot;Active point pairs: {}&quot;, icp.get_num_active_pairs());</div>
 <div class="line">    if icp.get_num_active_pairs() &gt; 0</div>
 <div class="line">    {</div>
-<div class="line">        // the binding has no &quot;no value&quot; option here; deviation from 0 is the same root-mean-square distance</div>
-<div class="line">        let p2pt_metric = icp.get_mean_sq_dist_to_point(&amp;0.0);</div>
-<div class="line">        let p2pl_metric = icp.get_mean_sq_dist_to_plane(&amp;0.0);</div>
-<div class="line">        println!(&quot;RMS point-to-point distance: {} ± {}&quot;, p2pt_metric, icp.get_mean_sq_dist_to_point(&amp;(p2pt_metric as f64)));</div>
-<div class="line">        println!(&quot;RMS point-to-plane distance: {} ± {}&quot;, p2pl_metric, icp.get_mean_sq_dist_to_plane(&amp;(p2pl_metric as f64)));</div>
+<div class="line">        let p2pt_metric = icp.get_mean_sq_dist_to_point(None);</div>
+<div class="line">        let p2pl_metric = icp.get_mean_sq_dist_to_plane(None);</div>
+<div class="line">        println!(&quot;RMS point-to-point distance: {} ± {}&quot;, p2pt_metric, icp.get_mean_sq_dist_to_point(Some(p2pt_metric as f64)));</div>
+<div class="line">        println!(&quot;RMS point-to-plane distance: {} ± {}&quot;, p2pl_metric, icp.get_mean_sq_dist_to_plane(Some(p2pl_metric as f64)));</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="line"> </div>
@@ -704,11 +703,10 @@ $(function(){initNavTree('ExampleGlobalRegistration.html','',''); });
 <div class="line">        System.out.println(<span class="stringliteral">&quot;Active point pairs: &quot;</span> + icp.getNumActivePairs());</div>
 <div class="line">        <span class="keywordflow">if</span> (icp.getNumActivePairs() &gt; 0)</div>
 <div class="line">        {</div>
-<div class="line">            <span class="comment">// the deviation from zero is the root-mean-square distance</span></div>
-<div class="line">            <span class="keywordtype">float</span> p2ptMetric = icp.getMeanSqDistToPoint(0.0);</div>
-<div class="line">            <span class="keywordtype">float</span> p2plMetric = icp.getMeanSqDistToPlane(0.0);</div>
-<div class="line">            System.out.println(<span class="stringliteral">&quot;RMS point-to-point distance: &quot;</span> + p2ptMetric + <span class="stringliteral">&quot; ± &quot;</span> + icp.getMeanSqDistToPoint(p2ptMetric));</div>
-<div class="line">            System.out.println(<span class="stringliteral">&quot;RMS point-to-plane distance: &quot;</span> + p2plMetric + <span class="stringliteral">&quot; ± &quot;</span> + icp.getMeanSqDistToPlane(p2plMetric));</div>
+<div class="line">            <span class="keywordtype">float</span> p2ptMetric = icp.getMeanSqDistToPoint(<span class="keyword">null</span>);</div>
+<div class="line">            <span class="keywordtype">float</span> p2plMetric = icp.getMeanSqDistToPlane(<span class="keyword">null</span>);</div>
+<div class="line">            System.out.println(<span class="stringliteral">&quot;RMS point-to-point distance: &quot;</span> + p2ptMetric + <span class="stringliteral">&quot; ± &quot;</span> + icp.getMeanSqDistToPoint((<span class="keywordtype">double</span>)p2ptMetric));</div>
+<div class="line">            System.out.println(<span class="stringliteral">&quot;RMS point-to-plane distance: &quot;</span> + p2plMetric + <span class="stringliteral">&quot; ± &quot;</span> + icp.getMeanSqDistToPlane((<span class="keywordtype">double</span>)p2plMetric));</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line"> </div>

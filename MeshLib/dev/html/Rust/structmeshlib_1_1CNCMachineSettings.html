@@ -155,7 +155,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaaf3dbefe8171b7f68e0a2b92a6b3ae9" id="r_aaaf3dbefe8171b7f68e0a2b92a6b3ae9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaf3dbefe8171b7f68e0a2b92a6b3ae9">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1CNCMachineSettings.html">meshlib::CNCMachineSettings</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1CNCMachineSettings.html">meshlib::CNCMachineSettings</a></td></tr>
 <tr class="memitem:ae9c7ce74d693f565a0d778996b4b69b1" id="r_ae9c7ce74d693f565a0d778996b4b69b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9c7ce74d693f565a0d778996b4b69b1">set_rotation_axis</a> (paramName:meshlib::CNCMachineSettings_RotationAxisName, rotationAxis:&amp;<a class="el" href="structmeshlib_1_1Vector3f.html">meshlib::Vector3f</a>)</td></tr>
 <tr class="memitem:a5021e87532e369a295bb8f42ce3cc74f" id="r_a5021e87532e369a295bb8f42ce3cc74f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5021e87532e369a295bb8f42ce3cc74f">get_rotation_axis</a> (paramName:meshlib::CNCMachineSettings_RotationAxisName) const -&gt; &amp;<a class="el" href="structmeshlib_1_1Vector3f.html">meshlib::Vector3f</a></td></tr>
-<tr class="memitem:ad7ee152bec34d5dd4de44db8e53326cf" id="r_ad7ee152bec34d5dd4de44db8e53326cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7ee152bec34d5dd4de44db8e53326cf">set_rotation_limits</a> (paramName:meshlib::CNCMachineSettings_RotationAxisName, rotationLimits:&amp;<a class="el" href="structmeshlib_1_1Vector2f.html">meshlib::Vector2f</a>)</td></tr>
+<tr class="memitem:a1a8d81d4409368fe2725f154883f9f6e" id="r_a1a8d81d4409368fe2725f154883f9f6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a8d81d4409368fe2725f154883f9f6e">set_rotation_limits</a> (paramName:meshlib::CNCMachineSettings_RotationAxisName, rotationLimits:Option&lt;&amp;<a class="el" href="structmeshlib_1_1Vector2f.html">meshlib::Vector2f</a> &gt;)</td></tr>
 <tr class="memitem:a97e86603ba4e335f18650f12b8cf9aa8" id="r_a97e86603ba4e335f18650f12b8cf9aa8"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97e86603ba4e335f18650f12b8cf9aa8">get_rotation_limits</a> (paramName:meshlib::CNCMachineSettings_RotationAxisName) const -&gt; &amp;<a class="el" href="structmeshlib_1_1std__optional__MR__Vector2f.html">meshlib::std_optional_MR_Vector2f</a></td></tr>
 <tr class="memitem:aa3c39ec26f86fec66b73be961a713636" id="r_aa3c39ec26f86fec66b73be961a713636"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3c39ec26f86fec66b73be961a713636">set_rotation_order</a> (rotationAxesOrder:&amp;<a class="el" href="structmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html">meshlib::std_vector_MR_CNCMachineSettings_RotationAxisName</a>)</td></tr>
 <tr class="memitem:aa67f3efb2754cb594da142dddbab7f57" id="r_aa67f3efb2754cb594da142dddbab7f57"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa67f3efb2754cb594da142dddbab7f57">get_rotation_order</a> () const -&gt; &amp;<a class="el" href="structmeshlib_1_1std__vector__MR__CNCMachineSettings__RotationAxisName.html">meshlib::std_vector_MR_CNCMachineSettings_RotationAxisName</a></td></tr>
@@ -474,8 +474,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad7ee152bec34d5dd4de44db8e53326cf" name="ad7ee152bec34d5dd4de44db8e53326cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7ee152bec34d5dd4de44db8e53326cf">&#9670;&#160;</a></span>set_rotation_limits()</h2>
+<a id="a1a8d81d4409368fe2725f154883f9f6e" name="a1a8d81d4409368fe2725f154883f9f6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a8d81d4409368fe2725f154883f9f6e">&#9670;&#160;</a></span>set_rotation_limits()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -488,7 +488,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">rotationLimits:&amp;<a class="el" href="structmeshlib_1_1Vector2f.html">meshlib::Vector2f</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+          <td class="paramtype">rotationLimits:Option&lt;&amp;<a class="el" href="structmeshlib_1_1Vector2f.html">meshlib::Vector2f</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

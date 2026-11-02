@@ -11,6 +11,6 @@ var structmeshlib_1_1CNCMachineSettings =
     [ "set_feedrate_idle", "structmeshlib_1_1CNCMachineSettings.html#afbdb3fd407f84a51d220ab929c49887d", null ],
     [ "set_home_position", "structmeshlib_1_1CNCMachineSettings.html#a9923f86b6a62b660e2762a063a0fc31b", null ],
     [ "set_rotation_axis", "structmeshlib_1_1CNCMachineSettings.html#ae9c7ce74d693f565a0d778996b4b69b1", null ],
-    [ "set_rotation_limits", "structmeshlib_1_1CNCMachineSettings.html#ad7ee152bec34d5dd4de44db8e53326cf", null ],
+    [ "set_rotation_limits", "structmeshlib_1_1CNCMachineSettings.html#a1a8d81d4409368fe2725f154883f9f6e", null ],
     [ "set_rotation_order", "structmeshlib_1_1CNCMachineSettings.html#aa3c39ec26f86fec66b73be961a713636", null ]
 ];

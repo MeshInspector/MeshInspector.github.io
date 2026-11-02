@@ -20,6 +20,6 @@ var MRVDBConversions_8rs =
     [ "meshlib::simple_volume_to_dense_grid", "namespacemeshlib.html#aa66a42f5da905c21863be0fd0fbfbdad", null ],
     [ "meshlib::simple_volume_to_vdb_volume", "namespacemeshlib.html#abc01c61ee9615f568516c771aa0816b2", null ],
     [ "meshlib::vdb_volume_to_simple_volume", "namespacemeshlib.html#a1a597f456147e2540552f217d37c7a2c", null ],
-    [ "meshlib::vdb_volume_to_simple_volume_norm", "namespacemeshlib.html#a5c13693548723dd6a953203de4f34a4e", null ],
-    [ "meshlib::vdb_volume_to_simple_volume_u16", "namespacemeshlib.html#a955d182a7f284c8cc6063f3580e5db7a", null ]
+    [ "meshlib::vdb_volume_to_simple_volume_norm", "namespacemeshlib.html#ad85d2702e347eec615baabc5abe709a3", null ],
+    [ "meshlib::vdb_volume_to_simple_volume_u16", "namespacemeshlib.html#a8df6f14c374fa62ced828941b7c71d6a", null ]
 ];

@@ -15,7 +15,7 @@ var structmeshlib_1_1MeshOrPoints__ProjectionResult =
     [ "set_closest_vert", "structmeshlib_1_1MeshOrPoints__ProjectionResult.html#a078634417ea71bc167354b0e1b46a21b", null ],
     [ "set_dist_sq", "structmeshlib_1_1MeshOrPoints__ProjectionResult.html#ae4e28977e63342da76bac1b45b810c36", null ],
     [ "set_is_bd", "structmeshlib_1_1MeshOrPoints__ProjectionResult.html#a7e9e4f286d7dd3b6b5e02f162efbd84f", null ],
-    [ "set_normal", "structmeshlib_1_1MeshOrPoints__ProjectionResult.html#a721c41a667c66de2c4a68c4461cbeaf6", null ],
+    [ "set_normal", "structmeshlib_1_1MeshOrPoints__ProjectionResult.html#ad644e6e07547dec64aca6d4be22f4c44", null ],
     [ "set_point", "structmeshlib_1_1MeshOrPoints__ProjectionResult.html#ad44c4883a5393f0d98bdc9c61b8ca27d", null ],
     [ "valid", "structmeshlib_1_1MeshOrPoints__ProjectionResult.html#ae3c2f8550dcb713c44653193bcae4201", null ]
 ];

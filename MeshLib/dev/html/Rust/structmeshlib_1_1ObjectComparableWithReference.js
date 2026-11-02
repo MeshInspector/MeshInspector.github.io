@@ -9,6 +9,6 @@ var structmeshlib_1_1ObjectComparableWithReference =
     [ "num_comparable_properties", "structmeshlib_1_1ObjectComparableWithReference.html#ac73bb8298d02fd58ec0c79949e626d06", null ],
     [ "num_comparison_reference_values", "structmeshlib_1_1ObjectComparableWithReference.html#a09fa403bf5168d010ae0ac2ef8d2c86d", null ],
     [ "set_comparison_reference_val", "structmeshlib_1_1ObjectComparableWithReference.html#ac36e0ccb534fb244686721b8c6ae89d4", null ],
-    [ "set_comparison_reference_value", "structmeshlib_1_1ObjectComparableWithReference.html#a78c26500244a960789b2f810de277409", null ],
-    [ "set_comparison_tolerance", "structmeshlib_1_1ObjectComparableWithReference.html#ade28fc9525e92aa18812cc7271c362cd", null ]
+    [ "set_comparison_reference_value", "structmeshlib_1_1ObjectComparableWithReference.html#a2a91e467cd563d7ed59b815aaba2fb2c", null ],
+    [ "set_comparison_tolerance", "structmeshlib_1_1ObjectComparableWithReference.html#ab3759c83d27803b0d23cc16f44207ee2", null ]
 ];

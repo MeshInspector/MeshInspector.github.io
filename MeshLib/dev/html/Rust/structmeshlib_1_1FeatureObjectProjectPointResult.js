@@ -5,6 +5,6 @@ var structmeshlib_1_1FeatureObjectProjectPointResult =
     [ "normal_mut", "structmeshlib_1_1FeatureObjectProjectPointResult.html#aef12d7858adfbbc4c02b68f9ea70403d", null ],
     [ "point", "structmeshlib_1_1FeatureObjectProjectPointResult.html#a4015a60a3c06c1808341368308d52380", null ],
     [ "point_mut", "structmeshlib_1_1FeatureObjectProjectPointResult.html#a910cf5a98b876012cc71aaaf577b874c", null ],
-    [ "set_normal", "structmeshlib_1_1FeatureObjectProjectPointResult.html#a37b79de0b7acd01555e84556d0e2bb53", null ],
+    [ "set_normal", "structmeshlib_1_1FeatureObjectProjectPointResult.html#ac9b0123b93c3ca6ae40230c12479e613", null ],
     [ "set_point", "structmeshlib_1_1FeatureObjectProjectPointResult.html#a63e1e9e2282cb430174c4221a53d8e40", null ]
 ];
