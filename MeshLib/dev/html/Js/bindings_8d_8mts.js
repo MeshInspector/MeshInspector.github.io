@@ -203,6 +203,7 @@ var bindings_8d_8mts =
     [ "addNoise", "bindings_8d_8mts.html#aa998e2180b06b68d30727c99aaf29503", null ],
     [ "boolean", "bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb", null ],
     [ "boolean", "bindings_8d_8mts.html#a085dcbdcc1053af6bf37f9a0cdb25afd", null ],
+    [ "booleanWithXf", "bindings_8d_8mts.html#a36f888809615c00751057876c69026f1", null ],
     [ "calcCombinedFillMetric", "bindings_8d_8mts.html#acae9cac1b516889f23a3f9c3d51fb22c", null ],
     [ "computePerFaceNormals", "bindings_8d_8mts.html#a198fde9c306b5fa6066f3ee6bd17963c", null ],
     [ "computePerVertNormals", "bindings_8d_8mts.html#a0f2b375b88caa40460c9d930bee99833", null ],

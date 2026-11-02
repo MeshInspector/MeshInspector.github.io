@@ -16,9 +16,10 @@ var searchData=
   ['booleanoperation_13',['BooleanOperation',['../bindings_8d_8mts.html#a59ec0d0ab6b02a93798e5dd0cd81e218',1,'bindings.d.mts']]],
   ['booleanresult_14',['BooleanResult',['../classBooleanResult.html',1,'']]],
   ['booleanresultmapper_15',['BooleanResultMapper',['../classBooleanResultMapper.html',1,'BooleanResultMapper'],['../classBooleanResultMapper.html#a000f02ff27695b148c600f1c0ac2a3a8',1,'BooleanResultMapper::BooleanResultMapper()']]],
-  ['both_16',['Both',['../bindings_8d_8mts.html#acdfb41a58613cf78584806af888f61c9aedf69634e61e7ec5d006874d299bc0d4',1,'bindings.d.mts']]],
-  ['bothinside_17',['BothInside',['../bindings_8d_8mts.html#aa4729d84ec574bd0d049d1b98ddd2ad9acda302e4936992dbeab1f66e1d6a18ad',1,'bindings.d.mts']]],
-  ['bothoutside_18',['BothOutside',['../bindings_8d_8mts.html#aa4729d84ec574bd0d049d1b98ddd2ad9aa39199cfda0dd33d79b280babda14ac1',1,'bindings.d.mts']]],
-  ['box3f_19',['Box3f',['../classBox3f.html',1,'Box3f'],['../classBox3f.html#a454bffc3b8d3449c8598183e215ae97c',1,'Box3f::Box3f()'],['../classBox3f.html#a7368ff76115515d7d6074f43947b95bb',1,'Box3f::Box3f(Vector3f _0, Vector3f _1)']]],
-  ['box3i_20',['Box3i',['../classBox3i.html',1,'Box3i'],['../classBox3i.html#affead4782010e155928e93937a9b3cfb',1,'Box3i::Box3i()'],['../classBox3i.html#a62cf1e5432c4ef595dd86ea945ccf6ad',1,'Box3i::Box3i(Vector3i _0, Vector3i _1)']]]
+  ['booleanwithxf_16',['booleanWithXf',['../bindings_8d_8mts.html#a36f888809615c00751057876c69026f1',1,'bindings.d.mts']]],
+  ['both_17',['Both',['../bindings_8d_8mts.html#acdfb41a58613cf78584806af888f61c9aedf69634e61e7ec5d006874d299bc0d4',1,'bindings.d.mts']]],
+  ['bothinside_18',['BothInside',['../bindings_8d_8mts.html#aa4729d84ec574bd0d049d1b98ddd2ad9acda302e4936992dbeab1f66e1d6a18ad',1,'bindings.d.mts']]],
+  ['bothoutside_19',['BothOutside',['../bindings_8d_8mts.html#aa4729d84ec574bd0d049d1b98ddd2ad9aa39199cfda0dd33d79b280babda14ac1',1,'bindings.d.mts']]],
+  ['box3f_20',['Box3f',['../classBox3f.html',1,'Box3f'],['../classBox3f.html#a454bffc3b8d3449c8598183e215ae97c',1,'Box3f::Box3f()'],['../classBox3f.html#a7368ff76115515d7d6074f43947b95bb',1,'Box3f::Box3f(Vector3f _0, Vector3f _1)']]],
+  ['box3i_21',['Box3i',['../classBox3i.html',1,'Box3i'],['../classBox3i.html#affead4782010e155928e93937a9b3cfb',1,'Box3i::Box3i()'],['../classBox3i.html#a62cf1e5432c4ef595dd86ea945ccf6ad',1,'Box3i::Box3i(Vector3i _0, Vector3i _1)']]]
 ];

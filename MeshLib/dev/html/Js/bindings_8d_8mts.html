@@ -388,6 +388,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a75666ca218e1b79fed64b2cdf0dd9ff5" id="r_a75666ca218e1b79fed64b2cdf0dd9ff5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75666ca218e1b79fed64b2cdf0dd9ff5">makeUVSphere</a> (number radius, number horisontalResolution, number verticalResolution)</td></tr>
 <tr class="memdesc:a75666ca218e1b79fed64b2cdf0dd9ff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a mesh of sphere with regular triangulation (parallels and meridians)  <br /></td></tr>
 <tr class="memitem:ab327118a7dc64c2db1605682331342bb" id="r_ab327118a7dc64c2db1605682331342bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab327118a7dc64c2db1605682331342bb">boolean</a> (<a class="el" href="classMesh.html">Mesh</a> meshA, <a class="el" href="classMesh.html">Mesh</a> meshB, <a class="el" href="#a59ec0d0ab6b02a93798e5dd0cd81e218">BooleanOperation</a> operation)</td></tr>
+<tr class="memitem:a36f888809615c00751057876c69026f1" id="r_a36f888809615c00751057876c69026f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36f888809615c00751057876c69026f1">booleanWithXf</a> (<a class="el" href="classMesh.html">Mesh</a> meshA, <a class="el" href="classMesh.html">Mesh</a> meshB, <a class="el" href="#a59ec0d0ab6b02a93798e5dd0cd81e218">BooleanOperation</a> operation, <a class="el" href="classAffineXf3f.html">AffineXf3f</a> rigidB2A)</td></tr>
 <tr class="memitem:a085dcbdcc1053af6bf37f9a0cdb25afd" id="r_a085dcbdcc1053af6bf37f9a0cdb25afd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBooleanResult.html">BooleanResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a085dcbdcc1053af6bf37f9a0cdb25afd">boolean</a> (<a class="el" href="classMesh.html">Mesh</a> meshA, <a class="el" href="classMesh.html">Mesh</a> meshB, <a class="el" href="#a59ec0d0ab6b02a93798e5dd0cd81e218">BooleanOperation</a> operation, <a class="el" href="classBooleanResultMapper.html">BooleanResultMapper</a> mapper)</td></tr>
 <tr class="memitem:ab2ae1ef26deb52794348b8d81827c5f7" id="r_ab2ae1ef26deb52794348b8d81827c5f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ab327118a7dc64c2db1605682331342bb">boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2ae1ef26deb52794348b8d81827c5f7">isInside</a> (<a class="el" href="classMesh.html">Mesh</a> a, <a class="el" href="classMesh.html">Mesh</a> b)</td></tr>
 <tr class="memdesc:ab2ae1ef26deb52794348b8d81827c5f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh part A is inside of closed mesh part B  <br /></td></tr>
@@ -1017,6 +1018,37 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classBooleanResultMapper.html">BooleanResultMapper</a></td>          <td class="paramname"><span class="paramname"><em>mapper</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36f888809615c00751057876c69026f1" name="a36f888809615c00751057876c69026f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36f888809615c00751057876c69026f1">&#9670;&#160;</a></span>booleanWithXf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classBooleanResult.html">BooleanResult</a> booleanWithXf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMesh.html">Mesh</a></td>          <td class="paramname"><span class="paramname"><em>meshA</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMesh.html">Mesh</a></td>          <td class="paramname"><span class="paramname"><em>meshB</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a59ec0d0ab6b02a93798e5dd0cd81e218">BooleanOperation</a></td>          <td class="paramname"><span class="paramname"><em>operation</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAffineXf3f.html">AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

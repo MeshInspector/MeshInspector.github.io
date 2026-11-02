@@ -38,6 +38,8 @@ var searchData=
   ['fusion_2edox_2ecpp_5',['Fusion.dox.cpp',['../Fusion_8dox_8cpp.html',1,'']]],
   ['basedapplication_2emd_0',['BasedApplication.md',['../BasedApplication_8md.html',1,'']]],
   ['basicmathtypesoverview_2emd_1',['BasicMathTypesOverview.md',['../BasicMathTypesOverview_8md.html',1,'']]],
+  ['booleanbenchmark_2edox_2ecpp_2',['BooleanBenchmark.dox.cpp',['../BooleanBenchmark_8dox_8cpp.html',1,'']]],
+  ['booleanbenchmark_2emd_3',['BooleanBenchmark.md',['../BooleanBenchmark_8md.html',1,'']]],
   ['verifysetup_2edox_2ecpp_0',['VerifySetup.dox.cpp',['../VerifySetup_8dox_8cpp.html',1,'']]],
   ['viewerexample_2emd_1',['ViewerExample.md',['../ViewerExample_8md.html',1,'']]],
   ['viewerexamplevolumerender_2emd_2',['ViewerExampleVolumeRender.md',['../ViewerExampleVolumeRender_8md.html',1,'']]],
