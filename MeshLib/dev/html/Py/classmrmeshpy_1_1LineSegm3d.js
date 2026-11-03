@@ -1,11 +1,11 @@
 var classmrmeshpy_1_1LineSegm3d =
 [
     [ "__init__", "classmrmeshpy_1_1LineSegm3d.html#a3f1243731b34b5814d5ceec38046b647", null ],
-    [ "__init__", "classmrmeshpy_1_1LineSegm3d.html#a1b6db71c016ca7f0bd75e1d74e252432", null ],
-    [ "__init__", "classmrmeshpy_1_1LineSegm3d.html#a9881f3569896ee39c59320f23706540a", null ],
-    [ "__call__", "classmrmeshpy_1_1LineSegm3d.html#acd70f5b7208c9b921aab0b43ca15c293", null ],
-    [ "assign", "classmrmeshpy_1_1LineSegm3d.html#acd45032cf8e6fd05ce38e10805d2d062", null ],
-    [ "dir", "classmrmeshpy_1_1LineSegm3d.html#a6468f4201e668e42887cc6f46add20ec", null ],
-    [ "length", "classmrmeshpy_1_1LineSegm3d.html#a4497ffb2bc405a0408ba6825a33f5e8e", null ],
-    [ "lengthSq", "classmrmeshpy_1_1LineSegm3d.html#ad617d736b08948aced6f251224b8a1ea", null ]
+    [ "__init__", "classmrmeshpy_1_1LineSegm3d.html#acf783b7499121f0b8eb8d033c07f82dc", null ],
+    [ "__init__", "classmrmeshpy_1_1LineSegm3d.html#af26a39b4ee8043a7b1e6502c907ee5c8", null ],
+    [ "a", "classmrmeshpy_1_1LineSegm3d.html#afa98401836301bc8979d7598247ce62c", null ],
+    [ "a", "classmrmeshpy_1_1LineSegm3d.html#aba4b5470e65b463ec9e06c7df903c4b3", null ],
+    [ "assign", "classmrmeshpy_1_1LineSegm3d.html#aa8b180e2e1520736f0fa228bc8e1df4a", null ],
+    [ "b", "classmrmeshpy_1_1LineSegm3d.html#a5a8823373563ec680e02b10a9e2cdebe", null ],
+    [ "b", "classmrmeshpy_1_1LineSegm3d.html#a5cbffadc326ce25b0a740804dbab4c71", null ]
 ];

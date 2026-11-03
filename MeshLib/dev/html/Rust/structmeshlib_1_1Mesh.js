@@ -82,6 +82,7 @@ var structmeshlib_1_1Mesh =
     [ "normal_mr_mesh_tri_point", "structmeshlib_1_1Mesh.html#ae5cadcd080f8e3a83e01adc5731d9f04", null ],
     [ "normal_mr_vert_id", "structmeshlib_1_1Mesh.html#a7269ed8ebef74cf909538abaa8655239", null ],
     [ "op_equal", "structmeshlib_1_1Mesh.html#aac663ebbba5093e594bbe6e6cfa73555", null ],
+    [ "op_not_equal", "structmeshlib_1_1Mesh.html#a14641228210d31759a939196db1aa8e1", null ],
     [ "org_pnt", "structmeshlib_1_1Mesh.html#a7ae9c5a44b5ed12a61e82f5133dcae83", null ],
     [ "pack_2_mr_pack_mapping", "structmeshlib_1_1Mesh.html#af2a058156175eb234f5e6a61d8040a4f", null ],
     [ "pack_2_mr_part_mapping", "structmeshlib_1_1Mesh.html#aac358b1a1e87939b608343732a8d8f17", null ],

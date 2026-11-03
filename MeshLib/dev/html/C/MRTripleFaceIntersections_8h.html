@@ -138,6 +138,7 @@ $(function(){initNavTree('MRTripleFaceIntersections_8h.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRTripleFaceIntersections_8h_source.html">Go to the source code of this file.</a></p>
@@ -169,6 +170,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a48e643e4de18fab4ed90550e3c6e10cf" id="r_a48e643e4de18fab4ed90550e3c6e10cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48e643e4de18fab4ed90550e3c6e10cf">MR_FaceFaceFace_DestroyArray</a> (const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *_this)</td></tr>
 <tr class="memdesc:a48e643e4de18fab4ed90550e3c6e10cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a7f2191cf88a47a18b81c157cf3c7bbbc" id="r_a7f2191cf88a47a18b81c157cf3c7bbbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f2191cf88a47a18b81c157cf3c7bbbc">MR_FaceFaceFace_AssignFromAnother</a> (<a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *_this, const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *_other)</td></tr>
+<tr class="memitem:ac88241219a2c83ab13c499094e074245" id="r_ac88241219a2c83ab13c499094e074245"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac88241219a2c83ab13c499094e074245">MR_equal_MR_FaceFaceFace</a> (const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *_this, const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *rhs)</td></tr>
+<tr class="memitem:a843203dba3a543a8f2ff98334cee8fe0" id="r_a843203dba3a543a8f2ff98334cee8fe0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a843203dba3a543a8f2ff98334cee8fe0">MR_not_equal_MR_FaceFaceFace</a> (const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *_this, const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *rhs)</td></tr>
+<tr class="memitem:a4b555da12397aaa7beb8ee79dbe0741f" id="r_a4b555da12397aaa7beb8ee79dbe0741f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b555da12397aaa7beb8ee79dbe0741f">MR_less_MR_FaceFaceFace</a> (const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *_this, const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *rhs)</td></tr>
+<tr class="memitem:af88c87b00be09e3ea17be9aed76c106f" id="r_af88c87b00be09e3ea17be9aed76c106f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af88c87b00be09e3ea17be9aed76c106f">MR_greater_MR_FaceFaceFace</a> (const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *_this, const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *rhs)</td></tr>
+<tr class="memitem:ae7f429222249b58c12468126d7eab4f3" id="r_ae7f429222249b58c12468126d7eab4f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f429222249b58c12468126d7eab4f3">MR_less_equal_MR_FaceFaceFace</a> (const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *_this, const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *rhs)</td></tr>
+<tr class="memitem:aa862ab3e180e2a21c30c4683f5d4699d" id="r_aa862ab3e180e2a21c30c4683f5d4699d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa862ab3e180e2a21c30c4683f5d4699d">MR_greater_equal_MR_FaceFaceFace</a> (const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *_this, const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *rhs)</td></tr>
 <tr class="memitem:a2e81431c372c0122889a7fbb589b99e9" id="r_a2e81431c372c0122889a7fbb589b99e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd79e78e95147ae5cbfc323abad5c758">MR_std_vector_MR_FaceFaceFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e81431c372c0122889a7fbb589b99e9">MR_findTripleFaceIntersections</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRIntersectionContour_8h.html#a5712520895035075efff26ef64788602">MR_Vector_MR_Vector_MR_VarEdgeTri</a> *selfContours)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
@@ -203,6 +210,28 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="ac88241219a2c83ab13c499094e074245" name="ac88241219a2c83ab13c499094e074245"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac88241219a2c83ab13c499094e074245">&#9670;&#160;</a></span>MR_equal_MR_FaceFaceFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_equal_MR_FaceFaceFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFaceFace::operator==</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a7f2191cf88a47a18b81c157cf3c7bbbc" name="a7f2191cf88a47a18b81c157cf3c7bbbc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f2191cf88a47a18b81c157cf3c7bbbc">&#9670;&#160;</a></span>MR_FaceFaceFace_AssignFromAnother()</h2>
 
@@ -581,6 +610,116 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>given all self-intersection contours on a mesh, finds all intersecting triangle triples (every two triangles from a triple intersect); please note that not all such triples will have a common point Generated from function <span class="tt">MR::findTripleFaceIntersections</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">selfContours</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__MR__FaceFaceFace_8h.html#a268a0d3894b621c0825b61e9ffe03097" title="Destroys a heap-allocated instance of MR_std_vector_MR_FaceFaceFace. Does nothing if the pointer is n...">MR_std_vector_MR_FaceFaceFace_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa862ab3e180e2a21c30c4683f5d4699d" name="aa862ab3e180e2a21c30c4683f5d4699d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa862ab3e180e2a21c30c4683f5d4699d">&#9670;&#160;</a></span>MR_greater_equal_MR_FaceFaceFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_equal_MR_FaceFaceFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFaceFace::operator&gt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="af88c87b00be09e3ea17be9aed76c106f" name="af88c87b00be09e3ea17be9aed76c106f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af88c87b00be09e3ea17be9aed76c106f">&#9670;&#160;</a></span>MR_greater_MR_FaceFaceFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_MR_FaceFaceFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFaceFace::operator&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ae7f429222249b58c12468126d7eab4f3" name="ae7f429222249b58c12468126d7eab4f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7f429222249b58c12468126d7eab4f3">&#9670;&#160;</a></span>MR_less_equal_MR_FaceFaceFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_equal_MR_FaceFaceFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFaceFace::operator&lt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a4b555da12397aaa7beb8ee79dbe0741f" name="a4b555da12397aaa7beb8ee79dbe0741f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b555da12397aaa7beb8ee79dbe0741f">&#9670;&#160;</a></span>MR_less_MR_FaceFaceFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_MR_FaceFaceFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFaceFace::operator&lt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a843203dba3a543a8f2ff98334cee8fe0" name="a843203dba3a543a8f2ff98334cee8fe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a843203dba3a543a8f2ff98334cee8fe0">&#9670;&#160;</a></span>MR_not_equal_MR_FaceFaceFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_FaceFaceFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a740ce925862132ce11f530430d5dda94">MR_FaceFaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFaceFace::operator!=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

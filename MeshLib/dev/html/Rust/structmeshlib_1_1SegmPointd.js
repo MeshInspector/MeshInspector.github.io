@@ -8,6 +8,8 @@ var structmeshlib_1_1SegmPointd =
     [ "in_vertex", "structmeshlib_1_1SegmPointd.html#a8c8dac2cb8656b9db8c2a90f2ba926c9", null ],
     [ "op_equal", "structmeshlib_1_1SegmPointd.html#aa3feac16972ce0f9464bf05cb3212ca0", null ],
     [ "op_equal_double", "structmeshlib_1_1SegmPointd.html#aa354f954774e7ef6855569de1bcff07e", null ],
+    [ "op_not_equal", "structmeshlib_1_1SegmPointd.html#a8a5ac066096df8ec26a6dcd08d638af9", null ],
+    [ "op_not_equal_double", "structmeshlib_1_1SegmPointd.html#a8f8c2619d7b647a52b1cedd923b4b457", null ],
     [ "set_a", "structmeshlib_1_1SegmPointd.html#a4c22d629b88611d774f0e83d3822b891", null ],
     [ "sym", "structmeshlib_1_1SegmPointd.html#a374fb6712643c2e375ade5253c43d365", null ]
 ];

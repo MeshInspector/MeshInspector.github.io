@@ -1,10 +1,9 @@
 var classmrmeshpy_1_1MeshVertPart =
 [
-    [ "__init__", "classmrmeshpy_1_1MeshVertPart.html#a58ec29b1289ae3a79d30bfd593db8b05", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshVertPart.html#a95b2db3eb315c3ac6a444489f5ae85b8", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshVertPart.html#a690b992781d994919e427bcafbe7983c", null ],
-    [ "assign", "classmrmeshpy_1_1MeshVertPart.html#a5c5401105c3d653265c4758cc08e01e5", null ],
-    [ "mesh", "classmrmeshpy_1_1MeshVertPart.html#aa6a69061fd77b0c7d13699957738d370", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshVertPart.html#a243adc92d2c573ac1501078b52ddcab0", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshVertPart.html#ab72a819b8607b35d4f492b4d0c13fb66", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshVertPart.html#ac5b7e217545106e8d1989a2eb859e8d7", null ],
+    [ "assign", "classmrmeshpy_1_1MeshVertPart.html#a7bda50ed015d089b44fe3c4e8a1414f2", null ],
     [ "region", "classmrmeshpy_1_1MeshVertPart.html#af1057b72c2abac76346b64589d9b5e8e", null ],
-    [ "region", "classmrmeshpy_1_1MeshVertPart.html#a2482ede62a3f7801742152c1bbf05eb1", null ]
+    [ "region", "classmrmeshpy_1_1MeshVertPart.html#a233a0c1b1e7ec56039f040cc302c3a69", null ]
 ];

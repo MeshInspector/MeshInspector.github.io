@@ -1,0 +1,7 @@
+var classmrmeshpy_1_1Const__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string =
+[
+    [ "__init__", "classmrmeshpy_1_1Const__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#a74cd782a5ce62c2e162f608a71bfa288", null ],
+    [ "__bool__", "classmrmeshpy_1_1Const__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#aa6dd9e17ac9239f2c87ea94e68953608", null ],
+    [ "error", "classmrmeshpy_1_1Const__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#a4dbc422936c725aec2ef3bd58583a222", null ],
+    [ "value", "classmrmeshpy_1_1Const__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#af09c675dd083cc720c341f2521b98e1b", null ]
+];

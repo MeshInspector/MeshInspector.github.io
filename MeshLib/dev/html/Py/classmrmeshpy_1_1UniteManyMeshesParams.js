@@ -1,9 +1,9 @@
 var classmrmeshpy_1_1UniteManyMeshesParams =
 [
     [ "__init__", "classmrmeshpy_1_1UniteManyMeshesParams.html#a6b75470354ab2c84f4fd8ad042102fc4", null ],
-    [ "__init__", "classmrmeshpy_1_1UniteManyMeshesParams.html#a4dcc615aaf063a321bdb0a2f7b57a29d", null ],
-    [ "__init__", "classmrmeshpy_1_1UniteManyMeshesParams.html#a0fbfbd542a0990615f2f51d7644b5569", null ],
-    [ "assign", "classmrmeshpy_1_1UniteManyMeshesParams.html#ad39f41af5551c754104633eafca34e35", null ],
+    [ "__init__", "classmrmeshpy_1_1UniteManyMeshesParams.html#aa2facae667f11eed1f18e638979c43f4", null ],
+    [ "__init__", "classmrmeshpy_1_1UniteManyMeshesParams.html#ad050511d4cf4742b1fdd8cf0fdf99884", null ],
+    [ "assign", "classmrmeshpy_1_1UniteManyMeshesParams.html#ac654c888b83ba42a100a220cee1a8693", null ],
     [ "fixDegenerations", "classmrmeshpy_1_1UniteManyMeshesParams.html#a79549c3ed005154678ddb4f5fb641021", null ],
     [ "fixDegenerations", "classmrmeshpy_1_1UniteManyMeshesParams.html#a4c003f09bb8ae1b7d1c25b6b67cc49e0", null ],
     [ "forceCut", "classmrmeshpy_1_1UniteManyMeshesParams.html#a79935178bf60d88edc14922c0be39bc8", null ],
@@ -18,6 +18,8 @@ var classmrmeshpy_1_1UniteManyMeshesParams =
     [ "new2oldFaces", "classmrmeshpy_1_1UniteManyMeshesParams.html#a293205c82471a1eb949f142936ae97c3", null ],
     [ "newFaces", "classmrmeshpy_1_1UniteManyMeshesParams.html#ad23bb9eb36f427fe3f1c3edaaea63333", null ],
     [ "newFaces", "classmrmeshpy_1_1UniteManyMeshesParams.html#a4606440a0734244c65464ee482d1d345", null ],
+    [ "progressCb", "classmrmeshpy_1_1UniteManyMeshesParams.html#a31702a9c53ee3ba4680374d3c2bc2d9f", null ],
+    [ "progressCb", "classmrmeshpy_1_1UniteManyMeshesParams.html#aac2dd893bbde29da0a0d62e02d84eb38", null ],
     [ "randomShiftsSeed", "classmrmeshpy_1_1UniteManyMeshesParams.html#a167d892b25047c038e75a7b8f58e4d0f", null ],
     [ "randomShiftsSeed", "classmrmeshpy_1_1UniteManyMeshesParams.html#ae0e6220ccd610b99a46cd0d98e9ab071", null ],
     [ "useRandomShifts", "classmrmeshpy_1_1UniteManyMeshesParams.html#aa424dd4095fadf179f258dad8bf8eefa", null ],

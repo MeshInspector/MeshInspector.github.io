@@ -1,11 +1,8 @@
 var classmrmeshpy_1_1UndirectedEdgeIterator =
 [
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeIterator.html#a126cfa27851a421e7f3a2d2314c7d74d", null ],
-    [ "__init__", "classmrmeshpy_1_1UndirectedEdgeIterator.html#a78bcc8dfd3513445f0e99057189500d4", null ],
-    [ "__init__", "classmrmeshpy_1_1UndirectedEdgeIterator.html#abab4c22712b04bb851e65b3b4e57541b", null ],
-    [ "__eq__", "classmrmeshpy_1_1UndirectedEdgeIterator.html#ae0d1e83d549561f721d84cb43fbaf7a7", null ],
-    [ "__mul__", "classmrmeshpy_1_1UndirectedEdgeIterator.html#a318dcab06413a776fe8d0958741e31ad", null ],
-    [ "__ne__", "classmrmeshpy_1_1UndirectedEdgeIterator.html#a85d78a1b8fd1ae70ff43863ffedf761d", null ],
-    [ "assign", "classmrmeshpy_1_1UndirectedEdgeIterator.html#a025202686fbbe230d6a3a457de996daf", null ],
+    [ "__init__", "classmrmeshpy_1_1UndirectedEdgeIterator.html#a8f035400c42867f76f3b258871e6f663", null ],
+    [ "__init__", "classmrmeshpy_1_1UndirectedEdgeIterator.html#a429bfb65adfcb760d3739c85e88c1821", null ],
+    [ "assign", "classmrmeshpy_1_1UndirectedEdgeIterator.html#a75d40465f84449cdd006f80636c3b873", null ],
     [ "increment", "classmrmeshpy_1_1UndirectedEdgeIterator.html#adadc8c50e070acf75152b390b25dc6b3", null ]
 ];

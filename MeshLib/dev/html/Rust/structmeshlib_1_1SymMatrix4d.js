@@ -6,6 +6,7 @@ var structmeshlib_1_1SymMatrix4d =
     [ "mul_assign", "structmeshlib_1_1SymMatrix4d.html#a98de7685d3c778096344442d9e002537", null ],
     [ "norm_sq", "structmeshlib_1_1SymMatrix4d.html#af0511c702b1941d0d40cc8f09374ae6f", null ],
     [ "op_equal", "structmeshlib_1_1SymMatrix4d.html#a0e5ce239d5a32d4a7a3253b813334bf5", null ],
+    [ "op_not_equal", "structmeshlib_1_1SymMatrix4d.html#a1277ea33805048c6c98dd1a8adf15572", null ],
     [ "set_ww", "structmeshlib_1_1SymMatrix4d.html#ad19dce5e17a2c91734420ef681e2cba9", null ],
     [ "set_xw", "structmeshlib_1_1SymMatrix4d.html#a2eee46ab1afc5b2ec40464c66c76ac16", null ],
     [ "set_xx", "structmeshlib_1_1SymMatrix4d.html#a180e1d0caf6196eadfaf0cb592675a34", null ],

@@ -153,6 +153,12 @@ $(function(){initNavTree('structmeshlib_1_1PointsProjectionResult.html','','stru
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0a24dedf7f684db43d178e92f016bba4" id="r_a0a24dedf7f684db43d178e92f016bba4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a24dedf7f684db43d178e92f016bba4">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a></td></tr>
+<tr class="memitem:ac63b8d89c940e9076c84b870eebd589a" id="r_ac63b8d89c940e9076c84b870eebd589a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac63b8d89c940e9076c84b870eebd589a">op_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a>) const -&gt; bool</td></tr>
+<tr class="memitem:ab5bfcdc9de456f5398db121c216948f0" id="r_ab5bfcdc9de456f5398db121c216948f0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5bfcdc9de456f5398db121c216948f0">op_not_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a>) const -&gt; bool</td></tr>
+<tr class="memitem:afc1e02f6659fd4880b848a7fb1eb05e8" id="r_afc1e02f6659fd4880b848a7fb1eb05e8"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc1e02f6659fd4880b848a7fb1eb05e8">op_less</a> (_1:&amp;<a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a9ed78d85fffa6b3deb5a4d1fc82f9e46" id="r_a9ed78d85fffa6b3deb5a4d1fc82f9e46"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ed78d85fffa6b3deb5a4d1fc82f9e46">op_greater</a> (_1:&amp;<a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a>) const -&gt; bool</td></tr>
+<tr class="memitem:ac3c6daef8b66f5605f0264631adf901b" id="r_ac3c6daef8b66f5605f0264631adf901b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3c6daef8b66f5605f0264631adf901b">op_less_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a30c195ed425f528d05b3c87d1adb7cc8" id="r_a30c195ed425f528d05b3c87d1adb7cc8"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30c195ed425f528d05b3c87d1adb7cc8">op_greater_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a>) const -&gt; bool</td></tr>
 <tr class="memitem:a0d0212e4ad6f230c593523cd2d993b20" id="r_a0d0212e4ad6f230c593523cd2d993b20"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d0212e4ad6f230c593523cd2d993b20">dist_sq</a> () const -&gt; &amp;f32</td></tr>
 <tr class="memitem:ab358e8c904745c62ec40ba6306948cfd" id="r_ab358e8c904745c62ec40ba6306948cfd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab358e8c904745c62ec40ba6306948cfd">dist_sq_mut</a> () -&gt; &amp;mut f32</td></tr>
 <tr class="memitem:a26ebe5098af5c501beb68029187eecc9" id="r_a26ebe5098af5c501beb68029187eecc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26ebe5098af5c501beb68029187eecc9">set_dist_sq</a> (value:f32)</td></tr>
@@ -313,6 +319,120 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructs an empty (default-constructed) instance.</p>
 <p>Calls <span class="tt">MR_PointsProjectionResult_DefaultConstruct()</span>. </p>
+
+</div>
+</div>
+<a id="ac63b8d89c940e9076c84b870eebd589a" name="ac63b8d89c940e9076c84b870eebd589a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac63b8d89c940e9076c84b870eebd589a">&#9670;&#160;</a></span>op_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::PointsProjectionResult::op_equal </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::PointsProjectionResult::operator==</span>.</p>
+<p>Calls <span class="tt">MR_equal_MR_PointsProjectionResult()</span>. </p>
+
+</div>
+</div>
+<a id="a9ed78d85fffa6b3deb5a4d1fc82f9e46" name="a9ed78d85fffa6b3deb5a4d1fc82f9e46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ed78d85fffa6b3deb5a4d1fc82f9e46">&#9670;&#160;</a></span>op_greater()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::PointsProjectionResult::op_greater </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::PointsProjectionResult::operator&gt;</span>.</p>
+<p>Calls <span class="tt">MR_greater_MR_PointsProjectionResult()</span>. </p>
+
+</div>
+</div>
+<a id="a30c195ed425f528d05b3c87d1adb7cc8" name="a30c195ed425f528d05b3c87d1adb7cc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30c195ed425f528d05b3c87d1adb7cc8">&#9670;&#160;</a></span>op_greater_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::PointsProjectionResult::op_greater_equal </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::PointsProjectionResult::operator&gt;=</span>.</p>
+<p>Calls <span class="tt">MR_greater_equal_MR_PointsProjectionResult()</span>. </p>
+
+</div>
+</div>
+<a id="afc1e02f6659fd4880b848a7fb1eb05e8" name="afc1e02f6659fd4880b848a7fb1eb05e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc1e02f6659fd4880b848a7fb1eb05e8">&#9670;&#160;</a></span>op_less()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::PointsProjectionResult::op_less </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::PointsProjectionResult::operator&lt;</span>.</p>
+<p>Calls <span class="tt">MR_less_MR_PointsProjectionResult()</span>. </p>
+
+</div>
+</div>
+<a id="ac3c6daef8b66f5605f0264631adf901b" name="ac3c6daef8b66f5605f0264631adf901b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3c6daef8b66f5605f0264631adf901b">&#9670;&#160;</a></span>op_less_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::PointsProjectionResult::op_less_equal </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::PointsProjectionResult::operator&lt;=</span>.</p>
+<p>Calls <span class="tt">MR_less_equal_MR_PointsProjectionResult()</span>. </p>
+
+</div>
+</div>
+<a id="ab5bfcdc9de456f5398db121c216948f0" name="ab5bfcdc9de456f5398db121c216948f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5bfcdc9de456f5398db121c216948f0">&#9670;&#160;</a></span>op_not_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::PointsProjectionResult::op_not_equal </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1PointsProjectionResult.html">meshlib::PointsProjectionResult</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::PointsProjectionResult::operator!=</span>.</p>
+<p>Calls <span class="tt">MR_not_equal_MR_PointsProjectionResult()</span>. </p>
 
 </div>
 </div>

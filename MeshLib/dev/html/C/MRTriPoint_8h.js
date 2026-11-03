@@ -4,6 +4,8 @@ var MRTriPoint_8h =
     [ "MR_equal_MR_TriPointf", "MRTriPoint_8h.html#aa08f569c94b6abcd4a7c79204adef811", null ],
     [ "MR_input_MR_TriPointd", "MRTriPoint_8h.html#a943a6780bdf04e469bb34da549383455", null ],
     [ "MR_input_MR_TriPointf", "MRTriPoint_8h.html#a665100ccb49f45473f6b17c649f0ffdd", null ],
+    [ "MR_not_equal_MR_TriPointd", "MRTriPoint_8h.html#a9c0550a2ac589610db7e49c2768a47ca", null ],
+    [ "MR_not_equal_MR_TriPointf", "MRTriPoint_8h.html#a7b1eeba203b25514d187a79354cab6d8", null ],
     [ "MR_print_MR_TriPointd", "MRTriPoint_8h.html#ad24647e18d98c4ea0d0c1d2bb294e22a", null ],
     [ "MR_print_MR_TriPointf", "MRTriPoint_8h.html#aad376c105f195897ab84112dbbde1fbe", null ],
     [ "MR_TriPointd_AssignFromAnother", "MRTriPoint_8h.html#aec9c5e337a115ddffd9aa6df4d3f910a", null ],

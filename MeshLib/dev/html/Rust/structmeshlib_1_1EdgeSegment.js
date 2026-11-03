@@ -10,6 +10,7 @@ var structmeshlib_1_1EdgeSegment =
     [ "edge_point_a", "structmeshlib_1_1EdgeSegment.html#adb63f674c17efd9a3a7a42be2ca4883e", null ],
     [ "edge_point_b", "structmeshlib_1_1EdgeSegment.html#a7e0ad7b0f05f670aada59210204cf98a", null ],
     [ "op_equal", "structmeshlib_1_1EdgeSegment.html#a935a7c46f88999244c35d4e58d1390a4", null ],
+    [ "op_not_equal", "structmeshlib_1_1EdgeSegment.html#a2f5b3e0d2ef6f12ee9eeb3658e52bf6a", null ],
     [ "set_a", "structmeshlib_1_1EdgeSegment.html#a082fff3f350592982ac9a4f04cbdfa02", null ],
     [ "set_b", "structmeshlib_1_1EdgeSegment.html#a9848ef008bced3b20016c2d26321d687", null ],
     [ "set_e", "structmeshlib_1_1EdgeSegment.html#aa5462ef9b92bb3b564e0d997d6972085", null ],

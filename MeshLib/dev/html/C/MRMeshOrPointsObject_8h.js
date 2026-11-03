@@ -21,5 +21,6 @@ var MRMeshOrPointsObject_8h =
     [ "MR_MeshOrPointsObject_OffsetPtr", "MRMeshOrPointsObject_8h.html#ab1ca1ddea0ecb8362ff4d06e326ea7a4", null ],
     [ "MR_MeshOrPointsObject_reset", "MRMeshOrPointsObject_8h.html#ab1e6c2e4148caa9df5333f5478d4de56", null ],
     [ "MR_MeshOrPointsObject_set_std_shared_ptr_MR_ObjectMesh", "MRMeshOrPointsObject_8h.html#a20656c1962893eae7d7d0ce8120f4d9b", null ],
-    [ "MR_MeshOrPointsObject_set_std_shared_ptr_MR_ObjectPoints", "MRMeshOrPointsObject_8h.html#a2efe478aa2a8f2a203268e7e5f0c798d", null ]
+    [ "MR_MeshOrPointsObject_set_std_shared_ptr_MR_ObjectPoints", "MRMeshOrPointsObject_8h.html#a2efe478aa2a8f2a203268e7e5f0c798d", null ],
+    [ "MR_not_equal_MR_MeshOrPointsObject_std_shared_ptr_MR_VisualObject", "MRMeshOrPointsObject_8h.html#adebf461da173194bdbd19450dc3caed9", null ]
 ];

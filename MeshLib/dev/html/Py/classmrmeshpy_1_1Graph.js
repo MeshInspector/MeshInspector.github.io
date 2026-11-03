@@ -1,21 +1,11 @@
 var classmrmeshpy_1_1Graph =
 [
+    [ "ConstEndVertices", "classmrmeshpy_1_1Graph_1_1ConstEndVertices.html", "classmrmeshpy_1_1Graph_1_1ConstEndVertices" ],
     [ "EndVertices", "classmrmeshpy_1_1Graph_1_1EndVertices.html", "classmrmeshpy_1_1Graph_1_1EndVertices" ],
     [ "__init__", "classmrmeshpy_1_1Graph.html#a3712305aed0ad1e87fa63d612151a211", null ],
-    [ "__init__", "classmrmeshpy_1_1Graph.html#a92cf845cfa15987573293a70fabd90e1", null ],
-    [ "areNeighbors", "classmrmeshpy_1_1Graph.html#adb850399916f589182a5218d4eb1757c", null ],
-    [ "assign", "classmrmeshpy_1_1Graph.html#aa4a76f81bdd6cd41cfb403b3b5dad331", null ],
-    [ "checkValidity", "classmrmeshpy_1_1Graph.html#a6f6dce4ccfffbea903b65ba66c7b871e", null ],
-    [ "construct", "classmrmeshpy_1_1Graph.html#ab0728a82472240d2e0571c00d5d99241", null ],
-    [ "construct", "classmrmeshpy_1_1Graph.html#a62e8dc7f72748f0636e1169d05a889b8", null ],
-    [ "edgeSize", "classmrmeshpy_1_1Graph.html#a3cc955f4bcec3c630f6f52d3e07a941c", null ],
-    [ "ends", "classmrmeshpy_1_1Graph.html#a7b035752f2df85f3d4634e5e961d3e10", null ],
-    [ "findEdge", "classmrmeshpy_1_1Graph.html#a7a189740779254da7d7e9ccf907bd3ed", null ],
-    [ "merge", "classmrmeshpy_1_1Graph.html#abd983603d3664bdf6569212efc00f5d0", null ],
-    [ "neighbours", "classmrmeshpy_1_1Graph.html#aa435fd61762d5f5858fd7017e3b0716b", null ],
-    [ "valid", "classmrmeshpy_1_1Graph.html#a2421ab5543f0c7d9b9680dcbba62c600", null ],
-    [ "valid", "classmrmeshpy_1_1Graph.html#ac7151d61d9f442d00ef51f96f5adb645", null ],
-    [ "validEdges", "classmrmeshpy_1_1Graph.html#a585342f2deec7205a387347a508a509a", null ],
-    [ "validVerts", "classmrmeshpy_1_1Graph.html#a6f6450510905f127b02221698d8858f1", null ],
-    [ "vertSize", "classmrmeshpy_1_1Graph.html#a28efb399a559793b53cabee8e42a7930", null ]
+    [ "__init__", "classmrmeshpy_1_1Graph.html#a4c20d62cfeeb0ba7b22d25550955c250", null ],
+    [ "assign", "classmrmeshpy_1_1Graph.html#a53e148767a56198e47f9eb0ec6991388", null ],
+    [ "construct", "classmrmeshpy_1_1Graph.html#aff140ac5f06af7203adccea3d6663022", null ],
+    [ "construct", "classmrmeshpy_1_1Graph.html#acd1d1bc2060a3191df88d9226ef1b316", null ],
+    [ "merge", "classmrmeshpy_1_1Graph.html#a54e4342292465f631d30d8a59b1eaf7a", null ]
 ];

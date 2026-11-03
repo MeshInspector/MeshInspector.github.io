@@ -8,6 +8,7 @@ var structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement =
     [ "next_id_mut", "structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement.html#aaa27a06bfc89ecc33dacafe5849d3e51", null ],
     [ "op_equal", "structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement.html#a832c44efb5139f4527d9a128bd49aa35", null ],
     [ "op_less", "structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement.html#a4af16ac8eed886b32caf5495c9f65a84", null ],
+    [ "op_not_equal", "structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement.html#af45a8a4b1810e2e6aacc34a7698e5bde", null ],
     [ "prev_id", "structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement.html#a0929d49ed729ac8ffad8d079c0d83635", null ],
     [ "prev_id_mut", "structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement.html#a8690faeb89e36e83dbc9daa2726f973e", null ],
     [ "set_id", "structmeshlib_1_1triangulation__helpers_1_1FanOptimizerQueueElement.html#a63469208490116e8a9a255f5a96c1ca9", null ],

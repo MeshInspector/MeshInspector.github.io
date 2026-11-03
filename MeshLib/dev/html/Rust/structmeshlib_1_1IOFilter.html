@@ -153,6 +153,12 @@ $(function(){initNavTree('structmeshlib_1_1IOFilter.html','','structmeshlib_1_1I
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa7b28ad6425d493c4f569ca53a6c2b35" id="r_aa7b28ad6425d493c4f569ca53a6c2b35"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7b28ad6425d493c4f569ca53a6c2b35">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a></td></tr>
+<tr class="memitem:ae8d8cb58b5983eb48e26b8ed6c477019" id="r_ae8d8cb58b5983eb48e26b8ed6c477019"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8d8cb58b5983eb48e26b8ed6c477019">op_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a>) const -&gt; bool</td></tr>
+<tr class="memitem:ad1faba7980a20313c83ca196bdfcff08" id="r_ad1faba7980a20313c83ca196bdfcff08"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1faba7980a20313c83ca196bdfcff08">op_not_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a>) const -&gt; bool</td></tr>
+<tr class="memitem:aedbcd7c72801428c9d4daa6c970d2c8c" id="r_aedbcd7c72801428c9d4daa6c970d2c8c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedbcd7c72801428c9d4daa6c970d2c8c">op_less</a> (_1:&amp;<a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a2301ec4ffacb346c6ed059b1c881c686" id="r_a2301ec4ffacb346c6ed059b1c881c686"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2301ec4ffacb346c6ed059b1c881c686">op_greater</a> (_1:&amp;<a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a6552718d3085f93d2c75aa116c743d98" id="r_a6552718d3085f93d2c75aa116c743d98"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6552718d3085f93d2c75aa116c743d98">op_less_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a383a455c2469a00f3d600781591129e1" id="r_a383a455c2469a00f3d600781591129e1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a383a455c2469a00f3d600781591129e1">op_greater_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a>) const -&gt; bool</td></tr>
 <tr class="memitem:a29517ec970dd7d4944424bfce8f681f1" id="r_a29517ec970dd7d4944424bfce8f681f1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29517ec970dd7d4944424bfce8f681f1">is_supported_extension</a> (ext:&amp;str) const -&gt; bool</td></tr>
 <tr class="memitem:a4586a9a58e54c0594b5a0ae894a13f8e" id="r_a4586a9a58e54c0594b5a0ae894a13f8e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4586a9a58e54c0594b5a0ae894a13f8e">name</a> () const -&gt; &amp;<a class="el" href="structmeshlib_1_1std__string.html">meshlib::std_string</a></td></tr>
 <tr class="memitem:a8f3de4aa9f966159c5868e2c7760c3ad" id="r_a8f3de4aa9f966159c5868e2c7760c3ad"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f3de4aa9f966159c5868e2c7760c3ad">name_mut</a> () -&gt; &amp;mut <a class="el" href="structmeshlib_1_1std__string.html">meshlib::std_string</a></td></tr>
@@ -371,6 +377,120 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructs an empty (default-constructed) instance.</p>
 <p>Calls <span class="tt">MR_IOFilter_DefaultConstruct()</span>. </p>
+
+</div>
+</div>
+<a id="ae8d8cb58b5983eb48e26b8ed6c477019" name="ae8d8cb58b5983eb48e26b8ed6c477019"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8d8cb58b5983eb48e26b8ed6c477019">&#9670;&#160;</a></span>op_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::IOFilter::op_equal </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::IOFilter::operator==</span>.</p>
+<p>Calls <span class="tt">MR_equal_MR_IOFilter()</span>. </p>
+
+</div>
+</div>
+<a id="a2301ec4ffacb346c6ed059b1c881c686" name="a2301ec4ffacb346c6ed059b1c881c686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2301ec4ffacb346c6ed059b1c881c686">&#9670;&#160;</a></span>op_greater()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::IOFilter::op_greater </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::IOFilter::operator&gt;</span>.</p>
+<p>Calls <span class="tt">MR_greater_MR_IOFilter()</span>. </p>
+
+</div>
+</div>
+<a id="a383a455c2469a00f3d600781591129e1" name="a383a455c2469a00f3d600781591129e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a383a455c2469a00f3d600781591129e1">&#9670;&#160;</a></span>op_greater_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::IOFilter::op_greater_equal </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::IOFilter::operator&gt;=</span>.</p>
+<p>Calls <span class="tt">MR_greater_equal_MR_IOFilter()</span>. </p>
+
+</div>
+</div>
+<a id="aedbcd7c72801428c9d4daa6c970d2c8c" name="aedbcd7c72801428c9d4daa6c970d2c8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedbcd7c72801428c9d4daa6c970d2c8c">&#9670;&#160;</a></span>op_less()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::IOFilter::op_less </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::IOFilter::operator&lt;</span>.</p>
+<p>Calls <span class="tt">MR_less_MR_IOFilter()</span>. </p>
+
+</div>
+</div>
+<a id="a6552718d3085f93d2c75aa116c743d98" name="a6552718d3085f93d2c75aa116c743d98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6552718d3085f93d2c75aa116c743d98">&#9670;&#160;</a></span>op_less_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::IOFilter::op_less_equal </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::IOFilter::operator&lt;=</span>.</p>
+<p>Calls <span class="tt">MR_less_equal_MR_IOFilter()</span>. </p>
+
+</div>
+</div>
+<a id="ad1faba7980a20313c83ca196bdfcff08" name="ad1faba7980a20313c83ca196bdfcff08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1faba7980a20313c83ca196bdfcff08">&#9670;&#160;</a></span>op_not_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::IOFilter::op_not_equal </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1IOFilter.html">meshlib::IOFilter</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::IOFilter::operator!=</span>.</p>
+<p>Calls <span class="tt">MR_not_equal_MR_IOFilter()</span>. </p>
 
 </div>
 </div>

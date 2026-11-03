@@ -2,6 +2,7 @@ var MRTripleFaceIntersections_8h =
 [
     [ "MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#a740ce925862132ce11f530430d5dda94", null ],
     [ "MR_std_vector_MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#abd79e78e95147ae5cbfc323abad5c758", null ],
+    [ "MR_equal_MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#ac88241219a2c83ab13c499094e074245", null ],
     [ "MR_FaceFaceFace_AssignFromAnother", "MRTripleFaceIntersections_8h.html#a7f2191cf88a47a18b81c157cf3c7bbbc", null ],
     [ "MR_FaceFaceFace_Construct", "MRTripleFaceIntersections_8h.html#a01c0cfaa26a42d8b4ff6a2919408080b", null ],
     [ "MR_FaceFaceFace_ConstructFromAnother", "MRTripleFaceIntersections_8h.html#a51806312db211445662f611906cd12f0", null ],
@@ -20,5 +21,10 @@ var MRTripleFaceIntersections_8h =
     [ "MR_FaceFaceFace_Set_aFace", "MRTripleFaceIntersections_8h.html#a446d74c4b129294cc2c39435fbd9ccd7", null ],
     [ "MR_FaceFaceFace_Set_bFace", "MRTripleFaceIntersections_8h.html#a294097b36abd848d38acec8f67751783", null ],
     [ "MR_FaceFaceFace_Set_cFace", "MRTripleFaceIntersections_8h.html#a7e5a88eedd9ef3b6fd3441100a36f8ed", null ],
-    [ "MR_findTripleFaceIntersections", "MRTripleFaceIntersections_8h.html#a2e81431c372c0122889a7fbb589b99e9", null ]
+    [ "MR_findTripleFaceIntersections", "MRTripleFaceIntersections_8h.html#a2e81431c372c0122889a7fbb589b99e9", null ],
+    [ "MR_greater_equal_MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#aa862ab3e180e2a21c30c4683f5d4699d", null ],
+    [ "MR_greater_MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#af88c87b00be09e3ea17be9aed76c106f", null ],
+    [ "MR_less_equal_MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#ae7f429222249b58c12468126d7eab4f3", null ],
+    [ "MR_less_MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#a4b555da12397aaa7beb8ee79dbe0741f", null ],
+    [ "MR_not_equal_MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#a843203dba3a543a8f2ff98334cee8fe0", null ]
 ];

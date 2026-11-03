@@ -1,15 +1,15 @@
 var classmrmeshpy_1_1DistanceVolumeParams =
 [
     [ "__init__", "classmrmeshpy_1_1DistanceVolumeParams.html#a801ce93d0335580484fba7db8d16a7dc", null ],
-    [ "__init__", "classmrmeshpy_1_1DistanceVolumeParams.html#a9dcf3a929ba42040250b1411b949e621", null ],
-    [ "__init__", "classmrmeshpy_1_1DistanceVolumeParams.html#a48d02a7fc2985193b63c3401dd61d0a2", null ],
-    [ "assign", "classmrmeshpy_1_1DistanceVolumeParams.html#a824b7d7c27cc1bf1f1de126944b3fd76", null ],
+    [ "__init__", "classmrmeshpy_1_1DistanceVolumeParams.html#a20acbc765d9111731acbf285f20179f1", null ],
+    [ "__init__", "classmrmeshpy_1_1DistanceVolumeParams.html#a6164125e4d8de25ae3fd7d965b4cd0ee", null ],
+    [ "assign", "classmrmeshpy_1_1DistanceVolumeParams.html#a0e90334e5e018f4bbfa1c8a3fd5ea971", null ],
     [ "cb", "classmrmeshpy_1_1DistanceVolumeParams.html#a6526721e35585ade7e4849b4ed258444", null ],
-    [ "cb", "classmrmeshpy_1_1DistanceVolumeParams.html#ae24934ac1813aad02cf2e584aaa69c4c", null ],
+    [ "cb", "classmrmeshpy_1_1DistanceVolumeParams.html#ad4ccfe1a2d36e9a98e139f6c597100c3", null ],
     [ "dimensions", "classmrmeshpy_1_1DistanceVolumeParams.html#a6703073864e0c2ad85ed35ab83035bdf", null ],
-    [ "dimensions", "classmrmeshpy_1_1DistanceVolumeParams.html#a34eed0e412dbb7ed925f879a054caec6", null ],
+    [ "dimensions", "classmrmeshpy_1_1DistanceVolumeParams.html#adc748a8bc0fca677d1e470cc115783ea", null ],
     [ "origin", "classmrmeshpy_1_1DistanceVolumeParams.html#a5d31c422a54b6e80fbd611364ae847cf", null ],
-    [ "origin", "classmrmeshpy_1_1DistanceVolumeParams.html#a74ae0c8dee23d66279a17c11e8e76e6c", null ],
+    [ "origin", "classmrmeshpy_1_1DistanceVolumeParams.html#ac997e1013d4172d3a443e242f3903216", null ],
     [ "voxelSize", "classmrmeshpy_1_1DistanceVolumeParams.html#ae3a8d525744439cb087452a9e2f54dbe", null ],
-    [ "voxelSize", "classmrmeshpy_1_1DistanceVolumeParams.html#a74ffcc80a803bc40786ac4fe3250ddbb", null ]
+    [ "voxelSize", "classmrmeshpy_1_1DistanceVolumeParams.html#a866e13bf781c9ea245eb9c51c7e00529", null ]
 ];

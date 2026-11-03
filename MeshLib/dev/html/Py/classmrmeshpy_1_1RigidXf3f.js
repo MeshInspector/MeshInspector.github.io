@@ -1,13 +1,11 @@
 var classmrmeshpy_1_1RigidXf3f =
 [
     [ "__init__", "classmrmeshpy_1_1RigidXf3f.html#a94101d095083f1aff95668d433edefa6", null ],
-    [ "__init__", "classmrmeshpy_1_1RigidXf3f.html#a555a4e4c281d0d28deb93127e5cfe510", null ],
-    [ "__init__", "classmrmeshpy_1_1RigidXf3f.html#a2ca8bdfd5766aa6ac286100a0bc2bbf2", null ],
+    [ "__init__", "classmrmeshpy_1_1RigidXf3f.html#a4b913ac959992969952168b77040960e", null ],
+    [ "__init__", "classmrmeshpy_1_1RigidXf3f.html#afdcd6dcb9c58ed903bbc15a2184ff5df", null ],
     [ "a", "classmrmeshpy_1_1RigidXf3f.html#a8d0641df792c9464cbf633f32d20a9fa", null ],
-    [ "a", "classmrmeshpy_1_1RigidXf3f.html#a7558ae582bebb7a6545188aae23b88bb", null ],
-    [ "assign", "classmrmeshpy_1_1RigidXf3f.html#abd33dd6c11ed5f5fb52e44958de70d91", null ],
+    [ "a", "classmrmeshpy_1_1RigidXf3f.html#a5489bf6a093bc77148be6aedc5a832d9", null ],
+    [ "assign", "classmrmeshpy_1_1RigidXf3f.html#a6dbe4799b7e1ada74bac20a74154a3ff", null ],
     [ "b", "classmrmeshpy_1_1RigidXf3f.html#aaf06d99be2f70d4b6de370c40e63b1d6", null ],
-    [ "b", "classmrmeshpy_1_1RigidXf3f.html#a5e4cd098d40427c3c454152a74b89a34", null ],
-    [ "linearXf", "classmrmeshpy_1_1RigidXf3f.html#a35fe5142890c3488c76fc528449df69a", null ],
-    [ "rigidXf", "classmrmeshpy_1_1RigidXf3f.html#a900008cc645ab8f5d18e5fc92f299e7f", null ]
+    [ "b", "classmrmeshpy_1_1RigidXf3f.html#ac2bbdf292f849a4e06df12742249b653", null ]
 ];

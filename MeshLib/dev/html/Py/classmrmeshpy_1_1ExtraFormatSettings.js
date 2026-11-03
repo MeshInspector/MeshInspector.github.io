@@ -1,7 +1,7 @@
 var classmrmeshpy_1_1ExtraFormatSettings =
 [
     [ "__init__", "classmrmeshpy_1_1ExtraFormatSettings.html#a4b059fef8db88fd12e763cab7085ce19", null ],
-    [ "__init__", "classmrmeshpy_1_1ExtraFormatSettings.html#ab6235dc709715ba0e27f983b695383ea", null ],
+    [ "__init__", "classmrmeshpy_1_1ExtraFormatSettings.html#a50fa7a987ccea11f325be7b702981c5c", null ],
     [ "__init__", "classmrmeshpy_1_1ExtraFormatSettings.html#a4b059fef8db88fd12e763cab7085ce19", null ],
-    [ "assign", "classmrmeshpy_1_1ExtraFormatSettings.html#a1173a33b583befd30b790de10d4f3a7a", null ]
+    [ "assign", "classmrmeshpy_1_1ExtraFormatSettings.html#a2cf3f921fcbda00491f7936b254f1d9c", null ]
 ];

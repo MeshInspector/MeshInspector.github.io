@@ -1,9 +1,9 @@
 var classmrmeshpy_1_1ZlibCompressStats =
 [
     [ "__init__", "classmrmeshpy_1_1ZlibCompressStats.html#a90bc04e388a3b7e56ed1c9cb9c66cf85", null ],
-    [ "__init__", "classmrmeshpy_1_1ZlibCompressStats.html#a9e614be5484a11539e476636e0812fa1", null ],
+    [ "__init__", "classmrmeshpy_1_1ZlibCompressStats.html#a557b513e5fd5ccffe97fb91dcca57b74", null ],
     [ "__init__", "classmrmeshpy_1_1ZlibCompressStats.html#adb5e4c6056ae15e6a016dd617a6ca785", null ],
-    [ "assign", "classmrmeshpy_1_1ZlibCompressStats.html#a6ab5a13f141f0a68d3aa1004a01983a0", null ],
+    [ "assign", "classmrmeshpy_1_1ZlibCompressStats.html#a981a414af7758dbb2835fb95948de413", null ],
     [ "compressedSize", "classmrmeshpy_1_1ZlibCompressStats.html#a68579c4c50aa25691b31217952345f2c", null ],
     [ "compressedSize", "classmrmeshpy_1_1ZlibCompressStats.html#a082843389c9d78cd252a10296368f654", null ],
     [ "crc32", "classmrmeshpy_1_1ZlibCompressStats.html#a274888b237e435038560681936154208", null ],

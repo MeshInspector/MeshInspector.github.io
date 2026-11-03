@@ -192,6 +192,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a2158dedfda0ef58a3bf2baf67c25ce19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:ab04117ae470aefcad523d6491c602d57" id="r_ab04117ae470aefcad523d6491c602d57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab04117ae470aefcad523d6491c602d57">MR_ChunkIterator_AssignFromAnother</a> (<a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *_this, const <a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *_other)</td></tr>
 <tr class="memitem:a529085e4bbfa58e55a968be3336ef889" id="r_a529085e4bbfa58e55a968be3336ef889"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a529085e4bbfa58e55a968be3336ef889">MR_equal_MR_ChunkIterator</a> (const <a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *_this, const <a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *other)</td></tr>
+<tr class="memitem:abda78968b2bd88aade300e8b96408b25" id="r_abda78968b2bd88aade300e8b96408b25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abda78968b2bd88aade300e8b96408b25">MR_not_equal_MR_ChunkIterator</a> (const <a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *_this, const <a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *other)</td></tr>
 <tr class="memitem:ad75f9e9ee7cd56fb66248ec9c187368c" id="r_ad75f9e9ee7cd56fb66248ec9c187368c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad75f9e9ee7cd56fb66248ec9c187368c">MR_incr_MR_ChunkIterator</a> (<a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *_this)</td></tr>
 <tr class="memitem:a339688755ae103527d862e618d96d87e" id="r_a339688755ae103527d862e618d96d87e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a339688755ae103527d862e618d96d87e">MR_post_incr_MR_ChunkIterator</a> (<a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *_this)</td></tr>
 <tr class="memitem:af5d34485827c5b5529ec0cc58bb41fa3" id="r_af5d34485827c5b5529ec0cc58bb41fa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9c3852fda9fab3637ddd459600e307fc">MR_Chunk</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5d34485827c5b5529ec0cc58bb41fa3">MR_deref_MR_ChunkIterator</a> (const <a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *_this)</td></tr>
@@ -1065,6 +1066,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::ChunkIterator::operator++</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="abda78968b2bd88aade300e8b96408b25" name="abda78968b2bd88aade300e8b96408b25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abda78968b2bd88aade300e8b96408b25">&#9670;&#160;</a></span>MR_not_equal_MR_ChunkIterator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_ChunkIterator </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad9382f027a2465861120f341711dbcd2">MR_ChunkIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::ChunkIterator::operator!=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">other</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

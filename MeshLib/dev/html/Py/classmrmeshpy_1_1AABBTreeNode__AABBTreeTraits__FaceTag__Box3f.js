@@ -1,15 +1,13 @@
 var classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f =
 [
     [ "__init__", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a5aaa062a9a1344f41c4b7ba08ed91275", null ],
-    [ "__init__", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#adc479202607ec2e69d493f3859e6dd45", null ],
-    [ "assign", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a182631b9da32f4768363c6017042de15", null ],
+    [ "__init__", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a75c46eab5058c212f1ccb54702a35a89", null ],
+    [ "assign", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#ac9db3e239c1005c076ab9572330a0f73", null ],
     [ "box", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a0358ff3b4e6aa9ddf21f9167a3e97841", null ],
-    [ "box", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#afc6d0b76839f2d10933cf919d2bba70a", null ],
+    [ "box", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a17af56e22960a7bedb0e2c7fc9295235", null ],
     [ "l", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a567a1167d90ee826731f81ee1e88988b", null ],
-    [ "l", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#ae0be6aa461d1e30e3a2bc4ff911733cd", null ],
-    [ "leaf", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a5a142335c42a16673124cc02ddaa0c19", null ],
-    [ "leafId", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#abe4af2fe3ea175830d1f49a36561eece", null ],
+    [ "l", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#aed32fb8f686a9fe0aa073fce56ac634f", null ],
     [ "r", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#ab3d1ae66dfcf0c0183bd881c7f4665ae", null ],
-    [ "r", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#a4822d690a8a0403bdfdda8137a8d7619", null ],
-    [ "setLeafId", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#ad089b4a882b9f40f9e960f9bd10ac0db", null ]
+    [ "r", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#af4d5f9522ee6e09b256f8684d101a8ce", null ],
+    [ "setLeafId", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__FaceTag__Box3f.html#ae6b82c8ce4c580bac448ca4fe29bead0", null ]
 ];

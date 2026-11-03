@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1PointOnObject.html":[9,0,0,19,465],
+"structMR_1_1PointPair.html":[9,0,0,19,295],
+"structMR_1_1PointPairs.html":[9,0,0,19,297],
+"structMR_1_1PointsLoadSettings.html":[9,0,0,19,466],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html":[9,0,1,0,1,36,0],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html":[9,0,2,0,1,22,0],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html#a31953063230a5946da3ef8ae3169b629":[9,0,1,0,1,36,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1SceneLoad_1_1Result.html#aae5ebe12ef215f5866a7b1e6e8d59818":[9,0,2,0,1,29,0,3],
 "structMR_1_1SceneLoad_1_1Settings.html":[9,0,1,0,1,46,1],
 "structMR_1_1SceneLoad_1_1Settings.html":[9,0,2,0,1,29,1],
-"structMR_1_1SceneLoad_1_1Settings.html#a01397df55967ecaab97eaba28056aaf9":[9,0,1,0,1,46,1,0],
-"structMR_1_1SceneLoad_1_1Settings.html#a01397df55967ecaab97eaba28056aaf9":[9,0,2,0,1,29,1,0],
-"structMR_1_1SceneLoad_1_1Settings.html#ac5c932854de305eb8458df1d84eee28a":[9,0,1,0,1,46,1,2],
-"structMR_1_1SceneLoad_1_1Settings.html#ac5c932854de305eb8458df1d84eee28a":[9,0,2,0,1,29,1,2],
-"structMR_1_1SceneLoad_1_1Settings.html#aeefaeaf2dac0299fbdece77fe19bd751":[9,0,1,0,1,46,1,1]
+"structMR_1_1SceneLoad_1_1Settings.html#a01397df55967ecaab97eaba28056aaf9":[9,0,1,0,1,46,1,0]
 };

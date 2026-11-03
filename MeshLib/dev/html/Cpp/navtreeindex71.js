@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[9,0,1,0,1,52,14,0],
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[9,0,2,0,1,34,12,0],
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[9,0,1,0,1,52,14,0,0],
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[9,0,2,0,1,34,12,0,0],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[9,0,1,0,1,52,14,0,1],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[9,0,2,0,1,34,12,0,1],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a97ed99b906b672210756ad692b5a3a2a":[9,0,1,0,1,52,14,0,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1VoxelsLoad_1_1RawParameters.html#a69214b3d1697f4864e145aa2b9802cea":[9,0,1,0,1,55,3,2],
 "structMR_1_1VoxelsLoad_1_1RawParameters.html#a69214b3d1697f4864e145aa2b9802cea":[9,0,2,0,1,35,3,2],
 "structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2":[9,0,1,0,1,55,3,0],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2":[9,0,2,0,1,35,3,0],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd":[9,0,1,0,1,55,3,3],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd":[9,0,2,0,1,35,3,3],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html":[9,0,1,0,1,56,0],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html":[9,0,2,0,1,36,0]
+"structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2":[9,0,2,0,1,35,3,0]
 };

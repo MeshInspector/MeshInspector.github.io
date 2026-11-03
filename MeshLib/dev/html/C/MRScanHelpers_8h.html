@@ -138,6 +138,7 @@ $(function(){initNavTree('MRScanHelpers_8h.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRScanHelpers_8h_source.html">Go to the source code of this file.</a></p>
@@ -168,6 +169,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a851722175b779567adc09b543ded427f" id="r_a851722175b779567adc09b543ded427f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a851722175b779567adc09b543ded427f">MR_SliceInfoBase_DestroyArray</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this)</td></tr>
 <tr class="memdesc:a851722175b779567adc09b543ded427f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a07cab1e1557315b4e19f081fe1795d8b" id="r_a07cab1e1557315b4e19f081fe1795d8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07cab1e1557315b4e19f081fe1795d8b">MR_SliceInfoBase_AssignFromAnother</a> (<a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_other)</td></tr>
+<tr class="memitem:a5f9f8127f95f527c73c4ce70d6897f78" id="r_a5f9f8127f95f527c73c4ce70d6897f78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f9f8127f95f527c73c4ce70d6897f78">MR_equal_MR_SliceInfoBase</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
+<tr class="memitem:aa6cd81866091fb239e873c50c9f74013" id="r_aa6cd81866091fb239e873c50c9f74013"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6cd81866091fb239e873c50c9f74013">MR_not_equal_MR_SliceInfoBase</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
+<tr class="memitem:a4a666523e9d18bf44d45885893fa4ee8" id="r_a4a666523e9d18bf44d45885893fa4ee8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a666523e9d18bf44d45885893fa4ee8">MR_less_MR_SliceInfoBase</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
+<tr class="memitem:ab49259995c33817798b6002b09dea9e6" id="r_ab49259995c33817798b6002b09dea9e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab49259995c33817798b6002b09dea9e6">MR_greater_MR_SliceInfoBase</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
+<tr class="memitem:a43a31b7132a19027af942fd4e60fb8ea" id="r_a43a31b7132a19027af942fd4e60fb8ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43a31b7132a19027af942fd4e60fb8ea">MR_less_equal_MR_SliceInfoBase</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
+<tr class="memitem:a025c1166530c3f5e74db317a0c24ad0a" id="r_a025c1166530c3f5e74db317a0c24ad0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a025c1166530c3f5e74db317a0c24ad0a">MR_greater_equal_MR_SliceInfoBase</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
 <tr class="memitem:acd6b5c574cd4a0641d986befcd2b088b" id="r_acd6b5c574cd4a0641d986befcd2b088b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd6b5c574cd4a0641d986befcd2b088b">MR_SliceInfo_Get_imagePos</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this)</td></tr>
 <tr class="memitem:a04db92e829095c04ced1440882086f47" id="r_a04db92e829095c04ced1440882086f47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04db92e829095c04ced1440882086f47">MR_SliceInfo_Set_imagePos</a> (<a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> value)</td></tr>
 <tr class="memitem:abf9730ed2c4e90b01100cd90c652c2c3" id="r_abf9730ed2c4e90b01100cd90c652c2c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf9730ed2c4e90b01100cd90c652c2c3">MR_SliceInfo_GetMutable_imagePos</a> (<a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this)</td></tr>
@@ -194,6 +201,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a3c26087d0bfb439895bc086edf7eb0b8" id="r_a3c26087d0bfb439895bc086edf7eb0b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c26087d0bfb439895bc086edf7eb0b8">MR_SliceInfo_DestroyArray</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this)</td></tr>
 <tr class="memdesc:a3c26087d0bfb439895bc086edf7eb0b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a4d4f812d4295badc4e4e36f754b7ecba" id="r_a4d4f812d4295badc4e4e36f754b7ecba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d4f812d4295badc4e4e36f754b7ecba">MR_SliceInfo_AssignFromAnother</a> (<a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_other)</td></tr>
+<tr class="memitem:a7dd16ccbeb5b9ce8d66222397e76d8a3" id="r_a7dd16ccbeb5b9ce8d66222397e76d8a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dd16ccbeb5b9ce8d66222397e76d8a3">MR_equal_MR_SliceInfo_MR_SliceInfoBase</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
+<tr class="memitem:af13567366b5f5f808fe48182cb6d79d7" id="r_af13567366b5f5f808fe48182cb6d79d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af13567366b5f5f808fe48182cb6d79d7">MR_not_equal_MR_SliceInfo_MR_SliceInfoBase</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
+<tr class="memitem:a0b76876bd609f479c6d7abe5a473f61a" id="r_a0b76876bd609f479c6d7abe5a473f61a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b76876bd609f479c6d7abe5a473f61a">MR_less_MR_SliceInfo_MR_SliceInfoBase</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
+<tr class="memitem:adc30400e437b56311b084c2a75f85895" id="r_adc30400e437b56311b084c2a75f85895"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc30400e437b56311b084c2a75f85895">MR_greater_MR_SliceInfo_MR_SliceInfoBase</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
+<tr class="memitem:a5ed47a96386d670807258ab6cc0a8993" id="r_a5ed47a96386d670807258ab6cc0a8993"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ed47a96386d670807258ab6cc0a8993">MR_less_equal_MR_SliceInfo_MR_SliceInfoBase</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
+<tr class="memitem:aea19fa8d603c7577f4d34c60a3460ab4" id="r_aea19fa8d603c7577f4d34c60a3460ab4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea19fa8d603c7577f4d34c60a3460ab4">MR_greater_equal_MR_SliceInfo_MR_SliceInfoBase</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
 <tr class="memitem:a612a3a2244de5d9464e79d6e69a50b03" id="r_a612a3a2244de5d9464e79d6e69a50b03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a612a3a2244de5d9464e79d6e69a50b03">MR_sortScansByOrder</a> (<a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *scans, <a class="el" href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a> *zOrder)</td></tr>
 <tr class="memitem:abb537722b31d589081be6fa2a6198f33" id="r_abb537722b31d589081be6fa2a6198f33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb537722b31d589081be6fa2a6198f33">MR_putScanFileNameInZ</a> (const <a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *scans, <a class="el" href="std__vector__MR__SliceInfo_8h.html#a771ba5022befbb504ac90050d525a465">MR_std_vector_MR_SliceInfo</a> *zOrder)</td></tr>
 <tr class="memitem:a774fb9769bd3fd586496af74fe82d048" id="r_a774fb9769bd3fd586496af74fe82d048"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a774fb9769bd3fd586496af74fe82d048">MR_sortScanFilesByName</a> (<a class="el" href="MRSceneLoad_8h.html#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *scans)</td></tr>
@@ -215,6 +228,270 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a7dd16ccbeb5b9ce8d66222397e76d8a3" name="a7dd16ccbeb5b9ce8d66222397e76d8a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dd16ccbeb5b9ce8d66222397e76d8a3">&#9670;&#160;</a></span>MR_equal_MR_SliceInfo_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_equal_MR_SliceInfo_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfo::operator==</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a5f9f8127f95f527c73c4ce70d6897f78" name="a5f9f8127f95f527c73c4ce70d6897f78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f9f8127f95f527c73c4ce70d6897f78">&#9670;&#160;</a></span>MR_equal_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_equal_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfoBase::operator==</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aea19fa8d603c7577f4d34c60a3460ab4" name="aea19fa8d603c7577f4d34c60a3460ab4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea19fa8d603c7577f4d34c60a3460ab4">&#9670;&#160;</a></span>MR_greater_equal_MR_SliceInfo_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_equal_MR_SliceInfo_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfo::operator&gt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a025c1166530c3f5e74db317a0c24ad0a" name="a025c1166530c3f5e74db317a0c24ad0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a025c1166530c3f5e74db317a0c24ad0a">&#9670;&#160;</a></span>MR_greater_equal_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_equal_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfoBase::operator&gt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="adc30400e437b56311b084c2a75f85895" name="adc30400e437b56311b084c2a75f85895"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc30400e437b56311b084c2a75f85895">&#9670;&#160;</a></span>MR_greater_MR_SliceInfo_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_MR_SliceInfo_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfo::operator&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ab49259995c33817798b6002b09dea9e6" name="ab49259995c33817798b6002b09dea9e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab49259995c33817798b6002b09dea9e6">&#9670;&#160;</a></span>MR_greater_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfoBase::operator&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a5ed47a96386d670807258ab6cc0a8993" name="a5ed47a96386d670807258ab6cc0a8993"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ed47a96386d670807258ab6cc0a8993">&#9670;&#160;</a></span>MR_less_equal_MR_SliceInfo_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_equal_MR_SliceInfo_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfo::operator&lt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a43a31b7132a19027af942fd4e60fb8ea" name="a43a31b7132a19027af942fd4e60fb8ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43a31b7132a19027af942fd4e60fb8ea">&#9670;&#160;</a></span>MR_less_equal_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_equal_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfoBase::operator&lt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a0b76876bd609f479c6d7abe5a473f61a" name="a0b76876bd609f479c6d7abe5a473f61a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b76876bd609f479c6d7abe5a473f61a">&#9670;&#160;</a></span>MR_less_MR_SliceInfo_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_MR_SliceInfo_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfo::operator&lt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a4a666523e9d18bf44d45885893fa4ee8" name="a4a666523e9d18bf44d45885893fa4ee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a666523e9d18bf44d45885893fa4ee8">&#9670;&#160;</a></span>MR_less_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfoBase::operator&lt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="af13567366b5f5f808fe48182cb6d79d7" name="af13567366b5f5f808fe48182cb6d79d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af13567366b5f5f808fe48182cb6d79d7">&#9670;&#160;</a></span>MR_not_equal_MR_SliceInfo_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_SliceInfo_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfo::operator!=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aa6cd81866091fb239e873c50c9f74013" name="aa6cd81866091fb239e873c50c9f74013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6cd81866091fb239e873c50c9f74013">&#9670;&#160;</a></span>MR_not_equal_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfoBase::operator!=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="abb537722b31d589081be6fa2a6198f33" name="abb537722b31d589081be6fa2a6198f33"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abb537722b31d589081be6fa2a6198f33">&#9670;&#160;</a></span>MR_putScanFileNameInZ()</h2>
 

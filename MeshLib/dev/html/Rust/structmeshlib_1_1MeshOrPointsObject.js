@@ -7,6 +7,7 @@ var structmeshlib_1_1MeshOrPointsObject =
     [ "get", "structmeshlib_1_1MeshOrPointsObject.html#a8b3d4ed589f5dbac2cd27e148e1a075c", null ],
     [ "mesh_or_points", "structmeshlib_1_1MeshOrPointsObject.html#a6d7433eca781d05e68b12a3866bcba74", null ],
     [ "op_equal_std_shared_ptr_mr_visual_object", "structmeshlib_1_1MeshOrPointsObject.html#a548a2b32334a15ece6a3e7ae8cee75f1", null ],
+    [ "op_not_equal_std_shared_ptr_mr_visual_object", "structmeshlib_1_1MeshOrPointsObject.html#ab37fbd31b47d6b17daee7964eeae29f8", null ],
     [ "reset", "structmeshlib_1_1MeshOrPointsObject.html#a97c52324f59acba106435f640d69b222", null ],
     [ "set_std_shared_ptr_mr_object_mesh", "structmeshlib_1_1MeshOrPointsObject.html#aa1aa151a6657739b142864bd3faa90ba", null ],
     [ "set_std_shared_ptr_mr_object_points", "structmeshlib_1_1MeshOrPointsObject.html#a75511286f3b175a73c230c043d5f2275", null ]

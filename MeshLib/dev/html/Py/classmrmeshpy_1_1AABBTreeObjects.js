@@ -1,11 +1,7 @@
 var classmrmeshpy_1_1AABBTreeObjects =
 [
     [ "__init__", "classmrmeshpy_1_1AABBTreeObjects.html#ac168a4c4f22ba17055e5b8d362f5953a", null ],
-    [ "__init__", "classmrmeshpy_1_1AABBTreeObjects.html#afe3838dda5077ff51003501adb2064ec", null ],
-    [ "__init__", "classmrmeshpy_1_1AABBTreeObjects.html#a25789b4c40280c570eb8084a7971de1c", null ],
-    [ "assign", "classmrmeshpy_1_1AABBTreeObjects.html#aec1a38325b0def5f5ea4cb100844361a", null ],
-    [ "obj", "classmrmeshpy_1_1AABBTreeObjects.html#aeb662569a6795d0dbd9a701317a90fdc", null ],
-    [ "toLocal", "classmrmeshpy_1_1AABBTreeObjects.html#a3ebb3a71fc3337d138be9f41b0810c67", null ],
-    [ "toLocal", "classmrmeshpy_1_1AABBTreeObjects.html#a603d0639b01f81447e1f6047979e1822", null ],
-    [ "toWorld", "classmrmeshpy_1_1AABBTreeObjects.html#a112b93355570184f6e8395cb63ad9cc1", null ]
+    [ "__init__", "classmrmeshpy_1_1AABBTreeObjects.html#aaecea2bc7dea2cea57a30c33fb7fa1f8", null ],
+    [ "__init__", "classmrmeshpy_1_1AABBTreeObjects.html#a9415ab86a244419e72801de893247a75", null ],
+    [ "assign", "classmrmeshpy_1_1AABBTreeObjects.html#a8faada7439546f8f77ed5cfcf1ae429a", null ]
 ];

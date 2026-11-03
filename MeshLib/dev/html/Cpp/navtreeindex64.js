@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[9,0,0,10,0,13],
+"structMR_1_1DecimateSettings.html#afc72ed6f7c868487d053596c86220d6f":[9,0,0,10,0,16],
+"structMR_1_1DeloneFlipsCache.html":[9,0,1,0,1,215],
+"structMR_1_1DeloneFlipsCache.html":[9,0,2,0,1,195],
 "structMR_1_1DeloneFlipsCache.html#a238e6b49d80746fc39866fa132c510d3":[9,0,1,0,1,215,3],
 "structMR_1_1DeloneFlipsCache.html#a238e6b49d80746fc39866fa132c510d3":[9,0,2,0,1,195,3],
 "structMR_1_1DeloneFlipsCache.html#a3a1a1bc0543a674c264e79c91353b0c6":[9,0,1,0,1,215,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1FixUndercuts_1_1FixParams.html":[9,0,0,19,869],
 "structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[9,0,0,19,870],
 "structMR_1_1FlatTree.html":[9,0,0,19,728],
-"structMR_1_1FlowAggregator_1_1Flows.html":[9,0,0,19,125],
-"structMR_1_1FlowOrigin.html":[9,0,0,19,122],
-"structMR_1_1FontLoadSettings.html":[9,0,0,19,696],
-"structMR_1_1FramebufferData_1_1DrawParams.html":[9,0,0,19,676],
-"structMR_1_1GCommand.html":[9,0,0,19,914]
+"structMR_1_1FlowAggregator_1_1Flows.html":[9,0,0,19,125]
 };

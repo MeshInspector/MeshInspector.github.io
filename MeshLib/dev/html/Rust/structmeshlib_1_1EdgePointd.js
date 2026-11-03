@@ -14,6 +14,7 @@ var structmeshlib_1_1EdgePointd =
     [ "is_bd", "structmeshlib_1_1EdgePointd.html#ae123929ff4a7a3e5179c514a45f23629", null ],
     [ "move_to_closest_vertex", "structmeshlib_1_1EdgePointd.html#a16f465af1afd9484d41df8dd2840eeed", null ],
     [ "op_equal", "structmeshlib_1_1EdgePointd.html#ac922d6064315f7b96cc11fc86f818818", null ],
+    [ "op_not_equal", "structmeshlib_1_1EdgePointd.html#ab6e159c4f647f9ba0028f8a86878190f", null ],
     [ "set_a", "structmeshlib_1_1EdgePointd.html#ae8e14e1c7ade83c3d4ac50dfbdeb4762", null ],
     [ "set_e", "structmeshlib_1_1EdgePointd.html#aa5bbee0e658a87a9f941a21442a0d9b2", null ],
     [ "sym", "structmeshlib_1_1EdgePointd.html#a4ede92e45c51601f4bfadbabd04aa67f", null ],

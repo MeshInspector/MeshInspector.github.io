@@ -11,6 +11,7 @@ var classmeshlib_1_1EdgeSegmentd =
     [ "edgePointA", "classmeshlib_1_1EdgeSegmentd.html#accc8d2b634510193c31397d6c4cd8b89", null ],
     [ "edgePointB", "classmeshlib_1_1EdgeSegmentd.html#a1edec2cfda433d3e1a6db8fe9071c563", null ],
     [ "opEqual", "classmeshlib_1_1EdgeSegmentd.html#ac77f672f456b85fbe698a89d6f9edce4", null ],
+    [ "opNotEqual", "classmeshlib_1_1EdgeSegmentd.html#a29e45bb1a24eabc6b5be34e035205a1e", null ],
     [ "setA", "classmeshlib_1_1EdgeSegmentd.html#a832477059f247cf6b3176b36b3855cb6", null ],
     [ "setB", "classmeshlib_1_1EdgeSegmentd.html#aff7c1237c775e8b4e5b370e75de4850f", null ],
     [ "setE", "classmeshlib_1_1EdgeSegmentd.html#ae3ed5ecef5a3c511f0b245b95e55a5f3", null ],

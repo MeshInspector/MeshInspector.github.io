@@ -138,6 +138,7 @@ $(function(){initNavTree('MRFaceFace_8h.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRFaceFace_8h_source.html">Go to the source code of this file.</a></p>
@@ -166,6 +167,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a241b6e499b40a3bfd854f687f9aba0a6" id="r_a241b6e499b40a3bfd854f687f9aba0a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a241b6e499b40a3bfd854f687f9aba0a6">MR_FaceFace_DestroyArray</a> (const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *_this)</td></tr>
 <tr class="memdesc:a241b6e499b40a3bfd854f687f9aba0a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:ae1332ebe7a8b39e4c6360a6daf0c8703" id="r_ae1332ebe7a8b39e4c6360a6daf0c8703"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1332ebe7a8b39e4c6360a6daf0c8703">MR_FaceFace_AssignFromAnother</a> (<a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *_this, const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *_other)</td></tr>
+<tr class="memitem:abfa6cb4712fe8ce0556d103d401260ce" id="r_abfa6cb4712fe8ce0556d103d401260ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfa6cb4712fe8ce0556d103d401260ce">MR_equal_MR_FaceFace</a> (const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *_this, const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *rhs)</td></tr>
+<tr class="memitem:ab31530a7ce1a0a93cbaf8c576d5620c2" id="r_ab31530a7ce1a0a93cbaf8c576d5620c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab31530a7ce1a0a93cbaf8c576d5620c2">MR_not_equal_MR_FaceFace</a> (const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *_this, const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *rhs)</td></tr>
+<tr class="memitem:ad476afa1a7da31a269bd8e01b19dbd6c" id="r_ad476afa1a7da31a269bd8e01b19dbd6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad476afa1a7da31a269bd8e01b19dbd6c">MR_less_MR_FaceFace</a> (const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *_this, const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *rhs)</td></tr>
+<tr class="memitem:a7dc89a7473b5a742c72e8e503e0d28f7" id="r_a7dc89a7473b5a742c72e8e503e0d28f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dc89a7473b5a742c72e8e503e0d28f7">MR_greater_MR_FaceFace</a> (const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *_this, const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *rhs)</td></tr>
+<tr class="memitem:aa4834df783e3d6ac3b17190444abf3e1" id="r_aa4834df783e3d6ac3b17190444abf3e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4834df783e3d6ac3b17190444abf3e1">MR_less_equal_MR_FaceFace</a> (const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *_this, const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *rhs)</td></tr>
+<tr class="memitem:aa782e1fb5371a20322a3d43e8936861c" id="r_aa782e1fb5371a20322a3d43e8936861c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa782e1fb5371a20322a3d43e8936861c">MR_greater_equal_MR_FaceFace</a> (const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *_this, const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *rhs)</td></tr>
 <tr class="memitem:a5dc75729a1dd5e7f21d7cb7e09af76b9" id="r_a5dc75729a1dd5e7f21d7cb7e09af76b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dc75729a1dd5e7f21d7cb7e09af76b9">MR_UndirectedEdgeUndirectedEdge_Get_aUndirEdge</a> (const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *_this)</td></tr>
 <tr class="memitem:a87f102bce3ea95377ec42ff469a12d94" id="r_a87f102bce3ea95377ec42ff469a12d94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87f102bce3ea95377ec42ff469a12d94">MR_UndirectedEdgeUndirectedEdge_Set_aUndirEdge</a> (<a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *_this, <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> value)</td></tr>
 <tr class="memitem:adfbc854c713d31fc4fc585b2f9d77aac" id="r_adfbc854c713d31fc4fc585b2f9d77aac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfbc854c713d31fc4fc585b2f9d77aac">MR_UndirectedEdgeUndirectedEdge_GetMutable_aUndirEdge</a> (<a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *_this)</td></tr>
@@ -183,6 +190,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ad79f0cd27aca4c9f88fcfdf1ec29e771" id="r_ad79f0cd27aca4c9f88fcfdf1ec29e771"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad79f0cd27aca4c9f88fcfdf1ec29e771">MR_UndirectedEdgeUndirectedEdge_DestroyArray</a> (const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *_this)</td></tr>
 <tr class="memdesc:ad79f0cd27aca4c9f88fcfdf1ec29e771"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:accadf4b200f88a329804cf81eec06081" id="r_accadf4b200f88a329804cf81eec06081"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accadf4b200f88a329804cf81eec06081">MR_UndirectedEdgeUndirectedEdge_AssignFromAnother</a> (<a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *_this, const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *_other)</td></tr>
+<tr class="memitem:a89c5544a95b5bfa350daa248f4a6ff4c" id="r_a89c5544a95b5bfa350daa248f4a6ff4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89c5544a95b5bfa350daa248f4a6ff4c">MR_equal_MR_UndirectedEdgeUndirectedEdge</a> (const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *_this, const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *rhs)</td></tr>
+<tr class="memitem:aef9897386d3bdf6d833ce193c85269c3" id="r_aef9897386d3bdf6d833ce193c85269c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef9897386d3bdf6d833ce193c85269c3">MR_not_equal_MR_UndirectedEdgeUndirectedEdge</a> (const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *_this, const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *rhs)</td></tr>
+<tr class="memitem:a9e8de91463a06b1ec6a80b1764b47a64" id="r_a9e8de91463a06b1ec6a80b1764b47a64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e8de91463a06b1ec6a80b1764b47a64">MR_less_MR_UndirectedEdgeUndirectedEdge</a> (const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *_this, const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *rhs)</td></tr>
+<tr class="memitem:aff64858ed4e20603ea5b8ac7250e37c8" id="r_aff64858ed4e20603ea5b8ac7250e37c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff64858ed4e20603ea5b8ac7250e37c8">MR_greater_MR_UndirectedEdgeUndirectedEdge</a> (const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *_this, const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *rhs)</td></tr>
+<tr class="memitem:a5d5288d2ea5e182b06f9a30f1984e942" id="r_a5d5288d2ea5e182b06f9a30f1984e942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d5288d2ea5e182b06f9a30f1984e942">MR_less_equal_MR_UndirectedEdgeUndirectedEdge</a> (const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *_this, const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *rhs)</td></tr>
+<tr class="memitem:a240a3cd0525499e9b24c052e723299c7" id="r_a240a3cd0525499e9b24c052e723299c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a240a3cd0525499e9b24c052e723299c7">MR_greater_equal_MR_UndirectedEdgeUndirectedEdge</a> (const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *_this, const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *rhs)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a3adc232a1bd3f56864f810f00d984ae1" name="a3adc232a1bd3f56864f810f00d984ae1"></a>
@@ -216,6 +229,50 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="abfa6cb4712fe8ce0556d103d401260ce" name="abfa6cb4712fe8ce0556d103d401260ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfa6cb4712fe8ce0556d103d401260ce">&#9670;&#160;</a></span>MR_equal_MR_FaceFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_equal_MR_FaceFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFace::operator==</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a89c5544a95b5bfa350daa248f4a6ff4c" name="a89c5544a95b5bfa350daa248f4a6ff4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89c5544a95b5bfa350daa248f4a6ff4c">&#9670;&#160;</a></span>MR_equal_MR_UndirectedEdgeUndirectedEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_equal_MR_UndirectedEdgeUndirectedEdge </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::UndirectedEdgeUndirectedEdge::operator==</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="ae1332ebe7a8b39e4c6360a6daf0c8703" name="ae1332ebe7a8b39e4c6360a6daf0c8703"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae1332ebe7a8b39e4c6360a6daf0c8703">&#9670;&#160;</a></span>MR_FaceFace_AssignFromAnother()</h2>
 
@@ -509,6 +566,226 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Modifies a member variable of class <span class="tt">MR::FaceFace</span> named <span class="tt">bFace</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">bFace</span>. When this function is called, this object will drop object references it held previously in <span class="tt">bFace</span>. </p>
+
+</div>
+</div>
+<a id="aa782e1fb5371a20322a3d43e8936861c" name="aa782e1fb5371a20322a3d43e8936861c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa782e1fb5371a20322a3d43e8936861c">&#9670;&#160;</a></span>MR_greater_equal_MR_FaceFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_equal_MR_FaceFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFace::operator&gt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a240a3cd0525499e9b24c052e723299c7" name="a240a3cd0525499e9b24c052e723299c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a240a3cd0525499e9b24c052e723299c7">&#9670;&#160;</a></span>MR_greater_equal_MR_UndirectedEdgeUndirectedEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_equal_MR_UndirectedEdgeUndirectedEdge </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::UndirectedEdgeUndirectedEdge::operator&gt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a7dc89a7473b5a742c72e8e503e0d28f7" name="a7dc89a7473b5a742c72e8e503e0d28f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dc89a7473b5a742c72e8e503e0d28f7">&#9670;&#160;</a></span>MR_greater_MR_FaceFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_MR_FaceFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFace::operator&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aff64858ed4e20603ea5b8ac7250e37c8" name="aff64858ed4e20603ea5b8ac7250e37c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff64858ed4e20603ea5b8ac7250e37c8">&#9670;&#160;</a></span>MR_greater_MR_UndirectedEdgeUndirectedEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_greater_MR_UndirectedEdgeUndirectedEdge </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::UndirectedEdgeUndirectedEdge::operator&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aa4834df783e3d6ac3b17190444abf3e1" name="aa4834df783e3d6ac3b17190444abf3e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4834df783e3d6ac3b17190444abf3e1">&#9670;&#160;</a></span>MR_less_equal_MR_FaceFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_equal_MR_FaceFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFace::operator&lt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a5d5288d2ea5e182b06f9a30f1984e942" name="a5d5288d2ea5e182b06f9a30f1984e942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d5288d2ea5e182b06f9a30f1984e942">&#9670;&#160;</a></span>MR_less_equal_MR_UndirectedEdgeUndirectedEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_equal_MR_UndirectedEdgeUndirectedEdge </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::UndirectedEdgeUndirectedEdge::operator&lt;=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ad476afa1a7da31a269bd8e01b19dbd6c" name="ad476afa1a7da31a269bd8e01b19dbd6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad476afa1a7da31a269bd8e01b19dbd6c">&#9670;&#160;</a></span>MR_less_MR_FaceFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_MR_FaceFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFace::operator&lt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a9e8de91463a06b1ec6a80b1764b47a64" name="a9e8de91463a06b1ec6a80b1764b47a64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e8de91463a06b1ec6a80b1764b47a64">&#9670;&#160;</a></span>MR_less_MR_UndirectedEdgeUndirectedEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_less_MR_UndirectedEdgeUndirectedEdge </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::UndirectedEdgeUndirectedEdge::operator&lt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ab31530a7ce1a0a93cbaf8c576d5620c2" name="ab31530a7ce1a0a93cbaf8c576d5620c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab31530a7ce1a0a93cbaf8c576d5620c2">&#9670;&#160;</a></span>MR_not_equal_MR_FaceFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_FaceFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3adc232a1bd3f56864f810f00d984ae1">MR_FaceFace</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFace::operator!=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aef9897386d3bdf6d833ce193c85269c3" name="aef9897386d3bdf6d833ce193c85269c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef9897386d3bdf6d833ce193c85269c3">&#9670;&#160;</a></span>MR_not_equal_MR_UndirectedEdgeUndirectedEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_UndirectedEdgeUndirectedEdge </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad136b7b4671d29816419c7d6fea653f9">MR_UndirectedEdgeUndirectedEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::UndirectedEdgeUndirectedEdge::operator!=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">rhs</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

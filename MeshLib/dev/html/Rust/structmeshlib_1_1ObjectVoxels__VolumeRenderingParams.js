@@ -14,6 +14,7 @@ var structmeshlib_1_1ObjectVoxels__VolumeRenderingParams =
     [ "one_color", "structmeshlib_1_1ObjectVoxels__VolumeRenderingParams.html#a981be3d78e9f5c110211823db254827f", null ],
     [ "one_color_mut", "structmeshlib_1_1ObjectVoxels__VolumeRenderingParams.html#a02a9f019edbf8301b064461198f695be", null ],
     [ "op_equal", "structmeshlib_1_1ObjectVoxels__VolumeRenderingParams.html#aa0496d4b4786c297718e096aea4f1cfb", null ],
+    [ "op_not_equal", "structmeshlib_1_1ObjectVoxels__VolumeRenderingParams.html#a96c72ef0bbce55605c5013f17a304505", null ],
     [ "sampling_step", "structmeshlib_1_1ObjectVoxels__VolumeRenderingParams.html#aefe92fff8431c55c1dae9be528259cc6", null ],
     [ "sampling_step_mut", "structmeshlib_1_1ObjectVoxels__VolumeRenderingParams.html#a722d0fc075f33f140b2e7a1cc4a3660e", null ],
     [ "set_alpha_limit", "structmeshlib_1_1ObjectVoxels__VolumeRenderingParams.html#a3f10fa3ba0c3f0727c96b32c36f50188", null ],

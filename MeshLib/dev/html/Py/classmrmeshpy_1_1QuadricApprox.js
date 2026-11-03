@@ -1,7 +1,7 @@
 var classmrmeshpy_1_1QuadricApprox =
 [
     [ "__init__", "classmrmeshpy_1_1QuadricApprox.html#a09ed7eb2114885d9e8a532d542995c49", null ],
-    [ "__init__", "classmrmeshpy_1_1QuadricApprox.html#a8bb056f3fa9e51ba7ec8fa6a5db8f732", null ],
-    [ "addPoint", "classmrmeshpy_1_1QuadricApprox.html#a23e69cda75f413c14b31f4dfb68962af", null ],
-    [ "assign", "classmrmeshpy_1_1QuadricApprox.html#a9573bc231e0565ded3676eddc391b0d7", null ]
+    [ "__init__", "classmrmeshpy_1_1QuadricApprox.html#a9caaa4697d79c21be420967e5de4a2aa", null ],
+    [ "addPoint", "classmrmeshpy_1_1QuadricApprox.html#a97c0ab70883577f0dc238db0215dfa58", null ],
+    [ "assign", "classmrmeshpy_1_1QuadricApprox.html#a79c94b2ef9348534f3f9220fcd2da37b", null ]
 ];

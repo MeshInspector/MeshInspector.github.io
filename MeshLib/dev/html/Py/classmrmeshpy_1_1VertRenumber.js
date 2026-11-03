@@ -1,9 +1,6 @@
 var classmrmeshpy_1_1VertRenumber =
 [
-    [ "__init__", "classmrmeshpy_1_1VertRenumber.html#a4b54ef1b63220b85146de8143b790f8f", null ],
-    [ "__init__", "classmrmeshpy_1_1VertRenumber.html#acc71536973884d09ae8b097e86ba3c74", null ],
-    [ "__call__", "classmrmeshpy_1_1VertRenumber.html#ae7fa25bd849e00b1d4fadc396b816866", null ],
-    [ "assign", "classmrmeshpy_1_1VertRenumber.html#a625ed0057715aa5077e340fe201dbbed", null ],
-    [ "saveValidOnly", "classmrmeshpy_1_1VertRenumber.html#a6b1397bea1f1c84f0ef4bf131f523150", null ],
-    [ "sizeVerts", "classmrmeshpy_1_1VertRenumber.html#aced3f489bc08cd7418d257a655a6946d", null ]
+    [ "__init__", "classmrmeshpy_1_1VertRenumber.html#a606be3940c7057531ee4dacc1612cf83", null ],
+    [ "__init__", "classmrmeshpy_1_1VertRenumber.html#adb677c6911b24ed307d10e83c1dea2d8", null ],
+    [ "assign", "classmrmeshpy_1_1VertRenumber.html#a2c2d74d0e63ec368a4d92ba0518004f1", null ]
 ];

@@ -1,5 +1,13 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1Const__DistanceMap.html#a4bf2cac99936a105687a263cbd18a3f0":[9,3,0,0,0,408,39],
+"classMR_1_1Const__DistanceMap.html#a611f7f62192e935436d51f886afa3687":[9,3,0,0,0,408,21],
+"classMR_1_1Const__DistanceMap.html#a6966b075259e2a5424acd26d59597bf2":[9,3,0,0,0,408,16],
+"classMR_1_1Const__DistanceMap.html#a6cca14a2a97317429dfacbffa4cab120":[9,3,0,0,0,408,9],
+"classMR_1_1Const__DistanceMap.html#a7753a7e249ac75ad697f3131e601d99d":[9,3,0,0,0,408,24],
+"classMR_1_1Const__DistanceMap.html#a791add6cd1dd36e855fbe4d7564d480e":[9,3,0,0,0,408,23],
+"classMR_1_1Const__DistanceMap.html#a791cfd8d201e957c0842d360c5fd7457":[9,3,0,0,0,408,14],
+"classMR_1_1Const__DistanceMap.html#a84e6d9172e5998cafc9bb0bba2863cd1":[9,3,0,0,0,408,3],
 "classMR_1_1Const__DistanceMap.html#a888204d37229697c873c4d866b8951c1":[9,3,0,0,0,408,20],
 "classMR_1_1Const__DistanceMap.html#a932ef365ca10972b981fcbc0b1bfc126":[9,3,0,0,0,408,13],
 "classMR_1_1Const__DistanceMap.html#a992ede508df7c0eee9dcbc49ec06ef1c":[9,3,0,0,0,408,32],
@@ -241,13 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1Const__DividePolylineParameters.html#a9bf3187711569a912f49eeb4a7e93f8f":[9,3,0,0,0,417,11],
 "classMR_1_1Const__DividePolylineParameters.html#ab9517c9cbe92343afcdf96a9ef7235d7":[9,3,0,0,0,417,9],
 "classMR_1_1Const__DividePolylineParameters.html#abcf5b37155d57773dc7e0d268d6da3e4":[9,3,0,0,0,417,3],
-"classMR_1_1Const__DividePolylineParameters.html#acd04adce37a0fdb6124e19207004b429":[9,3,0,0,0,417,6],
-"classMR_1_1Const__DividePolylineParameters.html#ae1f2ed468c58e365f628a2743047a0e8":[9,3,0,0,0,417,0],
-"classMR_1_1Const__DividePolylineParameters.html#ae3d57d6396fa1a6a16af01227b677b1c":[9,3,0,0,0,417,4],
-"classMR_1_1Const__DividePolylineParameters.html#aeb41b9fb8b92bc587d7402ca574adf13":[9,3,0,0,0,417,14],
-"classMR_1_1Const__DividePolylineParameters.html#aef5833798ee8a7a51e5931ed32a53e9a":[9,3,0,0,0,417,17],
-"classMR_1_1Const__DoubleOffsetSettings.html":[9,3,0,0,0,418],
-"classMR_1_1Const__DoubleOffsetSettings.html#a02807edd03344f7c2f287e97454ffa30":[9,3,0,0,0,418,6],
-"classMR_1_1Const__DoubleOffsetSettings.html#a0edf0ba91aafb73645fa07922e46e42b":[9,3,0,0,0,418,11],
-"classMR_1_1Const__DoubleOffsetSettings.html#a2a46424d9ab827038dff47607938a809":[9,3,0,0,0,418,15]
+"classMR_1_1Const__DividePolylineParameters.html#acd04adce37a0fdb6124e19207004b429":[9,3,0,0,0,417,6]
 };

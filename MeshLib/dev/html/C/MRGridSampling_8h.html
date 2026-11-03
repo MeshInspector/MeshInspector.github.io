@@ -188,6 +188,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a6f15ec00f1a884ccad91775a6f30457f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
 <tr class="memitem:ae2acf3f0581afe41155c648c40fb715f" id="r_ae2acf3f0581afe41155c648c40fb715f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2acf3f0581afe41155c648c40fb715f">MR_ObjVertId_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="memitem:a75e38fb96745ddd8b4d0decb15cb8ebc" id="r_a75e38fb96745ddd8b4d0decb15cb8ebc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75e38fb96745ddd8b4d0decb15cb8ebc">MR_equal_MR_ObjVertId</a> (const <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> *_1, const <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> *_2)</td></tr>
+<tr class="memitem:a4e51b814ad624bc488fa1403bf9b8c01" id="r_a4e51b814ad624bc488fa1403bf9b8c01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e51b814ad624bc488fa1403bf9b8c01">MR_not_equal_MR_ObjVertId</a> (const <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> *_1, const <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> *_2)</td></tr>
 <tr class="memitem:afb31c2252fa17c7f21236df05f753448" id="r_afb31c2252fa17c7f21236df05f753448"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae1286432b335d8b4c779dca862ef8e52">MR_std_optional_std_vector_MR_ObjVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb31c2252fa17c7f21236df05f753448">MR_multiModelGridSampling</a> (const <a class="el" href="#ac02da2bc53860b2b70f391049eac5e2a">MR_Vector_MR_ModelPointsData_MR_ObjId</a> *models, float voxelSize, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
@@ -721,6 +722,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>performs sampling of several models respecting their world transformations subdivides models bounding box on voxels of approximately given size and returns at most one point per voxel; if voxelSize&lt;=0 then returns all points from all models as samples; returns std::nullopt if it was terminated by the callback Generated from function <span class="tt">MR::multiModelGridSampling</span>. Parameter <span class="tt">models</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__std__vector__MR__ObjVertId_8h.html#ab1b262165a5ee7e8a199a0bbf216ad51" title="Destroys a heap-allocated instance of MR_std_optional_std_vector_MR_ObjVertId. Does nothing if the po...">MR_std_optional_std_vector_MR_ObjVertId_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4e51b814ad624bc488fa1403bf9b8c01" name="a4e51b814ad624bc488fa1403bf9b8c01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e51b814ad624bc488fa1403bf9b8c01">&#9670;&#160;</a></span>MR_not_equal_MR_ObjVertId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_ObjVertId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_2</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <span class="tt">MR::operator!=</span>. Parameter <span class="tt">_1</span> can not be null. It is a single object. Parameter <span class="tt">_2</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

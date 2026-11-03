@@ -6,6 +6,7 @@ var structmeshlib_1_1EdgePointPair =
     [ "b", "structmeshlib_1_1EdgePointPair.html#a021ea17d40d31169b1dbb076c51ed7d2", null ],
     [ "b_mut", "structmeshlib_1_1EdgePointPair.html#ad2812633a26bb382a79f0cf29ef7b7ad", null ],
     [ "op_equal", "structmeshlib_1_1EdgePointPair.html#a8c1ecb95d28acfc0c70050aabe8c6250", null ],
+    [ "op_not_equal", "structmeshlib_1_1EdgePointPair.html#ae4e57d6c7670f5660d5a1963d35246ac", null ],
     [ "set_a", "structmeshlib_1_1EdgePointPair.html#afe75f28e917ba998fbab4f4cca956e92", null ],
     [ "set_b", "structmeshlib_1_1EdgePointPair.html#ae9dacba8df1089d90248cdd01f8bfb79", null ]
 ];

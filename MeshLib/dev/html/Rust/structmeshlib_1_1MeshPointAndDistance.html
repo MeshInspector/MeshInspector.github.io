@@ -156,6 +156,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a349e9b3e3468d73a5f863d238f1213bd" id="r_a349e9b3e3468d73a5f863d238f1213bd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a349e9b3e3468d73a5f863d238f1213bd">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a></td></tr>
 <tr class="memitem:a252460bfefd6cd3fbb7d18f5e2ef2cae" id="r_a252460bfefd6cd3fbb7d18f5e2ef2cae"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a252460bfefd6cd3fbb7d18f5e2ef2cae">bidir_dist</a> () const -&gt; f32</td></tr>
 <tr class="memitem:a82378cd21a19d302685d90d29d7d6275" id="r_a82378cd21a19d302685d90d29d7d6275"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82378cd21a19d302685d90d29d7d6275">dist</a> () const -&gt; f32</td></tr>
+<tr class="memitem:a6fbf2f49ec77a759f67588936ba9a360" id="r_a6fbf2f49ec77a759f67588936ba9a360"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fbf2f49ec77a759f67588936ba9a360">op_less</a> (other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a>) const -&gt; bool</td></tr>
+<tr class="memitem:ab8762e98664b7dbdf167258745ded76f" id="r_ab8762e98664b7dbdf167258745ded76f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8762e98664b7dbdf167258745ded76f">op_greater</a> (other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a>) const -&gt; bool</td></tr>
+<tr class="memitem:ad29df9a7d596fd0f956c8408de5fc2c7" id="r_ad29df9a7d596fd0f956c8408de5fc2c7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad29df9a7d596fd0f956c8408de5fc2c7">op_less_equal</a> (other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a>) const -&gt; bool</td></tr>
+<tr class="memitem:ae6762ffc1a1b1aff48c129c993455b9c" id="r_ae6762ffc1a1b1aff48c129c993455b9c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6762ffc1a1b1aff48c129c993455b9c">op_greater_equal</a> (other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a>) const -&gt; bool</td></tr>
 <tr class="memitem:a58d11175b5efac14128c75aa444c82f2" id="r_a58d11175b5efac14128c75aa444c82f2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58d11175b5efac14128c75aa444c82f2">valid</a> () const -&gt; bool</td></tr>
 <tr class="memitem:a41b97af2627e4423b826db295b2de86b" id="r_a41b97af2627e4423b826db295b2de86b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41b97af2627e4423b826db295b2de86b">loc</a> () const -&gt; &amp;<a class="el" href="structmeshlib_1_1Vector3f.html">meshlib::Vector3f</a></td></tr>
 <tr class="memitem:a887cc0cec5104593ade20b8c4ec49d69" id="r_a887cc0cec5104593ade20b8c4ec49d69"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a887cc0cec5104593ade20b8c4ec49d69">loc_mut</a> () -&gt; &amp;mut <a class="el" href="structmeshlib_1_1Vector3f.html">meshlib::Vector3f</a></td></tr>
@@ -512,6 +516,82 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructs an empty (default-constructed) instance.</p>
 <p>Calls <span class="tt">MR_MeshPointAndDistance_DefaultConstruct()</span>. </p>
+
+</div>
+</div>
+<a id="ab8762e98664b7dbdf167258745ded76f" name="ab8762e98664b7dbdf167258745ded76f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8762e98664b7dbdf167258745ded76f">&#9670;&#160;</a></span>op_greater()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::MeshPointAndDistance::op_greater </td>
+          <td>(</td>
+          <td class="paramtype">other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::MeshPointAndDistance::operator&gt;</span>.</p>
+<p>Calls <span class="tt">MR_greater_MR_MeshPointAndDistance()</span>. </p>
+
+</div>
+</div>
+<a id="ae6762ffc1a1b1aff48c129c993455b9c" name="ae6762ffc1a1b1aff48c129c993455b9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6762ffc1a1b1aff48c129c993455b9c">&#9670;&#160;</a></span>op_greater_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::MeshPointAndDistance::op_greater_equal </td>
+          <td>(</td>
+          <td class="paramtype">other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::MeshPointAndDistance::operator&gt;=</span>.</p>
+<p>Calls <span class="tt">MR_greater_equal_MR_MeshPointAndDistance()</span>. </p>
+
+</div>
+</div>
+<a id="a6fbf2f49ec77a759f67588936ba9a360" name="a6fbf2f49ec77a759f67588936ba9a360"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fbf2f49ec77a759f67588936ba9a360">&#9670;&#160;</a></span>op_less()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::MeshPointAndDistance::op_less </td>
+          <td>(</td>
+          <td class="paramtype">other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;</span>.</p>
+<p>Calls <span class="tt">MR_less_MR_MeshPointAndDistance()</span>. </p>
+
+</div>
+</div>
+<a id="ad29df9a7d596fd0f956c8408de5fc2c7" name="ad29df9a7d596fd0f956c8408de5fc2c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad29df9a7d596fd0f956c8408de5fc2c7">&#9670;&#160;</a></span>op_less_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::MeshPointAndDistance::op_less_equal </td>
+          <td>(</td>
+          <td class="paramtype">other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;=</span>.</p>
+<p>Calls <span class="tt">MR_less_equal_MR_MeshPointAndDistance()</span>. </p>
 
 </div>
 </div>

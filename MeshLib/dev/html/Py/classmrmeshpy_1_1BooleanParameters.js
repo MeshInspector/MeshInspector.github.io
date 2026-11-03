@@ -1,9 +1,11 @@
 var classmrmeshpy_1_1BooleanParameters =
 [
     [ "__init__", "classmrmeshpy_1_1BooleanParameters.html#abb7637baaf4c83e462e120dffee7c8bd", null ],
-    [ "__init__", "classmrmeshpy_1_1BooleanParameters.html#a80602af8522d4f2c2a53da8f6000187e", null ],
-    [ "__init__", "classmrmeshpy_1_1BooleanParameters.html#a57cd12148e4c1346d798ec07e80243ce", null ],
-    [ "assign", "classmrmeshpy_1_1BooleanParameters.html#a9edf3341ab22e0efa03dc5aff2f0580e", null ],
+    [ "__init__", "classmrmeshpy_1_1BooleanParameters.html#a5844f4c3f17fc47e3963d66a28462aea", null ],
+    [ "__init__", "classmrmeshpy_1_1BooleanParameters.html#acfdf4c9f84b9c659152cf5069d880ecd", null ],
+    [ "assign", "classmrmeshpy_1_1BooleanParameters.html#a252efea7855c2cb6f78f3178c4ff7126", null ],
+    [ "cb", "classmrmeshpy_1_1BooleanParameters.html#ad3fad0357932dcf70f142528bbfbd3a6", null ],
+    [ "cb", "classmrmeshpy_1_1BooleanParameters.html#a49e58ecf16313f5740f7eb7accea8002", null ],
     [ "forceCut", "classmrmeshpy_1_1BooleanParameters.html#a5591696eca8c5c1d9e5f38283650c42a", null ],
     [ "forceCut", "classmrmeshpy_1_1BooleanParameters.html#a07313501e3867f65e768cb2b9ac7684b", null ],
     [ "mapper", "classmrmeshpy_1_1BooleanParameters.html#ab0100a9afee8b0b98d5e8281ec9c3796", null ],
@@ -17,5 +19,5 @@ var classmrmeshpy_1_1BooleanParameters =
     [ "outPreCutB", "classmrmeshpy_1_1BooleanParameters.html#a97ad75cb140a70188658a430d4f7ccca", null ],
     [ "outPreCutB", "classmrmeshpy_1_1BooleanParameters.html#a76a6536067b936896e750b220ac0819f", null ],
     [ "rigidB2A", "classmrmeshpy_1_1BooleanParameters.html#adbdc03584c31c063920c2a5918da5630", null ],
-    [ "rigidB2A", "classmrmeshpy_1_1BooleanParameters.html#a78146a3a4871fd2fae7fb879226e61af", null ]
+    [ "rigidB2A", "classmrmeshpy_1_1BooleanParameters.html#a643fbe1987353ea2247a72fb495098ca", null ]
 ];

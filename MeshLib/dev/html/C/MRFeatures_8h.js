@@ -289,5 +289,7 @@ var MRFeatures_8h =
     [ "MR_Features_transformPrimitive_MR_Features_Primitives_ConeSegment", "MRFeatures_8h.html#a75a14dffef5233d291eea07e9e1b4474", null ],
     [ "MR_Features_transformPrimitive_MR_Features_Primitives_Plane", "MRFeatures_8h.html#a4d0776aa81d6d777cd78efc679e66a09", null ],
     [ "MR_Features_transformPrimitive_MR_Sphere3f", "MRFeatures_8h.html#ac7b70b6be6a0d485c8425e86e0d88d32", null ],
-    [ "MR_Features_transformPrimitive_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane", "MRFeatures_8h.html#a13066d14e4a18c10113d189379841694", null ]
+    [ "MR_Features_transformPrimitive_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane", "MRFeatures_8h.html#a13066d14e4a18c10113d189379841694", null ],
+    [ "MR_not_equal_MR_Features_Primitives_ConeSegment", "MRFeatures_8h.html#a7a7bd610faa0ed04237584a891adedd3", null ],
+    [ "MR_not_equal_MR_Features_Primitives_Plane", "MRFeatures_8h.html#aa56a5e0ebca0ed7cd50d2b1f3afd407f", null ]
 ];

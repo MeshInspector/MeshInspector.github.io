@@ -5,5 +5,6 @@ var structmeshlib_1_1RasterInfo =
     [ "dims", "structmeshlib_1_1RasterInfo.html#ae5477a6fe3eb341d6427bfc17cfe8cb2", null ],
     [ "dims_mut", "structmeshlib_1_1RasterInfo.html#ace631af9a3d5fa49acf327d6d17bd997", null ],
     [ "op_equal", "structmeshlib_1_1RasterInfo.html#a63a18168f1f4ddaa4fd205ff09334093", null ],
+    [ "op_not_equal", "structmeshlib_1_1RasterInfo.html#aec3be662a4b94285804ac6ba8f4753e1", null ],
     [ "set_dims", "structmeshlib_1_1RasterInfo.html#a6689a5945a649729981c705a97edb707", null ]
 ];

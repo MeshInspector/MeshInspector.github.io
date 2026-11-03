@@ -1,9 +1,9 @@
 var classmrmeshpy_1_1ICPProperties =
 [
     [ "__init__", "classmrmeshpy_1_1ICPProperties.html#abe68bb0f3604951e95268c3dfd7eba97", null ],
-    [ "__init__", "classmrmeshpy_1_1ICPProperties.html#a2dea189365e1696b3cf748ba878b6a9c", null ],
-    [ "__init__", "classmrmeshpy_1_1ICPProperties.html#af2f40a01fa7403de3234b88f6cf3656f", null ],
-    [ "assign", "classmrmeshpy_1_1ICPProperties.html#ae60aa8b7f64ca15de601944798522139", null ],
+    [ "__init__", "classmrmeshpy_1_1ICPProperties.html#a2a5da02412ebd29792e6e70f8a171c39", null ],
+    [ "__init__", "classmrmeshpy_1_1ICPProperties.html#a59077b03080d30c5be64377a49b4e798", null ],
+    [ "assign", "classmrmeshpy_1_1ICPProperties.html#af3e7fc2368332f4c8d225c368e836a41", null ],
     [ "badIterStopCount", "classmrmeshpy_1_1ICPProperties.html#a8b7927988eea35058503cbf76709ab8d", null ],
     [ "badIterStopCount", "classmrmeshpy_1_1ICPProperties.html#a69efb3b9084ce61347b3302067744147", null ],
     [ "cosThreshold", "classmrmeshpy_1_1ICPProperties.html#a519b3cf3bc71b7c8a49d80b1961787c8", null ],
@@ -15,7 +15,7 @@ var classmrmeshpy_1_1ICPProperties =
     [ "farDistFactor", "classmrmeshpy_1_1ICPProperties.html#ac01afd2ad720b8bad9dd7f4c7c85ae34", null ],
     [ "farDistFactor", "classmrmeshpy_1_1ICPProperties.html#a599dcd58417002e266a0ceae5fc4ed1b", null ],
     [ "fixedRotationAxis", "classmrmeshpy_1_1ICPProperties.html#aa08b11a2814051e05ebfb82d52fea489", null ],
-    [ "fixedRotationAxis", "classmrmeshpy_1_1ICPProperties.html#a79c7a5feffdc86daf018b93f59b68be8", null ],
+    [ "fixedRotationAxis", "classmrmeshpy_1_1ICPProperties.html#a6261c5804d223f5c18767aa15a1ec9b4", null ],
     [ "icpMode", "classmrmeshpy_1_1ICPProperties.html#a62dafbc618b44599050007278689a9f8", null ],
     [ "icpMode", "classmrmeshpy_1_1ICPProperties.html#a45ea1c5e272de8447adf6b13f3b5154c", null ],
     [ "ignoreBdTgts", "classmrmeshpy_1_1ICPProperties.html#a222acb8518576d15349cb92164aa3b5c", null ],

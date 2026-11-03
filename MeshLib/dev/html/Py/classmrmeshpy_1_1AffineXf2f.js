@@ -1,16 +1,12 @@
 var classmrmeshpy_1_1AffineXf2f =
 [
     [ "__init__", "classmrmeshpy_1_1AffineXf2f.html#ac6a2169859740300e5b39b4252354d91", null ],
-    [ "__init__", "classmrmeshpy_1_1AffineXf2f.html#aae0dd81d72d8d0cb903646938ab697ff", null ],
+    [ "__init__", "classmrmeshpy_1_1AffineXf2f.html#a060efa93537c848fcaa73ebe6fc739c3", null ],
     [ "__init__", "classmrmeshpy_1_1AffineXf2f.html#afc765ffbb58d2f92be36ba9a1806d08a", null ],
-    [ "__call__", "classmrmeshpy_1_1AffineXf2f.html#a9ef9296c534e479ea6492696bde764c1", null ],
-    [ "__eq__", "classmrmeshpy_1_1AffineXf2f.html#a12551d3c96515d5b40f697cb5fe978fb", null ],
-    [ "__mul__", "classmrmeshpy_1_1AffineXf2f.html#afd8eb396fbe532291517903378c2f13e", null ],
-    [ "__ne__", "classmrmeshpy_1_1AffineXf2f.html#a437b328f742d9bcd75466905eebc61cf", null ],
-    [ "__repr__", "classmrmeshpy_1_1AffineXf2f.html#a82ea388f502f7270277e7c1b73f42128", null ],
-    [ "__rlshift__", "classmrmeshpy_1_1AffineXf2f.html#ae2e60a7f13ce7877ef9120fce29ff646", null ],
     [ "__rrshift__", "classmrmeshpy_1_1AffineXf2f.html#a1f2734c4a366035dcaa6442df8915c5a", null ],
-    [ "assign", "classmrmeshpy_1_1AffineXf2f.html#a4b4458fec6cc5a4b780f4fcbae70c8c0", null ],
-    [ "inverse", "classmrmeshpy_1_1AffineXf2f.html#ab998cab0b49bf2205042f770703b1b11", null ],
-    [ "linearOnly", "classmrmeshpy_1_1AffineXf2f.html#a5610fd3bca92d27fcea0436681664544", null ]
+    [ "A", "classmrmeshpy_1_1AffineXf2f.html#a74489491dd6ed6b7727848866b16543c", null ],
+    [ "A", "classmrmeshpy_1_1AffineXf2f.html#ac5e288207b8605bf4580ada4de577bee", null ],
+    [ "assign", "classmrmeshpy_1_1AffineXf2f.html#a2adee8ea266014b46c8901a91a52878a", null ],
+    [ "b", "classmrmeshpy_1_1AffineXf2f.html#aa0babf6319a24da62c4cba618cec14d8", null ],
+    [ "b", "classmrmeshpy_1_1AffineXf2f.html#a23de6e4f1aaac06a401782fa7717ed42", null ]
 ];

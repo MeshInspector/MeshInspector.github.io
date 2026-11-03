@@ -53,5 +53,6 @@ var MRMeshBuilderTypes_8h =
     [ "MR_MeshBuilder_VertSpan_OffsetMutablePtr", "MRMeshBuilderTypes_8h.html#a5c1559b6f29eef39fee22bf002395dab", null ],
     [ "MR_MeshBuilder_VertSpan_OffsetPtr", "MRMeshBuilderTypes_8h.html#aebcf0fba113ffa6b2408aa5d83e99758", null ],
     [ "MR_MeshBuilder_VertSpan_Set_firstVertex", "MRMeshBuilderTypes_8h.html#a89cef5895e1e8891e59c9bfb9d8fb7c8", null ],
-    [ "MR_MeshBuilder_VertSpan_Set_lastVertex", "MRMeshBuilderTypes_8h.html#a7fd5ad62104581561ed97119846edc84", null ]
+    [ "MR_MeshBuilder_VertSpan_Set_lastVertex", "MRMeshBuilderTypes_8h.html#a7fd5ad62104581561ed97119846edc84", null ],
+    [ "MR_not_equal_MR_MeshBuilder_Triangle", "MRMeshBuilderTypes_8h.html#aa169e66622bd2aa824a67654671b072d", null ]
 ];

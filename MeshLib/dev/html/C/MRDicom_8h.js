@@ -9,6 +9,7 @@ var MRDicom_8h =
       [ "MR_VoxelsLoad_DicomStatusEnum_Unsupported", "MRDicom_8h.html#a6ea51423c33aa81cd0783c4382038594a10908142d0e5f4d8ad570525ea7af4b5", null ]
     ] ],
     [ "MR_equal_MR_VoxelsLoad_DicomStatus_MR_VoxelsLoad_DicomStatusEnum", "MRDicom_8h.html#a37808afe2627de3d31e5b6c2458492af", null ],
+    [ "MR_not_equal_MR_VoxelsLoad_DicomStatus_MR_VoxelsLoad_DicomStatusEnum", "MRDicom_8h.html#a8a8101e6feb2cd95ae21df55d2ba34fd", null ],
     [ "MR_VoxelsLoad_createObjectVoxels", "MRDicom_8h.html#a86a9681a08625c5dc443411450d1ba00", null ],
     [ "MR_VoxelsLoad_DicomStatus_AssignFromAnother", "MRDicom_8h.html#abb4d5b6245f00b852a26c4b681d36ef4", null ],
     [ "MR_VoxelsLoad_DicomStatus_Construct", "MRDicom_8h.html#adb15d549037b3589275a837515160f76", null ],

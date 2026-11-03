@@ -18,6 +18,7 @@ var classmeshlib_1_1EdgePoint =
     [ "isBd", "classmeshlib_1_1EdgePoint.html#a0aaf9aab94861ff02f855a632c5b53b2", null ],
     [ "moveToClosestVertex", "classmeshlib_1_1EdgePoint.html#a86c14c6fd6b6831210ee4067c4a9b726", null ],
     [ "opEqual", "classmeshlib_1_1EdgePoint.html#a6f06af1d9469bbbecdea805f92e3da46", null ],
+    [ "opNotEqual", "classmeshlib_1_1EdgePoint.html#a3777e2b71daa8b14735dc76dd5c2ce8d", null ],
     [ "setA", "classmeshlib_1_1EdgePoint.html#abeb2e7a0b1fa0fd59c99c992d02b682d", null ],
     [ "setE", "classmeshlib_1_1EdgePoint.html#a56728acd798abbdb8029df697b0199c9", null ],
     [ "sym", "classmeshlib_1_1EdgePoint.html#a029333b7a9f1da60279a957f8dfe520a", null ],

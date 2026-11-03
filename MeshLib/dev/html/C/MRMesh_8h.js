@@ -145,5 +145,6 @@ var MRMesh_8h =
     [ "MR_Mesh_updateCaches", "MRMesh_8h.html#a21ed6ff7557adf4ba0fa4efd52bb38c9", null ],
     [ "MR_Mesh_updateCachesAfterSplits", "MRMesh_8h.html#a05e4c66aa50b651c29a788585b00e313", null ],
     [ "MR_Mesh_volume", "MRMesh_8h.html#a9947ce49e209c6d1b9b517cc729c706d", null ],
-    [ "MR_Mesh_zeroUnusedPoints", "MRMesh_8h.html#aeaaaacfbe283dcc72b4d746621ecc651", null ]
+    [ "MR_Mesh_zeroUnusedPoints", "MRMesh_8h.html#aeaaaacfbe283dcc72b4d746621ecc651", null ],
+    [ "MR_not_equal_MR_Mesh", "MRMesh_8h.html#a97ad3ffa072a7b8d37493eff28b68546", null ]
 ];

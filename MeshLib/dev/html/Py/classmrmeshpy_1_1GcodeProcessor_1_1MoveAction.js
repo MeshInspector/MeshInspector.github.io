@@ -1,12 +1,11 @@
 var classmrmeshpy_1_1GcodeProcessor_1_1MoveAction =
 [
     [ "__init__", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#a27c264e499ca3d5c336a1cc8c0537db0", null ],
-    [ "__init__", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#a96694ce660d041c5fae7aeda20fcd772", null ],
-    [ "__init__", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#ae835c7676f37058c25f61889cfc8770d", null ],
-    [ "__bool__", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#a6b4e33a8f941b215d719888953c4cdac", null ],
-    [ "__repr__", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#a346631e8f732fc88f808ccc46663e872", null ],
-    [ "assign", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#ae9c854212140740a968d31c5b27f199c", null ],
+    [ "__init__", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#ad7c570f7ae64a13b9ce94923ac11bf33", null ],
+    [ "__init__", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#ac9e5ec69c204f56643c61c78fd72c6a2", null ],
+    [ "action", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#aa7c8008a1626a69ab2cf1a9f5bbb3d91", null ],
+    [ "action", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#a33f31257522bb7e73fd25d7259388366", null ],
+    [ "assign", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#a41e75ca10d6d553e70f2093f5a8e3b15", null ],
     [ "toolDirection", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#ab41b0d7dca9d00b9ce54d3a38ed582b2", null ],
-    [ "toolDirection", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#a527d75ee20e262b552b10d7bae7e75f6", null ],
-    [ "valid", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#aaf3d7ff0134a1e31d940e2135d47fcae", null ]
+    [ "toolDirection", "classmrmeshpy_1_1GcodeProcessor_1_1MoveAction.html#ac494464355c3134de54c3275639fb6bf", null ]
 ];

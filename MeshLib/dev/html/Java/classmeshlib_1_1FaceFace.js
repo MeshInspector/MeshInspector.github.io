@@ -7,6 +7,12 @@ var classmeshlib_1_1FaceFace =
     [ "aFace", "classmeshlib_1_1FaceFace.html#aef0d9fe3c501609aa4e9006e32b3bab6", null ],
     [ "assignFromAnother", "classmeshlib_1_1FaceFace.html#a552c44c51074bb97c9c9d8b3946ebf6f", null ],
     [ "bFace", "classmeshlib_1_1FaceFace.html#a019d92fbb2348dcc48d705348423656d", null ],
+    [ "opEqual", "classmeshlib_1_1FaceFace.html#a4cf9d5fb19cd78d4c47e0ca46082194b", null ],
+    [ "opGreater", "classmeshlib_1_1FaceFace.html#acaae497fb30bdd62252f4145f187397b", null ],
+    [ "opGreaterEqual", "classmeshlib_1_1FaceFace.html#a98c3eb9926b7afaa08eba462e55e69b7", null ],
+    [ "opLess", "classmeshlib_1_1FaceFace.html#a5cf53e4567362bf92e95bcc6a3a76f6e", null ],
+    [ "opLessEqual", "classmeshlib_1_1FaceFace.html#a5ff77cea3e03865612226022870f116e", null ],
+    [ "opNotEqual", "classmeshlib_1_1FaceFace.html#a87f495dfef97e1e5018a23f473e1f5e0", null ],
     [ "setAFace", "classmeshlib_1_1FaceFace.html#a9b20f6266afc7fe8634b6fc8cb9acc09", null ],
     [ "setBFace", "classmeshlib_1_1FaceFace.html#af9feef38a9129bbec7d8fceb918b660c", null ]
 ];

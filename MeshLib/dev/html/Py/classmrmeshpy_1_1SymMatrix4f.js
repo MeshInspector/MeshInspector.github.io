@@ -1,14 +1,12 @@
 var classmrmeshpy_1_1SymMatrix4f =
 [
     [ "__init__", "classmrmeshpy_1_1SymMatrix4f.html#a0d85b66f77826a3463d221af3f798d10", null ],
-    [ "__init__", "classmrmeshpy_1_1SymMatrix4f.html#a4083cfb8714fdbdacc899d2f48e3ccea", null ],
-    [ "__iadd__", "classmrmeshpy_1_1SymMatrix4f.html#adf162d33cac8e5644a8d20d9758d1a82", null ],
+    [ "__init__", "classmrmeshpy_1_1SymMatrix4f.html#ad0b095405afe9ff31ceb4d3f1faedf4a", null ],
+    [ "__iadd__", "classmrmeshpy_1_1SymMatrix4f.html#ab30fb67cd2060061628fc75e34bd0de8", null ],
     [ "__imul__", "classmrmeshpy_1_1SymMatrix4f.html#a5cf104d219805213432df6f46c024772", null ],
-    [ "__isub__", "classmrmeshpy_1_1SymMatrix4f.html#aa003f672d174464278a6793475262a36", null ],
+    [ "__isub__", "classmrmeshpy_1_1SymMatrix4f.html#a6ca78d0baf0924f96805fb60c28145ba", null ],
     [ "__itruediv__", "classmrmeshpy_1_1SymMatrix4f.html#a89f7bd03797c94f7588c6414dacab397", null ],
-    [ "assign", "classmrmeshpy_1_1SymMatrix4f.html#acfa95921d6d98ab087491425aecd406c", null ],
-    [ "normSq", "classmrmeshpy_1_1SymMatrix4f.html#a1bc38ce716c54e19d130ad716e057e76", null ],
-    [ "trace", "classmrmeshpy_1_1SymMatrix4f.html#ad24aec24bc982a7a352c1eda1f949f9a", null ],
+    [ "assign", "classmrmeshpy_1_1SymMatrix4f.html#a545b05b9cbe0ed879ab37fd3f053e915", null ],
     [ "ww", "classmrmeshpy_1_1SymMatrix4f.html#a080c9729261411e9531bc65235e3f3e4", null ],
     [ "ww", "classmrmeshpy_1_1SymMatrix4f.html#a795fdac5a86415fff85869734c873fba", null ],
     [ "xw", "classmrmeshpy_1_1SymMatrix4f.html#a773df47e0f001a5e007864861010415c", null ],

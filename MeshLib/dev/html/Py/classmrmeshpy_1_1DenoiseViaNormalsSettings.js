@@ -1,9 +1,9 @@
 var classmrmeshpy_1_1DenoiseViaNormalsSettings =
 [
     [ "__init__", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a797d1f07a461065e2cf85b2b1e181885", null ],
-    [ "__init__", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#aef30c98054d794f44a0f4792e4084d00", null ],
-    [ "__init__", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a60affb5e18615bdc0167d66add26bea1", null ],
-    [ "assign", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a40700a5a28d925bdf316b453209527f6", null ],
+    [ "__init__", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a9e553e8ce11db99c8a505fc741726acd", null ],
+    [ "__init__", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a6765d518eaac4eb32d7ede8b10a4aee0", null ],
+    [ "assign", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#ab46538d0548cbb3678adcdb18412bea7", null ],
     [ "beta", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#af5048a8e4b0658932a0a9cf8c29ddd94", null ],
     [ "beta", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#ae3eee48864cf58021494d889f7fec1d9", null ],
     [ "fastIndicatorComputation", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#aa5797d1fbae08075274a0f0e409dc360", null ],
@@ -23,5 +23,5 @@ var classmrmeshpy_1_1DenoiseViaNormalsSettings =
     [ "pointIters", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#adc45f3635b80e176e93ee47f0e721c2b", null ],
     [ "pointIters", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a24aabad66993c3b7286f13363359252e", null ],
     [ "region", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a4d38abd04a403a7c9952e73f4ec55c97", null ],
-    [ "region", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a3602823ce9c8fc1c313be4a4a93699c2", null ]
+    [ "region", "classmrmeshpy_1_1DenoiseViaNormalsSettings.html#a6f19c99dc9e78368b4165e8cc0f59794", null ]
 ];

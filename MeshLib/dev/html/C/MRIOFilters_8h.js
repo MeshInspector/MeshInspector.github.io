@@ -4,7 +4,10 @@ var MRIOFilters_8h =
     [ "MR_std_optional_MR_IOFilter", "MRIOFilters_8h.html#a6f9457ad555cbcec459fa345ec845f0f", null ],
     [ "MR_std_vector_MR_IOFilter", "MRIOFilters_8h.html#ac9eb9a9e1e6066f522661733a7c739df", null ],
     [ "MR_bitor_std_vector_MR_IOFilter", "MRIOFilters_8h.html#a7e3a7e3f734c8be6fbf505d8b2ad32af", null ],
+    [ "MR_equal_MR_IOFilter", "MRIOFilters_8h.html#addb16dbb100451dbd276ee5c044d9a08", null ],
     [ "MR_findFilter", "MRIOFilters_8h.html#a2641f6512c03a36c739fc1010c6db1c6", null ],
+    [ "MR_greater_equal_MR_IOFilter", "MRIOFilters_8h.html#a4678b5e302b19893c7a9c9f8f1f89157", null ],
+    [ "MR_greater_MR_IOFilter", "MRIOFilters_8h.html#af9a39c01f604d23eef39b4b61f8d7a77", null ],
     [ "MR_IOFilter_AssignFromAnother", "MRIOFilters_8h.html#a77c87fc5fce76a6150e78cc9efeb719c", null ],
     [ "MR_IOFilter_Construct", "MRIOFilters_8h.html#a7acfca90cf53c8ae98eebf0395444028", null ],
     [ "MR_IOFilter_ConstructFromAnother", "MRIOFilters_8h.html#a19955a216f516bc84337f522d7972a43", null ],
@@ -20,5 +23,8 @@ var MRIOFilters_8h =
     [ "MR_IOFilter_OffsetMutablePtr", "MRIOFilters_8h.html#a31ee871896561ebce027e7a7c3731c05", null ],
     [ "MR_IOFilter_OffsetPtr", "MRIOFilters_8h.html#a5aea41e4382b4966a6183cd9329f1584", null ],
     [ "MR_IOFilter_Set_extensions", "MRIOFilters_8h.html#a40e2f519c741409b74ce6fe29b70c2a6", null ],
-    [ "MR_IOFilter_Set_name", "MRIOFilters_8h.html#a77747768035ba180e868e47b63c5c0de", null ]
+    [ "MR_IOFilter_Set_name", "MRIOFilters_8h.html#a77747768035ba180e868e47b63c5c0de", null ],
+    [ "MR_less_equal_MR_IOFilter", "MRIOFilters_8h.html#a83d9f973b0f87ea750fbc0c796dd9803", null ],
+    [ "MR_less_MR_IOFilter", "MRIOFilters_8h.html#ae61960691f7753a65ca77e9d6e06894d", null ],
+    [ "MR_not_equal_MR_IOFilter", "MRIOFilters_8h.html#afc2d6338f907cf893951f828fee23ed9", null ]
 ];

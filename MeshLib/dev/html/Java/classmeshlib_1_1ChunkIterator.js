@@ -11,6 +11,7 @@ var classmeshlib_1_1ChunkIterator =
     [ "opEqual", "classmeshlib_1_1ChunkIterator.html#a79aa3c18a6d9a66e47b4a5b2508985d0", null ],
     [ "opIncr", "classmeshlib_1_1ChunkIterator.html#a8ea052ba0abc113117f17eb1aa8772c8", null ],
     [ "opMul", "classmeshlib_1_1ChunkIterator.html#a9eb2ea7522b8b7812a4d78ce31962e9d", null ],
+    [ "opNotEqual", "classmeshlib_1_1ChunkIterator.html#abf3b0766fb6c93125738a1e225d7305c", null ],
     [ "opPostIncr", "classmeshlib_1_1ChunkIterator.html#a4d071df5b4c81262bb4b7e94720aa89a", null ],
     [ "overlap", "classmeshlib_1_1ChunkIterator.html#a3a425f52cceecdb0503e9d42254c8648", null ],
     [ "setChunkSize", "classmeshlib_1_1ChunkIterator.html#a0f75917c93a739b431c05c54af989cf2", null ],

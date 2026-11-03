@@ -1,6 +1,5 @@
 var classmrmeshpy_1_1NormalsToPoints_1_1ISolver =
 [
-    [ "assign", "classmrmeshpy_1_1NormalsToPoints_1_1ISolver.html#af38389b195e071d420a9226dd944637b", null ],
-    [ "prepare", "classmrmeshpy_1_1NormalsToPoints_1_1ISolver.html#a671c955e77b32c9e7ab371792fef0198", null ],
-    [ "run", "classmrmeshpy_1_1NormalsToPoints_1_1ISolver.html#a10635e8da438aaf831941a320aa07201", null ]
+    [ "prepare", "classmrmeshpy_1_1NormalsToPoints_1_1ISolver.html#af17c1166278e1325dfd853e39a1fcca0", null ],
+    [ "run", "classmrmeshpy_1_1NormalsToPoints_1_1ISolver.html#ae4fdb858cd913eed6d97f8a0d76ef3c4", null ]
 ];

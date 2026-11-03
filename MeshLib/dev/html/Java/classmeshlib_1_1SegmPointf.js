@@ -11,6 +11,8 @@ var classmeshlib_1_1SegmPointf =
     [ "inVertex", "classmeshlib_1_1SegmPointf.html#a20e3e649b2daac915fe25af257acd685", null ],
     [ "opEqual", "classmeshlib_1_1SegmPointf.html#ad4242d1a7ec83ba05224b1a2160622e9", null ],
     [ "opEqual", "classmeshlib_1_1SegmPointf.html#a468cbe64944d41c81c6a1db998c59416", null ],
+    [ "opNotEqual", "classmeshlib_1_1SegmPointf.html#a5e98eb1578fba451d543588463bec0d2", null ],
+    [ "opNotEqual", "classmeshlib_1_1SegmPointf.html#a81ca29f171faa9e34feb62ccf2d428de", null ],
     [ "setA", "classmeshlib_1_1SegmPointf.html#a52063ff7a2d0d9bb5fcaeed4f7274c0d", null ],
     [ "sym", "classmeshlib_1_1SegmPointf.html#a1c60c5414e444b2763ca0eeb746a10c5", null ]
 ];

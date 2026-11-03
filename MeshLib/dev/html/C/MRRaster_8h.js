@@ -4,6 +4,7 @@ var MRRaster_8h =
     [ "MR_convertRasterToFloats", "MRRaster_8h.html#ad05966e5b9c2ab71a734a3d2b22a577d", null ],
     [ "MR_convertRasterToImage", "MRRaster_8h.html#a18efee41067d84b62acfea7b870c3f17", null ],
     [ "MR_equal_MR_RasterInfo", "MRRaster_8h.html#a40ecd1d5994d47db7ccd3b392bdc889b", null ],
+    [ "MR_not_equal_MR_RasterInfo", "MRRaster_8h.html#ae749c757207e01d469f65c2d916a63f5", null ],
     [ "MR_Raster_AssignFromAnother", "MRRaster_8h.html#ab543ab1ad20360bbc1d0ab8214b45ef4", null ],
     [ "MR_Raster_ConstructFrom", "MRRaster_8h.html#a88054523ea2a03f30adae1c25066dc09", null ],
     [ "MR_Raster_ConstructFromAnother", "MRRaster_8h.html#ab56cff30bb0abdc7e58d82fe59ee60b1", null ],

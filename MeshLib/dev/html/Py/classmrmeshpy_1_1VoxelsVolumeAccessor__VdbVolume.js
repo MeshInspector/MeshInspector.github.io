@@ -1,10 +1,6 @@
 var classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume =
 [
-    [ "__init__", "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#ab1a42d754251f043126c150b490c7f14", null ],
-    [ "__init__", "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a13f69753102e00f44429853beb7fa98a", null ],
-    [ "assign", "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a488e45bd49eabe14f59471432ede74d2", null ],
-    [ "get", "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a77a529aea7ee0e8acb3c222afdb13418", null ],
-    [ "get", "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#abef45d50a6079ba294baec7676607765", null ],
-    [ "minCoord", "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a1dd4ffc03879fa4a6b686ed1c9cf9cd2", null ],
-    [ "shift", "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#ab6f80052e392824611e8174c3bad72ca", null ]
+    [ "__init__", "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a6d28014ae6fe50a6daeb8f49d1d5e501", null ],
+    [ "__init__", "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a703163160b5466aaafe79678c487034f", null ],
+    [ "assign", "classmrmeshpy_1_1VoxelsVolumeAccessor__VdbVolume.html#a176c6b92c98c0ac3503b256d24edbcd0", null ]
 ];

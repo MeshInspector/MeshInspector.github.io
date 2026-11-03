@@ -6,6 +6,7 @@ var classmeshlib_1_1PositionedText =
     [ "PositionedText", "classmeshlib_1_1PositionedText.html#aebb5b820cc8de4f19fda38c45f2ecd50", null ],
     [ "assignFromAnother", "classmeshlib_1_1PositionedText.html#ac9e991be5d165275e7d5f8e9839ac167", null ],
     [ "opEqual", "classmeshlib_1_1PositionedText.html#a51bde370ea86f25a6be4525f19e2a50a", null ],
+    [ "opNotEqual", "classmeshlib_1_1PositionedText.html#a501b5f3dca7f6b535c01069c8cb3e348", null ],
     [ "position", "classmeshlib_1_1PositionedText.html#a41d4f0b03bff91a0a1b692fa23a81637", null ],
     [ "setPosition", "classmeshlib_1_1PositionedText.html#af349a157024c07cf916b155f8186bf54", null ],
     [ "setText", "classmeshlib_1_1PositionedText.html#ae994472e5ada6d8cda84c2fb5b384b9c", null ],

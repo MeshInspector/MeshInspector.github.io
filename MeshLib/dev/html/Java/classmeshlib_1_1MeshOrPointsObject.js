@@ -13,6 +13,7 @@ var classmeshlib_1_1MeshOrPointsObject =
     [ "get", "classmeshlib_1_1MeshOrPointsObject.html#abfba915319d82c670194712f226fd034", null ],
     [ "meshOrPoints", "classmeshlib_1_1MeshOrPointsObject.html#a96901b776029afcf397835b290c3b794", null ],
     [ "opEqual", "classmeshlib_1_1MeshOrPointsObject.html#a377167cbd9afa8c635de86d5b0ae51e4", null ],
+    [ "opNotEqual", "classmeshlib_1_1MeshOrPointsObject.html#a47f70f7dcf4a6a722b2b505dc8ef3159", null ],
     [ "reset", "classmeshlib_1_1MeshOrPointsObject.html#a98f3b5045ac37f295e47305d5235c8c9", null ],
     [ "set", "classmeshlib_1_1MeshOrPointsObject.html#a7a86efd10bd8d094f72c746c817049ca", null ],
     [ "set", "classmeshlib_1_1MeshOrPointsObject.html#a8ebf02a86da9e6b1d455dfd45cd5d226", null ]

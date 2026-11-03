@@ -1,6 +1,12 @@
 var structmeshlib_1_1Graph__EndVertices =
 [
     [ "assign_from_another", "structmeshlib_1_1Graph__EndVertices.html#a0cdf9a1310f386c2ae5131d78b04f772", null ],
+    [ "op_equal", "structmeshlib_1_1Graph__EndVertices.html#acf6d4c805be7aa2351da0dc74d517ab7", null ],
+    [ "op_greater", "structmeshlib_1_1Graph__EndVertices.html#af663344efd218037700719623974f883", null ],
+    [ "op_greater_equal", "structmeshlib_1_1Graph__EndVertices.html#a48ef1facfb8b6ee13e21060eb7a76ecc", null ],
+    [ "op_less", "structmeshlib_1_1Graph__EndVertices.html#a58994837ccad148095b1bb20d85232d9", null ],
+    [ "op_less_equal", "structmeshlib_1_1Graph__EndVertices.html#a40f81ce3e6c5dfbf638b868e40f3e4cc", null ],
+    [ "op_not_equal", "structmeshlib_1_1Graph__EndVertices.html#a8dc3d16d198976ed436c772f939c8980", null ],
     [ "other_end", "structmeshlib_1_1Graph__EndVertices.html#aa2e613e0b7b8216152bd8060f6cfaa67", null ],
     [ "replace_end", "structmeshlib_1_1Graph__EndVertices.html#a9ca7a5462c80fc26720cc1e1466309ba", null ],
     [ "set_v0", "structmeshlib_1_1Graph__EndVertices.html#a47a56a9a35759d69624b2aa884fd988d", null ],

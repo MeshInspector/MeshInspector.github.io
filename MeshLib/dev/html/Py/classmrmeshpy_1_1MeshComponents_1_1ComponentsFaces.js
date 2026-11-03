@@ -1,12 +1,11 @@
 var classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces =
 [
     [ "__init__", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#a6da493613f5c2f61174e49d85186664a", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#a66c2074a6e47fc32d60c5b79e8c8719a", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#aa7791107fe0c4a5998459de03630e9e3", null ],
-    [ "assign", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#abb4bd2ea6b6419871f99d671de1407a1", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#ada5d7a724664736e9a4f64a87cce37ce", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#af53cfdee723a6899aef7c3789e52f43b", null ],
+    [ "assign", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#a4129a2efc69f616167f3dba50d39cfc4", null ],
     [ "faces", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#a3862a02a6de82243d0522970a37b5c4b", null ],
-    [ "faces", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#a1443b46fa008adcd3c02e504b0fd0e5c", null ],
+    [ "faces", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#a3a8e0806f8ea2d55337b82f92d748bcd", null ],
     [ "offsets", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#a6a064293d36e8135a8eee5821b329158", null ],
-    [ "offsets", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#a175276d47a52e039888229c784a5c4ef", null ],
-    [ "setComponentBits", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#af7060c6995f19adfcb01d1dd948f55ac", null ]
+    [ "offsets", "classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces.html#a537b2d15aba1f97cd31925e833f4b67d", null ]
 ];

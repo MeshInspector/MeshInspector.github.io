@@ -145,6 +145,7 @@ var MRMeshTopology_8h =
     [ "MR_MeshTopology_vertResizeWithReserve", "MRMeshTopology_8h.html#a291018b0569793d43978978e842e4d41", null ],
     [ "MR_MeshTopology_vertSize", "MRMeshTopology_8h.html#a4423af9dc95d9af4d68361442ab6384b", null ],
     [ "MR_MeshTopology_write", "MRMeshTopology_8h.html#acae515922b9b768d2aa9c8ca26bdb6b1", null ],
+    [ "MR_not_equal_MR_MeshTopology", "MRMeshTopology_8h.html#a4ba398ae6266d2705fd192059cdf1627", null ],
     [ "MR_VacantElements_AssignFromAnother", "MRMeshTopology_8h.html#ac5ead47a9a2e8f05e7a3fd3b1f751d58", null ],
     [ "MR_VacantElements_ConstructFrom", "MRMeshTopology_8h.html#a74db1dc8128c9d79f6923c4d24a33a42", null ],
     [ "MR_VacantElements_ConstructFromAnother", "MRMeshTopology_8h.html#a1ea888d1de54d04ed769d36782dd3243", null ],

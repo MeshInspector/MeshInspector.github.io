@@ -1,5 +1,9 @@
 var NAVTREEINDEX62 =
 {
+"namespaceMR_1_1VoxelsLoad.html#a8ce6022f00f55c40a634b016f91a3b31":[9,0,1,0,1,55,14],
+"namespaceMR_1_1VoxelsLoad.html#a91731f11539ea11d1c4bd2dfbc25b2b1":[9,0,1,0,1,55,17],
+"namespaceMR_1_1VoxelsLoad.html#ab02ac1c58396a89e54c4b384dd5142ea":[9,0,1,0,1,55,9],
+"namespaceMR_1_1VoxelsLoad.html#ab0a9073a8190607740aa7a4e108a70ea":[9,0,1,0,1,55,15],
 "namespaceMR_1_1VoxelsLoad.html#ab8b39ae86f2bd1e780c542ceebadc56d":[9,0,1,0,1,55,18],
 "namespaceMR_1_1VoxelsLoad.html#ac56550c38609cdf38fcf34f3740e8f82":[9,0,1,0,1,55,11],
 "namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96":[9,0,1,0,1,55,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1AncillaryPlane.html":[9,0,0,19,588],
 "structMR_1_1AncillaryPoints.html":[9,0,0,19,589],
 "structMR_1_1ArcInterpolationParams.html":[9,0,0,19,913],
-"structMR_1_1BMap.html":[9,0,0,19,152],
-"structMR_1_1Ball.html":[9,0,0,19,136],
-"structMR_1_1BallPivotCandidate.html":[9,0,0,19,134],
-"structMR_1_1BaseFitParams.html":[9,0,0,19,610],
-"structMR_1_1BaseRenderParams.html":[9,0,0,19,315]
+"structMR_1_1BMap.html":[9,0,0,19,152]
 };

@@ -21,6 +21,7 @@ var classmeshlib_1_1MeshTriPointd =
     [ "lnext", "classmeshlib_1_1MeshTriPointd.html#a3a839e9a2c32d370f7c040eb7959f3a8", null ],
     [ "onEdge", "classmeshlib_1_1MeshTriPointd.html#afee7ff83d6fde22eefd1aaf4f0771463", null ],
     [ "opEqual", "classmeshlib_1_1MeshTriPointd.html#ad229a602ec47e63070dbeb6cf5b97cc2", null ],
+    [ "opNotEqual", "classmeshlib_1_1MeshTriPointd.html#ade47f65b6551c2bd4af85ab0180b86b8", null ],
     [ "setBary", "classmeshlib_1_1MeshTriPointd.html#ad88188dfdc30b0398393b71cf1254a47", null ],
     [ "setE", "classmeshlib_1_1MeshTriPointd.html#a11b2113c41936600099a24c672891395", null ],
     [ "valid", "classmeshlib_1_1MeshTriPointd.html#a2f07a34d69e59b57a4b4a3ae02ffef4a", null ]

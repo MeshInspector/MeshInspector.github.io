@@ -1,14 +1,14 @@
 var classmrmeshpy_1_1Image =
 [
     [ "__init__", "classmrmeshpy_1_1Image.html#ad2cbb9ee00c4ab211103ac69e16267ae", null ],
-    [ "__init__", "classmrmeshpy_1_1Image.html#a16ca8f3c0f4b66912bc72069dcaa8112", null ],
-    [ "__init__", "classmrmeshpy_1_1Image.html#a64f531a6404ca944fb359ac24f460101", null ],
-    [ "__getitem__", "classmrmeshpy_1_1Image.html#af340d1edffec4ddd5f128ba4449f5644", null ],
-    [ "__getitem__", "classmrmeshpy_1_1Image.html#af340d1edffec4ddd5f128ba4449f5644", null ],
-    [ "__setitem__", "classmrmeshpy_1_1Image.html#ae6d528017ae10dd77f98676fe8aa6e3a", null ],
-    [ "assign", "classmrmeshpy_1_1Image.html#a81e0079425071a558d5fbb09436e55ba", null ],
-    [ "heapBytes", "classmrmeshpy_1_1Image.html#ab75cd8c9ca6fe2a5028c545ecbdf8091", null ],
-    [ "sample", "classmrmeshpy_1_1Image.html#ada2f20aa593305ea9352392fa97c672f", null ],
-    [ "sampleBilinear", "classmrmeshpy_1_1Image.html#a76082958ade33da570341c2dc4fcff40", null ],
-    [ "sampleDiscrete", "classmrmeshpy_1_1Image.html#a63c2c17fee551e3c6c2a00d7e6850ee2", null ]
+    [ "__init__", "classmrmeshpy_1_1Image.html#aafacd3e940b442bae14b5519a2e052ac", null ],
+    [ "__init__", "classmrmeshpy_1_1Image.html#ab7f5de4da7001dd93dccd9c4ba33d5a9", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Image.html#a8b64e6dc41bfbd6b336b6c2046f1d971", null ],
+    [ "__getitem__", "classmrmeshpy_1_1Image.html#a933794bf08f4ec008fc02fa2d3fdaff6", null ],
+    [ "__setitem__", "classmrmeshpy_1_1Image.html#a9ad6b86957d9b86ace0645820c3442ff", null ],
+    [ "assign", "classmrmeshpy_1_1Image.html#aec1f68de0077a1057b98719a799a04eb", null ],
+    [ "pixels", "classmrmeshpy_1_1Image.html#a7bc11c04e507090375d314e41f9abbd5", null ],
+    [ "pixels", "classmrmeshpy_1_1Image.html#a4bd9bce479294d87366330d9ad3b00c6", null ],
+    [ "resolution", "classmrmeshpy_1_1Image.html#a9862497af2dcced869324d7831c576ad", null ],
+    [ "resolution", "classmrmeshpy_1_1Image.html#a4292743af6d26687fdc22b924a2df8dc", null ]
 ];

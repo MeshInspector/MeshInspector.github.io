@@ -6,6 +6,7 @@ var classmeshlib_1_1voxelsload_1_1DicomStatus =
     [ "assignFromAnother", "classmeshlib_1_1voxelsload_1_1DicomStatus.html#a050bdaca7b82584ba8f2a780a9c01aac", null ],
     [ "convertTo_bool", "classmeshlib_1_1voxelsload_1_1DicomStatus.html#a39766ca19c65d952febcaecc3c7fe837", null ],
     [ "opEqual", "classmeshlib_1_1voxelsload_1_1DicomStatus.html#a6d9baeef9a5e0d2272adf2327315f053", null ],
+    [ "opNotEqual", "classmeshlib_1_1voxelsload_1_1DicomStatus.html#a4dccf77aac39a8b71d6b8e9f6e0c6d10", null ],
     [ "reason", "classmeshlib_1_1voxelsload_1_1DicomStatus.html#af5590185af351f176e30ede34d6de08a", null ],
     [ "setReason", "classmeshlib_1_1voxelsload_1_1DicomStatus.html#a0765332f70176f205fe2b013ff1cf75c", null ],
     [ "setStatus", "classmeshlib_1_1voxelsload_1_1DicomStatus.html#a8686c2711f6da372f295bd8ba50a3d0d", null ],

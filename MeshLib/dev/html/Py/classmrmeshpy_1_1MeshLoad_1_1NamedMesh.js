@@ -1,17 +1,27 @@
 var classmrmeshpy_1_1MeshLoad_1_1NamedMesh =
 [
     [ "__init__", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a424bcaab63205ba108399f5b95c914b5", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a2dca933081cc7c2e0acb74bff5daa841", null ],
-    [ "__init__", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#ac6d23a99cfe7be2d897ac75b12be35c1", null ],
-    [ "assign", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a789eb5aa7648b6e2c0d86e1e20ac09af", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#ab4c2b2dcc9b6c753cb554e6475505b6f", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#ac4fe9c5c74719a8820c5b93baa42681b", null ],
+    [ "assign", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#ac9aef472290912475cb8169391a99572", null ],
+    [ "colors", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a196d83b9a5e338e0279695e7516a8919", null ],
+    [ "colors", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a46b70c88519f01e0c79d60f10ba502c9", null ],
+    [ "diffuseColor", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a947d4ed3a8ecc4312290f0de4649a5b1", null ],
+    [ "diffuseColor", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a47d4d524b9cc4ab49d3e8b3fe9f0a487", null ],
     [ "duplicatedVertexCount", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a47f48500939b970e1576cc63ea2da12b", null ],
     [ "duplicatedVertexCount", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#afb45757ac9dace916e99706aa8cf5c1b", null ],
+    [ "mesh", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#afb46a3acecbbe80d3184714fd160721b", null ],
+    [ "mesh", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#aea8288eae5b5184b3f74496f7c0c8149", null ],
     [ "name", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#adab4186f6b4c953d2f5ac431eb4ed5b3", null ],
     [ "name", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a5b95776f7ba823b66eeb1d8de576516d", null ],
     [ "skippedFaceCount", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#ae9aca214dd6221616c1a92ed29dc84ea", null ],
     [ "skippedFaceCount", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#aaf0a4abce9cabb08bab45bb745d27f1f", null ],
     [ "textureFiles", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a77b73d06ebe23d30fa1f2c76e05cb156", null ],
-    [ "textureFiles", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#aab6bb10a94d1e5950c4cd24c2951ca24", null ],
+    [ "textureFiles", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#aef9b72c7a44b32f4d985280403214914", null ],
+    [ "texturePerFace", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a539d2bea69b5510a75f34118c213272d", null ],
+    [ "texturePerFace", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a8ea7dd961a11d42104fb993c61c9c70e", null ],
+    [ "uvCoords", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#acb1d58682232b7c7ab3d6dea928857e5", null ],
+    [ "uvCoords", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#af3b1fa48b694b69f4a59aafe5be265dc", null ],
     [ "xf", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a13ecc50b77895b387b011d2b76e7ac7a", null ],
-    [ "xf", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a6bee57bc7e7887b27f48ed9f2d84184e", null ]
+    [ "xf", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a568716aa5bf58da578c4fb884dd7ed60", null ]
 ];

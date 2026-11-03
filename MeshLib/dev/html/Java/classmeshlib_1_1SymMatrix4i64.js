@@ -9,6 +9,7 @@ var classmeshlib_1_1SymMatrix4i64 =
     [ "mul_assign", "classmeshlib_1_1SymMatrix4i64.html#a938a6f6e32fc57ce15f8384390332f18", null ],
     [ "normSq", "classmeshlib_1_1SymMatrix4i64.html#accdbe2a66e1171171c881fc11e020ff7", null ],
     [ "opEqual", "classmeshlib_1_1SymMatrix4i64.html#a8c43a71407138ca1627131e4869cd02d", null ],
+    [ "opNotEqual", "classmeshlib_1_1SymMatrix4i64.html#a3ac340f7db5815adfb2f8063ac905643", null ],
     [ "setWw", "classmeshlib_1_1SymMatrix4i64.html#a5a4c2138fed7dac0c368170fafcfaad8", null ],
     [ "setXw", "classmeshlib_1_1SymMatrix4i64.html#ad647476d9663d7ab526737106cc6f1c3", null ],
     [ "setXx", "classmeshlib_1_1SymMatrix4i64.html#ac066f840aa0e55f9237ddd593f59e19f", null ],

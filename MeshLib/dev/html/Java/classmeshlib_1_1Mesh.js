@@ -85,6 +85,7 @@ var classmeshlib_1_1Mesh =
     [ "normal", "classmeshlib_1_1Mesh.html#a4b315da88de8beed8cc37fc70694a79a", null ],
     [ "normal", "classmeshlib_1_1Mesh.html#a2d4e1305c2eaa6539d1b268a9ce339a2", null ],
     [ "opEqual", "classmeshlib_1_1Mesh.html#a2e4a1bd222e7208359cbfc00c474c984", null ],
+    [ "opNotEqual", "classmeshlib_1_1Mesh.html#a01a394e588ff3ddcc8515b0988ba71d7", null ],
     [ "orgPnt", "classmeshlib_1_1Mesh.html#aeba23c25482a6118f509ee8280cdb0e1", null ],
     [ "pack", "classmeshlib_1_1Mesh.html#a3aa3b3379362bd1f5694fd00e98d024e", null ],
     [ "pack", "classmeshlib_1_1Mesh.html#a6f254fc8df772a74f33c51b260bd3c14", null ],

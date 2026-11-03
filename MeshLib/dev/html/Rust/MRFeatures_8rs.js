@@ -20,6 +20,8 @@ var MRFeatures_8rs =
     [ "meshlib::features::name", "namespacemeshlib_1_1features.html#a2214b8b12ca3cd1a6f014e28a2716ffa", null ],
     [ "meshlib::features::primitives::op_equal_mr_features_primitives_cone_segment", "namespacemeshlib_1_1features_1_1primitives.html#a0c0c5e53005e4823eefe2c28ce2a9d88", null ],
     [ "meshlib::features::primitives::op_equal_mr_features_primitives_plane", "namespacemeshlib_1_1features_1_1primitives.html#a13d6cd7fc4ec847b8ee6b8c7b4586af7", null ],
+    [ "meshlib::features::primitives::op_not_equal_mr_features_primitives_cone_segment", "namespacemeshlib_1_1features_1_1primitives.html#ae4d1cd56b5e3fddcc68b1e0f1ff00a96", null ],
+    [ "meshlib::features::primitives::op_not_equal_mr_features_primitives_plane", "namespacemeshlib_1_1features_1_1primitives.html#a99485a733f56295db1c0c90e87765aaa", null ],
     [ "meshlib::features::primitive_circle", "namespacemeshlib_1_1features.html#a14ac61b4c3b85ebafc8e3ac4664c6f3f", null ],
     [ "meshlib::features::primitive_cone", "namespacemeshlib_1_1features.html#a3aaf134d41966c43b520b02b0d98826d", null ],
     [ "meshlib::features::primitive_cylinder", "namespacemeshlib_1_1features.html#aaf2e693e3a6f6283bd4e549dd5b288bb", null ],

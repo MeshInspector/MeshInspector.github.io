@@ -8,6 +8,7 @@ var classmeshlib_1_1EdgePointPair =
     [ "assignFromAnother", "classmeshlib_1_1EdgePointPair.html#ac7a08c8c2c090c4ea469e8677b97c58c", null ],
     [ "b", "classmeshlib_1_1EdgePointPair.html#adaebc562190d5dcf39c3bebe438e2bc4", null ],
     [ "opEqual", "classmeshlib_1_1EdgePointPair.html#a0883c3789a1b946d36599a3ebe03b840", null ],
+    [ "opNotEqual", "classmeshlib_1_1EdgePointPair.html#af59ca75d4b5ac80ebb0b0d607f1ffccc", null ],
     [ "setA", "classmeshlib_1_1EdgePointPair.html#aff09b60a0ef49cc2539cd602faa001af", null ],
     [ "setB", "classmeshlib_1_1EdgePointPair.html#a5113202d5d6d68138530c9e658ed0469", null ]
 ];

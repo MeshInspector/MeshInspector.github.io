@@ -19,7 +19,7 @@ var MRObjectVoxels_8h =
       [ "MR_ObjectVoxels_VolumeRenderingParams_ShadingType_ValueGradient", "MRObjectVoxels_8h.html#a65a820e29a9b216c318a156ff3751198a32b30dc3da220d5ea1c7e8ebfbfbefe9", null ],
       [ "MR_ObjectVoxels_VolumeRenderingParams_ShadingType_AlphaGradient", "MRObjectVoxels_8h.html#a65a820e29a9b216c318a156ff3751198a703afe4f067b0bb60ec936653cf542fa", null ]
     ] ],
-    [ "MR_equal_MR_ObjectVoxels_VolumeRenderingParams", "MRObjectVoxels_8h.html#a26f7af611aeb6bbf34ba1129c2d1d253", null ],
+    [ "MR_not_equal_MR_ObjectVoxels_VolumeRenderingParams", "MRObjectVoxels_8h.html#a64b7ae7f1a8f2720e5846b74110dd01c", null ],
     [ "MR_ObjectVoxels_applyScale", "MRObjectVoxels_8h.html#a2dc3f76d4042393dad23c9d2e3b8b175", null ],
     [ "MR_ObjectVoxels_AssignFromAnother", "MRObjectVoxels_8h.html#aeb59712992e6fe04ef2ae48ce33c22a8", null ],
     [ "MR_ObjectVoxels_className", "MRObjectVoxels_8h.html#abf6db5cf6fdc1248c1436ab2b3d075aa", null ],

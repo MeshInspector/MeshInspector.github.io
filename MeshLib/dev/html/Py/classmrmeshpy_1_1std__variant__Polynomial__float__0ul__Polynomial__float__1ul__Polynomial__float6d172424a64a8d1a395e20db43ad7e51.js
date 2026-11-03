@@ -1,20 +1,12 @@
 var classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51 =
 [
     [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a6fdfee4ba4ec65ea98f60c7a99488a80", null ],
-    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ab0107cd1bc4ebb326d33041090632756", null ],
-    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a04f34b426d3df0224e2877163e6631f1", null ],
-    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a0cb057e73eaad49e5c14d81cb02ca9db", null ],
-    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a4806beb5b78b640f13e8fe9d18cdcf77", null ],
-    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a7c9702401a71d8a4a00194e886858501", null ],
-    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a82e18bf90720e85d217e14aa733cf402", null ],
-    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad48f7293c8583cc0699f50295081b939", null ],
-    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a3a75723f7088d2e51f0a5cb341c00e6a", null ],
-    [ "current_type", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a2e9e9640d88b53b872067babeb86f2e5", null ],
-    [ "get_Polynomial_float_0ul", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a71a29412870dcd810e2b3ce874644d5c", null ],
-    [ "get_Polynomial_float_1ul", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ae409c0b328db61754197b1a3bff6a10f", null ],
-    [ "get_Polynomial_float_2ul", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a056fb0e923a1e8759422070f5009dbd6", null ],
-    [ "get_Polynomial_float_3ul", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad7039f72985cce99f2fe4f64de506e4c", null ],
-    [ "get_Polynomial_float_4ul", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ab508b35cc0296b6f3ac78fd6c90c7bca", null ],
-    [ "get_Polynomial_float_5ul", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a7d1f0914d67ceac16d13ed0ba25dc8ff", null ],
-    [ "get_Polynomial_float_6ul", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a9ac390828d67204a5bc87cd2b5a250d3", null ]
+    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#af69b0d84ce64160f9ba22c612b0bc249", null ],
+    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad05fd4cccb949b38256a3ba64de1e18d", null ],
+    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a2a30fb519df401d9196727a9b8aaab01", null ],
+    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a79a67d6af869a46536d4063e37491c91", null ],
+    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a736d783313124b8c28fd2040e991f29a", null ],
+    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#af5d38a95fd9e5221c90ffb5cf509b9d9", null ],
+    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a9c44ff6641852ae8f72b48bada8bedec", null ],
+    [ "__init__", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#a4a1799c9bb45238044ab8e13bce7b713", null ]
 ];

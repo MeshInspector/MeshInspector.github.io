@@ -10,5 +10,6 @@ var MRMeshCollidePrecise_8rs =
     [ "meshlib::get_vector_converters", "namespacemeshlib.html#af7ea6dc3a6a412e1a492cc00b561fcbd", null ],
     [ "meshlib::get_vector_converters_one_part", "namespacemeshlib.html#aae0c20a9eeee8de4d6ae6a6496e3f629", null ],
     [ "meshlib::op_equal_mr_edge_tri", "namespacemeshlib.html#a15fe960733d3282f844f2691cf7466bd", null ],
+    [ "meshlib::op_not_equal_mr_edge_tri", "namespacemeshlib.html#a1989201279c4ee407b41003f4ce5ac66", null ],
     [ "meshlib::update_colliding_edge_tris_precise", "namespacemeshlib.html#a9cb35fe0b2278d8adba9ba2f827a89e3", null ]
 ];

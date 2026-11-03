@@ -153,6 +153,12 @@ $(function(){initNavTree('structmeshlib_1_1SliceInfoBase.html','','structmeshlib
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2e44136cb9af28c3cdc1b1e8a4b2c387" id="r_a2e44136cb9af28c3cdc1b1e8a4b2c387"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e44136cb9af28c3cdc1b1e8a4b2c387">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a></td></tr>
+<tr class="memitem:a30bb7baed7946f65da6da37db1019f5d" id="r_a30bb7baed7946f65da6da37db1019f5d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30bb7baed7946f65da6da37db1019f5d">op_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a30e06a36395167dde6172ecd31b5e5c7" id="r_a30e06a36395167dde6172ecd31b5e5c7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30e06a36395167dde6172ecd31b5e5c7">op_not_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a905dc38752803cf822a441e26ab80582" id="r_a905dc38752803cf822a441e26ab80582"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a905dc38752803cf822a441e26ab80582">op_less</a> (_1:&amp;<a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a1fd0bceb2d7a92431a5edae6dbb012d2" id="r_a1fd0bceb2d7a92431a5edae6dbb012d2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fd0bceb2d7a92431a5edae6dbb012d2">op_greater</a> (_1:&amp;<a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a4a7562a5154e48e7d193a7b7687bea22" id="r_a4a7562a5154e48e7d193a7b7687bea22"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a7562a5154e48e7d193a7b7687bea22">op_less_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a610d37674888c4c4931b274965f00acb" id="r_a610d37674888c4c4931b274965f00acb"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a610d37674888c4c4931b274965f00acb">op_greater_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a>) const -&gt; bool</td></tr>
 <tr class="memitem:a769862460eb858c51624eab91e9b1858" id="r_a769862460eb858c51624eab91e9b1858"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a769862460eb858c51624eab91e9b1858">instance_num</a> () const -&gt; &amp;core::ffi::c_int</td></tr>
 <tr class="memitem:a5d3aaf02853c4d3cb39455169db44c6f" id="r_a5d3aaf02853c4d3cb39455169db44c6f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d3aaf02853c4d3cb39455169db44c6f">instance_num_mut</a> () -&gt; &amp;mut core::ffi::c_int</td></tr>
 <tr class="memitem:a3efe47f038740446d507a3fb7f18bd72" id="r_a3efe47f038740446d507a3fb7f18bd72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3efe47f038740446d507a3fb7f18bd72">set_instance_num</a> (value:core::ffi::c_int)</td></tr>
@@ -359,6 +365,120 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructs an empty (default-constructed) instance.</p>
 <p>Calls <span class="tt">MR_SliceInfoBase_DefaultConstruct()</span>. </p>
+
+</div>
+</div>
+<a id="a30bb7baed7946f65da6da37db1019f5d" name="a30bb7baed7946f65da6da37db1019f5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30bb7baed7946f65da6da37db1019f5d">&#9670;&#160;</a></span>op_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::SliceInfoBase::op_equal </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfoBase::operator==</span>.</p>
+<p>Calls <span class="tt">MR_equal_MR_SliceInfoBase()</span>. </p>
+
+</div>
+</div>
+<a id="a1fd0bceb2d7a92431a5edae6dbb012d2" name="a1fd0bceb2d7a92431a5edae6dbb012d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fd0bceb2d7a92431a5edae6dbb012d2">&#9670;&#160;</a></span>op_greater()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::SliceInfoBase::op_greater </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfoBase::operator&gt;</span>.</p>
+<p>Calls <span class="tt">MR_greater_MR_SliceInfoBase()</span>. </p>
+
+</div>
+</div>
+<a id="a610d37674888c4c4931b274965f00acb" name="a610d37674888c4c4931b274965f00acb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a610d37674888c4c4931b274965f00acb">&#9670;&#160;</a></span>op_greater_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::SliceInfoBase::op_greater_equal </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfoBase::operator&gt;=</span>.</p>
+<p>Calls <span class="tt">MR_greater_equal_MR_SliceInfoBase()</span>. </p>
+
+</div>
+</div>
+<a id="a905dc38752803cf822a441e26ab80582" name="a905dc38752803cf822a441e26ab80582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a905dc38752803cf822a441e26ab80582">&#9670;&#160;</a></span>op_less()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::SliceInfoBase::op_less </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfoBase::operator&lt;</span>.</p>
+<p>Calls <span class="tt">MR_less_MR_SliceInfoBase()</span>. </p>
+
+</div>
+</div>
+<a id="a4a7562a5154e48e7d193a7b7687bea22" name="a4a7562a5154e48e7d193a7b7687bea22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a7562a5154e48e7d193a7b7687bea22">&#9670;&#160;</a></span>op_less_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::SliceInfoBase::op_less_equal </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfoBase::operator&lt;=</span>.</p>
+<p>Calls <span class="tt">MR_less_equal_MR_SliceInfoBase()</span>. </p>
+
+</div>
+</div>
+<a id="a30e06a36395167dde6172ecd31b5e5c7" name="a30e06a36395167dde6172ecd31b5e5c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30e06a36395167dde6172ecd31b5e5c7">&#9670;&#160;</a></span>op_not_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::SliceInfoBase::op_not_equal </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1SliceInfoBase.html">meshlib::SliceInfoBase</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfoBase::operator!=</span>.</p>
+<p>Calls <span class="tt">MR_not_equal_MR_SliceInfoBase()</span>. </p>
 
 </div>
 </div>

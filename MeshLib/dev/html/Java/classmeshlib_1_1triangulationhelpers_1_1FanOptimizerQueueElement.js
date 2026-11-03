@@ -10,6 +10,7 @@ var classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement =
     [ "nextId", "classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#a0d0ad184ceecc1ba954065fb7ba0e18f", null ],
     [ "opEqual", "classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#ada2bff1e47d32310755f128d9b226999", null ],
     [ "opLess", "classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#ac6876d2439979421cab35b8691125071", null ],
+    [ "opNotEqual", "classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#a2c7e5cea5fcca9706641a7032db16328", null ],
     [ "prevId", "classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#a1db505ad22bfd6066bafea03d5e1c0c7", null ],
     [ "setId", "classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#a090a8b67b23ec548fe793623ce62d0ea", null ],
     [ "setNextId", "classmeshlib_1_1triangulationhelpers_1_1FanOptimizerQueueElement.html#a5fe8002aedbbd8174e68f61bdc169642", null ],

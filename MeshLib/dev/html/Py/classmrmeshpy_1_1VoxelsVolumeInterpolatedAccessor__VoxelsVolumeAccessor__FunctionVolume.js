@@ -1,6 +1,5 @@
 var classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__FunctionVolume =
 [
-    [ "__init__", "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__FunctionVolume.html#ab9df927213f4e03e8dc49956ecc4f28d", null ],
-    [ "__init__", "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__FunctionVolume.html#a71914fc84d4c78dbffec5095fbc9213c", null ],
-    [ "get", "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__FunctionVolume.html#a0201921a12061dafb5877b97d27899ee", null ]
+    [ "__init__", "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__FunctionVolume.html#a4076b6eb9f879b985598188abf9aa48d", null ],
+    [ "__init__", "classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__FunctionVolume.html#addf5b62e1810a3943c5d4a8eb9eb2413", null ]
 ];

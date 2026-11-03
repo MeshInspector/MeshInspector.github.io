@@ -72,6 +72,8 @@ var MRMeshTriPoint_8h =
     [ "MR_MeshTriPointd_Set_bary", "MRMeshTriPoint_8h.html#a25d48d59f6add2e33fcd4f35d5f77f31", null ],
     [ "MR_MeshTriPointd_Set_e", "MRMeshTriPoint_8h.html#ac653545c0eb5a0a06d5e697658836b9e", null ],
     [ "MR_MeshTriPointd_valid", "MRMeshTriPoint_8h.html#a1cb7c900f79cde663fb1859fd7c877c7", null ],
+    [ "MR_not_equal_MR_MeshTriPoint", "MRMeshTriPoint_8h.html#a96b64626d523d644d4e2db841bcc9bc5", null ],
+    [ "MR_not_equal_MR_MeshTriPointd", "MRMeshTriPoint_8h.html#a07399800b596dd3ce65e4e50bca88da6", null ],
     [ "MR_same_double_MR_MeshTriPointd", "MRMeshTriPoint_8h.html#a23ace2dd9b123f56199e1860420e4015", null ],
     [ "MR_same_float_MR_MeshTriPoint", "MRMeshTriPoint_8h.html#a0266f6a17691d6e029ff18beeb8cd93f", null ],
     [ "MR_WeightedVertex_AssignFromAnother", "MRMeshTriPoint_8h.html#adc6c11771941a099d8ae036161eed497", null ],

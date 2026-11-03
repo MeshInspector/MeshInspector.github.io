@@ -12,6 +12,7 @@ var classmeshlib_1_1VarEdgeTri =
     [ "flaggedTri", "classmeshlib_1_1VarEdgeTri.html#a25018ce6a876fd5a960f79b01e0d1ce3", null ],
     [ "isEdgeATriB", "classmeshlib_1_1VarEdgeTri.html#a0f49aae7fc613ab43715245385232830", null ],
     [ "opEqual", "classmeshlib_1_1VarEdgeTri.html#a208865094f528a1fde3530247694fa75", null ],
+    [ "opNotEqual", "classmeshlib_1_1VarEdgeTri.html#ab73502c47bed5278ead904e7d803c4c4", null ],
     [ "setEdge", "classmeshlib_1_1VarEdgeTri.html#a12e0b012131da89848c7aac0e89da2f4", null ],
     [ "setFlaggedTri", "classmeshlib_1_1VarEdgeTri.html#ae8d388a9b7014154561250adeb0aee39", null ],
     [ "tri", "classmeshlib_1_1VarEdgeTri.html#ade2e2a03ecc3b9fb08dbf4f327eca150", null ],

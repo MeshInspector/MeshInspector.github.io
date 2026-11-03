@@ -7,5 +7,6 @@ var classmeshlib_1_1ConstChildren__Iterator =
     [ "opEqual", "classmeshlib_1_1ConstChildren__Iterator.html#a3a575feea0e8d5b3ff9d74b7110a2856", null ],
     [ "opIncr", "classmeshlib_1_1ConstChildren__Iterator.html#af7323888a865354f7746738aa9b39c32", null ],
     [ "opMul", "classmeshlib_1_1ConstChildren__Iterator.html#a6d7b341a023c46db95b8f041968941bc", null ],
+    [ "opNotEqual", "classmeshlib_1_1ConstChildren__Iterator.html#a6af8b58e3833d507b3493f13821c76f4", null ],
     [ "opPostIncr", "classmeshlib_1_1ConstChildren__Iterator.html#a08a0828e8932bb0468047d0c25cba372", null ]
 ];

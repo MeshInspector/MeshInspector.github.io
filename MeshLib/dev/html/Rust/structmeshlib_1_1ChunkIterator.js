@@ -9,6 +9,7 @@ var structmeshlib_1_1ChunkIterator =
     [ "op_deref", "structmeshlib_1_1ChunkIterator.html#ae601199d56c7d039124aef648c246c1a", null ],
     [ "op_equal", "structmeshlib_1_1ChunkIterator.html#ad1c634e83bc818ed1931fc25d633a2b8", null ],
     [ "op_incr", "structmeshlib_1_1ChunkIterator.html#a82bb8f8cc17ec18add187fc432e3a4e2", null ],
+    [ "op_not_equal", "structmeshlib_1_1ChunkIterator.html#a5d2a60452026dde42047e5b58f6c1048", null ],
     [ "op_post_incr", "structmeshlib_1_1ChunkIterator.html#a656db6abeeba5a64230ed541ce8dbd46", null ],
     [ "overlap", "structmeshlib_1_1ChunkIterator.html#aa582905141cfdb9bf7b6e3ff73be9f2e", null ],
     [ "overlap_mut", "structmeshlib_1_1ChunkIterator.html#a86212030addbca06334a0ccb3645824d", null ],

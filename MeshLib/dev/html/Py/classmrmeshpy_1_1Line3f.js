@@ -1,18 +1,13 @@
 var classmrmeshpy_1_1Line3f =
 [
     [ "__init__", "classmrmeshpy_1_1Line3f.html#a7624cb3c8dae2e522fe185265de5c67b", null ],
-    [ "__init__", "classmrmeshpy_1_1Line3f.html#a373b580f4cd839353743dbb49d2f8595", null ],
-    [ "__init__", "classmrmeshpy_1_1Line3f.html#abd6a4896e0903d184cbccc7e39253aba", null ],
-    [ "__init__", "classmrmeshpy_1_1Line3f.html#afddfcb6a74239e742df6c18a771dad7e", null ],
-    [ "__call__", "classmrmeshpy_1_1Line3f.html#ab21e88d95289ac1fcbc0c20bb00e2609", null ],
-    [ "__neg__", "classmrmeshpy_1_1Line3f.html#ac434cace0784594cc2b12ce0155dd156", null ],
-    [ "__pos__", "classmrmeshpy_1_1Line3f.html#ab236f55fe0c19a1e19d02704341c8613", null ],
-    [ "__repr__", "classmrmeshpy_1_1Line3f.html#a8c0bf25028b5d756ba53836d36a465ad", null ],
-    [ "__rlshift__", "classmrmeshpy_1_1Line3f.html#a0bab9fc33bdfca4dc36f142e227b4260", null ],
+    [ "__init__", "classmrmeshpy_1_1Line3f.html#a6c36e5d9c537c27ee7a1460d7251baf3", null ],
+    [ "__init__", "classmrmeshpy_1_1Line3f.html#a0e5fdbf32c5709e42cbf5e3062114e07", null ],
+    [ "__init__", "classmrmeshpy_1_1Line3f.html#ac3623567240888196f10c594ca93cd73", null ],
     [ "__rrshift__", "classmrmeshpy_1_1Line3f.html#a868fdf8c900b75cc285db8122f1083e6", null ],
-    [ "assign", "classmrmeshpy_1_1Line3f.html#aaccbbe547b2be73d8eaa5ccc094cbceb", null ],
-    [ "distanceSq", "classmrmeshpy_1_1Line3f.html#a49c6f0a16cc692467b6c9ceaed9f6733", null ],
-    [ "normalized", "classmrmeshpy_1_1Line3f.html#a1ae745c847d72be534aeec4e6fb4afe7", null ],
-    [ "project", "classmrmeshpy_1_1Line3f.html#a4d2722eeb4345165c424cb000ca87f1a", null ],
-    [ "projectionParam", "classmrmeshpy_1_1Line3f.html#a84eb695dffb2d752ebc507ddd30e7444", null ]
+    [ "assign", "classmrmeshpy_1_1Line3f.html#a0745297ebd4e0bbc2c8f2513c05a5c36", null ],
+    [ "d", "classmrmeshpy_1_1Line3f.html#a6298ae9ad61f36a73eae7a9f03b1c270", null ],
+    [ "d", "classmrmeshpy_1_1Line3f.html#a5228f0e8098a89944e824e4b0aa3989d", null ],
+    [ "p", "classmrmeshpy_1_1Line3f.html#aeadc0340a446c75d77a371c1a4211c20", null ],
+    [ "p", "classmrmeshpy_1_1Line3f.html#a6c5a9e4f5de8379c1b3d1368f177cbb1", null ]
 ];

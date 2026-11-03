@@ -279,6 +279,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a56528808b0d31e37c7ede8faeb5515c5" id="r_a56528808b0d31e37c7ede8faeb5515c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56528808b0d31e37c7ede8faeb5515c5">write</a> (s:&amp;mut <a class="el" href="structmeshlib_1_1std__ostream.html">meshlib::std_ostream</a>) const</td></tr>
 <tr class="memitem:a1de53c3442c3a0e743abc010fe50cc3f" id="r_a1de53c3442c3a0e743abc010fe50cc3f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1de53c3442c3a0e743abc010fe50cc3f">read</a> (s:&amp;mut <a class="el" href="structmeshlib_1_1std__istream.html">meshlib::std_istream</a>, callback:Option&lt;&amp;<a class="el" href="structmeshlib_1_1std__function__bool__from__float.html">meshlib::std_function_bool_from_float</a> &gt;) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1expected__void__std__string.html">meshlib::expected_void_std_string</a> &gt;</td></tr>
 <tr class="memitem:a5409ba30dec06358c080159ef963535a" id="r_a5409ba30dec06358c080159ef963535a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5409ba30dec06358c080159ef963535a">op_equal</a> (b:&amp;<a class="el" href="structmeshlib_1_1MeshTopology.html">meshlib::MeshTopology</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a7718b246c640f496b4c84adf1207216a" id="r_a7718b246c640f496b4c84adf1207216a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7718b246c640f496b4c84adf1207216a">op_not_equal</a> (b:&amp;<a class="el" href="structmeshlib_1_1MeshTopology.html">meshlib::MeshTopology</a>) const -&gt; bool</td></tr>
 <tr class="memitem:a65f5119f0d28105ad5a7472a058153fe" id="r_a65f5119f0d28105ad5a7472a058153fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65f5119f0d28105ad5a7472a058153fe">resize_before_parallel_add</a> (edgeSize:usize, vertSize:usize, faceSize:usize)</td></tr>
 <tr class="memitem:a1a5867e7a4941588edc462e2c5875e3b" id="r_a1a5867e7a4941588edc462e2c5875e3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a5867e7a4941588edc462e2c5875e3b">add_packed_part</a> (from:&amp;<a class="el" href="structmeshlib_1_1MeshTopology.html">meshlib::MeshTopology</a>, toEdgeId:meshlib::EdgeId, fmap:&amp;<a class="el" href="structmeshlib_1_1FaceMap.html">meshlib::FaceMap</a>, vmap:&amp;<a class="el" href="structmeshlib_1_1VertMap.html">meshlib::VertMap</a>)</td></tr>
 <tr class="memitem:af12520f77e8272d345e1b1b739cba655" id="r_af12520f77e8272d345e1b1b739cba655"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af12520f77e8272d345e1b1b739cba655">compute_valids_from_edges</a> (cb:Option&lt;&amp;<a class="el" href="structmeshlib_1_1std__function__bool__from__float.html">meshlib::std_function_bool_from_float</a> &gt;) -&gt; bool</td></tr>
@@ -2627,6 +2628,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>compare that two topologies are exactly the same Generated from method <span class="tt">MR::MeshTopology::operator==</span>.</p>
 <p>Calls <span class="tt">MR_equal_MR_MeshTopology()</span>. </p>
+
+</div>
+</div>
+<a id="a7718b246c640f496b4c84adf1207216a" name="a7718b246c640f496b4c84adf1207216a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7718b246c640f496b4c84adf1207216a">&#9670;&#160;</a></span>op_not_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::MeshTopology::op_not_equal </td>
+          <td>(</td>
+          <td class="paramtype">b:&amp;<a class="el" href="structmeshlib_1_1MeshTopology.html">meshlib::MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::MeshTopology::operator!=</span>.</p>
+<p>Calls <span class="tt">MR_not_equal_MR_MeshTopology()</span>. </p>
 
 </div>
 </div>

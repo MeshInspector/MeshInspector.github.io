@@ -1,0 +1,25 @@
+var classmrmeshpy_1_1ConstSubdivideSettings =
+[
+    [ "__init__", "classmrmeshpy_1_1ConstSubdivideSettings.html#a1ef65553bb82f194c8b3fc52aa47c166", null ],
+    [ "beforeEdgeSplit", "classmrmeshpy_1_1ConstSubdivideSettings.html#a6ae951a24a7ad5412b1d36bc575ec635", null ],
+    [ "criticalAspectRatioFlip", "classmrmeshpy_1_1ConstSubdivideSettings.html#ac75d0de36fd8a2f5745a887c47693fb9", null ],
+    [ "curvaturePriority", "classmrmeshpy_1_1ConstSubdivideSettings.html#aa5ebe05b9f6a5a9cb20875ebb82ace2b", null ],
+    [ "maintainRegion", "classmrmeshpy_1_1ConstSubdivideSettings.html#ae44517cce3f476d04f63c0e230e2f8e5", null ],
+    [ "maxAngleChangeAfterFlip", "classmrmeshpy_1_1ConstSubdivideSettings.html#af7a420820d6a0df9a811e2a4eef78824", null ],
+    [ "maxDeviationAfterFlip", "classmrmeshpy_1_1ConstSubdivideSettings.html#a58b5619f842cd1107cab1b0e80a570fc", null ],
+    [ "maxEdgeLen", "classmrmeshpy_1_1ConstSubdivideSettings.html#a688b9b37422f4bb685c40eb6e482e20b", null ],
+    [ "maxEdgeSplits", "classmrmeshpy_1_1ConstSubdivideSettings.html#ae7744a6d0257614dd1a6365b0b0a3a6a", null ],
+    [ "maxSplittableTriAspectRatio", "classmrmeshpy_1_1ConstSubdivideSettings.html#a4260afac21ac26b1e2487b5f554e3013", null ],
+    [ "maxTriAspectRatio", "classmrmeshpy_1_1ConstSubdivideSettings.html#ad19ce56034b7b8a024abbcaced6d3bd9", null ],
+    [ "minSharpDihedralAngle", "classmrmeshpy_1_1ConstSubdivideSettings.html#a2f61dc7ff449967eb7ea063f25d95715", null ],
+    [ "newVerts", "classmrmeshpy_1_1ConstSubdivideSettings.html#af5b9e9ff66c4b4394ada4eb00ec0142c", null ],
+    [ "notFlippable", "classmrmeshpy_1_1ConstSubdivideSettings.html#a5b2d59a4053f2e7a55d6cb9175593fa0", null ],
+    [ "onEdgeSplit", "classmrmeshpy_1_1ConstSubdivideSettings.html#a8f4ec5009172cc10619d8ca72823002e", null ],
+    [ "onlyNearNotFlippable", "classmrmeshpy_1_1ConstSubdivideSettings.html#aae234800a330f56e37907cfa85b63152", null ],
+    [ "onVertCreated", "classmrmeshpy_1_1ConstSubdivideSettings.html#a3006fb80acf5110d711faed2af3eb8a0", null ],
+    [ "progressCallback", "classmrmeshpy_1_1ConstSubdivideSettings.html#a98ac5b466e622b08c5724934bbc4120c", null ],
+    [ "projectOnOriginalMesh", "classmrmeshpy_1_1ConstSubdivideSettings.html#a813a5689f9cffb63f77228ad6ca9e37f", null ],
+    [ "region", "classmrmeshpy_1_1ConstSubdivideSettings.html#a43e20f1468a945d0314247c76e81e946", null ],
+    [ "smoothMode", "classmrmeshpy_1_1ConstSubdivideSettings.html#a455becfa75f60442e207f5e26e27e4f0", null ],
+    [ "subdivideBorder", "classmrmeshpy_1_1ConstSubdivideSettings.html#af55ed07224aceb53cc3a774765a0bad2", null ]
+];

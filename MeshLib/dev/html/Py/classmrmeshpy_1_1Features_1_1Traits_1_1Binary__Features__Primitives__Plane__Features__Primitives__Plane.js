@@ -1,8 +1,7 @@
 var classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane =
 [
     [ "__init__", "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html#aa2aca0e06bc3125d291d554b70eca852", null ],
-    [ "__init__", "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html#ae6e827ea1bb5bc08c668c2d49ee829a2", null ],
+    [ "__init__", "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html#a46f212d1b2a5207a4b059903236a115a", null ],
     [ "__init__", "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html#aa2aca0e06bc3125d291d554b70eca852", null ],
-    [ "assign", "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html#afcd144d750cdc7c11b0b9f8ee0e3fd65", null ],
-    [ "measure", "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html#a35bf8c27b2e9f66ce2b70643830b065b", null ]
+    [ "assign", "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__Plane.html#a536bdd38ce652e1bd06f6abd4151a161", null ]
 ];

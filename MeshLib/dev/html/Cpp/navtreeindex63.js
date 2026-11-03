@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1Ball.html":[9,0,0,19,136],
+"structMR_1_1BallPivotCandidate.html":[9,0,0,19,134],
+"structMR_1_1BaseFitParams.html":[9,0,0,19,610],
+"structMR_1_1BaseRenderParams.html":[9,0,0,19,315],
 "structMR_1_1BaseShellParameters.html":[9,0,0,19,879],
 "structMR_1_1BasicUiRenderTask.html":[9,0,0,19,318],
 "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[9,0,0,19,319],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1DecimateSettings.html#adcc8d3606bda7323ca4c7b6f6866df2c":[9,0,0,10,0,6],
 "structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e":[9,0,0,10,0,31],
 "structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07":[9,0,0,10,0,7],
-"structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[9,0,0,10,0,30],
-"structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[9,0,0,10,0,13],
-"structMR_1_1DecimateSettings.html#afc72ed6f7c868487d053596c86220d6f":[9,0,0,10,0,16],
-"structMR_1_1DeloneFlipsCache.html":[9,0,1,0,1,215],
-"structMR_1_1DeloneFlipsCache.html":[9,0,2,0,1,195]
+"structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[9,0,0,10,0,30]
 };

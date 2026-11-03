@@ -1,7 +1,6 @@
 var classmrmeshpy_1_1NoDefInit__UndirectedEdgeId =
 [
     [ "__init__", "classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html#ad425cde442cc64bd9bb2de05083103eb", null ],
-    [ "__init__", "classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html#a9f3a9a8020bb40d0e3f5205206420332", null ],
-    [ "__repr__", "classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html#af99938d72830659028d148b3c32b34b8", null ],
-    [ "assign", "classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html#ab9a9b2f6ed3d6c5513f8542e4398b1b7", null ]
+    [ "__init__", "classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html#aed5c526e387afe5080feffd70320d441", null ],
+    [ "assign", "classmrmeshpy_1_1NoDefInit__UndirectedEdgeId.html#a972243abde7e865572e4ec0069103921", null ]
 ];

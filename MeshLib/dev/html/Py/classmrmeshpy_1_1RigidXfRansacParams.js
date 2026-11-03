@@ -1,9 +1,9 @@
 var classmrmeshpy_1_1RigidXfRansacParams =
 [
     [ "__init__", "classmrmeshpy_1_1RigidXfRansacParams.html#a1d36bdf1fc89f82a04ca5585582872ff", null ],
-    [ "__init__", "classmrmeshpy_1_1RigidXfRansacParams.html#a384e63b436ee7e72a7bc9202c49210ba", null ],
-    [ "__init__", "classmrmeshpy_1_1RigidXfRansacParams.html#aef375bf7d4cf4952bf7fad197b5f88a3", null ],
-    [ "assign", "classmrmeshpy_1_1RigidXfRansacParams.html#a25372285a237dffc36070b29a37e91ef", null ],
+    [ "__init__", "classmrmeshpy_1_1RigidXfRansacParams.html#a78a7b40d5f5f9193cc5c31fe7eaa3169", null ],
+    [ "__init__", "classmrmeshpy_1_1RigidXfRansacParams.html#a9033a3c5e62f2c310405a2c9d218d4b1", null ],
+    [ "assign", "classmrmeshpy_1_1RigidXfRansacParams.html#a511bd8803e8a7111706cc580b71bacd5", null ],
     [ "confidence", "classmrmeshpy_1_1RigidXfRansacParams.html#a8b8f150013d824bbd0993fe8339636f7", null ],
     [ "confidence", "classmrmeshpy_1_1RigidXfRansacParams.html#a1dd1de6d656a90c5c179cf27aebbad7b", null ],
     [ "edgeLengthRatio", "classmrmeshpy_1_1RigidXfRansacParams.html#a48f4033c491f95d79d7060ca584e3a40", null ],
@@ -12,10 +12,14 @@ var classmrmeshpy_1_1RigidXfRansacParams =
     [ "inlierDistance", "classmrmeshpy_1_1RigidXfRansacParams.html#a519c5153fb5c8baa6067552bc929f4ed", null ],
     [ "maxIterations", "classmrmeshpy_1_1RigidXfRansacParams.html#a1c15c154c0ea2a939f301f04bc6a45a7", null ],
     [ "maxIterations", "classmrmeshpy_1_1RigidXfRansacParams.html#ae51b6af0458e08015d2486d9c715dce4", null ],
+    [ "overlapSrcCloud", "classmrmeshpy_1_1RigidXfRansacParams.html#ae60bd0188ae7b8c97beb3d0161542578", null ],
+    [ "overlapSrcCloud", "classmrmeshpy_1_1RigidXfRansacParams.html#a2dae5291e5d74c78d2611690bed919ad", null ],
     [ "overlapSrcPoints", "classmrmeshpy_1_1RigidXfRansacParams.html#a63db68764b31fb6d8d2a6405df195876", null ],
-    [ "overlapSrcPoints", "classmrmeshpy_1_1RigidXfRansacParams.html#ad3e70918600cd8c9181408f7ac3b505f", null ],
+    [ "overlapSrcPoints", "classmrmeshpy_1_1RigidXfRansacParams.html#a6fb19089987b958bdfea3c2d8cf51b63", null ],
+    [ "overlapTgtCloud", "classmrmeshpy_1_1RigidXfRansacParams.html#aab135d5bf84deb9c19be1975e7d828cb", null ],
+    [ "overlapTgtCloud", "classmrmeshpy_1_1RigidXfRansacParams.html#a61a504130ea71881666f7e39a556d3b1", null ],
     [ "overlapTgtPoints", "classmrmeshpy_1_1RigidXfRansacParams.html#a8570959d76bf391cd8fa246abbb9cc3e", null ],
-    [ "overlapTgtPoints", "classmrmeshpy_1_1RigidXfRansacParams.html#ab742ada033abbb727975d71e7ca1bbae", null ],
+    [ "overlapTgtPoints", "classmrmeshpy_1_1RigidXfRansacParams.html#ab466f3991b22ba7e9da70a3137140f57", null ],
     [ "seed", "classmrmeshpy_1_1RigidXfRansacParams.html#a241ab0bef65a12e8b3c6f2f01fcaf16f", null ],
     [ "seed", "classmrmeshpy_1_1RigidXfRansacParams.html#ada8acb58e89c06b2351403c6974931df", null ]
 ];

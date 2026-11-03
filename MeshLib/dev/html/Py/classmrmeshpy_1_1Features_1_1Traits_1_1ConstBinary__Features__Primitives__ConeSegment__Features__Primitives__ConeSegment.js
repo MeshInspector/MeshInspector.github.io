@@ -1,0 +1,5 @@
+var classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Features__Primitives__ConeSegment =
+[
+    [ "__init__", "classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Features__Primitives__ConeSegment.html#a07b87bf39e43809323a3575e7e775356", null ],
+    [ "measure", "classmrmeshpy_1_1Features_1_1Traits_1_1ConstBinary__Features__Primitives__ConeSegment__Features__Primitives__ConeSegment.html#a11d54cf9a6ca5b99ade1ffdf1a069a77", null ]
+];

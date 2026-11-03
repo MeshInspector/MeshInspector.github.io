@@ -153,6 +153,12 @@ $(function(){initNavTree('structmeshlib_1_1FaceFace.html','','structmeshlib_1_1F
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a23a6bbc9c58491ad5e87d983007c3291" id="r_a23a6bbc9c58491ad5e87d983007c3291"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23a6bbc9c58491ad5e87d983007c3291">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a></td></tr>
+<tr class="memitem:a6a28d76d36b9c3fe1df805b042169ab6" id="r_a6a28d76d36b9c3fe1df805b042169ab6"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a28d76d36b9c3fe1df805b042169ab6">op_equal</a> (rhs:&amp;<a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a9567c33db73e8bf8e423514a8c54b998" id="r_a9567c33db73e8bf8e423514a8c54b998"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9567c33db73e8bf8e423514a8c54b998">op_not_equal</a> (rhs:&amp;<a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a1c35737c08572c5ad4f487bdd331bf54" id="r_a1c35737c08572c5ad4f487bdd331bf54"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c35737c08572c5ad4f487bdd331bf54">op_less</a> (rhs:&amp;<a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a71969c0e683ed61a50a3f10ffaff46ae" id="r_a71969c0e683ed61a50a3f10ffaff46ae"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71969c0e683ed61a50a3f10ffaff46ae">op_greater</a> (rhs:&amp;<a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a007dfc06bd83f3a8d01ce953afd0b820" id="r_a007dfc06bd83f3a8d01ce953afd0b820"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a007dfc06bd83f3a8d01ce953afd0b820">op_less_equal</a> (rhs:&amp;<a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a974e057d04f7120e61a7b4cb66366764" id="r_a974e057d04f7120e61a7b4cb66366764"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a974e057d04f7120e61a7b4cb66366764">op_greater_equal</a> (rhs:&amp;<a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a>) const -&gt; bool</td></tr>
 <tr class="memitem:aa02af54c741e1bc16c6a6e58850db6d9" id="r_aa02af54c741e1bc16c6a6e58850db6d9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa02af54c741e1bc16c6a6e58850db6d9">a_face</a> () const -&gt; &amp;<a class="el" href="structmeshlib_1_1FaceId.html">meshlib::FaceId</a></td></tr>
 <tr class="memitem:af8c1d95da45f0dc3171883f378817edb" id="r_af8c1d95da45f0dc3171883f378817edb"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8c1d95da45f0dc3171883f378817edb">a_face_mut</a> () -&gt; &amp;mut <a class="el" href="structmeshlib_1_1FaceId.html">meshlib::FaceId</a></td></tr>
 <tr class="memitem:a5fc052a77026521f1b911b7161f7ed46" id="r_a5fc052a77026521f1b911b7161f7ed46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fc052a77026521f1b911b7161f7ed46">set_a_face</a> (value:meshlib::FaceId)</td></tr>
@@ -351,6 +357,120 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructs an empty (default-constructed) instance.</p>
 <p>Calls <span class="tt">MR_FaceFace_DefaultConstruct()</span>. </p>
+
+</div>
+</div>
+<a id="a6a28d76d36b9c3fe1df805b042169ab6" name="a6a28d76d36b9c3fe1df805b042169ab6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a28d76d36b9c3fe1df805b042169ab6">&#9670;&#160;</a></span>op_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::FaceFace::op_equal </td>
+          <td>(</td>
+          <td class="paramtype">rhs:&amp;<a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFace::operator==</span>.</p>
+<p>Calls <span class="tt">MR_equal_MR_FaceFace()</span>. </p>
+
+</div>
+</div>
+<a id="a71969c0e683ed61a50a3f10ffaff46ae" name="a71969c0e683ed61a50a3f10ffaff46ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71969c0e683ed61a50a3f10ffaff46ae">&#9670;&#160;</a></span>op_greater()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::FaceFace::op_greater </td>
+          <td>(</td>
+          <td class="paramtype">rhs:&amp;<a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFace::operator&gt;</span>.</p>
+<p>Calls <span class="tt">MR_greater_MR_FaceFace()</span>. </p>
+
+</div>
+</div>
+<a id="a974e057d04f7120e61a7b4cb66366764" name="a974e057d04f7120e61a7b4cb66366764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a974e057d04f7120e61a7b4cb66366764">&#9670;&#160;</a></span>op_greater_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::FaceFace::op_greater_equal </td>
+          <td>(</td>
+          <td class="paramtype">rhs:&amp;<a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFace::operator&gt;=</span>.</p>
+<p>Calls <span class="tt">MR_greater_equal_MR_FaceFace()</span>. </p>
+
+</div>
+</div>
+<a id="a1c35737c08572c5ad4f487bdd331bf54" name="a1c35737c08572c5ad4f487bdd331bf54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c35737c08572c5ad4f487bdd331bf54">&#9670;&#160;</a></span>op_less()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::FaceFace::op_less </td>
+          <td>(</td>
+          <td class="paramtype">rhs:&amp;<a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFace::operator&lt;</span>.</p>
+<p>Calls <span class="tt">MR_less_MR_FaceFace()</span>. </p>
+
+</div>
+</div>
+<a id="a007dfc06bd83f3a8d01ce953afd0b820" name="a007dfc06bd83f3a8d01ce953afd0b820"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a007dfc06bd83f3a8d01ce953afd0b820">&#9670;&#160;</a></span>op_less_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::FaceFace::op_less_equal </td>
+          <td>(</td>
+          <td class="paramtype">rhs:&amp;<a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFace::operator&lt;=</span>.</p>
+<p>Calls <span class="tt">MR_less_equal_MR_FaceFace()</span>. </p>
+
+</div>
+</div>
+<a id="a9567c33db73e8bf8e423514a8c54b998" name="a9567c33db73e8bf8e423514a8c54b998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9567c33db73e8bf8e423514a8c54b998">&#9670;&#160;</a></span>op_not_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::FaceFace::op_not_equal </td>
+          <td>(</td>
+          <td class="paramtype">rhs:&amp;<a class="el" href="structmeshlib_1_1FaceFace.html">meshlib::FaceFace</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::FaceFace::operator!=</span>.</p>
+<p>Calls <span class="tt">MR_not_equal_MR_FaceFace()</span>. </p>
 
 </div>
 </div>

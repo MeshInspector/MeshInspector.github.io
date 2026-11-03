@@ -107,6 +107,7 @@ var classmeshlib_1_1MeshTopology =
     [ "numValidFaces", "classmeshlib_1_1MeshTopology.html#aae5b11e1326f9f57cd589a4b7737d58c", null ],
     [ "numValidVerts", "classmeshlib_1_1MeshTopology.html#aaad33352425fc50db7a1388a38d6ca9a", null ],
     [ "opEqual", "classmeshlib_1_1MeshTopology.html#aa377129e4281dab460a0de4e0d3b00aa", null ],
+    [ "opNotEqual", "classmeshlib_1_1MeshTopology.html#a87736aaac00539912f8a8d2744899fdf", null ],
     [ "org", "classmeshlib_1_1MeshTopology.html#a9ed1400a4da9f050b45f3e0da8a1d074", null ],
     [ "pack", "classmeshlib_1_1MeshTopology.html#aa2e9849ea65c7b6868c91ca9acda5cca", null ],
     [ "pack", "classmeshlib_1_1MeshTopology.html#af373ae1e2375263ca2c516cbb044cd01", null ],

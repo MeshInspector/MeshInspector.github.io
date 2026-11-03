@@ -1,9 +1,9 @@
 var classmrmeshpy_1_1TrimOptionalOutput =
 [
     [ "__init__", "classmrmeshpy_1_1TrimOptionalOutput.html#abea30965da12a57e791b1a3d7b7bc816", null ],
-    [ "__init__", "classmrmeshpy_1_1TrimOptionalOutput.html#a60c277f9ec8a303b6488c25c65ca73ae", null ],
+    [ "__init__", "classmrmeshpy_1_1TrimOptionalOutput.html#ad7a2bccacc3256902cb28465c60ee443", null ],
     [ "__init__", "classmrmeshpy_1_1TrimOptionalOutput.html#abc1b392aa9ae284372d914d132a221b1", null ],
-    [ "assign", "classmrmeshpy_1_1TrimOptionalOutput.html#a6f43887bfcad80fc975e65c407ae82e0", null ],
+    [ "assign", "classmrmeshpy_1_1TrimOptionalOutput.html#adaaa68f872bb64806576a66b11cfc9a5", null ],
     [ "new2Old", "classmrmeshpy_1_1TrimOptionalOutput.html#a933cee952ff226ac7700d50e22645501", null ],
     [ "new2Old", "classmrmeshpy_1_1TrimOptionalOutput.html#a45ec95d0f56aef4ffb38c824f5681ec9", null ],
     [ "otherNew2Old", "classmrmeshpy_1_1TrimOptionalOutput.html#a9a9685a976ac9060d20cd577e272eb1e", null ],

@@ -9,6 +9,7 @@ var structmeshlib_1_1TriPointd =
     [ "lnext", "structmeshlib_1_1TriPointd.html#aea8378aa1d9c06948ae302b021e693f2", null ],
     [ "on_edge", "structmeshlib_1_1TriPointd.html#a2413c8365685fa1db9b931cb0ab33806", null ],
     [ "op_equal", "structmeshlib_1_1TriPointd.html#affb5f7f515ee0cfe4aa029194b75589f", null ],
+    [ "op_not_equal", "structmeshlib_1_1TriPointd.html#ace4444d824dfdf53b2f5d7eda80ab452", null ],
     [ "set_a", "structmeshlib_1_1TriPointd.html#a6613dff669ce884bfd7ec21e14b6cf36", null ],
     [ "set_b", "structmeshlib_1_1TriPointd.html#a427372f0744f16313e6503f66ec31df4", null ]
 ];

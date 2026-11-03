@@ -148,6 +148,8 @@ var MRICP_8h =
     [ "MR_IPointPairs_OffsetPtr", "MRICP_8h.html#a4f69fb1425e7ab9356d983aeac90d090", null ],
     [ "MR_IPointPairs_Set_active", "MRICP_8h.html#a27860c7a26eadc1add6d66e59ca77c89", null ],
     [ "MR_IPointPairs_size", "MRICP_8h.html#a1355ca6e1d1272d1b845b7319f86f5ad", null ],
+    [ "MR_not_equal_MR_ICPPairData", "MRICP_8h.html#a6555fcac2185a5f75801d9ea4c683f6f", null ],
+    [ "MR_not_equal_MR_PointPair", "MRICP_8h.html#a78aed29c22646a6a38be249e9e0421b6", null ],
     [ "MR_NumSum_AssignFromAnother", "MRICP_8h.html#a26118fcf075a726207243f6d3c68bf8c", null ],
     [ "MR_NumSum_ConstructFrom", "MRICP_8h.html#a3ebd049b0f2b907e6c3eac26879b8ebe", null ],
     [ "MR_NumSum_ConstructFromAnother", "MRICP_8h.html#a7cefda0454b746a85a81b63f61ca5c79", null ],

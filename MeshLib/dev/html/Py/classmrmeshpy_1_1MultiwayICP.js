@@ -1,20 +1,11 @@
 var classmrmeshpy_1_1MultiwayICP =
 [
-    [ "__init__", "classmrmeshpy_1_1MultiwayICP.html#a969d7635d6c7452579cc28cf034aab82", null ],
-    [ "calculateTransformations", "classmrmeshpy_1_1MultiwayICP.html#aae6a2eddfded74a19e3dae8cd997edac", null ],
-    [ "calculateTransformationsFixFirst", "classmrmeshpy_1_1MultiwayICP.html#ac5cdb3ff62ae142e6bfc4387e2362db0", null ],
+    [ "__init__", "classmrmeshpy_1_1MultiwayICP.html#a7a1df9338c69278bfbe926f4efc1dd1d", null ],
+    [ "calculateTransformations", "classmrmeshpy_1_1MultiwayICP.html#ac286f56d95dc4979a52bb666128e0fdd", null ],
+    [ "calculateTransformationsFixFirst", "classmrmeshpy_1_1MultiwayICP.html#a877b0aacccf2673a633f5e304c8a70a6", null ],
     [ "devEnableIndependentEquationsMode", "classmrmeshpy_1_1MultiwayICP.html#ae8bf1c85a0fe0a2997fba1c977252cd8", null ],
-    [ "devIndependentEquationsModeEnabled", "classmrmeshpy_1_1MultiwayICP.html#a058301501b6fc86078b555ac0009707c", null ],
-    [ "getCascadeIndexer", "classmrmeshpy_1_1MultiwayICP.html#aee422a21ba55b18860bcb102de2a4719", null ],
-    [ "getMeanSqDistToPlane", "classmrmeshpy_1_1MultiwayICP.html#a345b468804f2dd23c38958a6dbd74afc", null ],
-    [ "getMeanSqDistToPoint", "classmrmeshpy_1_1MultiwayICP.html#a026311e405b24862673e4b0e5d624377", null ],
-    [ "getNumActivePairs", "classmrmeshpy_1_1MultiwayICP.html#a5e6e94412ded10a2eb38575947d8ff8a", null ],
-    [ "getNumSamples", "classmrmeshpy_1_1MultiwayICP.html#aafc70be60848f05430e81b92be04f47a", null ],
-    [ "getPairsPerLayer", "classmrmeshpy_1_1MultiwayICP.html#a2903bd045834cc33e913b039654743cf", null ],
-    [ "getParams", "classmrmeshpy_1_1MultiwayICP.html#a30e53a75241559e2e304aca5782fb617", null ],
-    [ "getStatusInfo", "classmrmeshpy_1_1MultiwayICP.html#a1454a66ad32caafe585c81d740bd15a1", null ],
-    [ "resamplePoints", "classmrmeshpy_1_1MultiwayICP.html#a6147b02eef605d04c670cb8aee37d837", null ],
-    [ "setParams", "classmrmeshpy_1_1MultiwayICP.html#a0bdf7c5455e8fbcf01f4a6ca07e63190", null ],
-    [ "setPerIterationCallback", "classmrmeshpy_1_1MultiwayICP.html#a611eadb91135f4814342f55e294e92f2", null ],
-    [ "updateAllPointPairs", "classmrmeshpy_1_1MultiwayICP.html#a81a36e43b2fc7a8a6c7c1b3138d9b6f2", null ]
+    [ "resamplePoints", "classmrmeshpy_1_1MultiwayICP.html#aeb67a02426314f0b7098ff6b13812c51", null ],
+    [ "setParams", "classmrmeshpy_1_1MultiwayICP.html#a4d4367095e4e9302db9db5f5e57909ff", null ],
+    [ "setPerIterationCallback", "classmrmeshpy_1_1MultiwayICP.html#a146a276569fa9d4cd83a383c92c3ea4b", null ],
+    [ "updateAllPointPairs", "classmrmeshpy_1_1MultiwayICP.html#a4340d40f8b88de06e833b8246005909b", null ]
 ];

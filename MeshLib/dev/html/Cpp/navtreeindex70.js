@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1SceneLoad_1_1Settings.html#a01397df55967ecaab97eaba28056aaf9":[9,0,2,0,1,29,1,0],
+"structMR_1_1SceneLoad_1_1Settings.html#ac5c932854de305eb8458df1d84eee28a":[9,0,1,0,1,46,1,2],
+"structMR_1_1SceneLoad_1_1Settings.html#ac5c932854de305eb8458df1d84eee28a":[9,0,2,0,1,29,1,2],
+"structMR_1_1SceneLoad_1_1Settings.html#aeefaeaf2dac0299fbdece77fe19bd751":[9,0,1,0,1,46,1,1],
 "structMR_1_1SceneLoad_1_1Settings.html#aeefaeaf2dac0299fbdece77fe19bd751":[9,0,2,0,1,29,1,1],
 "structMR_1_1SceneLoad_1_1Settings.html#af5b8ca73e0491595900574e2c8ab17d8":[9,0,1,0,1,46,1,3],
 "structMR_1_1SceneLoad_1_1Settings.html#af5b8ca73e0491595900574e2c8ab17d8":[9,0,2,0,1,29,1,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#ab1d43c463dad455d38df62802e67d941":[9,0,1,0,1,52,11,0,0],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#ab1d43c463dad455d38df62802e67d941":[9,0,2,0,1,34,9,0,0],
 "structMR_1_1UI_1_1PlotAxis.html":[9,0,0,19,782],
-"structMR_1_1UI_1_1RadioButtonOrModifierState.html":[9,0,0,19,784],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[9,0,1,0,1,52,14,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[9,0,2,0,1,34,12,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[9,0,1,0,1,52,14,0,0],
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[9,0,2,0,1,34,12,0,0]
+"structMR_1_1UI_1_1RadioButtonOrModifierState.html":[9,0,0,19,784]
 };

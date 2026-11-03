@@ -280,6 +280,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0a5bad6563c11de33b1a467fdc7f0f68" id="r_a0a5bad6563c11de33b1a467fdc7f0f68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a5bad6563c11de33b1a467fdc7f0f68">write</a> (<a class="el" href="classmeshlib_1_1std__ostream.html">meshlib.std_ostream</a> s)</td></tr>
 <tr class="memitem:a92492b6e4d08e68df0163ed936382388" id="r_a92492b6e4d08e68df0163ed936382388"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92492b6e4d08e68df0163ed936382388">read</a> (<a class="el" href="classmeshlib_1_1std__istream.html">meshlib.std_istream</a> s, <a class="el" href="classmeshlib_1_1std__function__bool__from__float.html">meshlib.std_function_bool_from_float</a> callback)</td></tr>
 <tr class="memitem:aa377129e4281dab460a0de4e0d3b00aa" id="r_aa377129e4281dab460a0de4e0d3b00aa"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa377129e4281dab460a0de4e0d3b00aa">opEqual</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> b)</td></tr>
+<tr class="memitem:a87736aaac00539912f8a8d2744899fdf" id="r_a87736aaac00539912f8a8d2744899fdf"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87736aaac00539912f8a8d2744899fdf">opNotEqual</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> b)</td></tr>
 <tr class="memitem:aaa04a71b73603ac3bef5f0bb3d8e0d9b" id="r_aaa04a71b73603ac3bef5f0bb3d8e0d9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa04a71b73603ac3bef5f0bb3d8e0d9b">resizeBeforeParallelAdd</a> (long <a class="el" href="#a13ed3e7cd4ff269b5b5a0fbf33f51fe9">edgeSize</a>, long <a class="el" href="#afa4d2abb094bd978ff3b9e6920a71899">vertSize</a>, long <a class="el" href="#ad7f97cea12faf2fa2591474248c63068">faceSize</a>)</td></tr>
 <tr class="memitem:a575453cecf7def1979c8335fc241a582" id="r_a575453cecf7def1979c8335fc241a582"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a575453cecf7def1979c8335fc241a582">addPackedPart</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> from, <a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a> toEdgeId, <a class="el" href="classmeshlib_1_1FaceMap.html">meshlib.FaceMap</a> fmap, <a class="el" href="classmeshlib_1_1VertMap.html">meshlib.VertMap</a> vmap)</td></tr>
 <tr class="memitem:abb54c81a935796022e108f7e2d538265" id="r_abb54c81a935796022e108f7e2d538265"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb54c81a935796022e108f7e2d538265">computeValidsFromEdges</a> (<a class="el" href="classmeshlib_1_1std__function__bool__from__float.html">meshlib.std_function_bool_from_float</a> cb)</td></tr>
@@ -2641,6 +2642,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>compare that two topologies are exactly the same Generated from method <span class="tt">MR::MeshTopology::operator==</span>.</p>
 <p>Calls <span class="tt">MR_equal_MR_MeshTopology()</span>. </p>
+
+</div>
+</div>
+<a id="a87736aaac00539912f8a8d2744899fdf" name="a87736aaac00539912f8a8d2744899fdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87736aaac00539912f8a8d2744899fdf">&#9670;&#160;</a></span>opNotEqual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean meshlib.MeshTopology.opNotEqual </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::MeshTopology::operator!=</span>.</p>
+<p>Calls <span class="tt">MR_not_equal_MR_MeshTopology()</span>. </p>
 
 </div>
 </div>

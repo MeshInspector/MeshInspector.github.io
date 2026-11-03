@@ -104,6 +104,7 @@ var structmeshlib_1_1MeshTopology =
     [ "num_valid_faces", "structmeshlib_1_1MeshTopology.html#ad69d36924730a981ccb04623848766bc", null ],
     [ "num_valid_verts", "structmeshlib_1_1MeshTopology.html#afcc5278b5df0893f86ac5d2357f2f668", null ],
     [ "op_equal", "structmeshlib_1_1MeshTopology.html#a5409ba30dec06358c080159ef963535a", null ],
+    [ "op_not_equal", "structmeshlib_1_1MeshTopology.html#a7718b246c640f496b4c84adf1207216a", null ],
     [ "org", "structmeshlib_1_1MeshTopology.html#a77c8b5e5b3c8bf539a51bbcd31e58605", null ],
     [ "pack", "structmeshlib_1_1MeshTopology.html#a3aa7c63a169f340fab4e277ce6e1599a", null ],
     [ "pack_mapping", "structmeshlib_1_1MeshTopology.html#a953e1b9d9408658970c07574bdb8d645", null ],

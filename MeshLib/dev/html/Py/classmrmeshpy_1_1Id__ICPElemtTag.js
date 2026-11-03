@@ -2,18 +2,11 @@ var classmrmeshpy_1_1Id__ICPElemtTag =
 [
     [ "__init__", "classmrmeshpy_1_1Id__ICPElemtTag.html#ae508dc8e1da871774692b72936903ebd", null ],
     [ "__init__", "classmrmeshpy_1_1Id__ICPElemtTag.html#a8ea834fa57194eb21804ae38879808d8", null ],
-    [ "__init__", "classmrmeshpy_1_1Id__ICPElemtTag.html#ad61a61c7cdc08a9111959bddfe366366", null ],
-    [ "__bool__", "classmrmeshpy_1_1Id__ICPElemtTag.html#ab693ebc99da0a3d25ca4a44dab7a5c5f", null ],
-    [ "__eq__", "classmrmeshpy_1_1Id__ICPElemtTag.html#ad5db764357447534fa25a6335e3120db", null ],
+    [ "__init__", "classmrmeshpy_1_1Id__ICPElemtTag.html#a32f314169b962d019385129644c9f061", null ],
     [ "__iadd__", "classmrmeshpy_1_1Id__ICPElemtTag.html#a820f5e680b1c43f1d9a4cc33d7d74a68", null ],
-    [ "__int__", "classmrmeshpy_1_1Id__ICPElemtTag.html#a03df1a1712d9799bfbedd316a8ba5022", null ],
     [ "__isub__", "classmrmeshpy_1_1Id__ICPElemtTag.html#a24e55a78270e3ece9ea27ab1c1b91aef", null ],
-    [ "__lt__", "classmrmeshpy_1_1Id__ICPElemtTag.html#a880c77c001dbedfc1177e282a2b44dd9", null ],
-    [ "__ne__", "classmrmeshpy_1_1Id__ICPElemtTag.html#a2bcc18be860428899e0968971d173142", null ],
-    [ "__repr__", "classmrmeshpy_1_1Id__ICPElemtTag.html#af0db60afa2b60a96e618b12648c5a379", null ],
-    [ "assign", "classmrmeshpy_1_1Id__ICPElemtTag.html#af436b9726d76d65d5b1894cb92d74da5", null ],
+    [ "assign", "classmrmeshpy_1_1Id__ICPElemtTag.html#a73027e95a56b20cdb6af3b160a509c89", null ],
     [ "decrement", "classmrmeshpy_1_1Id__ICPElemtTag.html#aaa98dc5b813fc95b4d254872c5bd1fe3", null ],
     [ "get", "classmrmeshpy_1_1Id__ICPElemtTag.html#a62a0467443c55d37869aa69769a96469", null ],
-    [ "increment", "classmrmeshpy_1_1Id__ICPElemtTag.html#affc4760eb3440bdb08c8ba676a6fc7ab", null ],
-    [ "valid", "classmrmeshpy_1_1Id__ICPElemtTag.html#a38e954a9167be41171e40ff006eb34c5", null ]
+    [ "increment", "classmrmeshpy_1_1Id__ICPElemtTag.html#affc4760eb3440bdb08c8ba676a6fc7ab", null ]
 ];

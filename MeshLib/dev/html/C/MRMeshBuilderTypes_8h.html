@@ -169,6 +169,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ae7f8de4ae1d260eb9c7026e9316cd7cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a549aa7bc469854fba9bf46cfa9e3f468">MR_MeshBuilder_Triangle</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a43cf3f3189c9c4e31b0efc458cd6e10b" id="r_a43cf3f3189c9c4e31b0efc458cd6e10b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a549aa7bc469854fba9bf46cfa9e3f468">MR_MeshBuilder_Triangle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43cf3f3189c9c4e31b0efc458cd6e10b">MR_MeshBuilder_Triangle_AssignFromAnother</a> (<a class="el" href="#a549aa7bc469854fba9bf46cfa9e3f468">MR_MeshBuilder_Triangle</a> *_this, const <a class="el" href="#a549aa7bc469854fba9bf46cfa9e3f468">MR_MeshBuilder_Triangle</a> *_other)</td></tr>
 <tr class="memitem:a9bd6baeb09eacd882668e5a3019a0256" id="r_a9bd6baeb09eacd882668e5a3019a0256"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bd6baeb09eacd882668e5a3019a0256">MR_equal_MR_MeshBuilder_Triangle</a> (const <a class="el" href="#a549aa7bc469854fba9bf46cfa9e3f468">MR_MeshBuilder_Triangle</a> *_this, const <a class="el" href="#a549aa7bc469854fba9bf46cfa9e3f468">MR_MeshBuilder_Triangle</a> *other)</td></tr>
+<tr class="memitem:aa169e66622bd2aa824a67654671b072d" id="r_aa169e66622bd2aa824a67654671b072d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa169e66622bd2aa824a67654671b072d">MR_not_equal_MR_MeshBuilder_Triangle</a> (const <a class="el" href="#a549aa7bc469854fba9bf46cfa9e3f468">MR_MeshBuilder_Triangle</a> *_this, const <a class="el" href="#a549aa7bc469854fba9bf46cfa9e3f468">MR_MeshBuilder_Triangle</a> *other)</td></tr>
 <tr class="memitem:a75a1141edf3b0e83e4cd786496ba2f04" id="r_a75a1141edf3b0e83e4cd786496ba2f04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75a1141edf3b0e83e4cd786496ba2f04">MR_MeshBuilder_BuildSettings_Get_region</a> (const <a class="el" href="MRMesh_8h.html#ad64e870545f55932379857e2c2d7eafb">MR_MeshBuilder_BuildSettings</a> *_this)</td></tr>
 <tr class="memitem:a5f0b66ff52b8438665b401ac9b659eb5" id="r_a5f0b66ff52b8438665b401ac9b659eb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f0b66ff52b8438665b401ac9b659eb5">MR_MeshBuilder_BuildSettings_Set_region</a> (<a class="el" href="MRMesh_8h.html#ad64e870545f55932379857e2c2d7eafb">MR_MeshBuilder_BuildSettings</a> *_this, <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *value)</td></tr>
 <tr class="memitem:a41bc9dc72790ede0966dee326f5be25e" id="r_a41bc9dc72790ede0966dee326f5be25e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41bc9dc72790ede0966dee326f5be25e">MR_MeshBuilder_BuildSettings_GetMutable_region</a> (<a class="el" href="MRMesh_8h.html#ad64e870545f55932379857e2c2d7eafb">MR_MeshBuilder_BuildSettings</a> *_this)</td></tr>
@@ -1285,6 +1286,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Modifies a member variable of class <span class="tt">MR::MeshBuilder::VertSpan</span> named <span class="tt">lastVertex</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">lastVertex</span>. </p>
+
+</div>
+</div>
+<a id="aa169e66622bd2aa824a67654671b072d" name="aa169e66622bd2aa824a67654671b072d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa169e66622bd2aa824a67654671b072d">&#9670;&#160;</a></span>MR_not_equal_MR_MeshBuilder_Triangle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_MeshBuilder_Triangle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a549aa7bc469854fba9bf46cfa9e3f468">MR_MeshBuilder_Triangle</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a549aa7bc469854fba9bf46cfa9e3f468">MR_MeshBuilder_Triangle</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::MeshBuilder::Triangle::operator!=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">other</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

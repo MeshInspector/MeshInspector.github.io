@@ -9,6 +9,7 @@ var structmeshlib_1_1VarEdgeTri =
     [ "flagged_tri_mut", "structmeshlib_1_1VarEdgeTri.html#a9cfc13ffa158972197488a470f0f7903", null ],
     [ "is_edge_a_tri_b", "structmeshlib_1_1VarEdgeTri.html#a157155a539ceaadf4d84899f47c06db2", null ],
     [ "op_equal", "structmeshlib_1_1VarEdgeTri.html#af2d507f6264421096cab65fe7090b6b8", null ],
+    [ "op_not_equal", "structmeshlib_1_1VarEdgeTri.html#a3ac2a2bb7625a068c346024beb491ae0", null ],
     [ "set_edge", "structmeshlib_1_1VarEdgeTri.html#a07224f760bc9ca5626bc43c61603045f", null ],
     [ "set_flagged_tri", "structmeshlib_1_1VarEdgeTri.html#a403fe64e27630201fda609cc61dcaf01", null ],
     [ "tri", "structmeshlib_1_1VarEdgeTri.html#a3116c8103d74ab20b132bdc667a7c2a1", null ],

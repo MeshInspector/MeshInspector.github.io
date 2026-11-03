@@ -19,5 +19,7 @@ var MRICP_8rs =
     [ "meshlib::op_add_mr_num_sum", "namespacemeshlib.html#ab94e1242ef89720327e2bdec9a302735", null ],
     [ "meshlib::op_equal_mr_icp_pair_data", "namespacemeshlib.html#a5dcee1d079fd50dd11074e6eb95b76bf", null ],
     [ "meshlib::op_equal_mr_point_pair", "namespacemeshlib.html#acdf58b81dea23beed3226dbc353ea243", null ],
+    [ "meshlib::op_not_equal_mr_icp_pair_data", "namespacemeshlib.html#a35d7c2ae5e6c84654d373951bcd9d9fc", null ],
+    [ "meshlib::op_not_equal_mr_point_pair", "namespacemeshlib.html#aa09be7341a207f5536043034404ed4ad", null ],
     [ "meshlib::update_point_pairs", "namespacemeshlib.html#a18a9462b4bd5b6abeea3e532623c148d", null ]
 ];
