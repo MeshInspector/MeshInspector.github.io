@@ -1704,7 +1704,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a1e01302510cdf2acc0c384b5b267fcf9" id="r_a1e01302510cdf2acc0c384b5b267fcf9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e01302510cdf2acc0c384b5b267fcf9">fixMeshDataDegeneracies</a> (<a class="el" href="classmeshlib_1_1ObjectMeshData.html">meshlib.ObjectMeshData</a> data, <a class="el" href="classmeshlib_1_1FixMeshDegeneraciesParams.html">meshlib.FixMeshDegeneraciesParams</a> params)</td></tr>
 <tr class="memitem:ab4cae7e8ef654ed678b26c13b4dc55e8" id="r_ab4cae7e8ef654ed678b26c13b4dc55e8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1VertBitSet.html">meshlib.VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4cae7e8ef654ed678b26c13b4dc55e8">findInnerVertsOfDegree</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> topology, int n, <a class="el" href="classmeshlib_1_1VertBitSet.html">meshlib.VertBitSet</a> region)</td></tr>
 <tr class="memitem:a9671b82cd9208f7502cef6342dba9414" id="r_a9671b82cd9208f7502cef6342dba9414"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9671b82cd9208f7502cef6342dba9414">isEdgeBetweenDoubleTris</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> topology, <a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a> e)</td></tr>
-<tr class="memitem:ae9caf0005b997703c54fae335ad5e387" id="r_ae9caf0005b997703c54fae335ad5e387"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9caf0005b997703c54fae335ad5e387">eliminateDoubleTris</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> topology, <a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a> e, <a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a> region)</td></tr>
+<tr class="memitem:ae59c42949a94e36b531bb254d9a3dad9" id="r_ae59c42949a94e36b531bb254d9a3dad9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae59c42949a94e36b531bb254d9a3dad9">eliminateDoubleTris</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> topology, <a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a> e, <a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a> region, java.lang.Boolean eliminatePillows)</td></tr>
 <tr class="memitem:a42dc6c8b8d7aa344afc77c2e5a1492bc" id="r_a42dc6c8b8d7aa344afc77c2e5a1492bc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42dc6c8b8d7aa344afc77c2e5a1492bc">eliminateDoubleTrisAround</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> topology, <a class="el" href="classmeshlib_1_1VertId.html">meshlib.VertId</a> v, <a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a> region)</td></tr>
 <tr class="memitem:ad85af19745f4138e5aa4922d4cf77cbd" id="r_ad85af19745f4138e5aa4922d4cf77cbd"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad85af19745f4138e5aa4922d4cf77cbd">isDegree3Dest</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> topology, <a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a> e)</td></tr>
 <tr class="memitem:a9c20c769af48d54bee4c849aec832e60" id="r_a9c20c769af48d54bee4c849aec832e60"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c20c769af48d54bee4c849aec832e60">eliminateDegree3Dest</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> topology, <a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a> e, <a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a> region)</td></tr>
@@ -19379,8 +19379,8 @@ After</div></div>
 
 </div>
 </div>
-<a id="ae9caf0005b997703c54fae335ad5e387" name="ae9caf0005b997703c54fae335ad5e387"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9caf0005b997703c54fae335ad5e387">&#9670;&#160;</a></span>eliminateDoubleTris()</h2>
+<a id="ae59c42949a94e36b531bb254d9a3dad9" name="ae59c42949a94e36b531bb254d9a3dad9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae59c42949a94e36b531bb254d9a3dad9">&#9670;&#160;</a></span>eliminateDoubleTris()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -19401,7 +19401,12 @@ After</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1FaceBitSet.html">meshlib.FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">java.lang.Boolean</td>          <td class="paramname"><span class="paramname"><em>eliminatePillows</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -19410,7 +19415,7 @@ After</div></div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>if the edge e has both left and right triangular faces and the degree of dest( e ) is 2, then eliminates left( e ), right( e ), e, e.sym(), next( e ), dest( e ), and returns prev( e ); if region is provided then eliminated faces are excluded from it; otherwise returns invalid edge Generated from function <span class="tt">MR::eliminateDoubleTris</span>.</p>
+<p>if the edge e has both left and right triangular faces and the degree of dest( e ) is 2, then eliminates left( e ), right( e ), e, e.sym(), next( e ), dest( e ), and returns prev( e ); if the degree of org( e ) is 2 as well (a pillow: two triangles glued along all three edges, a closed part without volume), then eliminates both triangles with all their edges and vertices only if both triangles are present and <code class="param">eliminatePillows</code>, and returns e (a lone edge now); if region is provided then eliminated faces are excluded from it; otherwise returns invalid edge Generated from function <span class="tt">MR::eliminateDoubleTris</span>.</p>
 <p>Calls <span class="tt">MR_eliminateDoubleTris()</span>. </p>
 
 </div>
@@ -43717,8 +43722,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">    meshParams.texturePerFace = &amp;texturePerFace;</div>
 <div class="line">subs.onEdgeSplit = <a class="code hl_function" href="#aa382a636f7160ba96b64a8f8c637e570">meshOnEdgeSplitAttribute</a>( *obj_-&gt;varMesh(), meshParams );</div>
 <div class="line"><a class="code hl_function" href="#af5dddfa988210f3dc5340ef6cf87dad8">subdivideMesh</a>( *obj_-&gt;varMesh(), subs );</div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:40221</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:40106</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:40224</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:40109</div></div>
 <div class="ttc" id="aclassmeshlib_1_1MeshAttributesToUpdate_html"><div class="ttname"><a href="classmeshlib_1_1MeshAttributesToUpdate.html">meshlib.MeshAttributesToUpdate</a></div><div class="ttdef"><b>Definition</b> MeshAttributesToUpdate.java:11</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshOnEdgeSplitAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshOnEdgeSplitAttribute()</span>. </p>

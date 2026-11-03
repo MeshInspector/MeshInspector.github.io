@@ -174,7 +174,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga83684a28016ea3e3feadd7c643905e6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all inner vertices in region with the given number of incident edges each  <br /></td></tr>
 <tr class="memitem:ga754a74fa515375b32aee32394abe05f6" id="r_ga754a74fa515375b32aee32394abe05f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga754a74fa515375b32aee32394abe05f6">MR::isEdgeBetweenDoubleTris</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId e)</td></tr>
 <tr class="memdesc:ga754a74fa515375b32aee32394abe05f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the edge e has both left and right triangular faces and the degree of dest( e ) is 2  <br /></td></tr>
-<tr class="memitem:ga3c868d7f7706bea58f102f3218ffc524" id="r_ga3c868d7f7706bea58f102f3218ffc524"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3c868d7f7706bea58f102f3218ffc524">MR::eliminateDoubleTris</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId e, FaceBitSet *region=nullptr)</td></tr>
+<tr class="memitem:ga2efe74b04e0157fc5b8e2ff37cb1f757" id="r_ga2efe74b04e0157fc5b8e2ff37cb1f757"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2efe74b04e0157fc5b8e2ff37cb1f757">MR::eliminateDoubleTris</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId e, FaceBitSet *region=nullptr, bool eliminatePillows=false)</td></tr>
 <tr class="memitem:gae137c5e3de8e28fc5ff47caee9632c41" id="r_gae137c5e3de8e28fc5ff47caee9632c41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae137c5e3de8e28fc5ff47caee9632c41">MR::eliminateDoubleTrisAround</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertId v, FaceBitSet *region=nullptr)</td></tr>
 <tr class="memitem:ga7ed9b863f3586261b7732c0dba013eae" id="r_ga7ed9b863f3586261b7732c0dba013eae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7ed9b863f3586261b7732c0dba013eae">MR::isDegree3Dest</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId e)</td></tr>
 <tr class="memdesc:ga7ed9b863f3586261b7732c0dba013eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the destination of given edge has degree 3 and 3 incident triangles  <br /></td></tr>
@@ -348,8 +348,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga3c868d7f7706bea58f102f3218ffc524" name="ga3c868d7f7706bea58f102f3218ffc524"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3c868d7f7706bea58f102f3218ffc524">&#9670;&#160;</a></span>eliminateDoubleTris()</h2>
+<a id="ga2efe74b04e0157fc5b8e2ff37cb1f757" name="ga2efe74b04e0157fc5b8e2ff37cb1f757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2efe74b04e0157fc5b8e2ff37cb1f757">&#9670;&#160;</a></span>eliminateDoubleTris()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,13 +367,18 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+          <td class="paramtype">FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>eliminatePillows</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshFixer_8h.html">MRMesh/MRMeshFixer.h</a>&gt;</code></p>
-<p>if the edge e has both left and right triangular faces and the degree of dest( e ) is 2, then eliminates left( e ), right( e ), e, e.sym(), next( e ), dest( e ), and returns prev( e ); if region is provided then eliminated faces are excluded from it; otherwise returns invalid edge </p>
+<p>if the edge e has both left and right triangular faces and the degree of dest( e ) is 2, then eliminates left( e ), right( e ), e, e.sym(), next( e ), dest( e ), and returns prev( e ); if the degree of org( e ) is 2 as well (a pillow: two triangles glued along all three edges, a closed part without volume), then eliminates both triangles with all their edges and vertices only if both triangles are present and <code class="param">eliminatePillows</code>, and returns e (a lone edge now); if region is provided then eliminated faces are excluded from it; otherwise returns invalid edge </p>
 
 </div>
 </div>

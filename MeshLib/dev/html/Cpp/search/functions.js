@@ -2674,7 +2674,7 @@ var searchData=
   ['eigenvector_41',['eigenvector',['../group__GeneralGroup.html#ga3f11254bd96f9ca0ab9b93bcb11a7506',1,'MR::SymMatrix2::eigenvector()'],['../group__GeneralGroup.html#gaceb75dc50186b2d1ed1f0f7a98c6123b',1,'MR::SymMatrix3::eigenvector()']]],
   ['eliminatedegree3dest_42',['eliminateDegree3Dest',['../group__MeshFixerGroup.html#ga1a6d31909cb9b003dd59942b58bcdfae',1,'MR']]],
   ['eliminatedegree3vertices_43',['eliminateDegree3Vertices',['../group__MeshFixerGroup.html#ga0092e601fb2bbe0c8035549ad3395862',1,'MR']]],
-  ['eliminatedoubletris_44',['eliminateDoubleTris',['../group__MeshFixerGroup.html#ga3c868d7f7706bea58f102f3218ffc524',1,'MR']]],
+  ['eliminatedoubletris_44',['eliminateDoubleTris',['../group__MeshFixerGroup.html#ga2efe74b04e0157fc5b8e2ff37cb1f757',1,'MR']]],
   ['eliminatedoubletrisaround_45',['eliminateDoubleTrisAround',['../group__MeshFixerGroup.html#gae137c5e3de8e28fc5ff47caee9632c41',1,'MR']]],
   ['eliminateemptygroups_46',['eliminateEmptyGroups',['../group__GeneralGroup.html#ga4c4109e394ce12f782b768c821412753',1,'MR::RibbonSchema']]],
   ['eliminatetunnels_47',['eliminateTunnels',['../group__TunnelDetectorGroup.html#ga80214bb4772aca4e0dc6687b96d56758',1,'MR::eliminateTunnels(Mesh &amp;mesh, const FaceBitSet *region={}, const DetectTunnelSettings &amp;settings={})'],['../group__TunnelDetectorGroup.html#ga7149b047e2243e29ce78bff353b75189',1,'MR::eliminateTunnels(Mesh &amp;mesh, const FillHoleNicelySettings &amp;fillSettings, const FaceBitSet *region={}, const DetectTunnelSettings &amp;detectSettings={})']]],

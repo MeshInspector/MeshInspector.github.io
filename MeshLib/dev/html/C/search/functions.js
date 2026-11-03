@@ -7355,7 +7355,7 @@ var searchData=
   ['mr_5fedgevector_7350',['MR_edgeVector',['../MRMeshMath_8h.html#aa0934adc9bccef58c753814a7497a9e9',1,'MRMeshMath.h']]],
   ['mr_5feliminatedegree3dest_7351',['MR_eliminateDegree3Dest',['../MRMeshFixer_8h.html#a6a3e61e9da3e07637fb3d3b218e71b90',1,'MRMeshFixer.h']]],
   ['mr_5feliminatedegree3vertices_7352',['MR_eliminateDegree3Vertices',['../MRMeshFixer_8h.html#a5ff648f56c020daa5ecff292f0e9b285',1,'MRMeshFixer.h']]],
-  ['mr_5feliminatedoubletris_7353',['MR_eliminateDoubleTris',['../MRMeshFixer_8h.html#a64ebdebfed9ac51cb5f089a461b71faf',1,'MRMeshFixer.h']]],
+  ['mr_5feliminatedoubletris_7353',['MR_eliminateDoubleTris',['../MRMeshFixer_8h.html#a2adcde6aa73c4d306d84a05a1a0f3c5b',1,'MRMeshFixer.h']]],
   ['mr_5feliminatedoubletrisaround_7354',['MR_eliminateDoubleTrisAround',['../MRMeshFixer_8h.html#a8c72b18b9b36568e40ac11e66d370db5',1,'MRMeshFixer.h']]],
   ['mr_5feliminatetunnels_5f3_7355',['MR_eliminateTunnels_3',['../MRTunnelDetector_8h.html#abed5089f90d75e6eadb6c816b952a4f2',1,'MRTunnelDetector.h']]],
   ['mr_5feliminatetunnels_5f4_7356',['MR_eliminateTunnels_4',['../MRTunnelDetector_8h.html#a87ee07077bf488adeea22a4f67593490',1,'MRTunnelDetector.h']]],

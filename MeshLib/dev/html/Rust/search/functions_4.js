@@ -69,7 +69,7 @@ var searchData=
   ['elements_5fmut_66',['elements_mut',['../structmeshlib_1_1ColorMapAggregator__MR__FaceTag__PartialColorMap.html#a8c00940d9a3fa9a381c280dba42f7131',1,'meshlib::ColorMapAggregator_MR_FaceTag_PartialColorMap::elements_mut()'],['../structmeshlib_1_1ColorMapAggregator__MR__UndirectedEdgeTag__PartialColorMap.html#a840d546ad0d02b8fb23317f016bb9043',1,'meshlib::ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap::elements_mut()'],['../structmeshlib_1_1ColorMapAggregator__MR__VertTag__PartialColorMap.html#a2f37b8e2cdd8e608f0c8a6eb5cbd6691',1,'meshlib::ColorMapAggregator_MR_VertTag_PartialColorMap::elements_mut()']]],
   ['eliminate_5fdegree3_5fdest_67',['eliminate_degree3_dest',['../namespacemeshlib.html#af6856e4ee83cf13156a798569d825f8e',1,'meshlib']]],
   ['eliminate_5fdegree3_5fvertices_68',['eliminate_degree3_vertices',['../namespacemeshlib.html#ad2f5616d14504500a704b41dbd230b62',1,'meshlib']]],
-  ['eliminate_5fdouble_5ftris_69',['eliminate_double_tris',['../namespacemeshlib.html#ad62af657f6a75e86d98e90671f8d3471',1,'meshlib']]],
+  ['eliminate_5fdouble_5ftris_69',['eliminate_double_tris',['../namespacemeshlib.html#a34692e607cd640f0b28fb3fe7070a891',1,'meshlib']]],
   ['eliminate_5fdouble_5ftris_5faround_70',['eliminate_double_tris_around',['../namespacemeshlib.html#aafd98db504b154645b8ced1cde4216d2',1,'meshlib']]],
   ['eliminate_5ftunnels_5f3_71',['eliminate_tunnels_3',['../namespacemeshlib.html#acb3d3b2596b3eea14da0bc3185115013',1,'meshlib']]],
   ['eliminate_5ftunnels_5f4_72',['eliminate_tunnels_4',['../namespacemeshlib.html#a56d280d11966322c385257df18ffe985',1,'meshlib']]],

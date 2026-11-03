@@ -3530,7 +3530,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.edgeVector", "namespacemrmeshpy.html#a18a98518b689767ed3c2838e2d550220", null ],
     [ "mrmeshpy.eliminateDegree3Dest", "namespacemrmeshpy.html#a247aea95e9be891192104fde4679ce8c", null ],
     [ "mrmeshpy.eliminateDegree3Vertices", "namespacemrmeshpy.html#ae2c073f50a96d79c4863ea3d2708711b", null ],
-    [ "mrmeshpy.eliminateDoubleTris", "namespacemrmeshpy.html#a507b789ee5793179a8ae549af8793374", null ],
+    [ "mrmeshpy.eliminateDoubleTris", "namespacemrmeshpy.html#a35091fbeb281600028be89f136833521", null ],
     [ "mrmeshpy.eliminateDoubleTrisAround", "namespacemrmeshpy.html#a62e506fbd9063bcf5a91525c813841cf", null ],
     [ "mrmeshpy.eliminateTunnels", "namespacemrmeshpy.html#aa12ae2a803e9e3c5e73c54f4c42189f0", null ],
     [ "mrmeshpy.eliminateTunnels", "namespacemrmeshpy.html#adcace22a5cde8f1b97e526bc33bacff0", null ],

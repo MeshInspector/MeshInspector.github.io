@@ -10,7 +10,7 @@ var MRMeshFixer_8rs =
     [ "meshlib::duplicate_multi_hole_vertices_3", "namespacemeshlib.html#a85921294cdff2004d67f336ff9718a3d", null ],
     [ "meshlib::eliminate_degree3_dest", "namespacemeshlib.html#af6856e4ee83cf13156a798569d825f8e", null ],
     [ "meshlib::eliminate_degree3_vertices", "namespacemeshlib.html#ad2f5616d14504500a704b41dbd230b62", null ],
-    [ "meshlib::eliminate_double_tris", "namespacemeshlib.html#ad62af657f6a75e86d98e90671f8d3471", null ],
+    [ "meshlib::eliminate_double_tris", "namespacemeshlib.html#a34692e607cd640f0b28fb3fe7070a891", null ],
     [ "meshlib::eliminate_double_tris_around", "namespacemeshlib.html#aafd98db504b154645b8ced1cde4216d2", null ],
     [ "meshlib::find_degenerate_faces", "namespacemeshlib.html#a15211b96e9a6ae2ff2a13aa899892c74", null ],
     [ "meshlib::find_disoriented_faces", "namespacemeshlib.html#a0449507fc2ac9f56d00906d3de2ca719", null ],

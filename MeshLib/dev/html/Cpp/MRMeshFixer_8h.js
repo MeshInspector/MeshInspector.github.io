@@ -6,7 +6,7 @@ var MRMeshFixer_8h =
     [ "MR::duplicateMultiHoleVertices", "group__MeshFixerGroup.html#ga900c1c80bfa1ca726e5afe5ccab5b31d", null ],
     [ "MR::eliminateDegree3Dest", "group__MeshFixerGroup.html#ga1a6d31909cb9b003dd59942b58bcdfae", null ],
     [ "MR::eliminateDegree3Vertices", "group__MeshFixerGroup.html#ga0092e601fb2bbe0c8035549ad3395862", null ],
-    [ "MR::eliminateDoubleTris", "group__MeshFixerGroup.html#ga3c868d7f7706bea58f102f3218ffc524", null ],
+    [ "MR::eliminateDoubleTris", "group__MeshFixerGroup.html#ga2efe74b04e0157fc5b8e2ff37cb1f757", null ],
     [ "MR::eliminateDoubleTrisAround", "group__MeshFixerGroup.html#gae137c5e3de8e28fc5ff47caee9632c41", null ],
     [ "MR::findDegenerateFaces", "group__MeshFixerGroup.html#gafd47b9faed25bf5ffcb8a57264c890b1", null ],
     [ "MR::findDisorientedFaces", "group__MeshFixerGroup.html#ga0cfc3535cc2f563e521b206c694169cd", null ],

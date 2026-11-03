@@ -23,7 +23,7 @@ var MRMeshFixer_8h =
     [ "MR_duplicateMultiHoleVertices_3", "MRMeshFixer_8h.html#a6ad5098848f9bcff3c44191d058b1927", null ],
     [ "MR_eliminateDegree3Dest", "MRMeshFixer_8h.html#a6a3e61e9da3e07637fb3d3b218e71b90", null ],
     [ "MR_eliminateDegree3Vertices", "MRMeshFixer_8h.html#a5ff648f56c020daa5ecff292f0e9b285", null ],
-    [ "MR_eliminateDoubleTris", "MRMeshFixer_8h.html#a64ebdebfed9ac51cb5f089a461b71faf", null ],
+    [ "MR_eliminateDoubleTris", "MRMeshFixer_8h.html#a2adcde6aa73c4d306d84a05a1a0f3c5b", null ],
     [ "MR_eliminateDoubleTrisAround", "MRMeshFixer_8h.html#a8c72b18b9b36568e40ac11e66d370db5", null ],
     [ "MR_findDegenerateFaces", "MRMeshFixer_8h.html#ad4166cb427726661e4c4b9874a8879db", null ],
     [ "MR_FindDisorientationParams_AssignFromAnother", "MRMeshFixer_8h.html#a89a3494ff9edb919267efbeec98cab3d", null ],

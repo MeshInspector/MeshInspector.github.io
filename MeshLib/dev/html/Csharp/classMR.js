@@ -2911,7 +2911,7 @@ var classMR =
     [ "edgeVector", "classMR.html#ad6c311837d0f615ec63b47f766e2a444", null ],
     [ "eliminateDegree3Dest", "classMR.html#ad9987f138db6444c564d29257bfa37d7", null ],
     [ "eliminateDegree3Vertices", "classMR.html#a59d2d98530c1b350e77c28f462f50e9d", null ],
-    [ "eliminateDoubleTris", "classMR.html#a1d76581e3b2dff62e442c8bb46802970", null ],
+    [ "eliminateDoubleTris", "classMR.html#ad807978a227bd5fe0ec131e67169473e", null ],
     [ "eliminateDoubleTrisAround", "classMR.html#a5f820df3bca9d4ae70609c8287619f6d", null ],
     [ "eliminateTunnels", "classMR.html#a38471281dabad7872a24e6e9eb6c75fc", null ],
     [ "eliminateTunnels", "classMR.html#a151b746a2372daa742c6061b05054af7", null ],

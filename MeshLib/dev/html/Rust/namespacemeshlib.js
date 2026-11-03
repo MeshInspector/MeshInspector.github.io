@@ -2259,7 +2259,7 @@ var namespacemeshlib =
     [ "edges_between_different_textures", "namespacemeshlib.html#a11c29c69853d8ac663825da20e201bed", null ],
     [ "eliminate_degree3_dest", "namespacemeshlib.html#af6856e4ee83cf13156a798569d825f8e", null ],
     [ "eliminate_degree3_vertices", "namespacemeshlib.html#ad2f5616d14504500a704b41dbd230b62", null ],
-    [ "eliminate_double_tris", "namespacemeshlib.html#ad62af657f6a75e86d98e90671f8d3471", null ],
+    [ "eliminate_double_tris", "namespacemeshlib.html#a34692e607cd640f0b28fb3fe7070a891", null ],
     [ "eliminate_double_tris_around", "namespacemeshlib.html#aafd98db504b154645b8ced1cde4216d2", null ],
     [ "eliminate_tunnels_3", "namespacemeshlib.html#acb3d3b2596b3eea14da0bc3185115013", null ],
     [ "eliminate_tunnels_4", "namespacemeshlib.html#a56d280d11966322c385257df18ffe985", null ],
