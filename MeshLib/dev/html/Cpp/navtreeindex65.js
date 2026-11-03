@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1GLDriverIssue.html":[9,0,0,19,615],
+"structMR_1_1GcodeProcessor_1_1BaseAction.html":[9,0,0,19,280],
 "structMR_1_1GcodeProcessor_1_1Command.html":[9,0,0,19,282],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html":[9,0,0,19,281],
 "structMR_1_1GeneralOffsetParameters.html":[9,0,0,19,883],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#abe015e8f2eefbaf7c0afec0d91912ec8":[9,0,2,0,1,7,10,6],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#abe8531c1f5fdb8d1d8d3a8d69a64d2b5":[9,0,1,0,1,17,10,9],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#abe8531c1f5fdb8d1d8d3a8d69a64d2b5":[9,0,2,0,1,7,10,9],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#acc827ec3aa0ec6711b73aaca7693bc19":[9,0,1,0,1,17,10,14],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#acc827ec3aa0ec6711b73aaca7693bc19":[9,0,2,0,1,7,10,14],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad91ba5b259552f2af641bf94826eeea1":[9,0,1,0,1,17,10,19]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#acc827ec3aa0ec6711b73aaca7693bc19":[9,0,1,0,1,17,10,14]
 };

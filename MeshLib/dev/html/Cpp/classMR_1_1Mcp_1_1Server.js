@@ -6,7 +6,7 @@ var classMR_1_1Mcp_1_1Server =
     [ "Server", "classMR_1_1Mcp_1_1Server.html#a488531c0b0d0b21abfd269135e96ff8c", null ],
     [ "Server", "classMR_1_1Mcp_1_1Server.html#aead22fbc707de8f559bc6d552cc3f0cb", null ],
     [ "~Server", "classMR_1_1Mcp_1_1Server.html#a340a97f050e665ee2bdf06ee2e282d31", null ],
-    [ "addTool", "classMR_1_1Mcp_1_1Server.html#a38fe996ce5f79ee01f81a07263a9b1e7", null ],
+    [ "addTool", "classMR_1_1Mcp_1_1Server.html#a20051baf18b949c6abc5a884d9ed01fe", null ],
     [ "dumpToolsAsJson", "classMR_1_1Mcp_1_1Server.html#a4015c459986ddc1e694783ef85222047", null ],
     [ "getParams", "classMR_1_1Mcp_1_1Server.html#abde03fb02bbd321d709eb464753bcdf4", null ],
     [ "isRunning", "classMR_1_1Mcp_1_1Server.html#a93283bd93eb23c45490b1b9c0d6a99e7", null ],

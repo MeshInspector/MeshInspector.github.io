@@ -9084,6 +9084,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga202b8c94e30555c39d1b5ce85573b7cd" id="r_ga202b8c94e30555c39d1b5ce85573b7cd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga202b8c94e30555c39d1b5ce85573b7cd">MR::CommandLoop::runCommandFromGUIThread</a> (<a class="el" href="#ga517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func, std::optional&lt; std::chrono::milliseconds &gt; startTimeout={})</td></tr>
 <tr class="memitem:ga608f3b3e1415777cf598629aa0b73681" id="r_ga608f3b3e1415777cf598629aa0b73681"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga608f3b3e1415777cf598629aa0b73681">MR::CommandLoop::processCommands</a> ()</td></tr>
 <tr class="memdesc:ga608f3b3e1415777cf598629aa0b73681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute all commands from loop.  <br /></td></tr>
+<tr class="memitem:gabec31583bb5d143380b58dd16e6c0f70" id="r_gabec31583bb5d143380b58dd16e6c0f70"><td class="memItemLeft" align="right" valign="top">static std::chrono::steady_clock::time_point&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabec31583bb5d143380b58dd16e6c0f70">MR::CommandLoop::lastProcessTime</a> ()</td></tr>
 <tr class="memitem:ga42865b58d6d71d73a87b0633e0b623f2" id="r_ga42865b58d6d71d73a87b0633e0b623f2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga42865b58d6d71d73a87b0633e0b623f2">MR::CommandLoop::empty</a> ()</td></tr>
 <tr class="memdesc:ga42865b58d6d71d73a87b0633e0b623f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if loop is empty.  <br /></td></tr>
 <tr class="memitem:gaf136777f46bf36d97d449cd471709f41" id="r_gaf136777f46bf36d97d449cd471709f41"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf136777f46bf36d97d449cd471709f41">MR::CommandLoop::removeCommands</a> (bool closeLoop)</td></tr>
@@ -116979,6 +116980,34 @@ template&lt;typename TreeT, typename Proc&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRPolylineTopology_8h.html">MRMesh/MRPolylineTopology.h</a>&gt;</code></p>
 
 <p>returns last not lone undirected edge id, or invalid id if no such edge exists </p>
+
+</div>
+</div>
+<a id="gabec31583bb5d143380b58dd16e6c0f70" name="gabec31583bb5d143380b58dd16e6c0f70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabec31583bb5d143380b58dd16e6c0f70">&#9670;&#160;</a></span>lastProcessTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::chrono::steady_clock::time_point MR::CommandLoop::lastProcessTime </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCommandLoop_8h.html">MRViewer/MRCommandLoop.h</a>&gt;</code></p>
+<p>when the main thread last looked for commands to execute in <span class="tt">processCommands</span>; while a command waits, the main thread has been busy since then </p>
 
 </div>
 </div>

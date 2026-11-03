@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html":[9,0,1,0,1,36,0],
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html":[9,0,2,0,1,22,0],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html#a31953063230a5946da3ef8ae3169b629":[9,0,1,0,1,36,0,0],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html#a31953063230a5946da3ef8ae3169b629":[9,0,2,0,1,22,0,0],
 "structMR_1_1PointsLoad_1_1E57LoadSettings.html#a8b3bf0a577305270989410f28025a672":[9,0,1,0,1,36,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1SceneLoad_1_1Settings.html#a01397df55967ecaab97eaba28056aaf9":[9,0,2,0,1,29,1,0],
 "structMR_1_1SceneLoad_1_1Settings.html#ac5c932854de305eb8458df1d84eee28a":[9,0,1,0,1,46,1,2],
 "structMR_1_1SceneLoad_1_1Settings.html#ac5c932854de305eb8458df1d84eee28a":[9,0,2,0,1,29,1,2],
-"structMR_1_1SceneLoad_1_1Settings.html#aeefaeaf2dac0299fbdece77fe19bd751":[9,0,1,0,1,46,1,1],
-"structMR_1_1SceneLoad_1_1Settings.html#aeefaeaf2dac0299fbdece77fe19bd751":[9,0,2,0,1,29,1,1],
-"structMR_1_1SceneLoad_1_1Settings.html#af5b8ca73e0491595900574e2c8ab17d8":[9,0,1,0,1,46,1,3]
+"structMR_1_1SceneLoad_1_1Settings.html#aeefaeaf2dac0299fbdece77fe19bd751":[9,0,1,0,1,46,1,1]
 };

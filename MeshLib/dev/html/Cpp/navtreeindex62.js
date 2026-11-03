@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"namespaceMR_1_1VoxelsLoad.html#ab8b39ae86f2bd1e780c542ceebadc56d":[9,0,1,0,1,55,18],
+"namespaceMR_1_1VoxelsLoad.html#ac56550c38609cdf38fcf34f3740e8f82":[9,0,1,0,1,55,11],
 "namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96":[9,0,1,0,1,55,4],
 "namespaceMR_1_1VoxelsLoad.html#ad303045560cb427689099a6b7fd25789":[9,0,1,0,1,55,20],
 "namespaceMR_1_1VoxelsLoad.html#ae42a24cac2267bb02933d82f3153182a":[9,0,1,0,1,55,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1Ball.html":[9,0,0,19,136],
 "structMR_1_1BallPivotCandidate.html":[9,0,0,19,134],
 "structMR_1_1BaseFitParams.html":[9,0,0,19,610],
-"structMR_1_1BaseRenderParams.html":[9,0,0,19,315],
-"structMR_1_1BaseShellParameters.html":[9,0,0,19,879],
-"structMR_1_1BasicUiRenderTask.html":[9,0,0,19,318]
+"structMR_1_1BaseRenderParams.html":[9,0,0,19,315]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[9,0,1,0,1,52,14,0,1],
+"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a7bad8f2ab7400f08c728b644d1b1033e":[9,0,2,0,1,34,12,0,1],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a97ed99b906b672210756ad692b5a3a2a":[9,0,1,0,1,52,14,0,2],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a97ed99b906b672210756ad692b5a3a2a":[9,0,2,0,1,34,12,0,2],
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html":[9,0,0,19,779],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd":[9,0,1,0,1,55,3,3],
 "structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd":[9,0,2,0,1,35,3,3],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html":[9,0,1,0,1,56,0],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html":[9,0,2,0,1,36,0],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[9,0,1,0,1,56,0,0],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[9,0,2,0,1,36,0,0]
+"structMR_1_1VoxelsSave_1_1SavingSettings.html":[9,0,2,0,1,36,0]
 };

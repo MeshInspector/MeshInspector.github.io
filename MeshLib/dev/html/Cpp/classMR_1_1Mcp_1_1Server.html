@@ -160,7 +160,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aead22fbc707de8f559bc6d552cc3f0cb" id="r_aead22fbc707de8f559bc6d552cc3f0cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aead22fbc707de8f559bc6d552cc3f0cb">Server</a> (<a class="el" href="classMR_1_1Mcp_1_1Server.html">Server</a> &amp;&amp;)</td></tr>
 <tr class="memitem:a97c87264e812150b0bb03d270422056e" id="r_a97c87264e812150b0bb03d270422056e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Mcp_1_1Server.html">Server</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97c87264e812150b0bb03d270422056e">operator=</a> (<a class="el" href="classMR_1_1Mcp_1_1Server.html">Server</a> &amp;&amp;)</td></tr>
 <tr class="memitem:a340a97f050e665ee2bdf06ee2e282d31" id="r_a340a97f050e665ee2bdf06ee2e282d31"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a340a97f050e665ee2bdf06ee2e282d31">~Server</a> ()</td></tr>
-<tr class="memitem:a38fe996ce5f79ee01f81a07263a9b1e7" id="r_a38fe996ce5f79ee01f81a07263a9b1e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38fe996ce5f79ee01f81a07263a9b1e7">addTool</a> (std::string id, std::string name, std::string desc, <a class="el" href="structMR_1_1Mcp_1_1Schema_1_1Base.html">Schema::Base</a> inputSchema, <a class="el" href="structMR_1_1Mcp_1_1Schema_1_1Base.html">Schema::Base</a> outputSchema, <a class="el" href="#a164bc1306aece3be615549925d7c373e">ToolFunc</a> func)</td></tr>
+<tr class="memitem:a20051baf18b949c6abc5a884d9ed01fe" id="r_a20051baf18b949c6abc5a884d9ed01fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20051baf18b949c6abc5a884d9ed01fe">addTool</a> (std::string id, std::string name, std::string desc, <a class="el" href="structMR_1_1Mcp_1_1Schema_1_1Base.html">Schema::Base</a> inputSchema, <a class="el" href="structMR_1_1Mcp_1_1Schema_1_1Base.html">Schema::Base</a> outputSchema, <a class="el" href="#a164bc1306aece3be615549925d7c373e">ToolFunc</a> func, bool readOnly=false)</td></tr>
 <tr class="memitem:abde03fb02bbd321d709eb464753bcdf4" id="r_abde03fb02bbd321d709eb464753bcdf4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Mcp_1_1Server_1_1Params.html">Params</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abde03fb02bbd321d709eb464753bcdf4">getParams</a> () const</td></tr>
 <tr class="memitem:a8cf559fed87e72cdf80cb757ca826435" id="r_a8cf559fed87e72cdf80cb757ca826435"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cf559fed87e72cdf80cb757ca826435">setParams</a> (<a class="el" href="structMR_1_1Mcp_1_1Server_1_1Params.html">Params</a> params)</td></tr>
 <tr class="memdesc:a8cf559fed87e72cdf80cb757ca826435"><td class="mdescLeft">&#160;</td><td class="mdescRight">This restarts the server if necessary.  <br /></td></tr>
@@ -258,8 +258,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a38fe996ce5f79ee01f81a07263a9b1e7" name="a38fe996ce5f79ee01f81a07263a9b1e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38fe996ce5f79ee01f81a07263a9b1e7">&#9670;&#160;</a></span>addTool()</h2>
+<a id="a20051baf18b949c6abc5a884d9ed01fe" name="a20051baf18b949c6abc5a884d9ed01fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20051baf18b949c6abc5a884d9ed01fe">&#9670;&#160;</a></span>addTool()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,7 +292,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a164bc1306aece3be615549925d7c373e">ToolFunc</a></td>          <td class="paramname"><span class="paramname"><em>func</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a164bc1306aece3be615549925d7c373e">ToolFunc</a></td>          <td class="paramname"><span class="paramname"><em>func</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>readOnly</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -302,7 +307,8 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">name</td><td>A human/ai-readable name. </td></tr>
     <tr><td class="paramname">desc</td><td>A human/ai-readable explanation of what the tool does. </td></tr>
     <tr><td class="paramname">inputSchema</td><td>Describes the arguments. Normally it should be <span class="tt"><a class="el" href="structMR_1_1Mcp_1_1Schema_1_1Object.html">Schema::Object</a>{}</span> with some fields added. </td></tr>
-    <tr><td class="paramname">outputSchema</td><td>Describes the returned JSON. Fails if the tool with this <span class="tt">id</span> already exists. Must be called early, before <span class="tt">setRunning(true)</span> is called for the first time, otherwise fails. Returns true on success. Asserts when returning false, so you don't have to check the return value. NOTE: Consult <span class="tt">docs/testing_mcp.md</span> for how to test your tool. </td></tr>
+    <tr><td class="paramname">outputSchema</td><td>Describes the returned JSON. </td></tr>
+    <tr><td class="paramname">readOnly</td><td>The tool does not change the application's state; clients get it as the <span class="tt">readOnlyHint</span> annotation, so they may e.g. run such calls concurrently or approve them more easily. Fails if the tool with this <span class="tt">id</span> already exists. Must be called early, before <span class="tt">setRunning(true)</span> is called for the first time, otherwise fails. Returns true on success. Asserts when returning false, so you don't have to check the return value. NOTE: Consult <span class="tt">docs/testing_mcp.md</span> for how to test your tool. </td></tr>
   </table>
   </dd>
 </dl>

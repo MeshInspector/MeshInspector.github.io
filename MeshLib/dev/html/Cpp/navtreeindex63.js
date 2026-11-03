@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1BaseShellParameters.html":[9,0,0,19,879],
+"structMR_1_1BasicUiRenderTask.html":[9,0,0,19,318],
 "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[9,0,0,19,319],
 "structMR_1_1BendContoursAlongCurveParams.html":[9,0,0,19,127],
 "structMR_1_1BendTextAlongCurveParams.html":[9,0,0,19,573],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[9,0,0,10,0,13],
 "structMR_1_1DecimateSettings.html#afc72ed6f7c868487d053596c86220d6f":[9,0,0,10,0,16],
 "structMR_1_1DeloneFlipsCache.html":[9,0,1,0,1,215],
-"structMR_1_1DeloneFlipsCache.html":[9,0,2,0,1,195],
-"structMR_1_1DeloneFlipsCache.html#a238e6b49d80746fc39866fa132c510d3":[9,0,1,0,1,215,3],
-"structMR_1_1DeloneFlipsCache.html#a238e6b49d80746fc39866fa132c510d3":[9,0,2,0,1,195,3]
+"structMR_1_1DeloneFlipsCache.html":[9,0,2,0,1,195]
 };

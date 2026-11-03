@@ -14,5 +14,6 @@ var namespaceMR_1_1McpGateway =
     [ "registerLocalTools", "namespaceMR_1_1McpGateway.html#aa850caecea2d15bbf4a28557f7c247b5", null ],
     [ "spawnAndWait", "namespaceMR_1_1McpGateway.html#a9ff5364896665cd137e921006696f4ad", null ],
     [ "spawnDetached", "namespaceMR_1_1McpGateway.html#a513db1d1766357ace9b7e93446e3a1d1", null ],
-    [ "updateBackendAliveAndNotify", "namespaceMR_1_1McpGateway.html#a153505bbfb54eb994b1929e70f09d9f5", null ]
+    [ "updateBackendAliveAndNotify", "namespaceMR_1_1McpGateway.html#a153505bbfb54eb994b1929e70f09d9f5", null ],
+    [ "updateCachedTools", "namespaceMR_1_1McpGateway.html#ab808cd892649dff970cc4fedd3d1249c", null ]
 ];
