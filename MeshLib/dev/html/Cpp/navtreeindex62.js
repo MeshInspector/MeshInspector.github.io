@@ -1,5 +1,10 @@
 var NAVTREEINDEX62 =
 {
+"namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96":[9,0,1,0,1,55,4],
+"namespaceMR_1_1VoxelsLoad.html#ad303045560cb427689099a6b7fd25789":[9,0,1,0,1,55,20],
+"namespaceMR_1_1VoxelsLoad.html#ae42a24cac2267bb02933d82f3153182a":[9,0,1,0,1,55,13],
+"namespaceMR_1_1VoxelsLoad.html#ae7deee923701fff28170b2bc76c893ac":[9,0,1,0,1,55,33],
+"namespaceMR_1_1VoxelsSave.html":[9,0,0,2,20,0],
 "namespaceMR_1_1VoxelsSave.html":[9,0,0,19,38],
 "namespaceMR_1_1VoxelsSave.html#a0f33f9e03ac1292f300799e260c153be":[9,0,1,0,1,56,4],
 "namespaceMR_1_1VoxelsSave.html#a25d9cd02652bc821741b80b0ddf5469e":[9,0,1,0,1,56,21],
@@ -237,17 +242,12 @@ var NAVTREEINDEX62 =
 "structMR_1_1AncillaryMesh.html":[9,0,0,19,587],
 "structMR_1_1AncillaryPlane.html":[9,0,0,19,588],
 "structMR_1_1AncillaryPoints.html":[9,0,0,19,589],
-"structMR_1_1ArcInterpolationParams.html":[9,0,0,19,912],
+"structMR_1_1ArcInterpolationParams.html":[9,0,0,19,913],
 "structMR_1_1BMap.html":[9,0,0,19,152],
 "structMR_1_1Ball.html":[9,0,0,19,136],
 "structMR_1_1BallPivotCandidate.html":[9,0,0,19,134],
-"structMR_1_1BaseFitParams.html":[9,0,0,19,609],
+"structMR_1_1BaseFitParams.html":[9,0,0,19,610],
 "structMR_1_1BaseRenderParams.html":[9,0,0,19,315],
-"structMR_1_1BaseShellParameters.html":[9,0,0,19,878],
-"structMR_1_1BasicUiRenderTask.html":[9,0,0,19,318],
-"structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html":[9,0,0,19,319],
-"structMR_1_1BendContoursAlongCurveParams.html":[9,0,0,19,127],
-"structMR_1_1BendTextAlongCurveParams.html":[9,0,0,19,573],
-"structMR_1_1BindVertexAttribArraySettings.html":[9,0,0,19,672],
-"structMR_1_1BitSet_1_1Counts.html":[9,0,0,3,3,0]
+"structMR_1_1BaseShellParameters.html":[9,0,0,19,879],
+"structMR_1_1BasicUiRenderTask.html":[9,0,0,19,318]
 };

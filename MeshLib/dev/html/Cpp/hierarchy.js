@@ -1211,6 +1211,9 @@ var hierarchy =
     [ "MR::RigidScaleXf3< T >", "structMR_1_1RigidScaleXf3.html", null ],
     [ "MR::RigidXf3< T >", "structMR_1_1RigidXf3.html", null ],
     [ "MR::RigidXfRansacParams", "structMR_1_1RigidXfRansacParams.html", null ],
+    [ "std::runtime_error", null, [
+      [ "MR::CommandLoop::StartTimeout", "structMR_1_1CommandLoop_1_1StartTimeout.html", null ]
+    ] ],
     [ "MR::UI::SaveChangesPopupSettings", "structMR_1_1UI_1_1SaveChangesPopupSettings.html", null ],
     [ "ImGui::SavedWindowPosParams", "structImGui_1_1SavedWindowPosParams.html", null ],
     [ "MR::SaveObjectSettings", "structMR_1_1SaveObjectSettings.html", null ],

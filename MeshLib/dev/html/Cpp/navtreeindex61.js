@@ -1,5 +1,10 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1Locale.html#a6d1d8a39e848466d43b87150df314423":[9,0,1,0,1,21,26],
+"namespaceMR_1_1Locale.html#a772085918dc6bb957c5b39523c10b1be":[9,0,1,0,1,21,13],
+"namespaceMR_1_1Locale.html#a7affefe5778dbb68b23731f72e7405c0":[9,0,1,0,1,21,9],
+"namespaceMR_1_1Locale.html#a88410b6d8ce80e2193cc71cb7bacaffb":[9,0,1,0,1,21,4],
+"namespaceMR_1_1Locale.html#a8d1947c7d967dbc42a857466e79550e7":[9,0,1,0,1,21,8],
 "namespaceMR_1_1Locale.html#a995808ce5bfad907a028c3f2505f76cc":[9,0,1,0,1,21,16],
 "namespaceMR_1_1Locale.html#a9a635779fb2e857a50dd1e60b10b6f52":[9,0,1,0,1,21,12],
 "namespaceMR_1_1Locale.html#a9bca173ce200ccfc4538eea48e0dc1db":[9,0,1,0,1,21,18],
@@ -10,7 +15,7 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1Locale_1_1detail.html":[9,0,1,0,1,21,0],
 "namespaceMR_1_1Locale_1_1detail.html#affe80668a699064bb90515126c515b53":[9,0,1,0,1,21,0,0],
 "namespaceMR_1_1Mcp.html":[9,0,0,19,26],
-"namespaceMR_1_1Mcp.html#a6fc498a8d32846c67303876da60b946f":[9,0,1,0,1,22,2],
+"namespaceMR_1_1Mcp.html#a6fc498a8d32846c67303876da60b946f":[9,0,1,0,1,22,3],
 "namespaceMR_1_1McpGateway.html":[9,0,1,0,1,23],
 "namespaceMR_1_1McpGateway.html#a125af5dc97b6c00c8b23e57f661a1b96":[9,0,1,0,1,23,3],
 "namespaceMR_1_1McpGateway.html#a153505bbfb54eb994b1929e70f09d9f5":[9,0,1,0,1,23,14],
@@ -244,10 +249,5 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1VoxelsLoad.html#ab02ac1c58396a89e54c4b384dd5142ea":[9,0,1,0,1,55,9],
 "namespaceMR_1_1VoxelsLoad.html#ab0a9073a8190607740aa7a4e108a70ea":[9,0,1,0,1,55,15],
 "namespaceMR_1_1VoxelsLoad.html#ab8b39ae86f2bd1e780c542ceebadc56d":[9,0,1,0,1,55,18],
-"namespaceMR_1_1VoxelsLoad.html#ac56550c38609cdf38fcf34f3740e8f82":[9,0,1,0,1,55,11],
-"namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96":[9,0,1,0,1,55,4],
-"namespaceMR_1_1VoxelsLoad.html#ad303045560cb427689099a6b7fd25789":[9,0,1,0,1,55,20],
-"namespaceMR_1_1VoxelsLoad.html#ae42a24cac2267bb02933d82f3153182a":[9,0,1,0,1,55,13],
-"namespaceMR_1_1VoxelsLoad.html#ae7deee923701fff28170b2bc76c893ac":[9,0,1,0,1,55,33],
-"namespaceMR_1_1VoxelsSave.html":[9,0,0,2,20,0]
+"namespaceMR_1_1VoxelsLoad.html#ac56550c38609cdf38fcf34f3740e8f82":[9,0,1,0,1,55,11]
 };

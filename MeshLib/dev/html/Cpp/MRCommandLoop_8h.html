@@ -139,10 +139,13 @@ $(function(){initNavTree('MRCommandLoop_8h.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;exports.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRMesh/MRExpected.h</a>&quot;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
 <code>#include &lt;queue&gt;</code><br />
 <code>#include &lt;functional&gt;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 <code>#include &lt;condition_variable&gt;</code><br />
 <code>#include &lt;mutex&gt;</code><br />
+<code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &lt;thread&gt;</code><br />
 </div>
 <p><a href="MRCommandLoop_8h_source.html">Go to the source code of this file.</a></p>
@@ -151,6 +154,8 @@ $(function(){initNavTree('MRCommandLoop_8h.html','',''); });
 Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ACommandLoop" id="r_MR_3A_3ACommandLoop"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional command loop for external app control.  <a href="classMR_1_1CommandLoop.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3ACommandLoop_3A_3AStartTimeout" id="r_MR_3A_3ACommandLoop_3A_3AStartTimeout"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CommandLoop_1_1StartTimeout.html">MR::CommandLoop::StartTimeout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">thrown by runCommandFromGUIThread if the main thread did not start the command within <span class="tt">startTimeout</span>  <a href="structMR_1_1CommandLoop_1_1StartTimeout.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>

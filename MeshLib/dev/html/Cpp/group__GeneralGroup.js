@@ -5757,6 +5757,7 @@ var group__GeneralGroup =
         [ "AfterWindowAppear", "group__GeneralGroup.html#gga2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a", null ]
       ] ]
     ] ],
+    [ "MR::CommandLoop::StartTimeout", "structMR_1_1CommandLoop_1_1StartTimeout.html", null ],
     [ "MR::ShaderWarning", "structMR_1_1ShaderWarning.html", [
       [ "line", "group__GeneralGroup.html#ga930eaa6dc15670480191448c07138e81", null ],
       [ "number", "group__GeneralGroup.html#gabb95321aeb350840573cff7f04e36f33", null ]
@@ -11297,6 +11298,7 @@ var group__GeneralGroup =
     [ "MR::buildSmallestMetricPath", "group__SurfacePathGroup.html#ga2e859da5422bb433cd50959d4c1f5c3c", null ],
     [ "MR::buildSmallestMetricPathBiDir", "group__SurfacePathGroup.html#gae474ab43755b30ced4f02ee56022a3eb", null ],
     [ "MR::buildSmallestMetricPathBiDir", "group__SurfacePathGroup.html#ga9abf677f3818dddee4eda4f17b494cfc", null ],
+    [ "MR::Mcp::busyError", "group__GeneralGroup.html#gae8d43b75965d778cd40ea18fb74e74be", null ],
     [ "MR::UI::button", "group__GeneralGroup.html#ga51bbdede216ec98a179b1d79c7778424", null ],
     [ "MR::UI::button", "group__GeneralGroup.html#gad13b9be4aa5cae65c61e91ac1ab04ecd", null ],
     [ "MR::UI::buttonCommonSize", "group__GeneralGroup.html#gaf3fe99ef2ac60ce444b1fa8b1d9924eb", null ],
@@ -13619,6 +13621,7 @@ var group__GeneralGroup =
     [ "MR::RibbonSceneObjectsListDrawer::initRibbonMenu", "group__GeneralGroup.html#ga04abc3de8e718d6580a97c614043ea6f", null ],
     [ "MR::UI::input", "group__GeneralGroup.html#ga20c859724d4c3797dfd73f020904c2d4", null ],
     [ "MR::UI::inputPlusMinus", "group__GeneralGroup.html#ga2d696a4ba7ed6899c61e4f297218a530", null ],
+    [ "MR::Mcp::inputResult", "group__GeneralGroup.html#gab48e217abb5c62eb94cac370f87fb32d", null ],
     [ "MR::UI::inputText", "group__GeneralGroup.html#ga2c6272f604f041b385fcb0fd25eb8838", null ],
     [ "MR::UI::inputTextCentered", "group__GeneralGroup.html#gac6e1d47398c0698542a3bc3c6e0471c4", null ],
     [ "MR::UI::inputTextCenteredReadOnly", "group__GeneralGroup.html#gab35e0183d8b7ee9a4dcb814de83ad406", null ],
@@ -15532,8 +15535,9 @@ var group__GeneralGroup =
     [ "MR::NormalsToPoints::ISolver::run", "group__GeneralGroup.html#gae336851ab46c31fc8f961484c2b45b5a", null ],
     [ "MR::NormalsToPoints::run", "group__GeneralGroup.html#ga267e2926e88f4480cedbfa3ff965547c", null ],
     [ "MR::NormalsToPoints::run", "group__GeneralGroup.html#ga6d7fc1fe41862805d423e14a407367b8", null ],
-    [ "MR::CommandLoop::runCommandFromGUIThread", "group__GeneralGroup.html#gaa7b94269107f75e82b8f719b5981465d", null ],
+    [ "MR::CommandLoop::runCommandFromGUIThread", "group__GeneralGroup.html#ga202b8c94e30555c39d1b5ce85573b7cd", null ],
     [ "MR::Viewer::runEventLoopIteration", "group__GeneralGroup.html#gaab7928a3a97d277d7b96b0f019016360", null ],
+    [ "MR::Mcp::runOnMainThread", "group__GeneralGroup.html#ga9d5f4675fabeeb144896590b3d8b309b", null ],
     [ "MR::EmbeddedPython::runScript", "group__GeneralGroup.html#gaa5dec7481f55f7fac9478b8165e5c867", null ],
     [ "MR::EmbeddedPython::runString", "group__GeneralGroup.html#gaa8034ff978609b3932d31cb4271f33e0", null ],
     [ "MR::same", "group__GeneralGroup.html#ga3b15caf456e5957f1d1a548142e66641", null ],
@@ -16938,6 +16942,7 @@ var group__GeneralGroup =
     [ "MR::VoxelsVolumeMinMax< VoxelScalars >", "group__GeneralGroup.html#ga7b94aedbe4655abd8f1ec4139ca07a9a", null ],
     [ "MR::TbbTaskArenaAndGroup::wait", "group__GeneralGroup.html#ga4c412febc6da82629fc96409954f1824", null ],
     [ "MR::AsyncTimer::waitBlocking", "group__GeneralGroup.html#ga3f5a7db517c3071af62583900d3e7913", null ],
+    [ "MR::Mcp::waitFramesAfterInput", "group__GeneralGroup.html#ga8c36495d12711da5bff2929013da4609", null ],
     [ "MR::WebRequest::waitRemainingAsync", "group__GeneralGroup.html#gaa867f28921e766c820f9339b364d7b6e", null ],
     [ "MR::ProgressInterrupter::wasInterrupted", "group__GeneralGroup.html#gaa7c319b39d9ff06438f19d5c5306139e", null ],
     [ "MR::WatershedGraph::WatershedGraph", "group__GeneralGroup.html#ga50705670ff6a5cb245a04bce034f12ec", null ],
@@ -17408,6 +17413,7 @@ var group__GeneralGroup =
     [ "MR::MeshOrPoints::ProjectionResult::closestVert", "group__GeneralGroup.html#gacd151f3c2558f8dc870aa2172d32a00e", null ],
     [ "MR::PointCloudPart::cloud", "group__GeneralGroup.html#ga85d4aad70140445a8b9ebadbc4382363", null ],
     [ "MR::ImproveSamplingSettings::cloudOfSamples", "group__GeneralGroup.html#ga59eb791fd7a6937434c6378dbf627296", null ],
+    [ "MR::Mcp::cMainThreadTimeout", "group__GeneralGroup.html#gad65b085b7ec03d7054d68e92f84be7ef", null ],
     [ "MR::PlanarTriangulation::cMaxSegmentsInPairs", "group__GeneralGroup.html#ga7c3537adfba23ebaf54fedc6f9301ba8", null ],
     [ "MR::cMiddleFontSize", "group__GeneralGroup.html#gaf967dac752a05397da587b76ec72feb5", null ],
     [ "MR::cMiddleIconSize", "group__GeneralGroup.html#ga8a7826f17744adf420a5075847c99e9e", null ],

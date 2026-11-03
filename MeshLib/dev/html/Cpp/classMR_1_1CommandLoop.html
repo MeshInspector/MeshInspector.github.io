@@ -131,6 +131,7 @@ $(function(){initNavTree('classMR_1_1CommandLoop.html','','classMR_1_1CommandLoo
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1CommandLoop-members.html">List of all members</a>  </div>
@@ -143,6 +144,11 @@ $(function(){initNavTree('classMR_1_1CommandLoop.html','','classMR_1_1CommandLoo
 
 <p><code>#include &lt;<a class="el" href="MRCommandLoop_8h_source.html">MRViewer/MRCommandLoop.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:StartTimeout" id="r_StartTimeout"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CommandLoop_1_1StartTimeout.html">StartTimeout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">thrown by runCommandFromGUIThread if the main thread did not start the command within <span class="tt">startTimeout</span>  <a href="structMR_1_1CommandLoop_1_1StartTimeout.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ga2e4318196fd48b27b617c07eb35bbe39" id="r_ga2e4318196fd48b27b617c07eb35bbe39"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> { <br />
@@ -165,7 +171,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:gad8d97732825e4cad90081d68d7923d8d" id="r_gad8d97732825e4cad90081d68d7923d8d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gad8d97732825e4cad90081d68d7923d8d">setState</a> (<a class="el" href="group__GeneralGroup.html#ga2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> state)</td></tr>
 <tr class="memdesc:gad8d97732825e4cad90081d68d7923d8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update state of command loop, only can rise.  <br /></td></tr>
 <tr class="memitem:gadceb2e7dc3e951be7d6c80eb72cb226c" id="r_gadceb2e7dc3e951be7d6c80eb72cb226c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gadceb2e7dc3e951be7d6c80eb72cb226c">appendCommand</a> (<a class="el" href="group__GeneralGroup.html#ga517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func, <a class="el" href="group__GeneralGroup.html#ga2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> state=<a class="el" href="group__GeneralGroup.html#gga2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba">StartPosition::BeforeWindowAppear</a>)</td></tr>
-<tr class="memitem:gaa7b94269107f75e82b8f719b5981465d" id="r_gaa7b94269107f75e82b8f719b5981465d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa7b94269107f75e82b8f719b5981465d">runCommandFromGUIThread</a> (<a class="el" href="group__GeneralGroup.html#ga517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func)</td></tr>
+<tr class="memitem:ga202b8c94e30555c39d1b5ce85573b7cd" id="r_ga202b8c94e30555c39d1b5ce85573b7cd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga202b8c94e30555c39d1b5ce85573b7cd">runCommandFromGUIThread</a> (<a class="el" href="group__GeneralGroup.html#ga517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func, std::optional&lt; std::chrono::milliseconds &gt; startTimeout={})</td></tr>
 <tr class="memitem:ga608f3b3e1415777cf598629aa0b73681" id="r_ga608f3b3e1415777cf598629aa0b73681"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga608f3b3e1415777cf598629aa0b73681">processCommands</a> ()</td></tr>
 <tr class="memdesc:ga608f3b3e1415777cf598629aa0b73681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute all commands from loop.  <br /></td></tr>
 <tr class="memitem:ga42865b58d6d71d73a87b0633e0b623f2" id="r_ga42865b58d6d71d73a87b0633e0b623f2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga42865b58d6d71d73a87b0633e0b623f2">empty</a> ()</td></tr>

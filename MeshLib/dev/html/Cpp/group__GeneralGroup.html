@@ -957,6 +957,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AColorTheme" id="r_MR_3A_3AColorTheme"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ColorTheme.html">MR::ColorTheme</a></td></tr>
 <tr class="memitem:MR_3A_3ACommandLoop" id="r_MR_3A_3ACommandLoop"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CommandLoop.html">MR::CommandLoop</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional command loop for external app control.  <a href="classMR_1_1CommandLoop.html#details">More...</a><br /></td></tr>
+<tr class="memitem:MR_3A_3ACommandLoop_3A_3AStartTimeout" id="r_MR_3A_3ACommandLoop_3A_3AStartTimeout"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CommandLoop_1_1StartTimeout.html">MR::CommandLoop::StartTimeout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">thrown by runCommandFromGUIThread if the main thread did not start the command within <span class="tt">startTimeout</span>  <a href="structMR_1_1CommandLoop_1_1StartTimeout.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AShaderWarning" id="r_MR_3A_3AShaderWarning"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ShaderWarning.html">MR::ShaderWarning</a></td></tr>
 <tr class="memitem:MR_3A_3ACudaAccessor" id="r_MR_3A_3ACudaAccessor"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CudaAccessor.html">MR::CudaAccessor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The purpose of this class is to access CUDA algorithms without explicit dependency on MRCuda.  <a href="classMR_1_1CudaAccessor.html#details">More...</a><br /></td></tr>
@@ -9079,7 +9081,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gad8d97732825e4cad90081d68d7923d8d" id="r_gad8d97732825e4cad90081d68d7923d8d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad8d97732825e4cad90081d68d7923d8d">MR::CommandLoop::setState</a> (<a class="el" href="#ga2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> state)</td></tr>
 <tr class="memdesc:gad8d97732825e4cad90081d68d7923d8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update state of command loop, only can rise.  <br /></td></tr>
 <tr class="memitem:gadceb2e7dc3e951be7d6c80eb72cb226c" id="r_gadceb2e7dc3e951be7d6c80eb72cb226c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadceb2e7dc3e951be7d6c80eb72cb226c">MR::CommandLoop::appendCommand</a> (<a class="el" href="#ga517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func, <a class="el" href="#ga2e4318196fd48b27b617c07eb35bbe39">StartPosition</a> state=<a class="el" href="#gga2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba">StartPosition::BeforeWindowAppear</a>)</td></tr>
-<tr class="memitem:gaa7b94269107f75e82b8f719b5981465d" id="r_gaa7b94269107f75e82b8f719b5981465d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa7b94269107f75e82b8f719b5981465d">MR::CommandLoop::runCommandFromGUIThread</a> (<a class="el" href="#ga517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func)</td></tr>
+<tr class="memitem:ga202b8c94e30555c39d1b5ce85573b7cd" id="r_ga202b8c94e30555c39d1b5ce85573b7cd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga202b8c94e30555c39d1b5ce85573b7cd">MR::CommandLoop::runCommandFromGUIThread</a> (<a class="el" href="#ga517bdd4c876165f0896a0780d5fea918">CommandFunc</a> func, std::optional&lt; std::chrono::milliseconds &gt; startTimeout={})</td></tr>
 <tr class="memitem:ga608f3b3e1415777cf598629aa0b73681" id="r_ga608f3b3e1415777cf598629aa0b73681"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga608f3b3e1415777cf598629aa0b73681">MR::CommandLoop::processCommands</a> ()</td></tr>
 <tr class="memdesc:ga608f3b3e1415777cf598629aa0b73681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute all commands from loop.  <br /></td></tr>
 <tr class="memitem:ga42865b58d6d71d73a87b0633e0b623f2" id="r_ga42865b58d6d71d73a87b0633e0b623f2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga42865b58d6d71d73a87b0633e0b623f2">MR::CommandLoop::empty</a> ()</td></tr>
@@ -9347,6 +9349,13 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga0c165bcc8653a7af45f1680f2ed83811" id="r_ga0c165bcc8653a7af45f1680f2ed83811"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c165bcc8653a7af45f1680f2ed83811">MR::Mcp::idOf</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> *obj)</td></tr>
 <tr class="memdesc:ga0c165bcc8653a7af45f1680f2ed83811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer -&gt; id (as a JSON number). Matches the <span class="tt">##&lt;id&gt;</span> suffix in <a class="el" href="namespaceImGui.html">ImGui</a> labels for the same object.  <br /></td></tr>
 <tr class="memitem:ga0280b00dcc1ca26b3e93e6321da0598a" id="r_ga0280b00dcc1ca26b3e93e6321da0598a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0280b00dcc1ca26b3e93e6321da0598a">MR::Mcp::resolveId</a> (uint64_t id)</td></tr>
+<tr class="memitem:gae8d43b75965d778cd40ea18fb74e74be" id="r_gae8d43b75965d778cd40ea18fb74e74be"><td class="memItemLeft" align="right" valign="top">std::runtime_error&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae8d43b75965d778cd40ea18fb74e74be">MR::Mcp::busyError</a> (std::string_view what)</td></tr>
+<tr class="memdesc:gae8d43b75965d778cd40ea18fb74e74be"><td class="mdescLeft">&#160;</td><td class="mdescRight">The error for a main thread that did not respond within <span class="tt">cMainThreadTimeout</span>  <br /></td></tr>
+<tr class="memitem:ga9d5f4675fabeeb144896590b3d8b309b" id="r_ga9d5f4675fabeeb144896590b3d8b309b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9d5f4675fabeeb144896590b3d8b309b">MR::Mcp::runOnMainThread</a> (const std::function&lt; void()&gt; &amp;func)</td></tr>
+<tr class="memdesc:ga9d5f4675fabeeb144896590b3d8b309b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><span class="tt"><a class="el" href="#ga202b8c94e30555c39d1b5ce85573b7cd">CommandLoop::runCommandFromGUIThread</a></span>, but throws <span class="tt">busyError</span> if the main thread does not start <span class="tt">func</span> in time  <br /></td></tr>
+<tr class="memitem:ga8c36495d12711da5bff2929013da4609" id="r_ga8c36495d12711da5bff2929013da4609"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8c36495d12711da5bff2929013da4609">MR::Mcp::waitFramesAfterInput</a> (const std::function&lt; void()&gt; &amp;after={})</td></tr>
+<tr class="memitem:gab48e217abb5c62eb94cac370f87fb32d" id="r_gab48e217abb5c62eb94cac370f87fb32d"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab48e217abb5c62eb94cac370f87fb32d">MR::Mcp::inputResult</a> (std::string busy)</td></tr>
+<tr class="memdesc:gab48e217abb5c62eb94cac370f87fb32d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The result of a tool that sends an input: <span class="tt">{}</span>, or <span class="tt">{busy: &lt;message&gt;}</span> from <span class="tt">waitFramesAfterInput</span>  <br /></td></tr>
 <tr class="memitem:ga6c88b0b006c6613528d35abd588f7ed1" id="r_ga6c88b0b006c6613528d35abd588f7ed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6c88b0b006c6613528d35abd588f7ed1">MR::BoundarySelectionWidget::enable</a> (bool isEnabled)</td></tr>
 <tr class="memdesc:ga6c88b0b006c6613528d35abd588f7ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable or disable widget  <br /></td></tr>
 <tr class="memitem:ga2b69320649d369bcb7e4b75cc751f2e1" id="r_ga2b69320649d369bcb7e4b75cc751f2e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2b69320649d369bcb7e4b75cc751f2e1">MR::BoundarySelectionWidget::create</a> (<a class="el" href="#ga99966598c20038beae6a6b9c3fdb146d">BoundarySelectionWidgetCallBack</a> onBoundarySelected, <a class="el" href="#ga2e11f1e4737493f7e61b6b3793519373">BoundarySelectionWidgetChecker</a> isObjectValidToPick)</td></tr>
@@ -14008,7 +14017,7 @@ Variables</h2></td></tr>
 <tr class="memitem:gae3bbfe155bd86cd1b3df9cf6cec694db" id="r_gae3bbfe155bd86cd1b3df9cf6cec694db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae3bbfe155bd86cd1b3df9cf6cec694db">MR::CommandLoop::Command::started</a> { false }</td></tr>
 <tr class="memitem:ga01da5c9c2826edd83e70f122a5e8ce03" id="r_ga01da5c9c2826edd83e70f122a5e8ce03"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga01da5c9c2826edd83e70f122a5e8ce03">MR::CommandLoop::Command::done</a> { false }</td></tr>
 <tr class="memitem:ga9d557c2c46c0a99010142a4b2d255892" id="r_ga9d557c2c46c0a99010142a4b2d255892"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9d557c2c46c0a99010142a4b2d255892">MR::CommandLoop::Command::dropped</a> { false }</td></tr>
-<tr class="memdesc:ga9d557c2c46c0a99010142a4b2d255892"><td class="mdescLeft">&#160;</td><td class="mdescRight">set under CommandLoop::mutex_ in <span class="tt">removeCommands</span>: <span class="tt">done</span>, but never executed  <br /></td></tr>
+<tr class="memdesc:ga9d557c2c46c0a99010142a4b2d255892"><td class="mdescLeft">&#160;</td><td class="mdescRight">set under CommandLoop::mutex_ in <span class="tt">removeCommands</span> or on a start timeout: <span class="tt">done</span>, but never executed  <br /></td></tr>
 <tr class="memitem:gabb95321aeb350840573cff7f04e36f33" id="r_gabb95321aeb350840573cff7f04e36f33"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb95321aeb350840573cff7f04e36f33">MR::ShaderWarning::number</a> {0}</td></tr>
 <tr class="memdesc:gabb95321aeb350840573cff7f04e36f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">number is presented in some of gpu shader compilations output  <br /></td></tr>
 <tr class="memitem:ga930eaa6dc15670480191448c07138e81" id="r_ga930eaa6dc15670480191448c07138e81"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga930eaa6dc15670480191448c07138e81">MR::ShaderWarning::line</a></td></tr>
@@ -14088,6 +14097,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga40042bd3d06dc6fbad5b2ffa07f34a32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slice plane.  <br /></td></tr>
 <tr class="memitem:ga457b6335d7f051cf9ad4ff3d0d6514a5" id="r_ga457b6335d7f051cf9ad4ff3d0d6514a5"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1Color.html">Color</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga457b6335d7f051cf9ad4ff3d0d6514a5">MR::MarkedVoxelSlice::Parameters::inactiveVoxelColor</a></td></tr>
 <tr class="memdesc:ga457b6335d7f051cf9ad4ff3d0d6514a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">if inactiveVoxelColor is set to some color then it will be blended with inactive voxel's color  <br /></td></tr>
+<tr class="memitem:gad65b085b7ec03d7054d68e92f84be7ef" id="r_gad65b085b7ec03d7054d68e92f84be7ef"><td class="memItemLeft" align="right" valign="top">constexpr std::chrono::seconds&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad65b085b7ec03d7054d68e92f84be7ef">MR::Mcp::cMainThreadTimeout</a> { 20 }</td></tr>
 <tr class="memitem:ga7cc2969f192dc2c210907527c55accf7" id="r_ga7cc2969f192dc2c210907527c55accf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Color.html">MR::Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7cc2969f192dc2c210907527c55accf7">MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::ordinaryColor</a> = <a class="el" href="#gab2d02b3c25652081a0b2f9c3f4de388f">MR::Color::gray</a>()</td></tr>
 <tr class="memitem:ga0ed51b795be6b13b452d9ac27d4409bb" id="r_ga0ed51b795be6b13b452d9ac27d4409bb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0ed51b795be6b13b452d9ac27d4409bb">MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::ordinaryLineWidth</a> = 3</td></tr>
 <tr class="memitem:ga381406ff0c17d87e6508cfcd62e20f05" id="r_ga381406ff0c17d87e6508cfcd62e20f05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Color.html">MR::Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga381406ff0c17d87e6508cfcd62e20f05">MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::hoveredColor</a> = <a class="el" href="#ga07d25f841350c5a6eeca781f6dcd0fda">MR::Color::green</a>()</td></tr>
@@ -40219,6 +40229,27 @@ if all even edges are consistently oriented, then the output contours will be or
 
 <p><code>#include &lt;<a class="el" href="MREdgePaths_8h.html">MRMesh/MREdgePaths.h</a>&gt;</code></p>
 <p>finds the smallest metric path from start vertex to finish vertex, using bidirectional modification of Dijkstra algorithm, constructing the path simultaneously from both start and finish, which is faster for long paths; if no path can be found then empty path is returned </p>
+
+</div>
+</div>
+<a id="gae8d43b75965d778cd40ea18fb74e74be" name="gae8d43b75965d778cd40ea18fb74e74be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae8d43b75965d778cd40ea18fb74e74be">&#9670;&#160;</a></span>busyError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::runtime_error MR::Mcp::busyError </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>what</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMcpCommon_8h.html">MRViewer/MRMcpCommon.h</a>&gt;</code></p>
+
+<p>The error for a main thread that did not respond within <span class="tt">cMainThreadTimeout</span> </p>
 
 </div>
 </div>
@@ -109816,6 +109847,27 @@ template&lt;UnitEnum E, detail::Scalar T, typename F = std::nullptr_t&gt; </div>
 
 </div>
 </div>
+<a id="gab48e217abb5c62eb94cac370f87fb32d" name="gab48e217abb5c62eb94cac370f87fb32d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab48e217abb5c62eb94cac370f87fb32d">&#9670;&#160;</a></span>inputResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">nlohmann::json MR::Mcp::inputResult </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>busy</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMcpCommon_8h.html">MRViewer/MRMcpCommon.h</a>&gt;</code></p>
+
+<p>The result of a tool that sends an input: <span class="tt">{}</span>, or <span class="tt">{busy: &lt;message&gt;}</span> from <span class="tt">waitFramesAfterInput</span> </p>
+
+</div>
+</div>
 <a id="ga2c6272f604f041b385fcb0fd25eb8838" name="ga2c6272f604f041b385fcb0fd25eb8838"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga2c6272f604f041b385fcb0fd25eb8838">&#9670;&#160;</a></span>inputText()</h2>
 
@@ -155883,7 +155935,7 @@ template&lt;typename F&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRPythonAppendCommand_8h.html">MRViewer/MRPythonAppendCommand.h</a>&gt;</code></p>
-<p><a class="el" href="#gaa7b94269107f75e82b8f719b5981465d">CommandLoop::runCommandFromGUIThread</a> for a binding: waits with the GIL released, since the GUI thread may need the GIL to get to the command, e.g. the macOS main thread still running Python code </p>
+<p><a class="el" href="#ga202b8c94e30555c39d1b5ce85573b7cd">CommandLoop::runCommandFromGUIThread</a> for a binding: waits with the GIL released, since the GUI thread may need the GIL to get to the command, e.g. the macOS main thread still running Python code </p>
 
 </div>
 </div>
@@ -164174,8 +164226,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gaa7b94269107f75e82b8f719b5981465d" name="gaa7b94269107f75e82b8f719b5981465d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa7b94269107f75e82b8f719b5981465d">&#9670;&#160;</a></span>runCommandFromGUIThread()</h2>
+<a id="ga202b8c94e30555c39d1b5ce85573b7cd" name="ga202b8c94e30555c39d1b5ce85573b7cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga202b8c94e30555c39d1b5ce85573b7cd">&#9670;&#160;</a></span>runCommandFromGUIThread()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -164186,8 +164238,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">void MR::CommandLoop::runCommandFromGUIThread </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#ga517bdd4c876165f0896a0780d5fea918">CommandFunc</a></td>          <td class="paramname"><span class="paramname"><em>func</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#ga517bdd4c876165f0896a0780d5fea918">CommandFunc</a></td>          <td class="paramname"><span class="paramname"><em>func</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::optional&lt; std::chrono::milliseconds &gt;</td>          <td class="paramname"><span class="paramname"><em>startTimeout</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -164198,7 +164254,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRCommandLoop_8h.html">MRViewer/MRCommandLoop.h</a>&gt;</code></p>
-<p>If caller thread is main - instantly run command, otherwise add command to the end of loop with <a class="el" href="#ga2e4318196fd48b27b617c07eb35bbe39" title="Specify execution in specific time of application start.">StartPosition</a> state = StartPosition::AfterSplash and blocks caller thread until command is done throws std::runtime_error if no loop can ever run the command: the queue is closed, it was never started, or removeCommands dropped the command while the caller was waiting; an exception thrown by func itself propagates to the caller as well; call it only where an exception is already the error channel - python bindings and MCP tools - and not from other C++ code, which must be exception-free: use appendCommand there </p>
+<p>If caller thread is main - instantly run command, otherwise add command to the end of loop with <a class="el" href="#ga2e4318196fd48b27b617c07eb35bbe39" title="Specify execution in specific time of application start.">StartPosition</a> state = StartPosition::AfterSplash and blocks caller thread until command is done throws std::runtime_error if no loop can ever run the command: the queue is closed, it was never started, or removeCommands dropped the command while the caller was waiting; an exception thrown by func itself propagates to the caller as well; call it only where an exception is already the error channel - python bindings and MCP tools - and not from other C++ code, which must be exception-free: use appendCommand there if <span class="tt">startTimeout</span> is given and the main thread does not start the command within it (e.g. it is busy with a long computation), the command is dropped without being executed and <a class="el" href="structMR_1_1CommandLoop_1_1StartTimeout.html" title="thrown by runCommandFromGUIThread if the main thread did not start the command within startTimeout">StartTimeout</a> is thrown; a command that has started is always waited for </p>
 
 </div>
 </div>
@@ -164219,6 +164275,27 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&gt;</code></p>
 <p>One iteration of the event loop: draws while a redraw is needed, handling the events and commands received meanwhile, then waits for the next event - at most <span class="tt">maxWaitSec</span> seconds if it is not negative; an animating viewer waits at most one frame anyway. <span class="tt">launchEventLoop</span> repeats it until <span class="tt">windowShouldClose</span>. </p>
+
+</div>
+</div>
+<a id="ga9d5f4675fabeeb144896590b3d8b309b" name="ga9d5f4675fabeeb144896590b3d8b309b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9d5f4675fabeeb144896590b3d8b309b">&#9670;&#160;</a></span>runOnMainThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Mcp::runOnMainThread </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; void()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>func</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMcpCommon_8h.html">MRViewer/MRMcpCommon.h</a>&gt;</code></p>
+
+<p><span class="tt"><a class="el" href="#ga202b8c94e30555c39d1b5ce85573b7cd">CommandLoop::runCommandFromGUIThread</a></span>, but throws <span class="tt">busyError</span> if the main thread does not start <span class="tt">func</span> in time </p>
 
 </div>
 </div>
@@ -203784,6 +203861,34 @@ template&lt;typename Accessor&gt; </div>
 
 </div>
 </div>
+<a id="ga8c36495d12711da5bff2929013da4609" name="ga8c36495d12711da5bff2929013da4609"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8c36495d12711da5bff2929013da4609">&#9670;&#160;</a></span>waitFramesAfterInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::Mcp::waitFramesAfterInput </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; void()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>after</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMcpCommon_8h.html">MRViewer/MRMcpCommon.h</a>&gt;</code></p>
+<p><span class="tt">skipFramesAfterInput</span>, then <span class="tt">after</span> on the main thread, limited to <span class="tt">cMainThreadTimeout</span> in total; returns a message for the agent if the main thread is still busy, likely with the action the input started (then <span class="tt">after</span> did not run); a tool whose input cannot start a long action may ignore it, the next call reports it </p>
+
+</div>
+</div>
 <a id="gaa867f28921e766c820f9339b364d7b6e" name="gaa867f28921e766c820f9339b364d7b6e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaa867f28921e766c820f9339b364d7b6e">&#9670;&#160;</a></span>waitRemainingAsync()</h2>
 
@@ -213303,6 +213408,31 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="gad65b085b7ec03d7054d68e92f84be7ef" name="gad65b085b7ec03d7054d68e92f84be7ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad65b085b7ec03d7054d68e92f84be7ef">&#9670;&#160;</a></span>cMainThreadTimeout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::chrono::seconds MR::Mcp::cMainThreadTimeout { 20 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMcpCommon_8h.html">MRViewer/MRMcpCommon.h</a>&gt;</code></p>
+<p>How long a tool waits for the main thread, e.g. while it runs a long action, so that the agent gets an explanation instead of a timeout in its MCP client </p>
+
+</div>
+</div>
 <a id="ga7c3537adfba23ebaf54fedc6f9301ba8" name="ga7c3537adfba23ebaf54fedc6f9301ba8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga7c3537adfba23ebaf54fedc6f9301ba8">&#9670;&#160;</a></span>cMaxSegmentsInPairs</h2>
 
@@ -217763,7 +217893,7 @@ template&lt;class T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>set under CommandLoop::mutex_ in <span class="tt">removeCommands</span>: <span class="tt">done</span>, but never executed </p>
+<p>set under CommandLoop::mutex_ in <span class="tt">removeCommands</span> or on a start timeout: <span class="tt">done</span>, but never executed </p>
 
 </div>
 </div>
