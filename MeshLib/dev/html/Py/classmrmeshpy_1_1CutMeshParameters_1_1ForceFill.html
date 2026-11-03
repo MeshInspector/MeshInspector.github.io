@@ -167,7 +167,8 @@ Static Public Attributes</h2></td></tr>
   All : bad faces are filled too, but their triangulation can be bad (may have self-intersections or tunnels)
 
   SplitCrossings : as All, but with sortData the contours are first split where they cross in bad faces (see \\ref CutMeshResult::resultCut);
-where the split fails, as All: e.g. in a face where a contour segment ends at a mesh vertex or an open contour ends on a side of the face
+where the split fails, as All: e.g. in a face where an open contour ends on a side of the face, or a contour segment ends
+at a mesh vertex that is not a corner of the triangle of the other mesh along the segment (unlike the fold vertices of selfBoolean)
 </pre> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a15c00ed348380195abc47e144977ecfc" name="a15c00ed348380195abc47e144977ecfc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a15c00ed348380195abc47e144977ecfc">&#9670;&#160;</a></span>__init__()</h2>

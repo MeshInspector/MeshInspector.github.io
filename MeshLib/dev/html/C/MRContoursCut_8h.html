@@ -520,7 +520,7 @@ MR::surfaceLineToClosedMeshContour MR::surfacePathsToMeshContours Generated from
 <p>bad faces are filled too, but their triangulation can be bad (may have self-intersections or tunnels) </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ad88711e195698407258d2d46c2a03394a75d3acb4c28b6624872c1f30ef2aa1f9" name="ad88711e195698407258d2d46c2a03394a75d3acb4c28b6624872c1f30ef2aa1f9"></a>MR_CutMeshParameters_ForceFill_All&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad88711e195698407258d2d46c2a03394aa6714b3744aee0754c63d7230daa8e7c" name="ad88711e195698407258d2d46c2a03394aa6714b3744aee0754c63d7230daa8e7c"></a>MR_CutMeshParameters_ForceFill_SplitCrossings&#160;</td><td class="fielddoc"><p>as All, but with sortData the contours are first split where they cross in bad faces (see CutMeshResult::resultCut); where the split fails, as All: e.g. in a face where a contour segment ends at a mesh vertex or an open contour ends on a side of the face </p>
+<tr><td class="fieldname"><a id="ad88711e195698407258d2d46c2a03394aa6714b3744aee0754c63d7230daa8e7c" name="ad88711e195698407258d2d46c2a03394aa6714b3744aee0754c63d7230daa8e7c"></a>MR_CutMeshParameters_ForceFill_SplitCrossings&#160;</td><td class="fielddoc"><p>as All, but with sortData the contours are first split where they cross in bad faces (see CutMeshResult::resultCut); where the split fails, as All: e.g. in a face where an open contour ends on a side of the face, or a contour segment ends at a mesh vertex that is not a corner of the triangle of the other mesh along the segment (unlike the fold vertices of selfBoolean) </p>
 </td></tr>
 </table>
 

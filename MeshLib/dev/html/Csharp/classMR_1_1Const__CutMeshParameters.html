@@ -246,7 +246,7 @@ it provides additional info from other mesh used in boolean operation, useful to
 </td></tr>
 <tr><td class="fieldname"><a id="ab487d225d694a30e0d24dc83c3528293ab1c94ca2fbc3e78fc30069c8d0f01680" name="ab487d225d694a30e0d24dc83c3528293ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"><p>bad faces are filled too, but their triangulation can be bad (may have self-intersections or tunnels) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ab487d225d694a30e0d24dc83c3528293aa0f69e203700168beb250aa413e2b1ec" name="ab487d225d694a30e0d24dc83c3528293aa0f69e203700168beb250aa413e2b1ec"></a>SplitCrossings&#160;</td><td class="fielddoc"><p>as All, but with sortData the contours are first split where they cross in bad faces (see <a class="el" href="classMR_1_1CutMeshResult.html#a6036b98bf53e8905006d57b198d2add3">CutMeshResult.resultCut</a>); where the split fails, as All: e.g. in a face where a contour segment ends at a mesh vertex or an open contour ends on a side of the face </p>
+<tr><td class="fieldname"><a id="ab487d225d694a30e0d24dc83c3528293aa0f69e203700168beb250aa413e2b1ec" name="ab487d225d694a30e0d24dc83c3528293aa0f69e203700168beb250aa413e2b1ec"></a>SplitCrossings&#160;</td><td class="fielddoc"><p>as All, but with sortData the contours are first split where they cross in bad faces (see <a class="el" href="classMR_1_1CutMeshResult.html#a6036b98bf53e8905006d57b198d2add3">CutMeshResult.resultCut</a>); where the split fails, as All: e.g. in a face where an open contour ends on a side of the face, or a contour segment ends at a mesh vertex that is not a corner of the triangle of the other mesh along the segment (unlike the fold vertices of selfBoolean) </p>
 </td></tr>
 </table>
 

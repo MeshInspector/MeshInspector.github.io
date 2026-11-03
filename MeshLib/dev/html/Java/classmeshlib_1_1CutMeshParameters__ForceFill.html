@@ -327,7 +327,7 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>as All, but with sortData the contours are first split where they cross in bad faces (see <a class="el" href="classmeshlib_1_1CutMeshResult.html#a23aa8af10286d4999017b69b0e0c2390">CutMeshResult.resultCut</a>); where the split fails, as All: e.g. in a face where a contour segment ends at a mesh vertex or an open contour ends on a side of the face </p>
+<p>as All, but with sortData the contours are first split where they cross in bad faces (see <a class="el" href="classmeshlib_1_1CutMeshResult.html#a23aa8af10286d4999017b69b0e0c2390">CutMeshResult.resultCut</a>); where the split fails, as All: e.g. in a face where an open contour ends on a side of the face, or a contour segment ends at a mesh vertex that is not a corner of the triangle of the other mesh along the segment (unlike the fold vertices of selfBoolean) </p>
 
 </div>
 </div>
