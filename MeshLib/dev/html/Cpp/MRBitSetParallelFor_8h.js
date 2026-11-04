@@ -19,5 +19,8 @@ var MRBitSetParallelFor_8h =
     [ "MR::BitSetParallel::forAllRanged", "namespaceMR_1_1BitSetParallel.html#aaed29890343a67cc172f1987cd57dc10", null ],
     [ "MR::BitSetParallel::forAllRanged", "namespaceMR_1_1BitSetParallel.html#a171e1b4c596f99a5ac789f4ec19c22d3", null ],
     [ "MR::BitSetParallel::forAllRanged", "namespaceMR_1_1BitSetParallel.html#a7188e3b56fb0a02aa78b5e9d3bcc6ae6", null ],
-    [ "MR::BitSetParallel::forAllRanged", "namespaceMR_1_1BitSetParallel.html#ac80c10d3cdd20520fd097aa56cfa8f1c", null ]
+    [ "MR::BitSetParallel::forAllRanged", "namespaceMR_1_1BitSetParallel.html#ac80c10d3cdd20520fd097aa56cfa8f1c", null ],
+    [ "MR::BitSetParallel::forSetRanged", "namespaceMR_1_1BitSetParallel.html#a452efdd1b9dcbf1623c676526b773263", null ],
+    [ "MR::BitSetParallel::forSetRanged", "namespaceMR_1_1BitSetParallel.html#af4a0068863f28241227f58920910e265", null ],
+    [ "MR::BitSetParallel::forSetRanged", "namespaceMR_1_1BitSetParallel.html#a52d265058b4de6069ffa4496f9c3f9a6", null ]
 ];

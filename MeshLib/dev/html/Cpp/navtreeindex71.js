@@ -1,5 +1,8 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#ab1d43c463dad455d38df62802e67d941":[9,0,2,0,1,34,9,0,0],
+"structMR_1_1UI_1_1PlotAxis.html":[9,0,0,19,782],
+"structMR_1_1UI_1_1RadioButtonOrModifierState.html":[9,0,0,19,784],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[9,0,1,0,1,52,14,0],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html":[9,0,2,0,1,34,12,0],
 "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html#a423ad35700fd7a37eae40c7cba627783":[9,0,1,0,1,52,14,0,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1VoxelsLoad_1_1RawParameters.html":[9,0,2,0,1,35,3],
 "structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7":[9,0,1,0,1,55,3,1],
 "structMR_1_1VoxelsLoad_1_1RawParameters.html#a5d28afdbdf8874a171bdaa3da9a77db7":[9,0,2,0,1,35,3,1],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#a69214b3d1697f4864e145aa2b9802cea":[9,0,1,0,1,55,3,2],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#a69214b3d1697f4864e145aa2b9802cea":[9,0,2,0,1,35,3,2],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2":[9,0,1,0,1,55,3,0],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2":[9,0,2,0,1,35,3,0]
+"structMR_1_1VoxelsLoad_1_1RawParameters.html#a69214b3d1697f4864e145aa2b9802cea":[9,0,1,0,1,55,3,2]
 };

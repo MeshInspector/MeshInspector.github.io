@@ -1,5 +1,8 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1AncillaryPoints.html":[9,0,0,19,589],
+"structMR_1_1ArcInterpolationParams.html":[9,0,0,19,913],
+"structMR_1_1BMap.html":[9,0,0,19,152],
 "structMR_1_1Ball.html":[9,0,0,19,136],
 "structMR_1_1BallPivotCandidate.html":[9,0,0,19,134],
 "structMR_1_1BaseFitParams.html":[9,0,0,19,610],
@@ -246,8 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1DecimateSettings.html#ac0e97c22838e162343661fd588f7a326":[9,0,0,10,0,29],
 "structMR_1_1DecimateSettings.html#ac4cfcdf2807788f5914a0640372d4a07":[9,0,0,10,0,17],
 "structMR_1_1DecimateSettings.html#ac98cbfa367475605fa88982f55dc9a61":[9,0,0,10,0,11],
-"structMR_1_1DecimateSettings.html#adcc8d3606bda7323ca4c7b6f6866df2c":[9,0,0,10,0,6],
-"structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e":[9,0,0,10,0,31],
-"structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07":[9,0,0,10,0,7],
-"structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[9,0,0,10,0,30]
+"structMR_1_1DecimateSettings.html#adcc8d3606bda7323ca4c7b6f6866df2c":[9,0,0,10,0,6]
 };

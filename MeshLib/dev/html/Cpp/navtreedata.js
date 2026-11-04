@@ -216,18 +216,18 @@ var NAVTREEINDEX =
 "group__MeshLoadObjGroup.html#ga24c0d1fb11f0d559f180bff7fc3fc188",
 "group__SurfacePathGroup.html#ga2e859da5422bb433cd50959d4c1f5c3c",
 "group__VoxelGroup.html#gacc3f28e9566b6b9fb9fe666e09034075",
-"namespaceMR_1_1Locale.html#a3e7da85aeeba196e0530b5014197fee8",
-"namespaceMR_1_1VoxelsLoad.html#a8ce6022f00f55c40a634b016f91a3b31",
-"structMR_1_1Ball.html",
-"structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9",
-"structMR_1_1FlowOrigin.html",
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#abe015e8f2eefbaf7c0afec0d91912ec8",
-"structMR_1_1McpGateway_1_1Config.html#a743ff58ef28a77d569366aeaadba67a6",
-"structMR_1_1MeshLoad_1_1StepLoadSettings.html#a7d49edf6d491e777a91aa4259a6702ad",
-"structMR_1_1PointOnObject.html",
-"structMR_1_1SceneLoad_1_1Settings.html#a01397df55967ecaab97eaba28056aaf9",
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html",
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#afd3e66a2e50b601320d9254e884691dd"
+"namespaceMR_1_1Locale.html#a1a90862fe2d6cda7d213d3683715e1cc",
+"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e",
+"structMR_1_1AncillaryPoints.html",
+"structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e",
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html",
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ab1361eb667fc891d6ee87e93a3ff37e9",
+"structMR_1_1McpGateway_1_1Config.html#a6e4335a7dd72b1d4fb00d536324cc1db",
+"structMR_1_1MeshLoad_1_1StepLoadSettings.html#a4dae8524d35b83327dd647e39cd27a0b",
+"structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf",
+"structMR_1_1SceneLoad_1_1Settings.html",
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#ab1d43c463dad455d38df62802e67d941",
+"structMR_1_1VoxelsLoad_1_1RawParameters.html#a69214b3d1697f4864e145aa2b9802cea"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
