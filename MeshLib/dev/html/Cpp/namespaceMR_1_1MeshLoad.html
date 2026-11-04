@@ -171,9 +171,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a49d00efe33bc30d02b7d948b82e8c33e"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads mesh from file in internal MeshLib format  <br /></td></tr>
 <tr class="memitem:aabe337de5edd40419753b070ba85a532" id="r_aabe337de5edd40419753b070ba85a532"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabe337de5edd40419753b070ba85a532">fromMrmesh</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:a3e868d87950982efb75b51d258abb559" id="r_a3e868d87950982efb75b51d258abb559"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e868d87950982efb75b51d258abb559">fromOff</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
-<tr class="memdesc:a3e868d87950982efb75b51d258abb559"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads mesh from file in .OFF format  <br /></td></tr>
+<tr class="memdesc:a3e868d87950982efb75b51d258abb559"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads mesh from file in textual or binary .OFF format  <br /></td></tr>
 <tr class="memitem:a05b8033683952292064d99cc33e8484f" id="r_a05b8033683952292064d99cc33e8484f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05b8033683952292064d99cc33e8484f">fromOff</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
-<tr class="memdesc:a05b8033683952292064d99cc33e8484f"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads mesh from stream in .OFF format  <br /></td></tr>
 <tr class="memitem:aef05885c67fa4ee995e6f72d7fb4cbe9" id="r_aef05885c67fa4ee995e6f72d7fb4cbe9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef05885c67fa4ee995e6f72d7fb4cbe9">fromObj</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:aef05885c67fa4ee995e6f72d7fb4cbe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads mesh from file in .OBJ format  <br /></td></tr>
 <tr class="memitem:ac2dbeb2e7ecd6bb3b0d3fb8e71a45404" id="r_ac2dbeb2e7ecd6bb3b0d3fb8e71a45404"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2dbeb2e7ecd6bb3b0d3fb8e71a45404">fromObj</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
@@ -550,7 +549,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>loads mesh from file in .OFF format </p>
+<p>loads mesh from file in textual or binary .OFF format </p>
 
 </div>
 </div>
@@ -572,8 +571,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>loads mesh from stream in .OFF format </p>
+<p>loads mesh from stream in textual or binary .OFF format important on Windows: in stream must be open in binary mode </p>
 
 </div>
 </div>

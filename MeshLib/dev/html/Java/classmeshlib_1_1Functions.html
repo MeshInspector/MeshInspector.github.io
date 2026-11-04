@@ -39521,7 +39521,7 @@ All new faces should be parallel to given direction It is measured in squared le
   </tr>
 </table>
 </div><div class="memdoc">
-<p>loads mesh from file in .OFF format Generated from function <span class="tt">MR::loadOff</span>.</p>
+<p>loads mesh from file in textual or binary .OFF format Generated from function <span class="tt">MR::loadOff</span>.</p>
 <p>Calls <span class="tt">MR_loadOff_std_filesystem_path()</span>. The C++ function returns <span class="tt">expected&lt;MR::Mesh, std::string&gt;</span>: the value is returned and an error is thrown as <span class="tt"><a class="el" href="classmeshlib_1_1UnexpectedResultException.html">UnexpectedResultException</a></span>. </p>
 
 </div>
@@ -39552,7 +39552,7 @@ All new faces should be parallel to given direction It is measured in squared le
   </tr>
 </table>
 </div><div class="memdoc">
-<p>loads mesh from stream in .OFF format Generated from function <span class="tt">MR::loadOff</span>.</p>
+<p>loads mesh from stream in textual or binary .OFF format important on Windows: in stream must be open in binary mode Generated from function <span class="tt">MR::loadOff</span>.</p>
 <p>Calls <span class="tt">MR_loadOff_std_istream()</span>. The C++ function returns <span class="tt">expected&lt;MR::Mesh, std::string&gt;</span>: the value is returned and an error is thrown as <span class="tt"><a class="el" href="classmeshlib_1_1UnexpectedResultException.html">UnexpectedResultException</a></span>. </p>
 
 </div>
@@ -43722,8 +43722,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">    meshParams.texturePerFace = &amp;texturePerFace;</div>
 <div class="line">subs.onEdgeSplit = <a class="code hl_function" href="#aa382a636f7160ba96b64a8f8c637e570">meshOnEdgeSplitAttribute</a>( *obj_-&gt;varMesh(), meshParams );</div>
 <div class="line"><a class="code hl_function" href="#af5dddfa988210f3dc5340ef6cf87dad8">subdivideMesh</a>( *obj_-&gt;varMesh(), subs );</div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:40227</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:40112</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:40228</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:40113</div></div>
 <div class="ttc" id="aclassmeshlib_1_1MeshAttributesToUpdate_html"><div class="ttname"><a href="classmeshlib_1_1MeshAttributesToUpdate.html">meshlib.MeshAttributesToUpdate</a></div><div class="ttdef"><b>Definition</b> MeshAttributesToUpdate.java:11</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshOnEdgeSplitAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshOnEdgeSplitAttribute()</span>. </p>
