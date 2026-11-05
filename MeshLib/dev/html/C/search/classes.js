@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['classargguard_0',['ClassArgGuard',['../structmrbindc__details_1_1ClassArgGuard.html',1,'mrbindc_details']]],
   ['mr_5faffinexf2d_0',['MR_AffineXf2d',['../structMR__AffineXf2d.html',1,'']]],
   ['mr_5faffinexf2f_1',['MR_AffineXf2f',['../structMR__AffineXf2f.html',1,'']]],
   ['mr_5faffinexf3d_2',['MR_AffineXf3d',['../structMR__AffineXf3d.html',1,'']]],
@@ -75,5 +76,4 @@ var searchData=
   ['mr_5fvertid_72',['MR_VertId',['../structMR__VertId.html',1,'']]],
   ['mr_5fviewportid_73',['MR_ViewportId',['../structMR__ViewportId.html',1,'']]],
   ['mr_5fvoxelid_74',['MR_VoxelId',['../structMR__VoxelId.html',1,'']]],
-  ['classargguard_0',['ClassArgGuard',['../structmrbindc__details_1_1ClassArgGuard.html',1,'mrbindc_details']]],
 ];

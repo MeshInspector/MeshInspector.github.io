@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1Locale.html#a1033b99691304b7bf5dbac4565186c0a":[9,0,1,0,1,21,3],
 "namespaceMR_1_1Locale.html#a1a90862fe2d6cda7d213d3683715e1cc":[9,0,1,0,1,21,14],
 "namespaceMR_1_1Locale.html#a2b32ebd2b8467813962ef412cc56a1f3":[9,0,1,0,1,21,1],
 "namespaceMR_1_1Locale.html#a323ddf10839ce4c1f89a4ce8a618d9dd":[9,0,1,0,1,21,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1VoxelsLoad.html#a2b3126db75b88eeee5be2e16619f48be":[9,0,1,0,1,55,32],
 "namespaceMR_1_1VoxelsLoad.html#a433ccf3ee64b6d83ded8726d9bccd584":[9,0,1,0,1,55,19],
 "namespaceMR_1_1VoxelsLoad.html#a45ad7e33491adf48887a084a760ce0dd":[9,0,1,0,1,55,21],
-"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19":[9,0,1,0,1,55,6],
-"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7":[9,0,1,0,1,55,6,0]
+"namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19":[9,0,1,0,1,55,6]
 };

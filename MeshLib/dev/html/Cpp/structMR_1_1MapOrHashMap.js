@@ -4,6 +4,7 @@ var structMR_1_1MapOrHashMap =
     [ "Hash", "group__GeneralGroup.html#ga9b9b3bd19e1e1187943ce7850bcf6ee0", null ],
     [ "clear", "group__GeneralGroup.html#gab6a52148cc818bc6c42e287a95ef61b8", null ],
     [ "forEach", "group__GeneralGroup.html#ga99f74cd2edd6dab050ffad6466cdf191", null ],
+    [ "forEachParallel", "group__GeneralGroup.html#ga18aaf7359920f8f53e60eca10b93680d", null ],
     [ "getHashMap", "group__GeneralGroup.html#ga3bc5077bb60649a52a86a2736ff6a57e", null ],
     [ "getHashMap", "group__GeneralGroup.html#ga2aded678aafca023ae711c2dcad233e5", null ],
     [ "getMap", "group__GeneralGroup.html#ga1061c0b8db208cf5af14eb2760cb3703", null ],

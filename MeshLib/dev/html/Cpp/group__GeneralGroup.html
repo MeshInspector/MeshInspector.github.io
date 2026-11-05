@@ -5576,6 +5576,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga99f74cd2edd6dab050ffad6466cdf191" id="r_ga99f74cd2edd6dab050ffad6466cdf191"><td class="memTemplParams" colspan="2">template&lt;typename F&gt; </td></tr>
 <tr class="memitem:ga99f74cd2edd6dab050ffad6466cdf191 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga99f74cd2edd6dab050ffad6466cdf191">MR::MapOrHashMap&lt; K, V &gt;::forEach</a> (F &amp;&amp;f) const</td></tr>
 <tr class="memdesc:ga99f74cd2edd6dab050ffad6466cdf191"><td class="mdescLeft">&#160;</td><td class="mdescRight">executes given function for all pairs (key, value) with valid value for dense map  <br /></td></tr>
+<tr class="memitem:ga18aaf7359920f8f53e60eca10b93680d" id="r_ga18aaf7359920f8f53e60eca10b93680d"><td class="memTemplParams" colspan="2">template&lt;typename F&gt; </td></tr>
+<tr class="memitem:ga18aaf7359920f8f53e60eca10b93680d template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga18aaf7359920f8f53e60eca10b93680d">MR::MapOrHashMap&lt; K, V &gt;::forEachParallel</a> (F &amp;&amp;f) const</td></tr>
 <tr class="memitem:ga1061c0b8db208cf5af14eb2760cb3703" id="r_ga1061c0b8db208cf5af14eb2760cb3703"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac2b84418d93cdedba84fe87ce2595e2e">Dense</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1061c0b8db208cf5af14eb2760cb3703">MR::MapOrHashMap&lt; K, V &gt;::getMap</a> ()</td></tr>
 <tr class="memitem:ga9027fa8effc674e94506993cc5c1ee2e" id="r_ga9027fa8effc674e94506993cc5c1ee2e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#gac2b84418d93cdedba84fe87ce2595e2e">Dense</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9027fa8effc674e94506993cc5c1ee2e">MR::MapOrHashMap&lt; K, V &gt;::getMap</a> () const</td></tr>
 <tr class="memitem:ga3bc5077bb60649a52a86a2736ff6a57e" id="r_ga3bc5077bb60649a52a86a2736ff6a57e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9b9b3bd19e1e1187943ce7850bcf6ee0">Hash</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3bc5077bb60649a52a86a2736ff6a57e">MR::MapOrHashMap&lt; K, V &gt;::getHashMap</a> ()</td></tr>
@@ -78760,6 +78762,30 @@ template&lt;typename F&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRFeatureHelpers_8h.html">MRMesh/MRFeatureHelpers.h</a>&gt;</code></p>
 
 <p>Calls <span class="tt">func</span>, which is <span class="tt">( auto kind ) -&gt; bool</span>, for each known object kind. If it returns true, stops immediately and also returns true. </p>
+
+</div>
+</div>
+<a id="ga18aaf7359920f8f53e60eca10b93680d" name="ga18aaf7359920f8f53e60eca10b93680d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga18aaf7359920f8f53e60eca10b93680d">&#9670;&#160;</a></span>forEachParallel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename V&gt; </div>
+<div class="memtemplate">
+template&lt;typename F&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap</a>&lt; K, V &gt;::forEachParallel </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMapOrHashMap_8h.html">MRMesh/MRMapOrHashMap.h</a>&gt;</code></p>
+<p>executes given function for all pairs (key, value) with valid value for dense map; in case of dense map, the keys are processed in parallel threads, so f must be safe to call concurrently for different keys </p>
 
 </div>
 </div>
