@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"classMR_1_1Const__SaveSettings.html#a3e406f35dd33e3685c97a3d6632f1ea6":[9,3,0,0,0,820,22],
 "classMR_1_1Const__SaveSettings.html#a458fce427655aae877f6b36340810a6b":[9,3,0,0,0,820,15],
 "classMR_1_1Const__SaveSettings.html#a4abd4eb639467875b2e37ff09a3f25f8":[9,3,0,0,0,820,25],
 "classMR_1_1Const__SaveSettings.html#a4f2b9f60633d28351cade5aa4ebc96c2":[9,3,0,0,0,820,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "classMR_1_1Const__SeparationPointStorage_1_1Block.html#aafb92041c9a6f8a0bad385400c8e625b":[9,3,0,0,0,829,0,4],
 "classMR_1_1Const__SeparationPointStorage_1_1Block.html#abc7bf5c4a823b6b717ab01828d6576e9":[9,3,0,0,0,829,0,5],
 "classMR_1_1Const__SeparationPointStorage_1_1Block.html#ae396b748dbcd557e94d00bfe70f76469":[9,3,0,0,0,829,0,3],
-"classMR_1_1Const__SeparationPointStorage_1_1Block.html#aed25afc5118aca360cdb5d663ed1c3a2":[9,3,0,0,0,829,0,7],
-"classMR_1_1Const__SeparationPointStorage_1_1Block.html#af34a70dc4bf26d01775340d68db16477":[9,3,0,0,0,829,0,2]
+"classMR_1_1Const__SeparationPointStorage_1_1Block.html#aed25afc5118aca360cdb5d663ed1c3a2":[9,3,0,0,0,829,0,7]
 };

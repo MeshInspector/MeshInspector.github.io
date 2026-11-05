@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html":[9,3,0,0,0,1047],
 "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a37d09fa4e3482306deffedc4ceee9ccb":[9,3,0,0,0,1047,2],
 "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a40d475e70bce6f731ad054c96574bcd5":[9,3,0,0,0,1047,6],
 "classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume.html#a62f739c29d987c8f2c612cb2465526cf":[9,3,0,0,0,1047,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1Const__ZCompensateParams.html#aa6352b8b9527afef9d1b2229d7484b36":[9,3,0,0,0,1065,6],
 "classMR_1_1Const__ZCompensateParams.html#ac388910afa227e490102afb5fe8b2af3":[9,3,0,0,0,1065,1],
 "classMR_1_1Const__ZCompensateParams.html#ac65351c4041f02d81d9849146338ff77":[9,3,0,0,0,1065,0],
-"classMR_1_1Const__ZCompensateParams.html#ada140429f8ba689b21fee5652c565b12":[9,3,0,0,0,1065,9],
-"classMR_1_1Const__ZCompensateParams.html#af1414784cc68b06ec073ed8bc2d7eec5":[9,3,0,0,0,1065,13]
+"classMR_1_1Const__ZCompensateParams.html#ada140429f8ba689b21fee5652c565b12":[9,3,0,0,0,1065,9]
 };

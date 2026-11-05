@@ -2156,6 +2156,7 @@ var classMR =
       [ "OnlyOddFragments", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8a993fcf42a89f23e1a0a091d93e9c9ebe", null ],
       [ "BordersHighlight", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8a6167a2d0af2e4a8c16603d6b1ab28fae", null ],
       [ "PolygonOffsetFromCamera", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8af1b5bfe3e4901ca9610e1328f51811f0", null ],
+      [ "CullBackFaces", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8a1dd9d02479b2434b08641be5067d3437", null ],
       [ "Count", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "MovementSpeedUnit", "classMR.html#a57729cf594ff35f4e6253a8927aecbd1", [

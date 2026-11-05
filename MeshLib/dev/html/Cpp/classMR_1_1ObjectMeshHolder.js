@@ -124,6 +124,7 @@ var classMR_1_1ObjectMeshHolder =
     [ "avgEdgeLen_", "group__GeneralGroup.html#ga7b9b185e83a83d6a3cdf3f18fca7d410", null ],
     [ "bordersColor_", "group__GeneralGroup.html#gab7fd1ed5927f5fc5a4c51cfa56bf2012", null ],
     [ "creasesChangedSignal", "group__GeneralGroup.html#gaf852a5542908bb08f0eecec630ba0ef8", null ],
+    [ "cullBackFaces_", "group__GeneralGroup.html#gaa20346bf083df3dfd3927d4806e38b14", null ],
     [ "data_", "group__GeneralGroup.html#ga4d8f66e084faf7466dcbbc15865dfe6b", null ],
     [ "edgesColor_", "group__GeneralGroup.html#gafae46ed97209f2812a1d201e7005e7ba", null ],
     [ "edgeSelectionChangedSignal", "group__GeneralGroup.html#ga1292f930863c1ec575b946a71efaa225", null ],

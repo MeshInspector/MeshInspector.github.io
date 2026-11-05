@@ -1,5 +1,6 @@
 var NAVTREEINDEX160 =
 {
+"std__shared__ptr__MR__ChangeObjectAction_8h.html#ae3e798f2b209d2b7cdbc70bcbdf4139a":[9,2,2,0,0,0,0,2,327,17],
 "std__shared__ptr__MR__ChangeObjectAction_8h.html#ae56d18f514b0c47e13aa27e075caf21e":[9,2,2,0,0,0,0,2,327,3],
 "std__shared__ptr__MR__ChangeObjectAction_8h.html#af68407a56daf34ff0226006d7518d639":[9,2,2,0,0,0,0,2,327,18],
 "std__shared__ptr__MR__ChangeObjectAction_8h_source.html":[9,2,2,0,0,0,0,2,327],
@@ -248,6 +249,5 @@ var NAVTREEINDEX160 =
 "std__shared__ptr__MR__ChangePolylineAction_8h.html#a046554f272caae457afbc866518f5e97":[9,2,2,0,0,0,0,2,338,2],
 "std__shared__ptr__MR__ChangePolylineAction_8h.html#a13c807c825b743d10f5e9bd8b339dcbf":[9,2,2,0,0,0,0,2,338,1],
 "std__shared__ptr__MR__ChangePolylineAction_8h.html#a180bc69100bc66475e54f1abda5d38f1":[9,2,2,0,0,0,0,2,338,11],
-"std__shared__ptr__MR__ChangePolylineAction_8h.html#a2e7ae784a10fb442a85536904a54a682":[9,2,2,0,0,0,0,2,338,5],
-"std__shared__ptr__MR__ChangePolylineAction_8h.html#a3f6d0eb6fcb5082ef9df025e5c5cc221":[9,2,2,0,0,0,0,2,338,8]
+"std__shared__ptr__MR__ChangePolylineAction_8h.html#a2e7ae784a10fb442a85536904a54a682":[9,2,2,0,0,0,0,2,338,5]
 };

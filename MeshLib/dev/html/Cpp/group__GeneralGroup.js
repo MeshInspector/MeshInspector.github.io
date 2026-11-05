@@ -3613,6 +3613,7 @@ var group__GeneralGroup =
       [ "avgEdgeLen_", "group__GeneralGroup.html#ga7b9b185e83a83d6a3cdf3f18fca7d410", null ],
       [ "bordersColor_", "group__GeneralGroup.html#gab7fd1ed5927f5fc5a4c51cfa56bf2012", null ],
       [ "creasesChangedSignal", "group__GeneralGroup.html#gaf852a5542908bb08f0eecec630ba0ef8", null ],
+      [ "cullBackFaces_", "group__GeneralGroup.html#gaa20346bf083df3dfd3927d4806e38b14", null ],
       [ "data_", "group__GeneralGroup.html#ga4d8f66e084faf7466dcbbc15865dfe6b", null ],
       [ "edgesColor_", "group__GeneralGroup.html#gafae46ed97209f2812a1d201e7005e7ba", null ],
       [ "edgeSelectionChangedSignal", "group__GeneralGroup.html#ga1292f930863c1ec575b946a71efaa225", null ],
@@ -10150,6 +10151,7 @@ var group__GeneralGroup =
       [ "MR::MeshVisualizePropertyType::OnlyOddFragments", "group__GeneralGroup.html#gga7e37fa1740b5f4c708f5716eeb5f7f7ea993fcf42a89f23e1a0a091d93e9c9ebe", null ],
       [ "MR::MeshVisualizePropertyType::BordersHighlight", "group__GeneralGroup.html#gga7e37fa1740b5f4c708f5716eeb5f7f7ea6167a2d0af2e4a8c16603d6b1ab28fae", null ],
       [ "MR::MeshVisualizePropertyType::PolygonOffsetFromCamera", "group__GeneralGroup.html#gga7e37fa1740b5f4c708f5716eeb5f7f7eaf1b5bfe3e4901ca9610e1328f51811f0", null ],
+      [ "MR::MeshVisualizePropertyType::CullBackFaces", "group__GeneralGroup.html#gga7e37fa1740b5f4c708f5716eeb5f7f7ea1dd9d02479b2434b08641be5067d3437", null ],
       [ "MR::MeshVisualizePropertyType::_count", "group__GeneralGroup.html#gga7e37fa1740b5f4c708f5716eeb5f7f7ead69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "MR::SelfIntersections::Settings::Method", "group__GeneralGroup.html#ga89959b4882d33598d9220db080145bc5", [
@@ -17547,6 +17549,7 @@ var group__GeneralGroup =
     [ "MR::cTopPanelAditionalButtonSize", "group__GeneralGroup.html#ga24400b0c1a9e56cafb8abf4c9725633d", null ],
     [ "MR::cTopPanelScrollBtnSize", "group__GeneralGroup.html#ga2fbf8a5ae5179bb822e29a7c5966fdd0", null ],
     [ "MR::cTopPanelScrollStep", "group__GeneralGroup.html#ga1cb547836ab1506cf81cab06b24a9532", null ],
+    [ "MR::ObjectMeshHolder::cullBackFaces_", "group__GeneralGroup.html#gaa20346bf083df3dfd3927d4806e38b14", null ],
     [ "MR::RibbonNotifier::DrawNotificationSettings::currentPos", "group__GeneralGroup.html#ga784b69e04514b3402e2c89b958f35a8a", null ],
     [ "MR::MoveObjectByMouseImpl::currentXf_", "group__GeneralGroup.html#gadb167ed72d4e0abf3fd5ebc2bf23acc6", null ],
     [ "MR::ViewerSignals::cursorEntranceSignal", "group__GeneralGroup.html#gac75d41fe5d8cbd28ead59eed7f502398", null ],

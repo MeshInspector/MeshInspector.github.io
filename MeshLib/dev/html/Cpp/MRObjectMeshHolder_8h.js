@@ -12,6 +12,7 @@ var MRObjectMeshHolder_8h =
       [ "MR::MeshVisualizePropertyType::OnlyOddFragments", "group__GeneralGroup.html#gga7e37fa1740b5f4c708f5716eeb5f7f7ea993fcf42a89f23e1a0a091d93e9c9ebe", null ],
       [ "MR::MeshVisualizePropertyType::BordersHighlight", "group__GeneralGroup.html#gga7e37fa1740b5f4c708f5716eeb5f7f7ea6167a2d0af2e4a8c16603d6b1ab28fae", null ],
       [ "MR::MeshVisualizePropertyType::PolygonOffsetFromCamera", "group__GeneralGroup.html#gga7e37fa1740b5f4c708f5716eeb5f7f7eaf1b5bfe3e4901ca9610e1328f51811f0", null ],
+      [ "MR::MeshVisualizePropertyType::CullBackFaces", "group__GeneralGroup.html#gga7e37fa1740b5f4c708f5716eeb5f7f7ea1dd9d02479b2434b08641be5067d3437", null ],
       [ "MR::MeshVisualizePropertyType::_count", "group__GeneralGroup.html#gga7e37fa1740b5f4c708f5716eeb5f7f7ead69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
     [ "MR::defaultSerializeMeshFormat", "group__GeneralGroup.html#gaa327a029bad713e6790ebf10e611f39e", null ],

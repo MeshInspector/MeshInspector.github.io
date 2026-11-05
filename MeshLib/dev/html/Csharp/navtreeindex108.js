@@ -1,5 +1,6 @@
 var NAVTREEINDEX108 =
 {
+"classMR_1_1GeodesicPath.html#ac174e2aee8c5fbe146290d7b8222793c":[9,3,0,0,0,1263,3],
 "classMR_1_1GeodesicPath.html#acdac904ecb17710f716d4b2e6086c9bb":[9,3,0,0,0,1263,2],
 "classMR_1_1GeodesicPath.html#af400498025204fdb1e2c0093e498c86d":[9,3,0,0,0,1263,8],
 "classMR_1_1Graph.html":[9,3,0,0,0,1264],
@@ -248,6 +249,5 @@ var NAVTREEINDEX108 =
 "classMR_1_1IComputeToolDistance.html#a23000218763df7aafdd1ddd42749966b":[9,3,0,0,0,1279,0],
 "classMR_1_1IComputeToolDistance.html#acadec69c168d5639734d20cda090385e":[9,3,0,0,0,1279,1],
 "classMR_1_1IFastWindingNumber.html":[9,3,0,0,0,1286],
-"classMR_1_1IFastWindingNumber.html#a0d1ee05011bc2a1ad6fa021ff33b5ba3":[9,3,0,0,0,1286,1],
-"classMR_1_1IFastWindingNumber.html#a4be4494442bb65e1540bd88a91f552a7":[9,3,0,0,0,1286,2]
+"classMR_1_1IFastWindingNumber.html#a0d1ee05011bc2a1ad6fa021ff33b5ba3":[9,3,0,0,0,1286,1]
 };
