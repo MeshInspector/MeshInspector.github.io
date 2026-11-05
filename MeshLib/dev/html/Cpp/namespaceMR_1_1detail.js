@@ -3,6 +3,7 @@ var namespaceMR_1_1detail =
     [ "AffineXf3f", "namespaceMR_1_1detail_1_1AffineXf3f.html", "namespaceMR_1_1detail_1_1AffineXf3f" ],
     [ "Units", "namespaceMR_1_1detail_1_1Units.html", "namespaceMR_1_1detail_1_1Units" ],
     [ "FuncCallHelper", "classMR_1_1detail_1_1FuncCallHelper.html", "classMR_1_1detail_1_1FuncCallHelper" ],
+    [ "HashMapSlots", "structMR_1_1detail_1_1HashMapSlots.html", "structMR_1_1detail_1_1HashMapSlots" ],
     [ "MakeScopeGuard", "structMR_1_1detail_1_1MakeScopeGuard.html", "structMR_1_1detail_1_1MakeScopeGuard" ],
     [ "PerturbationStagesOf", "classMR_1_1detail_1_1PerturbationStagesOf.html", "classMR_1_1detail_1_1PerturbationStagesOf" ],
     [ "PointDegree", "structMR_1_1detail_1_1PointDegree.html", "structMR_1_1detail_1_1PointDegree" ],

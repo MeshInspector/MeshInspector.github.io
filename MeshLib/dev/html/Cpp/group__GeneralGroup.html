@@ -601,6 +601,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AAllLocalTriangulations" id="r_MR_3A_3AAllLocalTriangulations"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1AllLocalTriangulations.html">MR::AllLocalTriangulations</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">triangulations for all points, with easy access by VertId  <a href="structMR_1_1AllLocalTriangulations.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ASphereParams" id="r_MR_3A_3ASphereParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SphereParams.html">MR::SphereParams</a></td></tr>
+<tr class="memitem:MR_3A_3Adetail_3A_3AHashMapSlots_3C_20K_2C_20V_20_3E" id="r_MR_3A_3Adetail_3A_3AHashMapSlots_3C_20K_2C_20V_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1detail_1_1HashMapSlots.html">MR::detail::HashMapSlots&lt; K, V &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">phmap has no public access to a slot of a hash table by its index: take its protected iterator_at() via a member pointer  <a href="structMR_1_1detail_1_1HashMapSlots.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AMapOrHashMap_3C_20K_2C_20V_20_3E" id="r_MR_3A_3AMapOrHashMap_3C_20K_2C_20V_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MapOrHashMap.html">MR::MapOrHashMap&lt; K, V &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3AMarkedContour3f" id="r_MR_3A_3AMarkedContour3f"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MarkedContour3f.html">MR::MarkedContour3f</a></td></tr>
 <tr class="memitem:MR_3A_3ASplineSettings" id="r_MR_3A_3ASplineSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SplineSettings.html">MR::SplineSettings</a></td></tr>
@@ -1611,6 +1613,7 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga1fb97c6fbff812f8691f1158b81c775c" id="r_ga1fb97c6fbff812f8691f1158b81c775c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1fb97c6fbff812f8691f1158b81c775c">MR::LoadedObjectLines</a> = <a class="el" href="structMR_1_1LoadedObjectT.html">LoadedObjectT</a>&lt;<a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a>&gt;</td></tr>
 <tr class="memitem:ga7815f6f3c7047923b033eba533fa97f8" id="r_ga7815f6f3c7047923b033eba533fa97f8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7815f6f3c7047923b033eba533fa97f8">MR::LoadedObjectVoxels</a> = <a class="el" href="structMR_1_1LoadedObjectT.html">LoadedObjectT</a>&lt;<a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a>&gt;</td></tr>
 <tr class="memitem:ga2e1577ec0c0eb82d6a29e4b16e6661a6" id="r_ga2e1577ec0c0eb82d6a29e4b16e6661a6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2e1577ec0c0eb82d6a29e4b16e6661a6">MR::TrianglesRepetitions</a> = std::array&lt;int, 4&gt;</td></tr>
+<tr class="memitem:ga9b9651f275d190b77c149523eded531a" id="r_ga9b9651f275d190b77c149523eded531a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9b9651f275d190b77c149523eded531a">MR::detail::HashMapSlots&lt; K, V &gt;::IteratorAt</a> = typename <a class="el" href="#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt;K, V&gt;::const_iterator ( <a class="el" href="#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt;K, V&gt;::* )( size_t ) const</td></tr>
 <tr class="memitem:gac2b84418d93cdedba84fe87ce2595e2e" id="r_gac2b84418d93cdedba84fe87ce2595e2e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac2b84418d93cdedba84fe87ce2595e2e">MR::MapOrHashMap&lt; K, V &gt;::Dense</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;V, K&gt;</td></tr>
 <tr class="memitem:ga9b9b3bd19e1e1187943ce7850bcf6ee0" id="r_ga9b9b3bd19e1e1187943ce7850bcf6ee0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9b9b3bd19e1e1187943ce7850bcf6ee0">MR::MapOrHashMap&lt; K, V &gt;::Hash</a> = <a class="el" href="#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt;K, V&gt;</td></tr>
 <tr class="memitem:ga7c1746ef11222bfb25d596d33f0858df" id="r_ga7c1746ef11222bfb25d596d33f0858df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7c1746ef11222bfb25d596d33f0858df">MR::Matrix2&lt; T &gt;::ValueType</a> = T</td></tr>
@@ -12872,6 +12875,7 @@ Variables</h2></td></tr>
 <tr class="memitem:ga63033f3b2a1d4be33d6fc4e3d709a2cf" id="r_ga63033f3b2a1d4be33d6fc4e3d709a2cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1FanRecord.html">FanRecord</a>, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga63033f3b2a1d4be33d6fc4e3d709a2cf">MR::AllLocalTriangulations::fanRecords</a></td></tr>
 <tr class="memitem:gaa39f9a9bdcc770f1cd4abffcf9594f51" id="r_gaa39f9a9bdcc770f1cd4abffcf9594f51"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa39f9a9bdcc770f1cd4abffcf9594f51">MR::SphereParams::radius</a> = 1</td></tr>
 <tr class="memitem:ga6e99b625718037bc438cd04e6865ac95" id="r_ga6e99b625718037bc438cd04e6865ac95"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6e99b625718037bc438cd04e6865ac95">MR::SphereParams::numMeshVertices</a> = 100</td></tr>
+<tr class="memitem:ga4471fcc333c346869f6782bdaa7960d6" id="r_ga4471fcc333c346869f6782bdaa7960d6"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="#ga9b9651f275d190b77c149523eded531a">IteratorAt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4471fcc333c346869f6782bdaa7960d6">MR::detail::HashMapSlots&lt; K, V &gt;::iteratorAt</a> = &amp;HashMapSlots::iterator_at</td></tr>
 <tr class="memitem:ga2406ff7e1c972a394a1b2375af1feb33" id="r_ga2406ff7e1c972a394a1b2375af1feb33"><td class="memItemLeft" align="right" valign="top">std::variant&lt; <a class="el" href="#gac2b84418d93cdedba84fe87ce2595e2e">Dense</a>, <a class="el" href="#ga9b9b3bd19e1e1187943ce7850bcf6ee0">Hash</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2406ff7e1c972a394a1b2375af1feb33">MR::MapOrHashMap&lt; K, V &gt;::var</a></td></tr>
 <tr class="memdesc:ga2406ff7e1c972a394a1b2375af1feb33"><td class="mdescLeft">&#160;</td><td class="mdescRight">default construction will select dense map  <br /></td></tr>
 <tr class="memitem:ga78abdca0c2ecab9e15c2bfc6583dea1c" id="r_ga78abdca0c2ecab9e15c2bfc6583dea1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga19c0568c2b8f7fe1df67adc9cf370bc0">Contour3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga78abdca0c2ecab9e15c2bfc6583dea1c">MR::MarkedContour3f::contour</a></td></tr>
@@ -19314,6 +19318,22 @@ template&lt;typename N&gt; </div>
       </table>
 </div><div class="memdoc">
 <p>dereference produces a prvalue, so the C++17 category can only be input, but the iterator is multi-pass and models std::forward_iterator </p>
+
+</div>
+</div>
+<a id="ga9b9651f275d190b77c149523eded531a" name="ga9b9651f275d190b77c149523eded531a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9b9651f275d190b77c149523eded531a">&#9670;&#160;</a></span>IteratorAt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename V&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structMR_1_1detail_1_1HashMapSlots.html">MR::detail::HashMapSlots</a>&lt; K, V &gt;::IteratorAt = typename <a class="el" href="#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt;K, V&gt;::const_iterator ( <a class="el" href="#ga9dfad208b725d59063370f3881b40552">HashMap</a>&lt;K, V&gt;::* )( size_t ) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -78796,7 +78816,8 @@ template&lt;typename F&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMapOrHashMap_8h.html">MRMesh/MRMapOrHashMap.h</a>&gt;</code></p>
-<p>executes given function for all pairs (key, value) with valid value for dense map; in case of dense map, the keys are processed in parallel threads, so f must be safe to call concurrently for different keys </p>
+<p>executes given function for all pairs (key, value) with valid value for dense map in parallel threads, so f must be safe to call concurrently for different keys </p>
+<p>each range of slots is visited from its first full slot till the first full slot of the next range</p>
 
 </div>
 </div>
@@ -223380,6 +223401,30 @@ template&lt;typename Accessor&gt; </div>
       </table>
 </div><div class="memdoc">
 <p>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm </p>
+
+</div>
+</div>
+<a id="ga4471fcc333c346869f6782bdaa7960d6" name="ga4471fcc333c346869f6782bdaa7960d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4471fcc333c346869f6782bdaa7960d6">&#9670;&#160;</a></span>iteratorAt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K, typename V&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga9b9651f275d190b77c149523eded531a">IteratorAt</a> <a class="el" href="structMR_1_1detail_1_1HashMapSlots.html">MR::detail::HashMapSlots</a>&lt; K, V &gt;::iteratorAt = &amp;HashMapSlots::iterator_at</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

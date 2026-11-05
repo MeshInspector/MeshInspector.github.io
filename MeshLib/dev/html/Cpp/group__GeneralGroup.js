@@ -2416,6 +2416,9 @@ var group__GeneralGroup =
       [ "numMeshVertices", "group__GeneralGroup.html#ga6e99b625718037bc438cd04e6865ac95", null ],
       [ "radius", "group__GeneralGroup.html#gaa39f9a9bdcc770f1cd4abffcf9594f51", null ]
     ] ],
+    [ "MR::detail::HashMapSlots< K, V >", "structMR_1_1detail_1_1HashMapSlots.html", [
+      [ "IteratorAt", "group__GeneralGroup.html#ga9b9651f275d190b77c149523eded531a", null ]
+    ] ],
     [ "MR::MapOrHashMap< K, V >", "structMR_1_1MapOrHashMap.html", [
       [ "Dense", "group__GeneralGroup.html#gac2b84418d93cdedba84fe87ce2595e2e", null ],
       [ "Hash", "group__GeneralGroup.html#ga9b9b3bd19e1e1187943ce7850bcf6ee0", null ],
@@ -9443,6 +9446,7 @@ var group__GeneralGroup =
     [ "MR::RingIterator::iterator_category", "group__GeneralGroup.html#ga32bbf998350ceb82ee238640a29ad585", null ],
     [ "MR::UndirectedEdgeIterator::iterator_category", "group__GeneralGroup.html#ga14b6e326990c49dd287dac693682485e", null ],
     [ "MR::ConstChildren::Iterator::iterator_concept", "group__GeneralGroup.html#gae7c12439a318077dcb19052a0951b066", null ],
+    [ "MR::detail::HashMapSlots::IteratorAt", "group__GeneralGroup.html#ga9b9651f275d190b77c149523eded531a", null ],
     [ "MR::ViewerSignals::KeySignal", "group__GeneralGroup.html#ga2c13f3f5f743830b0defe77be75a47f3", null ],
     [ "MR::Viewer::LaunchParams", "group__GeneralGroup.html#ga18c86b40dc97e73d26be6d5f21f65093", null ],
     [ "MR::AABBTreeBase::LeafBitSet", "group__GeneralGroup.html#gaa68c6e8f36c8a52617b624e91f11568d", null ],
@@ -18001,6 +18005,7 @@ var group__GeneralGroup =
     [ "MR::InflateSettings::iterations", "group__GeneralGroup.html#ga81342d048666014aff4d0999d92c9d50", null ],
     [ "MR::RelaxParams::iterations", "group__GeneralGroup.html#gaf6f0f001e98c26c2b38d1d51b3f3ef1f", null ],
     [ "MR::SplineSettings::iterations", "group__GeneralGroup.html#gae191af78be4cbd6a213f4296abadbaab", null ],
+    [ "MR::detail::HashMapSlots::iteratorAt", "group__GeneralGroup.html#ga4471fcc333c346869f6782bdaa7960d6", null ],
     [ "MR::ICPProperties::iterLimit", "group__GeneralGroup.html#ga4b5daff61d36ce0e211995eee0f2507f", null ],
     [ "MR::GcodeProcessor::Command::key", "group__GeneralGroup.html#gae3896dcb88dae275220940ab26d6d42f", null ],
     [ "MR::ShortcutKey::key", "group__GeneralGroup.html#ga3a4d01661553cca5e961b0ee03e3985f", null ],

@@ -493,6 +493,9 @@ var hierarchy =
       [ "MR::SpaceMouse::HandlerHidapi", "classMR_1_1SpaceMouse_1_1HandlerHidapi.html", null ]
     ] ],
     [ "MR::TouchpadController::Handler", "classMR_1_1TouchpadController_1_1Handler.html", null ],
+    [ "HashMap", null, [
+      [ "MR::detail::HashMapSlots< K, V >", "structMR_1_1detail_1_1HashMapSlots.html", null ]
+    ] ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", null ],
     [ "MR::HexPalette", "structMR_1_1HexPalette.html", null ],
     [ "MR::Histogram", "classMR_1_1Histogram.html", null ],
