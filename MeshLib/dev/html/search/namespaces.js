@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['spdlog_0',['spdlog',['.././Cpp/namespacespdlog.html',1,'']]],
+  ['spdlog_3a_3asinks_1',['sinks',['.././Cpp/namespacespdlog_1_1sinks.html',1,'spdlog']]],
   ['mr_0',['MR',['.././Cpp/namespaceMR.html',1,'']]],
   ['mr_3a_3aasyncobjectload_1',['AsyncObjectLoad',['.././Cpp/namespaceMR_1_1AsyncObjectLoad.html',1,'MR']]],
   ['mr_3a_3abitsetparallel_2',['BitSetParallel',['.././Cpp/namespaceMR_1_1BitSetParallel.html',1,'MR']]],
@@ -116,8 +118,6 @@ var searchData=
   ['mr_3a_3avoxelssave_113',['VoxelsSave',['.././Cpp/namespaceMR_1_1VoxelsSave.html',1,'MR']]],
   ['mr_3a_3avoxelsvolumeinterpolatedaccessor_3a_3aindexandpos_114',['IndexAndPos',['.././Cpp/group__GeneralGroup.html',1,'MR::VoxelsVolumeInterpolatedAccessor']]],
   ['mr_3a_3aweightedshell_115',['WeightedShell',['.././Cpp/namespaceMR_1_1WeightedShell.html',1,'MR']]],
-  ['spdlog_0',['spdlog',['.././Cpp/namespacespdlog.html',1,'']]],
-  ['spdlog_3a_3asinks_1',['sinks',['.././Cpp/namespacespdlog_1_1sinks.html',1,'spdlog']]],
   ['imgui_0',['ImGui',['.././Cpp/namespaceImGui.html',1,'']]],
   ['wasm_0',['Wasm',['.././Cpp/namespaceWasm.html',1,'']]],
 ];

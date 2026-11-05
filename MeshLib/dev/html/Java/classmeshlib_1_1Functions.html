@@ -1468,7 +1468,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4c593a61daf28b16440ced2b5e0d69c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill holes with border in same plane (i.e. after cut by plane)  <br /></td></tr>
 <tr class="memitem:a7930a99378a11c01894e6df829c9abb7" id="r_a7930a99378a11c01894e6df829c9abb7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1IFillContours2DPlanCache.html">meshlib.IFillContours2DPlanCache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7930a99378a11c01894e6df829c9abb7">makeFillContours2DPlanCache</a> ()</td></tr>
 <tr class="memitem:a8bf5a4d897101ee4127f544be6773653" id="r_a8bf5a4d897101ee4127f544be6773653"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1HoleFillPlan.html">meshlib.HoleFillPlan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bf5a4d897101ee4127f544be6773653">fillContours2DPlan</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a> holeEdgeId, <a class="el" href="classmeshlib_1_1IFillContours2DPlanCache.html">meshlib.IFillContours2DPlanCache</a> cache)</td></tr>
-<tr class="memdesc:a8bf5a4d897101ee4127f544be6773653"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare filling plan for hole with border in same plane (i.e. after cut by plane)  <br /></td></tr>
+<tr class="memdesc:a8bf5a4d897101ee4127f544be6773653"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare filling plan for hole or face with border in same plane (i.e. after cut by plane)  <br /></td></tr>
 <tr class="memitem:a9134350dc9e6de18bd7fabe23499bc6c" id="r_a9134350dc9e6de18bd7fabe23499bc6c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9134350dc9e6de18bd7fabe23499bc6c">getXfFromOxyPlane</a> (<a class="el" href="classmeshlib_1_1std__vector__std__vector__MR__Vector3f.html">meshlib.std_vector_std_vector_MR_Vector3f</a> contours)</td></tr>
 <tr class="memitem:af3eae501db2541135202d8209f3b5c52" id="r_af3eae501db2541135202d8209f3b5c52"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classmeshlib_1_1AffineXf3f.html">meshlib.AffineXf3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3eae501db2541135202d8209f3b5c52">getXfFromOxyPlane</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1std__vector__std__vector__MR__EdgeId.html">meshlib.std_vector_std_vector_MR_EdgeId</a> paths)</td></tr>
 <tr class="memitem:ad7f2b94dc0fda9fbac222a0f443f0da2" id="r_ad7f2b94dc0fda9fbac222a0f443f0da2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7f2b94dc0fda9fbac222a0f443f0da2">fillPlanarHole</a> (<a class="el" href="classmeshlib_1_1ObjectMeshData.html">meshlib.ObjectMeshData</a> data, <a class="el" href="classmeshlib_1_1std__vector__std__vector__MR__EdgeId.html">meshlib.std_vector_std_vector_MR_EdgeId</a> holeContours)</td></tr>
@@ -23057,11 +23057,11 @@ After</div></div>
 </table>
 </div><div class="memdoc">
 
-<p>prepare filling plan for hole with border in same plane (i.e. after cut by plane) </p>
+<p>prepare filling plan for hole or face with border in same plane (i.e. after cut by plane) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>- mesh with hole </td></tr>
-    <tr><td class="paramname">holeEdgeId</td><td>- the edge here represents a hole borders that should be filled edge should have invalid left face (<a class="el" href="classmeshlib_1_1FaceId.html">FaceId</a> == -1) </td></tr>
+    <tr><td class="paramname">holeEdgeId</td><td>- the edge here represents a hole or a face (to its left) that should be triangulated; executeHoleFillPlan keeps that face as one of the triangles </td></tr>
     <tr><td class="paramname">cache</td><td>- if not null, keeps the buffers of this call in it, see <a class="el" href="classmeshlib_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> </td></tr>
   </table>
   </dd>

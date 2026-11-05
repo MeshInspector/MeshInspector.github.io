@@ -4955,7 +4955,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga4b58b14fd18ff412914c444b5d647659" id="r_ga4b58b14fd18ff412914c444b5d647659"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b58b14fd18ff412914c444b5d647659">MR::makeFillContours2DPlanCache</a> ()</td></tr>
 <tr class="memdesc:ga4b58b14fd18ff412914c444b5d647659"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a cache for <a class="el" href="#ga88978dc2a299b9b88ea0033da1865186">fillContours2DPlan</a>  <br /></td></tr>
 <tr class="memitem:ga88978dc2a299b9b88ea0033da1865186" id="r_ga88978dc2a299b9b88ea0033da1865186"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga88978dc2a299b9b88ea0033da1865186">MR::fillContours2DPlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId holeEdgeId, <a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> *cache=nullptr)</td></tr>
-<tr class="memdesc:ga88978dc2a299b9b88ea0033da1865186"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare filling plan for hole with border in same plane (i.e. after cut by plane)  <br /></td></tr>
+<tr class="memdesc:ga88978dc2a299b9b88ea0033da1865186"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare filling plan for hole or face with border in same plane (i.e. after cut by plane)  <br /></td></tr>
 <tr class="memitem:gaafdd9eb0912943e6c057d7f3fc8d140b" id="r_gaafdd9eb0912943e6c057d7f3fc8d140b"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaafdd9eb0912943e6c057d7f3fc8d140b">MR::getXfFromOxyPlane</a> (const <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> &amp;contours)</td></tr>
 <tr class="memitem:gaaee16285913fcc24c3f7ac59e8f82904" id="r_gaaee16285913fcc24c3f7ac59e8f82904"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaee16285913fcc24c3f7ac59e8f82904">MR::getXfFromOxyPlane</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;paths)</td></tr>
 <tr class="memitem:gaf6bdf308d7a325fb349bc72dc306b788" id="r_gaf6bdf308d7a325fb349bc72dc306b788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf6bdf308d7a325fb349bc72dc306b788">MR::fillPlanarHole</a> (<a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;data, std::vector&lt; <a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt; &amp;holeContours)</td></tr>
@@ -71594,11 +71594,11 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRFillContours2D_8h.html">MRMesh/MRFillContours2D.h</a>&gt;</code></p>
 
-<p>prepare filling plan for hole with border in same plane (i.e. after cut by plane) </p>
+<p>prepare filling plan for hole or face with border in same plane (i.e. after cut by plane) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>- mesh with hole </td></tr>
-    <tr><td class="paramname">holeEdgeId</td><td>- the edge here represents a hole borders that should be filled edge should have invalid left face (FaceId == -1) </td></tr>
+    <tr><td class="paramname">holeEdgeId</td><td>- the edge here represents a hole or a face (to its left) that should be triangulated; executeHoleFillPlan keeps that face as one of the triangles </td></tr>
     <tr><td class="paramname">cache</td><td>- if not null, keeps the buffers of this call in it, see <a class="el" href="classMR_1_1IFillContours2DPlanCache.html">IFillContours2DPlanCache</a> </td></tr>
   </table>
   </dd>
