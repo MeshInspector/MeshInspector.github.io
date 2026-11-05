@@ -5681,9 +5681,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga73232fe995aba6fb3e7bb7a7f20be741"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns 3 Euler angles, assuming this is a rotation matrix composed as follows: R=R(z)*R(y)*R(x)  <br /></td></tr>
 <tr class="memitem:gac913b105d8335b1b6a779f68117dda18" id="r_gac913b105d8335b1b6a779f68117dda18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Matrix3_1_1QR.html">QR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac913b105d8335b1b6a779f68117dda18">MR::Matrix3&lt; T &gt;::qr</a> () const noexcept</td></tr>
 <tr class="memdesc:gac913b105d8335b1b6a779f68117dda18"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompose this matrix on the product Q*R, where Q is orthogonal and R is upper triangular  <br /></td></tr>
-<tr class="memitem:ga227c386f62eafef4624dfa5aad12289a" id="r_ga227c386f62eafef4624dfa5aad12289a"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:ga227c386f62eafef4624dfa5aad12289a template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga227c386f62eafef4624dfa5aad12289a">MR::decomposeMatrix3</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;m, <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;rotation, <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;scaling)</td></tr>
-<tr class="memdesc:ga227c386f62eafef4624dfa5aad12289a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decomposes matrix into rotation and scaling matrices.  <br /></td></tr>
+<tr class="memitem:ga0f85c4262811b41f6199d5fa1e5b3238" id="r_ga0f85c4262811b41f6199d5fa1e5b3238"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga0f85c4262811b41f6199d5fa1e5b3238 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f85c4262811b41f6199d5fa1e5b3238">MR::decomposeMatrix3</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;m, <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;rotation, <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;scaling, bool signedScale=false)</td></tr>
 <tr class="memitem:gabfe7262e1e5d80122b05aa8e68fc0545" id="r_gabfe7262e1e5d80122b05aa8e68fc0545"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:gabfe7262e1e5d80122b05aa8e68fc0545 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabfe7262e1e5d80122b05aa8e68fc0545">MR::isRigid</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;m)</td></tr>
 <tr class="memdesc:gabfe7262e1e5d80122b05aa8e68fc0545"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if matrix scale is identity.  <br /></td></tr>
@@ -56306,8 +56305,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga227c386f62eafef4624dfa5aad12289a" name="ga227c386f62eafef4624dfa5aad12289a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga227c386f62eafef4624dfa5aad12289a">&#9670;&#160;</a></span>decomposeMatrix3()</h2>
+<a id="ga0f85c4262811b41f6199d5fa1e5b3238" name="ga0f85c4262811b41f6199d5fa1e5b3238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0f85c4262811b41f6199d5fa1e5b3238">&#9670;&#160;</a></span>decomposeMatrix3()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -56327,14 +56326,19 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>scaling</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>scaling</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>signedScale</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMatrix3Decompose_8h.html">MRMesh/MRMatrix3Decompose.h</a>&gt;</code></p>
-
-<p>Decomposes matrix into rotation and scaling matrices. </p>
+<p>Decomposes matrix into rotation and scaling matrices; if m is a mirror (det &lt; 0) then by default all scales are non-negative and the rotation is improper (det = -1), and with <code class="param">signedScale</code> the rotation is proper (det = +1) and one scale is negative, the one that leaves the rotation closest to identity (so an axis mirror gives the identity rotation) </p>
+<p>negating the column with the smallest diagonal element gives the largest trace</p>
 
 </div>
 </div>

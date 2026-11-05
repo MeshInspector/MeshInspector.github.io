@@ -141,45 +141,56 @@ $(function(){initNavTree('MRMatrix3Decompose_8h_source.html','',''); });
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="foldopen" id="foldopen00013" data-start="{" data-end="}">
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga227c386f62eafef4624dfa5aad12289a">   13</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__GeneralGroup.html#ga227c386f62eafef4624dfa5aad12289a">decomposeMatrix3</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a>&amp; m, <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a>&amp; rotation, <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a>&amp; scaling )</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keyword">const</span> <span class="keyword">auto</span> [q, r] = m.<a class="code hl_function" href="group__GeneralGroup.html#gac913b105d8335b1b6a779f68117dda18">qr</a>();</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    scaling = {};</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a> sign;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; 3; ++i )</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    {</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        scaling[i][i] = std::abs( r[i][i] );</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordflow">if</span> ( r[i][i] &lt; 0 )</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            sign[i][i] = -1;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    }</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    rotation = q * sign;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="}">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga0f85c4262811b41f6199d5fa1e5b3238">   16</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="group__GeneralGroup.html#ga0f85c4262811b41f6199d5fa1e5b3238">decomposeMatrix3</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a>&amp; m, <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a>&amp; rotation, <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a>&amp; scaling, <span class="keywordtype">bool</span> signedScale = <span class="keyword">false</span> )</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">const</span> <span class="keyword">auto</span> [q, r] = m.<a class="code hl_function" href="group__GeneralGroup.html#gac913b105d8335b1b6a779f68117dda18">qr</a>();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    scaling = {};</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a> sign;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; 3; ++i )</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        scaling[i][i] = std::abs( r[i][i] );</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">if</span> ( r[i][i] &lt; 0 )</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            sign[i][i] = -1;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    }</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    rotation = q * sign;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordflow">if</span> ( signedScale &amp;&amp; rotation.<a class="code hl_function" href="group__GeneralGroup.html#ga2ee57b23e7f7718f6800a1769ab30df5">det</a>() &lt; 0 )</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    {</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <span class="keywordtype">int</span> j = 0;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 1; i &lt; 3; ++i )</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            <span class="keywordflow">if</span> ( rotation[i][i] &lt; rotation[j][j] )</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>                j = i;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; 3; ++i )</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            rotation[i][j] = -rotation[i][j];</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        scaling[j][j] = -scaling[j][j];</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    }</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>}</div>
 </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="foldopen" id="foldopen00030" data-start="{" data-end="}">
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gabfe7262e1e5d80122b05aa8e68fc0545">   30</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#gabfe7262e1e5d80122b05aa8e68fc0545">isRigid</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a>&amp; m )</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>{</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a> rot, scale;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_function" href="group__GeneralGroup.html#ga227c386f62eafef4624dfa5aad12289a">decomposeMatrix3</a>( m, rot, scale );</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keyword">auto</span> eps = T( 10 ) * std::numeric_limits&lt;T&gt;::epsilon();</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordflow">if</span> ( std::abs( scale.x.x - T( 1 ) ) &gt; eps )</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordflow">if</span> ( std::abs( scale.y.y - T( 1 ) ) &gt; eps )</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordflow">if</span> ( std::abs( scale.z.z - T( 1 ) ) &gt; eps )</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gabfe7262e1e5d80122b05aa8e68fc0545">   44</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="group__GeneralGroup.html#gabfe7262e1e5d80122b05aa8e68fc0545">isRigid</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a>&amp; m )</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_struct" href="structMR_1_1Matrix3.html">Matrix3&lt;T&gt;</a> rot, scale;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_function" href="group__GeneralGroup.html#ga0f85c4262811b41f6199d5fa1e5b3238">decomposeMatrix3</a>( m, rot, scale );</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">auto</span> eps = T( 10 ) * std::numeric_limits&lt;T&gt;::epsilon();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="keywordflow">if</span> ( std::abs( scale.x.x - T( 1 ) ) &gt; eps )</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordflow">if</span> ( std::abs( scale.y.y - T( 1 ) ) &gt; eps )</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keywordflow">if</span> ( std::abs( scale.z.z - T( 1 ) ) &gt; eps )</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>}</div>
 </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>}</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>}</div>
 <div class="ttc" id="aMRMatrix3_8h_html"><div class="ttname"><a href="MRMatrix3_8h.html">MRMatrix3.h</a></div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga227c386f62eafef4624dfa5aad12289a"><div class="ttname"><a href="group__GeneralGroup.html#ga227c386f62eafef4624dfa5aad12289a">MR::decomposeMatrix3</a></div><div class="ttdeci">void decomposeMatrix3(const Matrix3&lt; T &gt; &amp;m, Matrix3&lt; T &gt; &amp;rotation, Matrix3&lt; T &gt; &amp;scaling)</div><div class="ttdoc">Decomposes matrix into rotation and scaling matrices.</div><div class="ttdef"><b>Definition</b> MRMatrix3Decompose.h:13</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_gabfe7262e1e5d80122b05aa8e68fc0545"><div class="ttname"><a href="group__GeneralGroup.html#gabfe7262e1e5d80122b05aa8e68fc0545">MR::isRigid</a></div><div class="ttdeci">bool isRigid(const Matrix3&lt; T &gt; &amp;m)</div><div class="ttdoc">Returns true if matrix scale is identity.</div><div class="ttdef"><b>Definition</b> MRMatrix3Decompose.h:30</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga0f85c4262811b41f6199d5fa1e5b3238"><div class="ttname"><a href="group__GeneralGroup.html#ga0f85c4262811b41f6199d5fa1e5b3238">MR::decomposeMatrix3</a></div><div class="ttdeci">void decomposeMatrix3(const Matrix3&lt; T &gt; &amp;m, Matrix3&lt; T &gt; &amp;rotation, Matrix3&lt; T &gt; &amp;scaling, bool signedScale=false)</div><div class="ttdef"><b>Definition</b> MRMatrix3Decompose.h:16</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga2ee57b23e7f7718f6800a1769ab30df5"><div class="ttname"><a href="group__GeneralGroup.html#ga2ee57b23e7f7718f6800a1769ab30df5">MR::Matrix3::det</a></div><div class="ttdeci">constexpr T det() const noexcept</div><div class="ttdoc">computes determinant of the matrix</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gabfe7262e1e5d80122b05aa8e68fc0545"><div class="ttname"><a href="group__GeneralGroup.html#gabfe7262e1e5d80122b05aa8e68fc0545">MR::isRigid</a></div><div class="ttdeci">bool isRigid(const Matrix3&lt; T &gt; &amp;m)</div><div class="ttdoc">Returns true if matrix scale is identity.</div><div class="ttdef"><b>Definition</b> MRMatrix3Decompose.h:44</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gac913b105d8335b1b6a779f68117dda18"><div class="ttname"><a href="group__GeneralGroup.html#gac913b105d8335b1b6a779f68117dda18">MR::Matrix3::qr</a></div><div class="ttdeci">QR qr() const noexcept</div><div class="ttdoc">decompose this matrix on the product Q*R, where Q is orthogonal and R is upper triangular</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">Only strictly necessary for the bindings (to make MR::MeshIntersectionResult a complete type).</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="astructMR_1_1Matrix3_html"><div class="ttname"><a href="structMR_1_1Matrix3.html">MR::Matrix3</a></div><div class="ttdef"><b>Definition</b> MRMatrix3.h:24</div></div>
