@@ -36,6 +36,7 @@ var hierarchy =
     [ "MR::AsyncRequest", "classMR_1_1AsyncRequest.html", null ],
     [ "MR::AsyncTimer", "classMR_1_1AsyncTimer.html", null ],
     [ "MR::Laplacian::Attractor", "structMR_1_1Laplacian_1_1Attractor.html", null ],
+    [ "MR::Viewport::BackgroundTexture", "structMR_1_1Viewport_1_1BackgroundTexture.html", null ],
     [ "MR::BasicUiRenderTask::BackwardPassParams", "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html", null ],
     [ "MR::Ball< V >", "structMR_1_1Ball.html", null ],
     [ "MR::BallPivotCandidate", "structMR_1_1BallPivotCandidate.html", null ],
@@ -1414,6 +1415,7 @@ var hierarchy =
     [ "MR::UniformSamplingSettings", "structMR_1_1UniformSamplingSettings.html", null ],
     [ "std::unique_ptr", null, [
       [ "MR::UniquePtr< SimpleVolume >", "structMR_1_1UniquePtr.html", null ],
+      [ "MR::UniquePtr< MR::ViewportGL >", "structMR_1_1UniquePtr.html", null ],
       [ "MR::UniquePtr< MR::IRenderObject >", "structMR_1_1UniquePtr.html", null ],
       [ "MR::UniquePtr< T >", "structMR_1_1UniquePtr.html", null ]
     ] ],

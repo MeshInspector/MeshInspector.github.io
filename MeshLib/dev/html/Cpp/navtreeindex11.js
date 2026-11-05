@@ -244,7 +244,7 @@ var NAVTREEINDEX11 =
 "classMR_1_1SharedThreadSafeOwner.html#af781cea7ad567dc1ea28536e7fe7e8c4":[9,0,0,19,373,5],
 "classMR_1_1SharedThreadSafeOwner.html#afb6703f5f77fcaa4a5e4e9711b6a8da3":[9,0,0,1,36,8],
 "classMR_1_1SharedThreadSafeOwner.html#afb6703f5f77fcaa4a5e4e9711b6a8da3":[9,0,0,19,373,8],
-"classMR_1_1ShiftTransformer.html":[9,0,0,19,886],
+"classMR_1_1ShiftTransformer.html":[9,0,0,19,887],
 "classMR_1_1ShortcutManager.html":[9,0,0,19,753],
 "classMR_1_1SpaceMouse_1_1Controller.html":[9,0,1,0,1,49,1],
 "classMR_1_1SpaceMouse_1_1Controller.html":[9,0,2,0,1,32,1],

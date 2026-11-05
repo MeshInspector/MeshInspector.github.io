@@ -168,7 +168,7 @@ var dir_9f7f527b3d798641b224411d64f042be =
     [ "MRViewerTitle.h", "MRViewerTitle_8h.html", null ],
     [ "MRViewport.h", "MRViewport_8h.html", "MRViewport_8h" ],
     [ "MRViewportCornerController.h", "MRViewportCornerController_8h.html", "MRViewportCornerController_8h" ],
-    [ "MRViewportGL.h", "MRViewportGL_8h.html", "MRViewportGL_8h" ],
+    [ "MRViewportGL.h", "MRViewportGL_8h.html", null ],
     [ "MRViewportGlobalBasis.h", "MRViewportGlobalBasis_8h.html", null ],
     [ "MRViewportParametersAction.h", "MRViewportParametersAction_8h.html", null ],
     [ "MRVisualObjectTag.h", "MRVisualObjectTag_8h.html", "MRVisualObjectTag_8h" ],

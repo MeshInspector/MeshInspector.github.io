@@ -5922,6 +5922,7 @@ var group__GeneralGroup =
         [ "AdditionalPointsNoOffset", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a9803632f2ffd6df4b9c59affbd0ee7c9", null ],
         [ "AdditionalQuad", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a7ad2916ddd2b56f175adb1d02889d8e8", null ],
         [ "ViewportBorder", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a5bc4ec66f8a611b115c0cbc051229e9e", null ],
+        [ "ViewportBackground", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a1299aa40ac4d4fff7eb7dc38dc2bfa44", null ],
         [ "AlphaSortOverlayQuad", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748af448014484bd7a149f086a8cc030daff", null ],
         [ "ShadowOverlayQuad", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a878764d5da2f9dcefa74fe1d43db0896", null ],
         [ "SimpleOverlayQuad", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a6efd2be0f88716d1ecd218c3c506e07b", null ],
@@ -8369,6 +8370,14 @@ var group__GeneralGroup =
       [ "sceneName_", "group__GeneralGroup.html#ga9ee6b661cd640e5c00b4d54a2201c622", null ],
       [ "version_", "group__GeneralGroup.html#ga3f2e4aee7140f209be94eceacd3a0ea0", null ]
     ] ],
+    [ "MR::SegmEndColors", "structMR_1_1SegmEndColors.html", [
+      [ "a", "group__GeneralGroup.html#ga074d144106e966fd84ea6ac76b9a172b", null ],
+      [ "b", "group__GeneralGroup.html#ga34ba656028d463bdd70196ca015bdeab", null ]
+    ] ],
+    [ "MR::ViewportPointsWithColors", "structMR_1_1ViewportPointsWithColors.html", [
+      [ "colors", "group__GeneralGroup.html#gaf0122c41ec3efb5901af84d7a442e268", null ],
+      [ "points", "group__GeneralGroup.html#gac82bf98c749b0bb821e259629bb70b84", null ]
+    ] ],
     [ "MR::Viewport", "classMR_1_1Viewport.html", [
       [ "BaseFitParams", "group__GeneralGroup.html#ga14d9ce8dba0a41d18ce159115c94cef4", null ],
       [ "FitBoxParams", "group__GeneralGroup.html#gac77d7d4e41e9f6fac8540acc18f23da5", null ],
@@ -8378,7 +8387,7 @@ var group__GeneralGroup =
       [ "ViewportRectangle", "group__GeneralGroup.html#ga4ffdd066d297db0b871f78fa572166a3", null ],
       [ "Viewport", "group__GeneralGroup.html#ga25079118ea3ec81bab9c8b86d82d540c", null ],
       [ "~Viewport", "group__GeneralGroup.html#ga8eb0360ddc396efa4203aeee18c307fe", null ],
-      [ "Viewport", "group__GeneralGroup.html#gab2c9307e0042dfba8ab64f861356ad72", null ],
+      [ "Viewport", "group__GeneralGroup.html#ga7908cda66a545c1f4f3af995ed58a291", null ],
       [ "allModelsInsideViewportRectangle", "group__GeneralGroup.html#ga7de1b213b70aabd1ed6f41b3abf5c002", null ],
       [ "cameraLookAlong", "group__GeneralGroup.html#ga87e8a818a341d6d5062639dc69494359", null ],
       [ "cameraRotateAround", "group__GeneralGroup.html#gada1ff2adbf65466eae3e774e09e360fd", null ],
@@ -8407,6 +8416,7 @@ var group__GeneralGroup =
       [ "getAxesPosition", "group__GeneralGroup.html#ga1ce6532359096556ddad5e2f303f59a8", null ],
       [ "getAxesProjectionMatrix", "group__GeneralGroup.html#gac39f390490ab32f3e82944c85978c7f6", null ],
       [ "getAxesSize", "group__GeneralGroup.html#gaabc1b7dad421265d2168106316112914", null ],
+      [ "getBackgroundTexture", "group__GeneralGroup.html#ga78c46af2d6f390a7ae2b1314b3ab7ce9", null ],
       [ "getBackwardDirection", "group__GeneralGroup.html#ga8255ed3018ea3bae113c3b6c87ccbc96", null ],
       [ "getBaseRenderParams", "group__GeneralGroup.html#gacefecc8d9d03c70e7857a71ca787b627", null ],
       [ "getBaseRenderParams", "group__GeneralGroup.html#ga386544dc0c5351067325cad9bf32dc93", null ],
@@ -8429,7 +8439,7 @@ var group__GeneralGroup =
       [ "getViewXf", "group__GeneralGroup.html#ga62e34967fa338bdaebee75bcc2342a0b", null ],
       [ "init", "group__GeneralGroup.html#gaee900463cf938244f0a05aa2b61b66b2", null ],
       [ "multiPickObjects", "group__GeneralGroup.html#gabe237ae23636b5c43f1572391f1ac677", null ],
-      [ "operator=", "group__GeneralGroup.html#gabe2f2d2fe99553548fc2b3f3a9f3d4b8", null ],
+      [ "operator=", "group__GeneralGroup.html#ga14882a1632f2223a825f9252072c17d7", null ],
       [ "pick_render_object", "group__GeneralGroup.html#ga9cf7727c5bbcb7ad43c396f50b5c2f64", null ],
       [ "pick_render_object", "group__GeneralGroup.html#ga2b5b1092c6ce7d82200b46ee1e279813", null ],
       [ "pick_render_object", "group__GeneralGroup.html#gad91d059862348453f924cf3c55d9fda5", null ],
@@ -8455,6 +8465,7 @@ var group__GeneralGroup =
       [ "setAxesPos", "group__GeneralGroup.html#ga2c63751546309d0bbdee319b38733df0", null ],
       [ "setAxesSize", "group__GeneralGroup.html#ga7cdcd9c1df701794b889bdac69a123fd", null ],
       [ "setBackgroundColor", "group__GeneralGroup.html#gacee1b8365dc494c521d2b1870bec8713", null ],
+      [ "setBackgroundTexture", "group__GeneralGroup.html#ga26f3be0e21afddd5a507280de17e402d", null ],
       [ "setCameraPoint", "group__GeneralGroup.html#gadb5215d292d0b8ec5b7c9370b199ad47", null ],
       [ "setCameraTrackballAngle", "group__GeneralGroup.html#ga62aeb2520e267966a40f85f4d3e05972", null ],
       [ "setCameraTranslation", "group__GeneralGroup.html#ga0f85b9ccf4f79bc5faa8cc613c40e7bd", null ],
@@ -8532,6 +8543,18 @@ var group__GeneralGroup =
       [ "selectable", "group__GeneralGroup.html#gab1f95c9313aac4dc9276cd0a0a4071d2", null ],
       [ "staticRotationPivot", "group__GeneralGroup.html#gaba40f3c99bf1294e53abdd88d21278e8", null ]
     ] ],
+    [ "MR::Viewport::BackgroundTexture", "structMR_1_1Viewport_1_1BackgroundTexture.html", [
+      [ "StretchMode", "group__GeneralGroup.html#ga4e9eba769b3b13ad52c5ceac92e415f6", [
+        [ "None", "group__GeneralGroup.html#gga4e9eba769b3b13ad52c5ceac92e415f6a6adf97f83acf6453d4a6a4b1070f3754", null ],
+        [ "Stretch", "group__GeneralGroup.html#gga4e9eba769b3b13ad52c5ceac92e415f6afbb09a82eafab60150d0996e8fe46560", null ],
+        [ "Fit", "group__GeneralGroup.html#gga4e9eba769b3b13ad52c5ceac92e415f6a01e49ee7364d951a3d1bdea7dd3a1b7b", null ],
+        [ "Fill", "group__GeneralGroup.html#gga4e9eba769b3b13ad52c5ceac92e415f6adb3e3f51c9107e26c9bccf9a188ce2ed", null ]
+      ] ],
+      [ "scaling", "group__GeneralGroup.html#gaa1ad3be1ddec62499f675d85835850dd", null ],
+      [ "startPos", "group__GeneralGroup.html#ga4acc116196b1a18782f39506473b20a3", null ],
+      [ "stretchMode", "group__GeneralGroup.html#gaf1fb101ad401448aaf98f22251f98fd0", null ],
+      [ "texture", "group__GeneralGroup.html#ga3264a4e86852f87678e1e3b0c8eb54be", null ]
+    ] ],
     [ "MR::CornerControllerObject", "classMR_1_1CornerControllerObject.html", [
       [ "CornerControllerObject", "group__GeneralGroup.html#gacab9beedac78c53c7193591ae8cfa96a", null ],
       [ "draw", "group__GeneralGroup.html#ga6b877f53795b68c9bfd900e49b237be3", null ],
@@ -8546,14 +8569,6 @@ var group__GeneralGroup =
       [ "rId", "group__GeneralGroup.html#ga907f52db81d2492d6da4f0359603a87f", null ],
       [ "vId", "group__GeneralGroup.html#ga192c07449fb32e2b964cc6becc915dd4", null ]
     ] ],
-    [ "MR::SegmEndColors", "structMR_1_1SegmEndColors.html", [
-      [ "a", "group__GeneralGroup.html#ga074d144106e966fd84ea6ac76b9a172b", null ],
-      [ "b", "group__GeneralGroup.html#ga34ba656028d463bdd70196ca015bdeab", null ]
-    ] ],
-    [ "MR::ViewportPointsWithColors", "structMR_1_1ViewportPointsWithColors.html", [
-      [ "colors", "group__GeneralGroup.html#gaf0122c41ec3efb5901af84d7a442e268", null ],
-      [ "points", "group__GeneralGroup.html#gac82bf98c749b0bb821e259629bb70b84", null ]
-    ] ],
     [ "MR::ViewportGL", "classMR_1_1ViewportGL.html", [
       [ "BasePickResults", "group__GeneralGroup.html#ga28aa3f7360b6d73987f11ccc02b6a51e", null ],
       [ "GLfloat", "group__GeneralGroup.html#ga4324daf005894093aab00d0738fbd422", null ],
@@ -8564,10 +8579,12 @@ var group__GeneralGroup =
       [ "ViewportGL", "group__GeneralGroup.html#gac9e742349c94c9364e1bc78a4a453bdb", null ],
       [ "~ViewportGL", "group__GeneralGroup.html#ga33a67bdad47aeacb17a644f0c65f53ec", null ],
       [ "checkInit", "group__GeneralGroup.html#ga4b2f4b4002b1881eca93bde98fe86979", null ],
+      [ "drawBackgroundTexture", "group__GeneralGroup.html#gace7d2beb55b4929ade1c1d29d0883a66", null ],
       [ "drawBorder", "group__GeneralGroup.html#gafccb2d900dfbc38ee4f10461bcc74539", null ],
       [ "fillViewport", "group__GeneralGroup.html#ga35ccca6814c2d2d405ce84f40381147c", null ],
       [ "findUniqueObjectsInRect", "group__GeneralGroup.html#gafd079aa214c396ca3db1f0cdc83fb5d0", null ],
       [ "free", "group__GeneralGroup.html#gaeb0e2182b6dc110fa0c6d0a45b199076", null ],
+      [ "freeBackgroundTexture", "group__GeneralGroup.html#ga8afb46cffbe9d14a169cf02452b27b6b", null ],
       [ "init", "group__GeneralGroup.html#gac2b114c03f1a2659e1e2eba7421c5aad", null ],
       [ "operator=", "group__GeneralGroup.html#gaf6d0b135cd7ea98a92eac23f1bac3642", null ],
       [ "operator=", "group__GeneralGroup.html#ga1540ae57916ae7af3244396a8443ff87", null ],
@@ -10514,6 +10531,7 @@ var group__GeneralGroup =
       [ "MR::GLStaticHolder::AdditionalPointsNoOffset", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a9803632f2ffd6df4b9c59affbd0ee7c9", null ],
       [ "MR::GLStaticHolder::AdditionalQuad", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a7ad2916ddd2b56f175adb1d02889d8e8", null ],
       [ "MR::GLStaticHolder::ViewportBorder", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a5bc4ec66f8a611b115c0cbc051229e9e", null ],
+      [ "MR::GLStaticHolder::ViewportBackground", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a1299aa40ac4d4fff7eb7dc38dc2bfa44", null ],
       [ "MR::GLStaticHolder::AlphaSortOverlayQuad", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748af448014484bd7a149f086a8cc030daff", null ],
       [ "MR::GLStaticHolder::ShadowOverlayQuad", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a878764d5da2f9dcefa74fe1d43db0896", null ],
       [ "MR::GLStaticHolder::SimpleOverlayQuad", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a6efd2be0f88716d1ecd218c3c506e07b", null ],
@@ -10596,6 +10614,12 @@ var group__GeneralGroup =
       [ "MR::Features::MeasureResult::Status::badFeaturePair", "group__GeneralGroup.html#ggab9a02bda2fc92c73a0d7d637ba562a7ea17870682e0e34794dc7dc2c13aa89a3f", null ],
       [ "MR::Features::MeasureResult::Status::badRelativeLocation", "group__GeneralGroup.html#ggab9a02bda2fc92c73a0d7d637ba562a7ea485094d05ff3ed356932b126a20864e2", null ],
       [ "MR::Features::MeasureResult::Status::notFinite", "group__GeneralGroup.html#ggab9a02bda2fc92c73a0d7d637ba562a7eafd6f633ddb4b5a2220cba15cebe96b8c", null ]
+    ] ],
+    [ "MR::Viewport::BackgroundTexture::StretchMode", "group__GeneralGroup.html#ga4e9eba769b3b13ad52c5ceac92e415f6", [
+      [ "MR::Viewport::BackgroundTexture::StretchMode::None", "group__GeneralGroup.html#gga4e9eba769b3b13ad52c5ceac92e415f6a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "MR::Viewport::BackgroundTexture::StretchMode::Stretch", "group__GeneralGroup.html#gga4e9eba769b3b13ad52c5ceac92e415f6afbb09a82eafab60150d0996e8fe46560", null ],
+      [ "MR::Viewport::BackgroundTexture::StretchMode::Fit", "group__GeneralGroup.html#gga4e9eba769b3b13ad52c5ceac92e415f6a01e49ee7364d951a3d1bdea7dd3a1b7b", null ],
+      [ "MR::Viewport::BackgroundTexture::StretchMode::Fill", "group__GeneralGroup.html#gga4e9eba769b3b13ad52c5ceac92e415f6adb3e3f51c9107e26c9bccf9a188ce2ed", null ]
     ] ],
     [ "MR::SceneSettings::StringType", "group__GeneralGroup.html#gaca4cbb22b4674eb9de491e91090d5be6", [
       [ "MR::SceneSettings::StringType::MeshSerializeFormat", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6a7c7083efbc53c626f151a4d9e7b029bb", null ],
@@ -10933,6 +10957,7 @@ var group__GeneralGroup =
     [ "MR::SceneColors::UnselectedObjectVoxels", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa815ab0979a59272abd51680de3a55ab0", null ],
     [ "MR::SceneColors::UnselectedTemporaryMeasurements", "group__GeneralGroup.html#gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa73c4634de1e83e6666d9cc6293f63326", null ],
     [ "MR::ImGuiMenu::Vertical", "group__GeneralGroup.html#gga2fc0e85a12011b7f97ae8de0c9174217a2ab058d39efcb9723ff4e31b061058b0", null ],
+    [ "MR::GLStaticHolder::ViewportBackground", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a1299aa40ac4d4fff7eb7dc38dc2bfa44", null ],
     [ "MR::GLStaticHolder::ViewportBorder", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a5bc4ec66f8a611b115c0cbc051229e9e", null ],
     [ "MR::GLStaticHolder::Volume", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676", null ],
     [ "MR::GLStaticHolder::VolumePicker", "group__GeneralGroup.html#gga00a040d6d7d04967fe9f892d8cb76748aa694e960e5a16235a6b954cd634c87ce", null ],
@@ -12038,6 +12063,7 @@ var group__GeneralGroup =
     [ "MR::ImGuiMenu::drawAdditionalWindows", "group__GeneralGroup.html#ga87214e72ace01fd1dddf2981cb68653a", null ],
     [ "MR::RibbonMenu::drawAdditionalWindows", "group__GeneralGroup.html#ga3292874b57403af8b70a912b87c679bb", null ],
     [ "MR::ImGuiMenu::drawAdvancedOptions", "group__GeneralGroup.html#ga696222ece2d12338ac7925bf5ba31001", null ],
+    [ "MR::ViewportGL::drawBackgroundTexture", "group__GeneralGroup.html#gace7d2beb55b4929ade1c1d29d0883a66", null ],
     [ "MR::RibbonMenu::drawBigButtonItem_", "group__GeneralGroup.html#ga8847593f96b03320cb7aa6238bd80840", null ],
     [ "MR::ViewportGL::drawBorder", "group__GeneralGroup.html#gafccb2d900dfbc38ee4f10461bcc74539", null ],
     [ "MR::RibbonButtonDrawer::drawButtonIcon", "group__GeneralGroup.html#gaf2138a66e8eaceaa70f7eff66214d0f8", null ],
@@ -12537,6 +12563,7 @@ var group__GeneralGroup =
     [ "MR::RibbonIcons::free", "group__GeneralGroup.html#ga7200bd05b72f77ec5cb880c7a0f95ccb", null ],
     [ "MR::ViewportGL::free", "group__GeneralGroup.html#gaeb0e2182b6dc110fa0c6d0a45b199076", null ],
     [ "MR::GLStaticHolder::freeAllShaders", "group__GeneralGroup.html#ga173930702e90c1c9ca96624d81d0da2d", null ],
+    [ "MR::ViewportGL::freeBackgroundTexture", "group__GeneralGroup.html#ga8afb46cffbe9d14a169cf02452b27b6b", null ],
     [ "MR::RenderMeshObject::freeBuffers_", "group__GeneralGroup.html#gaa61d4804ea530c171784a8820ee93de4", null ],
     [ "MR::FreeFormBestFit::FreeFormBestFit", "group__GeneralGroup.html#ga5710d8090432098f5a13940a6904d5b5", null ],
     [ "MR::FreeFormDeformer::FreeFormDeformer", "group__GeneralGroup.html#ga3505f8af716abf188783f13ad99c876e", null ],
@@ -12683,6 +12710,7 @@ var group__GeneralGroup =
     [ "MR::ViewportGlobalBasis::getAxesWidth", "group__GeneralGroup.html#ga9679297dbbf2a92f4f8c1a6313ad75aa", null ],
     [ "MR::ObjectTransformWidget::getAxisTransformMode", "group__GeneralGroup.html#ga80fb43258823d107074fb68a3f1c411d", null ],
     [ "MR::ObjectLabel::getBackgroundPadding", "group__GeneralGroup.html#ga7ace8711326d2a662e01572a80216ece", null ],
+    [ "MR::Viewport::getBackgroundTexture", "group__GeneralGroup.html#ga78c46af2d6f390a7ae2b1314b3ab7ce9", null ],
     [ "MR::Viewport::getBackwardDirection", "group__GeneralGroup.html#ga8255ed3018ea3bae113c3b6c87ccbc96", null ],
     [ "MR::DirectionWidget::getBase", "group__GeneralGroup.html#gab4b6a5a03f003ba555db9ba77e0cbba3", null ],
     [ "MR::ConeObject::getBasePoint", "group__GeneralGroup.html#ga735e2350efc1b275ece4445702f92cda", null ],
@@ -14865,7 +14893,7 @@ var group__GeneralGroup =
     [ "MR::UniquePtr::operator=", "group__GeneralGroup.html#ga42efa327646696f0d3cafc2f14acb727", null ],
     [ "MR::UniqueTemporaryFolder::operator=", "group__GeneralGroup.html#ga18f05667e76ccc9a5c5ef69bd3584e26", null ],
     [ "MR::UniqueTemporaryFolder::operator=", "group__GeneralGroup.html#ga61854bf3fe886747be7d3c8ffe57841d", null ],
-    [ "MR::Viewport::operator=", "group__GeneralGroup.html#gabe2f2d2fe99553548fc2b3f3a9f3d4b8", null ],
+    [ "MR::Viewport::operator=", "group__GeneralGroup.html#ga14882a1632f2223a825f9252072c17d7", null ],
     [ "MR::ViewportGL::operator=", "group__GeneralGroup.html#gaf6d0b135cd7ea98a92eac23f1bac3642", null ],
     [ "MR::ViewportGL::operator=", "group__GeneralGroup.html#ga1540ae57916ae7af3244396a8443ff87", null ],
     [ "MR::ZeroOnMove::operator=", "group__GeneralGroup.html#gac3bc0c5c28107a3a11a89d8b43373be0", null ],
@@ -15735,6 +15763,7 @@ var group__GeneralGroup =
     [ "MR::ObjectTransformWidget::setAxisTransformMode", "group__GeneralGroup.html#gaec0ff434beabde629460e566c23beb5c", null ],
     [ "MR::Viewport::setBackgroundColor", "group__GeneralGroup.html#gacee1b8365dc494c521d2b1870bec8713", null ],
     [ "MR::ObjectLabel::setBackgroundPadding", "group__GeneralGroup.html#ga2779cce4a20ee8a9c388375b07efc258", null ],
+    [ "MR::Viewport::setBackgroundTexture", "group__GeneralGroup.html#ga26f3be0e21afddd5a507280de17e402d", null ],
     [ "MR::ICP::setBadIterCount", "group__GeneralGroup.html#ga88482e98d2aeaf3ce210222c82b564c4", null ],
     [ "MR::SurfacePointWidget::setBaseColor", "group__GeneralGroup.html#gaae3593c7f8c095b4f7e8af0a2b4909a3", null ],
     [ "MR::Palette::setBaseColors", "group__GeneralGroup.html#ga2f699beac10f395930d50653c3f459c4", null ],
@@ -16921,7 +16950,7 @@ var group__GeneralGroup =
     [ "MR::ViewerSetup::ViewerSetup", "group__GeneralGroup.html#ga155d3594c444dca0504eb4ab0d457483", null ],
     [ "MR::ViewerTitle::ViewerTitle", "group__GeneralGroup.html#gae201ece8e089fb91a710af404169e25a", null ],
     [ "MR::Viewport::Viewport", "group__GeneralGroup.html#ga25079118ea3ec81bab9c8b86d82d540c", null ],
-    [ "MR::Viewport::Viewport", "group__GeneralGroup.html#gab2c9307e0042dfba8ab64f861356ad72", null ],
+    [ "MR::Viewport::Viewport", "group__GeneralGroup.html#ga7908cda66a545c1f4f3af995ed58a291", null ],
     [ "MR::Viewer::viewport", "group__GeneralGroup.html#ga2135a45dc216425b8c22edb5a21b322b", null ],
     [ "MR::Viewer::viewport", "group__GeneralGroup.html#ga3fe6f8bf3f89cd4d1f1b51463c958757", null ],
     [ "MR::Viewer::viewport_index", "group__GeneralGroup.html#gacc7846d6e3e61b3d7c7422334eb1ee94", null ],
@@ -18808,6 +18837,7 @@ var group__GeneralGroup =
     [ "MR::UI::SaveChangesPopupSettings::saveTooltip", "group__GeneralGroup.html#ga5fb9895320349dc61434ad43c17fd24a", null ],
     [ "MR::SaveSettings::saveTriCornerUVCoords", "group__GeneralGroup.html#gac0798760baa0755ad37dde251b754b9d", null ],
     [ "MR::RibbonFontManager::FontData::scaledOffset", "group__GeneralGroup.html#gacfc38fa3a885c9eaecf1e1d5161791dc", null ],
+    [ "MR::Viewport::BackgroundTexture::scaling", "group__GeneralGroup.html#gaa1ad3be1ddec62499f675d85835850dd", null ],
     [ "MR::RibbonSchema::sceneButtonsList", "group__GeneralGroup.html#ga10236edecf0d4d4b8fe8a8cec7faee6b", null ],
     [ "MR::ViewerTitle::sceneName_", "group__GeneralGroup.html#ga9ee6b661cd640e5c00b4d54a2201c622", null ],
     [ "MR::ImGuiMenu::sceneObjectsList_", "group__GeneralGroup.html#ga7d0715a8cba151ac2cf1b9260c778350", null ],
@@ -18959,6 +18989,7 @@ var group__GeneralGroup =
     [ "MR::FrameCounter::startFrameNum", "group__GeneralGroup.html#gaea5d0a29f0eeb7d5301f5761259fbb71", null ],
     [ "MR::MovementBuildBodyParams::startMeshFromBody", "group__GeneralGroup.html#ga89e79aa429b49bcb7680054b007b6245", null ],
     [ "MR::TextMeshAlignParams::startPoint", "group__GeneralGroup.html#ga2b0fa04ea63d4e6994fb1b7e4ae55ee5", null ],
+    [ "MR::Viewport::BackgroundTexture::startPos", "group__GeneralGroup.html#ga4acc116196b1a18782f39506473b20a3", null ],
     [ "MR::ToolPathParams::startVertices", "group__GeneralGroup.html#gadf1fc52d9134c621ba9630531ee2c99d", null ],
     [ "MR::CommandLoop::Command::state", "group__GeneralGroup.html#ga739535ad2c8198dd5cdc5b804b4d20c2", null ],
     [ "MR::Viewport::Parameters::staticRotationPivot", "group__GeneralGroup.html#gaba40f3c99bf1294e53abdd88d21278e8", null ],
@@ -18971,6 +19002,7 @@ var group__GeneralGroup =
     [ "MR::ImGuiMenu::storedModalMessage_", "group__GeneralGroup.html#ga030eb50192d51050ab5c5aa34e63929d", null ],
     [ "MR::BendContoursAlongCurveParams::stretch", "group__GeneralGroup.html#gaa63ad4da9aad75fc779edeb4baab169c", null ],
     [ "MR::BendTextAlongCurveParams::stretch", "group__GeneralGroup.html#gac50633d84a0a9324663aa20af82f4c61", null ],
+    [ "MR::Viewport::BackgroundTexture::stretchMode", "group__GeneralGroup.html#gaf1fb101ad401448aaf98f22251f98fd0", null ],
     [ "MR::VolumeToMeshByPartsSettings::stripeOverlap", "group__GeneralGroup.html#ga49895c0e58dfde0834b03dcc99e6279c", null ],
     [ "MR::UnitToStringParams::stripTrailingZeroes", "group__GeneralGroup.html#gae7b05ea81d83729b2b8510464247942c", null ],
     [ "MR::struct", "group__GeneralGroup.html#ga14a2b0f304716de7247bc521bb0f4b8b", null ],
@@ -19065,6 +19097,7 @@ var group__GeneralGroup =
     [ "MR::MeshLoadSettings::texture", "group__GeneralGroup.html#gaea5bd8460c5fbf0c62840a46e0eb2011", null ],
     [ "MR::PlyLoadParams::texture", "group__GeneralGroup.html#ga0da01188c983c86875fdd5d0b6471fa5", null ],
     [ "MR::SaveSettings::texture", "group__GeneralGroup.html#ga0cd4cf82acb2f094f43f785282fcb76a", null ],
+    [ "MR::Viewport::BackgroundTexture::texture", "group__GeneralGroup.html#ga3264a4e86852f87678e1e3b0c8eb54be", null ],
     [ "MR::RenderMeshObject::textureArray_", "group__GeneralGroup.html#ga8cd847a579adbca9c44e43ea25fe0166", null ],
     [ "MR::GlTexture::textureID_", "group__GeneralGroup.html#ga9bb5bb53fefb3f277a36f6fabfe202cf", null ],
     [ "MR::MeshAttributesToUpdate::texturePerFace", "group__GeneralGroup.html#gaee9a5a30ffb7f9f758de6307f4916794", null ],
