@@ -1,5 +1,7 @@
 var NAVTREEINDEX171 =
 {
+"classmeshlib_1_1VertCoordsDiff.html#af04a53d50ba1482859532c5b9cb0fbf0":[9,6,1,0,0,1646,6],
+"classmeshlib_1_1VertDistance.html":[9,6,0,0,0,1647],
 "classmeshlib_1_1VertDistance.html":[9,6,1,0,0,1647],
 "classmeshlib_1_1VertDistance.html#a30cff998501e6390dbe46af567e9d095":[9,6,0,0,0,1647,2],
 "classmeshlib_1_1VertDistance.html#a30cff998501e6390dbe46af567e9d095":[9,6,1,0,0,1647,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX171 =
 "classmeshlib_1_1VertScalars.html#a93d0ade87e2b7cc8c4009660ef0aeb71":[9,6,1,0,0,1654,11],
 "classmeshlib_1_1VertScalars.html#a97c502f5fda9ded41674a303df63869f":[9,6,0,0,0,1654,24],
 "classmeshlib_1_1VertScalars.html#a97c502f5fda9ded41674a303df63869f":[9,6,1,0,0,1654,24],
-"classmeshlib_1_1VertScalars.html#a9abd1561b676d2133a0c5c96a466e7fc":[9,6,0,0,0,1654,21],
-"classmeshlib_1_1VertScalars.html#a9abd1561b676d2133a0c5c96a466e7fc":[9,6,1,0,0,1654,21],
-"classmeshlib_1_1VertScalars.html#a9c2fb78e85c5659e806e580b81c19a82":[9,6,0,0,0,1654,9]
+"classmeshlib_1_1VertScalars.html#a9abd1561b676d2133a0c5c96a466e7fc":[9,6,0,0,0,1654,21]
 };

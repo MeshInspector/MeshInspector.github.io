@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"classmeshlib_1_1DistanceMap.html#afa1c6007cfb3a70a6c4a299798354d06":[9,6,1,0,0,278,37],
+"classmeshlib_1_1DistanceMapLoadSettings.html":[9,6,0,0,0,279],
 "classmeshlib_1_1DistanceMapLoadSettings.html":[9,6,1,0,0,279],
 "classmeshlib_1_1DistanceMapLoadSettings.html#a00170355677b5582b3f53f3deee46361":[9,6,0,0,0,279,5],
 "classmeshlib_1_1DistanceMapLoadSettings.html#a00170355677b5582b3f53f3deee46361":[9,6,1,0,0,279,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "classmeshlib_1_1DistanceMeasurementObject.html#aa16c96c04f7f7cb272d944186eba6638":[9,6,1,0,0,282,10],
 "classmeshlib_1_1DistanceMeasurementObject.html#aa58f43823809d94574e6b4660d6a941e":[9,6,0,0,0,282,70],
 "classmeshlib_1_1DistanceMeasurementObject.html#aa58f43823809d94574e6b4660d6a941e":[9,6,1,0,0,282,70],
-"classmeshlib_1_1DistanceMeasurementObject.html#aa76479974705801566396f64d4eba921":[9,6,0,0,0,282,97],
-"classmeshlib_1_1DistanceMeasurementObject.html#aa76479974705801566396f64d4eba921":[9,6,1,0,0,282,97],
-"classmeshlib_1_1DistanceMeasurementObject.html#aa9e9c78144e50217e3c68ac39db87431":[9,6,0,0,0,282,25]
+"classmeshlib_1_1DistanceMeasurementObject.html#aa76479974705801566396f64d4eba921":[9,6,0,0,0,282,97]
 };

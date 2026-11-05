@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"classmrmeshpy_1_1ConstObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aa73bf75860ccd208828d0bd8fb139b7a":[9,1,0,0,2,1035,1,2,10],
+"classmrmeshpy_1_1ConstObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aa73bf75860ccd208828d0bd8fb139b7a":[9,1,1,0,1,1035,1,2,10],
 "classmrmeshpy_1_1ConstObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#acc5e90e4cc258301863eaff2df6599bc":[9,1,0,0,2,1035,1,2,4],
 "classmrmeshpy_1_1ConstObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#acc5e90e4cc258301863eaff2df6599bc":[9,1,1,0,1,1035,1,2,4],
 "classmrmeshpy_1_1ConstObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#ad729af1d8ebbb67edde4c813026c0bb4":[9,1,0,0,2,1035,1,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "classmrmeshpy_1_1ConstOutAttributesFillingSettings.html":[9,1,0,0,2,1058],
 "classmrmeshpy_1_1ConstOutAttributesFillingSettings.html":[9,1,1,0,1,1058],
 "classmrmeshpy_1_1ConstOutAttributesFillingSettings.html#a1ef6757ea04bb9c3ae73475275051e49":[9,1,0,0,2,1058,2],
-"classmrmeshpy_1_1ConstOutAttributesFillingSettings.html#a1ef6757ea04bb9c3ae73475275051e49":[9,1,1,0,1,1058,2],
-"classmrmeshpy_1_1ConstOutAttributesFillingSettings.html#a48fd0012a0cb82b4971693cf81ee60f3":[9,1,0,0,2,1058,1],
-"classmrmeshpy_1_1ConstOutAttributesFillingSettings.html#a48fd0012a0cb82b4971693cf81ee60f3":[9,1,1,0,1,1058,1]
+"classmrmeshpy_1_1ConstOutAttributesFillingSettings.html#a1ef6757ea04bb9c3ae73475275051e49":[9,1,1,0,1,1058,2]
 };

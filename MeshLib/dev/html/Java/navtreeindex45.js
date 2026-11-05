@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"classmeshlib_1_1EdgeTri.html#aa1195922ccd0e46f12d3de7365505c2d":[9,6,1,0,0,311,4],
+"classmeshlib_1_1EdgeTri.html#ae9a266769d2340498a32b579f4401bfb":[9,6,0,0,0,311,5],
 "classmeshlib_1_1EdgeTri.html#ae9a266769d2340498a32b579f4401bfb":[9,6,1,0,0,311,5],
 "classmeshlib_1_1EdgeTri.html#aeb53b126d3bb7568e55d09833758ec93":[9,6,0,0,0,311,7],
 "classmeshlib_1_1EdgeTri.html#aeb53b126d3bb7568e55d09833758ec93":[9,6,1,0,0,311,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX45 =
 "classmeshlib_1_1ExtraFormatSettings.html#aaedf5367e9fe6a6ce18b033de0a3595c":[9,6,1,0,0,395,2],
 "classmeshlib_1_1ExtraFormatSettings.html#af6d2fcab2cb954be61e45affd74bfa01":[9,6,0,0,0,395,3],
 "classmeshlib_1_1ExtraFormatSettings.html#af6d2fcab2cb954be61e45affd74bfa01":[9,6,1,0,0,395,3],
-"classmeshlib_1_1ExtremeEdgeType.html":[9,6,0,0,0,396],
-"classmeshlib_1_1ExtremeEdgeType.html":[9,6,1,0,0,396],
-"classmeshlib_1_1ExtremeEdgeType.html#a7884a4aff32fe8f745b4282f6368c8b1":[9,6,0,0,0,396,0]
+"classmeshlib_1_1ExtremeEdgeType.html":[9,6,0,0,0,396]
 };

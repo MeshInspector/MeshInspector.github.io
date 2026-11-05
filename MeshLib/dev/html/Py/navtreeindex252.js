@@ -1,5 +1,7 @@
 var NAVTREEINDEX252 =
 {
+"index.html":[],
+"mrcudapy_8pyi.html":[9,1,2,0,0,1,0,0,0,0],
 "mrmeshnumpy_8pyi.html":[9,1,2,0,0,1,0,0,0,1],
 "mrmeshpy_8pyi.html":[9,1,2,0,0,1,0,0,0,2],
 "mrviewerpy_8pyi.html":[9,1,2,0,0,1,0,0,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX252 =
 "namespacemrmeshpy.html#a0a917e8208f0ee86405582991fb3d52c":[9,1,0,0,2,4049],
 "namespacemrmeshpy.html#a0a965a892d6483f855e51b151bdad45b":[9,1,0,0,2,5333],
 "namespacemrmeshpy.html#a0aaea46b67c00371fa90f277d093ca1c":[9,1,0,0,2,5373],
-"namespacemrmeshpy.html#a0abff8ba847a431c3cfc252463283055":[9,1,0,0,2,4401],
-"namespacemrmeshpy.html#a0ac0b395fcaabc23422b9de105412f37":[9,1,0,0,2,4698],
-"namespacemrmeshpy.html#a0ada4ba58030301ce267d7a42a2b1cce":[9,1,0,0,2,2979]
+"namespacemrmeshpy.html#a0abff8ba847a431c3cfc252463283055":[9,1,0,0,2,4401]
 };

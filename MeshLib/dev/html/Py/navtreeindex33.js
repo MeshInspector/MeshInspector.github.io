@@ -1,5 +1,7 @@
 var NAVTREEINDEX33 =
 {
+"classmrmeshpy_1_1ConstEmbeddedStructureParameters.html#a7618d1070494483f8ecef6976e039f08":[9,1,0,0,2,756,0],
+"classmrmeshpy_1_1ConstEmbeddedStructureParameters.html#a7618d1070494483f8ecef6976e039f08":[9,1,1,0,1,756,0],
 "classmrmeshpy_1_1ConstEmbeddedStructureParameters.html#a86fcbd42daf101a1a6432e225f046575":[9,1,0,0,2,756,7],
 "classmrmeshpy_1_1ConstEmbeddedStructureParameters.html#a86fcbd42daf101a1a6432e225f046575":[9,1,1,0,1,756,7],
 "classmrmeshpy_1_1ConstEmbeddedStructureParameters.html#a96ce2e21b6d931a0b1dc526b7905a05f":[9,1,0,0,2,756,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX33 =
 "classmrmeshpy_1_1ConstFaceDistancesSettings_1_1OutputFaceValues.html#ae17c62d3269c442e93f4c7d870409bf5":[9,1,0,0,2,767,0,11],
 "classmrmeshpy_1_1ConstFaceDistancesSettings_1_1OutputFaceValues.html#ae17c62d3269c442e93f4c7d870409bf5":[9,1,1,0,1,767,0,11],
 "classmrmeshpy_1_1ConstFaceDistancesSettings_1_1OutputFaceValues.html#ae17f980033e1322f06f08fcfffebf090":[9,1,0,0,2,767,0,3],
-"classmrmeshpy_1_1ConstFaceDistancesSettings_1_1OutputFaceValues.html#ae17f980033e1322f06f08fcfffebf090":[9,1,1,0,1,767,0,3],
-"classmrmeshpy_1_1ConstFaceFace.html":[9,1,0,0,2,768],
-"classmrmeshpy_1_1ConstFaceFace.html":[9,1,1,0,1,768]
+"classmrmeshpy_1_1ConstFaceDistancesSettings_1_1OutputFaceValues.html#ae17f980033e1322f06f08fcfffebf090":[9,1,1,0,1,767,0,3]
 };

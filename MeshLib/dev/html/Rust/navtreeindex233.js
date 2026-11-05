@@ -1,5 +1,7 @@
 var NAVTREEINDEX233 =
 {
+"structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#a81a1435a3266f72dabc03851dde6d92c":[9,5,1,0,0,21,5,2],
+"structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#aa798479e7d12c24f1f8dd9e7d63e1f0d":[9,5,0,0,0,34,5,6],
 "structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#aa798479e7d12c24f1f8dd9e7d63e1f0d":[9,5,1,0,0,21,5,6],
 "structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#aa8cbb4d603f935faf55436158700c06b":[9,5,0,0,0,34,5,9],
 "structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#aa8cbb4d603f935faf55436158700c06b":[9,5,1,0,0,21,5,9],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structmeshlib_1_1MoveMeshToVoxelMaxDerivSettings.html#a440b8a131361ab72a50209177a5c4a03":[9,5,0,0,0,640,8],
+"structmeshlib_1_1MoveMeshToVoxelMaxDerivSettings.html#a440b8a131361ab72a50209177a5c4a03":[9,5,1,0,0,627,8],
 "structmeshlib_1_1MoveMeshToVoxelMaxDerivSettings.html#a4aa4f2903fb408ec182ec10b885227be":[9,5,0,0,0,640,11],
 "structmeshlib_1_1MoveMeshToVoxelMaxDerivSettings.html#a4aa4f2903fb408ec182ec10b885227be":[9,5,1,0,0,627,11],
 "structmeshlib_1_1MoveMeshToVoxelMaxDerivSettings.html#a4b7c016c3e9a4bdcac846893df4bd720":[9,5,0,0,0,640,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structmeshlib_1_1MultiwayICPSamplingParameters.html#ad84549ffb551652d8d8991fda4601591":[9,5,0,0,0,647,5],
 "structmeshlib_1_1MultiwayICPSamplingParameters.html#ad84549ffb551652d8d8991fda4601591":[9,5,1,0,0,634,5],
 "structmeshlib_1_1MultiwayICPSamplingParameters.html#ad8ff1241d775fdd41c212ed4982c3fbe":[9,5,0,0,0,647,10],
-"structmeshlib_1_1MultiwayICPSamplingParameters.html#ad8ff1241d775fdd41c212ed4982c3fbe":[9,5,1,0,0,634,10],
-"structmeshlib_1_1MultiwayICPSamplingParameters__CascadeMode.html":[9,5,0,0,0,648],
-"structmeshlib_1_1MultiwayICPSamplingParameters__CascadeMode.html":[9,5,1,0,0,635]
+"structmeshlib_1_1MultiwayICPSamplingParameters.html#ad8ff1241d775fdd41c212ed4982c3fbe":[9,5,1,0,0,634,10]
 };

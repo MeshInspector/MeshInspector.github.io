@@ -1,5 +1,6 @@
 var NAVTREEINDEX146 =
 {
+"classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#aa60734e2f5c7fe0170ee8ddd287f9839":[9,3,0,0,0,1855,10],
 "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#ab1351a466ce68d06c7d282e103b63cb7":[9,3,0,0,0,1855,14],
 "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#abc485bdb27c43307ebd890973c448a63":[9,3,0,0,0,1855,6],
 "classMR_1_1Vector__StdVectorMREdgePoint__MRVertId.html#ac15a8c2dfceae610a88556c34ed75496":[9,3,0,0,0,1855,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX146 =
 "classMR_1_1VertCoords.html#af6def684220720d8468b8e9b7310bd08":[9,3,0,0,0,1865,21],
 "classMR_1_1VertCoords.html#afc0c4940ff9169622bf196e88c4b5e8c":[9,3,0,0,0,1865,14],
 "classMR_1_1VertCoords.html#afc8ec64e6ae89eeb5ce0db95cec31e1d":[9,3,0,0,0,1865,27],
-"classMR_1_1VertCoords2.html":[9,3,0,0,0,1866],
-"classMR_1_1VertCoords2.html#a00ff453ede21fcee30fff01009422284":[9,3,0,0,0,1866,27]
+"classMR_1_1VertCoords2.html":[9,3,0,0,0,1866]
 };

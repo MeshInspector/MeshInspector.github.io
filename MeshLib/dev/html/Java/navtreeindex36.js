@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"classmeshlib_1_1DecimateSettings.html#a2a3056d20ddf80f84e31d88ac6fd276c":[9,6,1,0,0,260,5],
+"classmeshlib_1_1DecimateSettings.html#a32dfb55f2c89422701b6186cfec3b596":[9,6,0,0,0,260,51],
 "classmeshlib_1_1DecimateSettings.html#a32dfb55f2c89422701b6186cfec3b596":[9,6,1,0,0,260,51],
 "classmeshlib_1_1DecimateSettings.html#a40a18c2d453a564a0b6f2e7bf37181e4":[9,6,0,0,0,260,1],
 "classmeshlib_1_1DecimateSettings.html#a40a18c2d453a564a0b6f2e7bf37181e4":[9,6,1,0,0,260,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "classmeshlib_1_1DenoiseViaNormalsSettings.html#ab3c004cc54124e3c99e9ae1ea8d67aab":[9,6,1,0,0,264,1],
 "classmeshlib_1_1DenoiseViaNormalsSettings.html#ab3e8fb89f8b6f176197c440e38db5356":[9,6,0,0,0,264,9],
 "classmeshlib_1_1DenoiseViaNormalsSettings.html#ab3e8fb89f8b6f176197c440e38db5356":[9,6,1,0,0,264,9],
-"classmeshlib_1_1DenoiseViaNormalsSettings.html#abbdaba782e93403465f5871e73fb1d7d":[9,6,0,0,0,264,15],
-"classmeshlib_1_1DenoiseViaNormalsSettings.html#abbdaba782e93403465f5871e73fb1d7d":[9,6,1,0,0,264,15],
-"classmeshlib_1_1DenoiseViaNormalsSettings.html#ac23dfa1eaf95d203b89a6786949fad5b":[9,6,0,0,0,264,20]
+"classmeshlib_1_1DenoiseViaNormalsSettings.html#abbdaba782e93403465f5871e73fb1d7d":[9,6,0,0,0,264,15]
 };

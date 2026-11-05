@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1Const__FaceMap.html#a7fb3cf9e38bc050497c2476fe8ac7563":[9,3,0,0,0,452,3],
 "classMR_1_1Const__FaceMap.html#a8cc1c2782509850a3b312d8c52c771e6":[9,3,0,0,0,452,10],
 "classMR_1_1Const__FaceMap.html#a904a0057b7b9ca1400a314e18b5f0c5b":[9,3,0,0,0,452,6],
 "classMR_1_1Const__FaceMap.html#aa871358da1b1777b8096b185a9cad8cd":[9,3,0,0,0,452,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html#a65ff99477641c3a1bad77a10807a2d30":[9,3,0,0,0,463,6],
 "classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html#a76dfa75db781059e76357ccacd0cd010":[9,3,0,0,0,463,4],
 "classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html#ab8d141144a19687526506effe647f1c8":[9,3,0,0,0,463,7],
-"classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html#abf701d7538ddbefdeea86c1732d73ba9":[9,3,0,0,0,463,8],
-"classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html#ad683cc7a5bff1147794209688bff124c":[9,3,0,0,0,463,1]
+"classMR_1_1Const__FewSmallest__MRPointsProjectionResult.html#abf701d7538ddbefdeea86c1732d73ba9":[9,3,0,0,0,463,8]
 };

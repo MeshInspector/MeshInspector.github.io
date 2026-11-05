@@ -7,6 +7,7 @@ var structmeshlib_1_1Color =
     [ "get_u_int32", "structmeshlib_1_1Color.html#a29d4b0df27bc8774a9f4110af73639da", null ],
     [ "index", "structmeshlib_1_1Color.html#a1ab6dd8bdb9d4ac78a11b61d7b76eddb", null ],
     [ "index_mut", "structmeshlib_1_1Color.html#a80c3af14b4d2dd8b6a83dce4f6435ab1", null ],
+    [ "is_translucent", "structmeshlib_1_1Color.html#a30ca6a08087588d0abcf7e7ec13ccdc2", null ],
     [ "mul_assign", "structmeshlib_1_1Color.html#ab229c295edf9f66f2d81810ec19c5de8", null ],
     [ "scaled_alpha", "structmeshlib_1_1Color.html#a5c7edc53ece5e56bf85431f5afab1c33", null ],
     [ "sub_assign", "structmeshlib_1_1Color.html#a1899d585ac107fae2359026aba5da537", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"MRCylinderObject_8h.html#aab8434abd747c9ae99500e30fc89a22b":[9,2,2,0,0,0,0,1,71,76],
 "MRCylinderObject_8h.html#aad07d6882ffdd0760272ed3ec5ec5414":[9,2,2,0,0,0,0,1,71,6],
 "MRCylinderObject_8h.html#aaee6a116bbc1b43ac30a602d5b738bb2":[9,2,2,0,0,0,0,1,71,56],
 "MRCylinderObject_8h.html#ab245bce56fc502f9d9da37197daec027":[9,2,2,0,0,0,0,1,71,66],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "MRDistanceMapParams_8h.html#a20641c296a854171ffca0e1334e8a422":[9,2,2,0,0,0,0,1,79,0],
 "MRDistanceMapParams_8h.html#a2219666631bb51e05bc99feb16017913":[9,2,2,0,0,0,0,1,79,14],
 "MRDistanceMapParams_8h.html#a230c7a2eb5d8a8c21d62ddde3656f6d6":[9,2,2,0,0,0,0,1,79,64],
-"MRDistanceMapParams_8h.html#a23a8281d17166ddeaa23ea0f12acfd80":[9,2,2,0,0,0,0,1,79,90],
-"MRDistanceMapParams_8h.html#a23f638b92cdd36ff4b313f363b5c1285":[9,2,2,0,0,0,0,1,79,81]
+"MRDistanceMapParams_8h.html#a23a8281d17166ddeaa23ea0f12acfd80":[9,2,2,0,0,0,0,1,79,90]
 };

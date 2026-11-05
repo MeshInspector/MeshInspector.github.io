@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"structmeshlib_1_1ConstChildren.html#a6ff26f7451fac958a2aecc46a2201683":[9,5,0,0,0,223,0],
+"structmeshlib_1_1ConstChildren.html#a6ff26f7451fac958a2aecc46a2201683":[9,5,1,0,0,210,0],
 "structmeshlib_1_1ConstChildren__Iterator.html":[9,5,0,0,0,224],
 "structmeshlib_1_1ConstChildren__Iterator.html":[9,5,1,0,0,211],
 "structmeshlib_1_1ConstChildren__Iterator.html#a30396bef0b4bca13828015f2018867ae":[9,5,0,0,0,224,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "structmeshlib_1_1ContoursMeshAlignParams.html#a7b8667ed7a7c56d92f7301c97c696bfa":[9,5,0,0,0,229,2],
 "structmeshlib_1_1ContoursMeshAlignParams.html#a7b8667ed7a7c56d92f7301c97c696bfa":[9,5,1,0,0,216,2],
 "structmeshlib_1_1ContoursMeshAlignParams.html#a82bfd1f81a9ae9385af9f753c0868ffb":[9,5,0,0,0,229,18],
-"structmeshlib_1_1ContoursMeshAlignParams.html#a82bfd1f81a9ae9385af9f753c0868ffb":[9,5,1,0,0,216,18],
-"structmeshlib_1_1ContoursMeshAlignParams.html#a8920b3cbab9cc57fbe788a2f68148190":[9,5,0,0,0,229,14],
-"structmeshlib_1_1ContoursMeshAlignParams.html#a8920b3cbab9cc57fbe788a2f68148190":[9,5,1,0,0,216,14]
+"structmeshlib_1_1ContoursMeshAlignParams.html#a82bfd1f81a9ae9385af9f753c0868ffb":[9,5,1,0,0,216,18]
 };

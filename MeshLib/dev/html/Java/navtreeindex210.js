@@ -1,5 +1,7 @@
 var NAVTREEINDEX210 =
 {
+"classmeshlib_1_1std__pair__MR__GraphEdgeId__float.html#ab4517f557fabf5e2c6d916cd26dc40fe":[9,6,1,0,0,1137,3],
+"classmeshlib_1_1std__pair__MR__GraphEdgeId__float.html#ade9c68a0ec2a6d104d384690a6d5296f":[9,6,0,0,0,1137,2],
 "classmeshlib_1_1std__pair__MR__GraphEdgeId__float.html#ade9c68a0ec2a6d104d384690a6d5296f":[9,6,1,0,0,1137,2],
 "classmeshlib_1_1std__pair__MR__Polyline2__MR__AffineXf3f.html":[9,6,0,0,0,1138],
 "classmeshlib_1_1std__pair__MR__Polyline2__MR__AffineXf3f.html":[9,6,1,0,0,1138],
@@ -247,7 +249,5 @@ var NAVTREEINDEX210 =
 "classmeshlib_1_1std__pair__const__MR__FaceId__MR__FaceId.html#a4189a27564129efc090dca217650532a":[9,6,1,0,0,1107,2],
 "classmeshlib_1_1std__pair__const__MR__FaceId__MR__FaceId.html#a6abf2ee97b9639f6a40a8eae82e7247b":[9,6,0,0,0,1107,6],
 "classmeshlib_1_1std__pair__const__MR__FaceId__MR__FaceId.html#a6abf2ee97b9639f6a40a8eae82e7247b":[9,6,1,0,0,1107,6],
-"classmeshlib_1_1std__pair__const__MR__FaceId__MR__FaceId.html#ac2beb5cdd4ba45e1ed5ae1e0150ef54d":[9,6,0,0,0,1107,4],
-"classmeshlib_1_1std__pair__const__MR__FaceId__MR__FaceId.html#ac2beb5cdd4ba45e1ed5ae1e0150ef54d":[9,6,1,0,0,1107,4],
-"classmeshlib_1_1std__pair__const__MR__FaceId__MR__FaceId.html#aef6b8f2a4c240f51b436ba3b20a89110":[9,6,0,0,0,1107,5]
+"classmeshlib_1_1std__pair__const__MR__FaceId__MR__FaceId.html#ac2beb5cdd4ba45e1ed5ae1e0150ef54d":[9,6,0,0,0,1107,4]
 };

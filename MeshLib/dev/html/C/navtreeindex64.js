@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"MRMeshMetrics_8h.html#afbae1e0b178e7bbcf5d536de0dbc2b66":[9,2,2,0,0,0,0,1,195,20],
 "MRMeshMetrics_8h_source.html":[9,2,2,0,0,0,0,1,195],
 "MRMeshNormals_8h.html":[9,2,2,0,0,0,0,1,196],
 "MRMeshNormals_8h.html#a1b20e1e97a8d6b5bc3ecf420c4386e51":[9,2,2,0,0,0,0,1,196,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "MRMeshProject_8h.html#ac6983c32da16927610ad230a75ce13ad":[9,2,2,0,0,0,0,1,202,54],
 "MRMeshProject_8h.html#ac6b760b644e0b610039a1102b61e5517":[9,2,2,0,0,0,0,1,202,2],
 "MRMeshProject_8h.html#acd428556b767df98edc38706ca344267":[9,2,2,0,0,0,0,1,202,55],
-"MRMeshProject_8h.html#acdbb0246eb7ca7c3ca9e5c204ce338e5":[9,2,2,0,0,0,0,1,202,16],
-"MRMeshProject_8h.html#ae0bd290e8c178e3694343fad2d0cb230":[9,2,2,0,0,0,0,1,202,6]
+"MRMeshProject_8h.html#acdbb0246eb7ca7c3ca9e5c204ce338e5":[9,2,2,0,0,0,0,1,202,16]
 };

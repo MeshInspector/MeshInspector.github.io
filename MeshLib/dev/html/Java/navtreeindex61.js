@@ -1,5 +1,7 @@
 var NAVTREEINDEX61 =
 {
+"classmeshlib_1_1IntersectionPrecomputes__float.html#a09573e3da77172bff1981a4a30b71c80":[9,6,1,0,0,510,5],
+"classmeshlib_1_1IntersectionPrecomputes__float.html#a21e063dcaa3ccc637b5a09ef0b7f10dd":[9,6,0,0,0,510,3],
 "classmeshlib_1_1IntersectionPrecomputes__float.html#a21e063dcaa3ccc637b5a09ef0b7f10dd":[9,6,1,0,0,510,3],
 "classmeshlib_1_1IntersectionPrecomputes__float.html#a22af5aa99f34113b3516f600a8ec517d":[9,6,0,0,0,510,12],
 "classmeshlib_1_1IntersectionPrecomputes__float.html#a22af5aa99f34113b3516f600a8ec517d":[9,6,1,0,0,510,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#a9d29d4fe1722936e074e2c06074fb9df":[9,6,1,0,0,532,7],
 "classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#ae3f6d212e9ea71530ea711e4e3d13ce0":[9,6,0,0,0,532,5],
 "classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#ae3f6d212e9ea71530ea711e4e3d13ce0":[9,6,1,0,0,532,5],
-"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#ae7251341374cd3ad40db4b32955fd05a":[9,6,0,0,0,532,6],
-"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#ae7251341374cd3ad40db4b32955fd05a":[9,6,1,0,0,532,6],
-"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#af414c5bbaeb76a5a17b4e80fb4e53aab":[9,6,0,0,0,532,2]
+"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#ae7251341374cd3ad40db4b32955fd05a":[9,6,0,0,0,532,6]
 };

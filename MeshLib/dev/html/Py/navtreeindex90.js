@@ -1,5 +1,7 @@
 var NAVTREEINDEX90 =
 {
+"classmrmeshpy_1_1ConstVolumeSegmenter_1_1SeedType.html#aade4263d05cc8572c13f07d717f2969f":[9,1,0,0,2,1393,0,7],
+"classmrmeshpy_1_1ConstVolumeSegmenter_1_1SeedType.html#aade4263d05cc8572c13f07d717f2969f":[9,1,1,0,1,1393,0,7],
 "classmrmeshpy_1_1ConstVolumeToMeshByPartsSettings.html":[9,1,0,0,2,1394],
 "classmrmeshpy_1_1ConstVolumeToMeshByPartsSettings.html":[9,1,1,0,1,1394],
 "classmrmeshpy_1_1ConstVolumeToMeshByPartsSettings.html#a157ba147eec90594cbb811cadc97e2c5":[9,1,0,0,2,1394,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX90 =
 "classmrmeshpy_1_1ConstWatershedGraph.html#a058add2ebdad20f996cf9b4f4da866b3":[9,1,0,0,2,1414,10],
 "classmrmeshpy_1_1ConstWatershedGraph.html#a058add2ebdad20f996cf9b4f4da866b3":[9,1,1,0,1,1414,10],
 "classmrmeshpy_1_1ConstWatershedGraph.html#a198c53fc48d0df26ff19721e28d87df7":[9,1,0,0,2,1414,15],
-"classmrmeshpy_1_1ConstWatershedGraph.html#a198c53fc48d0df26ff19721e28d87df7":[9,1,1,0,1,1414,15],
-"classmrmeshpy_1_1ConstWatershedGraph.html#a1d557b0e04fa90b124fc9609211af472":[9,1,0,0,2,1414,24],
-"classmrmeshpy_1_1ConstWatershedGraph.html#a1d557b0e04fa90b124fc9609211af472":[9,1,1,0,1,1414,24]
+"classmrmeshpy_1_1ConstWatershedGraph.html#a198c53fc48d0df26ff19721e28d87df7":[9,1,1,0,1,1414,15]
 };

@@ -20,6 +20,7 @@ var classmeshlib_1_1Color =
     [ "getUInt32", "classmeshlib_1_1Color.html#ab3c2dc411d45d8b2b765ba06afc05623", null ],
     [ "index", "classmeshlib_1_1Color.html#a1a61cc6e3b57b333606b9b41ef3fe2d8", null ],
     [ "index_mut", "classmeshlib_1_1Color.html#a09960b2836183128269461d8b5ccbf48", null ],
+    [ "isTranslucent", "classmeshlib_1_1Color.html#a1722e69007c5beb2852afceea1e1984c", null ],
     [ "mul_assign", "classmeshlib_1_1Color.html#a1d0373403463ec4e1b4516e3458a67fe", null ],
     [ "r", "classmeshlib_1_1Color.html#abe3cca89b68a259d8bf6077e22b014dc", null ],
     [ "scaledAlpha", "classmeshlib_1_1Color.html#a7d88ad77bd41a381a3795d29665d5ea6", null ],

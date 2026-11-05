@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#ae7251341374cd3ad40db4b32955fd05a":[9,6,1,0,0,532,6],
+"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#af414c5bbaeb76a5a17b4e80fb4e53aab":[9,6,0,0,0,532,2],
 "classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#af414c5bbaeb76a5a17b4e80fb4e53aab":[9,6,1,0,0,532,2],
 "classmeshlib_1_1LabelVisualizePropertyType.html":[9,6,0,0,0,533],
 "classmeshlib_1_1LabelVisualizePropertyType.html":[9,6,1,0,0,533],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "classmeshlib_1_1Line3d.html#aa730c16c0fe5a921db092b81c59557f8":[9,6,1,0,0,539,5],
 "classmeshlib_1_1Line3d.html#abfd77ad8cd677fdbe48e49f702d47db1":[9,6,0,0,0,539,6],
 "classmeshlib_1_1Line3d.html#abfd77ad8cd677fdbe48e49f702d47db1":[9,6,1,0,0,539,6],
-"classmeshlib_1_1Line3d.html#aca6ddba4c280a63a86c34ef406fb7c56":[9,6,0,0,0,539,9],
-"classmeshlib_1_1Line3d.html#aca6ddba4c280a63a86c34ef406fb7c56":[9,6,1,0,0,539,9],
-"classmeshlib_1_1Line3d.html#ade9c8fb4402cd0046bd33b22ac619029":[9,6,0,0,0,539,8]
+"classmeshlib_1_1Line3d.html#aca6ddba4c280a63a86c34ef406fb7c56":[9,6,0,0,0,539,9]
 };

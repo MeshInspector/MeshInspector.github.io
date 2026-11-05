@@ -1,5 +1,7 @@
 var NAVTREEINDEX187 =
 {
+"classmrmeshpy_1_1SliceInfo.html#ab1d5294febe6234a1817f7905dd87e5f":[9,1,0,0,2,2120,4],
+"classmrmeshpy_1_1SliceInfo.html#ab1d5294febe6234a1817f7905dd87e5f":[9,1,1,0,1,2120,4],
 "classmrmeshpy_1_1SliceInfoBase.html":[9,1,0,0,2,2121],
 "classmrmeshpy_1_1SliceInfoBase.html":[9,1,1,0,1,2121],
 "classmrmeshpy_1_1SliceInfoBase.html#a0b5d54c5e214c4b4808bcdb53585e9f6":[9,1,0,0,2,2121,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX187 =
 "classmrmeshpy_1_1SphereParams.html#ae6b50bdc3ef2e6a5d0f4462cd6b61b50":[9,1,0,0,2,2133,1],
 "classmrmeshpy_1_1SphereParams.html#ae6b50bdc3ef2e6a5d0f4462cd6b61b50":[9,1,1,0,1,2133,1],
 "classmrmeshpy_1_1SplineSettings.html":[9,1,0,0,2,2134],
-"classmrmeshpy_1_1SplineSettings.html":[9,1,1,0,1,2134],
-"classmrmeshpy_1_1SplineSettings.html#a0954a0ddebdc1f1f133480857200b49f":[9,1,0,0,2,2134,4],
-"classmrmeshpy_1_1SplineSettings.html#a0954a0ddebdc1f1f133480857200b49f":[9,1,1,0,1,2134,4]
+"classmrmeshpy_1_1SplineSettings.html":[9,1,1,0,1,2134]
 };

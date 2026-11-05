@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1Const__GeodesicPath.html#a1e33d1ccd63e690ba4cad14240d27c8f":[9,3,0,0,0,487,9],
 "classMR_1_1Const__GeodesicPath.html#a513fa9ae6041ed2925d0f9924aa6bdc6":[9,3,0,0,0,487,7],
 "classMR_1_1Const__GeodesicPath.html#a7bf955b81c1a402a9cb45b9d6e1fad49":[9,3,0,0,0,487,2],
 "classMR_1_1Const__GeodesicPath.html#a7dc22cedf755b785cfb074c38d5f795e":[9,3,0,0,0,487,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "classMR_1_1Const__HexPalette.html#ad22dd6871dcb23af475f20504dde5754":[9,3,0,0,0,494,15],
 "classMR_1_1Const__HexPalette.html#ad31225f5dafd5a7db2a77153e53d6346":[9,3,0,0,0,494,4],
 "classMR_1_1Const__HexPalette.html#af7bd7833da76beff9c02265f4bc9ccea":[9,3,0,0,0,494,9],
-"classMR_1_1Const__Histogram.html":[9,3,0,0,0,495],
-"classMR_1_1Const__Histogram.html#a29fe1d11ab3ce4b361e11f9d9037f934":[9,3,0,0,0,495,2]
+"classMR_1_1Const__Histogram.html":[9,3,0,0,0,495]
 };

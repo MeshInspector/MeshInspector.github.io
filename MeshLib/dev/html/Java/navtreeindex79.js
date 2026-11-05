@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"classmeshlib_1_1MeshTopology.html#ad1dd40bf593d5ec6af4b8fb0b28e8505":[9,6,1,0,0,632,120],
+"classmeshlib_1_1MeshTopology.html#ad47653f600fca8cfe79fd3c81c4bb495":[9,6,0,0,0,632,59],
 "classmeshlib_1_1MeshTopology.html#ad47653f600fca8cfe79fd3c81c4bb495":[9,6,1,0,0,632,59],
 "classmeshlib_1_1MeshTopology.html#ad6d77e96dd5c31d94620be5a7c9e5100":[9,6,0,0,0,632,129],
 "classmeshlib_1_1MeshTopology.html#ad6d77e96dd5c31d94620be5a7c9e5100":[9,6,1,0,0,632,129],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "classmeshlib_1_1MetricToAStarPenalty.html#a57665f1dc9f1d1c257cc9b604487e8f1":[9,6,1,0,0,641,1],
 "classmeshlib_1_1MetricToAStarPenalty.html#a5f519290b64eb9488c9b2494c27afd4e":[9,6,0,0,0,641,6],
 "classmeshlib_1_1MetricToAStarPenalty.html#a5f519290b64eb9488c9b2494c27afd4e":[9,6,1,0,0,641,6],
-"classmeshlib_1_1MetricToAStarPenalty.html#a7b46eec8662664aab46a4ca9cb9291c2":[9,6,0,0,0,641,3],
-"classmeshlib_1_1MetricToAStarPenalty.html#a7b46eec8662664aab46a4ca9cb9291c2":[9,6,1,0,0,641,3],
-"classmeshlib_1_1MetricToAStarPenalty.html#a9de0993ea10069a27d33b127c460e4ea":[9,6,0,0,0,641,4]
+"classmeshlib_1_1MetricToAStarPenalty.html#a7b46eec8662664aab46a4ca9cb9291c2":[9,6,0,0,0,641,3]
 };

@@ -13,6 +13,7 @@ var classmrmeshpy_1_1ConstColor =
     [ "b", "classmrmeshpy_1_1ConstColor.html#ac8a0b4409e5a36e42734665029b91d51", null ],
     [ "g", "classmrmeshpy_1_1ConstColor.html#a06607b1422f6f23f4ddce8d56710405c", null ],
     [ "getUInt32", "classmrmeshpy_1_1ConstColor.html#a9ecc489aa5d6f797f6c8e6e375c68ee6", null ],
+    [ "isTranslucent", "classmrmeshpy_1_1ConstColor.html#a5f6341d2d80edba0fe4d9e4bdc6f73db", null ],
     [ "r", "classmrmeshpy_1_1ConstColor.html#a12f841a3be2db121b5deadbe32eb6529", null ],
     [ "scaledAlpha", "classmrmeshpy_1_1ConstColor.html#a4e23a77a25cf5ae280997b2f92b1edae", null ]
 ];

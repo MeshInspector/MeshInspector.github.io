@@ -1,5 +1,7 @@
 var NAVTREEINDEX243 =
 {
+"classmrmeshpy_1_1std__vector__VarEdgeTri__Allocator__VarEdgeTri.html#a5fc20f437491b6e37ff121f209519462":[9,1,0,0,2,2356,11],
+"classmrmeshpy_1_1std__vector__VarEdgeTri__Allocator__VarEdgeTri.html#a5fc20f437491b6e37ff121f209519462":[9,1,1,0,1,2356,11],
 "classmrmeshpy_1_1std__vector__VarEdgeTri__Allocator__VarEdgeTri.html#a6563864cf7a706639812ebd8c9652173":[9,1,0,0,2,2356,4],
 "classmrmeshpy_1_1std__vector__VarEdgeTri__Allocator__VarEdgeTri.html#a6563864cf7a706639812ebd8c9652173":[9,1,1,0,1,2356,4],
 "classmrmeshpy_1_1std__vector__VarEdgeTri__Allocator__VarEdgeTri.html#a69ddc162c93d1e8460e45a10bbd52ae9":[9,1,0,0,2,2356,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX243 =
 "classmrmeshpy_1_1std__vector__Vector3__int__Allocator__Vector3__int.html#aea875e427f7333759c4ffe86d303d4bf":[9,1,0,0,2,2365,6],
 "classmrmeshpy_1_1std__vector__Vector3__int__Allocator__Vector3__int.html#aea875e427f7333759c4ffe86d303d4bf":[9,1,1,0,1,2365,6],
 "classmrmeshpy_1_1std__vector__Vector3__int__Allocator__Vector3__int.html#aeb203a6d1a29b361875aefe03269d379":[9,1,0,0,2,2365,3],
-"classmrmeshpy_1_1std__vector__Vector3__int__Allocator__Vector3__int.html#aeb203a6d1a29b361875aefe03269d379":[9,1,1,0,1,2365,3],
-"classmrmeshpy_1_1std__vector__Vector3__int__Allocator__Vector3__int.html#affbd31d9477dbb94109ba12e49ed713a":[9,1,0,0,2,2365,8],
-"classmrmeshpy_1_1std__vector__Vector3__int__Allocator__Vector3__int.html#affbd31d9477dbb94109ba12e49ed713a":[9,1,1,0,1,2365,8]
+"classmrmeshpy_1_1std__vector__Vector3__int__Allocator__Vector3__int.html#aeb203a6d1a29b361875aefe03269d379":[9,1,1,0,1,2365,3]
 };

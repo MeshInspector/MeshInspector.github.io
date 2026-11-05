@@ -158,6 +158,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab229c295edf9f66f2d81810ec19c5de8" id="r_ab229c295edf9f66f2d81810ec19c5de8"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab229c295edf9f66f2d81810ec19c5de8">mul_assign</a> (m:f32) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1Color.html">meshlib::Color</a></td></tr>
 <tr class="memitem:a92f2430edacdf161af0cb80a01a6c422" id="r_a92f2430edacdf161af0cb80a01a6c422"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92f2430edacdf161af0cb80a01a6c422">div_assign</a> (m:f32) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1Color.html">meshlib::Color</a></td></tr>
 <tr class="memitem:a5c7edc53ece5e56bf85431f5afab1c33" id="r_a5c7edc53ece5e56bf85431f5afab1c33"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c7edc53ece5e56bf85431f5afab1c33">scaled_alpha</a> (m:f32) const -&gt; <a class="el" href="structmeshlib_1_1Color.html">meshlib::Color</a></td></tr>
+<tr class="memitem:a30ca6a08087588d0abcf7e7ec13ccdc2" id="r_a30ca6a08087588d0abcf7e7ec13ccdc2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30ca6a08087588d0abcf7e7ec13ccdc2">is_translucent</a> () const -&gt; bool</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -693,6 +694,25 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::Color::operator[]</span>.</p>
 <p>Calls <span class="tt">MR_Color_index_mut()</span>. </p>
+
+</div>
+</div>
+<a id="a30ca6a08087588d0abcf7e7ec13ccdc2" name="a30ca6a08087588d0abcf7e7ec13ccdc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30ca6a08087588d0abcf7e7ec13ccdc2">&#9670;&#160;</a></span>is_translucent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::Color::is_translucent </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if the color is neither fully opaque nor fully transparent, so it has to be blended with the colors behind Generated from method <span class="tt">MR::Color::isTranslucent</span>.</p>
+<p>Calls <span class="tt">MR_Color_isTranslucent()</span>. </p>
 
 </div>
 </div>

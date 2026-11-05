@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"classmeshlib_1_1FewSmallest__MR__PointsProjectionResult.html#ac8782071ada59c2528cae682668eedab":[9,6,1,0,0,421,13],
+"classmeshlib_1_1FewSmallest__MR__PointsProjectionResult.html#af376263fdeff3cc207e04c88317c325b":[9,6,0,0,0,421,5],
 "classmeshlib_1_1FewSmallest__MR__PointsProjectionResult.html#af376263fdeff3cc207e04c88317c325b":[9,6,1,0,0,421,5],
 "classmeshlib_1_1FewSmallest__MR__PointsProjectionResult.html#af7903857fb67f5efa51b2bb2d7186d46":[9,6,0,0,0,421,3],
 "classmeshlib_1_1FewSmallest__MR__PointsProjectionResult.html#af7903857fb67f5efa51b2bb2d7186d46":[9,6,1,0,0,421,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "classmeshlib_1_1FindOutliersParams.html#a20407024da66655cff430545cedcb563":[9,6,1,0,0,433,9],
 "classmeshlib_1_1FindOutliersParams.html#a318da504e0ecaba6ddb8dcb7eb6d1afb":[9,6,0,0,0,433,4],
 "classmeshlib_1_1FindOutliersParams.html#a318da504e0ecaba6ddb8dcb7eb6d1afb":[9,6,1,0,0,433,4],
-"classmeshlib_1_1FindOutliersParams.html#a33c860d63982c968362b903b0f65ca5c":[9,6,0,0,0,433,8],
-"classmeshlib_1_1FindOutliersParams.html#a33c860d63982c968362b903b0f65ca5c":[9,6,1,0,0,433,8],
-"classmeshlib_1_1FindOutliersParams.html#a3d77e01104f1b541c343b4c0b1c18c9c":[9,6,0,0,0,433,10]
+"classmeshlib_1_1FindOutliersParams.html#a33c860d63982c968362b903b0f65ca5c":[9,6,0,0,0,433,8]
 };

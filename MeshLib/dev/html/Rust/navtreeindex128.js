@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"structmeshlib_1_1SurfaceDistanceBuilder.html#a6ec2173b9b093615a87c7f87c8af5ccb":[9,5,1,0,0,1445,7],
+"structmeshlib_1_1SurfaceDistanceBuilder.html#ab4f81ad89eafbe57d11530f9ed17bf17":[9,5,0,0,0,1458,0],
 "structmeshlib_1_1SurfaceDistanceBuilder.html#ab4f81ad89eafbe57d11530f9ed17bf17":[9,5,1,0,0,1445,0],
 "structmeshlib_1_1SurfaceDistanceBuilder.html#abdf7835a1ea052b2ba923b3bbd2b03e6":[9,5,0,0,0,1458,3],
 "structmeshlib_1_1SurfaceDistanceBuilder.html#abdf7835a1ea052b2ba923b3bbd2b03e6":[9,5,1,0,0,1445,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "structmeshlib_1_1SymMatrix3__unsigned__char.html#a5d071b60b9cdd67a88a7be0c35266e04":[9,5,1,0,0,1452,0],
 "structmeshlib_1_1SymMatrix3__unsigned__char.html#a5dad0b3aefafcaccfe7ba92278653d50":[9,5,0,0,0,1465,23],
 "structmeshlib_1_1SymMatrix3__unsigned__char.html#a5dad0b3aefafcaccfe7ba92278653d50":[9,5,1,0,0,1452,23],
-"structmeshlib_1_1SymMatrix3__unsigned__char.html#a7041b832c1afc45987b5b265ab3add13":[9,5,0,0,0,1465,5],
-"structmeshlib_1_1SymMatrix3__unsigned__char.html#a7041b832c1afc45987b5b265ab3add13":[9,5,1,0,0,1452,5],
-"structmeshlib_1_1SymMatrix3__unsigned__char.html#a7b9c29a6cb58a4021a6c4bd8da98677c":[9,5,0,0,0,1465,1]
+"structmeshlib_1_1SymMatrix3__unsigned__char.html#a7041b832c1afc45987b5b265ab3add13":[9,5,0,0,0,1465,5]
 };

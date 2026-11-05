@@ -20,6 +20,7 @@ var classMR_1_1ConstBox__Color =
     [ "getUInt32", "classMR_1_1ConstBox__Color.html#a03d37d19306f0ea7b284cda0ec8a8317", null ],
     [ "gray", "classMR_1_1ConstBox__Color.html#a4ad6500925ff2a50371623c5d9e40347", null ],
     [ "green", "classMR_1_1ConstBox__Color.html#a04d8526ffe16b0248e091c5fcbb7fbf5", null ],
+    [ "isTranslucent", "classMR_1_1ConstBox__Color.html#abcb6ef57df33eea46c64b4cdfe51bb95", null ],
     [ "operator ConstBox_Color", "classMR_1_1ConstBox__Color.html#a85ef1b7bc6d0c839d80c12e16cfb2938", null ],
     [ "operator MR.Vector4f", "classMR_1_1ConstBox__Color.html#a2a7481ddf6f69a0bcf3db1c3a88e72e6", null ],
     [ "operator MR.Vector4i", "classMR_1_1ConstBox__Color.html#a50aee984f74690885827637ccc5b25e0", null ],

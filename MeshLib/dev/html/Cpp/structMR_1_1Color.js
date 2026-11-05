@@ -9,6 +9,7 @@ var structMR_1_1Color =
     [ "Color", "group__GeneralGroup.html#ga2879fe1d429706d60bf61dba5073b28d", null ],
     [ "Color", "group__GeneralGroup.html#gaeb10dfddd28274eab02133fe4bfb2f61", null ],
     [ "getUInt32", "group__GeneralGroup.html#ga97a5b103a46bec5a9f09026fb693bb67", null ],
+    [ "isTranslucent", "group__GeneralGroup.html#ga39040f519f18ff77f1a2822e30fca697", null ],
     [ "operator Vector4< T >", "group__GeneralGroup.html#ga81bd34e112d9fcde01fd52f922966f2f", null ],
     [ "operator*=", "group__GeneralGroup.html#gaec1e7daf3ecd5715157f118516cf17c7", null ],
     [ "operator+=", "group__GeneralGroup.html#ga91d690a2375168d047a346239b7c38b7", null ],

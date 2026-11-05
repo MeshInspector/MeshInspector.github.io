@@ -1,5 +1,7 @@
 var NAVTREEINDEX137 =
 {
+"structmeshlib_1_1TrivialMetricToPenalty.html#a1ba7ad2162e30aa98283c33cbe63c14b":[9,5,1,0,0,1499,1],
+"structmeshlib_1_1TrivialMetricToPenalty.html#a57fcc3d769605d06e00e45bf8f949d78":[9,5,0,0,0,1512,0],
 "structmeshlib_1_1TrivialMetricToPenalty.html#a57fcc3d769605d06e00e45bf8f949d78":[9,5,1,0,0,1499,0],
 "structmeshlib_1_1TunnelLoopType.html":[9,5,0,0,0,1513],
 "structmeshlib_1_1TunnelLoopType.html":[9,5,1,0,0,1500],
@@ -247,7 +249,5 @@ var NAVTREEINDEX137 =
 "structmeshlib_1_1UndirectedEdge2RegionMap.html#a10044e82fcdc669b143039558d713007":[9,5,1,0,0,1507,27],
 "structmeshlib_1_1UndirectedEdge2RegionMap.html#a1157ef312fb5a82ed12ba529dd033022":[9,5,0,0,0,1520,20],
 "structmeshlib_1_1UndirectedEdge2RegionMap.html#a1157ef312fb5a82ed12ba529dd033022":[9,5,1,0,0,1507,20],
-"structmeshlib_1_1UndirectedEdge2RegionMap.html#a1737d9fa89883ea0fc2ae6ea23c16d91":[9,5,0,0,0,1520,35],
-"structmeshlib_1_1UndirectedEdge2RegionMap.html#a1737d9fa89883ea0fc2ae6ea23c16d91":[9,5,1,0,0,1507,35],
-"structmeshlib_1_1UndirectedEdge2RegionMap.html#a186f06ff4caf36c7456ddf9a12a13f3e":[9,5,0,0,0,1520,21]
+"structmeshlib_1_1UndirectedEdge2RegionMap.html#a1737d9fa89883ea0fc2ae6ea23c16d91":[9,5,0,0,0,1520,35]
 };

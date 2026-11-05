@@ -1,5 +1,7 @@
 var NAVTREEINDEX122 =
 {
+"classmrmeshpy_1_1DeloneSettings.html#a9308e498908d9d830f3e315ed6a867b0":[9,1,0,0,2,1454,5],
+"classmrmeshpy_1_1DeloneSettings.html#a9308e498908d9d830f3e315ed6a867b0":[9,1,1,0,1,1454,5],
 "classmrmeshpy_1_1DeloneSettings.html#aa08178988f1e7304096ad7e641b0f91d":[9,1,0,0,2,1454,9],
 "classmrmeshpy_1_1DeloneSettings.html#aa08178988f1e7304096ad7e641b0f91d":[9,1,1,0,1,1454,9],
 "classmrmeshpy_1_1DeloneSettings.html#aa662d4eefaa2c6b5d738af583329ed02":[9,1,0,0,2,1454,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX122 =
 "classmrmeshpy_1_1Dipole.html#a5f5bb17e0639f087aaa079327c8805ad":[9,1,0,0,2,1463,8],
 "classmrmeshpy_1_1Dipole.html#a5f5bb17e0639f087aaa079327c8805ad":[9,1,1,0,1,1463,8],
 "classmrmeshpy_1_1Dipole.html#a7dff36901478649c62a1a4c8a3a19718":[9,1,0,0,2,1463,2],
-"classmrmeshpy_1_1Dipole.html#a7dff36901478649c62a1a4c8a3a19718":[9,1,1,0,1,1463,2],
-"classmrmeshpy_1_1Dipole.html#a9482818b282291d8e0272d768b1ae896":[9,1,0,0,2,1463,7],
-"classmrmeshpy_1_1Dipole.html#a9482818b282291d8e0272d768b1ae896":[9,1,1,0,1,1463,7]
+"classmrmeshpy_1_1Dipole.html#a7dff36901478649c62a1a4c8a3a19718":[9,1,1,0,1,1463,2]
 };

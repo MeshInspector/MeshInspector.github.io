@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"classmrmeshpy_1_1ConstCutAroundVertSetsParams.html#a090d4d1e234331319a6caf7698448b72":[9,1,0,0,2,702,1],
+"classmrmeshpy_1_1ConstCutAroundVertSetsParams.html#a090d4d1e234331319a6caf7698448b72":[9,1,1,0,1,702,1],
 "classmrmeshpy_1_1ConstCutAroundVertSetsParams.html#a0f2924be8289b5fb6fde43e8e78266a5":[9,1,0,0,2,702,2],
 "classmrmeshpy_1_1ConstCutAroundVertSetsParams.html#a0f2924be8289b5fb6fde43e8e78266a5":[9,1,1,0,1,702,2],
 "classmrmeshpy_1_1ConstCutByProjectionSettings.html":[9,1,0,0,2,703],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "classmrmeshpy_1_1ConstDecimateSettings.html#a9df8cc98304f5fd55d4bb76771349f6b":[9,1,0,0,2,713,10],
 "classmrmeshpy_1_1ConstDecimateSettings.html#a9df8cc98304f5fd55d4bb76771349f6b":[9,1,1,0,1,713,10],
 "classmrmeshpy_1_1ConstDecimateSettings.html#a9f04672a2c9e0f6628c4e7d616ab54b3":[9,1,0,0,2,713,14],
-"classmrmeshpy_1_1ConstDecimateSettings.html#a9f04672a2c9e0f6628c4e7d616ab54b3":[9,1,1,0,1,713,14],
-"classmrmeshpy_1_1ConstDecimateSettings.html#a9f22a9a2de07fd50a440c8c34691ba70":[9,1,0,0,2,713,3],
-"classmrmeshpy_1_1ConstDecimateSettings.html#a9f22a9a2de07fd50a440c8c34691ba70":[9,1,1,0,1,713,3]
+"classmrmeshpy_1_1ConstDecimateSettings.html#a9f04672a2c9e0f6628c4e7d616ab54b3":[9,1,1,0,1,713,14]
 };

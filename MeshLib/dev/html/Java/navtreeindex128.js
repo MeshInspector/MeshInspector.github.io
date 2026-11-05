@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"classmeshlib_1_1SliceInfo.html#a05e76ab719ea0885bd6994014a752b8b":[9,6,1,0,0,938,17],
+"classmeshlib_1_1SliceInfo.html#a24b1afe8c23f8a1ff11ee637a83c23b5":[9,6,0,0,0,938,11],
 "classmeshlib_1_1SliceInfo.html#a24b1afe8c23f8a1ff11ee637a83c23b5":[9,6,1,0,0,938,11],
 "classmeshlib_1_1SliceInfo.html#a3007dde316fb927b5001d0c0e0185629":[9,6,0,0,0,938,15],
 "classmeshlib_1_1SliceInfo.html#a3007dde316fb927b5001d0c0e0185629":[9,6,1,0,0,938,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "classmeshlib_1_1Sphere2d.html#aa5c9029e5ff382779e845588707e2e5f":[9,6,1,0,0,946,3],
 "classmeshlib_1_1Sphere2d.html#aa813d0b77a9a83efea0f092c3bfac2a5":[9,6,0,0,0,946,4],
 "classmeshlib_1_1Sphere2d.html#aa813d0b77a9a83efea0f092c3bfac2a5":[9,6,1,0,0,946,4],
-"classmeshlib_1_1Sphere2d.html#abc9d45622c2ec657ec3e2aefbb247e01":[9,6,0,0,0,946,6],
-"classmeshlib_1_1Sphere2d.html#abc9d45622c2ec657ec3e2aefbb247e01":[9,6,1,0,0,946,6],
-"classmeshlib_1_1Sphere2d.html#ac997c7c5aaca114b9040a52bab55f2fe":[9,6,0,0,0,946,7]
+"classmeshlib_1_1Sphere2d.html#abc9d45622c2ec657ec3e2aefbb247e01":[9,6,0,0,0,946,6]
 };

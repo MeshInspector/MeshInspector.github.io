@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1Const__ZCompensateParams.html#af75ff2d683f534553bc39fc235032074":[9,3,0,0,0,1065,10],
 "classMR_1_1Const__ZeroOnMove__SizeT.html":[9,3,0,0,0,1066],
 "classMR_1_1Const__ZeroOnMove__SizeT.html#a0243dd401414222aa41d1eea5da1a931":[9,3,0,0,0,1066,3],
 "classMR_1_1Const__ZeroOnMove__SizeT.html#a2ef65f3a51ba6c8738f5d121a748598b":[9,3,0,0,0,1066,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#ade3d5d9be9aab929d5ad4c107a57b806":[9,3,0,0,0,1147,4,6],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#afe9bc644839a9e9c9642e58b6505c338":[9,3,0,0,0,1147,4,8],
 "classMR_1_1Cuda_1_1Const__FastWindingNumber.html":[9,3,0,0,0,1147,5],
-"classMR_1_1Cuda_1_1Const__FastWindingNumber.html#a3a84cd0c9c042ec036fba52342887df1":[9,3,0,0,0,1147,5,8],
-"classMR_1_1Cuda_1_1Const__FastWindingNumber.html#a406819eebb587a9d258b2c2bd675b002":[9,3,0,0,0,1147,5,2]
+"classMR_1_1Cuda_1_1Const__FastWindingNumber.html#a3a84cd0c9c042ec036fba52342887df1":[9,3,0,0,0,1147,5,8]
 };

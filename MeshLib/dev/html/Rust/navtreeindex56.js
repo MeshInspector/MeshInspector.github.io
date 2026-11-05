@@ -1,5 +1,7 @@
 var NAVTREEINDEX56 =
 {
+"structmeshlib_1_1FeaturePropertyKind.html":[9,5,0,0,0,414],
+"structmeshlib_1_1FeaturePropertyKind.html":[9,5,1,0,0,401],
 "structmeshlib_1_1FeatureVisualizePropertyType.html":[9,5,0,0,0,416],
 "structmeshlib_1_1FeatureVisualizePropertyType.html":[9,5,1,0,0,403],
 "structmeshlib_1_1FeaturesObjectKind.html":[9,5,0,0,0,415],
@@ -247,7 +249,5 @@ var NAVTREEINDEX56 =
 "structmeshlib_1_1FindOutliersParams.html#a49737a3033b0bf6fafc97686dd383ec5":[9,5,0,0,0,428,4],
 "structmeshlib_1_1FindOutliersParams.html#a49737a3033b0bf6fafc97686dd383ec5":[9,5,1,0,0,415,4],
 "structmeshlib_1_1FindOutliersParams.html#a58d9368e7c279ab1aaab62383f67acbe":[9,5,0,0,0,428,7],
-"structmeshlib_1_1FindOutliersParams.html#a58d9368e7c279ab1aaab62383f67acbe":[9,5,1,0,0,415,7],
-"structmeshlib_1_1FindOutliersParams.html#a5cd1c5662d192ade670e213c50dbc407":[9,5,0,0,0,428,0],
-"structmeshlib_1_1FindOutliersParams.html#a5cd1c5662d192ade670e213c50dbc407":[9,5,1,0,0,415,0]
+"structmeshlib_1_1FindOutliersParams.html#a58d9368e7c279ab1aaab62383f67acbe":[9,5,1,0,0,415,7]
 };

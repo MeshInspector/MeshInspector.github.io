@@ -1,5 +1,7 @@
 var NAVTREEINDEX191 =
 {
+"classmeshlib_1_1meshsave_1_1CtmSaveOptions__MeshCompression.html#a9697a9d5544e3b4d820e383c0bfd536a":[9,6,1,0,0,18,2,4],
+"classmeshlib_1_1meshsave_1_1CtmSaveOptions__MeshCompression.html#a99db605051c599a1cd68e73c4960e867":[9,6,0,0,0,18,2,0],
 "classmeshlib_1_1meshsave_1_1CtmSaveOptions__MeshCompression.html#a99db605051c599a1cd68e73c4960e867":[9,6,1,0,0,18,2,0],
 "classmeshlib_1_1meshsave_1_1CtmSaveOptions__MeshCompression.html#ac7fc10ab03ea9029f500330ac9ace76d":[9,6,0,0,0,18,2,2],
 "classmeshlib_1_1meshsave_1_1CtmSaveOptions__MeshCompression.html#ac7fc10ab03ea9029f500330ac9ace76d":[9,6,1,0,0,18,2,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX191 =
 "classmeshlib_1_1nesting_1_1SequentialNester.html#ae3555f171061ff5fc25719561773305c":[9,6,1,0,0,19,9,1],
 "classmeshlib_1_1nesting_1_1SequentialNester.html#af442f97a6a2b31c80a1383179e132318":[9,6,0,0,0,19,9,5],
 "classmeshlib_1_1nesting_1_1SequentialNester.html#af442f97a6a2b31c80a1383179e132318":[9,6,1,0,0,19,9,5],
-"classmeshlib_1_1nesting_1_1TetrisDensifyOptions.html":[9,6,0,0,0,19,10],
-"classmeshlib_1_1nesting_1_1TetrisDensifyOptions.html":[9,6,1,0,0,19,10],
-"classmeshlib_1_1nesting_1_1TetrisDensifyOptions.html#a115bb6a724d578f7dfc30e9beef1f4ef":[9,6,0,0,0,19,10,13]
+"classmeshlib_1_1nesting_1_1TetrisDensifyOptions.html":[9,6,0,0,0,19,10]
 };

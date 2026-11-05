@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"classmrmeshpy_1_1ConstPixelBitSet.html":[9,1,0,0,2,1072],
+"classmrmeshpy_1_1ConstPixelBitSet.html":[9,1,1,0,1,1072],
 "classmrmeshpy_1_1ConstPixelBitSet.html#a04f00baed6bb114f588cbdc0b4ed0b53":[9,1,0,0,2,1072,8],
 "classmrmeshpy_1_1ConstPixelBitSet.html#a04f00baed6bb114f588cbdc0b4ed0b53":[9,1,1,0,1,1072,8],
 "classmrmeshpy_1_1ConstPixelBitSet.html#a264f18df38ce1491f6e7220b65c7759b":[9,1,0,0,2,1072,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "classmrmeshpy_1_1ConstPointCloud.html#af1e8ccaa32a738efb19297f80d9674ac":[9,1,0,0,2,1081,0],
 "classmrmeshpy_1_1ConstPointCloud.html#af1e8ccaa32a738efb19297f80d9674ac":[9,1,1,0,1,1081,0],
 "classmrmeshpy_1_1ConstPointCloud.html#afb4fdc6b975bbd9236886cde7bc5d65d":[9,1,0,0,2,1081,9],
-"classmrmeshpy_1_1ConstPointCloud.html#afb4fdc6b975bbd9236886cde7bc5d65d":[9,1,1,0,1,1081,9],
-"classmrmeshpy_1_1ConstPointCloudApproxRelaxParams.html":[9,1,0,0,2,1082],
-"classmrmeshpy_1_1ConstPointCloudApproxRelaxParams.html":[9,1,1,0,1,1082]
+"classmrmeshpy_1_1ConstPointCloud.html#afb4fdc6b975bbd9236886cde7bc5d65d":[9,1,1,0,1,1081,9]
 };

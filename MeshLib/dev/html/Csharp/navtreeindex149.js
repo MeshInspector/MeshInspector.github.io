@@ -1,5 +1,6 @@
 var NAVTREEINDEX149 =
 {
+"classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html#ae7e14823e3767114e8969a57e7ca12da":[9,3,0,0,0,1894,2,0],
 "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html#af303b4d732aaea25b05e10ae89bdeb32":[9,3,0,0,0,1894,2,7],
 "classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html":[9,3,0,0,0,1894,3],
 "classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html#a35093889339a91da761eb4dde0aef03a":[9,3,0,0,0,1894,3,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX149 =
 "classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#a22a6153a76b15736169f0fdfeee2b671":[9,3,0,0,0,1911,3,0,6],
 "classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#a2721d05bb325cef11ee432b0a6072a56":[9,3,0,0,0,1911,3,0,8],
 "classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#a2ed4842b2560f1cdd40aafc915027af2":[9,3,0,0,0,1911,3,0,1],
-"classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#a31de3ea2360b02ac50b1b8a05e73fb57":[9,3,0,0,0,1911,3,0,3],
-"classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#a3b37fc1f80514af58643a9f3f1387114":[9,3,0,0,0,1911,3,0,4]
+"classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Const__Region.html#a31de3ea2360b02ac50b1b8a05e73fb57":[9,3,0,0,0,1911,3,0,3]
 };

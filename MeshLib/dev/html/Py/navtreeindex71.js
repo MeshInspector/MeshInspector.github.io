@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"classmrmeshpy_1_1ConstSymMatrix4i.html#a8883877a8c2975b57bb12eaed4c370f9":[9,1,0,0,2,1226,6],
+"classmrmeshpy_1_1ConstSymMatrix4i.html#a8883877a8c2975b57bb12eaed4c370f9":[9,1,1,0,1,1226,6],
 "classmrmeshpy_1_1ConstSymMatrix4i.html#a8ed188131bb09875db47d5bc4305e88c":[9,1,0,0,2,1226,3],
 "classmrmeshpy_1_1ConstSymMatrix4i.html#a8ed188131bb09875db47d5bc4305e88c":[9,1,1,0,1,1226,3],
 "classmrmeshpy_1_1ConstSymMatrix4i.html#abd3cbbd0fc2dbef55d3d4127f7fad7b7":[9,1,0,0,2,1226,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "classmrmeshpy_1_1ConstTextureId.html#ad99ef2700614ae520a0edb1e599738f1":[9,1,0,0,2,1234,7],
 "classmrmeshpy_1_1ConstTextureId.html#ad99ef2700614ae520a0edb1e599738f1":[9,1,1,0,1,1234,7],
 "classmrmeshpy_1_1ConstTextureId.html#af3bfa10760ac59e53bab6d57ab92553d":[9,1,0,0,2,1234,4],
-"classmrmeshpy_1_1ConstTextureId.html#af3bfa10760ac59e53bab6d57ab92553d":[9,1,1,0,1,1234,4],
-"classmrmeshpy_1_1ConstTexturePerFace.html":[9,1,0,0,2,1235],
-"classmrmeshpy_1_1ConstTexturePerFace.html":[9,1,1,0,1,1235]
+"classmrmeshpy_1_1ConstTextureId.html#af3bfa10760ac59e53bab6d57ab92553d":[9,1,1,0,1,1234,4]
 };

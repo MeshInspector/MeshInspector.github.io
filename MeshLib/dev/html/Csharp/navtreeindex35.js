@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1Const__ChangVoxelSelectionAction.html#a7fe7dcc7e5ab5eeb8ccfb6d4710ffd65":[9,3,0,0,0,349,7],
 "classMR_1_1Const__ChangVoxelSelectionAction.html#aa69297a48a9ca945c12f36b7667020e4":[9,3,0,0,0,349,2],
 "classMR_1_1Const__ChangVoxelSelectionAction.html#aa8ec18334f3f585b2144817f380e252f":[9,3,0,0,0,349,6],
 "classMR_1_1Const__ChangeActiveBoxAction.html":[9,3,0,0,0,310],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1Const__ChangeObjectAction.html#af56944dda184986037d4188b20d65bc0":[9,3,0,0,0,328,7],
 "classMR_1_1Const__ChangeObjectAction.html#afad718925346271fbe70b5d196176311":[9,3,0,0,0,328,0],
 "classMR_1_1Const__ChangeObjectColorAction.html":[9,3,0,0,0,329],
-"classMR_1_1Const__ChangeObjectColorAction.html#a025794d6068be9cbf39b0e8dcdfae991":[9,3,0,0,0,329,0],
-"classMR_1_1Const__ChangeObjectColorAction.html#a025794d6068be9cbf39b0e8dcdfae991a0557fa923dcee4d0f86b1409f5c2167f":[9,3,0,0,0,329,0,2]
+"classMR_1_1Const__ChangeObjectColorAction.html#a025794d6068be9cbf39b0e8dcdfae991":[9,3,0,0,0,329,0]
 };

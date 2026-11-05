@@ -1,5 +1,7 @@
 var NAVTREEINDEX208 =
 {
+"classmeshlib_1_1std__optional__MR__SignedDistanceToMeshResult.html#aed736c3dd0c40a9b5b3ffb9be65a9a11":[9,6,1,0,0,1086,2],
+"classmeshlib_1_1std__optional__MR__TriIntersectResult.html":[9,6,0,0,0,1088],
 "classmeshlib_1_1std__optional__MR__TriIntersectResult.html":[9,6,1,0,0,1088],
 "classmeshlib_1_1std__optional__MR__TriIntersectResult.html#a58c1e16723e3f767c884c3661e8542dc":[9,6,0,0,0,1088,2],
 "classmeshlib_1_1std__optional__MR__TriIntersectResult.html#a58c1e16723e3f767c884c3661e8542dc":[9,6,1,0,0,1088,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX208 =
 "classmeshlib_1_1std__optional__double.html#a7b5b1fcb6586f0fc46e303f138cbf394":[9,6,1,0,0,1062,0],
 "classmeshlib_1_1std__optional__double.html#a97b907d02407918d559e69156ca299fe":[9,6,0,0,0,1062,2],
 "classmeshlib_1_1std__optional__double.html#a97b907d02407918d559e69156ca299fe":[9,6,1,0,0,1062,2],
-"classmeshlib_1_1std__optional__double.html#a9bb2c953a404f9148c0da321ae4c1f5b":[9,6,0,0,0,1062,5],
-"classmeshlib_1_1std__optional__double.html#a9bb2c953a404f9148c0da321ae4c1f5b":[9,6,1,0,0,1062,5],
-"classmeshlib_1_1std__optional__double.html#aae7d4701d3075611ec950d44588f2853":[9,6,0,0,0,1062,7]
+"classmeshlib_1_1std__optional__double.html#a9bb2c953a404f9148c0da321ae4c1f5b":[9,6,0,0,0,1062,5]
 };

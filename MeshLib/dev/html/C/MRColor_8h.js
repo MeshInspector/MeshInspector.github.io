@@ -25,6 +25,7 @@ var MRColor_8h =
     [ "MR_Color_green", "MRColor_8h.html#a35ce1565a6c985fd2c898bafe7bd8f2c", null ],
     [ "MR_Color_index", "MRColor_8h.html#a8e7a4d8cba6b0f19fb43ec534c7319cf", null ],
     [ "MR_Color_index_mut", "MRColor_8h.html#a35e523fd50231b638f1cc3c911181736", null ],
+    [ "MR_Color_isTranslucent", "MRColor_8h.html#ad30b7a511b0867b2c954337f22eb7d9f", null ],
     [ "MR_Color_mul_assign", "MRColor_8h.html#a52fefc63badbf4ff8f084e9a77d2d614", null ],
     [ "MR_Color_purple", "MRColor_8h.html#aaecba41c4592fc7b068efbc53a7953b1", null ],
     [ "MR_Color_red", "MRColor_8h.html#a51da2cd85ff0320545d0d5333fdcd8ad", null ],

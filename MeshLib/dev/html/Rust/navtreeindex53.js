@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"structmeshlib_1_1FaceDistancesSettings.html#a12687a21bff50a5b4c27e26cf9fb87fc":[9,5,0,0,0,398,5],
+"structmeshlib_1_1FaceDistancesSettings.html#a12687a21bff50a5b4c27e26cf9fb87fc":[9,5,1,0,0,385,5],
 "structmeshlib_1_1FaceDistancesSettings.html#a141eca22e7b2c89802c15d22832f4261":[9,5,0,0,0,398,3],
 "structmeshlib_1_1FaceDistancesSettings.html#a141eca22e7b2c89802c15d22832f4261":[9,5,1,0,0,385,3],
 "structmeshlib_1_1FaceDistancesSettings.html#a1c5012b33b3f1a8dab3f177c4f11809a":[9,5,0,0,0,398,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "structmeshlib_1_1FaceNormals.html#a9f11e5c79bc3f1a1b6fc7e6f420bf90a":[9,5,0,0,0,404,17],
 "structmeshlib_1_1FaceNormals.html#a9f11e5c79bc3f1a1b6fc7e6f420bf90a":[9,5,1,0,0,391,17],
 "structmeshlib_1_1FaceNormals.html#aafc319d7773729e11318a0b9f42bfb6c":[9,5,0,0,0,404,20],
-"structmeshlib_1_1FaceNormals.html#aafc319d7773729e11318a0b9f42bfb6c":[9,5,1,0,0,391,20],
-"structmeshlib_1_1FaceNormals.html#ab053aa980e3611ebf44a09b8dcc75242":[9,5,0,0,0,404,21],
-"structmeshlib_1_1FaceNormals.html#ab053aa980e3611ebf44a09b8dcc75242":[9,5,1,0,0,391,21]
+"structmeshlib_1_1FaceNormals.html#aafc319d7773729e11318a0b9f42bfb6c":[9,5,1,0,0,391,20]
 };

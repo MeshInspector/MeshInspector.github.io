@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"MREdgePathsBuilder_8h.html#a29a9b4b96fd31d35b993ab6d63c0788b":[9,2,2,0,0,0,0,1,87,118],
 "MREdgePathsBuilder_8h.html#a2a1fa891789addab492ecfe3e4259273":[9,2,2,0,0,0,0,1,87,20],
 "MREdgePathsBuilder_8h.html#a2ba3dd2a33b974730a6eabaf195a7333":[9,2,2,0,0,0,0,1,87,33],
 "MREdgePathsBuilder_8h.html#a2f08c1aed4d9955ce28d3348deb5ed8b":[9,2,2,0,0,0,0,1,87,40],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "MREdgePoint_8h.html#a64ab6e45c09766341d29e139451fcb45":[9,2,2,0,0,0,0,1,88,121],
 "MREdgePoint_8h.html#a65d8ff372a322b20ea17841d739a3cc9":[9,2,2,0,0,0,0,1,88,40],
 "MREdgePoint_8h.html#a678490d9d0c25162e87863a7589c370d":[9,2,2,0,0,0,0,1,88,113],
-"MREdgePoint_8h.html#a69b1dc90c79371e600d14817eb0c62cc":[9,2,2,0,0,0,0,1,88,78],
-"MREdgePoint_8h.html#a6b0939722c402e8390b83c7c511018e7":[9,2,2,0,0,0,0,1,88,29]
+"MREdgePoint_8h.html#a69b1dc90c79371e600d14817eb0c62cc":[9,2,2,0,0,0,0,1,88,78]
 };

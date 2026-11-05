@@ -1,5 +1,7 @@
 var NAVTREEINDEX223 =
 {
+"classmrmeshpy_1_1VolumeSegmentationParameters.html#a420c9a6957a6a148ec365679b7d3a4c6":[9,1,0,0,2,2573,6],
+"classmrmeshpy_1_1VolumeSegmentationParameters.html#a420c9a6957a6a148ec365679b7d3a4c6":[9,1,1,0,1,2573,6],
 "classmrmeshpy_1_1VolumeSegmentationParameters.html#a45ec05bfa000e66500a2eaa18daaf652":[9,1,0,0,2,2573,2],
 "classmrmeshpy_1_1VolumeSegmentationParameters.html#a45ec05bfa000e66500a2eaa18daaf652":[9,1,1,0,1,2573,2],
 "classmrmeshpy_1_1VolumeSegmentationParameters.html#aa565c473529b6e377bacbd541f9503ea":[9,1,0,0,2,2573,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX223 =
 "classmrmeshpy_1_1VoxelMetricParameters.html#ac28c870462ea15463efd78d0412cabb9":[9,1,0,0,2,2581,3],
 "classmrmeshpy_1_1VoxelMetricParameters.html#ac28c870462ea15463efd78d0412cabb9":[9,1,1,0,1,2581,3],
 "classmrmeshpy_1_1VoxelMetricParameters.html#af99468fb6aa27a32869b4e9b63721204":[9,1,0,0,2,2581,13],
-"classmrmeshpy_1_1VoxelMetricParameters.html#af99468fb6aa27a32869b4e9b63721204":[9,1,1,0,1,2581,13],
-"classmrmeshpy_1_1VoxelScalars.html":[9,1,0,0,2,2582],
-"classmrmeshpy_1_1VoxelScalars.html":[9,1,1,0,1,2582]
+"classmrmeshpy_1_1VoxelMetricParameters.html#af99468fb6aa27a32869b4e9b63721204":[9,1,1,0,1,2581,13]
 };

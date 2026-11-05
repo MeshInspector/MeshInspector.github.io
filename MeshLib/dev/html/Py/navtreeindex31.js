@@ -1,5 +1,7 @@
 var NAVTREEINDEX31 =
 {
+"classmrmeshpy_1_1ConstEdgeBitSet.html":[9,1,0,0,2,739],
+"classmrmeshpy_1_1ConstEdgeBitSet.html":[9,1,1,0,1,739],
 "classmrmeshpy_1_1ConstEdgeBitSet.html#a03b67b4f1da3d8ac9e1ddb5973621319":[9,1,0,0,2,739,1],
 "classmrmeshpy_1_1ConstEdgeBitSet.html#a03b67b4f1da3d8ac9e1ddb5973621319":[9,1,1,0,1,739,1],
 "classmrmeshpy_1_1ConstEdgeBitSet.html#a09289464ff1a908538a74aef7b53d524":[9,1,0,0,2,739,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX31 =
 "classmrmeshpy_1_1ConstEdgePathsBuilderT__TrivialMetricToPenalty.html#afa33762fb988c4001d0a74d06696fada":[9,1,0,0,2,747,8],
 "classmrmeshpy_1_1ConstEdgePathsBuilderT__TrivialMetricToPenalty.html#afa33762fb988c4001d0a74d06696fada":[9,1,1,0,1,747,8],
 "classmrmeshpy_1_1ConstEdgePathsBuilderT__TrivialMetricToPenalty_1_1ConstReachedVert.html":[9,1,0,0,2,747,0],
-"classmrmeshpy_1_1ConstEdgePathsBuilderT__TrivialMetricToPenalty_1_1ConstReachedVert.html":[9,1,1,0,1,747,0],
-"classmrmeshpy_1_1ConstEdgePathsBuilderT__TrivialMetricToPenalty_1_1ConstReachedVert.html#a33509b610fe2d5543ce03a4e58a77d36":[9,1,0,0,2,747,0,3],
-"classmrmeshpy_1_1ConstEdgePathsBuilderT__TrivialMetricToPenalty_1_1ConstReachedVert.html#a33509b610fe2d5543ce03a4e58a77d36":[9,1,1,0,1,747,0,3]
+"classmrmeshpy_1_1ConstEdgePathsBuilderT__TrivialMetricToPenalty_1_1ConstReachedVert.html":[9,1,1,0,1,747,0]
 };

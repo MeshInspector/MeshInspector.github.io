@@ -181,6 +181,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1d0373403463ec4e1b4516e3458a67fe" id="r_a1d0373403463ec4e1b4516e3458a67fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1Color.html">meshlib.Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d0373403463ec4e1b4516e3458a67fe">mul_assign</a> (float m)</td></tr>
 <tr class="memitem:a06de011e145c90542cc43b99f1a7704f" id="r_a06de011e145c90542cc43b99f1a7704f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1Color.html">meshlib.Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06de011e145c90542cc43b99f1a7704f">div_assign</a> (float m)</td></tr>
 <tr class="memitem:a7d88ad77bd41a381a3795d29665d5ea6" id="r_a7d88ad77bd41a381a3795d29665d5ea6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1Color.html">meshlib.Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d88ad77bd41a381a3795d29665d5ea6">scaledAlpha</a> (float m)</td></tr>
+<tr class="memitem:a1722e69007c5beb2852afceea1e1984c" id="r_a1722e69007c5beb2852afceea1e1984c"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1722e69007c5beb2852afceea1e1984c">isTranslucent</a> ()</td></tr>
 <tr class="inherit_header pub_methods_classmeshlib_1_1CppStruct"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classmeshlib_1_1CppStruct')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classmeshlib_1_1CppStruct.html">meshlib.CppStruct</a></td></tr>
 <tr class="memitem:a2ce2c52b258ffe08bb8f7932604af4d2 inherit pub_methods_classmeshlib_1_1CppStruct" id="r_a2ce2c52b258ffe08bb8f7932604af4d2"><td class="memItemLeft" align="right" valign="top">final java.lang.foreign.MemorySegment&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshlib_1_1CppStruct.html#a2ce2c52b258ffe08bb8f7932604af4d2">rawPointer</a> ()</td></tr>
 </table><table class="memberdecls">
@@ -773,6 +774,25 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::Color::operator[]</span>.</p>
 <p>Calls <span class="tt">MR_Color_index_mut()</span>. Some types are raw C types, see the C bindings for the details. </p>
+
+</div>
+</div>
+<a id="a1722e69007c5beb2852afceea1e1984c" name="a1722e69007c5beb2852afceea1e1984c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1722e69007c5beb2852afceea1e1984c">&#9670;&#160;</a></span>isTranslucent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean meshlib.Color.isTranslucent </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if the color is neither fully opaque nor fully transparent, so it has to be blended with the colors behind Generated from method <span class="tt">MR::Color::isTranslucent</span>.</p>
+<p>Calls <span class="tt">MR_Color_isTranslucent()</span>. </p>
 
 </div>
 </div>
