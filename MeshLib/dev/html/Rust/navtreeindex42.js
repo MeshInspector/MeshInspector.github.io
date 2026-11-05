@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"structmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#aed1d3b16513d6d3535fcff8255a4be5a":[9,5,1,0,0,242,18],
 "structmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#af3e55b28a358e982e2395f940459ca70":[9,5,0,0,0,255,16],
 "structmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#af3e55b28a358e982e2395f940459ca70":[9,5,1,0,0,242,16],
 "structmeshlib_1_1DecimatePolylineSettings__MR__Vector3f.html#af4c5eae3e3060189545c6f836414e989":[9,5,0,0,0,255,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "structmeshlib_1_1DecimateStrategy.html":[9,5,1,0,0,245],
 "structmeshlib_1_1DeloneFlipsCache.html":[9,5,0,0,0,259],
 "structmeshlib_1_1DeloneFlipsCache.html":[9,5,1,0,0,246],
-"structmeshlib_1_1DeloneFlipsCache.html#a2a6811276f154642f63e68984911c4b3":[9,5,0,0,0,259,9],
-"structmeshlib_1_1DeloneFlipsCache.html#a2a6811276f154642f63e68984911c4b3":[9,5,1,0,0,246,9]
+"structmeshlib_1_1DeloneFlipsCache.html#a2a6811276f154642f63e68984911c4b3":[9,5,0,0,0,259,9]
 };

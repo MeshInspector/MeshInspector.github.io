@@ -101,7 +101,6 @@ var searchData=
   ['progressholder_44',['ProgressHolder',['.././Cpp/group__GeneralGroup.html#ga18c7b1c6f5f3eb4ab1f683819ab2526b',1,'MR::RangeProcessorSingle::ProgressHolder'],['.././Cpp/group__GeneralGroup.html#ga18c7b1c6f5f3eb4ab1f683819ab2526b',1,'MR::RangeProcessorSingle::ProgressHolder']]],
   ['projectonallcallback_45',['ProjectOnAllCallback',['.././Cpp/group__GeneralGroup.html#ga51c5c9bdf012ab12e360b5e161bb378e',1,'MR']]],
   ['propagate_5fon_5fcontainer_5fmove_5fassignment_46',['propagate_on_container_move_assignment',['.././Cpp/group__GeneralGroup.html#ga6e5a6cfcecd6d8ac399825a714295023',1,'MR::Allocator::propagate_on_container_move_assignment'],['.././Cpp/group__GeneralGroup.html#ga6e5a6cfcecd6d8ac399825a714295023',1,'MR::Allocator::propagate_on_container_move_assignment']]],
-  ['pythonregisterfuncton_47',['PythonRegisterFuncton',['.././Cpp/group__GeneralGroup.html#ga001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport::PythonRegisterFuncton'],['.././Cpp/group__GeneralGroup.html#ga001e362a5ed99ee391fd182df4571f9c',1,'MR::PythonExport::PythonRegisterFuncton']]],
   ['edgebitset_0',['EdgeBitSet',['.././Cpp/group__GeneralGroup.html#ga8479c33a6ee26f007a35cab71ba0f2b5',1,'MR::Graph::EdgeBitSet'],['.././Cpp/group__GeneralGroup.html#ga8479c33a6ee26f007a35cab71ba0f2b5',1,'MR::Graph::EdgeBitSet']]],
   ['edgehashmap_1',['EdgeHashMap',['.././Cpp/group__GeneralGroup.html#gacf12278406a871d48023f839544d29e8',1,'MR']]],
   ['edgehashset_2',['EdgeHashSet',['.././Cpp/group__GeneralGroup.html#gaab2dff43553ca83a7047da7cf31b3c1b',1,'MR']]],

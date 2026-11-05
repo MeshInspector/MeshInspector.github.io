@@ -2418,6 +2418,8 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.std_optional_float", "classmrmeshpy_1_1std__optional__float.html", "classmrmeshpy_1_1std__optional__float" ],
     [ "mrmeshpy.Const_std_optional_std_string", "classmrmeshpy_1_1Const__std__optional__std__string.html", "classmrmeshpy_1_1Const__std__optional__std__string" ],
     [ "mrmeshpy.std_optional_std_string", "classmrmeshpy_1_1std__optional__std__string.html", "classmrmeshpy_1_1std__optional__std__string" ],
+    [ "mrmeshpy.Const_std_optional_std_vector_std_string", "classmrmeshpy_1_1Const__std__optional__std__vector__std__string.html", "classmrmeshpy_1_1Const__std__optional__std__vector__std__string" ],
+    [ "mrmeshpy.std_optional_std_vector_std_string", "classmrmeshpy_1_1std__optional__std__vector__std__string.html", "classmrmeshpy_1_1std__optional__std__vector__std__string" ],
     [ "mrmeshpy.Const_std_set_std_string", "classmrmeshpy_1_1Const__std__set__std__string.html", "classmrmeshpy_1_1Const__std__set__std__string" ],
     [ "mrmeshpy.std_set_std_string", "classmrmeshpy_1_1std__set__std__string.html", "classmrmeshpy_1_1std__set__std__string" ],
     [ "mrmeshpy.Const_std_unordered_set_std_string", "classmrmeshpy_1_1Const__std__unordered__set__std__string.html", "classmrmeshpy_1_1Const__std__unordered__set__std__string" ],

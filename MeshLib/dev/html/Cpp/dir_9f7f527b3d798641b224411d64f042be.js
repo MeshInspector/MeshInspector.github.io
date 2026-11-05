@@ -75,7 +75,6 @@ var dir_9f7f527b3d798641b224411d64f042be =
     [ "MRPointInAllSpaces.h", "MRPointInAllSpaces_8h.html", null ],
     [ "MRPointsShader.h", "MRPointsShader_8h.html", "MRPointsShader_8h" ],
     [ "MRProgressBar.h", "MRProgressBar_8h.html", "MRProgressBar_8h" ],
-    [ "MRPythonAppendCommand.h", "MRPythonAppendCommand_8h.html", "MRPythonAppendCommand_8h" ],
     [ "MRRecentFilesStore.h", "MRRecentFilesStore_8h.html", null ],
     [ "MRRenderClickableRect.h", "MRRenderClickableRect_8h.html", null ],
     [ "MRRenderDefaultObjects.h", "MRRenderDefaultObjects_8h.html", "MRRenderDefaultObjects_8h" ],

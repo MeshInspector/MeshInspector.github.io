@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"structmeshlib_1_1EdgeLengthMesh.html#ac8cfa41935828d2d7f7c295589cad33c":[9,5,1,0,0,279,7],
 "structmeshlib_1_1EdgeLengthMesh.html#ada1d6f6bb2cc5be3ded1f0ef8b4e69aa":[9,5,0,0,0,292,4],
 "structmeshlib_1_1EdgeLengthMesh.html#ada1d6f6bb2cc5be3ded1f0ef8b4e69aa":[9,5,1,0,0,279,4],
 "structmeshlib_1_1EdgeLengthMesh.html#ae3b80994412cdbdd338638fba2fd076d":[9,5,0,0,0,292,6],
@@ -216,7 +217,7 @@ var NAVTREEINDEX49 =
 "structmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty__ReachedVert.html#afb48e19793686dbbef593b85735a234f":[9,5,1,0,0,285,8],
 "structmeshlib_1_1EdgePoint.html":[9,5,0,0,0,299],
 "structmeshlib_1_1EdgePoint.html":[9,5,1,0,0,286],
-"structmeshlib_1_1EdgePoint.html#a03cee6850e80488d2d9beb91207b3fb6":[9,5,0,0,0,2483],
+"structmeshlib_1_1EdgePoint.html#a03cee6850e80488d2d9beb91207b3fb6":[9,5,0,0,0,2484],
 "structmeshlib_1_1EdgePoint.html#a03cee6850e80488d2d9beb91207b3fb6":[9,5,0,0,0,299,19],
 "structmeshlib_1_1EdgePoint.html#a03cee6850e80488d2d9beb91207b3fb6":[9,5,1,0,0,286,19],
 "structmeshlib_1_1EdgePoint.html#a1a2236564462dcb8140caff7f9bc8737":[9,5,0,0,0,299,12],
@@ -231,7 +232,7 @@ var NAVTREEINDEX49 =
 "structmeshlib_1_1EdgePoint.html#a3ff78f57cc8eab7353ce09910997c641":[9,5,1,0,0,286,6],
 "structmeshlib_1_1EdgePoint.html#a41cef77fd9ac0b24e51c78a346a83f43":[9,5,0,0,0,299,3],
 "structmeshlib_1_1EdgePoint.html#a41cef77fd9ac0b24e51c78a346a83f43":[9,5,1,0,0,286,3],
-"structmeshlib_1_1EdgePoint.html#a4cabc31fd4891bcd195ffcac937784fa":[9,5,0,0,0,2488],
+"structmeshlib_1_1EdgePoint.html#a4cabc31fd4891bcd195ffcac937784fa":[9,5,0,0,0,2489],
 "structmeshlib_1_1EdgePoint.html#a4cabc31fd4891bcd195ffcac937784fa":[9,5,0,0,0,299,22],
 "structmeshlib_1_1EdgePoint.html#a4cabc31fd4891bcd195ffcac937784fa":[9,5,1,0,0,286,22],
 "structmeshlib_1_1EdgePoint.html#a4f12d43d3cd839b7b1e594600909af06":[9,5,0,0,0,299,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "structmeshlib_1_1EdgePoint.html#a6284b80deff65c226600c71538c26f60":[9,5,1,0,0,286,9],
 "structmeshlib_1_1EdgePoint.html#a6e8e775bcbcd8bf46c6c8c8fd9dbe4fd":[9,5,0,0,0,299,13],
 "structmeshlib_1_1EdgePoint.html#a6e8e775bcbcd8bf46c6c8c8fd9dbe4fd":[9,5,1,0,0,286,13],
-"structmeshlib_1_1EdgePoint.html#aa5841f2bb4665572447d721b01082654":[9,5,0,0,0,2487],
-"structmeshlib_1_1EdgePoint.html#aa5841f2bb4665572447d721b01082654":[9,5,0,0,0,299,21]
+"structmeshlib_1_1EdgePoint.html#aa5841f2bb4665572447d721b01082654":[9,5,0,0,0,2488]
 };

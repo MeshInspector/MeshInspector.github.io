@@ -1259,6 +1259,7 @@ var annotated_dup =
       [ "std_optional_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane", "structmeshlib_1_1std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegmen14d0aa78fd53a4bc43910324e7f01cde.html", "structmeshlib_1_1std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegmen14d0aa78fd53a4bc43910324e7f01cde" ],
       [ "std_optional_std_vector_MR_ObjVertId", "structmeshlib_1_1std__optional__std__vector__MR__ObjVertId.html", "structmeshlib_1_1std__optional__std__vector__MR__ObjVertId" ],
       [ "std_optional_std_vector_MR_SomeLocalTriangulations", "structmeshlib_1_1std__optional__std__vector__MR__SomeLocalTriangulations.html", "structmeshlib_1_1std__optional__std__vector__MR__SomeLocalTriangulations" ],
+      [ "std_optional_std_vector_std_string", "structmeshlib_1_1std__optional__std__vector__std__string.html", "structmeshlib_1_1std__optional__std__vector__std__string" ],
       [ "std_ostream", "structmeshlib_1_1std__ostream.html", null ],
       [ "std_pair_bool_int", "structmeshlib_1_1std__pair__bool__int.html", "structmeshlib_1_1std__pair__bool__int" ],
       [ "std_pair_const_int_MR_Box3i", "structmeshlib_1_1std__pair__const__int__MR__Box3i.html", "structmeshlib_1_1std__pair__const__int__MR__Box3i" ],

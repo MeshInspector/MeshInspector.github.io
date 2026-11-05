@@ -1,5 +1,6 @@
 var NAVTREEINDEX124 =
 {
+"structmeshlib_1_1SimpleVolumeMinMax.html#a5395edf14f434ae0c5ebcdddfc608d5c":[9,5,0,0,0,924,0],
 "structmeshlib_1_1SimpleVolumeMinMax.html#a5395edf14f434ae0c5ebcdddfc608d5c":[9,5,1,0,0,911,0],
 "structmeshlib_1_1SimpleVolumeMinMax.html#a54855423fe0ee68d6f851e6aba8d1999":[9,5,0,0,0,924,35],
 "structmeshlib_1_1SimpleVolumeMinMax.html#a54855423fe0ee68d6f851e6aba8d1999":[9,5,1,0,0,911,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX124 =
 "structmeshlib_1_1SliceInfoBase.html#afd515d543ed36a2755b95b0c0aaab30d":[9,5,0,0,0,929,15],
 "structmeshlib_1_1SliceInfoBase.html#afd515d543ed36a2755b95b0c0aaab30d":[9,5,1,0,0,916,15],
 "structmeshlib_1_1SlicePlane.html":[9,5,0,0,0,930],
-"structmeshlib_1_1SlicePlane.html":[9,5,1,0,0,917],
-"structmeshlib_1_1SmoothCameraMeshDepthSettings.html":[9,5,0,0,0,931]
+"structmeshlib_1_1SlicePlane.html":[9,5,1,0,0,917]
 };

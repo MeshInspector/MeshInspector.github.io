@@ -1,5 +1,6 @@
 var NAVTREEINDEX102 =
 {
+"structmeshlib_1_1OffsetContoursOrigins.html#a7f70da16a4ca3a958ea54c6023de4575":[9,5,1,0,0,720,17],
 "structmeshlib_1_1OffsetContoursOrigins.html#a8fb9295d3a0450672535314f317022eb":[9,5,0,0,0,733,12],
 "structmeshlib_1_1OffsetContoursOrigins.html#a8fb9295d3a0450672535314f317022eb":[9,5,1,0,0,720,12],
 "structmeshlib_1_1OffsetContoursOrigins.html#aa3c5a306c19a3a1bfd98fb0a81d93cc6":[9,5,0,0,0,733,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX102 =
 "structmeshlib_1_1OutliersDetector.html":[9,5,1,0,0,738],
 "structmeshlib_1_1OutliersDetector.html#a14f5eb88b44df9739762435c523a6327":[9,5,0,0,0,751,4],
 "structmeshlib_1_1OutliersDetector.html#a14f5eb88b44df9739762435c523a6327":[9,5,1,0,0,738,4],
-"structmeshlib_1_1OutliersDetector.html#a40e1a3287eb56fbff9e839e805aaf9b5":[9,5,0,0,0,751,5],
-"structmeshlib_1_1OutliersDetector.html#a40e1a3287eb56fbff9e839e805aaf9b5":[9,5,1,0,0,738,5]
+"structmeshlib_1_1OutliersDetector.html#a40e1a3287eb56fbff9e839e805aaf9b5":[9,5,0,0,0,751,5]
 };

@@ -5230,26 +5230,6 @@ var group__GeneralGroup =
       [ "level", "group__GeneralGroup.html#ga07efb01c2ca421042eac45a5e6ffeb64", null ],
       [ "stats", "group__GeneralGroup.html#ga8fc9151d9754c30cbc5c5ebfb26d0a1d", null ]
     ] ],
-    [ "MR::PythonExport", "classMR_1_1PythonExport.html", [
-      [ "PythonRegisterFuncton", "group__GeneralGroup.html#ga001e362a5ed99ee391fd182df4571f9c", null ],
-      [ "Priority", "group__GeneralGroup.html#ga27091fc0ef96636d5c59ff459694a6bf", [
-        [ "Declaration", "group__GeneralGroup.html#gga27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a", null ],
-        [ "Implementation", "group__GeneralGroup.html#gga27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689", null ],
-        [ "Count", "group__GeneralGroup.html#gga27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9", null ]
-      ] ],
-      [ "addFunc", "group__GeneralGroup.html#ga595ac26b1d2a27a14a95bbc5a1963532", null ],
-      [ "functions", "group__GeneralGroup.html#ga1ae0ff73c0d87a6c897bf89610cabb81", null ],
-      [ "modules", "group__GeneralGroup.html#ga67924d9cb7f431bc9894a456c513156f", null ],
-      [ "setInitFuncPtr", "group__GeneralGroup.html#ga1105f4987df7b1b8d9d469115a831880", null ]
-    ] ],
-    [ "MR::PythonExport::ModuleData", "structMR_1_1PythonExport_1_1ModuleData.html", [
-      [ "functions", "group__GeneralGroup.html#ga0fe7a81962a7cace96c7ec89855e1064", null ],
-      [ "initFncPointer", "group__GeneralGroup.html#ga190cf30264de3002c79d0b715ed6697a", null ]
-    ] ],
-    [ "MR::PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html", [
-      [ "PythonFunctionAdder", "group__GeneralGroup.html#ga92f1b7ed49df5632fd8dfce63b873672", null ],
-      [ "PythonFunctionAdder", "group__GeneralGroup.html#gae17e29a881000565c3d195b3d466b96f", null ]
-    ] ],
     [ "MR::UnifiedPythonStream", "classMR_1_1UnifiedPythonStream.html", null ],
     [ "MR::TextMeshAlignParams", "structMR_1_1TextMeshAlignParams.html", [
       [ "direction", "group__GeneralGroup.html#ga414e391a4aef8d9ffc82bdd050a469aa", null ],
@@ -9583,7 +9563,6 @@ var group__GeneralGroup =
     [ "MR::RangeProcessorSingle::ProgressHolder", "group__GeneralGroup.html#ga18c7b1c6f5f3eb4ab1f683819ab2526b", null ],
     [ "MR::ProjectOnAllCallback", "group__GeneralGroup.html#ga51c5c9bdf012ab12e360b5e161bb378e", null ],
     [ "MR::Allocator::propagate_on_container_move_assignment", "group__GeneralGroup.html#ga6e5a6cfcecd6d8ac399825a714295023", null ],
-    [ "MR::PythonExport::PythonRegisterFuncton", "group__GeneralGroup.html#ga001e362a5ed99ee391fd182df4571f9c", null ],
     [ "MR::QuadraticForm3", "group__GeneralGroup.html#ga61604865725cf558b532b5e235334f3f", null ],
     [ "MR::Buffer::reference", "group__GeneralGroup.html#gaa0e2029752634265e64418bec35cd18e", null ],
     [ "MR::ChunkIterator::reference", "group__GeneralGroup.html#gaf99ba138aa910783abd6301c80706164", null ],
@@ -10348,11 +10327,6 @@ var group__GeneralGroup =
       [ "MR::OneMeshIntersection::Primitive::Edge", "group__GeneralGroup.html#gga7dcd591850b9c0dcd06eec7acc97f221ae4a297a0f76119a442c2595ac040673e", null ],
       [ "MR::OneMeshIntersection::Primitive::Vert", "group__GeneralGroup.html#gga7dcd591850b9c0dcd06eec7acc97f221af87a604e5366b28ba26e14e20c067de3", null ]
     ] ],
-    [ "MR::PythonExport::Priority", "group__GeneralGroup.html#ga27091fc0ef96636d5c59ff459694a6bf", [
-      [ "MR::PythonExport::Priority::Declaration", "group__GeneralGroup.html#gga27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a", null ],
-      [ "MR::PythonExport::Priority::Implementation", "group__GeneralGroup.html#gga27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689", null ],
-      [ "MR::PythonExport::Priority::Count", "group__GeneralGroup.html#gga27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9", null ]
-    ] ],
     [ "MR::Processing", "group__GeneralGroup.html#gae9fc4543eb3302ae33b7843707485149", [
       [ "MR::Processing::Continue", "group__GeneralGroup.html#ggae9fc4543eb3302ae33b7843707485149aa0bfb8e59e6c13fc8d990781f77694fe", null ],
       [ "MR::Processing::Stop", "group__GeneralGroup.html#ggae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481", null ]
@@ -11046,7 +11020,6 @@ var group__GeneralGroup =
     [ "MR::QuadraticForm::addDistToPlane", "group__GeneralGroup.html#gabd84de324207ec889e01f594968dd8a1", null ],
     [ "MR::QuadraticForm::addDistToPlane", "group__GeneralGroup.html#gafacdc7d86d21e277ea2c254a90c29b61", null ],
     [ "MR::MeshTopology::addFaceId", "group__GeneralGroup.html#gab2810fe9c6b38f4a0926069ab58120ea", null ],
-    [ "MR::PythonExport::addFunc", "group__GeneralGroup.html#ga595ac26b1d2a27a14a95bbc5a1963532", null ],
     [ "MR::Histogram::addHistogram", "group__GeneralGroup.html#ga7669591d105985fc045cd1de3c799be9", null ],
     [ "MR::Dipole::addIfGoodApprox", "group__GeneralGroup.html#ga94e65877ccc74f50e4cf0028f9ae95ae", null ],
     [ "MR::Pdf::addImage", "group__GeneralGroup.html#ga9b68670f477fee6b3fbf360235f0359a", null ],
@@ -11836,9 +11809,6 @@ var group__GeneralGroup =
     [ "MR::decimatePolyline", "group__GeneralGroup.html#ga8184701aebff355e04a3f2f5e218a81f", null ],
     [ "MR::FillHoleItemEdge::decode", "group__GeneralGroup.html#gaca7e1cf40d26625e3f68714cb7cd4150", null ],
     [ "MR::decomposeMatrix3", "group__GeneralGroup.html#ga0f85c4262811b41f6199d5fa1e5b3238", null ],
-    [ "MR::decorateExpected", "group__GeneralGroup.html#ga5fcb58debd182644f22e1ea6eac867b6", null ],
-    [ "MR::decorateExpected", "group__GeneralGroup.html#gabf106ad4f6e3e81079b7698a30f31e20", null ],
-    [ "MR::decorateExpected", "group__GeneralGroup.html#gaa60c1177452c69cf5b8cdab61296d1ce", null ],
     [ "MR::Viewport::PickRenderObjectParams::defaults", "group__GeneralGroup.html#ga12555ed5effec0f6d17edfe0508f0658", null ],
     [ "MR::defaultSerializeMeshFormat", "group__GeneralGroup.html#gaa327a029bad713e6790ebf10e611f39e", null ],
     [ "MR::defaultSerializePointsFormat", "group__GeneralGroup.html#ga2c6a78cd704061f23a26f39a7894d013", null ],
@@ -12296,7 +12266,6 @@ var group__GeneralGroup =
     [ "MR::expandHoles", "group__GeneralGroup.html#ga578b7a52eef31fdc9d31452210309bc2", null ],
     [ "MR::ImGuiMenu::expandObjectTreeAndScroll", "group__GeneralGroup.html#ga107476790b63bb2626af1911696a2612", null ],
     [ "MR::SceneObjectsListDrawer::expandObjectTreeAndScroll", "group__GeneralGroup.html#gaa0df0e36dc182f424db88b3b6b512252", null ],
-    [ "MR::expectedValueOrThrow", "group__GeneralGroup.html#gac95039057559bedc6c5786b29e42d974", null ],
     [ "MR::Nesting::exportNesting3mf", "group__GeneralGroup.html#ga31c71dd46b0d5cd53545f862b1a2a41d", null ],
     [ "MR::exportToolPathToGCode", "group__GeneralGroup.html#ga405417619889942a3d17e4a353f80a8c", null ],
     [ "MR::Features::Primitives::ConeSegment::extendToInfinity", "group__GeneralGroup.html#ga77fb755bf0e8cfee6d7ae93e1f4a022f", null ],
@@ -12625,7 +12594,6 @@ var group__GeneralGroup =
     [ "MR::FunctionRef< R(Args...)>::FunctionRef", "group__GeneralGroup.html#ga257060ec2f36661c4399283277b53fe5", null ],
     [ "MR::FunctionRef< R(Args...)>::FunctionRef", "group__GeneralGroup.html#ga746f1a6b183b4e6ff2d6b3d1617ce2f0", null ],
     [ "MR::FunctionRef< R(Args...)>::FunctionRef", "group__GeneralGroup.html#gaee82bc107d81e4eb00555d53a3da4381", null ],
-    [ "MR::PythonExport::functions", "group__GeneralGroup.html#ga1ae0ff73c0d87a6c897bf89610cabb81", null ],
     [ "MR::functionVolumeToSimpleVolume", "group__GeneralGroup.html#ga98e1035b952283c216159688c04819fd", null ],
     [ "MR::functionVolumeToVdbVolume", "group__GeneralGroup.html#ga429c9f6983e751443e9721e975118b55", null ],
     [ "MR::Vector3::furthestBasisVector", "group__GeneralGroup.html#gaef52fe557a6a536a11a3fbfcd18eaf16", null ],
@@ -13685,7 +13653,6 @@ var group__GeneralGroup =
     [ "MR::ImGuiMenu::instance", "group__GeneralGroup.html#gab64a0169c2ce828e50018e9e77a7efde", null ],
     [ "MR::MoveObjectByMouse::instance", "group__GeneralGroup.html#gaefa7c6fad4fa7ac7ec814c1113c02f99", null ],
     [ "MR::ObjectTagEventDispatcher::instance", "group__GeneralGroup.html#gae14906b90359ad1f7db1d1f5ad93901f", null ],
-    [ "MR::PythonExport::instance", "group__GeneralGroup.html#ga3d12d252cb632a50b51f7172104a5a67", null ],
     [ "MR::RibbonMenu::instance", "group__GeneralGroup.html#ga91704ee598c12651ff29aa0e8cc32348", null ],
     [ "MR::Viewer::instance", "group__GeneralGroup.html#ga827107af544bf966370dc8de607ed59c", null ],
     [ "MR::ViewerSettingsPlugin::instance", "group__GeneralGroup.html#gaf31247144d4b7dbe6ce93572ca7047cc", null ],
@@ -14239,7 +14206,6 @@ var group__GeneralGroup =
     [ "MR::MoveObjectByMouse::MoveObjectByMouseWithSelected::modeFromPickModifiers_", "group__GeneralGroup.html#gad6ee69c955397bca5bbc207ab542b62c", null ],
     [ "MR::MoveObjectByMouseImpl::modeFromPickModifiers_", "group__GeneralGroup.html#ga623c1f7dacde7e4af1153b0825817f6a", null ],
     [ "MR::MeshModifier::modify", "group__GeneralGroup.html#ga14f3f731426c1e9b1b5880af7c52ccbc", null ],
-    [ "MR::PythonExport::modules", "group__GeneralGroup.html#ga67924d9cb7f431bc9894a456c513156f", null ],
     [ "MR::MouseController::mouseAndModToKey", "group__GeneralGroup.html#gae38872a38ceb66e1c2a20f312921b8e8", null ],
     [ "MR::Viewer::mouseClick", "group__GeneralGroup.html#gaa4b3be9edddfa8058ec8168a5e968204", null ],
     [ "MR::UI::mouseControlHint", "group__GeneralGroup.html#ga399037581eed5ef17e203bb0586fdf9d", null ],
@@ -15276,13 +15242,6 @@ var group__GeneralGroup =
     [ "MR::RibbonButtonDrawer::pushRibbonButtonColors", "group__GeneralGroup.html#ga3c7186bc50ce6a3ea4636650286912f5", null ],
     [ "MR::putScanFileNameInZ", "group__GeneralGroup.html#gad32e4b25d65d4972f9223a5261cbd1b9", null ],
     [ "MR::putSimpleVolumeInDenseGrid", "group__GeneralGroup.html#ga3c50f956b4a39dd7c1f0699d10e43868", null ],
-    [ "MR::pythonAppendOrRun", "group__GeneralGroup.html#gaf07768b4409c36a0b8cc9b9849f82691", null ],
-    [ "MR::PythonFunctionAdder::PythonFunctionAdder", "group__GeneralGroup.html#gae17e29a881000565c3d195b3d466b96f", null ],
-    [ "MR::PythonFunctionAdder::PythonFunctionAdder", "group__GeneralGroup.html#ga92f1b7ed49df5632fd8dfce63b873672", null ],
-    [ "MR::pythonRunCommandFromGUIThread", "group__GeneralGroup.html#gad5f4df8e16c18beb7b823f5b8ef7a98c", null ],
-    [ "MR::pythonRunFromGUIThread", "group__GeneralGroup.html#ga98815b53a5018d4a910654f696d65b57", null ],
-    [ "MR::pythonRunFromGUIThread", "group__GeneralGroup.html#ga01c442c33cfa7f1e68e1261ab49b71b5", null ],
-    [ "MR::pythonRunFromGUIThread", "group__GeneralGroup.html#ga0f61ad5fbd50836547b99cd10c78763f", null ],
     [ "MR::Matrix3::qr", "group__GeneralGroup.html#gac913b105d8335b1b6a779f68117dda18", null ],
     [ "MR::quadrangleOtherDiagonal", "group__GeneralGroup.html#ga5297fdab91151bf439ef0099926fc204", null ],
     [ "MR::quadraticForm", "group__GeneralGroup.html#ga6c78318a4606c8e526a8f610a66d7236", null ],
@@ -15901,7 +15860,6 @@ var group__GeneralGroup =
     [ "MR::ObjectGcode::setIdleColor", "group__GeneralGroup.html#ga4e99f4292fdb8c2d1fd7bbb1dbb7a69d", null ],
     [ "MR::SurfaceManipulationWidget::setIgnoreOcclusion", "group__GeneralGroup.html#ga3bc89f53e9455e469e85b68524cbc035", null ],
     [ "MR::PlaneWidget::setImportPlaneMode", "group__GeneralGroup.html#ga6c32825610c4ff686cfc0e6e4b30ec04", null ],
-    [ "MR::PythonExport::setInitFuncPtr", "group__GeneralGroup.html#ga1105f4987df7b1b8d9d469115a831880", null ],
     [ "MR::WebRequest::setInputPath", "group__GeneralGroup.html#gab0df4bbf0b815121d466b8f7fc0025dd", null ],
     [ "MR::Config::setInt", "group__GeneralGroup.html#ga691ef8386728c865327bf788a397e006", null ],
     [ "MR::RangeProcessor::setInterrupt", "group__GeneralGroup.html#ga1432b399331e9db2525b5c7b6b79a360", null ],
@@ -16506,7 +16464,6 @@ var group__GeneralGroup =
     [ "MR::Tgt2SrcMaps::Tgt2SrcMaps", "group__GeneralGroup.html#gacdb4fb997e416141632f27496ec6d8f0", null ],
     [ "MR::thickenMesh", "group__GeneralGroup.html#gab71fd6f93b613c7d69006787b13e5f3b", null ],
     [ "MR::TransformControls::ThresholdDotValidator", "group__GeneralGroup.html#gaefa2389b91822b75c0fdbec1a441276a", null ],
-    [ "MR::throwExceptionFromExpected", "group__GeneralGroup.html#ga396596cb5cea6d2f8fec7b7838ae2bc5", null ],
     [ "MR::ObjectSave::toAnySupportedFormat", "group__GeneralGroup.html#ga0608cdde2a887ca5a818ea80d05340ab", null ],
     [ "MR::ObjectSave::toAnySupportedSceneFormat", "group__GeneralGroup.html#gadd599c2ce208d307f45d847e255a38da", null ],
     [ "MR::MeshSave::toCtm", "group__GeneralGroup.html#ga6482d0b63851221c94c50665e4bbb4b9", null ],
@@ -17886,7 +17843,6 @@ var group__GeneralGroup =
     [ "MR::CommandLoop::Command::func", "group__GeneralGroup.html#ga495828361402419df380d32dc7480fed", null ],
     [ "MR::CurveFunc::func", "group__GeneralGroup.html#ga7a92b6effeeb33d9c993fa589c5eff96", null ],
     [ "MR::ShortcutManager::ShortcutAction::func", "group__GeneralGroup.html#ga0a5b5d199aa906bfbcf6e2601ec29929", null ],
-    [ "MR::PythonExport::ModuleData::functions", "group__GeneralGroup.html#ga0fe7a81962a7cace96c7ec89855e1064", null ],
     [ "MR::FunctionVolume", "group__GeneralGroup.html#gaf5e12b5511f0ccaffdaa09477d3a83a8", null ],
     [ "MR::DoubleOffsetSettings::fwn", "group__GeneralGroup.html#ga1cadab99fc35f1301c687dea94206707", null ],
     [ "MR::MakeSignedByWindingNumberSettings::fwn", "group__GeneralGroup.html#ga94b1baa91b7a7f5cc08e84e5505680c2", null ],
@@ -17970,7 +17926,6 @@ var group__GeneralGroup =
     [ "MR::OffsetContoursParams::indicesMap", "group__GeneralGroup.html#ga8f22257eec663355f415c139933b24e3", null ],
     [ "MR::PlanarTriangulation::OutlineParameters::indicesMap", "group__GeneralGroup.html#gad009c4928ad149dd5ce93232c4d495f2", null ],
     [ "MR::MeshPoint::inDir", "group__GeneralGroup.html#gae6a8983e822178897c427087d4f65a28", null ],
-    [ "MR::PythonExport::ModuleData::initFncPointer", "group__GeneralGroup.html#ga190cf30264de3002c79d0b715ed6697a", null ],
     [ "MR::ImGuiMenu::TagEditorState::initHasFrontColor", "group__GeneralGroup.html#gafb6faf8bc0849a0b80ae509cdf5c4b25", null ],
     [ "MR::ImGuiMenu::TagEditorState::initName", "group__GeneralGroup.html#gabaec0c0a0a46426ec7ec96e959e4f421", null ],
     [ "MR::RigidXfRansacParams::inlierDistance", "group__GeneralGroup.html#gaaa395925f32b2296a6a40cc7e8a3572e", null ],

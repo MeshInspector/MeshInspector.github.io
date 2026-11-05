@@ -248,6 +248,7 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "std_optional_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitiv__9713.h", "std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html", "std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h" ],
     [ "std_optional_std_vector_MR_ObjVertId.h", "std__optional__std__vector__MR__ObjVertId_8h.html", "std__optional__std__vector__MR__ObjVertId_8h" ],
     [ "std_optional_std_vector_MR_SomeLocalTriangulations.h", "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html", "std__optional__std__vector__MR__SomeLocalTriangulations_8h" ],
+    [ "std_optional_std_vector_std_string.h", "std__optional__std__vector__std__string_8h.html", "std__optional__std__vector__std__string_8h" ],
     [ "std_pair_bool_int.h", "std__pair__bool__int_8h.html", "std__pair__bool__int_8h" ],
     [ "std_pair_const_int_MR_Box3i.h", "std__pair__const__int__MR__Box3i_8h.html", "std__pair__const__int__MR__Box3i_8h" ],
     [ "std_pair_const_MR_EdgeId_MR_EdgeId.h", "std__pair__const__MR__EdgeId__MR__EdgeId_8h.html", "std__pair__const__MR__EdgeId__MR__EdgeId_8h" ],

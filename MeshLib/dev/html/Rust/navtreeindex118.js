@@ -1,5 +1,6 @@
 var NAVTREEINDEX118 =
 {
+"structmeshlib_1_1ReduceTotalAngleParams.html#a0826275cdd377b525086b0a91e1fe8f4":[9,5,0,0,0,866,11],
 "structmeshlib_1_1ReduceTotalAngleParams.html#a0826275cdd377b525086b0a91e1fe8f4":[9,5,1,0,0,853,11],
 "structmeshlib_1_1ReduceTotalAngleParams.html#a12c767e30f63cfd32aafa5ba8167775b":[9,5,0,0,0,866,10],
 "structmeshlib_1_1ReduceTotalAngleParams.html#a12c767e30f63cfd32aafa5ba8167775b":[9,5,1,0,0,853,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX118 =
 "structmeshlib_1_1RelaxApproxType.html":[9,5,0,0,0,871],
 "structmeshlib_1_1RelaxApproxType.html":[9,5,1,0,0,858],
 "structmeshlib_1_1RelaxParams.html":[9,5,0,0,0,872],
-"structmeshlib_1_1RelaxParams.html":[9,5,1,0,0,859],
-"structmeshlib_1_1RelaxParams.html#a11ddb934e5ec1c0ce794af462e193315":[9,5,0,0,0,872,8]
+"structmeshlib_1_1RelaxParams.html":[9,5,1,0,0,859]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX123 =
 {
+"structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a952747ea24fb7607d28461a15356f2d0":[9,5,0,0,0,913,14],
 "structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a952747ea24fb7607d28461a15356f2d0":[9,5,1,0,0,900,14],
 "structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#aa707b131c53140dd8d021ba3839b2a80":[9,5,0,0,0,913,7],
 "structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#aa707b131c53140dd8d021ba3839b2a80":[9,5,1,0,0,900,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX123 =
 "structmeshlib_1_1SimpleVolumeMinMax.html#a3dcf3901e0db6055f0346a0abeed03db":[9,5,0,0,0,924,12],
 "structmeshlib_1_1SimpleVolumeMinMax.html#a3dcf3901e0db6055f0346a0abeed03db":[9,5,1,0,0,911,12],
 "structmeshlib_1_1SimpleVolumeMinMax.html#a52f5bcabcd839cb4e590e7904a3dcffa":[9,5,0,0,0,924,5],
-"structmeshlib_1_1SimpleVolumeMinMax.html#a52f5bcabcd839cb4e590e7904a3dcffa":[9,5,1,0,0,911,5],
-"structmeshlib_1_1SimpleVolumeMinMax.html#a5395edf14f434ae0c5ebcdddfc608d5c":[9,5,0,0,0,924,0]
+"structmeshlib_1_1SimpleVolumeMinMax.html#a52f5bcabcd839cb4e590e7904a3dcffa":[9,5,1,0,0,911,5]
 };

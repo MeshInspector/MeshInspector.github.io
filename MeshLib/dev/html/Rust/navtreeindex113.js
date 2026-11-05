@@ -1,5 +1,6 @@
 var NAVTREEINDEX113 =
 {
+"structmeshlib_1_1PolylineProjectionWithOffsetResult3.html#a5eb25dc73b483cffe7bd97a81b58531c":[9,5,1,0,0,802,0],
 "structmeshlib_1_1PolylineProjectionWithOffsetResult3.html#a72ac700dddbacf8eb6aa35012785fee5":[9,5,0,0,0,815,4],
 "structmeshlib_1_1PolylineProjectionWithOffsetResult3.html#a72ac700dddbacf8eb6aa35012785fee5":[9,5,1,0,0,802,4],
 "structmeshlib_1_1PolylineProjectionWithOffsetResult3.html#ab478b53c2790a55f10865f7b0ebc9e6b":[9,5,0,0,0,815,5],
@@ -232,7 +233,7 @@ var NAVTREEINDEX113 =
 "structmeshlib_1_1PolylineTraits__MR__Vector3f.html#a82f3502e3ef23bd87a7516d88a57ad84":[9,5,1,0,0,808,0],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html":[9,5,0,0,0,822],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html":[9,5,1,0,0,809],
-"structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,0,0,0,3189],
+"structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,0,0,0,3190],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,0,0,0,822,3],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a051565ec6f85b8b1b8b0796637b71559":[9,5,1,0,0,809,3],
 "structmeshlib_1_1PolylineUndirectedEdgeIterator.html#a524104fe078d3d9c604e42cb75065808":[9,5,0,0,0,822,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX113 =
 "structmeshlib_1_1PolynomialWrapper__double.html#a7293a4a0c2ebc01baca584c1ccbfe8b5":[9,5,0,0,0,837,4],
 "structmeshlib_1_1PolynomialWrapper__double.html#a7293a4a0c2ebc01baca584c1ccbfe8b5":[9,5,1,0,0,824,4],
 "structmeshlib_1_1PolynomialWrapper__double.html#a7834d0b00f8c242f5f6abe3aee668041":[9,5,0,0,0,837,0],
-"structmeshlib_1_1PolynomialWrapper__double.html#a7834d0b00f8c242f5f6abe3aee668041":[9,5,1,0,0,824,0],
-"structmeshlib_1_1PolynomialWrapper__double.html#a78a4db4eba8327bfe330be60e04bcf58":[9,5,0,0,0,837,6]
+"structmeshlib_1_1PolynomialWrapper__double.html#a7834d0b00f8c242f5f6abe3aee668041":[9,5,1,0,0,824,0]
 };

@@ -1232,6 +1232,7 @@ var hierarchy =
         [ "meshlib.std_optional_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane", "classmeshlib_1_1std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegmenta7a26bdb131134860ade1766624afcce.html", null ],
         [ "meshlib.std_optional_std_vector_MR_ObjVertId", "classmeshlib_1_1std__optional__std__vector__MR__ObjVertId.html", null ],
         [ "meshlib.std_optional_std_vector_MR_SomeLocalTriangulations", "classmeshlib_1_1std__optional__std__vector__MR__SomeLocalTriangulations.html", null ],
+        [ "meshlib.std_optional_std_vector_std_string", "classmeshlib_1_1std__optional__std__vector__std__string.html", null ],
         [ "meshlib.std_ostream", "classmeshlib_1_1std__ostream.html", null ],
         [ "meshlib.std_pair_MR_DistanceMap_MR_DistanceMap", "classmeshlib_1_1std__pair__MR__DistanceMap__MR__DistanceMap.html", null ],
         [ "meshlib.std_pair_MR_EdgeId_MR_EdgeId", "classmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html", null ],

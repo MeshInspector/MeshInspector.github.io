@@ -9,9 +9,9 @@ var files_dup =
     [ "MRMCPGateway", "dir_1b5fde6d84c504af4a8aa0c6b6985b0f.html", "dir_1b5fde6d84c504af4a8aa0c6b6985b0f" ],
     [ "MRMesh", "dir_0cc3bc4bf87f190d6580fb811ae42f71.html", "dir_0cc3bc4bf87f190d6580fb811ae42f71" ],
     [ "MRPython", "dir_ca44b97f550f42eca9f43db8a22a2b9a.html", "dir_ca44b97f550f42eca9f43db8a22a2b9a" ],
+    [ "MRPythonViewer", "dir_351a3a007aa74fab47e15b77026de740.html", "dir_351a3a007aa74fab47e15b77026de740" ],
     [ "MRSymbolMesh", "dir_c4126fa9d9867e166f1a7e7ef3206f30.html", "dir_c4126fa9d9867e166f1a7e7ef3206f30" ],
     [ "MRViewer", "dir_9f7f527b3d798641b224411d64f042be.html", "dir_9f7f527b3d798641b224411d64f042be" ],
-    [ "mrviewerpy", "dir_b46a59acbd08f9454b9c04f8647d71df.html", "dir_b46a59acbd08f9454b9c04f8647d71df" ],
     [ "MRVoxels", "dir_6afa1a38044d7bf79492c684c039cbe0.html", "dir_6afa1a38044d7bf79492c684c039cbe0" ],
     [ "MRWasmModule", "dir_7f4c04d2066e9d07ded7e551ceec709e.html", "dir_7f4c04d2066e9d07ded7e551ceec709e" ]
 ];

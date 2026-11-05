@@ -206,6 +206,18 @@ var annotated_dup =
       [ "PolylineComponents", "namespaceMR_1_1PolylineComponents.html", [
         [ "LargeByLengthComponentsSettings", "structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html", "structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" ]
       ] ],
+      [ "PythonViewer", "namespaceMR_1_1PythonViewer.html", [
+        [ "UiEntry", "structMR_1_1PythonViewer_1_1UiEntry.html", "structMR_1_1PythonViewer_1_1UiEntry" ],
+        [ "UiValueInt", "structMR_1_1PythonViewer_1_1UiValueInt.html", "structMR_1_1PythonViewer_1_1UiValueInt" ],
+        [ "UiValueReal", "structMR_1_1PythonViewer_1_1UiValueReal.html", "structMR_1_1PythonViewer_1_1UiValueReal" ],
+        [ "UiValueString", "structMR_1_1PythonViewer_1_1UiValueString.html", "structMR_1_1PythonViewer_1_1UiValueString" ],
+        [ "UiValueUint", "structMR_1_1PythonViewer_1_1UiValueUint.html", "structMR_1_1PythonViewer_1_1UiValueUint" ],
+        [ "Viewer", "classMR_1_1PythonViewer_1_1Viewer.html", "classMR_1_1PythonViewer_1_1Viewer" ],
+        [ "ViewerLaunchParams", "structMR_1_1PythonViewer_1_1ViewerLaunchParams.html", "structMR_1_1PythonViewer_1_1ViewerLaunchParams" ],
+        [ "ViewerSetup", "structMR_1_1PythonViewer_1_1ViewerSetup.html", null ],
+        [ "Viewport", "classMR_1_1PythonViewer_1_1Viewport.html", "classMR_1_1PythonViewer_1_1Viewport" ],
+        [ "ViewportFitDataParams", "structMR_1_1PythonViewer_1_1ViewportFitDataParams.html", "structMR_1_1PythonViewer_1_1ViewportFitDataParams" ]
+      ] ],
       [ "RasterLoad", "namespaceMR_1_1RasterLoad.html", [
         [ "RasterLoader", "structMR_1_1RasterLoad_1_1RasterLoader.html", "structMR_1_1RasterLoad_1_1RasterLoader" ],
         [ "TiffLoadSettings", "structMR_1_1RasterLoad_1_1TiffLoadSettings.html", "structMR_1_1RasterLoad_1_1TiffLoadSettings" ]
@@ -905,8 +917,6 @@ var annotated_dup =
       [ "ProgressInterrupter", "structMR_1_1ProgressInterrupter.html", "structMR_1_1ProgressInterrupter" ],
       [ "ProjectAttributeParams", "structMR_1_1ProjectAttributeParams.html", "structMR_1_1ProjectAttributeParams" ],
       [ "ProvidesViewportWidget", "classMR_1_1ProvidesViewportWidget.html", "classMR_1_1ProvidesViewportWidget" ],
-      [ "PythonExport", "classMR_1_1PythonExport.html", "classMR_1_1PythonExport" ],
-      [ "PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html", "structMR_1_1PythonFunctionAdder" ],
       [ "QuadraticForm", "structMR_1_1QuadraticForm.html", "structMR_1_1QuadraticForm" ],
       [ "QuadricApprox", "classMR_1_1QuadricApprox.html", "classMR_1_1QuadricApprox" ],
       [ "QuadTextureVertexObject", "classMR_1_1QuadTextureVertexObject.html", "classMR_1_1QuadTextureVertexObject" ],

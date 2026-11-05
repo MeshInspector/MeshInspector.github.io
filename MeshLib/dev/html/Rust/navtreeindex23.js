@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"structmeshlib_1_1BMap__MR__RegionId__MR__RegionId.html":[9,5,1,0,0,91],
 "structmeshlib_1_1BMap__MR__RegionId__MR__RegionId.html#a05f5026b37be71e21339d4c6fe1b2b56":[9,5,0,0,0,104,5],
 "structmeshlib_1_1BMap__MR__RegionId__MR__RegionId.html#a05f5026b37be71e21339d4c6fe1b2b56":[9,5,1,0,0,91,5],
 "structmeshlib_1_1BMap__MR__RegionId__MR__RegionId.html#a06ac31ff23660facb75f8193ab5d9baa":[9,5,0,0,0,104,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "structmeshlib_1_1BaseShellParameters.html#ad904a1e25d02f61f927fe89c6ac4c051":[9,5,1,0,0,70,6],
 "structmeshlib_1_1BaseShellParameters.html#af04ed669ad4b4fce70eee603105b95aa":[9,5,0,0,0,83,5],
 "structmeshlib_1_1BaseShellParameters.html#af04ed669ad4b4fce70eee603105b95aa":[9,5,1,0,0,70,5],
-"structmeshlib_1_1BaseUnionFind__MR__FaceId.html":[9,5,0,0,0,84],
-"structmeshlib_1_1BaseUnionFind__MR__FaceId.html":[9,5,1,0,0,71]
+"structmeshlib_1_1BaseUnionFind__MR__FaceId.html":[9,5,0,0,0,84]
 };

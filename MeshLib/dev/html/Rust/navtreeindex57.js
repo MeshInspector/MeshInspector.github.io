@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"structmeshlib_1_1FindOutliersParams.html#a58d9368e7c279ab1aaab62383f67acbe":[9,5,1,0,0,415,7],
 "structmeshlib_1_1FindOutliersParams.html#a5cd1c5662d192ade670e213c50dbc407":[9,5,0,0,0,428,0],
 "structmeshlib_1_1FindOutliersParams.html#a5cd1c5662d192ade670e213c50dbc407":[9,5,1,0,0,415,0],
 "structmeshlib_1_1FindOutliersParams.html#a83dd870a524c6a78cd4838c39014d533":[9,5,0,0,0,428,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structmeshlib_1_1FlowAggregator.html#a17106ca44f7632481bf922e946e68958":[9,5,1,0,0,424,2],
 "structmeshlib_1_1FlowAggregator.html#a34a3559a91cdc12e447e248f0f659009":[9,5,0,0,0,437,1],
 "structmeshlib_1_1FlowAggregator.html#a34a3559a91cdc12e447e248f0f659009":[9,5,1,0,0,424,1],
-"structmeshlib_1_1FlowAggregator.html#a398757f902dcc151428629fc0f66d9ed":[9,5,0,0,0,437,5],
-"structmeshlib_1_1FlowAggregator.html#a398757f902dcc151428629fc0f66d9ed":[9,5,1,0,0,424,5]
+"structmeshlib_1_1FlowAggregator.html#a398757f902dcc151428629fc0f66d9ed":[9,5,0,0,0,437,5]
 };

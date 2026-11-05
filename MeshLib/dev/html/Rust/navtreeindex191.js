@@ -1,5 +1,6 @@
 var NAVTREEINDEX191 =
 {
+"structmeshlib_1_1std__optional__MR__Edges.html#a9014862871e73eb598e0b7b30f5ba63f":[9,5,0,0,0,1060,1],
 "structmeshlib_1_1std__optional__MR__Edges.html#a9014862871e73eb598e0b7b30f5ba63f":[9,5,1,0,0,1047,1],
 "structmeshlib_1_1std__optional__MR__Edges.html#aa1c0c48908ea01d63cf8bdbd24ddfeb1":[9,5,0,0,0,1060,4],
 "structmeshlib_1_1std__optional__MR__Edges.html#aa1c0c48908ea01d63cf8bdbd24ddfeb1":[9,5,1,0,0,1047,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX191 =
 "structmeshlib_1_1std__optional__MR__Vector3d.html#ae3192d5dadba4544cc3ca985f016e89c":[9,5,0,0,0,1080,0],
 "structmeshlib_1_1std__optional__MR__Vector3d.html#ae3192d5dadba4544cc3ca985f016e89c":[9,5,1,0,0,1067,0],
 "structmeshlib_1_1std__optional__MR__Vector3f.html":[9,5,0,0,0,1081],
-"structmeshlib_1_1std__optional__MR__Vector3f.html":[9,5,1,0,0,1068],
-"structmeshlib_1_1std__optional__MR__Vector3f.html#a10dd47813b36d85b7d03ec477e6ba5b4":[9,5,0,0,0,1081,0]
+"structmeshlib_1_1std__optional__MR__Vector3f.html":[9,5,1,0,0,1068]
 };

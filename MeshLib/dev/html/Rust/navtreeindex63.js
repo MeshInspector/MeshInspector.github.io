@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structmeshlib_1_1IICPTreeIndexer.html#ac75712d5fedf3a8280c54c82aa476a37":[9,5,1,0,0,473,2],
 "structmeshlib_1_1IICPTreeIndexer.html#ace1e7523fe01ba2283ea2da708ccb167":[9,5,0,0,0,486,4],
 "structmeshlib_1_1IICPTreeIndexer.html#ace1e7523fe01ba2283ea2da708ccb167":[9,5,1,0,0,473,4],
 "structmeshlib_1_1IOFilter.html":[9,5,0,0,0,506],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structmeshlib_1_1InSphereSearchSettings.html#ad7f51524454b7b22ddec71d1e8109846":[9,5,1,0,0,480,9],
 "structmeshlib_1_1InSphereSearchSettings.html#ade5098403763732b69ee54309aeec473":[9,5,0,0,0,493,7],
 "structmeshlib_1_1InSphereSearchSettings.html#ade5098403763732b69ee54309aeec473":[9,5,1,0,0,480,7],
-"structmeshlib_1_1InSphereSearchSettings.html#ae829d5a5a58c87d0dec9f11296a00af8":[9,5,0,0,0,493,12],
-"structmeshlib_1_1InSphereSearchSettings.html#ae829d5a5a58c87d0dec9f11296a00af8":[9,5,1,0,0,480,12]
+"structmeshlib_1_1InSphereSearchSettings.html#ae829d5a5a58c87d0dec9f11296a00af8":[9,5,0,0,0,493,12]
 };

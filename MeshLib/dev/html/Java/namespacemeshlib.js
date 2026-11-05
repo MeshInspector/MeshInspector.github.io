@@ -1103,6 +1103,7 @@ var namespacemeshlib =
     [ "std_optional_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane", "classmeshlib_1_1std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegmenta7a26bdb131134860ade1766624afcce.html", "classmeshlib_1_1std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegmenta7a26bdb131134860ade1766624afcce" ],
     [ "std_optional_std_vector_MR_ObjVertId", "classmeshlib_1_1std__optional__std__vector__MR__ObjVertId.html", "classmeshlib_1_1std__optional__std__vector__MR__ObjVertId" ],
     [ "std_optional_std_vector_MR_SomeLocalTriangulations", "classmeshlib_1_1std__optional__std__vector__MR__SomeLocalTriangulations.html", "classmeshlib_1_1std__optional__std__vector__MR__SomeLocalTriangulations" ],
+    [ "std_optional_std_vector_std_string", "classmeshlib_1_1std__optional__std__vector__std__string.html", "classmeshlib_1_1std__optional__std__vector__std__string" ],
     [ "std_ostream", "classmeshlib_1_1std__ostream.html", "classmeshlib_1_1std__ostream" ],
     [ "std_pair_bool_int", "classmeshlib_1_1std__pair__bool__int.html", "classmeshlib_1_1std__pair__bool__int" ],
     [ "std_pair_const_int_MR_Box3i", "classmeshlib_1_1std__pair__const__int__MR__Box3i.html", "classmeshlib_1_1std__pair__const__int__MR__Box3i" ],
