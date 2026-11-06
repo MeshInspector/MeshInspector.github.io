@@ -10,7 +10,7 @@ var classMR_1_1Viewport =
     [ "~Viewport", "group__GeneralGroup.html#ga8eb0360ddc396efa4203aeee18c307fe", null ],
     [ "Viewport", "group__GeneralGroup.html#ga7908cda66a545c1f4f3af995ed58a291", null ],
     [ "allModelsInsideViewportRectangle", "group__GeneralGroup.html#ga7de1b213b70aabd1ed6f41b3abf5c002", null ],
-    [ "animateCamera", "group__GeneralGroup.html#ga0a30360905aa80f57f8ed88fcebfb2bf", null ],
+    [ "animateCamera", "group__GeneralGroup.html#ga5dfb00c5481d5b79830eea149d5d1e16", null ],
     [ "calcFitBoxParameters", "group__GeneralGroup.html#gac376e0beeb605fa083290b0b579e8e85", null ],
     [ "calcFitDataParameters", "group__GeneralGroup.html#ga5f5ea4e87d3ebe56732f339280095648", null ],
     [ "calcPreciseFitBoxParameters", "group__GeneralGroup.html#ga4b068217680d13f7b1c3869565b613a2", null ],

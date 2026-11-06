@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"group__MeshFixerGroup.html#ga7ed9b863f3586261b7732c0dba013eae":[9,0,0,9,4,25],
+"group__MeshFixerGroup.html#ga81e1fcab0f64d4bdb4ccf19d7e67bae1":[9,0,0,9,4,15],
 "group__MeshFixerGroup.html#ga83684a28016ea3e3feadd7c643905e6d":[9,0,0,9,4,14],
 "group__MeshFixerGroup.html#ga900c1c80bfa1ca726e5afe5ccab5b31d":[9,0,0,9,4,6],
 "group__MeshFixerGroup.html#ga9f1f866643e15bf1b9d9131f2d6dad0e":[9,0,0,9,4,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "group__SerializerGroup.html#gaff43d6038d63bac26080d08d71953dd3":[9,0,0,2,18,58],
 "group__SubvoxelMeshCorrection.html":[9,0,0,16,1],
 "group__SubvoxelMeshCorrection.html#ga1e8644361ce63a01cc5bf2f55019c438":[9,0,0,16,1,2],
-"group__SurfaceDistanceBuilder.html":[9,0,0,15,2],
-"group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[9,0,0,15,2,3],
-"group__SurfaceDistanceBuilder.html#ga6dbea68a5e40bf1878ced341fab86b83":[9,0,0,15,2,2]
+"group__SurfaceDistanceBuilder.html":[9,0,0,15,2]
 };

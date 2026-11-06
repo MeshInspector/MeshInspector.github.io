@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1NoVisualRepresentationCheck.html":[9,0,0,19,732],
+"structMR_1_1NodeNode.html":[9,0,0,1,5],
 "structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18":[9,0,0,1,5,1],
 "structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2":[9,0,0,1,5,0],
 "structMR_1_1NoiseSettings.html":[9,0,0,19,119],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1PreciseCutPoint.html#a59bae2c82eba05713f1c6e0501eeaa63":[9,0,0,0,16,4],
 "structMR_1_1PreciseCutPoint.html#a8a92fbd8e3905e3e715622593fd712c9":[9,0,0,0,16,3],
 "structMR_1_1PreciseCutPoint.html#a9e387bdf21acfb67f979c94f79db10e4":[9,0,0,0,16,0],
-"structMR_1_1PreciseVertCoord.html":[9,0,0,0,22],
-"structMR_1_1PreciseVertCoord.html":[9,0,0,19,485],
-"structMR_1_1PreciseVertCoords.html":[9,0,0,19,489]
+"structMR_1_1PreciseVertCoord.html":[9,0,0,0,22]
 };

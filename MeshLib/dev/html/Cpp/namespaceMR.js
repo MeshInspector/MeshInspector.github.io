@@ -3751,7 +3751,7 @@ var namespaceMR =
     [ "unitVector3", "group__GeneralGroup.html#ga14f7f0adb55e73e84d46a542b9b91186", null ],
     [ "unregisterThreadRootTimeRecord", "group__BasicGroup.html#ga800a6651bd5ddc83378a46dccfa9dc03", null ],
     [ "updateCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga91e422710464a72aa3c6bb6894527e72", null ],
-    [ "updateCurrentViewByControllerRegion", "group__GeneralGroup.html#gac1516c648ca1edb3f56c9b5bc47f0271", null ],
+    [ "updateCurrentViewByControllerRegion", "group__GeneralGroup.html#gae9bafb47564e545d60f69f410e23be23", null ],
     [ "updateGroupPairs", "group__GeneralGroup.html#ga8b53d4824a98c05f3bfe0e82093609ea", null ],
     [ "updateIndicator", "group__GeneralGroup.html#ga7ffe0a021107f569b3ffa018da32e9b2", null ],
     [ "updateIndicatorFast", "group__GeneralGroup.html#gab54d26f09a8a2f95888858cfdcdd347c", null ],

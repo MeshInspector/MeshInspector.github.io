@@ -11,5 +11,5 @@ var MRViewportCornerController_8h =
     [ "MR::makeCornerControllerMesh", "group__GeneralGroup.html#ga0914200c524fcf5f6c826026815e6e9c", null ],
     [ "MR::makeCornerControllerRotationArrowMesh", "group__GeneralGroup.html#gad638575de26373816cb59fee9d0c508e", null ],
     [ "MR::makeCornerControllerUVCoords", "group__GeneralGroup.html#gaa118cde424349c7e21ed618816a1de7f", null ],
-    [ "MR::updateCurrentViewByControllerRegion", "group__GeneralGroup.html#gac1516c648ca1edb3f56c9b5bc47f0271", null ]
+    [ "MR::updateCurrentViewByControllerRegion", "group__GeneralGroup.html#gae9bafb47564e545d60f69f410e23be23", null ]
 ];
