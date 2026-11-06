@@ -181,10 +181,10 @@ $(function(){initNavTree('ExampleBooleanBenchmark.html','',''); });
 <div class="line">            <span class="keywordflow">return</span> 1;</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
-<div class="line">    <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code hl_enumvalueRef" href="./Cpp/group__GeneralGroup.html#gaf380c745631672883c31b1875697b2e5a783e8e29e6a8c3e22baa58a19420eb4f">seconds</a> = std::chrono::duration&lt;double&gt;( std::chrono::steady_clock::now() - <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4728051228e7a8b6910c567e9a075840">start</a> ).count();</div>
+<div class="line">    <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga654f0f339225a8fe4c3f390d517ce897">seconds</a> = std::chrono::duration&lt;double&gt;( std::chrono::steady_clock::now() - <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4728051228e7a8b6910c567e9a075840">start</a> ).count();</div>
 <div class="line"> </div>
-<div class="line">    std::cout &lt;&lt; std::fixed &lt;&lt; numBooleans &lt;&lt; <span class="stringliteral">&quot; Booleans in &quot;</span> &lt;&lt; std::setprecision( 3 ) &lt;&lt; <a class="code hl_enumvalueRef" href="./Cpp/group__GeneralGroup.html#gaf380c745631672883c31b1875697b2e5a783e8e29e6a8c3e22baa58a19420eb4f">seconds</a> &lt;&lt; <span class="stringliteral">&quot; s, &quot;</span></div>
-<div class="line">              &lt;&lt; std::setprecision( 1 ) &lt;&lt; numBooleans / <a class="code hl_enumvalueRef" href="./Cpp/group__GeneralGroup.html#gaf380c745631672883c31b1875697b2e5a783e8e29e6a8c3e22baa58a19420eb4f">seconds</a> &lt;&lt; <span class="stringliteral">&quot; Booleans/s&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line">    std::cout &lt;&lt; std::fixed &lt;&lt; numBooleans &lt;&lt; <span class="stringliteral">&quot; Booleans in &quot;</span> &lt;&lt; std::setprecision( 3 ) &lt;&lt; <a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga654f0f339225a8fe4c3f390d517ce897">seconds</a> &lt;&lt; <span class="stringliteral">&quot; s, &quot;</span></div>
+<div class="line">              &lt;&lt; std::setprecision( 1 ) &lt;&lt; numBooleans / <a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga654f0f339225a8fe4c3f390d517ce897">seconds</a> &lt;&lt; <span class="stringliteral">&quot; Booleans/s&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
@@ -197,7 +197,7 @@ $(function(){initNavTree('ExampleBooleanBenchmark.html','',''); });
 <div class="ttc" id="agroup__BooleanGroup_html_ga16435c813b6198ecc337b3023c2cc729"><div class="ttname"><a href="./Cpp/group__BooleanGroup.html#ga16435c813b6198ecc337b3023c2cc729">MR::boolean</a></div><div class="ttdeci">BooleanResult boolean(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const AffineXf3f *rigidB2A, BooleanResultMapper *mapper=nullptr, ProgressCallback cb={})</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga1c2da48497693f219de4c05f49173277"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga1c2da48497693f219de4c05f49173277">MR::makeSphere</a></div><div class="ttdeci">Mesh makeSphere(const SphereParams &amp;params)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga4728051228e7a8b6910c567e9a075840"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga4728051228e7a8b6910c567e9a075840">start</a></div><div class="ttdeci">EdgeId start(VertId v)</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_gaf380c745631672883c31b1875697b2e5a783e8e29e6a8c3e22baa58a19420eb4f"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#gaf380c745631672883c31b1875697b2e5a783e8e29e6a8c3e22baa58a19420eb4f">MR::TimeUnit::seconds</a></div><div class="ttdeci">@ seconds</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga654f0f339225a8fe4c3f390d517ce897"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga654f0f339225a8fe4c3f390d517ce897">MR::Viewport::CameraAnimation::seconds</a></div><div class="ttdeci">float seconds</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> math</div>
@@ -294,7 +294,7 @@ $(function(){initNavTree('ExampleBooleanBenchmark.html','',''); });
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 1; i &lt;= numBooleans; ++i )</div>
 <div class="line">        <span class="keywordflow">if</span> ( !subtractRotated( sphereA, sphereB, i ) )</div>
 <div class="line">            <span class="keywordflow">goto</span> fail;</div>
-<div class="line">    <span class="keywordtype">double</span> <a class="code hl_enumvalueRef" href="./Cpp/group__GeneralGroup.html#gaf380c745631672883c31b1875697b2e5a783e8e29e6a8c3e22baa58a19420eb4f">seconds</a> = nowSeconds() - <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4728051228e7a8b6910c567e9a075840">start</a>;</div>
+<div class="line">    <span class="keywordtype">double</span> <a class="code hl_variableRef" href="./Cpp/group__GeneralGroup.html#ga654f0f339225a8fe4c3f390d517ce897">seconds</a> = nowSeconds() - <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga4728051228e7a8b6910c567e9a075840">start</a>;</div>
 <div class="line"> </div>
 <div class="line">    printf( <span class="stringliteral">&quot;%d Booleans in %.3f s, %.1f Booleans/s\n&quot;</span>, numBooleans, seconds, numBooleans / seconds );</div>
 <div class="line"> </div>

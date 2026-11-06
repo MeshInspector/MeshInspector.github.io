@@ -1,5 +1,14 @@
 var NAVTREEINDEX73 =
 {
+"structWasm_1_1TypedArrayName.html":[9,0,1,0,3,0],
+"structWasm_1_1TypedArrayName.html":[9,0,2,0,2,0],
+"structWasm_1_1TypedArrayName_3_01float_01_4.html":[9,0,1,0,3,1],
+"structWasm_1_1TypedArrayName_3_01float_01_4.html":[9,0,2,0,2,1],
+"structWasm_1_1TypedArrayName_3_01uint32__t_01_4.html":[9,0,1,0,3,2],
+"structWasm_1_1TypedArrayName_3_01uint32__t_01_4.html":[9,0,2,0,2,2],
+"structWasm_1_1TypedArrayName_3_01uint8__t_01_4.html":[9,0,1,0,3,3],
+"structWasm_1_1TypedArrayName_3_01uint8__t_01_4.html":[9,0,2,0,2,3],
+"structWasm_1_1TypedArrayValType.html":[9,0,1,0,3,4],
 "structWasm_1_1TypedArrayValType.html":[9,0,2,0,2,4],
 "structWasm_1_1TypedArrayValType_3_01float_01_4.html":[9,0,1,0,3,5],
 "structWasm_1_1TypedArrayValType_3_01float_01_4.html":[9,0,2,0,2,5],

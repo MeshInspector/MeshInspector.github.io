@@ -1,5 +1,14 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18":[9,0,0,1,5,1],
+"structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2":[9,0,0,1,5,0],
+"structMR_1_1NoiseSettings.html":[9,0,0,19,119],
+"structMR_1_1NotificationTags.html":[9,0,0,19,704],
+"structMR_1_1NumSum.html":[9,0,0,19,298],
+"structMR_1_1ObjFaceId.html":[9,0,0,19,544],
+"structMR_1_1ObjKindTraits.html":[9,0,0,19,236],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[9,0,0,19,240],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html":[9,0,0,19,243],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html":[9,0,0,19,242],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[9,0,0,19,238],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[9,0,0,19,239],
@@ -240,14 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1PreciseCutPoint.html#a9e387bdf21acfb67f979c94f79db10e4":[9,0,0,0,16,0],
 "structMR_1_1PreciseVertCoord.html":[9,0,0,0,22],
 "structMR_1_1PreciseVertCoord.html":[9,0,0,19,485],
-"structMR_1_1PreciseVertCoords.html":[9,0,0,19,489],
-"structMR_1_1PreciseVertCoords2.html":[9,0,0,19,486],
-"structMR_1_1ProgressInterrupter.html":[9,0,0,19,919],
-"structMR_1_1ProjectAttributeParams.html":[9,0,0,19,495],
-"structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[9,0,0,19,53],
-"structMR_1_1PythonViewer_1_1UiEntry.html":[9,0,1,0,1,40,0],
-"structMR_1_1PythonViewer_1_1UiEntry.html":[9,0,2,0,1,25,0],
-"structMR_1_1PythonViewer_1_1UiEntry.html#a0856b9ecf8f43967f32f0d695423dfb1":[9,0,1,0,1,40,0,2],
-"structMR_1_1PythonViewer_1_1UiEntry.html#a0856b9ecf8f43967f32f0d695423dfb1":[9,0,2,0,1,25,0,2],
-"structMR_1_1PythonViewer_1_1UiEntry.html#a3f4b7eb9704e290c241541daac6cfa85":[9,0,1,0,1,40,0,1]
+"structMR_1_1PreciseVertCoords.html":[9,0,0,19,489]
 };

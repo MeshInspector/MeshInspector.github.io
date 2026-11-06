@@ -1,5 +1,14 @@
 var NAVTREEINDEX58 =
 {
+"group__MeshFixerGroup.html#ga83684a28016ea3e3feadd7c643905e6d":[9,0,0,9,4,14],
+"group__MeshFixerGroup.html#ga900c1c80bfa1ca726e5afe5ccab5b31d":[9,0,0,9,4,6],
+"group__MeshFixerGroup.html#ga9f1f866643e15bf1b9d9131f2d6dad0e":[9,0,0,9,4,5],
+"group__MeshFixerGroup.html#gaa6e120bc37618d508cf410a20edaa787":[9,0,0,9,4,22],
+"group__MeshFixerGroup.html#gaad5217689f3dbf4fefa9827d286a9871":[9,0,0,9,4,23],
+"group__MeshFixerGroup.html#gac8fc9cf58c37989c9d8ff982e8e378dc":[9,0,0,9,4,3],
+"group__MeshFixerGroup.html#gad1c53f9374cb68d222f9f777a25f964f":[9,0,0,9,4,20],
+"group__MeshFixerGroup.html#gae137c5e3de8e28fc5ff47caee9632c41":[9,0,0,9,4,10],
+"group__MeshFixerGroup.html#gafd47b9faed25bf5ffcb8a57264c890b1":[9,0,0,9,4,11],
 "group__MeshFixerGroup.html#gafd82e42a7f55fb987e177185b62155a8":[9,0,0,9,4,13],
 "group__MeshGroup.html":[9,0,0,7],
 "group__MeshLoadGroup.html":[9,0,0,2,11],
@@ -240,14 +249,5 @@ var NAVTREEINDEX58 =
 "group__SubvoxelMeshCorrection.html#ga1e8644361ce63a01cc5bf2f55019c438":[9,0,0,16,1,2],
 "group__SurfaceDistanceBuilder.html":[9,0,0,15,2],
 "group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[9,0,0,15,2,3],
-"group__SurfaceDistanceBuilder.html#ga6dbea68a5e40bf1878ced341fab86b83":[9,0,0,15,2,2],
-"group__SurfaceDistanceGroup.html":[9,0,0,15,1],
-"group__SurfaceDistanceGroup.html#ga2c99cd46ab5cd02f46716c347fc88048":[9,0,0,15,1,5],
-"group__SurfaceDistanceGroup.html#ga2f9c005e4a72a72f6625dc815b59cbe6":[9,0,0,15,1,4],
-"group__SurfaceDistanceGroup.html#ga5dd21a0b1940df7ece004666b7bb05f4":[9,0,0,15,1,2],
-"group__SurfaceDistanceGroup.html#ga926fe6cb64634fa0776b69876a2d0964":[9,0,0,15,1,3],
-"group__SurfaceDistanceGroup.html#gaeba57b4a06d4b3b80c88d9500fada13f":[9,0,0,15,1,1],
-"group__SurfaceDistanceGroup.html#gaf58156e69b850162dc3d0a6ea29fae72":[9,0,0,15,1,6],
-"group__SurfaceDistanceGroup.html#gafcfbdd0804b19650444f23e586a83452":[9,0,0,15,1,0],
-"group__SurfacePathGroup.html":[9,0,0,15]
+"group__SurfaceDistanceBuilder.html#ga6dbea68a5e40bf1878ced341fab86b83":[9,0,0,15,2,2]
 };

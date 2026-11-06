@@ -1,5 +1,14 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html":[9,0,1,0,1,17,7],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html":[9,0,2,0,1,7,7],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a07cda3bf338976041c1a33d4192edc2a":[9,0,1,0,1,17,7,11],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a07cda3bf338976041c1a33d4192edc2a":[9,0,2,0,1,7,7,11],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0a1278a05c920fa5388ad95ecba19945":[9,0,1,0,1,17,7,27],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0a1278a05c920fa5388ad95ecba19945":[9,0,2,0,1,7,7,27],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0bf2a98fd40dd55c53c03eff0ef22f9d":[9,0,1,0,1,17,7,19],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0bf2a98fd40dd55c53c03eff0ef22f9d":[9,0,2,0,1,7,7,19],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978":[9,0,1,0,1,17,7,20],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978":[9,0,2,0,1,7,7,20],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0eadf7819b37ebaad2aa7beed0b9899c":[9,0,1,0,1,17,7,26],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0eadf7819b37ebaad2aa7beed0b9899c":[9,0,2,0,1,7,7,26],
@@ -240,14 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1IntersectionPrecomputes2.html#a802abc712cfba3867b04a4f8a9ba4f60":[9,0,0,19,374,5],
 "structMR_1_1IntersectionPrecomputes2.html#a8dc8336a41d3f8aa6342f55f92aaba1b":[9,0,0,1,16,0],
 "structMR_1_1IntersectionPrecomputes2.html#a8dc8336a41d3f8aa6342f55f92aaba1b":[9,0,0,19,374,0],
-"structMR_1_1IntersectionPrecomputes2.html#a97745f96da021de236ed1d33cc89c73f":[9,0,0,1,16,4],
-"structMR_1_1IntersectionPrecomputes2.html#a97745f96da021de236ed1d33cc89c73f":[9,0,0,19,374,4],
-"structMR_1_1IntersectionPrecomputes2.html#aa9162110be6b5840cd870eb551a292fd":[9,0,0,1,16,3],
-"structMR_1_1IntersectionPrecomputes2.html#aa9162110be6b5840cd870eb551a292fd":[9,0,0,19,374,3],
-"structMR_1_1IntrinsicDeloneSettings.html":[9,0,0,9,1,0],
-"structMR_1_1IntrinsicDeloneSettings.html#a5985046a04f74cccc9f62e82968a5671":[9,0,0,9,1,0,2],
-"structMR_1_1IntrinsicDeloneSettings.html#a5fe9566d6f97f752f0d434d75a04ea53":[9,0,0,9,1,0,1],
-"structMR_1_1IntrinsicDeloneSettings.html#a826d54dbfadee964e4e8d815e3aeda22":[9,0,0,9,1,0,0],
-"structMR_1_1IntrinsicDeloneSettings.html#a8fed3ef49b5eeb2b4c7df0c84bbfad79":[9,0,0,9,1,0,3],
-"structMR_1_1IsVisualizeMaskEnum.html":[9,0,0,11,2,1]
+"structMR_1_1IntersectionPrecomputes2.html#a97745f96da021de236ed1d33cc89c73f":[9,0,0,1,16,4]
 };

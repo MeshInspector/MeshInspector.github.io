@@ -1,5 +1,14 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html":[9,0,0,19,262],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html":[9,0,0,19,260],
+"structMR_1_1Features_1_1Traits_1_1Unary.html":[9,0,0,19,255],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,19,257],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[9,0,0,19,258],
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[9,0,0,19,256],
+"structMR_1_1FileDialogSignals.html":[9,0,0,19,604],
+"structMR_1_1FileDialog_1_1Parameters.html":[9,0,0,19,606],
+"structMR_1_1FileLoadOptions.html":[9,0,0,19,607],
 "structMR_1_1FileParameters.html":[9,0,0,19,605],
 "structMR_1_1FillHoleItem.html":[9,0,0,19,291],
 "structMR_1_1FillHoleItemEdge.html":[9,0,0,19,292],
@@ -240,14 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html#a400a2b9d56be1cc23d10368dd6ef6e36":[9,0,1,0,1,17,6,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html#a400a2b9d56be1cc23d10368dd6ef6e36":[9,0,2,0,1,7,6,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html#a566c4f5f3c467669b8f6870230f68f64":[9,0,1,0,1,17,6,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html#a566c4f5f3c467669b8f6870230f68f64":[9,0,2,0,1,7,6,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html":[9,0,1,0,1,17,7],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html":[9,0,2,0,1,7,7],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a07cda3bf338976041c1a33d4192edc2a":[9,0,1,0,1,17,7,11],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a07cda3bf338976041c1a33d4192edc2a":[9,0,2,0,1,7,7,11],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0a1278a05c920fa5388ad95ecba19945":[9,0,1,0,1,17,7,27],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0a1278a05c920fa5388ad95ecba19945":[9,0,2,0,1,7,7,27],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0bf2a98fd40dd55c53c03eff0ef22f9d":[9,0,1,0,1,17,7,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0bf2a98fd40dd55c53c03eff0ef22f9d":[9,0,2,0,1,7,7,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978":[9,0,1,0,1,17,7,20]
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html#a566c4f5f3c467669b8f6870230f68f64":[9,0,2,0,1,7,6,1]
 };

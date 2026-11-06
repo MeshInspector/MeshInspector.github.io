@@ -11455,6 +11455,7 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="memitem:ga390dbff05c3012a93d214e3ff4b0823d" id="r_ga390dbff05c3012a93d214e3ff4b0823d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="#ga823106cad6887745b09385757b15b82e">ConstObjAndPick</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga390dbff05c3012a93d214e3ff4b0823d">MR::Viewport::constMultiPickObjects</a> (const std::vector&lt; const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> * &gt; &amp;objects, const std::vector&lt; Vector2f &gt; &amp;viewportPoints) const</td></tr>
 <tr class="memitem:gae18ff77fe4c5cad359fcec544a753769" id="r_gae18ff77fe4c5cad359fcec544a753769"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae18ff77fe4c5cad359fcec544a753769">MR::Viewport::transformView</a> (const AffineXf3f &amp;xf)</td></tr>
 <tr class="memitem:ga37332cce582bf8cc2203f972a6350a3c" id="r_ga37332cce582bf8cc2203f972a6350a3c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga37332cce582bf8cc2203f972a6350a3c">MR::Viewport::getRedrawFlag</a> () const</td></tr>
+<tr class="memdesc:ga37332cce582bf8cc2203f972a6350a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the viewport has to be redrawn; it stays true while the camera is animated  <br /></td></tr>
 <tr class="memitem:ga48d0af17aa1142d78dcc98ee60bcde3e" id="r_ga48d0af17aa1142d78dcc98ee60bcde3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga48d0af17aa1142d78dcc98ee60bcde3e">MR::Viewport::resetRedrawFlag</a> ()</td></tr>
 <tr class="memitem:gabe736bf771f335d8d782c1037715fd75" id="r_gabe736bf771f335d8d782c1037715fd75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabe736bf771f335d8d782c1037715fd75">MR::Viewport::Parameters::operator==</a> (const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Viewport::Parameters</a> &amp;<a class="el" href="#gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) const =default</td></tr>
 <tr class="memitem:gac23c05ec8355df106cc1b1d681c34152" id="r_gac23c05ec8355df106cc1b1d681c34152"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac23c05ec8355df106cc1b1d681c34152">MR::Viewport::setRotation</a> (bool state)</td></tr>
@@ -11534,6 +11535,8 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="memitem:gae239dbd60a1a4f0300faca5f780517da" id="r_gae239dbd60a1a4f0300faca5f780517da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae239dbd60a1a4f0300faca5f780517da">MR::Viewport::showGlobalBasis</a> (bool on)</td></tr>
 <tr class="memitem:ga32f520027876c213e77b698e6db8d75d" id="r_ga32f520027876c213e77b698e6db8d75d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga32f520027876c213e77b698e6db8d75d">MR::Viewport::rotationCenterMode</a> (<a class="el" href="#ga021c10bdda5a71cfdc88b0e7142e780b">Parameters::RotationCenterMode</a> mode)</td></tr>
 <tr class="memitem:ga9c2da3521710c4de2851bf46f246ec0f" id="r_ga9c2da3521710c4de2851bf46f246ec0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9c2da3521710c4de2851bf46f246ec0f">MR::Viewport::setParameters</a> (const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Viewport::Parameters</a> &amp;params)</td></tr>
+<tr class="memitem:ga0a30360905aa80f57f8ed88fcebfb2bf" id="r_ga0a30360905aa80f57f8ed88fcebfb2bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0a30360905aa80f57f8ed88fcebfb2bf">MR::Viewport::animateCamera</a> (const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> &amp;target, float <a class="el" href="#ggaf380c745631672883c31b1875697b2e5a783e8e29e6a8c3e22baa58a19420eb4f">seconds</a>)</td></tr>
+<tr class="memitem:ga5c649f47d0470f668fe4b26808e66f4d" id="r_ga5c649f47d0470f668fe4b26808e66f4d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5c649f47d0470f668fe4b26808e66f4d">MR::Viewport::getCameraAnimationTarget</a> () const</td></tr>
 <tr class="memitem:ga87e8a818a341d6d5062639dc69494359" id="r_ga87e8a818a341d6d5062639dc69494359"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga87e8a818a341d6d5062639dc69494359">MR::Viewport::cameraLookAlong</a> (const Vector3f &amp;dir, const Vector3f &amp;up)</td></tr>
 <tr class="memitem:gada1ff2adbf65466eae3e774e09e360fd" id="r_gada1ff2adbf65466eae3e774e09e360fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gada1ff2adbf65466eae3e774e09e360fd">MR::Viewport::cameraRotateAround</a> (const Line3f &amp;axis, float <a class="el" href="#gga24a027691feb30cad77ca6a162d05c58a899186f7879ef9f1cf011b415f548c03">angle</a>)</td></tr>
 <tr class="memitem:ga357b7f0de8d573b2e8bc9b04ed3adc56" id="r_ga357b7f0de8d573b2e8bc9b04ed3adc56"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga357b7f0de8d573b2e8bc9b04ed3adc56">MR::Viewport::getRotationPivot</a> () const</td></tr>
@@ -15078,6 +15081,16 @@ Variables</h2></td></tr>
 <tr class="memitem:gaa1ad3be1ddec62499f675d85835850dd" id="r_gaa1ad3be1ddec62499f675d85835850dd"><td class="memItemLeft" align="right" valign="top">Vector2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa1ad3be1ddec62499f675d85835850dd">MR::Viewport::BackgroundTexture::scaling</a> { 1.f, 1.f }</td></tr>
 <tr class="memdesc:gaa1ad3be1ddec62499f675d85835850dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of one image pixel in framebuffer pixels  <br /></td></tr>
 <tr class="memitem:gaf1fb101ad401448aaf98f22251f98fd0" id="r_gaf1fb101ad401448aaf98f22251f98fd0"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#ga4e9eba769b3b13ad52c5ceac92e415f6">MR::Viewport::BackgroundTexture::StretchMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf1fb101ad401448aaf98f22251f98fd0">MR::Viewport::BackgroundTexture::stretchMode</a> = <a class="el" href="#gga4e9eba769b3b13ad52c5ceac92e415f6a6adf97f83acf6453d4a6a4b1070f3754">StretchMode::None</a></td></tr>
+<tr class="memitem:gabece49246139cca6408f91b68ce4b612" id="r_gabece49246139cca6408f91b68ce4b612"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabece49246139cca6408f91b68ce4b612">MR::Viewport::CameraAnimation::start</a></td></tr>
+<tr class="memitem:gaf6f6f09a9378596328405a74c9a7c318" id="r_gaf6f6f09a9378596328405a74c9a7c318"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf6f6f09a9378596328405a74c9a7c318">MR::Viewport::CameraAnimation::target</a></td></tr>
+<tr class="memitem:ga311477898278e1d7bd1959d4fea445f8" id="r_ga311477898278e1d7bd1959d4fea445f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga311477898278e1d7bd1959d4fea445f8">MR::Viewport::CameraAnimation::current</a></td></tr>
+<tr class="memitem:ga233c5b68475ea748b858db4ada064599" id="r_ga233c5b68475ea748b858db4ada064599"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga233c5b68475ea748b858db4ada064599">MR::Viewport::CameraAnimation::startTime</a> = 0</td></tr>
+<tr class="memdesc:ga233c5b68475ea748b858db4ada064599"><td class="mdescLeft">&#160;</td><td class="mdescRight">animated fields as the last step set them, to detect camera changes by somebody else  <br /></td></tr>
+<tr class="memitem:ga8f1ac16bfcdc906736a0c9c6e0fec7bf" id="r_ga8f1ac16bfcdc906736a0c9c6e0fec7bf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f1ac16bfcdc906736a0c9c6e0fec7bf">MR::Viewport::CameraAnimation::stepTime</a> = 0</td></tr>
+<tr class="memdesc:ga8f1ac16bfcdc906736a0c9c6e0fec7bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">seconds of a steady clock  <br /></td></tr>
+<tr class="memitem:ga654f0f339225a8fe4c3f390d517ce897" id="r_ga654f0f339225a8fe4c3f390d517ce897"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga654f0f339225a8fe4c3f390d517ce897">MR::Viewport::CameraAnimation::seconds</a> = 0</td></tr>
+<tr class="memdesc:ga654f0f339225a8fe4c3f390d517ce897"><td class="mdescLeft">&#160;</td><td class="mdescRight">when the last step set the camera  <br /></td></tr>
+<tr class="memitem:ga60353d37fcfaefee8c8e710ee4713ffd" id="r_ga60353d37fcfaefee8c8e710ee4713ffd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga60353d37fcfaefee8c8e710ee4713ffd">MR::Viewport::CameraAnimation::startSpeed</a> = 0</td></tr>
 <tr class="memitem:ga192c07449fb32e2b964cc6becc915dd4" id="r_ga192c07449fb32e2b964cc6becc915dd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga192c07449fb32e2b964cc6becc915dd4">MR::CornerControllerObject::PickedIds::vId</a></td></tr>
 <tr class="memitem:ga907f52db81d2492d6da4f0359603a87f" id="r_ga907f52db81d2492d6da4f0359603a87f"><td class="memItemLeft" align="right" valign="top">RegionId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga907f52db81d2492d6da4f0359603a87f">MR::CornerControllerObject::PickedIds::rId</a></td></tr>
 <tr class="memitem:gaf8be4f6f84e2199df5ed9bc57686ccb8" id="r_gaf8be4f6f84e2199df5ed9bc57686ccb8"><td class="memItemLeft" align="right" valign="top">std::span&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *const  &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf8be4f6f84e2199df5ed9bc57686ccb8">MR::ViewportGL::PickParameters::renderVector</a></td></tr>
@@ -34624,6 +34637,30 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRRenderDimensions_8h.html">MRViewer/MRRenderDimensions.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga0a30360905aa80f57f8ed88fcebfb2bf" name="ga0a30360905aa80f57f8ed88fcebfb2bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0a30360905aa80f57f8ed88fcebfb2bf">&#9670;&#160;</a></span>animateCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Viewport::animateCamera </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>seconds</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRViewport_8h.html">MRViewer/MRViewport.h</a>&gt;</code></p>
+<p>smoothly changes the camera from the current parameters to the target ones during given time: rotation, translation, zoom and view angle are interpolated, other parameters are set at once; it starts and stops smoothly; a call during an animation keeps the current rotation speed toward the new target (so a turn back starts from rest); any other change of these camera parameters during the animation stops it; seconds &lt;= 0 sets all target parameters at once; the rotation pivot moves at once to the center of the target view (-target.cameraTranslation) or to target.staticRotationPivot, as the fit functions set it, unless a rotation is in progress </p>
 
 </div>
 </div>
@@ -84095,6 +84132,34 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga5c649f47d0470f668fe4b26808e66f4d" name="ga5c649f47d0470f668fe4b26808e66f4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5c649f47d0470f668fe4b26808e66f4d">&#9670;&#160;</a></span>getCameraAnimationTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> * MR::Viewport::getCameraAnimationTarget </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRViewport_8h.html">MRViewer/MRViewport.h</a>&gt;</code></p>
+<p>returns the target parameters of the camera animation in progress, or nullptr if the camera is not animated; the pointer is valid only until the next setupView (next frame) or animateCamera call, do not keep it </p>
+
+</div>
+</div>
 <a id="ga8a6fef179f0272293667540d02e5e201" name="ga8a6fef179f0272293667540d02e5e201"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga8a6fef179f0272293667540d02e5e201">&#9670;&#160;</a></span>getCameraPoint()</h2>
 
@@ -96648,6 +96713,8 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRViewport_8h.html">MRViewer/MRViewport.h</a>&gt;</code></p>
+
+<p>returns true if the viewport has to be redrawn; it stays true while the camera is animated </p>
 
 </div>
 </div>
@@ -215721,6 +215788,20 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="ga311477898278e1d7bd1959d4fea445f8" name="ga311477898278e1d7bd1959d4fea445f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga311477898278e1d7bd1959d4fea445f8">&#9670;&#160;</a></span>current</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> MR::Viewport::CameraAnimation::current</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga784b69e04514b3402e2c89b958f35a8a" name="ga784b69e04514b3402e2c89b958f35a8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga784b69e04514b3402e2c89b958f35a8a">&#9670;&#160;</a></span>currentPos</h2>
 
@@ -236754,6 +236835,22 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga654f0f339225a8fe4c3f390d517ce897" name="ga654f0f339225a8fe4c3f390d517ce897"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga654f0f339225a8fe4c3f390d517ce897">&#9670;&#160;</a></span>seconds</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::Viewport::CameraAnimation::seconds = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>when the last step set the camera </p>
+
+</div>
+</div>
 <a id="ga26778592370a3e672866fb0486b2d7c9" name="ga26778592370a3e672866fb0486b2d7c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga26778592370a3e672866fb0486b2d7c9">&#9670;&#160;</a></span>sectionStep</h2>
 
@@ -239066,6 +239163,20 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="gabece49246139cca6408f91b68ce4b612" name="gabece49246139cca6408f91b68ce4b612"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabece49246139cca6408f91b68ce4b612">&#9670;&#160;</a></span>start</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> MR::Viewport::CameraAnimation::start</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gabb279d966586784fbc7e5ce1e6cc8fd5" name="gabb279d966586784fbc7e5ce1e6cc8fd5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gabb279d966586784fbc7e5ce1e6cc8fd5">&#9670;&#160;</a></span>startAxisPoint</h2>
 
@@ -239207,6 +239318,36 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga60353d37fcfaefee8c8e710ee4713ffd" name="ga60353d37fcfaefee8c8e710ee4713ffd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga60353d37fcfaefee8c8e710ee4713ffd">&#9670;&#160;</a></span>startSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::Viewport::CameraAnimation::startSpeed = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga233c5b68475ea748b858db4ada064599" name="ga233c5b68475ea748b858db4ada064599"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga233c5b68475ea748b858db4ada064599">&#9670;&#160;</a></span>startTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::Viewport::CameraAnimation::startTime = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>animated fields as the last step set them, to detect camera changes by somebody else </p>
+
+</div>
+</div>
 <a id="gadf1fc52d9134c621ba9630531ee2c99d" name="gadf1fc52d9134c621ba9630531ee2c99d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gadf1fc52d9134c621ba9630531ee2c99d">&#9670;&#160;</a></span>startVertices</h2>
 
@@ -239316,6 +239457,22 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p>recommended step from previous color to next color, to have big visual difference, and visit all colors in long run </p>
+
+</div>
+</div>
+<a id="ga8f1ac16bfcdc906736a0c9c6e0fec7bf" name="ga8f1ac16bfcdc906736a0c9c6e0fec7bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8f1ac16bfcdc906736a0c9c6e0fec7bf">&#9670;&#160;</a></span>stepTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::Viewport::CameraAnimation::stepTime = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>seconds of a steady clock </p>
 
 </div>
 </div>
@@ -240388,7 +240545,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga9e19c8e2f07fda8228b4b66df9b6832b" name="ga9e19c8e2f07fda8228b4b66df9b6832b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9e19c8e2f07fda8228b4b66df9b6832b">&#9670;&#160;</a></span>target <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9e19c8e2f07fda8228b4b66df9b6832b">&#9670;&#160;</a></span>target <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240402,7 +240559,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga1abb85a715d1e270fa171a12e30b3b33" name="ga1abb85a715d1e270fa171a12e30b3b33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1abb85a715d1e270fa171a12e30b3b33">&#9670;&#160;</a></span>target <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1abb85a715d1e270fa171a12e30b3b33">&#9670;&#160;</a></span>target <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240416,13 +240573,27 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gac3a67a467bdc711c843eebdc84c4afc0" name="gac3a67a467bdc711c843eebdc84c4afc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac3a67a467bdc711c843eebdc84c4afc0">&#9670;&#160;</a></span>target <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac3a67a467bdc711c843eebdc84c4afc0">&#9670;&#160;</a></span>target <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">Vector3f MR::SurfaceManipulationWidget::PickedVertData::target</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaf6f6f09a9378596328405a74c9a7c318" name="gaf6f6f09a9378596328405a74c9a7c318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf6f6f09a9378596328405a74c9a7c318">&#9670;&#160;</a></span>target <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> MR::Viewport::CameraAnimation::target</td>
         </tr>
       </table>
 </div><div class="memdoc">

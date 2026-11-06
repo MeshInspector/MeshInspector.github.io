@@ -1,5 +1,14 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PreciseVertCoords2.html":[9,0,0,19,486],
+"structMR_1_1ProgressInterrupter.html":[9,0,0,19,919],
+"structMR_1_1ProjectAttributeParams.html":[9,0,0,19,495],
+"structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[9,0,0,19,53],
+"structMR_1_1PythonViewer_1_1UiEntry.html":[9,0,1,0,1,40,0],
+"structMR_1_1PythonViewer_1_1UiEntry.html":[9,0,2,0,1,25,0],
+"structMR_1_1PythonViewer_1_1UiEntry.html#a0856b9ecf8f43967f32f0d695423dfb1":[9,0,1,0,1,40,0,2],
+"structMR_1_1PythonViewer_1_1UiEntry.html#a0856b9ecf8f43967f32f0d695423dfb1":[9,0,2,0,1,25,0,2],
+"structMR_1_1PythonViewer_1_1UiEntry.html#a3f4b7eb9704e290c241541daac6cfa85":[9,0,1,0,1,40,0,1],
 "structMR_1_1PythonViewer_1_1UiEntry.html#a3f4b7eb9704e290c241541daac6cfa85":[9,0,2,0,1,25,0,1],
 "structMR_1_1PythonViewer_1_1UiEntry.html#acb5378eb601a5a292c76294b1cc89de0":[9,0,1,0,1,40,0,0],
 "structMR_1_1PythonViewer_1_1UiEntry.html#acb5378eb601a5a292c76294b1cc89de0":[9,0,2,0,1,25,0,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1Sphere.html":[9,0,0,19,523],
 "structMR_1_1SphereParams.html":[9,0,0,19,338],
 "structMR_1_1SplineSettings.html":[9,0,0,19,342],
-"structMR_1_1StitchHolesNicelySettings.html":[9,0,0,19,273],
-"structMR_1_1StitchHolesParams.html":[9,0,0,9,3,1],
-"structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[9,0,0,9,3,1,1],
-"structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[9,0,0,9,3,1,0],
-"structMR_1_1StopOnTrueCombiner.html":[9,0,0,19,753],
-"structMR_1_1SubdivideFillingSettings.html":[9,0,0,19,269],
-"structMR_1_1SubdivideSettings.html":[9,0,0,9,7,0],
-"structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1":[9,0,0,9,7,0,9],
-"structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250":[9,0,0,9,7,0,6],
-"structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8":[9,0,0,9,7,0,0]
+"structMR_1_1StitchHolesNicelySettings.html":[9,0,0,19,273]
 };
