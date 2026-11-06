@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"namespacemembers_z.html":[9,0,1,1,0,26],
+"namespaces.html":[9,0,1,0],
+"namespacespdlog.html":[9,0,1,0,2],
+"namespacespdlog.html#ace143432a1dd3e3ddde8949f014f90da":[9,0,1,0,2,1],
 "namespacespdlog_1_1sinks.html":[9,0,1,0,2,0],
 "pages.html":[],
 "structImGui_1_1CustomStatePluginWindowParameters.html":[9,0,1,0,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1CompressZipSettings.html#a081a0d03fa07baae69e080a91f1aa61d":[9,0,0,2,18,0,3],
 "structMR_1_1CompressZipSettings.html#a0fff83332c3dd033ccd3f5bb5dbb8a5d":[9,0,0,2,18,0,2],
 "structMR_1_1CompressZipSettings.html#a8e2307f6f06661b56c44492f4ca4a54a":[9,0,0,2,18,0,1],
-"structMR_1_1CompressZipSettings.html#a9796435e6a3ca7ed636ac9c0c3121a42":[9,0,0,2,18,0,0],
-"structMR_1_1ComputeSteepestDescentPathSettings.html":[9,0,0,15,3,1],
-"structMR_1_1ComputeSteepestDescentPathSettings.html#a133dd657607eb8f8e2745935031c0ed0":[9,0,0,15,3,1,1],
-"structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c":[9,0,0,15,3,1,0],
-"structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[9,0,0,15,3,1,2]
+"structMR_1_1CompressZipSettings.html#a9796435e6a3ca7ed636ac9c0c3121a42":[9,0,0,2,18,0,0]
 };

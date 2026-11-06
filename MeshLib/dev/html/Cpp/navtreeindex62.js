@@ -1,5 +1,9 @@
 var NAVTREEINDEX62 =
 {
+"namespaceMR_1_1StyleConsts.html":[9,0,0,19,28],
+"namespaceMR_1_1StyleConsts_1_1CustomCombo.html":[9,0,0,19,31],
+"namespaceMR_1_1StyleConsts_1_1Modal.html":[9,0,0,19,29],
+"namespaceMR_1_1StyleConsts_1_1Notification.html":[9,0,0,19,32],
 "namespaceMR_1_1StyleConsts_1_1ProgressBar.html":[9,0,0,19,30],
 "namespaceMR_1_1TriangulationHelpers.html":[9,0,1,0,1,52],
 "namespaceMR_1_1TriangulationHelpers.html#a1d49af7a8eeeab7c3559be658f3f7abf":[9,0,1,0,1,52,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX62 =
 "namespacemembers_vars.html":[9,0,1,1,2],
 "namespacemembers_w.html":[9,0,1,1,0,23],
 "namespacemembers_x.html":[9,0,1,1,0,24],
-"namespacemembers_y.html":[9,0,1,1,0,25],
-"namespacemembers_z.html":[9,0,1,1,0,26],
-"namespaces.html":[9,0,1,0],
-"namespacespdlog.html":[9,0,1,0,2],
-"namespacespdlog.html#ace143432a1dd3e3ddde8949f014f90da":[9,0,1,0,2,1]
+"namespacemembers_y.html":[9,0,1,1,0,25]
 };

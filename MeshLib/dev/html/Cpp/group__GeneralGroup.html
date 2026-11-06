@@ -11495,10 +11495,15 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="memitem:gace8d34917dcc01ffe64f0bccef923f96" id="r_gace8d34917dcc01ffe64f0bccef923f96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gace8d34917dcc01ffe64f0bccef923f96">MR::Viewport::postDraw</a> () const</td></tr>
 <tr class="memitem:gadbba32e84e0732c723c0755d72f25799" id="r_gadbba32e84e0732c723c0755d72f25799"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadbba32e84e0732c723c0755d72f25799">MR::Viewport::fitData</a> (float fill=1.0f, bool snapView=true)</td></tr>
 <tr class="memitem:ga208dafb44fb37521a23b45366e49ce9b" id="r_ga208dafb44fb37521a23b45366e49ce9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga208dafb44fb37521a23b45366e49ce9b">MR::Viewport::fitBox</a> (const Box3f &amp;newSceneBox, float fill=1.0f, bool snapView=true)</td></tr>
+<tr class="memitem:ga5f5ea4e87d3ebe56732f339280095648" id="r_ga5f5ea4e87d3ebe56732f339280095648"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f5ea4e87d3ebe56732f339280095648">MR::Viewport::calcFitDataParameters</a> (const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> &amp;camera, float fill=1.0f, bool snapView=true) const</td></tr>
+<tr class="memitem:gac376e0beeb605fa083290b0b579e8e85" id="r_gac376e0beeb605fa083290b0b579e8e85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac376e0beeb605fa083290b0b579e8e85">MR::Viewport::calcFitBoxParameters</a> (const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> &amp;camera, const Box3f &amp;box, float fill=1.0f, bool snapView=true) const</td></tr>
+<tr class="memdesc:gac376e0beeb605fa083290b0b579e8e85"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the parameters that fitBox would set if this viewport had given camera parameters, see calcFitDataParameters  <br /></td></tr>
 <tr class="memitem:gaabf08c558f0cb3bad8482b8bc2bf1044" id="r_gaabf08c558f0cb3bad8482b8bc2bf1044"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaabf08c558f0cb3bad8482b8bc2bf1044">MR::Viewport::preciseFitBoxToScreenBorder</a> (const <a class="el" href="#gac77d7d4e41e9f6fac8540acc18f23da5">FitBoxParams</a> &amp;params)</td></tr>
 <tr class="memdesc:gaabf08c558f0cb3bad8482b8bc2bf1044"><td class="mdescLeft">&#160;</td><td class="mdescRight">fit view and proj matrices to match the screen size with given box  <br /></td></tr>
 <tr class="memitem:ga0c9489f28aa931f689d2d0e054132ed2" id="r_ga0c9489f28aa931f689d2d0e054132ed2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0c9489f28aa931f689d2d0e054132ed2">MR::Viewport::preciseFitDataToScreenBorder</a> (const <a class="el" href="#ga510e738a3af8ee63e000ddfdc7679a55">FitDataParams</a> &amp;params={})</td></tr>
 <tr class="memdesc:ga0c9489f28aa931f689d2d0e054132ed2"><td class="mdescLeft">&#160;</td><td class="mdescRight">fit view and proj matrices to match the screen size with given objects  <br /></td></tr>
+<tr class="memitem:ga4b068217680d13f7b1c3869565b613a2" id="r_ga4b068217680d13f7b1c3869565b613a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b068217680d13f7b1c3869565b613a2">MR::Viewport::calcPreciseFitBoxParameters</a> (const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> &amp;camera, const <a class="el" href="#gac77d7d4e41e9f6fac8540acc18f23da5">FitBoxParams</a> &amp;params, Box3f *sceneBox=nullptr) const</td></tr>
+<tr class="memitem:gaf212e83323198e6a6486573cd14a62de" id="r_gaf212e83323198e6a6486573cd14a62de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf212e83323198e6a6486573cd14a62de">MR::Viewport::calcPreciseFitDataParameters</a> (const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> &amp;camera, const <a class="el" href="#ga510e738a3af8ee63e000ddfdc7679a55">FitDataParams</a> &amp;params={}, Box3f *sceneBox=nullptr) const</td></tr>
 <tr class="memitem:gaf2cfaeda5778c416a29d21ff14f80e06" id="r_gaf2cfaeda5778c416a29d21ff14f80e06"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf2cfaeda5778c416a29d21ff14f80e06">MR::Viewport::getRatio</a> () const</td></tr>
 <tr class="memdesc:gaf2cfaeda5778c416a29d21ff14f80e06"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns viewport width/height ratio  <br /></td></tr>
 <tr class="memitem:ga7de1b213b70aabd1ed6f41b3abf5c002" id="r_ga7de1b213b70aabd1ed6f41b3abf5c002"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7de1b213b70aabd1ed6f41b3abf5c002">MR::Viewport::allModelsInsideViewportRectangle</a> () const</td></tr>
@@ -40930,6 +40935,86 @@ if all even edges are consistently oriented, then the output contours will be or
 
 </div>
 </div>
+<a id="gac376e0beeb605fa083290b0b579e8e85" name="gac376e0beeb605fa083290b0b579e8e85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac376e0beeb605fa083290b0b579e8e85">&#9670;&#160;</a></span>calcFitBoxParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> MR::Viewport::calcFitBoxParameters </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>camera</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Box3f &amp;</td>          <td class="paramname"><span class="paramname"><em>box</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>fill</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1.0f</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>snapView</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRViewport_8h.html">MRViewer/MRViewport.h</a>&gt;</code></p>
+
+<p>returns the parameters that fitBox would set if this viewport had given camera parameters, see calcFitDataParameters </p>
+
+</div>
+</div>
+<a id="ga5f5ea4e87d3ebe56732f339280095648" name="ga5f5ea4e87d3ebe56732f339280095648"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f5ea4e87d3ebe56732f339280095648">&#9670;&#160;</a></span>calcFitDataParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> MR::Viewport::calcFitDataParameters </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>camera</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>fill</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1.0f</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>snapView</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRViewport_8h.html">MRViewer/MRViewport.h</a>&gt;</code></p>
+<p>returns the parameters that fitData would set if this viewport had given camera parameters, this viewport is not changed; only the orientation (cameraTrackballAngle) and the projection settings of camera matter, the translation, zoom, view angle and object scale are computed (the same for other calc...<a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> functions); the fitted camera looks at the center of the fitted box, so -cameraTranslation of the result is the rotation pivot that the fit sets, unless staticRotationPivot is set or there is nothing to fit; if there is nothing to fit (empty scene or selection), camera is returned unchanged except the snapped orientation </p>
+
+</div>
+</div>
 <a id="gabd68d68907fa3adfa59ccdfdaac6a411" name="gabd68d68907fa3adfa59ccdfdaac6a411"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gabd68d68907fa3adfa59ccdfdaac6a411">&#9670;&#160;</a></span>calcFromGrid() <span class="overload">[1/3]</span></h2>
 
@@ -41843,6 +41928,80 @@ if all even edges are consistently oriented, then the output contours will be or
 <p><code>#include &lt;<a class="el" href="MREdgePaths_8h.html">MRMesh/MREdgePaths.h</a>&gt;</code></p>
 
 <p>computes summed metric of all edges in the path </p>
+
+</div>
+</div>
+<a id="ga4b068217680d13f7b1c3869565b613a2" name="ga4b068217680d13f7b1c3869565b613a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4b068217680d13f7b1c3869565b613a2">&#9670;&#160;</a></span>calcPreciseFitBoxParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> MR::Viewport::calcPreciseFitBoxParameters </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>camera</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#gac77d7d4e41e9f6fac8540acc18f23da5">FitBoxParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Box3f *</td>          <td class="paramname"><span class="paramname"><em>sceneBox</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRViewport_8h.html">MRViewer/MRViewport.h</a>&gt;</code></p>
+<p>returns the parameters that preciseFitBoxToScreenBorder would set if this viewport had given camera parameters, see calcFitDataParameters; sceneBox - optional output: the box that the fit would store as the scene box (see getSceneBox) </p>
+
+</div>
+</div>
+<a id="gaf212e83323198e6a6486573cd14a62de" name="gaf212e83323198e6a6486573cd14a62de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf212e83323198e6a6486573cd14a62de">&#9670;&#160;</a></span>calcPreciseFitDataParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> MR::Viewport::calcPreciseFitDataParameters </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Viewport_1_1Parameters.html">Parameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>camera</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga510e738a3af8ee63e000ddfdc7679a55">FitDataParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Box3f *</td>          <td class="paramname"><span class="paramname"><em>sceneBox</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRViewport_8h.html">MRViewer/MRViewport.h</a>&gt;</code></p>
+<p>returns the parameters that preciseFitDataToScreenBorder would set if this viewport had given camera parameters, see calcFitDataParameters; sceneBox - optional output: the box that the fit would store as the scene box (see getSceneBox) </p>
 
 </div>
 </div>

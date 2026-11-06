@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PythonViewer_1_1UiValueInt.html":[9,0,1,0,1,40,1],
+"structMR_1_1PythonViewer_1_1UiValueInt.html":[9,0,2,0,1,25,1],
+"structMR_1_1PythonViewer_1_1UiValueInt.html#a110c6412bdfd318c32b460f82d4fe631":[9,0,1,0,1,40,1,2],
+"structMR_1_1PythonViewer_1_1UiValueInt.html#a110c6412bdfd318c32b460f82d4fe631":[9,0,2,0,1,25,1,2],
 "structMR_1_1PythonViewer_1_1UiValueInt.html#a192615de670a7f80a972b65219f99cb1":[9,0,1,0,1,40,1,0],
 "structMR_1_1PythonViewer_1_1UiValueInt.html#a192615de670a7f80a972b65219f99cb1":[9,0,2,0,1,25,1,0],
 "structMR_1_1PythonViewer_1_1UiValueInt.html#a4d45a0b9a83024d055f50878a908a035":[9,0,1,0,1,40,1,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8":[9,0,0,9,7,0,0],
 "structMR_1_1SubdivideSettings.html#a52aa2a88771ab9ca39f096cae8256c7d":[9,0,0,9,7,0,17],
 "structMR_1_1SubdivideSettings.html#a55b830f7823b4a74b6891945bafa12a5":[9,0,0,9,7,0,10],
-"structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa":[9,0,0,9,7,0,18],
-"structMR_1_1SubdivideSettings.html#a68f313c1c37f0aae1d9da0aaf296225c":[9,0,0,9,7,0,14],
-"structMR_1_1SubdivideSettings.html#a757c0278a48bf06117256165bec538c0":[9,0,0,9,7,0,19],
-"structMR_1_1SubdivideSettings.html#a772aa28ef31f33140c7b3f6bfbc36d30":[9,0,0,9,7,0,1],
-"structMR_1_1SubdivideSettings.html#a9288f9c5670484c0f76b53be1311b3cc":[9,0,0,9,7,0,20]
+"structMR_1_1SubdivideSettings.html#a5e24bf5e1bf140cdfac3cc68b9a693fa":[9,0,0,9,7,0,18]
 };

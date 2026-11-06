@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[9,0,0,19,237],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[9,0,0,19,241],
+"structMR_1_1ObjTreeTraits.html":[9,0,0,19,117],
+"structMR_1_1ObjVertId.html":[9,0,0,19,286],
 "structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html":[9,0,0,19,409],
 "structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html":[9,0,0,19,411],
 "structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html":[9,0,0,19,410],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1PythonViewer_1_1UiEntry.html#a3f4b7eb9704e290c241541daac6cfa85":[9,0,1,0,1,40,0,1],
 "structMR_1_1PythonViewer_1_1UiEntry.html#a3f4b7eb9704e290c241541daac6cfa85":[9,0,2,0,1,25,0,1],
 "structMR_1_1PythonViewer_1_1UiEntry.html#acb5378eb601a5a292c76294b1cc89de0":[9,0,1,0,1,40,0,0],
-"structMR_1_1PythonViewer_1_1UiEntry.html#acb5378eb601a5a292c76294b1cc89de0":[9,0,2,0,1,25,0,0],
-"structMR_1_1PythonViewer_1_1UiValueInt.html":[9,0,1,0,1,40,1],
-"structMR_1_1PythonViewer_1_1UiValueInt.html":[9,0,2,0,1,25,1],
-"structMR_1_1PythonViewer_1_1UiValueInt.html#a110c6412bdfd318c32b460f82d4fe631":[9,0,1,0,1,40,1,2],
-"structMR_1_1PythonViewer_1_1UiValueInt.html#a110c6412bdfd318c32b460f82d4fe631":[9,0,2,0,1,25,1,2]
+"structMR_1_1PythonViewer_1_1UiEntry.html#acb5378eb601a5a292c76294b1cc89de0":[9,0,2,0,1,25,0,0]
 };

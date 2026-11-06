@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1ComputeSteepestDescentPathSettings.html":[9,0,0,15,3,1],
+"structMR_1_1ComputeSteepestDescentPathSettings.html#a133dd657607eb8f8e2745935031c0ed0":[9,0,0,15,3,1,1],
+"structMR_1_1ComputeSteepestDescentPathSettings.html#a9c5b63e96c36543a3af9203630d6325c":[9,0,0,15,3,1,0],
+"structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[9,0,0,15,3,1,2],
 "structMR_1_1ComputeSweptVolumeParameters.html":[9,0,0,19,902],
 "structMR_1_1Cone3ApproximationParams.html":[9,0,0,19,189],
 "structMR_1_1ConnectionHolder.html":[9,0,0,19,796],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1FileLoadOptions.html":[9,0,0,19,607],
 "structMR_1_1FileParameters.html":[9,0,0,19,605],
 "structMR_1_1FillHoleItem.html":[9,0,0,19,291],
-"structMR_1_1FillHoleItemEdge.html":[9,0,0,19,292],
-"structMR_1_1FillHoleMetric.html":[9,0,0,9,3,3],
-"structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61":[9,0,0,9,3,3,1],
-"structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c":[9,0,0,9,3,3,0],
-"structMR_1_1FillHoleMetric.html#acc8ef5c37515d91d9c3cb3fbcaa1fd22":[9,0,0,9,3,3,2]
+"structMR_1_1FillHoleItemEdge.html":[9,0,0,19,292]
 };
