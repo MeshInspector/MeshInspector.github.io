@@ -16,6 +16,7 @@ var MRMeshTopology_8h =
     [ "MR_MeshTopology_bdEdgeSameOrigin", "MRMeshTopology_8h.html#a4a5edc9ade444e9c21821abf24146787", null ],
     [ "MR_MeshTopology_bdEdgeWithLeft", "MRMeshTopology_8h.html#a6171ab836a2c5333e1eb2c7a79429788", null ],
     [ "MR_MeshTopology_bdEdgeWithOrigin", "MRMeshTopology_8h.html#a714461026b32bec374835052319e7cf8", null ],
+    [ "MR_MeshTopology_buildFromManifoldTriangles", "MRMeshTopology_8h.html#a51561d8310c88e790b975323db9511d5", null ],
     [ "MR_MeshTopology_buildGridMesh", "MRMeshTopology_8h.html#a97d53832f4cfd5b35eef8647a36c1e27", null ],
     [ "MR_MeshTopology_checkValidity", "MRMeshTopology_8h.html#a11344d69a733e4d99818f2b0dcdce78c", null ],
     [ "MR_MeshTopology_clear", "MRMeshTopology_8h.html#a148df193e290afce9122aa3389700572", null ],

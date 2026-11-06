@@ -318,6 +318,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a5c1961d0e1edebdee28520b1cf0ecebc" id="r_a5c1961d0e1edebdee28520b1cf0ecebc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c1961d0e1edebdee28520b1cf0ecebc">MR_MeshTopology_updatingValids</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this)</td></tr>
 <tr class="memitem:a12ba4cafea8a95e44beb935543e26139" id="r_a12ba4cafea8a95e44beb935543e26139"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12ba4cafea8a95e44beb935543e26139">MR_MeshTopology_preferEdges</a> (<a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *stableEdges)</td></tr>
 <tr class="memitem:a97d53832f4cfd5b35eef8647a36c1e27" id="r_a97d53832f4cfd5b35eef8647a36c1e27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97d53832f4cfd5b35eef8647a36c1e27">MR_MeshTopology_buildGridMesh</a> (<a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, const <a class="el" href="MRGridSettings_8h.html#a1fed3ff99b050e83b401a1b490fe0e58">MR_GridSettings</a> *settings, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:a51561d8310c88e790b975323db9511d5" id="r_a51561d8310c88e790b975323db9511d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51561d8310c88e790b975323db9511d5">MR_MeshTopology_buildFromManifoldTriangles</a> (<a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, const <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *t, const <a class="el" href="MRMesh_8h.html#ad64e870545f55932379857e2c2d7eafb">MR_MeshBuilder_BuildSettings</a> *settings, bool *nonManifoldVertsOnly)</td></tr>
 <tr class="memitem:a11344d69a733e4d99818f2b0dcdce78c" id="r_a11344d69a733e4d99818f2b0dcdce78c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11344d69a733e4d99818f2b0dcdce78c">MR_MeshTopology_checkValidity</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const bool *allVerts)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
@@ -782,6 +783,43 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>returns a boundary edge with given vertex in origin considering boundary of given region (or for whole mesh if region is nullptr); returns invalid edge if no boundary edge is found Generated from method <span class="tt">MR::MeshTopology::bdEdgeWithOrigin</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="a51561d8310c88e790b975323db9511d5" name="a51561d8310c88e790b975323db9511d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51561d8310c88e790b975323db9511d5">&#9670;&#160;</a></span>MR_MeshTopology_buildFromManifoldTriangles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_MeshTopology_buildFromManifoldTriangles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAlphaShape_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *</td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#ad64e870545f55932379857e2c2d7eafb">MR_MeshBuilder_BuildSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *</td>          <td class="paramname"><span class="paramname"><em>nonManifoldVertsOnly</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>constructs topology from given triangles in parallel, if every edge has at most two triangles with opposite directions on it, and the triangles around every vertex form either one closed fan or open fans only; returns false and leaves this and settings.region unchanged otherwise; triangles with invalid or repeated vertices are not added, as in MeshBuilder::fromTriangles with the same settings; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nonManifoldVertsOnly</td><td>if given, set to whether it failed only on vertices having a closed fan and other triangles around Generated from method <span class="tt">MR::MeshTopology::buildFromManifoldTriangles</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">t</span> can not be null. It is a single object. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">nonManifoldVertsOnly</span> defaults to a null pointer in C++. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

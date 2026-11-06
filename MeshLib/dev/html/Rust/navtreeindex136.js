@@ -1,5 +1,7 @@
 var NAVTREEINDEX136 =
 {
+"structmeshlib_1_1TriTriDistanceResult__float.html#a3963ac71bf62d16efe47f85e91df6a66":[9,5,0,0,0,1512,1],
+"structmeshlib_1_1TriTriDistanceResult__float.html#a3963ac71bf62d16efe47f85e91df6a66":[9,5,1,0,0,1499,1],
 "structmeshlib_1_1TriTriDistanceResult__float.html#a61a357b3161fbdcf030f46bd32f32ba5":[9,5,0,0,0,1512,5],
 "structmeshlib_1_1TriTriDistanceResult__float.html#a61a357b3161fbdcf030f46bd32f32ba5":[9,5,1,0,0,1499,5],
 "structmeshlib_1_1TriTriDistanceResult__float.html#a6841131f82ad22836d3fb89056c4acf5":[9,5,0,0,0,1512,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX136 =
 "structmeshlib_1_1TrimWithPlaneParams.html#afed23adf9f5d3111d62d8974efdf6f40":[9,5,0,0,0,1506,4],
 "structmeshlib_1_1TrimWithPlaneParams.html#afed23adf9f5d3111d62d8974efdf6f40":[9,5,1,0,0,1493,4],
 "structmeshlib_1_1TrimWithPlaneParams.html#aff892df81c8e8808fafd16db3266f6ad":[9,5,0,0,0,1506,2],
-"structmeshlib_1_1TrimWithPlaneParams.html#aff892df81c8e8808fafd16db3266f6ad":[9,5,1,0,0,1493,2],
-"structmeshlib_1_1TrivialMetricToPenalty.html":[9,5,0,0,0,1513],
-"structmeshlib_1_1TrivialMetricToPenalty.html":[9,5,1,0,0,1500]
+"structmeshlib_1_1TrimWithPlaneParams.html#aff892df81c8e8808fafd16db3266f6ad":[9,5,1,0,0,1493,2]
 };

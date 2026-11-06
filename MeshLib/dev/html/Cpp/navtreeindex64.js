@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1ChunkIterator.html":[9,0,0,19,177],
 "structMR_1_1CloseToMeshVolumeParams.html":[9,0,0,19,874],
 "structMR_1_1CloudPartMapping.html":[9,0,0,19,182],
 "structMR_1_1CmpOld.html":[9,0,0,4,38],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1Features_1_1Traits_1_1Binary.html":[9,0,0,19,259],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,19,263],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html":[9,0,0,19,261],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,19,264],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[9,0,0,19,265]
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,19,264]
 };

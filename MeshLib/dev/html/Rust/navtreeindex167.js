@@ -1,5 +1,7 @@
 var NAVTREEINDEX167 =
 {
+"structmeshlib_1_1VoxelBitSet.html#acd780060351030c67fd0b0af61eb2a4c":[9,5,0,0,0,1661,32],
+"structmeshlib_1_1VoxelBitSet.html#acd780060351030c67fd0b0af61eb2a4c":[9,5,1,0,0,1648,32],
 "structmeshlib_1_1VoxelBitSet.html#acf9e3e7e3eba79d0e3699bae045d9e11":[9,5,0,0,0,1661,12],
 "structmeshlib_1_1VoxelBitSet.html#acf9e3e7e3eba79d0e3699bae045d9e11":[9,5,1,0,0,1648,12],
 "structmeshlib_1_1VoxelBitSet.html#ad5304d80986b2bfd1d4cd2dd840b0466":[9,5,0,0,0,1661,38],
@@ -247,7 +249,5 @@ var NAVTREEINDEX167 =
 "structmeshlib_1_1VoxelsVolumeAccessor__MR__VdbVolume.html#ae12d0a1649c138204801a667be7a02b5":[9,5,0,0,0,1671,4],
 "structmeshlib_1_1VoxelsVolumeAccessor__MR__VdbVolume.html#ae12d0a1649c138204801a667be7a02b5":[9,5,1,0,0,1658,4],
 "structmeshlib_1_1VoxelsVolumeInterpolatedAccessor__MR__VoxelsVolumeAccessor__MR__FunctionVolume.html":[9,5,0,0,0,1672],
-"structmeshlib_1_1VoxelsVolumeInterpolatedAccessor__MR__VoxelsVolumeAccessor__MR__FunctionVolume.html":[9,5,1,0,0,1659],
-"structmeshlib_1_1VoxelsVolumeInterpolatedAccessor__MR__VoxelsVolumeAccessor__MR__FunctionVolume.html#a05296faa492f58f7bedc65a68b279421":[9,5,0,0,0,1672,0],
-"structmeshlib_1_1VoxelsVolumeInterpolatedAccessor__MR__VoxelsVolumeAccessor__MR__FunctionVolume.html#a05296faa492f58f7bedc65a68b279421":[9,5,1,0,0,1659,0]
+"structmeshlib_1_1VoxelsVolumeInterpolatedAccessor__MR__VoxelsVolumeAccessor__MR__FunctionVolume.html":[9,5,1,0,0,1659]
 };

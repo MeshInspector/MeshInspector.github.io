@@ -1,5 +1,7 @@
 var NAVTREEINDEX263 =
 {
+"interfacemeshlib_1_1std__function__void__from__MR__EdgeId__MR__EdgeId_1_1Fn.html":[9,6,0,0,0,1045,0],
+"interfacemeshlib_1_1std__function__void__from__MR__EdgeId__MR__EdgeId_1_1Fn.html":[9,6,1,0,0,1045,0],
 "interfacemeshlib_1_1std__function__void__from__MR__EdgeId__MR__EdgeId_1_1Fn.html#a1cdb00a8df2f0405a819b0c4d1934a28":[9,6,0,0,0,1045,0,0],
 "interfacemeshlib_1_1std__function__void__from__MR__EdgeId__MR__EdgeId_1_1Fn.html#a1cdb00a8df2f0405a819b0c4d1934a28":[9,6,1,0,0,1045,0,0],
 "interfacemeshlib_1_1std__function__void__from__MR__EdgeId__MR__EdgeId__float_1_1Fn.html":[9,6,0,0,0,1046,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX263 =
 "std__function__bool__from__MR__FaceId__MR__FaceId_8java.html":[9,6,2,0,0,1,0,0,989],
 "std__function__bool__from__MR__VertId_8java.html":[9,6,2,0,0,1,0,0,990],
 "std__function__bool__from__MR__VertId__MR__VertId__MR__VertId__MR__VertId__MR__VertId_8java.html":[9,6,2,0,0,1,0,0,991],
-"std__function__bool__from__const__MR__MeshIntersectionResult__ref_8java.html":[9,6,2,0,0,1,0,0,978],
-"std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8java.html":[9,6,2,0,0,1,0,0,979],
-"std__function__bool__from__const__MR__MeshProjectionResult__ref_8java.html":[9,6,2,0,0,1,0,0,980]
+"std__function__bool__from__const__MR__MeshIntersectionResult__ref_8java.html":[9,6,2,0,0,1,0,0,978]
 };

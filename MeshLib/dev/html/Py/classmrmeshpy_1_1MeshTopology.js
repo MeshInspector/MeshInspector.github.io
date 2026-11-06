@@ -10,6 +10,7 @@ var classmrmeshpy_1_1MeshTopology =
     [ "addPartByMask", "classmrmeshpy_1_1MeshTopology.html#a187032ff70763d27c9f766009c76376e", null ],
     [ "addVertId", "classmrmeshpy_1_1MeshTopology.html#abd2287ab64744a124b0dfd20912293d7", null ],
     [ "assign", "classmrmeshpy_1_1MeshTopology.html#ac5d96b6dc0e3805b7aab8b8ed2d2124d", null ],
+    [ "buildFromManifoldTriangles", "classmrmeshpy_1_1MeshTopology.html#ad86b0df44dbc89ffe50a6b445f5c75c3", null ],
     [ "buildGridMesh", "classmrmeshpy_1_1MeshTopology.html#aede07b9a05ff44ac0abe977974ade86b", null ],
     [ "clear", "classmrmeshpy_1_1MeshTopology.html#a00f5eff68efeeabd8c22343d7fd2a221", null ],
     [ "collapseEdge", "classmrmeshpy_1_1MeshTopology.html#ae202ea88dcd9f19a94139671395a5050", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX179 =
 {
+"classmeshlib_1_1cuda_1_1DeviceInfo.html#ad48110a837f18aacff03165678177b73":[9,6,1,0,0,0,2,11],
+"classmeshlib_1_1cuda_1_1DeviceInfo.html#ad9a296b2a7ca0eef2c6dd53e4deee5d0":[9,6,0,0,0,0,2,0],
 "classmeshlib_1_1cuda_1_1DeviceInfo.html#ad9a296b2a7ca0eef2c6dd53e4deee5d0":[9,6,1,0,0,0,2,0],
 "classmeshlib_1_1cuda_1_1DeviceInfo.html#adb7ab119e13d1415e3219f504978f959":[9,6,0,0,0,0,2,15],
 "classmeshlib_1_1cuda_1_1DeviceInfo.html#adb7ab119e13d1415e3219f504978f959":[9,6,1,0,0,0,2,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX179 =
 "classmeshlib_1_1expected__MR__FunctionVolume__std__string.html":[9,6,1,0,0,327],
 "classmeshlib_1_1expected__MR__FunctionVolume__std__string.html#a0c0d6931480a9123690714c66c5b3e38":[9,6,0,0,0,327,8],
 "classmeshlib_1_1expected__MR__FunctionVolume__std__string.html#a0c0d6931480a9123690714c66c5b3e38":[9,6,1,0,0,327,8],
-"classmeshlib_1_1expected__MR__FunctionVolume__std__string.html#a3edf1699f22b7c4d1b50da224c04bcba":[9,6,0,0,0,327,6],
-"classmeshlib_1_1expected__MR__FunctionVolume__std__string.html#a3edf1699f22b7c4d1b50da224c04bcba":[9,6,1,0,0,327,6],
-"classmeshlib_1_1expected__MR__FunctionVolume__std__string.html#a43d47466bfe767574b3e4edc47c65407":[9,6,0,0,0,327,5]
+"classmeshlib_1_1expected__MR__FunctionVolume__std__string.html#a3edf1699f22b7c4d1b50da224c04bcba":[9,6,0,0,0,327,6]
 };

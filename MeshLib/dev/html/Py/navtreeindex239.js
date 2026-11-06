@@ -1,5 +1,7 @@
 var NAVTREEINDEX239 =
 {
+"classmrviewerpy_1_1double__output.html#a71846d115a741f70d11949ed045a0dab":[9,1,0,0,3,12,2],
+"classmrviewerpy_1_1double__output.html#a71846d115a741f70d11949ed045a0dab":[9,1,1,0,2,12,2],
 "classmrviewerpy_1_1float__output.html":[9,1,0,0,3,13],
 "classmrviewerpy_1_1float__output.html":[9,1,1,0,2,13],
 "classmrviewerpy_1_1float__output.html#a30420740bce18c1b6c809a25109217b7":[9,1,0,0,3,13,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX239 =
 "namespacemrmeshnumpy.html#a19dfaa17741ffc06ebc7ff728e97874f":[9,1,0,0,1,16],
 "namespacemrmeshnumpy.html#a307332033a1da3abfe38eb3ce7df8dbe":[9,1,0,0,1,2],
 "namespacemrmeshnumpy.html#a31711773ee51c2175497e8f31b786ad0":[9,1,0,0,1,20],
-"namespacemrmeshnumpy.html#a4c856fa3511daab45f4c4996e4d48f62":[9,1,0,0,1,0],
-"namespacemrmeshnumpy.html#a58dde4edeb73b7276ef598656773d01f":[9,1,0,0,1,18],
-"namespacemrmeshnumpy.html#a67c605242104534bf522a0f72ef88db5":[9,1,0,0,1,13]
+"namespacemrmeshnumpy.html#a4c856fa3511daab45f4c4996e4d48f62":[9,1,0,0,1,0]
 };

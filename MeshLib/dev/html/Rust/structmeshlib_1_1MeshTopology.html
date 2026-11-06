@@ -287,6 +287,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a13ae615cbef3e93e78bef22346bfb32f" id="r_a13ae615cbef3e93e78bef22346bfb32f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13ae615cbef3e93e78bef22346bfb32f">updating_valids</a> () const -&gt; bool</td></tr>
 <tr class="memitem:aa595122589c72540b31820af718e2d36" id="r_aa595122589c72540b31820af718e2d36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa595122589c72540b31820af718e2d36">prefer_edges</a> (stableEdges:&amp;<a class="el" href="structmeshlib_1_1UndirectedEdgeBitSet.html">meshlib::UndirectedEdgeBitSet</a>)</td></tr>
 <tr class="memitem:a632062fd1f5018e51bb9068ce491e966" id="r_a632062fd1f5018e51bb9068ce491e966"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a632062fd1f5018e51bb9068ce491e966">build_grid_mesh</a> (settings:&amp;<a class="el" href="structmeshlib_1_1GridSettings.html">meshlib::GridSettings</a>, cb:Option&lt;&amp;<a class="el" href="structmeshlib_1_1std__function__bool__from__float.html">meshlib::std_function_bool_from_float</a> &gt;) -&gt; bool</td></tr>
+<tr class="memitem:a8c1ba22f6cfcbadee06c85ce3695f885" id="r_a8c1ba22f6cfcbadee06c85ce3695f885"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c1ba22f6cfcbadee06c85ce3695f885">build_from_manifold_triangles</a> (t:&amp;<a class="el" href="structmeshlib_1_1Triangulation.html">meshlib::Triangulation</a>, settings:Option&lt;&amp;<a class="el" href="structmeshlib_1_1mesh__builder_1_1BuildSettings.html">meshlib::mesh_builder::BuildSettings</a> &gt;, nonManifoldVertsOnly:Option&lt;&amp;mut bool &gt;) -&gt; bool</td></tr>
 <tr class="memitem:aee8a7c255c7f8ad124c0e8de5b59bd61" id="r_aee8a7c255c7f8ad124c0e8de5b59bd61"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee8a7c255c7f8ad124c0e8de5b59bd61">check_validity</a> (cb:Option&lt;&amp;<a class="el" href="structmeshlib_1_1std__function__bool__from__float.html">meshlib::std_function_bool_from_float</a> &gt;, allVerts:Option&lt; bool &gt;) const -&gt; bool</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -653,6 +654,39 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>returns a boundary edge with given vertex in origin considering boundary of given region (or for whole mesh if region is nullptr); returns invalid edge if no boundary edge is found Generated from method <span class="tt">MR::MeshTopology::bdEdgeWithOrigin</span>.</p>
 <p>Calls <span class="tt">MR_MeshTopology_bdEdgeWithOrigin()</span>. </p>
+
+</div>
+</div>
+<a id="a8c1ba22f6cfcbadee06c85ce3695f885" name="a8c1ba22f6cfcbadee06c85ce3695f885"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c1ba22f6cfcbadee06c85ce3695f885">&#9670;&#160;</a></span>build_from_manifold_triangles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::MeshTopology::build_from_manifold_triangles </td>
+          <td>(</td>
+          <td class="paramtype">t:&amp;<a class="el" href="structmeshlib_1_1Triangulation.html">meshlib::Triangulation</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">settings:Option&lt;&amp;<a class="el" href="structmeshlib_1_1mesh__builder_1_1BuildSettings.html">meshlib::mesh_builder::BuildSettings</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">nonManifoldVertsOnly:Option&lt;&amp;mut bool &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;) -&gt;  bool</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>constructs topology from given triangles in parallel, if every edge has at most two triangles with opposite directions on it, and the triangles around every vertex form either one closed fan or open fans only; returns false and leaves this and settings.region unchanged otherwise; triangles with invalid or repeated vertices are not added, as in MeshBuilder::fromTriangles with the same settings; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nonManifoldVertsOnly</td><td>if given, set to whether it failed only on vertices having a closed fan and other triangles around Generated from method <span class="tt">MR::MeshTopology::buildFromManifoldTriangles</span>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Calls <span class="tt">MR_MeshTopology_buildFromManifoldTriangles()</span>. </p>
 
 </div>
 </div>

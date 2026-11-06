@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"group__VisualObjectGroup.html#gga5c32800ec075fcf4f9b3eb8e2d5ac6caad69186af02738a9b3ced1bc5b652ba55":[9,0,0,11,2,8,4],
 "group__VolumeIndexerGroup.html":[9,0,0,16,0],
 "group__VolumeIndexerGroup.html#ga051634fee494f975b01af37644de2b2a":[9,0,0,16,0,5],
 "group__VolumeIndexerGroup.html#ga4e89cddf49bc51a6caa983ba3b84c461":[9,0,0,16,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1ImGuiMath.html#aec12d0bc0e82f7b60da894cd08419255":[9,0,1,0,1,16,10],
 "namespaceMR_1_1ImGuiMath_1_1detail.html":[9,0,1,0,1,16,0],
 "namespaceMR_1_1ImGuiMeasurementIndicators.html":[9,0,1,0,1,17],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#a10f8eed093365dade4b8f37a4bdf05fb":[9,0,1,0,1,17,21],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#a491df75b1eafcddfde28b6ed4dd4c88c":[9,0,1,0,1,17,20]
+"namespaceMR_1_1ImGuiMeasurementIndicators.html#a10f8eed093365dade4b8f37a4bdf05fb":[9,0,1,0,1,17,21]
 };
