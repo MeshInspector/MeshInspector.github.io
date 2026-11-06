@@ -1,7 +1,5 @@
 var NAVTREEINDEX177 =
 {
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a876e55f1d867457f937a86b1de2c0e02":[9,1,0,0,2,2383,4],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a876e55f1d867457f937a86b1de2c0e02":[9,1,1,0,1,2383,4],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a9d0b36ce3fa8d4bd286b19fcec392b8b":[9,1,0,0,2,2383,7],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a9d0b36ce3fa8d4bd286b19fcec392b8b":[9,1,1,0,1,2383,7],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a9f780d6e17e3a0d66f91240a222b86a5":[9,1,0,0,2,2383,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX177 =
 "classmrmeshpy_1_1SymMatrix3d.html#a777cd45d689a16a7c1a52afd5c825017":[9,1,0,0,2,2392,18],
 "classmrmeshpy_1_1SymMatrix3d.html#a777cd45d689a16a7c1a52afd5c825017":[9,1,1,0,1,2392,18],
 "classmrmeshpy_1_1SymMatrix3d.html#a7b0f5122da554e354f6ab8b1d0b13ba4":[9,1,0,0,2,2392,17],
-"classmrmeshpy_1_1SymMatrix3d.html#a7b0f5122da554e354f6ab8b1d0b13ba4":[9,1,1,0,1,2392,17]
+"classmrmeshpy_1_1SymMatrix3d.html#a7b0f5122da554e354f6ab8b1d0b13ba4":[9,1,1,0,1,2392,17],
+"classmrmeshpy_1_1SymMatrix3d.html#a966733a4a0c89b14598e0d589a027a7e":[9,1,0,0,2,2392,11],
+"classmrmeshpy_1_1SymMatrix3d.html#a966733a4a0c89b14598e0d589a027a7e":[9,1,1,0,1,2392,11]
 };

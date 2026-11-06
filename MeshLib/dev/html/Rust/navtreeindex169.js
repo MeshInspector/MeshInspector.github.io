@@ -1,7 +1,5 @@
 var NAVTREEINDEX169 =
 {
-"structmeshlib_1_1WholeEdgeMap.html#a360e9e303787a4c99b65e49258c29283":[9,5,0,0,0,1688,7],
-"structmeshlib_1_1WholeEdgeMap.html#a360e9e303787a4c99b65e49258c29283":[9,5,1,0,0,1675,7],
 "structmeshlib_1_1WholeEdgeMap.html#a3ac2933d43550139fcb7d68a95124e9c":[9,5,0,0,0,1688,29],
 "structmeshlib_1_1WholeEdgeMap.html#a3ac2933d43550139fcb7d68a95124e9c":[9,5,1,0,0,1675,29],
 "structmeshlib_1_1WholeEdgeMap.html#a49184890be8edd2f69fa6a9ce1e01217":[9,5,0,0,0,1688,34],
@@ -249,5 +247,7 @@ var NAVTREEINDEX169 =
 "structmeshlib_1_1cuda_1_1FastWindingNumber.html#a38cb84342d5830365303dddbaa6881a3":[9,5,0,0,0,0,3,3],
 "structmeshlib_1_1cuda_1_1FastWindingNumber.html#a38cb84342d5830365303dddbaa6881a3":[9,5,1,0,0,0,3,3],
 "structmeshlib_1_1cuda_1_1FastWindingNumber.html#a57438c103b8917859f281ac4e7c63b0f":[9,5,0,0,0,0,3,0],
-"structmeshlib_1_1cuda_1_1FastWindingNumber.html#a57438c103b8917859f281ac4e7c63b0f":[9,5,1,0,0,0,3,0]
+"structmeshlib_1_1cuda_1_1FastWindingNumber.html#a57438c103b8917859f281ac4e7c63b0f":[9,5,1,0,0,0,3,0],
+"structmeshlib_1_1cuda_1_1FastWindingNumber.html#a61d6fb4589715a92ce0b328ef51d5cf2":[9,5,0,0,0,0,3,2],
+"structmeshlib_1_1cuda_1_1FastWindingNumber.html#a61d6fb4589715a92ce0b328ef51d5cf2":[9,5,1,0,0,0,3,2]
 };

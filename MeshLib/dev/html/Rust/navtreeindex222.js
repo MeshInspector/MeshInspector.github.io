@@ -1,7 +1,5 @@
 var NAVTREEINDEX222 =
 {
-"structmeshlib_1_1std__vector__MR__VertBitSet.html#a1a3eb4d68f16623d2adbc95eaf91ab01":[9,5,0,0,0,1395,2],
-"structmeshlib_1_1std__vector__MR__VertBitSet.html#a1a3eb4d68f16623d2adbc95eaf91ab01":[9,5,1,0,0,1382,2],
 "structmeshlib_1_1std__vector__MR__VertBitSet.html#a1a803f03b42cf358a989e8f5a19ca606":[9,5,0,0,0,1395,0],
 "structmeshlib_1_1std__vector__MR__VertBitSet.html#a1a803f03b42cf358a989e8f5a19ca606":[9,5,1,0,0,1382,0],
 "structmeshlib_1_1std__vector__MR__VertBitSet.html#a4d5a02a480af61693dd2002245e338e3":[9,5,0,0,0,1395,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX222 =
 "structmeshlib_1_1std__vector__MR__WatershedGraph__BasinInfo__MR__Allocator__MR__WatershedGraph__BasinInfo.html":[9,5,0,0,0,1402],
 "structmeshlib_1_1std__vector__MR__WatershedGraph__BasinInfo__MR__Allocator__MR__WatershedGraph__BasinInfo.html":[9,5,1,0,0,1389],
 "structmeshlib_1_1std__vector__MR__WatershedGraph__BasinInfo__MR__Allocator__MR__WatershedGraph__BasinInfo.html#a0a30736056758a5e4339f2f262ede3ae":[9,5,0,0,0,1402,13],
-"structmeshlib_1_1std__vector__MR__WatershedGraph__BasinInfo__MR__Allocator__MR__WatershedGraph__BasinInfo.html#a0a30736056758a5e4339f2f262ede3ae":[9,5,1,0,0,1389,13]
+"structmeshlib_1_1std__vector__MR__WatershedGraph__BasinInfo__MR__Allocator__MR__WatershedGraph__BasinInfo.html#a0a30736056758a5e4339f2f262ede3ae":[9,5,1,0,0,1389,13],
+"structmeshlib_1_1std__vector__MR__WatershedGraph__BasinInfo__MR__Allocator__MR__WatershedGraph__BasinInfo.html#a129a2d69aba0a98438e963131bfa2dd7":[9,5,0,0,0,1402,11],
+"structmeshlib_1_1std__vector__MR__WatershedGraph__BasinInfo__MR__Allocator__MR__WatershedGraph__BasinInfo.html#a129a2d69aba0a98438e963131bfa2dd7":[9,5,1,0,0,1389,11]
 };

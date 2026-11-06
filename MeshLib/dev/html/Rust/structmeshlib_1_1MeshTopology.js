@@ -12,7 +12,6 @@ var structmeshlib_1_1MeshTopology =
     [ "bd_edge_same_origin", "structmeshlib_1_1MeshTopology.html#ab548eeb4f95389cb5b7a27df40059ca0", null ],
     [ "bd_edge_with_left", "structmeshlib_1_1MeshTopology.html#a3bfc28316589e6da1db3cb5d8319e830", null ],
     [ "bd_edge_with_origin", "structmeshlib_1_1MeshTopology.html#a9db84d8bd3d23975abb3c6839a100474", null ],
-    [ "build_from_manifold_triangles", "structmeshlib_1_1MeshTopology.html#a8c1ba22f6cfcbadee06c85ce3695f885", null ],
     [ "build_grid_mesh", "structmeshlib_1_1MeshTopology.html#a632062fd1f5018e51bb9068ce491e966", null ],
     [ "check_validity", "structmeshlib_1_1MeshTopology.html#aee8a7c255c7f8ad124c0e8de5b59bd61", null ],
     [ "clear", "structmeshlib_1_1MeshTopology.html#a067fa577fe9a09fa82a26f1e64427f0e", null ],

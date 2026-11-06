@@ -1,7 +1,5 @@
 var NAVTREEINDEX256 =
 {
-"classmeshlib_1_1std__vector__std__shared__ptr__MR__ObjectPointsHolder.html#aa23cd0006363f86c2ddff83188afbf14":[9,6,1,0,0,1447,8],
-"classmeshlib_1_1std__vector__std__shared__ptr__MR__ObjectPointsHolder.html#aa90cfe4fe93fa5873d961992c878354a":[9,6,0,0,0,1447,5],
 "classmeshlib_1_1std__vector__std__shared__ptr__MR__ObjectPointsHolder.html#aa90cfe4fe93fa5873d961992c878354a":[9,6,1,0,0,1447,5],
 "classmeshlib_1_1std__vector__std__shared__ptr__MR__ObjectPointsHolder.html#abd456573ecc962ed7b2a001c2597a135":[9,6,0,0,0,1447,4],
 "classmeshlib_1_1std__vector__std__shared__ptr__MR__ObjectPointsHolder.html#abd456573ecc962ed7b2a001c2597a135":[9,6,1,0,0,1447,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX256 =
 "classmeshlib_1_1std__vector__std__vector__MR__EdgeId.html#a97fde7a7d647a0ff0b78b613a80800a3":[9,6,1,0,0,1452,10],
 "classmeshlib_1_1std__vector__std__vector__MR__EdgeId.html#a9d2a2fc4830091a5ed6512e445b427a2":[9,6,0,0,0,1452,16],
 "classmeshlib_1_1std__vector__std__vector__MR__EdgeId.html#a9d2a2fc4830091a5ed6512e445b427a2":[9,6,1,0,0,1452,16],
-"classmeshlib_1_1std__vector__std__vector__MR__EdgeId.html#abc1419f0fd7568fcc5e3dc066f9f39e2":[9,6,0,0,0,1452,18]
+"classmeshlib_1_1std__vector__std__vector__MR__EdgeId.html#abc1419f0fd7568fcc5e3dc066f9f39e2":[9,6,0,0,0,1452,18],
+"classmeshlib_1_1std__vector__std__vector__MR__EdgeId.html#abc1419f0fd7568fcc5e3dc066f9f39e2":[9,6,1,0,0,1452,18],
+"classmeshlib_1_1std__vector__std__vector__MR__EdgeId.html#afb63faf4471ad02ce848c84a7b969d0b":[9,6,0,0,0,1452,6]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX240 =
 {
-"namespacemrmeshnumpy.html#a58dde4edeb73b7276ef598656773d01f":[9,1,0,0,1,18],
-"namespacemrmeshnumpy.html#a67c605242104534bf522a0f72ef88db5":[9,1,0,0,1,13],
 "namespacemrmeshnumpy.html#a6c6a7732d2ef76e8fbcb88033a0b80ec":[9,1,0,0,1,7],
 "namespacemrmeshnumpy.html#a70ec0a268f4c83b452ea797923571492":[9,1,0,0,1,6],
 "namespacemrmeshnumpy.html#a77b8867a49668ef48883a85a9113df81":[9,1,0,0,1,11],
@@ -249,5 +247,7 @@ var NAVTREEINDEX240 =
 "namespacemrmeshpy.html#a1229063bf954d61ac901d4217aa794c9":[9,1,0,0,2,3884],
 "namespacemrmeshpy.html#a12441aa34c80ddf1b725ff8bb4ef6bde":[9,1,0,0,2,5369],
 "namespacemrmeshpy.html#a125e0911bcb388ffc9573810dedd9212":[9,1,0,0,2,4149],
-"namespacemrmeshpy.html#a12669898faace257b0c496f6ae561376":[9,1,0,0,2,4312]
+"namespacemrmeshpy.html#a12669898faace257b0c496f6ae561376":[9,1,0,0,2,4312],
+"namespacemrmeshpy.html#a12785835d5f53933e0db11ecdfe2032f":[9,1,0,0,2,3218],
+"namespacemrmeshpy.html#a127c04f2fbebec949b20bd074da18ea9":[9,1,0,0,2,4275]
 };

@@ -6344,7 +6344,6 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gabf2f3abf6b3d6899c61b6d9821d30a0a" id="r_gabf2f3abf6b3d6899c61b6d9821d30a0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabf2f3abf6b3d6899c61b6d9821d30a0a">MR::MeshTopology::preferEdges</a> (const UndirectedEdgeBitSet &amp;stableEdges)</td></tr>
 <tr class="memitem:gabc042ad8f2696ac5c81db13024c97742" id="r_gabc042ad8f2696ac5c81db13024c97742"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabc042ad8f2696ac5c81db13024c97742">MR::MeshTopology::buildGridMesh</a> (const <a class="el" href="structMR_1_1GridSettings.html">GridSettings</a> &amp;settings, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:gabc042ad8f2696ac5c81db13024c97742"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs triangular grid mesh topology in parallel  <br /></td></tr>
-<tr class="memitem:ga89ea1966317dcff9d877d2c55e775e5b" id="r_ga89ea1966317dcff9d877d2c55e775e5b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga89ea1966317dcff9d877d2c55e775e5b">MR::MeshTopology::buildFromManifoldTriangles</a> (const Triangulation &amp;t, const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;settings={}, bool *nonManifoldVertsOnly=nullptr)</td></tr>
 <tr class="memitem:gad79858d7c4554bedc2efe05daec7f1b3" id="r_gad79858d7c4554bedc2efe05daec7f1b3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad79858d7c4554bedc2efe05daec7f1b3">MR::MeshTopology::checkValidity</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={}, bool allVerts=true) const</td></tr>
 <tr class="memitem:ga4cce7def49dbe7470ef6d7c0aa86d5ec" id="r_ga4cce7def49dbe7470ef6d7c0aa86d5ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4cce7def49dbe7470ef6d7c0aa86d5ec">MR::MeshTopology::HalfEdgeRecord::operator==</a> (const <a class="el" href="#ga52461c28c53cb8304e151cdbe8f0f989">HalfEdgeRecord</a> &amp;b) const</td></tr>
 <tr class="memitem:ga52461c28c53cb8304e151cdbe8f0f989" id="r_ga52461c28c53cb8304e151cdbe8f0f989"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52461c28c53cb8304e151cdbe8f0f989">MR::MeshTopology::HalfEdgeRecord::HalfEdgeRecord</a> () noexcept=default</td></tr>
@@ -39674,40 +39673,6 @@ template&lt;typename T, typename F1, typename F2&gt; </div>
 if all even edges are consistently oriented, then the output contours will be oriented the same </p>
 <p>ignore contours with 0 or 1 points because of no edges in them</p>
 <p>ignore contours with 0 or 1 points because of no edges in them</p>
-
-</div>
-</div>
-<a id="ga89ea1966317dcff9d877d2c55e775e5b" name="ga89ea1966317dcff9d877d2c55e775e5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga89ea1966317dcff9d877d2c55e775e5b">&#9670;&#160;</a></span>buildFromManifoldTriangles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::MeshTopology::buildFromManifoldTriangles </td>
-          <td>(</td>
-          <td class="paramtype">const Triangulation &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshBuilder_1_1BuildSettings.html">MeshBuilder::BuildSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool *</td>          <td class="paramname"><span class="paramname"><em>nonManifoldVertsOnly</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRMeshTopology_8h.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
-<p>constructs topology from given triangles in parallel, if every edge has at most two triangles with opposite directions on it, and the triangles around every vertex form either one closed fan or open fans only; returns false and leaves this and settings.region unchanged otherwise; triangles with invalid or repeated vertices are not added, as in <a class="el" href="#ga3851088244e23053e194bb0bcd9e5700">MeshBuilder::fromTriangles</a> with the same settings; </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">nonManifoldVertsOnly</td><td>if given, set to whether it failed only on vertices having a closed fan and other triangles around </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>

@@ -1,7 +1,5 @@
 var NAVTREEINDEX235 =
 {
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#ab703fa614307d7cc9cae9cc91d81fd72":[9,1,0,0,2,2321,8],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#ab703fa614307d7cc9cae9cc91d81fd72":[9,1,1,0,1,2321,8],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#acc68b32c5dd757d9753af0ec9de6910f":[9,1,0,0,2,2321,3],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#acc68b32c5dd757d9753af0ec9de6910f":[9,1,1,0,1,2321,3],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#ad1167f90bc4400d8ff7a9bc5ef309166":[9,1,0,0,2,2321,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX235 =
 "classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float__Allocator__std__vector__EdgePointT__float.html#abba58ca5bff8a64b7d61ac8b5f99d231":[9,1,0,0,2,2331,8],
 "classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float__Allocator__std__vector__EdgePointT__float.html#abba58ca5bff8a64b7d61ac8b5f99d231":[9,1,1,0,1,2331,8],
 "classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float__Allocator__std__vector__EdgePointT__float.html#ac0b21fc3b0ada9c9b1f8f06e22a701b0":[9,1,0,0,2,2331,3],
-"classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float__Allocator__std__vector__EdgePointT__float.html#ac0b21fc3b0ada9c9b1f8f06e22a701b0":[9,1,1,0,1,2331,3]
+"classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float__Allocator__std__vector__EdgePointT__float.html#ac0b21fc3b0ada9c9b1f8f06e22a701b0":[9,1,1,0,1,2331,3],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float__Allocator__std__vector__EdgePointT__float.html#ac6a9802bca89d53c4d7161961bf7156f":[9,1,0,0,2,2331,7],
+"classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float__Allocator__std__vector__EdgePointT__float.html#ac6a9802bca89d53c4d7161961bf7156f":[9,1,1,0,1,2331,7]
 };

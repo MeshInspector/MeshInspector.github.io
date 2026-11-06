@@ -1,7 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"classmeshlib_1_1SignedDistanceToMeshResult.html#a3566e6ee3a89ec2ab46fa3953762ea4b":[9,6,1,0,0,931,10],
-"classmeshlib_1_1SignedDistanceToMeshResult.html#a5e067a3c8eb8f8e32aca864e03c99434":[9,6,0,0,0,931,0],
 "classmeshlib_1_1SignedDistanceToMeshResult.html#a5e067a3c8eb8f8e32aca864e03c99434":[9,6,1,0,0,931,0],
 "classmeshlib_1_1SignedDistanceToMeshResult.html#a6af68f91c2f5319b71d435fdcf5387f7":[9,6,0,0,0,931,5],
 "classmeshlib_1_1SignedDistanceToMeshResult.html#a6af68f91c2f5319b71d435fdcf5387f7":[9,6,1,0,0,931,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX127 =
 "classmeshlib_1_1SkyPatch.html#ad192e2ccacddfa2bfb56778c527c4f35":[9,6,1,0,0,937,6],
 "classmeshlib_1_1SkyPatch.html#aef63378f8061b913f97907b6ec24dbd3":[9,6,0,0,0,937,3],
 "classmeshlib_1_1SkyPatch.html#aef63378f8061b913f97907b6ec24dbd3":[9,6,1,0,0,937,3],
-"classmeshlib_1_1SliceInfo.html":[9,6,0,0,0,938]
+"classmeshlib_1_1SliceInfo.html":[9,6,0,0,0,938],
+"classmeshlib_1_1SliceInfo.html":[9,6,1,0,0,938],
+"classmeshlib_1_1SliceInfo.html#a05e76ab719ea0885bd6994014a752b8b":[9,6,0,0,0,938,17]
 };

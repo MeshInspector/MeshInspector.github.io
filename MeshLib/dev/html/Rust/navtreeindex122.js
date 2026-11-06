@@ -1,7 +1,5 @@
 var NAVTREEINDEX122 =
 {
-"structmeshlib_1_1SetBitIteratorT__MR__GraphEdgeBitSet.html":[9,5,0,0,0,903],
-"structmeshlib_1_1SetBitIteratorT__MR__GraphEdgeBitSet.html":[9,5,1,0,0,890],
 "structmeshlib_1_1SetBitIteratorT__MR__GraphEdgeBitSet.html#a18efe45ed7e9f82ecef567eac211180a":[9,5,0,0,0,903,2],
 "structmeshlib_1_1SetBitIteratorT__MR__GraphEdgeBitSet.html#a18efe45ed7e9f82ecef567eac211180a":[9,5,1,0,0,890,2],
 "structmeshlib_1_1SetBitIteratorT__MR__GraphEdgeBitSet.html#a1fb41a232bc44f3f7ef40770d0110f86":[9,5,0,0,0,903,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX122 =
 "structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a77b2a8c7f10a189f9f9395ffd6edcbf5":[9,5,0,0,0,913,3],
 "structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a77b2a8c7f10a189f9f9395ffd6edcbf5":[9,5,1,0,0,900,3],
 "structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a7d28d90f128ff8d0bb20714c1c01b79b":[9,5,0,0,0,913,29],
-"structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a7d28d90f128ff8d0bb20714c1c01b79b":[9,5,1,0,0,900,29]
+"structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a7d28d90f128ff8d0bb20714c1c01b79b":[9,5,1,0,0,900,29],
+"structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a92d2e3106849fbc25ebcd8e9cf3e3252":[9,5,0,0,0,913,25],
+"structmeshlib_1_1SharpenMarchingCubesMeshSettings.html#a92d2e3106849fbc25ebcd8e9cf3e3252":[9,5,1,0,0,900,25]
 };

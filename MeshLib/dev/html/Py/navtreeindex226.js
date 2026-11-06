@@ -1,7 +1,5 @@
 var NAVTREEINDEX226 =
 {
-"classmrmeshpy_1_1std__vector__MeshOrPointsXf__Allocator__MeshOrPointsXf.html#afdff394e0c8dfa0a4551c35f3e1de7f1":[9,1,0,0,2,2268,8],
-"classmrmeshpy_1_1std__vector__MeshOrPointsXf__Allocator__MeshOrPointsXf.html#afdff394e0c8dfa0a4551c35f3e1de7f1":[9,1,1,0,1,2268,8],
 "classmrmeshpy_1_1std__vector__MeshProjectionResult.html":[9,1,0,0,2,2269],
 "classmrmeshpy_1_1std__vector__MeshProjectionResult.html":[9,1,1,0,1,2269],
 "classmrmeshpy_1_1std__vector__MeshProjectionResult.html#a1d3cb7fdc772272ce8c3d23084154f8f":[9,1,0,0,2,2269,7],
@@ -249,5 +247,7 @@ var NAVTREEINDEX226 =
 "classmrmeshpy_1_1std__vector__ObjFaceId__Allocator__ObjFaceId.html#a2d0dd68d0343a8c11d73fa3a5a356035":[9,1,0,0,2,2277,0],
 "classmrmeshpy_1_1std__vector__ObjFaceId__Allocator__ObjFaceId.html#a2d0dd68d0343a8c11d73fa3a5a356035":[9,1,1,0,1,2277,0],
 "classmrmeshpy_1_1std__vector__ObjFaceId__Allocator__ObjFaceId.html#a4c033fdafbf8b0e3af305b376e8a8c66":[9,1,0,0,2,2277,4],
-"classmrmeshpy_1_1std__vector__ObjFaceId__Allocator__ObjFaceId.html#a4c033fdafbf8b0e3af305b376e8a8c66":[9,1,1,0,1,2277,4]
+"classmrmeshpy_1_1std__vector__ObjFaceId__Allocator__ObjFaceId.html#a4c033fdafbf8b0e3af305b376e8a8c66":[9,1,1,0,1,2277,4],
+"classmrmeshpy_1_1std__vector__ObjFaceId__Allocator__ObjFaceId.html#a7c4e297f188ef2730048ccf3f1e7ee54":[9,1,0,0,2,2277,8],
+"classmrmeshpy_1_1std__vector__ObjFaceId__Allocator__ObjFaceId.html#a7c4e297f188ef2730048ccf3f1e7ee54":[9,1,1,0,1,2277,8]
 };

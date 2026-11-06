@@ -1,7 +1,5 @@
 var NAVTREEINDEX232 =
 {
-"structmeshlib_1_1std__vector__unsigned__short__MR__Allocator__unsigned__short.html#a17f99d0738dbb665a13f06c84f39ef77":[9,5,0,0,0,1455,12],
-"structmeshlib_1_1std__vector__unsigned__short__MR__Allocator__unsigned__short.html#a17f99d0738dbb665a13f06c84f39ef77":[9,5,1,0,0,1442,12],
 "structmeshlib_1_1std__vector__unsigned__short__MR__Allocator__unsigned__short.html#a256acfedd0fc5c495153e8a14bd4bff0":[9,5,0,0,0,1455,8],
 "structmeshlib_1_1std__vector__unsigned__short__MR__Allocator__unsigned__short.html#a256acfedd0fc5c495153e8a14bd4bff0":[9,5,1,0,0,1442,8],
 "structmeshlib_1_1std__vector__unsigned__short__MR__Allocator__unsigned__short.html#a32f15741f75968bf8537395605546d80":[9,5,0,0,0,1455,13],
@@ -249,5 +247,7 @@ var NAVTREEINDEX232 =
 "structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#a1cb95befcf30f346cdf118901df28eea":[9,5,0,0,0,34,5,5],
 "structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#a1cb95befcf30f346cdf118901df28eea":[9,5,1,0,0,21,5,5],
 "structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#a21a1bdebfc49441cd9da6c7c1a835d7e":[9,5,0,0,0,34,5,3],
-"structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#a21a1bdebfc49441cd9da6c7c1a835d7e":[9,5,1,0,0,21,5,3]
+"structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#a21a1bdebfc49441cd9da6c7c1a835d7e":[9,5,1,0,0,21,5,3],
+"structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#a2e0a89c609b6ccb4fff4354d703db059":[9,5,0,0,0,34,5,12],
+"structmeshlib_1_1voxels__load_1_1RasterFolderLoadSettings.html#a2e0a89c609b6ccb4fff4354d703db059":[9,5,1,0,0,21,5,12]
 };

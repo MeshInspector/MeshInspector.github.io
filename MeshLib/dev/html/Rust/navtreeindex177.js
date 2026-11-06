@@ -1,7 +1,5 @@
 var NAVTREEINDEX177 =
 {
-"structmeshlib_1_1fix__undercuts_1_1DistMapImproveDirectionParameters.html#a0c0d52ecd5869ea29cd4fd2cd9ce6a0f":[9,5,0,0,0,5,0,5],
-"structmeshlib_1_1fix__undercuts_1_1DistMapImproveDirectionParameters.html#a0c0d52ecd5869ea29cd4fd2cd9ce6a0f":[9,5,1,0,0,3,0,5],
 "structmeshlib_1_1fix__undercuts_1_1DistMapImproveDirectionParameters.html#a0e6eecb273784026f7e2d8dc4a2750dd":[9,5,0,0,0,5,0,2],
 "structmeshlib_1_1fix__undercuts_1_1DistMapImproveDirectionParameters.html#a0e6eecb273784026f7e2d8dc4a2750dd":[9,5,1,0,0,3,0,2],
 "structmeshlib_1_1fix__undercuts_1_1DistMapImproveDirectionParameters.html#a119526ddcacaeefa67e17fc9a839d67e":[9,5,0,0,0,5,0,17],
@@ -249,5 +247,7 @@ var NAVTREEINDEX177 =
 "structmeshlib_1_1mesh__builder_1_1VertInfo.html":[9,5,0,0,0,15,7],
 "structmeshlib_1_1mesh__builder_1_1VertInfo.html":[9,5,1,0,0,4,7],
 "structmeshlib_1_1mesh__builder_1_1VertInfo.html#a172d8bdf1afe106adfd73d30fb3208c0":[9,5,0,0,0,15,7,1],
-"structmeshlib_1_1mesh__builder_1_1VertInfo.html#a172d8bdf1afe106adfd73d30fb3208c0":[9,5,1,0,0,4,7,1]
+"structmeshlib_1_1mesh__builder_1_1VertInfo.html#a172d8bdf1afe106adfd73d30fb3208c0":[9,5,1,0,0,4,7,1],
+"structmeshlib_1_1mesh__builder_1_1VertInfo.html#a1ba13e46efd524dd1059067f3cfb67f7":[9,5,0,0,0,15,7,5],
+"structmeshlib_1_1mesh__builder_1_1VertInfo.html#a1ba13e46efd524dd1059067f3cfb67f7":[9,5,1,0,0,4,7,5]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX143 =
 {
-"classmeshlib_1_1UndirectedEdgeId.html#ae68184e328c4126bc29dfe8304847bf3":[9,6,1,0,0,1537,13],
-"classmeshlib_1_1UndirectedEdgeId.html#aefc93b8990166a022f8eab42a0fb2818":[9,6,0,0,0,1537,16],
 "classmeshlib_1_1UndirectedEdgeId.html#aefc93b8990166a022f8eab42a0fb2818":[9,6,1,0,0,1537,16],
 "classmeshlib_1_1UndirectedEdgeId.html#af0213377bc1b1b1c6c6ef1b41d40c1d3":[9,6,0,0,0,1537,19],
 "classmeshlib_1_1UndirectedEdgeId.html#af0213377bc1b1b1c6c6ef1b41d40c1d3":[9,6,1,0,0,1537,19],
@@ -249,5 +247,7 @@ var NAVTREEINDEX143 =
 "classmeshlib_1_1UnexpectedResultException.html":[9,6,1,0,0,1544],
 "classmeshlib_1_1UnexpectedResultException.html#a6c44f860abbd0506fcb820f14132649a":[9,6,0,0,0,1544,0],
 "classmeshlib_1_1UnexpectedResultException.html#a6c44f860abbd0506fcb820f14132649a":[9,6,1,0,0,1544,0],
-"classmeshlib_1_1UniformSamplingSettings.html":[9,6,0,0,0,1545]
+"classmeshlib_1_1UniformSamplingSettings.html":[9,6,0,0,0,1545],
+"classmeshlib_1_1UniformSamplingSettings.html":[9,6,1,0,0,1545],
+"classmeshlib_1_1UniformSamplingSettings.html#a1e00a9cfd66ce1eb4d4eea428b251085":[9,6,0,0,0,1545,11]
 };

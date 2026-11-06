@@ -15,7 +15,6 @@ var classmeshlib_1_1MeshTopology =
     [ "bdEdgeSameOrigin", "classmeshlib_1_1MeshTopology.html#a22fa78956a76754462afca063c28dd21", null ],
     [ "bdEdgeWithLeft", "classmeshlib_1_1MeshTopology.html#a2aff7c820a5fbed045e231b3165cebfa", null ],
     [ "bdEdgeWithOrigin", "classmeshlib_1_1MeshTopology.html#abc4eff7392c07ab3fb0a6f6b8539d43c", null ],
-    [ "buildFromManifoldTriangles", "classmeshlib_1_1MeshTopology.html#a246e383206daf5256b778d1a1a6d5bc4", null ],
     [ "buildGridMesh", "classmeshlib_1_1MeshTopology.html#ab71cc3698259afa00e702a39bb79d390", null ],
     [ "checkValidity", "classmeshlib_1_1MeshTopology.html#a65a077a895cb841640e25a955631ecf7", null ],
     [ "clear", "classmeshlib_1_1MeshTopology.html#ae758e13e350796b737270c5bea7fb566", null ],

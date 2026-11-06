@@ -1,7 +1,5 @@
 var NAVTREEINDEX132 =
 {
-"structmeshlib_1_1SymMatrix4i64.html#a5075d224996dfe81c198397b269ed159":[9,5,0,0,0,1477,35],
-"structmeshlib_1_1SymMatrix4i64.html#a5075d224996dfe81c198397b269ed159":[9,5,1,0,0,1464,35],
 "structmeshlib_1_1SymMatrix4i64.html#a52570e5b5e835779c648de90e4fabed1":[9,5,0,0,0,1477,36],
 "structmeshlib_1_1SymMatrix4i64.html#a52570e5b5e835779c648de90e4fabed1":[9,5,1,0,0,1464,36],
 "structmeshlib_1_1SymMatrix4i64.html#a61469ce0930ab63e14b8e4d5f7847210":[9,5,0,0,0,1477,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX132 =
 "structmeshlib_1_1TextMeshAlignParams.html#acb03b05e68f977537141b5b5479bc2f3":[9,5,0,0,0,1485,32],
 "structmeshlib_1_1TextMeshAlignParams.html#acb03b05e68f977537141b5b5479bc2f3":[9,5,1,0,0,1472,32],
 "structmeshlib_1_1TextMeshAlignParams.html#acb39011bb0c830496840d7ace290e55c":[9,5,0,0,0,1485,7],
-"structmeshlib_1_1TextMeshAlignParams.html#acb39011bb0c830496840d7ace290e55c":[9,5,1,0,0,1472,7]
+"structmeshlib_1_1TextMeshAlignParams.html#acb39011bb0c830496840d7ace290e55c":[9,5,1,0,0,1472,7],
+"structmeshlib_1_1TextMeshAlignParams.html#acf8fe22af958a0d7bf269a1b67aa901b":[9,5,0,0,0,1485,28],
+"structmeshlib_1_1TextMeshAlignParams.html#acf8fe22af958a0d7bf269a1b67aa901b":[9,5,1,0,0,1472,28]
 };

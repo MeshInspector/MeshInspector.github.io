@@ -1,7 +1,5 @@
 var NAVTREEINDEX197 =
 {
-"structmeshlib_1_1std__shared__ptr__MR__ChangeObjectColorAction.html":[9,5,0,0,0,1175],
-"structmeshlib_1_1std__shared__ptr__MR__ChangeObjectColorAction.html":[9,5,1,0,0,1162],
 "structmeshlib_1_1std__shared__ptr__MR__ChangeObjectColorAction.html#a1390749e8e5061b14c69d7fed731fdf7":[9,5,0,0,0,1175,3],
 "structmeshlib_1_1std__shared__ptr__MR__ChangeObjectColorAction.html#a1390749e8e5061b14c69d7fed731fdf7":[9,5,1,0,0,1162,3],
 "structmeshlib_1_1std__shared__ptr__MR__ChangeObjectColorAction.html#a35b8cbb27c3dc1251aba810c4810ba63":[9,5,0,0,0,1175,8],
@@ -249,5 +247,7 @@ var NAVTREEINDEX197 =
 "structmeshlib_1_1std__shared__ptr__MR__ChangePolylinePointsAction.html#a1a9ba2cef71f9b0508b7459fb23887a8":[9,5,0,0,0,1186,7],
 "structmeshlib_1_1std__shared__ptr__MR__ChangePolylinePointsAction.html#a1a9ba2cef71f9b0508b7459fb23887a8":[9,5,1,0,0,1173,7],
 "structmeshlib_1_1std__shared__ptr__MR__ChangePolylinePointsAction.html#a5c8f705334663efba4532d2c2a4533e6":[9,5,0,0,0,1186,6],
-"structmeshlib_1_1std__shared__ptr__MR__ChangePolylinePointsAction.html#a5c8f705334663efba4532d2c2a4533e6":[9,5,1,0,0,1173,6]
+"structmeshlib_1_1std__shared__ptr__MR__ChangePolylinePointsAction.html#a5c8f705334663efba4532d2c2a4533e6":[9,5,1,0,0,1173,6],
+"structmeshlib_1_1std__shared__ptr__MR__ChangePolylinePointsAction.html#a6b6d263ae2c1fd9050f4fb00b29c4300":[9,5,0,0,0,1186,4],
+"structmeshlib_1_1std__shared__ptr__MR__ChangePolylinePointsAction.html#a6b6d263ae2c1fd9050f4fb00b29c4300":[9,5,1,0,0,1173,4]
 };

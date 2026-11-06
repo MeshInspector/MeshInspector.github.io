@@ -1,6 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"structMR_1_1PreciseVertCoords.html":[9,0,0,19,489],
 "structMR_1_1PreciseVertCoords2.html":[9,0,0,19,486],
 "structMR_1_1ProgressInterrupter.html":[9,0,0,19,919],
 "structMR_1_1ProjectAttributeParams.html":[9,0,0,19,495],
@@ -249,5 +248,6 @@ var NAVTREEINDEX70 =
 "structMR_1_1Sphere.html":[9,0,0,0,26],
 "structMR_1_1Sphere.html":[9,0,0,19,523],
 "structMR_1_1SphereParams.html":[9,0,0,19,338],
-"structMR_1_1SplineSettings.html":[9,0,0,19,342]
+"structMR_1_1SplineSettings.html":[9,0,0,19,342],
+"structMR_1_1StitchHolesNicelySettings.html":[9,0,0,19,273]
 };

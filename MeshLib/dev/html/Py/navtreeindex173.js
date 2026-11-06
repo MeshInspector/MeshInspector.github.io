@@ -1,7 +1,5 @@
 var NAVTREEINDEX173 =
 {
-"classmrmeshpy_1_1SceneSettings.html":[9,1,0,0,2,2098],
-"classmrmeshpy_1_1SceneSettings.html":[9,1,1,0,1,2098],
 "classmrmeshpy_1_1SceneSettings_1_1BoolType.html":[9,1,0,0,2,2098,0],
 "classmrmeshpy_1_1SceneSettings_1_1BoolType.html":[9,1,1,0,1,2098,0],
 "classmrmeshpy_1_1SceneSettings_1_1BoolType.html#a35e45dce9a972f7e642533b73b24ea3d":[9,1,0,0,2,2098,0,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX173 =
 "classmrmeshpy_1_1SharpOffsetParameters.html#a188d6a6267b0448d03b2834868d1fb8c":[9,1,0,0,2,2107,2],
 "classmrmeshpy_1_1SharpOffsetParameters.html#a188d6a6267b0448d03b2834868d1fb8c":[9,1,1,0,1,2107,2],
 "classmrmeshpy_1_1SharpOffsetParameters.html#a42cb0620e1bbf2522a84888242cdf0f3":[9,1,0,0,2,2107,5],
-"classmrmeshpy_1_1SharpOffsetParameters.html#a42cb0620e1bbf2522a84888242cdf0f3":[9,1,1,0,1,2107,5]
+"classmrmeshpy_1_1SharpOffsetParameters.html#a42cb0620e1bbf2522a84888242cdf0f3":[9,1,1,0,1,2107,5],
+"classmrmeshpy_1_1SharpOffsetParameters.html#a465fed2f2db897e089becbfda760a10e":[9,1,0,0,2,2107,16],
+"classmrmeshpy_1_1SharpOffsetParameters.html#a465fed2f2db897e089becbfda760a10e":[9,1,1,0,1,2107,16]
 };

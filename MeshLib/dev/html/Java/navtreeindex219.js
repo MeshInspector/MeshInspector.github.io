@@ -1,7 +1,5 @@
 var NAVTREEINDEX219 =
 {
-"classmeshlib_1_1std__shared__ptr__MR__ComputePointsToDistanceVolume.html#ac9085ab9f4704bc3e9918a8c5550022f":[9,6,1,0,0,1209,2],
-"classmeshlib_1_1std__shared__ptr__MR__ComputePointsToDistanceVolume.html#acb655b750ccb583aa88f3877a8dd3583":[9,6,0,0,0,1209,4],
 "classmeshlib_1_1std__shared__ptr__MR__ComputePointsToDistanceVolume.html#acb655b750ccb583aa88f3877a8dd3583":[9,6,1,0,0,1209,4],
 "classmeshlib_1_1std__shared__ptr__MR__ComputePointsToDistanceVolume.html#ace1b94d93ceed970924d344e02d47190":[9,6,0,0,0,1209,11],
 "classmeshlib_1_1std__shared__ptr__MR__ComputePointsToDistanceVolume.html#ace1b94d93ceed970924d344e02d47190":[9,6,1,0,0,1209,11],
@@ -249,5 +247,7 @@ var NAVTREEINDEX219 =
 "classmeshlib_1_1std__shared__ptr__MR__FastWindingNumber.html#af35b4ec452e1f38b523f275edda5ce00":[9,6,1,0,0,1217,1],
 "classmeshlib_1_1std__shared__ptr__MR__FastWindingNumber.html#af514e6fa12babda35a548bfe2f6132b3":[9,6,0,0,0,1217,8],
 "classmeshlib_1_1std__shared__ptr__MR__FastWindingNumber.html#af514e6fa12babda35a548bfe2f6132b3":[9,6,1,0,0,1217,8],
-"classmeshlib_1_1std__shared__ptr__MR__FeatureObject.html":[9,6,0,0,0,1218]
+"classmeshlib_1_1std__shared__ptr__MR__FeatureObject.html":[9,6,0,0,0,1218],
+"classmeshlib_1_1std__shared__ptr__MR__FeatureObject.html":[9,6,1,0,0,1218],
+"classmeshlib_1_1std__shared__ptr__MR__FeatureObject.html#a019de7d6ef06e702a5dc39550b16ef91":[9,6,0,0,0,1218,3]
 };

@@ -13,7 +13,6 @@ var classMR_1_1MeshTopology =
     [ "bdEdgeSameOrigin", "group__GeneralGroup.html#ga5a51c0849bae463dcf914103a8f39ecd", null ],
     [ "bdEdgeWithLeft", "group__GeneralGroup.html#ga3cfb908a7643dfeeab18f913e86977ad", null ],
     [ "bdEdgeWithOrigin", "group__GeneralGroup.html#ga3074ca02ebcce08012144224818cf970", null ],
-    [ "buildFromManifoldTriangles", "group__GeneralGroup.html#ga89ea1966317dcff9d877d2c55e775e5b", null ],
     [ "buildGridMesh", "group__GeneralGroup.html#gabc042ad8f2696ac5c81db13024c97742", null ],
     [ "checkValidity", "group__GeneralGroup.html#gad79858d7c4554bedc2efe05daec7f1b3", null ],
     [ "clear", "group__GeneralGroup.html#ga2cf1d840779aa0c63f819f6e05a26f5b", null ],

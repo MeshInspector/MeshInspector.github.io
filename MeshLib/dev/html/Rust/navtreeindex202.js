@@ -1,7 +1,5 @@
 var NAVTREEINDEX202 =
 {
-"structmeshlib_1_1std__shared__ptr__MR__ObjectVoxels.html#ae3ebdaafef0b5ce093b5fa617ed85c6c":[9,5,0,0,0,1232,5],
-"structmeshlib_1_1std__shared__ptr__MR__ObjectVoxels.html#ae3ebdaafef0b5ce093b5fa617ed85c6c":[9,5,1,0,0,1219,5],
 "structmeshlib_1_1std__shared__ptr__MR__ObjectVoxels.html#aefd50d3b24793c807c21e56af55e008b":[9,5,0,0,0,1232,2],
 "structmeshlib_1_1std__shared__ptr__MR__ObjectVoxels.html#aefd50d3b24793c807c21e56af55e008b":[9,5,1,0,0,1219,2],
 "structmeshlib_1_1std__shared__ptr__MR__OpenVdbFloatGrid.html":[9,5,0,0,0,1233],
@@ -249,5 +247,7 @@ var NAVTREEINDEX202 =
 "structmeshlib_1_1std__shared__ptr__MR__RadiusMeasurementObject.html":[9,5,0,0,0,1244],
 "structmeshlib_1_1std__shared__ptr__MR__RadiusMeasurementObject.html":[9,5,1,0,0,1231],
 "structmeshlib_1_1std__shared__ptr__MR__RadiusMeasurementObject.html#a01104524cc7e19667262617d1980f9ef":[9,5,0,0,0,1244,6],
-"structmeshlib_1_1std__shared__ptr__MR__RadiusMeasurementObject.html#a01104524cc7e19667262617d1980f9ef":[9,5,1,0,0,1231,6]
+"structmeshlib_1_1std__shared__ptr__MR__RadiusMeasurementObject.html#a01104524cc7e19667262617d1980f9ef":[9,5,1,0,0,1231,6],
+"structmeshlib_1_1std__shared__ptr__MR__RadiusMeasurementObject.html#a254819852289d2dd2368116cabe2535a":[9,5,0,0,0,1244,3],
+"structmeshlib_1_1std__shared__ptr__MR__RadiusMeasurementObject.html#a254819852289d2dd2368116cabe2535a":[9,5,1,0,0,1231,3]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"classmeshlib_1_1SharpOffsetParameters.html#a40a2abfe7ed761e982dd23dc606f076a":[9,6,1,0,0,924,11],
-"classmeshlib_1_1SharpOffsetParameters.html#a58a4e1bd8ccd751774770e7d5b592e4c":[9,6,0,0,0,924,36],
 "classmeshlib_1_1SharpOffsetParameters.html#a58a4e1bd8ccd751774770e7d5b592e4c":[9,6,1,0,0,924,36],
 "classmeshlib_1_1SharpOffsetParameters.html#a690f82906b98c96553a9208d03fd8088":[9,6,0,0,0,924,9],
 "classmeshlib_1_1SharpOffsetParameters.html#a690f82906b98c96553a9208d03fd8088":[9,6,1,0,0,924,9],
@@ -249,5 +247,7 @@ var NAVTREEINDEX126 =
 "classmeshlib_1_1SignedDistanceToMeshResult.html":[9,6,1,0,0,931],
 "classmeshlib_1_1SignedDistanceToMeshResult.html#a1a69ec74b6aabd15c7f7b96f86ad2dde":[9,6,0,0,0,931,2],
 "classmeshlib_1_1SignedDistanceToMeshResult.html#a1a69ec74b6aabd15c7f7b96f86ad2dde":[9,6,1,0,0,931,2],
-"classmeshlib_1_1SignedDistanceToMeshResult.html#a3566e6ee3a89ec2ab46fa3953762ea4b":[9,6,0,0,0,931,10]
+"classmeshlib_1_1SignedDistanceToMeshResult.html#a3566e6ee3a89ec2ab46fa3953762ea4b":[9,6,0,0,0,931,10],
+"classmeshlib_1_1SignedDistanceToMeshResult.html#a3566e6ee3a89ec2ab46fa3953762ea4b":[9,6,1,0,0,931,10],
+"classmeshlib_1_1SignedDistanceToMeshResult.html#a5e067a3c8eb8f8e32aca864e03c99434":[9,6,0,0,0,931,0]
 };

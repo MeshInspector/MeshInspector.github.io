@@ -1,7 +1,5 @@
 var NAVTREEINDEX117 =
 {
-"structmeshlib_1_1RadiusMeasurementObject.html#ab8310549cd54a1e8747ddef391915201":[9,5,0,0,0,858,82],
-"structmeshlib_1_1RadiusMeasurementObject.html#ab8310549cd54a1e8747ddef391915201":[9,5,1,0,0,845,82],
 "structmeshlib_1_1RadiusMeasurementObject.html#ab9a3043af5002f3795d6617e92a0e656":[9,5,0,0,0,858,5],
 "structmeshlib_1_1RadiusMeasurementObject.html#ab9a3043af5002f3795d6617e92a0e656":[9,5,1,0,0,845,5],
 "structmeshlib_1_1RadiusMeasurementObject.html#aba8d0426bf82f011b98880088e3c2a0b":[9,5,0,0,0,858,10],
@@ -249,5 +247,7 @@ var NAVTREEINDEX117 =
 "structmeshlib_1_1RectIndexer.html#acb9042e8ca55926083004c12ba51cd71":[9,5,0,0,0,865,11],
 "structmeshlib_1_1RectIndexer.html#acb9042e8ca55926083004c12ba51cd71":[9,5,1,0,0,852,11],
 "structmeshlib_1_1RectIndexer.html#adc005cdbf4a73015ba88664a60214bd4":[9,5,0,0,0,865,6],
-"structmeshlib_1_1RectIndexer.html#adc005cdbf4a73015ba88664a60214bd4":[9,5,1,0,0,852,6]
+"structmeshlib_1_1RectIndexer.html#adc005cdbf4a73015ba88664a60214bd4":[9,5,1,0,0,852,6],
+"structmeshlib_1_1ReduceTotalAngleParams.html":[9,5,0,0,0,866],
+"structmeshlib_1_1ReduceTotalAngleParams.html":[9,5,1,0,0,853]
 };

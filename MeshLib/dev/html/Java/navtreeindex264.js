@@ -1,7 +1,5 @@
 var NAVTREEINDEX264 =
 {
-"std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8java.html":[9,6,2,0,0,1,0,0,979],
-"std__function__bool__from__const__MR__MeshProjectionResult__ref_8java.html":[9,6,2,0,0,1,0,0,980],
 "std__function__bool__from__const__MR__Object__ref_8java.html":[9,6,2,0,0,1,0,0,981],
 "std__function__bool__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref_8java.html":[9,6,2,0,0,1,0,0,982],
 "std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8java.html":[9,6,2,0,0,1,0,0,983],
@@ -249,5 +247,7 @@ var NAVTREEINDEX264 =
 "std__shared__ptr__MR__SceneRootObject_8java.html":[9,6,2,0,0,1,0,0,1257],
 "std__shared__ptr__MR__SphereObject_8java.html":[9,6,2,0,0,1,0,0,1258],
 "std__shared__ptr__MR__VersatileChangeMeshPointsAction_8java.html":[9,6,2,0,0,1,0,0,1259],
-"std__shared__ptr__MR__VisualObject_8java.html":[9,6,2,0,0,1,0,0,1260]
+"std__shared__ptr__MR__VisualObject_8java.html":[9,6,2,0,0,1,0,0,1260],
+"std__shared__ptr__const__MR__Mesh_8java.html":[9,6,2,0,0,1,0,0,1156],
+"std__shared__ptr__const__MR__Object_8java.html":[9,6,2,0,0,1,0,0,1157]
 };

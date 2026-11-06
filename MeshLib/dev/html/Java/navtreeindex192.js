@@ -1,7 +1,5 @@
 var NAVTREEINDEX192 =
 {
-"classmeshlib_1_1nesting_1_1SequentialNester.html#af442f97a6a2b31c80a1383179e132318":[9,6,1,0,0,19,9,5],
-"classmeshlib_1_1nesting_1_1TetrisDensifyOptions.html":[9,6,0,0,0,19,10],
 "classmeshlib_1_1nesting_1_1TetrisDensifyOptions.html":[9,6,1,0,0,19,10],
 "classmeshlib_1_1nesting_1_1TetrisDensifyOptions.html#a115bb6a724d578f7dfc30e9beef1f4ef":[9,6,0,0,0,19,10,13],
 "classmeshlib_1_1nesting_1_1TetrisDensifyOptions.html#a115bb6a724d578f7dfc30e9beef1f4ef":[9,6,1,0,0,19,10,13],
@@ -249,5 +247,7 @@ var NAVTREEINDEX192 =
 "classmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__GraphEdgeId__MR__GraphEdgeId__phmap__Hash__1bcf0b742d9bb82e4f3942d0565a6133.html#a6778bad4bd8f5913e699ac20664de0ac":[9,6,1,0,0,22,7,4],
 "classmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__GraphEdgeId__MR__GraphEdgeId__phmap__Hash__1bcf0b742d9bb82e4f3942d0565a6133.html#ab49748bb0c4ba69811d831409f96b8be":[9,6,0,0,0,22,7,7],
 "classmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__GraphEdgeId__MR__GraphEdgeId__phmap__Hash__1bcf0b742d9bb82e4f3942d0565a6133.html#ab49748bb0c4ba69811d831409f96b8be":[9,6,1,0,0,22,7,7],
-"classmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__GraphEdgeId__MR__GraphEdgeId__phmap__Hash__1bcf0b742d9bb82e4f3942d0565a6133.html#ae830a22b86b966fb15b3300054b533ed":[9,6,0,0,0,22,7,2]
+"classmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__GraphEdgeId__MR__GraphEdgeId__phmap__Hash__1bcf0b742d9bb82e4f3942d0565a6133.html#ae830a22b86b966fb15b3300054b533ed":[9,6,0,0,0,22,7,2],
+"classmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__GraphEdgeId__MR__GraphEdgeId__phmap__Hash__1bcf0b742d9bb82e4f3942d0565a6133.html#ae830a22b86b966fb15b3300054b533ed":[9,6,1,0,0,22,7,2],
+"classmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__GraphVertId__MR__GraphVertId__phmap__Hash__4eab9d59b534a2ea7761a7977e041b11.html":[9,6,0,0,0,22,8]
 };
