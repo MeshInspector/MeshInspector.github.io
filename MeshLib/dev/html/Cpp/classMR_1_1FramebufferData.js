@@ -8,6 +8,7 @@ var classMR_1_1FramebufferData =
     [ "draw", "group__GeneralGroup.html#ga852ff43802ffea58819348d818c837fa", null ],
     [ "gen", "group__GeneralGroup.html#ga10805d5f438c9a939110a5372e4a548d", null ],
     [ "getColorTexture", "group__GeneralGroup.html#ga4f554722ab0b107b3ec2afa38e43460d", null ],
+    [ "getCopyFramebuffer", "group__GeneralGroup.html#gadada5f58d779347dc28cc29c8d8f8d80", null ],
     [ "getDepthTexture", "group__GeneralGroup.html#ga8079592aa54b067ee0a8c529a5bb8ef3", null ],
     [ "getSize", "group__GeneralGroup.html#ga89877d47c22c4dda2ae1bcd9ec9923c5", null ],
     [ "isBound", "group__GeneralGroup.html#ga69af9841e2e06066fbdea51d15b5d1e6", null ]

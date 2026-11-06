@@ -1,5 +1,8 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1FileParameters.html":[9,0,0,19,605],
+"structMR_1_1FillHoleItem.html":[9,0,0,19,291],
+"structMR_1_1FillHoleItemEdge.html":[9,0,0,19,292],
 "structMR_1_1FillHoleMetric.html":[9,0,0,9,3,3],
 "structMR_1_1FillHoleMetric.html#a3048bcf785194be02ce20b5d6e6bfd61":[9,0,0,9,3,3,1],
 "structMR_1_1FillHoleMetric.html#a7b6a69b1fc9a24862156d40b44ff814c":[9,0,0,9,3,3,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0a1278a05c920fa5388ad95ecba19945":[9,0,2,0,1,7,7,27],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0bf2a98fd40dd55c53c03eff0ef22f9d":[9,0,1,0,1,17,7,19],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0bf2a98fd40dd55c53c03eff0ef22f9d":[9,0,2,0,1,7,7,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978":[9,0,1,0,1,17,7,20],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978":[9,0,2,0,1,7,7,20],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0eadf7819b37ebaad2aa7beed0b9899c":[9,0,1,0,1,17,7,26],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0eadf7819b37ebaad2aa7beed0b9899c":[9,0,2,0,1,7,7,26]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978":[9,0,1,0,1,17,7,20]
 };

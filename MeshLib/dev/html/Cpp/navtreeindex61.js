@@ -1,5 +1,8 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162d":[9,0,1,0,1,17,17],
+"namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162da06a224da9e61bee19ec9eef88b95f934":[9,0,1,0,1,17,17,0],
+"namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162da5927c315d864270693959758800d99d7":[9,0,1,0,1,17,17,2],
 "namespaceMR_1_1ImGuiMeasurementIndicators.html#aaf160e58360dc1e2c715f0b72dba162da5c4562eb35560ecfac0098dbf8cb3a74":[9,0,1,0,1,17,17,1],
 "namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898":[9,0,1,0,1,17,15],
 "namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898a1a18f19535b3b1edd5de7f535141f476":[9,0,1,0,1,17,15,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191add78eb3edda7b21ae662a3af71aec8ff":[9,0,1,0,1,50,9,5],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191aea0c2eb0e1f4d601ef8845cb9d3265f7":[9,0,1,0,1,50,9,2],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191aea2a4a37b9d169eb4eddf18d7e07c2e4":[9,0,1,0,1,50,9,3],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191afdf73f89250319addc5fb627e1a7d3cd":[9,0,1,0,1,50,9,11],
-"namespaceMR_1_1SpaceMouse.html#abf82e89e6fb5b9737517cfd1d6f69e18":[9,0,1,0,1,50,8],
-"namespaceMR_1_1SpaceMouse.html#af8da66a1778b1276a2273cce6aa25df1":[9,0,1,0,1,50,10],
-"namespaceMR_1_1SpaceMouse.html#afea9877496a4f6098c6687dbbae1ac62":[9,0,1,0,1,50,6]
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191afdf73f89250319addc5fb627e1a7d3cd":[9,0,1,0,1,50,9,11]
 };

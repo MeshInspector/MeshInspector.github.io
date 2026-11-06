@@ -9834,6 +9834,8 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga4f554722ab0b107b3ec2afa38e43460d" id="r_ga4f554722ab0b107b3ec2afa38e43460d"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4f554722ab0b107b3ec2afa38e43460d">MR::FramebufferData::getColorTexture</a> () const</td></tr>
 <tr class="memdesc:ga4f554722ab0b107b3ec2afa38e43460d"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets texture id for binding in other shaders  <br /></td></tr>
 <tr class="memitem:ga8079592aa54b067ee0a8c529a5bb8ef3" id="r_ga8079592aa54b067ee0a8c529a5bb8ef3"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8079592aa54b067ee0a8c529a5bb8ef3">MR::FramebufferData::getDepthTexture</a> () const</td></tr>
+<tr class="memitem:gadada5f58d779347dc28cc29c8d8f8d80" id="r_gadada5f58d779347dc28cc29c8d8f8d80"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadada5f58d779347dc28cc29c8d8f8d80">MR::FramebufferData::getCopyFramebuffer</a> () const</td></tr>
+<tr class="memdesc:gadada5f58d779347dc28cc29c8d8f8d80"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the framebuffer the textures above are attached to (e.g. to blit from them)  <br /></td></tr>
 <tr class="memitem:ga89877d47c22c4dda2ae1bcd9ec9923c5" id="r_ga89877d47c22c4dda2ae1bcd9ec9923c5"><td class="memItemLeft" align="right" valign="top">const Vector2i &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga89877d47c22c4dda2ae1bcd9ec9923c5">MR::FramebufferData::getSize</a> () const</td></tr>
 <tr class="memitem:ga69af9841e2e06066fbdea51d15b5d1e6" id="r_ga69af9841e2e06066fbdea51d15b5d1e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga69af9841e2e06066fbdea51d15b5d1e6">MR::FramebufferData::isBound</a> () const</td></tr>
 <tr class="memdesc:ga69af9841e2e06066fbdea51d15b5d1e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if texture is bound  <br /></td></tr>
@@ -14275,6 +14277,10 @@ Variables</h2></td></tr>
 <tr class="memdesc:gab8f2d431e39a794c2f26c90a41d076fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">filter type of underlaying textures  <br /></td></tr>
 <tr class="memitem:ga3c746d4b6d8c92e796c2c1f1080a5d79" id="r_ga3c746d4b6d8c92e796c2c1f1080a5d79"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3c746d4b6d8c92e796c2c1f1080a5d79">MR::FramebufferData::DrawParams::simpleDepth</a> = 0.5f</td></tr>
 <tr class="memdesc:ga3c746d4b6d8c92e796c2c1f1080a5d79"><td class="mdescLeft">&#160;</td><td class="mdescRight">force using <span class="tt">simpleDepth</span> for all fragments even if depth texture is present  <br /></td></tr>
+<tr class="memitem:ga75e83e3a5bcbba1d87163e434d8647a7" id="r_ga75e83e3a5bcbba1d87163e434d8647a7"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75e83e3a5bcbba1d87163e434d8647a7">MR::FramebufferData::DrawParams::depthTexture</a> = 0</td></tr>
+<tr class="memdesc:ga75e83e3a5bcbba1d87163e434d8647a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">depth that is used if this framebuffer does not store depth component texture  <br /></td></tr>
+<tr class="memitem:ga6e94e0808fcddbdf07ea951084fb7406" id="r_ga6e94e0808fcddbdf07ea951084fb7406"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6e94e0808fcddbdf07ea951084fb7406">MR::FramebufferData::DrawParams::maxDepth</a> = 0.999f</td></tr>
+<tr class="memdesc:ga6e94e0808fcddbdf07ea951084fb7406"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not zero, this depth texture is used instead of the framebuffer's own one  <br /></td></tr>
 <tr class="memitem:ga3bbf015a92d7acdcb4f134a3af214b75" id="r_ga3bbf015a92d7acdcb4f134a3af214b75"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3bbf015a92d7acdcb4f134a3af214b75">MR::RenderMeshObject::objMesh_</a></td></tr>
 <tr class="memitem:gad8c179bd9f2914459146986ba590f4c2" id="r_gad8c179bd9f2914459146986ba590f4c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad8c179bd9f2914459146986ba590f4c2">MR::RenderMeshObject::vertPosSize_</a> { 0 }</td></tr>
 <tr class="memitem:ga8e4c0f111508fd26331871247ad7e055" id="r_ga8e4c0f111508fd26331871247ad7e055"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8e4c0f111508fd26331871247ad7e055">MR::RenderMeshObject::vertNormalsSize_</a> { 0 }</td></tr>
@@ -85581,6 +85587,35 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRSurfacePointPicker_8h.html">MRViewer/MRSurfacePointPicker.h</a>&gt;</code></p>
 
 <p>return local object's coordinates at the current position where the center of sphere is located </p>
+
+</div>
+</div>
+<a id="gadada5f58d779347dc28cc29c8d8f8d80" name="gadada5f58d779347dc28cc29c8d8f8d80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadada5f58d779347dc28cc29c8d8f8d80">&#9670;&#160;</a></span>getCopyFramebuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned MR::FramebufferData::getCopyFramebuffer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRRenderGLHelpers_8h.html">MRViewer/MRRenderGLHelpers.h</a>&gt;</code></p>
+
+<p>gets the framebuffer the textures above are attached to (e.g. to blit from them) </p>
 
 </div>
 </div>
@@ -216529,6 +216564,22 @@ template&lt;typename...&gt; </div>
 
 </div>
 </div>
+<a id="ga75e83e3a5bcbba1d87163e434d8647a7" name="ga75e83e3a5bcbba1d87163e434d8647a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga75e83e3a5bcbba1d87163e434d8647a7">&#9670;&#160;</a></span>depthTexture</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned MR::FramebufferData::DrawParams::depthTexture = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>depth that is used if this framebuffer does not store depth component texture </p>
+
+</div>
+</div>
 <a id="ga63cb40ae1beaf80d388327d1b20bbff6" name="ga63cb40ae1beaf80d388327d1b20bbff6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga63cb40ae1beaf80d388327d1b20bbff6">&#9670;&#160;</a></span>description</h2>
 
@@ -225060,6 +225111,22 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p>Limit on the number of deleted vertices. </p>
+
+</div>
+</div>
+<a id="ga6e94e0808fcddbdf07ea951084fb7406" name="ga6e94e0808fcddbdf07ea951084fb7406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6e94e0808fcddbdf07ea951084fb7406">&#9670;&#160;</a></span>maxDepth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::FramebufferData::DrawParams::maxDepth = 0.999f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if not zero, this depth texture is used instead of the framebuffer's own one </p>
 
 </div>
 </div>
