@@ -281,7 +281,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5409ba30dec06358c080159ef963535a" id="r_a5409ba30dec06358c080159ef963535a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5409ba30dec06358c080159ef963535a">op_equal</a> (b:&amp;<a class="el" href="structmeshlib_1_1MeshTopology.html">meshlib::MeshTopology</a>) const -&gt; bool</td></tr>
 <tr class="memitem:a7718b246c640f496b4c84adf1207216a" id="r_a7718b246c640f496b4c84adf1207216a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7718b246c640f496b4c84adf1207216a">op_not_equal</a> (b:&amp;<a class="el" href="structmeshlib_1_1MeshTopology.html">meshlib::MeshTopology</a>) const -&gt; bool</td></tr>
 <tr class="memitem:a65f5119f0d28105ad5a7472a058153fe" id="r_a65f5119f0d28105ad5a7472a058153fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65f5119f0d28105ad5a7472a058153fe">resize_before_parallel_add</a> (edgeSize:usize, vertSize:usize, faceSize:usize)</td></tr>
-<tr class="memitem:a1a5867e7a4941588edc462e2c5875e3b" id="r_a1a5867e7a4941588edc462e2c5875e3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a5867e7a4941588edc462e2c5875e3b">add_packed_part</a> (from:&amp;<a class="el" href="structmeshlib_1_1MeshTopology.html">meshlib::MeshTopology</a>, toEdgeId:meshlib::EdgeId, fmap:&amp;<a class="el" href="structmeshlib_1_1FaceMap.html">meshlib::FaceMap</a>, vmap:&amp;<a class="el" href="structmeshlib_1_1VertMap.html">meshlib::VertMap</a>)</td></tr>
+<tr class="memitem:a1d0e8c0188e63208a896362a49618739" id="r_a1d0e8c0188e63208a896362a49618739"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d0e8c0188e63208a896362a49618739">add_packed_part</a> (from:&amp;<a class="el" href="structmeshlib_1_1MeshTopology.html">meshlib::MeshTopology</a>, toEdgeId:meshlib::EdgeId, fmap:&amp;<a class="el" href="structmeshlib_1_1FaceMap.html">meshlib::FaceMap</a>, vmap:&amp;<a class="el" href="structmeshlib_1_1VertMap.html">meshlib::VertMap</a>, shiftFaceId:Option&lt; core::ffi::c_int &gt;)</td></tr>
 <tr class="memitem:af12520f77e8272d345e1b1b739cba655" id="r_af12520f77e8272d345e1b1b739cba655"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af12520f77e8272d345e1b1b739cba655">compute_valids_from_edges</a> (cb:Option&lt;&amp;<a class="el" href="structmeshlib_1_1std__function__bool__from__float.html">meshlib::std_function_bool_from_float</a> &gt;) -&gt; bool</td></tr>
 <tr class="memitem:a5a9ba1394a2fee7047c96659504ae98a" id="r_a5a9ba1394a2fee7047c96659504ae98a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a9ba1394a2fee7047c96659504ae98a">stop_updating_valids</a> ()</td></tr>
 <tr class="memitem:a13ae615cbef3e93e78bef22346bfb32f" id="r_a13ae615cbef3e93e78bef22346bfb32f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13ae615cbef3e93e78bef22346bfb32f">updating_valids</a> () const -&gt; bool</td></tr>
@@ -321,8 +321,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1a5867e7a4941588edc462e2c5875e3b" name="a1a5867e7a4941588edc462e2c5875e3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a5867e7a4941588edc462e2c5875e3b">&#9670;&#160;</a></span>add_packed_part()</h2>
+<a id="a1d0e8c0188e63208a896362a49618739" name="a1d0e8c0188e63208a896362a49618739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d0e8c0188e63208a896362a49618739">&#9670;&#160;</a></span>add_packed_part()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,14 +345,20 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">vmap:&amp;<a class="el" href="structmeshlib_1_1VertMap.html">meshlib::VertMap</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+          <td class="paramtype">vmap:&amp;<a class="el" href="structmeshlib_1_1VertMap.html">meshlib::VertMap</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">shiftFaceId:Option&lt; core::ffi::c_int &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>copies topology (from) into this; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">from</td><td>edges must be tightly packes without any lone edges, and they are mapped [0, from.edges.size()) -&gt; [toEdgeId, toEdgeId + from.edges.size()); </td></tr>
-    <tr><td class="paramname">fmap,vmap</td><td>mapping of vertices and faces if it is given ( from.id -&gt; this.id ) Generated from method <span class="tt">MR::MeshTopology::addPackedPart</span>.</td></tr>
+    <tr><td class="paramname">fmap,vmap</td><td>mapping of vertices and faces if it is given ( from.id -&gt; this.id ) </td></tr>
+    <tr><td class="paramname">shiftFaceId</td><td>is added to all face ids from fmap Generated from method <span class="tt">MR::MeshTopology::addPackedPart</span>.</td></tr>
   </table>
   </dd>
 </dl>

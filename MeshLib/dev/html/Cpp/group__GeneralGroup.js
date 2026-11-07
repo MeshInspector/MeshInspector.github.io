@@ -2961,7 +2961,7 @@ var group__GeneralGroup =
     ] ],
     [ "MR::MeshTopology", "classMR_1_1MeshTopology.html", [
       [ "addFaceId", "group__GeneralGroup.html#gab2810fe9c6b38f4a0926069ab58120ea", null ],
-      [ "addPackedPart", "group__GeneralGroup.html#ga9240c1848633d691fdbb0e5869910043", null ],
+      [ "addPackedPart", "group__GeneralGroup.html#ga001ab73138c9e139f0af4017e2ce219d", null ],
       [ "addPart", "group__GeneralGroup.html#gab20f149e1bd55d7df88bd59dc8ba2349", null ],
       [ "addPart", "group__GeneralGroup.html#ga3fec886d75afa5eed0ceb5ddb4f6ac1b", null ],
       [ "addPartByMask", "group__GeneralGroup.html#gac502e8b6d519ba43132a6507bd00e7e8", null ],
@@ -11042,7 +11042,7 @@ var group__GeneralGroup =
     [ "MR::addNoise", "group__GeneralGroup.html#ga338195e16e71101c8dc2efe46c3d558a", null ],
     [ "MR::EdgePathsBuilderT::addOrgRingSteps", "group__GeneralGroup.html#ga7567736873ea92c6a2359d13bdf9ff52", null ],
     [ "MR::FreeFormBestFit::addOther", "group__GeneralGroup.html#ga2fc1ccc14384faa1050bccc388646018", null ],
-    [ "MR::MeshTopology::addPackedPart", "group__GeneralGroup.html#ga9240c1848633d691fdbb0e5869910043", null ],
+    [ "MR::MeshTopology::addPackedPart", "group__GeneralGroup.html#ga001ab73138c9e139f0af4017e2ce219d", null ],
     [ "MR::FreeFormBestFit::addPair", "group__GeneralGroup.html#ga6815b644f737674d9bbb9a07956f50e6", null ],
     [ "MR::FreeFormBestFit::addPair", "group__GeneralGroup.html#ga5e0c21c2de7ea212b991b59d105e79bd", null ],
     [ "MR::Pdf::addPaletteStatsTable", "group__GeneralGroup.html#ga1d4f556e556f49b697286bffced9e463", null ],

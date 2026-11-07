@@ -230,8 +230,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5a427b567c5dcafd1f0d7d7e23966d9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from binary stream  <br /></td></tr>
 <tr class="memitem:ad44166229d576cbcb3debba9a8a6d925" id="r_ad44166229d576cbcb3debba9a8a6d925"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad44166229d576cbcb3debba9a8a6d925">resizeBeforeParallelAdd</a> (nuint <a class="el" href="classMR_1_1Const__MeshTopology.html#a5d25c734ef3d963ecc2d341542af2ca2">edgeSize</a>, nuint <a class="el" href="classMR_1_1Const__MeshTopology.html#ad55efa4072ab947f4e2e31528e9fe573">vertSize</a>, nuint <a class="el" href="classMR_1_1Const__MeshTopology.html#a3d3800a360b5bf899ebd12b33a5faf70">faceSize</a>)</td></tr>
 <tr class="memdesc:ad44166229d576cbcb3debba9a8a6d925"><td class="mdescLeft">&#160;</td><td class="mdescRight">These function are for parallel mesh creation from different threads. If you are not sure, do not use them.  <br /></td></tr>
-<tr class="memitem:acf3e6e7cbd2868023ae9b09c3e15d381" id="r_acf3e6e7cbd2868023ae9b09c3e15d381"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf3e6e7cbd2868023ae9b09c3e15d381">addPackedPart</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> toEdgeId, <a class="el" href="classMR_1_1Const__FaceMap.html">MR.Const_FaceMap</a> fmap, <a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a> vmap)</td></tr>
-<tr class="memdesc:acf3e6e7cbd2868023ae9b09c3e15d381"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies topology (from) into this;  <br /></td></tr>
+<tr class="memitem:aac63d2ed2ae6133412262062fe7a47d4" id="r_aac63d2ed2ae6133412262062fe7a47d4"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac63d2ed2ae6133412262062fe7a47d4">addPackedPart</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> toEdgeId, <a class="el" href="classMR_1_1Const__FaceMap.html">MR.Const_FaceMap</a> fmap, <a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a> vmap, int? shiftFaceId=null)</td></tr>
+<tr class="memdesc:aac63d2ed2ae6133412262062fe7a47d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies topology (from) into this;  <br /></td></tr>
 <tr class="memitem:a5f8cc5b0e1d78c1a58fcbe9bb62ce559" id="r_a5f8cc5b0e1d78c1a58fcbe9bb62ce559"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f8cc5b0e1d78c1a58fcbe9bb62ce559">computeValidsFromEdges</a> (MR.Std._ByValue_Function_Bool_From_Float? cb=null)</td></tr>
 <tr class="memdesc:a5f8cc5b0e1d78c1a58fcbe9bb62ce559"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute 1) numValidVerts_ and validVerts_ from edgePerVertex_ 2) numValidFaces_ and validFaces_ from edgePerFace_ and activates their auto-update Generated from method <span class="tt"><a class="el" href="#a5f8cc5b0e1d78c1a58fcbe9bb62ce559" title="compute 1) numValidVerts_ and validVerts_ from edgePerVertex_ 2) numValidFaces_ and validFaces_ from ...">MR.MeshTopology.computeValidsFromEdges</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:ad936295832388c4a9949f2fb85a0afb8" id="r_ad936295832388c4a9949f2fb85a0afb8"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad936295832388c4a9949f2fb85a0afb8">stopUpdatingValids</a> ()</td></tr>
@@ -589,8 +589,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="acf3e6e7cbd2868023ae9b09c3e15d381" name="acf3e6e7cbd2868023ae9b09c3e15d381"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf3e6e7cbd2868023ae9b09c3e15d381">&#9670;&#160;</a></span>addPackedPart()</h2>
+<a id="aac63d2ed2ae6133412262062fe7a47d4" name="aac63d2ed2ae6133412262062fe7a47d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac63d2ed2ae6133412262062fe7a47d4">&#9670;&#160;</a></span>addPackedPart()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -616,7 +616,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a></td>          <td class="paramname"><span class="paramname"><em>vmap</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a></td>          <td class="paramname"><span class="paramname"><em>vmap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int?</td>          <td class="paramname"><span class="paramname"><em>shiftFaceId</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -630,7 +635,8 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">from</td><td>edges must be tightly packes without any lone edges, and they are mapped [0, from.edges.size()) -&gt; [toEdgeId, toEdgeId + from.edges.size()); </td></tr>
-    <tr><td class="paramname">fmap,vmap</td><td>mapping of vertices and faces if it is given ( from.id -&gt; this.id ) Generated from method <span class="tt"><a class="el" href="#acf3e6e7cbd2868023ae9b09c3e15d381" title="copies topology (from) into this;">MR.MeshTopology.addPackedPart</a></span>. </td></tr>
+    <tr><td class="paramname">fmap,vmap</td><td>mapping of vertices and faces if it is given ( from.id -&gt; this.id ) </td></tr>
+    <tr><td class="paramname">shiftFaceId</td><td>is added to all face ids from fmap Generated from method <span class="tt"><a class="el" href="#aac63d2ed2ae6133412262062fe7a47d4" title="copies topology (from) into this;">MR.MeshTopology.addPackedPart</a></span>. Parameter <span class="tt">shiftFaceId</span> defaults to <span class="tt">0</span>. </td></tr>
   </table>
   </dd>
 </dl>

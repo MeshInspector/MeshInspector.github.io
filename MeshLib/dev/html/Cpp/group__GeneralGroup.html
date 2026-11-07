@@ -6335,7 +6335,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gadaf57d8b41c5f38c2bf17310ac1d8b78" id="r_gadaf57d8b41c5f38c2bf17310ac1d8b78"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadaf57d8b41c5f38c2bf17310ac1d8b78">MR::MeshTopology::operator==</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;b) const</td></tr>
 <tr class="memdesc:gadaf57d8b41c5f38c2bf17310ac1d8b78"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare that two topologies are exactly the same  <br /></td></tr>
 <tr class="memitem:ga365a012f4cca05d6ad5abd4570b993cd" id="r_ga365a012f4cca05d6ad5abd4570b993cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga365a012f4cca05d6ad5abd4570b993cd">MR::MeshTopology::resizeBeforeParallelAdd</a> (size_t <a class="el" href="#ga59e61393e26970b19791a726b212a1b8">edgeSize</a>, size_t <a class="el" href="#ga2b16ab4e052fe4ad4ff4a7dd1ac4c01f">vertSize</a>, size_t <a class="el" href="#ga9caed84ef0fe1c701ce090f00d05593a">faceSize</a>)</td></tr>
-<tr class="memitem:ga9240c1848633d691fdbb0e5869910043" id="r_ga9240c1848633d691fdbb0e5869910043"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9240c1848633d691fdbb0e5869910043">MR::MeshTopology::addPackedPart</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;from, EdgeId toEdgeId, const FaceMap &amp;fmap, const VertMap &amp;vmap)</td></tr>
+<tr class="memitem:ga001ab73138c9e139f0af4017e2ce219d" id="r_ga001ab73138c9e139f0af4017e2ce219d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga001ab73138c9e139f0af4017e2ce219d">MR::MeshTopology::addPackedPart</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;from, EdgeId toEdgeId, const FaceMap &amp;fmap, const VertMap &amp;vmap, int shiftFaceId=0)</td></tr>
 <tr class="memitem:ga2125e27e8dfe29a6b457ec6ed685539c" id="r_ga2125e27e8dfe29a6b457ec6ed685539c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2125e27e8dfe29a6b457ec6ed685539c">MR::MeshTopology::computeValidsFromEdges</a> (<a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memitem:gac675cc2e5656941060f7db9be54b92a0" id="r_gac675cc2e5656941060f7db9be54b92a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac675cc2e5656941060f7db9be54b92a0">MR::MeshTopology::stopUpdatingValids</a> ()</td></tr>
 <tr class="memdesc:gac675cc2e5656941060f7db9be54b92a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">stops updating validVerts(), validFaces(), <a class="el" href="#ga720c7a299f00a1e717e4bd34ce86591f" title="returns the number of valid vertices">numValidVerts()</a>, <a class="el" href="#ga94378f70606fda1a41eb0605de0c8cbe" title="returns the number of valid faces">numValidFaces()</a> for parallel processing of mesh parts  <br /></td></tr>
@@ -12900,7 +12900,7 @@ Variables</h2></td></tr>
 <tr class="memitem:ga335c5766297cd37d2bc6d54e7f0867da" id="r_ga335c5766297cd37d2bc6d54e7f0867da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga335c5766297cd37d2bc6d54e7f0867da">MR::TransformedMesh::mesh</a></td></tr>
 <tr class="memitem:ga643b404d35e9496c6ee8d3382c80ee18" id="r_ga643b404d35e9496c6ee8d3382c80ee18"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga643b404d35e9496c6ee8d3382c80ee18">MR::TransformedMesh::xf</a></td></tr>
 <tr class="memitem:ga9d2f3c57986b646bdf6618a914511a38" id="r_ga9d2f3c57986b646bdf6618a914511a38"><td class="memItemLeft" align="right" valign="top">FaceMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9d2f3c57986b646bdf6618a914511a38">MR::MeshBuilder::MeshPiece::fmap</a></td></tr>
-<tr class="memdesc:ga9d2f3c57986b646bdf6618a914511a38"><td class="mdescLeft">&#160;</td><td class="mdescRight">face of part -&gt; face of whole mesh  <br /></td></tr>
+<tr class="memdesc:ga9d2f3c57986b646bdf6618a914511a38"><td class="mdescLeft">&#160;</td><td class="mdescRight">face of part -&gt; face of whole mesh (before settings.shiftFaceId is added)  <br /></td></tr>
 <tr class="memitem:ga0e2772f29127c4ade3e9c174019fa545" id="r_ga0e2772f29127c4ade3e9c174019fa545"><td class="memItemLeft" align="right" valign="top">VertMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0e2772f29127c4ade3e9c174019fa545">MR::MeshBuilder::MeshPiece::vmap</a></td></tr>
 <tr class="memdesc:ga0e2772f29127c4ade3e9c174019fa545"><td class="mdescLeft">&#160;</td><td class="mdescRight">vert of part -&gt; vert of whole mesh  <br /></td></tr>
 <tr class="memitem:ga9a4c27d8994760be58bd44c477f0a1d9" id="r_ga9a4c27d8994760be58bd44c477f0a1d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9a4c27d8994760be58bd44c477f0a1d9">MR::MeshBuilder::MeshPiece::topology</a></td></tr>
@@ -32217,8 +32217,8 @@ template&lt;class MetricToPenalty&gt; </div>
 
 </div>
 </div>
-<a id="ga9240c1848633d691fdbb0e5869910043" name="ga9240c1848633d691fdbb0e5869910043"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9240c1848633d691fdbb0e5869910043">&#9670;&#160;</a></span>addPackedPart()</h2>
+<a id="ga001ab73138c9e139f0af4017e2ce219d" name="ga001ab73138c9e139f0af4017e2ce219d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga001ab73138c9e139f0af4017e2ce219d">&#9670;&#160;</a></span>addPackedPart()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -32241,7 +32241,12 @@ template&lt;class MetricToPenalty&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertMap &amp;</td>          <td class="paramname"><span class="paramname"><em>vmap</em></span>&#160;)</td>
+          <td class="paramtype">const VertMap &amp;</td>          <td class="paramname"><span class="paramname"><em>vmap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>shiftFaceId</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -32251,6 +32256,7 @@ template&lt;class MetricToPenalty&gt; </div>
   <table class="params">
     <tr><td class="paramname">from</td><td>edges must be tightly packes without any lone edges, and they are mapped [0, from.edges.size()) -&gt; [toEdgeId, toEdgeId + from.edges.size()); </td></tr>
     <tr><td class="paramname">fmap,vmap</td><td>mapping of vertices and faces if it is given ( from.id -&gt; this.id ) </td></tr>
+    <tr><td class="paramname">shiftFaceId</td><td>is added to all face ids from fmap </td></tr>
   </table>
   </dd>
 </dl>
@@ -220449,7 +220455,7 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>face of part -&gt; face of whole mesh </p>
+<p>face of part -&gt; face of whole mesh (before settings.shiftFaceId is added) </p>
 
 </div>
 </div>

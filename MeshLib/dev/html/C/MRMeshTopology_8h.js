@@ -5,7 +5,7 @@ var MRMeshTopology_8h =
     [ "MR_Vector_MR_EdgeId_MR_VertId", "MRMeshTopology_8h.html#a671aeade0ec8112b35396267227859d1", null ],
     [ "MR_equal_MR_MeshTopology", "MRMeshTopology_8h.html#a1353838af914e970525c2fa47f5b5db9", null ],
     [ "MR_MeshTopology_addFaceId", "MRMeshTopology_8h.html#a6cccf80df0460ce6f8c34399c41d0507", null ],
-    [ "MR_MeshTopology_addPackedPart", "MRMeshTopology_8h.html#a7febfc626b5e04f5ba2f8be80cd4fba1", null ],
+    [ "MR_MeshTopology_addPackedPart", "MRMeshTopology_8h.html#a0342c14e083ec0c92901ad86490aa698", null ],
     [ "MR_MeshTopology_addPart_3", "MRMeshTopology_8h.html#aa266c38459bbdea4753cb755e09b2d00", null ],
     [ "MR_MeshTopology_addPart_5", "MRMeshTopology_8h.html#a048bd8af387659fea48211133613d0f8", null ],
     [ "MR_MeshTopology_addPartByMask_4", "MRMeshTopology_8h.html#aaeb00c8540a92d0cd3cc1c382d1f5d44", null ],

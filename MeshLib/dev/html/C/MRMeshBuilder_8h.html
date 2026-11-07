@@ -417,7 +417,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>construct mesh from point triples; all coinciding points are given the same VertId in the result Generated from function <span class="tt">MR::MeshBuilder::fromPointTriples</span>. Parameter <span class="tt">posTriples</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></span> to free it when you're done using it. face of part -&gt; face of whole mesh Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::MeshPiece</span> named <span class="tt">fmap</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>construct mesh from point triples; all coinciding points are given the same VertId in the result Generated from function <span class="tt">MR::MeshBuilder::fromPointTriples</span>. Parameter <span class="tt">posTriples</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></span> to free it when you're done using it. face of part -&gt; face of whole mesh (before settings.shiftFaceId is added) Returns a pointer to a member variable of class <span class="tt">MR::MeshBuilder::MeshPiece</span> named <span class="tt">fmap</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -674,7 +674,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>face of part -&gt; face of whole mesh Modifies a member variable of class <span class="tt">MR::MeshBuilder::MeshPiece</span> named <span class="tt">fmap</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">fmap</span>. When this function is called, this object will drop object references it held previously in <span class="tt">fmap</span>. </p>
+<p>face of part -&gt; face of whole mesh (before settings.shiftFaceId is added) Modifies a member variable of class <span class="tt">MR::MeshBuilder::MeshPiece</span> named <span class="tt">fmap</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">fmap</span>. When this function is called, this object will drop object references it held previously in <span class="tt">fmap</span>. </p>
 
 </div>
 </div>
@@ -869,7 +869,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>face of part -&gt; face of whole mesh Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::MeshPiece</span> named <span class="tt">fmap</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>face of part -&gt; face of whole mesh (before settings.shiftFaceId is added) Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshBuilder::MeshPiece</span> named <span class="tt">fmap</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>

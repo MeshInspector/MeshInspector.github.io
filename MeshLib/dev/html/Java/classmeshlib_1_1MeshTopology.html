@@ -282,7 +282,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa377129e4281dab460a0de4e0d3b00aa" id="r_aa377129e4281dab460a0de4e0d3b00aa"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa377129e4281dab460a0de4e0d3b00aa">opEqual</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> b)</td></tr>
 <tr class="memitem:a87736aaac00539912f8a8d2744899fdf" id="r_a87736aaac00539912f8a8d2744899fdf"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87736aaac00539912f8a8d2744899fdf">opNotEqual</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> b)</td></tr>
 <tr class="memitem:aaa04a71b73603ac3bef5f0bb3d8e0d9b" id="r_aaa04a71b73603ac3bef5f0bb3d8e0d9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa04a71b73603ac3bef5f0bb3d8e0d9b">resizeBeforeParallelAdd</a> (long <a class="el" href="#a13ed3e7cd4ff269b5b5a0fbf33f51fe9">edgeSize</a>, long <a class="el" href="#afa4d2abb094bd978ff3b9e6920a71899">vertSize</a>, long <a class="el" href="#ad7f97cea12faf2fa2591474248c63068">faceSize</a>)</td></tr>
-<tr class="memitem:a575453cecf7def1979c8335fc241a582" id="r_a575453cecf7def1979c8335fc241a582"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a575453cecf7def1979c8335fc241a582">addPackedPart</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> from, <a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a> toEdgeId, <a class="el" href="classmeshlib_1_1FaceMap.html">meshlib.FaceMap</a> fmap, <a class="el" href="classmeshlib_1_1VertMap.html">meshlib.VertMap</a> vmap)</td></tr>
+<tr class="memitem:ad4fb5a92cee78d82185650f7a5148a5a" id="r_ad4fb5a92cee78d82185650f7a5148a5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4fb5a92cee78d82185650f7a5148a5a">addPackedPart</a> (<a class="el" href="classmeshlib_1_1MeshTopology.html">meshlib.MeshTopology</a> from, <a class="el" href="classmeshlib_1_1EdgeId.html">meshlib.EdgeId</a> toEdgeId, <a class="el" href="classmeshlib_1_1FaceMap.html">meshlib.FaceMap</a> fmap, <a class="el" href="classmeshlib_1_1VertMap.html">meshlib.VertMap</a> vmap, java.lang.Integer shiftFaceId)</td></tr>
 <tr class="memitem:abb54c81a935796022e108f7e2d538265" id="r_abb54c81a935796022e108f7e2d538265"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb54c81a935796022e108f7e2d538265">computeValidsFromEdges</a> (<a class="el" href="classmeshlib_1_1std__function__bool__from__float.html">meshlib.std_function_bool_from_float</a> cb)</td></tr>
 <tr class="memitem:ad6d77e96dd5c31d94620be5a7c9e5100" id="r_ad6d77e96dd5c31d94620be5a7c9e5100"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6d77e96dd5c31d94620be5a7c9e5100">stopUpdatingValids</a> ()</td></tr>
 <tr class="memitem:a2544088eb1c8f50fbfe666d119aead01" id="r_a2544088eb1c8f50fbfe666d119aead01"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2544088eb1c8f50fbfe666d119aead01">updatingValids</a> ()</td></tr>
@@ -389,8 +389,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a575453cecf7def1979c8335fc241a582" name="a575453cecf7def1979c8335fc241a582"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a575453cecf7def1979c8335fc241a582">&#9670;&#160;</a></span>addPackedPart()</h2>
+<a id="ad4fb5a92cee78d82185650f7a5148a5a" name="ad4fb5a92cee78d82185650f7a5148a5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4fb5a92cee78d82185650f7a5148a5a">&#9670;&#160;</a></span>addPackedPart()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -413,14 +413,20 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmeshlib_1_1VertMap.html">meshlib.VertMap</a></td>          <td class="paramname"><span class="paramname"><em>vmap</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1VertMap.html">meshlib.VertMap</a></td>          <td class="paramname"><span class="paramname"><em>vmap</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">java.lang.Integer</td>          <td class="paramname"><span class="paramname"><em>shiftFaceId</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>copies topology (from) into this; </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">from</td><td>edges must be tightly packes without any lone edges, and they are mapped [0, from.edges.size()) -&gt; [toEdgeId, toEdgeId + from.edges.size()); </td></tr>
-    <tr><td class="paramname">fmap,vmap</td><td>mapping of vertices and faces if it is given ( from.id -&gt; this.id ) Generated from method <span class="tt">MR::MeshTopology::addPackedPart</span>.</td></tr>
+    <tr><td class="paramname">fmap,vmap</td><td>mapping of vertices and faces if it is given ( from.id -&gt; this.id ) </td></tr>
+    <tr><td class="paramname">shiftFaceId</td><td>is added to all face ids from fmap Generated from method <span class="tt">MR::MeshTopology::addPackedPart</span>.</td></tr>
   </table>
   </dd>
 </dl>

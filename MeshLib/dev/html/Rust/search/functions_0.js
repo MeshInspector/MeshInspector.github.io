@@ -69,7 +69,7 @@ var searchData=
   ['add_5fnoise_5fmr_5fvert_5fcoords_66',['add_noise_mr_vert_coords',['../namespacemeshlib.html#a8d88b37d653127e1a6a9c89adbf2a350',1,'meshlib']]],
   ['add_5forg_5fring_5fsteps_67',['add_org_ring_steps',['../structmeshlib_1_1EdgePathsAStarBuilder.html#a2d0e75ef7a8960d94edaa314c085fd29',1,'meshlib::EdgePathsAStarBuilder::add_org_ring_steps()'],['../structmeshlib_1_1EdgePathsBuilderT__MR__MetricToAStarPenalty.html#aac2ac2dc8b25d21b508c842990e5af51',1,'meshlib::EdgePathsBuilderT_MR_MetricToAStarPenalty::add_org_ring_steps()'],['../structmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty.html#a6deebedae7e013232e27012e6c17672c',1,'meshlib::EdgePathsBuilderT_MR_TrivialMetricToPenalty::add_org_ring_steps()']]],
   ['add_5fother_68',['add_other',['../structmeshlib_1_1FreeFormBestFit.html#af60c29f02844382d736ae1afed256524',1,'meshlib::FreeFormBestFit']]],
-  ['add_5fpacked_5fpart_69',['add_packed_part',['../structmeshlib_1_1MeshTopology.html#a1a5867e7a4941588edc462e2c5875e3b',1,'meshlib::MeshTopology']]],
+  ['add_5fpacked_5fpart_69',['add_packed_part',['../structmeshlib_1_1MeshTopology.html#a1d0e8c0188e63208a896362a49618739',1,'meshlib::MeshTopology']]],
   ['add_5fpair_5fmr_5fvector3d_70',['add_pair_mr_vector3d',['../structmeshlib_1_1FreeFormBestFit.html#a92eaebfc769c7d3b9ecb12cf932316aa',1,'meshlib::FreeFormBestFit']]],
   ['add_5fpair_5fmr_5fvector3f_71',['add_pair_mr_vector3f',['../structmeshlib_1_1FreeFormBestFit.html#af3cb43d53f3595805f4121f1c6dbdf8f',1,'meshlib::FreeFormBestFit']]],
   ['add_5fpalette_5fstats_5ftable_72',['add_palette_stats_table',['../structmeshlib_1_1Pdf.html#a4ad76f1a1bd4371576cab440f6579799',1,'meshlib::Pdf']]],

@@ -247,7 +247,7 @@ var NAVTREEINDEX66 =
 "MRMeshTopologyDiff_8h.html#afb771271bd7ea4404acabe3852d2a3c4":[9,2,2,0,0,0,0,1,213,0],
 "MRMeshTopologyDiff_8h_source.html":[9,2,2,0,0,0,0,1,213],
 "MRMeshTopology_8h.html":[9,2,2,0,0,0,0,1,212],
+"MRMeshTopology_8h.html#a0342c14e083ec0c92901ad86490aa698":[9,2,2,0,0,0,0,1,212,5],
 "MRMeshTopology_8h.html#a03c8d4e23499b9b41eaa837bdd084f58":[9,2,2,0,0,0,0,1,212,99],
-"MRMeshTopology_8h.html#a0458805e38134f7682277eec1a6c28f7":[9,2,2,0,0,0,0,1,212,84],
-"MRMeshTopology_8h.html#a048bd8af387659fea48211133613d0f8":[9,2,2,0,0,0,0,1,212,7]
+"MRMeshTopology_8h.html#a0458805e38134f7682277eec1a6c28f7":[9,2,2,0,0,0,0,1,212,84]
 };
