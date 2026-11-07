@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1ImGuiMath.html#a7a4714344a7e4547c8fd858658c8a54a":[9,0,1,0,1,16,7],
 "namespaceMR_1_1ImGuiMath.html#a9413dca0b69204cedfb3f5a93add745a":[9,0,1,0,1,16,4],
 "namespaceMR_1_1ImGuiMath.html#a9b787db1b3551a333f5fae1addb214bd":[9,0,1,0,1,16,13],
 "namespaceMR_1_1ImGuiMath.html#ab2120d83ad46fc54b4a21db479448c46":[9,0,1,0,1,16,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a50faca3ede80078a742d8d38dc4aecab":[9,0,1,0,1,50,9,14],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a51051623b92f12d20be6b1cb0b6415b7":[9,0,1,0,1,50,9,17],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a5193f3c136e1dd90d3667140abe07142":[9,0,1,0,1,50,9,16],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a62b6b78ca42168fc955fdefacf122dbc":[9,0,1,0,1,50,9,21],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a67fe3715dd2312900f17fdaef28f483d":[9,0,1,0,1,50,9,28]
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a62b6b78ca42168fc955fdefacf122dbc":[9,0,1,0,1,50,9,21]
 };

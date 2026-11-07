@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html":[9,0,0,19,484],
 "structMR_1_1PreciseCutPoint.html":[9,0,0,0,16],
 "structMR_1_1PreciseCutPoint.html#a00d67e208d245c5ddd9f144d0bd78590":[9,0,0,0,16,2],
 "structMR_1_1PreciseCutPoint.html#a11f572416abc57b91657513e1531cf49":[9,0,0,0,16,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SpaceMouse_1_1Action.html#a9f738832ba0bcc3dc83935d0197ee0e9":[9,0,2,0,1,33,0,0],
 "structMR_1_1SpaceMouse_1_1Parameters.html":[9,0,1,0,1,50,5],
 "structMR_1_1SpaceMouse_1_1Parameters.html":[9,0,2,0,1,33,5],
-"structMR_1_1SpaceMouse_1_1Parameters.html#a95334988bb6abd60db066c5e281a594f":[9,0,1,0,1,50,5,1],
-"structMR_1_1SpaceMouse_1_1Parameters.html#a95334988bb6abd60db066c5e281a594f":[9,0,2,0,1,33,5,1]
+"structMR_1_1SpaceMouse_1_1Parameters.html#a95334988bb6abd60db066c5e281a594f":[9,0,1,0,1,50,5,1]
 };

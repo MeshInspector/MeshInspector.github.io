@@ -3,6 +3,7 @@ var MRMcpCommon_8h =
     [ "MR::Mcp::busyError", "group__GeneralGroup.html#gae8d43b75965d778cd40ea18fb74e74be", null ],
     [ "MR::Mcp::idOf", "group__GeneralGroup.html#ga0c165bcc8653a7af45f1680f2ed83811", null ],
     [ "MR::Mcp::inputResult", "group__GeneralGroup.html#gab48e217abb5c62eb94cac370f87fb32d", null ],
+    [ "MR::Mcp::parseColor", "group__GeneralGroup.html#ga3d6704f284851f8abc070b3964e8474f", null ],
     [ "MR::Mcp::resolveId", "group__GeneralGroup.html#ga0280b00dcc1ca26b3e93e6321da0598a", null ],
     [ "MR::Mcp::runOnMainThread", "group__GeneralGroup.html#ga9d5f4675fabeeb144896590b3d8b309b", null ],
     [ "MR::Mcp::waitFramesAfterInput", "group__GeneralGroup.html#ga8c36495d12711da5bff2929013da4609", null ],

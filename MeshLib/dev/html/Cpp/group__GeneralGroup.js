@@ -15027,6 +15027,7 @@ var group__GeneralGroup =
     [ "MR::BaseUnionFind::parents", "group__GeneralGroup.html#ga2b81bef923b05424a30449978b3d7a37", null ],
     [ "MR::parseAscCoordinate", "group__GeneralGroup.html#gafb031d90c2eaeddbeac77675cec10847", null ],
     [ "MR::ShortcutManager::parseCategory", "group__GeneralGroup.html#gaa05dcb9fe7531702637967609af8bf6d", null ],
+    [ "MR::Mcp::parseColor", "group__GeneralGroup.html#ga3d6704f284851f8abc070b3964e8474f", null ],
     [ "MR::parseFirstNum", "group__GeneralGroup.html#gacce275feee7750276ed84afbc99e0f70", null ],
     [ "MR::ShortcutManager::parseKey", "group__GeneralGroup.html#ga8389e3401cdb0d37f50b39a1e511104a", null ],
     [ "MR::Viewer::parseLaunchParams", "group__GeneralGroup.html#ga4eb6d9b787cbe2ef20e8a5d38f8de91d", null ],
