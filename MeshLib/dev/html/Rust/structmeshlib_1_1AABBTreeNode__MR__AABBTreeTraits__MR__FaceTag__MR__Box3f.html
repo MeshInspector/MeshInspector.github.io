@@ -155,8 +155,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a953d83ba1cf3a384fd81f510f311d8e0" id="r_a953d83ba1cf3a384fd81f510f311d8e0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a953d83ba1cf3a384fd81f510f311d8e0">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f.html">meshlib::AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f.html">meshlib::AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</a></td></tr>
 <tr class="memitem:a2301408313ab6250a34b4f9b82d2d22a" id="r_a2301408313ab6250a34b4f9b82d2d22a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2301408313ab6250a34b4f9b82d2d22a">leaf</a> () const -&gt; bool</td></tr>
 <tr class="memitem:ab0212aafcb940254b08336c2c51af4b8" id="r_ab0212aafcb940254b08336c2c51af4b8"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0212aafcb940254b08336c2c51af4b8">leaf_id</a> () const -&gt; <a class="el" href="structmeshlib_1_1FaceId.html">meshlib::FaceId</a></td></tr>
-<tr class="memitem:ac6dc927d45b2e657cc194bf43fe07d7f" id="r_ac6dc927d45b2e657cc194bf43fe07d7f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6dc927d45b2e657cc194bf43fe07d7f">leaf_pos</a> () const -&gt; core::ffi::c_int</td></tr>
-<tr class="memitem:a984b79606a58d180b7bfe23ed9ec9bd6" id="r_a984b79606a58d180b7bfe23ed9ec9bd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a984b79606a58d180b7bfe23ed9ec9bd6">set_leaf_id</a> (id:meshlib::FaceId, pos:Option&lt; core::ffi::c_int &gt;)</td></tr>
+<tr class="memitem:a6aea77e9f2ae610ea9a62a431b019aa0" id="r_a6aea77e9f2ae610ea9a62a431b019aa0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aea77e9f2ae610ea9a62a431b019aa0">set_leaf_id</a> (id:meshlib::FaceId)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -283,25 +282,6 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac6dc927d45b2e657cc194bf43fe07d7f" name="ac6dc927d45b2e657cc194bf43fe07d7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6dc927d45b2e657cc194bf43fe07d7f">&#9670;&#160;</a></span>leaf_pos()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto meshlib::AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f::leaf_pos </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const -&gt;  core::ffi::c_int</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>returns the index of this leaf in the tree's per-leaf data (for the leaf node only), stored in r as ~pos to keep it invalid Generated from method <span class="tt">MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::FaceTag, MR::Box3f&gt;&gt;::leafPos</span>.</p>
-<p>Calls <span class="tt">MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_leafPos()</span>. </p>
-
-</div>
-</div>
 <a id="a9d03feffe9b48d2e237d571cfd446c34" name="a9d03feffe9b48d2e237d571cfd446c34"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d03feffe9b48d2e237d571cfd446c34">&#9670;&#160;</a></span>new()</h2>
 
@@ -329,8 +309,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a984b79606a58d180b7bfe23ed9ec9bd6" name="a984b79606a58d180b7bfe23ed9ec9bd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a984b79606a58d180b7bfe23ed9ec9bd6">&#9670;&#160;</a></span>set_leaf_id()</h2>
+<a id="a6aea77e9f2ae610ea9a62a431b019aa0" name="a6aea77e9f2ae610ea9a62a431b019aa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aea77e9f2ae610ea9a62a431b019aa0">&#9670;&#160;</a></span>set_leaf_id()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -338,12 +318,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void meshlib::AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f::set_leaf_id </td>
           <td>(</td>
-          <td class="paramtype">id:meshlib::FaceId</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">id:meshlib::FaceId</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">pos:Option&lt; core::ffi::c_int &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

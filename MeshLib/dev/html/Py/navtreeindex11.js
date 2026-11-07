@@ -1,7 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html":[9,1,0,0,2,124],
-"classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html":[9,1,1,0,1,124],
 "classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html#a31d097158ca380d690d33db1dae82f94":[9,1,0,0,2,124,2],
 "classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html#a31d097158ca380d690d33db1dae82f94":[9,1,1,0,1,124,2],
 "classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html#a8aa88a90706e7f3b3a057d44d4bcecd6":[9,1,0,0,2,124,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX11 =
 "classmrmeshpy_1_1CloseToMeshVolumeParams.html#a09d492a7cb28798586fceeaddd38d09a":[9,1,0,0,2,154,5],
 "classmrmeshpy_1_1CloseToMeshVolumeParams.html#a09d492a7cb28798586fceeaddd38d09a":[9,1,1,0,1,154,5],
 "classmrmeshpy_1_1CloseToMeshVolumeParams.html#a11893b07fe25b23c7b472099b4ca7aa8":[9,1,0,0,2,154,3],
-"classmrmeshpy_1_1CloseToMeshVolumeParams.html#a11893b07fe25b23c7b472099b4ca7aa8":[9,1,1,0,1,154,3]
+"classmrmeshpy_1_1CloseToMeshVolumeParams.html#a11893b07fe25b23c7b472099b4ca7aa8":[9,1,1,0,1,154,3],
+"classmrmeshpy_1_1CloseToMeshVolumeParams.html#a2ec3d4bfa85b765b5ef570e00056c1fc":[9,1,0,0,2,154,2],
+"classmrmeshpy_1_1CloseToMeshVolumeParams.html#a2ec3d4bfa85b765b5ef570e00056c1fc":[9,1,1,0,1,154,2]
 };

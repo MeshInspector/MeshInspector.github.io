@@ -2,6 +2,7 @@ var MRCameraPointsTriangulation_8h =
 [
     [ "MR_AreaStabilizer", "MRCameraPointsTriangulation_8h.html#afc6f595855730083dc16b79a6923521c", null ],
     [ "MR_CameraPointsTriangulationSettings", "MRCameraPointsTriangulation_8h.html#af57cf710f05cb1eeaf10d6a088652e50", null ],
+    [ "MR_MeshTopology", "MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_SmoothCameraMeshDepthSettings", "MRCameraPointsTriangulation_8h.html#a59dbce0e609c0b4893bfb88c940a0f98", null ],
     [ "MR_AreaStabilizer", "MRCameraPointsTriangulation_8h.html#a1846dc8e5c53091983ac464b6e42c052", [
       [ "MR_AreaStabilizer_Uniform", "MRCameraPointsTriangulation_8h.html#a1846dc8e5c53091983ac464b6e42c052a37cacb49a667d8795a17d2c28a7127c9", null ],

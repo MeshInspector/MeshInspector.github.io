@@ -4,6 +4,7 @@ var MRMeshTriPoint_8h =
     [ "MR_std_array_MR_WeightedVertex_3", "MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534", null ],
     [ "MR_std_array_MR_WeightedVertexd_3", "MRMeshTriPoint_8h.html#a179932792a8fd596ed99a6fe32fce46b", null ],
     [ "MR_TriPointd", "MRMeshTriPoint_8h.html#a17289bf57bcb0037619be07245ff0c78", null ],
+    [ "MR_TriPointf", "MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c", null ],
     [ "MR_WeightedVertex", "MRMeshTriPoint_8h.html#a952541534f8c2ed5464a4cd0e9dd22e1", null ],
     [ "MR_WeightedVertexd", "MRMeshTriPoint_8h.html#a9584df1aa4cfcf2067400391f72ae329", null ],
     [ "MR_equal_MR_MeshTriPoint", "MRMeshTriPoint_8h.html#adceffb3b5ac61411bd26c06fba519cdd", null ],

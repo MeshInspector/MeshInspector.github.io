@@ -193,8 +193,6 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga723507d4b52845e8de2fe14f0a71b040" id="r_ga723507d4b52845e8de2fe14f0a71b040"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:ga723507d4b52845e8de2fe14f0a71b040 template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga723507d4b52845e8de2fe14f0a71b040">MR::OnLeafCallback</a> = <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt;typename T::LeafId( typename T::LeafId id, int pos )&gt;</td></tr>
 <tr class="memitem:ga2d9f9e10f5365b971c9f7300264be632" id="r_ga2d9f9e10f5365b971c9f7300264be632"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2d9f9e10f5365b971c9f7300264be632">MR::FaceTreeTraits3</a> = <a class="el" href="structMR_1_1AABBTreeTraits.html">AABBTreeTraits</a>&lt;FaceTag, Box3f&gt;</td></tr>
 <tr class="memitem:ga876e325460f0c5460c1e453324ca329c" id="r_ga876e325460f0c5460c1e453324ca329c"><td class="memTemplParams" colspan="2">template&lt;typename V&gt; </td></tr>
 <tr class="memitem:ga876e325460f0c5460c1e453324ca329c template"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga876e325460f0c5460c1e453324ca329c">MR::LineTreeTraits</a> = <a class="el" href="structMR_1_1AABBTreeTraits.html">AABBTreeTraits</a>&lt;UndirectedEdgeTag, <a class="el" href="structMR_1_1Box.html">Box</a>&lt;V&gt;&gt;</td></tr>
@@ -241,8 +239,8 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ga3c1bb6417aaa769fa4156f2edac91749" id="r_ga3c1bb6417aaa769fa4156f2edac91749"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3c1bb6417aaa769fa4156f2edac91749">MR::getNumNodes</a> (int numLeaves)</td></tr>
 <tr class="memdesc:ga3c1bb6417aaa769fa4156f2edac91749"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of nodes in the binary tree with given number of leaves  <br /></td></tr>
-<tr class="memitem:gae85538e92c1c3663643e8179f21e5c9d" id="r_gae85538e92c1c3663643e8179f21e5c9d"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:gae85538e92c1c3663643e8179f21e5c9d template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">AABBTreeNodeVec</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae85538e92c1c3663643e8179f21e5c9d">MR::makeAABBTreeNodeVec</a> (<a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; boxedLeaves, const <a class="el" href="#ga723507d4b52845e8de2fe14f0a71b040">OnLeafCallback</a>&lt; T &gt; *onLeaf=nullptr)</td></tr>
+<tr class="memitem:ga364302ddaf673e7f00c6745f4172d6c0" id="r_ga364302ddaf673e7f00c6745f4172d6c0"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga364302ddaf673e7f00c6745f4172d6c0 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">AABBTreeNodeVec</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga364302ddaf673e7f00c6745f4172d6c0">MR::makeAABBTreeNodeVec</a> (<a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt; boxedLeaves)</td></tr>
 <tr class="memitem:ga47032a5f420080191bd8d3600c3c24ef" id="r_ga47032a5f420080191bd8d3600c3c24ef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga47032a5f420080191bd8d3600c3c24ef">MR::getNumNodesPoints</a> (int numPoints)</td></tr>
 <tr class="memdesc:ga47032a5f420080191bd8d3600c3c24ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of nodes in the binary tree with given number of points  <br /></td></tr>
 <tr class="memitem:ga27f3ab649f42f8c32266636ea1e4a672" id="r_ga27f3ab649f42f8c32266636ea1e4a672"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga27f3ab649f42f8c32266636ea1e4a672">MR::findDirMax</a> (const Vector3f &amp;dir, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;m, <a class="el" href="group__GeneralGroup.html#gafb67fe49bcb6006882e7b08e51b2eeff">UseAABBTree</a> u=<a class="el" href="group__GeneralGroup.html#ggafb67fe49bcb6006882e7b08e51b2eeffa93cba07454f06a4a960172bbd6e2a435">UseAABBTree::Yes</a>)</td></tr>
@@ -625,24 +623,6 @@ template&lt;typename V&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRMeshIntersect_8h.html">MRMesh/MRMeshIntersect.h</a>&gt;</code></p>
 <p>this callback is envoked for each encountered ray-mesh intersection, fromFront is true if the ray crosses the triangle from its front side (where the triangle's normal points) to its back, i.e. enters a closed mesh with outward normals; if it returns false, then the search immediately terminates </p>
-
-</div>
-</div>
-<a id="ga723507d4b52845e8de2fe14f0a71b040" name="ga723507d4b52845e8de2fe14f0a71b040"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga723507d4b52845e8de2fe14f0a71b040">&#9670;&#160;</a></span>OnLeafCallback</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="#ga723507d4b52845e8de2fe14f0a71b040">MR::OnLeafCallback</a> = <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt;typename T::LeafId( typename T::LeafId id, int pos )&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRAABBTreeMaker_8h.html">MRMesh/MRAABBTreeMaker.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -3918,8 +3898,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gae85538e92c1c3663643e8179f21e5c9d" name="gae85538e92c1c3663643e8179f21e5c9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae85538e92c1c3663643e8179f21e5c9d">&#9670;&#160;</a></span>makeAABBTreeNodeVec()</h2>
+<a id="ga364302ddaf673e7f00c6745f4172d6c0" name="ga364302ddaf673e7f00c6745f4172d6c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga364302ddaf673e7f00c6745f4172d6c0">&#9670;&#160;</a></span>makeAABBTreeNodeVec()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3929,23 +3909,13 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="#ga01c75e3c26967a90edbe075a77cb2ca9">AABBTreeNodeVec</a>&lt; T &gt; MR::makeAABBTreeNodeVec </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>boxedLeaves</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; <a class="el" href="structMR_1_1BoxedLeaf.html">BoxedLeaf</a>&lt; T &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>boxedLeaves</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ga723507d4b52845e8de2fe14f0a71b040">OnLeafCallback</a>&lt; T &gt; *</td>          <td class="paramname"><span class="paramname"><em>onLeaf</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRAABBTreeMaker_8h.html">MRMesh/MRAABBTreeMaker.h</a>&gt;</code></p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">onLeaf</td><td>optional, called in parallel for every leaf with its id and position (<a class="el" href="structMR_1_1AABBTreeNode.html#a05ab9efe95f0f7c67546dd0c04053e03" title="returns the index of this leaf in the tree&#39;s per-leaf data (for the leaf node only),...">AABBTreeNode::leafPos</a>), returns the id to store in the leaf </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>

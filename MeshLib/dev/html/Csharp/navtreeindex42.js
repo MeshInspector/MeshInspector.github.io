@@ -1,14 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#a9e9fcbab3fec39f762f5645946ff7fb5":[9,3,0,0,0,407,2],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#aa7930b9b7379e50c2d93cd27b247af71":[9,3,0,0,0,407,13],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#aba60dcfd45eff1512376f4eb842a0e20":[9,3,0,0,0,407,12],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#ad7a67b9ad44565ce2063e563c1877b33":[9,3,0,0,0,407,11],
-"classMR_1_1Const__DistanceFromWeightedPointsParams.html#af72966d0c6fced746596a100d77710d1":[9,3,0,0,0,407,0],
-"classMR_1_1Const__DistanceMap.html":[9,3,0,0,0,408],
-"classMR_1_1Const__DistanceMap.html#a0022090ae901827b418951db2635d368":[9,3,0,0,0,408,11],
-"classMR_1_1Const__DistanceMap.html#a01589349b04d38942fea49f4090340b2":[9,3,0,0,0,408,25],
-"classMR_1_1Const__DistanceMap.html#a07e45fe6874d28cdcf1e45af4274257c":[9,3,0,0,0,408,40],
 "classMR_1_1Const__DistanceMap.html#a0bf861091ff4de0c7917a2c58ec70054":[9,3,0,0,0,408,0],
 "classMR_1_1Const__DistanceMap.html#a14f3803ac7f0eac2cfb91b449a419107":[9,3,0,0,0,408,29],
 "classMR_1_1Const__DistanceMap.html#a22752e7e291721d894113c675107ce41":[9,3,0,0,0,408,35],
@@ -249,5 +240,14 @@ var NAVTREEINDEX42 =
 "classMR_1_1Const__DividePointCloudOptionalOutput.html#a752ddf08d49916a65e40392f0af0d8cd":[9,3,0,0,0,416,11],
 "classMR_1_1Const__DividePointCloudOptionalOutput.html#a7fc43e2de30a983a093768d8a0651c21":[9,3,0,0,0,416,9],
 "classMR_1_1Const__DividePointCloudOptionalOutput.html#a8bf24a7d1113f862b5e8f5aaabc577f3":[9,3,0,0,0,416,5],
-"classMR_1_1Const__DividePointCloudOptionalOutput.html#aa460a9e7103e74cd84b8d534b67eac82":[9,3,0,0,0,416,1]
+"classMR_1_1Const__DividePointCloudOptionalOutput.html#aa460a9e7103e74cd84b8d534b67eac82":[9,3,0,0,0,416,1],
+"classMR_1_1Const__DividePointCloudOptionalOutput.html#aa55aec30ec0d253adc3326533d47bc36":[9,3,0,0,0,416,6],
+"classMR_1_1Const__DividePointCloudOptionalOutput.html#aca18008c3b83f531fcb97b9eddef8c16":[9,3,0,0,0,416,10],
+"classMR_1_1Const__DividePolylineParameters.html":[9,3,0,0,0,417],
+"classMR_1_1Const__DividePolylineParameters.html#a05feec535a941e846bf18ad39f02debc":[9,3,0,0,0,417,19],
+"classMR_1_1Const__DividePolylineParameters.html#a1439847b2b6bd27f4702207c7c30ab6f":[9,3,0,0,0,417,18],
+"classMR_1_1Const__DividePolylineParameters.html#a156431f1036fdf399646dd46827f0269":[9,3,0,0,0,417,5],
+"classMR_1_1Const__DividePolylineParameters.html#a2b9748271b82d0121f76893bcb9ca6d2":[9,3,0,0,0,417,2],
+"classMR_1_1Const__DividePolylineParameters.html#a395627cb8ede371bc99b50a0b6bae629":[9,3,0,0,0,417,15],
+"classMR_1_1Const__DividePolylineParameters.html#a4019bec0e5a3f9651d25f1d9c4fee006":[9,3,0,0,0,417,1]
 };

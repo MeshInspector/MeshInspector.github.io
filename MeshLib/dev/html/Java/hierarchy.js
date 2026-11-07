@@ -832,7 +832,6 @@ var hierarchy =
         [ "meshlib.Vector_int_MR_VertId", "classmeshlib_1_1Vector__int__MR__VertId.html", null ],
         [ "meshlib.Vector_std_array_MR_Vector3f_3_MR_FaceId", "classmeshlib_1_1Vector__std__array__MR__Vector3f__3__MR__FaceId.html", null ],
         [ "meshlib.Vector_std_array_MR_VertId_2", "classmeshlib_1_1Vector__std__array__MR__VertId__2.html", null ],
-        [ "meshlib.Vector_std_array_MR_VertId_3", "classmeshlib_1_1Vector__std__array__MR__VertId__3.html", null ],
         [ "meshlib.Vector_std_array_float_33_MR_VertId", "classmeshlib_1_1Vector__std__array__float__33__MR__VertId.html", null ],
         [ "meshlib.Vector_std_filesystem_path_MR_TextureId", "classmeshlib_1_1Vector__std__filesystem__path__MR__TextureId.html", null ],
         [ "meshlib.Vector_std_pair_MR_EdgeId_MR_EdgeId", "classmeshlib_1_1Vector__std__pair__MR__EdgeId__MR__EdgeId.html", null ],

@@ -141,7 +141,7 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dt>Member <a class="el" href="namespacemeshlib.html#ae676064bd16b4271136c13c043266da1">meshlib::build_cylinder_between_two_holes_4</a>  (mesh:&amp;mut <a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a>, a:meshlib::<a class="el" href="structmeshlib_1_1EdgeId.html">EdgeId</a>, b:meshlib::<a class="el" href="structmeshlib_1_1EdgeId.html">EdgeId</a>, params:Option&lt;&amp;meshlib::StitchHolesParams &gt;)</dt>
 <dd><a class="anchor" id="_deprecated000022"></a>Use stitchHoles( mesh, a, b, params )  </dd>
 <dt>Member <a class="el" href="namespacemeshlib.html#a8c2f86de6ed3f136d9f83588e466c084">meshlib::compress_zip_5</a>  (zipFile:&amp;str, sourceFolder:&amp;str, excludeFiles:&amp;<a class="el" href="structmeshlib_1_1std__vector__std__filesystem__path.html">meshlib::std_vector_std_filesystem_path</a>, password:Option&lt;&amp;core::ffi::c_char &gt;, cb:Option&lt;&amp;meshlib::std_function_bool_from_float &gt;) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned&lt; meshlib::expected_void_std_string &gt;</a></dt>
-<dd><a class="anchor" id="_deprecated000229"></a>Use compressZip( zipFile, sourceFolder, settings )  </dd>
+<dd><a class="anchor" id="_deprecated000227"></a>Use compressZip( zipFile, sourceFolder, settings )  </dd>
 <dt>Member <a class="el" href="namespacemeshlib.html#a545c8e67d1ed98c688f96ed9cf4114af">meshlib::convert_mesh_tri_points_surface_offset_to_mesh_contours_float</a>  (mesh:&amp;<a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a>, surfaceLine:&amp;<a class="el" href="structmeshlib_1_1std__vector__MR__MeshTriPoint.html">meshlib::std_vector_MR_MeshTriPoint</a>, offset:f32, searchSettings:Option&lt;&amp;meshlib::SearchPathSettings &gt;) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned&lt; meshlib::expected_MR_OneMeshContours_std_string &gt;</a></dt>
 <dd><a class="anchor" id="_deprecated000016"></a>use offsetSurfaceLineToMeshContours  </dd>
 <dt>Member <a class="el" href="namespacemeshlib.html#ace0fa56ee1811dbd17196ad74d6286f7">meshlib::convert_mesh_tri_points_surface_offset_to_mesh_contours_std_function_float_func_from_int</a>  (mesh:&amp;<a class="el" href="structmeshlib_1_1Mesh.html">meshlib::Mesh</a>, surfaceLine:&amp;<a class="el" href="structmeshlib_1_1std__vector__MR__MeshTriPoint.html">meshlib::std_vector_MR_MeshTriPoint</a>, offsetAtPoint:&amp;<a class="el" href="structmeshlib_1_1std__function__float__from__int.html">meshlib::std_function_float_from_int</a>, searchSettings:Option&lt;&amp;meshlib::SearchPathSettings &gt;) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned&lt; meshlib::expected_MR_OneMeshContours_std_string &gt;</a></dt>
@@ -247,8 +247,8 @@ $(function(){initNavTree('deprecated.html','',''); });
 <p class="enddd"><a class="anchor" id="_deprecated000041"></a>use pointCloudPtr() instead  </p>
 </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1ObjectVoxels.html#aa25f9d64e200129f9421f0c4f7f916be">meshlib::ObjectVoxels::mesh</a>  () const -&gt; &amp;<a class="el" href="structmeshlib_1_1std__shared__ptr__const__MR__Mesh.html">meshlib::std_shared_ptr_const_MR_Mesh</a></dt>
-<dd><p class="startdd"><a class="anchor" id="_deprecated000230"></a>the cast inside is undefined behaviour, use meshPtr() instead Generated from method <span class="tt">MR::ObjectVoxels::mesh</span>.</p>
-<p class="enddd"><a class="anchor" id="_deprecated000231"></a>use meshPtr() instead  </p>
+<dd><p class="startdd"><a class="anchor" id="_deprecated000228"></a>the cast inside is undefined behaviour, use meshPtr() instead Generated from method <span class="tt">MR::ObjectVoxels::mesh</span>.</p>
+<p class="enddd"><a class="anchor" id="_deprecated000229"></a>use meshPtr() instead  </p>
 </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1ObjMap.html#af2664be0b5a0b071558a875f02941264">meshlib::ObjMap::resize_with_reserve_1</a>  (newSize:usize)</dt>
 <dd><a class="anchor" id="_deprecated000070"></a>use resize() instead  </dd>
@@ -521,9 +521,9 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__MR__WatershedGraph__BdInfo__MR__GraphEdgeId.html#af52aa2877e4d8b1cf7d956fe78504886">meshlib::Vector_MR_WatershedGraph_BdInfo_MR_GraphEdgeId::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1WatershedGraph__BdInfo.html">meshlib::WatershedGraph_BdInfo</a>)</dt>
 <dd><a class="anchor" id="_deprecated000176"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__array__float__33__MR__VertId.html#a8dc1df8a486ede7d24e56cf8fc63ddd7">meshlib::Vector_std_array_float_33_MR_VertId::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000199"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000197"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__array__float__33__MR__VertId.html#aed7d49b6af4a64d6dd64789c220ab63f">meshlib::Vector_std_array_float_33_MR_VertId::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1std__array__float__33.html">meshlib::std_array_float_33</a>)</dt>
-<dd><a class="anchor" id="_deprecated000200"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000198"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__array__MR__Vector3f__3__MR__FaceId.html#ab109ffefa7d02b72e91d210df042bc2b">meshlib::Vector_std_array_MR_Vector3f_3_MR_FaceId::resize_with_reserve_1</a>  (newSize:usize)</dt>
 <dd><a class="anchor" id="_deprecated000193"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__array__MR__Vector3f__3__MR__FaceId.html#a247d5234c2f420e015ed3d0af22ec444">meshlib::Vector_std_array_MR_Vector3f_3_MR_FaceId::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1std__array__MR__Vector3f__3.html">meshlib::std_array_MR_Vector3f_3</a>)</dt>
@@ -532,70 +532,66 @@ $(function(){initNavTree('deprecated.html','',''); });
 <dd><a class="anchor" id="_deprecated000195"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__array__MR__VertId__2.html#ad0725ec2fead660af46e0c5e68775fd8">meshlib::Vector_std_array_MR_VertId_2::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1std__array__MR__VertId__2.html">meshlib::std_array_MR_VertId_2</a>)</dt>
 <dd><a class="anchor" id="_deprecated000196"></a>use resize() instead  </dd>
-<dt>Member <a class="el" href="structmeshlib_1_1Vector__std__array__MR__VertId__3.html#aedd4bdb52d99ea3dc9110ffb6ff1f004">meshlib::Vector_std_array_MR_VertId_3::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000197"></a>use resize() instead  </dd>
-<dt>Member <a class="el" href="structmeshlib_1_1Vector__std__array__MR__VertId__3.html#aa978675e97a5be90f8ab68eca5e7a297">meshlib::Vector_std_array_MR_VertId_3::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1std__array__MR__VertId__3.html">meshlib::std_array_MR_VertId_3</a>)</dt>
-<dd><a class="anchor" id="_deprecated000198"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__filesystem__path__MR__TextureId.html#af593722c59a056fcbaa5e6696ebcda8a">meshlib::Vector_std_filesystem_path_MR_TextureId::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000201"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000199"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__filesystem__path__MR__TextureId.html#acd14918ff011f7160aebacb90e9bf99c">meshlib::Vector_std_filesystem_path_MR_TextureId::resize_with_reserve_2</a>  (newSize:usize, value:&amp;str)</dt>
-<dd><a class="anchor" id="_deprecated000202"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000200"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__pair__MR__EdgeId__MR__EdgeId.html#adc280d3085c20d2a0568d1dd5e4f9f7b">meshlib::Vector_std_pair_MR_EdgeId_MR_EdgeId::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000203"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000201"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__pair__MR__EdgeId__MR__EdgeId.html#a3dca4f8cd3fbc169a6bdeaebcadea5c3">meshlib::Vector_std_pair_MR_EdgeId_MR_EdgeId::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1std__pair__MR__EdgeId__MR__EdgeId.html">meshlib::std_pair_MR_EdgeId_MR_EdgeId</a>)</dt>
-<dd><a class="anchor" id="_deprecated000204"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000202"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__vector__MR__EdgePoint__MR__VertId.html#a0e4aa693c5926912a3610a016567d3c1">meshlib::Vector_std_vector_MR_EdgePoint_MR_VertId::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000205"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000203"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__vector__MR__EdgePoint__MR__VertId.html#aa1ac3dae631e19a69b60801988f21a1c">meshlib::Vector_std_vector_MR_EdgePoint_MR_VertId::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1std__vector__MR__EdgePoint.html">meshlib::std_vector_MR_EdgePoint</a>)</dt>
-<dd><a class="anchor" id="_deprecated000206"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000204"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__vector__MR__GraphEdgeId__MR__GraphVertId.html#ae531e66dcde338878cadc8560a4018e8">meshlib::Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000207"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000205"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__vector__MR__GraphEdgeId__MR__GraphVertId.html#a0f89c6bc7440442b068b7a877a6d329a">meshlib::Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1std__vector__MR__GraphEdgeId.html">meshlib::std_vector_MR_GraphEdgeId</a>)</dt>
-<dd><a class="anchor" id="_deprecated000208"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000206"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__vector__MR__ObjVertId__MR__Id__MR__ICPElemtTag.html#ace7d9026ff463b42d6eefa7374db2af5">meshlib::Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000209"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000207"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__std__vector__MR__ObjVertId__MR__Id__MR__ICPElemtTag.html#ad173c55d364e8369bd846ee46843d946">meshlib::Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1std__vector__MR__ObjVertId.html">meshlib::std_vector_MR_ObjVertId</a>)</dt>
-<dd><a class="anchor" id="_deprecated000210"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000208"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__unsigned__short__MR__VoxelId.html#a51d2860741d42cd9cff0349e9b06fb63">meshlib::Vector_unsigned_short_MR_VoxelId::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000211"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000209"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vector__unsigned__short__MR__VoxelId.html#a171b9d52580af743b94cd97412da5e78">meshlib::Vector_unsigned_short_MR_VoxelId::resize_with_reserve_2</a>  (newSize:usize, value:&amp;core::ffi::c_ushort)</dt>
-<dd><a class="anchor" id="_deprecated000212"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000210"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vert2RegionMap.html#a1093e59a15409d116fc260e45d794ef2">meshlib::Vert2RegionMap::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000213"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000211"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1Vert2RegionMap.html#a4e5fb69a7ad76d445ad292a0f2092dea">meshlib::Vert2RegionMap::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1RegionId.html">meshlib::RegionId</a>)</dt>
-<dd><a class="anchor" id="_deprecated000214"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000212"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1VertBitSet.html#a37a26ffe5f2ed7f8b3cac2ed769c3c88">meshlib::VertBitSet::resize_with_reserve</a>  (newSize:usize)</dt>
 <dd><a class="anchor" id="_deprecated000014"></a>use <a class="el" href="structmeshlib_1_1VertBitSet.html#a287fc75f70fe916d6e12f76927448446">resize()</a> instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1VertColors.html#a26fd3b4d57a5b3a4f9ee2bf864e0ca01">meshlib::VertColors::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000215"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000213"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1VertColors.html#ae6b06aa30b7379cc49de69cff79d5390">meshlib::VertColors::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1Color.html">meshlib::Color</a>)</dt>
-<dd><a class="anchor" id="_deprecated000216"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000214"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1VertCoords2.html#a36fbedcad8167231d7e2b25b840aea5b">meshlib::VertCoords2::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000219"></a>use resize() instead  </dd>
-<dt>Member <a class="el" href="structmeshlib_1_1VertCoords2.html#aa051284ab80188e1df059b67259bed3e">meshlib::VertCoords2::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1Vector2f.html">meshlib::Vector2f</a>)</dt>
-<dd><a class="anchor" id="_deprecated000220"></a>use resize() instead  </dd>
-<dt>Member <a class="el" href="structmeshlib_1_1VertCoords.html#a5a58ec823de161929b3d6d74d676566a">meshlib::VertCoords::resize_with_reserve_1</a>  (newSize:usize)</dt>
 <dd><a class="anchor" id="_deprecated000217"></a>use resize() instead  </dd>
-<dt>Member <a class="el" href="structmeshlib_1_1VertCoords.html#ab04d33dcfcd9cd9a934cd71dbadb3134">meshlib::VertCoords::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1Vector3f.html">meshlib::Vector3f</a>)</dt>
+<dt>Member <a class="el" href="structmeshlib_1_1VertCoords2.html#aa051284ab80188e1df059b67259bed3e">meshlib::VertCoords2::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1Vector2f.html">meshlib::Vector2f</a>)</dt>
 <dd><a class="anchor" id="_deprecated000218"></a>use resize() instead  </dd>
+<dt>Member <a class="el" href="structmeshlib_1_1VertCoords.html#a5a58ec823de161929b3d6d74d676566a">meshlib::VertCoords::resize_with_reserve_1</a>  (newSize:usize)</dt>
+<dd><a class="anchor" id="_deprecated000215"></a>use resize() instead  </dd>
+<dt>Member <a class="el" href="structmeshlib_1_1VertCoords.html#ab04d33dcfcd9cd9a934cd71dbadb3134">meshlib::VertCoords::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1Vector3f.html">meshlib::Vector3f</a>)</dt>
+<dd><a class="anchor" id="_deprecated000216"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1VertMap.html#a1b250acbd35fa76f6c501ea8c53c8caf">meshlib::VertMap::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000221"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000219"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1VertMap.html#a5832dd17c776f2a752ca71cb91e83428">meshlib::VertMap::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1VertId.html">meshlib::VertId</a>)</dt>
-<dd><a class="anchor" id="_deprecated000222"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000220"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1VertScalars.html#a6a9f655288568382a38fd7350e4a6953">meshlib::VertScalars::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000223"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000221"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1VertScalars.html#ab7654134a86b57a5f63805ab39b83913">meshlib::VertScalars::resize_with_reserve_2</a>  (newSize:usize, value:&amp;f32)</dt>
-<dd><a class="anchor" id="_deprecated000224"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000222"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1VoxelBitSet.html#a34c39d0f83ea4bb4c2db5f0f9e3e9c3f">meshlib::VoxelBitSet::resize_with_reserve</a>  (newSize:usize)</dt>
 <dd><a class="anchor" id="_deprecated000015"></a>use <a class="el" href="structmeshlib_1_1VoxelBitSet.html#a891db29345ec08807edced7e6faaa6ea">resize()</a> instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1VoxelScalars.html#a8de3014c84b149be59b3317e0aaf5543">meshlib::VoxelScalars::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000225"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000223"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1VoxelScalars.html#a2d7b7fcf5eb10083341b8b65a7948248">meshlib::VoxelScalars::resize_with_reserve_2</a>  (newSize:usize, value:&amp;f32)</dt>
-<dd><a class="anchor" id="_deprecated000226"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000224"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1WholeEdgeMap.html#ac35e7621d6c73371f80045395e6acf7d">meshlib::WholeEdgeMap::resize_with_reserve_1</a>  (newSize:usize)</dt>
-<dd><a class="anchor" id="_deprecated000227"></a>use resize() instead  </dd>
+<dd><a class="anchor" id="_deprecated000225"></a>use resize() instead  </dd>
 <dt>Member <a class="el" href="structmeshlib_1_1WholeEdgeMap.html#ae53f9d0d5ecaad7925845c7d9a392bb6">meshlib::WholeEdgeMap::resize_with_reserve_2</a>  (newSize:usize, value:&amp;<a class="el" href="structmeshlib_1_1EdgeId.html">meshlib::EdgeId</a>)</dt>
-<dd><a class="anchor" id="_deprecated000228"></a>use resize() instead </dd>
+<dd><a class="anchor" id="_deprecated000226"></a>use resize() instead </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

@@ -1,17 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"MRBestFitPolynomial_8h.html#a299ccde4d990b55f1ca2102aed13413c":[9,2,2,0,0,0,0,1,22,140],
-"MRBestFitPolynomial_8h.html#a29ddca5dd9f03f060c5cb40d79d64b5c":[9,2,2,0,0,0,0,1,22,116],
-"MRBestFitPolynomial_8h.html#a29e5a0fb824e4b5d70038b64ac59891c":[9,2,2,0,0,0,0,1,22,98],
-"MRBestFitPolynomial_8h.html#a2cd4462e6c31ec35138aa0e3da47e6ae":[9,2,2,0,0,0,0,1,22,180],
-"MRBestFitPolynomial_8h.html#a2e732d7d0e4286cf7ab94c812b0f41b7":[9,2,2,0,0,0,0,1,22,126],
-"MRBestFitPolynomial_8h.html#a2e7c0dcf3ff32a7c8ba1c224accdd1af":[9,2,2,0,0,0,0,1,22,136],
-"MRBestFitPolynomial_8h.html#a2f667aceed93147b8c481cdc0ecb0f19":[9,2,2,0,0,0,0,1,22,91],
-"MRBestFitPolynomial_8h.html#a30b5817400cd28ea4f02bc56aca6036d":[9,2,2,0,0,0,0,1,22,208],
-"MRBestFitPolynomial_8h.html#a30f6121258b7b5e969acd2f40f665fb8":[9,2,2,0,0,0,0,1,22,170],
-"MRBestFitPolynomial_8h.html#a351164c29865b3fc27447eaa11eb4f40":[9,2,2,0,0,0,0,1,22,82],
-"MRBestFitPolynomial_8h.html#a3a4eebc0fc9d4a38d6b74b6d525bf6c9":[9,2,2,0,0,0,0,1,22,212],
-"MRBestFitPolynomial_8h.html#a3af86ff43997c4ec9befa1e9a67545eb":[9,2,2,0,0,0,0,1,22,76],
 "MRBestFitPolynomial_8h.html#a3c0b730b3da840c403fb5641ab33f439":[9,2,2,0,0,0,0,1,22,3],
 "MRBestFitPolynomial_8h.html#a3da582e90923687821ebd0319d2e273e":[9,2,2,0,0,0,0,1,22,24],
 "MRBestFitPolynomial_8h.html#a3dfdbd2fc543267012275cfc41c270a4":[9,2,2,0,0,0,0,1,22,64],
@@ -249,5 +237,17 @@ var NAVTREEINDEX8 =
 "MRBezier_8h.html#a032930890ecdd9b101466ea5a0f5256f":[9,2,2,0,0,0,0,1,24,44],
 "MRBezier_8h.html#a043fdd39ae91a3b602aef1c4891729ff":[9,2,2,0,0,0,0,1,24,50],
 "MRBezier_8h.html#a05452a3fb160fd08476a2daa2c9e28da":[9,2,2,0,0,0,0,1,24,38],
-"MRBezier_8h.html#a112441e35844bbcd2f0822e5d7856c62":[9,2,2,0,0,0,0,1,24,18]
+"MRBezier_8h.html#a112441e35844bbcd2f0822e5d7856c62":[9,2,2,0,0,0,0,1,24,18],
+"MRBezier_8h.html#a14cce647bf39e71f39ae6bd7e8064ada":[9,2,2,0,0,0,0,1,24,36],
+"MRBezier_8h.html#a183cb719b4252f9aa35440e6d5d26976":[9,2,2,0,0,0,0,1,24,10],
+"MRBezier_8h.html#a1f6030cf2ca07a60e9ac87ea98ec0ec8":[9,2,2,0,0,0,0,1,24,20],
+"MRBezier_8h.html#a21045c4e26279b6262c6bf488b3b8b46":[9,2,2,0,0,0,0,1,24,57],
+"MRBezier_8h.html#a31c16b54f8e94eaccbdc8cbfeaf2f2c0":[9,2,2,0,0,0,0,1,24,8],
+"MRBezier_8h.html#a32bac8cc950ea1f0f9722ea7775a3766":[9,2,2,0,0,0,0,1,24,21],
+"MRBezier_8h.html#a33062ef5e904aa852fe0a90423fa3fde":[9,2,2,0,0,0,0,1,24,19],
+"MRBezier_8h.html#a3b68ed98d4f33984adcd269920aab67b":[9,2,2,0,0,0,0,1,24,59],
+"MRBezier_8h.html#a46002afc8d89ecc60751af189bfc4639":[9,2,2,0,0,0,0,1,24,51],
+"MRBezier_8h.html#a46982165a17fc380e86ae49bf5cd5e2b":[9,2,2,0,0,0,0,1,24,3],
+"MRBezier_8h.html#a474959be6a2b2db8eb535025d9f42adf":[9,2,2,0,0,0,0,1,24,33],
+"MRBezier_8h.html#a4a460a8638ceb9b89676938b771b69c5":[9,2,2,0,0,0,0,1,24,43]
 };

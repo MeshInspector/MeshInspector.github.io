@@ -1,14 +1,5 @@
 var NAVTREEINDEX102 =
 {
-"MRSphereObject_8h.html#a71e9a0efbad518f8d3571c27b429efcd":[9,2,2,0,0,0,0,1,339,27],
-"MRSphereObject_8h.html#a7202371b72a2539c3a2408c815e9a09a":[9,2,2,0,0,0,0,1,339,177],
-"MRSphereObject_8h.html#a73f627f84e04fbebbf5e859b7c367f7d":[9,2,2,0,0,0,0,1,339,129],
-"MRSphereObject_8h.html#a748e4529197ee1b5f663e07bbbf0fd53":[9,2,2,0,0,0,0,1,339,154],
-"MRSphereObject_8h.html#a7535a73f1b0f1cc0e8ecc9fc3e174457":[9,2,2,0,0,0,0,1,339,96],
-"MRSphereObject_8h.html#a778bffa35eeee365e4c56c0fa075e30d":[9,2,2,0,0,0,0,1,339,132],
-"MRSphereObject_8h.html#a7c1c76a0bdb278cf98d713be3d34ead1":[9,2,2,0,0,0,0,1,339,110],
-"MRSphereObject_8h.html#a7d3d406d52011c9453ed33a9e508285a":[9,2,2,0,0,0,0,1,339,72],
-"MRSphereObject_8h.html#a7f6fca16bf29999304e4307c2214b0c3":[9,2,2,0,0,0,0,1,339,143],
 "MRSphereObject_8h.html#a7fd60c6511ab2c6cc2a2ca32aefc5cc2":[9,2,2,0,0,0,0,1,339,28],
 "MRSphereObject_8h.html#a80c2908a30a628a5d6c6c2d6d631fd01":[9,2,2,0,0,0,0,1,339,150],
 "MRSphereObject_8h.html#a81a12db05a2a04e1a1b1ce8cde390890":[9,2,2,0,0,0,0,1,339,118],
@@ -249,5 +240,14 @@ var NAVTREEINDEX102 =
 "MRString_8h.html":[9,2,2,0,0,0,0,1,342],
 "MRString_8h.html#a02016bca08b40cca6e46ef85ed1f6c12":[9,2,2,0,0,0,0,1,342,5],
 "MRString_8h.html#a1e0bde14d170a00b409d84ed2c46f8f9":[9,2,2,0,0,0,0,1,342,4],
-"MRString_8h.html#a29d2ca719ccfa90529543fb832aa871f":[9,2,2,0,0,0,0,1,342,7]
+"MRString_8h.html#a29d2ca719ccfa90529543fb832aa871f":[9,2,2,0,0,0,0,1,342,7],
+"MRString_8h.html#a3f559f4b3910c386775645dad777c241":[9,2,2,0,0,0,0,1,342,2],
+"MRString_8h.html#a761c476b3907f0b69dd807ef0a27e0aa":[9,2,2,0,0,0,0,1,342,6],
+"MRString_8h.html#a95ca4120d6ab5fee907117ac3d93edce":[9,2,2,0,0,0,0,1,342,8],
+"MRString_8h.html#a9b7ce354046f8ac3423f758e6dcdd585":[9,2,2,0,0,0,0,1,342,0],
+"MRString_8h.html#ac8335e464659f316b9021b3b115f2d89":[9,2,2,0,0,0,0,1,342,3],
+"MRString_8h.html#aef8a401fa282c7e550a2fe6d1d5cd68d":[9,2,2,0,0,0,0,1,342,1],
+"MRString_8h_source.html":[9,2,2,0,0,0,0,1,342],
+"MRSubfeatures_8h.html":[9,2,2,0,0,0,0,1,344],
+"MRSubfeatures_8h.html#a01055044fba586776566623d2a752db9":[9,2,2,0,0,0,0,1,344,5]
 };

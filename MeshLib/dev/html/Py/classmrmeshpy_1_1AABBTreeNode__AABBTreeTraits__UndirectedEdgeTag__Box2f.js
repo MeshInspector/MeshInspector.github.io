@@ -9,5 +9,5 @@ var classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f =
     [ "l", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#af58e7d312a745c189f128e118baa8c66", null ],
     [ "r", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#aa58f3ce5e27f57abf9f909a973c65d70", null ],
     [ "r", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#ad73e9d6a598d4cb30af5c28663f5b945", null ],
-    [ "setLeafId", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a1cfe0c70c8fb65368568ffefccbd7625", null ]
+    [ "setLeafId", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a825c1b8b804f89ea1c92b9a3e0da3b6b", null ]
 ];
