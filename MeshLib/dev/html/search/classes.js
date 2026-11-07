@@ -647,6 +647,7 @@ var searchData=
   ['funccallhelper_55',['FuncCallHelper',['.././Cpp/classMR_1_1detail_1_1FuncCallHelper.html',1,'MR::detail']]],
   ['functionref_56',['FunctionRef',['.././Cpp/classMR_1_1FunctionRef.html',1,'MR']]],
   ['functionref_3c_20r_28args_2e_2e_2e_29_3e_57',['FunctionRef&lt; R(Args...)&gt;',['.././Cpp/classMR_1_1FunctionRef_3_01R_07Args_8_8_8_08_4.html',1,'MR']]],
+  ['functionref_3c_20typename_20t_3a_3aleafid_28typename_20t_3a_3aleafid_20id_2c_20int_20pos_29_3e_58',['FunctionRef&lt; typename T::LeafId(typename T::LeafId id, int pos)&gt;',['.././Cpp/classMR_1_1FunctionRef.html',1,'MR']]],
   ['radiobuttonormodifierstate_0',['RadioButtonOrModifierState',['.././Cpp/structMR_1_1UI_1_1RadioButtonOrModifierState.html',1,'MR::UI']]],
   ['radiusmeasurementobject_1',['RadiusMeasurementObject',['.././Cpp/classMR_1_1RadiusMeasurementObject.html',1,'MR']]],
   ['radiusparams_2',['RadiusParams',['.././Cpp/structMR_1_1RenderDimensions_1_1RadiusParams.html',1,'MR::RenderDimensions']]],

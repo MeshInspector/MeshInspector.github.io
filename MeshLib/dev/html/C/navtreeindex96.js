@@ -1,5 +1,15 @@
 var NAVTREEINDEX96 =
 {
+"MRQuadraticForm_8h.html#adb48db925c6f09e1bb960fcf83099452":[9,2,2,0,0,0,0,1,304,29],
+"MRQuadraticForm_8h.html#adca6ccae914eed89ac89bc1b8fe0fb83":[9,2,2,0,0,0,0,1,304,79],
+"MRQuadraticForm_8h.html#adee80033f86a923d227ea2ff3a0b24e6":[9,2,2,0,0,0,0,1,304,56],
+"MRQuadraticForm_8h.html#adffefd5a21bc98fc38f2bad909bbca94":[9,2,2,0,0,0,0,1,304,48],
+"MRQuadraticForm_8h.html#aeb333a5a2e70587ce0c8cdf16f1906f8":[9,2,2,0,0,0,0,1,304,44],
+"MRQuadraticForm_8h.html#aec76f5ca81012b6e0b35a635bfd853be":[9,2,2,0,0,0,0,1,304,42],
+"MRQuadraticForm_8h.html#af36b270b05afa07b2a5aeaac7fa6b63c":[9,2,2,0,0,0,0,1,304,31],
+"MRQuadraticForm_8h.html#af5ffb1387cd8847aa7f15082bd65ed05":[9,2,2,0,0,0,0,1,304,73],
+"MRQuadraticForm_8h.html#af7475838db501ea587b208dcea0499cc":[9,2,2,0,0,0,0,1,304,3],
+"MRQuadraticForm_8h.html#af7c568160d727794668b37c4f56f0fb4":[9,2,2,0,0,0,0,1,304,25],
 "MRQuadraticForm_8h.html#af8e6229fa39b71a48a30a734fd76dfbc":[9,2,2,0,0,0,0,1,304,80],
 "MRQuadraticForm_8h.html#af94edd978758f21414b9ffd29a8c3151":[9,2,2,0,0,0,0,1,304,43],
 "MRQuadraticForm_8h.html#afbfe7f6fc62a301833880ef19ffe6d7c":[9,2,2,0,0,0,0,1,304,8],
@@ -239,15 +249,5 @@ var NAVTREEINDEX96 =
 "MRRadiusMeasurementObject_8h.html#a9b6c0768f23666c6335c9e41c7fbd2b0":[9,2,2,0,0,0,0,1,307,89],
 "MRRadiusMeasurementObject_8h.html#a9c362425ebc2f76287f96e24051386ad":[9,2,2,0,0,0,0,1,307,151],
 "MRRadiusMeasurementObject_8h.html#a9e4dce1b091cb78d4b6d12e1dc8307a2":[9,2,2,0,0,0,0,1,307,154],
-"MRRadiusMeasurementObject_8h.html#a9ebc822d10abbeab51e727a15fe296f0":[9,2,2,0,0,0,0,1,307,27],
-"MRRadiusMeasurementObject_8h.html#a9f3c6e08b4d0058399c81078c7eac174":[9,2,2,0,0,0,0,1,307,52],
-"MRRadiusMeasurementObject_8h.html#aa0068c1118b6f04437f26e96c210a19a":[9,2,2,0,0,0,0,1,307,127],
-"MRRadiusMeasurementObject_8h.html#aa06d290a566ccc027497babb582a1983":[9,2,2,0,0,0,0,1,307,17],
-"MRRadiusMeasurementObject_8h.html#aa1979f563c7ed4d634e7a1979056d748":[9,2,2,0,0,0,0,1,307,21],
-"MRRadiusMeasurementObject_8h.html#aa41dfea10a08d6f0273f25f976913f0f":[9,2,2,0,0,0,0,1,307,80],
-"MRRadiusMeasurementObject_8h.html#aa59669cacb9b88d2ea455c06c119c477":[9,2,2,0,0,0,0,1,307,5],
-"MRRadiusMeasurementObject_8h.html#aa657521ac1d601651e9fa6cee7847573":[9,2,2,0,0,0,0,1,307,71],
-"MRRadiusMeasurementObject_8h.html#aac3ead50e94f46dc675bb007f7a0d60b":[9,2,2,0,0,0,0,1,307,119],
-"MRRadiusMeasurementObject_8h.html#ab1994d9f54896ac160e2157e40903ca4":[9,2,2,0,0,0,0,1,307,4],
-"MRRadiusMeasurementObject_8h.html#ab3cba733af45b5c22d755278ce377564":[9,2,2,0,0,0,0,1,307,147]
+"MRRadiusMeasurementObject_8h.html#a9ebc822d10abbeab51e727a15fe296f0":[9,2,2,0,0,0,0,1,307,27]
 };

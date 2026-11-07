@@ -1,5 +1,14 @@
 var NAVTREEINDEX84 =
 {
+"classMR_1_1Const__TextureBitSet.html#a807cac95a6af440832bc529fb7b611ee":[9,3,0,0,0,896,1],
+"classMR_1_1Const__TextureBitSet.html#a8ab1be03b5746024a56354d6b5a421ec":[9,3,0,0,0,896,4],
+"classMR_1_1Const__TextureBitSet.html#a8b254ef037424771c57d99bebc9aa0c0":[9,3,0,0,0,896,25],
+"classMR_1_1Const__TextureBitSet.html#a90dd968d1d5226e9af58828722c7414a":[9,3,0,0,0,896,9],
+"classMR_1_1Const__TextureBitSet.html#a9425bd38b71a9178ab426928303018b7":[9,3,0,0,0,896,42],
+"classMR_1_1Const__TextureBitSet.html#a9f30086a89f0c1d3e610a4ff2b45f1a8":[9,3,0,0,0,896,45],
+"classMR_1_1Const__TextureBitSet.html#a9ffd91d216a157358d9e03a34c3defaf":[9,3,0,0,0,896,33],
+"classMR_1_1Const__TextureBitSet.html#aa0d288bfd9c5dd8a771f881f979970e7":[9,3,0,0,0,896,15],
+"classMR_1_1Const__TextureBitSet.html#aa37484c2b0ffecaed3fb4b9e2f505bed":[9,3,0,0,0,896,11],
 "classMR_1_1Const__TextureBitSet.html#aa6e68cf2d2b9902e880f7997bf50fac2":[9,3,0,0,0,896,29],
 "classMR_1_1Const__TextureBitSet.html#aa933305a4a7d8083a19e1c90cf40d979":[9,3,0,0,0,896,32],
 "classMR_1_1Const__TextureBitSet.html#aaf81019d0581a46afb284cac9b641418":[9,3,0,0,0,896,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX84 =
 "classMR_1_1Const__TriPointf.html#a20aedfa9d7a44e3daa01ce99930e1185":[9,3,0,0,0,916,6],
 "classMR_1_1Const__TriPointf.html#a2ee7d9348449c352da44b4db91e1484a":[9,3,0,0,0,916,4],
 "classMR_1_1Const__TriPointf.html#a4de463e3a3cee5416786159cb376e560":[9,3,0,0,0,916,12],
-"classMR_1_1Const__TriPointf.html#a5d7c939a578952a63f15b0bfbdab65e2":[9,3,0,0,0,916,10],
-"classMR_1_1Const__TriPointf.html#a6917a7f5698c81f868d14dbffc45861c":[9,3,0,0,0,916,2],
-"classMR_1_1Const__TriPointf.html#a6a9f6c41ed76dfc129b9d06ab02ac26f":[9,3,0,0,0,916,3],
-"classMR_1_1Const__TriPointf.html#a6d537b969bdda13919d4b23a19e9a4e6":[9,3,0,0,0,916,7],
-"classMR_1_1Const__TriPointf.html#a7f3def5d15b13e515e79991dd5ced22c":[9,3,0,0,0,916,14],
-"classMR_1_1Const__TriPointf.html#a86d40e1d025379640c01be51766b7ee9":[9,3,0,0,0,916,17],
-"classMR_1_1Const__TriPointf.html#aa1a8216c1ff4262eeeb5a910db0891a6":[9,3,0,0,0,916,16],
-"classMR_1_1Const__TriPointf.html#ac429a465e99bc68aee49e2ce6a315923":[9,3,0,0,0,916,13],
-"classMR_1_1Const__TriPointf.html#ac797eb30900daf5e009bd73a89db2a38":[9,3,0,0,0,916,21],
-"classMR_1_1Const__TriPointf.html#acb4566c923274dfd3acb32bc4dc13dc5":[9,3,0,0,0,916,1]
+"classMR_1_1Const__TriPointf.html#a5d7c939a578952a63f15b0bfbdab65e2":[9,3,0,0,0,916,10]
 };

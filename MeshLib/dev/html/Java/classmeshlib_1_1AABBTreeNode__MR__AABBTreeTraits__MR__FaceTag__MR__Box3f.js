@@ -9,9 +9,10 @@ var classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f =
     [ "l", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f.html#a9dfaa043ade3aceb31a1900d01c9c593", null ],
     [ "leaf", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f.html#a7154dcdeac0efccf61e7e6dc92e1d20e", null ],
     [ "leafId", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f.html#a1ed7c9ac5b19ba2f73e532e6b93932d0", null ],
+    [ "leafPos", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f.html#ab0b00821c5452bb5e4468a857d940060", null ],
     [ "r", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f.html#a78d1a773cf01e7ad379ec3da5e3a2c68", null ],
     [ "setBox", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f.html#ad2623fec1baab34db0d5e93688d15dcb", null ],
     [ "setL", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f.html#ab4d369e115bb4c98b6eb6afe5aaebb63", null ],
-    [ "setLeafId", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f.html#a49f5403edc9f8c2699f82c8a69b92236", null ],
+    [ "setLeafId", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f.html#a168e8b5b1c191f88cf0f23c71217cc43", null ],
     [ "setR", "classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f.html#a8255d635ee07410be563a28d1bcd7c0e", null ]
 ];

@@ -8,6 +8,7 @@ var classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f =
     [ "Dispose", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html#ac5d27b04c7d9b827d3cbed8640356ee4", null ],
     [ "leaf", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html#adb0b88a05aa3b15eba8bc2914c3235bf", null ],
     [ "leafId", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html#a98befe21dffa40ca04dc2257260bb5e8", null ],
+    [ "leafPos", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html#a43f9ba14cd93607ddd820c3fb65782f4", null ],
     [ "__ref_storage_box", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html#a7ba09c72a6159be68789ba2b5e1e594b", null ],
     [ "__ref_storage_l", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html#a61afb84b615f94b731cfc48cc441fc12", null ],
     [ "__ref_storage_r", "classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html#af4567e168c7aba0e9fbe2b4eb5446c6c", null ],

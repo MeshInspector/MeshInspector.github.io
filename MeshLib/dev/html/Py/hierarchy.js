@@ -4251,6 +4251,9 @@ var hierarchy =
     [ "mrmeshpy.ConstVector_std_array_VertId_2", "classmrmeshpy_1_1ConstVector__std__array__VertId__2.html", [
       [ "mrmeshpy.Vector_std_array_VertId_2", "classmrmeshpy_1_1Vector__std__array__VertId__2.html", null ]
     ] ],
+    [ "mrmeshpy.ConstVector_std_array_VertId_3", "classmrmeshpy_1_1ConstVector__std__array__VertId__3.html", [
+      [ "mrmeshpy.Vector_std_array_VertId_3", "classmrmeshpy_1_1Vector__std__array__VertId__3.html", null ]
+    ] ],
     [ "mrmeshpy.ConstVector_std_filesystem_path_TextureId", "classmrmeshpy_1_1ConstVector__std__filesystem__path__TextureId.html", [
       [ "mrmeshpy.Vector_std_filesystem_path_TextureId", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html", null ]
     ] ],

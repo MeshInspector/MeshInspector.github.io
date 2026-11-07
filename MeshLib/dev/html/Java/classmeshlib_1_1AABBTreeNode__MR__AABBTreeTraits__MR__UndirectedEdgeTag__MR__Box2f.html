@@ -157,7 +157,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a080d9df69d79c9ee98cded43de02d91b" id="r_a080d9df69d79c9ee98cded43de02d91b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html">meshlib.AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a080d9df69d79c9ee98cded43de02d91b">assignFromAnother</a> (<a class="el" href="classmeshlib_1_1AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f.html">meshlib.AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f</a> _other)</td></tr>
 <tr class="memitem:afc8821028065d82a523dbe47e7677a17" id="r_afc8821028065d82a523dbe47e7677a17"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc8821028065d82a523dbe47e7677a17">leaf</a> ()</td></tr>
 <tr class="memitem:ac9acf911f4d628313eec81006b46fa2d" id="r_ac9acf911f4d628313eec81006b46fa2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1UndirectedEdgeId.html">meshlib.UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9acf911f4d628313eec81006b46fa2d">leafId</a> ()</td></tr>
-<tr class="memitem:af607a1f63dcd5be23be29f1819f3449a" id="r_af607a1f63dcd5be23be29f1819f3449a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af607a1f63dcd5be23be29f1819f3449a">setLeafId</a> (<a class="el" href="classmeshlib_1_1UndirectedEdgeId.html">meshlib.UndirectedEdgeId</a> id)</td></tr>
+<tr class="memitem:a6a22cbcbe4df1959ca426841e2cfb4f6" id="r_a6a22cbcbe4df1959ca426841e2cfb4f6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a22cbcbe4df1959ca426841e2cfb4f6">leafPos</a> ()</td></tr>
+<tr class="memitem:a043c78f44bd7fc94ab0bb8237b40d3e1" id="r_a043c78f44bd7fc94ab0bb8237b40d3e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a043c78f44bd7fc94ab0bb8237b40d3e1">setLeafId</a> (<a class="el" href="classmeshlib_1_1UndirectedEdgeId.html">meshlib.UndirectedEdgeId</a> id, java.lang.Integer pos)</td></tr>
 <tr class="memitem:a862e37dd4b45d5f08b896808d5d39440" id="r_a862e37dd4b45d5f08b896808d5d39440"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1Box2f.html">meshlib.Box2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a862e37dd4b45d5f08b896808d5d39440">box</a> ()</td></tr>
 <tr class="memitem:ab1feece8b69b5e1158da0e8d18bc7611" id="r_ab1feece8b69b5e1158da0e8d18bc7611"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1feece8b69b5e1158da0e8d18bc7611">setBox</a> (<a class="el" href="classmeshlib_1_1Box2f.html">meshlib.Box2f</a> value)</td></tr>
 <tr class="memitem:aea0aa71cad00b2b51716cd4eef30714b" id="r_aea0aa71cad00b2b51716cd4eef30714b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1NodeId.html">meshlib.NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea0aa71cad00b2b51716cd4eef30714b">l</a> ()</td></tr>
@@ -359,6 +360,25 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a6a22cbcbe4df1959ca426841e2cfb4f6" name="a6a22cbcbe4df1959ca426841e2cfb4f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a22cbcbe4df1959ca426841e2cfb4f6">&#9670;&#160;</a></span>leafPos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int meshlib.AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f.leafPos </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the index of this leaf in the tree's per-leaf data (for the leaf node only), stored in r as ~pos to keep it invalid Generated from method <span class="tt">MR::AABBTreeNode&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;::leafPos</span>.</p>
+<p>Calls <span class="tt">MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_leafPos()</span>. </p>
+
+</div>
+</div>
 <a id="a0af75fabedafe27350d81a26ced87e99" name="a0af75fabedafe27350d81a26ced87e99"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0af75fabedafe27350d81a26ced87e99">&#9670;&#160;</a></span>r()</h2>
 
@@ -416,8 +436,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af607a1f63dcd5be23be29f1819f3449a" name="af607a1f63dcd5be23be29f1819f3449a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af607a1f63dcd5be23be29f1819f3449a">&#9670;&#160;</a></span>setLeafId()</h2>
+<a id="a043c78f44bd7fc94ab0bb8237b40d3e1" name="a043c78f44bd7fc94ab0bb8237b40d3e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a043c78f44bd7fc94ab0bb8237b40d3e1">&#9670;&#160;</a></span>setLeafId()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,8 +445,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void meshlib.AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f.setLeafId </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmeshlib_1_1UndirectedEdgeId.html">meshlib.UndirectedEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1UndirectedEdgeId.html">meshlib.UndirectedEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">java.lang.Integer</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

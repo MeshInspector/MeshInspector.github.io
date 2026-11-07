@@ -1,5 +1,11 @@
 var NAVTREEINDEX59 =
 {
+"group__SerializerGroup.html#gad7c57d19dac8fe5222101baac7ae164c":[9,0,0,2,18,50],
+"group__SerializerGroup.html#gae512f586c88dd70e81f31e416bef9d77":[9,0,0,2,18,10],
+"group__SerializerGroup.html#gaeaf82898746e9f13453a834361d6281d":[9,0,0,2,18,20],
+"group__SerializerGroup.html#gaeb9ec7f1149bdc406b6d901c2bc1986f":[9,0,0,2,18,6],
+"group__SerializerGroup.html#gaef36006b3524b7d2effad692fbd9728b":[9,0,0,2,18,49],
+"group__SerializerGroup.html#gaf5b43f7e16063ee64b828a9695f15557":[9,0,0,2,18,53],
 "group__SerializerGroup.html#gaf8ddb2e7af9d1892c88c8f2968dcf241":[9,0,0,2,18,41],
 "group__SerializerGroup.html#gafdcdea244bf637efde6c08d3bec13cbc":[9,0,0,2,18,27],
 "group__SerializerGroup.html#gafeec2f7391ebaf4299dc8a436c8fe671":[9,0,0,2,18,47],
@@ -243,11 +249,5 @@ var NAVTREEINDEX59 =
 "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a23f7dbe9a82e38743db156f56a7b30d3":[9,0,0,11,2,7,4],
 "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a269c9589c9cb0406be81dcb855532f0b":[9,0,0,11,2,7,14],
 "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a2844551064db079a1d3da473c389c9ca":[9,0,0,11,2,7,12],
-"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a2d7eb6cdde4e22fa902012a7a63152a9":[9,0,0,11,2,7,13],
-"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a32fcd55df4b9420427f5168b5558a4a6":[9,0,0,11,2,7,9],
-"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f":[9,0,0,11,2,7,16],
-"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475":[9,0,0,11,2,7,10],
-"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a48d2a0f89c21288fc6f9acde5fb8338d":[9,0,0,11,2,7,5],
-"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a4d37651692aaecc731860a4e8c4df169":[9,0,0,11,2,7,15],
-"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a":[9,0,0,11,2,7,18]
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a2d7eb6cdde4e22fa902012a7a63152a9":[9,0,0,11,2,7,13]
 };

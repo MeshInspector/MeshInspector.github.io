@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"classmrmeshpy_1_1CloseToMeshVolumeParams.html#a2ec3d4bfa85b765b5ef570e00056c1fc":[9,1,0,0,2,154,2],
+"classmrmeshpy_1_1CloseToMeshVolumeParams.html#a2ec3d4bfa85b765b5ef570e00056c1fc":[9,1,1,0,1,154,2],
 "classmrmeshpy_1_1CloseToMeshVolumeParams.html#a50d0634ba5af9a1afeb8d9d8c4e86773":[9,1,0,0,2,154,6],
 "classmrmeshpy_1_1CloseToMeshVolumeParams.html#a50d0634ba5af9a1afeb8d9d8c4e86773":[9,1,1,0,1,154,6],
 "classmrmeshpy_1_1CloseToMeshVolumeParams.html#a79074577ede338ac36e0ee8143d462b1":[9,1,0,0,2,154,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "classmrmeshpy_1_1CompressZipSettings.html#aedbafbfd2c081c092d5bbf2c1d1808fe":[9,1,0,0,2,168,11],
 "classmrmeshpy_1_1CompressZipSettings.html#aedbafbfd2c081c092d5bbf2c1d1808fe":[9,1,1,0,1,168,11],
 "classmrmeshpy_1_1ComputePointsToDistanceVolume.html":[9,1,0,0,2,169],
-"classmrmeshpy_1_1ComputePointsToDistanceVolume.html":[9,1,1,0,1,169],
-"classmrmeshpy_1_1ComputePointsToDistanceVolume.html#a3b98b9df94bbfe2b56e7d31b16c2f16b":[9,1,0,0,2,169,1],
-"classmrmeshpy_1_1ComputePointsToDistanceVolume.html#a3b98b9df94bbfe2b56e7d31b16c2f16b":[9,1,1,0,1,169,1]
+"classmrmeshpy_1_1ComputePointsToDistanceVolume.html":[9,1,1,0,1,169]
 };
