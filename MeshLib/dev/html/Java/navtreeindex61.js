@@ -1,5 +1,13 @@
 var NAVTREEINDEX61 =
 {
+"classmeshlib_1_1IntersectionPrecomputes__double.html#ad8816d477342687cc6f8f6dfda853d7d":[9,6,1,0,0,509,10],
+"classmeshlib_1_1IntersectionPrecomputes__double.html#aec4c3ea1c028c0c1d1ef86995e72102d":[9,6,0,0,0,509,15],
+"classmeshlib_1_1IntersectionPrecomputes__double.html#aec4c3ea1c028c0c1d1ef86995e72102d":[9,6,1,0,0,509,15],
+"classmeshlib_1_1IntersectionPrecomputes__double.html#aed79e86303c6ee6d02cfe2c09ad3e32f":[9,6,0,0,0,509,0],
+"classmeshlib_1_1IntersectionPrecomputes__double.html#aed79e86303c6ee6d02cfe2c09ad3e32f":[9,6,1,0,0,509,0],
+"classmeshlib_1_1IntersectionPrecomputes__float.html":[9,6,0,0,0,510],
+"classmeshlib_1_1IntersectionPrecomputes__float.html":[9,6,1,0,0,510],
+"classmeshlib_1_1IntersectionPrecomputes__float.html#a09573e3da77172bff1981a4a30b71c80":[9,6,0,0,0,510,5],
 "classmeshlib_1_1IntersectionPrecomputes__float.html#a09573e3da77172bff1981a4a30b71c80":[9,6,1,0,0,510,5],
 "classmeshlib_1_1IntersectionPrecomputes__float.html#a21e063dcaa3ccc637b5a09ef0b7f10dd":[9,6,0,0,0,510,3],
 "classmeshlib_1_1IntersectionPrecomputes__float.html#a21e063dcaa3ccc637b5a09ef0b7f10dd":[9,6,1,0,0,510,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX61 =
 "classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#a143606b04f69459e2a0f7136c8c8318d":[9,6,1,0,0,532,4],
 "classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#a29e2dd63ec6cb3e99e9a0988b4395263":[9,6,0,0,0,532,0],
 "classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#a29e2dd63ec6cb3e99e9a0988b4395263":[9,6,1,0,0,532,0],
-"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#a74a0bd54664b90ad428ea410e3027759":[9,6,0,0,0,532,3],
-"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#a74a0bd54664b90ad428ea410e3027759":[9,6,1,0,0,532,3],
-"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#a7f8c3199ff57835ee02142b58e26475d":[9,6,0,0,0,532,1],
-"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#a7f8c3199ff57835ee02142b58e26475d":[9,6,1,0,0,532,1],
-"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#a9d29d4fe1722936e074e2c06074fb9df":[9,6,0,0,0,532,7],
-"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#a9d29d4fe1722936e074e2c06074fb9df":[9,6,1,0,0,532,7],
-"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#ae3f6d212e9ea71530ea711e4e3d13ce0":[9,6,0,0,0,532,5],
-"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#ae3f6d212e9ea71530ea711e4e3d13ce0":[9,6,1,0,0,532,5],
-"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#ae7251341374cd3ad40db4b32955fd05a":[9,6,0,0,0,532,6]
+"classmeshlib_1_1IteratorRange__MR__UndirectedEdgeIterator.html#a74a0bd54664b90ad428ea410e3027759":[9,6,0,0,0,532,3]
 };

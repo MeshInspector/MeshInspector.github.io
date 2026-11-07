@@ -1,5 +1,13 @@
 var NAVTREEINDEX32 =
 {
+"classmrmeshpy_1_1ConstFaceFaceFace.html#aabcb2b52244e59744e346054e72fa8b6":[9,1,0,0,2,770,6],
+"classmrmeshpy_1_1ConstFaceFaceFace.html#aabcb2b52244e59744e346054e72fa8b6":[9,1,1,0,1,770,6],
+"classmrmeshpy_1_1ConstFaceFaceFace.html#acd27d204f7d9bb635754cbcac24f53a4":[9,1,0,0,2,770,0],
+"classmrmeshpy_1_1ConstFaceFaceFace.html#acd27d204f7d9bb635754cbcac24f53a4":[9,1,1,0,1,770,0],
+"classmrmeshpy_1_1ConstFaceFaceFace.html#add3dcb73acc53de8012e15248bcf992f":[9,1,0,0,2,770,1],
+"classmrmeshpy_1_1ConstFaceFaceFace.html#add3dcb73acc53de8012e15248bcf992f":[9,1,1,0,1,770,1],
+"classmrmeshpy_1_1ConstFaceId.html":[9,1,0,0,2,771],
+"classmrmeshpy_1_1ConstFaceId.html":[9,1,1,0,1,771],
 "classmrmeshpy_1_1ConstFaceId.html#a2afc339febb222d0efc2ba9d97e1b79c":[9,1,0,0,2,771,5],
 "classmrmeshpy_1_1ConstFaceId.html#a2afc339febb222d0efc2ba9d97e1b79c":[9,1,1,0,1,771,5],
 "classmrmeshpy_1_1ConstFaceId.html#a37fbfbee0b092bae128198a141410776":[9,1,0,0,2,771,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX32 =
 "classmrmeshpy_1_1ConstFewSmallest__PointsProjectionResult.html#ad6b849c0e56c97f40f77fda8f615625d":[9,1,0,0,2,782,0],
 "classmrmeshpy_1_1ConstFewSmallest__PointsProjectionResult.html#ad6b849c0e56c97f40f77fda8f615625d":[9,1,1,0,1,782,0],
 "classmrmeshpy_1_1ConstFillHoleItem.html":[9,1,0,0,2,783],
-"classmrmeshpy_1_1ConstFillHoleItem.html":[9,1,1,0,1,783],
-"classmrmeshpy_1_1ConstFillHoleItem.html#a3940b0c627f5dfb36e9e726ab8167f1e":[9,1,0,0,2,783,1],
-"classmrmeshpy_1_1ConstFillHoleItem.html#a3940b0c627f5dfb36e9e726ab8167f1e":[9,1,1,0,1,783,1],
-"classmrmeshpy_1_1ConstFillHoleItem.html#ac5d2a85fcbe5d70032f7d4f87bea1e67":[9,1,0,0,2,783,2],
-"classmrmeshpy_1_1ConstFillHoleItem.html#ac5d2a85fcbe5d70032f7d4f87bea1e67":[9,1,1,0,1,783,2],
-"classmrmeshpy_1_1ConstFillHoleItem.html#ad177f65748b9286bf5155200592c7bca":[9,1,0,0,2,783,0],
-"classmrmeshpy_1_1ConstFillHoleItem.html#ad177f65748b9286bf5155200592c7bca":[9,1,1,0,1,783,0],
-"classmrmeshpy_1_1ConstFillHoleItemEdge.html":[9,1,0,0,2,784],
-"classmrmeshpy_1_1ConstFillHoleItemEdge.html":[9,1,1,0,1,784]
+"classmrmeshpy_1_1ConstFillHoleItem.html":[9,1,1,0,1,783]
 };

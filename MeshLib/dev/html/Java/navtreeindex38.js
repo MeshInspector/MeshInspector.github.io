@@ -1,5 +1,13 @@
 var NAVTREEINDEX38 =
 {
+"classmeshlib_1_1Dipoles.html#a4e4666ea526e05afb0f9934c505f341b":[9,6,1,0,0,273,27],
+"classmeshlib_1_1Dipoles.html#a541f1471c60af564e5d55bef31514846":[9,6,0,0,0,273,14],
+"classmeshlib_1_1Dipoles.html#a541f1471c60af564e5d55bef31514846":[9,6,1,0,0,273,14],
+"classmeshlib_1_1Dipoles.html#a58fe42d7d6e150548d69b6e0e0eef7d2":[9,6,0,0,0,273,5],
+"classmeshlib_1_1Dipoles.html#a58fe42d7d6e150548d69b6e0e0eef7d2":[9,6,1,0,0,273,5],
+"classmeshlib_1_1Dipoles.html#a60c185b0da3d0b5864cce4170d1c40fc":[9,6,0,0,0,273,2],
+"classmeshlib_1_1Dipoles.html#a60c185b0da3d0b5864cce4170d1c40fc":[9,6,1,0,0,273,2],
+"classmeshlib_1_1Dipoles.html#a6d69624b4ef1ab6f4fb6092a3c19e34d":[9,6,0,0,0,273,23],
 "classmeshlib_1_1Dipoles.html#a6d69624b4ef1ab6f4fb6092a3c19e34d":[9,6,1,0,0,273,23],
 "classmeshlib_1_1Dipoles.html#a78230a386bce306e5798b66c7b7aaef2":[9,6,0,0,0,273,10],
 "classmeshlib_1_1Dipoles.html#a78230a386bce306e5798b66c7b7aaef2":[9,6,1,0,0,273,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX38 =
 "classmeshlib_1_1DistanceMap.html#ae4798f9590638a0a4135ba5c86c5d2f0":[9,6,1,0,0,278,35],
 "classmeshlib_1_1DistanceMap.html#ae513f8c135bc4d4dc522a4ab5fb403db":[9,6,0,0,0,278,16],
 "classmeshlib_1_1DistanceMap.html#ae513f8c135bc4d4dc522a4ab5fb403db":[9,6,1,0,0,278,16],
-"classmeshlib_1_1DistanceMap.html#aec55cfdd4db12e95bef7103a171b5d8c":[9,6,0,0,0,278,23],
-"classmeshlib_1_1DistanceMap.html#aec55cfdd4db12e95bef7103a171b5d8c":[9,6,1,0,0,278,23],
-"classmeshlib_1_1DistanceMap.html#aedf3208e2685744bd72f8b3e21db351b":[9,6,0,0,0,278,8],
-"classmeshlib_1_1DistanceMap.html#aedf3208e2685744bd72f8b3e21db351b":[9,6,1,0,0,278,8],
-"classmeshlib_1_1DistanceMap.html#af27bb1002c68566abbf333add35584a6":[9,6,0,0,0,278,14],
-"classmeshlib_1_1DistanceMap.html#af27bb1002c68566abbf333add35584a6":[9,6,1,0,0,278,14],
-"classmeshlib_1_1DistanceMap.html#af78d9b5815d95f6f72feaba4110e3d3a":[9,6,0,0,0,278,47],
-"classmeshlib_1_1DistanceMap.html#af78d9b5815d95f6f72feaba4110e3d3a":[9,6,1,0,0,278,47],
-"classmeshlib_1_1DistanceMap.html#afa1c6007cfb3a70a6c4a299798354d06":[9,6,0,0,0,278,37]
+"classmeshlib_1_1DistanceMap.html#aec55cfdd4db12e95bef7103a171b5d8c":[9,6,0,0,0,278,23]
 };

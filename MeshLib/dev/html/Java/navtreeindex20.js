@@ -1,5 +1,13 @@
 var NAVTREEINDEX20 =
 {
+"classmeshlib_1_1Box3i64.html#a64c76666065090574eb6beacf4d59301":[9,6,1,0,0,130,0],
+"classmeshlib_1_1Box3i64.html#a6550ff0cc631c5f5dc53521c6778aa30":[9,6,0,0,0,130,31],
+"classmeshlib_1_1Box3i64.html#a6550ff0cc631c5f5dc53521c6778aa30":[9,6,1,0,0,130,31],
+"classmeshlib_1_1Box3i64.html#a684e37e1eb192bf76337d5ea15138b6e":[9,6,0,0,0,130,26],
+"classmeshlib_1_1Box3i64.html#a684e37e1eb192bf76337d5ea15138b6e":[9,6,1,0,0,130,26],
+"classmeshlib_1_1Box3i64.html#a6f044d28fa257018d1ed3c87ea8f5767":[9,6,0,0,0,130,19],
+"classmeshlib_1_1Box3i64.html#a6f044d28fa257018d1ed3c87ea8f5767":[9,6,1,0,0,130,19],
+"classmeshlib_1_1Box3i64.html#a77d3dca93bcfa24dcbba0068fa5ea7c4":[9,6,0,0,0,130,28],
 "classmeshlib_1_1Box3i64.html#a77d3dca93bcfa24dcbba0068fa5ea7c4":[9,6,1,0,0,130,28],
 "classmeshlib_1_1Box3i64.html#a7911f5c97dcac5667e3198f314ae525d":[9,6,0,0,0,130,18],
 "classmeshlib_1_1Box3i64.html#a7911f5c97dcac5667e3198f314ae525d":[9,6,1,0,0,130,18],
@@ -241,13 +249,5 @@ var NAVTREEINDEX20 =
 "classmeshlib_1_1Buffer__MR__FaceId__MR__FaceId.html#ab7520409e0aae89c4739ff234bc5ddbe":[9,6,1,0,0,136,2],
 "classmeshlib_1_1Buffer__MR__FaceId__MR__FaceId.html#abf9e24adbc1f3fb33595f90f379b466e":[9,6,0,0,0,136,12],
 "classmeshlib_1_1Buffer__MR__FaceId__MR__FaceId.html#abf9e24adbc1f3fb33595f90f379b466e":[9,6,1,0,0,136,12],
-"classmeshlib_1_1Buffer__MR__FaceId__MR__FaceId.html#abfe5f12dfcd0627e91f034f971544604":[9,6,0,0,0,136,1],
-"classmeshlib_1_1Buffer__MR__FaceId__MR__FaceId.html#abfe5f12dfcd0627e91f034f971544604":[9,6,1,0,0,136,1],
-"classmeshlib_1_1Buffer__MR__FaceId__MR__FaceId.html#ac401d11e4226e7301e3ea0cab4d2cfc4":[9,6,0,0,0,136,15],
-"classmeshlib_1_1Buffer__MR__FaceId__MR__FaceId.html#ac401d11e4226e7301e3ea0cab4d2cfc4":[9,6,1,0,0,136,15],
-"classmeshlib_1_1Buffer__MR__FaceId__MR__FaceId.html#ac518f023eb6731ab26745224f62ee433":[9,6,0,0,0,136,4],
-"classmeshlib_1_1Buffer__MR__FaceId__MR__FaceId.html#ac518f023eb6731ab26745224f62ee433":[9,6,1,0,0,136,4],
-"classmeshlib_1_1Buffer__MR__FaceId__MR__FaceId.html#adac5dedbcb8963097e4610c63414e33a":[9,6,0,0,0,136,16],
-"classmeshlib_1_1Buffer__MR__FaceId__MR__FaceId.html#adac5dedbcb8963097e4610c63414e33a":[9,6,1,0,0,136,16],
-"classmeshlib_1_1Buffer__MR__FaceId__MR__FaceId.html#ae1b01da952ba64406e1eb61aed7a29c4":[9,6,0,0,0,136,11]
+"classmeshlib_1_1Buffer__MR__FaceId__MR__FaceId.html#abfe5f12dfcd0627e91f034f971544604":[9,6,0,0,0,136,1]
 };

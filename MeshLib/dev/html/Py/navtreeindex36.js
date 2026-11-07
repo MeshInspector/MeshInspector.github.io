@@ -1,5 +1,13 @@
 var NAVTREEINDEX36 =
 {
+"classmrmeshpy_1_1ConstHistogram.html#a03e691b71cbb54e5670cfe38ab5ff97d":[9,1,0,0,2,816,0],
+"classmrmeshpy_1_1ConstHistogram.html#a03e691b71cbb54e5670cfe38ab5ff97d":[9,1,1,0,1,816,0],
+"classmrmeshpy_1_1ConstHistogram.html#a3984a1988b5e3075d68606fe647901f6":[9,1,0,0,2,816,4],
+"classmrmeshpy_1_1ConstHistogram.html#a3984a1988b5e3075d68606fe647901f6":[9,1,1,0,1,816,4],
+"classmrmeshpy_1_1ConstHistogram.html#a4e1f3ec3a7f44cbe6d1035f0b2235727":[9,1,0,0,2,816,5],
+"classmrmeshpy_1_1ConstHistogram.html#a4e1f3ec3a7f44cbe6d1035f0b2235727":[9,1,1,0,1,816,5],
+"classmrmeshpy_1_1ConstHistogram.html#a721aaedbcb8db98efb1a33f3551ab7fb":[9,1,0,0,2,816,3],
+"classmrmeshpy_1_1ConstHistogram.html#a721aaedbcb8db98efb1a33f3551ab7fb":[9,1,1,0,1,816,3],
 "classmrmeshpy_1_1ConstHistogram.html#a8d6432cb2c10348594fc0413e4666ddc":[9,1,0,0,2,816,1],
 "classmrmeshpy_1_1ConstHistogram.html#a8d6432cb2c10348594fc0413e4666ddc":[9,1,1,0,1,816,1],
 "classmrmeshpy_1_1ConstHistogram.html#acf31b116afb0faa18d9ed08fadc24c04":[9,1,0,0,2,816,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX36 =
 "classmrmeshpy_1_1ConstImproveSamplingSettings.html#a71d8150901737ace9a644008576fca17":[9,1,0,0,2,834,3],
 "classmrmeshpy_1_1ConstImproveSamplingSettings.html#a71d8150901737ace9a644008576fca17":[9,1,1,0,1,834,3],
 "classmrmeshpy_1_1ConstImproveSamplingSettings.html#afe446b1dbcea7df878317a79682be097":[9,1,0,0,2,834,7],
-"classmrmeshpy_1_1ConstImproveSamplingSettings.html#afe446b1dbcea7df878317a79682be097":[9,1,1,0,1,834,7],
-"classmrmeshpy_1_1ConstInSphere.html":[9,1,0,0,2,836],
-"classmrmeshpy_1_1ConstInSphere.html":[9,1,1,0,1,836],
-"classmrmeshpy_1_1ConstInSphere.html#a176d8e88147d4f9ee526d5536d200fa5":[9,1,0,0,2,836,3],
-"classmrmeshpy_1_1ConstInSphere.html#a176d8e88147d4f9ee526d5536d200fa5":[9,1,1,0,1,836,3],
-"classmrmeshpy_1_1ConstInSphere.html#a9f5300b690efb98c54320502d42657d5":[9,1,0,0,2,836,1],
-"classmrmeshpy_1_1ConstInSphere.html#a9f5300b690efb98c54320502d42657d5":[9,1,1,0,1,836,1],
-"classmrmeshpy_1_1ConstInSphere.html#ab3b457afaf82c0f3116ec8dcc2959d5a":[9,1,0,0,2,836,2],
-"classmrmeshpy_1_1ConstInSphere.html#ab3b457afaf82c0f3116ec8dcc2959d5a":[9,1,1,0,1,836,2]
+"classmrmeshpy_1_1ConstImproveSamplingSettings.html#afe446b1dbcea7df878317a79682be097":[9,1,1,0,1,834,7]
 };

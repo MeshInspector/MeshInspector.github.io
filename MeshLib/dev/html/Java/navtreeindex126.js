@@ -1,5 +1,13 @@
 var NAVTREEINDEX126 =
 {
+"classmeshlib_1_1SharpOffsetParameters.html#a2cadd579a931d49cb522053b61d4e30b":[9,6,1,0,0,924,37],
+"classmeshlib_1_1SharpOffsetParameters.html#a32f77bb1a56b9de493e1d0913d442530":[9,6,0,0,0,924,30],
+"classmeshlib_1_1SharpOffsetParameters.html#a32f77bb1a56b9de493e1d0913d442530":[9,6,1,0,0,924,30],
+"classmeshlib_1_1SharpOffsetParameters.html#a3bf7f4824d4bfc61b19d8c1cdb03a99f":[9,6,0,0,0,924,24],
+"classmeshlib_1_1SharpOffsetParameters.html#a3bf7f4824d4bfc61b19d8c1cdb03a99f":[9,6,1,0,0,924,24],
+"classmeshlib_1_1SharpOffsetParameters.html#a40a2abfe7ed761e982dd23dc606f076a":[9,6,0,0,0,924,11],
+"classmeshlib_1_1SharpOffsetParameters.html#a40a2abfe7ed761e982dd23dc606f076a":[9,6,1,0,0,924,11],
+"classmeshlib_1_1SharpOffsetParameters.html#a58a4e1bd8ccd751774770e7d5b592e4c":[9,6,0,0,0,924,36],
 "classmeshlib_1_1SharpOffsetParameters.html#a58a4e1bd8ccd751774770e7d5b592e4c":[9,6,1,0,0,924,36],
 "classmeshlib_1_1SharpOffsetParameters.html#a690f82906b98c96553a9208d03fd8088":[9,6,0,0,0,924,9],
 "classmeshlib_1_1SharpOffsetParameters.html#a690f82906b98c96553a9208d03fd8088":[9,6,1,0,0,924,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX126 =
 "classmeshlib_1_1SignedDistanceToMeshOptions.html#ad7a5287530203183d41315b9eee6553b":[9,6,1,0,0,930,15],
 "classmeshlib_1_1SignedDistanceToMeshOptions.html#aeae0c5b5a01a493945ec12f8fca09621":[9,6,0,0,0,930,1],
 "classmeshlib_1_1SignedDistanceToMeshOptions.html#aeae0c5b5a01a493945ec12f8fca09621":[9,6,1,0,0,930,1],
-"classmeshlib_1_1SignedDistanceToMeshOptions.html#af716a628573f9e16294b62f4beaafd73":[9,6,0,0,0,930,12],
-"classmeshlib_1_1SignedDistanceToMeshOptions.html#af716a628573f9e16294b62f4beaafd73":[9,6,1,0,0,930,12],
-"classmeshlib_1_1SignedDistanceToMeshResult.html":[9,6,0,0,0,931],
-"classmeshlib_1_1SignedDistanceToMeshResult.html":[9,6,1,0,0,931],
-"classmeshlib_1_1SignedDistanceToMeshResult.html#a1a69ec74b6aabd15c7f7b96f86ad2dde":[9,6,0,0,0,931,2],
-"classmeshlib_1_1SignedDistanceToMeshResult.html#a1a69ec74b6aabd15c7f7b96f86ad2dde":[9,6,1,0,0,931,2],
-"classmeshlib_1_1SignedDistanceToMeshResult.html#a3566e6ee3a89ec2ab46fa3953762ea4b":[9,6,0,0,0,931,10],
-"classmeshlib_1_1SignedDistanceToMeshResult.html#a3566e6ee3a89ec2ab46fa3953762ea4b":[9,6,1,0,0,931,10],
-"classmeshlib_1_1SignedDistanceToMeshResult.html#a5e067a3c8eb8f8e32aca864e03c99434":[9,6,0,0,0,931,0]
+"classmeshlib_1_1SignedDistanceToMeshOptions.html#af716a628573f9e16294b62f4beaafd73":[9,6,0,0,0,930,12]
 };

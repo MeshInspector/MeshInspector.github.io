@@ -1,5 +1,13 @@
 var NAVTREEINDEX70 =
 {
+"classmrmeshpy_1_1ConstUndirectedEdgeColors.html#a8820f0758206c8f072366a981bbe881e":[9,1,0,0,2,1269,7],
+"classmrmeshpy_1_1ConstUndirectedEdgeColors.html#a8820f0758206c8f072366a981bbe881e":[9,1,1,0,1,1269,7],
+"classmrmeshpy_1_1ConstUndirectedEdgeColors.html#a90e9d7f6e40aef69772521dfdabc2078":[9,1,0,0,2,1269,4],
+"classmrmeshpy_1_1ConstUndirectedEdgeColors.html#a90e9d7f6e40aef69772521dfdabc2078":[9,1,1,0,1,1269,4],
+"classmrmeshpy_1_1ConstUndirectedEdgeColors.html#aaca7a056265f41a2e6f858036edc2432":[9,1,0,0,2,1269,6],
+"classmrmeshpy_1_1ConstUndirectedEdgeColors.html#aaca7a056265f41a2e6f858036edc2432":[9,1,1,0,1,1269,6],
+"classmrmeshpy_1_1ConstUndirectedEdgeColors.html#ac343c96c477847adb7dedbe94ce1f04c":[9,1,0,0,2,1269,15],
+"classmrmeshpy_1_1ConstUndirectedEdgeColors.html#ac343c96c477847adb7dedbe94ce1f04c":[9,1,1,0,1,1269,15],
 "classmrmeshpy_1_1ConstUndirectedEdgeColors.html#ad01d6119ac08472afc1781d070037a89":[9,1,0,0,2,1269,2],
 "classmrmeshpy_1_1ConstUndirectedEdgeColors.html#ad01d6119ac08472afc1781d070037a89":[9,1,1,0,1,1269,2],
 "classmrmeshpy_1_1ConstUndirectedEdgeColors.html#aeef27c6b399d5e13b3d1048b112025bc":[9,1,0,0,2,1269,16],
@@ -241,13 +249,5 @@ var NAVTREEINDEX70 =
 "classmrmeshpy_1_1ConstVacantElements.html#a081fbc3541ceb00578763adef75cabda":[9,1,0,0,2,1286,2],
 "classmrmeshpy_1_1ConstVacantElements.html#a081fbc3541ceb00578763adef75cabda":[9,1,1,0,1,1286,2],
 "classmrmeshpy_1_1ConstVacantElements.html#a16430b16c6057c1e5e6d4991ffb2541d":[9,1,0,0,2,1286,3],
-"classmrmeshpy_1_1ConstVacantElements.html#a16430b16c6057c1e5e6d4991ffb2541d":[9,1,1,0,1,1286,3],
-"classmrmeshpy_1_1ConstVacantElements.html#a8b9e194b606ba2228d4ac09201afc1f1":[9,1,0,0,2,1286,0],
-"classmrmeshpy_1_1ConstVacantElements.html#a8b9e194b606ba2228d4ac09201afc1f1":[9,1,1,0,1,1286,0],
-"classmrmeshpy_1_1ConstVacantElements.html#ab7afb65ac8a620dc3a69a21fd48f7bf7":[9,1,0,0,2,1286,1],
-"classmrmeshpy_1_1ConstVacantElements.html#ab7afb65ac8a620dc3a69a21fd48f7bf7":[9,1,1,0,1,1286,1],
-"classmrmeshpy_1_1ConstVarEdgeTri.html":[9,1,0,0,2,1287],
-"classmrmeshpy_1_1ConstVarEdgeTri.html":[9,1,1,0,1,1287],
-"classmrmeshpy_1_1ConstVarEdgeTri.html#a03ae61f0955ba8a847ff7dc8a364b84f":[9,1,0,0,2,1287,7],
-"classmrmeshpy_1_1ConstVarEdgeTri.html#a03ae61f0955ba8a847ff7dc8a364b84f":[9,1,1,0,1,1287,7]
+"classmrmeshpy_1_1ConstVacantElements.html#a16430b16c6057c1e5e6d4991ffb2541d":[9,1,1,0,1,1286,3]
 };

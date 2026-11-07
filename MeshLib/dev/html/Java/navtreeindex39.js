@@ -1,5 +1,13 @@
 var NAVTREEINDEX39 =
 {
+"classmeshlib_1_1DistanceMap.html#aec55cfdd4db12e95bef7103a171b5d8c":[9,6,1,0,0,278,23],
+"classmeshlib_1_1DistanceMap.html#aedf3208e2685744bd72f8b3e21db351b":[9,6,0,0,0,278,8],
+"classmeshlib_1_1DistanceMap.html#aedf3208e2685744bd72f8b3e21db351b":[9,6,1,0,0,278,8],
+"classmeshlib_1_1DistanceMap.html#af27bb1002c68566abbf333add35584a6":[9,6,0,0,0,278,14],
+"classmeshlib_1_1DistanceMap.html#af27bb1002c68566abbf333add35584a6":[9,6,1,0,0,278,14],
+"classmeshlib_1_1DistanceMap.html#af78d9b5815d95f6f72feaba4110e3d3a":[9,6,0,0,0,278,47],
+"classmeshlib_1_1DistanceMap.html#af78d9b5815d95f6f72feaba4110e3d3a":[9,6,1,0,0,278,47],
+"classmeshlib_1_1DistanceMap.html#afa1c6007cfb3a70a6c4a299798354d06":[9,6,0,0,0,278,37],
 "classmeshlib_1_1DistanceMap.html#afa1c6007cfb3a70a6c4a299798354d06":[9,6,1,0,0,278,37],
 "classmeshlib_1_1DistanceMapLoadSettings.html":[9,6,0,0,0,279],
 "classmeshlib_1_1DistanceMapLoadSettings.html":[9,6,1,0,0,279],
@@ -241,13 +249,5 @@ var NAVTREEINDEX39 =
 "classmeshlib_1_1DistanceMeasurementObject.html#a9653c0ab380a7d50a068fcdfe3822d78":[9,6,1,0,0,282,51],
 "classmeshlib_1_1DistanceMeasurementObject.html#a9681a7a7f5a8f58a20e4d231ad8a47d1":[9,6,0,0,0,282,18],
 "classmeshlib_1_1DistanceMeasurementObject.html#a9681a7a7f5a8f58a20e4d231ad8a47d1":[9,6,1,0,0,282,18],
-"classmeshlib_1_1DistanceMeasurementObject.html#a99eb71305c97025ceaa47a2bda65ee4d":[9,6,0,0,0,282,19],
-"classmeshlib_1_1DistanceMeasurementObject.html#a99eb71305c97025ceaa47a2bda65ee4d":[9,6,1,0,0,282,19],
-"classmeshlib_1_1DistanceMeasurementObject.html#a9bd2ed1b90c745dc1dadb03ceeb03ece":[9,6,0,0,0,282,79],
-"classmeshlib_1_1DistanceMeasurementObject.html#a9bd2ed1b90c745dc1dadb03ceeb03ece":[9,6,1,0,0,282,79],
-"classmeshlib_1_1DistanceMeasurementObject.html#aa16c96c04f7f7cb272d944186eba6638":[9,6,0,0,0,282,10],
-"classmeshlib_1_1DistanceMeasurementObject.html#aa16c96c04f7f7cb272d944186eba6638":[9,6,1,0,0,282,10],
-"classmeshlib_1_1DistanceMeasurementObject.html#aa58f43823809d94574e6b4660d6a941e":[9,6,0,0,0,282,70],
-"classmeshlib_1_1DistanceMeasurementObject.html#aa58f43823809d94574e6b4660d6a941e":[9,6,1,0,0,282,70],
-"classmeshlib_1_1DistanceMeasurementObject.html#aa76479974705801566396f64d4eba921":[9,6,0,0,0,282,97]
+"classmeshlib_1_1DistanceMeasurementObject.html#a99eb71305c97025ceaa47a2bda65ee4d":[9,6,0,0,0,282,19]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PreciseCutPoint.html#a00d67e208d245c5ddd9f144d0bd78590":[9,0,0,0,16,2],
+"structMR_1_1PreciseCutPoint.html#a11f572416abc57b91657513e1531cf49":[9,0,0,0,16,5],
+"structMR_1_1PreciseCutPoint.html#a38110f3393d6264ef6ef771ef5c9f01b":[9,0,0,0,16,1],
+"structMR_1_1PreciseCutPoint.html#a59bae2c82eba05713f1c6e0501eeaa63":[9,0,0,0,16,4],
+"structMR_1_1PreciseCutPoint.html#a8a92fbd8e3905e3e715622593fd712c9":[9,0,0,0,16,3],
+"structMR_1_1PreciseCutPoint.html#a9e387bdf21acfb67f979c94f79db10e4":[9,0,0,0,16,0],
+"structMR_1_1PreciseVertCoord.html":[9,0,0,0,22],
 "structMR_1_1PreciseVertCoord.html":[9,0,0,19,485],
 "structMR_1_1PreciseVertCoords.html":[9,0,0,19,489],
 "structMR_1_1PreciseVertCoords2.html":[9,0,0,19,486],
@@ -242,12 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SpaceMouse_1_1Parameters.html":[9,0,2,0,1,33,5],
 "structMR_1_1SpaceMouse_1_1Parameters.html#a95334988bb6abd60db066c5e281a594f":[9,0,1,0,1,50,5,1],
 "structMR_1_1SpaceMouse_1_1Parameters.html#a95334988bb6abd60db066c5e281a594f":[9,0,2,0,1,33,5,1],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[9,0,1,0,1,50,5,2],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[9,0,2,0,1,33,5,2],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[9,0,1,0,1,50,5,0],
-"structMR_1_1SpaceMouse_1_1Parameters.html#ac7d13b2637965b5ce8cb40ecb2a78294":[9,0,2,0,1,33,5,0],
-"structMR_1_1SpacingSettings.html":[9,0,0,19,481],
-"structMR_1_1Sphere.html":[9,0,0,0,26],
-"structMR_1_1Sphere.html":[9,0,0,19,523],
-"structMR_1_1SphereParams.html":[9,0,0,19,338]
+"structMR_1_1SpaceMouse_1_1Parameters.html#ac7bdc22af660d0605494adeb7ff2e218":[9,0,1,0,1,50,5,2]
 };

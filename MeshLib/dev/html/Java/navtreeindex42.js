@@ -1,5 +1,13 @@
 var NAVTREEINDEX42 =
 {
+"classmeshlib_1_1EdgeBitSet.html#aa541bec0ba113f7d39ae6cede4157436":[9,6,1,0,0,292,54],
+"classmeshlib_1_1EdgeBitSet.html#aa796ff041e31bbf1e8cd8b1215947662":[9,6,0,0,0,292,3],
+"classmeshlib_1_1EdgeBitSet.html#aa796ff041e31bbf1e8cd8b1215947662":[9,6,1,0,0,292,3],
+"classmeshlib_1_1EdgeBitSet.html#aaa2a7cc868fedc834f59ef42c7686c5a":[9,6,0,0,0,292,32],
+"classmeshlib_1_1EdgeBitSet.html#aaa2a7cc868fedc834f59ef42c7686c5a":[9,6,1,0,0,292,32],
+"classmeshlib_1_1EdgeBitSet.html#aabfb2f8ccb97fc56cb49704df0072308":[9,6,0,0,0,292,7],
+"classmeshlib_1_1EdgeBitSet.html#aabfb2f8ccb97fc56cb49704df0072308":[9,6,1,0,0,292,7],
+"classmeshlib_1_1EdgeBitSet.html#ab5ec3ca66ac10328ae503be9957ae61e":[9,6,0,0,0,292,16],
 "classmeshlib_1_1EdgeBitSet.html#ab5ec3ca66ac10328ae503be9957ae61e":[9,6,1,0,0,292,16],
 "classmeshlib_1_1EdgeBitSet.html#abe9e9b17a0726ffc501da40cfe4cf6ed":[9,6,0,0,0,292,37],
 "classmeshlib_1_1EdgeBitSet.html#abe9e9b17a0726ffc501da40cfe4cf6ed":[9,6,1,0,0,292,37],
@@ -241,13 +249,5 @@ var NAVTREEINDEX42 =
 "classmeshlib_1_1EdgeMap.html#a7932d81c1b8a693db4ffce4425d25135":[9,6,1,0,0,297,10],
 "classmeshlib_1_1EdgeMap.html#a7b18fac3d46f52303d20dcb93ad1ee78":[9,6,0,0,0,297,2],
 "classmeshlib_1_1EdgeMap.html#a7b18fac3d46f52303d20dcb93ad1ee78":[9,6,1,0,0,297,2],
-"classmeshlib_1_1EdgeMap.html#a83d1ef1534116bc04f1f3a14c5bff279":[9,6,0,0,0,297,8],
-"classmeshlib_1_1EdgeMap.html#a83d1ef1534116bc04f1f3a14c5bff279":[9,6,1,0,0,297,8],
-"classmeshlib_1_1EdgeMap.html#a8ef9d6a9d6d748f608ea2048d67a83c4":[9,6,0,0,0,297,11],
-"classmeshlib_1_1EdgeMap.html#a8ef9d6a9d6d748f608ea2048d67a83c4":[9,6,1,0,0,297,11],
-"classmeshlib_1_1EdgeMap.html#a93533d9847ef08f2a0ccec90c5c06384":[9,6,0,0,0,297,16],
-"classmeshlib_1_1EdgeMap.html#a93533d9847ef08f2a0ccec90c5c06384":[9,6,1,0,0,297,16],
-"classmeshlib_1_1EdgeMap.html#a99e88ed360e2d94105075e7cad79b37a":[9,6,0,0,0,297,38],
-"classmeshlib_1_1EdgeMap.html#a99e88ed360e2d94105075e7cad79b37a":[9,6,1,0,0,297,38],
-"classmeshlib_1_1EdgeMap.html#a9b00617168c6049717e0729ddb820c58":[9,6,0,0,0,297,28]
+"classmeshlib_1_1EdgeMap.html#a83d1ef1534116bc04f1f3a14c5bff279":[9,6,0,0,0,297,8]
 };

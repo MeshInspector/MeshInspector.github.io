@@ -1,5 +1,13 @@
 var NAVTREEINDEX77 =
 {
+"classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html#af23b66c62a7fb739d49623ff64d6fa35":[9,3,0,0,0,819,12],
+"classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html#af9bd3216feadabcb67762564f7b97e5f":[9,3,0,0,0,819,9],
+"classMR_1_1Const__SaveSettings.html":[9,3,0,0,0,820],
+"classMR_1_1Const__SaveSettings.html#a1868b10519878c3215c93ccb0e0e4b0b":[9,3,0,0,0,820,26],
+"classMR_1_1Const__SaveSettings.html#a1b7b37741c8d81e40862d7b74fd783c6":[9,3,0,0,0,820,9],
+"classMR_1_1Const__SaveSettings.html#a261715a00d47eda8ffb143a16c9576f1":[9,3,0,0,0,820,12],
+"classMR_1_1Const__SaveSettings.html#a3267b87bd37a01c0e09160e8385ee040":[9,3,0,0,0,820,27],
+"classMR_1_1Const__SaveSettings.html#a3ca4654f9d779bb61a372dc0a4ee4f4d":[9,3,0,0,0,820,18],
 "classMR_1_1Const__SaveSettings.html#a3e406f35dd33e3685c97a3d6632f1ea6":[9,3,0,0,0,820,22],
 "classMR_1_1Const__SaveSettings.html#a458fce427655aae877f6b36340810a6b":[9,3,0,0,0,820,15],
 "classMR_1_1Const__SaveSettings.html#a4abd4eb639467875b2e37ff09a3f25f8":[9,3,0,0,0,820,25],
@@ -241,13 +249,5 @@ var NAVTREEINDEX77 =
 "classMR_1_1Const__SeparationPointStorage.html#afe766af366d4cac1fdc382da0f5c6401":[9,3,0,0,0,829,9],
 "classMR_1_1Const__SeparationPointStorage_1_1Block.html":[9,3,0,0,0,829,0],
 "classMR_1_1Const__SeparationPointStorage_1_1Block.html#a14b58fe86c56fe340a8f1d0798a43d0f":[9,3,0,0,0,829,0,0],
-"classMR_1_1Const__SeparationPointStorage_1_1Block.html#a3750028467a249e6b5292f4cbffbd799":[9,3,0,0,0,829,0,10],
-"classMR_1_1Const__SeparationPointStorage_1_1Block.html#a51c2654648269848d4243ada380cb1e5":[9,3,0,0,0,829,0,1],
-"classMR_1_1Const__SeparationPointStorage_1_1Block.html#a611dbf2384e5678fdda11283cac4288f":[9,3,0,0,0,829,0,6],
-"classMR_1_1Const__SeparationPointStorage_1_1Block.html#a740b836752b764abef78daac74b57c5d":[9,3,0,0,0,829,0,9],
-"classMR_1_1Const__SeparationPointStorage_1_1Block.html#a7d1c9d3256a95bc1f3f8e8051366fa6a":[9,3,0,0,0,829,0,8],
-"classMR_1_1Const__SeparationPointStorage_1_1Block.html#aafb92041c9a6f8a0bad385400c8e625b":[9,3,0,0,0,829,0,4],
-"classMR_1_1Const__SeparationPointStorage_1_1Block.html#abc7bf5c4a823b6b717ab01828d6576e9":[9,3,0,0,0,829,0,5],
-"classMR_1_1Const__SeparationPointStorage_1_1Block.html#ae396b748dbcd557e94d00bfe70f76469":[9,3,0,0,0,829,0,3],
-"classMR_1_1Const__SeparationPointStorage_1_1Block.html#aed25afc5118aca360cdb5d663ed1c3a2":[9,3,0,0,0,829,0,7]
+"classMR_1_1Const__SeparationPointStorage_1_1Block.html#a3750028467a249e6b5292f4cbffbd799":[9,3,0,0,0,829,0,10]
 };

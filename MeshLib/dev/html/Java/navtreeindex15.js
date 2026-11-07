@@ -1,5 +1,13 @@
 var NAVTREEINDEX15 =
 {
+"classmeshlib_1_1BendContoursAlongCurveParams.html#af8dc36bba7587555e301137e25697a9e":[9,6,1,0,0,91,14],
+"classmeshlib_1_1BendContoursAlongCurveParams.html#aff571aee011ffd4cd246ce85feb37f48":[9,6,0,0,0,91,10],
+"classmeshlib_1_1BendContoursAlongCurveParams.html#aff571aee011ffd4cd246ce85feb37f48":[9,6,1,0,0,91,10],
+"classmeshlib_1_1BendTextAlongCurveParams.html":[9,6,0,0,0,92],
+"classmeshlib_1_1BendTextAlongCurveParams.html":[9,6,1,0,0,92],
+"classmeshlib_1_1BendTextAlongCurveParams.html#a01da0b771c509063ed919a9c2c192d93":[9,6,0,0,0,92,3],
+"classmeshlib_1_1BendTextAlongCurveParams.html#a01da0b771c509063ed919a9c2c192d93":[9,6,1,0,0,92,3],
+"classmeshlib_1_1BendTextAlongCurveParams.html#a1889aef4e08bf3d32642bbc5af96aa02":[9,6,0,0,0,92,12],
 "classmeshlib_1_1BendTextAlongCurveParams.html#a1889aef4e08bf3d32642bbc5af96aa02":[9,6,1,0,0,92,12],
 "classmeshlib_1_1BendTextAlongCurveParams.html#a2d8c9fe272299f7625d5c167d9ebe880":[9,6,0,0,0,92,17],
 "classmeshlib_1_1BendTextAlongCurveParams.html#a2d8c9fe272299f7625d5c167d9ebe880":[9,6,1,0,0,92,17],
@@ -241,13 +249,5 @@ var NAVTREEINDEX15 =
 "classmeshlib_1_1BooleanInternalParameters.html#add46afd3429c536d145bc0c7a60921c4":[9,6,1,0,0,110,5],
 "classmeshlib_1_1BooleanInternalParameters.html#afaa6eadd958663ef15044e0a63c3cffb":[9,6,0,0,0,110,11],
 "classmeshlib_1_1BooleanInternalParameters.html#afaa6eadd958663ef15044e0a63c3cffb":[9,6,1,0,0,110,11],
-"classmeshlib_1_1BooleanOperation.html":[9,6,0,0,0,111],
-"classmeshlib_1_1BooleanOperation.html":[9,6,1,0,0,111],
-"classmeshlib_1_1BooleanOperation.html#a1d459e0001ec93235ab1e84ca8a2b8d7":[9,6,0,0,0,111,2],
-"classmeshlib_1_1BooleanOperation.html#a1d459e0001ec93235ab1e84ca8a2b8d7":[9,6,1,0,0,111,2],
-"classmeshlib_1_1BooleanOperation.html#a2c1da82d343fc5e6371397bdb69f0b5c":[9,6,0,0,0,111,4],
-"classmeshlib_1_1BooleanOperation.html#a2c1da82d343fc5e6371397bdb69f0b5c":[9,6,1,0,0,111,4],
-"classmeshlib_1_1BooleanOperation.html#ad4634f458d1f8bc105f3976a42151875":[9,6,0,0,0,111,0],
-"classmeshlib_1_1BooleanOperation.html#ad4634f458d1f8bc105f3976a42151875":[9,6,1,0,0,111,0],
-"classmeshlib_1_1BooleanOperation.html#ae0867dd17d4ed470dbd291e43362c1cd":[9,6,0,0,0,111,3]
+"classmeshlib_1_1BooleanOperation.html":[9,6,0,0,0,111]
 };

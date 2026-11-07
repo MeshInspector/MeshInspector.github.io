@@ -24,6 +24,8 @@ var MRVector_8rs =
     [ "meshlib::Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId", "structmeshlib_1_1Vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__NodeId.html", "structmeshlib_1_1Vector__MR__AABBTreeNode__MR__ObjTreeTraits__MR__NodeId" ],
     [ "meshlib::Vector_MR_AABBTreePoints_Node_MR_NodeId", "structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId.html", "structmeshlib_1_1Vector__MR__AABBTreePoints__Node__MR__NodeId" ],
     [ "meshlib::Vector_MR_AffineXf3f_MR_ObjId", "structmeshlib_1_1Vector__MR__AffineXf3f__MR__ObjId.html", "structmeshlib_1_1Vector__MR__AffineXf3f__MR__ObjId" ],
+    [ "meshlib::Vector_MR_AlphaShapeNei", "structmeshlib_1_1Vector__MR__AlphaShapeNei.html", "structmeshlib_1_1Vector__MR__AlphaShapeNei" ],
+    [ "meshlib::Vector_MR_BallPivotCandidate", "structmeshlib_1_1Vector__MR__BallPivotCandidate.html", "structmeshlib_1_1Vector__MR__BallPivotCandidate" ],
     [ "meshlib::Vector_MR_EdgeId_MR_FaceId", "structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId.html", "structmeshlib_1_1Vector__MR__EdgeId__MR__FaceId" ],
     [ "meshlib::Vector_MR_EdgeId_MR_VertId", "structmeshlib_1_1Vector__MR__EdgeId__MR__VertId.html", "structmeshlib_1_1Vector__MR__EdgeId__MR__VertId" ],
     [ "meshlib::Vector_MR_FaceBitSet_MR_GraphVertId", "structmeshlib_1_1Vector__MR__FaceBitSet__MR__GraphVertId.html", "structmeshlib_1_1Vector__MR__FaceBitSet__MR__GraphVertId" ],

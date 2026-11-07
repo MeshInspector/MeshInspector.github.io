@@ -1,5 +1,16 @@
 var NAVTREEINDEX48 =
 {
+"MRImproveSampling_8h.html#a1f1cccf05759fdb003cdcdd0399da8c5":[9,2,2,0,0,0,0,1,130,10],
+"MRImproveSampling_8h.html#a2b0d45b46c77f008854cb9e93cbef35b":[9,2,2,0,0,0,0,1,130,34],
+"MRImproveSampling_8h.html#a2eac9a400ba6ce64ae87fe85740dbe05":[9,2,2,0,0,0,0,1,130,7],
+"MRImproveSampling_8h.html#a305e487a617ddc79f713dd258b8d4062":[9,2,2,0,0,0,0,1,130,14],
+"MRImproveSampling_8h.html#a33c4a5d62553d26118d1755ef7c2913c":[9,2,2,0,0,0,0,1,130,6],
+"MRImproveSampling_8h.html#a38b2b530cc7e8ec49d6441a0d1d309ce":[9,2,2,0,0,0,0,1,130,1],
+"MRImproveSampling_8h.html#a3acfe6f16669e33ce458f7bd6d7c4101":[9,2,2,0,0,0,0,1,130,23],
+"MRImproveSampling_8h.html#a406260c14adaf8cc514aa35f7a8bef66":[9,2,2,0,0,0,0,1,130,22],
+"MRImproveSampling_8h.html#a4ad89dc14697d9bfe28229f52f7f5bde":[9,2,2,0,0,0,0,1,130,9],
+"MRImproveSampling_8h.html#a51d924c13bf37450563f6ae0885b6242":[9,2,2,0,0,0,0,1,130,25],
+"MRImproveSampling_8h.html#a687b3422dd91b1859b03f5f4815b907f":[9,2,2,0,0,0,0,1,130,31],
 "MRImproveSampling_8h.html#a6b7a42cb9031313c3350a621bd5e56c6":[9,2,2,0,0,0,0,1,130,15],
 "MRImproveSampling_8h.html#a761a1e877434d70f7b39e19fc24a7075":[9,2,2,0,0,0,0,1,130,32],
 "MRImproveSampling_8h.html#a78912411e56f4413cdb706b7a81d24fc":[9,2,2,0,0,0,0,1,130,30],
@@ -238,16 +249,5 @@ var NAVTREEINDEX48 =
 "MRIntersectionPrecomputes2_8h.html#ae060faa6267dbf4374611bf10db799eb":[9,2,2,0,0,0,0,1,136,3],
 "MRIntersectionPrecomputes2_8h.html#ae7dd5c51a9ad8d60eacccbe9ef530d99":[9,2,2,0,0,0,0,1,136,22],
 "MRIntersectionPrecomputes2_8h.html#af65b89238af05e270db188e61ebc8587":[9,2,2,0,0,0,0,1,136,30],
-"MRIntersectionPrecomputes2_8h.html#afbdadb68c42fa8945de44da5cff2259b":[9,2,2,0,0,0,0,1,136,40],
-"MRIntersectionPrecomputes2_8h_source.html":[9,2,2,0,0,0,0,1,136],
-"MRIntersectionPrecomputes_8h.html":[9,2,2,0,0,0,0,1,135],
-"MRIntersectionPrecomputes_8h.html#a05349a7cd643f0169fbd2cef9b33d1f5":[9,2,2,0,0,0,0,1,135,27],
-"MRIntersectionPrecomputes_8h.html#a06adc382f4739d16421962d8f430761d":[9,2,2,0,0,0,0,1,135,28],
-"MRIntersectionPrecomputes_8h.html#a06ef5d4a1036e8bf5cb97669ce0f2d9f":[9,2,2,0,0,0,0,1,135,48],
-"MRIntersectionPrecomputes_8h.html#a08249b02557fdc555b8fa3e62e73dd04":[9,2,2,0,0,0,0,1,135,45],
-"MRIntersectionPrecomputes_8h.html#a1270754dbf238a14c6062bb838ae2701":[9,2,2,0,0,0,0,1,135,52],
-"MRIntersectionPrecomputes_8h.html#a155cbce38dd346e969e31be119d1c0b0":[9,2,2,0,0,0,0,1,135,36],
-"MRIntersectionPrecomputes_8h.html#a166111a824ac1a34017f7cc2e094a34d":[9,2,2,0,0,0,0,1,135,35],
-"MRIntersectionPrecomputes_8h.html#a19055d5ae90b7e07545cd867a04af42b":[9,2,2,0,0,0,0,1,135,7],
-"MRIntersectionPrecomputes_8h.html#a1907f856ee494aab3582be61e3a341e9":[9,2,2,0,0,0,0,1,135,50]
+"MRIntersectionPrecomputes2_8h.html#afbdadb68c42fa8945de44da5cff2259b":[9,2,2,0,0,0,0,1,136,40]
 };

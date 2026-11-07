@@ -1,5 +1,16 @@
 var NAVTREEINDEX60 =
 {
+"MRMeshDecimate_8h.html#a71192febccae648d80fefdfdf94dadbc":[9,2,2,0,0,0,0,1,177,41],
+"MRMeshDecimate_8h.html#a72aefbee78f8e02f56527fd6eb8a307b":[9,2,2,0,0,0,0,1,177,159],
+"MRMeshDecimate_8h.html#a72ca06ab1ae9c36738df48f91521a681":[9,2,2,0,0,0,0,1,177,82],
+"MRMeshDecimate_8h.html#a73dc7fdf06a9fd264cd08b27cc6b39db":[9,2,2,0,0,0,0,1,177,30],
+"MRMeshDecimate_8h.html#a7478cad1175834e641730b3728782822":[9,2,2,0,0,0,0,1,177,177],
+"MRMeshDecimate_8h.html#a74f4e54a9db2504622b2c82b6d1a600f":[9,2,2,0,0,0,0,1,177,88],
+"MRMeshDecimate_8h.html#a76a9cc4816c2ca8b4b5dc31362e1bc44":[9,2,2,0,0,0,0,1,177,139],
+"MRMeshDecimate_8h.html#a77006b62e6443a88254081ce824df5b4":[9,2,2,0,0,0,0,1,177,195],
+"MRMeshDecimate_8h.html#a7754c9a654aeccf153c5cf4cc0d61d44":[9,2,2,0,0,0,0,1,177,85],
+"MRMeshDecimate_8h.html#a78be4e690d16cc3625f4318b5eb7c2f0":[9,2,2,0,0,0,0,1,177,148],
+"MRMeshDecimate_8h.html#a79e49425ed63014e2d1a5428f58efeeb":[9,2,2,0,0,0,0,1,177,36],
 "MRMeshDecimate_8h.html#a7ae00362fab523aa7fcc95515d645cf9":[9,2,2,0,0,0,0,1,177,132],
 "MRMeshDecimate_8h.html#a7bcfc0beb31a07cce4f9d47886221f26":[9,2,2,0,0,0,0,1,177,141],
 "MRMeshDecimate_8h.html#a7c58eabad4e4e5530d2ebd3ae9425177":[9,2,2,0,0,0,0,1,177,181],
@@ -238,16 +249,5 @@ var NAVTREEINDEX60 =
 "MRMeshDiff_8h.html#afa2d2f020d50cc97a64fa2cd43b56b99":[9,2,2,0,0,0,0,1,181,3],
 "MRMeshDiff_8h.html#afb53825f2e10cb593c116fb23f8f6626":[9,2,2,0,0,0,0,1,181,0],
 "MRMeshDiff_8h_source.html":[9,2,2,0,0,0,0,1,181],
-"MRMeshDistance_8h.html":[9,2,2,0,0,0,0,1,182],
-"MRMeshDistance_8h.html#a0a0e88626e0157752af20facd0a1dd0b":[9,2,2,0,0,0,0,1,182,3],
-"MRMeshDistance_8h.html#a33e68eb066e83c670d26b4cb03b2a9b3":[9,2,2,0,0,0,0,1,182,2],
-"MRMeshDistance_8h.html#a9a9e76348b3ba37e03d825a75c07e976":[9,2,2,0,0,0,0,1,182,0],
-"MRMeshDistance_8h.html#aaa28ccd81fc18dfe14395ff51c90b31e":[9,2,2,0,0,0,0,1,182,1],
-"MRMeshDistance_8h.html#ae018aa48e65a7c4079ea1bacf856d7c2":[9,2,2,0,0,0,0,1,182,4],
-"MRMeshDistance_8h_source.html":[9,2,2,0,0,0,0,1,182],
-"MRMeshDivideWithPlane_8h.html":[9,2,2,0,0,0,0,1,183],
-"MRMeshDivideWithPlane_8h.html#a0702ce82aae9397a8ea142b01892212e":[9,2,2,0,0,0,0,1,183,13],
-"MRMeshDivideWithPlane_8h.html#a071226e2a8001f52976def311d05f538":[9,2,2,0,0,0,0,1,183,23],
-"MRMeshDivideWithPlane_8h.html#a1444bdabf2c78d6f606802ca45649544":[9,2,2,0,0,0,0,1,183,19],
-"MRMeshDivideWithPlane_8h.html#a1eaca3db4be190d8022160d29bd71749":[9,2,2,0,0,0,0,1,183,9]
+"MRMeshDistance_8h.html":[9,2,2,0,0,0,0,1,182]
 };

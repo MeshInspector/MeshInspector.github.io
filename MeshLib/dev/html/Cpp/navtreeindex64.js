@@ -1,5 +1,12 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1BoxedLeaf.html":[9,0,0,1,2],
+"structMR_1_1BoxedLeaf.html#a0b4e56c5de1bf6b3fd5a6a6896e66d46":[9,0,0,1,2,0],
+"structMR_1_1BoxedLeaf.html#a20f98852bf25f7268e73b993bd26a8d7":[9,0,0,1,2,1],
+"structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5":[9,0,0,1,2,2],
+"structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d":[9,0,0,1,2,3],
+"structMR_1_1CameraPointsTriangulationSettings.html":[9,0,0,19,154],
+"structMR_1_1CharPressedListener.html":[9,0,0,19,806],
 "structMR_1_1Chunk.html":[9,0,0,19,176],
 "structMR_1_1ChunkIterator.html":[9,0,0,19,177],
 "structMR_1_1CloseToMeshVolumeParams.html":[9,0,0,19,874],
@@ -242,12 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1Features_1_1SubfeatureInfo.html":[9,0,1,0,1,6,3],
 "structMR_1_1Features_1_1SubfeatureInfo.html":[9,0,2,0,1,2,3],
 "structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[9,0,1,0,1,6,3,0],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[9,0,2,0,1,2,3,0],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[9,0,1,0,1,6,3,2],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[9,0,2,0,1,2,3,2],
-"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[9,0,1,0,1,6,3,1],
-"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[9,0,2,0,1,2,3,1],
-"structMR_1_1Features_1_1Traits_1_1Binary.html":[9,0,0,19,259],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,19,263],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html":[9,0,0,19,261]
+"structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[9,0,2,0,1,2,3,0]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX7 =
 {
+"MRAngleMeasurementObject_8h.html#aca414782212ab4d60db9188573255845":[9,2,2,0,0,0,0,1,14,105],
+"MRAngleMeasurementObject_8h.html#acc639b97699ccb2b745dc1f6569319d7":[9,2,2,0,0,0,0,1,14,107],
+"MRAngleMeasurementObject_8h.html#acd8da70d48c561fe373f0d2d7f624417":[9,2,2,0,0,0,0,1,14,27],
+"MRAngleMeasurementObject_8h.html#ad91fcf13a2b96defdf7bd1b2d3412c2a":[9,2,2,0,0,0,0,1,14,100],
+"MRAngleMeasurementObject_8h.html#adc31b7c0bb2f41c9e21dfe5c133ed19c":[9,2,2,0,0,0,0,1,14,146],
+"MRAngleMeasurementObject_8h.html#adee54f33dcca4f8470825a4ef8987fef":[9,2,2,0,0,0,0,1,14,106],
+"MRAngleMeasurementObject_8h.html#adfc6e2b69966fcf4f9d2e3b075e0de9c":[9,2,2,0,0,0,0,1,14,48],
+"MRAngleMeasurementObject_8h.html#ae06da2a94f8719b3e9421187e71de983":[9,2,2,0,0,0,0,1,14,54],
+"MRAngleMeasurementObject_8h.html#ae128333d1d61e1401e260321f56e4fc1":[9,2,2,0,0,0,0,1,14,32],
+"MRAngleMeasurementObject_8h.html#ae2d4bd6005e363e4eb4bfdc3bb862771":[9,2,2,0,0,0,0,1,14,66],
+"MRAngleMeasurementObject_8h.html#ae2fe24fbd90582a2691035f83b099684":[9,2,2,0,0,0,0,1,14,86],
 "MRAngleMeasurementObject_8h.html#ae7d0c3f37c4ab2d2ca14ee5d9d65754f":[9,2,2,0,0,0,0,1,14,91],
 "MRAngleMeasurementObject_8h.html#aec13294efec62872804c19bcc886d920":[9,2,2,0,0,0,0,1,14,4],
 "MRAngleMeasurementObject_8h.html#aec70af77ef9c176eb68a612d462ddf3c":[9,2,2,0,0,0,0,1,14,109],
@@ -238,16 +249,5 @@ var NAVTREEINDEX7 =
 "MRBestFitPolynomial_8h.html#a30f6121258b7b5e969acd2f40f665fb8":[9,2,2,0,0,0,0,1,22,170],
 "MRBestFitPolynomial_8h.html#a351164c29865b3fc27447eaa11eb4f40":[9,2,2,0,0,0,0,1,22,82],
 "MRBestFitPolynomial_8h.html#a3a4eebc0fc9d4a38d6b74b6d525bf6c9":[9,2,2,0,0,0,0,1,22,212],
-"MRBestFitPolynomial_8h.html#a3af86ff43997c4ec9befa1e9a67545eb":[9,2,2,0,0,0,0,1,22,76],
-"MRBestFitPolynomial_8h.html#a3c0b730b3da840c403fb5641ab33f439":[9,2,2,0,0,0,0,1,22,3],
-"MRBestFitPolynomial_8h.html#a3da582e90923687821ebd0319d2e273e":[9,2,2,0,0,0,0,1,22,24],
-"MRBestFitPolynomial_8h.html#a3dfdbd2fc543267012275cfc41c270a4":[9,2,2,0,0,0,0,1,22,64],
-"MRBestFitPolynomial_8h.html#a3e40dcd23d7f1209c0208b46c6a479ec":[9,2,2,0,0,0,0,1,22,86],
-"MRBestFitPolynomial_8h.html#a3e517fd4831b6ee1e5bedb1ec3feba87":[9,2,2,0,0,0,0,1,22,107],
-"MRBestFitPolynomial_8h.html#a3f7134846fbdfeeafe0d21f0e7c371e8":[9,2,2,0,0,0,0,1,22,103],
-"MRBestFitPolynomial_8h.html#a40b15ca25f1b1d9bdfa4441929be33be":[9,2,2,0,0,0,0,1,22,165],
-"MRBestFitPolynomial_8h.html#a41c412849552b4a1ea1a79827d0d7c8d":[9,2,2,0,0,0,0,1,22,183],
-"MRBestFitPolynomial_8h.html#a41e4890223f19723c3a9adb48ff4ed12":[9,2,2,0,0,0,0,1,22,159],
-"MRBestFitPolynomial_8h.html#a45ffabffb22a820f99094eaafc61d499":[9,2,2,0,0,0,0,1,22,164],
-"MRBestFitPolynomial_8h.html#a465d6ce7703c391cf9ace6174e1fb27b":[9,2,2,0,0,0,0,1,22,176]
+"MRBestFitPolynomial_8h.html#a3af86ff43997c4ec9befa1e9a67545eb":[9,2,2,0,0,0,0,1,22,76]
 };

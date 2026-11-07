@@ -504,11 +504,11 @@ var hierarchy =
     [ "mrmeshpy.Const_std_vector_AffineXf_Vector3_float_Allocator_AffineXf_Vector3_float", "classmrmeshpy_1_1Const__std__vector__AffineXf__Vector3__float__Allocator__AffineXf__Vector3__float.html", [
       [ "mrmeshpy.std_vector_AffineXf_Vector3_float_Allocator_AffineXf_Vector3_float", "classmrmeshpy_1_1std__vector__AffineXf__Vector3__float__Allocator__AffineXf__Vector3__float.html", null ]
     ] ],
-    [ "mrmeshpy.Const_std_vector_AlphaShapeNei", "classmrmeshpy_1_1Const__std__vector__AlphaShapeNei.html", [
-      [ "mrmeshpy.std_vector_AlphaShapeNei", "classmrmeshpy_1_1std__vector__AlphaShapeNei.html", null ]
+    [ "mrmeshpy.Const_std_vector_AlphaShapeNei_Allocator_AlphaShapeNei", "classmrmeshpy_1_1Const__std__vector__AlphaShapeNei__Allocator__AlphaShapeNei.html", [
+      [ "mrmeshpy.std_vector_AlphaShapeNei_Allocator_AlphaShapeNei", "classmrmeshpy_1_1std__vector__AlphaShapeNei__Allocator__AlphaShapeNei.html", null ]
     ] ],
-    [ "mrmeshpy.Const_std_vector_BallPivotCandidate", "classmrmeshpy_1_1Const__std__vector__BallPivotCandidate.html", [
-      [ "mrmeshpy.std_vector_BallPivotCandidate", "classmrmeshpy_1_1std__vector__BallPivotCandidate.html", null ]
+    [ "mrmeshpy.Const_std_vector_BallPivotCandidate_Allocator_BallPivotCandidate", "classmrmeshpy_1_1Const__std__vector__BallPivotCandidate__Allocator__BallPivotCandidate.html", [
+      [ "mrmeshpy.std_vector_BallPivotCandidate_Allocator_BallPivotCandidate", "classmrmeshpy_1_1std__vector__BallPivotCandidate__Allocator__BallPivotCandidate.html", null ]
     ] ],
     [ "mrmeshpy.Const_std_vector_Box_Vector3_float", "classmrmeshpy_1_1Const__std__vector__Box__Vector3__float.html", [
       [ "mrmeshpy.std_vector_Box_Vector3_float", "classmrmeshpy_1_1std__vector__Box__Vector3__float.html", null ]
@@ -4139,6 +4139,12 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstVector_AffineXf3f_ObjId", "classmrmeshpy_1_1ConstVector__AffineXf3f__ObjId.html", [
       [ "mrmeshpy.Vector_AffineXf3f_ObjId", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_AlphaShapeNei", "classmrmeshpy_1_1ConstVector__AlphaShapeNei.html", [
+      [ "mrmeshpy.Vector_AlphaShapeNei", "classmrmeshpy_1_1Vector__AlphaShapeNei.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_BallPivotCandidate", "classmrmeshpy_1_1ConstVector__BallPivotCandidate.html", [
+      [ "mrmeshpy.Vector_BallPivotCandidate", "classmrmeshpy_1_1Vector__BallPivotCandidate.html", null ]
     ] ],
     [ "mrmeshpy.ConstVector_char_VertId", "classmrmeshpy_1_1ConstVector__char__VertId.html", [
       [ "mrmeshpy.Vector_char_VertId", "classmrmeshpy_1_1Vector__char__VertId.html", null ]

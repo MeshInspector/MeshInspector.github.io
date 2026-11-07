@@ -1,5 +1,13 @@
 var NAVTREEINDEX46 =
 {
+"classmeshlib_1_1ExtraFormatSettings.html#a86bd2d510b3006ebdc9f84f4b3a987ec":[9,6,1,0,0,395,0],
+"classmeshlib_1_1ExtraFormatSettings.html#a8f5176992f94ee0a956551c1bdce39f8":[9,6,0,0,0,395,1],
+"classmeshlib_1_1ExtraFormatSettings.html#a8f5176992f94ee0a956551c1bdce39f8":[9,6,1,0,0,395,1],
+"classmeshlib_1_1ExtraFormatSettings.html#aaedf5367e9fe6a6ce18b033de0a3595c":[9,6,0,0,0,395,2],
+"classmeshlib_1_1ExtraFormatSettings.html#aaedf5367e9fe6a6ce18b033de0a3595c":[9,6,1,0,0,395,2],
+"classmeshlib_1_1ExtraFormatSettings.html#af6d2fcab2cb954be61e45affd74bfa01":[9,6,0,0,0,395,3],
+"classmeshlib_1_1ExtraFormatSettings.html#af6d2fcab2cb954be61e45affd74bfa01":[9,6,1,0,0,395,3],
+"classmeshlib_1_1ExtremeEdgeType.html":[9,6,0,0,0,396],
 "classmeshlib_1_1ExtremeEdgeType.html":[9,6,1,0,0,396],
 "classmeshlib_1_1ExtremeEdgeType.html#a7884a4aff32fe8f745b4282f6368c8b1":[9,6,0,0,0,396,0],
 "classmeshlib_1_1ExtremeEdgeType.html#a7884a4aff32fe8f745b4282f6368c8b1":[9,6,1,0,0,396,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX46 =
 "classmeshlib_1_1FaceBitSet.html#aeebd33d13b9b90d80bdd8103803e998b":[9,6,1,0,0,398,54],
 "classmeshlib_1_1FaceBitSet.html#af12aeb108295a482dd53a784e2faebdf":[9,6,0,0,0,398,22],
 "classmeshlib_1_1FaceBitSet.html#af12aeb108295a482dd53a784e2faebdf":[9,6,1,0,0,398,22],
-"classmeshlib_1_1FaceBitSet.html#af45374b5a42bb9d3302fd911ef6ae1b1":[9,6,0,0,0,398,40],
-"classmeshlib_1_1FaceBitSet.html#af45374b5a42bb9d3302fd911ef6ae1b1":[9,6,1,0,0,398,40],
-"classmeshlib_1_1FaceBitSet.html#af76bfa18ede727ca0c70d2da65c5738b":[9,6,0,0,0,398,52],
-"classmeshlib_1_1FaceBitSet.html#af76bfa18ede727ca0c70d2da65c5738b":[9,6,1,0,0,398,52],
-"classmeshlib_1_1FaceBitSet.html#afcd4e84cfc0d9a0a1550f4e3f80a9652":[9,6,0,0,0,398,61],
-"classmeshlib_1_1FaceBitSet.html#afcd4e84cfc0d9a0a1550f4e3f80a9652":[9,6,1,0,0,398,61],
-"classmeshlib_1_1FaceColorMapAggregator.html":[9,6,0,0,0,400],
-"classmeshlib_1_1FaceColorMapAggregator.html":[9,6,1,0,0,400],
-"classmeshlib_1_1FaceColorMapAggregator.html#a13a6f69e11232412fe671a061ed33c2b":[9,6,0,0,0,400,12]
+"classmeshlib_1_1FaceBitSet.html#af45374b5a42bb9d3302fd911ef6ae1b1":[9,6,0,0,0,398,40]
 };

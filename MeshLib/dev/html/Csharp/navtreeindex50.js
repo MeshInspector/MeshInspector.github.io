@@ -1,5 +1,13 @@
 var NAVTREEINDEX50 =
 {
+"classMR_1_1Const__HexPalette.html#a6a6101ab6c3bcc1ee011a0f62f0f16d3":[9,3,0,0,0,494,7],
+"classMR_1_1Const__HexPalette.html#a6bbacb9b41fc6272ac1415967d0b31f2":[9,3,0,0,0,494,6],
+"classMR_1_1Const__HexPalette.html#a9e1c31e72902f3df0a88729d1198f616":[9,3,0,0,0,494,10],
+"classMR_1_1Const__HexPalette.html#ac39deffe19a8ea8ac056f41261caeb01":[9,3,0,0,0,494,2],
+"classMR_1_1Const__HexPalette.html#acee358678bda1df8f179a99dc1985deb":[9,3,0,0,0,494,1],
+"classMR_1_1Const__HexPalette.html#ad22dd6871dcb23af475f20504dde5754":[9,3,0,0,0,494,15],
+"classMR_1_1Const__HexPalette.html#ad31225f5dafd5a7db2a77153e53d6346":[9,3,0,0,0,494,4],
+"classMR_1_1Const__HexPalette.html#af7bd7833da76beff9c02265f4bc9ccea":[9,3,0,0,0,494,9],
 "classMR_1_1Const__Histogram.html":[9,3,0,0,0,495],
 "classMR_1_1Const__Histogram.html#a29fe1d11ab3ce4b361e11f9d9037f934":[9,3,0,0,0,495,2],
 "classMR_1_1Const__Histogram.html#a3bfc53761f1bb3c77deb3beca71a2836":[9,3,0,0,0,495,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX50 =
 "classMR_1_1Const__Id__MRICPElemtTag.html#a663dcf0c0cbf927ebab38a8239ea2371":[9,3,0,0,0,507,18],
 "classMR_1_1Const__Id__MRICPElemtTag.html#a7ba2f70ad9a2bb4756080f6126e7b1cc":[9,3,0,0,0,507,5],
 "classMR_1_1Const__Id__MRICPElemtTag.html#a88ae2cb3916d45805d39696eaf681f1a":[9,3,0,0,0,507,14],
-"classMR_1_1Const__Id__MRICPElemtTag.html#a8e063c2700fb90fbfb32feb7e4c85e00":[9,3,0,0,0,507,10],
-"classMR_1_1Const__Id__MRICPElemtTag.html#aa39ee9dd706fc06bf2474a05e04927eb":[9,3,0,0,0,507,6],
-"classMR_1_1Const__Id__MRICPElemtTag.html#ab83f526e92c81761fdf2337d7bf86ec8":[9,3,0,0,0,507,3],
-"classMR_1_1Const__Id__MRICPElemtTag.html#abe92119382f64c153ee9ede2a5f527e1":[9,3,0,0,0,507,11],
-"classMR_1_1Const__Id__MRICPElemtTag.html#ac794d16968ae722890d14174ca71aa08":[9,3,0,0,0,507,7],
-"classMR_1_1Const__Id__MRICPElemtTag.html#ad12758c188d84bd10d9c0b96ff3c47bf":[9,3,0,0,0,507,4],
-"classMR_1_1Const__Id__MRICPElemtTag.html#add9585730713a8433760e68fec8b9a62":[9,3,0,0,0,507,2],
-"classMR_1_1Const__Id__MRICPElemtTag.html#ae08a21e56b07328fed2577ec83b82ba6":[9,3,0,0,0,507,13],
-"classMR_1_1Const__Id__MRICPElemtTag.html#af34eedfc28dc84d78e590be6fec759f3":[9,3,0,0,0,507,17]
+"classMR_1_1Const__Id__MRICPElemtTag.html#a8e063c2700fb90fbfb32feb7e4c85e00":[9,3,0,0,0,507,10]
 };

@@ -328,6 +328,20 @@ Point cloud to mesh (surface reconstruction)</h2>
 <div class="line">pcd-&gt;EstimateNormals();</div>
 <div class="line">std::vector&lt;double&gt; radii = {0.005, 0.01, 0.02, 0.04};</div>
 <div class="line"><span class="keyword">auto</span> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = geometry::TriangleMesh::CreateFromPointCloudBallPivoting(*pcd, radii);</div>
+</div><!-- fragment --><p>MeshLib (ball pivoting, no normals needed): </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointsLoad_8h.html">MRMesh/MRPointsLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointCloud_8h.html">MRMesh/MRPointCloud.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointCloudRadius_8h.html">MRMesh/MRPointCloudRadius.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRAlphaShape_8h.html">MRMesh/MRAlphaShape.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRMesh_8h.html">MRMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">auto</span> cloud = <a class="code hl_functionRef" href="./Cpp/group__IOGroup.html#ga7ffd96e7cc233f9a5d99dfc3e8bb0edb">MR::PointsLoad::fromAnySupportedFormat</a>(<span class="stringliteral">&quot;cloud.ply&quot;</span>).value();</div>
+<div class="line"><span class="keywordtype">float</span> radius = <a class="code hl_functionRef" href="./Cpp/group__PointCloudGroup.html#gad170a186634adcea1422a0bcb701584d">MR::findAvgPointsRadius</a>(cloud, 20); <span class="comment">// a ball holds about 20 points</span></div>
+<div class="line"><a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#gaf6739310dc9f9e21c461819ea47dc086">mesh</a> = <a class="code hl_functionRef" href="./Cpp/group__GeneralGroup.html#ga20fdeb7e0d681c74f7b3eb6175ae33cd">MR::findBallPivotingMesh</a>(cloud, radius);</div>
+<div class="ttc" id="aMRAlphaShape_8h_html"><div class="ttname"><a href="./Cpp/MRAlphaShape_8h.html">MRAlphaShape.h</a></div></div>
+<div class="ttc" id="aMRPointCloudRadius_8h_html"><div class="ttname"><a href="./Cpp/MRPointCloudRadius_8h.html">MRPointCloudRadius.h</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga20fdeb7e0d681c74f7b3eb6175ae33cd"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga20fdeb7e0d681c74f7b3eb6175ae33cd">MR::findBallPivotingMesh</a></div><div class="ttdeci">std::optional&lt; Mesh &gt; findBallPivotingMesh(const PointCloud &amp;cloud, float radius, bool allComponents, const ProgressCallback &amp;cb, std::vector&lt; MeshBuilder::VertDuplication &gt; *dups=nullptr)</div></div>
+<div class="ttc" id="agroup__PointCloudGroup_html_gad170a186634adcea1422a0bcb701584d"><div class="ttname"><a href="./Cpp/group__PointCloudGroup.html#gad170a186634adcea1422a0bcb701584d">MR::findAvgPointsRadius</a></div><div class="ttdeci">float findAvgPointsRadius(const PointCloud &amp;pointCloud, int avgPoints, int samples=1024)</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
 </div><!-- fragment --><p>MeshLib (voxel fusion): </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointsLoad_8h.html">MRMesh/MRPointsLoad.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRPointCloud_8h.html">MRMesh/MRPointCloud.h</a>&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./Cpp/MRBox_8h.html">MRMesh/MRBox.h</a>&gt;</span></div>
@@ -340,7 +354,6 @@ Point cloud to mesh (surface reconstruction)</h2>
 <div class="ttc" id="aMRBox_8h_html"><div class="ttname"><a href="./Cpp/MRBox_8h.html">MRBox.h</a></div></div>
 <div class="ttc" id="aMRPointsToMeshFusion_8h_html"><div class="ttname"><a href="./Cpp/MRPointsToMeshFusion_8h.html">MRPointsToMeshFusion.h</a></div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga8385dbd13a04c7841be48a4d0ad477dc"><div class="ttname"><a href="./Cpp/group__GeneralGroup.html#ga8385dbd13a04c7841be48a4d0ad477dc">MR::pointsToMeshFusion</a></div><div class="ttdeci">Expected&lt; Mesh &gt; pointsToMeshFusion(const PointCloud &amp;cloud, const PointsToMeshParameters &amp;params)</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
 <div class="ttc" id="astructMR_1_1PointsToMeshParameters_html"><div class="ttname"><a href="./Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></div></div>
 </div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md192"></a>
 PCL</h1>

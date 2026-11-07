@@ -10,7 +10,12 @@ var MRAlphaShape_8rs =
     [ "meshlib::find_alpha_shape_all_triangles_3_mr_alpha_shape_data", "namespacemeshlib.html#a3d3d711d6eb71ca0f3893c07678d9953", null ],
     [ "meshlib::find_alpha_shape_all_triangles_4_float", "namespacemeshlib.html#a95ea5cfe640e3515fae9244494c8f8ce", null ],
     [ "meshlib::find_alpha_shape_all_triangles_4_mr_alpha_shape_data", "namespacemeshlib.html#a4d018e8d1446a53472f552dfb6f8276d", null ],
-    [ "meshlib::find_alpha_shape_nei_triangles", "namespacemeshlib.html#a60cdd3168673f6b63f98fd9de4fae1f1", null ],
-    [ "meshlib::find_ball_pivot_vertex", "namespacemeshlib.html#ad84977be162a6209738740c38b789112", null ],
+    [ "meshlib::find_alpha_shape_nei_triangles", "namespacemeshlib.html#ae4809cc22a2ac9cb1a41221a456d07aa", null ],
+    [ "meshlib::find_ball_pivot_vertex", "namespacemeshlib.html#a5722ec1fb2e4b4c0af2e2821745c407c", null ],
+    [ "meshlib::find_ball_pivoting_component", "namespacemeshlib.html#ae090135848dff8d0da20a94c5866935a", null ],
+    [ "meshlib::find_ball_pivoting_mesh_4", "namespacemeshlib.html#adae38029e7710bd9a16ff8115d77a193", null ],
+    [ "meshlib::find_ball_pivoting_mesh_5", "namespacemeshlib.html#ac2b64b08a1356d2c4927ce17455cdf47", null ],
+    [ "meshlib::find_ball_pivoting_seed", "namespacemeshlib.html#adb4d8d07a5befbd8825f7776617588a2", null ],
+    [ "meshlib::find_ball_pivoting_triangles", "namespacemeshlib.html#aa602b7357e28881fce0c9171944615d9", null ],
     [ "meshlib::get_alpha_shape_data", "namespacemeshlib.html#a58e2e8523b14eecb903593af2a5734d2", null ]
 ];

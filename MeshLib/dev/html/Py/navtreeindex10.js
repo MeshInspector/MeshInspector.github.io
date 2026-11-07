@@ -1,5 +1,9 @@
 var NAVTREEINDEX10 =
 {
+"classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a570379d217167dace436fdff47454256":[9,1,0,0,2,107,7],
+"classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a570379d217167dace436fdff47454256":[9,1,1,0,1,107,7],
+"classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a67de6a941303bb2d86e39e90e975c0d1":[9,1,0,0,2,107,3],
+"classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a67de6a941303bb2d86e39e90e975c0d1":[9,1,1,0,1,107,3],
 "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a8f2a3a4f32ce870325ca9a40f2d3214d":[9,1,0,0,2,107,6],
 "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#a8f2a3a4f32ce870325ca9a40f2d3214d":[9,1,1,0,1,107,6],
 "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html#aad549f735f9a7c8554b28fc3cec2fc78":[9,1,0,0,2,107,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX10 =
 "classmrmeshpy_1_1ChangeMeshPointsAction.html#afc639c8cfc17ec930e09410992291a9c":[9,1,0,0,2,123,0],
 "classmrmeshpy_1_1ChangeMeshPointsAction.html#afc639c8cfc17ec930e09410992291a9c":[9,1,1,0,1,123,0],
 "classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html":[9,1,0,0,2,124],
-"classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html":[9,1,1,0,1,124],
-"classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html#a31d097158ca380d690d33db1dae82f94":[9,1,0,0,2,124,2],
-"classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html#a31d097158ca380d690d33db1dae82f94":[9,1,1,0,1,124,2],
-"classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html#a8aa88a90706e7f3b3a057d44d4bcecd6":[9,1,0,0,2,124,1],
-"classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html#a8aa88a90706e7f3b3a057d44d4bcecd6":[9,1,1,0,1,124,1]
+"classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html":[9,1,1,0,1,124]
 };

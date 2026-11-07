@@ -1,5 +1,13 @@
 var NAVTREEINDEX27 =
 {
+"classmrmeshpy_1_1ConstDecimateSettings.html#a55cb7440b9349599d6286e1f11051821":[9,1,0,0,2,714,4],
+"classmrmeshpy_1_1ConstDecimateSettings.html#a55cb7440b9349599d6286e1f11051821":[9,1,1,0,1,714,4],
+"classmrmeshpy_1_1ConstDecimateSettings.html#a70c12a3ee1d1f6364aaff18f6ad9160e":[9,1,0,0,2,714,8],
+"classmrmeshpy_1_1ConstDecimateSettings.html#a70c12a3ee1d1f6364aaff18f6ad9160e":[9,1,1,0,1,714,8],
+"classmrmeshpy_1_1ConstDecimateSettings.html#a8495c8a07a25df55eac35159c6207607":[9,1,0,0,2,714,9],
+"classmrmeshpy_1_1ConstDecimateSettings.html#a8495c8a07a25df55eac35159c6207607":[9,1,1,0,1,714,9],
+"classmrmeshpy_1_1ConstDecimateSettings.html#a8678795166b9c74e1217f946b91bc64e":[9,1,0,0,2,714,24],
+"classmrmeshpy_1_1ConstDecimateSettings.html#a8678795166b9c74e1217f946b91bc64e":[9,1,1,0,1,714,24],
 "classmrmeshpy_1_1ConstDecimateSettings.html#a90684a45630d950ec3a34fb32143543c":[9,1,0,0,2,714,26],
 "classmrmeshpy_1_1ConstDecimateSettings.html#a90684a45630d950ec3a34fb32143543c":[9,1,1,0,1,714,26],
 "classmrmeshpy_1_1ConstDecimateSettings.html#a90e24f0b71dc23533bfc7ed88bb603d3":[9,1,0,0,2,714,16],
@@ -241,13 +249,5 @@ var NAVTREEINDEX27 =
 "classmrmeshpy_1_1ConstDistanceFromWeightedPointsParams.html":[9,1,0,0,2,727],
 "classmrmeshpy_1_1ConstDistanceFromWeightedPointsParams.html":[9,1,1,0,1,727],
 "classmrmeshpy_1_1ConstDistanceFromWeightedPointsParams.html#a17aafa69a7431ec50afe9ac2f04b4f2c":[9,1,0,0,2,727,2],
-"classmrmeshpy_1_1ConstDistanceFromWeightedPointsParams.html#a17aafa69a7431ec50afe9ac2f04b4f2c":[9,1,1,0,1,727,2],
-"classmrmeshpy_1_1ConstDistanceFromWeightedPointsParams.html#a4e364d0d77157857145a77e058f38f1f":[9,1,0,0,2,727,3],
-"classmrmeshpy_1_1ConstDistanceFromWeightedPointsParams.html#a4e364d0d77157857145a77e058f38f1f":[9,1,1,0,1,727,3],
-"classmrmeshpy_1_1ConstDistanceFromWeightedPointsParams.html#a5248c390e81194829d1f92e0fbc07102":[9,1,0,0,2,727,4],
-"classmrmeshpy_1_1ConstDistanceFromWeightedPointsParams.html#a5248c390e81194829d1f92e0fbc07102":[9,1,1,0,1,727,4],
-"classmrmeshpy_1_1ConstDistanceFromWeightedPointsParams.html#ac21fa55e39f10a189ee09b8fc8bece7f":[9,1,0,0,2,727,5],
-"classmrmeshpy_1_1ConstDistanceFromWeightedPointsParams.html#ac21fa55e39f10a189ee09b8fc8bece7f":[9,1,1,0,1,727,5],
-"classmrmeshpy_1_1ConstDistanceFromWeightedPointsParams.html#acb73ec6df3d1c2f86629f3ef18e46ee7":[9,1,0,0,2,727,0],
-"classmrmeshpy_1_1ConstDistanceFromWeightedPointsParams.html#acb73ec6df3d1c2f86629f3ef18e46ee7":[9,1,1,0,1,727,0]
+"classmrmeshpy_1_1ConstDistanceFromWeightedPointsParams.html#a17aafa69a7431ec50afe9ac2f04b4f2c":[9,1,1,0,1,727,2]
 };

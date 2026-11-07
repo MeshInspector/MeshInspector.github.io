@@ -1,5 +1,13 @@
 var NAVTREEINDEX81 =
 {
+"classmeshlib_1_1MovementSpeedUnit.html#a97c4bc687cecf66ac21bc3b3fe2921bb":[9,6,1,0,0,647,4],
+"classmeshlib_1_1MovementSpeedUnit.html#ab8206043fd4e4961222aac0c64b2e4b0":[9,6,0,0,0,647,3],
+"classmeshlib_1_1MovementSpeedUnit.html#ab8206043fd4e4961222aac0c64b2e4b0":[9,6,1,0,0,647,3],
+"classmeshlib_1_1MovementSpeedUnit.html#abac2bd2df4bf4374cf6f74dbb830e662":[9,6,0,0,0,647,2],
+"classmeshlib_1_1MovementSpeedUnit.html#abac2bd2df4bf4374cf6f74dbb830e662":[9,6,1,0,0,647,2],
+"classmeshlib_1_1MovementSpeedUnit.html#ae6bb966e7924a0b7fd148bdffbc65bb0":[9,6,0,0,0,647,1],
+"classmeshlib_1_1MovementSpeedUnit.html#ae6bb966e7924a0b7fd148bdffbc65bb0":[9,6,1,0,0,647,1],
+"classmeshlib_1_1MovementSpeedUnit.html#ae9c9c63d406dd798d9b3a8df473bd58a":[9,6,0,0,0,647,0],
 "classmeshlib_1_1MovementSpeedUnit.html#ae9c9c63d406dd798d9b3a8df473bd58a":[9,6,1,0,0,647,0],
 "classmeshlib_1_1MultiMeshIntersectionResult.html":[9,6,0,0,0,650],
 "classmeshlib_1_1MultiMeshIntersectionResult.html":[9,6,1,0,0,650],
@@ -241,13 +249,5 @@ var NAVTREEINDEX81 =
 "classmeshlib_1_1NewEdgesMap.html#a77f4f4fccce24bc34192b794f216cbd2":[9,6,1,0,0,661,0],
 "classmeshlib_1_1NewEdgesMap.html#acb4947242b40ac6432969fcc0a20ddd7":[9,6,0,0,0,661,1],
 "classmeshlib_1_1NewEdgesMap.html#acb4947242b40ac6432969fcc0a20ddd7":[9,6,1,0,0,661,1],
-"classmeshlib_1_1NewEdgesMap.html#ad74ca7183fdf55e660eb18a3d42bb51f":[9,6,0,0,0,661,3],
-"classmeshlib_1_1NewEdgesMap.html#ad74ca7183fdf55e660eb18a3d42bb51f":[9,6,1,0,0,661,3],
-"classmeshlib_1_1NewEdgesMap.html#ae0f61eb7b4257ac65a48fa62262c6e86":[9,6,0,0,0,661,6],
-"classmeshlib_1_1NewEdgesMap.html#ae0f61eb7b4257ac65a48fa62262c6e86":[9,6,1,0,0,661,6],
-"classmeshlib_1_1NewEdgesMap.html#af998a2b764c6f3744842bc2008f12a70":[9,6,0,0,0,661,2],
-"classmeshlib_1_1NewEdgesMap.html#af998a2b764c6f3744842bc2008f12a70":[9,6,1,0,0,661,2],
-"classmeshlib_1_1NextEdgeSameLeft.html":[9,6,0,0,0,662],
-"classmeshlib_1_1NextEdgeSameLeft.html":[9,6,1,0,0,662],
-"classmeshlib_1_1NextEdgeSameLeft.html#a8ddf4c0d701684c200947bb6abdd1cdb":[9,6,0,0,0,662,4]
+"classmeshlib_1_1NewEdgesMap.html#ad74ca7183fdf55e660eb18a3d42bb51f":[9,6,0,0,0,661,3]
 };
