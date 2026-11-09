@@ -7535,8 +7535,9 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gada44a589fd04a828763560decb38cdf8" id="r_gada44a589fd04a828763560decb38cdf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gada44a589fd04a828763560decb38cdf8">MR::PriorityQueue&lt; T, P &gt;::pop</a> ()</td></tr>
 <tr class="memdesc:gada44a589fd04a828763560decb38cdf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the top element from the priority queue  <br /></td></tr>
 <tr class="memitem:gad908c34d45a5e5b13755322db1cb9889" id="r_gad908c34d45a5e5b13755322db1cb9889"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad908c34d45a5e5b13755322db1cb9889">MR::makePrism</a> (float baseLength, float leftAngle, float rightAngle, float <a class="el" href="group__BoxGroup.html#ga61ed695588449d6c852c0bbe38b273ae">height</a>=1.0f)</td></tr>
-<tr class="memitem:ga9951651204a8f192dd0e073d6532b491" id="r_ga9951651204a8f192dd0e073d6532b491"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9951651204a8f192dd0e073d6532b491">MR::processSelfSubtasks</a> (const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;subtasks, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;nextSubtasks, std::function&lt; <a class="el" href="#gae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &amp;)&gt; processLeaf, std::function&lt; <a class="el" href="#gae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &amp;)&gt; processNodes)</td></tr>
-<tr class="memdesc:ga9951651204a8f192dd0e073d6532b491"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function process all subtasks in one tree<br  />
+<tr class="memitem:ga70a491da3a38943ffbe9d8a99c340824" id="r_ga70a491da3a38943ffbe9d8a99c340824"><td class="memTemplParams" colspan="2">template&lt;typename ProcessLeaf, typename ProcessNodes&gt; </td></tr>
+<tr class="memitem:ga70a491da3a38943ffbe9d8a99c340824 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga70a491da3a38943ffbe9d8a99c340824">MR::processSelfSubtasks</a> (const <a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;tree, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;subtasks, std::vector&lt; <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &gt; &amp;nextSubtasks, ProcessLeaf &amp;&amp;processLeaf, ProcessNodes &amp;&amp;processNodes)</td></tr>
+<tr class="memdesc:ga70a491da3a38943ffbe9d8a99c340824"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function process all subtasks in one tree<br  />
 left/right == right/left in this case, so on same non-leaf nodes it only adds 3 next subtasks,<br  />
 same leafs are skipped and different leafs area processed with <span class="tt">processLeaf</span> callback.  <br /></td></tr>
 <tr class="memitem:ga0250568975d79b3b0da56e95a15280e4" id="r_ga0250568975d79b3b0da56e95a15280e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0250568975d79b3b0da56e95a15280e4">MR::reportProgress</a> (const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb, float v)</td></tr>
@@ -154505,11 +154506,13 @@ template&lt;typename T, typename P&gt; </div>
 
 </div>
 </div>
-<a id="ga9951651204a8f192dd0e073d6532b491" name="ga9951651204a8f192dd0e073d6532b491"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9951651204a8f192dd0e073d6532b491">&#9670;&#160;</a></span>processSelfSubtasks()</h2>
+<a id="ga70a491da3a38943ffbe9d8a99c340824" name="ga70a491da3a38943ffbe9d8a99c340824"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga70a491da3a38943ffbe9d8a99c340824">&#9670;&#160;</a></span>processSelfSubtasks()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename ProcessLeaf, typename ProcessNodes&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void MR::processSelfSubtasks </td>
@@ -154529,12 +154532,12 @@ template&lt;typename T, typename P&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; <a class="el" href="#gae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>processLeaf</em></span>, </td>
+          <td class="paramtype">ProcessLeaf &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>processLeaf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; <a class="el" href="#gae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="structMR_1_1NodeNode.html">NodeNode</a> &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>processNodes</em></span>&#160;)</td>
+          <td class="paramtype">ProcessNodes &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>processNodes</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -154554,6 +154557,9 @@ same leafs are skipped and different leafs area processed with <span class="tt">
   </table>
   </dd>
 </dl>
+<p>the callbacks are template parameters to be inlined in this hot loop </p>
+<p>split aNode</p>
+<p>split bNode</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">nextSubtasks</td><td>may be same as subtasks </td></tr>

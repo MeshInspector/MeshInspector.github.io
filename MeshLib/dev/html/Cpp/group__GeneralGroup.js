@@ -15208,7 +15208,7 @@ var group__GeneralGroup =
     [ "MR::CommandLoop::processCommands", "group__GeneralGroup.html#ga608f3b3e1415777cf598629aa0b73681", null ],
     [ "MR::SceneObjectsListDrawer::processItemClick_", "group__GeneralGroup.html#ga6b49bb69e16897b2b6e18f9a69651f70", null ],
     [ "MR::GcodeProcessor::processLine", "group__GeneralGroup.html#gaf9d3821f5999c61b5577a1224611e68c", null ],
-    [ "MR::processSelfSubtasks", "group__GeneralGroup.html#ga9951651204a8f192dd0e073d6532b491", null ],
+    [ "MR::processSelfSubtasks", "group__GeneralGroup.html#ga70a491da3a38943ffbe9d8a99c340824", null ],
     [ "MR::ShortcutManager::processShortcut", "group__GeneralGroup.html#ga6cab93cfde2e7e912bd72003bae3d3e2", null ],
     [ "MR::GcodeProcessor::processSource", "group__GeneralGroup.html#ga13d46f271c407f554a7ee95de2aa6820", null ],
     [ "MR::UI::progressBar", "group__GeneralGroup.html#ga053ef267b6d0adb6ab4753aee85f5e98", null ],
