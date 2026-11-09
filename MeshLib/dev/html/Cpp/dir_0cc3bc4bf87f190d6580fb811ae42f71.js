@@ -263,6 +263,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRMultiwayICP.h", "MRMultiwayICP_8h.html", "MRMultiwayICP_8h" ],
     [ "MRMutexOwner.h", "MRMutexOwner_8h.html", null ],
     [ "MRNestingStructures.h", "MRNestingStructures_8h.html", null ],
+    [ "MRNextUpDown.h", "MRNextUpDown_8h.html", "MRNextUpDown_8h" ],
     [ "MRNoDefInit.h", "MRNoDefInit_8h.html", null ],
     [ "MRNormalDenoising.h", "MRNormalDenoising_8h.html", "MRNormalDenoising_8h" ],
     [ "MRNormalsToPoints.h", "MRNormalsToPoints_8h.html", null ],

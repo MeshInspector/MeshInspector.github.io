@@ -20,6 +20,7 @@ var namespaceMR_1_1detail =
     [ "orient3dVolume", "namespaceMR_1_1detail.html#ab652e2278f32034e7f2aa5960239c222", null ],
     [ "runCocoaFileDialog", "namespaceMR_1_1detail.html#a5594c749385503cd1087702f28de4651", null ],
     [ "runPortalFileDialog", "namespaceMR_1_1detail.html#a1a02e764be7c54f9177025ee42b915d0", null ],
+    [ "signStep", "group__GeneralGroup.html#ga2c281ad2e2056d9b040ad3e365f4575a", null ],
     [ "signWord", "namespaceMR_1_1detail.html#a198d8073571caaae263de501236e6052", null ],
     [ "subBorrow64", "namespaceMR_1_1detail.html#a7fc59c8caf263e5cec996db9f596920d", null ],
     [ "cFitsFastInt128", "namespaceMR_1_1detail.html#af6206848d5379160c8a8684d2c76593f", null ],

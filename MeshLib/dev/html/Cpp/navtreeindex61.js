@@ -1,5 +1,10 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1ImGuiMath.html#a4d9817ccfff189d17647c34d8cb24c49":[9,0,1,0,1,16,5],
+"namespaceMR_1_1ImGuiMath.html#a5536e17f9eef79e57335bbfaa24bcc2a":[9,0,1,0,1,16,8],
+"namespaceMR_1_1ImGuiMath.html#a5dd8586dafaa70c20f2e723116368027":[9,0,1,0,1,16,19],
+"namespaceMR_1_1ImGuiMath.html#a688fbf496bac1ba949b29be3ec9a96c4":[9,0,1,0,1,16,6],
+"namespaceMR_1_1ImGuiMath.html#a6d0e200395e627b407b89164f6c4b13e":[9,0,1,0,1,16,11],
 "namespaceMR_1_1ImGuiMath.html#a7a4714344a7e4547c8fd858658c8a54a":[9,0,1,0,1,16,7],
 "namespaceMR_1_1ImGuiMath.html#a9413dca0b69204cedfb3f5a93add745a":[9,0,1,0,1,16,4],
 "namespaceMR_1_1ImGuiMath.html#a9b787db1b3551a333f5fae1addb214bd":[9,0,1,0,1,16,13],
@@ -244,10 +249,5 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a28ca45022d33f2817d3af8e5d4768e7e":[9,0,1,0,1,50,9,19],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a36179f2fecec1b832c63860ca016b6e1":[9,0,1,0,1,50,9,4],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a3ce86375f3fa56f1154df92dcdae7e15":[9,0,1,0,1,50,9,9],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a4c6e9e262634a1d3d373cda545f26c8a":[9,0,1,0,1,50,9,8],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a4d9c5d17e18eddc0250a2891edbaaa95":[9,0,1,0,1,50,9,24],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a50faca3ede80078a742d8d38dc4aecab":[9,0,1,0,1,50,9,14],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a51051623b92f12d20be6b1cb0b6415b7":[9,0,1,0,1,50,9,17],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a5193f3c136e1dd90d3667140abe07142":[9,0,1,0,1,50,9,16],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a62b6b78ca42168fc955fdefacf122dbc":[9,0,1,0,1,50,9,21]
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a4c6e9e262634a1d3d373cda545f26c8a":[9,0,1,0,1,50,9,8]
 };

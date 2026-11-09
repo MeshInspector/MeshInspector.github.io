@@ -1,5 +1,10 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Mesh.html#a63bb9b6214248707f092cca1db05afb2":[9,0,0,7,1,115],
+"structMR_1_1Mesh.html#a6791802a774a6e582072850647d3aa4a":[9,0,0,7,1,75],
+"structMR_1_1Mesh.html#a6b2c210b6e877bde4c37fab15c077a91":[9,0,0,7,1,25],
+"structMR_1_1Mesh.html#a6b35787713d43cba7a9e486296170bd1":[9,0,0,7,1,47],
+"structMR_1_1Mesh.html#a6cd3981840651ddac27d427a965ce818":[9,0,0,7,1,80],
 "structMR_1_1Mesh.html#a6d5ecc32f9f154e338bcda8777c77259":[9,0,0,7,1,101],
 "structMR_1_1Mesh.html#a6e9aa843e541b5b9b371902f0e14810a":[9,0,0,7,1,88],
 "structMR_1_1Mesh.html#a7173fafd19150c40259003561a02162a":[9,0,0,7,1,62],
@@ -244,10 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1MutexOwner.html":[9,0,0,19,400],
 "structMR_1_1NameTagClickListener.html":[9,0,0,19,618],
 "structMR_1_1Nesting_1_1BoxNestingCorner.html":[9,0,0,19,144],
-"structMR_1_1Nesting_1_1BoxNestingOptions.html":[9,0,0,19,146],
-"structMR_1_1Nesting_1_1BoxNestingParams.html":[9,0,0,19,147],
-"structMR_1_1Nesting_1_1MeshXf.html":[9,0,0,19,402],
-"structMR_1_1Nesting_1_1Nesting3mfParams.html":[9,0,0,19,98],
-"structMR_1_1Nesting_1_1NestingBaseParams.html":[9,0,0,19,403],
-"structMR_1_1Nesting_1_1NestingResult.html":[9,0,0,19,401]
+"structMR_1_1Nesting_1_1BoxNestingOptions.html":[9,0,0,19,146]
 };

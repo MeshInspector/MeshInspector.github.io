@@ -1,5 +1,10 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1Nesting_1_1BoxNestingParams.html":[9,0,0,19,147],
+"structMR_1_1Nesting_1_1MeshXf.html":[9,0,0,19,402],
+"structMR_1_1Nesting_1_1Nesting3mfParams.html":[9,0,0,19,98],
+"structMR_1_1Nesting_1_1NestingBaseParams.html":[9,0,0,19,403],
+"structMR_1_1Nesting_1_1NestingResult.html":[9,0,0,19,401],
 "structMR_1_1Nesting_1_1TetrisDensifyOptions.html":[9,0,0,19,907],
 "structMR_1_1Nesting_1_1TetrisDensifyParams.html":[9,0,0,19,908],
 "structMR_1_1NewEdgesMap.html":[9,0,0,8,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1PolynomialWrapper.html":[9,0,0,19,140],
 "structMR_1_1PositionVertsSmoothlyParams.html":[9,0,0,19,479],
 "structMR_1_1PositionedText.html":[9,0,0,19,478],
-"structMR_1_1PostDrawListener.html":[9,0,0,19,813],
-"structMR_1_1PostFocusListener.html":[9,0,0,19,835],
-"structMR_1_1PostRescaleListener.html":[9,0,0,19,819],
-"structMR_1_1PostResizeListener.html":[9,0,0,19,817],
-"structMR_1_1PreDrawListener.html":[9,0,0,19,811],
-"structMR_1_1PreSetupViewListener.html":[9,0,0,19,810]
+"structMR_1_1PostDrawListener.html":[9,0,0,19,813]
 };

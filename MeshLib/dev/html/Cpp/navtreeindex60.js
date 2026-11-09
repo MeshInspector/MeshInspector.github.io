@@ -1,5 +1,10 @@
 var NAVTREEINDEX60 =
 {
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a2d7eb6cdde4e22fa902012a7a63152a9":[9,0,0,11,2,7,13],
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a32fcd55df4b9420427f5168b5558a4a6":[9,0,0,11,2,7,9],
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f":[9,0,0,11,2,7,16],
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475":[9,0,0,11,2,7,10],
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a48d2a0f89c21288fc6f9acde5fb8338d":[9,0,0,11,2,7,5],
 "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a4d37651692aaecc731860a4e8c4df169":[9,0,0,11,2,7,15],
 "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a":[9,0,0,11,2,7,18],
 "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a6c7eea869dc164adaaa93aa744a519f2":[9,0,0,11,2,7,17],
@@ -145,7 +150,7 @@ var NAVTREEINDEX60 =
 "namespaceMR.html#a93bff7f59121c9c61175744b11326824":[9,0,1,0,1,1007],
 "namespaceMR.html#a94d7093d57cb27ac9abdfb241ddb6bc0":[9,0,1,0,1,1067],
 "namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2500],
-"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3185],
+"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3187],
 "namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2499],
 "namespaceMR_1_1AsyncObjectLoad.html":[9,0,1,0,1,0],
 "namespaceMR_1_1AsyncObjectLoad.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[9,0,1,0,1,0,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1ImGuiMath.html#a1b10073d5f904b51b53263f742597596":[9,0,1,0,1,16,16],
 "namespaceMR_1_1ImGuiMath.html#a1ec7b8101f9329b606187e6018ad4728":[9,0,1,0,1,16,20],
 "namespaceMR_1_1ImGuiMath.html#a3efcf38853e709434fc3e781cef13f7a":[9,0,1,0,1,16,17],
-"namespaceMR_1_1ImGuiMath.html#a3f909828dc97dd9d3ebcc2c534d94968":[9,0,1,0,1,16,12],
-"namespaceMR_1_1ImGuiMath.html#a4d9817ccfff189d17647c34d8cb24c49":[9,0,1,0,1,16,5],
-"namespaceMR_1_1ImGuiMath.html#a5536e17f9eef79e57335bbfaa24bcc2a":[9,0,1,0,1,16,8],
-"namespaceMR_1_1ImGuiMath.html#a5dd8586dafaa70c20f2e723116368027":[9,0,1,0,1,16,19],
-"namespaceMR_1_1ImGuiMath.html#a688fbf496bac1ba949b29be3ec9a96c4":[9,0,1,0,1,16,6],
-"namespaceMR_1_1ImGuiMath.html#a6d0e200395e627b407b89164f6c4b13e":[9,0,1,0,1,16,11]
+"namespaceMR_1_1ImGuiMath.html#a3f909828dc97dd9d3ebcc2c534d94968":[9,0,1,0,1,16,12]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17":[9,0,0,3,3,10],
+"classMR_1_1BitSet.html#a784dcb0f29bf20a645a4267b68d0d6ae":[9,0,0,3,3,45],
 "classMR_1_1BitSet.html#a8295e25fd9e822feb28fec92eb1bbcfb":[9,0,0,3,3,37],
 "classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95":[9,0,0,3,3,12],
 "classMR_1_1BitSet.html#a85be34ba3bb731ce828ca21c67b1413c":[9,0,0,3,3,57],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1CircleObject.html#a63eee314cf35d07e3826acf4fc92dc77":[9,0,0,11,0,0,20],
 "classMR_1_1CircleObject.html#a6619745b8f6bf405910373da45cb8f54":[9,0,0,11,0,0,0],
 "classMR_1_1CircleObject.html#a71adcff077bd4cf5509cea361f0f96bb":[9,0,0,11,0,0,14],
-"classMR_1_1CircleObject.html#a7dd05445d9524f457b174b86526f7917":[9,0,0,11,0,0,23],
-"classMR_1_1CircleObject.html#a93090fe220169d0ebb34d3fcc16425d5":[9,0,0,11,0,0,2],
-"classMR_1_1CircleObject.html#a991beec8b2a8e873d3c1325a07e90050":[9,0,0,11,0,0,5]
+"classMR_1_1CircleObject.html#a7dd05445d9524f457b174b86526f7917":[9,0,0,11,0,0,23]
 };

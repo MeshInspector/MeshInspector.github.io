@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"classMR_1_1RangeProcessor.html#gae9524032175e7503af1f3c23a7d5b962":[9,0,0,19,883,14],
+"classMR_1_1RangeProcessorSingle.html":[9,0,0,19,886],
 "classMR_1_1RangeProcessorSingle.html#ga2a51228138a8994ccaa8fab17ec60f75":[9,0,0,19,886,12],
 "classMR_1_1RangeProgress.html":[9,0,0,19,885],
 "classMR_1_1RecentFilesStore.html":[9,0,0,19,654],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "classMR_1_1SharedThreadSafeOwner.html":[9,0,0,19,373],
 "classMR_1_1SharedThreadSafeOwner.html#a0967bda588492731c2eee9efd06f85c4":[9,0,0,1,36,4],
 "classMR_1_1SharedThreadSafeOwner.html#a0967bda588492731c2eee9efd06f85c4":[9,0,0,19,373,4],
-"classMR_1_1SharedThreadSafeOwner.html#a24c2d8829702144346e2e880772c0be2":[9,0,0,1,36,3],
-"classMR_1_1SharedThreadSafeOwner.html#a24c2d8829702144346e2e880772c0be2":[9,0,0,19,373,3],
-"classMR_1_1SharedThreadSafeOwner.html#a539aba600891956dd407c17ef5590620":[9,0,0,1,36,2]
+"classMR_1_1SharedThreadSafeOwner.html#a24c2d8829702144346e2e880772c0be2":[9,0,0,1,36,3]
 };

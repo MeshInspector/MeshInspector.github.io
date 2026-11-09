@@ -6475,6 +6475,13 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga8e3788887677b1c7381950a3aa7dcaac" id="r_ga8e3788887677b1c7381950a3aa7dcaac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8e3788887677b1c7381950a3aa7dcaac">MR::MutexOwner::MutexOwner</a> (<a class="el" href="structMR_1_1MutexOwner.html">MutexOwner</a> &amp;&amp;) noexcept</td></tr>
 <tr class="memitem:gabb7351b3a06553b474e90d20d68efc30" id="r_gabb7351b3a06553b474e90d20d68efc30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MutexOwner.html">MutexOwner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb7351b3a06553b474e90d20d68efc30">MR::MutexOwner::operator=</a> (const <a class="el" href="structMR_1_1MutexOwner.html">MutexOwner</a> &amp;) noexcept</td></tr>
 <tr class="memitem:gaccbf59471a9ce12f038a0358ae18405b" id="r_gaccbf59471a9ce12f038a0358ae18405b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MutexOwner.html">MutexOwner</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaccbf59471a9ce12f038a0358ae18405b">MR::MutexOwner::operator=</a> (<a class="el" href="structMR_1_1MutexOwner.html">MutexOwner</a> &amp;&amp;) noexcept</td></tr>
+<tr class="memitem:ga2c281ad2e2056d9b040ad3e365f4575a" id="r_ga2c281ad2e2056d9b040ad3e365f4575a"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga2c281ad2e2056d9b040ad3e365f4575a template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2c281ad2e2056d9b040ad3e365f4575a">MR::detail::signStep</a> (T x)</td></tr>
+<tr class="memdesc:ga2c281ad2e2056d9b040ad3e365f4575a"><td class="mdescLeft">&#160;</td><td class="mdescRight">+1 for positive x and -1 (all bits set) for negative x, as an unsigned integer of the same size as x  <br /></td></tr>
+<tr class="memitem:ga02e0e5655f6b76e97efd2e6b2eb7d1c8" id="r_ga02e0e5655f6b76e97efd2e6b2eb7d1c8"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga02e0e5655f6b76e97efd2e6b2eb7d1c8 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga02e0e5655f6b76e97efd2e6b2eb7d1c8">MR::nextUp</a> (T x)</td></tr>
+<tr class="memitem:ga7b7c57f39f9c32605832b5f865ca7c6e" id="r_ga7b7c57f39f9c32605832b5f865ca7c6e"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga7b7c57f39f9c32605832b5f865ca7c6e template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7b7c57f39f9c32605832b5f865ca7c6e">MR::nextDown</a> (T x)</td></tr>
 <tr class="memitem:gaaa8735508a78c638055d6001174d206a" id="r_gaaa8735508a78c638055d6001174d206a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaa8735508a78c638055d6001174d206a">MR::NoDefInit&lt; T &gt;::NoDefInit</a> () noexcept</td></tr>
 <tr class="memitem:gabbbe864ceddaba1c6f816d82be1cf434" id="r_gabbbe864ceddaba1c6f816d82be1cf434"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabbbe864ceddaba1c6f816d82be1cf434">MR::denoiseNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, FaceNormals &amp;normals, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, float gamma, const FaceBitSet *region=nullptr)</td></tr>
 <tr class="memitem:ga1954e92c2b9fe2316cbf33d72e75d527" id="r_ga1954e92c2b9fe2316cbf33d72e75d527"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1954e92c2b9fe2316cbf33d72e75d527">MR::denoiseNormals</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, FaceNormals &amp;normals, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, float gamma, const FaceBitSet *region=nullptr)</td></tr>
@@ -131321,6 +131328,36 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga7b7c57f39f9c32605832b5f865ca7c6e" name="ga7b7c57f39f9c32605832b5f865ca7c6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7b7c57f39f9c32605832b5f865ca7c6e">&#9670;&#160;</a></span>nextDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T MR::nextDown </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNextUpDown_8h.html">MRMesh/MRNextUpDown.h</a>&gt;</code></p>
+<p>returns the closest representable value less than x, the same as std::nextafter( x, std::numeric_limits&lt;T&gt;::lowest() ) but inline for finite nonzero floats and doubles </p>
+
+</div>
+</div>
 <a id="ga7cd53c8ae9e36043c2dc5e9750efcce3" name="ga7cd53c8ae9e36043c2dc5e9750efcce3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga7cd53c8ae9e36043c2dc5e9750efcce3">&#9670;&#160;</a></span>NextEdgeSameLeft()</h2>
 
@@ -131452,6 +131489,37 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRProgressBar_8h.html">MRViewer/MRProgressBar.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga02e0e5655f6b76e97efd2e6b2eb7d1c8" name="ga02e0e5655f6b76e97efd2e6b2eb7d1c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga02e0e5655f6b76e97efd2e6b2eb7d1c8">&#9670;&#160;</a></span>nextUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T MR::nextUp </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNextUpDown_8h.html">MRMesh/MRNextUpDown.h</a>&gt;</code></p>
+<p>returns the closest representable value greater than x, the same as std::nextafter( x, std::numeric_limits&lt;T&gt;::max() ) but inline for finite nonzero floats and doubles </p>
+<p>without a branch on the sign of x, which is often unpredictable</p>
 
 </div>
 </div>
@@ -183079,6 +183147,37 @@ template&lt;typename T, typename C, typename D, D M&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRSparsePolynomial_8h.html">MRMesh/MRSparsePolynomial.h</a>&gt;</code></p>
 <p>returns the sign of the polynomial ( a * b - c * d ) for infinitesimal positive argument, i.e. the sign of its lowest-degree not-zero coefficient, see <a class="el" href="#ga851b2cffd096626c502dd6165ecda2a8">lowestTermOfProductsDiff</a> </p>
+
+</div>
+</div>
+<a id="ga2c281ad2e2056d9b040ad3e365f4575a" name="ga2c281ad2e2056d9b040ad3e365f4575a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2c281ad2e2056d9b040ad3e365f4575a">&#9670;&#160;</a></span>signStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto MR::detail::signStep </td>
+          <td>(</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRNextUpDown_8h.html">MRMesh/MRNextUpDown.h</a>&gt;</code></p>
+
+<p>+1 for positive x and -1 (all bits set) for negative x, as an unsigned integer of the same size as x </p>
 
 </div>
 </div>

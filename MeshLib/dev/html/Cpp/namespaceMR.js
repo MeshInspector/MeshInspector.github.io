@@ -3189,6 +3189,8 @@ var namespaceMR =
     [ "mult", "group__GeneralGroup.html#ga792b605255e8f3f5d4fc544964d5bfed", null ],
     [ "multiModelGridSampling", "group__GeneralGroup.html#gae26b8f62dca51a80c9ba270f309ca6d8", null ],
     [ "multiRayMeshIntersect", "group__AABBTreeGroup.html#gac55c3d3c33053f0cfe8a2d4a19666c72", null ],
+    [ "nextDown", "group__GeneralGroup.html#ga7b7c57f39f9c32605832b5f865ca7c6e", null ],
+    [ "nextUp", "group__GeneralGroup.html#ga02e0e5655f6b76e97efd2e6b2eb7d1c8", null ],
     [ "normal", "group__GeneralGroup.html#ga4eeaaea51db3554932b5daf92209a962", null ],
     [ "normal", "group__GeneralGroup.html#gaeaaa231de17fd92490d5ffbdac7d7c16", null ],
     [ "normal", "group__GeneralGroup.html#ga3fb32b3b62d46ab4122204d35787fa88", null ],
