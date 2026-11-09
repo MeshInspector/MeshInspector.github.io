@@ -6,7 +6,6 @@ var MRAlphaShape_8h =
     [ "MR_BallPivotCandidate", "MRAlphaShape_8h.html#a2d19c0827b2c1242bebaec6640debb4b", null ],
     [ "MR_ConvertToIntVector", "MRAlphaShape_8h.html#a109826dd6ebd783e9011351debdab874", null ],
     [ "MR_PreciseVertCoords", "MRAlphaShape_8h.html#acf8295b8fee8090e376d3d1c18eb3356", null ],
-    [ "MR_std_array_MR_VertId_3", "MRAlphaShape_8h.html#a93a0c4d7b47d7dae609a79a31bf54018", null ],
     [ "MR_std_optional_MR_Triangulation", "MRAlphaShape_8h.html#aa870bea258c3c0ee572af5757ab79e2d", null ],
     [ "MR_std_optional_std_array_MR_VertId_3", "MRAlphaShape_8h.html#ad7c20cd600739fffc73c6ecea6bf6660", null ],
     [ "MR_std_vector_MR_MeshBuilder_VertDuplication", "MRAlphaShape_8h.html#a5dd2fd820a754655ef67335b8cd94f73", null ],

@@ -50,6 +50,7 @@ var structmeshlib_1_1Mesh =
     [ "find_crease_edges", "structmeshlib_1_1Mesh.html#ae48bc3be2e011ec693b9ca4f3d19b019", null ],
     [ "find_sharp_edges", "structmeshlib_1_1Mesh.html#a9c9c9ab22f19e9bcf861e39f1ede51c5", null ],
     [ "find_spike_vertices", "structmeshlib_1_1Mesh.html#a5af2c5ca1064342868b5b32c5ec4b1b2", null ],
+    [ "flip_orientation", "structmeshlib_1_1Mesh.html#a073e173b44479fd5b69a76ce1b86676e", null ],
     [ "get_aabb_tree", "structmeshlib_1_1Mesh.html#ac38d74ab783b07401f285e75ef161b22", null ],
     [ "get_aabb_tree_not_create", "structmeshlib_1_1Mesh.html#a8375caa03485ac648d995b0aa2833688", null ],
     [ "get_aabb_tree_points", "structmeshlib_1_1Mesh.html#aef1b8ce125e8bf4cc0e2aeb39293cdf3", null ],

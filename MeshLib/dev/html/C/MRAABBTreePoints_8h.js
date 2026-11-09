@@ -7,7 +7,6 @@ var MRAABBTreePoints_8h =
     [ "MR_std_vector_MR_AABBTreePoints_Point", "MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6", null ],
     [ "MR_Vector_MR_AABBTreePoints_Node_MR_NodeId", "MRAABBTreePoints_8h.html#ab2a7de4aa3afd6ac2dbca1388a451783", null ],
     [ "MR_VertBMap", "MRAABBTreePoints_8h.html#aa7b9116fbd7f68728817ec9e0d331d91", null ],
-    [ "MR_VertCoords", "MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_AABBTreePoints_AssignFromAnother", "MRAABBTreePoints_8h.html#a2583336c2a0080106deb025055d88d83", null ],
     [ "MR_AABBTreePoints_Construct_1_MR_Mesh", "MRAABBTreePoints_8h.html#a2ec8b995de324a18cea57bb05d0cd549", null ],
     [ "MR_AABBTreePoints_Construct_1_MR_PointCloud", "MRAABBTreePoints_8h.html#a1b5165df8537c0f812d324e1dcd043bc", null ],

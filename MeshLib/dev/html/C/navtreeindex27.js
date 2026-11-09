@@ -1,5 +1,15 @@
 var NAVTREEINDEX27 =
 {
+"MRClosestWeightedPoint_8h.html#af0aed4ab05536cca386de749ee99eb46":[9,2,2,0,0,0,0,1,50,97],
+"MRClosestWeightedPoint_8h.html#af24bea970e11cee88c639b7c4d267e55":[9,2,2,0,0,0,0,1,50,58],
+"MRClosestWeightedPoint_8h.html#af4c703621102a931b972c13602bc3554":[9,2,2,0,0,0,0,1,50,44],
+"MRClosestWeightedPoint_8h.html#af784f38b62c24da9b8741a81912a83dc":[9,2,2,0,0,0,0,1,50,22],
+"MRClosestWeightedPoint_8h.html#af9922150a27654746009e6f67b04ad7e":[9,2,2,0,0,0,0,1,50,79],
+"MRClosestWeightedPoint_8h.html#afd3ecb6d4c28f112f8cea703f1e31d63":[9,2,2,0,0,0,0,1,50,31],
+"MRClosestWeightedPoint_8h.html#afdee842413324c8a99f3b0e6845f5092":[9,2,2,0,0,0,0,1,50,25],
+"MRClosestWeightedPoint_8h.html#aff352314bfccd5659d16d06b73b2ca29":[9,2,2,0,0,0,0,1,50,27],
+"MRClosestWeightedPoint_8h.html#afffc5fa143113f743748d20f771a7f38":[9,2,2,0,0,0,0,1,50,3],
+"MRClosestWeightedPoint_8h_source.html":[9,2,2,0,0,0,0,1,50],
 "MRCloudPartMapping_8h.html":[9,2,2,0,0,0,0,1,52],
 "MRCloudPartMapping_8h.html#a149e38231341929491f6342587c53234":[9,2,2,0,0,0,0,1,52,2],
 "MRCloudPartMapping_8h.html#a2e6542ae0a1174eb415fd721bf459ffc":[9,2,2,0,0,0,0,1,52,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX27 =
 "MRCone3_8h.html#a69cd43dc356bbcac24b291fe4398f0ba":[9,2,2,0,0,0,0,1,57,42],
 "MRCone3_8h.html#a6c186cac67c09b8e19d0df9f90ef45b3":[9,2,2,0,0,0,0,1,57,36],
 "MRCone3_8h.html#a735cfef0e309de3c5ac78a2075a4ab07":[9,2,2,0,0,0,0,1,57,28],
-"MRCone3_8h.html#a76874797d09f34dffb918ed95540da15":[9,2,2,0,0,0,0,1,57,34],
-"MRCone3_8h.html#a7e98113a44c7cc3581cac241e55f878f":[9,2,2,0,0,0,0,1,57,11],
-"MRCone3_8h.html#a8227fe642e0c82a3a92262f769513c60":[9,2,2,0,0,0,0,1,57,23],
-"MRCone3_8h.html#a85dec7e6cac898401ffb2cb9120b060c":[9,2,2,0,0,0,0,1,57,13],
-"MRCone3_8h.html#a898200b15a419622ab96149f5454be66":[9,2,2,0,0,0,0,1,57,20],
-"MRCone3_8h.html#a8be02e1cec8da373c5d57929dae6dc07":[9,2,2,0,0,0,0,1,57,46],
-"MRCone3_8h.html#a91301ca230f5bfbd7247bd9438081b90":[9,2,2,0,0,0,0,1,57,1],
-"MRCone3_8h.html#a91b6de421d7a1c33eccbb3f99ac6851e":[9,2,2,0,0,0,0,1,57,3],
-"MRCone3_8h.html#a91caf9e9081b298481d344e80ace9692":[9,2,2,0,0,0,0,1,57,33],
-"MRCone3_8h.html#a97e77048c6dc60404f737aa68d3831d1":[9,2,2,0,0,0,0,1,57,21],
-"MRCone3_8h.html#aa35ad4476ce4ff1b610e0903d1e7ca17":[9,2,2,0,0,0,0,1,57,29]
+"MRCone3_8h.html#a76874797d09f34dffb918ed95540da15":[9,2,2,0,0,0,0,1,57,34]
 };

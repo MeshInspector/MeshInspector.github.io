@@ -1,5 +1,16 @@
 var NAVTREEINDEX15 =
 {
+"MRBitSet_8h.html#afe3d017f76b0e50f9ff06143e8788fbd":[9,2,2,0,0,0,0,1,26,1140],
+"MRBitSet_8h.html#afe6d7abd388a460e3c756b67814873cb":[9,2,2,0,0,0,0,1,26,1336],
+"MRBitSet_8h.html#afeebe0bdcd2d57dc34eae99d2a7083b1":[9,2,2,0,0,0,0,1,26,397],
+"MRBitSet_8h.html#afef61ccc36aa317d03b285f207540b9b":[9,2,2,0,0,0,0,1,26,1077],
+"MRBitSet_8h.html#aff07bcf67bf52324e591fe3d8dd9ab2e":[9,2,2,0,0,0,0,1,26,1101],
+"MRBitSet_8h.html#aff5a255491c0ac47c92c2541eab1c854":[9,2,2,0,0,0,0,1,26,817],
+"MRBitSet_8h.html#aff82e95e2d3e7d7d0ea7bd746f1d75cb":[9,2,2,0,0,0,0,1,26,643],
+"MRBitSet_8h.html#affb6d54279a3c07b7627beea3649152d":[9,2,2,0,0,0,0,1,26,855],
+"MRBitSet_8h.html#affc7c795e47fde382ea94a33eb50de6b":[9,2,2,0,0,0,0,1,26,432],
+"MRBitSet_8h.html#affd5ea840b0a1b2684fd39f8ee7e5c18":[9,2,2,0,0,0,0,1,26,320],
+"MRBitSet_8h.html#affe0e89a4a2faa3d19c3497b92a7f7ea":[9,2,2,0,0,0,0,1,26,623],
 "MRBitSet_8h_source.html":[9,2,2,0,0,0,0,1,26],
 "MRBooleanOperation_8h.html":[9,2,2,0,0,0,0,1,27],
 "MRBooleanOperation_8h.html#a05137d8f5cdb70e93ea4da25a56dc5ab":[9,2,2,0,0,0,0,1,27,9],
@@ -238,16 +249,5 @@ var NAVTREEINDEX15 =
 "MRBox_8h.html#a0b25ada6d4aa3afbc66e0588a8b3f943":[9,2,2,0,0,0,0,1,28,363],
 "MRBox_8h.html#a0b5dc338f48bb41f3a92abfcf40196b7":[9,2,2,0,0,0,0,1,28,368],
 "MRBox_8h.html#a0ce3102b2bcf9766a70f0d79ba7f8a51":[9,2,2,0,0,0,0,1,28,182],
-"MRBox_8h.html#a0d0cf07080d47a1ed6bdda5ba91733ec":[9,2,2,0,0,0,0,1,28,351],
-"MRBox_8h.html#a0e3911e3363b1eb10ef2e7b2986bfbc5":[9,2,2,0,0,0,0,1,28,419],
-"MRBox_8h.html#a0e939ebf840346794f4020cf2cf6aa83":[9,2,2,0,0,0,0,1,28,178],
-"MRBox_8h.html#a0ef6fc6a91fafe6976e9976982e8d930":[9,2,2,0,0,0,0,1,28,136],
-"MRBox_8h.html#a0f023fb1cd962d7b2dfc4b01cf0bc791":[9,2,2,0,0,0,0,1,28,457],
-"MRBox_8h.html#a0f471c9a200f1d2be3d7b7266acf32d3":[9,2,2,0,0,0,0,1,28,462],
-"MRBox_8h.html#a10d0a749ecf4e3dfc8177102422e6416":[9,2,2,0,0,0,0,1,28,279],
-"MRBox_8h.html#a11ab0be1f63d3dcd97fdef790f40eb9f":[9,2,2,0,0,0,0,1,28,304],
-"MRBox_8h.html#a12eee790d5753db9d1e406313df9ecfc":[9,2,2,0,0,0,0,1,28,97],
-"MRBox_8h.html#a13abbda152528cfba6ec2ef36113e6b5":[9,2,2,0,0,0,0,1,28,57],
-"MRBox_8h.html#a13f3591c0d797324b915d17748caa7c5":[9,2,2,0,0,0,0,1,28,326],
-"MRBox_8h.html#a1434ad05afcd601849e5d898ba8142c6":[9,2,2,0,0,0,0,1,28,48]
+"MRBox_8h.html#a0d0cf07080d47a1ed6bdda5ba91733ec":[9,2,2,0,0,0,0,1,28,351]
 };

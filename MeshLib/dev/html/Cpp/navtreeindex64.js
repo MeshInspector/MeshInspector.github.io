@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Box.html#ab72759c3d199697fa09474bba5c5284c":[9,0,0,0,2,0,4],
+"structMR_1_1Box.html#aba9d01a2283f33ef63e5d1cb49a6b84a":[9,0,0,0,2,0,27],
+"structMR_1_1Box.html#abed683751e55c40fd8fdaf88da2fb35d":[9,0,0,0,2,0,28],
+"structMR_1_1Box.html#ac8eb14ff1a01b09de851695a4a0007d4":[9,0,0,0,2,0,25],
+"structMR_1_1Box.html#acc1e8e06848f35838481ee10e0308cda":[9,0,0,0,2,0,35],
+"structMR_1_1Box.html#acd003ee915daffe1dccdfe6bec573abc":[9,0,0,0,2,0,23],
+"structMR_1_1Box.html#ad11edd7dcd9aece9bebc0a2c388015b5":[9,0,0,0,2,0,33],
+"structMR_1_1Box.html#ad7f75d672fee1cd837085bd09be3c66e":[9,0,0,0,2,0,10],
 "structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598":[9,0,0,0,2,0,11],
 "structMR_1_1Box.html#adcbce4d705b1bf09dd04c5023fe58ec3":[9,0,0,0,2,0,22],
 "structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35":[9,0,0,0,2,0,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc":[9,0,0,1,12,1],
 "structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3":[9,0,0,1,12,0],
 "structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d":[9,0,0,1,12,3],
-"structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc":[9,0,0,1,12,4],
-"structMR_1_1FaceFaceFace.html":[9,0,0,19,536],
-"structMR_1_1FanRecord.html":[9,0,0,19,334],
-"structMR_1_1FanRecordWithCenter.html":[9,0,0,19,335],
-"structMR_1_1FeatureObjectProjectPointResult.html":[9,0,0,19,245],
-"structMR_1_1FeatureObjectSharedProperty.html":[9,0,0,19,244],
-"structMR_1_1Features_1_1MeasureResult.html":[9,0,0,19,251],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[9,0,0,19,254],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[9,0,0,19,252]
+"structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc":[9,0,0,1,12,4]
 };

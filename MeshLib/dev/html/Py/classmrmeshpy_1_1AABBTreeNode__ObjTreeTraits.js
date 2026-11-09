@@ -9,5 +9,5 @@ var classmrmeshpy_1_1AABBTreeNode__ObjTreeTraits =
     [ "l", "classmrmeshpy_1_1AABBTreeNode__ObjTreeTraits.html#a791ba4bf6afaf75c2889c8e7921662b1", null ],
     [ "r", "classmrmeshpy_1_1AABBTreeNode__ObjTreeTraits.html#a0dfe652a14513a3b743d27309f4aeaac", null ],
     [ "r", "classmrmeshpy_1_1AABBTreeNode__ObjTreeTraits.html#a5ce57dbc6a629dbb73b69e2e2d8ace7d", null ],
-    [ "setLeafId", "classmrmeshpy_1_1AABBTreeNode__ObjTreeTraits.html#a1a87a7e365af320bcad5e721b8f4bbaf", null ]
+    [ "setLeafId", "classmrmeshpy_1_1AABBTreeNode__ObjTreeTraits.html#ac583cf2745396154e3fa5c4d140a2a21", null ]
 ];

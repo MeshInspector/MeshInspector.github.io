@@ -1,5 +1,14 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1WeightedVertexT.html":[9,0,0,19,392],
+"structMR_1_1Writer.html":[9,0,0,19,564],
+"structMR_1_1ZCompensateParams.html":[9,0,0,19,434],
+"structMR_1_1ZeroOnMove.html":[9,0,0,19,148],
+"structMR_1_1ZlibCompressParams.html":[9,0,0,19,568],
+"structMR_1_1ZlibCompressStats.html":[9,0,0,19,567],
+"structMR_1_1ZlibParams.html":[9,0,0,19,566],
+"structMR_1_1detail_1_1AffineXf3f_1_1TypeOrPlaceholder.html":[9,0,0,19,364],
+"structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType.html":[9,0,0,19,362],
 "structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType_3_01T_3_01U_01_4_01_4.html":[9,0,0,19,363],
 "structMR_1_1detail_1_1HashMapSlots.html":[9,0,0,19,339],
 "structMR_1_1detail_1_1MakeScopeGuard.html":[9,0,1,0,1,3,4],

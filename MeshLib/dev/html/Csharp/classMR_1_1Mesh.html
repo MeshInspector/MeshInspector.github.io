@@ -189,7 +189,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af28122d6c3bcc15f02f009974fe84bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a466f6cad2b51436a361e61648f2fb865" title="appends another mesh as separate connected component(s) to this Generated from method MR....">MR.Mesh.addMesh</a></span>. Parameter <span class="tt">rearrangeTriangles</span> defaults to <span class="tt">false</span>.  <br /></td></tr>
 <tr class="memitem:a1ed5a4757fbcc9ea80e3ed92eff1c33f" id="r_a1ed5a4757fbcc9ea80e3ed92eff1c33f"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ed5a4757fbcc9ea80e3ed92eff1c33f">addMeshPart</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> from, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a> map, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
 <tr class="memdesc:a1ed5a4757fbcc9ea80e3ed92eff1c33f"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends whole or part of another mesh as separate connected component(s) to this optional  <br /></td></tr>
-<tr class="memitem:a7cc16cd06f46f37d34711f74f5c249f1" id="r_a7cc16cd06f46f37d34711f74f5c249f1"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc16cd06f46f37d34711f74f5c249f1">addMeshPart</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> from, bool? flipOrientation=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
+<tr class="memitem:a7cc16cd06f46f37d34711f74f5c249f1" id="r_a7cc16cd06f46f37d34711f74f5c249f1"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc16cd06f46f37d34711f74f5c249f1">addMeshPart</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> from, bool? <a class="el" href="#aab97ab86dfe2e3639c8fea871640b592">flipOrientation</a>=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
 <tr class="memdesc:a7cc16cd06f46f37d34711f74f5c249f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends whole or part of another mesh to this joining added faces with existed ones along given contours  <br /></td></tr>
 <tr class="memitem:a8ca1dbf25d04ac66213956966250b872" id="r_a8ca1dbf25d04ac66213956966250b872"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ca1dbf25d04ac66213956966250b872">pack</a> (<a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, bool? rearrangeTriangles=null)</td></tr>
 <tr class="memdesc:a8ca1dbf25d04ac66213956966250b872"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid faces, vertices and points Generated from method <span class="tt"><a class="el" href="#a8ca1dbf25d04ac66213956966250b872" title="tightly packs all arrays eliminating lone edges and invalid faces, vertices and points Generated from...">MR.Mesh.pack</a></span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">rearrangeTriangles</span> defaults to <span class="tt">false</span>.  <br /></td></tr>
@@ -209,6 +209,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a82df6cc87a7a9ed397253a2ff13abc44"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to <a class="el" href="#a2456faa5acbeb85adca2cf5b496df684" title="invalidates caches (aabb-trees) after any change in mesh geometry or topology">invalidateCaches()</a> and following rebuild of trees  <br /></td></tr>
 <tr class="memitem:a04d3d9d1f6cd6f27e8bbae4fd3182a3d" id="r_a04d3d9d1f6cd6f27e8bbae4fd3182a3d"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d3d9d1f6cd6f27e8bbae4fd3182a3d">updateCachesAfterSplits</a> (MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId_PhmapHashMRFaceId_PhmapEqualToMRFaceId_MRAllocatorStdPairConstMRFaceIdMRFaceId new2Old)</td></tr>
 <tr class="memdesc:a04d3d9d1f6cd6f27e8bbae4fd3182a3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates existing caches after some faces were split into parts (e.g. by <a class="el" href="#ac415a01baf693c99e421cae57b2ad081" title="split given triangle on three triangles, introducing new vertex with given coordinates and connecting...">splitFace()</a> or <a class="el" href="#ac03ffd6995e96fbdcd46968e3dbe3295" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">splitEdge()</a>) with no other changes in the mesh; it shall be considered as a faster alternative to <a class="el" href="#a2456faa5acbeb85adca2cf5b496df684" title="invalidates caches (aabb-trees) after any change in mesh geometry or topology">invalidateCaches()</a> and following rebuild of AABB tree  <br /></td></tr>
+<tr class="memitem:aab97ab86dfe2e3639c8fea871640b592" id="r_aab97ab86dfe2e3639c8fea871640b592"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab97ab86dfe2e3639c8fea871640b592">flipOrientation</a> (<a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? fullComponents=null)</td></tr>
+<tr class="memdesc:aab97ab86dfe2e3639c8fea871640b592"><td class="mdescLeft">&#160;</td><td class="mdescRight">changes the orientation of all triangles, or only of the components with given edges as <a class="el" href="classMR_1_1MeshTopology.html#aa8f93500c5a7191443286a5d8bddba59" title="flip orientation (normals) of">MeshTopology.flipOrientation()</a> does, and updates existing AABB tree instead of rebuilding it Generated from method <span class="tt"><a class="el" href="#aab97ab86dfe2e3639c8fea871640b592" title="changes the orientation of all triangles, or only of the components with given edges as MeshTopology....">MR.Mesh.flipOrientation</a></span>.  <br /></td></tr>
 <tr class="memitem:a9a5bddf03c626d877f81537eb854307d" id="r_a9a5bddf03c626d877f81537eb854307d"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a5bddf03c626d877f81537eb854307d">shrinkToFit</a> ()</td></tr>
 <tr class="memdesc:a9a5bddf03c626d877f81537eb854307d"><td class="mdescLeft">&#160;</td><td class="mdescRight">requests the removal of unused capacity Generated from method <span class="tt"><a class="el" href="#a9a5bddf03c626d877f81537eb854307d" title="requests the removal of unused capacity Generated from method MR.Mesh.shrinkToFit.">MR.Mesh.shrinkToFit</a></span>.  <br /></td></tr>
 <tr class="memitem:a2716bdfac62a94a52023c065250ba246" id="r_a2716bdfac62a94a52023c065250ba246"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2716bdfac62a94a52023c065250ba246">mirror</a> (<a class="el" href="classMR_1_1Const__Plane3f.html">MR.Const_Plane3f</a> plane)</td></tr>
@@ -912,6 +914,33 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="aab97ab86dfe2e3639c8fea871640b592" name="aab97ab86dfe2e3639c8fea871640b592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab97ab86dfe2e3639c8fea871640b592">&#9670;&#160;</a></span>flipOrientation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.Mesh.flipOrientation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>fullComponents</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>changes the orientation of all triangles, or only of the components with given edges as <a class="el" href="classMR_1_1MeshTopology.html#aa8f93500c5a7191443286a5d8bddba59" title="flip orientation (normals) of">MeshTopology.flipOrientation()</a> does, and updates existing AABB tree instead of rebuilding it Generated from method <span class="tt"><a class="el" href="#aab97ab86dfe2e3639c8fea871640b592" title="changes the orientation of all triangles, or only of the components with given edges as MeshTopology....">MR.Mesh.flipOrientation</a></span>. </p>
 
 </div>
 </div>

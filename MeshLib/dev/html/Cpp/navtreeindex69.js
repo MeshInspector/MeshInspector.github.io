@@ -1,5 +1,14 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1MultiRayMeshIntersectResult.html#abe24325f915016d19bbaa021b7acdf15":[9,0,0,1,20,1],
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html":[9,0,0,0,8,0,0],
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b":[9,0,0,0,8,0,0,1],
+"structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136":[9,0,0,0,8,0,0,0],
+"structMR_1_1MultiwayICPSamplingParameters.html":[9,0,0,19,398],
+"structMR_1_1MutexOwner.html":[9,0,0,19,400],
+"structMR_1_1NameTagClickListener.html":[9,0,0,19,618],
+"structMR_1_1Nesting_1_1BoxNestingCorner.html":[9,0,0,19,144],
+"structMR_1_1Nesting_1_1BoxNestingOptions.html":[9,0,0,19,146],
 "structMR_1_1Nesting_1_1BoxNestingParams.html":[9,0,0,19,147],
 "structMR_1_1Nesting_1_1MeshXf.html":[9,0,0,19,402],
 "structMR_1_1Nesting_1_1Nesting3mfParams.html":[9,0,0,19,98],
@@ -240,14 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[9,0,0,14,0,0,1],
 "structMR_1_1PolylineToDistanceVolumeParams.html":[9,0,0,19,895],
 "structMR_1_1PolylineToVolumeParams.html":[9,0,0,19,896],
-"structMR_1_1PolylineTraits.html":[9,0,0,1,8],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[9,0,0,1,9],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[9,0,0,1,9,0],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[9,0,0,1,10],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[9,0,0,1,10,0],
-"structMR_1_1Polynomial.html":[9,0,0,19,139],
-"structMR_1_1PolynomialWrapper.html":[9,0,0,19,140],
-"structMR_1_1PositionVertsSmoothlyParams.html":[9,0,0,19,479],
-"structMR_1_1PositionedText.html":[9,0,0,19,478],
-"structMR_1_1PostDrawListener.html":[9,0,0,19,813]
+"structMR_1_1PolylineTraits.html":[9,0,0,1,8]
 };

@@ -268,6 +268,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9026d796faddea11061ebb474a967719" id="r_a9026d796faddea11061ebb474a967719"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9026d796faddea11061ebb474a967719">invalidate_caches</a> (pointsChanged:Option&lt; bool &gt;)</td></tr>
 <tr class="memitem:aaf7a3942189006b11dd8da0efc3dbc5f" id="r_aaf7a3942189006b11dd8da0efc3dbc5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf7a3942189006b11dd8da0efc3dbc5f">update_caches</a> (changedVerts:Option&lt;&amp;<a class="el" href="structmeshlib_1_1VertBitSet.html">meshlib::VertBitSet</a> &gt;)</td></tr>
 <tr class="memitem:a0313b61460e22f6a6318902eaeabcc4b" id="r_a0313b61460e22f6a6318902eaeabcc4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0313b61460e22f6a6318902eaeabcc4b">update_caches_after_splits</a> (new2Old:&amp;<a class="el" href="structmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__FaceId__MR__FaceId__phmap__Hash__MR__FaceI475bb68cdb5a4aa935440c3de9a9d939.html">meshlib::phmap::phmap_flat_hash_map_MR_FaceId_MR_FaceId_phmap_Hash_MR_FaceId_phmap_EqualTo_MR_FaceId_MR_Allocator_std_pair_const_MR_FaceId_MR_FaceId</a>)</td></tr>
+<tr class="memitem:a073e173b44479fd5b69a76ce1b86676e" id="r_a073e173b44479fd5b69a76ce1b86676e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a073e173b44479fd5b69a76ce1b86676e">flip_orientation</a> (fullComponents:Option&lt;&amp;<a class="el" href="structmeshlib_1_1UndirectedEdgeBitSet.html">meshlib::UndirectedEdgeBitSet</a> &gt;)</td></tr>
 <tr class="memitem:a0b1247701d89fe02039e781049588e8d" id="r_a0b1247701d89fe02039e781049588e8d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b1247701d89fe02039e781049588e8d">heap_bytes</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a770db0b00d56dd4d0e9d45973705d7e9" id="r_a770db0b00d56dd4d0e9d45973705d7e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a770db0b00d56dd4d0e9d45973705d7e9">shrink_to_fit</a> ()</td></tr>
 <tr class="memitem:a1a7e6a53f6cf56bdf0c1e0b06ee00768" id="r_a1a7e6a53f6cf56bdf0c1e0b06ee00768"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a7e6a53f6cf56bdf0c1e0b06ee00768">mirror</a> (plane:&amp;<a class="el" href="structmeshlib_1_1Plane3f.html">meshlib::Plane3f</a>)</td></tr>
@@ -1444,6 +1445,25 @@ Calls <span class="tt">MR_Mesh_calcFastWindingNumber()</span>. </li>
 </div><div class="memdoc">
 <p>returns vertices where the sum of triangle angles is below given threshold Generated from method <span class="tt">MR::Mesh::findSpikeVertices</span>.</p>
 <p>Calls <span class="tt">MR_Mesh_findSpikeVertices()</span>. </p>
+
+</div>
+</div>
+<a id="a073e173b44479fd5b69a76ce1b86676e" name="a073e173b44479fd5b69a76ce1b86676e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a073e173b44479fd5b69a76ce1b86676e">&#9670;&#160;</a></span>flip_orientation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void meshlib::Mesh::flip_orientation </td>
+          <td>(</td>
+          <td class="paramtype">fullComponents:Option&lt;&amp;<a class="el" href="structmeshlib_1_1UndirectedEdgeBitSet.html">meshlib::UndirectedEdgeBitSet</a> &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>changes the orientation of all triangles, or only of the components with given edges as MeshTopology::flipOrientation() does, and updates existing AABB tree instead of rebuilding it Generated from method <span class="tt">MR::Mesh::flipOrientation</span>.</p>
+<p>Calls <span class="tt">MR_Mesh_flipOrientation()</span>. </p>
 
 </div>
 </div>

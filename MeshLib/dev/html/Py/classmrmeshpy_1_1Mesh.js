@@ -12,6 +12,7 @@ var classmrmeshpy_1_1Mesh =
     [ "assign", "classmrmeshpy_1_1Mesh.html#a26ddecf82078d9c5d95be8c0465c144c", null ],
     [ "attachEdgeLoopPart", "classmrmeshpy_1_1Mesh.html#aebc315b337092967cf2a12a776511bbd", null ],
     [ "deleteFaces", "classmrmeshpy_1_1Mesh.html#a1bd182915a708cb211928172b2a738ac", null ],
+    [ "flipOrientation", "classmrmeshpy_1_1Mesh.html#aff53e140803d62bbb79e00fc10b9c276", null ],
     [ "invalidateCaches", "classmrmeshpy_1_1Mesh.html#a824f8b9c99223a6980bff0825f726e59", null ],
     [ "mirror", "classmrmeshpy_1_1Mesh.html#a9a019ab3a9b9674987fa9f8442bc1d53", null ],
     [ "pack", "classmrmeshpy_1_1Mesh.html#a7ef3a34a517987a6ee94235ba62db815", null ],

@@ -51,6 +51,7 @@ var structMR_1_1Mesh =
     [ "findCreaseEdges", "structMR_1_1Mesh.html#a1eda7cca99d50abaa6f9c15d4edefabb", null ],
     [ "findSharpEdges", "structMR_1_1Mesh.html#a30ffc7daf92144ac76a43684a5ca21b4", null ],
     [ "findSpikeVertices", "structMR_1_1Mesh.html#ae4a0775d0410e3ff89ed981468aa016e", null ],
+    [ "flipOrientation", "structMR_1_1Mesh.html#a6800ddc484384e7ced6d508567a2dd12", null ],
     [ "getAABBTree", "structMR_1_1Mesh.html#ad2f07f0ecf58e8933334430666ce983f", null ],
     [ "getAABBTreeNotCreate", "structMR_1_1Mesh.html#a3a4be0475ee77042c23f150bf522aae7", null ],
     [ "getAABBTreePoints", "structMR_1_1Mesh.html#adf6b179f19958a616e38f83bdc825800", null ],

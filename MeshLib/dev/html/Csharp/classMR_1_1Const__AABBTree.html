@@ -141,7 +141,7 @@ $(function(){initNavTree('classMR_1_1Const__AABBTree.html','','classMR_1_1Const_
 </div><!--header-->
 <div class="contents">
 
-<p>bounding volume hierarchy Generated from class <span class="tt"><a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy Generated from class MR.AABBTree. Base classes: Direct: (non-virtual) MR....">MR.AABBTree</a></span>. Base classes: Direct: (non-virtual) <span class="tt">MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <a class="el" href="structMR_1_1Box3f.html" title="Box given by its min- and max- corners Generated from class MR.Box3f. This is the by-value version of...">MR.Box3f</a>&amp;gt;&amp;gt;</span> This is the const half of the class.  
+<p>bounding volume hierarchy of mesh triangles; it keeps the vertex ids of its triangles, so a change of mesh topology requires either <a class="el" href="classMR_1_1Mesh.html#a2456faa5acbeb85adca2cf5b496df684" title="invalidates caches (aabb-trees) after any change in mesh geometry or topology">Mesh.invalidateCaches()</a> or updateTriangulation(), and <a class="el" href="classMR_1_1MeshTopology.html#aa8f93500c5a7191443286a5d8bddba59" title="flip orientation (normals) of">MeshTopology.flipOrientation()</a> requires flipOrientation() here (as <a class="el" href="classMR_1_1Mesh.html#aab97ab86dfe2e3639c8fea871640b592" title="changes the orientation of all triangles, or only of the components with given edges as MeshTopology....">Mesh.flipOrientation()</a> does) Generated from class <span class="tt"><a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy of mesh triangles; it keeps the vertex ids of its triangles,...">MR.AABBTree</a></span>. Base classes: Direct: (non-virtual) <span class="tt">MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <a class="el" href="structMR_1_1Box3f.html" title="Box given by its min- and max- corners Generated from class MR.Box3f. This is the by-value version of...">MR.Box3f</a>&amp;gt;&amp;gt;</span> This is the const half of the class.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.Const_AABBTree:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -150,7 +150,7 @@ $(function(){initNavTree('classMR_1_1Const__AABBTree.html','','classMR_1_1Const_
  <div class="center">
   <img src="classMR_1_1Const__AABBTree.png" usemap="#MR_2EConst_5FAABBTree_map" alt=""/>
   <map id="MR_2EConst_5FAABBTree_map" name="MR_2EConst_5FAABBTree_map">
-<area href="classMR_1_1AABBTree.html" title="bounding volume hierarchy Generated from class MR.AABBTree. Base classes: Direct: (non-virtual) MR...." alt="MR.AABBTree" shape="rect" coords="72,112,206,136"/>
+<area href="classMR_1_1AABBTree.html" title="bounding volume hierarchy of mesh triangles; it keeps the vertex ids of its triangles,..." alt="MR.AABBTree" shape="rect" coords="72,112,206,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -167,12 +167,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a59ef726454232622f08da7080c6692ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1AABBTree.html#a0fe9f89526ce3b9319309cd487d21536" title="Constructs an empty (default-constructed) instance.">MR.AABBTree.AABBTree</a></span>.  <br /></td></tr>
 <tr class="memitem:a677569f5fa30f62d6598203d51f2da99" id="r_a677569f5fa30f62d6598203d51f2da99"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a677569f5fa30f62d6598203d51f2da99">Const_AABBTree</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp)</td></tr>
 <tr class="memdesc:a677569f5fa30f62d6598203d51f2da99"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates tree for given mesh or its part Generated from constructor <span class="tt"><a class="el" href="classMR_1_1AABBTree.html#a0fe9f89526ce3b9319309cd487d21536" title="Constructs an empty (default-constructed) instance.">MR.AABBTree.AABBTree</a></span>.  <br /></td></tr>
+<tr class="memitem:af964c6974eb36ca7bc84e288f15879e8" id="r_af964c6974eb36ca7bc84e288f15879e8"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__Vector__StdArrayMRVertId3.html">MR.Const_Vector_StdArrayMRVertId3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af964c6974eb36ca7bc84e288f15879e8">leafTriangulation</a> ()</td></tr>
+<tr class="memdesc:af964c6974eb36ca7bc84e288f15879e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertex ids of the faces of all leaves in the order of Node::leafPos(), which is the order of leaf nodes after construction Generated from method <span class="tt"><a class="el" href="#af964c6974eb36ca7bc84e288f15879e8" title="vertex ids of the faces of all leaves in the order of Node.leafPos(), which is the order of leaf node...">MR.AABBTree.leafTriangulation</a></span>.  <br /></td></tr>
+<tr class="memitem:aa45cf69c2aee222c515c0a60aa5cc555" id="r_aa45cf69c2aee222c515c0a60aa5cc555"><td class="memItemLeft" align="right" valign="top">unsafe ref readonly MR.Std.Array_MRVertId_3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa45cf69c2aee222c515c0a60aa5cc555">leafTriVerts</a> (<a class="el" href="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html">MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</a> leaf)</td></tr>
+<tr class="memdesc:aa45cf69c2aee222c515c0a60aa5cc555"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns vertex ids of the face of given leaf node Generated from method <span class="tt"><a class="el" href="#aa45cf69c2aee222c515c0a60aa5cc555" title="returns vertex ids of the face of given leaf node Generated from method MR.AABBTree....">MR.AABBTree.leafTriVerts</a></span>.  <br /></td></tr>
+<tr class="memitem:a15ad38d6345be6d9a95f19a00341f615" id="r_a15ad38d6345be6d9a95f19a00341f615"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Array_MRVector3f_3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15ad38d6345be6d9a95f19a00341f615">leafTriPoints</a> (<a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, <a class="el" href="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html">MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</a> leaf)</td></tr>
+<tr class="memdesc:a15ad38d6345be6d9a95f19a00341f615"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the coordinates of the vertices of the face of given leaf node in the order of <a class="el" href="#aa45cf69c2aee222c515c0a60aa5cc555" title="returns vertex ids of the face of given leaf node Generated from method MR.AABBTree....">leafTriVerts()</a> Generated from method <span class="tt"><a class="el" href="#a15ad38d6345be6d9a95f19a00341f615" title="returns the coordinates of the vertices of the face of given leaf node in the order of leafTriVerts()...">MR.AABBTree.leafTriPoints</a></span>.  <br /></td></tr>
+<tr class="memitem:a011e8d3955977b9e51e774c6b1be340e" id="r_a011e8d3955977b9e51e774c6b1be340e"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a011e8d3955977b9e51e774c6b1be340e">heapBytes</a> ()</td></tr>
+<tr class="memdesc:a011e8d3955977b9e51e774c6b1be340e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="#a011e8d3955977b9e51e774c6b1be340e" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.AABBTree.heapBytes</a></span>.  <br /></td></tr>
 <tr class="memitem:af354b4a1c6b8fd3891814071d8e82e3e" id="r_af354b4a1c6b8fd3891814071d8e82e3e"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html">MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af354b4a1c6b8fd3891814071d8e82e3e">nodes</a> ()</td></tr>
 <tr class="memdesc:af354b4a1c6b8fd3891814071d8e82e3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to all nodes Generated from method <span class="tt"><a class="el" href="#af354b4a1c6b8fd3891814071d8e82e3e" title="const-access to all nodes Generated from method MR.AABBTree.nodes.">MR.AABBTree.nodes</a></span>.  <br /></td></tr>
 <tr class="memitem:ab216bedcc6d839ed3cf6d870f2c06f75" id="r_ab216bedcc6d839ed3cf6d870f2c06f75"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Box3f.html">MR.Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab216bedcc6d839ed3cf6d870f2c06f75">getBoundingBox</a> ()</td></tr>
 <tr class="memdesc:ab216bedcc6d839ed3cf6d870f2c06f75"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the root node bounding box Generated from method <span class="tt"><a class="el" href="#ab216bedcc6d839ed3cf6d870f2c06f75" title="returns the root node bounding box Generated from method MR.AABBTree.getBoundingBox.">MR.AABBTree.getBoundingBox</a></span>.  <br /></td></tr>
-<tr class="memitem:a011e8d3955977b9e51e774c6b1be340e" id="r_a011e8d3955977b9e51e774c6b1be340e"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a011e8d3955977b9e51e774c6b1be340e">heapBytes</a> ()</td></tr>
-<tr class="memdesc:a011e8d3955977b9e51e774c6b1be340e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="#a011e8d3955977b9e51e774c6b1be340e" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.AABBTree.heapBytes</a></span>.  <br /></td></tr>
 <tr class="memitem:a7da0a78dd50bbc8db7cfcb7ef868b83d" id="r_a7da0a78dd50bbc8db7cfcb7ef868b83d"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7da0a78dd50bbc8db7cfcb7ef868b83d">numLeaves</a> ()</td></tr>
 <tr class="memdesc:a7da0a78dd50bbc8db7cfcb7ef868b83d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of leaves in whole tree Generated from method <span class="tt"><a class="el" href="#a7da0a78dd50bbc8db7cfcb7ef868b83d" title="returns the number of leaves in whole tree Generated from method MR.AABBTree.numLeaves.">MR.AABBTree.numLeaves</a></span>.  <br /></td></tr>
 <tr class="memitem:a43ac2e9671daa9f89263dec5f0d3823e" id="r_a43ac2e9671daa9f89263dec5f0d3823e"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Vector_MRNodeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43ac2e9671daa9f89263dec5f0d3823e">getSubtrees</a> (int minNum)</td></tr>
@@ -200,7 +206,7 @@ Properties</h2></td></tr>
 <tr class="memdesc:ae6c4790d03f7b7ea78755dcc9bc72408"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to any node Generated from method <span class="tt">MR::AABBTree::operator[]</span>.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>bounding volume hierarchy Generated from class <span class="tt"><a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy Generated from class MR.AABBTree. Base classes: Direct: (non-virtual) MR....">MR.AABBTree</a></span>. Base classes: Direct: (non-virtual) <span class="tt">MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <a class="el" href="structMR_1_1Box3f.html" title="Box given by its min- and max- corners Generated from class MR.Box3f. This is the by-value version of...">MR.Box3f</a>&amp;gt;&amp;gt;</span> This is the const half of the class. </p>
+<div class="textblock"><p>bounding volume hierarchy of mesh triangles; it keeps the vertex ids of its triangles, so a change of mesh topology requires either <a class="el" href="classMR_1_1Mesh.html#a2456faa5acbeb85adca2cf5b496df684" title="invalidates caches (aabb-trees) after any change in mesh geometry or topology">Mesh.invalidateCaches()</a> or updateTriangulation(), and <a class="el" href="classMR_1_1MeshTopology.html#aa8f93500c5a7191443286a5d8bddba59" title="flip orientation (normals) of">MeshTopology.flipOrientation()</a> requires flipOrientation() here (as <a class="el" href="classMR_1_1Mesh.html#aab97ab86dfe2e3639c8fea871640b592" title="changes the orientation of all triangles, or only of the components with given edges as MeshTopology....">Mesh.flipOrientation()</a> does) Generated from class <span class="tt"><a class="el" href="classMR_1_1AABBTree.html" title="bounding volume hierarchy of mesh triangles; it keeps the vertex ids of its triangles,...">MR.AABBTree</a></span>. Base classes: Direct: (non-virtual) <span class="tt">MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <a class="el" href="structMR_1_1Box3f.html" title="Box given by its min- and max- corners Generated from class MR.Box3f. This is the by-value version of...">MR.Box3f</a>&amp;gt;&amp;gt;</span> This is the const half of the class. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4ca190897eed98cd71470214cf3a0a05" name="a4ca190897eed98cd71470214cf3a0a05"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ca190897eed98cd71470214cf3a0a05">&#9670;&#160;</a></span>Const_AABBTree() <span class="overload">[1/3]</span></h2>
@@ -493,6 +499,91 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="#a011e8d3955977b9e51e774c6b1be340e" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.AABBTree.heapBytes</a></span>. </p>
+
+</div>
+</div>
+<a id="af964c6974eb36ca7bc84e288f15879e8" name="af964c6974eb36ca7bc84e288f15879e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af964c6974eb36ca7bc84e288f15879e8">&#9670;&#160;</a></span>leafTriangulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1Const__Vector__StdArrayMRVertId3.html">MR.Const_Vector_StdArrayMRVertId3</a> MR.Const_AABBTree.leafTriangulation </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>vertex ids of the faces of all leaves in the order of Node::leafPos(), which is the order of leaf nodes after construction Generated from method <span class="tt"><a class="el" href="#af964c6974eb36ca7bc84e288f15879e8" title="vertex ids of the faces of all leaves in the order of Node.leafPos(), which is the order of leaf node...">MR.AABBTree.leafTriangulation</a></span>. </p>
+
+</div>
+</div>
+<a id="a15ad38d6345be6d9a95f19a00341f615" name="a15ad38d6345be6d9a95f19a00341f615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15ad38d6345be6d9a95f19a00341f615">&#9670;&#160;</a></span>leafTriPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Array_MRVector3f_3 MR.Const_AABBTree.leafTriPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a></td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html">MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</a></td>          <td class="paramname"><span class="paramname"><em>leaf</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the coordinates of the vertices of the face of given leaf node in the order of <a class="el" href="#aa45cf69c2aee222c515c0a60aa5cc555" title="returns vertex ids of the face of given leaf node Generated from method MR.AABBTree....">leafTriVerts()</a> Generated from method <span class="tt"><a class="el" href="#a15ad38d6345be6d9a95f19a00341f615" title="returns the coordinates of the vertices of the face of given leaf node in the order of leafTriVerts()...">MR.AABBTree.leafTriPoints</a></span>. </p>
+
+</div>
+</div>
+<a id="aa45cf69c2aee222c515c0a60aa5cc555" name="aa45cf69c2aee222c515c0a60aa5cc555"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa45cf69c2aee222c515c0a60aa5cc555">&#9670;&#160;</a></span>leafTriVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe ref readonly MR.Std.Array_MRVertId_3 MR.Const_AABBTree.leafTriVerts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f.html">MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</a></td>          <td class="paramname"><span class="paramname"><em>leaf</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns vertex ids of the face of given leaf node Generated from method <span class="tt"><a class="el" href="#aa45cf69c2aee222c515c0a60aa5cc555" title="returns vertex ids of the face of given leaf node Generated from method MR.AABBTree....">MR.AABBTree.leafTriVerts</a></span>. </p>
 
 </div>
 </div>

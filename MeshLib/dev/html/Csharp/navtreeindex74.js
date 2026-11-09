@@ -1,5 +1,14 @@
 var NAVTREEINDEX74 =
 {
+"classMR_1_1Const__Polynomial__Float__1.html#a343995dd85a9818eba2782ff3f6664c5":[9,3,0,0,0,777,4],
+"classMR_1_1Const__Polynomial__Float__1.html#a79fc876e52eae954c768967557eabcc4":[9,3,0,0,0,777,5],
+"classMR_1_1Const__Polynomial__Float__1.html#a8ae9dfd97c9d9586be9e2ee4c0d01b02":[9,3,0,0,0,777,2],
+"classMR_1_1Const__Polynomial__Float__1.html#ad4bea4f52af1e6238d28963f21acfebb":[9,3,0,0,0,777,8],
+"classMR_1_1Const__Polynomial__Float__1.html#aeaf93c2286e5bbcc972f507840642518":[9,3,0,0,0,777,1],
+"classMR_1_1Const__Polynomial__Float__2.html":[9,3,0,0,0,778],
+"classMR_1_1Const__Polynomial__Float__2.html#a052e6c1974d7e18a4f6b4e63412ccb78":[9,3,0,0,0,778,6],
+"classMR_1_1Const__Polynomial__Float__2.html#a31b98c688144594b6a64660c6b28c6af":[9,3,0,0,0,778,7],
+"classMR_1_1Const__Polynomial__Float__2.html#a3827e636c91ab9fcebcdaf42957e25ed":[9,3,0,0,0,778,5],
 "classMR_1_1Const__Polynomial__Float__2.html#a40354f039b2dc7e4621b4b1b2fb75d43":[9,3,0,0,0,778,2],
 "classMR_1_1Const__Polynomial__Float__2.html#a68e57dbd9d0d8e7ed44bcdb1242d016c":[9,3,0,0,0,778,10],
 "classMR_1_1Const__Polynomial__Float__2.html#a71b58d04eb624787600340439f5c8606":[9,3,0,0,0,778,8],
@@ -240,14 +249,5 @@ var NAVTREEINDEX74 =
 "classMR_1_1Const__Quaterniond.html#aa76759f4b0386355469609d455e9bf36":[9,3,0,0,0,797,13],
 "classMR_1_1Const__Quaterniond.html#ab2abd44ff0bb07cad874f6617c3aa19e":[9,3,0,0,0,797,8],
 "classMR_1_1Const__Quaterniond.html#ab359b8ddbadf9668637305b2c3b99f9f":[9,3,0,0,0,797,29],
-"classMR_1_1Const__Quaterniond.html#ac4cac63899493e757d27ea05e97e2b1c":[9,3,0,0,0,797,23],
-"classMR_1_1Const__Quaterniond.html#acddd993f147b33f2e1538cbda8656678":[9,3,0,0,0,797,19],
-"classMR_1_1Const__Quaterniond.html#ada57a92d810581aa10b44e1ac0ad774a":[9,3,0,0,0,797,4],
-"classMR_1_1Const__Quaterniond.html#adb54d24ed731a1a24a0f6b68ac4db059":[9,3,0,0,0,797,20],
-"classMR_1_1Const__Quaterniond.html#adc7167eaeed2283b688e354929b134b2":[9,3,0,0,0,797,31],
-"classMR_1_1Const__Quaterniond.html#ae62cdee3b22df8457f7256b62e62f851":[9,3,0,0,0,797,16],
-"classMR_1_1Const__Quaterniond.html#aeb2315682ca6f39d58f0596615669015":[9,3,0,0,0,797,28],
-"classMR_1_1Const__Quaterniond.html#af5a49b91f14e35faacafdd4bce822009":[9,3,0,0,0,797,15],
-"classMR_1_1Const__Quaterniond.html#afa2595453636ab4df527a4056943a350":[9,3,0,0,0,797,26],
-"classMR_1_1Const__Quaternionf.html":[9,3,0,0,0,798]
+"classMR_1_1Const__Quaterniond.html#ac4cac63899493e757d27ea05e97e2b1c":[9,3,0,0,0,797,23]
 };

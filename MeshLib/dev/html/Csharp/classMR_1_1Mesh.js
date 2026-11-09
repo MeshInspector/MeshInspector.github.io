@@ -14,6 +14,7 @@ var classMR_1_1Mesh =
     [ "assign", "classMR_1_1Mesh.html#a3632624cd519de9bd01603d0ecb509f6", null ],
     [ "attachEdgeLoopPart", "classMR_1_1Mesh.html#ac0eeaab921700a0bb69e1e9f9ac81072", null ],
     [ "deleteFaces", "classMR_1_1Mesh.html#adad0b8879defc6c7855060282f4e79eb", null ],
+    [ "flipOrientation", "classMR_1_1Mesh.html#aab97ab86dfe2e3639c8fea871640b592", null ],
     [ "invalidateCaches", "classMR_1_1Mesh.html#a2456faa5acbeb85adca2cf5b496df684", null ],
     [ "mirror", "classMR_1_1Mesh.html#a2716bdfac62a94a52023c065250ba246", null ],
     [ "pack", "classMR_1_1Mesh.html#a40bcc4c788e89f4406504fa174d21ff9", null ],

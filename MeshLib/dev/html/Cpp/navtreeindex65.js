@@ -1,5 +1,13 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1FaceFaceFace.html":[9,0,0,19,536],
+"structMR_1_1FanRecord.html":[9,0,0,19,334],
+"structMR_1_1FanRecordWithCenter.html":[9,0,0,19,335],
+"structMR_1_1FeatureObjectProjectPointResult.html":[9,0,0,19,245],
+"structMR_1_1FeatureObjectSharedProperty.html":[9,0,0,19,244],
+"structMR_1_1Features_1_1MeasureResult.html":[9,0,0,19,251],
+"structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[9,0,0,19,254],
+"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[9,0,0,19,252],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[9,0,0,19,253],
 "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[9,0,0,19,250],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html":[9,0,0,19,249],
@@ -241,13 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a64963bd2f3582a91eab34d7a28323d5f":[9,0,1,0,1,17,3,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a64963bd2f3582a91eab34d7a28323d5f":[9,0,2,0,1,7,3,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#aea62b88f0b395d2c8a051864f80e62f9":[9,0,1,0,1,17,3,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#aea62b88f0b395d2c8a051864f80e62f9":[9,0,2,0,1,7,3,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[9,0,1,0,1,17,4],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[9,0,2,0,1,7,4],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a410882924f1531864aeae4b56402feca":[9,0,1,0,1,17,4,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a410882924f1531864aeae4b56402feca":[9,0,2,0,1,7,4,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#ac337c328d1e23a188ffa5660266acf20":[9,0,1,0,1,17,4,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#ac337c328d1e23a188ffa5660266acf20":[9,0,2,0,1,7,4,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#aea63e8c86e90a9f540bdce73fd2def7a":[9,0,1,0,1,17,4,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#aea63e8c86e90a9f540bdce73fd2def7a":[9,0,2,0,1,7,4,1]
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#aea62b88f0b395d2c8a051864f80e62f9":[9,0,2,0,1,7,3,0]
 };

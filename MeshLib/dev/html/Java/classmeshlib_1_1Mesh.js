@@ -53,6 +53,7 @@ var classmeshlib_1_1Mesh =
     [ "findCreaseEdges", "classmeshlib_1_1Mesh.html#a79ddbe4f00462c3a9ad9782fd8cb616d", null ],
     [ "findSharpEdges", "classmeshlib_1_1Mesh.html#af5aa888ed6caba54b187626fa679a47f", null ],
     [ "findSpikeVertices", "classmeshlib_1_1Mesh.html#ab6e352dfa8352f90f80005105f70b369", null ],
+    [ "flipOrientation", "classmeshlib_1_1Mesh.html#a489ba1367550919946780cbd58555315", null ],
     [ "getAABBTree", "classmeshlib_1_1Mesh.html#a1af89ce8af55093090d1f5e9db4fb523", null ],
     [ "getAABBTreeNotCreate", "classmeshlib_1_1Mesh.html#a3fbfb1a44557d76e27885174f05d5bf7", null ],
     [ "getAABBTreePoints", "classmeshlib_1_1Mesh.html#a9a3ce96d674601e0f616b3113bfd87af", null ],

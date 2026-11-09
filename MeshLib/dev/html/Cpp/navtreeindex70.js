@@ -1,5 +1,14 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[9,0,0,1,9],
+"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[9,0,0,1,9,0],
+"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[9,0,0,1,10],
+"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[9,0,0,1,10,0],
+"structMR_1_1Polynomial.html":[9,0,0,19,139],
+"structMR_1_1PolynomialWrapper.html":[9,0,0,19,140],
+"structMR_1_1PositionVertsSmoothlyParams.html":[9,0,0,19,479],
+"structMR_1_1PositionedText.html":[9,0,0,19,478],
+"structMR_1_1PostDrawListener.html":[9,0,0,19,813],
 "structMR_1_1PostFocusListener.html":[9,0,0,19,835],
 "structMR_1_1PostRescaleListener.html":[9,0,0,19,819],
 "structMR_1_1PostResizeListener.html":[9,0,0,19,817],
@@ -240,14 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SomeLocalTriangulations.html":[9,0,0,19,336],
 "structMR_1_1SortIntersectionsData.html":[9,0,0,19,435],
 "structMR_1_1SpaceMouseDownListener.html":[9,0,0,19,824],
-"structMR_1_1SpaceMouseMoveListener.html":[9,0,0,19,823],
-"structMR_1_1SpaceMouseUpListener.html":[9,0,0,19,825],
-"structMR_1_1SpaceMouse_1_1Action.html":[9,0,1,0,1,50,0],
-"structMR_1_1SpaceMouse_1_1Action.html":[9,0,2,0,1,33,0],
-"structMR_1_1SpaceMouse_1_1Action.html#a1e0813c3c0900b8ea40740c8eadf381a":[9,0,1,0,1,50,0,1],
-"structMR_1_1SpaceMouse_1_1Action.html#a1e0813c3c0900b8ea40740c8eadf381a":[9,0,2,0,1,33,0,1],
-"structMR_1_1SpaceMouse_1_1Action.html#a7b51eab6ff82e23fface5fb492999ba3":[9,0,1,0,1,50,0,3],
-"structMR_1_1SpaceMouse_1_1Action.html#a7b51eab6ff82e23fface5fb492999ba3":[9,0,2,0,1,33,0,3],
-"structMR_1_1SpaceMouse_1_1Action.html#a96ec36ec991e2a807c4173907db102f1":[9,0,1,0,1,50,0,2],
-"structMR_1_1SpaceMouse_1_1Action.html#a96ec36ec991e2a807c4173907db102f1":[9,0,2,0,1,33,0,2]
+"structMR_1_1SpaceMouseMoveListener.html":[9,0,0,19,823]
 };

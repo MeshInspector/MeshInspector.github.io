@@ -66,6 +66,7 @@ var MRMesh_8h =
     [ "MR_Mesh_findCreaseEdges", "MRMesh_8h.html#a8a1d802e8b289340ce148918a2edcea3", null ],
     [ "MR_Mesh_findSharpEdges", "MRMesh_8h.html#a3824645169af28c5c61befc921816bfd", null ],
     [ "MR_Mesh_findSpikeVertices", "MRMesh_8h.html#a641a81a13c090f4ada9a457b67edf651", null ],
+    [ "MR_Mesh_flipOrientation", "MRMesh_8h.html#a58f3d3ef1aff8d6df82c1f49f43ff527", null ],
     [ "MR_Mesh_fromFaceSoup", "MRMesh_8h.html#a3534e335cffaf9785fe46ee2c8562f5d", null ],
     [ "MR_Mesh_fromPointTriples", "MRMesh_8h.html#aa3457f469ba8577c5c434e7877ca718c", null ],
     [ "MR_Mesh_fromTriangles", "MRMesh_8h.html#a92f6f23656effc2bde0e4c7b3fabad19", null ],

@@ -298,8 +298,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a49da568d87acf71cf25460da1bd07d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends another mesh as separate connected component(s) to this  <br /></td></tr>
 <tr class="memitem:ac05aec705a09ff41edd35394ade19c16" id="r_ac05aec705a09ff41edd35394ade19c16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac05aec705a09ff41edd35394ade19c16">addMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;from, FaceMap *outFmap, VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr, bool rearrangeTriangles=false)</td></tr>
 <tr class="memitem:a40a4b434d26da4ffa956ad8cb72093ff" id="r_a40a4b434d26da4ffa956ad8cb72093ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40a4b434d26da4ffa956ad8cb72093ff">addMeshPart</a> (const MeshPart &amp;from, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map, <a class="el" href="structMR_1_1VacantElements.html">VacantElements</a> *vacant={})</td></tr>
-<tr class="memitem:a3eb0890a9d7a3fe58757bdd6768610ac" id="r_a3eb0890a9d7a3fe58757bdd6768610ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eb0890a9d7a3fe58757bdd6768610ac">addMeshPart</a> (const MeshPart &amp;from, bool flipOrientation=false, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;thisContours={}, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;fromContours={}, <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> map={}, <a class="el" href="structMR_1_1VacantElements.html">VacantElements</a> *vacant={})</td></tr>
-<tr class="memitem:ac4bbb2d333e304c960c0c097d67a4595" id="r_ac4bbb2d333e304c960c0c097d67a4595"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4bbb2d333e304c960c0c097d67a4595">cloneRegion</a> (const FaceBitSet &amp;region, bool flipOrientation=false, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={}) const</td></tr>
+<tr class="memitem:a3eb0890a9d7a3fe58757bdd6768610ac" id="r_a3eb0890a9d7a3fe58757bdd6768610ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eb0890a9d7a3fe58757bdd6768610ac">addMeshPart</a> (const MeshPart &amp;from, bool <a class="el" href="#a6800ddc484384e7ced6d508567a2dd12">flipOrientation</a>=false, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;thisContours={}, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;fromContours={}, <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> map={}, <a class="el" href="structMR_1_1VacantElements.html">VacantElements</a> *vacant={})</td></tr>
+<tr class="memitem:ac4bbb2d333e304c960c0c097d67a4595" id="r_ac4bbb2d333e304c960c0c097d67a4595"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4bbb2d333e304c960c0c097d67a4595">cloneRegion</a> (const FaceBitSet &amp;region, bool <a class="el" href="#a6800ddc484384e7ced6d508567a2dd12">flipOrientation</a>=false, const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={}) const</td></tr>
 <tr class="memdesc:ac4bbb2d333e304c960c0c097d67a4595"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates new mesh from given triangles of this mesh  <br /></td></tr>
 <tr class="memitem:a195c509bc89bff7c15ae4f20a0659b36" id="r_a195c509bc89bff7c15ae4f20a0659b36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a195c509bc89bff7c15ae4f20a0659b36">pack</a> (const <a class="el" href="structMR_1_1PartMapping.html">PartMapping</a> &amp;map={}, bool rearrangeTriangles=false)</td></tr>
 <tr class="memdesc:a195c509bc89bff7c15ae4f20a0659b36"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid faces, vertices and points  <br /></td></tr>
@@ -328,6 +328,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a47afb5a6c704c55128ab6c07680ebaf4" id="r_a47afb5a6c704c55128ab6c07680ebaf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47afb5a6c704c55128ab6c07680ebaf4">invalidateCaches</a> (bool pointsChanged=true)</td></tr>
 <tr class="memitem:a5234fc402df7b5912834413c90f4dd10" id="r_a5234fc402df7b5912834413c90f4dd10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5234fc402df7b5912834413c90f4dd10">updateCaches</a> (const VertBitSet *changedVerts)</td></tr>
 <tr class="memitem:a09a97bb00b1eac52db441f32170cbcc6" id="r_a09a97bb00b1eac52db441f32170cbcc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09a97bb00b1eac52db441f32170cbcc6">updateCachesAfterSplits</a> (const <a class="el" href="group__GeneralGroup.html#ga93482f559c684be16c718d5acd291d3e">FaceHashMap</a> &amp;new2Old)</td></tr>
+<tr class="memitem:a6800ddc484384e7ced6d508567a2dd12" id="r_a6800ddc484384e7ced6d508567a2dd12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6800ddc484384e7ced6d508567a2dd12">flipOrientation</a> (const UndirectedEdgeBitSet *fullComponents=nullptr)</td></tr>
 <tr class="memitem:a938ddf04e638f19c080b5dc443141629" id="r_a938ddf04e638f19c080b5dc443141629"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a938ddf04e638f19c080b5dc443141629">heapBytes</a> () const</td></tr>
 <tr class="memdesc:a938ddf04e638f19c080b5dc443141629"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:a100fbcee62af5a8779713b186d7e6824" id="r_a100fbcee62af5a8779713b186d7e6824"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a100fbcee62af5a8779713b186d7e6824">shrinkToFit</a> ()</td></tr>
@@ -1809,6 +1810,24 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns vertices where the sum of triangle angles is below given threshold </p>
+
+</div>
+</div>
+<a id="a6800ddc484384e7ced6d508567a2dd12" name="a6800ddc484384e7ced6d508567a2dd12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6800ddc484384e7ced6d508567a2dd12">&#9670;&#160;</a></span>flipOrientation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Mesh::flipOrientation </td>
+          <td>(</td>
+          <td class="paramtype">const UndirectedEdgeBitSet *</td>          <td class="paramname"><span class="paramname"><em>fullComponents</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>changes the orientation of all triangles, or only of the components with given edges as <a class="el" href="group__GeneralGroup.html#ga5a84b9039b6fb046ebf4ea974748c4e6">MeshTopology::flipOrientation()</a> does, and updates existing AABB tree instead of rebuilding it </p>
 
 </div>
 </div>
