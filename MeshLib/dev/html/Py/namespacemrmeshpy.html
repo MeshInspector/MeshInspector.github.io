@@ -38187,6 +38187,7 @@ the other isolines are closed, with the last intersection equal to the first one
 4. Orientation of contours:
    a. left  of contours on mesh A is inside of mesh B (consequence of 3a),
    b. right of contours on mesh B is inside of mesh A (consequence of 3b).
+Returns no contours if two intersections have the same next one, which only a mesh with a face that is not a triangle is known to give.
 </pre> 
 </div>
 </div>
@@ -38224,6 +38225,7 @@ the other isolines are closed, with the last intersection equal to the first one
 5. Orientation of contours:
    a. first element of even (0,2,...) contours has isEdgeATriB() = true, left of even contours goes inside (consequence of 3a),
    b. first element of odd (1,3,...) contours has isEdgeATriB() = false, right of odd contours goes inside (consequence of 3b).
+Returns no contours if two intersections have the same next one, which only a mesh with a face that is not a triangle is known to give.
 </pre> 
 </div>
 </div>
