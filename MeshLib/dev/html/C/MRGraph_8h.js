@@ -6,6 +6,7 @@ var MRGraph_8h =
     [ "MR_std_vector_MR_GraphEdgeId", "MRGraph_8h.html#a69bf1e3186eb9f5254b48c24d41f5de7", null ],
     [ "MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId", "MRGraph_8h.html#aa587fe38469cba58044669a58438b656", null ],
     [ "MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId", "MRGraph_8h.html#a4dc64f4d7249dc400451d0a7774feb7a", null ],
+    [ "MR_compare_three_way_MR_Graph_EndVertices", "MRGraph_8h.html#aba1f4b795860ef538cbb4a8ea6f1d40e", null ],
     [ "MR_equal_MR_Graph_EndVertices", "MRGraph_8h.html#a4ad4175d1bdee5aa713ea9b075ce09e8", null ],
     [ "MR_Graph_areNeighbors", "MRGraph_8h.html#a3c5ad21314dbeb7fe5ff3f8dcfce436c", null ],
     [ "MR_Graph_AssignFromAnother", "MRGraph_8h.html#ac2eb1d05eb9c746edfbb9112437a172c", null ],

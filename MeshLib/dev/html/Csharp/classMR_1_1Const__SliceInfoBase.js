@@ -4,6 +4,7 @@ var classMR_1_1Const__SliceInfoBase =
     [ "Const_SliceInfoBase", "classMR_1_1Const__SliceInfoBase.html#ad5ace6773cddcaec9decc8e5633b40f9", null ],
     [ "Const_SliceInfoBase", "classMR_1_1Const__SliceInfoBase.html#a3fca98820dbf1b7d43093422ca548ae2", null ],
     [ "Const_SliceInfoBase", "classMR_1_1Const__SliceInfoBase.html#a08167391a4a3ed5daa7f5b6c57a8adbb", null ],
+    [ "compareThreeWay", "classMR_1_1Const__SliceInfoBase.html#adc17eeabbb4981d0a5be17ac9894d31b", null ],
     [ "Dispose", "classMR_1_1Const__SliceInfoBase.html#a600a81b84a06bde132375ffe7c9756d4", null ],
     [ "Dispose", "classMR_1_1Const__SliceInfoBase.html#a35a1d37a5a22c0ded05c48d41e1cbcbe", null ],
     [ "Equals", "classMR_1_1Const__SliceInfoBase.html#a024bfa88b595ba118b82c33e0cf5564c", null ],

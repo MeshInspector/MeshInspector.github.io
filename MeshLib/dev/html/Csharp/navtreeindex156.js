@@ -1,5 +1,15 @@
 var NAVTREEINDEX156 =
 {
+"functions_vars_z.html":[9,3,0,3,2,13],
+"functions_w.html":[9,3,0,3,0,22],
+"functions_x.html":[9,3,0,3,0,23],
+"functions_y.html":[9,3,0,3,0,24],
+"functions_z.html":[9,3,0,3,0,25],
+"hierarchy.html":[9,3,0,2],
+"index.html":[],
+"pages.html":[],
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8cs.html":[9,3,1,0,0,0,0,11],
+"std__shared__ptr__MR__Cuda__FastWindingNumber_8cs.html":[9,3,1,0,0,0,0,12],
 "std__shared__ptr__MR__Cuda__PointsToMeshProjector_8cs.html":[9,3,1,0,0,0,0,13],
 "structMR_1_1AffineXf2d.html":[9,3,0,0,0,27],
 "structMR_1_1AffineXf2d.html#a0836bbc80758d9a05a247e3b4de4b24e":[9,3,0,0,0,27,8],
@@ -239,15 +249,5 @@ var NAVTREEINDEX156 =
 "structMR_1_1Box1f.html#ad0e222593a680fd27ac09eefd4d951cc":[9,3,0,0,0,78,48],
 "structMR_1_1Box1f.html#ad43e86cf380e146bdc93653863f47fb2":[9,3,0,0,0,78,6],
 "structMR_1_1Box1f.html#ad4527be7c669852cd9f72eabbed2d06f":[9,3,0,0,0,78,46],
-"structMR_1_1Box1f.html#aec77cc5f3c95cdce98ee120f1b7319ae":[9,3,0,0,0,78,41],
-"structMR_1_1Box1f.html#af108f2c3b6577b0cc79f82c09cfa50b3":[9,3,0,0,0,78,0],
-"structMR_1_1Box1f.html#af86afe98a39bcb8b70aef268cd687d9c":[9,3,0,0,0,78,11],
-"structMR_1_1Box1f.html#afbc33f1635950ec50e0295ede27a9195":[9,3,0,0,0,78,5],
-"structMR_1_1Box1i.html":[9,3,0,0,0,79],
-"structMR_1_1Box1i.html#a01e4bb7a5811ed9d938d248d90c34def":[9,3,0,0,0,79,5],
-"structMR_1_1Box1i.html#a05cf5cb1750a6c86f63de56f5ec37d6c":[9,3,0,0,0,79,9],
-"structMR_1_1Box1i.html#a0a12f34e2b3a99ee63ccca8607f45ea4":[9,3,0,0,0,79,28],
-"structMR_1_1Box1i.html#a1362c48e3de06b717341a083de178819":[9,3,0,0,0,79,15],
-"structMR_1_1Box1i.html#a19d3570f031a1f84c004197e7c6a8a5e":[9,3,0,0,0,79,55],
-"structMR_1_1Box1i.html#a1ef449a2d68137443747e37c2319ab91":[9,3,0,0,0,79,47]
+"structMR_1_1Box1f.html#aec77cc5f3c95cdce98ee120f1b7319ae":[9,3,0,0,0,78,41]
 };

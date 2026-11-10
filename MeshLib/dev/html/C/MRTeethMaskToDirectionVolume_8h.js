@@ -1,5 +1,6 @@
 var MRTeethMaskToDirectionVolume_8h =
 [
+    [ "MR_compare_three_way_MR_DentalId", "MRTeethMaskToDirectionVolume_8h.html#afd4273925f7f1b6d947d0f14037af866", null ],
     [ "MR_DentalId_AssignFromAnother", "MRTeethMaskToDirectionVolume_8h.html#ae410a30fa357fbbe725d96ea4ef45625", null ],
     [ "MR_DentalId_ConstructFromAnother", "MRTeethMaskToDirectionVolume_8h.html#a3d5afb97aa2f556f52c582b2c45d7bef", null ],
     [ "MR_DentalId_Destroy", "MRTeethMaskToDirectionVolume_8h.html#a99443e08074f5d4ba377d226fd060456", null ],

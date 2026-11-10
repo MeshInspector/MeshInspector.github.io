@@ -12,6 +12,7 @@ var structmeshlib_1_1MeshPointAndDistance =
     [ "loc_mut", "structmeshlib_1_1MeshPointAndDistance.html#a887cc0cec5104593ade20b8c4ec49d69", null ],
     [ "mtp", "structmeshlib_1_1MeshPointAndDistance.html#a82d7517563128e817ad02e0415ab1c4f", null ],
     [ "mtp_mut", "structmeshlib_1_1MeshPointAndDistance.html#a2d38e871a766a5ccd0ce266b5743c4c0", null ],
+    [ "op_compare_three_way", "structmeshlib_1_1MeshPointAndDistance.html#a05c4e6530f7ec619adc764e6d2a62ec5", null ],
     [ "op_greater", "structmeshlib_1_1MeshPointAndDistance.html#ab8762e98664b7dbdf167258745ded76f", null ],
     [ "op_greater_equal", "structmeshlib_1_1MeshPointAndDistance.html#ae6762ffc1a1b1aff48c129c993455b9c", null ],
     [ "op_less", "structmeshlib_1_1MeshPointAndDistance.html#a6fbf2f49ec77a759f67588936ba9a360", null ],

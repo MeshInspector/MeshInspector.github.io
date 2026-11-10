@@ -1,5 +1,12 @@
 var NAVTREEINDEX80 =
 {
+"classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#a8bf0fa28205e3b0d06a3b743d996ada8":[9,3,0,0,0,871,9],
+"classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#a9dff428055f5ef4634146877c1901363":[9,3,0,0,0,871,4],
+"classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#a9fc64bef2cd153e8d20c4cc573439013":[9,3,0,0,0,871,1],
+"classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#ac2055c90a4874b2d972c698b7498dc08":[9,3,0,0,0,871,12],
+"classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#aca092ab9be9ee0542a9f50bcfbc6f7c9":[9,3,0,0,0,871,3],
+"classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#ad73763ccb2c16449ba673a484a41478e":[9,3,0,0,0,871,11],
+"classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#aec9b19e356de9571691cc278eb32ba25":[9,3,0,0,0,871,5],
 "classMR_1_1Const__SetBitIteratorT__MRRegionBitSet.html#aef9ec994c41c3c8c9826691b2373e55b":[9,3,0,0,0,871,13],
 "classMR_1_1Const__SetBitIteratorT__MRTextureBitSet.html":[9,3,0,0,0,872],
 "classMR_1_1Const__SetBitIteratorT__MRTextureBitSet.html#a16fb2b5a98937230947757a78e97e17f":[9,3,0,0,0,872,4],
@@ -242,12 +249,5 @@ var NAVTREEINDEX80 =
 "classMR_1_1Const__SimpleVolumeMinMax.html#a4c89445bda894ca0cf7221b3a75e8fcc":[9,3,0,0,0,885,32],
 "classMR_1_1Const__SimpleVolumeMinMax.html#a6202e4cd6321e6fa27bb451ac5c9690e":[9,3,0,0,0,885,21],
 "classMR_1_1Const__SimpleVolumeMinMax.html#a6c6f1dfabc8eb18bc6d9f5bbf8f717de":[9,3,0,0,0,885,10],
-"classMR_1_1Const__SimpleVolumeMinMax.html#a6de57f43bcb71c73b651318d351e3c38":[9,3,0,0,0,885,25],
-"classMR_1_1Const__SimpleVolumeMinMax.html#a77a741c4f08d460893563a927a4eac58":[9,3,0,0,0,885,34],
-"classMR_1_1Const__SimpleVolumeMinMax.html#a7a0a31f98c0c4361e67183c7dde051e8":[9,3,0,0,0,885,15],
-"classMR_1_1Const__SimpleVolumeMinMax.html#a7afe7fb06b361bd6651f35e72b057b84":[9,3,0,0,0,885,20],
-"classMR_1_1Const__SimpleVolumeMinMax.html#a7b27c290bd57c273729127e886221001":[9,3,0,0,0,885,35],
-"classMR_1_1Const__SimpleVolumeMinMax.html#a7b3845b549b94e3923986ff1bc02fcb6":[9,3,0,0,0,885,33],
-"classMR_1_1Const__SimpleVolumeMinMax.html#a7ce092437403bf3b1ff033eb5c2be651":[9,3,0,0,0,885,13],
-"classMR_1_1Const__SimpleVolumeMinMax.html#a8807213f2191bb03476b8ab47b24a735":[9,3,0,0,0,885,9]
+"classMR_1_1Const__SimpleVolumeMinMax.html#a6de57f43bcb71c73b651318d351e3c38":[9,3,0,0,0,885,25]
 };

@@ -7,6 +7,7 @@ var classmeshlib_1_1UndirectedEdgeUndirectedEdge =
     [ "assignFromAnother", "classmeshlib_1_1UndirectedEdgeUndirectedEdge.html#a88affcd401becb835f2800c68a1d6dbc", null ],
     [ "aUndirEdge", "classmeshlib_1_1UndirectedEdgeUndirectedEdge.html#a7a34387168f579f95cc7e51f4847b243", null ],
     [ "bUndirEdge", "classmeshlib_1_1UndirectedEdgeUndirectedEdge.html#a010fd799779c0082a8080cb35b50a1b3", null ],
+    [ "opCompareThreeWay", "classmeshlib_1_1UndirectedEdgeUndirectedEdge.html#ae9aeb13eecd8e4dca86bcb3cfec11edb", null ],
     [ "opEqual", "classmeshlib_1_1UndirectedEdgeUndirectedEdge.html#aab7a3223d1be6649a6efeaa061d73cf9", null ],
     [ "opGreater", "classmeshlib_1_1UndirectedEdgeUndirectedEdge.html#aa9922430b6a1a08e26f0e480c19f5fd2", null ],
     [ "opGreaterEqual", "classmeshlib_1_1UndirectedEdgeUndirectedEdge.html#abf3b5ec9afdff68fa12599fdab9a1ab8", null ],

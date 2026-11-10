@@ -3,6 +3,7 @@ var structmeshlib_1_1PointsProjectionResult =
     [ "assign_from_another", "structmeshlib_1_1PointsProjectionResult.html#a0a24dedf7f684db43d178e92f016bba4", null ],
     [ "dist_sq", "structmeshlib_1_1PointsProjectionResult.html#a0d0212e4ad6f230c593523cd2d993b20", null ],
     [ "dist_sq_mut", "structmeshlib_1_1PointsProjectionResult.html#ab358e8c904745c62ec40ba6306948cfd", null ],
+    [ "op_compare_three_way", "structmeshlib_1_1PointsProjectionResult.html#a48103fbd255aa178621e640f49bccf76", null ],
     [ "op_equal", "structmeshlib_1_1PointsProjectionResult.html#ac63b8d89c940e9076c84b870eebd589a", null ],
     [ "op_greater", "structmeshlib_1_1PointsProjectionResult.html#a9ed78d85fffa6b3deb5a4d1fc82f9e46", null ],
     [ "op_greater_equal", "structmeshlib_1_1PointsProjectionResult.html#a30c195ed425f528d05b3c87d1adb7cc8", null ],

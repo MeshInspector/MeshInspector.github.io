@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"classmeshlib_1_1EdgePathsBuilderT__MR__MetricToAStarPenalty__ReachedVert.html#af2740b6082d539c2612a592dcc9f7126":[9,6,0,0,0,315,5],
+"classmeshlib_1_1EdgePathsBuilderT__MR__MetricToAStarPenalty__ReachedVert.html#af2740b6082d539c2612a592dcc9f7126":[9,6,1,0,0,315,5],
 "classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty.html":[9,6,0,0,0,316],
 "classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty.html":[9,6,1,0,0,316],
 "classmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty.html#a1519cfb2f2e96f03cbe890ad8f039f2f":[9,6,0,0,0,316,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX45 =
 "classmeshlib_1_1EdgeScalars.html#aafe6351e49606bb2d30a77813afc8162":[9,6,0,0,0,322,5],
 "classmeshlib_1_1EdgeScalars.html#aafe6351e49606bb2d30a77813afc8162":[9,6,1,0,0,322,5],
 "classmeshlib_1_1EdgeScalars.html#ac25efc01a78edb348bac02b82d2706ea":[9,6,0,0,0,322,21],
-"classmeshlib_1_1EdgeScalars.html#ac25efc01a78edb348bac02b82d2706ea":[9,6,1,0,0,322,21],
-"classmeshlib_1_1EdgeScalars.html#ac6962c57f23a8b3909508c8a9a441c2d":[9,6,0,0,0,322,9],
-"classmeshlib_1_1EdgeScalars.html#ac6962c57f23a8b3909508c8a9a441c2d":[9,6,1,0,0,322,9]
+"classmeshlib_1_1EdgeScalars.html#ac25efc01a78edb348bac02b82d2706ea":[9,6,1,0,0,322,21]
 };

@@ -1178,6 +1178,7 @@ var dir_e09892e4a4fe1e1db812108bb7b7ae9b =
     [ "std_pair_std_vector_MR_FaceBitSet_int.java", "std__pair__std__vector__MR__FaceBitSet__int_8java.html", "std__pair__std__vector__MR__FaceBitSet__int_8java" ],
     [ "std_pair_std_vector_MR_UndirectedEdgeBitSet_int.java", "std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8java.html", "std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8java" ],
     [ "std_pair_std_vector_MR_VertBitSet_int.java", "std__pair__std__vector__MR__VertBitSet__int_8java.html", "std__pair__std__vector__MR__VertBitSet__int_8java" ],
+    [ "std_partial_ordering.java", "std__partial__ordering_8java.html", "std__partial__ordering_8java" ],
     [ "std_set_std_string.java", "std__set__std__string_8java.html", "std__set__std__string_8java" ],
     [ "std_set_std_string_const_iterator.java", "std__set__std__string__const__iterator_8java.html", "std__set__std__string__const__iterator_8java" ],
     [ "std_shared_ptr_const_MR_Mesh.java", "std__shared__ptr__const__MR__Mesh_8java.html", "std__shared__ptr__const__MR__Mesh_8java" ],

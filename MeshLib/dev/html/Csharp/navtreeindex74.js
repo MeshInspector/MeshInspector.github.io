@@ -1,5 +1,12 @@
 var NAVTREEINDEX74 =
 {
+"classMR_1_1Const__Polyline2.html#aa5baa2987450efcbebaeab9c0bb85d21":[9,3,0,0,0,788,4],
+"classMR_1_1Const__Polyline2.html#aad104b179ee69b525c423dc9f2eb7394":[9,3,0,0,0,788,16],
+"classMR_1_1Const__Polyline2.html#ab29662e0443cb68762b87e0e066cc47d":[9,3,0,0,0,788,1],
+"classMR_1_1Const__Polyline2.html#ac202551f3e96340996ba910f6d8bd298":[9,3,0,0,0,788,32],
+"classMR_1_1Const__Polyline2.html#acce3f0e4eddc1a3c141cba591e54f27e":[9,3,0,0,0,788,7],
+"classMR_1_1Const__Polyline2.html#acf1dbc5888bee9e01248f6418ca58eb0":[9,3,0,0,0,788,31],
+"classMR_1_1Const__Polyline2.html#acff97915ea8d242a9b072e8c4a754a4b":[9,3,0,0,0,788,22],
 "classMR_1_1Const__Polyline2.html#ad6b95d0299d0fc542b6001e5429d3d28":[9,3,0,0,0,788,17],
 "classMR_1_1Const__Polyline2.html#ae642d2248b997c2e94c810aba741f346":[9,3,0,0,0,788,18],
 "classMR_1_1Const__Polyline2.html#ae9e74c614269084d31194d9d056429ec":[9,3,0,0,0,788,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX74 =
 "classMR_1_1Const__PolylineUndirectedEdgeIterator.html#a4eb5ab20865163bcd4c37fe81c27b2b8":[9,3,0,0,0,803,1],
 "classMR_1_1Const__PolylineUndirectedEdgeIterator.html#a53bcfc242247b92bb564de5eb7885c62":[9,3,0,0,0,803,9],
 "classMR_1_1Const__PolylineUndirectedEdgeIterator.html#a6a80a86ed9c982f6fdcc91e55446a3fd":[9,3,0,0,0,803,2],
-"classMR_1_1Const__PolylineUndirectedEdgeIterator.html#a83f1060220ce0cddde4698b32aab860a":[9,3,0,0,0,803,4],
-"classMR_1_1Const__PolylineUndirectedEdgeIterator.html#a8bb1eb5ba5e8228de4bde93cc047b092":[9,3,0,0,0,803,11],
-"classMR_1_1Const__PolylineUndirectedEdgeIterator.html#ab22a0953e123c85165e5d74e64c968c0":[9,3,0,0,0,803,10],
-"classMR_1_1Const__PolylineUndirectedEdgeIterator.html#ab941c621fe077ee445bc62ee7fda3725":[9,3,0,0,0,803,6],
-"classMR_1_1Const__PolylineUndirectedEdgeIterator.html#ac4bcd952d51d7ec8462b56811ebb0e1d":[9,3,0,0,0,803,7],
-"classMR_1_1Const__PolynomialWrapper__Double.html":[9,3,0,0,0,818],
-"classMR_1_1Const__PolynomialWrapper__Double.html#a4739892854a821402c891bf98195a740":[9,3,0,0,0,818,6],
-"classMR_1_1Const__PolynomialWrapper__Double.html#a5fe042b1ec436bf59052bd6dfe4572ae":[9,3,0,0,0,818,2]
+"classMR_1_1Const__PolylineUndirectedEdgeIterator.html#a83f1060220ce0cddde4698b32aab860a":[9,3,0,0,0,803,4]
 };

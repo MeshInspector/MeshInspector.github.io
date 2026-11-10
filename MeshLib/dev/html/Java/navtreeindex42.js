@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"classmeshlib_1_1DistanceToMeshOptions.html#abc833cb709ec130ce79abc01cf828ba4":[9,6,0,0,0,299,4],
+"classmeshlib_1_1DistanceToMeshOptions.html#abc833cb709ec130ce79abc01cf828ba4":[9,6,1,0,0,299,4],
 "classmeshlib_1_1DistanceToMeshOptions.html#ace5f858d255a415a680cc1fb4b7785a9":[9,6,0,0,0,299,6],
 "classmeshlib_1_1DistanceToMeshOptions.html#ace5f858d255a415a680cc1fb4b7785a9":[9,6,1,0,0,299,6],
 "classmeshlib_1_1DistanceToMeshOptions.html#ad19dc5d108317e4f99d9ed5b9cd24b25":[9,6,0,0,0,299,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "classmeshlib_1_1DracoSaveOptions.html#af81069cb39fed9d3a0233ba7df99a285":[9,6,0,0,0,306,34],
 "classmeshlib_1_1DracoSaveOptions.html#af81069cb39fed9d3a0233ba7df99a285":[9,6,1,0,0,306,34],
 "classmeshlib_1_1DracoSaveOptions.html#af8bd3933ac6d2a306e6e2c3f0709e40d":[9,6,0,0,0,306,1],
-"classmeshlib_1_1DracoSaveOptions.html#af8bd3933ac6d2a306e6e2c3f0709e40d":[9,6,1,0,0,306,1],
-"classmeshlib_1_1EdgeBMap.html":[9,6,0,0,0,308],
-"classmeshlib_1_1EdgeBMap.html":[9,6,1,0,0,308]
+"classmeshlib_1_1DracoSaveOptions.html#af8bd3933ac6d2a306e6e2c3f0709e40d":[9,6,1,0,0,306,1]
 };

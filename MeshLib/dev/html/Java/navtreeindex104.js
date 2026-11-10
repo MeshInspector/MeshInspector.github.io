@@ -1,5 +1,17 @@
 var NAVTREEINDEX104 =
 {
+"classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__AlphaType.html":[9,6,0,0,0,746],
+"classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__AlphaType.html":[9,6,1,0,0,746],
+"classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__AlphaType.html#a04435f4452dae157bc789280bcfa87fd":[9,6,0,0,0,746,4],
+"classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__AlphaType.html#a04435f4452dae157bc789280bcfa87fd":[9,6,1,0,0,746,4],
+"classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__AlphaType.html#a4787eaafe097ee19e04508791f934576":[9,6,0,0,0,746,3],
+"classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__AlphaType.html#a4787eaafe097ee19e04508791f934576":[9,6,1,0,0,746,3],
+"classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__AlphaType.html#a506f917cb1f0a65ca8a473122530eeb0":[9,6,0,0,0,746,2],
+"classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__AlphaType.html#a506f917cb1f0a65ca8a473122530eeb0":[9,6,1,0,0,746,2],
+"classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__AlphaType.html#abc617b21ef00ee24877df44e0ebf09ee":[9,6,0,0,0,746,1],
+"classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__AlphaType.html#abc617b21ef00ee24877df44e0ebf09ee":[9,6,1,0,0,746,1],
+"classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__AlphaType.html#ad6255396d3a9611717848c2ccccb0b7f":[9,6,0,0,0,746,0],
+"classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__AlphaType.html#ad6255396d3a9611717848c2ccccb0b7f":[9,6,1,0,0,746,0],
 "classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__LutType.html":[9,6,0,0,0,747],
 "classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__LutType.html":[9,6,1,0,0,747],
 "classmeshlib_1_1ObjectVoxels__VolumeRenderingParams__LutType.html#a560f9b0b699d1c05e3f6d159bb87c61d":[9,6,0,0,0,747,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX104 =
 "classmeshlib_1_1OneMeshContour.html":[9,6,0,0,0,770],
 "classmeshlib_1_1OneMeshContour.html":[9,6,1,0,0,770],
 "classmeshlib_1_1OneMeshContour.html#a12a1b51484bba63ff425988c94ba8af1":[9,6,0,0,0,770,8],
-"classmeshlib_1_1OneMeshContour.html#a12a1b51484bba63ff425988c94ba8af1":[9,6,1,0,0,770,8],
-"classmeshlib_1_1OneMeshContour.html#a3f434542efb11b893f81a3f23a9be0a0":[9,6,0,0,0,770,6],
-"classmeshlib_1_1OneMeshContour.html#a3f434542efb11b893f81a3f23a9be0a0":[9,6,1,0,0,770,6],
-"classmeshlib_1_1OneMeshContour.html#a659facb14229de83dddba7665e786d2a":[9,6,0,0,0,770,2],
-"classmeshlib_1_1OneMeshContour.html#a659facb14229de83dddba7665e786d2a":[9,6,1,0,0,770,2],
-"classmeshlib_1_1OneMeshContour.html#a729d372f1efdbbac22ed6da1ad14c485":[9,6,0,0,0,770,1],
-"classmeshlib_1_1OneMeshContour.html#a729d372f1efdbbac22ed6da1ad14c485":[9,6,1,0,0,770,1],
-"classmeshlib_1_1OneMeshContour.html#a74d6bbd9c60678cf99083a9d13c7101d":[9,6,0,0,0,770,0],
-"classmeshlib_1_1OneMeshContour.html#a74d6bbd9c60678cf99083a9d13c7101d":[9,6,1,0,0,770,0],
-"classmeshlib_1_1OneMeshContour.html#a938e94bdc5ae59e8f9ae3a7aa816d2b4":[9,6,0,0,0,770,7],
-"classmeshlib_1_1OneMeshContour.html#a938e94bdc5ae59e8f9ae3a7aa816d2b4":[9,6,1,0,0,770,7],
-"classmeshlib_1_1OneMeshContour.html#aacce70ded32b5fa8c8092290cfe5551f":[9,6,0,0,0,770,4],
-"classmeshlib_1_1OneMeshContour.html#aacce70ded32b5fa8c8092290cfe5551f":[9,6,1,0,0,770,4]
+"classmeshlib_1_1OneMeshContour.html#a12a1b51484bba63ff425988c94ba8af1":[9,6,1,0,0,770,8]
 };

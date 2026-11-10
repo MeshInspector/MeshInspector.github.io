@@ -5,6 +5,7 @@ var classMR_1_1Const__MeshPointAndDistance =
     [ "Const_MeshPointAndDistance", "classMR_1_1Const__MeshPointAndDistance.html#afae34c30afa03e3a41fb46c6a970b109", null ],
     [ "Const_MeshPointAndDistance", "classMR_1_1Const__MeshPointAndDistance.html#ae69a3beb0a50c1b2f0631cc8bb30d07b", null ],
     [ "bidirDist", "classMR_1_1Const__MeshPointAndDistance.html#ad53224adbf0edaf75f2a3dc52d4e2396", null ],
+    [ "compareThreeWay", "classMR_1_1Const__MeshPointAndDistance.html#a50a24f633159c65c420b3c55adc11dfb", null ],
     [ "Dispose", "classMR_1_1Const__MeshPointAndDistance.html#a3fba95643f93c732733a1844e2805041", null ],
     [ "Dispose", "classMR_1_1Const__MeshPointAndDistance.html#ac324bbd927ce5301f19f0efb779b458a", null ],
     [ "dist", "classMR_1_1Const__MeshPointAndDistance.html#a5c8168b353316f0c9b5b6ba9654d223a", null ],

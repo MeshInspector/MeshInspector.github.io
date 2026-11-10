@@ -5,6 +5,7 @@ var classMR_1_1Const__IOFilter =
     [ "Const_IOFilter", "classMR_1_1Const__IOFilter.html#a34fe85ee3766bd96fc94ce67b2f0ca67", null ],
     [ "Const_IOFilter", "classMR_1_1Const__IOFilter.html#a2f77d11fe93d93e99829bcc1a2ae2c2f", null ],
     [ "Const_IOFilter", "classMR_1_1Const__IOFilter.html#ad4b6797975c4cbad5c3f8fa9e23fabfe", null ],
+    [ "compareThreeWay", "classMR_1_1Const__IOFilter.html#a90fc024f1183f9e839d9745c5ee52540", null ],
     [ "Dispose", "classMR_1_1Const__IOFilter.html#a81cfae48a04c1d7d9db617b7bf788c7b", null ],
     [ "Dispose", "classMR_1_1Const__IOFilter.html#a794a831c52d76fdb750288c5bd30a553", null ],
     [ "Equals", "classMR_1_1Const__IOFilter.html#a72be9cf1d240b05a2bc2fdcd86cc7b09", null ],

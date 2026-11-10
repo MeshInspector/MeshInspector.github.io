@@ -2,6 +2,8 @@ var MRFaceFace_8h =
 [
     [ "MR_FaceFace", "MRFaceFace_8h.html#a3adc232a1bd3f56864f810f00d984ae1", null ],
     [ "MR_UndirectedEdgeUndirectedEdge", "MRFaceFace_8h.html#ad136b7b4671d29816419c7d6fea653f9", null ],
+    [ "MR_compare_three_way_MR_FaceFace", "MRFaceFace_8h.html#a6a5f35e92adecdfb7cc136d734a7dea6", null ],
+    [ "MR_compare_three_way_MR_UndirectedEdgeUndirectedEdge", "MRFaceFace_8h.html#a07554db73414eb15c9d0c351a1be36db", null ],
     [ "MR_equal_MR_FaceFace", "MRFaceFace_8h.html#abfa6cb4712fe8ce0556d103d401260ce", null ],
     [ "MR_equal_MR_UndirectedEdgeUndirectedEdge", "MRFaceFace_8h.html#a89c5544a95b5bfa350daa248f4a6ff4c", null ],
     [ "MR_FaceFace_AssignFromAnother", "MRFaceFace_8h.html#ae1332ebe7a8b39e4c6360a6daf0c8703", null ],

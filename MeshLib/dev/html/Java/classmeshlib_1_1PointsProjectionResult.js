@@ -6,6 +6,7 @@ var classmeshlib_1_1PointsProjectionResult =
     [ "PointsProjectionResult", "classmeshlib_1_1PointsProjectionResult.html#a017bda9de1a37868f28d1a70a09fc686", null ],
     [ "assignFromAnother", "classmeshlib_1_1PointsProjectionResult.html#a7b9a1be307194ccc383c9eefc486d8bd", null ],
     [ "distSq", "classmeshlib_1_1PointsProjectionResult.html#a0a939d8019412dcff71f519c37098268", null ],
+    [ "opCompareThreeWay", "classmeshlib_1_1PointsProjectionResult.html#aa4c70394ee5b65fa2bab763de9aed01d", null ],
     [ "opEqual", "classmeshlib_1_1PointsProjectionResult.html#adafe78e9783970240b4fa7cb91a397b5", null ],
     [ "opGreater", "classmeshlib_1_1PointsProjectionResult.html#adceb52e6f5d2c7d41af95649af453886", null ],
     [ "opGreaterEqual", "classmeshlib_1_1PointsProjectionResult.html#a847b17d56447d56acce8746d31969cb6", null ],

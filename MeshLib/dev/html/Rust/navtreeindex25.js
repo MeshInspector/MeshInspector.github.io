@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"structmeshlib_1_1BaseUnionFind__MR__VertId.html#acbabdd2539d1eeb022bdf102bf24056a":[9,5,0,0,0,95,11],
 "structmeshlib_1_1BaseUnionFind__MR__VertId.html#acbabdd2539d1eeb022bdf102bf24056a":[9,5,1,0,0,82,11],
 "structmeshlib_1_1BaseUnionFind__MR__VertId.html#adeaca820ab2b4169fd1b35441a649c3c":[9,5,0,0,0,95,8],
 "structmeshlib_1_1BaseUnionFind__MR__VertId.html#adeaca820ab2b4169fd1b35441a649c3c":[9,5,1,0,0,82,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "structmeshlib_1_1BitSet.html#adae9e3e5467be4cf5636b575c192f4e3":[9,5,0,0,0,104,24],
 "structmeshlib_1_1BitSet.html#adae9e3e5467be4cf5636b575c192f4e3":[9,5,1,0,0,91,24],
 "structmeshlib_1_1BitSet.html#ae17efcabdccaeab6bb94259494dd573b":[9,5,0,0,0,104,10],
-"structmeshlib_1_1BitSet.html#ae17efcabdccaeab6bb94259494dd573b":[9,5,1,0,0,91,10],
-"structmeshlib_1_1BitSet.html#ae837cf154b3cdd4e9ad75b6fce80adc5":[9,5,0,0,0,104,14]
+"structmeshlib_1_1BitSet.html#ae17efcabdccaeab6bb94259494dd573b":[9,5,1,0,0,91,10]
 };

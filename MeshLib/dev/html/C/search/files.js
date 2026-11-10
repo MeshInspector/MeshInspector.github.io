@@ -624,6 +624,7 @@ var searchData=
   ['expected_5fstd_5fvector_5fstd_5fvector_5fmr_5fvector3f_5fstd_5fstring_2eh_74',['expected_std_vector_std_vector_MR_Vector3f_std_string.h',['../expected__std__vector__std__vector__MR__Vector3f__std__string_8h.html',1,'']]],
   ['expected_5fvoid_5fstd_5fstring_2eh_75',['expected_void_std_string.h',['../expected__void__std__string_8h.html',1,'']]],
   ['common_2eh_0',['common.h',['../common_8h.html',1,'']]],
+  ['compare_2eh_1',['compare.h',['../compare_8h.html',1,'']]],
   ['mr2dcontourstriangulation_2eh_0',['MR2DContoursTriangulation.h',['../MR2DContoursTriangulation_8h.html',1,'']]],
   ['mr3mf_2eh_1',['MR3mf.h',['../MR3mf_8h.html',1,'']]],
   ['mraabbtree_2eh_2',['MRAABBTree.h',['../MRAABBTree_8h.html',1,'']]],

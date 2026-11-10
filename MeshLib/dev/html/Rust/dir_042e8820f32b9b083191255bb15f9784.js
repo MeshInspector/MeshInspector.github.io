@@ -1,5 +1,6 @@
 var dir_042e8820f32b9b083191255bb15f9784 =
 [
+    [ "compare.rs", "compare_8rs.html", "compare_8rs" ],
     [ "expected_bool_std_string.rs", "expected__bool__std__string_8rs.html", "expected__bool__std__string_8rs" ],
     [ "expected_MR_AffineXf3f_std_string.rs", "expected__MR__AffineXf3f__std__string_8rs.html", "expected__MR__AffineXf3f__std__string_8rs" ],
     [ "expected_MR_BooleanResultPoints_std_string.rs", "expected__MR__BooleanResultPoints__std__string_8rs.html", "expected__MR__BooleanResultPoints__std__string_8rs" ],

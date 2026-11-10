@@ -1,5 +1,15 @@
 var NAVTREEINDEX155 =
 {
+"classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Region.html#accaddd86c7bc9c0a21097c68353ec383":[9,3,0,0,0,1981,3,1,4],
+"classMR_1_1WeightedShell_1_1Const__ParametersRegions_1_1Region.html#afb04bb85ee4af920e9df0f2858a70dde":[9,3,0,0,0,1981,3,1,5],
+"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html":[9,3,0,0,0,1981,4],
+"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a0c22f38220e879d0bcd2cb86ae4f849d":[9,3,0,0,0,1981,4,0],
+"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a2802283c32fa712993fa8288b1958dac":[9,3,0,0,0,1981,4,4],
+"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a3282a5d7767b91c2c2524ec5617845c2":[9,3,0,0,0,1981,4,2],
+"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a8025c521700e138e2834c5da41d6cdbc":[9,3,0,0,0,1981,4,3],
+"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a820fa531ae1d82d0dc569310c171c957":[9,3,0,0,0,1981,4,1],
+"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#ac2def685bbbe61ccab09b3234b12755d":[9,3,0,0,0,1981,4,7],
+"classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#ad19111135621bab74fa2b1773f70bf55":[9,3,0,0,0,1981,4,6],
 "classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#ad66f6050e65285128ae7c6b388c12190":[9,3,0,0,0,1981,4,5],
 "classMR_1_1WeightedShell_1_1ParametersBase.html":[9,3,0,0,0,1981,5],
 "classMR_1_1WeightedShell_1_1ParametersBase.html#a10fe087e6766131346a424b19a04d168":[9,3,0,0,0,1981,5,9],
@@ -239,15 +249,5 @@ var NAVTREEINDEX155 =
 "functions_vars_v.html":[9,3,0,3,2,9],
 "functions_vars_w.html":[9,3,0,3,2,10],
 "functions_vars_x.html":[9,3,0,3,2,11],
-"functions_vars_y.html":[9,3,0,3,2,12],
-"functions_vars_z.html":[9,3,0,3,2,13],
-"functions_w.html":[9,3,0,3,0,22],
-"functions_x.html":[9,3,0,3,0,23],
-"functions_y.html":[9,3,0,3,0,24],
-"functions_z.html":[9,3,0,3,0,25],
-"hierarchy.html":[9,3,0,2],
-"index.html":[],
-"pages.html":[],
-"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8cs.html":[9,3,1,0,0,0,0,11],
-"std__shared__ptr__MR__Cuda__FastWindingNumber_8cs.html":[9,3,1,0,0,0,0,12]
+"functions_vars_y.html":[9,3,0,3,2,12]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX83 =
 {
+"classMR_1_1Const__SubdivideSettings.html#acc527c301f6bd4852405291464a392af":[9,3,0,0,0,907,4],
+"classMR_1_1Const__SubdivideSettings.html#ad12b94f8a0963e2569c82d8c3631104e":[9,3,0,0,0,907,14],
+"classMR_1_1Const__SubdivideSettings.html#ad200f99ae39e2c98e04f0e26a621f6a2":[9,3,0,0,0,907,5],
+"classMR_1_1Const__SubdivideSettings.html#ad66ffb9f43316f9a4f186099cf7138d1":[9,3,0,0,0,907,29],
+"classMR_1_1Const__SubdivideSettings.html#af07f3985ef5452be346bc3e5c2e05d84":[9,3,0,0,0,907,12],
+"classMR_1_1Const__SubdivideSettings.html#afb69c4b68a294908a63fbc203bc6a716":[9,3,0,0,0,907,16],
+"classMR_1_1Const__SurfaceDistanceBuilder.html":[9,3,0,0,0,908],
+"classMR_1_1Const__SurfaceDistanceBuilder.html#a02f823d3e8f998898c6faf436e03d4af":[9,3,0,0,0,908,7],
+"classMR_1_1Const__SurfaceDistanceBuilder.html#a097dc5313d3d09e396c1e4c1ab39c36e":[9,3,0,0,0,908,5],
 "classMR_1_1Const__SurfaceDistanceBuilder.html#a274a59664e9d5c477718991908278e3f":[9,3,0,0,0,908,6],
 "classMR_1_1Const__SurfaceDistanceBuilder.html#a39deef10f397eefc69d032bfa39ec6cf":[9,3,0,0,0,908,0],
 "classMR_1_1Const__SurfaceDistanceBuilder.html#a876ccebac8e43c23e4fc8cd52450ef84":[9,3,0,0,0,908,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX83 =
 "classMR_1_1Const__SymMatrix3i.html#abaad29f7b87a961935b427ea7809456f":[9,3,0,0,0,919,10],
 "classMR_1_1Const__SymMatrix3i.html#ac17536cd9c171e07b6755241506558aa":[9,3,0,0,0,919,21],
 "classMR_1_1Const__SymMatrix3i.html#ad08dcdbad034a62846a05ffc3e8682de":[9,3,0,0,0,919,18],
-"classMR_1_1Const__SymMatrix3i.html#af90d93c4a1a7ce4fc507464de4c655cc":[9,3,0,0,0,919,7],
-"classMR_1_1Const__SymMatrix3i64.html":[9,3,0,0,0,920],
-"classMR_1_1Const__SymMatrix3i64.html#a0aa4ff02a57dcccc7ee5d0bc6f118147":[9,3,0,0,0,920,23],
-"classMR_1_1Const__SymMatrix3i64.html#a16cbec418af2ba703a7fef1e4117d75a":[9,3,0,0,0,920,1],
-"classMR_1_1Const__SymMatrix3i64.html#a1bb160af33ef78e117fd0aca56a5cd9f":[9,3,0,0,0,920,9],
-"classMR_1_1Const__SymMatrix3i64.html#a1d2e34f19f1328b5ed267c5c31cee26b":[9,3,0,0,0,920,4],
-"classMR_1_1Const__SymMatrix3i64.html#a1d99a43bdec3199b2824c8df60a27811":[9,3,0,0,0,920,3],
-"classMR_1_1Const__SymMatrix3i64.html#a2429f695d96a9cb7c464836b33f8984b":[9,3,0,0,0,920,19],
-"classMR_1_1Const__SymMatrix3i64.html#a663e0869071cd2394b4371b66e40aeb9":[9,3,0,0,0,920,10],
-"classMR_1_1Const__SymMatrix3i64.html#a667a42d7dcbb9f80ced2b8d48cf1f94f":[9,3,0,0,0,920,8]
+"classMR_1_1Const__SymMatrix3i.html#af90d93c4a1a7ce4fc507464de4c655cc":[9,3,0,0,0,919,7]
 };

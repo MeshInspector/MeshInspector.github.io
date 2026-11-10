@@ -153,10 +153,11 @@ $(function(){initNavTree('structmeshlib_1_1Graph__EndVertices.html','','structme
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0cdf9a1310f386c2ae5131d78b04f772" id="r_a0cdf9a1310f386c2ae5131d78b04f772"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cdf9a1310f386c2ae5131d78b04f772">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1Graph__EndVertices.html">meshlib::Graph_EndVertices</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1Graph__EndVertices.html">meshlib::Graph_EndVertices</a></td></tr>
-<tr class="memitem:acf6d4c805be7aa2351da0dc74d517ab7" id="r_acf6d4c805be7aa2351da0dc74d517ab7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf6d4c805be7aa2351da0dc74d517ab7">op_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1Graph__EndVertices.html">meshlib::Graph_EndVertices</a>) const -&gt; bool</td></tr>
-<tr class="memitem:a8dc3d16d198976ed436c772f939c8980" id="r_a8dc3d16d198976ed436c772f939c8980"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dc3d16d198976ed436c772f939c8980">op_not_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1Graph__EndVertices.html">meshlib::Graph_EndVertices</a>) const -&gt; bool</td></tr>
 <tr class="memitem:aa2e613e0b7b8216152bd8060f6cfaa67" id="r_aa2e613e0b7b8216152bd8060f6cfaa67"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2e613e0b7b8216152bd8060f6cfaa67">other_end</a> (a:meshlib::GraphVertId) const -&gt; <a class="el" href="structmeshlib_1_1GraphVertId.html">meshlib::GraphVertId</a></td></tr>
 <tr class="memitem:a9ca7a5462c80fc26720cc1e1466309ba" id="r_a9ca7a5462c80fc26720cc1e1466309ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ca7a5462c80fc26720cc1e1466309ba">replace_end</a> (what:meshlib::GraphVertId, with:meshlib::GraphVertId)</td></tr>
+<tr class="memitem:a6170cc6471f7464481f8df5762323bcf" id="r_a6170cc6471f7464481f8df5762323bcf"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6170cc6471f7464481f8df5762323bcf">op_compare_three_way</a> (_1:&amp;<a class="el" href="structmeshlib_1_1Graph__EndVertices.html">meshlib::Graph_EndVertices</a>) const -&gt; core::ffi::c_int</td></tr>
+<tr class="memitem:acf6d4c805be7aa2351da0dc74d517ab7" id="r_acf6d4c805be7aa2351da0dc74d517ab7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf6d4c805be7aa2351da0dc74d517ab7">op_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1Graph__EndVertices.html">meshlib::Graph_EndVertices</a>) const -&gt; bool</td></tr>
+<tr class="memitem:a8dc3d16d198976ed436c772f939c8980" id="r_a8dc3d16d198976ed436c772f939c8980"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dc3d16d198976ed436c772f939c8980">op_not_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1Graph__EndVertices.html">meshlib::Graph_EndVertices</a>) const -&gt; bool</td></tr>
 <tr class="memitem:a58994837ccad148095b1bb20d85232d9" id="r_a58994837ccad148095b1bb20d85232d9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58994837ccad148095b1bb20d85232d9">op_less</a> (_1:&amp;<a class="el" href="structmeshlib_1_1Graph__EndVertices.html">meshlib::Graph_EndVertices</a>) const -&gt; bool</td></tr>
 <tr class="memitem:af663344efd218037700719623974f883" id="r_af663344efd218037700719623974f883"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af663344efd218037700719623974f883">op_greater</a> (_1:&amp;<a class="el" href="structmeshlib_1_1Graph__EndVertices.html">meshlib::Graph_EndVertices</a>) const -&gt; bool</td></tr>
 <tr class="memitem:a40f81ce3e6c5dfbf638b868e40f3e4cc" id="r_a40f81ce3e6c5dfbf638b868e40f3e4cc"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40f81ce3e6c5dfbf638b868e40f3e4cc">op_less_equal</a> (_1:&amp;<a class="el" href="structmeshlib_1_1Graph__EndVertices.html">meshlib::Graph_EndVertices</a>) const -&gt; bool</td></tr>
@@ -283,6 +284,25 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Constructs an empty (default-constructed) instance.</p>
 <p>Calls <span class="tt">MR_Graph_EndVertices_DefaultConstruct()</span>. </p>
+
+</div>
+</div>
+<a id="a6170cc6471f7464481f8df5762323bcf" name="a6170cc6471f7464481f8df5762323bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6170cc6471f7464481f8df5762323bcf">&#9670;&#160;</a></span>op_compare_three_way()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::Graph_EndVertices::op_compare_three_way </td>
+          <td>(</td>
+          <td class="paramtype">_1:&amp;<a class="el" href="structmeshlib_1_1Graph__EndVertices.html">meshlib::Graph_EndVertices</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  core::ffi::c_int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::Graph::EndVertices::operator&lt;=&gt;</span>.</p>
+<p>Calls <span class="tt">MR_compare_three_way_MR_Graph_EndVertices()</span>. </p>
 
 </div>
 </div>

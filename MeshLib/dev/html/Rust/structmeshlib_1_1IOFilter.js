@@ -6,6 +6,7 @@ var structmeshlib_1_1IOFilter =
     [ "is_supported_extension", "structmeshlib_1_1IOFilter.html#a29517ec970dd7d4944424bfce8f681f1", null ],
     [ "name", "structmeshlib_1_1IOFilter.html#a4586a9a58e54c0594b5a0ae894a13f8e", null ],
     [ "name_mut", "structmeshlib_1_1IOFilter.html#a8f3de4aa9f966159c5868e2c7760c3ad", null ],
+    [ "op_compare_three_way", "structmeshlib_1_1IOFilter.html#a2ba7487dc755fecd7484d75e082fd1d2", null ],
     [ "op_equal", "structmeshlib_1_1IOFilter.html#ae8d8cb58b5983eb48e26b8ed6c477019", null ],
     [ "op_greater", "structmeshlib_1_1IOFilter.html#a2301ec4ffacb346c6ed059b1c881c686", null ],
     [ "op_greater_equal", "structmeshlib_1_1IOFilter.html#a383a455c2469a00f3d600781591129e1", null ],

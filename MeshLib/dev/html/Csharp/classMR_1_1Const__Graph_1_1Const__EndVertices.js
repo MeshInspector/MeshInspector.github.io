@@ -4,6 +4,7 @@ var classMR_1_1Const__Graph_1_1Const__EndVertices =
     [ "Const_EndVertices", "classMR_1_1Const__Graph_1_1Const__EndVertices.html#a0ef6f38d4f77be27df3f8659c7e997d8", null ],
     [ "Const_EndVertices", "classMR_1_1Const__Graph_1_1Const__EndVertices.html#a0def38859f74e3ba1d0092db8c3aec4a", null ],
     [ "Const_EndVertices", "classMR_1_1Const__Graph_1_1Const__EndVertices.html#a0d0b4cab325d9c2cf3426128ea42a043", null ],
+    [ "compareThreeWay", "classMR_1_1Const__Graph_1_1Const__EndVertices.html#add979ed5e4edf35476293f9ecf5c0b2a", null ],
     [ "Dispose", "classMR_1_1Const__Graph_1_1Const__EndVertices.html#aca562f137e8e2b3391b2ec7e8e307129", null ],
     [ "Dispose", "classMR_1_1Const__Graph_1_1Const__EndVertices.html#ab12ccfb7fd5ed51d66d8817142b62257", null ],
     [ "Equals", "classMR_1_1Const__Graph_1_1Const__EndVertices.html#a8d6b738a83afa796e0eec3c1c5abed88", null ],

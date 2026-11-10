@@ -4,6 +4,7 @@ var classMR_1_1Const__PointsProjectionResult =
     [ "Const_PointsProjectionResult", "classMR_1_1Const__PointsProjectionResult.html#a659676bfc4a60c3efb4b3f63af13f233", null ],
     [ "Const_PointsProjectionResult", "classMR_1_1Const__PointsProjectionResult.html#ab0a40baa09e6d85cf7b828cbc9e3ac31", null ],
     [ "Const_PointsProjectionResult", "classMR_1_1Const__PointsProjectionResult.html#a522237c7857d5c12945851ce39d40fff", null ],
+    [ "compareThreeWay", "classMR_1_1Const__PointsProjectionResult.html#aedf9e0b5e86135943df3674e35891c42", null ],
     [ "Dispose", "classMR_1_1Const__PointsProjectionResult.html#a55c9ba622406a584dccadb2c7f0767f9", null ],
     [ "Dispose", "classMR_1_1Const__PointsProjectionResult.html#ad925968ee9cbaaccb91e4f5a899c61ce", null ],
     [ "Equals", "classMR_1_1Const__PointsProjectionResult.html#aff4af3a35e9c076a0c30f46bfc3cf13c", null ],

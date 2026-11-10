@@ -1244,6 +1244,7 @@ var namespacemeshlib =
     [ "std_pair_std_vector_MR_FaceBitSet_int", "structmeshlib_1_1std__pair__std__vector__MR__FaceBitSet__int.html", "structmeshlib_1_1std__pair__std__vector__MR__FaceBitSet__int" ],
     [ "std_pair_std_vector_MR_UndirectedEdgeBitSet_int", "structmeshlib_1_1std__pair__std__vector__MR__UndirectedEdgeBitSet__int.html", "structmeshlib_1_1std__pair__std__vector__MR__UndirectedEdgeBitSet__int" ],
     [ "std_pair_std_vector_MR_VertBitSet_int", "structmeshlib_1_1std__pair__std__vector__MR__VertBitSet__int.html", "structmeshlib_1_1std__pair__std__vector__MR__VertBitSet__int" ],
+    [ "std_partial_ordering", "structmeshlib_1_1std__partial__ordering.html", null ],
     [ "std_set_std_string", "structmeshlib_1_1std__set__std__string.html", "structmeshlib_1_1std__set__std__string" ],
     [ "std_set_std_string_const_iterator", "structmeshlib_1_1std__set__std__string__const__iterator.html", "structmeshlib_1_1std__set__std__string__const__iterator" ],
     [ "std_shared_ptr_const_MR_Mesh", "structmeshlib_1_1std__shared__ptr__const__MR__Mesh.html", "structmeshlib_1_1std__shared__ptr__const__MR__Mesh" ],

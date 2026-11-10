@@ -5,6 +5,7 @@ var structmeshlib_1_1SliceInfoBase =
     [ "file_num_mut", "structmeshlib_1_1SliceInfoBase.html#a125a1b7ea482c2df3499831f9eb91d4f", null ],
     [ "instance_num", "structmeshlib_1_1SliceInfoBase.html#a769862460eb858c51624eab91e9b1858", null ],
     [ "instance_num_mut", "structmeshlib_1_1SliceInfoBase.html#a5d3aaf02853c4d3cb39455169db44c6f", null ],
+    [ "op_compare_three_way", "structmeshlib_1_1SliceInfoBase.html#a0e4d6840a381d0daa63b31d1194456ba", null ],
     [ "op_equal", "structmeshlib_1_1SliceInfoBase.html#a30bb7baed7946f65da6da37db1019f5d", null ],
     [ "op_greater", "structmeshlib_1_1SliceInfoBase.html#a1fd0bceb2d7a92431a5edae6dbb012d2", null ],
     [ "op_greater_equal", "structmeshlib_1_1SliceInfoBase.html#a610d37674888c4c4931b274965f00acb", null ],

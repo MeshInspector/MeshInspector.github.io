@@ -1,5 +1,15 @@
 var NAVTREEINDEX103 =
 {
+"classMR_1_1DecimatePolylineResult.html#a85ef9dca091b8bcdcd68043324e5019c":[9,3,0,0,0,1207,3],
+"classMR_1_1DecimatePolylineResult.html#addfe4e10968d02c38ccd2a83b77afccb":[9,3,0,0,0,1207,1],
+"classMR_1_1DecimatePolylineSettings__MRVector2f.html":[9,3,0,0,0,1208],
+"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a091322056865ca6e2db6e05f31ef02d6":[9,3,0,0,0,1208,4],
+"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a0e134506a5044ff2d17926e673f20aef":[9,3,0,0,0,1208,8],
+"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a133cf8a04c1fc6fde4e87f0ec3cd0c37":[9,3,0,0,0,1208,11],
+"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a2559b6eed510406317ae45c8c6c229bd":[9,3,0,0,0,1208,6],
+"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a2bcfc0595393ab797145d7dc8b9a4fd3":[9,3,0,0,0,1208,0],
+"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a5911008bde3042e75c6b5e5f8beaa711":[9,3,0,0,0,1208,13],
+"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a63f609f1311dd5e2b400bfb71458cd30":[9,3,0,0,0,1208,5],
 "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a8005a11cbf87cdf5f029f7399e592513":[9,3,0,0,0,1208,10],
 "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a86e3ba9c065b871d771933789324a94f":[9,3,0,0,0,1208,12],
 "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a8e8fb4a04fb6db015b16c4e657b857fc":[9,3,0,0,0,1208,15],
@@ -239,15 +249,5 @@ var NAVTREEINDEX103 =
 "classMR_1_1DistanceFromWeightedPointsParams.html#aa6f3702d082fd63d614e575e2a7d9780":[9,3,0,0,0,1224,8],
 "classMR_1_1DistanceFromWeightedPointsParams.html#ace31d883bb8d4dc6b2d464a52d0ba433":[9,3,0,0,0,1224,3],
 "classMR_1_1DistanceFromWeightedPointsParams.html#aecf1dc9237e6cf846042942d2fac45b5":[9,3,0,0,0,1224,5],
-"classMR_1_1DistanceFromWeightedPointsParams.html#aefb44a12e7094e4a1bb5e334affb715e":[9,3,0,0,0,1224,1],
-"classMR_1_1DistanceMap.html":[9,3,0,0,0,1225],
-"classMR_1_1DistanceMap.html#a083e273279e285524821ba71e09de012":[9,3,0,0,0,1225,1],
-"classMR_1_1DistanceMap.html#a0b9807682fa87edeb78c6af72b899665":[9,3,0,0,0,1225,8],
-"classMR_1_1DistanceMap.html#a165187ce973a0b408bdb559ba3415502":[9,3,0,0,0,1225,4],
-"classMR_1_1DistanceMap.html#a1f275d0614719f56754d15458ffbbc76":[9,3,0,0,0,1225,20],
-"classMR_1_1DistanceMap.html#a230c976b1e35f27fc65e10c0a0b5dc82":[9,3,0,0,0,1225,9],
-"classMR_1_1DistanceMap.html#a29754806c2ec6381f917d332713d1a24":[9,3,0,0,0,1225,17],
-"classMR_1_1DistanceMap.html#a2efbd76cb6a07dcd53ab3d78100efe98":[9,3,0,0,0,1225,19],
-"classMR_1_1DistanceMap.html#a48c265309a4aa76b2f3bcf62c8b42a5e":[9,3,0,0,0,1225,10],
-"classMR_1_1DistanceMap.html#a4b1dd0ce71f2182a6fe6352108e557be":[9,3,0,0,0,1225,22]
+"classMR_1_1DistanceFromWeightedPointsParams.html#aefb44a12e7094e4a1bb5e334affb715e":[9,3,0,0,0,1224,1]
 };

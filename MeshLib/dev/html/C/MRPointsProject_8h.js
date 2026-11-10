@@ -4,6 +4,7 @@ var MRPointsProject_8h =
     [ "MR_IPointsProjector", "MRPointsProject_8h.html#acc732bce6f7682cbdb0a3a72dd2dbc4d", null ],
     [ "MR_PointsProjector", "MRPointsProject_8h.html#a3a5ba351029fa6f59d21522d60cb8bd1", null ],
     [ "MR_std_pair_MR_VertId_MR_VertId", "MRPointsProject_8h.html#a627aa1628b99fe88a3c76fb6d87ba691", null ],
+    [ "MR_compare_three_way_MR_PointsProjectionResult", "MRPointsProject_8h.html#a098293eb7b80debb2dd26f118b9519ac", null ],
     [ "MR_equal_MR_PointsProjectionResult", "MRPointsProject_8h.html#ac9a5cb0000a6af7ad00e3e16a8c0635a", null ],
     [ "MR_findFewClosestPoints", "MRPointsProject_8h.html#a01ab528f34a77b0bdb4a8c30db01a7af", null ],
     [ "MR_findNClosestPointsPerPoint", "MRPointsProject_8h.html#a8a3791a77ea8f46477ee87a87d96445d", null ],

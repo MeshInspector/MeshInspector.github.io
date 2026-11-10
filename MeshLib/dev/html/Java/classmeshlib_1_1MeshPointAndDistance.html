@@ -158,6 +158,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3838e2b72617fd3137352030c6861230" id="r_a3838e2b72617fd3137352030c6861230"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1MeshPointAndDistance.html">meshlib.MeshPointAndDistance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3838e2b72617fd3137352030c6861230">assignFromAnother</a> (<a class="el" href="classmeshlib_1_1MeshPointAndDistance.html">meshlib.MeshPointAndDistance</a> _other)</td></tr>
 <tr class="memitem:a8fc21632d8b2e8e19811d413c787704a" id="r_a8fc21632d8b2e8e19811d413c787704a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fc21632d8b2e8e19811d413c787704a">bidirDist</a> ()</td></tr>
 <tr class="memitem:aa0908c34f946fdf4417e119b35be88a8" id="r_aa0908c34f946fdf4417e119b35be88a8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0908c34f946fdf4417e119b35be88a8">dist</a> ()</td></tr>
+<tr class="memitem:a3acc655e8564127d9f672ac66004bbb9" id="r_a3acc655e8564127d9f672ac66004bbb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1std__partial__ordering.html">meshlib.std_partial_ordering</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3acc655e8564127d9f672ac66004bbb9">opCompareThreeWay</a> (<a class="el" href="classmeshlib_1_1MeshPointAndDistance.html">meshlib.MeshPointAndDistance</a> other)</td></tr>
 <tr class="memitem:a06a70982b2584d2ec8d96f78f46131ea" id="r_a06a70982b2584d2ec8d96f78f46131ea"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06a70982b2584d2ec8d96f78f46131ea">opLess</a> (<a class="el" href="classmeshlib_1_1MeshPointAndDistance.html">meshlib.MeshPointAndDistance</a> other)</td></tr>
 <tr class="memitem:a24d75517fa519ba64aaf5f7c1671be70" id="r_a24d75517fa519ba64aaf5f7c1671be70"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24d75517fa519ba64aaf5f7c1671be70">opGreater</a> (<a class="el" href="classmeshlib_1_1MeshPointAndDistance.html">meshlib.MeshPointAndDistance</a> other)</td></tr>
 <tr class="memitem:a7184ad165ae6d6620e34c119e784d6ec" id="r_a7184ad165ae6d6620e34c119e784d6ec"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7184ad165ae6d6620e34c119e784d6ec">opLessEqual</a> (<a class="el" href="classmeshlib_1_1MeshPointAndDistance.html">meshlib.MeshPointAndDistance</a> other)</td></tr>
@@ -444,6 +445,25 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a3acc655e8564127d9f672ac66004bbb9" name="a3acc655e8564127d9f672ac66004bbb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3acc655e8564127d9f672ac66004bbb9">&#9670;&#160;</a></span>opCompareThreeWay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmeshlib_1_1std__partial__ordering.html">meshlib.std_partial_ordering</a> meshlib.MeshPointAndDistance.opCompareThreeWay </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1MeshPointAndDistance.html">meshlib.MeshPointAndDistance</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;=&gt;</span>.</p>
+<p>Calls <span class="tt">MR_compare_three_way_MR_MeshPointAndDistance()</span>. </p>
+
+</div>
+</div>
 <a id="a24d75517fa519ba64aaf5f7c1671be70" name="a24d75517fa519ba64aaf5f7c1671be70"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a24d75517fa519ba64aaf5f7c1671be70">&#9670;&#160;</a></span>opGreater()</h2>
 
@@ -458,7 +478,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::MeshPointAndDistance::operator&gt;</span>.</p>
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&gt;</span>.</p>
 <p>Calls <span class="tt">MR_greater_MR_MeshPointAndDistance()</span>. </p>
 
 </div>
@@ -477,7 +497,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::MeshPointAndDistance::operator&gt;=</span>.</p>
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&gt;=</span>.</p>
 <p>Calls <span class="tt">MR_greater_equal_MR_MeshPointAndDistance()</span>. </p>
 
 </div>
@@ -496,7 +516,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;</span>.</p>
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;</span>.</p>
 <p>Calls <span class="tt">MR_less_MR_MeshPointAndDistance()</span>. </p>
 
 </div>
@@ -515,7 +535,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;=</span>.</p>
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;=</span>.</p>
 <p>Calls <span class="tt">MR_less_equal_MR_MeshPointAndDistance()</span>. </p>
 
 </div>

@@ -2,6 +2,7 @@ var MRTripleFaceIntersections_8h =
 [
     [ "MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#a740ce925862132ce11f530430d5dda94", null ],
     [ "MR_std_vector_MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#abd79e78e95147ae5cbfc323abad5c758", null ],
+    [ "MR_compare_three_way_MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#aae07698c5606e61cf62a83bd03a7cda2", null ],
     [ "MR_equal_MR_FaceFaceFace", "MRTripleFaceIntersections_8h.html#ac88241219a2c83ab13c499094e074245", null ],
     [ "MR_FaceFaceFace_AssignFromAnother", "MRTripleFaceIntersections_8h.html#a7f2191cf88a47a18b81c157cf3c7bbbc", null ],
     [ "MR_FaceFaceFace_Construct", "MRTripleFaceIntersections_8h.html#a01c0cfaa26a42d8b4ff6a2919408080b", null ],

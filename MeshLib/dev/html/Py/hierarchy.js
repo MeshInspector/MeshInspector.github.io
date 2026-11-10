@@ -4871,6 +4871,7 @@ var hierarchy =
       [ "mrmeshpy.VoxelsLoad.DicomStatusEnum", "classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum.html", null ],
       [ "mrmeshpy.VoxelsLoad.GridType", "classmrmeshpy_1_1VoxelsLoad_1_1GridType.html", null ],
       [ "mrmeshpy.WrapType", "classmrmeshpy_1_1WrapType.html", null ],
+      [ "mrmeshpy.std_partial_ordering", "classmrmeshpy_1_1std__partial__ordering.html", null ],
       [ "mrviewerpy.MouseButton", "classmrviewerpy_1_1MouseButton.html", null ],
       [ "mrviewerpy.UiEntryType", "classmrviewerpy_1_1UiEntryType.html", null ],
       [ "mrviewerpy.ViewerLaunchParamsMode", "classmrviewerpy_1_1ViewerLaunchParamsMode.html", null ],

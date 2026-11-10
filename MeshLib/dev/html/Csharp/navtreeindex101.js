@@ -1,5 +1,15 @@
 var NAVTREEINDEX101 =
 {
+"classMR_1_1Const__XfBasedCache__MRBox3f.html#ad20754cb02609a7882e6e912f632f918":[9,3,0,0,0,1114,1],
+"classMR_1_1Const__XfBasedCache__MRBox3f.html#ae8fc22adf1d3662fa4a5b10b795102a8":[9,3,0,0,0,1114,2],
+"classMR_1_1Const__XfBasedCache__MRBox3f.html#aec6bf653fff6540b474c1b49af5d6b8a":[9,3,0,0,0,1114,3],
+"classMR_1_1Const__ZCompensateParams.html":[9,3,0,0,0,1115],
+"classMR_1_1Const__ZCompensateParams.html#a0b01b4292a1fb05dc101057c69e8ab95":[9,3,0,0,0,1115,11],
+"classMR_1_1Const__ZCompensateParams.html#a5ccce2f1fdc58ff9219c24ca6e2a2e2e":[9,3,0,0,0,1115,12],
+"classMR_1_1Const__ZCompensateParams.html#a60835c091933c4abd694b8a3443fe653":[9,3,0,0,0,1115,4],
+"classMR_1_1Const__ZCompensateParams.html#a6d694e9a0a0861917382fa93c03b83d7":[9,3,0,0,0,1115,7],
+"classMR_1_1Const__ZCompensateParams.html#a7afab3758000657fced628af5a2d5338":[9,3,0,0,0,1115,2],
+"classMR_1_1Const__ZCompensateParams.html#a890de997b4dded9fc37f09aac1648d95":[9,3,0,0,0,1115,5],
 "classMR_1_1Const__ZCompensateParams.html#a8dd5a230565b63316b51f2c88ecc0888":[9,3,0,0,0,1115,8],
 "classMR_1_1Const__ZCompensateParams.html#a98a869cc50a64434070e5e77f7e3ddaf":[9,3,0,0,0,1115,3],
 "classMR_1_1Const__ZCompensateParams.html#aa6352b8b9527afef9d1b2229d7484b36":[9,3,0,0,0,1115,6],
@@ -239,15 +249,5 @@ var NAVTREEINDEX101 =
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#a0e260c32a75de4d62eb7229e96bb6688":[9,3,0,0,0,1197,4,5],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#a0fd0cddd12de58e7801bc739abdc850c":[9,3,0,0,0,1197,4,7],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#a12486a5f9436c08cf642f7e400e39baf":[9,3,0,0,0,1197,4,16],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a14498b2cb061dd931adf704c3f59ef98":[9,3,0,0,0,1197,4,1],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a20cfc9510ee780771f5ea96b12fccef6":[9,3,0,0,0,1197,4,2],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a238d3b2d8d4972d6a20a08344faf8b3b":[9,3,0,0,0,1197,4,10],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a2b61184f9c426dbc1aa5a4fb3fe546fd":[9,3,0,0,0,1197,4,13],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a3b74585a8d996570d5da9ae908194f02":[9,3,0,0,0,1197,4,18],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a3ebc872c2fb58e4fe0418d622a140573":[9,3,0,0,0,1197,4,15],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a5b558d1980fd737456a4ee25f6b4da23":[9,3,0,0,0,1197,4,4],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a6a224ad6a8fb2bdbf20eb938043c070c":[9,3,0,0,0,1197,4,0],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a9744ae3662b9cdc2ed5c8002e1139644":[9,3,0,0,0,1197,4,12],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a9b9eebd20ff03af9f494ea0ae9908464":[9,3,0,0,0,1197,4,3],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#aadf9d89f98b255d7b0501aa5b0344602":[9,3,0,0,0,1197,4,14]
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a14498b2cb061dd931adf704c3f59ef98":[9,3,0,0,0,1197,4,1]
 };

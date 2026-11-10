@@ -138,6 +138,7 @@ $(function(){initNavTree('MRPointsProject_8h.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="compare_8h_source.html">MRCMisc/compare.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
@@ -170,6 +171,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a45d82e21a4878ac83abd68a17344a34e" id="r_a45d82e21a4878ac83abd68a17344a34e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45d82e21a4878ac83abd68a17344a34e">MR_PointsProjectionResult_DestroyArray</a> (const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this)</td></tr>
 <tr class="memdesc:a45d82e21a4878ac83abd68a17344a34e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a35c71c2a991031fe84ffa7629d88d60c" id="r_a35c71c2a991031fe84ffa7629d88d60c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35c71c2a991031fe84ffa7629d88d60c">MR_PointsProjectionResult_AssignFromAnother</a> (<a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this, const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_other)</td></tr>
+<tr class="memitem:a098293eb7b80debb2dd26f118b9519ac" id="r_a098293eb7b80debb2dd26f118b9519ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="compare_8h.html#ac9f41a802c982c5fc9233acbc7493cce">MR_std_partial_ordering</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a098293eb7b80debb2dd26f118b9519ac">MR_compare_three_way_MR_PointsProjectionResult</a> (const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this, const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_1)</td></tr>
 <tr class="memitem:ac9a5cb0000a6af7ad00e3e16a8c0635a" id="r_ac9a5cb0000a6af7ad00e3e16a8c0635a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9a5cb0000a6af7ad00e3e16a8c0635a">MR_equal_MR_PointsProjectionResult</a> (const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this, const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_1)</td></tr>
 <tr class="memitem:ae47274633f2e03a7f201cb6e23b199cf" id="r_ae47274633f2e03a7f201cb6e23b199cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae47274633f2e03a7f201cb6e23b199cf">MR_not_equal_MR_PointsProjectionResult</a> (const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this, const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_1)</td></tr>
 <tr class="memitem:a5f2331c8c3e4ae1a74dee22fc2cbcebe" id="r_a5f2331c8c3e4ae1a74dee22fc2cbcebe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f2331c8c3e4ae1a74dee22fc2cbcebe">MR_less_MR_PointsProjectionResult</a> (const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_this, const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *_1)</td></tr>
@@ -307,6 +309,28 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a098293eb7b80debb2dd26f118b9519ac" name="a098293eb7b80debb2dd26f118b9519ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a098293eb7b80debb2dd26f118b9519ac">&#9670;&#160;</a></span>MR_compare_three_way_MR_PointsProjectionResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="compare_8h.html#ac9f41a802c982c5fc9233acbc7493cce">MR_std_partial_ordering</a> MR_compare_three_way_MR_PointsProjectionResult </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRFewSmallest_8h.html#a8be9fb6875dbbb243e21057bb4eff5a7">MR_PointsProjectionResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::PointsProjectionResult::operator&lt;=&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="ac9a5cb0000a6af7ad00e3e16a8c0635a" name="ac9a5cb0000a6af7ad00e3e16a8c0635a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac9a5cb0000a6af7ad00e3e16a8c0635a">&#9670;&#160;</a></span>MR_equal_MR_PointsProjectionResult()</h2>
 

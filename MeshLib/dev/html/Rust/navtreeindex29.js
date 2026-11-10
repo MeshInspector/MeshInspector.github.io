@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"structmeshlib_1_1Box3f.html#a1f44e198df988c0a6afd60329c6ce6b5":[9,5,0,0,0,137,2],
 "structmeshlib_1_1Box3f.html#a1f44e198df988c0a6afd60329c6ce6b5":[9,5,1,0,0,124,2],
 "structmeshlib_1_1Box3f.html#a216016e8b2286121255db1d53efcf8a0":[9,5,0,0,0,137,14],
 "structmeshlib_1_1Box3f.html#a216016e8b2286121255db1d53efcf8a0":[9,5,1,0,0,124,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "structmeshlib_1_1BoxedLeaf__MR__ObjTreeTraits.html#a5b4135838f9281ded0bd347210675a62":[9,5,0,0,0,144,1],
 "structmeshlib_1_1BoxedLeaf__MR__ObjTreeTraits.html#a5b4135838f9281ded0bd347210675a62":[9,5,1,0,0,131,1],
 "structmeshlib_1_1BoxedLeaf__MR__ObjTreeTraits.html#add39c7498d0f977454275ba9fbb0a076":[9,5,0,0,0,144,2],
-"structmeshlib_1_1BoxedLeaf__MR__ObjTreeTraits.html#add39c7498d0f977454275ba9fbb0a076":[9,5,1,0,0,131,2],
-"structmeshlib_1_1BoxedLeaf__MR__ObjTreeTraits.html#aec23a289fd35e58aff4a5a66a9eb680d":[9,5,0,0,0,144,3]
+"structmeshlib_1_1BoxedLeaf__MR__ObjTreeTraits.html#add39c7498d0f977454275ba9fbb0a076":[9,5,1,0,0,131,2]
 };

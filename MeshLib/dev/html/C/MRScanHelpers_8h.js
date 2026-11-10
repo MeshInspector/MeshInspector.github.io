@@ -1,6 +1,8 @@
 var MRScanHelpers_8h =
 [
     [ "MR_SliceInfoBase", "MRScanHelpers_8h.html#a0799f8fd31a0e8ae5864034af6e44996", null ],
+    [ "MR_compare_three_way_MR_SliceInfo_MR_SliceInfoBase", "MRScanHelpers_8h.html#a9465547622e42af515dbb857752b5bfa", null ],
+    [ "MR_compare_three_way_MR_SliceInfoBase", "MRScanHelpers_8h.html#a7cd0fd5f28acde44b5e03a242d104cd3", null ],
     [ "MR_equal_MR_SliceInfo_MR_SliceInfoBase", "MRScanHelpers_8h.html#a7dd16ccbeb5b9ce8d66222397e76d8a3", null ],
     [ "MR_equal_MR_SliceInfoBase", "MRScanHelpers_8h.html#a5f9f8127f95f527c73c4ce70d6897f78", null ],
     [ "MR_greater_equal_MR_SliceInfo_MR_SliceInfoBase", "MRScanHelpers_8h.html#aea19fa8d603c7577f4d34c60a3460ab4", null ],

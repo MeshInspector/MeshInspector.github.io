@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"structmeshlib_1_1BitSet.html#ae837cf154b3cdd4e9ad75b6fce80adc5":[9,5,0,0,0,104,14],
 "structmeshlib_1_1BitSet.html#ae837cf154b3cdd4e9ad75b6fce80adc5":[9,5,1,0,0,91,14],
 "structmeshlib_1_1BitSet.html#ae878a1a8afaa5a9b83276c13ee016f3d":[9,5,0,0,0,104,49],
 "structmeshlib_1_1BitSet.html#ae878a1a8afaa5a9b83276c13ee016f3d":[9,5,1,0,0,91,49],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "structmeshlib_1_1BooleanResultMapper__Maps.html#ab937677d8a068e8f8f457722481c62bb":[9,5,0,0,0,126,9],
 "structmeshlib_1_1BooleanResultMapper__Maps.html#ab937677d8a068e8f8f457722481c62bb":[9,5,1,0,0,113,9],
 "structmeshlib_1_1BooleanResultMapper__Maps.html#ac32863624273b34a1b60c386d6d14380":[9,5,0,0,0,126,10],
-"structmeshlib_1_1BooleanResultMapper__Maps.html#ac32863624273b34a1b60c386d6d14380":[9,5,1,0,0,113,10],
-"structmeshlib_1_1BooleanResultMapper__Maps.html#acf06d6cc89fa1ffa80aa49d93be828c9":[9,5,0,0,0,126,2]
+"structmeshlib_1_1BooleanResultMapper__Maps.html#ac32863624273b34a1b60c386d6d14380":[9,5,1,0,0,113,10]
 };

@@ -7,6 +7,7 @@ var structmeshlib_1_1SliceInfo =
     [ "image_pos_mut", "structmeshlib_1_1SliceInfo.html#ac1b574d699f6c71471a1f33d8049d647", null ],
     [ "instance_num", "structmeshlib_1_1SliceInfo.html#a17f1a479ac6fbb0d11de44e2369c479c", null ],
     [ "instance_num_mut", "structmeshlib_1_1SliceInfo.html#a8842ddad2abd8e3da6b9355c8568cf57", null ],
+    [ "op_compare_three_way_mr_slice_info_base", "structmeshlib_1_1SliceInfo.html#a65a20571948aa277819a285a2042773a", null ],
     [ "op_equal_mr_slice_info_base", "structmeshlib_1_1SliceInfo.html#ac96f84f0f1d459f89478c001d19364d2", null ],
     [ "op_greater_equal_mr_slice_info_base", "structmeshlib_1_1SliceInfo.html#aca562e829be340e42848cae93dad26b8", null ],
     [ "op_greater_mr_slice_info_base", "structmeshlib_1_1SliceInfo.html#a809e097287a4bf4ca7bfab42d8da357a", null ],

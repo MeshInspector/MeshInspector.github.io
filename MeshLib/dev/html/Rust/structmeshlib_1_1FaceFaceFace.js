@@ -7,6 +7,7 @@ var structmeshlib_1_1FaceFaceFace =
     [ "b_face_mut", "structmeshlib_1_1FaceFaceFace.html#aa68dc02341edee804202e4b016d2877c", null ],
     [ "c_face", "structmeshlib_1_1FaceFaceFace.html#a53222155ced18a7185e5b1a08fdf15f7", null ],
     [ "c_face_mut", "structmeshlib_1_1FaceFaceFace.html#a6f545357caf4be34c306d72b22020f11", null ],
+    [ "op_compare_three_way", "structmeshlib_1_1FaceFaceFace.html#a39799e263c7d1f43d68c917f1e5f1325", null ],
     [ "op_equal", "structmeshlib_1_1FaceFaceFace.html#a5f116b0f33607e786efec88f7d32374e", null ],
     [ "op_greater", "structmeshlib_1_1FaceFaceFace.html#ad97b31fafa0776322be62986fe1021cb", null ],
     [ "op_greater_equal", "structmeshlib_1_1FaceFaceFace.html#af99cc5073409199885348e97ce462ba2", null ],

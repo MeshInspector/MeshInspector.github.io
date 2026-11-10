@@ -1,5 +1,12 @@
 var NAVTREEINDEX61 =
 {
+"structmeshlib_1_1GraphEdgeBitSet.html#a84a08df19d30d27c7462bddb1e5df722":[9,5,0,0,0,472,41],
+"structmeshlib_1_1GraphEdgeBitSet.html#a84a08df19d30d27c7462bddb1e5df722":[9,5,1,0,0,459,41],
+"structmeshlib_1_1GraphEdgeBitSet.html#a85c908dab6e80afb7d855354cb832075":[9,5,0,0,0,472,23],
+"structmeshlib_1_1GraphEdgeBitSet.html#a85c908dab6e80afb7d855354cb832075":[9,5,1,0,0,459,23],
+"structmeshlib_1_1GraphEdgeBitSet.html#a891000e80eed09c59a23a1ba8c68b745":[9,5,0,0,0,472,21],
+"structmeshlib_1_1GraphEdgeBitSet.html#a891000e80eed09c59a23a1ba8c68b745":[9,5,1,0,0,459,21],
+"structmeshlib_1_1GraphEdgeBitSet.html#a91f9b5d5534d45c8eac32a75cac77c1c":[9,5,0,0,0,472,34],
 "structmeshlib_1_1GraphEdgeBitSet.html#a91f9b5d5534d45c8eac32a75cac77c1c":[9,5,1,0,0,459,34],
 "structmeshlib_1_1GraphEdgeBitSet.html#a999a3fdb5985c962e81df2f26e2fcfe2":[9,5,0,0,0,472,56],
 "structmeshlib_1_1GraphEdgeBitSet.html#a999a3fdb5985c962e81df2f26e2fcfe2":[9,5,1,0,0,459,56],
@@ -242,12 +249,5 @@ var NAVTREEINDEX61 =
 "structmeshlib_1_1GraphVertId.html#a8740e6f87c4bd65bf7a4a01b487f68e2":[9,5,0,0,0,475,0],
 "structmeshlib_1_1GraphVertId.html#a8740e6f87c4bd65bf7a4a01b487f68e2":[9,5,1,0,0,462,0],
 "structmeshlib_1_1GraphVertId.html#ab4041bb2d48dd0ecb963fb6b2543215d":[9,5,0,0,0,475,13],
-"structmeshlib_1_1GraphVertId.html#ab4041bb2d48dd0ecb963fb6b2543215d":[9,5,1,0,0,462,13],
-"structmeshlib_1_1GraphVertId.html#acddb577b9b0c217c5fe6b5ca389b93a7":[9,5,0,0,0,475,1],
-"structmeshlib_1_1GraphVertId.html#acddb577b9b0c217c5fe6b5ca389b93a7":[9,5,1,0,0,462,1],
-"structmeshlib_1_1GraphVertId.html#ad288682a075a1428e46f9e5c9eea7323":[9,5,0,0,0,475,6],
-"structmeshlib_1_1GraphVertId.html#ad288682a075a1428e46f9e5c9eea7323":[9,5,1,0,0,462,6],
-"structmeshlib_1_1GraphVertId.html#ad7d47df3c7f2266ce62475d91443ac2a":[9,5,0,0,0,475,3],
-"structmeshlib_1_1GraphVertId.html#ad7d47df3c7f2266ce62475d91443ac2a":[9,5,1,0,0,462,3],
-"structmeshlib_1_1GraphVertId.html#af2092a19c24b80b90b6cb4c5f4b3a1c4":[9,5,0,0,0,475,5]
+"structmeshlib_1_1GraphVertId.html#ab4041bb2d48dd0ecb963fb6b2543215d":[9,5,1,0,0,462,13]
 };

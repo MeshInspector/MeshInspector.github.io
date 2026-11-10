@@ -156,6 +156,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a349e9b3e3468d73a5f863d238f1213bd" id="r_a349e9b3e3468d73a5f863d238f1213bd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a349e9b3e3468d73a5f863d238f1213bd">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a></td></tr>
 <tr class="memitem:a252460bfefd6cd3fbb7d18f5e2ef2cae" id="r_a252460bfefd6cd3fbb7d18f5e2ef2cae"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a252460bfefd6cd3fbb7d18f5e2ef2cae">bidir_dist</a> () const -&gt; f32</td></tr>
 <tr class="memitem:a82378cd21a19d302685d90d29d7d6275" id="r_a82378cd21a19d302685d90d29d7d6275"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82378cd21a19d302685d90d29d7d6275">dist</a> () const -&gt; f32</td></tr>
+<tr class="memitem:a05c4e6530f7ec619adc764e6d2a62ec5" id="r_a05c4e6530f7ec619adc764e6d2a62ec5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05c4e6530f7ec619adc764e6d2a62ec5">op_compare_three_way</a> (other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a>) const -&gt; <a class="el" href="structmeshlib_1_1std__partial__ordering.html">meshlib::std_partial_ordering</a></td></tr>
 <tr class="memitem:a6fbf2f49ec77a759f67588936ba9a360" id="r_a6fbf2f49ec77a759f67588936ba9a360"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fbf2f49ec77a759f67588936ba9a360">op_less</a> (other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a>) const -&gt; bool</td></tr>
 <tr class="memitem:ab8762e98664b7dbdf167258745ded76f" id="r_ab8762e98664b7dbdf167258745ded76f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8762e98664b7dbdf167258745ded76f">op_greater</a> (other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a>) const -&gt; bool</td></tr>
 <tr class="memitem:ad29df9a7d596fd0f956c8408de5fc2c7" id="r_ad29df9a7d596fd0f956c8408de5fc2c7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad29df9a7d596fd0f956c8408de5fc2c7">op_less_equal</a> (other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a>) const -&gt; bool</td></tr>
@@ -519,6 +520,25 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a05c4e6530f7ec619adc764e6d2a62ec5" name="a05c4e6530f7ec619adc764e6d2a62ec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05c4e6530f7ec619adc764e6d2a62ec5">&#9670;&#160;</a></span>op_compare_three_way()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::MeshPointAndDistance::op_compare_three_way </td>
+          <td>(</td>
+          <td class="paramtype">other:&amp;<a class="el" href="structmeshlib_1_1MeshPointAndDistance.html">meshlib::MeshPointAndDistance</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const -&gt;  <a class="el" href="structmeshlib_1_1std__partial__ordering.html">meshlib::std_partial_ordering</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;=&gt;</span>.</p>
+<p>Calls <span class="tt">MR_compare_three_way_MR_MeshPointAndDistance()</span>. </p>
+
+</div>
+</div>
 <a id="ab8762e98664b7dbdf167258745ded76f" name="ab8762e98664b7dbdf167258745ded76f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab8762e98664b7dbdf167258745ded76f">&#9670;&#160;</a></span>op_greater()</h2>
 
@@ -533,7 +553,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::MeshPointAndDistance::operator&gt;</span>.</p>
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&gt;</span>.</p>
 <p>Calls <span class="tt">MR_greater_MR_MeshPointAndDistance()</span>. </p>
 
 </div>
@@ -552,7 +572,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::MeshPointAndDistance::operator&gt;=</span>.</p>
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&gt;=</span>.</p>
 <p>Calls <span class="tt">MR_greater_equal_MR_MeshPointAndDistance()</span>. </p>
 
 </div>
@@ -571,7 +591,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;</span>.</p>
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;</span>.</p>
 <p>Calls <span class="tt">MR_less_MR_MeshPointAndDistance()</span>. </p>
 
 </div>
@@ -590,7 +610,7 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;=</span>.</p>
+<p>comparison telling which point is closer to the location Generated from method <span class="tt">MR::MeshPointAndDistance::operator&lt;=</span>.</p>
 <p>Calls <span class="tt">MR_less_equal_MR_MeshPointAndDistance()</span>. </p>
 
 </div>

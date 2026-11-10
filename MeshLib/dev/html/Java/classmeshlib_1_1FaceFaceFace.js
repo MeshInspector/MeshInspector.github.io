@@ -8,6 +8,7 @@ var classmeshlib_1_1FaceFaceFace =
     [ "assignFromAnother", "classmeshlib_1_1FaceFaceFace.html#a777193b05db336f14f4e346c4439d5ce", null ],
     [ "bFace", "classmeshlib_1_1FaceFaceFace.html#af8fba6e2137fe1597ef2458a5face54e", null ],
     [ "cFace", "classmeshlib_1_1FaceFaceFace.html#a8463d3e67f3f068344ff9fbcaf5a8b35", null ],
+    [ "opCompareThreeWay", "classmeshlib_1_1FaceFaceFace.html#a4e03ec4b7583e33d54631cb25c9e7f89", null ],
     [ "opEqual", "classmeshlib_1_1FaceFaceFace.html#ab3f0c56e4333a9547b35e64f020df3ea", null ],
     [ "opGreater", "classmeshlib_1_1FaceFaceFace.html#aeefb057a10313e0b3b33e60fa6fe98dc", null ],
     [ "opGreaterEqual", "classmeshlib_1_1FaceFaceFace.html#a122d850412980c33a8d89bcbbb8edbe2", null ],

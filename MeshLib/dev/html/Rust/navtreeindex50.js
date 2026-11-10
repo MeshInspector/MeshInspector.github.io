@@ -1,5 +1,8 @@
 var NAVTREEINDEX50 =
 {
+"structmeshlib_1_1EdgeLengthMesh.html#a78cda33493f01e3edce4d2a29fb0b7fe":[9,5,0,0,0,307,2],
+"structmeshlib_1_1EdgeLengthMesh.html#a78cda33493f01e3edce4d2a29fb0b7fe":[9,5,1,0,0,294,2],
+"structmeshlib_1_1EdgeLengthMesh.html#a9713faf882803d7686dd22351f2d63e4":[9,5,0,0,0,307,1],
 "structmeshlib_1_1EdgeLengthMesh.html#a9713faf882803d7686dd22351f2d63e4":[9,5,1,0,0,294,1],
 "structmeshlib_1_1EdgeLengthMesh.html#a9833e0c0d24dac5ea81cfa3a19e2619f":[9,5,0,0,0,307,8],
 "structmeshlib_1_1EdgeLengthMesh.html#a9833e0c0d24dac5ea81cfa3a19e2619f":[9,5,1,0,0,294,8],
@@ -221,7 +224,7 @@ var NAVTREEINDEX50 =
 "structmeshlib_1_1EdgePathsBuilderT__MR__TrivialMetricToPenalty__ReachedVert.html#afb48e19793686dbbef593b85735a234f":[9,5,1,0,0,300,8],
 "structmeshlib_1_1EdgePoint.html":[9,5,0,0,0,314],
 "structmeshlib_1_1EdgePoint.html":[9,5,1,0,0,301],
-"structmeshlib_1_1EdgePoint.html#a03cee6850e80488d2d9beb91207b3fb6":[9,5,0,0,0,2541],
+"structmeshlib_1_1EdgePoint.html#a03cee6850e80488d2d9beb91207b3fb6":[9,5,0,0,0,2542],
 "structmeshlib_1_1EdgePoint.html#a03cee6850e80488d2d9beb91207b3fb6":[9,5,0,0,0,314,19],
 "structmeshlib_1_1EdgePoint.html#a03cee6850e80488d2d9beb91207b3fb6":[9,5,1,0,0,301,19],
 "structmeshlib_1_1EdgePoint.html#a1a2236564462dcb8140caff7f9bc8737":[9,5,0,0,0,314,12],
@@ -236,7 +239,7 @@ var NAVTREEINDEX50 =
 "structmeshlib_1_1EdgePoint.html#a3ff78f57cc8eab7353ce09910997c641":[9,5,1,0,0,301,6],
 "structmeshlib_1_1EdgePoint.html#a41cef77fd9ac0b24e51c78a346a83f43":[9,5,0,0,0,314,3],
 "structmeshlib_1_1EdgePoint.html#a41cef77fd9ac0b24e51c78a346a83f43":[9,5,1,0,0,301,3],
-"structmeshlib_1_1EdgePoint.html#a4cabc31fd4891bcd195ffcac937784fa":[9,5,0,0,0,2546],
+"structmeshlib_1_1EdgePoint.html#a4cabc31fd4891bcd195ffcac937784fa":[9,5,0,0,0,2547],
 "structmeshlib_1_1EdgePoint.html#a4cabc31fd4891bcd195ffcac937784fa":[9,5,0,0,0,314,22],
 "structmeshlib_1_1EdgePoint.html#a4cabc31fd4891bcd195ffcac937784fa":[9,5,1,0,0,301,22],
 "structmeshlib_1_1EdgePoint.html#a4f12d43d3cd839b7b1e594600909af06":[9,5,0,0,0,314,17],
@@ -246,8 +249,5 @@ var NAVTREEINDEX50 =
 "structmeshlib_1_1EdgePoint.html#a57cf4965b7adf653336a9d9f992df400":[9,5,0,0,0,314,8],
 "structmeshlib_1_1EdgePoint.html#a57cf4965b7adf653336a9d9f992df400":[9,5,1,0,0,301,8],
 "structmeshlib_1_1EdgePoint.html#a58ae0379e8e3bd0ff80837144d243b1e":[9,5,0,0,0,314,1],
-"structmeshlib_1_1EdgePoint.html#a58ae0379e8e3bd0ff80837144d243b1e":[9,5,1,0,0,301,1],
-"structmeshlib_1_1EdgePoint.html#a5bbfd287b8c0c8f123e8056e30ab2145":[9,5,0,0,0,314,11],
-"structmeshlib_1_1EdgePoint.html#a5bbfd287b8c0c8f123e8056e30ab2145":[9,5,1,0,0,301,11],
-"structmeshlib_1_1EdgePoint.html#a6284b80deff65c226600c71538c26f60":[9,5,0,0,0,314,9]
+"structmeshlib_1_1EdgePoint.html#a58ae0379e8e3bd0ff80837144d243b1e":[9,5,1,0,0,301,1]
 };

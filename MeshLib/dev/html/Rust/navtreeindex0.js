@@ -114,7 +114,7 @@ var NAVTREEINDEX0 =
 "MRCCuda_2mod_8rs.html":[9,5,2,0,0,1,0,1],
 "MRCIOExtras_2mod_8rs.html":[9,5,2,0,0,1,1,0],
 "MRCMesh_2mod_8rs.html":[9,5,2,0,0,1,2,0],
-"MRCMisc_2mod_8rs.html":[9,5,2,0,0,1,3,76],
+"MRCMisc_2mod_8rs.html":[9,5,2,0,0,1,3,77],
 "MRCNCMachineSettings_8rs.html":[9,5,2,0,0,1,2,54],
 "MRCSymbolMesh_2mod_8rs.html":[9,5,2,0,0,1,4,0],
 "MRCVoxels_2mod_8rs.html":[9,5,2,0,0,1,5,0],

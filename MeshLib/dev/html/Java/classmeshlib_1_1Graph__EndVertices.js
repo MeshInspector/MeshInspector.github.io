@@ -5,6 +5,7 @@ var classmeshlib_1_1Graph__EndVertices =
     [ "Graph_EndVertices", "classmeshlib_1_1Graph__EndVertices.html#adfdbaece2020b85750c5b498fa7b4d97", null ],
     [ "Graph_EndVertices", "classmeshlib_1_1Graph__EndVertices.html#ad55d7da299fdde772a6bb3c1be4574a8", null ],
     [ "assignFromAnother", "classmeshlib_1_1Graph__EndVertices.html#a2917e1f11448f0f4ce9b40b9791f93d5", null ],
+    [ "opCompareThreeWay", "classmeshlib_1_1Graph__EndVertices.html#a5419a675880a772a7646b62f00ff441a", null ],
     [ "opEqual", "classmeshlib_1_1Graph__EndVertices.html#aa978bcbef333460b32e1b01c4f4a532c", null ],
     [ "opGreater", "classmeshlib_1_1Graph__EndVertices.html#aacc300adbc8deac09191e0bae73f7332", null ],
     [ "opGreaterEqual", "classmeshlib_1_1Graph__EndVertices.html#ad057f9b4df7b497355333938c2af2142", null ],

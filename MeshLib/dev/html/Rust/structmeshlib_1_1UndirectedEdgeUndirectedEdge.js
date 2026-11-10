@@ -5,6 +5,7 @@ var structmeshlib_1_1UndirectedEdgeUndirectedEdge =
     [ "assign_from_another", "structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#a790a84e1b517c974e6e866cfe68399d4", null ],
     [ "b_undir_edge", "structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#aaf1619b2910c897ca3ad1373ae649311", null ],
     [ "b_undir_edge_mut", "structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#abbb35e5ce3cebf15a4242f6675f4737f", null ],
+    [ "op_compare_three_way", "structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#aa2e8084cec6f0b7ce3a8682b3e8911c6", null ],
     [ "op_equal", "structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#ac46db9017b5872fab2e24a22aedb2449", null ],
     [ "op_greater", "structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#a2b529c100576bac2502a8dca3b756ccd", null ],
     [ "op_greater_equal", "structmeshlib_1_1UndirectedEdgeUndirectedEdge.html#a5f2e1fc4c555f9f4cc943c111880da79", null ],

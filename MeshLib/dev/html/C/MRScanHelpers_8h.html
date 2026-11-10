@@ -137,6 +137,7 @@ $(function(){initNavTree('MRScanHelpers_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="compare_8h_source.html">MRCMisc/compare.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
@@ -169,6 +170,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a851722175b779567adc09b543ded427f" id="r_a851722175b779567adc09b543ded427f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a851722175b779567adc09b543ded427f">MR_SliceInfoBase_DestroyArray</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this)</td></tr>
 <tr class="memdesc:a851722175b779567adc09b543ded427f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a07cab1e1557315b4e19f081fe1795d8b" id="r_a07cab1e1557315b4e19f081fe1795d8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07cab1e1557315b4e19f081fe1795d8b">MR_SliceInfoBase_AssignFromAnother</a> (<a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_other)</td></tr>
+<tr class="memitem:a7cd0fd5f28acde44b5e03a242d104cd3" id="r_a7cd0fd5f28acde44b5e03a242d104cd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="compare_8h.html#ac9f41a802c982c5fc9233acbc7493cce">MR_std_partial_ordering</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cd0fd5f28acde44b5e03a242d104cd3">MR_compare_three_way_MR_SliceInfoBase</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
 <tr class="memitem:a5f9f8127f95f527c73c4ce70d6897f78" id="r_a5f9f8127f95f527c73c4ce70d6897f78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f9f8127f95f527c73c4ce70d6897f78">MR_equal_MR_SliceInfoBase</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
 <tr class="memitem:aa6cd81866091fb239e873c50c9f74013" id="r_aa6cd81866091fb239e873c50c9f74013"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6cd81866091fb239e873c50c9f74013">MR_not_equal_MR_SliceInfoBase</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
 <tr class="memitem:a4a666523e9d18bf44d45885893fa4ee8" id="r_a4a666523e9d18bf44d45885893fa4ee8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a666523e9d18bf44d45885893fa4ee8">MR_less_MR_SliceInfoBase</a> (const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
@@ -201,6 +203,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a3c26087d0bfb439895bc086edf7eb0b8" id="r_a3c26087d0bfb439895bc086edf7eb0b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c26087d0bfb439895bc086edf7eb0b8">MR_SliceInfo_DestroyArray</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this)</td></tr>
 <tr class="memdesc:a3c26087d0bfb439895bc086edf7eb0b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a4d4f812d4295badc4e4e36f754b7ecba" id="r_a4d4f812d4295badc4e4e36f754b7ecba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d4f812d4295badc4e4e36f754b7ecba">MR_SliceInfo_AssignFromAnother</a> (<a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_other)</td></tr>
+<tr class="memitem:a9465547622e42af515dbb857752b5bfa" id="r_a9465547622e42af515dbb857752b5bfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="compare_8h.html#ac9f41a802c982c5fc9233acbc7493cce">MR_std_partial_ordering</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9465547622e42af515dbb857752b5bfa">MR_compare_three_way_MR_SliceInfo_MR_SliceInfoBase</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
 <tr class="memitem:a7dd16ccbeb5b9ce8d66222397e76d8a3" id="r_a7dd16ccbeb5b9ce8d66222397e76d8a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dd16ccbeb5b9ce8d66222397e76d8a3">MR_equal_MR_SliceInfo_MR_SliceInfoBase</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
 <tr class="memitem:af13567366b5f5f808fe48182cb6d79d7" id="r_af13567366b5f5f808fe48182cb6d79d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af13567366b5f5f808fe48182cb6d79d7">MR_not_equal_MR_SliceInfo_MR_SliceInfoBase</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
 <tr class="memitem:a0b76876bd609f479c6d7abe5a473f61a" id="r_a0b76876bd609f479c6d7abe5a473f61a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b76876bd609f479c6d7abe5a473f61a">MR_less_MR_SliceInfo_MR_SliceInfoBase</a> (const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *_this, const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *_1)</td></tr>
@@ -228,6 +231,50 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a9465547622e42af515dbb857752b5bfa" name="a9465547622e42af515dbb857752b5bfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9465547622e42af515dbb857752b5bfa">&#9670;&#160;</a></span>MR_compare_three_way_MR_SliceInfo_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="compare_8h.html#ac9f41a802c982c5fc9233acbc7493cce">MR_std_partial_ordering</a> MR_compare_three_way_MR_SliceInfo_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__SliceInfo_8h.html#a4a35a18cc382bdf4243ca5b58f8d0942">MR_SliceInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfo::operator&lt;=&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a7cd0fd5f28acde44b5e03a242d104cd3" name="a7cd0fd5f28acde44b5e03a242d104cd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cd0fd5f28acde44b5e03a242d104cd3">&#9670;&#160;</a></span>MR_compare_three_way_MR_SliceInfoBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="compare_8h.html#ac9f41a802c982c5fc9233acbc7493cce">MR_std_partial_ordering</a> MR_compare_three_way_MR_SliceInfoBase </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0799f8fd31a0e8ae5864034af6e44996">MR_SliceInfoBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SliceInfoBase::operator&lt;=&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a7dd16ccbeb5b9ce8d66222397e76d8a3" name="a7dd16ccbeb5b9ce8d66222397e76d8a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7dd16ccbeb5b9ce8d66222397e76d8a3">&#9670;&#160;</a></span>MR_equal_MR_SliceInfo_MR_SliceInfoBase()</h2>
 

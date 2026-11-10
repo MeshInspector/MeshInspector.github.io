@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lib_2ers_0',['lib.rs',['../lib_8rs.html',1,'']]]
+  ['iostream_2ers_0',['iostream.rs',['../iostream_8rs.html',1,'']]]
 ];

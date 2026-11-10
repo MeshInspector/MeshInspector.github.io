@@ -12,6 +12,7 @@ var classmeshlib_1_1MeshPointAndDistance =
     [ "eucledeanDist", "classmeshlib_1_1MeshPointAndDistance.html#aca219abec4e8ce9bf9a0854503b2d6b3", null ],
     [ "loc", "classmeshlib_1_1MeshPointAndDistance.html#a1209380cb9ba2017eabee347c205b50a", null ],
     [ "mtp", "classmeshlib_1_1MeshPointAndDistance.html#af9744417862268d29c30a16e9e27f0fd", null ],
+    [ "opCompareThreeWay", "classmeshlib_1_1MeshPointAndDistance.html#a3acc655e8564127d9f672ac66004bbb9", null ],
     [ "opGreater", "classmeshlib_1_1MeshPointAndDistance.html#a24d75517fa519ba64aaf5f7c1671be70", null ],
     [ "opGreaterEqual", "classmeshlib_1_1MeshPointAndDistance.html#a1faac21bdd68a9604284fd960e4ad7dc", null ],
     [ "opLess", "classmeshlib_1_1MeshPointAndDistance.html#a06a70982b2584d2ec8d96f78f46131ea", null ],

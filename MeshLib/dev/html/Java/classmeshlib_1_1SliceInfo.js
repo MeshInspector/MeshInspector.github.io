@@ -7,6 +7,7 @@ var classmeshlib_1_1SliceInfo =
     [ "fileNum", "classmeshlib_1_1SliceInfo.html#a4b29862e3250fdf099c2441240fefbd7", null ],
     [ "imagePos", "classmeshlib_1_1SliceInfo.html#a69392919bd6f4724b1ef405be101c272", null ],
     [ "instanceNum", "classmeshlib_1_1SliceInfo.html#ac4a734c29d51d2cd58acc371b37432f8", null ],
+    [ "opCompareThreeWay", "classmeshlib_1_1SliceInfo.html#a95f6ed31220ae2976ba9cb66b91d8bbb", null ],
     [ "opEqual", "classmeshlib_1_1SliceInfo.html#a75c8c07ad703ac918b38c67796d6197b", null ],
     [ "opGreater", "classmeshlib_1_1SliceInfo.html#a40c19d9d95b6a106b09ebf3cc709254f", null ],
     [ "opGreaterEqual", "classmeshlib_1_1SliceInfo.html#aa1dd1ab28661bdb0bd1681881d4c2f16", null ],

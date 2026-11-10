@@ -7,6 +7,7 @@ var classmeshlib_1_1SliceInfoBase =
     [ "assignFromAnother", "classmeshlib_1_1SliceInfoBase.html#a57b0a66e2f5fe7e729d65c340bdea982", null ],
     [ "fileNum", "classmeshlib_1_1SliceInfoBase.html#a148479798745e620df2111aa146bc980", null ],
     [ "instanceNum", "classmeshlib_1_1SliceInfoBase.html#af7ea088cd1bd43de7928207327d4c52c", null ],
+    [ "opCompareThreeWay", "classmeshlib_1_1SliceInfoBase.html#a0766d629bb6ed0f45975ae9c8d7652bd", null ],
     [ "opEqual", "classmeshlib_1_1SliceInfoBase.html#a6e6c1be75973e10096505a3219dab66d", null ],
     [ "opGreater", "classmeshlib_1_1SliceInfoBase.html#a90e6040c9a19bc49b0bc31203e4e06cf", null ],
     [ "opGreaterEqual", "classmeshlib_1_1SliceInfoBase.html#a2236a7f16563056886a9280532353b9d", null ],

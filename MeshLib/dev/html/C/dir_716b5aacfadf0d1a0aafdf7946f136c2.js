@@ -1,6 +1,7 @@
 var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
 [
     [ "common.h", "common_8h.html", "common_8h" ],
+    [ "compare.h", "compare_8h.html", "compare_8h" ],
     [ "expected_bool_std_string.h", "expected__bool__std__string_8h.html", "expected__bool__std__string_8h" ],
     [ "expected_MR_AffineXf3f_std_string.h", "expected__MR__AffineXf3f__std__string_8h.html", "expected__MR__AffineXf3f__std__string_8h" ],
     [ "expected_MR_BooleanResultPoints_std_string.h", "expected__MR__BooleanResultPoints__std__string_8h.html", "expected__MR__BooleanResultPoints__std__string_8h" ],

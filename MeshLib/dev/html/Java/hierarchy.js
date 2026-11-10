@@ -1977,6 +1977,7 @@ var hierarchy =
     [ "meshlib.SignDetectionMode", "classmeshlib_1_1SignDetectionMode.html", null ],
     [ "meshlib.SignDetectionModeShort", "classmeshlib_1_1SignDetectionModeShort.html", null ],
     [ "meshlib.SlicePlane", "classmeshlib_1_1SlicePlane.html", null ],
+    [ "meshlib.std_partial_ordering", "classmeshlib_1_1std__partial__ordering.html", null ],
     [ "meshlib.SystemPath_Directory", "classmeshlib_1_1SystemPath__Directory.html", null ],
     [ "meshlib.SystemPath_SystemFontType", "classmeshlib_1_1SystemPath__SystemFontType.html", null ],
     [ "meshlib.TimeUnit", "classmeshlib_1_1TimeUnit.html", null ],

@@ -137,6 +137,7 @@ $(function(){initNavTree('MRIOFilters_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="compare_8h_source.html">MRCMisc/compare.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
@@ -168,6 +169,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a8a54fc9cf744cb56a1ae0e783f3780d9" id="r_a8a54fc9cf744cb56a1ae0e783f3780d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a54fc9cf744cb56a1ae0e783f3780d9">MR_IOFilter_DestroyArray</a> (const <a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *_this)</td></tr>
 <tr class="memdesc:a8a54fc9cf744cb56a1ae0e783f3780d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a77c87fc5fce76a6150e78cc9efeb719c" id="r_a77c87fc5fce76a6150e78cc9efeb719c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77c87fc5fce76a6150e78cc9efeb719c">MR_IOFilter_AssignFromAnother</a> (<a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *_other)</td></tr>
+<tr class="memitem:a7c772cb9abe27bf8fe1c3ba629850359" id="r_a7c772cb9abe27bf8fe1c3ba629850359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="compare_8h.html#ac9f41a802c982c5fc9233acbc7493cce">MR_std_partial_ordering</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c772cb9abe27bf8fe1c3ba629850359">MR_compare_three_way_MR_IOFilter</a> (const <a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *_this, const <a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *_1)</td></tr>
 <tr class="memitem:addb16dbb100451dbd276ee5c044d9a08" id="r_addb16dbb100451dbd276ee5c044d9a08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addb16dbb100451dbd276ee5c044d9a08">MR_equal_MR_IOFilter</a> (const <a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *_this, const <a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *_1)</td></tr>
 <tr class="memitem:afc2d6338f907cf893951f828fee23ed9" id="r_afc2d6338f907cf893951f828fee23ed9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc2d6338f907cf893951f828fee23ed9">MR_not_equal_MR_IOFilter</a> (const <a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *_this, const <a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *_1)</td></tr>
 <tr class="memitem:ae61960691f7753a65ca77e9d6e06894d" id="r_ae61960691f7753a65ca77e9d6e06894d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae61960691f7753a65ca77e9d6e06894d">MR_less_MR_IOFilter</a> (const <a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *_this, const <a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *_1)</td></tr>
@@ -244,6 +246,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>returns union of input filters Generated from function <span class="tt">MR::operator|</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__MR__IOFilter_8h.html#aeb4419f83395600f43dde9ce14cd5634" title="Destroys a heap-allocated instance of MR_std_vector_MR_IOFilter. Does nothing if the pointer is null.">MR_std_vector_MR_IOFilter_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7c772cb9abe27bf8fe1c3ba629850359" name="a7c772cb9abe27bf8fe1c3ba629850359"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c772cb9abe27bf8fe1c3ba629850359">&#9670;&#160;</a></span>MR_compare_three_way_MR_IOFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="compare_8h.html#ac9f41a802c982c5fc9233acbc7493cce">MR_std_partial_ordering</a> MR_compare_three_way_MR_IOFilter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a86edf3ec5c251b6d45c75d48abe44d7b">MR_IOFilter</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::IOFilter::operator&lt;=&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_1</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

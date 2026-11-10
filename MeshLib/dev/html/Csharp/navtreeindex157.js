@@ -1,5 +1,15 @@
 var NAVTREEINDEX157 =
 {
+"structMR_1_1Box1f.html#af108f2c3b6577b0cc79f82c09cfa50b3":[9,3,0,0,0,78,0],
+"structMR_1_1Box1f.html#af86afe98a39bcb8b70aef268cd687d9c":[9,3,0,0,0,78,11],
+"structMR_1_1Box1f.html#afbc33f1635950ec50e0295ede27a9195":[9,3,0,0,0,78,5],
+"structMR_1_1Box1i.html":[9,3,0,0,0,79],
+"structMR_1_1Box1i.html#a01e4bb7a5811ed9d938d248d90c34def":[9,3,0,0,0,79,5],
+"structMR_1_1Box1i.html#a05cf5cb1750a6c86f63de56f5ec37d6c":[9,3,0,0,0,79,9],
+"structMR_1_1Box1i.html#a0a12f34e2b3a99ee63ccca8607f45ea4":[9,3,0,0,0,79,28],
+"structMR_1_1Box1i.html#a1362c48e3de06b717341a083de178819":[9,3,0,0,0,79,15],
+"structMR_1_1Box1i.html#a19d3570f031a1f84c004197e7c6a8a5e":[9,3,0,0,0,79,55],
+"structMR_1_1Box1i.html#a1ef449a2d68137443747e37c2319ab91":[9,3,0,0,0,79,47],
 "structMR_1_1Box1i.html#a1f429400fcc6b89a98cba1440371c7da":[9,3,0,0,0,79,19],
 "structMR_1_1Box1i.html#a208c881c99091191ca689b40b3ebdbac":[9,3,0,0,0,79,58],
 "structMR_1_1Box1i.html#a3396b2c24b6ccab34c297ef80811324e":[9,3,0,0,0,79,34],
@@ -239,15 +249,5 @@ var NAVTREEINDEX157 =
 "structMR_1_1Box2f.html#ac9ad8686a4c69266d4ba127986dcf3d7":[9,3,0,0,0,82,60],
 "structMR_1_1Box2f.html#acbefea688f7dc87b867148b90c416d7c":[9,3,0,0,0,82,34],
 "structMR_1_1Box2f.html#ad1d76f0d322ad45f0e5a19400a0ed8ef":[9,3,0,0,0,82,22],
-"structMR_1_1Box2f.html#ad7db4b272c73f7f22fd193a8ea5bb411":[9,3,0,0,0,82,36],
-"structMR_1_1Box2f.html#ad84b19749f13c0f61d7de00a0a03dab2":[9,3,0,0,0,82,15],
-"structMR_1_1Box2f.html#ad859f5409555c78cc823105b362b5d9f":[9,3,0,0,0,82,14],
-"structMR_1_1Box2f.html#ade402f45a1fd7699fb350716947a0d54":[9,3,0,0,0,82,44],
-"structMR_1_1Box2f.html#adf99d4309da8794c7ab383fbec8b1518":[9,3,0,0,0,82,35],
-"structMR_1_1Box2f.html#adfe5871f99a59ce541eef7ca8648e1ae":[9,3,0,0,0,82,13],
-"structMR_1_1Box2f.html#ae01c3e963703eceae07080b6831c75a7":[9,3,0,0,0,82,23],
-"structMR_1_1Box2f.html#ae4ba601769f69013834bf20c61e3cceb":[9,3,0,0,0,82,53],
-"structMR_1_1Box2f.html#af1b2aac57ed4cd7ffa9cca6a061999b0":[9,3,0,0,0,82,33],
-"structMR_1_1Box2f.html#afa2f72e008511a892daadc7f6e6e9cb2":[9,3,0,0,0,82,25],
-"structMR_1_1Box2i.html":[9,3,0,0,0,83]
+"structMR_1_1Box2f.html#ad7db4b272c73f7f22fd193a8ea5bb411":[9,3,0,0,0,82,36]
 };

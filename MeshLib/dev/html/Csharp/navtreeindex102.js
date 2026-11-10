@@ -1,5 +1,15 @@
 var NAVTREEINDEX102 =
 {
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a20cfc9510ee780771f5ea96b12fccef6":[9,3,0,0,0,1197,4,2],
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a238d3b2d8d4972d6a20a08344faf8b3b":[9,3,0,0,0,1197,4,10],
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a2b61184f9c426dbc1aa5a4fb3fe546fd":[9,3,0,0,0,1197,4,13],
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a3b74585a8d996570d5da9ae908194f02":[9,3,0,0,0,1197,4,18],
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a3ebc872c2fb58e4fe0418d622a140573":[9,3,0,0,0,1197,4,15],
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a5b558d1980fd737456a4ee25f6b4da23":[9,3,0,0,0,1197,4,4],
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a6a224ad6a8fb2bdbf20eb938043c070c":[9,3,0,0,0,1197,4,0],
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a9744ae3662b9cdc2ed5c8002e1139644":[9,3,0,0,0,1197,4,12],
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a9b9eebd20ff03af9f494ea0ae9908464":[9,3,0,0,0,1197,4,3],
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#aadf9d89f98b255d7b0501aa5b0344602":[9,3,0,0,0,1197,4,14],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#abf43d863bf5b11bf6bf78289fb2541b8":[9,3,0,0,0,1197,4,9],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#acea2bcfcb228b18b76b351b5bb14aeeb":[9,3,0,0,0,1197,4,11],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#ad65e93c7c7a96b8a5e16356072669f9e":[9,3,0,0,0,1197,4,17],
@@ -239,15 +249,5 @@ var NAVTREEINDEX102 =
 "classMR_1_1DecimatePolylineResult.html#a3e3c6467c81adc273ddfd6b468d4ddc6":[9,3,0,0,0,1207,5],
 "classMR_1_1DecimatePolylineResult.html#a47c127e3e1326913eebaa2e6618b30cb":[9,3,0,0,0,1207,6],
 "classMR_1_1DecimatePolylineResult.html#a50e67e81fbb504005bd3f9785748835d":[9,3,0,0,0,1207,4],
-"classMR_1_1DecimatePolylineResult.html#a7b610e6ff6bb17c3fe5917060054e0c9":[9,3,0,0,0,1207,0],
-"classMR_1_1DecimatePolylineResult.html#a85ef9dca091b8bcdcd68043324e5019c":[9,3,0,0,0,1207,3],
-"classMR_1_1DecimatePolylineResult.html#addfe4e10968d02c38ccd2a83b77afccb":[9,3,0,0,0,1207,1],
-"classMR_1_1DecimatePolylineSettings__MRVector2f.html":[9,3,0,0,0,1208],
-"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a091322056865ca6e2db6e05f31ef02d6":[9,3,0,0,0,1208,4],
-"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a0e134506a5044ff2d17926e673f20aef":[9,3,0,0,0,1208,8],
-"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a133cf8a04c1fc6fde4e87f0ec3cd0c37":[9,3,0,0,0,1208,11],
-"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a2559b6eed510406317ae45c8c6c229bd":[9,3,0,0,0,1208,6],
-"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a2bcfc0595393ab797145d7dc8b9a4fd3":[9,3,0,0,0,1208,0],
-"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a5911008bde3042e75c6b5e5f8beaa711":[9,3,0,0,0,1208,13],
-"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a63f609f1311dd5e2b400bfb71458cd30":[9,3,0,0,0,1208,5]
+"classMR_1_1DecimatePolylineResult.html#a7b610e6ff6bb17c3fe5917060054e0c9":[9,3,0,0,0,1207,0]
 };

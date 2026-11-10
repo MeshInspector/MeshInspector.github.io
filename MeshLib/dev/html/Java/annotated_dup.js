@@ -1410,6 +1410,7 @@ var annotated_dup =
       [ "std_pair_std_vector_MR_FaceBitSet_int", "classmeshlib_1_1std__pair__std__vector__MR__FaceBitSet__int.html", "classmeshlib_1_1std__pair__std__vector__MR__FaceBitSet__int" ],
       [ "std_pair_std_vector_MR_UndirectedEdgeBitSet_int", "classmeshlib_1_1std__pair__std__vector__MR__UndirectedEdgeBitSet__int.html", "classmeshlib_1_1std__pair__std__vector__MR__UndirectedEdgeBitSet__int" ],
       [ "std_pair_std_vector_MR_VertBitSet_int", "classmeshlib_1_1std__pair__std__vector__MR__VertBitSet__int.html", "classmeshlib_1_1std__pair__std__vector__MR__VertBitSet__int" ],
+      [ "std_partial_ordering", "classmeshlib_1_1std__partial__ordering.html", "classmeshlib_1_1std__partial__ordering" ],
       [ "std_set_std_string", "classmeshlib_1_1std__set__std__string.html", "classmeshlib_1_1std__set__std__string" ],
       [ "std_set_std_string_const_iterator", "classmeshlib_1_1std__set__std__string__const__iterator.html", "classmeshlib_1_1std__set__std__string__const__iterator" ],
       [ "std_shared_ptr_const_MR_Mesh", "classmeshlib_1_1std__shared__ptr__const__MR__Mesh.html", "classmeshlib_1_1std__shared__ptr__const__MR__Mesh" ],

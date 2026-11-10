@@ -745,6 +745,7 @@ var hierarchy =
       [ "meshlib::std_array_float_33", "structmeshlib_1_1std__array__float__33.html", null ],
       [ "meshlib::std_array_float_4", "structmeshlib_1_1std__array__float__4.html", null ],
       [ "meshlib::std_array_int_4", "structmeshlib_1_1std__array__int__4.html", null ],
+      [ "meshlib::std_partial_ordering", "structmeshlib_1_1std__partial__ordering.html", null ],
       [ "meshlib::voxels_load::DicomStatusEnum", "structmeshlib_1_1voxels__load_1_1DicomStatusEnum.html", null ],
       [ "meshlib::voxels_load::GridType", "structmeshlib_1_1voxels__load_1_1GridType.html", null ]
     ] ],
@@ -950,6 +951,7 @@ var hierarchy =
       [ "meshlib::std_array_float_33", "structmeshlib_1_1std__array__float__33.html", null ],
       [ "meshlib::std_array_float_4", "structmeshlib_1_1std__array__float__4.html", null ],
       [ "meshlib::std_array_int_4", "structmeshlib_1_1std__array__int__4.html", null ],
+      [ "meshlib::std_partial_ordering", "structmeshlib_1_1std__partial__ordering.html", null ],
       [ "meshlib::voxels_load::DicomStatusEnum", "structmeshlib_1_1voxels__load_1_1DicomStatusEnum.html", null ],
       [ "meshlib::voxels_load::GridType", "structmeshlib_1_1voxels__load_1_1GridType.html", null ]
     ] ],
@@ -4316,6 +4318,7 @@ var hierarchy =
       [ "meshlib::std_array_float_33", "structmeshlib_1_1std__array__float__33.html", null ],
       [ "meshlib::std_array_float_4", "structmeshlib_1_1std__array__float__4.html", null ],
       [ "meshlib::std_array_int_4", "structmeshlib_1_1std__array__int__4.html", null ],
+      [ "meshlib::std_partial_ordering", "structmeshlib_1_1std__partial__ordering.html", null ],
       [ "meshlib::voxels_load::DicomStatusEnum", "structmeshlib_1_1voxels__load_1_1DicomStatusEnum.html", null ],
       [ "meshlib::voxels_load::GridType", "structmeshlib_1_1voxels__load_1_1GridType.html", null ]
     ] ],
@@ -4458,6 +4461,7 @@ var hierarchy =
       [ "meshlib::mesh_save::CtmSaveOptions_MeshCompression", "structmeshlib_1_1mesh__save_1_1CtmSaveOptions__MeshCompression.html", null ],
       [ "meshlib::planar_triangulation::WindingMode", "structmeshlib_1_1planar__triangulation_1_1WindingMode.html", null ],
       [ "meshlib::self_intersections::Settings_Method", "structmeshlib_1_1self__intersections_1_1Settings__Method.html", null ],
+      [ "meshlib::std_partial_ordering", "structmeshlib_1_1std__partial__ordering.html", null ],
       [ "meshlib::voxels_load::DicomStatusEnum", "structmeshlib_1_1voxels__load_1_1DicomStatusEnum.html", null ],
       [ "meshlib::voxels_load::GridType", "structmeshlib_1_1voxels__load_1_1GridType.html", null ]
     ] ],
@@ -4588,6 +4592,7 @@ var hierarchy =
       [ "meshlib::mesh_save::CtmSaveOptions_MeshCompression", "structmeshlib_1_1mesh__save_1_1CtmSaveOptions__MeshCompression.html", null ],
       [ "meshlib::planar_triangulation::WindingMode", "structmeshlib_1_1planar__triangulation_1_1WindingMode.html", null ],
       [ "meshlib::self_intersections::Settings_Method", "structmeshlib_1_1self__intersections_1_1Settings__Method.html", null ],
+      [ "meshlib::std_partial_ordering", "structmeshlib_1_1std__partial__ordering.html", null ],
       [ "meshlib::voxels_load::DicomStatusEnum", "structmeshlib_1_1voxels__load_1_1DicomStatusEnum.html", null ],
       [ "meshlib::voxels_load::GridType", "structmeshlib_1_1voxels__load_1_1GridType.html", null ]
     ] ],
@@ -4718,6 +4723,7 @@ var hierarchy =
       [ "meshlib::mesh_save::CtmSaveOptions_MeshCompression", "structmeshlib_1_1mesh__save_1_1CtmSaveOptions__MeshCompression.html", null ],
       [ "meshlib::planar_triangulation::WindingMode", "structmeshlib_1_1planar__triangulation_1_1WindingMode.html", null ],
       [ "meshlib::self_intersections::Settings_Method", "structmeshlib_1_1self__intersections_1_1Settings__Method.html", null ],
+      [ "meshlib::std_partial_ordering", "structmeshlib_1_1std__partial__ordering.html", null ],
       [ "meshlib::voxels_load::DicomStatusEnum", "structmeshlib_1_1voxels__load_1_1DicomStatusEnum.html", null ],
       [ "meshlib::voxels_load::GridType", "structmeshlib_1_1voxels__load_1_1GridType.html", null ]
     ] ],

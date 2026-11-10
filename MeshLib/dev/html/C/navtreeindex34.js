@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"MRDenseBox_8h.html#afbbb4319d47ed53ceea1cf04f564f68c":[9,2,2,0,0,0,0,1,73,16],
 "MRDenseBox_8h_source.html":[9,2,2,0,0,0,0,1,73],
 "MRDicom_8h.html":[9,2,2,0,0,0,0,4,5],
 "MRDicom_8h.html#a00e15a5c37eedadcb91f0d7a67c4b872":[9,2,2,0,0,0,0,4,5,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "MRDistanceMapParams_8h.html#acdadcd593f8d44a243a9dc5cc342feff":[9,2,2,0,0,0,0,1,79,21],
 "MRDistanceMapParams_8h.html#acea990dde1b583c81b44448447e228e3":[9,2,2,0,0,0,0,1,79,15],
 "MRDistanceMapParams_8h.html#aceda7df419fbc3d54aa0f0b099b91710":[9,2,2,0,0,0,0,1,79,31],
-"MRDistanceMapParams_8h.html#ad11f5ef8b12dd9e8df6296aecf1099e4":[9,2,2,0,0,0,0,1,79,113],
-"MRDistanceMapParams_8h.html#ad3effd0ac35f850b2084abe6ba4698e7":[9,2,2,0,0,0,0,1,79,53]
+"MRDistanceMapParams_8h.html#ad11f5ef8b12dd9e8df6296aecf1099e4":[9,2,2,0,0,0,0,1,79,113]
 };
