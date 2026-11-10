@@ -6,6 +6,7 @@ var MRSurfaceDistance_8h =
     [ "MR_computeSurfaceDistances_5_phmap_flat_hash_map_MR_VertId_float_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pair_const_MR_VertId_float", "MRSurfaceDistance_8h.html#aee8bed774db767789e3f08ceb3291eab", null ],
     [ "MR_computeSurfaceDistances_5_std_vector_MR_MeshTriPoint", "MRSurfaceDistance_8h.html#ad0c51509a552b99e14d24fb60867db42", null ],
     [ "MR_computeSurfaceDistances_6_MR_MeshTriPoint", "MRSurfaceDistance_8h.html#a02a6ce001e1aea5de080f9e40cbb0017", null ],
+    [ "MR_computeSurfaceDistances_6_MR_UndirectedEdgeBitSet", "MRSurfaceDistance_8h.html#aca840356741c2534755c92b4c7d76236", null ],
     [ "MR_computeSurfaceDistances_6_MR_VertBitSet", "MRSurfaceDistance_8h.html#a7b9fc838b6f99211217da4a4122c0018", null ],
     [ "MR_computeSurfaceDistances_6_std_vector_MR_MeshTriPoint", "MRSurfaceDistance_8h.html#a1eb202b359f583fa4ba771157698a67d", null ]
 ];

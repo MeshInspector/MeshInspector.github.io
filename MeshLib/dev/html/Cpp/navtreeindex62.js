@@ -1,5 +1,10 @@
 var NAVTREEINDEX62 =
 {
+"namespaceMR_1_1SelfIntersections.html":[9,0,0,19,15],
+"namespaceMR_1_1SpaceMouse.html":[9,0,0,19,36],
+"namespaceMR_1_1SpaceMouse.html#a0125a493583e2d875e2b9cb7607f9ef0":[9,0,1,0,1,50,7],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191":[9,0,1,0,1,50,9],
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a0449de604a44d5f7f5e7807469982f24":[9,0,1,0,1,50,9,22],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a045cc455f7698a9ccdf262bde6183cb1":[9,0,1,0,1,50,9,18],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a0d2387373cd1f88af245ff8a45265edc":[9,0,1,0,1,50,9,27],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a176c5b2ad8eb21c6d5933cabdbbd5568":[9,0,1,0,1,50,9,29],
@@ -244,10 +249,5 @@ var NAVTREEINDEX62 =
 "namespacemembers_func_z.html":[9,0,1,1,1,24],
 "namespacemembers_g.html":[9,0,1,1,0,7],
 "namespacemembers_h.html":[9,0,1,1,0,8],
-"namespacemembers_i.html":[9,0,1,1,0,9],
-"namespacemembers_j.html":[9,0,1,1,0,10],
-"namespacemembers_k.html":[9,0,1,1,0,11],
-"namespacemembers_l.html":[9,0,1,1,0,12],
-"namespacemembers_m.html":[9,0,1,1,0,13],
-"namespacemembers_n.html":[9,0,1,1,0,14]
+"namespacemembers_i.html":[9,0,1,1,0,9]
 };

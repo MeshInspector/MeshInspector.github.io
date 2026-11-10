@@ -1,5 +1,10 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1SmoothFillingSettings.html":[9,0,0,19,270],
+"structMR_1_1SomeLocalTriangulations.html":[9,0,0,19,336],
+"structMR_1_1SortIntersectionsData.html":[9,0,0,19,435],
+"structMR_1_1SpaceMouseDownListener.html":[9,0,0,19,824],
+"structMR_1_1SpaceMouseMoveListener.html":[9,0,0,19,823],
 "structMR_1_1SpaceMouseUpListener.html":[9,0,0,19,825],
 "structMR_1_1SpaceMouse_1_1Action.html":[9,0,1,0,1,50,0],
 "structMR_1_1SpaceMouse_1_1Action.html":[9,0,2,0,1,33,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html":[9,0,2,0,1,35,0,4],
 "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html#a695d48555d359194959f202492b508cb":[9,0,1,0,1,53,2,4,1],
 "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html#a695d48555d359194959f202492b508cb":[9,0,2,0,1,35,0,4,1],
-"structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html#ae3e69d330fabb3b2d376e4c801e960d5":[9,0,1,0,1,53,2,4,0],
-"structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html#ae3e69d330fabb3b2d376e4c801e960d5":[9,0,2,0,1,35,0,4,0],
-"structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html":[9,0,1,0,1,53,2,5],
-"structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html":[9,0,2,0,1,35,0,5],
-"structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html#ae5c1521ca92b3ee6b97084822165a34a":[9,0,1,0,1,53,2,5,0],
-"structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html#ae5c1521ca92b3ee6b97084822165a34a":[9,0,2,0,1,35,0,5,0]
+"structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html#ae3e69d330fabb3b2d376e4c801e960d5":[9,0,1,0,1,53,2,4,0]
 };

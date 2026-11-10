@@ -36,6 +36,8 @@ var MRId_8cs =
     [ "MR.LocaleDomainId", "structMR_1_1LocaleDomainId.html", "structMR_1_1LocaleDomainId" ],
     [ "MR.Const_Id_MRICPElemtTag", "classMR_1_1Const__Id__MRICPElemtTag.html", "classMR_1_1Const__Id__MRICPElemtTag" ],
     [ "MR.Id_MRICPElemtTag", "classMR_1_1Id__MRICPElemtTag.html", "classMR_1_1Id__MRICPElemtTag" ],
+    [ "MR.Const_Id_MRSurfaceDistanceStartTag", "classMR_1_1Const__Id__MRSurfaceDistanceStartTag.html", "classMR_1_1Const__Id__MRSurfaceDistanceStartTag" ],
+    [ "MR.Id_MRSurfaceDistanceStartTag", "classMR_1_1Id__MRSurfaceDistanceStartTag.html", "classMR_1_1Id__MRSurfaceDistanceStartTag" ],
     [ "MR.Const_NoInitNodeId", "classMR_1_1Const__NoInitNodeId.html", "classMR_1_1Const__NoInitNodeId" ],
     [ "MR.NoInitNodeId", "classMR_1_1NoInitNodeId.html", "classMR_1_1NoInitNodeId" ],
     [ "MR.ConstBox_EdgeId", "classMR_1_1ConstBox__EdgeId.html", "classMR_1_1ConstBox__EdgeId" ],

@@ -164,6 +164,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a60c7de0bf802ea1439fe7b189e662d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::BaseUnionFind&amp;lt;<a class="el" href="structMR_1_1UndirectedEdgeId.html" title="Generated from class MR.UndirectedEdgeId. Derived classes: Direct: (non-virtual) MR....">MR.UndirectedEdgeId</a>&amp;gt;::operator=</span>.  <br /></td></tr>
 <tr class="memitem:a055d5e834e1d646d2a8f5a8632d38dfe" id="r_a055d5e834e1d646d2a8f5a8632d38dfe"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a055d5e834e1d646d2a8f5a8632d38dfe">reset</a> (nuint <a class="el" href="classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId.html#a0d220ad63e25886d7b9a4e86b407e1c1">size</a>)</td></tr>
 <tr class="memdesc:a055d5e834e1d646d2a8f5a8632d38dfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <span class="tt">MR::BaseUnionFind&amp;lt;<a class="el" href="structMR_1_1UndirectedEdgeId.html" title="Generated from class MR.UndirectedEdgeId. Derived classes: Direct: (non-virtual) MR....">MR.UndirectedEdgeId</a>&amp;gt;<a class="el" href="#a055d5e834e1d646d2a8f5a8632d38dfe" title="resets union-find to represent given number of elements, each element is the only one in its disjoint...">reset</a></span>.  <br /></td></tr>
+<tr class="memitem:aec0ecb5435ef19f412fd7f3d5d94b66d" id="r_aec0ecb5435ef19f412fd7f3d5d94b66d"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec0ecb5435ef19f412fd7f3d5d94b66d">add</a> ()</td></tr>
+<tr class="memdesc:aec0ecb5435ef19f412fd7f3d5d94b66d"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds new element in its own disjoint set, returns its identifier Generated from method <span class="tt">MR::BaseUnionFind&amp;lt;<a class="el" href="structMR_1_1UndirectedEdgeId.html" title="Generated from class MR.UndirectedEdgeId. Derived classes: Direct: (non-virtual) MR....">MR.UndirectedEdgeId</a>&amp;gt;<a class="el" href="#aec0ecb5435ef19f412fd7f3d5d94b66d" title="adds new element in its own disjoint set, returns its identifier Generated from method MR....">add</a></span>.  <br /></td></tr>
 <tr class="memitem:ae6644205bbc38bbd2c0f50025abc8107" id="r_ae6644205bbc38bbd2c0f50025abc8107"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Pair_MRUndirectedEdgeId_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6644205bbc38bbd2c0f50025abc8107">uniteUnbalanced</a> (<a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> first, <a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> second)</td></tr>
 <tr class="memdesc:ae6644205bbc38bbd2c0f50025abc8107"><td class="mdescLeft">&#160;</td><td class="mdescRight">unites the two sets containing given elements WITHOUT balancing by set size (BaseUnionFind keeps no sizes): it simply attaches one set's root under the other's, so chained calls can build taller trees. Prefer UnionFind::unite, which selects the new root by set size, when many unions follow one another.  <br /></td></tr>
 <tr class="memitem:afe65dbe2b02e5230f5693514c9d97a88" id="r_afe65dbe2b02e5230f5693514c9d97a88"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe65dbe2b02e5230f5693514c9d97a88">united</a> (<a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> first, <a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> second)</td></tr>
@@ -316,6 +318,33 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="aec0ecb5435ef19f412fd7f3d5d94b66d" name="aec0ecb5435ef19f412fd7f3d5d94b66d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec0ecb5435ef19f412fd7f3d5d94b66d">&#9670;&#160;</a></span>add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> MR.BaseUnionFind_MRUndirectedEdgeId.add </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>adds new element in its own disjoint set, returns its identifier Generated from method <span class="tt">MR::BaseUnionFind&amp;lt;<a class="el" href="structMR_1_1UndirectedEdgeId.html" title="Generated from class MR.UndirectedEdgeId. Derived classes: Direct: (non-virtual) MR....">MR.UndirectedEdgeId</a>&amp;gt;<a class="el" href="#aec0ecb5435ef19f412fd7f3d5d94b66d" title="adds new element in its own disjoint set, returns its identifier Generated from method MR....">add</a></span>. </p>
+
+</div>
+</div>
 <a id="a60c7de0bf802ea1439fe7b189e662d44" name="a60c7de0bf802ea1439fe7b189e662d44"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60c7de0bf802ea1439fe7b189e662d44">&#9670;&#160;</a></span>assign()</h2>
 

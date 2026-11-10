@@ -5,6 +5,7 @@ var classmeshlib_1_1SurfaceDistanceBuilder =
     [ "SurfaceDistanceBuilder", "classmeshlib_1_1SurfaceDistanceBuilder.html#a75c66ee481985b0d5205fe7d9dfa19b2", null ],
     [ "SurfaceDistanceBuilder", "classmeshlib_1_1SurfaceDistanceBuilder.html#ae2f4b0c2b16ca18967de94c93d8e7151", null ],
     [ "addStart", "classmeshlib_1_1SurfaceDistanceBuilder.html#a9dfb04c18839673eca0ebdfe80780474", null ],
+    [ "addStartEdgesAndPoints", "classmeshlib_1_1SurfaceDistanceBuilder.html#add4aecb8b535b1bbbde58248f2c2b8c3", null ],
     [ "addStartRegion", "classmeshlib_1_1SurfaceDistanceBuilder.html#a948029e63ae960b8336c09b5dacdd4f5", null ],
     [ "addStartVertices", "classmeshlib_1_1SurfaceDistanceBuilder.html#a1d0fff36fa6e2c4508b2456307a59cff", null ],
     [ "done", "classmeshlib_1_1SurfaceDistanceBuilder.html#ac994c6aefa03401805c17550b5d9374d", null ],

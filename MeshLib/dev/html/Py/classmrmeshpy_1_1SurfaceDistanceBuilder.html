@@ -154,6 +154,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9f780d6e17e3a0d66f91240a222b86a5" id="r_a9f780d6e17e3a0d66f91240a222b86a5"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f780d6e17e3a0d66f91240a222b86a5">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstMesh.html">ConstMesh</a> mesh, <a class="el" href="classmrmeshpy_1_1ConstVector3f.html">ConstVector3f</a> target, <a class="el" href="classmrmeshpy_1_1ConstVertBitSet.html">ConstVertBitSet</a> region)</td></tr>
 <tr class="memitem:a38cb628586d6e3e75cdb05d0016eb03d" id="r_a38cb628586d6e3e75cdb05d0016eb03d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38cb628586d6e3e75cdb05d0016eb03d">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ConstSurfaceDistanceBuilder.html">ConstSurfaceDistanceBuilder</a> arg0)</td></tr>
 <tr class="memitem:adb8fc078cb01996eb9d5e55793ddf5ae" id="r_adb8fc078cb01996eb9d5e55793ddf5ae"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb8fc078cb01996eb9d5e55793ddf5ae">addStart</a> (self, <a class="el" href="classmrmeshpy_1_1ConstMeshTriPoint.html">ConstMeshTriPoint</a> start)</td></tr>
+<tr class="memitem:a69a049d061264ec9fe9c0a0869fe32ef" id="r_a69a049d061264ec9fe9c0a0869fe32ef"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69a049d061264ec9fe9c0a0869fe32ef">addStartEdgesAndPoints</a> (self, <a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeBitSet.html">ConstUndirectedEdgeBitSet</a> startEdges, <a class="el" href="classmrmeshpy_1_1ConstVertBitSet.html">ConstVertBitSet</a> startPoints, float startDistance)</td></tr>
 <tr class="memitem:a876e55f1d867457f937a86b1de2c0e02" id="r_a876e55f1d867457f937a86b1de2c0e02"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a876e55f1d867457f937a86b1de2c0e02">addStartRegion</a> (self, <a class="el" href="classmrmeshpy_1_1ConstVertBitSet.html">ConstVertBitSet</a> region, float startDistance)</td></tr>
 <tr class="memitem:a64428a655bc03738174596ca1f70c00b" id="r_a64428a655bc03738174596ca1f70c00b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64428a655bc03738174596ca1f70c00b">addStartVertices</a> (self, <a class="el" href="classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__VertTag__float__phmap__Hash__Id__VertTag__phd154edd8ea45e2daafdf091df0705366.html">Const_phmap_flat_hash_map_Id_VertTag_float_phmap_Hash_Id_VertTag_phmap_EqualTo_Id_VertTag_Allocator_std_pair_Id_VertTag_const_float</a> startVertices)</td></tr>
 <tr class="memitem:a2bb2a7e3dbffedf2935ab9b42fa502c4" id="r_a2bb2a7e3dbffedf2935ab9b42fa502c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bb2a7e3dbffedf2935ab9b42fa502c4">growOne</a> (self)</td></tr>
@@ -300,7 +301,42 @@ this class is responsible for iterative construction of distance map along the s
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">initiates distance construction from triangle vertices surrounding given start point (they all will be returned by growOne)
+<pre class="fragment">initiates distance construction from triangle vertices surrounding given start point (they all will be returned by growOne);
+the distances are from this point, each call adds a separate point
+</pre> 
+</div>
+</div>
+<a id="a69a049d061264ec9fe9c0a0869fe32ef" name="a69a049d061264ec9fe9c0a0869fe32ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69a049d061264ec9fe9c0a0869fe32ef">&#9670;&#160;</a></span>addStartEdgesAndPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.SurfaceDistanceBuilder.addStartEdgesAndPoints </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstUndirectedEdgeBitSet.html">ConstUndirectedEdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>startEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ConstVertBitSet.html">ConstVertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>startPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>startDistance</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">initiates distance construction from given start edges and start points with known start distance in all of them (their vertices will NOT be returned by growOne);
+the start edges connected by vertices make lines or regions; each start point is a point never united with other starts,
+even if it is one edge away from them, unless it is an end of a start edge
 </pre> 
 </div>
 </div>
@@ -327,7 +363,8 @@ this class is responsible for iterative construction of distance map along the s
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">initiates distance construction from given vertices with known start distance in all of them (region vertices will NOT be returned by growOne)
+<pre class="fragment">initiates distance construction from given vertices with known start distance in all of them (region vertices will NOT be returned by growOne);
+the vertices connected by mesh edges make lines or regions, each isolated vertex is a point
 </pre> 
 </div>
 </div>
@@ -349,7 +386,8 @@ this class is responsible for iterative construction of distance map along the s
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">initiates distance construction from given start vertices with values in them (these vertices will NOT be returned by growOne if values in them are not decreased)
+<pre class="fragment">initiates distance construction from given start vertices with values in them (these vertices will NOT be returned by growOne if values in them are not decreased);
+the vertices connected by mesh edges make lines or regions (a line with different values is handled as a region), each isolated vertex is a point
 </pre> 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var structmeshlib_1_1UnionFind__MR__VertId =
 [
+    [ "add", "structmeshlib_1_1UnionFind__MR__VertId.html#aebccf6475fd712f1045a381486ad50b1", null ],
     [ "assign_from_another", "structmeshlib_1_1UnionFind__MR__VertId.html#acda7bbbab10c0e45a5e2181ebcb5072c", null ],
     [ "find", "structmeshlib_1_1UnionFind__MR__VertId.html#aee6d05835c50c778d41d1ccfd9965662", null ],
     [ "find_update_range", "structmeshlib_1_1UnionFind__MR__VertId.html#a708c9c81535332628c57285682197ae3", null ],

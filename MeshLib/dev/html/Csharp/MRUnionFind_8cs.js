@@ -9,6 +9,8 @@ var MRUnionFind_8cs =
     [ "MR.BaseUnionFind_MRFaceId", "classMR_1_1BaseUnionFind__MRFaceId.html", "classMR_1_1BaseUnionFind__MRFaceId" ],
     [ "MR.Const_BaseUnionFind_MRVertId", "classMR_1_1Const__BaseUnionFind__MRVertId.html", "classMR_1_1Const__BaseUnionFind__MRVertId" ],
     [ "MR.BaseUnionFind_MRVertId", "classMR_1_1BaseUnionFind__MRVertId.html", "classMR_1_1BaseUnionFind__MRVertId" ],
+    [ "MR.Const_BaseUnionFind_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__BaseUnionFind__MRIdMRSurfaceDistanceStartTag.html", "classMR_1_1Const__BaseUnionFind__MRIdMRSurfaceDistanceStartTag" ],
+    [ "MR.BaseUnionFind_MRIdMRSurfaceDistanceStartTag", "classMR_1_1BaseUnionFind__MRIdMRSurfaceDistanceStartTag.html", "classMR_1_1BaseUnionFind__MRIdMRSurfaceDistanceStartTag" ],
     [ "MR.Const_BaseUnionFind_MRUndirectedEdgeId", "classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId.html", "classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId" ],
     [ "MR.BaseUnionFind_MRUndirectedEdgeId", "classMR_1_1BaseUnionFind__MRUndirectedEdgeId.html", "classMR_1_1BaseUnionFind__MRUndirectedEdgeId" ]
 ];

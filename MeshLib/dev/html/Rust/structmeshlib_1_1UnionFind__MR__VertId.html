@@ -157,6 +157,7 @@ $(function(){initNavTree('structmeshlib_1_1UnionFind__MR__VertId.html','','struc
 Public Member Functions</h2></td></tr>
 <tr class="memitem:acda7bbbab10c0e45a5e2181ebcb5072c" id="r_acda7bbbab10c0e45a5e2181ebcb5072c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acda7bbbab10c0e45a5e2181ebcb5072c">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1UnionFind__MR__VertId.html">meshlib::UnionFind_MR_VertId</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1UnionFind__MR__VertId.html">meshlib::UnionFind_MR_VertId</a></td></tr>
 <tr class="memitem:a2e053b714fae04345edd2a724f39e708" id="r_a2e053b714fae04345edd2a724f39e708"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e053b714fae04345edd2a724f39e708">reset</a> (size:usize)</td></tr>
+<tr class="memitem:aebccf6475fd712f1045a381486ad50b1" id="r_aebccf6475fd712f1045a381486ad50b1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebccf6475fd712f1045a381486ad50b1">add</a> () -&gt; <a class="el" href="structmeshlib_1_1VertId.html">meshlib::VertId</a></td></tr>
 <tr class="memitem:a0387051f5bbf45bedf63248a6b914751" id="r_a0387051f5bbf45bedf63248a6b914751"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0387051f5bbf45bedf63248a6b914751">unite</a> (first:meshlib::VertId, second:meshlib::VertId) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1std__pair__MR__VertId__bool.html">meshlib::std_pair_MR_VertId_bool</a> &gt;</td></tr>
 <tr class="memitem:a77a261c1be81c11b58d846ff4abda6b1" id="r_a77a261c1be81c11b58d846ff4abda6b1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77a261c1be81c11b58d846ff4abda6b1">size_of_comp</a> (a:meshlib::VertId) -&gt; core::ffi::c_int</td></tr>
 <tr class="memitem:aa3d10da2ea185fe94b6e620e4de5f005" id="r_aa3d10da2ea185fe94b6e620e4de5f005"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3d10da2ea185fe94b6e620e4de5f005">size</a> () const -&gt; usize</td></tr>
@@ -195,6 +196,25 @@ Static Public Member Functions</h2></td></tr>
 <p>Generated from class <span class="tt">MR::UnionFind&lt;MR::VertId&gt;</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::BaseUnionFind&lt;MR::VertId&gt;</span></p>
 <p>Generated from class <span class="tt">MR::UnionFind&lt;MR::VertId&gt;</span>. Heap-allocated instances are held in <span class="tt"><a class="el" href="structmeshlib_1_1Owned.html">Owned</a>&lt;<a class="el" href="structmeshlib_1_1UnionFind__MR__VertId.html" title="Union-find data structure for representing disjoint sets of elements with few very quick operations: ...">UnionFind_MR_VertId</a>&gt;</span>. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="aebccf6475fd712f1045a381486ad50b1" name="aebccf6475fd712f1045a381486ad50b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebccf6475fd712f1045a381486ad50b1">&#9670;&#160;</a></span>add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::UnionFind_MR_VertId::add </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  <a class="el" href="structmeshlib_1_1VertId.html">meshlib::VertId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>adds new element in its own disjoint set, returns its identifier Generated from method <span class="tt">MR::UnionFind&lt;MR::VertId&gt;::add</span>.</p>
+<p>Calls <span class="tt">MR_UnionFind_MR_VertId_add()</span>. </p>
+
+</div>
+</div>
 <a id="acda7bbbab10c0e45a5e2181ebcb5072c" name="acda7bbbab10c0e45a5e2181ebcb5072c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acda7bbbab10c0e45a5e2181ebcb5072c">&#9670;&#160;</a></span>assign_from_another()</h2>
 

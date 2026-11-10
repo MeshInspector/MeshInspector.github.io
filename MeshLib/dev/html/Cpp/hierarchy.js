@@ -170,6 +170,7 @@ var hierarchy =
     [ "MR::MeshSave::BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html", null ],
     [ "MR::BindVertexAttribArraySettings", "structMR_1_1BindVertexAttribArraySettings.html", null ],
     [ "MR::BitSet", "classMR_1_1BitSet.html", [
+      [ "MR::TypedBitSet< MR::Id< SurfaceDistanceStartTag > >", "classMR_1_1TypedBitSet.html", null ],
       [ "MR::TypedBitSet< I >", "classMR_1_1TypedBitSet.html", null ]
     ] ],
     [ "MR::SeparationPointStorage::Block", "structMR_1_1SeparationPointStorage_1_1Block.html", null ],

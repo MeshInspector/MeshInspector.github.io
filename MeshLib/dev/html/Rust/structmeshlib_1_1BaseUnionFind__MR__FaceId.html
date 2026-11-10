@@ -158,6 +158,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac76c02b292477521ed5a1439ec78661c" id="r_ac76c02b292477521ed5a1439ec78661c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac76c02b292477521ed5a1439ec78661c">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1BaseUnionFind__MR__FaceId.html">meshlib::BaseUnionFind_MR_FaceId</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1BaseUnionFind__MR__FaceId.html">meshlib::BaseUnionFind_MR_FaceId</a></td></tr>
 <tr class="memitem:ad71d50c943d3d32e05e7d522f936a9d9" id="r_ad71d50c943d3d32e05e7d522f936a9d9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad71d50c943d3d32e05e7d522f936a9d9">size</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a822ffafd836b144f1bee9de046aa0379" id="r_a822ffafd836b144f1bee9de046aa0379"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a822ffafd836b144f1bee9de046aa0379">reset</a> (size:usize)</td></tr>
+<tr class="memitem:a0eb31ea7a51b69006d723c6463eef289" id="r_a0eb31ea7a51b69006d723c6463eef289"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eb31ea7a51b69006d723c6463eef289">add</a> () -&gt; <a class="el" href="structmeshlib_1_1FaceId.html">meshlib::FaceId</a></td></tr>
 <tr class="memitem:ae5217ba9ba00c407efea3dc190d37635" id="r_ae5217ba9ba00c407efea3dc190d37635"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5217ba9ba00c407efea3dc190d37635">unite_unbalanced</a> (first:meshlib::FaceId, second:meshlib::FaceId) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1std__pair__MR__FaceId__bool.html">meshlib::std_pair_MR_FaceId_bool</a> &gt;</td></tr>
 <tr class="memitem:a372245ef7823fddaa855efcb71b2b45c" id="r_a372245ef7823fddaa855efcb71b2b45c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a372245ef7823fddaa855efcb71b2b45c">united</a> (first:meshlib::FaceId, second:meshlib::FaceId) -&gt; bool</td></tr>
 <tr class="memitem:a320afaf8ea38f8b8bc3fcaa406ad89f4" id="r_a320afaf8ea38f8b8bc3fcaa406ad89f4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a320afaf8ea38f8b8bc3fcaa406ad89f4">is_root</a> (a:meshlib::FaceId) const -&gt; bool</td></tr>
@@ -187,6 +188,25 @@ Static Public Member Functions</h2></td></tr>
 <p>Generated from class <span class="tt">MR::BaseUnionFind&lt;MR::FaceId&gt;</span>.</p>
 <p>Generated from class <span class="tt">MR::BaseUnionFind&lt;MR::FaceId&gt;</span>. Heap-allocated instances are held in <span class="tt"><a class="el" href="structmeshlib_1_1Owned.html">Owned</a>&lt;<a class="el" href="structmeshlib_1_1BaseUnionFind__MR__FaceId.html" title="base of union-find data structures: stores only the parent forest and the operations that depend on i...">BaseUnionFind_MR_FaceId</a>&gt;</span>. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a0eb31ea7a51b69006d723c6463eef289" name="a0eb31ea7a51b69006d723c6463eef289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eb31ea7a51b69006d723c6463eef289">&#9670;&#160;</a></span>add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::BaseUnionFind_MR_FaceId::add </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  <a class="el" href="structmeshlib_1_1FaceId.html">meshlib::FaceId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>adds new element in its own disjoint set, returns its identifier Generated from method <span class="tt">MR::BaseUnionFind&lt;MR::FaceId&gt;::add</span>.</p>
+<p>Calls <span class="tt">MR_BaseUnionFind_MR_FaceId_add()</span>. </p>
+
+</div>
+</div>
 <a id="ac76c02b292477521ed5a1439ec78661c" name="ac76c02b292477521ed5a1439ec78661c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac76c02b292477521ed5a1439ec78661c">&#9670;&#160;</a></span>assign_from_another()</h2>
 

@@ -1,5 +1,10 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1ImGuiMV.html#a464e08d5846c86602aed1e51df3620c6":[9,0,1,0,1,18,1],
+"namespaceMR_1_1ImGuiMV.html#a4bfc293b58aa7eb9c7e7308496660a3b":[9,0,1,0,1,18,6],
+"namespaceMR_1_1ImGuiMV.html#a52ab9dbc6c779ff4c7b8dca408f8de06":[9,0,1,0,1,18,4],
+"namespaceMR_1_1ImGuiMV.html#a5ea1a941122a7e9c9ceca44ffc79fada":[9,0,1,0,1,18,0],
+"namespaceMR_1_1ImGuiMV.html#a686d401cae6028ca53aa9f6e664daca0":[9,0,1,0,1,18,2],
 "namespaceMR_1_1ImGuiMV.html#a83483c6c798515d1196d5d30e064aef8":[9,0,1,0,1,18,5],
 "namespaceMR_1_1ImGuiMath.html":[9,0,1,0,1,16],
 "namespaceMR_1_1ImGuiMath.html#a12ab63056037f694d9ccdffda8ddb013":[9,0,1,0,1,16,14],
@@ -244,10 +249,5 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1SceneLoad.html#ace59001f56846dcae763df3dd8b2df6c":[9,0,1,0,1,47,5],
 "namespaceMR_1_1SceneLoad.html#ad9301168bfb0258833ac6729cfb138a9":[9,0,1,0,1,47,2],
 "namespaceMR_1_1SceneSave.html":[9,0,0,19,24],
-"namespaceMR_1_1SceneSave.html#a2c6d3ab6c6b433b7958ebb92cb464f02":[9,0,1,0,1,48,1],
-"namespaceMR_1_1SelfIntersections.html":[9,0,0,19,15],
-"namespaceMR_1_1SpaceMouse.html":[9,0,0,19,36],
-"namespaceMR_1_1SpaceMouse.html#a0125a493583e2d875e2b9cb7607f9ef0":[9,0,1,0,1,50,7],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191":[9,0,1,0,1,50,9],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a0449de604a44d5f7f5e7807469982f24":[9,0,1,0,1,50,9,22]
+"namespaceMR_1_1SceneSave.html#a2c6d3ab6c6b433b7958ebb92cb464f02":[9,0,1,0,1,48,1]
 };

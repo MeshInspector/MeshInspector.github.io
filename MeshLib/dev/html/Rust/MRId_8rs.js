@@ -5,6 +5,7 @@ var MRId_8rs =
     [ "meshlib::GraphEdgeId", "structmeshlib_1_1GraphEdgeId.html", "structmeshlib_1_1GraphEdgeId" ],
     [ "meshlib::GraphVertId", "structmeshlib_1_1GraphVertId.html", "structmeshlib_1_1GraphVertId" ],
     [ "meshlib::Id_MR_ICPElemtTag", "structmeshlib_1_1Id__MR__ICPElemtTag.html", "structmeshlib_1_1Id__MR__ICPElemtTag" ],
+    [ "meshlib::Id_MR_SurfaceDistanceStartTag", "structmeshlib_1_1Id__MR__SurfaceDistanceStartTag.html", "structmeshlib_1_1Id__MR__SurfaceDistanceStartTag" ],
     [ "meshlib::LocaleDomainId", "structmeshlib_1_1LocaleDomainId.html", "structmeshlib_1_1LocaleDomainId" ],
     [ "meshlib::NoInitNodeId", "structmeshlib_1_1NoInitNodeId.html", "structmeshlib_1_1NoInitNodeId" ],
     [ "meshlib::NodeId", "structmeshlib_1_1NodeId.html", "structmeshlib_1_1NodeId" ],

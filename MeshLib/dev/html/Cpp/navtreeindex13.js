@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1VarBigInt.html#abfc2d0c56498c6d85f3877dc1334c1db":[9,0,0,0,5,4,9],
 "classMR_1_1VarBigInt.html#ac4d08b145590570a9a82286378a9bf64":[9,0,0,0,5,4,6],
 "classMR_1_1VarBigInt.html#ad462c9e6e50985bbda0b4c4be217be43":[9,0,0,0,5,4,2],
 "classMR_1_1VarBigInt.html#ae794f635c0ea4c5bbe9c804488cc85a4":[9,0,0,0,5,4,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "conceptMR_1_1UnitEnum.html":[9,0,0,19,45],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[9,0,0,19,46],
 "dir_0cc3bc4bf87f190d6580fb811ae42f71.html":[9,0,3,0,7],
-"dir_1b5fde6d84c504af4a8aa0c6b6985b0f.html":[9,0,3,0,6],
-"dir_1e46fd58d70d8ee979256a72e2e6760c.html":[9,0,3,0,3]
+"dir_1b5fde6d84c504af4a8aa0c6b6985b0f.html":[9,0,3,0,6]
 };

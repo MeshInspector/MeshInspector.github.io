@@ -259,6 +259,7 @@ var group__BasicGroup =
       [ "BaseUnionFind", "group__GeneralGroup.html#ga1bd46dc57304ff4fd488f3de0e4958f0", null ],
       [ "BaseUnionFind", "group__GeneralGroup.html#ga6998ef43233b395f7c60b89c5611a90a", null ],
       [ "BaseUnionFind", "group__GeneralGroup.html#ga1b9ea4e5600cbdbbdb6b6df5b4afe85c", null ],
+      [ "add", "group__GeneralGroup.html#gad04fffd135e0304f13b24adf64be83a0", null ],
       [ "find", "group__GeneralGroup.html#gaa0c0f2464f40946c4ee9627fae75f0a9", null ],
       [ "findRootNoUpdate_", "group__GeneralGroup.html#gae7217cd7f9e0df336b8f10c31933963b", null ],
       [ "findUpdateRange", "group__GeneralGroup.html#gafe044a54144ed93c29e05db24f80c4a0", null ],
@@ -282,6 +283,7 @@ var group__BasicGroup =
       [ "UnionFind", "group__GeneralGroup.html#ga67ccf008e0816480dca10b19c530a7b1", null ],
       [ "UnionFind", "group__GeneralGroup.html#ga661398df57a710beae6f4b7c19ac3006", null ],
       [ "UnionFind", "group__GeneralGroup.html#ga5ef4500d4204cea8be5933e543edb6b2", null ],
+      [ "add", "group__GeneralGroup.html#ga4c35309ee0f18ceec7712ef916a55085", null ],
       [ "reset", "group__GeneralGroup.html#ga6a74089f75f3b88edf1a6fb0beba1e13", null ],
       [ "sizeOfComp", "group__GeneralGroup.html#ga009ad612aecca5afb9b91768536c406f", null ],
       [ "unite", "group__GeneralGroup.html#ga0739ab9258f8fc25ef45ce06106fffce", null ]

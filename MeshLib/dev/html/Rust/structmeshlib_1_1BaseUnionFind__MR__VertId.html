@@ -158,6 +158,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2e1b498c7a5bfaec1ca41175f341631b" id="r_a2e1b498c7a5bfaec1ca41175f341631b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e1b498c7a5bfaec1ca41175f341631b">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1BaseUnionFind__MR__VertId.html">meshlib::BaseUnionFind_MR_VertId</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1BaseUnionFind__MR__VertId.html">meshlib::BaseUnionFind_MR_VertId</a></td></tr>
 <tr class="memitem:a26651048c89fd8321324381f96e43f7c" id="r_a26651048c89fd8321324381f96e43f7c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26651048c89fd8321324381f96e43f7c">size</a> () const -&gt; usize</td></tr>
 <tr class="memitem:a121fd5b9d4465234851c37d896d6e926" id="r_a121fd5b9d4465234851c37d896d6e926"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a121fd5b9d4465234851c37d896d6e926">reset</a> (size:usize)</td></tr>
+<tr class="memitem:a26dc0a94fb33e457db742e07342e256f" id="r_a26dc0a94fb33e457db742e07342e256f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26dc0a94fb33e457db742e07342e256f">add</a> () -&gt; <a class="el" href="structmeshlib_1_1VertId.html">meshlib::VertId</a></td></tr>
 <tr class="memitem:af224802f7285806763bf7e78e29e6d4e" id="r_af224802f7285806763bf7e78e29e6d4e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af224802f7285806763bf7e78e29e6d4e">unite_unbalanced</a> (first:meshlib::VertId, second:meshlib::VertId) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1std__pair__MR__VertId__bool.html">meshlib::std_pair_MR_VertId_bool</a> &gt;</td></tr>
 <tr class="memitem:acbabdd2539d1eeb022bdf102bf24056a" id="r_acbabdd2539d1eeb022bdf102bf24056a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbabdd2539d1eeb022bdf102bf24056a">united</a> (first:meshlib::VertId, second:meshlib::VertId) -&gt; bool</td></tr>
 <tr class="memitem:a49fdeb18e06e7f813d4a0bc702fa9c6a" id="r_a49fdeb18e06e7f813d4a0bc702fa9c6a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49fdeb18e06e7f813d4a0bc702fa9c6a">is_root</a> (a:meshlib::VertId) const -&gt; bool</td></tr>
@@ -187,6 +188,25 @@ Static Public Member Functions</h2></td></tr>
 <p>Generated from class <span class="tt">MR::BaseUnionFind&lt;MR::VertId&gt;</span>. Derived classes: Direct: (non-virtual) <span class="tt">MR::UnionFind&lt;MR::VertId&gt;</span></p>
 <p>Generated from class <span class="tt">MR::BaseUnionFind&lt;MR::VertId&gt;</span>. Heap-allocated instances are held in <span class="tt"><a class="el" href="structmeshlib_1_1Owned.html">Owned</a>&lt;<a class="el" href="structmeshlib_1_1BaseUnionFind__MR__VertId.html" title="base of union-find data structures: stores only the parent forest and the operations that depend on i...">BaseUnionFind_MR_VertId</a>&gt;</span>. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a26dc0a94fb33e457db742e07342e256f" name="a26dc0a94fb33e457db742e07342e256f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26dc0a94fb33e457db742e07342e256f">&#9670;&#160;</a></span>add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::BaseUnionFind_MR_VertId::add </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  <a class="el" href="structmeshlib_1_1VertId.html">meshlib::VertId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>adds new element in its own disjoint set, returns its identifier Generated from method <span class="tt">MR::BaseUnionFind&lt;MR::VertId&gt;::add</span>.</p>
+<p>Calls <span class="tt">MR_BaseUnionFind_MR_VertId_add()</span>. </p>
+
+</div>
+</div>
 <a id="a2e1b498c7a5bfaec1ca41175f341631b" name="a2e1b498c7a5bfaec1ca41175f341631b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e1b498c7a5bfaec1ca41175f341631b">&#9670;&#160;</a></span>assign_from_another()</h2>
 

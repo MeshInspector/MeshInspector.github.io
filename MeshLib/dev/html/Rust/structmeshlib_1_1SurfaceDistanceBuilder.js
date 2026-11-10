@@ -1,6 +1,7 @@
 var structmeshlib_1_1SurfaceDistanceBuilder =
 [
     [ "add_start", "structmeshlib_1_1SurfaceDistanceBuilder.html#ab4f81ad89eafbe57d11530f9ed17bf17", null ],
+    [ "add_start_edges_and_points", "structmeshlib_1_1SurfaceDistanceBuilder.html#afcf442d679509e8aef2bdb4c35521912", null ],
     [ "add_start_region", "structmeshlib_1_1SurfaceDistanceBuilder.html#aeaca056f772a9e65acd179a53237fa8f", null ],
     [ "add_start_vertices", "structmeshlib_1_1SurfaceDistanceBuilder.html#a3f3a8824eca2020c5180f3571df4b9a2", null ],
     [ "done", "structmeshlib_1_1SurfaceDistanceBuilder.html#abdf7835a1ea052b2ba923b3bbd2b03e6", null ],

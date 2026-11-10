@@ -42,5 +42,6 @@ var searchData=
   ['twolinesegmclosestpoints_5fdouble_39',['TwoLineSegmClosestPoints_double',['../structmeshlib_1_1TwoLineSegmClosestPoints__double.html',1,'meshlib']]],
   ['twolinesegmclosestpoints_5ffloat_40',['TwoLineSegmClosestPoints_float',['../structmeshlib_1_1TwoLineSegmClosestPoints__float.html',1,'meshlib']]],
   ['type_41',['Type',['../structmeshlib_1_1filling__surface_1_1cellular__surface_1_1Type.html',1,'meshlib::filling_surface::cellular_surface::Type'],['../structmeshlib_1_1filling__surface_1_1tpms_1_1Type.html',1,'meshlib::filling_surface::tpms::Type']]],
-  ['typedbitset_5fmr_5fid_5fmr_5ficpelemttag_42',['TypedBitSet_MR_Id_MR_ICPElemtTag',['../structmeshlib_1_1TypedBitSet__MR__Id__MR__ICPElemtTag.html',1,'meshlib']]]
+  ['typedbitset_5fmr_5fid_5fmr_5ficpelemttag_42',['TypedBitSet_MR_Id_MR_ICPElemtTag',['../structmeshlib_1_1TypedBitSet__MR__Id__MR__ICPElemtTag.html',1,'meshlib']]],
+  ['typedbitset_5fmr_5fid_5fmr_5fsurfacedistancestarttag_43',['TypedBitSet_MR_Id_MR_SurfaceDistanceStartTag',['../structmeshlib_1_1TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag.html',1,'meshlib']]]
 ];

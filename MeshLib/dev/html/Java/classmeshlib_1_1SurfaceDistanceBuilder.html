@@ -156,6 +156,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae2f4b0c2b16ca18967de94c93d8e7151" id="r_ae2f4b0c2b16ca18967de94c93d8e7151"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2f4b0c2b16ca18967de94c93d8e7151">SurfaceDistanceBuilder</a> (<a class="el" href="classmeshlib_1_1Mesh.html">meshlib.Mesh</a> mesh, <a class="el" href="classmeshlib_1_1Vector3f.html">meshlib.Vector3f</a> target, <a class="el" href="classmeshlib_1_1VertBitSet.html">meshlib.VertBitSet</a> region)</td></tr>
 <tr class="memitem:a948029e63ae960b8336c09b5dacdd4f5" id="r_a948029e63ae960b8336c09b5dacdd4f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a948029e63ae960b8336c09b5dacdd4f5">addStartRegion</a> (<a class="el" href="classmeshlib_1_1VertBitSet.html">meshlib.VertBitSet</a> region, float startDistance)</td></tr>
 <tr class="memitem:a1d0fff36fa6e2c4508b2456307a59cff" id="r_a1d0fff36fa6e2c4508b2456307a59cff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d0fff36fa6e2c4508b2456307a59cff">addStartVertices</a> (<a class="el" href="classmeshlib_1_1phmap_1_1phmap__flat__hash__map__MR__VertId__float__phmap__Hash__MR__VertId__phm8dd23dfc2c616caf46a66982f9d36b20.html">meshlib.phmap.phmap_flat_hash_map_MR_VertId_float_phmap_Hash_MR_VertId_phmap_EqualTo_MR_VertId_MR_Allocator_std_pa__ec65138f</a> startVertices)</td></tr>
+<tr class="memitem:add4aecb8b535b1bbbde58248f2c2b8c3" id="r_add4aecb8b535b1bbbde58248f2c2b8c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add4aecb8b535b1bbbde58248f2c2b8c3">addStartEdgesAndPoints</a> (<a class="el" href="classmeshlib_1_1UndirectedEdgeBitSet.html">meshlib.UndirectedEdgeBitSet</a> startEdges, <a class="el" href="classmeshlib_1_1VertBitSet.html">meshlib.VertBitSet</a> startPoints, float startDistance)</td></tr>
 <tr class="memitem:a9dfb04c18839673eca0ebdfe80780474" id="r_a9dfb04c18839673eca0ebdfe80780474"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dfb04c18839673eca0ebdfe80780474">addStart</a> (<a class="el" href="classmeshlib_1_1MeshTriPoint.html">meshlib.MeshTriPoint</a> start)</td></tr>
 <tr class="memitem:a73f176e42f0a31ec56998e23b9362bfb" id="r_a73f176e42f0a31ec56998e23b9362bfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73f176e42f0a31ec56998e23b9362bfb">setMaxVertUpdates</a> (int v)</td></tr>
 <tr class="memitem:aad38cf9075a6d24aa37690e558dc50c5" id="r_aad38cf9075a6d24aa37690e558dc50c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmeshlib_1_1VertId.html">meshlib.VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad38cf9075a6d24aa37690e558dc50c5">growOne</a> ()</td></tr>
@@ -289,8 +290,36 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>initiates distance construction from triangle vertices surrounding given start point (they all will be returned by growOne) Generated from method <span class="tt">MR::SurfaceDistanceBuilder::addStart</span>.</p>
+<p>initiates distance construction from triangle vertices surrounding given start point (they all will be returned by growOne); the distances are from this point, each call adds a separate point Generated from method <span class="tt">MR::SurfaceDistanceBuilder::addStart</span>.</p>
 <p>Calls <span class="tt">MR_SurfaceDistanceBuilder_addStart()</span>. </p>
+
+</div>
+</div>
+<a id="add4aecb8b535b1bbbde58248f2c2b8c3" name="add4aecb8b535b1bbbde58248f2c2b8c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add4aecb8b535b1bbbde58248f2c2b8c3">&#9670;&#160;</a></span>addStartEdgesAndPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void meshlib.SurfaceDistanceBuilder.addStartEdgesAndPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1UndirectedEdgeBitSet.html">meshlib.UndirectedEdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>startEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmeshlib_1_1VertBitSet.html">meshlib.VertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>startPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>startDistance</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>initiates distance construction from given start edges and start points with known start distance in all of them (their vertices will NOT be returned by growOne); the start edges connected by vertices make lines or regions; each start point is a point never united with other starts, even if it is one edge away from them, unless it is an end of a start edge Generated from method <span class="tt">MR::SurfaceDistanceBuilder::addStartEdgesAndPoints</span>.</p>
+<p>Calls <span class="tt">MR_SurfaceDistanceBuilder_addStartEdgesAndPoints()</span>. </p>
 
 </div>
 </div>
@@ -312,7 +341,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>initiates distance construction from given vertices with known start distance in all of them (region vertices will NOT be returned by growOne) Generated from method <span class="tt">MR::SurfaceDistanceBuilder::addStartRegion</span>.</p>
+<p>initiates distance construction from given vertices with known start distance in all of them (region vertices will NOT be returned by growOne); the vertices connected by mesh edges make lines or regions, each isolated vertex is a point Generated from method <span class="tt">MR::SurfaceDistanceBuilder::addStartRegion</span>.</p>
 <p>Calls <span class="tt">MR_SurfaceDistanceBuilder_addStartRegion()</span>. </p>
 
 </div>
@@ -331,7 +360,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>initiates distance construction from given start vertices with values in them (these vertices will NOT be returned by growOne if values in them are not decreased) Generated from method <span class="tt">MR::SurfaceDistanceBuilder::addStartVertices</span>.</p>
+<p>initiates distance construction from given start vertices with values in them (these vertices will NOT be returned by growOne if values in them are not decreased); the vertices connected by mesh edges make lines or regions (a line with different values is handled as a region), each isolated vertex is a point Generated from method <span class="tt">MR::SurfaceDistanceBuilder::addStartVertices</span>.</p>
 <p>Calls <span class="tt">MR_SurfaceDistanceBuilder_addStartVertices()</span>. </p>
 
 </div>

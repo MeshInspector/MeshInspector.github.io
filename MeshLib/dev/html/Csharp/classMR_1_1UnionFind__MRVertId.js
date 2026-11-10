@@ -6,6 +6,7 @@ var classMR_1_1UnionFind__MRVertId =
     [ "UnionFind_MRVertId", "classMR_1_1UnionFind__MRVertId.html#ad337fab5d2102f679ec5918fd798b7ef", null ],
     [ "UnionFind_MRVertId", "classMR_1_1UnionFind__MRVertId.html#a53da68db312b9baac91a3a0c0ac8c4f2", null ],
     [ "UnionFind_MRVertId", "classMR_1_1UnionFind__MRVertId.html#af3469ebc85347067e75990b3e9c4fd69", null ],
+    [ "add", "classMR_1_1UnionFind__MRVertId.html#a2d21b9171abce2bc50d510d61346dd12", null ],
     [ "assign", "classMR_1_1UnionFind__MRVertId.html#a37dad81e6e407820d670beec30b81183", null ],
     [ "find", "classMR_1_1UnionFind__MRVertId.html#af4c8ee3038f1b4d00f11045489064ad5", null ],
     [ "findUpdateRange", "classMR_1_1UnionFind__MRVertId.html#a3ad886a251ff7004bdafce9652d354cf", null ],

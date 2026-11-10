@@ -1,5 +1,6 @@
 var structmeshlib_1_1BaseUnionFind__MR__FaceId =
 [
+    [ "add", "structmeshlib_1_1BaseUnionFind__MR__FaceId.html#a0eb31ea7a51b69006d723c6463eef289", null ],
     [ "assign_from_another", "structmeshlib_1_1BaseUnionFind__MR__FaceId.html#ac76c02b292477521ed5a1439ec78661c", null ],
     [ "find", "structmeshlib_1_1BaseUnionFind__MR__FaceId.html#a713c9dc54b24c033c3e8cc430f7162fd", null ],
     [ "find_update_range", "structmeshlib_1_1BaseUnionFind__MR__FaceId.html#a1a08a148cadfe48358a3f787a9ebf44e", null ],

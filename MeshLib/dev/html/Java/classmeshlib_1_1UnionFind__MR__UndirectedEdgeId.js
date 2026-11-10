@@ -5,6 +5,7 @@ var classmeshlib_1_1UnionFind__MR__UndirectedEdgeId =
     [ "UnionFind_MR_UndirectedEdgeId", "classmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a04af0b084ff1f3bc3fb64b99e3778859", null ],
     [ "UnionFind_MR_UndirectedEdgeId", "classmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a48a29cecdd9fc679ae2362ec99b95b8b", null ],
     [ "UnionFind_MR_UndirectedEdgeId", "classmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a509106dc44eaca73dc50af1c2d9c5d38", null ],
+    [ "add", "classmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#aa6d5edc2e64ec35de10d2365075966fa", null ],
     [ "assignFromAnother", "classmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a6eee6931ef1a80957d177fda4dee95c2", null ],
     [ "find", "classmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a0509c08d0edb19112d901bef10391651", null ],
     [ "findUpdateRange", "classmeshlib_1_1UnionFind__MR__UndirectedEdgeId.html#a3409d14a67d094a67233eae404c93746", null ],

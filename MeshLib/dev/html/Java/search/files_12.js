@@ -44,5 +44,6 @@ var searchData=
   ['turn_2ejava_41',['Turn.java',['../Turn_8java.html',1,'']]],
   ['twolinesegmclosestpoints_5fdouble_2ejava_42',['TwoLineSegmClosestPoints_double.java',['../TwoLineSegmClosestPoints__double_8java.html',1,'']]],
   ['twolinesegmclosestpoints_5ffloat_2ejava_43',['TwoLineSegmClosestPoints_float.java',['../TwoLineSegmClosestPoints__float_8java.html',1,'']]],
-  ['typedbitset_5fmr_5fid_5fmr_5ficpelemttag_2ejava_44',['TypedBitSet_MR_Id_MR_ICPElemtTag.java',['../TypedBitSet__MR__Id__MR__ICPElemtTag_8java.html',1,'']]]
+  ['typedbitset_5fmr_5fid_5fmr_5ficpelemttag_2ejava_44',['TypedBitSet_MR_Id_MR_ICPElemtTag.java',['../TypedBitSet__MR__Id__MR__ICPElemtTag_8java.html',1,'']]],
+  ['typedbitset_5fmr_5fid_5fmr_5fsurfacedistancestarttag_2ejava_45',['TypedBitSet_MR_Id_MR_SurfaceDistanceStartTag.java',['../TypedBitSet__MR__Id__MR__SurfaceDistanceStartTag_8java.html',1,'']]]
 ];

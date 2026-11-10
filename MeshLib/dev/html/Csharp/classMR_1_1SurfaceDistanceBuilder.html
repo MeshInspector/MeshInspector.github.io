@@ -163,11 +163,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a39a246ce6017171a27b69a9766a6968b" id="r_a39a246ce6017171a27b69a9766a6968b"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39a246ce6017171a27b69a9766a6968b">SurfaceDistanceBuilder</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> target, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? region)</td></tr>
 <tr class="memdesc:a39a246ce6017171a27b69a9766a6968b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="#a0ef5acb22e3b599c8c37f78a8fbb4d47" title="Generated from constructor MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder.">MR.SurfaceDistanceBuilder.SurfaceDistanceBuilder</a></span>.  <br /></td></tr>
 <tr class="memitem:ac7b35a0449debbc29aacef0410c9edc7" id="r_ac7b35a0449debbc29aacef0410c9edc7"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7b35a0449debbc29aacef0410c9edc7">addStartRegion</a> (<a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> region, float startDistance)</td></tr>
-<tr class="memdesc:ac7b35a0449debbc29aacef0410c9edc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">initiates distance construction from given vertices with known start distance in all of them (region vertices will NOT be returned by growOne) Generated from method <span class="tt"><a class="el" href="#ac7b35a0449debbc29aacef0410c9edc7" title="initiates distance construction from given vertices with known start distance in all of them (region ...">MR.SurfaceDistanceBuilder.addStartRegion</a></span>.  <br /></td></tr>
+<tr class="memdesc:ac7b35a0449debbc29aacef0410c9edc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">initiates distance construction from given vertices with known start distance in all of them (region vertices will NOT be returned by growOne); the vertices connected by mesh edges make lines or regions, each isolated vertex is a point Generated from method <span class="tt"><a class="el" href="#ac7b35a0449debbc29aacef0410c9edc7" title="initiates distance construction from given vertices with known start distance in all of them (region ...">MR.SurfaceDistanceBuilder.addStartRegion</a></span>.  <br /></td></tr>
 <tr class="memitem:abe9b4b183ec78546c41e105850bd5557" id="r_abe9b4b183ec78546c41e105850bd5557"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe9b4b183ec78546c41e105850bd5557">addStartVertices</a> (MR.Phmap.Const_FlatHashMap_MRVertId_Float_PhmapHashMRVertId_PhmapEqualToMRVertId_MRAllocatorStdPairConstMRVertIdFloat startVertices)</td></tr>
-<tr class="memdesc:abe9b4b183ec78546c41e105850bd5557"><td class="mdescLeft">&#160;</td><td class="mdescRight">initiates distance construction from given start vertices with values in them (these vertices will NOT be returned by growOne if values in them are not decreased) Generated from method <span class="tt"><a class="el" href="#abe9b4b183ec78546c41e105850bd5557" title="initiates distance construction from given start vertices with values in them (these vertices will NO...">MR.SurfaceDistanceBuilder.addStartVertices</a></span>.  <br /></td></tr>
+<tr class="memdesc:abe9b4b183ec78546c41e105850bd5557"><td class="mdescLeft">&#160;</td><td class="mdescRight">initiates distance construction from given start vertices with values in them (these vertices will NOT be returned by growOne if values in them are not decreased); the vertices connected by mesh edges make lines or regions (a line with different values is handled as a region), each isolated vertex is a point Generated from method <span class="tt"><a class="el" href="#abe9b4b183ec78546c41e105850bd5557" title="initiates distance construction from given start vertices with values in them (these vertices will NO...">MR.SurfaceDistanceBuilder.addStartVertices</a></span>.  <br /></td></tr>
+<tr class="memitem:a127510ed538192d41df95cb78a04a806" id="r_a127510ed538192d41df95cb78a04a806"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a127510ed538192d41df95cb78a04a806">addStartEdgesAndPoints</a> (<a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a> startEdges, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> startPoints, float startDistance)</td></tr>
+<tr class="memdesc:a127510ed538192d41df95cb78a04a806"><td class="mdescLeft">&#160;</td><td class="mdescRight">initiates distance construction from given start edges and start points with known start distance in all of them (their vertices will NOT be returned by growOne); the start edges connected by vertices make lines or regions; each start point is a point never united with other starts, even if it is one edge away from them, unless it is an end of a start edge Generated from method <span class="tt"><a class="el" href="#a127510ed538192d41df95cb78a04a806" title="initiates distance construction from given start edges and start points with known start distance in ...">MR.SurfaceDistanceBuilder.addStartEdgesAndPoints</a></span>.  <br /></td></tr>
 <tr class="memitem:ac143451e18c893f7e2fe051a14bcdd10" id="r_ac143451e18c893f7e2fe051a14bcdd10"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac143451e18c893f7e2fe051a14bcdd10">addStart</a> (<a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> start)</td></tr>
-<tr class="memdesc:ac143451e18c893f7e2fe051a14bcdd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">initiates distance construction from triangle vertices surrounding given start point (they all will be returned by growOne) Generated from method <span class="tt"><a class="el" href="#ac143451e18c893f7e2fe051a14bcdd10" title="initiates distance construction from triangle vertices surrounding given start point (they all will b...">MR.SurfaceDistanceBuilder.addStart</a></span>.  <br /></td></tr>
+<tr class="memdesc:ac143451e18c893f7e2fe051a14bcdd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">initiates distance construction from triangle vertices surrounding given start point (they all will be returned by growOne); the distances are from this point, each call adds a separate point Generated from method <span class="tt"><a class="el" href="#ac143451e18c893f7e2fe051a14bcdd10" title="initiates distance construction from triangle vertices surrounding given start point (they all will b...">MR.SurfaceDistanceBuilder.addStart</a></span>.  <br /></td></tr>
 <tr class="memitem:ae7c224f695e6ef1421a4fabaef34be54" id="r_ae7c224f695e6ef1421a4fabaef34be54"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7c224f695e6ef1421a4fabaef34be54">setMaxVertUpdates</a> (int v)</td></tr>
 <tr class="memdesc:ae7c224f695e6ef1421a4fabaef34be54"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum amount of times vertex distance can be updated in [1,255], 3 by default; the more the better obtuse triangles are handled Generated from method <span class="tt"><a class="el" href="#ae7c224f695e6ef1421a4fabaef34be54" title="the maximum amount of times vertex distance can be updated in [1,255], 3 by default; the more the bet...">MR.SurfaceDistanceBuilder.setMaxVertUpdates</a></span>.  <br /></td></tr>
 <tr class="memitem:af7464bf0dd439f0b95d8cb0b82e711bd" id="r_af7464bf0dd439f0b95d8cb0b82e711bd"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1VertId.html">MR.VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7464bf0dd439f0b95d8cb0b82e711bd">growOne</a> ()</td></tr>
@@ -371,7 +373,43 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>initiates distance construction from triangle vertices surrounding given start point (they all will be returned by growOne) Generated from method <span class="tt"><a class="el" href="#ac143451e18c893f7e2fe051a14bcdd10" title="initiates distance construction from triangle vertices surrounding given start point (they all will b...">MR.SurfaceDistanceBuilder.addStart</a></span>. </p>
+<p>initiates distance construction from triangle vertices surrounding given start point (they all will be returned by growOne); the distances are from this point, each call adds a separate point Generated from method <span class="tt"><a class="el" href="#ac143451e18c893f7e2fe051a14bcdd10" title="initiates distance construction from triangle vertices surrounding given start point (they all will b...">MR.SurfaceDistanceBuilder.addStart</a></span>. </p>
+
+</div>
+</div>
+<a id="a127510ed538192d41df95cb78a04a806" name="a127510ed538192d41df95cb78a04a806"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a127510ed538192d41df95cb78a04a806">&#9670;&#160;</a></span>addStartEdgesAndPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.SurfaceDistanceBuilder.addStartEdgesAndPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>startEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>startPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>startDistance</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>initiates distance construction from given start edges and start points with known start distance in all of them (their vertices will NOT be returned by growOne); the start edges connected by vertices make lines or regions; each start point is a point never united with other starts, even if it is one edge away from them, unless it is an end of a start edge Generated from method <span class="tt"><a class="el" href="#a127510ed538192d41df95cb78a04a806" title="initiates distance construction from given start edges and start points with known start distance in ...">MR.SurfaceDistanceBuilder.addStartEdgesAndPoints</a></span>. </p>
 
 </div>
 </div>
@@ -402,7 +440,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>initiates distance construction from given vertices with known start distance in all of them (region vertices will NOT be returned by growOne) Generated from method <span class="tt"><a class="el" href="#ac7b35a0449debbc29aacef0410c9edc7" title="initiates distance construction from given vertices with known start distance in all of them (region ...">MR.SurfaceDistanceBuilder.addStartRegion</a></span>. </p>
+<p>initiates distance construction from given vertices with known start distance in all of them (region vertices will NOT be returned by growOne); the vertices connected by mesh edges make lines or regions, each isolated vertex is a point Generated from method <span class="tt"><a class="el" href="#ac7b35a0449debbc29aacef0410c9edc7" title="initiates distance construction from given vertices with known start distance in all of them (region ...">MR.SurfaceDistanceBuilder.addStartRegion</a></span>. </p>
 
 </div>
 </div>
@@ -429,7 +467,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>initiates distance construction from given start vertices with values in them (these vertices will NOT be returned by growOne if values in them are not decreased) Generated from method <span class="tt"><a class="el" href="#abe9b4b183ec78546c41e105850bd5557" title="initiates distance construction from given start vertices with values in them (these vertices will NO...">MR.SurfaceDistanceBuilder.addStartVertices</a></span>. </p>
+<p>initiates distance construction from given start vertices with values in them (these vertices will NOT be returned by growOne if values in them are not decreased); the vertices connected by mesh edges make lines or regions (a line with different values is handled as a region), each isolated vertex is a point Generated from method <span class="tt"><a class="el" href="#abe9b4b183ec78546c41e105850bd5557" title="initiates distance construction from given start vertices with values in them (these vertices will NO...">MR.SurfaceDistanceBuilder.addStartVertices</a></span>. </p>
 
 </div>
 </div>

@@ -158,6 +158,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9f7792a49b2d86cc77e408da7c18e0a0" id="r_a9f7792a49b2d86cc77e408da7c18e0a0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f7792a49b2d86cc77e408da7c18e0a0">assign_from_another</a> (_other:&amp;<a class="el" href="structmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html">meshlib::BaseUnionFind_MR_UndirectedEdgeId</a>) -&gt; &amp;mut <a class="el" href="structmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html">meshlib::BaseUnionFind_MR_UndirectedEdgeId</a></td></tr>
 <tr class="memitem:afc41d42eb1822ca79fae5f9b85e49789" id="r_afc41d42eb1822ca79fae5f9b85e49789"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc41d42eb1822ca79fae5f9b85e49789">size</a> () const -&gt; usize</td></tr>
 <tr class="memitem:af4e4f908abd3970b09c9b2644abe08d0" id="r_af4e4f908abd3970b09c9b2644abe08d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4e4f908abd3970b09c9b2644abe08d0">reset</a> (size:usize)</td></tr>
+<tr class="memitem:ab6d27fb541d15fbca1717b32ebee19ca" id="r_ab6d27fb541d15fbca1717b32ebee19ca"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6d27fb541d15fbca1717b32ebee19ca">add</a> () -&gt; <a class="el" href="structmeshlib_1_1UndirectedEdgeId.html">meshlib::UndirectedEdgeId</a></td></tr>
 <tr class="memitem:a154751d11d57e8ec448d23a3f0b37941" id="r_a154751d11d57e8ec448d23a3f0b37941"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a154751d11d57e8ec448d23a3f0b37941">unite_unbalanced</a> (first:meshlib::UndirectedEdgeId, second:meshlib::UndirectedEdgeId) -&gt; <a class="el" href="structmeshlib_1_1Owned.html">meshlib::Owned</a>&lt; <a class="el" href="structmeshlib_1_1std__pair__MR__UndirectedEdgeId__bool.html">meshlib::std_pair_MR_UndirectedEdgeId_bool</a> &gt;</td></tr>
 <tr class="memitem:a8c38543ec81df48c6ed8d2ab0b03c58a" id="r_a8c38543ec81df48c6ed8d2ab0b03c58a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c38543ec81df48c6ed8d2ab0b03c58a">united</a> (first:meshlib::UndirectedEdgeId, second:meshlib::UndirectedEdgeId) -&gt; bool</td></tr>
 <tr class="memitem:ab4a86ab72f284398c505d55807d3a51e" id="r_ab4a86ab72f284398c505d55807d3a51e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4a86ab72f284398c505d55807d3a51e">is_root</a> (a:meshlib::UndirectedEdgeId) const -&gt; bool</td></tr>
@@ -187,6 +188,25 @@ Static Public Member Functions</h2></td></tr>
 <p>Generated from class <span class="tt">MR::BaseUnionFind&lt;MR::UndirectedEdgeId&gt;</span>. Derived classes: Direct: (non-virtual) <span class="tt">MR::UnionFind&lt;MR::UndirectedEdgeId&gt;</span></p>
 <p>Generated from class <span class="tt">MR::BaseUnionFind&lt;MR::UndirectedEdgeId&gt;</span>. Heap-allocated instances are held in <span class="tt"><a class="el" href="structmeshlib_1_1Owned.html">Owned</a>&lt;<a class="el" href="structmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html" title="base of union-find data structures: stores only the parent forest and the operations that depend on i...">BaseUnionFind_MR_UndirectedEdgeId</a>&gt;</span>. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ab6d27fb541d15fbca1717b32ebee19ca" name="ab6d27fb541d15fbca1717b32ebee19ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6d27fb541d15fbca1717b32ebee19ca">&#9670;&#160;</a></span>add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto meshlib::BaseUnionFind_MR_UndirectedEdgeId::add </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> -&gt;  <a class="el" href="structmeshlib_1_1UndirectedEdgeId.html">meshlib::UndirectedEdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>adds new element in its own disjoint set, returns its identifier Generated from method <span class="tt">MR::BaseUnionFind&lt;MR::UndirectedEdgeId&gt;::add</span>.</p>
+<p>Calls <span class="tt">MR_BaseUnionFind_MR_UndirectedEdgeId_add()</span>. </p>
+
+</div>
+</div>
 <a id="a9f7792a49b2d86cc77e408da7c18e0a0" name="a9f7792a49b2d86cc77e408da7c18e0a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f7792a49b2d86cc77e408da7c18e0a0">&#9670;&#160;</a></span>assign_from_another()</h2>
 

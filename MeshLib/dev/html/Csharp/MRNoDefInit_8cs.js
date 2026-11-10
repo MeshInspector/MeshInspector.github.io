@@ -15,6 +15,8 @@ var MRNoDefInit_8cs =
     [ "MR.NoDefInit_MRGraphVertId", "classMR_1_1NoDefInit__MRGraphVertId.html", "classMR_1_1NoDefInit__MRGraphVertId" ],
     [ "MR.Const_NoDefInit_MRGraphEdgeId", "classMR_1_1Const__NoDefInit__MRGraphEdgeId.html", "classMR_1_1Const__NoDefInit__MRGraphEdgeId" ],
     [ "MR.NoDefInit_MRGraphEdgeId", "classMR_1_1NoDefInit__MRGraphEdgeId.html", "classMR_1_1NoDefInit__MRGraphEdgeId" ],
+    [ "MR.Const_NoDefInit_MRIdMRSurfaceDistanceStartTag", "classMR_1_1Const__NoDefInit__MRIdMRSurfaceDistanceStartTag.html", "classMR_1_1Const__NoDefInit__MRIdMRSurfaceDistanceStartTag" ],
+    [ "MR.NoDefInit_MRIdMRSurfaceDistanceStartTag", "classMR_1_1NoDefInit__MRIdMRSurfaceDistanceStartTag.html", "classMR_1_1NoDefInit__MRIdMRSurfaceDistanceStartTag" ],
     [ "MR.Const_NoDefInit_MRVoxelId", "classMR_1_1Const__NoDefInit__MRVoxelId.html", "classMR_1_1Const__NoDefInit__MRVoxelId" ],
     [ "MR.NoDefInit_MRVoxelId", "classMR_1_1NoDefInit__MRVoxelId.html", "classMR_1_1NoDefInit__MRVoxelId" ],
     [ "MR.Const_NoDefInit_MRPixelId", "classMR_1_1Const__NoDefInit__MRPixelId.html", "classMR_1_1Const__NoDefInit__MRPixelId" ],

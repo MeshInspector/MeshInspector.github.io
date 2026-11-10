@@ -1,5 +1,10 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1PolylineSubdivideSettings.html#afd1b05e15df328d6581de39d05ef0ba2":[9,0,0,14,0,0,5],
+"structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[9,0,0,14,0,0,1],
+"structMR_1_1PolylineToDistanceVolumeParams.html":[9,0,0,19,895],
+"structMR_1_1PolylineToVolumeParams.html":[9,0,0,19,896],
+"structMR_1_1PolylineTraits.html":[9,0,0,1,8],
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[9,0,0,1,9],
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[9,0,0,1,9,0],
 "structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[9,0,0,1,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1SkyPatch.html":[9,0,0,19,520],
 "structMR_1_1SliceInfo.html":[9,0,0,19,900],
 "structMR_1_1SliceInfoBase.html":[9,0,0,19,899],
-"structMR_1_1SmoothCameraMeshDepthSettings.html":[9,0,0,19,155],
-"structMR_1_1SmoothFillingSettings.html":[9,0,0,19,270],
-"structMR_1_1SomeLocalTriangulations.html":[9,0,0,19,336],
-"structMR_1_1SortIntersectionsData.html":[9,0,0,19,435],
-"structMR_1_1SpaceMouseDownListener.html":[9,0,0,19,824],
-"structMR_1_1SpaceMouseMoveListener.html":[9,0,0,19,823]
+"structMR_1_1SmoothCameraMeshDepthSettings.html":[9,0,0,19,155]
 };

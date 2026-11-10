@@ -1,5 +1,6 @@
 var structmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId =
 [
+    [ "add", "structmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#ab6d27fb541d15fbca1717b32ebee19ca", null ],
     [ "assign_from_another", "structmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#a9f7792a49b2d86cc77e408da7c18e0a0", null ],
     [ "find", "structmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#aaf5cbd2976f9c9053d36b73f81b96c86", null ],
     [ "find_update_range", "structmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#a8a17da018ced9154e7988158f0eac064", null ],

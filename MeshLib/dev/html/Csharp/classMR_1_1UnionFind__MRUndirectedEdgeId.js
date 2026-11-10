@@ -6,6 +6,7 @@ var classMR_1_1UnionFind__MRUndirectedEdgeId =
     [ "UnionFind_MRUndirectedEdgeId", "classMR_1_1UnionFind__MRUndirectedEdgeId.html#aff9e7e9270129268b742c8ab690d938d", null ],
     [ "UnionFind_MRUndirectedEdgeId", "classMR_1_1UnionFind__MRUndirectedEdgeId.html#acbdad52bc1cc76fec181bb618c53fb1e", null ],
     [ "UnionFind_MRUndirectedEdgeId", "classMR_1_1UnionFind__MRUndirectedEdgeId.html#a006fc044ad6ada1f0b5cf4575615e328", null ],
+    [ "add", "classMR_1_1UnionFind__MRUndirectedEdgeId.html#ac312f3b7ed7b011cb7fe81394a9679a0", null ],
     [ "assign", "classMR_1_1UnionFind__MRUndirectedEdgeId.html#affc6712377300621943c4222b750af69", null ],
     [ "find", "classMR_1_1UnionFind__MRUndirectedEdgeId.html#a3ea1181c62da29a3be4eecbd048673ff", null ],
     [ "findUpdateRange", "classMR_1_1UnionFind__MRUndirectedEdgeId.html#a9e9d10c1cb4bc56bc167fb2f5ebcb44e", null ],

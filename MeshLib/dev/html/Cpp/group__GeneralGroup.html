@@ -8309,6 +8309,8 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memdesc:ga1d3da8fd15b4043055b9d702644765a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of elements in union-find  <br /></td></tr>
 <tr class="memitem:gaff331c694c13233b9e7f9240c528d789" id="r_gaff331c694c13233b9e7f9240c528d789"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaff331c694c13233b9e7f9240c528d789">MR::BaseUnionFind&lt; I &gt;::reset</a> (size_t <a class="el" href="#ga1d3da8fd15b4043055b9d702644765a9">size</a>)</td></tr>
 <tr class="memdesc:gaff331c694c13233b9e7f9240c528d789"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets union-find to represent given number of elements, each element is the only one in its disjoint set  <br /></td></tr>
+<tr class="memitem:gad04fffd135e0304f13b24adf64be83a0" id="r_gad04fffd135e0304f13b24adf64be83a0"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad04fffd135e0304f13b24adf64be83a0">MR::BaseUnionFind&lt; I &gt;::add</a> ()</td></tr>
+<tr class="memdesc:gad04fffd135e0304f13b24adf64be83a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds new element in its own disjoint set, returns its identifier  <br /></td></tr>
 <tr class="memitem:ga2e67c2e0e6e2df9656e4962c9f2752f5" id="r_ga2e67c2e0e6e2df9656e4962c9f2752f5"><td class="memItemLeft" align="right" valign="top">std::pair&lt; I, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2e67c2e0e6e2df9656e4962c9f2752f5">MR::BaseUnionFind&lt; I &gt;::uniteUnbalanced</a> (I first, I second)</td></tr>
 <tr class="memitem:ga8813df63c1719e52f29ececc5fbbd8e4" id="r_ga8813df63c1719e52f29ececc5fbbd8e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8813df63c1719e52f29ececc5fbbd8e4">MR::BaseUnionFind&lt; I &gt;::united</a> (I first, I second)</td></tr>
 <tr class="memdesc:ga8813df63c1719e52f29ececc5fbbd8e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given two elements are from one set  <br /></td></tr>
@@ -8338,6 +8340,8 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga5ef4500d4204cea8be5933e543edb6b2" id="r_ga5ef4500d4204cea8be5933e543edb6b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5ef4500d4204cea8be5933e543edb6b2">MR::UnionFind&lt; I &gt;::UnionFind</a> (<a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; I &gt; &amp;&amp;base)</td></tr>
 <tr class="memitem:ga6a74089f75f3b88edf1a6fb0beba1e13" id="r_ga6a74089f75f3b88edf1a6fb0beba1e13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6a74089f75f3b88edf1a6fb0beba1e13">MR::UnionFind&lt; I &gt;::reset</a> (size_t <a class="el" href="#ga1d3da8fd15b4043055b9d702644765a9">size</a>)</td></tr>
 <tr class="memdesc:ga6a74089f75f3b88edf1a6fb0beba1e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets union-find to represent given number of elements, each element is the only one in its disjoint set  <br /></td></tr>
+<tr class="memitem:ga4c35309ee0f18ceec7712ef916a55085" id="r_ga4c35309ee0f18ceec7712ef916a55085"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4c35309ee0f18ceec7712ef916a55085">MR::UnionFind&lt; I &gt;::add</a> ()</td></tr>
+<tr class="memdesc:ga4c35309ee0f18ceec7712ef916a55085"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds new element in its own disjoint set, returns its identifier  <br /></td></tr>
 <tr class="memitem:ga0739ab9258f8fc25ef45ce06106fffce" id="r_ga0739ab9258f8fc25ef45ce06106fffce"><td class="memItemLeft" align="right" valign="top">std::pair&lt; I, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0739ab9258f8fc25ef45ce06106fffce">MR::UnionFind&lt; I &gt;::unite</a> (I first, I second)</td></tr>
 <tr class="memitem:ga009ad612aecca5afb9b91768536c406f" id="r_ga009ad612aecca5afb9b91768536c406f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gad07cce64defb1fcef686551aecfd55d0">SizeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga009ad612aecca5afb9b91768536c406f">MR::UnionFind&lt; I &gt;::sizeOfComp</a> (I a)</td></tr>
 <tr class="memdesc:ga009ad612aecca5afb9b91768536c406f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of elements in the set containing given element  <br /></td></tr>
@@ -31564,8 +31568,39 @@ template&lt;typename TreeT&gt; </div>
 
 </div>
 </div>
+<a id="gad04fffd135e0304f13b24adf64be83a0" name="gad04fffd135e0304f13b24adf64be83a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad04fffd135e0304f13b24adf64be83a0">&#9670;&#160;</a></span>add() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">I <a class="el" href="classMR_1_1BaseUnionFind.html">MR::BaseUnionFind</a>&lt; I &gt;::add </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRUnionFind_8h.html">MRMesh/MRUnionFind.h</a>&gt;</code></p>
+
+<p>adds new element in its own disjoint set, returns its identifier </p>
+
+</div>
+</div>
 <a id="ga9c5219708895771c264ae1e50fca117e" name="ga9c5219708895771c264ae1e50fca117e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9c5219708895771c264ae1e50fca117e">&#9670;&#160;</a></span>add()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9c5219708895771c264ae1e50fca117e">&#9670;&#160;</a></span>add() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -31593,6 +31628,37 @@ template&lt;typename TreeT&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MROpenVDBHelper_8h.html">MRVoxels/MROpenVDBHelper.h</a>&gt;</code></p>
 <p>if leaves mode add <span class="tt">l</span> to counter, if tiles mode - add <span class="tt">t</span> to counter </p>
+
+</div>
+</div>
+<a id="ga4c35309ee0f18ceec7712ef916a55085" name="ga4c35309ee0f18ceec7712ef916a55085"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c35309ee0f18ceec7712ef916a55085">&#9670;&#160;</a></span>add() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">I <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::add </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRUnionFind_8h.html">MRMesh/MRUnionFind.h</a>&gt;</code></p>
+
+<p>adds new element in its own disjoint set, returns its identifier </p>
 
 </div>
 </div>

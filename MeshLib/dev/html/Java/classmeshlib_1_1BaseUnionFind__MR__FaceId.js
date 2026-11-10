@@ -3,6 +3,7 @@ var classmeshlib_1_1BaseUnionFind__MR__FaceId =
     [ "BaseUnionFind_MR_FaceId", "classmeshlib_1_1BaseUnionFind__MR__FaceId.html#a7166beda463133e3e116aa668ae7df63", null ],
     [ "BaseUnionFind_MR_FaceId", "classmeshlib_1_1BaseUnionFind__MR__FaceId.html#a6f9cf668764d6b98cdf0d4e67ea932c1", null ],
     [ "BaseUnionFind_MR_FaceId", "classmeshlib_1_1BaseUnionFind__MR__FaceId.html#a8a2270dba8f46af5c04708e446ff5093", null ],
+    [ "add", "classmeshlib_1_1BaseUnionFind__MR__FaceId.html#a26842ae3728c1d577a990a681bf49b6e", null ],
     [ "assignFromAnother", "classmeshlib_1_1BaseUnionFind__MR__FaceId.html#a8c92fe5943b97102c7142235027bf206", null ],
     [ "find", "classmeshlib_1_1BaseUnionFind__MR__FaceId.html#a433be4bf97c7ecf9f7291a9dbce4a06c", null ],
     [ "findUpdateRange", "classmeshlib_1_1BaseUnionFind__MR__FaceId.html#afcd2621e8920bbe3a380f54fdf7b5c33", null ],

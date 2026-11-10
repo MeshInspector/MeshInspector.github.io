@@ -5,6 +5,7 @@ var MRSurfaceDistanceBuilder_8h =
     [ "MR_getFieldAtC", "MRSurfaceDistanceBuilder_8h.html#aeb557f0e881fe5d9148407da89137d62", null ],
     [ "MR_less_MR_VertDistance", "MRSurfaceDistanceBuilder_8h.html#acf99680cd852e320d9031be69414c2b2", null ],
     [ "MR_SurfaceDistanceBuilder_addStart", "MRSurfaceDistanceBuilder_8h.html#a715f015deeb1227fe9733fb9a1e17bcd", null ],
+    [ "MR_SurfaceDistanceBuilder_addStartEdgesAndPoints", "MRSurfaceDistanceBuilder_8h.html#a0d61abea32c8bc38fa836daf5f00f7a6", null ],
     [ "MR_SurfaceDistanceBuilder_addStartRegion", "MRSurfaceDistanceBuilder_8h.html#ab58cf65f768a2d4960105f48fc269e71", null ],
     [ "MR_SurfaceDistanceBuilder_addStartVertices", "MRSurfaceDistanceBuilder_8h.html#aefd3cb7abf15c35f81889c11b0b26f33", null ],
     [ "MR_SurfaceDistanceBuilder_Construct_2", "MRSurfaceDistanceBuilder_8h.html#ad027c90406b8610e6092ccd743739add", null ],

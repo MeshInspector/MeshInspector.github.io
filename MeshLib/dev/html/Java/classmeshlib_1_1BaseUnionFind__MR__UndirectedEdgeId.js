@@ -3,6 +3,7 @@ var classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId =
     [ "BaseUnionFind_MR_UndirectedEdgeId", "classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#a96d0747cd08c351f4481fb4d86799012", null ],
     [ "BaseUnionFind_MR_UndirectedEdgeId", "classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#ab9c11ef94f7c90b46018fd843d8eb8cd", null ],
     [ "BaseUnionFind_MR_UndirectedEdgeId", "classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#a005749198f8aef614320af4d9d511958", null ],
+    [ "add", "classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#a7984d88d4495dc6cf657c37fa046d6fe", null ],
     [ "assignFromAnother", "classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#a518e2345cf22d21801f402a222b32c79", null ],
     [ "find", "classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#af7b1a7294bbfdb9c98a6900e855cd9e0", null ],
     [ "findUpdateRange", "classmeshlib_1_1BaseUnionFind__MR__UndirectedEdgeId.html#af4194c06db5f6ad2f6984ffb13878d09", null ],

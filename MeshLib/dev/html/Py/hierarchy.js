@@ -288,6 +288,9 @@ var hierarchy =
     [ "mrmeshpy.Const_phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag", "classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__R9264c8961954a483288833c1f4380c49.html", [
       [ "mrmeshpy.phmap_flat_hash_map_Id_RegionTag_Id_RegionTag_phmap_Hash_Id_RegionTag_phmap_EqualTo_Id_RegionTag_Allocator_std_pair_Id_RegionTag_const_Id_RegionTag", "classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag__phmap__Hash__Id__RegionTae297fe020697012fdca2083aec6eeaf6.html", null ]
     ] ],
+    [ "mrmeshpy.Const_phmap_flat_hash_map_Id_SurfaceDistanceStartTag_Id_SurfaceDistanceStartTag_phmap_Hash_Id_SurfaceDistanceStartTag_phmap_EqualTo_Id_SurfaceDistanceStartTag_Allocator_std_pair_Id_SurfaceDistanceStartTag_const_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__SurfaceDistanceStartTag__Id__SurfaceDistance3b903a7cb9cee2f170218205241e89d3.html", [
+      [ "mrmeshpy.phmap_flat_hash_map_Id_SurfaceDistanceStartTag_Id_SurfaceDistanceStartTag_phmap_Hash_Id_SurfaceDistanceStartTag_phmap_EqualTo_Id_SurfaceDistanceStartTag_Allocator_std_pair_Id_SurfaceDistanceStartTag_const_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1phmap__flat__hash__map__Id__SurfaceDistanceStartTag__Id__SurfaceDistanceStartTafe9194a3db1ab14f6e4f20a08e37724e.html", null ]
+    ] ],
     [ "mrmeshpy.Const_phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag", "classmrmeshpy_1_1Const__phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id_ea79adfb4caca75bbb5cf10cd4b3b867.html", [
       [ "mrmeshpy.phmap_flat_hash_map_Id_TextureTag_Id_TextureTag_phmap_Hash_Id_TextureTag_phmap_EqualTo_Id_TextureTag_Allocator_std_pair_Id_TextureTag_const_Id_TextureTag", "classmrmeshpy_1_1phmap__flat__hash__map__Id__TextureTag__Id__TextureTag__phmap__Hash__Id__Texturc040ae63a8de423822c84db1f3d5e77c.html", null ]
     ] ],
@@ -647,6 +650,9 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.Const_std_vector_Id_RegionTag_Allocator_Id_RegionTag", "classmrmeshpy_1_1Const__std__vector__Id__RegionTag__Allocator__Id__RegionTag.html", [
       [ "mrmeshpy.std_vector_Id_RegionTag_Allocator_Id_RegionTag", "classmrmeshpy_1_1std__vector__Id__RegionTag__Allocator__Id__RegionTag.html", null ]
+    ] ],
+    [ "mrmeshpy.Const_std_vector_Id_SurfaceDistanceStartTag_Allocator_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1Const__std__vector__Id__SurfaceDistanceStartTag__Allocator__Id__SurfaceDistanceStartTag.html", [
+      [ "mrmeshpy.std_vector_Id_SurfaceDistanceStartTag_Allocator_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1std__vector__Id__SurfaceDistanceStartTag__Allocator__Id__SurfaceDistanceStartTag.html", null ]
     ] ],
     [ "mrmeshpy.Const_std_vector_Id_TextureTag_Allocator_Id_TextureTag", "classmrmeshpy_1_1Const__std__vector__Id__TextureTag__Allocator__Id__TextureTag.html", [
       [ "mrmeshpy.std_vector_Id_TextureTag_Allocator_Id_TextureTag", "classmrmeshpy_1_1std__vector__Id__TextureTag__Allocator__Id__TextureTag.html", null ]
@@ -1218,6 +1224,9 @@ var hierarchy =
     [ "mrmeshpy.ConstBaseUnionFind_FaceId", "classmrmeshpy_1_1ConstBaseUnionFind__FaceId.html", [
       [ "mrmeshpy.BaseUnionFind_FaceId", "classmrmeshpy_1_1BaseUnionFind__FaceId.html", null ]
     ] ],
+    [ "mrmeshpy.ConstBaseUnionFind_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1ConstBaseUnionFind__Id__SurfaceDistanceStartTag.html", [
+      [ "mrmeshpy.BaseUnionFind_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1BaseUnionFind__Id__SurfaceDistanceStartTag.html", null ]
+    ] ],
     [ "mrmeshpy.ConstBaseUnionFind_UndirectedEdgeId", "classmrmeshpy_1_1ConstBaseUnionFind__UndirectedEdgeId.html", [
       [ "mrmeshpy.BaseUnionFind_UndirectedEdgeId", "classmrmeshpy_1_1BaseUnionFind__UndirectedEdgeId.html", [
         [ "mrmeshpy.UnionFind_UndirectedEdgeId", "classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html", null ]
@@ -1320,6 +1329,7 @@ var hierarchy =
         [ "mrmeshpy.RegionBitSet", "classmrmeshpy_1_1RegionBitSet.html", null ],
         [ "mrmeshpy.TextureBitSet", "classmrmeshpy_1_1TextureBitSet.html", null ],
         [ "mrmeshpy.TypedBitSet_Id_ICPElemtTag", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html", null ],
+        [ "mrmeshpy.TypedBitSet_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1TypedBitSet__Id__SurfaceDistanceStartTag.html", null ],
         [ "mrmeshpy.UndirectedEdgeBitSet", "classmrmeshpy_1_1UndirectedEdgeBitSet.html", null ],
         [ "mrmeshpy.VertBitSet", "classmrmeshpy_1_1VertBitSet.html", null ],
         [ "mrmeshpy.VoxelBitSet", "classmrmeshpy_1_1VoxelBitSet.html", null ]
@@ -1357,6 +1367,9 @@ var hierarchy =
       [ "mrmeshpy.ConstTypedBitSet_Id_ICPElemtTag", "classmrmeshpy_1_1ConstTypedBitSet__Id__ICPElemtTag.html", [
         [ "mrmeshpy.TypedBitSet_Id_ICPElemtTag", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html", null ]
       ] ],
+      [ "mrmeshpy.ConstTypedBitSet_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1ConstTypedBitSet__Id__SurfaceDistanceStartTag.html", [
+        [ "mrmeshpy.TypedBitSet_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1TypedBitSet__Id__SurfaceDistanceStartTag.html", null ]
+      ] ],
       [ "mrmeshpy.ConstUndirectedEdgeBitSet", "classmrmeshpy_1_1ConstUndirectedEdgeBitSet.html", [
         [ "mrmeshpy.UndirectedEdgeBitSet", "classmrmeshpy_1_1UndirectedEdgeBitSet.html", null ]
       ] ],
@@ -1383,6 +1396,9 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstBMap_Id_ICPElemtTag_Id_ICPElemtTag", "classmrmeshpy_1_1ConstBMap__Id__ICPElemtTag__Id__ICPElemtTag.html", [
       [ "mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag", "classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstBMap_Id_SurfaceDistanceStartTag_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1ConstBMap__Id__SurfaceDistanceStartTag__Id__SurfaceDistanceStartTag.html", [
+      [ "mrmeshpy.BMap_Id_SurfaceDistanceStartTag_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1BMap__Id__SurfaceDistanceStartTag__Id__SurfaceDistanceStartTag.html", null ]
     ] ],
     [ "mrmeshpy.ConstBMap_NodeId_NodeId", "classmrmeshpy_1_1ConstBMap__NodeId__NodeId.html", [
       [ "mrmeshpy.BMap_NodeId_NodeId", "classmrmeshpy_1_1BMap__NodeId__NodeId.html", null ]
@@ -1511,6 +1527,9 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstBuffer_Id_ICPElemtTag_Id_ICPElemtTag", "classmrmeshpy_1_1ConstBuffer__Id__ICPElemtTag__Id__ICPElemtTag.html", [
       [ "mrmeshpy.Buffer_Id_ICPElemtTag_Id_ICPElemtTag", "classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstBuffer_Id_SurfaceDistanceStartTag_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1ConstBuffer__Id__SurfaceDistanceStartTag__Id__SurfaceDistanceStartTag.html", [
+      [ "mrmeshpy.Buffer_Id_SurfaceDistanceStartTag_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1Buffer__Id__SurfaceDistanceStartTag__Id__SurfaceDistanceStartTag.html", null ]
     ] ],
     [ "mrmeshpy.ConstBuffer_NodeId_NodeId", "classmrmeshpy_1_1ConstBuffer__NodeId__NodeId.html", [
       [ "mrmeshpy.Buffer_NodeId_NodeId", "classmrmeshpy_1_1Buffer__NodeId__NodeId.html", null ]
@@ -2348,6 +2367,14 @@ var hierarchy =
         [ "mrmeshpy.NoDefInit_Id_ICPElemtTag", "classmrmeshpy_1_1NoDefInit__Id__ICPElemtTag.html", null ]
       ] ]
     ] ],
+    [ "mrmeshpy.ConstId_SurfaceDistanceStartTag", "classmrmeshpy_1_1ConstId__SurfaceDistanceStartTag.html", [
+      [ "mrmeshpy.ConstNoDefInit_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1ConstNoDefInit__Id__SurfaceDistanceStartTag.html", [
+        [ "mrmeshpy.NoDefInit_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1NoDefInit__Id__SurfaceDistanceStartTag.html", null ]
+      ] ],
+      [ "mrmeshpy.Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1Id__SurfaceDistanceStartTag.html", [
+        [ "mrmeshpy.NoDefInit_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1NoDefInit__Id__SurfaceDistanceStartTag.html", null ]
+      ] ]
+    ] ],
     [ "meshlib.mrmeshpy.ConstIFastWindingNumber", null, [
       [ "mrcudapy.ConstFastWindingNumber", "classmrcudapy_1_1ConstFastWindingNumber.html", [
         [ "mrcudapy.FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", null ]
@@ -2938,6 +2965,9 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstNoCtor_Id_ICPElemtTag", "classmrmeshpy_1_1ConstNoCtor__Id__ICPElemtTag.html", [
       [ "mrmeshpy.NoCtor_Id_ICPElemtTag", "classmrmeshpy_1_1NoCtor__Id__ICPElemtTag.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstNoCtor_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1ConstNoCtor__Id__SurfaceDistanceStartTag.html", [
+      [ "mrmeshpy.NoCtor_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1NoCtor__Id__SurfaceDistanceStartTag.html", null ]
     ] ],
     [ "mrmeshpy.ConstNoCtor_NodeId", "classmrmeshpy_1_1ConstNoCtor__NodeId.html", [
       [ "mrmeshpy.NoCtor_NodeId", "classmrmeshpy_1_1NoCtor__NodeId.html", null ]
@@ -4164,6 +4194,9 @@ var hierarchy =
     [ "mrmeshpy.ConstVector_FanRecord_VertId", "classmrmeshpy_1_1ConstVector__FanRecord__VertId.html", [
       [ "mrmeshpy.Vector_FanRecord_VertId", "classmrmeshpy_1_1Vector__FanRecord__VertId.html", null ]
     ] ],
+    [ "mrmeshpy.ConstVector_float_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1ConstVector__float__Id__SurfaceDistanceStartTag.html", [
+      [ "mrmeshpy.Vector_float_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1Vector__float__Id__SurfaceDistanceStartTag.html", null ]
+    ] ],
     [ "mrmeshpy.ConstVector_Graph_EndVertices_GraphEdgeId", "classmrmeshpy_1_1ConstVector__Graph__EndVertices__GraphEdgeId.html", [
       [ "mrmeshpy.Vector_Graph_EndVertices_GraphEdgeId", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html", null ]
     ] ],
@@ -4178,6 +4211,12 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstVector_Id_ICPElemtTag_Id_ICPElemtTag", "classmrmeshpy_1_1ConstVector__Id__ICPElemtTag__Id__ICPElemtTag.html", [
       [ "mrmeshpy.Vector_Id_ICPElemtTag_Id_ICPElemtTag", "classmrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_Id_SurfaceDistanceStartTag_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1ConstVector__Id__SurfaceDistanceStartTag__Id__SurfaceDistanceStartTag.html", [
+      [ "mrmeshpy.Vector_Id_SurfaceDistanceStartTag_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1Vector__Id__SurfaceDistanceStartTag__Id__SurfaceDistanceStartTag.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_Id_SurfaceDistanceStartTag_VertId", "classmrmeshpy_1_1ConstVector__Id__SurfaceDistanceStartTag__VertId.html", [
+      [ "mrmeshpy.Vector_Id_SurfaceDistanceStartTag_VertId", "classmrmeshpy_1_1Vector__Id__SurfaceDistanceStartTag__VertId.html", null ]
     ] ],
     [ "mrmeshpy.ConstVector_int", "classmrmeshpy_1_1ConstVector__int.html", [
       [ "mrmeshpy.Vector_int", "classmrmeshpy_1_1Vector__int.html", null ]
@@ -4281,6 +4320,9 @@ var hierarchy =
     [ "mrmeshpy.ConstVector_Vector2d_VertId", "classmrmeshpy_1_1ConstVector__Vector2d__VertId.html", [
       [ "mrmeshpy.Vector_Vector2d_VertId", "classmrmeshpy_1_1Vector__Vector2d__VertId.html", null ]
     ] ],
+    [ "mrmeshpy.ConstVector_Vector3f_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1ConstVector__Vector3f__Id__SurfaceDistanceStartTag.html", [
+      [ "mrmeshpy.Vector_Vector3f_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1Vector__Vector3f__Id__SurfaceDistanceStartTag.html", null ]
+    ] ],
     [ "mrmeshpy.ConstVector_Vector3i_VertId", "classmrmeshpy_1_1ConstVector__Vector3i__VertId.html", [
       [ "mrmeshpy.Vector_Vector3i_VertId", "classmrmeshpy_1_1Vector__Vector3i__VertId.html", null ]
     ] ],
@@ -4301,6 +4343,9 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ConstVector_VertId_EdgeId", "classmrmeshpy_1_1ConstVector__VertId__EdgeId.html", [
       [ "mrmeshpy.Vector_VertId_EdgeId", "classmrmeshpy_1_1Vector__VertId__EdgeId.html", null ]
+    ] ],
+    [ "mrmeshpy.ConstVector_VertId_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1ConstVector__VertId__Id__SurfaceDistanceStartTag.html", [
+      [ "mrmeshpy.Vector_VertId_Id_SurfaceDistanceStartTag", "classmrmeshpy_1_1Vector__VertId__Id__SurfaceDistanceStartTag.html", null ]
     ] ],
     [ "mrmeshpy.ConstVector_VoxelId_FaceId", "classmrmeshpy_1_1ConstVector__VoxelId__FaceId.html", [
       [ "mrmeshpy.Vector_VoxelId_FaceId", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html", null ]
