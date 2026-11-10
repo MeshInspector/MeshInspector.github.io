@@ -383,6 +383,7 @@ Functions</h2></td></tr>
 <p><code>#include &lt;<a class="el" href="MRMeshDecimate_8h.html">MRMesh/MRMeshDecimate.h</a>&gt;</code></p>
 
 <p>Performs mesh simplification in mesh region according to the settings. </p>
+<p>A closed tetrahedron is never collapsed in two triangles lying on each other: it is removed completely if its four vertices can be collapsed in one point within maxError (for ShortestEdgeFirst: none of its edges is longer than maxError), and preCollapse, the limits on deleted faces and vertices, region, fixed boundary vertices, notFlippable and edgesToCollapse permit it; otherwise it is kept whole.</p>
 <div class="fragment"><div class="line">    <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
 <div class="line">    <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
 <div class="line">    mesh.<a class="code hl_function" href="structMR_1_1Mesh.html#a065ab2187cbcc73a21aa4bab438dc7fa">packOptimally</a>( <span class="keyword">false</span> );</div>

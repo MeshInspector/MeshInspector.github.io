@@ -1242,6 +1242,7 @@ Input mesh will be changed in any case, if <span class="tt">bad faces</span> are
 </div><div class="memdoc">
 
 <p>Performs mesh simplification in mesh region according to the settings. </p>
+<p>A closed tetrahedron is never collapsed in two triangles lying on each other: it is removed completely if its four vertices can be collapsed in one point within maxError (for ShortestEdgeFirst: none of its edges is longer than maxError), and preCollapse, the limits on deleted faces and vertices, region, fixed boundary vertices, notFlippable and edgesToCollapse permit it; otherwise it is kept whole. </p>
 
 </div>
 </div>

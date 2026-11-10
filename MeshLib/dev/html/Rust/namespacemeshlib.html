@@ -13375,6 +13375,7 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 </div><div class="memdoc">
 
 <p>Performs mesh simplification in mesh region according to the settings. </p>
+<p>A closed tetrahedron is never collapsed in two triangles lying on each other: it is removed completely if its four vertices can be collapsed in one point within maxError (for ShortestEdgeFirst: none of its edges is longer than maxError), and preCollapse, the limits on deleted faces and vertices, region, fixed boundary vertices, notFlippable and edgesToCollapse permit it; otherwise it is kept whole.</p>
 <div class="fragment"></div><!-- fragment --><div class="image">
 <img src="decimate_before.png" alt="" width="350cm"/>
 <div class="caption">

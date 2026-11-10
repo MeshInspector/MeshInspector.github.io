@@ -26627,7 +26627,7 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 </div><div class="memdoc">
 
 <p>Performs mesh simplification in mesh region according to the settings. </p>
-<div class="fragment"></div><!-- fragment --> <div class="image">
+<p>A closed tetrahedron is never collapsed in two triangles lying on each other: it is removed completely if its four vertices can be collapsed in one point within maxError (for ShortestEdgeFirst: none of its edges is longer than maxError), and preCollapse, the limits on deleted faces and vertices, region, fixed boundary vertices, notFlippable and edgesToCollapse permit it; otherwise it is kept whole. </p><div class="fragment"></div><!-- fragment --> <div class="image">
 <img src="decimate_before.png" alt=""/>
 <div class="caption">
 &quot;Before&quot; width = 350cm</div></div>
@@ -56495,7 +56495,7 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line"><a class="code hl_function" href="#a5acec4e437ef0a28be3ff53f86661858">decimateMesh</a>( mesh, <a class="code hl_struct" href="classMR_1_1DecimateSettings.html">DecimateSettings</a>{ .preCollapse = preCollapse } );</div>
 <div class="ttc" id="aclassMR_1_1DecimateSettings_html"><div class="ttname"><a href="classMR_1_1DecimateSettings.html">MR.DecimateSettings</a></div><div class="ttdoc">Parameters structure for MR.decimateMesh.</div><div class="ttdef"><b>Definition</b> MRMeshDecimate.cs:714</div></div>
 <div class="ttc" id="aclassMR_html_a50c216fceb589c982d43e7396bea561b"><div class="ttname"><a href="#a50c216fceb589c982d43e7396bea561b">MR.meshPreCollapseVertAttribute</a></div><div class="ttdeci">static unsafe MR.Std.Function_Bool_From_MREdgeId_ConstMRVector3fRef meshPreCollapseVertAttribute(MR.Const_Mesh mesh, MR.Const_MeshAttributesToUpdate params_)</div><div class="ttdoc">Please use this callback when you decimate a mesh with associated data with each vertex recalculate t...</div><div class="ttdef"><b>Definition</b> MRMeshDecimateCallbacks.cs:20</div></div>
-<div class="ttc" id="aclassMR_html_a5acec4e437ef0a28be3ff53f86661858"><div class="ttname"><a href="#a5acec4e437ef0a28be3ff53f86661858">MR.decimateMesh</a></div><div class="ttdeci">static unsafe MR.DecimateResult decimateMesh(MR.Mesh mesh, MR.Const_DecimateSettings? settings=null)</div><div class="ttdoc">Performs mesh simplification in mesh region according to the settings.</div><div class="ttdef"><b>Definition</b> MRMeshDecimate.cs:2436</div></div>
+<div class="ttc" id="aclassMR_html_a5acec4e437ef0a28be3ff53f86661858"><div class="ttname"><a href="#a5acec4e437ef0a28be3ff53f86661858">MR.decimateMesh</a></div><div class="ttdeci">static unsafe MR.DecimateResult decimateMesh(MR.Mesh mesh, MR.Const_DecimateSettings? settings=null)</div><div class="ttdoc">Performs mesh simplification in mesh region according to the settings.</div><div class="ttdef"><b>Definition</b> MRMeshDecimate.cs:2440</div></div>
 </div><!-- fragment --><p> Generated from function <span class="tt"><a class="el" href="#a50c216fceb589c982d43e7396bea561b" title="Please use this callback when you decimate a mesh with associated data with each vertex recalculate t...">MR.meshPreCollapseVertAttribute</a></span>. </p>
 
 </div>
