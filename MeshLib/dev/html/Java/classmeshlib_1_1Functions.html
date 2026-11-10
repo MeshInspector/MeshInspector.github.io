@@ -25146,7 +25146,7 @@ Trivial fill with smooth</div></div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">firstIntersectionOnly</td><td>if true then the function returns at most one pair of intersecting triangles and returns faster</td></tr>
+    <tr><td class="paramname">firstIntersectionOnly</td><td>if true then the function returns at most one pair of intersecting triangles (the same in every run), testing the triangles during the tree traversal and stopping it as soon as an intersection is found</td></tr>
   </table>
   </dd>
 </dl>
@@ -44185,8 +44185,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">    meshParams.texturePerFace = &amp;texturePerFace;</div>
 <div class="line">subs.onEdgeSplit = <a class="code hl_function" href="#aa382a636f7160ba96b64a8f8c637e570">meshOnEdgeSplitAttribute</a>( *obj_-&gt;varMesh(), meshParams );</div>
 <div class="line"><a class="code hl_function" href="#af5dddfa988210f3dc5340ef6cf87dad8">subdivideMesh</a>( *obj_-&gt;varMesh(), subs );</div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:40695</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:40580</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_aa382a636f7160ba96b64a8f8c637e570"><div class="ttname"><a href="#aa382a636f7160ba96b64a8f8c637e570">meshlib.Functions.meshOnEdgeSplitAttribute</a></div><div class="ttdeci">static meshlib.std_function_void_from_MR_EdgeId_MR_EdgeId meshOnEdgeSplitAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:40696</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_af5dddfa988210f3dc5340ef6cf87dad8"><div class="ttname"><a href="#af5dddfa988210f3dc5340ef6cf87dad8">meshlib.Functions.subdivideMesh</a></div><div class="ttdeci">static int subdivideMesh(meshlib.Mesh mesh, meshlib.SubdivideSettings settings)</div><div class="ttdef"><b>Definition</b> Functions.java:40581</div></div>
 <div class="ttc" id="aclassmeshlib_1_1MeshAttributesToUpdate_html"><div class="ttname"><a href="classmeshlib_1_1MeshAttributesToUpdate.html">meshlib.MeshAttributesToUpdate</a></div><div class="ttdef"><b>Definition</b> MeshAttributesToUpdate.java:11</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshOnEdgeSplitAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshOnEdgeSplitAttribute()</span>. </p>
@@ -44353,8 +44353,8 @@ All new faces should be parallel to given direction It is measured in squared le
 <div class="line">auto preCollapse = <a class="code hl_function" href="#a166299cba3c97de3a69adc7140487547">meshPreCollapseVertAttribute</a>( mesh, meshParams );</div>
 <div class="line"><a class="code hl_function" href="#a9376f6e96aa742bea4a4257595c70838">decimateMesh</a>( mesh, <a class="code hl_class" href="classmeshlib_1_1DecimateSettings.html">DecimateSettings</a>{ .preCollapse = preCollapse } );</div>
 <div class="ttc" id="aclassmeshlib_1_1DecimateSettings_html"><div class="ttname"><a href="classmeshlib_1_1DecimateSettings.html">meshlib.DecimateSettings</a></div><div class="ttdef"><b>Definition</b> DecimateSettings.java:17</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_a166299cba3c97de3a69adc7140487547"><div class="ttname"><a href="#a166299cba3c97de3a69adc7140487547">meshlib.Functions.meshPreCollapseVertAttribute</a></div><div class="ttdeci">static meshlib.std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref meshPreCollapseVertAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:37743</div></div>
-<div class="ttc" id="aclassmeshlib_1_1Functions_html_a9376f6e96aa742bea4a4257595c70838"><div class="ttname"><a href="#a9376f6e96aa742bea4a4257595c70838">meshlib.Functions.decimateMesh</a></div><div class="ttdeci">static meshlib.DecimateResult decimateMesh(meshlib.Mesh mesh, meshlib.DecimateSettings settings)</div><div class="ttdoc">Performs mesh simplification in mesh region according to the settings.</div><div class="ttdef"><b>Definition</b> Functions.java:37508</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_a166299cba3c97de3a69adc7140487547"><div class="ttname"><a href="#a166299cba3c97de3a69adc7140487547">meshlib.Functions.meshPreCollapseVertAttribute</a></div><div class="ttdeci">static meshlib.std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref meshPreCollapseVertAttribute(meshlib.Mesh mesh, meshlib.MeshAttributesToUpdate params)</div><div class="ttdef"><b>Definition</b> Functions.java:37744</div></div>
+<div class="ttc" id="aclassmeshlib_1_1Functions_html_a9376f6e96aa742bea4a4257595c70838"><div class="ttname"><a href="#a9376f6e96aa742bea4a4257595c70838">meshlib.Functions.decimateMesh</a></div><div class="ttdeci">static meshlib.DecimateResult decimateMesh(meshlib.Mesh mesh, meshlib.DecimateSettings settings)</div><div class="ttdoc">Performs mesh simplification in mesh region according to the settings.</div><div class="ttdef"><b>Definition</b> Functions.java:37509</div></div>
 </div><!-- fragment --><p>Generated from function <span class="tt">MR::meshPreCollapseVertAttribute</span>.</p>
 <p>Calls <span class="tt">MR_meshPreCollapseVertAttribute()</span>. </p>
 
